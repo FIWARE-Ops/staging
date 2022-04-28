@@ -36,12 +36,28 @@ input.forEach((item) => {
 		item.iHub = true;
 	}
 
+	const obj = {};
+	obj.company = item['Organisation Name'];
+	obj.name = item['Product Name'];
+	obj.img = item['Logo'];
+	obj.fiwareMember = item.Member;
+	obj.fiwareIhub = item.iHub;
+	obj.companyLink = item['Product Website'];
+	obj.domain = item['Domains'];
+	obj.type = item['Type of Product'];
+	obj.technology = item['Technologies'];
+	obj.year = item['Certified in'];
+	obj.content = item['Excerpt'];
+
+
+
 	if (item['Category'] === 'Powered by FIWARE') {
-		poweredBy.push(item);
+
+		poweredBy.push(obj);
 	} else if (item['Category'] === 'FIWARE-Ready') {
-		ready.push(item);
+		ready.push(obj);
 	} else if (item['Category'] === 'Services') {
-		service.push(item);
+		service.push(obj);
 	}	else {
 		console.log(item['Category'])
 	}
