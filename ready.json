@@ -1,0 +1,1392 @@
+[
+  {
+    "Status": "Pending",
+    "Organisation Name": "Agricolus s.r.l.",
+    "Product Name": "Agricolus Ecosystem",
+    "Name": "",
+    "Surname": "",
+    "Email": "a.cruciani@agricolus.com",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "http://www.agricolus.com",
+    "Excerpt": "AGRICOLUS is a cloud applications ecosystem for precision farming with multiple purposes: disease awareness and forecasts, crop monitoring, decision support system for treatments and fertilizers, farm management and end to end traceability bringing valuable information to final users.",
+    "Certified in": 2017,
+    "Domains": [
+      "AgriFood"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/agricolus/Agricolus_logo.jpg"
+  },
+  {
+    "Status": "Updated",
+    "Organisation Name": "Axion",
+    "Product Name": "Traxion",
+    "Name": "David",
+    "Surname": "GALAN",
+    "Email": "dgalan@axion.es",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "Software enabler",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "https://www.axion.es/en/services-axion/iot-and-smart-solutions-and-platforms/security-vertical-solution-traxion/",
+    "Excerpt": "Traxión is an automatic system for inflow and level of occupancy control, based on non-intrusive feedback sensors via IP cameras with integrated video analytics",
+    "Certified in": 2020,
+    "Domains": [
+      "Cities",
+      "Logistics",
+      "Retail and Wholesale",
+      "Security",
+      "Telecommunication"
+    ],
+    "Technologies": [
+      "Data Analytics",
+      "Internet of Things",
+      "Software as a Service"
+    ],
+    "Logo": "https://www.fiware.org/wp-content/uploads/69bb3ca4f376885dec03a71d96501fb0.png"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "Breeze Technologies",
+    "Product Name": "Breeze Air Quality Sensors",
+    "Name": "",
+    "Surname": "",
+    "Email": "hello@breeze-technologies.de",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "http://www.breeze-technologies.de/solutions/",
+    "Excerpt": "Low-cost air quality sensors delivering highly accurate real-time air quality data about all important indicators.",
+    "Certified in": 2019,
+    "Domains": [
+      "Cities",
+      "Industry",
+      "Ports"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/heinecke/xLow2ac3Mu/breeze_logo_normal_web.png"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "Datakorum Solutions SL",
+    "Product Name": "LB40",
+    "Name": "",
+    "Surname": "",
+    "Email": "info@datakorum.com",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "http://e3tcity.com/en/lb40/",
+    "Excerpt": "E3TLight devices integrates remote control, on/off switching of streetlight network, dimming and scheduled programming, monitoring electrical parameters and WiFi communication, in a single unit.",
+    "Certified in": 2017,
+    "Domains": [
+      "Cities"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/W6isKe8NeM/download.png"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "Datakorum Solutions SL",
+    "Product Name": "LS40",
+    "Name": "",
+    "Surname": "",
+    "Email": "info@datakorum.com",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "http://e3tcity.com/en/ls40/",
+    "Excerpt": "E3TLight system allows remote control and monitoring of any new or existing streetlight network. This control is achieved by installing one E3TLight device just before the lights section we want to command.",
+    "Certified in": 2017,
+    "Domains": [
+      "Cities"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/wJ82iKq5pt/download.png"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "Datakorum Solutions SL",
+    "Product Name": "MS41",
+    "Name": "",
+    "Surname": "",
+    "Email": "info@datakorum.com",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "http://e3tcity.com/en/ms41/",
+    "Excerpt": "E3TMeter controllers integrate in one unique device remote control (on/off switching), monitoring of energy parameters of a electric board, either monophasic or triphasic and WiFi communication.",
+    "Certified in": 2017,
+    "Domains": [
+      "Cities"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/HXNoZFgK2d/download.png"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "Datakorum Solutions SL",
+    "Product Name": "MB43",
+    "Name": "",
+    "Surname": "",
+    "Email": "info@datakorum.com",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "http://e3tcity.com/en/mb43/",
+    "Excerpt": "E3TMeter controllers integrate in one unique device remote control (on/off switching), monitoring of energy parameters of a electric board, either monophasic or triphasic and WiFi communication.",
+    "Certified in": 2017,
+    "Domains": [
+      "Cities"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/NwEQn5xqMC/download.png"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "Datakorum Solutions SL",
+    "Product Name": "SS47",
+    "Name": "",
+    "Surname": "",
+    "Email": "info@datakorum.com",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "http://e3tcity.com/en/ss47/",
+    "Excerpt": "IoT sensor monitoring system allows any analog or digital sensor to behave as if it were a IoT sensor, and establishing a real-time connection between the cloud and sensors.",
+    "Certified in": 2017,
+    "Domains": [
+      "Cities"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/xnAC9r2MLb/download.png"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "Datakorum Solutions SL",
+    "Product Name": "SC40",
+    "Name": "",
+    "Surname": "",
+    "Email": "info@datakorum.com",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "http://e3tcity.com/en/sc40/",
+    "Excerpt": "This system allows any analog or digital sensor to behave as if it were a IoT sensor, and establishing a real-time connection between the cloud and sensors. The measures taken by sensors can be sent instantaneusly, and enable events, alerts and alarms associated to them.",
+    "Certified in": 2017,
+    "Domains": [
+      "Cities"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/E8D4cJm4uP/download.png"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "Datakorum Solutions SL",
+    "Product Name": "CS40",
+    "Name": "",
+    "Surname": "",
+    "Email": "info@datakorum.com",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "http://e3tcity.com/en/cs40/",
+    "Excerpt": "CS40 controller can act remotely on any heating and air conditioning facility, in order to support Smart Building service needs.",
+    "Certified in": 2017,
+    "Domains": [
+      "Cities"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/HPZu6sHSmr/download.png"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "Datakorum Solutions SL",
+    "Product Name": "BEAT",
+    "Name": "",
+    "Surname": "",
+    "Email": "info@datakorum.com",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "https://www.datakorum.com",
+    "Excerpt": "We provide different solutions that have been designed in order to simplify and optimize waste collection and treatment processes for Smart Cities. Also, we offer load control or dynamic weighing systems in vehicles and provide solutions that have been designed to make work processes easier.",
+    "Certified in": 2018,
+    "Domains": [
+      "Cities"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/4PFjBJ2sa2/datakorum_azul.jpg"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "Datakorum Solutions SL",
+    "Product Name": "LANE",
+    "Name": "",
+    "Surname": "",
+    "Email": "info@datakorum.com",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "https://www.datakorum.com",
+    "Excerpt": "Intelligent Remote Control for Street Lighting",
+    "Certified in": 2018,
+    "Domains": [
+      "Cities"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/pjgJtkpYES/datakorum_azul.jpg"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "Datakorum Solutions SL",
+    "Product Name": "PEAK",
+    "Name": "",
+    "Surname": "",
+    "Email": "info@datakorum.com",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "https://www.datakorum.com",
+    "Excerpt": "Remote Control and Monitoring System",
+    "Certified in": 2018,
+    "Domains": [
+      "Cities"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/e4QPn7yomT/datakorum_azul.jpg"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "Datakorum Solutions SL",
+    "Product Name": "TINY",
+    "Name": "",
+    "Surname": "",
+    "Email": "info@datakorum.com",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "https://www.datakorum.com",
+    "Excerpt": "Smart point-to-point lighting controller best suited for lighting manufacturers.",
+    "Certified in": 2018,
+    "Domains": [
+      "Cities"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/LKxT6rRex5/datakorum_azul.jpg"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "Datakorum Solutions SL",
+    "Product Name": "POLE",
+    "Name": "",
+    "Surname": "",
+    "Email": "info@datakorum.com",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "https://www.datakorum.com",
+    "Excerpt": "Smart point-to-point lighting controller best suited for Smart Lighting projects.",
+    "Certified in": 2018,
+    "Domains": [
+      "Cities"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/MdsLGbqFHd/datakorum_azul.jpg"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "Datakorum Solutions SL",
+    "Product Name": "PLUG",
+    "Name": "",
+    "Surname": "",
+    "Email": "info@datakorum.com",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "https://www.datakorum.com",
+    "Excerpt": "Smart point-to-point lighting controller best suited for street lamps that meet ANSI C136.41.",
+    "Certified in": 2018,
+    "Domains": [
+      "Cities"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/X5fGaSoFdb/datakorum_azul.jpg"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "Device Gateway SA",
+    "Product Name": "UDG",
+    "Name": "",
+    "Surname": "",
+    "Email": "admin@devicegateway.com",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "http://www.devicegateway.com/udf-for-smart-cities",
+    "Excerpt": "UDG provides a perfect solution for smart cities project. It has been designed to handle large scale deploymentswith heterogeneous IoT systems. By enabling different classes of IoT devices, sensors and actuators into a common data plane, UDG highly simplifies the management of such deployments.",
+    "Certified in": 2017,
+    "Domains": [
+      "Cities"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/fernando.lopez/udg_1_88x36.png"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "Digitalilusion S.L.",
+    "Product Name": "Outbeacon",
+    "Name": "",
+    "Surname": "",
+    "Email": "info@digitalilusion.com",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "https://outbarriers.com",
+    "Excerpt": "Bluetooth Low Energy device that works as a beacon for the visibly impaired.",
+    "Certified in": 2017,
+    "Domains": [
+      "Cities"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/J5djjhCJEt/aaeaaqaaaaaaaaobaaaajdnkytcxy2nmltmxzgutndg3yi1hnjdhltjhmtk2mthhymiwma.png"
+  },
+  {
+    "Status": "Updated",
+    "Organisation Name": "Distromel, S.A.",
+    "Product Name": "siGEUS",
+    "Name": "Francisco",
+    "Surname": "Marías Ferrer",
+    "Email": "francisco.marias@distromel.com",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "Software enabler",
+    "Member": true,
+    "iHub": false,
+    "Product Website": "https://www.distromel.com/",
+    "Excerpt": "We provide different solutions that have been designed in order to simplify and optimise waste collection and treatment processes for Smart Cities. Also, we offer load control or dynamic weighing systems in vehicles and provide solutions that have been designed to make work processes easier.",
+    "Certified in": 2020,
+    "Domains": [
+      "Cities",
+      "Logistics",
+      "Mobility",
+      "Sustainability",
+      "Waste Management"
+    ],
+    "Technologies": [
+      "Artificial Intelligence",
+      "Internet of Things",
+      "Mobility and Location",
+      "Sensory Systems",
+      "Software as a Service"
+    ],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/francisco.marias@distromel.com/BvHMcmQ3jc/logo.png"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "e3tcity, S.L.",
+    "Product Name": "LC40",
+    "Name": "",
+    "Surname": "",
+    "Email": "info@e3tcity.com",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "http://e3tcity.com/en/lc40/",
+    "Excerpt": "LC40 device allows remote control and monitoring of any new or existing streetlight network. This control is achieved by installing one E3TLight device just before the lights section we want to command.",
+    "Certified in": 2017,
+    "Domains": [
+      "Cities"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/fernando.lopez/logo-white-bg@2x1.png"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "Econverter energía e innovación S.L",
+    "Product Name": "Ecogiro",
+    "Name": "",
+    "Surname": "",
+    "Email": "info@econverter.es",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "http://www.econverter.es/mini-eolica.html",
+    "Excerpt": "Mini Wind Turbines: Energy sustainable energy solutions that contribute to your savings",
+    "Certified in": 2018,
+    "Domains": [
+      "Cities",
+      "Home"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/echuHiprD3/econverter.jpg"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "Econverter Energía e Innovación SL",
+    "Product Name": "SecuryCable",
+    "Name": "",
+    "Surname": "",
+    "Email": "info@econverter.es",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "http://www.econverter.es/antirrobo-de-cable-de-cobre.html",
+    "Excerpt": "Sidera System actively prevents the theft of copper cables",
+    "Certified in": 2018,
+    "Domains": [
+      "Retail",
+      "Home"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/BbCjNCHyuJ/econverter.jpg"
+  },
+  {
+    "Status": "Updated",
+    "Organisation Name": "Eficae",
+    "Product Name": "Miluz",
+    "Name": "Enrique",
+    "Surname": "Romero Saiz",
+    "Email": "eromero@eficaesoluciones.com",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "https://miluz.eficae.es",
+    "Excerpt": "Miluz is a datalogger that makes able to comunnicate with different Power Managament industrial devices such as Power Consumption Meters, Electric Analizers, Frequency Variators or PV Inverters. Miluz can extract the data by Modbus Protocool and send it through FIWARE protocol",
+    "Certified in": 2018,
+    "Domains": [
+      "Cities",
+      "Construction and Building",
+      "Electronics",
+      "Industry",
+      "Lighting"
+    ],
+    "Technologies": [
+      "Communication Networks",
+      "Internet of Things",
+      "Sensory Systems",
+      "Service Architectures"
+    ],
+    "Logo": "https://www.fiware.org/wp-content/uploads/da69d3c47f91cd6450d737dd430f9ace.png"
+  },
+  {
+    "Status": "Updated",
+    "Organisation Name": "EGM",
+    "Product Name": "EdgeSpot",
+    "Name": "Thomas",
+    "Surname": "Badard",
+    "Email": "thomas.badard@egm.io",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": true,
+    "iHub": false,
+    "Product Website": "https://www.egm.io/wp-content/uploads/2021/08/fiche-EGM-EdgeSpot-2-EN-3.pdf",
+    "Excerpt": "EdgeSpot is a highly scalable hardware and software platform that takes you from concept to market by accelerating the proof-of-concept phases.",
+    "Certified in": 2021,
+    "Domains": [
+      "Electronics",
+      "Industry",
+      "Measurement",
+      "Telecommunication"
+    ],
+    "Technologies": [
+      "Internet of Things",
+      "Sensory Systems"
+    ],
+    "Logo": "https://www.fiware.org/wp-content/uploads/52b3e47c7b035c99dfc352e89bd306f3.jpg"
+  },
+  {
+    "Status": "Updated",
+    "Organisation Name": "Engineering Ingegneria Informatica S.p.A.",
+    "Product Name": "Dashram",
+    "Name": "Davide",
+    "Surname": "Storelli",
+    "Email": "davide.storelli@eng.it",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "Software enabler",
+    "Member": true,
+    "iHub": false,
+    "Product Website": "https://www.eng.it/en/case-studies/dashram-un-nuovo-tool-per-la-data-analysis",
+    "Excerpt": "Dashram is an Open Source tool for advanced data visualization, characterized by a simple and functional interface that provides the means to create and share 2D and 3D charts, map-based visualizations and dashboards.",
+    "Certified in": 2021,
+    "Domains": [
+      "Cities",
+      "Water"
+    ],
+    "Technologies": [
+      "Data Analytics",
+      "Data Spaces"
+    ],
+    "Logo": "https://www.fiware.org/wp-content/uploads/2497e3b1fe67e95f8d2fafedcabe86de.png"
+  },
+  {
+    "Status": "Updated",
+    "Organisation Name": "Engineering Ingegneria Informatica SpA",
+    "Product Name": "KNOWAGE",
+    "Name": "Elena",
+    "Surname": "Marchisa",
+    "Email": "elena.marchisa@eng.it",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "Software enabler",
+    "Member": true,
+    "iHub": false,
+    "Product Website": "https://www.knowage-suite.com",
+    "Excerpt": "KNOWAGE is the open source suite for analytics and business intelligence with any data, fully compliant with FIWARE architecture and GEs",
+    "Certified in": 2014,
+    "Domains": [
+      "Financial Services",
+      "Government",
+      "Healthcare",
+      "Industry",
+      "Manufacturing"
+    ],
+    "Technologies": [
+      "Artificial Intelligence",
+      "Big Data",
+      "Data Analytics",
+      "Open Data",
+      "Software as a Service"
+    ],
+    "Logo": "https://www.fiware.org/wp-content/uploads/b73e4b78274a7df0c4503ae0a59d5bbd.zip"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "eVineyard (Elmitel d.o.o.)",
+    "Product Name": "eVineyard",
+    "Name": "",
+    "Surname": "",
+    "Email": "info@evineyardapp.com",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "http://www.evineyardapp.com",
+    "Excerpt": "The easily deployable decision support solution that helps you manage your vineyard to reduce costs, grow better grapes and preserve the environment.",
+    "Certified in": 2017,
+    "Domains": [
+      "AgriFood"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/jG7kvG2a2r/ddd.png"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "Gecor System S.L.U.",
+    "Product Name": "GECOR",
+    "Name": "",
+    "Surname": "",
+    "Email": "jcampos@gecorweb.com",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "Software enabler",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "https://gecorweb.com/",
+    "Excerpt": "GECOR allows managing the maintenance of public spaces in a transversal way, integrating technicians, managers, service companies and citizens.",
+    "Certified in": 2021,
+    "Domains": [
+      "Cities"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/jcampos/xnBZGXdQN9/icon-no-round.png"
+  },
+  {
+    "Status": "Updated",
+    "Organisation Name": "Green Globe SyPA S.L.",
+    "Product Name": "Night Eye Sky Sensor",
+    "Name": "Juan Jesús",
+    "Surname": "Herrera Rodríguez",
+    "Email": "Herrera Rodríguez",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IoT Device",
+    "Member": false,
+    "iHub": "False/TRUE",
+    "Product Website": "https://nighteye.eu",
+    "Excerpt": "Night Eye is the ultimate solution for night sky background brightness measurement and light pollution assessment. Thanks to the Night Eye device, real-time data and sky quality logging data can be obtained wherever Night Eye sensors are installed.",
+    "Certified in": 2017,
+    "Domains": [
+      "Air Quality",
+      "Cities",
+      "Energy",
+      "Government",
+      "Lighting"
+    ],
+    "Technologies": [
+      "Internet of Things",
+      "Modelling",
+      "Open Data",
+      "Photonics and Imaging",
+      "Sensory Systems"
+    ],
+    "Logo": "https://www.fiware.org/wp-content/uploads/c77cf36d9ff39964595a9cd8dea2ff06-scaled.jpg"
+  },
+  {
+    "Status": "Updated",
+    "Organisation Name": "HOPU",
+    "Product Name": "Smart Spot - Air Quality Monitor, Noise and Crowd Monitoring",
+    "Name": "Antonio",
+    "Surname": "Jara",
+    "Email": "jara@hopu.org",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": true,
+    "iHub": true,
+    "Product Website": "http://smartcities.hopu.eu/smart-spot.html",
+    "Excerpt": "Monitor noise, people affluence/density and gases: nitrous vapours (NO/NO2), sulphides (H2S/SO2), carbon monoxide/dioxide (CO/CO2), Ozone, and other toxic substances (VOCs); particulate matter (PM) to identify nanoparticulate as dust (PM10), pollens (>PM40), pollutants (PM2.5) and viruses (&lt;PM1).",
+    "Certified in": 2016,
+    "Domains": [
+      "Air Quality",
+      "Cities",
+      "Government",
+      "Green Deal",
+      "Measurement"
+    ],
+    "Technologies": [
+      "Internet of Things",
+      "Sensory Systems"
+    ],
+    "Logo": "https://www.fiware.org/wp-content/uploads/6ef0cb6bd99eab24f4d6ec4d366f7c66.png"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "Itude Mobile",
+    "Product Name": "Babbler",
+    "Name": "",
+    "Surname": "",
+    "Email": "info@itude.com",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "http://www.babbler.io/",
+    "Excerpt": "Babbler is a small, re-usable, wireless monitoring device. It can be attached to the inside of a container or trailer door using a magnetic holder or adhesive strip.",
+    "Certified in": 2017,
+    "Domains": [
+      "Logistics"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/fernando.lopez/jh39n7y5ZX/71342f_ec5379f86ee84f76aa63437e3a172804_mv2.png"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "KMB Lab Srl",
+    "Product Name": "Kissmybike",
+    "Name": "",
+    "Surname": "",
+    "Email": "nadya@kissmy.bike",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "http://www.kissmy.bike/",
+    "Excerpt": "Kissmybike is a complex IoT product which detects bicycle theft and tracks the stolen vehicle's location until its successful recovery.",
+    "Certified in": 2019,
+    "Domains": [
+      "Cities"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/nb/hGMHMQawBP/logo_kmb_lab.jpg"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "Libelium Comunicaciones Distribuidas S.L.",
+    "Product Name": "Plug&Sense!",
+    "Name": "",
+    "Surname": "",
+    "Email": "sales@libelium.com",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "https://www.libelium.com",
+    "Excerpt": "Sensor networks made easy",
+    "Certified in": 2017,
+    "Domains": [
+      "Cities"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/pynEQ6E849/logo_libelium.png"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "Libelium Comunicaciones Distribuidas S.L.",
+    "Product Name": "Waspmote",
+    "Name": "",
+    "Surname": "",
+    "Email": "sales@libelium.com",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "https://www.libelium.com",
+    "Excerpt": "The sensor device for developers",
+    "Certified in": 2017,
+    "Domains": [
+      "Cities"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/ipr2zioaK9/logo_libelium.png"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "Libelium Comunicaciones Distribuidas S.L.",
+    "Product Name": "Meshlium",
+    "Name": "",
+    "Surname": "",
+    "Email": "sales@libelium.com",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "https://www.libelium.com",
+    "Excerpt": "IoT Gateway to connect any sensor to any Cloud Platform",
+    "Certified in": 2017,
+    "Domains": [
+      "Cities"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/edwvM7i3D8/logo_libelium.png"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "Management Construction And Trade Innovative Solutions International S.L.",
+    "Product Name": "Digitanimal",
+    "Name": "",
+    "Surname": "",
+    "Email": "info@sensowave.com",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "https://digitanimal.com",
+    "Excerpt": "Digitanimal is a solution that increases livestock farms profits; improving animal welfare and providing traceability tools for consumers.",
+    "Certified in": 2018,
+    "Domains": [
+      "AgriFood"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/khroWFcuC9/logo.jpg"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "Odin Solutions SL",
+    "Product Name": "Mex 06 Datalogger",
+    "Name": "",
+    "Surname": "",
+    "Email": "info@odins.es",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "http://www.odins.es/en/project/mex06-datalogger/",
+    "Excerpt": "Monitoring and Tele-control Solutions for Smart Cities and Smart Industry",
+    "Certified in": 2018,
+    "Domains": [
+      "Cities",
+      "AgriFood",
+      "Industry"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/smFnEhAwS7/odins.png"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "Odin Solutions SL",
+    "Product Name": "IPex 04 Datalogger",
+    "Name": "",
+    "Surname": "",
+    "Email": "info@odins.es",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "http://www.odins.es/en/project/ipex04-datalogger/",
+    "Excerpt": "Monitoring and Tele-control Solutions for Smart Cities, Industry and Agriculture",
+    "Certified in": 2018,
+    "Domains": [
+      "Cities",
+      "AgriFood",
+      "Industry"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/5kSKNAbMqk/odins.png"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "Odin Solutions SL",
+    "Product Name": "IPex 16 Datalogger",
+    "Name": "",
+    "Surname": "",
+    "Email": "info@odins.es",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "http://www.odins.es/en/project/ipex16-datalogger/",
+    "Excerpt": "Monitoring and Tele-control Solutions for Smart Cities, Industry and Agriculture",
+    "Certified in": 2018,
+    "Domains": [
+      "Cities",
+      "AgriFood",
+      "Industry"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/N67PZp8u6u/odins.png"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "Odin Solutions SL",
+    "Product Name": "IPex 12 Datalogger",
+    "Name": "",
+    "Surname": "",
+    "Email": "info@odins.es",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "http://www.odins.es/en/project/ipex12/",
+    "Excerpt": "Monitoring and Tele-control Solutions for Smart Cities and Smart Industry",
+    "Certified in": 2018,
+    "Domains": [
+      "Cities",
+      "AgriFood",
+      "Industry"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/hg6piGYZpQ/odins.png"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "panStamp S.L.U.",
+    "Product Name": "RESPIRA FIWARE",
+    "Name": "",
+    "Surname": "",
+    "Email": "dberenguer@panstamp.com",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "https://github.com/panStamp/respira_fiware",
+    "Excerpt": "RESPIRA Fiware is an open source air monitoring device created to sense temperature, humidity, particle matter and NO2 levels in the air",
+    "Certified in": 2019,
+    "Domains": [
+      "Cities",
+      "Health"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/dberenguer/Lt6hoEEA7x/panstamp_s.jpg"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "Renacen Sistemas S.L.",
+    "Product Name": "REPLO - Renacen Places Occupation",
+    "Name": "",
+    "Surname": "",
+    "Email": "mbaez@renacen.com",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "Software enabler",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "http://www.renacen.com/replo/",
+    "Excerpt": "The application provides realtime people occupation/attendance in controled places.",
+    "Certified in": 2019,
+    "Domains": [
+      "Cities",
+      "Retail",
+      "Home"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/marbaez/4HBhPjGFTx/logo.png"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "Seacon Europe Ltd.",
+    "Product Name": "IntelliFood",
+    "Name": "",
+    "Surname": "",
+    "Email": "seacon@seacon.hu",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "http://www.seacon.hu/intellifood",
+    "Excerpt": "Intelligent Process Monitoring and Control for perishable foods",
+    "Certified in": 2017,
+    "Domains": [
+      "AgriFood"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/CLgGbuKc2q/seacon.png"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "Secmotic",
+    "Product Name": "Muvone",
+    "Name": "",
+    "Surname": "",
+    "Email": "info@muvone.com",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": true,
+    "iHub": false,
+    "Product Website": "https://www.muvone.com",
+    "Excerpt": "The first wearable device that helps you prevent osteoporosis.",
+    "Certified in": 2018,
+    "Domains": [
+      "Health"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/tSuh2pPu8o/secmotic-transparente-logo-2.png"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "Secmotic",
+    "Product Name": "LockArt",
+    "Name": "",
+    "Surname": "",
+    "Email": "info@secmotic.com",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": true,
+    "iHub": false,
+    "Product Website": "http://mylockart.com",
+    "Excerpt": "LockArt is a new generation of locks. Elegance and security in the same device.",
+    "Certified in": 2017,
+    "Domains": [
+      "Home"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/RKNxGunyhg/secmotic-transparente-logo-2.png"
+  },
+  {
+    "Status": "Updated",
+    "Organisation Name": "Seneco A/S",
+    "Product Name": "Citygrid Intelligent streetlight controller",
+    "Name": "Damien",
+    "Surname": "Varvenne",
+    "Email": "dv@seneco.dk",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "https://www.seneco.dk",
+    "Excerpt": "The sensor-based, connected Citygrid solution allows for configuring the luminaires so that they always light up when presence is detected, and dim down after some time. When a luminaire fails, the information can be dispatched immediately so maintenance can be planned optimally.",
+    "Certified in": 2021,
+    "Domains": [
+      "Cities",
+      "Energy",
+      "Lighting",
+      "Sustainability",
+      "Utilities",
+      "Oil and Gas"
+    ],
+    "Technologies": [
+      "Communication Networks",
+      "Internet of Things",
+      "Sensory Systems"
+    ],
+    "Logo": "https://www.fiware.org/wp-content/uploads/a87a48a9835c7a8bfc6f836d6e00d9fc.zip"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "Sinapse Energía",
+    "Product Name": "CMC - IoT",
+    "Name": "",
+    "Surname": "",
+    "Email": "j.ignacio.blanco@sinapseenergia.com",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "http://www.sinapseenergia.com",
+    "Excerpt": "IoT Gateway with capacities for electrical cabinet management",
+    "Certified in": 2019,
+    "Domains": [
+      "Cities",
+      "Industry",
+      "Ports"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/gonzalosinapse/c5PDdwZ2yk/logo.png"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "Situm Indoor Positioning",
+    "Product Name": "Situm Indoor Positioning",
+    "Name": "",
+    "Surname": "",
+    "Email": "innovation@situm.es",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "Software enabler",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "https://situm.es/en",
+    "Excerpt": "Indoor positioning and navigation for smartphones without infrastructure installations.",
+    "Certified in": 2017,
+    "Domains": [
+      "Cities",
+      "Logistics",
+      "Industry",
+      "Ports",
+      "Retail",
+      "Health"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/innovation@situm.es/3yfAc8Poky/logo-situm-hd.png"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "Situm Technologies S.L.",
+    "Product Name": "Situm",
+    "Name": "",
+    "Surname": "",
+    "Email": "press@situm.es",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "Software enabler",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "https://situm.es",
+    "Excerpt": "Situm is the GPS for indoors with zero infrastructure, the highest precision, and fastest deployment.",
+    "Certified in": 2017,
+    "Domains": [
+      "Cities",
+      "Logistics"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/9frS8azmJH/download__1_.png"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "SRM Consulting",
+    "Product Name": "MavDrone",
+    "Name": "",
+    "Surname": "",
+    "Email": "info@srmconsulting.es",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "http://www.srmconsulting.es",
+    "Excerpt": "MavDrone is the first solution compatible with the MAVLink protocol for the Command and Control of drone fleets",
+    "Certified in": 2021,
+    "Domains": [
+      "Cities",
+      "AgriFood",
+      "Logistics",
+      "Industry",
+      "Health"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/josesantiso/cmEuvrEftC/srm.png"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "SRM Consulting",
+    "Product Name": "FIWARE map viewer",
+    "Name": "",
+    "Surname": "",
+    "Email": "info@srmconsulting.es",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "Software enabler",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "http://www.srmconsulting.es",
+    "Excerpt": "Fiware Map Viewer extends the capabilities of any map to Smart Cities and IoT. Monitoring any device in a map in real time, such as, atmospheric sensors, cameras, traffic lights, and so on",
+    "Certified in": 2021,
+    "Domains": [
+      "Cities",
+      "AgriFood",
+      "Logistics",
+      "Industry",
+      "Health"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/josesantiso/b9WA5Jn2v3/srm.png"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "TeamDev s.r.l.",
+    "Product Name": "WiseTown",
+    "Name": "",
+    "Surname": "",
+    "Email": "m.gaudenzi@teamdev.it",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": true,
+    "iHub": false,
+    "Product Website": "http://wise.town/",
+    "Excerpt": "WiseTown is an application suite for the advanced management of communications between citizens and local government with regard to urban quality, safety and shared planning that integrates social networks, open data and IoT.",
+    "Certified in": 2018,
+    "Domains": [
+      "Cities"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/fernando.lopez/7c4JQCAew4/logo2014.png"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "Telocate GmbH",
+    "Product Name": "FI-ASSIST",
+    "Name": "",
+    "Surname": "",
+    "Email": "info@telocate.de",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "Software enabler",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "https://de.telocate.de",
+    "Excerpt": "A FIWARE Implementation for the Precise Indoor Smartphone Navigation System Telocate ASSIST",
+    "Certified in": 2017,
+    "Domains": [
+      "Cities",
+      "Logistics",
+      "Retail"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/QFBzizsMPa/dddd.png"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "TST Sistemas",
+    "Product Name": "TSwasTe",
+    "Name": "",
+    "Surname": "",
+    "Email": "amedela@tst-sistemas.es",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "http://www.tst-sistemas.es",
+    "Excerpt": "Low cost sensing solution for urban waste containers.",
+    "Certified in": 2018,
+    "Domains": [
+      "Cities"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/YN62gazoM2/picture1.png"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "TST Sistemas",
+    "Product Name": "TSconTrol Industrial Control",
+    "Name": "",
+    "Surname": "",
+    "Email": "amedela@tst-sistemas.es",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "http://www.tst-sistemas.es",
+    "Excerpt": "Multi-interface device for IoT and M2M applications",
+    "Certified in": 2017,
+    "Domains": [
+      "Cities"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/nPj9XGnNTz/picture2.png"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "TST Sistemas",
+    "Product Name": "TSmart Development Platform",
+    "Name": "",
+    "Surname": "",
+    "Email": "amedela@tst-sistemas.es",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "http://www.tst-sistemas.es",
+    "Excerpt": "Modular platform for wireless communications",
+    "Certified in": 2017,
+    "Domains": [
+      "Cities"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/mvriqZkcqa/picture3.png"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "UBIKWA",
+    "Product Name": "INSYLO",
+    "Name": "",
+    "Surname": "",
+    "Email": "info@ubikwa.com",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "http://www.insylo.com",
+    "Excerpt": "INSYLO is an affordable solution to remotely monitor livestock farms' silos and solve the million dollar question: the right moment and the right quantity to restock each silo in order to optimise logistic costs.",
+    "Certified in": 2017,
+    "Domains": [
+      "AgriFood",
+      "Logistics",
+      "Industry"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/ubikwa/EznEj5hYEN/logoubikwa__512x512_.png"
+  },
+  {
+    "Status": "Updated",
+    "Organisation Name": "Urbaser S.A.",
+    "Product Name": "SENSIoT",
+    "Name": "Alvaro",
+    "Surname": "Palomo",
+    "Email": "apalomo@urbaser.com",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "Software enabler",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "https://urbaser.com/sensiot",
+    "Excerpt": "SENSIoT(Smart Environmental Services with IoT) is Urbaser’s IoT solutions where a comprehensive set of information is automatically gathered from its assets and processed to maximise its value. The core of technology is SENSIoT-Platform, which has been designed using Microsoft Azure services",
+    "Certified in": 2020,
+    "Domains": [
+      "Cities",
+      "Energy",
+      "Industry",
+      "Machinery",
+      "Waste Management"
+    ],
+    "Technologies": [
+      "Big Data",
+      "Cloud Computing",
+      "Data Analytics",
+      "Internet of Things"
+    ],
+    "Logo": "https://www.fiware.org/wp-content/uploads/c360b0eb5c8510ed792267a1c7d6cacb.png"
+  },
+  {
+    "Status": "Updated",
+    "Organisation Name": "Ventum Innovacion",
+    "Product Name": "Gavilán Control",
+    "Name": "Miguel",
+    "Surname": "Morales",
+    "Email": "mmproyectos@ventumidc.es",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "Software enabler/IoT device",
+    "Member": "False/True",
+    "iHub": "False/True",
+    "Product Website": "https://gavilan.ventumidc.es/login",
+    "Excerpt": "Gavilan Control is a tool where you can find the main data and variables regarding your livestock bussiness. You have control over the position and animal welfare. Control the water and food consumption and make decitions that improve the productivity of your explotation.",
+    "Certified in": 2020,
+    "Domains": [
+      "Air Quality",
+      "Agriculture",
+      "AgriFood",
+      "Industry",
+      "Water"
+    ],
+    "Technologies": [
+      "Big Data",
+      "Data Handling",
+      "Internet of Things",
+      "Sensory Systems",
+      "Software as a Service"
+    ],
+    "Logo": "https://www.fiware.org/wp-content/uploads/54332be1a747e56559330b7239bbe93a.zip"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "VIRAL STUDIOS SL",
+    "Product Name": "virtualARt",
+    "Name": "",
+    "Surname": "",
+    "Email": "info@viralstudios.es",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "http://www.viralstudios.es/turismo-inmersivo/",
+    "Excerpt": "virtualARt allows museum visitors to receive information about pieces of art by\naugmented reality, as well as collect information about tours and preferences.",
+    "Certified in": 2019,
+    "Domains": [
+      "Cities",
+      "Industry",
+      "Retail",
+      "Content"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/viralstudios/ptgzfTK3pq/logo_vertical.jpg"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "Wellness TechGroup",
+    "Product Name": "WeLight",
+    "Name": "",
+    "Surname": "",
+    "Email": "info@wellnesstg.com",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "https://wellnesstg.com/en/solucion/welight-smart-lighting/",
+    "Excerpt": "WeLight is a Remote Management System for Public Lighting, which allows the monitoring and control of lighting and the optimisation and management of the maintenance, whilst monitoring consumption and reacting to deviations.",
+    "Certified in": 2017,
+    "Domains": [
+      "Cities"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/5oAn5wAorv/welight.png"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "Wellness TechGroup",
+    "Product Name": "Quamtra",
+    "Name": "",
+    "Surname": "",
+    "Email": "info@wellnesstg.com",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "IOT Device",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "https://wellnesstg.com/en/solucion/quamtra-smart-waste-management/",
+    "Excerpt": "Quamtra is an intelligent urban waste collection system that, by sensing and constant monitoring of the filling level of the containers, optimizes routes and improve the costs associated with the collection.",
+    "Certified in": 2017,
+    "Domains": [
+      "Cities"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/5JHGSmzGJB/quamtra_smart_waste_management.png"
+  },
+  {
+    "Status": "Pending",
+    "Organisation Name": "XapiX Inc.",
+    "Product Name": "Xapix",
+    "Name": "",
+    "Surname": "",
+    "Email": "support@xapix.io",
+    "Category": "FIWARE-Ready",
+    "Type of Product": "Software enabler",
+    "Member": false,
+    "iHub": false,
+    "Product Website": "https://www.xapix.io",
+    "Excerpt": "Using Xapix, developers can leverage open data to prototype smart city solutions easier than ever.",
+    "Certified in": 2018,
+    "Domains": [
+      "Cities"
+    ],
+    "Technologies": [],
+    "Logo": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/FDcpNe2LbF/logo___text.png"
+  }
+]
