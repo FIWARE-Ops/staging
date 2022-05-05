@@ -387,8 +387,7 @@ var pageData = [
     domain: ['Automotive', 'Cities', 'Measurement', 'Mobility', 'Transport'],
     type: 'Solution',
     technology: [
-      'Advanced',
-      'or High Performance Computing',
+      'Advanced or High Performance Computing',
       'Cloud Computing',
       'Mobility and Location'
     ],
@@ -1248,8 +1247,7 @@ var pageData = [
     domain: ['Air Quality', 'Cities', 'Industry', 'Mobility', 'Tourism'],
     type: 'Solution',
     technology: [
-      'Advanced',
-      'or High Performance Computing',
+      'Advanced or High Performance Computing',
       'Artificial Intelligence',
       'Data Analytics',
       'Digital Twins',
@@ -1270,8 +1268,7 @@ var pageData = [
     domain: ['Air Quality', 'Cities', 'Industry', 'Mobility', 'Tourism'],
     type: 'Platform',
     technology: [
-      'Advanced',
-      'or High Performance Computing',
+      'Advanced or High Performance Computing',
       'Artificial Intelligence',
       'Data Analytics',
       'Digital Twins',
