@@ -694,7 +694,7 @@ var pageData = [
       'Want to break from the norm and discover new tastes? Foooder is the answer. \nYou swipe right to “like”, left to “dislike”. Foooder remembers your choices and notifies you when the liked fine food products are for sale nearby.'
   },
   {
-    company: 'GymCraft S.L.',
+    company: 'GymCraft',
     name: 'GymCraft',
     img:
       'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/itqQNF8ncD/logo-heller.png',
