@@ -1,4 +1,4 @@
-[
+var pageData = [
   {
     company: "Agricolus",
     name: "Agricolus Ecosystem",
