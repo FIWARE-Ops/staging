@@ -9,9 +9,9 @@ input.forEach(item => {
   const domains = [];
   const tech = [];
 
-  const searchMask = "fiware";
-  const regEx = new RegExp(searchMask, "ig");
-  const replaceMask = "FIWARE";
+  const searchMask = 'fiware';
+  const regEx = new RegExp(searchMask, 'ig');
+  const replaceMask = 'FIWARE';
 
   if (item.Status !== 'Deleted') {
     item.Domains.split(',').forEach(item => {
@@ -68,18 +68,54 @@ input.forEach(item => {
   }
 });
 
+// Products
 fs.writeFile('powered.json', JSON.stringify(poweredBy, null, 2), function(err) {
   if (err) return console.log(err);
 });
 
+fs.writeFile(
+  'poweredbyFiware/pageData.js',
+  'var pageData = ' + JSON.stringify(poweredBy, null, 2) + ';',
+  function(err) {
+    if (err) return console.log(err);
+  }
+);
+
+// Devices
 fs.writeFile('ready.json', JSON.stringify(ready, null, 2), function(err) {
   if (err) return console.log(err);
 });
 
+fs.writeFile(
+  'fiwareready/pageData.js',
+  'var pageData = ' + JSON.stringify(poweredBy, null, 2) + ';',
+  function(err) {
+    if (err) return console.log(err);
+  }
+);
+
+// Services
 fs.writeFile('service.json', JSON.stringify(service, null, 2), function(err) {
   if (err) return console.log(err);
 });
 
-fs.writeFile("cities.json", JSON.stringify(cities, null, 2), function(err) {
+fs.writeFile(
+  'services/pageData.js',
+  'var pageData = ' + JSON.stringify(service, null, 2) + ';',
+  function(err) {
+    if (err) return console.log(err);
+  }
+);
+
+// Cities
+fs.writeFile('cities.json', JSON.stringify(cities, null, 2), function(err) {
   if (err) return console.log(err);
 });
+
+fs.writeFile(
+  'cities4cities/pageData.js',
+  'var pageData = ' + JSON.stringify(cities, null, 2) + ';',
+  function(err) {
+    if (err) return console.log(err);
+  }
+);
