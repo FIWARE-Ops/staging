@@ -3,6 +3,7 @@ const input = JSON.parse(fs.readFileSync('untitled.txt', 'utf8'));
 const poweredBy = [];
 const ready = [];
 const service = [];
+const cities = [];
 
 input.forEach(item => {
   const domains = [];
@@ -55,6 +56,8 @@ input.forEach(item => {
       ready.push(obj);
     } else if (item['Category'] === 'Services') {
       service.push(obj);
+    } else if (item['Category'] === 'Cities4Cities') {
+      cities.push(obj);
     } else {
       console.log(item['Category']);
     }
@@ -70,5 +73,9 @@ fs.writeFile('ready.json', JSON.stringify(ready, null, 2), function(err) {
 });
 
 fs.writeFile('service.json', JSON.stringify(service, null, 2), function(err) {
+  if (err) return console.log(err);
+});
+
+fs.writeFile("cities.json", JSON.stringify(cities, null, 2), function(err) {
   if (err) return console.log(err);
 });
