@@ -95,7 +95,7 @@ var pageData = [
       "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Agricolus.svg",
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink: "https://www.agricolus.com/",
+    companyLink: "https://www.agricolus.com/en/",
     domain: ["Agriculture", "AgriFood", "Green Deal", "Sustainability"],
     type: "Solution",
     technology: [
@@ -709,7 +709,7 @@ var pageData = [
     type: "Platform",
     technology: ["Internet of Thing"],
     year: 2021,
-    content: "A microservice platform based on Fiware",
+    content: "A microservice platform based on FIWARE",
   },
   {
     company: "HOPU",

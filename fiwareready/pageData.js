@@ -6,7 +6,7 @@ var pageData = [
       "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Agricolus.svg",
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink: "https://www.agricolus.com/",
+    companyLink: "https://www.agricolus.com/en/",
     domain: ["AgriFood"],
     type: "IoT Device",
     technology: ["Sensory Systems"],
