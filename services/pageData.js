@@ -33,7 +33,7 @@ var pageData = [
       'Home',
       'Health'
     ],
-    type: 'Consultancy & integration',
+    type: 'Consultancy & Integration',
     technology: ['Blockchain'],
     year: 2019,
     content:
@@ -78,7 +78,7 @@ var pageData = [
       'Health',
       'Content'
     ],
-    type: 'Consultancy & integration',
+    type: 'Consultancy & Integration',
     technology: ['Internet of Things', 'Robotics', 'Data Analytics'],
     year: 2021,
     content:
@@ -133,7 +133,7 @@ var pageData = [
     fiwareIhub: true,
     companyLink: 'https://fiihub.cidihub.org/',
     domain: ['Cities', 'AgriFood', 'Industry', 'Ports'],
-    type: 'Consultancy & integration',
+    type: 'Consultancy & Integration',
     technology: ['Internet of Things'],
     year: 2020,
     content:
@@ -200,7 +200,7 @@ var pageData = [
     fiwareIhub: true,
     companyLink: 'https://fiwareinnova.org/en/',
     domain: ['Cities', 'AgriFood', 'Industry', 'Retail'],
-    type: 'Consultancy & integration',
+    type: 'Consultancy & Integration',
     technology: ['Open Data'],
     year: 2020,
     content:
@@ -230,7 +230,7 @@ var pageData = [
     fiwareIhub: true,
     companyLink: 'https://www.fiware.space/',
     domain: ['Cities', 'AgriFood', 'Industry'],
-    type: 'Consultancy & integration',
+    type: 'Consultancy & Integration',
     technology: ['Data Spaces'],
     year: 2019,
     content:
@@ -260,7 +260,7 @@ var pageData = [
     fiwareIhub: true,
     companyLink: 'http://fiware.zone',
     domain: ['Cities', 'AgriFood', 'Industry', 'Ports', 'Health'],
-    type: 'Consultancy & integration',
+    type: 'Consultancy & Integration',
     technology: ['Internet of Things', 'Big Data', 'Artificial Intelligence'],
     year: 2019,
     content:
@@ -275,7 +275,7 @@ var pageData = [
     fiwareIhub: false,
     companyLink: 'https://www.ficodes.com',
     domain: ['Cities', 'AgriFood', 'Logistics', 'Industry', 'Ports'],
-    type: 'Consultancy & integration',
+    type: 'Consultancy & Integration',
     technology: ['Internet of Things', 'Data Handling'],
     year: 2017,
     content:
@@ -298,7 +298,7 @@ var pageData = [
       'Retail',
       'Home'
     ],
-    type: 'Consultancy & integration',
+    type: 'Consultancy & Integration',
     technology: ['Artificial Intelligence', 'Internet of Things'],
     year: 2019,
     content:
@@ -328,7 +328,7 @@ var pageData = [
     fiwareIhub: false,
     companyLink: 'https://www.martel-innovate.com/lab/',
     domain: ['AgriFood', 'Cities', 'Energy', 'Manufacturing', 'Sustainability'],
-    type: 'Consultancy & integration',
+    type: 'Consultancy & Integration',
     technology: [
       'Artificial Intelligence',
       'Cloud Computing',
@@ -433,7 +433,7 @@ var pageData = [
       'Home',
       'Health'
     ],
-    type: 'Consultancy & integration',
+    type: 'Consultancy & Integration',
     technology: [
       'Internet of Things',
       'Artificial Intelligence',
@@ -506,7 +506,7 @@ var pageData = [
       'Health',
       'Content'
     ],
-    type: 'Consultancy & integration',
+    type: 'Consultancy & Integration',
     technology: [
       'Artificial Intelligence',
       'Quantum Computing',
@@ -554,7 +554,7 @@ var pageData = [
     companyLink:
       'https://www.ubiwhere.com/?fbclid=IwAR3nqrtayXOde5A7MTe65UX_ZkBYEnMFKpB-kmSZXwDAvU73isxArMPpG5U',
     domain: ['Cities', 'Logistics', 'Ports'],
-    type: 'Consultancy & integration',
+    type: 'Consultancy & Integration',
     technology: ['Blockchain', 'Internet of Things'],
     year: 2017,
     content:

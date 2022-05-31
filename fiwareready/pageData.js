@@ -63,7 +63,7 @@ var pageData = [
     companyLink: 'http://www.absolutezerovr.com',
     domain: ['Content'],
     type: 'Solution',
-    technology: ['Internet of Things', 'Data Analytics', 'Sensory System'],
+    technology: ['Internet of Things', 'Data Analytics', 'Sensory Systems'],
     year: 2018,
     content:
       'Thor is the most versatile professional 360° with cloud-based workflow. Multiple AZ’s VR cameras individually record 12 video streams, and collect positioning metadata via in-built GPS sensor.'
@@ -317,7 +317,7 @@ var pageData = [
     companyLink: 'https://snuffelfiets.nl/',
     domain: ['Cities'],
     type: 'Solution',
-    technology: ['Interne of Things', 'Data Analytics', 'Open Data'],
+    technology: ['Internet of Things', 'Data Analytics', 'Open Data'],
     year: 2019,
     content:
       'A mobile sensor on bikes that measures the air quality, routes, and road conditions every 10 seconds, provides open data, and shows advanced insights.'
@@ -509,7 +509,7 @@ var pageData = [
     companyLink: 'https://farmdog.ag',
     domain: ['AgriFood'],
     type: 'Solution',
-    technology: ['Intern of Things', 'Data Analytics'],
+    technology: ['Internet of Things', 'Data Analytics'],
     year: 2017,
     content:
       'Farm Dog: Keeping agricultural fields healthy from pest and disease.\nWith Farm Dog, growers transition from a completely offline decision-making process to a digital one'
@@ -772,7 +772,7 @@ var pageData = [
     companyLink: 'https://www.lahakx.com/',
     domain: ['AgriFood'],
     type: 'Solution',
-    technology: ['Interne of Things', 'Logistsics', 'Micro/Nano Electronics'],
+    technology: ['Internet of Things', 'Logistsics', 'Micro/Nano Electronics'],
     year: 2018,
     content:
       'Skyx is an agricultural-robotics technology company enabling a modular swarm of autonomous drones for spraying. It develops proprietary tools and algorithms for optimal homogeneous coverage of complex space, real-time swarm operation, and coverage of “hot-spots”.'
@@ -787,7 +787,7 @@ var pageData = [
     companyLink: 'http://limmat-group.com/',
     domain: ['Cities', 'Industry', 'Ports'],
     type: 'Solution',
-    technology: ['Big Data', 'Data Analytics', 'Machine Leraning'],
+    technology: ['Big Data', 'Data Analytics', 'Machine Learning'],
     year: 2019,
     content:
       'IMAS+® is Smart Maintenance Platform for Infrastructure. It uses 4th industrial technologies such as the IoT, Big Data, and Machine Learning to provide smart solutions which enable us to anticipate faults and, on this basis, we can improve efficiency in maintenance, availability and railway safety'
