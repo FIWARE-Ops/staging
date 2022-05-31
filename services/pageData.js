@@ -9,7 +9,7 @@ var pageData = [
     companyLink:
       'https://atos.net/en/portfolio/boost-economic-development-and-citizen-quality-of-life',
     domain: ['Cities', 'AgriFood'],
-    type: 'Consultancy & integration',
+    type: 'Consultancy & Integration',
     technology: ['Artificial Intelligence'],
     year: 2021,
     content:
