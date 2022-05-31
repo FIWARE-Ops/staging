@@ -984,7 +984,7 @@ var pageData = [
     company: "Purple Blob",
     name: "BARET",
     img:
-      "https://www.fiware.org/wp-admin/admin.php?page=wp_file_manager#elf_l1_c3R5bGUvaW1ncy9NYXJrZXRwbGFjZS9wcm9kdWN0L3Bvd2VyZWQtYnktZml3YXJlL3NvbHV0aW9u:~:text=Link%20%3A-,logo_PurpleBlob.svg,-Dimensions%20%3A",
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_PurpleBlob.svg",
     fiwareMember: false,
     fiwareIhub: false,
     companyLink: "https://baret.es",
@@ -999,7 +999,7 @@ var pageData = [
     company: "Purple Blob",
     name: "SARA",
     img:
-      "https://www.fiware.org/wp-admin/admin.php?page=wp_file_manager#elf_l1_c3R5bGUvaW1ncy9NYXJrZXRwbGFjZS9wcm9kdWN0L3Bvd2VyZWQtYnktZml3YXJlL3NvbHV0aW9u:~:text=Link%20%3A-,logo_PurpleBlob.svg,-Dimensions%20%3A",
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_PurpleBlob.svg",
     fiwareMember: false,
     fiwareIhub: false,
     companyLink: "https://purpleblob.net/sara/",
