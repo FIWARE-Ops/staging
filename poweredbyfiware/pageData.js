@@ -1,1741 +1,1723 @@
-// pageData
-var pageData = [
+[
   {
-    company: 'Absolute Zero',
-    name: 'Thor',
+    company: "[ui!] Urban Software",
+    name: "[ui!] UrbanPulse",
     img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/qNxzaKFHpq/screen_shot_2018-10-08_at_16.21.32.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'http://www.absolutezerovr.com',
-    domain: ['Content'],
-    type: 'Solution',
-    technology: [],
-    year: 2018,
-    content: 'The most versatile professional 360° with cloud-based workflow.'
-  },
-  {
-    company: 'Accelogress Ltd',
-    name: 'Save-a-Space',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/GX37tLRucL/5bdc1b_fc7abb27bd6b4278bf92077c3c975198.jpg',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'http://save-a-space.com',
-    domain: ['Cities'],
-    type: 'Solution',
-    technology: [],
-    year: 2017,
-    content:
-      'Save-a-Space is parking personally tailored for your needs. Save-a-Space will find your parking space for you and you can instantly reserve and pay with the user‐friendly Save-a‐Space app.'
-  },
-  {
-    company: 'Agricolus s.r.l.',
-    name: 'Agricolus',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/agricolus/agricolus_logo_official_rgb.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://www.agricolus.com/',
-    domain: ['Agriculture', 'AgriFood', 'Green Deal', 'Sustainability'],
-    type: 'Solution',
-    technology: [
-      'Artificial Intelligence',
-      'Big Data',
-      'Data Analytics',
-      'Internet of Things',
-      'Software as a Service'
-    ],
-    year: 2017,
-    content:
-      'Agricolus is a cloud platform created to simplify and enhance the work in the field of farmers and professionals. It is composed of the main applications of precision agriculture:  from satellite imagery with vegetation indices to forecast models for irrigation, fertilization, pest and diseases.'
-  },
-  {
-    company: 'Amigo',
-    name: 'IDA, Index Design and Analysis',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/marcello.petitta/7zn6DnEurC/amigo_logo2.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'http://www.amigoclimate.com/index.php/ida/',
-    domain: ['Cities'],
-    type: 'Solution',
-    technology: [],
-    year: 2019,
-    content:
-      'IDA integrates into one web platform climate modelling, ground-based and remotely sensed measures of weather variables to provide high level software capabilities for customised climate risk assessment globally, including climate index computation, visualization and reporting.'
-  },
-  {
-    company: 'Artudata',
-    name: 'Artudata',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/TzhFyiS2dx/logo2.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://www.artudata.com',
-    domain: ['Logistics', 'Content'],
-    type: 'Solution',
-    technology: [],
-    year: 2018,
-    content:
-      'ArtuData leverages artificial intelligence to help users find, attract, and retain their high value clients.'
-  },
-  {
-    company: 'Atos',
-    name: 'CityGO',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/xurxo/Fmq9KJCR7h/citygo_v1_final-01.jpg',
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_UrbanInstitute.svg",
     fiwareMember: true,
     fiwareIhub: false,
-    companyLink: 'http://city-go.eu/',
-    domain: ['Cities'],
-    type: 'Solution',
-    technology: [],
-    year: 2021,
-    content:
-      'CityGO is the smart urban mobility app with personalised recommendations to ease your journeys in cities.'
-  },
-  {
-    company: 'Atos',
-    name: 'Urban Data Platform (UDP)',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/cpezuela/MHzxCc8cq4/logo_audp_v02_azul_globe_01.png',
-    fiwareMember: true,
-    fiwareIhub: false,
-    companyLink:
-      'https://atos.net/en/lp/urban-data-platforms/introducing-the-urban-data-platform',
-    domain: ['Air Quality', 'Agriculture', 'Cities', 'Energy', 'Mobility'],
-    type: 'Platform',
-    technology: [
-      'Artificial Intelligence',
-      'Data Spaces',
-      'Digital Twins',
-      'Internet of Things',
-      'Mobility and Location'
-    ],
-    year: 2019,
-    content:
-      'UDP is the open, secure and interoperable Atos standard data platform which allows the integration and collection of information from data sources, the standardization and processing of that information to provide aggregated and intelligent views of raw data to facilitate decision-making.'
-  },
-  {
-    company: 'Atos',
-    name: 'MASAI',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/jhitado/3QZkPfKNit/masai_logo_v01-01.png',
-    fiwareMember: true,
-    fiwareIhub: false,
-    companyLink: 'http://booklet.atosresearch.eu/content/masai',
-    domain: ['Industry'],
-    type: 'Solution',
-    technology: [],
-    year: 2019,
-    content:
-      'MASAI is an efficient data integration software for manufacturing systems allowing to collect data from a variety of IoT devices in the manufacturing domain (Industry 4.0), that is not entirely covered by existing proprietary solutions.'
-  },
-  {
-    company: 'Bettair Cities',
-    name: 'Bettair',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/dhtsCdkYgJ/bettair_logo.svg',
-    fiwareMember: true,
-    fiwareIhub: false,
-    companyLink: 'https://bettaircities.com',
-    domain: ['Cities'],
-    type: 'Solution',
-    technology: [],
-    year: 2020,
-    content:
-      'Bettair – high-quality large scale pollution mapping tools for big cities.'
-  },
-  {
-    company: 'BOOKINGABUS Ltd',
-    name: 'Bookingabus.com',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/cvaMHPqTmA/logo-new-c4b43d29a033388c67585ddb137161a4439d3887b79f69320cf4314a0c8319e5.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://www.bookingabus.com',
-    domain: ['Cities'],
-    type: 'Solution',
-    technology: [],
-    year: 2017,
-    content: 'Bookingabus.com provides dynamic pricing for bus transportation.'
-  },
-  {
-    company: 'Bosonit S.L.',
-    name: 'Elliot Cloud',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/mig_garcia/pM8puCkf53/nbosonit.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://www.bosonit.com',
-    domain: [],
-    type: 'Solution',
-    technology: [],
-    year: 2020,
-    content:
-      'Internet of Everything platform designed to monitor,  analyse and manage heterogeneous sources of data'
-  },
-  {
-    company: 'Breeze Technologies',
-    name: 'Breeze Environmental Analytics Cloud',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/heinecke/EWy6RZTQZm/breeze_logo_normal_web.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'http://www.breeze-technologies.de',
-    domain: ['Cities'],
-    type: 'Solution',
-    technology: [],
-    year: 2019,
-    content:
-      'Breeze Technologies enables cities and corporates to create a more liveable environment by providing actionable insights based on environmental sensor data.'
-  },
-  {
-    company: 'CardioID Technologies',
-    name: 'CardioWheel',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/m4jJpM8xB4/cardioid_logo.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://www.cardio-id.com',
-    domain: ['Health'],
-    type: 'Solution',
-    technology: [],
-    year: 2018,
-    content:
-      'An Advanced Driver Assistance System (ADAS) that can help you prevent drowsiness and automatically detect the identity of the driver.'
-  },
-  {
-    company: 'Ciclogreen Move and Win S.L.',
-    name: 'Ciclogreen',
-    img:
-      'https://www.fiware.org/wp-content/uploads/999046b10a8e040062cd1eacdc5bb70a.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://www.ciclogreen.com',
-    domain: ['Cities', 'Green Deal', 'Mobility', 'Sustainability', 'Transport'],
-    type: 'Solution',
-    technology: [
-      'Big Data',
-      'Gamification',
-      'Mobility and Location',
-      'Software as a Service'
-    ],
-    year: 2017,
-    content:
-      'We help companies and cities to promote sustainable mobility to reduce CO2 emissions and air pollution'
-  },
-  {
-    company: 'Citibrain',
-    name: 'Citibrain Smart Parking | Smart Air Quality | Smart Waste',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/rui/logo-citibrain-featured-image.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'http://www.citibrain.com',
-    domain: ['Cities', 'Logistics', 'Ports'],
-    type: 'Solution',
-    technology: [],
-    year: 2017,
-    content:
-      'Citibrain is a consortium specialised in creating smart solutions for global challenges.\nFocused on growth initiatives – Future Internet and Smart Cities – all while keeping the global environment and urban lifestyle in mind.'
-  },
-  {
-    company: 'City of Vienna',
-    name: 'smartdata.wien.gv.at',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/pfaffi/W6NdDKe4Rq/cov-logo.jpg',
-    fiwareMember: true,
-    fiwareIhub: false,
-    companyLink: 'https://smartdata.wien',
-    domain: ['Cities', 'Government'],
-    type: 'Platform',
-    technology: ['Internet of Things', 'Mobility and Location', 'Open Data'],
-    year: 2017,
-    content: 'Urban Data Platform of the City of Vienna'
-  },
-  {
-    company: 'Civity',
-    name: 'Sniffer Bike',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/arjenhof/Pj4JPpTRpF/logo_civity_new.jpg',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://snuffelfiets.nl/',
-    domain: ['Cities'],
-    type: 'Solution',
-    technology: [],
-    year: 2019,
-    content:
-      'Mobile sensor on bikes that measures air quality, routes and road conditions every 10 seconds, provides open data and shows advanced insights.'
-  },
-  {
-    company: 'CommuniThings S.A.',
-    name: 'Stop-buy',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/FaMcKALMs5/ct-logo.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'http://www.communithings.com/',
-    domain: ['Cities'],
-    type: 'Solution',
-    technology: [],
-    year: 2017,
-    content:
-      'Stop-buy is a smart parking solution favoring rapid rotation of vehicles and stimulation of local commerce.'
-  },
-  {
-    company: 'Connect Robotics',
-    name: 'Drone2.Me',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/raphaelstanzani/azul.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'http://connect-robotics.com',
-    domain: ['Cities', 'Logistics', 'Industry', 'Retail'],
-    type: 'Solution',
-    technology: [],
-    year: 2017,
-    content:
-      'Drone delivery as a Service, for a logistic operator to easily start using drones for transport between their own distribution sites or to end consumers.'
-  },
-  {
-    company: 'Data Competence Center for Cities and Regions DKSR',
-    name: 'DKSR Open Urban Data Platform',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/apellegrin/vq7WgG9anG/logo_engl_blau_rgb.png',
-    fiwareMember: true,
-    fiwareIhub: '',
-    companyLink: 'https://www.dksr.city/en/home-ii/',
-    domain: ['Smart Cities'],
-    type: 'Platform',
-    technology: [],
-    year: 2022,
-    content:
-      'With the DKSR Open Urban Data Platform, we make digital solutions transferable, scalable and easily applicable for every municipality.'
-  },
-  {
-    company: 'Digitalilusion S.L',
-    name: 'Outbarriers',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/nHxTaBeZkD/logo_outbarriers_bl_lt.jpg',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://outbarriers.com',
-    domain: ['Cities'],
-    type: 'Solution',
-    technology: [],
-    year: 2018,
-    content:
-      'We make businesses visible for everyone, including blind people, thanks to our accessible beacon solution.'
-  },
-  {
-    company: 'e-bot7',
-    name: 'e-bot7',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/knr2YXFfup/e-bot7.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://e-bot7.de/en',
-    domain: ['Content'],
-    type: 'Solution',
-    technology: [],
-    year: 2018,
-    content:
-      'e-bot7 develops and integrates artificial intelligence for your customer service.'
-  },
-  {
-    company: 'EGM',
-    name: 'Connected canteens',
-    img:
-      'https://www.fiware.org/wp-content/uploads/12da469c167db3c627622839b91f3dfe.jpg',
-    fiwareMember: true,
-    fiwareIhub: false,
-    companyLink: 'https://www.youtube.com/watch?v=WiU1_vwH7KA',
-    domain: ['AgriFood', 'Measurement', 'Waste Management'],
-    type: 'Solution',
-    technology: ['Data Analytics', 'Screens and Display', 'Sensory Systems'],
-    year: 2021,
-    content:
-      'This solution includes connected weighing scales under the bins to provide information on the weight of organic and non organic waste on individual and overall perspective. This solution allows canteens to do raise awareness and help to adapt menus and quantities.'
-  },
-  {
-    company: 'EGM',
-    name: 'Smart irrigation',
-    img:
-      'https://www.fiware.org/wp-content/uploads/be291588fc6c7084e76b94dc710f507a.jpg',
-    fiwareMember: true,
-    fiwareIhub: false,
-    companyLink:
-      'https://www.egm.io/en/egm-among-the-winners-of-the-fnccrs-trophees-des-economies-deau-2',
-    domain: ['Agriculture', 'Cities', 'Measurement', 'Water', 'Weather'],
-    type: 'Solution',
-    technology: ['Internet of Things', 'Sensory Systems'],
-    year: 2021,
-    content:
-      'EGM offers a complete solution for determining the amount of water that can be saved on a green space and deploying the control solution in addition to an existing watering system to achieve the water savings in question. Our solution saved 35% of water on the first deployment.'
-  },
-  {
-    company: 'EGM',
-    name: 'Carpool parking',
-    img:
-      'https://www.fiware.org/wp-content/uploads/5ff0310ca197d6a3d63ae42fe84ab239.jpg',
-    fiwareMember: true,
-    fiwareIhub: false,
-    companyLink: 'https://www.egm.io/en/the-smart-camera-for-carpooling',
-    domain: ['Automotive', 'Cities', 'Measurement', 'Mobility', 'Transport'],
-    type: 'Solution',
-    technology: [
-      'Advanced or High Performance Computing',
-      'Cloud Computing',
-      'Mobility and Location'
-    ],
-    year: 2021,
-    content:
-      'This camera allows us to count entries and exits in a carpool park and to determine whether the cars parked are indeed intended for carpooling. This device allows our clients to have tangible statistics on the occupation of a car park.'
-  },
-  {
-    company: 'Engineering DSS GmbH',
-    name: 'CuraVesta ©',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/mplehrich/H94PmSj2PH/rs979_eng-dss_sc.png-eng_dss_sc.jpg',
-    fiwareMember: true,
-    fiwareIhub: false,
-    companyLink: 'https://smart-solution.eng-its.de/curavesta/',
-    domain: ['Cities', 'Health'],
-    type: 'Solution',
-    technology: [],
-    year: 2020,
-    content:
-      'CuraVesta© is an assistance system, which was developed by ENGINEERING for home care. As a mHealth solution, it supports people who care and nurse their relatives at home. The system enables the caring person as well as the person in need to have access to mHealth and other health care services and comprehensive information at any time and place.\nIn this way, CuraVesta© enables to improve the quality and transparency of home care and to reduce the number of short-term inpatient hospital stays caused by incorrect home care and the duration of inpatient hospital stays caused by escalations.'
-  },
-  {
-    company: 'Engineering Ingegneria Informatica SpA',
-    name: 'Digital Enabler',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/GeHrQfuF2e/eng_digital_enabler_logo_def.jpg',
-    fiwareMember: true,
-    fiwareIhub: false,
-    companyLink: 'http://digitalenabler.eng.it',
-    domain: ['Cities'],
-    type: 'Platform',
-    technology: [],
-    year: 2018,
-    content:
-      'Digital Enabler TM is the Engineering’s ecosystem platform supporting the entire value chain of data, from the discovery to the analysis, harmonization and visualization. It provides stakeholders with a single point to find, access and analyze all the data from heterogeneous data sources, deduct new information and driving in the creation of reusable dashboards and mobile applications.'
-  },
-  {
-    company: 'Espacio Disjunto',
-    name: 'Bustimize',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/bustimize/pvPNe4WAyF/bustimize_logo.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'http://www.bustimize.com/',
-    domain: ['Cities', 'Logistics'],
-    type: 'Solution',
-    technology: [],
-    year: 2018,
-    content:
-      'By implementing Bustimize, a reduction of the passengers waiting time KPI and an improvement in the user satisfaction is accomplished.'
-  },
-  {
-    company: 'Everimpact',
-    name: 'Everimpact',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/xpb4uvDg9k/everimpact.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'http://www.everimpact.org',
-    domain: ['Cities'],
-    type: 'Solution',
-    technology: [],
-    year: 2017,
-    content: 'Monitoring and Monetising Carbon Emissions for Cities.'
-  },
-  {
-    company: 'Elmitel d.o.o.',
-    name: 'eVineyard',
-    img:
-      'https://www.fiware.org/wp-content/uploads/9b34b7bcae4e756e2b308af78b590a95.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'http://www.evineyardapp.com',
-    domain: ['Agriculture', 'AgriFood'],
-    type: 'Solution',
-    technology: [
-      'Data Analytics',
-      'Data Spaces',
-      'Digital Twins',
-      'Internet of Things',
-      'Software as a Service'
-    ],
-    year: 2017,
-    content:
-      'eVineyard is an intuitive and easy-to-use vineyard management software that helps you grow better quality grapes more sustainably. Manage your vineyards smarter and get more time for vineyard activities rather than paperwork.'
-  },
-  {
-    company: 'Farm Dog Technologies, Inc.',
-    name: 'Farm Dog',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/dYcemuha2L/farmdog.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://farmdog.ag',
-    domain: ['AgriFood'],
-    type: 'Solution',
-    technology: [],
-    year: 2017,
-    content:
-      'Farm Dog: Keeping agricultural fields healthy from pest and disease.'
-  },
-  {
-    company: 'FASHION CLOUD GmbH',
-    name: 'FASHION CLOUD',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/ZA6FHTB7aW/logo_standard_3x.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://fashion.cloud',
-    domain: ['Retail'],
-    type: 'Solution',
-    technology: [],
-    year: 2017,
-    content:
-      'FASHION CLOUD is the leading content exchange platform in the fashion industry.'
-  },
-  {
-    company: 'DIH Faubourg Numérique',
-    name: 'ouranos-ws',
-    img:
-      'https://www.fiware.org/wp-content/uploads/291158c72c7bfedcef4c6ee57cca6648.png',
-    fiwareMember: false,
-    fiwareIhub: true,
-    companyLink: 'https://ouranos-ws.com/en/',
-    domain: ['Cities', 'Industry', 'Logistics'],
-    type: 'Solution',
-    technology: [
-      'Data Spaces',
-      'Digital Twins',
-      'Internet of Things',
-      'Modelling'
-    ],
-    year: 2022,
-    content:
-      'ouranos-ws is an easy-to-use solution to enable the NGSI-LD super-powers, with the strategic goal to manage your virtualized assets as digital twins. It allows you to DESIGN your specific data models, NAVIGATE through your graphs of entities and CONTROL the interactions with the other systems.'
-  },
-  {
-    company: 'FIWOO',
-    name: 'FIWOO',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/gc26KqEQM3/fiwoo-logonegativo.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'http://www.fiwoo.eu',
-    domain: ['Agriculture', 'Cities', 'Industry', 'Mobility', 'Tourism'],
-    type: 'Platform',
-    technology: [
-      'Artificial Intelligence',
-      'Big Data',
-      'Cloud Computing',
-      'Internet of Things',
-      'Open Data'
-    ],
-    year: 2018,
-    content:
-      'FIWOO is an IoT-Editor platform, which allows users to create any entity without the need for computer knowledge. Everything can be created without a single line of code.\n\nAny user can create their panels, connect their devices, and generate smart rules through a simple graphic interface.'
-  },
-  {
-    company: 'FLIWARE',
-    name: 'FLIWARE',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/ocKC2oaBPG/logo.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'http://www.fliware.eu',
-    domain: ['Cities', 'Logistics'],
-    type: 'Solution',
-    technology: [],
-    year: 2018,
-    content:
-      'FLIWARE is a mobile app for smart passengers who seek to improve, enrich and simplify their airport experience.'
-  },
-  {
-    company: 'FLOUD srl',
-    name: 'FLOUD',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/floud/en7b3CPqtn/logo2.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://www.floud.eu/',
-    domain: ['Cities', 'Retail'],
-    type: 'Solution',
-    technology: [],
-    year: 2018,
-    content:
-      'FLOUD is an innovative, flexible and low-cost platform for the collection and analysis of things that flow (e.g., bycicles, vehicles, people).'
-  },
-  {
-    company: 'Freesense',
-    name: 'Freesense',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/RnfJ2wGuo4/1669865_original.jpg',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'http://www.freesense.dk/',
-    domain: ['Industry'],
-    type: 'Solution',
-    technology: [],
-    year: 2018,
-    content:
-      'Innovative Danish company designing and producing high-tech wireless, online sensor particles for liquid analysis in industrial, biopharmaceutical and speciality food and beverage companies.'
-  },
-  {
-    company: 'FruitsApp s.r.l.',
-    name: 'FruitsApp',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/9FTGTzK5tB/fruitsapp-full-logo.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://fruitsapp.com',
-    domain: ['AgriFood'],
-    type: 'Solution',
-    technology: [],
-    year: 2017,
-    content:
-      'FruitsApp is the innovative global marketplace that helps the Fruit&Veg companies to grow their business easier and faster.'
-  },
-  {
-    company: 'Fueloyal',
-    name: 'Fueloyal',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/Cj5xe8RYRG/fueloyal_logo.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://www.fueloyal.com',
-    domain: ['Cities', 'Industry'],
-    type: 'Solution',
-    technology: [],
-    year: 2018,
-    content: 'GPS Fleet Tracking and Fuel Management Solution'
-  },
-  {
-    company: 'Future Intelligence',
-    name: 'QUHOMA',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/tmoysiadis/logo.png',
-    fiwareMember: true,
-    fiwareIhub: true,
-    companyLink: 'http://quhoma.com/',
+    companyLink: "https://www.ui.city/en/solutions#urbanpulse",
     domain: [
-      'Agriculture',
-      'AgriFood',
-      'Cities',
-      'Green Deal',
-      'Parks &amp; Gardens'
+      "Air Quality",
+      "Government",
+      "Lighting",
+      "Mobility",
+      "Sustainability",
     ],
-    type: 'Solution',
+    type: "Platform",
     technology: [
-      'Artificial Intelligence',
-      'Cloud Computing',
-      'Data Spaces',
-      'Digital Twins',
-      'Internet of Things'
-    ],
-    year: 2017,
-    content:
-      "QUHOMA was created to unveil the competitive advantage of farmers and agrifood businesses committed to outstanding quality in end-products and farming practices. At the same time Future Intelligence\\'s solution paves the way for rationalizing the required farm inputs thus maximizing profit margins."
-  },
-  {
-    company: 'Geographica',
-    name: 'Urbo',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/L4Ky7xuzHt/logos.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://geographica.gs',
-    domain: ['Cities'],
-    type: 'Solution',
-    technology: [],
-    year: 2018,
-    content: 'Urbo - Dashboard for the management of city services.'
-  },
-  {
-    company: 'greenApes srl',
-    name: 'greenApes',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/RFMtFR5yEc/greenapes_big_logo_big.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://www.greenapes.com',
-    domain: ['Cities'],
-    type: 'Solution',
-    technology: [],
-    year: 2017,
-    content:
-      'greenApes is the digital platform rewarding sustainable actions and ideas. A free social network for citizens, a powerful tool for smart cities and a customisable enterprise solution to engage customers and employees.'
-  },
-  {
-    company: 'growAbric',
-    name: 'FOOODER',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/growabric/yBQdM3KybF/logo_growabric_small.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink:
-      'https://play.google.com/store/apps/details?id=com.growabric.foooder.androidv&hl=en',
-    domain: ['Cities', 'AgriFood', 'Retail'],
-    type: 'Solution',
-    technology: [],
-    year: 2017,
-    content:
-      'Want to break from the norm and discover new tastes? Foooder is the answer. \nYou swipe right to “like”, left to “dislike”. Foooder remembers your choices and notifies you when the liked fine food products are for sale nearby.'
-  },
-  {
-    company: 'GymCraft',
-    name: 'GymCraft',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/itqQNF8ncD/logo-heller.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'http://www.gymcraft.es',
-    domain: ['Home', 'Health'],
-    type: 'Solution',
-    technology: [],
-    year: 2017,
-    content:
-      'GymCraft connects any fitness device to its virtual reality exercise game platform through PC or mobile, and lets the user dive into exciting 3D online worlds.'
-  },
-  {
-    company: 'Hearing Software, S.L.',
-    name: 'Senda Care',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/5yz8a4RhJz/descubre_senda_logo.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://byhs.eu/senda',
-    domain: ['Home', 'Health'],
-    type: 'Solution',
-    technology: [],
-    year: 2018,
-    content:
-      'A new service designed for the care of people who need support through their own network of relatives.'
-  },
-  {
-    company: 'Helix',
-    name: 'Helix',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/alberico-filho/zpPtbTGBCK/helix2__1_.jpg',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://gethelix.org',
-    domain: [
-      'Cities',
-      'AgriFood',
-      'Logistics',
-      'Industry',
-      'Ports',
-      'Retail',
-      'Home',
-      'Health',
-      'Content'
-    ],
-    type: 'Platform',
-    technology: [],
-    year: 2021,
-    content: 'A microservice platform based on Fiware'
-  },
-  {
-    company: 'Hostabee',
-    name: 'Hostabee - B-keep',
-    img:
-      'https://www.fiware.org/wp-content/uploads/fe19c84ff19f2b616ac55348cdea6d48.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://hostabee.com/',
-    domain: ['Agriculture', 'AgriFood', 'Education', 'Measurement'],
-    type: 'Solution',
-    technology: ['Artificial Intelligence', 'Big Data', 'Internet of Things'],
-    year: 2019,
-    content:
-      'Hostabee has developed a connected module, named « B-Keep », associated with a web app, that allows beekeepers to remotely track the life cycle of their bee colonies.'
-  },
-  {
-    company: 'JIG',
-    name: 'SmartAppCity',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/dmenchaca@jig.es/JIG2.jpg',
-    fiwareMember: true,
-    fiwareIhub: false,
-    companyLink: 'http://smartappcity.com/',
-    domain: ['Cities'],
-    type: 'Solution',
-    technology: [],
-    year: 2017,
-    content:
-      'SmartAppCity brings together all the city services and information in one single app.'
-  },
-  {
-    company: 'Limmat Group',
-    name: 'IMAS+',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/limmat/2vRySzkq5K/limmat_group.jpg',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'http://limmat-group.com/',
-    domain: ['Cities', 'Industry', 'Ports'],
-    type: 'Solution',
-    technology: [],
-    year: 2019,
-    content: 'IMAS+ - Smart Maintenance Platform for Infrastructure'
-  },
-  {
-    company: 'Línea Ciudadana',
-    name: 'Línea Ciudadana',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/Xiw6gxox7X/logo_linea_alta.jpg',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'http://www.lineaciudadana.com',
-    domain: ['Cities'],
-    type: 'Solution',
-    technology: [],
-    year: 2018,
-    content:
-      'Platform for management, communication and citizen participation, as well as a self-managing mobile platform.'
-  },
-  {
-    company: 'OpenMove',
-    name: 'OpenMove',
-    img:
-      'https://www.fiware.org/wp-content/uploads/9b5b3b11bb34bf5971e2cdf6fd34cbd0.pdf',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://openmove.com',
-    domain: ['Mobility', 'Transport'],
-    type: 'Platform',
-    technology: [
-      'Data Spaces',
-      'Mobility and Location',
-      'Open Data',
-      'Software as a Service'
-    ],
-    year: 2014,
-    content:
-      'OpenMove is a software platform for smart mobility that features transport ticketing, on-demand transport in real-time, intermodal journey planning and MaaS (Mobility-as-a-Service) integration.\n\nThe company is active in EU + USA + Middle East and serves 10M+ yearly passengers / 50M€+ tickets sold.'
-  },
-  {
-    company:
-      'Management Construction And Trade Innovative Solutions International S.L.',
-    name: 'Digitanimal',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/uc2xwCDz4z/logodigi.jpg',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://digitanimal.com',
-    domain: ['AgriFood'],
-    type: 'Solution',
-    technology: [],
-    year: 2018,
-    content:
-      'Digitanimal is a solution that increases livestock farms profits; improving animal welfare and providing traceability tools for consumers.'
-  },
-  {
-    company: 'Martel Innovate',
-    name: 'Orchestra Cities',
-    img:
-      'https://www.fiware.org/wp-content/uploads/5e6c817f8f30d19a91d4ae1b31a3f13e.png',
-    fiwareMember: true,
-    fiwareIhub: false,
-    companyLink: 'https://www.orchestracities.com',
-    domain: ['Air Quality', 'Cities', 'Energy', 'Lighting', 'Mobility'],
-    type: 'Platform',
-    technology: [
-      'Artificial Intelligence',
-      'Big Data',
-      'Data Analytics',
-      'Data Spaces',
-      'Internet of Things'
-    ],
-    year: 2017,
-    content:
-      'To answer the need for a flexible data-management platform for smart cities, Martel developed Orchestra Cities, an integrated platform based on FIWARE and other cutting edge Open Source solutions that allow to bring in a single places all the vertical data silos of cities'
-  },
-  {
-    company: 'Measurence',
-    name: 'Measurence',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/6x8qFSmoru/measurencelogo_blue_notagline.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://www.measurence.com',
-    domain: [
-      'Cities',
-      'Logistics',
-      'Industry',
-      'Ports',
-      'Retail',
-      'Home',
-      'Health'
-    ],
-    type: 'Solution',
-    technology: [],
-    year: 2018,
-    content:
-      'Our mission is to transform human offline behaviour into accessible and actionable insights.'
-  },
-  {
-    company: 'Mermix',
-    name: 'Mermix',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/Q6YYPMswzo/logo.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'http://www.mermix.gr',
-    domain: ['AgriFood'],
-    type: 'Solution',
-    technology: [],
-    year: 2018,
-    content:
-      'Mermix is a farm & equipment management system, allowing farmers to find tools and services that other farmers or companies have listed.'
-  },
-  {
-    company: 'NEC',
-    name: 'CCOC (Cloud City Operations Center)',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/carlos_nec/jJwJvBZPdR/nec_cmyk_blue.png',
-    fiwareMember: true,
-    fiwareIhub: false,
-    companyLink: 'http://www.necsmartit.com/solution/',
-    domain: [],
-    type: 'Platform',
-    technology: [],
-    year: 2019,
-    content:
-      'CCOC is a horizontal platform that provides a holistic view of the supplier’s services, thus allowing for a centralized and efficient management point.'
-  },
-  {
-    company: 'NEC',
-    name: 'Cloud City Operations Center (CCOC)',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/enmarinas/T8HDrfnHxG/rgb_png_necblue_l.png',
-    fiwareMember: true,
-    fiwareIhub: false,
-    companyLink: 'http://www.nec.com/en/global/ad/campaign/smartcity/',
-    domain: ['Cities', 'Industry', 'Ports'],
-    type: 'Solution',
-    technology: [],
-    year: 2017,
-    content:
-      'CCOC acts as the ‘brain’ of the city, able to “listen” and “comprehend” what is happening all over the city to thus make better decisions and provide the right information to its inhabitants'
-  },
-  {
-    company: 'Netzlink Informationstechnik GmbH',
-    name: 'Flink Node',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/n3LEHMzJSJ/06fd09_336de95e74cc4369bb57be40bc10b0d5-mv2.jpg',
-    fiwareMember: true,
-    fiwareIhub: false,
-    companyLink: 'https://www.flink-node.de/',
-    domain: [],
-    type: 'Platform',
-    technology: [],
-    year: 2017,
-    content: 'We provide the FIWARE platform with all Generic Enablers'
-  },
-  {
-    company: 'nixi1',
-    name: 'nixi1',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/edwTXideTN/logo-nixi1-morado.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://www.nixi1.com',
-    domain: ['Cities'],
-    type: 'Solution',
-    technology: [],
-    year: 2018,
-    content:
-      'With nixi1, text or send voice notes to book your flight and hotel room through any Messaging App. In less than 60 seconds.'
-  },
-  {
-    company: 'SAMMY',
-    name: 'SAMMY - \\"Smart Marina Platform\\',
-    img:
-      'https://www.fiware.org/wp-content/uploads/71bbf6f9831d52d4257924eed163319e.jpg',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://www.sammyacht.com/sammy/website/',
-    domain: ['Cities', 'Mobility', 'Tourism', 'Transport'],
-    type: 'Solution',
-    technology: [
-      'Artificial Intelligence',
-      'Data Analytics',
-      'Digital Twins',
-      'Internet of Things',
-      'Mobility and Location'
-    ],
-    year: 2017,
-    content:
-      'SAMMY is a sophisticated, modern and attractive (easy to use), IOT cloud-based platform that supports the digital transformation, the transparency and the process optimization of marinas & tourist ports, by providing data interpretation, visualization and real time services.'
-  },
-  {
-    company: 'OurPath',
-    name: 'OurPath',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/sMLPKXELn6/unnamed.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://www.ourpath.co.uk',
-    domain: ['Health'],
-    type: 'Solution',
-    technology: [],
-    year: 2018,
-    content:
-      'OurPath is an online programme to help you make the changes you need to get healthy.'
-  },
-  {
-    company: 'panStamp S.L.U.',
-    name: 'RESPIRA IoT platform',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/dberenguer/4HhYGT7ZZi/panstamp_s.jpg',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'http://calidadmedioambiental.org/',
-    domain: [],
-    type: 'Platform',
-    technology: [],
-    year: 2019,
-    content:
-      'Open IoT platform created to display and exploit environmental data'
-  },
-  {
-    company: 'phoops s.r.l.',
-    name: 'MUV-App',
-    img:
-      'https://www.fiware.org/wp-content/uploads/e2f85f0318e7656f5da560a93e1c6cb8.png',
-    fiwareMember: true,
-    fiwareIhub: false,
-    companyLink: 'https://muv-app.city/',
-    domain: ['Air Quality', 'Automotive', 'Logistics', 'Mobility', 'Transport'],
-    type: 'Solution',
-    technology: ['Mobility and Location', 'Open Data', 'Software as a Service'],
-    year: 2015,
-    content:
-      'MUV-APP is the platform that turns the complex and huge urban mobility system into a safe, sustainable and user-friendly system.\n\nMUV-APP enables Mobility as a service for the public administration, to provide innovative tools for the management of the entire urban mobility system.'
-  },
-  {
-    company: 'Project Ray',
-    name: 'RAY - Accessibility for All',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/projectray/AeWzYwS4L4/logo_ray_tagline1.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'http://www.project-ray.com',
-    domain: ['Cities', 'Health'],
-    type: 'Solution',
-    technology: [],
-    year: 2017,
-    content:
-      'Providing digital accessibility smartphones and services for visually impaired people.'
-  },
-  {
-    company: 'Prospeh d.o.o.',
-    name: 'Trace Labs - OriginTrail Core Developers',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/67i3Mpuenu/tracelabs-horizontal-red_2x.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://tracelabs.io/',
-    domain: ['Logistics'],
-    type: 'Solution',
-    technology: [],
-    year: 2017,
-    content:
-      'Trusted Network Applications for Business Communities of the Future'
-  },
-  {
-    company: 'Purple Blob S.L.',
-    name: 'BARET',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/purpleblob/ieP2cepB2C/purple_blob_logo.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://baret.es',
-    domain: ['Smart Cities'],
-    type: 'Solution',
-    technology: [],
-    year: 2022,
-    content:
-      'Quality, freedom and interoperability for Smart Destinations and brands'
-  },
-  {
-    company: 'Purple Blob S.L.',
-    name: 'SARA',
-    img:
-      'https://www.fiware.org/wp-content/uploads/6b000e39835994b6c18121d0c5e94643.zip',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://purpleblob.net/sara/',
-    domain: [
-      'Cities',
-      'Industry',
-      'Measurement',
-      'Mobility',
-      'Utilities',
-      'Oil and Gas'
-    ],
-    type: 'Solution',
-    technology: [
-      'Artificial Intelligence',
-      'Blockchain',
-      'Data Analytics',
-      'Internet of Things',
-      'Software as a Service'
-    ],
-    year: 2020,
-    content:
-      'SARA is an IoT platform that can integrate almost any  solution, data source or actuator into a powered by FIWARE system that centralizes all the user and device management, enables the use of different analytical intelligence tools and allows the aggregation of the data generated by each solution'
-  },
-  {
-    company: 'Pycno',
-    name: 'Pycno',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/ew8YZEjMiG/pycnologo1.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://www.pycno.co',
-    domain: ['AgriFood'],
-    type: 'Solution',
-    technology: [],
-    year: 2018,
-    content:
-      'Easy to use, professional ambient and soil sensors. Data visualisation, crop analytics and predictions aggregated in one platform.'
-  },
-  {
-    company: 'Scuter s.r.l.',
-    name: 'Scuter',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/QbWMdGg7uM/logo-1x.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'http://scuter.co',
-    domain: ['Cities'],
-    type: 'Solution',
-    technology: [],
-    year: 2018,
-    content:
-      'The first smart 3-wheels e-scooter offered as a service that improves the urban mobility.'
-  },
-  {
-    company: 'Sensative AB',
-    name: 'Yggio DiMS',
-    img:
-      'https://www.fiware.org/wp-content/uploads/88e1602986d2e9414db9d5ea3e4d91ca.zip',
-    fiwareMember: true,
-    fiwareIhub: true,
-    companyLink: 'https://sensative.com/yggio/',
-    domain: [
-      'Agriculture',
-      'Cities',
-      'Construction and Building',
-      'Energy',
-      'Water'
-    ],
-    type: 'Platform',
-    technology: [
-      'Artificial Intelligence',
-      'Communication Networks',
-      'Data Handling',
-      'Digital Twins',
-      'Internet of Things'
+      "Artificial Intelligence",
+      "Data Analytics",
+      "Internet of Things",
+      "Open Data",
+      "Screens and Display",
     ],
     year: 2019,
     content:
-      'Yggio open digitalization platform provides integration of any IoT sensor or IT technology, contextualized and normalized data, unified IoT infrastructure management, data ownership and control, scalability for massive IoT, and a standardized API, making IoT services vendor and technology neutral.'
+      "[ui!] UrbanPulse is the most efficient Open Urban Data Platform with open APIs for small and large cities, municipalities, utilities, and other organizations to reuse, repurpose, share and present new and existing urban data sources and create value-added services in real-time for your citizens.",
   },
   {
-    company: 'Sensei',
-    name: 'Sensei',
+    company: "[ui!] Urban Software",
+    name: "[ui!] UrbanPulse",
     img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/FjxS5NJjuj/screen_shot_2018-06-19_at_16.46.39.png',
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_UrbanInstitute.svg",
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink: 'https://www.sensei.tech',
-    domain: ['Content'],
-    type: 'Solution',
-    technology: [],
-    year: 2018,
-    content:
-      'AI powered real-time video recognition solution for retail providing accurate in-store traffic flow analysis, sales performance, and product recognition.'
-  },
-  {
-    company: 'Sensohive Technologies ApS',
-    name: 'Maturix',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/9okHiwhPKN/sensohive_logo_header1.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://maturix.com',
-    domain: ['Industry'],
-    type: 'Solution',
-    technology: [],
-    year: 2018,
-    content:
-      'Enables easy and affordable monitoring concrete curing in real-time – all showed in a user-friendly software solution.'
-  },
-  {
-    company: 'Sentio',
-    name: 'VISTRA',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/Deks8Fx9kw/sentio_big.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'http://www.sentio.net',
-    domain: ['Industry'],
-    type: 'Solution',
-    technology: [],
-    year: 2018,
-    content:
-      'Smart Context Sensitive Virtual Operator Training and Technician Support'
-  },
-  {
-    company: 'Sirus NV',
-    name: 'Sirus City Store',
-    img:
-      'https://www.fiware.org/wp-content/uploads/11928a6cbf3b7d7ba548e23202996449.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://sirus.be/smart-cities/',
-    domain: ['Cities', 'Green Deal', 'Mobility', 'Water', 'Weather'],
-    type: 'Platform',
-    technology: [
-      'Data Spaces',
-      'Digital Twins',
-      'Internet of Things',
-      'Open Data',
-      'Software as a Service'
-    ],
-    year: 2020,
-    content:
-      'The Sirus Smart City store helps cities harmonize all the data gathered by different sensors and platforms in the city. The data is delivered in a nopen standard to Citizens, Government, Companies and Research institutes. This allows cities to collaborate with parties to create innovative solutions'
-  },
-  {
-    company: 'Skyx',
-    name: 'Skyx Pass',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/79dYCDZstN/skyx_logo_big.jpg',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://www.skyx.solutions',
-    domain: ['AgriFood'],
-    type: 'Solution',
-    technology: [],
-    year: 2018,
-    content:
-      'Skyx is an agricultural-robotics technology company enabling a modular swarm of autonomous drones for spraying.'
-  },
-  {
-    company: 'Snap4City',
-    name: 'Snap4City – Km4City',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/nicola.mitolo/rwvb5XW2k9/snap4city-logo-01-colorato.svg',
-    fiwareMember: true,
-    fiwareIhub: false,
-    companyLink: 'https://www.snap4city.org',
-    domain: ['Air Quality', 'Cities', 'Industry', 'Mobility', 'Tourism'],
-    type: 'Solution',
-    technology: [
-      'Advanced or High Performance Computing',
-      'Artificial Intelligence',
-      'Data Analytics',
-      'Digital Twins',
-      'Internet of Things'
-    ],
-    year: 2018,
-    content:
-      'Scalable Smart aNalytic APplication Builder for Sentient Cities, the platform proving flexible a method and solution for rapid implementation of smart city applications exploiting heterogeneous data and enabling services for stakeholders by IOT/IOE, data analytics and big data technologies.'
-  },
-  {
-    company: 'Snap4City',
-    name: 'Snap4City',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/nicola.mitolo/H5gqqMR3PX/snap4city-logo-01-colorato.svg',
-    fiwareMember: true,
-    fiwareIhub: false,
-    companyLink: 'https://www.snap4city.org',
-    domain: ['Air Quality', 'Cities', 'Industry', 'Mobility', 'Tourism'],
-    type: 'Platform',
-    technology: [
-      'Advanced or High Performance Computing',
-      'Artificial Intelligence',
-      'Data Analytics',
-      'Digital Twins',
-      'Software as a Service'
-    ],
-    year: 2021,
-    content:
-      'Scalable Smart aNalytic APplication Builder for Sentient Cities, the platform proving flexible a method and solution to quickly create a large range of smart city applications exploiting heterogeneous data and enabling services for stakeholders by IOT/IOE, data analytics and big data technologies.'
-  },
-  {
-    company: 'Spero - Smart Decision Tools',
-    name: 'SPERO.CITY – Anybody, Anywhere, Anytime',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/9pgsdGqdBT/canvasone.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'http://spero.systems/',
-    domain: ['Cities'],
-    type: 'Solution',
-    technology: [],
-    year: 2018,
-    content:
-      'Spero provides integrated report and decision support systems for urban space\nand infrastructure management, via mobile app/backoffice, featuring social\nnetworks interaction and scientific decision aiding models.'
-  },
-  {
-    company: 'SRM Consulting',
-    name: 'Capacity Control System',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/josesantiso/uHPpboySat/srm.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'http://www.srmconsulting.es',
-    domain: ['Cities', 'AgriFood', 'Logistics', 'Industry', 'Health'],
-    type: 'Solution',
-    technology: [],
-    year: 2021,
-    content:
-      'Capacity Control System is a complete solution to scan and localize any Wi-Fi or Bluetooth device, such as smatphones, laptops or smartwach. The main, but not only, goal of this technology is the capacity controls of the public spaces.'
-  },
-  {
-    company: 'StoneOne AG',
-    name: 'SmartOrchestra',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/odieCPgERj/unnamed.png',
-    fiwareMember: true,
-    fiwareIhub: false,
-    companyLink: 'http://smartorchestra.de',
-    domain: ['Cities'],
-    type: 'Platform',
-    technology: [],
-    year: 2018,
-    content:
-      'Smart Service Platform for the safe internet-based integration, orchestration and effective marketing of cyber-physical applications (smart devices).'
-  },
-  {
-    company: 'Stratio',
-    name: 'Stratio Automotive',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/Fdybm7TsQv/stratio_automotive_logo_color.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://stratioautomotive.com',
-    domain: ['Cities'],
-    type: 'Solution',
-    technology: [],
-    year: 2017,
-    content:
-      'Stratio Automotive turns vehicle data into an exact science, making the unpredictable predictable.'
-  },
-  {
-    company: 'STUDIOMAPP s.r.l.',
-    name: 'Qirate',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/zydHw5dPkW/qirate_logo_big.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://www.qirate.com',
-    domain: ['Cities'],
-    type: 'Solution',
-    technology: [],
-    year: 2018,
-    content:
-      'Qirate is a location intelligence service that measures the quality of life or liveability of a place.'
-  },
-  {
-    company: 'Super Technologies SL',
-    name: 'DelSuper.es',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/MpjkFTQN7d/logo-del-super2.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://www.delsuper.es',
-    domain: ['Cities', 'AgriFood', 'Retail'],
-    type: 'Solution',
-    technology: [],
-    year: 2017,
-    content: 'DelSuper.es delivers grocery shopping in 1h.'
-  },
-  {
-    company: 'Tablegrabber ApS',
-    name: 'RezGuru',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/NWgPLxS4go/zz_oeayu_400x400.jpeg',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'http://www.rezguru.com',
-    domain: ['Cities', 'Retail'],
-    type: 'Solution',
-    technology: [],
-    year: 2018,
-    content: 'A powerful dynamic pricing tool.'
-  },
-  {
-    company: 'Talkykar S.L.',
-    name: 'TalkyCar',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/talkycar/AAEAAQAAAAAAAAN5AAAAJDNkNmQyNzA3LTUwMjctNDVlMy1hNWVhLWZhZjU4MDcyOTVjMA.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'http://talkycar.com',
-    domain: ['Logistics'],
-    type: 'Solution',
-    technology: [],
-    year: 2017,
-    content:
-      'TalkyCar connects your car to your Smartphone, becoming a smart car, making your driving safer and more efficient.'
-  },
-  {
-    company: 'TD Consulting S.L.',
-    name: 'CitySense',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/mZZ23BSFcH/logo-tdconsulting.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'http://www.citysense.es',
-    domain: ['Cities'],
-    type: 'Solution',
-    technology: [],
-    year: 2017,
-    content:
-      'CitySense is a citizen participation project in the city of Malaga that aims to generate new collaborative experiences of users with the city.'
-  },
-  {
-    company: 'TeamDev s.r.l.',
-    name: 'WiseTown',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/teamdev/logo_TD_2015_OK.png',
-    fiwareMember: true,
-    fiwareIhub: false,
-    companyLink: 'http://wise.town/',
-    domain: ['Cities'],
-    type: 'Solution',
-    technology: [],
-    year: 2018,
-    content:
-      "WiseTown uses crowd-sourcing,  open data, IoT and social to provide decision support systems to city managers and to improve citizens' quality of life."
-  },
-  {
-    company: 'MOVISAT',
-    name: 'EcoSAT',
-    img:
-      'https://www.fiware.org/wp-content/uploads/06f387e00b31aa8d85568df0b563d338.zip',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'http://www.movisat.com',
+    companyLink: "https://www.ui.city/loesungen#urbanpulse",
     domain: [
-      'Cities',
-      'Government',
-      'Parks &amp; Gardens',
-      'Sustainability',
-      'Waste Management'
+      "Air Quality",
+      "Lighting",
+      "Measurement",
+      "Mobility",
+      "Sustainability",
     ],
-    type: 'Solution',
+    type: "Platform",
     technology: [
-      'Artificial Intelligence',
-      'Data Analytics',
-      'Sensory Systems',
-      'Software as a Service'
+      "Data Analytics",
+      "Internet of Things",
+      "Screens and Display",
+      "Sensory Systems",
+      "Software as a Service",
     ],
-    year: 2020,
+    year: 2019,
     content:
-      'EcoSAT is a modular vertical platform specialized in environmental municipal services.  Its aim is the planning, management and certification of the activities done by vehicles and people working on different urban services.'
+      "[ui!] UrbanPulse is an open central data platform for urban data in real-time - based on a highly scalable architecture for data processing and analysis, with a special connector framework for the integration of sensors, urban management systems and Visualization of complex data with tiles and maps.",
   },
   {
-    company: 'Telefónica',
-    name: 'Thinking Cities',
+    company: "Absolute Zero",
+    name: "Thor",
     img:
-      'https://www.fiware.org/wp-content/uploads/85b9a7018631dd377b8c792853db96a3.zip',
-    fiwareMember: true,
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_AbsoluteZero.svg",
+    fiwareMember: false,
     fiwareIhub: false,
-    companyLink: 'https://thinking-cities.readthedocs.io/en/latest/index.html',
-    domain: ['Agriculture', 'Cities', 'Government', 'Industry', 'Tourism'],
-    type: 'Platform',
+    companyLink: "http://www.absolutezerovr.com",
+    domain: ["Content"],
+    type: "Solution",
+    technology: ["Internet of Things", "Data Analytics", "Sensory System"],
+    year: 2018,
+    content:
+      "Thor is the most versatile professional 360° with cloud-based workflow. Multiple AZ’s VR cameras individually record 12 video streams, and collect positioning metadata via in-built GPS sensor.",
+  },
+  {
+    company: "Accelogress Limited",
+    name: "Save-a-Space",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_save-a-space.svg",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "https://www.save-a-space.com",
+    domain: ["Cities", "Mobility", "Sustainability", "Transport"],
+    type: "Solution",
     technology: [
-      'Artificial Intelligence',
-      'Big Data',
-      'Data Analytics',
-      'Data Handling',
-      'Internet of Things'
+      "Data Analytics",
+      "Internet of Things",
+      "Mobility and Location",
+      "Software as a Service",
     ],
     year: 2016,
     content:
-      'The Thinking Cities platform is an integral solution to support City services. It includes a series of modules that allow the acquisition, processing, storage and distribution of data, on which several City Services, vertical IoT solutions and Data Analytics can be implemented easily.'
+      "This cloud-based solution intelligently monitors and automates management of EV chargers and parking spaces on a per space / per user basis improving utilisation. \n\nEnd-users reserve their space in advance via an easy-to-use app with integrated payments, significantly reducing parking hassle.",
   },
   {
-    company: 'Telenet Group',
-    name: 'Telenet Tinx',
+    company: "Agricolus",
+    name: "Agricolus",
     img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/salimboutlendj/X7GaafPKgd/telenet_headerlogo.svg',
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Agricolus.svg",
     fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "https://www.agricolus.com/",
+    domain: ["Agriculture", "AgriFood", "Green Deal", "Sustainability"],
+    type: "Solution",
+    technology: [
+      "Artificial Intelligence",
+      "Big Data",
+      "Data Analytics",
+      "Internet of Things",
+      "Software as a Service",
+    ],
+    year: 2017,
+    content:
+      "Agricolus is a cloud platform created to simplify and enhance the work in the field of farmers and professionals. It is composed of the main applications of precision agriculture:  from satellite imagery with vegetation indices to forecast models for irrigation, fertilization, pest and diseases.",
+  },
+  {
+    company: "Amigo",
+    name: "Index Design and Analysis",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Amigo.svg",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "https://amigoclimate.com/",
+    domain: ["Cities"],
+    type: "Solution",
+    technology: ["Data Analytics"],
+    year: 2019,
+    content:
+      "IDA integrates into one web platform climate modeling, ground-based and remotely sensed measures of weather variables to provide high-level software capabilities for customized climate risk assessment globally, including climate index computation, visualization, and reporting.",
+  },
+  {
+    company: "Atos",
+    name: "MASAI",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_Masai.png",
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink: "http://booklet.atosresearch.eu/content/masai",
+    domain: ["Industry"],
+    type: "Solution",
+    technology: [
+      "Internet of Things",
+      "Additive Manufacturing",
+      "Data Analytics",
+    ],
+    year: 2019,
+    content:
+      "MASAI is an efficient data integration software for manufacturing systems allowing to collect data from a variety of IoT Devices in the manufacturing domain (Industry 4.0), that is not entirely covered by existing proprietary solutions.",
+  },
+  {
+    company: "Atos",
+    name: "Urban Data Platform",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Atos.svg",
+    fiwareMember: true,
     fiwareIhub: false,
     companyLink:
-      'https://www2.telenet.be/fr/business/produits-services/internet-of-things',
-    domain: [],
-    type: 'Platform',
-    technology: [],
-    year: 2019,
-    content:
-      'Telenet Tinx is a device and data management platform for smart cities.'
-  },
-  {
-    company: 'Tera s.r.l.',
-    name: 'Beeta',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/2qF24bchAL/logo-beeta.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'http://www.beeta.it',
-    domain: ['Cities', 'Home'],
-    type: 'Solution',
-    technology: [],
-    year: 2018,
-    content:
-      'Beeta helps people to feel better at home, keeping it under control: saving energy bills, increase security&safety, automate.'
-  },
-  {
-    company: 'Tsenso GmbH',
-    name: 'FreshIndex',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/rahultomar/85fspqFkL7/tsenso_logo_mit_subline.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'http://tsenso.com',
-    domain: ['AgriFood'],
-    type: 'Solution',
-    technology: [],
-    year: 2018,
-    content:
-      'The “Fresh Index” is the new real-time shelf life indicator for food.'
-  },
-  {
-    company: 'Tsenso GmbH',
-    name: 'Rosy',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/rahultomar/MmWhihAuG8/rosy_logo_web.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'http://www.rosy-traffic.eu',
-    domain: ['Cities'],
-    type: 'Solution',
-    technology: [],
-    year: 2018,
-    content:
-      'Rosy is a proactive solution for traffic planners for dynamization and optimization of traffic within and outside of the city.'
-  },
-  {
-    company: 'UBIKWA',
-    name: 'INSYLO',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/ogvR2FbqzN/logoubikwa__512x512_.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'http://www.insylo.com',
-    domain: ['AgriFood', 'Logistics', 'Industry'],
-    type: 'Solution',
-    technology: [],
-    year: 2018,
-    content:
-      "INSYLO is an affordable solution to remotely monitor livestock farms' silos and solve the million dollar question: the right moment and the right quantity to restock each silo in order to optimise logistic costs."
-  },
-  {
-    company: 'Ubiwhere, Lda.',
-    name: 'Smartlamppost',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/KzcvsnaHZ9/slp.png',
-    fiwareMember: true,
-    fiwareIhub: false,
-    companyLink: 'http://www.urbsense.com/',
-    domain: ['Cities'],
-    type: 'Solution',
-    technology: [],
-    year: 2017,
-    content:
-      'Smartlamppost is a modular concept of a lamppost with bleeding edge technology, allowing municipalities to future-proof their smart city and Mobile Network Operators to cost-effectively deploy their 5G solution.'
-  },
-  {
-    company: 'Ubiwhere, Lda.',
-    name: 'Urban Platform',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/ubiwhere/Ewj6n6ZXJQ/logo_ubiwhere_full_rgb_blue.png',
-    fiwareMember: true,
-    fiwareIhub: false,
-    companyLink: 'http://urbanplatform.ubiwhere.com/',
-    domain: [],
-    type: 'Platform',
-    technology: [],
-    year: 2018,
-    content:
-      'Our Urban Platform provides city managers and decision makers with a holistic view of their cities, presenting cross-domain data in a unified way.'
-  },
-  {
-    company: 'University of Deusto',
-    name: 'Waste4Think',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/75QDbQ4kwG/waste4think.svg',
-    fiwareMember: true,
-    fiwareIhub: false,
-    companyLink: 'http://waste4think.eu',
-    domain: ['Cities'],
-    type: 'Solution',
-    technology: [],
-    year: 2017,
-    content:
-      'Moving towards life cycle thinking by integrating advanced waste management systems.'
-  },
-  {
-    company: 'Urban Clouds',
-    name: 'SMAQ - Air Quality',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/9tYwFgQtie/urbanclouds-logotipo-claim-home.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://urbanclouds.city',
-    domain: ['Cities'],
-    type: 'Solution',
-    technology: [],
-    year: 2019,
-    content:
-      'SMAQ is an innovative system for monitoring air quality in urban settings, created with the aim of improving air quality in cities.'
-  },
-  {
-    company: '[ui!] Urban Software',
-    name: '[ui!]UrbanPulse',
-    img:
-      'https://www.fiware.org/wp-content/uploads/19ad4105155999dcbe539b2e0a9e55cc.jpg',
-    fiwareMember: 'Yes',
-    fiwareIhub: false,
-    companyLink: 'https://www.ui.city/en/solutions#urbanpulse',
-    domain: [
-      'Air Quality',
-      'Government',
-      'Lighting',
-      'Mobility',
-      'Sustainability'
-    ],
-    type: 'Platform',
+      "https://atos.net/en/lp/urban-data-platforms/introducing-the-urban-data-platform",
+    domain: ["Air Quality", "Agriculture", "Cities", "Energy", "Mobility"],
+    type: "Platform",
     technology: [
-      'Artificial Intelligence',
-      'Data Analytics',
-      'Internet of Things',
-      'Open Data',
-      'Screens and Display'
+      "Artificial Intelligence",
+      "Data Spaces",
+      "Digital Twins",
+      "Internet of Things",
+      "Mobility and Location",
     ],
     year: 2019,
     content:
-      '[ui!] UrbanPulse is the most efficient Open Urban Data Platform with open APIs for small and large cities, municipalities, utilities, and other organizations to reuse, repurpose, share and present new and existing urban data sources and create value-added services in real-time for your citizens.'
+      "UDP is the open, secure, and interoperable Atos standard data platform that allows the integration and collection of information from data sources, and the standardization and processing of that information to provide aggregated and intelligent views of raw data to facilitate decision-making.",
   },
   {
-    company: '[ui!] Urban Software Institute',
-    name: '[ui!]UrbanPulse',
+    company: "Bettair Cities",
+    name: "Bettair",
     img:
-      'https://www.fiware.org/wp-content/uploads/43d7e04308703aec25db3cbe502bceda.zip',
-    fiwareMember: false,
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Bettair.svg",
+    fiwareMember: true,
     fiwareIhub: false,
-    companyLink: 'https://www.ui.city/loesungen#urbanpulse',
-    domain: [
-      'Air Quality',
-      'Lighting',
-      'Measurement',
-      'Mobility',
-      'Sustainability'
-    ],
-    type: 'Platform',
+    companyLink: "https://bettaircities.com",
+    domain: ["Air Quality", "Cities"],
+    type: "Solution",
     technology: [
-      'Data Analytics',
-      'Internet of Things',
-      'Screens and Display',
-      'Sensory Systems',
-      'Software as a Service'
+      "Internet of Things",
+      "Data Analytics",
+      "Open Data",
+      "Sensory Systems",
+    ],
+    year: 2020,
+    content:
+      "Bettair® is a Platform as a Service (PaaS) that offers, for the first time high-quality large-scale pollution mapping tools (that use an advanced post-processing algorithm) for big cities.",
+  },
+  {
+    company: "BOOKINGABUS",
+    name: "Bookingabus.com",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_BookingABus.png",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "https://www.bookingabus.com",
+    domain: ["Cities"],
+    type: "Solution",
+    technology: ["Internet of Things"],
+    year: 2017,
+    content:
+      "Bookingabus.com offers you different bus offers depending on your needs and budget. Whether you need a bus for a party or a conference, we can offer the right bus category for every occasion.",
+  },
+  {
+    company: "Bosonit",
+    name: "Elliot Cloud",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Bosonit.svg",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "https://www.bosonit.com",
+    domain: ["AgriFood", "Cities", "Industry"],
+    type: "Solution",
+    technology: ["Internet of Things", "Data Analycs"],
+    year: 2020,
+    content:
+      "Elliot Cloud is an Internet of Everything platform designed to monitor, analyze and manage heterogeneous sources of data (agrofood, smart cities, industry, etc.)",
+  },
+  {
+    company: "Breeze Technologies",
+    name: "Breeze Environmental Intelligence Cloud",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_BreezeTechnologies.svg",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "http://www.breeze-technologies.de",
+    domain: ["Cities"],
+    type: "Solution",
+    technology: ["Internetof Things", "Data Analytics", "Sensory System"],
+    year: 2019,
+    content:
+      "Breeze Technologies enables cities and corporates to create a more liveable environment by providing actionable insights based on environmental sensor data.",
+  },
+  {
+    company: "Breeze Technologies",
+    name: "Environmental Intelligence Suite",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_BreezeTechnologies.svg",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "https://www.breeze-technologies.de/solutions/",
+    domain: [
+      "Air Quality",
+      "Cities",
+      "Government",
+      "Green Deal",
+      "Measurement",
+    ],
+    type: "Solution",
+    technology: [
+      "Artificial Intelligence",
+      "Big Data",
+      "Data Analytics",
+      "Internet of Things",
+      "Sensory Systems",
+    ],
+    year: 2015,
+    content:
+      "Breeze Technologies\\' Environmental Intelligence Suite consists of indoor and outdoor air quality sensors, and the Environmental Intelligence Cloud, a SaaS data analytics platform for large air quality datasets. It supports cities, businesses and NGOs to collect and analze air quality in real time.",
+  },
+  {
+    company: "CardioID",
+    name: "CardioWheel",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_CardioID.svg",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "https://www.cardio-id.com",
+    domain: ["Health"],
+    type: "Solution",
+    technology: ["Internet of Things", "Data Analytics"],
+    year: 2018,
+    content:
+      "Cardio Wheel is an Advanced Driver Assistance System (ADAS) that can help you prevent drowsiness and automatically detect the identity of the driver.",
+  },
+  {
+    company: "Carto",
+    name: "Urbo",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Carto.svg",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "https://carto.com/",
+    domain: ["Cities"],
+    type: "Solution",
+    technology: ["Data Analytics", "Internet of Things"],
+    year: 2018,
+    content:
+      "Urbo is a Smart Cities operational dashboard that analyzes real-time data coming from sensors on parking, waste management, street lighting, water management, environmental data, city alerts, etc.",
+  },
+  {
+    company: "Ciclogreen Move & Win",
+    name: "Ciclogreen",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_CicloGreen.svg",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "https://www.ciclogreen.com",
+    domain: ["Cities", "Green Deal", "Mobility", "Sustainability", "Transport"],
+    type: "Solution",
+    technology: [
+      "Big Data",
+      "Gamification",
+      "Mobility and Location",
+      "Software as a Service",
+    ],
+    year: 2017,
+    content:
+      "We help companies and cities to promote sustainable mobility practices in companies, universities, and city councils in any urban area of the world.",
+  },
+  {
+    company: "Civity",
+    name: "Sniffer Bike",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_SnifferBike.svg",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "https://snuffelfiets.nl/",
+    domain: ["Cities"],
+    type: "Solution",
+    technology: ["Interne of Things", "Data Analytics", "Open Data"],
+    year: 2019,
+    content:
+      "A mobile sensor on bikes that measures the air quality, routes, and road conditions every 10 seconds, provides open data, and shows advanced insights.",
+  },
+  {
+    company: "CommuniThings",
+    name: "Stop-buy",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_CommuniThings.svg",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "http://www.communithings.com/",
+    domain: ["Cities"],
+    type: "Solution",
+    technology: ["Internet of Things", "Data Analytics."],
+    year: 2017,
+    content:
+      "Stop-buy is a smart parking solution favoring rapid rotation of vehicles and stimulation of local commerce. It guides users to the nearest parking and optimizes operational efficiencies for parking managers.",
+  },
+  {
+    company: "Connect Robotics",
+    name: "Drone 2 Me",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_ConnectRobotics.svg",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "http://connect-robotics.com",
+    domain: ["Cities", "Logistics", "Industry", "Retail"],
+    type: "Solution",
+    technology: ["Internet of Things", "Data Analytics."],
+    year: 2017,
+    content:
+      "Drone delivery as a Service, for a logistic operator to easily start using drones for transport between their own distribution sites or to end consumers.",
+  },
+  {
+    company: "Digitalilusion",
+    name: "Outbarriers",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_OutBarriers.svg",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "https://outbarriers.com",
+    domain: ["Cities"],
+    type: "Solution",
+    technology: ["Internet of Things", "Sensory System."],
+    year: 2018,
+    content:
+      "We make businesses visible for everyone, including blind people, thanks to our accessible beacon solution. Today Outbarriers is a reality with an objective to make this world a better place for all of us. A world where the cities are adapted for their citizens and not vice versa.",
+  },
+  {
+    company: "DKSR",
+    name: "Open Urban Data Platform",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_DKSR.svg",
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink: "https://www.dksr.city/en/home-ii/",
+    domain: ["Smart Cities"],
+    type: "Platform",
+    technology: ["Data Analytcis", "Open Data", "Cloud Computing"],
+    year: 2022,
+    content:
+      "With the DKSR Open Urban Data Platform (OUP), we offer to make digital solutions transferable, scalable, and easily applicable for every municipality.",
+  },
+  {
+    company: "EGM",
+    name: "Carpool parking",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_EGM.svg",
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink: "https://www.egm.io/en/the-smart-camera-for-carpooling",
+    domain: ["Automotive", "Cities", "Measurement", "Mobility", "Transport"],
+    type: "Solution",
+    technology: [
+      "Advanced or High Performance Computing",
+      "Cloud Computing",
+      "Mobility and Location",
+    ],
+    year: 2021,
+    content:
+      "This camera allows us to count entries and exits in a carpool park and to determine whether the cars parked are indeed intended for carpooling. This device allows our clients to have tangible statistics on the occupation of a car park.",
+  },
+  {
+    company: "EGM",
+    name: "Connected canteens",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_EGM.svg",
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink: "https://www.youtube.com/watch?v=WiU1_vwH7KA",
+    domain: ["AgriFood", "Measurement", "Waste Management"],
+    type: "Solution",
+    technology: ["Data Analytics", "Screens and Display", "Sensory Systems"],
+    year: 2021,
+    content:
+      "This solution includes connected weighing scales under the bins to provide information on the weight of organic and non-organic waste from an individual and overall perspective. This solution allows canteens to raise awareness and help to adapt menus and quantities.",
+  },
+  {
+    company: "EGM",
+    name: "Smart irrigation",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_EGM.svg",
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink:
+      "https://www.egm.io/en/egm-among-the-winners-of-the-fnccrs-trophees-des-economies-deau-2",
+    domain: ["Agriculture", "Cities", "Measurement", "Water", "Weather"],
+    type: "Solution",
+    technology: ["Internet of Things", "Sensory Systems"],
+    year: 2021,
+    content:
+      "EGM offers a complete solution for determining the amount of water that can be saved on a green space and deploying the control solution in addition to an existing watering system to achieve the water savings in question. Our solution saved 35% of the water on the first deployment.",
+  },
+  {
+    company: "Elmitel",
+    name: "eVineyard",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_eVineyard.svg",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "http://www.evineyardapp.com",
+    domain: ["Agriculture", "AgriFood"],
+    type: "Solution",
+    technology: [
+      "Data Analytics",
+      "Data Spaces",
+      "Digital Twins",
+      "Internet of Things",
+      "Software as a Service",
+    ],
+    year: 2017,
+    content:
+      "eVineyard is an intuitive and easy-to-use vineyard management software that helps you grow better quality grapes more sustainably. Manage your vineyards smarter and get more time for vineyard activities rather than paperwork.",
+  },
+  {
+    company: "Engineering",
+    name: "Digital Enabler",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_DigitalEnabler.svg",
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink:
+      "https://www.eng.it/en/our-platforms-solutions/digital-enabler",
+    domain: ["Cities"],
+    type: "Platform",
+    technology: ["Data Analytics", "Open Data", "Cloud Computing"],
+    year: 2018,
+    content:
+      "Digital Enabler TM is the Engineering’s ecosystem platform supporting the entire value chain of data, from the discovery to the analysis, harmonization, and visualization.",
+  },
+  {
+    company: "Engineering DSS",
+    name: "CuraVesta",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Engineering.svg",
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink: "https://smart-solution.eng-its.de/curavesta/",
+    domain: ["Cities", "Health"],
+    type: "Solution",
+    technology: ["Internet of Things", "Data Analytics"],
+    year: 2020,
+    content:
+      "CuraVesta© is an assistance system, which was developed by ENGINEERING for home care. As a Health solution, it supports people who care for and nurse their relatives at home.",
+  },
+  {
+    company: "Everimpact",
+    name: "Everimpact",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Everimpact.svg",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "http://www.everimpact.org",
+    domain: ["Cities"],
+    type: "Solution",
+    technology: ["Internet of Things", "Sensory System", "Data Analytics"],
+    year: 2017,
+    content:
+      "Everimpact measures and monetizes Cities’ CO2 emissions by combining satellites and ground sensors’ data. Cities get a real-time map of their emissions at street and building level, at a precision never reached before.",
+  },
+  {
+    company: "Farm Dog Technologies",
+    name: "Farm Dog",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_FarmDog.svg",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "https://farmdog.ag",
+    domain: ["AgriFood"],
+    type: "Solution",
+    technology: ["Intern of Things", "Data Analytics"],
+    year: 2017,
+    content:
+      "Farm Dog: Keeping agricultural fields healthy from pest and disease.\nWith Farm Dog, growers transition from a completely offline decision-making process to a digital one",
+  },
+  {
+    company: "Fashion Cloud",
+    name: "Fashion Cloud",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_FashionCloud.svg",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "https://fashion.cloud",
+    domain: ["Retail"],
+    type: "Solution",
+    technology: ["Data Analytics"],
+    year: 2017,
+    content:
+      "FASHION CLOUD is the leading content exchange platform in the fashion industry.",
+  },
+  {
+    company: "Faubourg Numérique",
+    name: "ouranos-ws",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_OuranosWS.svg",
+    fiwareMember: false,
+    fiwareIhub: true,
+    companyLink: "https://ouranos-ws.com/en/",
+    domain: ["Cities", "Industry", "Logistics"],
+    type: "Solution",
+    technology: [
+      "Data Spaces",
+      "Digital Twins",
+      "Internet of Things",
+      "Modelling",
+    ],
+    year: 2022,
+    content:
+      "ouranos-ws is an easy-to-use solution to enable the NGSI-LD superpowers, with the strategic goal to manage your virtualized assets as digital twins. It allows you to DESIGN your specific data models, NAVIGATE through your graphs of entities and CONTROL the interactions with the other systems.",
+  },
+  {
+    company: "FIWOO",
+    name: "FIWOO",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_FIWOO.svg",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "http://www.fiwoo.eu",
+    domain: ["Agriculture", "Cities", "Industry", "Mobility", "Tourism"],
+    type: "Platform",
+    technology: [
+      "Artificial Intelligence",
+      "Big Data",
+      "Cloud Computing",
+      "Internet of Things",
+      "Open Data",
+    ],
+    year: 2018,
+    content:
+      "FIWOO is an IoT-Editor platform, which allows users to create any entity without the need for computer knowledge. Everything can be created without a single line of code.\n\nAny user can create their panels, connect their devices, and generate smart rules through a simple graphic interface.",
+  },
+  {
+    company: "Floud",
+    name: "Floud",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Floud.svg",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "https://www.floud.eu/",
+    domain: ["Cities", "Retail"],
+    type: "Solution",
+    technology: ["Internet of Things", "Data Analytics"],
+    year: 2018,
+    content:
+      "FLOUD is an innovative, flexible, and low-cost platform which offers the collection and analysis of things that flow (e.g., bicycles, vehicles, people).",
+  },
+  {
+    company: "Freesense",
+    name: "Freesense",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_FreeSense.svg",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "http://www.freesense.dk/",
+    domain: ["Industry"],
+    type: "Solution",
+    technology: ["Internet of Things", "Data Analytics"],
+    year: 2018,
+    content:
+      "Innovative Danish company designing and producing high-tech wireless, online sensor particles for liquid analysis in industrial, biopharmaceutical, and specialty food and beverage companies.",
+  },
+  {
+    company: "Fueloyal",
+    name: "Fueloyal",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_FueLoyal.svg",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "https://www.fueloyal.com",
+    domain: ["Cities", "Industry"],
+    type: "Solution",
+    technology: ["Internet of Things", "Data Analytics"],
+    year: 2018,
+    content:
+      "Fueloyal developed three unique and proprietary IoT sensors: Smart Fuel Cap, Vehicle sensor, and Asset sensor to improve driving behaviour and safety, reduce fuel consumption and optimize fuel purchases.",
+  },
+  {
+    company: "Future Intelligence",
+    name: "QUHOMA",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_FutureIntelligence.svg",
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink: "http://quhoma.com/",
+    domain: [
+      "Agriculture",
+      "AgriFood",
+      "Cities",
+      "Green Deal",
+      "Parks &amp; Gardens",
+    ],
+    type: "Solution",
+    technology: [
+      "Artificial Intelligence",
+      "Cloud Computing",
+      "Data Spaces",
+      "Digital Twins",
+      "Internet of Things",
+    ],
+    year: 2017,
+    content:
+      "QUHOMA was created to unveil the competitive advantage of farmers and agrifood businesses committed to outstanding quality in end-products and farming practices. At the same time, Future Intelligence\\'s solution paves the way for rationalizing the required farm inputs thus maximizing profit margins.",
+  },
+  {
+    company: "greenApes",
+    name: "greenApes",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_GreenApes.svg",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "https://www.greenapes.com",
+    domain: ["Cities"],
+    type: "Solution",
+    technology: ["Data Analytics", "Open Data"],
+    year: 2017,
+    content:
+      "greenApes is the digital platform rewarding sustainable actions and ideas. A free social network for citizens, a powerful tool for smart cities, and a customizable enterprise solution to engage customers and employees.",
+  },
+  {
+    company: "GymCraft",
+    name: "GymCraft",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_GymCraft.svg",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "http://www.gymcraft.es",
+    domain: ["Home", "Health"],
+    type: "Solution",
+    technology: ["Gamification", "Internet of Things"],
+    year: 2017,
+    content:
+      "GymCraft connects any fitness device to its virtual reality exercise game platform through PC or mobile and lets the user dive into exciting 3D online worlds.",
+  },
+  {
+    company: "Hearing Software",
+    name: "Senda Care",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_byHS.svg",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "https://byhs.eu/senda/",
+    domain: ["Home", "Health"],
+    type: "Solution",
+    technology: ["Gamification", "Internet of Things"],
+    year: 2018,
+    content:
+      "Senda care is a modular platform, a new service designed with features such as the care of people who need support through their own network of relatives.",
+  },
+  {
+    company: "Helix",
+    name: "Helix",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/raster/logo_Helix.png",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "https://gethelix.org",
+    domain: [
+      "Cities",
+      "AgriFood",
+      "Logistics",
+      "Industry",
+      "Ports",
+      "Retail",
+      "Home",
+      "Health",
+      "Content",
+    ],
+    type: "Platform",
+    technology: ["Internet of Thing"],
+    year: 2021,
+    content: "A microservice platform based on Fiware",
+  },
+  {
+    company: "HOPU",
+    name: "Low Emission Zones",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Hopu.svg",
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink: "https://atmosphere.hopu.eu/",
+    domain: ["Air Quality", "Mobility", "Sustainability"],
+    type: "Solution",
+    technology: [
+      "Artificial Intelligence",
+      "Data Analytics",
+      "Digital Twins",
+      "Modelling",
+      "Open Data",
     ],
     year: 2019,
     content:
-      '[ui!] UrbanPulse is an open central data platform for urban data in real-time - based on a highly scalable architecture for data processing and analysis, with a special connector framework for the integration of sensors, urban management systems and Visualization of complex data with tiles and maps.'
+      "A suite of dashboards with CO2 indicators related to mobility. These indicators are founded on predictive models based on real-time air quality measurements and AI to optimise traffic flows in cities and ports. It provides high-value mobility services for administrations and informed decision-making",
   },
   {
-    company: 'Viur',
-    name: 'Viur',
+    company: "Hostabee",
+    name: "B-keep",
     img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/vqrYf3jKpF/logo-light-09.png',
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Hostabee.svg",
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink: 'https://www.viurdata.com',
-    domain: ['Cities'],
-    type: 'Solution',
-    technology: [],
-    year: 2017,
-    content:
-      'Viur is a business intelligence solution that helps companies to unlock the value of data, through visualization and simple data exploration.'
-  },
-  {
-    company: 'VM9',
-    name: 'We4City',
-    img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/marcosmarconi/53S4MN2WC7/we4city-logo.jpeg',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://we4city.com/',
-    domain: [],
-    type: 'Platform',
-    technology: [],
+    companyLink: "https://hostabee.com/",
+    domain: ["Agriculture", "AgriFood", "Education", "Measurement"],
+    type: "Solution",
+    technology: ["Artificial Intelligence", "Big Data", "Internet of Things"],
     year: 2019,
     content:
-      'We4City is a technology solutions platform for Smart Cities, based on open standards and artificial intelligence, which provides integrated support for the Internet of Things (IoT), Real-Time Cameras, Geographic Information Systems, Virtual Assistants, Big Data and Open Data, among others. From the Smart Data Lakes concept, the solution allows cities to integrate data silos and produce the most important fuel for Smart Cities: Urban Intelligence. All this means more practicality and dynamism for society and more efficiency for public institutions.'
+      "Hostabee has developed a connected module, named « B-Keep », associated with a web app, that allows beekeepers to remotely track the life cycle of their bee colonies.",
   },
   {
-    company: 'Watcher ApS',
-    name: 'Watcher',
+    company: "JIG",
+    name: "SmartAppCity",
     img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/sMghutPEWQ/download.png',
-    fiwareMember: false,
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Jig.svg",
+    fiwareMember: true,
     fiwareIhub: false,
-    companyLink: 'http://watcher.io',
-    domain: ['Cities'],
-    type: 'Solution',
-    technology: [],
+    companyLink: "http://smartappcity.com/",
+    domain: ["Cities"],
+    type: "Solution",
+    technology: ["Internet of Things", "Data Analytics"],
     year: 2017,
     content:
-      'Watcher helps families manage the ins and outs of everyday life with ease and peace of mind.'
+      "SmartAppCity brings together all the city services and information in one single app.",
   },
   {
-    company: 'WiTraC',
-    name: 'WiTraC',
+    company: "LahakX",
+    name: "LahakX",
     img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/qbPSqTKKQB/logo_witrac.png',
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_LahakX.svg",
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink: 'http://www.witrac.es/en/',
-    domain: ['Cities', 'Industry'],
-    type: 'Solution',
+    companyLink: "https://www.lahakx.com/",
+    domain: ["AgriFood"],
+    type: "Solution",
+    technology: ["Interne of Things", "Logistsics", "Micro/Nano Electronics"],
+    year: 2018,
+    content:
+      "Skyx is an agricultural-robotics technology company enabling a modular swarm of autonomous drones for spraying. It develops proprietary tools and algorithms for optimal homogeneous coverage of complex space, real-time swarm operation, and coverage of “hot-spots”.",
+  },
+  {
+    company: "Limmat Group",
+    name: "IMAS+",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_Imas%2B.png",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "http://limmat-group.com/",
+    domain: ["Cities", "Industry", "Ports"],
+    type: "Solution",
+    technology: ["Big Data", "Data Analytics", "Machine Leraning"],
+    year: 2019,
+    content:
+      "IMAS+® is Smart Maintenance Platform for Infrastructure. It uses 4th industrial technologies such as the IoT, Big Data, and Machine Learning to provide smart solutions which enable us to anticipate faults and, on this basis, we can improve efficiency in maintenance, availability and railway safety",
+  },
+  {
+    company: "Línea Ciudadana",
+    name: "Línea Ciudadana",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_LineaCiudadana.svg",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "http://www.lineaciudadana.com",
+    domain: ["Cities"],
+    type: "Solution",
+    technology: ["Internet of Things", "Open Data"],
+    year: 2018,
+    content:
+      "A platform for management, communication, and citizen participation, as well as a self-managing mobile platform that brings the public administration closer to the citizen with a simple and effective tool.",
+  },
+  {
+    company: "Martel Innovate",
+    name: "Orchestra Cities",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_OrchestraCities.svg",
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink: "https://www.orchestracities.com",
+    domain: ["Air Quality", "Cities", "Energy", "Lighting", "Mobility"],
+    type: "Platform",
+    technology: [
+      "Artificial Intelligence",
+      "Big Data",
+      "Data Analytics",
+      "Data Spaces",
+      "Internet of Things",
+    ],
+    year: 2017,
+    content:
+      "To answer the need for a flexible data-management platform for smart cities, Martel developed Orchestra Cities, an integrated platform based on FIWARE and other cutting edge Open Source solutions that allow to bring in a single place all the vertical data silos of cities",
+  },
+  {
+    company: "Mermix",
+    name: "Mermix",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_Mermix.png",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "http://www.mermix.gr",
+    domain: ["AgriFood"],
+    type: "Solution",
+    technology: ["Data Analytics"],
+    year: 2018,
+    content:
+      "Mermix is a farm & equipment management system, allowing farmers to find tools and services that other farmers or companies have listed.",
+  },
+  {
+    company: "MOVISAT",
+    name: "EcoSAT",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Movisat.svg",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "http://www.movisat.com",
+    domain: [
+      "Cities",
+      "Government",
+      "Parks &amp; Gardens",
+      "Sustainability",
+      "Waste Management",
+    ],
+    type: "Solution",
+    technology: [
+      "Artificial Intelligence",
+      "Data Analytics",
+      "Sensory Systems",
+      "Software as a Service",
+    ],
+    year: 2020,
+    content:
+      "EcoSAT is a modular vertical platform specialized in environmental municipal services. Its aim is the planning, management, and certification of the activities done by vehicles and people working on different urban services.",
+  },
+  {
+    company: "NEC",
+    name: "Cloud City Operations Center",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_NEC.svg",
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink:
+      "https://es.nec.com/es_ES/solutions_services/smartcity/en/solution/index.html",
+    domain: ["Smart Cities"],
+    type: "Platform",
+    technology: ["Cloud Computing", "Interne of Things", "Open Data"],
+    year: 2019,
+    content:
+      "CCOC is a horizontal platform that provides a holistic view of the supplier’s services, thus allowing for a centralized and efficient management point.",
+  },
+  {
+    company: "NEC",
+    name: "Cloud City Operations Center",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_NEC.svg",
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink:
+      "https://es.nec.com/es_ES/solutions_services/smartcity/en/solution/index.html",
+    domain: ["Cities", "Industry", "Ports"],
+    type: "Solution",
+    technology: ["Artificial Intelligence", "Data Analytics", "Open Data"],
+    year: 2017,
+    content:
+      "CCOC acts as the ‘brain’ of the city, able to “listen” and “comprehend” what is happening all over the city to thus make better decisions and provide the right information to its inhabitants",
+  },
+  {
+    company: "Netzlink",
+    name: "Flink Node",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Netzlink.svg",
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink: "https://www.flink-node.de/",
+    domain: ["Smart Industry"],
+    type: "Platform",
+    technology: ["Industrial Technology", "Internet of Things", "Big Data"],
+    year: 2017,
+    content: "We provide the FIWARE platform with all Generic Enablers",
+  },
+  {
+    company: "nixi1",
+    name: "nixi1",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_nixi1.svg",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "https://www.nixi1.com",
+    domain: ["Cities"],
+    type: "Solution",
+    technology: ["Data Analytics", "Open Data"],
+    year: 2018,
+    content:
+      "nixi1 has become the most advanced Travel chatbot (or AITA; Artificial Intelligence Travel Agency) in the world. With nixi1, text or send voice notes to book your flight and hotel room through any Messaging App. In less than 60 seconds.",
+  },
+  {
+    company: "OpenMove",
+    name: "OpenMove",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_OpenMove.svg",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "https://openmove.com",
+    domain: ["Mobility", "Transport"],
+    type: "Platform",
+    technology: [
+      "Data Spaces",
+      "Mobility and Location",
+      "Open Data",
+      "Software as a Service",
+    ],
+    year: 2014,
+    content:
+      "OpenMove is a software platform for smart mobility that features transport ticketing, on-demand transport in real-time, intermodal journey planning and MaaS (Mobility-as-a-Service) integration.\n\nThe company is active in EU + USA + Middle East and serves 10M+ yearly passengers / 50M€+ tickets sold.",
+  },
+  {
+    company: "phoops",
+    name: "MUV-App",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Phoops.svg",
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink: "https://muv-app.city/",
+    domain: ["Air Quality", "Automotive", "Logistics", "Mobility", "Transport"],
+    type: "Solution",
+    technology: ["Mobility and Location", "Open Data", "Software as a Service"],
+    year: 2015,
+    content:
+      "MUV-APP is the platform that turns the complex and huge urban mobility system into a safe, sustainable and user-friendly system.\n\nMUV-APP enables Mobility as a service for the public administration, to provide innovative tools for the management of the entire urban mobility system.",
+  },
+  {
+    company: "Project Ray",
+    name: "RAY",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Ray.svg",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "http://www.project-ray.com",
+    domain: ["Cities", "Health"],
+    type: "Solution",
+    technology: ["Internet of Things", "Data Analytics"],
+    year: 2017,
+    content:
+      "RAY is an all-inclusive, mobile-centered, integrated cloud service that provides digital accessibility smartphones and services for visually impaired people.",
+  },
+  {
+    company: "Purple Blob",
+    name: "BARET",
+    img:
+      "https://www.fiware.org/wp-admin/admin.php?page=wp_file_manager#elf_l1_c3R5bGUvaW1ncy9NYXJrZXRwbGFjZS9wcm9kdWN0L3Bvd2VyZWQtYnktZml3YXJlL3NvbHV0aW9u:~:text=Link%20%3A-,logo_PurpleBlob.svg,-Dimensions%20%3A",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "https://baret.es",
+    domain: ["Smart Cities"],
+    type: "Solution",
+    technology: ["Internet of Things", "Data Analytics"],
+    year: 2022,
+    content:
+      "Baret, the smart tourism platform offers you to design successful destination management and promotion strategies that will allow you to manage all the information relevant to your destination from a single place.",
+  },
+  {
+    company: "Purple Blob",
+    name: "SARA",
+    img:
+      "https://www.fiware.org/wp-admin/admin.php?page=wp_file_manager#elf_l1_c3R5bGUvaW1ncy9NYXJrZXRwbGFjZS9wcm9kdWN0L3Bvd2VyZWQtYnktZml3YXJlL3NvbHV0aW9u:~:text=Link%20%3A-,logo_PurpleBlob.svg,-Dimensions%20%3A",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "https://purpleblob.net/sara/",
+    domain: [
+      "Cities",
+      "Industry",
+      "Measurement",
+      "Mobility",
+      "Utilities",
+      "Oil and Gas",
+    ],
+    type: "Solution",
+    technology: [
+      "Artificial Intelligence",
+      "Blockchain",
+      "Data Analytics",
+      "Internet of Things",
+      "Software as a Service",
+    ],
+    year: 2020,
+    content:
+      "SARA is an IoT platform that can integrate almost any  solution, data source or actuator into a powered by FIWARE system that centralizes all the user and device management, enables the use of different analytical intelligence tools and allows the aggregation of the data generated by each solution",
+  },
+  {
+    company: "Pycno",
+    name: "Pycno",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Pycno.svg",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "https://www.pycno.co",
+    domain: ["AgriFood"],
+    type: "Solution",
+    technology: ["Articial Intelligence", "Data Analytics"],
+    year: 2018,
+    content:
+      "Pycno solution is easy to use, offers professional ambient, and has soil sensors. Data visualization, crop analytics, and predictions are aggregated in one platform.",
+  },
+  {
+    company: "SAMMY",
+    name: "Smart Marina Platform",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_SaMMY.svg",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "https://www.sammyacht.com/sammy/website/",
+    domain: ["Cities", "Mobility", "Tourism", "Transport"],
+    type: "Solution",
+    technology: [
+      "Artificial Intelligence",
+      "Data Analytics",
+      "Digital Twins",
+      "Internet of Things",
+      "Mobility and Location",
+    ],
+    year: 2017,
+    content:
+      "SAMMY is a sophisticated, modern, and attractive (easy to use), IoT cloud-based platform that supports the digital transformation, transparency, and the process optimization of marinas & tourist ports, by providing data interpretation, visualization, and real-time services.",
+  },
+  {
+    company: "Scuter",
+    name: "Scuter",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_Scuter.png",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "http://scuter.co",
+    domain: ["Cities"],
+    type: "Solution",
+    technology: ["Internet of Things", "Data Analytics"],
+    year: 2018,
+    content:
+      "Scuter offers a Mobility as a Service (MaaS) solution based on an innovative electric smart ride-on scooter designed just for sharing. Clean, agile, and safe, Scuter reduces vehicle footprints in the city.",
+  },
+  {
+    company: "Second Nature",
+    name: "OurPath",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_SecondNature.png",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "https://www.secondnature.io/",
+    domain: ["Health"],
+    type: "Solution",
+    technology: ["Data Analytics"],
+    year: 2018,
+    content:
+      "Bringing together behavioural science, technology, and great people to tackle the global epidemic of chronic lifestyle diseases once and for all, OurPath is an online program that helps you make the changes you need to get healthy.",
+  },
+  {
+    company: "Sensative",
+    name: "Yggio Platform",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Yggio.svg",
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink: "https://sensative.com/yggio/",
+    domain: [
+      "Agriculture",
+      "Cities",
+      "Construction and Building",
+      "Energy",
+      "Water",
+    ],
+    type: "Platform",
+    technology: [
+      "Artificial Intelligence",
+      "Communication Networks",
+      "Data Handling",
+      "Digital Twins",
+      "Internet of Things",
+    ],
+    year: 2019,
+    content:
+      "Yggio open digitalization platform provides integration of any IoT sensor or IT technology, contextualized and normalized data, unified IoT infrastructure management, data ownership and control, scalability for massive IoT, and a standardized API, making IoT services vendor and technology neutral.",
+  },
+  {
+    company: "Sensei",
+    name: "Sensei",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Sensei.svg",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "https://www.sensei.tech",
+    domain: ["Content"],
+    type: "Solution",
+    technology: [
+      "Artificial Intelligence",
+      "Data Analytics",
+      "Internet of Things",
+    ],
+    year: 2018,
+    content:
+      "AI powered real-time video recognition solution for retail providing accurate in-store traffic flow analysis, sales performance, and product recognition.",
+  },
+  {
+    company: "Sensohive Technologies ApS",
+    name: "Maturix",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Maturix.svg",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "https://maturix.com",
+    domain: ["Industry"],
+    type: "Solution",
+    technology: ["Internet of things", "Sensory System", "Data Analytics"],
+    year: 2018,
+    content:
+      "Maturix is an end-2-end solution that enables easy and affordable monitoring of concrete curing in real-time – all shown in this user-friendly software solution.",
+  },
+  {
+    company: "Sensowave",
+    name: "Digitanimal",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_DigitAnimal.svg",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "https://digitanimal.com",
+    domain: ["AgriFood"],
+    type: "Solution",
+    technology: ["Internet of Things", "Data Analytics"],
+    year: 2018,
+    content:
+      "Digitanimal is an integrated service platform that increases livestock farms' profits; improving animal welfare and providing traceability tools for consumers.",
+  },
+  {
+    company: "Sentio",
+    name: "VISTRA",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Sentio.svg",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "http://www.sentio.net",
+    domain: ["Industry"],
+    type: "Solution",
+    technology: ["Internet of Things", "Additive Manufacturing"],
+    year: 2018,
+    content:
+      "VISTRA offers a unique approach to resolving the major barriers preventing virtual operator training and support from reaching its potential in the manufacturing sector.",
+  },
+  {
+    company: "Sirus NV",
+    name: "Sirus City Store",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Sirus.svg",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "https://sirus.be/smart-cities/",
+    domain: ["Cities", "Green Deal", "Mobility", "Water", "Weather"],
+    type: "Platform",
+    technology: [
+      "Data Spaces",
+      "Digital Twins",
+      "Internet of Things",
+      "Open Data",
+      "Software as a Service",
+    ],
+    year: 2020,
+    content:
+      "The Sirus Smart City store helps cities harmonize all the data gathered by different sensors and platforms in the city. The data is delivered in a non-standard to Citizens, Government, Companies, and Research institutes. This allows cities to collaborate with parties to create innovative solutions",
+  },
+  {
+    company: "Snap4City",
+    name: "Km4City",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Snap4City.svg",
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink: "https://www.snap4city.org",
+    domain: ["Air Quality", "Cities", "Industry", "Mobility", "Tourism"],
+    type: "Solution",
+    technology: [
+      "Advanced or High Performance Computing",
+      "Artificial Intelligence",
+      "Data Analytics",
+      "Digital Twins",
+      "Internet of Things",
+    ],
+    year: 2018,
+    content:
+      "Scalable Smart aNalytic APplication Builder for Sentient Cities, the platform proving flexible a method and solution for rapid implementation of smart city applications exploiting heterogeneous data and enabling services for stakeholders by IOT/IOE, data analytics and big data technologies.",
+  },
+  {
+    company: "Snap4City",
+    name: "Snap4City",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Snap4City.svg",
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink: "https://www.snap4city.org",
+    domain: ["Air Quality", "Cities", "Industry", "Mobility", "Tourism"],
+    type: "Platform",
+    technology: [
+      "Advanced or High Performance Computing",
+      "Artificial Intelligence",
+      "Data Analytics",
+      "Digital Twins",
+      "Software as a Service",
+    ],
+    year: 2021,
+    content:
+      "Scalable Smart aNalytic APplication Builder for Sentient Cities, the platform proving flexible a method and solution to quickly create a large range of smart city applications exploiting heterogeneous data and enabling services for stakeholders by IOT/IOE, data analytics and big data technologies.",
+  },
+  {
+    company: "SRM Consulting",
+    name: "Capacity Control System",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_SRM.svg",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "http://www.srmconsulting.es",
+    domain: ["Cities", "AgriFood", "Logistics", "Industry", "Health"],
+    type: "Solution",
+    technology: [
+      "Artificial Intelligence",
+      "Internet of Things",
+      "Data Analytics",
+    ],
+    year: 2021,
+    content:
+      "Capacity Control System is a complete solution to scan and localize any Wi-Fi or Bluetooth device, such as smartphones, laptops, or smartwatches. The main goal of this technology is the capacity control of the public spaces.",
+  },
+  {
+    company: "StoneOne",
+    name: "SmartOrchestra",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_StoneOne.svg",
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink: "http://smartorchestra.de",
+    domain: ["Cities"],
+    type: "Platform",
+    technology: ["Internet of Things", "Cyber Physical Systems"],
+    year: 2018,
+    content:
+      "Smart Service Platform for the safe internet-based integration, orchestration ,and effective marketing of cyber-physical applications (smart devices).",
+  },
+  {
+    company: "Stratio",
+    name: "Stratio Automotive",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Stratio.svg",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "https://stratioautomotive.com",
+    domain: ["Cities"],
+    type: "Solution",
+    technology: ["Internet of Things", "Data Analytics", "Open Data"],
+    year: 2017,
+    content:
+      "Stratio Automotive turns vehicle data into an exact science, making the unpredictable predictable.",
+  },
+  {
+    company: "Tablegrabber",
+    name: "RezGuru",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_RezGuru.png",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "http://www.rezguru.com",
+    domain: ["Cities", "Retail"],
+    type: "Solution",
+    technology: ["Artificial Intelligence", "Machine Learning"],
+    year: 2018,
+    content:
+      "RezGuru uses Artificial Intelligence & Machine Learning to provide data-driven recommendations on pricing and strategy to help maximize revenue and profits.",
+  },
+  {
+    company: "TeamDev",
+    name: "WiseTown",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_WiseTown.svg",
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink: "http://wise.town/",
+    domain: ["Cities"],
+    type: "Solution",
+    technology: ["Open Data", "Internet of Things", "Data Analytics"],
+    year: 2018,
+    content:
+      "WiseTown uses crowd-sourcing,  open data, IoT and social to provide decision support systems to city managers and to improve citizens' quality of life.",
+  },
+  {
+    company: "TeamDev",
+    name: "WiseTown",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_WiseTown.svg",
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink: "https://wise.town/en/",
+    domain: [
+      "Cities",
+      "Government",
+      "Mobility",
+      "Security",
+      "Utilities",
+      "Oil and Gas",
+    ],
+    type: "Platform",
+    technology: [
+      "Artificial Intelligence",
+      "Big Data",
+      "Cloud Computing",
+      "Data Analytics",
+      "Internet of Things",
+    ],
+    year: 2014,
+    content:
+      "WiseTown is a digital system for the city fully scalable, modular, designed to allow full integration with the city administration’s existing systems, third party solutions, IoT applications and external data sources. WiseTown is the engine that collects the city’s data and makes it available.",
+  },
+  {
+    company: "TeamDev",
+    name: "WiseTown Crowd Planning",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_WiseTown.svg",
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink: "https://wise.town/en/cities/participatory-planning/",
+    domain: [
+      "Cities",
+      "Government",
+      "Sustainability",
+      "Utilities",
+      "Oil and Gas",
+    ],
+    type: "Solution",
+    technology: [
+      "Cloud Computing",
+      "Communication Networks",
+      "Data Handling",
+      "Interaction Technologies",
+      "Service Architectures",
+    ],
+    year: 2014,
+    content:
+      "WiseTown Crowd Planning is the platform that allows Public Administration to activate communication with citizens regarding planning objectives, with the ultimate goal of generating active involvement. A tool developed for a participatory urban planning.",
+  },
+  {
+    company: "TeamDev",
+    name: "WiseTown Geoanalytics",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_WiseTown.svg",
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink: "https://wise.town/en/cities/decision-support-system/",
+    domain: [
+      "Cities",
+      "Government",
+      "Mobility",
+      "Sustainability",
+      "Utilities",
+      "Oil and Gas",
+    ],
+    type: "Solution",
+    technology: [
+      "Artificial Intelligence",
+      "Big Data",
+      "Cloud Computing",
+      "Data Analytics",
+      "Internet of Things",
+    ],
+    year: 2014,
+    content:
+      "WiseTown GeoAnalytics is a Decision Support System available to city administrators and public administration professionals. Maps, graphs, infographics and statistics highlight valuable information and provide an extrapolation of complex information useful for more informed urban planning.",
+  },
+  {
+    company: "TeamDev",
+    name: "WiseTown Issue Manager",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_WiseTown.svg",
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink: "https://wise.town/en/cities/issue-manager/",
+    domain: ["Cities", "Government", "Mobility", "Utilities", "Oil and Gas"],
+    type: "Solution",
+    technology: [
+      "Big Data",
+      "Communication Networks",
+      "Data Handling",
+      "Mobility and Location",
+      "Software as a Service",
+    ],
+    year: 2014,
+    content:
+      "WiseTown Issue Manager is a digital system that enables citizens to support the city government by reporting city issues; at the same time it simplifies the internal workflow of the public administration by automating processes and improving the work of the operators",
+  },
+  {
+    company: "TeamDev",
+    name: "WiseTown Open Data Manager",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_WiseTown.svg",
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink: "https://wise.town/en/cities/open-data-manager/",
+    domain: [
+      "Cities",
+      "Construction and Building",
+      "Government",
+      "Tourism",
+      "Utilities",
+      "Oil and Gas",
+    ],
+    type: "Solution",
+    technology: [
+      "Cloud Computing",
+      "Data Analytics",
+      "Data Handling",
+      "Open Data",
+      "Service Architectures",
+    ],
+    year: 2014,
+    content:
+      "WiseTown Open Data Manager searches and aggregates data on customizable criteria to produce Open Data catalogs for the Smart City. WiseTown software makes Public Administration data a common good, anonymous and GDPR compliant.",
+  },
+  {
+    company: "TeamDev",
+    name: "WiseTown Situation Room",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_WiseTown.svg",
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink: "https://wise.town/en/cities/city-monitoring/",
+    domain: [
+      "Cities",
+      "Government",
+      "Security",
+      "Tourism",
+      "Utilities",
+      "Oil and Gas",
+    ],
+    type: "Solution",
+    technology: [
+      "Big Data",
+      "Cloud Computing",
+      "Communication Networks",
+      "Data Analytics",
+      "Internet of Things",
+    ],
+    year: 2014,
+    content:
+      "WiseTown Situation Room is a platform for the management of events and emergencies in an urban context. The tool collects the data produced by the city and displays it through a dashboard that ensures immediate analysis and response.",
+  },
+  {
+    company: "TeamDev",
+    name: "WiseTown Thematic Dashboard",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_WiseTown.svg",
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink: "https://wise.town/en/cities/city-dashboard/",
+    domain: [
+      "Cities",
+      "Government",
+      "Parks &amp; Gardens",
+      "Utilities",
+      "Oil and Gas",
+      "Water",
+    ],
+    type: "Solution",
+    technology: [
+      "Big Data",
+      "Cloud Computing",
+      "Data Analytics",
+      "Internet of Things",
+      "Mobility and Location",
+    ],
+    year: 2014,
+    content:
+      "WiseTown Thematic Dashboard is an application that allows you to create custom visualizations to compare map information with statistical data and real-time data from satellite systems. The dashboards can manage economic, demographic, social, environmental and many other data.",
+  },
+  {
+    company: "Telefónica",
+    name: "Thinking Cities",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Telefonica.svg",
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink: "https://thinking-cities.readthedocs.io/en/latest/index.html",
+    domain: ["Agriculture", "Cities", "Government", "Industry", "Tourism"],
+    type: "Platform",
+    technology: [
+      "Artificial Intelligence",
+      "Big Data",
+      "Data Analytics",
+      "Data Handling",
+      "Internet of Things",
+    ],
+    year: 2016,
+    content:
+      "The Thinking Cities platform is an integral solution to support City services. It includes a series of modules that allow the acquisition, processing, storage, and distribution of data, on which several City Services, vertical IoT solutions, and Data Analytics can be implemented easily.",
+  },
+  {
+    company: "Telenet Group",
+    name: "Telenet Tinx",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Telenet.svg",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "https://investors.telenet.be/",
+    domain: ["Cities"],
+    type: "Platform",
+    technology: ["Internet of Things", "Open Data", "Data Analytics"],
+    year: 2019,
+    content:
+      "Telenet Tinx is a device and data management platform for smart cities.\nIt relies on the Microsoft Azure Services to provide the capability of connecting any IoT Devices at a large scale and managing huge incoming amounts of data with the required guarantee of reliability and availability for cities",
+  },
+  {
+    company: "Tera",
+    name: "Beeta",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Beeta.svg",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "http://www.beeta.it",
+    domain: ["Cities", "Home"],
+    type: "Solution",
+    technology: [
+      "Sensory System",
+      "Clould Computing",
+      "Data Analytics",
+      "Internet of Things",
+    ],
+    year: 2018,
+    content:
+      "Beeta an advisory system that combines an “open protocol” gateway with a mobile App helps people to feel better at home, keeping it under control: saving energy bills, increasing security&safety, automate.",
+  },
+  {
+    company: "Trace Labs",
+    name: "Trace Labs",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_TraceLabs.svg",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "https://tracelabs.io/",
+    domain: ["Logistics"],
+    type: "Solution",
+    technology: ["Interne of Things", "Data Analytics"],
+    year: 2017,
+    content:
+      "Trace Labs is the core developer of the OriginTrail Decentralized Knowledge Graph – a set of tools and protocols designed to bring billions of assets to Web3, leveraging blockchain technology.",
+  },
+  {
+    company: "Tsenso",
+    name: "FreshIndex",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Tsenso.svg",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "http://tsenso.com",
+    domain: ["AgriFood"],
+    type: "Solution",
+    technology: ["Sensory System", "Data Analytics", "Internet of Things"],
+    year: 2018,
+    content:
+      "We call it the “Fresh Index”, the new real-time shelf-life indicator for food. You will learn how long this shelf-life exactly is – depending on the temperatures at which the product was stored and transported along the entire supply chain.",
+  },
+  {
+    company: "UBIKWA",
+    name: "INSYLO",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Insylo.svg",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "http://www.insylo.com",
+    domain: ["AgriFood", "Logistics", "Industry"],
+    type: "Solution",
     technology: [],
     year: 2018,
     content:
-      'WiTraC is a total wireless tracking and metering IoT solution for Industry 4.0 Supply Chain and Smart Cities.'
+      "INSYLO is an affordable solution to remotely monitor livestock farms' silos and solve the million-dollar question: the right moment and the right quantity to restock each silo in order to optimize logistic costs.",
   },
   {
-    company: 'YerbaBuena VR',
-    name: 'YBVR',
+    company: "Ubiwhere",
+    name: "Smartlamppost",
     img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/bebNgdLSWo/82c51c_aa7b1efec8b14a7686d34ca1890206dc-mv2.png',
-    fiwareMember: false,
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Ubiwhere.svg",
+    fiwareMember: true,
     fiwareIhub: false,
-    companyLink: 'https://www.ybvr.com/',
-    domain: ['Cities', 'Home'],
-    type: 'Solution',
-    technology: [],
+    companyLink: "http://www.urbsense.com/",
+    domain: ["Cities"],
+    type: "Solution",
+    technology: ["Open Data", "Data Analytics"],
+    year: 2017,
+    content:
+      "Smartlamppost is a modular concept of a lamppost with bleeding edge technology, allowing municipalities to future-proof their smart city and Mobile Network Operators to cost-effectively deploy their 5G solution.",
+  },
+  {
+    company: "Ubiwhere",
+    name: "Urban Platform",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Ubiwhere.svg",
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink: "https://urbanplatform.city/",
+    domain: ["Cities"],
+    type: "Platform",
+    technology: ["Internet of Things", "Open Data", "Data Analytics"],
     year: 2018,
     content:
-      'YerbaBuena VR delivers next generation real-time 360 live streaming distribution platform for Virtual Reality optimized for any available bandwidth.'
-  }
+      "Our Urban Platform allows data collection from multiple domains and provides city managers and decision-makers with a holistic view of their cities, presenting cross-domain data in a unified way.",
+  },
+  {
+    company: "University of Deusto",
+    name: "Waste4Think",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Waste4Think.svg",
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink: "http://waste4think.eu",
+    domain: ["Cities"],
+    type: "Solution",
+    technology: ["Open Data", "Data Analytics", "Internet of Things"],
+    year: 2017,
+    content:
+      "The main objective of Waste4Think is to move forward the current waste management practices into a circular economy motto demonstrating the value of integrating and validating 20 eco-innovative solutions that cover all the waste value chain.",
+  },
+  {
+    company: "Viur",
+    name: "Viur",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Viur.svg",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "https://www.viurdata.com",
+    domain: ["Cities"],
+    type: "Solution",
+    technology: ["Data Analytics", "Open Data"],
+    year: 2017,
+    content:
+      "Viur connects all your databases, cloud services, and files and in seconds you can start exploring your data using drag & drop or writing your own SQL queries. Share your most important metrics with your team or with the whole world.",
+  },
+  {
+    company: "VM9",
+    name: "We4City",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Vm9.svg",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "https://we4city.com/",
+    domain: ["Cities"],
+    type: "Platform",
+    technology: ["Internet of Things", "Open Data", "Data Analytics"],
+    year: 2019,
+    content:
+      "We4City is a technology solutions platform for Smart Cities, based on open standards and artificial intelligence, which provides integrated support for the Internet of Things (IoT), Real-Time Cameras, Geographic Information Systems, Virtual Assistants, Big Data and Open Data, among others.",
+  },
+  {
+    company: "WiTraC",
+    name: "WiTraC",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Witrac.svg",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "https://witrac.io/en/",
+    domain: ["Cities", "Industry"],
+    type: "Solution",
+    technology: [
+      "Inteernet of Things",
+      "Data analytics",
+      "Artificial Intelligence",
+    ],
+    year: 2018,
+    content:
+      "WiTraC is a total wireless tracking and metering IoT solution for Industry 4.0 Supply Chain and Smart Cities.\nIt provides real-time information on the status and location of critical assets to increase control and improve management of company operations.",
+  },
+  {
+    company: "YerbaBuena VR",
+    name: "YBVR",
+    img:
+      "https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_ybvr.png",
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: "https://www.ybvr.com/",
+    domain: ["Cities", "Home"],
+    type: "Solution",
+    technology: ["Internet of Things"],
+    year: 2018,
+    content:
+      "YerbaBuena VR delivers a next-generation real-time 360 live streaming distribution platform for Virtual Reality optimized for any available bandwidth.",
+  },
 ];
