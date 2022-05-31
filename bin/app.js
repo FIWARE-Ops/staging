@@ -9,6 +9,10 @@ input.forEach(item => {
   const domains = [];
   const tech = [];
 
+  const searchMask = "fiware";
+  const regEx = new RegExp(searchMask, "ig");
+  const replaceMask = "FIWARE";
+
   if (item.Status !== 'Deleted') {
     item.Domains.split(',').forEach(item => {
       if (item.trim() !== '') {
@@ -48,7 +52,7 @@ input.forEach(item => {
     obj.type = item['Type of Product'];
     obj.technology = item['Technologies'];
     obj.year = item['Certified in'];
-    obj.content = item['Excerpt'];
+    obj.content = item['Excerpt'].replace(regEx, replaceMask);
 
     if (item['Category'] === 'Powered by FIWARE') {
       poweredBy.push(obj);
