@@ -1,23 +1,25 @@
 [
   {
-    "company": "Agricolus s.r.l.",
+    "company": "Agricolus",
     "name": "Agricolus Ecosystem",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/agricolus/Agricolus_logo.jpg",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Agricolus.svg",
     "fiwareMember": false,
     "fiwareIhub": false,
-    "companyLink": "http://www.agricolus.com",
+    "companyLink": "https://www.agricolus.com/",
     "domain": [
       "AgriFood"
     ],
-    "type": "IOT Device",
-    "technology": [],
+    "type": "IoT Device",
+    "technology": [
+      "Sensory Systems"
+    ],
     "year": 2017,
-    "content": "AGRICOLUS is a cloud applications ecosystem for precision farming with multiple purposes: disease awareness and forecasts, crop monitoring, decision support system for treatments and fertilizers, farm management and end to end traceability bringing valuable information to final users."
+    "content": "AGRICOLUS is a cloud applications ecosystem for precision farming with multiple purposes: disease awareness and forecasts, crop monitoring, decision support system for treatments and fertilizers, farm management, and end-to-end traceability bringing valuable information to final users."
   },
   {
     "company": "Axion",
     "name": "Traxion",
-    "img": "https://www.fiware.org/wp-content/uploads/69bb3ca4f376885dec03a71d96501fb0.png",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Axion.svg",
     "fiwareMember": false,
     "fiwareIhub": false,
     "companyLink": "https://www.axion.es/en/services-axion/iot-and-smart-solutions-and-platforms/security-vertical-solution-traxion/",
@@ -40,7 +42,7 @@
   {
     "company": "Breeze Technologies",
     "name": "Breeze Air Quality Sensors",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/heinecke/xLow2ac3Mu/breeze_logo_normal_web.png",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_BreezeTechnologies.svg",
     "fiwareMember": false,
     "fiwareIhub": false,
     "companyLink": "http://www.breeze-technologies.de/solutions/",
@@ -49,240 +51,303 @@
       "Industry",
       "Ports"
     ],
-    "type": "IOT Device",
-    "technology": [],
+    "type": "IoT Device",
+    "technology": [
+      "Artificial Intelligence",
+      "Cloud Computing"
+    ],
     "year": 2019,
-    "content": "Low-cost air quality sensors delivering highly accurate real-time air quality data about all important indicators."
+    "content": "Breeze Air Quality Sensors offers low-cost air quality sensors delivering highly accurate real-time air quality data about all important indicators."
   },
   {
-    "company": "Datakorum Solutions SL",
-    "name": "LB40",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/W6isKe8NeM/download.png",
+    "company": "Datakorum Solutions",
+    "name": "BEAT",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg",
     "fiwareMember": false,
     "fiwareIhub": false,
-    "companyLink": "http://e3tcity.com/en/lb40/",
+    "companyLink": "https://www.datakorum.com",
     "domain": [
       "Cities"
     ],
-    "type": "IOT Device",
-    "technology": [],
-    "year": 2017,
-    "content": "E3TLight devices integrates remote control, on/off switching of streetlight network, dimming and scheduled programming, monitoring electrical parameters and WiFi communication, in a single unit."
-  },
-  {
-    "company": "Datakorum Solutions SL",
-    "name": "LS40",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/wJ82iKq5pt/download.png",
-    "fiwareMember": false,
-    "fiwareIhub": false,
-    "companyLink": "http://e3tcity.com/en/ls40/",
-    "domain": [
-      "Cities"
+    "type": "IoT Device",
+    "technology": [
+      "Internet of Things",
+      "Cloud Computing"
     ],
-    "type": "IOT Device",
-    "technology": [],
-    "year": 2017,
-    "content": "E3TLight system allows remote control and monitoring of any new or existing streetlight network. This control is achieved by installing one E3TLight device just before the lights section we want to command."
+    "year": 2018,
+    "content": "We provide different solutions that have been designed in order to simplify and optimize waste collection and treatment processes for Smart Cities. Also, we offer load control or dynamic weighing systems in vehicles and provide solutions that have been designed to make work processes easier."
   },
   {
-    "company": "Datakorum Solutions SL",
-    "name": "MS41",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/HXNoZFgK2d/download.png",
-    "fiwareMember": false,
-    "fiwareIhub": false,
-    "companyLink": "http://e3tcity.com/en/ms41/",
-    "domain": [
-      "Cities"
-    ],
-    "type": "IOT Device",
-    "technology": [],
-    "year": 2017,
-    "content": "E3TMeter controllers integrate in one unique device remote control (on/off switching), monitoring of energy parameters of a electric board, either monophasic or triphasic and WiFi communication."
-  },
-  {
-    "company": "Datakorum Solutions SL",
-    "name": "MB43",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/NwEQn5xqMC/download.png",
-    "fiwareMember": false,
-    "fiwareIhub": false,
-    "companyLink": "http://e3tcity.com/en/mb43/",
-    "domain": [
-      "Cities"
-    ],
-    "type": "IOT Device",
-    "technology": [],
-    "year": 2017,
-    "content": "E3TMeter controllers integrate in one unique device remote control (on/off switching), monitoring of energy parameters of a electric board, either monophasic or triphasic and WiFi communication."
-  },
-  {
-    "company": "Datakorum Solutions SL",
-    "name": "SS47",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/xnAC9r2MLb/download.png",
-    "fiwareMember": false,
-    "fiwareIhub": false,
-    "companyLink": "http://e3tcity.com/en/ss47/",
-    "domain": [
-      "Cities"
-    ],
-    "type": "IOT Device",
-    "technology": [],
-    "year": 2017,
-    "content": "IoT sensor monitoring system allows any analog or digital sensor to behave as if it were a IoT sensor, and establishing a real-time connection between the cloud and sensors."
-  },
-  {
-    "company": "Datakorum Solutions SL",
-    "name": "SC40",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/E8D4cJm4uP/download.png",
-    "fiwareMember": false,
-    "fiwareIhub": false,
-    "companyLink": "http://e3tcity.com/en/sc40/",
-    "domain": [
-      "Cities"
-    ],
-    "type": "IOT Device",
-    "technology": [],
-    "year": 2017,
-    "content": "This system allows any analog or digital sensor to behave as if it were a IoT sensor, and establishing a real-time connection between the cloud and sensors. The measures taken by sensors can be sent instantaneusly, and enable events, alerts and alarms associated to them."
-  },
-  {
-    "company": "Datakorum Solutions SL",
+    "company": "Datakorum Solutions",
     "name": "CS40",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/HPZu6sHSmr/download.png",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg",
     "fiwareMember": false,
     "fiwareIhub": false,
     "companyLink": "http://e3tcity.com/en/cs40/",
     "domain": [
       "Cities"
     ],
-    "type": "IOT Device",
-    "technology": [],
+    "type": "IoT Device",
+    "technology": [
+      "Internet of Things",
+      "Cloud Computing"
+    ],
     "year": 2017,
-    "content": "CS40 controller can act remotely on any heating and air conditioning facility, in order to support Smart Building service needs."
+    "content": "CS40 controller can act remotely on any heating and air conditioning facility, in the way it can support and fulfill what Smart Building service needs."
   },
   {
-    "company": "Datakorum Solutions SL",
-    "name": "BEAT",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/4PFjBJ2sa2/datakorum_azul.jpg",
-    "fiwareMember": false,
-    "fiwareIhub": false,
-    "companyLink": "https://www.datakorum.com",
-    "domain": [
-      "Cities"
-    ],
-    "type": "IOT Device",
-    "technology": [],
-    "year": 2018,
-    "content": "We provide different solutions that have been designed in order to simplify and optimize waste collection and treatment processes for Smart Cities. Also, we offer load control or dynamic weighing systems in vehicles and provide solutions that have been designed to make work processes easier."
-  },
-  {
-    "company": "Datakorum Solutions SL",
+    "company": "Datakorum Solutions",
     "name": "LANE",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/pjgJtkpYES/datakorum_azul.jpg",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg",
     "fiwareMember": false,
     "fiwareIhub": false,
     "companyLink": "https://www.datakorum.com",
     "domain": [
       "Cities"
     ],
-    "type": "IOT Device",
-    "technology": [],
+    "type": "IoT Device",
+    "technology": [
+      "Internet of Things",
+      "Cloud Computing"
+    ],
     "year": 2018,
-    "content": "Intelligent Remote Control for Street Lighting"
+    "content": "Intelligent Remote Control for Street Lighting\nLANE device gives you access to remote control and monitoring of any new or existing streetlight network from one point of light to whole streets."
   },
   {
-    "company": "Datakorum Solutions SL",
+    "company": "Datakorum Solutions",
+    "name": "LB40",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg",
+    "fiwareMember": false,
+    "fiwareIhub": false,
+    "companyLink": "https://www.datakorum.com",
+    "domain": [
+      "Cities"
+    ],
+    "type": "IoT Device",
+    "technology": [
+      "Internet of Things",
+      "Cloud Computing"
+    ],
+    "year": 2017,
+    "content": "E3TLight devices integrate remote control, on/off switching of streetlight network, dimming and scheduled programming, monitoring electrical parameters, and WiFi communication, in a single unit."
+  },
+  {
+    "company": "Datakorum Solutions",
+    "name": "LC40",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg",
+    "fiwareMember": false,
+    "fiwareIhub": false,
+    "companyLink": "https://www.datakorum.com",
+    "domain": [
+      "Cities"
+    ],
+    "type": "IoT Device",
+    "technology": [
+      "Internet of Things"
+    ],
+    "year": 2017,
+    "content": "LC40 device allows remote control and monitoring of any new or existing streetlight network. This control is achieved by installing one E3TLight device just before the lights section we want to command."
+  },
+  {
+    "company": "Datakorum Solutions",
+    "name": "LS40",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg",
+    "fiwareMember": false,
+    "fiwareIhub": false,
+    "companyLink": "http://e3tcity.com/en/ls40/",
+    "domain": [
+      "Cities"
+    ],
+    "type": "IoT Device",
+    "technology": [
+      "Internet of Things",
+      "Cloud Computing"
+    ],
+    "year": 2017,
+    "content": "E3TLight system allows remote control and monitoring of any new or existing streetlight network. This control is achieved by installing one E3TLight device just before the lights section we want to command."
+  },
+  {
+    "company": "Datakorum Solutions",
+    "name": "MB43",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg",
+    "fiwareMember": false,
+    "fiwareIhub": false,
+    "companyLink": "http://e3tcity.com/en/mb43/",
+    "domain": [
+      "Cities"
+    ],
+    "type": "IoT Device",
+    "technology": [
+      "Internet of Things",
+      "Cloud Computing"
+    ],
+    "year": 2017,
+    "content": "E3TMeter controllers integrate into one unique device remote control (on/off switching), monitoring of energy parameters of an electric board, either monophasic or triphasic, and WiFi communication."
+  },
+  {
+    "company": "Datakorum Solutions",
+    "name": "MS41",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg",
+    "fiwareMember": false,
+    "fiwareIhub": false,
+    "companyLink": "https://www.datakorum.com",
+    "domain": [
+      "Cities"
+    ],
+    "type": "IoT Device",
+    "technology": [
+      "Internet of Things",
+      "Cloud Computing"
+    ],
+    "year": 2017,
+    "content": "E3TMeter controllers integrate into one unique device remote control (on/off switching), monitoring of energy parameters of an electric board, either monophasic or triphasic, and WiFi communication."
+  },
+  {
+    "company": "Datakorum Solutions",
     "name": "PEAK",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/e4QPn7yomT/datakorum_azul.jpg",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg",
     "fiwareMember": false,
     "fiwareIhub": false,
     "companyLink": "https://www.datakorum.com",
     "domain": [
       "Cities"
     ],
-    "type": "IOT Device",
-    "technology": [],
-    "year": 2018,
-    "content": "Remote Control and Monitoring System"
-  },
-  {
-    "company": "Datakorum Solutions SL",
-    "name": "TINY",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/LKxT6rRex5/datakorum_azul.jpg",
-    "fiwareMember": false,
-    "fiwareIhub": false,
-    "companyLink": "https://www.datakorum.com",
-    "domain": [
-      "Cities"
+    "type": "IoT Device",
+    "technology": [
+      "Internet of Things",
+      "Cloud Computing"
     ],
-    "type": "IOT Device",
-    "technology": [],
     "year": 2018,
-    "content": "Smart point-to-point lighting controller best suited for lighting manufacturers."
+    "content": "Remote Control and Monitoring System\nPEAK device gives you access to remote control and monitoring of any new or existing streetlight network from one point of light to whole streets."
   },
   {
-    "company": "Datakorum Solutions SL",
-    "name": "POLE",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/MdsLGbqFHd/datakorum_azul.jpg",
-    "fiwareMember": false,
-    "fiwareIhub": false,
-    "companyLink": "https://www.datakorum.com",
-    "domain": [
-      "Cities"
-    ],
-    "type": "IOT Device",
-    "technology": [],
-    "year": 2018,
-    "content": "Smart point-to-point lighting controller best suited for Smart Lighting projects."
-  },
-  {
-    "company": "Datakorum Solutions SL",
+    "company": "Datakorum Solutions",
     "name": "PLUG",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/X5fGaSoFdb/datakorum_azul.jpg",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg",
     "fiwareMember": false,
     "fiwareIhub": false,
     "companyLink": "https://www.datakorum.com",
     "domain": [
       "Cities"
     ],
-    "type": "IOT Device",
-    "technology": [],
+    "type": "IoT Device",
+    "technology": [
+      "Internet of Things",
+      "Cloud Computing"
+    ],
     "year": 2018,
-    "content": "Smart point-to-point lighting controller best suited for street lamps that meet ANSI C136.41."
+    "content": "PLUG device is an easily adjustable smart point-to-point lighting controller that is best suited for street lamps such as those that meet ANSI C136.41."
   },
   {
-    "company": "Device Gateway SA",
+    "company": "Datakorum Solutions",
+    "name": "POLE",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg",
+    "fiwareMember": false,
+    "fiwareIhub": false,
+    "companyLink": "https://www.datakorum.com",
+    "domain": [
+      "Cities"
+    ],
+    "type": "IoT Device",
+    "technology": [
+      "Internet of Things",
+      "Cloud Computing"
+    ],
+    "year": 2018,
+    "content": "POLE the IoT Device is an easily adjustable smart point-to-point lighting controller that is best suited for projects such as Smart Lighting projects."
+  },
+  {
+    "company": "Datakorum Solutions",
+    "name": "SC40",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg",
+    "fiwareMember": false,
+    "fiwareIhub": false,
+    "companyLink": "http://e3tcity.com/en/sc40/",
+    "domain": [
+      "Cities"
+    ],
+    "type": "IoT Device",
+    "technology": [
+      "Internet of Things",
+      "Cloud Computing"
+    ],
+    "year": 2017,
+    "content": "This system allows any analog or digital sensor to behave as if it were an IoT sensor and establishes a real-time connection between the cloud and sensors. The measures taken by sensors can be sent instantaneously, and enable events, alerts, and alarms associated with them."
+  },
+  {
+    "company": "Datakorum Solutions",
+    "name": "SS47",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg",
+    "fiwareMember": false,
+    "fiwareIhub": false,
+    "companyLink": "http://e3tcity.com/en/ss47/",
+    "domain": [
+      "Cities"
+    ],
+    "type": "IoT Device",
+    "technology": [
+      "Internet of Things",
+      "Cloud Computing"
+    ],
+    "year": 2017,
+    "content": "IoT sensor monitoring system allows any analog or digital sensor to behave as if it were an IoT sensor and establishes a real-time connection between the cloud and sensors."
+  },
+  {
+    "company": "Datakorum Solutions",
+    "name": "TINY",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg",
+    "fiwareMember": false,
+    "fiwareIhub": false,
+    "companyLink": "https://www.datakorum.com",
+    "domain": [
+      "Cities"
+    ],
+    "type": "IoT Device",
+    "technology": [
+      "Internet of Things",
+      "Cloud Computing"
+    ],
+    "year": 2018,
+    "content": "TINY is a device that is best suited for lighting manufacturers, due to being a smart point-to-point controller and easily adjustable when turned on and off."
+  },
+  {
+    "company": "Device Gateway",
     "name": "UDG",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/fernando.lopez/udg_1_88x36.png",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_UDGAlliance.svg",
     "fiwareMember": false,
     "fiwareIhub": false,
     "companyLink": "http://www.devicegateway.com/udf-for-smart-cities",
     "domain": [
       "Cities"
     ],
-    "type": "IOT Device",
-    "technology": [],
+    "type": "IoT Device",
+    "technology": [
+      "Internet of Things"
+    ],
     "year": 2017,
-    "content": "UDG provides a perfect solution for smart cities project. It has been designed to handle large scale deploymentswith heterogeneous IoT systems. By enabling different classes of IoT devices, sensors and actuators into a common data plane, UDG highly simplifies the management of such deployments."
+    "content": "UDG provides a perfect solution for smart cities projects. It has been designed to handle large-scale deployments with heterogeneous IoT systems. By enabling different classes of IoT Devices, sensors, and actuators into a common data plane, UDG highly simplifies the management of such deployments."
   },
   {
-    "company": "Digitalilusion S.L.",
+    "company": "Digitalilusion",
     "name": "Outbeacon",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/J5djjhCJEt/aaeaaqaaaaaaaaobaaaajdnkytcxy2nmltmxzgutndg3yi1hnjdhltjhmtk2mthhymiwma.png",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_OutBarriers.svg",
     "fiwareMember": false,
     "fiwareIhub": false,
     "companyLink": "https://outbarriers.com",
     "domain": [
       "Cities"
     ],
-    "type": "IOT Device",
-    "technology": [],
+    "type": "IoT Device",
+    "technology": [
+      "Internet of Things"
+    ],
     "year": 2017,
     "content": "Bluetooth Low Energy device that works as a beacon for the visibly impaired."
   },
   {
-    "company": "Distromel, S.A.",
+    "company": "Distromel",
     "name": "siGEUS",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/francisco.marias@distromel.com/BvHMcmQ3jc/logo.png",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Distromel.svg",
     "fiwareMember": true,
     "fiwareIhub": false,
     "companyLink": "https://www.distromel.com/",
@@ -302,59 +367,12 @@
       "Software as a Service"
     ],
     "year": 2020,
-    "content": "We provide different solutions that have been designed in order to simplify and optimise waste collection and treatment processes for Smart Cities. Also, we offer load control or dynamic weighing systems in vehicles and provide solutions that have been designed to make work processes easier."
-  },
-  {
-    "company": "e3tcity, S.L.",
-    "name": "LC40",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/fernando.lopez/logo-white-bg@2x1.png",
-    "fiwareMember": false,
-    "fiwareIhub": false,
-    "companyLink": "http://e3tcity.com/en/lc40/",
-    "domain": [
-      "Cities"
-    ],
-    "type": "IOT Device",
-    "technology": [],
-    "year": 2017,
-    "content": "LC40 device allows remote control and monitoring of any new or existing streetlight network. This control is achieved by installing one E3TLight device just before the lights section we want to command."
-  },
-  {
-    "company": "Econverter energía e innovación S.L",
-    "name": "Ecogiro",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/echuHiprD3/econverter.jpg",
-    "fiwareMember": false,
-    "fiwareIhub": false,
-    "companyLink": "http://www.econverter.es/mini-eolica.html",
-    "domain": [
-      "Cities",
-      "Home"
-    ],
-    "type": "IOT Device",
-    "technology": [],
-    "year": 2018,
-    "content": "Mini Wind Turbines: Energy sustainable energy solutions that contribute to your savings"
-  },
-  {
-    "company": "Econverter Energía e Innovación SL",
-    "name": "SecuryCable",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/BbCjNCHyuJ/econverter.jpg",
-    "fiwareMember": false,
-    "fiwareIhub": false,
-    "companyLink": "http://www.econverter.es/antirrobo-de-cable-de-cobre.html",
-    "domain": [
-      "Retail",
-      "Home"
-    ],
-    "type": "IOT Device",
-    "technology": [],
-    "year": 2018,
-    "content": "Sidera System actively prevents the theft of copper cables"
+    "content": "We provide different solutions that have been designed to simplify and optimize waste collection and treatment processes for Smart Cities. Also, we offer load control or dynamic weighing systems in vehicles and provide solutions that have been designed to make work processes easier."
   },
   {
     "company": "Eficae",
     "name": "Miluz",
-    "img": "https://www.fiware.org/wp-content/uploads/da69d3c47f91cd6450d737dd430f9ace.png",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Miluz.svg",
     "fiwareMember": false,
     "fiwareIhub": false,
     "companyLink": "https://miluz.eficae.es",
@@ -365,7 +383,7 @@
       "Industry",
       "Lighting"
     ],
-    "type": "IOT Device",
+    "type": "IoT Device",
     "technology": [
       "Communication Networks",
       "Internet of Things",
@@ -378,7 +396,7 @@
   {
     "company": "EGM",
     "name": "EdgeSpot",
-    "img": "https://www.fiware.org/wp-content/uploads/52b3e47c7b035c99dfc352e89bd306f3.jpg",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_EGM.svg",
     "fiwareMember": true,
     "fiwareIhub": false,
     "companyLink": "https://www.egm.io/wp-content/uploads/2021/08/fiche-EGM-EdgeSpot-2-EN-3.pdf",
@@ -388,18 +406,36 @@
       "Measurement",
       "Telecommunication"
     ],
-    "type": "IOT Device",
+    "type": "IoT Device",
     "technology": [
       "Internet of Things",
       "Sensory Systems"
     ],
     "year": 2021,
-    "content": "EdgeSpot is a highly scalable hardware and software platform that takes you from concept to market by accelerating the proof-of-concept phases."
+    "content": "The device EdgeSpot is a highly scalable hardware and software platform that takes you from concept to market by accelerating the proof-of-concept phases."
   },
   {
-    "company": "Engineering Ingegneria Informatica S.p.A.",
+    "company": "Elmitel",
+    "name": "eVineyard",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_eVineyard.svg",
+    "fiwareMember": false,
+    "fiwareIhub": false,
+    "companyLink": "http://www.evineyardapp.com",
+    "domain": [
+      "AgriFood"
+    ],
+    "type": "IoT Device",
+    "technology": [
+      "Data Analytics",
+      "Open Data"
+    ],
+    "year": 2017,
+    "content": "The easily deployable decision support solution that helps you manage your vineyard to reduce costs, grow better grapes, and preserve the environment."
+  },
+  {
+    "company": "Engineering",
     "name": "Dashram",
-    "img": "https://www.fiware.org/wp-content/uploads/2497e3b1fe67e95f8d2fafedcabe86de.png",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Engineering.svg",
     "fiwareMember": true,
     "fiwareIhub": false,
     "companyLink": "https://www.eng.it/en/case-studies/dashram-un-nuovo-tool-per-la-data-analysis",
@@ -416,9 +452,9 @@
     "content": "Dashram is an Open Source tool for advanced data visualization, characterized by a simple and functional interface that provides the means to create and share 2D and 3D charts, map-based visualizations and dashboards."
   },
   {
-    "company": "Engineering Ingegneria Informatica SpA",
+    "company": "Engineering",
     "name": "KNOWAGE",
-    "img": "https://www.fiware.org/wp-content/uploads/b73e4b78274a7df0c4503ae0a59d5bbd.zip",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_KnowAge.svg",
     "fiwareMember": true,
     "fiwareIhub": false,
     "companyLink": "https://www.knowage-suite.com",
@@ -438,27 +474,12 @@
       "Software as a Service"
     ],
     "year": 2014,
-    "content": "KNOWAGE is the open source suite for analytics and business intelligence with any data, fully compliant with FIWARE architecture and GEs"
+    "content": "KNOWAGE  is the professional open-source suite for analytics and business intelligence with any data, fully compliant with FIWARE architecture and GEs."
   },
   {
-    "company": "eVineyard (Elmitel d.o.o.)",
-    "name": "eVineyard",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/jG7kvG2a2r/ddd.png",
-    "fiwareMember": false,
-    "fiwareIhub": false,
-    "companyLink": "http://www.evineyardapp.com",
-    "domain": [
-      "AgriFood"
-    ],
-    "type": "IOT Device",
-    "technology": [],
-    "year": 2017,
-    "content": "The easily deployable decision support solution that helps you manage your vineyard to reduce costs, grow better grapes and preserve the environment."
-  },
-  {
-    "company": "Gecor System S.L.U.",
+    "company": "Gecor System",
     "name": "GECOR",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/jcampos/xnBZGXdQN9/icon-no-round.png",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Gecor.svg",
     "fiwareMember": false,
     "fiwareIhub": false,
     "companyLink": "https://gecorweb.com/",
@@ -466,16 +487,20 @@
       "Cities"
     ],
     "type": "Software enabler",
-    "technology": [],
+    "technology": [
+      "Internet of Things",
+      "Open Data",
+      "Data Analytics"
+    ],
     "year": 2021,
     "content": "GECOR allows managing the maintenance of public spaces in a transversal way, integrating technicians, managers, service companies and citizens."
   },
   {
-    "company": "Green Globe SyPA S.L.",
+    "company": "Green Globe SyPA",
     "name": "Night Eye Sky Sensor",
-    "img": "https://www.fiware.org/wp-content/uploads/c77cf36d9ff39964595a9cd8dea2ff06-scaled.jpg",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_GreenGlobe.svg",
     "fiwareMember": false,
-    "fiwareIhub": "False/TRUE",
+    "fiwareIhub": false,
     "companyLink": "https://nighteye.eu",
     "domain": [
       "Air Quality",
@@ -493,14 +518,36 @@
       "Sensory Systems"
     ],
     "year": 2017,
-    "content": "Night Eye is the ultimate solution for night sky background brightness measurement and light pollution assessment. Thanks to the Night Eye device, real-time data and sky quality logging data can be obtained wherever Night Eye sensors are installed."
+    "content": "Night Eye is the ultimate solution for night sky background brightness measurement and light pollution assessment. Thanks to the Night Eye device, real-time data, and sky quality logging data can be obtained wherever Night Eye sensors are installed."
   },
   {
     "company": "HOPU",
-    "name": "Smart Spot - Air Quality Monitor, Noise and Crowd Monitoring",
-    "img": "https://www.fiware.org/wp-content/uploads/6ef0cb6bd99eab24f4d6ec4d366f7c66.png",
+    "name": "Smart Irrigiation Solution",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Hopu.svg",
     "fiwareMember": true,
-    "fiwareIhub": true,
+    "fiwareIhub": false,
+    "companyLink": "https://hopu.eu",
+    "domain": [
+      "Agriculture",
+      "AgriFood",
+      "Cities",
+      "Sustainability",
+      "Water"
+    ],
+    "type": "IoT Device",
+    "technology": [
+      "Artificial Intelligence",
+      "Internet of Things"
+    ],
+    "year": 2020,
+    "content": "Manage irrigation based on accurate and real-time data and AI. Weather stations with sensors of air temperature and humidity, wind, rain, UV radiation, and evapotranspiration; Soil moisture sensors. Irrigation management calendar according to soil typology."
+  },
+  {
+    "company": "HOPU",
+    "name": "Smart Spot",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Hopu.svg",
+    "fiwareMember": true,
+    "fiwareIhub": false,
     "companyLink": "http://smartcities.hopu.eu/smart-spot.html",
     "domain": [
       "Air Quality",
@@ -509,125 +556,111 @@
       "Green Deal",
       "Measurement"
     ],
-    "type": "IOT Device",
+    "type": "IoT Device",
     "technology": [
       "Internet of Things",
       "Sensory Systems"
     ],
     "year": 2016,
-    "content": "Monitor noise, people affluence/density and gases: nitrous vapours (NO/NO2), sulphides (H2S/SO2), carbon monoxide/dioxide (CO/CO2), Ozone, and other toxic substances (VOCs); particulate matter (PM) to identify nanoparticulate as dust (PM10), pollens (>PM40), pollutants (PM2.5) and viruses (&lt;PM1)."
+    "content": "Monitor noise, people affluence/density, and gases: nitrous vapors (NO/NO2), sulfides (H2S/SO2), carbon monoxide/dioxide (CO/CO2), Ozone, and other toxic substances (VOCs); particulate matter (PM) to identify nanoparticulate as dust (PM10), pollens (>PM40), pollutants (PM2.5) and viruses (&lt; PM1)."
   },
   {
     "company": "Itude Mobile",
     "name": "Babbler",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/fernando.lopez/jh39n7y5ZX/71342f_ec5379f86ee84f76aa63437e3a172804_mv2.png",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Babbler.svg",
     "fiwareMember": false,
     "fiwareIhub": false,
-    "companyLink": "http://www.babbler.io/",
+    "companyLink": "https://itude.com/",
     "domain": [
       "Logistics"
     ],
-    "type": "IOT Device",
-    "technology": [],
+    "type": "IoT Device",
+    "technology": [
+      "Internet of Things"
+    ],
     "year": 2017,
     "content": "Babbler is a small, re-usable, wireless monitoring device. It can be attached to the inside of a container or trailer door using a magnetic holder or adhesive strip."
   },
   {
-    "company": "KMB Lab Srl",
+    "company": "KMB Lab",
     "name": "Kissmybike",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/nb/hGMHMQawBP/logo_kmb_lab.jpg",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/raster/logo_KMBLab.png",
     "fiwareMember": false,
     "fiwareIhub": false,
     "companyLink": "http://www.kissmy.bike/",
     "domain": [
       "Cities"
     ],
-    "type": "IOT Device",
-    "technology": [],
+    "type": "IoT Device",
+    "technology": [
+      "Internet of Things",
+      "Open Data",
+      "Data Analytics"
+    ],
     "year": 2019,
     "content": "Kissmybike is a complex IoT product which detects bicycle theft and tracks the stolen vehicle's location until its successful recovery."
   },
   {
-    "company": "Libelium Comunicaciones Distribuidas S.L.",
-    "name": "Plug&Sense!",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/pynEQ6E849/logo_libelium.png",
-    "fiwareMember": false,
-    "fiwareIhub": false,
-    "companyLink": "https://www.libelium.com",
-    "domain": [
-      "Cities"
-    ],
-    "type": "IOT Device",
-    "technology": [],
-    "year": 2017,
-    "content": "Sensor networks made easy"
-  },
-  {
-    "company": "Libelium Comunicaciones Distribuidas S.L.",
-    "name": "Waspmote",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/ipr2zioaK9/logo_libelium.png",
-    "fiwareMember": false,
-    "fiwareIhub": false,
-    "companyLink": "https://www.libelium.com",
-    "domain": [
-      "Cities"
-    ],
-    "type": "IOT Device",
-    "technology": [],
-    "year": 2017,
-    "content": "The sensor device for developers"
-  },
-  {
-    "company": "Libelium Comunicaciones Distribuidas S.L.",
+    "company": "Libelium",
     "name": "Meshlium",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/edwvM7i3D8/logo_libelium.png",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Libelium.svg",
     "fiwareMember": false,
     "fiwareIhub": false,
     "companyLink": "https://www.libelium.com",
     "domain": [
       "Cities"
     ],
-    "type": "IOT Device",
-    "technology": [],
+    "type": "IoT Device",
+    "technology": [
+      "Internet of Things",
+      "Cloud Computing",
+      "Sensory Systems"
+    ],
     "year": 2017,
-    "content": "IoT Gateway to connect any sensor to any Cloud Platform"
+    "content": "Meshlium is the IoT Gateway to connect any sensor to any Cloud Platform, including FIWARE. It provides customers/users with help to monitor daily activities in order to get gain business intelligence."
   },
   {
-    "company": "Management Construction And Trade Innovative Solutions International S.L.",
-    "name": "Digitanimal",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/khroWFcuC9/logo.jpg",
+    "company": "Libelium",
+    "name": "Plug&Sense!",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Libelium.svg",
     "fiwareMember": false,
     "fiwareIhub": false,
-    "companyLink": "https://digitanimal.com",
+    "companyLink": "https://www.libelium.com",
     "domain": [
-      "AgriFood"
+      "Cities"
     ],
-    "type": "IOT Device",
-    "technology": [],
-    "year": 2018,
-    "content": "Digitanimal is a solution that increases livestock farms profits; improving animal welfare and providing traceability tools for consumers."
+    "type": "IoT Device",
+    "technology": [
+      "Internet of Things",
+      "Cloud Computing",
+      "Sensory Systems"
+    ],
+    "year": 2017,
+    "content": "Plug&Sense is an IoT Device that offers its users several benefits such as easily attachment of the Sensor probes, solar panel option battery recharge, the 4G module features a GPS receiver etc."
   },
   {
-    "company": "Odin Solutions SL",
-    "name": "Mex 06 Datalogger",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/smFnEhAwS7/odins.png",
+    "company": "Libelium",
+    "name": "Waspmote",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Libelium.svg",
     "fiwareMember": false,
     "fiwareIhub": false,
-    "companyLink": "http://www.odins.es/en/project/mex06-datalogger/",
+    "companyLink": "https://www.libelium.com",
     "domain": [
-      "Cities",
-      "AgriFood",
-      "Industry"
+      "Cities"
     ],
-    "type": "IOT Device",
-    "technology": [],
-    "year": 2018,
-    "content": "Monitoring and Tele-control Solutions for Smart Cities and Smart Industry"
+    "type": "IoT Device",
+    "technology": [
+      "Internet of Things",
+      "Cloud Computing",
+      "Sensory Systems"
+    ],
+    "year": 2017,
+    "content": "Waspmote hardware architecture has been specially designed to work with extremely low consumption. Digital switches allow to turn on and off any of the sensor interfaces as well as the radio modules."
   },
   {
-    "company": "Odin Solutions SL",
+    "company": "Odin Solutions",
     "name": "IPex 04 Datalogger",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/5kSKNAbMqk/odins.png",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Odins.svg",
     "fiwareMember": false,
     "fiwareIhub": false,
     "companyLink": "http://www.odins.es/en/project/ipex04-datalogger/",
@@ -636,32 +669,17 @@
       "AgriFood",
       "Industry"
     ],
-    "type": "IOT Device",
-    "technology": [],
-    "year": 2018,
-    "content": "Monitoring and Tele-control Solutions for Smart Cities, Industry and Agriculture"
-  },
-  {
-    "company": "Odin Solutions SL",
-    "name": "IPex 16 Datalogger",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/N67PZp8u6u/odins.png",
-    "fiwareMember": false,
-    "fiwareIhub": false,
-    "companyLink": "http://www.odins.es/en/project/ipex16-datalogger/",
-    "domain": [
-      "Cities",
-      "AgriFood",
-      "Industry"
+    "type": "IoT Device",
+    "technology": [
+      "Internet of Things"
     ],
-    "type": "IOT Device",
-    "technology": [],
     "year": 2018,
-    "content": "Monitoring and Tele-control Solutions for Smart Cities, Industry and Agriculture"
+    "content": "IPex 04 Datalogger is a Monitoring and Tele-control solution for electrical panels with 4 inputs/outputs; Smart Cities; Industry, and Agriculture."
   },
   {
-    "company": "Odin Solutions SL",
+    "company": "Odin Solutions",
     "name": "IPex 12 Datalogger",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/hg6piGYZpQ/odins.png",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Odins.svg",
     "fiwareMember": false,
     "fiwareIhub": false,
     "companyLink": "http://www.odins.es/en/project/ipex12/",
@@ -670,15 +688,55 @@
       "AgriFood",
       "Industry"
     ],
-    "type": "IOT Device",
-    "technology": [],
+    "type": "IoT Device",
+    "technology": [
+      "Internet of Things"
+    ],
     "year": 2018,
-    "content": "Monitoring and Tele-control Solutions for Smart Cities and Smart Industry"
+    "content": "IPex 12 Datalogger is a Monitoring and Tele-control solution for outdoor environments for monitoring and remote control; Smart Cities and Smart Industry."
   },
   {
-    "company": "panStamp S.L.U.",
+    "company": "Odin Solutions",
+    "name": "IPex 16 Datalogger",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Odins.svg",
+    "fiwareMember": false,
+    "fiwareIhub": false,
+    "companyLink": "http://www.odins.es/en/project/ipex16-datalogger/",
+    "domain": [
+      "Cities",
+      "AgriFood",
+      "Industry"
+    ],
+    "type": "IoT Device",
+    "technology": [
+      "Internet of Things"
+    ],
+    "year": 2018,
+    "content": "IPex 16 Datalogger is a Monitoring and Tele-control solution for electrical panels with 4 inputs/outputs; Smart Cities; Industry, and Agriculture."
+  },
+  {
+    "company": "Odin Solutions",
+    "name": "Mex 06 Datalogger",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Odins.svg",
+    "fiwareMember": false,
+    "fiwareIhub": false,
+    "companyLink": "http://www.odins.es/en/project/mex06-datalogger/",
+    "domain": [
+      "Cities",
+      "AgriFood",
+      "Industry"
+    ],
+    "type": "IoT Device",
+    "technology": [
+      "Internet of Things"
+    ],
+    "year": 2018,
+    "content": "Met 06 Datalogger is a Monitoring and Tele-control solution for outdoor environments for monitoring and remote control; Smart Cities and Smart Industry."
+  },
+  {
+    "company": "panStamp",
     "name": "RESPIRA FIWARE",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/dberenguer/Lt6hoEEA7x/panstamp_s.jpg",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Respira.svg",
     "fiwareMember": false,
     "fiwareIhub": false,
     "companyLink": "https://github.com/panStamp/respira_fiware",
@@ -686,77 +744,75 @@
       "Cities",
       "Health"
     ],
-    "type": "IOT Device",
-    "technology": [],
-    "year": 2019,
-    "content": "RESPIRA Fiware is an open source air monitoring device created to sense temperature, humidity, particle matter and NO2 levels in the air"
-  },
-  {
-    "company": "Renacen Sistemas S.L.",
-    "name": "REPLO - Renacen Places Occupation",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/marbaez/4HBhPjGFTx/logo.png",
-    "fiwareMember": false,
-    "fiwareIhub": false,
-    "companyLink": "http://www.renacen.com/replo/",
-    "domain": [
-      "Cities",
-      "Retail",
-      "Home"
+    "type": "IoT Device",
+    "technology": [
+      "Internet of Things"
     ],
-    "type": "Software enabler",
-    "technology": [],
     "year": 2019,
-    "content": "The application provides realtime people occupation/attendance in controled places."
+    "content": "RESPIRA FIWARE is an open-source air monitoring IoT device that was created to sense temperature, humidity, particle matter, and NO2 levels in the air."
   },
   {
-    "company": "Seacon Europe Ltd.",
+    "company": "Seacon Europe",
     "name": "IntelliFood",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/CLgGbuKc2q/seacon.png",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Seacon.svg",
     "fiwareMember": false,
     "fiwareIhub": false,
     "companyLink": "http://www.seacon.hu/intellifood",
     "domain": [
       "AgriFood"
     ],
-    "type": "IOT Device",
-    "technology": [],
+    "type": "IoT Device",
+    "technology": [
+      "Internet of Things",
+      "Open Data",
+      "Data Analytics"
+    ],
     "year": 2017,
     "content": "Intelligent Process Monitoring and Control for perishable foods"
   },
   {
     "company": "Secmotic",
-    "name": "Muvone",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/tSuh2pPu8o/secmotic-transparente-logo-2.png",
-    "fiwareMember": true,
-    "fiwareIhub": false,
-    "companyLink": "https://www.muvone.com",
-    "domain": [
-      "Health"
-    ],
-    "type": "IOT Device",
-    "technology": [],
-    "year": 2018,
-    "content": "The first wearable device that helps you prevent osteoporosis."
-  },
-  {
-    "company": "Secmotic",
     "name": "LockArt",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/RKNxGunyhg/secmotic-transparente-logo-2.png",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Secmotic.svg",
     "fiwareMember": true,
     "fiwareIhub": false,
     "companyLink": "http://mylockart.com",
     "domain": [
       "Home"
     ],
-    "type": "IOT Device",
-    "technology": [],
+    "type": "IoT Device",
+    "technology": [
+      "Internet of Things",
+      "Data Analytics",
+      "Open Data",
+      "Industrial Technology"
+    ],
     "year": 2017,
-    "content": "LockArt is a new generation of locks. Elegance and security in the same device."
+    "content": "LockArt device is the new generation of locks. It installs in the blink of an eye, and it is compatible with all types of locks thanks to its adjustable back piece."
+  },
+  {
+    "company": "Secmotic",
+    "name": "Muvone",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Secmotic.svg",
+    "fiwareMember": true,
+    "fiwareIhub": false,
+    "companyLink": "https://www.muvone.com",
+    "domain": [
+      "Health"
+    ],
+    "type": "IoT Device",
+    "technology": [
+      "Internet of Things",
+      "Data Analytics",
+      "Open Data"
+    ],
+    "year": 2018,
+    "content": "Muvone is the first wearable device specifically designed to help prevent osteoporosis. With its small size and attractive design, it makes the ideal complement to take care of your health intelligently."
   },
   {
     "company": "Seneco A/S",
-    "name": "Citygrid Intelligent streetlight controller",
-    "img": "https://www.fiware.org/wp-content/uploads/a87a48a9835c7a8bfc6f836d6e00d9fc.zip",
+    "name": "Citygrid",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_CityGrid.svg",
     "fiwareMember": false,
     "fiwareIhub": false,
     "companyLink": "https://www.seneco.dk",
@@ -768,7 +824,7 @@
       "Utilities",
       "Oil and Gas"
     ],
-    "type": "IOT Device",
+    "type": "IoT Device",
     "technology": [
       "Communication Networks",
       "Internet of Things",
@@ -778,29 +834,74 @@
     "content": "The sensor-based, connected Citygrid solution allows for configuring the luminaires so that they always light up when presence is detected, and dim down after some time. When a luminaire fails, the information can be dispatched immediately so maintenance can be planned optimally."
   },
   {
-    "company": "Sinapse Energía",
-    "name": "CMC - IoT",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/gonzalosinapse/c5PDdwZ2yk/logo.png",
+    "company": "Sensowave",
+    "name": "Digitanimal",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_DigitAnimal.svg",
     "fiwareMember": false,
     "fiwareIhub": false,
-    "companyLink": "http://www.sinapseenergia.com",
+    "companyLink": "https://digitanimal.com",
     "domain": [
-      "Cities",
-      "Industry",
-      "Ports"
+      "AgriFood"
     ],
-    "type": "IOT Device",
-    "technology": [],
-    "year": 2019,
-    "content": "IoT Gateway with capacities for electrical cabinet management"
+    "type": "IoT Device",
+    "technology": [
+      "Open Data"
+    ],
+    "year": 2018,
+    "content": "Digitanimal is an integrated service platform that increases livestock farms' profits; improving animal welfare and providing traceability tools for consumers."
+  },
+  {
+    "company": "Sensowave",
+    "name": "Digitanimal Livestock GPS",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_DigitAnimal.svg",
+    "fiwareMember": true,
+    "fiwareIhub": false,
+    "companyLink": "https://digitanimal.co.uk/product/digitanimal-livestock-gps/",
+    "domain": [
+      "Agriculture",
+      "AgriFood",
+      "Consumer Goods / Products",
+      "Green Deal"
+    ],
+    "type": "IoT Device",
+    "technology": [
+      "Blockchain",
+      "Data Analytics",
+      "Data Handling",
+      "Sensory Systems",
+      "Software as a Service"
+    ],
+    "year": 2022,
+    "content": "Digitanimal Livestock GPS offers a 2-year warranty All services included for 12 months* Renewal plans tailored to your Customs management included a 30-day trial"
   },
   {
     "company": "Situm Indoor Positioning",
-    "name": "Situm Indoor Positioning",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/innovation@situm.es/3yfAc8Poky/logo-situm-hd.png",
+    "name": "Situm Indoor Navigation",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Situm.svg",
     "fiwareMember": false,
     "fiwareIhub": false,
-    "companyLink": "https://situm.es/en",
+    "companyLink": "https://situm.es",
+    "domain": [
+      "Cities",
+      "Logistics"
+    ],
+    "type": "Software enabler",
+    "technology": [
+      "Internet of Things",
+      "Artificial Inteligence",
+      "Data Analytics",
+      "Open Data"
+    ],
+    "year": 2017,
+    "content": "Situm is the GPS for indoors with zero infrastructure, the highest precision, and the fastest deployment. It helps companies from different sectors to improve their services and optimize their processes by guiding visitors and monitoring their employees and mobile assets."
+  },
+  {
+    "company": "Situm Indoor Positioning",
+    "name": "Situm Indoor Tracking",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Situm.svg",
+    "fiwareMember": false,
+    "fiwareIhub": false,
+    "companyLink": "https://situm.es",
     "domain": [
       "Cities",
       "Logistics",
@@ -810,49 +911,18 @@
       "Health"
     ],
     "type": "Software enabler",
-    "technology": [],
-    "year": 2017,
-    "content": "Indoor positioning and navigation for smartphones without infrastructure installations."
-  },
-  {
-    "company": "Situm Technologies S.L.",
-    "name": "Situm",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/9frS8azmJH/download__1_.png",
-    "fiwareMember": false,
-    "fiwareIhub": false,
-    "companyLink": "https://situm.es",
-    "domain": [
-      "Cities",
-      "Logistics"
+    "technology": [
+      "Data Analytcs",
+      "Software as a Services",
+      "Internet Services"
     ],
-    "type": "Software enabler",
-    "technology": [],
     "year": 2017,
-    "content": "Situm is the GPS for indoors with zero infrastructure, the highest precision, and fastest deployment."
-  },
-  {
-    "company": "SRM Consulting",
-    "name": "MavDrone",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/josesantiso/cmEuvrEftC/srm.png",
-    "fiwareMember": false,
-    "fiwareIhub": false,
-    "companyLink": "http://www.srmconsulting.es",
-    "domain": [
-      "Cities",
-      "AgriFood",
-      "Logistics",
-      "Industry",
-      "Health"
-    ],
-    "type": "IOT Device",
-    "technology": [],
-    "year": 2021,
-    "content": "MavDrone is the first solution compatible with the MAVLink protocol for the Command and Control of drone fleets"
+    "content": "Situm is a software enabler that offers indoor positioning and navigation for smartphones without infrastructure installations to improve security and manage the workflow."
   },
   {
     "company": "SRM Consulting",
     "name": "FIWARE map viewer",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/josesantiso/b9WA5Jn2v3/srm.png",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_SRM.svg",
     "fiwareMember": false,
     "fiwareIhub": false,
     "companyLink": "http://www.srmconsulting.es",
@@ -864,29 +934,60 @@
       "Health"
     ],
     "type": "Software enabler",
-    "technology": [],
+    "technology": [
+      "Internet of Things",
+      "Open Data",
+      "Data analytics"
+    ],
     "year": 2021,
-    "content": "Fiware Map Viewer extends the capabilities of any map to Smart Cities and IoT. Monitoring any device in a map in real time, such as, atmospheric sensors, cameras, traffic lights, and so on"
+    "content": "Fiware Map Viewer extends the capabilities of any map to Smart Cities and IoT. Monitoring any device on a map in real-time, such as atmospheric sensors, cameras, traffic lights, and so on"
   },
   {
-    "company": "TeamDev s.r.l.",
+    "company": "SRM Consulting",
+    "name": "MavDrone",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_SRM.svg",
+    "fiwareMember": false,
+    "fiwareIhub": false,
+    "companyLink": "http://www.srmconsulting.es",
+    "domain": [
+      "Cities",
+      "AgriFood",
+      "Logistics",
+      "Industry",
+      "Health"
+    ],
+    "type": "IoT Device",
+    "technology": [
+      "Internet of Things",
+      "Data Analytics"
+    ],
+    "year": 2021,
+    "content": "MavDrone device is the first solution compatible with the MAVLink protocol for the Command and Control of drone fleets. MavDrone extends the capabilities of IAS by publishing the telemetry in a public API."
+  },
+  {
+    "company": "TeamDev",
     "name": "WiseTown",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/fernando.lopez/7c4JQCAew4/logo2014.png",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_TeamDev.svg",
     "fiwareMember": true,
     "fiwareIhub": false,
     "companyLink": "http://wise.town/",
     "domain": [
       "Cities"
     ],
-    "type": "IOT Device",
-    "technology": [],
+    "type": "IoT Device",
+    "technology": [
+      "Internet of Things",
+      "Open Data",
+      "Big Data",
+      "Data Analytics"
+    ],
     "year": 2018,
-    "content": "WiseTown is an application suite for the advanced management of communications between citizens and local government with regard to urban quality, safety and shared planning that integrates social networks, open data and IoT."
+    "content": "WiseTown is an application suite for the advanced management of communications between citizens and local government with regard to urban quality, safety, and shared planning that integrates social networks, open data, and IoT."
   },
   {
-    "company": "Telocate GmbH",
+    "company": "Telocate",
     "name": "FI-ASSIST",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/QFBzizsMPa/dddd.png",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_FI-Assist.svg",
     "fiwareMember": false,
     "fiwareIhub": false,
     "companyLink": "https://de.telocate.de",
@@ -896,59 +997,72 @@
       "Retail"
     ],
     "type": "Software enabler",
-    "technology": [],
-    "year": 2017,
-    "content": "A FIWARE Implementation for the Precise Indoor Smartphone Navigation System Telocate ASSIST"
-  },
-  {
-    "company": "TST Sistemas",
-    "name": "TSwasTe",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/YN62gazoM2/picture1.png",
-    "fiwareMember": false,
-    "fiwareIhub": false,
-    "companyLink": "http://www.tst-sistemas.es",
-    "domain": [
-      "Cities"
+    "technology": [
+      "Internet of Things"
     ],
-    "type": "IOT Device",
-    "technology": [],
-    "year": 2018,
-    "content": "Low cost sensing solution for urban waste containers."
+    "year": 2017,
+    "content": "The FI-ASSIST project is a system developed by the German company Telocate to introduce a high-precision indoor navigation system and location infrastructure for restaurants based on acoustic localization."
   },
   {
     "company": "TST Sistemas",
     "name": "TSconTrol Industrial Control",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/nPj9XGnNTz/picture2.png",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_TST.svg",
     "fiwareMember": false,
     "fiwareIhub": false,
-    "companyLink": "http://www.tst-sistemas.es",
+    "companyLink": "https://tst-sistemas.com/en/",
     "domain": [
       "Cities"
     ],
-    "type": "IOT Device",
-    "technology": [],
+    "type": "IoT Device",
+    "technology": [
+      "Open Data",
+      "Data Snalytics"
+    ],
     "year": 2017,
-    "content": "Multi-interface device for IoT and M2M applications"
+    "content": "TSconTroL is a multi-purpose and multi-interface device for IoT and M2M applications in industrial, agricultural, and smart cities. The device can be installed for irrigation control, monitoring of crops and large plantations, water quality management, and control of industrial machines."
   },
   {
     "company": "TST Sistemas",
     "name": "TSmart Development Platform",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/mvriqZkcqa/picture3.png",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_TST.svg",
     "fiwareMember": false,
     "fiwareIhub": false,
-    "companyLink": "http://www.tst-sistemas.es",
+    "companyLink": "https://tst-sistemas.com/en/",
     "domain": [
       "Cities"
     ],
-    "type": "IOT Device",
-    "technology": [],
+    "type": "IoT Device",
+    "technology": [
+      "Interner of Things",
+      "Open Data",
+      "Data Analytics."
+    ],
     "year": 2017,
-    "content": "Modular platform for wireless communications"
+    "content": "TSmarT is a modular platform used for wireless communications that allow the rapid implementation of M2M applications, monitoring, and remote control."
+  },
+  {
+    "company": "TST Sistemas",
+    "name": "TSwasTe",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_TST.svg",
+    "fiwareMember": false,
+    "fiwareIhub": false,
+    "companyLink": "https://tst-sistemas.com/en/",
+    "domain": [
+      "Cities"
+    ],
+    "type": "IoT Device",
+    "technology": [
+      "Interner of Things",
+      "Open Data",
+      "Data Analytics."
+    ],
+    "year": 2018,
+    "content": "TSwaste is a low-cost sensing solution for urban waste containers. The device is equipped with an ultrasonic sensor and a bi-directional communication feature to monitor waste levels."
   },
   {
     "company": "UBIKWA",
     "name": "INSYLO",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/ubikwa/EznEj5hYEN/logoubikwa__512x512_.png",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Insylo.svg",
     "fiwareMember": false,
     "fiwareIhub": false,
     "companyLink": "http://www.insylo.com",
@@ -957,15 +1071,20 @@
       "Logistics",
       "Industry"
     ],
-    "type": "IOT Device",
-    "technology": [],
+    "type": "IoT Device",
+    "technology": [
+      "Internet of Things",
+      "Data Analytics",
+      "Open Data",
+      "Cloud Computing"
+    ],
     "year": 2017,
     "content": "INSYLO is an affordable solution to remotely monitor livestock farms' silos and solve the million dollar question: the right moment and the right quantity to restock each silo in order to optimise logistic costs."
   },
   {
-    "company": "Urbaser S.A.",
+    "company": "Urbaser",
     "name": "SENSIoT",
-    "img": "https://www.fiware.org/wp-content/uploads/c360b0eb5c8510ed792267a1c7d6cacb.png",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Urbaser.svg",
     "fiwareMember": false,
     "fiwareIhub": false,
     "companyLink": "https://urbaser.com/sensiot",
@@ -984,14 +1103,14 @@
       "Internet of Things"
     ],
     "year": 2020,
-    "content": "SENSIoT(Smart Environmental Services with IoT) is Urbaser’s IoT solutions where a comprehensive set of information is automatically gathered from its assets and processed to maximise its value. The core of technology is SENSIoT-Platform, which has been designed using Microsoft Azure services"
+    "content": "SENSIoT(Smart Environmental Services with IoT) is Urbaser’s IoT solution where a comprehensive set of information is automatically gathered from its assets and processed to maximize its value. The core of the technology is SENSIoT-Platform, which has been designed using Microsoft Azure services"
   },
   {
     "company": "Ventum Innovacion",
     "name": "Gavilán Control",
-    "img": "https://www.fiware.org/wp-content/uploads/54332be1a747e56559330b7239bbe93a.zip",
-    "fiwareMember": "False/True",
-    "fiwareIhub": "False/True",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_GavillanControl.svg",
+    "fiwareMember": false,
+    "fiwareIhub": false,
     "companyLink": "https://gavilan.ventumidc.es/login",
     "domain": [
       "Air Quality",
@@ -1000,7 +1119,7 @@
       "Industry",
       "Water"
     ],
-    "type": "Software enabler/IoT device",
+    "type": "Software enabler",
     "technology": [
       "Big Data",
       "Data Handling",
@@ -1009,60 +1128,73 @@
       "Software as a Service"
     ],
     "year": 2020,
-    "content": "Gavilan Control is a tool where you can find the main data and variables regarding your livestock bussiness. You have control over the position and animal welfare. Control the water and food consumption and make decitions that improve the productivity of your explotation."
+    "content": "Gavilan Control is a tool where you can find the main data and variables regarding your livestock business. You have control over the position and animal welfare. Control the water and food consumption and make decisions that improve the productivity of your exploitation."
   },
   {
-    "company": "VIRAL STUDIOS SL",
+    "company": "VIRAL STUDIOS",
     "name": "virtualARt",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/viralstudios/ptgzfTK3pq/logo_vertical.jpg",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_ViralStudio.svg",
     "fiwareMember": false,
     "fiwareIhub": false,
-    "companyLink": "http://www.viralstudios.es/turismo-inmersivo/",
+    "companyLink": "https://www.viralstudio.it/",
     "domain": [
       "Cities",
       "Industry",
       "Retail",
       "Content"
     ],
-    "type": "IOT Device",
-    "technology": [],
-    "year": 2019,
-    "content": "virtualARt allows museum visitors to receive information about pieces of art by\naugmented reality, as well as collect information about tours and preferences."
-  },
-  {
-    "company": "Wellness TechGroup",
-    "name": "WeLight",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/5oAn5wAorv/welight.png",
-    "fiwareMember": false,
-    "fiwareIhub": false,
-    "companyLink": "https://wellnesstg.com/en/solucion/welight-smart-lighting/",
-    "domain": [
-      "Cities"
+    "type": "IoT Device",
+    "technology": [
+      "Internet of Things",
+      "Industrial Technology",
+      "Data Analytics",
+      "Open Data"
     ],
-    "type": "IOT Device",
-    "technology": [],
-    "year": 2017,
-    "content": "WeLight is a Remote Management System for Public Lighting, which allows the monitoring and control of lighting and the optimisation and management of the maintenance, whilst monitoring consumption and reacting to deviations."
+    "year": 2019,
+    "content": "virtualARt allows museum visitors to receive information about pieces of art by augmented reality, as well as collect information about tours and preferences."
   },
   {
     "company": "Wellness TechGroup",
     "name": "Quamtra",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/5JHGSmzGJB/quamtra_smart_waste_management.png",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_WellnessTechGroup.svg",
     "fiwareMember": false,
     "fiwareIhub": false,
     "companyLink": "https://wellnesstg.com/en/solucion/quamtra-smart-waste-management/",
     "domain": [
       "Cities"
     ],
-    "type": "IOT Device",
-    "technology": [],
+    "type": "IoT Device",
+    "technology": [
+      "Internet of Things",
+      "Open Data",
+      "Data Analytics"
+    ],
     "year": 2017,
-    "content": "Quamtra is an intelligent urban waste collection system that, by sensing and constant monitoring of the filling level of the containers, optimizes routes and improve the costs associated with the collection."
+    "content": "Quamtra is an intelligent urban waste collection system that, by sensing and constant monitoring the filling level of the containers, optimizes routes and improves the costs associated with the collection."
   },
   {
-    "company": "XapiX Inc.",
+    "company": "Wellness TechGroup",
+    "name": "WeLight",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_WellnessTechGroup.svg",
+    "fiwareMember": false,
+    "fiwareIhub": false,
+    "companyLink": "https://wellnesstg.com/en/solucion/welight-smart-lighting/",
+    "domain": [
+      "Cities"
+    ],
+    "type": "IoT Device",
+    "technology": [
+      "Internet of Things",
+      "Open Data",
+      "Data Analytics"
+    ],
+    "year": 2017,
+    "content": "WeLight is a Remote Management System for Public Lighting, which allows the monitoring and control of lighting and the optimisation and management of the maintenance, whilst monitoring consumption and reacting to deviations."
+  },
+  {
+    "company": "XapiX",
     "name": "Xapix",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/FDcpNe2LbF/logo___text.png",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/raster/logo_Xapix.png",
     "fiwareMember": false,
     "fiwareIhub": false,
     "companyLink": "https://www.xapix.io",
@@ -1070,8 +1202,11 @@
       "Cities"
     ],
     "type": "Software enabler",
-    "technology": [],
+    "technology": [
+      "Data Analytics",
+      "Open Data"
+    ],
     "year": 2018,
-    "content": "Using Xapix, developers can leverage open data to prototype smart city solutions easier than ever."
+    "content": "Xapix is significantly faster, more flexible, and more powerful than traditional approaches to data transformation, normalization, and integration, using the power of automation so that IT professionals can use data from hundreds of sources instead of only a few"
   }
 ]

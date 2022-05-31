@@ -1,8 +1,8 @@
 [
   {
     "company": "Atos",
-    "name": "Connected Territories: Boost economic development and citizen quality of life",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/xurxo/NfF8r96ziC/atos-logo.jpg",
+    "name": "Connected Territories",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Atos.svg",
     "fiwareMember": true,
     "fiwareIhub": false,
     "companyLink": "https://atos.net/en/portfolio/boost-economic-development-and-citizen-quality-of-life",
@@ -10,15 +10,17 @@
       "Cities",
       "AgriFood"
     ],
-    "type": "Consultancy, integration & tech support",
-    "technology": [],
+    "type": "Consultancy & integration",
+    "technology": [
+      "Artificial Intelligence"
+    ],
     "year": 2021,
     "content": "Atos, a leading digital services company and one of the founders of the initiative, has acquired deep knowledge of the FIWARE technologies and ecosystem."
   },
   {
     "company": "BallistiX",
-    "name": "BallistiX.digital",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/ballistix/B3KdtoTuLc/ballistix-logo-icoon.png",
+    "name": "BallistiX",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_BallistixDigital.svg",
     "fiwareMember": false,
     "fiwareIhub": false,
     "companyLink": "https://www.ballistix.digital",
@@ -32,15 +34,17 @@
       "Home",
       "Health"
     ],
-    "type": "Consultancy, integration & tech support",
-    "technology": [],
+    "type": "Consultancy & integration",
+    "technology": [
+      "Blockchain"
+    ],
     "year": 2019,
-    "content": "We build proof-of-concepts, prototypes and MVP’s of web-based applications and love working with emerging technologies like blockchain, 3D printing and Artificial Intelligence."
+    "content": "We build proofs-of-concept, prototypes, and MVPs of web-based applications and love working with emerging technologies like blockchain, 3D printing, and Artificial Intelligence."
   },
   {
     "company": "EGM",
     "name": "Design office",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/tbadard/zdagE6wAwK/logo-egm.jpg",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_EGM.svg",
     "fiwareMember": true,
     "fiwareIhub": false,
     "companyLink": "https://www.egm.io/en/engineering-and-integration",
@@ -50,7 +54,7 @@
       "Process Manufacturing",
       "Telecommunication"
     ],
-    "type": "Consultancy &amp; Integration",
+    "type": "Consultancy & Integration",
     "technology": [
       "Internet of Things",
       "Sensory Systems"
@@ -60,8 +64,8 @@
   },
   {
     "company": "eProsima",
-    "name": "eProsima: The Middleware Experts",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/katrink/2Zj48DHdXK/eprosima_logo.png",
+    "name": "eProsima",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Eprosima.svg",
     "fiwareMember": true,
     "fiwareIhub": false,
     "companyLink": "https://www.eprosima.com/",
@@ -76,15 +80,19 @@
       "Health",
       "Content"
     ],
-    "type": "Consultancy, integration & tech support",
-    "technology": [],
+    "type": "Consultancy & integration",
+    "technology": [
+      "Internet of Things",
+      "Robotics",
+      "Data Analytics"
+    ],
     "year": 2021,
-    "content": "Networking middleware solutions for Robotics, IoT and Critical Applications."
+    "content": "eProsima offers networking middleware solutions with special attention to the OMG standard called Data Distribution Service for Robotics, IoT, and Critical Applications."
   },
   {
     "company": "eProsima",
-    "name": "eProsima: The Middleware Experts",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/katrink/5PHPPvsaDk/eprosima_logo.png",
+    "name": "eProsima",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_Eprosima.svg",
     "fiwareMember": true,
     "fiwareIhub": false,
     "companyLink": "https://www.eprosima.com/",
@@ -100,50 +108,17 @@
       "Content"
     ],
     "type": "Training & Coaching",
-    "technology": [],
+    "technology": [
+      "Internet of Things",
+      "Data Analytics"
+    ],
     "year": 2021,
-    "content": "Networking middleware solutions for Robotics, IoT and Critical Applications."
+    "content": "eProsima is an SME company focused on networking middleware with special attention to the OMG (Object Management Group) standard called Data Distribution Service (DDS) for real time systems, IoT and Critical Applications."
   },
   {
-    "company": "FiiHUB Canary Island",
-    "name": "FiiHUB Academy - FIWARE Consultancy Services",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/innovaliafiwareihub/YFTdWbacmW/logo_fiihub__5_.png",
-    "fiwareMember": false,
-    "fiwareIhub": true,
-    "companyLink": "https://fiihub.cidihub.org/",
-    "domain": [
-      "Cities",
-      "AgriFood",
-      "Industry",
-      "Ports"
-    ],
-    "type": "Consultancy, integration & tech support",
-    "technology": [],
-    "year": 2020,
-    "content": "FiiHUB is a reliable provider"
-  },
-  {
-    "company": "FiiHUB Canary Island",
-    "name": "Innovation Project Design through FIWARE",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/innovaliafiwareihub/fzCTrQwDvd/logo_fiihub__5_.png",
-    "fiwareMember": false,
-    "fiwareIhub": true,
-    "companyLink": "https://fiihub.cidihub.org/",
-    "domain": [
-      "Cities",
-      "AgriFood",
-      "Industry",
-      "Ports"
-    ],
-    "type": "Training & Coaching",
-    "technology": [],
-    "year": 2020,
-    "content": "Promoting Innovation Project Design through FIWARE technologies"
-  },
-  {
-    "company": "DIH Faubourg Numérique",
-    "name": "FIWARE ihub",
-    "img": "https://www.fiware.org/wp-content/uploads/56ab13ea3b3f4305e7e62cd3404edd38.png",
+    "company": "Faubourg Numérique",
+    "name": "FIWARE iHub",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_FaubourgNume%CC%81rique.svg",
     "fiwareMember": false,
     "fiwareIhub": true,
     "companyLink": "http://faubourgnumerique.com/index.php/fiware-ihub/",
@@ -153,7 +128,7 @@
       "Industry",
       "Logistics"
     ],
-    "type": "Consultancy &amp; Integration",
+    "type": "Consultancy & Integration",
     "technology": [
       "Data Spaces",
       "Internet of Things",
@@ -164,9 +139,66 @@
     "content": "Based on its mutualized FIWARE Platform (NGSI V2 and NGSI-LD) , Faubourg Numérique supports its customers to design, prototype and implement assets virtualization and associated smart solutions."
   },
   {
+    "company": "FiiHUB Canary Island",
+    "name": "FiiHUB Academy",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Ficodes.svg",
+    "fiwareMember": false,
+    "fiwareIhub": true,
+    "companyLink": "https://fiihub.cidihub.org/",
+    "domain": [
+      "Cities",
+      "AgriFood",
+      "Industry",
+      "Ports"
+    ],
+    "type": "Consultancy & integration",
+    "technology": [
+      "Internet of Things"
+    ],
+    "year": 2020,
+    "content": "FIIHUB is a reliable provider for the creation and execution of the first Digital Innovation Hub of the Internet of the Future for the technological acceleration of SMEs in Macaronesia"
+  },
+  {
+    "company": "Ficodes",
+    "name": "Coaching & Training Services",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_Ficodes.svg",
+    "fiwareMember": false,
+    "fiwareIhub": false,
+    "companyLink": "https://www.ficodes.com",
+    "domain": [
+      "Cities",
+      "AgriFood",
+      "Logistics",
+      "Industry",
+      "Ports"
+    ],
+    "type": "Training & Coaching",
+    "technology": [],
+    "year": 2017,
+    "content": "Ficodes is a startup that was born from a group of UPM research engineers and developers with the deep knowledge of the FIWARE ecosystem can help you to boost your FIWARE's skill"
+  },
+  {
+    "company": "FiiHUB Canary Island",
+    "name": "Innovation Project Design through FIWARE",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_FiiHUB.svg",
+    "fiwareMember": false,
+    "fiwareIhub": true,
+    "companyLink": "https://fiihub.cidihub.org/",
+    "domain": [
+      "Cities",
+      "AgriFood",
+      "Industry",
+      "Ports"
+    ],
+    "type": "Training & Coaching",
+    "technology": [],
+    "year": 2020,
+    "content": "FiiHUB aims to create and execute the first technological reference center for the development of the business and entrepreneurship ecosystem of Macaronesia, linked to the development of intelligent services based on Future Internet technologies and connected to the FIWARE iHub international network."
+  },
+  {
     "company": "FIWARE Innova iHub",
-    "name": "Promoting FIWARE Solutions and Technologies in Italy",
-    "img": "https://www.fiware.org/wp-content/uploads/0f3ed350793841824c30d1841b9c4893.png",
+    "name": "Coaching & Training Services",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_FIWAREInnovaiHub.svg",
     "fiwareMember": false,
     "fiwareIhub": true,
     "companyLink": "https://fiwareinnova.org/en/",
@@ -179,20 +211,14 @@
       "Oil and Gas"
     ],
     "type": "Training & Coaching",
-    "technology": [
-      "Artificial Intelligence",
-      "Big Data",
-      "Data Spaces",
-      "Interaction Technologies",
-      "Internet of Things"
-    ],
+    "technology": [],
     "year": 2017,
     "content": "FIWARE Innova iHub has the challenge to promote entrepreneurship and innovation linked to the development of applications and services, encouraging the potential of the FIWARE solutions to help facilitate the largest possible implementation in Italy."
   },
   {
     "company": "FIWARE Innova iHub",
-    "name": "Promoting FIWARE Solutions and Technologies in Italy",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/mari/bm488BpH3u/1_logo.png",
+    "name": "Consultancy & Integration Services",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_FiiHUB.svg",
     "fiwareMember": false,
     "fiwareIhub": true,
     "companyLink": "https://fiwareinnova.org/en/",
@@ -202,15 +228,17 @@
       "Industry",
       "Retail"
     ],
-    "type": "Consultancy, integration & tech support",
-    "technology": [],
+    "type": "Consultancy & integration",
+    "technology": [
+      "Open Data"
+    ],
     "year": 2020,
     "content": "FIWARE Innova iHub has the challenge to promote entrepreneurship and innovation linked to the development of applications and services, encouraging the potential of the FIWARE solutions to help facilitate the largest possible implementation in Italy."
   },
   {
     "company": "FIWARE Space",
-    "name": "FIWARE Space",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/carmen/CqZ8tSKSrb/fiware_space.png",
+    "name": "Coaching & Training Services",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_FIWARESpace.svg",
     "fiwareMember": false,
     "fiwareIhub": true,
     "companyLink": "https://www.fiware.space",
@@ -222,12 +250,12 @@
     "type": "Training & Coaching",
     "technology": [],
     "year": 2019,
-    "content": "Towards the digitalization of everything around us (Badajoz, Spain)"
+    "content": "FIWARE Space is an innovation center, part of a global project called \"Badajoz Is More\". This project seeks towards the digitalization of everything around us."
   },
   {
     "company": "FIWARE Space",
-    "name": "FIWARE Space",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/carmen/qqTBQT77HN/fiware_space.png",
+    "name": "Consultancy & Integration Services",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_FIWAREInnovaiHub.svg",
     "fiwareMember": false,
     "fiwareIhub": true,
     "companyLink": "https://www.fiware.space/",
@@ -236,15 +264,17 @@
       "AgriFood",
       "Industry"
     ],
-    "type": "Consultancy, integration & tech support",
-    "technology": [],
+    "type": "Consultancy & integration",
+    "technology": [
+      "Data Space?"
+    ],
     "year": 2019,
-    "content": "Towards the digitalization of everything around us (Badajoz, Spain)"
+    "content": "FIWARE Space is part of a global project called \"Badajoz Es Más\" and is created with the aim of promoting talent and entrepreneurship in the Province of Badajoz."
   },
   {
     "company": "FIWARE Zone",
-    "name": "FIWARE Zone",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/fiwarezone/yfm2e9634M/logo-fiware-02.jpg",
+    "name": "Coaching & Training Services",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_FIWAREZone.svg",
     "fiwareMember": false,
     "fiwareIhub": true,
     "companyLink": "http://fiware.zone",
@@ -258,12 +288,12 @@
     "type": "Training & Coaching",
     "technology": [],
     "year": 2019,
-    "content": "Promoting FIWARE Technologies on Andalucía, Spain"
+    "content": "FIWARE Zone, the 3 starts iHub based in the southern region of Spain, Andalucía, works on promoting and spreading FIWARE technology around the region."
   },
   {
     "company": "FIWARE Zone",
-    "name": "FIWARE Zone",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/fiwarezone/KDwbYjXtCM/logo-fiware-02.jpg",
+    "name": "Consultancy & Integration Services",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_FIWARESpace.svg",
     "fiwareMember": false,
     "fiwareIhub": true,
     "companyLink": "http://fiware.zone",
@@ -274,15 +304,18 @@
       "Ports",
       "Health"
     ],
-    "type": "Consultancy, integration & tech support",
-    "technology": [],
+    "type": "Consultancy & integration",
+    "technology": [
+      "Internet of Things",
+      "Big Data and Artificial Intelligence"
+    ],
     "year": 2019,
-    "content": "Promoting FIWARE Technologies on Andalucía, Spain"
+    "content": "FIWARE Zone, the 3 starts iHub based in the southern region of Spain, Andalucía, works on promoting and spreading FIWARE technology around the region."
   },
   {
-    "company": "Future Internet Consulting and Development Solutions S.L.",
-    "name": "FIWARE Consultancy Services",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/ficodes/ficodes-colorido-cuadrado-marketplace.png",
+    "company": "Future Internet",
+    "name": "Consultancy & Integration Services",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_FIWAREZone.svg",
     "fiwareMember": false,
     "fiwareIhub": false,
     "companyLink": "https://www.ficodes.com",
@@ -293,37 +326,21 @@
       "Industry",
       "Ports"
     ],
-    "type": "Consultancy, integration & tech support",
-    "technology": [],
-    "year": 2017,
-    "content": "Ally yourself with the architects and engineers of some of the main FIWARE technologies to develop your own smart solutions"
-  },
-  {
-    "company": "Future Internet Consulting and Development Solutions S.L.",
-    "name": "Coaching and Training services",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/ficodes/ficodes-colorido-cuadrado-marketplace.png",
-    "fiwareMember": false,
-    "fiwareIhub": false,
-    "companyLink": "https://www.ficodes.com",
-    "domain": [
-      "Cities",
-      "AgriFood",
-      "Logistics",
-      "Industry",
-      "Ports"
+    "type": "Consultancy & integration",
+    "technology": [
+      "Internet of Things",
+      "Data handling"
     ],
-    "type": "Training & Coaching",
-    "technology": [],
     "year": 2017,
-    "content": "Our deep knowledge of the FIWARE ecosystem can help you to boost your FIWARE's skills"
+    "content": "Ally yourself with the architects and engineers of some of the main FIWARE technologies to develop services on open platforms for smart environments such as FIWARE."
   },
   {
-    "company": "Hearing Software, S.L.",
-    "name": "FIWARE consultancy and development by HS",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/hearingsoftware/dqE9LKNJ3X/byhs_gris.png",
+    "company": "Hearing Software",
+    "name": "Consultancy & Integration Services",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_byHS.svg",
     "fiwareMember": false,
     "fiwareIhub": false,
-    "companyLink": "https://fiware-developers.eu",
+    "companyLink": "https://byhs.eu/en/fiware/",
     "domain": [
       "Cities",
       "AgriFood",
@@ -333,15 +350,18 @@
       "Retail",
       "Home"
     ],
-    "type": "Consultancy, integration & tech support",
-    "technology": [],
+    "type": "Consultancy & integration",
+    "technology": [
+      "Artificial Intelligence",
+      "Internet of Things"
+    ],
     "year": 2019,
     "content": "We're a team with wide experience in FIWARE projects, both our own and consulting and development for third companies. We've worked with FIWARE since its beginnings in 2012."
   },
   {
     "company": "HOPU",
     "name": "FIWARE Expert certification",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/jara/KQXYnRJX98/logo-hopu_transparente.png",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_Hopu.svg",
     "fiwareMember": true,
     "fiwareIhub": false,
     "companyLink": "https://hopu.eu/en/",
@@ -354,12 +374,12 @@
     "type": "Training & Coaching",
     "technology": [],
     "year": 2021,
-    "content": "8-week training programme for FIWARE expert certification"
+    "content": "FIWARE expert certification is an 8-week training programme organized in 4 blocks. This means an intensive programme of 180 hours; including 60 hours online and 120 hours of individual activities to become a FIWARE Expert!"
   },
   {
     "company": "Martel Innovate",
-    "name": "Martel Lab: Architecture consultancy and integration support",
-    "img": "https://www.fiware.org/wp-content/uploads/364dd880f62e3f27fb2f809f6f566945.png",
+    "name": "Martel Lab",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Martel.svg",
     "fiwareMember": true,
     "fiwareIhub": false,
     "companyLink": "https://www.martel-innovate.com/lab/",
@@ -370,7 +390,7 @@
       "Manufacturing",
       "Sustainability"
     ],
-    "type": "Consultancy, integration & tech support",
+    "type": "Consultancy & integration",
     "technology": [
       "Artificial Intelligence",
       "Cloud Computing",
@@ -379,12 +399,61 @@
       "Service Architectures"
     ],
     "year": 2017,
-    "content": "We are leading experts on production level configuration of FIWARE Data and IoT management services and we can help you to manage your infrastructure for production ready requirements such as: - Security - Resilience - Scalability - Availability"
+    "content": "We are leading experts on production level configuration of FIWARE Data and IoT management services and we can help you to manage your infrastructure for production-ready requirements such as: - Security - Resilience - Scalability - Availability"
+  },
+  {
+    "company": "MNX Online",
+    "name": "Coaching & Training Services",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_MNX.svg",
+    "fiwareMember": true,
+    "fiwareIhub": false,
+    "companyLink": "",
+    "domain": [
+      "Cities",
+      "Consumer Goods / Products",
+      "Education",
+      "Mobility",
+      "Tourism"
+    ],
+    "type": "Training & Coaching",
+    "technology": [
+      "Data Spaces",
+      "Digital Twins",
+      "Mobility and Location",
+      "Software as a Service"
+    ],
+    "year": 2020,
+    "content": "MNX Online is an IT company based in the Canary Islands, Spain. Following our Experts certification in 2020, in addition to participating in FIWARE Foundation initiatives as FIWARE members, since 2021 we have joined the board of examiners for the official FIWARE Experts exams several times."
+  },
+  {
+    "company": "MNX Online",
+    "name": "FIWARE Transition Strategy",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_MNX.svg",
+    "fiwareMember": true,
+    "fiwareIhub": false,
+    "companyLink": "https://www.mnx.com/",
+    "domain": [
+      "Cities",
+      "Energy",
+      "Mobility",
+      "Sustainability",
+      "Tourism"
+    ],
+    "type": "Consultancy & Integration",
+    "technology": [
+      "Data Spaces",
+      "Digital Twins",
+      "Mobility and Location",
+      "Modelling",
+      "Software as a Service"
+    ],
+    "year": 2020,
+    "content": "MNX Online is an IT company based in the Canary Islands, Spain. As FIWARE Certified Experts we are technical advisors for the regional DIH. We have guided companies and entities towards Smart transformation in a wide range of sectors such as tourism, energy, and ports, among others..."
   },
   {
     "company": "Naeva Tec",
     "name": "FIWARE Consultancy",
-    "img": "https://www.fiware.org/wp-content/uploads/bbe6534409518c27cecddc15aaff8f12.png",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_NaevaTec.svg",
     "fiwareMember": true,
     "fiwareIhub": false,
     "companyLink": "https://www.naevatec.com/en/services/consultoria-fiware/",
@@ -395,7 +464,7 @@
       "Government",
       "Telecommunication"
     ],
-    "type": "Consultancy &amp; Integration",
+    "type": "Consultancy & Integration",
     "technology": [
       "Communication Networks",
       "Internet of Things",
@@ -410,7 +479,7 @@
   {
     "company": "Secmotic",
     "name": "IoT Development",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/q7ySeSv76Z/secmotic-transparente-logo-2.png",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Secmotic.svg",
     "fiwareMember": true,
     "fiwareIhub": false,
     "companyLink": "http://secmotic.com",
@@ -424,57 +493,21 @@
       "Home",
       "Health"
     ],
-    "type": "Consultancy, integration & tech support",
-    "technology": [],
-    "year": 2017,
-    "content": "IoT Development from hardware to web/mobile apps FIWARE based"
-  },
-  {
-    "company": "Smart Cities Lab",
-    "name": "Smart Cities Lab",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/rahul/sCesXvzsuB/logo_500px.png",
-    "fiwareMember": true,
-    "fiwareIhub": false,
-    "companyLink": "http://www.smartcitieslab.eu",
-    "domain": [
-      "Cities",
-      "AgriFood"
-    ],
-    "type": "Consultancy, integration & tech support",
-    "technology": [],
-    "year": 2017,
-    "content": "We provide workshops, training, and consultancy on FIWARE technology in the area of Smart Cities and Smart Agriculture."
-  },
-  {
-    "company": "Snap4City",
-    "name": "Snap4City – Consultancy Services",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/nicola.mitolo/KCxrzLgGr4/snap4city-logo-01-colorato.png",
-    "fiwareMember": true,
-    "fiwareIhub": false,
-    "companyLink": "https://www.snap4city.org",
-    "domain": [
-      "Air Quality",
-      "Cities",
-      "Industry",
-      "Manufacturing",
-      "Tourism"
-    ],
-    "type": "Consultancy &amp; Integration",
+    "type": "Consultancy & integration",
     "technology": [
-      "Advanced",
-      "or High Performance Computing",
+      "Internet of Things",
       "Artificial Intelligence",
-      "Big Data",
-      "Data Analytics",
-      "Internet of Things"
+      "Blockchain",
+      "Open Data",
+      "Big Data"
     ],
-    "year": 2021,
-    "content": "Snap4City team provides high valuable and professional services based on our experience in successfully operating in the smart city/industry4.0 integrated solutions market since many years."
+    "year": 2017,
+    "content": "IoT Development from hardware to web/mobile apps FIWARE based\nThe knowledge obtained through the 'IoT' provides us with the basis to improve day-to-day experiences in your business, in your city, and in your life."
   },
   {
     "company": "Snap4City",
-    "name": "Snap4City – Training Services",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/nicola.mitolo/5fbgwussPR/snap4city-logo-01-colorato.svg",
+    "name": "Coaching & Training Services",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_Snap4City.svg",
     "fiwareMember": true,
     "fiwareIhub": false,
     "companyLink": "https://www.snap4city.org",
@@ -487,23 +520,47 @@
     ],
     "type": "Training & Coaching",
     "technology": [
-      "Advanced",
-      "or High Performance Computing",
+      "Advanced or High Performance Computing",
       "Big Data",
       "Data Analytics",
       "Digital Twins",
       "Internet of Things"
     ],
     "year": 2021,
-    "content": "Snap4City team provides high valuable and professional training and consultancy services based on our experience in successfully operating in the smart city/industry4.0 integrated solutions market since many years and on FIWARE integration technologies."
+    "content": "Snap4City team provides highly valuable and professional training and consultancy services based on our experience in successfully operating in the smart city/industry4.0 integrated solutions market for many years and on FIWARE integration technologies."
   },
   {
-    "company": "StoneOne AG",
-    "name": "StoneOne Services",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/charlotte.kotterman/Z9kx4r7q3J/stoneoneag_logo.jpg",
+    "company": "Snap4City",
+    "name": "Consultancy & Integration Services",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Snap4City.svg",
     "fiwareMember": true,
     "fiwareIhub": false,
-    "companyLink": "http://s1iotplatform.stoneone.de/",
+    "companyLink": "https://www.snap4city.org",
+    "domain": [
+      "Air Quality",
+      "Cities",
+      "Industry",
+      "Manufacturing",
+      "Tourism"
+    ],
+    "type": "Consultancy & Integration",
+    "technology": [
+      "Advanced or High Performance Computing",
+      "Artificial Intelligence",
+      "Big Data",
+      "Data Analytics",
+      "Internet of Things"
+    ],
+    "year": 2021,
+    "content": "Snap4City team provides high valuable and professional services based on our experience in successfully operating in the smart city/industry4.0 integrated solutions market since many years."
+  },
+  {
+    "company": "StoneOne",
+    "name": "StoneOne Services",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_StoneOne.svg",
+    "fiwareMember": true,
+    "fiwareIhub": false,
+    "companyLink": "https://stoneone.de/",
     "domain": [
       "Cities",
       "AgriFood",
@@ -515,15 +572,19 @@
       "Health",
       "Content"
     ],
-    "type": "Consultancy, integration & tech support",
-    "technology": [],
+    "type": "Consultancy & integration",
+    "technology": [
+      "Artificial Intelligence",
+      "Quantum Computing",
+      "Internet of Things"
+    ],
     "year": 2020,
-    "content": "StoneOne offers development and consulting for IoT platforms and marketplaces."
+    "content": "StoneOne provides the open and standardized S1 IoT platform including accompanying services and it also offers development and consulting for IoT platforms and marketplaces."
   },
   {
-    "company": "TeamDev s.r.l",
+    "company": "TeamDev",
     "name": "FIWARE Professional Services",
-    "img": "https://www.fiware.org/wp-content/uploads/54cb4bd37ee2f14da3f35e954ffc56e1.pdf",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_TeamDev.svg",
     "fiwareMember": true,
     "fiwareIhub": false,
     "companyLink": "https://www.teamdev.it/en/",
@@ -535,7 +596,7 @@
       "Utilities",
       "Oil and Gas"
     ],
-    "type": "Consultancy &amp; Integration",
+    "type": "Consultancy & Integration",
     "technology": [
       "Artificial Intelligence",
       "Big Data",
@@ -544,72 +605,26 @@
       "Software as a Service"
     ],
     "year": 2014,
-    "content": "TeamDev has a long and solid experience in using the FIWARE ecosystem and we can support other companies who want to start using these technologies."
+    "content": "TeamDev has a long and solid experience in using the FIWARE ecosystem and we can offer support to other companies who want to start using these technologies."
   },
   {
-    "company": "Ubiwhere, Lda.",
+    "company": "Ubiwhere",
     "name": "FIWARE @ UBIWHERE",
-    "img": "https://fundingbox-files.s3-eu-central-1.amazonaws.com/ubiwhere/logo_ubiwhere_full_rgb_blue.png",
+    "img": "https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Ubiwhere.svg",
     "fiwareMember": true,
     "fiwareIhub": false,
-    "companyLink": "http://fiware.ubiwhere.com/",
+    "companyLink": "https://www.ubiwhere.com/?fbclid=IwAR3nqrtayXOde5A7MTe65UX_ZkBYEnMFKpB-kmSZXwDAvU73isxArMPpG5U",
     "domain": [
       "Cities",
       "Logistics",
       "Ports"
     ],
-    "type": "Consultancy, integration & tech support",
-    "technology": [],
+    "type": "Consultancy & integration",
+    "technology": [
+      "Blockchain",
+      "Internet of Things"
+    ],
     "year": 2017,
     "content": "Ubiwhere’s offer includes systems for Smart Parking and Traffic Management, Smart Waste Management, Smart Environmental Monitoring, Smart Vending and Smart Card, along with its City Control Center, which allows for centralised management of the city’s ecosystem."
-  },
-  {
-    "company": "MNX Online",
-    "name": "FIWARE Training & Experts Certification Training",
-    "img": "https://www.fiware.org/wp-content/uploads/85db6410d499a3e3cb3054a9cd0b5b9d.zip",
-    "fiwareMember": true,
-    "fiwareIhub": false,
-    "companyLink": "",
-    "domain": [
-      "Cities",
-      "Consumer Goods / Products",
-      "Education",
-      "Mobility",
-      "Tourism"
-    ],
-    "type": "Training and Coaching",
-    "technology": [
-      "Data Spaces",
-      "Digital Twins",
-      "Mobility and Location",
-      "Software as a Service"
-    ],
-    "year": 2020,
-    "content": "MNX Online is a IT company based in the Canary Islands, Spain. Following our Experts certification in 2020, in addition to participating in FIWARE Foundation initiatives as FIWARE members, since 2021 we have joined the board of examiners for the official FIWARE Experts exams several times."
-  },
-  {
-    "company": "MNX Online",
-    "name": "FIWARE transition strategy",
-    "img": "https://www.fiware.org/wp-content/uploads/3dc81901815f1c93ab839d4cd7d474ca.zip",
-    "fiwareMember": true,
-    "fiwareIhub": false,
-    "companyLink": "",
-    "domain": [
-      "Cities",
-      "Energy",
-      "Mobility",
-      "Sustainability",
-      "Tourism"
-    ],
-    "type": "Consultancy &amp; Integration",
-    "technology": [
-      "Data Spaces",
-      "Digital Twins",
-      "Mobility and Location",
-      "Modelling",
-      "Software as a Service"
-    ],
-    "year": 2020,
-    "content": "MNX Online is a IT company based in the Canary Islands, Spain. As FIWARE Certified Experts we are technical advisors for the regional DIH. We have guided companies and entities towards Smart transformation in a wide range of sectors such as tourism, energy, ports, among others..."
   }
 ]
