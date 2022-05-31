@@ -210,7 +210,7 @@ var pageData = [
     companyLink: 'https://www.bosonit.com',
     domain: ['AgriFood', 'Cities', 'Industry'],
     type: 'Solution',
-    technology: ['Internet of Things', 'Data Analycs'],
+    technology: ['Internet of Things', 'Data Analytics'],
     year: 2020,
     content:
       'Elliot Cloud is an Internet of Everything platform designed to monitor, analyze and manage heterogeneous sources of data (agrofood, smart cities, industry, etc.)'
@@ -225,7 +225,7 @@ var pageData = [
     companyLink: 'http://www.breeze-technologies.de',
     domain: ['Cities'],
     type: 'Solution',
-    technology: ['Internetof Things', 'Data Analytics', 'Sensory System'],
+    technology: ['Internet of Things', 'Data Analytics', 'Sensory Systems'],
     year: 2019,
     content:
       'Breeze Technologies enables cities and corporates to create a more liveable environment by providing actionable insights based on environmental sensor data.'
@@ -332,7 +332,7 @@ var pageData = [
     companyLink: 'http://www.communithings.com/',
     domain: ['Cities'],
     type: 'Solution',
-    technology: ['Internet of Things', 'Data Analytics.'],
+    technology: ['Internet of Things', 'Data Analytics'],
     year: 2017,
     content:
       'Stop-buy is a smart parking solution favoring rapid rotation of vehicles and stimulation of local commerce. It guides users to the nearest parking and optimizes operational efficiencies for parking managers.'
@@ -347,7 +347,7 @@ var pageData = [
     companyLink: 'http://connect-robotics.com',
     domain: ['Cities', 'Logistics', 'Industry', 'Retail'],
     type: 'Solution',
-    technology: ['Internet of Things', 'Data Analytics.'],
+    technology: ['Internet of Things', 'Data Analytics'],
     year: 2017,
     content:
       'Drone delivery as a Service, for a logistic operator to easily start using drones for transport between their own distribution sites or to end consumers.'
@@ -362,7 +362,7 @@ var pageData = [
     companyLink: 'https://outbarriers.com',
     domain: ['Cities'],
     type: 'Solution',
-    technology: ['Internet of Things', 'Sensory System.'],
+    technology: ['Internet of Things', 'Sensory Systems'],
     year: 2018,
     content:
       'We make businesses visible for everyone, including blind people, thanks to our accessible beacon solution. Today Outbarriers is a reality with an objective to make this world a better place for all of us. A world where the cities are adapted for their citizens and not vice versa.'
@@ -377,7 +377,7 @@ var pageData = [
     companyLink: 'https://www.dksr.city/en/home-ii/',
     domain: ['Smart Cities'],
     type: 'Platform',
-    technology: ['Data Analytcis', 'Open Data', 'Cloud Computing'],
+    technology: ['Data Analytics', 'Open Data', 'Cloud Computing'],
     year: 2022,
     content:
       'With the DKSR Open Urban Data Platform (OUP), we offer to make digital solutions transferable, scalable, and easily applicable for every municipality.'
@@ -494,7 +494,7 @@ var pageData = [
     companyLink: 'http://www.everimpact.org',
     domain: ['Cities'],
     type: 'Solution',
-    technology: ['Internet of Things', 'Sensory System', 'Data Analytics'],
+    technology: ['Internet of Things', 'Sensory Systems', 'Data Analytics'],
     year: 2017,
     content:
       'Everimpact measures and monetizes Cities’ CO2 emissions by combining satellites and ground sensors’ data. Cities get a real-time map of their emissions at street and building level, at a precision never reached before.'
@@ -707,7 +707,7 @@ var pageData = [
       'Content'
     ],
     type: 'Platform',
-    technology: ['Internet of Thing'],
+    technology: ['Internet of Things'],
     year: 2021,
     content: 'A microservice platform based on FIWARE'
   },
@@ -880,7 +880,7 @@ var pageData = [
       'https://es.nec.com/es_ES/solutions_services/smartcity/en/solution/index.html',
     domain: ['Smart Cities'],
     type: 'Platform',
-    technology: ['Cloud Computing', 'Interne of Things', 'Open Data'],
+    technology: ['Cloud Computing', 'Internet of Things', 'Open Data'],
     year: 2019,
     content:
       'CCOC is a horizontal platform that provides a holistic view of the supplier’s services, thus allowing for a centralized and efficient management point.'
@@ -1033,7 +1033,7 @@ var pageData = [
     companyLink: 'https://www.pycno.co',
     domain: ['AgriFood'],
     type: 'Solution',
-    technology: ['Articial Intelligence', 'Data Analytics'],
+    technology: ['Artificial Intelligence', 'Data Analytics'],
     year: 2018,
     content:
       'Pycno solution is easy to use, offers professional ambient, and has soil sensors. Data visualization, crop analytics, and predictions are aggregated in one platform.'
@@ -1145,7 +1145,7 @@ var pageData = [
     companyLink: 'https://maturix.com',
     domain: ['Industry'],
     type: 'Solution',
-    technology: ['Internet of things', 'Sensory System', 'Data Analytics'],
+    technology: ['Internet of Things', 'Sensory Systems', 'Data Analytics'],
     year: 2018,
     content:
       'Maturix is an end-2-end solution that enables easy and affordable monitoring of concrete curing in real-time – all shown in this user-friendly software solution.'
@@ -1557,8 +1557,8 @@ var pageData = [
     domain: ['Cities', 'Home'],
     type: 'Solution',
     technology: [
-      'Sensory System',
-      'Clould Computing',
+      'Sensory Systems',
+      'Cloud Computing',
       'Data Analytics',
       'Internet of Things'
     ],
@@ -1576,7 +1576,7 @@ var pageData = [
     companyLink: 'https://tracelabs.io/',
     domain: ['Logistics'],
     type: 'Solution',
-    technology: ['Interne of Things', 'Data Analytics'],
+    technology: ['Internet of Things', 'Data Analytics'],
     year: 2017,
     content:
       'Trace Labs is the core developer of the OriginTrail Decentralized Knowledge Graph – a set of tools and protocols designed to bring billions of assets to Web3, leveraging blockchain technology.'
@@ -1591,7 +1591,7 @@ var pageData = [
     companyLink: 'http://tsenso.com',
     domain: ['AgriFood'],
     type: 'Solution',
-    technology: ['Sensory System', 'Data Analytics', 'Internet of Things'],
+    technology: ['Sensory Systems', 'Data Analytics', 'Internet of Things'],
     year: 2018,
     content:
       'We call it the “Fresh Index”, the new real-time shelf-life indicator for food. You will learn how long this shelf-life exactly is – depending on the temperatures at which the product was stored and transported along the entire supply chain.'
@@ -1697,8 +1697,8 @@ var pageData = [
     domain: ['Cities', 'Industry'],
     type: 'Solution',
     technology: [
-      'Inteernet of Things',
-      'Data analytics',
+      'Internet of Things',
+      'Data Analytics',
       'Artificial Intelligence'
     ],
     year: 2018,

@@ -231,7 +231,7 @@ var pageData = [
     companyLink: 'https://www.fiware.space/',
     domain: ['Cities', 'AgriFood', 'Industry'],
     type: 'Consultancy & integration',
-    technology: ['Data Space?'],
+    technology: ['Data Spaces'],
     year: 2019,
     content:
       'FIWARE Space is part of a global project called "Badajoz Es Más" and is created with the aim of promoting talent and entrepreneurship in the Province of Badajoz.'
@@ -261,7 +261,7 @@ var pageData = [
     companyLink: 'http://fiware.zone',
     domain: ['Cities', 'AgriFood', 'Industry', 'Ports', 'Health'],
     type: 'Consultancy & integration',
-    technology: ['Internet of Things', 'Big Data and Artificial Intelligence'],
+    technology: ['Internet of Things', 'Big Data', 'Artificial Intelligence'],
     year: 2019,
     content:
       'FIWARE Zone, the 3 starts iHub based in the southern region of Spain, Andalucía, works on promoting and spreading FIWARE technology around the region.'
@@ -276,7 +276,7 @@ var pageData = [
     companyLink: 'https://www.ficodes.com',
     domain: ['Cities', 'AgriFood', 'Logistics', 'Industry', 'Ports'],
     type: 'Consultancy & integration',
-    technology: ['Internet of Things', 'Data handling'],
+    technology: ['Internet of Things', 'Data Handling'],
     year: 2017,
     content:
       'Ally yourself with the architects and engineers of some of the main FIWARE technologies to develop services on open platforms for smart environments such as FIWARE.'
