@@ -125,21 +125,6 @@ var pageData = [
       'Based on its mutualized FIWARE Platform (NGSI V2 and NGSI-LD) , Faubourg Numérique supports its customers to design, prototype and implement assets virtualization and associated smart solutions.'
   },
   {
-    company: 'FiiHUB Canary Island',
-    name: 'FiiHUB Academy',
-    img:
-      'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Ficodes.svg',
-    fiwareMember: false,
-    fiwareIhub: true,
-    companyLink: 'https://fiihub.cidihub.org/',
-    domain: ['Cities', 'AgriFood', 'Industry', 'Ports'],
-    type: 'Consultancy & Integration',
-    technology: ['Internet of Things'],
-    year: 2020,
-    content:
-      'FIIHUB is a reliable provider for the creation and execution of the first Digital Innovation Hub of the Internet of the Future for the technological acceleration of SMEs in Macaronesia'
-  },
-  {
     company: 'Ficodes',
     name: 'Coaching & Training Services',
     img:
@@ -153,6 +138,21 @@ var pageData = [
     year: 2017,
     content:
       "Ficodes is a startup that was born from a group of UPM research engineers and developers with the deep knowledge of the FIWARE ecosystem can help you to boost your FIWARE's skill"
+  },
+  {
+    company: 'FiiHUB Canary Island',
+    name: 'FiiHUB Academy',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Ficodes.svg',
+    fiwareMember: false,
+    fiwareIhub: true,
+    companyLink: 'https://fiihub.cidihub.org/',
+    domain: ['Cities', 'AgriFood', 'Industry', 'Ports'],
+    type: 'Consultancy & Integration',
+    technology: ['Internet of Things'],
+    year: 2020,
+    content:
+      'FIIHUB is a reliable provider for the creation and execution of the first Digital Innovation Hub of the Internet of the Future for the technological acceleration of SMEs in Macaronesia'
   },
   {
     company: 'FiiHUB Canary Island',

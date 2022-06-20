@@ -433,7 +433,7 @@ var pageData = [
       'EGM offers a complete solution for determining the amount of water that can be saved on a green space and deploying the control solution in addition to an existing watering system to achieve the water savings in question. Our solution saved 35% of the water on the first deployment.'
   },
   {
-    company: 'Elmitel',
+    company: 'Elmibit',
     name: 'eVineyard',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_eVineyard.svg',
@@ -1311,21 +1311,6 @@ var pageData = [
     company: 'TeamDev',
     name: 'WiseTown',
     img:
-      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_WiseTown.svg',
-    fiwareMember: true,
-    fiwareIhub: false,
-    companyLink: 'http://wise.town/',
-    domain: ['Cities'],
-    type: 'Solution',
-    technology: ['Open Data', 'Internet of Things', 'Data Analytics'],
-    year: 2018,
-    content:
-      "WiseTown uses crowd-sourcing,  open data, IoT and social to provide decision support systems to city managers and to improve citizens' quality of life."
-  },
-  {
-    company: 'TeamDev',
-    name: 'WiseTown',
-    img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_WiseTown.svg',
     fiwareMember: true,
     fiwareIhub: false,
@@ -1349,6 +1334,21 @@ var pageData = [
     year: 2014,
     content:
       'WiseTown is a digital system for the city fully scalable, modular, designed to allow full integration with the city administration’s existing systems, third party solutions, IoT applications and external data sources. WiseTown is the engine that collects the city’s data and makes it available.'
+  },
+  {
+    company: 'TeamDev',
+    name: 'WiseTown',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_WiseTown.svg',
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink: 'http://wise.town/',
+    domain: ['Cities'],
+    type: 'Solution',
+    technology: ['Open Data', 'Internet of Things', 'Data Analytics'],
+    year: 2018,
+    content:
+      "WiseTown uses crowd-sourcing,  open data, IoT and social to provide decision support systems to city managers and to improve citizens' quality of life."
   },
   {
     company: 'TeamDev',
