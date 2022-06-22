@@ -1337,21 +1337,6 @@ var pageData = [
   },
   {
     company: 'TeamDev',
-    name: 'WiseTown',
-    img:
-      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_WiseTown.svg',
-    fiwareMember: true,
-    fiwareIhub: false,
-    companyLink: 'http://wise.town/',
-    domain: ['Cities'],
-    type: 'Solution',
-    technology: ['Open Data', 'Internet of Things', 'Data Analytics'],
-    year: 2018,
-    content:
-      "WiseTown uses crowd-sourcing,  open data, IoT and social to provide decision support systems to city managers and to improve citizens' quality of life."
-  },
-  {
-    company: 'TeamDev',
     name: 'WiseTown Crowd Planning',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_WiseTown.svg',
@@ -1412,7 +1397,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_WiseTown.svg',
     fiwareMember: true,
     fiwareIhub: false,
-    companyLink: 'https://wise.town/en/cities/issue-manager/',
+    companyLink: 'https://wise.town/en/cities/citizen-alert-system/',
     domain: ['Cities', 'Government', 'Mobility', 'Utilities', 'Oil and Gas'],
     type: 'Solution',
     technology: [

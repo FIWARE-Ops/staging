@@ -189,22 +189,22 @@ var pageData = [
     technology: [],
     year: 2017,
     content:
-      'FIWARE Innova iHub has the challenge to promote entrepreneurship and innovation linked to the development of applications and services, encouraging the potential of the FIWARE solutions to help facilitate the largest possible implementation in Italy.'
+      'FIWARE Innova iHub, the first and only FIWARE iHub in Italy, carries out training and mentoring activities, as well as supports the development of solutions based on FIWARE technology. It guides SMEs, research institutions, and public administrations in their innovation paths.'
   },
   {
     company: 'FIWARE Innova iHub',
     name: 'Consultancy & Integration Services',
     img:
-      'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_FiiHUB.svg',
+      'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_FIWAREInnovaiHub.svg',
     fiwareMember: false,
     fiwareIhub: true,
     companyLink: 'https://fiwareinnova.org/en/',
     domain: ['Cities', 'AgriFood', 'Industry', 'Retail'],
     type: 'Consultancy & Integration',
     technology: ['Open Data'],
-    year: 2020,
+    year: 2017,
     content:
-      'FIWARE Innova iHub has the challenge to promote entrepreneurship and innovation linked to the development of applications and services, encouraging the potential of the FIWARE solutions to help facilitate the largest possible implementation in Italy.'
+      'FIWARE Innova iHub is a Digital Innovation Hub based in Italy, which aims to enhance technologies within its regional ecosystem of partners. It provides support for research projects and consulting to develop innovative solutions for cities, agrifood, industry and utilities.'
   },
   {
     company: 'FIWARE Space',
@@ -225,7 +225,7 @@ var pageData = [
     company: 'FIWARE Space',
     name: 'Consultancy & Integration Services',
     img:
-      'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_FIWAREInnovaiHub.svg',
+      'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_FIWARESpace.svg',
     fiwareMember: false,
     fiwareIhub: true,
     companyLink: 'https://www.fiware.space/',
@@ -542,7 +542,7 @@ var pageData = [
     ],
     year: 2014,
     content:
-      'TeamDev has a long and solid experience in using the FIWARE ecosystem and we can offer support to other companies who want to start using these technologies.'
+      'TeamDev is an Italian leading innovation company and FIWARE gold member. Thanks to its wide range of skills, TeamDev develops deep tech solutions for the smart city and smart manufacturing domains in several countries around the world.'
   },
   {
     company: 'Ubiwhere',
