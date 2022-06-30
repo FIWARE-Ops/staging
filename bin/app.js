@@ -58,10 +58,6 @@ csv()
         obj.year = parseInt(item['Year of validation']);
         obj.content = item['Excerpt'].replace(regEx, replaceMask).trim();
 
-        if (obj.name === 'KNOWAGE') {
-          console.log(item['FIWARE-Ready']);
-        }
-
         if (item['FIWARE-Ready'] === 'Powered by FIWARE') {
           poweredBy.push(obj);
         } else if (item['FIWARE-Ready'] === 'NGSI Ready Devices') {
