@@ -79,7 +79,7 @@ csv()
     // Products
 
     fs.writeFile(
-      'poweredbyFiware/pageData.js',
+      'powered-by-fiware/pageData.js',
       'var pageData = ' + JSON.stringify(poweredBy, null, 2) + ';',
       function(err) {
         if (err) return console.log(err);
@@ -88,7 +88,7 @@ csv()
 
     // Devices
     fs.writeFile(
-      'fiwareready/pageData.js',
+      'ngsi-ready/pageData.js',
       'var pageData = ' + JSON.stringify(ready, null, 2) + ';',
       function(err) {
         if (err) return console.log(err);
