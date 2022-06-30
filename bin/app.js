@@ -55,23 +55,23 @@ csv()
         obj.domain = item['Domains'];
         obj.type = item['Type of Product'];
         obj.technology = item['Technologies'];
-        obj.year = parseInt(item['Year of validation']);
+        obj.year = parseInt(item['Certified in']);
         obj.content = item['Excerpt'].replace(regEx, replaceMask).trim();
 
-        if (item['FIWARE-Ready'] === 'Powered by FIWARE') {
+        if (item['Category'] === 'Powered by FIWARE') {
           poweredBy.push(obj);
-        } else if (item['FIWARE-Ready'] === 'NGSI Ready Devices') {
+        } else if (item['Category'] === 'NGSI Ready Devices') {
           ready.push(obj);
-        } else if (item['FIWARE-Ready'] === 'FIWARE-Ready') {
+        } else if (item['Category'] === 'FIWARE-Ready') {
           ready.push(obj);
-        } else if (item['FIWARE-Ready'] === 'Services') {
+        } else if (item['Category'] === 'Services') {
           service.push(obj);
-        } else if (item['FIWARE-Ready'] === 'Support Services') {
+        } else if (item['Category'] === 'Support Services') {
           service.push(obj);
-        } else if (item['FIWARE-Ready'] === 'Cities4Cities') {
+        } else if (item['Category'] === 'Cities4Cities') {
           cities.push(obj);
         } else {
-          console.log(item['FIWARE-Ready']);
+          console.log(item['Category']);
         }
       }
     });
