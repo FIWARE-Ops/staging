@@ -54,353 +54,6 @@ var pageData = [
       '[ui!] UrbanPulse is an open central data platform for urban data in real-time - based on a highly scalable architecture for data processing and analysis, with a special connector framework for the integration of sensors, urban management systems and Visualization of complex data with tiles and maps.'
   },
   {
-    company: 'Atos',
-    name: 'Urban Data Platform',
-    img:
-      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Atos.svg',
-    fiwareMember: true,
-    fiwareIhub: false,
-    companyLink:
-      'https://atos.net/en/lp/urban-data-platforms/introducing-the-urban-data-platform',
-    domain: ['Air Quality', 'Agriculture', 'Cities', 'Energy', 'Mobility'],
-    type: 'Platform',
-    technology: [
-      'Artificial Intelligence',
-      'Data Spaces',
-      'Digital Twins',
-      'Internet of Things',
-      'Mobility and Location'
-    ],
-    year: 2019,
-    content:
-      'UDP is the open, secure, and interoperable Atos standard data platform that allows the integration and collection of information from data sources, and the standardization and processing of that information to provide aggregated and intelligent views of raw data to facilitate decision-making.'
-  },
-  {
-    company: 'DKSR',
-    name: 'Open Urban Data Platform',
-    img:
-      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_DKSR.svg',
-    fiwareMember: true,
-    fiwareIhub: false,
-    companyLink: 'https://www.dksr.city/en/home-ii/',
-    domain: ['Smart Cities'],
-    type: 'Platform',
-    technology: ['Data Analytics', 'Open Data', 'Cloud Computing'],
-    year: 2022,
-    content:
-      'With the DKSR Open Urban Data Platform (OUP), we offer to make digital solutions transferable, scalable, and easily applicable for every municipality.'
-  },
-  {
-    company: 'Engineering',
-    name: 'Digital Enabler',
-    img:
-      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_DigitalEnabler.svg',
-    fiwareMember: true,
-    fiwareIhub: false,
-    companyLink:
-      'https://www.eng.it/en/our-platforms-solutions/digital-enabler',
-    domain: ['Cities'],
-    type: 'Platform',
-    technology: ['Data Analytics', 'Open Data', 'Cloud Computing'],
-    year: 2018,
-    content:
-      'Digital Enabler TM is the Engineering’s ecosystem platform supporting the entire value chain of data, from the discovery to the analysis, harmonization, and visualization.'
-  },
-  {
-    company: 'FIWOO',
-    name: 'FIWOO',
-    img:
-      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_FIWOO.svg',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'http://www.fiwoo.eu',
-    domain: ['Agriculture', 'Cities', 'Industry', 'Mobility', 'Tourism'],
-    type: 'Platform',
-    technology: [
-      'Artificial Intelligence',
-      'Big Data',
-      'Cloud Computing',
-      'Internet of Things',
-      'Open Data'
-    ],
-    year: 2018,
-    content:
-      'FIWOO is an IoT-Editor platform, which allows users to create any entity without the need for computer knowledge. Everything can be created without a single line of code.\n\nAny user can create their panels, connect their devices, and generate smart rules through a simple graphic interface.'
-  },
-  {
-    company: 'Helix',
-    name: 'Helix',
-    img:
-      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/raster/logo_Helix.png',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://gethelix.org',
-    domain: [
-      'Cities',
-      'AgriFood',
-      'Logistics',
-      'Industry',
-      'Ports',
-      'Retail',
-      'Home',
-      'Health',
-      'Content'
-    ],
-    type: 'Platform',
-    technology: ['Internet of Things'],
-    year: 2021,
-    content: 'A microservice platform based on FIWARE'
-  },
-  {
-    company: 'Martel Innovate',
-    name: 'Orchestra Cities',
-    img:
-      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_OrchestraCities.svg',
-    fiwareMember: true,
-    fiwareIhub: false,
-    companyLink: 'https://www.orchestracities.com',
-    domain: ['Air Quality', 'Cities', 'Energy', 'Lighting', 'Mobility'],
-    type: 'Platform',
-    technology: [
-      'Artificial Intelligence',
-      'Big Data',
-      'Data Analytics',
-      'Data Spaces',
-      'Internet of Things'
-    ],
-    year: 2017,
-    content:
-      'To answer the need for a flexible data-management platform for smart cities, Martel developed Orchestra Cities, an integrated platform based on FIWARE and other cutting edge Open Source solutions that allow to bring in a single place all the vertical data silos of cities'
-  },
-  {
-    company: 'NEC',
-    name: 'Cloud City Operations Center',
-    img:
-      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_NEC.svg',
-    fiwareMember: true,
-    fiwareIhub: false,
-    companyLink:
-      'https://es.nec.com/es_ES/solutions_services/smartcity/en/solution/index.html',
-    domain: ['Smart Cities'],
-    type: 'Platform',
-    technology: ['Cloud Computing', 'Internet of Things', 'Open Data'],
-    year: 2019,
-    content:
-      'CCOC is a horizontal platform that provides a holistic view of the supplier’s services, thus allowing for a centralized and efficient management point.'
-  },
-  {
-    company: 'Netzlink',
-    name: 'Flink Node',
-    img:
-      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Netzlink.svg',
-    fiwareMember: true,
-    fiwareIhub: false,
-    companyLink: 'https://www.flink-node.de/',
-    domain: ['Smart Industry'],
-    type: 'Platform',
-    technology: ['Industrial Technology', 'Internet of Things', 'Big Data'],
-    year: 2017,
-    content: 'We provide the FIWARE platform with all Generic Enablers'
-  },
-  {
-    company: 'OpenMove',
-    name: 'OpenMove',
-    img:
-      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_OpenMove.svg',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://openmove.com',
-    domain: ['Mobility', 'Transport'],
-    type: 'Platform',
-    technology: [
-      'Data Spaces',
-      'Mobility and Location',
-      'Open Data',
-      'Software as a Service'
-    ],
-    year: 2014,
-    content:
-      'OpenMove is a software platform for smart mobility that features transport ticketing, on-demand transport in real-time, intermodal journey planning and MaaS (Mobility-as-a-Service) integration.\n\nThe company is active in EU + USA + Middle East and serves 10M+ yearly passengers / 50M€+ tickets sold.'
-  },
-  {
-    company: 'Sensative',
-    name: 'Yggio Platform',
-    img:
-      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Yggio.svg',
-    fiwareMember: true,
-    fiwareIhub: false,
-    companyLink: 'https://sensative.com/yggio/',
-    domain: [
-      'Agriculture',
-      'Cities',
-      'Construction and Building',
-      'Energy',
-      'Water'
-    ],
-    type: 'Platform',
-    technology: [
-      'Artificial Intelligence',
-      'Communication Networks',
-      'Data Handling',
-      'Digital Twins',
-      'Internet of Things'
-    ],
-    year: 2019,
-    content:
-      'Yggio open digitalization platform provides integration of any IoT sensor or IT technology, contextualized and normalized data, unified IoT infrastructure management, data ownership and control, scalability for massive IoT, and a standardized API, making IoT services vendor and technology neutral.'
-  },
-  {
-    company: 'Sirus NV',
-    name: 'Sirus City Store',
-    img:
-      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Sirus.svg',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://sirus.be/smart-cities/',
-    domain: ['Cities', 'Green Deal', 'Mobility', 'Water', 'Weather'],
-    type: 'Platform',
-    technology: [
-      'Data Spaces',
-      'Digital Twins',
-      'Internet of Things',
-      'Open Data',
-      'Software as a Service'
-    ],
-    year: 2020,
-    content:
-      'The Sirus Smart City store helps cities harmonize all the data gathered by different sensors and platforms in the city. The data is delivered in a non-standard to Citizens, Government, Companies, and Research institutes. This allows cities to collaborate with parties to create innovative solutions'
-  },
-  {
-    company: 'Snap4City',
-    name: 'Snap4City',
-    img:
-      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Snap4City.svg',
-    fiwareMember: true,
-    fiwareIhub: false,
-    companyLink: 'https://www.snap4city.org',
-    domain: ['Air Quality', 'Cities', 'Industry', 'Mobility', 'Tourism'],
-    type: 'Platform',
-    technology: [
-      'Advanced or High Performance Computing',
-      'Artificial Intelligence',
-      'Data Analytics',
-      'Digital Twins',
-      'Software as a Service'
-    ],
-    year: 2021,
-    content:
-      'Scalable Smart aNalytic APplication Builder for Sentient Cities, the platform proving flexible a method and solution to quickly create a large range of smart city applications exploiting heterogeneous data and enabling services for stakeholders by IOT/IOE, data analytics and big data technologies.'
-  },
-  {
-    company: 'StoneOne',
-    name: 'SmartOrchestra',
-    img:
-      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_StoneOne.svg',
-    fiwareMember: true,
-    fiwareIhub: false,
-    companyLink: 'http://smartorchestra.de',
-    domain: ['Cities'],
-    type: 'Platform',
-    technology: ['Internet of Things', 'Cyber Physical Systems'],
-    year: 2018,
-    content:
-      'Smart Service Platform for the safe internet-based integration, orchestration ,and effective marketing of cyber-physical applications (smart devices).'
-  },
-  {
-    company: 'TeamDev',
-    name: 'WiseTown',
-    img:
-      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_WiseTown.svg',
-    fiwareMember: true,
-    fiwareIhub: false,
-    companyLink: 'https://wise.town/en/',
-    domain: [
-      'Cities',
-      'Government',
-      'Mobility',
-      'Security',
-      'Utilities',
-      'Oil and Gas'
-    ],
-    type: 'Platform',
-    technology: [
-      'Artificial Intelligence',
-      'Big Data',
-      'Cloud Computing',
-      'Data Analytics',
-      'Internet of Things'
-    ],
-    year: 2014,
-    content:
-      'WiseTown is a digital system for the city fully scalable, modular, designed to allow full integration with the city administration’s existing systems, third party solutions, IoT applications and external data sources. WiseTown is the engine that collects the city’s data and makes it available.'
-  },
-  {
-    company: 'Telefónica',
-    name: 'Thinking Cities',
-    img:
-      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Telefonica.svg',
-    fiwareMember: true,
-    fiwareIhub: false,
-    companyLink: 'https://thinking-cities.readthedocs.io/en/latest/index.html',
-    domain: ['Agriculture', 'Cities', 'Government', 'Industry', 'Tourism'],
-    type: 'Platform',
-    technology: [
-      'Artificial Intelligence',
-      'Big Data',
-      'Data Analytics',
-      'Data Handling',
-      'Internet of Things'
-    ],
-    year: 2016,
-    content:
-      'The Thinking Cities platform is an integral solution to support City services. It includes a series of modules that allow the acquisition, processing, storage, and distribution of data, on which several City Services, vertical IoT solutions, and Data Analytics can be implemented easily.'
-  },
-  {
-    company: 'Telenet Group',
-    name: 'Telenet Tinx',
-    img:
-      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Telenet.svg',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://investors.telenet.be/',
-    domain: ['Cities'],
-    type: 'Platform',
-    technology: ['Internet of Things', 'Open Data', 'Data Analytics'],
-    year: 2019,
-    content:
-      'Telenet Tinx is a device and data management platform for smart cities.\nIt relies on the Microsoft Azure Services to provide the capability of connecting any IoT Devices at a large scale and managing huge incoming amounts of data with the required guarantee of reliability and availability for cities'
-  },
-  {
-    company: 'Ubiwhere',
-    name: 'Urban Platform',
-    img:
-      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Ubiwhere.svg',
-    fiwareMember: true,
-    fiwareIhub: false,
-    companyLink: 'https://urbanplatform.city/',
-    domain: ['Cities'],
-    type: 'Platform',
-    technology: ['Internet of Things', 'Open Data', 'Data Analytics'],
-    year: 2018,
-    content:
-      'Our Urban Platform allows data collection from multiple domains and provides city managers and decision-makers with a holistic view of their cities, presenting cross-domain data in a unified way.'
-  },
-  {
-    company: 'VM9',
-    name: 'We4City',
-    img:
-      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Vm9.svg',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://we4city.com/',
-    domain: ['Cities'],
-    type: 'Platform',
-    technology: ['Internet of Things', 'Open Data', 'Data Analytics'],
-    year: 2019,
-    content:
-      'We4City is a technology solutions platform for Smart Cities, based on open standards and artificial intelligence, which provides integrated support for the Internet of Things (IoT), Real-Time Cameras, Geographic Information Systems, Virtual Assistants, Big Data and Open Data, among others.'
-  },
-  {
     company: 'Absolute Zero',
     name: 'Thor',
     img:
@@ -489,6 +142,28 @@ var pageData = [
     year: 2019,
     content:
       'MASAI is an efficient data integration software for manufacturing systems allowing to collect data from a variety of IoT Devices in the manufacturing domain (Industry 4.0), that is not entirely covered by existing proprietary solutions.'
+  },
+  {
+    company: 'Atos',
+    name: 'Urban Data Platform',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Atos.svg',
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink:
+      'https://atos.net/en/lp/urban-data-platforms/introducing-the-urban-data-platform',
+    domain: ['Air Quality', 'Agriculture', 'Cities', 'Energy', 'Mobility'],
+    type: 'Platform',
+    technology: [
+      'Artificial Intelligence',
+      'Data Spaces',
+      'Digital Twins',
+      'Internet of Things',
+      'Mobility and Location'
+    ],
+    year: 2019,
+    content:
+      'UDP is the open, secure, and interoperable Atos standard data platform that allows the integration and collection of information from data sources, and the standardization and processing of that information to provide aggregated and intelligent views of raw data to facilitate decision-making.'
   },
   {
     company: 'Bettair Cities',
@@ -693,6 +368,21 @@ var pageData = [
       'We make businesses visible for everyone, including blind people, thanks to our accessible beacon solution. Today Outbarriers is a reality with an objective to make this world a better place for all of us. A world where the cities are adapted for their citizens and not vice versa.'
   },
   {
+    company: 'DKSR',
+    name: 'Open Urban Data Platform',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_DKSR.svg',
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink: 'https://www.dksr.city/en/home-ii/',
+    domain: ['Smart Cities'],
+    type: 'Platform',
+    technology: ['Data Analytics', 'Open Data', 'Cloud Computing'],
+    year: 2022,
+    content:
+      'With the DKSR Open Urban Data Platform (OUP), we offer to make digital solutions transferable, scalable, and easily applicable for every municipality.'
+  },
+  {
     company: 'EGM',
     name: 'Carpool parking',
     img:
@@ -762,6 +452,22 @@ var pageData = [
     year: 2017,
     content:
       'eVineyard is an intuitive and easy-to-use vineyard management software that helps you grow better quality grapes more sustainably. Manage your vineyards smarter and get more time for vineyard activities rather than paperwork.'
+  },
+  {
+    company: 'Engineering',
+    name: 'Digital Enabler',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_DigitalEnabler.svg',
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink:
+      'https://www.eng.it/en/our-platforms-solutions/digital-enabler',
+    domain: ['Cities'],
+    type: 'Platform',
+    technology: ['Data Analytics', 'Open Data', 'Cloud Computing'],
+    year: 2018,
+    content:
+      'Digital Enabler TM is the Engineering’s ecosystem platform supporting the entire value chain of data, from the discovery to the analysis, harmonization, and visualization.'
   },
   {
     company: 'Engineering DSS',
@@ -842,6 +548,27 @@ var pageData = [
     year: 2022,
     content:
       'ouranos-ws is an easy-to-use solution to enable the NGSI-LD superpowers, with the strategic goal to manage your virtualized assets as digital twins. It allows you to DESIGN your specific data models, NAVIGATE through your graphs of entities and CONTROL the interactions with the other systems.'
+  },
+  {
+    company: 'FIWOO',
+    name: 'FIWOO',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_FIWOO.svg',
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: 'http://www.fiwoo.eu',
+    domain: ['Agriculture', 'Cities', 'Industry', 'Mobility', 'Tourism'],
+    type: 'Platform',
+    technology: [
+      'Artificial Intelligence',
+      'Big Data',
+      'Cloud Computing',
+      'Internet of Things',
+      'Open Data'
+    ],
+    year: 2018,
+    content:
+      'FIWOO is an IoT-Editor platform, which allows users to create any entity without the need for computer knowledge. Everything can be created without a single line of code.\n\nAny user can create their panels, connect their devices, and generate smart rules through a simple graphic interface.'
   },
   {
     company: 'Floud',
@@ -961,6 +688,30 @@ var pageData = [
       'Senda care is a modular platform, a new service designed with features such as the care of people who need support through their own network of relatives.'
   },
   {
+    company: 'Helix',
+    name: 'Helix',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/raster/logo_Helix.png',
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: 'https://gethelix.org',
+    domain: [
+      'Cities',
+      'AgriFood',
+      'Logistics',
+      'Industry',
+      'Ports',
+      'Retail',
+      'Home',
+      'Health',
+      'Content'
+    ],
+    type: 'Platform',
+    technology: ['Internet of Things'],
+    year: 2021,
+    content: 'A microservice platform based on FIWARE'
+  },
+  {
     company: 'HOPU',
     name: 'Low Emission Zones',
     img:
@@ -1057,6 +808,27 @@ var pageData = [
       'A platform for management, communication, and citizen participation, as well as a self-managing mobile platform that brings the public administration closer to the citizen with a simple and effective tool.'
   },
   {
+    company: 'Martel Innovate',
+    name: 'Orchestra Cities',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_OrchestraCities.svg',
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink: 'https://www.orchestracities.com',
+    domain: ['Air Quality', 'Cities', 'Energy', 'Lighting', 'Mobility'],
+    type: 'Platform',
+    technology: [
+      'Artificial Intelligence',
+      'Big Data',
+      'Data Analytics',
+      'Data Spaces',
+      'Internet of Things'
+    ],
+    year: 2017,
+    content:
+      'To answer the need for a flexible data-management platform for smart cities, Martel developed Orchestra Cities, an integrated platform based on FIWARE and other cutting edge Open Source solutions that allow to bring in a single place all the vertical data silos of cities'
+  },
+  {
     company: 'Mermix',
     name: 'Mermix',
     img:
@@ -1101,6 +873,22 @@ var pageData = [
     company: 'NEC',
     name: 'Cloud City Operations Center',
     img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_NEC.svg',
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink:
+      'https://es.nec.com/es_ES/solutions_services/smartcity/en/solution/index.html',
+    domain: ['Smart Cities'],
+    type: 'Platform',
+    technology: ['Cloud Computing', 'Internet of Things', 'Open Data'],
+    year: 2019,
+    content:
+      'CCOC is a horizontal platform that provides a holistic view of the supplier’s services, thus allowing for a centralized and efficient management point.'
+  },
+  {
+    company: 'NEC',
+    name: 'Cloud City Operations Center',
+    img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_NEC.svg',
     fiwareMember: true,
     fiwareIhub: false,
@@ -1112,6 +900,20 @@ var pageData = [
     year: 2017,
     content:
       'CCOC acts as the ‘brain’ of the city, able to “listen” and “comprehend” what is happening all over the city to thus make better decisions and provide the right information to its inhabitants'
+  },
+  {
+    company: 'Netzlink',
+    name: 'Flink Node',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Netzlink.svg',
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink: 'https://www.flink-node.de/',
+    domain: ['Smart Industry'],
+    type: 'Platform',
+    technology: ['Industrial Technology', 'Internet of Things', 'Big Data'],
+    year: 2017,
+    content: 'We provide the FIWARE platform with all Generic Enablers'
   },
   {
     company: 'nixi1',
@@ -1127,6 +929,26 @@ var pageData = [
     year: 2018,
     content:
       'nixi1 has become the most advanced Travel chatbot (or AITA; Artificial Intelligence Travel Agency) in the world. With nixi1, text or send voice notes to book your flight and hotel room through any Messaging App. In less than 60 seconds.'
+  },
+  {
+    company: 'OpenMove',
+    name: 'OpenMove',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_OpenMove.svg',
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: 'https://openmove.com',
+    domain: ['Mobility', 'Transport'],
+    type: 'Platform',
+    technology: [
+      'Data Spaces',
+      'Mobility and Location',
+      'Open Data',
+      'Software as a Service'
+    ],
+    year: 2014,
+    content:
+      'OpenMove is a software platform for smart mobility that features transport ticketing, on-demand transport in real-time, intermodal journey planning and MaaS (Mobility-as-a-Service) integration.\n\nThe company is active in EU + USA + Middle East and serves 10M+ yearly passengers / 50M€+ tickets sold.'
   },
   {
     company: 'phoops',
@@ -1268,6 +1090,33 @@ var pageData = [
       'Bringing together behavioural science, technology, and great people to tackle the global epidemic of chronic lifestyle diseases once and for all, OurPath is an online program that helps you make the changes you need to get healthy.'
   },
   {
+    company: 'Sensative',
+    name: 'Yggio Platform',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Yggio.svg',
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink: 'https://sensative.com/yggio/',
+    domain: [
+      'Agriculture',
+      'Cities',
+      'Construction and Building',
+      'Energy',
+      'Water'
+    ],
+    type: 'Platform',
+    technology: [
+      'Artificial Intelligence',
+      'Communication Networks',
+      'Data Handling',
+      'Digital Twins',
+      'Internet of Things'
+    ],
+    year: 2019,
+    content:
+      'Yggio open digitalization platform provides integration of any IoT sensor or IT technology, contextualized and normalized data, unified IoT infrastructure management, data ownership and control, scalability for massive IoT, and a standardized API, making IoT services vendor and technology neutral.'
+  },
+  {
     company: 'Sensei',
     name: 'Sensei',
     img:
@@ -1332,6 +1181,27 @@ var pageData = [
       'VISTRA offers a unique approach to resolving the major barriers preventing virtual operator training and support from reaching its potential in the manufacturing sector.'
   },
   {
+    company: 'Sirus NV',
+    name: 'Sirus City Store',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Sirus.svg',
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: 'https://sirus.be/smart-cities/',
+    domain: ['Cities', 'Green Deal', 'Mobility', 'Water', 'Weather'],
+    type: 'Platform',
+    technology: [
+      'Data Spaces',
+      'Digital Twins',
+      'Internet of Things',
+      'Open Data',
+      'Software as a Service'
+    ],
+    year: 2020,
+    content:
+      'The Sirus Smart City store helps cities harmonize all the data gathered by different sensors and platforms in the city. The data is delivered in a non-standard to Citizens, Government, Companies, and Research institutes. This allows cities to collaborate with parties to create innovative solutions'
+  },
+  {
     company: 'Snap4City',
     name: 'Km4City',
     img:
@@ -1353,6 +1223,27 @@ var pageData = [
       'Scalable Smart aNalytic APplication Builder for Sentient Cities, the platform proving flexible a method and solution for rapid implementation of smart city applications exploiting heterogeneous data and enabling services for stakeholders by IOT/IOE, data analytics and big data technologies.'
   },
   {
+    company: 'Snap4City',
+    name: 'Snap4City',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Snap4City.svg',
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink: 'https://www.snap4city.org',
+    domain: ['Air Quality', 'Cities', 'Industry', 'Mobility', 'Tourism'],
+    type: 'Platform',
+    technology: [
+      'Advanced or High Performance Computing',
+      'Artificial Intelligence',
+      'Data Analytics',
+      'Digital Twins',
+      'Software as a Service'
+    ],
+    year: 2021,
+    content:
+      'Scalable Smart aNalytic APplication Builder for Sentient Cities, the platform proving flexible a method and solution to quickly create a large range of smart city applications exploiting heterogeneous data and enabling services for stakeholders by IOT/IOE, data analytics and big data technologies.'
+  },
+  {
     company: 'SRM Consulting',
     name: 'Capacity Control System',
     img:
@@ -1370,6 +1261,21 @@ var pageData = [
     year: 2021,
     content:
       'Capacity Control System is a complete solution to scan and localize any Wi-Fi or Bluetooth device, such as smartphones, laptops, or smartwatches. The main goal of this technology is the capacity control of the public spaces.'
+  },
+  {
+    company: 'StoneOne',
+    name: 'SmartOrchestra',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_StoneOne.svg',
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink: 'http://smartorchestra.de',
+    domain: ['Cities'],
+    type: 'Platform',
+    technology: ['Internet of Things', 'Cyber Physical Systems'],
+    year: 2018,
+    content:
+      'Smart Service Platform for the safe internet-based integration, orchestration ,and effective marketing of cyber-physical applications (smart devices).'
   },
   {
     company: 'Stratio',
@@ -1400,6 +1306,34 @@ var pageData = [
     year: 2018,
     content:
       'RezGuru uses Artificial Intelligence & Machine Learning to provide data-driven recommendations on pricing and strategy to help maximize revenue and profits.'
+  },
+  {
+    company: 'TeamDev',
+    name: 'WiseTown',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_WiseTown.svg',
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink: 'https://wise.town/en/',
+    domain: [
+      'Cities',
+      'Government',
+      'Mobility',
+      'Security',
+      'Utilities',
+      'Oil and Gas'
+    ],
+    type: 'Platform',
+    technology: [
+      'Artificial Intelligence',
+      'Big Data',
+      'Cloud Computing',
+      'Data Analytics',
+      'Internet of Things'
+    ],
+    year: 2014,
+    content:
+      'WiseTown is a digital system for the city fully scalable, modular, designed to allow full integration with the city administration’s existing systems, third party solutions, IoT applications and external data sources. WiseTown is the engine that collects the city’s data and makes it available.'
   },
   {
     company: 'TeamDev',
@@ -1562,6 +1496,42 @@ var pageData = [
       'WiseTown Thematic Dashboard is an application that allows you to create custom visualizations to compare map information with statistical data and real-time data from satellite systems. The dashboards can manage economic, demographic, social, environmental and many other data.'
   },
   {
+    company: 'Telefónica',
+    name: 'Thinking Cities',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Telefonica.svg',
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink: 'https://thinking-cities.readthedocs.io/en/latest/index.html',
+    domain: ['Agriculture', 'Cities', 'Government', 'Industry', 'Tourism'],
+    type: 'Platform',
+    technology: [
+      'Artificial Intelligence',
+      'Big Data',
+      'Data Analytics',
+      'Data Handling',
+      'Internet of Things'
+    ],
+    year: 2016,
+    content:
+      'The Thinking Cities platform is an integral solution to support City services. It includes a series of modules that allow the acquisition, processing, storage, and distribution of data, on which several City Services, vertical IoT solutions, and Data Analytics can be implemented easily.'
+  },
+  {
+    company: 'Telenet Group',
+    name: 'Telenet Tinx',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Telenet.svg',
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: 'https://investors.telenet.be/',
+    domain: ['Cities'],
+    type: 'Platform',
+    technology: ['Internet of Things', 'Open Data', 'Data Analytics'],
+    year: 2019,
+    content:
+      'Telenet Tinx is a device and data management platform for smart cities.\nIt relies on the Microsoft Azure Services to provide the capability of connecting any IoT Devices at a large scale and managing huge incoming amounts of data with the required guarantee of reliability and availability for cities'
+  },
+  {
     company: 'Tera',
     name: 'Beeta',
     img:
@@ -1642,6 +1612,21 @@ var pageData = [
       'Smartlamppost is a modular concept of a lamppost with bleeding edge technology, allowing municipalities to future-proof their smart city and Mobile Network Operators to cost-effectively deploy their 5G solution.'
   },
   {
+    company: 'Ubiwhere',
+    name: 'Urban Platform',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Ubiwhere.svg',
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink: 'https://urbanplatform.city/',
+    domain: ['Cities'],
+    type: 'Platform',
+    technology: ['Internet of Things', 'Open Data', 'Data Analytics'],
+    year: 2018,
+    content:
+      'Our Urban Platform allows data collection from multiple domains and provides city managers and decision-makers with a holistic view of their cities, presenting cross-domain data in a unified way.'
+  },
+  {
     company: 'University of Deusto',
     name: 'Waste4Think',
     img:
@@ -1670,6 +1655,21 @@ var pageData = [
     year: 2017,
     content:
       'Viur connects all your databases, cloud services, and files and in seconds you can start exploring your data using drag & drop or writing your own SQL queries. Share your most important metrics with your team or with the whole world.'
+  },
+  {
+    company: 'VM9',
+    name: 'We4City',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Vm9.svg',
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: 'https://we4city.com/',
+    domain: ['Cities'],
+    type: 'Platform',
+    technology: ['Internet of Things', 'Open Data', 'Data Analytics'],
+    year: 2019,
+    content:
+      'We4City is a technology solutions platform for Smart Cities, based on open standards and artificial intelligence, which provides integrated support for the Internet of Things (IoT), Real-Time Cameras, Geographic Information Systems, Virtual Assistants, Big Data and Open Data, among others.'
   },
   {
     company: 'WiTraC',

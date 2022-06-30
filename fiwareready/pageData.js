@@ -15,6 +15,32 @@ var pageData = [
       'AGRICOLUS is a cloud applications ecosystem for precision farming with multiple purposes: disease awareness and forecasts, crop monitoring, decision support system for treatments and fertilizers, farm management, and end-to-end traceability bringing valuable information to final users.'
   },
   {
+    company: 'Axion',
+    name: 'Traxion',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Axion.svg',
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink:
+      'https://www.axion.es/en/services-axion/iot-and-smart-solutions-and-platforms/security-vertical-solution-traxion/',
+    domain: [
+      'Cities',
+      'Logistics',
+      'Retail and Wholesale',
+      'Security',
+      'Telecommunication'
+    ],
+    type: 'Software enabler',
+    technology: [
+      'Data Analytics',
+      'Internet of Things',
+      'Software as a Service'
+    ],
+    year: 2020,
+    content:
+      'Traxión is an automatic system for inflow and level of occupancy control, based on non-intrusive feedback sensors via IP cameras with integrated video analytics'
+  },
+  {
     company: 'Breeze Technologies',
     name: 'Breeze Air Quality Sensors',
     img:
@@ -270,6 +296,33 @@ var pageData = [
       'Bluetooth Low Energy device that works as a beacon for the visibly impaired.'
   },
   {
+    company: 'Distromel',
+    name: 'siGEUS',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Distromel.svg',
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink: 'https://www.distromel.com/',
+    domain: [
+      'Cities',
+      'Logistics',
+      'Mobility',
+      'Sustainability',
+      'Waste Management'
+    ],
+    type: 'Software enabler',
+    technology: [
+      'Artificial Intelligence',
+      'Internet of Things',
+      'Mobility and Location',
+      'Sensory Systems',
+      'Software as a Service'
+    ],
+    year: 2020,
+    content:
+      'We provide different solutions that have been designed to simplify and optimize waste collection and treatment processes for Smart Cities. Also, we offer load control or dynamic weighing systems in vehicles and provide solutions that have been designed to make work processes easier.'
+  },
+  {
     company: 'Eficae',
     name: 'Miluz',
     img:
@@ -325,6 +378,64 @@ var pageData = [
     year: 2017,
     content:
       'The easily deployable decision support solution that helps you manage your vineyard to reduce costs, grow better grapes, and preserve the environment.'
+  },
+  {
+    company: 'Engineering',
+    name: 'Dashram',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Engineering.svg',
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink:
+      'https://www.eng.it/en/case-studies/dashram-un-nuovo-tool-per-la-data-analysis',
+    domain: ['Cities', 'Water'],
+    type: 'Software enabler',
+    technology: ['Data Analytics', 'Data Spaces'],
+    year: 2021,
+    content:
+      'Dashram is an Open Source tool for advanced data visualization, characterized by a simple and functional interface that provides the means to create and share 2D and 3D charts, map-based visualizations and dashboards.'
+  },
+  {
+    company: 'Engineering',
+    name: 'KNOWAGE',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_KnowAge.svg',
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink: 'https://www.knowage-suite.com',
+    domain: [
+      'Financial Services',
+      'Government',
+      'Healthcare',
+      'Industry',
+      'Manufacturing'
+    ],
+    type: 'Software enabler',
+    technology: [
+      'Artificial Intelligence',
+      'Big Data',
+      'Data Analytics',
+      'Open Data',
+      'Software as a Service'
+    ],
+    year: 2014,
+    content:
+      'KNOWAGE  is the professional open-source suite for analytics and business intelligence with any data, fully compliant with FIWARE architecture and GEs.'
+  },
+  {
+    company: 'Gecor System',
+    name: 'GECOR',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Gecor.svg',
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: 'https://gecorweb.com/',
+    domain: ['Cities'],
+    type: 'Software enabler',
+    technology: ['Internet of Things', 'Open Data', 'Data Analytics'],
+    year: 2021,
+    content:
+      'GECOR allows managing the maintenance of public spaces in a transversal way, integrating technicians, managers, service companies and citizens.'
   },
   {
     company: 'Green Globe SyPA',
@@ -650,6 +761,60 @@ var pageData = [
       'Digitanimal Livestock GPS offers a 2-year warranty All services included for 12 months* Renewal plans tailored to your Customs management included a 30-day trial'
   },
   {
+    company: 'Situm Indoor Positioning',
+    name: 'Situm Indoor Navigation',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Situm.svg',
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: 'https://situm.es',
+    domain: ['Cities', 'Logistics'],
+    type: 'Software enabler',
+    technology: [
+      'Internet of Things',
+      'Artificial Intelligence',
+      'Data Analytics',
+      'Open Data'
+    ],
+    year: 2017,
+    content:
+      'Situm is the GPS for indoors with zero infrastructure, the highest precision, and the fastest deployment. It helps companies from different sectors to improve their services and optimize their processes by guiding visitors and monitoring their employees and mobile assets.'
+  },
+  {
+    company: 'Situm Indoor Positioning',
+    name: 'Situm Indoor Tracking',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Situm.svg',
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: 'https://situm.es',
+    domain: ['Cities', 'Logistics', 'Industry', 'Ports', 'Retail', 'Health'],
+    type: 'Software enabler',
+    technology: [
+      'Data Analytcs',
+      'Software as a Services',
+      'Internet Services'
+    ],
+    year: 2017,
+    content:
+      'Situm is a software enabler that offers indoor positioning and navigation for smartphones without infrastructure installations to improve security and manage the workflow.'
+  },
+  {
+    company: 'SRM Consulting',
+    name: 'FIWARE map viewer',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_SRM.svg',
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: 'http://www.srmconsulting.es',
+    domain: ['Cities', 'AgriFood', 'Logistics', 'Industry', 'Health'],
+    type: 'Software enabler',
+    technology: ['Internet of Things', 'Open Data', 'Data Analytics'],
+    year: 2021,
+    content:
+      'FIWARE Map Viewer extends the capabilities of any map to Smart Cities and IoT. Monitoring any device on a map in real-time, such as atmospheric sensors, cameras, traffic lights, and so on'
+  },
+  {
     company: 'SRM Consulting',
     name: 'MavDrone',
     img:
@@ -663,6 +828,21 @@ var pageData = [
     year: 2021,
     content:
       'MavDrone device is the first solution compatible with the MAVLink protocol for the Command and Control of drone fleets. MavDrone extends the capabilities of IAS by publishing the telemetry in a public API.'
+  },
+  {
+    company: 'Telocate',
+    name: 'FI-ASSIST',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_FI-Assist.svg',
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: 'https://de.telocate.de',
+    domain: ['Cities', 'Logistics', 'Retail'],
+    type: 'Software enabler',
+    technology: ['Internet of Things'],
+    year: 2017,
+    content:
+      'The FI-ASSIST project is a system developed by the German company Telocate to introduce a high-precision indoor navigation system and location infrastructure for restaurants based on acoustic localization.'
   },
   {
     company: 'TST Sistemas',
@@ -730,6 +910,47 @@ var pageData = [
       "INSYLO is an affordable solution to remotely monitor livestock farms' silos and solve the million dollar question: the right moment and the right quantity to restock each silo in order to optimise logistic costs."
   },
   {
+    company: 'Urbaser',
+    name: 'SENSIoT',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Urbaser.svg',
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: 'https://urbaser.com/sensiot',
+    domain: ['Cities', 'Energy', 'Industry', 'Machinery', 'Waste Management'],
+    type: 'Software enabler',
+    technology: [
+      'Big Data',
+      'Cloud Computing',
+      'Data Analytics',
+      'Internet of Things'
+    ],
+    year: 2020,
+    content:
+      'SENSIoT(Smart Environmental Services with IoT) is Urbaser’s IoT solution where a comprehensive set of information is automatically gathered from its assets and processed to maximize its value. The core of the technology is SENSIoT-Platform, which has been designed using Microsoft Azure services'
+  },
+  {
+    company: 'Ventum Innovacion',
+    name: 'Gavilán Control',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_GavillanControl.svg',
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: 'https://gavilan.ventumidc.es/login',
+    domain: ['Air Quality', 'Agriculture', 'AgriFood', 'Industry', 'Water'],
+    type: 'Software enabler',
+    technology: [
+      'Big Data',
+      'Data Handling',
+      'Internet of Things',
+      'Sensory Systems',
+      'Software as a Service'
+    ],
+    year: 2020,
+    content:
+      'Gavilan Control is a tool where you can find the main data and variables regarding your livestock business. You have control over the position and animal welfare. Control the water and food consumption and make decisions that improve the productivity of your exploitation.'
+  },
+  {
     company: 'VIRAL STUDIOS',
     name: 'virtualARt',
     img:
@@ -779,227 +1000,6 @@ var pageData = [
     year: 2017,
     content:
       'WeLight is a Remote Management System for Public Lighting, which allows the monitoring and control of lighting and the optimisation and management of the maintenance, whilst monitoring consumption and reacting to deviations.'
-  },
-  {
-    company: 'Axion',
-    name: 'Traxion',
-    img:
-      'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Axion.svg',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink:
-      'https://www.axion.es/en/services-axion/iot-and-smart-solutions-and-platforms/security-vertical-solution-traxion/',
-    domain: [
-      'Cities',
-      'Logistics',
-      'Retail and Wholesale',
-      'Security',
-      'Telecommunication'
-    ],
-    type: 'Software enabler',
-    technology: [
-      'Data Analytics',
-      'Internet of Things',
-      'Software as a Service'
-    ],
-    year: 2020,
-    content:
-      'Traxión is an automatic system for inflow and level of occupancy control, based on non-intrusive feedback sensors via IP cameras with integrated video analytics'
-  },
-  {
-    company: 'Distromel',
-    name: 'siGEUS',
-    img:
-      'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Distromel.svg',
-    fiwareMember: true,
-    fiwareIhub: false,
-    companyLink: 'https://www.distromel.com/',
-    domain: [
-      'Cities',
-      'Logistics',
-      'Mobility',
-      'Sustainability',
-      'Waste Management'
-    ],
-    type: 'Software enabler',
-    technology: [
-      'Artificial Intelligence',
-      'Internet of Things',
-      'Mobility and Location',
-      'Sensory Systems',
-      'Software as a Service'
-    ],
-    year: 2020,
-    content:
-      'We provide different solutions that have been designed to simplify and optimize waste collection and treatment processes for Smart Cities. Also, we offer load control or dynamic weighing systems in vehicles and provide solutions that have been designed to make work processes easier.'
-  },
-  {
-    company: 'Engineering',
-    name: 'Dashram',
-    img:
-      'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Engineering.svg',
-    fiwareMember: true,
-    fiwareIhub: false,
-    companyLink:
-      'https://www.eng.it/en/case-studies/dashram-un-nuovo-tool-per-la-data-analysis',
-    domain: ['Cities', 'Water'],
-    type: 'Software enabler',
-    technology: ['Data Analytics', 'Data Spaces'],
-    year: 2021,
-    content:
-      'Dashram is an Open Source tool for advanced data visualization, characterized by a simple and functional interface that provides the means to create and share 2D and 3D charts, map-based visualizations and dashboards.'
-  },
-  {
-    company: 'Engineering',
-    name: 'KNOWAGE',
-    img:
-      'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_KnowAge.svg',
-    fiwareMember: true,
-    fiwareIhub: false,
-    companyLink: 'https://www.knowage-suite.com',
-    domain: [
-      'Financial Services',
-      'Government',
-      'Healthcare',
-      'Industry',
-      'Manufacturing'
-    ],
-    type: 'Software enabler',
-    technology: [
-      'Artificial Intelligence',
-      'Big Data',
-      'Data Analytics',
-      'Open Data',
-      'Software as a Service'
-    ],
-    year: 2014,
-    content:
-      'KNOWAGE  is the professional open-source suite for analytics and business intelligence with any data, fully compliant with FIWARE architecture and GEs.'
-  },
-  {
-    company: 'Gecor System',
-    name: 'GECOR',
-    img:
-      'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Gecor.svg',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://gecorweb.com/',
-    domain: ['Cities'],
-    type: 'Software enabler',
-    technology: ['Internet of Things', 'Open Data', 'Data Analytics'],
-    year: 2021,
-    content:
-      'GECOR allows managing the maintenance of public spaces in a transversal way, integrating technicians, managers, service companies and citizens.'
-  },
-  {
-    company: 'Situm Indoor Positioning',
-    name: 'Situm Indoor Navigation',
-    img:
-      'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Situm.svg',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://situm.es',
-    domain: ['Cities', 'Logistics'],
-    type: 'Software enabler',
-    technology: [
-      'Internet of Things',
-      'Artificial Intelligence',
-      'Data Analytics',
-      'Open Data'
-    ],
-    year: 2017,
-    content:
-      'Situm is the GPS for indoors with zero infrastructure, the highest precision, and the fastest deployment. It helps companies from different sectors to improve their services and optimize their processes by guiding visitors and monitoring their employees and mobile assets.'
-  },
-  {
-    company: 'Situm Indoor Positioning',
-    name: 'Situm Indoor Tracking',
-    img:
-      'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Situm.svg',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://situm.es',
-    domain: ['Cities', 'Logistics', 'Industry', 'Ports', 'Retail', 'Health'],
-    type: 'Software enabler',
-    technology: [
-      'Data Analytcs',
-      'Software as a Services',
-      'Internet Services'
-    ],
-    year: 2017,
-    content:
-      'Situm is a software enabler that offers indoor positioning and navigation for smartphones without infrastructure installations to improve security and manage the workflow.'
-  },
-  {
-    company: 'SRM Consulting',
-    name: 'FIWARE map viewer',
-    img:
-      'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_SRM.svg',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'http://www.srmconsulting.es',
-    domain: ['Cities', 'AgriFood', 'Logistics', 'Industry', 'Health'],
-    type: 'Software enabler',
-    technology: ['Internet of Things', 'Open Data', 'Data Analytics'],
-    year: 2021,
-    content:
-      'FIWARE Map Viewer extends the capabilities of any map to Smart Cities and IoT. Monitoring any device on a map in real-time, such as atmospheric sensors, cameras, traffic lights, and so on'
-  },
-  {
-    company: 'Telocate',
-    name: 'FI-ASSIST',
-    img:
-      'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_FI-Assist.svg',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://de.telocate.de',
-    domain: ['Cities', 'Logistics', 'Retail'],
-    type: 'Software enabler',
-    technology: ['Internet of Things'],
-    year: 2017,
-    content:
-      'The FI-ASSIST project is a system developed by the German company Telocate to introduce a high-precision indoor navigation system and location infrastructure for restaurants based on acoustic localization.'
-  },
-  {
-    company: 'Urbaser',
-    name: 'SENSIoT',
-    img:
-      'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Urbaser.svg',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://urbaser.com/sensiot',
-    domain: ['Cities', 'Energy', 'Industry', 'Machinery', 'Waste Management'],
-    type: 'Software enabler',
-    technology: [
-      'Big Data',
-      'Cloud Computing',
-      'Data Analytics',
-      'Internet of Things'
-    ],
-    year: 2020,
-    content:
-      'SENSIoT(Smart Environmental Services with IoT) is Urbaser’s IoT solution where a comprehensive set of information is automatically gathered from its assets and processed to maximize its value. The core of the technology is SENSIoT-Platform, which has been designed using Microsoft Azure services'
-  },
-  {
-    company: 'Ventum Innovacion',
-    name: 'Gavilán Control',
-    img:
-      'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_GavillanControl.svg',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://gavilan.ventumidc.es/login',
-    domain: ['Air Quality', 'Agriculture', 'AgriFood', 'Industry', 'Water'],
-    type: 'Software enabler',
-    technology: [
-      'Big Data',
-      'Data Handling',
-      'Internet of Things',
-      'Sensory Systems',
-      'Software as a Service'
-    ],
-    year: 2020,
-    content:
-      'Gavilan Control is a tool where you can find the main data and variables regarding your livestock business. You have control over the position and animal welfare. Control the water and food consumption and make decisions that improve the productivity of your exploitation.'
   },
   {
     company: 'XapiX',
