@@ -1,5 +1,66 @@
 var pageData = [
   {
+    company: 'BallistiX',
+    name: 'BallistiX',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_BallistixDigital.svg',
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: 'https://www.ballistix.digital',
+    domain: [
+      'Cities',
+      'AgriFood',
+      'Logistics',
+      'Industry',
+      'Ports',
+      'Retail',
+      'Home',
+      'Health'
+    ],
+    type: 'Consultancy & Integration',
+    technology: ['Blockchain'],
+    year: 2019,
+    content:
+      'We build proofs-of-concept, prototypes, and MVPs of web-based applications and love working with emerging technologies like blockchain, 3D printing, and Artificial Intelligence.'
+  },
+  {
+    company: 'Ficodes',
+    name: 'Coaching & Training Services',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_Ficodes.svg',
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: 'https://www.ficodes.com',
+    domain: ['Cities', 'AgriFood', 'Logistics', 'Industry', 'Ports'],
+    type: 'Training & Coaching',
+    technology: [],
+    year: 2017,
+    content:
+      "Ficodes is a startup that was born from a group of UPM research engineers and developers with the deep knowledge of the FIWARE ecosystem can help you to boost your FIWARE's skill"
+  },
+  {
+    company: 'FIWARE Innova iHub',
+    name: 'Coaching & Training Services',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_FIWAREInnovaiHub.svg',
+    fiwareMember: false,
+    fiwareIhub: true,
+    companyLink: 'https://fiwareinnova.org/en/',
+    domain: [
+      'AgriFood',
+      'Cities',
+      'Government',
+      'Industry',
+      'Utilities',
+      'Oil and Gas'
+    ],
+    type: 'Training & Coaching',
+    technology: [],
+    year: 2017,
+    content:
+      'FIWARE Innova iHub has the challenge to promote entrepreneurship and innovation linked to the development of applications and services, encouraging the potential of the FIWARE solutions to help facilitate the largest possible implementation in Italy.'
+  },
+  {
     company: 'FIWARE Space',
     name: 'Coaching & Training Services',
     img:

@@ -66,6 +66,8 @@ csv()
           ready.push(obj);
         } else if (item['FIWARE-Ready'] === 'Services') {
           service.push(obj);
+        } else if (item['FIWARE-Ready'] === 'Support Services') {
+          service.push(obj);
         } else if (item['FIWARE-Ready'] === 'Cities4Cities') {
           cities.push(obj);
         } else {
