@@ -2,6 +2,9 @@ const fs = require('fs');
 const products = 'products.csv';
 const productDetails = 'product-details.csv';
 const csv = require('csvtojson');
+const showdown = require('showdown');
+const converter = new showdown.Converter();
+
 const poweredBy = [];
 const ready = [];
 const service = [];
@@ -13,6 +16,31 @@ const details = {
   service: {},
   unknown: {}
 };
+
+const docFields = ['Tech Documentation', 'Doc 2', 'Doc 3', ' Doc 4', 'Doc 5'];
+const mediaFields = ['Media', 'Media 2', 'Media 3', 'Media 4', 'Media 5'];
+
+const refFields = [
+  'Reference Material',
+  'Material 2',
+  'Material 3',
+  'Material 4',
+  'Material 5'
+];
+
+function getLinkArray(fields, title, item) {
+  const array = [];
+  fields.forEach((field, i) => {
+    if (item[field] && item[field] !== '') {
+      array.push([title + ' ' + (i + 1), item[field]]);
+    }
+  });
+  return array;
+}
+
+function markdown(text) {
+  return text !== '' ? converter.makeHtml(text.replaceAll(/•/g, '\n*')) : '';
+}
 
 function getCategory(category) {
   if (category === 'Powered by FIWARE') {
@@ -61,6 +89,7 @@ csv()
       const hash = getHash(item['Organisation Name'], item['Product Name']);
 
       details[category][hash] = {
+        category: item['FIWARE-Ready'],
         organisationName: item['Organisation Name'],
         productName: item['Product Name'],
         organisationWebsite: item['Organisation Website'],
@@ -73,12 +102,17 @@ csv()
         productWebsite: item['Product Website'],
         excerpt: item['Excerpt'],
         yearOfValidation: parseInt(item['Year of validation']),
-        description: item['Description and Benefits'],
-        challenge: item['Challenge and Context'],
-        references: item['References / Customers'],
-        awards: item['Awards'],
+        description: markdown(item['Description and Benefits']),
+        challenge: markdown(item['Challenge and Context']),
+        references: markdown(item['References / Customers']),
+        awards: markdown(item['Awards']),
         technologies: splitStrings(item['Technologies']),
         domains: splitStrings(item['Domains']),
+
+        docs: getLinkArray(docFields, 'Document', item),
+        videos: getLinkArray(mediaFields, 'Media', item),
+        materials: getLinkArray(refFields, 'Reference', item),
+
         logo: item['Logo'],
         featuredImage: item['Featured Image'],
         furtherImages: ''

@@ -19,6 +19,7 @@
     "@apidevtools/swagger-parser": "^10.0.2",
     "csvtojson": "^2.0.10",
     "json-schema-ref-parser": "^9.0.1",
+    "showdown": "^2.1.0",
     "yargs": "^15.3.1"
   },
   "devDependencies": {
