@@ -137,8 +137,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_FIWARESpace.svg',
     fiwareMember: false,
     fiwareIhub: true,
-    companyLink:
-      './product.html?category=service&id=fiwarespace-consultancyintegrationservices',
+    companyLink: 'https://www.fiware.space/',
     domain: ['Cities', 'AgriFood', 'Industry'],
     type: 'Consultancy & Integration',
     technology: ['Data Spaces'],
