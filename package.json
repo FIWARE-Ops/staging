@@ -18,7 +18,9 @@
   "dependencies": {
     "@apidevtools/swagger-parser": "^10.0.2",
     "csvtojson": "^2.0.10",
+    "jsdom": "^20.0.0",
     "json-schema-ref-parser": "^9.0.1",
+    "got": "^11.8.2",
     "showdown": "^2.1.0",
     "yargs": "^15.3.1"
   },

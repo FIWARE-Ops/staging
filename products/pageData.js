@@ -12,10 +12,14 @@ var pageData = {
       excerpt:
         '[ui!] UrbanPulse is an open central data platform for urban data in real-time - based on a highly scalable architecture for data processing and analysis, with a special connector framework for the integration of sensors, urban management systems and Visualization of complex data with tiles and maps.',
       yearOfValidation: 2019,
-      description: '',
-      challenge: '',
-      references: '',
-      awards: '',
+      description:
+        '<p>[ui!] UrbanPulse is the Open Urban Data Platform for cities, communities, utilities, and\nother organizations that want to reuse and repurpose new and existing urban data\nsources to create value-added services. The [ui!] UrbanPulse platform is the most\nefficient open urban platform with open APIs that makes it easy and affordable for small\nand large customers to integrate new and existing data sources, process and analyze\ndata in near real-time. The platform also makes it possible to finally present and share\nthe data with various stakeholders.</p>\n<p>When you go live with [ui!] UrbanPulse, you get an Open Urban Data Platform (OUP)\nwith over 130 supported data sources (connectors) for direct connection. Among them,\nyou will find management, sensor systems, and IoT devices that have been developed\nthanks to many cities/communities within their smart city projects with [ui!] UrbanPulse\nand are immediately available. So you can start testing and implementing your project\nright away.</p>\n<p>Using these existing data sources (connectors), data-driven services can be created or\nextended with a short implementation phase. This includes information on noise and\nenvironmental emissions, traffic issues such as volumes, real-time forecasts, and the\nintersection of different data sets.\nTransfer existing smart city use cases to your city/communities or region and adapt\nthem to your circumstances.</p>\n<h4 id="specifications">Specifications</h4>\n<p>The platform is implemented according to DIN Spec 91357, developed for Software-as-a-\nService (SaaS) application and can be operated in a local data center for data sovereignty\nreasons.</p>',
+      challenge:
+        '<p>Advancing urbanization and the associated challenges, including in urban and regional\ninfrastructures, mobility and energy, requires a new, networked approach.\nResource-conserving and environmentally compatible actions on the one hand, and\nsituation-appropriate and measured decision-making on the other, require extensive\ndata from many, previously isolated systems within a community.\n[ui!] supports cities, communities, counties, and regions in their efforts to collect,\nprocess and analyze all existing and anonymized urban data on a central data platform.\nWe also help make this data available for new services as added value for cities,\ncommunities, and utility companies.</p>\n<p>These solutions are based on an open urban data platform – the [ui!] UrbanPulse -\nwhere all data from a city’s various IT systems are fed into the system in order to be\nused for new smart city services in real-time. This meets the current requirements of\nDIN SPEC 91357 - Reference Architecture Model Open Urban Platform (OUP).\nUsing a large number of connectors, we are able to link a wide variety of IT systems\ntogether. We are able to do this in such a way that all the information in a city can be\nused and made visible, while at the same time leaving the data sovereignty with the\nrespective provider. The platform, therefore, not only provides integrated access to\nurban data, but also prevents the risk of data misuse.</p>',
+      references:
+        '<p>City of Bad Hersfeld\nCity of Darmstadt\nCity of Langenfeld\nCity of Brisbane</p>',
+      awards:
+        '<p>First prize in the &quot;Innovation Award Reallabore 2022&quot; from the Federal Ministry of\nEconomics and Climate Protection in the category &quot;Retrospectives&quot; for completed\nprojects - Research project Reallabor Hamburg (RealLabHH).</p>\n<p>The Smart 50 Awards 2022 and 2016 of the internationally renowned organization\n&quot;Smart Cities Connect&quot; is awarded annually for global, innovative smart city projects and\naims to honor some of the most influential projects and forward-looking ideas in the\ncontext of smart city and smart region. ([ui!] and the city of Bad Hersfeld)</p>\n<p>Digital Leader Award 2016 + 2017 - With the Digital Leader Award, German speaking\nbusinesses and leaders are rewarded in a competition for an outstanding example in\nleading digitalisation in their organisation. So the accomplishments for the digital\ntransformation of the organisation are honoured and the responsible leaders publically\nrewarded. The Digital Leader Award is an initiative by the Initiative der IDG Business\nMedia und Dimension Data.</p>',
       technologies: [
         'Data Analytics',
         'Internet of Things',
@@ -35,7 +39,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_UrbanInstitute.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.ui.city/templates/yootheme/cache/ui-UrbanPulse_2020-08-12_LeH-b55eaa46.webp',
       furtherImages: ''
     },
     'agricolus-agricolus': {
@@ -53,7 +58,7 @@ var pageData = {
       description:
         '<p>AGRICOLUS is a cloud applications ecosystem for precision farming with multiple purposes: disease awareness and forecasts, crop monitoring, decision support system for treatments and fertilizers, farm management, and end-to-end traceability bringing valuable information to final users. It is on the market and multinational agroholding companies, medium-big farms, the association of farmers and the government are using it successfully. AGRICOLUS is FIWARE IoT Ready certified. AgriPlug is our OBD device that supports the integration of the ecosystem with ISOBUS enabled machines to exchange logs and send information for precision treatments and operations on crops. AgriTrack traceability system provides documentary evidence about the origin and history of agricultural products and food, to demonstrate products’ safety and the commitment to the quality of the producer. To ensure this we propose a new approach: traceability needs to start from the field, and collected data must be blockchain secured.</p>',
       challenge:
-        '<p>Today farmers face several challenges, we are mostly working on:</p>\n<p>International market competition with products coming from unruled countries that produce at a very low cost. The effect is a reduction of the profit due to the need of reducing final selling prices. For this reason, farmers have to reduce costs and increase quality at the same time.\nClimate change requires continuous adaptation of the best time to proceed with any agricultural operation (seeding, fertilizing, manuring, irrigating, harvesting). Farmers need real-time support to understand the right timing for these operations.\nAgritech adoption among EU farmers is far below 20%, Agricolus can support them by making these technologies accessible and useful for daily work on the fields.</p>',
+        '<p>Today farmers face several challenges, we are mostly working on:</p>\n<p>International market competition with products coming from unruled countries that produce at a very low cost. The effect is a reduction of the profit due to the need of reducing final selling prices. For this reason, farmers have to reduce costs and increase quality at the same time.\nClimate change requires continuous adaptation of the best time to proceed with any agricultural operation (seeding, fertilizing, manuring, irrigating, harvesting). Farmers need real-time support to understand the right timing for these operations.</p>\n<p>Agritech adoption among EU farmers is far below 20%, Agricolus can support them by making these technologies accessible and useful for daily work on the fields.</p>',
       references:
         '<p>Agricolus is addressing the precision software market that is estimated 1.1 Bln $ by 2022 (Markets and Markets), food traceability is even bigger and is estimated 14 Bln $ \nAgro holding companies that want to standardize with Agricolus good practices among their suppliers (farmers).\nAssociation of farmers that want to support their associates with better tools providing high-value technologies.\nMedium big farms that can reduce costs and have better control, and an end-to-end traceability of the production.\nGovernment in the agricultural department that uses our product to raise farmers awareness on diseases and other agricultural threats.</p>',
       awards:
@@ -66,15 +71,21 @@ var pageData = {
         'Software as a Service'
       ],
       domains: ['Agriculture', 'AgriFood', 'Green Deal', 'Sustainability'],
-      docs: [['Document 1', 'FIWARE Documentation']],
-      videos: [
-        ['Media 1', 'Making AgriTech Sustainable'],
-        ['Media 2', "Agricolus' features"]
+      docs: [
+        'FIWARE Documentation',
+        'https://www.fiware.org/2016/03/18/agricolus-suite-making-precision-farming-easier/http://'
       ],
-      materials: [['Reference 1', 'Press and Media Gallery']],
+      videos: [
+        'Making AgriTech Sustainable',
+        'https://www.youtube.com/watch?v=hVHW7QIJMd8',
+        "Agricolus' features",
+        'https://www.youtube.com/watch?v=6_ZOFydADZQ'
+      ],
+      materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Agricolus.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.agricolus.com/wp-content/uploads/2021/01/device-gen-2021-1.png',
       furtherImages: ''
     },
     'hostabee-bkeep': {
@@ -101,7 +112,10 @@ var pageData = {
       ],
       domains: ['Agriculture', 'AgriFood', 'Education', 'Measurement'],
       docs: [],
-      videos: [['Media 1', 'Hostabee - Start-up Stories']],
+      videos: [
+        'Hostabee - Start-up Stories',
+        'https://www.dailymotion.com/video/x6l12n6'
+      ],
       materials: [
         [
           'Reference 1',
@@ -114,7 +128,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Hostabee.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://hostabee.com/wp-content/uploads/2018/12/Ruche-connecte%CC%81e.png',
       furtherImages: ''
     },
     'purpleblob-baret': {
@@ -149,7 +164,6 @@ var pageData = {
       ],
       videos: [],
       materials: [
-        ['Reference 1', 'Solution Directory'],
         [
           'Reference 2',
           'http://asociacionambe.com/baret-la-plataforma-inteligente-especializada-en-el-sector-de-la-bicicleta/'
@@ -157,7 +171,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_PurpleBlob.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://baret.es/wp-content/uploads/2021/01/UpRecurso-1@4x.png',
       furtherImages: ''
     },
     'tera-beeta': {
@@ -207,7 +222,7 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Beeta.svg',
-      featuredImage: '',
+      featuredImage: 'https://www.beeta.it/img/ciclo2-en.png',
       furtherImages: ''
     },
     'bettaircities-bettair': {
@@ -240,7 +255,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Bettair.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://bettaircities.com/wp-content/uploads/2020/05/Mockups-06-1-e1589391035762-1536x881.png',
       furtherImages: ''
     },
     'bookingabus-bookingabuscom': {
@@ -268,7 +284,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_BookingABus.png',
-      featuredImage: '',
+      featuredImage:
+        'https://www.bookingabus.com/assets/feature-2-72d9afea2fdaa11636d6cac18c41c05c54200975c2969fe9580dda16524cea9b.jpg',
       furtherImages: ''
     },
     'breezetechnologies-breezeenvironmentalintelligencecloud': {
@@ -292,12 +309,13 @@ var pageData = {
         "<p>FIWARE Business Success Story\n*ship Global Startup Challenge (GSC) 2017 Winner (04.2017)\nWE DO DIGITAL award / DIHK &amp; German chambers of industry and commerce (05.2017)\nDeutschland: Land der Ideen (Germany: Land of Ideas / incl. distinction from German president) (06.2017)\nPower To Idea Accelerator (06.2017)\nTechFounders Accelerator (07.2017)\nHamburger Gründerpreis (Hamburg Founders' Award) (09.2017)\nEU Top 50 (11.2017)\nScience4Life: Idea Phase (11.2017)</p>",
       technologies: ['Internet of Things', 'Data Analytics', 'Sensory Systems'],
       domains: ['Cities'],
-      docs: [['Document 1', 'Breeze Technologies Solutions']],
-      videos: [['Media 1', 'Press and Media']],
+      docs: [],
+      videos: [],
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_BreezeTechnologies.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.breeze-technologies.de/wp-content/uploads/2016/02/Breeze-Concept-Design-2015-10-29-2-Map-View-Macbook.png',
       furtherImages: ''
     },
     'srmconsulting-capacitycontrolsystem': {
@@ -325,12 +343,13 @@ var pageData = {
         'Data Analytics'
       ],
       domains: ['Cities', 'AgriFood', 'Logistics', 'Industry', 'Health'],
-      docs: [['Document 1', 'Technology']],
+      docs: [],
       videos: [],
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_SRM.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://srmconsulting.es/assets/img/srm-consulting-lider-tecnologia-geoespacial.png',
       furtherImages: ''
     },
     'cardioid-cardiowheel': {
@@ -354,16 +373,13 @@ var pageData = {
       awards: '',
       technologies: ['Internet of Things', 'Data Analytics'],
       domains: ['Health'],
-      docs: [['Document 1', 'CarioID Technologies']],
+      docs: [],
       videos: [],
-      materials: [
-        ['Reference 1', 'Research and Development'],
-        ['Reference 2', 'Cardio ID -DTIB'],
-        ['Reference 3', 'CarioWheel - The next big idea']
-      ],
+      materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_CardioID.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.cardio-id.com/wp-content/uploads/2022/01/cardioid-home-knowledge-scaled.jpg',
       furtherImages: ''
     },
     'egm-carpoolparking': {
@@ -396,7 +412,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_EGM.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.egm.io/wp-content/uploads/2021/09/cd66-montage-blog.png',
       furtherImages: ''
     },
     'ciclogreenmovewin-ciclogreen': {
@@ -431,8 +448,8 @@ var pageData = {
         'Transport'
       ],
       docs: [],
-      videos: [['Media 1', 'YouTube']],
-      materials: [['Reference 1', 'Ciclogreen on Android']],
+      videos: [],
+      materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_CicloGreen.svg',
       featuredImage:
@@ -464,19 +481,21 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_NEC.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://es.nec.com/es_ES/solutions_services/smartcity/img/solution_CCOCArchitecture.png',
       furtherImages: ''
     },
-    'egm-connectedcanteens': {
+    'saintquentin-connectedcanteens': {
       category: 'Powered by FIWARE',
-      organisationName: 'EGM',
+      organisationName: 'Saint-Quentin',
       productName: 'Connected canteens',
       organisationWebsite:
         'https://www.egm.io/en/our-projects-smart-territories-and-cities',
       organisationEmail: '',
       linkedIn: 'https://www.linkedin.com/company/easy-global-market/',
       twitter: 'https://twitter.com/egm_sophia',
-      productWebsite: 'https://www.youtube.com/watch?v=WiU1_vwH7KA',
+      productWebsite:
+        'https://www.picardiegazette.fr/article/saint-quentin-un-projet-innovant-de-poubelles-connectees',
       excerpt:
         'This solution includes connected weighing scales under the bins to provide information on the weight of organic and non-organic waste from an individual and overall perspective. This solution allows canteens to raise awareness and help to adapt menus and quantities.',
       yearOfValidation: 2021,
@@ -494,12 +513,14 @@ var pageData = {
       domains: ['AgriFood', 'Measurement', 'Waste Management'],
       docs: [],
       videos: [
-        ['Media 1', 'https://www.youtube.com/watch?v=QL6Oa2-swdA&t=13s']
+        ['Media 1', 'https://www.youtube.com/watch?v=QL6Oa2-swdA&t=13s'],
+        ['Media 2', 'https://www.youtube.com/watch?v=WiU1_vwH7KA']
       ],
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_EGM.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.picardiegazette.fr/wp-content/uploads/2020/12/IMG_5487-scaled.jpg',
       furtherImages: ''
     },
     'engineeringdss-curavesta': {
@@ -565,7 +586,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_DigitalEnabler.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.eng.it/resources/platform/digital-enabler/img/digital-enabler2-q1.jpg',
       furtherImages: ''
     },
     'sensowave-digitanimal': {
@@ -601,7 +623,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_DigitAnimal.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://i0.wp.com/digitanimal.com/wp-content/uploads/2020/12/DSC05390-1-2-min.jpg?resize=400%2C250&ssl=1',
       furtherImages: ''
     },
     'connectrobotics-drone2me': {
@@ -639,7 +662,7 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_ConnectRobotics.svg',
-      featuredImage: '',
+      featuredImage: 'https://connect-robotics.com/assets/m300.png',
       furtherImages: ''
     },
     'movisat-ecosat': {
@@ -701,7 +724,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Movisat.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.movisat.com/imagenes/sliders/6213a89f3d1b9.jpg',
       furtherImages: ''
     },
     'bosonit-elliotcloud': {
@@ -731,7 +755,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Bosonit.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://cdn.bosonit.com/n-content/uploads/2021/05/elliot-2-1024x512-1.jpg.webp',
       furtherImages: ''
     },
     'breezetechnologies-environmentalintelligencesuite': {
@@ -773,7 +798,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_BreezeTechnologies.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.breeze-technologies.de/wp-content/uploads/2016/02/Breeze-Concept-Design-2015-10-29-2-Map-View-Macbook.png',
       furtherImages: ''
     },
     'everimpact-everimpact': {
@@ -801,7 +827,8 @@ var pageData = {
       materials: [['Reference 1', 'http://www.everimpact.org/news']],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Everimpact.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://static.wixstatic.com/media/21208c_7b677a546b204233b3d4fae22a077c36~mv2.jpg/v1/crop/x_0,y_3,w_1753,h_1064/fill/w_1068,h_648,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/UI_edited.jpg',
       furtherImages: ''
     },
     'elmitel-evineyard': {
@@ -845,7 +872,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_eVineyard.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.evineyardapp.com/blog/wp-content/uploads/2021/08/Get-ready-for-grape-harvest-scaled.jpg',
       furtherImages: ''
     },
     'farmdogtechnologies-farmdog': {
@@ -874,7 +902,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_FarmDog.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://farmdog.ag/wp-content/uploads/2021/11/New-Project-1.png',
       furtherImages: ''
     },
     'fashioncloud-fashioncloud': {
@@ -902,7 +931,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_FashionCloud.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://fashion.cloud/wp-content/uploads/2020/09/Header2_70KB.jpg',
       furtherImages: ''
     },
     'fiwoo-fiwoo': {
@@ -958,7 +988,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_FIWOO.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.fiwoo.eu/wp-content/uploads/2020/09/ilustracion_fiwoo-1.svg',
       furtherImages: ''
     },
     'netzlink-flinknode': {
@@ -985,7 +1016,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Netzlink.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://netzlink.com/wp-content/uploads/2019/12/Netzwerk-bei-Netzlink-3.jpg',
       furtherImages: ''
     },
     'floud-floud': {
@@ -1026,7 +1058,7 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Floud.svg',
-      featuredImage: '',
+      featuredImage: 'https://www.floud.eu/img/products/vehiclecounter.png',
       furtherImages: ''
     },
     'freesense-freesense': {
@@ -1054,7 +1086,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_FreeSense.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://uploads-ssl.webflow.com/613b5a18ce2b592d76068e5f/62681499d6f738aef8e8d942_tannaz-doing-stuff.jpg',
       furtherImages: ''
     },
     'tsenso-freshindex': {
@@ -1110,7 +1143,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Tsenso.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://freshindex.eu/wp-content/uploads/2020/10/FI-APP-357x682-meat-357x680.png',
       furtherImages: ''
     },
     'fueloyal-fueloyal': {
@@ -1138,7 +1172,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_FueLoyal.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.fueloyal.com/wp-content/themes/fueloyal2020/images/home/truck.jpg',
       furtherImages: ''
     },
     'greenapes-greenapes': {
@@ -1166,7 +1201,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_GreenApes.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.greenapes.com/wp-content/uploads/2021/10/home-banner-4-azienda.png.webp',
       furtherImages: ''
     },
     'gymcraft-gymcraft': {
@@ -1195,7 +1231,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_GymCraft.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://gymcraft.es/wp-content/uploads/2017/09/vrpeople.png',
       furtherImages: ''
     },
     'helix-helix': {
@@ -1235,7 +1272,7 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/raster/logo_Helix.png',
-      featuredImage: '',
+      featuredImage: 'https://gethelix.org/assets/img/vector/15.png',
       furtherImages: ''
     },
     'limmatgroup-imas': {
@@ -1291,7 +1328,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_Imas%2B.png',
-      featuredImage: '',
+      featuredImage:
+        'https://limmat-group.com/wp-content/uploads/2019/08/1recortado.png',
       furtherImages: ''
     },
     'amigo-indexdesignandanalysis': {
@@ -1327,7 +1365,7 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Amigo.svg',
-      featuredImage: '',
+      featuredImage: 'https://amigoclimate.com/assets/img/demo2.gif',
       furtherImages: ''
     },
     'ubikwa-insylo': {
@@ -1382,7 +1420,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Insylo.svg',
-      featuredImage: '',
+      featuredImage:
+        'http://www.insylo.com/wp-content/uploads/2016/08/insylo-5.png',
       furtherImages: ''
     },
     'snap4city-km4city': {
@@ -1452,7 +1491,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Snap4City.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.km4city.org/img-new/snap4city-logo-02-km4city.jpg',
       furtherImages: ''
     },
     'lahakx-skyxpass': {
@@ -1502,7 +1542,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_LahakX.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://static.wixstatic.com/media/523fef_cc90d2fd5dce42b58c0f0558ce641858~mv2.png/v1/fill/w_1182,h_1180,al_c,q_95,enc_auto/Lahaks1.png',
       furtherImages: ''
     },
     'líneaciudadana-líneaciudadana': {
@@ -1532,7 +1573,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_LineaCiudadana.svg',
-      featuredImage: '',
+      featuredImage:
+        'http://www.lineaciudadana.com/wp-content/uploads/2016/10/img_disponible_para.png',
       furtherImages: ''
     },
     'hopu-lowemissionzones': {
@@ -1564,7 +1606,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Hopu.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://atmosphere.hopu.eu/public/img/grafana_header_icon.svg',
       furtherImages: ''
     },
     'atos-masai': {
@@ -1600,7 +1643,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_Masai.png',
-      featuredImage: '',
+      featuredImage:
+        'https://booklet.atosresearch.eu/sites/booklet/files/public/styles/medium/public/content-images/media/2020/industry.png?itok=9d9r2H2A',
       furtherImages: ''
     },
     'sensohivetechnologiesaps-maturix': {
@@ -1628,7 +1672,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Maturix.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://maturix.com/wp-content/uploads/2020/12/MockupMaturixInsitu.png',
       furtherImages: ''
     },
     'mermix-mermix': {
@@ -1711,7 +1756,7 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Phoops.svg',
-      featuredImage: '',
+      featuredImage: 'https://muv-app.city/assets/images/muv-ecosystem.png',
       furtherImages: ''
     },
     'nixi1-nixi1': {
@@ -1748,7 +1793,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_nixi1.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.nixi1.com/wp-content/uploads/2020/10/metricas@2x.png',
       furtherImages: ''
     },
     'dksr-openurbandataplatform': {
@@ -1781,7 +1827,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_DKSR.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.dksr.city/wp-content/uploads/2021/04/201103-DKSR-Grafik-Architektur-transparent.svg',
       furtherImages: ''
     },
     'openmove-openmove': {
@@ -1816,7 +1863,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_OpenMove.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.openmove.com/wp-content/uploads/2020/10/atlas3.png',
       furtherImages: ''
     },
     'martelinnovate-orchestracities': {
@@ -1858,7 +1906,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_OrchestraCities.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.orchestracities.com/wp-content/uploads/sites/36/2019/05/oc-smartcity.png',
       furtherImages: ''
     },
     'faubourgnumérique-ouranosws': {
@@ -1891,7 +1940,7 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_OuranosWS.svg',
-      featuredImage: '',
+      featuredImage: 'https://ouranos-ws.com/images/image1.png',
       furtherImages: ''
     },
     'secondnature-ourpath': {
@@ -1907,7 +1956,7 @@ var pageData = {
         'Bringing together behavioural science, technology, and great people to tackle the global epidemic of chronic lifestyle diseases once and for all, OurPath is an online program that helps you make the changes you need to get healthy.',
       yearOfValidation: 2018,
       description:
-        '<p>OurPath helps people take control of their health and save our NHS. How? By bringing together behavioral science, technology, and great people to tackle the global epidemic of chronic lifestyle diseases once and for all.</p>\n<ul>\n<li><p>Find an adequate way to eat/diet  : Learn to eat well without counting calories or cutting food groups and develop a healthy relationship with food.</p></li>\n<li><p>Get daily support from an expert: Your online health coach will keep you accountable every single day and get you back on track when things go wrong. </p></li>\n<li><p>Use the latest tech to stay on track: Track your progress whenever and wherever to stay motivated – using the app, our smart scales, and activity tracker.</p></li>\n</ul>\n<p>In turn the OurPath app and health coaches will help you eat better and move more – consistently.</p>',
+        '<p>OurPath helps people take control of their health and save our NHS. How? By bringing together behavioral science, technology, and great people to tackle the global epidemic of chronic lifestyle diseases once and for all.</p>\n<ul>\n<li>Find an adequate way to eat/diet  : Learn to eat well without counting calories or cutting food groups and develop a healthy relationship with food.</li>\n<li>Get daily support from an expert: Your online health coach will keep you accountable every single day and get you back on track when things go wrong. </li>\n<li>Use the latest tech to stay on track: Track your progress whenever and wherever to stay motivated – using the app, our smart scales, and activity tracker.</li>\n</ul>\n<p>In turn the OurPath app and health coaches will help you eat better and move more – consistently.</p>',
       challenge:
         '<p>Type 2 diabetes is an epidemic that is crippling global healthcare systems. In the UK, the NHS spends around £9 billion/year treating it – almost 10% of the entire NHS budget. However, those at risk often don’t make the lifestyle improvements they need to, or they fail to sustain the changes they have made. Their progress is often stunted by lack of continued motivation, lack of knowledge or not having an effective support network.</p>\n<p>OurPath’s vision is to develop a holistic, scalable and cost-effective programme for the prevention of type 2 diabetes, and by extension, a healthier population.</p>',
       references:
@@ -1920,7 +1969,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_SecondNature.png',
-      featuredImage: '',
+      featuredImage:
+        'https://cdn.secondnature.io/_next/image?url=https%3A%2F%2Fcdn.secondnature.io%2F_next%2Fstatic%2Fmedia%2Fhero-desktop.c3714f9f.png&w=3840&q=75',
       furtherImages: ''
     },
     'digitalilusion-outbarriers': {
@@ -1961,7 +2011,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_OutBarriers.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://outbarriers.com/static/img/outbarriers-app-mockup-vertical.jpg',
       furtherImages: ''
     },
     'pycno-pycno': {
@@ -1989,7 +2040,7 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Pycno.svg',
-      featuredImage: '',
+      featuredImage: 'https://pycno.co/assets/img/landing_sensor6.jpg',
       furtherImages: ''
     },
     'futureintelligence-quhoma': {
@@ -2049,7 +2100,7 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_FutureIntelligence.svg',
-      featuredImage: '',
+      featuredImage: 'http://quhoma.com/wp-content/uploads/2015/04/bg2.jpg',
       furtherImages: ''
     },
     'projectray-ray': {
@@ -2090,7 +2141,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Ray.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://scontent-frt3-2.xx.fbcdn.net/v/t1.6435-9/31961875_1704048273005633_3155524605653811200_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e3f864&_nc_ohc=j742Q7Ba4-YAX-tLIli&_nc_oc=AQmWeV2mGFVfcm6sCJ6NSw7815bT6ENvJq5vPwKfxhiQJFoSQBoBSyIv18TKLo4gD1Y&_nc_ht=scontent-frt3-2.xx&oh=00_AT9w-HmVBz19IiDuMyFVUp1PF8z8zIDqxGGTSyyzTegwSw&oe=6304EC17',
       furtherImages: ''
     },
     'tablegrabber-rezguru': {
@@ -2123,7 +2175,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_RezGuru.png',
-      featuredImage: '',
+      featuredImage:
+        'https://www.rezguru.com/assets/Family-Portrait_WithApps_IphoneX-1.png',
       furtherImages: ''
     },
     'purpleblob-sara': {
@@ -2167,7 +2220,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_PurpleBlob.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://purpleblob.net/wp-content/uploads/2019/04/logo-sara.png',
       furtherImages: ''
     },
     'accelogresslimited-saveaspace': {
@@ -2200,7 +2254,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_save-a-space.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://save-a-space.com/wp-content/uploads/2021/05/mockup-1.png',
       furtherImages: ''
     },
     'scuter-scuter': {
@@ -2229,7 +2284,8 @@ var pageData = {
       materials: [['Reference 1', 'http://scuter.co/news']],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_Scuter.png',
-      featuredImage: '',
+      featuredImage:
+        'https://www.scuter.co/wp-content/uploads/2018/03/Table_Phone-copy-2-600x600.png',
       furtherImages: ''
     },
     'hearingsoftware-sendacare': {
@@ -2257,7 +2313,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_byHS.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://byhs.eu/static/senda_v2/images/xdispositivo_y_app_senda.png.pagespeed.ic.Y67xrX4mUl.webp',
       furtherImages: ''
     },
     'sensei-sensei': {
@@ -2290,7 +2347,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Sensei.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://uploads-ssl.webflow.com/62431e3fd7cf49181578fe0d/628bc87b3c72576c210e2dbb_Untitled-2.jpg',
       furtherImages: ''
     },
     'sirusnv-siruscitystore': {
@@ -2323,7 +2381,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Sirus.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://i0.wp.com/sirus.be/sirus_afbeeldingen/2020/04/Smartcities.png?w=2120&ssl=1',
       furtherImages: ''
     },
     'egm-smartirrigation': {
@@ -2357,7 +2416,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_EGM.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.egm.io/wp-content/uploads/2020/10/7-scaled.jpg',
       furtherImages: ''
     },
     'sammy-smartmarinaplatform': {
@@ -2391,7 +2451,7 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_SaMMY.svg',
-      featuredImage: '',
+      featuredImage: 'https://www.sammyacht.com/sammy/website//img/mobile.png',
       furtherImages: ''
     },
     'jig-smartappcity': {
@@ -2458,7 +2518,7 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Jig.svg',
-      featuredImage: '',
+      featuredImage: 'https://smartappcity.com/images/comercios3.jpg',
       furtherImages: ''
     },
     'ubiwhere-smartlamppost': {
@@ -2486,7 +2546,7 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Ubiwhere.svg',
-      featuredImage: '',
+      featuredImage: 'https://www.ubiwhere.com/files/images/70D-0416.jpg',
       furtherImages: ''
     },
     'stoneone-smartorchestra': {
@@ -2518,7 +2578,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_StoneOne.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://stoneone.de/wp-content/uploads/2018/03/e2watch_auf_smartOrchestra_Plattform-600x317.png',
       furtherImages: ''
     },
     'snap4city-snap4city': {
@@ -2586,7 +2647,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Snap4City.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.snap4city.org/download/video/header-snap4city-new-v04-ORIZZONTALE-text-only2.png',
       furtherImages: ''
     },
     'civity-snifferbike': {
@@ -2641,7 +2703,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_SnifferBike.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://civity.nl/wp-content/uploads/2019/11/Snifferbike-MdN-rotonde-auto-logo-16-9-2048x1152.jpg',
       furtherImages: ''
     },
     'communithings-stopbuy': {
@@ -2658,7 +2721,7 @@ var pageData = {
         'Stop-buy is a smart parking solution favoring rapid rotation of vehicles and stimulation of local commerce. It guides users to the nearest parking and optimizes operational efficiencies for parking managers.',
       yearOfValidation: 2017,
       description:
-        '<p>Stop- buy is a smart parking solution favoring rapid rotation of vehicles and stimulation of local commerce. Stop - buy zones, offering short duration parking, are set-up in nearby commercial areas across the city. Each zone is composed of parking spots equipped with sensors, detecting the presence of cars and recording their parking duration.The solution includes a mobile app advising users of available parking and navigating them to the nearest spot, and enabling navigation to the available space. Once checked-in, the timer on the app advises on time remaining, controllers are informed real-time of elapsed parking duration, allowing for efficient fine-handling of cars in breach. Parking managers receive statistics on usage patterns per parking and comparative analysis between periods (hours, days, etc.). Finally, retailers may incentivize shopping by offering digital parking time extensions to shoppers. Stop-buy offers considerable advantages to all parties involved:</p>\n<ul>\n<li>For residents: real-time availability of spaces, check-in, navigation, timer </li>\n<li>For controllers: occupancy and infringement handling </li>\n<li>For retailers: becoming involved in attracting shoppers even without ownership of adjacent parking spaces </li>\n<li>For the municipality: usage patterns information enabling daily records for further uses</li>\n</ul>',
+        '<p><strong>Stop- buy</strong> is a smart parking solution favoring rapid rotation of vehicles and stimulation of local commerce. Stop - buy zones, offering short duration parking, are set-up in nearby commercial areas across the city. Each zone is composed of parking spots equipped with sensors, detecting the presence of cars and recording their parking duration.The solution includes a mobile app advising users of available parking and navigating them to the nearest spot, and enabling navigation to the available space. Once checked-in, the timer on the app advises on time remaining, controllers are informed real-time of elapsed parking duration, allowing for efficient fine-handling of cars in breach. Parking managers receive statistics on usage patterns per parking and comparative analysis between periods (hours, days, etc.). Finally, retailers may incentivize shopping by offering digital parking time extensions to shoppers. Stop-buy offers considerable advantages to all parties involved:</p>\n<ul>\n<li>For residents: real-time availability of spaces, check-in, navigation, timer </li>\n<li>For controllers: occupancy and infringement handling</li>\n<li>For retailers: becoming involved in attracting shoppers even without ownership of adjacent parking spaces For the municipality: usage patterns information enabling daily records for further uses</li>\n</ul>',
       challenge:
         '<p>Stop-buy aims to solve the problem of traffic congestion due to lengthy parking search. 30% of traffic congestion is due to searching for a parking spot. Insufficient parking capacity in city centers results in cars cruising for space and making it unpredictable to plan shopping visits. In addition, due to lengthy/long stays of vehicles during the day, each parking spot generated less than three rotations a day. The parking meters in place cannot address the low rotation issue, and the steward resources are often insufficient to reduce parking infringement. The impact on local retailers is considerable and requires innovative action to reduce parking search while increasing parking rotation and shopping incentives.</p>',
       references:
@@ -2671,7 +2734,7 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_CommuniThings.svg',
-      featuredImage: '',
+      featuredImage: 'https://www.communithings.com/img/ct_phone_landing.png',
       furtherImages: ''
     },
     'stratio-stratioautomotive': {
@@ -2698,7 +2761,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Stratio.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://stratioautomotive.com/wp-content/uploads/2020/10/ops.jpg',
       furtherImages: ''
     },
     'telenetgroup-telenettinx': {
@@ -2726,7 +2790,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Telenet.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://cdn.uc.assets.prezly.com/05ce55be-a3ff-44f8-be67-1f5b040de1e6/-/preview/600x600/-/quality/best/-/format/auto/',
       furtherImages: ''
     },
     'telefónica-thinkingcities': {
@@ -2792,7 +2857,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Telefonica.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQcPj405p6XrT8AtCNRTUy_MEiNmJsApD_uVbflIbx96ejjUnJnVEkJ1oPxnd_x1cTRnk&usqp=CAU',
       furtherImages: ''
     },
     'absolutezero-thor': {
@@ -2820,7 +2886,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_AbsoluteZero.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://i0.wp.com/360rumors.com/wp-content/uploads/2017/12/Screenshot-2018-01-02-at-1.40.00-PM.png?fit=612%2C416&ssl=1',
       furtherImages: ''
     },
     'tracelabs-tracelabs': {
@@ -2876,7 +2943,7 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_TraceLabs.svg',
-      featuredImage: '',
+      featuredImage: 'https://tracelabs.io/new-website-images/Group%201094.svg',
       furtherImages: ''
     },
     'atos-urbandataplatform': {
@@ -2938,7 +3005,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Atos.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://atos.net/wp-content/uploads/2021/03/udp-statista-2020.jpg',
       furtherImages: ''
     },
     'ubiwhere-urbanplatform': {
@@ -2992,7 +3060,7 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Ubiwhere.svg',
-      featuredImage: '',
+      featuredImage: 'https://urbanplatform.city/img/map_city.png',
       furtherImages: ''
     },
     'carto-urbo': {
@@ -3025,7 +3093,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Carto.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://images.ctfassets.net/xts27qnup0jr/6mYqiUsXHXQ7laztB988DH/36db94661f31bb657986980af0c2fd09/cities-government.jpg',
       furtherImages: ''
     },
     'sentio-vistra': {
@@ -3053,7 +3122,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Sentio.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.sentio.net/wp-content/uploads/2022/03/benefits2.jpg',
       furtherImages: ''
     },
     'viur-viur': {
@@ -3081,7 +3151,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Viur.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.viurdata.com/images/product-features-mobile.png',
       furtherImages: ''
     },
     'universityofdeusto-waste4think': {
@@ -3112,7 +3183,8 @@ var pageData = {
       materials: [['Reference 1', 'http://waste4think.eu/news-events']],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Waste4Think.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://waste4think.eu/wp-content/uploads/W4T_30-1024x577.png',
       furtherImages: ''
     },
     'vm9-we4city': {
@@ -3159,7 +3231,7 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Vm9.svg',
-      featuredImage: '',
+      featuredImage: 'http://www.vm9it.com/assets/img/wien-mobil.jpg',
       furtherImages: ''
     },
     'teamdev-wisetown': {
@@ -3197,7 +3269,7 @@ var pageData = {
         'Utilities',
         'Oil and Gas'
       ],
-      docs: [['Document 1', 'Press Release'], ['Document 2', 'Press Release']],
+      docs: [],
       videos: [
         ['Media 1', 'https://vimeo.com/172887166'],
         ['Media 2', 'https://www.youtube.com/channel/UCT_epf3tfO6iO8zEnN3dYJA'],
@@ -3220,7 +3292,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_WiseTown.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.fiware.org/wp-content/uploads/ImpactStories_SliderWebsite_WiseTown-1080x675.png',
       furtherImages: ''
     },
     'teamdev-wisetowncrowdplanning': {
@@ -3268,7 +3341,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_WiseTown.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://wise.town/wp-content/uploads/2022/02/Crowd-Planning-Tablet.jpg',
       furtherImages: ''
     },
     'teamdev-wisetowngeoanalytics': {
@@ -3321,7 +3395,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_WiseTown.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://wise.town/wp-content/uploads/2022/01/Geoanalytics_landscape-800x578.jpg',
       furtherImages: ''
     },
     'teamdev-wisetownissuemanager': {
@@ -3332,7 +3407,8 @@ var pageData = {
       organisationEmail: 'mailto:e.piselli@teamdev.it',
       linkedIn: 'https://www.linkedin.com/company/wisetown',
       twitter: 'https://twitter.com/WiseTownProject',
-      productWebsite: 'https://wise.town/en/cities/issue-manager/',
+      productWebsite:
+        'https://wise.town/en/cities/citizen-alert-system/#:~:text=WiseTown%20Issue%20Manager%20is%20the,reporting%20by%20the%20public%20administration.',
       excerpt:
         'WiseTown Issue Manager is a digital system that enables citizens to support the city government by reporting city issues; at the same time it simplifies the internal workflow of the public administration by automating processes and improving the work of the operators',
       yearOfValidation: 2014,
@@ -3363,7 +3439,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_WiseTown.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://wise.town/wp-content/uploads/2022/01/IssueManager_tablet-800x578.jpg',
       furtherImages: ''
     },
     'teamdev-wisetownopendatamanager': {
@@ -3409,7 +3486,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_WiseTown.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://wise.town/wp-content/uploads/2022/02/OpenDataManager__landscape-800x578.jpg',
       furtherImages: ''
     },
     'teamdev-wisetownsituationroom': {
@@ -3468,7 +3546,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_WiseTown.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://wise.town/wp-content/uploads/2022/02/Situation-Room-Tablet.jpg',
       furtherImages: ''
     },
     'teamdev-wisetownthematicdashboard': {
@@ -3515,7 +3594,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_WiseTown.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://wise.town/wp-content/uploads/2022/02/Thematic-Dashbard-Tablet-1.jpg',
       furtherImages: ''
     },
     'witrac-witrac': {
@@ -3547,7 +3627,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Witrac.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://witrac.io/wp-content/uploads/2020/09/iMac-home.jpg',
       furtherImages: ''
     },
     'yerbabuenavr-ybvr': {
@@ -3575,7 +3656,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_ybvr.png',
-      featuredImage: '',
+      featuredImage:
+        'https://static.wixstatic.com/media/1ad670_4a20852e80c14b3a9fbc1bab39cb2708~mv2.jpg/v1/fill/w_1906,h_776,al_tl,q_85,enc_auto/1ad670_4a20852e80c14b3a9fbc1bab39cb2708~mv2.jpg',
       furtherImages: ''
     },
     'sensative-yggioplatform': {
@@ -3634,7 +3716,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Yggio.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://sensative.com/wp-content/uploads/2022/02/Yggio-DIMS-the-IoT-brain.medium.jpg.webp',
       furtherImages: ''
     }
   },
@@ -3662,11 +3745,15 @@ var pageData = {
       technologies: ['Sensory Systems'],
       domains: ['AgriFood'],
       docs: [],
-      videos: [['Media 1', 'AgriPlug']],
-      materials: [['Reference 1', 'Press Review']],
+      videos: ['AgriPlug', 'https://www.youtube.com/watch?v=hVHW7QIJMd8'],
+      materials: [
+        'Press Review',
+        'https://www.agricolus.com/wp-content/uploads/2017/05/Agricolus_PressReview_7_2017.pdf'
+      ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Agricolus.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.agricolus.com/wp-content/uploads/2021/01/device-gen-2021-1.png',
       furtherImages: ''
     },
     'itudemobile-babbler': {
@@ -3693,7 +3780,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Babbler.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://itude.com/wp-content/uploads/2019/01/Schermafbeelding-2019-02-12-om-17.04.00.png',
       furtherImages: ''
     },
     'datakorumsolutions-beat': {
@@ -3704,7 +3792,8 @@ var pageData = {
       organisationEmail: 'mailto:info@datakorum.com',
       linkedIn: 'https://www.linkedin.com/company/datakorum/',
       twitter: 'https://twitter.com/datakorum?lang=es',
-      productWebsite: 'https://www.datakorum.com/site/iot-devices/?lang=en',
+      productWebsite:
+        'https://www.datakorum.com/site/wp-content/uploads/2019/11/beat_dk-en.jpg',
       excerpt:
         'We provide different solutions that have been designed in order to simplify and optimize waste collection and treatment processes for Smart Cities. Also, we offer load control or dynamic weighing systems in vehicles and provide solutions that have been designed to make work processes easier.',
       yearOfValidation: 2018,
@@ -3715,15 +3804,13 @@ var pageData = {
       awards: '',
       technologies: ['Internet of Things', 'Cloud Computing'],
       domains: ['Cities'],
-      docs: [
-        ['Document 1', 'Technical specifications'],
-        ['Document 2', 'Manual Template']
-      ],
+      docs: [],
       videos: [],
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Datakorum.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.datakorum.com/site/wp-content/uploads/2019/11/beat_dk-en.jpg',
       furtherImages: ''
     },
     'breezetechnologies-breezeairqualitysensors': {
@@ -3748,12 +3835,13 @@ var pageData = {
         "<p>FIWARE Business Success Story\n*ship Global Startup Challenge (GSC) 2017 Winner (04.2017)\nWE DO DIGITAL award / DIHK &amp; German chambers of industry and commerce (05.2017)\nDeutschland: Land der Ideen (Germany: Land of Ideas / incl. distinction from German president) (06.2017)\nHamburger Gründerpreis (Hamburg Founders' Award) (09.2017)\nEU Top 50 (11.2017)\nScience4Life: Idea Phase (11.2017)\nForbes 30 Under 30 Europe / Social Entrepreneurship (01.2018)\nWE DO DIGITAL 2018 award / DIHK &amp; German chambers of industry and commerce (06.2018)\nbetapitch Hamburg Winner (06.2018)\nGründerwettbewerb Digitale Innovation (08.2018)\nWECONOMY (10.2018)\nbetapitch global Winner (11.2018)\nFür-Gründer.de Top50 Startup (01.2019)</p>",
       technologies: ['Artificial Intelligence', 'Cloud Computing'],
       domains: ['Cities', 'Industry', 'Ports'],
-      docs: [['Document 1', 'Breeze Technologies Solutions']],
-      videos: [['Media 1', 'YouTube Channel']],
-      materials: [['Reference 1', 'Customer cases and References']],
+      docs: [],
+      videos: [],
+      materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_BreezeTechnologies.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.breeze-technologies.de/wp-content/uploads/2016/02/Breeze-Concept-Design-2015-10-29-2-Map-View-Macbook.png',
       furtherImages: ''
     },
     'senecoas-citygrid': {
@@ -3789,22 +3877,13 @@ var pageData = {
         'Utilities',
         'Oil and Gas'
       ],
-      docs: [
-        ['Document 1', 'Motion adaptive street lighting'],
-        ['Document 2', 'Citygrid CONTROLLERs']
-      ],
-      videos: [
-        ['Media 1', 'YouTube Channel'],
-        ['Media 2', 'Smart lighting in Middelfart'],
-        ['Media 3', 'How e-Sense Motion works']
-      ],
-      materials: [
-        ['Reference 1', 'Press Release'],
-        ['Reference 2', 'Seneco -Viborg References']
-      ],
+      docs: [],
+      videos: [],
+      materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_CityGrid.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://static.wixstatic.com/media/5a3321_70eb48c9243d4a6a88f0df0df6475b99~mv2.jpg/v1/fill/w_640,h_358,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/5a3321_70eb48c9243d4a6a88f0df0df6475b99~mv2.jpg',
       furtherImages: ''
     },
     'datakorumsolutions-cs40': {
@@ -3862,7 +3941,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/software-enabler/logo_Engineering.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.eng.it/resources/cases/cs_imp_case_16-11-2020_dashram_it_1605516526298/dashram_q.jpg',
       furtherImages: ''
     },
     'sensowave-digitanimal': {
@@ -3886,19 +3966,13 @@ var pageData = {
       awards: '',
       technologies: ['Open Data'],
       domains: ['AgriFood'],
-      docs: [
-        ['Document 1', 'Technologies-Innovation Digitanimal'],
-        ['Document 2', 'Location and livestock tracking'],
-        ['Document 3', 'Monitoring and animal locating'],
-        ['Document 5', 'Location and control of the animal']
-      ],
-      videos: [['Media 1', 'YouTube channel/Digitanimal']],
-      materials: [
-        ['Reference 1', 'Case study: a GPS location system for goats']
-      ],
+      docs: [],
+      videos: [],
+      materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_DigitAnimal.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://i0.wp.com/digitanimal.com/wp-content/uploads/2020/12/DSC05390-1-2-min.jpg?resize=400%2C250&ssl=1',
       furtherImages: ''
     },
     'sensowave-digitanimallivestockgps': {
@@ -3936,7 +4010,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_DigitAnimal.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://digitanimal.co.uk/wp-content/uploads/2020/03/producto_vaca.jpg',
       furtherImages: ''
     },
     'egm-edgespot': {
@@ -3975,7 +4050,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_EGM.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.egm.io/wp-content/uploads/2020/08/about-egm.png',
       furtherImages: ''
     },
     'elmitel-evineyard': {
@@ -4009,7 +4085,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_eVineyard.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.evineyardapp.com/blog/wp-content/uploads/2021/08/Get-ready-for-grape-harvest-scaled.jpg',
       furtherImages: ''
     },
     'telocate-fiassist': {
@@ -4040,7 +4117,8 @@ var pageData = {
       materials: [['Reference 1', 'https://en.telocate.de/press-reactions']],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/software-enabler/logo_FI-Assist.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://de.telocate.de/wp-content/uploads/20190822_141557_proc_resize-1024x631.jpg',
       furtherImages: ''
     },
     'srmconsulting-fiwaremapviewer': {
@@ -4075,7 +4153,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/software-enabler/logo_SRM.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://srmconsulting.es/assets/img/blog/fiware-map-viewer-srmconsulting.jpg',
       furtherImages: ''
     },
     'ventuminnovacion-gaviláncontrol': {
@@ -4114,7 +4193,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/software-enabler/logo_GavillanControl.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://ventumidc.es/wp-content/uploads/2021/10/soluciones-tecnologicas-ganaderia18-400x383_c.jpg',
       furtherImages: ''
     },
     'gecorsystem-gecor': {
@@ -4168,7 +4248,7 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/software-enabler/logo_Gecor.svg',
-      featuredImage: '',
+      featuredImage: 'https://gecorweb.com/images/HomeNI.webp',
       furtherImages: ''
     },
     'ubikwa-insylo': {
@@ -4228,7 +4308,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Insylo.svg',
-      featuredImage: '',
+      featuredImage:
+        'http://www.insylo.com/wp-content/uploads/2016/08/insylo-5.png',
       furtherImages: ''
     },
     'seaconeurope-intellifood': {
@@ -4261,7 +4342,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Seacon.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.seacon.hu/images/palyazati_anyagok/Intellifood-Business-Overview.jpg',
       furtherImages: ''
     },
     'odinsolutions-ipex04datalogger': {
@@ -4294,7 +4376,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Odins.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.odins.es/wp-content/uploads/2017/04/IPex04.png',
       furtherImages: ''
     },
     'odinsolutions-ipex12datalogger': {
@@ -4332,7 +4415,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Odins.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.odins.es/wp-content/uploads/2017/04/IPex12-v4.jpg',
       furtherImages: ''
     },
     'odinsolutions-ipex16datalogger': {
@@ -4367,7 +4451,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Odins.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.odins.es/wp-content/uploads/2017/04/IPex16-2.png',
       furtherImages: ''
     },
     'kmblab-kissmybike': {
@@ -4398,7 +4483,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/raster/logo_KMBLab.png',
-      featuredImage: '',
+      featuredImage:
+        'https://media-exp1.licdn.com/dms/image/C561BAQFuQY7brqieWA/company-background_10000/0/1563375031363?e=2147483647&v=beta&t=k3Hj__QSZ5QKThT770HP9XKv_zxovOpY2imfLFrXJHU',
       furtherImages: ''
     },
     'engineering-knowage': {
@@ -4458,7 +4544,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/software-enabler/logo_KnowAge.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.knowage-suite.com/site/wp-content/uploads/2021/09/knowage-screen-overview-540x400.jpg',
       furtherImages: ''
     },
     'datakorumsolutions-lane': {
@@ -4490,7 +4577,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Datakorum.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.datakorum.com/site/wp-content/uploads/2018/09/lane_aforo_dk_eng-1.jpg',
       furtherImages: ''
     },
     'datakorumsolutions-lb40': {
@@ -4517,7 +4605,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Datakorum.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
       furtherImages: ''
     },
     'datakorumsolutions-lc40': {
@@ -4544,7 +4633,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Datakorum.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
       furtherImages: ''
     },
     'secmotic-lockart': {
@@ -4555,8 +4645,7 @@ var pageData = {
       organisationEmail: 'mailto:info@secmotic.com',
       linkedIn: 'https://www.linkedin.com/company/secmotic/',
       twitter: 'https://twitter.com/secmotic',
-      productWebsite:
-        'https://secmotic.com/lockart-cerradura-inteligente/#gref',
+      productWebsite: 'https://secmotic.com/#gref',
       excerpt:
         'LockArt device is the new generation of locks. It installs in the blink of an eye, and it is compatible with all types of locks thanks to its adjustable back piece.',
       yearOfValidation: 2017,
@@ -4579,7 +4668,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Secmotic.svg',
-      featuredImage: '',
+      featuredImage:
+        'http://secmotic.com/wp-content/uploads/2020/12/secmotic_concepto_web_sec.png',
       furtherImages: ''
     },
     'datakorumsolutions-ls40': {
@@ -4590,7 +4680,7 @@ var pageData = {
       organisationEmail: 'mailto:info@datakorum.com',
       linkedIn: 'https://www.linkedin.com/company/datakorum/',
       twitter: 'https://twitter.com/datakorum?lang=es',
-      productWebsite: 'http://e3tcity.com/en/ls40/',
+      productWebsite: 'https://www.datakorum.com/site/iot-devices/?lang=en',
       excerpt:
         'E3TLight system allows remote control and monitoring of any new or existing streetlight network. This control is achieved by installing one E3TLight device just before the lights section we want to command.',
       yearOfValidation: 2017,
@@ -4606,7 +4696,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Datakorum.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.datakorum.com/site/wp-content/uploads/2018/06/software_dk-1.jpg',
       furtherImages: ''
     },
     'srmconsulting-mavdrone': {
@@ -4636,7 +4727,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_SRM.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://srmconsulting.es/assets/img/blog/mavdrone-srm-consulting.png',
       furtherImages: ''
     },
     'datakorumsolutions-mb43': {
@@ -4663,7 +4755,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Datakorum.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
       furtherImages: ''
     },
     'libelium-meshlium': {
@@ -4701,7 +4794,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Libelium.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.libelium.com/wp-content/uploads/2020/08/PRODUCTS-elements-detail-ps-9-min-768x768.png',
       furtherImages: ''
     },
     'odinsolutions-mex06datalogger': {
@@ -4741,7 +4835,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Odins.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.odins.es/wp-content/uploads/2017/04/IPex12-v4.jpg',
       furtherImages: ''
     },
     'eficae-miluz': {
@@ -4778,7 +4873,7 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Miluz.svg',
-      featuredImage: '',
+      featuredImage: 'https://miluz.eficae.es/assets/img/login/logo.svg',
       furtherImages: ''
     },
     'eficaesoluciones-industrialmeter40': {
@@ -4805,8 +4900,9 @@ var pageData = {
       docs: [],
       videos: [],
       materials: [],
-      logo: '',
-      featuredImage: '',
+      logo:
+        'https://www.eficaesoluciones.com/wp-content/uploads/sites/3/2022/01/logoeficae.png',
+      featuredImage: 'https://pbs.twimg.com/media/D2wdBsSWwAANedJ.jpg',
       furtherImages: ''
     },
     'datakorumsolutions-ms41': {
@@ -4833,7 +4929,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Datakorum.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
       furtherImages: ''
     },
     'secmotic-muvone': {
@@ -4862,7 +4959,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Secmotic.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.muvone.com/wp-content/uploads/2015/01/muvone-dispositivo-prevencion-osteoporosis-render-1-e1496664254630.jpg',
       furtherImages: ''
     },
     'greenglobesypa-nighteyeskysensor': {
@@ -4901,7 +4999,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_GreenGlobe.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.greenglobe.es/wp-content/uploads/2019/04/IMG_1788-Recuperado-2.png',
       furtherImages: ''
     },
     'digitalilusion-outbeacon': {
@@ -4929,7 +5028,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_OutBarriers.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://outbarriers.com/static/img/outbarriers-app-mockup-vertical.jpg',
       furtherImages: ''
     },
     'datakorumsolutions-peak': {
@@ -4962,7 +5062,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Datakorum.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.datakorum.com/site/wp-content/uploads/2018/09/peak_dk_eng.jpg',
       furtherImages: ''
     },
     'datakorumsolutions-plug': {
@@ -4998,7 +5099,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Datakorum.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.datakorum.com/site/wp-content/uploads/2018/09/plug-series_eng.jpg',
       furtherImages: ''
     },
     'libelium-plugsense': {
@@ -5009,7 +5111,7 @@ var pageData = {
       organisationEmail: '',
       linkedIn: '',
       twitter: '',
-      productWebsite: 'https://www.libelium.com',
+      productWebsite: 'https://www.libelium.com/iot-products/plug-sense/',
       excerpt:
         'Plug&Sense is an IoT Device that offers its users several benefits such as easily attachment of the Sensor probes, solar panel option battery recharge, the 4G module features a GPS receiver etc.',
       yearOfValidation: 2017,
@@ -5036,7 +5138,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Libelium.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.libelium.com/wp-content/uploads/2020/09/SOLUTIONS-product-generico.png',
       furtherImages: ''
     },
     'datakorumsolutions-pole': {
@@ -5072,7 +5175,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Datakorum.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.datakorum.com/site/wp-content/uploads/2018/09/equipo_cabecera_DK_eng.jpg',
       furtherImages: ''
     },
     'wellnesstechgroup-quamtra': {
@@ -5106,7 +5210,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_WellnessTechGroup.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://wellnesstg.com/wp-content/uploads/2019/05/quamtramanager.png',
       furtherImages: ''
     },
     'panstamp-respirafiware': {
@@ -5135,7 +5240,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Respira.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://panstamp.github.io/respira_fiware/docs/img/respira_fiware_pic08.jpg',
       furtherImages: ''
     },
     'datakorumsolutions-sc40': {
@@ -5212,7 +5318,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/software-enabler/logo_Urbaser.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.urbaser.com/wp-content/uploads/2020/06/logo_sensiot_mod-02_5.jpg',
       furtherImages: ''
     },
     'distromel-sigeus': {
@@ -5271,7 +5378,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/software-enabler/logo_Distromel.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://distromel.com/wp-content/uploads/2019/11/slider-03-1.jpg',
       furtherImages: ''
     },
     'situmindoorpositioning-situmindoornavigation': {
@@ -5334,7 +5442,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/software-enabler/logo_Situm.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://situm.com/wp-content/uploads/2020/05/Situm-Workforce-Tracker-for-indoor-tracking-768x768.jpg',
       furtherImages: ''
     },
     'situmindoorpositioning-situmindoortracking': {
@@ -5365,7 +5474,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/software-enabler/logo_Situm.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://situm.com/wp-content/uploads/2020/05/Situm-Workforce-Tracker-for-indoor-tracking-768x768.jpg',
       furtherImages: ''
     },
     'hopu-smartirrigiationsolution': {
@@ -5391,7 +5501,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Hopu.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://hopu.eu/wp-content/uploads/2015/10/hop-ecosystem.png',
       furtherImages: ''
     },
     'hopu-smartspot': {
@@ -5449,7 +5560,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Hopu.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://smartcities.hopu.eu/images/EN-smart-spot-scheme.png',
       furtherImages: ''
     },
     'datakorumsolutions-ss47': {
@@ -5476,7 +5588,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Datakorum.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
       furtherImages: ''
     },
     'datakorumsolutions-tiny': {
@@ -5513,7 +5626,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Datakorum.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
       furtherImages: ''
     },
     'axion-traxion': {
@@ -5552,7 +5666,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/software-enabler/logo_Axion.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.axion.es/wp-content/uploads/2019/11/verticales2.png',
       furtherImages: ''
     },
     'tstsistemas-tscontrolindustrialcontrol': {
@@ -5585,7 +5700,8 @@ var pageData = {
       materials: [['Reference 1', 'https://tst-sistemas.com/en/']],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_TST.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://tst-sistemas.com/wp-content/uploads/2021/06/ingnieria3.jpg',
       furtherImages: ''
     },
     'tstsistemas-tsmartdevelopmentplatform': {
@@ -5628,7 +5744,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_TST.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://tst-sistemas.com/wp-content/uploads/2021/06/ingnieria3.jpg',
       furtherImages: ''
     },
     'tstsistemas-tswaste': {
@@ -5666,7 +5783,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_TST.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://tst-sistemas.com/wp-content/uploads/2021/06/ingnieria3.jpg',
       furtherImages: ''
     },
     'devicegateway-udg': {
@@ -5693,7 +5811,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_UDGAlliance.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.devicegateway.com/sites/default/files/imageblock/application-domains.jpg',
       furtherImages: ''
     },
     'viralstudios-virtualart': {
@@ -5728,7 +5847,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_ViralStudio.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.viralstudio.it/images/2021/10/19/monitor3.png',
       furtherImages: ''
     },
     'libelium-waspmote': {
@@ -5760,7 +5880,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Libelium.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.libelium.com/wp-content/uploads/2020/07/product-768x771.png',
       furtherImages: ''
     },
     'wellnesstechgroup-welight': {
@@ -5794,7 +5915,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_WellnessTechGroup.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://wellnesstg.com/wp-content/uploads/2021/11/sdp-talqcertified2-1.jpg',
       furtherImages: ''
     },
     'xapix-xapix': {
@@ -5823,7 +5945,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/software-enabler/raster/logo_Xapix.png',
-      featuredImage: '',
+      featuredImage:
+        'https://assets-global.website-files.com/5fbd1f90c46914dfad58597c/5fd0d4de2a1a7619a5156dc9_xa_illu_maturity02%401x_200604.png',
       furtherImages: ''
     },
     'cedesadigitalsl-lapsowork': {
@@ -5850,7 +5973,8 @@ var pageData = {
       videos: [['Media 1', 'https://www.youtube.com/watch?v=-Wom6DH969E']],
       materials: [],
       logo: 'https://lapsowork.com/wp-content/uploads/2021/06/Lapso-logo_1.png',
-      featuredImage: '',
+      featuredImage:
+        'https://lapsowork.com/wp-content/uploads/2021/07/1-gestor-vacaciones.png',
       furtherImages: ''
     }
   },
@@ -5894,7 +6018,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/cities4cities/logo_CityOfVienna.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://smartcity.wien.gv.at/wp-content/uploads/sites/3/2022/01/scw_videobild-1030x465.png',
       furtherImages: ''
     }
   },
@@ -5928,7 +6053,7 @@ var pageData = {
         'Health'
       ],
       docs: [],
-      videos: [['Media 1', 'Oral 3D Printing']],
+      videos: ['Oral 3D Printing', 'https://oral3d.eu/'],
       materials: [
         ['Reference 1', 'https://ballistix.digital/'],
         [
@@ -5938,7 +6063,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_BallistixDigital.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.ballistix.digital/uploads/_1500x660_crop_center-center_75_none/827/BallistiX-kantoor.webp',
       furtherImages: ''
     },
     'ficodes-coachingtrainingservices': {
@@ -5965,7 +6091,7 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_Ficodes.svg',
-      featuredImage: '',
+      featuredImage: 'https://www.ficodes.com/images/support.png',
       furtherImages: ''
     },
     'fiwareinnovaihub-coachingtrainingservices': {
@@ -5996,11 +6122,12 @@ var pageData = {
         'Oil and Gas'
       ],
       docs: [['Document 1', 'https://fiwareinnova.org/en/']],
-      videos: [['Media 1', 'YouTube Channel']],
+      videos: [],
       materials: [['Reference 1', 'https://www.facebook.com/fiwareinnovaihub']],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_FIWAREInnovaiHub.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://fiwareinnova.org/wp-content/uploads/2020/08/Consulenza-su-progetti-di-innovazione-800x500.jpg',
       furtherImages: ''
     },
     'fiwarespace-coachingtrainingservices': {
@@ -6025,23 +6152,16 @@ var pageData = {
       technologies: [],
       domains: ['Cities', 'AgriFood', 'Industry'],
       docs: [],
-      videos: [
-        ['Media 1', 'YouTube/Driving innovation'],
-        ['Media 2', 'YouTube/Smart Province']
-      ],
+      videos: [],
       materials: [
         [
           'Reference 1',
           'https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/2019/04/25/Badajoz+Is+More+-+the+journey+to+become+a+smart+province'
-        ],
-        ['Reference 2', 'Promoting from a technological standpoint'],
-        ['Reference 3', 'EUROPE PRESS'],
-        ['Reference 4', 'Inauguration of FIWARE Space in Badajoz'],
-        ['Reference 5', "Award 'Smart Province'"]
+        ]
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_FIWARESpace.svg',
-      featuredImage: '',
+      featuredImage: 'https://pbs.twimg.com/media/FWfIxQDXwAMpDmu.jpg',
       furtherImages: ''
     },
     'fiwarezone-coachingtrainingservices': {
@@ -6065,16 +6185,12 @@ var pageData = {
       technologies: [],
       domains: ['Cities', 'AgriFood', 'Industry', 'Ports', 'Health'],
       docs: [['Document 1', 'https://fiware.zone/tecnologia-fiware/']],
-      videos: [
-        ['Media 1', 'FIWARE Zone'],
-        ['Media 2', 'FIWARE Zone & the FIWARE iHubs at GreenCities Málaga'],
-        ['Media 3', 'YouTube/Greencities Forum'],
-        ['Media 4', 'YouTube/Andalucía Digital Week']
-      ],
+      videos: [],
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_FIWAREZone.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.fiware.org/wp-content/uploads/2018/03/ThinkstockPhotos-638342536-min.jpg',
       furtherImages: ''
     },
     'mnxonline-coachingtrainingservices': {
@@ -6111,7 +6227,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_MNX.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://cdn-chkek.nitrocdn.com/KxDolliPvjfCOLQOHSWerYEHkogzSoCT/assets/static/optimized/rev-596793c/wp-content/uploads/2021/04/Home-Technology-FG-IMG-670x624-1.jpg',
       furtherImages: ''
     },
     'snap4city-coachingtrainingservices': {
@@ -6142,32 +6259,17 @@ var pageData = {
       ],
       domains: ['Air Quality', 'Cities', 'Industry', 'Mobility', 'Tourism'],
       docs: [
-        ['Document 1', 'Technical Overview'],
         [
           'Document 2',
           'https://www.snap4city.org/download/video/DPL_SNAP4CITY_2022-v02.pdf'
-        ],
-        ['Document 3', 'Industry'],
-        ['Document 5', 'List of Snap4City Articles']
-      ],
-      videos: [
-        ['Media 1', 'Snap4city promo video'],
-        ['Media 2', 'Snap4City/Industry'],
-        ['Media 3', 'IOT App and Data Analytic Tutorial'],
-        ['Media 5', 'Dashboard for smart city IOT Tutorial']
-      ],
-      materials: [
-        ['Reference 1', 'List of Snap4City Articles'],
-        ['Reference 2', 'References of Snap4City and Km4City'],
-        ['Reference 3', 'Snap4City -EOSC Marketplace'],
-        [
-          'Reference 4',
-          'Tutorial: connecting a raspberry Pi to the Snap4city network\n '
         ]
       ],
+      videos: [],
+      materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_Snap4City.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.snap4city.org/download/video/header-snap4city-new-v04-ORIZZONTALE-text-only2.png',
       furtherImages: ''
     },
     'atos-connectedterritories': {
@@ -6192,20 +6294,18 @@ var pageData = {
         '<p>Atos named a Leader in Smart Cities in Europe by IDC MarketScape</p>',
       technologies: ['Artificial Intelligence'],
       domains: ['Cities', 'AgriFood'],
-      docs: [['Document 1', 'Atos Tech Days']],
-      videos: [['Media 1', 'Atos Spain Tweet'], ['Media 2', 'Press Release']],
-      materials: [
-        ['Reference 1', 'Develop innovative Apps and services from open data'],
-        ['Reference 2', 'Malaga - Digitizing Smart-Fi cities']
-      ],
+      docs: [],
+      videos: [],
+      materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Atos.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://iot-automotive.news/wp-content/uploads/2021/08/Thales-SOFTWARE-REPUBLIQUE_Mobile.jpg',
       furtherImages: ''
     },
-    'digitanimal-consultancyintegrationservices': {
+    'fiwarespace-consultancyintegrationservices': {
       category: 'Services',
-      organisationName: 'digitanimal',
+      organisationName: 'FIWARE Space',
       productName: 'Consultancy & Integration Services',
       organisationWebsite: '',
       organisationEmail: '',
@@ -6225,10 +6325,7 @@ var pageData = {
       technologies: ['Data Spaces'],
       domains: ['Cities', 'AgriFood', 'Industry'],
       docs: [],
-      videos: [
-        ['Media 1', 'FIWARE Space - Driving Innovation'],
-        ['Media 2', 'Smart Province']
-      ],
+      videos: [],
       materials: [
         [
           'Reference 1',
@@ -6250,7 +6347,7 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_FIWARESpace.svg',
-      featuredImage: '',
+      featuredImage: 'https://pbs.twimg.com/media/FWfIxQDXwAMpDmu.jpg',
       furtherImages: ''
     },
     'fiwarezone-consultancyintegrationservices': {
@@ -6277,17 +6374,13 @@ var pageData = {
         'Artificial Intelligence'
       ],
       domains: ['Cities', 'AgriFood', 'Industry', 'Ports', 'Health'],
-      docs: [['Document 1', 'FIWARE Technology']],
-      videos: [
-        ['Media 1', 'FIWARE Zone'],
-        ['Media 2', 'GreenCities Málaga'],
-        ['Media 3', 'Greencities Forum'],
-        ['Media 4', 'Andalucía Digital Week']
-      ],
+      docs: [],
+      videos: [],
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_FIWAREZone.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.fiware.org/wp-content/uploads/2018/03/ThinkstockPhotos-638342536-min.jpg',
       furtherImages: ''
     },
     'futureinternet-consultancyintegrationservices': {
@@ -6310,12 +6403,13 @@ var pageData = {
       awards: '',
       technologies: ['Internet of Things', 'Data Handling'],
       domains: ['Cities', 'AgriFood', 'Logistics', 'Industry', 'Ports'],
-      docs: [['Document 1', 'Opplafy platform']],
+      docs: [],
       videos: [],
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_FIWAREZone.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://fiwareinnova.org/wp-content/uploads/2020/08/Consulenza-su-progetti-di-innovazione-800x500.jpg',
       furtherImages: ''
     },
     'hearingsoftware-consultancyintegrationservices': {
@@ -6348,17 +6442,12 @@ var pageData = {
         'Home'
       ],
       docs: [],
-      videos: [
-        ['Media 1', 'Hotel Automation Management'],
-        ['Media 2', 'Open Alerts']
-      ],
+      videos: [],
       materials: [
-        ['Reference 1', 'Smart Digital Services'],
         [
           'Reference 2',
           'https://www.fiware.org/2014/02/26/anybody-could-have-a-smart-home-by-antonio-sanchez-open-alerts/'
         ],
-        ['Reference 3', 'Telefonica-Think Big'],
         [
           'Reference 4',
           'https://www.geriatricarea.com/2016/06/03/senda-un-dispositivo-de-teleasistencia-geolocalizable-para-mayores/'
@@ -6370,7 +6459,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_byHS.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://scontent-frx5-2.xx.fbcdn.net/v/t1.6435-9/42543839_1106599892827876_8725996819475070976_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=e3f864&_nc_ohc=KjLKOYhe900AX9kktKf&_nc_ht=scontent-frx5-2.xx&oh=00_AT_C19mgJGjP9N-Rn7zt_NXujLDdOL1kcG2Fh0RDRon2aA&oe=62FF04F5',
       furtherImages: ''
     },
     'snap4city-consultancyintegrationservices': {
@@ -6408,7 +6498,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Snap4City.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.snap4city.org/download/video/header-snap4city-new-v04-ORIZZONTALE-text-only2.png',
       furtherImages: ''
     },
     'egm-designoffice': {
@@ -6440,7 +6531,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_EGM.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.egm.io/wp-content/uploads/2020/08/ingenierie-integration.png',
       furtherImages: ''
     },
     'eprosima-eprosima': {
@@ -6483,7 +6575,7 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_Eprosima.svg',
-      featuredImage: '',
+      featuredImage: 'https://i.ytimg.com/vi/v83xKW05Up4/maxresdefault.jpg',
       furtherImages: ''
     },
     'fiihubcanaryisland-fiihubacademy': {
@@ -6510,7 +6602,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Ficodes.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://media.istockphoto.com/photos/panorama-of-santa-cruz-de-tenerife-resorts-and-pools-tenerife-canary-picture-id1190178756?k=20&m=1190178756&s=612x612&w=0&h=IWOOqbO8zeQfLtNYZQnu_OZ17WOYY8NaUzkKJ5xB44E=',
       furtherImages: ''
     },
     'ubiwhere-fiwareubiwhere': {
@@ -6557,7 +6650,7 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Ubiwhere.svg',
-      featuredImage: '',
+      featuredImage: 'https://fiware.ubiwhere.com/images/laptop.png',
       furtherImages: ''
     },
     'naevatec-fiwareconsultancy': {
@@ -6599,7 +6692,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_NaevaTec.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.naevatec.com/wp-content/uploads/2020/05/TrabajoEnEquipo.jpg',
       furtherImages: ''
     },
     'hopu-fiwareexpertcertification': {
@@ -6644,7 +6738,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_Hopu.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://hopu.eu/wp-content/uploads/2015/10/hop-ecosystem.png',
       furtherImages: ''
     },
     'faubourgnumérique-fiwareihub': {
@@ -6686,7 +6781,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_FaubourgNume%CC%81rique.svg',
-      featuredImage: '',
+      featuredImage:
+        'http://faubourgnumerique.com/wp-content/uploads/2018/01/FIWARE-iHubs_RGB.png',
       furtherImages: ''
     },
     'teamdev-fiwareprofessionalservices': {
@@ -6735,7 +6831,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_TeamDev.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.teamdev.it/wp-content/uploads/2020/03/provanuova-100-e1583855984591.jpg',
       furtherImages: ''
     },
     'mnxonline-fiwaretransitionstrategy': {
@@ -6767,7 +6864,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_MNX.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://scontent-frx5-1.xx.fbcdn.net/v/t1.6435-9/45650857_1935338443198803_5855859270083411968_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=e3f864&_nc_ohc=8a9yzJ0Ur0gAX_MmaFW&_nc_ht=scontent-frx5-1.xx&oh=00_AT_ESK9ZtLXDjOcvpQP-ekWhiszRuT5_E_i7nGYnUr6JWA&oe=6301975B',
       furtherImages: ''
     },
     'fiihubcanaryisland-innovationprojectdesignthroughfiware': {
@@ -6907,7 +7005,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Martel.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.martel-innovate.com/wp-content/uploads/sites/5/2020/03/RESEARCH_INNOVATION_v6.jpg',
       furtherImages: ''
     },
     'fiwareinnovaihub-promotingfiwaresolutionsandtechnologiesinitaly': {
@@ -6949,7 +7048,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_FiiHUB.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://fiwareinnova.org/wp-content/uploads/2019/05/banner-tondo-trasp.png',
       furtherImages: ''
     },
     'stoneone-stoneoneservices': {
@@ -6991,7 +7091,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_StoneOne.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://sirius-labs.no/wp-content/uploads/2016/11/Cloud-1-e1478082888720.jpg',
       furtherImages: ''
     }
   },
@@ -7030,7 +7131,8 @@ var pageData = {
       videos: [],
       materials: [],
       logo: '',
-      featuredImage: '',
+      featuredImage:
+        'https://github.blog/wp-content/uploads/2021/12/GitHub-code-search_banner.png?fit=1200%2C630',
       furtherImages: ''
     },
     'connectingeuropefacility-contextbrokerdatavisualisation': {
@@ -7058,7 +7160,8 @@ var pageData = {
       videos: [],
       materials: [],
       logo: '',
-      featuredImage: '',
+      featuredImage:
+        'https://github.blog/wp-content/uploads/2021/12/GitHub-code-search_banner.png?fit=1200%2C630',
       furtherImages: ''
     },
     'connectingeuropefacility-contextbrokeredpintegration': {
@@ -7095,7 +7198,8 @@ var pageData = {
       videos: [],
       materials: [],
       logo: '',
-      featuredImage: '',
+      featuredImage:
+        'https://github.blog/wp-content/uploads/2021/12/GitHub-code-search_banner.png?fit=1200%2C630',
       furtherImages: ''
     }
   }

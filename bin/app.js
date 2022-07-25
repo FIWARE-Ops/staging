@@ -3,19 +3,9 @@ const products = 'products.csv';
 const productDetails = 'product-details.csv';
 const csv = require('csvtojson');
 const showdown = require('showdown');
+const jsdom = require('jsdom');
 const converter = new showdown.Converter();
-
-const poweredBy = [];
-const ready = [];
-const service = [];
-const cities = [];
-const details = {
-  powered: {},
-  ngsi: {},
-  city: {},
-  service: {},
-  unknown: {}
-};
+const got = require('got');
 
 const docFields = ['Tech Documentation', 'Doc 2', 'Doc 3', ' Doc 4', 'Doc 5'];
 const mediaFields = ['Media', 'Media 2', 'Media 3', 'Media 4', 'Media 5'];
@@ -28,13 +18,56 @@ const refFields = [
   'Material 5'
 ];
 
+/*
+
+    got(item[field])
+    .then(body => parseTitle(body)) // extract <title> from body
+    .then(title => console.log(title)) // send the result back
+    .catch(e => console.error(e.message)) // catch possible errors
+
+*/
+
+function parseTitle(body) {
+  console.log(body);
+
+  let match = body.match(/<title>([^<]*)<\/title>/); // regular expression to parse contents of the <title> tag
+  if (!match || typeof match[1] !== 'string')
+    throw new Error('Unable to parse the title tag');
+  return match[1];
+}
+
 function getLinkArray(fields, title, item) {
   const array = [];
+  let errors = [];
   fields.forEach((field, i) => {
-    if (item[field] && item[field] !== '') {
+    if (!item[field] || item[field] === '') {
+    } else if (item[field].startsWith('[')) {
+      const html = converter.makeHtml(item[field]);
+      const dom = new jsdom.JSDOM(html);
+
+      if (dom.window.document.querySelector('a')) {
+        array.push(
+          dom.window.document.querySelector('p').textContent,
+          dom.window.document.querySelector('a').getAttribute('href')
+        );
+      } else {
+        errors.push(item[field]);
+      }
+    } else if (item[field].startsWith('http')) {
       array.push([title + ' ' + (i + 1), item[field]]);
+    } else {
+      errors.push(item[field]);
     }
   });
+
+  if (errors.length) {
+    console.log(
+      '\n### ' + item['Organisation Name'] + ' - ' + item['Product Name']
+    );
+    errors.forEach(error => {
+      console.log(error);
+    });
+  }
   return array;
 }
 
@@ -84,6 +117,14 @@ function splitStrings(input) {
 csv()
   .fromFile(productDetails)
   .then(input => {
+    const details = {
+      powered: {},
+      ngsi: {},
+      city: {},
+      service: {},
+      unknown: {}
+    };
+
     input.forEach(item => {
       const category = getCategory(item['FIWARE-Ready']);
       const hash = getHash(item['Organisation Name'], item['Product Name']);
@@ -118,8 +159,26 @@ csv()
         furtherImages: ''
       };
     });
+    return details;
   })
-  .then(() => {
+  .then(details => {
+    // Details
+
+    fs.writeFile(
+      'products/pageData.js',
+      'var pageData = ' + JSON.stringify(details, null, 2) + ';',
+      function(err) {
+        if (err) return console.log(err);
+      }
+    );
+    return details;
+  })
+  .then(details => {
+    const poweredBy = [];
+    const ready = [];
+    const service = [];
+    const cities = [];
+
     csv()
       .fromFile(products)
       .then(input => {
@@ -204,12 +263,14 @@ csv()
             }
           }
         });
-
+        return { poweredBy, ready, service, cities };
+      })
+      .then(products => {
         // Products
 
         fs.writeFile(
           'powered-by-fiware/pageData.js',
-          'var pageData = ' + JSON.stringify(poweredBy, null, 2) + ';',
+          'var pageData = ' + JSON.stringify(products.poweredBy, null, 2) + ';',
           function(err) {
             if (err) return console.log(err);
           }
@@ -218,7 +279,7 @@ csv()
         // Devices
         fs.writeFile(
           'ngsi-ready/pageData.js',
-          'var pageData = ' + JSON.stringify(ready, null, 2) + ';',
+          'var pageData = ' + JSON.stringify(products.ready, null, 2) + ';',
           function(err) {
             if (err) return console.log(err);
           }
@@ -228,7 +289,7 @@ csv()
 
         fs.writeFile(
           'services/pageData.js',
-          'var pageData = ' + JSON.stringify(service, null, 2) + ';',
+          'var pageData = ' + JSON.stringify(products.service, null, 2) + ';',
           function(err) {
             if (err) return console.log(err);
           }
@@ -238,17 +299,7 @@ csv()
 
         fs.writeFile(
           'cities4cities/pageData.js',
-          'var pageData = ' + JSON.stringify(cities, null, 2) + ';',
-          function(err) {
-            if (err) return console.log(err);
-          }
-        );
-
-        // Details
-
-        fs.writeFile(
-          'products/pageData.js',
-          'var pageData = ' + JSON.stringify(details, null, 2) + ';',
+          'var pageData = ' + JSON.stringify(products.cities, null, 2) + ';',
           function(err) {
             if (err) return console.log(err);
           }
