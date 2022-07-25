@@ -6,7 +6,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Atos.svg',
     fiwareMember: true,
     fiwareIhub: false,
-    companyLink: './product.html?category=service&id=atos-connectedterritories',
+    companyLink: '../product-details/?category=service&id=atos-connectedterritories',
     domain: ['Cities', 'AgriFood'],
     type: 'Consultancy & integration',
     technology: ['Artificial Intelligence'],
@@ -21,7 +21,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_BallistixDigital.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink: './product.html?category=service&id=ballistix-ballistix',
+    companyLink: '../product-details/?category=service&id=ballistix-ballistix',
     domain: [
       'Cities',
       'AgriFood',
@@ -45,7 +45,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_EGM.svg',
     fiwareMember: true,
     fiwareIhub: false,
-    companyLink: './product.html?category=service&id=egm-designoffice',
+    companyLink: '../product-details/?category=service&id=egm-designoffice',
     domain: [
       'Electronics',
       'Measurement',
@@ -65,7 +65,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Eprosima.svg',
     fiwareMember: true,
     fiwareIhub: false,
-    companyLink: './product.html?category=service&id=eprosima-eprosima',
+    companyLink: '../product-details/?category=service&id=eprosima-eprosima',
     domain: [
       'Cities',
       'AgriFood',
@@ -90,7 +90,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_Eprosima.svg',
     fiwareMember: true,
     fiwareIhub: false,
-    companyLink: './product.html?category=service&id=eprosima-eprosima',
+    companyLink: '../product-details/?category=service&id=eprosima-eprosima',
     domain: [
       'Cities',
       'AgriFood',
@@ -116,7 +116,7 @@ var pageData = [
     fiwareMember: false,
     fiwareIhub: true,
     companyLink:
-      './product.html?category=service&id=faubourgnumérique-fiwareihub',
+      '../product-details/?category=service&id=faubourgnumérique-fiwareihub',
     domain: ['Cities', 'Green Deal', 'Industry', 'Logistics'],
     type: 'Consultancy & Integration',
     technology: ['Data Spaces', 'Internet of Things', 'Modelling', 'Open Data'],
@@ -132,7 +132,7 @@ var pageData = [
     fiwareMember: false,
     fiwareIhub: true,
     companyLink:
-      './product.html?category=service&id=fiihubcanaryisland-fiihubacademy',
+      '../product-details/?category=service&id=fiihubcanaryisland-fiihubacademy',
     domain: ['Cities', 'AgriFood', 'Industry', 'Ports'],
     type: 'Consultancy & integration',
     technology: ['Internet of Things'],
@@ -148,7 +148,7 @@ var pageData = [
     fiwareMember: false,
     fiwareIhub: false,
     companyLink:
-      './product.html?category=service&id=ficodes-coachingtrainingservices',
+      '../product-details/?category=service&id=ficodes-coachingtrainingservices',
     domain: ['Cities', 'AgriFood', 'Logistics', 'Industry', 'Ports'],
     type: 'Training & Coaching',
     technology: [],
@@ -164,7 +164,7 @@ var pageData = [
     fiwareMember: false,
     fiwareIhub: true,
     companyLink:
-      './product.html?category=service&id=fiihubcanaryisland-innovationprojectdesignthroughfiware',
+      '../product-details/?category=service&id=fiihubcanaryisland-innovationprojectdesignthroughfiware',
     domain: ['Cities', 'AgriFood', 'Industry', 'Ports'],
     type: 'Training & Coaching',
     technology: [],
@@ -180,7 +180,7 @@ var pageData = [
     fiwareMember: false,
     fiwareIhub: true,
     companyLink:
-      './product.html?category=service&id=fiwareinnovaihub-coachingtrainingservices',
+      '../product-details/?category=service&id=fiwareinnovaihub-coachingtrainingservices',
     domain: [
       'AgriFood',
       'Cities',
@@ -218,7 +218,7 @@ var pageData = [
     fiwareMember: false,
     fiwareIhub: true,
     companyLink:
-      './product.html?category=service&id=fiwarespace-coachingtrainingservices',
+      '../product-details/?category=service&id=fiwarespace-coachingtrainingservices',
     domain: ['Cities', 'AgriFood', 'Industry'],
     type: 'Training & Coaching',
     technology: [],
@@ -234,7 +234,7 @@ var pageData = [
     fiwareMember: false,
     fiwareIhub: true,
     companyLink:
-      './product.html?category=service&id=fiwarespace-consultancyintegrationservices',
+      '../product-details/?category=service&id=fiwarespace-consultancyintegrationservices',
     domain: ['Cities', 'AgriFood', 'Industry'],
     type: 'Consultancy & integration',
     technology: ['Data Space?'],
@@ -250,7 +250,7 @@ var pageData = [
     fiwareMember: false,
     fiwareIhub: true,
     companyLink:
-      './product.html?category=service&id=fiwarezone-coachingtrainingservices',
+      '../product-details/?category=service&id=fiwarezone-coachingtrainingservices',
     domain: ['Cities', 'AgriFood', 'Industry', 'Ports', 'Health'],
     type: 'Training & Coaching',
     technology: [],
@@ -266,7 +266,7 @@ var pageData = [
     fiwareMember: false,
     fiwareIhub: true,
     companyLink:
-      './product.html?category=service&id=fiwarezone-consultancyintegrationservices',
+      '../product-details/?category=service&id=fiwarezone-consultancyintegrationservices',
     domain: ['Cities', 'AgriFood', 'Industry', 'Ports', 'Health'],
     type: 'Consultancy & integration',
     technology: ['Internet of Things', 'Big Data and Artificial Intelligence'],
@@ -282,7 +282,7 @@ var pageData = [
     fiwareMember: false,
     fiwareIhub: false,
     companyLink:
-      './product.html?category=service&id=futureinternet-consultancyintegrationservices',
+      '../product-details/?category=service&id=futureinternet-consultancyintegrationservices',
     domain: ['Cities', 'AgriFood', 'Logistics', 'Industry', 'Ports'],
     type: 'Consultancy & integration',
     technology: ['Internet of Things', 'Data handling'],
@@ -298,7 +298,7 @@ var pageData = [
     fiwareMember: false,
     fiwareIhub: false,
     companyLink:
-      './product.html?category=service&id=hearingsoftware-consultancyintegrationservices',
+      '../product-details/?category=service&id=hearingsoftware-consultancyintegrationservices',
     domain: [
       'Cities',
       'AgriFood',
@@ -322,7 +322,7 @@ var pageData = [
     fiwareMember: true,
     fiwareIhub: false,
     companyLink:
-      './product.html?category=service&id=hopu-fiwareexpertcertification',
+      '../product-details/?category=service&id=hopu-fiwareexpertcertification',
     domain: ['Cities', 'AgriFood', 'Industry', 'Ports'],
     type: 'Training & Coaching',
     technology: [],
@@ -337,7 +337,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Martel.svg',
     fiwareMember: true,
     fiwareIhub: false,
-    companyLink: './product.html?category=service&id=martelinnovate-martellab',
+    companyLink: '../product-details/?category=service&id=martelinnovate-martellab',
     domain: ['AgriFood', 'Cities', 'Energy', 'Manufacturing', 'Sustainability'],
     type: 'Consultancy & integration',
     technology: [
@@ -359,7 +359,7 @@ var pageData = [
     fiwareMember: true,
     fiwareIhub: false,
     companyLink:
-      './product.html?category=service&id=mnxonline-coachingtrainingservices',
+      '../product-details/?category=service&id=mnxonline-coachingtrainingservices',
     domain: [
       'Cities',
       'Consumer Goods / Products',
@@ -386,7 +386,7 @@ var pageData = [
     fiwareMember: true,
     fiwareIhub: false,
     companyLink:
-      './product.html?category=service&id=mnxonline-fiwaretransitionstrategy',
+      '../product-details/?category=service&id=mnxonline-fiwaretransitionstrategy',
     domain: ['Cities', 'Energy', 'Mobility', 'Sustainability', 'Tourism'],
     type: 'Consultancy & Integration',
     technology: [
@@ -408,7 +408,7 @@ var pageData = [
     fiwareMember: true,
     fiwareIhub: false,
     companyLink:
-      './product.html?category=service&id=naevatec-fiwareconsultancy',
+      '../product-details/?category=service&id=naevatec-fiwareconsultancy',
     domain: [
       'Cities',
       'Content',
@@ -436,7 +436,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Secmotic.svg',
     fiwareMember: true,
     fiwareIhub: false,
-    companyLink: './product.html?category=service&id=secmotic-iotdevelopment',
+    companyLink: '../product-details/?category=service&id=secmotic-iotdevelopment',
     domain: [
       'Cities',
       'AgriFood',
@@ -467,7 +467,7 @@ var pageData = [
     fiwareMember: true,
     fiwareIhub: false,
     companyLink:
-      './product.html?category=service&id=snap4city-coachingtrainingservices',
+      '../product-details/?category=service&id=snap4city-coachingtrainingservices',
     domain: ['Air Quality', 'Cities', 'Industry', 'Mobility', 'Tourism'],
     type: 'Training & Coaching',
     technology: [
@@ -489,7 +489,7 @@ var pageData = [
     fiwareMember: true,
     fiwareIhub: false,
     companyLink:
-      './product.html?category=service&id=snap4city-consultancyintegrationservices',
+      '../product-details/?category=service&id=snap4city-consultancyintegrationservices',
     domain: ['Air Quality', 'Cities', 'Industry', 'Manufacturing', 'Tourism'],
     type: 'Consultancy & Integration',
     technology: [
@@ -510,7 +510,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_StoneOne.svg',
     fiwareMember: true,
     fiwareIhub: false,
-    companyLink: './product.html?category=service&id=stoneone-stoneoneservices',
+    companyLink: '../product-details/?category=service&id=stoneone-stoneoneservices',
     domain: [
       'Cities',
       'AgriFood',
@@ -540,7 +540,7 @@ var pageData = [
     fiwareMember: true,
     fiwareIhub: false,
     companyLink:
-      './product.html?category=service&id=teamdev-fiwareprofessionalservices',
+      '../product-details/?category=service&id=teamdev-fiwareprofessionalservices',
     domain: [
       'Cities',
       'Government',
@@ -568,7 +568,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Ubiwhere.svg',
     fiwareMember: true,
     fiwareIhub: false,
-    companyLink: './product.html?category=service&id=ubiwhere-fiwareubiwhere',
+    companyLink: '../product-details/?category=service&id=ubiwhere-fiwareubiwhere',
     domain: ['Cities', 'Logistics', 'Ports'],
     type: 'Consultancy & integration',
     technology: ['Blockchain', 'Internet of Things'],

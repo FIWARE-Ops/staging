@@ -233,7 +233,7 @@ csv()
 
             if (details[category][hash]) {
               obj.companyLink =
-                './product.html?category=' +
+                '../product-details/?category=' +
                 getCategory(item['Category']) +
                 '&id=' +
                 getHash(item['Organisation Name'], item['Product Name']);
