@@ -72,14 +72,17 @@ var pageData = {
       ],
       domains: ['Agriculture', 'AgriFood', 'Green Deal', 'Sustainability'],
       docs: [
-        'FIWARE Documentation',
-        'https://www.fiware.org/2016/03/18/agricolus-suite-making-precision-farming-easier/http://'
+        [
+          'FIWARE Documentation',
+          'https://www.fiware.org/2016/03/18/agricolus-suite-making-precision-farming-easier/http://'
+        ]
       ],
       videos: [
-        'Making AgriTech Sustainable',
-        'https://www.youtube.com/watch?v=hVHW7QIJMd8',
-        "Agricolus' features",
-        'https://www.youtube.com/watch?v=6_ZOFydADZQ'
+        [
+          'Making AgriTech Sustainable',
+          'https://www.youtube.com/watch?v=hVHW7QIJMd8'
+        ],
+        ["Agricolus' features", 'https://www.youtube.com/watch?v=6_ZOFydADZQ']
       ],
       materials: [],
       logo:
@@ -113,8 +116,10 @@ var pageData = {
       domains: ['Agriculture', 'AgriFood', 'Education', 'Measurement'],
       docs: [],
       videos: [
-        'Hostabee - Start-up Stories',
-        'https://www.dailymotion.com/video/x6l12n6'
+        [
+          'Hostabee - Start-up Stories',
+          'https://www.dailymotion.com/video/x6l12n6'
+        ]
       ],
       materials: [
         [
@@ -3745,10 +3750,12 @@ var pageData = {
       technologies: ['Sensory Systems'],
       domains: ['AgriFood'],
       docs: [],
-      videos: ['AgriPlug', 'https://www.youtube.com/watch?v=hVHW7QIJMd8'],
+      videos: [['AgriPlug', 'https://www.youtube.com/watch?v=hVHW7QIJMd8']],
       materials: [
-        'Press Review',
-        'https://www.agricolus.com/wp-content/uploads/2017/05/Agricolus_PressReview_7_2017.pdf'
+        [
+          'Press Review',
+          'https://www.agricolus.com/wp-content/uploads/2017/05/Agricolus_PressReview_7_2017.pdf'
+        ]
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Agricolus.svg',
@@ -6053,7 +6060,7 @@ var pageData = {
         'Health'
       ],
       docs: [],
-      videos: ['Oral 3D Printing', 'https://oral3d.eu/'],
+      videos: [['Oral 3D Printing', 'https://oral3d.eu/']],
       materials: [
         ['Reference 1', 'https://ballistix.digital/'],
         [

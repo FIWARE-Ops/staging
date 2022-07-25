@@ -6,7 +6,8 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Agricolus.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=ngsi&id=agricolus-agricolusecosystem',
+    companyLink:
+      '../product-details/?category=ngsi&id=agricolus-agricolusecosystem',
     domain: ['AgriFood'],
     type: 'IoT Device',
     technology: ['Sensory Systems'],
@@ -287,7 +288,8 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_OutBarriers.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=ngsi&id=digitalilusion-outbeacon',
+    companyLink:
+      '../product-details/?category=ngsi&id=digitalilusion-outbeacon',
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things'],
@@ -655,7 +657,8 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Seacon.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=ngsi&id=seaconeurope-intellifood',
+    companyLink:
+      '../product-details/?category=ngsi&id=seaconeurope-intellifood',
     domain: ['AgriFood'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Open Data', 'Data Analytics'],
@@ -1008,7 +1011,8 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_WellnessTechGroup.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=ngsi&id=wellnesstechgroup-quamtra',
+    companyLink:
+      '../product-details/?category=ngsi&id=wellnesstechgroup-quamtra',
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Open Data', 'Data Analytics'],
@@ -1023,7 +1027,8 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_WellnessTechGroup.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=ngsi&id=wellnesstechgroup-welight',
+    companyLink:
+      '../product-details/?category=ngsi&id=wellnesstechgroup-welight',
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Open Data', 'Data Analytics'],

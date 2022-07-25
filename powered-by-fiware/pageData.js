@@ -154,7 +154,8 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Atos.svg',
     fiwareMember: true,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=powered&id=atos-urbandataplatform',
+    companyLink:
+      '../product-details/?category=powered&id=atos-urbandataplatform',
     domain: ['Air Quality', 'Agriculture', 'Cities', 'Energy', 'Mobility'],
     type: 'Platform',
     technology: [
@@ -175,7 +176,8 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Bettair.svg',
     fiwareMember: true,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=powered&id=bettaircities-bettair',
+    companyLink:
+      '../product-details/?category=powered&id=bettaircities-bettair',
     domain: ['Air Quality', 'Cities'],
     type: 'Solution',
     technology: [
@@ -336,7 +338,8 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_CommuniThings.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=powered&id=communithings-stopbuy',
+    companyLink:
+      '../product-details/?category=powered&id=communithings-stopbuy',
     domain: ['Cities'],
     type: 'Solution',
     technology: ['Internet of Things', 'Data Analytics.'],
@@ -351,7 +354,8 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_ConnectRobotics.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=powered&id=connectrobotics-drone2me',
+    companyLink:
+      '../product-details/?category=powered&id=connectrobotics-drone2me',
     domain: ['Cities', 'Logistics', 'Industry', 'Retail'],
     type: 'Solution',
     technology: ['Internet of Things', 'Data Analytics.'],
@@ -484,7 +488,8 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Engineering.svg',
     fiwareMember: true,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=powered&id=engineeringdss-curavesta',
+    companyLink:
+      '../product-details/?category=powered&id=engineeringdss-curavesta',
     domain: ['Cities', 'Health'],
     type: 'Solution',
     technology: ['Internet of Things', 'Data Analytics'],
@@ -499,7 +504,8 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Everimpact.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=powered&id=everimpact-everimpact',
+    companyLink:
+      '../product-details/?category=powered&id=everimpact-everimpact',
     domain: ['Cities'],
     type: 'Solution',
     technology: ['Internet of Things', 'Sensory System', 'Data Analytics'],
@@ -530,7 +536,8 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_FashionCloud.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=powered&id=fashioncloud-fashioncloud',
+    companyLink:
+      '../product-details/?category=powered&id=fashioncloud-fashioncloud',
     domain: ['Retail'],
     type: 'Solution',
     technology: ['Data Analytics'],
@@ -632,7 +639,8 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_FutureIntelligence.svg',
     fiwareMember: true,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=powered&id=futureintelligence-quhoma',
+    companyLink:
+      '../product-details/?category=powered&id=futureintelligence-quhoma',
     domain: [
       'Agriculture',
       'AgriFood',
@@ -689,7 +697,8 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_byHS.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=powered&id=hearingsoftware-sendacare',
+    companyLink:
+      '../product-details/?category=powered&id=hearingsoftware-sendacare',
     domain: ['Home', 'Health'],
     type: 'Solution',
     technology: ['Gamification', 'Internet of Things'],
@@ -728,7 +737,8 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Hopu.svg',
     fiwareMember: true,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=powered&id=hopu-lowemissionzones',
+    companyLink:
+      '../product-details/?category=powered&id=hopu-lowemissionzones',
     domain: ['Air Quality', 'Mobility', 'Sustainability'],
     type: 'Solution',
     technology: [
@@ -1057,7 +1067,8 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_SaMMY.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=powered&id=sammy-smartmarinaplatform',
+    companyLink:
+      '../product-details/?category=powered&id=sammy-smartmarinaplatform',
     domain: ['Cities', 'Mobility', 'Tourism', 'Transport'],
     type: 'Solution',
     technology: [
@@ -1108,7 +1119,8 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Yggio.svg',
     fiwareMember: true,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=powered&id=sensative-yggioplatform',
+    companyLink:
+      '../product-details/?category=powered&id=sensative-yggioplatform',
     domain: [
       'Agriculture',
       'Cities',
@@ -1170,7 +1182,8 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_DigitAnimal.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=powered&id=sensowave-digitanimal',
+    companyLink:
+      '../product-details/?category=powered&id=sensowave-digitanimal',
     domain: ['AgriFood'],
     type: 'Solution',
     technology: ['Internet of Things', 'Data Analytics'],
@@ -1200,7 +1213,8 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Sirus.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=powered&id=sirusnv-siruscitystore',
+    companyLink:
+      '../product-details/?category=powered&id=sirusnv-siruscitystore',
     domain: ['Cities', 'Green Deal', 'Mobility', 'Water', 'Weather'],
     type: 'Platform',
     technology: [
@@ -1283,7 +1297,8 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_StoneOne.svg',
     fiwareMember: true,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=powered&id=stoneone-smartorchestra',
+    companyLink:
+      '../product-details/?category=powered&id=stoneone-smartorchestra',
     domain: ['Cities'],
     type: 'Platform',
     technology: ['Internet of Things', 'Cyber Physical Systems'],
@@ -1298,7 +1313,8 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Stratio.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=powered&id=stratio-stratioautomotive',
+    companyLink:
+      '../product-details/?category=powered&id=stratio-stratioautomotive',
     domain: ['Cities'],
     type: 'Solution',
     technology: ['Internet of Things', 'Data Analytics', 'Open Data'],
@@ -1537,7 +1553,8 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Telefonica.svg',
     fiwareMember: true,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=powered&id=telefónica-thinkingcities',
+    companyLink:
+      '../product-details/?category=powered&id=telefónica-thinkingcities',
     domain: ['Agriculture', 'Cities', 'Government', 'Industry', 'Tourism'],
     type: 'Platform',
     technology: [
@@ -1558,7 +1575,8 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Telenet.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=powered&id=telenetgroup-telenettinx',
+    companyLink:
+      '../product-details/?category=powered&id=telenetgroup-telenettinx',
     domain: ['Cities'],
     type: 'Platform',
     technology: ['Internet of Things', 'Open Data', 'Data Analytics'],
@@ -1638,7 +1656,8 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Ubiwhere.svg',
     fiwareMember: true,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=powered&id=ubiwhere-smartlamppost',
+    companyLink:
+      '../product-details/?category=powered&id=ubiwhere-smartlamppost',
     domain: ['Cities'],
     type: 'Solution',
     technology: ['Open Data', 'Data Analytics'],
@@ -1653,7 +1672,8 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Ubiwhere.svg',
     fiwareMember: true,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=powered&id=ubiwhere-urbanplatform',
+    companyLink:
+      '../product-details/?category=powered&id=ubiwhere-urbanplatform',
     domain: ['Cities'],
     type: 'Platform',
     technology: ['Internet of Things', 'Open Data', 'Data Analytics'],

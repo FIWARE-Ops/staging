@@ -6,7 +6,8 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/cities4cities/logo_CityOfVienna.svg',
     fiwareMember: true,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=city&id=cityofvienna-smartdatawien',
+    companyLink:
+      '../product-details/?category=city&id=cityofvienna-smartdatawien',
     domain: ['Cities', 'Government'],
     type: '',
     technology: ['Internet of Things', 'Mobility and Location', 'Open Data'],

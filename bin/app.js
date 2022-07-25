@@ -44,12 +44,11 @@ function getLinkArray(fields, title, item) {
     } else if (item[field].startsWith('[')) {
       const html = converter.makeHtml(item[field]);
       const dom = new jsdom.JSDOM(html);
-
       if (dom.window.document.querySelector('a')) {
-        array.push(
+        array.push([
           dom.window.document.querySelector('p').textContent,
           dom.window.document.querySelector('a').getAttribute('href')
-        );
+        ]);
       } else {
         errors.push(item[field]);
       }

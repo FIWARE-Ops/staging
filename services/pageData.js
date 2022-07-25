@@ -6,7 +6,8 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Atos.svg',
     fiwareMember: true,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=service&id=atos-connectedterritories',
+    companyLink:
+      '../product-details/?category=service&id=atos-connectedterritories',
     domain: ['Cities', 'AgriFood'],
     type: 'Consultancy & integration',
     technology: ['Artificial Intelligence'],
@@ -337,7 +338,8 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Martel.svg',
     fiwareMember: true,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=service&id=martelinnovate-martellab',
+    companyLink:
+      '../product-details/?category=service&id=martelinnovate-martellab',
     domain: ['AgriFood', 'Cities', 'Energy', 'Manufacturing', 'Sustainability'],
     type: 'Consultancy & integration',
     technology: [
@@ -436,7 +438,8 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Secmotic.svg',
     fiwareMember: true,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=service&id=secmotic-iotdevelopment',
+    companyLink:
+      '../product-details/?category=service&id=secmotic-iotdevelopment',
     domain: [
       'Cities',
       'AgriFood',
@@ -510,7 +513,8 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_StoneOne.svg',
     fiwareMember: true,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=service&id=stoneone-stoneoneservices',
+    companyLink:
+      '../product-details/?category=service&id=stoneone-stoneoneservices',
     domain: [
       'Cities',
       'AgriFood',
@@ -568,7 +572,8 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Ubiwhere.svg',
     fiwareMember: true,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=service&id=ubiwhere-fiwareubiwhere',
+    companyLink:
+      '../product-details/?category=service&id=ubiwhere-fiwareubiwhere',
     domain: ['Cities', 'Logistics', 'Ports'],
     type: 'Consultancy & integration',
     technology: ['Blockchain', 'Internet of Things'],
