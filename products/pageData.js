@@ -159,11 +159,11 @@ var pageData = {
       domains: ['Smart Cities'],
       docs: [
         [
-          'Document 1',
+          'Presentation',
           'https://baret.es/wp-content/uploads/2022/01/BARET-FIWARE-for-Smart-Destinations.pdf'
         ],
         [
-          'Document 2',
+          'Brochure ',
           'https://baret.es/wp-content/uploads/2022/01/3.007.6-Baret_en-brochure.pdf'
         ]
       ],
@@ -404,7 +404,7 @@ var pageData = {
     'egm-carpoolparking': {
       category: 'Powered by FIWARE',
       organisationName: 'EGM',
-      productName: 'Carpool parking',
+      productName: 'Carpool Parking',
       organisationWebsite: 'https://www.cardio-id.com/',
       organisationEmail: '',
       linkedIn: 'https://www.linkedin.com/company/easy-global-market/',
@@ -507,7 +507,7 @@ var pageData = {
     'saintquentin-connectedcanteens': {
       category: 'Powered by FIWARE',
       organisationName: 'Saint-Quentin',
-      productName: 'Connected canteens',
+      productName: 'Connected Canteens',
       organisationWebsite:
         'https://www.egm.io/en/our-projects-smart-territories-and-cities',
       organisationEmail: '',
@@ -595,13 +595,13 @@ var pageData = {
       awards: '',
       technologies: ['Data Analytics', 'Open Data', 'Cloud Computing'],
       domains: ['Cities'],
-      docs: [
+      docs: [],
+      videos: [
         [
-          'Document 1',
-          'https://www.eng.it/en/our-platforms-solutions/digital-enabler'
+          'Brochure',
+          'https://www.eng.it/resources/platform/digital-enabler/doc/ENG20_Brochure_DigitalEnabler_eng_web.pdf'
         ]
       ],
-      videos: [],
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_DigitalEnabler.svg',
@@ -769,7 +769,9 @@ var pageData = {
       awards: '',
       technologies: ['Internet of Things', 'Data Analytics'],
       domains: ['AgriFood', 'Cities', 'Industry'],
-      docs: [['Document 1', 'https://bosonit.com/fiwave/']],
+      docs: [
+        ['Bosonit Technology', 'https://bosonit.com/en/category/technology/']
+      ],
       videos: [],
       materials: [],
       logo:
@@ -1063,8 +1065,8 @@ var pageData = {
       domains: ['Cities', 'Retail'],
       docs: [
         [
-          'Document 1',
-          'https://drive.google.com/file/d/1CxluBRj_5W5s421IlsHs8NLFu2fGRgU_/view?usp=sharing'
+          '[Technology](https://www.teamdev.it/en/ ',
+          'https://drive.google.com/file/d/1CxluBRj_5W5s421IlsHs8NLFu2fGRgU_/view'
         ]
       ],
       videos: [
@@ -1100,7 +1102,7 @@ var pageData = {
       awards: '',
       technologies: ['Internet of Things', 'Data Analytics'],
       domains: ['Industry'],
-      docs: [['Document 1', 'http://www.freesense.dk/']],
+      docs: [['Insights', 'https://www.freesense.dk/insights']],
       videos: [['Media 1', 'http://www.freesense.dk/']],
       materials: [],
       logo:
@@ -1130,9 +1132,7 @@ var pageData = {
         '<p>1.) FInish Future Award in 2016 at international trade fair Fruit Logistica. 2.) Germany - Land of Ideas - Land der Ideen: Elf „Ausgezeichnete Orte“ 2017 aus Baden-Württemberg.</p>',
       technologies: ['Sensory Systems', 'Data Analytics', 'Internet of Things'],
       domains: ['AgriFood'],
-      docs: [
-        ['Document 1', 'https://cloud.bringx.com/index.php/s/5F8iKGoKnxz2KsR']
-      ],
+      docs: [],
       videos: [
         [
           'Media 1',
@@ -1284,7 +1284,9 @@ var pageData = {
         'Health',
         'Content'
       ],
-      docs: [['Document 1', 'https://github.com/Helix-Platform/Sandbox-NG']],
+      docs: [
+        ['Helix Sandbox NG', 'https://github.com/Helix-Platform/Sandbox-NG']
+      ],
       videos: [],
       materials: [
         ['Reference 1', 'https://ieeexplore.ieee.org/document/8905583/']
@@ -1316,13 +1318,13 @@ var pageData = {
         '<ul>\n<li>TrenLab: Accelerator program powered by RENFE, Wayra and Telefonica </li>\n<li>SACYR Innovation award </li>\n<li>CLH Innovation award</li>\n</ul>',
       technologies: ['Big Data', 'Data Analytics', 'Machine Learning'],
       domains: ['Cities', 'Industry', 'Ports'],
-      docs: [
+      docs: [],
+      videos: [
         [
-          'Document 1',
+          'Brochure',
           'https://issuu.com/limmat-group/docs/imas-smart_maintenance_platform.'
         ]
       ],
-      videos: [['Media 1', 'https://vimeo.com/288185618']],
       materials: [
         [
           'Reference 1',
@@ -1372,13 +1374,14 @@ var pageData = {
       awards: '',
       technologies: ['Data Analytics'],
       domains: ['Cities'],
-      docs: [
+      docs: [],
+      videos: [
+        ['IDA Regions', 'https://amigo.shinyapps.io/IDA_demo/'],
         [
-          'Document 1',
-          'https://drive.google.com/open?id=15Py4axQsldErIMQ1v7BD3lZHfurZBgPM'
+          'One-Page Investor IDA',
+          'https://drive.google.com/file/d/15Py4axQsldErIMQ1v7BD3lZHfurZBgPM/view'
         ]
       ],
-      videos: [['Media 1', 'https://amigo.shinyapps.io/IDA_demo/']],
       materials: [
         ['Reference 1', 'https://www.youtube.com/watch?v=nE7l0ZYivbo&t=13s']
       ],
@@ -1474,7 +1477,10 @@ var pageData = {
       ],
       domains: ['Air Quality', 'Cities', 'Industry', 'Mobility', 'Tourism'],
       docs: [
-        ['Document 1', 'https://www.snap4city.org/'],
+        [
+          'Technical Overview',
+          'https://www.snap4city.org/drupal/sites/default/files/Snap4City-PlatformOverview-Dec-2020-V5-1.pdf'
+        ],
         [
           'Document 2',
           'https://www.snap4city.org/download/video/Snap4City-PlatformOverview.pdf'
@@ -1655,7 +1661,7 @@ var pageData = {
         'Data Analytics'
       ],
       domains: ['Industry'],
-      docs: [['Document 1', 'https://github.com/ARI-MR/MASAI']],
+      docs: [['MASAI Content', 'https://github.com/ARI-MR/MASAI']],
       videos: [],
       materials: [
         ['Reference 1', 'https://ieeexplore.ieee.org/document/8471981']
@@ -1686,7 +1692,7 @@ var pageData = {
       awards: '',
       technologies: ['Internet of Things', 'Sensory Systems', 'Data Analytics'],
       domains: ['Industry'],
-      docs: [['Document 1', 'https://maturix.com/case/contiga-tinglev/']],
+      docs: [],
       videos: [['Media 1', 'https://www.youtube.com/watch?v=sgcErItCgRg']],
       materials: [],
       logo:
@@ -1757,10 +1763,9 @@ var pageData = {
         'Transport'
       ],
       docs: [
-        ['Document 1', 'https://muv-app.city/'],
-        ['Document 2', 'https://muv-app.city/city-glance'],
-        ['Document 3', 'https://muv-app.city/city-loop'],
-        ['Document 5', 'https://muv-app.city/city-green']
+        ['City Glance', 'https://muv-app.city/city-glance'],
+        ['City Loop', 'https://muv-app.city/city-loop'],
+        ['City Zen', 'https://muv-app.city/city-zen']
       ],
       videos: [['Media 1', 'https://vimeo.com/283417605']],
       materials: [
@@ -1913,7 +1918,12 @@ var pageData = {
         'Internet of Things'
       ],
       domains: ['Air Quality', 'Cities', 'Energy', 'Lighting', 'Mobility'],
-      docs: [['Document 1', 'http://docs.orchestracities.io/en/latest/']],
+      docs: [
+        [
+          'Architecture',
+          'https://docs.orchestracities.io/en/latest/architecture/'
+        ]
+      ],
       videos: [],
       materials: [
         ['Reference 1', 'https://www.youtube.com/watch?v=qePvlQn399k'],
@@ -2094,12 +2104,7 @@ var pageData = {
         'Green Deal',
         'Parks &amp; Gardens'
       ],
-      docs: [
-        [
-          'Document 1',
-          'http://www.finish-project.eu/wp-content/uploads/2015/11/10_Future-Intelligence_QUHOMA_Presentation.pdf'
-        ]
-      ],
+      docs: [],
       videos: [['Media 1', 'http://app.quhoma.com/']],
       materials: [
         ['Reference 1', 'http://tporganics.eu/?s=quhoma'],
@@ -2143,7 +2148,12 @@ var pageData = {
       awards: '<p>Qualcomm - Wireless Reach award</p>',
       technologies: ['Internet of Things', 'Data Analytics'],
       domains: ['Cities', 'Health'],
-      docs: [['Document 1', 'http://project-ray.com/products/ray-app']],
+      docs: [
+        [
+          'Documentation & Guides',
+          'https://project-ray.com/products/ray-vision/'
+        ]
+      ],
       videos: [
         ['Media 1', 'https://youtu.be/QPDJMuXtb1k'],
         [
@@ -2233,7 +2243,10 @@ var pageData = {
         'Oil and Gas'
       ],
       docs: [
-        ['Document 1', 'https://purpleblob.net/bfd_download/sara-espanol/']
+        [
+          'Documenation in Spanish',
+          'https://purpleblob.net/wp-content/uploads/2019/07/Presentaci%C3%B3n-Sara.pdf'
+        ]
       ],
       videos: [],
       materials: [],
@@ -2407,7 +2420,7 @@ var pageData = {
     'egm-smartirrigation': {
       category: 'Powered by FIWARE',
       organisationName: 'EGM',
-      productName: 'Smart irrigation',
+      productName: 'Smart Irrigation',
       organisationWebsite:
         'https://www.egm.io/en/egm-among-the-winners-of-the-fnccrs-trophees-des-economies-deau-2',
       organisationEmail: '',
@@ -2498,7 +2511,7 @@ var pageData = {
       domains: ['Cities'],
       docs: [
         [
-          'Document 1',
+          'SMARTAPPCITY Documentation',
           'http://smartappcity.com/images/pdf/smartappcity_english.pdf'
         ]
       ],
@@ -2598,7 +2611,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_StoneOne.svg',
       featuredImage:
-        'https://stoneone.de/wp-content/uploads/2018/03/e2watch_auf_smartOrchestra_Plattform-600x317.png',
+        'https://www.snap4city.org/download/video/header-snap4city-new-v04-ORIZZONTALE-text-only2.png',
       furtherImages: ''
     },
     'snap4city-snap4city': {
@@ -2630,16 +2643,19 @@ var pageData = {
       ],
       domains: ['Air Quality', 'Cities', 'Industry', 'Mobility', 'Tourism'],
       docs: [
-        ['Document 1', 'https://www.snap4city.org/'],
         [
-          'Document 2',
-          'https://www.snap4city.org/download/video/Snap4City-PlatformOverview.pdf'
+          'Technical Overview',
+          'https://www.snap4city.org/drupal/sites/default/files/Snap4City-PlatformOverview-Dec-2020-V5-1.pdf'
         ],
         [
-          'Document 3',
+          'Platform Overview',
           'https://www.snap4city.org/download/video/DPL_SNAP4CITY_2022-v02.pdf'
         ],
-        ['Document 5', 'https://www.snap4city.org/108']
+        [
+          'Industry',
+          'https://www.snap4city.org/download/video/DPL_SNAP4INDUSTRY_2022-v03.pdf'
+        ],
+        ['Tutorial', 'https://www.snap4city.org/drupal/node/108']
       ],
       videos: [
         ['Media 1', 'https://www.youtube.com/watch?v=UPpC9gbvEPs&t=1s'],
@@ -2694,8 +2710,8 @@ var pageData = {
       technologies: ['Internet of Things', 'Data Analytics', 'Open Data'],
       domains: ['Cities'],
       docs: [
-        ['Document 1', 'https://snuffelfiets.nl/data/'],
-        ['Document 2', 'https://www.civity.nl/brochure-sniffer-bike']
+        ['Data in Dutsch', 'https://snuffelfiets.nl/data/'],
+        ['Brochure', 'https://civity.nl/en/brochure-sniffer-bike/']
       ],
       videos: [['Media 1', 'https://snuffelfiets.nl/']],
       materials: [
@@ -2844,7 +2860,7 @@ var pageData = {
       domains: ['Agriculture', 'Cities', 'Government', 'Industry', 'Tourism'],
       docs: [
         [
-          'Document 1',
+          'Documentation',
           'https://thinking-cities.readthedocs.io/en/latest/index.html'
         ]
       ],
@@ -2932,9 +2948,9 @@ var pageData = {
       technologies: ['Internet of Things', 'Data Analytics'],
       domains: ['Logistics'],
       docs: [
-        ['Document 1', 'https://tracelabs.io/'],
-        ['Document 2', 'https://origintrail.io/'],
-        ['Document 3', 'https://github.com/origintrail']
+        ['Technologies', 'https://tracelabs.io/technologies'],
+        ['Explore the Technology', 'https://origintrail.io/technology'],
+        ['OriginTrail GitHub', 'https://github.com/origintrail']
       ],
       videos: [
         ['Media 1', 'https://www.youtube.com/watch?v=tsxBR-vZc-E'],
@@ -2994,12 +3010,9 @@ var pageData = {
       ],
       domains: ['Air Quality', 'Agriculture', 'Cities', 'Energy', 'Mobility'],
       docs: [
+        ['Insight & Tech Trends', 'https://atos.net/en/newsroom'],
         [
-          'Document 1',
-          'https://atos.net/en/portfolio/fully-connect-central-local-governments-by-building-sovereign-and-secure-data-platforms'
-        ],
-        [
-          'Document 2',
+          'Overview',
           'https://atos.net/en/lp/urban-data-platforms/introducing-the-urban-data-platform'
         ]
       ],
@@ -3050,11 +3063,7 @@ var pageData = {
       domains: ['Cities'],
       docs: [
         [
-          'Document 1',
-          'https://www.ubiwhere.com/en/news/winning-portuguese-digital-solution-ubiwheres-urban-platform-will-be-highlighted-at-the-wsa-global-congress-2022'
-        ],
-        [
-          'Document 2',
+          'Bleeding Edge Technologies',
           'https://www.ubiwhere.com/en/news/winning-portuguese-digital-solution-ubiwheres-urban-platform-will-be-highlighted-at-the-wsa-global-congress-2022'
         ]
       ],
@@ -3292,7 +3301,15 @@ var pageData = {
       videos: [
         ['Media 1', 'https://vimeo.com/172887166'],
         ['Media 2', 'https://www.youtube.com/channel/UCT_epf3tfO6iO8zEnN3dYJA'],
-        ['Media 3', 'https://wise.town/en/request-a-demo/']
+        ['Media 3', 'https://wise.town/en/request-a-demo/'],
+        [
+          'Press Release',
+          'https://wise.town/wp-content/uploads/2021/01/PRESS-RELEASE-WT-2020_.pdf'
+        ],
+        [
+          'Press Release in Italian',
+          'https://wise.town/wp-content/uploads/2022/02/PRESS-RELEASE-WT-2021_compressed.pdf'
+        ]
       ],
       materials: [
         [
@@ -3348,9 +3365,7 @@ var pageData = {
         'Utilities',
         'Oil and Gas'
       ],
-      docs: [
-        ['Document 1', 'https://wise.town/en/cities/participatory-planning/']
-      ],
+      docs: [],
       videos: [],
       materials: [
         [
@@ -3398,9 +3413,7 @@ var pageData = {
         'Utilities',
         'Oil and Gas'
       ],
-      docs: [
-        ['Document 1', 'https://wise.town/en/cities/decision-support-system/']
-      ],
+      docs: [],
       videos: [],
       materials: [
         [
@@ -3446,9 +3459,7 @@ var pageData = {
         'Software as a Service'
       ],
       domains: ['Cities', 'Government', 'Mobility', 'Utilities', 'Oil and Gas'],
-      docs: [
-        ['Document 1', 'https://wise.town/en/cities/citizen-alert-system/']
-      ],
+      docs: [],
       videos: [],
       materials: [
         [
@@ -3495,7 +3506,7 @@ var pageData = {
         'Utilities',
         'Oil and Gas'
       ],
-      docs: [['Document 1', 'https://wise.town/en/cities/open-data-manager/']],
+      docs: [],
       videos: [],
       materials: [
         [
@@ -3543,7 +3554,7 @@ var pageData = {
         'Utilities',
         'Oil and Gas'
       ],
-      docs: [['Document 1', 'https://wise.town/en/cities/city-monitoring/']],
+      docs: [],
       videos: [],
       materials: [
         [
@@ -3603,7 +3614,7 @@ var pageData = {
         'Oil and Gas',
         'Water'
       ],
-      docs: [['Document 1', 'https://wise.town/en/cities/city-dashboard/']],
+      docs: [],
       videos: [],
       materials: [
         [
@@ -4095,7 +4106,7 @@ var pageData = {
       domains: ['Electronics', 'Industry', 'Measurement', 'Telecommunication'],
       docs: [
         [
-          'Document 1',
+          'Technical features',
           'https://www.egm.io/wp-content/uploads/2021/08/fiche-EGM-EdgeSpot-2-EN-3.pdf'
         ]
       ],
@@ -4183,7 +4194,7 @@ var pageData = {
     'srmconsulting-fiwaremapviewer': {
       category: 'FIWARE-Ready',
       organisationName: 'SRM Consulting',
-      productName: 'FIWARE map viewer',
+      productName: 'FIWARE Map Viewer',
       organisationWebsite: 'https://srmconsulting.es/en/indexeng.html',
       organisationEmail: 'mailto:info@srmconsulting.es',
       linkedIn:
@@ -4253,7 +4264,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_GavillanControl.svg',
       featuredImage:
-        'https://ventumidc.es/wp-content/uploads/2021/10/soluciones-tecnologicas-ganaderia18-400x383_c.jpg',
+        'https://scontent-frt3-1.xx.fbcdn.net/v/t39.30808-6/224093792_335538438228198_8967961733046062405_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=e3f864&_nc_ohc=pQymAawHr68AX8VNgt3&tn=8vjiMBCSITGGfB_z&_nc_ht=scontent-frt3-1.xx&oh=00_AT8OG2ZWQZOMxHZoka2zG_sIMmURnPiL9EpiRrLBxAyfAg&oe=62E5C2A8',
       furtherImages: ''
     },
     'gecorsystem-gecor': {
@@ -4336,12 +4347,7 @@ var pageData = {
         'Cloud Computing'
       ],
       domains: ['AgriFood', 'Logistics', 'Industry'],
-      docs: [
-        [
-          'Document 1',
-          'https://catalogue.fiware.org/sites/default/files/FIWARE_IoT-Ready_Manual_INSYLO.pdf'
-        ]
-      ],
+      docs: [],
       videos: [
         ['Media 1', 'https://vimeo.com/167707395'],
         ['Media 2', 'https://www.youtube.com/watch?v=ck6VKKisHb8']
@@ -4391,12 +4397,7 @@ var pageData = {
       awards: '',
       technologies: ['Internet of Things', 'Open Data', 'Data Analytics'],
       domains: ['AgriFood'],
-      docs: [
-        [
-          'Document 1',
-          'https://catalogue.fiware.org/sites/default/files/FIWARE_IoT-Ready_Manual_IntelliFood%20v3.pdf'
-        ]
-      ],
+      docs: [],
       videos: [],
       materials: [],
       logo:
@@ -4500,7 +4501,7 @@ var pageData = {
       domains: ['Cities', 'AgriFood', 'Industry'],
       docs: [
         [
-          'Document 1',
+          'Tech Aspect & Manual',
           'https://www.fiware.org/wp-content/uploads/2018/12/FIWAREIoTIPEX16Manual.pdf'
         ]
       ],
@@ -4581,7 +4582,10 @@ var pageData = {
         'Manufacturing'
       ],
       docs: [
-        ['Document 1', 'https://knowage-suite.readthedocs.io/en/8.0/'],
+        [
+          'Official documentation',
+          'https://knowage-suite.readthedocs.io/en/8.0/'
+        ],
         ['Document 2', 'https://knowage.readthedocs.io/en/latest/']
       ],
       videos: [
@@ -4628,7 +4632,7 @@ var pageData = {
       domains: ['Cities'],
       docs: [
         [
-          'Document 1',
+          'Technical specifications',
           'https://www.fiware.org/wp-content/uploads/2018/12/LANE20_eng.pdf'
         ]
       ],
@@ -4781,7 +4785,7 @@ var pageData = {
       awards: '',
       technologies: ['Internet of Things', 'Data Analytics'],
       domains: ['Cities', 'AgriFood', 'Logistics', 'Industry', 'Health'],
-      docs: [['Document 1', 'https://srmconsulting.es/en/indexeng.html']],
+      docs: [['SRM Technology', 'https://srmconsulting.es/en/indexeng.html']],
       videos: [],
       materials: [],
       logo:
@@ -4843,13 +4847,14 @@ var pageData = {
       domains: ['Cities'],
       docs: [
         [
-          'Document 1',
+          'Technical Guide',
           'https://development.libelium.com/meshlium/documentation'
-        ],
-        ['Document 2', 'https://www.the-iot-marketplace.com/'],
-        ['Document 3', 'https://www.libelium.com/iot-products/meshlium/']
+        ]
       ],
-      videos: [['Media 1', 'https://www.youtube.com/watch?v=Ol7PE0-mfhE']],
+      videos: [
+        ['Media 1', 'https://www.youtube.com/watch?v=Ol7PE0-mfhE'],
+        ['The IoT Marketplace', 'https://www.the-iot-marketplace.com/']
+      ],
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Libelium.svg',
@@ -4879,7 +4884,7 @@ var pageData = {
       domains: ['Cities', 'AgriFood', 'Industry'],
       docs: [
         [
-          'Document 1',
+          'Tech Aspect & Manual',
           'https://www.fiware.org/wp-content/uploads/2018/12/FIWAREIoTMEX06Manual.pdf'
         ]
       ],
@@ -5113,7 +5118,7 @@ var pageData = {
       domains: ['Cities'],
       docs: [
         [
-          'Document 1',
+          'Manual',
           'https://www.fiware.org/wp-content/uploads/2018/12/FIWARE_IoT-Ready_Manual_Template-PEAK.pdf'
         ]
       ],
@@ -5146,11 +5151,11 @@ var pageData = {
       domains: ['Cities'],
       docs: [
         [
-          'Document 1',
+          'Features',
           'https://www.fiware.org/wp-content/uploads/2018/12/POLE-PLUG-TINY.pdf'
         ],
         [
-          'Document 2',
+          'Manual',
           'https://www.fiware.org/wp-content/uploads/2018/12/FIWARE_IoT-Ready_Manual_Template-PLUG.pdf'
         ]
       ],
@@ -5186,13 +5191,12 @@ var pageData = {
         'Sensory Systems'
       ],
       domains: ['Cities'],
-      docs: [
-        ['Document 1', 'https://www.the-iot-marketplace.com/'],
-        ['Document 2', 'https://www.libelium.com/success-stories/']
-      ],
+      docs: [],
       videos: [
         ['Media 1', 'https://www.youtube.com/watch?v=EnUdBrLepqI&t=754s'],
-        ['Media 2', 'https://www.youtube.com/watch?v=p7Yrs7k8rYY']
+        ['Media 2', 'https://www.youtube.com/watch?v=p7Yrs7k8rYY'],
+        ['The IoT Marketplace', 'https://www.the-iot-marketplace.com/'],
+        ['Succes Stories', 'https://www.libelium.com/success-stories/']
       ],
       materials: [],
       logo:
@@ -5222,11 +5226,11 @@ var pageData = {
       domains: ['Cities'],
       docs: [
         [
-          'Document 1',
+          'Manual',
           'https://www.fiware.org/wp-content/uploads/2018/12/FIWARE_IoT-Ready_Manual_Template-POLE.pdf'
         ],
         [
-          'Document 2',
+          'Features',
           'https://www.fiware.org/wp-content/uploads/2018/12/POLE-PLUG-TINY.pdf'
         ]
       ],
@@ -5261,7 +5265,7 @@ var pageData = {
       domains: ['Cities'],
       docs: [
         [
-          'Document 1',
+          'Brouchure/Technology Overview',
           'https://s3.amazonaws.com/fundingbox-sites/gear%2F1578531969296-WELLNESS+Quamtra+Brouchure.pdf'
         ]
       ],
@@ -5270,7 +5274,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_WellnessTechGroup.svg',
       featuredImage:
-        'https://wellnesstg.com/wp-content/uploads/2019/05/quamtramanager.png',
+        'https://wellnesstg.com/wp-content/uploads/2019/09/quamtra.jpg',
       furtherImages: ''
     },
     'panstamp-respirafiware': {
@@ -5294,7 +5298,7 @@ var pageData = {
         '<p>Finalist in MWC Shanghai 2018 Winner of FIWARE Space IoT challenge 2019</p>',
       technologies: ['Internet of Things'],
       domains: ['Cities', 'Health'],
-      docs: [['Document 1', 'https://github.com/panStamp/respira_fiware']],
+      docs: [['Documentation', 'https://github.com/panStamp/respira_fiware']],
       videos: [],
       materials: [],
       logo:
@@ -5470,8 +5474,8 @@ var pageData = {
       domains: ['Cities', 'Logistics'],
       docs: [
         [
-          'Document 1',
-          'https://situm.com/en//indoor-positioning-system-free-trial/'
+          'Situm Core Technology',
+          'https://situm.com/en/technology/real-time-indoor-location/'
         ]
       ],
       videos: [
@@ -5502,7 +5506,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Situm.svg',
       featuredImage:
-        'https://situm.com/wp-content/uploads/2020/05/Situm-Workforce-Tracker-for-indoor-tracking-768x768.jpg',
+        'https://situm.com/wp-content/uploads/2020/08/Indoor-positioning-System-for-indoor-location-indoor-navigation-and-indoor-tracking-1920-x-1280.jpg',
       furtherImages: ''
     },
     'situmindoorpositioning-situmindoortracking': {
@@ -5534,7 +5538,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Situm.svg',
       featuredImage:
-        'https://situm.com/wp-content/uploads/2020/05/Situm-Workforce-Tracker-for-indoor-tracking-768x768.jpg',
+        'https://situm.com/wp-content/uploads/2020/08/Indoor-positioning-System-for-indoor-location-indoor-navigation-and-indoor-tracking-1920-x-1280.jpg',
       furtherImages: ''
     },
     'hopu-smartirrigiationsolution': {
@@ -5593,13 +5597,19 @@ var pageData = {
         'Measurement'
       ],
       docs: [
-        ['Document 1', 'https://gitlab.hopu.eu/software/FIWARE'],
+        ['FIWARE Documentation', 'https://gitlab.hopu.eu/software/FIWARE'],
         [
-          'Document 2',
+          'Ubiquitous documentation',
           'https://hop-ubiquitous-documentation.readthedocs.io/en/latest/'
         ],
-        ['Document 3', 'https://hopu.eu/download/3058/'],
-        ['Document 5', 'https://hopu.eu/download/3073/']
+        [
+          'Documentation in Spanish',
+          'file:///Users/mac/Downloads/datasheet%20smart%20spot%20global%202021%20v3.pdf'
+        ],
+        [
+          'Architecture Presentation',
+          'file:///Users/mac/Downloads/English_HOPU_WednesdayFIWARE24062020.pdf'
+        ]
       ],
       videos: [['Media 1', 'https://vimeo.com/hopu/']],
       materials: [
@@ -5673,11 +5683,11 @@ var pageData = {
       domains: ['Cities'],
       docs: [
         [
-          'Document 1',
+          'Features',
           'https://www.fiware.org/wp-content/uploads/2018/12/POLE-PLUG-TINY.pdf'
         ],
         [
-          'Document 2',
+          'Manual',
           'https://www.fiware.org/wp-content/uploads/2018/12/FIWARE_IoT-Ready_Manual_Template-TINY.pdf'
         ]
       ],
@@ -5750,8 +5760,8 @@ var pageData = {
       technologies: ['Open Data', 'Data Analytics'],
       domains: ['Cities'],
       docs: [
-        ['Document 1', 'https://tst-sistemas.com/en/'],
-        ['Document 2', 'https://tst-sistemas.com/en/']
+        ['Celestia Technology', 'https://celestia-tech.com/'],
+        ['IoT Engineering ', 'https://tst-sistemas.com/en/tst/']
       ],
       videos: [
         ['Media 1', 'https://twitter.com/TSTsistemas/status/324128164831969281']
@@ -5783,7 +5793,10 @@ var pageData = {
       awards: '',
       technologies: ['Internet of Things', 'Open Data', 'Data Analytics'],
       domains: ['Cities'],
-      docs: [['Document 1', 'https://tst-sistemas.com/en/']],
+      docs: [
+        ['Celestia Technology', 'https://celestia-tech.com/'],
+        ['IoT Engineering ', 'https://tst-sistemas.com/en/tst/']
+      ],
       videos: [
         [
           'Media 1',
@@ -5828,8 +5841,8 @@ var pageData = {
       technologies: ['Internet of Things', 'Open Data', 'Data Analytics'],
       domains: ['Cities'],
       docs: [
-        ['Document 1', 'https://tst-sistemas.com/en/'],
-        ['Document 2', 'https://tst-sistemas.com/en/']
+        ['Celestia Technology', 'https://celestia-tech.com/'],
+        ['IoT Engineering ', 'https://tst-sistemas.com/en/tst/']
       ],
       videos: [],
       materials: [
@@ -5899,7 +5912,7 @@ var pageData = {
         'Open Data'
       ],
       domains: ['Cities', 'Industry', 'Retail', 'Content'],
-      docs: [['Document 1', 'https://sites.google.com/view/virtualart']],
+      docs: [['Overview', 'https://sites.google.com/view/virtualart']],
       videos: [],
       materials: [
         ['Reference 1', 'https://viralstudios.es/en/turismo-inmersivo/']
@@ -5966,7 +5979,7 @@ var pageData = {
       domains: ['Cities'],
       docs: [
         [
-          'Document 1',
+          'Brouchure & Tech Overview',
           'https://s3.amazonaws.com/fundingbox-sites/gear%2F1578530683503-WELLNESS+WeLight+Brouchure.pdf'
         ]
       ],
@@ -6008,10 +6021,10 @@ var pageData = {
         'https://assets-global.website-files.com/5fbd1f90c46914dfad58597c/5fd0d4de2a1a7619a5156dc9_xa_illu_maturity02%401x_200604.png',
       furtherImages: ''
     },
-    'cedesadigitalsl-lapsowork': {
+    'cedesadigital-lapsowork': {
       category: 'FIWARE-Ready',
-      organisationName: 'CEDESA DIGITAL S.L',
-      productName: 'LAPSOWORK',
+      organisationName: 'Cedesa Digital',
+      productName: 'Lapsowork',
       organisationWebsite: 'https://cedesa.es/?lang=en',
       organisationEmail: 'mailto:contacto@lapsowork.com',
       linkedIn: 'https://www.linkedin.com/company/lapsowork/',
@@ -6062,7 +6075,9 @@ var pageData = {
         'Open Data'
       ],
       domains: ['Cities', 'Government'],
-      docs: [['Document 1', 'https://www.wien.gv.at/english/']],
+      docs: [
+        ['Instructions', 'https://www.wien.gv.at/english/info/index.html']
+      ],
       videos: [],
       materials: [
         [
@@ -6180,7 +6195,7 @@ var pageData = {
         'Utilities',
         'Oil and Gas'
       ],
-      docs: [['Document 1', 'https://fiwareinnova.org/en/']],
+      docs: [],
       videos: [],
       materials: [['Reference 1', 'https://www.facebook.com/fiwareinnovaihub']],
       logo:
@@ -6243,7 +6258,7 @@ var pageData = {
       awards: '<p>EnerTIC Awards</p>',
       technologies: [],
       domains: ['Cities', 'AgriFood', 'Industry', 'Ports', 'Health'],
-      docs: [['Document 1', 'https://fiware.zone/tecnologia-fiware/']],
+      docs: [['FIWARE Technology', 'https://fiware.zone/tecnologia-fiware/']],
       videos: [],
       materials: [],
       logo:
@@ -6287,7 +6302,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_MNX.svg',
       featuredImage:
-        'https://cdn-chkek.nitrocdn.com/KxDolliPvjfCOLQOHSWerYEHkogzSoCT/assets/static/optimized/rev-596793c/wp-content/uploads/2021/04/Home-Technology-FG-IMG-670x624-1.jpg',
+        'https://www.mnx.com/wp-content/uploads/2021/05/Company-Header-BG-IMG.jpg',
       furtherImages: ''
     },
     'snap4city-coachingtrainingservices': {
@@ -6750,7 +6765,12 @@ var pageData = {
         'Government',
         'Telecommunication'
       ],
-      docs: [['Document 1', 'https://www.opplafy.eu/']],
+      docs: [
+        [
+          '[Tech & Main Features](Bosonit Technology "Tech & Main Features")',
+          'https://bosonit.com/en/category/technology/'
+        ]
+      ],
       videos: [['Media 1', 'https://www.youtube.com/watch?v=1EKV1wpz4iU&t=3s']],
       materials: [],
       logo:
@@ -6780,22 +6800,29 @@ var pageData = {
         '<p>*Catalyst Awards Honorees 2019 - Green Electronic Council \n*Vice Chair of the IEEE Communications Society \n*Internet of Things Technical Committee </p>\n<ul>\n<li>FIWARE Foundation Gold member </li>\n<li>ETSI ISG CIM Member (Semantic Interoperability for Smart Cities) </li>\n<li>OMA Members (LwM2M and NGSI real-time communication protocols) </li>\n<li>IPSO Alliance Challenge - People Choice Award (Sponsored by Google) </li>\n<li>Best Smart City demo award - MIT</li>\n</ul>',
       technologies: [],
       domains: ['Cities', 'AgriFood', 'Industry', 'Ports'],
-      docs: [
+      docs: [],
+      videos: [
         [
-          'Document 1',
-          'https://drive.google.com/file/d/1XhGm9FNG1eZvs5tyNjhBhyV4zg2JZxpr/view?usp=sharing'
+          'HOPU Marketplace',
+          'https://drive.google.com/file/d/1XhGm9FNG1eZvs5tyNjhBhyV4zg2JZxpr/view'
         ],
-        ['Document 2', 'https://opendata.hopu.eu/'],
-        ['Document 3', 'https://hopu.eu/downloads/']
+        [
+          'HOPU Dashboard',
+          'https://opendata.hopu.eu/grafana/d/46VKVlJZz/home?orgId=1'
+        ],
+        [
+          'HOPU Visualiser',
+          'https://opendata.hopu.eu/grafana/d/46VKVlJZz/home?orgId=1'
+        ],
+        ['HOPU Vimeo', 'https://vimeo.com/hopu']
       ],
-      videos: [],
       materials: [
         [
-          'Reference 1',
+          'FIWARE at COP25',
           'https://www.fiware.org/2019/12/04/fiware-at-cop25-achieving-sustainable-development-goals-with-open-innovation/'
         ],
         [
-          'Reference 2',
+          'Fighting Climate Change',
           'https://www.fiware.org/wp-content/uploads/2020/06/Version-4.0-Fighting-Climate-Change-With-FIWARE.pdf'
         ]
       ],
@@ -6881,7 +6908,7 @@ var pageData = {
         'Utilities',
         'Oil and Gas'
       ],
-      docs: [['Document 1', 'https://www.teamdev.it/en']],
+      docs: [['Technology', 'https://www.teamdev.it/en/']],
       videos: [
         ['Media 1', 'https://www.youtube.com/channel/UCq2du3L6tXHgs8GCrW7CZhA']
       ],
@@ -6994,9 +7021,7 @@ var pageData = {
         'Home',
         'Health'
       ],
-      docs: [
-        ['Document 1', 'http://lnds.secmotic.com/index.php/s/yCAMKiPRIa3aMSK']
-      ],
+      docs: [['IoT Ready Solutions', 'https://secmotic.com/we-do/']],
       videos: [],
       materials: [],
       logo:
@@ -7037,8 +7062,11 @@ var pageData = {
         'Sustainability'
       ],
       docs: [
-        ['Document 1', 'http://docs.orchestracities.io/en/latest/'],
-        ['Document 2', 'https://quantumleap.readthedocs.io/en/latest/']
+        [
+          'Architecture',
+          'https://docs.orchestracities.io/en/latest/architecture/'
+        ],
+        ['QuantumLeap', 'https://quantumleap.readthedocs.io/en/latest/']
       ],
       videos: [
         ['Media 1', 'https://www.orchestracities.com/'],

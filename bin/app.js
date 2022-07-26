@@ -24,30 +24,33 @@ const sizeOf = require('image-size');
 const images = [];
 
 function downloadImages(image) {
-  const file = image[0];
-  const options = {
-    url: image[1],
-    dest: __dirname + '/../images/' + file,
-    extractFilename: false,
-    timeout: 7000,
-    maxRedirects: 1
-  };
-
-  download
-    .image(options)
-    .then(({ filename }) => {
-      //console.log('Saved to', filename); // saved to /path/to/dest/image.jpg
-      try {
-        sizeOf(filename, function(err, dimensions) {
-          console.log(file, dimensions ? dimensions.width : '???');
-        });
-      } catch {
-        console.log(file, 0);
-      }
-    })
-    .catch(err => {
-      console.log(file, 0);
-    });
+  return new Promise((resolve, reject) => {
+    const file = image[0].replace(/[ ]/g, '_').replace(/[/&]/g, '');
+    const options = {
+      url: image[1],
+      dest: __dirname + '/../images/' + file,
+      extractFilename: false,
+      timeout: 10000,
+      maxRedirects: 3
+    };
+    download
+      .image(options)
+      .then(({ filename }) => {
+        try {
+          sizeOf(filename, function(err, dimensions) {
+            const width = dimensions ? dimensions.width : '???';
+            resolve(file + '\t' + width);
+          });
+        } catch {
+          resolve(file + '\t0');
+        }
+      })
+      .catch(err => {
+        console.error(file, err.message);
+        //reject(err);
+        resolve(file + '\t0');
+      });
+  });
 }
 
 /*
@@ -348,8 +351,26 @@ csv()
         );
       });
   })
+  /*
   .then(() => {
+    let promises = [];
     images.forEach(image => {
-      downloadImages(image);
+      let promise = downloadImages(image);
+      promises.push(promise);
     });
+    Promise.all(promises)
+      .then(results => {
+        results.forEach(result => {
+          console.log(result);
+        });
+      })
+      .catch(e => {
+        console.log(e);
+      });
+    return;
+  })
+*/
+  .catch(e => {
+    console.log(e);
+    return;
   });
