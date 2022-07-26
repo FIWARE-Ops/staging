@@ -1,4 +1,6 @@
 .DS_Store
+images/*
+!images/.gitkeep
 node_modules
 Untitled.txt
 products.csv

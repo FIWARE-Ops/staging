@@ -6,6 +6,7 @@ const showdown = require('showdown');
 const jsdom = require('jsdom');
 const converter = new showdown.Converter();
 const got = require('got');
+const download = require('image-downloader');
 
 const docFields = ['Tech Documentation', 'Doc 2', 'Doc 3', ' Doc 4', 'Doc 5'];
 const mediaFields = ['Media', 'Media 2', 'Media 3', 'Media 4', 'Media 5'];
@@ -17,6 +18,37 @@ const refFields = [
   'Material 4',
   'Material 5'
 ];
+
+const path = require('path');
+const sizeOf = require('image-size');
+const images = [];
+
+function downloadImages(image) {
+  const file = image[0];
+  const options = {
+    url: image[1],
+    dest: __dirname + '/../images/' + file,
+    extractFilename: false,
+    timeout: 7000,
+    maxRedirects: 1
+  };
+
+  download
+    .image(options)
+    .then(({ filename }) => {
+      //console.log('Saved to', filename); // saved to /path/to/dest/image.jpg
+      try {
+        sizeOf(filename, function(err, dimensions) {
+          console.log(file, dimensions ? dimensions.width : '???');
+        });
+      } catch {
+        console.log(file, 0);
+      }
+    })
+    .catch(err => {
+      console.log(file, 0);
+    });
+}
 
 /*
 
@@ -157,7 +189,18 @@ csv()
         featuredImage: item['Featured Image'],
         furtherImages: ''
       };
+
+      if (item['Featured Image']) {
+        const file =
+          'hero_' +
+          item['Organisation Name'] +
+          '_' +
+          item['Product Name'] +
+          path.extname(item['Featured Image']);
+        images.push([file, item['Featured Image']]);
+      }
     });
+
     return details;
   })
   .then(details => {
@@ -304,4 +347,9 @@ csv()
           }
         );
       });
+  })
+  .then(() => {
+    images.forEach(image => {
+      downloadImages(image);
+    });
   });
