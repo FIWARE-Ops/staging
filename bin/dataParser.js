@@ -50,11 +50,11 @@ function getCategory(category) {
   } else if (category === 'FIWARE-Ready') {
     return 'ready';
   } else if (category === 'Services') {
-    return 'service';
+    return 'services';
   } else if (category === 'Support Services') {
-    return 'service';
+    return 'services';
   } else if (category === 'Cities4Cities') {
-    return 'city';
+    return 'cities';
   } else {
     return 'unknown';
   }

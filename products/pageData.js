@@ -515,7 +515,7 @@ var pageData = {
             'https://www.egm.io/wp-content/uploads/2020/08/ingenierie-integration.png',
           organisationName: 'EGM',
           productName: 'Design office',
-          companyLink: './?category=service&id=egm-designoffice'
+          companyLink: './?category=services&id=egm-designoffice'
         }
       ]
     },
@@ -1674,7 +1674,7 @@ var pageData = {
           organisationName: 'Snap4City',
           productName: 'Coaching & Training Services',
           companyLink:
-            './?category=service&id=snap4city-coachingtrainingservices'
+            './?category=services&id=snap4city-coachingtrainingservices'
         },
         {
           category: 'Services',
@@ -1683,7 +1683,7 @@ var pageData = {
           organisationName: 'Snap4City',
           productName: 'Consultancy & Integration Services',
           companyLink:
-            './?category=service&id=snap4city-consultancyintegrationservices'
+            './?category=services&id=snap4city-consultancyintegrationservices'
         }
       ]
     },
@@ -1824,7 +1824,7 @@ var pageData = {
             'https://hopu.eu/wp-content/uploads/2015/10/hop-ecosystem.png',
           organisationName: 'HOPU',
           productName: 'FIWARE Expert certification',
-          companyLink: './?category=service&id=hopu-fiwareexpertcertification'
+          companyLink: './?category=services&id=hopu-fiwareexpertcertification'
         }
       ]
     },
@@ -1879,7 +1879,7 @@ var pageData = {
             'https://iot-automotive.news/wp-content/uploads/2021/08/Thales-SOFTWARE-REPUBLIQUE_Mobile.jpg',
           organisationName: 'Atos',
           productName: 'Connected Territories',
-          companyLink: './?category=service&id=atos-connectedterritories'
+          companyLink: './?category=services&id=atos-connectedterritories'
         }
       ]
     },
@@ -2156,7 +2156,7 @@ var pageData = {
             'https://www.martel-innovate.com/wp-content/uploads/sites/5/2020/03/RESEARCH_INNOVATION_v6.jpg',
           organisationName: 'Martel Innovate',
           productName: 'Martel Lab',
-          companyLink: './?category=service&id=martelinnovate-martellab'
+          companyLink: './?category=services&id=martelinnovate-martellab'
         }
       ]
     },
@@ -2199,7 +2199,7 @@ var pageData = {
             'http://faubourgnumerique.com/wp-content/uploads/2018/01/FIWARE-iHubs_RGB.png',
           organisationName: 'Faubourg Numérique',
           productName: 'FIWARE iHub',
-          companyLink: './?category=service&id=faubourgnumérique-fiwareihub'
+          companyLink: './?category=services&id=faubourgnumérique-fiwareihub'
         }
       ]
     },
@@ -2607,7 +2607,7 @@ var pageData = {
           organisationName: 'Hearing Software',
           productName: 'Consultancy & Integration Services',
           companyLink:
-            './?category=service&id=hearingsoftware-consultancyintegrationservices'
+            './?category=services&id=hearingsoftware-consultancyintegrationservices'
         }
       ]
     },
@@ -2736,7 +2736,7 @@ var pageData = {
             'https://www.egm.io/wp-content/uploads/2020/08/ingenierie-integration.png',
           organisationName: 'EGM',
           productName: 'Design office',
-          companyLink: './?category=service&id=egm-designoffice'
+          companyLink: './?category=services&id=egm-designoffice'
         }
       ]
     },
@@ -2881,7 +2881,7 @@ var pageData = {
           featuredImage: 'https://fiware.ubiwhere.com/images/laptop.png',
           organisationName: 'Ubiwhere',
           productName: 'FIWARE @ UBIWHERE',
-          companyLink: './?category=service&id=ubiwhere-fiwareubiwhere'
+          companyLink: './?category=services&id=ubiwhere-fiwareubiwhere'
         }
       ]
     },
@@ -2924,7 +2924,7 @@ var pageData = {
             'https://sirius-labs.no/wp-content/uploads/2016/11/Cloud-1-e1478082888720.jpg',
           organisationName: 'StoneOne',
           productName: 'StoneOne Services',
-          companyLink: './?category=service&id=stoneone-stoneoneservices'
+          companyLink: './?category=services&id=stoneone-stoneoneservices'
         }
       ]
     },
@@ -3015,7 +3015,7 @@ var pageData = {
           organisationName: 'Snap4City',
           productName: 'Coaching & Training Services',
           companyLink:
-            './?category=service&id=snap4city-coachingtrainingservices'
+            './?category=services&id=snap4city-coachingtrainingservices'
         },
         {
           category: 'Services',
@@ -3024,7 +3024,7 @@ var pageData = {
           organisationName: 'Snap4City',
           productName: 'Consultancy & Integration Services',
           companyLink:
-            './?category=service&id=snap4city-consultancyintegrationservices'
+            './?category=services&id=snap4city-consultancyintegrationservices'
         }
       ]
     },
@@ -3397,7 +3397,7 @@ var pageData = {
             'https://iot-automotive.news/wp-content/uploads/2021/08/Thales-SOFTWARE-REPUBLIQUE_Mobile.jpg',
           organisationName: 'Atos',
           productName: 'Connected Territories',
-          companyLink: './?category=service&id=atos-connectedterritories'
+          companyLink: './?category=services&id=atos-connectedterritories'
         }
       ]
     },
@@ -3463,7 +3463,7 @@ var pageData = {
           featuredImage: 'https://fiware.ubiwhere.com/images/laptop.png',
           organisationName: 'Ubiwhere',
           productName: 'FIWARE @ UBIWHERE',
-          companyLink: './?category=service&id=ubiwhere-fiwareubiwhere'
+          companyLink: './?category=services&id=ubiwhere-fiwareubiwhere'
         }
       ]
     },
@@ -3764,7 +3764,7 @@ var pageData = {
           organisationName: 'TeamDev',
           productName: 'FIWARE Professional Services',
           companyLink:
-            './?category=service&id=teamdev-fiwareprofessionalservices'
+            './?category=services&id=teamdev-fiwareprofessionalservices'
         }
       ]
     },
@@ -3879,7 +3879,7 @@ var pageData = {
           organisationName: 'TeamDev',
           productName: 'FIWARE Professional Services',
           companyLink:
-            './?category=service&id=teamdev-fiwareprofessionalservices'
+            './?category=services&id=teamdev-fiwareprofessionalservices'
         }
       ]
     },
@@ -3999,7 +3999,7 @@ var pageData = {
           organisationName: 'TeamDev',
           productName: 'FIWARE Professional Services',
           companyLink:
-            './?category=service&id=teamdev-fiwareprofessionalservices'
+            './?category=services&id=teamdev-fiwareprofessionalservices'
         }
       ]
     },
@@ -4109,7 +4109,7 @@ var pageData = {
           organisationName: 'TeamDev',
           productName: 'FIWARE Professional Services',
           companyLink:
-            './?category=service&id=teamdev-fiwareprofessionalservices'
+            './?category=services&id=teamdev-fiwareprofessionalservices'
         }
       ]
     },
@@ -4224,7 +4224,7 @@ var pageData = {
           organisationName: 'TeamDev',
           productName: 'FIWARE Professional Services',
           companyLink:
-            './?category=service&id=teamdev-fiwareprofessionalservices'
+            './?category=services&id=teamdev-fiwareprofessionalservices'
         }
       ]
     },
@@ -4352,7 +4352,7 @@ var pageData = {
           organisationName: 'TeamDev',
           productName: 'FIWARE Professional Services',
           companyLink:
-            './?category=service&id=teamdev-fiwareprofessionalservices'
+            './?category=services&id=teamdev-fiwareprofessionalservices'
         }
       ]
     },
@@ -4467,7 +4467,7 @@ var pageData = {
           organisationName: 'TeamDev',
           productName: 'FIWARE Professional Services',
           companyLink:
-            './?category=service&id=teamdev-fiwareprofessionalservices'
+            './?category=services&id=teamdev-fiwareprofessionalservices'
         }
       ]
     },
@@ -5281,7 +5281,7 @@ var pageData = {
             'https://www.egm.io/wp-content/uploads/2020/08/ingenierie-integration.png',
           organisationName: 'EGM',
           productName: 'Design office',
-          companyLink: './?category=service&id=egm-designoffice'
+          companyLink: './?category=services&id=egm-designoffice'
         }
       ]
     },
@@ -6343,7 +6343,7 @@ var pageData = {
           featuredImage: '',
           organisationName: 'Secmotic',
           productName: 'IoT Development',
-          companyLink: './?category=service&id=secmotic-iotdevelopment'
+          companyLink: './?category=services&id=secmotic-iotdevelopment'
         }
       ]
     },
@@ -7027,7 +7027,7 @@ var pageData = {
           featuredImage: '',
           organisationName: 'Secmotic',
           productName: 'IoT Development',
-          companyLink: './?category=service&id=secmotic-iotdevelopment'
+          companyLink: './?category=services&id=secmotic-iotdevelopment'
         }
       ]
     },
@@ -8071,7 +8071,7 @@ var pageData = {
             'https://hopu.eu/wp-content/uploads/2015/10/hop-ecosystem.png',
           organisationName: 'HOPU',
           productName: 'FIWARE Expert certification',
-          companyLink: './?category=service&id=hopu-fiwareexpertcertification'
+          companyLink: './?category=services&id=hopu-fiwareexpertcertification'
         }
       ]
     },
@@ -8162,7 +8162,7 @@ var pageData = {
             'https://hopu.eu/wp-content/uploads/2015/10/hop-ecosystem.png',
           organisationName: 'HOPU',
           productName: 'FIWARE Expert certification',
-          companyLink: './?category=service&id=hopu-fiwareexpertcertification'
+          companyLink: './?category=services&id=hopu-fiwareexpertcertification'
         }
       ]
     },
@@ -8877,7 +8877,7 @@ var pageData = {
       furtherImages: ''
     }
   },
-  city: {
+  cities: {
     'cityofvienna-smartdatawien': {
       category: 'Cities4Cities',
       organisationName: 'City of Vienna',
@@ -8924,7 +8924,7 @@ var pageData = {
       furtherImages: ''
     }
   },
-  service: {
+  services: {
     'ballistix-ballistix': {
       category: 'Support Services',
       organisationName: 'BallistiX',
@@ -9071,7 +9071,7 @@ var pageData = {
           organisationName: 'FIWARE Space',
           productName: 'Consultancy & Integration Services',
           companyLink:
-            './?category=service&id=fiwarespace-consultancyintegrationservices'
+            './?category=services&id=fiwarespace-consultancyintegrationservices'
         }
       ]
     },
@@ -9111,7 +9111,7 @@ var pageData = {
           organisationName: 'FIWARE Zone',
           productName: 'Consultancy & Integration Services',
           companyLink:
-            './?category=service&id=fiwarezone-consultancyintegrationservices'
+            './?category=services&id=fiwarezone-consultancyintegrationservices'
         }
       ]
     },
@@ -9160,7 +9160,7 @@ var pageData = {
           organisationName: 'MNX Online',
           productName: 'FIWARE Transition Strategy',
           companyLink:
-            './?category=service&id=mnxonline-fiwaretransitionstrategy'
+            './?category=services&id=mnxonline-fiwaretransitionstrategy'
         }
       ]
     },
@@ -9232,7 +9232,7 @@ var pageData = {
           organisationName: 'Snap4City',
           productName: 'Consultancy & Integration Services',
           companyLink:
-            './?category=service&id=snap4city-consultancyintegrationservices'
+            './?category=services&id=snap4city-consultancyintegrationservices'
         }
       ]
     },
@@ -9338,7 +9338,7 @@ var pageData = {
           organisationName: 'FIWARE Space',
           productName: 'Coaching & Training Services',
           companyLink:
-            './?category=service&id=fiwarespace-coachingtrainingservices'
+            './?category=services&id=fiwarespace-coachingtrainingservices'
         }
       ]
     },
@@ -9382,7 +9382,7 @@ var pageData = {
           organisationName: 'FIWARE Zone',
           productName: 'Coaching & Training Services',
           companyLink:
-            './?category=service&id=fiwarezone-coachingtrainingservices'
+            './?category=services&id=fiwarezone-coachingtrainingservices'
         }
       ]
     },
@@ -9538,7 +9538,7 @@ var pageData = {
           organisationName: 'Snap4City',
           productName: 'Coaching & Training Services',
           companyLink:
-            './?category=service&id=snap4city-coachingtrainingservices'
+            './?category=services&id=snap4city-coachingtrainingservices'
         }
       ]
     },
@@ -9678,7 +9678,7 @@ var pageData = {
           organisationName: 'FiiHUB Canary Island',
           productName: 'Innovation Project Design through FIWARE',
           companyLink:
-            './?category=service&id=fiihubcanaryisland-innovationprojectdesignthroughfiware'
+            './?category=services&id=fiihubcanaryisland-innovationprojectdesignthroughfiware'
         }
       ]
     },
@@ -10081,7 +10081,7 @@ var pageData = {
           organisationName: 'MNX Online',
           productName: 'Coaching & Training Services',
           companyLink:
-            './?category=service&id=mnxonline-coachingtrainingservices'
+            './?category=services&id=mnxonline-coachingtrainingservices'
         }
       ]
     },
@@ -10119,7 +10119,8 @@ var pageData = {
             'https://media.istockphoto.com/photos/panorama-of-santa-cruz-de-tenerife-resorts-and-pools-tenerife-canary-picture-id1190178756?k=20&m=1190178756&s=612x612&w=0&h=IWOOqbO8zeQfLtNYZQnu_OZ17WOYY8NaUzkKJ5xB44E=',
           organisationName: 'FiiHUB Canary Island',
           productName: 'FiiHUB Academy',
-          companyLink: './?category=service&id=fiihubcanaryisland-fiihubacademy'
+          companyLink:
+            './?category=services&id=fiihubcanaryisland-fiihubacademy'
         }
       ]
     },

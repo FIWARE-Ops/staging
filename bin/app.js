@@ -7,6 +7,8 @@ const Downloader = require('./downloader');
 const Parser = require('./dataParser');
 const CSVParser = require('./csvParser');
 
+const CATEGORIES = ['powered', 'ready', 'services', 'cities'];
+
 const _ = require('underscore');
 let productDetails;
 
@@ -71,25 +73,17 @@ csv()
         return CSVParser.extractSummaryInfo(input, allProducts.details);
       })
       .then(summaryInfo => {
-        summaryInfo.poweredBy.forEach(prod => {
-          relatedProducts(prod, summaryInfo.hashes, 'powered');
+        CATEGORIES.forEach(category => {
+          summaryInfo[category].forEach(prod => {
+            relatedProducts(prod, summaryInfo.hashes, category);
+          });
         });
-        summaryInfo.ready.forEach(prod => {
-          relatedProducts(prod, summaryInfo.hashes, 'ready');
-        });
-        summaryInfo.service.forEach(prod => {
-          relatedProducts(prod, summaryInfo.hashes, 'service');
-        });
-        summaryInfo.cities.forEach(prod => {
-          relatedProducts(prod, summaryInfo.hashes, 'cities');
-        });
-
         return summaryInfo;
       })
       .then(summaryInfo => {
-        writeFile('powered-by-fiware/pageData.js', summaryInfo.poweredBy);
+        writeFile('powered-by-fiware/pageData.js', summaryInfo.powered);
         writeFile('ngsi-ready/pageData.js', summaryInfo.ready);
-        writeFile('services/pageData.js', summaryInfo.service);
+        writeFile('services/pageData.js', summaryInfo.services);
         writeFile('cities4cities/pageData.js', summaryInfo.cities);
         writeFile('products/pageData.js', productDetails.details);
       });

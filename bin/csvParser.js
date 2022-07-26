@@ -17,8 +17,8 @@ function extractProductDetails(input) {
   const details = {
     powered: {},
     ready: {},
-    city: {},
-    service: {},
+    cities: {},
+    services: {},
     unknown: {}
   };
 
@@ -74,16 +74,16 @@ function extractProductDetails(input) {
 }
 
 function extractSummaryInfo(input, details) {
-  const poweredBy = [];
+  const powered = [];
   const ready = [];
-  const service = [];
+  const services = [];
   const cities = [];
 
   const hashes = {
     powered: [],
     ready: [],
     cities: [],
-    service: [],
+    services: [],
     unknown: []
   };
 
@@ -149,7 +149,7 @@ function extractSummaryInfo(input, details) {
       obj.content = item['Excerpt'].replace(regEx, replaceMask).trim();
 
       if (item['Category'] === 'Powered by FIWARE') {
-        poweredBy.push(obj);
+        powered.push(obj);
         hashes.powered.push(hash);
       } else if (item['Category'] === 'NGSI Ready Devices') {
         ready.push(obj);
@@ -158,11 +158,11 @@ function extractSummaryInfo(input, details) {
         ready.push(obj);
         hashes.ready.push(hash);
       } else if (item['Category'] === 'Services') {
-        service.push(obj);
-        hashes.service.push(hash);
+        services.push(obj);
+        hashes.services.push(hash);
       } else if (item['Category'] === 'Support Services') {
-        service.push(obj);
-        hashes.service.push(hash);
+        services.push(obj);
+        hashes.services.push(hash);
       } else if (item['Category'] === 'Cities4Cities') {
         cities.push(obj);
         hashes.cities.push(hash);
@@ -171,7 +171,7 @@ function extractSummaryInfo(input, details) {
       }
     }
   });
-  return { poweredBy, ready, service, cities, hashes };
+  return { powered, ready, services, cities, hashes };
 }
 
 exports.extractProductDetails = extractProductDetails;

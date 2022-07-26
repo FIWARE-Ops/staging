@@ -7,7 +7,7 @@ var pageData = [
     fiwareMember: true,
     fiwareIhub: false,
     companyLink:
-      '../product-details/?category=city&id=cityofvienna-smartdatawien',
+      '../product-details/?category=cities&id=cityofvienna-smartdatawien',
     domain: ['Cities', 'Government'],
     type: '',
     technology: ['Internet of Things', 'Mobility and Location', 'Open Data'],
