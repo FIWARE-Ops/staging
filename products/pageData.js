@@ -74,7 +74,7 @@ var pageData = {
       docs: [
         [
           'FIWARE Documentation',
-          'https://www.fiware.org/2016/03/18/agricolus-suite-making-precision-farming-easier/http://'
+          'https://www.fiware.org/2016/03/18/agricolus-suite-making-precision-farming-easier/'
         ]
       ],
       videos: [
@@ -169,6 +169,10 @@ var pageData = {
       ],
       videos: [],
       materials: [
+        [
+          'Solution Directory',
+          'https://www.destinosinteligentes.es/directorio_DTI/directorio.php?q=baret&ord='
+        ],
         [
           'Reference 2',
           'http://asociacionambe.com/baret-la-plataforma-inteligente-especializada-en-el-sector-de-la-bicicleta/'
@@ -314,8 +318,13 @@ var pageData = {
         "<p>FIWARE Business Success Story\n*ship Global Startup Challenge (GSC) 2017 Winner (04.2017)\nWE DO DIGITAL award / DIHK &amp; German chambers of industry and commerce (05.2017)\nDeutschland: Land der Ideen (Germany: Land of Ideas / incl. distinction from German president) (06.2017)\nPower To Idea Accelerator (06.2017)\nTechFounders Accelerator (07.2017)\nHamburger Gründerpreis (Hamburg Founders' Award) (09.2017)\nEU Top 50 (11.2017)\nScience4Life: Idea Phase (11.2017)</p>",
       technologies: ['Internet of Things', 'Data Analytics', 'Sensory Systems'],
       domains: ['Cities'],
-      docs: [],
-      videos: [],
+      docs: [
+        [
+          'Breeze Technologies Solutions',
+          'http://www.breeze-technologies.de/solutions/'
+        ]
+      ],
+      videos: [['Press and Media', 'http://www.breeze-technologies.de/press']],
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_BreezeTechnologies.svg',
@@ -348,7 +357,7 @@ var pageData = {
         'Data Analytics'
       ],
       domains: ['Cities', 'AgriFood', 'Logistics', 'Industry', 'Health'],
-      docs: [],
+      docs: [['Technology', 'https://srmconsulting.es/en/indexeng.html']],
       videos: [],
       materials: [],
       logo:
@@ -378,7 +387,12 @@ var pageData = {
       awards: '',
       technologies: ['Internet of Things', 'Data Analytics'],
       domains: ['Health'],
-      docs: [],
+      docs: [
+        [
+          'CarioID Technologies',
+          'https://www.fiware.org/success_stories/cardioid-technologies'
+        ]
+      ],
       videos: [],
       materials: [],
       logo:
@@ -2863,7 +2877,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Telefonica.svg',
       featuredImage:
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQcPj405p6XrT8AtCNRTUy_MEiNmJsApD_uVbflIbx96ejjUnJnVEkJ1oPxnd_x1cTRnk&usqp=CAU',
+        'https://es.readkong.com/static/ca/34/ca34a0fed35281420132ddc97e905734/i-1.jpg',
       furtherImages: ''
     },
     'absolutezero-thor': {
@@ -3758,7 +3772,7 @@ var pageData = {
         ]
       ],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Agricolus.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Agricolus.svg',
       featuredImage:
         'https://www.agricolus.com/wp-content/uploads/2021/01/device-gen-2021-1.png',
       furtherImages: ''
@@ -3786,7 +3800,7 @@ var pageData = {
       videos: [],
       materials: [],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Babbler.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Babbler.svg',
       featuredImage:
         'https://itude.com/wp-content/uploads/2019/01/Schermafbeelding-2019-02-12-om-17.04.00.png',
       furtherImages: ''
@@ -3811,11 +3825,20 @@ var pageData = {
       awards: '',
       technologies: ['Internet of Things', 'Cloud Computing'],
       domains: ['Cities'],
-      docs: [],
+      docs: [
+        [
+          'Technical specifications',
+          'https://www.fiware.org/wp-content/uploads/2018/12/BEAT20_eng.pdf'
+        ],
+        [
+          'Manual Template',
+          'https://www.fiware.org/wp-content/uploads/2018/12/FIWARE_IoT-Ready_Manual_Template-BEAT.pdf'
+        ]
+      ],
       videos: [],
       materials: [],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Datakorum.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
       featuredImage:
         'https://www.datakorum.com/site/wp-content/uploads/2019/11/beat_dk-en.jpg',
       furtherImages: ''
@@ -3842,11 +3865,26 @@ var pageData = {
         "<p>FIWARE Business Success Story\n*ship Global Startup Challenge (GSC) 2017 Winner (04.2017)\nWE DO DIGITAL award / DIHK &amp; German chambers of industry and commerce (05.2017)\nDeutschland: Land der Ideen (Germany: Land of Ideas / incl. distinction from German president) (06.2017)\nHamburger Gründerpreis (Hamburg Founders' Award) (09.2017)\nEU Top 50 (11.2017)\nScience4Life: Idea Phase (11.2017)\nForbes 30 Under 30 Europe / Social Entrepreneurship (01.2018)\nWE DO DIGITAL 2018 award / DIHK &amp; German chambers of industry and commerce (06.2018)\nbetapitch Hamburg Winner (06.2018)\nGründerwettbewerb Digitale Innovation (08.2018)\nWECONOMY (10.2018)\nbetapitch global Winner (11.2018)\nFür-Gründer.de Top50 Startup (01.2019)</p>",
       technologies: ['Artificial Intelligence', 'Cloud Computing'],
       domains: ['Cities', 'Industry', 'Ports'],
-      docs: [],
-      videos: [],
-      materials: [],
+      docs: [
+        [
+          'Breeze Technologies Solutions',
+          'https://www.breeze-technologies.de/solutions/'
+        ]
+      ],
+      videos: [
+        [
+          'YouTube Channel',
+          'https://www.youtube.com/channel/UCqRNWyXf5yexIRTzLvY9Zqw'
+        ]
+      ],
+      materials: [
+        [
+          'Customer cases and References',
+          'https://www.breeze-technologies.de/projects-and-references/'
+        ]
+      ],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_BreezeTechnologies.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_BreezeTechnologies.svg',
       featuredImage:
         'https://www.breeze-technologies.de/wp-content/uploads/2016/02/Breeze-Concept-Design-2015-10-29-2-Map-View-Macbook.png',
       furtherImages: ''
@@ -3884,11 +3922,20 @@ var pageData = {
         'Utilities',
         'Oil and Gas'
       ],
-      docs: [],
+      docs: [
+        [
+          'Motion adaptive street lighting',
+          'https://drive.google.com/file/d/1YqUkIAbFl63v-OsiI6mosMXCv5eusnDQ/view'
+        ],
+        [
+          'Citygrid CONTROLLERs',
+          'https://docs.google.com/document/d/1hR1_86ZCmxFvoL3Srx7Mt-bDyZlMNI8k1Qq3uv2Vyx8/edit?usp=sharing'
+        ]
+      ],
       videos: [],
       materials: [],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_CityGrid.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_CityGrid.svg',
       featuredImage:
         'https://static.wixstatic.com/media/5a3321_70eb48c9243d4a6a88f0df0df6475b99~mv2.jpg/v1/fill/w_640,h_358,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/5a3321_70eb48c9243d4a6a88f0df0df6475b99~mv2.jpg',
       furtherImages: ''
@@ -3916,7 +3963,7 @@ var pageData = {
       videos: [],
       materials: [],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Datakorum.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
       featuredImage: '',
       furtherImages: ''
     },
@@ -3947,7 +3994,7 @@ var pageData = {
       videos: [],
       materials: [],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/software-enabler/logo_Engineering.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Engineering.svg',
       featuredImage:
         'https://www.eng.it/resources/cases/cs_imp_case_16-11-2020_dashram_it_1605516526298/dashram_q.jpg',
       furtherImages: ''
@@ -3973,11 +4020,16 @@ var pageData = {
       awards: '',
       technologies: ['Open Data'],
       domains: ['AgriFood'],
-      docs: [],
+      docs: [
+        [
+          'Technologies-Innovation Digitanimal',
+          'https://innovation.digitanimal.com/en/technologies/'
+        ]
+      ],
       videos: [],
       materials: [],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_DigitAnimal.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_DigitAnimal.svg',
       featuredImage:
         'https://i0.wp.com/digitanimal.com/wp-content/uploads/2020/12/DSC05390-1-2-min.jpg?resize=400%2C250&ssl=1',
       furtherImages: ''
@@ -4016,7 +4068,7 @@ var pageData = {
       videos: [],
       materials: [],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_DigitAnimal.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_DigitAnimal.svg',
       featuredImage:
         'https://digitanimal.co.uk/wp-content/uploads/2020/03/producto_vaca.jpg',
       furtherImages: ''
@@ -4056,7 +4108,7 @@ var pageData = {
         ]
       ],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_EGM.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_EGM.svg',
       featuredImage:
         'https://www.egm.io/wp-content/uploads/2020/08/about-egm.png',
       furtherImages: ''
@@ -4091,7 +4143,7 @@ var pageData = {
         ['Reference 4', 'https://www.finance.si/8842757?cctest&']
       ],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_eVineyard.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_eVineyard.svg',
       featuredImage:
         'https://www.evineyardapp.com/blog/wp-content/uploads/2021/08/Get-ready-for-grape-harvest-scaled.jpg',
       furtherImages: ''
@@ -4123,7 +4175,7 @@ var pageData = {
       ],
       materials: [['Reference 1', 'https://en.telocate.de/press-reactions']],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/software-enabler/logo_FI-Assist.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_FI-Assist.svg',
       featuredImage:
         'https://de.telocate.de/wp-content/uploads/20190822_141557_proc_resize-1024x631.jpg',
       furtherImages: ''
@@ -4159,7 +4211,7 @@ var pageData = {
       ],
       materials: [],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/software-enabler/logo_SRM.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_SRM.svg',
       featuredImage:
         'https://srmconsulting.es/assets/img/blog/fiware-map-viewer-srmconsulting.jpg',
       furtherImages: ''
@@ -4199,7 +4251,7 @@ var pageData = {
         ]
       ],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/software-enabler/logo_GavillanControl.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_GavillanControl.svg',
       featuredImage:
         'https://ventumidc.es/wp-content/uploads/2021/10/soluciones-tecnologicas-ganaderia18-400x383_c.jpg',
       furtherImages: ''
@@ -4254,7 +4306,7 @@ var pageData = {
         ]
       ],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/software-enabler/logo_Gecor.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Gecor.svg',
       featuredImage: 'https://gecorweb.com/images/HomeNI.webp',
       furtherImages: ''
     },
@@ -4314,7 +4366,7 @@ var pageData = {
         ['Reference 5', 'https://www.youtube.com/watch?v=ck6VKKisHb8']
       ],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Insylo.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Insylo.svg',
       featuredImage:
         'http://www.insylo.com/wp-content/uploads/2016/08/insylo-5.png',
       furtherImages: ''
@@ -4348,7 +4400,7 @@ var pageData = {
       videos: [],
       materials: [],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Seacon.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Seacon.svg',
       featuredImage:
         'https://www.seacon.hu/images/palyazati_anyagok/Intellifood-Business-Overview.jpg',
       furtherImages: ''
@@ -4382,7 +4434,7 @@ var pageData = {
       ],
       materials: [],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Odins.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Odins.svg',
       featuredImage:
         'https://www.odins.es/wp-content/uploads/2017/04/IPex04.png',
       furtherImages: ''
@@ -4421,7 +4473,7 @@ var pageData = {
         ]
       ],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Odins.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Odins.svg',
       featuredImage:
         'https://www.odins.es/wp-content/uploads/2017/04/IPex12-v4.jpg',
       furtherImages: ''
@@ -4457,7 +4509,7 @@ var pageData = {
       ],
       materials: [],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Odins.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Odins.svg',
       featuredImage:
         'https://www.odins.es/wp-content/uploads/2017/04/IPex16-2.png',
       furtherImages: ''
@@ -4489,7 +4541,7 @@ var pageData = {
       videos: [['Media 1', 'https://www.youtube.com/watch?v=ZLxNxsosAaE']],
       materials: [],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/raster/logo_KMBLab.png',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/raster/logo_KMBLab.png',
       featuredImage:
         'https://media-exp1.licdn.com/dms/image/C561BAQFuQY7brqieWA/company-background_10000/0/1563375031363?e=2147483647&v=beta&t=k3Hj__QSZ5QKThT770HP9XKv_zxovOpY2imfLFrXJHU',
       furtherImages: ''
@@ -4550,7 +4602,7 @@ var pageData = {
         ['Reference 3', 'https://www.capterra.com/p/209297/Big-Data/']
       ],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/software-enabler/logo_KnowAge.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_KnowAge.svg',
       featuredImage:
         'https://www.knowage-suite.com/site/wp-content/uploads/2021/09/knowage-screen-overview-540x400.jpg',
       furtherImages: ''
@@ -4583,7 +4635,7 @@ var pageData = {
       videos: [],
       materials: [],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Datakorum.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
       featuredImage:
         'https://www.datakorum.com/site/wp-content/uploads/2018/09/lane_aforo_dk_eng-1.jpg',
       furtherImages: ''
@@ -4611,7 +4663,7 @@ var pageData = {
       videos: [],
       materials: [],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Datakorum.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
       featuredImage:
         'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
       furtherImages: ''
@@ -4639,7 +4691,7 @@ var pageData = {
       videos: [],
       materials: [],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Datakorum.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
       featuredImage:
         'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
       furtherImages: ''
@@ -4674,7 +4726,7 @@ var pageData = {
       videos: [['Media 1', 'https://www.youtube.com/watch?v=lvholT9VZVs']],
       materials: [],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Secmotic.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Secmotic.svg',
       featuredImage:
         'http://secmotic.com/wp-content/uploads/2020/12/secmotic_concepto_web_sec.png',
       furtherImages: ''
@@ -4702,7 +4754,7 @@ var pageData = {
       videos: [],
       materials: [],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Datakorum.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
       featuredImage:
         'https://www.datakorum.com/site/wp-content/uploads/2018/06/software_dk-1.jpg',
       furtherImages: ''
@@ -4733,7 +4785,7 @@ var pageData = {
       videos: [],
       materials: [],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_SRM.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_SRM.svg',
       featuredImage:
         'https://srmconsulting.es/assets/img/blog/mavdrone-srm-consulting.png',
       furtherImages: ''
@@ -4761,7 +4813,7 @@ var pageData = {
       videos: [],
       materials: [],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Datakorum.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
       featuredImage:
         'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
       furtherImages: ''
@@ -4800,7 +4852,7 @@ var pageData = {
       videos: [['Media 1', 'https://www.youtube.com/watch?v=Ol7PE0-mfhE']],
       materials: [],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Libelium.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Libelium.svg',
       featuredImage:
         'https://www.libelium.com/wp-content/uploads/2020/08/PRODUCTS-elements-detail-ps-9-min-768x768.png',
       furtherImages: ''
@@ -4841,7 +4893,7 @@ var pageData = {
         ]
       ],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Odins.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Odins.svg',
       featuredImage:
         'https://www.odins.es/wp-content/uploads/2017/04/IPex12-v4.jpg',
       furtherImages: ''
@@ -4879,7 +4931,7 @@ var pageData = {
       videos: [],
       materials: [],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Miluz.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Miluz.svg',
       featuredImage: 'https://miluz.eficae.es/assets/img/login/logo.svg',
       furtherImages: ''
     },
@@ -4935,7 +4987,7 @@ var pageData = {
       videos: [],
       materials: [],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Datakorum.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
       featuredImage:
         'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
       furtherImages: ''
@@ -4965,7 +5017,7 @@ var pageData = {
       videos: [],
       materials: [],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Secmotic.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Secmotic.svg',
       featuredImage:
         'https://www.muvone.com/wp-content/uploads/2015/01/muvone-dispositivo-prevencion-osteoporosis-render-1-e1496664254630.jpg',
       furtherImages: ''
@@ -5005,7 +5057,7 @@ var pageData = {
         ['Reference 2', 'https://www.cielosdealgeciras.es/']
       ],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_GreenGlobe.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_GreenGlobe.svg',
       featuredImage:
         'https://www.greenglobe.es/wp-content/uploads/2019/04/IMG_1788-Recuperado-2.png',
       furtherImages: ''
@@ -5034,7 +5086,7 @@ var pageData = {
       videos: [],
       materials: [],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_OutBarriers.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_OutBarriers.svg',
       featuredImage:
         'https://outbarriers.com/static/img/outbarriers-app-mockup-vertical.jpg',
       furtherImages: ''
@@ -5068,7 +5120,7 @@ var pageData = {
       videos: [],
       materials: [],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Datakorum.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
       featuredImage:
         'https://www.datakorum.com/site/wp-content/uploads/2018/09/peak_dk_eng.jpg',
       furtherImages: ''
@@ -5105,7 +5157,7 @@ var pageData = {
       videos: [],
       materials: [],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Datakorum.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
       featuredImage:
         'https://www.datakorum.com/site/wp-content/uploads/2018/09/plug-series_eng.jpg',
       furtherImages: ''
@@ -5144,7 +5196,7 @@ var pageData = {
       ],
       materials: [],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Libelium.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Libelium.svg',
       featuredImage:
         'https://www.libelium.com/wp-content/uploads/2020/09/SOLUTIONS-product-generico.png',
       furtherImages: ''
@@ -5181,7 +5233,7 @@ var pageData = {
       videos: [],
       materials: [],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Datakorum.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
       featuredImage:
         'https://www.datakorum.com/site/wp-content/uploads/2018/09/equipo_cabecera_DK_eng.jpg',
       furtherImages: ''
@@ -5216,7 +5268,7 @@ var pageData = {
       videos: [],
       materials: [],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_WellnessTechGroup.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_WellnessTechGroup.svg',
       featuredImage:
         'https://wellnesstg.com/wp-content/uploads/2019/05/quamtramanager.png',
       furtherImages: ''
@@ -5246,7 +5298,7 @@ var pageData = {
       videos: [],
       materials: [],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Respira.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Respira.svg',
       featuredImage:
         'https://panstamp.github.io/respira_fiware/docs/img/respira_fiware_pic08.jpg',
       furtherImages: ''
@@ -5274,7 +5326,7 @@ var pageData = {
       videos: [],
       materials: [],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Datakorum.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
       featuredImage: '',
       furtherImages: ''
     },
@@ -5324,7 +5376,7 @@ var pageData = {
         ]
       ],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/software-enabler/logo_Urbaser.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Urbaser.svg',
       featuredImage:
         'https://www.urbaser.com/wp-content/uploads/2020/06/logo_sensiot_mod-02_5.jpg',
       furtherImages: ''
@@ -5384,7 +5436,7 @@ var pageData = {
         ]
       ],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/software-enabler/logo_Distromel.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Distromel.svg',
       featuredImage:
         'https://distromel.com/wp-content/uploads/2019/11/slider-03-1.jpg',
       furtherImages: ''
@@ -5448,7 +5500,7 @@ var pageData = {
         ]
       ],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/software-enabler/logo_Situm.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Situm.svg',
       featuredImage:
         'https://situm.com/wp-content/uploads/2020/05/Situm-Workforce-Tracker-for-indoor-tracking-768x768.jpg',
       furtherImages: ''
@@ -5480,7 +5532,7 @@ var pageData = {
       videos: [],
       materials: [],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/software-enabler/logo_Situm.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Situm.svg',
       featuredImage:
         'https://situm.com/wp-content/uploads/2020/05/Situm-Workforce-Tracker-for-indoor-tracking-768x768.jpg',
       furtherImages: ''
@@ -5507,7 +5559,7 @@ var pageData = {
       videos: [],
       materials: [],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Hopu.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Hopu.svg',
       featuredImage:
         'https://hopu.eu/wp-content/uploads/2015/10/hop-ecosystem.png',
       furtherImages: ''
@@ -5566,7 +5618,7 @@ var pageData = {
         ]
       ],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Hopu.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Hopu.svg',
       featuredImage:
         'https://smartcities.hopu.eu/images/EN-smart-spot-scheme.png',
       furtherImages: ''
@@ -5594,7 +5646,7 @@ var pageData = {
       videos: [],
       materials: [],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Datakorum.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
       featuredImage:
         'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
       furtherImages: ''
@@ -5632,7 +5684,7 @@ var pageData = {
       videos: [],
       materials: [],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Datakorum.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
       featuredImage:
         'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
       furtherImages: ''
@@ -5672,7 +5724,7 @@ var pageData = {
       videos: [['Media 1', 'https://www.youtube.com/watch?v=qlYKY5BjqDM']],
       materials: [],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/software-enabler/logo_Axion.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Axion.svg',
       featuredImage:
         'https://www.axion.es/wp-content/uploads/2019/11/verticales2.png',
       furtherImages: ''
@@ -5706,7 +5758,7 @@ var pageData = {
       ],
       materials: [['Reference 1', 'https://tst-sistemas.com/en/']],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_TST.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_TST.svg',
       featuredImage:
         'https://tst-sistemas.com/wp-content/uploads/2021/06/ingnieria3.jpg',
       furtherImages: ''
@@ -5750,7 +5802,7 @@ var pageData = {
         ]
       ],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_TST.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_TST.svg',
       featuredImage:
         'https://tst-sistemas.com/wp-content/uploads/2021/06/ingnieria3.jpg',
       furtherImages: ''
@@ -5789,7 +5841,7 @@ var pageData = {
         ['Reference 3', 'https://partners.telefonica.com/']
       ],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_TST.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_TST.svg',
       featuredImage:
         'https://tst-sistemas.com/wp-content/uploads/2021/06/ingnieria3.jpg',
       furtherImages: ''
@@ -5817,7 +5869,7 @@ var pageData = {
       videos: [],
       materials: [],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_UDGAlliance.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_UDGAlliance.svg',
       featuredImage:
         'https://www.devicegateway.com/sites/default/files/imageblock/application-domains.jpg',
       furtherImages: ''
@@ -5853,7 +5905,7 @@ var pageData = {
         ['Reference 1', 'https://viralstudios.es/en/turismo-inmersivo/']
       ],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_ViralStudio.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_ViralStudio.svg',
       featuredImage:
         'https://www.viralstudio.it/images/2021/10/19/monitor3.png',
       furtherImages: ''
@@ -5886,7 +5938,7 @@ var pageData = {
       videos: [['Media 1', 'https://www.youtube.com/watch?v=pj00pJMQsw0']],
       materials: [],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_Libelium.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Libelium.svg',
       featuredImage:
         'https://www.libelium.com/wp-content/uploads/2020/07/product-768x771.png',
       furtherImages: ''
@@ -5921,7 +5973,7 @@ var pageData = {
       videos: [],
       materials: [],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/iot-device/logo_WellnessTechGroup.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_WellnessTechGroup.svg',
       featuredImage:
         'https://wellnesstg.com/wp-content/uploads/2021/11/sdp-talqcertified2-1.jpg',
       furtherImages: ''
@@ -5951,7 +6003,7 @@ var pageData = {
       videos: [],
       materials: [],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/FIWARE-Ready/software-enabler/raster/logo_Xapix.png',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/raster/logo_Xapix.png',
       featuredImage:
         'https://assets-global.website-files.com/5fbd1f90c46914dfad58597c/5fd0d4de2a1a7619a5156dc9_xa_illu_maturity02%401x_200604.png',
       furtherImages: ''
@@ -6267,6 +6319,10 @@ var pageData = {
       domains: ['Air Quality', 'Cities', 'Industry', 'Mobility', 'Tourism'],
       docs: [
         [
+          'Technical Overview',
+          'https://www.snap4city.org/download/video/Snap4City-PlatformOverview.pdf'
+        ],
+        [
           'Document 2',
           'https://www.snap4city.org/download/video/DPL_SNAP4CITY_2022-v02.pdf'
         ]
@@ -6301,7 +6357,7 @@ var pageData = {
         '<p>Atos named a Leader in Smart Cities in Europe by IDC MarketScape</p>',
       technologies: ['Artificial Intelligence'],
       domains: ['Cities', 'AgriFood'],
-      docs: [],
+      docs: [['Atos Tech Days', 'https://www.youtube.com/watch?v=2MF8ldQsYU8']],
       videos: [],
       materials: [],
       logo:
@@ -6381,7 +6437,7 @@ var pageData = {
         'Artificial Intelligence'
       ],
       domains: ['Cities', 'AgriFood', 'Industry', 'Ports', 'Health'],
-      docs: [],
+      docs: [['FIWARE Technology', 'https://fiware.zone/tecnologia-fiware/']],
       videos: [],
       materials: [],
       logo:
@@ -6410,7 +6466,7 @@ var pageData = {
       awards: '',
       technologies: ['Internet of Things', 'Data Handling'],
       domains: ['Cities', 'AgriFood', 'Logistics', 'Industry', 'Ports'],
-      docs: [],
+      docs: [['Opplafy platform', 'https://www.opplafy.eu/en/']],
       videos: [],
       materials: [],
       logo:
