@@ -89,7 +89,17 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Agricolus.svg',
       featuredImage:
         'https://www.agricolus.com/wp-content/uploads/2021/01/device-gen-2021-1.png',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.agricolus.com/wp-content/uploads/2021/01/device-gen-2021-1.png',
+          organisationName: 'Agricolus',
+          productName: 'Agricolus Ecosystem',
+          companyLink: './?category=ready&id=agricolus-agricolusecosystem'
+        }
+      ]
     },
     'hostabee-bkeep': {
       category: 'Powered by FIWARE',
@@ -182,7 +192,17 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_PurpleBlob.svg',
       featuredImage:
         'https://baret.es/wp-content/uploads/2021/01/UpRecurso-1@4x.png',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://purpleblob.net/wp-content/uploads/2019/04/logo-sara.png',
+          organisationName: 'Purple Blob',
+          productName: 'SARA',
+          companyLink: './?category=powered&id=purpleblob-sara'
+        }
+      ]
     },
     'tera-beeta': {
       category: 'Powered by FIWARE',
@@ -330,7 +350,27 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_BreezeTechnologies.svg',
       featuredImage:
         'https://www.breeze-technologies.de/wp-content/uploads/2016/02/Breeze-Concept-Design-2015-10-29-2-Map-View-Macbook.png',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.breeze-technologies.de/wp-content/uploads/2016/02/Breeze-Concept-Design-2015-10-29-2-Map-View-Macbook.png',
+          organisationName: 'Breeze Technologies',
+          productName: 'Environmental Intelligence Suite',
+          companyLink:
+            './?category=powered&id=breezetechnologies-environmentalintelligencesuite'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.breeze-technologies.de/wp-content/uploads/2016/02/Breeze-Concept-Design-2015-10-29-2-Map-View-Macbook.png',
+          organisationName: 'Breeze Technologies',
+          productName: 'Breeze Air Quality Sensors',
+          companyLink:
+            './?category=ready&id=breezetechnologies-breezeairqualitysensors'
+        }
+      ]
     },
     'srmconsulting-capacitycontrolsystem': {
       category: 'Powered by FIWARE',
@@ -364,7 +404,25 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_SRM.svg',
       featuredImage:
         'https://srmconsulting.es/assets/img/srm-consulting-lider-tecnologia-geoespacial.png',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://srmconsulting.es/assets/img/blog/fiware-map-viewer-srmconsulting.jpg',
+          organisationName: 'SRM Consulting',
+          productName: 'FIWARE Map Viewer',
+          companyLink: './?category=ready&id=srmconsulting-fiwaremapviewer'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://srmconsulting.es/assets/img/blog/mavdrone-srm-consulting.png',
+          organisationName: 'SRM Consulting',
+          productName: 'MavDrone',
+          companyLink: './?category=ready&id=srmconsulting-mavdrone'
+        }
+      ]
     },
     'cardioid-cardiowheel': {
       category: 'Powered by FIWARE',
@@ -433,7 +491,33 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_EGM.svg',
       featuredImage:
         'https://www.egm.io/wp-content/uploads/2021/09/cd66-montage-blog.png',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.egm.io/wp-content/uploads/2020/10/7-scaled.jpg',
+          organisationName: 'EGM',
+          productName: 'Smart Irrigation',
+          companyLink: './?category=powered&id=egm-smartirrigation'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.egm.io/wp-content/uploads/2020/08/about-egm.png',
+          organisationName: 'EGM',
+          productName: 'EdgeSpot',
+          companyLink: './?category=ready&id=egm-edgespot'
+        },
+        {
+          category: 'Services',
+          featuredImage:
+            'https://www.egm.io/wp-content/uploads/2020/08/ingenierie-integration.png',
+          organisationName: 'EGM',
+          productName: 'Design office',
+          companyLink: './?category=service&id=egm-designoffice'
+        }
+      ]
     },
     'ciclogreenmovewin-ciclogreen': {
       category: 'Powered by FIWARE',
@@ -607,7 +691,32 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_DigitalEnabler.svg',
       featuredImage:
         'https://www.eng.it/resources/platform/digital-enabler/img/digital-enabler2-q1.jpg',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage: '',
+          organisationName: 'Engineering DSS',
+          productName: 'CuraVesta',
+          companyLink: './?category=powered&id=engineeringdss-curavesta'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.eng.it/resources/cases/cs_imp_case_16-11-2020_dashram_it_1605516526298/dashram_q.jpg',
+          organisationName: 'Engineering',
+          productName: 'Dashram',
+          companyLink: './?category=ready&id=engineering-dashram'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.knowage-suite.com/site/wp-content/uploads/2021/09/knowage-screen-overview-540x400.jpg',
+          organisationName: 'Engineering',
+          productName: 'KNOWAGE',
+          companyLink: './?category=ready&id=engineering-knowage'
+        }
+      ]
     },
     'sensowave-digitanimal': {
       category: 'Powered by FIWARE',
@@ -644,7 +753,17 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_DigitAnimal.svg',
       featuredImage:
         'https://i0.wp.com/digitanimal.com/wp-content/uploads/2020/12/DSC05390-1-2-min.jpg?resize=400%2C250&ssl=1',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://digitanimal.co.uk/wp-content/uploads/2020/03/producto_vaca.jpg',
+          organisationName: 'Sensowave',
+          productName: 'Digitanimal Livestock GPS',
+          companyLink: './?category=ready&id=sensowave-digitanimallivestockgps'
+        }
+      ]
     },
     'connectrobotics-drone2me': {
       category: 'Powered by FIWARE',
@@ -821,7 +940,27 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_BreezeTechnologies.svg',
       featuredImage:
         'https://www.breeze-technologies.de/wp-content/uploads/2016/02/Breeze-Concept-Design-2015-10-29-2-Map-View-Macbook.png',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.breeze-technologies.de/wp-content/uploads/2016/02/Breeze-Concept-Design-2015-10-29-2-Map-View-Macbook.png',
+          organisationName: 'Breeze Technologies',
+          productName: 'Breeze Environmental Intelligence Cloud',
+          companyLink:
+            './?category=powered&id=breezetechnologies-breezeenvironmentalintelligencecloud'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.breeze-technologies.de/wp-content/uploads/2016/02/Breeze-Concept-Design-2015-10-29-2-Map-View-Macbook.png',
+          organisationName: 'Breeze Technologies',
+          productName: 'Breeze Air Quality Sensors',
+          companyLink:
+            './?category=ready&id=breezetechnologies-breezeairqualitysensors'
+        }
+      ]
     },
     'everimpact-everimpact': {
       category: 'Powered by FIWARE',
@@ -1518,7 +1657,35 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Snap4City.svg',
       featuredImage:
         'https://www.km4city.org/img-new/snap4city-logo-02-km4city.jpg',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.snap4city.org/download/video/header-snap4city-new-v04-ORIZZONTALE-text-only2.png',
+          organisationName: 'Snap4City',
+          productName: 'Snap4City',
+          companyLink: './?category=powered&id=snap4city-snap4city'
+        },
+        {
+          category: 'Services',
+          featuredImage:
+            'https://www.snap4city.org/download/video/header-snap4city-new-v04-ORIZZONTALE-text-only2.png',
+          organisationName: 'Snap4City',
+          productName: 'Coaching & Training Services',
+          companyLink:
+            './?category=service&id=snap4city-coachingtrainingservices'
+        },
+        {
+          category: 'Services',
+          featuredImage:
+            'https://www.snap4city.org/download/video/header-snap4city-new-v04-ORIZZONTALE-text-only2.png',
+          organisationName: 'Snap4City',
+          productName: 'Consultancy & Integration Services',
+          companyLink:
+            './?category=service&id=snap4city-consultancyintegrationservices'
+        }
+      ]
     },
     'lahakx-skyxpass': {
       category: 'Powered by FIWARE',
@@ -1633,7 +1800,33 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Hopu.svg',
       featuredImage:
         'https://atmosphere.hopu.eu/public/img/grafana_header_icon.svg',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://hopu.eu/wp-content/uploads/2015/10/hop-ecosystem.png',
+          organisationName: 'HOPU',
+          productName: 'Smart Irrigiation Solution',
+          companyLink: './?category=ready&id=hopu-smartirrigiationsolution'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://smartcities.hopu.eu/images/EN-smart-spot-scheme.png',
+          organisationName: 'HOPU',
+          productName: 'Smart Spot',
+          companyLink: './?category=ready&id=hopu-smartspot'
+        },
+        {
+          category: 'Services',
+          featuredImage:
+            'https://hopu.eu/wp-content/uploads/2015/10/hop-ecosystem.png',
+          organisationName: 'HOPU',
+          productName: 'FIWARE Expert certification',
+          companyLink: './?category=service&id=hopu-fiwareexpertcertification'
+        }
+      ]
     },
     'atos-masai': {
       category: 'Powered by FIWARE',
@@ -1670,7 +1863,25 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_Masai.png',
       featuredImage:
         'https://booklet.atosresearch.eu/sites/booklet/files/public/styles/medium/public/content-images/media/2020/industry.png?itok=9d9r2H2A',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://atos.net/wp-content/uploads/2021/03/udp-statista-2020.jpg',
+          organisationName: 'Atos',
+          productName: 'Urban Data Platform',
+          companyLink: './?category=powered&id=atos-urbandataplatform'
+        },
+        {
+          category: 'Services',
+          featuredImage:
+            'https://iot-automotive.news/wp-content/uploads/2021/08/Thales-SOFTWARE-REPUBLIQUE_Mobile.jpg',
+          organisationName: 'Atos',
+          productName: 'Connected Territories',
+          companyLink: './?category=service&id=atos-connectedterritories'
+        }
+      ]
     },
     'sensohivetechnologiesaps-maturix': {
       category: 'Powered by FIWARE',
@@ -1937,7 +2148,17 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_OrchestraCities.svg',
       featuredImage:
         'https://www.orchestracities.com/wp-content/uploads/sites/36/2019/05/oc-smartcity.png',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Services',
+          featuredImage:
+            'https://www.martel-innovate.com/wp-content/uploads/sites/5/2020/03/RESEARCH_INNOVATION_v6.jpg',
+          organisationName: 'Martel Innovate',
+          productName: 'Martel Lab',
+          companyLink: './?category=service&id=martelinnovate-martellab'
+        }
+      ]
     },
     'faubourgnumérique-ouranosws': {
       category: 'Powered by FIWARE',
@@ -1970,7 +2191,17 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_OuranosWS.svg',
       featuredImage: 'https://ouranos-ws.com/images/image1.png',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Services',
+          featuredImage:
+            'http://faubourgnumerique.com/wp-content/uploads/2018/01/FIWARE-iHubs_RGB.png',
+          organisationName: 'Faubourg Numérique',
+          productName: 'FIWARE iHub',
+          companyLink: './?category=service&id=faubourgnumérique-fiwareihub'
+        }
+      ]
     },
     'secondnature-ourpath': {
       category: 'Powered by FIWARE',
@@ -2042,7 +2273,17 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_OutBarriers.svg',
       featuredImage:
         'https://outbarriers.com/static/img/outbarriers-app-mockup-vertical.jpg',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://outbarriers.com/static/img/outbarriers-app-mockup-vertical.jpg',
+          organisationName: 'Digitalilusion',
+          productName: 'Outbeacon',
+          companyLink: './?category=ready&id=digitalilusion-outbeacon'
+        }
+      ]
     },
     'pycno-pycno': {
       category: 'Powered by FIWARE',
@@ -2254,7 +2495,17 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_PurpleBlob.svg',
       featuredImage:
         'https://purpleblob.net/wp-content/uploads/2019/04/logo-sara.png',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://baret.es/wp-content/uploads/2021/01/UpRecurso-1@4x.png',
+          organisationName: 'Purple Blob',
+          productName: 'BARET',
+          companyLink: './?category=powered&id=purpleblob-baret'
+        }
+      ]
     },
     'accelogresslimited-saveaspace': {
       category: 'Powered by FIWARE',
@@ -2347,7 +2598,18 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_byHS.svg',
       featuredImage:
         'https://byhs.eu/static/senda_v2/images/xdispositivo_y_app_senda.png.pagespeed.ic.Y67xrX4mUl.webp',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Services',
+          featuredImage:
+            'https://scontent-frx5-2.xx.fbcdn.net/v/t1.6435-9/42543839_1106599892827876_8725996819475070976_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=e3f864&_nc_ohc=KjLKOYhe900AX9kktKf&_nc_ht=scontent-frx5-2.xx&oh=00_AT_C19mgJGjP9N-Rn7zt_NXujLDdOL1kcG2Fh0RDRon2aA&oe=62FF04F5',
+          organisationName: 'Hearing Software',
+          productName: 'Consultancy & Integration Services',
+          companyLink:
+            './?category=service&id=hearingsoftware-consultancyintegrationservices'
+        }
+      ]
     },
     'sensei-sensei': {
       category: 'Powered by FIWARE',
@@ -2450,7 +2712,33 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_EGM.svg',
       featuredImage:
         'https://www.egm.io/wp-content/uploads/2020/10/7-scaled.jpg',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.egm.io/wp-content/uploads/2021/09/cd66-montage-blog.png',
+          organisationName: 'EGM',
+          productName: 'Carpool Parking',
+          companyLink: './?category=powered&id=egm-carpoolparking'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.egm.io/wp-content/uploads/2020/08/about-egm.png',
+          organisationName: 'EGM',
+          productName: 'EdgeSpot',
+          companyLink: './?category=ready&id=egm-edgespot'
+        },
+        {
+          category: 'Services',
+          featuredImage:
+            'https://www.egm.io/wp-content/uploads/2020/08/ingenierie-integration.png',
+          organisationName: 'EGM',
+          productName: 'Design office',
+          companyLink: './?category=service&id=egm-designoffice'
+        }
+      ]
     },
     'sammy-smartmarinaplatform': {
       category: 'Powered by FIWARE',
@@ -2579,7 +2867,23 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Ubiwhere.svg',
       featuredImage: 'https://www.ubiwhere.com/files/images/70D-0416.jpg',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage: 'https://urbanplatform.city/img/map_city.png',
+          organisationName: 'Ubiwhere',
+          productName: 'Urban Platform',
+          companyLink: './?category=powered&id=ubiwhere-urbanplatform'
+        },
+        {
+          category: 'Services',
+          featuredImage: 'https://fiware.ubiwhere.com/images/laptop.png',
+          organisationName: 'Ubiwhere',
+          productName: 'FIWARE @ UBIWHERE',
+          companyLink: './?category=service&id=ubiwhere-fiwareubiwhere'
+        }
+      ]
     },
     'stoneone-smartorchestra': {
       category: 'Powered by FIWARE',
@@ -2612,7 +2916,17 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_StoneOne.svg',
       featuredImage:
         'https://www.snap4city.org/download/video/header-snap4city-new-v04-ORIZZONTALE-text-only2.png',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Services',
+          featuredImage:
+            'https://sirius-labs.no/wp-content/uploads/2016/11/Cloud-1-e1478082888720.jpg',
+          organisationName: 'StoneOne',
+          productName: 'StoneOne Services',
+          companyLink: './?category=service&id=stoneone-stoneoneservices'
+        }
+      ]
     },
     'snap4city-snap4city': {
       category: 'Powered by FIWARE',
@@ -2684,7 +2998,35 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Snap4City.svg',
       featuredImage:
         'https://www.snap4city.org/download/video/header-snap4city-new-v04-ORIZZONTALE-text-only2.png',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.km4city.org/img-new/snap4city-logo-02-km4city.jpg',
+          organisationName: 'Snap4City',
+          productName: 'Km4City',
+          companyLink: './?category=powered&id=snap4city-km4city'
+        },
+        {
+          category: 'Services',
+          featuredImage:
+            'https://www.snap4city.org/download/video/header-snap4city-new-v04-ORIZZONTALE-text-only2.png',
+          organisationName: 'Snap4City',
+          productName: 'Coaching & Training Services',
+          companyLink:
+            './?category=service&id=snap4city-coachingtrainingservices'
+        },
+        {
+          category: 'Services',
+          featuredImage:
+            'https://www.snap4city.org/download/video/header-snap4city-new-v04-ORIZZONTALE-text-only2.png',
+          organisationName: 'Snap4City',
+          productName: 'Consultancy & Integration Services',
+          companyLink:
+            './?category=service&id=snap4city-consultancyintegrationservices'
+        }
+      ]
     },
     'civity-snifferbike': {
       category: 'Powered by FIWARE',
@@ -3039,7 +3381,25 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Atos.svg',
       featuredImage:
         'https://atos.net/wp-content/uploads/2021/03/udp-statista-2020.jpg',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://booklet.atosresearch.eu/sites/booklet/files/public/styles/medium/public/content-images/media/2020/industry.png?itok=9d9r2H2A',
+          organisationName: 'Atos',
+          productName: 'MASAI',
+          companyLink: './?category=powered&id=atos-masai'
+        },
+        {
+          category: 'Services',
+          featuredImage:
+            'https://iot-automotive.news/wp-content/uploads/2021/08/Thales-SOFTWARE-REPUBLIQUE_Mobile.jpg',
+          organisationName: 'Atos',
+          productName: 'Connected Territories',
+          companyLink: './?category=service&id=atos-connectedterritories'
+        }
+      ]
     },
     'ubiwhere-urbanplatform': {
       category: 'Powered by FIWARE',
@@ -3089,7 +3449,23 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Ubiwhere.svg',
       featuredImage: 'https://urbanplatform.city/img/map_city.png',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage: 'https://www.ubiwhere.com/files/images/70D-0416.jpg',
+          organisationName: 'Ubiwhere',
+          productName: 'Smartlamppost',
+          companyLink: './?category=powered&id=ubiwhere-smartlamppost'
+        },
+        {
+          category: 'Services',
+          featuredImage: 'https://fiware.ubiwhere.com/images/laptop.png',
+          organisationName: 'Ubiwhere',
+          productName: 'FIWARE @ UBIWHERE',
+          companyLink: './?category=service&id=ubiwhere-fiwareubiwhere'
+        }
+      ]
     },
     'carto-urbo': {
       category: 'Powered by FIWARE',
@@ -3330,7 +3706,67 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_WiseTown.svg',
       featuredImage:
         'https://www.fiware.org/wp-content/uploads/ImpactStories_SliderWebsite_WiseTown-1080x675.png',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://wise.town/wp-content/uploads/2022/02/Crowd-Planning-Tablet.jpg',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown Crowd Planning',
+          companyLink: './?category=powered&id=teamdev-wisetowncrowdplanning'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://wise.town/wp-content/uploads/2022/01/Geoanalytics_landscape-800x578.jpg',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown Geoanalytics',
+          companyLink: './?category=powered&id=teamdev-wisetowngeoanalytics'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://wise.town/wp-content/uploads/2022/01/IssueManager_tablet-800x578.jpg',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown Issue Manager',
+          companyLink: './?category=powered&id=teamdev-wisetownissuemanager'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://wise.town/wp-content/uploads/2022/02/OpenDataManager__landscape-800x578.jpg',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown Open Data Manager',
+          companyLink: './?category=powered&id=teamdev-wisetownopendatamanager'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://wise.town/wp-content/uploads/2022/02/Situation-Room-Tablet.jpg',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown Situation Room',
+          companyLink: './?category=powered&id=teamdev-wisetownsituationroom'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://wise.town/wp-content/uploads/2022/02/Thematic-Dashbard-Tablet-1.jpg',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown Thematic Dashboard',
+          companyLink:
+            './?category=powered&id=teamdev-wisetownthematicdashboard'
+        },
+        {
+          category: 'Services',
+          featuredImage:
+            'https://www.teamdev.it/wp-content/uploads/2020/03/provanuova-100-e1583855984591.jpg',
+          organisationName: 'TeamDev',
+          productName: 'FIWARE Professional Services',
+          companyLink:
+            './?category=service&id=teamdev-fiwareprofessionalservices'
+        }
+      ]
     },
     'teamdev-wisetowncrowdplanning': {
       category: 'Powered by FIWARE',
@@ -3377,7 +3813,75 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_WiseTown.svg',
       featuredImage:
         'https://wise.town/wp-content/uploads/2022/02/Crowd-Planning-Tablet.jpg',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.fiware.org/wp-content/uploads/ImpactStories_SliderWebsite_WiseTown-1080x675.png',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown',
+          companyLink: './?category=powered&id=teamdev-wisetown'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.fiware.org/wp-content/uploads/ImpactStories_SliderWebsite_WiseTown-1080x675.png',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown',
+          companyLink: './?category=powered&id=teamdev-wisetown'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://wise.town/wp-content/uploads/2022/01/Geoanalytics_landscape-800x578.jpg',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown Geoanalytics',
+          companyLink: './?category=powered&id=teamdev-wisetowngeoanalytics'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://wise.town/wp-content/uploads/2022/01/IssueManager_tablet-800x578.jpg',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown Issue Manager',
+          companyLink: './?category=powered&id=teamdev-wisetownissuemanager'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://wise.town/wp-content/uploads/2022/02/OpenDataManager__landscape-800x578.jpg',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown Open Data Manager',
+          companyLink: './?category=powered&id=teamdev-wisetownopendatamanager'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://wise.town/wp-content/uploads/2022/02/Situation-Room-Tablet.jpg',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown Situation Room',
+          companyLink: './?category=powered&id=teamdev-wisetownsituationroom'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://wise.town/wp-content/uploads/2022/02/Thematic-Dashbard-Tablet-1.jpg',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown Thematic Dashboard',
+          companyLink:
+            './?category=powered&id=teamdev-wisetownthematicdashboard'
+        },
+        {
+          category: 'Services',
+          featuredImage:
+            'https://www.teamdev.it/wp-content/uploads/2020/03/provanuova-100-e1583855984591.jpg',
+          organisationName: 'TeamDev',
+          productName: 'FIWARE Professional Services',
+          companyLink:
+            './?category=service&id=teamdev-fiwareprofessionalservices'
+        }
+      ]
     },
     'teamdev-wisetowngeoanalytics': {
       category: 'Powered by FIWARE',
@@ -3429,7 +3933,75 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_WiseTown.svg',
       featuredImage:
         'https://wise.town/wp-content/uploads/2022/01/Geoanalytics_landscape-800x578.jpg',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.fiware.org/wp-content/uploads/ImpactStories_SliderWebsite_WiseTown-1080x675.png',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown',
+          companyLink: './?category=powered&id=teamdev-wisetown'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.fiware.org/wp-content/uploads/ImpactStories_SliderWebsite_WiseTown-1080x675.png',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown',
+          companyLink: './?category=powered&id=teamdev-wisetown'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://wise.town/wp-content/uploads/2022/02/Crowd-Planning-Tablet.jpg',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown Crowd Planning',
+          companyLink: './?category=powered&id=teamdev-wisetowncrowdplanning'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://wise.town/wp-content/uploads/2022/01/IssueManager_tablet-800x578.jpg',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown Issue Manager',
+          companyLink: './?category=powered&id=teamdev-wisetownissuemanager'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://wise.town/wp-content/uploads/2022/02/OpenDataManager__landscape-800x578.jpg',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown Open Data Manager',
+          companyLink: './?category=powered&id=teamdev-wisetownopendatamanager'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://wise.town/wp-content/uploads/2022/02/Situation-Room-Tablet.jpg',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown Situation Room',
+          companyLink: './?category=powered&id=teamdev-wisetownsituationroom'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://wise.town/wp-content/uploads/2022/02/Thematic-Dashbard-Tablet-1.jpg',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown Thematic Dashboard',
+          companyLink:
+            './?category=powered&id=teamdev-wisetownthematicdashboard'
+        },
+        {
+          category: 'Services',
+          featuredImage:
+            'https://www.teamdev.it/wp-content/uploads/2020/03/provanuova-100-e1583855984591.jpg',
+          organisationName: 'TeamDev',
+          productName: 'FIWARE Professional Services',
+          companyLink:
+            './?category=service&id=teamdev-fiwareprofessionalservices'
+        }
+      ]
     },
     'teamdev-wisetownissuemanager': {
       category: 'Powered by FIWARE',
@@ -3471,7 +4043,75 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_WiseTown.svg',
       featuredImage:
         'https://wise.town/wp-content/uploads/2022/01/IssueManager_tablet-800x578.jpg',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.fiware.org/wp-content/uploads/ImpactStories_SliderWebsite_WiseTown-1080x675.png',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown',
+          companyLink: './?category=powered&id=teamdev-wisetown'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.fiware.org/wp-content/uploads/ImpactStories_SliderWebsite_WiseTown-1080x675.png',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown',
+          companyLink: './?category=powered&id=teamdev-wisetown'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://wise.town/wp-content/uploads/2022/02/Crowd-Planning-Tablet.jpg',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown Crowd Planning',
+          companyLink: './?category=powered&id=teamdev-wisetowncrowdplanning'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://wise.town/wp-content/uploads/2022/01/Geoanalytics_landscape-800x578.jpg',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown Geoanalytics',
+          companyLink: './?category=powered&id=teamdev-wisetowngeoanalytics'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://wise.town/wp-content/uploads/2022/02/OpenDataManager__landscape-800x578.jpg',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown Open Data Manager',
+          companyLink: './?category=powered&id=teamdev-wisetownopendatamanager'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://wise.town/wp-content/uploads/2022/02/Situation-Room-Tablet.jpg',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown Situation Room',
+          companyLink: './?category=powered&id=teamdev-wisetownsituationroom'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://wise.town/wp-content/uploads/2022/02/Thematic-Dashbard-Tablet-1.jpg',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown Thematic Dashboard',
+          companyLink:
+            './?category=powered&id=teamdev-wisetownthematicdashboard'
+        },
+        {
+          category: 'Services',
+          featuredImage:
+            'https://www.teamdev.it/wp-content/uploads/2020/03/provanuova-100-e1583855984591.jpg',
+          organisationName: 'TeamDev',
+          productName: 'FIWARE Professional Services',
+          companyLink:
+            './?category=service&id=teamdev-fiwareprofessionalservices'
+        }
+      ]
     },
     'teamdev-wisetownopendatamanager': {
       category: 'Powered by FIWARE',
@@ -3518,7 +4158,75 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_WiseTown.svg',
       featuredImage:
         'https://wise.town/wp-content/uploads/2022/02/OpenDataManager__landscape-800x578.jpg',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.fiware.org/wp-content/uploads/ImpactStories_SliderWebsite_WiseTown-1080x675.png',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown',
+          companyLink: './?category=powered&id=teamdev-wisetown'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.fiware.org/wp-content/uploads/ImpactStories_SliderWebsite_WiseTown-1080x675.png',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown',
+          companyLink: './?category=powered&id=teamdev-wisetown'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://wise.town/wp-content/uploads/2022/02/Crowd-Planning-Tablet.jpg',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown Crowd Planning',
+          companyLink: './?category=powered&id=teamdev-wisetowncrowdplanning'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://wise.town/wp-content/uploads/2022/01/Geoanalytics_landscape-800x578.jpg',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown Geoanalytics',
+          companyLink: './?category=powered&id=teamdev-wisetowngeoanalytics'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://wise.town/wp-content/uploads/2022/01/IssueManager_tablet-800x578.jpg',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown Issue Manager',
+          companyLink: './?category=powered&id=teamdev-wisetownissuemanager'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://wise.town/wp-content/uploads/2022/02/Situation-Room-Tablet.jpg',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown Situation Room',
+          companyLink: './?category=powered&id=teamdev-wisetownsituationroom'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://wise.town/wp-content/uploads/2022/02/Thematic-Dashbard-Tablet-1.jpg',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown Thematic Dashboard',
+          companyLink:
+            './?category=powered&id=teamdev-wisetownthematicdashboard'
+        },
+        {
+          category: 'Services',
+          featuredImage:
+            'https://www.teamdev.it/wp-content/uploads/2020/03/provanuova-100-e1583855984591.jpg',
+          organisationName: 'TeamDev',
+          productName: 'FIWARE Professional Services',
+          companyLink:
+            './?category=service&id=teamdev-fiwareprofessionalservices'
+        }
+      ]
     },
     'teamdev-wisetownsituationroom': {
       category: 'Powered by FIWARE',
@@ -3578,7 +4286,75 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_WiseTown.svg',
       featuredImage:
         'https://wise.town/wp-content/uploads/2022/02/Situation-Room-Tablet.jpg',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.fiware.org/wp-content/uploads/ImpactStories_SliderWebsite_WiseTown-1080x675.png',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown',
+          companyLink: './?category=powered&id=teamdev-wisetown'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.fiware.org/wp-content/uploads/ImpactStories_SliderWebsite_WiseTown-1080x675.png',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown',
+          companyLink: './?category=powered&id=teamdev-wisetown'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://wise.town/wp-content/uploads/2022/02/Crowd-Planning-Tablet.jpg',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown Crowd Planning',
+          companyLink: './?category=powered&id=teamdev-wisetowncrowdplanning'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://wise.town/wp-content/uploads/2022/01/Geoanalytics_landscape-800x578.jpg',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown Geoanalytics',
+          companyLink: './?category=powered&id=teamdev-wisetowngeoanalytics'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://wise.town/wp-content/uploads/2022/01/IssueManager_tablet-800x578.jpg',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown Issue Manager',
+          companyLink: './?category=powered&id=teamdev-wisetownissuemanager'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://wise.town/wp-content/uploads/2022/02/OpenDataManager__landscape-800x578.jpg',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown Open Data Manager',
+          companyLink: './?category=powered&id=teamdev-wisetownopendatamanager'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://wise.town/wp-content/uploads/2022/02/Thematic-Dashbard-Tablet-1.jpg',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown Thematic Dashboard',
+          companyLink:
+            './?category=powered&id=teamdev-wisetownthematicdashboard'
+        },
+        {
+          category: 'Services',
+          featuredImage:
+            'https://www.teamdev.it/wp-content/uploads/2020/03/provanuova-100-e1583855984591.jpg',
+          organisationName: 'TeamDev',
+          productName: 'FIWARE Professional Services',
+          companyLink:
+            './?category=service&id=teamdev-fiwareprofessionalservices'
+        }
+      ]
     },
     'teamdev-wisetownthematicdashboard': {
       category: 'Powered by FIWARE',
@@ -3626,7 +4402,74 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_WiseTown.svg',
       featuredImage:
         'https://wise.town/wp-content/uploads/2022/02/Thematic-Dashbard-Tablet-1.jpg',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.fiware.org/wp-content/uploads/ImpactStories_SliderWebsite_WiseTown-1080x675.png',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown',
+          companyLink: './?category=powered&id=teamdev-wisetown'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.fiware.org/wp-content/uploads/ImpactStories_SliderWebsite_WiseTown-1080x675.png',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown',
+          companyLink: './?category=powered&id=teamdev-wisetown'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://wise.town/wp-content/uploads/2022/02/Crowd-Planning-Tablet.jpg',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown Crowd Planning',
+          companyLink: './?category=powered&id=teamdev-wisetowncrowdplanning'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://wise.town/wp-content/uploads/2022/01/Geoanalytics_landscape-800x578.jpg',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown Geoanalytics',
+          companyLink: './?category=powered&id=teamdev-wisetowngeoanalytics'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://wise.town/wp-content/uploads/2022/01/IssueManager_tablet-800x578.jpg',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown Issue Manager',
+          companyLink: './?category=powered&id=teamdev-wisetownissuemanager'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://wise.town/wp-content/uploads/2022/02/OpenDataManager__landscape-800x578.jpg',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown Open Data Manager',
+          companyLink: './?category=powered&id=teamdev-wisetownopendatamanager'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://wise.town/wp-content/uploads/2022/02/Situation-Room-Tablet.jpg',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown Situation Room',
+          companyLink: './?category=powered&id=teamdev-wisetownsituationroom'
+        },
+        {
+          category: 'Services',
+          featuredImage:
+            'https://www.teamdev.it/wp-content/uploads/2020/03/provanuova-100-e1583855984591.jpg',
+          organisationName: 'TeamDev',
+          productName: 'FIWARE Professional Services',
+          companyLink:
+            './?category=service&id=teamdev-fiwareprofessionalservices'
+        }
+      ]
     },
     'witrac-witrac': {
       category: 'Powered by FIWARE',
@@ -3751,7 +4594,7 @@ var pageData = {
       furtherImages: ''
     }
   },
-  ngsi: {
+  ready: {
     'agricolus-agricolusecosystem': {
       category: 'FIWARE-Ready',
       organisationName: 'Agricolus',
@@ -3786,7 +4629,17 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Agricolus.svg',
       featuredImage:
         'https://www.agricolus.com/wp-content/uploads/2021/01/device-gen-2021-1.png',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.agricolus.com/wp-content/uploads/2021/01/device-gen-2021-1.png',
+          organisationName: 'Agricolus',
+          productName: 'Agricolus',
+          companyLink: './?category=powered&id=agricolus-agricolus'
+        }
+      ]
     },
     'itudemobile-babbler': {
       category: 'FIWARE-Ready',
@@ -3852,7 +4705,111 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
       featuredImage:
         'https://www.datakorum.com/site/wp-content/uploads/2019/11/beat_dk-en.jpg',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'FIWARE-Ready',
+          featuredImage: '',
+          organisationName: 'Datakorum Solutions',
+          productName: 'CS40',
+          companyLink: './?category=ready&id=datakorumsolutions-cs40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/lane_aforo_dk_eng-1.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LANE',
+          companyLink: './?category=ready&id=datakorumsolutions-lane'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LB40',
+          companyLink: './?category=ready&id=datakorumsolutions-lb40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LC40',
+          companyLink: './?category=ready&id=datakorumsolutions-lc40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/06/software_dk-1.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LS40',
+          companyLink: './?category=ready&id=datakorumsolutions-ls40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'MB43',
+          companyLink: './?category=ready&id=datakorumsolutions-mb43'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'MS41',
+          companyLink: './?category=ready&id=datakorumsolutions-ms41'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/peak_dk_eng.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'PEAK',
+          companyLink: './?category=ready&id=datakorumsolutions-peak'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/plug-series_eng.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'PLUG',
+          companyLink: './?category=ready&id=datakorumsolutions-plug'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/equipo_cabecera_DK_eng.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'POLE',
+          companyLink: './?category=ready&id=datakorumsolutions-pole'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage: '',
+          organisationName: 'Datakorum Solutions',
+          productName: 'SC40',
+          companyLink: './?category=ready&id=datakorumsolutions-sc40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'SS47',
+          companyLink: './?category=ready&id=datakorumsolutions-ss47'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'TINY',
+          companyLink: './?category=ready&id=datakorumsolutions-tiny'
+        }
+      ]
     },
     'breezetechnologies-breezeairqualitysensors': {
       category: 'FIWARE-Ready',
@@ -3898,7 +4855,27 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_BreezeTechnologies.svg',
       featuredImage:
         'https://www.breeze-technologies.de/wp-content/uploads/2016/02/Breeze-Concept-Design-2015-10-29-2-Map-View-Macbook.png',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.breeze-technologies.de/wp-content/uploads/2016/02/Breeze-Concept-Design-2015-10-29-2-Map-View-Macbook.png',
+          organisationName: 'Breeze Technologies',
+          productName: 'Breeze Environmental Intelligence Cloud',
+          companyLink:
+            './?category=powered&id=breezetechnologies-breezeenvironmentalintelligencecloud'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.breeze-technologies.de/wp-content/uploads/2016/02/Breeze-Concept-Design-2015-10-29-2-Map-View-Macbook.png',
+          organisationName: 'Breeze Technologies',
+          productName: 'Environmental Intelligence Suite',
+          companyLink:
+            './?category=powered&id=breezetechnologies-environmentalintelligencesuite'
+        }
+      ]
     },
     'senecoas-citygrid': {
       category: 'FIWARE-Ready',
@@ -3976,7 +4953,112 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
       featuredImage: '',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2019/11/beat_dk-en.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'BEAT',
+          companyLink: './?category=ready&id=datakorumsolutions-beat'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/lane_aforo_dk_eng-1.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LANE',
+          companyLink: './?category=ready&id=datakorumsolutions-lane'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LB40',
+          companyLink: './?category=ready&id=datakorumsolutions-lb40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LC40',
+          companyLink: './?category=ready&id=datakorumsolutions-lc40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/06/software_dk-1.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LS40',
+          companyLink: './?category=ready&id=datakorumsolutions-ls40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'MB43',
+          companyLink: './?category=ready&id=datakorumsolutions-mb43'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'MS41',
+          companyLink: './?category=ready&id=datakorumsolutions-ms41'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/peak_dk_eng.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'PEAK',
+          companyLink: './?category=ready&id=datakorumsolutions-peak'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/plug-series_eng.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'PLUG',
+          companyLink: './?category=ready&id=datakorumsolutions-plug'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/equipo_cabecera_DK_eng.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'POLE',
+          companyLink: './?category=ready&id=datakorumsolutions-pole'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage: '',
+          organisationName: 'Datakorum Solutions',
+          productName: 'SC40',
+          companyLink: './?category=ready&id=datakorumsolutions-sc40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'SS47',
+          companyLink: './?category=ready&id=datakorumsolutions-ss47'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'TINY',
+          companyLink: './?category=ready&id=datakorumsolutions-tiny'
+        }
+      ]
     },
     'engineering-dashram': {
       category: 'FIWARE-Ready',
@@ -4008,7 +5090,32 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Engineering.svg',
       featuredImage:
         'https://www.eng.it/resources/cases/cs_imp_case_16-11-2020_dashram_it_1605516526298/dashram_q.jpg',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.eng.it/resources/platform/digital-enabler/img/digital-enabler2-q1.jpg',
+          organisationName: 'Engineering',
+          productName: 'Digital Enabler',
+          companyLink: './?category=powered&id=engineering-digitalenabler'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage: '',
+          organisationName: 'Engineering DSS',
+          productName: 'CuraVesta',
+          companyLink: './?category=powered&id=engineeringdss-curavesta'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.knowage-suite.com/site/wp-content/uploads/2021/09/knowage-screen-overview-540x400.jpg',
+          organisationName: 'Engineering',
+          productName: 'KNOWAGE',
+          companyLink: './?category=ready&id=engineering-knowage'
+        }
+      ]
     },
     'sensowave-digitanimal': {
       category: 'FIWARE-Ready',
@@ -4043,7 +5150,17 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_DigitAnimal.svg',
       featuredImage:
         'https://i0.wp.com/digitanimal.com/wp-content/uploads/2020/12/DSC05390-1-2-min.jpg?resize=400%2C250&ssl=1',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://digitanimal.co.uk/wp-content/uploads/2020/03/producto_vaca.jpg',
+          organisationName: 'Sensowave',
+          productName: 'Digitanimal Livestock GPS',
+          companyLink: './?category=ready&id=sensowave-digitanimallivestockgps'
+        }
+      ]
     },
     'sensowave-digitanimallivestockgps': {
       category: 'FIWARE-Ready',
@@ -4082,7 +5199,25 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_DigitAnimal.svg',
       featuredImage:
         'https://digitanimal.co.uk/wp-content/uploads/2020/03/producto_vaca.jpg',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://i0.wp.com/digitanimal.com/wp-content/uploads/2020/12/DSC05390-1-2-min.jpg?resize=400%2C250&ssl=1',
+          organisationName: 'Sensowave',
+          productName: 'Digitanimal',
+          companyLink: './?category=powered&id=sensowave-digitanimal'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://i0.wp.com/digitanimal.com/wp-content/uploads/2020/12/DSC05390-1-2-min.jpg?resize=400%2C250&ssl=1',
+          organisationName: 'Sensowave',
+          productName: 'Digitanimal',
+          companyLink: './?category=ready&id=sensowave-digitanimal'
+        }
+      ]
     },
     'egm-edgespot': {
       category: 'FIWARE-Ready',
@@ -4122,7 +5257,33 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_EGM.svg',
       featuredImage:
         'https://www.egm.io/wp-content/uploads/2020/08/about-egm.png',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.egm.io/wp-content/uploads/2021/09/cd66-montage-blog.png',
+          organisationName: 'EGM',
+          productName: 'Carpool Parking',
+          companyLink: './?category=powered&id=egm-carpoolparking'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.egm.io/wp-content/uploads/2020/10/7-scaled.jpg',
+          organisationName: 'EGM',
+          productName: 'Smart Irrigation',
+          companyLink: './?category=powered&id=egm-smartirrigation'
+        },
+        {
+          category: 'Services',
+          featuredImage:
+            'https://www.egm.io/wp-content/uploads/2020/08/ingenierie-integration.png',
+          organisationName: 'EGM',
+          productName: 'Design office',
+          companyLink: './?category=service&id=egm-designoffice'
+        }
+      ]
     },
     'elmitel-evineyard': {
       category: 'FIWARE-Ready',
@@ -4225,7 +5386,26 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_SRM.svg',
       featuredImage:
         'https://srmconsulting.es/assets/img/blog/fiware-map-viewer-srmconsulting.jpg',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://srmconsulting.es/assets/img/srm-consulting-lider-tecnologia-geoespacial.png',
+          organisationName: 'SRM Consulting',
+          productName: 'Capacity Control System',
+          companyLink:
+            './?category=powered&id=srmconsulting-capacitycontrolsystem'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://srmconsulting.es/assets/img/blog/mavdrone-srm-consulting.png',
+          organisationName: 'SRM Consulting',
+          productName: 'MavDrone',
+          companyLink: './?category=ready&id=srmconsulting-mavdrone'
+        }
+      ]
     },
     'ventuminnovacion-gaviláncontrol': {
       category: 'FIWARE-Ready',
@@ -4438,7 +5618,33 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Odins.svg',
       featuredImage:
         'https://www.odins.es/wp-content/uploads/2017/04/IPex04.png',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.odins.es/wp-content/uploads/2017/04/IPex12-v4.jpg',
+          organisationName: 'Odin Solutions',
+          productName: 'IPex 12 Datalogger',
+          companyLink: './?category=ready&id=odinsolutions-ipex12datalogger'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.odins.es/wp-content/uploads/2017/04/IPex16-2.png',
+          organisationName: 'Odin Solutions',
+          productName: 'IPex 16 Datalogger',
+          companyLink: './?category=ready&id=odinsolutions-ipex16datalogger'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.odins.es/wp-content/uploads/2017/04/IPex12-v4.jpg',
+          organisationName: 'Odin Solutions',
+          productName: 'Mex 06 Datalogger',
+          companyLink: './?category=ready&id=odinsolutions-mex06datalogger'
+        }
+      ]
     },
     'odinsolutions-ipex12datalogger': {
       category: 'FIWARE-Ready',
@@ -4477,7 +5683,33 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Odins.svg',
       featuredImage:
         'https://www.odins.es/wp-content/uploads/2017/04/IPex12-v4.jpg',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.odins.es/wp-content/uploads/2017/04/IPex04.png',
+          organisationName: 'Odin Solutions',
+          productName: 'IPex 04 Datalogger',
+          companyLink: './?category=ready&id=odinsolutions-ipex04datalogger'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.odins.es/wp-content/uploads/2017/04/IPex16-2.png',
+          organisationName: 'Odin Solutions',
+          productName: 'IPex 16 Datalogger',
+          companyLink: './?category=ready&id=odinsolutions-ipex16datalogger'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.odins.es/wp-content/uploads/2017/04/IPex12-v4.jpg',
+          organisationName: 'Odin Solutions',
+          productName: 'Mex 06 Datalogger',
+          companyLink: './?category=ready&id=odinsolutions-mex06datalogger'
+        }
+      ]
     },
     'odinsolutions-ipex16datalogger': {
       category: 'FIWARE-Ready',
@@ -4513,7 +5745,33 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Odins.svg',
       featuredImage:
         'https://www.odins.es/wp-content/uploads/2017/04/IPex16-2.png',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.odins.es/wp-content/uploads/2017/04/IPex04.png',
+          organisationName: 'Odin Solutions',
+          productName: 'IPex 04 Datalogger',
+          companyLink: './?category=ready&id=odinsolutions-ipex04datalogger'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.odins.es/wp-content/uploads/2017/04/IPex12-v4.jpg',
+          organisationName: 'Odin Solutions',
+          productName: 'IPex 12 Datalogger',
+          companyLink: './?category=ready&id=odinsolutions-ipex12datalogger'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.odins.es/wp-content/uploads/2017/04/IPex12-v4.jpg',
+          organisationName: 'Odin Solutions',
+          productName: 'Mex 06 Datalogger',
+          companyLink: './?category=ready&id=odinsolutions-mex06datalogger'
+        }
+      ]
     },
     'kmblab-kissmybike': {
       category: 'FIWARE-Ready',
@@ -4609,7 +5867,32 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_KnowAge.svg',
       featuredImage:
         'https://www.knowage-suite.com/site/wp-content/uploads/2021/09/knowage-screen-overview-540x400.jpg',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.eng.it/resources/platform/digital-enabler/img/digital-enabler2-q1.jpg',
+          organisationName: 'Engineering',
+          productName: 'Digital Enabler',
+          companyLink: './?category=powered&id=engineering-digitalenabler'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage: '',
+          organisationName: 'Engineering DSS',
+          productName: 'CuraVesta',
+          companyLink: './?category=powered&id=engineeringdss-curavesta'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.eng.it/resources/cases/cs_imp_case_16-11-2020_dashram_it_1605516526298/dashram_q.jpg',
+          organisationName: 'Engineering',
+          productName: 'Dashram',
+          companyLink: './?category=ready&id=engineering-dashram'
+        }
+      ]
     },
     'datakorumsolutions-lane': {
       category: 'FIWARE-Ready',
@@ -4642,7 +5925,111 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
       featuredImage:
         'https://www.datakorum.com/site/wp-content/uploads/2018/09/lane_aforo_dk_eng-1.jpg',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2019/11/beat_dk-en.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'BEAT',
+          companyLink: './?category=ready&id=datakorumsolutions-beat'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage: '',
+          organisationName: 'Datakorum Solutions',
+          productName: 'CS40',
+          companyLink: './?category=ready&id=datakorumsolutions-cs40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LB40',
+          companyLink: './?category=ready&id=datakorumsolutions-lb40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LC40',
+          companyLink: './?category=ready&id=datakorumsolutions-lc40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/06/software_dk-1.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LS40',
+          companyLink: './?category=ready&id=datakorumsolutions-ls40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'MB43',
+          companyLink: './?category=ready&id=datakorumsolutions-mb43'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'MS41',
+          companyLink: './?category=ready&id=datakorumsolutions-ms41'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/peak_dk_eng.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'PEAK',
+          companyLink: './?category=ready&id=datakorumsolutions-peak'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/plug-series_eng.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'PLUG',
+          companyLink: './?category=ready&id=datakorumsolutions-plug'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/equipo_cabecera_DK_eng.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'POLE',
+          companyLink: './?category=ready&id=datakorumsolutions-pole'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage: '',
+          organisationName: 'Datakorum Solutions',
+          productName: 'SC40',
+          companyLink: './?category=ready&id=datakorumsolutions-sc40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'SS47',
+          companyLink: './?category=ready&id=datakorumsolutions-ss47'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'TINY',
+          companyLink: './?category=ready&id=datakorumsolutions-tiny'
+        }
+      ]
     },
     'datakorumsolutions-lb40': {
       category: 'FIWARE-Ready',
@@ -4670,7 +6057,111 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
       featuredImage:
         'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2019/11/beat_dk-en.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'BEAT',
+          companyLink: './?category=ready&id=datakorumsolutions-beat'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage: '',
+          organisationName: 'Datakorum Solutions',
+          productName: 'CS40',
+          companyLink: './?category=ready&id=datakorumsolutions-cs40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/lane_aforo_dk_eng-1.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LANE',
+          companyLink: './?category=ready&id=datakorumsolutions-lane'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LC40',
+          companyLink: './?category=ready&id=datakorumsolutions-lc40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/06/software_dk-1.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LS40',
+          companyLink: './?category=ready&id=datakorumsolutions-ls40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'MB43',
+          companyLink: './?category=ready&id=datakorumsolutions-mb43'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'MS41',
+          companyLink: './?category=ready&id=datakorumsolutions-ms41'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/peak_dk_eng.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'PEAK',
+          companyLink: './?category=ready&id=datakorumsolutions-peak'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/plug-series_eng.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'PLUG',
+          companyLink: './?category=ready&id=datakorumsolutions-plug'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/equipo_cabecera_DK_eng.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'POLE',
+          companyLink: './?category=ready&id=datakorumsolutions-pole'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage: '',
+          organisationName: 'Datakorum Solutions',
+          productName: 'SC40',
+          companyLink: './?category=ready&id=datakorumsolutions-sc40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'SS47',
+          companyLink: './?category=ready&id=datakorumsolutions-ss47'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'TINY',
+          companyLink: './?category=ready&id=datakorumsolutions-tiny'
+        }
+      ]
     },
     'datakorumsolutions-lc40': {
       category: 'FIWARE-Ready',
@@ -4698,7 +6189,111 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
       featuredImage:
         'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2019/11/beat_dk-en.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'BEAT',
+          companyLink: './?category=ready&id=datakorumsolutions-beat'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage: '',
+          organisationName: 'Datakorum Solutions',
+          productName: 'CS40',
+          companyLink: './?category=ready&id=datakorumsolutions-cs40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/lane_aforo_dk_eng-1.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LANE',
+          companyLink: './?category=ready&id=datakorumsolutions-lane'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LB40',
+          companyLink: './?category=ready&id=datakorumsolutions-lb40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/06/software_dk-1.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LS40',
+          companyLink: './?category=ready&id=datakorumsolutions-ls40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'MB43',
+          companyLink: './?category=ready&id=datakorumsolutions-mb43'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'MS41',
+          companyLink: './?category=ready&id=datakorumsolutions-ms41'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/peak_dk_eng.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'PEAK',
+          companyLink: './?category=ready&id=datakorumsolutions-peak'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/plug-series_eng.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'PLUG',
+          companyLink: './?category=ready&id=datakorumsolutions-plug'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/equipo_cabecera_DK_eng.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'POLE',
+          companyLink: './?category=ready&id=datakorumsolutions-pole'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage: '',
+          organisationName: 'Datakorum Solutions',
+          productName: 'SC40',
+          companyLink: './?category=ready&id=datakorumsolutions-sc40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'SS47',
+          companyLink: './?category=ready&id=datakorumsolutions-ss47'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'TINY',
+          companyLink: './?category=ready&id=datakorumsolutions-tiny'
+        }
+      ]
     },
     'secmotic-lockart': {
       category: 'FIWARE-Ready',
@@ -4733,7 +6328,24 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Secmotic.svg',
       featuredImage:
         'http://secmotic.com/wp-content/uploads/2020/12/secmotic_concepto_web_sec.png',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.muvone.com/wp-content/uploads/2015/01/muvone-dispositivo-prevencion-osteoporosis-render-1-e1496664254630.jpg',
+          organisationName: 'Secmotic',
+          productName: 'Muvone',
+          companyLink: './?category=ready&id=secmotic-muvone'
+        },
+        {
+          category: 'Services',
+          featuredImage: '',
+          organisationName: 'Secmotic',
+          productName: 'IoT Development',
+          companyLink: './?category=service&id=secmotic-iotdevelopment'
+        }
+      ]
     },
     'datakorumsolutions-ls40': {
       category: 'FIWARE-Ready',
@@ -4761,7 +6373,111 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
       featuredImage:
         'https://www.datakorum.com/site/wp-content/uploads/2018/06/software_dk-1.jpg',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2019/11/beat_dk-en.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'BEAT',
+          companyLink: './?category=ready&id=datakorumsolutions-beat'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage: '',
+          organisationName: 'Datakorum Solutions',
+          productName: 'CS40',
+          companyLink: './?category=ready&id=datakorumsolutions-cs40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/lane_aforo_dk_eng-1.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LANE',
+          companyLink: './?category=ready&id=datakorumsolutions-lane'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LB40',
+          companyLink: './?category=ready&id=datakorumsolutions-lb40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LC40',
+          companyLink: './?category=ready&id=datakorumsolutions-lc40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'MB43',
+          companyLink: './?category=ready&id=datakorumsolutions-mb43'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'MS41',
+          companyLink: './?category=ready&id=datakorumsolutions-ms41'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/peak_dk_eng.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'PEAK',
+          companyLink: './?category=ready&id=datakorumsolutions-peak'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/plug-series_eng.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'PLUG',
+          companyLink: './?category=ready&id=datakorumsolutions-plug'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/equipo_cabecera_DK_eng.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'POLE',
+          companyLink: './?category=ready&id=datakorumsolutions-pole'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage: '',
+          organisationName: 'Datakorum Solutions',
+          productName: 'SC40',
+          companyLink: './?category=ready&id=datakorumsolutions-sc40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'SS47',
+          companyLink: './?category=ready&id=datakorumsolutions-ss47'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'TINY',
+          companyLink: './?category=ready&id=datakorumsolutions-tiny'
+        }
+      ]
     },
     'srmconsulting-mavdrone': {
       category: 'FIWARE-Ready',
@@ -4792,7 +6508,26 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_SRM.svg',
       featuredImage:
         'https://srmconsulting.es/assets/img/blog/mavdrone-srm-consulting.png',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://srmconsulting.es/assets/img/srm-consulting-lider-tecnologia-geoespacial.png',
+          organisationName: 'SRM Consulting',
+          productName: 'Capacity Control System',
+          companyLink:
+            './?category=powered&id=srmconsulting-capacitycontrolsystem'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://srmconsulting.es/assets/img/blog/fiware-map-viewer-srmconsulting.jpg',
+          organisationName: 'SRM Consulting',
+          productName: 'FIWARE Map Viewer',
+          companyLink: './?category=ready&id=srmconsulting-fiwaremapviewer'
+        }
+      ]
     },
     'datakorumsolutions-mb43': {
       category: 'FIWARE-Ready',
@@ -4820,7 +6555,111 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
       featuredImage:
         'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2019/11/beat_dk-en.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'BEAT',
+          companyLink: './?category=ready&id=datakorumsolutions-beat'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage: '',
+          organisationName: 'Datakorum Solutions',
+          productName: 'CS40',
+          companyLink: './?category=ready&id=datakorumsolutions-cs40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/lane_aforo_dk_eng-1.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LANE',
+          companyLink: './?category=ready&id=datakorumsolutions-lane'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LB40',
+          companyLink: './?category=ready&id=datakorumsolutions-lb40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LC40',
+          companyLink: './?category=ready&id=datakorumsolutions-lc40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/06/software_dk-1.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LS40',
+          companyLink: './?category=ready&id=datakorumsolutions-ls40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'MS41',
+          companyLink: './?category=ready&id=datakorumsolutions-ms41'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/peak_dk_eng.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'PEAK',
+          companyLink: './?category=ready&id=datakorumsolutions-peak'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/plug-series_eng.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'PLUG',
+          companyLink: './?category=ready&id=datakorumsolutions-plug'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/equipo_cabecera_DK_eng.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'POLE',
+          companyLink: './?category=ready&id=datakorumsolutions-pole'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage: '',
+          organisationName: 'Datakorum Solutions',
+          productName: 'SC40',
+          companyLink: './?category=ready&id=datakorumsolutions-sc40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'SS47',
+          companyLink: './?category=ready&id=datakorumsolutions-ss47'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'TINY',
+          companyLink: './?category=ready&id=datakorumsolutions-tiny'
+        }
+      ]
     },
     'libelium-meshlium': {
       category: 'FIWARE-Ready',
@@ -4860,7 +6699,25 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Libelium.svg',
       featuredImage:
         'https://www.libelium.com/wp-content/uploads/2020/08/PRODUCTS-elements-detail-ps-9-min-768x768.png',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.libelium.com/wp-content/uploads/2020/09/SOLUTIONS-product-generico.png',
+          organisationName: 'Libelium',
+          productName: 'Plug&Sense!',
+          companyLink: './?category=ready&id=libelium-plugsense'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.libelium.com/wp-content/uploads/2020/07/product-768x771.png',
+          organisationName: 'Libelium',
+          productName: 'Waspmote',
+          companyLink: './?category=ready&id=libelium-waspmote'
+        }
+      ]
     },
     'odinsolutions-mex06datalogger': {
       category: 'FIWARE-Ready',
@@ -4901,7 +6758,33 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Odins.svg',
       featuredImage:
         'https://www.odins.es/wp-content/uploads/2017/04/IPex12-v4.jpg',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.odins.es/wp-content/uploads/2017/04/IPex04.png',
+          organisationName: 'Odin Solutions',
+          productName: 'IPex 04 Datalogger',
+          companyLink: './?category=ready&id=odinsolutions-ipex04datalogger'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.odins.es/wp-content/uploads/2017/04/IPex12-v4.jpg',
+          organisationName: 'Odin Solutions',
+          productName: 'IPex 12 Datalogger',
+          companyLink: './?category=ready&id=odinsolutions-ipex12datalogger'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.odins.es/wp-content/uploads/2017/04/IPex16-2.png',
+          organisationName: 'Odin Solutions',
+          productName: 'IPex 16 Datalogger',
+          companyLink: './?category=ready&id=odinsolutions-ipex16datalogger'
+        }
+      ]
     },
     'eficae-miluz': {
       category: 'FIWARE-Ready',
@@ -4995,7 +6878,111 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
       featuredImage:
         'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2019/11/beat_dk-en.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'BEAT',
+          companyLink: './?category=ready&id=datakorumsolutions-beat'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage: '',
+          organisationName: 'Datakorum Solutions',
+          productName: 'CS40',
+          companyLink: './?category=ready&id=datakorumsolutions-cs40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/lane_aforo_dk_eng-1.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LANE',
+          companyLink: './?category=ready&id=datakorumsolutions-lane'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LB40',
+          companyLink: './?category=ready&id=datakorumsolutions-lb40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LC40',
+          companyLink: './?category=ready&id=datakorumsolutions-lc40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/06/software_dk-1.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LS40',
+          companyLink: './?category=ready&id=datakorumsolutions-ls40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'MB43',
+          companyLink: './?category=ready&id=datakorumsolutions-mb43'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/peak_dk_eng.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'PEAK',
+          companyLink: './?category=ready&id=datakorumsolutions-peak'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/plug-series_eng.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'PLUG',
+          companyLink: './?category=ready&id=datakorumsolutions-plug'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/equipo_cabecera_DK_eng.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'POLE',
+          companyLink: './?category=ready&id=datakorumsolutions-pole'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage: '',
+          organisationName: 'Datakorum Solutions',
+          productName: 'SC40',
+          companyLink: './?category=ready&id=datakorumsolutions-sc40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'SS47',
+          companyLink: './?category=ready&id=datakorumsolutions-ss47'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'TINY',
+          companyLink: './?category=ready&id=datakorumsolutions-tiny'
+        }
+      ]
     },
     'secmotic-muvone': {
       category: 'FIWARE-Ready',
@@ -5025,7 +7012,24 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Secmotic.svg',
       featuredImage:
         'https://www.muvone.com/wp-content/uploads/2015/01/muvone-dispositivo-prevencion-osteoporosis-render-1-e1496664254630.jpg',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'http://secmotic.com/wp-content/uploads/2020/12/secmotic_concepto_web_sec.png',
+          organisationName: 'Secmotic',
+          productName: 'LockArt',
+          companyLink: './?category=ready&id=secmotic-lockart'
+        },
+        {
+          category: 'Services',
+          featuredImage: '',
+          organisationName: 'Secmotic',
+          productName: 'IoT Development',
+          companyLink: './?category=service&id=secmotic-iotdevelopment'
+        }
+      ]
     },
     'greenglobesypa-nighteyeskysensor': {
       category: 'FIWARE-Ready',
@@ -5094,7 +7098,17 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_OutBarriers.svg',
       featuredImage:
         'https://outbarriers.com/static/img/outbarriers-app-mockup-vertical.jpg',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://outbarriers.com/static/img/outbarriers-app-mockup-vertical.jpg',
+          organisationName: 'Digitalilusion',
+          productName: 'Outbarriers',
+          companyLink: './?category=powered&id=digitalilusion-outbarriers'
+        }
+      ]
     },
     'datakorumsolutions-peak': {
       category: 'FIWARE-Ready',
@@ -5128,7 +7142,111 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
       featuredImage:
         'https://www.datakorum.com/site/wp-content/uploads/2018/09/peak_dk_eng.jpg',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2019/11/beat_dk-en.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'BEAT',
+          companyLink: './?category=ready&id=datakorumsolutions-beat'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage: '',
+          organisationName: 'Datakorum Solutions',
+          productName: 'CS40',
+          companyLink: './?category=ready&id=datakorumsolutions-cs40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/lane_aforo_dk_eng-1.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LANE',
+          companyLink: './?category=ready&id=datakorumsolutions-lane'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LB40',
+          companyLink: './?category=ready&id=datakorumsolutions-lb40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LC40',
+          companyLink: './?category=ready&id=datakorumsolutions-lc40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/06/software_dk-1.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LS40',
+          companyLink: './?category=ready&id=datakorumsolutions-ls40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'MB43',
+          companyLink: './?category=ready&id=datakorumsolutions-mb43'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'MS41',
+          companyLink: './?category=ready&id=datakorumsolutions-ms41'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/plug-series_eng.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'PLUG',
+          companyLink: './?category=ready&id=datakorumsolutions-plug'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/equipo_cabecera_DK_eng.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'POLE',
+          companyLink: './?category=ready&id=datakorumsolutions-pole'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage: '',
+          organisationName: 'Datakorum Solutions',
+          productName: 'SC40',
+          companyLink: './?category=ready&id=datakorumsolutions-sc40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'SS47',
+          companyLink: './?category=ready&id=datakorumsolutions-ss47'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'TINY',
+          companyLink: './?category=ready&id=datakorumsolutions-tiny'
+        }
+      ]
     },
     'datakorumsolutions-plug': {
       category: 'FIWARE-Ready',
@@ -5165,7 +7283,111 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
       featuredImage:
         'https://www.datakorum.com/site/wp-content/uploads/2018/09/plug-series_eng.jpg',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2019/11/beat_dk-en.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'BEAT',
+          companyLink: './?category=ready&id=datakorumsolutions-beat'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage: '',
+          organisationName: 'Datakorum Solutions',
+          productName: 'CS40',
+          companyLink: './?category=ready&id=datakorumsolutions-cs40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/lane_aforo_dk_eng-1.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LANE',
+          companyLink: './?category=ready&id=datakorumsolutions-lane'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LB40',
+          companyLink: './?category=ready&id=datakorumsolutions-lb40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LC40',
+          companyLink: './?category=ready&id=datakorumsolutions-lc40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/06/software_dk-1.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LS40',
+          companyLink: './?category=ready&id=datakorumsolutions-ls40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'MB43',
+          companyLink: './?category=ready&id=datakorumsolutions-mb43'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'MS41',
+          companyLink: './?category=ready&id=datakorumsolutions-ms41'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/peak_dk_eng.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'PEAK',
+          companyLink: './?category=ready&id=datakorumsolutions-peak'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/equipo_cabecera_DK_eng.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'POLE',
+          companyLink: './?category=ready&id=datakorumsolutions-pole'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage: '',
+          organisationName: 'Datakorum Solutions',
+          productName: 'SC40',
+          companyLink: './?category=ready&id=datakorumsolutions-sc40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'SS47',
+          companyLink: './?category=ready&id=datakorumsolutions-ss47'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'TINY',
+          companyLink: './?category=ready&id=datakorumsolutions-tiny'
+        }
+      ]
     },
     'libelium-plugsense': {
       category: 'FIWARE-Ready',
@@ -5203,7 +7425,25 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Libelium.svg',
       featuredImage:
         'https://www.libelium.com/wp-content/uploads/2020/09/SOLUTIONS-product-generico.png',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.libelium.com/wp-content/uploads/2020/08/PRODUCTS-elements-detail-ps-9-min-768x768.png',
+          organisationName: 'Libelium',
+          productName: 'Meshlium',
+          companyLink: './?category=ready&id=libelium-meshlium'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.libelium.com/wp-content/uploads/2020/07/product-768x771.png',
+          organisationName: 'Libelium',
+          productName: 'Waspmote',
+          companyLink: './?category=ready&id=libelium-waspmote'
+        }
+      ]
     },
     'datakorumsolutions-pole': {
       category: 'FIWARE-Ready',
@@ -5240,7 +7480,111 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
       featuredImage:
         'https://www.datakorum.com/site/wp-content/uploads/2018/09/equipo_cabecera_DK_eng.jpg',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2019/11/beat_dk-en.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'BEAT',
+          companyLink: './?category=ready&id=datakorumsolutions-beat'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage: '',
+          organisationName: 'Datakorum Solutions',
+          productName: 'CS40',
+          companyLink: './?category=ready&id=datakorumsolutions-cs40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/lane_aforo_dk_eng-1.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LANE',
+          companyLink: './?category=ready&id=datakorumsolutions-lane'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LB40',
+          companyLink: './?category=ready&id=datakorumsolutions-lb40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LC40',
+          companyLink: './?category=ready&id=datakorumsolutions-lc40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/06/software_dk-1.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LS40',
+          companyLink: './?category=ready&id=datakorumsolutions-ls40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'MB43',
+          companyLink: './?category=ready&id=datakorumsolutions-mb43'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'MS41',
+          companyLink: './?category=ready&id=datakorumsolutions-ms41'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/peak_dk_eng.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'PEAK',
+          companyLink: './?category=ready&id=datakorumsolutions-peak'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/plug-series_eng.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'PLUG',
+          companyLink: './?category=ready&id=datakorumsolutions-plug'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage: '',
+          organisationName: 'Datakorum Solutions',
+          productName: 'SC40',
+          companyLink: './?category=ready&id=datakorumsolutions-sc40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'SS47',
+          companyLink: './?category=ready&id=datakorumsolutions-ss47'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'TINY',
+          companyLink: './?category=ready&id=datakorumsolutions-tiny'
+        }
+      ]
     },
     'wellnesstechgroup-quamtra': {
       category: 'FIWARE-Ready',
@@ -5275,7 +7619,17 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_WellnessTechGroup.svg',
       featuredImage:
         'https://wellnesstg.com/wp-content/uploads/2019/09/quamtra.jpg',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://wellnesstg.com/wp-content/uploads/2021/11/sdp-talqcertified2-1.jpg',
+          organisationName: 'Wellness TechGroup',
+          productName: 'WeLight',
+          companyLink: './?category=ready&id=wellnesstechgroup-welight'
+        }
+      ]
     },
     'panstamp-respirafiware': {
       category: 'FIWARE-Ready',
@@ -5332,7 +7686,112 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
       featuredImage: '',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2019/11/beat_dk-en.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'BEAT',
+          companyLink: './?category=ready&id=datakorumsolutions-beat'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage: '',
+          organisationName: 'Datakorum Solutions',
+          productName: 'CS40',
+          companyLink: './?category=ready&id=datakorumsolutions-cs40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/lane_aforo_dk_eng-1.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LANE',
+          companyLink: './?category=ready&id=datakorumsolutions-lane'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LB40',
+          companyLink: './?category=ready&id=datakorumsolutions-lb40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LC40',
+          companyLink: './?category=ready&id=datakorumsolutions-lc40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/06/software_dk-1.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LS40',
+          companyLink: './?category=ready&id=datakorumsolutions-ls40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'MB43',
+          companyLink: './?category=ready&id=datakorumsolutions-mb43'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'MS41',
+          companyLink: './?category=ready&id=datakorumsolutions-ms41'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/peak_dk_eng.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'PEAK',
+          companyLink: './?category=ready&id=datakorumsolutions-peak'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/plug-series_eng.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'PLUG',
+          companyLink: './?category=ready&id=datakorumsolutions-plug'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/equipo_cabecera_DK_eng.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'POLE',
+          companyLink: './?category=ready&id=datakorumsolutions-pole'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'SS47',
+          companyLink: './?category=ready&id=datakorumsolutions-ss47'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'TINY',
+          companyLink: './?category=ready&id=datakorumsolutions-tiny'
+        }
+      ]
     },
     'urbaser-sensiot': {
       category: 'FIWARE-Ready',
@@ -5507,7 +7966,18 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Situm.svg',
       featuredImage:
         'https://situm.com/wp-content/uploads/2020/08/Indoor-positioning-System-for-indoor-location-indoor-navigation-and-indoor-tracking-1920-x-1280.jpg',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://situm.com/wp-content/uploads/2020/08/Indoor-positioning-System-for-indoor-location-indoor-navigation-and-indoor-tracking-1920-x-1280.jpg',
+          organisationName: 'Situm Indoor Positioning',
+          productName: 'Situm Indoor Tracking',
+          companyLink:
+            './?category=ready&id=situmindoorpositioning-situmindoortracking'
+        }
+      ]
     },
     'situmindoorpositioning-situmindoortracking': {
       category: 'FIWARE-Ready',
@@ -5539,7 +8009,18 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Situm.svg',
       featuredImage:
         'https://situm.com/wp-content/uploads/2020/08/Indoor-positioning-System-for-indoor-location-indoor-navigation-and-indoor-tracking-1920-x-1280.jpg',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://situm.com/wp-content/uploads/2020/08/Indoor-positioning-System-for-indoor-location-indoor-navigation-and-indoor-tracking-1920-x-1280.jpg',
+          organisationName: 'Situm Indoor Positioning',
+          productName: 'Situm Indoor Navigation',
+          companyLink:
+            './?category=ready&id=situmindoorpositioning-situmindoornavigation'
+        }
+      ]
     },
     'hopu-smartirrigiationsolution': {
       category: 'FIWARE-Ready',
@@ -5566,7 +8047,33 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Hopu.svg',
       featuredImage:
         'https://hopu.eu/wp-content/uploads/2015/10/hop-ecosystem.png',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://atmosphere.hopu.eu/public/img/grafana_header_icon.svg',
+          organisationName: 'HOPU',
+          productName: 'Low Emission Zones',
+          companyLink: './?category=powered&id=hopu-lowemissionzones'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://smartcities.hopu.eu/images/EN-smart-spot-scheme.png',
+          organisationName: 'HOPU',
+          productName: 'Smart Spot',
+          companyLink: './?category=ready&id=hopu-smartspot'
+        },
+        {
+          category: 'Services',
+          featuredImage:
+            'https://hopu.eu/wp-content/uploads/2015/10/hop-ecosystem.png',
+          organisationName: 'HOPU',
+          productName: 'FIWARE Expert certification',
+          companyLink: './?category=service&id=hopu-fiwareexpertcertification'
+        }
+      ]
     },
     'hopu-smartspot': {
       category: 'FIWARE-Ready',
@@ -5631,7 +8138,33 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Hopu.svg',
       featuredImage:
         'https://smartcities.hopu.eu/images/EN-smart-spot-scheme.png',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://atmosphere.hopu.eu/public/img/grafana_header_icon.svg',
+          organisationName: 'HOPU',
+          productName: 'Low Emission Zones',
+          companyLink: './?category=powered&id=hopu-lowemissionzones'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://hopu.eu/wp-content/uploads/2015/10/hop-ecosystem.png',
+          organisationName: 'HOPU',
+          productName: 'Smart Irrigiation Solution',
+          companyLink: './?category=ready&id=hopu-smartirrigiationsolution'
+        },
+        {
+          category: 'Services',
+          featuredImage:
+            'https://hopu.eu/wp-content/uploads/2015/10/hop-ecosystem.png',
+          organisationName: 'HOPU',
+          productName: 'FIWARE Expert certification',
+          companyLink: './?category=service&id=hopu-fiwareexpertcertification'
+        }
+      ]
     },
     'datakorumsolutions-ss47': {
       category: 'FIWARE-Ready',
@@ -5659,7 +8192,111 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
       featuredImage:
         'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2019/11/beat_dk-en.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'BEAT',
+          companyLink: './?category=ready&id=datakorumsolutions-beat'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage: '',
+          organisationName: 'Datakorum Solutions',
+          productName: 'CS40',
+          companyLink: './?category=ready&id=datakorumsolutions-cs40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/lane_aforo_dk_eng-1.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LANE',
+          companyLink: './?category=ready&id=datakorumsolutions-lane'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LB40',
+          companyLink: './?category=ready&id=datakorumsolutions-lb40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LC40',
+          companyLink: './?category=ready&id=datakorumsolutions-lc40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/06/software_dk-1.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LS40',
+          companyLink: './?category=ready&id=datakorumsolutions-ls40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'MB43',
+          companyLink: './?category=ready&id=datakorumsolutions-mb43'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'MS41',
+          companyLink: './?category=ready&id=datakorumsolutions-ms41'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/peak_dk_eng.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'PEAK',
+          companyLink: './?category=ready&id=datakorumsolutions-peak'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/plug-series_eng.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'PLUG',
+          companyLink: './?category=ready&id=datakorumsolutions-plug'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/equipo_cabecera_DK_eng.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'POLE',
+          companyLink: './?category=ready&id=datakorumsolutions-pole'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage: '',
+          organisationName: 'Datakorum Solutions',
+          productName: 'SC40',
+          companyLink: './?category=ready&id=datakorumsolutions-sc40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'TINY',
+          companyLink: './?category=ready&id=datakorumsolutions-tiny'
+        }
+      ]
     },
     'datakorumsolutions-tiny': {
       category: 'FIWARE-Ready',
@@ -5697,7 +8334,111 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
       featuredImage:
         'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2019/11/beat_dk-en.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'BEAT',
+          companyLink: './?category=ready&id=datakorumsolutions-beat'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage: '',
+          organisationName: 'Datakorum Solutions',
+          productName: 'CS40',
+          companyLink: './?category=ready&id=datakorumsolutions-cs40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/lane_aforo_dk_eng-1.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LANE',
+          companyLink: './?category=ready&id=datakorumsolutions-lane'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LB40',
+          companyLink: './?category=ready&id=datakorumsolutions-lb40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LC40',
+          companyLink: './?category=ready&id=datakorumsolutions-lc40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/06/software_dk-1.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'LS40',
+          companyLink: './?category=ready&id=datakorumsolutions-ls40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'MB43',
+          companyLink: './?category=ready&id=datakorumsolutions-mb43'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'MS41',
+          companyLink: './?category=ready&id=datakorumsolutions-ms41'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/peak_dk_eng.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'PEAK',
+          companyLink: './?category=ready&id=datakorumsolutions-peak'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/plug-series_eng.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'PLUG',
+          companyLink: './?category=ready&id=datakorumsolutions-plug'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/equipo_cabecera_DK_eng.jpg',
+          organisationName: 'Datakorum Solutions',
+          productName: 'POLE',
+          companyLink: './?category=ready&id=datakorumsolutions-pole'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage: '',
+          organisationName: 'Datakorum Solutions',
+          productName: 'SC40',
+          companyLink: './?category=ready&id=datakorumsolutions-sc40'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.datakorum.com/site/wp-content/uploads/2018/09/puzzle_eng.png',
+          organisationName: 'Datakorum Solutions',
+          productName: 'SS47',
+          companyLink: './?category=ready&id=datakorumsolutions-ss47'
+        }
+      ]
     },
     'axion-traxion': {
       category: 'FIWARE-Ready',
@@ -5771,7 +8512,26 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_TST.svg',
       featuredImage:
         'https://tst-sistemas.com/wp-content/uploads/2021/06/ingnieria3.jpg',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://tst-sistemas.com/wp-content/uploads/2021/06/ingnieria3.jpg',
+          organisationName: 'TST Sistemas',
+          productName: 'TSmart Development Platform',
+          companyLink:
+            './?category=ready&id=tstsistemas-tsmartdevelopmentplatform'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://tst-sistemas.com/wp-content/uploads/2021/06/ingnieria3.jpg',
+          organisationName: 'TST Sistemas',
+          productName: 'TSwasTe',
+          companyLink: './?category=ready&id=tstsistemas-tswaste'
+        }
+      ]
     },
     'tstsistemas-tsmartdevelopmentplatform': {
       category: 'FIWARE-Ready',
@@ -5818,7 +8578,26 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_TST.svg',
       featuredImage:
         'https://tst-sistemas.com/wp-content/uploads/2021/06/ingnieria3.jpg',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://tst-sistemas.com/wp-content/uploads/2021/06/ingnieria3.jpg',
+          organisationName: 'TST Sistemas',
+          productName: 'TSconTrol Industrial Control',
+          companyLink:
+            './?category=ready&id=tstsistemas-tscontrolindustrialcontrol'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://tst-sistemas.com/wp-content/uploads/2021/06/ingnieria3.jpg',
+          organisationName: 'TST Sistemas',
+          productName: 'TSwasTe',
+          companyLink: './?category=ready&id=tstsistemas-tswaste'
+        }
+      ]
     },
     'tstsistemas-tswaste': {
       category: 'FIWARE-Ready',
@@ -5857,7 +8636,27 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_TST.svg',
       featuredImage:
         'https://tst-sistemas.com/wp-content/uploads/2021/06/ingnieria3.jpg',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://tst-sistemas.com/wp-content/uploads/2021/06/ingnieria3.jpg',
+          organisationName: 'TST Sistemas',
+          productName: 'TSconTrol Industrial Control',
+          companyLink:
+            './?category=ready&id=tstsistemas-tscontrolindustrialcontrol'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://tst-sistemas.com/wp-content/uploads/2021/06/ingnieria3.jpg',
+          organisationName: 'TST Sistemas',
+          productName: 'TSmart Development Platform',
+          companyLink:
+            './?category=ready&id=tstsistemas-tsmartdevelopmentplatform'
+        }
+      ]
     },
     'devicegateway-udg': {
       category: 'FIWARE-Ready',
@@ -5954,7 +8753,25 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Libelium.svg',
       featuredImage:
         'https://www.libelium.com/wp-content/uploads/2020/07/product-768x771.png',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.libelium.com/wp-content/uploads/2020/08/PRODUCTS-elements-detail-ps-9-min-768x768.png',
+          organisationName: 'Libelium',
+          productName: 'Meshlium',
+          companyLink: './?category=ready&id=libelium-meshlium'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.libelium.com/wp-content/uploads/2020/09/SOLUTIONS-product-generico.png',
+          organisationName: 'Libelium',
+          productName: 'Plug&Sense!',
+          companyLink: './?category=ready&id=libelium-plugsense'
+        }
+      ]
     },
     'wellnesstechgroup-welight': {
       category: 'FIWARE-Ready',
@@ -5989,7 +8806,17 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_WellnessTechGroup.svg',
       featuredImage:
         'https://wellnesstg.com/wp-content/uploads/2021/11/sdp-talqcertified2-1.jpg',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://wellnesstg.com/wp-content/uploads/2019/09/quamtra.jpg',
+          organisationName: 'Wellness TechGroup',
+          productName: 'Quamtra',
+          companyLink: './?category=ready&id=wellnesstechgroup-quamtra'
+        }
+      ]
     },
     'xapix-xapix': {
       category: 'FIWARE-Ready',
@@ -6236,7 +9063,17 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_FIWARESpace.svg',
       featuredImage: 'https://pbs.twimg.com/media/FWfIxQDXwAMpDmu.jpg',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Services',
+          featuredImage: 'https://pbs.twimg.com/media/FWfIxQDXwAMpDmu.jpg',
+          organisationName: 'FIWARE Space',
+          productName: 'Consultancy & Integration Services',
+          companyLink:
+            './?category=service&id=fiwarespace-consultancyintegrationservices'
+        }
+      ]
     },
     'fiwarezone-coachingtrainingservices': {
       category: 'Services',
@@ -6265,7 +9102,18 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_FIWAREZone.svg',
       featuredImage:
         'https://www.fiware.org/wp-content/uploads/2018/03/ThinkstockPhotos-638342536-min.jpg',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Services',
+          featuredImage:
+            'https://www.fiware.org/wp-content/uploads/2018/03/ThinkstockPhotos-638342536-min.jpg',
+          organisationName: 'FIWARE Zone',
+          productName: 'Consultancy & Integration Services',
+          companyLink:
+            './?category=service&id=fiwarezone-consultancyintegrationservices'
+        }
+      ]
     },
     'mnxonline-coachingtrainingservices': {
       category: 'Services',
@@ -6303,7 +9151,18 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_MNX.svg',
       featuredImage:
         'https://www.mnx.com/wp-content/uploads/2021/05/Company-Header-BG-IMG.jpg',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Services',
+          featuredImage:
+            'https://scontent-frx5-1.xx.fbcdn.net/v/t1.6435-9/45650857_1935338443198803_5855859270083411968_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=e3f864&_nc_ohc=8a9yzJ0Ur0gAX_MmaFW&_nc_ht=scontent-frx5-1.xx&oh=00_AT_ESK9ZtLXDjOcvpQP-ekWhiszRuT5_E_i7nGYnUr6JWA&oe=6301975B',
+          organisationName: 'MNX Online',
+          productName: 'FIWARE Transition Strategy',
+          companyLink:
+            './?category=service&id=mnxonline-fiwaretransitionstrategy'
+        }
+      ]
     },
     'snap4city-coachingtrainingservices': {
       category: 'Services',
@@ -6348,7 +9207,34 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_Snap4City.svg',
       featuredImage:
         'https://www.snap4city.org/download/video/header-snap4city-new-v04-ORIZZONTALE-text-only2.png',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.km4city.org/img-new/snap4city-logo-02-km4city.jpg',
+          organisationName: 'Snap4City',
+          productName: 'Km4City',
+          companyLink: './?category=powered&id=snap4city-km4city'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.snap4city.org/download/video/header-snap4city-new-v04-ORIZZONTALE-text-only2.png',
+          organisationName: 'Snap4City',
+          productName: 'Snap4City',
+          companyLink: './?category=powered&id=snap4city-snap4city'
+        },
+        {
+          category: 'Services',
+          featuredImage:
+            'https://www.snap4city.org/download/video/header-snap4city-new-v04-ORIZZONTALE-text-only2.png',
+          organisationName: 'Snap4City',
+          productName: 'Consultancy & Integration Services',
+          companyLink:
+            './?category=service&id=snap4city-consultancyintegrationservices'
+        }
+      ]
     },
     'atos-connectedterritories': {
       category: 'Services',
@@ -6379,7 +9265,25 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Atos.svg',
       featuredImage:
         'https://iot-automotive.news/wp-content/uploads/2021/08/Thales-SOFTWARE-REPUBLIQUE_Mobile.jpg',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://booklet.atosresearch.eu/sites/booklet/files/public/styles/medium/public/content-images/media/2020/industry.png?itok=9d9r2H2A',
+          organisationName: 'Atos',
+          productName: 'MASAI',
+          companyLink: './?category=powered&id=atos-masai'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://atos.net/wp-content/uploads/2021/03/udp-statista-2020.jpg',
+          organisationName: 'Atos',
+          productName: 'Urban Data Platform',
+          companyLink: './?category=powered&id=atos-urbandataplatform'
+        }
+      ]
     },
     'fiwarespace-consultancyintegrationservices': {
       category: 'Services',
@@ -6426,7 +9330,17 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_FIWARESpace.svg',
       featuredImage: 'https://pbs.twimg.com/media/FWfIxQDXwAMpDmu.jpg',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Services',
+          featuredImage: 'https://pbs.twimg.com/media/FWfIxQDXwAMpDmu.jpg',
+          organisationName: 'FIWARE Space',
+          productName: 'Coaching & Training Services',
+          companyLink:
+            './?category=service&id=fiwarespace-coachingtrainingservices'
+        }
+      ]
     },
     'fiwarezone-consultancyintegrationservices': {
       category: 'Services',
@@ -6459,7 +9373,18 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_FIWAREZone.svg',
       featuredImage:
         'https://www.fiware.org/wp-content/uploads/2018/03/ThinkstockPhotos-638342536-min.jpg',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Services',
+          featuredImage:
+            'https://www.fiware.org/wp-content/uploads/2018/03/ThinkstockPhotos-638342536-min.jpg',
+          organisationName: 'FIWARE Zone',
+          productName: 'Coaching & Training Services',
+          companyLink:
+            './?category=service&id=fiwarezone-coachingtrainingservices'
+        }
+      ]
     },
     'futureinternet-consultancyintegrationservices': {
       category: 'Services',
@@ -6539,7 +9464,17 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_byHS.svg',
       featuredImage:
         'https://scontent-frx5-2.xx.fbcdn.net/v/t1.6435-9/42543839_1106599892827876_8725996819475070976_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=e3f864&_nc_ohc=KjLKOYhe900AX9kktKf&_nc_ht=scontent-frx5-2.xx&oh=00_AT_C19mgJGjP9N-Rn7zt_NXujLDdOL1kcG2Fh0RDRon2aA&oe=62FF04F5',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://byhs.eu/static/senda_v2/images/xdispositivo_y_app_senda.png.pagespeed.ic.Y67xrX4mUl.webp',
+          organisationName: 'Hearing Software',
+          productName: 'Senda Care',
+          companyLink: './?category=powered&id=hearingsoftware-sendacare'
+        }
+      ]
     },
     'snap4city-consultancyintegrationservices': {
       category: 'Services',
@@ -6578,7 +9513,34 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Snap4City.svg',
       featuredImage:
         'https://www.snap4city.org/download/video/header-snap4city-new-v04-ORIZZONTALE-text-only2.png',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.km4city.org/img-new/snap4city-logo-02-km4city.jpg',
+          organisationName: 'Snap4City',
+          productName: 'Km4City',
+          companyLink: './?category=powered&id=snap4city-km4city'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.snap4city.org/download/video/header-snap4city-new-v04-ORIZZONTALE-text-only2.png',
+          organisationName: 'Snap4City',
+          productName: 'Snap4City',
+          companyLink: './?category=powered&id=snap4city-snap4city'
+        },
+        {
+          category: 'Services',
+          featuredImage:
+            'https://www.snap4city.org/download/video/header-snap4city-new-v04-ORIZZONTALE-text-only2.png',
+          organisationName: 'Snap4City',
+          productName: 'Coaching & Training Services',
+          companyLink:
+            './?category=service&id=snap4city-coachingtrainingservices'
+        }
+      ]
     },
     'egm-designoffice': {
       category: 'Services',
@@ -6611,7 +9573,33 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_EGM.svg',
       featuredImage:
         'https://www.egm.io/wp-content/uploads/2020/08/ingenierie-integration.png',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.egm.io/wp-content/uploads/2021/09/cd66-montage-blog.png',
+          organisationName: 'EGM',
+          productName: 'Carpool Parking',
+          companyLink: './?category=powered&id=egm-carpoolparking'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.egm.io/wp-content/uploads/2020/10/7-scaled.jpg',
+          organisationName: 'EGM',
+          productName: 'Smart Irrigation',
+          companyLink: './?category=powered&id=egm-smartirrigation'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.egm.io/wp-content/uploads/2020/08/about-egm.png',
+          organisationName: 'EGM',
+          productName: 'EdgeSpot',
+          companyLink: './?category=ready&id=egm-edgespot'
+        }
+      ]
     },
     'eprosima-eprosima': {
       category: 'Services',
@@ -6682,7 +9670,17 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Ficodes.svg',
       featuredImage:
         'https://media.istockphoto.com/photos/panorama-of-santa-cruz-de-tenerife-resorts-and-pools-tenerife-canary-picture-id1190178756?k=20&m=1190178756&s=612x612&w=0&h=IWOOqbO8zeQfLtNYZQnu_OZ17WOYY8NaUzkKJ5xB44E=',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Services',
+          featuredImage: '',
+          organisationName: 'FiiHUB Canary Island',
+          productName: 'Innovation Project Design through FIWARE',
+          companyLink:
+            './?category=service&id=fiihubcanaryisland-innovationprojectdesignthroughfiware'
+        }
+      ]
     },
     'ubiwhere-fiwareubiwhere': {
       category: 'Services',
@@ -6729,7 +9727,23 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Ubiwhere.svg',
       featuredImage: 'https://fiware.ubiwhere.com/images/laptop.png',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage: 'https://www.ubiwhere.com/files/images/70D-0416.jpg',
+          organisationName: 'Ubiwhere',
+          productName: 'Smartlamppost',
+          companyLink: './?category=powered&id=ubiwhere-smartlamppost'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage: 'https://urbanplatform.city/img/map_city.png',
+          organisationName: 'Ubiwhere',
+          productName: 'Urban Platform',
+          companyLink: './?category=powered&id=ubiwhere-urbanplatform'
+        }
+      ]
     },
     'naevatec-fiwareconsultancy': {
       category: 'Services',
@@ -6830,7 +9844,33 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_Hopu.svg',
       featuredImage:
         'https://hopu.eu/wp-content/uploads/2015/10/hop-ecosystem.png',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://atmosphere.hopu.eu/public/img/grafana_header_icon.svg',
+          organisationName: 'HOPU',
+          productName: 'Low Emission Zones',
+          companyLink: './?category=powered&id=hopu-lowemissionzones'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://hopu.eu/wp-content/uploads/2015/10/hop-ecosystem.png',
+          organisationName: 'HOPU',
+          productName: 'Smart Irrigiation Solution',
+          companyLink: './?category=ready&id=hopu-smartirrigiationsolution'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://smartcities.hopu.eu/images/EN-smart-spot-scheme.png',
+          organisationName: 'HOPU',
+          productName: 'Smart Spot',
+          companyLink: './?category=ready&id=hopu-smartspot'
+        }
+      ]
     },
     'faubourgnumérique-fiwareihub': {
       category: 'Services',
@@ -6873,7 +9913,16 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_FaubourgNume%CC%81rique.svg',
       featuredImage:
         'http://faubourgnumerique.com/wp-content/uploads/2018/01/FIWARE-iHubs_RGB.png',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage: 'https://ouranos-ws.com/images/image1.png',
+          organisationName: 'Faubourg Numérique',
+          productName: 'ouranos-ws',
+          companyLink: './?category=powered&id=faubourgnumérique-ouranosws'
+        }
+      ]
     },
     'teamdev-fiwareprofessionalservices': {
       category: 'Services',
@@ -6923,7 +9972,74 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_TeamDev.svg',
       featuredImage:
         'https://www.teamdev.it/wp-content/uploads/2020/03/provanuova-100-e1583855984591.jpg',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.fiware.org/wp-content/uploads/ImpactStories_SliderWebsite_WiseTown-1080x675.png',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown',
+          companyLink: './?category=powered&id=teamdev-wisetown'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.fiware.org/wp-content/uploads/ImpactStories_SliderWebsite_WiseTown-1080x675.png',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown',
+          companyLink: './?category=powered&id=teamdev-wisetown'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://wise.town/wp-content/uploads/2022/02/Crowd-Planning-Tablet.jpg',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown Crowd Planning',
+          companyLink: './?category=powered&id=teamdev-wisetowncrowdplanning'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://wise.town/wp-content/uploads/2022/01/Geoanalytics_landscape-800x578.jpg',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown Geoanalytics',
+          companyLink: './?category=powered&id=teamdev-wisetowngeoanalytics'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://wise.town/wp-content/uploads/2022/01/IssueManager_tablet-800x578.jpg',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown Issue Manager',
+          companyLink: './?category=powered&id=teamdev-wisetownissuemanager'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://wise.town/wp-content/uploads/2022/02/OpenDataManager__landscape-800x578.jpg',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown Open Data Manager',
+          companyLink: './?category=powered&id=teamdev-wisetownopendatamanager'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://wise.town/wp-content/uploads/2022/02/Situation-Room-Tablet.jpg',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown Situation Room',
+          companyLink: './?category=powered&id=teamdev-wisetownsituationroom'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://wise.town/wp-content/uploads/2022/02/Thematic-Dashbard-Tablet-1.jpg',
+          organisationName: 'TeamDev',
+          productName: 'WiseTown Thematic Dashboard',
+          companyLink:
+            './?category=powered&id=teamdev-wisetownthematicdashboard'
+        }
+      ]
     },
     'mnxonline-fiwaretransitionstrategy': {
       category: 'Services',
@@ -6956,7 +10072,18 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_MNX.svg',
       featuredImage:
         'https://scontent-frx5-1.xx.fbcdn.net/v/t1.6435-9/45650857_1935338443198803_5855859270083411968_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=e3f864&_nc_ohc=8a9yzJ0Ur0gAX_MmaFW&_nc_ht=scontent-frx5-1.xx&oh=00_AT_ESK9ZtLXDjOcvpQP-ekWhiszRuT5_E_i7nGYnUr6JWA&oe=6301975B',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Services',
+          featuredImage:
+            'https://www.mnx.com/wp-content/uploads/2021/05/Company-Header-BG-IMG.jpg',
+          organisationName: 'MNX Online',
+          productName: 'Coaching & Training Services',
+          companyLink:
+            './?category=service&id=mnxonline-coachingtrainingservices'
+        }
+      ]
     },
     'fiihubcanaryisland-innovationprojectdesignthroughfiware': {
       category: 'Services',
@@ -6984,7 +10111,17 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_FiiHUB.svg',
       featuredImage: '',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Services',
+          featuredImage:
+            'https://media.istockphoto.com/photos/panorama-of-santa-cruz-de-tenerife-resorts-and-pools-tenerife-canary-picture-id1190178756?k=20&m=1190178756&s=612x612&w=0&h=IWOOqbO8zeQfLtNYZQnu_OZ17WOYY8NaUzkKJ5xB44E=',
+          organisationName: 'FiiHUB Canary Island',
+          productName: 'FiiHUB Academy',
+          companyLink: './?category=service&id=fiihubcanaryisland-fiihubacademy'
+        }
+      ]
     },
     'secmotic-iotdevelopment': {
       category: 'Services',
@@ -7027,7 +10164,25 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Secmotic.svg',
       featuredImage: '',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'http://secmotic.com/wp-content/uploads/2020/12/secmotic_concepto_web_sec.png',
+          organisationName: 'Secmotic',
+          productName: 'LockArt',
+          companyLink: './?category=ready&id=secmotic-lockart'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.muvone.com/wp-content/uploads/2015/01/muvone-dispositivo-prevencion-osteoporosis-render-1-e1496664254630.jpg',
+          organisationName: 'Secmotic',
+          productName: 'Muvone',
+          companyLink: './?category=ready&id=secmotic-muvone'
+        }
+      ]
     },
     'martelinnovate-martellab': {
       category: 'Services',
@@ -7098,7 +10253,17 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Martel.svg',
       featuredImage:
         'https://www.martel-innovate.com/wp-content/uploads/sites/5/2020/03/RESEARCH_INNOVATION_v6.jpg',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.orchestracities.com/wp-content/uploads/sites/36/2019/05/oc-smartcity.png',
+          organisationName: 'Martel Innovate',
+          productName: 'Orchestra Cities',
+          companyLink: './?category=powered&id=martelinnovate-orchestracities'
+        }
+      ]
     },
     'fiwareinnovaihub-promotingfiwaresolutionsandtechnologiesinitaly': {
       category: 'Services',
@@ -7184,7 +10349,17 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_StoneOne.svg',
       featuredImage:
         'https://sirius-labs.no/wp-content/uploads/2016/11/Cloud-1-e1478082888720.jpg',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.snap4city.org/download/video/header-snap4city-new-v04-ORIZZONTALE-text-only2.png',
+          organisationName: 'StoneOne',
+          productName: 'SmartOrchestra',
+          companyLink: './?category=powered&id=stoneone-smartorchestra'
+        }
+      ]
     }
   },
   unknown: {

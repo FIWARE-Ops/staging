@@ -1,169 +1,99 @@
 const fs = require('fs');
-const products = 'products.csv';
-const productDetails = 'product-details.csv';
+const productSummaryFile = 'products.csv';
+const productDetailsFile = 'product-details.csv';
 const csv = require('csvtojson');
 
 const Downloader = require('./downloader');
-const Parser = require('./parser');
+const Parser = require('./dataParser');
 const CSVParser = require('./csvParser');
 
 const _ = require('underscore');
-let images = [];
+let productDetails;
+
+function writeFile(filename, data) {
+  fs.writeFile(
+    filename,
+    'var pageData = ' + JSON.stringify(data, null, 2) + ';',
+    function(err) {
+      if (err) return console.log(err);
+    }
+  );
+}
+
+function findProduct(hash, category) {
+  const product = productDetails.details[category][hash];
+
+  return product
+    ? {
+        category: product.category,
+        featuredImage: product.featuredImage,
+        organisationName: product.organisationName,
+        productName: product.productName,
+        companyLink: './?category=' + category + '&id=' + hash
+      }
+    : null;
+}
+
+function relatedProducts(product, allCategories, category) {
+  const regex = /([^a-zA-Z0-9À-ÿ])/gi;
+  const productHash = Parser.getHash(product.company, product.name);
+  const companyHash = product.company.replace(regex, '').toLowerCase();
+
+  const related = [];
+
+  _.keys(allCategories).forEach(category => {
+    allCategories[category].forEach(hash => {
+      if (hash !== productHash && hash.startsWith(companyHash)) {
+        const product = findProduct(hash, category);
+        if (product) {
+          related.push(product);
+        }
+      }
+    });
+  });
+  if (!_.isEmpty(related) && productDetails.details[category][productHash]) {
+    productDetails.details[category][productHash].related = related;
+  }
+}
 
 csv()
-  .fromFile(productDetails)
+  .fromFile(productDetailsFile)
   .then(input => {
     return CSVParser.extractProductDetails(input);
   })
-  /*  .then(input => {
-    const details = {
-      powered: {},
-      ngsi: {},
-      city: {},
-      service: {},
-      unknown: {}
-    };
-
-    input.forEach(item => {
-      const category = Parser.getCategory(item['FIWARE-Ready']);
-      const hash = Parser.getHash(item['Organisation Name'], item['Product Name']);
-
-      details[category][hash] = {
-        category: item['FIWARE-Ready'],
-        organisationName: item['Organisation Name'],
-        productName: item['Product Name'],
-        organisationWebsite: item['Organisation Website'],
-        organisationEmail:
-          item['Organisation Email'] !== ''
-            ? 'mailto:' + item['Organisation Email']
-            : '',
-        linkedIn: item['LinkedIn'],
-        twitter: item['Twitter'],
-        productWebsite: item['Product Website'],
-        excerpt: item['Excerpt'],
-        yearOfValidation: parseInt(item['Year of validation']),
-        description: Parser.markdown(item['Description and Benefits']),
-        challenge: Parser.markdown(item['Challenge and Context']),
-        references: Parser.markdown(item['References / Customers']),
-        awards: Parser.markdown(item['Awards']),
-        technologies: Parser.splitStrings(item['Technologies']),
-        domains: Parser.splitStrings(item['Domains']),
-
-        docs: Parser.getLinkArray(docFields, 'Document', item),
-        videos: Parser.getLinkArray(mediaFields, 'Media', item),
-        materials: Parser.getLinkArray(refFields, 'Reference', item),
-
-        logo: item['Logo'],
-        featuredImage: item['Featured Image'],
-        furtherImages: ''
-      };
-
-      if (item['Featured Image']) {
-        const file =
-          'hero_' +
-          item['Organisation Name'] +
-          '_' +
-          item['Product Name'] +
-          path.extname(item['Featured Image']);
-        images.push([file, item['Featured Image']]);
-      }
-    });
-
-    return details;
-  })*/
   .then(allProducts => {
-    // Details
-
-    images = allProducts.images;
-
-    fs.writeFile(
-      'products/pageData.js',
-      'var pageData = ' + JSON.stringify(allProducts.details, null, 2) + ';',
-      function(err) {
-        if (err) return console.log(err);
-      }
-    );
-    return allProducts.details;
-  })
-  .then(details => {
-    const poweredBy = [];
-    const ready = [];
-    const service = [];
-    const cities = [];
-
-    const hashes = {
-      powered: [],
-      ready: [],
-      cities: [],
-      service: [],
-      unknown: []
-    };
+    // Remember all feature images for later processing.
+    productDetails = allProducts;
 
     csv()
-      .fromFile(products)
+      .fromFile(productSummaryFile)
       .then(input => {
-        return CSVParser.extractSummaryInfo(input, details);
+        return CSVParser.extractSummaryInfo(input, allProducts.details);
       })
       .then(summaryInfo => {
-        const regex = /([^a-zA-Z0-9À-ÿ])/gi;
-        //console.log(products.hashes)
-        /*
-        summaryInfo.poweredBy.forEach((prod) =>{
-          const hash = Parser.getHash(prod.company,
-              prod.name
-            );
-          console.log(prod.company.replace(regex, '').toLowerCase())
-          console.log(hash)
+        summaryInfo.poweredBy.forEach(prod => {
+          relatedProducts(prod, summaryInfo.hashes, 'powered');
         });
-*/
+        summaryInfo.ready.forEach(prod => {
+          relatedProducts(prod, summaryInfo.hashes, 'ready');
+        });
+        summaryInfo.service.forEach(prod => {
+          relatedProducts(prod, summaryInfo.hashes, 'service');
+        });
+        summaryInfo.cities.forEach(prod => {
+          relatedProducts(prod, summaryInfo.hashes, 'cities');
+        });
+
         return summaryInfo;
       })
       .then(summaryInfo => {
-        // summaryInfo
-
-        fs.writeFile(
-          'powered-by-fiware/pageData.js',
-          'var pageData = ' +
-            JSON.stringify(summaryInfo.poweredBy, null, 2) +
-            ';',
-          function(err) {
-            if (err) return console.log(err);
-          }
-        );
-
-        // Devices
-        fs.writeFile(
-          'ngsi-ready/pageData.js',
-          'var pageData = ' + JSON.stringify(summaryInfo.ready, null, 2) + ';',
-          function(err) {
-            if (err) return console.log(err);
-          }
-        );
-
-        // Services
-
-        fs.writeFile(
-          'services/pageData.js',
-          'var pageData = ' +
-            JSON.stringify(summaryInfo.service, null, 2) +
-            ';',
-          function(err) {
-            if (err) return console.log(err);
-          }
-        );
-
-        // Cities
-
-        fs.writeFile(
-          'cities4cities/pageData.js',
-          'var pageData = ' + JSON.stringify(summaryInfo.cities, null, 2) + ';',
-          function(err) {
-            if (err) return console.log(err);
-          }
-        );
+        writeFile('powered-by-fiware/pageData.js', summaryInfo.poweredBy);
+        writeFile('ngsi-ready/pageData.js', summaryInfo.ready);
+        writeFile('services/pageData.js', summaryInfo.service);
+        writeFile('cities4cities/pageData.js', summaryInfo.cities);
+        writeFile('products/pageData.js', productDetails.details);
       });
   })
-
   /*
   .then(() => {
     let promises = [];
@@ -182,7 +112,7 @@ csv()
       });
     return;
   })
-  */
+*/
   .catch(e => {
     console.log(e);
     return;

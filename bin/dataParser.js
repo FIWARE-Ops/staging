@@ -46,9 +46,9 @@ function getCategory(category) {
   } else if (category === 'Platform') {
     return 'powered';
   } else if (category === 'NGSI Ready Devices') {
-    return 'ngsi';
+    return 'ready';
   } else if (category === 'FIWARE-Ready') {
-    return 'ngsi';
+    return 'ready';
   } else if (category === 'Services') {
     return 'service';
   } else if (category === 'Support Services') {

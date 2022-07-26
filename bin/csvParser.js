@@ -1,4 +1,4 @@
-const Parser = require('./parser');
+const Parser = require('./dataParser');
 const docFields = ['Tech Documentation', 'Doc 2', 'Doc 3', ' Doc 4', 'Doc 5'];
 const mediaFields = ['Media', 'Media 2', 'Media 3', 'Media 4', 'Media 5'];
 
@@ -16,7 +16,7 @@ function extractProductDetails(input) {
   const images = [];
   const details = {
     powered: {},
-    ngsi: {},
+    ready: {},
     city: {},
     service: {},
     unknown: {}
