@@ -81,11 +81,20 @@ csv()
         return summaryInfo;
       })
       .then(summaryInfo => {
-        writeFile('powered-by-fiware/pageData.js', summaryInfo.powered);
-        writeFile('fiware-ready/pageData.js', summaryInfo.ready);
-        writeFile('support-services/pageData.js', summaryInfo.services);
-        writeFile('cities4cities/pageData.js', summaryInfo.cities);
-        writeFile('product-details/pageData.js', productDetails.details);
+        writeFile(
+          'marketplace/powered-by-fiware/pageData.js',
+          summaryInfo.powered
+        );
+        writeFile('marketplace/fiware-ready/pageData.js', summaryInfo.ready);
+        writeFile(
+          'marketplace/support-services/pageData.js',
+          summaryInfo.services
+        );
+        writeFile('marketplace/cities4cities/pageData.js', summaryInfo.cities);
+        writeFile(
+          'marketplace/product-details/pageData.js',
+          productDetails.details
+        );
       });
   })
   /*
