@@ -82,10 +82,10 @@ csv()
       })
       .then(summaryInfo => {
         writeFile('powered-by-fiware/pageData.js', summaryInfo.powered);
-        writeFile('ngsi-ready/pageData.js', summaryInfo.ready);
-        writeFile('services/pageData.js', summaryInfo.services);
+        writeFile('fiware-ready/pageData.js', summaryInfo.ready);
+        writeFile('support-services/pageData.js', summaryInfo.services);
         writeFile('cities4cities/pageData.js', summaryInfo.cities);
-        writeFile('products/pageData.js', productDetails.details);
+        writeFile('product-details/pageData.js', productDetails.details);
       });
   })
   /*
