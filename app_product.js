@@ -148,6 +148,18 @@ function wrapResources(id, title, resources) {
 
 function fillProduct(product) {
   $("h5#category").text(product.category);
+  $('h5#category').on('click', function(e){
+        e.preventDefault();
+        window.history.back();
+  });
+  $('div#back-button').on('click', function(e){
+        e.preventDefault();
+        window.history.back();
+  });
+
+
+
+
   $("h5#organisation-name").text(product.organisationName);
   $("h6#organisation-name2").text(product.organisationName);
   $("h1#product-name").text(product.productName);
