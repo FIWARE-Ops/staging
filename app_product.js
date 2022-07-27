@@ -110,7 +110,7 @@ function addRelated(related) {
     prods.forEach((product , i) => {
       var resource = `<a class="yarpp-thumbnail" rel="norewrite" 
             href="${product.companyLink}" 
-            title="${product.organisationName}">
+            title="${product.excerpt}">
             <div class="yarpp-thumbnail-default" 
              style="min-height: 200px;min-width: 100%; background: url(${product.featuredImage});
                 background-repeat: no-repeat; background-size: contain; background-position: center center;"
