@@ -85,14 +85,19 @@ function addRelated(related) {
     $("#related-links").empty();
 
 
+ // <!img src="${product.featuredImage}" alt="" data-pin-nopin="true">
+           
+
     related.forEach((product) => {
       var resource = `<a class="yarpp-thumbnail" rel="norewrite" 
             href="${product.companyLink}" 
             title="${product.organisationName}">
-            <span class="yarpp-thumbnail-default">
-            <img src="${product.featuredImage}" alt="" data-pin-nopin="true">
-            </span>
-            <span class="yarpp-thumbnail-title">${product.productName}</span>
+            <div class="yarpp-thumbnail-default" 
+             style="min-height: 200px;min-width: 100%; background: url(${product.featuredImage});
+                background-repeat: no-repeat; background-size: contain; background-position: center center;"
+            >
+            </div>
+            <div class="yarpp-thumbnail-title">${product.productName}</div>
             </a>`;
       $("#related-links").append(resource);
     });
