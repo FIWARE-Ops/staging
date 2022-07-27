@@ -77,18 +77,37 @@ function addContacts(id, contact) {
   }
 }
 
+function shuffle(sourceArray) {
+for (var i = 0; i < sourceArray.length - 1; i++) {
+        var j = i + Math.floor(Math.random() * (sourceArray.length - i));
+
+        var temp = sourceArray[j];
+        sourceArray[j] = sourceArray[i];
+        sourceArray[i] = temp;
+    }
+    return sourceArray;
+}
+
 function addRelated(related) {
   if (!related || related.length === 0) {
     $("#related-products").remove();
   } else {
 
+
+    var prods = shuffle(related);
+
     $("#related-links").empty();
+
+
+
+
+
 
 
  // <!img src="${product.featuredImage}" alt="" data-pin-nopin="true">
            
 
-    related.forEach((product) => {
+    prods.forEach((product , i) => {
       var resource = `<a class="yarpp-thumbnail" rel="norewrite" 
             href="${product.companyLink}" 
             title="${product.organisationName}">
@@ -99,7 +118,9 @@ function addRelated(related) {
             </div>
             <div class="yarpp-thumbnail-title">${product.productName}</div>
             </a>`;
-      $("#related-links").append(resource);
+        if (i < 3){
+            $("#related-links").append(resource);
+        }
     });
   }
 }
