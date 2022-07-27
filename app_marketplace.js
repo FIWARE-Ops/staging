@@ -357,7 +357,7 @@ pageData.forEach((gridElementData, i) => {
       </div>
     </div>
     <div class="foot">
-    <a class="details" href="${gridElementData.companyLink}" target="_blank"><span id="ico-info" class="material-icons-outlined">info</span> See details</a>
+    <a class="details" href="${gridElementData.companyLink}"><span id="ico-info" class="material-icons-outlined">info</span> See details</a>
     </div>
   </div>`;
 
