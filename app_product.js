@@ -67,6 +67,37 @@ function addContacts(id, contact){
     }
 }
 
+function addRelated(related){
+    if (!related || related.length === 0){
+        $('#related-products').remove()
+    } else {
+
+        var h3  = '<h3></h3';
+
+        $('#related-links').empty();
+        $('#related-links').append(h3);
+
+        related.forEach((product) =>{
+                    var resource = 
+            `<a class="yarpp-thumbnail" rel="norewrite" 
+            href="${product.companyLink}" 
+            title="${product.organisationName}">
+            <span class="yarpp-thumbnail-default">
+            <img src="${product.featuredImage}" alt="" data-pin-nopin="true">
+            </span>
+            <span class="yarpp-thumbnail-title">${product.productName}</span>
+            </a>`;
+        $('#related-links').append(resource);
+
+        })
+
+
+
+
+
+    }
+}
+
 function wrapResources (id, title, resources ){
   if (resources.length === 0){
      $(id).remove();
@@ -107,6 +138,7 @@ function fillProduct(product){
   wrapParagraphs("#awards", product.awards);
 
   addResources(product.docs, product.videos, product.materials);
+  addRelated(product.related);
 
 
  $("a#product-website").attr('href', product.productWebsite);

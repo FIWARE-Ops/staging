@@ -3,3 +3,5 @@ node_modules
 Untitled.txt
 products.csv
 product-details.csv
+images/
+!images/.gitkeep
