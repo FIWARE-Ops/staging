@@ -14,14 +14,14 @@ function wrapImage(id, width, height, src) {
   if (width) {
     img =
       img +
-      `<span class="et_pb_image_wrap">
+      `<span class="et_pb_image">
                 <img class="wp-image-100287" loading="lazy" 
                 width="${width}" height="${height}" src="${src}"/>
             </span>`;
   } else {
     img =
       img +
-      `<span class="et_pb_image_wrap">
+      `<span class="et_pb_image">
                 <img class="hero-product" src="${src}"/>
             </span>`;
   }
@@ -81,10 +81,9 @@ function addRelated(related) {
   if (!related || related.length === 0) {
     $("#related-products").remove();
   } else {
-    var h3 = "<h3></h3";
 
     $("#related-links").empty();
-    $("#related-links").append(h3);
+
 
     related.forEach((product) => {
       var resource = `<a class="yarpp-thumbnail" rel="norewrite" 
