@@ -29,7 +29,7 @@ function findProduct(hash, category) {
     ? {
         category: product.category,
         featuredImage: product.featuredImage,
-        organisationName: product.organisationName,
+        excerpt: product.excerpt,
         productName: product.productName,
         companyLink: './?category=' + category + '&id=' + hash
       }
