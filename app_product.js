@@ -14,14 +14,14 @@ function wrapImage(id, width, height, src) {
   if (width) {
     img =
       img +
-      `<span class="et_pb_image">
+      `<span class="et_pb_image_wrap">
                 <img class="wp-image-100287" loading="lazy" 
                 width="${width}" height="${height}" src="${src}"/>
             </span>`;
   } else {
     img =
       img +
-      `<span class="et_pb_image">
+      `<span class="et_pb_image_wrap">
                 <img class="hero-product" src="${src}"/>
             </span>`;
   }
