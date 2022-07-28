@@ -201,5 +201,8 @@ defer(function () {
     return decodeURI(results[1]) || 0;
   };
 
-  fillProduct(pageData[$.urlParam("category")][$.urlParam("id")]);
+  if($.urlParam("category") && pageData[$.urlParam("category")] &&
+     $.urlParam("id") && pageData[$.urlParam("category")][$.urlParam("id")]){
+    fillProduct(pageData[$.urlParam("category")][$.urlParam("id")]);
+  }
 });
