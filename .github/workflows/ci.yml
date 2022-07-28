@@ -1,6 +1,6 @@
 name: "Refresh PageData.js"
 on:
-   push:
+  push:
     branches:
       - main
   workflow_dispatch:
@@ -13,8 +13,8 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v3
       with:
-        path: main
-   - name: Checkout
+       path: main
+    - name: Checkout
       uses: actions/checkout@v3
       with:
         path: staging
