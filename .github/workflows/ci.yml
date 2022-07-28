@@ -27,7 +27,7 @@ jobs:
     - name: Commit files
       continue-on-error: true
       run: | 
-        cd gh-pages
+        cd staging
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git commit -m "Update Staging" -a
