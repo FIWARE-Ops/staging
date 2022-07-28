@@ -38,7 +38,7 @@ var pageData = [
     ],
     year: 2020,
     content:
-      'Traxión is an automatic system for inflow and level of occupancy control, based on non-intrusive feedback sensors via IP cameras with integrated video analytics'
+      'Traxión is an automatic system for inflow and level of occupancy control, based on non-intrusive feedback sensors via IP cameras with integrated video analytics.'
   },
   {
     company: 'Breeze Technologies',
