@@ -12,6 +12,25 @@ const refFields = [
 
 const path = require('path');
 
+function extractWebinars(input) {
+  const webinars = [];
+  input.forEach(item => {
+    const webinar = {
+      name: item.name,
+      img: item.img,
+      companyLink: item.companyLink,
+      domain: Parser.splitStrings(item.domain),
+      type: item.type,
+      technology: Parser.splitStrings(item.technology),
+      year: parseInt(item.year),
+      difficulty: parseInt(item.difficulty),
+      content: Parser.markdown(item.content)
+    };
+    webinars.push(webinar);
+  });
+  return webinars;
+}
+
 function extractProductDetails(input) {
   const images = [];
   const details = {
@@ -176,3 +195,4 @@ function extractSummaryInfo(input, details) {
 
 exports.extractProductDetails = extractProductDetails;
 exports.extractSummaryInfo = extractSummaryInfo;
+exports.extractWebinars = extractWebinars;
