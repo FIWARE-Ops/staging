@@ -204,5 +204,8 @@ defer(function () {
   if($.urlParam("category") && pageData[$.urlParam("category")] &&
      $.urlParam("id") && pageData[$.urlParam("category")][$.urlParam("id")]){
     fillProduct(pageData[$.urlParam("category")][$.urlParam("id")]);
+  } else {
+    $($(".et_pb_section_1").children()).empty();
+    $("#related-products").remove();
   }
 });
