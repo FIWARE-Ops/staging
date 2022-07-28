@@ -30,7 +30,9 @@ jobs:
         cd staging
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git commit -m "Update Staging" -a
+        
+        git commit -m "Update Staging" -A
+        git status
     - name: Push changes
       uses: ad-m/github-push-action@master
       continue-on-error: true
