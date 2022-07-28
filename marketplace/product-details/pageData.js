@@ -9811,10 +9811,10 @@ var pageData = {
       twitter: 'https://twitter.com/FIWAREZone',
       productWebsite: 'https://fiware.zone/fiware-zone-english/',
       excerpt:
-        'FIWARE Zone, the 3 start iHub based in the southern region of Spain, Andalucía, works on promoting and spreading FIWARE technology around the region.',
+        'FIWARE Zone, the 3 star iHub based in the southern region of Spain, Andalucía, works on promoting and spreading FIWARE technology around the region.',
       yearOfValidation: 2019,
       description:
-        '<p>FIWARE Zone, the 3 start iHub based on the southern region of Spain, Andalucía, works on promoting and spreading FIWARE technology around the region, delivering several courses and helping companies to develop and integrate solutions to make the ecosystem grow.</p>\n<p>We have a complete set of resources, like an already deployed FIWARE platform ready to use, FIWARE Experts to work together with the companies helping them to understand  technologies and presence on fairs and events to promote regional companies, in order to improve the competitiveness of regional companies.</p>',
+        '<p>FIWARE Zone, the 3 star iHub based on the southern region of Spain, Andalucía, works on promoting and spreading FIWARE technology around the region, delivering several courses and helping companies to develop and integrate solutions to make the ecosystem grow.</p>\n<p>We have a complete set of resources, like an already deployed FIWARE platform ready to use, FIWARE Experts to work together with the companies helping them to understand  technologies and presence on fairs and events to promote regional companies, in order to improve the competitiveness of regional companies.</p>',
       challenge: '',
       references:
         '<p>Developers, entrepreneurs, SMEs, large companies, universities, city councils, public institutions</p>',
@@ -9835,7 +9835,7 @@ var pageData = {
           featuredImage:
             'https://www.fiware.org/wp-content/uploads/2018/03/ThinkstockPhotos-638342536-min.jpg',
           excerpt:
-            'FIWARE Zone, the 3 start iHub based in the southern region of Spain, Andalucía, works on promoting and spreading FIWARE technology around the region.',
+            'FIWARE Zone, the 3 star iHub based in the southern region of Spain, Andalucía, works on promoting and spreading FIWARE technology around the region.',
           productName: 'Consultancy & Integration Services',
           companyLink:
             './?category=services&id=fiwarezone-consultancyintegrationservices'
@@ -9852,10 +9852,10 @@ var pageData = {
       twitter: 'https://twitter.com/FIWAREZone',
       productWebsite: 'http://fiware.zone',
       excerpt:
-        'FIWARE Zone, the 3 start iHub based in the southern region of Spain, Andalucía, works on promoting and spreading FIWARE technology around the region.',
+        'FIWARE Zone, the 3 star iHub based in the southern region of Spain, Andalucía, works on promoting and spreading FIWARE technology around the region.',
       yearOfValidation: 2019,
       description:
-        '<p>FIWARE Zone, the 3 start iHub based on the southern region of Spain, Andalucía, works on promoting and spreading FIWARE technology around the region, delivering several courses and helping companies to develop and integrate solutions to make the ecosystem grow.</p>\n<p>We have a complete set of resources, like an already deployed FIWARE platform ready to use, FIWARE Experts to work together with the companies helping them to understand  technologies and presence on fairs and events to promote regional companies, in order to improve the competitiveness of regional companies.</p>',
+        '<p>FIWARE Zone, the 3 star iHub based on the southern region of Spain, Andalucía, works on promoting and spreading FIWARE technology around the region, delivering several courses and helping companies to develop and integrate solutions to make the ecosystem grow.</p>\n<p>We have a complete set of resources, like an already deployed FIWARE platform ready to use, FIWARE Experts to work together with the companies helping them to understand  technologies and presence on fairs and events to promote regional companies, in order to improve the competitiveness of regional companies.</p>',
       challenge: '',
       references: '<p>Institutions.</p>',
       awards:
@@ -9880,7 +9880,7 @@ var pageData = {
           featuredImage:
             'https://www.fiware.org/wp-content/uploads/2018/03/ThinkstockPhotos-638342536-min.jpg',
           excerpt:
-            'FIWARE Zone, the 3 start iHub based in the southern region of Spain, Andalucía, works on promoting and spreading FIWARE technology around the region.',
+            'FIWARE Zone, the 3 star iHub based in the southern region of Spain, Andalucía, works on promoting and spreading FIWARE technology around the region.',
           productName: 'Coaching & Training Services',
           companyLink:
             './?category=services&id=fiwarezone-coachingtrainingservices'
