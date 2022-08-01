@@ -16,17 +16,18 @@ function downloadImages(image) {
       .then(({ filename }) => {
         try {
           sizeOf(filename, function(err, dimensions) {
+            const height = dimensions ? dimensions.height : '???';
             const width = dimensions ? dimensions.width : '???';
-            resolve(file + '\t' + width);
+            resolve(file + '\t' + height + '\t' + width);
           });
         } catch {
-          resolve(file + '\t0');
+          resolve(file + '\t0\t0');
         }
       })
       .catch(err => {
         console.error(file, err.message);
         //reject(err);
-        resolve(file + '\t0');
+        resolve(file + '\t0\t0');
       });
   });
 }
