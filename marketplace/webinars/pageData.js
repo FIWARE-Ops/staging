@@ -207,7 +207,7 @@ var pageData = [
     companyLink: '',
     domain: ['Developers'],
     type: 'Core Context',
-    technology: ['NGSI-LD', 'Data. Models'],
+    technology: ['NGSI-LD', 'Data Models'],
     year: 2017,
     difficulty: 2,
     content: ''
@@ -240,7 +240,7 @@ var pageData = [
     companyLink: '',
     domain: ['Developers'],
     type: 'Core Context',
-    technology: ['NGSI-LD', 'Data. Models'],
+    technology: ['NGSI-LD', 'Data Models'],
     year: 2017,
     difficulty: 2,
     content: ''
@@ -330,7 +330,7 @@ var pageData = [
     companyLink: '',
     domain: ['Developers'],
     type: 'Core Context',
-    technology: ['NGSI-LD', 'Data. Models'],
+    technology: ['NGSI-LD', 'Data Models'],
     year: 2017,
     difficulty: 2,
     content: ''
@@ -341,7 +341,7 @@ var pageData = [
     companyLink: '',
     domain: ['Developers'],
     type: 'Core Context',
-    technology: ['NGSI-LD', 'Data. Models'],
+    technology: ['NGSI-LD', 'Data Models'],
     year: 2017,
     difficulty: 2,
     content: ''
