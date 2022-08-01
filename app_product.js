@@ -78,36 +78,23 @@ function addContacts(id, contact) {
 }
 
 function shuffle(sourceArray) {
-for (var i = 0; i < sourceArray.length - 1; i++) {
-        var j = i + Math.floor(Math.random() * (sourceArray.length - i));
+  for (var i = 0; i < sourceArray.length - 1; i++) {
+    var j = i + Math.floor(Math.random() * (sourceArray.length - i));
 
-        var temp = sourceArray[j];
-        sourceArray[j] = sourceArray[i];
-        sourceArray[i] = temp;
-    }
-    return sourceArray;
+    var temp = sourceArray[j];
+    sourceArray[j] = sourceArray[i];
+    sourceArray[i] = temp;
+  }
+  return sourceArray;
 }
 
 function addRelated(related) {
   if (!related || related.length === 0) {
     $("#related-products").remove();
   } else {
-
-
     var prods = shuffle(related);
-
     $("#related-links").empty();
-
-
-
-
-
-
-
- // <!img src="${product.featuredImage}" alt="" data-pin-nopin="true">
-           
-
-    prods.forEach((product , i) => {
+    prods.forEach((product, i) => {
       var resource = `<a class="yarpp-thumbnail" rel="norewrite" 
             href="${product.companyLink}" 
             title="${product.excerpt}">
@@ -118,9 +105,9 @@ function addRelated(related) {
             </div>
             <div class="yarpp-thumbnail-title">${product.productName}</div>
             </a>`;
-        if (i < 3){
-            $("#related-links").append(resource);
-        }
+      if (i < 3) {
+        $("#related-links").append(resource);
+      }
     });
   }
 }
@@ -148,18 +135,10 @@ function wrapResources(id, title, resources) {
 
 function fillProduct(product) {
   $("h5#category").text(product.category);
-  $('h5#category').on('click', function(e){
-        e.preventDefault();
-        window.history.back();
+  $("h5#category").on("click", function (e) {
+    e.preventDefault();
+    window.history.back();
   });
-  $('div#back-button').on('click', function(e){
-        e.preventDefault();
-        window.history.back();
-  });
-
-
-
-
   $("h5#organisation-name").text(product.organisationName);
   $("h6#organisation-name2").text(product.organisationName);
   $("h1#product-name").text(product.productName);
@@ -194,15 +173,26 @@ function fillProduct(product) {
 
 defer(function () {
   $.urlParam = function (name) {
-    var results = new RegExp("[?&]" + name + "=([^&#]*)").exec(window.location.href);
+    var results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
+      window.location.href
+    );
     if (results == null) {
       return null;
     }
     return decodeURI(results[1]) || 0;
   };
 
-  if($.urlParam("category") && pageData[$.urlParam("category")] &&
-     $.urlParam("id") && pageData[$.urlParam("category")][$.urlParam("id")]){
+  $("div#back-button").on("click", function (e) {
+    e.preventDefault();
+    window.history.back();
+  });
+
+  if (
+    $.urlParam("category") &&
+    pageData[$.urlParam("category")] &&
+    $.urlParam("id") &&
+    pageData[$.urlParam("category")][$.urlParam("id")]
+  ) {
     fillProduct(pageData[$.urlParam("category")][$.urlParam("id")]);
   } else {
     $($(".et_pb_section_1").children()).empty();

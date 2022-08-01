@@ -48,7 +48,10 @@ defer(function () {
     var setOfValue = new Set(companies);
     companies = [...setOfValue].sort(function (a, b) {
       var regex = /([^a-zA-Z0-9À-ÿ])/gi;
-      return a.replace(regex, "").toLowerCase().localeCompare(b.replace(regex, "").toLowerCase());
+      return a
+        .replace(regex, "")
+        .toLowerCase()
+        .localeCompare(b.replace(regex, "").toLowerCase());
     });
     return companies;
   };
@@ -62,7 +65,10 @@ defer(function () {
 
     let filteredPageData = [];
 
-    if (activeFilters.filterByFiwareMember && activeFilters.filterByFiwareIhub) {
+    if (
+      activeFilters.filterByFiwareMember &&
+      activeFilters.filterByFiwareIhub
+    ) {
       //console.log("both active");
       window.pageData.forEach((el, i) => {
         if (el["fiwareMember"] && el["fiwareIhub"]) {
@@ -103,7 +109,10 @@ defer(function () {
 
     // update Technology Select
     var technologiesTmpl = "<option value='*'>All Technologies</option>";
-    companiesTechnology = createUniqueFilteredList("technology", filteredPageData).forEach((el) => {
+    companiesTechnology = createUniqueFilteredList(
+      "technology",
+      filteredPageData
+    ).forEach((el) => {
       var techClass = createClassFilter(el);
       var selectEl = `<option value="${techClass}">${el}</option>`;
       technologiesTmpl += selectEl;
@@ -160,7 +169,16 @@ defer(function () {
       var companyNameArr = ["*"];
       createUniqueFilteredList("company", filteredPageData).forEach((el) => {
         var companyClass = createClassFilter(el);
-        if (jQuery("." + companyClass + domainCSSFilter + typeCSSFilter + techCSSFilter + itemCSSFilter).size()) {
+        if (
+          jQuery(
+            "." +
+              companyClass +
+              domainCSSFilter +
+              typeCSSFilter +
+              techCSSFilter +
+              itemCSSFilter
+          ).size()
+        ) {
           companyNameArr.push(companyClass);
         }
       });
@@ -179,7 +197,16 @@ defer(function () {
       var typesArr = ["*"];
       createUniqueFilteredList("type", filteredPageData).forEach((el) => {
         var typeClass = createClassFilter(el);
-        if (jQuery("." + typeClass + domainCSSFilter + companyCSSFilter + techCSSFilter + itemCSSFilter).size()) {
+        if (
+          jQuery(
+            "." +
+              typeClass +
+              domainCSSFilter +
+              companyCSSFilter +
+              techCSSFilter +
+              itemCSSFilter
+          ).size()
+        ) {
           typesArr.push(typeClass);
         }
       });
@@ -197,7 +224,16 @@ defer(function () {
       var companyDomainArr = ["*"];
       createUniqueFilteredList("domain", filteredPageData).forEach((el) => {
         var domainClass = createClassFilter(el);
-        if (jQuery("." + domainClass + typeCSSFilter + companyCSSFilter + techCSSFilter + itemCSSFilter).size()) {
+        if (
+          jQuery(
+            "." +
+              domainClass +
+              typeCSSFilter +
+              companyCSSFilter +
+              techCSSFilter +
+              itemCSSFilter
+          ).size()
+        ) {
           companyDomainArr.push(domainClass);
         }
       });
@@ -215,7 +251,16 @@ defer(function () {
       var companiesTechnologyArr = ["*"];
       createUniqueFilteredList("technology", filteredPageData).forEach((el) => {
         var techClass = createClassFilter(el);
-        if (jQuery("." + techClass + typeCSSFilter + companyCSSFilter + domainCSSFilter + itemCSSFilter).size()) {
+        if (
+          jQuery(
+            "." +
+              techClass +
+              typeCSSFilter +
+              companyCSSFilter +
+              domainCSSFilter +
+              itemCSSFilter
+          ).size()
+        ) {
           companiesTechnologyArr.push(techClass);
         }
       });
@@ -316,9 +361,11 @@ defer(function () {
   var appContainer = document.querySelector("#app");
   var appContainerTmpl = "";
   pageData.forEach((gridElementData, i) => {
-    var gridElement = `<div class="grid-item ${createClassFilter(gridElementData.domain)} ${createClassFilter(
-      gridElementData.technology
-    )} ${createClassFilter(gridElementData.company)} ${createClassFilter(gridElementData.type)} ${isFiwareMemberClass(
+    var gridElement = `<div class="grid-item ${createClassFilter(
+      gridElementData.domain
+    )} ${createClassFilter(gridElementData.technology)} ${createClassFilter(
+      gridElementData.company
+    )} ${createClassFilter(gridElementData.type)} ${isFiwareMemberClass(
       gridElementData.fiwareMember
     )} ${isFiwareIhubClass(gridElementData.fiwareIhub)}">
     <div class="gridElementLogo">
@@ -374,7 +421,8 @@ defer(function () {
     });
 
     msnry.on("arrangeComplete", (filteredItems) => {
-      document.getElementById("filteredCompanies").innerText = filteredItems.length;
+      document.getElementById("filteredCompanies").innerText =
+        filteredItems.length;
       if (document.activeElement !== document.getElementById("searchInput")) {
         // $('html, body').animate({ 'scrollTop': $('#searchInput').offset().top + 70}, 200);
         $("html, body").scrollTop($("#searchInput").offset().top + 70);
@@ -486,28 +534,30 @@ defer(function () {
     });
   };
 
-  document.querySelector(".filters-container").addEventListener("change", (e) => {
-    if (e.target.id === "searchInput") {
-      return;
-    }
+  document
+    .querySelector(".filters-container")
+    .addEventListener("change", (e) => {
+      if (e.target.id === "searchInput") {
+        return;
+      }
 
-    selectors = {
-      fType: e.target.id !== "filterType",
-      fDomain: e.target.id !== "filterDomain",
-      fTech: e.target.id !== "filterTechnology",
-      fCompany: e.target.id !== "filterCompany",
-    };
-
-    if (document.getElementById(e.target.id).value === "*") {
       selectors = {
-        fType: true,
-        fDomain: true,
-        fTech: true,
-        fCompany: true,
+        fType: e.target.id !== "filterType",
+        fDomain: e.target.id !== "filterDomain",
+        fTech: e.target.id !== "filterTechnology",
+        fCompany: e.target.id !== "filterCompany",
       };
-    }
-    updateFilterObj(e.target.id, e.target.value);
-  });
+
+      if (document.getElementById(e.target.id).value === "*") {
+        selectors = {
+          fType: true,
+          fDomain: true,
+          fTech: true,
+          fCompany: true,
+        };
+      }
+      updateFilterObj(e.target.id, e.target.value);
+    });
 
   function concatValues(obj) {
     var value = "";
@@ -520,36 +570,40 @@ defer(function () {
   // toggle filter menu only on mobile
   if (window.innerWidth <= 980) {
     let filtersContainer = document.querySelector(".filters-container");
-    document.querySelector("#mobileToggleFilters").addEventListener("click", (ev) => {
-      ev.target.classList.toggle("activeButton");
+    document
+      .querySelector("#mobileToggleFilters")
+      .addEventListener("click", (ev) => {
+        ev.target.classList.toggle("activeButton");
 
-      if (!filtersContainer.classList.contains("active")) {
-        filtersContainer.classList.add("active");
-        document.querySelector("#filter-button-text").innerText = "Hide Filters";
-        filtersContainer.style.height = "auto";
+        if (!filtersContainer.classList.contains("active")) {
+          filtersContainer.classList.add("active");
+          document.querySelector("#filter-button-text").innerText =
+            "Hide Filters";
+          filtersContainer.style.height = "auto";
 
-        let height = filtersContainer.clientHeight + "px";
+          let height = filtersContainer.clientHeight + "px";
 
-        filtersContainer.style.height = "0px";
+          filtersContainer.style.height = "0px";
 
-        setTimeout(function () {
-          filtersContainer.style.height = height;
-        }, 0);
-      } else {
-        filtersContainer.style.height = "0px";
-        document.querySelector("#filter-button-text").innerText = "Show Filters";
+          setTimeout(function () {
+            filtersContainer.style.height = height;
+          }, 0);
+        } else {
+          filtersContainer.style.height = "0px";
+          document.querySelector("#filter-button-text").innerText =
+            "Show Filters";
 
-        filtersContainer.addEventListener(
-          "transitionend",
-          function () {
-            filtersContainer.classList.remove("active");
-          },
-          {
-            once: true,
-          }
-        );
-      }
-    });
+          filtersContainer.addEventListener(
+            "transitionend",
+            function () {
+              filtersContainer.classList.remove("active");
+            },
+            {
+              once: true,
+            }
+          );
+        }
+      });
   }
 
   // Smooth scroll
