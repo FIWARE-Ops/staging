@@ -24,9 +24,10 @@ jobs:
     - name: Create local changes
       run: |
         cp -R main/marketplace staging
+        cp -R main/community staging
     - name: Commit files
       continue-on-error: true
-      run: | 
+      run: |
         cd staging
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
