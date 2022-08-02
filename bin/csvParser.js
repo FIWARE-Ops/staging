@@ -47,7 +47,7 @@ function extractProductDetails(input) {
       item['Organisation Name'],
       item['Product Name']
     );
-
+    
     details[category][hash] = {
       category: item['FIWARE-Ready'],
       organisationName: item['Organisation Name'],

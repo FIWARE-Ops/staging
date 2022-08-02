@@ -37,7 +37,9 @@ function getLinkArray(fields, title, item) {
 }
 
 function markdown(text) {
-  return text !== '' ? converter.makeHtml(text.replaceAll(/•/g, '\n*')) : '';
+  const html =
+    text !== '' ? converter.makeHtml(text.replaceAll(/•/g, '\n*')) : '';
+  return html.replaceAll(/\n/g, ' ');
 }
 
 function getCategory(category) {
