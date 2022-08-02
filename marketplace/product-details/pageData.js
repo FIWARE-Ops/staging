@@ -64,7 +64,7 @@ var pageData = {
       technologies: ['Internet of Things', 'Data Analytics', 'Sensory Systems'],
       domains: ['Content'],
       docs: [],
-      videos: [['Media 1', 'http://bit.do/az360']],
+      videos: [['VR Experience', 'http://bit.do/az360']],
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_AbsoluteZero.svg',
@@ -146,7 +146,12 @@ var pageData = {
         ],
         ["Agricolus' features", 'https://www.youtube.com/watch?v=6_ZOFydADZQ']
       ],
-      materials: [],
+      materials: [
+        [
+          'Press & Media Gallery',
+          'https://www.agricolus.com/en/press-and-media-gallery/'
+        ]
+      ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Agricolus.svg',
       featuredImage:
@@ -194,7 +199,10 @@ var pageData = {
         ]
       ],
       materials: [
-        ['Reference 1', 'https://www.youtube.com/watch?v=nE7l0ZYivbo&t=13s']
+        [
+          'Interview-Marcello Petitta-YouTube',
+          'https://www.youtube.com/watch?v=nE7l0ZYivbo&t=13s'
+        ]
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Amigo.svg',
@@ -229,9 +237,7 @@ var pageData = {
       domains: ['Industry'],
       docs: [['MASAI Content', 'https://github.com/ARI-MR/MASAI']],
       videos: [],
-      materials: [
-        ['Reference 1', 'https://ieeexplore.ieee.org/document/8471981']
-      ],
+      materials: [['Article', 'https://ieeexplore.ieee.org/document/8471981']],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_Masai.png',
       featuredImage:
@@ -240,8 +246,7 @@ var pageData = {
       related: [
         {
           category: 'Powered by FIWARE',
-          featuredImage:
-            'https://atos.net/wp-content/uploads/2021/03/udp-statista-2020.jpg',
+          featuredImage: 'https://im.ge/i/Fj7x4m',
           excerpt:
             'UDP is the open, secure, and interoperable Atos standard data platform that allows the integration and collection of information from data sources, and the standardization and processing of that information to provide aggregated and intelligent views of raw data to facilitate decision-making.',
           productName: 'Urban Data Platform',
@@ -293,29 +298,21 @@ var pageData = {
           'https://atos.net/en/lp/urban-data-platforms/introducing-the-urban-data-platform'
         ]
       ],
-      videos: [['Media 1', 'https://www.youtube.com/watch?v=Ub6-e7kEmD4']],
+      videos: [['YouTube', 'https://www.youtube.com/watch?v=Ub6-e7kEmD4']],
       materials: [
         [
-          'Reference 1',
-          'https://www.decideo.com/Atos-presento-la-solucion-Urban-Data-Platform-para-ciudades-inteligentes_a2350.html'
-        ],
-        [
-          'Reference 2',
+          'Slideshare',
           'https://es.slideshare.net/FI-WARE/fiware-global-summit-audp-the-atos-urban-data-platform'
         ],
         [
-          'Reference 3',
-          'https://itconnect.lat/portal/2019/08/21/urban-data-platform-001/'
-        ],
-        [
-          'Reference 4',
+          'Press Release',
           'https://atos.net/en/2021/press-release_2021_02_09/leader-smart-cities-idc'
-        ]
+        ],
+        ['Urban Data Platform-ITCONNECT', 'https://itconnect.lat/portal/']
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Atos.svg',
-      featuredImage:
-        'https://atos.net/wp-content/uploads/2021/03/udp-statista-2020.jpg',
+      featuredImage: 'https://im.ge/i/Fj7x4m',
       furtherImages: '',
       related: [
         {
@@ -584,7 +581,17 @@ var pageData = {
         ]
       ],
       videos: [],
-      materials: [],
+      materials: [
+        [
+          'Research & Development ',
+          'https://www.rdmag.com/article/2017/09/novel-steering-wheel-tech-uses-ecg-detect-drowsy-drivers'
+        ],
+        ['Cardio ID -DTIB', 'https://btid.iddportugal.pt/listing/cardio-id/'],
+        [
+          'CarioWheel - The Next Big Idea',
+          'https://thenextbigidea.pt/organizacoes/cardiowheel/'
+        ]
+      ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_CardioID.svg',
       featuredImage:
@@ -612,10 +619,10 @@ var pageData = {
       technologies: ['Data Analytics', 'Internet of Things'],
       domains: ['Cities'],
       docs: [],
-      videos: [['Media 1', 'https://vimeo.com/248327069']],
+      videos: [['Urbo on Vimeo', 'https://vimeo.com/248327069']],
       materials: [
         [
-          'Reference 1',
+          'Spatial Analysis',
           'https://geographica.gs/es/casosestudio/urbo-smart-city-telefonica/'
         ]
       ],
@@ -657,8 +664,18 @@ var pageData = {
         'Transport'
       ],
       docs: [],
-      videos: [],
-      materials: [],
+      videos: [
+        [
+          'Ciclogreen-YouTube',
+          'https://www.youtube.com/watch?v=94uwGQcESn0&t=46s'
+        ]
+      ],
+      materials: [
+        [
+          'Ciclogreen on Android',
+          'https://www.android.com/everyone/stories/ciclogreen'
+        ]
+      ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_CicloGreen.svg',
       featuredImage:
@@ -692,27 +709,24 @@ var pageData = {
         ['Data in Dutch', 'https://snuffelfiets.nl/data/'],
         ['Brochure', 'https://civity.nl/en/brochure-sniffer-bike/']
       ],
-      videos: [['Media 1', 'https://snuffelfiets.nl/']],
+      videos: [['Sniffer Bike News in Dutch', 'https://snuffelfiets.nl/']],
       materials: [
         [
-          'Reference 1',
+          'AD News',
           'https://www.ad.nl/auto/snuffelfiets-speurt-naar-schone-routes~abce8ea7/'
         ],
+        ['Binnenlands Bestuur News', 'https://www.binnenlandsbestuur.nl/'],
         [
-          'Reference 2',
-          'https://www.binnenlandsbestuur.nl/ruimte-en-milieu/nieuws/snuffelfiets-gaat-utrechtse-lucht-meten.9656484.lynkx'
-        ],
-        [
-          'Reference 3',
+          'Utrecht News',
           'https://utrecht.nieuws.nl/stadsnieuws/71028/provincie-zamelt-informatie-in-over-fijnstofconcentraties-met-snuffelfietsen/'
         ],
         [
-          'Reference 4',
-          'https://theurbanfuture.com/nl/de-snuffelfiets-van-de-provincie-utrecht/'
+          'The Urban Future',
+          'https://theurbanfuture.com/de-snuffelfiets-van-de-provincie-utrecht/'
         ],
         [
-          'Reference 5',
-          'https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/2019/07/31/Context+Broker+to+empower+Dutch+cyclists+to+choose+healthier+routes'
+          'The CEF Digital Platform',
+          'https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/CEF+Digital+Home'
         ]
       ],
       logo:
@@ -776,11 +790,11 @@ var pageData = {
       videos: [],
       materials: [
         [
-          'Reference 1',
-          'https://www.dinheirovivo.pt/fazedores/correio-atraves-de-um-drone-ctt-em-testes-com-connect-robotics/'
+          'News in Portugese',
+          'https://www.dinheirovivo.pt/fazedores/correio-atraves-de-um-drone-ctt-em-testes-com-connect-robotics-12839667.html'
         ],
         [
-          'Reference 2',
+          'MSN Portugal',
           'http://www.msn.com/pt-pt/financas/noticias/ctt-e-se-o-seu-correio-ca%C3%ADsse-do-c%C3%A9u/ar-BBBgTQY?li=BBoPWjC&ocid=SK2MDHP'
         ]
       ],
@@ -814,14 +828,13 @@ var pageData = {
       docs: [],
       videos: [],
       materials: [
-        ['Reference 1', 'http://www.smartcityexpo.com/outbarriers'],
-        ['Reference 2', 'https://vimeo.com/166189064'],
+        ['Outbarriers-Vimeo', 'https://vimeo.com/166189064'],
         [
-          'Reference 3',
+          'Historias de Luz-Outbarriers',
           'http://www.historiasdeluz.es/historia-del-dia/innovacion/noticias-andalucia-outbarriers-barreras-personas-ciegas'
         ],
         [
-          'Reference 4',
+          'IoT news-Outbarriers',
           'http://estoesiot.es/outbarriers-la-startup-negocio-visible-todos'
         ]
       ],
@@ -866,7 +879,7 @@ var pageData = {
       videos: [],
       materials: [
         [
-          'Reference 1',
+          'Kommune21-News',
           'https://www.kommune21.de/meldung_35791_Basis+f%C3%BCr+die+Stadt+der+Zukunft.html'
         ]
       ],
@@ -964,7 +977,7 @@ var pageData = {
       videos: [],
       materials: [
         [
-          'Reference 1',
+          'Water Savings Trophies',
           'https://www.egm.io/egm-parmi-les-laureats-des-trophees-des-economies-deau-de-la-fnccr'
         ]
       ],
@@ -1032,20 +1045,17 @@ var pageData = {
       docs: [],
       videos: [],
       materials: [
+        ['Reussir-News', 'https://www.reussir.fr/vigne/'],
         [
-          'Reference 1',
-          'http://vigne.reussir.fr/actualites/evineyard-un-logiciel-simple-et-economique:QXXTHU1F.html'
+          'DELO-News',
+          'https://old.delo.si/gospodarstvo/podjetja/ime-dneva-evinograd-s-tehnologijo-v-grozdne-nasade.html'
         ],
-        [
-          'Reference 2',
-          'http://www.delo.si/gospodarstvo/podjetja/ime-dneva-evinograd-s-tehnologijo-v-grozdne-nasade.html'
-        ],
-        ['Reference 3', 'https://www.rtvslo.si/pravaideja/novica/1172']
+        ['RTV SLO-News', 'https://www.rtvslo.si/tv/znanje/prava-ideja']
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_eVineyard.svg',
       featuredImage:
-        'https://www.evineyardapp.com/blog/wp-content/uploads/2021/08/Get-ready-for-grape-harvest-scaled.jpg',
+        'https://i.im.ge/2022/08/01/Ft2coq.eVineyard-Vineyard-management-software-2-.jpg',
       furtherImages: ''
     },
     'engineering-digitalenabler': {
@@ -1164,8 +1174,8 @@ var pageData = {
       technologies: ['Internet of Things', 'Sensory Systems', 'Data Analytics'],
       domains: ['Cities'],
       docs: [],
-      videos: [['Media 1', 'https://vimeo.com/148248664']],
-      materials: [['Reference 1', 'http://www.everimpact.org/news']],
+      videos: [['EverImpact on Vimeo', 'https://vimeo.com/148248664']],
+      materials: [['Everimpact-News', 'https://www.everimpact.com/blog']],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Everimpact.svg',
       featuredImage:
@@ -1257,7 +1267,9 @@ var pageData = {
       ],
       domains: ['Cities', 'Industry', 'Logistics'],
       docs: [],
-      videos: [['Media 1', 'https://youtu.be/P5nwT_gE6Lg']],
+      videos: [
+        ['Intro 2021-YouTube', 'https://www.youtube.com/watch?v=P5nwT_gE6Lg']
+      ],
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_OuranosWS.svg',
@@ -1288,10 +1300,10 @@ var pageData = {
         'FIWOO is an IoT-Editor platform, which allows users to create any entity without the need for computer knowledge. Everything can be created without a single line of code.\n\nAny user can create their panels, connect their devices, and generate smart rules through a simple graphic interface.',
       yearOfValidation: 2018,
       description:
-        '<p>FIWOO is a horizontal, open, modular, scalable, robust, secure, interoperable, and integrating platform based on FIWARE for the management of smart applications and services.\nDeveloped following the guidelines of the UNE 178104:2017 standard.\nIt allows to:\nConnect devices, sensors, and actuators to acquire information in real-time and program actions.\nManage them (register models, configure their parameters, manage access to them, create alerts and event notifications …).\nMake decisions in real-time.\nStore the information generated.\nPerform Predictive Analysis for decision-making.</p>\n<p>Why FIWOO?\nOpen Platform: Based on an open-source software, supported by a big community and endorsed by the EU.\nInteroperable: Following international standards and rules. \nSecurity: Making use of end-to-end encryption.\nScalability: Unlimited, modular architecture based on microservices.\nUser-centered: Focus on the users and their needs in each phase of the design process.\nIndicator catalog: Based on UNE 178202 and UNE-ISO 37120.</p>',
+        '<p><strong>FIWOO</strong> is a horizontal no-code platform based on FIWARE for the management of IoT applications and services.</p>\n<p>For the first time, a platform allows you to coordinate your operational needs (apps or verticals) with your strategic vision (smartboards) by combining real-time data. </p>\n<p>There are IoT verticals for specific needs that become information silos. FIWOO creates, integrates, and groups verticals and use cases into a single smart ecosystem. </p>\n<p>Its benefits include:</p>\n<ul>\n<li>No-code platform: Easy to use UI</li>\n<li>Based on FIWARE: The Open Source standard for Smart Solutions</li>\n<li>Operational needs &amp; Strategic vision: apps, verticals, and use cases</li>\n<li>Horizontal: creates, integrates and groups verticals, and use cases.</li>\n</ul>',
       challenge: '',
       references:
-        '<p>All the cities that want to be a Smart City should join FIWOO. For now, Alcázar de San Juan (Spain), Pontevedra (Spain), and Huelva (Spain) or León (Spain) are part of our network.</p>',
+        '<p>FIWOO continues its expansion in the market with projects in different areas: </p>\n<ul>\n<li>Smart Cities: Alcázar de San Juan, Diputación de Pontevedra &amp; Huelva. </li>\n<li>Universities: University of Jaén &amp; University of Málaga.</li>\n<li>Agri: Monica IoT &amp; AgrarIA</li>\n<li>Smart Port: Digital Port</li>\n<li>Industry: FlexinFood</li>\n</ul>',
       awards: '',
       technologies: [
         'Artificial Intelligence',
@@ -1303,26 +1315,32 @@ var pageData = {
       domains: ['Agriculture', 'Cities', 'Industry', 'Mobility', 'Tourism'],
       docs: [],
       videos: [
-        ['Media 1', 'https://www.youtube.com/watch?v=1NgHbPg5BkE&t=17s'],
-        ['Media 2', 'https://www.youtube.com/watch?v=I4Py1EA86nY&t=210s'],
-        ['Media 3', 'https://www.youtube.com/watch?v=j4Q7ozb33bg&t=49s']
+        [
+          'IoT Editor-YouTube',
+          'https://www.youtube.com/watch?v=1NgHbPg5BkE&t=17s'
+        ],
+        [
+          'Functionalities-YouTube',
+          'https://www.youtube.com/watch?v=I4Py1EA86nY&t=210s'
+        ],
+        ['FIWOO-YouTube', 'https://www.youtube.com/watch?v=j4Q7ozb33bg&t=49s']
       ],
       materials: [
-        ['Reference 1', 'http://www.fiwoo.eu/blog'],
+        ['FIWOO Blog', 'https://www.fiwoo.eu/blog/'],
         [
-          'Reference 2',
+          'ElReferente FIWOO',
           'https://elreferente.es/startups/fiwoo-y-la-universidad-de-malaga-desarrollan-un-sistema-de-gestion-inteligente-del-trafico/'
         ],
         [
-          'Reference 3',
+          'eSMARTCITY',
           'https://www.esmartcity.es/2021/10/08/fiwoo-convertira-alcazar-san-juan-ciudad-inteligente'
         ],
         [
-          'Reference 4',
+          'Woover.',
           'https://woover.es/fiwoo-punto-de-encuentro-entre-emergya-grupo-woover-y-secmotic/'
         ],
         [
-          'Reference 5',
+          'Smart City Cluster',
           'https://smartcitycluster.org/blog/asociados/fiwoo-impulsara-el-turismo-en-la-diputacion-de-pontevedra-con-el-objetivo-de-convertirla-en-destino-turistico-inteligente/'
         ]
       ],
@@ -1362,10 +1380,13 @@ var pageData = {
       ],
       videos: [
         [
-          'Media 1',
-          'https://www.youtube.com/watch?v=6k5Jan1RNeg&feature=youtu.be'
+          'Magenta - SOUL-FI Testimonial',
+          'https://www.youtube.com/watch?v=6k5Jan1RNeg'
         ],
-        ['Media 2', 'https://trafficflowdemo.floud.eu/app/overview.php']
+        [
+          'Traffic Flow Sensors Overview',
+          'https://trafficflowdemo.floud.eu/app/overview.php'
+        ]
       ],
       materials: [],
       logo:
@@ -1394,7 +1415,7 @@ var pageData = {
       technologies: ['Internet of Things', 'Data Analytics'],
       domains: ['Industry'],
       docs: [['Insights', 'https://www.freesense.dk/insights']],
-      videos: [['Media 1', 'http://www.freesense.dk/']],
+      videos: [],
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_FreeSense.svg',
@@ -1423,7 +1444,12 @@ var pageData = {
       technologies: ['Internet of Things', 'Data Analytics'],
       domains: ['Cities', 'Industry'],
       docs: [],
-      videos: [['Media 1', 'https://www.youtube.com/watch?v=eaJP0B0N48c']],
+      videos: [
+        [
+          'Vehicle GPS Tracking & Fuel Management-YouTube',
+          'https://www.youtube.com/watch?v=eaJP0B0N48c'
+        ]
+      ],
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_FueLoyal.svg',
@@ -1464,21 +1490,24 @@ var pageData = {
         'Parks &amp; Gardens'
       ],
       docs: [],
-      videos: [['Media 1', 'http://app.quhoma.com/']],
+      videos: [],
       materials: [
-        ['Reference 1', 'http://tporganics.eu/?s=quhoma'],
-        ['Reference 2', 'https://www.youtube.com/watch?v=BYNb_QXQy1c&t=1811s'],
+        ['TPorganics', 'http://tporganics.eu/?s=quhoma'],
         [
-          'Reference 3',
-          'https://www.youtube.com/watch?v=rKRAkOXN2wo&list=PLwDocBHWTPAODtUE32f3TKfTtcJAwgfoV&index=38'
+          'Quhoma-YouTube',
+          'https://www.youtube.com/watch?v=BYNb_QXQy1c&t=1811s'
         ],
         [
-          'Reference 4',
-          'http://events.naftemporiki.gr/agrotiko/ReportAndConcludingRemarks'
+          'naftemporiki-YouTube',
+          'https://www.youtube.com/watch?v=rKRAkOXN2wo&list=PLwDocBHWTPAODtUE32f3TKfTtcJAwgfoV&index=39'
         ],
         [
-          'Reference 5',
-          'http://www.agrocapital.gr/Category/Proswpa/Article/18210/quhoma--to-sygchrono-ergaleio-tis-agrotikis-paragwgis'
+          'Naftemporiki-Report',
+          'https://events.naftemporiki.gr/agrotiko/ReportAndConcludingRemarks'
+        ],
+        [
+          'Agrocaptial-News',
+          'https://www.agrocapital.gr/Category/Proswpa/Article/18210/quhoma-to-sygchrono-ergaleio-tis-agrotikis-paragwgis'
         ]
       ],
       logo:
@@ -1565,7 +1594,7 @@ var pageData = {
       technologies: ['Gamification', 'Internet of Things'],
       domains: ['Home', 'Health'],
       docs: [],
-      videos: [['Media 1', 'https://byhs.eu/senda/videos/']],
+      videos: [['Video Tutorials', 'https://byhs.eu/senda/videos/']],
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_byHS.svg',
@@ -1620,7 +1649,10 @@ var pageData = {
       ],
       videos: [],
       materials: [
-        ['Reference 1', 'https://ieeexplore.ieee.org/document/8905583/']
+        [
+          'IEEE Xplore- Helix SandBox',
+          'https://ieeexplore.ieee.org/document/8905583'
+        ]
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/raster/logo_Helix.png',
@@ -1722,12 +1754,12 @@ var pageData = {
       ],
       materials: [
         [
-          'Reference 1',
-          'http://www.rtl.fr/actu/conso/hostabee-connecte-les-ruches-pour-sauver-les-abeilles-7789072394'
+          'RTL-News',
+          'https://www.rtl.fr/actu/economie-consommation/hostabee-connecte-les-ruches-pour-sauver-les-abeilles-7789072394'
         ],
         [
-          'Reference 2',
-          'https://www.lesechos.fr/pme-regions/innovateurs/0212039380609-comment-hostabee-connecte-les-ruches-pour-sauver-les-abeilles-2085962.php#g6LzjwvR45H6vl62.99'
+          'Les Echos-News',
+          'https://www.lesechos.fr/2017/05/comment-hostabee-connecte-les-ruches-pour-sauver-les-abeilles-153007#g6LzjwvR45H6vl62.99'
         ]
       ],
       logo:
@@ -1766,36 +1798,32 @@ var pageData = {
         ]
       ],
       videos: [
-        ['Media 1', 'https://vimeo.com/171939721'],
+        ['SmartAppCity Vimeo', 'https://vimeo.com/171939721'],
         [
-          'Media 2',
+          'App-Google Play',
           'https://play.google.com/store/apps/details?id=com.jig.ayuntlogrono&hl=es'
         ],
         [
-          'Media 3',
-          'https://itunes.apple.com/es/app/logro%C3%B1o-es/id562978369?mt=8'
+          'App-AppStore',
+          'https://apps.apple.com/es/app/logro%C3%B1o-es/id562978369'
         ]
       ],
       materials: [
         [
-          'Reference 1',
+          'eSMARTCITY',
           'https://www.esmartcity.es/comunicaciones/smartappcity-app-para-ciudades-inteligentes'
         ],
         [
-          'Reference 2',
-          'http://applicantes.com/2014-smartappcity-servicios-una-aplicacion/'
+          'Applicantes-News',
+          'https://applicantes.com/2014-smartappcity-servicios-una-aplicacion/'
         ],
         [
-          'Reference 3',
-          'https://www.smarttravel.news/2016/05/31/smartappcity-la-app-de-las-ciudades-inteligentes/'
+          'SMART TRAVEL-News',
+          'https://www.smarttravel.news/smartappcity-la-app-de-las-ciudades-inteligentes/'
         ],
         [
-          'Reference 4',
-          'http://smartlivingplat.com/la-aplicacion-smartappcity-sera-presentada-en-el-iii-congreso-de-ciudades-digitales/'
-        ],
-        [
-          'Reference 5',
-          'http://www.larazon.es/sociedad/apps/smartappcity-todos-los-servicios-de-tu-ciudad-en-una-sola-aplicacion-1-JB5470218'
+          'LARAZON-News',
+          'https://www.larazon.es/sociedad/apps/smartappcity-todos-los-servicios-de-tu-ciudad-en-una-sola-aplicacion-1-JB5470218/'
         ]
       ],
       logo:
@@ -1829,24 +1857,22 @@ var pageData = {
       domains: ['AgriFood'],
       docs: [],
       videos: [
-        ['Media 1', 'https://youtu.be/NFLwfrhEQqQ'],
-        ['Media 2', 'https://youtu.be/61W_UHvEl-0']
+        [
+          'Detect and Avoid-YouTube',
+          'https://www.youtube.com/watch?v=NFLwfrhEQqQ'
+        ],
+        ['Spraying Drones', 'https://www.youtube.com/watch?v=61W_UHvEl-0']
       ],
       materials: [
         [
-          'Reference 1',
+          'Start Up Nation  Central',
           'http://blog.startupnationcentral.org/agritech/skyx-agriculture-swarm-drones'
         ],
         [
-          'Reference 2',
-          'https://agfundernews.com/skyx-crop-spraying-drone-raises-seed.html'
+          'Disruptor Daily',
+          'https://www.disruptordaily.com/skyx-solving-agriculture-spraying-24-7-available-highly-accurate/'
         ],
-        ['Reference 3', 'http://www.viab.org/skyx'],
-        [
-          'Reference 4',
-          'https://www.disruptordaily.com/skyx-solving-agriculture-spraying-24-7-available-highly-accurate'
-        ],
-        ['Reference 5', 'https://www.crunchbase.com/organization/skyx']
+        ['Crunchbase', 'https://www.crunchbase.com/organization/lahakx']
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_LahakX.svg',
@@ -1885,23 +1911,23 @@ var pageData = {
       ],
       materials: [
         [
-          'Reference 1',
+          'El Confidencial -News',
           'https://www.elconfidencial.com/ultima-hora-en-vivo/2019-04-11/limmat-predecira-las-averias-de-renfe-en-extremadura-para-evitar-fallos_2149230/'
         ],
         [
-          'Reference 2',
+          'HOY-News',
           'https://www.hoy.es/extremadura/limmat-predecira-averias-20190411222426-nt.html'
         ],
         [
-          'Reference 3',
+          'segoviaudaz.es-News',
           'https://segoviaudaz.es/la-startup-segoviana-limmat-group-entre-las-cuatro-ganadoras-del-trenlab-de-renfe/'
         ],
         [
-          'Reference 4',
+          'Junta de Castilla y Leon-Article',
           'https://empresas.jcyl.es/web/jcyl/Empresas/es/Plantilla100Detalle/1284242792609/_/1284742679924/Comunicacion'
         ],
         [
-          'Reference 5',
+          'El Mundo-News',
           'http://www.diariodevalladolid.es/noticias/innovadores/jefe-mantenimiento-activo-24-horas_98819.html'
         ]
       ],
@@ -1934,7 +1960,9 @@ var pageData = {
       technologies: ['Internet of Things', 'Open Data'],
       domains: ['Cities'],
       docs: [],
-      videos: [['Media 1', 'https://www.youtube.com/watch?v=FNL2d4FakbU']],
+      videos: [
+        ['Smart Cities-YouTube', 'https://www.youtube.com/watch?v=FNL2d4FakbU']
+      ],
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_LineaCiudadana.svg',
@@ -1976,10 +2004,16 @@ var pageData = {
       ],
       videos: [],
       materials: [
-        ['Reference 1', 'https://www.youtube.com/watch?v=qePvlQn399k'],
-        ['Reference 2', 'https://www.youtube.com/watch?v=S4pi8rQUHw4'],
         [
-          'Reference 3',
+          'Orchestra Cities-YouTube',
+          'https://www.youtube.com/watch?v=qePvlQn399k'
+        ],
+        [
+          'Lego Smart City-YouTube',
+          'https://www.youtube.com/watch?v=S4pi8rQUHw4'
+        ],
+        [
+          'News',
           'https://www.martel-innovate.com/news/2018/11/19/awards-and-accolades-for-martel-at-scewc/'
         ]
       ],
@@ -2023,7 +2057,9 @@ var pageData = {
       technologies: ['Data Analytics'],
       domains: ['AgriFood'],
       docs: [],
-      videos: [['Media 1', 'https://youtu.be/I5VP761qi2c']],
+      videos: [
+        ['Promo Video-YouTube', 'https://www.youtube.com/watch?v=I5VP761qi2c']
+      ],
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_Mermix.png',
@@ -2067,23 +2103,23 @@ var pageData = {
       videos: [],
       materials: [
         [
-          'Reference 1',
+          'Equipamento y Servicos-News',
           'https://www.eysmunicipales.es/actualidad/ecosat-la-eficiencia-en-los-servicios-municipales-de-medio-ambiente'
         ],
         [
-          'Reference 2',
+          'Equipamento y Servicos-News 1',
           'https://www.eysmunicipales.es/actualidad/movisat-celebra-25-anos-de-proyectos-sostenibles'
         ],
         [
-          'Reference 3',
+          'Equipamento y Servicos-News 2',
           'https://www.eysmunicipales.es/actualidad/valoriza-confa-en-movisat-para-la-gestin-tecnolgica-de-la-contrata-de-recogida-de-residuos-de-albacete'
         ],
         [
-          'Reference 4',
+          'El Diario Vasco-News',
           'https://www.diariovasco.com/bidasoa/baztan-bortziriak/digitalizacion-optimizar-gestion-residuos-20220325213342-ntvo.html'
         ],
         [
-          'Reference 5',
+          'MOVISAT-News',
           'https://www.movisat.com/noticia/245/la-alcaldesa-de-fuengirola-visita-las-instalaciones-de-los-sensores-volumetricos-en-las-islas-ecologicas-del-municipio'
         ]
       ],
@@ -2173,12 +2209,12 @@ var pageData = {
       docs: [],
       videos: [
         [
-          'Media 1',
-          'https://www.youtube.com/watch?v=GD9ZsmNu48M&feature=youtu.be'
+          'Demo Chatnfly WhatsApp-YouTube',
+          'https://www.youtube.com/watch?v=GD9ZsmNu48M'
         ],
         [
-          'Media 2',
-          'https://www.youtube.com/watch?v=x8JYMHV7a4I&feature=youtu.be'
+          'Demo Chatnfly Hotels WhatsApp-YouTube',
+          'https://www.youtube.com/watch?v=x8JYMHV7a4I'
         ]
       ],
       materials: [],
@@ -2260,14 +2296,10 @@ var pageData = {
         ['City Loop', 'https://muv-app.city/city-loop'],
         ['City Zen', 'https://muv-app.city/city-zen']
       ],
-      videos: [['Media 1', 'https://vimeo.com/283417605']],
+      videos: [['MUV_App on Vimeo', 'https://vimeo.com/283417605']],
       materials: [
         [
-          'Reference 1',
-          'https://h3bconnected.com/mag2-grantees-enter-the-fc2-arena/'
-        ],
-        [
-          'Reference 2',
+          'SoundCloud',
           'https://soundcloud.com/h3b-media/frontiercities2-filippo-severi-muv'
         ]
       ],
@@ -2304,19 +2336,9 @@ var pageData = {
         ]
       ],
       videos: [
-        ['Media 1', 'https://youtu.be/QPDJMuXtb1k'],
-        [
-          'Media 2',
-          'https://play.google.com/store/apps/details?id=com.ray.manager&referrer=utm_source%3Dsite%26utm_medium%3Dproduct'
-        ]
+        ['User Guide-YouTube', 'https://www.youtube.com/watch?v=QPDJMuXtb1k']
       ],
-      materials: [
-        [
-          'Reference 1',
-          'https://www.google.co.il/url?sa=t&rct=j&q=&esrc=s&source=web&cd=8&cad=rja&uact=8&ved=0ahUKEwjSxNi6-YXWAhWDwxQKHajmCOoQFghMMAc&url=http%3A%2F%2Fcc.smartcitiescouncil.com%2Fsystem%2Ftdf%2Fmain%2Fpublic_resources%2FProject%2520Ray.pdf%3Ffile%3D1%26type%3Dnode%26id%3D4529&usg=AFQjCNFRNnXqgykmg-1kM8JBTqX2G_I4OQ'
-        ],
-        ['Reference 2', 'https://www.qualcomm.com/videos/library-my-pocket']
-      ],
+      materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Ray.svg',
       featuredImage:
@@ -2360,7 +2382,7 @@ var pageData = {
           'https://www.destinosinteligentes.es/directorio_DTI/directorio.php?q=baret&ord='
         ],
         [
-          'Reference 2',
+          'Asociacion AMBE-Article',
           'http://asociacionambe.com/baret-la-plataforma-inteligente-especializada-en-el-sector-de-la-bicicleta/'
         ]
       ],
@@ -2497,8 +2519,11 @@ var pageData = {
       domains: ['AgriFood', 'Measurement', 'Waste Management'],
       docs: [],
       videos: [
-        ['Media 1', 'https://www.youtube.com/watch?v=QL6Oa2-swdA&t=13s'],
-        ['Media 2', 'https://www.youtube.com/watch?v=WiU1_vwH7KA']
+        [
+          'Connected Canteens-YouTube',
+          'https://www.youtube.com/watch?v=QL6Oa2-swdA&t=13s'
+        ],
+        ['How it Works-YouTube', 'https://www.youtube.com/watch?v=WiU1_vwH7KA']
       ],
       materials: [],
       logo:
@@ -2564,8 +2589,13 @@ var pageData = {
       technologies: ['Internet of Things', 'Data Analytics'],
       domains: ['Cities'],
       docs: [],
-      videos: [['Media 1', 'https://youtu.be/t8GmPuORGQE']],
-      materials: [['Reference 1', 'http://scuter.co/news']],
+      videos: [
+        [
+          'Scuter Crowdfunding-YouTube',
+          'https://www.youtube.com/watch?v=t8GmPuORGQE'
+        ]
+      ],
+      materials: [['News', 'https://www.scuter.co/news/']],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_Scuter.png',
       featuredImage:
@@ -2594,7 +2624,7 @@ var pageData = {
       technologies: ['Data Analytics'],
       domains: ['Health'],
       docs: [],
-      videos: [['Media 1', 'https://vimeo.com/199648301']],
+      videos: [['Introduction on Vimeo', 'https://vimeo.com/199648301']],
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_SecondNature.png',
@@ -2636,19 +2666,21 @@ var pageData = {
         'Water'
       ],
       docs: [
-        ['Document 1', 'https://sensative.com/technology/yggio-overview/'],
-        ['Document 2', 'https://sensative.com/technology/horizontal-model/'],
-        ['Document 3', 'https://sensative.com/technology/more-than-fiware/']
+        ['Technology Overview', 'https://sensative.com/yggio/yggio-overview/'],
+        [
+          'Horizontal IoT Architecture',
+          'https://sensative.com/yggio/horizontal-model/'
+        ],
+        [
+          ' IoT Interoperability Platform',
+          'https://sensative.com/yggio/more-than-fiware/'
+        ]
       ],
       videos: [],
       materials: [
         [
-          'Reference 1',
-          'http://www.mynewsdesk.com/se/malmo/pressreleases/malmoe-stad-storsatsar-paa-smarta-loesningar-foer-malmoeborna-2860021'
-        ],
-        [
-          'Reference 2',
-          'http://www.mynewsdesk.com/se/malmo/pressreleases/malmoe-stad-storsatsar-paa-smarta-loesningar-foer-malmoeborna-2860021'
+          'Press Release',
+          'https://www.mynewsdesk.com/se/malmo/pressreleases/malmoe-stad-storsatsar-paa-smarta-loesningar-foer-malmoeborna-2860021'
         ],
         ['Reference 3', 'http://futurebylund.se/smarta-offentliga-miljoer'],
         [
@@ -2688,7 +2720,7 @@ var pageData = {
       ],
       domains: ['Content'],
       docs: [],
-      videos: [['Media 1', 'https://vimeo.com/177137679']],
+      videos: [['Vimeo', 'https://vimeo.com/177137679']],
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Sensei.svg',
@@ -2717,7 +2749,9 @@ var pageData = {
       technologies: ['Internet of Things', 'Sensory Systems', 'Data Analytics'],
       domains: ['Industry'],
       docs: [],
-      videos: [['Media 1', 'https://www.youtube.com/watch?v=sgcErItCgRg']],
+      videos: [
+        ['Maturix-YouTube', 'https://www.youtube.com/watch?v=sgcErItCgRg']
+      ],
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Maturix.svg',
@@ -2748,7 +2782,10 @@ var pageData = {
       domains: ['AgriFood'],
       docs: [],
       videos: [
-        ['Media 1', 'https://www.youtube.com/channel/UCvmW-L2u6dL33BCF1cTJkuQ']
+        [
+          'YouTube Channel',
+          'https://www.youtube.com/channel/UCvmW-L2u6dL33BCF1cTJkuQ'
+        ]
       ],
       materials: [
         [
@@ -2872,24 +2909,35 @@ var pageData = {
           'https://www.snap4city.org/drupal/sites/default/files/Snap4City-PlatformOverview-Dec-2020-V5-1.pdf'
         ],
         [
-          'Document 2',
+          'Platform Overview',
           'https://www.snap4city.org/download/video/Snap4City-PlatformOverview.pdf'
         ],
-        [
-          'Document 3',
-          'https://www.snap4city.org/download/video/DPL_SNAP4CITY_2022-v02.pdf'
-        ],
-        ['Document 5', 'https://www.snap4city.org/108']
+        ['Tutorials', 'https://www.snap4city.org/drupal/node/108']
       ],
       videos: [
-        ['Media 1', 'https://www.youtube.com/watch?v=UPpC9gbvEPs&t=1s'],
-        ['Media 2', 'https://www.youtube.com/watch?v=s5NW8V5-yxw'],
-        ['Media 3', 'https://www.youtube.com/watch?v=41ciVrwX9Go'],
-        ['Media 4', 'https://www.youtube.com/watch?v=T9Sp2XrLkuc&t=49s'],
-        ['Media 5', 'https://www.youtube.com/watch?v=X_cirgVwKRw']
+        [
+          'Promo Video-YouTube',
+          'https://www.youtube.com/watch?v=UPpC9gbvEPs&t=1s'
+        ],
+        [
+          'Industry City Integration-YouTube',
+          'https://www.youtube.com/watch?v=s5NW8V5-yxw'
+        ],
+        [
+          ' Smart city & Living Lab-YouTube',
+          'https://www.youtube.com/watch?v=41ciVrwX9Go'
+        ],
+        [
+          'Create IoT Application-YouTube',
+          'https://www.youtube.com/watch?v=T9Sp2XrLkuc&t=49s'
+        ],
+        ['Forging Apps-YouTube', 'https://www.youtube.com/watch?v=X_cirgVwKRw']
       ],
       materials: [
-        ['Reference 1', 'https://www.snap4city.org/drupal/node/78'],
+        [
+          'List of Snap4City Articles',
+          'https://www.snap4city.org/drupal/node/78'
+        ],
         ['Reference 2', 'https://www.snap4city.org/426'],
         [
           'Reference 3',
@@ -2924,20 +2972,20 @@ var pageData = {
           featuredImage:
             'https://www.snap4city.org/download/video/header-snap4city-new-v04-ORIZZONTALE-text-only2.png',
           excerpt:
-            'Snap4City team provides highly valuable and professional training and consultancy services based on our experience in successfully operating in the smart city/industry4.0 integrated solutions market for many years and on FIWARE integration technologies.',
-          productName: 'Coaching & Training Services',
+            'Snap4City team provides high valuable and professional services based on our experience in successfully operating in the smart city/industry4.0 integrated solutions market since many years.',
+          productName: 'Consultancy & Integration Services',
           companyLink:
-            './?category=services&id=snap4city-coachingtrainingservices'
+            './?category=services&id=snap4city-consultancyintegrationservices'
         },
         {
           category: 'Services',
           featuredImage:
             'https://www.snap4city.org/download/video/header-snap4city-new-v04-ORIZZONTALE-text-only2.png',
           excerpt:
-            'Snap4City team provides high valuable and professional services based on our experience in successfully operating in the smart city/industry4.0 integrated solutions market since many years.',
-          productName: 'Consultancy & Integration Services',
+            'Snap4City team provides highly valuable and professional training and consultancy services based on our experience in successfully operating in the smart city/industry4.0 integrated solutions market for many years and on FIWARE integration technologies.',
+          productName: 'Coaching & Training Services',
           companyLink:
-            './?category=services&id=snap4city-consultancyintegrationservices'
+            './?category=services&id=snap4city-coachingtrainingservices'
         }
       ]
     },
@@ -2985,11 +3033,19 @@ var pageData = {
         ['Tutorial', 'https://www.snap4city.org/drupal/node/108']
       ],
       videos: [
-        ['Media 1', 'https://www.youtube.com/watch?v=UPpC9gbvEPs&t=1s'],
-        ['Media 2', 'https://www.youtube.com/watch?v=s5NW8V5-yxw'],
-        ['Media 3', 'https://www.snap4city.org/577'],
-        ['Media 4', 'https://www.youtube.com/watch?v=UPpC9gbvEPs&t=2s'],
-        ['Media 5', 'https://www.youtube.com/watch?v=41ciVrwX9Go']
+        [
+          'Promo Video-YouTube',
+          'https://www.youtube.com/watch?v=UPpC9gbvEPs&t=1s'
+        ],
+        [
+          'Industry City Integration-YouTube',
+          'https://www.youtube.com/watch?v=s5NW8V5-yxw'
+        ],
+        ['Training', 'https://www.snap4city.org/drupal/node/577'],
+        [
+          ' Smart city & Living Lab-YouTube',
+          'https://www.youtube.com/watch?v=41ciVrwX9Go'
+        ]
       ],
       materials: [
         ['Reference 1', 'https://www.snap4city.org/drupal/node/78'],
@@ -3027,20 +3083,20 @@ var pageData = {
           featuredImage:
             'https://www.snap4city.org/download/video/header-snap4city-new-v04-ORIZZONTALE-text-only2.png',
           excerpt:
-            'Snap4City team provides highly valuable and professional training and consultancy services based on our experience in successfully operating in the smart city/industry4.0 integrated solutions market for many years and on FIWARE integration technologies.',
-          productName: 'Coaching & Training Services',
+            'Snap4City team provides high valuable and professional services based on our experience in successfully operating in the smart city/industry4.0 integrated solutions market since many years.',
+          productName: 'Consultancy & Integration Services',
           companyLink:
-            './?category=services&id=snap4city-coachingtrainingservices'
+            './?category=services&id=snap4city-consultancyintegrationservices'
         },
         {
           category: 'Services',
           featuredImage:
             'https://www.snap4city.org/download/video/header-snap4city-new-v04-ORIZZONTALE-text-only2.png',
           excerpt:
-            'Snap4City team provides high valuable and professional services based on our experience in successfully operating in the smart city/industry4.0 integrated solutions market since many years.',
-          productName: 'Consultancy & Integration Services',
+            'Snap4City team provides highly valuable and professional training and consultancy services based on our experience in successfully operating in the smart city/industry4.0 integrated solutions market for many years and on FIWARE integration technologies.',
+          productName: 'Coaching & Training Services',
           companyLink:
-            './?category=services&id=snap4city-consultancyintegrationservices'
+            './?category=services&id=snap4city-coachingtrainingservices'
         }
       ]
     },
@@ -3081,20 +3137,20 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://srmconsulting.es/assets/img/blog/fiware-map-viewer-srmconsulting.jpg',
-          excerpt:
-            'Fiware Map Viewer extends the capabilities of any map to Smart Cities and IoT. Monitoring any device on a map in real-time, such as atmospheric sensors, cameras, traffic lights, and so on',
-          productName: 'FIWARE Map Viewer',
-          companyLink: './?category=ready&id=srmconsulting-fiwaremapviewer'
-        },
-        {
-          category: 'FIWARE-Ready',
-          featuredImage:
             'https://srmconsulting.es/assets/img/blog/mavdrone-srm-consulting.png',
           excerpt:
             'MavDrone device is the first solution compatible with the MAVLink protocol for the Command and Control of drone fleets. MavDrone extends the capabilities of IAS by publishing the telemetry in a public API.',
           productName: 'MavDrone',
           companyLink: './?category=ready&id=srmconsulting-mavdrone'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://srmconsulting.es/assets/img/blog/fiware-map-viewer-srmconsulting.jpg',
+          excerpt:
+            'Fiware Map Viewer extends the capabilities of any map to Smart Cities and IoT. Monitoring any device on a map in real-time, such as atmospheric sensors, cameras, traffic lights, and so on',
+          productName: 'FIWARE Map Viewer',
+          companyLink: './?category=ready&id=srmconsulting-fiwaremapviewer'
         }
       ]
     },
@@ -3121,8 +3177,14 @@ var pageData = {
       domains: ['Cities'],
       docs: [],
       videos: [
-        ['Media 1', 'https://youtu.be/B2Yjbf4OKv4'],
-        ['Media 2', 'https://youtu.be/8CQICa57hCg']
+        [
+          'S1 IoT Platform-YouTube',
+          'https://www.youtube.com/watch?v=B2Yjbf4OKv4'
+        ],
+        [
+          'S1 IoT Platform for Industry-YouTube',
+          'https://www.youtube.com/watch?v=8CQICa57hCg'
+        ]
       ],
       materials: [],
       logo:
@@ -3241,9 +3303,12 @@ var pageData = {
       ],
       docs: [],
       videos: [
-        ['Media 1', 'https://vimeo.com/172887166'],
-        ['Media 2', 'https://www.youtube.com/channel/UCT_epf3tfO6iO8zEnN3dYJA'],
-        ['Media 3', 'https://wise.town/en/request-a-demo/'],
+        ['GCTC’16 -ANDREA CRUCIANNI-Vimeo', 'https://vimeo.com/172887166'],
+        [
+          'YouTube Channel',
+          'https://www.youtube.com/channel/UCT_epf3tfO6iO8zEnN3dYJA'
+        ],
+        ['Request a Demo', 'https://wise.town/en/request-a-demo/'],
         [
           'Press Release',
           'https://wise.town/wp-content/uploads/2021/01/PRESS-RELEASE-WT-2020_.pdf'
@@ -3332,7 +3397,7 @@ var pageData = {
         {
           category: 'Services',
           featuredImage:
-            'https://pbs.twimg.com/profile_banners/127901892/1585813411/1500x500',
+            'https://i.im.ge/2022/08/01/Ft2JhL.Agricolus-Making-Agritech-Sustainable-2-.jpg',
           excerpt:
             'TeamDev has a long and solid experience in using the FIWARE ecosystem and we can offer support to other companies who want to start using these technologies.',
           productName: 'FIWARE Professional Services',
@@ -3400,15 +3465,6 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://www.fiware.org/wp-content/uploads/ImpactStories_SliderWebsite_WiseTown-1080x675.png',
-          excerpt:
-            'WiseTown is a digital system for the city fully scalable, modular, designed to allow full integration with the city administration’s existing systems, third party solutions, IoT applications and external data sources. WiseTown is the engine that collects the city’s data and makes it available.',
-          productName: 'WiseTown',
-          companyLink: './?category=powered&id=teamdev-wisetown'
-        },
-        {
-          category: 'Powered by FIWARE',
-          featuredImage:
             'https://wise.town/wp-content/uploads/2022/01/Geoanalytics_landscape-800x578.jpg',
           excerpt:
             'WiseTown GeoAnalytics is a Decision Support System available to city administrators and public administration professionals. Maps, graphs, infographics and statistics highlight valuable information and provide an extrapolation of complex information useful for more informed urban planning.',
@@ -3455,7 +3511,7 @@ var pageData = {
         {
           category: 'Services',
           featuredImage:
-            'https://pbs.twimg.com/profile_banners/127901892/1585813411/1500x500',
+            'https://i.im.ge/2022/08/01/Ft2JhL.Agricolus-Making-Agritech-Sustainable-2-.jpg',
           excerpt:
             'TeamDev has a long and solid experience in using the FIWARE ecosystem and we can offer support to other companies who want to start using these technologies.',
           productName: 'FIWARE Professional Services',
@@ -3528,15 +3584,6 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://www.fiware.org/wp-content/uploads/ImpactStories_SliderWebsite_WiseTown-1080x675.png',
-          excerpt:
-            'WiseTown is a digital system for the city fully scalable, modular, designed to allow full integration with the city administration’s existing systems, third party solutions, IoT applications and external data sources. WiseTown is the engine that collects the city’s data and makes it available.',
-          productName: 'WiseTown',
-          companyLink: './?category=powered&id=teamdev-wisetown'
-        },
-        {
-          category: 'Powered by FIWARE',
-          featuredImage:
             'https://wise.town/wp-content/uploads/2022/02/Crowd-Planning-Tablet.jpg',
           excerpt:
             'WiseTown Crowd Planning is the platform that allows Public Administration to activate communication with citizens regarding planning objectives, with the ultimate goal of generating active involvement. A tool developed for a participatory urban planning.',
@@ -3583,7 +3630,7 @@ var pageData = {
         {
           category: 'Services',
           featuredImage:
-            'https://pbs.twimg.com/profile_banners/127901892/1585813411/1500x500',
+            'https://i.im.ge/2022/08/01/Ft2JhL.Agricolus-Making-Agritech-Sustainable-2-.jpg',
           excerpt:
             'TeamDev has a long and solid experience in using the FIWARE ecosystem and we can offer support to other companies who want to start using these technologies.',
           productName: 'FIWARE Professional Services',
@@ -3646,15 +3693,6 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://www.fiware.org/wp-content/uploads/ImpactStories_SliderWebsite_WiseTown-1080x675.png',
-          excerpt:
-            'WiseTown is a digital system for the city fully scalable, modular, designed to allow full integration with the city administration’s existing systems, third party solutions, IoT applications and external data sources. WiseTown is the engine that collects the city’s data and makes it available.',
-          productName: 'WiseTown',
-          companyLink: './?category=powered&id=teamdev-wisetown'
-        },
-        {
-          category: 'Powered by FIWARE',
-          featuredImage:
             'https://wise.town/wp-content/uploads/2022/02/Crowd-Planning-Tablet.jpg',
           excerpt:
             'WiseTown Crowd Planning is the platform that allows Public Administration to activate communication with citizens regarding planning objectives, with the ultimate goal of generating active involvement. A tool developed for a participatory urban planning.',
@@ -3701,7 +3739,7 @@ var pageData = {
         {
           category: 'Services',
           featuredImage:
-            'https://pbs.twimg.com/profile_banners/127901892/1585813411/1500x500',
+            'https://i.im.ge/2022/08/01/Ft2JhL.Agricolus-Making-Agritech-Sustainable-2-.jpg',
           excerpt:
             'TeamDev has a long and solid experience in using the FIWARE ecosystem and we can offer support to other companies who want to start using these technologies.',
           productName: 'FIWARE Professional Services',
@@ -3769,15 +3807,6 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://www.fiware.org/wp-content/uploads/ImpactStories_SliderWebsite_WiseTown-1080x675.png',
-          excerpt:
-            'WiseTown is a digital system for the city fully scalable, modular, designed to allow full integration with the city administration’s existing systems, third party solutions, IoT applications and external data sources. WiseTown is the engine that collects the city’s data and makes it available.',
-          productName: 'WiseTown',
-          companyLink: './?category=powered&id=teamdev-wisetown'
-        },
-        {
-          category: 'Powered by FIWARE',
-          featuredImage:
             'https://wise.town/wp-content/uploads/2022/02/Crowd-Planning-Tablet.jpg',
           excerpt:
             'WiseTown Crowd Planning is the platform that allows Public Administration to activate communication with citizens regarding planning objectives, with the ultimate goal of generating active involvement. A tool developed for a participatory urban planning.',
@@ -3824,7 +3853,7 @@ var pageData = {
         {
           category: 'Services',
           featuredImage:
-            'https://pbs.twimg.com/profile_banners/127901892/1585813411/1500x500',
+            'https://i.im.ge/2022/08/01/Ft2JhL.Agricolus-Making-Agritech-Sustainable-2-.jpg',
           excerpt:
             'TeamDev has a long and solid experience in using the FIWARE ecosystem and we can offer support to other companies who want to start using these technologies.',
           productName: 'FIWARE Professional Services',
@@ -3905,15 +3934,6 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://www.fiware.org/wp-content/uploads/ImpactStories_SliderWebsite_WiseTown-1080x675.png',
-          excerpt:
-            'WiseTown is a digital system for the city fully scalable, modular, designed to allow full integration with the city administration’s existing systems, third party solutions, IoT applications and external data sources. WiseTown is the engine that collects the city’s data and makes it available.',
-          productName: 'WiseTown',
-          companyLink: './?category=powered&id=teamdev-wisetown'
-        },
-        {
-          category: 'Powered by FIWARE',
-          featuredImage:
             'https://wise.town/wp-content/uploads/2022/02/Crowd-Planning-Tablet.jpg',
           excerpt:
             'WiseTown Crowd Planning is the platform that allows Public Administration to activate communication with citizens regarding planning objectives, with the ultimate goal of generating active involvement. A tool developed for a participatory urban planning.',
@@ -3960,7 +3980,7 @@ var pageData = {
         {
           category: 'Services',
           featuredImage:
-            'https://pbs.twimg.com/profile_banners/127901892/1585813411/1500x500',
+            'https://i.im.ge/2022/08/01/Ft2JhL.Agricolus-Making-Agritech-Sustainable-2-.jpg',
           excerpt:
             'TeamDev has a long and solid experience in using the FIWARE ecosystem and we can offer support to other companies who want to start using these technologies.',
           productName: 'FIWARE Professional Services',
@@ -4029,15 +4049,6 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://www.fiware.org/wp-content/uploads/ImpactStories_SliderWebsite_WiseTown-1080x675.png',
-          excerpt:
-            'WiseTown is a digital system for the city fully scalable, modular, designed to allow full integration with the city administration’s existing systems, third party solutions, IoT applications and external data sources. WiseTown is the engine that collects the city’s data and makes it available.',
-          productName: 'WiseTown',
-          companyLink: './?category=powered&id=teamdev-wisetown'
-        },
-        {
-          category: 'Powered by FIWARE',
-          featuredImage:
             'https://wise.town/wp-content/uploads/2022/02/Crowd-Planning-Tablet.jpg',
           excerpt:
             'WiseTown Crowd Planning is the platform that allows Public Administration to activate communication with citizens regarding planning objectives, with the ultimate goal of generating active involvement. A tool developed for a participatory urban planning.',
@@ -4083,7 +4094,7 @@ var pageData = {
         {
           category: 'Services',
           featuredImage:
-            'https://pbs.twimg.com/profile_banners/127901892/1585813411/1500x500',
+            'https://i.im.ge/2022/08/01/Ft2JhL.Agricolus-Making-Agritech-Sustainable-2-.jpg',
           excerpt:
             'TeamDev has a long and solid experience in using the FIWARE ecosystem and we can offer support to other companies who want to start using these technologies.',
           productName: 'FIWARE Professional Services',
@@ -4217,7 +4228,7 @@ var pageData = {
       docs: [],
       videos: [
         [
-          'Media 1',
+          'Beeta™-YouTube',
           'https://www.youtube.com/watch?v=Ah9UEQeInHU&list=PLVGp_2AibCUEti4TqNT6l_0qNhx0OLz3x'
         ]
       ],
@@ -4266,9 +4277,8 @@ var pageData = {
         ['OriginTrail GitHub', 'https://github.com/origintrail']
       ],
       videos: [
-        ['Media 1', 'https://www.youtube.com/watch?v=tsxBR-vZc-E'],
-        ['Media 2', 'https://youtube.com/c/origintrail'],
-        ['Media 3', 'https://www.youtube.com/watch?v=qvpYGO0MenE']
+        ['Mlečna cesta-YouTube', 'https://www.youtube.com/watch?v=tsxBR-vZc-E'],
+        ['OriginTrail-YouTube', 'https://www.youtube.com/c/origintrail']
       ],
       materials: [
         ['Reference 1', 'https://www.foodandcity.org/2017-prize-summary/'],
@@ -4319,12 +4329,18 @@ var pageData = {
       docs: [],
       videos: [
         [
-          'Media 1',
-          'https://www.youtube.com/watch?time_continue=6&v=ofNJeg8UBWA'
+          'TSENSO Pitch-YouTube',
+          'https://www.youtube.com/watch?v=ofNJeg8UBWA&t=6s'
         ],
-        ['Media 2', 'https://www.youtube.com/watch?v=khZhr4wUS_c'],
-        ['Media 3', 'https://www.youtube.com/watch?v=TQQlZyCn4fY'],
-        ['Media 4', 'https://www.youtube.com/watch?v=gwdY2pLU2PY']
+        ['Tseno Team-YouTube', 'https://www.youtube.com/watch?v=khZhr4wUS_c'],
+        [
+          'Temperature Monitoring-YouTube',
+          'https://www.youtube.com/watch?v=TQQlZyCn4fY'
+        ],
+        [
+          'Espresso Pitch-YouTube',
+          'https://www.youtube.com/watch?v=gwdY2pLU2PY'
+        ]
       ],
       materials: [
         [
@@ -4378,8 +4394,11 @@ var pageData = {
       domains: ['AgriFood', 'Logistics', 'Industry'],
       docs: [],
       videos: [
-        ['Media 1', 'https://vimeo.com/167707395'],
-        ['Media 2', 'https://www.youtube.com/watch?v=ck6VKKisHb8']
+        ['INSYLO Vimeo', 'https://vimeo.com/167707395'],
+        [
+          'Smart Monitoring of Silos-YouTube',
+          'https://www.youtube.com/watch?v=ck6VKKisHb8'
+        ]
       ],
       materials: [
         [
@@ -4478,9 +4497,11 @@ var pageData = {
         ]
       ],
       videos: [
-        ['Media 1', 'http://urbanplatform.ubiwhere.com/'],
-        ['Media 2', 'https://urbanplatform.city/'],
-        ['Media 3', 'https://www.youtube.com/watch?v=fMkyE_6BSGc&t=1s']
+        ['Urban Platform', 'https://urbanplatform.city/'],
+        [
+          'Urban Platform-YouTube',
+          'https://www.youtube.com/watch?v=fMkyE_6BSGc&t=1s'
+        ]
       ],
       materials: [
         [
@@ -4543,7 +4564,7 @@ var pageData = {
       technologies: ['Open Data', 'Data Analytics', 'Internet of Things'],
       domains: ['Cities'],
       docs: [],
-      videos: [['Media 1', 'http://waste4think.eu/wp-content/uploads/W4T.mp4']],
+      videos: [],
       materials: [['Reference 1', 'http://waste4think.eu/news-events']],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Waste4Think.svg',
@@ -4602,7 +4623,7 @@ var pageData = {
       technologies: ['Internet of Things', 'Open Data', 'Data Analytics'],
       domains: ['Cities'],
       docs: [],
-      videos: [['Media 1', 'https://smartdata.wien/']],
+      videos: [],
       materials: [
         [
           'Reference 1',
@@ -4652,7 +4673,9 @@ var pageData = {
       ],
       domains: ['Cities', 'Industry'],
       docs: [],
-      videos: [['Media 1', 'http://witrac.es/videos/smartcities.mp4']],
+      videos: [
+        ['Smart City Solutions', 'http://witrac.es/videos/smartcities.mp4']
+      ],
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Witrac.svg',
@@ -4770,7 +4793,9 @@ var pageData = {
         'Telecommunication'
       ],
       docs: [],
-      videos: [['Media 1', 'https://www.youtube.com/watch?v=qlYKY5BjqDM']],
+      videos: [
+        ['Traxión ENG-YouTube', 'https://www.youtube.com/watch?v=qlYKY5BjqDM']
+      ],
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Axion.svg',
@@ -4867,7 +4892,9 @@ var pageData = {
       technologies: ['Blockchain'],
       domains: ['Human resources software'],
       docs: [],
-      videos: [['Media 1', 'https://www.youtube.com/watch?v=-Wom6DH969E']],
+      videos: [
+        ['Lapsowork-YouTube', 'https://www.youtube.com/watch?v=-Wom6DH969E']
+      ],
       materials: [],
       logo: 'https://lapsowork.com/wp-content/uploads/2021/06/Lapso-logo_1.png',
       featuredImage:
@@ -7059,19 +7086,19 @@ var pageData = {
       videos: [],
       materials: [
         [
-          'Reference 1',
+          'Equipamiento y Servicios Municipales',
           'https://www.eysmunicipales.es/actualidad/sistemas-de-control-e-informacion-para-la-flota-de-la-ciudad-de-murcia'
         ],
         [
-          'Reference 2',
+          '20minutos-Distromel',
           'https://www.20minutos.es/noticia/3013887/0/empresa-distromel-implanta-soluciones-para-control-servicios-urbanos-oriente-medio/'
         ],
         [
-          'Reference 3',
+          'Door-to-door Waste Collection Control System',
           'https://www.eysmunicipales.es/actualidad/el-nuevo-sistema-de-control-para-la-recogida-de-residuos-puerta-a-puerta-es-una-realidad-para-distromel'
         ],
         [
-          'Reference 4',
+          'siGEUS Web Management Software',
           'https://www.eysmunicipales.es/actualidad/notable-evolucion-en-el-software-de-gestion-sigeus-web'
         ]
       ],
@@ -7117,7 +7144,17 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Miluz.svg',
       featuredImage:
         'https://scontent-frx5-1.xx.fbcdn.net/v/t31.18172-8/14890579_2146889875537141_2362421940285391873_o.png?_nc_cat=100&ccb=1-7&_nc_sid=9267fe&_nc_ohc=aord0wqc-CwAX8ajOSu&tn=8vjiMBCSITGGfB_z&_nc_ht=scontent-frx5-1.xx&oh=00_AT8sjyzCswOxSOZXhwfzlB1psgrqAFQ2_g7p-PguE64-Og&oe=63077F22',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'FIWARE-Ready',
+          featuredImage: 'https://pbs.twimg.com/media/D2wdBsSWwAANedJ.jpg',
+          excerpt:
+            'Industrial mono-phase and three-phase electrical meter and analyzer. With Industrial Meter 4.0 you can get the knowledge how industrial installations process consumption and how to improve the production process.',
+          productName: 'Industrial Meter 4.0',
+          companyLink: './?category=ready&id=eficaesoluciones-industrialmeter40'
+        }
+      ]
     },
     'eficaesoluciones-industrialmeter40': {
       category: 'FIWARE-Ready',
@@ -7176,9 +7213,9 @@ var pageData = {
       ],
       videos: [],
       materials: [
-        ['Reference 1', 'http://www.lotus-india.eu'],
+        ['LOTUS Project', 'https://www.lotus-india.eu/'],
         [
-          'Reference 2',
+          'Overview in French',
           'https://www.egm.io/wp-content/uploads/2021/08/fiche-EGM-EdgeSpot-2-3.pdf'
         ]
       ],
@@ -7241,15 +7278,14 @@ var pageData = {
       docs: [],
       videos: [],
       materials: [
-        ['Reference 1', 'https://www.reussir.fr/vigne/'],
-        ['Reference 2', 'https://www.rtvslo.si/tv/znanje/prava-ideja'],
-        ['Reference 3', 'https://www.finance.si/8842757?cctest&'],
-        ['Reference 4', 'https://www.finance.si/8842757?cctest&']
+        ['Reussir-News', 'https://www.reussir.fr/vigne/'],
+        ['RTV SLO-News', 'https://www.rtvslo.si/tv/znanje/prava-ideja'],
+        ['Finance-News', 'https://www.finance.si/8842757?cctest&']
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_eVineyard.svg',
       featuredImage:
-        'https://www.evineyardapp.com/blog/wp-content/uploads/2021/08/Get-ready-for-grape-harvest-scaled.jpg',
+        'https://i.im.ge/2022/08/01/Ft2coq.eVineyard-Vineyard-management-software-2-.jpg',
       furtherImages: ''
     },
     'engineering-dashram': {
@@ -7351,24 +7387,24 @@ var pageData = {
           'Official documentation',
           'https://knowage-suite.readthedocs.io/en/8.0/'
         ],
-        ['Document 2', 'https://knowage.readthedocs.io/en/latest/']
+        ['KNOWAGE on FIWARE', 'https://knowage.readthedocs.io/en/latest/']
       ],
       videos: [
         [
-          'Media 1',
+          'KNOWAGE DEMO',
           'https://www.knowage-suite.com/site/resources/knowage-demo/'
         ]
       ],
       materials: [
         [
-          'Reference 1',
+          'Success Stories',
           'https://www.knowage-suite.com/site/resources/success-stories/'
         ],
         [
-          'Reference 2',
+          'Developers Italia',
           'https://developers.italia.it/it/software/knowagelabs-knowage-server-94e418'
         ],
-        ['Reference 3', 'https://www.capterra.com/p/209297/Big-Data/']
+        ['Capterra', 'https://www.capterra.com/p/209297/Big-Data/']
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_KnowAge.svg',
@@ -7429,29 +7465,22 @@ var pageData = {
       domains: ['Cities'],
       docs: [],
       videos: [
+        ['Gecor Citizen', 'https://www.youtube.com/watch?v=wZwl_VVkcR8'],
         [
-          'Media 1',
-          'https://www.youtube.com/watch?v=wZwl_VVkcR8&ab_channel=Gecor'
-        ],
-        [
-          'Media 2',
+          'Gecor System',
           'https://www.youtube.com/watch?v=B127YqL1z7U&ab_channel=Gecor'
         ]
       ],
       materials: [
         [
-          'Reference 1',
-          'https://www.revistalugardeencuentro.com/wp/2020/10/21/las-incidencias-en-el-municipio-tramitadas-a-traves-de-gecor-se-resuelven-en-un-plazo-medio-de-48-horas/'
-        ],
-        ['Reference 2', 'https://www.youtube.com/watch?v=m9C5r41RapQ'],
-        [
-          'Reference 3',
-          'https://www.chiclana.es/nc/actualidad/detalle-de-noticia/articulo/el-ayuntamiento-pone-en-marcha-desde-la-proxima-semana-la-nueva-app-mejora-chiclana/'
+          'Revista Lugar de Encuentro',
+          'https://revistalugardeencuentro.com/2020/10/21/las-incidencias-en-el-municipio-tramitadas-a-traves-de-gecor-se-resuelven-en-un-plazo-medio-de-48-horas/'
         ],
         [
-          'Reference 4',
-          'https://www.vidaeconomica.com/2020/12/onda-cero-entrega-los-galardonas-malaga-avanza-2020/'
-        ]
+          'ALCALDE DE MÁLAGA Interview',
+          'https://www.youtube.com/watch?v=m9C5r41RapQ'
+        ],
+        ['‘Málaga Avanza 2020’-Vidaeconomica', 'https://www.vidaeconomica.com/']
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Gecor.svg',
@@ -7489,8 +7518,7 @@ var pageData = {
       docs: [],
       videos: [],
       materials: [
-        ['Reference 1', 'http://www.nighteye.eu/'],
-        ['Reference 2', 'https://www.cielosdealgeciras.es/']
+        ['Astrotourism', 'https://www.cielosdealgeciras.es/astroturismo/']
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_GreenGlobe.svg',
@@ -7597,19 +7625,27 @@ var pageData = {
           'file:///Users/mac/Downloads/English_HOPU_WednesdayFIWARE24062020.pdf'
         ]
       ],
-      videos: [['Media 1', 'https://vimeo.com/hopu/']],
-      materials: [
-        ['Reference 1', 'https://hopu.eu/hopu-le-monde-2020-award/'],
+      videos: [
         [
-          'Reference 2',
+          '[HOPU on Vimeo](Video Tutorials "HOPU on Vimeo")',
+          'https://byhs.eu/senda/videos/'
+        ]
+      ],
+      materials: [
+        [
+          'Urban Innovation Award 2020',
+          'https://hopu.eu/hopu-le-monde-2020-award/'
+        ],
+        [
+          'Impact Stories',
           'https://www.fiware.org/wp-content/uploads/2020/06/FF_ImpactStories_Hopu.pdf'
         ],
         [
-          'Reference 3',
+          'The CEF Digital Platform-News',
           'https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/2020/05/27/Cartagena+is+on+track+to+meet+Europe+20-20-20+targets+with+CEF+Context+Broker'
         ],
         [
-          'Reference 4',
+          'The Forum Network-Article',
           'https://www.oecd-forum.org/posts/clean-green-disrupting-machines-the-role-of-iot-and-ai-to-improve-cities-and-tackle-climate-change-aac4d3ec-18fc-4dee-8b5b-3433afb1726f'
         ]
       ],
@@ -7700,7 +7736,7 @@ var pageData = {
       technologies: ['Internet of Things', 'Open Data', 'Data Analytics'],
       domains: ['Cities'],
       docs: [],
-      videos: [['Media 1', 'https://www.youtube.com/watch?v=ZLxNxsosAaE']],
+      videos: [],
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/raster/logo_KMBLab.png',
@@ -7738,7 +7774,10 @@ var pageData = {
         ]
       ],
       videos: [
-        ['Media 1', 'https://www.youtube.com/watch?v=Ol7PE0-mfhE'],
+        [
+          'Webinar: Cloud Platforms-YouTube',
+          'https://www.youtube.com/watch?v=Ol7PE0-mfhE'
+        ],
         ['The IoT Marketplace', 'https://www.the-iot-marketplace.com/']
       ],
       materials: [],
@@ -7794,8 +7833,14 @@ var pageData = {
       domains: ['Cities'],
       docs: [],
       videos: [
-        ['Media 1', 'https://www.youtube.com/watch?v=EnUdBrLepqI&t=754s'],
-        ['Media 2', 'https://www.youtube.com/watch?v=p7Yrs7k8rYY'],
+        [
+          'Smart Parking Webinar-YouTube',
+          'https://www.youtube.com/watch?v=EnUdBrLepqI&t=754s'
+        ],
+        [
+          'Smart Water Quality Monitoring-YouTube',
+          'https://www.youtube.com/watch?v=p7Yrs7k8rYY'
+        ],
         ['The IoT Marketplace', 'https://www.the-iot-marketplace.com/'],
         ['Succes Stories', 'https://www.libelium.com/success-stories/']
       ],
@@ -7851,7 +7896,12 @@ var pageData = {
       ],
       domains: ['Cities'],
       docs: [],
-      videos: [['Media 1', 'https://www.youtube.com/watch?v=pj00pJMQsw0']],
+      videos: [
+        [
+          'Waspmote Gases Sensor Board-YouTube',
+          'https://www.youtube.com/watch?v=pj00pJMQsw0'
+        ]
+      ],
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Libelium.svg',
@@ -7902,7 +7952,7 @@ var pageData = {
       docs: [],
       videos: [
         [
-          'Media 1',
+          'Success Case',
           'http://www.odins.es/en/solutions/photovoltaic-energy-production/'
         ]
       ],
@@ -7965,13 +8015,13 @@ var pageData = {
       docs: [],
       videos: [
         [
-          'Media 1',
+          'Success Case ',
           'https://www.odins.es/en/solutions/management-irrigation-communities/'
         ]
       ],
       materials: [
         [
-          'Reference 1',
+          'La Verdad-Interview',
           'https://www.laverdad.es/ababol/ciencia/odin-solutions-20171023004031-ntvo.html'
         ]
       ],
@@ -8037,7 +8087,10 @@ var pageData = {
         ]
       ],
       videos: [
-        ['Media 1', 'http://www.odins.es/en/solutions/hydroponic-greenhouses/']
+        [
+          'Success Case',
+          'http://www.odins.es/en/solutions/hydroponic-greenhouses/'
+        ]
       ],
       materials: [],
       logo:
@@ -8102,11 +8155,11 @@ var pageData = {
         ]
       ],
       videos: [
-        ['Media 1', 'http://www.odins.es/en/solutions/crop-monitoring/']
+        ['Success Case', 'http://www.odins.es/en/solutions/crop-monitoring/']
       ],
       materials: [
         [
-          'Reference 1',
+          'La Verdad-Interview',
           'https://www.laverdad.es/ababol/ciencia/odin-solutions-20171023004031-ntvo.html'
         ]
       ],
@@ -8231,7 +8284,9 @@ var pageData = {
       ],
       domains: ['Home'],
       docs: [],
-      videos: [['Media 1', 'https://www.youtube.com/watch?v=lvholT9VZVs']],
+      videos: [
+        ['Promo Video-YouTube', 'https://www.youtube.com/watch?v=lvholT9VZVs']
+      ],
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Secmotic.svg',
@@ -8350,8 +8405,27 @@ var pageData = {
           'https://docs.google.com/document/d/1hR1_86ZCmxFvoL3Srx7Mt-bDyZlMNI8k1Qq3uv2Vyx8/edit?usp=sharing'
         ]
       ],
-      videos: [],
-      materials: [],
+      videos: [
+        [
+          'YouTube Channel',
+          'https://www.youtube.com/channel/UCM_O_iq_8oWVOWyGXAvP0Bw/featured'
+        ],
+        [
+          'Smart Lighting in Middelfart-YouTube',
+          'https://www.youtube.com/watch?v=oxDRm8tkvdchttp://'
+        ],
+        ['How e-Sense Motion works ', 'https://vimeo.com/202912088']
+      ],
+      materials: [
+        [
+          'Press Relase',
+          'https://drive.google.com/file/d/1dEd_zdC9wqZVCKRxMMWGh75PqA06rQRw/view'
+        ],
+        [
+          'Seneco -Viborg References',
+          'https://drive.google.com/file/d/186texgjm0jN35jNpQiYKkOxMBHel6Wvt/view'
+        ]
+      ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_CityGrid.svg',
       featuredImage:
@@ -8383,9 +8457,17 @@ var pageData = {
         [
           'Technologies-Innovation Digitanimal',
           'https://innovation.digitanimal.com/en/technologies/'
+        ],
+        ['Location & Livestock Tracking', 'https://digitanimal.it/'],
+        ['Monitoring & Locating', 'https://digitanimal.pt/'],
+        ['Location & Control', 'https://digitanimal.cat/']
+      ],
+      videos: [
+        [
+          'YouTube Channel',
+          'https://www.youtube.com/channel/UCvmW-L2u6dL33BCF1cTJkuQ'
         ]
       ],
-      videos: [],
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_DigitAnimal.svg',
@@ -8497,14 +8579,13 @@ var pageData = {
         ]
       ],
       videos: [
-        ['Media 1', 'https://www.youtube.com/watch?v=QzJFFupuGpE'],
         [
-          'Media 2',
-          'https://www.youtube.com/watch?v=pPCv0IVPrfA&index=2&list=PLi4Sisy6ieENHQJ8vkAZsRJ1fDPeml-tI'
+          'System Overview-YouTube',
+          'https://www.youtube.com/watch?v=QzJFFupuGpE'
         ],
         [
-          'Media 3',
-          'https://www.youtube.com/watch?v=61luFnwoj1o&index=6&list=PLi4Sisy6ieENHQJ8vkAZsRJ1fDPeml-tI'
+          'Indoor Navigation Demo-YouTube',
+          'https://www.youtube.com/watch?v=pPCv0IVPrfA&list=PLi4Sisy6ieENHQJ8vkAZsRJ1fDPeml-tI&index=3'
         ]
       ],
       materials: [
@@ -8608,7 +8689,7 @@ var pageData = {
       docs: [],
       videos: [
         [
-          'Media 1',
+          'Maps',
           'http://maps.geomotionvideo.com:30014/shared/maps/j7gxvj91wuijXs_'
         ]
       ],
@@ -8714,8 +8795,14 @@ var pageData = {
       domains: ['Cities', 'Logistics', 'Retail'],
       docs: [],
       videos: [
-        ['Media 1', 'https://www.youtube.com/watch?v=dqwfWk2-Dis'],
-        ['Media 2', 'https://www.youtube.com/watch?v=ZrQ9IZ6Wgag']
+        [
+          'Telocate ASSIST-YouTube',
+          'https://docs.google.com/spreadsheets/d/1-_4KrkFWYTuK25vIjKA8qWhgQ1JCIDQwClfjmbYfmb4/edit#gid=1375822885'
+        ],
+        [
+          'KMU Instrument-YouTube',
+          'https://www.youtube.com/watch?v=ZrQ9IZ6Wgag'
+        ]
       ],
       materials: [['Reference 1', 'https://en.telocate.de/press-reactions']],
       logo:
@@ -8749,7 +8836,10 @@ var pageData = {
         ['IoT Engineering ', 'https://tst-sistemas.com/en/tst/']
       ],
       videos: [
-        ['Media 1', 'https://twitter.com/TSTsistemas/status/324128164831969281']
+        [
+          'TSmart Tweet',
+          'https://twitter.com/TSTsistemas/status/324128164831969281'
+        ]
       ],
       materials: [['Reference 1', 'https://tst-sistemas.com/en/']],
       logo:
@@ -8801,14 +8891,17 @@ var pageData = {
       domains: ['Cities'],
       docs: [
         ['Celestia Technology', 'https://celestia-tech.com/'],
-        ['IoT Engineering ', 'https://tst-sistemas.com/en/tst/']
+        ['IoT Engineering ', 'https://tst-sistemas.com/en/tst/'],
+        [
+          'OrganiCity Tech Docs',
+          'https://docs.organicity.eu/tools/tsmart/tsmart/'
+        ]
       ],
       videos: [
         [
-          'Media 1',
+          'Wave Power Buoy Management Tweet',
           'https://twitter.com/TSTsistemas/status/331807558815854593'
-        ],
-        ['Media 2', 'https://docs.organicity.eu/tools/tsmart/tsmart']
+        ]
       ],
       materials: [
         [
@@ -8936,8 +9029,11 @@ var pageData = {
       domains: ['AgriFood', 'Logistics', 'Industry'],
       docs: [],
       videos: [
-        ['Media 1', 'https://vimeo.com/167707395'],
-        ['Media 2', 'https://www.youtube.com/watch?v=ck6VKKisHb8']
+        ['INSYLO Vimeo', 'https://vimeo.com/167707395'],
+        [
+          'Smart Monitoring of Silos-YouTube',
+          'https://www.youtube.com/watch?v=ck6VKKisHb8'
+        ]
       ],
       materials: [
         [
@@ -8996,7 +9092,12 @@ var pageData = {
         'Waste Management'
       ],
       docs: [],
-      videos: [['Media 1', 'https://www.youtube.com/watch?v=wSCHUYrv10Y']],
+      videos: [
+        [
+          'GAB 2019-Track Virtual-YouTube',
+          'https://www.youtube.com/watch?v=wSCHUYrv10Y'
+        ]
+      ],
       materials: [
         ['Reference 1', 'https://www.youtube.com/watch?v=gY7-TcNfD_w'],
         [
@@ -9244,14 +9345,14 @@ var pageData = {
       videos: [],
       materials: [
         [
-          'Reference 1',
+          'FIWARE-Medium',
           'https://fiware-foundation.medium.com/a-powered-by-fiware-platform-facilitating-citizens-urban-experience-de32815f16bb'
         ],
         [
-          'Reference 2',
+          'Success Story',
           'https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/2020/02/06/The+number+one+smart+city+in+the+world%2C+Vienna%2C+uses+CEF+Context+Broker+to+effectively+manage+Big+Data'
         ],
-        ['Reference 3', 'https://www.mdpi.com/1996-1073/14/4/1075']
+        ['Article', 'https://www.mdpi.com/1996-1073/14/4/1075']
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/cities4cities/logo_CityOfVienna.svg',
@@ -9284,8 +9385,26 @@ var pageData = {
       technologies: ['Artificial Intelligence'],
       domains: ['Cities', 'AgriFood'],
       docs: [['Atos Tech Days', 'https://www.youtube.com/watch?v=2MF8ldQsYU8']],
-      videos: [],
-      materials: [],
+      videos: [
+        [
+          'Atos Spain Tweet',
+          'https://twitter.com/AtosES/status/804643300435226625'
+        ],
+        [
+          'Press Release',
+          'https://atos.net/en/2021/press-release_2021_02_09/leader-smart-cities-idc'
+        ]
+      ],
+      materials: [
+        [
+          'Deep Innovation Apps & Services from Open Data',
+          'https://www.esmartcity.es/2016/09/20/desarrollar-apps-y-servicios-innovadores-a-partir-de-datos-abiertos'
+        ],
+        [
+          'Malaga - Digitizing Smart-Fi Cities',
+          'http://www.elmundo.es/economia/2016/09/18/57ded87f46163f201b8b45c1.html'
+        ]
+      ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Atos.svg',
       featuredImage:
@@ -9294,21 +9413,20 @@ var pageData = {
       related: [
         {
           category: 'Powered by FIWARE',
+          featuredImage: 'https://im.ge/i/Fj7x4m',
+          excerpt:
+            'UDP is the open, secure, and interoperable Atos standard data platform that allows the integration and collection of information from data sources, and the standardization and processing of that information to provide aggregated and intelligent views of raw data to facilitate decision-making.',
+          productName: 'Urban Data Platform',
+          companyLink: './?category=powered&id=atos-urbandataplatform'
+        },
+        {
+          category: 'Powered by FIWARE',
           featuredImage:
             'https://booklet.atosresearch.eu/sites/booklet/files/public/styles/medium/public/content-images/media/2020/industry.png?itok=9d9r2H2A',
           excerpt:
             'MASAI is an efficient data integration software for manufacturing systems allowing to collect data from a variety of IoT Devices in the manufacturing domain (Industry 4.0), that is not entirely covered by existing proprietary solutions.',
           productName: 'MASAI',
           companyLink: './?category=powered&id=atos-masai'
-        },
-        {
-          category: 'Powered by FIWARE',
-          featuredImage:
-            'https://atos.net/wp-content/uploads/2021/03/udp-statista-2020.jpg',
-          excerpt:
-            'UDP is the open, secure, and interoperable Atos standard data platform that allows the integration and collection of information from data sources, and the standardization and processing of that information to provide aggregated and intelligent views of raw data to facilitate decision-making.',
-          productName: 'Urban Data Platform',
-          companyLink: './?category=powered&id=atos-urbandataplatform'
         }
       ]
     },
@@ -9343,11 +9461,7 @@ var pageData = {
       docs: [],
       videos: [['Oral 3D Printing', 'https://oral3d.eu/']],
       materials: [
-        ['Reference 1', 'https://ballistix.digital/'],
-        [
-          'Reference 2',
-          'https://www.google.com/url?q=https://www.3dprintingmaterialsconference.com/2018-edition/&sa=D&source=docs&ust=1657109969100637&usg=AOvVaw24ylETG3gyuCMsuq10j3xx'
-        ]
+        ['3D Printing', 'https://3dprintingmaterialsconference.com/']
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_BallistixDigital.svg',
@@ -9449,11 +9563,14 @@ var pageData = {
       ],
       docs: [],
       videos: [
-        ['Media 1', 'https://youtu.be/v83xKW05Up4'],
-        ['Media 2', 'https://youtu.be/slMhPRnBVwM']
+        [
+          'Company Presentation-YouTube',
+          'https://docs.google.com/spreadsheets/d/1-_4KrkFWYTuK25vIjKA8qWhgQ1JCIDQwClfjmbYfmb4/edit#gid=1375822885'
+        ],
+        ['micro-ROS-YouTube', 'https://www.youtube.com/watch?v=slMhPRnBVwM']
       ],
       materials: [
-        ['Reference 1', 'https://www.eprosima.com/index.php/company-all/news']
+        ['eProsima News', 'https://www.eprosima.com/index.php/company-all/news']
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_Eprosima.svg',
@@ -9487,14 +9604,23 @@ var pageData = {
       domains: ['Cities', 'Green Deal', 'Industry', 'Logistics'],
       docs: [],
       videos: [
-        ['Media 1', 'https://youtu.be/WiU1_vwH7KA'],
-        ['Media 2', 'https://youtu.be/25mYRpaBbjQ'],
-        ['Media 3', 'https://youtu.be/19Rh0PXPj3k']
+        [
+          'Connected Canteens-YouTube',
+          'https://www.youtube.com/watch?v=WiU1_vwH7KA'
+        ],
+        [
+          'IOT INSTEAD FRANCK GROSSEL',
+          'https://www.youtube.com/watch?v=25mYRpaBbjQ'
+        ],
+        [
+          'Draft presentation EWRC2020-YouTube',
+          'https://www.youtube.com/watch?v=19Rh0PXPj3k'
+        ]
       ],
       materials: [
         [
-          'Reference 1',
-          'https://www.youtube.com/watch?t=4334&v=ab1vx3wCg-0&feature=youtu.be'
+          'Context Broker & Public Administrations',
+          'https://www.youtube.com/watch?v=ab1vx3wCg-0&t=4334s'
         ]
       ],
       logo:
@@ -9647,8 +9773,18 @@ var pageData = {
         'Oil and Gas'
       ],
       docs: [],
-      videos: [],
-      materials: [['Reference 1', 'https://www.facebook.com/fiwareinnovaihub']],
+      videos: [
+        [
+          'YouTube Channel',
+          'https://www.youtube.com/channel/UC_PaoSrMzgx4h78e4yhMxvg/videos'
+        ],
+        [
+          ' GreenCities Málaga-YouTube',
+          'https://www.youtube.com/watch?v=farf5ZXpptU'
+        ],
+        ['Facebook', 'https://www.facebook.com/fiwareinnovaihub']
+      ],
+      materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_FIWAREInnovaiHub.svg',
       featuredImage:
@@ -9679,16 +9815,14 @@ var pageData = {
       docs: [],
       videos: [
         [
-          'Media 1',
+          'YouTube Channel',
           'https://www.youtube.com/channel/UC_PaoSrMzgx4h78e4yhMxvg/videos'
         ],
-        ['Media 3', 'https://www.linkedin.com/company/fiware-innova-ihub'],
-        ['Media 4', 'https://twitter.com/FiwareInnova'],
-        ['Media 5', 'https://www.facebook.com/fiwareinnovaihub']
+        ['Facebook', 'https://www.facebook.com/fiwareinnovaihub']
       ],
       materials: [
         [
-          'Reference 1',
+          'Contact Data',
           'https://s3platform-legacy.jrc.ec.europa.eu/digital-innovation-hubs-tool/-/dih/19412/view'
         ]
       ],
@@ -9720,11 +9854,36 @@ var pageData = {
       technologies: [],
       domains: ['Cities', 'AgriFood', 'Industry'],
       docs: [],
-      videos: [],
+      videos: [
+        [
+          'Driving Innovation-YouTube',
+          'https://www.youtube.com/watch?v=QUxep_Isc7Y'
+        ],
+        [
+          'Smart Province-YouTube',
+          'https://www.youtube.com/watch?v=VAtvmiHYNG0'
+        ]
+      ],
       materials: [
         [
-          'Reference 1',
+          'The CEF Digital Platform',
           'https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/2019/04/25/Badajoz+Is+More+-+the+journey+to+become+a+smart+province'
+        ],
+        [
+          'Promoting a Technological Standpoint',
+          'https://agencias.abc.es/noticia.asp?noticia=2991942'
+        ],
+        [
+          'EUROPE Press',
+          'https://www.hoy.es/badajoz/diputacion-badajoz-fiware-20181203172928-nt.html'
+        ],
+        [
+          'FIWARE Space in Badajoz',
+          'https://www.youtube.com/watch?v=mjzJ-taZWYk'
+        ],
+        [
+          "Award 'Smart Province'",
+          'https://www.eldiario.es/eldiarioex/Premian-Smart-Provincia-Diputacion-Badajoz_0_846215718.html'
         ]
       ],
       logo:
@@ -9765,23 +9924,32 @@ var pageData = {
       technologies: ['Data Spaces'],
       domains: ['Cities', 'AgriFood', 'Industry'],
       docs: [],
-      videos: [],
+      videos: [
+        [
+          'FIWARE Space-Driving Innovation',
+          'https://www.youtube.com/watch?v=QUxep_Isc7Y'
+        ],
+        [
+          'Smart Province-YouTube',
+          'https://www.youtube.com/watch?v=VAtvmiHYNG0'
+        ]
+      ],
       materials: [
         [
-          'Reference 1',
+          'The CEF Digital Platform-News',
           'https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/2019/04/25/Badajoz+Is+More+-+the+journey+to+become+a+smart+province'
         ],
         [
-          'Reference 2',
+          'eSMARTCITY-News',
           'https://www.esmartcity.es/2019/05/31/ecosistema-de-innovacion-plataforma-provincial-combatir-brecha-digital-despoblacion-badajoz'
         ],
         [
-          'Reference 3',
+          'Hoy-News',
           'https://www.hoy.es/badajoz/diputacion-badajoz-fiware-20181203172928-nt.html'
         ],
-        ['Reference 4', 'https://agencias.abc.es/noticia.asp?noticia=2991942'],
+        ['ABC-News', 'https://agencias.abc.es/noticia.asp?noticia=2991942'],
         [
-          'Reference 5',
+          'elDiario-News',
           'https://www.eldiario.es/eldiarioex/Premian-Smart-Provincia-Diputacion-Badajoz_0_846215718.html'
         ]
       ],
@@ -9822,7 +9990,15 @@ var pageData = {
       technologies: [],
       domains: ['Cities', 'AgriFood', 'Industry', 'Ports', 'Health'],
       docs: [['FIWARE Technology', 'https://fiware.zone/tecnologia-fiware/']],
-      videos: [],
+      videos: [
+        ['FIWARE Zone-YouTube', 'https://www.youtube.com/watch?v=AaR7tavUpcI'],
+        [
+          ' GreenCities Málaga-YouTube',
+          'https://www.youtube.com/watch?v=farf5ZXpptU'
+        ],
+        ['GreenCities Forum-YouTube', 'https://youtu.be/pTNMxBkiOz0'],
+        ['Andalucía Digital Week-YouTube', 'https://youtu.be/KaOlNT799CE']
+      ],
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_FIWAREZone.svg',
@@ -9867,7 +10043,15 @@ var pageData = {
       ],
       domains: ['Cities', 'AgriFood', 'Industry', 'Ports', 'Health'],
       docs: [['FIWARE Technology', 'https://fiware.zone/tecnologia-fiware/']],
-      videos: [],
+      videos: [
+        ['FIWARE Zone-YouTube', 'https://www.youtube.com/watch?v=AaR7tavUpcI'],
+        [
+          ' GreenCities Málaga-YouTube',
+          'https://www.youtube.com/watch?v=farf5ZXpptU'
+        ],
+        ['GreenCities Forum-YouTube', 'https://youtu.be/pTNMxBkiOz0'],
+        ['Andalucía Digital Week-YouTube', 'https://youtu.be/KaOlNT799CE']
+      ],
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_FIWAREZone.svg',
@@ -9946,19 +10130,33 @@ var pageData = {
         'Home'
       ],
       docs: [],
-      videos: [],
+      videos: [
+        [
+          'Hotel Automation Management',
+          'https://bitbucket.org/byhsdev/hotel-automation-management/src/master/'
+        ],
+        ['Open Alerts', 'https://bitbucket.org/byhsdev/open-alerts']
+      ],
       materials: [
         [
-          'Reference 2',
+          'Smart Digital Services',
+          'https://www.fiware.org/2016/03/08/iot-fiware-along-the-revolution-of-smart-digital-services/'
+        ],
+        [
+          '‘Anybody can have a Smart Home’',
           'https://www.fiware.org/2014/02/26/anybody-could-have-a-smart-home-by-antonio-sanchez-open-alerts/'
         ],
         [
-          'Reference 4',
-          'https://www.geriatricarea.com/2016/06/03/senda-un-dispositivo-de-teleasistencia-geolocalizable-para-mayores/'
+          'Telefonica-Think Big',
+          'https://blogthinkbig.com/author/antonio-sanchez'
         ],
         [
-          'Reference 5',
+          'Geriatricarea-Senda',
           'https://www.elreferente.es/innovadores/senda-facilita-cuidado-mayores-personas-diversidad-funcional-29848'
+        ],
+        [
+          'ElReferente-Senda',
+          'https://elreferente.es/innovadores/senda-es-un-servicio-disenado-para-el-cuidado-de-las-personas-mayores-a-traves-de-su-propia-red-de-familiares-y-cuidadores/'
         ]
       ],
       logo:
@@ -10100,28 +10298,31 @@ var pageData = {
         ['QuantumLeap', 'https://quantumleap.readthedocs.io/en/latest/']
       ],
       videos: [
-        ['Media 1', 'https://www.orchestracities.com/'],
-        ['Media 2', 'https://www.storywine.eu/']
+        [
+          'Brochure',
+          'https://www.orchestracities.com/wp-content/uploads/sites/36/2020/01/oc_brochure_v0.2_singlepages_low.pdf'
+        ],
+        ['Story Wine', 'https://www.storywine.eu/']
       ],
       materials: [
         [
-          'Reference 1',
+          'FIWARE-Article',
           'https://www.fiware.org/news/powered-by-fiware-platform-orchestra-cities-goes-uptown/'
         ],
         [
-          'Reference 2',
+          'News 1',
           'https://www.martel-innovate.com/news/2022/03/25/digital-data-sovereignty/'
         ],
         [
-          'Reference 3',
+          'News 2',
           'https://www.martel-innovate.com/news/2021/12/01/building-smart-communities-how-martels-orchestra-cities-supports-switzerlands-largest-community/'
         ],
         [
-          'Reference 4',
+          'News 3',
           'https://www.martel-innovate.com/fiware/2018/10/04/martel-cto-is-a-fiware-evangelist/'
         ],
         [
-          'Reference 5',
+          'News 4',
           'https://www.martel-innovate.com/news/2018/11/19/awards-and-accolades-for-martel-at-scewc/'
         ]
       ],
@@ -10277,7 +10478,9 @@ var pageData = {
           'https://bosonit.com/en/category/technology/'
         ]
       ],
-      videos: [['Media 1', 'https://www.youtube.com/watch?v=1EKV1wpz4iU&t=3s']],
+      videos: [
+        ['Tutorial-YouTube', 'https://www.youtube.com/watch?v=1EKV1wpz4iU&t=3s']
+      ],
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_NaevaTec.svg',
@@ -10381,12 +10584,50 @@ var pageData = {
           'https://www.snap4city.org/download/video/Snap4City-PlatformOverview.pdf'
         ],
         [
-          'Document 2',
-          'https://www.snap4city.org/download/video/DPL_SNAP4CITY_2022-v02.pdf'
+          'Industry',
+          'https://www.snap4city.org/download/video/DPL_SNAP4INDUSTRY_2022-v03.pdf'
+        ],
+        [
+          'List of Snap4City Articles',
+          'https://www.snap4city.org/drupal/node/78'
         ]
       ],
-      videos: [],
-      materials: [],
+      videos: [
+        [
+          'Promo Video-YouTube',
+          'https://www.youtube.com/watch?v=UPpC9gbvEPs&t=1s'
+        ],
+        [
+          'Industry City Integration-YouTube',
+          'https://www.youtube.com/watch?v=s5NW8V5-yxw'
+        ],
+        [
+          ' IOT App & Data Analytic Tutorial',
+          'https://www.youtube.com/watch?v=SBIoZpYU73E&t=28s'
+        ],
+        [
+          'Dashboard for Smart City IoT Tutorial',
+          'https://www.youtube.com/watch?v=DFCizDVTTlE&t=18s'
+        ]
+      ],
+      materials: [
+        [
+          'List of Snap4City Articles',
+          'https://www.snap4city.org/drupal/node/78'
+        ],
+        [
+          'References of Snap4City & Km4City',
+          'https://www.snap4city.org/drupal/node/426'
+        ],
+        [
+          'Snap4City -EOSC Marketplace',
+          'https://marketplace.eosc-portal.eu/services/snap4city'
+        ],
+        [
+          'Tutorial ',
+          'https://www.codemotion.com/magazine/backend/tutorial-connecting-a-raspberry-pi-to-the-snap4city-network/'
+        ]
+      ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_Snap4City.svg',
       featuredImage:
@@ -10396,20 +10637,20 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://www.km4city.org/img-new/snap4city-logo-02-km4city.jpg',
-          excerpt:
-            'Scalable Smart aNalytic APplication Builder for Sentient Cities, the platform proving flexible a method and solution for rapid implementation of smart city applications exploiting heterogeneous data and enabling services for stakeholders by IOT/IOE, data analytics and big data technologies.',
-          productName: 'Km4City',
-          companyLink: './?category=powered&id=snap4city-km4city'
-        },
-        {
-          category: 'Powered by FIWARE',
-          featuredImage:
             'https://www.snap4city.org/download/video/header-snap4city-new-v04-ORIZZONTALE-text-only2.png',
           excerpt:
             'Scalable Smart aNalytic APplication Builder for Sentient Cities, the platform proving flexible a method and solution to quickly create a large range of smart city applications exploiting heterogeneous data and enabling services for stakeholders by IOT/IOE, data analytics and big data technologies.',
           productName: 'Snap4City',
           companyLink: './?category=powered&id=snap4city-snap4city'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.km4city.org/img-new/snap4city-logo-02-km4city.jpg',
+          excerpt:
+            'Scalable Smart aNalytic APplication Builder for Sentient Cities, the platform proving flexible a method and solution for rapid implementation of smart city applications exploiting heterogeneous data and enabling services for stakeholders by IOT/IOE, data analytics and big data technologies.',
+          productName: 'Km4City',
+          companyLink: './?category=powered&id=snap4city-km4city'
         },
         {
           category: 'Services',
@@ -10465,20 +10706,20 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://www.km4city.org/img-new/snap4city-logo-02-km4city.jpg',
-          excerpt:
-            'Scalable Smart aNalytic APplication Builder for Sentient Cities, the platform proving flexible a method and solution for rapid implementation of smart city applications exploiting heterogeneous data and enabling services for stakeholders by IOT/IOE, data analytics and big data technologies.',
-          productName: 'Km4City',
-          companyLink: './?category=powered&id=snap4city-km4city'
-        },
-        {
-          category: 'Powered by FIWARE',
-          featuredImage:
             'https://www.snap4city.org/download/video/header-snap4city-new-v04-ORIZZONTALE-text-only2.png',
           excerpt:
             'Scalable Smart aNalytic APplication Builder for Sentient Cities, the platform proving flexible a method and solution to quickly create a large range of smart city applications exploiting heterogeneous data and enabling services for stakeholders by IOT/IOE, data analytics and big data technologies.',
           productName: 'Snap4City',
           companyLink: './?category=powered&id=snap4city-snap4city'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.km4city.org/img-new/snap4city-logo-02-km4city.jpg',
+          excerpt:
+            'Scalable Smart aNalytic APplication Builder for Sentient Cities, the platform proving flexible a method and solution for rapid implementation of smart city applications exploiting heterogeneous data and enabling services for stakeholders by IOT/IOE, data analytics and big data technologies.',
+          productName: 'Km4City',
+          companyLink: './?category=powered&id=snap4city-km4city'
         },
         {
           category: 'Services',
@@ -10581,7 +10822,10 @@ var pageData = {
       ],
       docs: [['Technology', 'https://www.teamdev.it/en/']],
       videos: [
-        ['Media 1', 'https://www.youtube.com/channel/UCq2du3L6tXHgs8GCrW7CZhA']
+        [
+          'YouTube Channel',
+          'https://www.youtube.com/channel/UCq2du3L6tXHgs8GCrW7CZhA'
+        ]
       ],
       materials: [
         ['Reference 1', 'https://www.fiware.org/tag/teamdev/'],
@@ -10593,18 +10837,9 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_TeamDev.svg',
       featuredImage:
-        'https://pbs.twimg.com/profile_banners/127901892/1585813411/1500x500',
+        'https://i.im.ge/2022/08/01/Ft2JhL.Agricolus-Making-Agritech-Sustainable-2-.jpg',
       furtherImages: '',
       related: [
-        {
-          category: 'Powered by FIWARE',
-          featuredImage:
-            'https://www.fiware.org/wp-content/uploads/ImpactStories_SliderWebsite_WiseTown-1080x675.png',
-          excerpt:
-            'WiseTown is a digital system for the city fully scalable, modular, designed to allow full integration with the city administration’s existing systems, third party solutions, IoT applications and external data sources. WiseTown is the engine that collects the city’s data and makes it available.',
-          productName: 'WiseTown',
-          companyLink: './?category=powered&id=teamdev-wisetown'
-        },
         {
           category: 'Powered by FIWARE',
           featuredImage:
@@ -10720,19 +10955,19 @@ var pageData = {
       related: [
         {
           category: 'Powered by FIWARE',
-          featuredImage: 'https://www.ubiwhere.com/files/images/70D-0416.jpg',
-          excerpt:
-            'Smartlamppost is a modular concept of a lamppost with bleeding edge technology, allowing municipalities to future-proof their smart city and Mobile Network Operators to cost-effectively deploy their 5G solution.',
-          productName: 'Smartlamppost',
-          companyLink: './?category=powered&id=ubiwhere-smartlamppost'
-        },
-        {
-          category: 'Powered by FIWARE',
           featuredImage: 'https://urbanplatform.city/img/map_city.png',
           excerpt:
             'Our Urban Platform allows data collection from multiple domains and provides city managers and decision-makers with a holistic view of their cities, presenting cross-domain data in a unified way.',
           productName: 'Urban Platform',
           companyLink: './?category=powered&id=ubiwhere-urbanplatform'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage: 'https://www.ubiwhere.com/files/images/70D-0416.jpg',
+          excerpt:
+            'Smartlamppost is a modular concept of a lamppost with bleeding edge technology, allowing municipalities to future-proof their smart city and Mobile Network Operators to cost-effectively deploy their 5G solution.',
+          productName: 'Smartlamppost',
+          companyLink: './?category=powered&id=ubiwhere-smartlamppost'
         }
       ]
     }
