@@ -610,6 +610,6 @@ var pageData = [
     technology: [],
     year: 2022,
     difficulty: 2,
-    content: '<p>Spain, France,Uruguay</p>'
+    content: '<p>Spain, France and Uruguay</p>'
   }
 ];
