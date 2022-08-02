@@ -4,8 +4,8 @@ var pageData = [
     name: '[ui!] UrbanPulse',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_UrbanInstitute.svg',
-    fiwareMember: 'TRUE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: true,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=powered&id=uiurbansoftware-uiurbanpulse',
     domain: [
@@ -32,8 +32,8 @@ var pageData = [
     name: '[ui!] UrbanPulse',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_UrbanInstitute.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=powered&id=uiurbansoftware-uiurbanpulse',
     domain: [
@@ -60,8 +60,8 @@ var pageData = [
     name: 'Thor',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_AbsoluteZero.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=absolutezero-thor',
     domain: ['Content'],
     type: 'Solution',
@@ -75,8 +75,8 @@ var pageData = [
     name: 'Save-a-Space',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_save-a-space.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=powered&id=accelogresslimited-saveaspace',
     domain: ['Cities', 'Mobility', 'Sustainability', 'Transport'],
@@ -89,15 +89,15 @@ var pageData = [
     ],
     year: null,
     content:
-      'This cloud-based solution intelligently monitors and automates management of EV chargers and parking spaces on a per space / per user basis improving utilisation. \n\nEnd-users reserve their space in advance via an easy-to-use app with integrated payments, significantly reducing parking hassle.'
+      'This cloud-based solution intelligently monitors and automates management of EV chargers and parking spaces on a per space / per user basis improving utilisation. \r\n\r\nEnd-users reserve their space in advance via an easy-to-use app with integrated payments, significantly reducing parking hassle.'
   },
   {
     company: 'Agricolus',
     name: 'Agricolus',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Agricolus.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=agricolus-agricolus',
     domain: ['Agriculture', 'AgriFood', 'Green Deal', 'Sustainability'],
     type: 'Solution',
@@ -117,8 +117,8 @@ var pageData = [
     name: 'Index Design and Analysis',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Amigo.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=powered&id=amigo-indexdesignandanalysis',
     domain: ['Cities'],
@@ -133,8 +133,8 @@ var pageData = [
     name: 'Urban Data Platform',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Atos.svg',
-    fiwareMember: 'TRUE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: true,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=powered&id=atos-urbandataplatform',
     domain: ['Air Quality', 'Agriculture', 'Cities', 'Energy', 'Mobility'],
@@ -155,8 +155,8 @@ var pageData = [
     name: 'MASAI',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_Masai.png',
-    fiwareMember: 'TRUE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: true,
+    fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=atos-masai',
     domain: ['Industry'],
     type: 'Solution',
@@ -174,8 +174,8 @@ var pageData = [
     name: 'Bettair',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Bettair.svg',
-    fiwareMember: 'TRUE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: true,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=powered&id=bettaircities-bettair',
     domain: ['Air Quality', 'Cities'],
@@ -195,8 +195,8 @@ var pageData = [
     name: 'Bookingabus.com',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_BookingABus.png',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=powered&id=bookingabus-bookingabuscom',
     domain: ['Cities'],
@@ -211,8 +211,8 @@ var pageData = [
     name: 'Elliot Cloud',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Bosonit.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=bosonit-elliotcloud',
     domain: ['AgriFood', 'Cities', 'Industry'],
     type: 'Solution',
@@ -226,8 +226,8 @@ var pageData = [
     name: 'Breeze Environmental Intelligence Cloud',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_BreezeTechnologies.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=powered&id=breezetechnologies-breezeenvironmentalintelligencecloud',
     domain: ['Cities'],
@@ -242,8 +242,8 @@ var pageData = [
     name: 'Environmental Intelligence Suite',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_BreezeTechnologies.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=powered&id=breezetechnologies-environmentalintelligencesuite',
     domain: [
@@ -270,8 +270,8 @@ var pageData = [
     name: 'CardioWheel',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_CardioID.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=cardioid-cardiowheel',
     domain: ['Health'],
     type: 'Solution',
@@ -285,8 +285,8 @@ var pageData = [
     name: 'Urbo',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Carto.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=carto-urbo',
     domain: ['Cities'],
     type: 'Solution',
@@ -300,8 +300,8 @@ var pageData = [
     name: 'Ciclogreen',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_CicloGreen.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=powered&id=ciclogreenmovewin-ciclogreen',
     domain: ['Cities', 'Green Deal', 'Mobility', 'Sustainability', 'Transport'],
@@ -321,8 +321,8 @@ var pageData = [
     name: 'Sniffer Bike',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_SnifferBike.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=civity-snifferbike',
     domain: ['Cities'],
     type: 'Solution',
@@ -336,8 +336,8 @@ var pageData = [
     name: 'Stop-buy',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_CommuniThings.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=powered&id=communithings-stopbuy',
     domain: ['Cities'],
@@ -352,8 +352,8 @@ var pageData = [
     name: 'Drone 2 Me',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_ConnectRobotics.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=powered&id=connectrobotics-drone2me',
     domain: ['Cities', 'Logistics', 'Industry', 'Retail'],
@@ -368,8 +368,8 @@ var pageData = [
     name: 'Outbarriers',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_OutBarriers.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=powered&id=digitalilusion-outbarriers',
     domain: ['Cities'],
@@ -384,8 +384,8 @@ var pageData = [
     name: 'Open Urban Data Platform',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_DKSR.svg',
-    fiwareMember: 'TRUE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: true,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=powered&id=dksr-openurbandataplatform',
     domain: ['Smart Cities'],
@@ -400,8 +400,8 @@ var pageData = [
     name: 'Carpool parking',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_EGM.svg',
-    fiwareMember: 'TRUE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: true,
+    fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=egm-carpoolparking',
     domain: ['Automotive', 'Cities', 'Measurement', 'Mobility', 'Transport'],
     type: 'Solution',
@@ -419,8 +419,8 @@ var pageData = [
     name: 'Connected canteens',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_EGM.svg',
-    fiwareMember: 'TRUE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: true,
+    fiwareIhub: false,
     companyLink: 'https://www.youtube.com/watch?v=WiU1_vwH7KA',
     domain: ['AgriFood', 'Measurement', 'Waste Management'],
     type: 'Solution',
@@ -434,8 +434,8 @@ var pageData = [
     name: 'Smart irrigation',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_EGM.svg',
-    fiwareMember: 'TRUE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: true,
+    fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=egm-smartirrigation',
     domain: ['Agriculture', 'Cities', 'Measurement', 'Water', 'Weather'],
     type: 'Solution',
@@ -449,8 +449,8 @@ var pageData = [
     name: 'eVineyard',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_eVineyard.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink: 'http://www.evineyardapp.com',
     domain: ['Agriculture', 'AgriFood'],
     type: 'Solution',
@@ -470,8 +470,8 @@ var pageData = [
     name: 'Digital Enabler',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_DigitalEnabler.svg',
-    fiwareMember: 'TRUE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: true,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=powered&id=engineering-digitalenabler',
     domain: ['Cities'],
@@ -486,8 +486,8 @@ var pageData = [
     name: 'CuraVesta',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Engineering.svg',
-    fiwareMember: 'TRUE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: true,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=powered&id=engineeringdss-curavesta',
     domain: ['Cities', 'Health'],
@@ -502,8 +502,8 @@ var pageData = [
     name: 'Everimpact',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Everimpact.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=powered&id=everimpact-everimpact',
     domain: ['Cities'],
@@ -518,8 +518,8 @@ var pageData = [
     name: 'Farm Dog',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_FarmDog.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=powered&id=farmdogtechnologies-farmdog',
     domain: ['AgriFood'],
@@ -527,15 +527,15 @@ var pageData = [
     technology: ['Internet of Things', 'Data Analytics'],
     year: null,
     content:
-      'Farm Dog: Keeping agricultural fields healthy from pest and disease.\nWith Farm Dog, growers transition from a completely offline decision-making process to a digital one'
+      'Farm Dog: Keeping agricultural fields healthy from pest and disease.\r\nWith Farm Dog, growers transition from a completely offline decision-making process to a digital one'
   },
   {
     company: 'Fashion Cloud',
     name: 'Fashion Cloud',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_FashionCloud.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=powered&id=fashioncloud-fashioncloud',
     domain: ['Retail'],
@@ -550,8 +550,8 @@ var pageData = [
     name: 'ouranos-ws',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_OuranosWS.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'TRUE',
+    fiwareMember: false,
+    fiwareIhub: true,
     companyLink:
       '../product-details/?category=powered&id=faubourgnumérique-ouranosws',
     domain: ['Cities', 'Industry', 'Logistics'],
@@ -571,8 +571,8 @@ var pageData = [
     name: 'FIWOO',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_FIWOO.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=fiwoo-fiwoo',
     domain: ['Agriculture', 'Cities', 'Industry', 'Mobility', 'Tourism'],
     type: 'Platform',
@@ -585,15 +585,15 @@ var pageData = [
     ],
     year: null,
     content:
-      'FIWOO is an IoT-Editor platform, which allows users to create any entity without the need for computer knowledge. Everything can be created without a single line of code.\n\nAny user can create their panels, connect their devices, and generate smart rules through a simple graphic interface.'
+      'FIWOO is an IoT-Editor platform, which allows users to create any entity without the need for computer knowledge. Everything can be created without a single line of code.\r\n\r\nAny user can create their panels, connect their devices, and generate smart rules through a simple graphic interface.'
   },
   {
     company: 'Floud',
     name: 'Floud',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Floud.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=floud-floud',
     domain: ['Cities', 'Retail'],
     type: 'Solution',
@@ -607,8 +607,8 @@ var pageData = [
     name: 'Freesense',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_FreeSense.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=freesense-freesense',
     domain: ['Industry'],
     type: 'Solution',
@@ -622,8 +622,8 @@ var pageData = [
     name: 'Fueloyal',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_FueLoyal.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=fueloyal-fueloyal',
     domain: ['Cities', 'Industry'],
     type: 'Solution',
@@ -637,8 +637,8 @@ var pageData = [
     name: 'QUHOMA',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_FutureIntelligence.svg',
-    fiwareMember: 'TRUE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: true,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=powered&id=futureintelligence-quhoma',
     domain: [
@@ -665,8 +665,8 @@ var pageData = [
     name: 'greenApes',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_GreenApes.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=greenapes-greenapes',
     domain: ['Cities'],
     type: 'Solution',
@@ -680,8 +680,8 @@ var pageData = [
     name: 'GymCraft',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_GymCraft.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=gymcraft-gymcraft',
     domain: ['Home', 'Health'],
     type: 'Solution',
@@ -695,8 +695,8 @@ var pageData = [
     name: 'Senda Care',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_byHS.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=powered&id=hearingsoftware-sendacare',
     domain: ['Home', 'Health'],
@@ -711,8 +711,8 @@ var pageData = [
     name: 'Helix',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/raster/logo_Helix.png',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=helix-helix',
     domain: [
       'Cities',
@@ -735,8 +735,8 @@ var pageData = [
     name: 'Low Emission Zones',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Hopu.svg',
-    fiwareMember: 'TRUE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: true,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=powered&id=hopu-lowemissionzones',
     domain: ['Air Quality', 'Mobility', 'Sustainability'],
@@ -757,8 +757,8 @@ var pageData = [
     name: 'B-keep',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Hostabee.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=hostabee-bkeep',
     domain: ['Agriculture', 'AgriFood', 'Education', 'Measurement'],
     type: 'Solution',
@@ -772,8 +772,8 @@ var pageData = [
     name: 'SmartAppCity',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Jig.svg',
-    fiwareMember: 'TRUE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: true,
+    fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=jig-smartappcity',
     domain: ['Cities'],
     type: 'Solution',
@@ -787,8 +787,8 @@ var pageData = [
     name: 'LahakX',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_LahakX.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink: 'https://www.lahakx.com/',
     domain: ['AgriFood'],
     type: 'Solution',
@@ -802,8 +802,8 @@ var pageData = [
     name: 'IMAS+',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_Imas%2B.png',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=limmatgroup-imas',
     domain: ['Cities', 'Industry', 'Ports'],
     type: 'Solution',
@@ -817,8 +817,8 @@ var pageData = [
     name: 'Línea Ciudadana',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_LineaCiudadana.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=powered&id=líneaciudadana-líneaciudadana',
     domain: ['Cities'],
@@ -833,8 +833,8 @@ var pageData = [
     name: 'Orchestra Cities',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_OrchestraCities.svg',
-    fiwareMember: 'TRUE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: true,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=powered&id=martelinnovate-orchestracities',
     domain: ['Air Quality', 'Cities', 'Energy', 'Lighting', 'Mobility'],
@@ -855,8 +855,8 @@ var pageData = [
     name: 'Mermix',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_Mermix.png',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=mermix-mermix',
     domain: ['AgriFood'],
     type: 'Solution',
@@ -870,8 +870,8 @@ var pageData = [
     name: 'EcoSAT',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Movisat.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=movisat-ecosat',
     domain: [
       'Cities',
@@ -896,8 +896,8 @@ var pageData = [
     name: 'Cloud City Operations Center',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_NEC.svg',
-    fiwareMember: 'TRUE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: true,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=powered&id=nec-cloudcityoperationscenter',
     domain: ['Smart Cities'],
@@ -912,8 +912,8 @@ var pageData = [
     name: 'Cloud City Operations Center',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_NEC.svg',
-    fiwareMember: 'TRUE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: true,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=powered&id=nec-cloudcityoperationscenter',
     domain: ['Cities', 'Industry', 'Ports'],
@@ -928,8 +928,8 @@ var pageData = [
     name: 'Flink Node',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Netzlink.svg',
-    fiwareMember: 'TRUE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: true,
+    fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=netzlink-flinknode',
     domain: ['Smart Industry'],
     type: 'Platform',
@@ -942,8 +942,8 @@ var pageData = [
     name: 'nixi1',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_nixi1.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=nixi1-nixi1',
     domain: ['Cities'],
     type: 'Solution',
@@ -957,8 +957,8 @@ var pageData = [
     name: 'OpenMove',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_OpenMove.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=openmove-openmove',
     domain: ['Mobility', 'Transport'],
     type: 'Platform',
@@ -970,30 +970,30 @@ var pageData = [
     ],
     year: null,
     content:
-      'OpenMove is a software platform for smart mobility that features transport ticketing, on-demand transport in real-time, intermodal journey planning and MaaS (Mobility-as-a-Service) integration.\n\nThe company is active in EU + USA + Middle East and serves 10M+ yearly passengers / 50M€+ tickets sold.'
+      'OpenMove is a software platform for smart mobility that features transport ticketing, on-demand transport in real-time, intermodal journey planning and MaaS (Mobility-as-a-Service) integration.\r\n\r\nThe company is active in EU + USA + Middle East and serves 10M+ yearly passengers / 50M€+ tickets sold.'
   },
   {
     company: 'phoops',
     name: 'MUV-App',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Phoops.svg',
-    fiwareMember: 'TRUE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: true,
+    fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=phoops-muvapp',
     domain: ['Air Quality', 'Automotive', 'Logistics', 'Mobility', 'Transport'],
     type: 'Solution',
     technology: ['Mobility and Location', 'Open Data', 'Software as a Service'],
     year: null,
     content:
-      'MUV-APP is the platform that turns the complex and huge urban mobility system into a safe, sustainable and user-friendly system.\n\nMUV-APP enables Mobility as a service for the public administration, to provide innovative tools for the management of the entire urban mobility system.'
+      'MUV-APP is the platform that turns the complex and huge urban mobility system into a safe, sustainable and user-friendly system.\r\n\r\nMUV-APP enables Mobility as a service for the public administration, to provide innovative tools for the management of the entire urban mobility system.'
   },
   {
     company: 'Project Ray',
     name: 'RAY',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Ray.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=projectray-ray',
     domain: ['Cities', 'Health'],
     type: 'Solution',
@@ -1007,8 +1007,8 @@ var pageData = [
     name: 'BARET',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_PurpleBlob.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=purpleblob-baret',
     domain: ['Smart Cities'],
     type: 'Solution',
@@ -1022,8 +1022,8 @@ var pageData = [
     name: 'SARA',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_PurpleBlob.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=purpleblob-sara',
     domain: [
       'Cities',
@@ -1050,8 +1050,8 @@ var pageData = [
     name: 'Pycno',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Pycno.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=pycno-pycno',
     domain: ['AgriFood'],
     type: 'Solution',
@@ -1065,8 +1065,8 @@ var pageData = [
     name: 'Smart Marina Platform',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_SaMMY.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=powered&id=sammy-smartmarinaplatform',
     domain: ['Cities', 'Mobility', 'Tourism', 'Transport'],
@@ -1087,8 +1087,8 @@ var pageData = [
     name: 'Scuter',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_Scuter.png',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=scuter-scuter',
     domain: ['Cities'],
     type: 'Solution',
@@ -1102,8 +1102,8 @@ var pageData = [
     name: 'OurPath',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_SecondNature.png',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=secondnature-ourpath',
     domain: ['Health'],
     type: 'Solution',
@@ -1117,8 +1117,8 @@ var pageData = [
     name: 'Yggio Platform',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Yggio.svg',
-    fiwareMember: 'TRUE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: true,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=powered&id=sensative-yggioplatform',
     domain: [
@@ -1145,8 +1145,8 @@ var pageData = [
     name: 'Sensei',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Sensei.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=sensei-sensei',
     domain: ['Content'],
     type: 'Solution',
@@ -1164,8 +1164,8 @@ var pageData = [
     name: 'Maturix',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Maturix.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=powered&id=sensohivetechnologiesaps-maturix',
     domain: ['Industry'],
@@ -1180,8 +1180,8 @@ var pageData = [
     name: 'Digitanimal',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_DigitAnimal.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=powered&id=sensowave-digitanimal',
     domain: ['AgriFood'],
@@ -1196,8 +1196,8 @@ var pageData = [
     name: 'VISTRA',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Sentio.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=sentio-vistra',
     domain: ['Industry'],
     type: 'Solution',
@@ -1211,8 +1211,8 @@ var pageData = [
     name: 'Sirus City Store',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Sirus.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=powered&id=sirusnv-siruscitystore',
     domain: ['Cities', 'Green Deal', 'Mobility', 'Water', 'Weather'],
@@ -1233,8 +1233,8 @@ var pageData = [
     name: 'Snap4City',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Snap4City.svg',
-    fiwareMember: 'TRUE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: true,
+    fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=snap4city-snap4city',
     domain: ['Air Quality', 'Cities', 'Industry', 'Mobility', 'Tourism'],
     type: 'Platform',
@@ -1254,8 +1254,8 @@ var pageData = [
     name: 'Km4City',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Snap4City.svg',
-    fiwareMember: 'TRUE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: true,
+    fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=snap4city-km4city',
     domain: ['Air Quality', 'Cities', 'Industry', 'Mobility', 'Tourism'],
     type: 'Solution',
@@ -1275,8 +1275,8 @@ var pageData = [
     name: 'Capacity Control System',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_SRM.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=powered&id=srmconsulting-capacitycontrolsystem',
     domain: ['Cities', 'AgriFood', 'Logistics', 'Industry', 'Health'],
@@ -1295,8 +1295,8 @@ var pageData = [
     name: 'SmartOrchestra',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_StoneOne.svg',
-    fiwareMember: 'TRUE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: true,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=powered&id=stoneone-smartorchestra',
     domain: ['Cities'],
@@ -1311,8 +1311,8 @@ var pageData = [
     name: 'Stratio Automotive',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Stratio.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=powered&id=stratio-stratioautomotive',
     domain: ['Cities'],
@@ -1327,8 +1327,8 @@ var pageData = [
     name: 'RezGuru',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_RezGuru.png',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=tablegrabber-rezguru',
     domain: ['Cities', 'Retail'],
     type: 'Solution',
@@ -1342,8 +1342,8 @@ var pageData = [
     name: 'WiseTown',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_WiseTown.svg',
-    fiwareMember: 'TRUE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: true,
+    fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=teamdev-wisetown',
     domain: [
       'Cities',
@@ -1370,8 +1370,8 @@ var pageData = [
     name: 'WiseTown Crowd Planning',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_WiseTown.svg',
-    fiwareMember: 'TRUE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: true,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=powered&id=teamdev-wisetowncrowdplanning',
     domain: [
@@ -1398,8 +1398,8 @@ var pageData = [
     name: 'WiseTown Geoanalytics',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_WiseTown.svg',
-    fiwareMember: 'TRUE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: true,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=powered&id=teamdev-wisetowngeoanalytics',
     domain: [
@@ -1427,8 +1427,8 @@ var pageData = [
     name: 'WiseTown Issue Manager',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_WiseTown.svg',
-    fiwareMember: 'TRUE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: true,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=powered&id=teamdev-wisetownissuemanager',
     domain: ['Cities', 'Government', 'Mobility', 'Utilities', 'Oil and Gas'],
@@ -1449,8 +1449,8 @@ var pageData = [
     name: 'WiseTown Open Data Manager',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_WiseTown.svg',
-    fiwareMember: 'TRUE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: true,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=powered&id=teamdev-wisetownopendatamanager',
     domain: [
@@ -1478,8 +1478,8 @@ var pageData = [
     name: 'WiseTown Situation Room',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_WiseTown.svg',
-    fiwareMember: 'TRUE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: true,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=powered&id=teamdev-wisetownsituationroom',
     domain: [
@@ -1507,8 +1507,8 @@ var pageData = [
     name: 'WiseTown Thematic Dashboard',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_WiseTown.svg',
-    fiwareMember: 'TRUE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: true,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=powered&id=teamdev-wisetownthematicdashboard',
     domain: [
@@ -1536,8 +1536,8 @@ var pageData = [
     name: 'Thinking Cities',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Telefonica.svg',
-    fiwareMember: 'TRUE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: true,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=powered&id=telefónica-thinkingcities',
     domain: ['Agriculture', 'Cities', 'Government', 'Industry', 'Tourism'],
@@ -1558,8 +1558,8 @@ var pageData = [
     name: 'Telenet Tinx',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Telenet.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=powered&id=telenetgroup-telenettinx',
     domain: ['Cities'],
@@ -1567,15 +1567,15 @@ var pageData = [
     technology: ['Internet of Things', 'Open Data', 'Data Analytics'],
     year: null,
     content:
-      'Telenet Tinx is a device and data management platform for smart cities.\nIt relies on the Microsoft Azure Services to provide the capability of connecting any IoT Devices at a large scale and managing huge incoming amounts of data with the required guarantee of reliability and availability for cities'
+      'Telenet Tinx is a device and data management platform for smart cities.\r\nIt relies on the Microsoft Azure Services to provide the capability of connecting any IoT Devices at a large scale and managing huge incoming amounts of data with the required guarantee of reliability and availability for cities'
   },
   {
     company: 'Tera',
     name: 'Beeta',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Beeta.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=tera-beeta',
     domain: ['Cities', 'Home'],
     type: 'Solution',
@@ -1594,8 +1594,8 @@ var pageData = [
     name: 'Trace Labs',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_TraceLabs.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=tracelabs-tracelabs',
     domain: ['Logistics'],
     type: 'Solution',
@@ -1609,8 +1609,8 @@ var pageData = [
     name: 'FreshIndex',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Tsenso.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=tsenso-freshindex',
     domain: ['AgriFood'],
     type: 'Solution',
@@ -1624,8 +1624,8 @@ var pageData = [
     name: 'INSYLO',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Insylo.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=ubikwa-insylo',
     domain: ['AgriFood', 'Logistics', 'Industry'],
     type: 'Solution',
@@ -1639,8 +1639,8 @@ var pageData = [
     name: 'Urban Platform',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Ubiwhere.svg',
-    fiwareMember: 'TRUE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: true,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=powered&id=ubiwhere-urbanplatform',
     domain: ['Cities'],
@@ -1655,8 +1655,8 @@ var pageData = [
     name: 'Smartlamppost',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Ubiwhere.svg',
-    fiwareMember: 'TRUE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: true,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=powered&id=ubiwhere-smartlamppost',
     domain: ['Cities'],
@@ -1671,8 +1671,8 @@ var pageData = [
     name: 'Waste4Think',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Waste4Think.svg',
-    fiwareMember: 'TRUE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: true,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=powered&id=universityofdeusto-waste4think',
     domain: ['Cities'],
@@ -1687,8 +1687,8 @@ var pageData = [
     name: 'Viur',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Viur.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=viur-viur',
     domain: ['Cities'],
     type: 'Solution',
@@ -1702,8 +1702,8 @@ var pageData = [
     name: 'We4City',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Vm9.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=vm9-we4city',
     domain: ['Cities'],
     type: 'Platform',
@@ -1717,8 +1717,8 @@ var pageData = [
     name: 'WiTraC',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Witrac.svg',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=witrac-witrac',
     domain: ['Cities', 'Industry'],
     type: 'Solution',
@@ -1729,15 +1729,15 @@ var pageData = [
     ],
     year: null,
     content:
-      'WiTraC is a total wireless tracking and metering IoT solution for Industry 4.0 Supply Chain and Smart Cities.\nIt provides real-time information on the status and location of critical assets to increase control and improve management of company operations.'
+      'WiTraC is a total wireless tracking and metering IoT solution for Industry 4.0 Supply Chain and Smart Cities.\r\nIt provides real-time information on the status and location of critical assets to increase control and improve management of company operations.'
   },
   {
     company: 'YerbaBuena VR',
     name: 'YBVR',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_ybvr.png',
-    fiwareMember: 'FALSE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: false,
+    fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=yerbabuenavr-ybvr',
     domain: ['Cities', 'Home'],
     type: 'Solution',
