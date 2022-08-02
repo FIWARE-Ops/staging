@@ -8468,7 +8468,12 @@ var pageData = {
           'https://www.youtube.com/channel/UCvmW-L2u6dL33BCF1cTJkuQ'
         ]
       ],
-      materials: [],
+      materials: [
+        [
+          'Case study: a GPS Location System for Goats',
+          'https://4d4f.eu/content/case-study-gps-location-system-goats'
+        ]
+      ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_DigitAnimal.svg',
       featuredImage:
