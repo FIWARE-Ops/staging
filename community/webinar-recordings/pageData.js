@@ -21,7 +21,7 @@ var pageData = [
     year: 2019,
     difficulty: 3,
     content:
-      '<ul>\n<li>What is Context Data?</li>\n<li>What is a Context Broker?</li>\n<li>What is NGSI v2?</li>\n<li>Introduction to harmonized data models</li>\n<li>How to read and update context data via REST</li>\n<li>How to assign relationships between Entities</li>\n<li>How to register other sources as context data</li>\n<li>How to subscribe to changes in context</li>\n</ul>\n<p>This video presentation is an introduction to Core Context Management describing about the NGSI DataModel and the NSGI\ninterface, registrations, subscription etc.</p>'
+      '<ul>\n<li>What is Context Data?</li>\n<li>What is a Context Broker?</li>\n<li>What is NGSI v2?</li>\n<li>Introduction to harmonized data models</li>\n<li>How to read and update context data via REST</li>\n<li>How to assign relationships between Entities</li>\n<li>How to register other sources as context data</li>\n<li>How to subscribe to changes in context</li>\n</ul>\n<p>This video presentation is an introduction to Core Context Management describing about the NGSI DataModel and the NGSI\ninterface, registrations, subscription etc.</p>'
   },
   {
     name: 'What is an IoT Agent?',
@@ -149,7 +149,7 @@ var pageData = [
     companyLink: 'https://www.youtube.com/watch?v=REoJA7yxJ_0',
     domain: ['Developers', 'Business'],
     type: 'Cross-Chapter',
-    technology: ['NSGI-LD', 'Data Models', 'AI', 'Blockchain'],
+    technology: ['NGSI-LD', 'Data Models', 'AI', 'Blockchain'],
     year: 2020,
     difficulty: 2,
     content:
@@ -234,7 +234,7 @@ var pageData = [
     companyLink: 'https://www.youtube.com/watch?v=a0NxSS96YzY',
     domain: ['Developers'],
     type: 'Robotics',
-    technology: [],
+    technology: ['FIROS', 'ROS'],
     year: 2020,
     difficulty: 3,
     content:
@@ -552,7 +552,7 @@ var pageData = [
     year: 2022,
     difficulty: 3,
     content:
-      '<ul>\n<li>NGSI-LD payload formats<ul>\n<li>Normalized</li>\n<li>Simplified (Key-Value pairs)</li>\n<li>Concise</li></ul></li>\n<li>Context broker operations and supported HTTP Methods in Orion-LD:<ul>\n<li>GET, POST, DELETE, PATCH, PUT, OPTIONS</li></ul></li>\n<li>PATCH Operations Deep Dive:<ul>\n<li>Partial Update</li>\n<li>Merge</li>\n<li>Use of JSON Literal <code>null</code></li>\n<li>Architectural Scenario</li>\n<li>FIWARE Ready Devices</li></ul></li>\n</ul>\n<p>As NGSI-LD becomes more established, the needs of its user base become ever more diverse. Whether moving into data sharing\nor robotics, growing customer need dictates that context brokers must keep up with consumer demand and be able to offer\nprototypical versions of novel features for assessment and use. </p>\n<p>The aim of this webinar is to showcase some experimental features of the Orion-LD context broker showing how its syntax,\ntransports and endpoints can be adapted. These changes can then be contributed to the ETSI CIM committee for further\ndiscussion to achieve common operational consensus across brokers and specification changes made offering the potential\nto broaden the uptake of the official NGSI-LD API itself.</p>\n<p>Learn how concise payloads and merge-patch updates have been provisionally integrated into the Orion-LD context broker\nproviding an opportunity of innovation before standardization and how to start to use these new features and how to avoid\nincompatibility clashes against the solid core of the NSGI-LD standard.</p>'
+      '<ul>\n<li>NGSI-LD payload formats<ul>\n<li>Normalized</li>\n<li>Simplified (Key-Value pairs)</li>\n<li>Concise</li></ul></li>\n<li>Context broker operations and supported HTTP Methods in Orion-LD:<ul>\n<li>GET, POST, DELETE, PATCH, PUT, OPTIONS</li></ul></li>\n<li>PATCH Operations Deep Dive:<ul>\n<li>Partial Update</li>\n<li>Merge</li>\n<li>Use of JSON Literal <code>null</code></li>\n<li>Architectural Scenario</li>\n<li>FIWARE Ready Devices</li></ul></li>\n</ul>\n<p>As NGSI-LD becomes more established, the needs of its user base become ever more diverse. Whether moving into data sharing\nor robotics, growing customer need dictates that context brokers must keep up with consumer demand and be able to offer\nprototypical versions of novel features for assessment and use. </p>\n<p>The aim of this webinar is to showcase some experimental features of the Orion-LD context broker showing how its syntax,\ntransports and endpoints can be adapted. These changes can then be contributed to the ETSI CIM committee for further\ndiscussion to achieve common operational consensus across brokers and specification changes made offering the potential\nto broaden the uptake of the official NGSI-LD API itself.</p>\n<p>Learn how concise payloads and merge-patch updates have been provisionally integrated into the Orion-LD context broker\nproviding an opportunity of innovation before standardization and how to start to use these new features and how to avoid\nincompatibility clashes against the solid core of the NGSI-LD standard.</p>'
   },
   {
     name: 'Extending FIWARE MLOps using Argo Workflows',
@@ -573,7 +573,7 @@ var pageData = [
     companyLink: 'https://www.youtube.com/watch?v=qDMljIidA6k',
     domain: ['Developers'],
     type: 'Robotics',
-    technology: ['ROS2', 'IoT Agent'],
+    technology: ['ROS', 'IoT Agent'],
     year: 2022,
     difficulty: 3,
     content:
@@ -588,7 +588,17 @@ var pageData = [
     technology: ['IOTA Tangle', 'IoT Agent', 'Blockchain'],
     year: 2022,
     difficulty: 4,
-    content:
-      '<ul>\n<li>Review of IoT Agent Transport Binding Architectures: <ul>\n<li>HTTP, MQTT, LoRaWAN, OPC-UA, ROS2 etc.</li></ul></li>\n<li>What is the IOTA Tangle?<ul>\n<li>Potential Use Cases with FIWARE.</li>\n<li>Anti-Patterns.</li></ul></li>\n<li>Deep Dive: Creating a FIWARE-IOTA Binding :<ul>\n<li>Sensor Measurements (Northbound)</li>\n<li>Actuation Commands (Southbound)</li>\n<li>Actuation Command Acknowledgements (Northbound)</li>\n<li>Gateway Bindings (Northbound + Southbound)</li></ul></li>\n<li>Architectural Paradigms for Novel Data Transports</li>\n</ul>\n<p>Within the FIWARE Ecosystem, IoT Agents are used to ensure that devices can send their data to, and be managed from a \nContext Broker using their own native protocols. There is no restrictions on the transport layer to be used for these communications, \nit could be anything from HTTP to MQTT to OPC-UA to LoRaWAN and more.</p>\n<p>For example, IOTA is an open-source data communication protocol and zero-fee micro-transaction system utilising distributed ledger \ntechnology. This allows participants in the IOTA network (“the Tangle”) to securely and immutably encrypt, transfer and store data. </p>\n<p>The aim of this webinar is to demonstrate how create a gateway component for an IoT Agent and how connect to devices securely using \nthe IOTA Tangle, using it as a single source of truth and trust in data. Additionally discussing how to pick the most appropriate transport \nfor your use case and avoiding anti-patterns when securing IoT data.</p>'
+    content: '<p>ROS, IoT Agent</p>'
+  },
+  {
+    name: 'FIWARE iHUb Webinar',
+    img: '',
+    companyLink: 'https://www.youtube.com/watch?v=IXjQwcuf9Xw',
+    domain: ['iHubs'],
+    type: '',
+    technology: [],
+    year: 2022,
+    difficulty: 1,
+    content: '<p>Spain, Italy,Argentina</p>'
   }
 ];
