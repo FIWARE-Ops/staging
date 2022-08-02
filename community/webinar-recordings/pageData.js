@@ -600,5 +600,16 @@ var pageData = [
     year: 2022,
     difficulty: 1,
     content: '<p>Spain, Italy,Argentina</p>'
+  },
+  {
+    name: 'FIWARE iHub Webinar 2',
+    img: '',
+    companyLink: 'https://www.youtube.com/watch?v=GmloMFyDa7Y',
+    domain: ['iHubs'],
+    type: '',
+    technology: [],
+    year: 2022,
+    difficulty: 2,
+    content: '<p>Spain, France,Uruguay</p>'
   }
 ];
