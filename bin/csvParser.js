@@ -129,16 +129,19 @@ function extractSummaryInfo(input, details) {
       });
       item.Technologies = tech;
 
-      if (item.Member === 'False') {
+      item.Member = item.Member.toLowerCase();
+      item.iHub = item.iHub.toLowerCase();
+
+      if (item.Member == 'false') {
         item.Member = false;
       }
-      if (item.Member === 'True') {
+      if (item.Member == 'true') {
         item.Member = true;
       }
-      if (item.iHub === 'False') {
+      if (item.iHub == 'false') {
         item.iHub = false;
       }
-      if (item.iHub === 'True') {
+      if (item.iHub == 'true') {
         item.iHub = true;
       }
 

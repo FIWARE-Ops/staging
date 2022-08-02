@@ -4,8 +4,8 @@ var pageData = [
     name: 'Smart Data Wien',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/cities4cities/logo_CityOfVienna.svg',
-    fiwareMember: 'TRUE',
-    fiwareIhub: 'FALSE',
+    fiwareMember: true,
+    fiwareIhub: false,
     companyLink:
       '../product-details/?category=cities&id=cityofvienna-smartdatawien',
     domain: ['Cities', 'Government'],
