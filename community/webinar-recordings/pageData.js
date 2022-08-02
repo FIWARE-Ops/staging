@@ -9,7 +9,7 @@ var pageData = [
     year: 2019,
     difficulty: 1,
     content:
-      '<ul>\n<li>What is context data?</li>\n<li>How is context data used within a Smart Solution?</li>\n<li>What is FIWARE? How does it help</li>\n<li>What is NGSI v2?</li>\n<li>What is the FIWARE Catalogue?</li>\n<li>What is the FIWARE Marketplace?</li>\n<li>What is the role of the FIWARE Foundation?</li>\n</ul>\n<p>This video presentation is a basic introduction describing what FIWARE is, why you need it and how the elements of the FIWARE Catalogue can help accelerate the development of your Smart Solution.</p>'
+      '<ul> <li>What is context data?</li> <li>How is context data used within a Smart Solution?</li> <li>What is FIWARE? How does it help</li> <li>What is NGSI v2?</li> <li>What is the FIWARE Catalogue?</li> <li>What is the FIWARE Marketplace?</li> <li>What is the role of the FIWARE Foundation?</li> </ul> <p>This video presentation is a basic introduction describing what FIWARE is, why you need it and how the elements of the FIWARE Catalogue can help accelerate the development of your Smart Solution.</p>'
   },
   {
     name: 'Core Context Management',
@@ -21,7 +21,7 @@ var pageData = [
     year: 2019,
     difficulty: 3,
     content:
-      '<ul>\n<li>What is Context Data?</li>\n<li>What is a Context Broker?</li>\n<li>What is NGSI v2?</li>\n<li>Introduction to harmonized data models</li>\n<li>How to read and update context data via REST</li>\n<li>How to assign relationships between Entities</li>\n<li>How to register other sources as context data</li>\n<li>How to subscribe to changes in context</li>\n</ul>\n<p>This video presentation is an introduction to Core Context Management describing about the NGSI DataModel and the NGSI\ninterface, registrations, subscription etc.</p>'
+      '<ul> <li>What is Context Data?</li> <li>What is a Context Broker?</li> <li>What is NGSI v2?</li> <li>Introduction to harmonized data models</li> <li>How to read and update context data via REST</li> <li>How to assign relationships between Entities</li> <li>How to register other sources as context data</li> <li>How to subscribe to changes in context</li> </ul> <p>This video presentation is an introduction to Core Context Management describing about the NGSI DataModel and the NGSI interface, registrations, subscription etc.</p>'
   },
   {
     name: 'What is an IoT Agent?',
@@ -33,7 +33,7 @@ var pageData = [
     year: 2019,
     difficulty: 3,
     content:
-      '<p>This video presentation shows how to connect IoT Devices to the Context Broker using an IoT Agent and how to ensure your\ndevice is <em>FIWARE Ready</em>.</p>\n<ul>\n<li><p>What is a transport?</p></li>\n<li><p>What is a message protocol?</p></li>\n<li><p>What do the terms northbound/southbound and north/south port mean ?</p></li>\n<li><p>How are commands and measurements processed?</p></li>\n<li><p>What is an IoT Agent? What does it do?</p></li>\n<li><p>How can I configure an IoT Agent over HTTP?</p></li>\n<li><p>How can I configure an IoT Agent over MQTT?</p></li>\n</ul>'
+      '<p>This video presentation shows how to connect IoT Devices to the Context Broker using an IoT Agent and how to ensure your device is <em>FIWARE Ready</em>.</p> <ul> <li><p>What is a transport?</p></li> <li><p>What is a message protocol?</p></li> <li><p>What do the terms northbound/southbound and north/south port mean ?</p></li> <li><p>How are commands and measurements processed?</p></li> <li><p>What is an IoT Agent? What does it do?</p></li> <li><p>How can I configure an IoT Agent over HTTP?</p></li> <li><p>How can I configure an IoT Agent over MQTT?</p></li> </ul>'
   },
   {
     name: 'How to Secure FIWARE Architectures',
@@ -45,7 +45,7 @@ var pageData = [
     year: 2019,
     difficulty: 3,
     content:
-      '<ul>\n<li><p>What are Identity Management and Access Control?</p></li>\n<li><p>Which FIWARE components will you need?</p></li>\n<li><p>What are Authentication and Authorization? How do they differ?</p></li>\n<li><p>What is OAuth2? What flows are supported?</p></li>\n<li><p>What is a PEP Proxy? What does it do?</p></li>\n<li><p>What is a PDP and when will I need one?</p></li>\n<li><p>What terms such as RBAC, PBAC and XACML mean and how are they used?</p></li>\n</ul>\n<p>This video presentation shows how to add Identity Management and Access Control elements to your FIWARE Architecture by\nusing the Generic Enablers from the Security Chapter.</p>'
+      '<ul> <li><p>What are Identity Management and Access Control?</p></li> <li><p>Which FIWARE components will you need?</p></li> <li><p>What are Authentication and Authorization? How do they differ?</p></li> <li><p>What is OAuth2? What flows are supported?</p></li> <li><p>What is a PEP Proxy? What does it do?</p></li> <li><p>What is a PDP and when will I need one?</p></li> <li><p>What terms such as RBAC, PBAC and XACML mean and how are they used?</p></li> </ul> <p>This video presentation shows how to add Identity Management and Access Control elements to your FIWARE Architecture by using the Generic Enablers from the Security Chapter.</p>'
   },
   {
     name: 'How to Debug IoT Agents',
@@ -57,7 +57,7 @@ var pageData = [
     year: 2019,
     difficulty: 4,
     content:
-      '<ul>\n<li>How to diagnose common problems</li>\n<li>How to test services in isolation</li>\n<li>How to set-up and interpret debug</li>\n<li>Configuring IoT Agents</li>\n<li>Adding diagnostic debug</li>\n<li>Where to look for help and advice</li>\n</ul>\n<p>This video presentation shows how to connect devices to processing enablers via an IoT Agent and the context broker,\nwhat can go wrong when trying to wire up the system. How to diagnose problems and how to fix them.</p>'
+      '<ul> <li>How to diagnose common problems</li> <li>How to test services in isolation</li> <li>How to set-up and interpret debug</li> <li>Configuring IoT Agents</li> <li>Adding diagnostic debug</li> <li>Where to look for help and advice</li> </ul> <p>This video presentation shows how to connect devices to processing enablers via an IoT Agent and the context broker, what can go wrong when trying to wire up the system. How to diagnose problems and how to fix them.</p>'
   },
   {
     name: 'How to Get Context Data Out of Robots',
@@ -69,7 +69,7 @@ var pageData = [
     year: 2019,
     difficulty: 2,
     content:
-      '<ul>\n<li>How can FIWARE and Standardized Context Data Management create synergies between Robotic Systems and other Smart\nSolutions?</li>\n<li>What is a Robotic System?</li>\n<li>How to get/put context data out from/into robotic systems?</li>\n</ul>\n<p>This video presentation shows how to retrieve context data and actuate robots</p>'
+      '<ul> <li>How can FIWARE and Standardized Context Data Management create synergies between Robotic Systems and other Smart Solutions?</li> <li>What is a Robotic System?</li> <li>How to get/put context data out from/into robotic systems?</li> </ul> <p>This video presentation shows how to retrieve context data and actuate robots</p>'
   },
   {
     name: 'Data Modelling with NGSI',
@@ -81,7 +81,7 @@ var pageData = [
     year: 2019,
     difficulty: 4,
     content:
-      '<ul>\n<li>Understanding and applying Standard Data Models.</li>\n<li><strong>NGSI v2</strong> : Relationships, properties and metadata</li>\n<li><strong>NGSI-LD</strong> : Relationships, properties and <code>@context</code></li>\n<li>Practical use cases in Smart City and Smart Agriculture</li>\n</ul>\n<p>This video presentation shows how to design and apply Standard NGSI Data Models.</p>'
+      '<ul> <li>Understanding and applying Standard Data Models.</li> <li><strong>NGSI v2</strong> : Relationships, properties and metadata</li> <li><strong>NGSI-LD</strong> : Relationships, properties and <code>@context</code></li> <li>Practical use cases in Smart City and Smart Agriculture</li> </ul> <p>This video presentation shows how to design and apply Standard NGSI Data Models.</p>'
   },
   {
     name: 'Strategies for Context Data Persistence',
@@ -93,7 +93,7 @@ var pageData = [
     year: 2020,
     difficulty: 3,
     content:
-      '<ul>\n<li>What is data persistence and why do you need it?</li>\n<li>Which data persistence options do you have?</li>\n<li>What is Big Data?</li>\n<li>Which FIWARE components are available to deal with the persistence of context data?</li>\n<li>Why do context brokers not offer a data persistence function of their own?</li>\n</ul>\n<p>Introduction to the data persistence components found within the FIWARE Catalogue and various options on how to maintain\na historical record of context when a context broker has no memory.</p>'
+      '<ul> <li>What is data persistence and why do you need it?</li> <li>Which data persistence options do you have?</li> <li>What is Big Data?</li> <li>Which FIWARE components are available to deal with the persistence of context data?</li> <li>Why do context brokers not offer a data persistence function of their own?</li> </ul> <p>Introduction to the data persistence components found within the FIWARE Catalogue and various options on how to maintain a historical record of context when a context broker has no memory.</p>'
   },
   {
     name: 'Short Term History within FIWARE Systems',
@@ -105,7 +105,7 @@ var pageData = [
     year: 2020,
     difficulty: 3,
     content:
-      '<ul>\n<li>How is Short Term History relevant within my Smart application?</li>\n<li>Which FIWARE components are available to deal with Short Term History?</li>\n<li>What options exist to create a trend graph?</li>\n<li>Introduction to the NGSI-LD temporal interface</li>\n</ul>\n<p>This webinar shows how to utilise times series components and monitor and display trends within FIWARE applications</p>'
+      '<ul> <li>How is Short Term History relevant within my Smart application?</li> <li>Which FIWARE components are available to deal with Short Term History?</li> <li>What options exist to create a trend graph?</li> <li>Introduction to the NGSI-LD temporal interface</li> </ul> <p>This webinar shows how to utilise times series components and monitor and display trends within FIWARE applications</p>'
   },
   {
     name: 'Securing FIWARE IoT Devices',
@@ -117,7 +117,7 @@ var pageData = [
     year: 2020,
     difficulty: 4,
     content:
-      '<ul>\n<li>How can insecure systems be attacked?</li>\n<li>What common actions should be taken to help to secure systems?<ul>\n<li>What options do I have to secure HTTP traffic?</li>\n<li>What options do I have to secure MQTT traffic?</li>\n<li>What options do I have with other protocols?</li></ul></li>\n<li>What is a PEP Proxy and how can I use one to protect services and device?s</li>\n</ul>\n<p>Live coding session and commentary, demonstrating various techniques and methods for securing the interactions between\nDevices, IoT Agents, and the Context Broker.</p>'
+      '<ul> <li>How can insecure systems be attacked?</li> <li>What common actions should be taken to help to secure systems?<ul> <li>What options do I have to secure HTTP traffic?</li> <li>What options do I have to secure MQTT traffic?</li> <li>What options do I have with other protocols?</li></ul></li> <li>What is a PEP Proxy and how can I use one to protect services and device?s</li> </ul> <p>Live coding session and commentary, demonstrating various techniques and methods for securing the interactions between Devices, IoT Agents, and the Context Broker.</p>'
   },
   {
     name: 'How to Develop FIWARE NGSI Interfaces for Robots',
@@ -129,7 +129,7 @@ var pageData = [
     year: 2020,
     difficulty: 2,
     content:
-      '<ul>\n<li>Robot Types</li>\n<li>Digital Twins</li>\n<li>FIWARE NGSI Robotics Interfaces<ul>\n<li>ROS, ROS2, OPC-UA and DDS</li></ul></li>\n<li>Use Cases in Smart Industry</li>\n</ul>\n<p>This webinar presents different alternatives for developing FIWARE-Ready robots and the main FIWARE components that can\nfacilitate/empower these developments.</p>'
+      '<ul> <li>Robot Types</li> <li>Digital Twins</li> <li>FIWARE NGSI Robotics Interfaces<ul> <li>ROS, ROS2, OPC-UA and DDS</li></ul></li> <li>Use Cases in Smart Industry</li> </ul> <p>This webinar presents different alternatives for developing FIWARE-Ready robots and the main FIWARE components that can facilitate/empower these developments.</p>'
   },
   {
     name: 'Introduction to NGSI-LD',
@@ -141,7 +141,7 @@ var pageData = [
     year: 2020,
     difficulty: 3,
     content:
-      '<ul>\n<li>What is JSON-LD?</li>\n<li>What is NGSI-LD?</li>\n<li>What is the relationship between<ul>\n<li>JSON-LD and NGSI-LD?</li>\n<li>NGSI v2 and NGSI-LD</li></ul></li>\n<li>What is core <code>@context</code> ?<ul>\n<li>Why are data models so important</li></ul></li>\n<li>Defining NGSI-LD properties, relationships and enumerations</li>\n<li>Using Compaction/Expansion operations on NGSI-LD data</li>\n<li>Navigating the <code>@graph</code></li>\n</ul>\n<p>A data-model driven and linked data first introduction for developers to NGSI-LD and JSON-LD.</p>'
+      '<ul> <li>What is JSON-LD?</li> <li>What is NGSI-LD?</li> <li>What is the relationship between<ul> <li>JSON-LD and NGSI-LD?</li> <li>NGSI v2 and NGSI-LD</li></ul></li> <li>What is core <code>@context</code> ?<ul> <li>Why are data models so important</li></ul></li> <li>Defining NGSI-LD properties, relationships and enumerations</li> <li>Using Compaction/Expansion operations on NGSI-LD data</li> <li>Navigating the <code>@graph</code></li> </ul> <p>A data-model driven and linked data first introduction for developers to NGSI-LD and JSON-LD.</p>'
   },
   {
     name: 'FIWARE Building the Future',
@@ -153,7 +153,7 @@ var pageData = [
     year: 2020,
     difficulty: 2,
     content:
-      '<ul>\n<li>A Reminder of some core concepts</li>\n<li>Roadmap Topics<ul>\n<li>NGSI-LD</li>\n<li>Smart Data Models</li>\n<li>Blockchain</li>\n<li>Robotics</li>\n<li>Data Marketplace</li>\n<li>Marketplace of Plug &amp; Play AI / Big Data Services</li></ul></li>\n</ul>\n<p>An in-depth look at where FIWARE is going next and integrates with blockchain and distributed ledger technologies,\nArtificial Intelligence or Robotics.</p>'
+      '<ul> <li>A Reminder of some core concepts</li> <li>Roadmap Topics<ul> <li>NGSI-LD</li> <li>Smart Data Models</li> <li>Blockchain</li> <li>Robotics</li> <li>Data Marketplace</li> <li>Marketplace of Plug &amp; Play AI / Big Data Services</li></ul></li> </ul> <p>An in-depth look at where FIWARE is going next and integrates with blockchain and distributed ledger technologies, Artificial Intelligence or Robotics.</p>'
   },
   {
     name: 'Architecting Your Smart Solution Using FIWARE',
@@ -165,7 +165,7 @@ var pageData = [
     year: 2020,
     difficulty: 2,
     content:
-      '<p>Learn how Smart Solutions solving a particular challenge are architected with FIWARE. This webinar is supported by use\ncases.</p>'
+      '<p>Learn how Smart Solutions solving a particular challenge are architected with FIWARE. This webinar is supported by use cases.</p>'
   },
   {
     name: 'FIWARE Vision and Value Proposition for a Smart Future',
@@ -177,7 +177,7 @@ var pageData = [
     year: 2020,
     difficulty: 2,
     content:
-      '<ul>\n<li>Understanding FIWARE</li>\n<li>Building <em>"Powered by FIWARE"</em> Solutions</li>\n<li>FIWARE: Going beyond the technology</li>\n</ul>\n<p>A broad overview of the value proposition of FIWARE and its position in a Smart Digital Future.</p>'
+      '<ul> <li>Understanding FIWARE</li> <li>Building <em>"Powered by FIWARE"</em> Solutions</li> <li>FIWARE: Going beyond the technology</li> </ul> <p>A broad overview of the value proposition of FIWARE and its position in a Smart Digital Future.</p>'
   },
   {
     name: 'The Use of DDS Middleware in Robotics',
@@ -189,7 +189,7 @@ var pageData = [
     year: 2020,
     difficulty: 2,
     content:
-      '<ul>\n<li>About eProsima &amp; FIWARE</li>\n<li>Fast DDS &amp; ROS2<ul>\n<li>Introduction</li>\n<li>Architecture &amp; Demo</li>\n<li>What is new?</li></ul></li>\n<li>XRCE-DDS &amp; Micro-ROS</li>\n</ul>\n<p>An introduction to core real-time technologies: FAST DDS, the most complete Open Source DDS for ROS 2, and Micro\nXRCE-DDS, the middleware for microcontrollers, and micro-ROS.</p>'
+      '<ul> <li>About eProsima &amp; FIWARE</li> <li>Fast DDS &amp; ROS2<ul> <li>Introduction</li> <li>Architecture &amp; Demo</li> <li>What is new?</li></ul></li> <li>XRCE-DDS &amp; Micro-ROS</li> </ul> <p>An introduction to core real-time technologies: FAST DDS, the most complete Open Source DDS for ROS 2, and Micro XRCE-DDS, the middleware for microcontrollers, and micro-ROS.</p>'
   },
   {
     name: 'Blockchain/DLT Integration with FIWARE',
@@ -201,7 +201,7 @@ var pageData = [
     year: 2020,
     difficulty: 2,
     content:
-      "<ul>\n<li>Introduction to Blockchain / Distributed Ledger Technologies</li>\n<li>FIWARE and DLTs<ul>\n<li>Agri-Food Supply Chain Demo</li></ul></li>\n<li>Upcoming DLT Components and Research</li>\n</ul>\n<p>This webinar will be an introduction to Blockchain and how FIWARE can be integrated with Blockchain/DLTs with a demo. In\naddition, it will also explain upcoming DLT components in the FIWARE ecosystem and an idea/state of art to leverage DLTs\nin 'Powered by FIWARE' systems.</p>"
+      "<ul> <li>Introduction to Blockchain / Distributed Ledger Technologies</li> <li>FIWARE and DLTs<ul> <li>Agri-Food Supply Chain Demo</li></ul></li> <li>Upcoming DLT Components and Research</li> </ul> <p>This webinar will be an introduction to Blockchain and how FIWARE can be integrated with Blockchain/DLTs with a demo. In addition, it will also explain upcoming DLT components in the FIWARE ecosystem and an idea/state of art to leverage DLTs in 'Powered by FIWARE' systems.</p>"
   },
   {
     name: 'Big Data Analysis using Cosmos with Spark or Flink',
@@ -238,7 +238,7 @@ var pageData = [
     year: 2020,
     difficulty: 3,
     content:
-      '<ul>\n<li>ROS-Side Perspective (Introduction to FIROS 0.2.0)<ul>\n<li>Basic ROS Concepts</li>\n<li>FIROS Configuration</li>\n<li>ROS-NGSI mapping</li>\n<li>How to build the Interface</li></ul></li>\n<li>FIWARE-Side Perspective (Context Data Management in Robotics)<ul>\n<li>Simple Example: AMR in a Warehouse</li></ul></li>\n</ul>\n<p>This webinar will present how to develop FIWARE NGSI Interfaces for ROS-based robots.</p>'
+      '<ul> <li>ROS-Side Perspective (Introduction to FIROS 0.2.0)<ul> <li>Basic ROS Concepts</li> <li>FIROS Configuration</li> <li>ROS-NGSI mapping</li> <li>How to build the Interface</li></ul></li> <li>FIWARE-Side Perspective (Context Data Management in Robotics)<ul> <li>Simple Example: AMR in a Warehouse</li></ul></li> </ul> <p>This webinar will present how to develop FIWARE NGSI Interfaces for ROS-based robots.</p>'
   },
   {
     name: 'Turning Organizations Into Smart Organizations',
@@ -250,7 +250,7 @@ var pageData = [
     year: 2020,
     difficulty: 2,
     content:
-      '<p>This webinar will cover the “system of systems” approach and FIWARE transformation journey, also with the help of\nsuccess stories.</p>'
+      '<p>This webinar will cover the “system of systems” approach and FIWARE transformation journey, also with the help of success stories.</p>'
   },
   {
     name: 'Smart Water Management - Using FIWARE Smart Data Models for Water',
@@ -274,7 +274,7 @@ var pageData = [
     year: 2020,
     difficulty: 2,
     content:
-      '<ul>\n<li>The micro-ROS Framework</li>\n<li>Synergies between Context Information Management and Robotics</li>\n<li>Structure of <em>FIWARE-Ready</em> and <em>"Powered by FIWARE"</em> micro-ROS Architectures</li>\n<li>SOSS-FIWARE</li>\n<li>Demo</li>\n</ul>\n<p>The aim of this webinar is to give an introduction about the existing synergies between FIWARE, ROS, and micro-ROS - the\nRobot Operating System for microcontrollers - frameworks.</p>\n<p>Special emphasis will be put on how to build interfaces between Powered by FIWARE architectures and ROS2/micro-ROS based\nrobotic systems. The SOSS-FIWARE, based on the eProsima Integration Service, is a key enabler that accelerates the\ndevelopment of these interfaces between micro-ROS and FIWARE ecosystems. Through a basic application, the main features\nof this component as well as the key concepts associated with the synergies between FIWARE and micro-ROS will be\noverviewed.</p>'
+      '<ul> <li>The micro-ROS Framework</li> <li>Synergies between Context Information Management and Robotics</li> <li>Structure of <em>FIWARE-Ready</em> and <em>"Powered by FIWARE"</em> micro-ROS Architectures</li> <li>SOSS-FIWARE</li> <li>Demo</li> </ul> <p>The aim of this webinar is to give an introduction about the existing synergies between FIWARE, ROS, and micro-ROS - the Robot Operating System for microcontrollers - frameworks.</p> <p>Special emphasis will be put on how to build interfaces between Powered by FIWARE architectures and ROS2/micro-ROS based robotic systems. The SOSS-FIWARE, based on the eProsima Integration Service, is a key enabler that accelerates the development of these interfaces between micro-ROS and FIWARE ecosystems. Through a basic application, the main features of this component as well as the key concepts associated with the synergies between FIWARE and micro-ROS will be overviewed.</p>'
   },
   {
     name: 'Integrating Robotic Systems for Agile Manufacturing Using FIWARE',
@@ -286,7 +286,7 @@ var pageData = [
     year: 2020,
     difficulty: 2,
     content:
-      '<ul>\n<li>Robotics-based Applications for Agile Manufacturing using FIWARE</li>\n<li>Robotics centered use cases</li>\n<li>Digital Factory centered use cases.</li>\n<li>Deployment of a <em>"Powered by FIWARE"</em> Robotics Architecture</li>\n</ul>\n<p>Robotics systems play a major role in the automation roadmap of factories that aim to beat competitors by offering small\nlot sizes of highly customized products. As standalone manufacturing assets, the contribution of robotics systems to the\nfactory is clear, robots are intended to contribute powerful automation features based on reconfigurable hardware with\nintegrated perception, planning, and control abilities. However, the agility of the factory can grow dramatically by\nmaking these standalone robots first-class citizens of the digital factory infrastructure.</p>\n<p>This webinar introduces the current vision and ongoing developments that FIWARE is undertaking to accelerate the\nintegration of robots in smart factory environments.</p>'
+      '<ul> <li>Robotics-based Applications for Agile Manufacturing using FIWARE</li> <li>Robotics centered use cases</li> <li>Digital Factory centered use cases.</li> <li>Deployment of a <em>"Powered by FIWARE"</em> Robotics Architecture</li> </ul> <p>Robotics systems play a major role in the automation roadmap of factories that aim to beat competitors by offering small lot sizes of highly customized products. As standalone manufacturing assets, the contribution of robotics systems to the factory is clear, robots are intended to contribute powerful automation features based on reconfigurable hardware with integrated perception, planning, and control abilities. However, the agility of the factory can grow dramatically by making these standalone robots first-class citizens of the digital factory infrastructure.</p> <p>This webinar introduces the current vision and ongoing developments that FIWARE is undertaking to accelerate the integration of robots in smart factory environments.</p>'
   },
   {
     name:
@@ -299,7 +299,7 @@ var pageData = [
     year: 2020,
     difficulty: 2,
     content:
-      '<ul>\n<li>City as a data ecosystem</li>\n<li>Context/Digital Twin Data Management</li>\n<li>Relevance of Standardization</li>\n<li>Smart Data Models - Structure, Examples, Users and Contributors</li>\n</ul>'
+      '<ul> <li>City as a data ecosystem</li> <li>Context/Digital Twin Data Management</li> <li>Relevance of Standardization</li> <li>Smart Data Models - Structure, Examples, Users and Contributors</li> </ul>'
   },
   {
     name: 'Machine Learning with Cosmos and Spark',
@@ -311,7 +311,7 @@ var pageData = [
     year: 2020,
     difficulty: 3,
     content:
-      '<p>This webinar presents an introduction to data engineering with FIWARE using Apache Spark ready for big data deployments.\nYou will learn how to perform real-time predictions step-by-step through a real use case.</p>'
+      '<p>This webinar presents an introduction to data engineering with FIWARE using Apache Spark ready for big data deployments. You will learn how to perform real-time predictions step-by-step through a real use case.</p>'
   },
   {
     name: "Monetizing your Organization's Data",
@@ -323,7 +323,7 @@ var pageData = [
     year: 2020,
     difficulty: 3,
     content:
-      '<ul>\n<li>What is the Business API Ecosystem?</li>\n<li>How does the Business API Ecosystem relate to the FIWARE Security Framework?</li>\n<li>How can Context Data be monetized?<ul>\n<li>Demo</li></ul></li>\n<li>How can the Business API Ecosystem be extended to fit custom environments?</li>\n</ul>\n<p>In the digital economy, your context data has value and could be used as a potential revenue stream. Learn more about\nthe FIWARE catalogue components that can be used to monetize your data easily and still maintain ownership</p>\n<p>This webinar introduces the Business API Ecosystem and its role in FIWARE as well as demonstrating a simple context\nbroker monetization use case. The various microservices the use case relies upon (Business API , Keyrock, API Umbrella)\nare highlighted and other options are also considered.</p>'
+      '<ul> <li>What is the Business API Ecosystem?</li> <li>How does the Business API Ecosystem relate to the FIWARE Security Framework?</li> <li>How can Context Data be monetized?<ul> <li>Demo</li></ul></li> <li>How can the Business API Ecosystem be extended to fit custom environments?</li> </ul> <p>In the digital economy, your context data has value and could be used as a potential revenue stream. Learn more about the FIWARE catalogue components that can be used to monetize your data easily and still maintain ownership</p> <p>This webinar introduces the Business API Ecosystem and its role in FIWARE as well as demonstrating a simple context broker monetization use case. The various microservices the use case relies upon (Business API , Keyrock, API Umbrella) are highlighted and other options are also considered.</p>'
   },
   {
     name: 'Creating Advanced Dashboards Using Wirecloud',
@@ -335,7 +335,7 @@ var pageData = [
     year: 2020,
     difficulty: 3,
     content:
-      '<p>Wirecloud is a web mashup tool designed to ease the development of operational dashboards. This allows end users to\neasily create web applications and dashboards without programming skills and to visualize data of interest and control\ntheir environment.</p>\n<p>Web application mashups integrate heterogeneous data, application logic, and UI components (widgets) sourced from the\nWeb to create new coherent and value-adding composite applications. This webinar demonstrates how to create flexible\ndashboards loading real-time context data and modify the representation of the data to gain insight and fit the needs of\nyour organization.</p>'
+      '<p>Wirecloud is a web mashup tool designed to ease the development of operational dashboards. This allows end users to easily create web applications and dashboards without programming skills and to visualize data of interest and control their environment.</p> <p>Web application mashups integrate heterogeneous data, application logic, and UI components (widgets) sourced from the Web to create new coherent and value-adding composite applications. This webinar demonstrates how to create flexible dashboards loading real-time context data and modify the representation of the data to gain insight and fit the needs of your organization.</p>'
   },
   {
     name: 'Choosing Open Source Licenses for FIWARE Components',
@@ -347,7 +347,7 @@ var pageData = [
     year: 2020,
     difficulty: 1,
     content:
-      '<p>Issues may arise when attempting to release software as Open Source, and this webinar discusses some of the decisions\nwhich need to be made (such as deciding which license to use) and offers a few solutions to cover some common release\nprocesses as well as explaining the commitments that must be made when offering new software to FIWARE.</p>'
+      '<p>Issues may arise when attempting to release software as Open Source, and this webinar discusses some of the decisions which need to be made (such as deciding which license to use) and offers a few solutions to cover some common release processes as well as explaining the commitments that must be made when offering new software to FIWARE.</p>'
   },
   {
     name: 'Adopting Common Smart Data Models for Smart Cities',
@@ -359,7 +359,7 @@ var pageData = [
     year: 2020,
     difficulty: 3,
     content:
-      '<ul>\n<li>Why is relevant to have shared data models for the industry and for the citizen<ul>\n<li>Open license and shared data models as an economic booster for smart cities</li></ul></li>\n<li>Summary of the agreement:<ul>\n<li>Adoption of NGSI-LD standard as the basis for data exchange</li>\n<li>Contribution to smart data models initiative (including participation in governance bodies)</li></ul></li>\n<li>Introduction to the Smart Data Models<ul>\n<li>General introduction</li>\n<li>New contribution mechanism</li>\n<li>New specification</li>\n<li>Other updates</li></ul></li>\n</ul>\n<p>For this webinar, FIWARE teamed up with the India Urban Data Exchange (IUDX) Program. FIWARE Foundation and IUDX\nrecently announced their collaboration toward building an Open Source platform that facilitates secure, authenticated,\nand managed exchange of data amongst various data sources and consumers.</p>'
+      '<ul> <li>Why is relevant to have shared data models for the industry and for the citizen<ul> <li>Open license and shared data models as an economic booster for smart cities</li></ul></li> <li>Summary of the agreement:<ul> <li>Adoption of NGSI-LD standard as the basis for data exchange</li> <li>Contribution to smart data models initiative (including participation in governance bodies)</li></ul></li> <li>Introduction to the Smart Data Models<ul> <li>General introduction</li> <li>New contribution mechanism</li> <li>New specification</li> <li>Other updates</li></ul></li> </ul> <p>For this webinar, FIWARE teamed up with the India Urban Data Exchange (IUDX) Program. FIWARE Foundation and IUDX recently announced their collaboration toward building an Open Source platform that facilitates secure, authenticated, and managed exchange of data amongst various data sources and consumers.</p>'
   },
   {
     name: 'India Urban Data Exchange',
@@ -371,7 +371,7 @@ var pageData = [
     year: 2020,
     difficulty: 2,
     content:
-      '<p>This is the second half of the Adopting Common Smart Data Models for Smart Cities webinar, where FIWARE teamed up with\nthe India Urban Data Exchange (IUDX) Program. FIWARE Foundation and IUDX recently announced their collaboration toward\nbuilding an Open Source platform that facilitates secure, authenticated, and managed exchange of data amongst various\ndata sources and consumers.</p>'
+      '<p>This is the second half of the Adopting Common Smart Data Models for Smart Cities webinar, where FIWARE teamed up with the India Urban Data Exchange (IUDX) Program. FIWARE Foundation and IUDX recently announced their collaboration toward building an Open Source platform that facilitates secure, authenticated, and managed exchange of data amongst various data sources and consumers.</p>'
   },
   {
     name: 'NGSI-LD IoT Agents',
@@ -383,7 +383,7 @@ var pageData = [
     year: 2021,
     difficulty: 3,
     content:
-      '<ul>\n<li>What is an IoT Agent?</li>\n<li>NGSI-LD Measures</li>\n<li>NGSI-LD Actuations + Lazy Attributes:<ul>\n<li>Registrations</li>\n<li>Subscriptions</li></ul></li>\n<li>Provisioning NGSI-LD Devices:<ul>\n<li>Data Models and NGSI-LD <code>@context</code></li>\n<li>The role of metadata</li>\n<li>GeoJSON and GPS device provisioning</li></ul></li>\n<li>Combining NGSI-v2 Devices with an NGSI-LD Context Broker</li>\n</ul>\n<p>NGSI-LD support has been added to the library underpinning all of the IoT Agent so now it is simple to combine the power\nof linked data with IoT devices running the protocols of your choice. This webinar explains how to properly provision\nNGSI-LD devices, and how to convert NGSI-v2 to NGSI-LD when receiving measures from external devices not under your\ncontrol.</p>'
+      '<ul> <li>What is an IoT Agent?</li> <li>NGSI-LD Measures</li> <li>NGSI-LD Actuations + Lazy Attributes:<ul> <li>Registrations</li> <li>Subscriptions</li></ul></li> <li>Provisioning NGSI-LD Devices:<ul> <li>Data Models and NGSI-LD <code>@context</code></li> <li>The role of metadata</li> <li>GeoJSON and GPS device provisioning</li></ul></li> <li>Combining NGSI-v2 Devices with an NGSI-LD Context Broker</li> </ul> <p>NGSI-LD support has been added to the library underpinning all of the IoT Agent so now it is simple to combine the power of linked data with IoT devices running the protocols of your choice. This webinar explains how to properly provision NGSI-LD devices, and how to convert NGSI-v2 to NGSI-LD when receiving measures from external devices not under your control.</p>'
   },
   {
     name: 'Monitoring Measures Using FIWARE & Grafana',
@@ -395,7 +395,7 @@ var pageData = [
     year: 2021,
     difficulty: 3,
     content:
-      '<ul>\n<li>What is Grafana?</li>\n<li>FIWARE Architectural Considerations<ul>\n<li>Which microservices? What roles are required?</li>\n<li>NGSI Data: Sources, Sinks, Transformations and Data Formats</li></ul></li>\n<li>Deep Dive: Filling Station Dashboard</li>\n<li>HOPU: Real-life Use Cases and Customizations with Grafana</li>\n</ul>\n<p>Visualisation of data is key to understanding trends and this webinar discusses how to analyse context data using common\nopen source tools.</p>\n<p>With visualisation components such as Grafana, minor changes to default look-and-feel can really help to improve\ncustomer satisfaction. Co-presenting at our webinar on Monitoring Measures Using FIWARE and Grafana we will have a\ndeveloper who makes changes such as these for a living who will be demonstrating some real-life FIWARE-Grafana tweaks\nand customisations they have created which have already reached paying clients.</p>'
+      '<ul> <li>What is Grafana?</li> <li>FIWARE Architectural Considerations<ul> <li>Which microservices? What roles are required?</li> <li>NGSI Data: Sources, Sinks, Transformations and Data Formats</li></ul></li> <li>Deep Dive: Filling Station Dashboard</li> <li>HOPU: Real-life Use Cases and Customizations with Grafana</li> </ul> <p>Visualisation of data is key to understanding trends and this webinar discusses how to analyse context data using common open source tools.</p> <p>With visualisation components such as Grafana, minor changes to default look-and-feel can really help to improve customer satisfaction. Co-presenting at our webinar on Monitoring Measures Using FIWARE and Grafana we will have a developer who makes changes such as these for a living who will be demonstrating some real-life FIWARE-Grafana tweaks and customisations they have created which have already reached paying clients.</p>'
   },
   {
     name: 'Customizing IoT Agents',
@@ -407,7 +407,7 @@ var pageData = [
     year: 2021,
     difficulty: 4,
     content:
-      '<ul>\n<li>Overview of Existing IoT Agents<ul>\n<li>Payloads, Transports and Protocols</li></ul></li>\n<li>Code walkthroughs<ul>\n<li>Customizing the IoT Agent for Ultralight to accept XML payloads</li>\n<li>IoT Agent Plugin adaptions - IoT Agent for ADAPT/ISOXML</li>\n<li>File-based Device Measure Upserts (CSV, Excel)</li></ul></li>\n</ul>\n<p>Many common payloads and protocols are already supported by IoT Agents. However, sometimes this is not enough and it is\nnecessary to create your own IoT Agent or customize an existing IoT Agent. This webinar discusses various strategies on\nhow to do this focusing on real-life use-cases from farming and water management.</p>'
+      '<ul> <li>Overview of Existing IoT Agents<ul> <li>Payloads, Transports and Protocols</li></ul></li> <li>Code walkthroughs<ul> <li>Customizing the IoT Agent for Ultralight to accept XML payloads</li> <li>IoT Agent Plugin adaptions - IoT Agent for ADAPT/ISOXML</li> <li>File-based Device Measure Upserts (CSV, Excel)</li></ul></li> </ul> <p>Many common payloads and protocols are already supported by IoT Agents. However, sometimes this is not enough and it is necessary to create your own IoT Agent or customize an existing IoT Agent. This webinar discusses various strategies on how to do this focusing on real-life use-cases from farming and water management.</p>'
   },
   {
     name: 'Connecting NGSI-LD FIWARE Components',
@@ -419,7 +419,7 @@ var pageData = [
     year: 2021,
     difficulty: 3,
     content:
-      '<ul>\n<li>Differences between NGSI-v2 vs NGSI-LD Interfaces<ul>\n<li>CRUD, Subscriptions and Registrations</li></ul></li>\n<li>Data Models and NGSI-LD <code>@context</code></li>\n<li>NGSI-LD Interfaces<ul>\n<li>Subscription Payloads (Key-Values, Normalized and GeoJSON) and Customizing Payloads</li>\n<li>Registration Forwarding and receiving payloads</li>\n<li>Federations and Data Ownership</li></ul></li>\n<li>Demo: Combining v2 and LD</li>\n</ul>\n<p>NGSI-LD is all about linked data. The NGSI-v2 syntax has evolved based on the work of the ETSI standards body. This\nwebinar discusses how to ensure your FIWARE components are NGSI-LD compatible, how to transition data and how to\ncontinue using NGSI-v2 components within an NGSI-LD architecture.</p>'
+      '<ul> <li>Differences between NGSI-v2 vs NGSI-LD Interfaces<ul> <li>CRUD, Subscriptions and Registrations</li></ul></li> <li>Data Models and NGSI-LD <code>@context</code></li> <li>NGSI-LD Interfaces<ul> <li>Subscription Payloads (Key-Values, Normalized and GeoJSON) and Customizing Payloads</li> <li>Registration Forwarding and receiving payloads</li> <li>Federations and Data Ownership</li></ul></li> <li>Demo: Combining v2 and LD</li> </ul> <p>NGSI-LD is all about linked data. The NGSI-v2 syntax has evolved based on the work of the ETSI standards body. This webinar discusses how to ensure your FIWARE components are NGSI-LD compatible, how to transition data and how to continue using NGSI-v2 components within an NGSI-LD architecture.</p>'
   },
   {
     name: 'End-to-end AI Solution With PySpark & Draco',
@@ -431,7 +431,7 @@ var pageData = [
     year: 2021,
     difficulty: 3,
     content:
-      "<ul>\n<li>Managing Real-Time Context Data</li>\n<li>Data Transformation and Persistence using Apache NIFI</li>\n<li>Setting up a Google Cloud Environment<ul>\n<li>Creating a DataProc Cluster and connecting it to Jupyter Notebook</li>\n<li>Using Google Cloud Storage service</li>\n<li>Submitting a PySpark Job on DataProc</li></ul></li>\n<li>Modelling a Machine Learning Solution on PySpark for Multi-classification</li>\n</ul>\n<p>Data processing is key to ensure Machine Learning models' performance. But commonly, data is collected and stored in its\nraw format, and to get insights from it, post-processing is required. What if all of this could be automated and managed\nthrough pipelines?</p>\n<p>This webinar not only demonstrates how to collect data in real-time, transform it, and persist it using Draco to be\nready for further use, but it also shows how to build an end-to-end AI service with PySpark hosted in the cloud.</p>"
+      "<ul> <li>Managing Real-Time Context Data</li> <li>Data Transformation and Persistence using Apache NIFI</li> <li>Setting up a Google Cloud Environment<ul> <li>Creating a DataProc Cluster and connecting it to Jupyter Notebook</li> <li>Using Google Cloud Storage service</li> <li>Submitting a PySpark Job on DataProc</li></ul></li> <li>Modelling a Machine Learning Solution on PySpark for Multi-classification</li> </ul> <p>Data processing is key to ensure Machine Learning models' performance. But commonly, data is collected and stored in its raw format, and to get insights from it, post-processing is required. What if all of this could be automated and managed through pipelines?</p> <p>This webinar not only demonstrates how to collect data in real-time, transform it, and persist it using Draco to be ready for further use, but it also shows how to build an end-to-end AI service with PySpark hosted in the cloud.</p>"
   },
   {
     name: 'NGSI-LD Temporal Operations',
@@ -443,7 +443,7 @@ var pageData = [
     year: 2021,
     difficulty: 3,
     content:
-      '<ul>\n<li>How to use NGSI-LD 1.3.1 Temporal Functions</li>\n<li>Normalized and Simplified Temporal Formats</li>\n<li>Complex Temporal Queries<ul>\n<li>Filtering</li>\n<li>Geo-queries</li>\n<li>Pagination</li></ul></li>\n<li>NGSI-LD 1.4.1 Temporal Aggregation Functions</li>\n<li>Time-Series vs Temporal Interface - what to use and when</li>\n</ul>\n<p>Context describes the state of a system at a moment in time. Traditionally context brokers have no memory - they are\njust holding the "now". However there are use cases which require the use of historical data and the NGSI-LD\nspecification recognizes this and offers an optional temporal API for time-based operations.</p>\n<p>This webinar will discuss the use of temporal operations, the types of payloads supported and other alternatives which\nmay be considered based on your use case.</p>'
+      '<ul> <li>How to use NGSI-LD 1.3.1 Temporal Functions</li> <li>Normalized and Simplified Temporal Formats</li> <li>Complex Temporal Queries<ul> <li>Filtering</li> <li>Geo-queries</li> <li>Pagination</li></ul></li> <li>NGSI-LD 1.4.1 Temporal Aggregation Functions</li> <li>Time-Series vs Temporal Interface - what to use and when</li> </ul> <p>Context describes the state of a system at a moment in time. Traditionally context brokers have no memory - they are just holding the "now". However there are use cases which require the use of historical data and the NGSI-LD specification recognizes this and offers an optional temporal API for time-based operations.</p> <p>This webinar will discuss the use of temporal operations, the types of payloads supported and other alternatives which may be considered based on your use case.</p>'
   },
   {
     name:
@@ -456,7 +456,7 @@ var pageData = [
     year: 2021,
     difficulty: 3,
     content:
-      '<ul>\n<li>Overview - API Umbrella</li>\n<li>Basic PEP and PDP Functions</li>\n<li>Load Balancing</li>\n<li>Integration with Keyrock</li>\n<li>Statistics and Logs</li>\n<li>iSHARE and Attribute-based Access Control</li>\n</ul>\n<p>Access and usage control guarantees the enforcement of data access and usage policies - such policies are defined as\npart of the terms and conditions when data resources and services are published or negotiated between providers and\nconsumers. Once defined, the policies must be enforced using appropriate software tools. This webinar demonstrates the\npotential of using API Umbrella for access control across a FIWARE-based system.</p>\n<p>API Umbrella is an open source API management tool incorporating both Policy Enforcement Point and Policy Decision Point\nfunctions which allows users to track and control API usage through API Keys and JSON Web Tokens. It also offers\nadditional features such as rate limiting, API usage analytics and caching. During the webinar we will present the core\nfunctions of API umbrella and give examples on how to protect your APIs based on API Keys and tokens. Finally, we will\nintroduce recent developments on how to manage API usage at the attribute level, based on iSHARE specifications.</p>'
+      '<ul> <li>Overview - API Umbrella</li> <li>Basic PEP and PDP Functions</li> <li>Load Balancing</li> <li>Integration with Keyrock</li> <li>Statistics and Logs</li> <li>iSHARE and Attribute-based Access Control</li> </ul> <p>Access and usage control guarantees the enforcement of data access and usage policies - such policies are defined as part of the terms and conditions when data resources and services are published or negotiated between providers and consumers. Once defined, the policies must be enforced using appropriate software tools. This webinar demonstrates the potential of using API Umbrella for access control across a FIWARE-based system.</p> <p>API Umbrella is an open source API management tool incorporating both Policy Enforcement Point and Policy Decision Point functions which allows users to track and control API usage through API Keys and JSON Web Tokens. It also offers additional features such as rate limiting, API usage analytics and caching. During the webinar we will present the core functions of API umbrella and give examples on how to protect your APIs based on API Keys and tokens. Finally, we will introduce recent developments on how to manage API usage at the attribute level, based on iSHARE specifications.</p>'
   },
   {
     name: 'Language Maps and Multilanguage support in NGSI-LD',
@@ -468,7 +468,7 @@ var pageData = [
     year: 2021,
     difficulty: 3,
     content:
-      "<ul>\n<li>Language Maps and why you need them</li>\n<li>NGSI-LD <code>LanguageProperty</code></li>\n<li>Multilingual Queries and Responses<ul>\n<li>NGSI-LD Output formats</li>\n<li>Language Tags (BCP 47)</li>\n<li>Content Language Headers (RFC 3282)</li></ul></li>\n<li>Localization and Internationalization<ul>\n<li>Dates and Currencies</li>\n<li>Collation and Sort Order</li>\n<li>Semantic Markup of Complex Objects</li></ul></li>\n</ul>\n<p>Smart Tourism is a growing sector of IT and an opportunity for economic growth. However what can you do if the tourists\nyou attract don't speak the local language? Also many regions are multilingual and therefore require support for their\nown infrastructure in a variety of local languages. NGSI-LD recognises underlying multi-language support is a need for\nmany such context-driven systems and the current ETSI specification now offers language properties which define a\nstandardized language support mechanism based on JSON-LD syntax.</p>\n<p>This webinar will discuss the latest specification changes and go into details as to what context brokers can and cannot\ndo, and describe the use of best practices for localizing and internationalizing smart data models</p>"
+      "<ul> <li>Language Maps and why you need them</li> <li>NGSI-LD <code>LanguageProperty</code></li> <li>Multilingual Queries and Responses<ul> <li>NGSI-LD Output formats</li> <li>Language Tags (BCP 47)</li> <li>Content Language Headers (RFC 3282)</li></ul></li> <li>Localization and Internationalization<ul> <li>Dates and Currencies</li> <li>Collation and Sort Order</li> <li>Semantic Markup of Complex Objects</li></ul></li> </ul> <p>Smart Tourism is a growing sector of IT and an opportunity for economic growth. However what can you do if the tourists you attract don't speak the local language? Also many regions are multilingual and therefore require support for their own infrastructure in a variety of local languages. NGSI-LD recognises underlying multi-language support is a need for many such context-driven systems and the current ETSI specification now offers language properties which define a standardized language support mechanism based on JSON-LD syntax.</p> <p>This webinar will discuss the latest specification changes and go into details as to what context brokers can and cannot do, and describe the use of best practices for localizing and internationalizing smart data models</p>"
   },
   {
     name: 'Machine learning with FIWARE and MLOps',
@@ -480,7 +480,7 @@ var pageData = [
     year: 2021,
     difficulty: 3,
     content:
-      '<ul>\n<li>What is MLOps?</li>\n<li>Tooling for Machine Learning</li>\n<li>Model &amp; Data Monitoring</li>\n<li>Continuous Integration, Deployment and Training</li>\n<li>Further Experimentation and Learning</li>\n</ul>\n<p>IoT has enabled companies to access data from billion of devices from all over the world but the full exploitation of\nthis data has not yet been achieved as AI adoption still lags. This is mainly due to the fact that 90% of Machine\nLearning models do not reach the production stage because of a rapid decline of model performance in the\nindustrialization phase. It is therefore necessary to provide solutions which can facilitate the transition from\ndevelopment to production. This is where FIWARE and MLOps come in to play to provide a full platform that can monitoring\nyour data and models through different mechanisms and strategies to limit or prevent performance degradation.</p>'
+      '<ul> <li>What is MLOps?</li> <li>Tooling for Machine Learning</li> <li>Model &amp; Data Monitoring</li> <li>Continuous Integration, Deployment and Training</li> <li>Further Experimentation and Learning</li> </ul> <p>IoT has enabled companies to access data from billion of devices from all over the world but the full exploitation of this data has not yet been achieved as AI adoption still lags. This is mainly due to the fact that 90% of Machine Learning models do not reach the production stage because of a rapid decline of model performance in the industrialization phase. It is therefore necessary to provide solutions which can facilitate the transition from development to production. This is where FIWARE and MLOps come in to play to provide a full platform that can monitoring your data and models through different mechanisms and strategies to limit or prevent performance degradation.</p>'
   },
   {
     name: 'Scalable deployments with FIWARE',
@@ -492,7 +492,7 @@ var pageData = [
     year: 2021,
     difficulty: 3,
     content:
-      '<ul>\n<li>Understanding of a scalable deployment</li>\n<li>Infrastructure</li>\n<li>Use-case Analysis</li>\n<li>Scaling the Orion-LD context broker</li>\n<li>Tooling and testing</li>\n</ul>\n<p>FIWARE components offer a wide range of functionalities and opportunities. Scaling of components to high levels of\nperformance, while maintaining cost efficiency and the ability to operate on the system is important in order to make\nuse of FIWARE.</p>\n<p>In this webinar, we will introduce how to plan for such scalable deployments and the environments they are running in.\nSetups, based on Kubernetes and OpenShift will be presented, together with associated performance numbers and\ninformation on how to achieve them.</p>'
+      '<ul> <li>Understanding of a scalable deployment</li> <li>Infrastructure</li> <li>Use-case Analysis</li> <li>Scaling the Orion-LD context broker</li> <li>Tooling and testing</li> </ul> <p>FIWARE components offer a wide range of functionalities and opportunities. Scaling of components to high levels of performance, while maintaining cost efficiency and the ability to operate on the system is important in order to make use of FIWARE.</p> <p>In this webinar, we will introduce how to plan for such scalable deployments and the environments they are running in. Setups, based on Kubernetes and OpenShift will be presented, together with associated performance numbers and information on how to achieve them.</p>'
   },
   {
     name: 'Cloud-Edge processing with FogFlow',
@@ -504,7 +504,7 @@ var pageData = [
     year: 2021,
     difficulty: 3,
     content:
-      '<p>Device orchestration can be boring, repetitive and error-prone, however, FogFlow, with its novel intent-based\nprogramming model has turned the tables on this monotony, and created a standard-based data orchestration mechanism. It\nallows IoT solution providers to easily enable the smartness of their connected IoT devices with re-usable and\nextendable data processing capabilities that can run seamlessly on top of a cloud-edge environment.</p>\n<p>FogFlow is emerging as a preferred choice within the FIWARE ecosystem to enable cloud-edge computing and digital twins\nand it can help to reduce the time-to-market of IoT solutions from months to days. This webinar will introduce the key\nfeatures of FogFlow and also showcases how to integrate FogFlow with other FIWARE Generic Enablers across a variety of\nuse cases.</p>'
+      '<p>Device orchestration can be boring, repetitive and error-prone, however, FogFlow, with its novel intent-based programming model has turned the tables on this monotony, and created a standard-based data orchestration mechanism. It allows IoT solution providers to easily enable the smartness of their connected IoT devices with re-usable and extendable data processing capabilities that can run seamlessly on top of a cloud-edge environment.</p> <p>FogFlow is emerging as a preferred choice within the FIWARE ecosystem to enable cloud-edge computing and digital twins and it can help to reduce the time-to-market of IoT solutions from months to days. This webinar will introduce the key features of FogFlow and also showcases how to integrate FogFlow with other FIWARE Generic Enablers across a variety of use cases.</p>'
   },
   {
     name: 'FIWARE Basics, understanding the terminology',
@@ -516,7 +516,7 @@ var pageData = [
     year: 2021,
     difficulty: 1,
     content:
-      '<ul>\n<li>What is FIWARE?</li>\n<li>The role of the FIWARE Foundation</li>\n<li>Standards, Interfaces and Interoperability</li>\n<li>Developer Terminology<ul>\n<li>REST</li>\n<li>JSON</li>\n<li>Linked Data</li>\n<li>NGSI-v2 &amp; NGSI-LD</li></ul></li>\n<li>Standards within Security and Data Sharing</li>\n</ul>\n<p>Do you know what an "API" is? Ever wondered what makes it "open"?</p>\n<p>Every profession has its own jargon and software engineering is no exception.</p>\n<p>The aim of this webinar is to demystify the terminology surrounding FIWARE for a non-technical audience and explain why\ndevelopers find it so easy to use.</p>'
+      '<ul> <li>What is FIWARE?</li> <li>The role of the FIWARE Foundation</li> <li>Standards, Interfaces and Interoperability</li> <li>Developer Terminology<ul> <li>REST</li> <li>JSON</li> <li>Linked Data</li> <li>NGSI-v2 &amp; NGSI-LD</li></ul></li> <li>Standards within Security and Data Sharing</li> </ul> <p>Do you know what an "API" is? Ever wondered what makes it "open"?</p> <p>Every profession has its own jargon and software engineering is no exception.</p> <p>The aim of this webinar is to demystify the terminology surrounding FIWARE for a non-technical audience and explain why developers find it so easy to use.</p>'
   },
   {
     name: 'Passing the FIWARE Experts Exam',
@@ -528,7 +528,7 @@ var pageData = [
     year: 2021,
     difficulty: 3,
     content:
-      '<ul>\n<li>Background and History of the Examination</li>\n<li>The role of the Examiners, Marking and Grading</li>\n<li>Mock Examination<ul>\n<li>Body of Work</li>\n<li>NGSI Interfaces</li>\n<li>FIWARE Catalogue</li>\n<li>Architectural Scenario</li>\n<li>FIWARE Ready Devices</li></ul></li>\n<li>Conclusions and Opportunities for certified FIWARE Experts</li>\n</ul>\n<p>As an emerging technology, the FIWARE ecosystem has a growing need to be able to identify those principle developers who\nfully understand its core concepts(such as NGSI-v2 and NGSI-LD interfaces and other FIWARE fundamentals) and are able to\ncreate intelligent Smart Solutions which leverage the technology to the best effect.</p>\n<p>A comprehensive examination process for identifying expertise in FIWARE was launched three years ago, and the number of\nregistered FIWARE experts has been growing ever since.</p>\n<p>The webinar provides a walkthrough of the examination process and explains how it is run, and is designed to help\ncandidates understand the level of answers needed in order to pass with flying colours.</p>'
+      '<ul> <li>Background and History of the Examination</li> <li>The role of the Examiners, Marking and Grading</li> <li>Mock Examination<ul> <li>Body of Work</li> <li>NGSI Interfaces</li> <li>FIWARE Catalogue</li> <li>Architectural Scenario</li> <li>FIWARE Ready Devices</li></ul></li> <li>Conclusions and Opportunities for certified FIWARE Experts</li> </ul> <p>As an emerging technology, the FIWARE ecosystem has a growing need to be able to identify those principle developers who fully understand its core concepts(such as NGSI-v2 and NGSI-LD interfaces and other FIWARE fundamentals) and are able to create intelligent Smart Solutions which leverage the technology to the best effect.</p> <p>A comprehensive examination process for identifying expertise in FIWARE was launched three years ago, and the number of registered FIWARE experts has been growing ever since.</p> <p>The webinar provides a walkthrough of the examination process and explains how it is run, and is designed to help candidates understand the level of answers needed in order to pass with flying colours.</p>'
   },
   {
     name: 'Managing Data Models and Exposing Digital Twins',
@@ -540,7 +540,7 @@ var pageData = [
     year: 2022,
     difficulty: 3,
     content:
-      '<ul>\n<li>FIWARE iHubs - local and global</li>\n<li>Structure and Use of NGSI-LD to deal with Complexity</li>\n<li>Data Models as a "common language"</li>\n<li>Building a simple sensor model</li>\n<li>Controlling actions of Digital Twins</li>\n<li>Capabilities defined in AAS (Asset Administrative Shell)</li>\n</ul>\n<p>NGSI-LD has proved its relevance and efficiency to address technical interoperability challenges in many sectors and use cases\nimplemented through FIWARE components, but we need new tools and approaches to go further towards semantic interoperability and \ncontrolled interactions with heterogeneous stakeholders, including human beings who have no idea of what an API is.</p>\n<p>The Asset Administration Shell (AAS) is a key concept to support digital twins implementation following the vision of the German \nPlattform I4.0 initiative, and can contribute to a better exploitation of Machine-to-Machine interactions and also an improved \nunderstanding of the digitized assets for people who may have a deep knowledge of own their businesses opportunities and constraints\nbut little API experience.</p>\n<p>In this webinar, we’ll discover how the French FIWARE iHub Faubourg Numérique has built up tools and methodologies based on NGSI-LD\ndata models and the AAS concept to better engage and support SMEs and local governments in their digital innovations and transformations.\nConcrete use cases and demos in environmental monitoring and industrial robotics among others, will illustrate data modeling and \ncapabilities definitions with the help of a GUI-based “powered by FIWARE” solution.</p>'
+      '<ul> <li>FIWARE iHubs - local and global</li> <li>Structure and Use of NGSI-LD to deal with Complexity</li> <li>Data Models as a "common language"</li> <li>Building a simple sensor model</li> <li>Controlling actions of Digital Twins</li> <li>Capabilities defined in AAS (Asset Administrative Shell)</li> </ul> <p>NGSI-LD has proved its relevance and efficiency to address technical interoperability challenges in many sectors and use cases implemented through FIWARE components, but we need new tools and approaches to go further towards semantic interoperability and  controlled interactions with heterogeneous stakeholders, including human beings who have no idea of what an API is.</p> <p>The Asset Administration Shell (AAS) is a key concept to support digital twins implementation following the vision of the German  Plattform I4.0 initiative, and can contribute to a better exploitation of Machine-to-Machine interactions and also an improved  understanding of the digitized assets for people who may have a deep knowledge of own their businesses opportunities and constraints but little API experience.</p> <p>In this webinar, we’ll discover how the French FIWARE iHub Faubourg Numérique has built up tools and methodologies based on NGSI-LD data models and the AAS concept to better engage and support SMEs and local governments in their digital innovations and transformations. Concrete use cases and demos in environmental monitoring and industrial robotics among others, will illustrate data modeling and  capabilities definitions with the help of a GUI-based “powered by FIWARE” solution.</p>'
   },
   {
     name: 'NGSI-LD Concise Payloads and Merge Patch Operations',
@@ -552,7 +552,7 @@ var pageData = [
     year: 2022,
     difficulty: 3,
     content:
-      '<ul>\n<li>NGSI-LD payload formats<ul>\n<li>Normalized</li>\n<li>Simplified (Key-Value pairs)</li>\n<li>Concise</li></ul></li>\n<li>Context broker operations and supported HTTP Methods in Orion-LD:<ul>\n<li>GET, POST, DELETE, PATCH, PUT, OPTIONS</li></ul></li>\n<li>PATCH Operations Deep Dive:<ul>\n<li>Partial Update</li>\n<li>Merge</li>\n<li>Use of JSON Literal <code>null</code></li>\n<li>Architectural Scenario</li>\n<li>FIWARE Ready Devices</li></ul></li>\n</ul>\n<p>As NGSI-LD becomes more established, the needs of its user base become ever more diverse. Whether moving into data sharing\nor robotics, growing customer need dictates that context brokers must keep up with consumer demand and be able to offer\nprototypical versions of novel features for assessment and use. </p>\n<p>The aim of this webinar is to showcase some experimental features of the Orion-LD context broker showing how its syntax,\ntransports and endpoints can be adapted. These changes can then be contributed to the ETSI CIM committee for further\ndiscussion to achieve common operational consensus across brokers and specification changes made offering the potential\nto broaden the uptake of the official NGSI-LD API itself.</p>\n<p>Learn how concise payloads and merge-patch updates have been provisionally integrated into the Orion-LD context broker\nproviding an opportunity of innovation before standardization and how to start to use these new features and how to avoid\nincompatibility clashes against the solid core of the NGSI-LD standard.</p>'
+      '<ul> <li>NGSI-LD payload formats<ul> <li>Normalized</li> <li>Simplified (Key-Value pairs)</li> <li>Concise</li></ul></li> <li>Context broker operations and supported HTTP Methods in Orion-LD:<ul> <li>GET, POST, DELETE, PATCH, PUT, OPTIONS</li></ul></li> <li>PATCH Operations Deep Dive:<ul> <li>Partial Update</li> <li>Merge</li> <li>Use of JSON Literal <code>null</code></li> <li>Architectural Scenario</li> <li>FIWARE Ready Devices</li></ul></li> </ul> <p>As NGSI-LD becomes more established, the needs of its user base become ever more diverse. Whether moving into data sharing or robotics, growing customer need dictates that context brokers must keep up with consumer demand and be able to offer prototypical versions of novel features for assessment and use. </p> <p>The aim of this webinar is to showcase some experimental features of the Orion-LD context broker showing how its syntax, transports and endpoints can be adapted. These changes can then be contributed to the ETSI CIM committee for further discussion to achieve common operational consensus across brokers and specification changes made offering the potential to broaden the uptake of the official NGSI-LD API itself.</p> <p>Learn how concise payloads and merge-patch updates have been provisionally integrated into the Orion-LD context broker providing an opportunity of innovation before standardization and how to start to use these new features and how to avoid incompatibility clashes against the solid core of the NGSI-LD standard.</p>'
   },
   {
     name: 'Extending FIWARE MLOps using Argo Workflows',
@@ -564,7 +564,7 @@ var pageData = [
     year: 2022,
     difficulty: 3,
     content:
-      '<ul>\n<li>Background to MLOps</li>\n<li>Tooling for Machine Learning</li>\n<li>Use of FIWARE within MLOps</li>\n<li>Use of Argo Workflows</li>\n<li>Verta AI monitioring</li>\n<li>Continuous Training, Continuous Integration, Continuous Development</li>\n</ul>\n<p>MLOps is trend which has emerged to facilitate the industrialization of AI models. It consists of implementing DevOps \npractices within a Machine Learning project. MLOps is a set of best practices to manage the AI models and data lifecycle.</p>\n<p>The aim of this webinar is to present a methodology for implementing MLOps at scale within a Kubernetes architecture by \nleveraging FIWARE interfaces.</p>\n<p>Learn how to create and manage Machine Learning pipelines with Argo Workflow. This talk will also showcase all the benefits \nof using CI/CD to automate AI models deployment into a production environment.</p>'
+      '<ul> <li>Background to MLOps</li> <li>Tooling for Machine Learning</li> <li>Use of FIWARE within MLOps</li> <li>Use of Argo Workflows</li> <li>Verta AI monitioring</li> <li>Continuous Training, Continuous Integration, Continuous Development</li> </ul> <p>MLOps is trend which has emerged to facilitate the industrialization of AI models. It consists of implementing DevOps  practices within a Machine Learning project. MLOps is a set of best practices to manage the AI models and data lifecycle.</p> <p>The aim of this webinar is to present a methodology for implementing MLOps at scale within a Kubernetes architecture by  leveraging FIWARE interfaces.</p> <p>Learn how to create and manage Machine Learning pipelines with Argo Workflow. This talk will also showcase all the benefits  of using CI/CD to automate AI models deployment into a production environment.</p>'
   },
   {
     name:
@@ -577,7 +577,7 @@ var pageData = [
     year: 2022,
     difficulty: 3,
     content:
-      '<ul>\n<li>Essential background concepts - FIWARE and ROS2 </li>\n<li>Architectural Approach<ul>\n<li><code>iot-agent-node-lib</code></li>\n<li>IoT Agent for JSON as baseline</li>\n<li><code>rclnodejs</code> library</li></ul></li>\n<li>Demo: Turtle Sim</li>\n</ul>\n<p>FIWARE can be found in many industrial systems and in this webinar, we will share with you the secrets behind implementing a ROS2 IoT Agent, and how to potentially extend this methodology to other \nindustrial robotics systems.</p>\n<p>There will also be a live demonstration how to monitor and supervise ROS 2 systems using FIWARE and the TurtleSim.</p>'
+      '<ul> <li>Essential background concepts - FIWARE and ROS2 </li> <li>Architectural Approach<ul> <li><code>iot-agent-node-lib</code></li> <li>IoT Agent for JSON as baseline</li> <li><code>rclnodejs</code> library</li></ul></li> <li>Demo: Turtle Sim</li> </ul> <p>FIWARE can be found in many industrial systems and in this webinar, we will share with you the secrets behind implementing a ROS2 IoT Agent, and how to potentially extend this methodology to other  industrial robotics systems.</p> <p>There will also be a live demonstration how to monitor and supervise ROS 2 systems using FIWARE and the TurtleSim.</p>'
   },
   {
     name: 'IoT Agent Gateways Using the IOTA Tangle for Secure Data Transfer',
@@ -591,25 +591,41 @@ var pageData = [
     content: '<p>ROS, IoT Agent</p>'
   },
   {
-    name: 'FIWARE iHUb Webinar',
-    img: '',
+    name:
+      'FIWARE iHubs Webinar - Spain (Andalusia), Italy (Perugia), Argentina (La Plata)',
+    img: 'https://img.youtube.com/vi/IXjQwcuf9Xw/0.jpg',
     companyLink: 'https://www.youtube.com/watch?v=IXjQwcuf9Xw',
     domain: ['iHubs'],
     type: '',
     technology: [],
-    year: 2022,
+    year: 2020,
     difficulty: 1,
-    content: '<p>Spain, Italy,Argentina</p>'
+    content:
+      '<p>This webinar describes the functions of a FIWARE iHub. What the benefits are and how and why organizations should apply to become one.</p>'
   },
   {
-    name: 'FIWARE iHub Webinar 2',
-    img: '',
+    name:
+      'FIWARE iHubs Webinar - Spain (Badajoz), France (Saint-Quentin), Uruguay (Montevideo)',
+    img: 'https://img.youtube.com/vi/GmloMFyDa7Y/0.jpg',
     companyLink: 'https://www.youtube.com/watch?v=GmloMFyDa7Y',
     domain: ['iHubs'],
     type: '',
     technology: [],
-    year: 2022,
-    difficulty: 2,
-    content: '<p>Spain, France and Uruguay</p>'
+    year: 2020,
+    difficulty: 1,
+    content:
+      '<p>This webinar describes the functions of a FIWARE iHub. What the benefits are and how and why organizations should apply to become one.</p>'
+  },
+  {
+    name: 'FIWARE iHubs Webinar - the Netherlands, Canary Islands, Azores',
+    img: 'https://img.youtube.com/vi/a1RV2UILgyg/0.jpg',
+    companyLink: 'https://www.youtube.com/watch?v=a1RV2UILgyg',
+    domain: ['iHubs'],
+    type: '',
+    technology: [],
+    year: 2020,
+    difficulty: 1,
+    content:
+      '<p>This webinar describes the functions of a FIWARE iHub. What the benefits are and how and why organizations should apply to become one.</p>'
   }
 ];
