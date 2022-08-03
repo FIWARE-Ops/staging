@@ -40,7 +40,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_UrbanInstitute.svg',
       featuredImage:
-        'https://www.ui.city/templates/yootheme/cache/ui-UrbanPulse_2020-08-12_LeH-b55eaa46.webp',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_ui-urban-software_ui-urbanpulse.png',
       furtherImages: ''
     },
     'absolutezero-thor': {
@@ -68,7 +68,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_AbsoluteZero.svg',
-      featuredImage: 'https://i.ytimg.com/vi/ReKIfNCd-h8/maxresdefault.jpg',
+      featuredImage:
+        'https://www.fiware.org/wp-content/marketplace/images/hero_absolute-zero_thor.png',
       furtherImages: ''
     },
     'accelogresslimited-saveaspace': {
@@ -102,7 +103,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_save-a-space.svg',
       featuredImage:
-        'https://pbs.twimg.com/profile_banners/707587044348919808/1458038594/1500x500',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_accelogress-limited_save-a-space.png',
       furtherImages: ''
     },
     'agricolus-agricolus': {
@@ -161,7 +162,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.agricolus.com/wp-content/uploads/2021/01/device-gen-2021-1.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_agricolus_agricolus-ecosystem.png',
           excerpt:
             'AGRICOLUS is a cloud applications ecosystem for precision farming with multiple purposes: disease awareness and forecasts, crop monitoring, decision support system for treatments and fertilizers, farm management, and end-to-end traceability bringing valuable information to final users.',
           productName: 'Agricolus Ecosystem',
@@ -206,7 +207,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Amigo.svg',
-      featuredImage: 'https://amigoclimate.com/assets/img/demo2.gif',
+      featuredImage:
+        'https://www.fiware.org/wp-content/marketplace/images/hero_amigo_index-design-and-analysis.png',
       furtherImages: ''
     },
     'atos-masai': {
@@ -241,12 +243,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_Masai.png',
       featuredImage:
-        'https://booklet.atosresearch.eu/sites/booklet/files/public/styles/medium/public/content-images/media/2020/industry.png?itok=9d9r2H2A',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_atos_masai.png',
       furtherImages: '',
       related: [
         {
           category: 'Powered by FIWARE',
-          featuredImage: 'https://im.ge/i/Fj7x4m',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_atos_urban-data-platform.png',
           excerpt:
             'UDP is the open, secure, and interoperable Atos standard data platform that allows the integration and collection of information from data sources, and the standardization and processing of that information to provide aggregated and intelligent views of raw data to facilitate decision-making.',
           productName: 'Urban Data Platform',
@@ -255,7 +258,7 @@ var pageData = {
         {
           category: 'Services',
           featuredImage:
-            'https://iot-automotive.news/wp-content/uploads/2021/08/Thales-SOFTWARE-REPUBLIQUE_Mobile.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_atos_connected-territories.png',
           excerpt:
             'Atos, a leading digital services company and one of the founders of the initiative, has acquired deep knowledge of the FIWARE technologies and ecosystem.',
           productName: 'Connected Territories',
@@ -312,13 +315,14 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Atos.svg',
-      featuredImage: 'https://im.ge/i/Fj7x4m',
+      featuredImage:
+        'https://www.fiware.org/wp-content/marketplace/images/hero_atos_urban-data-platform.png',
       furtherImages: '',
       related: [
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://booklet.atosresearch.eu/sites/booklet/files/public/styles/medium/public/content-images/media/2020/industry.png?itok=9d9r2H2A',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_atos_masai.png',
           excerpt:
             'MASAI is an efficient data integration software for manufacturing systems allowing to collect data from a variety of IoT Devices in the manufacturing domain (Industry 4.0), that is not entirely covered by existing proprietary solutions.',
           productName: 'MASAI',
@@ -327,7 +331,7 @@ var pageData = {
         {
           category: 'Services',
           featuredImage:
-            'https://iot-automotive.news/wp-content/uploads/2021/08/Thales-SOFTWARE-REPUBLIQUE_Mobile.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_atos_connected-territories.png',
           excerpt:
             'Atos, a leading digital services company and one of the founders of the initiative, has acquired deep knowledge of the FIWARE technologies and ecosystem.',
           productName: 'Connected Territories',
@@ -366,7 +370,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Bettair.svg',
       featuredImage:
-        'https://bettaircities.com/wp-content/uploads/2020/05/Mockups-06-1-e1589391035762-1536x881.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_bettair-cities_bettair.png',
       furtherImages: ''
     },
     'bookingabus-bookingabuscom': {
@@ -395,7 +399,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_BookingABus.png',
       featuredImage:
-        'https://www.bookingabus.com/assets/feature-2-72d9afea2fdaa11636d6cac18c41c05c54200975c2969fe9580dda16524cea9b.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_bookingabus_bookingabus.png',
       furtherImages: ''
     },
     'bosonit-elliotcloud': {
@@ -428,7 +432,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Bosonit.svg',
       featuredImage:
-        'https://cdn.bosonit.com/n-content/uploads/2021/05/elliot-2-1024x512-1.jpg.webp',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_bosonit_elliot-cloud.png',
       furtherImages: ''
     },
     'breezetechnologies-breezeenvironmentalintelligencecloud': {
@@ -463,13 +467,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_BreezeTechnologies.svg',
       featuredImage:
-        'https://www.breeze-technologies.de/wp-content/uploads/2016/02/Breeze-Concept-Design-2015-10-29-2-Map-View-Macbook.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_breeze-technologies_breeze-environmental-intelligence-cloud.png',
       furtherImages: '',
       related: [
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://www.breeze-technologies.de/wp-content/uploads/2016/02/Breeze-Concept-Design-2015-10-29-2-Map-View-Macbook.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_breeze-technologies_environmental-intelligence-suite.png',
           excerpt:
             "Breeze Technologies\\' Environmental Intelligence Suite consists of indoor and outdoor air quality sensors, and the Environmental Intelligence Cloud, a SaaS data analytics platform for large air quality datasets. It supports cities, businesses and NGOs to collect and analze air quality in real time.",
           productName: 'Environmental Intelligence Suite',
@@ -479,7 +483,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.breeze-technologies.de/wp-content/uploads/2016/02/Breeze-Concept-Design-2015-10-29-2-Map-View-Macbook.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_breeze-technologies_breeze-air-quality-sensors.png',
           excerpt:
             'Breeze Air Quality Sensors offers low-cost air quality sensors delivering highly accurate real-time air quality data about all important indicators.',
           productName: 'Breeze Air Quality Sensors',
@@ -528,13 +532,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_BreezeTechnologies.svg',
       featuredImage:
-        'https://www.breeze-technologies.de/wp-content/uploads/2016/02/Breeze-Concept-Design-2015-10-29-2-Map-View-Macbook.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_breeze-technologies_environmental-intelligence-suite.png',
       furtherImages: '',
       related: [
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://www.breeze-technologies.de/wp-content/uploads/2016/02/Breeze-Concept-Design-2015-10-29-2-Map-View-Macbook.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_breeze-technologies_breeze-environmental-intelligence-cloud.png',
           excerpt:
             'Breeze Technologies enables cities and corporates to create a more liveable environment by providing actionable insights based on environmental sensor data.',
           productName: 'Breeze Environmental Intelligence Cloud',
@@ -544,7 +548,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.breeze-technologies.de/wp-content/uploads/2016/02/Breeze-Concept-Design-2015-10-29-2-Map-View-Macbook.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_breeze-technologies_breeze-air-quality-sensors.png',
           excerpt:
             'Breeze Air Quality Sensors offers low-cost air quality sensors delivering highly accurate real-time air quality data about all important indicators.',
           productName: 'Breeze Air Quality Sensors',
@@ -595,7 +599,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_CardioID.svg',
       featuredImage:
-        'https://www.cardio-id.com/wp-content/uploads/2022/01/cardioid-home-knowledge-scaled.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_cardioid_cardiowheel.png',
       furtherImages: ''
     },
     'carto-urbo': {
@@ -629,7 +633,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Carto.svg',
       featuredImage:
-        'https://images.ctfassets.net/xts27qnup0jr/6mYqiUsXHXQ7laztB988DH/36db94661f31bb657986980af0c2fd09/cities-government.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_carto_urbo.png',
       furtherImages: ''
     },
     'ciclogreenmovewin-ciclogreen': {
@@ -679,7 +683,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_CicloGreen.svg',
       featuredImage:
-        'https://drive.google.com/file/d/1fApltCN-dYcF_cju4gW8BfudxQiNK47x/view',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_ciclogreen-move-and-win_ciclogreen.png',
       furtherImages: ''
     },
     'civity-snifferbike': {
@@ -732,7 +736,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_SnifferBike.svg',
       featuredImage:
-        'https://civity.nl/wp-content/uploads/2019/11/Snifferbike-MdN-rotonde-auto-logo-16-9-2048x1152.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_civity_sniffer-bike.png',
       furtherImages: ''
     },
     'communithings-stopbuy': {
@@ -762,7 +766,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_CommuniThings.svg',
-      featuredImage: 'https://www.communithings.com/img/ct_phone_landing.png',
+      featuredImage:
+        'https://www.fiware.org/wp-content/marketplace/images/hero_communithings_stop-buy.png',
       furtherImages: ''
     },
     'connectrobotics-drone2me': {
@@ -800,7 +805,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_ConnectRobotics.svg',
-      featuredImage: 'https://connect-robotics.com/assets/m300.png',
+      featuredImage:
+        'https://www.fiware.org/wp-content/marketplace/images/hero_connect-robotics_drone-2-me.png',
       furtherImages: ''
     },
     'digitalilusion-outbarriers': {
@@ -841,13 +847,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_OutBarriers.svg',
       featuredImage:
-        'https://outbarriers.com/static/img/outbarriers-app-mockup-vertical.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_digitalilusion_outbarriers.png',
       furtherImages: '',
       related: [
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://outbarriers.com/static/img/outbarriers-app-mockup-vertical.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_digitalilusion_outbeacon.png',
           excerpt:
             'Bluetooth Low Energy device that works as a beacon for the visibly impaired.Outbarries is born from the real need to help people with vision problems.',
           productName: 'Outbeacon',
@@ -886,7 +892,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_DKSR.svg',
       featuredImage:
-        'https://www.dksr.city/wp-content/uploads/2021/04/201103-DKSR-Grafik-Architektur-transparent.svg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_dksr_open-urban-data-platform.png',
       furtherImages: ''
     },
     'egm-carpoolparking': {
@@ -920,13 +926,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_EGM.svg',
       featuredImage:
-        'https://www.egm.io/wp-content/uploads/2021/09/cd66-montage-blog.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_egm_carpool-parking.png',
       furtherImages: '',
       related: [
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://www.egm.io/wp-content/uploads/2020/10/7-scaled.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_egm_smart-irrigation.png',
           excerpt:
             'EGM offers a complete solution for determining the amount of water that can be saved on a green space and deploying the control solution in addition to an existing watering system to achieve the water savings in question. Our solution saved 35% of the water on the first deployment.',
           productName: 'Smart Irrigation',
@@ -935,7 +941,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.egm.io/wp-content/uploads/2020/08/egm-home-pic.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_egm_edgespot.png',
           excerpt:
             'The device EdgeSpot is a highly scalable hardware and software platform that takes you from concept to market by accelerating the proof-of-concept phases.',
           productName: 'EdgeSpot',
@@ -944,7 +950,7 @@ var pageData = {
         {
           category: 'Services',
           featuredImage:
-            'https://pbs.twimg.com/profile_banners/4419455500/1610366049/1500x500',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_egm_design-office.png',
           excerpt:
             'From idea (feasibility study, design, prototyping, industrialization and manufacturing)  to realization of your solution: a user-centered creation process. \nYou know your work we help you to optimize it!',
           productName: 'Design office',
@@ -984,13 +990,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_EGM.svg',
       featuredImage:
-        'https://www.egm.io/wp-content/uploads/2020/10/7-scaled.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_egm_smart-irrigation.png',
       furtherImages: '',
       related: [
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://www.egm.io/wp-content/uploads/2021/09/cd66-montage-blog.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_egm_carpool-parking.png',
           excerpt:
             'This camera allows us to count entries and exits in a carpool park and to determine whether the cars parked are indeed intended for carpooling. This device allows our clients to have tangible statistics on the occupation of a car park.',
           productName: 'Carpool Parking',
@@ -999,7 +1005,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.egm.io/wp-content/uploads/2020/08/egm-home-pic.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_egm_edgespot.png',
           excerpt:
             'The device EdgeSpot is a highly scalable hardware and software platform that takes you from concept to market by accelerating the proof-of-concept phases.',
           productName: 'EdgeSpot',
@@ -1008,7 +1014,7 @@ var pageData = {
         {
           category: 'Services',
           featuredImage:
-            'https://pbs.twimg.com/profile_banners/4419455500/1610366049/1500x500',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_egm_design-office.png',
           excerpt:
             'From idea (feasibility study, design, prototyping, industrialization and manufacturing)  to realization of your solution: a user-centered creation process. \nYou know your work we help you to optimize it!',
           productName: 'Design office',
@@ -1055,7 +1061,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_eVineyard.svg',
       featuredImage:
-        'https://i.im.ge/2022/08/01/Ft2coq.eVineyard-Vineyard-management-software-2-.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_elmitel_evineyard.png',
       furtherImages: ''
     },
     'engineering-digitalenabler': {
@@ -1092,12 +1098,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_DigitalEnabler.svg',
       featuredImage:
-        'https://www.eng.it/resources/platform/digital-enabler/img/digital-enabler2-q1.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_engineering_digital-enabler.png',
       furtherImages: '',
       related: [
         {
           category: 'Powered by FIWARE',
-          featuredImage: '',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_engineering_curavestacuravesta.png',
           excerpt:
             'CuraVesta© is an assistance system, which was developed by ENGINEERING for home care. As a Health solution, it supports people who care for and nurse their relatives at home.',
           productName: 'CuraVesta',
@@ -1106,7 +1113,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.eng.it/resources/cases/cs_imp_case_16-11-2020_dashram_it_1605516526298/dashram_q.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_engineering_dashram.png',
           excerpt:
             'Dashram is an Open Source tool for advanced data visualization, characterized by a simple and functional interface that provides the means to create and share 2D and 3D charts, map-based visualizations and dashboards.',
           productName: 'Dashram',
@@ -1115,7 +1122,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.knowage-suite.com/site/wp-content/uploads/2021/09/knowage-overview.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_engineering_knowage.png',
           excerpt:
             'KNOWAGE  is the professional open-source suite for analytics and business intelligence with any data, fully compliant with FIWARE architecture and GEs.',
           productName: 'KNOWAGE',
@@ -1150,7 +1157,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Engineering.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.fiware.org/wp-content/marketplace/images/hero_engineering_curavestacuravesta.png',
       furtherImages: ''
     },
     'everimpact-everimpact': {
@@ -1179,7 +1187,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Everimpact.svg',
       featuredImage:
-        'https://static.wixstatic.com/media/21208c_7b677a546b204233b3d4fae22a077c36~mv2.jpg/v1/crop/x_0,y_3,w_1753,h_1064/fill/w_1068,h_648,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/UI_edited.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_everimpact_everimpact.png',
       furtherImages: ''
     },
     'farmdogtechnologies-farmdog': {
@@ -1209,7 +1217,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_FarmDog.svg',
       featuredImage:
-        'https://farmdog.ag/wp-content/uploads/2021/11/unsplash_yJDZTDeHeG8.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_farm-dog-technologies_farm-dog.png',
       furtherImages: ''
     },
     'fashioncloud-fashioncloud': {
@@ -1238,7 +1246,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_FashionCloud.svg',
       featuredImage:
-        'https://fashion.cloud/wp-content/uploads/2020/01/Mobil-DE-min-1-800x816.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_fashion-cloud_fashion-cloud.png',
       furtherImages: ''
     },
     'faubourgnumérique-ouranosws': {
@@ -1273,13 +1281,14 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_OuranosWS.svg',
-      featuredImage: 'https://ouranos-ws.com/images/image1.png',
+      featuredImage:
+        'https://www.fiware.org/wp-content/marketplace/images/hero_faubourg-numerique_ouranos-ws.png',
       furtherImages: '',
       related: [
         {
           category: 'Services',
           featuredImage:
-            'https://pbs.twimg.com/profile_banners/4830648545/1542979261/1500x500',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_faubourg-numerique_fiware-ihub.png',
           excerpt:
             'Based on its mutualized FIWARE Platform (NGSI V2 and NGSI-LD) , Faubourg Numérique supports its customers to design, prototype and implement assets virtualization and associated smart solutions.',
           productName: 'FIWARE iHub',
@@ -1347,7 +1356,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_FIWOO.svg',
       featuredImage:
-        'https://www.fiwoo.eu/wp-content/uploads/2020/09/ilustracion_fiwoo-1.svg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_fiwoo_fiwoo.png',
       furtherImages: ''
     },
     'floud-floud': {
@@ -1391,7 +1400,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Floud.svg',
-      featuredImage: 'https://www.floud.eu/img/products/vehiclecounter.png',
+      featuredImage:
+        'https://www.fiware.org/wp-content/marketplace/images/hero_floud_floud.png',
       furtherImages: ''
     },
     'freesense-freesense': {
@@ -1420,7 +1430,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_FreeSense.svg',
       featuredImage:
-        'https://uploads-ssl.webflow.com/613b5a18ce2b592d76068e5f/62681499d6f738aef8e8d942_tannaz-doing-stuff.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_freesense_freesense.png',
       furtherImages: ''
     },
     'fueloyal-fueloyal': {
@@ -1454,7 +1464,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_FueLoyal.svg',
       featuredImage:
-        'https://www.fueloyal.com/wp-content/themes/fueloyal2020/images/home/truck.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_fueloyal_fueloyal.png',
       furtherImages: ''
     },
     'futureintelligence-quhoma': {
@@ -1512,7 +1522,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_FutureIntelligence.svg',
-      featuredImage: 'http://quhoma.com/wp-content/uploads/2015/04/bg2.jpg',
+      featuredImage:
+        'https://www.fiware.org/wp-content/marketplace/images/hero_future-intelligence_quhoma.png',
       furtherImages: ''
     },
     'greenapes-greenapes': {
@@ -1541,7 +1552,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_GreenApes.svg',
       featuredImage:
-        'https://scontent-frx5-2.xx.fbcdn.net/v/t1.18169-9/734851_141741799313926_2094598020_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=19026a&_nc_ohc=NAu859zKo54AX_-S7iy&_nc_ht=scontent-frx5-2.xx&oh=00_AT-PZaNhY_EuYNsSyvJL4VbJ_y6SmwzsW3HreUXwfhE-Mw&oe=63058D31',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_greenapes_greenapes.png',
       furtherImages: ''
     },
     'gymcraft-gymcraft': {
@@ -1570,7 +1581,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_GymCraft.svg',
-      featuredImage: 'https://gymcraft.es/wp-content/uploads/2019/03/sp3.png',
+      featuredImage:
+        'https://www.fiware.org/wp-content/marketplace/images/hero_gymcraft_gymcraft.png',
       furtherImages: ''
     },
     'hearingsoftware-sendacare': {
@@ -1599,13 +1611,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_byHS.svg',
       featuredImage:
-        'https://pbs.twimg.com/media/DPFqiy_WAAAb-_W?format=jpg&name=900x900',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_hearing-software_senda-care.png',
       furtherImages: '',
       related: [
         {
           category: 'Services',
           featuredImage:
-            'https://scontent-frt3-1.xx.fbcdn.net/v/t31.18172-8/12719417_1118777238164687_4966661782678389763_o.jpg?_nc_cat=107&ccb=1-7&_nc_sid=e3f864&_nc_ohc=qycqrabP1vQAX9yc6BJ&tn=8vjiMBCSITGGfB_z&_nc_ht=scontent-frt3-1.xx&oh=00_AT-Qwtm9r6f2R8sXbVxFowh9miRedBjnd6y4piglULTvBg&oe=63086C7F',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_hearing-software_consultancy-and-integration-services.png',
           excerpt:
             "We're a team with wide experience in FIWARE projects, both our own and consulting and development for third companies. We've worked with FIWARE since its beginnings in 2012.",
           productName: 'Consultancy & Integration Services',
@@ -1657,7 +1669,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/raster/logo_Helix.png',
       featuredImage:
-        'https://opengraph.githubassets.com/3fd1b50beb78a3dd8424245ce559634b6f5654c8ab6a828cca5927329ccff03f/helix-iot/helix-sandbox',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_helix_helix.png',
       furtherImages: ''
     },
     'hopu-lowemissionzones': {
@@ -1690,13 +1702,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Hopu.svg',
       featuredImage:
-        'https://pbs.twimg.com/profile_banners/2572537560/1647898056/1500x500',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_hopu_low-emission-zones.png',
       furtherImages: '',
       related: [
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://hopu.eu/wp-content/uploads/2015/10/hop-ecosystem.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_hopu_smart-irrigiation-solution.png',
           excerpt:
             'Manage irrigation based on accurate and real-time data and AI. Weather stations with sensors of air temperature and humidity, wind, rain, UV radiation, and evapotranspiration; Soil moisture sensors. Irrigation management calendar according to soil typology.',
           productName: 'Smart Irrigiation Solution',
@@ -1705,7 +1717,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://smartcities.hopu.eu/images/EN-smart-spot-scheme.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_hopu_smart-spot.png',
           excerpt:
             'Monitor noise, people affluence/density, and gases: nitrous vapors (NO/NO2), sulfides (H2S/SO2), carbon monoxide/dioxide (CO/CO2), Ozone, and other toxic substances (VOCs); particulate matter (PM) to identify nanoparticulate as dust (PM10), pollens (>PM40), pollutants (PM2.5) and viruses (&lt; PM1).',
           productName: 'Smart Spot',
@@ -1714,7 +1726,7 @@ var pageData = {
         {
           category: 'Services',
           featuredImage:
-            'https://hopu.eu/wp-content/uploads/2015/10/hop-ecosystem.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_hopu_fiware-expert-certification.png',
           excerpt:
             'FIWARE expert certification is an 8-week training programme organized in 4 blocks. This means an intensive programme of 180 hours; including 60 hours online and 120 hours of individual activities to become a FIWARE Expert!',
           productName: 'FIWARE Expert certification',
@@ -1765,7 +1777,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Hostabee.svg',
       featuredImage:
-        'https://hostabee.com/wp-content/uploads/2018/12/Ruche-connecte%CC%81e.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_hostabee_b-keep.png',
       furtherImages: ''
     },
     'jig-smartappcity': {
@@ -1828,7 +1840,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Jig.svg',
-      featuredImage: 'https://pbs.twimg.com/media/EJcfLaEWsAcCr9j.jpg',
+      featuredImage:
+        'https://www.fiware.org/wp-content/marketplace/images/hero_jig_smartappcity.png',
       furtherImages: ''
     },
     'lahakx-skyxpass': {
@@ -1877,7 +1890,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_LahakX.svg',
       featuredImage:
-        'https://static.wixstatic.com/media/523fef_cc90d2fd5dce42b58c0f0558ce641858~mv2.png/v1/fill/w_1182,h_1180,al_c,q_95,enc_auto/Lahaks1.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_lahakx_skyx-pass.png',
       furtherImages: ''
     },
     'limmatgroup-imas': {
@@ -1934,7 +1947,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_Imas%2B.png',
       featuredImage:
-        'https://limmat-group.com/wp-content/uploads/2019/08/1recortado.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_limmat-group_imas.png',
       furtherImages: ''
     },
     'líneaciudadana-líneaciudadana': {
@@ -1966,7 +1979,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_LineaCiudadana.svg',
-      featuredImage: 'https://i.ytimg.com/vi/kWknPhT-xHc/maxresdefault.jpg',
+      featuredImage:
+        'https://www.fiware.org/wp-content/marketplace/images/hero_linea-ciudadana_linea-ciudadana.png',
       furtherImages: ''
     },
     'martelinnovate-orchestracities': {
@@ -2020,13 +2034,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_OrchestraCities.svg',
       featuredImage:
-        'https://www.orchestracities.com/wp-content/uploads/sites/36/2019/05/oc-smartcity.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_martel-innovate_orchestra-cities.png',
       furtherImages: '',
       related: [
         {
           category: 'Services',
           featuredImage:
-            'https://www.martel-innovate.com/wp-content/uploads/sites/5/2020/03/RESEARCH_INNOVATION_v6.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_martel-innovate_martel-lab.png',
           excerpt:
             'We are leading experts on production level configuration of FIWARE Data and IoT management services and we can help you to manage your infrastructure for production-ready requirements such as: - Security - Resilience - Scalability - Availability',
           productName: 'Martel Lab',
@@ -2126,7 +2140,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Movisat.svg',
       featuredImage:
-        'https://www.movisat.com/imagenes/sliders/6213a89f3d1b9.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_movisat_ecosat.png',
       furtherImages: ''
     },
     'nec-cloudcityoperationscenter': {
@@ -2155,7 +2169,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_NEC.svg',
       featuredImage:
-        'https://es.nec.com/es_ES/solutions_services/smartcity/img/solution_CCOCArchitecture.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_nec_cloud-city-operations-center.png',
       furtherImages: ''
     },
     'netzlink-flinknode': {
@@ -2183,7 +2197,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Netzlink.svg',
       featuredImage:
-        'https://netzlink.com/wp-content/uploads/2019/12/Netzwerk-bei-Netzlink-3.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_netzlink_flink-node.png',
       furtherImages: ''
     },
     'nixi1-nixi1': {
@@ -2221,7 +2235,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_nixi1.svg',
       featuredImage:
-        'https://www.nixi1.com/wp-content/uploads/2020/10/metricas@2x.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_nixi1_nixi1.png',
       furtherImages: ''
     },
     'openmove-openmove': {
@@ -2257,7 +2271,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_OpenMove.svg',
       featuredImage:
-        'https://www.openmove.com/wp-content/uploads/2020/10/atlas3.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_openmove_openmove.png',
       furtherImages: ''
     },
     'phoops-muvapp': {
@@ -2305,7 +2319,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Phoops.svg',
-      featuredImage: 'https://muv-app.city/assets/images/muv-ecosystem.png',
+      featuredImage:
+        'https://www.fiware.org/wp-content/marketplace/images/hero_phoops_muv-app.png',
       furtherImages: ''
     },
     'projectray-ray': {
@@ -2342,7 +2357,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Ray.svg',
       featuredImage:
-        'https://scontent-frt3-2.xx.fbcdn.net/v/t1.6435-9/31961875_1704048273005633_3155524605653811200_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e3f864&_nc_ohc=j742Q7Ba4-YAX-tLIli&_nc_oc=AQmWeV2mGFVfcm6sCJ6NSw7815bT6ENvJq5vPwKfxhiQJFoSQBoBSyIv18TKLo4gD1Y&_nc_ht=scontent-frt3-2.xx&oh=00_AT9w-HmVBz19IiDuMyFVUp1PF8z8zIDqxGGTSyyzTegwSw&oe=6304EC17',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_project-ray_ray.png',
       furtherImages: ''
     },
     'purpleblob-baret': {
@@ -2389,13 +2404,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_PurpleBlob.svg',
       featuredImage:
-        'https://pbs.twimg.com/profile_banners/934861944661606407/1516186486/1500x500',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_purple-blob_baret.png',
       furtherImages: '',
       related: [
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://pbs.twimg.com/profile_banners/934861944661606407/1516186486/1500x500',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_purple-blob_sara.png',
           excerpt:
             'SARA is an IoT platform that can integrate almost any  solution, data source or actuator into a powered by FIWARE system that centralizes all the user and device management, enables the use of different analytical intelligence tools and allows the aggregation of the data generated by each solution',
           productName: 'SARA',
@@ -2448,13 +2463,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_PurpleBlob.svg',
       featuredImage:
-        'https://pbs.twimg.com/profile_banners/934861944661606407/1516186486/1500x500',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_purple-blob_sara.png',
       furtherImages: '',
       related: [
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://pbs.twimg.com/profile_banners/934861944661606407/1516186486/1500x500',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_purple-blob_baret.png',
           excerpt:
             'Baret, the smart tourism platform offers you to design successful destination management and promotion strategies that will allow you to manage all the information relevant to your destination from a single place.',
           productName: 'BARET',
@@ -2488,7 +2503,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Pycno.svg',
       featuredImage:
-        'https://pbs.twimg.com/profile_banners/934861944661606407/1516186486/1500x500',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_pycno_pycno.png',
       furtherImages: ''
     },
     'saintquentin-connectedcanteens': {
@@ -2529,7 +2544,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_EGM.svg',
       featuredImage:
-        'https://www.picardiegazette.fr/wp-content/uploads/2020/12/IMG_5487-scaled.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_saint-quentin_connected-canteens.png',
       furtherImages: ''
     },
     'sammy-smartmarinaplatform': {
@@ -2564,7 +2579,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_SaMMY.svg',
       featuredImage:
-        'https://pbs.twimg.com/profile_banners/934861944661606407/1516186486/1500x500',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_sammy_smart-marina-platform.png',
       furtherImages: ''
     },
     'scuter-scuter': {
@@ -2599,7 +2614,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_Scuter.png',
       featuredImage:
-        'https://pbs.twimg.com/profile_banners/934861944661606407/1516186486/1500x500',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_scuter_scuter.png',
       furtherImages: ''
     },
     'secondnature-ourpath': {
@@ -2629,7 +2644,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_SecondNature.png',
       featuredImage:
-        'https://cdn.secondnature.io/_next/image?url=https%3A%2F%2Fcdn.secondnature.io%2F_next%2Fstatic%2Fmedia%2Fhero-desktop.c3714f9f.png&w=3840&q=75',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_second-nature_ourpath.png',
       furtherImages: ''
     },
     'sensative-yggioplatform': {
@@ -2682,16 +2697,19 @@ var pageData = {
           'Press Release',
           'https://www.mynewsdesk.com/se/malmo/pressreleases/malmoe-stad-storsatsar-paa-smarta-loesningar-foer-malmoeborna-2860021'
         ],
-        ['Reference 3', 'http://futurebylund.se/smarta-offentliga-miljoer'],
         [
-          'Reference 4',
-          'http://futurebylund.se/blog/connecting-the-electricity-cabinets'
+          'Future By Lund',
+          'https://www.futurebylund.se/smarta-offentliga-miljoer'
+        ],
+        [
+          'Future By Lund-Connecting the Electricity Cabinets',
+          'https://www.futurebylund.se/blog/connecting-the-electricity-cabinets'
         ]
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Yggio.svg',
       featuredImage:
-        'https://sensative.com/wp-content/uploads/2022/02/Yggio-DIMS-the-IoT-brain.medium.jpg.webp',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_sensative_yggio-platform.png',
       furtherImages: ''
     },
     'sensei-sensei': {
@@ -2725,7 +2743,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Sensei.svg',
       featuredImage:
-        'https://uploads-ssl.webflow.com/62431e3fd7cf49181578fe0d/628bc87b3c72576c210e2dbb_Untitled-2.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_sensei_sensei.png',
       furtherImages: ''
     },
     'sensohivetechnologiesaps-maturix': {
@@ -2756,7 +2774,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Maturix.svg',
       featuredImage:
-        'https://scontent-frx5-1.xx.fbcdn.net/v/t39.30808-6/274551834_4603602143084764_4909558036212081928_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e3f864&_nc_ohc=5ASrJfmLaHoAX8Veemm&_nc_ht=scontent-frx5-1.xx&oh=00_AT_ulDVBtiyosDxPyFzCOvKOnYj6ztaryUWai5mNMeQhxw&oe=62E6BABF',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_sensohive-technologies_maturix.png',
       furtherImages: ''
     },
     'sensowave-digitanimal': {
@@ -2789,20 +2807,20 @@ var pageData = {
       ],
       materials: [
         [
-          'Reference 1',
-          'http://www.4d4f.eu/content/case-study-gps-location-system-goats'
+          'Case study: a GPS Location System for Goats',
+          'https://4d4f.eu/content/case-study-gps-location-system-goats'
         ]
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_DigitAnimal.svg',
       featuredImage:
-        'https://i0.wp.com/digitanimal.com/wp-content/uploads/2020/12/DSC05390-1-2-min.jpg?resize=400%2C250&ssl=1',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_sensowave_digitanimal.png',
       furtherImages: '',
       related: [
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://digitanimal.co.uk/wp-content/uploads/2020/03/producto_vaca.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_sensowave_digitanimal-livestock-gps.png',
           excerpt:
             'Digitanimal Livestock GPS offers a 2-year warranty All services included for 12 months* Renewal plans tailored to your Customs management included a 30-day trial',
           productName: 'Digitanimal Livestock GPS',
@@ -2836,7 +2854,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Sentio.svg',
       featuredImage:
-        'https://www.sentio.net/wp-content/uploads/2022/03/benefits2.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_sentio_vistra.png',
       furtherImages: ''
     },
     'sirusnv-siruscitystore': {
@@ -2870,7 +2888,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Sirus.svg',
       featuredImage:
-        'https://i0.wp.com/sirus.be/sirus_afbeeldingen/2020/04/Smartcities.png?w=2120&ssl=1',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_sirus_sirus-city-store.png',
       furtherImages: ''
     },
     'snap4city-km4city': {
@@ -2938,30 +2956,30 @@ var pageData = {
           'List of Snap4City Articles',
           'https://www.snap4city.org/drupal/node/78'
         ],
-        ['Reference 2', 'https://www.snap4city.org/426'],
         [
-          'Reference 3',
-          'https://marketplace.eosc-portal.eu/services/snap4city'
+          'Snap4City & Km4City References ',
+          'https://www.snap4city.org/drupal/node/426'
         ],
+        ['Training', 'https://marketplace.eosc-portal.eu/services/snap4city'],
         [
-          'Reference 4',
+          'ARPAT-News',
           'http://www.arpat.toscana.it/notizie/arpatnews/2020/183-20/traffico-meteo-e-qualita-dellaria-limportanza-dei-dati-per-gestire-e-vivere-le-citta'
         ],
         [
-          'Reference 5',
-          'https://www.codemotion.com/magazine/dev-hub/big-data-analyst/snap4city-dashboards-overlook-your-city/'
+          'Codemotion-Article',
+          'https://www.codemotion.com/magazine/ai-ml/big-data/snap4city-dashboards-overlook-your-city/'
         ]
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Snap4City.svg',
       featuredImage:
-        'https://www.km4city.org/img-new/snap4city-logo-02-km4city.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_snap4city_km4city.png',
       furtherImages: '',
       related: [
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://www.snap4city.org/download/video/header-snap4city-new-v04-ORIZZONTALE-text-only2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_snap4city_snap4city.png',
           excerpt:
             'Scalable Smart aNalytic APplication Builder for Sentient Cities, the platform proving flexible a method and solution to quickly create a large range of smart city applications exploiting heterogeneous data and enabling services for stakeholders by IOT/IOE, data analytics and big data technologies.',
           productName: 'Snap4City',
@@ -2970,7 +2988,7 @@ var pageData = {
         {
           category: 'Services',
           featuredImage:
-            'https://www.snap4city.org/download/video/header-snap4city-new-v04-ORIZZONTALE-text-only2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_snap4city_consultancy-and-integration-services.png',
           excerpt:
             'Snap4City team provides high valuable and professional services based on our experience in successfully operating in the smart city/industry4.0 integrated solutions market since many years.',
           productName: 'Consultancy & Integration Services',
@@ -2980,7 +2998,7 @@ var pageData = {
         {
           category: 'Services',
           featuredImage:
-            'https://www.snap4city.org/download/video/header-snap4city-new-v04-ORIZZONTALE-text-only2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_snap4city_coaching-and-training-services.png',
           excerpt:
             'Snap4City team provides highly valuable and professional training and consultancy services based on our experience in successfully operating in the smart city/industry4.0 integrated solutions market for many years and on FIWARE integration technologies.',
           productName: 'Coaching & Training Services',
@@ -3048,31 +3066,34 @@ var pageData = {
         ]
       ],
       materials: [
-        ['Reference 1', 'https://www.snap4city.org/drupal/node/78'],
         [
-          'Reference 2',
-          'https://marketplace.eosc-portal.eu/services/snap4city'
+          'List of Snap4City Articles',
+          'https://www.snap4city.org/drupal/node/78'
         ],
-        ['Reference 3', 'https://www.snap4city.org/426'],
+        ['Training', 'https://marketplace.eosc-portal.eu/services/snap4city'],
         [
-          'Reference 4',
-          'https://www.codemotion.com/magazine/dev-hub/big-data-analyst/snap4city-dashboards-overlook-your-city/'
+          'Snap4City & Km4City References ',
+          'https://www.snap4city.org/drupal/node/426'
         ],
         [
-          'Reference 5',
-          'https://www.codemotion.com/magazine/how-snap4city-can-bring-your-vision-of-a-smart-city-to-reality-3194'
+          'Codemotion-Article',
+          'https://www.codemotion.com/magazine/ai-ml/big-data/snap4city-dashboards-overlook-your-city/'
+        ],
+        [
+          'Codemotion-Article 2',
+          'https://www.codemotion.com/magazine/ai-ml/big-data/the-snap4city-api-a-tool-for-smart-city-developers/'
         ]
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Snap4City.svg',
       featuredImage:
-        'https://www.snap4city.org/download/video/header-snap4city-new-v04-ORIZZONTALE-text-only2.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_snap4city_snap4city.png',
       furtherImages: '',
       related: [
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://www.km4city.org/img-new/snap4city-logo-02-km4city.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_snap4city_km4city.png',
           excerpt:
             'Scalable Smart aNalytic APplication Builder for Sentient Cities, the platform proving flexible a method and solution for rapid implementation of smart city applications exploiting heterogeneous data and enabling services for stakeholders by IOT/IOE, data analytics and big data technologies.',
           productName: 'Km4City',
@@ -3081,7 +3102,7 @@ var pageData = {
         {
           category: 'Services',
           featuredImage:
-            'https://www.snap4city.org/download/video/header-snap4city-new-v04-ORIZZONTALE-text-only2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_snap4city_consultancy-and-integration-services.png',
           excerpt:
             'Snap4City team provides high valuable and professional services based on our experience in successfully operating in the smart city/industry4.0 integrated solutions market since many years.',
           productName: 'Consultancy & Integration Services',
@@ -3091,7 +3112,7 @@ var pageData = {
         {
           category: 'Services',
           featuredImage:
-            'https://www.snap4city.org/download/video/header-snap4city-new-v04-ORIZZONTALE-text-only2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_snap4city_coaching-and-training-services.png',
           excerpt:
             'Snap4City team provides highly valuable and professional training and consultancy services based on our experience in successfully operating in the smart city/industry4.0 integrated solutions market for many years and on FIWARE integration technologies.',
           productName: 'Coaching & Training Services',
@@ -3131,13 +3152,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_SRM.svg',
       featuredImage:
-        'https://srmconsulting.es/assets/img/srm-consulting-lider-tecnologia-geoespacial.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_srm%20consulting_capacity-control-system.png',
       furtherImages: '',
       related: [
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://srmconsulting.es/assets/img/blog/mavdrone-srm-consulting.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_srm-consulting_mavdrone.png',
           excerpt:
             'MavDrone device is the first solution compatible with the MAVLink protocol for the Command and Control of drone fleets. MavDrone extends the capabilities of IAS by publishing the telemetry in a public API.',
           productName: 'MavDrone',
@@ -3146,7 +3167,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://srmconsulting.es/assets/img/blog/fiware-map-viewer-srmconsulting.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_srm-consulting_fiware-map-viewer.png',
           excerpt:
             'Fiware Map Viewer extends the capabilities of any map to Smart Cities and IoT. Monitoring any device on a map in real-time, such as atmospheric sensors, cameras, traffic lights, and so on',
           productName: 'FIWARE Map Viewer',
@@ -3190,13 +3211,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_StoneOne.svg',
       featuredImage:
-        'https://stoneone.de/wp-content/uploads/2021/02/SmartOrchestra_Pad.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_stoneone_smartorchestra.png',
       furtherImages: '',
       related: [
         {
           category: 'Services',
           featuredImage:
-            'https://sirius-labs.no/wp-content/uploads/2016/11/Cloud-1-e1478082888720.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_stoneone_services.png',
           excerpt:
             'StoneOne provides the open and standardized S1 IoT platform including accompanying services and it also offers development and consulting for IoT platforms and marketplaces.',
           productName: 'StoneOne Services',
@@ -3229,7 +3250,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Stratio.svg',
       featuredImage:
-        'https://stratioautomotive.com/wp-content/uploads/2020/10/ops.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_stratio_stratio-automotive.png',
       furtherImages: ''
     },
     'tablegrabber-rezguru': {
@@ -3256,14 +3277,14 @@ var pageData = {
       videos: [],
       materials: [
         [
-          'Reference 1',
-          'https://techcrunch.com/2014/09/09/tablegrabber-resguru-disrupt-launch'
+          'TechCrunch',
+          'https://techcrunch.com/2014/09/09/tablegrabber-resguru-disrupt-launch/?guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAABc_HvJXytQVtJ_cxFonVREaBh8kxNdF9Ja_hm5yMOvXhuCs4w5FU4UqznAZLd4RZ-vgj-L_hPoVujg68Zt18jvysxEZK2XTgFFLaZ2VZk34mbC_S4mV5zCpB-qT_qXz7BT8aXSCvDGwkKYfPbFoGhF853SYbP57pO0O78PiUFyZ'
         ]
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_RezGuru.png',
       featuredImage:
-        'https://www.rezguru.com/assets/Family-Portrait_WithApps_IphoneX-1.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_tablegrabber_rezguru.png',
       furtherImages: ''
     },
     'teamdev-wisetown': {
@@ -3320,29 +3341,28 @@ var pageData = {
       ],
       materials: [
         [
-          'Reference 1',
-          'https://www.fiware.org/2021/11/15/perugias-digital-transition-to-smart-city-powered-by-fiware-technology/ Press Release;'
+          'FIWARE-Impact Story',
+          'https://www.fiware.org/2021/11/15/perugias-digital-transition-to-smart-city-powered-by-fiware-technology/'
         ],
         [
-          'Reference 2',
-          'https://www.linkedin.com/company/wisetown/posts/?feedView=articles&viewAsMember=true'
+          'FIWARE-Success Stories',
+          'https://www.fiware.org/success-stories/wise-town/'
         ],
-        ['Reference 3', 'https://www.fiware.org/success-stories/wise-town/'],
         [
-          'Reference 4',
+          'FIWARE-Article',
           'https://www.fiware.org/2018/09/06/wisetown-situation-room-platform-based-on-fiware-tech-used-to-monitor-the-4th-of-july-celebration/'
         ]
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_WiseTown.svg',
       featuredImage:
-        'https://www.fiware.org/wp-content/uploads/ImpactStories_SliderWebsite_WiseTown-1080x675.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown.png',
       furtherImages: '',
       related: [
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://wise.town/wp-content/uploads/2022/02/Crowd-Planning-Tablet.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-crowd-planning.png',
           excerpt:
             'WiseTown Crowd Planning is the platform that allows Public Administration to activate communication with citizens regarding planning objectives, with the ultimate goal of generating active involvement. A tool developed for a participatory urban planning.',
           productName: 'WiseTown Crowd Planning',
@@ -3351,7 +3371,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://wise.town/wp-content/uploads/2022/01/Geoanalytics_landscape-800x578.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-geoanalytics.png',
           excerpt:
             'WiseTown GeoAnalytics is a Decision Support System available to city administrators and public administration professionals. Maps, graphs, infographics and statistics highlight valuable information and provide an extrapolation of complex information useful for more informed urban planning.',
           productName: 'WiseTown Geoanalytics',
@@ -3360,7 +3380,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://wise.town/wp-content/uploads/2022/01/IssueManager_tablet-800x578.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-issue-manager.png',
           excerpt:
             'WiseTown Issue Manager is a digital system that enables citizens to support the city government by reporting city issues; at the same time it simplifies the internal workflow of the public administration by automating processes and improving the work of the operators',
           productName: 'WiseTown Issue Manager',
@@ -3369,7 +3389,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://wise.town/wp-content/uploads/2022/02/OpenDataManager__landscape-800x578.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-open-data-manager.png',
           excerpt:
             'WiseTown Open Data Manager searches and aggregates data on customizable criteria to produce Open Data catalogs for the Smart City. WiseTown software makes Public Administration data a common good, anonymous and GDPR compliant.',
           productName: 'WiseTown Open Data Manager',
@@ -3378,7 +3398,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://wise.town/wp-content/uploads/2022/02/Situation-Room-Tablet.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-situation-room.png',
           excerpt:
             'WiseTown Situation Room is a platform for the management of events and emergencies in an urban context. The tool collects the data produced by the city and displays it through a dashboard that ensures immediate analysis and response.',
           productName: 'WiseTown Situation Room',
@@ -3387,7 +3407,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://wise.town/wp-content/uploads/2022/02/Thematic-Dashbard-Tablet-1.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-thematic-dashboard.png',
           excerpt:
             'WiseTown Thematic Dashboard is an application that allows you to create custom visualizations to compare map information with statistical data and real-time data from satellite systems. The dashboards can manage economic, demographic, social, environmental and many other data.',
           productName: 'WiseTown Thematic Dashboard',
@@ -3397,7 +3417,7 @@ var pageData = {
         {
           category: 'Services',
           featuredImage:
-            'https://i.im.ge/2022/08/01/Ft2JhL.Agricolus-Making-Agritech-Sustainable-2-.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_fiware-professional-services.png',
           excerpt:
             'TeamDev has a long and solid experience in using the FIWARE ecosystem and we can offer support to other companies who want to start using these technologies.',
           productName: 'FIWARE Professional Services',
@@ -3443,20 +3463,20 @@ var pageData = {
       videos: [],
       materials: [
         [
-          'Reference 1',
+          'FIWARE-Impact Story',
           'https://www.fiware.org/2021/11/15/perugias-digital-transition-to-smart-city-powered-by-fiware-technology/'
         ]
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_WiseTown.svg',
       featuredImage:
-        'https://wise.town/wp-content/uploads/2022/02/Crowd-Planning-Tablet.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-crowd-planning.png',
       furtherImages: '',
       related: [
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://www.fiware.org/wp-content/uploads/ImpactStories_SliderWebsite_WiseTown-1080x675.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown.png',
           excerpt:
             'WiseTown is a digital system for the city fully scalable, modular, designed to allow full integration with the city administration’s existing systems, third party solutions, IoT applications and external data sources. WiseTown is the engine that collects the city’s data and makes it available.',
           productName: 'WiseTown',
@@ -3465,7 +3485,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://wise.town/wp-content/uploads/2022/01/Geoanalytics_landscape-800x578.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-geoanalytics.png',
           excerpt:
             'WiseTown GeoAnalytics is a Decision Support System available to city administrators and public administration professionals. Maps, graphs, infographics and statistics highlight valuable information and provide an extrapolation of complex information useful for more informed urban planning.',
           productName: 'WiseTown Geoanalytics',
@@ -3474,7 +3494,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://wise.town/wp-content/uploads/2022/01/IssueManager_tablet-800x578.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-issue-manager.png',
           excerpt:
             'WiseTown Issue Manager is a digital system that enables citizens to support the city government by reporting city issues; at the same time it simplifies the internal workflow of the public administration by automating processes and improving the work of the operators',
           productName: 'WiseTown Issue Manager',
@@ -3483,7 +3503,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://wise.town/wp-content/uploads/2022/02/OpenDataManager__landscape-800x578.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-open-data-manager.png',
           excerpt:
             'WiseTown Open Data Manager searches and aggregates data on customizable criteria to produce Open Data catalogs for the Smart City. WiseTown software makes Public Administration data a common good, anonymous and GDPR compliant.',
           productName: 'WiseTown Open Data Manager',
@@ -3492,7 +3512,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://wise.town/wp-content/uploads/2022/02/Situation-Room-Tablet.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-situation-room.png',
           excerpt:
             'WiseTown Situation Room is a platform for the management of events and emergencies in an urban context. The tool collects the data produced by the city and displays it through a dashboard that ensures immediate analysis and response.',
           productName: 'WiseTown Situation Room',
@@ -3501,7 +3521,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://wise.town/wp-content/uploads/2022/02/Thematic-Dashbard-Tablet-1.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-thematic-dashboard.png',
           excerpt:
             'WiseTown Thematic Dashboard is an application that allows you to create custom visualizations to compare map information with statistical data and real-time data from satellite systems. The dashboards can manage economic, demographic, social, environmental and many other data.',
           productName: 'WiseTown Thematic Dashboard',
@@ -3511,7 +3531,7 @@ var pageData = {
         {
           category: 'Services',
           featuredImage:
-            'https://i.im.ge/2022/08/01/Ft2JhL.Agricolus-Making-Agritech-Sustainable-2-.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_fiware-professional-services.png',
           excerpt:
             'TeamDev has a long and solid experience in using the FIWARE ecosystem and we can offer support to other companies who want to start using these technologies.',
           productName: 'FIWARE Professional Services',
@@ -3558,24 +3578,24 @@ var pageData = {
       videos: [],
       materials: [
         [
-          'Reference 1',
+          'WiseTown-Story',
           'https://wise.town/en/portfolio-items/water-point-mapping/'
         ],
         [
-          'Reference 2',
+          'FIWARE-Impact Story',
           'https://www.fiware.org/2021/11/15/perugias-digital-transition-to-smart-city-powered-by-fiware-technology/'
         ]
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_WiseTown.svg',
       featuredImage:
-        'https://wise.town/wp-content/uploads/2022/01/Geoanalytics_landscape-800x578.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-geoanalytics.png',
       furtherImages: '',
       related: [
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://www.fiware.org/wp-content/uploads/ImpactStories_SliderWebsite_WiseTown-1080x675.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown.png',
           excerpt:
             'WiseTown is a digital system for the city fully scalable, modular, designed to allow full integration with the city administration’s existing systems, third party solutions, IoT applications and external data sources. WiseTown is the engine that collects the city’s data and makes it available.',
           productName: 'WiseTown',
@@ -3584,7 +3604,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://wise.town/wp-content/uploads/2022/02/Crowd-Planning-Tablet.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-crowd-planning.png',
           excerpt:
             'WiseTown Crowd Planning is the platform that allows Public Administration to activate communication with citizens regarding planning objectives, with the ultimate goal of generating active involvement. A tool developed for a participatory urban planning.',
           productName: 'WiseTown Crowd Planning',
@@ -3593,7 +3613,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://wise.town/wp-content/uploads/2022/01/IssueManager_tablet-800x578.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-issue-manager.png',
           excerpt:
             'WiseTown Issue Manager is a digital system that enables citizens to support the city government by reporting city issues; at the same time it simplifies the internal workflow of the public administration by automating processes and improving the work of the operators',
           productName: 'WiseTown Issue Manager',
@@ -3602,7 +3622,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://wise.town/wp-content/uploads/2022/02/OpenDataManager__landscape-800x578.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-open-data-manager.png',
           excerpt:
             'WiseTown Open Data Manager searches and aggregates data on customizable criteria to produce Open Data catalogs for the Smart City. WiseTown software makes Public Administration data a common good, anonymous and GDPR compliant.',
           productName: 'WiseTown Open Data Manager',
@@ -3611,7 +3631,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://wise.town/wp-content/uploads/2022/02/Situation-Room-Tablet.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-situation-room.png',
           excerpt:
             'WiseTown Situation Room is a platform for the management of events and emergencies in an urban context. The tool collects the data produced by the city and displays it through a dashboard that ensures immediate analysis and response.',
           productName: 'WiseTown Situation Room',
@@ -3620,7 +3640,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://wise.town/wp-content/uploads/2022/02/Thematic-Dashbard-Tablet-1.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-thematic-dashboard.png',
           excerpt:
             'WiseTown Thematic Dashboard is an application that allows you to create custom visualizations to compare map information with statistical data and real-time data from satellite systems. The dashboards can manage economic, demographic, social, environmental and many other data.',
           productName: 'WiseTown Thematic Dashboard',
@@ -3630,7 +3650,7 @@ var pageData = {
         {
           category: 'Services',
           featuredImage:
-            'https://i.im.ge/2022/08/01/Ft2JhL.Agricolus-Making-Agritech-Sustainable-2-.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_fiware-professional-services.png',
           excerpt:
             'TeamDev has a long and solid experience in using the FIWARE ecosystem and we can offer support to other companies who want to start using these technologies.',
           productName: 'FIWARE Professional Services',
@@ -3671,20 +3691,20 @@ var pageData = {
       videos: [],
       materials: [
         [
-          'Reference 1',
+          'FIWARE-Impact Story',
           'https://www.fiware.org/2021/11/15/perugias-digital-transition-to-smart-city-powered-by-fiware-technology/'
         ]
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_WiseTown.svg',
       featuredImage:
-        'https://wise.town/wp-content/uploads/2022/01/IssueManager_tablet-800x578.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-issue-manager.png',
       furtherImages: '',
       related: [
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://www.fiware.org/wp-content/uploads/ImpactStories_SliderWebsite_WiseTown-1080x675.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown.png',
           excerpt:
             'WiseTown is a digital system for the city fully scalable, modular, designed to allow full integration with the city administration’s existing systems, third party solutions, IoT applications and external data sources. WiseTown is the engine that collects the city’s data and makes it available.',
           productName: 'WiseTown',
@@ -3693,7 +3713,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://wise.town/wp-content/uploads/2022/02/Crowd-Planning-Tablet.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-crowd-planning.png',
           excerpt:
             'WiseTown Crowd Planning is the platform that allows Public Administration to activate communication with citizens regarding planning objectives, with the ultimate goal of generating active involvement. A tool developed for a participatory urban planning.',
           productName: 'WiseTown Crowd Planning',
@@ -3702,7 +3722,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://wise.town/wp-content/uploads/2022/01/Geoanalytics_landscape-800x578.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-geoanalytics.png',
           excerpt:
             'WiseTown GeoAnalytics is a Decision Support System available to city administrators and public administration professionals. Maps, graphs, infographics and statistics highlight valuable information and provide an extrapolation of complex information useful for more informed urban planning.',
           productName: 'WiseTown Geoanalytics',
@@ -3711,7 +3731,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://wise.town/wp-content/uploads/2022/02/OpenDataManager__landscape-800x578.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-open-data-manager.png',
           excerpt:
             'WiseTown Open Data Manager searches and aggregates data on customizable criteria to produce Open Data catalogs for the Smart City. WiseTown software makes Public Administration data a common good, anonymous and GDPR compliant.',
           productName: 'WiseTown Open Data Manager',
@@ -3720,7 +3740,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://wise.town/wp-content/uploads/2022/02/Situation-Room-Tablet.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-situation-room.png',
           excerpt:
             'WiseTown Situation Room is a platform for the management of events and emergencies in an urban context. The tool collects the data produced by the city and displays it through a dashboard that ensures immediate analysis and response.',
           productName: 'WiseTown Situation Room',
@@ -3729,7 +3749,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://wise.town/wp-content/uploads/2022/02/Thematic-Dashbard-Tablet-1.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-thematic-dashboard.png',
           excerpt:
             'WiseTown Thematic Dashboard is an application that allows you to create custom visualizations to compare map information with statistical data and real-time data from satellite systems. The dashboards can manage economic, demographic, social, environmental and many other data.',
           productName: 'WiseTown Thematic Dashboard',
@@ -3739,7 +3759,7 @@ var pageData = {
         {
           category: 'Services',
           featuredImage:
-            'https://i.im.ge/2022/08/01/Ft2JhL.Agricolus-Making-Agritech-Sustainable-2-.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_fiware-professional-services.png',
           excerpt:
             'TeamDev has a long and solid experience in using the FIWARE ecosystem and we can offer support to other companies who want to start using these technologies.',
           productName: 'FIWARE Professional Services',
@@ -3785,20 +3805,20 @@ var pageData = {
       videos: [],
       materials: [
         [
-          'Reference 1',
+          'FIWARE-Impact Story',
           'https://www.fiware.org/2021/11/15/perugias-digital-transition-to-smart-city-powered-by-fiware-technology/'
         ]
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_WiseTown.svg',
       featuredImage:
-        'https://wise.town/wp-content/uploads/2022/02/OpenDataManager__landscape-800x578.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-open-data-manager.png',
       furtherImages: '',
       related: [
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://www.fiware.org/wp-content/uploads/ImpactStories_SliderWebsite_WiseTown-1080x675.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown.png',
           excerpt:
             'WiseTown is a digital system for the city fully scalable, modular, designed to allow full integration with the city administration’s existing systems, third party solutions, IoT applications and external data sources. WiseTown is the engine that collects the city’s data and makes it available.',
           productName: 'WiseTown',
@@ -3807,7 +3827,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://wise.town/wp-content/uploads/2022/02/Crowd-Planning-Tablet.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-crowd-planning.png',
           excerpt:
             'WiseTown Crowd Planning is the platform that allows Public Administration to activate communication with citizens regarding planning objectives, with the ultimate goal of generating active involvement. A tool developed for a participatory urban planning.',
           productName: 'WiseTown Crowd Planning',
@@ -3816,7 +3836,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://wise.town/wp-content/uploads/2022/01/Geoanalytics_landscape-800x578.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-geoanalytics.png',
           excerpt:
             'WiseTown GeoAnalytics is a Decision Support System available to city administrators and public administration professionals. Maps, graphs, infographics and statistics highlight valuable information and provide an extrapolation of complex information useful for more informed urban planning.',
           productName: 'WiseTown Geoanalytics',
@@ -3825,7 +3845,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://wise.town/wp-content/uploads/2022/01/IssueManager_tablet-800x578.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-issue-manager.png',
           excerpt:
             'WiseTown Issue Manager is a digital system that enables citizens to support the city government by reporting city issues; at the same time it simplifies the internal workflow of the public administration by automating processes and improving the work of the operators',
           productName: 'WiseTown Issue Manager',
@@ -3834,7 +3854,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://wise.town/wp-content/uploads/2022/02/Situation-Room-Tablet.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-situation-room.png',
           excerpt:
             'WiseTown Situation Room is a platform for the management of events and emergencies in an urban context. The tool collects the data produced by the city and displays it through a dashboard that ensures immediate analysis and response.',
           productName: 'WiseTown Situation Room',
@@ -3843,7 +3863,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://wise.town/wp-content/uploads/2022/02/Thematic-Dashbard-Tablet-1.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-thematic-dashboard.png',
           excerpt:
             'WiseTown Thematic Dashboard is an application that allows you to create custom visualizations to compare map information with statistical data and real-time data from satellite systems. The dashboards can manage economic, demographic, social, environmental and many other data.',
           productName: 'WiseTown Thematic Dashboard',
@@ -3853,7 +3873,7 @@ var pageData = {
         {
           category: 'Services',
           featuredImage:
-            'https://i.im.ge/2022/08/01/Ft2JhL.Agricolus-Making-Agritech-Sustainable-2-.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_fiware-professional-services.png',
           excerpt:
             'TeamDev has a long and solid experience in using the FIWARE ecosystem and we can offer support to other companies who want to start using these technologies.',
           productName: 'FIWARE Professional Services',
@@ -3900,32 +3920,32 @@ var pageData = {
       videos: [],
       materials: [
         [
-          'Reference 1',
+          'FIWARE-Article',
           'https://www.fiware.org/2018/09/06/wisetown-situation-room-platform-based-on-fiware-tech-used-to-monitor-the-4th-of-july-celebration/'
         ],
         [
-          'Reference 2',
+          'FIWARE-Article',
           'https://www.fiware.org/news/eurochocolate-2018-visitors-flow-will-be-monitored-with-situation-room/'
         ],
         [
-          'Reference 3',
+          'FIWARE-Impact Story',
           'https://www.fiware.org/2021/11/15/perugias-digital-transition-to-smart-city-powered-by-fiware-technology/'
         ],
         [
-          'Reference 4',
+          'WiseTown-Story',
           'https://wise.town/en/portfolio-items/smart-security-app/'
         ]
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_WiseTown.svg',
       featuredImage:
-        'https://wise.town/wp-content/uploads/2022/02/Situation-Room-Tablet.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-situation-room.png',
       furtherImages: '',
       related: [
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://www.fiware.org/wp-content/uploads/ImpactStories_SliderWebsite_WiseTown-1080x675.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown.png',
           excerpt:
             'WiseTown is a digital system for the city fully scalable, modular, designed to allow full integration with the city administration’s existing systems, third party solutions, IoT applications and external data sources. WiseTown is the engine that collects the city’s data and makes it available.',
           productName: 'WiseTown',
@@ -3934,7 +3954,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://wise.town/wp-content/uploads/2022/02/Crowd-Planning-Tablet.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-crowd-planning.png',
           excerpt:
             'WiseTown Crowd Planning is the platform that allows Public Administration to activate communication with citizens regarding planning objectives, with the ultimate goal of generating active involvement. A tool developed for a participatory urban planning.',
           productName: 'WiseTown Crowd Planning',
@@ -3943,7 +3963,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://wise.town/wp-content/uploads/2022/01/Geoanalytics_landscape-800x578.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-geoanalytics.png',
           excerpt:
             'WiseTown GeoAnalytics is a Decision Support System available to city administrators and public administration professionals. Maps, graphs, infographics and statistics highlight valuable information and provide an extrapolation of complex information useful for more informed urban planning.',
           productName: 'WiseTown Geoanalytics',
@@ -3952,7 +3972,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://wise.town/wp-content/uploads/2022/01/IssueManager_tablet-800x578.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-issue-manager.png',
           excerpt:
             'WiseTown Issue Manager is a digital system that enables citizens to support the city government by reporting city issues; at the same time it simplifies the internal workflow of the public administration by automating processes and improving the work of the operators',
           productName: 'WiseTown Issue Manager',
@@ -3961,7 +3981,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://wise.town/wp-content/uploads/2022/02/OpenDataManager__landscape-800x578.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-open-data-manager.png',
           excerpt:
             'WiseTown Open Data Manager searches and aggregates data on customizable criteria to produce Open Data catalogs for the Smart City. WiseTown software makes Public Administration data a common good, anonymous and GDPR compliant.',
           productName: 'WiseTown Open Data Manager',
@@ -3970,7 +3990,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://wise.town/wp-content/uploads/2022/02/Thematic-Dashbard-Tablet-1.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-thematic-dashboard.png',
           excerpt:
             'WiseTown Thematic Dashboard is an application that allows you to create custom visualizations to compare map information with statistical data and real-time data from satellite systems. The dashboards can manage economic, demographic, social, environmental and many other data.',
           productName: 'WiseTown Thematic Dashboard',
@@ -3980,7 +4000,7 @@ var pageData = {
         {
           category: 'Services',
           featuredImage:
-            'https://i.im.ge/2022/08/01/Ft2JhL.Agricolus-Making-Agritech-Sustainable-2-.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_fiware-professional-services.png',
           excerpt:
             'TeamDev has a long and solid experience in using the FIWARE ecosystem and we can offer support to other companies who want to start using these technologies.',
           productName: 'FIWARE Professional Services',
@@ -4027,20 +4047,20 @@ var pageData = {
       videos: [],
       materials: [
         [
-          'Reference 1',
+          'FIWARE-Impact Story',
           'https://www.fiware.org/2021/11/15/perugias-digital-transition-to-smart-city-powered-by-fiware-technology/'
         ]
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_WiseTown.svg',
       featuredImage:
-        'https://wise.town/wp-content/uploads/2022/02/Thematic-Dashbard-Tablet-1.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-thematic-dashboard.png',
       furtherImages: '',
       related: [
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://www.fiware.org/wp-content/uploads/ImpactStories_SliderWebsite_WiseTown-1080x675.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown.png',
           excerpt:
             'WiseTown is a digital system for the city fully scalable, modular, designed to allow full integration with the city administration’s existing systems, third party solutions, IoT applications and external data sources. WiseTown is the engine that collects the city’s data and makes it available.',
           productName: 'WiseTown',
@@ -4049,7 +4069,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://wise.town/wp-content/uploads/2022/02/Crowd-Planning-Tablet.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-crowd-planning.png',
           excerpt:
             'WiseTown Crowd Planning is the platform that allows Public Administration to activate communication with citizens regarding planning objectives, with the ultimate goal of generating active involvement. A tool developed for a participatory urban planning.',
           productName: 'WiseTown Crowd Planning',
@@ -4058,7 +4078,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://wise.town/wp-content/uploads/2022/01/Geoanalytics_landscape-800x578.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-geoanalytics.png',
           excerpt:
             'WiseTown GeoAnalytics is a Decision Support System available to city administrators and public administration professionals. Maps, graphs, infographics and statistics highlight valuable information and provide an extrapolation of complex information useful for more informed urban planning.',
           productName: 'WiseTown Geoanalytics',
@@ -4067,7 +4087,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://wise.town/wp-content/uploads/2022/01/IssueManager_tablet-800x578.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-issue-manager.png',
           excerpt:
             'WiseTown Issue Manager is a digital system that enables citizens to support the city government by reporting city issues; at the same time it simplifies the internal workflow of the public administration by automating processes and improving the work of the operators',
           productName: 'WiseTown Issue Manager',
@@ -4076,7 +4096,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://wise.town/wp-content/uploads/2022/02/OpenDataManager__landscape-800x578.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-open-data-manager.png',
           excerpt:
             'WiseTown Open Data Manager searches and aggregates data on customizable criteria to produce Open Data catalogs for the Smart City. WiseTown software makes Public Administration data a common good, anonymous and GDPR compliant.',
           productName: 'WiseTown Open Data Manager',
@@ -4085,7 +4105,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://wise.town/wp-content/uploads/2022/02/Situation-Room-Tablet.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-situation-room.png',
           excerpt:
             'WiseTown Situation Room is a platform for the management of events and emergencies in an urban context. The tool collects the data produced by the city and displays it through a dashboard that ensures immediate analysis and response.',
           productName: 'WiseTown Situation Room',
@@ -4094,7 +4114,7 @@ var pageData = {
         {
           category: 'Services',
           featuredImage:
-            'https://i.im.ge/2022/08/01/Ft2JhL.Agricolus-Making-Agritech-Sustainable-2-.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_fiware-professional-services.png',
           excerpt:
             'TeamDev has a long and solid experience in using the FIWARE ecosystem and we can offer support to other companies who want to start using these technologies.',
           productName: 'FIWARE Professional Services',
@@ -4139,35 +4159,30 @@ var pageData = {
         ]
       ],
       videos: [
-        ['Media 1', 'https://www.youtube.com/watch?v=KGzaEAOt1Q0'],
-        ['Media 2', 'https://www.youtube.com/watch?v=mZ8KqoCTIZY'],
-        ['Media 3', 'https://www.youtube.com/watch?v=3xUDPeRx0t8'],
-        ['Media 4', 'https://www.youtube.com/watch?v=ct-2Ya_oE6M'],
-        ['Media 5', 'https://www.youtube.com/watch?v=mbBkWl1d0x8']
+        [
+          'Smart City Platform-YouTube',
+          'https://www.youtube.com/watch?v=KGzaEAOt1Q0'
+        ]
       ],
       materials: [
         [
-          'Reference 1',
-          'https://aunclicdelastic.blogthinkbig.com/seccion/sociedad-digital/ciudades-inteligentes/'
-        ],
-        ['Reference 2', 'https://blogthinkbig.com/onlife/santander-smart-city'],
-        [
-          'Reference 3',
-          'https://www.telefonica.com/en/web/public-policy/crecimiento-economico/smart-cities'
+          'Telefonica Blog',
+          'https://empresas.blogthinkbig.com/grandes-empresas-espana/'
         ],
         [
-          'Reference 4',
+          'ThinkBig Blog',
+          'https://blogthinkbig.com/peoplefirst/santander-smart-city/'
+        ],
+        ['Telfonica Media Gallery', 'https://www.telefonica.com/en/'],
+        [
+          'FIWARE-Article',
           'https://www.fiware.org/2018/03/20/the-province-of-badajoz-presents-its-smart-province-project/'
-        ],
-        [
-          'Reference 5',
-          'https://www.masquenegocio.com/2016/11/15/telefonica-smart-city/'
         ]
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Telefonica.svg',
       featuredImage:
-        'https://es.readkong.com/static/ca/34/ca34a0fed35281420132ddc97e905734/i-1.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_telefonica_thinking-cities.png',
       furtherImages: ''
     },
     'telenetgroup-telenettinx': {
@@ -4196,7 +4211,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Telenet.svg',
       featuredImage:
-        'https://cdn.uc.assets.prezly.com/05ce55be-a3ff-44f8-be67-1f5b040de1e6/-/preview/600x600/-/quality/best/-/format/auto/',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_telenet-group_telenet-tinx.png',
       furtherImages: ''
     },
     'tera-beeta': {
@@ -4232,21 +4247,11 @@ var pageData = {
           'https://www.youtube.com/watch?v=Ah9UEQeInHU&list=PLVGp_2AibCUEti4TqNT6l_0qNhx0OLz3x'
         ]
       ],
-      materials: [
-        [
-          'Reference 2',
-          'http://www.terasrl.it/it/2016/12/20/122016-stile-sezione-innovazione-tecnologie-meccanica-puglia'
-        ],
-        ['Reference 3', 'http://www.terasrl.it/it/2017/06/08/08062017-tgcom24'],
-        ['Reference 4', 'http://www.terasrl.it/it/2016/11/02/29102016-fax'],
-        [
-          'Reference 5',
-          'http://www.terasrl.it/it/2016/07/04/wp-contentuploads201607engie-tera-jpg'
-        ]
-      ],
+      materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Beeta.svg',
-      featuredImage: 'https://www.beeta.it/img/ciclo2-en.png',
+      featuredImage:
+        'https://www.fiware.org/wp-content/marketplace/images/hero_tera_beeta.png',
       furtherImages: ''
     },
     'tracelabs-tracelabs': {
@@ -4281,28 +4286,23 @@ var pageData = {
         ['OriginTrail-YouTube', 'https://www.youtube.com/c/origintrail']
       ],
       materials: [
-        ['Reference 1', 'https://www.foodandcity.org/2017-prize-summary/'],
         [
-          'Reference 2',
-          'https://www.theguardian.com/odine-partner-zone/2016/nov/24/winners-of-eighth-odine-call-announced'
+          'Food Navigator-Article',
+          'https://www.foodnavigator.com/Article/2016/04/12/Turn-traceability-into-a-marketing-tool-say-creators-of-farm-to-fork-smartphone-app'
         ],
         [
-          'Reference 3',
-          'http://www.foodnavigator.com/Market-Trends/Turn-traceability-into-a-marketing-tool-say-creators-of-farm-to-fork-smartphone-app?utm_content=buffer9a74e&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer'
+          'Forbes-News',
+          'https://www.forbes.com/sites/tannermark/2018/08/01/blockchain-china-misunderstandings/?sh=316fbb2413c8'
         ],
         [
-          'Reference 4',
-          'https://www.forbes.com/sites/tannermark/2018/08/01/blockchain-china-misunderstandings/#16315b5813c8'
-        ],
-        [
-          'Reference 5',
+          'Coin Telegraph-News ',
           'https://cointelegraph.com/news/uk-standards-institution-partners-with-blockchain-startup-for-supply-chain-compliance'
         ]
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_TraceLabs.svg',
       featuredImage:
-        'https://pbs.twimg.com/profile_banners/1110096896549376000/1642074819/1500x500',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_trace%20labs_trace-labs.png',
       furtherImages: ''
     },
     'tsenso-freshindex': {
@@ -4344,26 +4344,18 @@ var pageData = {
       ],
       materials: [
         [
-          'Reference 1',
-          'https://katanareward.opencircleproject.com/campaign/118/longer-shelf-life-and-less-food-waste-with-livingfoods'
-        ],
-        [
-          'Reference 2',
+          'Baden-Wuerttemberg Press Release',
           'https://www.baden-wuerttemberg.de/de/service/presse/pressemitteilung/pid/kretschmann-empfaengt-ausgezeichnete-orte-2017-aus-baden-wuerttemberg/'
         ],
         [
-          'Reference 3',
-          'https://www.baden-wuerttemberg.de/de/service/presse/pressemitteilung/pid/kretschmann-empfaengt-ausgezeichnete-orte-2017-aus-baden-wuerttemberg/'
-        ],
-        [
-          'Reference 4',
-          'https://inform.tmforum.org/data-analytics-and-ai/2017/03/get-rid-food-wastage-data-analytics/'
+          'Inform.Tmforum-Story',
+          'https://inform.tmforum.org/ai-data-and-insights/2017/03/get-rid-food-wastage-data-analytics/'
         ]
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Tsenso.svg',
       featuredImage:
-        'https://scontent-frx5-1.xx.fbcdn.net/v/t1.6435-9/67787561_2327469557369192_7880893769841639424_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_ohc=auP7Pe1BpkkAX9FDicn&_nc_ht=scontent-frx5-1.xx&oh=00_AT--nnof34fItRU3fb-IdEgVcduwmHL-3fHJ-Fp4hkWwsA&oe=630508FF',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_tsenso_freshindex.png',
       furtherImages: ''
     },
     'ubikwa-insylo': {
@@ -4402,22 +4394,22 @@ var pageData = {
       ],
       materials: [
         [
-          'Reference 1',
-          'http://www.rtve.es/alacarta/videos/fabrica-de-ideas/fdiinvierte-ubikwa/3835464/'
+          'Rtve Play-Ubikwa',
+          'https://www.rtve.es/play/videos/fabrica-de-ideas/fdiinvierte-ubikwa/3835464/'
         ],
         [
-          'Reference 2',
-          'http://www.ara.cat/tecnologia/Insylo-grangers-controlar-sitges-MWC_3_1527477242.html'
+          'Ara-Article',
+          'https://www.ara.cat/ciencia-medi-ambient/insylo-grangers-controlar-sitges-mwc_8_3917726.html'
         ],
         [
-          'Reference 3',
-          'http://www.irishexaminer.com/farming/news/tech-device-places-order-when-feed-bin-needs-refilling-387906.html'
+          'Irish Examiner-Article',
+          'https://www.irishexaminer.com/farming/arid-20387906.html'
         ],
-        ['Reference 4', 'https://www.youtube.com/watch?v=ck6VKKisHb8'],
         [
-          'Reference 5',
-          'http://ebn.be/index.php?lnk=K2tiZmlkaWp5MVZzVWF6SzFUWkpHK0k1VW50bEQyc2hOaE53MEFwUFBOTT0='
-        ]
+          'Success Story-YouTube',
+          'https://www.youtube.com/watch?v=ck6VKKisHb8'
+        ],
+        ['EBN Innovation Network', 'https://ebn.eu/']
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Insylo.svg',
@@ -4449,12 +4441,14 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Ubiwhere.svg',
-      featuredImage: 'https://www.ubiwhere.com/files/images/70D-0416.jpg',
+      featuredImage:
+        'https://www.fiware.org/wp-content/marketplace/images/hero_ubiwhere_smartlamppost.png',
       furtherImages: '',
       related: [
         {
           category: 'Powered by FIWARE',
-          featuredImage: 'https://urbanplatform.city/img/map_city.png',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_ubiwhere_urban-platform.png',
           excerpt:
             'Our Urban Platform allows data collection from multiple domains and provides city managers and decision-makers with a holistic view of their cities, presenting cross-domain data in a unified way.',
           productName: 'Urban Platform',
@@ -4462,7 +4456,8 @@ var pageData = {
         },
         {
           category: 'Services',
-          featuredImage: 'https://fiware.ubiwhere.com/images/laptop.png',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_ubiwhere_fiware-at-ubiwhere.png',
           excerpt:
             'Ubiwhere’s offer includes systems for Smart Parking and Traffic Management, Smart Waste Management, Smart Environmental Monitoring, Smart Vending and Smart Card, along with its City Control Center, which allows for centralised management of the city’s ecosystem.',
           productName: 'FIWARE @ UBIWHERE',
@@ -4505,26 +4500,20 @@ var pageData = {
       ],
       materials: [
         [
-          'Reference 1',
+          'FIWARE-Article',
           'https://www.fiware.org/2015/11/20/porto-a-city-that-has-become-a-real-time-guide/'
-        ],
-        [
-          'Reference 2',
-          'https://ec.europa.eu/digital-single-market/blog/fiware-making-cities-smarter'
-        ],
-        [
-          'Reference 3',
-          'http://smart-cities.pt/pt/noticia/75-cidades-partilham-dados-no-fiware9/'
         ]
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Ubiwhere.svg',
-      featuredImage: 'https://urbanplatform.city/img/map_city.png',
+      featuredImage:
+        'https://www.fiware.org/wp-content/marketplace/images/hero_ubiwhere_urban-platform.png',
       furtherImages: '',
       related: [
         {
           category: 'Powered by FIWARE',
-          featuredImage: 'https://www.ubiwhere.com/files/images/70D-0416.jpg',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_ubiwhere_smartlamppost.png',
           excerpt:
             'Smartlamppost is a modular concept of a lamppost with bleeding edge technology, allowing municipalities to future-proof their smart city and Mobile Network Operators to cost-effectively deploy their 5G solution.',
           productName: 'Smartlamppost',
@@ -4532,7 +4521,8 @@ var pageData = {
         },
         {
           category: 'Services',
-          featuredImage: 'https://fiware.ubiwhere.com/images/laptop.png',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_ubiwhere_fiware-at-ubiwhere.png',
           excerpt:
             'Ubiwhere’s offer includes systems for Smart Parking and Traffic Management, Smart Waste Management, Smart Environmental Monitoring, Smart Vending and Smart Card, along with its City Control Center, which allows for centralised management of the city’s ecosystem.',
           productName: 'FIWARE @ UBIWHERE',
@@ -4565,11 +4555,16 @@ var pageData = {
       domains: ['Cities'],
       docs: [],
       videos: [],
-      materials: [['Reference 1', 'http://waste4think.eu/news-events']],
+      materials: [
+        [
+          'Waste4think-News',
+          'https://docs.google.com/spreadsheets/d/1-_4KrkFWYTuK25vIjKA8qWhgQ1JCIDQwClfjmbYfmb4/edit#gid=1375822885'
+        ]
+      ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Waste4Think.svg',
       featuredImage:
-        'https://waste4think.eu/wp-content/uploads/W4T_30-1024x577.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_university-of-deusto_waste4think.png',
       furtherImages: ''
     },
     'viur-viur': {
@@ -4598,7 +4593,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Viur.svg',
       featuredImage:
-        'https://scontent-frt3-1.xx.fbcdn.net/v/t31.18172-8/13173342_1731367883743538_5735969383535102782_o.png?_nc_cat=107&ccb=1-7&_nc_sid=19026a&_nc_ohc=KQMY05uooy8AX-c5UCy&_nc_oc=AQmT3HXBQAQI6HIZzdtUPgDL0zSCI47TdEfOzI8HRWWYL3OSybhyo1L-gmAaDHXY-CU&tn=8vjiMBCSITGGfB_z&_nc_ht=scontent-frt3-1.xx&oh=00_AT8Bl6YF7_o1a7a-BDPn2iCzBoM2KBLAU-wtygpGvreHhA&oe=63086BB3',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_viur_viur.png',
       furtherImages: ''
     },
     'vm9-we4city': {
@@ -4626,26 +4621,18 @@ var pageData = {
       videos: [],
       materials: [
         [
-          'Reference 1',
+          'FIWARE-Article',
           'https://www.fiware.org/2019/04/24/we4city-urban-intelligence-on-top-of-smart-date-lakes-in-brazil/'
         ],
         [
-          'Reference 2',
+          'FIWARE-Article',
           'https://www.fiware.org/2016/07/28/reimagining-the-city-as-platform-how-vm9-are-reimagining-what-cities-can-do/'
-        ],
-        ['Reference 3', 'http://novafriburgo.cityasplatform.info/'],
-        [
-          'Reference 4',
-          'https://www.smarter-together.eu/news/gathering-outputs-smart-data-vienna'
-        ],
-        [
-          'Reference 5',
-          'https://ec.europa.eu/digital-single-market/en/news/finals-fi-ware-challenges-campus-party-2014-brazil'
         ]
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Vm9.svg',
-      featuredImage: 'http://www.vm9it.com/assets/img/wien-mobil.jpg',
+      featuredImage:
+        'https://www.fiware.org/wp-content/marketplace/images/hero_vm9_we4city.png',
       furtherImages: ''
     },
     'witrac-witrac': {
@@ -4680,7 +4667,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Witrac.svg',
       featuredImage:
-        'https://witrac.io/wp-content/uploads/2020/09/iMac-home.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_witrac_witrac.png',
       furtherImages: ''
     },
     'yerbabuenavr-ybvr': {
@@ -4709,7 +4696,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_ybvr.png',
       featuredImage:
-        'https://static.wixstatic.com/media/1ad670_4a20852e80c14b3a9fbc1bab39cb2708~mv2.jpg/v1/fill/w_1906,h_776,al_tl,q_85,enc_auto/1ad670_4a20852e80c14b3a9fbc1bab39cb2708~mv2.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_yerbabuena-vr_ybvr.png',
       furtherImages: ''
     }
   },
@@ -4747,7 +4734,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Agricolus.svg',
       featuredImage:
-        'https://www.agricolus.com/wp-content/uploads/2021/01/device-gen-2021-1.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_agricolus_agricolus-ecosystem.png',
       furtherImages: '',
       related: [
         {
@@ -4799,8 +4786,7 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Axion.svg',
-      featuredImage:
-        'https://www.axion.es/wp-content/uploads/2019/11/verticales2.png',
+      featuredImage: '',
       furtherImages: ''
     },
     'breezetechnologies-breezeairqualitysensors': {
@@ -4846,13 +4832,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_BreezeTechnologies.svg',
       featuredImage:
-        'https://www.breeze-technologies.de/wp-content/uploads/2016/02/Breeze-Concept-Design-2015-10-29-2-Map-View-Macbook.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_breeze-technologies_breeze-air-quality-sensors.png',
       furtherImages: '',
       related: [
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://www.breeze-technologies.de/wp-content/uploads/2016/02/Breeze-Concept-Design-2015-10-29-2-Map-View-Macbook.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_breeze-technologies_breeze-environmental-intelligence-cloud.png',
           excerpt:
             'Breeze Technologies enables cities and corporates to create a more liveable environment by providing actionable insights based on environmental sensor data.',
           productName: 'Breeze Environmental Intelligence Cloud',
@@ -4862,7 +4848,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://www.breeze-technologies.de/wp-content/uploads/2016/02/Breeze-Concept-Design-2015-10-29-2-Map-View-Macbook.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_breeze-technologies_environmental-intelligence-suite.png',
           excerpt:
             "Breeze Technologies\\' Environmental Intelligence Suite consists of indoor and outdoor air quality sensors, and the Environmental Intelligence Cloud, a SaaS data analytics platform for large air quality datasets. It supports cities, businesses and NGOs to collect and analze air quality in real time.",
           productName: 'Environmental Intelligence Suite',
@@ -4898,7 +4884,7 @@ var pageData = {
       materials: [],
       logo: 'https://lapsowork.com/wp-content/uploads/2021/06/Lapso-logo_1.png',
       featuredImage:
-        'https://lapsowork.com/wp-content/uploads/2021/07/1-gestor-vacaciones.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_cedesa-digital_lapsowrok.png',
       furtherImages: ''
     },
     'datakorumsolutions-beat': {
@@ -4936,7 +4922,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
       featuredImage:
-        'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_beat.png',
       furtherImages: '',
       related: [
         {
@@ -4950,7 +4936,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_lane.png',
           excerpt:
             'Intelligent Remote Control for Street Lighting\nLANE device gives you access to remote control and monitoring of any new or existing streetlight network from one point of light to whole streets.',
           productName: 'LANE',
@@ -4959,7 +4945,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_lb40.png',
           excerpt:
             'E3TLight devices integrate remote control, on/off switching of streetlight network, dimming and scheduled programming, monitoring electrical parameters, and WiFi communication, in a single unit.',
           productName: 'LB40',
@@ -4968,7 +4954,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_lc40.png',
           excerpt:
             'LC40 device allows remote control and monitoring of any new or existing streetlight network. This control is achieved by installing one E3TLight device just before the lights section we want to command.',
           productName: 'LC40',
@@ -4977,7 +4963,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2018/06/software_dk-1.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_ls40.png',
           excerpt:
             'E3TLight system allows remote control and monitoring of any new or existing streetlight network. This control is achieved by installing one E3TLight device just before the lights section we want to command.',
           productName: 'LS40',
@@ -4986,7 +4972,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_mb43.png',
           excerpt:
             'E3TMeter controllers integrate into one unique device remote control (on/off switching), monitoring of energy parameters of an electric board, either monophasic or triphasic, and WiFi communication.',
           productName: 'MB43',
@@ -4995,7 +4981,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_ms41.png',
           excerpt:
             'E3TMeter controllers integrate into one unique device remote control (on/off switching), monitoring of energy parameters of an electric board, either monophasic or triphasic, and WiFi communication.',
           productName: 'MS41',
@@ -5004,7 +4990,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_peak.png',
           excerpt:
             'Remote Control and Monitoring System\nPEAK device gives you access to remote control and monitoring of any new or existing streetlight network from one point of light to whole streets.',
           productName: 'PEAK',
@@ -5013,7 +4999,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_plug.png',
           excerpt:
             'PLUG device is an easily adjustable smart point-to-point lighting controller that is best suited for street lamps such as those that meet ANSI C136.41.',
           productName: 'PLUG',
@@ -5022,7 +5008,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_pole.png',
           excerpt:
             'POLE the IoT Device is an easily adjustable smart point-to-point lighting controller that is best suited for projects such as Smart Lighting projects.',
           productName: 'POLE',
@@ -5039,7 +5025,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_ss47.png',
           excerpt:
             'IoT sensor monitoring system allows any analog or digital sensor to behave as if it were an IoT sensor and establishes a real-time connection between the cloud and sensors.',
           productName: 'SS47',
@@ -5048,7 +5034,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_tiny.png',
           excerpt:
             'TINY is a device that is best suited for lighting manufacturers, due to being a smart point-to-point controller and easily adjustable when turned on and off.',
           productName: 'TINY',
@@ -5086,7 +5072,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_beat.png',
           excerpt:
             'We provide different solutions that have been designed in order to simplify and optimize waste collection and treatment processes for Smart Cities. Also, we offer load control or dynamic weighing systems in vehicles and provide solutions that have been designed to make work processes easier.',
           productName: 'BEAT',
@@ -5095,7 +5081,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_lane.png',
           excerpt:
             'Intelligent Remote Control for Street Lighting\nLANE device gives you access to remote control and monitoring of any new or existing streetlight network from one point of light to whole streets.',
           productName: 'LANE',
@@ -5104,7 +5090,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_lb40.png',
           excerpt:
             'E3TLight devices integrate remote control, on/off switching of streetlight network, dimming and scheduled programming, monitoring electrical parameters, and WiFi communication, in a single unit.',
           productName: 'LB40',
@@ -5113,7 +5099,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_lc40.png',
           excerpt:
             'LC40 device allows remote control and monitoring of any new or existing streetlight network. This control is achieved by installing one E3TLight device just before the lights section we want to command.',
           productName: 'LC40',
@@ -5122,7 +5108,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2018/06/software_dk-1.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_ls40.png',
           excerpt:
             'E3TLight system allows remote control and monitoring of any new or existing streetlight network. This control is achieved by installing one E3TLight device just before the lights section we want to command.',
           productName: 'LS40',
@@ -5131,7 +5117,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_mb43.png',
           excerpt:
             'E3TMeter controllers integrate into one unique device remote control (on/off switching), monitoring of energy parameters of an electric board, either monophasic or triphasic, and WiFi communication.',
           productName: 'MB43',
@@ -5140,7 +5126,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_ms41.png',
           excerpt:
             'E3TMeter controllers integrate into one unique device remote control (on/off switching), monitoring of energy parameters of an electric board, either monophasic or triphasic, and WiFi communication.',
           productName: 'MS41',
@@ -5149,7 +5135,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_peak.png',
           excerpt:
             'Remote Control and Monitoring System\nPEAK device gives you access to remote control and monitoring of any new or existing streetlight network from one point of light to whole streets.',
           productName: 'PEAK',
@@ -5158,7 +5144,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_plug.png',
           excerpt:
             'PLUG device is an easily adjustable smart point-to-point lighting controller that is best suited for street lamps such as those that meet ANSI C136.41.',
           productName: 'PLUG',
@@ -5167,7 +5153,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_pole.png',
           excerpt:
             'POLE the IoT Device is an easily adjustable smart point-to-point lighting controller that is best suited for projects such as Smart Lighting projects.',
           productName: 'POLE',
@@ -5184,7 +5170,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_ss47.png',
           excerpt:
             'IoT sensor monitoring system allows any analog or digital sensor to behave as if it were an IoT sensor and establishes a real-time connection between the cloud and sensors.',
           productName: 'SS47',
@@ -5193,7 +5179,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_tiny.png',
           excerpt:
             'TINY is a device that is best suited for lighting manufacturers, due to being a smart point-to-point controller and easily adjustable when turned on and off.',
           productName: 'TINY',
@@ -5231,13 +5217,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
       featuredImage:
-        'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_lane.png',
       furtherImages: '',
       related: [
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_beat.png',
           excerpt:
             'We provide different solutions that have been designed in order to simplify and optimize waste collection and treatment processes for Smart Cities. Also, we offer load control or dynamic weighing systems in vehicles and provide solutions that have been designed to make work processes easier.',
           productName: 'BEAT',
@@ -5254,7 +5240,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_lb40.png',
           excerpt:
             'E3TLight devices integrate remote control, on/off switching of streetlight network, dimming and scheduled programming, monitoring electrical parameters, and WiFi communication, in a single unit.',
           productName: 'LB40',
@@ -5263,7 +5249,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_lc40.png',
           excerpt:
             'LC40 device allows remote control and monitoring of any new or existing streetlight network. This control is achieved by installing one E3TLight device just before the lights section we want to command.',
           productName: 'LC40',
@@ -5272,7 +5258,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2018/06/software_dk-1.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_ls40.png',
           excerpt:
             'E3TLight system allows remote control and monitoring of any new or existing streetlight network. This control is achieved by installing one E3TLight device just before the lights section we want to command.',
           productName: 'LS40',
@@ -5281,7 +5267,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_mb43.png',
           excerpt:
             'E3TMeter controllers integrate into one unique device remote control (on/off switching), monitoring of energy parameters of an electric board, either monophasic or triphasic, and WiFi communication.',
           productName: 'MB43',
@@ -5290,7 +5276,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_ms41.png',
           excerpt:
             'E3TMeter controllers integrate into one unique device remote control (on/off switching), monitoring of energy parameters of an electric board, either monophasic or triphasic, and WiFi communication.',
           productName: 'MS41',
@@ -5299,7 +5285,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_peak.png',
           excerpt:
             'Remote Control and Monitoring System\nPEAK device gives you access to remote control and monitoring of any new or existing streetlight network from one point of light to whole streets.',
           productName: 'PEAK',
@@ -5308,7 +5294,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_plug.png',
           excerpt:
             'PLUG device is an easily adjustable smart point-to-point lighting controller that is best suited for street lamps such as those that meet ANSI C136.41.',
           productName: 'PLUG',
@@ -5317,7 +5303,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_pole.png',
           excerpt:
             'POLE the IoT Device is an easily adjustable smart point-to-point lighting controller that is best suited for projects such as Smart Lighting projects.',
           productName: 'POLE',
@@ -5334,7 +5320,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_ss47.png',
           excerpt:
             'IoT sensor monitoring system allows any analog or digital sensor to behave as if it were an IoT sensor and establishes a real-time connection between the cloud and sensors.',
           productName: 'SS47',
@@ -5343,7 +5329,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_tiny.png',
           excerpt:
             'TINY is a device that is best suited for lighting manufacturers, due to being a smart point-to-point controller and easily adjustable when turned on and off.',
           productName: 'TINY',
@@ -5376,13 +5362,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
       featuredImage:
-        'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_lb40.png',
       furtherImages: '',
       related: [
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_beat.png',
           excerpt:
             'We provide different solutions that have been designed in order to simplify and optimize waste collection and treatment processes for Smart Cities. Also, we offer load control or dynamic weighing systems in vehicles and provide solutions that have been designed to make work processes easier.',
           productName: 'BEAT',
@@ -5399,7 +5385,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_lane.png',
           excerpt:
             'Intelligent Remote Control for Street Lighting\nLANE device gives you access to remote control and monitoring of any new or existing streetlight network from one point of light to whole streets.',
           productName: 'LANE',
@@ -5408,7 +5394,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_lc40.png',
           excerpt:
             'LC40 device allows remote control and monitoring of any new or existing streetlight network. This control is achieved by installing one E3TLight device just before the lights section we want to command.',
           productName: 'LC40',
@@ -5417,7 +5403,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2018/06/software_dk-1.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_ls40.png',
           excerpt:
             'E3TLight system allows remote control and monitoring of any new or existing streetlight network. This control is achieved by installing one E3TLight device just before the lights section we want to command.',
           productName: 'LS40',
@@ -5426,7 +5412,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_mb43.png',
           excerpt:
             'E3TMeter controllers integrate into one unique device remote control (on/off switching), monitoring of energy parameters of an electric board, either monophasic or triphasic, and WiFi communication.',
           productName: 'MB43',
@@ -5435,7 +5421,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_ms41.png',
           excerpt:
             'E3TMeter controllers integrate into one unique device remote control (on/off switching), monitoring of energy parameters of an electric board, either monophasic or triphasic, and WiFi communication.',
           productName: 'MS41',
@@ -5444,7 +5430,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_peak.png',
           excerpt:
             'Remote Control and Monitoring System\nPEAK device gives you access to remote control and monitoring of any new or existing streetlight network from one point of light to whole streets.',
           productName: 'PEAK',
@@ -5453,7 +5439,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_plug.png',
           excerpt:
             'PLUG device is an easily adjustable smart point-to-point lighting controller that is best suited for street lamps such as those that meet ANSI C136.41.',
           productName: 'PLUG',
@@ -5462,7 +5448,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_pole.png',
           excerpt:
             'POLE the IoT Device is an easily adjustable smart point-to-point lighting controller that is best suited for projects such as Smart Lighting projects.',
           productName: 'POLE',
@@ -5479,7 +5465,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_ss47.png',
           excerpt:
             'IoT sensor monitoring system allows any analog or digital sensor to behave as if it were an IoT sensor and establishes a real-time connection between the cloud and sensors.',
           productName: 'SS47',
@@ -5488,7 +5474,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_tiny.png',
           excerpt:
             'TINY is a device that is best suited for lighting manufacturers, due to being a smart point-to-point controller and easily adjustable when turned on and off.',
           productName: 'TINY',
@@ -5521,13 +5507,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
       featuredImage:
-        'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_lc40.png',
       furtherImages: '',
       related: [
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_beat.png',
           excerpt:
             'We provide different solutions that have been designed in order to simplify and optimize waste collection and treatment processes for Smart Cities. Also, we offer load control or dynamic weighing systems in vehicles and provide solutions that have been designed to make work processes easier.',
           productName: 'BEAT',
@@ -5544,7 +5530,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_lane.png',
           excerpt:
             'Intelligent Remote Control for Street Lighting\nLANE device gives you access to remote control and monitoring of any new or existing streetlight network from one point of light to whole streets.',
           productName: 'LANE',
@@ -5553,7 +5539,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_lb40.png',
           excerpt:
             'E3TLight devices integrate remote control, on/off switching of streetlight network, dimming and scheduled programming, monitoring electrical parameters, and WiFi communication, in a single unit.',
           productName: 'LB40',
@@ -5562,7 +5548,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2018/06/software_dk-1.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_ls40.png',
           excerpt:
             'E3TLight system allows remote control and monitoring of any new or existing streetlight network. This control is achieved by installing one E3TLight device just before the lights section we want to command.',
           productName: 'LS40',
@@ -5571,7 +5557,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_mb43.png',
           excerpt:
             'E3TMeter controllers integrate into one unique device remote control (on/off switching), monitoring of energy parameters of an electric board, either monophasic or triphasic, and WiFi communication.',
           productName: 'MB43',
@@ -5580,7 +5566,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_ms41.png',
           excerpt:
             'E3TMeter controllers integrate into one unique device remote control (on/off switching), monitoring of energy parameters of an electric board, either monophasic or triphasic, and WiFi communication.',
           productName: 'MS41',
@@ -5589,7 +5575,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_peak.png',
           excerpt:
             'Remote Control and Monitoring System\nPEAK device gives you access to remote control and monitoring of any new or existing streetlight network from one point of light to whole streets.',
           productName: 'PEAK',
@@ -5598,7 +5584,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_plug.png',
           excerpt:
             'PLUG device is an easily adjustable smart point-to-point lighting controller that is best suited for street lamps such as those that meet ANSI C136.41.',
           productName: 'PLUG',
@@ -5607,7 +5593,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_pole.png',
           excerpt:
             'POLE the IoT Device is an easily adjustable smart point-to-point lighting controller that is best suited for projects such as Smart Lighting projects.',
           productName: 'POLE',
@@ -5624,7 +5610,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_ss47.png',
           excerpt:
             'IoT sensor monitoring system allows any analog or digital sensor to behave as if it were an IoT sensor and establishes a real-time connection between the cloud and sensors.',
           productName: 'SS47',
@@ -5633,7 +5619,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_tiny.png',
           excerpt:
             'TINY is a device that is best suited for lighting manufacturers, due to being a smart point-to-point controller and easily adjustable when turned on and off.',
           productName: 'TINY',
@@ -5666,13 +5652,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
       featuredImage:
-        'https://www.datakorum.com/site/wp-content/uploads/2018/06/software_dk-1.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_ls40.png',
       furtherImages: '',
       related: [
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_beat.png',
           excerpt:
             'We provide different solutions that have been designed in order to simplify and optimize waste collection and treatment processes for Smart Cities. Also, we offer load control or dynamic weighing systems in vehicles and provide solutions that have been designed to make work processes easier.',
           productName: 'BEAT',
@@ -5689,7 +5675,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_lane.png',
           excerpt:
             'Intelligent Remote Control for Street Lighting\nLANE device gives you access to remote control and monitoring of any new or existing streetlight network from one point of light to whole streets.',
           productName: 'LANE',
@@ -5698,7 +5684,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_lb40.png',
           excerpt:
             'E3TLight devices integrate remote control, on/off switching of streetlight network, dimming and scheduled programming, monitoring electrical parameters, and WiFi communication, in a single unit.',
           productName: 'LB40',
@@ -5707,7 +5693,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_lc40.png',
           excerpt:
             'LC40 device allows remote control and monitoring of any new or existing streetlight network. This control is achieved by installing one E3TLight device just before the lights section we want to command.',
           productName: 'LC40',
@@ -5716,7 +5702,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_mb43.png',
           excerpt:
             'E3TMeter controllers integrate into one unique device remote control (on/off switching), monitoring of energy parameters of an electric board, either monophasic or triphasic, and WiFi communication.',
           productName: 'MB43',
@@ -5725,7 +5711,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_ms41.png',
           excerpt:
             'E3TMeter controllers integrate into one unique device remote control (on/off switching), monitoring of energy parameters of an electric board, either monophasic or triphasic, and WiFi communication.',
           productName: 'MS41',
@@ -5734,7 +5720,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_peak.png',
           excerpt:
             'Remote Control and Monitoring System\nPEAK device gives you access to remote control and monitoring of any new or existing streetlight network from one point of light to whole streets.',
           productName: 'PEAK',
@@ -5743,7 +5729,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_plug.png',
           excerpt:
             'PLUG device is an easily adjustable smart point-to-point lighting controller that is best suited for street lamps such as those that meet ANSI C136.41.',
           productName: 'PLUG',
@@ -5752,7 +5738,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_pole.png',
           excerpt:
             'POLE the IoT Device is an easily adjustable smart point-to-point lighting controller that is best suited for projects such as Smart Lighting projects.',
           productName: 'POLE',
@@ -5769,7 +5755,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_ss47.png',
           excerpt:
             'IoT sensor monitoring system allows any analog or digital sensor to behave as if it were an IoT sensor and establishes a real-time connection between the cloud and sensors.',
           productName: 'SS47',
@@ -5778,7 +5764,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_tiny.png',
           excerpt:
             'TINY is a device that is best suited for lighting manufacturers, due to being a smart point-to-point controller and easily adjustable when turned on and off.',
           productName: 'TINY',
@@ -5811,13 +5797,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
       featuredImage:
-        'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_mb43.png',
       furtherImages: '',
       related: [
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_beat.png',
           excerpt:
             'We provide different solutions that have been designed in order to simplify and optimize waste collection and treatment processes for Smart Cities. Also, we offer load control or dynamic weighing systems in vehicles and provide solutions that have been designed to make work processes easier.',
           productName: 'BEAT',
@@ -5834,7 +5820,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_lane.png',
           excerpt:
             'Intelligent Remote Control for Street Lighting\nLANE device gives you access to remote control and monitoring of any new or existing streetlight network from one point of light to whole streets.',
           productName: 'LANE',
@@ -5843,7 +5829,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_lb40.png',
           excerpt:
             'E3TLight devices integrate remote control, on/off switching of streetlight network, dimming and scheduled programming, monitoring electrical parameters, and WiFi communication, in a single unit.',
           productName: 'LB40',
@@ -5852,7 +5838,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_lc40.png',
           excerpt:
             'LC40 device allows remote control and monitoring of any new or existing streetlight network. This control is achieved by installing one E3TLight device just before the lights section we want to command.',
           productName: 'LC40',
@@ -5861,7 +5847,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2018/06/software_dk-1.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_ls40.png',
           excerpt:
             'E3TLight system allows remote control and monitoring of any new or existing streetlight network. This control is achieved by installing one E3TLight device just before the lights section we want to command.',
           productName: 'LS40',
@@ -5870,7 +5856,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_ms41.png',
           excerpt:
             'E3TMeter controllers integrate into one unique device remote control (on/off switching), monitoring of energy parameters of an electric board, either monophasic or triphasic, and WiFi communication.',
           productName: 'MS41',
@@ -5879,7 +5865,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_peak.png',
           excerpt:
             'Remote Control and Monitoring System\nPEAK device gives you access to remote control and monitoring of any new or existing streetlight network from one point of light to whole streets.',
           productName: 'PEAK',
@@ -5888,7 +5874,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_plug.png',
           excerpt:
             'PLUG device is an easily adjustable smart point-to-point lighting controller that is best suited for street lamps such as those that meet ANSI C136.41.',
           productName: 'PLUG',
@@ -5897,7 +5883,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_pole.png',
           excerpt:
             'POLE the IoT Device is an easily adjustable smart point-to-point lighting controller that is best suited for projects such as Smart Lighting projects.',
           productName: 'POLE',
@@ -5914,7 +5900,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_ss47.png',
           excerpt:
             'IoT sensor monitoring system allows any analog or digital sensor to behave as if it were an IoT sensor and establishes a real-time connection between the cloud and sensors.',
           productName: 'SS47',
@@ -5923,7 +5909,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_tiny.png',
           excerpt:
             'TINY is a device that is best suited for lighting manufacturers, due to being a smart point-to-point controller and easily adjustable when turned on and off.',
           productName: 'TINY',
@@ -5956,13 +5942,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
       featuredImage:
-        'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_ms41.png',
       furtherImages: '',
       related: [
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_beat.png',
           excerpt:
             'We provide different solutions that have been designed in order to simplify and optimize waste collection and treatment processes for Smart Cities. Also, we offer load control or dynamic weighing systems in vehicles and provide solutions that have been designed to make work processes easier.',
           productName: 'BEAT',
@@ -5979,7 +5965,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_lane.png',
           excerpt:
             'Intelligent Remote Control for Street Lighting\nLANE device gives you access to remote control and monitoring of any new or existing streetlight network from one point of light to whole streets.',
           productName: 'LANE',
@@ -5988,7 +5974,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_lb40.png',
           excerpt:
             'E3TLight devices integrate remote control, on/off switching of streetlight network, dimming and scheduled programming, monitoring electrical parameters, and WiFi communication, in a single unit.',
           productName: 'LB40',
@@ -5997,7 +5983,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_lc40.png',
           excerpt:
             'LC40 device allows remote control and monitoring of any new or existing streetlight network. This control is achieved by installing one E3TLight device just before the lights section we want to command.',
           productName: 'LC40',
@@ -6006,7 +5992,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2018/06/software_dk-1.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_ls40.png',
           excerpt:
             'E3TLight system allows remote control and monitoring of any new or existing streetlight network. This control is achieved by installing one E3TLight device just before the lights section we want to command.',
           productName: 'LS40',
@@ -6015,7 +6001,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_mb43.png',
           excerpt:
             'E3TMeter controllers integrate into one unique device remote control (on/off switching), monitoring of energy parameters of an electric board, either monophasic or triphasic, and WiFi communication.',
           productName: 'MB43',
@@ -6024,7 +6010,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_peak.png',
           excerpt:
             'Remote Control and Monitoring System\nPEAK device gives you access to remote control and monitoring of any new or existing streetlight network from one point of light to whole streets.',
           productName: 'PEAK',
@@ -6033,7 +6019,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_plug.png',
           excerpt:
             'PLUG device is an easily adjustable smart point-to-point lighting controller that is best suited for street lamps such as those that meet ANSI C136.41.',
           productName: 'PLUG',
@@ -6042,7 +6028,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_pole.png',
           excerpt:
             'POLE the IoT Device is an easily adjustable smart point-to-point lighting controller that is best suited for projects such as Smart Lighting projects.',
           productName: 'POLE',
@@ -6059,7 +6045,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_ss47.png',
           excerpt:
             'IoT sensor monitoring system allows any analog or digital sensor to behave as if it were an IoT sensor and establishes a real-time connection between the cloud and sensors.',
           productName: 'SS47',
@@ -6068,7 +6054,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_tiny.png',
           excerpt:
             'TINY is a device that is best suited for lighting manufacturers, due to being a smart point-to-point controller and easily adjustable when turned on and off.',
           productName: 'TINY',
@@ -6107,13 +6093,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
       featuredImage:
-        'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_peak.png',
       furtherImages: '',
       related: [
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_beat.png',
           excerpt:
             'We provide different solutions that have been designed in order to simplify and optimize waste collection and treatment processes for Smart Cities. Also, we offer load control or dynamic weighing systems in vehicles and provide solutions that have been designed to make work processes easier.',
           productName: 'BEAT',
@@ -6130,7 +6116,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_lane.png',
           excerpt:
             'Intelligent Remote Control for Street Lighting\nLANE device gives you access to remote control and monitoring of any new or existing streetlight network from one point of light to whole streets.',
           productName: 'LANE',
@@ -6139,7 +6125,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_lb40.png',
           excerpt:
             'E3TLight devices integrate remote control, on/off switching of streetlight network, dimming and scheduled programming, monitoring electrical parameters, and WiFi communication, in a single unit.',
           productName: 'LB40',
@@ -6148,7 +6134,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_lc40.png',
           excerpt:
             'LC40 device allows remote control and monitoring of any new or existing streetlight network. This control is achieved by installing one E3TLight device just before the lights section we want to command.',
           productName: 'LC40',
@@ -6157,7 +6143,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2018/06/software_dk-1.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_ls40.png',
           excerpt:
             'E3TLight system allows remote control and monitoring of any new or existing streetlight network. This control is achieved by installing one E3TLight device just before the lights section we want to command.',
           productName: 'LS40',
@@ -6166,7 +6152,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_mb43.png',
           excerpt:
             'E3TMeter controllers integrate into one unique device remote control (on/off switching), monitoring of energy parameters of an electric board, either monophasic or triphasic, and WiFi communication.',
           productName: 'MB43',
@@ -6175,7 +6161,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_ms41.png',
           excerpt:
             'E3TMeter controllers integrate into one unique device remote control (on/off switching), monitoring of energy parameters of an electric board, either monophasic or triphasic, and WiFi communication.',
           productName: 'MS41',
@@ -6184,7 +6170,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_plug.png',
           excerpt:
             'PLUG device is an easily adjustable smart point-to-point lighting controller that is best suited for street lamps such as those that meet ANSI C136.41.',
           productName: 'PLUG',
@@ -6193,7 +6179,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_pole.png',
           excerpt:
             'POLE the IoT Device is an easily adjustable smart point-to-point lighting controller that is best suited for projects such as Smart Lighting projects.',
           productName: 'POLE',
@@ -6210,7 +6196,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_ss47.png',
           excerpt:
             'IoT sensor monitoring system allows any analog or digital sensor to behave as if it were an IoT sensor and establishes a real-time connection between the cloud and sensors.',
           productName: 'SS47',
@@ -6219,7 +6205,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_tiny.png',
           excerpt:
             'TINY is a device that is best suited for lighting manufacturers, due to being a smart point-to-point controller and easily adjustable when turned on and off.',
           productName: 'TINY',
@@ -6261,13 +6247,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
       featuredImage:
-        'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_plug.png',
       furtherImages: '',
       related: [
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_beat.png',
           excerpt:
             'We provide different solutions that have been designed in order to simplify and optimize waste collection and treatment processes for Smart Cities. Also, we offer load control or dynamic weighing systems in vehicles and provide solutions that have been designed to make work processes easier.',
           productName: 'BEAT',
@@ -6284,7 +6270,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_lane.png',
           excerpt:
             'Intelligent Remote Control for Street Lighting\nLANE device gives you access to remote control and monitoring of any new or existing streetlight network from one point of light to whole streets.',
           productName: 'LANE',
@@ -6293,7 +6279,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_lb40.png',
           excerpt:
             'E3TLight devices integrate remote control, on/off switching of streetlight network, dimming and scheduled programming, monitoring electrical parameters, and WiFi communication, in a single unit.',
           productName: 'LB40',
@@ -6302,7 +6288,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_lc40.png',
           excerpt:
             'LC40 device allows remote control and monitoring of any new or existing streetlight network. This control is achieved by installing one E3TLight device just before the lights section we want to command.',
           productName: 'LC40',
@@ -6311,7 +6297,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2018/06/software_dk-1.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_ls40.png',
           excerpt:
             'E3TLight system allows remote control and monitoring of any new or existing streetlight network. This control is achieved by installing one E3TLight device just before the lights section we want to command.',
           productName: 'LS40',
@@ -6320,7 +6306,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_mb43.png',
           excerpt:
             'E3TMeter controllers integrate into one unique device remote control (on/off switching), monitoring of energy parameters of an electric board, either monophasic or triphasic, and WiFi communication.',
           productName: 'MB43',
@@ -6329,7 +6315,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_ms41.png',
           excerpt:
             'E3TMeter controllers integrate into one unique device remote control (on/off switching), monitoring of energy parameters of an electric board, either monophasic or triphasic, and WiFi communication.',
           productName: 'MS41',
@@ -6338,7 +6324,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_peak.png',
           excerpt:
             'Remote Control and Monitoring System\nPEAK device gives you access to remote control and monitoring of any new or existing streetlight network from one point of light to whole streets.',
           productName: 'PEAK',
@@ -6347,7 +6333,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_pole.png',
           excerpt:
             'POLE the IoT Device is an easily adjustable smart point-to-point lighting controller that is best suited for projects such as Smart Lighting projects.',
           productName: 'POLE',
@@ -6364,7 +6350,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_ss47.png',
           excerpt:
             'IoT sensor monitoring system allows any analog or digital sensor to behave as if it were an IoT sensor and establishes a real-time connection between the cloud and sensors.',
           productName: 'SS47',
@@ -6373,7 +6359,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_tiny.png',
           excerpt:
             'TINY is a device that is best suited for lighting manufacturers, due to being a smart point-to-point controller and easily adjustable when turned on and off.',
           productName: 'TINY',
@@ -6415,13 +6401,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
       featuredImage:
-        'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_pole.png',
       furtherImages: '',
       related: [
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_beat.png',
           excerpt:
             'We provide different solutions that have been designed in order to simplify and optimize waste collection and treatment processes for Smart Cities. Also, we offer load control or dynamic weighing systems in vehicles and provide solutions that have been designed to make work processes easier.',
           productName: 'BEAT',
@@ -6438,7 +6424,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_lane.png',
           excerpt:
             'Intelligent Remote Control for Street Lighting\nLANE device gives you access to remote control and monitoring of any new or existing streetlight network from one point of light to whole streets.',
           productName: 'LANE',
@@ -6447,7 +6433,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_lb40.png',
           excerpt:
             'E3TLight devices integrate remote control, on/off switching of streetlight network, dimming and scheduled programming, monitoring electrical parameters, and WiFi communication, in a single unit.',
           productName: 'LB40',
@@ -6456,7 +6442,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_lc40.png',
           excerpt:
             'LC40 device allows remote control and monitoring of any new or existing streetlight network. This control is achieved by installing one E3TLight device just before the lights section we want to command.',
           productName: 'LC40',
@@ -6465,7 +6451,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2018/06/software_dk-1.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_ls40.png',
           excerpt:
             'E3TLight system allows remote control and monitoring of any new or existing streetlight network. This control is achieved by installing one E3TLight device just before the lights section we want to command.',
           productName: 'LS40',
@@ -6474,7 +6460,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_mb43.png',
           excerpt:
             'E3TMeter controllers integrate into one unique device remote control (on/off switching), monitoring of energy parameters of an electric board, either monophasic or triphasic, and WiFi communication.',
           productName: 'MB43',
@@ -6483,7 +6469,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_ms41.png',
           excerpt:
             'E3TMeter controllers integrate into one unique device remote control (on/off switching), monitoring of energy parameters of an electric board, either monophasic or triphasic, and WiFi communication.',
           productName: 'MS41',
@@ -6492,7 +6478,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_peak.png',
           excerpt:
             'Remote Control and Monitoring System\nPEAK device gives you access to remote control and monitoring of any new or existing streetlight network from one point of light to whole streets.',
           productName: 'PEAK',
@@ -6501,7 +6487,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_plug.png',
           excerpt:
             'PLUG device is an easily adjustable smart point-to-point lighting controller that is best suited for street lamps such as those that meet ANSI C136.41.',
           productName: 'PLUG',
@@ -6518,7 +6504,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_ss47.png',
           excerpt:
             'IoT sensor monitoring system allows any analog or digital sensor to behave as if it were an IoT sensor and establishes a real-time connection between the cloud and sensors.',
           productName: 'SS47',
@@ -6527,7 +6513,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_tiny.png',
           excerpt:
             'TINY is a device that is best suited for lighting manufacturers, due to being a smart point-to-point controller and easily adjustable when turned on and off.',
           productName: 'TINY',
@@ -6565,7 +6551,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_beat.png',
           excerpt:
             'We provide different solutions that have been designed in order to simplify and optimize waste collection and treatment processes for Smart Cities. Also, we offer load control or dynamic weighing systems in vehicles and provide solutions that have been designed to make work processes easier.',
           productName: 'BEAT',
@@ -6582,7 +6568,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_lane.png',
           excerpt:
             'Intelligent Remote Control for Street Lighting\nLANE device gives you access to remote control and monitoring of any new or existing streetlight network from one point of light to whole streets.',
           productName: 'LANE',
@@ -6591,7 +6577,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_lb40.png',
           excerpt:
             'E3TLight devices integrate remote control, on/off switching of streetlight network, dimming and scheduled programming, monitoring electrical parameters, and WiFi communication, in a single unit.',
           productName: 'LB40',
@@ -6600,7 +6586,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_lc40.png',
           excerpt:
             'LC40 device allows remote control and monitoring of any new or existing streetlight network. This control is achieved by installing one E3TLight device just before the lights section we want to command.',
           productName: 'LC40',
@@ -6609,7 +6595,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2018/06/software_dk-1.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_ls40.png',
           excerpt:
             'E3TLight system allows remote control and monitoring of any new or existing streetlight network. This control is achieved by installing one E3TLight device just before the lights section we want to command.',
           productName: 'LS40',
@@ -6618,7 +6604,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_mb43.png',
           excerpt:
             'E3TMeter controllers integrate into one unique device remote control (on/off switching), monitoring of energy parameters of an electric board, either monophasic or triphasic, and WiFi communication.',
           productName: 'MB43',
@@ -6627,7 +6613,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_ms41.png',
           excerpt:
             'E3TMeter controllers integrate into one unique device remote control (on/off switching), monitoring of energy parameters of an electric board, either monophasic or triphasic, and WiFi communication.',
           productName: 'MS41',
@@ -6636,7 +6622,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_peak.png',
           excerpt:
             'Remote Control and Monitoring System\nPEAK device gives you access to remote control and monitoring of any new or existing streetlight network from one point of light to whole streets.',
           productName: 'PEAK',
@@ -6645,7 +6631,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_plug.png',
           excerpt:
             'PLUG device is an easily adjustable smart point-to-point lighting controller that is best suited for street lamps such as those that meet ANSI C136.41.',
           productName: 'PLUG',
@@ -6654,7 +6640,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_pole.png',
           excerpt:
             'POLE the IoT Device is an easily adjustable smart point-to-point lighting controller that is best suited for projects such as Smart Lighting projects.',
           productName: 'POLE',
@@ -6663,7 +6649,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_ss47.png',
           excerpt:
             'IoT sensor monitoring system allows any analog or digital sensor to behave as if it were an IoT sensor and establishes a real-time connection between the cloud and sensors.',
           productName: 'SS47',
@@ -6672,7 +6658,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_tiny.png',
           excerpt:
             'TINY is a device that is best suited for lighting manufacturers, due to being a smart point-to-point controller and easily adjustable when turned on and off.',
           productName: 'TINY',
@@ -6705,13 +6691,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
       featuredImage:
-        'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_ss47.png',
       furtherImages: '',
       related: [
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_beat.png',
           excerpt:
             'We provide different solutions that have been designed in order to simplify and optimize waste collection and treatment processes for Smart Cities. Also, we offer load control or dynamic weighing systems in vehicles and provide solutions that have been designed to make work processes easier.',
           productName: 'BEAT',
@@ -6728,7 +6714,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_lane.png',
           excerpt:
             'Intelligent Remote Control for Street Lighting\nLANE device gives you access to remote control and monitoring of any new or existing streetlight network from one point of light to whole streets.',
           productName: 'LANE',
@@ -6737,7 +6723,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_lb40.png',
           excerpt:
             'E3TLight devices integrate remote control, on/off switching of streetlight network, dimming and scheduled programming, monitoring electrical parameters, and WiFi communication, in a single unit.',
           productName: 'LB40',
@@ -6746,7 +6732,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_lc40.png',
           excerpt:
             'LC40 device allows remote control and monitoring of any new or existing streetlight network. This control is achieved by installing one E3TLight device just before the lights section we want to command.',
           productName: 'LC40',
@@ -6755,7 +6741,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2018/06/software_dk-1.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_ls40.png',
           excerpt:
             'E3TLight system allows remote control and monitoring of any new or existing streetlight network. This control is achieved by installing one E3TLight device just before the lights section we want to command.',
           productName: 'LS40',
@@ -6764,7 +6750,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_mb43.png',
           excerpt:
             'E3TMeter controllers integrate into one unique device remote control (on/off switching), monitoring of energy parameters of an electric board, either monophasic or triphasic, and WiFi communication.',
           productName: 'MB43',
@@ -6773,7 +6759,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_ms41.png',
           excerpt:
             'E3TMeter controllers integrate into one unique device remote control (on/off switching), monitoring of energy parameters of an electric board, either monophasic or triphasic, and WiFi communication.',
           productName: 'MS41',
@@ -6782,7 +6768,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_peak.png',
           excerpt:
             'Remote Control and Monitoring System\nPEAK device gives you access to remote control and monitoring of any new or existing streetlight network from one point of light to whole streets.',
           productName: 'PEAK',
@@ -6791,7 +6777,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_plug.png',
           excerpt:
             'PLUG device is an easily adjustable smart point-to-point lighting controller that is best suited for street lamps such as those that meet ANSI C136.41.',
           productName: 'PLUG',
@@ -6800,7 +6786,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_pole.png',
           excerpt:
             'POLE the IoT Device is an easily adjustable smart point-to-point lighting controller that is best suited for projects such as Smart Lighting projects.',
           productName: 'POLE',
@@ -6817,7 +6803,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_tiny.png',
           excerpt:
             'TINY is a device that is best suited for lighting manufacturers, due to being a smart point-to-point controller and easily adjustable when turned on and off.',
           productName: 'TINY',
@@ -6860,13 +6846,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
       featuredImage:
-        'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_tiny.png',
       furtherImages: '',
       related: [
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_beat.png',
           excerpt:
             'We provide different solutions that have been designed in order to simplify and optimize waste collection and treatment processes for Smart Cities. Also, we offer load control or dynamic weighing systems in vehicles and provide solutions that have been designed to make work processes easier.',
           productName: 'BEAT',
@@ -6883,7 +6869,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_lane.png',
           excerpt:
             'Intelligent Remote Control for Street Lighting\nLANE device gives you access to remote control and monitoring of any new or existing streetlight network from one point of light to whole streets.',
           productName: 'LANE',
@@ -6892,7 +6878,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_lb40.png',
           excerpt:
             'E3TLight devices integrate remote control, on/off switching of streetlight network, dimming and scheduled programming, monitoring electrical parameters, and WiFi communication, in a single unit.',
           productName: 'LB40',
@@ -6901,7 +6887,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_lc40.png',
           excerpt:
             'LC40 device allows remote control and monitoring of any new or existing streetlight network. This control is achieved by installing one E3TLight device just before the lights section we want to command.',
           productName: 'LC40',
@@ -6910,7 +6896,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2018/06/software_dk-1.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_ls40.png',
           excerpt:
             'E3TLight system allows remote control and monitoring of any new or existing streetlight network. This control is achieved by installing one E3TLight device just before the lights section we want to command.',
           productName: 'LS40',
@@ -6919,7 +6905,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_mb43.png',
           excerpt:
             'E3TMeter controllers integrate into one unique device remote control (on/off switching), monitoring of energy parameters of an electric board, either monophasic or triphasic, and WiFi communication.',
           productName: 'MB43',
@@ -6928,7 +6914,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_ms41.png',
           excerpt:
             'E3TMeter controllers integrate into one unique device remote control (on/off switching), monitoring of energy parameters of an electric board, either monophasic or triphasic, and WiFi communication.',
           productName: 'MS41',
@@ -6937,7 +6923,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_peak.png',
           excerpt:
             'Remote Control and Monitoring System\nPEAK device gives you access to remote control and monitoring of any new or existing streetlight network from one point of light to whole streets.',
           productName: 'PEAK',
@@ -6946,7 +6932,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_plug.png',
           excerpt:
             'PLUG device is an easily adjustable smart point-to-point lighting controller that is best suited for street lamps such as those that meet ANSI C136.41.',
           productName: 'PLUG',
@@ -6955,7 +6941,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_pole.png',
           excerpt:
             'POLE the IoT Device is an easily adjustable smart point-to-point lighting controller that is best suited for projects such as Smart Lighting projects.',
           productName: 'POLE',
@@ -6972,7 +6958,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.datakorum.com/site/wp-content/uploads/2021/09/FAMILY-PIPE-2-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_datakorum-solutions_ss47.png',
           excerpt:
             'IoT sensor monitoring system allows any analog or digital sensor to behave as if it were an IoT sensor and establishes a real-time connection between the cloud and sensors.',
           productName: 'SS47',
@@ -7005,7 +6991,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_UDGAlliance.svg',
       featuredImage:
-        'https://pbs.twimg.com/profile_banners/2433287336/1454830240/1500x500',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_device-gateway_udg.png',
       furtherImages: ''
     },
     'digitalilusion-outbeacon': {
@@ -7034,13 +7020,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_OutBarriers.svg',
       featuredImage:
-        'https://outbarriers.com/static/img/outbarriers-app-mockup-vertical.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_digitalilusion_outbeacon.png',
       furtherImages: '',
       related: [
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://outbarriers.com/static/img/outbarriers-app-mockup-vertical.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_digitalilusion_outbarriers.png',
           excerpt:
             'We make businesses visible for everyone, including blind people, thanks to our accessible beacon solution. Today Outbarriers is a reality with an objective to make this world a better place for all of us. A world where the cities are adapted for their citizens and not vice versa.',
           productName: 'Outbarriers',
@@ -7105,7 +7091,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Distromel.svg',
       featuredImage:
-        'https://distromel.com/wp-content/uploads/2019/11/slider-03-1.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_distromel_sigeus.png',
       furtherImages: ''
     },
     'eficae-miluz': {
@@ -7142,13 +7128,13 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Miluz.svg',
-      featuredImage:
-        'https://scontent-frx5-1.xx.fbcdn.net/v/t31.18172-8/14890579_2146889875537141_2362421940285391873_o.png?_nc_cat=100&ccb=1-7&_nc_sid=9267fe&_nc_ohc=aord0wqc-CwAX8ajOSu&tn=8vjiMBCSITGGfB_z&_nc_ht=scontent-frx5-1.xx&oh=00_AT8sjyzCswOxSOZXhwfzlB1psgrqAFQ2_g7p-PguE64-Og&oe=63077F22',
+      featuredImage: '',
       furtherImages: '',
       related: [
         {
           category: 'FIWARE-Ready',
-          featuredImage: 'https://pbs.twimg.com/media/D2wdBsSWwAANedJ.jpg',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_eficae-soluciones_industrial-meter.png',
           excerpt:
             'Industrial mono-phase and three-phase electrical meter and analyzer. With Industrial Meter 4.0 you can get the knowledge how industrial installations process consumption and how to improve the production process.',
           productName: 'Industrial Meter 4.0',
@@ -7182,7 +7168,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.eficaesoluciones.com/wp-content/uploads/sites/3/2022/01/logoeficae.png',
-      featuredImage: 'https://pbs.twimg.com/media/D2wdBsSWwAANedJ.jpg',
+      featuredImage:
+        'https://www.fiware.org/wp-content/marketplace/images/hero_eficae-soluciones_industrial-meter.png',
       furtherImages: ''
     },
     'egm-edgespot': {
@@ -7222,13 +7209,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_EGM.svg',
       featuredImage:
-        'https://www.egm.io/wp-content/uploads/2020/08/egm-home-pic.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_egm_edgespot.png',
       furtherImages: '',
       related: [
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://www.egm.io/wp-content/uploads/2021/09/cd66-montage-blog.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_egm_carpool-parking.png',
           excerpt:
             'This camera allows us to count entries and exits in a carpool park and to determine whether the cars parked are indeed intended for carpooling. This device allows our clients to have tangible statistics on the occupation of a car park.',
           productName: 'Carpool Parking',
@@ -7237,7 +7224,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://www.egm.io/wp-content/uploads/2020/10/7-scaled.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_egm_smart-irrigation.png',
           excerpt:
             'EGM offers a complete solution for determining the amount of water that can be saved on a green space and deploying the control solution in addition to an existing watering system to achieve the water savings in question. Our solution saved 35% of the water on the first deployment.',
           productName: 'Smart Irrigation',
@@ -7246,7 +7233,7 @@ var pageData = {
         {
           category: 'Services',
           featuredImage:
-            'https://pbs.twimg.com/profile_banners/4419455500/1610366049/1500x500',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_egm_design-office.png',
           excerpt:
             'From idea (feasibility study, design, prototyping, industrialization and manufacturing)  to realization of your solution: a user-centered creation process. \nYou know your work we help you to optimize it!',
           productName: 'Design office',
@@ -7285,7 +7272,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_eVineyard.svg',
       featuredImage:
-        'https://i.im.ge/2022/08/01/Ft2coq.eVineyard-Vineyard-management-software-2-.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_elmitel_evineyard.png',
       furtherImages: ''
     },
     'engineering-dashram': {
@@ -7317,13 +7304,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Engineering.svg',
       featuredImage:
-        'https://www.eng.it/resources/cases/cs_imp_case_16-11-2020_dashram_it_1605516526298/dashram_q.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_engineering_dashram.png',
       furtherImages: '',
       related: [
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://www.eng.it/resources/platform/digital-enabler/img/digital-enabler2-q1.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_engineering_digital-enabler.png',
           excerpt:
             'Digital Enabler TM is the Engineering’s ecosystem platform supporting the entire value chain of data, from the discovery to the analysis, harmonization, and visualization.',
           productName: 'Digital Enabler',
@@ -7331,7 +7318,8 @@ var pageData = {
         },
         {
           category: 'Powered by FIWARE',
-          featuredImage: '',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_engineering_curavestacuravesta.png',
           excerpt:
             'CuraVesta© is an assistance system, which was developed by ENGINEERING for home care. As a Health solution, it supports people who care for and nurse their relatives at home.',
           productName: 'CuraVesta',
@@ -7340,7 +7328,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.knowage-suite.com/site/wp-content/uploads/2021/09/knowage-overview.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_engineering_knowage.png',
           excerpt:
             'KNOWAGE  is the professional open-source suite for analytics and business intelligence with any data, fully compliant with FIWARE architecture and GEs.',
           productName: 'KNOWAGE',
@@ -7409,13 +7397,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_KnowAge.svg',
       featuredImage:
-        'https://www.knowage-suite.com/site/wp-content/uploads/2021/09/knowage-overview.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_engineering_knowage.png',
       furtherImages: '',
       related: [
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://www.eng.it/resources/platform/digital-enabler/img/digital-enabler2-q1.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_engineering_digital-enabler.png',
           excerpt:
             'Digital Enabler TM is the Engineering’s ecosystem platform supporting the entire value chain of data, from the discovery to the analysis, harmonization, and visualization.',
           productName: 'Digital Enabler',
@@ -7423,7 +7411,8 @@ var pageData = {
         },
         {
           category: 'Powered by FIWARE',
-          featuredImage: '',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_engineering_curavestacuravesta.png',
           excerpt:
             'CuraVesta© is an assistance system, which was developed by ENGINEERING for home care. As a Health solution, it supports people who care for and nurse their relatives at home.',
           productName: 'CuraVesta',
@@ -7432,7 +7421,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.eng.it/resources/cases/cs_imp_case_16-11-2020_dashram_it_1605516526298/dashram_q.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_engineering_dashram.png',
           excerpt:
             'Dashram is an Open Source tool for advanced data visualization, characterized by a simple and functional interface that provides the means to create and share 2D and 3D charts, map-based visualizations and dashboards.',
           productName: 'Dashram',
@@ -7484,7 +7473,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Gecor.svg',
-      featuredImage: 'https://gecorweb.com/images/HomeNI.webp',
+      featuredImage:
+        'https://www.fiware.org/wp-content/marketplace/images/hero_gecorsystem_gecor.png',
       furtherImages: ''
     },
     'greenglobesypa-nighteyeskysensor': {
@@ -7523,7 +7513,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_GreenGlobe.svg',
       featuredImage:
-        'https://www.fiware.org/wp-content/uploads/ImpactStories_Algeciras_Fig-5.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_green-globe-sypa_night-eye-sky-sensor.png',
       furtherImages: ''
     },
     'hopu-smartirrigiationsolution': {
@@ -7550,13 +7540,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Hopu.svg',
       featuredImage:
-        'https://hopu.eu/wp-content/uploads/2015/10/hop-ecosystem.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_hopu_smart-irrigiation-solution.png',
       furtherImages: '',
       related: [
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://pbs.twimg.com/profile_banners/2572537560/1647898056/1500x500',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_hopu_low-emission-zones.png',
           excerpt:
             'A suite of dashboards with CO2 indicators related to mobility. These indicators are founded on predictive models based on real-time air quality measurements and AI to optimise traffic flows in cities and ports. It provides high-value mobility services for administrations and informed decision-making',
           productName: 'Low Emission Zones',
@@ -7565,7 +7555,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://smartcities.hopu.eu/images/EN-smart-spot-scheme.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_hopu_smart-spot.png',
           excerpt:
             'Monitor noise, people affluence/density, and gases: nitrous vapors (NO/NO2), sulfides (H2S/SO2), carbon monoxide/dioxide (CO/CO2), Ozone, and other toxic substances (VOCs); particulate matter (PM) to identify nanoparticulate as dust (PM10), pollens (>PM40), pollutants (PM2.5) and viruses (&lt; PM1).',
           productName: 'Smart Spot',
@@ -7574,7 +7564,7 @@ var pageData = {
         {
           category: 'Services',
           featuredImage:
-            'https://hopu.eu/wp-content/uploads/2015/10/hop-ecosystem.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_hopu_fiware-expert-certification.png',
           excerpt:
             'FIWARE expert certification is an 8-week training programme organized in 4 blocks. This means an intensive programme of 180 hours; including 60 hours online and 120 hours of individual activities to become a FIWARE Expert!',
           productName: 'FIWARE Expert certification',
@@ -7652,13 +7642,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Hopu.svg',
       featuredImage:
-        'https://smartcities.hopu.eu/images/EN-smart-spot-scheme.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_hopu_smart-spot.png',
       furtherImages: '',
       related: [
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://pbs.twimg.com/profile_banners/2572537560/1647898056/1500x500',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_hopu_low-emission-zones.png',
           excerpt:
             'A suite of dashboards with CO2 indicators related to mobility. These indicators are founded on predictive models based on real-time air quality measurements and AI to optimise traffic flows in cities and ports. It provides high-value mobility services for administrations and informed decision-making',
           productName: 'Low Emission Zones',
@@ -7667,7 +7657,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://hopu.eu/wp-content/uploads/2015/10/hop-ecosystem.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_hopu_smart-irrigiation-solution.png',
           excerpt:
             'Manage irrigation based on accurate and real-time data and AI. Weather stations with sensors of air temperature and humidity, wind, rain, UV radiation, and evapotranspiration; Soil moisture sensors. Irrigation management calendar according to soil typology.',
           productName: 'Smart Irrigiation Solution',
@@ -7676,7 +7666,7 @@ var pageData = {
         {
           category: 'Services',
           featuredImage:
-            'https://hopu.eu/wp-content/uploads/2015/10/hop-ecosystem.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_hopu_fiware-expert-certification.png',
           excerpt:
             'FIWARE expert certification is an 8-week training programme organized in 4 blocks. This means an intensive programme of 180 hours; including 60 hours online and 120 hours of individual activities to become a FIWARE Expert!',
           productName: 'FIWARE Expert certification',
@@ -7709,7 +7699,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Babbler.svg',
       featuredImage:
-        'https://itude.com/wp-content/uploads/2019/01/Schermafbeelding-2019-02-12-om-17.04.00.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_itude%20mobile_babbler.png',
       furtherImages: ''
     },
     'kmblab-kissmybike': {
@@ -7741,7 +7731,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/raster/logo_KMBLab.png',
       featuredImage:
-        'https://media-exp1.licdn.com/dms/image/C561BAQFuQY7brqieWA/company-background_10000/0/1563375031363?e=2147483647&v=beta&t=k3Hj__QSZ5QKThT770HP9XKv_zxovOpY2imfLFrXJHU',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_kmb-lab_kissmybike.png',
       furtherImages: ''
     },
     'libelium-meshlium': {
@@ -7784,13 +7774,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Libelium.svg',
       featuredImage:
-        'https://www.libelium.com/wp-content/uploads/2020/08/PRODUCTS-elements-detail-ps-9-min-768x768.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_libelium_meshlium.png',
       furtherImages: '',
       related: [
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://2318222212-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M9XNfQJE1Dmx-VhQyDl%2F-MA5o9ZGKSAeCSR911SM%2F-MA5y9KvWU3L8H6HghXr%2Fexternal_battery.png?alt=media&token=ac617ac8-61e9-4537-874f-8615a959ce85',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_libelium_plug-and-sense.png',
           excerpt:
             'Plug&Sense is an IoT Device that offers its users several benefits such as easily attachment of the Sensor probes, solar panel option battery recharge, the 4G module features a GPS receiver etc.',
           productName: 'Plug&Sense!',
@@ -7799,7 +7789,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.libelium.com/wp-content/uploads/2020/07/product-768x771.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_libelium_waspmote.png',
           excerpt:
             'Waspmote hardware architecture has been specially designed to work with extremely low consumption. Digital switches allow to turn on and off any of the sensor interfaces as well as the radio modules.',
           productName: 'Waspmote',
@@ -7848,13 +7838,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Libelium.svg',
       featuredImage:
-        'https://2318222212-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M9XNfQJE1Dmx-VhQyDl%2F-MA5o9ZGKSAeCSR911SM%2F-MA5y9KvWU3L8H6HghXr%2Fexternal_battery.png?alt=media&token=ac617ac8-61e9-4537-874f-8615a959ce85',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_libelium_plug-and-sense.png',
       furtherImages: '',
       related: [
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.libelium.com/wp-content/uploads/2020/08/PRODUCTS-elements-detail-ps-9-min-768x768.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_libelium_meshlium.png',
           excerpt:
             'Meshlium is the IoT Gateway to connect any sensor to any Cloud Platform, including FIWARE. It provides customers/users with help to monitor daily activities in order to get gain business intelligence.',
           productName: 'Meshlium',
@@ -7863,7 +7853,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.libelium.com/wp-content/uploads/2020/07/product-768x771.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_libelium_waspmote.png',
           excerpt:
             'Waspmote hardware architecture has been specially designed to work with extremely low consumption. Digital switches allow to turn on and off any of the sensor interfaces as well as the radio modules.',
           productName: 'Waspmote',
@@ -7906,13 +7896,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Libelium.svg',
       featuredImage:
-        'https://www.libelium.com/wp-content/uploads/2020/07/product-768x771.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_libelium_waspmote.png',
       furtherImages: '',
       related: [
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.libelium.com/wp-content/uploads/2020/08/PRODUCTS-elements-detail-ps-9-min-768x768.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_libelium_meshlium.png',
           excerpt:
             'Meshlium is the IoT Gateway to connect any sensor to any Cloud Platform, including FIWARE. It provides customers/users with help to monitor daily activities in order to get gain business intelligence.',
           productName: 'Meshlium',
@@ -7921,7 +7911,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://2318222212-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M9XNfQJE1Dmx-VhQyDl%2F-MA5o9ZGKSAeCSR911SM%2F-MA5y9KvWU3L8H6HghXr%2Fexternal_battery.png?alt=media&token=ac617ac8-61e9-4537-874f-8615a959ce85',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_libelium_plug-and-sense.png',
           excerpt:
             'Plug&Sense is an IoT Device that offers its users several benefits such as easily attachment of the Sensor probes, solar panel option battery recharge, the 4G module features a GPS receiver etc.',
           productName: 'Plug&Sense!',
@@ -7960,13 +7950,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Odins.svg',
       featuredImage:
-        'https://www.odins.es/wp-content/uploads/2017/04/IPex04.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_odin-solutions_ipex-04-datalogger.png',
       furtherImages: '',
       related: [
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.odins.es/wp-content/uploads/2017/04/IPex12-v4.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_odin-solutions_ipex-12-datalogger.png',
           excerpt:
             'IPex 12 Datalogger is a Monitoring and Tele-control solution for outdoor environments for monitoring and remote control; Smart Cities and Smart Industry.',
           productName: 'IPex 12 Datalogger',
@@ -7975,7 +7965,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.odins.es/wp-content/uploads/2017/04/IPex16-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_odin-solutions_ipex-16-datalogger.png',
           excerpt:
             'IPex 16 Datalogger is a Monitoring and Tele-control solution for electrical panels with 4 inputs/outputs; Smart Cities; Industry, and Agriculture.',
           productName: 'IPex 16 Datalogger',
@@ -7984,7 +7974,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.odins.es/wp-content/uploads/2017/04/IPex12-v4.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_odin-solutions_mex-06-datalogger.png',
           excerpt:
             'Met 06 Datalogger is a Monitoring and Tele-control solution for outdoor environments for monitoring and remote control; Smart Cities and Smart Industry.',
           productName: 'Mex 06 Datalogger',
@@ -8028,13 +8018,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Odins.svg',
       featuredImage:
-        'https://www.odins.es/wp-content/uploads/2017/04/IPex12-v4.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_odin-solutions_ipex-12-datalogger.png',
       furtherImages: '',
       related: [
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.odins.es/wp-content/uploads/2017/04/IPex04.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_odin-solutions_ipex-04-datalogger.png',
           excerpt:
             'IPex 04 Datalogger is a Monitoring and Tele-control solution for electrical panels with 4 inputs/outputs; Smart Cities; Industry, and Agriculture.',
           productName: 'IPex 04 Datalogger',
@@ -8043,7 +8033,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.odins.es/wp-content/uploads/2017/04/IPex16-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_odin-solutions_ipex-16-datalogger.png',
           excerpt:
             'IPex 16 Datalogger is a Monitoring and Tele-control solution for electrical panels with 4 inputs/outputs; Smart Cities; Industry, and Agriculture.',
           productName: 'IPex 16 Datalogger',
@@ -8052,7 +8042,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.odins.es/wp-content/uploads/2017/04/IPex12-v4.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_odin-solutions_mex-06-datalogger.png',
           excerpt:
             'Met 06 Datalogger is a Monitoring and Tele-control solution for outdoor environments for monitoring and remote control; Smart Cities and Smart Industry.',
           productName: 'Mex 06 Datalogger',
@@ -8096,13 +8086,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Odins.svg',
       featuredImage:
-        'https://www.odins.es/wp-content/uploads/2017/04/IPex16-2.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_odin-solutions_ipex-16-datalogger.png',
       furtherImages: '',
       related: [
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.odins.es/wp-content/uploads/2017/04/IPex04.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_odin-solutions_ipex-04-datalogger.png',
           excerpt:
             'IPex 04 Datalogger is a Monitoring and Tele-control solution for electrical panels with 4 inputs/outputs; Smart Cities; Industry, and Agriculture.',
           productName: 'IPex 04 Datalogger',
@@ -8111,7 +8101,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.odins.es/wp-content/uploads/2017/04/IPex12-v4.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_odin-solutions_ipex-12-datalogger.png',
           excerpt:
             'IPex 12 Datalogger is a Monitoring and Tele-control solution for outdoor environments for monitoring and remote control; Smart Cities and Smart Industry.',
           productName: 'IPex 12 Datalogger',
@@ -8120,7 +8110,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.odins.es/wp-content/uploads/2017/04/IPex12-v4.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_odin-solutions_mex-06-datalogger.png',
           excerpt:
             'Met 06 Datalogger is a Monitoring and Tele-control solution for outdoor environments for monitoring and remote control; Smart Cities and Smart Industry.',
           productName: 'Mex 06 Datalogger',
@@ -8166,13 +8156,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Odins.svg',
       featuredImage:
-        'https://www.odins.es/wp-content/uploads/2017/04/IPex12-v4.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_odin-solutions_mex-06-datalogger.png',
       furtherImages: '',
       related: [
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.odins.es/wp-content/uploads/2017/04/IPex04.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_odin-solutions_ipex-04-datalogger.png',
           excerpt:
             'IPex 04 Datalogger is a Monitoring and Tele-control solution for electrical panels with 4 inputs/outputs; Smart Cities; Industry, and Agriculture.',
           productName: 'IPex 04 Datalogger',
@@ -8181,7 +8171,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.odins.es/wp-content/uploads/2017/04/IPex12-v4.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_odin-solutions_ipex-12-datalogger.png',
           excerpt:
             'IPex 12 Datalogger is a Monitoring and Tele-control solution for outdoor environments for monitoring and remote control; Smart Cities and Smart Industry.',
           productName: 'IPex 12 Datalogger',
@@ -8190,7 +8180,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.odins.es/wp-content/uploads/2017/04/IPex16-2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_odin-solutions_ipex-16-datalogger.png',
           excerpt:
             'IPex 16 Datalogger is a Monitoring and Tele-control solution for electrical panels with 4 inputs/outputs; Smart Cities; Industry, and Agriculture.',
           productName: 'IPex 16 Datalogger',
@@ -8225,7 +8215,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Respira.svg',
       featuredImage:
-        'https://panstamp.github.io/respira_fiware/docs/img/respira_fiware_pic08.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_panstamp_respira-fiware.png',
       furtherImages: ''
     },
     'seaconeurope-intellifood': {
@@ -8254,7 +8244,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Seacon.svg',
       featuredImage:
-        'https://www.seacon.hu/images/palyazati_anyagok/Intellifood-Business-Overview.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_seacon-europe_intellifood.png',
       furtherImages: ''
     },
     'secmotic-lockart': {
@@ -8291,13 +8281,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Secmotic.svg',
       featuredImage:
-        'http://secmotic.com/wp-content/uploads/2020/12/secmotic_concepto_web_sec.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_secmotic_lockart.png',
       furtherImages: '',
       related: [
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.muvone.com/wp-content/uploads/2016/06/modelo-muvone-04.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_secmotic_muvone.png',
           excerpt:
             'Muvone is the first wearable device specifically designed to help prevent osteoporosis. With its small size and attractive design, it makes the ideal complement to take care of your health intelligently.',
           productName: 'Muvone',
@@ -8305,7 +8295,8 @@ var pageData = {
         },
         {
           category: 'Services',
-          featuredImage: '',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_secmotic_iotdevelopment.png',
           excerpt:
             "IoT Development from hardware to web/mobile apps FIWARE based\nThe knowledge obtained through the 'IoT' provides us with the basis to improve day-to-day experiences in your business, in your city, and in your life.",
           productName: 'IoT Development',
@@ -8340,13 +8331,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Secmotic.svg',
       featuredImage:
-        'https://www.muvone.com/wp-content/uploads/2016/06/modelo-muvone-04.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_secmotic_muvone.png',
       furtherImages: '',
       related: [
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'http://secmotic.com/wp-content/uploads/2020/12/secmotic_concepto_web_sec.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_secmotic_lockart.png',
           excerpt:
             'LockArt device is the new generation of locks. It installs in the blink of an eye, and it is compatible with all types of locks thanks to its adjustable back piece.',
           productName: 'LockArt',
@@ -8354,7 +8345,8 @@ var pageData = {
         },
         {
           category: 'Services',
-          featuredImage: '',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_secmotic_iotdevelopment.png',
           excerpt:
             "IoT Development from hardware to web/mobile apps FIWARE based\nThe knowledge obtained through the 'IoT' provides us with the basis to improve day-to-day experiences in your business, in your city, and in your life.",
           productName: 'IoT Development',
@@ -8429,7 +8421,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_CityGrid.svg',
       featuredImage:
-        'https://static.wixstatic.com/media/5a3321_3afee6ba23fc41fb82e90a16b89d5e11~mv2.png/v1/fill/w_1531,h_674,al_c,q_90,enc_auto/5a3321_3afee6ba23fc41fb82e90a16b89d5e11~mv2.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_seneco_citygrid.png',
       furtherImages: ''
     },
     'sensowave-digitanimal': {
@@ -8477,13 +8469,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_DigitAnimal.svg',
       featuredImage:
-        'https://scontent-frt3-2.xx.fbcdn.net/v/t39.30808-6/274598420_4651837208276977_1156141110197799661_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=e3f864&_nc_ohc=KB92ulPzDPAAX-hXC3x&tn=8vjiMBCSITGGfB_z&_nc_ht=scontent-frt3-2.xx&oh=00_AT9jJrPA4Kj5bRBIdoX6LLpbyy0ygpkunl7yzz67vfg_bA&oe=62E5BB1A',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_sensowave_digitanimal.png',
       furtherImages: '',
       related: [
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://digitanimal.co.uk/wp-content/uploads/2020/03/producto_vaca.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_sensowave_digitanimal-livestock-gps.png',
           excerpt:
             'Digitanimal Livestock GPS offers a 2-year warranty All services included for 12 months* Renewal plans tailored to your Customs management included a 30-day trial',
           productName: 'Digitanimal Livestock GPS',
@@ -8527,13 +8519,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_DigitAnimal.svg',
       featuredImage:
-        'https://digitanimal.co.uk/wp-content/uploads/2020/03/producto_vaca.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_sensowave_digitanimal-livestock-gps.png',
       furtherImages: '',
       related: [
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://i0.wp.com/digitanimal.com/wp-content/uploads/2020/12/DSC05390-1-2-min.jpg?resize=400%2C250&ssl=1',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_sensowave_digitanimal.png',
           excerpt:
             "Digitanimal is an integrated service platform that increases livestock farms' profits; improving animal welfare and providing traceability tools for consumers.",
           productName: 'Digitanimal',
@@ -8542,7 +8534,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://scontent-frt3-2.xx.fbcdn.net/v/t39.30808-6/274598420_4651837208276977_1156141110197799661_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=e3f864&_nc_ohc=KB92ulPzDPAAX-hXC3x&tn=8vjiMBCSITGGfB_z&_nc_ht=scontent-frt3-2.xx&oh=00_AT9jJrPA4Kj5bRBIdoX6LLpbyy0ygpkunl7yzz67vfg_bA&oe=62E5BB1A',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_sensowave_digitanimal.png',
           excerpt:
             "Digitanimal is an integrated service platform that increases livestock farms' profits; improving animal welfare and providing traceability tools for consumers.",
           productName: 'Digitanimal',
@@ -8595,28 +8587,28 @@ var pageData = {
       ],
       materials: [
         [
-          'Reference 1',
-          'https://news.microsoft.com/en-gb/2017/02/17/a-company-sends-floorplans-to-your-phone-so-you-dont-get-lost-in-large-buildings'
+          'Microsoft',
+          'https://news.microsoft.com/en-gb/2017/02/17/a-company-sends-floorplans-to-your-phone-so-you-dont-get-lost-in-large-buildings/'
         ],
         [
-          'Reference 2',
-          'https://www.telefonica.com/en/web/press-office/-/telefonica-multi-sensory-geolocation-solution-will-provide-users-with-the-best-indoor-location'
+          'Telefonica',
+          'https://www.telefonica.com/en/communication-room/telefonica-multi-sensory-geolocation-solution-will-provide-users-with-the-best-indoor-location/'
         ],
         [
-          'Reference 3',
-          'https://carto.com/blog/location-intelligence-for-indoor-maps'
+          'Carto-Use Cases',
+          'https://carto.com/blog/location-intelligence-for-indoor-maps/'
         ]
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Situm.svg',
       featuredImage:
-        'https://situm.com/wp-content/uploads/2020/08/Indoor-positioning-System-for-indoor-location-indoor-navigation-and-indoor-tracking-1920-x-1280.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_situm_navigation.png',
       furtherImages: '',
       related: [
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://situm.com/wp-content/uploads/2020/08/Indoor-positioning-System-for-indoor-location-indoor-navigation-and-indoor-tracking-1920-x-1280.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_situm_tracking.png',
           excerpt:
             'Situm is a software enabler that offers indoor positioning and navigation for smartphones without infrastructure installations to improve security and manage the workflow.',
           productName: 'Situm Indoor Tracking',
@@ -8654,13 +8646,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Situm.svg',
       featuredImage:
-        'https://situm.com/wp-content/uploads/2020/08/Indoor-positioning-System-for-indoor-location-indoor-navigation-and-indoor-tracking-1920-x-1280.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_situm_tracking.png',
       furtherImages: '',
       related: [
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://situm.com/wp-content/uploads/2020/08/Indoor-positioning-System-for-indoor-location-indoor-navigation-and-indoor-tracking-1920-x-1280.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_situm_navigation.png',
           excerpt:
             'Situm is the GPS for indoors with zero infrastructure, the highest precision, and the fastest deployment. It helps companies from different sectors to improve their services and optimize their processes by guiding visitors and monitoring their employees and mobile assets.',
           productName: 'Situm Indoor Navigation',
@@ -8702,13 +8694,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_SRM.svg',
       featuredImage:
-        'https://srmconsulting.es/assets/img/blog/fiware-map-viewer-srmconsulting.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_srm-consulting_fiware-map-viewer.png',
       furtherImages: '',
       related: [
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://srmconsulting.es/assets/img/srm-consulting-lider-tecnologia-geoespacial.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_srm%20consulting_capacity-control-system.png',
           excerpt:
             'Capacity Control System is a complete solution to scan and localize any Wi-Fi or Bluetooth device, such as smartphones, laptops, or smartwatches. The main goal of this technology is the capacity control of the public spaces.',
           productName: 'Capacity Control System',
@@ -8718,7 +8710,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://srmconsulting.es/assets/img/blog/mavdrone-srm-consulting.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_srm-consulting_mavdrone.png',
           excerpt:
             'MavDrone device is the first solution compatible with the MAVLink protocol for the Command and Control of drone fleets. MavDrone extends the capabilities of IAS by publishing the telemetry in a public API.',
           productName: 'MavDrone',
@@ -8754,13 +8746,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_SRM.svg',
       featuredImage:
-        'https://srmconsulting.es/assets/img/blog/mavdrone-srm-consulting.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_srm-consulting_mavdrone.png',
       furtherImages: '',
       related: [
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://srmconsulting.es/assets/img/srm-consulting-lider-tecnologia-geoespacial.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_srm%20consulting_capacity-control-system.png',
           excerpt:
             'Capacity Control System is a complete solution to scan and localize any Wi-Fi or Bluetooth device, such as smartphones, laptops, or smartwatches. The main goal of this technology is the capacity control of the public spaces.',
           productName: 'Capacity Control System',
@@ -8770,7 +8762,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://srmconsulting.es/assets/img/blog/fiware-map-viewer-srmconsulting.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_srm-consulting_fiware-map-viewer.png',
           excerpt:
             'Fiware Map Viewer extends the capabilities of any map to Smart Cities and IoT. Monitoring any device on a map in real-time, such as atmospheric sensors, cameras, traffic lights, and so on',
           productName: 'FIWARE Map Viewer',
@@ -8809,11 +8801,13 @@ var pageData = {
           'https://www.youtube.com/watch?v=ZrQ9IZ6Wgag'
         ]
       ],
-      materials: [['Reference 1', 'https://en.telocate.de/press-reactions']],
+      materials: [
+        ['Press Reactions', 'https://en.telocate.de/press-reactions/']
+      ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_FI-Assist.svg',
       featuredImage:
-        'https://de.telocate.de/wp-content/uploads/20190822_141557_proc_resize-1024x631.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_telocate_fi-assist.png',
       furtherImages: ''
     },
     'tstsistemas-tscontrolindustrialcontrol': {
@@ -8846,17 +8840,17 @@ var pageData = {
           'https://twitter.com/TSTsistemas/status/324128164831969281'
         ]
       ],
-      materials: [['Reference 1', 'https://tst-sistemas.com/en/']],
+      materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_TST.svg',
       featuredImage:
-        'https://tst-sistemas.com/wp-content/uploads/2021/06/ingnieria3.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_tst-sistemas_tscontrol-industrial-control.png',
       furtherImages: '',
       related: [
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://tst-sistemas.com/wp-content/uploads/2021/06/ingnieria3.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_tst-sistemas_tsmart-development-platform.png',
           excerpt:
             'TSmarT is a modular platform used for wireless communications that allow the rapid implementation of M2M applications, monitoring, and remote control.',
           productName: 'TSmart Development Platform',
@@ -8866,7 +8860,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://tst-sistemas.com/wp-content/uploads/2021/06/ingnieria3.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_tst-sistemas_tswaste.png',
           excerpt:
             'TSwaste is a low-cost sensing solution for urban waste containers. The device is equipped with an ultrasonic sensor and a bi-directional communication feature to monitor waste levels.',
           productName: 'TSwasTe',
@@ -8910,24 +8904,24 @@ var pageData = {
       ],
       materials: [
         [
-          'Reference 1',
+          'IoT Technology Guidebook',
           'https://www.postscapes.com/internet-of-things-technologies/'
         ],
         [
-          'Reference 2',
+          'Europapress',
           'https://www.europapress.es/cantabria/noticia-empresa-cantabra-tst-gana-premio-internacional-proyectos-internet-cosas-20140204115059.html'
         ]
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_TST.svg',
       featuredImage:
-        'https://tst-sistemas.com/wp-content/uploads/2021/06/ingnieria3.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_tst-sistemas_tsmart-development-platform.png',
       furtherImages: '',
       related: [
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://tst-sistemas.com/wp-content/uploads/2021/06/ingnieria3.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_tst-sistemas_tscontrol-industrial-control.png',
           excerpt:
             'TSconTroL is a multi-purpose and multi-interface device for IoT and M2M applications in industrial, agricultural, and smart cities. The device can be installed for irrigation control, monitoring of crops and large plantations, water quality management, and control of industrial machines.',
           productName: 'TSconTrol Industrial Control',
@@ -8937,7 +8931,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://tst-sistemas.com/wp-content/uploads/2021/06/ingnieria3.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_tst-sistemas_tswaste.png',
           excerpt:
             'TSwaste is a low-cost sensing solution for urban waste containers. The device is equipped with an ultrasonic sensor and a bi-directional communication feature to monitor waste levels.',
           productName: 'TSwasTe',
@@ -8972,22 +8966,21 @@ var pageData = {
       videos: [],
       materials: [
         [
-          'Reference 1',
+          'Communications',
           'https://www.esmartcity.es/comunicaciones/comunicacion-gestion-inteligente-residuos-urbanos-tecnologia-narrow-band-iot-nb-iot'
         ],
-        ['Reference 2', 'https://partners.sigfox.com/products/tswaste'],
-        ['Reference 3', 'https://partners.telefonica.com/']
+        ['Sigfox-TSwasTe', 'https://partners.sigfox.com/products/tswaste']
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_TST.svg',
       featuredImage:
-        'https://tst-sistemas.com/wp-content/uploads/2021/06/ingnieria3.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_tst-sistemas_tswaste.png',
       furtherImages: '',
       related: [
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://tst-sistemas.com/wp-content/uploads/2021/06/ingnieria3.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_tst-sistemas_tscontrol-industrial-control.png',
           excerpt:
             'TSconTroL is a multi-purpose and multi-interface device for IoT and M2M applications in industrial, agricultural, and smart cities. The device can be installed for irrigation control, monitoring of crops and large plantations, water quality management, and control of industrial machines.',
           productName: 'TSconTrol Industrial Control',
@@ -8997,7 +8990,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://tst-sistemas.com/wp-content/uploads/2021/06/ingnieria3.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_tst-sistemas_tsmart-development-platform.png',
           excerpt:
             'TSmarT is a modular platform used for wireless communications that allow the rapid implementation of M2M applications, monitoring, and remote control.',
           productName: 'TSmart Development Platform',
@@ -9042,22 +9035,19 @@ var pageData = {
       ],
       materials: [
         [
-          'Reference 1',
-          'http://www.rtve.es/alacarta/videos/fabrica-de-ideas/fdiinvierte-ubikwa/3835464/'
+          'Rtve Play-Ubikwa',
+          'https://www.rtve.es/play/videos/fabrica-de-ideas/fdiinvierte-ubikwa/3835464/'
         ],
         [
-          'Reference 2',
-          'http://www.ara.cat/tecnologia/Insylo-grangers-controlar-sitges-MWC_3_1527477242.html'
+          'Ara-Article',
+          'https://www.ara.cat/ciencia-medi-ambient/insylo-grangers-controlar-sitges-mwc_8_3917726.html'
         ],
         [
-          'Reference 3',
-          'http://www.irishexaminer.com/farming/news/tech-device-places-order-when-feed-bin-needs-refilling-387906.html'
+          'Irish Examiner-Article',
+          'https://www.irishexaminer.com/farming/arid-20387906.html'
         ],
-        [
-          'Reference 4',
-          'http://ebn.be/index.php?lnk=K2tiZmlkaWp5MVZzVWF6SzFUWkpHK0k1VW50bEQyc2hOaE53MEFwUFBOTT0='
-        ],
-        ['Reference 5', 'https://www.youtube.com/watch?v=ck6VKKisHb8']
+        ['EBN Innovation Network', 'https://ebn.eu/'],
+        ['Success Story-YouTube', 'https://www.youtube.com/watch?v=ck6VKKisHb8']
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Insylo.svg',
@@ -9104,20 +9094,20 @@ var pageData = {
         ]
       ],
       materials: [
-        ['Reference 1', 'https://www.youtube.com/watch?v=gY7-TcNfD_w'],
+        ['MicrosoftES-YouTube', 'https://www.youtube.com/watch?v=gY7-TcNfD_w'],
         [
-          'Reference 2',
+          'Microsoft-Article',
           'https://news.microsoft.com/europe/2018/09/21/managing-our-planet-urbaser-uses-technology-to-reduce-fuel-consumption-decrease-noise-levels-and-cut-emissions/'
         ],
         [
-          'Reference 3',
+          'eSMARTCITY-Article',
           'https://www.esmartcity.es/2018/09/10/urbaser-comienza-gestionar-vehiculos-contenedores-plantas-tratamiento-plataforma-iot'
         ]
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Urbaser.svg',
       featuredImage:
-        'https://www.urbaser.com/wp-content/uploads/2020/06/logo_sensiot_mod-02_5.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_urbaser_sensiot.png',
       furtherImages: ''
     },
     'ventuminnovacion-gaviláncontrol': {
@@ -9150,14 +9140,14 @@ var pageData = {
       videos: [],
       materials: [
         [
-          'Reference 1',
+          'Tweet',
           'https://twitter.com/OpenFuture_Ext/status/1210470507277176833'
         ]
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_GavillanControl.svg',
       featuredImage:
-        'https://scontent-frt3-1.xx.fbcdn.net/v/t39.30808-6/224093792_335538438228198_8967961733046062405_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=e3f864&_nc_ohc=pQymAawHr68AX8VNgt3&tn=8vjiMBCSITGGfB_z&_nc_ht=scontent-frt3-1.xx&oh=00_AT8OG2ZWQZOMxHZoka2zG_sIMmURnPiL9EpiRrLBxAyfAg&oe=62E5C2A8',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_ventum_gavilan-control.png',
       furtherImages: ''
     },
     'viralstudios-virtualart': {
@@ -9188,12 +9178,12 @@ var pageData = {
       docs: [['Overview', 'https://sites.google.com/view/virtualart']],
       videos: [],
       materials: [
-        ['Reference 1', 'https://viralstudios.es/en/turismo-inmersivo/']
+        ['Smart Tourism', 'https://viralstudios.es/en/turismo-inmersivo/']
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_ViralStudio.svg',
       featuredImage:
-        'https://www.viralstudio.it/images/2021/10/19/monitor3.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_viral-studios_virtualart.png',
       furtherImages: ''
     },
     'wellnesstechgroup-quamtra': {
@@ -9228,13 +9218,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_WellnessTechGroup.svg',
       featuredImage:
-        'https://wellnesstg.com/wp-content/uploads/2019/09/quamtra.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_wellness-techgroup_quamtra.png',
       furtherImages: '',
       related: [
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://wellnesstg.com/wp-content/uploads/2021/11/sdp-talqcertified2-1.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_wellness-techgroup_welight.png',
           excerpt:
             'WeLight is a Remote Management System for Public Lighting, which allows the monitoring and control of lighting and the optimisation and management of the maintenance, whilst monitoring consumption and reacting to deviations.',
           productName: 'WeLight',
@@ -9274,13 +9264,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_WellnessTechGroup.svg',
       featuredImage:
-        'https://wellnesstg.com/wp-content/uploads/2021/11/sdp-talqcertified2-1.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_wellness-techgroup_welight.png',
       furtherImages: '',
       related: [
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://wellnesstg.com/wp-content/uploads/2019/09/quamtra.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_wellness-techgroup_quamtra.png',
           excerpt:
             'Quamtra is an intelligent urban waste collection system that, by sensing and constant monitoring the filling level of the containers, optimizes routes and improves the costs associated with the collection.',
           productName: 'Quamtra',
@@ -9315,7 +9305,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/raster/logo_Xapix.png',
       featuredImage:
-        'https://assets-global.website-files.com/5fbd1f90c46914dfad58597c/5fd0d4de2a1a7619a5156dc9_xa_illu_maturity02%401x_200604.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_xapix_xapix.png',
       furtherImages: ''
     }
   },
@@ -9362,7 +9352,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/cities4cities/logo_CityOfVienna.svg',
       featuredImage:
-        'https://smartcity.wien.gv.at/wp-content/uploads/sites/3/2022/01/scw_videobild-1030x465.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_city-of-vienna_smart-data-wien.png',
       furtherImages: ''
     }
   },
@@ -9413,12 +9403,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Atos.svg',
       featuredImage:
-        'https://iot-automotive.news/wp-content/uploads/2021/08/Thales-SOFTWARE-REPUBLIQUE_Mobile.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_atos_connected-territories.png',
       furtherImages: '',
       related: [
         {
           category: 'Powered by FIWARE',
-          featuredImage: 'https://im.ge/i/Fj7x4m',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_atos_urban-data-platform.png',
           excerpt:
             'UDP is the open, secure, and interoperable Atos standard data platform that allows the integration and collection of information from data sources, and the standardization and processing of that information to provide aggregated and intelligent views of raw data to facilitate decision-making.',
           productName: 'Urban Data Platform',
@@ -9427,7 +9418,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://booklet.atosresearch.eu/sites/booklet/files/public/styles/medium/public/content-images/media/2020/industry.png?itok=9d9r2H2A',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_atos_masai.png',
           excerpt:
             'MASAI is an efficient data integration software for manufacturing systems allowing to collect data from a variety of IoT Devices in the manufacturing domain (Industry 4.0), that is not entirely covered by existing proprietary solutions.',
           productName: 'MASAI',
@@ -9471,7 +9462,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_BallistixDigital.svg',
       featuredImage:
-        'https://www.ballistix.digital/uploads/_1500x660_crop_center-center_75_none/827/BallistiX-kantoor.webp',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_ballistix_ballistix.png',
       furtherImages: ''
     },
     'egm-designoffice': {
@@ -9504,13 +9495,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_EGM.svg',
       featuredImage:
-        'https://pbs.twimg.com/profile_banners/4419455500/1610366049/1500x500',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_egm_design-office.png',
       furtherImages: '',
       related: [
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://www.egm.io/wp-content/uploads/2021/09/cd66-montage-blog.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_egm_carpool-parking.png',
           excerpt:
             'This camera allows us to count entries and exits in a carpool park and to determine whether the cars parked are indeed intended for carpooling. This device allows our clients to have tangible statistics on the occupation of a car park.',
           productName: 'Carpool Parking',
@@ -9519,7 +9510,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://www.egm.io/wp-content/uploads/2020/10/7-scaled.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_egm_smart-irrigation.png',
           excerpt:
             'EGM offers a complete solution for determining the amount of water that can be saved on a green space and deploying the control solution in addition to an existing watering system to achieve the water savings in question. Our solution saved 35% of the water on the first deployment.',
           productName: 'Smart Irrigation',
@@ -9528,7 +9519,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.egm.io/wp-content/uploads/2020/08/egm-home-pic.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_egm_edgespot.png',
           excerpt:
             'The device EdgeSpot is a highly scalable hardware and software platform that takes you from concept to market by accelerating the proof-of-concept phases.',
           productName: 'EdgeSpot',
@@ -9579,7 +9570,8 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_Eprosima.svg',
-      featuredImage: 'https://i.ytimg.com/vi/v83xKW05Up4/maxresdefault.jpg',
+      featuredImage:
+        'https://www.fiware.org/wp-content/marketplace/images/hero_eprosima_eprosima.png',
       furtherImages: ''
     },
     'faubourgnumérique-fiwareihub': {
@@ -9631,12 +9623,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_FaubourgNume%CC%81rique.svg',
       featuredImage:
-        'https://pbs.twimg.com/profile_banners/4830648545/1542979261/1500x500',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_faubourg-numerique_fiware-ihub.png',
       furtherImages: '',
       related: [
         {
           category: 'Powered by FIWARE',
-          featuredImage: 'https://ouranos-ws.com/images/image1.png',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_faubourg-numerique_ouranos-ws.png',
           excerpt:
             'ouranos-ws is an easy-to-use solution to enable the NGSI-LD superpowers, with the strategic goal to manage your virtualized assets as digital twins. It allows you to DESIGN your specific data models, NAVIGATE through your graphs of entities and CONTROL the interactions with the other systems.',
           productName: 'ouranos-ws',
@@ -9668,7 +9661,8 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_Ficodes.svg',
-      featuredImage: 'https://www.ficodes.com/images/support.png',
+      featuredImage:
+        'https://www.fiware.org/wp-content/marketplace/images/hero_ficodes_coaching-and-training-services.png',
       furtherImages: ''
     },
     'fiihubcanaryisland-fiihubacademy': {
@@ -9696,12 +9690,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Ficodes.svg',
       featuredImage:
-        'https://media.istockphoto.com/photos/panorama-of-santa-cruz-de-tenerife-resorts-and-pools-tenerife-canary-picture-id1190178756?k=20&m=1190178756&s=612x612&w=0&h=IWOOqbO8zeQfLtNYZQnu_OZ17WOYY8NaUzkKJ5xB44E=',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_fiihub-canary-island_fiihub-academy.png',
       furtherImages: '',
       related: [
         {
           category: 'Services',
-          featuredImage: '',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_fiihub-canary-island_fiihub-academy.png',
           excerpt:
             'FiiHUB aims to create and execute the first technological reference center for the development of the business and entrepreneurship ecosystem of Macaronesia, linked to the development of intelligent services based on Future Internet technologies and connected to the FIWARE iHub international network.',
           productName: 'Innovation Project Design through FIWARE',
@@ -9735,13 +9730,14 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_FiiHUB.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.fiware.org/wp-content/marketplace/images/hero_fiihub-canary-island_fiihub-academy.png',
       furtherImages: '',
       related: [
         {
           category: 'Services',
           featuredImage:
-            'https://media.istockphoto.com/photos/panorama-of-santa-cruz-de-tenerife-resorts-and-pools-tenerife-canary-picture-id1190178756?k=20&m=1190178756&s=612x612&w=0&h=IWOOqbO8zeQfLtNYZQnu_OZ17WOYY8NaUzkKJ5xB44E=',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_fiihub-canary-island_fiihub-academy.png',
           excerpt:
             'FIIHUB is a reliable provider for the creation and execution of the first Digital Innovation Hub of the Internet of the Future for the technological acceleration of SMEs in Macaronesia',
           productName: 'FiiHUB Academy',
@@ -9793,7 +9789,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_FIWAREInnovaiHub.svg',
       featuredImage:
-        'https://fiwareinnova.org/wp-content/uploads/2020/08/Consulenza-su-progetti-di-innovazione-800x500.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_fiware-innova-ihub_coaching-and-training-services.png',
       furtherImages: ''
     },
     'fiwareinnovaihub-promotingfiwaresolutionsandtechnologiesinitaly': {
@@ -9834,7 +9830,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_FiiHUB.svg',
       featuredImage:
-        'https://fiwareinnova.org/wp-content/uploads/2019/05/banner-tondo-trasp.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_fiware-innova-ihub_promoting-fiware.png',
       furtherImages: ''
     },
     'fiwarespace-coachingtrainingservices': {
@@ -9893,12 +9889,14 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_FIWARESpace.svg',
-      featuredImage: 'https://pbs.twimg.com/media/FWfIxQDXwAMpDmu.jpg',
+      featuredImage:
+        'https://www.fiware.org/wp-content/marketplace/images/hero_fiware-space_coaching-and-training-services.png',
       furtherImages: '',
       related: [
         {
           category: 'Services',
-          featuredImage: 'https://pbs.twimg.com/media/FWfIxQDXwAMpDmu.jpg',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_fiware-space_consultancy-and-integration-services.png',
           excerpt:
             'FIWARE Space is part of a global project called "Badajoz Es Más" and is created with the aim of promoting talent and entrepreneurship in the Province of Badajoz.',
           productName: 'Consultancy & Integration Services',
@@ -9960,12 +9958,14 @@ var pageData = {
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_FIWARESpace.svg',
-      featuredImage: 'https://pbs.twimg.com/media/FWfIxQDXwAMpDmu.jpg',
+      featuredImage:
+        'https://www.fiware.org/wp-content/marketplace/images/hero_fiware-space_consultancy-and-integration-services.png',
       furtherImages: '',
       related: [
         {
           category: 'Services',
-          featuredImage: 'https://pbs.twimg.com/media/FWfIxQDXwAMpDmu.jpg',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_fiware-space_coaching-and-training-services.png',
           excerpt:
             'FIWARE Space is an innovation center, part of a global project called "Badajoz Is More". This project seeks towards the digitalization of everything around us.',
           productName: 'Coaching & Training Services',
@@ -10008,13 +10008,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_FIWAREZone.svg',
       featuredImage:
-        'https://www.fiware.org/wp-content/uploads/2018/03/ThinkstockPhotos-638342536-min.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_fiware-zone_coaching-and-training-services.png',
       furtherImages: '',
       related: [
         {
           category: 'Services',
           featuredImage:
-            'https://www.fiware.org/wp-content/uploads/2018/03/ThinkstockPhotos-638342536-min.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_fiware-zone_consultancy-and-integration-services.png',
           excerpt:
             'FIWARE Zone, the 3 star iHub based in the southern region of Spain, Andalucía, works on promoting and spreading FIWARE technology around the region.',
           productName: 'Consultancy & Integration Services',
@@ -10061,13 +10061,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_FIWAREZone.svg',
       featuredImage:
-        'https://www.fiware.org/wp-content/uploads/2018/03/ThinkstockPhotos-638342536-min.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_fiware-zone_consultancy-and-integration-services.png',
       furtherImages: '',
       related: [
         {
           category: 'Services',
           featuredImage:
-            'https://www.fiware.org/wp-content/uploads/2018/03/ThinkstockPhotos-638342536-min.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_fiware-zone_coaching-and-training-services.png',
           excerpt:
             'FIWARE Zone, the 3 star iHub based in the southern region of Spain, Andalucía, works on promoting and spreading FIWARE technology around the region.',
           productName: 'Coaching & Training Services',
@@ -10102,7 +10102,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_FIWAREZone.svg',
       featuredImage:
-        'https://fiwareinnova.org/wp-content/uploads/2020/08/Consulenza-su-progetti-di-innovazione-800x500.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_future-internet_consultancy-and-integration-services.png',
       furtherImages: ''
     },
     'hearingsoftware-consultancyintegrationservices': {
@@ -10167,13 +10167,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_byHS.svg',
       featuredImage:
-        'https://scontent-frt3-1.xx.fbcdn.net/v/t31.18172-8/12719417_1118777238164687_4966661782678389763_o.jpg?_nc_cat=107&ccb=1-7&_nc_sid=e3f864&_nc_ohc=qycqrabP1vQAX9yc6BJ&tn=8vjiMBCSITGGfB_z&_nc_ht=scontent-frt3-1.xx&oh=00_AT-Qwtm9r6f2R8sXbVxFowh9miRedBjnd6y4piglULTvBg&oe=63086C7F',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_hearing-software_consultancy-and-integration-services.png',
       furtherImages: '',
       related: [
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://pbs.twimg.com/media/DPFqiy_WAAAb-_W?format=jpg&name=900x900',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_hearing-software_senda-care.png',
           excerpt:
             'Senda care is a modular platform, a new service designed with features such as the care of people who need support through their own network of relatives.',
           productName: 'Senda Care',
@@ -10231,13 +10231,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_Hopu.svg',
       featuredImage:
-        'https://hopu.eu/wp-content/uploads/2015/10/hop-ecosystem.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_hopu_fiware-expert-certification.png',
       furtherImages: '',
       related: [
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://pbs.twimg.com/profile_banners/2572537560/1647898056/1500x500',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_hopu_low-emission-zones.png',
           excerpt:
             'A suite of dashboards with CO2 indicators related to mobility. These indicators are founded on predictive models based on real-time air quality measurements and AI to optimise traffic flows in cities and ports. It provides high-value mobility services for administrations and informed decision-making',
           productName: 'Low Emission Zones',
@@ -10246,7 +10246,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://hopu.eu/wp-content/uploads/2015/10/hop-ecosystem.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_hopu_smart-irrigiation-solution.png',
           excerpt:
             'Manage irrigation based on accurate and real-time data and AI. Weather stations with sensors of air temperature and humidity, wind, rain, UV radiation, and evapotranspiration; Soil moisture sensors. Irrigation management calendar according to soil typology.',
           productName: 'Smart Irrigiation Solution',
@@ -10255,7 +10255,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://smartcities.hopu.eu/images/EN-smart-spot-scheme.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_hopu_smart-spot.png',
           excerpt:
             'Monitor noise, people affluence/density, and gases: nitrous vapors (NO/NO2), sulfides (H2S/SO2), carbon monoxide/dioxide (CO/CO2), Ozone, and other toxic substances (VOCs); particulate matter (PM) to identify nanoparticulate as dust (PM10), pollens (>PM40), pollutants (PM2.5) and viruses (&lt; PM1).',
           productName: 'Smart Spot',
@@ -10334,13 +10334,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Martel.svg',
       featuredImage:
-        'https://www.martel-innovate.com/wp-content/uploads/sites/5/2020/03/RESEARCH_INNOVATION_v6.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_martel-innovate_martel-lab.png',
       furtherImages: '',
       related: [
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://www.orchestracities.com/wp-content/uploads/sites/36/2019/05/oc-smartcity.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_martel-innovate_orchestra-cities.png',
           excerpt:
             'To answer the need for a flexible data-management platform for smart cities, Martel developed Orchestra Cities, an integrated platform based on FIWARE and other cutting edge Open Source solutions that allow to bring in a single place all the vertical data silos of cities',
           productName: 'Orchestra Cities',
@@ -10382,14 +10382,12 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_MNX.svg',
-      featuredImage:
-        'https://www.mnx.com/wp-content/uploads/2021/05/Company-Header-BG-IMG.jpg',
+      featuredImage: '',
       furtherImages: '',
       related: [
         {
           category: 'Services',
-          featuredImage:
-            'https://scontent-frx5-1.xx.fbcdn.net/v/t1.6435-9/45650857_1935338443198803_5855859270083411968_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=e3f864&_nc_ohc=8a9yzJ0Ur0gAX_MmaFW&_nc_ht=scontent-frx5-1.xx&oh=00_AT_ESK9ZtLXDjOcvpQP-ekWhiszRuT5_E_i7nGYnUr6JWA&oe=6301975B',
+          featuredImage: '',
           excerpt:
             'MNX Online is an IT company based in the Canary Islands, Spain. As FIWARE Certified Experts we are technical advisors for the regional DIH. We have guided companies and entities towards Smart transformation in a wide range of sectors such as tourism, energy, and ports, among others...',
           productName: 'FIWARE Transition Strategy',
@@ -10427,14 +10425,12 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_MNX.svg',
-      featuredImage:
-        'https://scontent-frx5-1.xx.fbcdn.net/v/t1.6435-9/45650857_1935338443198803_5855859270083411968_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=e3f864&_nc_ohc=8a9yzJ0Ur0gAX_MmaFW&_nc_ht=scontent-frx5-1.xx&oh=00_AT_ESK9ZtLXDjOcvpQP-ekWhiszRuT5_E_i7nGYnUr6JWA&oe=6301975B',
+      featuredImage: '',
       furtherImages: '',
       related: [
         {
           category: 'Services',
-          featuredImage:
-            'https://www.mnx.com/wp-content/uploads/2021/05/Company-Header-BG-IMG.jpg',
+          featuredImage: '',
           excerpt:
             'MNX Online is an IT company based in the Canary Islands, Spain. Following our Experts certification in 2020, in addition to participating in FIWARE Foundation initiatives as FIWARE members, since 2021 we have joined the board of examiners for the official FIWARE Experts exams several times.',
           productName: 'Coaching & Training Services',
@@ -10490,7 +10486,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_NaevaTec.svg',
       featuredImage:
-        'https://www.naevatec.com/wp-content/uploads/2020/05/TrabajoEnEquipo.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_naeva-tec_fiware-consultancy.png',
       furtherImages: ''
     },
     'secmotic-iotdevelopment': {
@@ -10533,13 +10529,14 @@ var pageData = {
       materials: [],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Secmotic.svg',
-      featuredImage: '',
+      featuredImage:
+        'https://www.fiware.org/wp-content/marketplace/images/hero_secmotic_iotdevelopment.png',
       furtherImages: '',
       related: [
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'http://secmotic.com/wp-content/uploads/2020/12/secmotic_concepto_web_sec.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_secmotic_lockart.png',
           excerpt:
             'LockArt device is the new generation of locks. It installs in the blink of an eye, and it is compatible with all types of locks thanks to its adjustable back piece.',
           productName: 'LockArt',
@@ -10548,7 +10545,7 @@ var pageData = {
         {
           category: 'FIWARE-Ready',
           featuredImage:
-            'https://www.muvone.com/wp-content/uploads/2016/06/modelo-muvone-04.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_secmotic_muvone.png',
           excerpt:
             'Muvone is the first wearable device specifically designed to help prevent osteoporosis. With its small size and attractive design, it makes the ideal complement to take care of your health intelligently.',
           productName: 'Muvone',
@@ -10636,13 +10633,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_Snap4City.svg',
       featuredImage:
-        'https://www.snap4city.org/download/video/header-snap4city-new-v04-ORIZZONTALE-text-only2.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_snap4city_coaching-and-training-services.png',
       furtherImages: '',
       related: [
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://www.snap4city.org/download/video/header-snap4city-new-v04-ORIZZONTALE-text-only2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_snap4city_snap4city.png',
           excerpt:
             'Scalable Smart aNalytic APplication Builder for Sentient Cities, the platform proving flexible a method and solution to quickly create a large range of smart city applications exploiting heterogeneous data and enabling services for stakeholders by IOT/IOE, data analytics and big data technologies.',
           productName: 'Snap4City',
@@ -10651,7 +10648,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://www.km4city.org/img-new/snap4city-logo-02-km4city.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_snap4city_km4city.png',
           excerpt:
             'Scalable Smart aNalytic APplication Builder for Sentient Cities, the platform proving flexible a method and solution for rapid implementation of smart city applications exploiting heterogeneous data and enabling services for stakeholders by IOT/IOE, data analytics and big data technologies.',
           productName: 'Km4City',
@@ -10660,7 +10657,7 @@ var pageData = {
         {
           category: 'Services',
           featuredImage:
-            'https://www.snap4city.org/download/video/header-snap4city-new-v04-ORIZZONTALE-text-only2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_snap4city_consultancy-and-integration-services.png',
           excerpt:
             'Snap4City team provides high valuable and professional services based on our experience in successfully operating in the smart city/industry4.0 integrated solutions market since many years.',
           productName: 'Consultancy & Integration Services',
@@ -10705,13 +10702,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Snap4City.svg',
       featuredImage:
-        'https://www.snap4city.org/download/video/header-snap4city-new-v04-ORIZZONTALE-text-only2.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_snap4city_consultancy-and-integration-services.png',
       furtherImages: '',
       related: [
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://www.snap4city.org/download/video/header-snap4city-new-v04-ORIZZONTALE-text-only2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_snap4city_snap4city.png',
           excerpt:
             'Scalable Smart aNalytic APplication Builder for Sentient Cities, the platform proving flexible a method and solution to quickly create a large range of smart city applications exploiting heterogeneous data and enabling services for stakeholders by IOT/IOE, data analytics and big data technologies.',
           productName: 'Snap4City',
@@ -10720,7 +10717,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://www.km4city.org/img-new/snap4city-logo-02-km4city.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_snap4city_km4city.png',
           excerpt:
             'Scalable Smart aNalytic APplication Builder for Sentient Cities, the platform proving flexible a method and solution for rapid implementation of smart city applications exploiting heterogeneous data and enabling services for stakeholders by IOT/IOE, data analytics and big data technologies.',
           productName: 'Km4City',
@@ -10729,7 +10726,7 @@ var pageData = {
         {
           category: 'Services',
           featuredImage:
-            'https://www.snap4city.org/download/video/header-snap4city-new-v04-ORIZZONTALE-text-only2.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_snap4city_coaching-and-training-services.png',
           excerpt:
             'Snap4City team provides highly valuable and professional training and consultancy services based on our experience in successfully operating in the smart city/industry4.0 integrated solutions market for many years and on FIWARE integration technologies.',
           productName: 'Coaching & Training Services',
@@ -10778,13 +10775,13 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_StoneOne.svg',
       featuredImage:
-        'https://sirius-labs.no/wp-content/uploads/2016/11/Cloud-1-e1478082888720.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_stoneone_services.png',
       furtherImages: '',
       related: [
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://stoneone.de/wp-content/uploads/2021/02/SmartOrchestra_Pad.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_stoneone_smartorchestra.png',
           excerpt:
             'Smart Service Platform for the safe internet-based integration, orchestration ,and effective marketing of cyber-physical applications (smart devices).',
           productName: 'SmartOrchestra',
@@ -10833,22 +10830,22 @@ var pageData = {
         ]
       ],
       materials: [
-        ['Reference 1', 'https://www.fiware.org/tag/teamdev/'],
+        ['FIWARE', 'https://www.fiware.org/'],
         [
-          'Reference 2',
+          'Agricolus Story',
           'https://www.agricolus.com/en/agricolus-story-puntata-n-1-primi-passi-nel-precision-farming/'
         ]
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_TeamDev.svg',
       featuredImage:
-        'https://i.im.ge/2022/08/01/Ft2JhL.Agricolus-Making-Agritech-Sustainable-2-.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_fiware-professional-services.png',
       furtherImages: '',
       related: [
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://www.fiware.org/wp-content/uploads/ImpactStories_SliderWebsite_WiseTown-1080x675.png',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown.png',
           excerpt:
             'WiseTown is a digital system for the city fully scalable, modular, designed to allow full integration with the city administration’s existing systems, third party solutions, IoT applications and external data sources. WiseTown is the engine that collects the city’s data and makes it available.',
           productName: 'WiseTown',
@@ -10857,7 +10854,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://wise.town/wp-content/uploads/2022/02/Crowd-Planning-Tablet.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-crowd-planning.png',
           excerpt:
             'WiseTown Crowd Planning is the platform that allows Public Administration to activate communication with citizens regarding planning objectives, with the ultimate goal of generating active involvement. A tool developed for a participatory urban planning.',
           productName: 'WiseTown Crowd Planning',
@@ -10866,7 +10863,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://wise.town/wp-content/uploads/2022/01/Geoanalytics_landscape-800x578.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-geoanalytics.png',
           excerpt:
             'WiseTown GeoAnalytics is a Decision Support System available to city administrators and public administration professionals. Maps, graphs, infographics and statistics highlight valuable information and provide an extrapolation of complex information useful for more informed urban planning.',
           productName: 'WiseTown Geoanalytics',
@@ -10875,7 +10872,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://wise.town/wp-content/uploads/2022/01/IssueManager_tablet-800x578.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-issue-manager.png',
           excerpt:
             'WiseTown Issue Manager is a digital system that enables citizens to support the city government by reporting city issues; at the same time it simplifies the internal workflow of the public administration by automating processes and improving the work of the operators',
           productName: 'WiseTown Issue Manager',
@@ -10884,7 +10881,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://wise.town/wp-content/uploads/2022/02/OpenDataManager__landscape-800x578.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-open-data-manager.png',
           excerpt:
             'WiseTown Open Data Manager searches and aggregates data on customizable criteria to produce Open Data catalogs for the Smart City. WiseTown software makes Public Administration data a common good, anonymous and GDPR compliant.',
           productName: 'WiseTown Open Data Manager',
@@ -10893,7 +10890,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://wise.town/wp-content/uploads/2022/02/Situation-Room-Tablet.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-situation-room.png',
           excerpt:
             'WiseTown Situation Room is a platform for the management of events and emergencies in an urban context. The tool collects the data produced by the city and displays it through a dashboard that ensures immediate analysis and response.',
           productName: 'WiseTown Situation Room',
@@ -10902,7 +10899,7 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
-            'https://wise.town/wp-content/uploads/2022/02/Thematic-Dashbard-Tablet-1.jpg',
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-thematic-dashboard.png',
           excerpt:
             'WiseTown Thematic Dashboard is an application that allows you to create custom visualizations to compare map information with statistical data and real-time data from satellite systems. The dashboards can manage economic, demographic, social, environmental and many other data.',
           productName: 'WiseTown Thematic Dashboard',
@@ -10937,30 +10934,28 @@ var pageData = {
       videos: [],
       materials: [
         [
-          'Reference 1',
+          'FIWARE Article',
           'https://www.fiware.org/2015/11/20/porto-a-city-that-has-become-a-real-time-guide/'
         ],
         [
-          'Reference 2',
-          'https://ec.europa.eu/digital-agenda/en/blog/fiware-making-cities-smarter'
+          'Shaping Europe’s Digital Future',
+          'https://digital-strategy.ec.europa.eu/en'
         ],
         [
-          'Reference 3',
-          'http://www.porto.pt/noticias/porto-fiware-e-sucesso-no-mundo'
-        ],
-        [
-          'Reference 4',
-          'http://smart-cities.pt/pt/noticia/75-cidades-partilham-dados-no-fiware9/'
+          'Porto-News',
+          'https://www.porto.pt/pt/noticia/porto-fiware-e-sucesso-no-mundo'
         ]
       ],
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Ubiwhere.svg',
-      featuredImage: 'https://fiware.ubiwhere.com/images/laptop.png',
+      featuredImage:
+        'https://www.fiware.org/wp-content/marketplace/images/hero_ubiwhere_fiware-at-ubiwhere.png',
       furtherImages: '',
       related: [
         {
           category: 'Powered by FIWARE',
-          featuredImage: 'https://urbanplatform.city/img/map_city.png',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_ubiwhere_urban-platform.png',
           excerpt:
             'Our Urban Platform allows data collection from multiple domains and provides city managers and decision-makers with a holistic view of their cities, presenting cross-domain data in a unified way.',
           productName: 'Urban Platform',
@@ -10968,7 +10963,8 @@ var pageData = {
         },
         {
           category: 'Powered by FIWARE',
-          featuredImage: 'https://www.ubiwhere.com/files/images/70D-0416.jpg',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_ubiwhere_smartlamppost.png',
           excerpt:
             'Smartlamppost is a modular concept of a lamppost with bleeding edge technology, allowing municipalities to future-proof their smart city and Mobile Network Operators to cost-effectively deploy their 5G solution.',
           productName: 'Smartlamppost',
@@ -11013,7 +11009,7 @@ var pageData = {
       materials: [],
       logo: '',
       featuredImage:
-        'https://github.blog/wp-content/uploads/2021/12/GitHub-code-search_banner.png?fit=1200%2C630',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_connecting-europe-facility_context-broker%E2%80%93bdti-integration.png',
       furtherImages: ''
     },
     'connectingeuropefacility-contextbrokerdatavisualisation': {
@@ -11042,7 +11038,7 @@ var pageData = {
       materials: [],
       logo: '',
       featuredImage:
-        'https://github.blog/wp-content/uploads/2021/12/GitHub-code-search_banner.png?fit=1200%2C630',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_connecting-europe-facility_context-broker%E2%80%93data-visualisation.png',
       furtherImages: ''
     },
     'connectingeuropefacility-contextbrokeredpintegration': {
@@ -11080,7 +11076,7 @@ var pageData = {
       materials: [],
       logo: '',
       featuredImage:
-        'https://github.blog/wp-content/uploads/2021/12/GitHub-code-search_banner.png?fit=1200%2C630',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_connecting-europe-facility_context-broker%E2%80%93edp-integration.png',
       furtherImages: ''
     }
   }

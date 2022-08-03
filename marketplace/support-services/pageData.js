@@ -57,7 +57,7 @@ var pageData = [
     technology: ['Internet of Things', 'Sensory Systems'],
     year: 2021,
     content:
-      'From idea (faisability study, design, prototyping, industrialization and manufacturing)  to realization of your solution: a user-centered creation process. \r\nYou know your work we help you to optimize it!'
+      'From idea (faisability study, design, prototyping, industrialization and manufacturing)  to realization of your solution: a user-centered creation process. \nYou know your work we help you to optimize it!'
   },
   {
     company: 'eProsima',
@@ -460,7 +460,7 @@ var pageData = [
     ],
     year: 2017,
     content:
-      "IoT Development from hardware to web/mobile apps FIWARE based\r\nThe knowledge obtained through the 'IoT' provides us with the basis to improve day-to-day experiences in your business, in your city, and in your life."
+      "IoT Development from hardware to web/mobile apps FIWARE based\nThe knowledge obtained through the 'IoT' provides us with the basis to improve day-to-day experiences in your business, in your city, and in your life."
   },
   {
     company: 'Snap4City',
