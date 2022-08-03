@@ -1108,7 +1108,7 @@ var pageData = {
           excerpt:
             'CuraVesta© is an assistance system, which was developed by ENGINEERING for home care. As a Health solution, it supports people who care for and nurse their relatives at home.',
           productName: 'CuraVesta',
-          companyLink: './?category=powered&id=engineeringdss-curavesta'
+          companyLink: './?category=powered&id=engineering-curavesta'
         },
         {
           category: 'FIWARE-Ready',
@@ -1130,9 +1130,9 @@ var pageData = {
         }
       ]
     },
-    'engineeringdss-curavesta': {
+    'engineering-curavesta': {
       category: 'Powered by FIWARE',
-      organisationName: 'Engineering DSS',
+      organisationName: 'Engineering',
       productName: 'CuraVesta',
       organisationWebsite: 'https://www.eng.it/en/',
       organisationEmail: 'mailto:info@eng-its.de',
@@ -1159,7 +1159,36 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Engineering.svg',
       featuredImage:
         'https://www.fiware.org/wp-content/marketplace/images/hero_engineering_curavestacuravesta.png',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_engineering_digital-enabler.png',
+          excerpt:
+            'Digital Enabler TM is the Engineering’s ecosystem platform supporting the entire value chain of data, from the discovery to the analysis, harmonization, and visualization.',
+          productName: 'Digital Enabler',
+          companyLink: './?category=powered&id=engineering-digitalenabler'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_engineering_dashram.png',
+          excerpt:
+            'Dashram is an Open Source tool for advanced data visualization, characterized by a simple and functional interface that provides the means to create and share 2D and 3D charts, map-based visualizations and dashboards.',
+          productName: 'Dashram',
+          companyLink: './?category=ready&id=engineering-dashram'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_engineering_knowage.png',
+          excerpt:
+            'KNOWAGE  is the professional open-source suite for analytics and business intelligence with any data, fully compliant with FIWARE architecture and GEs.',
+          productName: 'KNOWAGE',
+          companyLink: './?category=ready&id=engineering-knowage'
+        }
+      ]
     },
     'everimpact-everimpact': {
       category: 'Powered by FIWARE',
@@ -7323,7 +7352,7 @@ var pageData = {
           excerpt:
             'CuraVesta© is an assistance system, which was developed by ENGINEERING for home care. As a Health solution, it supports people who care for and nurse their relatives at home.',
           productName: 'CuraVesta',
-          companyLink: './?category=powered&id=engineeringdss-curavesta'
+          companyLink: './?category=powered&id=engineering-curavesta'
         },
         {
           category: 'FIWARE-Ready',
@@ -7416,7 +7445,7 @@ var pageData = {
           excerpt:
             'CuraVesta© is an assistance system, which was developed by ENGINEERING for home care. As a Health solution, it supports people who care for and nurse their relatives at home.',
           productName: 'CuraVesta',
-          companyLink: './?category=powered&id=engineeringdss-curavesta'
+          companyLink: './?category=powered&id=engineering-curavesta'
         },
         {
           category: 'FIWARE-Ready',
