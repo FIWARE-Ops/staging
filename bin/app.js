@@ -47,7 +47,7 @@ function relatedProducts(product, allCategories, category) {
 
   _.keys(allCategories).forEach(category => {
     allCategories[category].forEach(hash => {
-      if (hash !== productHash && hash.startsWith(companyHash)) {
+      if (hash !== productHash && hash.startsWith(companyHash + '-')) {
         const product = findProduct(hash, category);
         if (product) {
           related.push(product);
