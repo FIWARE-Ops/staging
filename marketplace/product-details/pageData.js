@@ -13,7 +13,7 @@ var pageData = {
         '[ui!] UrbanPulse is an open central data platform for urban data in real-time - based on a highly scalable architecture for data processing and analysis, with a special connector framework for the integration of sensors, urban management systems and Visualization of complex data with tiles and maps.',
       yearOfValidation: 2019,
       description:
-        '<p>[ui!] UrbanPulse is the Open Urban Data Platform for cities, communities, utilities, and other organizations that want to reuse and repurpose new and existing urban data sources to create value-added services. The [ui!] UrbanPulse platform is the most efficient open urban platform with open APIs that makes it easy and affordable for small and large customers to integrate new and existing data sources, process and analyze data in near real-time. The platform also makes it possible to finally present and share the data with various stakeholders.</p> <p>When you go live with [ui!] UrbanPulse, you get an Open Urban Data Platform (OUP) with over 130 supported data sources (connectors) for direct connection. Among them, you will find management, sensor systems, and IoT devices that have been developed thanks to many cities/communities within their smart city projects with [ui!] UrbanPulse and are immediately available. So you can start testing and implementing your project right away.</p> <p>Using these existing data sources (connectors), data-driven services can be created or extended with a short implementation phase. This includes information on noise and environmental emissions, traffic issues such as volumes, real-time forecasts, and the intersection of different data sets. Transfer existing smart city use cases to your city/communities or region and adapt them to your circumstances.</p> <h4 id="specifications">Specifications</h4> <p>The platform is implemented according to DIN Spec 91357, developed for Software-as-a- Service (SaaS) application and can be operated in a local data center for data sovereignty reasons.</p>',
+        '<p>**[ui!] UrbanPulse **is the Open Urban Data Platform for cities, communities, utilities, and other organizations that want to reuse and repurpose new and existing urban data sources to create value-added services. The [ui!] UrbanPulse platform is the most efficient open urban platform with open APIs that makes it easy and affordable for small and large customers to integrate new and existing data sources, process and analyze data in near real-time. The platform also makes it possible to finally present and share the data with various stakeholders.</p> <p>When you go live with [ui!] UrbanPulse, you get an Open Urban Data Platform (OUP) with over 130 supported data sources (connectors) for direct connection. Among them, you will find management, sensor systems, and IoT devices that have been developed thanks to many cities/communities within their smart city projects with [ui!] UrbanPulse and are immediately available. So you can start testing and implementing your project right away.</p> <p>Using these existing data sources (connectors), data-driven services can be created or extended with a short implementation phase. This includes information on noise and environmental emissions, traffic issues such as volumes, real-time forecasts, and the intersection of different data sets. Transfer existing smart city use cases to your city/communities or region and adapt them to your circumstances.</p> <h4 id="specifications">Specifications</h4> <p>The platform is implemented according to DIN Spec 91357, developed for Software-as-a- Service (SaaS) application and can be operated in a local data center for data sovereignty reasons.</p>',
       challenge:
         '<p>Advancing urbanization and the associated challenges, including in urban and regional infrastructures, mobility and energy, requires a new, networked approach. Resource-conserving and environmentally compatible actions on the one hand, and situation-appropriate and measured decision-making on the other, require extensive data from many, previously isolated systems within a community. [ui!] supports cities, communities, counties, and regions in their efforts to collect, process and analyze all existing and anonymized urban data on a central data platform. We also help make this data available for new services as added value for cities, communities, and utility companies.</p> <p>These solutions are based on an open urban data platform – the [ui!] UrbanPulse - where all data from a city’s various IT systems are fed into the system in order to be used for new smart city services in real-time. This meets the current requirements of DIN SPEC 91357 - Reference Architecture Model Open Urban Platform (OUP). Using a large number of connectors, we are able to link a wide variety of IT systems together. We are able to do this in such a way that all the information in a city can be used and made visible, while at the same time leaving the data sovereignty with the respective provider. The platform, therefore, not only provides integrated access to urban data, but also prevents the risk of data misuse.</p>',
       references:
@@ -56,7 +56,7 @@ var pageData = {
         'Thor is the most versatile professional 360° with cloud-based workflow. Multiple AZ’s VR cameras individually record 12 video streams, and collect positioning metadata via in-built GPS sensor.',
       yearOfValidation: 2018,
       description:
-        '<p>AZ’s VR camera and cloud platform are currently introduced to the EU market. Interactive AR 360° streaming (currently at TRL 6) is achieved through:</p> <ul> <li>Multiple AZ’s VR cameras individually record 12 video streams and collect positioning metadata via an in-built GPS sensor. The metadata enables the cameras to become aware of their locations in step F). </li> <li>Each camera sends all 12 streams( including metadata) to the Cloud for further processing. </li> <li>Optical flow algorithms stitch all 12 streams into a 360° format for each camera; </li> <li>The resulting 360° videos are stored conjointly in a content delivery network container, which has a universal timeline that  synchronizes all videos to run simultaneously when viewing. </li> <li>A 360° media player interfaces to this container and allows to view the 360° video; </li> <li>A real-time AR layer, embedded in the 360° media player, visualizes all metadata and shows the other cameras as position markers. Each marker can be activated via an eye gaze trigger.</li> </ul> <p>Interactive VR streaming is a novel technology with massive potential, enabling new possibilities for audiences who are not able to be at a location physically. AZ technology enables twofold unique benefits:</p> <p>Production Event broadcasters can stream with multiple AZ cameras simultaneously. Our self-aware VR cameras are key to enabling a maximum level of automation, and hence facilitate easy adoption through first moving TV studios, event broadcasters, and video producers.</p> <p>Consumption Audiences can revisit respective events in real-time, and jump between each of AZ’s camera’s locations at will. The cloud architecture furthermore creates a P2P ecosystem to host and distribute content directly to the end-user seamlessly. Consumers can view AR- enabled VR streams from any device, without the need for installation of additional software.</p>',
+        '<p>AZ’s VR camera and cloud platform are currently introduced to the EU market. Interactive AR 360° streaming (currently at TRL 6) is achieved through:</p> <ul> <li><p>Multiple AZ’s VR cameras individually record 12 video streams and collect positioning metadata via an in-built GPS sensor. The metadata enables the cameras to become aware of their locations in step F). </p></li> <li><p>Each camera sends all 12 streams( including metadata) to the Cloud for further processing. </p></li> <li><p>Optical flow algorithms stitch all 12 streams into a 360° format for each camera; </p></li> <li><p>The resulting 360° videos are stored conjointly in a content delivery network container, which has a universal timeline that  synchronizes all videos to run simultaneously when viewing. </p></li> <li><p>A 360° media player interfaces to this container and allows to view the 360° video; </p></li> <li><p>A real-time AR layer, embedded in the 360° media player, visualizes all metadata and shows the other cameras as position markers. Each marker can be activated via an eye gaze trigger.1. - </p></li> </ul> <p>Interactive VR streaming is a novel technology with massive potential, enabling new possibilities for audiences who are not able to be at a location physically. AZ technology enables twofold unique benefits:</p> <p><strong>Production</strong> Event broadcasters can stream with multiple AZ cameras simultaneously. Our self-aware VR cameras are key to enabling a maximum level of automation, and hence facilitate easy adoption through first moving TV studios, event broadcasters, and video producers.</p> <p><strong>Consumption</strong> Audiences can revisit respective events in real-time, and jump between each of AZ’s camera’s locations at will. The cloud architecture furthermore creates a P2P ecosystem to host and distribute content directly to the end-user seamlessly. Consumers can view AR- enabled VR streams from any device, without the need for installation of additional software.</p>',
       challenge:
         '<p>On the huge field, one camera, even a 360° one is usually not enough. It is quite problematic both to switch between multiple streaming windows (especially with the hmd on) and to upload multiple streams with different metadata.</p> <p>VR is a young medium and requires a significant infrastructure push to become adopted to the mainstream. A lack of infrastructure is found on both ends of the value chain of digital media creation: 1.Production Interactivity in a 360° video can only be achieved if the video is embedded on a website, which creates additional costs for web development. An average video production company with two clients per month will spend an estimate of:</p> <ul> <li><p>5,350€ for PC and 360° camera; </p></li> <li><p>2,600€ per year for software licenses and freelance web developers; </p></li> <li><p>20 hours of work per project.</p></li> </ul> <ol> <li>Consumption</li> </ol> <p>The access to interactive content and the device used for consumption is  as important as the content creation itself. The US alone counts 2,2 mio. people in a wheelchair who are significantly limited in participating in socio-cultural events like festivals or football matches. Interactive 360 streaming creates freedom in exploration for people who are bound by physical or regional limitations.</p>',
       references: '',
@@ -85,7 +85,7 @@ var pageData = {
         'This cloud-based solution intelligently monitors and automates management of EV chargers and parking spaces on a per space / per user basis improving utilisation. \n\nEnd-users reserve their space in advance via an easy-to-use app with integrated payments, significantly reducing parking hassle.',
       yearOfValidation: 2016,
       description:
-        '<p>At Accelogress Limited we help parking managers to increase revenue across car parks by optimising occupancy with our Save-a-Space cloud parking management platform. We help them in three ways. 1) We allow them to offer pre-bookable spaces, which improves how References/Customers can discover spaces, directing them to spaces they didn’t even know existed, taking away guesswork and helping them plan their trips better. 2) Our platform integrates with the customer workflows of destinations, for example at train stations helping them to book parking as part of their train journey, venues or shops, so more spaces are sold directly where and when it matters. 3) Parking managers register their spaces directly on our platform and just pop up appropriate signage at their car parks and they are ready to go. And our platform can do much more. We can integrate with real-time space occupancy sensing hardware, such as Automated Number Plate Recognition (ANPR), helping to monitor and manage parking spaces via the Save-a-Space dashboard. Save-a-Space smartly computes optimal parking options for drivers on route to destinations based on personal pReference Material, providing real-time availability and a pre-booking facility within the Save-a-Space end user app. Parking managers can gain insights through big data analysis with the opportunity to influence driver behaviour with time and location-specific offers and incentives, encouraging engagement with visitors and town centre retailers and businesses.</p>',
+        '<p>At Accelogress Limited we help parking managers to increase revenue across car parks by optimising occupancy with our Save-a-Space cloud parking management platform. We help them in three ways:</p> <ul> <li>1) We allow them to offer pre-bookable spaces, which improves how References/Customers can discover spaces, directing them to spaces they didn’t even know existed, taking away guesswork and helping them plan their trips better. </li> <li>2) Our platform integrates with the customer workflows of destinations, for example at train stations helping them to book parking as part of their train journey, venues or shops, so more spaces are sold directly where and when it matters.</li> <li>3) Parking managers register their spaces directly on our platform and just pop up appropriate signage at their car parks and they are ready to go.</li> </ul> <p>And our platform can do much more. We can integrate with real-time space occupancy sensing hardware, such as Automated Number Plate Recognition (ANPR), helping to monitor and manage parking spaces via the Save-a-Space dashboard. Save-a-Space smartly computes optimal parking options for drivers on route to destinations based on personal pReference Material, providing real-time availability and a pre-booking facility within the Save-a-Space end user app.  Parking managers can gain insights through big data analysis with the opportunity to influence driver behaviour with time and location-specific offers and incentives, encouraging engagement with visitors and town centre retailers and businesses.</p>',
       challenge: '',
       references:
         '<p>Save-a-Space has been successfully trialed in the UK with city centre parking providers and will shortly begin a commercial trial with a large regional UK transport authority</p>',
@@ -119,7 +119,7 @@ var pageData = {
         'Agricolus is a cloud platform created to simplify and enhance the work in the field of farmers and professionals. It is composed of the main applications of precision agriculture:  from satellite imagery with vegetation indices to forecast models for irrigation, fertilization, pest and diseases.',
       yearOfValidation: 2017,
       description:
-        '<p>AGRICOLUS is a cloud applications ecosystem for precision farming with multiple purposes: disease awareness and forecasts, crop monitoring, decision support system for treatments and fertilizers, farm management, and end-to-end traceability bringing valuable information to final users. It is on the market and multinational agroholding companies, medium-big farms, the association of farmers and the government are using it successfully. AGRICOLUS is FIWARE IoT Ready certified. AgriPlug is our OBD device that supports the integration of the ecosystem with ISOBUS enabled machines to exchange logs and send information for precision treatments and operations on crops. AgriTrack traceability system provides documentary evidence about the origin and history of agricultural products and food, to demonstrate products’ safety and the commitment to the quality of the producer. To ensure this we propose a new approach: traceability needs to start from the field, and collected data must be blockchain secured.</p>',
+        '<p><strong>AGRICOLUS</strong>  is a cloud applications ecosystem for precision farming with multiple purposes: disease awareness and forecasts, crop monitoring, decision support system for treatments and fertilizers, farm management, and end-to-end traceability bringing valuable information to final users. It is on the market and multinational agroholding companies, medium-big farms, the association of farmers and the government are using it successfully.  AGRICOLUS is FIWARE IoT Ready certified. AgriPlug is our OBD device that supports the integration of the ecosystem with ISOBUS enabled machines to exchange logs and send information for precision treatments and operations on crops.  AgriTrack traceability system provides documentary evidence about the origin and history of agricultural products and food, to demonstrate products’ safety and the commitment to the quality of the producer. To ensure this we propose a new approach: traceability needs to start from the field, and collected data must be blockchain secured.</p>',
       challenge:
         '<p>Today farmers face several challenges, we are mostly working on:</p> <p>International market competition with products coming from unruled countries that produce at a very low cost. The effect is a reduction of the profit due to the need of reducing final selling prices. For this reason, farmers have to reduce costs and increase quality at the same time. Climate change requires continuous adaptation of the best time to proceed with any agricultural operation (seeding, fertilizing, manuring, irrigating, harvesting). Farmers need real-time support to understand the right timing for these operations.</p> <p>Agritech adoption among EU farmers is far below 20%, Agricolus can support them by making these technologies accessible and useful for daily work on the fields.</p>',
       references:
@@ -1102,15 +1102,6 @@ var pageData = {
       furtherImages: '',
       related: [
         {
-          category: 'Powered by FIWARE',
-          featuredImage:
-            'https://www.fiware.org/wp-content/marketplace/images/hero_engineering_curavestacuravesta.png',
-          excerpt:
-            'CuraVesta© is an assistance system, which was developed by ENGINEERING for home care. As a Health solution, it supports people who care for and nurse their relatives at home.',
-          productName: 'CuraVesta',
-          companyLink: './?category=powered&id=engineering-curavesta'
-        },
-        {
           category: 'FIWARE-Ready',
           featuredImage:
             'https://www.fiware.org/wp-content/marketplace/images/hero_engineering_dashram.png',
@@ -1159,36 +1150,7 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Engineering.svg',
       featuredImage:
         'https://www.fiware.org/wp-content/marketplace/images/hero_engineering_curavestacuravesta.png',
-      furtherImages: '',
-      related: [
-        {
-          category: 'Powered by FIWARE',
-          featuredImage:
-            'https://www.fiware.org/wp-content/marketplace/images/hero_engineering_digital-enabler.png',
-          excerpt:
-            'Digital Enabler TM is the Engineering’s ecosystem platform supporting the entire value chain of data, from the discovery to the analysis, harmonization, and visualization.',
-          productName: 'Digital Enabler',
-          companyLink: './?category=powered&id=engineering-digitalenabler'
-        },
-        {
-          category: 'FIWARE-Ready',
-          featuredImage:
-            'https://www.fiware.org/wp-content/marketplace/images/hero_engineering_dashram.png',
-          excerpt:
-            'Dashram is an Open Source tool for advanced data visualization, characterized by a simple and functional interface that provides the means to create and share 2D and 3D charts, map-based visualizations and dashboards.',
-          productName: 'Dashram',
-          companyLink: './?category=ready&id=engineering-dashram'
-        },
-        {
-          category: 'FIWARE-Ready',
-          featuredImage:
-            'https://www.fiware.org/wp-content/marketplace/images/hero_engineering_knowage.png',
-          excerpt:
-            'KNOWAGE  is the professional open-source suite for analytics and business intelligence with any data, fully compliant with FIWARE architecture and GEs.',
-          productName: 'KNOWAGE',
-          companyLink: './?category=ready&id=engineering-knowage'
-        }
-      ]
+      furtherImages: ''
     },
     'everimpact-everimpact': {
       category: 'Powered by FIWARE',
@@ -2076,38 +2038,6 @@ var pageData = {
           companyLink: './?category=services&id=martelinnovate-martellab'
         }
       ]
-    },
-    'mermix-mermix': {
-      category: 'Powered by FIWARE',
-      organisationName: 'Mermix',
-      productName: 'Mermix',
-      organisationWebsite: '',
-      organisationEmail: 'mailto:info@mermix.gr',
-      linkedIn:
-        'https://www.linkedin.com/company/mermix-gr/?originalSubdomain=gr',
-      twitter: 'https://twitter.com/TheMermix',
-      productWebsite: 'http://www.mermix.gr',
-      excerpt:
-        'Mermix is a farm & equipment management system, allowing farmers to find tools and services that other farmers or companies have listed.',
-      yearOfValidation: 2018,
-      description:
-        '<p>Agri-Food Industries can now control the quality of the products through mermix Farm Management System for contract farming, while farmers can produce more and better crops with less capital investment.</p> <p>Mermix is an innovative web service that has multiple purposes and goals; the most important one is provinding the rural community, such as farmers (small, medium, or professionals), the opportunity to easily reach and access agricultural machinery and check their availability through the web. We believe that sharing agricultural machinery and tools can improve agricultural production and make it more sustainable. Through combining agricultural machinery and services sharing, farmers can save money and invest it in other areas of operations, such as efficient farm management methods, which will prove to  increase the quantity and quality of their products. Furthermore, mermix can give a solution to Agrifood industries, which are struggling with contract farming due to lack of supervision to the methods of cultivation. Combining both machinery sharings and farm management, it can take the agricultural sector a step further, through using modern and simple technology.</p> <p>Our services cover the following areas:</p> <ul> <li>Machinery sharing for all agricultural services </li> <li>Services sharing (rent a machine with the operator) </li> <li>Fleet and services advertisement </li> <li>Farm management system </li> <li>Contract farming supervision</li> </ul>',
-      challenge:
-        "<p>Agrifood industries are struggling with the poor quality and quantity of the products they purchase from farmers due to a lack of supervision. On the other hand, farmers cannot control nor organize their production, as they've been using old and insufficient methods of farm management, while at the same time, to improve their production they keep on investing huge amounts in new equipment.</p>",
-      references:
-        '<p>We are focusing on young and new farmers, who are more eager to use technology. Furthermore, our References/Customers are Agrifood Industries, Agricultural Cooperatives and Unions, who need to upgrade and control their farming, through the mermix Farm Management System.</p>',
-      awards: '',
-      technologies: ['Data Analytics'],
-      domains: ['AgriFood'],
-      docs: [],
-      videos: [
-        ['Promo Video-YouTube', 'https://www.youtube.com/watch?v=I5VP761qi2c']
-      ],
-      materials: [],
-      logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_Mermix.png',
-      featuredImage: '',
-      furtherImages: ''
     },
     'movisat-ecosat': {
       category: 'Powered by FIWARE',
@@ -5075,10 +5005,10 @@ var pageData = {
       category: 'FIWARE-Ready',
       organisationName: 'Datakorum Solutions',
       productName: 'CS40',
-      organisationWebsite: '',
-      organisationEmail: '',
-      linkedIn: '',
-      twitter: '',
+      organisationWebsite: 'https://www.datakorum.com/site/?lang=en',
+      organisationEmail: 'mailto:info@datakorum.com',
+      linkedIn: 'https://www.linkedin.com/company/datakorum/',
+      twitter: 'https://twitter.com/datakorum?lang=es',
       productWebsite: 'http://e3tcity.com/en/cs40/',
       excerpt:
         'CS40 controller can act remotely on any heating and air conditioning facility, in the way it can support and fulfill what Smart Building service needs.',
@@ -7158,18 +7088,7 @@ var pageData = {
       logo:
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Miluz.svg',
       featuredImage: '',
-      furtherImages: '',
-      related: [
-        {
-          category: 'FIWARE-Ready',
-          featuredImage:
-            'https://www.fiware.org/wp-content/marketplace/images/hero_eficae-soluciones_industrial-meter.png',
-          excerpt:
-            'Industrial mono-phase and three-phase electrical meter and analyzer. With Industrial Meter 4.0 you can get the knowledge how industrial installations process consumption and how to improve the production process.',
-          productName: 'Industrial Meter 4.0',
-          companyLink: './?category=ready&id=eficaesoluciones-industrialmeter40'
-        }
-      ]
+      furtherImages: ''
     },
     'eficaesoluciones-industrialmeter40': {
       category: 'FIWARE-Ready',
@@ -7346,15 +7265,6 @@ var pageData = {
           companyLink: './?category=powered&id=engineering-digitalenabler'
         },
         {
-          category: 'Powered by FIWARE',
-          featuredImage:
-            'https://www.fiware.org/wp-content/marketplace/images/hero_engineering_curavestacuravesta.png',
-          excerpt:
-            'CuraVesta© is an assistance system, which was developed by ENGINEERING for home care. As a Health solution, it supports people who care for and nurse their relatives at home.',
-          productName: 'CuraVesta',
-          companyLink: './?category=powered&id=engineering-curavesta'
-        },
-        {
           category: 'FIWARE-Ready',
           featuredImage:
             'https://www.fiware.org/wp-content/marketplace/images/hero_engineering_knowage.png',
@@ -7437,15 +7347,6 @@ var pageData = {
             'Digital Enabler TM is the Engineering’s ecosystem platform supporting the entire value chain of data, from the discovery to the analysis, harmonization, and visualization.',
           productName: 'Digital Enabler',
           companyLink: './?category=powered&id=engineering-digitalenabler'
-        },
-        {
-          category: 'Powered by FIWARE',
-          featuredImage:
-            'https://www.fiware.org/wp-content/marketplace/images/hero_engineering_curavestacuravesta.png',
-          excerpt:
-            'CuraVesta© is an assistance system, which was developed by ENGINEERING for home care. As a Health solution, it supports people who care for and nurse their relatives at home.',
-          productName: 'CuraVesta',
-          companyLink: './?category=powered&id=engineering-curavesta'
         },
         {
           category: 'FIWARE-Ready',
@@ -10429,11 +10330,11 @@ var pageData = {
       category: 'Services',
       organisationName: 'MNX Online',
       productName: 'FIWARE Transition Strategy',
-      organisationWebsite: 'https://www.mnx.com/',
+      organisationWebsite: '',
       organisationEmail: '',
-      linkedIn: 'https://www.linkedin.com/company/mnxlogistics/',
-      twitter: 'https://twitter.com/mnxlogistics',
-      productWebsite: 'https://www.mnx.com/services/',
+      linkedIn: '',
+      twitter: '',
+      productWebsite: '',
       excerpt:
         'MNX Online is an IT company based in the Canary Islands, Spain. As FIWARE Certified Experts we are technical advisors for the regional DIH. We have guided companies and entities towards Smart transformation in a wide range of sectors such as tourism, energy, and ports, among others...',
       yearOfValidation: 2020,
