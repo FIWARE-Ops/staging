@@ -11,7 +11,7 @@ var pageData = [
     domain: ['AgriFood'],
     type: 'IoT Device',
     technology: ['Sensory Systems'],
-    year: 2017,
+    year: null,
     content:
       'AGRICOLUS is a cloud applications ecosystem for precision farming with multiple purposes: disease awareness and forecasts, crop monitoring, decision support system for treatments and fertilizers, farm management, and end-to-end traceability bringing valuable information to final users.'
   },
@@ -36,7 +36,7 @@ var pageData = [
       'Internet of Things',
       'Software as a Service'
     ],
-    year: 2020,
+    year: null,
     content:
       'Traxión is an automatic system for inflow and level of occupancy control, based on non-intrusive feedback sensors via IP cameras with integrated video analytics'
   },
@@ -52,7 +52,7 @@ var pageData = [
     domain: ['Cities', 'Industry', 'Ports'],
     type: 'IoT Device',
     technology: ['Artificial Intelligence', 'Cloud Computing'],
-    year: 2019,
+    year: null,
     content:
       'Breeze Air Quality Sensors offers low-cost air quality sensors delivering highly accurate real-time air quality data about all important indicators.'
   },
@@ -68,7 +68,7 @@ var pageData = [
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Cloud Computing'],
-    year: 2018,
+    year: null,
     content:
       'We provide different solutions that have been designed in order to simplify and optimize waste collection and treatment processes for Smart Cities. Also, we offer load control or dynamic weighing systems in vehicles and provide solutions that have been designed to make work processes easier.'
   },
@@ -84,7 +84,7 @@ var pageData = [
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Cloud Computing'],
-    year: 2017,
+    year: null,
     content:
       'CS40 controller can act remotely on any heating and air conditioning facility, in the way it can support and fulfill what Smart Building service needs.'
   },
@@ -100,9 +100,9 @@ var pageData = [
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Cloud Computing'],
-    year: 2018,
+    year: null,
     content:
-      'Intelligent Remote Control for Street Lighting\r\nLANE device gives you access to remote control and monitoring of any new or existing streetlight network from one point of light to whole streets.'
+      'Intelligent Remote Control for Street Lighting\nLANE device gives you access to remote control and monitoring of any new or existing streetlight network from one point of light to whole streets.'
   },
   {
     company: 'Datakorum Solutions',
@@ -116,7 +116,7 @@ var pageData = [
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Cloud Computing'],
-    year: 2017,
+    year: null,
     content:
       'E3TLight devices integrate remote control, on/off switching of streetlight network, dimming and scheduled programming, monitoring electrical parameters, and WiFi communication, in a single unit.'
   },
@@ -132,7 +132,7 @@ var pageData = [
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things'],
-    year: 2017,
+    year: null,
     content:
       'LC40 device allows remote control and monitoring of any new or existing streetlight network. This control is achieved by installing one E3TLight device just before the lights section we want to command.'
   },
@@ -148,7 +148,7 @@ var pageData = [
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Cloud Computing'],
-    year: 2017,
+    year: null,
     content:
       'E3TLight system allows remote control and monitoring of any new or existing streetlight network. This control is achieved by installing one E3TLight device just before the lights section we want to command.'
   },
@@ -164,7 +164,7 @@ var pageData = [
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Cloud Computing'],
-    year: 2017,
+    year: null,
     content:
       'E3TMeter controllers integrate into one unique device remote control (on/off switching), monitoring of energy parameters of an electric board, either monophasic or triphasic, and WiFi communication.'
   },
@@ -180,7 +180,7 @@ var pageData = [
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Cloud Computing'],
-    year: 2017,
+    year: null,
     content:
       'E3TMeter controllers integrate into one unique device remote control (on/off switching), monitoring of energy parameters of an electric board, either monophasic or triphasic, and WiFi communication.'
   },
@@ -196,9 +196,9 @@ var pageData = [
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Cloud Computing'],
-    year: 2018,
+    year: null,
     content:
-      'Remote Control and Monitoring System\r\nPEAK device gives you access to remote control and monitoring of any new or existing streetlight network from one point of light to whole streets.'
+      'Remote Control and Monitoring System\nPEAK device gives you access to remote control and monitoring of any new or existing streetlight network from one point of light to whole streets.'
   },
   {
     company: 'Datakorum Solutions',
@@ -212,7 +212,7 @@ var pageData = [
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Cloud Computing'],
-    year: 2018,
+    year: null,
     content:
       'PLUG device is an easily adjustable smart point-to-point lighting controller that is best suited for street lamps such as those that meet ANSI C136.41.'
   },
@@ -228,7 +228,7 @@ var pageData = [
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Cloud Computing'],
-    year: 2018,
+    year: null,
     content:
       'POLE the IoT Device is an easily adjustable smart point-to-point lighting controller that is best suited for projects such as Smart Lighting projects.'
   },
@@ -244,7 +244,7 @@ var pageData = [
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Cloud Computing'],
-    year: 2017,
+    year: null,
     content:
       'This system allows any analog or digital sensor to behave as if it were an IoT sensor and establishes a real-time connection between the cloud and sensors. The measures taken by sensors can be sent instantaneously, and enable events, alerts, and alarms associated with them.'
   },
@@ -260,7 +260,7 @@ var pageData = [
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Cloud Computing'],
-    year: 2017,
+    year: null,
     content:
       'IoT sensor monitoring system allows any analog or digital sensor to behave as if it were an IoT sensor and establishes a real-time connection between the cloud and sensors.'
   },
@@ -276,7 +276,7 @@ var pageData = [
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Cloud Computing'],
-    year: 2018,
+    year: null,
     content:
       'TINY is a device that is best suited for lighting manufacturers, due to being a smart point-to-point controller and easily adjustable when turned on and off.'
   },
@@ -291,7 +291,7 @@ var pageData = [
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things'],
-    year: 2017,
+    year: null,
     content:
       'UDG provides a perfect solution for smart cities projects. It has been designed to handle large-scale deployments with heterogeneous IoT systems. By enabling different classes of IoT Devices, sensors, and actuators into a common data plane, UDG highly simplifies the management of such deployments.'
   },
@@ -307,7 +307,7 @@ var pageData = [
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things'],
-    year: 2017,
+    year: null,
     content:
       'Bluetooth Low Energy device that works as a beacon for the visibly impaired.'
   },
@@ -334,7 +334,7 @@ var pageData = [
       'Sensory Systems',
       'Software as a Service'
     ],
-    year: 2020,
+    year: null,
     content:
       'We provide different solutions that have been designed to simplify and optimize waste collection and treatment processes for Smart Cities. Also, we offer load control or dynamic weighing systems in vehicles and provide solutions that have been designed to make work processes easier.'
   },
@@ -360,7 +360,7 @@ var pageData = [
       'Sensory Systems',
       'Service Architectures'
     ],
-    year: 2018,
+    year: null,
     content:
       'Miluz is a datalogger that makes able to comunnicate with different Power Managament industrial devices such as Power Consumption Meters, Electric Analizers, Frequency Variators or PV Inverters. Miluz can extract the data by Modbus Protocool and send it through FIWARE protocol'
   },
@@ -390,7 +390,7 @@ var pageData = [
     domain: ['Electronics', 'Industry', 'Measurement', 'Telecommunication'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Sensory Systems'],
-    year: 2021,
+    year: null,
     content:
       'The device EdgeSpot is a highly scalable hardware and software platform that takes you from concept to market by accelerating the proof-of-concept phases.'
   },
@@ -405,7 +405,7 @@ var pageData = [
     domain: ['AgriFood'],
     type: 'IoT Device',
     technology: ['Data Analytics', 'Open Data'],
-    year: 2017,
+    year: null,
     content:
       'The easily deployable decision support solution that helps you manage your vineyard to reduce costs, grow better grapes, and preserve the environment.'
   },
@@ -420,7 +420,7 @@ var pageData = [
     domain: ['Cities', 'Water'],
     type: 'Software enabler',
     technology: ['Data Analytics', 'Data Spaces'],
-    year: 2021,
+    year: null,
     content:
       'Dashram is an Open Source tool for advanced data visualization, characterized by a simple and functional interface that provides the means to create and share 2D and 3D charts, map-based visualizations and dashboards.'
   },
@@ -447,7 +447,7 @@ var pageData = [
       'Open Data',
       'Software as a Service'
     ],
-    year: 2014,
+    year: null,
     content:
       'KNOWAGE  is the professional open-source suite for analytics and business intelligence with any data, fully compliant with FIWARE architecture and GEs.'
   },
@@ -462,7 +462,7 @@ var pageData = [
     domain: ['Cities'],
     type: 'Software enabler',
     technology: ['Internet of Things', 'Open Data', 'Data Analytics'],
-    year: 2021,
+    year: null,
     content:
       'GECOR allows managing the maintenance of public spaces in a transversal way, integrating technicians, managers, service companies and citizens.'
   },
@@ -484,7 +484,7 @@ var pageData = [
       'Photonics and Imaging',
       'Sensory Systems'
     ],
-    year: 2017,
+    year: null,
     content:
       'Night Eye is the ultimate solution for night sky background brightness measurement and light pollution assessment. Thanks to the Night Eye device, real-time data, and sky quality logging data can be obtained wherever Night Eye sensors are installed.'
   },
@@ -500,7 +500,7 @@ var pageData = [
     domain: ['Agriculture', 'AgriFood', 'Cities', 'Sustainability', 'Water'],
     type: 'IoT Device',
     technology: ['Artificial Intelligence', 'Internet of Things'],
-    year: 2020,
+    year: null,
     content:
       'Manage irrigation based on accurate and real-time data and AI. Weather stations with sensors of air temperature and humidity, wind, rain, UV radiation, and evapotranspiration; Soil moisture sensors. Irrigation management calendar according to soil typology.'
   },
@@ -521,7 +521,7 @@ var pageData = [
     ],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Sensory Systems'],
-    year: 2016,
+    year: null,
     content:
       'Monitor noise, people affluence/density, and gases: nitrous vapors (NO/NO2), sulfides (H2S/SO2), carbon monoxide/dioxide (CO/CO2), Ozone, and other toxic substances (VOCs); particulate matter (PM) to identify nanoparticulate as dust (PM10), pollens (>PM40), pollutants (PM2.5) and viruses (&lt; PM1).'
   },
@@ -536,7 +536,7 @@ var pageData = [
     domain: ['Logistics'],
     type: 'IoT Device',
     technology: ['Internet of Things'],
-    year: 2017,
+    year: null,
     content:
       'Babbler is a small, re-usable, wireless monitoring device. It can be attached to the inside of a container or trailer door using a magnetic holder or adhesive strip.'
   },
@@ -551,7 +551,7 @@ var pageData = [
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Open Data', 'Data Analytics'],
-    year: 2019,
+    year: null,
     content:
       "Kissmybike is a complex IoT product which detects bicycle theft and tracks the stolen vehicle's location until its successful recovery."
   },
@@ -566,7 +566,7 @@ var pageData = [
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Cloud Computing', 'Sensory Systems'],
-    year: 2017,
+    year: null,
     content:
       'Meshlium is the IoT Gateway to connect any sensor to any Cloud Platform, including FIWARE. It provides customers/users with help to monitor daily activities in order to get gain business intelligence.'
   },
@@ -581,7 +581,7 @@ var pageData = [
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Cloud Computing', 'Sensory Systems'],
-    year: 2017,
+    year: null,
     content:
       'Plug&Sense is an IoT Device that offers its users several benefits such as easily attachment of the Sensor probes, solar panel option battery recharge, the 4G module features a GPS receiver etc.'
   },
@@ -596,7 +596,7 @@ var pageData = [
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Cloud Computing', 'Sensory Systems'],
-    year: 2017,
+    year: null,
     content:
       'Waspmote hardware architecture has been specially designed to work with extremely low consumption. Digital switches allow to turn on and off any of the sensor interfaces as well as the radio modules.'
   },
@@ -612,7 +612,7 @@ var pageData = [
     domain: ['Cities', 'AgriFood', 'Industry'],
     type: 'IoT Device',
     technology: ['Internet of Things'],
-    year: 2018,
+    year: null,
     content:
       'IPex 04 Datalogger is a Monitoring and Tele-control solution for electrical panels with 4 inputs/outputs; Smart Cities; Industry, and Agriculture.'
   },
@@ -628,7 +628,7 @@ var pageData = [
     domain: ['Cities', 'AgriFood', 'Industry'],
     type: 'IoT Device',
     technology: ['Internet of Things'],
-    year: 2018,
+    year: null,
     content:
       'IPex 12 Datalogger is a Monitoring and Tele-control solution for outdoor environments for monitoring and remote control; Smart Cities and Smart Industry.'
   },
@@ -644,7 +644,7 @@ var pageData = [
     domain: ['Cities', 'AgriFood', 'Industry'],
     type: 'IoT Device',
     technology: ['Internet of Things'],
-    year: 2018,
+    year: null,
     content:
       'IPex 16 Datalogger is a Monitoring and Tele-control solution for electrical panels with 4 inputs/outputs; Smart Cities; Industry, and Agriculture.'
   },
@@ -660,7 +660,7 @@ var pageData = [
     domain: ['Cities', 'AgriFood', 'Industry'],
     type: 'IoT Device',
     technology: ['Internet of Things'],
-    year: 2018,
+    year: null,
     content:
       'Met 06 Datalogger is a Monitoring and Tele-control solution for outdoor environments for monitoring and remote control; Smart Cities and Smart Industry.'
   },
@@ -675,7 +675,7 @@ var pageData = [
     domain: ['Cities', 'Health'],
     type: 'IoT Device',
     technology: ['Internet of Things'],
-    year: 2019,
+    year: null,
     content:
       'RESPIRA FIWARE is an open-source air monitoring IoT device that was created to sense temperature, humidity, particle matter, and NO2 levels in the air.'
   },
@@ -691,7 +691,7 @@ var pageData = [
     domain: ['AgriFood'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Open Data', 'Data Analytics'],
-    year: 2017,
+    year: null,
     content: 'Intelligent Process Monitoring and Control for perishable foods'
   },
   {
@@ -710,7 +710,7 @@ var pageData = [
       'Open Data',
       'Industrial Technology'
     ],
-    year: 2017,
+    year: null,
     content:
       'LockArt device is the new generation of locks. It installs in the blink of an eye, and it is compatible with all types of locks thanks to its adjustable back piece.'
   },
@@ -725,7 +725,7 @@ var pageData = [
     domain: ['Health'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Data Analytics', 'Open Data'],
-    year: 2018,
+    year: null,
     content:
       'Muvone is the first wearable device specifically designed to help prevent osteoporosis. With its small size and attractive design, it makes the ideal complement to take care of your health intelligently.'
   },
@@ -751,7 +751,7 @@ var pageData = [
       'Internet of Things',
       'Sensory Systems'
     ],
-    year: 2021,
+    year: null,
     content:
       'The sensor-based, connected Citygrid solution allows for configuring the luminaires so that they always light up when presence is detected, and dim down after some time. When a luminaire fails, the information can be dispatched immediately so maintenance can be planned optimally.'
   },
@@ -766,7 +766,7 @@ var pageData = [
     domain: ['AgriFood'],
     type: 'IoT Device',
     technology: ['Open Data'],
-    year: 2018,
+    year: null,
     content:
       "Digitanimal is an integrated service platform that increases livestock farms' profits; improving animal welfare and providing traceability tools for consumers."
   },
@@ -793,7 +793,7 @@ var pageData = [
       'Sensory Systems',
       'Software as a Service'
     ],
-    year: 2022,
+    year: null,
     content:
       'Digitanimal Livestock GPS offers a 2-year warranty All services included for 12 months* Renewal plans tailored to your Customs management included a 30-day trial'
   },
@@ -814,7 +814,7 @@ var pageData = [
       'Data Analytics',
       'Open Data'
     ],
-    year: 2017,
+    year: null,
     content:
       'Situm is the GPS for indoors with zero infrastructure, the highest precision, and the fastest deployment. It helps companies from different sectors to improve their services and optimize their processes by guiding visitors and monitoring their employees and mobile assets.'
   },
@@ -834,7 +834,7 @@ var pageData = [
       'Software as a Services',
       'Internet Services'
     ],
-    year: 2017,
+    year: null,
     content:
       'Situm is a software enabler that offers indoor positioning and navigation for smartphones without infrastructure installations to improve security and manage the workflow.'
   },
@@ -849,7 +849,7 @@ var pageData = [
     domain: ['Cities', 'AgriFood', 'Logistics', 'Industry', 'Health'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Data Analytics'],
-    year: 2021,
+    year: null,
     content:
       'MavDrone device is the first solution compatible with the MAVLink protocol for the Command and Control of drone fleets. MavDrone extends the capabilities of IAS by publishing the telemetry in a public API.'
   },
@@ -865,7 +865,7 @@ var pageData = [
     domain: ['Cities', 'AgriFood', 'Logistics', 'Industry', 'Health'],
     type: 'Software enabler',
     technology: ['Internet of Things', 'Open Data', 'Data Analytics'],
-    year: 2021,
+    year: null,
     content:
       'FIWARE Map Viewer extends the capabilities of any map to Smart Cities and IoT. Monitoring any device on a map in real-time, such as atmospheric sensors, cameras, traffic lights, and so on'
   },
@@ -880,7 +880,7 @@ var pageData = [
     domain: ['Cities', 'Logistics', 'Retail'],
     type: 'Software enabler',
     technology: ['Internet of Things'],
-    year: 2017,
+    year: null,
     content:
       'The FI-ASSIST project is a system developed by the German company Telocate to introduce a high-precision indoor navigation system and location infrastructure for restaurants based on acoustic localization.'
   },
@@ -896,7 +896,7 @@ var pageData = [
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Open Data', 'Data Analytics'],
-    year: 2017,
+    year: null,
     content:
       'TSconTroL is a multi-purpose and multi-interface device for IoT and M2M applications in industrial, agricultural, and smart cities. The device can be installed for irrigation control, monitoring of crops and large plantations, water quality management, and control of industrial machines.'
   },
@@ -912,7 +912,7 @@ var pageData = [
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Open Data', 'Data Analytics'],
-    year: 2017,
+    year: null,
     content:
       'TSmarT is a modular platform used for wireless communications that allow the rapid implementation of M2M applications, monitoring, and remote control.'
   },
@@ -927,7 +927,7 @@ var pageData = [
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Open Data', 'Data Analytics'],
-    year: 2018,
+    year: null,
     content:
       'TSwaste is a low-cost sensing solution for urban waste containers. The device is equipped with an ultrasonic sensor and a bi-directional communication feature to monitor waste levels.'
   },
@@ -947,7 +947,7 @@ var pageData = [
       'Open Data',
       'Cloud Computing'
     ],
-    year: 2017,
+    year: null,
     content:
       "INSYLO is an affordable solution to remotely monitor livestock farms' silos and solve the million dollar question: the right moment and the right quantity to restock each silo in order to optimise logistic costs."
   },
@@ -967,7 +967,7 @@ var pageData = [
       'Data Analytics',
       'Internet of Things'
     ],
-    year: 2020,
+    year: null,
     content:
       'SENSIoT(Smart Environmental Services with IoT) is Urbaser’s IoT solution where a comprehensive set of information is automatically gathered from its assets and processed to maximize its value. The core of the technology is SENSIoT-Platform, which has been designed using Microsoft Azure services'
   },
@@ -989,7 +989,7 @@ var pageData = [
       'Sensory Systems',
       'Software as a Service'
     ],
-    year: 2020,
+    year: null,
     content:
       'Gavilan Control is a tool where you can find the main data and variables regarding your livestock business. You have control over the position and animal welfare. Control the water and food consumption and make decisions that improve the productivity of your exploitation.'
   },
@@ -1010,7 +1010,7 @@ var pageData = [
       'Data Analytics',
       'Open Data'
     ],
-    year: 2019,
+    year: null,
     content:
       'virtualARt allows museum visitors to receive information about pieces of art by augmented reality, as well as collect information about tours and preferences.'
   },
@@ -1026,7 +1026,7 @@ var pageData = [
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Open Data', 'Data Analytics'],
-    year: 2017,
+    year: null,
     content:
       'Quamtra is an intelligent urban waste collection system that, by sensing and constant monitoring the filling level of the containers, optimizes routes and improves the costs associated with the collection.'
   },
@@ -1042,7 +1042,7 @@ var pageData = [
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Open Data', 'Data Analytics'],
-    year: 2017,
+    year: null,
     content:
       'WeLight is a Remote Management System for Public Lighting, which allows the monitoring and control of lighting and the optimisation and management of the maintenance, whilst monitoring consumption and reacting to deviations.'
   },
@@ -1057,7 +1057,7 @@ var pageData = [
     domain: ['Cities'],
     type: 'Software enabler',
     technology: ['Data Analytics', 'Open Data'],
-    year: 2018,
+    year: null,
     content:
       'Xapix is significantly faster, more flexible, and more powerful than traditional approaches to data transformation, normalization, and integration, using the power of automation so that IT professionals can use data from hundreds of sources instead of only a few'
   }

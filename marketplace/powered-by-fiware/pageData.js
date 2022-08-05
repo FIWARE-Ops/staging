@@ -23,7 +23,7 @@ var pageData = [
       'Open Data',
       'Screens and Display'
     ],
-    year: 2019,
+    year: null,
     content:
       '[ui!] UrbanPulse is the most efficient Open Urban Data Platform with open APIs for small and large cities, municipalities, utilities, and other organizations to reuse, repurpose, share and present new and existing urban data sources and create value-added services in real-time for your citizens.'
   },
@@ -51,7 +51,7 @@ var pageData = [
       'Sensory Systems',
       'Software as a Service'
     ],
-    year: 2019,
+    year: null,
     content:
       '[ui!] UrbanPulse is an open central data platform for urban data in real-time - based on a highly scalable architecture for data processing and analysis, with a special connector framework for the integration of sensors, urban management systems and Visualization of complex data with tiles and maps.'
   },
@@ -66,7 +66,7 @@ var pageData = [
     domain: ['Content'],
     type: 'Solution',
     technology: ['Internet of Things', 'Data Analytics', 'Sensory Systems'],
-    year: 2018,
+    year: null,
     content:
       'Thor is the most versatile professional 360° with cloud-based workflow. Multiple AZ’s VR cameras individually record 12 video streams, and collect positioning metadata via in-built GPS sensor.'
   },
@@ -87,9 +87,9 @@ var pageData = [
       'Mobility and Location',
       'Software as a Service'
     ],
-    year: 2016,
+    year: null,
     content:
-      'This cloud-based solution intelligently monitors and automates management of EV chargers and parking spaces on a per space / per user basis improving utilisation. \r\n\r\nEnd-users reserve their space in advance via an easy-to-use app with integrated payments, significantly reducing parking hassle.'
+      'This cloud-based solution intelligently monitors and automates management of EV chargers and parking spaces on a per space / per user basis improving utilisation. \n\nEnd-users reserve their space in advance via an easy-to-use app with integrated payments, significantly reducing parking hassle.'
   },
   {
     company: 'Agricolus',
@@ -108,7 +108,7 @@ var pageData = [
       'Internet of Things',
       'Software as a Service'
     ],
-    year: 2017,
+    year: null,
     content:
       'Agricolus is a cloud platform created to simplify and enhance the work in the field of farmers and professionals. It is composed of the main applications of precision agriculture:  from satellite imagery with vegetation indices to forecast models for irrigation, fertilization, pest and diseases.'
   },
@@ -124,7 +124,7 @@ var pageData = [
     domain: ['Cities'],
     type: 'Solution',
     technology: ['Data Analytics'],
-    year: 2019,
+    year: null,
     content:
       'IDA integrates into one web platform climate modeling, ground-based and remotely sensed measures of weather variables to provide high-level software capabilities for customized climate risk assessment globally, including climate index computation, visualization, and reporting.'
   },
@@ -146,7 +146,7 @@ var pageData = [
       'Internet of Things',
       'Mobility and Location'
     ],
-    year: 2019,
+    year: null,
     content:
       'UDP is the open, secure, and interoperable Atos standard data platform that allows the integration and collection of information from data sources, and the standardization and processing of that information to provide aggregated and intelligent views of raw data to facilitate decision-making.'
   },
@@ -165,7 +165,7 @@ var pageData = [
       'Additive Manufacturing',
       'Data Analytics'
     ],
-    year: 2019,
+    year: null,
     content:
       'MASAI is an efficient data integration software for manufacturing systems allowing to collect data from a variety of IoT Devices in the manufacturing domain (Industry 4.0), that is not entirely covered by existing proprietary solutions.'
   },
@@ -186,7 +186,7 @@ var pageData = [
       'Open Data',
       'Sensory Systems'
     ],
-    year: 2020,
+    year: null,
     content:
       'Bettair® is a Platform as a Service (PaaS) that offers, for the first time high-quality large-scale pollution mapping tools (that use an advanced post-processing algorithm) for big cities.'
   },
@@ -202,7 +202,7 @@ var pageData = [
     domain: ['Cities'],
     type: 'Solution',
     technology: ['Internet of Things'],
-    year: 2017,
+    year: null,
     content:
       'Bookingabus.com offers you different bus offers depending on your needs and budget. Whether you need a bus for a party or a conference, we can offer the right bus category for every occasion.'
   },
@@ -217,7 +217,7 @@ var pageData = [
     domain: ['AgriFood', 'Cities', 'Industry'],
     type: 'Solution',
     technology: ['Internet of Things', 'Data Analytics'],
-    year: 2020,
+    year: null,
     content:
       'Elliot Cloud is an Internet of Everything platform designed to monitor, analyze and manage heterogeneous sources of data (agrofood, smart cities, industry, etc.)'
   },
@@ -233,7 +233,7 @@ var pageData = [
     domain: ['Cities'],
     type: 'Solution',
     technology: ['Internet of Things', 'Data Analytics', 'Sensory Systems'],
-    year: 2019,
+    year: null,
     content:
       'Breeze Technologies enables cities and corporates to create a more liveable environment by providing actionable insights based on environmental sensor data.'
   },
@@ -261,7 +261,7 @@ var pageData = [
       'Internet of Things',
       'Sensory Systems'
     ],
-    year: 2015,
+    year: null,
     content:
       "Breeze Technologies\\' Environmental Intelligence Suite consists of indoor and outdoor air quality sensors, and the Environmental Intelligence Cloud, a SaaS data analytics platform for large air quality datasets. It supports cities, businesses and NGOs to collect and analze air quality in real time."
   },
@@ -276,7 +276,7 @@ var pageData = [
     domain: ['Health'],
     type: 'Solution',
     technology: ['Internet of Things', 'Data Analytics'],
-    year: 2018,
+    year: null,
     content:
       'Cardio Wheel is an Advanced Driver Assistance System (ADAS) that can help you prevent drowsiness and automatically detect the identity of the driver.'
   },
@@ -291,7 +291,7 @@ var pageData = [
     domain: ['Cities'],
     type: 'Solution',
     technology: ['Data Analytics', 'Internet of Things'],
-    year: 2018,
+    year: null,
     content:
       'Urbo is a Smart Cities operational dashboard that analyzes real-time data coming from sensors on parking, waste management, street lighting, water management, environmental data, city alerts, etc.'
   },
@@ -312,7 +312,7 @@ var pageData = [
       'Mobility and Location',
       'Software as a Service'
     ],
-    year: 2017,
+    year: null,
     content:
       'We help companies and cities to promote sustainable mobility practices in companies, universities, and city councils in any urban area of the world.'
   },
@@ -327,7 +327,7 @@ var pageData = [
     domain: ['Cities'],
     type: 'Solution',
     technology: ['Internet of Things', 'Data Analytics', 'Open Data'],
-    year: 2019,
+    year: null,
     content:
       'A mobile sensor on bikes that measures the air quality, routes, and road conditions every 10 seconds, provides open data, and shows advanced insights.'
   },
@@ -343,7 +343,7 @@ var pageData = [
     domain: ['Cities'],
     type: 'Solution',
     technology: ['Internet of Things', 'Data Analytics'],
-    year: 2017,
+    year: null,
     content:
       'Stop-buy is a smart parking solution favoring rapid rotation of vehicles and stimulation of local commerce. It guides users to the nearest parking and optimizes operational efficiencies for parking managers.'
   },
@@ -359,7 +359,7 @@ var pageData = [
     domain: ['Cities', 'Logistics', 'Industry', 'Retail'],
     type: 'Solution',
     technology: ['Internet of Things', 'Data Analytics'],
-    year: 2017,
+    year: null,
     content:
       'Drone delivery as a Service, for a logistic operator to easily start using drones for transport between their own distribution sites or to end consumers.'
   },
@@ -375,7 +375,7 @@ var pageData = [
     domain: ['Cities'],
     type: 'Solution',
     technology: ['Internet of Things', 'Sensory Systems'],
-    year: 2018,
+    year: null,
     content:
       'We make businesses visible for everyone, including blind people, thanks to our accessible beacon solution. Today Outbarriers is a reality with an objective to make this world a better place for all of us. A world where the cities are adapted for their citizens and not vice versa.'
   },
@@ -391,7 +391,7 @@ var pageData = [
     domain: ['Smart Cities'],
     type: 'Platform',
     technology: ['Data Analytics', 'Open Data', 'Cloud Computing'],
-    year: 2022,
+    year: null,
     content:
       'With the DKSR Open Urban Data Platform (OUP), we offer to make digital solutions transferable, scalable, and easily applicable for every municipality.'
   },
@@ -410,7 +410,7 @@ var pageData = [
       'Cloud Computing',
       'Mobility and Location'
     ],
-    year: 2021,
+    year: null,
     content:
       'This camera allows us to count entries and exits in a carpool park and to determine whether the cars parked are indeed intended for carpooling. This device allows our clients to have tangible statistics on the occupation of a car park.'
   },
@@ -425,7 +425,7 @@ var pageData = [
     domain: ['AgriFood', 'Measurement', 'Waste Management'],
     type: 'Solution',
     technology: ['Data Analytics', 'Screens and Display', 'Sensory Systems'],
-    year: 2021,
+    year: null,
     content:
       'This solution includes connected weighing scales under the bins to provide information on the weight of organic and non-organic waste from an individual and overall perspective. This solution allows canteens to raise awareness and help to adapt menus and quantities.'
   },
@@ -440,7 +440,7 @@ var pageData = [
     domain: ['Agriculture', 'Cities', 'Measurement', 'Water', 'Weather'],
     type: 'Solution',
     technology: ['Internet of Things', 'Sensory Systems'],
-    year: 2021,
+    year: null,
     content:
       'EGM offers a complete solution for determining the amount of water that can be saved on a green space and deploying the control solution in addition to an existing watering system to achieve the water savings in question. Our solution saved 35% of the water on the first deployment.'
   },
@@ -461,7 +461,7 @@ var pageData = [
       'Internet of Things',
       'Software as a Service'
     ],
-    year: 2017,
+    year: null,
     content:
       'eVineyard is an intuitive and easy-to-use vineyard management software that helps you grow better quality grapes more sustainably. Manage your vineyards smarter and get more time for vineyard activities rather than paperwork.'
   },
@@ -477,23 +477,22 @@ var pageData = [
     domain: ['Cities'],
     type: 'Platform',
     technology: ['Data Analytics', 'Open Data', 'Cloud Computing'],
-    year: 2018,
+    year: null,
     content:
       'Digital Enabler TM is the Engineering’s ecosystem platform supporting the entire value chain of data, from the discovery to the analysis, harmonization, and visualization.'
   },
   {
-    company: 'Engineering',
+    company: 'Engineering DSS',
     name: 'CuraVesta',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Engineering.svg',
     fiwareMember: true,
     fiwareIhub: false,
-    companyLink:
-      '../product-details/?category=powered&id=engineering-curavesta',
+    companyLink: 'https://smart-solution.eng-its.de/curavesta/',
     domain: ['Cities', 'Health'],
     type: 'Solution',
     technology: ['Internet of Things', 'Data Analytics'],
-    year: 2020,
+    year: null,
     content:
       'CuraVesta© is an assistance system, which was developed by ENGINEERING for home care. As a Health solution, it supports people who care for and nurse their relatives at home.'
   },
@@ -509,7 +508,7 @@ var pageData = [
     domain: ['Cities'],
     type: 'Solution',
     technology: ['Internet of Things', 'Sensory Systems', 'Data Analytics'],
-    year: 2017,
+    year: null,
     content:
       'Everimpact measures and monetizes Cities’ CO2 emissions by combining satellites and ground sensors’ data. Cities get a real-time map of their emissions at street and building level, at a precision never reached before.'
   },
@@ -525,9 +524,9 @@ var pageData = [
     domain: ['AgriFood'],
     type: 'Solution',
     technology: ['Internet of Things', 'Data Analytics'],
-    year: 2017,
+    year: null,
     content:
-      'Farm Dog: Keeping agricultural fields healthy from pest and disease.\r\nWith Farm Dog, growers transition from a completely offline decision-making process to a digital one'
+      'Farm Dog: Keeping agricultural fields healthy from pest and disease.\nWith Farm Dog, growers transition from a completely offline decision-making process to a digital one'
   },
   {
     company: 'Fashion Cloud',
@@ -541,7 +540,7 @@ var pageData = [
     domain: ['Retail'],
     type: 'Solution',
     technology: ['Data Analytics'],
-    year: 2017,
+    year: null,
     content:
       'FASHION CLOUD is the leading content exchange platform in the fashion industry.'
   },
@@ -562,7 +561,7 @@ var pageData = [
       'Internet of Things',
       'Modelling'
     ],
-    year: 2022,
+    year: null,
     content:
       'ouranos-ws is an easy-to-use solution to enable the NGSI-LD superpowers, with the strategic goal to manage your virtualized assets as digital twins. It allows you to DESIGN your specific data models, NAVIGATE through your graphs of entities and CONTROL the interactions with the other systems.'
   },
@@ -583,9 +582,9 @@ var pageData = [
       'Internet of Things',
       'Open Data'
     ],
-    year: 2018,
+    year: null,
     content:
-      'FIWOO is an IoT-Editor platform, which allows users to create any entity without the need for computer knowledge. Everything can be created without a single line of code.\r\n\r\nAny user can create their panels, connect their devices, and generate smart rules through a simple graphic interface.'
+      'FIWOO is an IoT-Editor platform, which allows users to create any entity without the need for computer knowledge. Everything can be created without a single line of code.\n\nAny user can create their panels, connect their devices, and generate smart rules through a simple graphic interface.'
   },
   {
     company: 'Floud',
@@ -598,7 +597,7 @@ var pageData = [
     domain: ['Cities', 'Retail'],
     type: 'Solution',
     technology: ['Internet of Things', 'Data Analytics'],
-    year: 2018,
+    year: null,
     content:
       'FLOUD is an innovative, flexible, and low-cost platform which offers the collection and analysis of things that flow (e.g., bicycles, vehicles, people).'
   },
@@ -613,7 +612,7 @@ var pageData = [
     domain: ['Industry'],
     type: 'Solution',
     technology: ['Internet of Things', 'Data Analytics'],
-    year: 2018,
+    year: null,
     content:
       'Innovative Danish company designing and producing high-tech wireless, online sensor particles for liquid analysis in industrial, biopharmaceutical, and specialty food and beverage companies.'
   },
@@ -628,7 +627,7 @@ var pageData = [
     domain: ['Cities', 'Industry'],
     type: 'Solution',
     technology: ['Internet of Things', 'Data Analytics'],
-    year: 2018,
+    year: null,
     content:
       'Fueloyal developed three unique and proprietary IoT sensors: Smart Fuel Cap, Vehicle sensor, and Asset sensor to improve driving behaviour and safety, reduce fuel consumption and optimize fuel purchases.'
   },
@@ -656,7 +655,7 @@ var pageData = [
       'Digital Twins',
       'Internet of Things'
     ],
-    year: 2017,
+    year: null,
     content:
       "QUHOMA was created to unveil the competitive advantage of farmers and agrifood businesses committed to outstanding quality in end-products and farming practices. At the same time, Future Intelligence\\'s solution paves the way for rationalizing the required farm inputs thus maximizing profit margins."
   },
@@ -671,7 +670,7 @@ var pageData = [
     domain: ['Cities'],
     type: 'Solution',
     technology: ['Data Analytics', 'Open Data'],
-    year: 2017,
+    year: null,
     content:
       'greenApes is the digital platform rewarding sustainable actions and ideas. A free social network for citizens, a powerful tool for smart cities, and a customizable enterprise solution to engage customers and employees.'
   },
@@ -686,7 +685,7 @@ var pageData = [
     domain: ['Home', 'Health'],
     type: 'Solution',
     technology: ['Gamification', 'Internet of Things'],
-    year: 2017,
+    year: null,
     content:
       'GymCraft connects any fitness device to its virtual reality exercise game platform through PC or mobile and lets the user dive into exciting 3D online worlds.'
   },
@@ -702,7 +701,7 @@ var pageData = [
     domain: ['Home', 'Health'],
     type: 'Solution',
     technology: ['Gamification', 'Internet of Things'],
-    year: 2018,
+    year: null,
     content:
       'Senda care is a modular platform, a new service designed with features such as the care of people who need support through their own network of relatives.'
   },
@@ -727,7 +726,7 @@ var pageData = [
     ],
     type: 'Platform',
     technology: ['Internet of Things'],
-    year: 2021,
+    year: null,
     content: 'A microservice platform based on FIWARE'
   },
   {
@@ -748,7 +747,7 @@ var pageData = [
       'Modelling',
       'Open Data'
     ],
-    year: 2019,
+    year: null,
     content:
       'A suite of dashboards with CO2 indicators related to mobility. These indicators are founded on predictive models based on real-time air quality measurements and AI to optimise traffic flows in cities and ports. It provides high-value mobility services for administrations and informed decision-making'
   },
@@ -763,7 +762,7 @@ var pageData = [
     domain: ['Agriculture', 'AgriFood', 'Education', 'Measurement'],
     type: 'Solution',
     technology: ['Artificial Intelligence', 'Big Data', 'Internet of Things'],
-    year: 2019,
+    year: null,
     content:
       'Hostabee has developed a connected module, named « B-Keep », associated with a web app, that allows beekeepers to remotely track the life cycle of their bee colonies.'
   },
@@ -778,7 +777,7 @@ var pageData = [
     domain: ['Cities'],
     type: 'Solution',
     technology: ['Internet of Things', 'Data Analytics'],
-    year: 2017,
+    year: null,
     content:
       'SmartAppCity brings together all the city services and information in one single app.'
   },
@@ -793,7 +792,7 @@ var pageData = [
     domain: ['AgriFood'],
     type: 'Solution',
     technology: ['Internet of Things', 'Logistsics', 'Micro/Nano Electronics'],
-    year: 2018,
+    year: null,
     content:
       'Skyx is an agricultural-robotics technology company enabling a modular swarm of autonomous drones for spraying. It develops proprietary tools and algorithms for optimal homogeneous coverage of complex space, real-time swarm operation, and coverage of “hot-spots”.'
   },
@@ -808,7 +807,7 @@ var pageData = [
     domain: ['Cities', 'Industry', 'Ports'],
     type: 'Solution',
     technology: ['Big Data', 'Data Analytics', 'Machine Learning'],
-    year: 2019,
+    year: null,
     content:
       'IMAS+® is Smart Maintenance Platform for Infrastructure. It uses 4th industrial technologies such as the IoT, Big Data, and Machine Learning to provide smart solutions which enable us to anticipate faults and, on this basis, we can improve efficiency in maintenance, availability and railway safety'
   },
@@ -824,7 +823,7 @@ var pageData = [
     domain: ['Cities'],
     type: 'Solution',
     technology: ['Internet of Things', 'Open Data'],
-    year: 2018,
+    year: null,
     content:
       'A platform for management, communication, and citizen participation, as well as a self-managing mobile platform that brings the public administration closer to the citizen with a simple and effective tool.'
   },
@@ -846,7 +845,7 @@ var pageData = [
       'Data Spaces',
       'Internet of Things'
     ],
-    year: 2017,
+    year: null,
     content:
       'To answer the need for a flexible data-management platform for smart cities, Martel developed Orchestra Cities, an integrated platform based on FIWARE and other cutting edge Open Source solutions that allow to bring in a single place all the vertical data silos of cities'
   },
@@ -857,11 +856,11 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_Mermix.png',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=powered&id=mermix-mermix',
+    companyLink: 'http://www.mermix.gr',
     domain: ['AgriFood'],
     type: 'Solution',
     technology: ['Data Analytics'],
-    year: 2018,
+    year: null,
     content:
       'Mermix is a farm & equipment management system, allowing farmers to find tools and services that other farmers or companies have listed.'
   },
@@ -887,7 +886,7 @@ var pageData = [
       'Sensory Systems',
       'Software as a Service'
     ],
-    year: 2020,
+    year: null,
     content:
       'EcoSAT is a modular vertical platform specialized in environmental municipal services. Its aim is the planning, management, and certification of the activities done by vehicles and people working on different urban services.'
   },
@@ -903,7 +902,7 @@ var pageData = [
     domain: ['Smart Cities'],
     type: 'Platform',
     technology: ['Cloud Computing', 'Internet of Things', 'Open Data'],
-    year: 2019,
+    year: null,
     content:
       'CCOC is a horizontal platform that provides a holistic view of the supplier’s services, thus allowing for a centralized and efficient management point.'
   },
@@ -919,7 +918,7 @@ var pageData = [
     domain: ['Cities', 'Industry', 'Ports'],
     type: 'Solution',
     technology: ['Artificial Intelligence', 'Data Analytics', 'Open Data'],
-    year: 2017,
+    year: null,
     content:
       'CCOC acts as the ‘brain’ of the city, able to “listen” and “comprehend” what is happening all over the city to thus make better decisions and provide the right information to its inhabitants'
   },
@@ -934,7 +933,7 @@ var pageData = [
     domain: ['Smart Industry'],
     type: 'Platform',
     technology: ['Industrial Technology', 'Internet of Things', 'Big Data'],
-    year: 2017,
+    year: null,
     content: 'We provide the FIWARE platform with all Generic Enablers'
   },
   {
@@ -948,7 +947,7 @@ var pageData = [
     domain: ['Cities'],
     type: 'Solution',
     technology: ['Data Analytics', 'Open Data'],
-    year: 2018,
+    year: null,
     content:
       'nixi1 has become the most advanced Travel chatbot (or AITA; Artificial Intelligence Travel Agency) in the world. With nixi1, text or send voice notes to book your flight and hotel room through any Messaging App. In less than 60 seconds.'
   },
@@ -968,9 +967,9 @@ var pageData = [
       'Open Data',
       'Software as a Service'
     ],
-    year: 2014,
+    year: null,
     content:
-      'OpenMove is a software platform for smart mobility that features transport ticketing, on-demand transport in real-time, intermodal journey planning and MaaS (Mobility-as-a-Service) integration.\r\n\r\nThe company is active in EU + USA + Middle East and serves 10M+ yearly passengers / 50M€+ tickets sold.'
+      'OpenMove is a software platform for smart mobility that features transport ticketing, on-demand transport in real-time, intermodal journey planning and MaaS (Mobility-as-a-Service) integration.\n\nThe company is active in EU + USA + Middle East and serves 10M+ yearly passengers / 50M€+ tickets sold.'
   },
   {
     company: 'phoops',
@@ -983,9 +982,9 @@ var pageData = [
     domain: ['Air Quality', 'Automotive', 'Logistics', 'Mobility', 'Transport'],
     type: 'Solution',
     technology: ['Mobility and Location', 'Open Data', 'Software as a Service'],
-    year: 2015,
+    year: null,
     content:
-      'MUV-APP is the platform that turns the complex and huge urban mobility system into a safe, sustainable and user-friendly system.\r\n\r\nMUV-APP enables Mobility as a service for the public administration, to provide innovative tools for the management of the entire urban mobility system.'
+      'MUV-APP is the platform that turns the complex and huge urban mobility system into a safe, sustainable and user-friendly system.\n\nMUV-APP enables Mobility as a service for the public administration, to provide innovative tools for the management of the entire urban mobility system.'
   },
   {
     company: 'Project Ray',
@@ -998,7 +997,7 @@ var pageData = [
     domain: ['Cities', 'Health'],
     type: 'Solution',
     technology: ['Internet of Things', 'Data Analytics'],
-    year: 2017,
+    year: null,
     content:
       'RAY is an all-inclusive, mobile-centered, integrated cloud service that provides digital accessibility smartphones and services for visually impaired people.'
   },
@@ -1013,7 +1012,7 @@ var pageData = [
     domain: ['Smart Cities'],
     type: 'Solution',
     technology: ['Internet of Things', 'Data Analytics'],
-    year: 2022,
+    year: null,
     content:
       'Baret, the smart tourism platform offers you to design successful destination management and promotion strategies that will allow you to manage all the information relevant to your destination from a single place.'
   },
@@ -1041,7 +1040,7 @@ var pageData = [
       'Internet of Things',
       'Software as a Service'
     ],
-    year: 2020,
+    year: null,
     content:
       'SARA is an IoT platform that can integrate almost any  solution, data source or actuator into a powered by FIWARE system that centralizes all the user and device management, enables the use of different analytical intelligence tools and allows the aggregation of the data generated by each solution'
   },
@@ -1056,7 +1055,7 @@ var pageData = [
     domain: ['AgriFood'],
     type: 'Solution',
     technology: ['Artificial Intelligence', 'Data Analytics'],
-    year: 2018,
+    year: null,
     content:
       'Pycno solution is easy to use, offers professional ambient, and has soil sensors. Data visualization, crop analytics, and predictions are aggregated in one platform.'
   },
@@ -1078,7 +1077,7 @@ var pageData = [
       'Internet of Things',
       'Mobility and Location'
     ],
-    year: 2017,
+    year: null,
     content:
       'SAMMY is a sophisticated, modern, and attractive (easy to use), IoT cloud-based platform that supports the digital transformation, transparency, and the process optimization of marinas & tourist ports, by providing data interpretation, visualization, and real-time services.'
   },
@@ -1093,7 +1092,7 @@ var pageData = [
     domain: ['Cities'],
     type: 'Solution',
     technology: ['Internet of Things', 'Data Analytics'],
-    year: 2018,
+    year: null,
     content:
       'Scuter offers a Mobility as a Service (MaaS) solution based on an innovative electric smart ride-on scooter designed just for sharing. Clean, agile, and safe, Scuter reduces vehicle footprints in the city.'
   },
@@ -1108,7 +1107,7 @@ var pageData = [
     domain: ['Health'],
     type: 'Solution',
     technology: ['Data Analytics'],
-    year: 2018,
+    year: null,
     content:
       'Bringing together behavioural science, technology, and great people to tackle the global epidemic of chronic lifestyle diseases once and for all, OurPath is an online program that helps you make the changes you need to get healthy.'
   },
@@ -1136,7 +1135,7 @@ var pageData = [
       'Digital Twins',
       'Internet of Things'
     ],
-    year: 2019,
+    year: null,
     content:
       'Yggio open digitalization platform provides integration of any IoT sensor or IT technology, contextualized and normalized data, unified IoT infrastructure management, data ownership and control, scalability for massive IoT, and a standardized API, making IoT services vendor and technology neutral.'
   },
@@ -1155,7 +1154,7 @@ var pageData = [
       'Data Analytics',
       'Internet of Things'
     ],
-    year: 2018,
+    year: null,
     content:
       'AI powered real-time video recognition solution for retail providing accurate in-store traffic flow analysis, sales performance, and product recognition.'
   },
@@ -1171,7 +1170,7 @@ var pageData = [
     domain: ['Industry'],
     type: 'Solution',
     technology: ['Internet of Things', 'Sensory Systems', 'Data Analytics'],
-    year: 2018,
+    year: null,
     content:
       'Maturix is an end-2-end solution that enables easy and affordable monitoring of concrete curing in real-time – all shown in this user-friendly software solution.'
   },
@@ -1187,7 +1186,7 @@ var pageData = [
     domain: ['AgriFood'],
     type: 'Solution',
     technology: ['Internet of Things', 'Data Analytics'],
-    year: 2018,
+    year: null,
     content:
       "Digitanimal is an integrated service platform that increases livestock farms' profits; improving animal welfare and providing traceability tools for consumers."
   },
@@ -1202,7 +1201,7 @@ var pageData = [
     domain: ['Industry'],
     type: 'Solution',
     technology: ['Internet of Things', 'Additive Manufacturing'],
-    year: 2018,
+    year: null,
     content:
       'VISTRA offers a unique approach to resolving the major barriers preventing virtual operator training and support from reaching its potential in the manufacturing sector.'
   },
@@ -1224,7 +1223,7 @@ var pageData = [
       'Open Data',
       'Software as a Service'
     ],
-    year: 2020,
+    year: null,
     content:
       'The Sirus Smart City store helps cities harmonize all the data gathered by different sensors and platforms in the city. The data is delivered in a non-standard to Citizens, Government, Companies, and Research institutes. This allows cities to collaborate with parties to create innovative solutions'
   },
@@ -1245,7 +1244,7 @@ var pageData = [
       'Digital Twins',
       'Software as a Service'
     ],
-    year: 2021,
+    year: null,
     content:
       'Scalable Smart aNalytic APplication Builder for Sentient Cities, the platform proving flexible a method and solution to quickly create a large range of smart city applications exploiting heterogeneous data and enabling services for stakeholders by IOT/IOE, data analytics and big data technologies.'
   },
@@ -1266,7 +1265,7 @@ var pageData = [
       'Digital Twins',
       'Internet of Things'
     ],
-    year: 2018,
+    year: null,
     content:
       'Scalable Smart aNalytic APplication Builder for Sentient Cities, the platform proving flexible a method and solution for rapid implementation of smart city applications exploiting heterogeneous data and enabling services for stakeholders by IOT/IOE, data analytics and big data technologies.'
   },
@@ -1286,7 +1285,7 @@ var pageData = [
       'Internet of Things',
       'Data Analytics'
     ],
-    year: 2021,
+    year: null,
     content:
       'Capacity Control System is a complete solution to scan and localize any Wi-Fi or Bluetooth device, such as smartphones, laptops, or smartwatches. The main goal of this technology is the capacity control of the public spaces.'
   },
@@ -1302,7 +1301,7 @@ var pageData = [
     domain: ['Cities'],
     type: 'Platform',
     technology: ['Internet of Things', 'Cyber Physical Systems'],
-    year: 2018,
+    year: null,
     content:
       'Smart Service Platform for the safe internet-based integration, orchestration ,and effective marketing of cyber-physical applications (smart devices).'
   },
@@ -1318,7 +1317,7 @@ var pageData = [
     domain: ['Cities'],
     type: 'Solution',
     technology: ['Internet of Things', 'Data Analytics', 'Open Data'],
-    year: 2017,
+    year: null,
     content:
       'Stratio Automotive turns vehicle data into an exact science, making the unpredictable predictable.'
   },
@@ -1333,7 +1332,7 @@ var pageData = [
     domain: ['Cities', 'Retail'],
     type: 'Solution',
     technology: ['Artificial Intelligence', 'Machine Learning'],
-    year: 2018,
+    year: null,
     content:
       'RezGuru uses Artificial Intelligence & Machine Learning to provide data-driven recommendations on pricing and strategy to help maximize revenue and profits.'
   },
@@ -1361,7 +1360,7 @@ var pageData = [
       'Data Analytics',
       'Internet of Things'
     ],
-    year: 2014,
+    year: null,
     content:
       'WiseTown is a digital system for the city fully scalable, modular, designed to allow full integration with the city administration’s existing systems, third party solutions, IoT applications and external data sources. WiseTown is the engine that collects the city’s data and makes it available.'
   },
@@ -1389,7 +1388,7 @@ var pageData = [
       'Interaction Technologies',
       'Service Architectures'
     ],
-    year: 2014,
+    year: null,
     content:
       'WiseTown Crowd Planning is the platform that allows Public Administration to activate communication with citizens regarding planning objectives, with the ultimate goal of generating active involvement. A tool developed for a participatory urban planning.'
   },
@@ -1418,7 +1417,7 @@ var pageData = [
       'Data Analytics',
       'Internet of Things'
     ],
-    year: 2014,
+    year: null,
     content:
       'WiseTown GeoAnalytics is a Decision Support System available to city administrators and public administration professionals. Maps, graphs, infographics and statistics highlight valuable information and provide an extrapolation of complex information useful for more informed urban planning.'
   },
@@ -1440,7 +1439,7 @@ var pageData = [
       'Mobility and Location',
       'Software as a Service'
     ],
-    year: 2014,
+    year: null,
     content:
       'WiseTown Issue Manager is a digital system that enables citizens to support the city government by reporting city issues; at the same time it simplifies the internal workflow of the public administration by automating processes and improving the work of the operators'
   },
@@ -1469,7 +1468,7 @@ var pageData = [
       'Open Data',
       'Service Architectures'
     ],
-    year: 2014,
+    year: null,
     content:
       'WiseTown Open Data Manager searches and aggregates data on customizable criteria to produce Open Data catalogs for the Smart City. WiseTown software makes Public Administration data a common good, anonymous and GDPR compliant.'
   },
@@ -1498,7 +1497,7 @@ var pageData = [
       'Data Analytics',
       'Internet of Things'
     ],
-    year: 2014,
+    year: null,
     content:
       'WiseTown Situation Room is a platform for the management of events and emergencies in an urban context. The tool collects the data produced by the city and displays it through a dashboard that ensures immediate analysis and response.'
   },
@@ -1527,7 +1526,7 @@ var pageData = [
       'Internet of Things',
       'Mobility and Location'
     ],
-    year: 2014,
+    year: null,
     content:
       'WiseTown Thematic Dashboard is an application that allows you to create custom visualizations to compare map information with statistical data and real-time data from satellite systems. The dashboards can manage economic, demographic, social, environmental and many other data.'
   },
@@ -1549,7 +1548,7 @@ var pageData = [
       'Data Handling',
       'Internet of Things'
     ],
-    year: 2016,
+    year: null,
     content:
       'The Thinking Cities platform is an integral solution to support City services. It includes a series of modules that allow the acquisition, processing, storage, and distribution of data, on which several City Services, vertical IoT solutions, and Data Analytics can be implemented easily.'
   },
@@ -1565,9 +1564,9 @@ var pageData = [
     domain: ['Cities'],
     type: 'Platform',
     technology: ['Internet of Things', 'Open Data', 'Data Analytics'],
-    year: 2019,
+    year: null,
     content:
-      'Telenet Tinx is a device and data management platform for smart cities.\r\nIt relies on the Microsoft Azure Services to provide the capability of connecting any IoT Devices at a large scale and managing huge incoming amounts of data with the required guarantee of reliability and availability for cities'
+      'Telenet Tinx is a device and data management platform for smart cities.\nIt relies on the Microsoft Azure Services to provide the capability of connecting any IoT Devices at a large scale and managing huge incoming amounts of data with the required guarantee of reliability and availability for cities'
   },
   {
     company: 'Tera',
@@ -1585,7 +1584,7 @@ var pageData = [
       'Data Analytics',
       'Internet of Things'
     ],
-    year: 2018,
+    year: null,
     content:
       'Beeta an advisory system that combines an “open protocol” gateway with a mobile App helps people to feel better at home, keeping it under control: saving energy bills, increasing security&safety, automate.'
   },
@@ -1600,7 +1599,7 @@ var pageData = [
     domain: ['Logistics'],
     type: 'Solution',
     technology: ['Internet of Things', 'Data Analytics'],
-    year: 2017,
+    year: null,
     content:
       'Trace Labs is the core developer of the OriginTrail Decentralized Knowledge Graph – a set of tools and protocols designed to bring billions of assets to Web3, leveraging blockchain technology.'
   },
@@ -1615,7 +1614,7 @@ var pageData = [
     domain: ['AgriFood'],
     type: 'Solution',
     technology: ['Sensory Systems', 'Data Analytics', 'Internet of Things'],
-    year: 2018,
+    year: null,
     content:
       'We call it the “Fresh Index”, the new real-time shelf-life indicator for food. You will learn how long this shelf-life exactly is – depending on the temperatures at which the product was stored and transported along the entire supply chain.'
   },
@@ -1630,7 +1629,7 @@ var pageData = [
     domain: ['AgriFood', 'Logistics', 'Industry'],
     type: 'Solution',
     technology: [],
-    year: 2018,
+    year: null,
     content:
       "INSYLO is an affordable solution to remotely monitor livestock farms' silos and solve the million-dollar question: the right moment and the right quantity to restock each silo in order to optimize logistic costs."
   },
@@ -1646,7 +1645,7 @@ var pageData = [
     domain: ['Cities'],
     type: 'Platform',
     technology: ['Internet of Things', 'Open Data', 'Data Analytics'],
-    year: 2018,
+    year: null,
     content:
       'Our Urban Platform allows data collection from multiple domains and provides city managers and decision-makers with a holistic view of their cities, presenting cross-domain data in a unified way.'
   },
@@ -1662,7 +1661,7 @@ var pageData = [
     domain: ['Cities'],
     type: 'Solution',
     technology: ['Open Data', 'Data Analytics'],
-    year: 2017,
+    year: null,
     content:
       'Smartlamppost is a modular concept of a lamppost with bleeding edge technology, allowing municipalities to future-proof their smart city and Mobile Network Operators to cost-effectively deploy their 5G solution.'
   },
@@ -1678,7 +1677,7 @@ var pageData = [
     domain: ['Cities'],
     type: 'Solution',
     technology: ['Open Data', 'Data Analytics', 'Internet of Things'],
-    year: 2017,
+    year: null,
     content:
       'The main objective of Waste4Think is to move forward the current waste management practices into a circular economy motto demonstrating the value of integrating and validating 20 eco-innovative solutions that cover all the waste value chain.'
   },
@@ -1693,7 +1692,7 @@ var pageData = [
     domain: ['Cities'],
     type: 'Solution',
     technology: ['Data Analytics', 'Open Data'],
-    year: 2017,
+    year: null,
     content:
       'Viur connects all your databases, cloud services, and files and in seconds you can start exploring your data using drag & drop or writing your own SQL queries. Share your most important metrics with your team or with the whole world.'
   },
@@ -1708,7 +1707,7 @@ var pageData = [
     domain: ['Cities'],
     type: 'Platform',
     technology: ['Internet of Things', 'Open Data', 'Data Analytics'],
-    year: 2019,
+    year: null,
     content:
       'We4City is a technology solutions platform for Smart Cities, based on open standards and artificial intelligence, which provides integrated support for the Internet of Things (IoT), Real-Time Cameras, Geographic Information Systems, Virtual Assistants, Big Data and Open Data, among others.'
   },
@@ -1727,9 +1726,9 @@ var pageData = [
       'Data Analytics',
       'Artificial Intelligence'
     ],
-    year: 2018,
+    year: null,
     content:
-      'WiTraC is a total wireless tracking and metering IoT solution for Industry 4.0 Supply Chain and Smart Cities.\r\nIt provides real-time information on the status and location of critical assets to increase control and improve management of company operations.'
+      'WiTraC is a total wireless tracking and metering IoT solution for Industry 4.0 Supply Chain and Smart Cities.\nIt provides real-time information on the status and location of critical assets to increase control and improve management of company operations.'
   },
   {
     company: 'YerbaBuena VR',
@@ -1742,7 +1741,7 @@ var pageData = [
     domain: ['Cities', 'Home'],
     type: 'Solution',
     technology: ['Internet of Things'],
-    year: 2018,
+    year: null,
     content:
       'YerbaBuena VR delivers a next-generation real-time 360 live streaming distribution platform for Virtual Reality optimized for any available bandwidth.'
   }
