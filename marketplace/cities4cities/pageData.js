@@ -11,7 +11,7 @@ var pageData = [
     domain: ['Cities', 'Government'],
     type: '',
     technology: ['Internet of Things', 'Mobility and Location', 'Open Data'],
-    year: null,
+    year: 2017,
     content: 'Urban Data Platform of the City of Vienna'
   }
 ];
