@@ -1,0 +1,39 @@
+{{#each this}}
+  <div class="grid-item {{createClass type}} {{#each domain}}{{createClass this}} {{/each}} {{#each technology}}{{createClass this}} {{/each}} ">
+    <div class="gridElementLogo">
+      <img src="{{img}}" alt="">
+    </div>
+    <div class="gridElementTextContainer">
+      <p class="solution-name">{{name}}</p>
+      <div class="company-certified">
+        <div class="label-certification">
+          Difficulty:&nbsp;
+            <span class="name hidden">{{difficulty}}</span>
+            <h3>{{rating difficulty}}</h3>
+          </div>
+      <div class="label-certification"> First Broadcast: <span class="year">{{year}}</span></div>
+      </div>
+      
+    </div>
+    <div class="gridElementTechnologyDomain">
+      <div class="chip-technology-domain">
+        <div class="chip-technology">
+        <p class="label-card">Keywords</p>
+        <ul class="chips">{{#each technology}}<li>{{this}}</li>{{/each}}</ul>
+        <span class="chips-gradient"></span>
+      </div>        
+        <div class="chip-domain">
+        <p class="label-card">Audience</p>
+        <ul class="chips">{{#each domain}}<li>{{this}}</li>{{/each}}</ul>
+        <span class="chips-gradient"></span>
+    </div>
+      </div>
+    </div>
+    <div class="gridElementTechnologyDomain">
+      <div class="excerpt">{{{content}}}</div>
+    </div>
+    <div class="foot">
+    <a class="details" href="{{companyLink}}'"><span id="ico-info" class="material-icons-outlined">info</span> See details</a>
+    </div>
+  </div>
+{{/each}}

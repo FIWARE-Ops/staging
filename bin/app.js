@@ -1,4 +1,6 @@
 const fs = require('fs');
+const path = require('path');
+const Handlebars = require('handlebars');
 const PRODUCTS_SUMMARY_FILE = 'products.csv';
 const PRODUCT_DETAILS_FILE = 'product-details.csv';
 const WEBINARS_FILE = 'webinars.csv';
@@ -13,6 +15,58 @@ const PROCESS = process.env.PROCESS || 'products';
 
 const _ = require('underscore');
 let productDetails;
+
+
+function createClass(data) {
+  let result = "";
+  const regex = /([^a-zA-Z0-9À-ÿ])/gi;
+  if (typeof data == "object") {
+    data.forEach((element, i) => {
+      if (i + 1 === data.length) {
+        result += `${element.toLowerCase().replace(regex, "-")}`;
+      } else {
+        result += `${element.toLowerCase().replace(regex, "-")} `;
+      }
+    });
+  } else {
+    result = data.toLowerCase().replace(regex, "-");
+  }
+  return result;
+}
+
+function rating(difficulty) {
+  let result = "";
+  for (let i = 0; i < difficulty; i++) {
+      result += "★ ";
+  }
+  return result;
+}
+
+function writeTemplate(filename, template, input) {
+  readTemplate(template, 
+   function(err,data){
+      if (!err) {
+        const template = Handlebars.compile(data);
+        Handlebars.registerHelper("createClass", createClass);
+        Handlebars.registerHelper("rating", rating);
+        const output = template(input);
+        fs.writeFile(
+          filename,
+          output,
+          function(err) {
+            if (err) return console.log(err);
+          }
+        );
+      } else {
+          console.log(err);
+      }
+  }); 
+}
+
+function readTemplate(template,  callback){
+  const filePath = path.join(__dirname, '..' ,'templates', template);
+  fs.readFile(filePath, {encoding: 'utf-8'}, callback);
+}
 
 function writeFile(filename, data) {
   fs.writeFile(
@@ -135,7 +189,8 @@ if (PROCESS.startsWith('webinars')) {
       return CSVParser.extractWebinars(input);
     })
     .then(webinars => {
-      writeFile('community/webinar-recordings/pageData.js', webinars);
+      //writeFile('community/webinar-recordings/pageData.js', webinars);
+      writeTemplate ('community/webinar-recordings/webinars.html',  'webinar.html', webinars);
     })
     .catch(e => {
       console.log(e);

@@ -24,7 +24,8 @@
     "json-schema-ref-parser": "^9.0.1",
     "showdown": "^2.1.0",
     "underscore": "^1.13.4",
-    "yargs": "^15.3.1"
+    "yargs": "^15.3.1",
+    "handlebars": "^4.7.7"
   },
   "devDependencies": {
     "eslint": "^5.3.0",
