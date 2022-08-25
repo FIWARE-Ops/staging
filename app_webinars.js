@@ -161,16 +161,7 @@ defer(function () {
       });
     }
   };
-
-  // Returns a list of <li> for companies' technologies or domains
-  var createList = (elements) => {
-    var list = "";
-    elements.forEach((element) => {
-      list += `<li>${element}</li>`;
-    });
-    return list;
-  };
-
+  
   // Returns the right classNames for isotope card filtering system
   var createClassFilter = (data) => {
     var filterString = "";
@@ -190,96 +181,8 @@ defer(function () {
     return filterString;
   };
 
-
-
   // POPULATE THE INITIAL SELECT
   initDropdowns();
-
-  // print technology
-
-  function printTecnology(data) {
-    if (data.length != 0) {
-      return `<div class="chip-technology">
-        <p class="label-card">Keywords</p>
-        <ul class="chips">${createList(data)}</ul>
-        <span class="chips-gradient"></span>
-      </div>`;
-    } else {
-      return "";
-    }
-  }
-
-  // print domain
-
-  function printDomain(data) {
-    if (data.length != 0) {
-      return `<div class="chip-domain">
-        <p class="label-card">Audience</p>
-        <ul class="chips">${createList(data)}</ul>
-        <span class="chips-gradient"></span>
-    </div>`;
-    } else {
-      return "";
-    }
-  }
-
-  // Card creation
-  var appContainer = document.querySelector("#app");
-  var appContainerTmpl = "";
-
-
-
-  
-
-  pageData.forEach((gridElementData, i) => {
-
-    var difficulty =" ";
-    for (let i = 0; i < gridElementData.difficulty; i++) {
-      difficulty += " ★";
-    }
-
-    var gridElement = `<div class="grid-item ${createClassFilter(gridElementData.domain)} ${createClassFilter(
-      gridElementData.technology
-    )}  ${createClassFilter(
-      gridElementData.type
-    )}">
-    <div class="gridElementLogo">
-      <img src="${gridElementData.img}" alt="" />
-    </div>
-    <div class="gridElementTextContainer">
-      <p class="solution-name">${gridElementData.name}</p>
-      <div class="company-certified">
-        <div class="label-certification">
-          Difficulty:&nbsp;
-            <span class="name hidden">${gridElementData.difficulty}</span>
-            <h3>${difficulty}</h3>
-          </div>
-      <div class="label-certification"> First Broadcast: <span class="year">${
-        gridElementData.year
-      }</span></div>
-      </div>
-      
-    </div>
-    <div class="gridElementTechnologyDomain">
-      <div class="chip-technology-domain">
-        ${printTecnology(gridElementData.technology)}        
-        ${printDomain(gridElementData.domain)}
-      </div>
-    </div>
-    <div class="gridElementTechnologyDomain">
-      <div class="excerpt">${gridElementData.content}</div>
-    </div>
-    <div class="foot">
-    <a class="details" href="${
-      gridElementData.companyLink
-    }"><span id="ico-info" class="material-icons-outlined">info</span> See details</a>
-    </div>
-  </div>`;
-
-    appContainerTmpl += gridElement;
-    //appContainer.insertAdjacentHTML("beforeend", gridElement);
-  });
-  appContainer.innerHTML = appContainerTmpl;
 
   // Isotope istantiation
   var msnry;
