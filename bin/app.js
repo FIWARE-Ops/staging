@@ -16,62 +16,68 @@ const PROCESS = process.env.PROCESS || 'products';
 const _ = require('underscore');
 let productDetails;
 
-
 function createClass(data) {
-  let result = "";
+  let result = '';
   const regex = /([^a-zA-Z0-9À-ÿ])/gi;
-  if (typeof data == "object") {
+  if (typeof data == 'object') {
     data.forEach((element, i) => {
       if (i + 1 === data.length) {
-        result += `${element.toLowerCase().replace(regex, "-")}`;
+        result += `${element.toLowerCase().replace(regex, '-')}`;
       } else {
-        result += `${element.toLowerCase().replace(regex, "-")} `;
+        result += `${element.toLowerCase().replace(regex, '-')} `;
       }
     });
   } else {
-    result = data.toLowerCase().replace(regex, "-");
+    result = data.toLowerCase().replace(regex, '-');
   }
   return result;
 }
 
 function rating(difficulty) {
-  let result = "";
+  let result = '';
   for (let i = 0; i < difficulty; i++) {
-      result += "★ ";
+    result += '★ ';
   }
   return result;
 }
 
 function writeTemplate(filename, template, input) {
-  readTemplate(template, 
-   function(err,data){
-      if (!err) {
-        const template = Handlebars.compile(data);
-        Handlebars.registerHelper("createClass", createClass);
-        Handlebars.registerHelper("rating", rating);
-        const output = template(input);
-        fs.writeFile(
-          filename,
-          output,
-          function(err) {
-            if (err) return console.log(err);
-          }
-        );
-      } else {
-          console.log(err);
-      }
-  }); 
+  readTemplate(template, function(err, data) {
+    if (!err) {
+      const template = Handlebars.compile(data);
+      Handlebars.registerHelper('createClass', createClass);
+      Handlebars.registerHelper('rating', rating);
+      const output = template(input);
+      fs.writeFile(filename, output, function(err) {
+        if (err) return console.log(err);
+      });
+    } else {
+      console.log(err);
+    }
+  });
 }
 
-function readTemplate(template,  callback){
-  const filePath = path.join(__dirname, '..' ,'templates', template);
-  fs.readFile(filePath, {encoding: 'utf-8'}, callback);
+function readTemplate(template, callback) {
+  const filePath = path.join(__dirname, '..', 'templates', template);
+  fs.readFile(filePath, { encoding: 'utf-8' }, callback);
 }
 
 function writeFile(filename, data) {
   fs.writeFile(
     filename,
     'var pageData = ' + JSON.stringify(data, null, 2) + ';',
+    function(err) {
+      if (err) return console.log(err);
+    }
+  );
+}
+
+function writeFilters(filename, types, domains, technologies) {
+  fs.writeFile(
+    filename,
+    `var types = ${JSON.stringify(types, null, 2)};
+var domains = ${JSON.stringify(domains, null, 2)};
+var technologies = ${JSON.stringify(technologies, null, 2)};`,
     function(err) {
       if (err) return console.log(err);
     }
@@ -189,8 +195,48 @@ if (PROCESS.startsWith('webinars')) {
       return CSVParser.extractWebinars(input);
     })
     .then(webinars => {
-      //writeFile('community/webinar-recordings/pageData.js', webinars);
-      writeTemplate ('community/webinar-recordings/webinars.html',  'webinar.html', webinars);
+      const caseInsensitive = function(i) {
+        return i.toLowerCase();
+      };
+      const types = _.sortBy(
+        _.uniq(
+          _.map(webinars, function(webinar) {
+            return webinar.type;
+          })
+        ),
+        caseInsensitive
+      );
+      const domains = _.sortBy(
+        _.uniq(
+          _.flatten(
+            _.map(webinars, function(webinar) {
+              return webinar.domain;
+            })
+          )
+        ),
+        caseInsensitive
+      );
+      const technologies = _.sortBy(
+        _.uniq(
+          _.flatten(
+            _.map(webinars, function(webinar) {
+              return webinar.technology;
+            })
+          )
+        ),
+        caseInsensitive
+      );
+      writeFilters(
+        'community/webinar-recordings/pageData.js',
+        types,
+        domains,
+        technologies
+      );
+      writeTemplate(
+        'community/webinar-recordings/webinars.html',
+        'webinar.html',
+        webinars
+      );
     })
     .catch(e => {
       console.log(e);
