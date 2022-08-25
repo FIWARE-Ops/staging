@@ -1,7 +1,7 @@
 {{#each this}}
   <div class="grid-item {{createClass type}} {{#each domain}}{{createClass this}} {{/each}} {{#each technology}}{{createClass this}} {{/each}} ">
     <div class="gridElementLogo">
-      <img src="{{img}}" alt="">
+      <img src="{{img}}" alt="" loading="lazy">
     </div>
     <div class="gridElementTextContainer">
       <p class="solution-name">{{name}}</p>
