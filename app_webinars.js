@@ -10,56 +10,13 @@ function defer(method) {
 
 defer(function () {
   var selectors = { fType: true, fDomain: true, fTech: true};
-  // console.warn(`Log time: ${Date.now()}`);
-  // Returns a unique list of element based on a json property(eg. select of companies, or select of technologies)
-  var createUniqueList = (jsonProperty) => {
-    var emptyList = [];
-    var companies = pageData.map((el) => {
-      var propertyVal = el[jsonProperty];
-      if (Array.isArray(propertyVal)) {
-        propertyVal.map((el2) => {
-          emptyList.push(el2);
-        });
-        return emptyList;
-      } else {
-        return propertyVal;
-      }
-    });
-    companies = emptyList.length > 0 ? emptyList : companies;
-    var setOfValue = new Set(companies);
-    companies = [...setOfValue].sort();
-    return companies;
-  };
-
-  var createUniqueFilteredList = (jsonProperty, filteredPageData) => {
-    var emptyList = [];
-    var companies = filteredPageData.map((el) => {
-      var propertyVal = el[jsonProperty];
-      if (Array.isArray(propertyVal)) {
-        propertyVal.map((el2) => {
-          emptyList.push(el2);
-        });
-        return emptyList;
-      } else {
-        return propertyVal;
-      }
-    });
-    companies = emptyList.length > 0 ? emptyList : companies;
-    var setOfValue = new Set(companies);
-    companies = [...setOfValue].sort(function (a, b) {
-      var regex = /([^a-zA-Z0-9À-ÿ])/gi;
-      return a.replace(regex, "").toLowerCase().localeCompare(b.replace(regex, "").toLowerCase());
-    });
-    return companies;
-  };
-
 
   var initDropdowns = () => {
     var filteredPageData = window.pageData;
    
     // update Technology Select
     var technologiesTmpl = "<option value='*'>All Keywords</option>";
-    companiesTechnology = createUniqueFilteredList("technology", filteredPageData).forEach((el) => {
+    technologies.forEach((el) => {
       var techClass = createClassFilter(el);
       var selectEl = `<option value="${techClass}">${el}</option>`;
       technologiesTmpl += selectEl;
@@ -68,7 +25,7 @@ defer(function () {
 
     // update Type select
     var typesSelectTmpl = "<option value='*'>All Chapters</option>";
-    createUniqueFilteredList("type", filteredPageData).forEach((el) => {
+    types.forEach((el) => {
       var typeClass = createClassFilter(el);
       var selectEl = `<option value="${typeClass}">${el}</option>`;
       typesSelectTmpl += selectEl;
@@ -77,7 +34,7 @@ defer(function () {
 
     // update Domain select
     var domainsSelectTmpl = "<option value='*'>All Audiences</option>";
-    createUniqueFilteredList("domain", filteredPageData).forEach((el) => {
+    domains.forEach((el) => {
       var domainClass = createClassFilter(el);
       var selectEl = `<option value="${domainClass}">${el}</option>`;
       domainsSelectTmpl += selectEl;
@@ -110,9 +67,9 @@ defer(function () {
     // update Type select
     if (filter.fType) {
       var typesArr = ["*"];
-      createUniqueFilteredList("type", filteredPageData).forEach((el) => {
+      types.forEach((el) => {
         var typeClass = createClassFilter(el);
-        if (jQuery("." + typeClass + domainCSSFilter + techCSSFilter + itemCSSFilter).size()) {
+        if (typeClass !== '' && jQuery("." + typeClass + domainCSSFilter + techCSSFilter + itemCSSFilter).size()) {
           typesArr.push(typeClass);
         }
       });
@@ -128,9 +85,9 @@ defer(function () {
     // update Domain select
     if (filter.fDomain) {
       var companyDomainArr = ["*"];
-      createUniqueFilteredList("domain", filteredPageData).forEach((el) => {
+      domains.forEach((el) => {
         var domainClass = createClassFilter(el);
-        if (jQuery("." + domainClass + typeCSSFilter + techCSSFilter + itemCSSFilter).size()) {
+        if (domainClass !== '' && jQuery("." + domainClass + typeCSSFilter + techCSSFilter + itemCSSFilter).size()) {
           companyDomainArr.push(domainClass);
         }
       });
@@ -146,9 +103,9 @@ defer(function () {
     // update Technology Select
     if (filter.fTech) {
       var companiesTechnologyArr = ["*"];
-      createUniqueFilteredList("technology", filteredPageData).forEach((el) => {
+      technologies.forEach((el) => {
         var techClass = createClassFilter(el);
-        if (jQuery("." + techClass + typeCSSFilter + domainCSSFilter + itemCSSFilter).size()) {
+        if (techClass !== '' && jQuery("." + techClass + typeCSSFilter + domainCSSFilter + itemCSSFilter).size()) {
           companiesTechnologyArr.push(techClass);
         }
       });
