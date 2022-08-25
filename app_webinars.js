@@ -37,11 +37,10 @@ function includeHTML() {
 }
 
 function initDropdowns () {
-  var filteredPageData = window.pageData;
  
   // update Technology Select
   var technologiesTmpl = "<option value='*'>All Keywords</option>";
-  technologies.forEach((el) => {
+  window.technologies.forEach((el) => {
     var techClass = createClassFilter(el);
     var selectEl = `<option value="${techClass}">${el}</option>`;
     technologiesTmpl += selectEl;
@@ -50,7 +49,7 @@ function initDropdowns () {
 
   // update Type select
   var typesSelectTmpl = "<option value='*'>All Chapters</option>";
-  types.forEach((el) => {
+  window.types.forEach((el) => {
     var typeClass = createClassFilter(el);
     var selectEl = `<option value="${typeClass}">${el}</option>`;
     typesSelectTmpl += selectEl;
@@ -59,7 +58,7 @@ function initDropdowns () {
 
   // update Domain select
   var domainsSelectTmpl = "<option value='*'>All Audiences</option>";
-  domains.forEach((el) => {
+  window.domains.forEach((el) => {
     var domainClass = createClassFilter(el);
     var selectEl = `<option value="${domainClass}">${el}</option>`;
     domainsSelectTmpl += selectEl;
@@ -68,9 +67,7 @@ function initDropdowns () {
 }
 
 function dropdownFilters (filter)  {
-  var filteredPageData = window.pageData;
   var itemCSSFilter = ".grid-item:visible";
-
   var typeCSSFilter = "";
   var currentType = jQuery("#filterType").val();
   if (currentType !== "*") {
@@ -163,8 +160,28 @@ function createClassFilter(data) {
   return filterString;
 }
 
+function inputSearch (itemElem, textString) {
+  var stopwords = /\b(FIWARE|IoT|Smart|Solution|Product|Device)\b/gi;
+  var words = textString.trim().replaceAll(stopwords, "").split(/[ ,]+/);
+  var regex = [];
+  words.forEach(function (currentValue, index) {
+    if (currentValue.trim() != "") {
+      regex.push("(" + currentValue.trim() + ")");
+    }
+  });
+  var qsRegex = new RegExp(regex.join("|"), "gi");
+  return itemElem.innerText.match(qsRegex);
+}
+
+function concatValues(obj) {
+  var value = "";
+  for (var prop in obj) {
+    value += obj[prop];
+  }
+  return value;
+}
+
 defer(function () {
-  var selectors = { fType: true, fDomain: true, fTech: true};
 
   // POPULATE THE LISTING
   includeHTML();
@@ -173,7 +190,10 @@ defer(function () {
 
   // Isotope istantiation
   var msnry;
-  // Relies on imagesloaded
+  var selectors = { fType: true, fDomain: true, fTech: true};
+  var filterObj = {};
+
+  // Relies on unpkg.com/imagesloaded
   imagesLoaded(document.querySelector("#app"), function (instance) {
     msnry = new Isotope(".grid", {
       itemSelector: ".grid-item",
@@ -193,36 +213,11 @@ defer(function () {
 
     msnry.on("arrangeComplete", (filteredItems) => {
       if (document.activeElement !== document.getElementById("searchInput")) {
-        // $('html, body').animate({ 'scrollTop': $('#searchInput').offset().top + 70}, 200);
         $("html, body").scrollTop($("#searchInput").offset().top + 70);
       }
       dropdownFilters(selectors);
-      //console.warn(filteredItems);
     });
   });
-
-  // Main wrapper of filter functions
-  var filterFunctions = {
-    hasClass: (itemElem, selectorStringClass) => {
-      if (selectorStringClass == "") {
-        return true;
-      } else {
-        return itemElem.classList.contains(selectorStringClass);
-      }
-    },
-    inputSearch: (itemElem, textString) => {
-      var stopwords = /\b(FIWARE|IoT|Smart|Solution|Product|Device)\b/gi;
-      var words = textString.trim().replaceAll(stopwords, "").split(/[ ,]+/);
-      var regex = [];
-      words.forEach(function (currentValue, index) {
-        if (currentValue.trim() != "") {
-          regex.push("(" + currentValue.trim() + ")");
-        }
-      });
-      var qsRegex = new RegExp(regex.join("|"), "gi");
-      return itemElem.innerText.match(qsRegex);
-    },
-  };
 
   // Search input
   document.querySelector("#searchInput").addEventListener("keyup", (e) => {
@@ -233,7 +228,7 @@ defer(function () {
     }
     msnry.arrange({
       filter: function (itemElem, itemElem2) {
-        return filterFunctions.inputSearch(itemElem2, e.target.value);
+        return inputSearch(itemElem2, e.target.value);
       },
     });
   });
@@ -270,22 +265,6 @@ defer(function () {
     }
   });
 
-  var filterObj = {};
-
-  var updateFilterObj = (targetIdKey, targetValue) => {
-    var filterSafeValue;
-    filterSafeValue = targetValue == "*" ? "" : "." + targetValue;
-    filterObj[targetIdKey] = `${filterSafeValue}`;
-    var filterValue = concatValues(filterObj);
-    filterSetter(filterValue);
-  };
-
-  var filterSetter = (filterValue) => {
-    msnry.arrange({
-      filter: filterValue,
-    });
-  };
-
   document.querySelector(".filters-container").addEventListener("change", (e) => {
     if (e.target.id === "searchInput") {
       return;
@@ -304,16 +283,12 @@ defer(function () {
         fTech: true
       };
     }
-    updateFilterObj(e.target.id, e.target.value);
-  });
 
-  function concatValues(obj) {
-    var value = "";
-    for (var prop in obj) {
-      value += obj[prop];
-    }
-    return value;
-  }
+    filterObj[e.target.id] = `${e.target.value == "*" ? "" : "." + e.target.value}`;
+    msnry.arrange({
+      filter: concatValues(filterObj),
+    });
+  });
 
   // toggle filter menu only on mobile
   if (window.innerWidth <= 980) {
