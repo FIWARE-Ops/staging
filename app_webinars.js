@@ -8,141 +8,172 @@ function defer(method) {
   }
 }
 
+function includeHTML() {
+  var z, i, elmnt, file, xhttp;
+  /*loop through a collection of all HTML elements:*/
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain atrribute:*/
+    file = elmnt.getAttribute("w3-include-html");
+    if (file) {
+      /*make an HTTP request using the attribute value as the file name:*/
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          /*remove the attribute, and call this function once more:*/
+          elmnt.removeAttribute("w3-include-html");
+          includeHTML();
+        }
+      }      
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      /*exit the function:*/
+      return;
+    }
+  }
+}
+
+function initDropdowns () {
+  var filteredPageData = window.pageData;
+ 
+  // update Technology Select
+  var technologiesTmpl = "<option value='*'>All Keywords</option>";
+  technologies.forEach((el) => {
+    var techClass = createClassFilter(el);
+    var selectEl = `<option value="${techClass}">${el}</option>`;
+    technologiesTmpl += selectEl;
+  });
+  document.querySelector("#filterTechnology").innerHTML = technologiesTmpl;
+
+  // update Type select
+  var typesSelectTmpl = "<option value='*'>All Chapters</option>";
+  types.forEach((el) => {
+    var typeClass = createClassFilter(el);
+    var selectEl = `<option value="${typeClass}">${el}</option>`;
+    typesSelectTmpl += selectEl;
+  });
+  document.querySelector("#filterType").innerHTML = typesSelectTmpl;
+
+  // update Domain select
+  var domainsSelectTmpl = "<option value='*'>All Audiences</option>";
+  domains.forEach((el) => {
+    var domainClass = createClassFilter(el);
+    var selectEl = `<option value="${domainClass}">${el}</option>`;
+    domainsSelectTmpl += selectEl;
+  });
+  document.querySelector("#filterDomain").innerHTML = domainsSelectTmpl;
+}
+
+function dropdownFilters (filter)  {
+  var filteredPageData = window.pageData;
+  var itemCSSFilter = ".grid-item:visible";
+
+  var typeCSSFilter = "";
+  var currentType = jQuery("#filterType").val();
+  if (currentType !== "*") {
+    typeCSSFilter = "." + currentType;
+  }
+
+  var domainCSSFilter = "";
+  var currentDomain = jQuery("#filterDomain").val();
+  if (currentDomain !== "*") {
+    domainCSSFilter = "." + currentDomain;
+  }
+
+  var techCSSFilter = "";
+  var currentTech = jQuery("#filterTechnology").val();
+  if (currentTech !== "*") {
+    techCSSFilter = "." + currentTech;
+  }
+
+  // update Type select
+  if (filter.fType) {
+    var typesArr = ["*"];
+    types.forEach((el) => {
+      var typeClass = createClassFilter(el);
+      if (typeClass !== '' && jQuery("." + typeClass + domainCSSFilter + techCSSFilter + itemCSSFilter).size()) {
+        typesArr.push(typeClass);
+      }
+    });
+    $("#filterType option").each(function () {
+      if (typesArr.includes($(this).val())) {
+        $(this).show();
+      } else {
+        $(this).hide();
+      }
+    });
+  }
+
+  // update Domain select
+  if (filter.fDomain) {
+    var companyDomainArr = ["*"];
+    domains.forEach((el) => {
+      var domainClass = createClassFilter(el);
+      if (domainClass !== '' && jQuery("." + domainClass + typeCSSFilter + techCSSFilter + itemCSSFilter).size()) {
+        companyDomainArr.push(domainClass);
+      }
+    });
+    $("#filterDomain option").each(function () {
+      if (companyDomainArr.includes($(this).val())) {
+        $(this).show();
+      } else {
+        $(this).hide();
+      }
+    });
+  }
+
+  // update Technology Select
+  if (filter.fTech) {
+    var companiesTechnologyArr = ["*"];
+    technologies.forEach((el) => {
+      var techClass = createClassFilter(el);
+      if (techClass !== '' && jQuery("." + techClass + typeCSSFilter + domainCSSFilter + itemCSSFilter).size()) {
+        companiesTechnologyArr.push(techClass);
+      }
+    });
+    $("#filterTechnology option").each(function () {
+      if (companiesTechnologyArr.includes($(this).val())) {
+        $(this).show();
+      } else {
+        $(this).hide();
+      }
+    });
+  }
+}
+  
+// Returns the right classNames for isotope card filtering system
+function createClassFilter(data) {
+  var filterString = "";
+  var regex = /([^a-zA-Z0-9À-ÿ])/gi;
+  if (typeof data == "object") {
+    data.forEach((element, i) => {
+      if (i + 1 === data.length) {
+        filterString += `${element.toLowerCase().replace(regex, "-")}`;
+      } else {
+        filterString += `${element.toLowerCase().replace(regex, "-")} `;
+      }
+    });
+  } else {
+    filterString = data.toLowerCase().replace(regex, "-");
+  }
+
+  return filterString;
+}
+
 defer(function () {
   var selectors = { fType: true, fDomain: true, fTech: true};
 
-  var initDropdowns = () => {
-    var filteredPageData = window.pageData;
-   
-    // update Technology Select
-    var technologiesTmpl = "<option value='*'>All Keywords</option>";
-    technologies.forEach((el) => {
-      var techClass = createClassFilter(el);
-      var selectEl = `<option value="${techClass}">${el}</option>`;
-      technologiesTmpl += selectEl;
-    });
-    document.querySelector("#filterTechnology").innerHTML = technologiesTmpl;
-
-    // update Type select
-    var typesSelectTmpl = "<option value='*'>All Chapters</option>";
-    types.forEach((el) => {
-      var typeClass = createClassFilter(el);
-      var selectEl = `<option value="${typeClass}">${el}</option>`;
-      typesSelectTmpl += selectEl;
-    });
-    document.querySelector("#filterType").innerHTML = typesSelectTmpl;
-
-    // update Domain select
-    var domainsSelectTmpl = "<option value='*'>All Audiences</option>";
-    domains.forEach((el) => {
-      var domainClass = createClassFilter(el);
-      var selectEl = `<option value="${domainClass}">${el}</option>`;
-      domainsSelectTmpl += selectEl;
-    });
-    document.querySelector("#filterDomain").innerHTML = domainsSelectTmpl;
-  };
-
-  var dropdownFilters = (filter) => {
-    var filteredPageData = window.pageData;
-    var itemCSSFilter = ".grid-item:visible";
-
-    var typeCSSFilter = "";
-    var currentType = jQuery("#filterType").val();
-    if (currentType !== "*") {
-      typeCSSFilter = "." + currentType;
-    }
-
-    var domainCSSFilter = "";
-    var currentDomain = jQuery("#filterDomain").val();
-    if (currentDomain !== "*") {
-      domainCSSFilter = "." + currentDomain;
-    }
-
-    var techCSSFilter = "";
-    var currentTech = jQuery("#filterTechnology").val();
-    if (currentTech !== "*") {
-      techCSSFilter = "." + currentTech;
-    }
-
-    // update Type select
-    if (filter.fType) {
-      var typesArr = ["*"];
-      types.forEach((el) => {
-        var typeClass = createClassFilter(el);
-        if (typeClass !== '' && jQuery("." + typeClass + domainCSSFilter + techCSSFilter + itemCSSFilter).size()) {
-          typesArr.push(typeClass);
-        }
-      });
-      $("#filterType option").each(function () {
-        if (typesArr.includes($(this).val())) {
-          $(this).show();
-        } else {
-          $(this).hide();
-        }
-      });
-    }
-
-    // update Domain select
-    if (filter.fDomain) {
-      var companyDomainArr = ["*"];
-      domains.forEach((el) => {
-        var domainClass = createClassFilter(el);
-        if (domainClass !== '' && jQuery("." + domainClass + typeCSSFilter + techCSSFilter + itemCSSFilter).size()) {
-          companyDomainArr.push(domainClass);
-        }
-      });
-      $("#filterDomain option").each(function () {
-        if (companyDomainArr.includes($(this).val())) {
-          $(this).show();
-        } else {
-          $(this).hide();
-        }
-      });
-    }
-
-    // update Technology Select
-    if (filter.fTech) {
-      var companiesTechnologyArr = ["*"];
-      technologies.forEach((el) => {
-        var techClass = createClassFilter(el);
-        if (techClass !== '' && jQuery("." + techClass + typeCSSFilter + domainCSSFilter + itemCSSFilter).size()) {
-          companiesTechnologyArr.push(techClass);
-        }
-      });
-      $("#filterTechnology option").each(function () {
-        if (companiesTechnologyArr.includes($(this).val())) {
-          $(this).show();
-        } else {
-          $(this).hide();
-        }
-      });
-    }
-  };
-  
-  // Returns the right classNames for isotope card filtering system
-  var createClassFilter = (data) => {
-    var filterString = "";
-    var regex = /([^a-zA-Z0-9À-ÿ])/gi;
-    if (typeof data == "object") {
-      data.forEach((element, i) => {
-        if (i + 1 === data.length) {
-          filterString += `${element.toLowerCase().replace(regex, "-")}`;
-        } else {
-          filterString += `${element.toLowerCase().replace(regex, "-")} `;
-        }
-      });
-    } else {
-      filterString = data.toLowerCase().replace(regex, "-");
-    }
-
-    return filterString;
-  };
-
+  // POPULATE THE LISTING
+  includeHTML();
   // POPULATE THE INITIAL SELECT
   initDropdowns();
 
   // Isotope istantiation
   var msnry;
+  // Relies on imagesloaded
   imagesLoaded(document.querySelector("#app"), function (instance) {
     msnry = new Isotope(".grid", {
       itemSelector: ".grid-item",
