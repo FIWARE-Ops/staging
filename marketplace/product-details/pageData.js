@@ -4724,9 +4724,9 @@ var pageData = {
       ],
       materials: [],
       logo:
-        'https://fundingbox-files.s3-eu-central-1.amazonaws.com/ilariprofirator/bMNtgdvtRZ/logo.jpg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Profirator.svg',
       featuredImage:
-        'https://lakes.profi.space/static/img/screenshots/introduction-demo-image.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_profirator_lakes.png',
       furtherImages: ''
     }
   },
@@ -11120,9 +11120,10 @@ var pageData = {
         ]
       ],
       materials: [],
-      logo: '',
+      logo:
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Montem.svg',
       featuredImage:
-        'https://www.fiware.org/wp-content/uploads/8b35046719b665bb84cd46251312a211.jpeg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_montem_cityprobe.png',
       furtherImages: ''
     }
   }
