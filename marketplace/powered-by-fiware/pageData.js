@@ -1730,5 +1730,19 @@ var pageData = [
     year: 2018,
     content:
       'YerbaBuena VR delivers a next-generation real-time 360 live streaming distribution platform for Virtual Reality optimized for any available bandwidth.'
+  },
+  {
+    company: 'Profirator',
+    name: 'lakes.profi.space',
+    img:
+      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/ilariprofirator/bMNtgdvtRZ/logo.jpg',
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: 'https://lakes.profi.space',
+    domain: ['Cities'],
+    type: 'Platform',
+    technology: ['Internet of Things'],
+    year: 2022,
+    content: ''
   }
 ];
