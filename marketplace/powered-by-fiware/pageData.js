@@ -1735,23 +1735,15 @@ var pageData = [
     company: 'Profirator',
     name: 'lakes.profi.space',
     img:
-      'https://fundingbox-files.s3-eu-central-1.amazonaws.com/ilariprofirator/bMNtgdvtRZ/logo.jpg',
-<<<<<<< HEAD
-    fiwareMember: false,
-=======
+      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Profirator.svg',
     fiwareMember: true,
->>>>>>> 893777f8edcaa4f5e4a9c7bedfbb4a7e7ecab2cc
     fiwareIhub: false,
     companyLink: 'https://lakes.profi.space',
     domain: ['Cities'],
     type: 'Platform',
     technology: ['Internet of Things'],
     year: 2022,
-<<<<<<< HEAD
-    content: ''
-=======
     content:
       'Lakes is the Smart City IoT platform you can get started in minutes. Try before you buy with 0€ and no credit card information. Profirator offers a hosted version of their Smart City IoT platform for you to try. Free community support is included!'
->>>>>>> 893777f8edcaa4f5e4a9c7bedfbb4a7e7ecab2cc
   }
 ];

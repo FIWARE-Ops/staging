@@ -1063,7 +1063,8 @@ var pageData = [
   {
     company: 'MONTEM A/S',
     name: 'CityProbe 2',
-    img: '',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Montem.svg',
     fiwareMember: false,
     fiwareIhub: false,
     companyLink: 'https://www.cityflow.live/cityprobe.html',
