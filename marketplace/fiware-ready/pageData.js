@@ -102,7 +102,7 @@ var pageData = [
     technology: ['Internet of Things', 'Cloud Computing'],
     year: 2018,
     content:
-      'Intelligent Remote Control for Street Lighting\nLANE device gives you access to remote control and monitoring of any new or existing streetlight network from one point of light to whole streets.'
+      'Intelligent Remote Control for Street Lighting\r\nLANE device gives you access to remote control and monitoring of any new or existing streetlight network from one point of light to whole streets.'
   },
   {
     company: 'Datakorum Solutions',
@@ -198,7 +198,7 @@ var pageData = [
     technology: ['Internet of Things', 'Cloud Computing'],
     year: 2018,
     content:
-      'Remote Control and Monitoring System\nPEAK device gives you access to remote control and monitoring of any new or existing streetlight network from one point of light to whole streets.'
+      'Remote Control and Monitoring System\r\nPEAK device gives you access to remote control and monitoring of any new or existing streetlight network from one point of light to whole streets.'
   },
   {
     company: 'Datakorum Solutions',
@@ -1059,5 +1059,25 @@ var pageData = [
     year: 2018,
     content:
       'Xapix is significantly faster, more flexible, and more powerful than traditional approaches to data transformation, normalization, and integration, using the power of automation so that IT professionals can use data from hundreds of sources instead of only a few'
+  },
+  {
+    company: 'MONTEM A/S',
+    name: 'CityProbe 2',
+    img: '',
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: 'https://www.cityflow.live/cityprobe.html',
+    domain: ['Air Quality', 'Cities'],
+    type: 'IoT Device',
+    technology: [
+      'Data Analytics',
+      'Data Spaces',
+      'Digital Twins',
+      'Internet of Things',
+      'Open Data'
+    ],
+    year: 2022,
+    content:
+      "CityProbe 2 is the fabric of the intelligent city. The unit measures urban environmental parameters such as noise levels particulate matter pollution temperature etc. - using its' built-in GPS the CityProbe 2 takes a snapshot and transmits the status of the environment in real-time."
   }
 ];

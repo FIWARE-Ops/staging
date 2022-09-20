@@ -89,7 +89,7 @@ var pageData = [
     ],
     year: 2016,
     content:
-      'This cloud-based solution intelligently monitors and automates management of EV chargers and parking spaces on a per space / per user basis improving utilisation. \n\nEnd-users reserve their space in advance via an easy-to-use app with integrated payments, significantly reducing parking hassle.'
+      'This cloud-based solution intelligently monitors and automates management of EV chargers and parking spaces on a per space / per user basis improving utilisation. \r\n\r\nEnd-users reserve their space in advance via an easy-to-use app with integrated payments, significantly reducing parking hassle.'
   },
   {
     company: 'Agricolus',
@@ -527,7 +527,7 @@ var pageData = [
     technology: ['Internet of Things', 'Data Analytics'],
     year: 2017,
     content:
-      'Farm Dog: Keeping agricultural fields healthy from pest and disease.\nWith Farm Dog, growers transition from a completely offline decision-making process to a digital one'
+      'Farm Dog: Keeping agricultural fields healthy from pest and disease.\r\nWith Farm Dog, growers transition from a completely offline decision-making process to a digital one'
   },
   {
     company: 'Fashion Cloud',
@@ -585,7 +585,7 @@ var pageData = [
     ],
     year: 2018,
     content:
-      'FIWOO is an IoT-Editor platform, which allows users to create any entity without the need for computer knowledge. Everything can be created without a single line of code.\n\nAny user can create their panels, connect their devices, and generate smart rules through a simple graphic interface.'
+      'FIWOO is an IoT-Editor platform, which allows users to create any entity without the need for computer knowledge. Everything can be created without a single line of code.\r\n\r\nAny user can create their panels, connect their devices, and generate smart rules through a simple graphic interface.'
   },
   {
     company: 'Floud',
@@ -955,7 +955,7 @@ var pageData = [
     ],
     year: 2014,
     content:
-      'OpenMove is a software platform for smart mobility that features transport ticketing, on-demand transport in real-time, intermodal journey planning and MaaS (Mobility-as-a-Service) integration.\n\nThe company is active in EU + USA + Middle East and serves 10M+ yearly passengers / 50M€+ tickets sold.'
+      'OpenMove is a software platform for smart mobility that features transport ticketing, on-demand transport in real-time, intermodal journey planning and MaaS (Mobility-as-a-Service) integration.\r\n\r\nThe company is active in EU + USA + Middle East and serves 10M+ yearly passengers / 50M€+ tickets sold.'
   },
   {
     company: 'phoops',
@@ -970,7 +970,7 @@ var pageData = [
     technology: ['Mobility and Location', 'Open Data', 'Software as a Service'],
     year: 2015,
     content:
-      'MUV-APP is the platform that turns the complex and huge urban mobility system into a safe, sustainable and user-friendly system.\n\nMUV-APP enables Mobility as a service for the public administration, to provide innovative tools for the management of the entire urban mobility system.'
+      'MUV-APP is the platform that turns the complex and huge urban mobility system into a safe, sustainable and user-friendly system.\r\n\r\nMUV-APP enables Mobility as a service for the public administration, to provide innovative tools for the management of the entire urban mobility system.'
   },
   {
     company: 'Project Ray',
@@ -1552,7 +1552,7 @@ var pageData = [
     technology: ['Internet of Things', 'Open Data', 'Data Analytics'],
     year: 2019,
     content:
-      'Telenet Tinx is a device and data management platform for smart cities.\nIt relies on the Microsoft Azure Services to provide the capability of connecting any IoT Devices at a large scale and managing huge incoming amounts of data with the required guarantee of reliability and availability for cities'
+      'Telenet Tinx is a device and data management platform for smart cities.\r\nIt relies on the Microsoft Azure Services to provide the capability of connecting any IoT Devices at a large scale and managing huge incoming amounts of data with the required guarantee of reliability and availability for cities'
   },
   {
     company: 'Tera',
@@ -1714,7 +1714,7 @@ var pageData = [
     ],
     year: 2018,
     content:
-      'WiTraC is a total wireless tracking and metering IoT solution for Industry 4.0 Supply Chain and Smart Cities.\nIt provides real-time information on the status and location of critical assets to increase control and improve management of company operations.'
+      'WiTraC is a total wireless tracking and metering IoT solution for Industry 4.0 Supply Chain and Smart Cities.\r\nIt provides real-time information on the status and location of critical assets to increase control and improve management of company operations.'
   },
   {
     company: 'YerbaBuena VR',
@@ -1736,13 +1736,22 @@ var pageData = [
     name: 'lakes.profi.space',
     img:
       'https://fundingbox-files.s3-eu-central-1.amazonaws.com/ilariprofirator/bMNtgdvtRZ/logo.jpg',
+<<<<<<< HEAD
     fiwareMember: false,
+=======
+    fiwareMember: true,
+>>>>>>> 893777f8edcaa4f5e4a9c7bedfbb4a7e7ecab2cc
     fiwareIhub: false,
     companyLink: 'https://lakes.profi.space',
     domain: ['Cities'],
     type: 'Platform',
     technology: ['Internet of Things'],
     year: 2022,
+<<<<<<< HEAD
     content: ''
+=======
+    content:
+      'Lakes is the Smart City IoT platform you can get started in minutes. Try before you buy with 0€ and no credit card information. Profirator offers a hosted version of their Smart City IoT platform for you to try. Free community support is included!'
+>>>>>>> 893777f8edcaa4f5e4a9c7bedfbb4a7e7ecab2cc
   }
 ];
