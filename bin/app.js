@@ -148,15 +148,19 @@ if (PROCESS.startsWith('products')) {
             'marketplace/powered-by-fiware/pageData.js',
             summaryInfo.powered
           );
+          console.log(summaryInfo.powered.length + ' Products');
           writeFile('marketplace/fiware-ready/pageData.js', summaryInfo.ready);
+          console.log(summaryInfo.ready.length + ' Devices');
           writeFile(
             'marketplace/support-services/pageData.js',
             summaryInfo.services
           );
+          console.log(summaryInfo.services.length + ' Services');
           writeFile(
             'marketplace/cities4cities/pageData.js',
             summaryInfo.cities
           );
+          console.log(summaryInfo.cities.length + ' Cities');
           writeFile(
             'marketplace/product-details/pageData.js',
             productDetails.details
