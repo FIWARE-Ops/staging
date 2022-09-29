@@ -805,7 +805,7 @@ var pageData = [
     domain: ['Cities', 'Logistics', 'Industry', 'Ports', 'Retail', 'Health'],
     type: 'Software enabler',
     technology: [
-      'Data Analytcs',
+      'Data Analytics',
       'Software as a Services',
       'Internet Services'
     ],
@@ -1029,5 +1029,26 @@ var pageData = [
     year: 2018,
     content:
       'Xapix is significantly faster, more flexible, and more powerful than traditional approaches to data transformation, normalization, and integration, using the power of automation so that IT professionals can use data from hundreds of sources instead of only a few'
+  },
+  {
+    company: 'MONTEM A/S',
+    name: 'CityProbe 2',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Montem.svg',
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: 'https://www.cityflow.live/cityprobe.html',
+    domain: ['Air Quality', 'Cities'],
+    type: 'IoT Device',
+    technology: [
+      'Data Analytics',
+      'Data Spaces',
+      'Digital Twins',
+      'Internet of Things',
+      'Open Data'
+    ],
+    year: 2022,
+    content:
+      "CityProbe 2 is the fabric of the intelligent city. The unit measures urban environmental parameters such as noise levels particulate matter pollution temperature etc. - using its' built-in GPS the CityProbe 2 takes a snapshot and transmits the status of the environment in real-time."
   }
 ];
