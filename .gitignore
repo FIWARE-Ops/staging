@@ -6,3 +6,10 @@ Untitled.txt
 products.csv
 product-details.csv
 webinars.csv
+
+# IDE
+.idea/
+
+# MAC
+*~
+.DS_Store
