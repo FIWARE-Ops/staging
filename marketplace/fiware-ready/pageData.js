@@ -6,8 +6,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Agricolus.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink:
-      '../product-details/?category=ready&id=agricolus-agricolusecosystem',
+    companyLink: 'https://www.agricolus.com/en/',
     domain: ['AgriFood'],
     type: 'IoT Device',
     technology: ['Sensory Systems'],
@@ -22,7 +21,8 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Axion.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=ready&id=axion-traxion',
+    companyLink:
+      'https://www.axion.es/en/services-axion/iot-and-smart-solutions-and-platforms/security-vertical-solution-traxion/',
     domain: [
       'Cities',
       'Logistics',
@@ -47,8 +47,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_BreezeTechnologies.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink:
-      '../product-details/?category=ready&id=breezetechnologies-breezeairqualitysensors',
+    companyLink: 'http://www.breeze-technologies.de/solutions/',
     domain: ['Cities', 'Industry', 'Ports'],
     type: 'IoT Device',
     technology: ['Artificial Intelligence', 'Cloud Computing'],
@@ -63,8 +62,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink:
-      '../product-details/?category=ready&id=datakorumsolutions-beat',
+    companyLink: 'https://www.datakorum.com',
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Cloud Computing'],
@@ -79,8 +77,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink:
-      '../product-details/?category=ready&id=datakorumsolutions-cs40',
+    companyLink: 'http://e3tcity.com/en/cs40/',
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Cloud Computing'],
@@ -95,14 +92,13 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink:
-      '../product-details/?category=ready&id=datakorumsolutions-lane',
+    companyLink: 'https://www.datakorum.com',
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Cloud Computing'],
     year: 2018,
     content:
-      'Intelligent Remote Control for Street Lighting\r\nLANE device gives you access to remote control and monitoring of any new or existing streetlight network from one point of light to whole streets.'
+      'Intelligent Remote Control for Street Lighting\nLANE device gives you access to remote control and monitoring of any new or existing streetlight network from one point of light to whole streets.'
   },
   {
     company: 'Datakorum Solutions',
@@ -111,8 +107,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink:
-      '../product-details/?category=ready&id=datakorumsolutions-lb40',
+    companyLink: 'https://www.datakorum.com',
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Cloud Computing'],
@@ -127,8 +122,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink:
-      '../product-details/?category=ready&id=datakorumsolutions-lc40',
+    companyLink: 'https://www.datakorum.com',
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things'],
@@ -143,8 +137,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink:
-      '../product-details/?category=ready&id=datakorumsolutions-ls40',
+    companyLink: 'http://e3tcity.com/en/ls40/',
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Cloud Computing'],
@@ -159,8 +152,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink:
-      '../product-details/?category=ready&id=datakorumsolutions-mb43',
+    companyLink: 'http://e3tcity.com/en/mb43/',
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Cloud Computing'],
@@ -175,8 +167,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink:
-      '../product-details/?category=ready&id=datakorumsolutions-ms41',
+    companyLink: 'https://www.datakorum.com',
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Cloud Computing'],
@@ -191,14 +182,13 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink:
-      '../product-details/?category=ready&id=datakorumsolutions-peak',
+    companyLink: 'https://www.datakorum.com',
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Cloud Computing'],
     year: 2018,
     content:
-      'Remote Control and Monitoring System\r\nPEAK device gives you access to remote control and monitoring of any new or existing streetlight network from one point of light to whole streets.'
+      'Remote Control and Monitoring System\nPEAK device gives you access to remote control and monitoring of any new or existing streetlight network from one point of light to whole streets.'
   },
   {
     company: 'Datakorum Solutions',
@@ -207,8 +197,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink:
-      '../product-details/?category=ready&id=datakorumsolutions-plug',
+    companyLink: 'https://www.datakorum.com',
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Cloud Computing'],
@@ -223,8 +212,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink:
-      '../product-details/?category=ready&id=datakorumsolutions-pole',
+    companyLink: 'https://www.datakorum.com',
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Cloud Computing'],
@@ -239,8 +227,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink:
-      '../product-details/?category=ready&id=datakorumsolutions-sc40',
+    companyLink: 'http://e3tcity.com/en/sc40/',
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Cloud Computing'],
@@ -255,8 +242,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink:
-      '../product-details/?category=ready&id=datakorumsolutions-ss47',
+    companyLink: 'http://e3tcity.com/en/ss47/',
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Cloud Computing'],
@@ -271,8 +257,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Datakorum.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink:
-      '../product-details/?category=ready&id=datakorumsolutions-tiny',
+    companyLink: 'https://www.datakorum.com',
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Cloud Computing'],
@@ -287,7 +272,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_UDGAlliance.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=ready&id=devicegateway-udg',
+    companyLink: 'http://www.devicegateway.com/udf-for-smart-cities',
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things'],
@@ -302,8 +287,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_OutBarriers.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink:
-      '../product-details/?category=ready&id=digitalilusion-outbeacon',
+    companyLink: 'https://outbarriers.com',
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things'],
@@ -318,7 +302,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Distromel.svg',
     fiwareMember: true,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=ready&id=distromel-sigeus',
+    companyLink: 'https://www.distromel.com/',
     domain: [
       'Cities',
       'Logistics',
@@ -345,7 +329,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Miluz.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=ready&id=eficae-miluz',
+    companyLink: 'https://miluz.eficae.es',
     domain: [
       'Cities',
       'Construction and Building',
@@ -370,8 +354,7 @@ var pageData = [
     img: '',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink:
-      '../product-details/?category=ready&id=eficaesoluciones-industrialmeter40',
+    companyLink: 'https://www.eficae.es/',
     domain: ['Industry'],
     type: 'IoT Device',
     technology: ['Internet of Things'],
@@ -386,7 +369,8 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_EGM.svg',
     fiwareMember: true,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=ready&id=egm-edgespot',
+    companyLink:
+      'https://www.egm.io/wp-content/uploads/2021/08/fiche-EGM-EdgeSpot-2-EN-3.pdf',
     domain: ['Electronics', 'Industry', 'Measurement', 'Telecommunication'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Sensory Systems'],
@@ -416,7 +400,8 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Engineering.svg',
     fiwareMember: true,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=ready&id=engineering-dashram',
+    companyLink:
+      'https://www.eng.it/en/case-studies/dashram-un-nuovo-tool-per-la-data-analysis',
     domain: ['Cities', 'Water'],
     type: 'Software enabler',
     technology: ['Data Analytics', 'Data Spaces'],
@@ -431,7 +416,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_KnowAge.svg',
     fiwareMember: true,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=ready&id=engineering-knowage',
+    companyLink: 'https://www.knowage-suite.com',
     domain: [
       'Financial Services',
       'Government',
@@ -458,7 +443,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Gecor.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=ready&id=gecorsystem-gecor',
+    companyLink: 'https://gecorweb.com/',
     domain: ['Cities'],
     type: 'Software enabler',
     technology: ['Internet of Things', 'Open Data', 'Data Analytics'],
@@ -473,8 +458,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_GreenGlobe.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink:
-      '../product-details/?category=ready&id=greenglobesypa-nighteyeskysensor',
+    companyLink: 'https://nighteye.eu',
     domain: ['Air Quality', 'Cities', 'Energy', 'Government', 'Lighting'],
     type: 'IoT Device',
     technology: [
@@ -510,7 +494,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Hopu.svg',
     fiwareMember: true,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=ready&id=hopu-smartspot',
+    companyLink: 'http://smartcities.hopu.eu/smart-spot.html',
     domain: [
       'Air Quality',
       'Cities',
@@ -531,7 +515,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Babbler.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=ready&id=itudemobile-babbler',
+    companyLink: 'https://itude.com/',
     domain: ['Logistics'],
     type: 'IoT Device',
     technology: ['Internet of Things'],
@@ -546,7 +530,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/raster/logo_KMBLab.png',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=ready&id=kmblab-kissmybike',
+    companyLink: 'http://www.kissmy.bike/',
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Open Data', 'Data Analytics'],
@@ -561,7 +545,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Libelium.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=ready&id=libelium-meshlium',
+    companyLink: 'https://www.libelium.com',
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Cloud Computing', 'Sensory Systems'],
@@ -576,7 +560,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Libelium.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=ready&id=libelium-plugsense',
+    companyLink: 'https://www.libelium.com',
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Cloud Computing', 'Sensory Systems'],
@@ -591,7 +575,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Libelium.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=ready&id=libelium-waspmote',
+    companyLink: 'https://www.libelium.com',
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Cloud Computing', 'Sensory Systems'],
@@ -606,8 +590,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Odins.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink:
-      '../product-details/?category=ready&id=odinsolutions-ipex04datalogger',
+    companyLink: 'http://www.odins.es/en/project/ipex04-datalogger/',
     domain: ['Cities', 'AgriFood', 'Industry'],
     type: 'IoT Device',
     technology: ['Internet of Things'],
@@ -622,8 +605,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Odins.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink:
-      '../product-details/?category=ready&id=odinsolutions-ipex12datalogger',
+    companyLink: 'http://www.odins.es/en/project/ipex12/',
     domain: ['Cities', 'AgriFood', 'Industry'],
     type: 'IoT Device',
     technology: ['Internet of Things'],
@@ -638,8 +620,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Odins.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink:
-      '../product-details/?category=ready&id=odinsolutions-ipex16datalogger',
+    companyLink: 'http://www.odins.es/en/project/ipex16-datalogger/',
     domain: ['Cities', 'AgriFood', 'Industry'],
     type: 'IoT Device',
     technology: ['Internet of Things'],
@@ -654,8 +635,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Odins.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink:
-      '../product-details/?category=ready&id=odinsolutions-mex06datalogger',
+    companyLink: 'http://www.odins.es/en/project/mex06-datalogger/',
     domain: ['Cities', 'AgriFood', 'Industry'],
     type: 'IoT Device',
     technology: ['Internet of Things'],
@@ -670,7 +650,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Respira.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=ready&id=panstamp-respirafiware',
+    companyLink: 'https://github.com/panStamp/respira_fiware',
     domain: ['Cities', 'Health'],
     type: 'IoT Device',
     technology: ['Internet of Things'],
@@ -685,8 +665,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Seacon.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink:
-      '../product-details/?category=ready&id=seaconeurope-intellifood',
+    companyLink: 'http://www.seacon.hu/intellifood',
     domain: ['AgriFood'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Open Data', 'Data Analytics'],
@@ -700,7 +679,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Secmotic.svg',
     fiwareMember: true,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=ready&id=secmotic-lockart',
+    companyLink: 'http://mylockart.com',
     domain: ['Home'],
     type: 'IoT Device',
     technology: [
@@ -720,7 +699,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Secmotic.svg',
     fiwareMember: true,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=ready&id=secmotic-muvone',
+    companyLink: 'https://www.muvone.com',
     domain: ['Health'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Data Analytics', 'Open Data'],
@@ -735,7 +714,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_CityGrid.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=ready&id=senecoas-citygrid',
+    companyLink: 'https://www.seneco.dk',
     domain: [
       'Cities',
       'Energy',
@@ -761,7 +740,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_DigitAnimal.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=ready&id=sensowave-digitanimal',
+    companyLink: 'https://digitanimal.com',
     domain: ['AgriFood'],
     type: 'IoT Device',
     technology: ['Open Data'],
@@ -776,8 +755,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_DigitAnimal.svg',
     fiwareMember: true,
     fiwareIhub: false,
-    companyLink:
-      '../product-details/?category=ready&id=sensowave-digitanimallivestockgps',
+    companyLink: 'https://digitanimal.co.uk/product/digitanimal-livestock-gps/',
     domain: [
       'Agriculture',
       'AgriFood',
@@ -803,8 +781,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Situm.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink:
-      '../product-details/?category=ready&id=situmindoorpositioning-situmindoornavigation',
+    companyLink: 'https://situm.es',
     domain: ['Cities', 'Logistics'],
     type: 'Software enabler',
     technology: [
@@ -824,12 +801,11 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Situm.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink:
-      '../product-details/?category=ready&id=situmindoorpositioning-situmindoortracking',
+    companyLink: 'https://situm.es',
     domain: ['Cities', 'Logistics', 'Industry', 'Ports', 'Retail', 'Health'],
     type: 'Software enabler',
     technology: [
-      'Data Analytics',
+      'Data Analytcs',
       'Software as a Services',
       'Internet Services'
     ],
@@ -844,7 +820,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_SRM.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=ready&id=srmconsulting-mavdrone',
+    companyLink: 'http://www.srmconsulting.es',
     domain: ['Cities', 'AgriFood', 'Logistics', 'Industry', 'Health'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Data Analytics'],
@@ -859,8 +835,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_SRM.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink:
-      '../product-details/?category=ready&id=srmconsulting-fiwaremapviewer',
+    companyLink: 'http://www.srmconsulting.es',
     domain: ['Cities', 'AgriFood', 'Logistics', 'Industry', 'Health'],
     type: 'Software enabler',
     technology: ['Internet of Things', 'Open Data', 'Data Analytics'],
@@ -875,7 +850,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_FI-Assist.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=ready&id=telocate-fiassist',
+    companyLink: 'https://de.telocate.de',
     domain: ['Cities', 'Logistics', 'Retail'],
     type: 'Software enabler',
     technology: ['Internet of Things'],
@@ -890,8 +865,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_TST.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink:
-      '../product-details/?category=ready&id=tstsistemas-tscontrolindustrialcontrol',
+    companyLink: 'https://tst-sistemas.com/en/',
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Open Data', 'Data Analytics'],
@@ -906,8 +880,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_TST.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink:
-      '../product-details/?category=ready&id=tstsistemas-tsmartdevelopmentplatform',
+    companyLink: 'https://tst-sistemas.com/en/',
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Open Data', 'Data Analytics'],
@@ -922,7 +895,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_TST.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=ready&id=tstsistemas-tswaste',
+    companyLink: 'https://tst-sistemas.com/en/',
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Open Data', 'Data Analytics'],
@@ -937,7 +910,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Insylo.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=ready&id=ubikwa-insylo',
+    companyLink: 'http://www.insylo.com',
     domain: ['AgriFood', 'Logistics', 'Industry'],
     type: 'IoT Device',
     technology: [
@@ -957,7 +930,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Urbaser.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=ready&id=urbaser-sensiot',
+    companyLink: 'https://urbaser.com/sensiot',
     domain: ['Cities', 'Energy', 'Industry', 'Machinery', 'Waste Management'],
     type: 'Software enabler',
     technology: [
@@ -977,8 +950,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_GavillanControl.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink:
-      '../product-details/?category=ready&id=ventuminnovacion-gaviláncontrol',
+    companyLink: 'https://gavilan.ventumidc.es/login',
     domain: ['Air Quality', 'Agriculture', 'AgriFood', 'Industry', 'Water'],
     type: 'Software enabler',
     technology: [
@@ -999,8 +971,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_ViralStudio.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink:
-      '../product-details/?category=ready&id=viralstudios-virtualart',
+    companyLink: 'https://www.viralstudio.it/',
     domain: ['Cities', 'Industry', 'Retail', 'Content'],
     type: 'IoT Device',
     technology: [
@@ -1021,7 +992,7 @@ var pageData = [
     fiwareMember: false,
     fiwareIhub: false,
     companyLink:
-      '../product-details/?category=ready&id=wellnesstechgroup-quamtra',
+      'https://wellnesstg.com/en/solucion/quamtra-smart-waste-management/',
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Open Data', 'Data Analytics'],
@@ -1036,8 +1007,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_WellnessTechGroup.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink:
-      '../product-details/?category=ready&id=wellnesstechgroup-welight',
+    companyLink: 'https://wellnesstg.com/en/solucion/welight-smart-lighting/',
     domain: ['Cities'],
     type: 'IoT Device',
     technology: ['Internet of Things', 'Open Data', 'Data Analytics'],
@@ -1052,33 +1022,12 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/raster/logo_Xapix.png',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink: '../product-details/?category=ready&id=xapix-xapix',
+    companyLink: 'https://www.xapix.io',
     domain: ['Cities'],
     type: 'Software enabler',
     technology: ['Data Analytics', 'Open Data'],
     year: 2018,
     content:
       'Xapix is significantly faster, more flexible, and more powerful than traditional approaches to data transformation, normalization, and integration, using the power of automation so that IT professionals can use data from hundreds of sources instead of only a few'
-  },
-  {
-    company: 'MONTEM A/S',
-    name: 'CityProbe 2',
-    img:
-      'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Montem.svg',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: 'https://www.cityflow.live/cityprobe.html',
-    domain: ['Air Quality', 'Cities'],
-    type: 'IoT Device',
-    technology: [
-      'Data Analytics',
-      'Data Spaces',
-      'Digital Twins',
-      'Internet of Things',
-      'Open Data'
-    ],
-    year: 2022,
-    content:
-      "CityProbe 2 is the fabric of the intelligent city. The unit measures urban environmental parameters such as noise levels particulate matter pollution temperature etc. - using its' built-in GPS the CityProbe 2 takes a snapshot and transmits the status of the environment in real-time."
   }
 ];
