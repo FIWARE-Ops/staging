@@ -165,6 +165,13 @@ if (PROCESS.startsWith('products')) {
             'marketplace/product-details/pageData.js',
             productDetails.details
           );
+
+          const featured = CSVParser.extractFeatured(summaryInfo);
+          writeTemplate(
+            'marketplace/product-details/featured.html',
+            'featured.html',
+            featured
+          );
         });
     })
     .then(() => {
