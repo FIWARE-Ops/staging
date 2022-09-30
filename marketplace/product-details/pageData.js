@@ -4688,9 +4688,9 @@ var pageData = {
         'https://www.fiware.org/wp-content/marketplace/images/hero_yerbabuena-vr_ybvr.png',
       furtherImages: ''
     },
-    'profiratoroy-lakesprofispace': {
+    'profirator-lakesprofispace': {
       category: 'Powered by FIWARE',
-      organisationName: 'Profirator Oy',
+      organisationName: 'Profirator',
       productName: 'lakes.profi.space',
       organisationWebsite: 'https://profirator.fi/',
       organisationEmail: 'mailto:info@profirator.fi',
