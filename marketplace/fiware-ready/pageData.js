@@ -1067,7 +1067,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Montem.svg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink: 'https://www.cityflow.live/cityprobe.html',
+    companyLink: '../product-details/?category=ready&id=montemas-cityprobe2',
     domain: ['Air Quality', 'Cities'],
     type: 'IoT Device',
     technology: [
