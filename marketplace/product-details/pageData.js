@@ -4692,11 +4692,11 @@ var pageData = {
       category: 'Powered by FIWARE',
       organisationName: 'Profirator Oy',
       productName: 'lakes.profi.space',
-      organisationWebsite: 'https://profirator.fi/product-and-pricing/',
+      organisationWebsite: 'https://profirator.fi/',
       organisationEmail: 'mailto:info@profirator.fi',
       linkedIn: 'https://www.linkedin.com/company/profirator-ltd/about/',
       twitter: '',
-      productWebsite: 'https://lakes.profi.space',
+      productWebsite: 'https://profirator.fi/product-and-pricing/',
       excerpt:
         'Lakes is the Smart City IoT platform you can get started in minutes. Try before you buy with 0€ and no credit card information. Profirator offers a hosted version of their Smart City IoT platform for you to try. Free community support is included!',
       yearOfValidation: 2022,
@@ -9318,6 +9318,47 @@ var pageData = {
       featuredImage:
         'https://www.fiware.org/wp-content/marketplace/images/hero_xapix_xapix.png',
       furtherImages: ''
+    },
+    'montemas-cityprobe2': {
+      category: 'FIWARE-Ready',
+      organisationName: 'MONTEM A/S',
+      productName: 'CityProbe 2',
+      organisationWebsite: 'https://www.cityflow.live',
+      organisationEmail: 'mailto:c.laursen@montem.io',
+      linkedIn: 'https://www.linkedin.com/company/montem/',
+      twitter: '',
+      productWebsite: 'https://www.cityflow.live/cityprobe.html',
+      excerpt:
+        "CityProbe 2 is the fabric of the intelligent city. The unit measures urban environmental parameters\nsuch as noise levels particulate matter pollution temperature etc. - using its' built-in GPS\nthe CityProbe 2 takes a snapshot and transmits the status of the environment in real-time.",
+      yearOfValidation: 2022,
+      description:
+        '<p><strong>CityProbe</strong> is a small mid-cost sensor that allows municipalities to gain a hyper-local and permanent network of air quality noise pollution and meteorological sensors. The sensors can be bought or rented (HaaS).  The CityFlow software and CityProbe sensors are already being used by Danish municipalities (such as Aarhus Kommune) and research institutions (such as Aalborg University) to identify pollution hotspots &amp; their cause understand tendencies &amp; correlations and plan corrective actions &amp; track the effects of changes.</p> <p>While the CityProbe is smaller, more cost-effective and easier to setup/maintain than its’ competitors the precision of its’ data is often doubted. Municipalities continue to use it only as a supplement to the governmental reference stations.  This is why we have gone through a development project under the ESA BIC program to utilize satellite data for anomaly detection and sensor fusion to increase the precision of the CityProbe 2 sensors.</p>',
+      challenge:
+        '<p>Air pollution measurements are usually enabled by governmental measuring stations which are expensive and few and far apart. Meanwhile the air pollution level next to a highway at rush hour can strongly differ from the level in a park 200 meters away. Municipalities currently solve the lack of data by using mobile measurement stations temporarily around the city. This is costly in manpower and does not provide the ideal spatial and temporal resolution.</p>',
+      references:
+        '<ul> <li>Canberra</li> <li>Australia</li> <li>Aarhus</li> <li>Denmark</li> <li>Helsingborg</li> <li>Sweden</li> <li>Aalborg</li> <li>Denmark</li> </ul>',
+      awards: '',
+      technologies: [
+        'Data Analytics',
+        'Data Spaces',
+        'Digital Twins',
+        'Internet of Things',
+        'Open Data'
+      ],
+      domains: ['Air Quality', 'Cities'],
+      docs: [],
+      videos: [
+        [
+          'Video',
+          'https://cityflow.live/videos/CP2-cover-1080p-trimmed-transcode.mp4'
+        ]
+      ],
+      materials: [],
+      logo:
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Montem.svg',
+      featuredImage:
+        'https://www.fiware.org/wp-content/marketplace/images/hero_montem_cityprobe.png',
+      furtherImages: ''
     }
   },
   cities: {
@@ -11083,47 +11124,6 @@ var pageData = {
       logo: '',
       featuredImage:
         'https://www.fiware.org/wp-content/marketplace/images/hero_connecting-europe-facility_context-broker%E2%80%93edp-integration.png',
-      furtherImages: ''
-    },
-    'montemas-cityprobe2': {
-      category: 'FiWARE-Ready',
-      organisationName: 'MONTEM A/S',
-      productName: 'CityProbe 2',
-      organisationWebsite: 'https://www.cityflow.live',
-      organisationEmail: 'mailto:c.laursen@montem.io',
-      linkedIn: 'https://www.linkedin.com/company/montem/',
-      twitter: '',
-      productWebsite: 'https://www.cityflow.live/cityprobe.html',
-      excerpt:
-        "CityProbe 2 is the fabric of the intelligent city. The unit measures urban environmental parameters\nsuch as noise levels particulate matter pollution temperature etc. - using its' built-in GPS\nthe CityProbe 2 takes a snapshot and transmits the status of the environment in real-time.",
-      yearOfValidation: 2022,
-      description:
-        '<p><strong>CityProbe</strong> is a small mid-cost sensor that allows municipalities to gain a hyper-local and permanent network of air quality noise pollution and meteorological sensors. The sensors can be bought or rented (HaaS).  The CityFlow software and CityProbe sensors are already being used by Danish municipalities (such as Aarhus Kommune) and research institutions (such as Aalborg University) to identify pollution hotspots &amp; their cause understand tendencies &amp; correlations and plan corrective actions &amp; track the effects of changes.</p> <p>While the CityProbe is smaller, more cost-effective and easier to setup/maintain than its’ competitors the precision of its’ data is often doubted. Municipalities continue to use it only as a supplement to the governmental reference stations.  This is why we have gone through a development project under the ESA BIC program to utilize satellite data for anomaly detection and sensor fusion to increase the precision of the CityProbe 2 sensors.</p>',
-      challenge:
-        '<p>Air pollution measurements are usually enabled by governmental measuring stations which are expensive and few and far apart. Meanwhile the air pollution level next to a highway at rush hour can strongly differ from the level in a park 200 meters away. Municipalities currently solve the lack of data by using mobile measurement stations temporarily around the city. This is costly in manpower and does not provide the ideal spatial and temporal resolution.</p>',
-      references:
-        '<ul> <li>Canberra</li> <li>Australia</li> <li>Aarhus</li> <li>Denmark</li> <li>Helsingborg</li> <li>Sweden</li> <li>Aalborg</li> <li>Denmark</li> </ul>',
-      awards: '',
-      technologies: [
-        'Data Analytics',
-        'Data Spaces',
-        'Digital Twins',
-        'Internet of Things',
-        'Open Data'
-      ],
-      domains: ['Air Quality', 'Cities'],
-      docs: [],
-      videos: [
-        [
-          'Video',
-          'https://cityflow.live/videos/CP2-cover-1080p-trimmed-transcode.mp4'
-        ]
-      ],
-      materials: [],
-      logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Montem.svg',
-      featuredImage:
-        'https://www.fiware.org/wp-content/marketplace/images/hero_montem_cityprobe.png',
       furtherImages: ''
     }
   }
