@@ -168,7 +168,11 @@ function extractSummaryInfo(input, details) {
       obj.type = item['Type of Product'];
       obj.technology = item['Technologies'];
       obj.year = parseInt(item['Certified in']);
-      obj.content = item['Excerpt'].replace(regEx, replaceMask).trim();
+      obj.content = item['Excerpt']
+        .replace(regEx, replaceMask)
+        .replaceAll(/\r\n/g, ' ')
+        .replaceAll(/\n/g, ' ')
+        .trim();
 
       if (item['Category'] === 'Powered by FIWARE') {
         powered.push(obj);
@@ -196,6 +200,23 @@ function extractSummaryInfo(input, details) {
   return { powered, ready, services, cities, hashes };
 }
 
+function extractFeatured(summaryInfo) {
+  const featured = [
+    ...summaryInfo.powered.slice(-2),
+    ...summaryInfo.ready.slice(-2),
+    ...summaryInfo.services.slice(-2),
+    ...summaryInfo.cities.slice(-2)
+  ];
+
+  featured.forEach(item => {
+    if (item.companyLink.startsWith('..')) {
+      item.companyLink = item.companyLink.substring(1);
+    }
+  });
+  return featured;
+}
+
+exports.extractFeatured = extractFeatured;
 exports.extractProductDetails = extractProductDetails;
 exports.extractSummaryInfo = extractSummaryInfo;
 exports.extractWebinars = extractWebinars;

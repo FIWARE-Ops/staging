@@ -102,7 +102,7 @@ var pageData = [
     technology: ['Internet of Things', 'Cloud Computing'],
     year: 2018,
     content:
-      'Intelligent Remote Control for Street Lighting\nLANE device gives you access to remote control and monitoring of any new or existing streetlight network from one point of light to whole streets.'
+      'Intelligent Remote Control for Street Lighting LANE device gives you access to remote control and monitoring of any new or existing streetlight network from one point of light to whole streets.'
   },
   {
     company: 'Datakorum Solutions',
@@ -198,7 +198,7 @@ var pageData = [
     technology: ['Internet of Things', 'Cloud Computing'],
     year: 2018,
     content:
-      'Remote Control and Monitoring System\nPEAK device gives you access to remote control and monitoring of any new or existing streetlight network from one point of light to whole streets.'
+      'Remote Control and Monitoring System PEAK device gives you access to remote control and monitoring of any new or existing streetlight network from one point of light to whole streets.'
   },
   {
     company: 'Datakorum Solutions',

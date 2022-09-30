@@ -39,7 +39,7 @@ function getLinkArray(fields, title, item) {
 function markdown(text) {
   const html =
     text !== '' ? converter.makeHtml(text.replaceAll(/•/g, '\n*')) : '';
-  return html.replaceAll(/\n/g, ' ').replaceAll(/\r\n/g, ' ');
+  return html.replaceAll(/\r\n/g, ' ').replaceAll(/\n/g, ' ');
 }
 
 function getCategory(category) {
