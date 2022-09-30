@@ -207,6 +207,12 @@ function extractFeatured(summaryInfo) {
     ...summaryInfo.services.slice(-2),
     ...summaryInfo.cities.slice(-2)
   ];
+
+  featured.forEach(item => {
+    if (item.companyLink.startsWith('..')) {
+      item.companyLink = item.companyLink.substring(1);
+    }
+  });
   return featured;
 }
 
