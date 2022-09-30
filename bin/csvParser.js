@@ -193,7 +193,7 @@ function extractSummaryInfo(input, details) {
         cities.push(obj);
         hashes.cities.push(hash);
       } else {
-        console.log(item['Category']);
+        console.log('UNKNOWN CATEGORY: ', item['Category']);
       }
     }
   });

@@ -87,6 +87,10 @@ var technologies = ${JSON.stringify(technologies, null, 2)};`,
 function findProduct(hash, category) {
   const product = productDetails.details[category][hash];
 
+  if (!product){
+    console.log('DATA MISMATCH: ', category, hash)
+  }
+
   return product
     ? {
         category: product.category,
@@ -148,6 +152,7 @@ if (PROCESS.startsWith('products')) {
             'marketplace/powered-by-fiware/pageData.js',
             summaryInfo.powered
           );
+          console.log('');
           console.log(summaryInfo.powered.length + ' Products');
           writeFile('marketplace/fiware-ready/pageData.js', summaryInfo.ready);
           console.log(summaryInfo.ready.length + ' Devices');
