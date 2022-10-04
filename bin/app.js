@@ -87,8 +87,8 @@ var technologies = ${JSON.stringify(technologies, null, 2)};`,
 function findProduct(hash, category) {
   const product = productDetails.details[category][hash];
 
-  if (!product){
-    console.log('DATA MISMATCH: ', category, hash)
+  if (!product) {
+    console.log('DATA MISMATCH: ', category, hash);
   }
 
   return product
