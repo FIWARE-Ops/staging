@@ -114,20 +114,37 @@ function extractSummaryInfo(input, details) {
     const regEx = new RegExp(searchMask, 'ig');
     const replaceMask = 'FIWARE';
 
-    if (item.Status !== 'Deleted') {
-      item.Domains.split(',').forEach(item => {
-        if (item.trim() !== '') {
-          domains.push(item.trim());
-        }
-      });
-      item.Domains = domains;
+    const hash = Parser.getHash(
+      item['Organisation Name'],
+      item['Product Name']
+    );
 
-      item.Technologies.split(',').forEach(item => {
-        if (item.trim() !== '') {
-          tech.push(item.trim());
-        }
-      });
-      item.Technologies = tech;
+    const category = Parser.getCategory(item['Category']);
+
+    if (item.Status !== 'Deleted') {
+      if (item.Domains) {
+        item.Domains.split(',').forEach(item => {
+          if (item.trim() !== '') {
+            domains.push(item.trim());
+          }
+        });
+        item.Domains = domains;
+      } else {
+        console.log('NO DOMAIN: ', category, hash);
+        item.Domains = [];
+      }
+
+      if (item.Technologies) {
+        item.Technologies.split(',').forEach(item => {
+          if (item.trim() !== '') {
+            tech.push(item.trim());
+          }
+        });
+        item.Technologies = tech;
+      } else {
+        console.log('NO TECHNOLOGY: ', category, hash);
+        item.Technologies = [];
+      }
 
       item.Member = item.Member.toLowerCase();
       item.iHub = item.iHub.toLowerCase();
@@ -151,12 +168,6 @@ function extractSummaryInfo(input, details) {
       obj.img = item['Logo'];
       obj.fiwareMember = item.Member;
       obj.fiwareIhub = item.iHub;
-
-      const category = Parser.getCategory(item['Category']);
-      const hash = Parser.getHash(
-        item['Organisation Name'],
-        item['Product Name']
-      );
 
       if (details[category][hash]) {
         obj.companyLink =
