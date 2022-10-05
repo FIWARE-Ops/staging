@@ -180,7 +180,8 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_FIWAREInnovaiHub.svg',
     fiwareMember: false,
     fiwareIhub: true,
-    companyLink: 'https://fiwareinnova.org/en/',
+    companyLink:
+      '../product-details/?category=services&id=fiwareinnovaihub-consultancyintegrationservices',
     domain: ['Cities', 'AgriFood', 'Industry', 'Retail'],
     type: 'Consultancy & Integration',
     technology: ['Open Data'],

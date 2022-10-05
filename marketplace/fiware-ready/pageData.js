@@ -490,12 +490,13 @@ var pageData = [
   },
   {
     company: 'HOPU',
-    name: 'Smart Irrigiation Solution',
+    name: 'Smart Irrigation Solution',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Hopu.svg',
     fiwareMember: true,
     fiwareIhub: false,
-    companyLink: 'https://hopu.eu',
+    companyLink:
+      '../product-details/?category=ready&id=hopu-smartirrigationsolution',
     domain: ['Agriculture', 'AgriFood', 'Cities', 'Sustainability', 'Water'],
     type: 'IoT Device',
     technology: ['Artificial Intelligence', 'Internet of Things'],

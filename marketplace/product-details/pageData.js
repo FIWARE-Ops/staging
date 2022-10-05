@@ -932,6 +932,15 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_saint-quentin_connected-canteens.png',
+          excerpt:
+            'This solution includes connected weighing scales under the bins to provide information on the weight of organic and non-organic waste from an individual and overall perspective. This solution allows canteens to raise awareness and help to adapt menus and quantities.',
+          productName: 'Connected Canteens',
+          companyLink: './?category=powered&id=egm-connectedcanteens'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
             'https://www.fiware.org/wp-content/marketplace/images/hero_egm_smart-irrigation.png',
           excerpt:
             'EGM offers a complete solution for determining the amount of water that can be saved on a green space and deploying the control solution in addition to an existing watering system to achieve the water savings in question. Our solution saved 35% of the water on the first deployment.',
@@ -1001,6 +1010,15 @@ var pageData = {
             'This camera allows us to count entries and exits in a carpool park and to determine whether the cars parked are indeed intended for carpooling. This device allows our clients to have tangible statistics on the occupation of a car park.',
           productName: 'Carpool Parking',
           companyLink: './?category=powered&id=egm-carpoolparking'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_saint-quentin_connected-canteens.png',
+          excerpt:
+            'This solution includes connected weighing scales under the bins to provide information on the weight of organic and non-organic waste from an individual and overall perspective. This solution allows canteens to raise awareness and help to adapt menus and quantities.',
+          productName: 'Connected Canteens',
+          companyLink: './?category=powered&id=egm-connectedcanteens'
         },
         {
           category: 'FIWARE-Ready',
@@ -1734,6 +1752,15 @@ var pageData = {
         'https://www.fiware.org/wp-content/marketplace/images/hero_hopu_low-emission-zones.png',
       furtherImages: '',
       related: [
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_hopu_smart-irrigiation-solution.png',
+          excerpt:
+            'Manage irrigation based on accurate and real-time data and AI. Weather stations with sensors of air temperature and humidity, wind, rain, UV radiation, and evapotranspiration; Soil moisture sensors. Irrigation management calendar according to soil typology.',
+          productName: 'Smart Irrigation Solution',
+          companyLink: './?category=ready&id=hopu-smartirrigationsolution'
+        },
         {
           category: 'FIWARE-Ready',
           featuredImage:
@@ -2495,9 +2522,9 @@ var pageData = {
         'https://www.fiware.org/wp-content/marketplace/images/hero_pycno_pycno.png',
       furtherImages: ''
     },
-    'saintquentin-connectedcanteens': {
+    'egm-connectedcanteens': {
       category: 'Powered by FIWARE',
-      organisationName: 'Saint-Quentin',
+      organisationName: 'EGM',
       productName: 'Connected Canteens',
       organisationWebsite:
         'https://www.egm.io/en/our-projects-smart-territories-and-cities',
@@ -2534,7 +2561,45 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_EGM.svg',
       featuredImage:
         'https://www.fiware.org/wp-content/marketplace/images/hero_saint-quentin_connected-canteens.png',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_egm_carpool-parking.png',
+          excerpt:
+            'This camera allows us to count entries and exits in a carpool park and to determine whether the cars parked are indeed intended for carpooling. This device allows our clients to have tangible statistics on the occupation of a car park.',
+          productName: 'Carpool Parking',
+          companyLink: './?category=powered&id=egm-carpoolparking'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_egm_smart-irrigation.png',
+          excerpt:
+            'EGM offers a complete solution for determining the amount of water that can be saved on a green space and deploying the control solution in addition to an existing watering system to achieve the water savings in question. Our solution saved 35% of the water on the first deployment.',
+          productName: 'Smart Irrigation',
+          companyLink: './?category=powered&id=egm-smartirrigation'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_egm_edgespot.png',
+          excerpt:
+            'The device EdgeSpot is a highly scalable hardware and software platform that takes you from concept to market by accelerating the proof-of-concept phases.',
+          productName: 'EdgeSpot',
+          companyLink: './?category=ready&id=egm-edgespot'
+        },
+        {
+          category: 'Services',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_egm_design-office.png',
+          excerpt:
+            'From idea (feasibility study, design, prototyping, industrialization and manufacturing)  to realization of your solution: a user-centered creation process. \nYou know your work we help you to optimize it!',
+          productName: 'Design office',
+          companyLink: './?category=services&id=egm-designoffice'
+        }
+      ]
     },
     'sammy-smartmarinaplatform': {
       category: 'Powered by FIWARE',
@@ -7273,6 +7338,15 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_saint-quentin_connected-canteens.png',
+          excerpt:
+            'This solution includes connected weighing scales under the bins to provide information on the weight of organic and non-organic waste from an individual and overall perspective. This solution allows canteens to raise awareness and help to adapt menus and quantities.',
+          productName: 'Connected Canteens',
+          companyLink: './?category=powered&id=egm-connectedcanteens'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
             'https://www.fiware.org/wp-content/marketplace/images/hero_egm_smart-irrigation.png',
           excerpt:
             'EGM offers a complete solution for determining the amount of water that can be saved on a green space and deploying the control solution in addition to an existing watering system to achieve the water savings in question. Our solution saved 35% of the water on the first deployment.',
@@ -7590,7 +7664,36 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Hopu.svg',
       featuredImage:
         'https://www.fiware.org/wp-content/marketplace/images/hero_hopu_smart-irrigiation-solution.png',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_hopu_low-emission-zones.png',
+          excerpt:
+            'A suite of dashboards with CO2 indicators related to mobility. These indicators are founded on predictive models based on real-time air quality measurements and AI to optimise traffic flows in cities and ports. It provides high-value mobility services for administrations and informed decision-making',
+          productName: 'Low Emission Zones',
+          companyLink: './?category=powered&id=hopu-lowemissionzones'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_hopu_smart-spot.png',
+          excerpt:
+            'Monitor noise, people affluence/density, and gases: nitrous vapors (NO/NO2), sulfides (H2S/SO2), carbon monoxide/dioxide (CO/CO2), Ozone, and other toxic substances (VOCs); particulate matter (PM) to identify nanoparticulate as dust (PM10), pollens (>PM40), pollutants (PM2.5) and viruses (&lt; PM1).',
+          productName: 'Smart Spot',
+          companyLink: './?category=ready&id=hopu-smartspot'
+        },
+        {
+          category: 'Services',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_hopu_fiware-expert-certification.png',
+          excerpt:
+            'FIWARE expert certification is an 8-week training programme organized in 4 blocks. This means an intensive programme of 180 hours; including 60 hours online and 120 hours of individual activities to become a FIWARE Expert!',
+          productName: 'FIWARE Expert certification',
+          companyLink: './?category=services&id=hopu-fiwareexpertcertification'
+        }
+      ]
     },
     'hopu-smartspot': {
       category: 'FIWARE-Ready',
@@ -7673,6 +7776,15 @@ var pageData = {
             'A suite of dashboards with CO2 indicators related to mobility. These indicators are founded on predictive models based on real-time air quality measurements and AI to optimise traffic flows in cities and ports. It provides high-value mobility services for administrations and informed decision-making',
           productName: 'Low Emission Zones',
           companyLink: './?category=powered&id=hopu-lowemissionzones'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_hopu_smart-irrigiation-solution.png',
+          excerpt:
+            'Manage irrigation based on accurate and real-time data and AI. Weather stations with sensors of air temperature and humidity, wind, rain, UV radiation, and evapotranspiration; Soil moisture sensors. Irrigation management calendar according to soil typology.',
+          productName: 'Smart Irrigation Solution',
+          companyLink: './?category=ready&id=hopu-smartirrigationsolution'
         },
         {
           category: 'Services',
@@ -9562,6 +9674,15 @@ var pageData = {
         {
           category: 'Powered by FIWARE',
           featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_saint-quentin_connected-canteens.png',
+          excerpt:
+            'This solution includes connected weighing scales under the bins to provide information on the weight of organic and non-organic waste from an individual and overall perspective. This solution allows canteens to raise awareness and help to adapt menus and quantities.',
+          productName: 'Connected Canteens',
+          companyLink: './?category=powered&id=egm-connectedcanteens'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
             'https://www.fiware.org/wp-content/marketplace/images/hero_egm_smart-irrigation.png',
           excerpt:
             'EGM offers a complete solution for determining the amount of water that can be saved on a green space and deploying the control solution in addition to an existing watering system to achieve the water savings in question. Our solution saved 35% of the water on the first deployment.',
@@ -9841,12 +9962,24 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_FIWAREInnovaiHub.svg',
       featuredImage:
         'https://www.fiware.org/wp-content/marketplace/images/hero_fiware-innova-ihub_coaching-and-training-services.png',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Services',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_fiware-innova-ihub_promoting-fiware.png',
+          excerpt:
+            'FIWARE Innova iHub has the challenge to promote entrepreneurship and innovation linked to the development of applications and services, encouraging the potential of the FIWARE solutions to help facilitate the largest possible implementation in Italy.',
+          productName: 'Consultancy & Integration Services',
+          companyLink:
+            './?category=services&id=fiwareinnovaihub-consultancyintegrationservices'
+        }
+      ]
     },
-    'fiwareinnovaihub-promotingfiwaresolutionsandtechnologiesinitaly': {
+    'fiwareinnovaihub-consultancyintegrationservices': {
       category: 'Services',
       organisationName: 'FIWARE Innova iHub',
-      productName: 'Promoting FIWARE Solutions and Technologies in Italy',
+      productName: 'Consultancy & Integration Services',
       organisationWebsite: 'https://fiwareinnova.org/',
       organisationEmail: '',
       linkedIn:
@@ -9882,7 +10015,19 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_FiiHUB.svg',
       featuredImage:
         'https://www.fiware.org/wp-content/marketplace/images/hero_fiware-innova-ihub_promoting-fiware.png',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Support Services',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_fiware-innova-ihub_coaching-and-training-services.png',
+          excerpt:
+            'FIWARE Innova iHub has the challenge to promote entrepreneurship and innovation linked to the development of applications and services, encouraging the potential of the FIWARE solutions to help facilitate the largest possible implementation in Italy.',
+          productName: 'Coaching & Training Services',
+          companyLink:
+            './?category=services&id=fiwareinnovaihub-coachingtrainingservices'
+        }
+      ]
     },
     'fiwarespace-coachingtrainingservices': {
       category: 'Services',
@@ -10293,6 +10438,15 @@ var pageData = {
             'A suite of dashboards with CO2 indicators related to mobility. These indicators are founded on predictive models based on real-time air quality measurements and AI to optimise traffic flows in cities and ports. It provides high-value mobility services for administrations and informed decision-making',
           productName: 'Low Emission Zones',
           companyLink: './?category=powered&id=hopu-lowemissionzones'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_hopu_smart-irrigiation-solution.png',
+          excerpt:
+            'Manage irrigation based on accurate and real-time data and AI. Weather stations with sensors of air temperature and humidity, wind, rain, UV radiation, and evapotranspiration; Soil moisture sensors. Irrigation management calendar according to soil typology.',
+          productName: 'Smart Irrigation Solution',
+          companyLink: './?category=ready&id=hopu-smartirrigationsolution'
         },
         {
           category: 'FIWARE-Ready',
