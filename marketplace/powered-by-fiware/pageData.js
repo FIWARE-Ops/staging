@@ -421,7 +421,8 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_EGM.svg',
     fiwareMember: true,
     fiwareIhub: false,
-    companyLink: 'https://www.youtube.com/watch?v=WiU1_vwH7KA',
+    companyLink:
+      '../product-details/?category=powered&id=egm-connectedcanteens',
     domain: ['AgriFood', 'Measurement', 'Waste Management'],
     type: 'Solution',
     technology: ['Data Analytics', 'Screens and Display', 'Sensory Systems'],
@@ -431,7 +432,7 @@ var pageData = [
   },
   {
     company: 'EGM',
-    name: 'Smart irrigation',
+    name: 'Smart Irrigation',
     img:
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_EGM.svg',
     fiwareMember: true,
