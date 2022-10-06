@@ -323,12 +323,6 @@ defer(function () {
         );
       }
     });
-  } else {
-    let filtersContainer = document.querySelector(".filters-container");
-    filtersContainer.classList.add("active");
-
-    let showFilters = document.querySelector(".showFilters");
-    showFilters.classList.add("hidden");
   }
 
   // Smooth scroll
