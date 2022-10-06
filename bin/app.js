@@ -4,6 +4,7 @@ const Handlebars = require('handlebars');
 const PRODUCTS_SUMMARY_FILE = 'products.csv';
 const PRODUCT_DETAILS_FILE = 'product-details.csv';
 const WEBINARS_FILE = 'webinars.csv';
+const PEOPLE_FILE = 'people.csv';
 const csv = require('csvtojson');
 
 const Downloader = require('./downloader');
@@ -252,6 +253,26 @@ if (PROCESS.startsWith('webinars')) {
         'community/webinar-recordings/webinars.html',
         'webinar.html',
         webinars
+      );
+    })
+    .catch(e => {
+      console.log(e);
+      return;
+    });
+}
+
+
+if (PROCESS.startsWith('people')) {
+  csv()
+    .fromFile(PEOPLE_FILE)
+    .then(input => {
+      return CSVParser.extractPeople(input);
+    })
+    .then(people => {
+      writeTemplate(
+        'people/people.html',
+        'people.html',
+        people
       );
     })
     .catch(e => {

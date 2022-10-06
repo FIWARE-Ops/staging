@@ -1,0 +1,23 @@
+{{#each this}}
+	<div class="latest-content-item col-xs-12 col-sm-6 col-md-3">
+		<div class="latest-content-item-container gob-content-item">
+			<div class="latest-content-image gob-content-image">
+				<div class="circle">
+					<a href="#" style="background-image:url({{img}})" class="bg-content">
+					<img src="{{img}}"></a>
+				</div>
+			</div>    
+			<div class="latest-content-data gob-content-data">
+				<p class="latest-content-name">
+					<strong>{{name}}</strong>
+				</p>        
+				<p class="latest-content-job-title">
+					{{job}}
+				</p>
+				<p class="latest-content-company">
+					{{company}}
+				</p>
+			</div>
+		</div>
+	</div>
+{{/each}}

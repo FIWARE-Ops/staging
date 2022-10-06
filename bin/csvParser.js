@@ -31,6 +31,20 @@ function extractWebinars(input) {
   return webinars;
 }
 
+function extractPeople(input) {
+  const people = [];
+  input.forEach(item => {
+    const person = {
+      name: item.Name,
+      img: item.Image,
+      company: item.Company,
+      job: item.Job
+    };
+    people.push(person);
+  });
+  return people;
+}
+
 function extractProductDetails(input) {
   const images = [];
   const details = {
@@ -228,6 +242,7 @@ function extractFeatured(summaryInfo) {
 }
 
 exports.extractFeatured = extractFeatured;
+exports.extractPeople = extractPeople;
 exports.extractProductDetails = extractProductDetails;
 exports.extractSummaryInfo = extractSummaryInfo;
 exports.extractWebinars = extractWebinars;
