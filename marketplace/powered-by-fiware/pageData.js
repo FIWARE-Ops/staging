@@ -1747,5 +1747,28 @@ var pageData = [
     year: 2022,
     content:
       'Lakes is the Smart City IoT platform you can get started in minutes. Try before you buy with 0€ and no credit card information. Profirator offers a hosted version of their Smart City IoT platform for you to try. Free community support is included!'
+  },
+  {
+    company: 'Amazon Web Services',
+    name: 'Smart Territory Framework',
+    img:
+      'https://www.fiware.org/wp-content/uploads/871eb0f18786f46a40a19a83ca69e65e.png',
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink:
+      '../product-details/?category=powered&id=amazonwebservices-smartterritoryframework',
+    domain: [
+      'Cities',
+      'Energy',
+      'Sustainability',
+      'Utilities',
+      'Oil and Gas',
+      'Water'
+    ],
+    type: 'Platform',
+    technology: ['Cloud Computing', 'Digital Twins', 'Internet of Things'],
+    year: 2022,
+    content:
+      'The Smart Territory Framework - STF - is a set of tools and standardized modules that our partners and customers can assemble together to build and operate sustainable and highly effective solutions in line with global industry standards and based on the open-source offering of the FIWARE ecosystem.'
   }
 ];

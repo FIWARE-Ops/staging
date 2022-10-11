@@ -261,7 +261,6 @@ if (PROCESS.startsWith('webinars')) {
     });
 }
 
-
 if (PROCESS.startsWith('people')) {
   csv()
     .fromFile(PEOPLE_FILE)
@@ -269,11 +268,7 @@ if (PROCESS.startsWith('people')) {
       return CSVParser.extractPeople(input);
     })
     .then(people => {
-      writeTemplate(
-        'people/people.html',
-        'people.html',
-        people
-      );
+      writeTemplate('people/people.html', 'people.html', people);
     })
     .catch(e => {
       console.log(e);

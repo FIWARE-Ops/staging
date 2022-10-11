@@ -4793,6 +4793,69 @@ var pageData = {
       featuredImage:
         'https://www.fiware.org/wp-content/marketplace/images/hero_profirator_lakes.png',
       furtherImages: ''
+    },
+    'amazonwebservices-smartterritoryframework': {
+      category: 'Powered by FIWARE',
+      organisationName: 'Amazon Web Services',
+      productName: 'Smart Territory Framework',
+      organisationWebsite: 'https://aws.amazon.com/',
+      organisationEmail: 'mailto:aws-stf@amazon.com',
+      linkedIn: 'https://www.linkedin.com/company/amazon-web-services/',
+      twitter: '',
+      productWebsite: 'https://github.com/aws-samples/aws-stf',
+      excerpt:
+        'The Smart Territory Framework - STF - is a set of tools and standardized modules that our partners and customers can assemble together to build and operate sustainable and highly effective solutions in line with global industry standards and based on the open-source offering of the FIWARE ecosystem.',
+      yearOfValidation: 2022,
+      description:
+        '<p>With STF, customers and AWS Partners can build and operate a scalable, efficient, and interoperable platform that breaks down data silos.</p>',
+      challenge:
+        '<p>Standalone and vertical solutions with a narrow focus create data silos and prevent territories from creating a holistic strategy that maximizes citizen impact. For example, ignoring the effects on air quality and noise level when measuring the impact of converting a one-way street to a two-way street, does not give an exhaustive view.</p> <p>A territory gets smart when it can collect data from multiple and heterogeneous sources and turn data into insights that support informed decisions. This involves interacting with an ecosystem of solution providers and sharing securely data across different departments and with external organizations. </p> <p>The Smart Territory Framework is designed to be technology-agnostic, modular, and based on open-source technologies and standards so territories can build new innovative solutions but also integrate legacy systems.</p>',
+      references:
+        '<p>City of Heidelberg - Communauté de communes Alpes Provence Verdon - Al Madinah Region Development Authority</p>',
+      awards: '',
+      technologies: ['Cloud Computing', 'Digital Twins', 'Internet of Things'],
+      domains: [
+        'Cities',
+        'Energy',
+        'Sustainability',
+        'Utilities',
+        'Oil and Gas',
+        'Water'
+      ],
+      docs: [
+        ['GitHub', 'http://github.com/aws-samples/aws-stf'],
+        [
+          'Foundations for Smart Territories',
+          'http://www.youtube.com/watch?v=4MRZiC1VvKQ'
+        ],
+        ['Build a Digital Twin', 'http://www.youtube.com/watch?v=iSFtl46h6Vw']
+      ],
+      videos: [
+        [
+          'FIWARE Article',
+          'https://www.fiware.org/2022/07/04/how-the-smart-territory-framework-helps-territories-create-smart-and-sustainable-services-for-their-residents/'
+        ],
+        [
+          'Heidelberg meets Smart Territory Framework ',
+          'http://www.youtube.com/watch?v=Q_fADZFZqSE'
+        ],
+        ['YouTube-SERFIM ', 'https://www.youtube.com/watch?v=zJ8DKRuQSps']
+      ],
+      materials: [
+        [
+          'FIWARE and AWS join forces to develop digital cities',
+          'https://www.fiware.org/news/fiware-foundation-and-aws-join-forces-to-develop-digital-cities/http://'
+        ],
+        [
+          'NEC Press Release',
+          'https://www.fiware.org/news/fiware-foundation-and-aws-join-forces-to-develop-digital-cities/'
+        ]
+      ],
+      logo:
+        'https://www.fiware.org/wp-content/uploads/871eb0f18786f46a40a19a83ca69e65e.png',
+      featuredImage:
+        'https://www.fiware.org/wp-content/uploads/39ea2399b166bebae71bf8d94f856849.png',
+      furtherImages: ''
     }
   },
   ready: {
