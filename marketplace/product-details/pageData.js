@@ -4852,9 +4852,9 @@ var pageData = {
         ]
       ],
       logo:
-        'https://www.fiware.org/wp-content/uploads/871eb0f18786f46a40a19a83ca69e65e.png',
+        'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_aws.svg',
       featuredImage:
-        'https://www.fiware.org/wp-content/uploads/39ea2399b166bebae71bf8d94f856849.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_aws_smart-territory-framework.png',
       furtherImages: ''
     }
   },
