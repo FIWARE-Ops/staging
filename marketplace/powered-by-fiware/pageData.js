@@ -1752,7 +1752,7 @@ var pageData = [
     company: 'Amazon Web Services',
     name: 'Smart Territory Framework',
     img:
-      'https://www.fiware.org/wp-content/uploads/871eb0f18786f46a40a19a83ca69e65e.png',
+      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_aws.svg',
     fiwareMember: true,
     fiwareIhub: false,
     companyLink:
