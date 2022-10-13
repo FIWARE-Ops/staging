@@ -36,34 +36,45 @@ function includeHTML() {
   }
 }
 
+function waitFor(conditionFunction) {
+  const poll = resolve => {
+    if(conditionFunction()) resolve();
+    else setTimeout(_ => poll(resolve), 400);
+  }
+  return new Promise(poll);
+}
+
+function enableCarousel(){
+  jQuery('.owl-carousel').owlCarousel({
+      stagePadding:30,
+      loop:false,
+      margin:15,
+      nav:true,
+      navText : ['<span class="uk-margin-small-right uk-icon" uk-icon="icon: chevron-left"></span>','<span class="uk-margin-small-left uk-icon" uk-icon="icon: chevron-right"></span>'],
+      responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:2
+          },
+          1000:{
+              items:3
+          },
+          1400:{
+              items:4
+          },
+          1600:{
+              items:4
+          }
+      }
+  })
+}
+
 defer(async function () {
   // POPULATE THE LISTING
   await includeHTML();
-
-
- 	jQuery('.owl-carousel').owlCarousel({
-	  	stagePadding:30,
-	    loop:false,
-	    margin:15,
-	    nav:true,
-	    navText : ['<span class="uk-margin-small-right uk-icon" uk-icon="icon: chevron-left"></span>','<span class="uk-margin-small-left uk-icon" uk-icon="icon: chevron-right"></span>'],
-	    responsive:{
-	        0:{
-	            items:1
-	        },
-	        600:{
-	            items:2
-	        },
-	      	1000:{
-	            items:3
-	        },
-	      	1400:{
-	            items:4
-	        },
-	      	1600:{
-	            items:4
-	        }
-	    }
-	})
+  waitFor(_ => jQuery('.owl-carousel').children().length !== 0)
+  .then(_ => enableCarousel()); 	
 });
 
