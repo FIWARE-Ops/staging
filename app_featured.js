@@ -38,7 +38,7 @@ function includeHTML() {
 
 defer(function () {
   // POPULATE THE LISTING
-  includeHTML();
+  await includeHTML();
 
 
  	jQuery('.owl-carousel').owlCarousel({
