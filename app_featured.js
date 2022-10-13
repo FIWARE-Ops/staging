@@ -36,7 +36,7 @@ function includeHTML() {
   }
 }
 
-defer(function () {
+defer(async function () {
   // POPULATE THE LISTING
   await includeHTML();
 
