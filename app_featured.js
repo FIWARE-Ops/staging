@@ -45,6 +45,8 @@ function waitFor(conditionFunction) {
 }
 
 function enableCarousel(){
+
+  console.log(jQuery('.owl-carousel').children().length)
   jQuery('.owl-carousel').owlCarousel({
       stagePadding:30,
       loop:false,
@@ -74,7 +76,7 @@ function enableCarousel(){
 defer(async function () {
   // POPULATE THE LISTING
   await includeHTML();
-  waitFor(_ => jQuery('.owl-carousel').children().length !== 0)
+  waitFor(_ => jQuery('.owl-carousel').children().length > 10)
   .then(_ => enableCarousel()); 	
 });
 
