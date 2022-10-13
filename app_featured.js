@@ -41,7 +41,7 @@ defer(function () {
   includeHTML();
 
 
- 	$('.owl-carousel').owlCarousel({
+ 	jQuery('.owl-carousel').owlCarousel({
 	  	stagePadding:30,
 	    loop:false,
 	    margin:15,
