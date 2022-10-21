@@ -50,32 +50,34 @@ function waitFor(conditionFunction) {
 
 function enableCarousel() {
   waitFor((_) => jQuery(".owl-carousel").children().length > 13).then((_) =>
-    jQuery(".owl-carousel").owlCarousel({
-      stagePadding: 30,
-      loop: false,
-      margin: 15,
-      nav: true,
-      navText: [
-        '<span class="uk-margin-small-right uk-icon" uk-icon="icon: chevron-left"></span>',
-        '<span class="uk-margin-small-left uk-icon" uk-icon="icon: chevron-right"></span>',
-      ],
-      responsive: {
-        0: {
-          items: 1,
+    Promise.all(Array.from(jQuery(".owl-carousel img")).filter(img => !img.complete).map(img => new Promise(resolve => { img.onload = img.onerror = resolve; }))).then(() => {
+      jQuery(".owl-carousel").owlCarousel({
+        stagePadding: 30,
+        loop: false,
+        margin: 15,
+        nav: true,
+        navText: [
+          '<span class="uk-margin-small-right uk-icon" uk-icon="icon: chevron-left"></span>',
+          '<span class="uk-margin-small-left uk-icon" uk-icon="icon: chevron-right"></span>',
+        ],
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 2,
+          },
+          1000: {
+            items: 3,
+          },
+          1400: {
+            items: 4,
+          },
+          1600: {
+            items: 4,
+          },
         },
-        600: {
-          items: 2,
-        },
-        1000: {
-          items: 3,
-        },
-        1400: {
-          items: 4,
-        },
-        1600: {
-          items: 4,
-        },
-      },
+      })
     })
   );
 }
