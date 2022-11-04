@@ -1770,5 +1770,33 @@ var pageData = [
     year: 2022,
     content:
       'The Smart Territory Framework - STF - is a set of tools and standardized modules that our partners and customers can assemble together to build and operate sustainable and highly effective solutions in line with global industry standards and based on the open-source offering of the FIWARE ecosystem.'
+  },
+  {
+    company: 'HYPERTEGRITY AG',
+    name: 'Urban Data Space Platform (UDSP)',
+    img:
+      'https://www.fiware.org/wp-content/uploads/16718859bbb631526ec4357c963120c5.jpg',
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink:
+      '../product-details/?category=powered&id=hypertegrityag-urbandataspaceplatformudsp',
+    domain: [
+      'Cities',
+      'Construction and Building',
+      'Energy',
+      'Government',
+      'Sustainability'
+    ],
+    type: 'Platform',
+    technology: [
+      'Data Spaces',
+      'Internet of Things',
+      'Open Data',
+      'Software as a Service',
+      'Service Architectures'
+    ],
+    year: 2022,
+    content:
+      'UDSP is a composition of state-of-the-art open-source components, creating a data-driven architecture. It can integrate data via standard interfaces, set up processing pipelines, interactive work, and data spaces. This provides the foundation for innovative data-driven urban services and use cases.'
   }
 ];
