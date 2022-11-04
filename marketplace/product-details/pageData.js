@@ -4856,6 +4856,48 @@ var pageData = {
       featuredImage:
         'https://www.fiware.org/wp-content/marketplace/images/hero_aws_smart-territory-framework.png',
       furtherImages: ''
+    },
+    'hypertegrityag-urbandataspaceplatformudsp': {
+      category: 'Powered by FIWARE',
+      organisationName: 'HYPERTEGRITY AG',
+      productName: 'Urban Data Space Platform (UDSP)',
+      organisationWebsite: 'https://www.hypertegrity.de',
+      organisationEmail: 'mailto:info@hypertegrity.de',
+      linkedIn: '',
+      twitter: '',
+      productWebsite: 'https://www.hypertegrity.de/#Leistungsangebot',
+      excerpt:
+        'UDSP is a composition of state-of-the-art open source components, creating a data-driven architecture. It can integrate data via standard interfaces, set up processing pipelines, interactive work and data spaces. This provides the foundation for innovative data-driven urban services and use cases.',
+      yearOfValidation: 2022,
+      description:
+        '<p>Read \\"Challenges &amp; Context\\" first.</p> <p><strong>Urban Data Space Platform</strong> has solved this problem. The platform with all components and scripts belongs to the customer. Of course, we rely on open-source building blocks like the Orion FIWARE Context Broker. Every line of code is published as open source and you don\'t have to join any association, sign any contracts or letters of intents to get full access to the source code. According to the principle of Everything-as-(OpenSource)Code, you retain full digital sovereignty at all times, before and after your decision to join Urban Data Space Platform.</p> <p>Our platform is developed in line with the three key dimensions of OASC (Open &amp; Agile Smart Cities): Impact, Integration, and Integrity. We rely exclusively on open data formats and standardized interfaces as well as a modular container-based architecture on the current state-of-the-art system Kubernetes to enable optimal integration, interoperability, and reusability of the platform. Moreover, the architecture principles are compliant the german specification DIN SPEC 91357 for urban data platforms.</p> <p>With our open platform, we preserve the digital sovereignty of municipalities and even go one step further. Through the targeted use of so-called \\"low-code\\" approaches, we enable the users of the platform to implement their own use cases. Full-service operation of the platform with implementation of the use cases by Hypertegrity is possible, but not mandatory.</p> <p>The platform delivers the following functions, among others:</p> <ul> <li><p>Right-time processing of (sensor) data, geodata, or files</p></li> <li><p>Context management</p></li> <li><p>Flexible API management with a low-code approach</p></li> <li><p>Flexible customizable dashboards</p></li> <li><p>Geodata visualization</p></li> <li><p>Open Data Portal</p></li> <li><p>And many moreDear Mr. Sonnenburg,</p></li> </ul>',
+      challenge:
+        '<p>The digital transformation is making its way into more and more cities and municipalities.  This is generating ever larger volumes of data that need to be managed and evaluated. For this task, a data platform is needed that can flexibly extract the data from its various data silos for subsequent evaluation, forwarding or visualization. There are already a number of data platform solutions on the market, all of which are, without exception, proprietary after a certain point.</p> <p>Although some platforms use open source components, the installation and orchestration of the components is again kept under wraps. Once a municipality has chosen this solution, it is subject to the vendor lock-in effect, since no other service provider can operate the platform except the initial service provider.</p>',
+      references:
+        '<p>More than 7+ German Municipalities or Municial Enterprises (e.g. Berlin Tegel GmbH)</p>',
+      awards: '',
+      technologies: [
+        'Data Spaces',
+        'Internet of Things',
+        'Open Data',
+        'Software as a Service',
+        'Service Architectures'
+      ],
+      domains: [
+        'Cities',
+        'Construction and Building',
+        'Energy',
+        'Government',
+        'Sustainability'
+      ],
+      docs: [],
+      videos: [],
+      materials: [],
+      logo:
+        'https://www.fiware.org/wp-content/uploads/16718859bbb631526ec4357c963120c5.jpg',
+      featuredImage:
+        'https://www.fiware.org/wp-content/uploads/9f2d37dc8d458304f2f1359ad50c63eb.jpg',
+      furtherImages: ''
     }
   },
   ready: {
