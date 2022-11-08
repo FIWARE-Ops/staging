@@ -9576,6 +9576,77 @@ var pageData = {
       featuredImage:
         'https://www.fiware.org/wp-content/marketplace/images/hero_montem_cityprobe.png',
       furtherImages: ''
+    },
+    'mobamobileautomation-mawisu2': {
+      category: 'FIWARE-Ready',
+      organisationName: 'MOBA MOBILE AUTOMATION',
+      productName: 'MAWIS U2',
+      organisationWebsite: 'https://moba-automation.es/',
+      organisationEmail: 'mailto:moba-ise@moba.de',
+      linkedIn: 'https://www.linkedin.com/company/moba',
+      twitter: 'https://twitter.com/MOBASPAIN',
+      productWebsite: 'https://moba-automation.es/productos/softwares-y-cloud',
+      excerpt:
+        'MAWIS U2 is the MOBA software SaaS platform that integrates the necessary tools for the collection, transmission and processing of data, that allow optimization of the business processes in the area of urban services of waste collection, street cleaning & maintenance of urban equipment.',
+      yearOfValidation: 2022,
+      description:
+        '<p>For more than 50 years, <strong>MOBA</strong> has designed, developed, and manufactured custom components and application-oriented premium system solutions servicing the industries of road construction, earthmoving, waste/logistics, and agriculture. </p> <p>A leader in pioneering technology, applications, and products, such as the PAVE-IR Scanner and Sonic-Ski. MOBA excels at innovative product development, designed with a proactive and forward-thinking approach in mind. </p> <p>Our mission is to provide customers with reliable, accurate, and robust systems, sensors, controllers, and HMIs with a keen emphasis on dependability, allowing for everyday usage. </p> <p>As a global player, our customer base comes from around the globe, providing strong local support channels through our business partners.</p>',
+      challenge:
+        '<p>MOBA SMART SOLUTIONS FOR EFFICIENT WASTE MANAGEMENT</p> <p><strong>MAWIS U2</strong> is the MOBA software for efficient management of urban services: waste collection, Civic amenity sites, street cleaning &amp; maintenance of urban equipment..</p> <p>It is a SaaS platform that integrates the necessary tools for the collection, transmission and processing of data, that allow optimization of the business processes in the area of urban services.</p> <p>MOBA has 30 years of experience in the field of smart cities offering efficient, robust and innovative technologies that provide public administrations and companies with tools to move towards the circular economy:</p> <p>· Optimizing the MSW service, reducing management costs and polluting emissions. · Improving the quality of service thanks to real-time data. · Implementing fair rate systems (PAYT) that promote the reduction of waste and the increase of selective collection, advancing towards zero waste. · Increasing citizen satisfaction, through transparency and communication with the MAWIS bitPAYT App.</p>',
+      references:
+        "<p>Madrid, Barcelona, Valencia, EPREMASA (Empresa Provincial de Residuos y Medio Ambiente, S.A., dependiente de la Diputación de Córdoba), Sevilla, MARE (MEDIO AMBIENTE, AGUA, RESIDUOS Y ENERGÍA DE CANTABRIA, S.A.), Palma de Mallorca, Bilbao, Valladolid, L\\'Hospitalet, Cadiz, Granda, Cuenca, Tarragona, Girona, and more.</p>",
+      awards:
+        '<ul> <li>Top-Innovator 2018</li> <li>Bauma Innovation Award 2019 </li> <li>German Design Award 2020 </li> <li>German Bran Award 2021</li> </ul>',
+      technologies: [
+        'Big Data',
+        'Internet of Things',
+        'Mobility and Location',
+        'Sensory Systems',
+        'Software as a Service'
+      ],
+      domains: ['Cities', 'Measurement', 'Sustainability', 'Waste Management'],
+      docs: [
+        [
+          'Brochure',
+          'https://moba-automation.es/fileadmin/Documents/Brochures/Waste_Management/MAWIS/Folder_MAWIS_ES.pdf'
+        ],
+        [
+          'Waste Management ',
+          'https://moba-automation.es/fileadmin/Documents/Brochures/Waste_Management/MAWIS/Folder_MAWIS_EN.pdf'
+        ],
+        [
+          'Waste Management in German',
+          'https://moba-automation.es/fileadmin/Documents/Brochures/Waste_Management/MAWIS/Folder_MAWIS_DE.pdf'
+        ],
+        [
+          'MAWIS U2-YouTube/Spanish',
+          'https://www.youtube.com/watch?v=JHpeZTfv7n8'
+        ]
+      ],
+      videos: [['MAWIS U2-YouTube', 'https://youtu.be/ZPbNKFi0m4o']],
+      materials: [
+        [
+          'Report Material',
+          'https://mobaag-my.sharepoint.com/personal/ssoria_moba_de/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fssoria%5Fmoba%5Fde%2FDocuments%2FCOMPARTIR%2Farticulos%2FEySM201%5FMOBA%2Epdf&parent=%2Fpersonal%2Fssoria%5Fmoba%5Fde%2FDocuments%2FCOMPARTIR%2Farticulos&ga=1'
+        ],
+        [
+          'Smart Cities',
+          'https://mobaag-my.sharepoint.com/personal/ssoria_moba_de/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fssoria%5Fmoba%5Fde%2FDocuments%2FCOMPARTIR%2Farticulos%2FEySM201%5Fsmartcities%2Epdf&parent=%2Fpersonal%2Fssoria%5Fmoba%5Fde%2FDocuments%2FCOMPARTIR%2Farticulos&ga=1'
+        ],
+        [
+          'The Girona Model',
+          'https://mobaag-my.sharepoint.com/personal/ssoria_moba_de/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fssoria%5Fmoba%5Fde%2FDocuments%2FCOMPARTIR%2Farticulos%2FEySMunicipales196%2Epdf%2DModelo%20Girona%2Epdf&parent=%2Fpersonal%2Fssoria%5Fmoba%5Fde%2FDocuments%2FCOMPARTIR%2Farticulos&ga=1'
+        ],
+        [
+          'EYSMUNICIPALES Newsletter',
+          'https://www.eysmunicipales.es/actualidad/granada-instala-sensores-de-llenado-en-mas-de-1-200-contenedores'
+        ]
+      ],
+      logo:
+        'https://www.fiware.org/wp-content/uploads/55eaaf3c731439cdc365e063065f218b.jpg',
+      featuredImage:
+        'https://www.fiware.org/wp-content/uploads/e0c450b20f455baaa743fdb625d94d2e.jpg',
+      furtherImages: ''
     }
   },
   cities: {
