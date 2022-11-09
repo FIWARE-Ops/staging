@@ -1734,7 +1734,7 @@ var pageData = [
       'https://www.fiware.org/wp-content/uploads/16718859bbb631526ec4357c963120c5.jpg',
     fiwareMember: true,
     fiwareIhub: false,
-    companyLink: 'https://www.hypertegrity.de',
+    companyLink: 'https://www.hypertegrity.de/#Leistungsangebot',
     domain: [
       'Cities',
       'Construction and Building',
@@ -1761,7 +1761,8 @@ var pageData = [
       'https://www.fiware.org/wp-content/uploads/39085efcf42923bde8458b650f213e2f.jpg',
     fiwareMember: true,
     fiwareIhub: false,
-    companyLink: 'https://www.eng.it/',
+    companyLink:
+      'https://www.eng.it/en/our-platforms-solutions/digital-enabler',
     domain: ['Cities', 'Construction and Building', 'Energy', 'Sustainability'],
     type: 'Solution',
     technology: [

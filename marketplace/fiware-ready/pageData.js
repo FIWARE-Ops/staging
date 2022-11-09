@@ -1058,7 +1058,7 @@ var pageData = [
       'https://www.fiware.org/wp-content/uploads/55eaaf3c731439cdc365e063065f218b.jpg',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink: 'https://moba-automation.es/',
+    companyLink: 'https://moba-automation.es/productos/softwares-y-cloud',
     domain: ['Cities', 'Measurement', 'Sustainability', 'Waste Management'],
     type: 'Software enabler',
     technology: [
