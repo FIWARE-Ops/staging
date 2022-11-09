@@ -56,14 +56,14 @@ function extractProductDetails(input) {
   };
 
   input.forEach(item => {
-    const category = Parser.getCategory(item['FIWARE-Ready']);
+    const category = Parser.getCategory(item['Category']);
     const hash = Parser.getHash(
       item['Organisation Name'],
       item['Product Name']
     );
 
     details[category][hash] = {
-      category: item['FIWARE-Ready'],
+      category: item['Category'],
       organisationName: item['Organisation Name'],
       productName: item['Product Name'],
       organisationWebsite: item['Organisation Website'],
