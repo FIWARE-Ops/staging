@@ -1734,7 +1734,7 @@ var pageData = [
       'https://www.fiware.org/wp-content/uploads/16718859bbb631526ec4357c963120c5.jpg',
     fiwareMember: true,
     fiwareIhub: false,
-    companyLink: 'https://www.hypertegrity.de/#Leistungsangebot',
+    companyLink: 'https://www.hypertegrity.de',
     domain: [
       'Cities',
       'Construction and Building',
@@ -1752,7 +1752,7 @@ var pageData = [
     ],
     year: 2022,
     content:
-      'UDSP is a composition of state-of-the-art open-source components, creating a data-driven architecture. It can integrate data via standard interfaces, set up processing pipelines, interactive work, and data spaces. This provides the foundation for innovative data-driven urban services and use cases.'
+      'UDSP is a composition of state-of-the-art open source components, creating a data-driven architecture. It can integrate data via standard interfaces, set up processing pipelines, interactive work and data spaces. This provides the foundation for innovative data-driven urban services and use cases.'
   },
   {
     company: 'Engineering Ingegneria Informatica',
@@ -1761,8 +1761,7 @@ var pageData = [
       'https://www.fiware.org/wp-content/uploads/39085efcf42923bde8458b650f213e2f.jpg',
     fiwareMember: true,
     fiwareIhub: false,
-    companyLink:
-      'https://www.eng.it/en/our-platforms-solutions/digital-enabler',
+    companyLink: 'https://www.eng.it/',
     domain: ['Cities', 'Construction and Building', 'Energy', 'Sustainability'],
     type: 'Solution',
     technology: [
