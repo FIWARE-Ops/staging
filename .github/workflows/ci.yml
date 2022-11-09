@@ -1,4 +1,4 @@
-name: "Refresh PageData.js"
+name: Publish Products to STAGING fiware-ops.github.io
 on:
   push:
     branches:
