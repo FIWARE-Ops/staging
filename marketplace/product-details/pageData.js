@@ -3467,6 +3467,16 @@ var pageData = {
           productName: 'WiseTown Thematic Dashboard',
           companyLink:
             './?category=powered&id=teamdev-wisetownthematicdashboard'
+        },
+        {
+          category: 'Services',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_fiware-professional-services.png',
+          excerpt:
+            'TeamDev is an Italian leading innovation company and FIWARE gold member. Thanks to its wide range of skills, TeamDev develops deep tech solutions for the smart city and smart manufacturing domains in several countries around the world.',
+          productName: 'FIWARE Professional Services',
+          companyLink:
+            './?category=services&id=teamdev-fiwareprofessionalservices'
         }
       ]
     },
@@ -3571,6 +3581,16 @@ var pageData = {
           productName: 'WiseTown Thematic Dashboard',
           companyLink:
             './?category=powered&id=teamdev-wisetownthematicdashboard'
+        },
+        {
+          category: 'Services',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_fiware-professional-services.png',
+          excerpt:
+            'TeamDev is an Italian leading innovation company and FIWARE gold member. Thanks to its wide range of skills, TeamDev develops deep tech solutions for the smart city and smart manufacturing domains in several countries around the world.',
+          productName: 'FIWARE Professional Services',
+          companyLink:
+            './?category=services&id=teamdev-fiwareprofessionalservices'
         }
       ]
     },
@@ -3680,6 +3700,16 @@ var pageData = {
           productName: 'WiseTown Thematic Dashboard',
           companyLink:
             './?category=powered&id=teamdev-wisetownthematicdashboard'
+        },
+        {
+          category: 'Services',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_fiware-professional-services.png',
+          excerpt:
+            'TeamDev is an Italian leading innovation company and FIWARE gold member. Thanks to its wide range of skills, TeamDev develops deep tech solutions for the smart city and smart manufacturing domains in several countries around the world.',
+          productName: 'FIWARE Professional Services',
+          companyLink:
+            './?category=services&id=teamdev-fiwareprofessionalservices'
         }
       ]
     },
@@ -3779,6 +3809,16 @@ var pageData = {
           productName: 'WiseTown Thematic Dashboard',
           companyLink:
             './?category=powered&id=teamdev-wisetownthematicdashboard'
+        },
+        {
+          category: 'Services',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_fiware-professional-services.png',
+          excerpt:
+            'TeamDev is an Italian leading innovation company and FIWARE gold member. Thanks to its wide range of skills, TeamDev develops deep tech solutions for the smart city and smart manufacturing domains in several countries around the world.',
+          productName: 'FIWARE Professional Services',
+          companyLink:
+            './?category=services&id=teamdev-fiwareprofessionalservices'
         }
       ]
     },
@@ -3883,6 +3923,16 @@ var pageData = {
           productName: 'WiseTown Thematic Dashboard',
           companyLink:
             './?category=powered&id=teamdev-wisetownthematicdashboard'
+        },
+        {
+          category: 'Services',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_fiware-professional-services.png',
+          excerpt:
+            'TeamDev is an Italian leading innovation company and FIWARE gold member. Thanks to its wide range of skills, TeamDev develops deep tech solutions for the smart city and smart manufacturing domains in several countries around the world.',
+          productName: 'FIWARE Professional Services',
+          companyLink:
+            './?category=services&id=teamdev-fiwareprofessionalservices'
         }
       ]
     },
@@ -4000,6 +4050,16 @@ var pageData = {
           productName: 'WiseTown Thematic Dashboard',
           companyLink:
             './?category=powered&id=teamdev-wisetownthematicdashboard'
+        },
+        {
+          category: 'Services',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_fiware-professional-services.png',
+          excerpt:
+            'TeamDev is an Italian leading innovation company and FIWARE gold member. Thanks to its wide range of skills, TeamDev develops deep tech solutions for the smart city and smart manufacturing domains in several countries around the world.',
+          productName: 'FIWARE Professional Services',
+          companyLink:
+            './?category=services&id=teamdev-fiwareprofessionalservices'
         }
       ]
     },
@@ -4104,6 +4164,16 @@ var pageData = {
             'WiseTown Situation Room is a platform for the management of events and emergencies in an urban context. The tool collects the data produced by the city and displays it through a dashboard that ensures immediate analysis and response.',
           productName: 'WiseTown Situation Room',
           companyLink: './?category=powered&id=teamdev-wisetownsituationroom'
+        },
+        {
+          category: 'Services',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_fiware-professional-services.png',
+          excerpt:
+            'TeamDev is an Italian leading innovation company and FIWARE gold member. Thanks to its wide range of skills, TeamDev develops deep tech solutions for the smart city and smart manufacturing domains in several countries around the world.',
+          productName: 'FIWARE Professional Services',
+          companyLink:
+            './?category=services&id=teamdev-fiwareprofessionalservices'
         }
       ]
     },
@@ -11142,11 +11212,10 @@ var pageData = {
         }
       ]
     },
-    'teamdev-teamdevisanitalianleadinginnovationcompanyandfiwaregoldmemberthankstoitswiderangeofskillsteamdevdevelopsdeeptechsolutionsforthesmartcityandsmartmanufacturingdomainsinseveralcountriesaroundtheworld': {
+    'teamdev-fiwareprofessionalservices': {
       category: 'Services',
       organisationName: 'TeamDev',
-      productName:
-        'TeamDev is an Italian leading innovation company and FIWARE gold member. Thanks to its wide range of skills, TeamDev develops deep tech solutions for the smart city and smart manufacturing domains in several countries around the world.',
+      productName: 'FIWARE Professional Services',
       organisationWebsite: 'https://www.teamdev.it/en/',
       organisationEmail: 'mailto:teamdevsrl@pec.it',
       linkedIn: 'https://www.linkedin.com/company/teamdev-tech/',
@@ -11194,7 +11263,73 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_TeamDev.svg',
       featuredImage:
         'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_fiware-professional-services.png',
-      furtherImages: ''
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown.png',
+          excerpt:
+            'WiseTown is a digital system for the city fully scalable, modular, designed to allow full integration with the city administration’s existing systems, third party solutions, IoT applications and external data sources. WiseTown is the engine that collects the city’s data and makes it available.',
+          productName: 'WiseTown',
+          companyLink: './?category=powered&id=teamdev-wisetown'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-crowd-planning.png',
+          excerpt:
+            'WiseTown Crowd Planning is the platform that allows Public Administration to activate communication with citizens regarding planning objectives, with the ultimate goal of generating active involvement. A tool developed for a participatory urban planning.',
+          productName: 'WiseTown Crowd Planning',
+          companyLink: './?category=powered&id=teamdev-wisetowncrowdplanning'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-geoanalytics.png',
+          excerpt:
+            'WiseTown GeoAnalytics is a Decision Support System available to city administrators and public administration professionals. Maps, graphs, infographics and statistics highlight valuable information and provide an extrapolation of complex information useful for more informed urban planning.',
+          productName: 'WiseTown Geoanalytics',
+          companyLink: './?category=powered&id=teamdev-wisetowngeoanalytics'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-issue-manager.png',
+          excerpt:
+            'WiseTown Issue Manager is a digital system that enables citizens to support the city government by reporting city issues; at the same time it simplifies the internal workflow of the public administration by automating processes and improving the work of the operators',
+          productName: 'WiseTown Issue Manager',
+          companyLink: './?category=powered&id=teamdev-wisetownissuemanager'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-open-data-manager.png',
+          excerpt:
+            'WiseTown Open Data Manager searches and aggregates data on customizable criteria to produce Open Data catalogs for the Smart City. WiseTown software makes Public Administration data a common good, anonymous and GDPR compliant.',
+          productName: 'WiseTown Open Data Manager',
+          companyLink: './?category=powered&id=teamdev-wisetownopendatamanager'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-situation-room.png',
+          excerpt:
+            'WiseTown Situation Room is a platform for the management of events and emergencies in an urban context. The tool collects the data produced by the city and displays it through a dashboard that ensures immediate analysis and response.',
+          productName: 'WiseTown Situation Room',
+          companyLink: './?category=powered&id=teamdev-wisetownsituationroom'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-thematic-dashboard.png',
+          excerpt:
+            'WiseTown Thematic Dashboard is an application that allows you to create custom visualizations to compare map information with statistical data and real-time data from satellite systems. The dashboards can manage economic, demographic, social, environmental and many other data.',
+          productName: 'WiseTown Thematic Dashboard',
+          companyLink:
+            './?category=powered&id=teamdev-wisetownthematicdashboard'
+        }
+      ]
     },
     'ubiwhere-fiwareubiwhere': {
       category: 'Services',
