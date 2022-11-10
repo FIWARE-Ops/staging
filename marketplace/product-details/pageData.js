@@ -13,7 +13,7 @@ var pageData = {
         '[ui!] UrbanPulse is an open central data platform for urban data in real-time - based on a highly scalable architecture for data processing and analysis, with a special connector framework for the integration of sensors, urban management systems and Visualization of complex data with tiles and maps.',
       yearOfValidation: 2019,
       description:
-        '<p>**[ui!] UrbanPulse **is the Open Urban Data Platform for cities, communities, utilities, and other organizations that want to reuse and repurpose new and existing urban data sources to create value-added services. The [ui!] UrbanPulse platform is the most efficient open urban platform with open APIs that makes it easy and affordable for small and large customers to integrate new and existing data sources, process and analyze data in near real-time. The platform also makes it possible to finally present and share the data with various stakeholders.</p> <p>When you go live with [ui!] UrbanPulse, you get an Open Urban Data Platform (OUP) with over 130 supported data sources (connectors) for direct connection. Among them, you will find management, sensor systems, and IoT devices that have been developed thanks to many cities/communities within their smart city projects with [ui!] UrbanPulse and are immediately available. So you can start testing and implementing your project right away.</p> <p>Using these existing data sources (connectors), data-driven services can be created or extended with a short implementation phase. This includes information on noise and environmental emissions, traffic issues such as volumes, real-time forecasts, and the intersection of different data sets. Transfer existing smart city use cases to your city/communities or region and adapt them to your circumstances.</p> <h4 id="specifications">Specifications</h4> <p>The platform is implemented according to DIN Spec 91357, developed for Software-as-a- Service (SaaS) application and can be operated in a local data center for data sovereignty reasons.</p>',
+        '<p>*[ui!] UrbanPulse *is the Open Urban Data Platform for cities, communities, utilities, and other organizations that want to reuse and repurpose new and existing urban data sources to create value-added services. The [ui!] UrbanPulse platform is the most efficient open urban platform with open APIs that makes it easy and affordable for small and large customers to integrate new and existing data sources, process and analyze data in near real-time. The platform also makes it possible to finally present and share the data with various stakeholders.</p> <p>When you go live with [ui!] UrbanPulse, you get an Open Urban Data Platform (OUP) with over 130 supported data sources (connectors) for direct connection. Among them, you will find management, sensor systems, and IoT devices that have been developed thanks to many cities/communities within their smart city projects with [ui!] UrbanPulse and are immediately available. So you can start testing and implementing your project right away.</p> <p>Using these existing data sources (connectors), data-driven services can be created or extended with a short implementation phase. This includes information on noise and environmental emissions, traffic issues such as volumes, real-time forecasts, and the intersection of different data sets. Transfer existing smart city use cases to your city/communities or region and adapt them to your circumstances.</p> <h4 id="specifications">Specifications</h4> <p>The platform is implemented according to DIN Spec 91357, developed for Software-as-a- Service (SaaS) application and can be operated in a local data center for data sovereignty reasons.</p>',
       challenge:
         '<p>Advancing urbanization and the associated challenges, including in urban and regional infrastructures, mobility and energy, requires a new, networked approach.</p> <p>Resource-conserving and environmentally compatible actions on the one hand, and situation-appropriate and measured decision-making on the other, require extensive data from many, previously isolated systems within a community.</p> <p>[ui!] supports cities, communities, counties, and regions in their efforts to collect, process and analyze all existing and anonymized urban data on a central data platform. We also help make this data available for new services as added value for cities, communities, and utility companies.</p> <p>These solutions are based on an open urban data platform – the [ui!] UrbanPulse - where all data from a city’s various IT systems are fed into the system in order to be used for new smart city services in real-time. This meets the current requirements of DIN SPEC 91357 - Reference Architecture Model Open Urban Platform (OUP).</p> <p>Using a large number of connectors, we are able to link a wide variety of IT systems together. We are able to do this in such a way that all the information in a city can be used and made visible, while at the same time leaving the data sovereignty with the respective provider. The platform, therefore, not only provides integrated access to urban data, but also prevents the risk of data misuse.</p>',
       references:
@@ -3467,16 +3467,6 @@ var pageData = {
           productName: 'WiseTown Thematic Dashboard',
           companyLink:
             './?category=powered&id=teamdev-wisetownthematicdashboard'
-        },
-        {
-          category: 'Services',
-          featuredImage:
-            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_fiware-professional-services.png',
-          excerpt:
-            'TeamDev has a long and solid experience in using the FIWARE ecosystem and we can offer support to other companies who want to start using these technologies.',
-          productName: 'FIWARE Professional Services',
-          companyLink:
-            './?category=services&id=teamdev-fiwareprofessionalservices'
         }
       ]
     },
@@ -3581,16 +3571,6 @@ var pageData = {
           productName: 'WiseTown Thematic Dashboard',
           companyLink:
             './?category=powered&id=teamdev-wisetownthematicdashboard'
-        },
-        {
-          category: 'Services',
-          featuredImage:
-            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_fiware-professional-services.png',
-          excerpt:
-            'TeamDev has a long and solid experience in using the FIWARE ecosystem and we can offer support to other companies who want to start using these technologies.',
-          productName: 'FIWARE Professional Services',
-          companyLink:
-            './?category=services&id=teamdev-fiwareprofessionalservices'
         }
       ]
     },
@@ -3700,16 +3680,6 @@ var pageData = {
           productName: 'WiseTown Thematic Dashboard',
           companyLink:
             './?category=powered&id=teamdev-wisetownthematicdashboard'
-        },
-        {
-          category: 'Services',
-          featuredImage:
-            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_fiware-professional-services.png',
-          excerpt:
-            'TeamDev has a long and solid experience in using the FIWARE ecosystem and we can offer support to other companies who want to start using these technologies.',
-          productName: 'FIWARE Professional Services',
-          companyLink:
-            './?category=services&id=teamdev-fiwareprofessionalservices'
         }
       ]
     },
@@ -3809,16 +3779,6 @@ var pageData = {
           productName: 'WiseTown Thematic Dashboard',
           companyLink:
             './?category=powered&id=teamdev-wisetownthematicdashboard'
-        },
-        {
-          category: 'Services',
-          featuredImage:
-            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_fiware-professional-services.png',
-          excerpt:
-            'TeamDev has a long and solid experience in using the FIWARE ecosystem and we can offer support to other companies who want to start using these technologies.',
-          productName: 'FIWARE Professional Services',
-          companyLink:
-            './?category=services&id=teamdev-fiwareprofessionalservices'
         }
       ]
     },
@@ -3923,16 +3883,6 @@ var pageData = {
           productName: 'WiseTown Thematic Dashboard',
           companyLink:
             './?category=powered&id=teamdev-wisetownthematicdashboard'
-        },
-        {
-          category: 'Services',
-          featuredImage:
-            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_fiware-professional-services.png',
-          excerpt:
-            'TeamDev has a long and solid experience in using the FIWARE ecosystem and we can offer support to other companies who want to start using these technologies.',
-          productName: 'FIWARE Professional Services',
-          companyLink:
-            './?category=services&id=teamdev-fiwareprofessionalservices'
         }
       ]
     },
@@ -4050,16 +4000,6 @@ var pageData = {
           productName: 'WiseTown Thematic Dashboard',
           companyLink:
             './?category=powered&id=teamdev-wisetownthematicdashboard'
-        },
-        {
-          category: 'Services',
-          featuredImage:
-            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_fiware-professional-services.png',
-          excerpt:
-            'TeamDev has a long and solid experience in using the FIWARE ecosystem and we can offer support to other companies who want to start using these technologies.',
-          productName: 'FIWARE Professional Services',
-          companyLink:
-            './?category=services&id=teamdev-fiwareprofessionalservices'
         }
       ]
     },
@@ -4164,16 +4104,6 @@ var pageData = {
             'WiseTown Situation Room is a platform for the management of events and emergencies in an urban context. The tool collects the data produced by the city and displays it through a dashboard that ensures immediate analysis and response.',
           productName: 'WiseTown Situation Room',
           companyLink: './?category=powered&id=teamdev-wisetownsituationroom'
-        },
-        {
-          category: 'Services',
-          featuredImage:
-            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_fiware-professional-services.png',
-          excerpt:
-            'TeamDev has a long and solid experience in using the FIWARE ecosystem and we can offer support to other companies who want to start using these technologies.',
-          productName: 'FIWARE Professional Services',
-          companyLink:
-            './?category=services&id=teamdev-fiwareprofessionalservices'
         }
       ]
     },
@@ -9689,7 +9619,7 @@ var pageData = {
         ]
       ],
       logo:
-        'https://www.fiware.org/wp-content/uploads/55eaaf3c731439cdc365e063065f218b.jpg',
+        'https://moba-automation.com/fileadmin/MOBA-Template/Images/Moba-Logo-blk.png',
       featuredImage:
         'https://www.fiware.org/wp-content/uploads/e0c450b20f455baaa743fdb625d94d2e.jpg',
       furtherImages: ''
@@ -10603,7 +10533,7 @@ var pageData = {
       category: 'Services',
       organisationName: 'HOPU',
       productName: 'FIWARE Expert certification',
-      organisationWebsite: '',
+      organisationWebsite: 'https://hopu.eu/',
       organisationEmail: 'mailto:info@hopu.eu',
       linkedIn: 'https://www.linkedin.com/company/hopu-smartcities/',
       twitter: 'https://twitter.com/HOPUbiquitous/status/1531937119001878535',
@@ -11212,17 +11142,18 @@ var pageData = {
         }
       ]
     },
-    'teamdev-fiwareprofessionalservices': {
+    'teamdev-teamdevisanitalianleadinginnovationcompanyandfiwaregoldmemberthankstoitswiderangeofskillsteamdevdevelopsdeeptechsolutionsforthesmartcityandsmartmanufacturingdomainsinseveralcountriesaroundtheworld': {
       category: 'Services',
       organisationName: 'TeamDev',
-      productName: 'FIWARE Professional Services',
+      productName:
+        'TeamDev is an Italian leading innovation company and FIWARE gold member. Thanks to its wide range of skills, TeamDev develops deep tech solutions for the smart city and smart manufacturing domains in several countries around the world.',
       organisationWebsite: 'https://www.teamdev.it/en/',
       organisationEmail: 'mailto:teamdevsrl@pec.it',
       linkedIn: 'https://www.linkedin.com/company/teamdev-tech/',
       twitter: 'https://twitter.com/TeamDevTech',
       productWebsite: 'https://www.teamdev.it/en/',
       excerpt:
-        'TeamDev has a long and solid experience in using the FIWARE ecosystem and we can offer support to other companies who want to start using these technologies.',
+        'TeamDev is an Italian leading innovation company and FIWARE gold member. Thanks to its wide range of skills, TeamDev develops deep tech solutions for the smart city and smart manufacturing domains in several countries around the world.',
       yearOfValidation: 2014,
       description:
         '<p><strong>TeamDev</strong> is a software house founded in 2008 that designs and develops innovative solutions to make data actionable for industrial digitalization, sustainable development and urban management. Areas of action:</p> <ul> <li>Smart Industry: We design and develop Industry 4.0 solutions ranging from advanced analytics to human machine interfaces and AI powered manufacturing control systems.</li> <li>Digital PA: We deliver consulting services to international organizations and Public Administrations engaged in sustainable development and international cooperation projects.</li> <li>Smart City: We support local governments with a comprehensive suite of solutions that range from civic technologies to advanced decision support systems for local administrators.</li> <li>Thanks to our wide range of skills and multisectorial projects, we can provide teaching, mentoring, and on-the-job training, as well as outsourced support related to the use of FIWARE technologies in multiple frameworks.</li> <li>Technical expertise: AI, GIS, IoT, Data Visualization, BIG DATA, Remote Sensing, Predictive Maintenance, advanced HMI and UX design.</li> </ul>',
@@ -11263,73 +11194,7 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_TeamDev.svg',
       featuredImage:
         'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_fiware-professional-services.png',
-      furtherImages: '',
-      related: [
-        {
-          category: 'Powered by FIWARE',
-          featuredImage:
-            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown.png',
-          excerpt:
-            'WiseTown is a digital system for the city fully scalable, modular, designed to allow full integration with the city administration’s existing systems, third party solutions, IoT applications and external data sources. WiseTown is the engine that collects the city’s data and makes it available.',
-          productName: 'WiseTown',
-          companyLink: './?category=powered&id=teamdev-wisetown'
-        },
-        {
-          category: 'Powered by FIWARE',
-          featuredImage:
-            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-crowd-planning.png',
-          excerpt:
-            'WiseTown Crowd Planning is the platform that allows Public Administration to activate communication with citizens regarding planning objectives, with the ultimate goal of generating active involvement. A tool developed for a participatory urban planning.',
-          productName: 'WiseTown Crowd Planning',
-          companyLink: './?category=powered&id=teamdev-wisetowncrowdplanning'
-        },
-        {
-          category: 'Powered by FIWARE',
-          featuredImage:
-            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-geoanalytics.png',
-          excerpt:
-            'WiseTown GeoAnalytics is a Decision Support System available to city administrators and public administration professionals. Maps, graphs, infographics and statistics highlight valuable information and provide an extrapolation of complex information useful for more informed urban planning.',
-          productName: 'WiseTown Geoanalytics',
-          companyLink: './?category=powered&id=teamdev-wisetowngeoanalytics'
-        },
-        {
-          category: 'Powered by FIWARE',
-          featuredImage:
-            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-issue-manager.png',
-          excerpt:
-            'WiseTown Issue Manager is a digital system that enables citizens to support the city government by reporting city issues; at the same time it simplifies the internal workflow of the public administration by automating processes and improving the work of the operators',
-          productName: 'WiseTown Issue Manager',
-          companyLink: './?category=powered&id=teamdev-wisetownissuemanager'
-        },
-        {
-          category: 'Powered by FIWARE',
-          featuredImage:
-            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-open-data-manager.png',
-          excerpt:
-            'WiseTown Open Data Manager searches and aggregates data on customizable criteria to produce Open Data catalogs for the Smart City. WiseTown software makes Public Administration data a common good, anonymous and GDPR compliant.',
-          productName: 'WiseTown Open Data Manager',
-          companyLink: './?category=powered&id=teamdev-wisetownopendatamanager'
-        },
-        {
-          category: 'Powered by FIWARE',
-          featuredImage:
-            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-situation-room.png',
-          excerpt:
-            'WiseTown Situation Room is a platform for the management of events and emergencies in an urban context. The tool collects the data produced by the city and displays it through a dashboard that ensures immediate analysis and response.',
-          productName: 'WiseTown Situation Room',
-          companyLink: './?category=powered&id=teamdev-wisetownsituationroom'
-        },
-        {
-          category: 'Powered by FIWARE',
-          featuredImage:
-            'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_wisetown-thematic-dashboard.png',
-          excerpt:
-            'WiseTown Thematic Dashboard is an application that allows you to create custom visualizations to compare map information with statistical data and real-time data from satellite systems. The dashboards can manage economic, demographic, social, environmental and many other data.',
-          productName: 'WiseTown Thematic Dashboard',
-          companyLink:
-            './?category=powered&id=teamdev-wisetownthematicdashboard'
-        }
-      ]
+      furtherImages: ''
     },
     'ubiwhere-fiwareubiwhere': {
       category: 'Services',
