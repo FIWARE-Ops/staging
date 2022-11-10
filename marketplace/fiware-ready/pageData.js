@@ -1086,7 +1086,7 @@ var pageData = [
     company: 'MOBA MOBILE AUTOMATION',
     name: 'MAWIS U2',
     img:
-      'https://www.fiware.org/wp-content/uploads/55eaaf3c731439cdc365e063065f218b.jpg',
+      'https://moba-automation.com/fileadmin/MOBA-Template/Images/Moba-Logo-blk.png',
     fiwareMember: false,
     fiwareIhub: false,
     companyLink:

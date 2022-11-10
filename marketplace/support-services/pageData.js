@@ -544,8 +544,7 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_TeamDev.svg',
     fiwareMember: true,
     fiwareIhub: false,
-    companyLink:
-      '../product-details/?category=services&id=teamdev-fiwareprofessionalservices',
+    companyLink: 'https://www.teamdev.it/en/',
     domain: [
       'Cities',
       'Government',
