@@ -1,5 +1,5 @@
 function defer(method) {
-  if (window.jQuery && window.$) {
+  if (window.jQuery && window.$ && window.pageData) {
     method();
   } else {
     setTimeout(function () {
