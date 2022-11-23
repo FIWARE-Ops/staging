@@ -248,7 +248,7 @@ var pageData = [
     company: 'FIWARE Zone',
     name: 'Consultancy & Integration Services',
     img:
-      'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_FIWAREZone.svg',
+      'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_FIWARESpace.svg',
     fiwareMember: false,
     fiwareIhub: true,
     companyLink:

@@ -4894,9 +4894,9 @@ var pageData = {
       videos: [],
       materials: [],
       logo:
-        'https://www.fiware.org/wp-content/uploads/16718859bbb631526ec4357c963120c5.jpg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Hypertegrity.svg',
       featuredImage:
-        'https://www.fiware.org/wp-content/uploads/9f2d37dc8d458304f2f1359ad50c63eb.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_hypertegrity_udsp.png',
       furtherImages: ''
     },
     'engineeringingegneriainformatica-extendeddigitaltwinofsmartbuildings': {
@@ -4940,9 +4940,9 @@ var pageData = {
         ['Impact Stories', 'https://www.fiware.org/about-us/impact-stories/']
       ],
       logo:
-        'https://www.fiware.org/wp-content/uploads/39085efcf42923bde8458b650f213e2f.jpg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Engineering.svg',
       featuredImage:
-        'https://www.fiware.org/wp-content/uploads/425fb19f44dd3661dd70fbef62787c54.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_engineering_extended-digital-twin.png',
       furtherImages: ''
     },
     'agricolussrl-agrigateways': {
@@ -4989,9 +4989,9 @@ var pageData = {
       ],
       materials: [],
       logo:
-        'https://www.fiware.org/wp-content/uploads/d7b9e0195e5d52f85f5e0c35731b64ec.pdf',
+        'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_AgriGateway.svg',
       featuredImage:
-        'https://www.fiware.org/wp-content/uploads/be9098388c1dca99061841bfe7890791.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_agricolus_agrigateways.png',
       furtherImages: ''
     }
   },
@@ -9738,15 +9738,15 @@ var pageData = {
         ]
       ],
       logo:
-        'https://moba-automation.com/fileadmin/MOBA-Template/Images/Moba-Logo-blk.png',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_MOBA.svg',
       featuredImage:
-        'https://www.fiware.org/wp-content/uploads/e0c450b20f455baaa743fdb625d94d2e.jpg',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_moba_mawis-u2.png',
       furtherImages: ''
     },
-    'socialcloudsl-sporttiafiot': {
+    'socialcloudsl-sporttia': {
       category: 'FIWARE-Ready',
       organisationName: 'Social Cloud, S.L.',
-      productName: 'Sporttia FIoT',
+      productName: 'Sporttia',
       organisationWebsite: 'https://www.sporttia.com',
       organisationEmail: 'mailto:info@sporttia.com',
       linkedIn: 'https://es.linkedin.com/company/sporttia',
@@ -9773,9 +9773,9 @@ var pageData = {
       videos: [],
       materials: [],
       logo:
-        'https://www.fiware.org/wp-content/uploads/bce8e11172ee6227a660264528992612.jpg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/raster/logo_Sporttia.png',
       featuredImage:
-        'https://www.sporttia.com/wp-content/uploads/2020/05/app-alquiler-pistas-deportivas.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_social-club_sporttia.png',
       furtherImages: ''
     }
   },
