@@ -4944,6 +4944,55 @@ var pageData = {
       featuredImage:
         'https://www.fiware.org/wp-content/uploads/425fb19f44dd3661dd70fbef62787c54.png',
       furtherImages: ''
+    },
+    'agricolussrl-agrigateways': {
+      category: 'Powered by FIWARE',
+      organisationName: 'Agricolus srl',
+      productName: 'Agrigateways',
+      organisationWebsite: 'https://agricolus.com',
+      organisationEmail: 'mailto:discover@agricolus.com',
+      linkedIn: 'https://www.linkedin.com/company/agricoluss.r.l./',
+      twitter: 'https://twitter.com/AgricolusSuite',
+      productWebsite: 'https://agrigateways.eu',
+      excerpt:
+        'Agrigateway is a suite of open-source cloud applications based on FIWARE agrifood technologies. Designed for farmers, agronomists and agricultural consortia, it ensures interoperability between a wide range of agritech hardware solutions, available on the market and provided by different vendors.',
+      yearOfValidation: 2022,
+      description:
+        '<p>Using FIWARE Context Broker, Agrigateway is a rich suite of complementary open-source FIWARE Generic Enablers. It is made up of two modules: the first is Agri Weather Gateway, a module designed to integrate weather stations from a wide variety of meteo stations. It allows aggregation and visualization of weather data for farmers and cooperatives that need more in-depth analysis. The second is Agri Contractor Gateways, a module that enables the collection and display of data from agricultural machinery via CANBUS and ISOBUS technology.</p> <p>Through Agrigateways we support farmers, agronomists and agricultural consortia in several ways:</p> <ul> <li><p>Provide producers with a standardized interface that can be used by AG platforms and other AG-related products.</p></li> <li><p>Provide a stand-alone platform that helps to visualize data from different sensors/machinery.</p></li> <li><p>Provide a product that can be used by governments (local and central) and contractors to connect many different sensors/machinery and to provide access to farmers.</p></li> <li><p>Provide a product that can operate independently or can be interconnected with other platforms.</p></li> </ul>',
+      challenge:
+        '<p>This product has some major interests:</p> <ul> <li><p>Providing a standardized interface to several producers that can be used by AG platforms and other AG-related products</p></li> <li><p>Providing a standalone platform that can be used to visualize data coming from different sensors</p></li> <li><p>Providing a product that can be used even by the government (local and central) to connect many different sensors and to provide access to the farmers</p></li> </ul> <p>The developed product aims to fill a gap in the market. This kind of product is more than welcomed by the Public Administration and by platform producers to simplify access to this kind of data.</p> <p>This idea starts from a common need expressed by two of these platforms, Agricolus and 365FarmNet, that meet in the IOF2020 ecosystem and are recognized as a common benefit to run a joint effort to build this GE. Both companies recognized FIWARE as the natural architecture to choose for this kind of development.</p>',
+      references:
+        '<p>Agrigateways is designed for farmers, agronomists and agricultural consortia and government departments.</p>',
+      awards:
+        '<ul> <li>First prize of the Startup Forum at the Food 4 Future event in Bilbao in 2021 </li> <li>Award for the best team at Global Agripreneurs Summit 2019 </li> <li>SME Instrument Phase 1 winner with Agricolus DSS project ID: 719968 </li> <li>Fractals winner with Oliwes solution is sub granted by FP7 Fractals ref. GA 632874 European Agricultural Fund for Rural Development (EAFRD) </li> <li>Speed Up Europe winner with Agricolus Web Awareness project sub granted by FP7 Speed UP! Europe ref. GA 632858</li> </ul>',
+      technologies: [
+        'Cloud Computing',
+        'Data Analytics',
+        'Data Handling',
+        'Internet of Things'
+      ],
+      domains: [
+        'Agriculture',
+        'AgriFood',
+        'Government',
+        'Sustainability',
+        'Weather'
+      ],
+      docs: [
+        ['GitHub', 'https://github.com/Agricolus/AWG.api/blob/master/README.md']
+      ],
+      videos: [
+        [
+          'FIWARE AgriFood DAY-YouTube',
+          'https://www.youtube.com/watch?v=cnExMNsEuhA&t=6957s'
+        ]
+      ],
+      materials: [],
+      logo:
+        'https://www.fiware.org/wp-content/uploads/d7b9e0195e5d52f85f5e0c35731b64ec.pdf',
+      featuredImage:
+        'https://www.fiware.org/wp-content/uploads/be9098388c1dca99061841bfe7890791.png',
+      furtherImages: ''
     }
   },
   ready: {

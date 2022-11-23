@@ -1821,5 +1821,32 @@ var pageData = [
     year: 2022,
     content:
       'The solution enables the rapid development of \\"eXtended Digital Twin\\" of Buildings. It provides a set of accelerators for Device Management over the edge, Data Mashup and Harmonization in Smart Data Models, deduction of information based on AI, import of BIM and rendering of Building Digital Twins.'
+  },
+  {
+    company: 'Agricolus srl',
+    name: 'Agrigateways',
+    img:
+      'https://www.fiware.org/wp-content/uploads/d7b9e0195e5d52f85f5e0c35731b64ec.pdf',
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink:
+      '../product-details/?category=powered&id=agricolussrl-agrigateways',
+    domain: [
+      'Agriculture',
+      'AgriFood',
+      'Government',
+      'Sustainability',
+      'Weather'
+    ],
+    type: 'Platform',
+    technology: [
+      'Cloud Computing',
+      'Data Analytics',
+      'Data Handling',
+      'Internet of Things'
+    ],
+    year: 2022,
+    content:
+      'Agrigateway is a suite of open-source cloud applications based on FIWARE agrifood technologies. Designed for farmers, agronomists and agricultural consortia, it ensures interoperability between a wide range of agritech hardware solutions, available on the market and provided by different vendors.'
   }
 ];
