@@ -1081,5 +1081,46 @@ var pageData = [
     year: 2022,
     content:
       "CityProbe 2 is the fabric of the intelligent city. The unit measures urban environmental parameters such as noise levels particulate matter pollution temperature etc. - using its' built-in GPS the CityProbe 2 takes a snapshot and transmits the status of the environment in real-time."
+  },
+  {
+    company: 'MOBA MOBILE AUTOMATION',
+    name: 'MAWIS U2',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_MOBA.svg',
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink:
+      '../product-details/?category=ready&id=mobamobileautomation-mawisu2',
+    domain: ['Cities', 'Measurement', 'Sustainability', 'Waste Management'],
+    type: 'Software enabler',
+    technology: [
+      'Big Data',
+      'Internet of Things',
+      'Mobility and Location',
+      'Sensory Systems',
+      'Software as a Service'
+    ],
+    year: 2022,
+    content:
+      'MAWIS U2 is the MOBA software SaaS platform that integrates the necessary tools for the collection, transmission and processing of data, that allow optimization of the business processes in the area of urban services of waste collection, street cleaning & maintenance of urban equipment.'
+  },
+  {
+    company: 'Social Cloud, S.L.',
+    name: 'Sporttia FIoT',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/raster/logo_Sporttia.png',
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: 'https://www.sporttia.com',
+    domain: ['Cities', 'Energy', 'Measurement'],
+    type: 'IoT Device',
+    technology: [
+      'Internet of Things',
+      'Internet Services',
+      'Software as a Service'
+    ],
+    year: 2022,
+    content:
+      "This product doesn\\'t have its own website. It is a turnkey solution to automate the control and management of sports fields."
   }
 ];

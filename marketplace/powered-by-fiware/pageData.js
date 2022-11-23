@@ -1770,5 +1770,83 @@ var pageData = [
     year: 2022,
     content:
       'The Smart Territory Framework - STF - is a set of tools and standardized modules that our partners and customers can assemble together to build and operate sustainable and highly effective solutions in line with global industry standards and based on the open-source offering of the FIWARE ecosystem.'
+  },
+  {
+    company: 'HYPERTEGRITY AG',
+    name: 'Urban Data Space Platform (UDSP)',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Hypertegrity.svg',
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink:
+      '../product-details/?category=powered&id=hypertegrityag-urbandataspaceplatformudsp',
+    domain: [
+      'Cities',
+      'Construction and Building',
+      'Energy',
+      'Government',
+      'Sustainability'
+    ],
+    type: 'Platform',
+    technology: [
+      'Data Spaces',
+      'Internet of Things',
+      'Open Data',
+      'Software as a Service',
+      'Service Architectures'
+    ],
+    year: 2022,
+    content:
+      'UDSP is a composition of state-of-the-art open source components, creating a data-driven architecture. It can integrate data via standard interfaces, set up processing pipelines, interactive work and data spaces. This provides the foundation for innovative data-driven urban services and use cases.'
+  },
+  {
+    company: 'Engineering Ingegneria Informatica',
+    name: 'eXtended Digital Twin of Smart Buildings',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Engineering.svg',
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink:
+      '../product-details/?category=powered&id=engineeringingegneriainformatica-extendeddigitaltwinofsmartbuildings',
+    domain: ['Cities', 'Construction and Building', 'Energy', 'Sustainability'],
+    type: 'Solution',
+    technology: [
+      'Artificial Intelligence',
+      'Data Analytics',
+      'Digital Twins',
+      'Internet of Things',
+      'Virtual',
+      'Augmented and Extended Reality'
+    ],
+    year: 2022,
+    content:
+      'The solution enables the rapid development of \\"eXtended Digital Twin\\" of Buildings. It provides a set of accelerators for Device Management over the edge, Data Mashup and Harmonization in Smart Data Models, deduction of information based on AI, import of BIM and rendering of Building Digital Twins.'
+  },
+  {
+    company: 'Agricolus srl',
+    name: 'Agrigateways',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_AgriGateway.svg',
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink:
+      '../product-details/?category=powered&id=agricolussrl-agrigateways',
+    domain: [
+      'Agriculture',
+      'AgriFood',
+      'Government',
+      'Sustainability',
+      'Weather'
+    ],
+    type: 'Platform',
+    technology: [
+      'Cloud Computing',
+      'Data Analytics',
+      'Data Handling',
+      'Internet of Things'
+    ],
+    year: 2022,
+    content:
+      'Agrigateway is a suite of open-source cloud applications based on FIWARE agrifood technologies. Designed for farmers, agronomists and agricultural consortia, it ensures interoperability between a wide range of agritech hardware solutions, available on the market and provided by different vendors.'
   }
 ];
