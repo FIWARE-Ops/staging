@@ -1111,7 +1111,8 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/raster/logo_Sporttia.png',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink: 'https://www.sporttia.com',
+    companyLink:
+      '../product-details/?category=ready&id=socialcloudsl-sporttiafiot',
     domain: ['Cities', 'Energy', 'Measurement'],
     type: 'IoT Device',
     technology: [
