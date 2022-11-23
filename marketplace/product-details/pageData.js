@@ -9693,6 +9693,41 @@ var pageData = {
       featuredImage:
         'https://www.fiware.org/wp-content/uploads/e0c450b20f455baaa743fdb625d94d2e.jpg',
       furtherImages: ''
+    },
+    'socialcloudsl-sporttiafiot': {
+      category: 'FIWARE-Ready',
+      organisationName: 'Social Cloud, S.L.',
+      productName: 'Sporttia FIoT',
+      organisationWebsite: 'https://www.sporttia.com',
+      organisationEmail: 'mailto:info@sporttia.com',
+      linkedIn: 'https://es.linkedin.com/company/sporttia',
+      twitter: 'https://twitter.com/sporttia',
+      productWebsite: 'https://www.sporttia.com/en/home/',
+      excerpt:
+        "This product doesn\\'t have its own website. It is a turnkey solution to automate the control and management of sports fields.",
+      yearOfValidation: 2022,
+      description:
+        '<p>This solution allows you to control and automate the fields and sports centers managed by sporttia. This allows unattended management of door opening, lighting control, electrical consumption control, remote opening by mobile and other facilities.</p>',
+      challenge:
+        '<p>Our goal is to achieve efficient management and maintenance of sports facilities, in the most automatic and interconnected way possible, including energy efficiency measures.</p>',
+      references:
+        '<p>Our client portfolio is very broad, from public administration to private companies. These clients can be viewed at https://app.sporttia.com/search.</p>',
+      awards:
+        '<ul> <li>Confederation of businessmen of Seville. 2nd Initiative prize in the starting call. 2013 to Social Cloud S.L.</li> <li>Minerva Award 2018/2019. Promoted by Vodafone and Junta de Andalucia</li> </ul>',
+      technologies: [
+        'Internet of Things',
+        'Internet Services',
+        'Software as a Service'
+      ],
+      domains: ['Cities', 'Energy', 'Measurement'],
+      docs: [],
+      videos: [],
+      materials: [],
+      logo:
+        'https://www.fiware.org/wp-content/uploads/bce8e11172ee6227a660264528992612.jpg',
+      featuredImage:
+        'https://www.sporttia.com/wp-content/uploads/2020/05/app-alquiler-pistas-deportivas.png',
+      furtherImages: ''
     }
   },
   cities: {
