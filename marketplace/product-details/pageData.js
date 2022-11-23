@@ -9743,10 +9743,10 @@ var pageData = {
         'https://www.fiware.org/wp-content/marketplace/images/hero_moba_mawis-u2.png',
       furtherImages: ''
     },
-    'socialcloudsl-sporttia': {
+    'socialcloudsl-sporttiafiot': {
       category: 'FIWARE-Ready',
       organisationName: 'Social Cloud, S.L.',
-      productName: 'Sporttia',
+      productName: 'Sporttia FIoT',
       organisationWebsite: 'https://www.sporttia.com',
       organisationEmail: 'mailto:info@sporttia.com',
       linkedIn: 'https://es.linkedin.com/company/sporttia',
