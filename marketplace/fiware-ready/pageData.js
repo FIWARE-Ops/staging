@@ -1111,7 +1111,8 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/raster/logo_Sporttia.png',
     fiwareMember: false,
     fiwareIhub: false,
-    companyLink: 'https://www.sporttia.com',
+    companyLink:
+      '../product-details/?category=ready&id=socialcloudsl-sporttiafiot',
     domain: ['Cities', 'Energy', 'Measurement'],
     type: 'IoT Device',
     technology: [
@@ -1122,5 +1123,27 @@ var pageData = [
     year: 2022,
     content:
       "This product doesn\\'t have its own website. It is a turnkey solution to automate the control and management of sports fields."
+  },
+  {
+    company: 'EDAG Engineering GmbH',
+    name: 'trive.park',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/raster/logo_TrivePark.png',
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink:
+      '../product-details/?category=ready&id=edagengineeringgmbh-trivepark',
+    domain: ['Automotive', 'Cities', 'Logistics', 'Mobility'],
+    type: 'Software Enabler',
+    technology: [
+      'Cyber Physical Systems',
+      'Internet of Things',
+      'Internet Services',
+      'Mobility and Location',
+      'Software as a Service'
+    ],
+    year: 2022,
+    content:
+      'Development of an integrated digital system to transform car parks into intelligent mobility hubs. Apart from digitalising “classic” parking management, this also makes it possible for other services such as AVP or e-charging to be managed via one platform.'
   }
 ];

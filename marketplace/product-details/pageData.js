@@ -4993,6 +4993,42 @@ var pageData = {
       featuredImage:
         'https://www.fiware.org/wp-content/marketplace/images/hero_agricolus_agrigateways.png',
       furtherImages: ''
+    },
+    'addixgmbh-adifi': {
+      category: 'Powered by FIWARE',
+      organisationName: 'ADDIX GmbH',
+      productName: 'ADI-FI',
+      organisationWebsite: 'https://www.addix.net/',
+      organisationEmail: 'mailto:smartcity@addix.net',
+      linkedIn: 'https://de.linkedin.com/company/addix-gmbh',
+      twitter: '',
+      productWebsite: 'https://www.addix.net/leistungen/smart-city.html',
+      excerpt:
+        'ADDIX operates IT platforms based on FIWARE technology and open-source software. These highly capable, customizable Kubernetes-cluster are already in use by regional development organisations and utility companies.\nADDIX operates infrastructure in the field of radio link system, fiber, IoT and WLAN.',
+      yearOfValidation: 2022,
+      description:
+        '<p><strong>ADDIX</strong> operates IT platforms based on FIWARE technology and open-source software. These highly capable, customizable Kubernetes-cluster are already in use by regional development organisations and utility companies.</p> <p>Data, for example regarding weather, traffic, parking or public transport, can be gathered, saved and accessed in compliance with the NGSI (V2 &amp; LD) standard.</p> <p>Exchanging data is possible via a multitude of existing connectors. Building individual connectors on customer requirements is also quickly possible.</p>',
+      challenge:
+        '<p><strong>ADDIX</strong> operates its own infrastructure in the field of radio link systems, fiber, IoT and WLAN. </p> <p>The #SH_WLAN with &gt; 4.000 access points and 1.3 million users is one of the largest free and public WLAN networks in Germany. Our own fiber network brings high-speed internet to our customers. Remote areas are connected with powerful radio link systems. Over 1.000 customers use our Astimax VoIP solution. A variety of cloud services are provided in ADDIX‘s own data center.</p> <p>Building &amp; operating the ADI-FI Platform is based on our experience in many fields we work in for over 20 years now regarding a smart region and a smart city.</p>',
+      references:
+        '<p>Regional development organisations and utility companies. For example https://mobility.kielregion.de/datenplattform/</p>',
+      awards: '<p>-</p>',
+      technologies: [
+        'Data Analytics',
+        'Data Spaces',
+        'Mobility and Location',
+        'Open Data',
+        'Sensory Systems'
+      ],
+      domains: ['Cities', 'Government', 'Mobility', 'Tourism', 'Transport'],
+      docs: [],
+      videos: [['Smart City-LEGO', 'https://player.vimeo.com/video/638680128']],
+      materials: [],
+      logo:
+        'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Addix.svg',
+      featuredImage:
+        'https://www.fiware.org/wp-content/marketplace/images/hero_addix_adi-fi.png',
+      furtherImages: ''
     }
   },
   ready: {
@@ -9743,10 +9779,10 @@ var pageData = {
         'https://www.fiware.org/wp-content/marketplace/images/hero_moba_mawis-u2.png',
       furtherImages: ''
     },
-    'socialcloudsl-sporttia': {
+    'socialcloudsl-sporttiafiot': {
       category: 'FIWARE-Ready',
       organisationName: 'Social Cloud, S.L.',
-      productName: 'Sporttia',
+      productName: 'Sporttia FIoT',
       organisationWebsite: 'https://www.sporttia.com',
       organisationEmail: 'mailto:info@sporttia.com',
       linkedIn: 'https://es.linkedin.com/company/sporttia',
@@ -9776,6 +9812,57 @@ var pageData = {
         'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/raster/logo_Sporttia.png',
       featuredImage:
         'https://www.fiware.org/wp-content/marketplace/images/hero_social-club_sporttia.png',
+      furtherImages: ''
+    },
+    'edagengineeringgmbh-trivepark': {
+      category: 'FIWARE-Ready',
+      organisationName: 'EDAG Engineering GmbH',
+      productName: 'trive.park',
+      organisationWebsite: 'https://trivepark.de/',
+      organisationEmail: 'mailto:alexander.suessemilch@edag.com',
+      linkedIn: '',
+      twitter: '',
+      productWebsite: 'https://trivepark.de/',
+      excerpt:
+        'Development of an integrated digital system to transform car parks into intelligent mobility hubs. Apart from digitalising “classic” parking management, this also makes it possible for other services such as AVP or e-charging to be managed via one platform.',
+      yearOfValidation: 2022,
+      description:
+        '<p>The digital data and payment platform <strong>trive.park</strong> digitizes off-street parking. Users can buy selected parking tickets and special parking offers via the app before they even start their journey. The offers range from the classic short-term parking ticket with minute-based billing to daily tickets with different durations, to specific discounts such as a shopping package with high rebates.</p>',
+      challenge:
+        "<p>In the mobility ecosystem that is currently emerging, parking must be an integral part. With our software stack, we\\'re creating a new operating system for parking garages to turn them into mobility hubs. Via the app, drivers can easily find offers in their vicinity, select the best offer, and book and pay conveniently from home or even on the go.  There is no longer any need to pull out a ticket, and users have full-price transparency and an overview of available parking capacities. Since the entire user journey is digitally mapped, our idea breaks new ground in integrating parking into the overall context of mobility.  Thus, new business cases can be tested and implemented. For this purpose, we rely on standard interfaces and data formats from FIWARE.</p>",
+      references:
+        '<ul> <li>park one (german car park operator)</li> <li>City of Kiel Research projects: iLaPark (https://www.ilapark.de/); Syncopark (https://www.syncopark.de/)</li> </ul>',
+      awards: '<p>-</p>',
+      technologies: [
+        'Cyber Physical Systems',
+        'Internet of Things',
+        'Internet Services',
+        'Mobility and Location',
+        'Software as a Service'
+      ],
+      domains: ['Automotive', 'Cities', 'Logistics', 'Mobility'],
+      docs: [
+        [
+          'Project Description ',
+          'https://smartcity.edag.com/en/referenzen/trive-park/'
+        ]
+      ],
+      videos: [
+        [
+          'Demonstration of AVP type 1 and 2',
+          'https://www.youtube.com/watch?v=F47eE_QA93g'
+        ]
+      ],
+      materials: [
+        [
+          'Live-Einsatz - trive.park',
+          'https://www.youtube.com/shorts/5LOQGha8Rew'
+        ]
+      ],
+      logo:
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/raster/logo_TrivePark.png',
+      featuredImage:
+        'https://www.fiware.org/wp-content/marketplace/images/hero_edag_trive-park.png',
       furtherImages: ''
     }
   },
@@ -9827,114 +9914,6 @@ var pageData = {
     }
   },
   services: {
-    'atos-connectedterritories': {
-      category: 'Services',
-      organisationName: 'Atos',
-      productName: 'Connected Territories',
-      organisationWebsite: '',
-      organisationEmail: 'mailto:de-info@atos.net',
-      linkedIn: 'https://www.linkedin.com/company/atos/',
-      twitter: 'https://twitter.com/atos',
-      productWebsite:
-        'https://atos.net/en/portfolio/boost-economic-development-and-citizen-quality-of-life',
-      excerpt:
-        'Atos, a leading digital services company and one of the founders of the initiative, has acquired deep knowledge of the FIWARE technologies and ecosystem.',
-      yearOfValidation: 2021,
-      description:
-        '<p><strong>Atos</strong> is a reliable provider of commercial services around FIWARE. Atos may provide a full end-to-end FIWARE experience based on our experience in developing, integrating, and exploiting assets powered by FIWARE.  As one of the largest worldwide IT integrators, Atos may also provide an end-to-end integration service allowing the connection of the sensors/devices layer to our References/Customers’ existing systems and applications. Beyond the use of FIWARE in Smart Cities, and taking advantage of Atos expertise in IoT technologies, Atos may also offer vertical applications based on FIWARE for different domains, such as Smart Mobility, Smart Buildings, or Smart Agrifood. And finally, the Atos extended experience in developing FIWARE applications is extremely valuable when delivering practical training about the platform, so coaching and training services are also in our portfolio.</p>',
-      challenge: '',
-      references:
-        '<p>Some cities in France, Spain, Netherlands, Argentina, USA, Germany, Belgium and Switzerland.</p>',
-      awards:
-        '<p>Atos named a Leader in Smart Cities in Europe by IDC MarketScape</p>',
-      technologies: ['Artificial Intelligence'],
-      domains: ['Cities', 'AgriFood'],
-      docs: [['Atos Tech Days', 'https://www.youtube.com/watch?v=2MF8ldQsYU8']],
-      videos: [
-        [
-          'Atos Spain Tweet',
-          'https://twitter.com/AtosES/status/804643300435226625'
-        ],
-        [
-          'Press Release',
-          'https://atos.net/en/2021/press-release_2021_02_09/leader-smart-cities-idc'
-        ]
-      ],
-      materials: [
-        [
-          'Deep Innovation Apps & Services from Open Data',
-          'https://www.esmartcity.es/2016/09/20/desarrollar-apps-y-servicios-innovadores-a-partir-de-datos-abiertos'
-        ],
-        [
-          'Malaga - Digitizing Smart-Fi Cities',
-          'http://www.elmundo.es/economia/2016/09/18/57ded87f46163f201b8b45c1.html'
-        ]
-      ],
-      logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Atos.svg',
-      featuredImage:
-        'https://www.fiware.org/wp-content/marketplace/images/hero_atos_connected-territories.png',
-      furtherImages: '',
-      related: [
-        {
-          category: 'Powered by FIWARE',
-          featuredImage:
-            'https://www.fiware.org/wp-content/marketplace/images/hero_atos_urban-data-platform.png',
-          excerpt:
-            'UDP is the open, secure, and interoperable Atos standard data platform that allows the integration and collection of information from data sources, and the standardization and processing of that information to provide aggregated and intelligent views of raw data to facilitate decision-making.',
-          productName: 'Urban Data Platform',
-          companyLink: './?category=powered&id=atos-urbandataplatform'
-        },
-        {
-          category: 'Powered by FIWARE',
-          featuredImage:
-            'https://www.fiware.org/wp-content/marketplace/images/hero_atos_masai.png',
-          excerpt:
-            'MASAI is an efficient data integration software for manufacturing systems allowing to collect data from a variety of IoT Devices in the manufacturing domain (Industry 4.0), that is not entirely covered by existing proprietary solutions.',
-          productName: 'MASAI',
-          companyLink: './?category=powered&id=atos-masai'
-        }
-      ]
-    },
-    'ballistix-ballistix': {
-      category: 'Support Services',
-      organisationName: 'BallistiX',
-      productName: 'BallistiX',
-      organisationWebsite: '',
-      organisationEmail: '',
-      linkedIn: 'https://www.linkedin.com/company/ballistix-digital/',
-      twitter: '',
-      productWebsite: 'https://www.ballistix.digital',
-      excerpt:
-        'We build proofs-of-concept, prototypes, and MVPs of web-based applications and love working with emerging technologies like blockchain, 3D printing, and Artificial Intelligence.',
-      yearOfValidation: 2019,
-      description:
-        '<p>We build proof-of-concepts, prototypes, and MVPs of web-based applications and love working with emerging technologies like blockchain, 3D printing, and Artificial Intelligence.</p> <p>We have extensive experience with FIWARE enablers and have -among other projects- built our first start-up on top of it. Through validation and iteration, our team of software engineers and product managers will build the right digital product together with you.</p> <p>Product / market fit is what we live and code for.</p>',
-      challenge: '',
-      references: '<p>Dimension4.xyz ORAL3D.eu</p>',
-      awards: '<p>FABulous 2016 Pitching Competition: Winner</p>',
-      technologies: ['Blockchain'],
-      domains: [
-        'Cities',
-        'AgriFood',
-        'Logistics',
-        'Industry',
-        'Ports',
-        'Retail',
-        'Home',
-        'Health'
-      ],
-      docs: [],
-      videos: [['Oral 3D Printing', 'https://oral3d.eu/']],
-      materials: [
-        ['3D Printing', 'https://3dprintingmaterialsconference.com/']
-      ],
-      logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_BallistixDigital.svg',
-      featuredImage:
-        'https://www.fiware.org/wp-content/marketplace/images/hero_ballistix_ballistix.png',
-      furtherImages: ''
-    },
     'egm-designoffice': {
       category: 'Services',
       organisationName: 'EGM',
@@ -11478,6 +11457,114 @@ var pageData = {
           companyLink: './?category=powered&id=ubiwhere-smartlamppost'
         }
       ]
+    },
+    'atos-connectedterritories': {
+      category: 'Services',
+      organisationName: 'Atos',
+      productName: 'Connected Territories',
+      organisationWebsite: '',
+      organisationEmail: 'mailto:de-info@atos.net',
+      linkedIn: 'https://www.linkedin.com/company/atos/',
+      twitter: 'https://twitter.com/atos',
+      productWebsite:
+        'https://atos.net/en/portfolio/boost-economic-development-and-citizen-quality-of-life',
+      excerpt:
+        'Atos, a leading digital services company and one of the founders of the initiative, has acquired deep knowledge of the FIWARE technologies and ecosystem.',
+      yearOfValidation: 2021,
+      description:
+        '<p><strong>Atos</strong> is a reliable provider of commercial services around FIWARE. Atos may provide a full end-to-end FIWARE experience based on our experience in developing, integrating, and exploiting assets powered by FIWARE.  As one of the largest worldwide IT integrators, Atos may also provide an end-to-end integration service allowing the connection of the sensors/devices layer to our References/Customers’ existing systems and applications. Beyond the use of FIWARE in Smart Cities, and taking advantage of Atos expertise in IoT technologies, Atos may also offer vertical applications based on FIWARE for different domains, such as Smart Mobility, Smart Buildings, or Smart Agrifood. And finally, the Atos extended experience in developing FIWARE applications is extremely valuable when delivering practical training about the platform, so coaching and training services are also in our portfolio.</p>',
+      challenge: '',
+      references:
+        '<p>Some cities in France, Spain, Netherlands, Argentina, USA, Germany, Belgium and Switzerland.</p>',
+      awards:
+        '<p>Atos named a Leader in Smart Cities in Europe by IDC MarketScape</p>',
+      technologies: ['Artificial Intelligence'],
+      domains: ['Cities', 'AgriFood'],
+      docs: [['Atos Tech Days', 'https://www.youtube.com/watch?v=2MF8ldQsYU8']],
+      videos: [
+        [
+          'Atos Spain Tweet',
+          'https://twitter.com/AtosES/status/804643300435226625'
+        ],
+        [
+          'Press Release',
+          'https://atos.net/en/2021/press-release_2021_02_09/leader-smart-cities-idc'
+        ]
+      ],
+      materials: [
+        [
+          'Deep Innovation Apps & Services from Open Data',
+          'https://www.esmartcity.es/2016/09/20/desarrollar-apps-y-servicios-innovadores-a-partir-de-datos-abiertos'
+        ],
+        [
+          'Malaga - Digitizing Smart-Fi Cities',
+          'http://www.elmundo.es/economia/2016/09/18/57ded87f46163f201b8b45c1.html'
+        ]
+      ],
+      logo:
+        'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Atos.svg',
+      featuredImage:
+        'https://www.fiware.org/wp-content/marketplace/images/hero_atos_connected-territories.png',
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_atos_urban-data-platform.png',
+          excerpt:
+            'UDP is the open, secure, and interoperable Atos standard data platform that allows the integration and collection of information from data sources, and the standardization and processing of that information to provide aggregated and intelligent views of raw data to facilitate decision-making.',
+          productName: 'Urban Data Platform',
+          companyLink: './?category=powered&id=atos-urbandataplatform'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_atos_masai.png',
+          excerpt:
+            'MASAI is an efficient data integration software for manufacturing systems allowing to collect data from a variety of IoT Devices in the manufacturing domain (Industry 4.0), that is not entirely covered by existing proprietary solutions.',
+          productName: 'MASAI',
+          companyLink: './?category=powered&id=atos-masai'
+        }
+      ]
+    },
+    'ballistix-ballistix': {
+      category: 'Support Services',
+      organisationName: 'BallistiX',
+      productName: 'BallistiX',
+      organisationWebsite: '',
+      organisationEmail: '',
+      linkedIn: 'https://www.linkedin.com/company/ballistix-digital/',
+      twitter: '',
+      productWebsite: 'https://www.ballistix.digital',
+      excerpt:
+        'We build proofs-of-concept, prototypes, and MVPs of web-based applications and love working with emerging technologies like blockchain, 3D printing, and Artificial Intelligence.',
+      yearOfValidation: 2019,
+      description:
+        '<p>We build proof-of-concepts, prototypes, and MVPs of web-based applications and love working with emerging technologies like blockchain, 3D printing, and Artificial Intelligence.</p> <p>We have extensive experience with FIWARE enablers and have -among other projects- built our first start-up on top of it. Through validation and iteration, our team of software engineers and product managers will build the right digital product together with you.</p> <p>Product / market fit is what we live and code for.</p>',
+      challenge: '',
+      references: '<p>Dimension4.xyz ORAL3D.eu</p>',
+      awards: '<p>FABulous 2016 Pitching Competition: Winner</p>',
+      technologies: ['Blockchain'],
+      domains: [
+        'Cities',
+        'AgriFood',
+        'Logistics',
+        'Industry',
+        'Ports',
+        'Retail',
+        'Home',
+        'Health'
+      ],
+      docs: [],
+      videos: [['Oral 3D Printing', 'https://oral3d.eu/']],
+      materials: [
+        ['3D Printing', 'https://3dprintingmaterialsconference.com/']
+      ],
+      logo:
+        'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_BallistixDigital.svg',
+      featuredImage:
+        'https://www.fiware.org/wp-content/marketplace/images/hero_ballistix_ballistix.png',
+      furtherImages: ''
     }
   },
   unknown: {
