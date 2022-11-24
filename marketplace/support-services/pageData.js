@@ -1,45 +1,5 @@
 var pageData = [
   {
-    company: 'Atos',
-    name: 'Connected Territories',
-    img:
-      'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Atos.svg',
-    fiwareMember: true,
-    fiwareIhub: false,
-    companyLink:
-      '../product-details/?category=services&id=atos-connectedterritories',
-    domain: ['Cities', 'AgriFood'],
-    type: 'Consultancy & Integration',
-    technology: ['Artificial Intelligence'],
-    year: 2021,
-    content:
-      'Atos, a leading digital services company and one of the founders of the initiative, has acquired deep knowledge of the FIWARE technologies and ecosystem.'
-  },
-  {
-    company: 'BallistiX',
-    name: 'BallistiX',
-    img:
-      'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_BallistixDigital.svg',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: '../product-details/?category=services&id=ballistix-ballistix',
-    domain: [
-      'Cities',
-      'AgriFood',
-      'Logistics',
-      'Industry',
-      'Ports',
-      'Retail',
-      'Home',
-      'Health'
-    ],
-    type: 'Consultancy & Integration',
-    technology: ['Blockchain'],
-    year: 2019,
-    content:
-      'We build proofs-of-concept, prototypes, and MVPs of web-based applications and love working with emerging technologies like blockchain, 3D printing, and Artificial Intelligence.'
-  },
-  {
     company: 'EGM',
     name: 'Design office',
     img:
@@ -581,5 +541,45 @@ var pageData = [
     year: 2017,
     content:
       'Ubiwhere’s offer includes systems for Smart Parking and Traffic Management, Smart Waste Management, Smart Environmental Monitoring, Smart Vending and Smart Card, along with its City Control Center, which allows for centralised management of the city’s ecosystem.'
+  },
+  {
+    company: 'Atos',
+    name: 'Connected Territories',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Atos.svg',
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink:
+      '../product-details/?category=services&id=atos-connectedterritories',
+    domain: ['Cities', 'AgriFood'],
+    type: 'Consultancy & Integration',
+    technology: ['Artificial Intelligence'],
+    year: 2021,
+    content:
+      'Atos, a leading digital services company and one of the founders of the initiative, has acquired deep knowledge of the FIWARE technologies and ecosystem.'
+  },
+  {
+    company: 'BallistiX',
+    name: 'BallistiX',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_BallistixDigital.svg',
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: '../product-details/?category=services&id=ballistix-ballistix',
+    domain: [
+      'Cities',
+      'AgriFood',
+      'Logistics',
+      'Industry',
+      'Ports',
+      'Retail',
+      'Home',
+      'Health'
+    ],
+    type: 'Consultancy & Integration',
+    technology: ['Blockchain'],
+    year: 2019,
+    content:
+      'We build proofs-of-concept, prototypes, and MVPs of web-based applications and love working with emerging technologies like blockchain, 3D printing, and Artificial Intelligence.'
   }
 ];
