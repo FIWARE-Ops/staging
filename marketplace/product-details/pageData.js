@@ -4993,6 +4993,42 @@ var pageData = {
       featuredImage:
         'https://www.fiware.org/wp-content/marketplace/images/hero_agricolus_agrigateways.png',
       furtherImages: ''
+    },
+    'addixgmbh-adifi': {
+      category: 'Powered by FIWARE',
+      organisationName: 'ADDIX GmbH',
+      productName: 'ADI-FI',
+      organisationWebsite: 'https://www.addix.net/',
+      organisationEmail: 'mailto:smartcity@addix.net',
+      linkedIn: 'https://de.linkedin.com/company/addix-gmbh',
+      twitter: '',
+      productWebsite: 'https://www.addix.net/leistungen/smart-city.html',
+      excerpt:
+        'ADDIX operates IT platforms based on FIWARE technology and open-source software. These highly capable, customizable Kubernetes-cluster are already in use by regional development organisations and utility companies.\nADDIX operates infrastructure in the field of radio link system, fiber, IoT and WLAN.',
+      yearOfValidation: 2022,
+      description:
+        '<p><strong>ADDIX</strong> operates IT platforms based on FIWARE technology and open-source software. These highly capable, customizable Kubernetes-cluster are already in use by regional development organisations and utility companies.</p> <p>Data, for example regarding weather, traffic, parking or public transport, can be gathered, saved and accessed in compliance with the NGSI (V2 &amp; LD) standard.</p> <p>Exchanging data is possible via a multitude of existing connectors. Building individual connectors on customer requirements is also quickly possible.</p>',
+      challenge:
+        '<p><strong>ADDIX</strong> operates its own infrastructure in the field of radio link systems, fiber, IoT and WLAN. </p> <p>The #SH_WLAN with &gt; 4.000 access points and 1.3 million users is one of the largest free and public WLAN networks in Germany. Our own fiber network brings high-speed internet to our customers. Remote areas are connected with powerful radio link systems. Over 1.000 customers use our Astimax VoIP solution. A variety of cloud services are provided in ADDIX‘s own data center.</p> <p>Building &amp; operating the ADI-FI Platform is based on our experience in many fields we work in for over 20 years now regarding a smart region and a smart city.</p>',
+      references:
+        '<p>Regional development organisations and utility companies. For example https://mobility.kielregion.de/datenplattform/</p>',
+      awards: '<p>-</p>',
+      technologies: [
+        'Data Analytics',
+        'Data Spaces',
+        'Mobility and Location',
+        'Open Data',
+        'Sensory Systems'
+      ],
+      domains: ['Cities', 'Government', 'Mobility', 'Tourism', 'Transport'],
+      docs: [],
+      videos: [['Smart City-LEGO', 'https://player.vimeo.com/video/638680128']],
+      materials: [],
+      logo:
+        'https://www.fiware.org/wp-content/uploads/88a4277ac199065befc87d9633eb042d.jpg',
+      featuredImage:
+        'https://www.fiware.org/wp-content/uploads/95374193224bfd07a7a5e078a2d7cd28.png',
+      furtherImages: ''
     }
   },
   ready: {
