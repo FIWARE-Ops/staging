@@ -9813,6 +9813,57 @@ var pageData = {
       featuredImage:
         'https://www.fiware.org/wp-content/marketplace/images/hero_social-club_sporttia.png',
       furtherImages: ''
+    },
+    'edagengineeringgmbh-trivepark': {
+      category: 'FIWARE-Ready',
+      organisationName: 'EDAG Engineering GmbH',
+      productName: 'trive.park',
+      organisationWebsite: 'https://trivepark.de/',
+      organisationEmail: 'mailto:alexander.suessemilch@edag.com',
+      linkedIn: '',
+      twitter: '',
+      productWebsite: 'https://trivepark.de/',
+      excerpt:
+        'Development of an integrated digital system to transform car parks into intelligent mobility hubs. Apart from digitalising “classic” parking management, this also makes it possible for other services such as AVP or e-charging to be managed via one platform.',
+      yearOfValidation: 2022,
+      description:
+        '<p>The digital data and payment platform <strong>trive.park</strong> digitizes off-street parking. Users can buy selected parking tickets and special parking offers via the app before they even start their journey. The offers range from the classic short-term parking ticket with minute-based billing to daily tickets with different durations, to specific discounts such as a shopping package with high rebates.</p>',
+      challenge:
+        "<p>In the mobility ecosystem that is currently emerging, parking must be an integral part. With our software stack, we're creating a new operating system for parking garages to turn them into mobility hubs. Via the app, drivers can easily find offers in their vicinity, select the best offer, and book and pay conveniently from home or even on the go.  There is no longer any need to pull out a ticket, and users have full-price transparency and an overview of available parking capacities. Since the entire user journey is digitally mapped, our idea breaks new ground in integrating parking into the overall context of mobility.  Thus, new business cases can be tested and implemented. For this purpose, we rely on standard interfaces and data formats from FIWARE.</p>",
+      references:
+        '<ul> <li>park one (german car park operator)</li> <li>City of Kiel Research projects: iLaPark (https://www.ilapark.de/); Syncopark (https://www.syncopark.de/)</li> </ul>',
+      awards: '<p>-</p>',
+      technologies: [
+        'Cyber Physical Systems',
+        'Internet of Things',
+        'Internet Services',
+        'Mobility and Location',
+        'Software as a Service'
+      ],
+      domains: ['Automotive', 'Cities', 'Logistics', 'Mobility'],
+      docs: [
+        [
+          'Project Description ',
+          'https://smartcity.edag.com/en/referenzen/trive-park/'
+        ]
+      ],
+      videos: [
+        [
+          'Demonstration of AVP type 1 and 2',
+          'https://www.youtube.com/watch?v=F47eE_QA93g'
+        ]
+      ],
+      materials: [
+        [
+          'Live-Einsatz - trive.park',
+          'https://www.youtube.com/shorts/5LOQGha8Rew'
+        ]
+      ],
+      logo:
+        'https://trivepark.de/wp-content/uploads/2018/09/tpark_logo_inverted1.png',
+      featuredImage:
+        'https://trivepark.de/wp-content/uploads/2018/09/devices_pitch-1024x486.png',
+      furtherImages: ''
     }
   },
   cities: {
