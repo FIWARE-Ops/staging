@@ -74,7 +74,7 @@ function extractProductDetails(input) {
       linkedIn: item['LinkedIn'],
       twitter: item['Twitter'],
       productWebsite: item['Product Website'],
-      excerpt: item['Excerpt'],
+      excerpt: item['Excerpt'].replaceAll(/\\'/g, "'"),
       yearOfValidation: parseInt(item['Year of validation']),
       description: Parser.markdown(item['Description and Benefits']),
       challenge: Parser.markdown(item['Challenge and Context']),
