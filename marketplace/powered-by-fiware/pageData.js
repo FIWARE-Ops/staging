@@ -1848,26 +1848,5 @@ var pageData = [
     year: 2022,
     content:
       'Agrigateway is a suite of open-source cloud applications based on FIWARE agrifood technologies. Designed for farmers, agronomists and agricultural consortia, it ensures interoperability between a wide range of agritech hardware solutions, available on the market and provided by different vendors.'
-  },
-  {
-    company: 'ADDIX GmbH',
-    name: 'ADI-FI',
-    img:
-      'https://www.fiware.org/wp-content/uploads/88a4277ac199065befc87d9633eb042d.jpg',
-    fiwareMember: true,
-    fiwareIhub: false,
-    companyLink: '../product-details/?category=powered&id=addixgmbh-adifi',
-    domain: ['Cities', 'Government', 'Mobility', 'Tourism', 'Transport'],
-    type: 'Platform',
-    technology: [
-      'Data Analytics',
-      'Data Spaces',
-      'Mobility and Location',
-      'Open Data',
-      'Sensory Systems'
-    ],
-    year: 2022,
-    content:
-      'ADDIX operates IT platforms based on FIWARE technology and open-source software. These highly capable, customizable Kubernetes-cluster are already in use by regional development organisations and utility companies. ADDIX operates infrastructure in the field of radio link system, fiber, IoT and WLAN.'
   }
 ];
