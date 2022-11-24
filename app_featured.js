@@ -40,11 +40,16 @@ function enableCarousel() {
   })
 }
 
+
+
+
 defer(function () {
-  if (window.jQuery){
     // POPULATE THE LISTING
-    w3.includeHTML(()=> {
-      enableCarousel();
-    });
-  }
+  w3.includeHTML();
+  jQuery(document).ready(function() {
+      $('#app').waitForImages(function() {
+        console.log('All images are loaded.');
+        enableCarousel();
+      });
+  });
 })
