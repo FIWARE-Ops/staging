@@ -1853,7 +1853,7 @@ var pageData = [
     company: 'ADDIX GmbH',
     name: 'ADI-FI',
     img:
-      'https://www.fiware.org/wp-content/uploads/88a4277ac199065befc87d9633eb042d.jpg',
+      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Addix.svg',
     fiwareMember: true,
     fiwareIhub: false,
     companyLink: '../product-details/?category=powered&id=addixgmbh-adifi',

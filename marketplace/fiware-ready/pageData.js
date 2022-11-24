@@ -1128,7 +1128,7 @@ var pageData = [
     company: 'EDAG Engineering GmbH',
     name: 'trive.park',
     img:
-      'https://trivepark.de/wp-content/uploads/2018/09/tpark_logo_inverted1.png',
+      'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/raster/logo_TrivePark.png',
     fiwareMember: false,
     fiwareIhub: false,
     companyLink:
