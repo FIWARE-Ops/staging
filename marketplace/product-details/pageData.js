@@ -4945,6 +4945,61 @@ var pageData = {
         'https://www.fiware.org/wp-content/marketplace/images/hero_engineering_extended-digital-twin.png',
       furtherImages: ''
     },
+    'engineeringitsgmbh-engineeringsurbandataplatform': {
+      category: 'Powered by FIWARE',
+      organisationName: 'Engineering ITS GmbH',
+      productName: 'Engineering´s Urban Data Platform',
+      organisationWebsite: 'https://www.eng-its.de/',
+      organisationEmail: 'mailto:info@eng-its.de',
+      linkedIn: 'https://www.linkedin.com/company/engineeringits/mycompany/',
+      twitter: '',
+      productWebsite:
+        'https://eng-its.de/unser-portfolio/plattformen-und-loesungen/urbane-datenplattform/',
+      excerpt:
+        'Our Urban Data Platform enables the development of a digital ecosystem in which existing data from different systems and applications can be used to build digital service offerings across fields of action. For this, we provide the urban data platform as a service approach.',
+      yearOfValidation: 2022,
+      description:
+        '<p>Our platform enables the integration and processing of a wide variety of data such as IoT sensors, open data sources, web services or business processes. For this purpose, we offer no-code applications within the platform so that you can easily integrate the data and develop new use cases such as analyses, data correlations or simulations as well as your own dashboards. You also get a data catalogue that allows you to publish the data as open data. </p> <p>Built on the FIWARE Reference architecture, our platform consists only of open-source modules for developing digital data spaces for smart cities. - Our platform is based on open source and open standards such as FIWARE. - Data sovereignty - All data rights and responsibilities remain in your hands. - Data models - We use FIWARE data models and help you with the individual development of new use cases. - Seamless integration - Build a digital ecosystem and integrate business processes and available data. - Best practices - From user &amp; role models to initial use cases, we offer you numerous examples for a quick start.</p>',
+      challenge:
+        '<p>Smart City stands for movement and efficiency. For this reason, we provide you with the urban data platform in an \\"as a service\\" approach. The platform is configured according to your requirements and the operation, and data storage is provided from a German cloud environment - but you can also operate the platform in your own data centre.</p> <p>Whether you want to gain initial experience or need a multi-platform environment - we support you with all your requirements.</p> <ul> <li><p>PoC - Get to know our platform via access for 6 months and implement first use cases with us.</p></li> <li><p>Pilot - Get started and receive a dedicated platform for the implementation of your goals. We take care of the operation and 8*5 tech. support for you.</p></li> <li><p>Production - Have you gained your first experiences and do you want to develop new services on the basis of the platform? Then we will provide you with a development and production environment for your Smart City. We take care of the operation and 24*7 tech. support for you.</p></li> </ul>',
+      references:
+        "<ul> <li>City of Heidelberg</li> <li>City of Monheim</li> <li>City of Dormagen</li> <li>DLR (Germany's research centre for aeronautics and space)1. </li> </ul>",
+      awards:
+        '<p>Solutions4Cities Contest:  Best Solution for Resilient City Development  https://www.smart-city-dialog.de/wp-content/uploads/2021/02/Bamberg.mp4</p>',
+      technologies: [
+        'Data Spaces',
+        'Digital Twins',
+        'Internet of Things',
+        'Open Data',
+        'Software as a Service'
+      ],
+      domains: ['Cities'],
+      docs: [],
+      videos: [],
+      materials: [
+        [
+          'FIWARE Impact Stories',
+          'https://www.fiware.org/wp-content/uploads/FF_ImpactStories_Engineering-DE.pdf'
+        ],
+        [
+          'City of Dormagen',
+          'https://eng-its.de/en/reference-city-of-dormagen/'
+        ],
+        [
+          'City of Heidelberg',
+          'https://eng-its.de/en/reference-city-of-heidelberg/'
+        ],
+        [
+          'FIWARE Impact Stories- Heidelberg',
+          'https://www.fiware.org/wp-content/uploads/FF_ImpactStories_Heidelberg.pdf'
+        ]
+      ],
+      logo:
+        'https://www.fiware.org/wp-content/uploads/f76c024d092fd8d3b56a5fadea08eaa3.png',
+      featuredImage:
+        'https://www.fiware.org/wp-content/uploads/93ecd215f67ea8f6fcfc305b49e72a27.png',
+      furtherImages: ''
+    },
     'agricolussrl-agrigateways': {
       category: 'Powered by FIWARE',
       organisationName: 'Agricolus srl',

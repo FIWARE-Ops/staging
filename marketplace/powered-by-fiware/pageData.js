@@ -1823,6 +1823,28 @@ var pageData = [
       'The solution enables the rapid development of \\"eXtended Digital Twin\\" of Buildings. It provides a set of accelerators for Device Management over the edge, Data Mashup and Harmonization in Smart Data Models, deduction of information based on AI, import of BIM and rendering of Building Digital Twins.'
   },
   {
+    company: 'Engineering ITS GmbH',
+    name: 'Engineering´s Urban Data Platform',
+    img:
+      'https://www.fiware.org/wp-content/uploads/f76c024d092fd8d3b56a5fadea08eaa3.png',
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink:
+      '../product-details/?category=powered&id=engineeringitsgmbh-engineeringsurbandataplatform',
+    domain: ['Cities'],
+    type: 'Platform',
+    technology: [
+      'Data Spaces',
+      'Digital Twins',
+      'Internet of Things',
+      'Open Data',
+      'Software as a Service'
+    ],
+    year: 2022,
+    content:
+      'Our Urban Data Platform enables the development of a digital ecosystem in which existing data from different systems and applications can be used to build digital service offerings across fields of action. For this, we provide the urban data platform as a service approach.'
+  },
+  {
     company: 'Agricolus srl',
     name: 'Agrigateways',
     img:
