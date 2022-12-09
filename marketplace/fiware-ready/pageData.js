@@ -1145,5 +1145,27 @@ var pageData = [
     year: 2017,
     content:
       'AGRICOLUS is a cloud applications ecosystem for precision farming with multiple purposes: disease awareness and forecasts, crop monitoring, decision support system for treatments and fertilizers, farm management, and end-to-end traceability bringing valuable information to final users.'
+  },
+  {
+    company: 'EDAG Production Solutions GmbH & Co. KG',
+    name: 'Open Source Smart City Dashboard',
+    img:
+      'https://www.fiware.org/wp-content/uploads/04b774d7747e6329e66cc9a7aa3cf96a.png',
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink:
+      '../product-details/?category=ready&id=edagproductionsolutionsgmbhcokg-opensourcesmartcitydashboard',
+    domain: ['Cities', 'Energy', 'Lighting', 'Mobility', 'Sustainability'],
+    type: 'Software Enabler',
+    technology: [
+      'Data Spaces',
+      'Digital Twins',
+      'Mobility and Location',
+      'Open Data',
+      'Software as a Service'
+    ],
+    year: 2022,
+    content:
+      'The goal of this project is the visualization of data from the FIWARE-based central open data platform. By making the data available, especially in the form of charts, citizens and interested parties can be given an overview of the current state of affairs in the city.'
   }
 ];

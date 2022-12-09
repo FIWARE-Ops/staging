@@ -9919,6 +9919,50 @@ var pageData = {
           companyLink: './?category=powered&id=agricolus-agricolus'
         }
       ]
+    },
+    'edagproductionsolutionsgmbhcokg-opensourcesmartcitydashboard': {
+      category: 'FIWARE-Ready',
+      organisationName: 'EDAG Production Solutions GmbH & Co. KG',
+      productName: 'Open Source Smart City Dashboard',
+      organisationWebsite: 'https://smartcity.edag.com/',
+      organisationEmail: 'mailto:alexander.suessemilch@edag.com',
+      linkedIn: '',
+      twitter: '',
+      productWebsite:
+        'https://smartcity.edag.com/en/referenzen/smart-city-dashboard/',
+      excerpt:
+        'The goal of this project is the visualization of data from the FIWARE-based central open data platform. By making the data available, especially in the form of charts, citizens and interested parties can be given an overview of the current state of affairs in the city.',
+      yearOfValidation: 2022,
+      description:
+        '<p>First native fiware-based dashboard framework to visualize urban data platforms. In order to be able to analyze and process the collected data in cities, it helps to display them visually on a dashboard.</p>',
+      challenge:
+        '<p>The framework consists of a frontend and a backend. The frontend visualizes the data it receives from the backend. The backend obtains the data from the open data platform using an intelligent polling mechanism and stores it temporarily, which keeps the load on the platform to a minimum. The following technologies are used for this, all of which were developed on an OpenSource basis and are state of the art:</p> <p><strong>Frontend – React Web App</strong> Communicates only with a central backend, the Orion Context Broker, via the NGSI-v2 REST API</p> <p><strong>Core backend (powered by FIWARE)</strong> Orion Context Broker uses NGSI-v2 REST API for data transfers</p> <p><strong>External services</strong> All services communicate with only one central backend, the Orion Context Broker, via the NGSI-v2 REST API</p>',
+      references:
+        '<p>City of Paderborn City of Ulm City of Hünfeld Region Fulda KielRegion</p>',
+      awards: '<p>none</p>',
+      technologies: [
+        'Data Spaces',
+        'Digital Twins',
+        'Mobility and Location',
+        'Open Data',
+        'Software as a Service'
+      ],
+      domains: ['Cities', 'Energy', 'Lighting', 'Mobility', 'Sustainability'],
+      docs: [['GitHub', 'https://github.com/triveme/smartcity-dashboard']],
+      videos: [
+        ['Smart City Dashboard', 'https://dashboard-smartcity.de/uebersicht']
+      ],
+      materials: [
+        [
+          'Dashboard PADERBORN',
+          'https://smartcity.edag.com/en/referenzen/dashboard-paderborn/'
+        ]
+      ],
+      logo:
+        'https://www.fiware.org/wp-content/uploads/04b774d7747e6329e66cc9a7aa3cf96a.png',
+      featuredImage:
+        'https://www.fiware.org/wp-content/uploads/fab9a016fad7d1c8ee07486130bbd640.png',
+      furtherImages: ''
     }
   },
   cities: {
@@ -11726,50 +11770,6 @@ var pageData = {
       logo: '',
       featuredImage:
         'https://www.fiware.org/wp-content/marketplace/images/hero_connecting-europe-facility_context-broker%E2%80%93edp-integration.png',
-      furtherImages: ''
-    },
-    'edagproductionsolutionsgmbhcokg-opensourcesmartcitydashboard': {
-      category: 'FiWARE-Ready',
-      organisationName: 'EDAG Production Solutions GmbH & Co. KG',
-      productName: 'Open Source Smart City Dashboard',
-      organisationWebsite: 'https://smartcity.edag.com/',
-      organisationEmail: 'mailto:alexander.suessemilch@edag.com',
-      linkedIn: '',
-      twitter: '',
-      productWebsite:
-        'https://smartcity.edag.com/en/referenzen/smart-city-dashboard/',
-      excerpt:
-        'The goal of this project is the visualization of data from the FIWARE-based central open data platform. By making the data available, especially in the form of charts, citizens and interested parties can be given an overview of the current state of affairs in the city.',
-      yearOfValidation: 2022,
-      description:
-        '<p>First native fiware-based dashboard framework to visualize urban data platforms. In order to be able to analyze and process the collected data in cities, it helps to display them visually on a dashboard.</p>',
-      challenge:
-        '<p>The framework consists of a frontend and a backend. The frontend visualizes the data it receives from the backend. The backend obtains the data from the open data platform using an intelligent polling mechanism and stores it temporarily, which keeps the load on the platform to a minimum. The following technologies are used for this, all of which were developed on an OpenSource basis and are state of the art:</p> <p><strong>Frontend – React Web App</strong> Communicates only with a central backend, the Orion Context Broker, via the NGSI-v2 REST API</p> <p><strong>Core backend (powered by FIWARE)</strong> Orion Context Broker uses NGSI-v2 REST API for data transfers</p> <p><strong>External services</strong> All services communicate with only one central backend, the Orion Context Broker, via the NGSI-v2 REST API</p>',
-      references:
-        '<p>City of Paderborn City of Ulm City of Hünfeld Region Fulda KielRegion</p>',
-      awards: '<p>none</p>',
-      technologies: [
-        'Data Spaces',
-        'Digital Twins',
-        'Mobility and Location',
-        'Open Data',
-        'Software as a Service'
-      ],
-      domains: ['Cities', 'Energy', 'Lighting', 'Mobility', 'Sustainability'],
-      docs: [['GitHub', 'https://github.com/triveme/smartcity-dashboard']],
-      videos: [
-        ['Smart City Dashboard', 'https://dashboard-smartcity.de/uebersicht']
-      ],
-      materials: [
-        [
-          'Dashboard PADERBORN',
-          'https://smartcity.edag.com/en/referenzen/dashboard-paderborn/'
-        ]
-      ],
-      logo:
-        'https://www.fiware.org/wp-content/uploads/04b774d7747e6329e66cc9a7aa3cf96a.png',
-      featuredImage:
-        'https://www.fiware.org/wp-content/uploads/fab9a016fad7d1c8ee07486130bbd640.png',
       furtherImages: ''
     }
   }
