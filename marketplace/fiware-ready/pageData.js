@@ -1,21 +1,5 @@
 var pageData = [
   {
-    company: 'Agricolus',
-    name: 'Agricolus Ecosystem',
-    img:
-      'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Agricolus.svg',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink:
-      '../product-details/?category=ready&id=agricolus-agricolusecosystem',
-    domain: ['AgriFood'],
-    type: 'IoT Device',
-    technology: ['Sensory Systems'],
-    year: 2017,
-    content:
-      'AGRICOLUS is a cloud applications ecosystem for precision farming with multiple purposes: disease awareness and forecasts, crop monitoring, decision support system for treatments and fertilizers, farm management, and end-to-end traceability bringing valuable information to final users.'
-  },
-  {
     company: 'Axion',
     name: 'Traxion',
     img:
@@ -1145,5 +1129,21 @@ var pageData = [
     year: 2022,
     content:
       'Development of an integrated digital system to transform car parks into intelligent mobility hubs. Apart from digitalising “classic” parking management, this also makes it possible for other services such as AVP or e-charging to be managed via one platform.'
+  },
+  {
+    company: 'Agricolus',
+    name: 'Agricolus Ecosystem',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Agricolus.svg',
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink:
+      '../product-details/?category=ready&id=agricolus-agricolusecosystem',
+    domain: ['AgriFood'],
+    type: 'IoT Device',
+    technology: ['Sensory Systems'],
+    year: 2017,
+    content:
+      'AGRICOLUS is a cloud applications ecosystem for precision farming with multiple purposes: disease awareness and forecasts, crop monitoring, decision support system for treatments and fertilizers, farm management, and end-to-end traceability bringing valuable information to final users.'
   }
 ];
