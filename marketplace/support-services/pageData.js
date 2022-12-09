@@ -1,50 +1,5 @@
 var pageData = [
   {
-    company: 'EGM',
-    name: 'Design office',
-    img:
-      'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_EGM.svg',
-    fiwareMember: true,
-    fiwareIhub: false,
-    companyLink: '../product-details/?category=services&id=egm-designoffice',
-    domain: [
-      'Electronics',
-      'Measurement',
-      'Process Manufacturing',
-      'Telecommunication'
-    ],
-    type: 'Consultancy & Integration',
-    technology: ['Internet of Things', 'Sensory Systems'],
-    year: 2021,
-    content:
-      'From idea (feasability study, design, prototyping, industrialization and manufacturing)  to realization of your solution: a user-centered creation process.  You know your work we help you to optimize it!'
-  },
-  {
-    company: 'eProsima',
-    name: 'eProsima',
-    img:
-      'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Eprosima.svg',
-    fiwareMember: true,
-    fiwareIhub: false,
-    companyLink: '../product-details/?category=services&id=eprosima-eprosima',
-    domain: [
-      'Cities',
-      'AgriFood',
-      'Logistics',
-      'Industry',
-      'Ports',
-      'Retail',
-      'Home',
-      'Health',
-      'Content'
-    ],
-    type: 'Consultancy & Integration',
-    technology: ['Internet of Things', 'Robotics', 'Data Analytics'],
-    year: 2021,
-    content:
-      'eProsima offers networking middleware solutions with special attention to the OMG standard called Data Distribution Service for Robotics, IoT, and Critical Applications.'
-  },
-  {
     company: 'eProsima',
     name: 'eProsima',
     img:
@@ -581,5 +536,50 @@ var pageData = [
     year: 2019,
     content:
       'We build proofs-of-concept, prototypes, and MVPs of web-based applications and love working with emerging technologies like blockchain, 3D printing, and Artificial Intelligence.'
+  },
+  {
+    company: 'EGM',
+    name: 'Design office',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_EGM.svg',
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink: '../product-details/?category=services&id=egm-designoffice',
+    domain: [
+      'Electronics',
+      'Measurement',
+      'Process Manufacturing',
+      'Telecommunication'
+    ],
+    type: 'Consultancy & Integration',
+    technology: ['Internet of Things', 'Sensory Systems'],
+    year: 2021,
+    content:
+      'From idea (feasability study, design, prototyping, industrialization and manufacturing)  to realization of your solution: a user-centered creation process.  You know your work we help you to optimize it!'
+  },
+  {
+    company: 'eProsima',
+    name: 'eProsima',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Eprosima.svg',
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink: '../product-details/?category=services&id=eprosima-eprosima',
+    domain: [
+      'Cities',
+      'AgriFood',
+      'Logistics',
+      'Industry',
+      'Ports',
+      'Retail',
+      'Home',
+      'Health',
+      'Content'
+    ],
+    type: 'Consultancy & Integration',
+    technology: ['Internet of Things', 'Robotics', 'Data Analytics'],
+    year: 2021,
+    content:
+      'eProsima offers networking middleware solutions with special attention to the OMG standard called Data Distribution Service for Robotics, IoT, and Critical Applications.'
   }
 ];

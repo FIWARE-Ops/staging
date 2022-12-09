@@ -4945,61 +4945,6 @@ var pageData = {
         'https://www.fiware.org/wp-content/marketplace/images/hero_engineering_extended-digital-twin.png',
       furtherImages: ''
     },
-    'engineeringitsgmbh-engineeringsurbandataplatform': {
-      category: 'Powered by FIWARE',
-      organisationName: 'Engineering ITS GmbH',
-      productName: 'Engineering´s Urban Data Platform',
-      organisationWebsite: 'https://www.eng-its.de/',
-      organisationEmail: 'mailto:info@eng-its.de',
-      linkedIn: 'https://www.linkedin.com/company/engineeringits/mycompany/',
-      twitter: '',
-      productWebsite:
-        'https://eng-its.de/unser-portfolio/plattformen-und-loesungen/urbane-datenplattform/',
-      excerpt:
-        'Our Urban Data Platform enables the development of a digital ecosystem in which existing data from different systems and applications can be used to build digital service offerings across fields of action. For this, we provide the urban data platform as a service approach.',
-      yearOfValidation: 2022,
-      description:
-        '<p>Our platform enables the integration and processing of a wide variety of data such as IoT sensors, open data sources, web services or business processes. For this purpose, we offer no-code applications within the platform so that you can easily integrate the data and develop new use cases such as analyses, data correlations or simulations as well as your own dashboards. You also get a data catalogue that allows you to publish the data as open data. </p> <p>Built on the FIWARE Reference architecture, our platform consists only of open-source modules for developing digital data spaces for smart cities. - Our platform is based on open source and open standards such as FIWARE. - Data sovereignty - All data rights and responsibilities remain in your hands. - Data models - We use FIWARE data models and help you with the individual development of new use cases. - Seamless integration - Build a digital ecosystem and integrate business processes and available data. - Best practices - From user &amp; role models to initial use cases, we offer you numerous examples for a quick start.</p>',
-      challenge:
-        '<p>Smart City stands for movement and efficiency. For this reason, we provide you with the urban data platform in an \\"as a service\\" approach. The platform is configured according to your requirements and the operation, and data storage is provided from a German cloud environment - but you can also operate the platform in your own data centre.</p> <p>Whether you want to gain initial experience or need a multi-platform environment - we support you with all your requirements.</p> <ul> <li><p>PoC - Get to know our platform via access for 6 months and implement first use cases with us.</p></li> <li><p>Pilot - Get started and receive a dedicated platform for the implementation of your goals. We take care of the operation and 8*5 tech. support for you.</p></li> <li><p>Production - Have you gained your first experiences and do you want to develop new services on the basis of the platform? Then we will provide you with a development and production environment for your Smart City. We take care of the operation and 24*7 tech. support for you.</p></li> </ul>',
-      references:
-        "<ul> <li>City of Heidelberg</li> <li>City of Monheim</li> <li>City of Dormagen</li> <li>DLR (Germany's research centre for aeronautics and space)1. </li> </ul>",
-      awards:
-        '<p>Solutions4Cities Contest:  Best Solution for Resilient City Development  https://www.smart-city-dialog.de/wp-content/uploads/2021/02/Bamberg.mp4</p>',
-      technologies: [
-        'Data Spaces',
-        'Digital Twins',
-        'Internet of Things',
-        'Open Data',
-        'Software as a Service'
-      ],
-      domains: ['Cities'],
-      docs: [],
-      videos: [],
-      materials: [
-        [
-          'FIWARE Impact Stories',
-          'https://www.fiware.org/wp-content/uploads/FF_ImpactStories_Engineering-DE.pdf'
-        ],
-        [
-          'City of Dormagen',
-          'https://eng-its.de/en/reference-city-of-dormagen/'
-        ],
-        [
-          'City of Heidelberg',
-          'https://eng-its.de/en/reference-city-of-heidelberg/'
-        ],
-        [
-          'FIWARE Impact Stories- Heidelberg',
-          'https://www.fiware.org/wp-content/uploads/FF_ImpactStories_Heidelberg.pdf'
-        ]
-      ],
-      logo:
-        'https://www.fiware.org/wp-content/uploads/f76c024d092fd8d3b56a5fadea08eaa3.png',
-      featuredImage:
-        'https://www.fiware.org/wp-content/uploads/93ecd215f67ea8f6fcfc305b49e72a27.png',
-      furtherImages: ''
-    },
     'agricolussrl-agrigateways': {
       category: 'Powered by FIWARE',
       organisationName: 'Agricolus srl',
@@ -5084,56 +5029,64 @@ var pageData = {
       featuredImage:
         'https://www.fiware.org/wp-content/marketplace/images/hero_addix_adi-fi.png',
       furtherImages: ''
-    }
-  },
-  ready: {
-    'agricolus-agricolusecosystem': {
-      category: 'FIWARE-Ready',
-      organisationName: 'Agricolus',
-      productName: 'Agricolus Ecosystem',
-      organisationWebsite: 'https://www.agricolus.com/en/',
-      organisationEmail: 'mailto:discover@agricolus.com',
-      linkedIn: 'https://www.linkedin.com/company/agricoluss.r.l./',
-      twitter: 'https://twitter.com/AgricolusSuite/',
-      productWebsite: 'https://www.agricolus.com/en/solutions/',
+    },
+    'engineeringitsgmbh-engineeringsurbandataplatform': {
+      category: 'Powered by FIWARE',
+      organisationName: 'Engineering ITS GmbH',
+      productName: 'Engineering´s Urban Data Platform',
+      organisationWebsite: 'https://www.eng-its.de/',
+      organisationEmail: 'mailto:info@eng-its.de',
+      linkedIn: 'https://www.linkedin.com/company/engineeringits/mycompany/',
+      twitter: '',
+      productWebsite:
+        'https://eng-its.de/unser-portfolio/plattformen-und-loesungen/urbane-datenplattform/',
       excerpt:
-        'AGRICOLUS is a cloud applications ecosystem for precision farming with multiple purposes: disease awareness and forecasts, crop monitoring, decision support system for treatments and fertilizers, farm management, and end-to-end traceability bringing valuable information to final users.',
-      yearOfValidation: 2017,
+        'Our Urban Data Platform enables the development of a digital ecosystem in which existing data from different systems and applications can be used to build digital service offerings across fields of action. For this, we provide the urban data platform as a service approach.',
+      yearOfValidation: 2022,
       description:
-        '<p>AGRICOLUS DECISION SUPPORT SYSTEM is a composition of several vertical products that leverage  a common architecture, that covers up to 70% of functionalities common to all the crops, and dedicated professional algorithms for disease forecasting and agricultural optimizations. Data are collected through satellites, drones, IoT, dedicated apps, and soon with our own plug&amp;play AgriPlug device that connects tractors and other Precision Farming Devices to AGRICOLUS SaaS cloud. We also provide AGRITRACK: an end-to-end tracking service that can bring information on good agronomic practices directly to the end-users to raise their awareness of the real value of the goods they are buying.</p> <p>AGRICOLUS is already on the market and multinational agroholding companies, medium-big farms, association of farmers and government are using it successfully.</p>',
+        '<p>Our platform enables the integration and processing of a wide variety of data such as IoT sensors, open data sources, web services or business processes. For this purpose, we offer no-code applications within the platform so that you can easily integrate the data and develop new use cases such as analyses, data correlations or simulations as well as your own dashboards. You also get a data catalogue that allows you to publish the data as open data. </p> <p>Built on the FIWARE Reference architecture, our platform consists only of open-source modules for developing digital data spaces for smart cities. - Our platform is based on open source and open standards such as FIWARE. - Data sovereignty - All data rights and responsibilities remain in your hands. - Data models - We use FIWARE data models and help you with the individual development of new use cases. - Seamless integration - Build a digital ecosystem and integrate business processes and available data. - Best practices - From user &amp; role models to initial use cases, we offer you numerous examples for a quick start.</p>',
       challenge:
-        '<p>Today farmers face several challenges, we are mostly working on:</p> <p>International market competition with products coming from unruled countries that produce at a very low cost. The effect is a reduction of the profit due to the need of reducing final selling prices. For this reason, they have to reduce costs and increase quality at the same time. Climate change requires continuous adaptation of the best time to proceed with any agricultural operation (seeding, fertilizing, manuring, irrigating, harvesting, …). They need  real-time support to understand the right timing for these operations. AgriTech adoption is not an option but average usage in the EU is far below 10% versus 80% of North America and Australia: farmers need a way to integrate these technologies into daily tasks.</p>',
+        '<p>Smart City stands for movement and efficiency. For this reason, we provide you with the urban data platform in an \\"as a service\\" approach. The platform is configured according to your requirements and the operation, and data storage is provided from a German cloud environment - but you can also operate the platform in your own data centre.</p> <p>Whether you want to gain initial experience or need a multi-platform environment - we support you with all your requirements.</p> <ul> <li><p>PoC - Get to know our platform via access for 6 months and implement first use cases with us.</p></li> <li><p>Pilot - Get started and receive a dedicated platform for the implementation of your goals. We take care of the operation and 8*5 tech. support for you.</p></li> <li><p>Production - Have you gained your first experiences and do you want to develop new services on the basis of the platform? Then we will provide you with a development and production environment for your Smart City. We take care of the operation and 24*7 tech. support for you.</p></li> </ul>',
       references:
-        '<p>Agro holding companies that want to standardize with AGRICOLUS good practices among their suppliers (farmers) Association of farmers that want to support their associates with better tools providing high value technologies Medium big farms that can reduce costs and have  better control, and an end-to-end traceability of the production Government in agricultural department that uses our product to raise farmers awareness on diseases and other agricultural treats</p>',
+        "<ul> <li>City of Heidelberg</li> <li>City of Monheim</li> <li>City of Dormagen</li> <li>DLR (Germany's research centre for aeronautics and space)1. </li> </ul>",
       awards:
-        '<p>Other than the Accelerators we participated in, we are winners of: SEUA 2016 Italian Prizes (EBAN, IAG prizes), ( SpinUp Awards 2017 (Grand Jury Prize), FoodTech 2017 (Intesa San Paolo), ForumPA 10x10 finalist.</p>',
-      technologies: ['Sensory Systems'],
-      domains: ['AgriFood'],
+        '<p>Solutions4Cities Contest:  Best Solution for Resilient City Development  https://www.smart-city-dialog.de/wp-content/uploads/2021/02/Bamberg.mp4</p>',
+      technologies: [
+        'Data Spaces',
+        'Digital Twins',
+        'Internet of Things',
+        'Open Data',
+        'Software as a Service'
+      ],
+      domains: ['Cities'],
       docs: [],
-      videos: [['AgriPlug', 'https://www.youtube.com/watch?v=hVHW7QIJMd8']],
+      videos: [],
       materials: [
         [
-          'Press Review',
-          'https://www.agricolus.com/wp-content/uploads/2017/05/Agricolus_PressReview_7_2017.pdf'
+          'FIWARE Impact Stories',
+          'https://www.fiware.org/wp-content/uploads/FF_ImpactStories_Engineering-DE.pdf'
+        ],
+        [
+          'City of Dormagen',
+          'https://eng-its.de/en/reference-city-of-dormagen/'
+        ],
+        [
+          'City of Heidelberg',
+          'https://eng-its.de/en/reference-city-of-heidelberg/'
+        ],
+        [
+          'FIWARE Impact Stories- Heidelberg',
+          'https://www.fiware.org/wp-content/uploads/FF_ImpactStories_Heidelberg.pdf'
         ]
       ],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Agricolus.svg',
+        'https://www.fiware.org/wp-content/uploads/f76c024d092fd8d3b56a5fadea08eaa3.png',
       featuredImage:
-        'https://www.fiware.org/wp-content/marketplace/images/hero_agricolus_agricolus-ecosystem.png',
-      furtherImages: '',
-      related: [
-        {
-          category: 'Powered by FIWARE',
-          featuredImage:
-            'https://www.fiware.org/wp-content/marketplace/images/hero_agricolus_agricolus-ecosystem.png',
-          excerpt:
-            'Agricolus is a cloud platform created to simplify and enhance the work in the field of farmers and professionals. It is composed of the main applications of precision agriculture:  from satellite imagery with vegetation indices to forecast models for irrigation, fertilization, pest and diseases.',
-          productName: 'Agricolus',
-          companyLink: './?category=powered&id=agricolus-agricolus'
-        }
-      ]
-    },
+        'https://www.fiware.org/wp-content/uploads/93ecd215f67ea8f6fcfc305b49e72a27.png',
+      furtherImages: ''
+    }
+  },
+  ready: {
     'axion-traxion': {
       category: 'FIWARE-Ready',
       organisationName: 'Axion',
@@ -9919,6 +9872,53 @@ var pageData = {
       featuredImage:
         'https://www.fiware.org/wp-content/marketplace/images/hero_edag_trive-park.png',
       furtherImages: ''
+    },
+    'agricolus-agricolusecosystem': {
+      category: 'FIWARE-Ready',
+      organisationName: 'Agricolus',
+      productName: 'Agricolus Ecosystem',
+      organisationWebsite: 'https://www.agricolus.com/en/',
+      organisationEmail: 'mailto:discover@agricolus.com',
+      linkedIn: 'https://www.linkedin.com/company/agricoluss.r.l./',
+      twitter: 'https://twitter.com/AgricolusSuite/',
+      productWebsite: 'https://www.agricolus.com/en/solutions/',
+      excerpt:
+        'AGRICOLUS is a cloud applications ecosystem for precision farming with multiple purposes: disease awareness and forecasts, crop monitoring, decision support system for treatments and fertilizers, farm management, and end-to-end traceability bringing valuable information to final users.',
+      yearOfValidation: 2017,
+      description:
+        '<p>AGRICOLUS DECISION SUPPORT SYSTEM is a composition of several vertical products that leverage  a common architecture, that covers up to 70% of functionalities common to all the crops, and dedicated professional algorithms for disease forecasting and agricultural optimizations. Data are collected through satellites, drones, IoT, dedicated apps, and soon with our own plug&amp;play AgriPlug device that connects tractors and other Precision Farming Devices to AGRICOLUS SaaS cloud. We also provide AGRITRACK: an end-to-end tracking service that can bring information on good agronomic practices directly to the end-users to raise their awareness of the real value of the goods they are buying.</p> <p>AGRICOLUS is already on the market and multinational agroholding companies, medium-big farms, association of farmers and government are using it successfully.</p>',
+      challenge:
+        '<p>Today farmers face several challenges, we are mostly working on:</p> <p>International market competition with products coming from unruled countries that produce at a very low cost. The effect is a reduction of the profit due to the need of reducing final selling prices. For this reason, they have to reduce costs and increase quality at the same time. Climate change requires continuous adaptation of the best time to proceed with any agricultural operation (seeding, fertilizing, manuring, irrigating, harvesting, …). They need  real-time support to understand the right timing for these operations. AgriTech adoption is not an option but average usage in the EU is far below 10% versus 80% of North America and Australia: farmers need a way to integrate these technologies into daily tasks.</p>',
+      references:
+        '<p>Agro holding companies that want to standardize with AGRICOLUS good practices among their suppliers (farmers) Association of farmers that want to support their associates with better tools providing high value technologies Medium big farms that can reduce costs and have  better control, and an end-to-end traceability of the production Government in agricultural department that uses our product to raise farmers awareness on diseases and other agricultural treats</p>',
+      awards:
+        '<p>Other than the Accelerators we participated in, we are winners of: SEUA 2016 Italian Prizes (EBAN, IAG prizes), ( SpinUp Awards 2017 (Grand Jury Prize), FoodTech 2017 (Intesa San Paolo), ForumPA 10x10 finalist.</p>',
+      technologies: ['Sensory Systems'],
+      domains: ['AgriFood'],
+      docs: [],
+      videos: [['AgriPlug', 'https://www.youtube.com/watch?v=hVHW7QIJMd8']],
+      materials: [
+        [
+          'Press Review',
+          'https://www.agricolus.com/wp-content/uploads/2017/05/Agricolus_PressReview_7_2017.pdf'
+        ]
+      ],
+      logo:
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Agricolus.svg',
+      featuredImage:
+        'https://www.fiware.org/wp-content/marketplace/images/hero_agricolus_agricolus-ecosystem.png',
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_agricolus_agricolus-ecosystem.png',
+          excerpt:
+            'Agricolus is a cloud platform created to simplify and enhance the work in the field of farmers and professionals. It is composed of the main applications of precision agriculture:  from satellite imagery with vegetation indices to forecast models for irrigation, fertilization, pest and diseases.',
+          productName: 'Agricolus',
+          companyLink: './?category=powered&id=agricolus-agricolus'
+        }
+      ]
     }
   },
   cities: {
@@ -9969,77 +9969,6 @@ var pageData = {
     }
   },
   services: {
-    'egm-designoffice': {
-      category: 'Services',
-      organisationName: 'EGM',
-      productName: 'Design office',
-      organisationWebsite: 'https://www.egm.io/en/egm-the-innovation-factory',
-      organisationEmail: '',
-      linkedIn: 'https://www.linkedin.com/company/easy-global-market/',
-      twitter: 'https://twitter.com/egm_sophia',
-      productWebsite: 'https://www.egm.io/en/engineering-and-integration',
-      excerpt:
-        'From idea (feasibility study, design, prototyping, industrialization and manufacturing)  to realization of your solution: a user-centered creation process. \nYou know your work we help you to optimize it!',
-      yearOfValidation: 2021,
-      description:
-        '<p><strong>EGM</strong> ensures the design of your solution taking into account your criteria of performance, price, quantities, standards, mechanical integration, optimization, the choice of technologies, and manufacturing methods with a user-centered creation process.</p> <p><strong>FEASABILITY STUDY</strong>  Our engineering design office offers you its expertise and know-how in electronics and embedded IoT to provide technical  expertise for your project. Based on your idea, EGM will identify the key development points and offer you the best solution to carry out your project.</p> <p><strong>DESIGN</strong>  We develop systems from scratch or  technological bricks. According to the technical specifications that we draft with you, we select the best  components taking into account the requirements of the project.</p> <p><strong>PROTOTYPING</strong>  The development involves the realization of an electronic prototype V1 which allows you  to validate together the functionalities and the concept of your product. Then, we proceed to the electronic prototype V2 which integrates the possible evolutions, or modifications seen previously.</p> <p><strong>INDUSTRIALIZATION AND MANUFACTURING</strong>  Thanks to our skills, we are able to calibrate, optimize costs and electronic card manufacturing processes. Whether for prototypes, small, medium, or large series, we offer production plans adapted to the objectives of our References/Customers. We are supporting organizations in deploying FIWARE architectures, starting from data ingestion up to data processing, with new NGSI-LD data models.</p>',
-      challenge: '',
-      references: '',
-      awards: '',
-      technologies: ['Internet of Things', 'Sensory Systems'],
-      domains: [
-        'Electronics',
-        'Measurement',
-        'Process Manufacturing',
-        'Telecommunication'
-      ],
-      docs: [],
-      videos: [],
-      materials: [],
-      logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_EGM.svg',
-      featuredImage:
-        'https://www.fiware.org/wp-content/marketplace/images/hero_egm_design-office.png',
-      furtherImages: '',
-      related: [
-        {
-          category: 'Powered by FIWARE',
-          featuredImage:
-            'https://www.fiware.org/wp-content/marketplace/images/hero_egm_carpool-parking.png',
-          excerpt:
-            'This camera allows us to count entries and exits in a carpool park and to determine whether the cars parked are indeed intended for carpooling. This device allows our clients to have tangible statistics on the occupation of a car park.',
-          productName: 'Carpool Parking',
-          companyLink: './?category=powered&id=egm-carpoolparking'
-        },
-        {
-          category: 'Powered by FIWARE',
-          featuredImage:
-            'https://www.fiware.org/wp-content/marketplace/images/hero_saint-quentin_connected-canteens.png',
-          excerpt:
-            'This solution includes connected weighing scales under the bins to provide information on the weight of organic and non-organic waste from an individual and overall perspective. This solution allows canteens to raise awareness and help to adapt menus and quantities.',
-          productName: 'Connected Canteens',
-          companyLink: './?category=powered&id=egm-connectedcanteens'
-        },
-        {
-          category: 'Powered by FIWARE',
-          featuredImage:
-            'https://www.fiware.org/wp-content/marketplace/images/hero_egm_smart-irrigation.png',
-          excerpt:
-            'EGM offers a complete solution for determining the amount of water that can be saved on a green space and deploying the control solution in addition to an existing watering system to achieve the water savings in question. Our solution saved 35% of the water on the first deployment.',
-          productName: 'Smart Irrigation',
-          companyLink: './?category=powered&id=egm-smartirrigation'
-        },
-        {
-          category: 'FIWARE-Ready',
-          featuredImage:
-            'https://www.fiware.org/wp-content/marketplace/images/hero_egm_edgespot.png',
-          excerpt:
-            'The device EdgeSpot is a highly scalable hardware and software platform that takes you from concept to market by accelerating the proof-of-concept phases.',
-          productName: 'EdgeSpot',
-          companyLink: './?category=ready&id=egm-edgespot'
-        }
-      ]
-    },
     'eprosima-eprosima': {
       category: 'Services',
       organisationName: 'eProsima',
@@ -10050,15 +9979,15 @@ var pageData = {
       twitter: 'https://twitter.com/eProsima',
       productWebsite: 'https://www.eprosima.com/',
       excerpt:
-        'eProsima is an SME company focused on networking middleware with special attention to the OMG (Object Management Group) standard called Data Distribution Service (DDS) for real time systems, IoT and Critical Applications.',
+        'eProsima offers networking middleware solutions with special attention to the OMG standard called Data Distribution Service for Robotics, IoT, and Critical Applications.',
       yearOfValidation: 2021,
       description:
-        '<p><strong>eProsima</strong> is an SME company focused on networking middleware with special attention to the OMG (Object Management Group) standard called Data Distribution Service (DDS) for real-time systems. The company’s DDS middleware solutions find special interest in the robotic, IoT, and automotive sectors, being Fast DDS a middleware implementation for larger robotic systems like ROS 2, and Micro XRCE-DDS the default middleware for micro-ROS, a robot operating system for microcontrollers.</p>',
+        '<p><strong>eProsima</strong> is an SME company focused on networking middleware with special attention to the OMG (Object Management Group) standard called Data Distribution Service (DDS) for real-time systems.  The company’s DDS middleware solutions find special interest in the robotic, IoT, and automotive sectors, being Fast DDS a middleware implementation for larger robotic systems like ROS 2, and Micro XRCE-DDS the default middleware for micro-ROS, a robot operating system for microcontrollers.</p>',
       challenge: '',
       references:
         '<p>Sony, Amazon, Deutsche Bahn, Open Robotics, Auterion, Apex.ai, TTTech, FZI, Thales, Indra…</p>',
       awards: '',
-      technologies: ['Internet of Things', 'Data Analytics'],
+      technologies: ['Internet of Things', 'Robotics', 'Data Analytics'],
       domains: [
         'Cities',
         'AgriFood',
@@ -10082,7 +10011,7 @@ var pageData = {
         ['eProsima News', 'https://www.eprosima.com/index.php/company-all/news']
       ],
       logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_Eprosima.svg',
+        'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Eprosima.svg',
       featuredImage:
         'https://www.fiware.org/wp-content/marketplace/images/hero_eprosima_eprosima.png',
       furtherImages: ''
@@ -11620,6 +11549,77 @@ var pageData = {
       featuredImage:
         'https://www.fiware.org/wp-content/marketplace/images/hero_ballistix_ballistix.png',
       furtherImages: ''
+    },
+    'egm-designoffice': {
+      category: 'Services',
+      organisationName: 'EGM',
+      productName: 'Design office',
+      organisationWebsite: 'https://www.egm.io/en/egm-the-innovation-factory',
+      organisationEmail: '',
+      linkedIn: 'https://www.linkedin.com/company/easy-global-market/',
+      twitter: 'https://twitter.com/egm_sophia',
+      productWebsite: 'https://www.egm.io/en/engineering-and-integration',
+      excerpt:
+        'From idea (feasibility study, design, prototyping, industrialization and manufacturing)  to realization of your solution: a user-centered creation process. \nYou know your work we help you to optimize it!',
+      yearOfValidation: 2021,
+      description:
+        '<p><strong>EGM</strong> ensures the design of your solution taking into account your criteria of performance, price, quantities, standards, mechanical integration, optimization, the choice of technologies, and manufacturing methods with a user-centered creation process.</p> <p><strong>FEASABILITY STUDY</strong>  Our engineering design office offers you its expertise and know-how in electronics and embedded IoT to provide technical  expertise for your project. Based on your idea, EGM will identify the key development points and offer you the best solution to carry out your project.</p> <p><strong>DESIGN</strong>  We develop systems from scratch or  technological bricks. According to the technical specifications that we draft with you, we select the best  components taking into account the requirements of the project.</p> <p><strong>PROTOTYPING</strong>  The development involves the realization of an electronic prototype V1 which allows you  to validate together the functionalities and the concept of your product. Then, we proceed to the electronic prototype V2 which integrates the possible evolutions, or modifications seen previously.</p> <p><strong>INDUSTRIALIZATION AND MANUFACTURING</strong>  Thanks to our skills, we are able to calibrate, optimize costs and electronic card manufacturing processes. Whether for prototypes, small, medium, or large series, we offer production plans adapted to the objectives of our References/Customers. We are supporting organizations in deploying FIWARE architectures, starting from data ingestion up to data processing, with new NGSI-LD data models.</p>',
+      challenge: '',
+      references: '',
+      awards: '',
+      technologies: ['Internet of Things', 'Sensory Systems'],
+      domains: [
+        'Electronics',
+        'Measurement',
+        'Process Manufacturing',
+        'Telecommunication'
+      ],
+      docs: [],
+      videos: [],
+      materials: [],
+      logo:
+        'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_EGM.svg',
+      featuredImage:
+        'https://www.fiware.org/wp-content/marketplace/images/hero_egm_design-office.png',
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_egm_carpool-parking.png',
+          excerpt:
+            'This camera allows us to count entries and exits in a carpool park and to determine whether the cars parked are indeed intended for carpooling. This device allows our clients to have tangible statistics on the occupation of a car park.',
+          productName: 'Carpool Parking',
+          companyLink: './?category=powered&id=egm-carpoolparking'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_saint-quentin_connected-canteens.png',
+          excerpt:
+            'This solution includes connected weighing scales under the bins to provide information on the weight of organic and non-organic waste from an individual and overall perspective. This solution allows canteens to raise awareness and help to adapt menus and quantities.',
+          productName: 'Connected Canteens',
+          companyLink: './?category=powered&id=egm-connectedcanteens'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_egm_smart-irrigation.png',
+          excerpt:
+            'EGM offers a complete solution for determining the amount of water that can be saved on a green space and deploying the control solution in addition to an existing watering system to achieve the water savings in question. Our solution saved 35% of the water on the first deployment.',
+          productName: 'Smart Irrigation',
+          companyLink: './?category=powered&id=egm-smartirrigation'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_egm_edgespot.png',
+          excerpt:
+            'The device EdgeSpot is a highly scalable hardware and software platform that takes you from concept to market by accelerating the proof-of-concept phases.',
+          productName: 'EdgeSpot',
+          companyLink: './?category=ready&id=egm-edgespot'
+        }
+      ]
     }
   },
   unknown: {
@@ -11726,6 +11726,50 @@ var pageData = {
       logo: '',
       featuredImage:
         'https://www.fiware.org/wp-content/marketplace/images/hero_connecting-europe-facility_context-broker%E2%80%93edp-integration.png',
+      furtherImages: ''
+    },
+    'edagproductionsolutionsgmbhcokg-opensourcesmartcitydashboard': {
+      category: 'FiWARE-Ready',
+      organisationName: 'EDAG Production Solutions GmbH & Co. KG',
+      productName: 'Open Source Smart City Dashboard',
+      organisationWebsite: 'https://smartcity.edag.com/',
+      organisationEmail: 'mailto:alexander.suessemilch@edag.com',
+      linkedIn: '',
+      twitter: '',
+      productWebsite:
+        'https://smartcity.edag.com/en/referenzen/smart-city-dashboard/',
+      excerpt:
+        'The goal of this project is the visualization of data from the FIWARE-based central open data platform. By making the data available, especially in the form of charts, citizens and interested parties can be given an overview of the current state of affairs in the city.',
+      yearOfValidation: 2022,
+      description:
+        '<p>First native fiware-based dashboard framework to visualize urban data platforms. In order to be able to analyze and process the collected data in cities, it helps to display them visually on a dashboard.</p>',
+      challenge:
+        '<p>The framework consists of a frontend and a backend. The frontend visualizes the data it receives from the backend. The backend obtains the data from the open data platform using an intelligent polling mechanism and stores it temporarily, which keeps the load on the platform to a minimum. The following technologies are used for this, all of which were developed on an OpenSource basis and are state of the art:</p> <p><strong>Frontend – React Web App</strong> Communicates only with a central backend, the Orion Context Broker, via the NGSI-v2 REST API</p> <p><strong>Core backend (powered by FIWARE)</strong> Orion Context Broker uses NGSI-v2 REST API for data transfers</p> <p><strong>External services</strong> All services communicate with only one central backend, the Orion Context Broker, via the NGSI-v2 REST API</p>',
+      references:
+        '<p>City of Paderborn City of Ulm City of Hünfeld Region Fulda KielRegion</p>',
+      awards: '<p>none</p>',
+      technologies: [
+        'Data Spaces',
+        'Digital Twins',
+        'Mobility and Location',
+        'Open Data',
+        'Software as a Service'
+      ],
+      domains: ['Cities', 'Energy', 'Lighting', 'Mobility', 'Sustainability'],
+      docs: [['GitHub', 'https://github.com/triveme/smartcity-dashboard']],
+      videos: [
+        ['Smart City Dashboard', 'https://dashboard-smartcity.de/uebersicht']
+      ],
+      materials: [
+        [
+          'Dashboard PADERBORN',
+          'https://smartcity.edag.com/en/referenzen/dashboard-paderborn/'
+        ]
+      ],
+      logo:
+        'https://www.fiware.org/wp-content/uploads/04b774d7747e6329e66cc9a7aa3cf96a.png',
+      featuredImage:
+        'https://www.fiware.org/wp-content/uploads/fab9a016fad7d1c8ee07486130bbd640.png',
       furtherImages: ''
     }
   }
