@@ -17,6 +17,10 @@ const PROCESS = process.env.PROCESS || 'products';
 const _ = require('underscore');
 let productDetails;
 
+const caseInsensitive = function(i) {
+  return i ? i.toLowerCase() : '';
+};
+
 function createClass(data) {
   let result = '';
   const regex = /([^a-zA-Z0-9À-ÿ])/gi;
@@ -79,6 +83,27 @@ function writeFilters(filename, types, domains, technologies) {
     `var types = ${JSON.stringify(types, null, 2)};
 var domains = ${JSON.stringify(domains, null, 2)};
 var technologies = ${JSON.stringify(technologies, null, 2)};`,
+    function(err) {
+      if (err) return console.log(err);
+    }
+  );
+}
+
+function writePeopleFilters(
+  filename,
+  companies = [],
+  departments = [],
+  domains = [],
+  titles = [],
+  countries = []
+) {
+  fs.writeFile(
+    filename,
+    `var companies = ${JSON.stringify(companies, null, 2)};
+var departments = ${JSON.stringify(departments, null, 2)};
+var domains = ${JSON.stringify(domains, null, 2)};
+var titles = ${JSON.stringify(titles, null, 2)};
+var countries = ${JSON.stringify(countries, null, 2)};`,
     function(err) {
       if (err) return console.log(err);
     }
@@ -212,9 +237,6 @@ if (PROCESS.startsWith('webinars')) {
       return CSVParser.extractWebinars(input);
     })
     .then(webinars => {
-      const caseInsensitive = function(i) {
-        return i.toLowerCase();
-      };
       const types = _.sortBy(
         _.uniq(
           _.map(webinars, function(webinar) {
@@ -269,6 +291,60 @@ if (PROCESS.startsWith('people')) {
     })
     .then(people => {
       writeTemplate('people/people.html', 'people.html', people);
+
+      const companies = _.sortBy(
+        _.uniq(
+          _.map(people, function(person) {
+            return person.company ? person.company : '';
+          })
+        ),
+        caseInsensitive
+      );
+
+      const departments = _.sortBy(
+        _.uniq(
+          _.map(people, function(person) {
+            return person.department ? person.department : '';
+          })
+        ),
+        caseInsensitive
+      );
+
+      const domains = _.sortBy(
+        _.uniq(
+          _.map(people, function(person) {
+            return person.domain ? person.domain : '';
+          })
+        ),
+        caseInsensitive
+      );
+
+      const titles = _.sortBy(
+        _.uniq(
+          _.map(people, function(person) {
+            return person.title ? person.title : '';
+          })
+        ),
+        caseInsensitive
+      );
+
+      const countries = _.sortBy(
+        _.uniq(
+          _.map(people, function(person) {
+            return person.country ? person.country : '';
+          })
+        ),
+        caseInsensitive
+      );
+
+      writePeopleFilters(
+        'people/pageData.js',
+        companies,
+        departments,
+        domains,
+        titles,
+        countries
+      );
     })
     .catch(e => {
       console.log(e);
