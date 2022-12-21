@@ -35,10 +35,14 @@ function extractPeople(input) {
   const people = [];
   input.forEach(item => {
     const person = {
-      name: item.Name,
-      img: item.Image,
-      company: item.Company,
-      job: item.Job
+      name: item['Name Surname'],
+      img: item['Profile Picture'],
+      company: item['Company'],
+      job: item['Job title'],
+      bio: item['Bio'],
+      linkedIn: item['LinkedIn'],
+      twitter: item['Twitter'],
+      department: item['Department']
     };
     people.push(person);
   });
