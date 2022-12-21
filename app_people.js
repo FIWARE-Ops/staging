@@ -87,9 +87,9 @@ function dropdownFilters (filter)  {
   }
 
   // update Type select
-  if (filter.fType) {
+  if (window.types && filter.fType) {
     var typesArr = ["*"];
-    types.forEach((el) => {
+    window.types.forEach((el) => {
       var typeClass = createClassFilter(el);
       if (typeClass !== '' && jQuery("." + typeClass + domainCSSFilter + techCSSFilter + itemCSSFilter).size()) {
         typesArr.push(typeClass);
@@ -105,9 +105,9 @@ function dropdownFilters (filter)  {
   }
 
   // update Domain select
-  if (filter.fDomain) {
+  if (window.domains && filter.fDomain) {
     var companyDomainArr = ["*"];
-    domains.forEach((el) => {
+    window.domains.forEach((el) => {
       var domainClass = createClassFilter(el);
       if (domainClass !== '' && jQuery("." + domainClass + typeCSSFilter + techCSSFilter + itemCSSFilter).size()) {
         companyDomainArr.push(domainClass);
@@ -123,9 +123,9 @@ function dropdownFilters (filter)  {
   }
 
   // update Technology Select
-  if (filter.fTech) {
+  if (window.technologies &&  filter.fTech) {
     var companiesTechnologyArr = ["*"];
-    technologies.forEach((el) => {
+    window.technologies.forEach((el) => {
       var techClass = createClassFilter(el);
       if (techClass !== '' && jQuery("." + techClass + typeCSSFilter + domainCSSFilter + itemCSSFilter).size()) {
         companiesTechnologyArr.push(techClass);
@@ -185,210 +185,213 @@ defer(function () {
 
   // POPULATE THE LISTING
   includeHTML();
-  // POPULATE THE INITIAL SELECT
-  /* initDropdowns(); */
+  jQuery(document).ready(function() {
+    // POPULATE THE INITIAL SELECT
+    /* initDropdowns(); */
 
-  // Isotope istantiation
-  var msnry;
-  var selectors = { fType: true, fDomain: true, fTech: true};
-  var filterObj = {};
+    // Isotope istantiation
+    var msnry;
+    var selectors = { fType: true, fDomain: true, fTech: true};
+    var filterObj = {};
 
-  // Relies on unpkg.com/imagesloaded
-  imagesLoaded(document.querySelector("#app"), function (instance) {
-    msnry = new Isotope(".grid", {
-      itemSelector: ".grid-item",
-      layoutMode: "fitRows",
-      masonry: {
-        columnWidth: ".grid-sizer",
-      },
-      getSortData: {
-        name: ".name parseInt",
-        year: ".year",
-      },
-      sortAscending: {
-        name: true,
-        year: false
-      }
+    // Relies on unpkg.com/imagesloaded
+    imagesLoaded(document.querySelector("#app"), function (instance) {
+      msnry = new Isotope(".grid", {
+        itemSelector: ".grid-item",
+        layoutMode: "fitRows",
+        masonry: {
+          columnWidth: ".grid-sizer",
+        },
+        getSortData: {
+          name: ".name parseInt",
+          year: ".year",
+        },
+        sortAscending: {
+          name: true,
+          year: false
+        }
+      });
+
+      msnry.on("arrangeComplete", (filteredItems) => {
+        if (document.activeElement !== document.getElementById("searchInput")) {
+          $("html, body").scrollTop($("#searchInput").offset().top + 70);
+        }
+        dropdownFilters(selectors);
+      });
     });
 
-    msnry.on("arrangeComplete", (filteredItems) => {
-      if (document.activeElement !== document.getElementById("searchInput")) {
-        $("html, body").scrollTop($("#searchInput").offset().top + 70);
-      }
-      dropdownFilters(selectors);
-    });
-  });
-
-  // Search input
-  document.querySelector("#searchInput").addEventListener("keyup", (e) => {
-    if (e.target.value != "") {
-      e.target.parentNode.classList.add("resetActive");
-    } else {
-      e.target.parentNode.classList.remove("resetActive");
-    }
-    msnry.arrange({
-      filter: function (itemElem, itemElem2) {
-        return inputSearch(itemElem2, e.target.value);
-      },
-    });
-  });
-
-  document.querySelector(".resetInput").addEventListener("click", (el) => {
-    document.querySelector("#searchInput").value = "";
-    document.querySelector(".search-element").classList.remove("resetActive");
-    msnry.arrange({
-      filter: function (itemElem, itemElem2) {
-        return true;
-      },
-    });
-  });
-
-  // SORT BY ALPHABETICALLY
-  document.querySelector("#orderByName").addEventListener("click", (e) => {
-    if (e.target.classList.contains("active") == false) {
-      msnry.arrange({ sortBy: "name" });
-      e.target.classList.add("active");
-    } else {
-      msnry.arrange({ sortBy: "original-order" });
-      e.target.classList.remove("active");
-    }
-  });
-
-  // SORT BY YEAR
-  document.querySelector("#orderByYear").addEventListener("click", (e) => {
-    if (e.target.classList.contains("active") == false) {
-      msnry.arrange({ sortBy: "year" });
-      e.target.classList.add("active");
-    } else {
-      msnry.arrange({ sortBy: "original-order" });
-      e.target.classList.remove("active");
-    }
-  });
-
-  document.querySelector(".filters-container").addEventListener("change", (e) => {
-    if (e.target.id === "searchInput") {
-      return;
-    }
-
-    selectors = {
-      fType: e.target.id !== "filterType",
-      fDomain: e.target.id !== "filterDomain",
-      fTech: e.target.id !== "filterTechnology"
-    };
-
-    if (document.getElementById(e.target.id).value === "*") {
-      selectors = {
-        fType: true,
-        fDomain: true,
-        fTech: true
-      };
-    }
-
-    filterObj[e.target.id] = `${e.target.value == "*" ? "" : "." + e.target.value}`;
-    msnry.arrange({
-      filter: concatValues(filterObj),
-    });
-  });
-
-  // toggle filter menu only on mobile
-  if (window.innerWidth <= 980) {
-    let filtersContainer = document.querySelector(".filters-container");
-    document.querySelector("#mobileToggleFilters").addEventListener("click", (ev) => {
-      ev.target.classList.toggle("activeButton");
-
-      if (!filtersContainer.classList.contains("active")) {
-        filtersContainer.classList.add("active");
-        document.querySelector("#filter-button-text").innerText = "Hide Filters";
-        filtersContainer.style.height = "auto";
-
-        let height = filtersContainer.clientHeight + "px";
-
-        filtersContainer.style.height = "0px";
-
-        setTimeout(function () {
-          filtersContainer.style.height = height;
-        }, 0);
+    // Search input
+    document.querySelector("#searchInput").addEventListener("keyup", (e) => {
+      if (e.target.value != "") {
+        e.target.parentNode.classList.add("resetActive");
       } else {
-        filtersContainer.style.height = "0px";
-        document.querySelector("#filter-button-text").innerText = "Show Filters";
+        e.target.parentNode.classList.remove("resetActive");
+      }
+      msnry.arrange({
+        filter: function (itemElem, itemElem2) {
+          return inputSearch(itemElem2, e.target.value);
+        },
+      });
+    });
 
-        filtersContainer.addEventListener(
-          "transitionend",
-          function () {
-            filtersContainer.classList.remove("active");
-          },
-          {
-            once: true,
-          }
-        );
+    document.querySelector(".resetInput").addEventListener("click", (el) => {
+      document.querySelector("#searchInput").value = "";
+      document.querySelector(".search-element").classList.remove("resetActive");
+      msnry.arrange({
+        filter: function (itemElem, itemElem2) {
+          return true;
+        },
+      });
+    });
+
+    // SORT BY ALPHABETICALLY
+    document.querySelector("#orderByName").addEventListener("click", (e) => {
+      if (e.target.classList.contains("active") == false) {
+        msnry.arrange({ sortBy: "name" });
+        e.target.classList.add("active");
+      } else {
+        msnry.arrange({ sortBy: "original-order" });
+        e.target.classList.remove("active");
       }
     });
-  } else {
-    let filtersContainer = document.querySelector(".filters-container");
-    filtersContainer.classList.add("active");
 
-    let showFilters = document.querySelector(".showFilters");
-    showFilters.classList.add("hidden");
-  }
-
-  // Smooth scroll
-  jQuery(document).ready(function () {
-    // Add smooth scrolling to all links
-    jQuery("a").on("click", function (event) {
-      // Make sure this.hash has a value before overriding default behavior
-      if (this.hash !== "") {
-        // Store hash
-        var hash = this.hash;
-
-        // Using jQuery's animate() method to add smooth page scroll
-        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-        $("html, body").animate(
-          {
-            scrollTop: $(hash).offset().top,
-          },
-          600,
-          function () {
-            // Add hash (#) to URL when done scrolling (default click behavior)
-            window.location.hash = hash;
-          }
-        );
-        return false;
-      } // End if
-    });
-  });
-
-  // Horizontal Scroll
-  var sliders = document.querySelectorAll(".chips");
-  var isDown = false;
-  var startX;
-  var scrollLeft;
-  sliders.forEach(function (slider) {
-    slider.addEventListener("mousedown", function (e) {
-      isDown = true;
-      slider.classList.add("active");
-      startX = e.pageX - slider.offsetLeft;
-      scrollLeft = slider.scrollLeft;
-    });
-    slider.addEventListener("mouseleave", function () {
-      isDown = false;
-      slider.classList.remove("active");
-    });
-    slider.addEventListener("mouseup", function () {
-      isDown = false;
-      slider.classList.remove("active");
-    });
-    slider.addEventListener("mousemove", function (e) {
-      if (!isDown) return;
-      e.preventDefault();
-      var x = e.pageX - slider.offsetLeft;
-      var walk = (x - startX) * 3; //scroll-fast
-
-      slider.scrollLeft = scrollLeft - walk;
-      var links = slider.querySelectorAll(".item");
-
-      for (var i = 0; i < links.length; i++) {
-        links[i].classList.add("noclick");
+    // SORT BY YEAR
+    document.querySelector("#orderByYear").addEventListener("click", (e) => {
+      if (e.target.classList.contains("active") == false) {
+        msnry.arrange({ sortBy: "year" });
+        e.target.classList.add("active");
+      } else {
+        msnry.arrange({ sortBy: "original-order" });
+        e.target.classList.remove("active");
       }
+    });
+
+    document.querySelector(".filters-container").addEventListener("change", (e) => {
+      if (e.target.id === "searchInput") {
+        return;
+      }
+
+      selectors = {
+        fType: e.target.id !== "filterType",
+        fDomain: e.target.id !== "filterDomain",
+        fTech: e.target.id !== "filterTechnology"
+      };
+
+      if (document.getElementById(e.target.id).value === "*") {
+        selectors = {
+          fType: true,
+          fDomain: true,
+          fTech: true
+        };
+      }
+
+      filterObj[e.target.id] = `${e.target.value == "*" ? "" : "." + e.target.value}`;
+      msnry.arrange({
+        filter: concatValues(filterObj),
+      });
+    });
+
+
+    // toggle filter menu only on mobile
+    if (window.innerWidth <= 980) {
+      let filtersContainer = document.querySelector(".filters-container");
+      document.querySelector("#mobileToggleFilters").addEventListener("click", (ev) => {
+        ev.target.classList.toggle("activeButton");
+
+        if (!filtersContainer.classList.contains("active")) {
+          filtersContainer.classList.add("active");
+          document.querySelector("#filter-button-text").innerText = "Hide Filters";
+          filtersContainer.style.height = "auto";
+
+          let height = filtersContainer.clientHeight + "px";
+
+          filtersContainer.style.height = "0px";
+
+          setTimeout(function () {
+            filtersContainer.style.height = height;
+          }, 0);
+        } else {
+          filtersContainer.style.height = "0px";
+          document.querySelector("#filter-button-text").innerText = "Show Filters";
+
+          filtersContainer.addEventListener(
+            "transitionend",
+            function () {
+              filtersContainer.classList.remove("active");
+            },
+            {
+              once: true,
+            }
+          );
+        }
+      });
+    } else {
+      let filtersContainer = document.querySelector(".filters-container");
+      filtersContainer.classList.add("active");
+
+      let showFilters = document.querySelector(".showFilters");
+      showFilters.classList.add("hidden");
+    }
+
+    // Smooth scroll
+    jQuery(document).ready(function () {
+      // Add smooth scrolling to all links
+      jQuery("a").on("click", function (event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $("html, body").animate(
+            {
+              scrollTop: $(hash).offset().top,
+            },
+            600,
+            function () {
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            }
+          );
+          return false;
+        } // End if
+      });
+    });
+
+    // Horizontal Scroll
+    var sliders = document.querySelectorAll(".chips");
+    var isDown = false;
+    var startX;
+    var scrollLeft;
+    sliders.forEach(function (slider) {
+      slider.addEventListener("mousedown", function (e) {
+        isDown = true;
+        slider.classList.add("active");
+        startX = e.pageX - slider.offsetLeft;
+        scrollLeft = slider.scrollLeft;
+      });
+      slider.addEventListener("mouseleave", function () {
+        isDown = false;
+        slider.classList.remove("active");
+      });
+      slider.addEventListener("mouseup", function () {
+        isDown = false;
+        slider.classList.remove("active");
+      });
+      slider.addEventListener("mousemove", function (e) {
+        if (!isDown) return;
+        e.preventDefault();
+        var x = e.pageX - slider.offsetLeft;
+        var walk = (x - startX) * 3; //scroll-fast
+
+        slider.scrollLeft = scrollLeft - walk;
+        var links = slider.querySelectorAll(".item");
+
+        for (var i = 0; i < links.length; i++) {
+          links[i].classList.add("noclick");
+        }
+      });
     });
   });
 });
