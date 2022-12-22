@@ -1,23 +1,39 @@
 {{#each this}}
-	<div class="latest-content-item col-xs-12 col-sm-6 col-md-3">
-		<div class="latest-content-item-container gob-content-item">
-			<div class="latest-content-image gob-content-image">
-				<div class="circle">
-					<a href="#" style="background-image:url({{img}})" class="bg-content">
-					<img src="{{img}}"></a>
-				</div>
-			</div>    
-			<div class="latest-content-data gob-content-data">
-				<p class="latest-content-name">
-					<strong>{{name}}</strong>
-				</p>        
-				<p class="latest-content-job-title">
-					{{job}}
-				</p>
-				<p class="latest-content-company">
-					{{company}}
-				</p>
-			</div>
+	<div class="f-cat active">
+		<img class="city-photo" src="{{img}}" />
+		<div class="profile-details">
+			<h6 class="name">{{name}}</h6>
+			<h4 class="position">{{job}}</h4>
+			<a target="_blank" href="https://www.fiware.org/" rel="noopener">
+				<h5 class="company-link">{{company}}</h5>
+			</a>
+			{{#if department}}
+			<div class="department">{{department}}</div>
+			{{/if}}
+			{{#if domain}}
+			<div class="chip-domain">{{domain}}</div>
+			{{/if}}
+		</div>
+		<div class="icons">
+			{{#if bio}}
+			<div class="cat-bio" data-modal="{{@index}}"><span class="icon bio"></span></a></div>
+			{{/if}}
+			{{#if twitter}}
+			<a class="cat-twitter" target="_blank" href="{{twitter}}" rel="noopener"><span class="icon twitter"></span></a>
+			{{/if}}
+			{{#if linkedIn}}
+			<a class="cat-linkedin" target="_blank" href="{{linkedIn}}" rel="noopener"><span class="icon linkedin"></span></a>
+			{{/if}}
+			<div class="cat-location"><span class="location-label">{{country}}</span><img class="flag" src="{{flag}}" /></div>
 		</div>
 	</div>
 {{/each}}
+<script>
+	{
+		{{#each this}}
+			{{#if bio}}
+				"{{@index}}": "{{bio}}",
+			{{/if}}
+		{{/each}}
+	}
+</script>

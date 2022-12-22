@@ -39,13 +39,17 @@ function extractPeople(input) {
       img: item['Profile Picture'],
       company: item['Company'],
       job: item['Job title'],
-      bio: item['Bio'],
+      bio: Parser.markdown(item['Bio']),
       linkedIn: item['LinkedIn'],
       twitter: item['Twitter'],
-      department: item['Department']
+      department: item['Department'],
+      country: item['Country'],
+      flag: item['Country flag']
     };
     people.push(person);
+
   });
+
   return people;
 }
 

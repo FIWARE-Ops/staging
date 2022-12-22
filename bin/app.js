@@ -322,7 +322,7 @@ if (PROCESS.startsWith('people')) {
       const titles = _.sortBy(
         _.uniq(
           _.map(people, function(person) {
-            return person.title ? person.title : '';
+            return person.job ? person.job : '';
           })
         ),
         caseInsensitive
