@@ -160,12 +160,13 @@ function getCSSFilter(id) {
 }
 
 function filterOptions(id, filter, data, css) {
+  var itemCSSFilter = ".grid-item:visible";
   // update Type select
   if (document.querySelector(id) && data && filter) {
     var arr = ["*"];
     data.forEach((el) => {
       var typeClass = createClassFilter(el);
-      if (typeClass !== "" && $("." + typeClass + css).size()) {
+      if (typeClass !== "" && $("." + typeClass + css + itemCSSFilter).size()) {
         arr.push(typeClass);
       }
     });
@@ -180,7 +181,7 @@ function filterOptions(id, filter, data, css) {
 }
 
 function dropdownFilters(filter) {
-  var itemCSSFilter = ".grid-item:visible";
+  
 
   var companyCSSFilter = getCSSFilter("#filterCompany");
   var roleCSSFilter = getCSSFilter("#filterRole");
@@ -196,25 +197,25 @@ function dropdownFilters(filter) {
   );
   filterOptions(
     "#filterRole",
-    "All roles",
+    filter.fRole,
     window.titles,
     companyCSSFilter + departmentCSSFilter + domainCSSFilter + countryCSSFilter
   );
   filterOptions(
     "#filterDepartment",
-    "All departments",
+    filter.fDepartment,
     window.departments,
     companyCSSFilter + roleCSSFilter + domainCSSFilter + countryCSSFilter
   );
   filterOptions(
     "#filterDomain",
-    "All domains",
+    filter.fDomain,
     window.domains,
     companyCSSFilter + roleCSSFilter + departmentCSSFilter + countryCSSFilter
   );
   filterOptions(
     "#filterCountry",
-    "All countries",
+    filter.fCountry,
     window.countries,
     companyCSSFilter + roleCSSFilter + departmentCSSFilter + domainCSSFilter
   );
