@@ -21,7 +21,7 @@ function includeHTML(cb) {
           if (this.status == 200) {elmnt.innerHTML = this.responseText;}
           if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
           elmnt.removeAttribute("w3-include-html");
-          w3.includeHTML(cb);
+          includeHTML(cb);
         }
       }      
       xhttp.open("GET", file, true);
