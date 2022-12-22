@@ -33,7 +33,7 @@ function createClass(data) {
       }
     });
   } else {
-    result = data.toLowerCase().replace(regex, '-');
+    result = data ? data.toLowerCase().replace(regex, '-') : '';
   }
   return result;
 }
