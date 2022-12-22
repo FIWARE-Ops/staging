@@ -1172,6 +1172,7 @@ input[type="checkbox"]:checked+label::after {
 
 .sort-buttons {
     display: flex;
+    gap: 10px;
 }
 
 .sort-element {
