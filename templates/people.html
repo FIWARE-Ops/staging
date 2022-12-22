@@ -5,7 +5,7 @@
 		<div class="profile-details">
 			<h6 class="name">{{name}}</h6>
 			<h4 class="position">{{job}}</h4>
-			<a target="_blank" href="https://www.fiware.org/" rel="noopener">
+			<a target="_blank" href="{{website}}" rel="noopener">
 				<h5 class="company-link">{{company}}</h5>
 			</a>
 			{{#if department}}
@@ -31,11 +31,18 @@
 </div>
 {{/each}}
 <script>
-	{
-		{{#each this}}
-			{{#if bio}}
-				"{{@index}}": "{{bio}}",
-			{{/if}}
-		{{/each}}
-	}
+var modalData = [
+	{{#each this}}
+    {
+    name: "{{name}}",
+    img: "{{img}}",
+    position: "{{job}}",
+    company: "{{company}}",
+    "company-link": "{{website}}",
+    content:
+      "{{bio}}",
+    linkedin: "{{linkedIn}}",
+    twitter: "{{twitter}}",
+  	},
+	{{/each}}
 </script>
