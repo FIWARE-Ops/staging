@@ -997,7 +997,9 @@ z-index: 99999;
 				
 				
 				
-				<div class="et_pb_code_inner"><div class="showFilters">
+<div class="et_pb_code_inner">
+
+<div class="showFilters">
   <div id="mobileToggleFilters">
     <span id="ico-filtersbar" class="material-icons-outlined">filter_alt</span>
     <span id="filter-button-text">Show Filters</span>
@@ -1009,10 +1011,8 @@ z-index: 99999;
   <div class="filter-element">
     <div class="products-record">
       <div class="products-label">
-        <span id="ico-products" class="material-icons-outlined"
-          >rocket_launch</span
-        >
-        <span>Tytire tu patulae</span>
+        <span id="ico-products" class="material-icons-outlined">groups</span>
+        <span>FIWARE Team</span>
       </div>
       <span id="filteredCompanies"></span>
     </div>
@@ -1036,13 +1036,18 @@ z-index: 99999;
       <label class="sort-by">Sort by</label>
       <div class="sort-buttons">
         <div class="filter-element">
-          <button id="orderByYear">
-            <span id="ico-sortby-year" class="material-icons-outlined">date_range</span>Year
+          <button id="orderByName">
+            <span id="ico-sortby-alpha" class="material-icons-outlined">sort_by_alpha</span>Name
           </button>
         </div>
         <div class="filter-element">
-          <button id="orderByName">
-            <span id="ico-sortby-alpha" class="material-icons-outlined">sort_by_alpha</span>Name
+          <button id="orderByCountry">
+            <span id="ico-sortby-year" class="material-icons-outlined">flag</span>Country
+          </button>
+        </div>
+        <div class="filter-element">
+          <button id="orderByDomain">
+            <span id="ico-sortby-year" class="material-icons-outlined">grid_view</span>Domain
           </button>
         </div>
       </div>
@@ -1054,40 +1059,42 @@ z-index: 99999;
     <div class="filter-element">
       <label class="dropdown-label">Organization</label>
       <select name="" id="filterCompany" class="dropdown-last">
-<option value="*">Organizations</option>
+        <option value="*">Organizations</option>
       </select>
     </div>
 
     <div class="filter-element">
       <label class="dropdown-label">Role</label>
       <select name="" id="filterRole" class="dropdown-last">
-<option value="*">Roles</option>
+        <option value="*">Roles</option>
       </select>
     </div>
 
-      <!-- <div class="filter-element">
+    <div class="filter-element">
       <label class="dropdown-label">Department</label>
       <select name="" id="filterDepartment" class="dropdown-last">
-<option value="*">Departments</option>
+        <option value="*">Departments</option>
       </select>
-    </div> -->
+    </div>
 
     <div class="filter-element">
-      <label class="dropdown-label">Region</label>
-      <select name="" id="filterRegion" class="dropdown-last">
-<option value="*">Regions</option>
+      <label class="dropdown-label">Domain</label>
+      <select name="" id="filterDomain" class="dropdown-last">
+        <option value="*">Domains</option>
       </select>
     </div>
 
     <div class="filter-element">
       <label class="dropdown-label">Country</label>
       <select name="" id="filterCountry" class="dropdown-last">
-<option value="*">Countries</option>
+        <option value="*">Countries</option>
       </select>
     </div>
 
   </div>
-</div></div>
+</div>
+
+</div>
 			</div>
 			</div>
 				
