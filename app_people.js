@@ -301,9 +301,6 @@ function initModal() {
       });
       // set content
 
-      console.log(el);
-      console.log(el.dataset.modal);
-
       modal.setContent(createModalContent(window.modalData[el.dataset.modal]));
 
       // open modal
@@ -321,11 +318,6 @@ function initModal() {
 var init = false;
 
 function initSelect() {
-  if (init) {
-    return;
-  }
-  init = true;
-
   // POPULATE THE INITIAL SELECT
   initDropdowns();
 
@@ -503,8 +495,14 @@ defer(function () {
   // POPULATE THE LISTING
   jQuery(document).ready(function () {
     jQuery("#app").css("visibility", "hidden");
+
     includeHTML(function () {
       $("#app").waitForImages(function () {
+        if (init) {
+         //console.log("");
+          return;
+        }
+        init = true;
         initSelect();
         $("#app").css("visibility", "visible");
         initModal();
