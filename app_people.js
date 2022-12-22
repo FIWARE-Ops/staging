@@ -177,7 +177,61 @@ function concatValues(obj) {
   return value;
 }
 
+function initTextSearch(){
+   // Search input
+    document.querySelector("#searchInput").addEventListener("keyup", (e) => {
+      if (e.target.value != "") {
+        e.target.parentNode.classList.add("resetActive");
+      } else {
+        e.target.parentNode.classList.remove("resetActive");
+      }
+      msnry.arrange({
+        filter: function (itemElem, itemElem2) {
+          return inputSearch(itemElem2, e.target.value);
+        },
+      });
+    });
+}
+
+function filterToggle(){
+   let filtersContainer = document.querySelector(".filters-container");
+    document.querySelector("#mobileToggleFilters").addEventListener("click", (ev) => {
+      ev.target.classList.toggle("activeButton");
+
+      if (!filtersContainer.classList.contains("active")) {
+        filtersContainer.classList.add("active");
+        document.querySelector("#filter-button-text").innerText = "Hide Filters";
+        filtersContainer.style.height = "auto";
+
+        let height = filtersContainer.clientHeight + "px";
+
+        filtersContainer.style.height = "0px";
+
+        setTimeout(function () {
+          filtersContainer.style.height = height;
+        }, 0);
+      } else {
+        filtersContainer.style.height = "0px";
+        document.querySelector("#filter-button-text").innerText = "Show Filters";
+
+        filtersContainer.addEventListener(
+          "transitionend",
+          function () {
+            filtersContainer.classList.remove("active");
+          },
+          {
+            once: true,
+          }
+        );
+      }
+    });
+}
+
+
 var init = false;
+var msnry;
+
+
 function initSelect() {
   if (init){return;}
   init = true;
@@ -186,7 +240,7 @@ function initSelect() {
     /* initDropdowns(); */
 
     // Isotope istantiation
-    var msnry;
+    
     var selectors = { fType: true, fDomain: true, fTech: true};
     var filterObj = {};
 
@@ -216,20 +270,9 @@ function initSelect() {
       });
     });
 
-
-    // Search input
-    document.querySelector("#searchInput").addEventListener("keyup", (e) => {
-      if (e.target.value != "") {
-        e.target.parentNode.classList.add("resetActive");
-      } else {
-        e.target.parentNode.classList.remove("resetActive");
-      }
-      msnry.arrange({
-        filter: function (itemElem, itemElem2) {
-          return inputSearch(itemElem2, e.target.value);
-        },
-      });
-    });
+    initTextSearch();
+    filterToggle(); 
+   
 
   /*
     document.querySelector(".resetInput").addEventListener("click", (el) => {
@@ -288,37 +331,8 @@ function initSelect() {
         filter: concatValues(filterObj),
       });
     });
-    let filtersContainer = document.querySelector(".filters-container");
-    document.querySelector("#mobileToggleFilters").addEventListener("click", (ev) => {
-      ev.target.classList.toggle("activeButton");
-
-      if (!filtersContainer.classList.contains("active")) {
-        filtersContainer.classList.add("active");
-        document.querySelector("#filter-button-text").innerText = "Hide Filters";
-        filtersContainer.style.height = "auto";
-
-        let height = filtersContainer.clientHeight + "px";
-
-        filtersContainer.style.height = "0px";
-
-        setTimeout(function () {
-          filtersContainer.style.height = height;
-        }, 0);
-      } else {
-        filtersContainer.style.height = "0px";
-        document.querySelector("#filter-button-text").innerText = "Show Filters";
-
-        filtersContainer.addEventListener(
-          "transitionend",
-          function () {
-            filtersContainer.classList.remove("active");
-          },
-          {
-            once: true,
-          }
-        );
-      }
-    });*/
+    */
+   
 }    
 
 function smoothScroll () { 
