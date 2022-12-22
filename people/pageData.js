@@ -42,9 +42,9 @@ var titles = [
 ];
 var countries = [
   "Albania",
+  "Argentina",
   "Brazil",
   "China",
-  "France",
   "Germany",
   "India",
   "Italy",
@@ -53,6 +53,7 @@ var countries = [
   "Peru",
   "Russia",
   "Spain",
+  "Sweden",
   "Ukraine",
   "United Kingdom"
 ];
