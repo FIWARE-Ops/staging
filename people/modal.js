@@ -102,8 +102,8 @@ document.querySelectorAll(".cat-bio").forEach(function(el) {
   });
 });
 
-$(document).ready(function () {
-  $(".f-cat a").on("click", function (e) {
+(document).ready(function () {
+  (".f-cat a").on("click", function (e) {
     e.stopPropagation();
   });
 });
