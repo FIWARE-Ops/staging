@@ -48,9 +48,6 @@ function extractPeople(input) {
       flag: item['Country flag']
     };
     people.push(person);
-
-    console.log( )
-
   });
 
   return people;
