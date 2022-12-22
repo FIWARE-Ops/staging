@@ -245,6 +245,7 @@ function initSelect() {
     var selectors = { fType: true, fDomain: true, fTech: true};
     var filterObj = {};
 
+
     // Relies on unpkg.com/imagesloaded
     imagesLoaded(document.querySelector("#app"), function (instance) {
       msnry = new Isotope(".grid", {
@@ -403,10 +404,14 @@ function horizontalScroll () {
 defer(function () {
   // POPULATE THE LISTING
   jQuery(document).ready(function() {
+    jQuery("#app").css("visibility", "hidden");
     includeHTML(function() {
       initSelect();
       horizontalScroll();
-      smoothScroll()
+      smoothScroll();
+       $('#app').waitForImages(function() {
+         $("#app").css("visibility", "visible");
+      });
     });
   });
 });
