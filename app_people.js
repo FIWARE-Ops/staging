@@ -177,7 +177,7 @@ function concatValues(obj) {
   return value;
 }
 
-function initTextSearch(){
+function initTextSearch(msnry){
    // Search input
     document.querySelector("#searchInput").addEventListener("keyup", (e) => {
       if (e.target.value != "") {
@@ -229,7 +229,7 @@ function filterToggle(){
 
 
 var init = false;
-var msnry;
+
 
 
 function initSelect() {
@@ -241,6 +241,7 @@ function initSelect() {
 
     // Isotope istantiation
     
+    var msnry;
     var selectors = { fType: true, fDomain: true, fTech: true};
     var filterObj = {};
 
@@ -262,6 +263,7 @@ function initSelect() {
         }
       });
 
+      initTextSearch(msnry);
       msnry.on("arrangeComplete", (filteredItems) => {
         if (document.activeElement !== document.getElementById("searchInput")) {
           $("html, body").scrollTop($("#searchInput").offset().top + 70);
@@ -270,7 +272,6 @@ function initSelect() {
       });
     });
 
-    initTextSearch();
     filterToggle(); 
    
 
