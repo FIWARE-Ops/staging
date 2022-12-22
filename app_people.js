@@ -177,8 +177,11 @@ function concatValues(obj) {
   return value;
 }
 
-
+var init = false;
 function initSelect() {
+  if (init){return;}
+  init = true;
+
     // POPULATE THE INITIAL SELECT
     /* initDropdowns(); */
 
@@ -384,7 +387,6 @@ function horizontalScroll () {
 }
 
 defer(function () {
-
   // POPULATE THE LISTING
   jQuery(document).ready(function() {
     includeHTML(function() {
