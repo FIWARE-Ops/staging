@@ -39,9 +39,9 @@ function includeHTML(cb) {
 function addOptions(id, allText, data) {
   if (document.querySelector(id) && data) {
     data.forEach((el) => {
-       var option = document.createElement('option');
-       option.value =`${createClassFilter(el)}`;
-        option.appendChild(document.createTextNode(`${el}`));
+      var option = document.createElement("option");
+      option.value = `${createClassFilter(el)}`;
+      option.appendChild(document.createTextNode(`${el}`));
       document.querySelector(id).appendChild(option);
     });
   }
@@ -284,7 +284,7 @@ function initModal() {
         stickyFooter: false,
         closeMethods: ["overlay", "button", "escape"],
         closeLabel: "Close",
-        cssClass: ['tingle-modal--fullscreen'],
+        cssClass: ["tingle-modal--fullscreen"],
         onOpen: function () {
           console.log("modal open");
         },
@@ -394,9 +394,8 @@ function initSelect() {
       }
     });*/
 
-  document
-    .querySelector(".filters-container")
-    .addEventListener("change", (e) => {
+  $(".filters-container select").each(function (index) {
+    $(this).bind("change", (e) => {
       if (e.target.id === "searchInput") {
         return;
       }
@@ -426,6 +425,7 @@ function initSelect() {
         filter: concatValues(filterObj),
       });
     });
+  });
 }
 
 function smoothScroll() {
@@ -494,15 +494,15 @@ defer(function () {
   // POPULATE THE LISTING
   jQuery(document).ready(function () {
     jQuery("#app").css("visibility", "hidden");
-
     includeHTML(function () {
       $("#app").waitForImages(function () {
         if (init) {
-         //console.log("");
+          //console.log("");
           return;
         }
         init = true;
         initSelect();
+
         $("#app").css("visibility", "visible");
         initModal();
         horizontalScroll();
