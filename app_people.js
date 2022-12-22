@@ -19,10 +19,10 @@ function includeHTML(cb) {
       xhttp.onreadystatechange = function () {
         if (this.readyState == 4) {
           if (this.status == 200) {
-            elmnt.innerHTML = this.responseText;
+            $(`#${elmnt.id}`).html(this.responseText);
           }
           if (this.status == 404) {
-            elmnt.innerHTML = "Page not found.";
+            $(`#${elmnt.id}`).html("Page not found.");
           }
           elmnt.removeAttribute("w3-include-html");
           includeHTML(cb);
@@ -36,7 +36,7 @@ function includeHTML(cb) {
   if (cb) cb();
 }
 
-function addOptions(id, allText, data) {
+function addOptions(id, data) {
   if (document.querySelector(id) && data) {
     data.forEach((el) => {
       var option = document.createElement("option");
@@ -47,12 +47,14 @@ function addOptions(id, allText, data) {
   }
 }
 
-function initDropdowns() {
-  addOptions("#filterCompany", "All organizations", window.companies);
-  addOptions("#filterRole", "All roles", window.titles);
-  addOptions("#filterDepartment", "All departments", window.departments);
-  addOptions("#filterDomain", "All domains", window.domains);
-  addOptions("#filterCountry", "All countries", window.countries);
+function initDropdowns(cb) {
+  addOptions("#filterCompany", window.companies);
+  addOptions("#filterRole", window.titles);
+  addOptions("#filterDepartment", window.departments);
+  addOptions("#filterDomain", window.domains);
+  addOptions("#filterCountry", window.countries);
+
+  if (cb) cb();
 }
 
 // Returns the right classNames for isotope card filtering system
@@ -318,7 +320,6 @@ var init = false;
 
 function initSelect() {
   // POPULATE THE INITIAL SELECT
-  initDropdowns();
 
   // Isotope istantiation
 
@@ -349,17 +350,16 @@ function initSelect() {
         year: false,
       },
     });
-
-    initTextSearch(msnry);
     msnry.on("arrangeComplete", (filteredItems) => {
       if (document.activeElement !== document.getElementById("searchInput")) {
         $("html, body").scrollTop($("#searchInput").offset().top + 70);
       }
       dropdownFilters(selectors);
     });
+
+    initTextSearch(msnry);
   });
 
-  filterToggle();
 
   /*
     document.querySelector(".resetInput").addEventListener("click", (el) => {
@@ -393,36 +393,37 @@ function initSelect() {
         e.target.classList.remove("active");
       }
     });*/
+  initDropdowns(() => {
+    $(".filters-container select").each(function (index) {
+      $(this).bind("change", (e) => {
+        if (e.target.id === "searchInput") {
+          return;
+        }
 
-  $(".filters-container select").each(function (index) {
-    $(this).bind("change", (e) => {
-      if (e.target.id === "searchInput") {
-        return;
-      }
-
-      selectors = {
-        fCompany: e.target.id !== "filterCompany",
-        fRole: e.target.id !== "filterRole",
-        fDepartment: e.target.id !== "filterDepartment",
-        fDomain: e.target.id !== "filterDomain",
-        fCountry: e.target.id !== "filterCountry",
-      };
-
-      if (document.getElementById(e.target.id).value === "*") {
         selectors = {
-          fCompany: true,
-          fRole: true,
-          fDepartment: true,
-          fDomain: true,
-          fCountry: true,
+          fCompany: e.target.id !== "filterCompany",
+          fRole: e.target.id !== "filterRole",
+          fDepartment: e.target.id !== "filterDepartment",
+          fDomain: e.target.id !== "filterDomain",
+          fCountry: e.target.id !== "filterCountry",
         };
-      }
 
-      filterObj[e.target.id] = `${
-        e.target.value == "*" ? "" : "." + e.target.value
-      }`;
-      msnry.arrange({
-        filter: concatValues(filterObj),
+        if (document.getElementById(e.target.id).value === "*") {
+          selectors = {
+            fCompany: true,
+            fRole: true,
+            fDepartment: true,
+            fDomain: true,
+            fCountry: true,
+          };
+        }
+
+        filterObj[e.target.id] = `${
+          e.target.value == "*" ? "" : "." + e.target.value
+        }`;
+        msnry.arrange({
+          filter: concatValues(filterObj),
+        });
       });
     });
   });
@@ -497,13 +498,13 @@ defer(function () {
     includeHTML(function () {
       $("#app").waitForImages(function () {
         if (init) {
-          //console.log("");
           return;
         }
         init = true;
         initSelect();
 
         $("#app").css("visibility", "visible");
+        filterToggle();
         initModal();
         horizontalScroll();
         smoothScroll();
