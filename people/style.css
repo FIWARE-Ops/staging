@@ -276,6 +276,7 @@
     position: relative;
     width: 32px;
     margin-right: 12px;
+    cursor: pointer;
 }
 
 .cat-location {
