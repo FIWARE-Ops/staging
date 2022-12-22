@@ -38,13 +38,12 @@ function includeHTML(cb) {
 
 function addOptions(id, allText, data) {
   if (document.querySelector(id) && data) {
-    var companiesTmpl = `<option value='*'>${allText}</option>`;
     data.forEach((el) => {
-      var techClass = createClassFilter(el);
-      var selectEl = `<option value="${techClass}">${el}</option>`;
-      companiesTmpl += selectEl;
+       var option = document.createElement('option');
+       option.value =`${createClassFilter(el)}`;
+        option.appendChild(document.createTextNode(`${el}`));
+      document.querySelector(id).appendChild(option);
     });
-    document.querySelector(id).innerHTML = companiesTmpl;
   }
 }
 
