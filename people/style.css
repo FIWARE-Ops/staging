@@ -284,6 +284,10 @@
     margin-left: 12px;
 }
 
+.location-label {
+    display: none;
+}
+
 .filter-cat-results .f-cat {
     opacity: 0;
     display: none;
