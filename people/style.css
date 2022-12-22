@@ -83,7 +83,7 @@
 }
 
 .department {
-    color: #333;
+    color: #696969;
     font-size: 13px;
     font-weight: 500;
     padding: 0px 0px 15px 0px;
@@ -350,7 +350,7 @@
     font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
     font-weight: 500;
     font-size: 14px;
-    color: #696969;
+    color: #333;
     line-height: 1.4em;
     padding: 0px 0px 10px 0px;
     /*cursor: default;*/
