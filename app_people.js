@@ -216,6 +216,7 @@ function initSelect() {
       });
     });
 
+
     // Search input
     document.querySelector("#searchInput").addEventListener("keyup", (e) => {
       if (e.target.value != "") {
@@ -230,6 +231,7 @@ function initSelect() {
       });
     });
 
+  /*
     document.querySelector(".resetInput").addEventListener("click", (el) => {
       document.querySelector("#searchInput").value = "";
       document.querySelector(".search-element").classList.remove("resetActive");
@@ -286,9 +288,6 @@ function initSelect() {
         filter: concatValues(filterObj),
       });
     });
-
-
-
     let filtersContainer = document.querySelector(".filters-container");
     document.querySelector("#mobileToggleFilters").addEventListener("click", (ev) => {
       ev.target.classList.toggle("activeButton");
@@ -319,7 +318,7 @@ function initSelect() {
           }
         );
       }
-    });
+    });*/
 }    
 
 function smoothScroll () { 
