@@ -1097,7 +1097,14 @@ select::-ms-expand {
 
 #orderByName {
     color: #002e67;
-    margin-left: 5px;
+}
+
+#orderByCountry {
+    color: #002e67;
+}
+
+#orderByDomain {
+    color: #002e67;
 }
 
 
