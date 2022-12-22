@@ -40,7 +40,7 @@ function extractPeople(input) {
       company: item['Company'],
       website: item['Company website'],
       job: item['Job title'],
-      bio: item['Bio'] ? item['Bio'].replaceAll(/[\n\r]+/g, " ") : '',
+      bio: item['Bio'] ? item['Bio'].replaceAll(/[\n\r]+/g, ' ') : '',
       linkedIn: item['LinkedIn'],
       twitter: item['Twitter'],
       department: item['Department'],

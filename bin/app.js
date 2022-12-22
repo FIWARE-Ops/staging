@@ -21,6 +21,17 @@ const caseInsensitive = function(i) {
   return i ? i.toLowerCase() : '';
 };
 
+function sortData(input, attr) {
+  return _.sortBy(
+    _.uniq(
+      _.map(input, function(el) {
+        return el[attr] ? el[attr] : '';
+      })
+    ),
+    caseInsensitive
+  );
+}
+
 function createClass(data) {
   let result = '';
   const regex = /([^a-zA-Z0-9À-ÿ])/gi;
@@ -95,7 +106,8 @@ function writePeopleFilters(
   departments = [],
   domains = [],
   titles = [],
-  countries = []
+  countries = [],
+  modalData = ''
 ) {
   fs.writeFile(
     filename,
@@ -103,7 +115,9 @@ function writePeopleFilters(
 var departments = ${JSON.stringify(departments, null, 2)};
 var domains = ${JSON.stringify(domains, null, 2)};
 var titles = ${JSON.stringify(titles, null, 2)};
-var countries = ${JSON.stringify(countries, null, 2)};`,
+var countries = ${JSON.stringify(countries, null, 2)};
+ ${modalData}
+`,
     function(err) {
       if (err) return console.log(err);
     }
@@ -292,59 +306,27 @@ if (PROCESS.startsWith('people')) {
     .then(people => {
       writeTemplate('people/people.html', 'people.html', people);
 
-      const companies = _.sortBy(
-        _.uniq(
-          _.map(people, function(person) {
-            return person.company ? person.company : '';
-          })
-        ),
-        caseInsensitive
-      );
+      readTemplate('peopleModal.html', function(err, data) {
+        const template = Handlebars.compile(data);
+        Handlebars.registerHelper('createClass', createClass);
 
-      const departments = _.sortBy(
-        _.uniq(
-          _.map(people, function(person) {
-            return person.department ? person.department : '';
-          })
-        ),
-        caseInsensitive
-      );
+        const modalData = template(people);
+        const companies = sortData(people, 'company');
+        const departments = sortData(people, 'department');
+        const domains = sortData(people, 'domain');
+        const titles = sortData(people, 'job');
+        const countries = sortData(people, 'country');
 
-      const domains = _.sortBy(
-        _.uniq(
-          _.map(people, function(person) {
-            return person.domain ? person.domain : '';
-          })
-        ),
-        caseInsensitive
-      );
-
-      const titles = _.sortBy(
-        _.uniq(
-          _.map(people, function(person) {
-            return person.job ? person.job : '';
-          })
-        ),
-        caseInsensitive
-      );
-
-      const countries = _.sortBy(
-        _.uniq(
-          _.map(people, function(person) {
-            return person.country ? person.country : '';
-          })
-        ),
-        caseInsensitive
-      );
-
-      writePeopleFilters(
-        'people/pageData.js',
-        companies,
-        departments,
-        domains,
-        titles,
-        countries
-      );
+        writePeopleFilters(
+          'people/pageData.js',
+          companies,
+          departments,
+          domains,
+          titles,
+          countries,
+          modalData
+        );
+      });
     })
     .catch(e => {
       console.log(e);
