@@ -964,6 +964,7 @@
     font-weight: 600;
     color: #002e67;
     width: 100%;
+    padding: 20px 0;
 }
 
 .products-label {
@@ -1018,11 +1019,9 @@
 
 .filters-container {
     transition: height .5s ease;
-    overflow: hidden;
     width: 100%;
     max-width: 1184px;
     margin: 0 auto;
-    padding-top: 16px;
     border-top: 1px solid #aaa;
 }
 
