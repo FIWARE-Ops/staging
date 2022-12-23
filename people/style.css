@@ -453,7 +453,7 @@
 
 .tingle-modal-box {
     border-radius: 10px;
-    background: #e5f5f7;
+    background: #fff;
     width: 640px;
 }
 
@@ -631,7 +631,7 @@
 }
 
 .tingle-modal .bio-modal p::-webkit-scrollbar-thumb {
-    background-color: #f4fbfc;
+    background-color: #ebebeb;
     /* color of the scroll thumb */
     border-radius: 20px;
     /* roundness of the scroll thumb */
@@ -642,7 +642,7 @@
 .tingle-modal .bio-modal p {
     scrollbar-width: thin;
     /* "auto" or "thin" */
-    scrollbar-color: #f4fbfc transparent;
+    scrollbar-color: #ebebeb transparent;
     /* scroll thumb and track */
 }
 
