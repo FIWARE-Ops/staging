@@ -1,15 +1,32 @@
-function defer(method) {
-  if (window.jQuery) {
-    method();
-  } else {
-    setTimeout(function () {
-      defer(method);
-    }, 50);
+function includeHTML(cb) {
+  var z, i, elmnt, file, xhttp;
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    file = elmnt.getAttribute("w3-include-html");
+    if (file) {
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function () {
+        if (this.readyState == 4) {
+          if (this.status == 200) {
+            $(`#${elmnt.id}`).html(this.responseText);
+          }
+          if (this.status == 404) {
+            $(`#${elmnt.id}`).html("Page not found.");
+          }
+          elmnt.removeAttribute("w3-include-html");
+          includeHTML(cb);
+        }
+      };
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      return;
+    }
   }
+  if (cb) cb();
 }
 
-function initDropdowns () {
- 
+function initDropdowns() {
   // update Technology Select
   var technologiesTmpl = "<option value='*'>All Keywords</option>";
   window.technologies.forEach((el) => {
@@ -38,7 +55,7 @@ function initDropdowns () {
   document.querySelector("#filterDomain").innerHTML = domainsSelectTmpl;
 }
 
-function dropdownFilters (filter)  {
+function dropdownFilters(filter) {
   var itemCSSFilter = ".grid-item:visible";
   var typeCSSFilter = "";
   var currentType = jQuery("#filterType").val();
@@ -63,7 +80,12 @@ function dropdownFilters (filter)  {
     var typesArr = ["*"];
     types.forEach((el) => {
       var typeClass = createClassFilter(el);
-      if (typeClass !== '' && jQuery("." + typeClass + domainCSSFilter + techCSSFilter + itemCSSFilter).size()) {
+      if (
+        typeClass !== "" &&
+        jQuery(
+          "." + typeClass + domainCSSFilter + techCSSFilter + itemCSSFilter
+        ).size()
+      ) {
         typesArr.push(typeClass);
       }
     });
@@ -81,7 +103,12 @@ function dropdownFilters (filter)  {
     var companyDomainArr = ["*"];
     domains.forEach((el) => {
       var domainClass = createClassFilter(el);
-      if (domainClass !== '' && jQuery("." + domainClass + typeCSSFilter + techCSSFilter + itemCSSFilter).size()) {
+      if (
+        domainClass !== "" &&
+        jQuery(
+          "." + domainClass + typeCSSFilter + techCSSFilter + itemCSSFilter
+        ).size()
+      ) {
         companyDomainArr.push(domainClass);
       }
     });
@@ -99,7 +126,12 @@ function dropdownFilters (filter)  {
     var companiesTechnologyArr = ["*"];
     technologies.forEach((el) => {
       var techClass = createClassFilter(el);
-      if (techClass !== '' && jQuery("." + techClass + typeCSSFilter + domainCSSFilter + itemCSSFilter).size()) {
+      if (
+        techClass !== "" &&
+        jQuery(
+          "." + techClass + typeCSSFilter + domainCSSFilter + itemCSSFilter
+        ).size()
+      ) {
         companiesTechnologyArr.push(techClass);
       }
     });
@@ -112,7 +144,7 @@ function dropdownFilters (filter)  {
     });
   }
 }
-  
+
 // Returns the right classNames for isotope card filtering system
 function createClassFilter(data) {
   var filterString = "";
@@ -132,7 +164,7 @@ function createClassFilter(data) {
   return filterString;
 }
 
-function inputSearch (itemElem, textString) {
+function inputSearch(itemElem, textString) {
   var stopwords = /\b(FIWARE|IoT|Smart|Solution|Product|Device)\b/gi;
   var words = textString.trim().replaceAll(stopwords, "").split(/[ ,]+/);
   var regex = [];
@@ -153,14 +185,13 @@ function concatValues(obj) {
   return value;
 }
 
-
-function enableListings(){
+function enableListings() {
   // POPULATE THE INITIAL SELECT
   initDropdowns();
 
   // Isotope istantiation
   var msnry;
-  var selectors = { fType: true, fDomain: true, fTech: true};
+  var selectors = { fType: true, fDomain: true, fTech: true };
   var filterObj = {};
 
   // Relies on unpkg.com/imagesloaded
@@ -177,8 +208,8 @@ function enableListings(){
       },
       sortAscending: {
         name: true,
-        year: false
-      }
+        year: false,
+      },
     });
 
     msnry.on("arrangeComplete", (filteredItems) => {
@@ -235,64 +266,72 @@ function enableListings(){
     }
   });
 
-  document.querySelector(".filters-container").addEventListener("change", (e) => {
-    if (e.target.id === "searchInput") {
-      return;
-    }
+  document
+    .querySelector(".filters-container")
+    .addEventListener("change", (e) => {
+      if (e.target.id === "searchInput") {
+        return;
+      }
 
-    selectors = {
-      fType: e.target.id !== "filterType",
-      fDomain: e.target.id !== "filterDomain",
-      fTech: e.target.id !== "filterTechnology"
-    };
-
-    if (document.getElementById(e.target.id).value === "*") {
       selectors = {
-        fType: true,
-        fDomain: true,
-        fTech: true
+        fType: e.target.id !== "filterType",
+        fDomain: e.target.id !== "filterDomain",
+        fTech: e.target.id !== "filterTechnology",
       };
-    }
 
-    filterObj[e.target.id] = `${e.target.value == "*" ? "" : "." + e.target.value}`;
-    msnry.arrange({
-      filter: concatValues(filterObj),
+      if (document.getElementById(e.target.id).value === "*") {
+        selectors = {
+          fType: true,
+          fDomain: true,
+          fTech: true,
+        };
+      }
+
+      filterObj[e.target.id] = `${
+        e.target.value == "*" ? "" : "." + e.target.value
+      }`;
+      msnry.arrange({
+        filter: concatValues(filterObj),
+      });
     });
-  });
 
   // toggle filter menu only on mobile
   if (window.innerWidth <= 980) {
     let filtersContainer = document.querySelector(".filters-container");
-    document.querySelector("#mobileToggleFilters").addEventListener("click", (ev) => {
-      ev.target.classList.toggle("activeButton");
+    document
+      .querySelector("#mobileToggleFilters")
+      .addEventListener("click", (ev) => {
+        ev.target.classList.toggle("activeButton");
 
-      if (!filtersContainer.classList.contains("active")) {
-        filtersContainer.classList.add("active");
-        document.querySelector("#filter-button-text").innerText = "Hide Filters";
-        filtersContainer.style.height = "auto";
+        if (!filtersContainer.classList.contains("active")) {
+          filtersContainer.classList.add("active");
+          document.querySelector("#filter-button-text").innerText =
+            "Hide Filters";
+          filtersContainer.style.height = "auto";
 
-        let height = filtersContainer.clientHeight + "px";
+          let height = filtersContainer.clientHeight + "px";
 
-        filtersContainer.style.height = "0px";
+          filtersContainer.style.height = "0px";
 
-        setTimeout(function () {
-          filtersContainer.style.height = height;
-        }, 0);
-      } else {
-        filtersContainer.style.height = "0px";
-        document.querySelector("#filter-button-text").innerText = "Show Filters";
+          setTimeout(function () {
+            filtersContainer.style.height = height;
+          }, 0);
+        } else {
+          filtersContainer.style.height = "0px";
+          document.querySelector("#filter-button-text").innerText =
+            "Show Filters";
 
-        filtersContainer.addEventListener(
-          "transitionend",
-          function () {
-            filtersContainer.classList.remove("active");
-          },
-          {
-            once: true,
-          }
-        );
-      }
-    });
+          filtersContainer.addEventListener(
+            "transitionend",
+            function () {
+              filtersContainer.classList.remove("active");
+            },
+            {
+              once: true,
+            }
+          );
+        }
+      });
   }
 
   // Smooth scroll
@@ -357,13 +396,11 @@ function enableListings(){
   });
 }
 
-
-
-defer(function () {
-  if (window.jQuery){
+document.addEventListener("DOMContentLoaded", () => {
+  $(document).ready(function () {
     // POPULATE THE LISTING
-    w3.includeHTML(()=> {
+    includeHTML(() => {
       enableListings();
     });
-  }
-})
+  });
+});

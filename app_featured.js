@@ -1,14 +1,30 @@
-function defer(method) {
-  if (window.jQuery) {
-    method();
-  } else {
-    setTimeout(function () {
-      defer(method);
-    }, 50);
+function includeHTML(cb) {
+  var z, i, elmnt, file, xhttp;
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    file = elmnt.getAttribute("w3-include-html");
+    if (file) {
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function () {
+        if (this.readyState == 4) {
+          if (this.status == 200) {
+            $(`#${elmnt.id}`).html(this.responseText);
+          }
+          if (this.status == 404) {
+            $(`#${elmnt.id}`).html("Page not found.");
+          }
+          elmnt.removeAttribute("w3-include-html");
+          includeHTML(cb);
+        }
+      };
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      return;
+    }
   }
+  if (cb) cb();
 }
-
-
 
 function enableCarousel() {
   jQuery(".owl-carousel").owlCarousel({
@@ -37,19 +53,16 @@ function enableCarousel() {
         items: 4,
       },
     },
-  })
+  });
 }
 
-
-
-
-defer(function () {
-    // POPULATE THE LISTING
-  w3.includeHTML();
-  jQuery(document).ready(function() {
-      $('#app').waitForImages(function() {
-        console.log('All images are loaded.');
+document.addEventListener("DOMContentLoaded", () => {
+  $(document).ready(function () {
+    includeHTML(() => {
+      $("#app").waitForImages(function () {
+        console.log("All images are loaded.");
         enableCarousel();
       });
+    });
   });
-})
+});

@@ -1,4 +1,3 @@
-
 function includeHTML(cb) {
   var z, i, elmnt, file, xhttp;
   z = document.getElementsByTagName("*");
@@ -314,6 +313,8 @@ function initSelect() {
     },
   });
   msnry.on("arrangeComplete", (filteredItems) => {
+    document.getElementById("filteredCompanies").innerText =
+        filteredItems.length;
     if (document.activeElement !== document.getElementById("searchInput")) {
       $("html, body").scrollTop($("#searchInput").offset().top + 70);
     }
@@ -452,10 +453,11 @@ function horizontalScroll() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    $("#app").css("visibility", "hidden");
-    horizontalScroll();
-    smoothScroll();
+  $("#app").css("visibility", "hidden");
+  $(document).ready(function () {
     includeHTML(() => {
+      horizontalScroll();
+      smoothScroll();
       // Isotope istantiation
       // Relies on unpkg.com/imagesloaded
       imagesLoaded(document.querySelector("#app"), () => {
@@ -471,4 +473,4 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     });
   });
-
+});
