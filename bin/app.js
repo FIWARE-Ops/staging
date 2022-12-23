@@ -305,28 +305,16 @@ if (PROCESS.startsWith('people')) {
     })
     .then(people => {
       writeTemplate('people/people.html', 'people.html', people);
+      writeTemplate('people/pageData.js', 'peopleModal.html', people);
 
-      readTemplate('peopleModal.html', function(err, data) {
-        const template = Handlebars.compile(data);
-        Handlebars.registerHelper('createClass', createClass);
-
-        const modalData = template(people);
-        const companies = sortData(people, 'company');
-        const departments = sortData(people, 'department');
-        const domains = sortData(people, 'domain');
-        const titles = sortData(people, 'job');
-        const countries = sortData(people, 'country');
-
-        writePeopleFilters(
-          'people/pageData.js',
-          companies,
-          departments,
-          domains,
-          titles,
-          countries,
-          modalData
-        );
-      });
+      const filterData = {
+        companies: sortData(people, 'company'),
+        departments: sortData(people, 'department'),
+        domains: sortData(people, 'domain'),
+        titles: sortData(people, 'job'),
+        countries: sortData(people, 'country')
+      };
+      writeTemplate('people/filter.html', 'peopleFilter.html', filterData);
     })
     .catch(e => {
       console.log(e);
