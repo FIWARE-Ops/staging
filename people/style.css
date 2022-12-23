@@ -976,28 +976,6 @@
     line-height: 1em;
 }
 
-
-/* Toggle Open Close Filters
-  
- #mobileToggleFilters {
-  display: none;
-}
-  
-.showFilters {
-	display:none;
-} /*
-
-.showFilters {		
-  	display: flex;
-    align-items: flex-end;
-  	width: 80%;
-  	margin: 0 auto;
-}
-  
-.filtersBar {
-  	width: 100%!important;
-  	left: 0px!important;
-}
   
 /* Toggle Open Close Filters */
 
@@ -1041,6 +1019,12 @@
     padding-top: 15px;
     border-top: 1px solid #aaa;
     width: 100%;
+}
+
+.filters-dropdown {
+    display: flex;
+    flex-direction: row;
+    gap: 20px
 }
 
 
@@ -1549,6 +1533,12 @@ input[type="search"]::placeholder {
         width: 100% !important;
         left: 0px !important;
     }
+
+.filters-dropdown {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
 
     /* Toggle Open Close Filters */
 
