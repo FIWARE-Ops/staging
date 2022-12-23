@@ -1,12 +1,3 @@
-function defer(method) {
-  if (window.jQuery) {
-    method();
-  } else {
-    setTimeout(function () {
-      defer(method);
-    }, 50);
-  }
-}
 
 function includeHTML(cb) {
   var z, i, elmnt, file, xhttp;
@@ -460,10 +451,8 @@ function horizontalScroll() {
   });
 }
 
-defer(function () {
-  // POPULATE THE LISTING
-  jQuery(document).ready(function () {
-    jQuery("#app").css("visibility", "hidden");
+document.addEventListener("DOMContentLoaded", () => {
+    $("#app").css("visibility", "hidden");
     horizontalScroll();
     smoothScroll();
     includeHTML(() => {
@@ -482,4 +471,4 @@ defer(function () {
       });
     });
   });
-});
+
