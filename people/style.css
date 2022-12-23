@@ -824,7 +824,7 @@
     /* Modal */
 
     .tingle-modal__close {
-        color: #000;
+        color: #002e67;
         font-weight: 400;
         line-height: 1em;
     }
@@ -833,7 +833,7 @@
         top: 5vw;
         right: 5vw;
         z-index: 99999;
-        background: #002e67;
+        background: #fff;
         line-height: 0.9em;
         box-shadow: 0 0 50px 0 rgba(0, 0, 0, 1) !important;
     }
