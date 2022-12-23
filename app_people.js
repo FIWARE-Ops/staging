@@ -313,8 +313,7 @@ function initSelect() {
     },
   });
   msnry.on("arrangeComplete", (filteredItems) => {
-    document.getElementById("filteredCompanies").innerText =
-      filteredItems.length;
+    $("#filteredCompanies").text(filteredItems.length);
     /*if (document.activeElement !== document.getElementById("searchInput")) {
       $("html, body").scrollTop($("#searchInput").offset().top + 70);
     }*/
@@ -458,6 +457,7 @@ document.addEventListener("DOMContentLoaded", () => {
   $("#app").css("visibility", "hidden");
   $(document).ready(function () {
     includeHTML(() => {
+      $("#filteredCompanies").text(window.modalData.length);
       horizontalScroll();
       smoothScroll();
       // Isotope istantiation
