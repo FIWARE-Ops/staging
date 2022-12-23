@@ -1,7 +1,6 @@
 var companies = ['External Consulting', 'FIWARE Foundation'];
 var departments = [
   'Administrative Team',
-  'BOO',
   'Marketing Team',
   'Operations Team',
   'Tech Team'
@@ -9,31 +8,30 @@ var departments = [
 var domains = [''];
 var titles = [
   'Administrational Assistant',
-  'Assistant to the CEO',
+  'Assistant to the BOO',
   'CEO',
-  'Cloud & Platform Expert',
+  'Cloud &amp; Platform Expert',
   'CMO',
   'Community Manager',
   'COO',
   'CTO',
-  'Data Modeling Expert & Technical Evangelist',
+  'Data Modeling Expert &amp; Evangelist',
   'Designer',
-  'FIWARE Cloud & Platform Senior Expert',
   'FIWARE Solution Architect',
-  'Marketing & Outreach Manager',
-  'Marketing & Project Manager',
-  'Marketing and Product Manager Manager',
+  'Marketing &amp; Outreach Manager',
+  'Marketing &amp; Product Manager',
+  'Marketing &amp; Project Manager',
   'Marketing Manager',
-  'Public Relations Manager',
+  'PR Manager',
+  'Project Manager',
   'Senior Architect',
   'Senior Business Development Manager',
   'Senior Consultant',
-  'Senior Marketing Manager',
-  'Senior Technical Expert & Evangelist',
-  'Technical Expert & Evangelist',
-  'Technical Lead & Architect',
+  'Senior Technical Expert &amp; Evangelist',
+  'Technical Expert &amp; Evangelist',
+  'Technical Lead &amp; Architect',
   'Vice President Funded Programs',
-  'Working Student – Marketing'
+  'Working Student'
 ];
 var countries = [
   'Albania',
@@ -52,11 +50,12 @@ var countries = [
   'Ukraine',
   'United Kingdom'
 ];
+
 var modalData = [
   {
     name: 'Alberto Abella',
     img: 'https://www.fiware.org/wp-content/uploads/2020/01/alberto-abella.jpg',
-    position: 'Data Modeling Expert &amp; Technical Evangelist',
+    position: 'Data Modeling Expert &amp; Evangelist',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
     content:
@@ -159,7 +158,7 @@ var modalData = [
   {
     name: 'Kseniia Chernikova',
     img: 'https://www.fiware.org/wp-content/uploads/Kseniia-Chernikova.jpg',
-    position: 'Public Relations Manager',
+    position: 'PR Manager',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
     content:
@@ -192,7 +191,7 @@ var modalData = [
   {
     name: 'Hendrik Engel',
     img: 'https://www.fiware.org/wp-content/uploads/2019/04/Male-Icon.png',
-    position: 'Marketing and Product Manager Manager',
+    position: 'Marketing &amp; Product Manager',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
     content:
@@ -225,7 +224,7 @@ var modalData = [
   {
     name: 'Lucca Giusti',
     img: 'https://www.fiware.org/wp-content/uploads/2019/04/Male-Icon.png',
-    position: 'Working Student – Marketing',
+    position: 'Working Student',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
     content:
@@ -259,7 +258,7 @@ var modalData = [
     name: 'Andrea Kather',
     img:
       'https://www.fiware.org/wp-content/uploads/2018/05/Andrea-Kather-min.jpg',
-    position: 'Assistant to the CEO',
+    position: 'Assistant to the BOO',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
     content:
@@ -293,7 +292,7 @@ var modalData = [
   {
     name: 'Yuzhen Li',
     img: 'https://www.fiware.org/wp-content/uploads/2019/04/Female-Icon.png',
-    position: 'Working Student – Marketing',
+    position: 'Working Student',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
     content:
@@ -305,7 +304,7 @@ var modalData = [
     name: 'Fernando López Aguilar',
     img:
       'https://www.fiware.org/wp-content/uploads/2018/05/Fernando-Lopez-Aguilar-min-1.jpg',
-    position: 'FIWARE Cloud &amp; Platform Senior Expert',
+    position: 'Cloud &amp; Platform Expert',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
     content:
@@ -328,7 +327,7 @@ var modalData = [
   {
     name: 'Xhulja Melyshi',
     img: 'https://www.fiware.org/wp-content/uploads/MelyshiXhulja.png',
-    position: 'Working Student – Marketing',
+    position: 'Working Student',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
     content:
@@ -373,7 +372,7 @@ var modalData = [
     name: 'Ángeles Tejado',
     img:
       'https://www.fiware.org/wp-content/uploads/2018/05/Angeles-Tejado-min.jpg',
-    position: 'Senior Marketing Manager',
+    position: 'Project Manager',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
     content:
@@ -429,7 +428,7 @@ var modalData = [
   {
     name: 'Rosemah Zia',
     img: 'https://www.fiware.org/wp-content/uploads/RosemahZia.jpg',
-    position: 'Working Student – Marketing',
+    position: 'Working Student',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
     content:
