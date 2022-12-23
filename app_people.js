@@ -36,27 +36,6 @@ function includeHTML(cb) {
   if (cb) cb();
 }
 
-function addOptions(id, data) {
-  if (document.querySelector(id) && data) {
-    data.forEach((el) => {
-      var option = document.createElement("option");
-      option.value = `${createClassFilter(el)}`;
-      option.appendChild(document.createTextNode(`${el}`));
-      document.querySelector(id).appendChild(option);
-    });
-  }
-}
-
-function initDropdowns(cb) {
-  addOptions("#filterCompany", window.companies);
-  addOptions("#filterRole", window.titles);
-  addOptions("#filterDepartment", window.departments);
-  addOptions("#filterDomain", window.domains);
-  addOptions("#filterCountry", window.countries);
-
-  if (cb) cb();
-}
-
 // Returns the right classNames for isotope card filtering system
 function createClassFilter(data) {
   var filterString = "";
@@ -384,37 +363,36 @@ function initSelect() {
         e.target.classList.remove("active");
       }
     });*/
-  initDropdowns(() => {
-    $(".filters-container select").each(function (index) {
-      $(this).bind("change", (e) => {
-        if (e.target.id === "searchInput") {
-          return;
-        }
 
+  $(".filters-container select").each(function (index) {
+    $(this).bind("change", (e) => {
+      if (e.target.id === "searchInput") {
+        return;
+      }
+
+      selectors = {
+        fCompany: e.target.id !== "filterCompany",
+        fRole: e.target.id !== "filterRole",
+        fDepartment: e.target.id !== "filterDepartment",
+        fDomain: e.target.id !== "filterDomain",
+        fCountry: e.target.id !== "filterCountry",
+      };
+
+      if (document.getElementById(e.target.id).value === "*") {
         selectors = {
-          fCompany: e.target.id !== "filterCompany",
-          fRole: e.target.id !== "filterRole",
-          fDepartment: e.target.id !== "filterDepartment",
-          fDomain: e.target.id !== "filterDomain",
-          fCountry: e.target.id !== "filterCountry",
+          fCompany: true,
+          fRole: true,
+          fDepartment: true,
+          fDomain: true,
+          fCountry: true,
         };
+      }
 
-        if (document.getElementById(e.target.id).value === "*") {
-          selectors = {
-            fCompany: true,
-            fRole: true,
-            fDepartment: true,
-            fDomain: true,
-            fCountry: true,
-          };
-        }
-
-        filterObj[e.target.id] = `${
-          e.target.value == "*" ? "" : "." + e.target.value
-        }`;
-        msnry.arrange({
-          filter: concatValues(filterObj),
-        });
+      filterObj[e.target.id] = `${
+        e.target.value == "*" ? "" : "." + e.target.value
+      }`;
+      msnry.arrange({
+        filter: concatValues(filterObj),
       });
     });
   });
