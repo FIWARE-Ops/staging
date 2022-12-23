@@ -272,11 +272,6 @@
     padding: 1px 1px 1px 0px;
 }
 
-.cat-bio:hover {
-    color: #fff;
-    background-color: #002e67;
-}
-
 .cat-bio {
     position: relative;
     width: 32px;
