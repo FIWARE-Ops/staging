@@ -25,6 +25,7 @@ jobs:
       run: |
         cp -R main/marketplace staging
         cp -R main/community staging
+        cp -R main/people staging
     - name: Commit files
       continue-on-error: true
       run: |
