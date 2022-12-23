@@ -33,13 +33,13 @@ function createClassFilter(data) {
   if (typeof data == "object") {
     data.forEach((element, i) => {
       if (i + 1 === data.length) {
-        filterString += `${element.toLowerCase().replace(regex, "-")}`;
+        filterString += `${element.toLowerCase().replace(/&amp/gi, "").replace(regex, "-")}`;
       } else {
-        filterString += `${element.toLowerCase().replace(regex, "-")} `;
+        filterString += `${element.toLowerCase().replace(/&amp/gi, "").replace(regex, "-")} `;
       }
     });
   } else {
-    filterString = data.toLowerCase().replace(regex, "-");
+    filterString = data.toLowerCase().replace(/&amp/gi, "").replace(regex, "-");
   }
 
   return filterString;
