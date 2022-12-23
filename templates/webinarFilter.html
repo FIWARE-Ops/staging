@@ -1,0 +1,56 @@
+
+<p class="filter-by">
+    <span id="ico-filter-all" class="material-icons-outlined">filter_list</span>
+    Filter by
+</p> 
+
+<div class="filters-checkbox">
+    <br>
+</div>
+
+<div class="filter-element">
+    <label for="filterType" class="dropdown-label">Chapter</label>
+    <select name="" id="filterType">
+    <option value="*">All Chapters</option>
+    {{#each types}}
+        <option value="{{createClass this}}">{{this}}</option>
+    {{/each}}
+    </select>
+</div>
+<div class="filter-element">
+    <label for="filterDomain" class="dropdown-label">Audience</label>
+    <select name="" id="filterDomain">
+        <option value="*">All Audiences</option>
+        {{#each domains}}
+            <option value="{{createClass this}}">{{this}}</option>
+        {{/each}}
+    </select>
+</div>
+<div class="filter-element">
+    <label for="filterTechnology" class="dropdown-label">Keywords</label>
+    <select name="" id="filterTechnology">
+        <option value="*">All Keywords</option>
+         {{#each technologies}}
+            <option value="{{createClass this}}">{{this}}</option>
+        {{/each}}
+    </select>
+</div>
+<div class="sort-element">
+    <label class="sort-by">Sort by</label>
+    <div class="sort-buttons">
+        <div class="filter-element">
+            <button id="orderByYear">
+                <span id="ico-sortby-year" class="material-icons-outlined">date_range</span>
+                Most Recent
+            </button>
+        </div>
+
+        <div class="filter-element">
+            <button id="orderByName">
+                <span id="ico-sortby-alpha" class="material-icons-outlined">north_east</span>
+                Easy to Hard
+            </button>
+        </div>
+    </div>
+</div>
+

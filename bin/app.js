@@ -32,6 +32,19 @@ function sortData(input, attr) {
   );
 }
 
+function flatSortData(input, attr) {
+  return _.sortBy(
+    _.uniq(
+      _.flatten(
+        _.map(input, function(el) {
+          return el[attr] ? el[attr] : '';
+        })
+      )
+    ),
+    caseInsensitive
+  );
+}
+
 function createClass(data) {
   let result = '';
   const regex = /([^a-zA-Z0-9À-ÿ])/gi;
@@ -251,44 +264,26 @@ if (PROCESS.startsWith('webinars')) {
       return CSVParser.extractWebinars(input);
     })
     .then(webinars => {
-      const types = _.sortBy(
-        _.uniq(
-          _.map(webinars, function(webinar) {
-            return webinar.type;
-          })
-        ),
-        caseInsensitive
-      );
-      const domains = _.sortBy(
-        _.uniq(
-          _.flatten(
-            _.map(webinars, function(webinar) {
-              return webinar.domain;
-            })
-          )
-        ),
-        caseInsensitive
-      );
-      const technologies = _.sortBy(
-        _.uniq(
-          _.flatten(
-            _.map(webinars, function(webinar) {
-              return webinar.technology;
-            })
-          )
-        ),
-        caseInsensitive
-      );
-      writeFilters(
-        'community/webinar-recordings/pageData.js',
-        types,
-        domains,
-        technologies
-      );
+      const filterData = {
+        types: sortData(webinars, 'type'),
+        technologies: flatSortData(webinars, 'technology'),
+        domains: flatSortData(webinars, 'domain')
+      };
+
       writeTemplate(
         'community/webinar-recordings/webinars.html',
         'webinar.html',
         webinars
+      );
+      writeTemplate(
+        'community/webinar-recordings/pageData.js',
+        'webinarModal.html',
+        filterData
+      );
+      writeTemplate(
+        'community/webinar-recordings/filters.html',
+        'webinarFilter.html',
+        filterData
       );
     })
     .catch(e => {
