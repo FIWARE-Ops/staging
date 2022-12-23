@@ -273,7 +273,7 @@
     transition: all 0.2s linear;
 }
 
-.bio::before:hover {
+.bio::before :hover {
     color: #fff;
     background-color: #002e67;
 }
