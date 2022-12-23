@@ -695,6 +695,11 @@
         transition: none;
     }
 
+
+    .profile-details {
+        padding: 0 20px;
+    }
+
     .f-cat h6 {
         font-size: 20px;
         padding-bottom: 10px;
