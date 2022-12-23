@@ -706,7 +706,11 @@
     }
 
     .f-cat h5 {
-        font-size: 16px;
+        font-size: 15px;
+    }
+
+    .department {
+        font-size: 15px;
     }
 
     .icons {
