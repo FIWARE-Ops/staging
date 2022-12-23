@@ -317,49 +317,40 @@ function initModal() {
 }
 
 var init = false;
+var msnry;
+var selectors = {
+  fCompany: true,
+  fRole: true,
+  fDepartment: true,
+  fDomain: true,
+  fCountry: true,
+};
+var filterObj = {};
 
 function initSelect() {
-  // POPULATE THE INITIAL SELECT
-
-  // Isotope istantiation
-
-  var msnry;
-  var selectors = {
-    fCompany: true,
-    fRole: true,
-    fDepartment: true,
-    fDomain: true,
-    fCountry: true,
-  };
-  var filterObj = {};
-
-  // Relies on unpkg.com/imagesloaded
-  imagesLoaded(document.querySelector("#app"), function (instance) {
-    msnry = new Isotope(".grid", {
-      itemSelector: ".grid-item",
-      layoutMode: "fitRows",
-      masonry: {
-        columnWidth: ".grid-sizer",
-      },
-      getSortData: {
-        name: ".name parseInt",
-        year: ".year",
-      },
-      sortAscending: {
-        name: true,
-        year: false,
-      },
-    });
-    msnry.on("arrangeComplete", (filteredItems) => {
-      if (document.activeElement !== document.getElementById("searchInput")) {
-        $("html, body").scrollTop($("#searchInput").offset().top + 70);
-      }
-      dropdownFilters(selectors);
-    });
-
-    initTextSearch(msnry);
+  msnry = new Isotope(".grid", {
+    itemSelector: ".grid-item",
+    layoutMode: "fitRows",
+    masonry: {
+      columnWidth: ".grid-sizer",
+    },
+    getSortData: {
+      name: ".name parseInt",
+      year: ".year",
+    },
+    sortAscending: {
+      name: true,
+      year: false,
+    },
+  });
+  msnry.on("arrangeComplete", (filteredItems) => {
+    if (document.activeElement !== document.getElementById("searchInput")) {
+      $("html, body").scrollTop($("#searchInput").offset().top + 70);
+    }
+    dropdownFilters(selectors);
   });
 
+  initTextSearch(msnry);
 
   /*
     document.querySelector(".resetInput").addEventListener("click", (el) => {
@@ -495,19 +486,21 @@ defer(function () {
   // POPULATE THE LISTING
   jQuery(document).ready(function () {
     jQuery("#app").css("visibility", "hidden");
-    includeHTML(function () {
-      $("#app").waitForImages(function () {
+    horizontalScroll();
+    smoothScroll();
+    includeHTML(() => {
+      // Isotope istantiation
+      // Relies on unpkg.com/imagesloaded
+      imagesLoaded(document.querySelector("#app"), () => {
+        $("#app").css("visibility", "visible");
         if (init) {
           return;
         }
         init = true;
         initSelect();
-
-        $("#app").css("visibility", "visible");
-        filterToggle();
         initModal();
-        horizontalScroll();
-        smoothScroll();
+
+        filterToggle();
       });
     });
   });
