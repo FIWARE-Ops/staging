@@ -1537,7 +1537,7 @@ input[type="search"]::placeholder {
 .filters-dropdown {
     display: flex;
     flex-direction: column;
-    gap: 0px
+    gap: 0px;
 }
 
     /* Toggle Open Close Filters */
