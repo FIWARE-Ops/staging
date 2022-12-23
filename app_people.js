@@ -315,9 +315,9 @@ function initSelect() {
   msnry.on("arrangeComplete", (filteredItems) => {
     document.getElementById("filteredCompanies").innerText =
       filteredItems.length;
-    if (document.activeElement !== document.getElementById("searchInput")) {
+    /*if (document.activeElement !== document.getElementById("searchInput")) {
       $("html, body").scrollTop($("#searchInput").offset().top + 70);
-    }
+    }*/
     dropdownFilters(selectors);
   });
 
