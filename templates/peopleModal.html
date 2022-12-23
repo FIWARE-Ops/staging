@@ -1,5 +1,32 @@
+var companies = [
+  {{#each companies}}
+    '{{this}}',
+  {{/each}}
+];
+var departments = [
+  {{#each departments}}
+   '{{this}}',
+  {{/each}}
+];
+var domains = [
+  {{#each domains}}
+   '{{this}}',
+  {{/each}}
+];
+var titles = [
+  {{#each titles}}
+   '{{this}}',
+  {{/each}}
+];
+var countries = [
+  {{#each countries}}
+   '{{this}}',
+  {{/each}}
+];
+
+
 var modalData = [
-	{{#each this}}
+	{{#each people}}
     {
     name: "{{name}}",
     img: "{{img}}",

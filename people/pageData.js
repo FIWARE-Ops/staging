@@ -1,3 +1,58 @@
+var companies = ['External Consulting', 'FIWARE Foundation'];
+var departments = [
+  'Administrative Team',
+  'BOO',
+  'Marketing Team',
+  'Operations Team',
+  'Tech Team'
+];
+var domains = [''];
+var titles = [
+  'Administrational Assistant',
+  'Assistant to the CEO',
+  'CEO',
+  'Cloud &amp; Platform Expert',
+  'CMO',
+  'Community Manager',
+  'COO',
+  'CTO',
+  'Data Modeling Expert &amp; Technical Evangelist',
+  'Designer',
+  'FIWARE Cloud &amp; Platform Senior Expert',
+  'FIWARE Solution Architect',
+  'Marketing &amp; Outreach Manager',
+  'Marketing &amp; Project Manager',
+  'Marketing and Product Manager Manager',
+  'Marketing Manager',
+  'Public Relations Manager',
+  'Senior Architect',
+  'Senior Business Development Manager',
+  'Senior Consultant',
+  'Senior Marketing Manager',
+  'Senior Technical Expert &amp; Evangelist',
+  'Technical Expert &amp; Evangelist',
+  'Technical Lead &amp; Architect',
+  'Vice President Funded Programs',
+  'Working Student – Marketing'
+];
+var countries = [
+  'Albania',
+  'Argentina',
+  'Brazil',
+  'China',
+  'Germany',
+  'India',
+  'Italy',
+  'Netherlands',
+  'Pakistan',
+  'Peru',
+  'Russia',
+  'Spain',
+  'Sweden',
+  'Ukraine',
+  'United Kingdom'
+];
+
 var modalData = [
   {
     name: 'Alberto Abella',

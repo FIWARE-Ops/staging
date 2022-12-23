@@ -304,17 +304,17 @@ if (PROCESS.startsWith('people')) {
       return CSVParser.extractPeople(input);
     })
     .then(people => {
-      writeTemplate('people/people.html', 'people.html', people);
-      writeTemplate('people/pageData.js', 'peopleModal.html', people);
-
       const filterData = {
         companies: sortData(people, 'company'),
         departments: sortData(people, 'department'),
         domains: sortData(people, 'domain'),
         titles: sortData(people, 'job'),
-        countries: sortData(people, 'country')
+        countries: sortData(people, 'country'),
+        people
       };
-      writeTemplate('people/filter.html', 'peopleFilter.html', filterData);
+      writeTemplate('people/people.html', 'people.html', people);
+      writeTemplate('people/pageData.js', 'peopleModal.html', filterData);
+      writeTemplate('people/filters.html', 'peopleFilter.html', filterData);
     })
     .catch(e => {
       console.log(e);
