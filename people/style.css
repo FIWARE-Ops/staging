@@ -270,10 +270,9 @@
     color: #002e67;
     text-align: center;
     padding: 1px 1px 1px 0px;
-    transition: all 0.2s linear;
 }
 
-.bio::before :hover {
+.cat-bio:hover {
     color: #fff;
     background-color: #002e67;
 }
@@ -283,6 +282,12 @@
     width: 32px;
     margin-right: 12px;
     cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.cat-bio:hover {
+    color: #fff;
+    background-color: #002e67;
 }
 
 .cat-location {
