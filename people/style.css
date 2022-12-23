@@ -258,18 +258,24 @@
 
 .bio::before {
     font-family: "ETmodules";
-    font-weight: 500;
+    font-weight: 600;
     content: "\4c";
     font-size: 20px;
     display: inline-block;
     position: relative;
-    background: #e5f5f7;
+    background-color: #f3f3f3;
     border-radius: 40px;
     width: 32px;
     height: 32px;
     color: #002e67;
     text-align: center;
     padding: 1px 1px 1px 0px;
+    transition: all 0.2s linear;
+}
+
+.bio::before:hover {
+    color: #fff;
+    background-color: #002e67;
 }
 
 .cat-bio {
