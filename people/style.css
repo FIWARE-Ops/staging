@@ -263,13 +263,8 @@
     font-size: 20px;
     display: inline-block;
     position: relative;
-    background-color: #f3f3f3;
-    border-radius: 40px;
     width: 32px;
     height: 32px;
-    color: #002e67;
-    text-align: center;
-    padding: 1px 1px 1px 0px;
 }
 
 .cat-bio {
@@ -278,6 +273,11 @@
     margin-right: 12px;
     cursor: pointer;
     transition: all 0.2s linear;
+    background-color: #f3f3f3;
+    border-radius: 40px;
+    color: #002e67;
+    text-align: center;
+    padding: 1px 1px 1px 0px;
 }
 
 .cat-bio:hover {
