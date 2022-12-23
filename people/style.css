@@ -1403,7 +1403,6 @@ input[type="search"]::placeholder {
         margin: 0 auto;
         padding-top: 16px;
         border-top: 1px solid #aaa;
-        overflow: hidden;
     }
 
     .filters-container:not(.active) {
