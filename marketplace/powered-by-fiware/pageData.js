@@ -28,6 +28,34 @@ var pageData = [
       '[ui!] UrbanPulse is the most efficient Open Urban Data Platform with open APIs for small and large cities, municipalities, utilities, and other organizations to reuse, repurpose, share and present new and existing urban data sources and create value-added services in real-time for your citizens.'
   },
   {
+    company: '[ui!] Urban Software',
+    name: '[ui!] UrbanPulse',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_UrbanInstitute.svg',
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink:
+      '../product-details/?category=powered&id=uiurbansoftware-uiurbanpulse',
+    domain: [
+      'Air Quality',
+      'Lighting',
+      'Measurement',
+      'Mobility',
+      'Sustainability'
+    ],
+    type: 'Platform',
+    technology: [
+      'Data Analytics',
+      'Internet of Things',
+      'Screens and Display',
+      'Sensory Systems',
+      'Software as a Service'
+    ],
+    year: 2019,
+    content:
+      '[ui!] UrbanPulse is an open central data platform for urban data in real-time - based on a highly scalable architecture for data processing and analysis, with a special connector framework for the integration of sensors, urban management systems and Visualization of complex data with tiles and maps.'
+  },
+  {
     company: 'Absolute Zero',
     name: 'Thor',
     img:
@@ -946,6 +974,22 @@ var pageData = [
       'MUV-APP is the platform that turns the complex and huge urban mobility system into a safe, sustainable and user-friendly system.  MUV-APP enables Mobility as a service for the public administration, to provide innovative tools for the management of the entire urban mobility system.'
   },
   {
+    company: 'Profirator',
+    name: 'lakes.profi.space',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Profirator.svg',
+    fiwareMember: true,
+    fiwareIhub: false,
+    companyLink:
+      '../product-details/?category=powered&id=profirator-lakesprofispace',
+    domain: ['Cities'],
+    type: 'Platform',
+    technology: ['Internet of Things'],
+    year: 2022,
+    content:
+      'Lakes is the Smart City IoT platform you can get started in minutes. Try before you buy with 0€ and no credit card information. Profirator offers a hosted version of their Smart City IoT platform for you to try. Free community support is included!'
+  },
+  {
     company: 'Project Ray',
     name: 'RAY',
     img:
@@ -1705,22 +1749,6 @@ var pageData = [
       'YerbaBuena VR delivers a next-generation real-time 360 live streaming distribution platform for Virtual Reality optimized for any available bandwidth.'
   },
   {
-    company: 'Profirator',
-    name: 'lakes.profi.space',
-    img:
-      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Profirator.svg',
-    fiwareMember: true,
-    fiwareIhub: false,
-    companyLink:
-      '../product-details/?category=powered&id=profirator-lakesprofispace',
-    domain: ['Cities'],
-    type: 'Platform',
-    technology: ['Internet of Things'],
-    year: 2022,
-    content:
-      'Lakes is the Smart City IoT platform you can get started in minutes. Try before you buy with 0€ and no credit card information. Profirator offers a hosted version of their Smart City IoT platform for you to try. Free community support is included!'
-  },
-  {
     company: 'Amazon Web Services',
     name: 'Smart Territory Framework',
     img:
@@ -1863,33 +1891,5 @@ var pageData = [
     year: 2022,
     content:
       'Our Urban Data Platform enables the development of a digital ecosystem in which existing data from different systems and applications can be used to build digital service offerings across fields of action. For this, we provide the urban data platform as a service approach.'
-  },
-  {
-    company: '[ui!] Urban Software',
-    name: '[ui!] UrbanPulse',
-    img:
-      'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_UrbanInstitute.svg',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink:
-      '../product-details/?category=powered&id=uiurbansoftware-uiurbanpulse',
-    domain: [
-      'Air Quality',
-      'Lighting',
-      'Measurement',
-      'Mobility',
-      'Sustainability'
-    ],
-    type: 'Platform',
-    technology: [
-      'Data Analytics',
-      'Internet of Things',
-      'Screens and Display',
-      'Sensory Systems',
-      'Software as a Service'
-    ],
-    year: 2019,
-    content:
-      '[ui!] UrbanPulse is an open central data platform for urban data in real-time - based on a highly scalable architecture for data processing and analysis, with a special connector framework for the integration of sensors, urban management systems and Visualization of complex data with tiles and maps.'
   }
 ];

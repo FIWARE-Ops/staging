@@ -967,6 +967,85 @@ var pageData = {
         }
       ]
     },
+    'egm-connectedcanteens': {
+      category: 'Powered by FIWARE',
+      organisationName: 'EGM',
+      productName: 'Connected Canteens',
+      organisationWebsite:
+        'https://www.egm.io/en/our-projects-smart-territories-and-cities',
+      organisationEmail: '',
+      linkedIn: 'https://www.linkedin.com/company/easy-global-market/',
+      twitter: 'https://twitter.com/egm_sophia',
+      productWebsite:
+        'https://www.picardiegazette.fr/article/saint-quentin-un-projet-innovant-de-poubelles-connectees',
+      excerpt:
+        'This solution includes connected weighing scales under the bins to provide information on the weight of organic and non-organic waste from an individual and overall perspective. This solution allows canteens to raise awareness and help to adapt menus and quantities.',
+      yearOfValidation: 2021,
+      description:
+        '<p>ASSESSMENT Between 30 and 40% of food is wasted in school canteens</p> <p>SOLUTION Using weight sensors underneath the bins, pupils can be told how much waste there is on the day and how it changes over the days and months. Results are presented on a web platform or an application.</p> <p>ROI  This solution allows: *improvement of menu quality by refining meal proposals and quantities *gamification between schools in a town to be the one that produces the least waste *possibility of using bio-waste to make compost *awareness-raising actions with pupils based on concrete data</p>',
+      challenge:
+        '<p>Canteens, especially in school catering, waste a significant amount of food.</p>',
+      references: '<p>Ville de Saint-Quentin</p>',
+      awards: '',
+      technologies: [
+        'Data Analytics',
+        'Screens and Display',
+        'Sensory Systems'
+      ],
+      domains: ['AgriFood', 'Measurement', 'Waste Management'],
+      docs: [],
+      videos: [
+        [
+          'Connected Canteens-YouTube',
+          'https://www.youtube.com/watch?v=QL6Oa2-swdA&t=13s'
+        ],
+        ['How it Works-YouTube', 'https://www.youtube.com/watch?v=WiU1_vwH7KA']
+      ],
+      materials: [],
+      logo:
+        'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_EGM.svg',
+      featuredImage:
+        'https://www.fiware.org/wp-content/marketplace/images/hero_saint-quentin_connected-canteens.png',
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_egm_carpool-parking.png',
+          excerpt:
+            'This camera allows us to count entries and exits in a carpool park and to determine whether the cars parked are indeed intended for carpooling. This device allows our clients to have tangible statistics on the occupation of a car park.',
+          productName: 'Carpool Parking',
+          companyLink: './?category=powered&id=egm-carpoolparking'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_egm_smart-irrigation.png',
+          excerpt:
+            'EGM offers a complete solution for determining the amount of water that can be saved on a green space and deploying the control solution in addition to an existing watering system to achieve the water savings in question. Our solution saved 35% of the water on the first deployment.',
+          productName: 'Smart Irrigation',
+          companyLink: './?category=powered&id=egm-smartirrigation'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_egm_edgespot.png',
+          excerpt:
+            'The device EdgeSpot is a highly scalable hardware and software platform that takes you from concept to market by accelerating the proof-of-concept phases.',
+          productName: 'EdgeSpot',
+          companyLink: './?category=ready&id=egm-edgespot'
+        },
+        {
+          category: 'Services',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_egm_design-office.png',
+          excerpt:
+            'From idea (feasibility study, design, prototyping, industrialization and manufacturing)  to realization of your solution: a user-centered creation process. \nYou know your work we help you to optimize it!',
+          productName: 'Design office',
+          companyLink: './?category=services&id=egm-designoffice'
+        }
+      ]
+    },
     'egm-smartirrigation': {
       category: 'Powered by FIWARE',
       organisationName: 'EGM',
@@ -2339,6 +2418,47 @@ var pageData = {
         'https://www.fiware.org/wp-content/marketplace/images/hero_phoops_muv-app.png',
       furtherImages: ''
     },
+    'profirator-lakesprofispace': {
+      category: 'Powered by FIWARE',
+      organisationName: 'Profirator',
+      productName: 'lakes.profi.space',
+      organisationWebsite: 'https://profirator.fi/',
+      organisationEmail: 'mailto:info@profirator.fi',
+      linkedIn: 'https://www.linkedin.com/company/profirator-ltd/about/',
+      twitter: '',
+      productWebsite: 'https://profirator.fi/product-and-pricing/',
+      excerpt:
+        'Lakes is the Smart City IoT platform you can get started in minutes. Try before you buy with 0€ and no credit card information. Profirator offers a hosted version of their Smart City IoT platform for you to try. Free community support is included!',
+      yearOfValidation: 2022,
+      description:
+        '<p>Smart city platforms are complicated technical constructs. Our goal is to make smart cities as approachable as possible. If you are interested in trying out a platform, it has been challenging in the past. <strong>lakes.profi.space</strong> offers fast and easy access to a FIWARE-based Smart City IoT platform without tendering and lengthy technical setups. Expert help is available via our <a href="https://lakes-support-chat.profirator.fi/channel/general" title="chat support">chat support</a>, and Documentation with tutorial videos gives you a good grasp of the possibilities. We can arrange an online meeting to support and understand any specific requirements you may have. By trying and using lakes.profi.space, there is no need to worry about budgets and timelines. It takes only a few minutes to sign-up and gets exploring. The platform runs on the same basics as we have deployed to our customers, and in addition, we rely on Gitlab and Kuberdroid™ Kubernetes to ensure everything runs smoothly.</p>',
+      challenge:
+        '<p>Our goal is to make smart cities as approachable as possible. You can quickly determine the value and possibilities by testing out basic functionality and integrations without the extensive time and money-consuming commitment. Our platform is designed to cater to all clientele, but we believe lakes.profi.space as a service makes the most sense for small and medium-sized cities and communities.</p>',
+      references:
+        '<p>Vienna, Austria. Paderborn, Germany. Kiel-region, Germany. Tampere, Finland. HSL, Finland.</p>',
+      awards: '',
+      technologies: ['Internet of Things'],
+      domains: ['Cities'],
+      docs: [
+        [
+          'Getting Started-Guidance ',
+          'https://lakes.profi.space/documentation'
+        ],
+        [
+          'Overview',
+          'http://fundingbox-files.s3-eu-central-1.amazonaws.com/ilariprofirator/nwY2FQMv4h/profirator1.4-fiware.pdf'
+        ]
+      ],
+      videos: [
+        ['Youtube-Introduction', 'https://www.youtube.com/watch?v=qmAZWEE_y-A']
+      ],
+      materials: [],
+      logo:
+        'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Profirator.svg',
+      featuredImage:
+        'https://www.fiware.org/wp-content/marketplace/images/hero_profirator_lakes.png',
+      furtherImages: ''
+    },
     'projectray-ray': {
       category: 'Powered by FIWARE',
       organisationName: 'Project Ray',
@@ -2521,85 +2641,6 @@ var pageData = {
       featuredImage:
         'https://www.fiware.org/wp-content/marketplace/images/hero_pycno_pycno.png',
       furtherImages: ''
-    },
-    'egm-connectedcanteens': {
-      category: 'Powered by FIWARE',
-      organisationName: 'EGM',
-      productName: 'Connected Canteens',
-      organisationWebsite:
-        'https://www.egm.io/en/our-projects-smart-territories-and-cities',
-      organisationEmail: '',
-      linkedIn: 'https://www.linkedin.com/company/easy-global-market/',
-      twitter: 'https://twitter.com/egm_sophia',
-      productWebsite:
-        'https://www.picardiegazette.fr/article/saint-quentin-un-projet-innovant-de-poubelles-connectees',
-      excerpt:
-        'This solution includes connected weighing scales under the bins to provide information on the weight of organic and non-organic waste from an individual and overall perspective. This solution allows canteens to raise awareness and help to adapt menus and quantities.',
-      yearOfValidation: 2021,
-      description:
-        '<p>ASSESSMENT Between 30 and 40% of food is wasted in school canteens</p> <p>SOLUTION Using weight sensors underneath the bins, pupils can be told how much waste there is on the day and how it changes over the days and months. Results are presented on a web platform or an application.</p> <p>ROI  This solution allows: *improvement of menu quality by refining meal proposals and quantities *gamification between schools in a town to be the one that produces the least waste *possibility of using bio-waste to make compost *awareness-raising actions with pupils based on concrete data</p>',
-      challenge:
-        '<p>Canteens, especially in school catering, waste a significant amount of food.</p>',
-      references: '<p>Ville de Saint-Quentin</p>',
-      awards: '',
-      technologies: [
-        'Data Analytics',
-        'Screens and Display',
-        'Sensory Systems'
-      ],
-      domains: ['AgriFood', 'Measurement', 'Waste Management'],
-      docs: [],
-      videos: [
-        [
-          'Connected Canteens-YouTube',
-          'https://www.youtube.com/watch?v=QL6Oa2-swdA&t=13s'
-        ],
-        ['How it Works-YouTube', 'https://www.youtube.com/watch?v=WiU1_vwH7KA']
-      ],
-      materials: [],
-      logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_EGM.svg',
-      featuredImage:
-        'https://www.fiware.org/wp-content/marketplace/images/hero_saint-quentin_connected-canteens.png',
-      furtherImages: '',
-      related: [
-        {
-          category: 'Powered by FIWARE',
-          featuredImage:
-            'https://www.fiware.org/wp-content/marketplace/images/hero_egm_carpool-parking.png',
-          excerpt:
-            'This camera allows us to count entries and exits in a carpool park and to determine whether the cars parked are indeed intended for carpooling. This device allows our clients to have tangible statistics on the occupation of a car park.',
-          productName: 'Carpool Parking',
-          companyLink: './?category=powered&id=egm-carpoolparking'
-        },
-        {
-          category: 'Powered by FIWARE',
-          featuredImage:
-            'https://www.fiware.org/wp-content/marketplace/images/hero_egm_smart-irrigation.png',
-          excerpt:
-            'EGM offers a complete solution for determining the amount of water that can be saved on a green space and deploying the control solution in addition to an existing watering system to achieve the water savings in question. Our solution saved 35% of the water on the first deployment.',
-          productName: 'Smart Irrigation',
-          companyLink: './?category=powered&id=egm-smartirrigation'
-        },
-        {
-          category: 'FIWARE-Ready',
-          featuredImage:
-            'https://www.fiware.org/wp-content/marketplace/images/hero_egm_edgespot.png',
-          excerpt:
-            'The device EdgeSpot is a highly scalable hardware and software platform that takes you from concept to market by accelerating the proof-of-concept phases.',
-          productName: 'EdgeSpot',
-          companyLink: './?category=ready&id=egm-edgespot'
-        },
-        {
-          category: 'Services',
-          featuredImage:
-            'https://www.fiware.org/wp-content/marketplace/images/hero_egm_design-office.png',
-          excerpt:
-            'From idea (feasibility study, design, prototyping, industrialization and manufacturing)  to realization of your solution: a user-centered creation process. \nYou know your work we help you to optimize it!',
-          productName: 'Design office',
-          companyLink: './?category=services&id=egm-designoffice'
-        }
-      ]
     },
     'sammy-smartmarinaplatform': {
       category: 'Powered by FIWARE',
@@ -4753,47 +4794,6 @@ var pageData = {
         'https://www.fiware.org/wp-content/marketplace/images/hero_yerbabuena-vr_ybvr.png',
       furtherImages: ''
     },
-    'profirator-lakesprofispace': {
-      category: 'Powered by FIWARE',
-      organisationName: 'Profirator',
-      productName: 'lakes.profi.space',
-      organisationWebsite: 'https://profirator.fi/',
-      organisationEmail: 'mailto:info@profirator.fi',
-      linkedIn: 'https://www.linkedin.com/company/profirator-ltd/about/',
-      twitter: '',
-      productWebsite: 'https://profirator.fi/product-and-pricing/',
-      excerpt:
-        'Lakes is the Smart City IoT platform you can get started in minutes. Try before you buy with 0€ and no credit card information. Profirator offers a hosted version of their Smart City IoT platform for you to try. Free community support is included!',
-      yearOfValidation: 2022,
-      description:
-        '<p>Smart city platforms are complicated technical constructs. Our goal is to make smart cities as approachable as possible. If you are interested in trying out a platform, it has been challenging in the past. <strong>lakes.profi.space</strong> offers fast and easy access to a FIWARE-based Smart City IoT platform without tendering and lengthy technical setups. Expert help is available via our <a href="https://lakes-support-chat.profirator.fi/channel/general" title="chat support">chat support</a>, and Documentation with tutorial videos gives you a good grasp of the possibilities. We can arrange an online meeting to support and understand any specific requirements you may have. By trying and using lakes.profi.space, there is no need to worry about budgets and timelines. It takes only a few minutes to sign-up and gets exploring. The platform runs on the same basics as we have deployed to our customers, and in addition, we rely on Gitlab and Kuberdroid™ Kubernetes to ensure everything runs smoothly.</p>',
-      challenge:
-        '<p>Our goal is to make smart cities as approachable as possible. You can quickly determine the value and possibilities by testing out basic functionality and integrations without the extensive time and money-consuming commitment. Our platform is designed to cater to all clientele, but we believe lakes.profi.space as a service makes the most sense for small and medium-sized cities and communities.</p>',
-      references:
-        '<p>Vienna, Austria. Paderborn, Germany. Kiel-region, Germany. Tampere, Finland. HSL, Finland.</p>',
-      awards: '',
-      technologies: ['Internet of Things'],
-      domains: ['Cities'],
-      docs: [
-        [
-          'Getting Started-Guidance ',
-          'https://lakes.profi.space/documentation'
-        ],
-        [
-          'Overview',
-          'http://fundingbox-files.s3-eu-central-1.amazonaws.com/ilariprofirator/nwY2FQMv4h/profirator1.4-fiware.pdf'
-        ]
-      ],
-      videos: [
-        ['Youtube-Introduction', 'https://www.youtube.com/watch?v=qmAZWEE_y-A']
-      ],
-      materials: [],
-      logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Profirator.svg',
-      featuredImage:
-        'https://www.fiware.org/wp-content/marketplace/images/hero_profirator_lakes.png',
-      furtherImages: ''
-    },
     'amazonwebservices-smartterritoryframework': {
       category: 'Powered by FIWARE',
       organisationName: 'Amazon Web Services',
@@ -5080,13 +5080,60 @@ var pageData = {
         ]
       ],
       logo:
-        'https://www.fiware.org/wp-content/uploads/f76c024d092fd8d3b56a5fadea08eaa3.png',
+        'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Engineering.svg',
       featuredImage:
         'https://www.fiware.org/wp-content/uploads/93ecd215f67ea8f6fcfc305b49e72a27.png',
       furtherImages: ''
     }
   },
   ready: {
+    'agricolus-agricolusecosystem': {
+      category: 'FIWARE-Ready',
+      organisationName: 'Agricolus',
+      productName: 'Agricolus Ecosystem',
+      organisationWebsite: 'https://www.agricolus.com/en/',
+      organisationEmail: 'mailto:discover@agricolus.com',
+      linkedIn: 'https://www.linkedin.com/company/agricoluss.r.l./',
+      twitter: 'https://twitter.com/AgricolusSuite/',
+      productWebsite: 'https://www.agricolus.com/en/solutions/',
+      excerpt:
+        'AGRICOLUS is a cloud applications ecosystem for precision farming with multiple purposes: disease awareness and forecasts, crop monitoring, decision support system for treatments and fertilizers, farm management, and end-to-end traceability bringing valuable information to final users.',
+      yearOfValidation: 2017,
+      description:
+        '<p>AGRICOLUS DECISION SUPPORT SYSTEM is a composition of several vertical products that leverage  a common architecture, that covers up to 70% of functionalities common to all the crops, and dedicated professional algorithms for disease forecasting and agricultural optimizations. Data are collected through satellites, drones, IoT, dedicated apps, and soon with our own plug&amp;play AgriPlug device that connects tractors and other Precision Farming Devices to AGRICOLUS SaaS cloud. We also provide AGRITRACK: an end-to-end tracking service that can bring information on good agronomic practices directly to the end-users to raise their awareness of the real value of the goods they are buying.</p> <p>AGRICOLUS is already on the market and multinational agroholding companies, medium-big farms, association of farmers and government are using it successfully.</p>',
+      challenge:
+        '<p>Today farmers face several challenges, we are mostly working on:</p> <p>International market competition with products coming from unruled countries that produce at a very low cost. The effect is a reduction of the profit due to the need of reducing final selling prices. For this reason, they have to reduce costs and increase quality at the same time. Climate change requires continuous adaptation of the best time to proceed with any agricultural operation (seeding, fertilizing, manuring, irrigating, harvesting, …). They need  real-time support to understand the right timing for these operations. AgriTech adoption is not an option but average usage in the EU is far below 10% versus 80% of North America and Australia: farmers need a way to integrate these technologies into daily tasks.</p>',
+      references:
+        '<p>Agro holding companies that want to standardize with AGRICOLUS good practices among their suppliers (farmers) Association of farmers that want to support their associates with better tools providing high value technologies Medium big farms that can reduce costs and have  better control, and an end-to-end traceability of the production Government in agricultural department that uses our product to raise farmers awareness on diseases and other agricultural treats</p>',
+      awards:
+        '<p>Other than the Accelerators we participated in, we are winners of: SEUA 2016 Italian Prizes (EBAN, IAG prizes), ( SpinUp Awards 2017 (Grand Jury Prize), FoodTech 2017 (Intesa San Paolo), ForumPA 10x10 finalist.</p>',
+      technologies: ['Sensory Systems'],
+      domains: ['AgriFood'],
+      docs: [],
+      videos: [['AgriPlug', 'https://www.youtube.com/watch?v=hVHW7QIJMd8']],
+      materials: [
+        [
+          'Press Review',
+          'https://www.agricolus.com/wp-content/uploads/2017/05/Agricolus_PressReview_7_2017.pdf'
+        ]
+      ],
+      logo:
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Agricolus.svg',
+      featuredImage:
+        'https://www.fiware.org/wp-content/marketplace/images/hero_agricolus_agricolus-ecosystem.png',
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_agricolus_agricolus-ecosystem.png',
+          excerpt:
+            'Agricolus is a cloud platform created to simplify and enhance the work in the field of farmers and professionals. It is composed of the main applications of precision agriculture:  from satellite imagery with vegetation indices to forecast models for irrigation, fertilization, pest and diseases.',
+          productName: 'Agricolus',
+          companyLink: './?category=powered&id=agricolus-agricolus'
+        }
+      ]
+    },
     'axion-traxion': {
       category: 'FIWARE-Ready',
       organisationName: 'Axion',
@@ -8286,6 +8333,47 @@ var pageData = {
         }
       ]
     },
+    'montemas-cityprobe2': {
+      category: 'FIWARE-Ready',
+      organisationName: 'MONTEM A/S',
+      productName: 'CityProbe 2',
+      organisationWebsite: 'https://www.cityflow.live',
+      organisationEmail: 'mailto:c.laursen@montem.io',
+      linkedIn: 'https://www.linkedin.com/company/montem/',
+      twitter: '',
+      productWebsite: 'https://www.cityflow.live/cityprobe.html',
+      excerpt:
+        "CityProbe 2 is the fabric of the intelligent city. The unit measures urban environmental parameters\nsuch as noise levels particulate matter pollution temperature etc. - using its' built-in GPS\nthe CityProbe 2 takes a snapshot and transmits the status of the environment in real-time.",
+      yearOfValidation: 2022,
+      description:
+        '<p><strong>CityProbe</strong> is a small mid-cost sensor that allows municipalities to gain a hyper-local and permanent network of air quality noise pollution and meteorological sensors. The sensors can be bought or rented (HaaS).  The CityFlow software and CityProbe sensors are already being used by Danish municipalities (such as Aarhus Kommune) and research institutions (such as Aalborg University) to identify pollution hotspots &amp; their cause understand tendencies &amp; correlations and plan corrective actions &amp; track the effects of changes.</p> <p>While the CityProbe is smaller, more cost-effective and easier to setup/maintain than its’ competitors the precision of its’ data is often doubted. Municipalities continue to use it only as a supplement to the governmental reference stations.  This is why we have gone through a development project under the ESA BIC program to utilize satellite data for anomaly detection and sensor fusion to increase the precision of the CityProbe 2 sensors.</p>',
+      challenge:
+        '<p>Air pollution measurements are usually enabled by governmental measuring stations which are expensive and few and far apart. Meanwhile the air pollution level next to a highway at rush hour can strongly differ from the level in a park 200 meters away. Municipalities currently solve the lack of data by using mobile measurement stations temporarily around the city. This is costly in manpower and does not provide the ideal spatial and temporal resolution.</p>',
+      references:
+        '<ul> <li>Canberra</li> <li>Australia</li> <li>Aarhus</li> <li>Denmark</li> <li>Helsingborg</li> <li>Sweden</li> <li>Aalborg</li> <li>Denmark</li> </ul>',
+      awards: '',
+      technologies: [
+        'Data Analytics',
+        'Data Spaces',
+        'Digital Twins',
+        'Internet of Things',
+        'Open Data'
+      ],
+      domains: ['Air Quality', 'Cities'],
+      docs: [],
+      videos: [
+        [
+          'Video',
+          'https://cityflow.live/videos/CP2-cover-1080p-trimmed-transcode.mp4'
+        ]
+      ],
+      materials: [],
+      logo:
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Montem.svg',
+      featuredImage:
+        'https://www.fiware.org/wp-content/marketplace/images/hero_montem_cityprobe.png',
+      furtherImages: ''
+    },
     'odinsolutions-ipex04datalogger': {
       category: 'FIWARE-Ready',
       organisationName: 'Odin Solutions',
@@ -9675,47 +9763,6 @@ var pageData = {
         'https://www.fiware.org/wp-content/marketplace/images/hero_xapix_xapix.png',
       furtherImages: ''
     },
-    'montemas-cityprobe2': {
-      category: 'FIWARE-Ready',
-      organisationName: 'MONTEM A/S',
-      productName: 'CityProbe 2',
-      organisationWebsite: 'https://www.cityflow.live',
-      organisationEmail: 'mailto:c.laursen@montem.io',
-      linkedIn: 'https://www.linkedin.com/company/montem/',
-      twitter: '',
-      productWebsite: 'https://www.cityflow.live/cityprobe.html',
-      excerpt:
-        "CityProbe 2 is the fabric of the intelligent city. The unit measures urban environmental parameters\nsuch as noise levels particulate matter pollution temperature etc. - using its' built-in GPS\nthe CityProbe 2 takes a snapshot and transmits the status of the environment in real-time.",
-      yearOfValidation: 2022,
-      description:
-        '<p><strong>CityProbe</strong> is a small mid-cost sensor that allows municipalities to gain a hyper-local and permanent network of air quality noise pollution and meteorological sensors. The sensors can be bought or rented (HaaS).  The CityFlow software and CityProbe sensors are already being used by Danish municipalities (such as Aarhus Kommune) and research institutions (such as Aalborg University) to identify pollution hotspots &amp; their cause understand tendencies &amp; correlations and plan corrective actions &amp; track the effects of changes.</p> <p>While the CityProbe is smaller, more cost-effective and easier to setup/maintain than its’ competitors the precision of its’ data is often doubted. Municipalities continue to use it only as a supplement to the governmental reference stations.  This is why we have gone through a development project under the ESA BIC program to utilize satellite data for anomaly detection and sensor fusion to increase the precision of the CityProbe 2 sensors.</p>',
-      challenge:
-        '<p>Air pollution measurements are usually enabled by governmental measuring stations which are expensive and few and far apart. Meanwhile the air pollution level next to a highway at rush hour can strongly differ from the level in a park 200 meters away. Municipalities currently solve the lack of data by using mobile measurement stations temporarily around the city. This is costly in manpower and does not provide the ideal spatial and temporal resolution.</p>',
-      references:
-        '<ul> <li>Canberra</li> <li>Australia</li> <li>Aarhus</li> <li>Denmark</li> <li>Helsingborg</li> <li>Sweden</li> <li>Aalborg</li> <li>Denmark</li> </ul>',
-      awards: '',
-      technologies: [
-        'Data Analytics',
-        'Data Spaces',
-        'Digital Twins',
-        'Internet of Things',
-        'Open Data'
-      ],
-      domains: ['Air Quality', 'Cities'],
-      docs: [],
-      videos: [
-        [
-          'Video',
-          'https://cityflow.live/videos/CP2-cover-1080p-trimmed-transcode.mp4'
-        ]
-      ],
-      materials: [],
-      logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Montem.svg',
-      featuredImage:
-        'https://www.fiware.org/wp-content/marketplace/images/hero_montem_cityprobe.png',
-      furtherImages: ''
-    },
     'mobamobileautomation-mawisu2': {
       category: 'FIWARE-Ready',
       organisationName: 'MOBA MOBILE AUTOMATION',
@@ -9873,53 +9920,6 @@ var pageData = {
         'https://www.fiware.org/wp-content/marketplace/images/hero_edag_trive-park.png',
       furtherImages: ''
     },
-    'agricolus-agricolusecosystem': {
-      category: 'FIWARE-Ready',
-      organisationName: 'Agricolus',
-      productName: 'Agricolus Ecosystem',
-      organisationWebsite: 'https://www.agricolus.com/en/',
-      organisationEmail: 'mailto:discover@agricolus.com',
-      linkedIn: 'https://www.linkedin.com/company/agricoluss.r.l./',
-      twitter: 'https://twitter.com/AgricolusSuite/',
-      productWebsite: 'https://www.agricolus.com/en/solutions/',
-      excerpt:
-        'AGRICOLUS is a cloud applications ecosystem for precision farming with multiple purposes: disease awareness and forecasts, crop monitoring, decision support system for treatments and fertilizers, farm management, and end-to-end traceability bringing valuable information to final users.',
-      yearOfValidation: 2017,
-      description:
-        '<p>AGRICOLUS DECISION SUPPORT SYSTEM is a composition of several vertical products that leverage  a common architecture, that covers up to 70% of functionalities common to all the crops, and dedicated professional algorithms for disease forecasting and agricultural optimizations. Data are collected through satellites, drones, IoT, dedicated apps, and soon with our own plug&amp;play AgriPlug device that connects tractors and other Precision Farming Devices to AGRICOLUS SaaS cloud. We also provide AGRITRACK: an end-to-end tracking service that can bring information on good agronomic practices directly to the end-users to raise their awareness of the real value of the goods they are buying.</p> <p>AGRICOLUS is already on the market and multinational agroholding companies, medium-big farms, association of farmers and government are using it successfully.</p>',
-      challenge:
-        '<p>Today farmers face several challenges, we are mostly working on:</p> <p>International market competition with products coming from unruled countries that produce at a very low cost. The effect is a reduction of the profit due to the need of reducing final selling prices. For this reason, they have to reduce costs and increase quality at the same time. Climate change requires continuous adaptation of the best time to proceed with any agricultural operation (seeding, fertilizing, manuring, irrigating, harvesting, …). They need  real-time support to understand the right timing for these operations. AgriTech adoption is not an option but average usage in the EU is far below 10% versus 80% of North America and Australia: farmers need a way to integrate these technologies into daily tasks.</p>',
-      references:
-        '<p>Agro holding companies that want to standardize with AGRICOLUS good practices among their suppliers (farmers) Association of farmers that want to support their associates with better tools providing high value technologies Medium big farms that can reduce costs and have  better control, and an end-to-end traceability of the production Government in agricultural department that uses our product to raise farmers awareness on diseases and other agricultural treats</p>',
-      awards:
-        '<p>Other than the Accelerators we participated in, we are winners of: SEUA 2016 Italian Prizes (EBAN, IAG prizes), ( SpinUp Awards 2017 (Grand Jury Prize), FoodTech 2017 (Intesa San Paolo), ForumPA 10x10 finalist.</p>',
-      technologies: ['Sensory Systems'],
-      domains: ['AgriFood'],
-      docs: [],
-      videos: [['AgriPlug', 'https://www.youtube.com/watch?v=hVHW7QIJMd8']],
-      materials: [
-        [
-          'Press Review',
-          'https://www.agricolus.com/wp-content/uploads/2017/05/Agricolus_PressReview_7_2017.pdf'
-        ]
-      ],
-      logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Agricolus.svg',
-      featuredImage:
-        'https://www.fiware.org/wp-content/marketplace/images/hero_agricolus_agricolus-ecosystem.png',
-      furtherImages: '',
-      related: [
-        {
-          category: 'Powered by FIWARE',
-          featuredImage:
-            'https://www.fiware.org/wp-content/marketplace/images/hero_agricolus_agricolus-ecosystem.png',
-          excerpt:
-            'Agricolus is a cloud platform created to simplify and enhance the work in the field of farmers and professionals. It is composed of the main applications of precision agriculture:  from satellite imagery with vegetation indices to forecast models for irrigation, fertilization, pest and diseases.',
-          productName: 'Agricolus',
-          companyLink: './?category=powered&id=agricolus-agricolus'
-        }
-      ]
-    },
     'edagproductionsolutionsgmbhcokg-opensourcesmartcitydashboard': {
       category: 'FIWARE-Ready',
       organisationName: 'EDAG Production Solutions GmbH & Co. KG',
@@ -9959,9 +9959,9 @@ var pageData = {
         ]
       ],
       logo:
-        'https://www.fiware.org/wp-content/uploads/04b774d7747e6329e66cc9a7aa3cf96a.png',
+        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_EDAG.svg',
       featuredImage:
-        'https://www.fiware.org/wp-content/uploads/fab9a016fad7d1c8ee07486130bbd640.png',
+        'https://www.fiware.org/wp-content/marketplace/images/hero_edag_smart-city-dashboard.png',
       furtherImages: ''
     }
   },
@@ -10013,6 +10013,185 @@ var pageData = {
     }
   },
   services: {
+    'atos-connectedterritories': {
+      category: 'Services',
+      organisationName: 'Atos',
+      productName: 'Connected Territories',
+      organisationWebsite: '',
+      organisationEmail: 'mailto:de-info@atos.net',
+      linkedIn: 'https://www.linkedin.com/company/atos/',
+      twitter: 'https://twitter.com/atos',
+      productWebsite:
+        'https://atos.net/en/portfolio/boost-economic-development-and-citizen-quality-of-life',
+      excerpt:
+        'Atos, a leading digital services company and one of the founders of the initiative, has acquired deep knowledge of the FIWARE technologies and ecosystem.',
+      yearOfValidation: 2021,
+      description:
+        '<p><strong>Atos</strong> is a reliable provider of commercial services around FIWARE. Atos may provide a full end-to-end FIWARE experience based on our experience in developing, integrating, and exploiting assets powered by FIWARE.  As one of the largest worldwide IT integrators, Atos may also provide an end-to-end integration service allowing the connection of the sensors/devices layer to our References/Customers’ existing systems and applications. Beyond the use of FIWARE in Smart Cities, and taking advantage of Atos expertise in IoT technologies, Atos may also offer vertical applications based on FIWARE for different domains, such as Smart Mobility, Smart Buildings, or Smart Agrifood. And finally, the Atos extended experience in developing FIWARE applications is extremely valuable when delivering practical training about the platform, so coaching and training services are also in our portfolio.</p>',
+      challenge: '',
+      references:
+        '<p>Some cities in France, Spain, Netherlands, Argentina, USA, Germany, Belgium and Switzerland.</p>',
+      awards:
+        '<p>Atos named a Leader in Smart Cities in Europe by IDC MarketScape</p>',
+      technologies: ['Artificial Intelligence'],
+      domains: ['Cities', 'AgriFood'],
+      docs: [['Atos Tech Days', 'https://www.youtube.com/watch?v=2MF8ldQsYU8']],
+      videos: [
+        [
+          'Atos Spain Tweet',
+          'https://twitter.com/AtosES/status/804643300435226625'
+        ],
+        [
+          'Press Release',
+          'https://atos.net/en/2021/press-release_2021_02_09/leader-smart-cities-idc'
+        ]
+      ],
+      materials: [
+        [
+          'Deep Innovation Apps & Services from Open Data',
+          'https://www.esmartcity.es/2016/09/20/desarrollar-apps-y-servicios-innovadores-a-partir-de-datos-abiertos'
+        ],
+        [
+          'Malaga - Digitizing Smart-Fi Cities',
+          'http://www.elmundo.es/economia/2016/09/18/57ded87f46163f201b8b45c1.html'
+        ]
+      ],
+      logo:
+        'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Atos.svg',
+      featuredImage:
+        'https://www.fiware.org/wp-content/marketplace/images/hero_atos_connected-territories.png',
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_atos_urban-data-platform.png',
+          excerpt:
+            'UDP is the open, secure, and interoperable Atos standard data platform that allows the integration and collection of information from data sources, and the standardization and processing of that information to provide aggregated and intelligent views of raw data to facilitate decision-making.',
+          productName: 'Urban Data Platform',
+          companyLink: './?category=powered&id=atos-urbandataplatform'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_atos_masai.png',
+          excerpt:
+            'MASAI is an efficient data integration software for manufacturing systems allowing to collect data from a variety of IoT Devices in the manufacturing domain (Industry 4.0), that is not entirely covered by existing proprietary solutions.',
+          productName: 'MASAI',
+          companyLink: './?category=powered&id=atos-masai'
+        }
+      ]
+    },
+    'ballistix-ballistix': {
+      category: 'Support Services',
+      organisationName: 'BallistiX',
+      productName: 'BallistiX',
+      organisationWebsite: '',
+      organisationEmail: '',
+      linkedIn: 'https://www.linkedin.com/company/ballistix-digital/',
+      twitter: '',
+      productWebsite: 'https://www.ballistix.digital',
+      excerpt:
+        'We build proofs-of-concept, prototypes, and MVPs of web-based applications and love working with emerging technologies like blockchain, 3D printing, and Artificial Intelligence.',
+      yearOfValidation: 2019,
+      description:
+        '<p>We build proof-of-concepts, prototypes, and MVPs of web-based applications and love working with emerging technologies like blockchain, 3D printing, and Artificial Intelligence.</p> <p>We have extensive experience with FIWARE enablers and have -among other projects- built our first start-up on top of it. Through validation and iteration, our team of software engineers and product managers will build the right digital product together with you.</p> <p>Product / market fit is what we live and code for.</p>',
+      challenge: '',
+      references: '<p>Dimension4.xyz ORAL3D.eu</p>',
+      awards: '<p>FABulous 2016 Pitching Competition: Winner</p>',
+      technologies: ['Blockchain'],
+      domains: [
+        'Cities',
+        'AgriFood',
+        'Logistics',
+        'Industry',
+        'Ports',
+        'Retail',
+        'Home',
+        'Health'
+      ],
+      docs: [],
+      videos: [['Oral 3D Printing', 'https://oral3d.eu/']],
+      materials: [
+        ['3D Printing', 'https://3dprintingmaterialsconference.com/']
+      ],
+      logo:
+        'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_BallistixDigital.svg',
+      featuredImage:
+        'https://www.fiware.org/wp-content/marketplace/images/hero_ballistix_ballistix.png',
+      furtherImages: ''
+    },
+    'egm-designoffice': {
+      category: 'Services',
+      organisationName: 'EGM',
+      productName: 'Design office',
+      organisationWebsite: 'https://www.egm.io/en/egm-the-innovation-factory',
+      organisationEmail: '',
+      linkedIn: 'https://www.linkedin.com/company/easy-global-market/',
+      twitter: 'https://twitter.com/egm_sophia',
+      productWebsite: 'https://www.egm.io/en/engineering-and-integration',
+      excerpt:
+        'From idea (feasibility study, design, prototyping, industrialization and manufacturing)  to realization of your solution: a user-centered creation process. \nYou know your work we help you to optimize it!',
+      yearOfValidation: 2021,
+      description:
+        '<p><strong>EGM</strong> ensures the design of your solution taking into account your criteria of performance, price, quantities, standards, mechanical integration, optimization, the choice of technologies, and manufacturing methods with a user-centered creation process.</p> <p><strong>FEASABILITY STUDY</strong>  Our engineering design office offers you its expertise and know-how in electronics and embedded IoT to provide technical  expertise for your project. Based on your idea, EGM will identify the key development points and offer you the best solution to carry out your project.</p> <p><strong>DESIGN</strong>  We develop systems from scratch or  technological bricks. According to the technical specifications that we draft with you, we select the best  components taking into account the requirements of the project.</p> <p><strong>PROTOTYPING</strong>  The development involves the realization of an electronic prototype V1 which allows you  to validate together the functionalities and the concept of your product. Then, we proceed to the electronic prototype V2 which integrates the possible evolutions, or modifications seen previously.</p> <p><strong>INDUSTRIALIZATION AND MANUFACTURING</strong>  Thanks to our skills, we are able to calibrate, optimize costs and electronic card manufacturing processes. Whether for prototypes, small, medium, or large series, we offer production plans adapted to the objectives of our References/Customers. We are supporting organizations in deploying FIWARE architectures, starting from data ingestion up to data processing, with new NGSI-LD data models.</p>',
+      challenge: '',
+      references: '',
+      awards: '',
+      technologies: ['Internet of Things', 'Sensory Systems'],
+      domains: [
+        'Electronics',
+        'Measurement',
+        'Process Manufacturing',
+        'Telecommunication'
+      ],
+      docs: [],
+      videos: [],
+      materials: [],
+      logo:
+        'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_EGM.svg',
+      featuredImage:
+        'https://www.fiware.org/wp-content/marketplace/images/hero_egm_design-office.png',
+      furtherImages: '',
+      related: [
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_egm_carpool-parking.png',
+          excerpt:
+            'This camera allows us to count entries and exits in a carpool park and to determine whether the cars parked are indeed intended for carpooling. This device allows our clients to have tangible statistics on the occupation of a car park.',
+          productName: 'Carpool Parking',
+          companyLink: './?category=powered&id=egm-carpoolparking'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_saint-quentin_connected-canteens.png',
+          excerpt:
+            'This solution includes connected weighing scales under the bins to provide information on the weight of organic and non-organic waste from an individual and overall perspective. This solution allows canteens to raise awareness and help to adapt menus and quantities.',
+          productName: 'Connected Canteens',
+          companyLink: './?category=powered&id=egm-connectedcanteens'
+        },
+        {
+          category: 'Powered by FIWARE',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_egm_smart-irrigation.png',
+          excerpt:
+            'EGM offers a complete solution for determining the amount of water that can be saved on a green space and deploying the control solution in addition to an existing watering system to achieve the water savings in question. Our solution saved 35% of the water on the first deployment.',
+          productName: 'Smart Irrigation',
+          companyLink: './?category=powered&id=egm-smartirrigation'
+        },
+        {
+          category: 'FIWARE-Ready',
+          featuredImage:
+            'https://www.fiware.org/wp-content/marketplace/images/hero_egm_edgespot.png',
+          excerpt:
+            'The device EdgeSpot is a highly scalable hardware and software platform that takes you from concept to market by accelerating the proof-of-concept phases.',
+          productName: 'EdgeSpot',
+          companyLink: './?category=ready&id=egm-edgespot'
+        }
+      ]
+    },
     'eprosima-eprosima': {
       category: 'Services',
       organisationName: 'eProsima',
@@ -11483,185 +11662,6 @@ var pageData = {
             'Smartlamppost is a modular concept of a lamppost with bleeding edge technology, allowing municipalities to future-proof their smart city and Mobile Network Operators to cost-effectively deploy their 5G solution.',
           productName: 'Smartlamppost',
           companyLink: './?category=powered&id=ubiwhere-smartlamppost'
-        }
-      ]
-    },
-    'atos-connectedterritories': {
-      category: 'Services',
-      organisationName: 'Atos',
-      productName: 'Connected Territories',
-      organisationWebsite: '',
-      organisationEmail: 'mailto:de-info@atos.net',
-      linkedIn: 'https://www.linkedin.com/company/atos/',
-      twitter: 'https://twitter.com/atos',
-      productWebsite:
-        'https://atos.net/en/portfolio/boost-economic-development-and-citizen-quality-of-life',
-      excerpt:
-        'Atos, a leading digital services company and one of the founders of the initiative, has acquired deep knowledge of the FIWARE technologies and ecosystem.',
-      yearOfValidation: 2021,
-      description:
-        '<p><strong>Atos</strong> is a reliable provider of commercial services around FIWARE. Atos may provide a full end-to-end FIWARE experience based on our experience in developing, integrating, and exploiting assets powered by FIWARE.  As one of the largest worldwide IT integrators, Atos may also provide an end-to-end integration service allowing the connection of the sensors/devices layer to our References/Customers’ existing systems and applications. Beyond the use of FIWARE in Smart Cities, and taking advantage of Atos expertise in IoT technologies, Atos may also offer vertical applications based on FIWARE for different domains, such as Smart Mobility, Smart Buildings, or Smart Agrifood. And finally, the Atos extended experience in developing FIWARE applications is extremely valuable when delivering practical training about the platform, so coaching and training services are also in our portfolio.</p>',
-      challenge: '',
-      references:
-        '<p>Some cities in France, Spain, Netherlands, Argentina, USA, Germany, Belgium and Switzerland.</p>',
-      awards:
-        '<p>Atos named a Leader in Smart Cities in Europe by IDC MarketScape</p>',
-      technologies: ['Artificial Intelligence'],
-      domains: ['Cities', 'AgriFood'],
-      docs: [['Atos Tech Days', 'https://www.youtube.com/watch?v=2MF8ldQsYU8']],
-      videos: [
-        [
-          'Atos Spain Tweet',
-          'https://twitter.com/AtosES/status/804643300435226625'
-        ],
-        [
-          'Press Release',
-          'https://atos.net/en/2021/press-release_2021_02_09/leader-smart-cities-idc'
-        ]
-      ],
-      materials: [
-        [
-          'Deep Innovation Apps & Services from Open Data',
-          'https://www.esmartcity.es/2016/09/20/desarrollar-apps-y-servicios-innovadores-a-partir-de-datos-abiertos'
-        ],
-        [
-          'Malaga - Digitizing Smart-Fi Cities',
-          'http://www.elmundo.es/economia/2016/09/18/57ded87f46163f201b8b45c1.html'
-        ]
-      ],
-      logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Atos.svg',
-      featuredImage:
-        'https://www.fiware.org/wp-content/marketplace/images/hero_atos_connected-territories.png',
-      furtherImages: '',
-      related: [
-        {
-          category: 'Powered by FIWARE',
-          featuredImage:
-            'https://www.fiware.org/wp-content/marketplace/images/hero_atos_urban-data-platform.png',
-          excerpt:
-            'UDP is the open, secure, and interoperable Atos standard data platform that allows the integration and collection of information from data sources, and the standardization and processing of that information to provide aggregated and intelligent views of raw data to facilitate decision-making.',
-          productName: 'Urban Data Platform',
-          companyLink: './?category=powered&id=atos-urbandataplatform'
-        },
-        {
-          category: 'Powered by FIWARE',
-          featuredImage:
-            'https://www.fiware.org/wp-content/marketplace/images/hero_atos_masai.png',
-          excerpt:
-            'MASAI is an efficient data integration software for manufacturing systems allowing to collect data from a variety of IoT Devices in the manufacturing domain (Industry 4.0), that is not entirely covered by existing proprietary solutions.',
-          productName: 'MASAI',
-          companyLink: './?category=powered&id=atos-masai'
-        }
-      ]
-    },
-    'ballistix-ballistix': {
-      category: 'Support Services',
-      organisationName: 'BallistiX',
-      productName: 'BallistiX',
-      organisationWebsite: '',
-      organisationEmail: '',
-      linkedIn: 'https://www.linkedin.com/company/ballistix-digital/',
-      twitter: '',
-      productWebsite: 'https://www.ballistix.digital',
-      excerpt:
-        'We build proofs-of-concept, prototypes, and MVPs of web-based applications and love working with emerging technologies like blockchain, 3D printing, and Artificial Intelligence.',
-      yearOfValidation: 2019,
-      description:
-        '<p>We build proof-of-concepts, prototypes, and MVPs of web-based applications and love working with emerging technologies like blockchain, 3D printing, and Artificial Intelligence.</p> <p>We have extensive experience with FIWARE enablers and have -among other projects- built our first start-up on top of it. Through validation and iteration, our team of software engineers and product managers will build the right digital product together with you.</p> <p>Product / market fit is what we live and code for.</p>',
-      challenge: '',
-      references: '<p>Dimension4.xyz ORAL3D.eu</p>',
-      awards: '<p>FABulous 2016 Pitching Competition: Winner</p>',
-      technologies: ['Blockchain'],
-      domains: [
-        'Cities',
-        'AgriFood',
-        'Logistics',
-        'Industry',
-        'Ports',
-        'Retail',
-        'Home',
-        'Health'
-      ],
-      docs: [],
-      videos: [['Oral 3D Printing', 'https://oral3d.eu/']],
-      materials: [
-        ['3D Printing', 'https://3dprintingmaterialsconference.com/']
-      ],
-      logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_BallistixDigital.svg',
-      featuredImage:
-        'https://www.fiware.org/wp-content/marketplace/images/hero_ballistix_ballistix.png',
-      furtherImages: ''
-    },
-    'egm-designoffice': {
-      category: 'Services',
-      organisationName: 'EGM',
-      productName: 'Design office',
-      organisationWebsite: 'https://www.egm.io/en/egm-the-innovation-factory',
-      organisationEmail: '',
-      linkedIn: 'https://www.linkedin.com/company/easy-global-market/',
-      twitter: 'https://twitter.com/egm_sophia',
-      productWebsite: 'https://www.egm.io/en/engineering-and-integration',
-      excerpt:
-        'From idea (feasibility study, design, prototyping, industrialization and manufacturing)  to realization of your solution: a user-centered creation process. \nYou know your work we help you to optimize it!',
-      yearOfValidation: 2021,
-      description:
-        '<p><strong>EGM</strong> ensures the design of your solution taking into account your criteria of performance, price, quantities, standards, mechanical integration, optimization, the choice of technologies, and manufacturing methods with a user-centered creation process.</p> <p><strong>FEASABILITY STUDY</strong>  Our engineering design office offers you its expertise and know-how in electronics and embedded IoT to provide technical  expertise for your project. Based on your idea, EGM will identify the key development points and offer you the best solution to carry out your project.</p> <p><strong>DESIGN</strong>  We develop systems from scratch or  technological bricks. According to the technical specifications that we draft with you, we select the best  components taking into account the requirements of the project.</p> <p><strong>PROTOTYPING</strong>  The development involves the realization of an electronic prototype V1 which allows you  to validate together the functionalities and the concept of your product. Then, we proceed to the electronic prototype V2 which integrates the possible evolutions, or modifications seen previously.</p> <p><strong>INDUSTRIALIZATION AND MANUFACTURING</strong>  Thanks to our skills, we are able to calibrate, optimize costs and electronic card manufacturing processes. Whether for prototypes, small, medium, or large series, we offer production plans adapted to the objectives of our References/Customers. We are supporting organizations in deploying FIWARE architectures, starting from data ingestion up to data processing, with new NGSI-LD data models.</p>',
-      challenge: '',
-      references: '',
-      awards: '',
-      technologies: ['Internet of Things', 'Sensory Systems'],
-      domains: [
-        'Electronics',
-        'Measurement',
-        'Process Manufacturing',
-        'Telecommunication'
-      ],
-      docs: [],
-      videos: [],
-      materials: [],
-      logo:
-        'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_EGM.svg',
-      featuredImage:
-        'https://www.fiware.org/wp-content/marketplace/images/hero_egm_design-office.png',
-      furtherImages: '',
-      related: [
-        {
-          category: 'Powered by FIWARE',
-          featuredImage:
-            'https://www.fiware.org/wp-content/marketplace/images/hero_egm_carpool-parking.png',
-          excerpt:
-            'This camera allows us to count entries and exits in a carpool park and to determine whether the cars parked are indeed intended for carpooling. This device allows our clients to have tangible statistics on the occupation of a car park.',
-          productName: 'Carpool Parking',
-          companyLink: './?category=powered&id=egm-carpoolparking'
-        },
-        {
-          category: 'Powered by FIWARE',
-          featuredImage:
-            'https://www.fiware.org/wp-content/marketplace/images/hero_saint-quentin_connected-canteens.png',
-          excerpt:
-            'This solution includes connected weighing scales under the bins to provide information on the weight of organic and non-organic waste from an individual and overall perspective. This solution allows canteens to raise awareness and help to adapt menus and quantities.',
-          productName: 'Connected Canteens',
-          companyLink: './?category=powered&id=egm-connectedcanteens'
-        },
-        {
-          category: 'Powered by FIWARE',
-          featuredImage:
-            'https://www.fiware.org/wp-content/marketplace/images/hero_egm_smart-irrigation.png',
-          excerpt:
-            'EGM offers a complete solution for determining the amount of water that can be saved on a green space and deploying the control solution in addition to an existing watering system to achieve the water savings in question. Our solution saved 35% of the water on the first deployment.',
-          productName: 'Smart Irrigation',
-          companyLink: './?category=powered&id=egm-smartirrigation'
-        },
-        {
-          category: 'FIWARE-Ready',
-          featuredImage:
-            'https://www.fiware.org/wp-content/marketplace/images/hero_egm_edgespot.png',
-          excerpt:
-            'The device EdgeSpot is a highly scalable hardware and software platform that takes you from concept to market by accelerating the proof-of-concept phases.',
-          productName: 'EdgeSpot',
-          companyLink: './?category=ready&id=egm-edgespot'
         }
       ]
     }

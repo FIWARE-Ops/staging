@@ -237,8 +237,8 @@ function extractFeatured(summaryInfo) {
   const featured = [
     ...summaryInfo.powered.slice(-4),
     ...summaryInfo.ready.slice(-4)
- //   ...summaryInfo.services.slice(-2),
- //   ...summaryInfo.cities.slice(-2)
+    //   ...summaryInfo.services.slice(-2),
+    //   ...summaryInfo.cities.slice(-2)
   ];
 
   featured.forEach(item => {
