@@ -1,5 +1,21 @@
 var pageData = [
   {
+    company: 'Agricolus',
+    name: 'Agricolus Ecosystem',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Agricolus.svg',
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink:
+      '../product-details/?category=ready&id=agricolus-agricolusecosystem',
+    domain: ['AgriFood'],
+    type: 'IoT Device',
+    technology: ['Sensory Systems'],
+    year: 2017,
+    content:
+      'AGRICOLUS is a cloud applications ecosystem for precision farming with multiple purposes: disease awareness and forecasts, crop monitoring, decision support system for treatments and fertilizers, farm management, and end-to-end traceability bringing valuable information to final users.'
+  },
+  {
     company: 'Axion',
     name: 'Traxion',
     img:
@@ -585,6 +601,27 @@ var pageData = [
       'Waspmote hardware architecture has been specially designed to work with extremely low consumption. Digital switches allow to turn on and off any of the sensor interfaces as well as the radio modules.'
   },
   {
+    company: 'MONTEM A/S',
+    name: 'CityProbe 2',
+    img:
+      'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Montem.svg',
+    fiwareMember: false,
+    fiwareIhub: false,
+    companyLink: '../product-details/?category=ready&id=montemas-cityprobe2',
+    domain: ['Air Quality', 'Cities'],
+    type: 'IoT Device',
+    technology: [
+      'Data Analytics',
+      'Data Spaces',
+      'Digital Twins',
+      'Internet of Things',
+      'Open Data'
+    ],
+    year: 2022,
+    content:
+      "CityProbe 2 is the fabric of the intelligent city. The unit measures urban environmental parameters such as noise levels particulate matter pollution temperature etc. - using its' built-in GPS the CityProbe 2 takes a snapshot and transmits the status of the environment in real-time."
+  },
+  {
     company: 'Odin Solutions',
     name: 'IPex 04 Datalogger',
     img:
@@ -1046,27 +1083,6 @@ var pageData = [
       'Xapix is significantly faster, more flexible, and more powerful than traditional approaches to data transformation, normalization, and integration, using the power of automation so that IT professionals can use data from hundreds of sources instead of only a few'
   },
   {
-    company: 'MONTEM A/S',
-    name: 'CityProbe 2',
-    img:
-      'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Montem.svg',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink: '../product-details/?category=ready&id=montemas-cityprobe2',
-    domain: ['Air Quality', 'Cities'],
-    type: 'IoT Device',
-    technology: [
-      'Data Analytics',
-      'Data Spaces',
-      'Digital Twins',
-      'Internet of Things',
-      'Open Data'
-    ],
-    year: 2022,
-    content:
-      "CityProbe 2 is the fabric of the intelligent city. The unit measures urban environmental parameters such as noise levels particulate matter pollution temperature etc. - using its' built-in GPS the CityProbe 2 takes a snapshot and transmits the status of the environment in real-time."
-  },
-  {
     company: 'MOBA MOBILE AUTOMATION',
     name: 'MAWIS U2',
     img:
@@ -1129,22 +1145,6 @@ var pageData = [
     year: 2022,
     content:
       'Development of an integrated digital system to transform car parks into intelligent mobility hubs. Apart from digitalising “classic” parking management, this also makes it possible for other services such as AVP or e-charging to be managed via one platform.'
-  },
-  {
-    company: 'Agricolus',
-    name: 'Agricolus Ecosystem',
-    img:
-      'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Agricolus.svg',
-    fiwareMember: false,
-    fiwareIhub: false,
-    companyLink:
-      '../product-details/?category=ready&id=agricolus-agricolusecosystem',
-    domain: ['AgriFood'],
-    type: 'IoT Device',
-    technology: ['Sensory Systems'],
-    year: 2017,
-    content:
-      'AGRICOLUS is a cloud applications ecosystem for precision farming with multiple purposes: disease awareness and forecasts, crop monitoring, decision support system for treatments and fertilizers, farm management, and end-to-end traceability bringing valuable information to final users.'
   },
   {
     company: 'EDAG Production Solutions GmbH & Co. KG',
