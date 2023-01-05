@@ -980,7 +980,8 @@ var pageData = [
       'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Profirator.svg',
     fiwareMember: true,
     fiwareIhub: false,
-    companyLink: 'https://profirator.fi/product-and-pricing/',
+    companyLink:
+      '../product-details/?category=powered&id=profirator-lakesprofispace',
     domain: ['Cities'],
     type: 'Platform',
     technology: ['Internet of Things'],
