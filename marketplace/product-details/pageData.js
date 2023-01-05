@@ -2418,9 +2418,10 @@ var pageData = {
         'https://www.fiware.org/wp-content/marketplace/images/hero_phoops_muv-app.png',
       furtherImages: ''
     },
-    'profirator-lakesprofispace': {
+    'smartcityplatformsarecomplicatedtechnicalconstructsourgoalistomakesmartcitiesasapproachableaspossibleifyouareinterestedintryingoutaplatformithasbeenchallenginginthepastlakesprofispaceoffersfastandeasyaccesstoafiwarebasedsmartcityiotplatformwithouttenderingandlengthytechnicalsetupsexperthelpisavailableviaourchatsupporthttpslakessupportchatprofiratorfichannelgeneralanddocumentationwithtutorialvideosgivesyouagoodgraspofthepossibilitieswecanarrangeanonlinemeetingtosupportandunderstandanyspecificrequirementsyoumayhavebytryingandusinglakesprofispacethereisnoneedtoworryaboutbudgetsandtimelinesittakesonlyafewminutestosignupandgetsexploringtheplatformrunsonthesamebasicsaswehavedeployedtoourcustomersandinadditionwerelyongitlabandkubernetestoensureeverythingrunssmoothly-lakesprofispace': {
       category: 'Powered by FIWARE',
-      organisationName: 'Profirator',
+      organisationName:
+        'Smart city platforms are complicated technical constructs. Our goal is to make smart cities as approachable as possible. If you are interested in trying out a platform, it has been challenging in the past. lakes.profi.space offers fast and easy access to a FIWARE-based Smart City IoT platform without tendering and lengthy technical setups. \nExpert help is available via our chat support (https://lakes-support-chat.profirator.fi/channel/general), and Documentation with tutorial videos gives you a good grasp of the possibilities. We can arrange an online meeting to support and understand any specific requirements you may have. By trying and using lakes.profi.space, there is no need to worry about budgets and timelines. It takes only a few minutes to sign-up and gets exploring. \nThe platform runs on the same basics as we have deployed to our customers, and in addition, we rely on Gitlab and Kubernetes to ensure everything runs smoothly.',
       productName: 'lakes.profi.space',
       organisationWebsite: 'https://profirator.fi/',
       organisationEmail: 'mailto:info@profirator.fi',
