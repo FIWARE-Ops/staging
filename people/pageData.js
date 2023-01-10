@@ -48,7 +48,6 @@ var modalData = [
     position: 'Data Modeling Expert &amp; Evangelist',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
-    content: '',
     linkedin: 'https://www.linkedin.com/in/albertoabella/',
     twitter: 'https://twitter.com/aabella',
     domain: 'Smart Energy',
@@ -65,7 +64,6 @@ var modalData = [
       'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.',
     linkedin: 'https://de.linkedin.com/in/ahlefiware',
     twitter: 'https://twitter.com/UlrichAhle',
-    domain: '',
     location: 'Germany'
   },
   {
@@ -75,10 +73,6 @@ var modalData = [
     position: 'Marketing Manager',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
-    content: '',
-    linkedin: '',
-    twitter: '',
-    domain: '',
     location: 'Germany'
   },
   {
@@ -88,9 +82,7 @@ var modalData = [
     position: 'FIWARE Solution Architect',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
-    content: '',
     linkedin: 'https://www.linkedin.com/in/gernot-boege-4204a2226/',
-    twitter: '',
     domain: 'Smart AgriFood',
     location: 'Germany'
   },
@@ -104,8 +96,6 @@ var modalData = [
     content:
       'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.',
     linkedin: 'https://www.linkedin.com/in/brandtstetter',
-    twitter: '',
-    domain: '',
     location: 'Germany'
   },
   {
@@ -115,10 +105,6 @@ var modalData = [
     position: 'Senior Technical Expert &amp; Evangelist',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
-    content: '',
-    linkedin: '',
-    twitter: '',
-    domain: '',
     location: 'France'
   },
   {
@@ -128,11 +114,9 @@ var modalData = [
     position: 'Cloud &amp; Platform Expert',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
-    content: '',
     linkedin:
       'https://www.linkedin.com/in/jos%C3%A9-ignacio-carretero-guarde-789622ab/',
     twitter: 'https://twitter.com/jicarreterogu',
-    domain: '',
     location: 'Spain'
   },
   {
@@ -142,10 +126,8 @@ var modalData = [
     position: 'Senior Architect',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
-    content: '',
     linkedin: 'https://linkedin.com/in/challagonda',
     twitter: 'https://twitter.com/challagonda',
-    domain: '',
     location: 'Finland'
   },
   {
@@ -155,10 +137,7 @@ var modalData = [
     position: 'PR Manager',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
-    content: '',
     linkedin: 'https://www.linkedin.com/in/kseniia-chernikova-184553211/',
-    twitter: '',
-    domain: '',
     location: 'Germany'
   },
   {
@@ -168,10 +147,8 @@ var modalData = [
     position: 'Design Manager',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
-    content: '',
     linkedin: 'https://www.linkedin.com/in/giacomodepanfilis/',
     twitter: 'https://twitter.com/_gdepa',
-    domain: '',
     location: 'Italy'
   },
   {
@@ -185,7 +162,6 @@ var modalData = [
       'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.',
     linkedin: 'https://www.linkedin.com/in/stefano-de-panfilis-1928a11/',
     twitter: 'https://twitter.com/depa01',
-    domain: '',
     location: 'Germany'
   },
   {
@@ -195,10 +171,7 @@ var modalData = [
     position: 'Marketing &amp; Product Manager',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
-    content: '',
     linkedin: 'https://www.linkedin.com/in/hendrik-engel-3253a1197/',
-    twitter: '',
-    domain: '',
     location: 'Germany'
   },
   {
@@ -208,10 +181,6 @@ var modalData = [
     position: 'Administrational Assistant',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
-    content: '',
-    linkedin: '',
-    twitter: '',
-    domain: '',
     location: 'Germany'
   },
   {
@@ -221,10 +190,7 @@ var modalData = [
     position: 'Senior Technical Expert &amp; Evangelist',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
-    content: '',
     linkedin: 'https://www.linkedin.com/in/jason-fox-8a79563/',
-    twitter: '',
-    domain: '',
     location: 'Germany'
   },
   {
@@ -234,10 +200,7 @@ var modalData = [
     position: 'Working Student',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
-    content: '',
     linkedin: 'https://www.linkedin.com/in/lucca-moreira-giusti-0648b816b/',
-    twitter: '',
-    domain: '',
     location: 'Germany'
   },
   {
@@ -251,7 +214,6 @@ var modalData = [
       'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.',
     linkedin: 'https://www.linkedin.com/in/jhierro/',
     twitter: 'https://twitter.com/JuanjoHierro',
-    domain: '',
     location: 'Germany'
   },
   {
@@ -261,10 +223,7 @@ var modalData = [
     position: 'Marketing &amp; Outreach Manager',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
-    content: '',
     linkedin: 'https://www.linkedin.com/in/anastasiia-holub-9b50b994/',
-    twitter: '',
-    domain: '',
     location: 'Germany'
   },
   {
@@ -274,10 +233,6 @@ var modalData = [
     position: 'Assistant to the BOO',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
-    content: '',
-    linkedin: '',
-    twitter: '',
-    domain: '',
     location: 'Germany'
   },
   {
@@ -287,10 +242,8 @@ var modalData = [
     position: 'Community Manager',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
-    content: '',
     linkedin: 'https://de.linkedin.com/in/charlottekotterman',
     twitter: 'https://twitter.com/char_kotterman',
-    domain: '',
     location: 'Germany'
   },
   {
@@ -300,10 +253,7 @@ var modalData = [
     position: 'Marketing Manager',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
-    content: '',
     linkedin: 'https://www.linkedin.com/in/korneev-oleg-projectmanager',
-    twitter: '',
-    domain: '',
     location: 'Germany'
   },
   {
@@ -313,10 +263,7 @@ var modalData = [
     position: 'Working Student',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
-    content: '',
     linkedin: 'https://www.linkedin.com/in/yuzhen-li-b242421a4/',
-    twitter: '',
-    domain: '',
     location: 'Germany'
   },
   {
@@ -326,7 +273,6 @@ var modalData = [
     position: 'Cloud &amp; Platform Expert',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
-    content: '',
     linkedin: 'https://www.linkedin.com/in/fernandolopezaguilar/',
     twitter: 'https://twitter.com/flopezaguilar',
     domain: 'Smart Water',
@@ -339,9 +285,7 @@ var modalData = [
     position: 'Technical Expert &amp; Evangelist',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
-    content: '',
     linkedin: 'https://www.linkedin.com/in/franmelfer/',
-    twitter: '',
     domain: 'Smart Industry',
     location: 'Spain'
   },
@@ -352,10 +296,7 @@ var modalData = [
     position: 'Working Student',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
-    content: '',
     linkedin: 'https://www.linkedin.com/in/xhulja-melyshi-273b66211/',
-    twitter: '',
-    domain: '',
     location: 'Germany'
   },
   {
@@ -365,10 +306,7 @@ var modalData = [
     position: 'Vice President Funded Programs',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
-    content: '',
     linkedin: 'https://www.linkedin.com/in/clara-pezuela-2b1257/',
-    twitter: '',
-    domain: '',
     location: 'Spain'
   },
   {
@@ -378,10 +316,6 @@ var modalData = [
     position: 'Senior Consultant',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
-    content: '',
-    linkedin: '',
-    twitter: '',
-    domain: '',
     location: 'Spain'
   },
   {
@@ -391,10 +325,7 @@ var modalData = [
     position: 'Senior Marketing &amp; Project Manager',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
-    content: '',
     linkedin: 'https://www.linkedin.com/in/tonia-sapia-a171bb63/',
-    twitter: '',
-    domain: '',
     location: 'Italy'
   },
   {
@@ -404,11 +335,8 @@ var modalData = [
     position: 'Project Manager',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
-    content: '',
     linkedin:
       'https://www.linkedin.com/in/%C3%A1ngeles-tejado-s%C3%A1nchez-2a61b411/',
-    twitter: '',
-    domain: '',
     location: 'Spain'
   },
   {
@@ -418,10 +346,7 @@ var modalData = [
     position: 'Senior Business Development Manager',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
-    content: '',
     linkedin: 'https://de.linkedin.com/in/karenvega',
-    twitter: '',
-    domain: '',
     location: 'Peru'
   },
   {
@@ -431,9 +356,7 @@ var modalData = [
     position: 'Technical Lead &amp; Architect',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
-    content: '',
     linkedin: 'https://www.linkedin.com/in/dennis-wendland/',
-    twitter: '',
     domain: 'Smart Cities',
     location: 'Germany'
   },
@@ -444,10 +367,7 @@ var modalData = [
     position: 'Technical Lead &amp; Architect',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
-    content: '',
     linkedin: 'https://www.linkedin.com/in/stefan-wiedemann-37a0ba13a/',
-    twitter: '',
-    domain: '',
     location: 'Germany'
   },
   {
@@ -457,10 +377,7 @@ var modalData = [
     position: 'Senior Technical Expert &amp; Evangelist',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
-    content: '',
     linkedin: 'https://www.linkedin.com/in/kzangeli/',
-    twitter: '',
-    domain: '',
     location: 'Spain'
   },
   {
@@ -470,10 +387,7 @@ var modalData = [
     position: 'Working Student',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
-    content: '',
     linkedin: 'https://www.linkedin.com/in/rosemah-zia-a04237108/',
-    twitter: '',
-    domain: '',
     location: 'Germany'
   }
 ];

@@ -13,7 +13,9 @@
     <select name="" id="filterType">
     <option value="*">All Chapters</option>
     {{#each types}}
-        <option value="{{createClass this}}">{{this}}</option>
+        {{#if (ne this "")}}
+            <option value="{{createClass this}}">{{this}}</option>
+        {{/if}}
     {{/each}}
     </select>
 </div>
@@ -22,7 +24,9 @@
     <select name="" id="filterDomain">
         <option value="*">All Audiences</option>
         {{#each domains}}
-            <option value="{{createClass this}}">{{this}}</option>
+            {{#if (ne this "")}}
+                <option value="{{createClass this}}">{{this}}</option>
+            {{/if}}
         {{/each}}
     </select>
 </div>
@@ -31,7 +35,9 @@
     <select name="" id="filterTechnology">
         <option value="*">All Keywords</option>
          {{#each technologies}}
-            <option value="{{createClass this}}">{{this}}</option>
+            {{#if (ne this "")}}
+                <option value="{{createClass this}}">{{this}}</option>
+            {{/if}}
         {{/each}}
     </select>
 </div>

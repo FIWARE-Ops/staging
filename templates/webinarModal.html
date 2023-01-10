@@ -1,16 +1,22 @@
 var types = [
   {{#each types}}
-    '{{this}}',
+    {{#if (ne this "")}}
+      '{{this}}',
+    {{/if}}
   {{/each}}
 ];
 var domains = [
   {{#each domains}}
-   '{{this}}',
+    {{#if (ne this "")}}
+     '{{this}}',
+    {{/if}}
   {{/each}}
 ];
 var technologies = [
   {{#each technologies}}
-   '{{this}}',
+    {{#if (ne this "")}}
+      '{{this}}',
+    {{/if}}
   {{/each}}
 ];
 
