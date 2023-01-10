@@ -45,9 +45,14 @@ function extractPeople(input) {
       twitter: item['Twitter'],
       department: item['Department'],
       country: item['Country'],
-      flag: item['Country flag']
+      flag: item['Country flag'],
+      filters: Parser.splitStrings(item['Keyword Job Title Filters']),
+      publish: Parser.boolean(item['Published'])
     };
-    people.push(person);
+
+    if (person.publish) {
+      people.push(person);
+    }
   });
 
   return people;

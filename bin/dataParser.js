@@ -86,8 +86,13 @@ function splitStrings(input) {
   return arr;
 }
 
+function boolean(input) {
+  return input && input.toLowerCase() === 'true';
+}
+
 exports.getLinkArray = getLinkArray;
 exports.markdown = markdown;
 exports.getCategory = getCategory;
 exports.getHash = getHash;
 exports.splitStrings = splitStrings;
+exports.boolean = boolean;
