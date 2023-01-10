@@ -487,6 +487,7 @@
 .tingle-modal a {
     color: #002e67;
     text-decoration: underline;
+    font-size: .9em;
     line-height: 1.4em;
 }
 
@@ -1008,7 +1009,7 @@
     max-width: 1184px;
     margin: 0 auto;
     border-top: 1px solid #aaa;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .filters-container:not(.active) {
