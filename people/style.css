@@ -470,7 +470,7 @@
   background-color: #00D7A6; */
 }
 
-.tingle-modal img {
+.tingle-modal img.headshot {
     vertical-align: middle;
     width: 120px;
     height: 120px;
@@ -863,7 +863,7 @@
         width: 100%;
     }
 
-    .tingle-modal img {
+    .tingle-modal img.headshot {
         display: none;
     }
 
