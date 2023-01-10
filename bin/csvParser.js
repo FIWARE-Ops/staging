@@ -38,6 +38,7 @@ function extractPeople(input) {
       name: item['Name Surname'],
       img: item['Profile Picture'],
       company: item['Company'],
+      domain: item['Domain'],
       website: item['Company website'],
       job: item['Job title'],
       bio: item['Bio'] ? item['Bio'].replaceAll(/[\n\r]+/g, ' ') : '',
