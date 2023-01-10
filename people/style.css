@@ -551,13 +551,17 @@
     margin-right: 10px;
 }
 
-.social-modal p.domain {
-
-  background-color: #E37B6B;
-  border-radius: 16px;
-  padding: 5px 15px;
-  font-size: .9em;
-  margin-right:0px;
+.tags-modal p.domain {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1em;
+  color: #5dc0cf;
+  background-color: #e5f5f7;
+  position: relative;
+  border-radius: 20px 20px 20px 20px;
+  overflow: hidden;
+  padding: 6px 12px 8px;
+  display: inline-block;
 }
 
 .tags-modal p.location {
