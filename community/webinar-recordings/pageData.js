@@ -1,5 +1,4 @@
 var types = [
-  '',
   'Core Context',
   'Cross-Chapter',
   'Data Monetization',
