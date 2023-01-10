@@ -5,7 +5,14 @@ var departments = [
   'Operations Team',
   'Tech Team'
 ];
-var domains = [''];
+var domains = [
+  '',
+  'Smart AgriFood',
+  'Smart Cities',
+  'Smart Energy',
+  'Smart Industry',
+  'Smart Water'
+];
 var titles = [
   'Administrational Assistant',
   'Architect',
@@ -46,7 +53,7 @@ var modalData = [
     content: '',
     linkedin: 'https://www.linkedin.com/in/albertoabella/',
     twitter: 'https://twitter.com/aabella',
-    domain: '',
+    domain: 'Smart Energy',
     location: 'Spain'
   },
   {
@@ -86,7 +93,7 @@ var modalData = [
     content: '',
     linkedin: 'https://www.linkedin.com/in/gernot-boege-4204a2226/',
     twitter: '',
-    domain: '',
+    domain: 'Smart AgriFood',
     location: 'Germany'
   },
   {
@@ -324,7 +331,7 @@ var modalData = [
     content: '',
     linkedin: 'https://www.linkedin.com/in/fernandolopezaguilar/',
     twitter: 'https://twitter.com/flopezaguilar',
-    domain: '',
+    domain: 'Smart Water',
     location: 'Germany'
   },
   {
@@ -337,7 +344,7 @@ var modalData = [
     content: '',
     linkedin: 'https://www.linkedin.com/in/franmelfer/',
     twitter: '',
-    domain: '',
+    domain: 'Smart Industry',
     location: 'Spain'
   },
   {
@@ -429,7 +436,7 @@ var modalData = [
     content: '',
     linkedin: 'https://www.linkedin.com/in/dennis-wendland/',
     twitter: '',
-    domain: '',
+    domain: 'Smart Cities',
     location: 'Germany'
   },
   {
