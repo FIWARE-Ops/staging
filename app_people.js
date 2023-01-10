@@ -220,24 +220,24 @@ function createModalContent(tingleModalData) {
   modalHtml += "<div class='details-modal'>";
   modalHtml += "<div class='social-modal'>";
 
-  if (tingleModalData.twitter != null) {
+  if (tingleModalData.twitter) {
     modalHtml +=
       '<a class="twitter-link" href="' +
       tingleModalData["twitter"] +
       '" target="_blank"></a>';
   }
-  if (tingleModalData.linkedin != null) {
+  if (tingleModalData.linkedin) {
     modalHtml +=
       '<a class="linkedin-link" href="' +
       tingleModalData["linkedin"] +
       '" target="_blank"></a>';
   }
-  if (tingleModalData.domain != "null") {
-    modalHtml += '<p class="domain">' + tingleModalData.domain + "</p>";
-  }
   modalHtml += "</div>";
   modalHtml += "<div class='tags-modal'>";
-  if (tingleModalData.location != "null") {
+  if (tingleModalData.domain) {
+    modalHtml += '<p class="domain">' + tingleModalData.domain + "</p>";
+  }
+  if (tingleModalData.location) {
     modalHtml += '<p class="location">' + tingleModalData.location + "</p>";
   }
 
