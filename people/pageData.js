@@ -6,7 +6,6 @@ var departments = [
   'Tech Team'
 ];
 var domains = [
-  '',
   'Smart AgriFood',
   'Smart Cities',
   'Smart Energy',
@@ -41,7 +40,6 @@ var titles = [
   'Working Student'
 ];
 var countries = ['Finland', 'France', 'Germany', 'Italy', 'Peru', 'Spain'];
-
 var modalData = [
   {
     name: 'Alberto Abella',

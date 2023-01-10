@@ -15,6 +15,22 @@ const CATEGORIES = ['powered', 'ready', 'services', 'cities'];
 const PROCESS = process.env.PROCESS || 'products';
 
 const _ = require('underscore');
+
+Handlebars.registerHelper({
+  eq: (v1, v2) => v1 === v2,
+  ne: (v1, v2) => v1 !== v2,
+  lt: (v1, v2) => v1 < v2,
+  gt: (v1, v2) => v1 > v2,
+  lte: (v1, v2) => v1 <= v2,
+  gte: (v1, v2) => v1 >= v2,
+  and() {
+    return Array.prototype.every.call(arguments, Boolean);
+  },
+  or() {
+    return Array.prototype.slice.call(arguments, 0, -1).some(Boolean);
+  }
+});
+
 let productDetails;
 
 const caseInsensitive = function(i) {
@@ -70,12 +86,14 @@ function rating(difficulty) {
   return result;
 }
 
+Handlebars.registerHelper('createClass', createClass);
+Handlebars.registerHelper('rating', rating);
+
 function writeTemplate(filename, template, input) {
   readTemplate(template, function(err, data) {
     if (!err) {
       const template = Handlebars.compile(data);
-      Handlebars.registerHelper('createClass', createClass);
-      Handlebars.registerHelper('rating', rating);
+
       const output = template(input);
       fs.writeFile(filename, output, function(err) {
         if (err) return console.log(err);
