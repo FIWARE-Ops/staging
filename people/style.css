@@ -34,7 +34,7 @@
 
 .grid-item {
     width: calc(25% - 24px);
-    margin: 0 8px 30px !important;
+    margin: 0 24px 24px !important;
 }
 
 .f-cat {
