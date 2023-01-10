@@ -445,7 +445,7 @@
 }
 
 .tingle-modal--visible {
-    z-index: 99999;
+    z-index: 999999;
 }
 
 .tingle-modal__close {
