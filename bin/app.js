@@ -303,10 +303,20 @@ if (PROCESS.startsWith('people')) {
         companies: sortData(people, 'company'),
         departments: sortData(people, 'department'),
         domains: sortData(people, 'domain'),
-        titles: sortData(people, 'job'),
+        filters: [],
         countries: sortData(people, 'country'),
         people
       };
+
+      const filters = [];
+      people.forEach(person => {
+        person.filters.forEach(filter => {
+          filters.push(filter);
+        });
+      });
+
+      filterData.filters = _.sortBy(_.uniq(filters), caseInsensitive);
+
       writeTemplate('people/people.html', 'people.html', people);
       writeTemplate('people/pageData.js', 'peopleModal.html', filterData);
       writeTemplate('people/filters.html', 'peopleFilter.html', filterData);
