@@ -880,18 +880,16 @@
     }
 
     .tags-modal {
-        display: none;
-        /* display: inline-block; */
+        display: inline-block;
         padding: 20px 0 0 0;
     }
 
     .tags-modal p.location {
-        display: none;
-        /*display: flex;
-    flex-direction: row;
-    margin-bottom: 0px;
-    margin-right: 20px;
-    padding-top: 0px; */
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 0px;
+        margin-right: 20px;
+        padding-top: 0px; 
     }
 
     .tags-modal .location:before {
