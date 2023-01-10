@@ -552,20 +552,19 @@
 }
 
 .social-modal p.domain {
-    display: none;
-    /* background-color: #E37B6B;
+
+  background-color: #E37B6B;
   border-radius: 16px;
   padding: 5px 15px;
   font-size: .9em;
-  margin-right:0px; */
+  margin-right:0px;
 }
 
 .tags-modal p.location {
-    display: none;
-    /* display: flex;
+    display: flex;
     font-size: .9em;
     flex-direction: row;
-    padding-top: 5px; */
+    padding-top: 5px;
 }
 
 .tags-modal .location:before {
