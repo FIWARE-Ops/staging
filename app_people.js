@@ -194,15 +194,15 @@ function createModalContent(tingleModalData) {
   console.warn(tingleModalData);
 
   modalHtml += "<div class='info-modal'>";
-  modalHtml += '<img src="' + tingleModalData.img + '" />';
+  modalHtml += '<img class="headshot" src="' + tingleModalData.img + '" />';
   modalHtml += "<div class='credits-modal'>";
-  if (tingleModalData.name != "null") {
+  if (tingleModalData.name !== '') {
     modalHtml += "<h1>" + tingleModalData.name + "</h1>";
   }
-  if (tingleModalData.position != "null") {
+  if (tingleModalData.position !== '') {
     modalHtml += "<h2>" + tingleModalData.position + "</h2>";
   }
-  if (tingleModalData.company != "null") {
+  if (tingleModalData.company !== '') {
     modalHtml +=
       '<a class="company-link" href="' +
       tingleModalData["company-link"] +
@@ -213,34 +213,37 @@ function createModalContent(tingleModalData) {
   modalHtml += "</div>";
   modalHtml += "</div>";
   modalHtml += "<div class='bio-modal'>";
-  if (tingleModalData.content != "null") {
+  if (tingleModalData.content !== '') {
     modalHtml += "<p>" + tingleModalData.content + "</p>";
   }
   modalHtml += "</div>";
   modalHtml += "<div class='details-modal'>";
   modalHtml += "<div class='social-modal'>";
 
-  if (tingleModalData.twitter) {
+  if (tingleModalData.twitter !== '') {
     modalHtml +=
       '<a class="twitter-link" href="' +
       tingleModalData["twitter"] +
       '" target="_blank"></a>';
   }
-  if (tingleModalData.linkedin) {
+  if (tingleModalData.linkedin !== '') {
     modalHtml +=
       '<a class="linkedin-link" href="' +
       tingleModalData["linkedin"] +
       '" target="_blank"></a>';
+  }
+  if (tingleModalData.flag !== '') {
+    modalHtml += `<img class="flag"  src="${tingleModalData.flag}"/>`;
   }
   modalHtml += "</div>";
   modalHtml += "<div class='tags-modal'>";
   if (tingleModalData.domain) {
     modalHtml += '<p class="domain">' + tingleModalData.domain + "</p>";
   }
+  /*
   if (tingleModalData.location) {
     modalHtml += '<p class="location">' + tingleModalData.location + "</p>";
-  }
-
+  }*/
   modalHtml += "</div>";
 
   return modalHtml;
