@@ -52,7 +52,9 @@ var modalData = [
     linkedin: 'https://www.linkedin.com/in/albertoabella/',
     twitter: 'https://twitter.com/aabella',
     domain: 'Smart Energy',
-    location: 'Spain'
+    location: 'Spain',
+    flag:
+      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png'
   },
   {
     name: 'Ulrich Ahle',
@@ -66,7 +68,9 @@ var modalData = [
     linkedin: 'https://de.linkedin.com/in/ahlefiware',
     twitter: 'https://twitter.com/UlrichAhle',
     domain: 'Smart AgriFood',
-    location: 'Germany'
+    location: 'Germany',
+    flag:
+      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png'
   },
   {
     name: 'Vera Böhner',
@@ -79,7 +83,9 @@ var modalData = [
     linkedin: '',
     twitter: '',
     domain: '',
-    location: 'Germany'
+    location: 'Germany',
+    flag:
+      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png'
   },
   {
     name: 'Gernot Böge',
@@ -92,7 +98,9 @@ var modalData = [
     linkedin: 'https://www.linkedin.com/in/gernot-boege-4204a2226/',
     twitter: '',
     domain: 'Smart AgriFood',
-    location: 'Germany'
+    location: 'Germany',
+    flag:
+      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png'
   },
   {
     name: 'Cristina Brandtstetter',
@@ -106,7 +114,9 @@ var modalData = [
     linkedin: 'https://www.linkedin.com/in/brandtstetter',
     twitter: '',
     domain: '',
-    location: 'Germany'
+    location: 'Germany',
+    flag:
+      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png'
   },
   {
     name: 'David Campo',
@@ -119,7 +129,9 @@ var modalData = [
     linkedin: '',
     twitter: '',
     domain: '',
-    location: 'France'
+    location: 'France',
+    flag:
+      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_France.png'
   },
   {
     name: 'José Ignacio Carretero',
@@ -133,7 +145,9 @@ var modalData = [
       'https://www.linkedin.com/in/jos%C3%A9-ignacio-carretero-guarde-789622ab/',
     twitter: 'https://twitter.com/jicarreterogu',
     domain: '',
-    location: 'Spain'
+    location: 'Spain',
+    flag:
+      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png'
   },
   {
     name: 'Chandra Challagonda',
@@ -146,7 +160,9 @@ var modalData = [
     linkedin: 'https://linkedin.com/in/challagonda',
     twitter: 'https://twitter.com/challagonda',
     domain: '',
-    location: 'Finland'
+    location: 'Finland',
+    flag:
+      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Finland.png'
   },
   {
     name: 'Kseniia Chernikova',
@@ -159,7 +175,9 @@ var modalData = [
     linkedin: 'https://www.linkedin.com/in/kseniia-chernikova-184553211/',
     twitter: '',
     domain: '',
-    location: 'Germany'
+    location: 'Germany',
+    flag:
+      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png'
   },
   {
     name: 'Giacomo De Panfilis',
@@ -172,7 +190,9 @@ var modalData = [
     linkedin: 'https://www.linkedin.com/in/giacomodepanfilis/',
     twitter: 'https://twitter.com/_gdepa',
     domain: '',
-    location: 'Italy'
+    location: 'Italy',
+    flag:
+      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Italy.png'
   },
   {
     name: 'Stefano De Panfilis',
@@ -186,7 +206,9 @@ var modalData = [
     linkedin: 'https://www.linkedin.com/in/stefano-de-panfilis-1928a11/',
     twitter: 'https://twitter.com/depa01',
     domain: '',
-    location: 'Germany'
+    location: 'Germany',
+    flag:
+      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png'
   },
   {
     name: 'Hendrik Engel',
@@ -199,7 +221,9 @@ var modalData = [
     linkedin: 'https://www.linkedin.com/in/hendrik-engel-3253a1197/',
     twitter: '',
     domain: '',
-    location: 'Germany'
+    location: 'Germany',
+    flag:
+      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png'
   },
   {
     name: 'Aljo Fazlagic',
@@ -212,7 +236,9 @@ var modalData = [
     linkedin: '',
     twitter: '',
     domain: '',
-    location: 'Germany'
+    location: 'Germany',
+    flag:
+      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png'
   },
   {
     name: 'Jason Fox',
@@ -225,7 +251,9 @@ var modalData = [
     linkedin: 'https://www.linkedin.com/in/jason-fox-8a79563/',
     twitter: '',
     domain: '',
-    location: 'Germany'
+    location: 'Germany',
+    flag:
+      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png'
   },
   {
     name: 'Lucca Giusti',
@@ -238,7 +266,9 @@ var modalData = [
     linkedin: 'https://www.linkedin.com/in/lucca-moreira-giusti-0648b816b/',
     twitter: '',
     domain: '',
-    location: 'Germany'
+    location: 'Germany',
+    flag:
+      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png'
   },
   {
     name: 'Juanjo Hierro',
@@ -252,7 +282,9 @@ var modalData = [
     linkedin: 'https://www.linkedin.com/in/jhierro/',
     twitter: 'https://twitter.com/JuanjoHierro',
     domain: '',
-    location: 'Germany'
+    location: 'Germany',
+    flag:
+      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png'
   },
   {
     name: 'Anastasiia Holub',
@@ -265,7 +297,9 @@ var modalData = [
     linkedin: 'https://www.linkedin.com/in/anastasiia-holub-9b50b994/',
     twitter: '',
     domain: '',
-    location: 'Germany'
+    location: 'Germany',
+    flag:
+      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png'
   },
   {
     name: 'Andrea Kather',
@@ -278,7 +312,9 @@ var modalData = [
     linkedin: '',
     twitter: '',
     domain: '',
-    location: 'Germany'
+    location: 'Germany',
+    flag:
+      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png'
   },
   {
     name: 'Charlotte Kotterman',
@@ -291,7 +327,9 @@ var modalData = [
     linkedin: 'https://de.linkedin.com/in/charlottekotterman',
     twitter: 'https://twitter.com/char_kotterman',
     domain: '',
-    location: 'Germany'
+    location: 'Germany',
+    flag:
+      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png'
   },
   {
     name: 'Oleg Korneev',
@@ -304,7 +342,9 @@ var modalData = [
     linkedin: 'https://www.linkedin.com/in/korneev-oleg-projectmanager',
     twitter: '',
     domain: '',
-    location: 'Germany'
+    location: 'Germany',
+    flag:
+      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png'
   },
   {
     name: 'Yuzhen Li',
@@ -317,7 +357,9 @@ var modalData = [
     linkedin: 'https://www.linkedin.com/in/yuzhen-li-b242421a4/',
     twitter: '',
     domain: '',
-    location: 'Germany'
+    location: 'Germany',
+    flag:
+      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png'
   },
   {
     name: 'Fernando López Aguilar',
@@ -330,7 +372,9 @@ var modalData = [
     linkedin: 'https://www.linkedin.com/in/fernandolopezaguilar/',
     twitter: 'https://twitter.com/flopezaguilar',
     domain: 'Smart Water',
-    location: 'Germany'
+    location: 'Germany',
+    flag:
+      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png'
   },
   {
     name: 'Francisco Meléndez',
@@ -343,7 +387,9 @@ var modalData = [
     linkedin: 'https://www.linkedin.com/in/franmelfer/',
     twitter: '',
     domain: 'Smart Industry',
-    location: 'Spain'
+    location: 'Spain',
+    flag:
+      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png'
   },
   {
     name: 'Xhulja Melyshi',
@@ -356,7 +402,8 @@ var modalData = [
     linkedin: 'https://www.linkedin.com/in/xhulja-melyshi-273b66211/',
     twitter: '',
     domain: '',
-    location: 'Germany'
+    location: 'Germany',
+    flag: 'https://www.fiware.org/wp-content/uploads/2020/07/flag_Germany.png'
   },
   {
     name: 'Clara Pezuela',
@@ -369,7 +416,9 @@ var modalData = [
     linkedin: 'https://www.linkedin.com/in/clara-pezuela-2b1257/',
     twitter: '',
     domain: '',
-    location: 'Spain'
+    location: 'Spain',
+    flag:
+      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png'
   },
   {
     name: 'Jesús Ruiz Martinez',
@@ -382,7 +431,9 @@ var modalData = [
     linkedin: '',
     twitter: '',
     domain: '',
-    location: 'Spain'
+    location: 'Spain',
+    flag:
+      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png'
   },
   {
     name: 'Tonia Sapia',
@@ -395,7 +446,9 @@ var modalData = [
     linkedin: 'https://www.linkedin.com/in/tonia-sapia-a171bb63/',
     twitter: '',
     domain: '',
-    location: 'Italy'
+    location: 'Italy',
+    flag:
+      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Italy.png'
   },
   {
     name: 'Ángeles Tejado',
@@ -409,7 +462,9 @@ var modalData = [
       'https://www.linkedin.com/in/%C3%A1ngeles-tejado-s%C3%A1nchez-2a61b411/',
     twitter: '',
     domain: '',
-    location: 'Spain'
+    location: 'Spain',
+    flag:
+      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png'
   },
   {
     name: 'Karen Vega',
@@ -422,7 +477,9 @@ var modalData = [
     linkedin: 'https://de.linkedin.com/in/karenvega',
     twitter: '',
     domain: '',
-    location: 'Peru'
+    location: 'Peru',
+    flag:
+      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Peru.png'
   },
   {
     name: 'Dennis Wendland',
@@ -435,7 +492,8 @@ var modalData = [
     linkedin: 'https://www.linkedin.com/in/dennis-wendland/',
     twitter: '',
     domain: 'Smart Cities',
-    location: 'Germany'
+    location: 'Germany',
+    flag: 'https://www.fiware.org/wp-content/uploads/2020/07/flag_Germany.png'
   },
   {
     name: 'Stefan Wiedemann',
@@ -448,7 +506,8 @@ var modalData = [
     linkedin: 'https://www.linkedin.com/in/stefan-wiedemann-37a0ba13a/',
     twitter: '',
     domain: '',
-    location: 'Germany'
+    location: 'Germany',
+    flag: 'https://www.fiware.org/wp-content/uploads/2020/07/flag_Germany.png'
   },
   {
     name: 'Ken Zangelin',
@@ -461,7 +520,9 @@ var modalData = [
     linkedin: 'https://www.linkedin.com/in/kzangeli/',
     twitter: '',
     domain: '',
-    location: 'Spain'
+    location: 'Spain',
+    flag:
+      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png'
   },
   {
     name: 'Rosemah Zia',
@@ -474,6 +535,7 @@ var modalData = [
     linkedin: 'https://www.linkedin.com/in/rosemah-zia-a04237108/',
     twitter: '',
     domain: '',
-    location: 'Germany'
+    location: 'Germany',
+    flag: 'https://www.fiware.org/wp-content/uploads/2020/07/flag_Germany.png'
   }
 ];
