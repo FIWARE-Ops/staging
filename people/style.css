@@ -1543,11 +1543,11 @@ input[type="search"]::placeholder {
         left: 0px !important;
     }
 
-.filters-dropdown {
-    display: flex;
-    flex-direction: column;
-    gap: 0px;
-}
+    .filters-dropdown {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
 
     /* Toggle Open Close Filters */
 
