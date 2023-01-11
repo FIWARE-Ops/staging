@@ -200,6 +200,7 @@
     flex-direction: row;
     text-align: center;
     margin: 0 auto;
+    gap:20px;
 }
 
 .icon::before {
@@ -764,7 +765,6 @@
     .cat-location {
         position: relative;
         width: 45px;
-        margin-left: 15px;
     }
 
     .twitter::before {
