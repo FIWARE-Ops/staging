@@ -809,10 +809,10 @@
         width: 45px;
     }
 
-    .flag {
+    /* .flag {
         width: 40px;
         top: 4px;
-    }
+    } */
 
     .et_pb_code_1.et_pb_module {
         padding:0;
@@ -864,7 +864,7 @@
     }
 
     .details-modal {
-        display: block;
+        display: flex;
     }
 
     .social-modal p.domain {
