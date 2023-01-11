@@ -486,7 +486,6 @@
     color: #002e67;
     text-decoration: underline;
     font-size: .9em;
-    line-height: 1.4em;
 }
 
 .tingle-modal h1 {
@@ -599,7 +598,6 @@
 
 .twitter-link {
     position: relative;
-    width: 32px;
 }
 
 .linkedin-link::before {
@@ -622,7 +620,6 @@
 
 .linkedin-link {
     position: relative;
-    width: 32px;
 }
 
 .tingle-modal .bio-modal p {
