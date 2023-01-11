@@ -35,7 +35,7 @@ function extractPeople(input) {
   const people = [];
   input.forEach(item => {
     const person = {
-      name: item['Name Surname'],
+      name: item['Full Name'],
       img: item['Profile Picture'],
       company: item['Company'],
       domain: item['Domain'],
