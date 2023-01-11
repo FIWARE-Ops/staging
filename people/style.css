@@ -875,10 +875,10 @@
     margin-bottom:0px; */
     }
 
-    .tags-modal {
+    /* .tags-modal {
         display: inline-block;
         padding: 20px 0 0 0;
-    }
+    } */
 
     .tags-modal p.location {
         display: flex;
