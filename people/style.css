@@ -732,7 +732,6 @@
         font-variant: normal;
         text-rendering: auto;
         -webkit-font-smoothing: antialiased;
-        padding-right: 10px;
     }
 
     .bio::before {
