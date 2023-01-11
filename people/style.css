@@ -552,14 +552,14 @@
 }
 
 .tags-modal p.domain {
-  font-size: .9em;
+  font-size: 14px;
   font-weight: 500;
   color: #5dc0cf;
   background-color: #e5f5f7;
   position: relative;
   border-radius: 20px;
   overflow: hidden;
-  padding: 3px 12px;
+  padding: 4px 12px;
   display: inline-block;
   height: 28px;
 }
