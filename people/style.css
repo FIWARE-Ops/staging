@@ -583,7 +583,7 @@
     font-family: "ETmodules";
     font-weight: 400;
     content: "\e094";
-    font-size: 20px;
+    font-size: 18px;
     display: inline-block;
     position: relative;
     background: #00aced;
@@ -593,7 +593,7 @@
     color: #fff;
     text-align: center;
     padding-left: 1px;
-    padding-top: 8px;
+    padding-top: 4px;
 }
 
 .twitter-link {
@@ -604,7 +604,7 @@
     font-family: "ETmodules";
     font-weight: 400;
     content: "\e09d";
-    font-size: 20px;
+    font-size: 17px;
     display: inline-block;
     position: relative;
     background: #007bb6;
@@ -615,7 +615,7 @@
     color: #fff;
     text-align: center;
     padding-right: 0px;
-    padding-top: 8px;
+    padding-top: 4px;
 }
 
 .linkedin-link {
