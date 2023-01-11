@@ -232,7 +232,6 @@
 .cat-twitter {
     position: relative;
     width: 32px;
-    margin-right: 12px;
 }
 
 .linkedin::before {
@@ -272,7 +271,6 @@
 .cat-bio {
     position: relative;
     width: 32px;
-    margin-right: 12px;
     cursor: pointer;
     transition: all 0.2s linear;
     background-color: #f3f3f3;
