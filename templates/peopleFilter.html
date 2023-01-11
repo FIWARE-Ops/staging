@@ -4,7 +4,7 @@
     <div class="products-record">
         <div class="products-label">
             <span id="ico-products" class="material-icons-outlined">groups</span>
-            <span>FIWARE Team</span>
+            <span>{{labels.title}}</span>
         </div>
         <span id="filteredCompanies"></span>
     </div>
@@ -49,9 +49,9 @@
 
     {{#if (gt companies.length 1)}}
     <div class="filter-element">
-        <label for="filterCompany" class="dropdown-label">Organization</label>
+        <label for="filterCompany" class="dropdown-label">{{labels.organizations}}</label>
         <select name="" id="filterCompany" class="dropdown-last">
-            <option value="*">All Organizations</option>
+            <option value="*">{{labels.allOrganizations}}</option>
             {{#each companies}}
                 {{#if (ne this "")}}
             	   <option value="{{createClass this}}">{{this}}</option>
@@ -63,9 +63,9 @@
 
     {{#if (gt filters.length 1)}}
     <div class="filter-element">
-        <label for="filterRole" class="dropdown-label">Role</label>
+        <label for="filterRole" class="dropdown-label">{{labels.roles}}</label>
         <select name="" id="filterRole" class="dropdown-last">
-            <option value="*">All Roles</option>
+            <option value="*">{{labels.allRoles}}</option>
             {{#each filters}}
                 {{#if (ne this "")}}
             	   <option value="{{createClass this}}">{{this}}</option>
@@ -77,9 +77,9 @@
 
     {{#if (gt departments.length 1)}}
     <div class="filter-element">
-        <label for="filterDepartment" prclass="dropdown-label">Department</label>
+        <label for="filterDepartment" prclass="dropdown-label">{{labels.departments}}</label>
         <select name="" id="filterDepartment" class="dropdown-last">
-            <option value="*">All Departments</option>
+            <option value="*">{{labels.allDepartments}}</option>
             {{#each departments}}
                 {{#if (ne this "")}}
             	   <option value="{{createClass this}}">{{this}}</option>
@@ -91,9 +91,9 @@
 
     {{#if (gt domains.length 1)}}
     <div class="filter-element">
-        <label for="filterDomain" class="dropdown-label">Domain</label>
+        <label for="filterDomain" class="dropdown-label">{{labels.domains}}</label>
         <select name="" id="filterDomain" class="dropdown-last">
-            <option value="*">All Domains</option>
+            <option value="*">{{labels.allDomains}}</option>
             {{#each domains}}
                 {{#if (ne this "")}}
                     <option value="{{createClass this}}">{{this}}</option>
@@ -105,9 +105,9 @@
 
     {{#if (gt countries.length 1)}}
     <div class="filter-element">
-        <label  for="filterCountry" class="dropdown-label">Working Location</label>
+        <label  for="filterCountry" class="dropdown-label">{{labels.countries}}</label>
         <select name="" id="filterCountry" class="dropdown-last">
-            <option value="*">All Locations</option>
+            <option value="*">{{labels.allCountries}}</option>
             {{#each countries}}
             	<option value="{{createClass this}}">{{this}}</option>
             {{/each}}

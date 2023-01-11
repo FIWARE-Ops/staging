@@ -10,9 +10,11 @@ const csv = require('csvtojson');
 const Downloader = require('./downloader');
 const Parser = require('./dataParser');
 const CSVParser = require('./csvParser');
+const Labels = require('./labels');
 
 const CATEGORIES = ['powered', 'ready', 'services', 'cities'];
 const PROCESS = process.env.PROCESS || 'products';
+const PAGE = process.env.PAGE || 'fiware';
 
 const _ = require('underscore');
 
@@ -323,7 +325,8 @@ if (PROCESS.startsWith('people')) {
         domains: sortData(people, 'domain'),
         filters: [],
         countries: sortData(people, 'country'),
-        people
+        people,
+        labels: Labels.getLabels(PAGE)
       };
 
       const filters = [];
