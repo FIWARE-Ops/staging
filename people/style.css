@@ -1400,6 +1400,12 @@ input[type="search"]::placeholder {
         display: none;
     }
 
+    .dropdown-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
     /* Filtering */
 
     .category-badge {
