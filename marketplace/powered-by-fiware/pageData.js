@@ -1868,7 +1868,7 @@ var pageData = [
     ],
     year: 2022,
     content:
-      'ADDIX operates IT platforms based on FIWARE technology and open-source software. These highly capable, customizable Kubernetes-cluster are already in use by regional development organisations and utility companies. ADDIX operates infrastructure in the field of radio link system, fiber, IoT and WLAN.'
+      'ADDIX operates IT platforms based on FIWARE technology and open-source software. These highly capable, customizable Kubernetes-cluster are already in use by regional development organisations and utility companies. **ADDIX** operates infrastructure in the field of radio link system, fiber, IoT and WLAN.'
   },
   {
     company: 'Engineering ITS GmbH',
