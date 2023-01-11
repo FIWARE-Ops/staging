@@ -1011,9 +1011,9 @@
     gap: 20px;
 }
 
-/* .filters-container:not(.active) {
+.filters-container:not(.active) {
     display: none;
-} */
+}
 
 /* Filter list */
 
