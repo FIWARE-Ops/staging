@@ -1565,8 +1565,7 @@ input[type="search"]::placeholder {
 
     .filters-container {
         transition: height .5s ease;
-        overflow: hidden;
-        height: auto!important;
+        /* overflow: hidden; */
         /* padding-top: 16px;
         border-top: 1px solid #aaa; */
     }
