@@ -67,20 +67,6 @@ var modalData = [
     flag: ''
   },
   {
-    name: 'Vera Böhner',
-    img:
-      'https://www.fiware.org/wp-content/directories/people/images/team/vera-bohner.png',
-    position: 'Marketing Manager',
-    company: 'FIWARE Foundation',
-    'company-link': 'https://www.fiware.org/',
-    content: '',
-    linkedin: 'https://www.linkedin.com/in/vera-b%C3%B6hner-88a39693/',
-    twitter: '',
-    domain: '',
-    location: '',
-    flag: ''
-  },
-  {
     name: 'Gernot Böge',
     img:
       'https://www.fiware.org/wp-content/directories/people/images/team/gernot-boge.png',
@@ -89,6 +75,20 @@ var modalData = [
     'company-link': 'https://www.fiware.org/',
     content: '',
     linkedin: 'https://www.linkedin.com/in/gernot-boege-4204a2226/',
+    twitter: '',
+    domain: '',
+    location: '',
+    flag: ''
+  },
+  {
+    name: 'Vera Böhner',
+    img:
+      'https://www.fiware.org/wp-content/directories/people/images/team/vera-bohner.png',
+    position: 'Marketing Manager',
+    company: 'FIWARE Foundation',
+    'company-link': 'https://www.fiware.org/',
+    content: '',
+    linkedin: 'https://www.linkedin.com/in/vera-b%C3%B6hner-88a39693/',
     twitter: '',
     domain: '',
     location: '',
@@ -296,20 +296,6 @@ var modalData = [
     flag: ''
   },
   {
-    name: 'Charlotte Kotterman',
-    img:
-      'https://www.fiware.org/wp-content/directories/people/images/team/charlotte-kotterman.png',
-    position: 'Community Manager',
-    company: 'FIWARE Foundation',
-    'company-link': 'https://www.fiware.org/',
-    content: '',
-    linkedin: 'https://de.linkedin.com/in/charlottekotterman',
-    twitter: 'https://twitter.com/char_kotterman',
-    domain: '',
-    location: '',
-    flag: ''
-  },
-  {
     name: 'Oleg Korneev',
     img:
       'https://www.fiware.org/wp-content/directories/people/images/team/oleg-korneev.png',
@@ -319,6 +305,20 @@ var modalData = [
     content: '',
     linkedin: 'https://www.linkedin.com/in/korneev-oleg-projectmanager',
     twitter: '',
+    domain: '',
+    location: '',
+    flag: ''
+  },
+  {
+    name: 'Charlotte Kotterman',
+    img:
+      'https://www.fiware.org/wp-content/directories/people/images/team/charlotte-kotterman.png',
+    position: 'Community Manager',
+    company: 'FIWARE Foundation',
+    'company-link': 'https://www.fiware.org/',
+    content: '',
+    linkedin: 'https://de.linkedin.com/in/charlottekotterman',
+    twitter: 'https://twitter.com/char_kotterman',
     domain: '',
     location: '',
     flag: ''

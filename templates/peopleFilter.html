@@ -45,7 +45,7 @@
     </div>
 </div-->
 
-<div style="display: flex; flex-direction: row; gap: 20px">
+<div class="dropdown-container">
 
     {{#if (gt companies.length 1)}}
     <div class="filter-element">
@@ -77,7 +77,7 @@
 
     {{#if (gt departments.length 1)}}
     <div class="filter-element">
-        <label for="filterDepartment" prclass="dropdown-label">{{labels.departments}}</label>
+        <label for="filterDepartment" class="dropdown-label">{{labels.departments}}</label>
         <select name="" id="filterDepartment" class="dropdown-last">
             <option value="*">{{labels.allDepartments}}</option>
             {{#each departments}}

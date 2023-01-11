@@ -36,6 +36,7 @@ function extractPeople(input) {
   input.forEach(item => {
     const person = {
       name: item['Full Name'],
+      surname: item['Surname Filters'],
       img: item['Profile Picture'],
       company: item['Company'],
       domain: item['Domain'],
@@ -56,7 +57,9 @@ function extractPeople(input) {
     }
   });
 
-  return people;
+  return people.sort((a, b) => {
+    return a.surname.localeCompare(b.surname);
+  });
 }
 
 function extractProductDetails(input) {
