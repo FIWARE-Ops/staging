@@ -552,14 +552,14 @@
 .tags-modal p.domain {
   font-size: .9em;
   font-weight: 500;
-  line-height: 1.5em;
   color: #5dc0cf;
   background-color: #e5f5f7;
   position: relative;
   border-radius: 20px;
   overflow: hidden;
-  padding: 5px 16px 0px;
+  padding: 3px 12px;
   display: inline-block;
+  height: 28px;
 }
 
 .tags-modal p.location {
