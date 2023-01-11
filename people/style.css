@@ -1000,7 +1000,6 @@
     width: 100%;
     max-width: 1184px;
     margin: 0 auto;
-    border-top: 1px solid #aaa;
     overflow: hidden;
     display: flex;
     flex-direction: column;
