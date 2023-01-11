@@ -542,6 +542,8 @@
 
 .details-modal {
     margin-top: 20px;
+    align-items: center;
+    gap: 10px;
 }
 
 .social-modal {
