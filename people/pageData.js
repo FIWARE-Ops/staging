@@ -5,7 +5,7 @@ var departments = [
   'Operations Team',
   'Tech Team'
 ];
-var domains = ['Smart Cities', 'Smart Energy', 'Smart Industry', 'Smart Water'];
+var domains = [];
 var titles = [
   'Administrational Assistant',
   'Architect',
@@ -21,19 +21,20 @@ var titles = [
   'Data Modeling Expert',
   'Design Manager',
   'Evangelist',
-  'FIWARE Solution Architect',
   'Marketing Manager',
+  'Marketplace Manager',
   'Outreach Manager',
   'Platform Expert',
   'Product Manager',
   'Project Manager',
   'Public Relations Manager',
+  'Solution Architect',
   'Technical Expert',
   'Technical Lead',
   'VP Funded Programs',
   'Working Student'
 ];
-var countries = ['Finland', 'France', 'Germany', 'Italy', 'Peru', 'Spain'];
+var countries = [];
 var modalData = [
   {
     name: 'Alberto Abella',
@@ -47,9 +48,8 @@ var modalData = [
     linkedin: 'https://www.linkedin.com/in/albertoabella/',
     twitter: 'https://twitter.com/aabella',
     domain: '',
-    location: 'Spain',
-    flag:
-      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png'
+    location: '',
+    flag: ''
   },
   {
     name: 'Ulrich Ahle',
@@ -62,10 +62,9 @@ var modalData = [
       'Following his extensive experience in the industrial sector (including Vice President and leader of Manufacturing, Retail &amp; Transportation Consulting &amp; Systems Integration at Atos Germany), helping clients to digitize their business, Ulrich joined the foundation in September 2016. He is on the Board of the International Data Spaces Association and was also on the Board of prostep ivip Association for 16 years, before becoming an Honorary Member in 2019.',
     linkedin: 'https://de.linkedin.com/in/ahlefiware',
     twitter: 'https://twitter.com/UlrichAhle',
-    domain: 'Smart Cities',
-    location: 'Germany',
-    flag:
-      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png'
+    domain: '',
+    location: '',
+    flag: ''
   },
   {
     name: 'Vera Böhner',
@@ -78,24 +77,22 @@ var modalData = [
     linkedin: 'https://www.linkedin.com/in/vera-b%C3%B6hner-88a39693/',
     twitter: '',
     domain: '',
-    location: 'Germany',
-    flag:
-      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png'
+    location: '',
+    flag: ''
   },
   {
     name: 'Gernot Böge',
     img:
       'https://www.fiware.org/wp-content/directories/people/images/team/gernot-boge.png',
-    position: 'FIWARE Solution Architect',
+    position: 'Solution Architect',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
     content: '',
     linkedin: 'https://www.linkedin.com/in/gernot-boege-4204a2226/',
     twitter: '',
     domain: '',
-    location: 'Germany',
-    flag:
-      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png'
+    location: '',
+    flag: ''
   },
   {
     name: 'Cristina Brandtstetter',
@@ -108,10 +105,9 @@ var modalData = [
       'With a strong track record of success over her 20+ years international career in Operations, Change Management, Strategy, M&amp;A, Marketing &amp; PR, Product Management, Consulting, build-up organisations of industry/vertical teams and diversified go-to-market channels (among many other areas), Cristina joined the foundation in June 2019 to lead the organization’s Marketing, Press and PR teams, with a strong focus on corporate portfolio and partner activities.',
     linkedin: 'https://www.linkedin.com/in/brandtstetter',
     twitter: '',
-    domain: 'Smart Energy',
-    location: 'Germany',
-    flag:
-      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png'
+    domain: '',
+    location: '',
+    flag: ''
   },
   {
     name: 'David Campo',
@@ -124,9 +120,8 @@ var modalData = [
     linkedin: 'https://www.linkedin.com/in/davidnazarenocampo/',
     twitter: 'https://twitter.com/dncampo',
     domain: '',
-    location: 'France',
-    flag:
-      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_France.png'
+    location: '',
+    flag: ''
   },
   {
     name: 'José Ignacio Carretero',
@@ -140,24 +135,22 @@ var modalData = [
       'https://www.linkedin.com/in/jos%C3%A9-ignacio-carretero-guarde-789622ab/',
     twitter: 'https://twitter.com/jicarreterogu',
     domain: '',
-    location: 'Spain',
-    flag:
-      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png'
+    location: '',
+    flag: ''
   },
   {
     name: 'Chandra Challagonda',
     img:
       'https://www.fiware.org/wp-content/directories/people/images/team/chandra-challagonda.png',
-    position: 'Senior Architect',
+    position: 'Solution Architect',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
     content: '',
     linkedin: 'https://linkedin.com/in/challagonda',
     twitter: 'https://twitter.com/challagonda',
     domain: '',
-    location: 'Finland',
-    flag:
-      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Finland.png'
+    location: '',
+    flag: ''
   },
   {
     name: 'Kseniia Chernikova',
@@ -170,9 +163,8 @@ var modalData = [
     linkedin: 'https://www.linkedin.com/in/kseniia-chernikova-184553211/',
     twitter: '',
     domain: '',
-    location: 'Germany',
-    flag:
-      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png'
+    location: '',
+    flag: ''
   },
   {
     name: 'Giacomo De Panfilis',
@@ -185,9 +177,8 @@ var modalData = [
     linkedin: 'https://www.linkedin.com/in/giacomodepanfilis/',
     twitter: 'https://twitter.com/_gdepa',
     domain: '',
-    location: 'Italy',
-    flag:
-      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Italy.png'
+    location: '',
+    flag: ''
   },
   {
     name: 'Stefano De Panfilis',
@@ -200,10 +191,9 @@ var modalData = [
       'Stefano joined Engineering Ingegneria Informatica S.p.A. in 1984 and went from Director of R&amp;D Laboratories Department (overseeing 100+ researchers in Europe and beyond) to Chief Innovation Officer of the Engineering Group in 2011. He joined FIWARE Foundation in 2017. Besides his role as COO, he is responsible for the FIWARE Lab Nodes and is also a member of the FIWARE Technical Steering Committee.',
     linkedin: 'https://www.linkedin.com/in/stefano-de-panfilis-1928a11/',
     twitter: 'https://twitter.com/depa01',
-    domain: 'Smart Industry',
-    location: 'Germany',
-    flag:
-      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png'
+    domain: '',
+    location: '',
+    flag: ''
   },
   {
     name: 'Hendrik Engel',
@@ -216,9 +206,8 @@ var modalData = [
     linkedin: 'https://www.linkedin.com/in/hendrik-engel-3253a1197/',
     twitter: '',
     domain: '',
-    location: 'Germany',
-    flag:
-      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png'
+    location: '',
+    flag: ''
   },
   {
     name: 'Aljo Fazlagic',
@@ -231,9 +220,8 @@ var modalData = [
     linkedin: '',
     twitter: '',
     domain: '',
-    location: 'Germany',
-    flag:
-      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png'
+    location: '',
+    flag: ''
   },
   {
     name: 'Jason Fox',
@@ -247,9 +235,8 @@ var modalData = [
     linkedin: 'https://www.linkedin.com/in/jason-fox-8a79563/',
     twitter: '',
     domain: '',
-    location: 'Germany',
-    flag:
-      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png'
+    location: '',
+    flag: ''
   },
   {
     name: 'Lucca Giusti',
@@ -262,9 +249,8 @@ var modalData = [
     linkedin: 'https://www.linkedin.com/in/lucca-moreira-giusti-0648b816b/',
     twitter: '',
     domain: '',
-    location: 'Germany',
-    flag:
-      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png'
+    location: '',
+    flag: ''
   },
   {
     name: 'Juanjo Hierro',
@@ -277,10 +263,9 @@ var modalData = [
       'Juanjo is the Chief Technology Officer (CTO) of FIWARE Foundation. He is also the chairman of the FIWARE Technical Steering Committee and coordinates the FIWARE Tech Roadmap. He also supports the FIWARE Community in developing the vision and value proposition of FIWARE in the several domains where it is being applied. Juanjo is also part of the Technical Advisory Council of the Open and Agile Smart Cities (OASC) initiative which he helped to found. OASC is aimed at creating a Digital Single Market for Smart Cities, based on the adoption of common Minimum Interoperability Mechanisms (MIMs) that enable smart city services to be replicable across cities and portable across platforms.',
     linkedin: 'https://www.linkedin.com/in/jhierro/',
     twitter: 'https://twitter.com/JuanjoHierro',
-    domain: 'Smart Water',
-    location: 'Germany',
-    flag:
-      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png'
+    domain: '',
+    location: '',
+    flag: ''
   },
   {
     name: 'Anastasiia Holub',
@@ -293,9 +278,8 @@ var modalData = [
     linkedin: 'https://www.linkedin.com/in/anastasiia-holub-9b50b994/',
     twitter: '',
     domain: '',
-    location: 'Germany',
-    flag:
-      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png'
+    location: '',
+    flag: ''
   },
   {
     name: 'Andrea Kather',
@@ -308,9 +292,8 @@ var modalData = [
     linkedin: '',
     twitter: '',
     domain: '',
-    location: 'Germany',
-    flag:
-      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png'
+    location: '',
+    flag: ''
   },
   {
     name: 'Charlotte Kotterman',
@@ -323,9 +306,8 @@ var modalData = [
     linkedin: 'https://de.linkedin.com/in/charlottekotterman',
     twitter: 'https://twitter.com/char_kotterman',
     domain: '',
-    location: 'Germany',
-    flag:
-      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png'
+    location: '',
+    flag: ''
   },
   {
     name: 'Oleg Korneev',
@@ -338,9 +320,8 @@ var modalData = [
     linkedin: 'https://www.linkedin.com/in/korneev-oleg-projectmanager',
     twitter: '',
     domain: '',
-    location: 'Germany',
-    flag:
-      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png'
+    location: '',
+    flag: ''
   },
   {
     name: 'Yuzhen Li',
@@ -353,9 +334,8 @@ var modalData = [
     linkedin: 'https://www.linkedin.com/in/yuzhen-li-b242421a4/',
     twitter: '',
     domain: '',
-    location: 'Germany',
-    flag:
-      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png'
+    location: '',
+    flag: ''
   },
   {
     name: 'Fernando López Aguilar',
@@ -369,9 +349,8 @@ var modalData = [
     linkedin: 'https://www.linkedin.com/in/fernandolopezaguilar/',
     twitter: 'https://twitter.com/flopezaguilar',
     domain: '',
-    location: 'Germany',
-    flag:
-      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png'
+    location: '',
+    flag: ''
   },
   {
     name: 'Francisco Meléndez',
@@ -384,23 +363,22 @@ var modalData = [
     linkedin: 'https://www.linkedin.com/in/franmelfer/',
     twitter: '',
     domain: '',
-    location: 'Spain',
-    flag:
-      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png'
+    location: '',
+    flag: ''
   },
   {
     name: 'Xhulja Melyshi',
     img:
       'https://www.fiware.org/wp-content/directories/people/images/team/xhulja-melyshi.png',
-    position: 'Working Student',
+    position: 'Marketplace Manager',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
     content: '',
     linkedin: 'https://www.linkedin.com/in/xhulja-melyshi-273b66211/',
     twitter: '',
     domain: '',
-    location: 'Germany',
-    flag: 'https://www.fiware.org/wp-content/uploads/2020/07/flag_Germany.png'
+    location: '',
+    flag: ''
   },
   {
     name: 'Clara Pezuela',
@@ -414,9 +392,8 @@ var modalData = [
     linkedin: 'https://www.linkedin.com/in/clara-pezuela-2b1257/',
     twitter: '',
     domain: '',
-    location: 'Spain',
-    flag:
-      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png'
+    location: '',
+    flag: ''
   },
   {
     name: 'Jesús Ruiz Martinez',
@@ -430,9 +407,8 @@ var modalData = [
     linkedin: 'https://www.linkedin.com/in/jesus-ruiz-martinez/',
     twitter: '',
     domain: '',
-    location: 'Spain',
-    flag:
-      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png'
+    location: '',
+    flag: ''
   },
   {
     name: 'Tonia Sapia',
@@ -446,15 +422,14 @@ var modalData = [
     linkedin: 'https://www.linkedin.com/in/tonia-sapia-a171bb63/',
     twitter: '',
     domain: '',
-    location: 'Italy',
-    flag:
-      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Italy.png'
+    location: '',
+    flag: ''
   },
   {
     name: 'Ángeles Tejado',
     img:
       'https://www.fiware.org/wp-content/directories/people/images/team/angeles-tejado.png',
-    position: 'Project Manager',
+    position: 'Senior Project Manager',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
     content: '',
@@ -462,9 +437,8 @@ var modalData = [
       'https://www.linkedin.com/in/%C3%A1ngeles-tejado-s%C3%A1nchez-2a61b411/',
     twitter: '',
     domain: '',
-    location: 'Spain',
-    flag:
-      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png'
+    location: '',
+    flag: ''
   },
   {
     name: 'Karen Vega',
@@ -478,9 +452,8 @@ var modalData = [
     linkedin: 'https://de.linkedin.com/in/karenvega',
     twitter: '',
     domain: '',
-    location: 'Peru',
-    flag:
-      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Peru.png'
+    location: '',
+    flag: ''
   },
   {
     name: 'Dennis Wendland',
@@ -494,8 +467,8 @@ var modalData = [
     linkedin: 'https://www.linkedin.com/in/dennis-wendland/',
     twitter: '',
     domain: '',
-    location: 'Germany',
-    flag: 'https://www.fiware.org/wp-content/uploads/2020/07/flag_Germany.png'
+    location: '',
+    flag: ''
   },
   {
     name: 'Stefan Wiedemann',
@@ -508,8 +481,8 @@ var modalData = [
     linkedin: 'https://www.linkedin.com/in/stefan-wiedemann-37a0ba13a/',
     twitter: '',
     domain: '',
-    location: 'Germany',
-    flag: 'https://www.fiware.org/wp-content/uploads/2020/07/flag_Germany.png'
+    location: '',
+    flag: ''
   },
   {
     name: 'Ken Zangelin',
@@ -522,9 +495,8 @@ var modalData = [
     linkedin: 'https://www.linkedin.com/in/kzangeli/',
     twitter: '',
     domain: '',
-    location: 'Spain',
-    flag:
-      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png'
+    location: '',
+    flag: ''
   },
   {
     name: 'Rosemah Zia',
@@ -537,7 +509,7 @@ var modalData = [
     linkedin: 'https://www.linkedin.com/in/rosemah-zia-a04237108/',
     twitter: '',
     domain: '',
-    location: 'Germany',
-    flag: 'https://www.fiware.org/wp-content/uploads/2020/07/flag_Germany.png'
+    location: '',
+    flag: ''
   }
 ];
