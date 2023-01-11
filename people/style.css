@@ -1577,7 +1577,7 @@ input[type="search"]::placeholder {
     .dropdown-container {
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 0px;
     }
 
     /* Search */
