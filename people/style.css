@@ -999,6 +999,9 @@
     margin: 0 auto;
     border-top: 1px solid #aaa;
     overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
 
 /* .filters-container:not(.active) {
