@@ -13,17 +13,27 @@ const DEFAULT_LABELS = {
 
 // Base data - add one for each page
 const labels = {
-  fiware: _.clone(DEFAULT_LABELS),
-  fisab: _.clone(DEFAULT_LABELS)
+  bod: _.clone(DEFAULT_LABELS),
+  boo: _.clone(DEFAULT_LABELS),
+  fisab: _.clone(DEFAULT_LABELS),
+  msc: _.clone(DEFAULT_LABELS),
+  team: _.clone(DEFAULT_LABELS),
+  tsc: _.clone(DEFAULT_LABELS),
+  speakers: _.clone(DEFAULT_LABELS)
 };
 
 // Page specific titles - add one for each page
-labels.fiware.title = 'FIWARE Team';
-labels.fisab.title = 'FISAB Team';
+labels.fisab.title = 'Scientific Advisory Board';
+labels.bod.title = 'Board of Directors';
+labels.boo.title = 'Board of Officers';
+labels.msc.title = 'Mission Support Committees';
+labels.team.title = 'FIWARE Team';
+labels.tsc.title = 'Mission Support Committee';
+labels.speakers.title = 'Speakers';
 
 //  Specific Label overrides for FIWARE Team
-labels.fiware.countries = 'Working Location';
-labels.fiware.allCountries = 'All Locations';
+labels.team.countries = 'Working Location';
+labels.team.allCountries = 'All Locations';
 
 function getLabels(type) {
   return labels[type];
