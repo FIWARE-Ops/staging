@@ -763,7 +763,7 @@
         width: 45px;
     }
 
-    .twitter::before {
+    /* .twitter::before {
         font-family: "ETmodules";
         font-weight: 400;
         content: "\e094";
@@ -784,9 +784,9 @@
         position: relative;
         width: 45px;
         margin-right: 15px;
-    }
+    } */
 
-    .linkedin::before {
+    /*.linkedin::before {
         font-family: "ETmodules";
         font-weight: 400;
         content: "\e09d";
@@ -807,7 +807,7 @@
     .cat-linkedin {
         position: relative;
         width: 45px;
-    }
+    } */
 
     /* .flag {
         width: 40px;
