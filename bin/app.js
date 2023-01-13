@@ -1,4 +1,4 @@
-const fs = require('fs');
+const fs = require('fs-extra');
 const path = require('path');
 const Handlebars = require('handlebars');
 const PRODUCTS_SUMMARY_FILE = 'products.csv';
@@ -10,7 +10,7 @@ const csv = require('csvtojson');
 const Downloader = require('./downloader');
 const Parser = require('./dataParser');
 const CSVParser = require('./csvParser');
-const Labels = require('./labels');
+const STATIC_DATA = require('./staticData');
 
 const CATEGORIES = ['powered', 'ready', 'services', 'cities'];
 const PROCESS = process.env.PROCESS || 'products';
@@ -97,6 +97,8 @@ function writeTemplate(filename, template, input) {
       const template = Handlebars.compile(data);
 
       const output = template(input);
+
+      fs.ensureFileSync(filename);
       fs.writeFile(filename, output, function(err) {
         if (err) return console.log(err);
       });
@@ -319,6 +321,7 @@ if (PROCESS.startsWith('people')) {
       return CSVParser.extractPeople(input);
     })
     .then(people => {
+      const templateData = STATIC_DATA.getPeopleData(PAGE);
       const filterData = {
         companies: sortData(people, 'company'),
         departments: sortData(people, 'department'),
@@ -326,7 +329,7 @@ if (PROCESS.startsWith('people')) {
         filters: [],
         countries: sortData(people, 'country'),
         people,
-        labels: Labels.getLabels(PAGE)
+        STATIC_DATA: templateData
       };
 
       const filters = [];
@@ -338,9 +341,21 @@ if (PROCESS.startsWith('people')) {
 
       filterData.filters = _.sortBy(_.uniq(filters), caseInsensitive);
 
-      writeTemplate('people/people.html', 'people.html', people);
-      writeTemplate('people/pageData.js', 'peopleModal.html', filterData);
-      writeTemplate('people/filters.html', 'peopleFilter.html', filterData);
+      writeTemplate(
+        path.join('people', PAGE, 'people.html'),
+        templateData.html,
+        people
+      );
+      writeTemplate(
+        path.join('people', PAGE, 'pageData.js'),
+        templateData.pageData,
+        filterData
+      );
+      writeTemplate(
+        path.join('people', PAGE, 'filters.html'),
+        templateData.filterHtml,
+        filterData
+      );
     })
     .catch(e => {
       console.log(e);
