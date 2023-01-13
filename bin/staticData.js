@@ -46,8 +46,21 @@ PEOPLE_DATA.tsc.title = 'Technical Steering Committee';
 PEOPLE_DATA.speakers.title = 'Speakers';
 
 //  Specific Label overrides for FIWARE Team
-// PEOPLE_DATA.team.countries = 'Working Location';
-// PEOPLE_DATA.team.allCountries = 'All Locations';
+PEOPLE_DATA.team.countries = 'Country of Origin';
+PEOPLE_DATA.team.allCountries = 'All Locations';
+
+PEOPLE_DATA.bod.domains = 'Member Type';
+PEOPLE_DATA.bod.allDomains = 'All Types';
+
+PEOPLE_DATA.tsc.domains = 'Member Type';
+PEOPLE_DATA.tsc.allDomains = 'All Types';
+PEOPLE_DATA.tsc.companies = 'Organization';
+PEOPLE_DATA.tsc.allCompanies = 'All Organizations';
+
+PEOPLE_DATA.msc.domains = 'Committees';
+PEOPLE_DATA.msc.allDomains = 'All Committees';
+PEOPLE_DATA.msc.companies = 'Organization';
+PEOPLE_DATA.msc.allDompanies = 'All Organizations';
 
 function getPeopleData(type) {
   return PEOPLE_DATA[type];
