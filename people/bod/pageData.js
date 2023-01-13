@@ -1,515 +1,295 @@
-var companies = ['FIWARE Foundation'];
-var departments = [
-  'Administrative Team',
-  'Marketing Team',
-  'Operations Team',
-  'Tech Team'
+var companies = [
+  'ADDIX',
+  'Atos',
+  'AWS',
+  'City of Herne',
+  'Engineering',
+  'Hopu – Libelium',
+  'Martel Innovation',
+  'MediTech',
+  'MRDA',
+  'NEC Corporation',
+  'Red Hat',
+  'Secmotic',
+  'TeamDev',
+  'Telefonica',
+  'Trigyn Technologies',
+  'Ubiwhere'
 ];
-var domains = [];
+var departments = [];
+var domains = ['Gold', 'Platinum'];
 var titles = [
-  'Administrational Assistant',
-  'Architect',
-  'Assistant to the BOO',
-  'Business Development Manager',
+  'CDO',
   'CEO',
-  'Cloud Expert',
-  'CMO',
-  'Community Manager',
-  'Consultant',
-  'COO',
+  'Co-Founder',
+  'CSO',
   'CTO',
-  'Data Modeling Expert',
-  'Design Manager',
-  'Evangelist',
-  'Marketing Manager',
-  'Marketplace Manager',
-  'Outreach Manager',
-  'Platform Expert',
-  'Product Manager',
-  'Project Manager',
-  'Public Relations Manager',
-  'Solution Architect',
-  'Technical Expert',
-  'Technical Lead',
-  'VP Funded Programs',
-  'Working Student'
+  'Director',
+  'General Manager',
+  'Head of Global IoT',
+  'IoT Specialist',
+  'Managing Director',
+  'NEC Fellow',
+  'Smart Cities Specialist'
 ];
-var countries = [];
+var countries = [
+  'France',
+  'Germany',
+  'India',
+  'Italy',
+  'Japan',
+  'Portugal',
+  'Saudi Arabia',
+  'Spain',
+  'Switzerland',
+  'United States'
+];
 var modalData = [
   {
-    name: 'Alberto Abella',
+    name: 'Dario Avallone',
     img:
-      'https://www.fiware.org/wp-content/directories/people/images/team/alberto-abella.png',
-    position: 'Data Modeling Expert &amp; Evangelist',
-    company: 'FIWARE Foundation',
-    'company-link': 'https://www.fiware.org/',
+      'https://www.fiware.org/wp-content/directories/people/images/bod/dario-avallone.png',
+    position: 'Research and Development Director',
+    company: 'Engineering',
+    'company-link': 'https://www.eng.it/en/',
     content:
-      'Alberto Abella is PhD in Business (Open data) and Telecommunications Engineer and Master in Total Quality Management, Business Administration and Business Organization. He works as a Data Modelling Expert and Technical Evangelist at FIWARE and currently is the responsible person for the smart data models initiative.',
-    linkedin: 'https://www.linkedin.com/in/albertoabella/',
-    twitter: 'https://twitter.com/aabella',
-    domain: '',
-    location: '',
-    flag: ''
+      'Straight after getting his degree in Computer Science, Dario joined Engineering Ingegneria Informatica S.p.A’s R&amp;D Laboratory, where he has so far held different successful positions. In 2000, Dario became the Director of the R&amp;D division, aiming to push innovation into the large Engineering Group. During his professional career, Dario has been directly involved in different research initiatives, holding both managerial and technical responsibilities. He is also the author of different publications and articles and has co-authored the book “The Renaissance of Legacy Systems”.',
+    linkedin: 'https://www.linkedin.com/in/dario-avallone-428934a/',
+    twitter: '',
+    domain: 'Platinum',
+    location: 'Italy',
+    flag:
+      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Italy.png'
   },
   {
-    name: 'Ulrich Ahle',
+    name: 'Ali Benfattoum',
     img:
-      'https://www.fiware.org/wp-content/directories/people/images/team/ulrich-ahle.png',
+      'https://www.fiware.org/wp-content/directories/people/images/bod/ali-benfattoum.png',
+    position: 'IoT &amp; Smart Cities Specialist',
+    company: 'AWS',
+    'company-link': 'https://aws.amazon.com/',
+    content:
+      'Ali Benfattoum is a Technology Evangelist for IoT and Smart Cities at Amazon Web Services. With over 12 years of experience in IoT and Smart Cities, Ali brings his technical expertise to enable and help customers and partners to accelerate their IoT and Smart Cities projects. Ali also holds an executive MBA, giving him the ability to zoom out and help customers and partners at a strategic level.',
+    linkedin: 'https://www.linkedin.com/in/alibenfattoum/',
+    twitter: 'https://twitter.com/alifrugal',
+    domain: 'Platinum',
+    location: 'France',
+    flag:
+      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_France.png'
+  },
+  {
+    name: 'José Benitez',
+    img:
+      'https://www.fiware.org/wp-content/directories/people/images/bod/jose-benitez.png',
+    position: 'Co-Founder &amp; Chief Executive Officer',
+    company: 'Secmotic',
+    'company-link': 'https://secmotic.com/',
+    content: '',
+    linkedin: 'https://www.linkedin.com/in/jose-benitez-secmotic',
+    twitter: 'https://twitter.com/josesecmotic',
+    domain: 'Gold',
+    location: 'Spain',
+    flag:
+      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png'
+  },
+  {
+    name: 'Agustin Cardenas Fernandez',
+    img:
+      'https://www.fiware.org/wp-content/directories/people/images/bod/agustin-cardenas-fernandez.png',
+    position: 'Director of Company Business Transformation',
+    company: 'Telefonica',
+    'company-link': 'https://www.telefonica.com/en/',
+    content: '',
+    linkedin: 'https://www.linkedin.com/in/agucardenas/',
+    twitter: 'https://twitter.com/agucardenas',
+    domain: 'Platinum',
+    location: 'Spain',
+    flag:
+      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png'
+  },
+  {
+    name: 'Rui Costa',
+    img:
+      'https://www.fiware.org/wp-content/directories/people/images/bod/rui-costa.png',
     position: 'Chief Executive Officer',
-    company: 'FIWARE Foundation',
-    'company-link': 'https://www.fiware.org/',
+    company: 'Ubiwhere',
+    'company-link': 'https://www.ubiwhere.com/',
+    content: '',
+    linkedin: 'https://www.linkedin.com/in/ruiarnaldo/',
+    twitter: '',
+    domain: 'Gold',
+    location: 'Portugal',
+    flag:
+      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Portugal.png'
+  },
+  {
+    name: 'Andrea Cruciani',
+    img:
+      'https://www.fiware.org/wp-content/directories/people/images/bod/andrea-cruciani.png',
+    position: 'Co-Founder &amp; Chief Executive Officer',
+    company: 'TeamDev',
+    'company-link': 'https://www.teamdev.it/en/',
     content:
-      'Following his extensive experience in the industrial sector (including Vice President and leader of Manufacturing, Retail &amp; Transportation Consulting &amp; Systems Integration at Atos Germany), helping clients to digitize their business, Ulrich joined the foundation in September 2016. He is on the Board of the International Data Spaces Association and was also on the Board of prostep ivip Association for 16 years, before becoming an Honorary Member in 2019.',
-    linkedin: 'https://de.linkedin.com/in/ahlefiware',
-    twitter: 'https://twitter.com/UlrichAhle',
-    domain: '',
-    location: '',
-    flag: ''
+      'Andrea is the Agricolus co-founder and CEO, member of FIWARE Foundation BoD, Chairman of the FIWARE Smart AgriFood MSC. He runs the international business area and the financial aspects of the company and he has a technical background and experience in applications Development, Enterprise Architectures, Cloud Computing, and GIS. Andrea is involved in Innovative Startup Evolution and scaleup, during the years he worked with Public Administration, multinational companies, NGOs, and SMEs. He is a speaker for several universities and public events where he is invited to discuss entrepreneurship and digital transformation, and he is a contributor in several technical articles and publications about agritech.',
+    linkedin: 'https://www.linkedin.com/in/andreacruciani/',
+    twitter: 'https://twitter.com/kokkete',
+    domain: 'Gold',
+    location: 'Italy',
+    flag:
+      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Italy.png'
   },
   {
-    name: 'Gernot Böge',
+    name: 'Federico Facca',
     img:
-      'https://www.fiware.org/wp-content/directories/people/images/team/gernot-boge.png',
-    position: 'Solution Architect',
-    company: 'FIWARE Foundation',
-    'company-link': 'https://www.fiware.org/',
-    content: '',
-    linkedin: 'https://www.linkedin.com/in/gernot-boege-4204a2226/',
-    twitter: '',
-    domain: '',
-    location: '',
-    flag: ''
-  },
-  {
-    name: 'Vera Böhner',
-    img:
-      'https://www.fiware.org/wp-content/directories/people/images/team/vera-bohner.png',
-    position: 'Marketing Manager',
-    company: 'FIWARE Foundation',
-    'company-link': 'https://www.fiware.org/',
-    content: '',
-    linkedin: 'https://www.linkedin.com/in/vera-b%C3%B6hner-88a39693/',
-    twitter: '',
-    domain: '',
-    location: '',
-    flag: ''
-  },
-  {
-    name: 'Cristina Brandtstetter',
-    img:
-      'https://www.fiware.org/wp-content/directories/people/images/team/cristina-brandtstetter.png',
-    position: 'Chief Marketing Officer',
-    company: 'FIWARE Foundation',
-    'company-link': 'https://www.fiware.org/',
-    content:
-      'With a strong track record of success over her 20+ years international career in Operations, Change Management, Strategy, M&amp;A, Marketing &amp; PR, Product Management, Consulting, build-up organisations of industry/vertical teams and diversified go-to-market channels (among many other areas), Cristina joined the foundation in June 2019 to lead the organization’s Marketing, Press and PR teams, with a strong focus on corporate portfolio and partner activities.',
-    linkedin: 'https://www.linkedin.com/in/brandtstetter',
-    twitter: '',
-    domain: '',
-    location: '',
-    flag: ''
-  },
-  {
-    name: 'David Campo',
-    img:
-      'https://www.fiware.org/wp-content/directories/people/images/team/david-campo.png',
-    position: 'Senior Technical Expert &amp; Evangelist',
-    company: 'FIWARE Foundation',
-    'company-link': 'https://www.fiware.org/',
-    content: '',
-    linkedin: 'https://www.linkedin.com/in/davidnazarenocampo/',
-    twitter: 'https://twitter.com/dncampo',
-    domain: '',
-    location: '',
-    flag: ''
-  },
-  {
-    name: 'José Ignacio Carretero',
-    img:
-      'https://www.fiware.org/wp-content/directories/people/images/team/jose-ignacio-carretero.png',
-    position: 'Cloud &amp; Platform Expert',
-    company: 'FIWARE Foundation',
-    'company-link': 'https://www.fiware.org/',
-    content: '',
-    linkedin:
-      'https://www.linkedin.com/in/jos%C3%A9-ignacio-carretero-guarde-789622ab/',
-    twitter: 'https://twitter.com/jicarreterogu',
-    domain: '',
-    location: '',
-    flag: ''
-  },
-  {
-    name: 'Chandra Challagonda',
-    img:
-      'https://www.fiware.org/wp-content/directories/people/images/team/chandra-challagonda.png',
-    position: 'Solution Architect',
-    company: 'FIWARE Foundation',
-    'company-link': 'https://www.fiware.org/',
-    content: '',
-    linkedin: 'https://linkedin.com/in/challagonda',
-    twitter: 'https://twitter.com/challagonda',
-    domain: '',
-    location: '',
-    flag: ''
-  },
-  {
-    name: 'Kseniia Chernikova',
-    img:
-      'https://www.fiware.org/wp-content/directories/people/images/team/kseniia-chernikova.png',
-    position: 'PR Manager',
-    company: 'FIWARE Foundation',
-    'company-link': 'https://www.fiware.org/',
-    content: '',
-    linkedin: 'https://www.linkedin.com/in/kseniia-chernikova-184553211/',
-    twitter: '',
-    domain: '',
-    location: '',
-    flag: ''
-  },
-  {
-    name: 'Giacomo De Panfilis',
-    img:
-      'https://www.fiware.org/wp-content/directories/people/images/team/giacomo-depanfilis.png',
-    position: 'Design Manager',
-    company: 'FIWARE Foundation',
-    'company-link': 'https://www.fiware.org/',
-    content: '',
-    linkedin: 'https://www.linkedin.com/in/giacomodepanfilis/',
-    twitter: 'https://twitter.com/_gdepa',
-    domain: '',
-    location: '',
-    flag: ''
-  },
-  {
-    name: 'Stefano De Panfilis',
-    img:
-      'https://www.fiware.org/wp-content/directories/people/images/team/stefano-depanfilis.png',
-    position: 'Chief Operations Officer',
-    company: 'FIWARE Foundation',
-    'company-link': 'https://www.fiware.org/',
-    content:
-      'Stefano joined Engineering Ingegneria Informatica S.p.A. in 1984 and went from Director of R&amp;D Laboratories Department (overseeing 100+ researchers in Europe and beyond) to Chief Innovation Officer of the Engineering Group in 2011. He joined FIWARE Foundation in 2017. Besides his role as COO, he is responsible for the FIWARE Lab Nodes and is also a member of the FIWARE Technical Steering Committee.',
-    linkedin: 'https://www.linkedin.com/in/stefano-de-panfilis-1928a11/',
-    twitter: 'https://twitter.com/depa01',
-    domain: '',
-    location: '',
-    flag: ''
-  },
-  {
-    name: 'Hendrik Engel',
-    img:
-      'https://www.fiware.org/wp-content/directories/people/images/team/hendrik-engel.png',
-    position: 'Marketing &amp; Product Manager',
-    company: 'FIWARE Foundation',
-    'company-link': 'https://www.fiware.org/',
-    content: '',
-    linkedin: 'https://www.linkedin.com/in/hendrik-engel-3253a1197/',
-    twitter: '',
-    domain: '',
-    location: '',
-    flag: ''
-  },
-  {
-    name: 'Aljo Fazlagic',
-    img:
-      'https://www.fiware.org/wp-content/directories/people/images/team/aljo-fazlagic.png',
-    position: 'Administrational Assistant',
-    company: 'FIWARE Foundation',
-    'company-link': 'https://www.fiware.org/',
-    content: '',
-    linkedin: '',
-    twitter: '',
-    domain: '',
-    location: '',
-    flag: ''
-  },
-  {
-    name: 'Jason Fox',
-    img:
-      'https://www.fiware.org/wp-content/directories/people/images/team/jason-fox.png',
-    position: 'Senior Technical Expert &amp; Evangelist',
-    company: 'FIWARE Foundation',
-    'company-link': 'https://www.fiware.org/',
-    content:
-      'Joined the FIWARE Foundation three years ago in the role of Senior Technical Evangelist. He is a Software Engineer with over twenty years experience in mobile and IT having previously worked at Nokia and HERE Technologies. Jason’s current role encompasses the development and assessment of FIWARE Technologies and technical coaching and training.',
-    linkedin: 'https://www.linkedin.com/in/jason-fox-8a79563/',
-    twitter: '',
-    domain: '',
-    location: '',
-    flag: ''
-  },
-  {
-    name: 'Lucca Giusti',
-    img:
-      'https://www.fiware.org/wp-content/directories/people/images/team/lucca-giusti.png',
-    position: 'Working Student',
-    company: 'FIWARE Foundation',
-    'company-link': 'https://www.fiware.org/',
-    content: '',
-    linkedin: 'https://www.linkedin.com/in/lucca-moreira-giusti-0648b816b/',
-    twitter: '',
-    domain: '',
-    location: '',
-    flag: ''
-  },
-  {
-    name: 'Juanjo Hierro',
-    img:
-      'https://www.fiware.org/wp-content/directories/people/images/team/juanjo-hierro.png',
+      'https://www.fiware.org/wp-content/directories/people/images/bod/federico-facca.png',
     position: 'Chief Technology Officer',
-    company: 'FIWARE Foundation',
-    'company-link': 'https://www.fiware.org/',
-    content:
-      'Juanjo is the Chief Technology Officer (CTO) of FIWARE Foundation. He is also the chairman of the FIWARE Technical Steering Committee and coordinates the FIWARE Tech Roadmap. He also supports the FIWARE Community in developing the vision and value proposition of FIWARE in the several domains where it is being applied. Juanjo is also part of the Technical Advisory Council of the Open and Agile Smart Cities (OASC) initiative which he helped to found. OASC is aimed at creating a Digital Single Market for Smart Cities, based on the adoption of common Minimum Interoperability Mechanisms (MIMs) that enable smart city services to be replicable across cities and portable across platforms.',
-    linkedin: 'https://www.linkedin.com/in/jhierro/',
-    twitter: 'https://twitter.com/JuanjoHierro',
-    domain: '',
-    location: '',
-    flag: ''
-  },
-  {
-    name: 'Anastasiia Holub',
-    img:
-      'https://www.fiware.org/wp-content/directories/people/images/team/anastasiia-holub.png',
-    position: 'Marketing &amp; Outreach Manager',
-    company: 'FIWARE Foundation',
-    'company-link': 'https://www.fiware.org/',
+    company: 'Martel Innovation',
+    'company-link': 'https://www.martel-innovate.com/',
     content: '',
-    linkedin: 'https://www.linkedin.com/in/anastasiia-holub-9b50b994/',
-    twitter: '',
-    domain: '',
-    location: '',
-    flag: ''
+    linkedin: 'https://www.linkedin.com/in/federicofacca/',
+    twitter: 'https://twitter.com/chicco785',
+    domain: 'Gold',
+    location: 'Switzerland',
+    flag:
+      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Switzerland.png'
   },
   {
-    name: 'Andrea Kather',
+    name: 'Tony Fortenberry',
     img:
-      'https://www.fiware.org/wp-content/directories/people/images/team/andrea-kather.png',
-    position: 'Assistant to the BOO',
-    company: 'FIWARE Foundation',
-    'company-link': 'https://www.fiware.org/',
+      'https://www.fiware.org/wp-content/directories/people/images/bod/tony-fortenberry.png',
+    position: 'Director of Business Development',
+    company: 'Red Hat',
+    'company-link': 'https://www.redhat.com/en',
+    content: '',
+    linkedin: 'https://www.linkedin.com/in/tonyfortenberry/',
+    twitter: '',
+    domain: 'Platinum',
+    location: 'United States',
+    flag:
+      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_United-States.png'
+  },
+  {
+    name: 'Angelo Giuliana',
+    img:
+      'https://www.fiware.org/wp-content/directories/people/images/ico_user.png',
+    position: 'General Manager',
+    company: 'MediTech',
+    'company-link': 'https://meditech4.com/',
+    content: '',
+    linkedin: 'https://www.linkedin.com/in/angelogiuliana/',
+    twitter: '',
+    domain: 'Gold',
+    location: 'Italy',
+    flag:
+      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Italy.png'
+  },
+  {
+    name: 'Pierre Golz',
+    img:
+      'https://www.fiware.org/wp-content/directories/people/images/bod/pierre-golz.png',
+    position: 'Chief Digital Officer',
+    company: 'City of Herne',
+    'company-link': 'https://www.herne.de/',
+    content:
+      'After getting his diploma as a public administration specialist, Pierre joined the city as an organizational developer and change manager. Since 2013, he has been working on projects focused on digitization and process management, and, at the age of 31, Pierre is the city’s youngest CDO to date. Pierre is also a lecturer in E-Government, Digitization, and Knowledge Management (among other areas) and feels that being able to combine science, economy and public management adds considerably to his career and role within the city.',
+    linkedin: 'https://www.linkedin.com/in/pierre-golz-311396156/',
+    twitter: '',
+    domain: 'Gold',
+    location: 'Germany',
+    flag:
+      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png'
+  },
+  {
+    name: 'Dilip Hanumara',
+    img:
+      'https://www.fiware.org/wp-content/directories/people/images/bod/dilip-hanumara.png',
+    position: 'Chief Executive Officer',
+    company: 'Trigyn Technologies',
+    'company-link': 'https://www.trigyn.com/',
     content: '',
     linkedin: '',
     twitter: '',
-    domain: '',
-    location: '',
-    flag: ''
+    domain: 'Platinum',
+    location: 'India',
+    flag:
+      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_India.png'
   },
   {
-    name: 'Oleg Korneev',
+    name: 'Antonio Jara',
     img:
-      'https://www.fiware.org/wp-content/directories/people/images/team/oleg-korneev.png',
-    position: 'Marketing Manager',
-    company: 'FIWARE Foundation',
-    'company-link': 'https://www.fiware.org/',
-    content: '',
-    linkedin: 'https://www.linkedin.com/in/korneev-oleg-projectmanager',
-    twitter: '',
-    domain: '',
-    location: '',
-    flag: ''
-  },
-  {
-    name: 'Charlotte Kotterman',
-    img:
-      'https://www.fiware.org/wp-content/directories/people/images/team/charlotte-kotterman.png',
-    position: 'Community Manager',
-    company: 'FIWARE Foundation',
-    'company-link': 'https://www.fiware.org/',
-    content: '',
-    linkedin: 'https://de.linkedin.com/in/charlottekotterman',
-    twitter: 'https://twitter.com/char_kotterman',
-    domain: '',
-    location: '',
-    flag: ''
-  },
-  {
-    name: 'Yuzhen Li',
-    img:
-      'https://www.fiware.org/wp-content/directories/people/images/team/yuzhen-li.png',
-    position: 'Working Student',
-    company: 'FIWARE Foundation',
-    'company-link': 'https://www.fiware.org/',
-    content: '',
-    linkedin: 'https://www.linkedin.com/in/yuzhen-li-b242421a4/',
-    twitter: '',
-    domain: '',
-    location: '',
-    flag: ''
-  },
-  {
-    name: 'Fernando López Aguilar',
-    img:
-      'https://www.fiware.org/wp-content/directories/people/images/team/fernando-lopez-aguilar.png',
-    position: 'Cloud &amp; Platform Expert',
-    company: 'FIWARE Foundation',
-    'company-link': 'https://www.fiware.org/',
+      'https://www.fiware.org/wp-content/directories/people/images/bod/antonio-jara.png',
+    position: 'Chief Scientific Officer',
+    company: 'Hopu – Libelium',
+    'company-link': 'https://hopu.eu/',
     content:
-      'Fernando López de Aguilar (male) is FIWARE Cloud and Platform Senior Expert at the FIWARE Foundation. He obtained a Bachelor Degree in computer science summa cum laude by E.P.S. Córdoba and Master Degree in Computer Science from the E.T.S Ingeniería Informática - University of Málaga in 1998. In March 2000, he started working in Meta4 S.A. as a Software Engineer at R&amp;D Department as a Database Expert and Java developer. In May 2001, he joined Telefónica I+D where he participated in multiple R&amp;D project lines covering advanced broadband communications, NGN, IPv4/IPv6 compatibility, Mobile IP, multimedia applications, new mobile services, M2M communication, semantic web sensors, NoSQL DB and definition of IoT reference architecture. Since 2011 and until he joined the FIWARE Foundation.',
-    linkedin: 'https://www.linkedin.com/in/fernandolopezaguilar/',
-    twitter: 'https://twitter.com/flopezaguilar',
-    domain: '',
-    location: '',
-    flag: ''
+      'Antonio has a PhD from the University of Murcia (Spain) and a MBA from the ENAE business school and UCAM (2012). He has received entrepreneurship awards from ENAE, emprendeGo, IPSO Alliance Award for its disruptive innovation in the IoT. As part of HOP Ubiquitous, Jara is focused on the Smart Cities market with solutions for citizens engagements, tourism, active participation, physical web and environmental monitoring (air quality sensors) in projects such as ENIAC SAFESENS, interoperability / pilots (SmartSDK, Synchronicity, Organicity, BeinCPPS) and also in several actions related to security/privacy (INPUT and FORTIKA).',
+    linkedin: 'https://www.linkedin.com/in/jara-libelium/',
+    twitter: 'https://twitter.com/antonio_jara',
+    domain: 'Gold',
+    location: 'Spain',
+    flag:
+      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png'
   },
   {
-    name: 'Francisco Meléndez',
+    name: 'Natalija Krivokapić',
     img:
-      'https://www.fiware.org/wp-content/directories/people/images/team/francisco-melendez.png',
-    position: 'Technical Expert &amp; Evangelist',
-    company: 'FIWARE Foundation',
-    'company-link': 'https://www.fiware.org/',
-    content: '',
-    linkedin: 'https://www.linkedin.com/in/franmelfer/',
-    twitter: '',
-    domain: '',
-    location: '',
-    flag: ''
-  },
-  {
-    name: 'Xhulja Melyshi',
-    img:
-      'https://www.fiware.org/wp-content/directories/people/images/team/xhulja-melyshi.png',
-    position: 'Marketplace Manager',
-    company: 'FIWARE Foundation',
-    'company-link': 'https://www.fiware.org/',
-    content: '',
-    linkedin: 'https://www.linkedin.com/in/xhulja-melyshi-273b66211/',
-    twitter: '',
-    domain: '',
-    location: '',
-    flag: ''
-  },
-  {
-    name: 'Clara Pezuela',
-    img:
-      'https://www.fiware.org/wp-content/directories/people/images/team/clara-pezuela.png',
-    position: 'Vice President Funded Programs',
-    company: 'FIWARE Foundation',
-    'company-link': 'https://www.fiware.org/',
-    content:
-      'Working in Atos since 22 years ago, she gained large experience in European research programs in digital domain. During such period I had the chance to participate in many diverse research projects doing different roles and working with many people across Europe.  She is a Computer Science engineer and Master in Innovation management. Technically speaking, She has been involved in sales and delivery about services architectures, cloud/edge computing, IoT and digital platforms. Additionally, she have a high level of knowledge in Open Source licensing, delivery and processes. Member of Technical Steering Committee at FIWARE Foundation and President of the Spanish Technology Platform for digital technologies on behalf of Atos. Currently, she is  Innovation Officer at CTO Office in Public Sector and Defense industry in charge of defining and putting in place the innovation strategy for this sector.',
-    linkedin: 'https://www.linkedin.com/in/clara-pezuela-2b1257/',
-    twitter: '',
-    domain: '',
-    location: '',
-    flag: ''
-  },
-  {
-    name: 'Jesús Ruiz Martinez',
-    img:
-      'https://www.fiware.org/wp-content/directories/people/images/team/jesus-ruiz.png',
-    position: 'Senior Consultant',
-    company: 'FIWARE Foundation',
-    'company-link': 'https://www.fiware.org/',
-    content:
-      'Member of the board and CTO of Alastria Blockchain Ecosystem, participates in the Technical Governance of EBSI (European Blockchain Services Infrastructure from European Commission and Member States), and in LACChain (blockchain network promoted by the Inter-American Development Bank). He inspired the Public-Permissioned model followed by those networks, where decentralized governance and SSI are critical components.',
-    linkedin: 'https://www.linkedin.com/in/jesus-ruiz-martinez/',
-    twitter: '',
-    domain: '',
-    location: '',
-    flag: ''
-  },
-  {
-    name: 'Tonia Sapia',
-    img:
-      'https://www.fiware.org/wp-content/directories/people/images/team/tonia-sapia.png',
-    position: 'Senior Marketing &amp; Project Manager',
-    company: 'FIWARE Foundation',
-    'company-link': 'https://www.fiware.org/',
-    content:
-      'Tonia holds a PhD in Intercultural Sociology from 2010-2013. With more than 10 years of Experiences, Tonia comes with a profound expertise in working as a commercial coach and evaluator in European projects like frontierCities (2014-2016) and frontierCities2 (2016-2018) FIWARE Accelerator programme. She joined FIWARE Foundation in 2018 as a project manager for European projects with a strong focus on “Connecting Europe Facility (CEF)”. Since then, she has extended her responsibilities to several highly strategic projects to position and grow FIWARE Foundation in the academic as well as in the Accelerators/VC world through her additional role as a Marketing Manager. Projects include a FIWARE University Programme for students and professors, the foundation of the FIWARE Scientific Advisory Board, publication of FIWARE Impact Stories and Open Calls matching for SMEs and Startups and a new programme around Reference Marketing. Her involvement with European projects has been extended ever since, including Open Data under the umbrella of CEF grants, CEFAT4Cities (eGov and Smart Cities domains), ODALA (Smart Cities and Open Data), INTERSTAT (Public Administrations and Open Data), and since October 2020, as project manager, to i4Trust, specifically for the DIH engagement and community building (DIH Ambassador Programme), SPOTTED, focus on Earth Observation and Satellite Data, GreenMov, more related to smart Mobility and Smart Cities, Enershare, focused on Smart Solutions for Smart Energy domain. She regularly contributes to the writing of proposals to the European Commission.',
-    linkedin: 'https://www.linkedin.com/in/tonia-sapia-a171bb63/',
-    twitter: '',
-    domain: '',
-    location: '',
-    flag: ''
-  },
-  {
-    name: 'Ángeles Tejado',
-    img:
-      'https://www.fiware.org/wp-content/directories/people/images/team/angeles-tejado.png',
-    position: 'Senior Project Manager',
-    company: 'FIWARE Foundation',
-    'company-link': 'https://www.fiware.org/',
+      'https://www.fiware.org/wp-content/directories/people/images/bod/natalija-krivokapic%CC%81.png',
+    position: 'Head of Global IoT',
+    company: 'Atos',
+    'company-link': 'https://atos.net/en/',
     content: '',
     linkedin:
-      'https://www.linkedin.com/in/%C3%A1ngeles-tejado-s%C3%A1nchez-2a61b411/',
+      'https://www.linkedin.com/in/dr-natalija-krivokapi%C4%87-b346563/',
     twitter: '',
-    domain: '',
-    location: '',
-    flag: ''
+    domain: 'Platinum',
+    location: 'Germany',
+    flag:
+      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png'
   },
   {
-    name: 'Karen Vega',
+    name: 'Abdulmajeed Mangarah',
     img:
-      'https://www.fiware.org/wp-content/directories/people/images/team/karen-vega.png',
-    position: 'Senior Business Development Manager',
-    company: 'FIWARE Foundation',
-    'company-link': 'https://www.fiware.org/',
+      'https://www.fiware.org/wp-content/directories/people/images/bod/abdulmajeed-mangarah.png',
+    position: 'Smart City Program Director',
+    company: 'MRDA',
+    'company-link': 'https://www.mda.gov.sa/',
+    content: '',
+    linkedin: 'https://www.linkedin.com/in/abdulmajeedsaud/',
+    twitter: '',
+    domain: 'Platinum',
+    location: 'Saudi Arabia',
+    flag:
+      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_SaudiArabia.png'
+  },
+  {
+    name: 'Yasunori Mochizuki',
+    img:
+      'https://www.fiware.org/wp-content/directories/people/images/bod/yasunori-mochizuki.png',
+    position: 'NEC Fellow',
+    company: 'NEC Corporation',
+    'company-link': 'https://www.nec.com/',
     content:
-      'Currently Senior Manager at FIWARE Foundation. Master in Public Policy from Harvard University focusing on social and economic development. Member of the FIWARE IHubs support committee and the executive board of TOKEN Transformative Impact of Blockchain Technologies . Karen has held director roles in the public administration in her home country in Latin America among those were the Congress, Ministry of Housing, Building, Sanitation &amp; Health.',
-    linkedin: 'https://de.linkedin.com/in/karenvega',
-    twitter: '',
-    domain: '',
-    location: '',
-    flag: ''
+      'Yasunori joined NEC in 1987, straight after concluding his PhD in Electronics Engineering. He went on to spend over two decades at NEC’s corporate R&amp;D center, first as a research scientist and later as a department manager, gaining broader technical expertise, including solid-state physics, semiconductor devices/LSIs, and computer science. Later in 2013, Yasunori started working at NEC’s newly-created Business Innovation Unit. As a senior vice president, he was responsible for the corporate-wide technology strategy and IoT business strategy. His current title of NEC Fellow means that he actively participates in innovation policy proposals, global ecosystem building related to smart society, and digital transformation. He is also a BoD member of FIWARE Foundation, World Economic Forum. Fellow, and member of Business at OECD (BIAC) Committee for Digital Economy Policy.',
+    linkedin: 'https://www.linkedin.com/in/yasunori-mochizuki-93bab674/',
+    twitter: 'https://twitter.com/yasunorimochiz',
+    domain: 'Platinum',
+    location: 'Japan',
+    flag:
+      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Japan.png'
   },
   {
-    name: 'Dennis Wendland',
+    name: 'Björn Schwarze',
     img:
-      'https://www.fiware.org/wp-content/directories/people/images/team/dennis-wendland.png',
-    position: 'Technical Lead &amp; Architect',
-    company: 'FIWARE Foundation',
-    'company-link': 'https://www.fiware.org/',
-    content:
-      'Dr. Dennis Wendland is a Technical Lead and Architect at the FIWARE Foundation where he is involved in a variety of projects in the field of data spaces. He holds a doctorate in high energy physics from Humboldt University of Berlin gaining a broad experience in the development of particle collision data analysis software and the statistical analysis of large data sets. His doctoral dissertation was about the search of new elementary particles at high-energy collisions at the CERN Large Hadron Collider in Geneva. After his doctorate, he has also worked at T-Systems and Deutsche Telekom AG acquiring expertise in the development, architecture and management of large software projects.',
-    linkedin: 'https://www.linkedin.com/in/dennis-wendland/',
-    twitter: '',
-    domain: '',
-    location: '',
-    flag: ''
-  },
-  {
-    name: 'Stefan Wiedemann',
-    img:
-      'https://www.fiware.org/wp-content/directories/people/images/team/stefan-wiedemann.png',
-    position: 'Technical Lead &amp; Architect',
-    company: 'FIWARE Foundation',
-    'company-link': 'https://www.fiware.org/',
+      'https://www.fiware.org/wp-content/directories/people/images/bod/bjo%CC%88rn-schwarze.png',
+    position: 'Managing Director',
+    company: 'ADDIX',
+    'company-link': 'https://www.addix.net/',
     content: '',
-    linkedin: 'https://www.linkedin.com/in/stefan-wiedemann-37a0ba13a/',
+    linkedin: 'https://www.linkedin.com/in/bjoernschw/',
     twitter: '',
-    domain: '',
-    location: '',
-    flag: ''
-  },
-  {
-    name: 'Ken Zangelin',
-    img:
-      'https://www.fiware.org/wp-content/directories/people/images/team/ken-zangelin.png',
-    position: 'Senior Technical Expert &amp; Evangelist',
-    company: 'FIWARE Foundation',
-    'company-link': 'https://www.fiware.org/',
-    content: '',
-    linkedin: 'https://www.linkedin.com/in/kzangeli/',
-    twitter: '',
-    domain: '',
-    location: '',
-    flag: ''
-  },
-  {
-    name: 'Rosemah Zia',
-    img:
-      'https://www.fiware.org/wp-content/directories/people/images/team/rosemah-zia.png',
-    position: 'Working Student',
-    company: 'FIWARE Foundation',
-    'company-link': 'https://www.fiware.org/',
-    content: '',
-    linkedin: 'https://www.linkedin.com/in/rosemah-zia-a04237108/',
-    twitter: '',
-    domain: '',
-    location: '',
-    flag: ''
+    domain: 'Gold',
+    location: 'Germany',
+    flag:
+      'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png'
   }
 ];
