@@ -49,9 +49,9 @@
 
     {{#if (gt companies.length 1)}}
     <div class="filter-element">
-        <label for="filterCompany" class="dropdown-label">{{labels.organizations}}</label>
+        <label for="filterCompany" class="dropdown-label">{{labels.companies}}</label>
         <select name="" id="filterCompany" class="dropdown-last">
-            <option value="*">{{labels.allOrganizations}}</option>
+            <option value="*">{{labels.allCompanies}}</option>
             {{#each companies}}
                 {{#if (ne this "")}}
             	   <option value="{{createClass this}}">{{this}}</option>

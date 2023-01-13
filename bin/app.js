@@ -329,7 +329,7 @@ if (PROCESS.startsWith('people')) {
         filters: [],
         countries: sortData(people, 'country'),
         people,
-        STATIC_DATA: templateData
+        labels: templateData
       };
 
       const filters = [];
