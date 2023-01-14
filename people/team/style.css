@@ -697,6 +697,34 @@
         transition: none;
     }
 
+    .featured {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+    }
+
+    .featured-logo {
+        height: 24px;
+        display: block;
+        margin-bottom: 20px;
+        margin-right: auto;
+    }
+
+    .featured-logo img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        object-position: 0px;
+        margin-left: 0px;
+    }
+
+    #ico-featured {
+        color: #002e67;
+    }
+
+    #ico-white {
+        color: #fff;
+    }
 
     .profile-details {
         padding: 0 20px;
