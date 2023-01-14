@@ -79,7 +79,7 @@
     line-height: 1.4em;
     padding: 0px 0px 10px 0px;
     /*cursor: default;*/
-    
+
 }
 
 .department {
@@ -162,7 +162,7 @@
     border-radius: 20px 20px 20px 20px;
     overflow: hidden;
     padding: 6px 12px 8px;
-    /* margin-right: 8px; */
+    margin-top: 10px;
     display: inline-block;
 }
 
@@ -200,7 +200,7 @@
     flex-direction: row;
     text-align: center;
     margin: 0 auto;
-    gap:10px;
+    gap: 10px;
 }
 
 .icon::before {
@@ -368,6 +368,7 @@
     font-weight: 500;
     color: #002e67;
     font-size: 13px;
+    line-height: 1.5em;
     text-decoration: underline;
     padding: 0px 0px 6px 0px;
 }
@@ -512,12 +513,12 @@
 .company {
     font-size: 0.7em;
     line-height: 1em;
-    color: #000!important;
+    color: #000 !important;
     cursor: pointer;
 }
 
 .company:hover {
-    color: #000!important;
+    color: #000 !important;
     text-decoration: underline;
 }
 
@@ -548,20 +549,20 @@
 
 .social-modal {
     display: flex;
-    gap:10px;
+    gap: 10px;
 }
 
 .tags-modal p.domain {
-  font-size: 14px;
-  font-weight: 500;
-  color: #5dc0cf;
-  background-color: #e5f5f7;
-  position: relative;
-  border-radius: 20px;
-  overflow: hidden;
-  padding: 4px 12px;
-  display: inline-block;
-  height: 28px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #5dc0cf;
+    background-color: #e5f5f7;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 4px 12px;
+    display: inline-block;
+    height: 28px;
 }
 
 .tags-modal p.location {
@@ -880,7 +881,7 @@
         flex-direction: row;
         margin-bottom: 0px;
         margin-right: 20px;
-        padding-top: 0px; 
+        padding-top: 0px;
     }
 
     .tags-modal .location:before {
@@ -978,7 +979,7 @@
     line-height: 1em;
 }
 
-  
+
 /* Toggle Open Close Filters */
 
 #mobileToggleFilters {
