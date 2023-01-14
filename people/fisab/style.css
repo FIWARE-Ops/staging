@@ -162,7 +162,7 @@
     border-radius: 20px 20px 20px 20px;
     overflow: hidden;
     padding: 6px 12px 8px;
-    /* margin-right: 8px; */
+    margin-top: 10px;
     display: inline-block;
 }
 
@@ -368,6 +368,7 @@
     font-weight: 500;
     color: #002e67;
     font-size: 13px;
+    line-height: 1.5em;
     text-decoration: underline;
     padding: 0px 0px 6px 0px;
 }
