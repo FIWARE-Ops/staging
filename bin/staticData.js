@@ -14,7 +14,7 @@ const DEFAULT_LABELS = {
   allRoles: 'All Roles',
   allDomains: 'All Domains',
   allCommittees: 'All Committees',
-  allTypes: 'All Speaker Types',
+  allTypes: 'All Types',
 
   html: 'people.html',
   pageData: 'peopleModal.html',
@@ -46,21 +46,28 @@ PEOPLE_DATA.tsc.title = 'Technical Steering Committee';
 PEOPLE_DATA.speakers.title = 'Speakers';
 
 //  Specific Label overrides for FIWARE Team
-PEOPLE_DATA.team.countries = 'Country of Origin';
+PEOPLE_DATA.team.countries = 'Location';
 PEOPLE_DATA.team.allCountries = 'All Locations';
 
+//  Specific Label overrides for Board of Directors
 PEOPLE_DATA.bod.domains = 'Member Type';
-PEOPLE_DATA.bod.allDomains = 'All Types';
+PEOPLE_DATA.bod.allDomains = 'All Member Types';
 
+//  Specific Label overrides for Technical Steering Committee
 PEOPLE_DATA.tsc.domains = 'Member Type';
-PEOPLE_DATA.tsc.allDomains = 'All Types';
-PEOPLE_DATA.tsc.companies = 'Organization';
-PEOPLE_DATA.tsc.allCompanies = 'All Organizations';
+PEOPLE_DATA.tsc.allDomains = 'All Member Types';
 
+//  Specific Label overrides for Mission Support Committees
 PEOPLE_DATA.msc.domains = 'Committees';
 PEOPLE_DATA.msc.allDomains = 'All Committees';
-PEOPLE_DATA.msc.companies = 'Organization';
-PEOPLE_DATA.msc.allDompanies = 'All Organizations';
+
+//  Specific Label overrides for Scientific Advisory Board
+PEOPLE_DATA.fisab.domains = "Member Type";
+PEOPLE_DATA.fisab.allDomains = "All Member Types";
+
+//  Specific Label overrides for Speakers
+PEOPLE_DATA.speakers.domains = "Speaker Type";
+PEOPLE_DATA.speakers.allDomains = "All Speaker Types";
 
 function getPeopleData(type) {
   return PEOPLE_DATA[type];
