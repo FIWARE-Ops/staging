@@ -9,6 +9,7 @@ var companies = [
     'Ficodes',
     'FIWARE Foundation',
     'Martel Innovation',
+    'NEC Corporation',
     'NEC Lab Europe',
     'Orange',
     'Red Hat',
@@ -41,7 +42,7 @@ var titles = [
     'Technical Expert',
     'Technical Lead'
 ];
-var countries = ['France', 'Germany', 'Italy', 'Spain', 'Sweden', 'Switzerland'];
+var countries = ['France', 'Germany', 'India', 'Italy', 'Spain', 'Sweden', 'Switzerland'];
 var modalData = [
     {
         name: 'Alberto Abella',
@@ -384,6 +385,19 @@ var modalData = [
         flag: 'https://www.fiware.org/wp-content/directories/people/images/flag/flag_France.png'
     },
     {
+        name: 'Pooja Pathak',
+        img: '',
+        position: '',
+        company: 'NEC Corporation',
+        'company-link': 'https://www.nec.com/',
+        content: '',
+        linkedin: 'https://www.linkedin.com/in/pooja-pathak-05b53150',
+        twitter: '',
+        domain: 'Platinum',
+        location: 'India',
+        flag: 'https://www.fiware.org/wp-content/directories/people/images/flag/flag_India.png'
+    },
+    {
         name: 'Miguel Ángel Pedraza',
         img: 'https://www.fiware.org/wp-content/directories/people/images/tsc/miguel-angel-pedraza.png',
         position: 'FIWARE Technical Expert',
@@ -417,7 +431,7 @@ var modalData = [
         company: 'Universidad Politécnica de Madrid',
         'company-link': 'https://www.upm.es/internacional',
         content:
-            'Prof. Joaquín Salvachúa received a master degree in Computer Science. He holds the Orange Chair for the “Science of Complex Networks” and the Kairos Chair on “Bank Middleware and Blockchain” at UPM and is a member of the UPM-ING and CyberAula groups. He has participated in several Euxropean research projects with several publications at international magazines, books and conferences. (https://orcid.org/0000-0002-7269-8079). Also have participated in several standardization activities, including been coauthor one RFC ( RFC 8802 ).His research focuses today on WebRTC, Cloud infrastructure, social graphs and recommendation, agile cloud infrastructures, P2P, DHT (Distributed HashTables), IOT, Non SQL Data Bases, Big data processing architectures, Identity Management and BlockChain distributed agreement algorithms.His teaching duties includes cloud computing, distributed application development, Databases, Web Full-stack development, Blockchain architecture, Data Engineering and Big data architecture and applications. Has been involved in the FIWARE Initiative since it started (2010) and he is architect and developer of several GE related to security, data persistence and Big Data analysis.',
+            'Prof. Joaquín Salvachúa received a master degree in Computer Science. He holds the Orange Chair for the “Science of Complex Networks” and the Kairos Chair on “Bank Middleware and Blockchain” at UPM and is a member of the UPM-ING and CyberAula groups. He has participated in several European research projects with several publications at international magazines, books and conferences. (https://orcid.org/0000-0002-7269-8079). Also have participated in several standardization activities, including been coauthor one RFC ( RFC 8802 ).His research focuses today on WebRTC, Cloud infrastructure, social graphs and recommendation, agile cloud infrastructures, P2P, DHT (Distributed HashTables), IOT, Non SQL Data Bases, Big data processing architectures, Identity Management and BlockChain distributed agreement algorithms.His teaching duties includes cloud computing, distributed application development, Databases, Web Full-stack development, Blockchain architecture, Data Engineering and Big data architecture and applications. Has been involved in the FIWARE Initiative since it started (2010) and he is architect and developer of several GE related to security, data persistence and Big Data analysis.',
         linkedin: 'https://es.linkedin.com/in/jsalvachua',
         twitter: 'https://twitter.com/jsalvachua',
         domain: 'Associates',
@@ -436,6 +450,19 @@ var modalData = [
         domain: 'Platinum',
         location: 'France',
         flag: 'https://www.fiware.org/wp-content/directories/people/images/flag/flag_France.png'
+    },
+    {
+        name: 'Pasquale Vitale',
+        img: '',
+        position: 'Researcher',
+        company: 'Engineering',
+        'company-link': 'https://www.eng.it/en/',
+        content: '',
+        linkedin: '',
+        twitter: '',
+        domain: 'Platinum',
+        location: 'Italy',
+        flag: 'https://www.fiware.org/wp-content/directories/people/images/flag/flag_Italy.png'
     },
     {
         name: 'Dennis Wendland',

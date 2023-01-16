@@ -25,11 +25,11 @@ var titles = [
     'CSO',
     'CTO',
     'Director',
+    'Fellow',
     'General Manager',
-    'Head of Global IoT',
+    'Global Head',
     'IoT Specialist',
     'Managing Director',
-    'NEC Fellow',
     'Smart Cities Specialist'
 ];
 var countries = [
@@ -132,7 +132,8 @@ var modalData = [
         position: 'Chief Technology Officer',
         company: 'Martel Innovation',
         'company-link': 'https://www.martel-innovate.com/',
-        content: '',
+        content:
+            'Federico is the CTO of Martel, leading internal IT projects and acting as strategic lead consultant to customers, including the European Commission. Federico’s current core project is Orchestra Cities, a modular and flexible cloud-native IoT platform (mostly used in the Smart City domain). He has an extensive experience on Cloud-Native architectures, Infrastructure as a Code approach, continuous testing and monitoring to ensure infrastructure reliability. He is a strong advocate of Open Source and thrive to use and contribute to Open Source solutions. In his career he lead different large R&amp;D projects, ranging from industrial systems integration to data center deployment and federation. Before joining Martel Innovate, Federico has been area head in different FBK-CREATE-NET and STI Innsbruck. He holds a PhD and MSc in Computer Science.',
         linkedin: 'https://www.linkedin.com/in/federicofacca/',
         twitter: 'https://twitter.com/chicco785',
         domain: 'Gold',
