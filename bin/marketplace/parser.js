@@ -1,4 +1,13 @@
-const Parser = require('./dataParser');
+const csv = require('csvtojson');
+const _ = require('underscore');
+const Downloader = require('../downloader');
+const Parser = require('../dataParser');
+const Template = require('../template');
+const CATEGORIES = ['powered', 'ready', 'services', 'cities'];
+const TEMPLATE_PATH = 'bin/marketplace/';
+
+let productDetails;
+
 const docFields = ['Tech Documentation', 'Doc 2', 'Doc 3', ' Doc 4', 'Doc 5'];
 const mediaFields = ['Media', 'Media 2', 'Media 3', 'Media 4', 'Media 5'];
 
@@ -11,56 +20,6 @@ const refFields = [
 ];
 
 const path = require('path');
-
-function extractWebinars(input) {
-  const webinars = [];
-  input.forEach(item => {
-    const webinar = {
-      name: item.name,
-      img: item.img,
-      companyLink: item.companyLink,
-      domain: Parser.splitStrings(item.domain),
-      type: item.type,
-      technology: Parser.splitStrings(item.technology),
-      year: parseInt(item.year),
-      difficulty: parseInt(item.difficulty),
-      content: Parser.markdown(item.content)
-    };
-    webinars.push(webinar);
-  });
-  return webinars;
-}
-
-function extractPeople(input) {
-  const people = [];
-  input.forEach(item => {
-    const person = {
-      name: item['Full Name'],
-      surname: item['Surname Filters'],
-      img: item['Profile Picture'],
-      company: item['Company'],
-      domain: item['Domain'],
-      website: item['Company website'],
-      job: item['Job title'],
-      bio: item['Bio'] ? item['Bio'].replaceAll(/[\n\r]+/g, ' ') : '',
-      linkedIn: item['LinkedIn'],
-      twitter: item['Twitter'],
-      department: item['Department'],
-      country: item['Country'],
-      flag: item['Country flag'],
-      filters: Parser.splitStrings(item['Keyword Job Title Filters']),
-      publish: Parser.boolean(item['Published'])
-    };
-
-    if (person.publish) {
-      people.push(person);
-    }
-  });
-
-  return people.sort((a, b) => {
-    return a.surname.localeCompare(b.surname);
-  });
-}
 
 function extractProductDetails(input) {
   const images = [];
@@ -204,6 +163,7 @@ function extractSummaryInfo(input, details) {
         obj.companyLink =
           '../product-details/?category=' + category + '&id=' + hash;
       } else {
+        console.log('FALLBACK LINK:  ' + category + ' ' + hash);
         obj.companyLink = item['Product Website'];
       }
       obj.domain = item['Domains'];
@@ -243,23 +203,152 @@ function extractSummaryInfo(input, details) {
 }
 
 function extractFeatured(summaryInfo) {
-  const featured = [
+  const featured = [];
+  const extract = [
     ...summaryInfo.powered.slice(-4),
     ...summaryInfo.ready.slice(-4)
     //   ...summaryInfo.services.slice(-2),
     //   ...summaryInfo.cities.slice(-2)
   ];
 
-  featured.forEach(item => {
-    if (item.companyLink.startsWith('..')) {
-      item.companyLink = item.companyLink.substring(1);
+  extract.forEach(item => {
+    const featuredItem = _.clone(item);
+    if (featuredItem.companyLink.startsWith('..')) {
+      featuredItem.companyLink = featuredItem.companyLink.substring(1);
     }
+    featured.push(featuredItem);
   });
   return featured;
 }
 
-exports.extractFeatured = extractFeatured;
-exports.extractPeople = extractPeople;
-exports.extractProductDetails = extractProductDetails;
-exports.extractSummaryInfo = extractSummaryInfo;
-exports.extractWebinars = extractWebinars;
+function relatedProducts(product, allCategories, category) {
+  const regex = /([^a-zA-Z0-9À-ÿ])/gi;
+  const productHash = Parser.getHash(product.company, product.name);
+  const companyHash = product.company.replace(regex, '').toLowerCase();
+
+  const related = [];
+
+  _.keys(allCategories).forEach(category => {
+    allCategories[category].forEach(hash => {
+      if (hash !== productHash && hash.startsWith(companyHash + '-')) {
+        const product = findProduct(hash, category);
+        if (product) {
+          related.push(product);
+        }
+      }
+    });
+  });
+  if (!_.isEmpty(related) && productDetails.details[category][productHash]) {
+    productDetails.details[category][productHash].related = related;
+  }
+}
+
+function findProduct(hash, category) {
+  const product = productDetails.details[category][hash];
+
+  if (!product) {
+    console.log('DATA MISMATCH: ', category, hash);
+  }
+
+  return product
+    ? {
+        category: product.category,
+        featuredImage: product.featuredImage,
+        excerpt: product.excerpt,
+        productName: product.productName,
+        companyLink: './?category=' + category + '&id=' + hash
+      }
+    : null;
+}
+
+function parse(detailsFile, summaryFile) {
+  csv()
+    .fromFile(detailsFile)
+    .then(input => {
+      return extractProductDetails(input);
+    })
+    .then(allProducts => {
+      // Remember all feature images for later processing.
+      productDetails = allProducts;
+
+      csv()
+        .fromFile(summaryFile)
+        .then(input => {
+          return extractSummaryInfo(input, allProducts.details);
+        })
+        .then(summaryInfo => {
+          CATEGORIES.forEach(category => {
+            summaryInfo[category].forEach(prod => {
+              relatedProducts(prod, summaryInfo.hashes, category);
+            });
+          });
+          return summaryInfo;
+        })
+        .then(summaryInfo => {
+          Template.write(
+            'marketplace/powered-by-fiware/pageData.js',
+            path.join(TEMPLATE_PATH, 'modal.hbs'),
+            summaryInfo.powered
+          );
+          console.log('');
+          console.log(summaryInfo.powered.length + ' Products');
+
+          Template.write(
+            'marketplace/fiware-ready/pageData.js',
+            path.join(TEMPLATE_PATH, 'modal.hbs'),
+            summaryInfo.ready
+          );
+
+          console.log(summaryInfo.ready.length + ' Devices');
+          Template.write(
+            'marketplace/support-services/pageData.js',
+            path.join(TEMPLATE_PATH, 'modal.hbs'),
+            summaryInfo.services
+          );
+          console.log(summaryInfo.services.length + ' Services');
+          Template.write(
+            'marketplace/cities4cities/pageData.js',
+            path.join(TEMPLATE_PATH, 'modal.hbs'),
+            summaryInfo.cities
+          );
+          console.log(summaryInfo.cities.length + ' Cities');
+          Template.write(
+            'marketplace/product-details/pageData.js',
+            path.join(TEMPLATE_PATH, 'modal.hbs'),
+            productDetails.details
+          );
+
+          const featured = extractFeatured(summaryInfo);
+          Template.write(
+            'marketplace/product-details/featured.html',
+            path.join(TEMPLATE_PATH, 'featured.hbs'),
+            featured
+          );
+        });
+    })
+    .then(() => {
+      if (PROCESS === 'products+images') {
+        let promises = [];
+        productDetails.images.forEach(image => {
+          let promise = Downloader.downloadImages(image);
+          promises.push(promise);
+        });
+        Promise.all(promises)
+          .then(results => {
+            results.forEach(result => {
+              console.log(result);
+            });
+          })
+          .catch(e => {
+            console.log(e);
+          });
+      }
+      return;
+    })
+    .catch(e => {
+      console.log(e);
+      return;
+    });
+}
+
+exports.parse = parse;
