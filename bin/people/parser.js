@@ -9,6 +9,7 @@ const _ = require('underscore');
 const Static = require('./staticData');
 
 const TEMPLATE_PATH = 'bin/people/';
+const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/people/images/ico_user.png';
 
 function extractPeople(input) {
     const people = [];
@@ -16,7 +17,7 @@ function extractPeople(input) {
         const person = {
             name: item['Full Name'],
             surname: item['Surname Filters'],
-            img: item['Profile Picture'],
+            img: item['Profile Picture'] ? item['Profile Picture'] : DEFAULT_IMAGE,
             company: item['Company'],
             domain: item['Domain'],
             website: item['Company website'],

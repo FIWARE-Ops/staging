@@ -386,7 +386,7 @@ var modalData = [
     },
     {
         name: 'Pooja Pathak',
-        img: '',
+        img: 'https://www.fiware.org/wp-content/directories/people/images/ico_user.png',
         position: '',
         company: 'NEC Corporation',
         'company-link': 'https://www.nec.com/',
@@ -453,7 +453,7 @@ var modalData = [
     },
     {
         name: 'Pasquale Vitale',
-        img: '',
+        img: 'https://www.fiware.org/wp-content/directories/people/images/ico_user.png',
         position: 'Researcher',
         company: 'Engineering',
         'company-link': 'https://www.eng.it/en/',
