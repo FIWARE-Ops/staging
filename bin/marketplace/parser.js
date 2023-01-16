@@ -287,7 +287,7 @@ function parse(detailsFile, summaryFile) {
         .then(summaryInfo => {
           Template.write(
             'marketplace/powered-by-fiware/pageData.js',
-            path.join(TEMPLATE_PATH, 'modal.html'),
+            path.join(TEMPLATE_PATH, 'modal.hbs'),
             summaryInfo.powered
           );
           console.log('');
@@ -295,33 +295,33 @@ function parse(detailsFile, summaryFile) {
 
           Template.write(
             'marketplace/fiware-ready/pageData.js',
-            path.join(TEMPLATE_PATH, 'modal.html'),
+            path.join(TEMPLATE_PATH, 'modal.hbs'),
             summaryInfo.ready
           );
 
           console.log(summaryInfo.ready.length + ' Devices');
           Template.write(
             'marketplace/support-services/pageData.js',
-            path.join(TEMPLATE_PATH, 'modal.html'),
+            path.join(TEMPLATE_PATH, 'modal.hbs'),
             summaryInfo.services
           );
           console.log(summaryInfo.services.length + ' Services');
           Template.write(
             'marketplace/cities4cities/pageData.js',
-            path.join(TEMPLATE_PATH, 'modal.html'),
+            path.join(TEMPLATE_PATH, 'modal.hbs'),
             summaryInfo.cities
           );
           console.log(summaryInfo.cities.length + ' Cities');
           Template.write(
             'marketplace/product-details/pageData.js',
-            path.join(TEMPLATE_PATH, 'modal.html'),
+            path.join(TEMPLATE_PATH, 'modal.hbs'),
             productDetails.details
           );
 
           const featured = extractFeatured(summaryInfo);
           Template.write(
             'marketplace/product-details/featured.html',
-            path.join(TEMPLATE_PATH, 'featured.html'),
+            path.join(TEMPLATE_PATH, 'featured.hbs'),
             featured
           );
         });

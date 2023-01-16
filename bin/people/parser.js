@@ -70,17 +70,17 @@ function parse(file, page) {
 
       Template.write(
         path.join('people', page, 'people.html'),
-        path.join(TEMPLATE_PATH, 'card.html'),
+        path.join(TEMPLATE_PATH, 'card.hbs'),
         people
       );
       Template.write(
         path.join('people', page, 'pageData.js'),
-        path.join(TEMPLATE_PATH, 'modal.html'),
+        path.join(TEMPLATE_PATH, 'modal.hbs'),
         filterData
       );
       Template.write(
         path.join('people', page, 'filters.html'),
-        path.join(TEMPLATE_PATH, 'filter.html'),
+        path.join(TEMPLATE_PATH, 'filter.hbs'),
         filterData
       );
     })

@@ -40,17 +40,17 @@ function parse(file) {
 
       Template.write(
         'community/webinar-recordings/webinars.html',
-        path.join(TEMPLATE_PATH, 'card.html'),
+        path.join(TEMPLATE_PATH, 'card.hbs'),
         webinars
       );
       Template.write(
         'community/webinar-recordings/pageData.js',
-        path.join(TEMPLATE_PATH, 'modal.html'),
+        path.join(TEMPLATE_PATH, 'modal.hbs'),
         filterData
       );
       Template.write(
         'community/webinar-recordings/filters.html',
-        path.join(TEMPLATE_PATH, 'filter.html'),
+        path.join(TEMPLATE_PATH, 'filter.hbs'),
         filterData
       );
     })
