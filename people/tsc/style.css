@@ -64,6 +64,9 @@
 
 .profile-details {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 .profile-details p {
@@ -358,7 +361,7 @@
     font-size: 14px;
     color: #333;
     line-height: 1.4em;
-    padding: 0px 0px 10px 0px;
+    padding: 0px;
     /*cursor: default;*/
 }
 
@@ -370,7 +373,7 @@
     font-size: 13px;
     line-height: 1.5em;
     text-decoration: underline;
-    padding: 0px 0px 6px 0px;
+    padding: 0px;
 }
 
 .f-cat h6 {
@@ -380,7 +383,7 @@
     text-align: center;
     color: #002e67;
     line-height: 1.4em;
-    padding: 0px 0px 5px 0px;
+    padding: 0px;
     /*cursor: default;*/
 }
 
