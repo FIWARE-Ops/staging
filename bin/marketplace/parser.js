@@ -163,6 +163,7 @@ function extractSummaryInfo(input, details) {
         obj.companyLink =
           '../product-details/?category=' + category + '&id=' + hash;
       } else {
+        console.log('FALLBACK LINK:  ' + category + ' ' + hash);
         obj.companyLink = item['Product Website'];
       }
       obj.domain = item['Domains'];
@@ -202,17 +203,20 @@ function extractSummaryInfo(input, details) {
 }
 
 function extractFeatured(summaryInfo) {
-  const featured = [
+  const featured = [];
+  const extract = [
     ...summaryInfo.powered.slice(-4),
     ...summaryInfo.ready.slice(-4)
     //   ...summaryInfo.services.slice(-2),
     //   ...summaryInfo.cities.slice(-2)
   ];
 
-  featured.forEach(item => {
-    if (item.companyLink.startsWith('..')) {
-      item.companyLink = item.companyLink.substring(1);
+  extract.forEach(item => {
+    const featuredItem = _.clone(item);
+    if (featuredItem.companyLink.startsWith('..')) {
+      featuredItem.companyLink = featuredItem.companyLink.substring(1);
     }
+    featured.push(featuredItem);
   });
   return featured;
 }
@@ -281,29 +285,36 @@ function parse(detailsFile, summaryFile) {
           return summaryInfo;
         })
         .then(summaryInfo => {
-          Template.writeFile(
+          Template.write(
             'marketplace/powered-by-fiware/pageData.js',
+            path.join(TEMPLATE_PATH, 'modal.html'),
             summaryInfo.powered
           );
           console.log('');
           console.log(summaryInfo.powered.length + ' Products');
-          Template.writeFile(
+
+          Template.write(
             'marketplace/fiware-ready/pageData.js',
+            path.join(TEMPLATE_PATH, 'modal.html'),
             summaryInfo.ready
           );
+
           console.log(summaryInfo.ready.length + ' Devices');
-          Template.writeFile(
+          Template.write(
             'marketplace/support-services/pageData.js',
+            path.join(TEMPLATE_PATH, 'modal.html'),
             summaryInfo.services
           );
           console.log(summaryInfo.services.length + ' Services');
-          Template.writeFile(
+          Template.write(
             'marketplace/cities4cities/pageData.js',
+            path.join(TEMPLATE_PATH, 'modal.html'),
             summaryInfo.cities
           );
           console.log(summaryInfo.cities.length + ' Cities');
-          Template.writeFile(
+          Template.write(
             'marketplace/product-details/pageData.js',
+            path.join(TEMPLATE_PATH, 'modal.html'),
             productDetails.details
           );
 

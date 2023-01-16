@@ -2,20 +2,9 @@ const Handlebars = require('handlebars');
 const path = require('path');
 const fs = require('fs-extra');
 
-Handlebars.registerHelper({
-  eq: (v1, v2) => v1 === v2,
-  ne: (v1, v2) => v1 !== v2,
-  lt: (v1, v2) => v1 < v2,
-  gt: (v1, v2) => v1 > v2,
-  lte: (v1, v2) => v1 <= v2,
-  gte: (v1, v2) => v1 >= v2,
-  and() {
-    return Array.prototype.every.call(arguments, Boolean);
-  },
-  or() {
-    return Array.prototype.slice.call(arguments, 0, -1).some(Boolean);
-  }
-});
+function stringify(data) {
+  return JSON.stringify(data);
+}
 
 function createClass(data) {
   let result = '';
@@ -44,6 +33,22 @@ function rating(difficulty) {
 
 Handlebars.registerHelper('createClass', createClass);
 Handlebars.registerHelper('rating', rating);
+Handlebars.registerHelper('json', stringify);
+
+Handlebars.registerHelper({
+  eq: (v1, v2) => v1 === v2,
+  ne: (v1, v2) => v1 !== v2,
+  lt: (v1, v2) => v1 < v2,
+  gt: (v1, v2) => v1 > v2,
+  lte: (v1, v2) => v1 <= v2,
+  gte: (v1, v2) => v1 >= v2,
+  and() {
+    return Array.prototype.every.call(arguments, Boolean);
+  },
+  or() {
+    return Array.prototype.slice.call(arguments, 0, -1).some(Boolean);
+  }
+});
 
 function write(filename, template, input) {
   readTemplate(template, function(err, data) {
@@ -67,28 +72,4 @@ function readTemplate(template, callback) {
   fs.readFile(filePath, { encoding: 'utf-8' }, callback);
 }
 
-function writeFile(filename, data) {
-  fs.writeFile(
-    filename,
-    'var pageData = ' + JSON.stringify(data, null, 2) + ';',
-    function(err) {
-      if (err) return console.log(err);
-    }
-  );
-}
-
-function writeFilters(filename, types, domains, technologies) {
-  fs.writeFile(
-    filename,
-    `var types = ${JSON.stringify(types, null, 2)};
-var domains = ${JSON.stringify(domains, null, 2)};
-var technologies = ${JSON.stringify(technologies, null, 2)};`,
-    function(err) {
-      if (err) return console.log(err);
-    }
-  );
-}
-
 exports.write = write;
-exports.writeFile = writeFile;
-exports.writeFilters = writeFilters;
