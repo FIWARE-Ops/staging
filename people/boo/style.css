@@ -15,6 +15,12 @@
     box-sizing: border-box;
 }
 
+.featured {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
 /* ---- grid ---- */
 
 .grid {
@@ -697,6 +703,13 @@
         transition: none;
     }
 
+    #ico-featured {
+        color: #002e67;
+    }
+
+    #ico-white {
+        color: #fff;
+    }
 
     .profile-details {
         padding: 0 20px;
@@ -994,13 +1007,14 @@
     justify-content: center;
     padding: 15px 0px;
     cursor: pointer;
+    /* border-bottom: 1px solid #aaa; */
 }
 
 .filters-container {
     transition: height .5s ease;
     width: 100%;
     max-width: 1184px;
-    margin: 0 auto;
+    margin: 0 auto 10px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
