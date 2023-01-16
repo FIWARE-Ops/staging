@@ -8,7 +8,7 @@
             {{createClass domain}}'
     >
         <div class='f-cat active'>
-            <img class='city-photo' src='{{img}}' />
+            <img alt='' class='city-photo' src='{{img}}' loading='lazy' />
             <div class='profile-details'>
                 <h6 class='name'>{{name}}</h6>
                 <h4 class='position'>{{job}}</h4>
@@ -38,8 +38,10 @@
                 {{/if}}
                 {{#if country}}
                     <div class='cat-location'><span class='location-label'>{{country}}</span><img
+                            alt='{{country}}'
                             class='flag'
                             src='{{flag}}'
+                            loading='lazy'
                         /></div>
                 {{/if}}
             </div>
