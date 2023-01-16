@@ -62,12 +62,12 @@ PEOPLE_DATA.msc.domains = 'Committees';
 PEOPLE_DATA.msc.allDomains = 'All Committees';
 
 //  Specific Label overrides for Scientific Advisory Board
-PEOPLE_DATA.fisab.domains = "Member Type";
-PEOPLE_DATA.fisab.allDomains = "All Member Types";
+PEOPLE_DATA.fisab.domains = 'Member Type';
+PEOPLE_DATA.fisab.allDomains = 'All Member Types';
 
 //  Specific Label overrides for Speakers
-PEOPLE_DATA.speakers.domains = "Speaker Type";
-PEOPLE_DATA.speakers.allDomains = "All Speaker Types";
+PEOPLE_DATA.speakers.domains = 'Speaker Type';
+PEOPLE_DATA.speakers.allDomains = 'All Speaker Types';
 
 function getPeopleData(type) {
   return PEOPLE_DATA[type];
