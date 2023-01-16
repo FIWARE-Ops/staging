@@ -1,12 +1,10 @@
-
-
-<div class="filter-element">
-    <div class="products-record">
-        <div class="products-label">
-            <span id="ico-products" class="material-icons-outlined">groups</span>
+<div class='filter-element'>
+    <div class='products-record'>
+        <div class='products-label'>
+            <span id='ico-products' class='material-icons-outlined'>groups</span>
             <span>{{labels.title}}</span>
         </div>
-        <span id="filteredCompanies"></span>
+        <span id='filteredCompanies'></span>
     </div>
 </div>
 
@@ -45,73 +43,73 @@
     </div>
 </div-->
 
-<div class="dropdown-container">
+<div class='dropdown-container'>
 
     {{#if (gt companies.length 1)}}
-    <div class="filter-element">
-        <label for="filterCompany" class="dropdown-label">{{labels.companies}}</label>
-        <select name="" id="filterCompany" class="dropdown-last">
-            <option value="*">{{labels.allCompanies}}</option>
-            {{#each companies}}
-                {{#if (ne this "")}}
-            	   <option value="{{createClass this}}">{{this}}</option>
-                {{/if}}
-            {{/each}}
-        </select>
-    </div>
+        <div class='filter-element'>
+            <label for='filterCompany' class='dropdown-label'>{{labels.companies}}</label>
+            <select name='' id='filterCompany' class='dropdown-last'>
+                <option value='*'>{{labels.allCompanies}}</option>
+                {{#each companies}}
+                    {{#if (ne this '')}}
+                        <option value='{{createClass this}}'>{{this}}</option>
+                    {{/if}}
+                {{/each}}
+            </select>
+        </div>
     {{/if}}
 
     {{#if (gt filters.length 1)}}
-    <div class="filter-element">
-        <label for="filterRole" class="dropdown-label">{{labels.roles}}</label>
-        <select name="" id="filterRole" class="dropdown-last">
-            <option value="*">{{labels.allRoles}}</option>
-            {{#each filters}}
-                {{#if (ne this "")}}
-            	   <option value="{{createClass this}}">{{this}}</option>
-                {{/if}}
-            {{/each}}
-        </select>
-    </div>
+        <div class='filter-element'>
+            <label for='filterRole' class='dropdown-label'>{{labels.roles}}</label>
+            <select name='' id='filterRole' class='dropdown-last'>
+                <option value='*'>{{labels.allRoles}}</option>
+                {{#each filters}}
+                    {{#if (ne this '')}}
+                        <option value='{{createClass this}}'>{{this}}</option>
+                    {{/if}}
+                {{/each}}
+            </select>
+        </div>
     {{/if}}
 
     {{#if (gt departments.length 1)}}
-    <div class="filter-element">
-        <label for="filterDepartment" class="dropdown-label">{{labels.departments}}</label>
-        <select name="" id="filterDepartment" class="dropdown-last">
-            <option value="*">{{labels.allDepartments}}</option>
-            {{#each departments}}
-                {{#if (ne this "")}}
-            	   <option value="{{createClass this}}">{{this}}</option>
-                {{/if}}
-            {{/each}}
-        </select>
-    </div>
+        <div class='filter-element'>
+            <label for='filterDepartment' class='dropdown-label'>{{labels.departments}}</label>
+            <select name='' id='filterDepartment' class='dropdown-last'>
+                <option value='*'>{{labels.allDepartments}}</option>
+                {{#each departments}}
+                    {{#if (ne this '')}}
+                        <option value='{{createClass this}}'>{{this}}</option>
+                    {{/if}}
+                {{/each}}
+            </select>
+        </div>
     {{/if}}
 
     {{#if (gt domains.length 1)}}
-    <div class="filter-element">
-        <label for="filterDomain" class="dropdown-label">{{labels.domains}}</label>
-        <select name="" id="filterDomain" class="dropdown-last">
-            <option value="*">{{labels.allDomains}}</option>
-            {{#each domains}}
-                {{#if (ne this "")}}
-                    <option value="{{createClass this}}">{{this}}</option>
-                {{/if}}
-            {{/each}}
-        </select>
-    </div>
+        <div class='filter-element'>
+            <label for='filterDomain' class='dropdown-label'>{{labels.domains}}</label>
+            <select name='' id='filterDomain' class='dropdown-last'>
+                <option value='*'>{{labels.allDomains}}</option>
+                {{#each domains}}
+                    {{#if (ne this '')}}
+                        <option value='{{createClass this}}'>{{this}}</option>
+                    {{/if}}
+                {{/each}}
+            </select>
+        </div>
     {{/if}}
 
     {{#if (gt countries.length 1)}}
-    <div class="filter-element">
-        <label  for="filterCountry" class="dropdown-label">{{labels.countries}}</label>
-        <select name="" id="filterCountry" class="dropdown-last">
-            <option value="*">{{labels.allCountries}}</option>
-            {{#each countries}}
-            	<option value="{{createClass this}}">{{this}}</option>
-            {{/each}}
-        </select>
-    </div>
+        <div class='filter-element'>
+            <label for='filterCountry' class='dropdown-label'>{{labels.countries}}</label>
+            <select name='' id='filterCountry' class='dropdown-last'>
+                <option value='*'>{{labels.allCountries}}</option>
+                {{#each countries}}
+                    <option value='{{createClass this}}'>{{this}}</option>
+                {{/each}}
+            </select>
+        </div>
     {{/if}}
 </div>

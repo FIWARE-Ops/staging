@@ -11,13 +11,13 @@ const PRODUCTS_SUMMARY_FILE = 'products.csv';
 const PRODUCT_DETAILS_FILE = 'product-details.csv';
 
 if (PROCESS.startsWith('products')) {
-  Marketplace.parse(PRODUCT_DETAILS_FILE, PRODUCTS_SUMMARY_FILE);
+    Marketplace.parse(PRODUCT_DETAILS_FILE, PRODUCTS_SUMMARY_FILE);
 }
 
 if (PROCESS.startsWith('webinars')) {
-  Webinars.parse(WEBINARS_FILE);
+    Webinars.parse(WEBINARS_FILE);
 }
 
 if (PROCESS.startsWith('people')) {
-  People.parse(PEOPLE_FILE, PAGE);
+    People.parse(PEOPLE_FILE, PAGE);
 }

@@ -11,344 +11,324 @@ let productDetails;
 const docFields = ['Tech Documentation', 'Doc 2', 'Doc 3', ' Doc 4', 'Doc 5'];
 const mediaFields = ['Media', 'Media 2', 'Media 3', 'Media 4', 'Media 5'];
 
-const refFields = [
-  'Reference Material',
-  'Material 2',
-  'Material 3',
-  'Material 4',
-  'Material 5'
-];
+const refFields = ['Reference Material', 'Material 2', 'Material 3', 'Material 4', 'Material 5'];
 
 const path = require('path');
 
 function extractProductDetails(input) {
-  const images = [];
-  const details = {
-    powered: {},
-    ready: {},
-    cities: {},
-    services: {},
-    unknown: {}
-  };
-
-  input.forEach(item => {
-    const category = Parser.getCategory(item['Category']);
-    const hash = Parser.getHash(
-      item['Organisation Name'],
-      item['Product Name']
-    );
-
-    details[category][hash] = {
-      category: item['Category'],
-      organisationName: item['Organisation Name'],
-      productName: item['Product Name'],
-      organisationWebsite: item['Organisation Website'],
-      organisationEmail:
-        item['Organisation Email'] !== ''
-          ? 'mailto:' + item['Organisation Email']
-          : '',
-      linkedIn: item['LinkedIn'],
-      twitter: item['Twitter'],
-      productWebsite: item['Product Website'],
-      excerpt: item['Excerpt'].replaceAll(/\\'/g, "'"),
-      yearOfValidation: parseInt(item['Year of validation']),
-      description: Parser.markdown(item['Description and Benefits']),
-      challenge: Parser.markdown(item['Challenge and Context']),
-      references: Parser.markdown(item['References / Customers']),
-      awards: Parser.markdown(item['Awards']),
-      technologies: Parser.splitStrings(item['Technologies']),
-      domains: Parser.splitStrings(item['Domains']),
-
-      docs: Parser.getLinkArray(docFields, 'Document', item),
-      videos: Parser.getLinkArray(mediaFields, 'Media', item),
-      materials: Parser.getLinkArray(refFields, 'Reference', item),
-
-      logo: item['Logo'],
-      featuredImage: item['Featured Image'],
-      furtherImages: ''
+    const images = [];
+    const details = {
+        powered: {},
+        ready: {},
+        cities: {},
+        services: {},
+        unknown: {}
     };
 
-    if (item['Featured Image']) {
-      const file =
-        'hero_' +
-        item['Organisation Name'] +
-        '_' +
-        item['Product Name'] +
-        path.extname(item['Featured Image']);
-      images.push([file, item['Featured Image']]);
-    }
-  });
+    input.forEach((item) => {
+        const category = Parser.getCategory(item['Category']);
+        const hash = Parser.getHash(item['Organisation Name'], item['Product Name']);
 
-  return { details, images };
+        details[category][hash] = {
+            category: item['Category'],
+            organisationName: item['Organisation Name'],
+            productName: item['Product Name'],
+            organisationWebsite: item['Organisation Website'],
+            organisationEmail: item['Organisation Email'] !== '' ? 'mailto:' + item['Organisation Email'] : '',
+            linkedIn: item['LinkedIn'],
+            twitter: item['Twitter'],
+            productWebsite: item['Product Website'],
+            excerpt: item['Excerpt'].replaceAll(/\\'/g, "'"),
+            yearOfValidation: parseInt(item['Year of validation']),
+            description: Parser.markdown(item['Description and Benefits']),
+            challenge: Parser.markdown(item['Challenge and Context']),
+            references: Parser.markdown(item['References / Customers']),
+            awards: Parser.markdown(item['Awards']),
+            technologies: Parser.splitStrings(item['Technologies']),
+            domains: Parser.splitStrings(item['Domains']),
+
+            docs: Parser.getLinkArray(docFields, 'Document', item),
+            videos: Parser.getLinkArray(mediaFields, 'Media', item),
+            materials: Parser.getLinkArray(refFields, 'Reference', item),
+
+            logo: item['Logo'],
+            featuredImage: item['Featured Image'],
+            furtherImages: ''
+        };
+
+        if (item['Featured Image']) {
+            const file =
+                'hero_' + item['Organisation Name'] + '_' + item['Product Name'] + path.extname(item['Featured Image']);
+            images.push([file, item['Featured Image']]);
+        }
+    });
+
+    return { details, images };
 }
 
 function extractSummaryInfo(input, details) {
-  const powered = [];
-  const ready = [];
-  const services = [];
-  const cities = [];
+    const powered = [];
+    const ready = [];
+    const services = [];
+    const cities = [];
 
-  const hashes = {
-    powered: [],
-    ready: [],
-    cities: [],
-    services: [],
-    unknown: []
-  };
+    const hashes = {
+        powered: [],
+        ready: [],
+        cities: [],
+        services: [],
+        unknown: []
+    };
 
-  input.forEach(item => {
-    const domains = [];
-    const tech = [];
+    input.forEach((item) => {
+        const domains = [];
+        const tech = [];
 
-    const searchMask = 'fiware';
-    const regEx = new RegExp(searchMask, 'ig');
-    const replaceMask = 'FIWARE';
+        const searchMask = 'fiware';
+        const regEx = new RegExp(searchMask, 'ig');
+        const replaceMask = 'FIWARE';
 
-    const hash = Parser.getHash(
-      item['Organisation Name'],
-      item['Product Name']
-    );
+        const hash = Parser.getHash(item['Organisation Name'], item['Product Name']);
 
-    const category = Parser.getCategory(item['Category']);
+        const category = Parser.getCategory(item['Category']);
 
-    if (item.Status !== 'Deleted') {
-      if (item.Domains) {
-        item.Domains.split(',').forEach(item => {
-          if (item.trim() !== '') {
-            domains.push(item.trim());
-          }
-        });
-        item.Domains = domains;
-      } else {
-        console.log('NO DOMAIN: ', category, hash);
-        item.Domains = [];
-      }
+        if (item.Status !== 'Deleted') {
+            if (item.Domains) {
+                item.Domains.split(',').forEach((item) => {
+                    if (item.trim() !== '') {
+                        domains.push(item.trim());
+                    }
+                });
+                item.Domains = domains;
+            } else {
+                console.log('NO DOMAIN: ', category, hash);
+                item.Domains = [];
+            }
 
-      if (item.Technologies) {
-        item.Technologies.split(',').forEach(item => {
-          if (item.trim() !== '') {
-            tech.push(item.trim());
-          }
-        });
-        item.Technologies = tech;
-      } else {
-        console.log('NO TECHNOLOGY: ', category, hash);
-        item.Technologies = [];
-      }
+            if (item.Technologies) {
+                item.Technologies.split(',').forEach((item) => {
+                    if (item.trim() !== '') {
+                        tech.push(item.trim());
+                    }
+                });
+                item.Technologies = tech;
+            } else {
+                console.log('NO TECHNOLOGY: ', category, hash);
+                item.Technologies = [];
+            }
 
-      item.Member = item.Member.toLowerCase();
-      item.iHub = item.iHub.toLowerCase();
+            item.Member = item.Member.toLowerCase();
+            item.iHub = item.iHub.toLowerCase();
 
-      if (item.Member == 'false') {
-        item.Member = false;
-      }
-      if (item.Member == 'true') {
-        item.Member = true;
-      }
-      if (item.iHub == 'false') {
-        item.iHub = false;
-      }
-      if (item.iHub == 'true') {
-        item.iHub = true;
-      }
+            if (item.Member == 'false') {
+                item.Member = false;
+            }
+            if (item.Member == 'true') {
+                item.Member = true;
+            }
+            if (item.iHub == 'false') {
+                item.iHub = false;
+            }
+            if (item.iHub == 'true') {
+                item.iHub = true;
+            }
 
-      const obj = {};
-      obj.company = item['Organisation Name'];
-      obj.name = item['Product Name'];
-      obj.img = item['Logo'];
-      obj.fiwareMember = item.Member;
-      obj.fiwareIhub = item.iHub;
+            const obj = {};
+            obj.company = item['Organisation Name'];
+            obj.name = item['Product Name'];
+            obj.img = item['Logo'];
+            obj.fiwareMember = item.Member;
+            obj.fiwareIhub = item.iHub;
 
-      if (details[category][hash]) {
-        obj.companyLink =
-          '../product-details/?category=' + category + '&id=' + hash;
-      } else {
-        console.log('FALLBACK LINK:  ' + category + ' ' + hash);
-        obj.companyLink = item['Product Website'];
-      }
-      obj.domain = item['Domains'];
-      obj.type = item['Type of Product'];
-      obj.technology = item['Technologies'];
-      obj.year = parseInt(item['Certified in']);
-      obj.content = item['Excerpt']
-        .replace(regEx, replaceMask)
-        .replaceAll(/\r\n/g, ' ')
-        .replaceAll(/\n/g, ' ')
-        .trim();
+            if (details[category][hash]) {
+                obj.companyLink = '../product-details/?category=' + category + '&id=' + hash;
+            } else {
+                console.log('FALLBACK LINK:  ' + category + ' ' + hash);
+                obj.companyLink = item['Product Website'];
+            }
+            obj.domain = item['Domains'];
+            obj.type = item['Type of Product'];
+            obj.technology = item['Technologies'];
+            obj.year = parseInt(item['Certified in']);
+            obj.content = item['Excerpt']
+                .replace(regEx, replaceMask)
+                .replaceAll(/\r\n/g, ' ')
+                .replaceAll(/\n/g, ' ')
+                .trim();
 
-      if (item['Category'] === 'Powered by FIWARE') {
-        powered.push(obj);
-        hashes.powered.push(hash);
-      } else if (item['Category'] === 'NGSI Ready Devices') {
-        ready.push(obj);
-        hashes.ready.push(hash);
-      } else if (item['Category'] === 'FIWARE-Ready') {
-        ready.push(obj);
-        hashes.ready.push(hash);
-      } else if (item['Category'] === 'Services') {
-        services.push(obj);
-        hashes.services.push(hash);
-      } else if (item['Category'] === 'Support Services') {
-        services.push(obj);
-        hashes.services.push(hash);
-      } else if (item['Category'] === 'Cities4Cities') {
-        cities.push(obj);
-        hashes.cities.push(hash);
-      } else {
-        console.log('UNKNOWN CATEGORY: ', item['Category']);
-      }
-    }
-  });
-  return { powered, ready, services, cities, hashes };
+            if (item['Category'] === 'Powered by FIWARE') {
+                powered.push(obj);
+                hashes.powered.push(hash);
+            } else if (item['Category'] === 'NGSI Ready Devices') {
+                ready.push(obj);
+                hashes.ready.push(hash);
+            } else if (item['Category'] === 'FIWARE-Ready') {
+                ready.push(obj);
+                hashes.ready.push(hash);
+            } else if (item['Category'] === 'Services') {
+                services.push(obj);
+                hashes.services.push(hash);
+            } else if (item['Category'] === 'Support Services') {
+                services.push(obj);
+                hashes.services.push(hash);
+            } else if (item['Category'] === 'Cities4Cities') {
+                cities.push(obj);
+                hashes.cities.push(hash);
+            } else {
+                console.log('UNKNOWN CATEGORY: ', item['Category']);
+            }
+        }
+    });
+    return { powered, ready, services, cities, hashes };
 }
 
 function extractFeatured(summaryInfo) {
-  const featured = [];
-  const extract = [
-    ...summaryInfo.powered.slice(-4),
-    ...summaryInfo.ready.slice(-4)
-    //   ...summaryInfo.services.slice(-2),
-    //   ...summaryInfo.cities.slice(-2)
-  ];
+    const featured = [];
+    const extract = [
+        ...summaryInfo.powered.slice(-4),
+        ...summaryInfo.ready.slice(-4)
+        //   ...summaryInfo.services.slice(-2),
+        //   ...summaryInfo.cities.slice(-2)
+    ];
 
-  extract.forEach(item => {
-    const featuredItem = _.clone(item);
-    if (featuredItem.companyLink.startsWith('..')) {
-      featuredItem.companyLink = featuredItem.companyLink.substring(1);
-    }
-    featured.push(featuredItem);
-  });
-  return featured;
+    extract.forEach((item) => {
+        const featuredItem = _.clone(item);
+        if (featuredItem.companyLink.startsWith('..')) {
+            featuredItem.companyLink = featuredItem.companyLink.substring(1);
+        }
+        featured.push(featuredItem);
+    });
+    return featured;
 }
 
 function relatedProducts(product, allCategories, category) {
-  const regex = /([^a-zA-Z0-9À-ÿ])/gi;
-  const productHash = Parser.getHash(product.company, product.name);
-  const companyHash = product.company.replace(regex, '').toLowerCase();
+    const regex = /([^a-zA-Z0-9À-ÿ])/gi;
+    const productHash = Parser.getHash(product.company, product.name);
+    const companyHash = product.company.replace(regex, '').toLowerCase();
 
-  const related = [];
+    const related = [];
 
-  _.keys(allCategories).forEach(category => {
-    allCategories[category].forEach(hash => {
-      if (hash !== productHash && hash.startsWith(companyHash + '-')) {
-        const product = findProduct(hash, category);
-        if (product) {
-          related.push(product);
-        }
-      }
+    _.keys(allCategories).forEach((category) => {
+        allCategories[category].forEach((hash) => {
+            if (hash !== productHash && hash.startsWith(companyHash + '-')) {
+                const product = findProduct(hash, category);
+                if (product) {
+                    related.push(product);
+                }
+            }
+        });
     });
-  });
-  if (!_.isEmpty(related) && productDetails.details[category][productHash]) {
-    productDetails.details[category][productHash].related = related;
-  }
+    if (!_.isEmpty(related) && productDetails.details[category][productHash]) {
+        productDetails.details[category][productHash].related = related;
+    }
 }
 
 function findProduct(hash, category) {
-  const product = productDetails.details[category][hash];
+    const product = productDetails.details[category][hash];
 
-  if (!product) {
-    console.log('DATA MISMATCH: ', category, hash);
-  }
+    if (!product) {
+        console.log('DATA MISMATCH: ', category, hash);
+    }
 
-  return product
-    ? {
-        category: product.category,
-        featuredImage: product.featuredImage,
-        excerpt: product.excerpt,
-        productName: product.productName,
-        companyLink: './?category=' + category + '&id=' + hash
-      }
-    : null;
+    return product
+        ? {
+              category: product.category,
+              featuredImage: product.featuredImage,
+              excerpt: product.excerpt,
+              productName: product.productName,
+              companyLink: './?category=' + category + '&id=' + hash
+          }
+        : null;
 }
 
 function parse(detailsFile, summaryFile) {
-  csv()
-    .fromFile(detailsFile)
-    .then(input => {
-      return extractProductDetails(input);
-    })
-    .then(allProducts => {
-      // Remember all feature images for later processing.
-      productDetails = allProducts;
-
-      csv()
-        .fromFile(summaryFile)
-        .then(input => {
-          return extractSummaryInfo(input, allProducts.details);
+    csv()
+        .fromFile(detailsFile)
+        .then((input) => {
+            return extractProductDetails(input);
         })
-        .then(summaryInfo => {
-          CATEGORIES.forEach(category => {
-            summaryInfo[category].forEach(prod => {
-              relatedProducts(prod, summaryInfo.hashes, category);
-            });
-          });
-          return summaryInfo;
+        .then((allProducts) => {
+            // Remember all feature images for later processing.
+            productDetails = allProducts;
+
+            csv()
+                .fromFile(summaryFile)
+                .then((input) => {
+                    return extractSummaryInfo(input, allProducts.details);
+                })
+                .then((summaryInfo) => {
+                    CATEGORIES.forEach((category) => {
+                        summaryInfo[category].forEach((prod) => {
+                            relatedProducts(prod, summaryInfo.hashes, category);
+                        });
+                    });
+                    return summaryInfo;
+                })
+                .then((summaryInfo) => {
+                    Template.write(
+                        'marketplace/powered-by-fiware/pageData.js',
+                        path.join(TEMPLATE_PATH, 'modal.hbs'),
+                        summaryInfo.powered
+                    );
+                    console.log('');
+                    console.log(summaryInfo.powered.length + ' Products');
+
+                    Template.write(
+                        'marketplace/fiware-ready/pageData.js',
+                        path.join(TEMPLATE_PATH, 'modal.hbs'),
+                        summaryInfo.ready
+                    );
+
+                    console.log(summaryInfo.ready.length + ' Devices');
+                    Template.write(
+                        'marketplace/support-services/pageData.js',
+                        path.join(TEMPLATE_PATH, 'modal.hbs'),
+                        summaryInfo.services
+                    );
+                    console.log(summaryInfo.services.length + ' Services');
+                    Template.write(
+                        'marketplace/cities4cities/pageData.js',
+                        path.join(TEMPLATE_PATH, 'modal.hbs'),
+                        summaryInfo.cities
+                    );
+                    console.log(summaryInfo.cities.length + ' Cities');
+                    Template.write(
+                        'marketplace/product-details/pageData.js',
+                        path.join(TEMPLATE_PATH, 'modal.hbs'),
+                        productDetails.details
+                    );
+
+                    const featured = extractFeatured(summaryInfo);
+                    Template.write(
+                        'marketplace/product-details/featured.html',
+                        path.join(TEMPLATE_PATH, 'featured.hbs'),
+                        featured
+                    );
+                });
         })
-        .then(summaryInfo => {
-          Template.write(
-            'marketplace/powered-by-fiware/pageData.js',
-            path.join(TEMPLATE_PATH, 'modal.hbs'),
-            summaryInfo.powered
-          );
-          console.log('');
-          console.log(summaryInfo.powered.length + ' Products');
-
-          Template.write(
-            'marketplace/fiware-ready/pageData.js',
-            path.join(TEMPLATE_PATH, 'modal.hbs'),
-            summaryInfo.ready
-          );
-
-          console.log(summaryInfo.ready.length + ' Devices');
-          Template.write(
-            'marketplace/support-services/pageData.js',
-            path.join(TEMPLATE_PATH, 'modal.hbs'),
-            summaryInfo.services
-          );
-          console.log(summaryInfo.services.length + ' Services');
-          Template.write(
-            'marketplace/cities4cities/pageData.js',
-            path.join(TEMPLATE_PATH, 'modal.hbs'),
-            summaryInfo.cities
-          );
-          console.log(summaryInfo.cities.length + ' Cities');
-          Template.write(
-            'marketplace/product-details/pageData.js',
-            path.join(TEMPLATE_PATH, 'modal.hbs'),
-            productDetails.details
-          );
-
-          const featured = extractFeatured(summaryInfo);
-          Template.write(
-            'marketplace/product-details/featured.html',
-            path.join(TEMPLATE_PATH, 'featured.hbs'),
-            featured
-          );
-        });
-    })
-    .then(() => {
-      if (PROCESS === 'products+images') {
-        let promises = [];
-        productDetails.images.forEach(image => {
-          let promise = Downloader.downloadImages(image);
-          promises.push(promise);
-        });
-        Promise.all(promises)
-          .then(results => {
-            results.forEach(result => {
-              console.log(result);
-            });
-          })
-          .catch(e => {
+        .then(() => {
+            if (PROCESS === 'products+images') {
+                let promises = [];
+                productDetails.images.forEach((image) => {
+                    let promise = Downloader.downloadImages(image);
+                    promises.push(promise);
+                });
+                Promise.all(promises)
+                    .then((results) => {
+                        results.forEach((result) => {
+                            console.log(result);
+                        });
+                    })
+                    .catch((e) => {
+                        console.log(e);
+                    });
+            }
+            return;
+        })
+        .catch((e) => {
             console.log(e);
-          });
-      }
-      return;
-    })
-    .catch(e => {
-      console.log(e);
-      return;
-    });
+            return;
+        });
 }
 
 exports.parse = parse;
