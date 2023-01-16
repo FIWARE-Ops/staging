@@ -41,30 +41,6 @@ function extractPeople(input) {
   });
 }
 
-function writePeopleFilters(
-  filename,
-  companies = [],
-  departments = [],
-  domains = [],
-  titles = [],
-  countries = [],
-  modalData = ''
-) {
-  fs.writeFile(
-    filename,
-    `var companies = ${JSON.stringify(companies, null, 2)};
-var departments = ${JSON.stringify(departments, null, 2)};
-var domains = ${JSON.stringify(domains, null, 2)};
-var titles = ${JSON.stringify(titles, null, 2)};
-var countries = ${JSON.stringify(countries, null, 2)};
- ${modalData}
-`,
-    function(err) {
-      if (err) return console.log(err);
-    }
-  );
-}
-
 function parse(file, page) {
   csv()
     .fromFile(file)

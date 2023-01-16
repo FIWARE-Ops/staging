@@ -1,6 +1,6 @@
 const csv = require('csvtojson');
 const path = require('path');
-const WEBINARS_FILE = 'webinars.csv';
+
 const Parser = require('../dataParser');
 const Sorter = require('../sort');
 const Template = require('../template');
@@ -25,9 +25,9 @@ function extractWebinars(input) {
   return webinars;
 }
 
-function parse() {
+function parse(file) {
   csv()
-    .fromFile(WEBINARS_FILE)
+    .fromFile(file)
     .then(input => {
       return extractWebinars(input);
     })

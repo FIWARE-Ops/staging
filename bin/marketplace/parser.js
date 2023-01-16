@@ -4,8 +4,6 @@ const Downloader = require('../downloader');
 const Parser = require('../dataParser');
 const Template = require('../template');
 const CATEGORIES = ['powered', 'ready', 'services', 'cities'];
-const PRODUCTS_SUMMARY_FILE = 'products.csv';
-const PRODUCT_DETAILS_FILE = 'product-details.csv';
 const TEMPLATE_PATH = 'bin/marketplace/';
 
 let productDetails;
@@ -259,9 +257,9 @@ function findProduct(hash, category) {
     : null;
 }
 
-function parse() {
+function parse(detailsFile, summaryFile) {
   csv()
-    .fromFile(PRODUCT_DETAILS_FILE)
+    .fromFile(detailsFile)
     .then(input => {
       return extractProductDetails(input);
     })
@@ -270,7 +268,7 @@ function parse() {
       productDetails = allProducts;
 
       csv()
-        .fromFile(PRODUCTS_SUMMARY_FILE)
+        .fromFile(summaryFile)
         .then(input => {
           return extractSummaryInfo(input, allProducts.details);
         })
