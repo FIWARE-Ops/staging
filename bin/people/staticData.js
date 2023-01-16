@@ -14,11 +14,7 @@ const DEFAULT_LABELS = {
   allRoles: 'All Roles',
   allDomains: 'All Domains',
   allCommittees: 'All Committees',
-  allTypes: 'All Types',
-
-  html: 'people.html',
-  pageData: 'peopleModal.html',
-  filterHtml: 'peopleFilter.html'
+  allTypes: 'All Types'
 };
 
 // Base data - add one for each page
