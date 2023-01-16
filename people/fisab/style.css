@@ -15,6 +15,12 @@
     box-sizing: border-box;
 }
 
+.featured {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
 /* ---- grid ---- */
 
 .grid {
@@ -79,7 +85,7 @@
     line-height: 1.4em;
     padding: 0px 0px 10px 0px;
     /*cursor: default;*/
-    
+
 }
 
 .department {
@@ -200,7 +206,7 @@
     flex-direction: row;
     text-align: center;
     margin: 0 auto;
-    gap:10px;
+    gap: 10px;
 }
 
 .icon::before {
@@ -513,12 +519,12 @@
 .company {
     font-size: 0.7em;
     line-height: 1em;
-    color: #000!important;
+    color: #000 !important;
     cursor: pointer;
 }
 
 .company:hover {
-    color: #000!important;
+    color: #000 !important;
     text-decoration: underline;
 }
 
@@ -549,20 +555,20 @@
 
 .social-modal {
     display: flex;
-    gap:10px;
+    gap: 10px;
 }
 
 .tags-modal p.domain {
-  font-size: 14px;
-  font-weight: 500;
-  color: #5dc0cf;
-  background-color: #e5f5f7;
-  position: relative;
-  border-radius: 20px;
-  overflow: hidden;
-  padding: 4px 12px;
-  display: inline-block;
-  height: 28px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #5dc0cf;
+    background-color: #e5f5f7;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 4px 12px;
+    display: inline-block;
+    height: 28px;
 }
 
 .tags-modal p.location {
@@ -697,6 +703,13 @@
         transition: none;
     }
 
+    #ico-featured {
+        color: #002e67;
+    }
+
+    #ico-white {
+        color: #fff;
+    }
 
     .profile-details {
         padding: 0 20px;
@@ -881,7 +894,7 @@
         flex-direction: row;
         margin-bottom: 0px;
         margin-right: 20px;
-        padding-top: 0px; 
+        padding-top: 0px;
     }
 
     .tags-modal .location:before {
@@ -979,7 +992,7 @@
     line-height: 1em;
 }
 
-  
+
 /* Toggle Open Close Filters */
 
 #mobileToggleFilters {
@@ -994,13 +1007,14 @@
     justify-content: center;
     padding: 15px 0px;
     cursor: pointer;
+    /* border-bottom: 1px solid #aaa; */
 }
 
 .filters-container {
     transition: height .5s ease;
     width: 100%;
     max-width: 1184px;
-    margin: 0 auto;
+    margin: 0 auto 10px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
