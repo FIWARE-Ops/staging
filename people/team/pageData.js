@@ -19,6 +19,7 @@ var titles = [
   'COO',
   'CTO',
   'Data Modeling Expert',
+  'Demonstrator Manager',
   'Design Manager',
   'Evangelist',
   'Marketing Manager',
@@ -31,8 +32,7 @@ var titles = [
   'Solution Architect',
   'Technical Expert',
   'Technical Lead',
-  'VP Funded Programs',
-  'Working Student'
+  'VP Funded Programs'
 ];
 var countries = [];
 var modalData = [
@@ -44,7 +44,7 @@ var modalData = [
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
     content:
-      'Alberto Abella is PhD in Business (Open data) and Telecommunications Engineer and Master in Total Quality Management, Business Administration and Business Organization. He works as a Data Modelling Expert and Technical Evangelist at FIWARE and currently is the responsible person for the smart data models initiative.',
+      'Alberto Abella (m) is PhD in Business (Open data) and Telecommunications Engineer and Master in Total Quality Management, Business Administration and Business Organization. He works as a Data Modelling Expert and Technical Evangelist at FIWARE and currently is the responsible person for the smart data models initiative.',
     linkedin: 'https://www.linkedin.com/in/albertoabella/',
     twitter: 'https://twitter.com/aabella',
     domain: '',
@@ -73,7 +73,8 @@ var modalData = [
     position: 'Solution Architect',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
-    content: '',
+    content:
+      'Gernot Boege (m) holds the position of FIWARE Solution Architect within FIWARE Foundation where he effectively moved as full employee on June 1st, 2018, after having had first contact with FIWARE in early 2015. He is a T-shaped IT generalist with 20 years of experience and a keen interest in innovative technology. Before, he had been the FIWARE Solution Architect of the largest FI-PPP accelerator SpeedUP! Europe and had organised FIWARE trainings, workshops and coachings for 100 FIWARE startup teams. He had engaged in architecting and modeling FIWARE solutions as well as in FIWARE coaching, training, eLearning and consultancy activities. As a freelance IT-consultant, he had contributed to the implementation of the first commercial FIWARE Lab node in Germany. He has been active in the area of IT since 1999 in a range of roles and in multiple sectors and companies. He is proficient at analytical thinking and problem-solving and has diverse hands-on experience and the ability to architecture concepts and deliver solutions across multiple disciplines.',
     linkedin: 'https://www.linkedin.com/in/gernot-boege-4204a2226/',
     twitter: '',
     domain: '',
@@ -87,7 +88,8 @@ var modalData = [
     position: 'Marketing Manager',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
-    content: '',
+    content:
+      'Vera Böhner (f) is a Marketing Manager at FIWARE. She has more than 10 years experiences in strategic and operational marketing. This includes communication planning (content marketing, online marketing, social media, newsletter) and strategic planning (market analysis, competition analysis). Vera has a strong background in project management and experiences in event management for international exhibitions and seminars. She is involved in a funded project and holds an active role within the project. Vera holds a Bachelor of Commerce from the Fontys Hogeschool in Venlo, The Netherlands, and a CAS in Digital Marketing from the ZHAW in Switzerland.',
     linkedin: 'https://www.linkedin.com/in/vera-b%C3%B6hner-88a39693/',
     twitter: '',
     domain: '',
@@ -145,7 +147,8 @@ var modalData = [
     position: 'Solution Architect',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
-    content: '',
+    content:
+      'Chandra Challagonda (m) is Senior Architect at FIWARE Foundation in Germany. Chandra holds a Masters in Software Engineering degree from 1999 - 2002. Chandra comes with nearly 25 years of experience in software development, integration projects and software product management. He worked for Ericsson and Nokia in various technical and non-technical roles in Network infrastructure and smartphones for 15 years. Chandra has been an active member of the FIWARE community since 2015 and joined FIWARE Foundation in 2019. In FIWARE Foundation, Chandra is the platform architect for SmartMaaS and IMPRESS projects funded by the German Federal government. Before joining FIWARE Foundation, he was part of the team which created a digital twin for Helsinki Transportation.',
     linkedin: 'https://linkedin.com/in/challagonda',
     twitter: 'https://twitter.com/challagonda',
     domain: '',
@@ -159,7 +162,8 @@ var modalData = [
     position: 'PR Manager',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
-    content: '',
+    content:
+      'Kseniia Chernikova (f), Communication, Public Relation Manager at FIWARE Foundation. She holds a Master degree in Media technologies and Public Relations. With more than 6 years of professional experience she created and implemented B2B and B2C communication campaigns and strategies for the companies in high-technologies, life-style, education industries, and non-profit organisations. Her experience includes working with international companies as well as start-ups in IT and telecommunications, international high-tech development, ed-tech, fin-tech, travel and sustainability-tech fields. She worked on design of positioning/repositioning, creation of image and reputation, planning and implementing project’s launches, media and key opinion leaders relations. Working as a press officer, she was organising and holding briefings, press-conferences, creative projects. Specialist in crisis communications. She was realising her own project funded by Alexander von Humboldt Foundation (German Chancellor Fellowship for future leaders).',
     linkedin: 'https://www.linkedin.com/in/kseniia-chernikova-184553211/',
     twitter: '',
     domain: '',
@@ -173,7 +177,8 @@ var modalData = [
     position: 'Design Manager',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
-    content: '',
+    content:
+      'Giacomo (m) is an Italian Designer working in the field for over a decade for different industries and design agencies across several countries. Giacomo has experienced a range of environments, views, styles and audiences including various media, institutions and non-governmental organizations. Most acknowledged companies and clients for which he has worked for: The Guardian, GEDI Gruppo Editoriale (i.e.: La Repubblica), RCS Media Group (i.e.: Il Corriere della Sera), Enel, Eni, Sky, Italian Government.',
     linkedin: 'https://www.linkedin.com/in/giacomodepanfilis/',
     twitter: 'https://twitter.com/_gdepa',
     domain: '',
@@ -188,7 +193,7 @@ var modalData = [
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
     content:
-      'Stefano joined Engineering Ingegneria Informatica S.p.A. in 1984 and went from Director of R&amp;D Laboratories Department (overseeing 100+ researchers in Europe and beyond) to Chief Innovation Officer of the Engineering Group in 2011. He joined FIWARE Foundation in 2017. Besides his role as COO, he is responsible for the FIWARE Lab Nodes and is also a member of the FIWARE Technical Steering Committee.',
+      'Stefano joined Engineering Ingegneria Informatica S.p.A. in 1984 and went from Director of R&amp;D Laboratories Department (overseeing 100+ researchers in Europe and beyond) to Chief Innovation Officer of the Engineering Group in 2011. In 2016 he is among the founders of the FIWARE Foundation. Besides his role as COO, he is responsible for the FIWARE Lab Nodes and is also a member of the FIWARE Technical Steering Committee.',
     linkedin: 'https://www.linkedin.com/in/stefano-de-panfilis-1928a11/',
     twitter: 'https://twitter.com/depa01',
     domain: '',
@@ -242,7 +247,7 @@ var modalData = [
     name: 'Lucca Giusti',
     img:
       'https://www.fiware.org/wp-content/directories/people/images/team/lucca-giusti.png',
-    position: 'Working Student',
+    position: 'Demonstrator Manager',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
     content: '',
@@ -288,7 +293,8 @@ var modalData = [
     position: 'Assistant to the BOO',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
-    content: '',
+    content:
+      'Andrea Kather (f) has been working for the FIWARE Foundation for the last five years as Assistant to the Board of Officers, performing secretarial work and providing the board of officers as well as all FIWARE colleagues with day-to-day administrative one-to-one support. Her duties include managing correspondence, scheduling appointments, planning and organising meetings, travels and itineraries as well as support in organizing events. She assists with the preparatory bookkeeping, invoice processing, data management and office filing systems and is liaising with clients and suppliers. Before joining FIWARE, Andrea worked as a personal assistant in the media industry for five years. She is a trained portrait photographer with 15 years of professional experience as a freelance photographer, art buyer and photo editor for publishing houses, advertising agencies and art galleries.',
     linkedin: '',
     twitter: '',
     domain: '',
@@ -302,7 +308,8 @@ var modalData = [
     position: 'Marketing Manager',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
-    content: '',
+    content:
+      'Oleg Korneev (m) is Events and Marketing Manager at FIWARE Foundation. With more than 10 years experience in project management. Oleg comes with an expertise in working as a consultant and managing partner in the healthcare system with more than 5 projects successfully launched. He holds coordination of FIWARE presence in different kinds of events (market events, fairs, conferences), organisation of FIWARE Summit and dissemination events of the EU funded projects.  Among his responsibilities is the event organisation, booth building, stage management, team management, vendors and partners negotiations, etc. Also he leads FIWARE Smart Cities book digital edition and foundation of FIWARE German speaking community.',
     linkedin: 'https://www.linkedin.com/in/korneev-oleg-projectmanager',
     twitter: '',
     domain: '',
@@ -316,7 +323,8 @@ var modalData = [
     position: 'Community Manager',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
-    content: '',
+    content:
+      'With over 8 years of experience in Marketing, Community Building, and Social Media Management activities, Charlotte Kotterman (f) has supported numerous communities to grow and thrive. She has managed content calendars, curated content, as well as produced relevant and engaging content for social media (Facebook, Twitter, Linkedin, Tumblr, Instagram), community emails, newsletters, and websites. With FIWARE Foundation since 2017, she has been involved in numerous EU projects supporting the dissemination of relevant project and technical information through the FIWARE channels while at the same time leading strategic Social Media projects. She has led monthly Community Marketing Calls, several publications, and community webinars. Her portfolio of responsibilities includes the curation and growth of FIWARE Marketplace. Charlotte holds a Master of Arts (MA) in German and Management Studies (Joint Honours) from the University of Aberdeen, Scotland.',
     linkedin: 'https://de.linkedin.com/in/charlottekotterman',
     twitter: 'https://twitter.com/char_kotterman',
     domain: '',
@@ -327,10 +335,11 @@ var modalData = [
     name: 'Yuzhen Li',
     img:
       'https://www.fiware.org/wp-content/directories/people/images/team/yuzhen-li.png',
-    position: 'Working Student',
+    position: 'Demonstrator Manager',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
-    content: '',
+    content:
+      'Yuzhen Li (f) is a working student as a Lego Smart World developer &amp; demonstrator. She completed her BEng in Electronic Information Engineering and now is close to finishing her master&#x27;s degree in the same field (ICT-Telecommunication) at TU Berlin. Her interests and expertise mainly focus on Cloud-Computing, Network Engineering, and DevOps. Before joining FIWARE, she has 2-years of experience in handling massive global network traffic and data centers for the large music streaming platform SoundCloud as a Network Reliability Engineer. Now she is working on improving the software system (Docker, VMs, Database, NGSI, etc.) for LEGO models to make it better connected to FIWARE Technologies.',
     linkedin: 'https://www.linkedin.com/in/yuzhen-li-b242421a4/',
     twitter: '',
     domain: '',
@@ -345,7 +354,7 @@ var modalData = [
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
     content:
-      'Fernando López de Aguilar (male) is FIWARE Cloud and Platform Senior Expert at the FIWARE Foundation. He obtained a Bachelor Degree in computer science summa cum laude by E.P.S. Córdoba and Master Degree in Computer Science from the E.T.S Ingeniería Informática - University of Málaga in 1998. In March 2000, he started working in Meta4 S.A. as a Software Engineer at R&amp;D Department as a Database Expert and Java developer. In May 2001, he joined Telefónica I+D where he participated in multiple R&amp;D project lines covering advanced broadband communications, NGN, IPv4/IPv6 compatibility, Mobile IP, multimedia applications, new mobile services, M2M communication, semantic web sensors, NoSQL DB and definition of IoT reference architecture. Since 2011 and until he joined the FIWARE Foundation.',
+      'Fernando López de Aguilar (m) is FIWARE Cloud and Platform Senior Expert at the FIWARE Foundation. He obtained a Bachelor Degree in computer science summa cum laude by E.P.S. Córdoba and Master Degree in Computer Science from the E.T.S Ingeniería Informática - University of Málaga in 1998. In March 2000, he started working in Meta4 S.A. as a Software Engineer at R&amp;D Department as a Database Expert and Java developer. In May 2001, he joined Telefónica I+D where he participated in multiple R&amp;D project lines covering advanced broadband communications, NGN, IPv4/IPv6 compatibility, Mobile IP, multimedia applications, new mobile services, M2M communication, semantic web sensors, NoSQL DB and definition of IoT reference architecture. Since 2011 and until he joined the FIWARE Foundation.',
     linkedin: 'https://www.linkedin.com/in/fernandolopezaguilar/',
     twitter: 'https://twitter.com/flopezaguilar',
     domain: '',
@@ -359,7 +368,8 @@ var modalData = [
     position: 'Technical Expert &amp; Evangelist',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
-    content: '',
+    content:
+      'Francisco Melendez (m) is a Telecommunications &amp; Robotics Engineer and is FIWARE’s Technical Expert in Robotics, Automation and Industry 4.0. He is also one of the representatives of FIWARE in the Digital Twin Consortium and some international projects where FIWARE is developing its technical roadmap in robotics and automation. As a mobile robotics engineer and researcher with more than 8 years of experience in web-enabled robot applications, his work is currently focused on the development of convenient interfaces between cyber physical systems and digital twins in FIWARE-based solutions.',
     linkedin: 'https://www.linkedin.com/in/franmelfer/',
     twitter: '',
     domain: '',
@@ -418,7 +428,7 @@ var modalData = [
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
     content:
-      'Tonia holds a PhD in Intercultural Sociology from 2010-2013. With more than 10 years of Experiences, Tonia comes with a profound expertise in working as a commercial coach and evaluator in European projects like frontierCities (2014-2016) and frontierCities2 (2016-2018) FIWARE Accelerator programme. She joined FIWARE Foundation in 2018 as a project manager for European projects with a strong focus on “Connecting Europe Facility (CEF)”. Since then, she has extended her responsibilities to several highly strategic projects to position and grow FIWARE Foundation in the academic as well as in the Accelerators/VC world through her additional role as a Marketing Manager. Projects include a FIWARE University Programme for students and professors, the foundation of the FIWARE Scientific Advisory Board, publication of FIWARE Impact Stories and Open Calls matching for SMEs and Startups and a new programme around Reference Marketing. Her involvement with European projects has been extended ever since, including Open Data under the umbrella of CEF grants, CEFAT4Cities (eGov and Smart Cities domains), ODALA (Smart Cities and Open Data), INTERSTAT (Public Administrations and Open Data), and since October 2020, as project manager, to i4Trust, specifically for the DIH engagement and community building (DIH Ambassador Programme), SPOTTED, focus on Earth Observation and Satellite Data, GreenMov, more related to smart Mobility and Smart Cities, Enershare, focused on Smart Solutions for Smart Energy domain. She regularly contributes to the writing of proposals to the European Commission.',
+      'Tonia (f) holds a PhD in Intercultural Sociology from 2010-2013. With more than 10 years of Experiences, Tonia comes with a profound expertise in working as a commercial coach and evaluator in European projects like frontierCities (2014-2016) and frontierCities2 (2016-2018) FIWARE Accelerator programme. She joined FIWARE Foundation in 2018 as a project manager for European projects with a strong focus on “Connecting Europe Facility (CEF)”. Since then, she has extended her responsibilities to several highly strategic projects to position and grow FIWARE Foundation in the academic as well as in the Accelerators/VC world through her additional role as a Marketing Manager. Projects include a FIWARE University Programme for students and professors, the foundation of the FIWARE Scientific Advisory Board, publication of FIWARE Impact Stories and Open Calls matching for SMEs and Startups and a new programme around Reference Marketing. Her involvement with European projects has been extended ever since, including Open Data under the umbrella of CEF grants, CEFAT4Cities (eGov and Smart Cities domains), ODALA (Smart Cities and Open Data), INTERSTAT (Public Administrations and Open Data), and since October 2020, as project manager, to i4Trust, specifically for the DIH engagement and community building (DIH Ambassador Programme), SPOTTED, focus on Earth Observation and Satellite Data, GreenMov, more related to smart Mobility and Smart Cities, Enershare, focused on Smart Solutions for Smart Energy domain. She regularly contributes to the writing of proposals to the European Commission.',
     linkedin: 'https://www.linkedin.com/in/tonia-sapia-a171bb63/',
     twitter: '',
     domain: '',
@@ -432,7 +442,8 @@ var modalData = [
     position: 'Senior Project Manager',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
-    content: '',
+    content:
+      'Angeles Tejado (f) comes with more than 20 years of strong experience in Marketing and Brand Management for customer-focused multinational companies, Angeles coordinated the development of marketing messages helping to communicate the vision and unique value proposition of FIWARE in domains such Smart Cities, Smart Manufacturing &amp; Industry 4.0 and Smart Agrifood; the planning and execution of the FIWARE Communication Strategy; the organization of FIWARE Summits; the coordination of FIWARE presence in all kind of events (market events, StartUp Events, Tech Events, Workshops, Hackathons, Meetups) and in general, coordinating activities targeted to engage members of the FIWARE Community through different FIWARE Mission Support Committees (FIWARE iHubs Committee, FIWARE Accelerator Committee, FIWARE Mundus Committee and Domain Committees associated to the different application domains) and enlarging the FIWARE ecosystem.',
     linkedin:
       'https://www.linkedin.com/in/%C3%A1ngeles-tejado-s%C3%A1nchez-2a61b411/',
     twitter: '',
@@ -463,7 +474,7 @@ var modalData = [
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
     content:
-      'Dr. Dennis Wendland is a Technical Lead and Architect at the FIWARE Foundation where he is involved in a variety of projects in the field of data spaces. He holds a doctorate in high energy physics from Humboldt University of Berlin gaining a broad experience in the development of particle collision data analysis software and the statistical analysis of large data sets. His doctoral dissertation was about the search of new elementary particles at high-energy collisions at the CERN Large Hadron Collider in Geneva. After his doctorate, he has also worked at T-Systems and Deutsche Telekom AG acquiring expertise in the development, architecture and management of large software projects.',
+      'Dennis Wendland (m) is a Technical Lead and Architect at the FIWARE Foundation where he is involved in a variety of projects in the field of data spaces. He holds a doctorate in high energy physics from Humboldt University of Berlin gaining a broad experience in the development of particle collision data analysis software and the statistical analysis of large data sets. His doctoral dissertation was about the search of new elementary particles at high-energy collisions at the CERN Large Hadron Collider in Geneva. After his doctorate, he has also worked at T-Systems and Deutsche Telekom AG acquiring expertise in the development, architecture and management of large software projects.',
     linkedin: 'https://www.linkedin.com/in/dennis-wendland/',
     twitter: '',
     domain: '',
@@ -502,10 +513,11 @@ var modalData = [
     name: 'Rosemah Zia',
     img:
       'https://www.fiware.org/wp-content/directories/people/images/team/rosemah-zia.png',
-    position: 'Working Student',
+    position: 'Marketing Manager',
     company: 'FIWARE Foundation',
     'company-link': 'https://www.fiware.org/',
-    content: '',
+    content:
+      'Rosemah Zia (f) is a Marketing Manager at FIWARE Foundation, holding a Masters Degree from one of the most prestigious Universities in Germany with the focused research on Climate Changes affecting the built environment and subjects focusing Project Management, Graphic Design, Communications skills, Research and Report Writing &amp; Professional practice. With more than four years of Professional Experience in Project Management and Execution of Architectural projects on site she comes with explicit expertise in conceiving, designing, structuring, leading and executing the projects with a diverse team. With almost One year of hands-on experience with FIWARE Foundation as a working student she plays a key role in communication planning ( social mediam &amp; online marketting) logistics and execution of different marketing events, fairs, exhibitions and conferences along with organization of FIWARE Summit and dissemination events of the EU funded projects. With her qualifications, aptitude and knowledge her scope of work includes generation and designing of marketing material, communication and out reaching global market, editorial work for FIWARE Smart Cities book, business development, on site stage and booth management during FIWARE marketing events and exhibitions.',
     linkedin: 'https://www.linkedin.com/in/rosemah-zia-a04237108/',
     twitter: '',
     domain: '',
