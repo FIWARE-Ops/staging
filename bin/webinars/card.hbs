@@ -7,7 +7,39 @@
             <p class='solution-name'>{{name}}</p>
             <div class='company-certified'>
                 <div class='label-certification'>
-                    {{type}}&nbsp;
+                    {{#if (eq type 'Core Context')}}
+                        <img src="https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg"
+                        style="height:24px;margin-right:10px"/>
+                    {{/if}}
+                    {{#if (eq type 'Cross-Chapter')}}
+                         {{type}}&nbsp;
+                    {{/if}}
+                    {{#if (eq type 'Data Monetization')}}
+                         {{type}}&nbsp;
+                    {{/if}}
+                    {{#if (eq type 'Fundamentals')}}
+                         {{type}}&nbsp;
+                    {{/if}}
+                    {{#if (eq type 'IoT Agents')}}
+                         {{type}}&nbsp;
+                    {{/if}}
+                    {{#if (eq type 'Operations')}}
+                         {{type}}&nbsp;
+                    {{/if}}
+                    {{#if (eq type 'Processing')}}
+                         {{type}}&nbsp;
+                    {{/if}}
+                    {{#if (eq type 'Robotics')}}
+                           <img src="https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Robotics.svg"
+                        style="height:24px;margin-right:10px"/>
+                    {{/if}}
+                     {{#if (eq type 'Security')}}
+                         <img src="https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Security.svg"
+                        style="height:24px;margin-right:10px"/>
+                    {{/if}}
+                    {{#if (eq type 'Visualisation')}}
+                         {{type}}&nbsp;
+                    {{/if}}
                     <span class='name hidden'>{{difficulty}}</span>
                     <h3>{{rating difficulty}}</h3>
                 </div>
