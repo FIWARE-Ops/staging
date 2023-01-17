@@ -39,7 +39,8 @@ function parse(file) {
             const filterData = {
                 types: Sorter.sortData(webinars, 'type'),
                 technologies: Sorter.flatSortData(webinars, 'technology'),
-                domains: Sorter.flatSortData(webinars, 'domain')
+                domains: Sorter.flatSortData(webinars, 'domain'),
+                webinars
             };
 
             Template.write(path.join(WEBINARS_DIR, 'webinars.html'), path.join(TEMPLATE_PATH, 'card.hbs'), webinars);

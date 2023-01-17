@@ -17,3 +17,18 @@ var types = [
     {{/if}}
 {{/each}}
 ];
+
+ var modalData = [
+{{#each webinars}}
+    { 
+        name: "{{name}}", 
+        img: "{{img}}",
+        type: "{{type}}", 
+        difficulty: {{difficulty}},
+        video: "{{{companyLink}}}",
+        content: "{{content}}",  
+        domain: "{{domain}}",  
+        technology: "{{technology}}"
+    },
+{{/each}}
+];

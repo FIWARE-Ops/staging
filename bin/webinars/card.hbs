@@ -7,7 +7,7 @@
             <p class='solution-name'>{{name}}</p>
             <div class='company-certified'>
                 <div class='label-certification'>
-                    Difficulty:&nbsp;
+                    {{type}}&nbsp;
                     <span class='name hidden'>{{difficulty}}</span>
                     <h3>{{rating difficulty}}</h3>
                 </div>
@@ -35,8 +35,9 @@
             <div class='excerpt'>{{{content}}}</div>
         </div>
         <div class='foot'>
-            <a class='details' href="{{companyLink}}'"><span id='ico-info' class='material-icons-outlined'>info</span>
-                See details</a>
+                    <a class='cat-bio' data-modal='{{@index}}'><span class='icon bio'></span></a>
+            <a class='details' href="{{companyLink}}"><span id='ico-info' class='material-icons-outlined'>play_arrow</span>
+                Watch</a>
         </div>
     </div>
 {{/each}}
