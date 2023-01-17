@@ -9,6 +9,7 @@ const _ = require('underscore');
 const Static = require('./staticData');
 
 const TEMPLATE_PATH = 'bin/people/';
+const PEOPLE_DIR = 'directories/people';
 const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/people/images/ico_user.png';
 
 function extractPeople(input) {
@@ -69,10 +70,14 @@ function parse(file, page) {
 
             filterData.filters = _.sortBy(_.uniq(filters), Sorter.caseInsensitive);
 
-            Template.write(path.join('people', page, 'people.html'), path.join(TEMPLATE_PATH, 'card.hbs'), people);
-            Template.write(path.join('people', page, 'pageData.js'), path.join(TEMPLATE_PATH, 'modal.hbs'), filterData);
+            Template.write(path.join(PEOPLE_DIR, page, 'people.html'), path.join(TEMPLATE_PATH, 'card.hbs'), people);
             Template.write(
-                path.join('people', page, 'filters.html'),
+                path.join(PEOPLE_DIR, page, 'pageData.js'),
+                path.join(TEMPLATE_PATH, 'modal.hbs'),
+                filterData
+            );
+            Template.write(
+                path.join(PEOPLE_DIR, page, 'filters.html'),
                 path.join(TEMPLATE_PATH, 'filter.hbs'),
                 filterData
             );

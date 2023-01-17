@@ -26,6 +26,7 @@ var technologies = [
     'Cosmos',
     'Cygnus',
     'Data Models',
+    'Data Spaces',
     'DDS',
     'Draco',
     'FIROS',
@@ -41,6 +42,7 @@ var technologies = [
     'Pyspark',
     'QuantumLeap',
     'ROS',
+    'Security',
     'STH-Comet',
     'Water',
     'Wirecloud'
