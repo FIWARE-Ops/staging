@@ -394,7 +394,7 @@ iframe {
     /* width: 32px;
     height: 32px; */
 }
-
+/*
 .cat-bio {
     position: relative;
     width: 32px;
@@ -405,7 +405,20 @@ iframe {
     color: #002e67;
     text-align: center;
     padding: 1px 1px 1px 0px;
+}*/
+
+.cat-bio{
+    display: flex;
+    align-items: center;
+    background: #f3f3f3;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 15px;
+    line-height: .7em;
+    color: #002e67;
+    transition: all 0.3s ease-in-out;
 }
+
 
 .cat-bio:hover {
     color: #fff;
