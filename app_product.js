@@ -85,12 +85,12 @@ function addRelated(related) {
     var prods = shuffle(related);
     $("#related-links").empty();
     prods.forEach((product, i) => {
-      var resource = `<a class="yarpp-thumbnail" rel="norewrite" 
-            href="${product.companyLink}" 
-            title="${product.excerpt}">
+      var resource = `<a class="yarpp-thumbnail" rel="norewrite" href="${product.companyLink}" >
             <div class="yarpp-thumbnail-default" 
-             style="min-height: 200px;min-width: 100%; background: url(${product.featuredImage});
-                background-repeat: no-repeat; background-size: contain; background-position: center center;"
+              data-background-image='${product.featuredImage}'
+              title="${product.excerpt}"
+              style="min-height: 200px;min-width: 100%; 
+              background-repeat: no-repeat; background-size: contain; background-position: center center;"
             >
             </div>
             <div class="yarpp-thumbnail-title">${product.productName}</div>
@@ -189,5 +189,50 @@ document.addEventListener("DOMContentLoaded", () => {
       $($(".et_pb_section_1").children()).empty();
       $("#related-products").remove();
     }
+
+    initialiseStyleBackgroundIntersectionObserver();
   });
 });
+
+const initialiseStyleBackgroundIntersectionObserver = () => {
+  const lazyBackgrounds = Array.from(
+    document.querySelectorAll("[data-background-image]")
+  );
+
+  if (lazyBackgrounds.length === 0) {
+    return;
+  }
+
+  let lazyBackgroundObserver;
+
+  const loadBackgroundIfElementOnScreen = (entry) => {
+    if (entry.isIntersecting) {
+      entry.target.style.backgroundImage = `url('${entry.target.dataset.backgroundImage}')`;
+      lazyBackgroundObserver.unobserve(entry.target);
+    }
+  };
+
+  const observeElementVisibility = (lazyBackground) => {
+    lazyBackgroundObserver.observe(lazyBackground);
+  };
+
+  const setBackground = (element) => {
+    element.style.backgroundImage = `url('${entry.target.dataset.backgroundImage}')`;
+  };
+
+  if (typeof window.IntersectionObserver === "function") {
+    lazyBackgroundObserver = new IntersectionObserver((entries) => {
+      entries.forEach(loadBackgroundIfElementOnScreen);
+    });
+    lazyBackgrounds.forEach(observeElementVisibility);
+  } else {
+    lazyBackgrounds.forEach(setBackground);
+  }
+};
+
+if (
+  typeof document.readyState === "string" &&
+  document.readyState === "complete"
+) {
+  initialiseStyleBackgroundIntersectionObserver();
+}
