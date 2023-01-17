@@ -10127,3 +10127,5 @@ var pageData = {
         }
     }
 };
+
+loadProduct();
