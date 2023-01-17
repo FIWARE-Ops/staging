@@ -15,27 +15,248 @@
     box-sizing: border-box;
 }
 
-/* ---- grid ---- */
-
-.grid {
-    background: rgba(255, 255, 255, 0);
-    margin: 0 auto 0 34px;
-    max-width: 100%;
-}
-
-/* clear fix
-.grid:after {
-  content: '';
-  display: block;
-  clear: both;
-} */
-
-/* ---- .element-item ---- */
+/* Card */
 
 .grid-item {
-    width: calc(25% - 24px);
-    margin: 0 8px 30px !important;
+    width: calc(33.3% - 36px);
+    margin: 0 18px 24px 18px !important;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 0 0 0 rgb(0 0 0 / 10%);
+    border: 1px solid #f0f0f0;
+    transition: box-shadow 0.4s;
+    border-radius: 4px;
+    cursor: default;
 }
+
+.grid-item:hover {
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1)!important;
+}
+  
+.gridElementTextContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 90%;
+    margin: 0 auto;
+}
+  
+.gridElementLogo {
+    width: 100%;
+}
+  
+.gutter-sizer {
+    width: 0;
+}
+  
+.grid-item img {
+    width: auto;
+}
+  
+.company-certified {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+  
+.name {
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #2d2d2d;
+    text-transform: uppercase;
+    padding-bottom: 0px;
+}
+  
+.solution-name {
+    font-weight: 600;
+    font-size: 16px;
+    text-align: left;
+    color: #002e67;
+    line-height: 1.4em;
+    padding: 0px;
+}
+
+.label-certification {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #2d2d2d;
+    font-size: 15px;
+    line-height: 1em;
+}
+
+.difficulty-levels {
+    font-size: 1.2em;
+    color: #002e67;
+    padding: 0px 0px 0px;
+}
+  
+.year {
+    color: #002e67;
+    font-weight: 600;
+    margin-left: 4px;
+}
+
+.excerpt {
+    display: none;
+    /* font-size: .9em;
+    line-height: 1.5em;
+    color: #696969;
+    margin-bottom: 15px; */
+}
+  
+/* .grid-item ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width: auto;
+  	cursor: all-scroll;
+}
+  
+.grid-item ul::-webkit-scrollbar {
+    display: none;    
+} */
+  
+.chips {
+  position: relative;
+  width: 100%;
+  /* height: 100vh; */
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding: 0!important;
+  transition: all 0.2s;
+  /*transform: scale(0.98);*/
+  will-change: transform;
+  user-select: none;
+  cursor: grab;
+}
+
+.chips.active {
+  background: rgba(255, 255, 255, 0.3);
+  cursor: grabbing;
+  cursor: -webkit-grabbing;
+  /*transform: scale(0.99);*/
+}
+  
+.chips::-webkit-scrollbar {
+  display: none;
+}
+  
+.gridElementTechnologyDomain {
+    width: 95%;
+    margin: 0 0 0 auto;
+}
+
+
+.label-card {
+    color: #2d2d2d;
+    font-size: 14px;
+    margin-right: 16px;
+  	padding-bottom: 10px!important;
+}
+
+.chip-technology {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    height: 28px;
+}
+
+.chip-technology li {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1em;
+    color: #5dc0cf;
+    background-color: #e5f5f7;
+    position: relative;
+    border-radius: 20px 20px 20px 20px;
+    overflow: hidden;
+    padding: 6px 12px 8px;
+    margin-right: 8px;
+    display: inline-block;
+}
+
+.chip-technology li:last-of-type {
+    margin-right: 40px;
+}
+
+.chip-domain {
+    display: flex;
+    align-items: center;
+    height: 28px;
+} 
+  
+.chip-domain li {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1em;
+    color: #5dc0cf;
+    background-color: #e5f5f7;
+    position: relative;
+    border-radius: 20px 20px 20px 20px;
+    overflow: hidden;
+    padding: 6px 12px 8px;
+    margin-right: 8px;
+    display: inline-block;
+}
+
+.chip-domain li:last-of-type {
+    margin-right: 40px;
+}
+
+.chips-gradient {
+    position: absolute;
+    right: 0;
+    height: 28px;
+    margin-top: -8px;
+    width: 30px;
+    text-align: right;
+    background-image: -webkit-linear-gradient( left, rgba( 255, 255, 255, 0 ) 0%, rgba( 255, 255, 255, 1 ) 100% );
+}
+  
+.foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    width: 90%;
+    margin: 0px auto 20px auto; 
+}
+  
+.details {
+    display: flex;
+    align-items: center;
+    background: #002e67;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 15px;
+    line-height: .7em;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+  
+.details:hover {
+    background: #002452;
+    color: #fff;
+}
+  
+.details:any-link {
+    color: #fff!important;
+}
+
+  
+/* –––––––––––––––– */
+
+/* ---- .element-item ---- */
 
 .f-cat {
     border-radius: 8px;
@@ -92,112 +313,6 @@
     font-size: 13px;
     font-weight: 500;
     padding: 0px;
-}
-
-.chips {
-    position: relative;
-    width: 100%;
-    /* height: 100vh; */
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
-    padding: 0 !important;
-    transition: all 0.2s;
-    /*transform: scale(0.98);*/
-    will-change: transform;
-    user-select: none;
-    cursor: grab;
-}
-
-.chips.active {
-    background: rgba(255, 255, 255, 0.3);
-    cursor: grabbing;
-    cursor: -webkit-grabbing;
-    /*transform: scale(0.99);*/
-}
-
-.chips::-webkit-scrollbar {
-    display: none;
-}
-
-.gridElementTechnologyDomain {
-    width: 100%;
-    padding: 0px 0px 20px 40px;
-}
-
-.label-card {
-    color: #2d2d2d;
-    font-size: 14px;
-    margin-right: 16px;
-    padding-bottom: 10px !important;
-}
-
-.chip-technology {
-    margin-bottom: 15px;
-    display: flex;
-    align-items: center;
-    height: 28px;
-}
-
-.chip-technology li {
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1em;
-    color: #5dc0cf;
-    background-color: #e5f5f7;
-    position: relative;
-    border-radius: 20px 20px 20px 20px;
-    overflow: hidden;
-    padding: 6px 12px 8px;
-    margin-right: 8px;
-    display: inline-block;
-}
-
-.chip-technology li:last-of-type {
-    margin-right: 40px;
-}
-
-.chip-domain {
-    width: fit-content;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1em;
-    color: #5dc0cf;
-    background-color: #e5f5f7;
-    position: relative;
-    border-radius: 20px 20px 20px 20px;
-    overflow: hidden;
-    padding: 6px 12px 8px;
-    margin: 10px auto 0px;
-    display: inline-block;
-}
-
-.chip-domain li {
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 1em;
-        color: #5dc0cf;
-        background-color: #e5f5f7;
-        position: relative;
-        border-radius: 20px 20px 20px 20px;
-        overflow: hidden;
-        padding: 6px 12px 8px;
-        margin-right: 8px;
-        display: inline-block;
-    }
-
-.chip-domain li:last-of-type {
-    margin-right: 40px;
-}
-
-.chips-gradient {
-    position: absolute;
-    right: 0;
-    height: 28px;
-    margin-top: -8px;
-    width: 30px;
-    text-align: right;
-    background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
 }
 
 .icons {
