@@ -294,7 +294,7 @@ function parse(detailsFile, summaryFile) {
                     console.log(summaryInfo.cities.length + ' Cities');
                     Template.write(
                         'marketplace/product-details/pageData.js',
-                        path.join(TEMPLATE_PATH, 'modal.hbs'),
+                        path.join(TEMPLATE_PATH, 'productDetails.hbs'),
                         productDetails.details
                     );
 
