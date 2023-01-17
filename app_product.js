@@ -231,10 +231,3 @@ const initialiseStyleBackgroundIntersectionObserver = () => {
     lazyBackgrounds.forEach(setBackground);
   }
 };
-
-if (
-  typeof document.readyState === "string" &&
-  document.readyState === "complete"
-) {
-  initialiseStyleBackgroundIntersectionObserver();
-}
