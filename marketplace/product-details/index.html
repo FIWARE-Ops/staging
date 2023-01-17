@@ -1080,12 +1080,13 @@ lorem ipsum dolor sit amet
 				
 				
 				<div class="et_pb_code_inner">
+<script src="../../app_product.js"></script>
 <script>
 	var scr = document.createElement("script");
 	scr.src = "pageData.js" + "?ts=" + Math.round(new Date().getTime()/3600000);
 	document.getElementsByTagName("head")[0].appendChild(scr);
+	scr.onload = loadProduct;
 </script>
-<script src="../../app_product.js"></script>
 
 <script>
 

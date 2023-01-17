@@ -161,38 +161,40 @@ function fillProduct(product) {
   document.title = product.category + " - " + product.productName;
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-  $(document).ready(function () {
-    $.urlParam = function (name) {
-      var results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
-        window.location.href
-      );
-      if (results == null) {
-        return null;
+function loadProduct() {
+  document.addEventListener("DOMContentLoaded", () => {
+    $(document).ready(function () {
+      $.urlParam = function (name) {
+        var results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
+          window.location.href
+        );
+        if (results == null) {
+          return null;
+        }
+        return decodeURI(results[1]) || 0;
+      };
+
+      $("div#back-button").on("click", function (e) {
+        e.preventDefault();
+        window.history.back();
+      });
+
+      if (
+        $.urlParam("category") &&
+        pageData[$.urlParam("category")] &&
+        $.urlParam("id") &&
+        pageData[$.urlParam("category")][$.urlParam("id")]
+      ) {
+        fillProduct(pageData[$.urlParam("category")][$.urlParam("id")]);
+      } else {
+        $($(".et_pb_section_1").children()).empty();
+        $("#related-products").remove();
       }
-      return decodeURI(results[1]) || 0;
-    };
 
-    $("div#back-button").on("click", function (e) {
-      e.preventDefault();
-      window.history.back();
+      initialiseStyleBackgroundIntersectionObserver();
     });
-
-    if (
-      $.urlParam("category") &&
-      pageData[$.urlParam("category")] &&
-      $.urlParam("id") &&
-      pageData[$.urlParam("category")][$.urlParam("id")]
-    ) {
-      fillProduct(pageData[$.urlParam("category")][$.urlParam("id")]);
-    } else {
-      $($(".et_pb_section_1").children()).empty();
-      $("#related-products").remove();
-    }
-
-    initialiseStyleBackgroundIntersectionObserver();
   });
-});
+}
 
 const initialiseStyleBackgroundIntersectionObserver = () => {
   const lazyBackgrounds = Array.from(
