@@ -196,7 +196,7 @@ function loadProduct() {
   });
 }
 
-const initialiseStyleBackgroundIntersectionObserver = () => {
+function initialiseStyleBackgroundIntersectionObserver() {
   const lazyBackgrounds = Array.from(
     document.querySelectorAll("[data-background-image]")
   );
