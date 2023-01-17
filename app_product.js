@@ -162,8 +162,8 @@ function fillProduct(product) {
 }
 
 function loadProduct() {
-  document.addEventListener("DOMContentLoaded", () => {
-    $(document).ready(function () {
+  //document.addEventListener("DOMContentLoaded", () => {
+  //  $(document).ready(function () {
       $.urlParam = function (name) {
         var results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
           window.location.href
@@ -192,8 +192,8 @@ function loadProduct() {
       }
 
       initialiseStyleBackgroundIntersectionObserver();
-    });
-  });
+  //  });
+  //});
 }
 
 function initialiseStyleBackgroundIntersectionObserver() {
