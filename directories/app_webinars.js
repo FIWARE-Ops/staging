@@ -100,42 +100,45 @@ function createModalContent(tingleModalData) {
   var modalHtml = "";
   console.warn(tingleModalData);
 
-  modalHtml += "<div class='info-modal'>";
-  modalHtml += '<img class="headshot" src="' + tingleModalData.img + '" />';
-  modalHtml += "<div class='credits-modal'>";
+  modalHtml = `<div class='info-modal'>
+  <img class="headshot" src="${tingleModalData.img}" />
+  <div class='credits-modal'>`
   if (tingleModalData.name !== '') {
-    modalHtml += "<h1>" + tingleModalData.name + "</h1>";
+    modalHtml += `<h1>${tingleModalData.name}</h1>`;
   }
   if (tingleModalData.type !== '') {
-    modalHtml += "<h2>" + tingleModalData.type + " " + rating(tingleModalData.difficulty) +"</h2>";
+    modalHtml += `<h2>${tingleModalData.type} ${rating(tingleModalData.difficulty)}</h2>`;
   }
 
-  modalHtml += "</div>";
-  modalHtml += "</div>";
-  modalHtml += "<div class='content'>";
+  if (tingleModalData.type !== '') {
+    modalHtml += `<p style="padding-bottom: 0.2em">First Broadcast: <b>${tingleModalData.year}</b></p>
+    <p style="padding-bottom: 0.2em">Duration: <b>${tingleModalData.length} minutes</b></p>`;
+  }
+
+  modalHtml += `</div></div><div class='content'>`;
   if (tingleModalData.content !== '') {
     modalHtml += tingleModalData.content.replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&');
   }
-  modalHtml += "</div>";
-  modalHtml += "<div class='details-modal'>";
-  modalHtml += "<div class='social-modal'>";
-
-
-  modalHtml += "<div class='tags-modal'>";
-  if (tingleModalData.domain) {
-    domains = tingleModalData.domain.split(',');
-    domains.forEach((domain) => {
-      modalHtml += '<p class="domain">' + domain + "</p>";
-    });
-  }
-  
+  modalHtml += `</div>`;
   if (tingleModalData.technology) {
+    modalHtml += `<div class='details-modal'><div class='social-modal'><div class='tags-modal'><p class='label-card'>Keywords</p>`;
     technologies = tingleModalData.technology.split(',');
      technologies.forEach((tech) => {
-      modalHtml += '<p class="domain">' + tech + "</p>";
+      modalHtml += `<p class="domain">${tech}</p>`;
     });
+     modalHtml += "</div>";
   }
-  modalHtml += "</div>";
+  modalHtml += "</div></div></div>";
+
+  if (tingleModalData.domain) {
+    domains = tingleModalData.domain.split(',');
+    modalHtml += `<div class='details-modal'><div class='social-modal'><div class='tags-modal'><p class='label-card'>Audience</p>`;
+    domains.forEach((domain) => {
+      modalHtml += `<p class="domain">${domain}</p>`;
+    });
+    modalHtml += "</div></div></div>";
+  }
+  
 
   return modalHtml;
 }
