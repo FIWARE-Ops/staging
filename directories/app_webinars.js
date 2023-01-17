@@ -258,10 +258,7 @@ function initSelect() {
     });
   });
 
-  // toggle filter menu only on mobile
-  if (window.innerWidth <= 980) {
-    filterToggle();
-  }
+  filterToggle();
 }
 
 function smoothScroll() {
