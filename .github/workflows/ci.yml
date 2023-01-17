@@ -24,8 +24,7 @@ jobs:
     - name: Create local changes
       run: |
         cp -R main/marketplace staging
-        cp -R main/community staging
-        cp -R main/people staging
+        cp -R main/directories staging
     - name: Commit files
       continue-on-error: true
       run: |
