@@ -88,6 +88,14 @@ function initTextSearch(msnry) {
   });
 }
 
+function rating(difficulty) {
+    let result = '';
+    for (let i = 0; i < difficulty; i++) {
+        result += '★ ';
+    }
+    return result;
+}
+
 function createModalContent(tingleModalData) {
   var modalHtml = "";
   console.warn(tingleModalData);
@@ -98,51 +106,35 @@ function createModalContent(tingleModalData) {
   if (tingleModalData.name !== '') {
     modalHtml += "<h1>" + tingleModalData.name + "</h1>";
   }
-  if (tingleModalData.position !== '') {
-    modalHtml += "<h2>" + tingleModalData.position + "</h2>";
+  if (tingleModalData.type !== '') {
+    modalHtml += "<h2>" + tingleModalData.type + " " + rating(tingleModalData.difficulty) +"</h2>";
   }
-  if (tingleModalData.company !== '') {
-    modalHtml +=
-      '<a class="company-link" href="' +
-      tingleModalData["company-link"] +
-      '" target="_blank">' +
-      tingleModalData.company +
-      "</a>";
-  }
+
   modalHtml += "</div>";
   modalHtml += "</div>";
-  modalHtml += "<div class='bio-modal'>";
+  modalHtml += "<div class='content'>";
   if (tingleModalData.content !== '') {
-    modalHtml += "<p>" + tingleModalData.content.replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&'); + "</p>";
+    modalHtml += tingleModalData.content.replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&');
   }
   modalHtml += "</div>";
   modalHtml += "<div class='details-modal'>";
   modalHtml += "<div class='social-modal'>";
 
-  if (tingleModalData.twitter !== '') {
-    modalHtml +=
-      '<a class="twitter-link" href="' +
-      tingleModalData["twitter"] +
-      '" target="_blank"></a>';
-  }
-  if (tingleModalData.linkedin !== '') {
-    modalHtml +=
-      '<a class="linkedin-link" href="' +
-      tingleModalData["linkedin"] +
-      '" target="_blank"></a>';
-  }
-  if (tingleModalData.flag !== '') {
-    modalHtml += `<img class="flag"  src="${tingleModalData.flag}"/>`;
-  }
-  modalHtml += "</div>";
+
   modalHtml += "<div class='tags-modal'>";
   if (tingleModalData.domain) {
-    modalHtml += '<p class="domain">' + tingleModalData.domain + "</p>";
+    domains = tingleModalData.domain.split(',');
+    domains.forEach((domain) => {
+      modalHtml += '<p class="domain">' + domain + "</p>";
+    });
   }
-  /*
-  if (tingleModalData.location) {
-    modalHtml += '<p class="location">' + tingleModalData.location + "</p>";
-  }*/
+  
+  if (tingleModalData.technology) {
+    technologies = tingleModalData.technology.split(',');
+     technologies.forEach((tech) => {
+      modalHtml += '<p class="domain">' + tech + "</p>";
+    });
+  }
   modalHtml += "</div>";
 
   return modalHtml;
