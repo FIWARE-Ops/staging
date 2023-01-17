@@ -20,6 +20,7 @@ function extractWebinars(input) {
             year: parseInt(item['Year']),
             difficulty: parseInt(item['Difficulty']),
             content: Parser.markdown(item['Content']),
+            length: item['Length'],
             publish: Parser.boolean(item['Published'])
         };
         if (webinar.publish) {
