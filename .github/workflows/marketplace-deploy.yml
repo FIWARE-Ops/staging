@@ -1,0 +1,21 @@
+name: Publish PRODUCTS to LIVE fiware.org/marketplace
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+
+      - name: copy file via ssh password
+        uses: appleboy/scp-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          port: ${{ secrets.PORT }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.SSH_KEY }}
+          target: ${{ secrets.SSH_DIR }}
+          source: "marketplace/powered-by-fiware/pageData.js,marketplace/fiware-ready/pageData.js,marketplace/product-details/pageData.js,marketplace/cities4cities/pageData.js,marketplace/support-services/pageData.js,marketplace/product-details/featured.html"
