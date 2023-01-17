@@ -1270,7 +1270,11 @@ input[type="checkbox"]:checked+label::after {
 #searchInput {
     padding: 5px;
     max-width: unset !important;
+    width: -moz-available;
+    /* WebKit-based browsers will ignore this. */
     width: -webkit-fill-available;
+    /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
     font-size: 16px;
 }
 
