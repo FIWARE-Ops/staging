@@ -645,6 +645,11 @@ iframe {
     font-size: .9em;
 }
 
+.tingle-modal ul {
+    list-style: circle;
+    margin-bottom: 20px;
+}
+
 .tingle-modal h1 {
     color: #002e67;
     font-weight: 600;
@@ -1792,5 +1797,7 @@ input[type="search"]::placeholder {
     #orderByYear {
         margin-right: 12px;
     }
+
+    
 
 }
