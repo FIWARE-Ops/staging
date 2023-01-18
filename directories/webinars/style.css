@@ -1637,6 +1637,7 @@ input[type="search"]::placeholder {
         color: #002e67;
         text-transform: uppercase;
         display: flex;
+        justify-content: center;
         align-items: flex-end;
         padding: 15px 0px;
     }
@@ -1812,6 +1813,7 @@ input[type="search"]::placeholder {
         color: #002e67;
         text-transform: uppercase;
         display: flex;
+        justify-content: center;
         align-items: flex-end;
         padding: 15px 0px;
     }
