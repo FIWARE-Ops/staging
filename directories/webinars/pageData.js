@@ -53,6 +53,8 @@ var modalData = [
         name: 'Managing Data Models and Exposing Digital Twins',
         img: 'https://fiware.github.io/academy/img/beyond-ngsi-ld.png',
         type: 'Core Context',
+        badge:
+            "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg' style='height:24px;margin-right:10px'/>",
         difficulty: 3,
         video: 'https://www.youtube.com/watch?v=42dNh1VM7n4',
         content:
@@ -66,6 +68,8 @@ var modalData = [
         name: 'NGSI-LD Concise Payloads and Merge Patch Operations',
         img: 'https://fiware.github.io/academy/img/concise-merge-patch.png',
         type: 'Core Context',
+        badge:
+            "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg' style='height:24px;margin-right:10px'/>",
         difficulty: 3,
         video: 'https://www.youtube.com/watch?v=-XPGyM7K_kU',
         content:
@@ -79,6 +83,7 @@ var modalData = [
         name: 'Extending FIWARE MLOps using Argo Workflows',
         img: 'https://fiware.github.io/academy/img/argo.png',
         type: 'Operations',
+        badge: 'Operations',
         difficulty: 3,
         video: 'https://www.youtube.com/watch?v=IIN5d2Mco9A',
         content:
@@ -92,6 +97,8 @@ var modalData = [
         name: 'Monitoring and Supervision of robotic systems using FIWARE and ROS 2',
         img: 'https://fiware.github.io/academy/img/iotagent-ros2.png',
         type: 'Robotics',
+        badge:
+            "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Robotics.svg' style='height:24px;margin-right:10px'/>",
         difficulty: 3,
         video: 'https://www.youtube.com/watch?v=qDMljIidA6k',
         content:
@@ -105,6 +112,7 @@ var modalData = [
         name: 'IoT Agent Gateways Using the IOTA Tangle for Secure Data Transfer',
         img: 'https://fiware.github.io/academy/img/tangle.png',
         type: 'IoT Agents',
+        badge: 'IoT Agents',
         difficulty: 4,
         video: 'https://www.youtube.com/watch?v=gED5mAtBtYg',
         content:
@@ -118,6 +126,8 @@ var modalData = [
         name: 'Local Expert in B2B Data Sharing',
         img: 'https://fiware.github.io/academy/img/lebds.png',
         type: 'Security',
+        badge:
+            "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Security.svg' style='height:24px;margin-right:10px'/>",
         difficulty: 3,
         video: 'https://www.youtube.com/watch?v=J38N832HRjM',
         content:
@@ -131,6 +141,7 @@ var modalData = [
         name: 'Building real-time inference AI services with FIWARE',
         img: 'https://fiware.github.io/academy/img/ai-inference.pn',
         type: 'Processing',
+        badge: 'Processing',
         difficulty: 3,
         video: 'https://www.youtube.com/watch?v=L_IDCUE1IbA',
         content:
@@ -144,6 +155,8 @@ var modalData = [
         name: 'Actuation, Federation and interoperability of context brokers',
         img: 'https://fiware.github.io/academy/img/actuation.png',
         type: 'Core Context',
+        badge:
+            "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg' style='height:24px;margin-right:10px'/>",
         difficulty: 3,
         video: 'https://www.youtube.com/watch?v=ebk14k5dNxo',
         content:
@@ -157,6 +170,7 @@ var modalData = [
         name: 'NGSI-LD IoT Agents',
         img: 'https://fiware.github.io/academy/img/ngsi-ld-iot-agents.png',
         type: 'IoT Agents',
+        badge: 'IoT Agents',
         difficulty: 3,
         video: 'https://www.youtube.com/watch?v=XBLyMa-UBmg',
         content:
@@ -170,6 +184,7 @@ var modalData = [
         name: 'Monitoring Measures Using FIWARE &amp; Grafana',
         img: 'https://fiware.github.io/academy/img/grafana.png',
         type: 'Visualisation',
+        badge: 'Visualisation',
         difficulty: 3,
         video: 'https://www.youtube.com/watch?v=Gaa23hC0teo',
         content:
@@ -183,6 +198,7 @@ var modalData = [
         name: 'Customizing IoT Agents',
         img: 'https://fiware.github.io/academy/img/custom-iot-agents.png',
         type: 'IoT Agents',
+        badge: 'IoT Agents',
         difficulty: 4,
         video: 'https://www.youtube.com/watch?v=HuEwI8wJKFU',
         content:
@@ -196,6 +212,8 @@ var modalData = [
         name: 'Connecting NGSI-LD FIWARE Components',
         img: 'https://fiware.github.io/academy/img/combining-v2-ld.png',
         type: 'Core Context',
+        badge:
+            "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg' style='height:24px;margin-right:10px'/>",
         difficulty: 3,
         video: 'https://www.youtube.com/watch?v=sWa0k5GyGyw',
         content:
@@ -209,6 +227,8 @@ var modalData = [
         name: 'End-to-end AI Solution With PySpark &amp; Draco',
         img: 'https://fiware.github.io/academy/img/pyspark.png',
         type: 'Core Context',
+        badge:
+            "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg' style='height:24px;margin-right:10px'/>",
         difficulty: 3,
         video: 'https://www.youtube.com/watch?v=d724j7PpaVg',
         content:
@@ -222,6 +242,8 @@ var modalData = [
         name: 'NGSI-LD Temporal Operations',
         img: 'https://fiware.github.io/academy/img/ngsi-ld-temporal.png',
         type: 'Core Context',
+        badge:
+            "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg' style='height:24px;margin-right:10px'/>",
         difficulty: 3,
         video: 'https://www.youtube.com/watch?v=w6ymNPO-Baw',
         content:
@@ -235,6 +257,8 @@ var modalData = [
         name: 'Managing Users Identities and Access Control Policies with API Umbrella',
         img: 'https://fiware.github.io/academy/img/umbrella.png',
         type: 'Security',
+        badge:
+            "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Security.svg' style='height:24px;margin-right:10px'/>",
         difficulty: 3,
         video: 'https://www.youtube.com/watch?v=BuyhK1rzHIY',
         content:
@@ -248,6 +272,8 @@ var modalData = [
         name: 'Language Maps and Multilanguage support in NGSI-LD',
         img: 'https://fiware.github.io/academy/img/language.png',
         type: 'Core Context',
+        badge:
+            "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg' style='height:24px;margin-right:10px'/>",
         difficulty: 3,
         video: 'https://www.youtube.com/watch?v=QZIrSa7un24',
         content:
@@ -261,6 +287,7 @@ var modalData = [
         name: 'Machine learning with FIWARE and MLOps',
         img: 'https://fiware.github.io/academy/img/mlops.png',
         type: 'Operations',
+        badge: 'Operations',
         difficulty: 3,
         video: 'https://www.youtube.com/watch?v=6X9r5Kb8UIs',
         content:
@@ -274,6 +301,7 @@ var modalData = [
         name: 'Scalable deployments with FIWARE',
         img: 'https://fiware.github.io/academy/img/scalable.png',
         type: 'Operations',
+        badge: 'Operations',
         difficulty: 3,
         video: 'https://www.youtube.com/watch?v=WUman6Mnx58',
         content:
@@ -287,6 +315,7 @@ var modalData = [
         name: 'Cloud-Edge processing with FogFlow',
         img: 'https://fiware.github.io/academy/img/fogflow.png',
         type: 'Processing',
+        badge: 'Processing',
         difficulty: 3,
         video: 'https://www.youtube.com/watch?v=D06W3t5uv94',
         content:
@@ -300,6 +329,7 @@ var modalData = [
         name: 'FIWARE Basics, understanding the terminology',
         img: 'https://fiware.github.io/academy/img/basics.png',
         type: 'Fundamentals',
+        badge: 'Fundamentals',
         difficulty: 0,
         video: 'https://www.youtube.com/watch?v=laDTBcLziB8',
         content:
@@ -313,6 +343,7 @@ var modalData = [
         name: 'Passing the FIWARE Experts Exam',
         img: 'https://fiware.github.io/academy/img/experts.png',
         type: 'Cross-Chapter',
+        badge: 'Cross-Chapter',
         difficulty: 3,
         video: 'https://www.youtube.com/watch?v=6_JLn-69Z_8',
         content:
@@ -326,6 +357,8 @@ var modalData = [
         name: 'Strategies for Context Data Persistence',
         img: 'https://fiware.github.io/academy/img/data-persistence.png',
         type: 'Core Context',
+        badge:
+            "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg' style='height:24px;margin-right:10px'/>",
         difficulty: 3,
         video: 'https://www.youtube.com/watch?v=_uLZDGFPlRA',
         content:
@@ -339,6 +372,8 @@ var modalData = [
         name: 'Short Term History within FIWARE Systems',
         img: 'https://fiware.github.io/academy/img/short-term-history.png',
         type: 'Core Context',
+        badge:
+            "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg' style='height:24px;margin-right:10px'/>",
         difficulty: 3,
         video: 'https://www.youtube.com/watch?v=fX_YAc7G4Dk',
         content:
@@ -352,6 +387,8 @@ var modalData = [
         name: 'Securing FIWARE IoT Devices',
         img: 'https://fiware.github.io/academy/img/secure-devices.png',
         type: 'Security',
+        badge:
+            "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Security.svg' style='height:24px;margin-right:10px'/>",
         difficulty: 4,
         video: 'https://www.youtube.com/watch?v=_87IZhrYo3U',
         content:
@@ -365,6 +402,8 @@ var modalData = [
         name: 'How to Develop FIWARE NGSI Interfaces for Robots',
         img: 'https://fiware.github.io/academy/img/robots-2.png',
         type: 'Robotics',
+        badge:
+            "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Robotics.svg' style='height:24px;margin-right:10px'/>",
         difficulty: 2,
         video: 'https://www.youtube.com/watch?v=m5JWxlMMuqk',
         content:
@@ -378,6 +417,8 @@ var modalData = [
         name: 'Introduction to NGSI-LD',
         img: 'https://fiware.github.io/academy/img/ngsi-ld-1.png',
         type: 'Core Context',
+        badge:
+            "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg' style='height:24px;margin-right:10px'/>",
         difficulty: 3,
         video: 'https://www.youtube.com/watch?v=rZ13IyLpAtA',
         content:
@@ -391,6 +432,7 @@ var modalData = [
         name: 'FIWARE Building the Future',
         img: 'https://fiware.github.io/academy/img/future.png',
         type: 'Cross-Chapter',
+        badge: 'Cross-Chapter',
         difficulty: 2,
         video: 'https://www.youtube.com/watch?v=REoJA7yxJ_0',
         content:
@@ -404,6 +446,7 @@ var modalData = [
         name: 'Architecting Your Smart Solution Using FIWARE',
         img: 'https://fiware.github.io/academy/img/architecting.png',
         type: 'Cross-Chapter',
+        badge: 'Cross-Chapter',
         difficulty: 2,
         video: 'https://www.youtube.com/watch?v=pTkZk4VF0gY',
         content:
@@ -417,6 +460,7 @@ var modalData = [
         name: 'FIWARE Vision and Value Proposition for a Smart Future',
         img: 'https://fiware.github.io/academy/img/fiware-vision.png',
         type: 'Cross-Chapter',
+        badge: 'Cross-Chapter',
         difficulty: 2,
         video: 'https://www.youtube.com/watch?v=7ZMUYEWD1gw',
         content:
@@ -430,6 +474,8 @@ var modalData = [
         name: 'The Use of DDS Middleware in Robotics',
         img: 'https://fiware.github.io/academy/img/robots-3.png',
         type: 'Robotics',
+        badge:
+            "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Robotics.svg' style='height:24px;margin-right:10px'/>",
         difficulty: 2,
         video: 'https://www.youtube.com/watch?v=OQYBJJ5ydto',
         content:
@@ -443,6 +489,8 @@ var modalData = [
         name: 'Blockchain/DLT Integration with FIWARE',
         img: 'https://fiware.github.io/academy/img/blockchain.png',
         type: 'Core Context',
+        badge:
+            "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg' style='height:24px;margin-right:10px'/>",
         difficulty: 2,
         video: 'https://www.youtube.com/watch?v=ITSxtlCmNhQ',
         content:
@@ -456,6 +504,8 @@ var modalData = [
         name: 'Big Data Analysis using Cosmos with Spark or Flink',
         img: 'https://fiware.github.io/academy/img/big-data-1.png',
         type: 'Core Context',
+        badge:
+            "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg' style='height:24px;margin-right:10px'/>",
         difficulty: 3,
         video: 'https://www.youtube.com/watch?v=n6XN89VSZNg',
         content: '&lt;p&gt;Performing Big Data Analysis Using Cosmos With Spark or Flink&lt;/p&gt;',
@@ -468,6 +518,8 @@ var modalData = [
         name: 'NGSI-LD and Smart Data Models - Standardizing Access to Digital Twins',
         img: 'https://fiware.github.io/academy/img/data-models-2.png',
         type: 'Core Context',
+        badge:
+            "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg' style='height:24px;margin-right:10px'/>",
         difficulty: 3,
         video: 'https://www.youtube.com/watch?v=MBx23ypORLk',
         content:
@@ -481,6 +533,8 @@ var modalData = [
         name: 'Robots and Machine Interfaces: Building Interfaces to ROS Systems',
         img: 'https://fiware.github.io/academy/img/robots-4.png',
         type: 'Robotics',
+        badge:
+            "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Robotics.svg' style='height:24px;margin-right:10px'/>",
         difficulty: 3,
         video: 'https://www.youtube.com/watch?v=a0NxSS96YzY',
         content:
@@ -494,6 +548,7 @@ var modalData = [
         name: 'Turning Organizations Into Smart Organizations',
         img: 'https://fiware.github.io/academy/img/smart-organizations.png',
         type: 'Cross-Chapter',
+        badge: 'Cross-Chapter',
         difficulty: 2,
         video: 'https://www.youtube.com/watch?v=XsoXchKiKB4',
         content:
@@ -507,6 +562,8 @@ var modalData = [
         name: 'Smart Water Management - Using FIWARE Smart Data Models for Water',
         img: 'https://fiware.github.io/academy/img/smart-water.png',
         type: 'Core Context',
+        badge:
+            "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg' style='height:24px;margin-right:10px'/>",
         difficulty: 2,
         video: 'https://www.youtube.com/watch?v=QbAiLMFEQrY',
         content: '&lt;p&gt;Using FIWARE Smart Data Models for Water.&lt;/p&gt;',
@@ -519,6 +576,8 @@ var modalData = [
         name: 'FIWARE and micro-ROS: Enabling Robotics Systems on Micro-controllers',
         img: 'https://fiware.github.io/academy/img/robots-5.png',
         type: 'Robotics',
+        badge:
+            "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Robotics.svg' style='height:24px;margin-right:10px'/>",
         difficulty: 2,
         video: 'https://www.youtube.com/watch?v=XJL2_FHcils',
         content:
@@ -532,6 +591,8 @@ var modalData = [
         name: 'Integrating Robotic Systems for Agile Manufacturing Using FIWARE',
         img: 'https://fiware.github.io/academy/img/robots-6.png',
         type: 'Robotics',
+        badge:
+            "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Robotics.svg' style='height:24px;margin-right:10px'/>",
         difficulty: 2,
         video: 'https://www.youtube.com/watch?v=ftxNOdwqjiQ',
         content:
@@ -545,6 +606,7 @@ var modalData = [
         name: 'Cities as Enablers of the Data Economy - Smart Data Models for Cities',
         img: 'https://fiware.github.io/academy/img/smart-cities.png',
         type: 'Cross-Chapter',
+        badge: 'Cross-Chapter',
         difficulty: 2,
         video: 'https://www.youtube.com/watch?v=b0EWq5E5jAc',
         content:
@@ -558,6 +620,8 @@ var modalData = [
         name: 'Machine Learning with Cosmos and Spark',
         img: 'https://fiware.github.io/academy/img/big-data-2.png',
         type: 'Core Context',
+        badge:
+            "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg' style='height:24px;margin-right:10px'/>",
         difficulty: 3,
         video: 'https://www.youtube.com/watch?v=isugbtZWU4I',
         content:
@@ -571,6 +635,7 @@ var modalData = [
         name: 'Monetizing your Organization&#x27;s Data',
         img: 'https://fiware.github.io/academy/img/monetization.png',
         type: 'Data Monetization',
+        badge: 'Data Monetization',
         difficulty: 3,
         video: 'https://www.youtube.com/watch?v=jsG7SYtP4FU',
         content:
@@ -584,6 +649,7 @@ var modalData = [
         name: 'Creating Advanced Dashboards Using Wirecloud',
         img: 'https://fiware.github.io/academy/img/wirecloud.png',
         type: 'Visualisation',
+        badge: 'Visualisation',
         difficulty: 3,
         video: 'https://www.youtube.com/watch?v=LkGpx6BKbRM',
         content:
@@ -597,6 +663,7 @@ var modalData = [
         name: 'Choosing Open Source Licenses for FIWARE Components',
         img: 'https://fiware.github.io/academy/img/open-source.png',
         type: 'Cross-Chapter',
+        badge: 'Cross-Chapter',
         difficulty: 1,
         video: 'https://www.youtube.com/watch?v=1X_kNwkkcjo',
         content:
@@ -610,6 +677,8 @@ var modalData = [
         name: 'Adopting Common Smart Data Models for Smart Cities',
         img: 'https://fiware.github.io/academy/img/iudx.png',
         type: 'Core Context',
+        badge:
+            "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg' style='height:24px;margin-right:10px'/>",
         difficulty: 3,
         video: 'https://www.youtube.com/watch?v=dfMo0HnaIUQ',
         content:
@@ -623,6 +692,8 @@ var modalData = [
         name: 'India Urban Data Exchange',
         img: 'https://fiware.github.io/academy/img/iudx.png',
         type: 'Core Context',
+        badge:
+            "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg' style='height:24px;margin-right:10px'/>",
         difficulty: 2,
         video: 'https://www.youtube.com/watch?v=YXp822s2_n4',
         content:
@@ -636,6 +707,7 @@ var modalData = [
         name: 'FIWARE iHubs Webinar - Spain (Andalusia), Italy (Perugia), Argentina (La Plata)',
         img: 'https://img.youtube.com/vi/IXjQwcuf9Xw/0.jpg',
         type: '',
+        badge: '',
         difficulty: 1,
         video: 'https://www.youtube.com/watch?v=IXjQwcuf9Xw',
         content:
@@ -649,6 +721,7 @@ var modalData = [
         name: 'FIWARE iHubs Webinar - Spain (Badajoz), France (Saint-Quentin), Uruguay (Montevideo)',
         img: 'https://img.youtube.com/vi/GmloMFyDa7Y/0.jpg',
         type: '',
+        badge: '',
         difficulty: 1,
         video: 'https://www.youtube.com/watch?v=GmloMFyDa7Y',
         content:
@@ -662,6 +735,7 @@ var modalData = [
         name: 'FIWARE iHubs Webinar - the Netherlands, Canary Islands, Azores',
         img: 'https://img.youtube.com/vi/a1RV2UILgyg/0.jpg',
         type: '',
+        badge: '',
         difficulty: 1,
         video: 'https://www.youtube.com/watch?v=a1RV2UILgyg',
         content:
@@ -675,6 +749,7 @@ var modalData = [
         name: 'Introduction to FIWARE',
         img: 'https://fiware.github.io/academy/img/intro.png',
         type: 'Fundamentals',
+        badge: 'Fundamentals',
         difficulty: 1,
         video: "https://youtu.be/97JsnnpPLrA'",
         content:
@@ -688,6 +763,8 @@ var modalData = [
         name: 'Core Context Management',
         img: 'https://fiware.github.io/academy/img/core-context.png',
         type: 'Core Context',
+        badge:
+            "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg' style='height:24px;margin-right:10px'/>",
         difficulty: 3,
         video: 'https://www.youtube.com/watch?v=pK4GgYjlmdY',
         content:
@@ -701,6 +778,7 @@ var modalData = [
         name: 'What is an IoT Agent?',
         img: 'https://fiware.github.io/academy/img/iot-agents.png',
         type: 'IoT Agents',
+        badge: 'IoT Agents',
         difficulty: 3,
         video: 'https://www.youtube.com/watch?v=my6Kgiqx-OM',
         content:
@@ -714,6 +792,8 @@ var modalData = [
         name: 'How to Secure FIWARE Architectures',
         img: 'https://fiware.github.io/academy/img/security.png',
         type: 'Security',
+        badge:
+            "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Security.svg' style='height:24px;margin-right:10px'/>",
         difficulty: 3,
         video: 'https://www.youtube.com/watch?v=SP0zFdTybA4',
         content:
@@ -727,6 +807,7 @@ var modalData = [
         name: 'How to Debug IoT Agents',
         img: 'https://fiware.github.io/academy/img/iotagent-debug.png',
         type: 'IoT Agents',
+        badge: 'IoT Agents',
         difficulty: 4,
         video: 'https://www.youtube.com/watch?v=FRqJsywi9e8',
         content:
@@ -740,6 +821,8 @@ var modalData = [
         name: 'How to Get Context Data Out of Robots',
         img: 'https://fiware.github.io/academy/img/robots-1.png',
         type: 'Robotics',
+        badge:
+            "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Robotics.svg' style='height:24px;margin-right:10px'/>",
         difficulty: 2,
         video: 'https://www.youtube.com/watch?v=T8XV6Wah9l4',
         content:
@@ -753,6 +836,8 @@ var modalData = [
         name: 'Data Modelling with NGSI',
         img: 'https://fiware.github.io/academy/img/data-models-1.png',
         type: 'Core Context',
+        badge:
+            "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg' style='height:24px;margin-right:10px'/>",
         difficulty: 4,
         video: 'https://www.youtube.com/watch?v=T_1DpKf6C_c',
         content:
