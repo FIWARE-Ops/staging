@@ -715,8 +715,10 @@ iframe {
 }
 
 .tingle-modal ul {
-    list-style: circle;
+    list-style: disc;
+    color: #000;
     margin-bottom: 20px;
+    padding-left: 17px;
 }
 
 .tingle-modal h1 {
@@ -724,8 +726,8 @@ iframe {
     font-weight: 600;
     padding-bottom: 15px;
     border-bottom: 2px solid #002e67;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 18px;
+    line-height: 26px;
     margin: 0px auto 15px;
 }
 
