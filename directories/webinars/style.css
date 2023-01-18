@@ -861,17 +861,17 @@ iframe {
     overflow: auto;
 }
 
-.tingle-modal .bio-modal p::-webkit-scrollbar {
+.tingle-modal .bio-modal p::-webkit-scrollbar, .tingle-modal-box__content .content::-webkit-scrollbar {
     width: 8px;
     /* width of the entire scrollbar */
 }
 
-.tingle-modal .bio-modal p::-webkit-scrollbar-track {
+.tingle-modal .bio-modal p::-webkit-scrollbar-track, .tingle-modal-box__content .content::-webkit-scrollbar-track {
     background: transparent;
     /* color of the tracking area */
 }
 
-.tingle-modal .bio-modal p::-webkit-scrollbar-thumb {
+.tingle-modal .bio-modal p::-webkit-scrollbar-thumb, .tingle-modal-box__content .content::-webkit-scrollbar-thumb {
     background-color: #ebebeb;
     /* color of the scroll thumb */
     border-radius: 20px;
@@ -880,7 +880,7 @@ iframe {
     /* creates padding around scroll thumb */
 }
 
-.tingle-modal .bio-modal p {
+.tingle-modal .bio-modal p, .tingle-modal-box__content .content {
     scrollbar-width: thin;
     /* "auto" or "thin" */
     scrollbar-color: #ebebeb transparent;
@@ -1132,7 +1132,7 @@ iframe {
         line-height: 0.8em;
     }
 
-    .tingle-modal .bio-modal p {
+    .tingle-modal .bio-modal p, .tingle-modal-box__content .content {
         max-height: 250px;
         overflow: auto;
     }
