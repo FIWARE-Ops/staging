@@ -1232,7 +1232,7 @@ iframe {
     text-transform: uppercase;
     display: flex;
     align-items: flex-end;
-    justify-content: center;
+    justify-content: flex-end;
     padding: 15px 0px;
     cursor: pointer;
 }
@@ -1241,7 +1241,7 @@ iframe {
     transition: height .5s ease;
     width: 100%;
     max-width: 1184px;
-    margin: 0 auto;
+    margin: 0px auto 20px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
