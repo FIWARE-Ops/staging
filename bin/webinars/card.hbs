@@ -4,20 +4,18 @@
             <img src='{{img}}' alt='' loading='lazy' />
         </div>
         <div class='gridElementTextContainer'>
-            <p class='solution-name'>{{name}}</p>
-            <div class='company-certified'>
-                <div class='label-certification'>
-                    {{{badge}}}
-                </div>
+            <div class='label-type'>
+                {{{badge}}}
             </div>
-            <div class="foot">
-                <div class='label-certification'>
+            <p class='solution-name'>{{name}}</p>
+            <div class="details-container">
+                <div class='label-duration'>
+                    <span class="material-icons-outlined">schedule</span>
+                    <span class='name'>{{length}} mins</span>
+                </div>
+                <div class='label-difficulty'>
                     <span class='name hidden'>{{difficulty}}</span>
                     <h3>{{rating difficulty}}</h3>
-                </div>
-                <div class='label-certification'>
-                    <span class='material-icons-outlined'>groups</span>
-                    <span class='name'>{{length}} mins</span>
                 </div>
                 <div class='hidden'>
                     <span class='year'>{{year}}</span>
@@ -37,9 +35,6 @@
                     <span class='chips-gradient'></span>
                 </div>
             </div>
-        </div>
-        <div class='gridElementTechnologyDomain'>
-            <div class='excerpt'>{{{content}}}</div>
         </div>
         <div class='foot'>
             <a class='cat-bio' data-modal='{{@index}}'>
