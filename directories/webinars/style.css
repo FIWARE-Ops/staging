@@ -724,7 +724,8 @@ iframe {
     font-weight: 600;
     padding-bottom: 15px;
     border-bottom: 2px solid #002e67;
-    font-size: 1.7em;
+    font-size: 20px;
+    line-height: 28px;
     margin: 0px auto 15px;
 }
 
