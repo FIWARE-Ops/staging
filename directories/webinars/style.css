@@ -1797,6 +1797,10 @@ input[type="search"]::placeholder {
         left: 0px !important;
     }
 
+    .filter-by {
+        margin-top: 15px
+    }
+
     .filters-dropdown {
         display: flex;
         flex-direction: column;
