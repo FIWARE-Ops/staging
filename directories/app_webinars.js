@@ -211,7 +211,7 @@ function filterToggle() {
       } else {
         filtersContainer.style.height = "0px";
         document.querySelector("#filter-button-text").innerText =
-          "Show Filters";
+          "Search and Filter";
 
         filtersContainer.addEventListener(
           "transitionend",
