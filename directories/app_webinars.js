@@ -101,24 +101,16 @@ function createModalContent(tingleModalData) {
   console.warn(tingleModalData);
 
   modalHtml = `
-  <div class='info-modal'>
-  <img class="headshot" src="${tingleModalData.img}" />
-  <div class='credits-modal'>
+  <div class="info-modal">
+  <div class="credits-modal">
      <h1>${tingleModalData.name}</h1>
-     <div class=‘attributes-modal'>
-     <div class='label-type'>${tingleModalData.badge}</div>
-     <div class="attributes-container-modal">
-      <div class="label-difficulty">
-        <span class="star">${rating(tingleModalData.difficulty)}</span>
-      </div>
-      <div class="label-broadcast">
-        <span class="material-icons-outlined">today</span>
-        <span class="name">${tingleModalData.year}</span>
-      </div>
-      <div class="label-duration">
-        <span class="material-icons-outlined">schedule</span>
-        <span class="name">${tingleModalData.length} mins</span>
-      </div>
+     <div class="details-modal">
+      <span class='label-type'>${tingleModalData.badge}</span> 
+      <span class="star">${rating(tingleModalData.difficulty)}</span>
+      <span class="material-icons-outlined">today</span>
+      <span class="name">${tingleModalData.year}</span>
+      <span class="material-icons-outlined">schedule</span>
+      <span class="name">${tingleModalData.length} mins</span>
     </div>
   </div>`;
 
@@ -131,25 +123,27 @@ function createModalContent(tingleModalData) {
   modalHtml += `</div></div></div>
   <div class='details-modal'>
       <div class='social-modal'>`;
+  /*       <div class='tags-modal'>`
 
    if (tingleModalData.technology) {
-    modalHtml += `<div class='tags-modal'><p class='label-card'>Keywords</p>`;
+    modalHtml += `<div class='label-card'>Keywords</div><div class='chip-technology'><ul class="chips">`;
     technologies = tingleModalData.technology.split(',');
      technologies.forEach((tech) => {
-      modalHtml += `<p class="domain">${tech}</p>`;
+      modalHtml += `<li>${tech}</li>`;
     });
-    modalHtml += "</div>";
+    modalHtml += "</ul></div>";
   }
   if (tingleModalData.domain) {
     domains = tingleModalData.domain.split(',');
-    modalHtml += `<div class='tags-modal'><p class='label-card'>Audience</p>`;
+    modalHtml += `<div class='label-card'>Audience</divp><div class='chip-domain'><ul class="chips">`;
     domains.forEach((domain) => {
-      modalHtml += `<p class="domain">${domain}</p>`;
+      modalHtml += `<li>${domain}</li></ul>`;
     });
     modalHtml += "</div>";
   }
   modalHtml += `
-      <a class="details" href="${tingleModalData.video}">
+      </div> */
+       modalHtml += `<a class="details" href="${tingleModalData.video}">
           <span class="material-icons-outlined">play_arrow</span>
           Watch
       </a>
