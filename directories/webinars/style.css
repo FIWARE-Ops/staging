@@ -1261,7 +1261,7 @@ iframe {
     font-weight: 600;
     color: #4c4c4c;
     text-transform: uppercase;
-    margin-top: 15px;
+    margin-top: 20px;
     padding-top: 15px;
     border-top: 1px solid #aaa;
     width: 100%;
@@ -1444,6 +1444,8 @@ input[type="checkbox"]:checked+label::after {
 
 .search-element {
     position: relative;
+    width: 45%;
+    max-width: 500px;
 }
 
 .resetInput {
