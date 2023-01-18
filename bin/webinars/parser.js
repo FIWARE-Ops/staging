@@ -1,6 +1,7 @@
 const csv = require('csvtojson');
 const path = require('path');
 
+const Static = require('./staticData');
 const Parser = require('../dataParser');
 const Sorter = require('../sort');
 const Template = require('../template');
@@ -16,6 +17,7 @@ function extractWebinars(input) {
             companyLink: item['Video'],
             domain: Parser.splitStrings(item['Audience']),
             type: item['Type'],
+            badge: Static.getBadge(item['Type']),
             technology: Parser.splitStrings(item['Technology']),
             year: parseInt(item['Year']),
             difficulty: parseInt(item['Difficulty']),
