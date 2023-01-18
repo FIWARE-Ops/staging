@@ -1886,7 +1886,7 @@ input[type="search"]::placeholder {
         flex-direction: column;
         padding: 0px;
         justify-content: space-evenly;
-        align-items: left;
+        align-items: flex-start;
     }
 
     #orderByYear {
