@@ -114,6 +114,8 @@ iframe {
     gap: 20px;
     width: 90%;
     margin: 0px auto 20px auto;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
 }
 
 .label-certification {
