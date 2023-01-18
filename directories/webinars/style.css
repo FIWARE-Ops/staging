@@ -1102,20 +1102,19 @@ iframe {
     }
 
     .social-modal p.domain {
-        display: none;
-        /* width: auto;
+    width: auto;
     background-color: #E37B6B;
     border-radius: 16px;
     padding: 5px 15px;
     font-size: .9em;
     margin-right:0px;
-    margin-bottom:0px; */
+    margin-bottom:0px;
     }
 
-    /* .tags-modal {
+    .tags-modal {
         display: inline-block;
         padding: 20px 0 0 0;
-    } */
+    }
 
     .tags-modal p.location {
         display: flex;
