@@ -685,7 +685,7 @@ iframe {
 
 .info-modal {
     display: flex;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 .tingle-modal-box__footer {
@@ -772,9 +772,9 @@ iframe {
 }
 
 .details-modal {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     align-items: center;
-    gap: 10px;
+    /* gap: 10px; */
 }
 
 .social-modal {
