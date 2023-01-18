@@ -1246,6 +1246,12 @@ iframe {
     display: none;
 }
 
+.search-sort-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 /* Filter list */
 
 .filter-by {
