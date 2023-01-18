@@ -29,7 +29,9 @@ function extractWebinars(input) {
             webinars.push(webinar);
         }
     });
-    return webinars;
+    return webinars.sort((a, b) => {
+        return a.year - b.year;
+    });
 }
 
 function parse(file) {
