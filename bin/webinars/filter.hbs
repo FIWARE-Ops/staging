@@ -8,6 +8,33 @@
     </div>
 </div>
 
+<div class="search-sort-container">
+<div class="search-element">
+    <div class="resetInput"></div>
+    <input type="search" id="searchInput" placeholder="Search by keywords" />
+</div>
+
+<div class='sort-element'>
+    <label class='sort-by'>Sort by</label>
+    <div class='sort-buttons'>
+        <div class='filter-element'>
+            <button id='orderByYear'>
+                <span id='ico-sortby-year' class='material-icons-outlined'>date_range</span>
+                Most Recent
+            </button>
+        </div>
+
+        <div class='filter-element'>
+            <button id='orderByName'>
+                <span id='ico-sortby-alpha' class='material-icons-outlined'>north_east</span>
+                Easy to Hard
+            </button>
+        </div>
+    </div>
+</div>
+</div>
+
+
 
 <p class='filter-by'>
     <span id='ico-filter-all' class='material-icons-outlined'>filter_list</span>
@@ -52,23 +79,4 @@
             {{/each}}
         </select>
     </div>
-    <div class='sort-element'>
-        <label class='sort-by'>Sort by</label>
-        <div class='sort-buttons'>
-            <div class='filter-element'>
-                <button id='orderByYear'>
-                    <span id='ico-sortby-year' class='material-icons-outlined'>date_range</span>
-                    Most Recent
-                </button>
-            </div>
-
-            <div class='filter-element'>
-                <button id='orderByName'>
-                    <span id='ico-sortby-alpha' class='material-icons-outlined'>north_east</span>
-                    Easy to Hard
-                </button>
-            </div>
-        </div>
-    </div>
-
 </div>
