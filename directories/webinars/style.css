@@ -856,6 +856,13 @@ iframe {
     position: relative;
 }
 
+.tingle-modal-box__content {
+    padding: 3rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .tingle-modal .bio-modal p, .tingle-modal-box__content .content {
     max-height: 115px;
     overflow: auto;
