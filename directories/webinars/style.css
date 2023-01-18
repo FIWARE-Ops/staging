@@ -1884,10 +1884,17 @@ input[type="search"]::placeholder {
     .sort-element {
         display: flex;
         flex-direction: column;
+        gap: 10px;
         padding: 0px;
         justify-content: space-evenly;
         align-items: flex-start;
     }
+
+    .sort-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+}
 
     #orderByYear {
         margin-right: 12px;
