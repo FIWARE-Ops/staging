@@ -1842,6 +1842,7 @@ input[type="search"]::placeholder {
         display: flex;
         flex-direction: column;
         gap: 0px;
+        margin-top:10px;
     }
 
     /* Search */
