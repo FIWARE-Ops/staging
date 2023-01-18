@@ -856,7 +856,7 @@ iframe {
     position: relative;
 }
 
-.tingle-modal .bio-modal p {
+.tingle-modal .bio-modal p, .tingle-modal-box__content .content {
     max-height: 115px;
     overflow: auto;
 }
