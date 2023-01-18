@@ -229,8 +229,8 @@ iframe {
 .label-card {
     color: #2d2d2d;
     font-size: 14px;
-    margin-right: 16px;
-  	padding-bottom: 10px!important;
+    /* margin-right: 16px; */
+    padding: 4px 0px;
 }
 
 .chip-technology {
@@ -769,6 +769,7 @@ iframe {
 .social-modal,
 .tags-modal {
     display: flex;
+    gap: 10px;
 }
 
 .details-modal {
