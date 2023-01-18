@@ -86,7 +86,47 @@ iframe {
     padding: 0px;
 }
 
+.foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    width: 90%;
+    margin: 0px auto 20px auto;
+}
+
 .label-certification {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #2d2d2d;
+    font-size: 15px;
+    line-height: 1em;
+}
+
+.label-type {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #2d2d2d;
+    font-size: 15px;
+    line-height: 1em;
+}
+
+.label-type img {
+    height: 24px;
+}
+
+.label-difficulty {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #2d2d2d;
+    font-size: 15px;
+    line-height: 1em;
+}
+
+.label-duration {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -227,15 +267,6 @@ iframe {
     width: 30px;
     text-align: right;
     background-image: -webkit-linear-gradient( left, rgba( 255, 255, 255, 0 ) 0%, rgba( 255, 255, 255, 1 ) 100% );
-}
-  
-.foot {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-    width: 90%;
-    margin: 0px auto 20px auto; 
 }
   
 .details {
