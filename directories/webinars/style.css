@@ -76,6 +76,15 @@ iframe {
     text-transform: uppercase;
     padding-bottom: 0px;
 }
+
+.star {
+    font-weight: 500;
+    font-size: 15px;
+    text-align: left;
+    color: #002e67;
+    line-height: 1.4em;
+    padding: 0px;
+}
   
 .solution-name {
     font-weight: 600;
