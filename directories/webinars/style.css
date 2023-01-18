@@ -1869,8 +1869,9 @@ input[type="search"]::placeholder {
     }
 
     .filters-checkbox {
-        display: flex;
-        flex-direction: row;
+        display: none;
+        /* display: flex;
+        flex-direction: row; */
     }
 
     .dropdown-label {
