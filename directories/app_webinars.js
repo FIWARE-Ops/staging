@@ -106,14 +106,14 @@ function createModalContent(tingleModalData) {
   if (tingleModalData.name !== '') {
     modalHtml += `<h1>${tingleModalData.name}</h1>`;
   }
-  if (tingleModalData.badge !== '') {
-    modalHtml += `<h2>${tingleModalData.badge} ${rating(tingleModalData.difficulty)}</h2>`;
-  }
-
-  if (tingleModalData.type !== '') {
-    modalHtml += `<p style="padding-bottom: 0.2em">First Broadcast: <b>${tingleModalData.year}</b></p>
-    <p style="padding-bottom: 0.2em">Duration: <b>${tingleModalData.length} minutes</b></p>`;
-  }
+  modalHtml += `<div class=‘attributes-modal'>
+    <div class='label-type'>${tingleModalData.badge} ${rating(tingleModalData.difficulty)}</div>
+    <p style="padding-bottom: 0.2em">First Broadcast: <b>${tingleModalData.year}</b></p>
+    <div class='label-duration'>
+        <span class="material-icons-outlined">schedule</span>
+        <span class='name'>${tingleModalData.length} mins</span>
+    </div>
+  </div>`;
 
   modalHtml += `</div></div><div class='content'>`;
   if (tingleModalData.content !== '') {
@@ -138,6 +138,12 @@ function createModalContent(tingleModalData) {
     });
     modalHtml += "</div></div></div>";
   }
+  modalHtml += `<div class="foot">
+      <a class="details" href="${tingleModalData.video}">
+          <span class="material-icons-outlined">play_arrow</span>
+          Watch
+      </a>
+  </div>`;
   
 
   return modalHtml;
