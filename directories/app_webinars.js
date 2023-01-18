@@ -106,8 +106,8 @@ function createModalContent(tingleModalData) {
   if (tingleModalData.name !== '') {
     modalHtml += `<h1>${tingleModalData.name}</h1>`;
   }
-  if (tingleModalData.type !== '') {
-    modalHtml += `<h2>${tingleModalData.type} ${rating(tingleModalData.difficulty)}</h2>`;
+  if (tingleModalData.badge !== '') {
+    modalHtml += `<h2>${tingleModalData.badge} ${rating(tingleModalData.difficulty)}</h2>`;
   }
 
   if (tingleModalData.type !== '') {
