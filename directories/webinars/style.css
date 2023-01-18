@@ -696,11 +696,9 @@ iframe {
 }
 
 .tingle-modal img.headshot {
+    object-fit: cover;
     vertical-align: middle;
-    width: 120px;
-    height: 120px;
-    border-radius: 100px;
-    border: 3px solid #002e67;
+    width: 280px;
     margin-right: 20px;
 }
 
