@@ -152,7 +152,7 @@ iframe {
 .label-duration {
     display: flex;
     flex-direction: row;
-    gap:10px;
+    gap:5px;
     align-items: center;
     color: #2d2d2d;
     font-size: 15px;
@@ -295,6 +295,7 @@ iframe {
 .details {
     display: flex;
     align-items: center;
+    gap: 5px;
     background: #002e67;
     padding: 10px 15px;
     border-radius: 4px;
@@ -464,6 +465,7 @@ iframe {
 .cat-bio{
     display: flex;
     align-items: center;
+    gap:5px;
     background: #f3f3f3;
     padding: 10px 15px;
     border-radius: 4px;
