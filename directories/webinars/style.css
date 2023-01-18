@@ -1231,7 +1231,7 @@ iframe {
     text-transform: uppercase;
     display: flex;
     align-items: flex-end;
-    justify-content: flex-end;
+    justify-content: flex-start;
     padding: 15px 0px;
     cursor: pointer;
 }
