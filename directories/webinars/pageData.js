@@ -137,7 +137,7 @@ var modalData = [
         name: 'Introduction to FIWARE',
         img: 'https://www.fiware.org/wp-content/directories/webinars/images/default-fiware.png',
         type: 'Fundamentals',
-        badge: '<b>Fundamentals</b>',
+        badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Fundamentals.svg'/>",
         difficulty: 0,
         video: "https://youtu.be/97JsnnpPLrA'",
         content:
@@ -695,7 +695,7 @@ var modalData = [
         name: 'FIWARE Basics, understanding the terminology',
         img: 'https://www.fiware.org/wp-content/directories/webinars/images/basics.png',
         type: 'Fundamentals',
-        badge: '<b>Fundamentals</b>',
+        badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Fundamentals.svg'/>",
         difficulty: 0,
         video: 'https://www.youtube.com/watch?v=laDTBcLziB8',
         content:
