@@ -1246,7 +1246,9 @@ iframe {
 
 #mobileToggleFilters {
     display: block;
-    width: 100%;
+    width: fit-content;
+    background-color: #5dc0cf;
+    border-radius: 30px;
     font-size: 14px;
     font-weight: 600;
     color: #002e67;
@@ -1254,7 +1256,7 @@ iframe {
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
-    padding: 15px 0px;
+    padding: 15px;
     cursor: pointer;
 }
 
