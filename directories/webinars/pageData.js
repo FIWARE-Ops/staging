@@ -79,7 +79,7 @@ var modalData = [
     },
     {
         name: 'Core Context Management',
-        img: 'https://www.fiware.org/wp-content/directories/webinars/images/fiware-default.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/default-fiware.png',
         type: 'Core Context',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg'/>",
         difficulty: 3,
@@ -93,7 +93,7 @@ var modalData = [
     },
     {
         name: 'What is an IoT Agent?',
-        img: 'https://www.fiware.org/wp-content/directories/webinars/images/fiware-default.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/default-fiware.png',
         type: 'IoT Agents',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_IOTAgents.svg'/>",
         difficulty: 3,
@@ -107,7 +107,7 @@ var modalData = [
     },
     {
         name: 'How to Secure FIWARE Architectures',
-        img: 'https://www.fiware.org/wp-content/directories/webinars/images/fiware-default.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/default-fiware.png',
         type: 'Security',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Security.svg'/>",
         difficulty: 3,
@@ -135,7 +135,7 @@ var modalData = [
     },
     {
         name: 'Introduction to FIWARE',
-        img: 'https://www.fiware.org/wp-content/directories/webinars/images/fiware-default.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/default-fiware.png',
         type: 'Fundamentals',
         badge: '<b>Fundamentals</b>',
         difficulty: 0,
@@ -149,7 +149,7 @@ var modalData = [
     },
     {
         name: 'Securing FIWARE IoT Devices',
-        img: 'https://www.fiware.org/wp-content/directories/webinars/images/fiware-default.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/default-fiware.png',
         type: 'Security',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Security.svg'/>",
         difficulty: 4,
@@ -163,7 +163,7 @@ var modalData = [
     },
     {
         name: 'Strategies for Context Data Persistence',
-        img: 'https://www.fiware.org/wp-content/directories/webinars/images/fiware-default.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/default-fiware.png',
         type: 'Core Context',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg'/>",
         difficulty: 3,
@@ -302,7 +302,7 @@ var modalData = [
     },
     {
         name: 'How to Develop FIWARE NGSI Interfaces for Robots',
-        img: 'https://www.fiware.org/wp-content/directories/webinars/images/fiware-default.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/default-fiware.png',
         type: 'Robotics',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Robotics.svg'/>",
         difficulty: 2,
@@ -763,7 +763,7 @@ var modalData = [
     },
     {
         name: 'Monitoring and Supervision of robotic systems using FIWARE and ROS 2',
-        img: 'https://www.fiware.org/wp-content/directories/webinars/images/iotagent-ros2.pn',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/iotagent-ros2.png',
         type: 'Robotics',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Robotics.svg'/>",
         difficulty: 3,
