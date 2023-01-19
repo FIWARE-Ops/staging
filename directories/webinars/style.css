@@ -721,7 +721,7 @@ iframe {
 
 .tingle-modal a {
     color: #002e67;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     font-size: .9em;
 }
 
