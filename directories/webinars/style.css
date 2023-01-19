@@ -689,6 +689,10 @@ iframe {
     /* margin-bottom: 20px; */
 }
 
+ .credits-modal {
+    width: 100%;
+}
+
 .tingle-modal-box__footer {
     display: none;
     /* border-bottom-right-radius: 10px;
