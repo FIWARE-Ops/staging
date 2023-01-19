@@ -1261,7 +1261,7 @@ iframe {
     transition: all 0.3s ease-in-out;
 }
 
-#mobileToggleFilters:hover {
+#mobileToggleFilters:hover, #mobileToggleFilters:focus, #mobileToggleFilters:active, #mobileToggleFilters:visited {
     background: #002452;
     color: #fff;
 }
@@ -1574,10 +1574,6 @@ input[type="search"]::placeholder {
     margin-right: 8px;
     color: inherit;
 }
-
-/* #ico-filtersbar:hover {
-    color: #fff;
-} */
 
 /* –––––––––––––––– */
 
