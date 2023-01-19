@@ -8,12 +8,14 @@ const Template = require('../template');
 const TEMPLATE_PATH = 'bin/webinars/';
 const WEBINARS_DIR = 'directories/webinars';
 
+const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/webinars/images/webinar-default.png';
+
 function extractWebinars(input) {
     const webinars = [];
     input.forEach((item) => {
         const webinar = {
             name: item['Name'],
-            img: item['Image'],
+            img: item['Image'] ? item['Image'] : DEFAULT_IMAGE,,
             companyLink: item['Video'],
             domain: Parser.splitStrings(item['Audience']),
             type: item['Type'],
