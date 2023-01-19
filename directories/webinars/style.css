@@ -1283,7 +1283,10 @@ iframe {
     transition: all 0.3s ease-in-out;
 }
 
-#mobileToggleFilters:hover, #mobileToggleFilters:focus, #mobileToggleFilters:active, #mobileToggleFilters:visited {
+#mobileToggleFilters:hover,
+#mobileToggleFilters:focus,
+#mobileToggleFilters:active,
+#mobileToggleFilters:visited {
     background: #002452;
     color: #fff;
 }
@@ -1944,7 +1947,7 @@ input[type="search"]::placeholder {
 
     .sort-element {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         gap: 10px;
         padding: 0px;
         justify-content: space-evenly;
@@ -1958,8 +1961,20 @@ input[type="search"]::placeholder {
     }
 
     #orderByYear {
-        margin-right: 12px;
+        /* margin-right: 12px; */
     }
+
+    /* Icons */
+
+    #ico-sortby-alpha {
+        margin-right: 0px;
+    }
+
+    #ico-sortby-year {
+        margin-right: 0px;
+    }
+
+    /* –––––––––––––––– */
 
 
 
