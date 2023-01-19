@@ -12,7 +12,7 @@ var types = [
 ];
 var domains = ['Business', 'Community', 'Developers', 'iHubs'];
 var technologies = [
-    'Agrifood',
+    'AgriFood',
     'AI',
     'Apache Flink',
     'Apache Flume',
@@ -73,13 +73,13 @@ var modalData = [
         content:
             '&lt;ul&gt; &lt;li&gt;Understanding and applying Standard Data Models.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;NGSI v2&lt;/strong&gt; : Relationships, properties and metadata&lt;/li&gt; &lt;li&gt;&lt;strong&gt;NGSI-LD&lt;/strong&gt; : Relationships, properties and &lt;code&gt;@context&lt;/code&gt;&lt;/li&gt; &lt;li&gt;Practical use cases in Smart City and Smart Agriculture&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;This video presentation shows how to design and apply Standard NGSI Data Models.&lt;/p&gt;',
         domain: 'Developers',
-        technology: 'NGSI-v2,Data Models,Cities,Agrifood',
+        technology: 'NGSI-v2,Data Models,Cities,AgriFood',
         length: 35,
         year: 2019
     },
     {
         name: 'Core Context Management',
-        img: 'https://www.fiware.org/wp-content/directories/webinars/images/default-fiware.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/webinar-default.png',
         type: 'Core Context',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg'/>",
         difficulty: 3,
@@ -93,7 +93,7 @@ var modalData = [
     },
     {
         name: 'What is an IoT Agent?',
-        img: 'https://www.fiware.org/wp-content/directories/webinars/images/default-fiware.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/webinar-default.png',
         type: 'IoT Agents',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_IOTAgents.svg'/>",
         difficulty: 3,
@@ -107,7 +107,7 @@ var modalData = [
     },
     {
         name: 'How to Secure FIWARE Architectures',
-        img: 'https://www.fiware.org/wp-content/directories/webinars/images/default-fiware.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/webinar-default.png',
         type: 'Security',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Security.svg'/>",
         difficulty: 3,
@@ -135,7 +135,7 @@ var modalData = [
     },
     {
         name: 'Introduction to FIWARE',
-        img: 'https://www.fiware.org/wp-content/directories/webinars/images/default-fiware.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/webinar-default.png',
         type: 'Fundamentals',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Fundamentals.svg'/>",
         difficulty: 0,
@@ -149,7 +149,7 @@ var modalData = [
     },
     {
         name: 'Securing FIWARE IoT Devices',
-        img: 'https://www.fiware.org/wp-content/directories/webinars/images/default-fiware.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/webinar-default.png',
         type: 'Security',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Security.svg'/>",
         difficulty: 4,
@@ -163,7 +163,7 @@ var modalData = [
     },
     {
         name: 'Strategies for Context Data Persistence',
-        img: 'https://www.fiware.org/wp-content/directories/webinars/images/default-fiware.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/webinar-default.png',
         type: 'Core Context',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg'/>",
         difficulty: 3,
@@ -302,7 +302,7 @@ var modalData = [
     },
     {
         name: 'How to Develop FIWARE NGSI Interfaces for Robots',
-        img: 'https://www.fiware.org/wp-content/directories/webinars/images/default-fiware.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/webinar-default.png',
         type: 'Robotics',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Robotics.svg'/>",
         difficulty: 2,
@@ -338,7 +338,7 @@ var modalData = [
         content:
             '&lt;p&gt;Learn how Smart Solutions solving a particular challenge are architected with FIWARE. This webinar is supported by use cases.&lt;/p&gt;',
         domain: 'Developers,Business',
-        technology: 'Cities,Agrifood,Water',
+        technology: 'Cities,AgriFood,Water',
         length: 40,
         year: 2020
     },
@@ -352,7 +352,7 @@ var modalData = [
         content:
             '&lt;ul&gt; &lt;li&gt;Understanding FIWARE&lt;/li&gt; &lt;li&gt;Building &lt;em&gt;&quot;Powered by FIWARE&quot;&lt;/em&gt; Solutions&lt;/li&gt; &lt;li&gt;FIWARE: Going beyond the technology&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;A broad overview of the value proposition of FIWARE and its position in a Smart Digital Future.&lt;/p&gt;',
         domain: 'Developers,Business',
-        technology: 'Cities,Agrifood,Water',
+        technology: 'Cities,AgriFood,Water',
         length: 40,
         year: 2020
     },
@@ -394,7 +394,7 @@ var modalData = [
         content:
             '&lt;p&gt;This webinar will cover the “system of systems” approach and FIWARE transformation journey, also with the help of success stories.&lt;/p&gt;',
         domain: 'Developers',
-        technology: 'Cities,Agrifood,Water',
+        technology: 'Cities,AgriFood,Water',
         length: 45,
         year: 2020
     },
@@ -533,7 +533,7 @@ var modalData = [
         content:
             '&lt;ul&gt; &lt;li&gt;Overview of Existing IoT Agents&lt;ul&gt; &lt;li&gt;Payloads, Transports and Protocols&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt; &lt;li&gt;Code walkthroughs&lt;ul&gt; &lt;li&gt;Customizing the IoT Agent for Ultralight to accept XML payloads&lt;/li&gt; &lt;li&gt;IoT Agent Plugin adaptions - IoT Agent for ADAPT/ISOXML&lt;/li&gt; &lt;li&gt;File-based Device Measure Upserts (CSV, Excel)&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Many common payloads and protocols are already supported by IoT Agents. However, sometimes this is not enough and it is necessary to create your own IoT Agent or customize an existing IoT Agent. This webinar discusses various strategies on how to do this focusing on real-life use-cases from farming and water management.&lt;/p&gt;',
         domain: 'Developers',
-        technology: 'IoT Agent,Agrifood',
+        technology: 'IoT Agent,AgriFood',
         length: 45,
         year: 2021
     },
