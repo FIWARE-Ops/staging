@@ -1961,7 +1961,15 @@ input[type="search"]::placeholder {
     }
 
     #orderByYear {
-        /* margin-right: 12px; */
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+    }
+
+    #orderByName {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
     }
 
     /* Icons */
