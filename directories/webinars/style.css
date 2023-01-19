@@ -1288,9 +1288,7 @@ iframe {
 }
 
 #mobileToggleFilters:hover,
-#mobileToggleFilters:focus,
-#mobileToggleFilters:active,
-#mobileToggleFilters:visited {
+#mobileToggleFilters:focus {
     background: #002452;
     color: #fff;
 }
