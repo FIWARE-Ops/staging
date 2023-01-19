@@ -114,6 +114,11 @@ iframe {
     gap: 20px;
 }
 
+.attributes-modal {
+    display: flex;
+    gap: 20px;
+}
+
 .foot {
     display: flex;
     align-items: center;
