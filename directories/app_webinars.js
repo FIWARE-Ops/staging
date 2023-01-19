@@ -102,53 +102,41 @@ function createModalContent(tingleModalData) {
 
   modalHtml = `
   <div class="info-modal">
-  <div class="credits-modal">
-     <h1>${tingleModalData.name}</h1>
-     <div class="details-modal">
-      <span class='label-type'>${tingleModalData.badge}</span> 
-      <span class="star">${rating(tingleModalData.difficulty)}</span>
-      <span class="material-icons-outlined">today</span>
-      <span class="name">${tingleModalData.year}</span>
-      <span class="material-icons-outlined">schedule</span>
-      <span class="name">${tingleModalData.length} mins</span>
-    </div>
-  </div>`;
+    <div class="credits-modal">
+      <h1>${tingleModalData.name}</h1>
+        <div class="attributes-modal">
+          <div class="label-type">
+          ${tingleModalData.badge}
+          </div>
+          <div class="attributes-container-modal">
+            <div class='label-difficulty'>
+              <span class="star">${rating(tingleModalData.difficulty)}</span>
+            </div>
+            <div class='label-broadcast'>
+              <span class="material-icons-outlined">today</span>
+              <span class="name">${tingleModalData.year}</span>
+            </div>
+            <div class="label-duration">
+              <span class="material-icons-outlined">schedule</span>
+              <span class="name">${tingleModalData.length} mins</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>`;
 
-  modalHtml += `</div></div><div class='content'>`;
+  modalHtml += `<div class='content'>`;
   if (tingleModalData.content !== '') {
     modalHtml += tingleModalData.content.replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&');
   }
-  modalHtml += `</div><div class="foot">`;
- 
-  modalHtml += `</div></div></div>
-  <div class='details-modal'>
-      <div class='social-modal'>`;
-  /*       <div class='tags-modal'>`
-
-   if (tingleModalData.technology) {
-    modalHtml += `<div class='label-card'>Keywords</div><div class='chip-technology'><ul class="chips">`;
-    technologies = tingleModalData.technology.split(',');
-     technologies.forEach((tech) => {
-      modalHtml += `<li>${tech}</li>`;
-    });
-    modalHtml += "</ul></div>";
-  }
-  if (tingleModalData.domain) {
-    domains = tingleModalData.domain.split(',');
-    modalHtml += `<div class='label-card'>Audience</divp><div class='chip-domain'><ul class="chips">`;
-    domains.forEach((domain) => {
-      modalHtml += `<li>${domain}</li></ul>`;
-    });
-    modalHtml += "</div>";
-  }
-  modalHtml += `
-      </div> */
-       modalHtml += `<a class="details" href="${tingleModalData.video}">
+  modalHtml += `</div><div class="foot">
+        <a class="details" href="${tingleModalData.video}">
           <span class="material-icons-outlined">play_arrow</span>
           Watch
       </a>
     </div>
-  </div>`;
+  </div>
+</div>`;
   
 
   return modalHtml;
