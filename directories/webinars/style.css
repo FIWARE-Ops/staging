@@ -107,6 +107,13 @@ iframe {
     /* margin-bottom: 10px; */
 }
 
+.attributes-container-modal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
 .foot {
     display: flex;
     align-items: center;
@@ -157,6 +164,16 @@ iframe {
 }
 
 .label-duration {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    color: #2d2d2d;
+    font-size: 15px;
+    line-height: 1em;
+}
+
+.label-broadcast {
     display: flex;
     flex-direction: row;
     gap: 5px;
