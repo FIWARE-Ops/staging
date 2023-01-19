@@ -118,6 +118,13 @@ iframe {
     border-top: 1px solid #ccc;
 }
 
+.foot-modal {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
 .label-certification {
     display: flex;
     flex-direction: row;
