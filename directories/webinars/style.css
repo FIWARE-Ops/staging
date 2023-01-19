@@ -103,7 +103,6 @@ iframe {
 .details-container {
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 20px;
     /* margin-bottom: 10px; */
 }
@@ -304,6 +303,7 @@ iframe {
 .details {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 5px;
     background: #002e67;
     padding: 10px 15px;
