@@ -38,9 +38,9 @@ iframe {
 }
 
 .grid-item:hover {
-    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1)!important;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1) !important;
 }
-  
+
 .gridElementTextContainer {
     display: flex;
     flex-direction: column;
@@ -48,31 +48,31 @@ iframe {
     width: 90%;
     margin: 0 auto;
 }
-  
+
 .gridElementLogo {
     width: 100%;
 }
-  
+
 .gridElementLogo img {
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
 }
-  
+
 .gutter-sizer {
     width: 0;
 }
-  
+
 .grid-item img {
     width: auto;
 }
-  
+
 .company-certified {
     display: flex;
     flex-direction: column;
     gap: 15px;
     margin-bottom: 10px;
 }
-  
+
 .name {
     font-weight: 600;
     font-size: 14px;
@@ -90,7 +90,7 @@ iframe {
     line-height: 1.4em;
     padding: 0px;
 }
-  
+
 .solution-name {
     font-weight: 600;
     font-size: 16px;
@@ -159,7 +159,7 @@ iframe {
 .label-duration {
     display: flex;
     flex-direction: row;
-    gap:5px;
+    gap: 5px;
     align-items: center;
     color: #2d2d2d;
     font-size: 15px;
@@ -171,7 +171,7 @@ iframe {
     color: #002e67;
     padding: 0px 0px 0px;
 }
-  
+
 .year {
     color: #002e67;
     font-weight: 600;
@@ -185,7 +185,7 @@ iframe {
     color: #696969;
     margin-bottom: 15px; */
 }
-  
+
 /* .grid-item ul {
     list-style: none;
     padding: 0;
@@ -201,33 +201,33 @@ iframe {
 .grid-item ul::-webkit-scrollbar {
     display: none;    
 } */
-  
+
 .chips {
-  position: relative;
-  width: 100%;
-  /* height: 100vh; */
-  overflow-x: scroll;
-  overflow-y: hidden;
-  white-space: nowrap;
-  padding: 0!important;
-  transition: all 0.2s;
-  /*transform: scale(0.98);*/
-  will-change: transform;
-  user-select: none;
-  cursor: grab;
+    position: relative;
+    width: 100%;
+    /* height: 100vh; */
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding: 0 !important;
+    transition: all 0.2s;
+    /*transform: scale(0.98);*/
+    will-change: transform;
+    user-select: none;
+    cursor: grab;
 }
 
 .chips.active {
-  background: rgba(255, 255, 255, 0.3);
-  cursor: grabbing;
-  cursor: -webkit-grabbing;
-  /*transform: scale(0.99);*/
+    background: rgba(255, 255, 255, 0.3);
+    cursor: grabbing;
+    cursor: -webkit-grabbing;
+    /*transform: scale(0.99);*/
 }
-  
+
 .chips::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
-  
+
 .gridElementTechnologyDomain {
     width: 94%;
     margin-left: 20px;
@@ -270,8 +270,8 @@ iframe {
     display: flex;
     align-items: center;
     height: 28px;
-} 
-  
+}
+
 .chip-domain li {
     font-size: 14px;
     font-weight: 500;
@@ -297,9 +297,9 @@ iframe {
     margin-top: 0px;
     width: 30px;
     text-align: right;
-    background-image: -webkit-linear-gradient( left, rgba( 255, 255, 255, 0 ) 0%, rgba( 255, 255, 255, 1 ) 100% );
+    background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
 }
-  
+
 .details {
     display: flex;
     align-items: center;
@@ -313,17 +313,17 @@ iframe {
     color: #fff;
     transition: all 0.3s ease-in-out;
 }
-  
+
 .details:hover {
     background: #002452;
     color: #fff;
 }
-  
+
 .details:any-link {
-    color: #fff!important;
+    color: #fff !important;
 }
 
-  
+
 /* –––––––––––––––– */
 
 /* ---- .element-item ---- */
@@ -458,6 +458,7 @@ iframe {
     /* width: 32px;
     height: 32px; */
 }
+
 /*
 .cat-bio {
     position: relative;
@@ -471,10 +472,10 @@ iframe {
     padding: 1px 1px 1px 0px;
 }*/
 
-.cat-bio{
+.cat-bio {
     display: flex;
     align-items: center;
-    gap:5px;
+    gap: 5px;
     background: #f3f3f3;
     padding: 10px 15px;
     border-radius: 4px;
@@ -697,7 +698,7 @@ iframe {
     /* margin-bottom: 20px; */
 }
 
- .credits-modal {
+.credits-modal {
     width: 100%;
 }
 
@@ -879,22 +880,26 @@ iframe {
     gap: 20px;
 }
 
-.tingle-modal .bio-modal p, .tingle-modal-box__content .content {
+.tingle-modal .bio-modal p,
+.tingle-modal-box__content .content {
     max-height: 250px;
     overflow: auto;
 }
 
-.tingle-modal .bio-modal p::-webkit-scrollbar, .tingle-modal-box__content .content::-webkit-scrollbar {
+.tingle-modal .bio-modal p::-webkit-scrollbar,
+.tingle-modal-box__content .content::-webkit-scrollbar {
     width: 8px;
     /* width of the entire scrollbar */
 }
 
-.tingle-modal .bio-modal p::-webkit-scrollbar-track, .tingle-modal-box__content .content::-webkit-scrollbar-track {
+.tingle-modal .bio-modal p::-webkit-scrollbar-track,
+.tingle-modal-box__content .content::-webkit-scrollbar-track {
     background: transparent;
     /* color of the tracking area */
 }
 
-.tingle-modal .bio-modal p::-webkit-scrollbar-thumb, .tingle-modal-box__content .content::-webkit-scrollbar-thumb {
+.tingle-modal .bio-modal p::-webkit-scrollbar-thumb,
+.tingle-modal-box__content .content::-webkit-scrollbar-thumb {
     background-color: #ebebeb;
     /* color of the scroll thumb */
     border-radius: 20px;
@@ -903,7 +908,8 @@ iframe {
     /* creates padding around scroll thumb */
 }
 
-.tingle-modal .bio-modal p, .tingle-modal-box__content .content {
+.tingle-modal .bio-modal p,
+.tingle-modal-box__content .content {
     scrollbar-width: thin;
     /* "auto" or "thin" */
     scrollbar-color: #ebebeb transparent;
@@ -1114,13 +1120,13 @@ iframe {
     }
 
     .social-modal p.domain {
-    width: auto;
-    background-color: #E37B6B;
-    border-radius: 16px;
-    padding: 5px 15px;
-    font-size: .9em;
-    margin-right:0px;
-    margin-bottom:0px;
+        width: auto;
+        background-color: #E37B6B;
+        border-radius: 16px;
+        padding: 5px 15px;
+        font-size: .9em;
+        margin-right: 0px;
+        margin-bottom: 0px;
     }
 
     .tags-modal {
@@ -1142,7 +1148,10 @@ iframe {
     }
 
     .tingle-modal h1 {
-        font-size: 20px;
+        font-size: 18px;
+        line-height: 24px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
     }
 
     .tingle-modal h2 {
@@ -1154,7 +1163,8 @@ iframe {
         line-height: 0.8em;
     }
 
-    .tingle-modal .bio-modal p, .tingle-modal-box__content .content {
+    .tingle-modal .bio-modal p,
+    .tingle-modal-box__content .content {
         max-height: 250px;
         overflow: auto;
     }
@@ -1854,7 +1864,7 @@ input[type="search"]::placeholder {
         display: flex;
         flex-direction: column;
         gap: 0px;
-        margin-top:10px;
+        margin-top: 10px;
     }
 
     /* Search */
@@ -1916,12 +1926,12 @@ input[type="search"]::placeholder {
         display: flex;
         flex-direction: column;
         gap: 10px;
-}
+    }
 
     #orderByYear {
         margin-right: 12px;
     }
 
-    
+
 
 }
