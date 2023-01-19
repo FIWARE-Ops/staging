@@ -16,6 +16,9 @@ function getBadge(type) {
         case 'IoT Agents':
             badge = `<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_IOTAgents.svg'/>`;
             break;
+        case 'Fundamentals':
+            badge = `<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Fundamentals.svg'/>`;
+            break;
         case 'Operations':
             badge = `<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Operations.svg'/>`;
             break;
@@ -27,7 +30,6 @@ function getBadge(type) {
             badge = `<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Visualization.svg'/>`;
             break;
         case 'Cross-Chapter':
-        case 'Fundamentals':
         default:
             badge = `<b>${type}</b>`;
             break;
