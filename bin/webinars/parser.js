@@ -15,7 +15,7 @@ function extractWebinars(input) {
     input.forEach((item) => {
         const webinar = {
             name: item['Name'],
-            img: item['Image'] ? item['Image'] : DEFAULT_IMAGE,,
+            img: item['Image'] ? item['Image'] : DEFAULT_IMAGE,
             companyLink: item['Video'],
             domain: Parser.splitStrings(item['Audience']),
             type: item['Type'],
