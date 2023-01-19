@@ -50,22 +50,36 @@ var technologies = [
 
 var modalData = [
     {
-        name: 'Introduction to FIWARE',
-        img: 'https://fiware.github.io/academy/img/intro.png',
-        type: 'Fundamentals',
-        badge: '<b>Fundamentals</b>',
-        difficulty: 0,
-        video: "https://youtu.be/97JsnnpPLrA'",
+        name: 'How to Debug IoT Agents',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/webinar-default.png',
+        type: 'IoT Agents',
+        badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_IOTAgents.svg'/>",
+        difficulty: 4,
+        video: 'https://www.youtube.com/watch?v=FRqJsywi9e8',
         content:
-            '&lt;ul&gt; &lt;li&gt;What is context data?&lt;/li&gt; &lt;li&gt;How is context data used within a Smart Solution?&lt;/li&gt; &lt;li&gt;What is FIWARE? How does it help&lt;/li&gt; &lt;li&gt;What is NGSI v2?&lt;/li&gt; &lt;li&gt;What is the FIWARE Catalogue?&lt;/li&gt; &lt;li&gt;What is the FIWARE Marketplace?&lt;/li&gt; &lt;li&gt;What is the role of the FIWARE Foundation?&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;This video presentation is a basic introduction describing what FIWARE is, why you need it and how the elements of the FIWARE Catalogue can help accelerate the development of your Smart Solution.&lt;/p&gt;',
-        domain: 'Developers,Business,Community,iHubs',
-        technology: 'NGSI-v2',
-        length: 30,
+            '&lt;ul&gt; &lt;li&gt;How to diagnose common problems&lt;/li&gt; &lt;li&gt;How to test services in isolation&lt;/li&gt; &lt;li&gt;How to set-up and interpret debug&lt;/li&gt; &lt;li&gt;Configuring IoT Agents&lt;/li&gt; &lt;li&gt;Adding diagnostic debug&lt;/li&gt; &lt;li&gt;Where to look for help and advice&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;This video presentation shows how to connect devices to processing enablers via an IoT Agent and the context broker, what can go wrong when trying to wire up the system. How to diagnose problems and how to fix them.&lt;/p&gt;',
+        domain: 'Developers',
+        technology: 'NGSI-v2,IoT Agent',
+        length: 40,
+        year: 2019
+    },
+    {
+        name: 'Data Modelling with NGSI',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/webinar-default.png',
+        type: 'Core Context',
+        badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg'/>",
+        difficulty: 4,
+        video: 'https://www.youtube.com/watch?v=T_1DpKf6C_c',
+        content:
+            '&lt;ul&gt; &lt;li&gt;Understanding and applying Standard Data Models.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;NGSI v2&lt;/strong&gt; : Relationships, properties and metadata&lt;/li&gt; &lt;li&gt;&lt;strong&gt;NGSI-LD&lt;/strong&gt; : Relationships, properties and &lt;code&gt;@context&lt;/code&gt;&lt;/li&gt; &lt;li&gt;Practical use cases in Smart City and Smart Agriculture&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;This video presentation shows how to design and apply Standard NGSI Data Models.&lt;/p&gt;',
+        domain: 'Developers',
+        technology: 'NGSI-v2,Data Models,Cities,Agrifood',
+        length: 35,
         year: 2019
     },
     {
         name: 'Core Context Management',
-        img: 'https://fiware.github.io/academy/img/core-context.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/fiware-default.png',
         type: 'Core Context',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg'/>",
         difficulty: 3,
@@ -79,7 +93,7 @@ var modalData = [
     },
     {
         name: 'What is an IoT Agent?',
-        img: 'https://fiware.github.io/academy/img/iot-agents.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/fiware-default.png',
         type: 'IoT Agents',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_IOTAgents.svg'/>",
         difficulty: 3,
@@ -93,7 +107,7 @@ var modalData = [
     },
     {
         name: 'How to Secure FIWARE Architectures',
-        img: 'https://fiware.github.io/academy/img/security.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/fiware-default.png',
         type: 'Security',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Security.svg'/>",
         difficulty: 3,
@@ -106,22 +120,8 @@ var modalData = [
         year: 2019
     },
     {
-        name: 'How to Debug IoT Agents',
-        img: 'https://fiware.github.io/academy/img/iotagent-debug.png',
-        type: 'IoT Agents',
-        badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_IOTAgents.svg'/>",
-        difficulty: 4,
-        video: 'https://www.youtube.com/watch?v=FRqJsywi9e8',
-        content:
-            '&lt;ul&gt; &lt;li&gt;How to diagnose common problems&lt;/li&gt; &lt;li&gt;How to test services in isolation&lt;/li&gt; &lt;li&gt;How to set-up and interpret debug&lt;/li&gt; &lt;li&gt;Configuring IoT Agents&lt;/li&gt; &lt;li&gt;Adding diagnostic debug&lt;/li&gt; &lt;li&gt;Where to look for help and advice&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;This video presentation shows how to connect devices to processing enablers via an IoT Agent and the context broker, what can go wrong when trying to wire up the system. How to diagnose problems and how to fix them.&lt;/p&gt;',
-        domain: 'Developers',
-        technology: 'NGSI-v2,IoT Agent',
-        length: 40,
-        year: 2019
-    },
-    {
         name: 'How to Get Context Data Out of Robots',
-        img: 'https://fiware.github.io/academy/img/robots-1.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/webinar-default.png',
         type: 'Robotics',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Robotics.svg'/>",
         difficulty: 2,
@@ -134,22 +134,36 @@ var modalData = [
         year: 2019
     },
     {
-        name: 'Data Modelling with NGSI',
-        img: 'https://fiware.github.io/academy/img/data-models-1.png',
-        type: 'Core Context',
-        badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg'/>",
-        difficulty: 4,
-        video: 'https://www.youtube.com/watch?v=T_1DpKf6C_c',
+        name: 'Introduction to FIWARE',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/fiware-default.png',
+        type: 'Fundamentals',
+        badge: '<b>Fundamentals</b>',
+        difficulty: 0,
+        video: "https://youtu.be/97JsnnpPLrA'",
         content:
-            '&lt;ul&gt; &lt;li&gt;Understanding and applying Standard Data Models.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;NGSI v2&lt;/strong&gt; : Relationships, properties and metadata&lt;/li&gt; &lt;li&gt;&lt;strong&gt;NGSI-LD&lt;/strong&gt; : Relationships, properties and &lt;code&gt;@context&lt;/code&gt;&lt;/li&gt; &lt;li&gt;Practical use cases in Smart City and Smart Agriculture&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;This video presentation shows how to design and apply Standard NGSI Data Models.&lt;/p&gt;',
-        domain: 'Developers',
-        technology: 'NGSI-v2,Data Models,Cities,Agrifood',
-        length: 35,
+            '&lt;ul&gt; &lt;li&gt;What is context data?&lt;/li&gt; &lt;li&gt;How is context data used within a Smart Solution?&lt;/li&gt; &lt;li&gt;What is FIWARE? How does it help&lt;/li&gt; &lt;li&gt;What is NGSI v2?&lt;/li&gt; &lt;li&gt;What is the FIWARE Catalogue?&lt;/li&gt; &lt;li&gt;What is the FIWARE Marketplace?&lt;/li&gt; &lt;li&gt;What is the role of the FIWARE Foundation?&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;This video presentation is a basic introduction describing what FIWARE is, why you need it and how the elements of the FIWARE Catalogue can help accelerate the development of your Smart Solution.&lt;/p&gt;',
+        domain: 'Developers,Business,Community,iHubs',
+        technology: 'NGSI-v2',
+        length: 30,
         year: 2019
     },
     {
+        name: 'Securing FIWARE IoT Devices',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/fiware-default.png',
+        type: 'Security',
+        badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Security.svg'/>",
+        difficulty: 4,
+        video: 'https://www.youtube.com/watch?v=_87IZhrYo3U',
+        content:
+            '&lt;ul&gt; &lt;li&gt;How can insecure systems be attacked?&lt;/li&gt; &lt;li&gt;What common actions should be taken to help to secure systems?&lt;ul&gt; &lt;li&gt;What options do I have to secure HTTP traffic?&lt;/li&gt; &lt;li&gt;What options do I have to secure MQTT traffic?&lt;/li&gt; &lt;li&gt;What options do I have with other protocols?&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt; &lt;li&gt;What is a PEP Proxy and how can I use one to protect services and device?s&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Live coding session and commentary, demonstrating various techniques and methods for securing the interactions between Devices, IoT Agents, and the Context Broker.&lt;/p&gt;',
+        domain: 'Developers',
+        technology: 'IoT Agent,Keyrock',
+        length: 40,
+        year: 2020
+    },
+    {
         name: 'Strategies for Context Data Persistence',
-        img: 'https://fiware.github.io/academy/img/data-persistence.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/fiware-default.png',
         type: 'Core Context',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg'/>",
         difficulty: 3,
@@ -163,7 +177,7 @@ var modalData = [
     },
     {
         name: 'Short Term History within FIWARE Systems',
-        img: 'https://fiware.github.io/academy/img/short-term-history.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/webinar-default.png',
         type: 'Core Context',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg'/>",
         difficulty: 3,
@@ -176,36 +190,8 @@ var modalData = [
         year: 2020
     },
     {
-        name: 'Securing FIWARE IoT Devices',
-        img: 'https://fiware.github.io/academy/img/secure-devices.png',
-        type: 'Security',
-        badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Security.svg'/>",
-        difficulty: 4,
-        video: 'https://www.youtube.com/watch?v=_87IZhrYo3U',
-        content:
-            '&lt;ul&gt; &lt;li&gt;How can insecure systems be attacked?&lt;/li&gt; &lt;li&gt;What common actions should be taken to help to secure systems?&lt;ul&gt; &lt;li&gt;What options do I have to secure HTTP traffic?&lt;/li&gt; &lt;li&gt;What options do I have to secure MQTT traffic?&lt;/li&gt; &lt;li&gt;What options do I have with other protocols?&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt; &lt;li&gt;What is a PEP Proxy and how can I use one to protect services and device?s&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Live coding session and commentary, demonstrating various techniques and methods for securing the interactions between Devices, IoT Agents, and the Context Broker.&lt;/p&gt;',
-        domain: 'Developers',
-        technology: 'IoT Agent,Keyrock',
-        length: 40,
-        year: 2020
-    },
-    {
-        name: 'How to Develop FIWARE NGSI Interfaces for Robots',
-        img: 'https://fiware.github.io/academy/img/robots-2.png',
-        type: 'Robotics',
-        badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Robotics.svg'/>",
-        difficulty: 2,
-        video: 'https://www.youtube.com/watch?v=m5JWxlMMuqk',
-        content:
-            '&lt;ul&gt; &lt;li&gt;Robot Types&lt;/li&gt; &lt;li&gt;Digital Twins&lt;/li&gt; &lt;li&gt;FIWARE NGSI Robotics Interfaces&lt;ul&gt; &lt;li&gt;ROS, ROS2, OPC-UA and DDS&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt; &lt;li&gt;Use Cases in Smart Industry&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;This webinar presents different alternatives for developing FIWARE-Ready robots and the main FIWARE components that can facilitate/empower these developments.&lt;/p&gt;',
-        domain: 'Developers',
-        technology: 'NGSI-v2',
-        length: 40,
-        year: 2020
-    },
-    {
         name: 'Introduction to NGSI-LD',
-        img: 'https://fiware.github.io/academy/img/ngsi-ld-1.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/introduction-to-ngsi-ld.png',
         type: 'Core Context',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg'/>",
         difficulty: 3,
@@ -218,78 +204,8 @@ var modalData = [
         year: 2020
     },
     {
-        name: 'FIWARE Building the Future',
-        img: 'https://fiware.github.io/academy/img/future.png',
-        type: 'Cross-Chapter',
-        badge: '<b>Cross-Chapter</b>',
-        difficulty: 2,
-        video: 'https://www.youtube.com/watch?v=REoJA7yxJ_0',
-        content:
-            '&lt;ul&gt; &lt;li&gt;A Reminder of some core concepts&lt;/li&gt; &lt;li&gt;Roadmap Topics&lt;ul&gt; &lt;li&gt;NGSI-LD&lt;/li&gt; &lt;li&gt;Smart Data Models&lt;/li&gt; &lt;li&gt;Blockchain&lt;/li&gt; &lt;li&gt;Robotics&lt;/li&gt; &lt;li&gt;Data Marketplace&lt;/li&gt; &lt;li&gt;Marketplace of Plug &amp;amp; Play AI / Big Data Services&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;An in-depth look at where FIWARE is going next and integrates with blockchain and distributed ledger technologies, Artificial Intelligence or Robotics.&lt;/p&gt;',
-        domain: 'Developers,Business',
-        technology: 'NGSI-LD,Data Models,AI,Blockchain',
-        length: 40,
-        year: 2020
-    },
-    {
-        name: 'Architecting Your Smart Solution Using FIWARE',
-        img: 'https://fiware.github.io/academy/img/architecting.png',
-        type: 'Cross-Chapter',
-        badge: '<b>Cross-Chapter</b>',
-        difficulty: 2,
-        video: 'https://www.youtube.com/watch?v=pTkZk4VF0gY',
-        content:
-            '&lt;p&gt;Learn how Smart Solutions solving a particular challenge are architected with FIWARE. This webinar is supported by use cases.&lt;/p&gt;',
-        domain: 'Developers,Business',
-        technology: 'Cities,Agrifood,Water',
-        length: 40,
-        year: 2020
-    },
-    {
-        name: 'FIWARE Vision and Value Proposition for a Smart Future',
-        img: 'https://fiware.github.io/academy/img/fiware-vision.png',
-        type: 'Cross-Chapter',
-        badge: '<b>Cross-Chapter</b>',
-        difficulty: 2,
-        video: 'https://www.youtube.com/watch?v=7ZMUYEWD1gw',
-        content:
-            '&lt;ul&gt; &lt;li&gt;Understanding FIWARE&lt;/li&gt; &lt;li&gt;Building &lt;em&gt;&quot;Powered by FIWARE&quot;&lt;/em&gt; Solutions&lt;/li&gt; &lt;li&gt;FIWARE: Going beyond the technology&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;A broad overview of the value proposition of FIWARE and its position in a Smart Digital Future.&lt;/p&gt;',
-        domain: 'Developers,Business',
-        technology: 'Cities,Agrifood,Water',
-        length: 40,
-        year: 2020
-    },
-    {
-        name: 'The Use of DDS Middleware in Robotics',
-        img: 'https://fiware.github.io/academy/img/robots-3.png',
-        type: 'Robotics',
-        badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Robotics.svg'/>",
-        difficulty: 2,
-        video: 'https://www.youtube.com/watch?v=OQYBJJ5ydto',
-        content:
-            '&lt;ul&gt; &lt;li&gt;About eProsima &amp;amp; FIWARE&lt;/li&gt; &lt;li&gt;Fast DDS &amp;amp; ROS2&lt;ul&gt; &lt;li&gt;Introduction&lt;/li&gt; &lt;li&gt;Architecture &amp;amp; Demo&lt;/li&gt; &lt;li&gt;What is new?&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt; &lt;li&gt;XRCE-DDS &amp;amp; Micro-ROS&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;An introduction to core real-time technologies: FAST DDS, the most complete Open Source DDS for ROS 2, and Micro XRCE-DDS, the middleware for microcontrollers, and micro-ROS.&lt;/p&gt;',
-        domain: 'Developers',
-        technology: 'DDS,microROS',
-        length: 40,
-        year: 2020
-    },
-    {
-        name: 'Blockchain/DLT Integration with FIWARE',
-        img: 'https://fiware.github.io/academy/img/blockchain.png',
-        type: 'Core Context',
-        badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg'/>",
-        difficulty: 2,
-        video: 'https://www.youtube.com/watch?v=ITSxtlCmNhQ',
-        content:
-            '&lt;ul&gt; &lt;li&gt;Introduction to Blockchain / Distributed Ledger Technologies&lt;/li&gt; &lt;li&gt;FIWARE and DLTs&lt;ul&gt; &lt;li&gt;Agri-Food Supply Chain Demo&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt; &lt;li&gt;Upcoming DLT Components and Research&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;This webinar will be an introduction to Blockchain and how FIWARE can be integrated with Blockchain/DLTs with a demo. In addition, it will also explain upcoming DLT components in the FIWARE ecosystem and an idea/state of art to leverage DLTs in &#x27;Powered by FIWARE&#x27; systems.&lt;/p&gt;',
-        domain: 'Developers',
-        technology: 'Canis Major,Blockchain',
-        length: 40,
-        year: 2020
-    },
-    {
         name: 'Big Data Analysis using Cosmos with Spark or Flink',
-        img: 'https://fiware.github.io/academy/img/big-data-1.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/big-data-analysis.png',
         type: 'Core Context',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg'/>",
         difficulty: 3,
@@ -302,7 +218,7 @@ var modalData = [
     },
     {
         name: 'NGSI-LD and Smart Data Models - Standardizing Access to Digital Twins',
-        img: 'https://fiware.github.io/academy/img/data-models-2.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/ngsi-ld-sdm.png',
         type: 'Core Context',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg'/>",
         difficulty: 3,
@@ -316,7 +232,7 @@ var modalData = [
     },
     {
         name: 'Robots and Machine Interfaces: Building Interfaces to ROS Systems',
-        img: 'https://fiware.github.io/academy/img/robots-4.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/robots-and-machine-interface.png',
         type: 'Robotics',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Robotics.svg'/>",
         difficulty: 3,
@@ -329,77 +245,8 @@ var modalData = [
         year: 2020
     },
     {
-        name: 'Turning Organizations Into Smart Organizations',
-        img: 'https://fiware.github.io/academy/img/smart-organizations.png',
-        type: 'Cross-Chapter',
-        badge: '<b>Cross-Chapter</b>',
-        difficulty: 2,
-        video: 'https://www.youtube.com/watch?v=XsoXchKiKB4',
-        content:
-            '&lt;p&gt;This webinar will cover the “system of systems” approach and FIWARE transformation journey, also with the help of success stories.&lt;/p&gt;',
-        domain: 'Developers',
-        technology: 'Cities,Agrifood,Water',
-        length: 45,
-        year: 2020
-    },
-    {
-        name: 'Smart Water Management - Using FIWARE Smart Data Models for Water',
-        img: 'https://fiware.github.io/academy/img/smart-water.png',
-        type: 'Core Context',
-        badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg'/>",
-        difficulty: 2,
-        video: 'https://www.youtube.com/watch?v=QbAiLMFEQrY',
-        content: '&lt;p&gt;Using FIWARE Smart Data Models for Water.&lt;/p&gt;',
-        domain: 'Developers',
-        technology: 'NGSI-LD,Data Models,Water',
-        length: 40,
-        year: 2020
-    },
-    {
-        name: 'FIWARE and micro-ROS: Enabling Robotics Systems on Micro-controllers',
-        img: 'https://fiware.github.io/academy/img/robots-5.png',
-        type: 'Robotics',
-        badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Robotics.svg'/>",
-        difficulty: 2,
-        video: 'https://www.youtube.com/watch?v=XJL2_FHcils',
-        content:
-            '&lt;ul&gt; &lt;li&gt;The micro-ROS Framework&lt;/li&gt; &lt;li&gt;Synergies between Context Information Management and Robotics&lt;/li&gt; &lt;li&gt;Structure of &lt;em&gt;FIWARE-Ready&lt;/em&gt; and &lt;em&gt;&quot;Powered by FIWARE&quot;&lt;/em&gt; micro-ROS Architectures&lt;/li&gt; &lt;li&gt;SOSS-FIWARE&lt;/li&gt; &lt;li&gt;Demo&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;The aim of this webinar is to give an introduction about the existing synergies between FIWARE, ROS, and micro-ROS - the Robot Operating System for microcontrollers - frameworks.&lt;/p&gt; &lt;p&gt;Special emphasis will be put on how to build interfaces between Powered by FIWARE architectures and ROS2/micro-ROS based robotic systems. The SOSS-FIWARE, based on the eProsima Integration Service, is a key enabler that accelerates the development of these interfaces between micro-ROS and FIWARE ecosystems. Through a basic application, the main features of this component as well as the key concepts associated with the synergies between FIWARE and micro-ROS will be overviewed.&lt;/p&gt;',
-        domain: 'Developers',
-        technology: 'microROS',
-        length: 30,
-        year: 2020
-    },
-    {
-        name: 'Integrating Robotic Systems for Agile Manufacturing Using FIWARE',
-        img: 'https://fiware.github.io/academy/img/robots-6.png',
-        type: 'Robotics',
-        badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Robotics.svg'/>",
-        difficulty: 2,
-        video: 'https://www.youtube.com/watch?v=ftxNOdwqjiQ',
-        content:
-            '&lt;ul&gt; &lt;li&gt;Robotics-based Applications for Agile Manufacturing using FIWARE&lt;/li&gt; &lt;li&gt;Robotics centered use cases&lt;/li&gt; &lt;li&gt;Digital Factory centered use cases.&lt;/li&gt; &lt;li&gt;Deployment of a &lt;em&gt;&quot;Powered by FIWARE&quot;&lt;/em&gt; Robotics Architecture&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Robotics systems play a major role in the automation roadmap of factories that aim to beat competitors by offering small lot sizes of highly customized products. As standalone manufacturing assets, the contribution of robotics systems to the factory is clear, robots are intended to contribute powerful automation features based on reconfigurable hardware with integrated perception, planning, and control abilities. However, the agility of the factory can grow dramatically by making these standalone robots first-class citizens of the digital factory infrastructure.&lt;/p&gt; &lt;p&gt;This webinar introduces the current vision and ongoing developments that FIWARE is undertaking to accelerate the integration of robots in smart factory environments.&lt;/p&gt;',
-        domain: 'Developers',
-        technology: '',
-        length: 30,
-        year: 2020
-    },
-    {
-        name: 'Cities as Enablers of the Data Economy - Smart Data Models for Cities',
-        img: 'https://fiware.github.io/academy/img/smart-cities.png',
-        type: 'Cross-Chapter',
-        badge: '<b>Cross-Chapter</b>',
-        difficulty: 2,
-        video: 'https://www.youtube.com/watch?v=b0EWq5E5jAc',
-        content:
-            '&lt;ul&gt; &lt;li&gt;City as a data ecosystem&lt;/li&gt; &lt;li&gt;Context/Digital Twin Data Management&lt;/li&gt; &lt;li&gt;Relevance of Standardization&lt;/li&gt; &lt;li&gt;Smart Data Models - Structure, Examples, Users and Contributors&lt;/li&gt; &lt;/ul&gt;',
-        domain: 'Developers',
-        technology: 'Cities',
-        length: 45,
-        year: 2020
-    },
-    {
         name: 'Machine Learning with Cosmos and Spark',
-        img: 'https://fiware.github.io/academy/img/big-data-2.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/ml-with-cosmos-and-spark.png',
         type: 'Core Context',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg'/>",
         difficulty: 3,
@@ -413,7 +260,7 @@ var modalData = [
     },
     {
         name: 'Monetizing your Organization&#x27;s Data',
-        img: 'https://fiware.github.io/academy/img/monetization.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/monetizing-with-data.png',
         type: 'Data Monetization',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_DataMonetization.svg'/>",
         difficulty: 3,
@@ -427,7 +274,7 @@ var modalData = [
     },
     {
         name: 'Creating Advanced Dashboards Using Wirecloud',
-        img: 'https://fiware.github.io/academy/img/wirecloud.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/dashboards-with-wirecloud.png',
         type: 'Visualisation',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Visualization.svg'/>",
         difficulty: 3,
@@ -440,22 +287,8 @@ var modalData = [
         year: 2020
     },
     {
-        name: 'Choosing Open Source Licenses for FIWARE Components',
-        img: 'https://fiware.github.io/academy/img/open-source.png',
-        type: 'Cross-Chapter',
-        badge: '<b>Cross-Chapter</b>',
-        difficulty: 1,
-        video: 'https://www.youtube.com/watch?v=1X_kNwkkcjo',
-        content:
-            '&lt;p&gt;Issues may arise when attempting to release software as Open Source, and this webinar discusses some of the decisions which need to be made (such as deciding which license to use) and offers a few solutions to cover some common release processes as well as explaining the commitments that must be made when offering new software to FIWARE.&lt;/p&gt;',
-        domain: 'Community,Business',
-        technology: '',
-        length: 40,
-        year: 2020
-    },
-    {
         name: 'Adopting Common Smart Data Models for Smart Cities',
-        img: 'https://fiware.github.io/academy/img/iudx.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/iudx.png',
         type: 'Core Context',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg'/>",
         difficulty: 3,
@@ -468,8 +301,161 @@ var modalData = [
         year: 2020
     },
     {
+        name: 'How to Develop FIWARE NGSI Interfaces for Robots',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/fiware-default.png',
+        type: 'Robotics',
+        badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Robotics.svg'/>",
+        difficulty: 2,
+        video: 'https://www.youtube.com/watch?v=m5JWxlMMuqk',
+        content:
+            '&lt;ul&gt; &lt;li&gt;Robot Types&lt;/li&gt; &lt;li&gt;Digital Twins&lt;/li&gt; &lt;li&gt;FIWARE NGSI Robotics Interfaces&lt;ul&gt; &lt;li&gt;ROS, ROS2, OPC-UA and DDS&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt; &lt;li&gt;Use Cases in Smart Industry&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;This webinar presents different alternatives for developing FIWARE-Ready robots and the main FIWARE components that can facilitate/empower these developments.&lt;/p&gt;',
+        domain: 'Developers',
+        technology: 'NGSI-v2',
+        length: 40,
+        year: 2020
+    },
+    {
+        name: 'FIWARE Building the Future',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/future.png',
+        type: 'Cross-Chapter',
+        badge: '<b>Cross-Chapter</b>',
+        difficulty: 2,
+        video: 'https://www.youtube.com/watch?v=REoJA7yxJ_0',
+        content:
+            '&lt;ul&gt; &lt;li&gt;A Reminder of some core concepts&lt;/li&gt; &lt;li&gt;Roadmap Topics&lt;ul&gt; &lt;li&gt;NGSI-LD&lt;/li&gt; &lt;li&gt;Smart Data Models&lt;/li&gt; &lt;li&gt;Blockchain&lt;/li&gt; &lt;li&gt;Robotics&lt;/li&gt; &lt;li&gt;Data Marketplace&lt;/li&gt; &lt;li&gt;Marketplace of Plug &amp;amp; Play AI / Big Data Services&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;An in-depth look at where FIWARE is going next and integrates with blockchain and distributed ledger technologies, Artificial Intelligence or Robotics.&lt;/p&gt;',
+        domain: 'Developers,Business',
+        technology: 'NGSI-LD,Data Models,AI,Blockchain',
+        length: 40,
+        year: 2020
+    },
+    {
+        name: 'Architecting Your Smart Solution Using FIWARE',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/architecting.png',
+        type: 'Cross-Chapter',
+        badge: '<b>Cross-Chapter</b>',
+        difficulty: 2,
+        video: 'https://www.youtube.com/watch?v=pTkZk4VF0gY',
+        content:
+            '&lt;p&gt;Learn how Smart Solutions solving a particular challenge are architected with FIWARE. This webinar is supported by use cases.&lt;/p&gt;',
+        domain: 'Developers,Business',
+        technology: 'Cities,Agrifood,Water',
+        length: 40,
+        year: 2020
+    },
+    {
+        name: 'FIWARE Vision and Value Proposition for a Smart Future',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/fiware-vision.png',
+        type: 'Cross-Chapter',
+        badge: '<b>Cross-Chapter</b>',
+        difficulty: 2,
+        video: 'https://www.youtube.com/watch?v=7ZMUYEWD1gw',
+        content:
+            '&lt;ul&gt; &lt;li&gt;Understanding FIWARE&lt;/li&gt; &lt;li&gt;Building &lt;em&gt;&quot;Powered by FIWARE&quot;&lt;/em&gt; Solutions&lt;/li&gt; &lt;li&gt;FIWARE: Going beyond the technology&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;A broad overview of the value proposition of FIWARE and its position in a Smart Digital Future.&lt;/p&gt;',
+        domain: 'Developers,Business',
+        technology: 'Cities,Agrifood,Water',
+        length: 40,
+        year: 2020
+    },
+    {
+        name: 'The Use of DDS Middleware in Robotics',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/webinar-default.png',
+        type: 'Robotics',
+        badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Robotics.svg'/>",
+        difficulty: 2,
+        video: 'https://www.youtube.com/watch?v=OQYBJJ5ydto',
+        content:
+            '&lt;ul&gt; &lt;li&gt;About eProsima &amp;amp; FIWARE&lt;/li&gt; &lt;li&gt;Fast DDS &amp;amp; ROS2&lt;ul&gt; &lt;li&gt;Introduction&lt;/li&gt; &lt;li&gt;Architecture &amp;amp; Demo&lt;/li&gt; &lt;li&gt;What is new?&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt; &lt;li&gt;XRCE-DDS &amp;amp; Micro-ROS&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;An introduction to core real-time technologies: FAST DDS, the most complete Open Source DDS for ROS 2, and Micro XRCE-DDS, the middleware for microcontrollers, and micro-ROS.&lt;/p&gt;',
+        domain: 'Developers',
+        technology: 'DDS,microROS',
+        length: 40,
+        year: 2020
+    },
+    {
+        name: 'Blockchain/DLT Integration with FIWARE',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/blockchain.png',
+        type: 'Core Context',
+        badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg'/>",
+        difficulty: 2,
+        video: 'https://www.youtube.com/watch?v=ITSxtlCmNhQ',
+        content:
+            '&lt;ul&gt; &lt;li&gt;Introduction to Blockchain / Distributed Ledger Technologies&lt;/li&gt; &lt;li&gt;FIWARE and DLTs&lt;ul&gt; &lt;li&gt;Agri-Food Supply Chain Demo&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt; &lt;li&gt;Upcoming DLT Components and Research&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;This webinar will be an introduction to Blockchain and how FIWARE can be integrated with Blockchain/DLTs with a demo. In addition, it will also explain upcoming DLT components in the FIWARE ecosystem and an idea/state of art to leverage DLTs in &#x27;Powered by FIWARE&#x27; systems.&lt;/p&gt;',
+        domain: 'Developers',
+        technology: 'Canis Major,Blockchain',
+        length: 40,
+        year: 2020
+    },
+    {
+        name: 'Turning Organizations Into Smart Organizations',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/smart-organizations.png',
+        type: 'Cross-Chapter',
+        badge: '<b>Cross-Chapter</b>',
+        difficulty: 2,
+        video: 'https://www.youtube.com/watch?v=XsoXchKiKB4',
+        content:
+            '&lt;p&gt;This webinar will cover the “system of systems” approach and FIWARE transformation journey, also with the help of success stories.&lt;/p&gt;',
+        domain: 'Developers',
+        technology: 'Cities,Agrifood,Water',
+        length: 45,
+        year: 2020
+    },
+    {
+        name: 'Smart Water Management - Using FIWARE Smart Data Models for Water',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/smart-water.png',
+        type: 'Core Context',
+        badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg'/>",
+        difficulty: 2,
+        video: 'https://www.youtube.com/watch?v=QbAiLMFEQrY',
+        content: '&lt;p&gt;Using FIWARE Smart Data Models for Water.&lt;/p&gt;',
+        domain: 'Developers',
+        technology: 'NGSI-LD,Data Models,Water',
+        length: 40,
+        year: 2020
+    },
+    {
+        name: 'FIWARE and micro-ROS: Enabling Robotics Systems on Micro-controllers',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/micro-ros.png',
+        type: 'Robotics',
+        badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Robotics.svg'/>",
+        difficulty: 2,
+        video: 'https://www.youtube.com/watch?v=XJL2_FHcils',
+        content:
+            '&lt;ul&gt; &lt;li&gt;The micro-ROS Framework&lt;/li&gt; &lt;li&gt;Synergies between Context Information Management and Robotics&lt;/li&gt; &lt;li&gt;Structure of &lt;em&gt;FIWARE-Ready&lt;/em&gt; and &lt;em&gt;&quot;Powered by FIWARE&quot;&lt;/em&gt; micro-ROS Architectures&lt;/li&gt; &lt;li&gt;SOSS-FIWARE&lt;/li&gt; &lt;li&gt;Demo&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;The aim of this webinar is to give an introduction about the existing synergies between FIWARE, ROS, and micro-ROS - the Robot Operating System for microcontrollers - frameworks.&lt;/p&gt; &lt;p&gt;Special emphasis will be put on how to build interfaces between Powered by FIWARE architectures and ROS2/micro-ROS based robotic systems. The SOSS-FIWARE, based on the eProsima Integration Service, is a key enabler that accelerates the development of these interfaces between micro-ROS and FIWARE ecosystems. Through a basic application, the main features of this component as well as the key concepts associated with the synergies between FIWARE and micro-ROS will be overviewed.&lt;/p&gt;',
+        domain: 'Developers',
+        technology: 'microROS',
+        length: 30,
+        year: 2020
+    },
+    {
+        name: 'Integrating Robotic Systems for Agile Manufacturing Using FIWARE',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/integrating-robotics-systems.png',
+        type: 'Robotics',
+        badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Robotics.svg'/>",
+        difficulty: 2,
+        video: 'https://www.youtube.com/watch?v=ftxNOdwqjiQ',
+        content:
+            '&lt;ul&gt; &lt;li&gt;Robotics-based Applications for Agile Manufacturing using FIWARE&lt;/li&gt; &lt;li&gt;Robotics centered use cases&lt;/li&gt; &lt;li&gt;Digital Factory centered use cases.&lt;/li&gt; &lt;li&gt;Deployment of a &lt;em&gt;&quot;Powered by FIWARE&quot;&lt;/em&gt; Robotics Architecture&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Robotics systems play a major role in the automation roadmap of factories that aim to beat competitors by offering small lot sizes of highly customized products. As standalone manufacturing assets, the contribution of robotics systems to the factory is clear, robots are intended to contribute powerful automation features based on reconfigurable hardware with integrated perception, planning, and control abilities. However, the agility of the factory can grow dramatically by making these standalone robots first-class citizens of the digital factory infrastructure.&lt;/p&gt; &lt;p&gt;This webinar introduces the current vision and ongoing developments that FIWARE is undertaking to accelerate the integration of robots in smart factory environments.&lt;/p&gt;',
+        domain: 'Developers',
+        technology: '',
+        length: 30,
+        year: 2020
+    },
+    {
+        name: 'Cities as Enablers of the Data Economy - Smart Data Models for Cities',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/cities-as-enablers.png',
+        type: 'Cross-Chapter',
+        badge: '<b>Cross-Chapter</b>',
+        difficulty: 2,
+        video: 'https://www.youtube.com/watch?v=b0EWq5E5jAc',
+        content:
+            '&lt;ul&gt; &lt;li&gt;City as a data ecosystem&lt;/li&gt; &lt;li&gt;Context/Digital Twin Data Management&lt;/li&gt; &lt;li&gt;Relevance of Standardization&lt;/li&gt; &lt;li&gt;Smart Data Models - Structure, Examples, Users and Contributors&lt;/li&gt; &lt;/ul&gt;',
+        domain: 'Developers',
+        technology: 'Cities',
+        length: 45,
+        year: 2020
+    },
+    {
         name: 'India Urban Data Exchange',
-        img: 'https://fiware.github.io/academy/img/iudx.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/iudx.png',
         type: 'Core Context',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg'/>",
         difficulty: 2,
@@ -482,8 +468,22 @@ var modalData = [
         year: 2020
     },
     {
+        name: 'Choosing Open Source Licenses for FIWARE Components',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/choosing-open-source.png',
+        type: 'Cross-Chapter',
+        badge: '<b>Cross-Chapter</b>',
+        difficulty: 1,
+        video: 'https://www.youtube.com/watch?v=1X_kNwkkcjo',
+        content:
+            '&lt;p&gt;Issues may arise when attempting to release software as Open Source, and this webinar discusses some of the decisions which need to be made (such as deciding which license to use) and offers a few solutions to cover some common release processes as well as explaining the commitments that must be made when offering new software to FIWARE.&lt;/p&gt;',
+        domain: 'Community,Business',
+        technology: '',
+        length: 40,
+        year: 2020
+    },
+    {
         name: 'FIWARE iHubs Webinar - Spain (Andalusia), Italy (Perugia), Argentina (La Plata)',
-        img: 'https://img.youtube.com/vi/IXjQwcuf9Xw/0.jpg',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/ihubs-default.png',
         type: 'Cross-Chapter',
         badge: '<b>Cross-Chapter</b>',
         difficulty: 1,
@@ -497,7 +497,7 @@ var modalData = [
     },
     {
         name: 'FIWARE iHubs Webinar - Spain (Badajoz), France (Saint-Quentin), Uruguay (Montevideo)',
-        img: 'https://img.youtube.com/vi/GmloMFyDa7Y/0.jpg',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/ihubs-01.png',
         type: 'Cross-Chapter',
         badge: '<b>Cross-Chapter</b>',
         difficulty: 1,
@@ -511,7 +511,7 @@ var modalData = [
     },
     {
         name: 'FIWARE iHubs Webinar - the Netherlands, Canary Islands, Azores',
-        img: 'https://img.youtube.com/vi/a1RV2UILgyg/0.jpg',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/ihubs-02.png',
         type: 'Cross-Chapter',
         badge: '<b>Cross-Chapter</b>',
         difficulty: 1,
@@ -524,8 +524,22 @@ var modalData = [
         year: 2020
     },
     {
+        name: 'Customizing IoT Agents',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/custom-iot-agents.png',
+        type: 'IoT Agents',
+        badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_IOTAgents.svg'/>",
+        difficulty: 4,
+        video: 'https://www.youtube.com/watch?v=HuEwI8wJKFU',
+        content:
+            '&lt;ul&gt; &lt;li&gt;Overview of Existing IoT Agents&lt;ul&gt; &lt;li&gt;Payloads, Transports and Protocols&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt; &lt;li&gt;Code walkthroughs&lt;ul&gt; &lt;li&gt;Customizing the IoT Agent for Ultralight to accept XML payloads&lt;/li&gt; &lt;li&gt;IoT Agent Plugin adaptions - IoT Agent for ADAPT/ISOXML&lt;/li&gt; &lt;li&gt;File-based Device Measure Upserts (CSV, Excel)&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Many common payloads and protocols are already supported by IoT Agents. However, sometimes this is not enough and it is necessary to create your own IoT Agent or customize an existing IoT Agent. This webinar discusses various strategies on how to do this focusing on real-life use-cases from farming and water management.&lt;/p&gt;',
+        domain: 'Developers',
+        technology: 'IoT Agent,Agrifood',
+        length: 45,
+        year: 2021
+    },
+    {
         name: 'NGSI-LD IoT Agents',
-        img: 'https://fiware.github.io/academy/img/ngsi-ld-iot-agents.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/ngsi-ld-iot-agents.png',
         type: 'IoT Agents',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_IOTAgents.svg'/>",
         difficulty: 3,
@@ -539,7 +553,7 @@ var modalData = [
     },
     {
         name: 'Monitoring Measures Using FIWARE &amp; Grafana',
-        img: 'https://fiware.github.io/academy/img/grafana.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/grafana.png',
         type: 'Visualisation',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Visualization.svg'/>",
         difficulty: 3,
@@ -552,22 +566,8 @@ var modalData = [
         year: 2021
     },
     {
-        name: 'Customizing IoT Agents',
-        img: 'https://fiware.github.io/academy/img/custom-iot-agents.png',
-        type: 'IoT Agents',
-        badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_IOTAgents.svg'/>",
-        difficulty: 4,
-        video: 'https://www.youtube.com/watch?v=HuEwI8wJKFU',
-        content:
-            '&lt;ul&gt; &lt;li&gt;Overview of Existing IoT Agents&lt;ul&gt; &lt;li&gt;Payloads, Transports and Protocols&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt; &lt;li&gt;Code walkthroughs&lt;ul&gt; &lt;li&gt;Customizing the IoT Agent for Ultralight to accept XML payloads&lt;/li&gt; &lt;li&gt;IoT Agent Plugin adaptions - IoT Agent for ADAPT/ISOXML&lt;/li&gt; &lt;li&gt;File-based Device Measure Upserts (CSV, Excel)&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Many common payloads and protocols are already supported by IoT Agents. However, sometimes this is not enough and it is necessary to create your own IoT Agent or customize an existing IoT Agent. This webinar discusses various strategies on how to do this focusing on real-life use-cases from farming and water management.&lt;/p&gt;',
-        domain: 'Developers',
-        technology: 'IoT Agent,Agrifood',
-        length: 45,
-        year: 2021
-    },
-    {
         name: 'Connecting NGSI-LD FIWARE Components',
-        img: 'https://fiware.github.io/academy/img/combining-v2-ld.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/combining-v2-ld.png',
         type: 'Core Context',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg'/>",
         difficulty: 3,
@@ -581,7 +581,7 @@ var modalData = [
     },
     {
         name: 'End-to-end AI Solution With PySpark &amp; Draco',
-        img: 'https://fiware.github.io/academy/img/pyspark.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/pyspark-draco.png',
         type: 'Core Context',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg'/>",
         difficulty: 3,
@@ -595,7 +595,7 @@ var modalData = [
     },
     {
         name: 'NGSI-LD Temporal Operations',
-        img: 'https://fiware.github.io/academy/img/ngsi-ld-temporal.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/ngsi-ld-temporal.png',
         type: 'Core Context',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg'/>",
         difficulty: 3,
@@ -609,7 +609,7 @@ var modalData = [
     },
     {
         name: 'Managing Users Identities and Access Control Policies with API Umbrella',
-        img: 'https://fiware.github.io/academy/img/umbrella.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/umbrella.png',
         type: 'Security',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Security.svg'/>",
         difficulty: 3,
@@ -623,7 +623,7 @@ var modalData = [
     },
     {
         name: 'Language Maps and Multilanguage support in NGSI-LD',
-        img: 'https://fiware.github.io/academy/img/language.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/language.png',
         type: 'Core Context',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg'/>",
         difficulty: 3,
@@ -637,7 +637,7 @@ var modalData = [
     },
     {
         name: 'Machine learning with FIWARE and MLOps',
-        img: 'https://fiware.github.io/academy/img/mlops.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/mlops.png',
         type: 'Operations',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Operations.svg'/>",
         difficulty: 3,
@@ -651,7 +651,7 @@ var modalData = [
     },
     {
         name: 'Scalable deployments with FIWARE',
-        img: 'https://fiware.github.io/academy/img/scalable.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/scalable.png',
         type: 'Operations',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Operations.svg'/>",
         difficulty: 3,
@@ -665,7 +665,7 @@ var modalData = [
     },
     {
         name: 'Cloud-Edge processing with FogFlow',
-        img: 'https://fiware.github.io/academy/img/fogflow.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/fogflow.png',
         type: 'Processing',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_ProcessingAnalysis.svg'/>",
         difficulty: 3,
@@ -678,22 +678,8 @@ var modalData = [
         year: 2021
     },
     {
-        name: 'FIWARE Basics, understanding the terminology',
-        img: 'https://fiware.github.io/academy/img/basics.png',
-        type: 'Fundamentals',
-        badge: '<b>Fundamentals</b>',
-        difficulty: 0,
-        video: 'https://www.youtube.com/watch?v=laDTBcLziB8',
-        content:
-            '&lt;ul&gt; &lt;li&gt;What is FIWARE?&lt;/li&gt; &lt;li&gt;The role of the FIWARE Foundation&lt;/li&gt; &lt;li&gt;Standards, Interfaces and Interoperability&lt;/li&gt; &lt;li&gt;Developer Terminology&lt;ul&gt; &lt;li&gt;REST&lt;/li&gt; &lt;li&gt;JSON&lt;/li&gt; &lt;li&gt;Linked Data&lt;/li&gt; &lt;li&gt;NGSI-v2 &amp;amp; NGSI-LD&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt; &lt;li&gt;Standards within Security and Data Sharing&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Do you know what an &quot;API&quot; is? Ever wondered what makes it &quot;open&quot;?&lt;/p&gt; &lt;p&gt;Every profession has its own jargon and software engineering is no exception.&lt;/p&gt; &lt;p&gt;The aim of this webinar is to demystify the terminology surrounding FIWARE for a non-technical audience and explain why developers find it so easy to use.&lt;/p&gt;',
-        domain: 'Developers,Business,Community,iHubs',
-        technology: 'NGSI-LD',
-        length: 45,
-        year: 2021
-    },
-    {
         name: 'Passing the FIWARE Experts Exam',
-        img: 'https://fiware.github.io/academy/img/experts.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/experts.png',
         type: 'Cross-Chapter',
         badge: '<b>Cross-Chapter</b>',
         difficulty: 3,
@@ -706,8 +692,36 @@ var modalData = [
         year: 2021
     },
     {
+        name: 'FIWARE Basics, understanding the terminology',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/basics.png',
+        type: 'Fundamentals',
+        badge: '<b>Fundamentals</b>',
+        difficulty: 0,
+        video: 'https://www.youtube.com/watch?v=laDTBcLziB8',
+        content:
+            '&lt;ul&gt; &lt;li&gt;What is FIWARE?&lt;/li&gt; &lt;li&gt;The role of the FIWARE Foundation&lt;/li&gt; &lt;li&gt;Standards, Interfaces and Interoperability&lt;/li&gt; &lt;li&gt;Developer Terminology&lt;ul&gt; &lt;li&gt;REST&lt;/li&gt; &lt;li&gt;JSON&lt;/li&gt; &lt;li&gt;Linked Data&lt;/li&gt; &lt;li&gt;NGSI-v2 &amp;amp; NGSI-LD&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt; &lt;li&gt;Standards within Security and Data Sharing&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Do you know what an &quot;API&quot; is? Ever wondered what makes it &quot;open&quot;?&lt;/p&gt; &lt;p&gt;Every profession has its own jargon and software engineering is no exception.&lt;/p&gt; &lt;p&gt;The aim of this webinar is to demystify the terminology surrounding FIWARE for a non-technical audience and explain why developers find it so easy to use.&lt;/p&gt;',
+        domain: 'Developers,Business,Community,iHubs',
+        technology: 'NGSI-LD',
+        length: 45,
+        year: 2021
+    },
+    {
+        name: 'IoT Agent Gateways Using the IOTA Tangle for Secure Data Transfer',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/tangle.png',
+        type: 'IoT Agents',
+        badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_IOTAgents.svg'/>",
+        difficulty: 4,
+        video: 'https://www.youtube.com/watch?v=gED5mAtBtYg',
+        content:
+            '&lt;p&gt;Within the FIWARE Ecosystem, IoT Agents are used to ensure that devices can send their data to, and be managed from a  Context Broker using their own native protocols. There is no restrictions on the transport layer to be used for these communications,  it could be anything from HTTP to MQTT to OPC-UA to LoRaWAN and more.&lt;/p&gt; &lt;p&gt;For example, IOTA is an open-source data communication protocol and zero-fee micro-transaction system utilising distributed ledger  technology. This allows participants in the IOTA network (“the Tangle”) to securely and immutably encrypt, transfer and store data. &lt;/p&gt; &lt;p&gt;The aim of this webinar is to demonstrate how create a gateway component for an IoT Agent and how connect to devices securely using  the IOTA Tangle, using it as a single source of truth and trust in data. Additionally discussing how to pick the most appropriate transport  or your use case and avoiding anti-patterns when securing IoT data.&lt;/p&gt;',
+        domain: 'Developers',
+        technology: 'IOTA Tangle,IoT Agent,Blockchain',
+        length: 45,
+        year: 2022
+    },
+    {
         name: 'Managing Data Models and Exposing Digital Twins',
-        img: 'https://fiware.github.io/academy/img/beyond-ngsi-ld.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/beyond-ngsi-ld.png',
         type: 'Core Context',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg'/>",
         difficulty: 3,
@@ -721,7 +735,7 @@ var modalData = [
     },
     {
         name: 'NGSI-LD Concise Payloads and Merge Patch Operations',
-        img: 'https://fiware.github.io/academy/img/concise-merge-patch.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/concise-merge-patch.png',
         type: 'Core Context',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg'/>",
         difficulty: 3,
@@ -735,7 +749,7 @@ var modalData = [
     },
     {
         name: 'Extending FIWARE MLOps using Argo Workflows',
-        img: 'https://fiware.github.io/academy/img/argo.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/argo.png',
         type: 'Operations',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Operations.svg'/>",
         difficulty: 3,
@@ -749,7 +763,7 @@ var modalData = [
     },
     {
         name: 'Monitoring and Supervision of robotic systems using FIWARE and ROS 2',
-        img: 'https://fiware.github.io/academy/img/iotagent-ros2.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/iotagent-ros2.pn',
         type: 'Robotics',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Robotics.svg'/>",
         difficulty: 3,
@@ -762,22 +776,8 @@ var modalData = [
         year: 2022
     },
     {
-        name: 'IoT Agent Gateways Using the IOTA Tangle for Secure Data Transfer',
-        img: 'https://fiware.github.io/academy/img/tangle.png',
-        type: 'IoT Agents',
-        badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_IOTAgents.svg'/>",
-        difficulty: 4,
-        video: 'https://www.youtube.com/watch?v=gED5mAtBtYg',
-        content:
-            '&lt;p&gt;Within the FIWARE Ecosystem, IoT Agents are used to ensure that devices can send their data to, and be managed from a  Context Broker using their own native protocols. There is no restrictions on the transport layer to be used for these communications,  it could be anything from HTTP to MQTT to OPC-UA to LoRaWAN and more.&lt;/p&gt; &lt;p&gt;For example, IOTA is an open-source data communication protocol and zero-fee micro-transaction system utilising distributed ledger  technology. This allows participants in the IOTA network (“the Tangle”) to securely and immutably encrypt, transfer and store data. &lt;/p&gt; &lt;p&gt;The aim of this webinar is to demonstrate how create a gateway component for an IoT Agent and how connect to devices securely using  the IOTA Tangle, using it as a single source of truth and trust in data. Additionally discussing how to pick the most appropriate transport  or your use case and avoiding anti-patterns when securing IoT data.&lt;/p&gt;',
-        domain: 'Developers',
-        technology: 'IOTA Tangle,IoT Agent,Blockchain',
-        length: 45,
-        year: 2022
-    },
-    {
         name: 'Local Expert in B2B Data Sharing',
-        img: 'https://fiware.github.io/academy/img/lebds.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/lebds.png',
         type: 'Security',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Security.svg'/>",
         difficulty: 3,
@@ -791,7 +791,7 @@ var modalData = [
     },
     {
         name: 'Building real-time inference AI services with FIWARE',
-        img: 'https://fiware.github.io/academy/img/ai-inference.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/ai-interface.png',
         type: 'Processing',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_ProcessingAnalysis.svg'/>",
         difficulty: 3,
@@ -805,7 +805,7 @@ var modalData = [
     },
     {
         name: 'Actuation, Federation and interoperability of context brokers',
-        img: 'https://fiware.github.io/academy/img/actuation.png',
+        img: 'https://www.fiware.org/wp-content/directories/webinars/images/context-broker-interoperability.png',
         type: 'Core Context',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg'/>",
         difficulty: 3,
