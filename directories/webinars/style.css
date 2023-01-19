@@ -1573,6 +1573,11 @@ input[type="search"]::placeholder {
 #ico-filtersbar {
     margin-right: 8px;
     color: #002e67;
+    transition: all 0.3s ease-in-out;
+}
+
+#ico-filtersbar:hover {
+    color: #fff;
 }
 
 /* –––––––––––––––– */
