@@ -15,6 +15,11 @@
     box-sizing: border-box;
 }
 
+.et_pb_image_0 .et_pb_image_wrap,
+.et_pb_image_1 .et_pb_image_wrap {
+    display: flex;
+}
+
 
 .cover-image img {
     max-height: 55vh;
