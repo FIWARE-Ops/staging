@@ -282,11 +282,11 @@ function initSelect() {
     },
     getSortData: {
       difficulty: ".difficulty parseInt",
-      year: ".year",
+      season: ".season",
     },
     sortAscending: {
       difficulty: true,
-      year: false,
+      season: true,
     },
   });
 
@@ -309,17 +309,19 @@ function initSelect() {
       msnry.arrange({ sortBy: "original-order" });
       e.target.classList.remove("active");
     }
+    document.querySelector("#orderByYear").classList.remove("active");
   });
 
   // SORT BY YEAR
   document.querySelector("#orderByYear").addEventListener("click", (e) => {
     if (e.target.classList.contains("active") == false) {
-      msnry.arrange({ sortBy: "year" });
+      msnry.arrange({ sortBy: "season" });
       e.target.classList.add("active");
     } else {
       msnry.arrange({ sortBy: "original-order" });
       e.target.classList.remove("active");
     }
+    document.querySelector("#orderByName").classList.remove("active");
   });
 
   $(".filters-container select").each(function (index) {
