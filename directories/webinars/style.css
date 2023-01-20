@@ -1279,6 +1279,7 @@
     font-weight: 600;
     color: #002e67;
     text-transform: uppercase;
+    border: 1px solid #002e67;
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
