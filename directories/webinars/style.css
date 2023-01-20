@@ -1687,7 +1687,6 @@ input[type="search"]::placeholder {
 
     #mobileToggleFilters {
         display: block;
-        width: 100%;
         font-size: 14px;
         font-weight: 600;
         color: #002e67;
@@ -1695,7 +1694,8 @@ input[type="search"]::placeholder {
         display: flex;
         justify-content: center;
         align-items: flex-end;
-        padding: 15px 0px;
+        padding: 10px 20px 10px 15px;
+        margin: 0 auto;
     }
 
     .filters-container {
