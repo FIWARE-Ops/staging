@@ -14,6 +14,7 @@ function extractWebinars(input) {
     const webinars = [];
     input.forEach((item) => {
         const webinar = {
+            season: item['Season'],
             name: item['Name'],
             img: item['Image'] ? item['Image'] : DEFAULT_IMAGE,
             companyLink: item['Video'],
@@ -32,7 +33,7 @@ function extractWebinars(input) {
         }
     });
     return webinars.sort((a, b) => {
-        return a.year - b.year;
+        return b.season - a.season;
     });
 }
 
