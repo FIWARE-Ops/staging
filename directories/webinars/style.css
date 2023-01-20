@@ -1758,6 +1758,10 @@ input[type="search"]::placeholder {
 
 @media only screen and (max-width: 480px) {
 
+    .cover-image img {
+        max-height: 40vh;
+    }
+
     /* .et_pb_sticky .et_pb_code_2 {
     padding-top: 20px!important;
     padding-bottom: 20px!important;
