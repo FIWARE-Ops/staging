@@ -1763,7 +1763,7 @@ input[type="search"]::placeholder {
     }
 
     .et_pb_image_1 .et_pb_image_wrap {
-        display: flex;
+        display: flex!important;
         justify-content: center;
     }
 
