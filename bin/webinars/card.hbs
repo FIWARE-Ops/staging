@@ -22,8 +22,8 @@
                 </div>
             </div>
         </div>
-        <div class='gridElementTechnologyDomain'>
-            <div class='chip-technology-domain {{#if (eq technology.length 0)}}hidden{{/if}}'>
+        <div class='gridElementTechnologyDomain {{#if (eq technology.length 0)}}hidden{{/if}}'>
+            <div class='chip-technology-domain'>
                 {{#if (gt technology.length 0)}}
                 <div class='chip-technology'>
                     <ul class='chips'>{{#each technology}}<li>{{this}}</li>{{/each}}</ul>
