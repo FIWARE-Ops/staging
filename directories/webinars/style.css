@@ -1273,7 +1273,7 @@
 #mobileToggleFilters {
     display: block;
     width: fit-content;
-    background-color: #5dc0cf;
+    background-color: #f4fbfc;
     border-radius: 30px;
     font-size: 14px;
     font-weight: 600;
@@ -1282,7 +1282,7 @@
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
-    padding: 15px 25px;
+    padding: 10px 18px 10px 15px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
