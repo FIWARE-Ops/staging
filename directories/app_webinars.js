@@ -281,11 +281,11 @@ function initSelect() {
       columnWidth: ".grid-sizer",
     },
     getSortData: {
-      name: ".name parseInt",
+      difficulty: ".difficulty parseInt",
       year: ".year",
     },
     sortAscending: {
-      name: true,
+      difficulty: true,
       year: false,
     },
   });
@@ -303,7 +303,7 @@ function initSelect() {
   //SORT BY ALPHABETICALLY
   document.querySelector("#orderByName").addEventListener("click", (e) => {
     if (e.target.classList.contains("active") == false) {
-      msnry.arrange({ sortBy: "name" });
+      msnry.arrange({ sortBy: "difficulty" });
       e.target.classList.add("active");
     } else {
       msnry.arrange({ sortBy: "original-order" });
