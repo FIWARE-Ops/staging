@@ -2,6 +2,11 @@ const showdown = require('showdown');
 const jsdom = require('jsdom');
 const converter = new showdown.Converter();
 
+/**
+ * Links can be either URLs or markdown.
+ * Take inputs markdown and transform into URLs
+ * and transform a series of input fields into an array
+ */
 function getLinkArray(fields, title, item) {
     const array = [];
     let errors = [];
@@ -34,6 +39,10 @@ function getLinkArray(fields, title, item) {
     return array;
 }
 
+/**
+ *  Take input markdown and transform into HTML.
+ *  Tidy up any known artifacts
+ */
 function markdown(text) {
     const html = text !== '' ? converter.makeHtml(text.replaceAll(/•/g, '\n*').replaceAll(/\'/g, "'")) : '';
     return html
@@ -42,6 +51,10 @@ function markdown(text) {
         .replaceAll(/\\'/g, "'");
 }
 
+/**
+ * Map the human names used in the input CSV into names
+ * usable by the app to avoid spaces.
+ */
 function getCategory(category) {
     if (category === 'Powered by FIWARE') {
         return 'powered';
@@ -62,11 +75,18 @@ function getCategory(category) {
     }
 }
 
+/**
+ * Remove special characters and create
+ * a usable CSS class for Isotope to filter on.
+ */
 function getHash(organization, product) {
     var regex = /([^a-zA-Z0-9À-ÿ])/gi;
     return organization.replace(regex, '').toLowerCase() + '-' + product.replace(regex, '').toLowerCase();
 }
 
+/**
+ * Parse a comma separated list as an array
+ */
 function splitStrings(input) {
     const arr = [];
     input.split(',').forEach((item) => {
@@ -77,6 +97,10 @@ function splitStrings(input) {
     return arr;
 }
 
+/**
+ * Parse True and False as used in the input CSV into proper
+ * boolean values
+ */
 function boolean(input) {
     return input && input.toLowerCase() === 'true';
 }

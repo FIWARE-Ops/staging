@@ -3,10 +3,17 @@ const path = require('path');
 const fs = require('fs-extra');
 const _ = require('underscore');
 
+/**
+ *  Take a raw dump of an Object as JSON
+ */
 function stringify(data) {
     return JSON.stringify(data);
 }
 
+/**
+ * Remove special characters and create
+ * a usable CSS class for Isotope to filter on.
+ */
 function createClass(data) {
     let result = '';
     const regex = /([^a-zA-Z0-9À-ÿ])/gi;
@@ -24,12 +31,19 @@ function createClass(data) {
     return result;
 }
 
+/**
+ * Add multiple Isotope usable CSS classes for an
+ * input array
+ */
 function createClasses(data) {
     return _.map(data, function(el) {
         return createClass(el);
     }).join(' ');
 }
 
+/**
+ * Create a star rating from an integer
+ */
 function rating(difficulty) {
     let result = '';
     for (let i = 0; i < difficulty; i++) {
@@ -58,6 +72,9 @@ Handlebars.registerHelper({
     }
 });
 
+/**
+ * Output strucuted data using a Handlebars template file
+ */
 function write(filename, template, input) {
     readTemplate(template, function(err, data) {
         if (!err) {
@@ -75,6 +92,9 @@ function write(filename, template, input) {
     });
 }
 
+/**
+ * Read in a Handlebars template
+ */
 function readTemplate(template, callback) {
     const filePath = path.join(__dirname, '..', template);
     fs.readFile(filePath, { encoding: 'utf-8' }, callback);

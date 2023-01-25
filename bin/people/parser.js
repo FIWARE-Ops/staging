@@ -12,6 +12,10 @@ const TEMPLATE_PATH = 'bin/people/';
 const PEOPLE_DIR = 'directories/people';
 const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/people/images/ico_user.png';
 
+/**
+ * Take the human readable column names from the spreadsheet and create a
+ * data object of people for later use
+ */
 function extractPeople(input) {
     const people = [];
     input.forEach((item) => {
@@ -43,6 +47,10 @@ function extractPeople(input) {
     });
 }
 
+/**
+ * Read in the people file and output
+ * HTML and JavaScript files
+ */
 function parse(file, page) {
     csv()
         .fromFile(file)

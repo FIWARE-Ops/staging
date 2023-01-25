@@ -10,6 +10,10 @@ const WEBINARS_DIR = 'directories/webinars';
 
 const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/webinars/images/webinar-default.png';
 
+/**
+ * Take the human readable column names from the spreadsheet and create a
+ * data object of webinars for later use
+ */
 function extractWebinars(input) {
     const webinars = [];
     input.forEach((item) => {
@@ -37,6 +41,10 @@ function extractWebinars(input) {
     });
 }
 
+/**
+ * Read in the webinars file and output
+ * HTML and JavaScript files
+ */
 function parse(file) {
     csv()
         .fromFile(file)

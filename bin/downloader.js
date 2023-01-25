@@ -1,6 +1,9 @@
 const sizeOf = require('image-size');
 const download = require('image-downloader');
 
+/**
+ *  Reads a file from a URL and downloads it into a folder
+ */
 function downloadImages(image) {
     return new Promise((resolve, reject) => {
         const file = image[0].replace(/[ ]/g, '_').replace(/[/&]/g, '');

@@ -25,7 +25,8 @@
     "team": "PROCESS=people PAGE=team npm start; npm run prettier",
     "tsc": "PROCESS=people PAGE=tsc npm start; npm run prettier",
     "webinars": "PROCESS=webinars npm start; npm run prettier",
-    "marketplace": "PROCESS=products npm start; npm run prettier"
+    "marketplace": "PROCESS=products npm start; npm run prettier",
+    "postinstall": "PROCESS=postinstall npm start"
   },
   "dependencies": {
     "@apidevtools/swagger-parser": "^10.0.2",

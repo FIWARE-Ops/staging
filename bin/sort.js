@@ -1,9 +1,15 @@
 const _ = require('underscore');
 
+/**
+ *  Sort order all lower case
+ */
 const caseInsensitive = function(i) {
     return i ? i.toLowerCase() : '';
 };
 
+/**
+ *  Sort an array of data
+ */
 function sortData(input, attr) {
     return _.sortBy(
         _.uniq(
@@ -15,6 +21,9 @@ function sortData(input, attr) {
     );
 }
 
+/**
+ *  Sort and flatten an array of arrays of data
+ */
 function flatSortData(input, attr) {
     return _.sortBy(
         _.uniq(

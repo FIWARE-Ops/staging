@@ -15,6 +15,10 @@ const refFields = ['Reference Material', 'Material 2', 'Material 3', 'Material 4
 
 const path = require('path');
 
+/**
+ * Take the human readable column names from the spreadsheet and create a
+ * data object of product details for later use
+ */
 function extractProductDetails(input) {
     const images = [];
     const details = {
@@ -66,6 +70,10 @@ function extractProductDetails(input) {
     return { details, images };
 }
 
+/**
+ * Take the human readable column names from the spreadsheet and create a
+ * data object of products summaries for later use
+ */
 function extractSummaryInfo(input, details) {
     const powered = [];
     const ready = [];
@@ -241,6 +249,10 @@ function findProduct(hash, category) {
         : null;
 }
 
+/**
+ * Read in the product details file and output
+ * HTML and JavaScript files
+ */
 function parse(detailsFile, summaryFile) {
     csv()
         .fromFile(detailsFile)
