@@ -4280,6 +4280,34 @@ var pageData = {
                 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Engineering.svg',
             featuredImage: 'https://www.fiware.org/wp-content/uploads/93ecd215f67ea8f6fcfc305b49e72a27.png',
             furtherImages: ''
+        },
+        '426code-smarttown': {
+            category: 'Powered by FIWARE',
+            organisationName: '426 Code',
+            productName: 'SmartTown',
+            organisationWebsite: 'https://426code.com',
+            organisationEmail: 'mailto:426code@426code.com',
+            linkedIn: 'https://likedin.com/company/426code',
+            twitter: 'https://twitter.com/426Code',
+            productWebsite: 'https://',
+            excerpt:
+                'SmartTown is a horizontal platform, which includes different verticals that can occur in a population, for its remote management in a centralized way and offers interoperability between the different devices and integrations',
+            yearOfValidation: 2023,
+            description:
+                '<p>SmartTown is a horizontal platform, which includes different verticals that can occur in a population, for its remote management in a centralized way and offers interoperability between the different devices and integrations. This allows that, regardless of the nature of the devices, they can communicate with each other by configuring a series of rules. In addition, the platform helps save money and contributes to improving the environment, thanks to the data obtained from the different devices located in the municipality.</p>',
+            challenge:
+                '<p>The main objective of SmartTown is to centralize the remote management of all verticals of the population and make them interoperable with each other. In addition, to help save energy and improve the quality of life of citizens.</p>',
+            references:
+                '<p>SmartTown is focused on marketing itself, above all, to small municipalities. Some of our clients are, for example, the Provincial Council of Ciudad Real, Puebla del Principe, Carrión, Argamasilla de Alba, El Robledo, etc.</p>',
+            awards: '<p>none</p>',
+            technologies: ['Big Data', 'Data Analytics', 'Data Handling', 'Internet of Things', 'Internet Services'],
+            domains: ['Air Quality', 'Cities', 'Energy', 'Lighting', 'Parks &amp; Gardens'],
+            docs: [],
+            videos: [],
+            materials: [],
+            logo: 'https://www.fiware.org/wp-content/uploads/9daaee69f97a7d82e4092bd638394ef7.jpg',
+            featuredImage: 'https://www.fiware.org/wp-content/uploads/c1bd83362f800e5279d08d9866f5ae1c.jpg',
+            furtherImages: ''
         }
     },
     ready: {
