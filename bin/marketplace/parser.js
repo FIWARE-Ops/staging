@@ -253,7 +253,7 @@ function findProduct(hash, category) {
  * Read in the product details file and output
  * HTML and JavaScript files
  */
-function parse(detailsFile, summaryFile) {
+function parse(detailsFile, summaryFile, process) {
     csv()
         .fromFile(detailsFile)
         .then((input) => {
@@ -319,7 +319,7 @@ function parse(detailsFile, summaryFile) {
                 });
         })
         .then(() => {
-            if (PROCESS === 'products+images') {
+            if (process === 'products+images') {
                 let promises = [];
                 productDetails.images.forEach((image) => {
                     let promise = Downloader.downloadImages(image);

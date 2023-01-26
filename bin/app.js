@@ -11,6 +11,9 @@ const WEBINARS_FILE = 'webinars.csv';
 const PRODUCTS_SUMMARY_FILE = 'products.csv';
 const PRODUCT_DETAILS_FILE = 'product-details.csv';
 
+/**
+ *  Ensure that a file exists
+ */
 async function touch(file) {
     await fs.ensureFile(file);
     const now = new Date();
@@ -19,7 +22,7 @@ async function touch(file) {
 
 // Create HTML and template files for the FIWARE Marketplace
 if (PROCESS.startsWith('products')) {
-    Marketplace.parse(PRODUCT_DETAILS_FILE, PRODUCTS_SUMMARY_FILE);
+    Marketplace.parse(PRODUCT_DETAILS_FILE, PRODUCTS_SUMMARY_FILE, PROCESS);
 }
 
 // Create HTML and template files for the webinars
