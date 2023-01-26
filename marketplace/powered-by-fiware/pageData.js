@@ -1486,5 +1486,19 @@ var pageData = [
         year: 2022,
         content:
             'Our Urban Data Platform enables the development of a digital ecosystem in which existing data from different systems and applications can be used to build digital service offerings across fields of action. For this, we provide the urban data platform as a service approach.'
+    },
+    {
+        company: '426 Code',
+        name: 'SmartTown',
+        img: 'https://www.fiware.org/wp-content/uploads/9daaee69f97a7d82e4092bd638394ef7.jpg',
+        fiwareMember: true,
+        fiwareIhub: false,
+        companyLink: '../product-details/?category=powered&id=426code-smarttown',
+        domain: ['Air Quality', 'Cities', 'Energy', 'Lighting', 'Parks &amp; Gardens'],
+        type: 'Platform',
+        technology: ['Big Data', 'Data Analytics', 'Data Handling', 'Internet of Things', 'Internet Services'],
+        year: 2023,
+        content:
+            'SmartTown is a horizontal platform, which includes different verticals that can occur in a population, for its remote management in a centralized way and offers interoperability between the different devices and integrations'
     }
 ];
