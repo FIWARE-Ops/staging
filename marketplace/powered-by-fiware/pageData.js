@@ -1489,11 +1489,11 @@ var pageData = [
     },
     {
         company: '426 Code',
-        name: 'SmartTowns',
+        name: 'SmartTown',
         img: 'https://www.fiware.org/wp-content/uploads/9daaee69f97a7d82e4092bd638394ef7.jpg',
         fiwareMember: true,
         fiwareIhub: false,
-        companyLink: '../product-details/?category=powered&id=426code-smarttowns',
+        companyLink: '../product-details/?category=powered&id=426code-smarttown',
         domain: ['Air Quality', 'Cities', 'Energy', 'Lighting', 'Parks &amp; Gardens'],
         type: 'Platform',
         technology: ['Big Data', 'Data Analytics', 'Data Handling', 'Internet of Things', 'Internet Services'],
