@@ -36,7 +36,7 @@ var companies = [
         'VP Funded Programs',
 ]; var countries = [
 ]; var modalData = [
-    { name: "Albert Abella", img: "https://www.fiware.org/wp-content/directories/people/images/team/alberto-abella.png", position: "Data Modeling Expert &amp; Evangelist", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
+    { name: "Alberto Abella", img: "https://www.fiware.org/wp-content/directories/people/images/team/alberto-abella.png", position: "Data Modeling Expert &amp; Evangelist", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
     content: "Alberto Abella (m) is PhD in Business (Open data) and Telecommunications Engineer and Master in Total Quality Management, Business Administration and Business Organization. He works as a Data Modelling Expert and Technical Evangelist at FIWARE and currently is the responsible person for the smart data models initiative.", linkedin: "https://www.linkedin.com/in/albertoabella/", twitter: "https://twitter.com/aabella", domain: "", location: "",
     flag: "", },
     { name: "Ulrich Ahle", img: "https://www.fiware.org/wp-content/directories/people/images/team/ulrich-ahle.png", position: "Chief Executive Officer", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
