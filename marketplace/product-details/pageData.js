@@ -4281,10 +4281,10 @@ var pageData = {
             featuredImage: 'https://www.fiware.org/wp-content/uploads/93ecd215f67ea8f6fcfc305b49e72a27.png',
             furtherImages: ''
         },
-        '426code-smarttown': {
+        '426code-smarttowns': {
             category: 'Powered by FIWARE',
             organisationName: '426 Code',
-            productName: 'SmartTown',
+            productName: 'SmartTowns',
             organisationWebsite: 'https://426code.com',
             organisationEmail: 'mailto:426code@426code.com',
             linkedIn: 'https://likedin.com/company/426code',
