@@ -4289,17 +4289,18 @@ var pageData = {
             organisationEmail: 'mailto:426code@426code.com',
             linkedIn: 'https://likedin.com/company/426code',
             twitter: 'https://twitter.com/426Code',
-            productWebsite: 'https://',
+            productWebsite:
+                'https://426code.com/smart-town/?_gl=1*19raehk*_up*MQ..*_ga*MTUxNzEzODYyOS4xNjc0ODE0MzM5*_ga_505Z8M09BD*MTY3NDgxNDMzOC4xLjAuMTY3NDgxNDMzOC4wLjAuMA..',
             excerpt:
                 'SmartTown is a horizontal platform, which includes different verticals that can occur in a population, for its remote management in a centralized way and offers interoperability between the different devices and integrations',
             yearOfValidation: 2023,
             description:
-                '<p>SmartTown is a horizontal platform, which includes different verticals that can occur in a population, for its remote management in a centralized way and offers interoperability between the different devices and integrations. This allows that, regardless of the nature of the devices, they can communicate with each other by configuring a series of rules. In addition, the platform helps save money and contributes to improving the environment, thanks to the data obtained from the different devices located in the municipality.</p>',
+                '<p><strong>SmartTown</strong> is a horizontal platform, which includes different verticals that can occur in a population, for its remote management in a centralized way and offers interoperability between the different devices and integrations. This allows that, regardless of the nature of the devices, they can communicate with each other by configuring a series of rules. In addition, the platform helps save money and contributes to improving the environment, thanks to the data obtained from the different devices located in the municipality.</p>',
             challenge:
-                '<p>The main objective of SmartTown is to centralize the remote management of all verticals of the population and make them interoperable with each other. In addition, to help save energy and improve the quality of life of citizens.</p>',
+                "<p>The main objective of <strong>SmartTown</strong> is to centralize the remote management of all verticals of the population and make them interoperable with each other. In addition, to help save energy and improve the quality of citizens' life.</p>",
             references:
-                '<p>SmartTown is focused on marketing itself, above all, to small municipalities. Some of our clients are, for example, the Provincial Council of Ciudad Real, Puebla del Principe, Carrión, Argamasilla de Alba, El Robledo, etc.</p>',
-            awards: '<p>none</p>',
+                '<p>SmartTown is focused on marketing itself, above all, to small municipalities.  Some of our clients are, for example, the Provincial Council of Ciudad Real, Puebla del Principe, Carrión, Argamasilla de Alba, El Robledo, etc.</p>',
+            awards: '',
             technologies: ['Big Data', 'Data Analytics', 'Data Handling', 'Internet of Things', 'Internet Services'],
             domains: ['Air Quality', 'Cities', 'Energy', 'Lighting', 'Parks &amp; Gardens'],
             docs: [],
@@ -8653,7 +8654,7 @@ var pageData = {
             challenge:
                 '<p>The framework consists of a frontend and a backend. The frontend visualizes the data it receives from the backend. The backend obtains the data from the open data platform using an intelligent polling mechanism and stores it temporarily, which keeps the load on the platform to a minimum. The following technologies are used for this, all of which were developed on an OpenSource basis and are state of the art:</p> <p><strong>Frontend – React Web App</strong> Communicates only with a central backend, the Orion Context Broker, via the NGSI-v2 REST API</p> <p><strong>Core backend (powered by FIWARE)</strong> Orion Context Broker uses NGSI-v2 REST API for data transfers</p> <p><strong>External services</strong> All services communicate with only one central backend, the Orion Context Broker, via the NGSI-v2 REST API</p>',
             references: '<p>City of Paderborn City of Ulm City of Hünfeld Region Fulda KielRegion</p>',
-            awards: '<p>none</p>',
+            awards: '',
             technologies: [
                 'Data Spaces',
                 'Digital Twins',
