@@ -366,10 +366,24 @@ var pageData = [
     {
         company: 'Elmibit',
         name: 'eVineyard',
+        img: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_eVineyard.svg',
+        fiwareMember: false,
+        fiwareIhub: false,
+        companyLink: 'http://www.evineyardapp.com/',
+        domain: ['AgriFood'],
+        type: 'Solution',
+        technology: ['Data Analytics', 'Open Data'],
+        year: 2017,
+        content:
+            'The easily deployable decision support solution that helps you manage your vineyard to reduce costs, grow better grapes, and preserve the environment.'
+    },
+    {
+        company: 'Elmibit',
+        name: 'eVineyard',
         img: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_eVineyard.svg',
         fiwareMember: false,
         fiwareIhub: false,
-        companyLink: 'http://www.evineyardapp.com',
+        companyLink: 'http://www.evineyardapp.com/',
         domain: ['Agriculture', 'AgriFood'],
         type: 'Solution',
         technology: ['Data Analytics', 'Data Spaces', 'Digital Twins', 'Internet of Things', 'Software as a Service'],
