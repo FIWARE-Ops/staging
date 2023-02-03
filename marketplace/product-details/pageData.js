@@ -954,7 +954,7 @@ var pageData = {
             category: 'Powered by FIWARE',
             organisationName: 'Elmitel',
             productName: 'eVineyard',
-            organisationWebsite: 'https://www.evineyardapp.com/#benefits',
+            organisationWebsite: 'https://www.evineyardapp.com/',
             organisationEmail: 'mailto:info@evineyardapp.com',
             linkedIn: 'https://www.linkedin.com/company/elmibit/',
             twitter: 'https://twitter.com/eVineyard_app/',
@@ -6762,37 +6762,6 @@ var pageData = {
                     companyLink: './?category=services&id=egm-designoffice'
                 }
             ]
-        },
-        'elmitel-evineyard': {
-            category: 'FIWARE-Ready',
-            organisationName: 'Elmitel',
-            productName: 'eVineyard',
-            organisationWebsite: 'https://www.evineyardapp.com/#benefits',
-            organisationEmail: 'mailto:info@evineyardapp.com',
-            linkedIn: 'https://www.linkedin.com/company/elmibit/',
-            twitter: 'https://twitter.com/eVineyard_app/',
-            productWebsite: 'http://www.evineyardapp.com',
-            excerpt:
-                'The easily deployable decision support solution that helps you manage your vineyard to reduce costs, grow better grapes, and preserve the environment.',
-            yearOfValidation: 2017,
-            description:
-                "<p><strong>eVineyard</strong> is a complete solution for winegrowers which includes FIWARE-compatible sensor devices that can be placed in the vineyard to measure micro-climate parameters such as air temperature, humidity, leaf wetness, and so on.This data is then processed in the Cloud to give growers actionable information, such as when to spray or irrigate.</p> <p>eVineyard's sensor devices collect the data on the field, and process it with algorithms to provide growers with actionable information, helping them decide when to do what in order to save time, resources, and nature - while producing more healthy and higher quality grapes.</p>",
-            challenge:
-                '<p>eVineyard helps winegrowers with paperwork and crucial decisions - to save time, improve sustainability and performance.</p>',
-            references: '<p>grape-growers, vineyard consultants</p>',
-            awards: '<p>FINODEX Accelerator Top 10, SAP HCP Challenge 2016 CEE winner, EU seal of excellence</p>',
-            technologies: ['Data Analytics', 'Open Data'],
-            domains: ['AgriFood'],
-            docs: [],
-            videos: [],
-            materials: [
-                ['Reussir-News', 'https://www.reussir.fr/vigne/'],
-                ['RTV SLO-News', 'https://www.rtvslo.si/tv/znanje/prava-ideja'],
-                ['Finance-News', 'https://www.finance.si/8842757?cctest&']
-            ],
-            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_eVineyard.svg',
-            featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_elmitel_evineyard.png',
-            furtherImages: ''
         },
         'engineering-dashram': {
             category: 'FIWARE-Ready',

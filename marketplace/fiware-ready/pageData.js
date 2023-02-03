@@ -328,20 +328,6 @@ var pageData = [
             'The device EdgeSpot is a highly scalable hardware and software platform that takes you from concept to market by accelerating the proof-of-concept phases.'
     },
     {
-        company: 'Elmibit',
-        name: 'eVineyard',
-        img: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_eVineyard.svg',
-        fiwareMember: false,
-        fiwareIhub: false,
-        companyLink: 'http://www.evineyardapp.com',
-        domain: ['AgriFood'],
-        type: 'IoT Device',
-        technology: ['Data Analytics', 'Open Data'],
-        year: 2017,
-        content:
-            'The easily deployable decision support solution that helps you manage your vineyard to reduce costs, grow better grapes, and preserve the environment.'
-    },
-    {
         company: 'Engineering',
         name: 'Dashram',
         img: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Engineering.svg',
