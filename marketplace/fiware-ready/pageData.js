@@ -929,5 +929,19 @@ var pageData = [
         year: 2022,
         content:
             'The goal of this project is the visualization of data from the FIWARE-based central open data platform. By making the data available, especially in the form of charts, citizens and interested parties can be given an overview of the current state of affairs in the city.'
+    },
+    {
+        company: 'Cedesa Digital',
+        name: 'Lapsowork',
+        img: 'https://lapsowork.com/wp-content/uploads/2021/06/Lapso-logo_1.png',
+        fiwareMember: false,
+        fiwareIhub: false,
+        companyLink: '../product-details/?category=ready&id=cedesadigital-lapsowork',
+        domain: ['Human resources software'],
+        type: 'Software enabler',
+        technology: ['Blockchain'],
+        year: 2022,
+        content:
+            'Software for human resources management, integrated in FIWARE. Lapsowork dumps data in real-time and allows us to obtain statistics associated with entry records, exit records, information on the worker who performs the registration, associated temperature (COVID19 measure)...'
     }
 ];
