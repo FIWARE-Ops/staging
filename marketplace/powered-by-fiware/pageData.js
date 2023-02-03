@@ -369,27 +369,13 @@ var pageData = [
         img: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_eVineyard.svg',
         fiwareMember: false,
         fiwareIhub: false,
-        companyLink: 'http://www.evineyardapp.com/',
+        companyLink: '../product-details/?category=powered&id=elmibit-evineyard',
         domain: ['AgriFood'],
         type: 'Solution',
         technology: ['Data Analytics', 'Open Data'],
         year: 2017,
         content:
             'The easily deployable decision support solution that helps you manage your vineyard to reduce costs, grow better grapes, and preserve the environment.'
-    },
-    {
-        company: 'Elmibit',
-        name: 'eVineyard',
-        img: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_eVineyard.svg',
-        fiwareMember: false,
-        fiwareIhub: false,
-        companyLink: 'http://www.evineyardapp.com/',
-        domain: ['Agriculture', 'AgriFood'],
-        type: 'Solution',
-        technology: ['Data Analytics', 'Data Spaces', 'Digital Twins', 'Internet of Things', 'Software as a Service'],
-        year: 2017,
-        content:
-            'eVineyard is an intuitive and easy-to-use vineyard management software that helps you grow better quality grapes more sustainably. Manage your vineyards smarter and get more time for vineyard activities rather than paperwork.'
     },
     {
         company: 'Engineering',
@@ -649,11 +635,11 @@ var pageData = [
     },
     {
         company: 'LahakX',
-        name: 'LahakX',
+        name: 'Skyx Pass',
         img: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_LahakX.svg',
         fiwareMember: false,
         fiwareIhub: false,
-        companyLink: 'https://www.lahakx.com/',
+        companyLink: '../product-details/?category=powered&id=lahakx-skyxpass',
         domain: ['AgriFood'],
         type: 'Solution',
         technology: ['Internet of Things', 'Logistsics', 'Micro/Nano Electronics'],
