@@ -1,4 +1,4 @@
-name: Publish PEOPLE pages to LIVE fiware.org
+name: Publish WEBINARS pages to LIVE fiware.org
 
 on:
   workflow_dispatch:
@@ -18,4 +18,4 @@ jobs:
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.SSH_KEY }}
           target: ${{ secrets.SSH_DIR }}
-          source: "directories/people/**"
+          source: "directories/webinars/**"

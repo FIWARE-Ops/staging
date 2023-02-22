@@ -97,7 +97,7 @@ var modalData = [
         type: 'IoT Agents',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_IOTAgents.svg'/>",
         difficulty: 4,
-        video: 'https://www.youtube.com/watch?v=gED5mAtBtYg',
+        video: 'https://www.youtube.com/watch?v=qDMljIidA6k',
         content:
             '&lt;p&gt;Within the FIWARE Ecosystem, IoT Agents are used to ensure that devices can send their data to, and be managed from a  Context Broker using their own native protocols. There is no restrictions on the transport layer to be used for these communications,  it could be anything from HTTP to MQTT to OPC-UA to LoRaWAN and more.&lt;/p&gt; &lt;p&gt;For example, IOTA is an open-source data communication protocol and zero-fee micro-transaction system utilising distributed ledger  technology. This allows participants in the IOTA network (“the Tangle”) to securely and immutably encrypt, transfer and store data. &lt;/p&gt; &lt;p&gt;The aim of this webinar is to demonstrate how create a gateway component for an IoT Agent and how connect to devices securely using  the IOTA Tangle, using it as a single source of truth and trust in data. Additionally discussing how to pick the most appropriate transport  or your use case and avoiding anti-patterns when securing IoT data.&lt;/p&gt;',
         domain: 'Developers',
@@ -111,7 +111,7 @@ var modalData = [
         type: 'Robotics',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Robotics.svg'/>",
         difficulty: 3,
-        video: 'https://www.youtube.com/watch?v=qDMljIidA6k',
+        video: 'https://www.youtube.com/watch?v=gED5mAtBtYg',
         content:
             '&lt;ul&gt; &lt;li&gt;Essential background concepts - FIWARE and ROS2 &lt;/li&gt; &lt;li&gt;Architectural Approach&lt;ul&gt; &lt;li&gt;&lt;code&gt;iot-agent-node-lib&lt;/code&gt;&lt;/li&gt; &lt;li&gt;IoT Agent for JSON as baseline&lt;/li&gt; &lt;li&gt;&lt;code&gt;rclnodejs&lt;/code&gt; library&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt; &lt;li&gt;Demo: Turtle Sim&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;FIWARE can be found in many industrial systems and in this webinar, we will share with you the secrets behind implementing a ROS2 IoT Agent, and how to potentially extend this methodology to other  industrial robotics systems.&lt;/p&gt; &lt;p&gt;There will also be a live demonstration how to monitor and supervise ROS 2 systems using FIWARE and the TurtleSim.&lt;/p&gt;',
         domain: 'Developers',
