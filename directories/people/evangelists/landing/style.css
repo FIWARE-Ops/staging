@@ -46,12 +46,12 @@ h6 {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5px;
+    gap: 10px;
     background: #002e67;
     padding: 10px 15px;
     border-radius: 4px;
     font-size: 15px;
-    line-height: .7em;
+    line-height: 1.5em;
     color: #fff;
     transition: all 0.3s ease-in-out;
 }
@@ -491,41 +491,77 @@ h6 {
 
 /* Checkbox */
 
-.checkbox-container {
-    margin: 0 auto;
+#display {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
 }
 
-.control {
+.chip {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    gap: 12px;
+    align-items: center;
+    background-color: #5dc0cf;
+    border-radius: 25px;
+    padding: 10px 14px;
+}
+
+.chip .closebtn {
+    cursor: pointer;
+    color: #002452;
+    background: #fff;
+    padding: .02em .45em .05em;
+    border-radius: 50%;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.chip>label {
+    display: inline;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.chkbox {
     display: flex;
     flex-direction: row;
     gap: 20px;
 }
 
-.control-column {
+.chkbox-list {
     display: flex;
     flex-direction: column;
     width: 50%;
     gap: 10px;
 }
 
-.checkbox-item {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.chkbox-container {
     border-radius: 4px;
     background: #fff;
     box-shadow: 0 0 5px 0 rgb(0 0 0 / 5%);
     transition: box-shadow 0.2s;
-    padding: 15px;
-    cursor: default;
-
 }
 
-.checkbox-item:hover {
+.chkbox-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.chkbox-item:hover {
     box-shadow: 0 0 10px 0 rgba(0 0 0 / 10%) !important;
 }
 
-.checkbox-label {
+.chkbox-label {
+    font-size: 16px;
+    line-height: 1.5em;
     color: #002E67;
     flex-basis: calc(100% - 34px);
 }
@@ -540,7 +576,7 @@ input[type=checkbox] {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-basis: 24px;
+    flex-basis: 24px !important;
     cursor: pointer;
 }
 
@@ -643,12 +679,17 @@ input[type=checkbox]:checked:after {
         justify-content: flex-start;
     }
 
-    .control {
+    .chkbox {
         flex-direction: column;
     }
 
-    .control-column {
+    .chkbox-list {
         width: 100%;
+    }
+
+    .chip {
+        border-radius: 4px;
+        padding: 15px 15px;
     }
 
     .owl-carousel .owl-stage-outer,
