@@ -560,6 +560,7 @@ h6 {
     gap: 5px;
     padding: 10px 12px;
     cursor: pointer;
+    transition: box-shadow 0.2s;
 }
 
 .chkbox-item:hover {
