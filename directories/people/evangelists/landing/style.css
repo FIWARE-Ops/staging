@@ -27,6 +27,10 @@ h6 {
     margin-block-end: 0px;
 }
 
+.material-symbols-outlined {
+    /* font-weight: 100!important; */
+}
+
 .et_pb_image_0 .et_pb_image_wrap,
 .et_pb_image_1 .et_pb_image_wrap {
     display: flex;
@@ -94,6 +98,12 @@ h6 {
 
 #ico-become {
     color: #002e67;
+}
+
+#ico-benefits {
+    font-weight: 100!important;
+    font-size: 7.5em;
+    color: #fff;
 }
 
 
@@ -298,10 +308,6 @@ h6 {
 
 /* Carousel */
 
-/* .carousel-container {
-    overflow: auto;
-} */
-
 .item {
     cursor: pointer;
     padding: 10px 0;
@@ -362,27 +368,17 @@ h6 {
 
 .card-benefits {
     display: flex;
-    height: 132px;
     max-height: 100%;
     flex-direction: column;
     box-shadow: 0 0 5px 0 rgb(0 0 0 / 5%);
     transition: box-shadow 0.2s;
     border-radius: 4px;
-    padding: 20px;
     background: #fff;
     cursor: grab;
 }
 
 .card-benefits:hover {
     box-shadow: 0 0 10px 0 rgba(0 0 0 / 10%) !important;
-}
-
-.card-journey {
-    max-height: 100%;
-    padding: 20px;
-    border: 2px solid #002e67;
-    border-radius: 4px;
-    cursor: grab;
 }
 
 .card-benefits-title {
@@ -394,10 +390,21 @@ h6 {
 }
 
 .card-benefits-text {
+    height: 110px;
+    padding: 20px;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5em;
-    color: #002e67;
+    color: #000;
+}
+
+.thumb-benefits {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5dc0cf;
+    height: 150px;
+    border-radius: 4px 4px 0px 0px;
 }
 
 .no-js .owl-carousel-references,
@@ -447,7 +454,7 @@ h6 {
 }
 
 .owl-theme .owl-nav.disabled+.owl-dots {
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .owl-carousel-references .owl-dots {
@@ -551,7 +558,7 @@ h6 {
     flex-direction: row;
     align-items: center;
     gap: 5px;
-    padding: 15px;
+    padding: 10px 12px;
     cursor: pointer;
 }
 
@@ -681,6 +688,7 @@ input[type=checkbox]:checked:after {
 
     .chkbox {
         flex-direction: column;
+        gap: 10px;
     }
 
     .chkbox-list {
@@ -691,6 +699,10 @@ input[type=checkbox]:checked:after {
         border-radius: 4px;
         padding: 15px 15px;
     }
+
+    .card-benefits-text {
+        height: 130px;
+}
 
     .owl-carousel .owl-stage-outer,
     .owl-carousel-references .owl-stage-outer,
