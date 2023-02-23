@@ -498,6 +498,11 @@ h6 {
 
 /* Checkbox */
 
+.asterisk {
+    font-size: 14px;
+    padding: 20px 0 0;
+}
+
 #display {
     display: flex;
     flex-direction: column;
