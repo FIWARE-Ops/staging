@@ -483,7 +483,7 @@ document.addEventListener("DOMContentLoaded", () => {
         })
         .progress( function( instance, image ) {
             count++;
-            if ( count % 30){
+            if ( count % 33 === 0){
               msnry.arrange({ sortBy: "original-order" });
             }
         });
