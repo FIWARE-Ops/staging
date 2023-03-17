@@ -465,7 +465,7 @@ document.addEventListener("DOMContentLoaded", () => {
       smoothScroll();
       // Isotope istantiation
       // Relies on unpkg.com/imagesloaded
-      imagesLoaded(document.querySelector("#app"), () => {
+      //imagesLoaded(document.querySelector("#app"), () => {
         $("#app").css("visibility", "visible");
         if (init) {
           return;
@@ -475,7 +475,7 @@ document.addEventListener("DOMContentLoaded", () => {
         initModal();
 
         filterToggle();
-      });
+      //});
     });
   });
 });
