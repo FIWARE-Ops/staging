@@ -470,12 +470,9 @@ document.addEventListener("DOMContentLoaded", () => {
         init = true;
         initSelect();
         initModal();
-
         filterToggle();
-        setTimeout( msnry.arrange({ sortBy: "original-order" }), 500);
         // Isotope istantiation
         // Relies on unpkg.com/imagesloaded
-
         var count = 0;
         $('#app').imagesLoaded()
         .always( function( instance ) {
