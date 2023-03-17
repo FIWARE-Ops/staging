@@ -463,8 +463,6 @@ document.addEventListener("DOMContentLoaded", () => {
       $("#filteredCompanies").text(window.modalData.length);
       horizontalScroll();
       smoothScroll();
-      // Isotope istantiation
-      // Relies on unpkg.com/imagesloaded
         $("#app").css("visibility", "visible");
         if (init) {
           return;
@@ -475,8 +473,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
         filterToggle();
         setTimeout( msnry.arrange({ sortBy: "original-order" }), 500);
-        imagesLoaded(document.querySelector("#app"), () => {
-          msnry.arrange({ sortBy: "original-order" });
+        // Isotope istantiation
+        // Relies on unpkg.com/imagesloaded
+
+        var count = 0;
+        $('#app').imagesLoaded()
+        .always( function( instance ) {
+          msnry.arrange({ sortBy: "original-order" })
+        })
+        .progress( function( instance, image ) {
+            count++;
+            if ( count % 30){
+              msnry.arrange({ sortBy: "original-order" });
+            }
         });
     });
   });
