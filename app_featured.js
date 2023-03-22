@@ -60,14 +60,6 @@ document.addEventListener('DOMContentLoaded', () => {
   $(document).ready(function () {
     includeHTML(() => {
       enableCarousel();
-      // Isotope istantiation
-      // Relies on unpkg.com/imagesloaded
-      var count = 0;
-      $('#app')
-        .imagesLoaded()
-        .always(function (instance) {
-          msnry.arrange({ sortBy: 'original-order' });
-        });
     });
   });
 });
