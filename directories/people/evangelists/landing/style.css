@@ -97,7 +97,7 @@ h6 {
 }
 
 #ico-benefits {
-    font-weight: 100!important;
+    font-weight: 100 !important;
     font-size: 7.5em;
     color: #fff;
 }
@@ -178,14 +178,19 @@ h6 {
 .content-step {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    width: 100%;
 }
 
 .step {
+    width: 50%;
     font-size: 20rem;
     line-height: 16rem;
     font-weight: 700;
     color: #e5f5f7;
+}
+
+.step-text {
+    width: 50%;
 }
 
 .step-content {
@@ -521,10 +526,11 @@ h6 {
     cursor: pointer;
     color: #002452;
     background: #fff;
-    padding: .02em .45em .05em;
+    padding: 2px 8px;
     border-radius: 50%;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 16px;
+    line-height: 22px;
 }
 
 .chip>label {
@@ -538,6 +544,7 @@ h6 {
     display: flex;
     flex-direction: row;
     gap: 20px;
+    padding-bottom: 20px;
 }
 
 .chkbox-list {
@@ -704,7 +711,7 @@ input[type=checkbox]:checked:after {
 
     .card-benefits-text {
         height: 130px;
-}
+    }
 
     .owl-carousel .owl-stage-outer,
     .owl-carousel-references .owl-stage-outer,
