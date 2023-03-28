@@ -444,16 +444,6 @@ h6 {
     margin-left: 0px;
 }
 
-.owl-nav {
-    /* display: none; */
-}
-
-.owl-dots {
-    /* display:none;
-  margin-top: 20px;
-  text-align: center !important; */
-}
-
 .owl-theme .owl-nav.disabled+.owl-dots {
     margin-top: 10px;
 }
@@ -639,6 +629,58 @@ input[type=checkbox]:checked:after {
     border-radius: 6px !important;
 }
 
+.et_pb_blurb .et_pb_image_wrap {
+    border-radius: 70px;
+}
+
+/* Happy Form */
+
+.happyforms-flex.happyforms-step_information_wrapper {
+    display: none;
+}
+
+.happyforms-flex {
+    padding: 0;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.happyforms-styles .happyforms-part__label .label {
+    font-weight: 500;
+}
+
+.happyforms-form__part[data-happyforms-required] .happyforms-part__label .happyforms-required {
+    display: inline-block;
+    color: #f23000;
+}
+
+.happyforms-styles .happyforms-part--mailchimp .checkmark {
+    margin-right: 16px;
+}
+
+.happyforms-styles.happyforms-form--submit-button-border-hide button[type=submit].happyforms-button--submit,
+.happyforms-styles.happyforms-form--submit-button-border-hide button.happyforms-button--submit {
+    font-weight: 500;
+}
+
+.happyforms-message-notices {
+    margin: 25px 25px 0px 25px;
+    width: auto;
+}
+
+.happyforms-styles .happyforms-part-preview {
+    margin: 16px 0px;
+    padding: 12px 12px 10px 12px;
+    border-radius: 3px;
+}
+
+.happyforms-styles .happyforms-part-preview:nth-child(even) {
+    margin: 16px 0px;
+    padding: 12px 12px 10px 12px;
+    border-radius: 3px;
+}
+
+
 @media (min-width: 481px) and (max-width: 1024px) {
 
     .owl-carousel .owl-stage-outer,
@@ -733,6 +775,21 @@ input[type=checkbox]:checked:after {
 
     .owl-dots {
         text-align: center;
+    }
+
+    .happyforms-form-progress {
+        display: none;
+    }
+
+    .happyforms-form {
+        width: 90%;
+        padding-top: 16px;
+    }
+
+    .happyforms-flex {
+        padding: 0;
+        max-width: 100%;
+        margin: 0 auto;
     }
 
 }

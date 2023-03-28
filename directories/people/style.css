@@ -15,6 +15,15 @@
     box-sizing: border-box;
 }
 
+/* Content */
+
+.section-title {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-bottom: 0px;
+}
+
 /* ---- grid ---- */
 
 .grid {
