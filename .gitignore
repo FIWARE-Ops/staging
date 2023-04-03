@@ -3,11 +3,7 @@ images/*
 !images/.gitkeep
 node_modules
 Untitled.txt
-products.csv
-product-details.csv
-webinars.csv
-people.csv
-iHubs.csv
+*.csv
 
 # IDE
 .idea/
