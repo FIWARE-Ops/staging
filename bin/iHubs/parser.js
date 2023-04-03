@@ -31,6 +31,11 @@ function extractIHubs(input) {
             content: Parser.markdown(item['Content']),
             publish: Parser.boolean(item['Published'])
         };
+
+        if (iHub.website || iHub.twitter || iHub.linkedIn) {
+            iHub.contacts = true;
+        }
+
         if (iHub.publish) {
             iHubs.push(iHub);
         }
