@@ -89,7 +89,7 @@ function getHash(organization, product) {
  */
 function splitStrings(input) {
     const arr = [];
-    input.split(',').forEach((item) => {
+    (input || '').split(',').forEach((item) => {
         if (item.trim() !== '') {
             arr.push(item.trim());
         }

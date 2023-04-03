@@ -1,6 +1,7 @@
 const People = require('./people/parser');
 const Marketplace = require('./marketplace/parser');
 const Webinars = require('./webinars/parser');
+const iHubs = require('./iHubs/parser');
 const fs = require('fs-extra');
 
 const PROCESS = process.env.PROCESS || 'products';
@@ -8,6 +9,7 @@ const PAGE = process.env.PAGE || 'fiware';
 
 const PEOPLE_FILE = 'people.csv';
 const WEBINARS_FILE = 'webinars.csv';
+const IHUBS_FILE = 'iHubs.csv';
 const PRODUCTS_SUMMARY_FILE = 'products.csv';
 const PRODUCT_DETAILS_FILE = 'product-details.csv';
 
@@ -30,6 +32,11 @@ if (PROCESS.startsWith('webinars')) {
     Webinars.parse(WEBINARS_FILE);
 }
 
+// Create HTML and template files for the webinars
+if (PROCESS.startsWith('iHubs')) {
+    iHubs.parse(IHUBS_FILE);
+}
+
 // Create HTML and template files for a listing of people
 if (PROCESS.startsWith('people')) {
     People.parse(PEOPLE_FILE, PAGE);
@@ -41,4 +48,5 @@ if (PROCESS === 'postinstall') {
     touch(PRODUCTS_SUMMARY_FILE);
     touch(WEBINARS_FILE);
     touch(PEOPLE_FILE);
+    touch(IHUBS_FILE);
 }

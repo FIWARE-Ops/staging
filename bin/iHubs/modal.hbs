@@ -1,0 +1,37 @@
+var types = [
+{{#each types}}
+    {{#if (ne this '')}}
+        '{{this}}',
+    {{/if}}
+{{/each}}
+]; var domains = [
+{{#each domains}}
+    {{#if (ne this '')}}
+        '{{this}}',
+    {{/if}}
+{{/each}}
+]; var technologies = [
+{{#each technologies}}
+    {{#if (ne this '')}}
+        '{{this}}',
+    {{/if}}
+{{/each}}
+];
+
+ var modalData = [
+{{#each webinars}}
+    { 
+        name: "{{name}}", 
+        img: "{{img}}",
+        type: "{{type}}", 
+        badge: "{{{badge}}}", 
+        difficulty: {{difficulty}},
+        video: "{{{companyLink}}}",
+        content: "{{content}}",  
+        domain: "{{domain}}",  
+        technology: "{{technology}}",
+        length: {{length}},
+        year: {{year}}
+    },
+{{/each}}
+];
