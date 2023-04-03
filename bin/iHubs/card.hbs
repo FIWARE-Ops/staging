@@ -9,20 +9,19 @@
                             src='{{flag}}'
                             loading='lazy'
                         />
-                {{/if}}
-            <img decoding="async" class="flag" src="{{flag}}">
-                <h3 class="item-name">{{city}}</h3>
-                <h6 class="item-name ihub-name">{{name}}</h6>
-                <div class="item-name levels">
-                    <h2 class="item-name">{{type}}</h2>
-                </div>
-                {{#if (gt domain.length 0)}}
-                    {{#each domain}}
-                    <h3 class="item-name domains-ihub">{{this}}</h3>
-                    {{/each}}
-                {{/if}}
+            {{/if}}
+            <h3 class="item-name">{{city}}</h3>
+            <h6 class="item-name ihub-name">{{name}}</h6>
+            <div class="item-name levels">
+                <h2 class="item-name">{{type}}</h2>
+            </div>
+            {{#if (gt domain.length 0)}}
+                {{#each domain}}
+                <h3 class="item-name domains-ihub">{{this}}</h3>
+                {{/each}}
+            {{/if}}
             <div class="icons">
-                {{#if webisite}}
+                {{#if website}}
                 <a class="cat-website" target="_blank" href="{{website}}" rel="noopener">
                     <span class="icon website"></span></a>
                 {{/if}}    
