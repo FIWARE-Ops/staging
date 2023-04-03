@@ -1,9 +1,5 @@
 .DS_Store
 node_modules
-Untitled.txt
-products.csv
-product-details.csv
-webinars.csv
-people.csv
+*.csv
 images/
 !images/.gitkeep
