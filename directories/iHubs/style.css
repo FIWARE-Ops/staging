@@ -353,7 +353,7 @@
 
 .chips-gradient {
     position: absolute;
-    right: 16px;
+    right: 9.5%;
     height: 28px;
     margin-top: -8px;
     width: 30px;
@@ -476,7 +476,7 @@
     border-radius: 40px;
     width: 32px;
     height: 32px;
-    margin-right: 0;
+    margin-right: 1px;
     color: #002e67;
     text-align: center;
     padding-right: 0px;
