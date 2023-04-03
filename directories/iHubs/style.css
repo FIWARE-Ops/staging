@@ -1423,10 +1423,16 @@ select::-ms-expand {
 
 .filter-element {
     width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .search-element {
     width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .filter-element select {
@@ -1439,7 +1445,7 @@ select::-ms-expand {
     padding: 8px 16px;
     font-size: 15px;
     width: 100%;
-    margin: 5px 0 10px 0;
+    /* margin: 5px 0 10px 0; */
 }
 
 .filter-element select:active,
@@ -1629,7 +1635,7 @@ input[type="search"] {
     cursor: pointer;
     line-height: 1em;
     font-weight: 500;
-    margin: 5px 0 10px 0;
+    /* margin: 5px 0 10px 0; */
     padding: 7px 16px 7px 50px !important;
     font-size: 14px;
     background-image: url(https://www.fiware.org/wp-content/uploads/ico_search.png);
