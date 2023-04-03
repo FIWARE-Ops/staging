@@ -479,7 +479,7 @@
     height: 32px;
     color: #002e67;
     text-align: center;
-    padding-right: 0px;
+    padding-right: 1px;
     transition: all 0.3s ease-in-out;
 }
 
