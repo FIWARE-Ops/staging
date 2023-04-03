@@ -1,4 +1,3 @@
-
 /* NO SELECT + HIGHLIGHT COLOR
 * {
   user-select: none;
@@ -49,7 +48,7 @@
 .gridElementTextContainer {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 10px;
     width: 90%;
     margin: 0 auto;
 }
@@ -58,17 +57,14 @@
     width: 100%;
 }
 
-.gridElementLogo img {
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-}
-
 .gutter-sizer {
     width: 0;
 }
 
 .grid-item img {
     width: auto;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
 }
 
 .company-certified {
@@ -193,10 +189,48 @@
     line-height: 1em;
 }
 
+.label-location {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.label-location h3 {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #696969 !important;
+    padding-bottom: 0px !important;
+}
+
+.label-location img {
+    width: 32px;
+}
+
 .difficulty-levels {
     font-size: 1.2em;
     color: #002e67;
     padding: 0px 0px 0px;
+}
+
+.ihub-name {
+    font-weight: 600;
+    font-size: 18px;
+    text-align: left;
+    color: #002e67;
+    line-height: 1.4em;
+    padding: 0px;
+    /*cursor: default;*/
+}
+
+.ihub-type {
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 0px;
 }
 
 .year {
@@ -296,7 +330,7 @@
 .chip-domain {
     display: flex;
     align-items: center;
-    height: 28px;
+    padding-top: 10px;
 }
 
 .chip-domain li {
@@ -413,11 +447,11 @@
 }
 
 .icons {
-    padding: 0px;
-    display: inline-flex;
+    padding: 20px 0px;
+    margin-top: 5px;
+    border-top: 1px solid #cdcdcd;
+    display: flex;
     flex-direction: row;
-    text-align: center;
-    margin: 0 auto;
     gap: 10px;
 }
 
@@ -428,6 +462,35 @@
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     padding-right: 10px;
+}
+
+.website::before {
+    font-family: "ETmodules";
+    font-weight: 400;
+    content: "\e0e3";
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    background: #fff;
+    border: 1px solid #002e67;
+    border-radius: 40px;
+    width: 32px;
+    height: 32px;
+    margin-right: 0;
+    color: #002e67;
+    text-align: center;
+    padding-right: 0px;
+    transition: all 0.3s ease-in-out;
+}
+
+.website:hover:before {
+    border: 1px solid #002e67;
+    background: #002e67;
+    color: #fff;
+}
+
+.cat-website {
+    width: 32px;
 }
 
 .twitter::before {
@@ -1768,7 +1831,7 @@ input[type="search"]::placeholder {
     }
 
     .et_pb_image_1 .et_pb_image_wrap {
-        display: flex!important;
+        display: flex !important;
         justify-content: center;
     }
 
