@@ -228,8 +228,9 @@
 .ihub-type {
     text-transform: uppercase;
     color: #000000;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
+    letter-spacing: 1px;
     padding-bottom: 0px;
 }
 
