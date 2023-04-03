@@ -1,26 +1,21 @@
 var companies = [];
 var departments = [];
+var titles = ['Advanced', 'Basic', 'Incubated', 'Premium', 'Standard'];
 var domains = [
-    'Blue Economy',
-    'Governance',
+    'AgriFood',
+    'Cities',
+    'eGovernance',
     'eHealth',
-    'Green',
-    'Robotics',
-    'Smart AgriFood',
-    'Smart AgriTech',
-    'Smart Cities',
-    'Smart Energy',
-    'Smart Industry',
-    'Smart Logistics',
-    'Smart Manufacturing',
-    'Smart Mobility',
-    'Smart Ports',
-    'Smart Spaces',
-    'Smart Tourism',
-    'Smart Water',
-    'Sustainability'
+    'Energy',
+    'Industry',
+    'Logistics',
+    'Mobility',
+    'Ports',
+    'Space',
+    'Sustainability',
+    'Tourism',
+    'Water'
 ];
-var titles = ['Premium', 'Advanced', 'Standard', 'Basic', 'Incubated'];
 var countries = [
     'Argentina',
     'Brazil',
@@ -39,6 +34,6 @@ var countries = [
     'Sweden',
     'Switzerland',
     'Tunisia',
-    'Uruguay',
-    'USA'
+    'United States',
+    'Uruguay'
 ];
