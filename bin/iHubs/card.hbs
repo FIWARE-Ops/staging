@@ -1,53 +1,42 @@
 {{#each this}}
     <div class='grid-item {{createClass type}} {{createClasses domain}} {{createClasses technology}}'>
-        <div class='gridElementLogo'>
-            <img src='{{img}}' alt='' loading='lazy' />
-        </div>
-        <div class='gridElementTextContainer'>
-            <div class='label-type'>
-                {{{badge}}}
-            </div>
-            <p class='solution-name'>{{name}}</p>
-            <div class="details-container">
-                <div class='label-duration'>
-                    <span class="material-icons-outlined">schedule</span>
-                    <span class='name'>{{length}} mins</span>
-                </div>
-                <div class='label-difficulty'>
-                    <span class='difficulty hidden'>{{difficulty}}</span>
-                    <span class="star">{{rating difficulty}}</span>
-                </div>
-                <div>
-                    <span class='season hidden'>{{season}}</span>
-                </div>
-            </div>
-        </div>
-        <div class='gridElementTechnologyDomain {{#if (eq technology.length 0)}}hidden{{/if}}'>
-            <div class='chip-technology-domain'>
-                {{#if (gt technology.length 0)}}
-                <div class='chip-technology'>
-                    <ul class='chips'>{{#each technology}}<li>{{this}}</li>{{/each}}</ul>
-                    <span class='chips-gradient'></span>
-                </div>
+        <div class="f-cat active">
+            <img decoding="async" class="city-photo" src="{{img}}">
+            {{#if country}}
+                    <img decoding="async" 
+                            alt='{{country}}'
+                            class='flag'
+                            src='{{flag}}'
+                            loading='lazy'
+                        />
                 {{/if}}
+            <img decoding="async" class="flag" src="{{flag}}">
+                <h3 class="item-name">{{city}}</h3>
+                <h6 class="item-name ihub-name">{{name}}</h6>
+                <div class="item-name levels">
+                    <h2 class="item-name">{{type}}</h2>
+                </div>
                 {{#if (gt domain.length 0)}}
-                <div class='chip-domain hidden'>
-                    <p class='label-card'>Audience</p>
-                    <ul class='chips'>{{#each domain}}<li>{{this}}</li>{{/each}}</ul>
-                    <span class='chips-gradient'></span>
-                </div>
+                    {{#each domain}}
+                    <h3 class="item-name domains-ihub">{{this}}</h3>
+                    {{/each}}
+                {{/if}}
+            <div class="icons">
+                {{#if webisite}}
+                <a class="cat-website" target="_blank" href="{{website}}" rel="noopener">
+                    <span class="icon website"></span></a>
+                {{/if}}    
+                {{#if twitter}}
+                    <a class='cat-twitter' target='_blank' href='{{twitter}}' rel='noopener'><span
+                            class='icon twitter'
+                        ></span></a>
+                {{/if}}
+                {{#if linkedIn}}
+                    <a class='cat-linkedin' target='_blank' href='{{linkedIn}}' rel='noopener'><span
+                            class='icon linkedin'
+                        ></span></a>
                 {{/if}}
             </div>
-        </div>
-        <div class='foot'>
-            <a class='cat-bio' data-modal='{{@index}}'>
-                <span class="material-icons-outlined">info</span>
-                More Info
-            </a>
-            <a class='details' target="_blank" href="{{companyLink}}">
-                <span class='material-icons-outlined'>play_arrow</span>
-                Watch
-            </a>
         </div>
     </div>
 {{/each}}

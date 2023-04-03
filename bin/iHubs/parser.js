@@ -17,17 +17,18 @@ function extractIHubs(input) {
     const iHubs = [];
     input.forEach((item) => {
         const iHub = {
-            season: item['Season'],
             name: item['Name'],
+            city: item['City'],
             img: item['Image'] ? item['Image'] : DEFAULT_IMAGE,
             companyLink: item['Video'],
-            domain: Parser.splitStrings(item['Audience']),
+            domain: Parser.splitStrings(item['Domain']),
             type: item['Type'],
-            technology: Parser.splitStrings(item['Technology']),
-            year: parseInt(item['Year']),
-            difficulty: parseInt(item['Difficulty']),
+            linkedIn: item['LinkedIn'],
+            twitter: item['Twitter'],
+            website: item['Website'],
+            country: item['Country'],
+            flag: item['Country flag'],
             content: Parser.markdown(item['Content']),
-            length: item['Length'],
             publish: Parser.boolean(item['Published'])
         };
         if (iHub.publish) {
@@ -52,8 +53,8 @@ function parse(file) {
         .then((iHubs) => {
             const filterData = {
                 types: Sorter.sortData(iHubs, 'type'),
-                technologies: Sorter.flatSortData(iHubs, 'technology'),
                 domains: Sorter.flatSortData(iHubs, 'domain'),
+                countries: Sorter.flatSortData(iHubs, 'country'),
                 iHubs
             };
 
