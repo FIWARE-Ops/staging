@@ -1,40 +1,43 @@
 {{#each this}}
     <div class='grid-item {{createClass type}} {{createClasses domain}} {{createClass country}}'>
-        <div class="f-cat active">
-            <img decoding="async" class="city-photo" src="{{img}}">
-            {{#if country}}
-                    <img decoding="async" 
-                            alt='{{country}}'
-                            class='flag'
-                            src='{{flag}}'
-                            loading='lazy'
-                        />
-            {{/if}}
-            <h3 class="item-name">{{city}}</h3>
-            <h6 class="item-name ihub-name">{{name}}</h6>
-            <div class="item-name levels">
-                <h2 class="item-name">{{type}}</h2>
-            </div>
-            {{#if (gt domain.length 0)}}
-                {{#each domain}}
-                <h3 class="item-name domains-ihub">{{this}}</h3>
-                {{/each}}
-            {{/if}}
-            <div class="icons">
-                {{#if website}}
-                <a class="cat-website" target="_blank" href="{{website}}" rel="noopener">
-                    <span class="icon website"></span></a>
-                {{/if}}    
-                {{#if twitter}}
-                    <a class='cat-twitter' target='_blank' href='{{twitter}}' rel='noopener'><span
-                            class='icon twitter'
-                        ></span></a>
+        <div class="grid-item">
+            <img decoding="async" class="gridElementLogo" src="{{img}}">
+            <div class="gridElementTextContainer">
+                <div class="label-location">
+                    <h3>{{city}}</h3>
+                    {{#if country}}
+                        <img decoding="async"  alt='{{country}}' class='flag' src='{{flag}}' loading='lazy' />
+                    {{/if}}
+                </div>
+                <h6 class="ihub-name">{{name}}</h6>
+                <h2 class="ihub-type">{{type}}</h2>
+                {{#if (gt domain.length 0)}}
+                    <div class='chip-domain'>
+                        <ul class='chips'>
+                        {{#each domain}}
+                            <li>{{this}}</li>
+                        {{/each}}
+                        </ul>
+                        <span class='chips-gradient'></span>
+                    </div>
                 {{/if}}
-                {{#if linkedIn}}
-                    <a class='cat-linkedin' target='_blank' href='{{linkedIn}}' rel='noopener'><span
-                            class='icon linkedin'
-                        ></span></a>
-                {{/if}}
+                <div class="icons">
+                    {{#if website}}
+                    <a class="cat-website" target="_blank" href="{{website}}" rel="noopener">
+                        <span class="icon website"></span>
+                    </a>
+                    {{/if}}    
+                    {{#if twitter}}
+                        <a class='cat-twitter' target='_blank' href='{{twitter}}' rel='noopener'>
+                            <span class='icon twitter'></span>
+                        </a>
+                    {{/if}}
+                    {{#if linkedIn}}
+                        <a class='cat-linkedin' target='_blank' href='{{linkedIn}}' rel='noopener'>
+                            <span class='icon linkedin'></span>
+                        </a>
+                    {{/if}}
+                </div>
             </div>
         </div>
     </div>
