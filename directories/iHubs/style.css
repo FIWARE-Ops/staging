@@ -1679,7 +1679,7 @@ input[type="search"]::placeholder {
 }
 
 #ico-filtersbar {
-    margin-right: 8px;
+    margin-right: 5px;
     color: inherit;
 }
 
@@ -1849,6 +1849,10 @@ input[type="search"]::placeholder {
         justify-content: center;
     }
 
+    .featured {
+        justify-content: center;
+    }
+
     /* .et_pb_sticky .et_pb_code_2 {
     padding-top: 20px!important;
     padding-bottom: 20px!important;
@@ -1964,14 +1968,15 @@ input[type="search"]::placeholder {
     #mobileToggleFilters {
         display: block;
         width: auto;
-        font-size: 14px;
+        font-size: 13px;
         font-weight: 600;
+        line-height: 1em;
         color: #002e67;
         text-transform: uppercase;
         display: flex;
         justify-content: center;
-        align-items: flex-end;
-        padding: 10px 20px 10px 15px;
+        align-items: center;
+        padding: 4px 12px 3px 10px;
         margin: 0 auto;
     }
 
@@ -1994,7 +1999,7 @@ input[type="search"]::placeholder {
     .dropdown-container {
         display: flex;
         flex-direction: column;
-        gap: 0px;
+        gap: 15px;
         margin-top: 10px;
     }
 
@@ -2016,10 +2021,20 @@ input[type="search"]::placeholder {
 
     .products-record {
         width: auto;
+        margin-bottom: 10px;
     }
 
     .filter-by {
         width: auto;
+    }
+
+
+    .filter-element {
+        width: 100%;
+    }
+
+    .search-element {
+        width: 100%;
     }
 
     .filter-element select {
