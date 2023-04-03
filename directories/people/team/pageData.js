@@ -75,7 +75,7 @@ var companies = [
     { name: "Hendrik Engel", img: "https://www.fiware.org/wp-content/directories/people/images/200px/hendrik-engel.jpg", position: "Marketing &amp; Product Manager", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
     content: "", linkedin: "https://www.linkedin.com/in/hendrik-engel-3253a1197/", twitter: "", domain: "", location: "",
     flag: "", },
-    { name: "Beknazar", img: "https://www.fiware.org/wp-content/directories/people/images/200px/beknazar-esenbek.jpg", position: "Engineer &amp; Architect", company: "FIWARE Foundation", "company-link": "",
+    { name: "Beknazar Esenbek", img: "https://www.fiware.org/wp-content/directories/people/images/200px/beknazar-esenbek.jpg", position: "Engineer &amp; Architect", company: "FIWARE Foundation", "company-link": "",
     content: "Beknazar Esenbek (m) is a Technical Engineer and Architect at FIWARE Foundation. He holds a Bachelor Degree in computer science from 2016 - 2019 at the University of Applied Sciences Zwickau (Germany). He worked more than 5 years as a full stack web developer. He also has 2 years of experience of working as a SAP Developer. Before moving to Germany as a student he worked more than 5 years as a mathematics and programming teacher in his home country Kyrgyzstan. He is fluent in Kyrgyz, English, German, Russian and currently learning Mandarin Chinese.", linkedin: "https://www.linkedin.com/in/beknazar-esenbek/", twitter: "", domain: "", location: "",
     flag: "", },
     { name: "Aljo Fazlagic", img: "https://www.fiware.org/wp-content/directories/people/images/200px/aljo-fazlagic.jpg", position: "Administrational Assistant", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
