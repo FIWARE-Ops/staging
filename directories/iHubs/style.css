@@ -1494,7 +1494,8 @@ select::-ms-expand {
 
 /* Custom Checkbox */
 
-.filter-element label {
+.filter-element label,
+.search-element label {
     font-size: 14px;
     color: #002e67;
 }
