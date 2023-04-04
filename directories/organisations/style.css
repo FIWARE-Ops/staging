@@ -416,10 +416,9 @@
 } */
 
 .type-member {
-    padding: 15px;
-    font-size: 16px;
-    font-weight: 600;
-    color: #fff;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
     text-align: center;
     text-decoration: none;
     border-bottom-left-radius: 4px;
@@ -428,18 +427,22 @@
 
 .type-member.platinum {
     background-color: #002E67;
+    color: #fff;
 }
 
 .type-member.gold {
     background-color: #eec64f;
+    color: #000000;
 }
 
 .type-member.gold-seu {
     background-color: #eec64f;
+    color: #000000;
 }
 
 .type-member.associate {
     background-color: #5dc0cc;
+    color: #fff;
 }
 
 .profile-details {
@@ -1412,10 +1415,18 @@
     flex-direction: column;
 }
 
+.elements-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
 .dropdown-container {
     display: flex;
     flex-direction: row;
     gap: 20px;
+    width: 80%;
 }
 
 .filters-container:not(.active) {
@@ -1466,14 +1477,15 @@ select::-ms-expand {
 }
 
 .filter-element {
-    width: 20%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
 .search-element {
-    width: 40%;
+    width: 100%;
+    max-width: 575px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -1521,6 +1533,28 @@ select::-ms-expand {
 }
 
 .filter-element button.active {
+    background: #002e67;
+    color: #fff !important;
+}
+
+.sort-element button {
+    display: flex;
+    align-items: center;
+    background: #f4fbfc;
+    border: none;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.sort-element button:hover {
+    background: #002e67;
+    color: #fff !important;
+}
+
+.sort-element button.active {
     background: #002e67;
     color: #fff !important;
 }
@@ -1619,10 +1653,10 @@ input[type="checkbox"]:checked+label::after {
 
 .sort-element {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding-bottom: 0px;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .sort-element label {
@@ -1632,12 +1666,6 @@ input[type="checkbox"]:checked+label::after {
 
 
 /* Search */
-
-.search-element {
-    position: relative;
-    width: 45%;
-    max-width: 500px;
-}
 
 .resetInput {
     opacity: 0;
