@@ -22,6 +22,7 @@
     "fisab": "PROCESS=people PAGE=fisab npm start; npm run prettier",
     "ihubs": "PROCESS=iHubs npm start; npm run prettier",
     "iHubs": "PROCESS=iHubs npm start; npm run prettier",
+    "organisations": "PROCESS=organisations npm start; npm run prettier",
     "msc": "PROCESS=people PAGE=msc npm start; npm run prettier",
     "speakers": "PROCESS=people PAGE=speakers npm start; npm run prettier",
     "team": "PROCESS=people PAGE=team npm start; npm run prettier",

@@ -2,6 +2,7 @@ const People = require('./people/parser');
 const Marketplace = require('./marketplace/parser');
 const Webinars = require('./webinars/parser');
 const iHubs = require('./iHubs/parser');
+const Organisations = require('./organisations/parser');
 const fs = require('fs-extra');
 const Loader = require('./downloader');
 
@@ -13,6 +14,7 @@ const WEBINARS_FILE = 'webinars.csv';
 const IHUBS_FILE = 'iHubs.csv';
 const PRODUCTS_SUMMARY_FILE = 'products.csv';
 const PRODUCT_DETAILS_FILE = 'product-details.csv';
+const ORGANISATIONS_FILE = 'organisations.csv';
 
 /**
  *  Ensure that a file exists
@@ -45,6 +47,13 @@ if (PROCESS.startsWith('webinars')) {
 if (PROCESS.startsWith('iHubs')) {
     Loader.load('ihubs', IHUBS_FILE).then(() => {
         return iHubs.parse(IHUBS_FILE);
+    });
+}
+
+// Create HTML and template files for the webinars
+if (PROCESS.startsWith('organisations')) {
+    Loader.load('organisations', ORGANISATIONS_FILE).then(() => {
+        return Organisations.parse(ORGANISATIONS_FILE);
     });
 }
 
