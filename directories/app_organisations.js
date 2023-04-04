@@ -218,7 +218,7 @@ function initSelect() {
       columnWidth: ".grid-sizer",
     },
     getSortData: {
-      name: ".name",
+      name: ".member-name",
     },
     sortAscending: {
       name: true
@@ -239,7 +239,7 @@ function initSelect() {
     // SORT BY ALPHABETICALLY
     document.querySelector("#orderByName").addEventListener("click", (e) => {
       if (e.target.classList.contains("active") == false) {
-        msnry.arrange({ sortBy: "member-name" });
+        msnry.arrange({ sortBy: "name" });
         e.target.classList.add("active");
       } else {
         msnry.arrange({ sortBy: "original-order" });
