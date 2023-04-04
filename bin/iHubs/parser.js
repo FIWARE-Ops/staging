@@ -20,7 +20,6 @@ function extractIHubs(input) {
             name: item['Name'],
             city: item['City'],
             img: item['Image'] ? item['Image'] : DEFAULT_IMAGE,
-            companyLink: item['Video'],
             domain: Parser.splitStrings(item['Domain']),
             type: item['Type'],
             linkedIn: item['LinkedIn'],
@@ -41,7 +40,7 @@ function extractIHubs(input) {
         }
     });
     return iHubs.sort((a, b) => {
-        return b.season - a.season;
+        return b.name - a.name;
     });
 }
 

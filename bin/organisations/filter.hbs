@@ -15,10 +15,11 @@
         <label for='filterRole' class='dropdown-label'>Role</label>
         <select name='' id='filterRole'>
             <option value='*'>Select…</option>
-                    <option value='associate'>Associate</option>
-                    <option value='gold'>Gold</option>
-                    <option value='gold-seu'>Gold SEU</option>
-                    <option value='platinum'>Platinum</option>
+            {{#each types}}
+                {{#if (ne this '')}}
+                    <option value='{{createClass this}}'>{{this}}</option>
+                {{/if}}
+            {{/each}}
         </select>
     </div>
 
