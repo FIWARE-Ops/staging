@@ -2,33 +2,32 @@
     <div class='products-record'>
         <div class='products-label'>
             <span id='ico-products' class='material-icons-outlined'>groups</span>
-            <span>iHubs</span>
+            <span>Organisations</span>
         </div>
         <span id='filteredCompanies'></span>
     </div>
 </div>
 
+<div class='elements-container'>
+    <div class='dropdown-container'>
+        <div class='filter-element'>
+            <label for='filterRole' class='dropdown-label'>Role</label>
+            <select name='' id='filterRole'>
+                <option value='*'>Select…</option>
+                {{#each types}}
+                    {{#if (ne this '')}}
+                        <option value='{{createClass this}}'>{{this}}</option>
+                    {{/if}}
+                {{/each}}
+            </select>
+        </div>
 
-
-<div class='dropdown-container'>
-    <div class='filter-element'>
-        <label for='filterRole' class='dropdown-label'>Role</label>
-        <select name='' id='filterRole'>
-            <option value='*'>Select…</option>
-            {{#each types}}
-                {{#if (ne this '')}}
-                    <option value='{{createClass this}}'>{{this}}</option>
-                {{/if}}
-            {{/each}}
-        </select>
+        <div class='search-element'>
+            <label for='searchInput' class='dropdown-label'>Find a Member</label>
+            <input type="search" id="searchInput" placeholder="Search by keywords" />
+        </div>
     </div>
-
-    <div class='search-element'>
-        <label for='searchInput' class='dropdown-label'>Find a Member</label>
-        <input type="search" id="searchInput" placeholder="Search by keywords" />
-    </div>
-
-    <div class="filter-element">
+    <div class="sort-element">
         <label for='filterRole' class='dropdown-label'>Sort by</label>
         <button id="orderByName"><span id="ico-sortby-alpha" class="material-icons-outlined">sort_by_alpha</span>Name</button>
     </div>
