@@ -1083,16 +1083,16 @@
         border: 3px solid #002e67;
     }
 
-    .f-cat {
+    /* .f-cat {
         width: 100%;
         padding: 30px 0px;
     }
 
     .f-cat:hover {
-        /* box-shadow: 0 0 30px 0 rgba(255,255,255,0.2)!important; */
+        box-shadow: 0 0 30px 0 rgba(255,255,255,0.2)!important;
         transform: none;
         transition: none;
-    }
+    } */
 
 
     .profile-details {
