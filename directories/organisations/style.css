@@ -2071,6 +2071,11 @@ input[type="search"]::placeholder {
         display: none;
     }
 
+
+    .elements-container {
+        flex-direction: column;
+    }
+
     .search-sort-container {
         flex-direction: column;
         gap: 20px;
@@ -2081,6 +2086,7 @@ input[type="search"]::placeholder {
         flex-direction: column;
         gap: 15px;
         margin-top: 10px;
+        width: 100%;
     }
 
     /* Search */
