@@ -35,27 +35,30 @@ function checkFileExists(file) {
 /**
  * Read data from a URL
  */
-async function fetch(url) {
-    try {
-        const response = await got(url);
-        return response.body;
-        //=> '<!doctype html> ...'
-    } catch (error) {
-        throw error.response.body;
-        //=> 'Internal server error ...'
-    }
+function fetch(url) {
+    return new Promise(async (resolve, reject) => {
+        try {
+            const response = await got(url);
+            return resolve(response.body);
+            //=> '<!doctype html> ...'
+        } catch (error) {
+            return reject(error.response.body);
+            //=> 'Internal server error ...'
+        }
+    });
 }
 
 /**
  * Save a CSV file from a known URL
  */
-async function downloadFile(file, url) {
-    if (url) {
-        const data = await fetch(url);
-        fs.writeFile(file, data, function(err) {
-            if (err) return console.log(err);
+function downloadFile(file, url) {
+    return new Promise((resolve, reject) => {
+        fetch(url).then((data) => {
+            fs.writeFile(file, data, function(err) {
+                return err ? reject(err) : resolve();
+            });
         });
-    }
+    });
 }
 
 /**
@@ -74,8 +77,11 @@ function loadCSV(key, target) {
                 .then((input) => {
                     return extractURL(input, key, target);
                 })
-                .then(async (url) => {
-                    return resolve(await downloadFile(target, url));
+                .then((url) => {
+                    return url ? downloadFile(target, url) : null;
+                })
+                .then(() => {
+                    return resolve();
                 })
                 .catch((e) => {
                     return reject(e);
