@@ -17,7 +17,7 @@ function extractOrganisations(input) {
     const organisations = [];
     input.forEach((item) => {
         const organisation = {
-            name: item['Name'],
+            name: item['Name'].toUpperCase(),
             img: item['Image'] ? item['Image'] : DEFAULT_IMAGE,
             type: item['Type'],
             website: item['Website'],
