@@ -1875,15 +1875,13 @@ input[type="search"]::placeholder {
         align-items: center;
     }
 
-    .featured,
-    .title-icon {
+    .featured {
         justify-content: center;
     }
 
-    /* .et_pb_sticky .et_pb_code_2 {
-    padding-top: 20px!important;
-    padding-bottom: 20px!important;
-} */
+    .title-icon {
+        display: none;
+    }
 
     /* Card */
 
