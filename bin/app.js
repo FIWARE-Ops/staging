@@ -3,6 +3,7 @@ const Marketplace = require('./marketplace/parser');
 const Webinars = require('./webinars/parser');
 const iHubs = require('./iHubs/parser');
 const fs = require('fs-extra');
+const Loader = require('./load');
 
 const PROCESS = process.env.PROCESS || 'products';
 const PAGE = process.env.PAGE || 'fiware';
@@ -24,22 +25,34 @@ async function touch(file) {
 
 // Create HTML and template files for the FIWARE Marketplace
 if (PROCESS.startsWith('products')) {
-    Marketplace.parse(PRODUCT_DETAILS_FILE, PRODUCTS_SUMMARY_FILE, PROCESS);
+    Loader.load('products', PRODUCT_DETAILS_FILE)
+        .then(() => {
+            return Loader.load('products', PRODUCTS_SUMMARY_FILE);
+        })
+        .then(() => {
+            return Marketplace.parse(PRODUCT_DETAILS_FILE, PRODUCTS_SUMMARY_FILE, PROCESS);
+        });
 }
 
 // Create HTML and template files for the webinars
 if (PROCESS.startsWith('webinars')) {
-    Webinars.parse(WEBINARS_FILE);
+    Loader.load('webinars', WEBINARS_FILE).then(() => {
+        return Webinars.parse(WEBINARS_FILE);
+    });
 }
 
 // Create HTML and template files for the webinars
 if (PROCESS.startsWith('iHubs')) {
-    iHubs.parse(IHUBS_FILE);
+    Loader.load('ihubs', IHUBS_FILE).then(() => {
+        return iHubs.parse(IHUBS_FILE);
+    });
 }
 
 // Create HTML and template files for a listing of people
 if (PROCESS.startsWith('people')) {
-    People.parse(PEOPLE_FILE, PAGE);
+    Loader.load(PAGE, PEOPLE_FILE).then(() => {
+        return People.parse(PEOPLE_FILE, PAGE);
+    });
 }
 
 // Ensure that CSV files are present
