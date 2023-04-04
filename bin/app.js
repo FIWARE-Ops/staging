@@ -3,7 +3,7 @@ const Marketplace = require('./marketplace/parser');
 const Webinars = require('./webinars/parser');
 const iHubs = require('./iHubs/parser');
 const fs = require('fs-extra');
-const Loader = require('./load');
+const Loader = require('./downloader');
 
 const PROCESS = process.env.PROCESS || 'products';
 const PAGE = process.env.PAGE || 'fiware';
