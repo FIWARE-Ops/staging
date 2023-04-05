@@ -7,7 +7,6 @@ var companies = [
         'Tech Team',
 ]; var domains = [
 ]; var titles = [
-        'Administrational Assistant',
         'Architect',
         'Assistant to the BOO',
         'Business Development Manager',
@@ -77,9 +76,6 @@ var companies = [
     flag: "", },
     { name: "Beknazar Esenbek", img: "https://www.fiware.org/wp-content/directories/people/images/200px/beknazar-esenbek.jpg", position: "Engineer &amp; Architect", company: "FIWARE Foundation", "company-link": "",
     content: "Beknazar Esenbek (m) is a Technical Engineer and Architect at FIWARE Foundation. He holds a Bachelor Degree in computer science from 2016 - 2019 at the University of Applied Sciences Zwickau (Germany). He worked more than 5 years as a full stack web developer. He also has 2 years of experience of working as a SAP Developer. Before moving to Germany as a student he worked more than 5 years as a mathematics and programming teacher in his home country Kyrgyzstan. He is fluent in Kyrgyz, English, German, Russian and currently learning Mandarin Chinese.", linkedin: "https://www.linkedin.com/in/beknazar-esenbek/", twitter: "", domain: "", location: "",
-    flag: "", },
-    { name: "Aljo Fazlagic", img: "https://www.fiware.org/wp-content/directories/people/images/200px/aljo-fazlagic.jpg", position: "Administrational Assistant", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
-    content: "", linkedin: "", twitter: "", domain: "", location: "",
     flag: "", },
     { name: "Jason Fox", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jason-fox.jpg", position: "Senior Technical Expert &amp; Evangelist", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
     content: "Jason Fox (m) has been working for FIWARE Foundation for the last five years in the role of technical evangelist, educating and diseminating information about NGSI interfaces, JSON-LD, Linked Data, the components within the FIWARE Catalogue and Securing FIWARE architectures. Before joining FIWARE, he worked as a software engineer for over 20 years in various roles both in Germany and the United Kingdom using a wide variety of programming languages ranging from C++ to Java to Node.js. This has included coding the software behind selling lottery tickets online for the British National Lottery, and and developing and maintaining technical documentation applications for Nokia.", linkedin: "https://www.linkedin.com/in/jason-fox-8a79563/", twitter: "", domain: "", location: "",
