@@ -55,7 +55,7 @@ function inputSearch(itemElem, textString) {
     }
   });
   var qsRegex = new RegExp(regex.join("|"), "gi");
-  return itemElem.innerText.match(qsRegex);
+  return $(itemElem).find('.member-name').text().match(qsRegex);
 }
 
 function concatValues(obj) {
