@@ -135,8 +135,8 @@ function extractSummaryInfo(input, details) {
                 item.Technologies = [];
             }
 
-            item.Member = item.Member.toLowerCase();
-            item.iHub = item.iHub.toLowerCase();
+            item.Member = item.Member ? item.Member.toLowerCase() : 'false';
+            item.iHub = item.iHub ? item.iHub.toLowerCase() : 'false';
 
             if (item.Member == 'false') {
                 item.Member = false;
@@ -169,10 +169,12 @@ function extractSummaryInfo(input, details) {
             obj.technology = item['Technologies'];
             obj.year = parseInt(item['Certified in']);
             obj.content = item['Excerpt']
-                .replace(regEx, replaceMask)
-                .replaceAll(/\r\n/g, ' ')
-                .replaceAll(/\n/g, ' ')
-                .trim();
+                ? item['Excerpt']
+                      .replace(regEx, replaceMask)
+                      .replaceAll(/\r\n/g, ' ')
+                      .replaceAll(/\n/g, ' ')
+                      .trim()
+                : '';
 
             if (item['Category'] === 'Powered by FIWARE') {
                 powered.push(obj);
@@ -263,7 +265,7 @@ function findProduct(hash, category) {
  * Read in the product details file and output
  * HTML and JavaScript files
  */
-function parse(detailsFile, summaryFile, process) {
+function parse(detailsFile, summaryFile, processRun) {
     csv()
         .fromFile(detailsFile)
         .then((input) => {
@@ -287,33 +289,56 @@ function parse(detailsFile, summaryFile, process) {
                     return summaryInfo;
                 })
                 .then((summaryInfo) => {
-                    Template.write(
-                        'marketplace/powered-by-fiware/pageData.js',
-                        path.join(TEMPLATE_PATH, 'modal.hbs'),
-                        summaryInfo.powered
-                    );
-                    console.log('');
-                    console.log(summaryInfo.powered.length + ' Products');
+                    if (summaryInfo.powered.length === 0) {
+                        console.error('ERROR: No Products Generated.');
+                        process.exit(1);
+                    } else {
+                        Template.write(
+                            'marketplace/powered-by-fiware/pageData.js',
+                            path.join(TEMPLATE_PATH, 'modal.hbs'),
+                            summaryInfo.powered
+                        );
+                        console.log('');
+                        console.log(summaryInfo.powered.length + ' Products');
+                    }
 
-                    Template.write(
-                        'marketplace/fiware-ready/pageData.js',
-                        path.join(TEMPLATE_PATH, 'modal.hbs'),
-                        summaryInfo.ready
-                    );
+                    if (summaryInfo.ready.length === 0) {
+                        console.error('ERROR: No Devices Generated.');
+                        process.exit(1);
+                    } else {
+                        Template.write(
+                            'marketplace/fiware-ready/pageData.js',
+                            path.join(TEMPLATE_PATH, 'modal.hbs'),
+                            summaryInfo.ready
+                        );
 
-                    console.log(summaryInfo.ready.length + ' Devices');
-                    Template.write(
-                        'marketplace/support-services/pageData.js',
-                        path.join(TEMPLATE_PATH, 'modal.hbs'),
-                        summaryInfo.services
-                    );
-                    console.log(summaryInfo.services.length + ' Services');
-                    Template.write(
-                        'marketplace/cities4cities/pageData.js',
-                        path.join(TEMPLATE_PATH, 'modal.hbs'),
-                        summaryInfo.cities
-                    );
-                    console.log(summaryInfo.cities.length + ' Cities');
+                        console.log(summaryInfo.ready.length + ' Devices');
+                    }
+
+                    if (summaryInfo.services.length === 0) {
+                        console.error('ERROR: No Devices Generated.');
+                        process.exit(1);
+                    } else {
+                        Template.write(
+                            'marketplace/support-services/pageData.js',
+                            path.join(TEMPLATE_PATH, 'modal.hbs'),
+                            summaryInfo.services
+                        );
+                        console.log(summaryInfo.services.length + ' Services');
+                    }
+
+                    if (summaryInfo.cities.length === 0) {
+                        console.error('ERROR: No Devices Generated.');
+                        process.exit(1);
+                    } else {
+                        Template.write(
+                            'marketplace/cities4cities/pageData.js',
+                            path.join(TEMPLATE_PATH, 'modal.hbs'),
+                            summaryInfo.cities
+                        );
+                        console.log(summaryInfo.cities.length + ' Cities');
+                    }
+
                     Template.write(
                         'marketplace/product-details/pageData.js',
                         path.join(TEMPLATE_PATH, 'productDetails.hbs'),
@@ -329,7 +354,7 @@ function parse(detailsFile, summaryFile, process) {
                 });
         })
         .then(() => {
-            if (process === 'products+images') {
+            if (processRun === 'products+images') {
                 let promises = [];
                 productDetails.images.forEach((image) => {
                     let promise = Downloader.downloadImages(image);

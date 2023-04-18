@@ -80,8 +80,10 @@ function getCategory(category) {
  * a usable CSS class for Isotope to filter on.
  */
 function getHash(organization, product) {
-    var regex = /([^a-zA-Z0-9À-ÿ])/gi;
-    return organization.replace(regex, '').toLowerCase() + '-' + product.replace(regex, '').toLowerCase();
+    const org = organization || '';
+    const prod = product || '';
+    const regex = /([^a-zA-Z0-9À-ÿ])/gi;
+    return org.replace(regex, '').toLowerCase() + '-' + prod.replace(regex, '').toLowerCase();
 }
 
 /**
