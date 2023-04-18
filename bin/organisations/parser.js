@@ -28,6 +28,13 @@ function extractOrganisations(input) {
             organisations.push(organisation);
         }
     });
+
+    if (organisations.length === 0) {
+        console.error('ERROR: No organisations uploaded.');
+        process.exit(1);
+    }
+    console.log(organisations.length, ' organisations generated.');
+
     return organisations.sort((a, b) => {
         return b.name - a.name;
     });

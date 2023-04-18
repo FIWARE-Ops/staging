@@ -39,6 +39,13 @@ function extractIHubs(input) {
             iHubs.push(iHub);
         }
     });
+
+    if (iHubs.length === 0) {
+        console.error('ERROR: No iHubs uploaded.');
+        process.exit(1);
+    }
+    console.log(iHubs.length, ' iHubs generated.');
+
     return iHubs.sort((a, b) => {
         return b.name - a.name;
     });

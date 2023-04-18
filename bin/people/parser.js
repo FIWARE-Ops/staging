@@ -42,6 +42,12 @@ function extractPeople(input) {
         }
     });
 
+    if (people.length === 0) {
+        console.error('ERROR: No people uploaded.');
+        process.exit(1);
+    }
+    console.log(people.length, ' people generated.');
+
     return people.sort((a, b) => {
         return a.surname.localeCompare(b.surname);
     });

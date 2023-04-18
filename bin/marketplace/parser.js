@@ -29,6 +29,11 @@ function extractProductDetails(input) {
         unknown: {}
     };
 
+    if (input.length === 0) {
+        console.error('ERROR: No Product Details uploaded.');
+        process.exit(1);
+    }
+
     input.forEach((item) => {
         const category = Parser.getCategory(item['Category']);
         const hash = Parser.getHash(item['Organisation Name'], item['Product Name']);
@@ -87,6 +92,11 @@ function extractSummaryInfo(input, details) {
         services: [],
         unknown: []
     };
+
+    if (input.length === 0) {
+        console.error('ERROR: No Product Summaries uploaded.');
+        process.exit(1);
+    }
 
     input.forEach((item) => {
         const domains = [];

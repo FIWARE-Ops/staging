@@ -36,6 +36,13 @@ function extractWebinars(input) {
             webinars.push(webinar);
         }
     });
+
+    if (webinars.length === 0) {
+        console.error('ERROR: No webinars uploaded.');
+        process.exit(1);
+    }
+    console.log(webinars.length, ' webinars generated.');
+
     return webinars.sort((a, b) => {
         return b.season - a.season;
     });
