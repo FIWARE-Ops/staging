@@ -1500,5 +1500,26 @@ var pageData = [
         year: 2023,
         content:
             'SmartTown is a horizontal platform, which includes different verticals that can occur in a population, for its remote management in a centralized way and offers interoperability between the different devices and integrations'
+    },
+    {
+        company: 'DIH Faubourg Numérique',
+        name: 'somware.space',
+        img: 'https://www.fiware.org/wp-content/uploads/28f00db5f8c1acdb050b4642100b8e8f.png',
+        fiwareMember: true,
+        fiwareIhub: true,
+        companyLink: '../product-details/?category=powered&id=dihfaubourgnumérique-somwarespace',
+        domain: ['AgriFood', 'Cities', 'Industry', 'Manufacturing', 'Tourism'],
+        type: 'Solution',
+        technology: [
+            'Data Spaces',
+            'Digital Twins',
+            'Gamification',
+            'Simulation',
+            'Virtual',
+            'Augmented and Extended Reality'
+        ],
+        year: 2023,
+        content:
+            'A piece of the Metaverse fully connected to powered by FIWARE solutions: you can use the somware.space as virtual showroom, as a simulation environment, and even as a digital control room of real assets. You just have to make you solution \\"FIWARE ready\\" !!! Ready for the immersive experience??'
     }
 ];

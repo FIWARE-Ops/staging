@@ -4300,6 +4300,45 @@ var pageData = {
             logo: 'https://www.fiware.org/wp-content/uploads/9daaee69f97a7d82e4092bd638394ef7.jpg',
             featuredImage: 'https://www.fiware.org/wp-content/uploads/c1bd83362f800e5279d08d9866f5ae1c.jpg',
             furtherImages: ''
+        },
+        'dihfaubourgnumérique-somwarespace': {
+            category: 'Powered by FIWARE',
+            organisationName: 'DIH Faubourg Numérique',
+            productName: 'somware.space',
+            organisationWebsite: 'https://somware.space',
+            organisationEmail: 'mailto:contact@oasc.fr',
+            linkedIn: '',
+            twitter: '',
+            productWebsite: 'https://somware.space',
+            excerpt:
+                'A piece of the Metaverse fully connected to powered by FIWARE solutions: you can use the somware.space as virtual showroom, as a simulation environment, and even as a digital control room of real assets. You just have to make you solution \\"FIWARE ready\\" !!! Ready for the immersive experience??',
+            yearOfValidation: 2023,
+            description:
+                "<p><strong>somware.space</strong> is an immersive environment available 7/7 , 24/24.  It's fully open source in ts design and its main dependencies (FIWARE, three.js, node.js).  It's flexible: start small, scale - or fail! - fast :)</p>",
+            challenge:
+                '<p>Engage your customers, your colleagues, your communities to figure out how to work, play or just think together through shared immersive, creative and productive experiences!</p>',
+            references:
+                '<p><a href="https://www.youtube.com/watch?v=i8GzJ-EDWhs" title="CO2Mute">CO2Mute</a> <a href="https://www.youtube.com/watch?v=P0A1D6lRq2M" title="City of Saint-Quentin">City of Saint-Quentin</a> <a href="https://www.youtube.com/watch?v=j8KekjPjpMs" title="Herne Digital">Herne Digital</a></p>',
+            awards:
+                '<p>CEFAT4Cities hackathon double winner (Berlin TXL + Vienna) <a href="https://www.youtube.com/watch?v=VPp3KVkvmj0" title="Meta TXL Demo">Meta TXL Demo</a> <a href="https://www.youtube.com/watch?v=42dNh1VM7n4&t=1972s" title="Managing Data Models and Exposing Digital Twins ">Managing Data Models and Exposing Digital Twins </a></p>',
+            technologies: [
+                'Data Spaces',
+                'Digital Twins',
+                'Gamification',
+                'Simulation',
+                'Virtual',
+                'Augmented and Extended Reality'
+            ],
+            domains: ['AgriFood', 'Cities', 'Industry', 'Manufacturing', 'Tourism'],
+            docs: [['Tech Documentation', 'https://youtu.be/42dNh1VM7n4']],
+            videos: [
+                ['FIWARE Metaworld', 'https://www.youtube.com/watch?v=v1fJeCQGL-k'],
+                ['FIWARE Global Summit 2022', 'https://www.youtube.com/watch?v=zZUknJ6Gmpw']
+            ],
+            materials: [],
+            logo: 'https://www.fiware.org/wp-content/uploads/28f00db5f8c1acdb050b4642100b8e8f.png',
+            featuredImage: 'https://www.fiware.org/wp-content/uploads/b8b094de1da4463a6d28fe70ea20aeff.png',
+            furtherImages: ''
         }
     },
     ready: {
