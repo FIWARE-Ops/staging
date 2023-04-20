@@ -6,49 +6,73 @@
 body {padding: 10px; font: 14px; font-family: Montserrat,Helvetica,Arial,sans-serif; color:#4c4c4c;}
 a {font-weight: 600;color: #233c68; text-decoration: none;}
 a:hover {color: #45d3dd;}
+
+.three-columns-grid {
+    display: block;
+}
+.three-columns-grid > * {
+    padding:1rem;
+}
+
+/* tablet breakpoint */
+@media (min-width: 768px) {
+    .three-column-grid {
+        display: grid;
+        grid-auto-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
 	</style>
   </head>
 
   <body>
-      <h2>FIWARE Marketplace<h2>
-      <ul>
-        <li><a href="./marketplace/">Marketplace Pages</a></li>
-        <li><a href="./marketplace/cities4cities/">Cities</a></li>
-        <li><a href="./marketplace/fiware-ready/">Devices</a></li>
-        <li><a href="./marketplace/powered-by-fiware/">Products</a></li>
-        <li><a href="./marketplace/support-services/">Support</a></li>
-      </ul>
+      <div class="three-columns-grid">
+        <div>
+          <h2>FIWARE Marketplace</h2>
+          <ul>
+            <li><a href="./marketplace/">Marketplace Pages</a></li>
+            <li><a href="./marketplace/cities4cities/">Cities</a></li>
+            <li><a href="./marketplace/fiware-ready/">Devices</a></li>
+            <li><a href="./marketplace/powered-by-fiware/">Products</a></li>
+            <li><a href="./marketplace/support-services/">Support</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>People Pages</h2>
+          <h3>Governance</h3>
+          <ul>
+            <li><a href="./directories/people/">People Pages</a></li>
+            <li><a href="./directories/people/bod">Board of Directors</a></li>
+            <!--li><a href="./directories/people/boo">Board of Officers</a></li-->
+            <li><a href="./directories/people/evangelists">Evangelists</a></li>
+            <!--ßli><a href="./directories/people/experts">FIWARE Experts</a></li-->
+            <li><a href="./directories/people/fisab">Scientific Advisory Board</a></li>
+            <li><a href="./directories/people/msc">Mission Support Committess</a></li>
+            <li><a href="./directories/people/tsc">Technical Steering Committee </a></li>
+            <li><a href="./directories/people/team">FIWARE Team</a></li>
+          </ul>
+          <h3>FIWARE Global Summit</h3>
+          <ul>
+            <li><a href="./directories/people/speakers/">Meet our speakers</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Directory Pages</h2>
+          <h3>Wednesday Webinars</h3>
+          <ul>
+            <li><a href="./directories/webinars/">Webinars Pages</a></li>
+          </ul>
 
-      <h2>People Pages<h2>
-      <ul>
-        <li><a href="./directories/people/">People Pages</a></li>
-        <li><a href="./directories/people/bod">Board of Directors</a></li>
-        <!--li><a href="./directories/people/boo">Board of Officers</a></li-->
-        <li><a href="./directories/people/evangelists">Evangelists</a></li>
-        <!--ßli><a href="./directories/people/experts">FIWARE Experts</a></li-->
-        <li><a href="./directories/people/fisab">Scientific Advisory Board</a></li>
-        <li><a href="./directories/people/msc">Mission Support Committess</a></li>
-        <li><a href="./directories/people/tsc">Technical Steering Committee </a></li>
-        <li><a href="./directories/people/team">FIWARE Team</a></li>
-      </ul>
+          <h3>FIWARE iHubs</h3>
+          <ul>
+            <li><a href="./directories/iHubs/">Meet the iHubs</a></li>
+          </ul>
 
-      <h2>Wednesday Webinars<h2>
-      <ul>
-        <li><a href="./directories/webinars/">Webinars Pages</a></li>
-      </ul>
-
-      <h2>FIWARE iHubs<h2>
-      <ul>
-        <li><a href="./directories/iHubs/">Meet the iHubs</a></li>
-      </ul>
-
-      <h2>FIWARE Members<h2>
-      <ul>
-        <li><a href="./directories/organisations/">Organizations Directory</a></li>
-      </ul>
-      <h2>FIWARE Global Summit<h2>
-      <ul>
-        <li><a href="./directories/people/speakers/">Meet our speakers</a></li>
-      </ul>
+          <h3>FIWARE Members</h3>
+          <ul>
+            <li><a href="./directories/organisations/">Organizations Directory</a></li>
+          </ul>
+        </div>
+      </div>
   </body>
 </html>
