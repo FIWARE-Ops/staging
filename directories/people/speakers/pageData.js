@@ -1,6 +1,7 @@
 var companies = [
         'ADDIX',
         'ATB Bremen',
+        'Athumi',
         'Atos',
         'Austrian Ministry of Finance',
         'AWS',
@@ -192,6 +193,9 @@ var companies = [
     flag: "", },
     { name: "Gert De Tant", img: "https://www.fiware.org/wp-content/directories/people/images/200px/gert-de-tant.jpg", position: "Chief Executive Officer", company: "Sirus", "company-link": "https://sirus.be/",
     content: "Gert is the CEO of Sirus. His focus is on the architecture and implementation of data driven platforms for cities, that enable cities to innovate and provide better and more advanced services to their clients being citizens, visitors and companies. He has worked for a number of cities in Europe like Antwerp, Helsinki, Copenhagen, Ghent, Luxembourg and Paderborn and was part of several European projects like ODALA, Drural, Aurural, Duet, JRC Elise, Synchronicity and Select 4 Cities. Next to that he is part of the TTF of ETSI to help to make the NGSI-LD standard testable. He was also part of the team that helped to bring the Fiware Smart Data Models to DTDL, The open source digital twin language that is used amongst others for the Microsoft Digital twin.", linkedin: "https://www.linkedin.com/in/gdetant/", twitter: "", domain: "", location: "",
+    flag: "", },
+    { name: "Björn De Vidts", img: "https://www.fiware.org/wp-content/directories/people/images/200px/bjorn-de-vidts.jpg", position: "Acting CEO", company: "Athumi", "company-link": "https://athumi.be/en/",
+    content: "", linkedin: "https://www.linkedin.com/in/bjorndevidts/", twitter: "https://twitter.com/bjorndevidts", domain: "", location: "",
     flag: "", },
     { name: "Vincent Demortier", img: "https://www.fiware.org/wp-content/directories/people/images/200px/vincent-demortier.jpg", position: "President", company: "Faubourg Numérique", "company-link": "http://faubourgnumerique.com/",
     content: "Vincent has multiple professional experiences in developing and deploying digital solutions: originally in industrial logistics within the automotive industry and in the food &amp; beverage industry, then as consultant for a wide variety of SMEs and finally as entrepreneur involved in the creation of new businesses. In order to contribute to the development of its regional innovative ecosystem to support the digital transition and innovation, in 2014, Vincent co-founded the association Faubourg Numérique, of which he is now president. With this entrepreneurial impulse, Faubourg Numérique is committed to the FIWARE initiative as an Innovation Hub and involved in the future EDIH Sumity. Vincent is a certified FIWARE expert, i4Trust LEBD, and DIH2 LER.", linkedin: "https://www.linkedin.com/in/vincent-demortier-fr/", twitter: "https://twitter.com/VincDemortier", domain: "", location: "",
