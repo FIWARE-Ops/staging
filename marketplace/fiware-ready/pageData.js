@@ -943,5 +943,19 @@ var pageData = [
         year: 2022,
         content:
             'Software for human resources management, integrated in FIWARE. Lapsowork dumps data in real-time and allows us to obtain statistics associated with entry records, exit records, information on the worker who performs the registration, associated temperature (COVID19 measure)...'
+    },
+    {
+        company: 'NOVALITY',
+        name: 'Bikes and Scooters Smart Locker Parkings',
+        img: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Novality.svg',
+        fiwareMember: false,
+        fiwareIhub: false,
+        companyLink: '../product-details/?category=ready&id=novality-bikesandscooterssmartlockerparkings',
+        domain: ['Cities', 'Manufacturing', 'Mobility', 'Sustainability', 'Telecommunication'],
+        type: 'IoT Device',
+        technology: ['Interaction Technologies', 'Internet of Things', 'Mobility and Location', 'Open Data'],
+        year: 2023,
+        content:
+            'Novality is a smart and secure parking solution for bicycles and scooters with individual lockers managed through an app.  The system knows the occupation of the places in real time and the mobility flows. It is also a multimodal hub where other Smartcities sensors can be installed.'
     }
 ];
