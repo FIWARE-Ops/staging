@@ -8647,7 +8647,7 @@ var pageData = {
             references:
                 '<ul> <li>2 Parkings in Marbella in 2021</li> <li>2 Parkings for Junta de Andalucía in 2022</li> <li>27 Parkings in Fuenlabrada in 2023</li> <li>2 Parkings in Churriana de la Vega in 2023</li> <li>1 Parking for Diputación de Guipuzkoa in 2023</li> </ul>',
             awards:
-                '<p><strong>RENAULT FOUNDATION</strong> Winners with an Accesit to the best innovation within Sustainable and Accessible Mobility.</p> <p><strong>BABLE SMART CITIES</strong> Selected as one of the TOP 50 companies in the smart city field.</p> <p><strong>EIT URBAN MOBILITY</strong> Winners of the challenge posed by the city of Riga, (Latvia) within the \\"Raptor Pilot 2\\" program, installing a pilot in said city.</p> <p><strong>BBVA JOLY GROUP</strong> Awarded with the Sustainable Innovation Award awarded by the Joly Group at an event sponsored by BBVA.</p>',
+                '<p><strong>RENAULT FOUNDATION</strong> Winners with an Accesit to the best innovation within Sustainable and Accessible Mobility.</p> <p><strong>BABLE SMART CITIES</strong> Selected as one of the TOP 50 companies in the smart city field.</p> <p><strong>EIT URBAN MOBILITY</strong> Winners of the challenge posed by the city of Riga, (Latvia) within the "Raptor Pilot 2" program, installing a pilot in said city.</p> <p><strong>BBVA JOLY GROUP</strong> Awarded with the Sustainable Innovation Award awarded by the Joly Group at an event sponsored by BBVA.</p>',
             technologies: ['Interaction Technologies', 'Internet of Things', 'Mobility and Location', 'Open Data'],
             domains: ['Cities', 'Manufacturing', 'Mobility', 'Sustainability', 'Telecommunication'],
             docs: [
