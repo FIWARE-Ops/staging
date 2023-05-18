@@ -8627,6 +8627,57 @@ var pageData = {
             logo: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_EDAG.svg',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_edag_smart-city-dashboard.png',
             furtherImages: ''
+        },
+        'novality-bikesandscooterssmartlockerparkings': {
+            category: 'FIWARE-Ready',
+            organisationName: 'NOVALITY',
+            productName: 'Bikes and Scooters Smart Locker Parkings',
+            organisationWebsite: 'https://https://novality.es/',
+            organisationEmail: 'mailto:info@novality.es',
+            linkedIn: 'https://es.linkedin.com/company/novalityes',
+            twitter: 'https://mobile.twitter.com/novalityes',
+            productWebsite: 'https://novality.es',
+            excerpt:
+                'Novality is a smart and secure parking solution for bicycles and scooters with individual lockers managed through an app. \nThe system knows the occupation of the places in real time and the mobility flows.\nIt is also a multimodal hub where other Smartcities sensors can be installed.',
+            yearOfValidation: 2023,
+            description:
+                '<p><strong>NOVALITY</strong> helps to develop urban micromobility through parking stations for bicycles and e-scooters fitted with private lockers including space for personal belongings and sockets to charge vehicles whilst stored.  Parking lots are controlled from a central unit and users can download an intuitive app to book their lockers in advance, compatible with other transport systems to support intermodality and is a source of mobility data for the cities. For Cities is possible to extract the occupation level of the parking and study the mobility flows.</p>',
+            challenge:
+                "<p>Novality's challenge is to become a multimodal hub within the field of Smartcities.  The aim is to promote connected micro-mobility and take advantage of the IoT node to add services or utilities such as air quality sensors, noise, people counter, electric vehicle charging points, etc.  For this reason, it is essential for us to be able to integrate into a FIWARE environment to communicate with the different Smartcities platforms of the Public Administrations and Innovation Hubs.</p>",
+            references:
+                '<ul> <li>2 Parkings in Marbella in 2021</li> <li>2 Parkings for Junta de Andalucía in 2022</li> <li>27 Parkings in Fuenlabrada in 2023</li> <li>2 Parkings in Churriana de la Vega in 2023</li> <li>1 Parking for Diputación de Guipuzkoa in 2023</li> </ul>',
+            awards:
+                '<p><strong>RENAULT FOUNDATION</strong> Winners with an Accesit to the best innovation within Sustainable and Accessible Mobility.</p> <p><strong>BABLE SMART CITIES</strong> Selected as one of the TOP 50 companies in the smart city field.</p> <p><strong>EIT URBAN MOBILITY</strong> Winners of the challenge posed by the city of Riga, (Latvia) within the "Raptor Pilot 2" program, installing a pilot in said city.</p> <p><strong>BBVA JOLY GROUP</strong> Awarded with the Sustainable Innovation Award awarded by the Joly Group at an event sponsored by BBVA.</p>',
+            technologies: ['Interaction Technologies', 'Internet of Things', 'Mobility and Location', 'Open Data'],
+            domains: ['Cities', 'Manufacturing', 'Mobility', 'Sustainability', 'Telecommunication'],
+            docs: [
+                ['NOVALITY Catalogue', 'https://drive.google.com/file/d/1H8TjTqMqfsFLgFpdFe0uldcgJxuAVf7B/view?pli=1']
+            ],
+            videos: [
+                ['NOVALITY Presentation', 'https://drive.google.com/file/d/1GO_9YQbHFX_jyRF1pGZeDH8mfCqyhjKz/view'],
+                ['EIT Urban Mobility presents NOVALITY in Riga', 'https://www.youtube.com/watch?v=NbeH2JfURPM']
+            ],
+            materials: [
+                [
+                    'Fuenlabrada pionera',
+                    'https://www.fuenlabradanoticias.com/articulo/fuenlabrada/fuenlabrada-pionera-instalacion-aparcamientos-seguros-bicicletas-patinetes/20230210200326162888.html'
+                ],
+                [
+                    'ABC Motor',
+                    'https://www.abc.es/motor/motoreco/fundacion-renault-espana-reconoce-mejores-practicas-movilidad-20221206230832-nt.html'
+                ],
+                [
+                    'Diario de Sevilla',
+                    'https://www.diariodesevilla.es/sevilla/estacion-Plaza-Armas-aparcamiento-inteligente-primer-bicicletas_0_1691532456.html?utm_source=whatsapp.com&utm_medium=socialshare&utm_campaign=mobile_web'
+                ],
+                [
+                    'Diario Sur',
+                    'https://www.diariosur.es/marbella-estepona/marbella-instala-modulos-inteligentes-bicicletas-20211112160856-nt.html'
+                ]
+            ],
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Novality.svg',
+            featuredImage: 'https://www.fiware.org/wp-content/uploads/9c04b4c5dbdbb0df0a8246d4bd483152.jpg',
+            furtherImages: ''
         }
     },
     cities: {
