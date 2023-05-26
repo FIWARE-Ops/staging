@@ -33,8 +33,7 @@ var pageData = {
             materials: [],
             logo:
                 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_UrbanInstitute.svg',
-            featuredImage:
-                'https://www.fiware.org/wp-content/marketplace/images/hero_ui-urban-software_ui-urbanpulse.png',
+            featuredImage: 'https://ui.city/images/website/ui!_COCKPIT.png',
             furtherImages: ''
         },
         'absolutezero-thor': {
@@ -4295,7 +4294,8 @@ var pageData = {
                 ['FIWARE Global Summit 2022', 'https://www.youtube.com/watch?v=zZUknJ6Gmpw']
             ],
             materials: [],
-            logo: 'https://www.fiware.org/wp-content/uploads/28f00db5f8c1acdb050b4642100b8e8f.png',
+            logo:
+                'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_SOMWarespace.svg',
             featuredImage: 'https://www.fiware.org/wp-content/uploads/b8b094de1da4463a6d28fe70ea20aeff.png',
             furtherImages: ''
         }
