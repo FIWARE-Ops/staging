@@ -1490,7 +1490,7 @@ var pageData = [
     {
         company: 'DIH Faubourg Numérique',
         name: 'somware.space',
-        img: 'https://www.fiware.org/wp-content/uploads/28f00db5f8c1acdb050b4642100b8e8f.png',
+        img: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_SOMWarespace.svg',
         fiwareMember: true,
         fiwareIhub: true,
         companyLink: '../product-details/?category=powered&id=dihfaubourgnumérique-somwarespace',
