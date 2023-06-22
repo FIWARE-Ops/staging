@@ -10,10 +10,10 @@
         <div class='f-cat active'>
             <img alt='' class='city-photo' src='{{img}}' loading='lazy' />
             <div class='profile-details'>
-                <h6 class='name'>{{name}}</h6>
+                <h6 class='name'>{{title}}{{name}}</h6>
                 <h4 class='position'>{{job}}</h4>
                 <a target='_blank' href='{{website}}' rel='noopener'>
-                    <h5 class='company-link'>{{company}}</h5>
+                    <h5 class='company-link'>{{company}}{{companyType}}</h5>
                 </a>
                 {{#if department}}
                     <div class='department'>{{department}}</div>

@@ -40,6 +40,12 @@ function extractPeople(input) {
         };
 
         if (person.publish) {
+            if (person.title !== '') {
+                person.title = `${person.title.trim()} `;
+            }
+            if (person.companyType !== '') {
+                person.companyType = ` ${person.companyType.trim()}`;
+            }
             people.push(person);
         }
     });
