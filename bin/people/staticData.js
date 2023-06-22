@@ -1,14 +1,14 @@
 const _ = require('underscore');
 
 const DEFAULT_LABELS = {
-    companies: 'Company',
+    companies: 'Organization',
     departments: 'Department',
     countries: 'Countries',
     roles: 'Role',
     domains: 'Domain',
     committees: 'Committee',
     types: 'Speaker Type',
-    allCompanies: 'All Companies',
+    allCompanies: 'All Organizations',
     allDepartments: 'All Departments',
     allCountries: 'All Locations',
     allRoles: 'All Roles',
