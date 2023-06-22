@@ -30,7 +30,7 @@ var companies = [
 {{/each}}
 ]; var modalData = [
 {{#each people}}
-    { name: "{{name}}", img: "{{img}}", position: "{{job}}", company: "{{company}}", "company-link": "{{website}}",
+    { name: "{{title}}{{name}}", img: "{{img}}", position: "{{job}}", company: "{{company}}{{companyType}}", "company-link": "{{website}}",
     content: "{{bio}}", linkedin: "{{linkedIn}}", twitter: "{{twitter}}", domain: "{{domain}}", location: "{{country}}",
     flag: "{{flag}}", },
 {{/each}}
