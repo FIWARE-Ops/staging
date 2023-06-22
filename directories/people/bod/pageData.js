@@ -35,7 +35,7 @@ var companies = [
         'Spain',
         'United States',
 ]; var modalData = [
-    { name: "Dario Avallone", img: "https://www.fiware.org/wp-content/directories/people/images/200px/dario-avallone.jpg", position: "Research and Development Director", company: "Engineering", "company-link": "https://www.eng.it/en/",
+    { name: "Dario Avallone", img: "https://www.fiware.org/wp-content/directories/people/images/200px/dario-avallone.jpg", position: "Research and Development Director", company: "Engineering S.p.A.", "company-link": "https://www.eng.it/en/",
     content: "Straight after getting his degree in Computer Science, Dario joined Engineering Ingegneria Informatica S.p.A’s R&amp;D Laboratory, where he has so far held different successful positions. In 2000, Dario became the Director of the R&amp;D division, aiming to push innovation into the large Engineering Group. During his professional career, Dario has been directly involved in different research initiatives, holding both managerial and technical responsibilities. He is also the author of different publications and articles and has co-authored the book “The Renaissance of Legacy Systems”.", linkedin: "https://www.linkedin.com/in/dario-avallone-428934a/", twitter: "", domain: "Platinum", location: "Italy",
     flag: "https://www.fiware.org/wp-content/directories/people/images/flag/flag_Italy.png", },
     { name: "Ali Benfattoum", img: "https://www.fiware.org/wp-content/directories/people/images/200px/ali-benfattoum.jpg", position: "IoT &amp; Smart Cities Specialist", company: "AWS", "company-link": "https://aws.amazon.com/",
