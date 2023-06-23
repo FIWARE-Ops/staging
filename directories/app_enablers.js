@@ -26,50 +26,44 @@ function includeHTML(cb) {
   if (cb) cb();
 }
 
-function filterOptions(id, filter, data, css) {
-  var itemCSSFilter = ".grid-item:visible";
-  // update Type select
-  if (document.querySelector(id) && data && filter) {
-    var arr = ["*"];
-    data.forEach((el) => {
-      var typeClass = createClassFilter(el);
-      if (typeClass !== "" && $("." + typeClass + css + itemCSSFilter).size()) {
-        arr.push(typeClass);
-      }
-    });
-    $(`${id} option`).each(function () {
-      if (arr.includes($(this).val())) {
-        $(this).show();
+// Returns the right classNames for isotope card filtering system
+function createClassFilter(data) {
+  var filterString = "";
+  var regex = /([^a-zA-Z0-9À-ÿ])/gi;
+  if (typeof data == "object") {
+    data.forEach((element, i) => {
+      if (i + 1 === data.length) {
+        filterString += `${element.toLowerCase().replace(/&amp/gi, "").replace(regex, "-")}`;
       } else {
-        $(this).hide();
+        filterString += `${element.toLowerCase().replace(/&amp/gi, "").replace(regex, "-")} `;
       }
     });
+  } else {
+    filterString = data.toLowerCase().replace(/&amp/gi, "").replace(regex, "-");
   }
+
+  return filterString;
 }
 
-function dropdownFilters(filter) {
-  var typeCSSFilter = getCSSFilter("#filterType");
-  var techCSSFilter = getCSSFilter("#filterTech");
-  var domainCSSFilter = getCSSFilter("#filterDomain");
+function inputSearch(itemElem, textString) {
+  var stopwords = /\b(FIWARE|IoT|Smart|Solution|Product|Device)\b/gi;
+  var words = textString.trim().replaceAll(stopwords, "").split(/[ ,]+/);
+  var regex = [];
+  words.forEach(function (currentValue, index) {
+    if (currentValue.trim() != "") {
+      regex.push("(" + currentValue.trim() + ")");
+    }
+  });
+  var qsRegex = new RegExp(regex.join("|"), "gi");
+  return itemElem.innerText.match(qsRegex);
+}
 
-  filterOptions(
-    "#filterType",
-    filter.fType,
-    window.types,
-    techCSSFilter + domainCSSFilter
-  );
-  filterOptions(
-    "#filterDomain",
-    filter.fDomain,
-    window.domains,
-    typeCSSFilter + techCSSFilter
-  );
-  filterOptions(
-    "#filterTechnology",
-    filter.fTech,
-    window.technologies,
-    typeCSSFilter + domainCSSFilter
-  );
+function concatValues(obj) {
+  var value = "";
+  for (var prop in obj) {
+    value += obj[prop];
+  }
+  return value;
 }
 
 function initTextSearch(msnry) {
@@ -84,99 +78,6 @@ function initTextSearch(msnry) {
       filter: function (itemElem, itemElem2) {
         return inputSearch(itemElem2, e.target.value);
       },
-    });
-  });
-}
-
-function rating(difficulty) {
-    let result = '';
-    for (let i = 0; i < difficulty; i++) {
-        result += '★ ';
-    }
-    return result;
-}
-
-function createModalContent(tingleModalData) {
-  var modalHtml = "";
-  console.warn(tingleModalData);
-
-  modalHtml = `
-  <div class="info-modal">
-    <div class="credits-modal">
-      <h1>${tingleModalData.name}</h1>
-        <div class="attributes-modal">
-          <div class="label-type">
-          ${tingleModalData.badge}
-          </div>
-          <div class="attributes-container-modal">
-            <div class='label-difficulty'>
-              <span class="star">${rating(tingleModalData.difficulty)}</span>
-            </div>
-            <div class='label-broadcast'>
-              <span class="material-icons-outlined">today</span>
-              <span class="name">${tingleModalData.year}</span>
-            </div>
-            <div class="label-duration">
-              <span class="material-icons-outlined">schedule</span>
-              <span class="name">${tingleModalData.length} mins</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>`;
-
-  modalHtml += `<div class='content'>`;
-  if (tingleModalData.content !== '') {
-    modalHtml += tingleModalData.content.replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&');
-  }
-  modalHtml += `</div><div class="foot-modal">
-        <a class="details" target="_blank" href="${tingleModalData.video}">
-          <span class="material-icons-outlined">play_arrow</span>
-          Watch
-      </a>
-    </div>
-  </div>
-</div>`;
-  
-
-  return modalHtml;
-}
-
-function initModal() {
-  // Modal
-  document.querySelectorAll(".cat-bio").forEach(function (el) {
-    el.addEventListener("click", function (e) {
-      var modal = new tingle.modal({
-        footer: true,
-        stickyFooter: false,
-        closeMethods: ["overlay", "button", "escape"],
-        closeLabel: "Close",
-        cssClass: ["tingle-modal--fullscreen"],
-        onOpen: function () {
-          console.log("modal open");
-        },
-        onClose: function () {
-          console.log("modal closed");
-        },
-        beforeClose: function () {
-          // here's goes some logic
-          // e.g. save content before closing the modal
-          return true; // close the modal
-          return false; // nothing happens
-        },
-      });
-      // set content
-
-      modal.setContent(createModalContent(window.modalData[el.dataset.modal]));
-
-      // open modal
-      modal.open();
-    });
-  });
-
-  $(document).ready(function () {
-    $(".f-cat a").on("click", function (e) {
-      e.stopPropagation();
     });
   });
 }
@@ -204,7 +105,7 @@ function filterToggle() {
       } else {
         filtersContainer.style.height = "0px";
         document.querySelector("#filter-button-text").innerText =
-          "Search and Filter";
+          "Show Filters";
 
         filtersContainer.addEventListener(
           "transitionend",
@@ -228,49 +129,85 @@ function getCSSFilter(id) {
   return document.querySelector(id) ? cssFilter : "";
 }
 
-// Returns the right classNames for isotope card filtering system
-function createClassFilter(data) {
-  var filterString = "";
-  var regex = /([^a-zA-Z0-9À-ÿ])/gi;
-  if (typeof data == "object") {
-    data.forEach((element, i) => {
-      if (i + 1 === data.length) {
-        filterString += `${element.toLowerCase().replace(regex, "-")}`;
-      } else {
-        filterString += `${element.toLowerCase().replace(regex, "-")} `;
+function filterOptions(id, filter, data, css) {
+  var itemCSSFilter = ".grid-item:visible";
+  // update Type select
+  if (document.querySelector(id) && data && filter) {
+    var arr = ["*"];
+    data.forEach((el) => {
+      var typeClass = createClassFilter(el);
+      if (typeClass !== "" && $("." + typeClass + css + itemCSSFilter).size()) {
+        arr.push(typeClass);
       }
     });
-  } else {
-    filterString = data.toLowerCase().replace(regex, "-");
+
+    console.log(arr)
+
+    $(`${id} option`).each(function () {
+
+      console.log($(this).val())
+
+      if (arr.includes($(this).val())) {
+        $(this).show();
+      } else {
+        $(this).hide();
+      }
+    });
   }
-
-  return filterString;
 }
 
-function inputSearch(itemElem, textString) {
-  var stopwords = /\b(FIWARE|IoT|Smart|Solution|Product|Device)\b/gi;
-  var words = textString.trim().replaceAll(stopwords, "").split(/[ ,]+/);
-  var regex = [];
-  words.forEach(function (currentValue, index) {
-    if (currentValue.trim() != "") {
-      regex.push("(" + currentValue.trim() + ")");
-    }
-  });
-  var qsRegex = new RegExp(regex.join("|"), "gi");
-  return itemElem.innerText.match(qsRegex);
+function dropdownFilters(filter) {
+
+  var companyCSSFilter = getCSSFilter("#filterCompany");
+  var roleCSSFilter = getCSSFilter("#filterRole");
+  var departmentCSSFilter = getCSSFilter("#filterDepartment");
+  var domainCSSFilter = getCSSFilter("#filterDomain");
+  var countryCSSFilter = getCSSFilter("#filterCountry");
+
+  filterOptions(
+    "#filterCompany",
+    filter.fCompany,
+    window.companies,
+    roleCSSFilter + departmentCSSFilter + domainCSSFilter + countryCSSFilter
+  );
+  filterOptions(
+    "#filterRole",
+    filter.fRole,
+    window.titles,
+    companyCSSFilter + departmentCSSFilter + domainCSSFilter + countryCSSFilter
+  );
+  filterOptions(
+    "#filterDepartment",
+    filter.fDepartment,
+    window.departments,
+    companyCSSFilter + roleCSSFilter + domainCSSFilter + countryCSSFilter
+  );
+  filterOptions(
+    "#filterDomain",
+    filter.fDomain,
+    window.domains,
+    companyCSSFilter + roleCSSFilter + departmentCSSFilter + countryCSSFilter
+  );
+  filterOptions(
+    "#filterCountry",
+    filter.fCountry,
+    window.countries,
+    companyCSSFilter + roleCSSFilter + departmentCSSFilter + domainCSSFilter
+  );
 }
 
-function concatValues(obj) {
-  var value = "";
-  for (var prop in obj) {
-    value += obj[prop];
-  }
-  return value;
-}
+
+
 
 var init = false;
 var msnry;
-var selectors = { fType: true, fDomain: true, fTech: true };
+var selectors = {
+  fCompany: true,
+  fRole: true,
+  fDepartment: true,
+  fDomain: true,
+  fCountry: true,
+};
 var filterObj = {};
 
 function initSelect() {
@@ -281,15 +218,14 @@ function initSelect() {
       columnWidth: ".grid-sizer",
     },
     getSortData: {
-      difficulty: ".difficulty parseInt",
-      season: ".season",
+      name: ".name parseInt",
+      year: ".year",
     },
     sortAscending: {
-      difficulty: true,
-      season: true,
+      name: true,
+      year: false,
     },
   });
-
   msnry.on("arrangeComplete", (filteredItems) => {
     $("#filteredCompanies").text(filteredItems.length);
     /*if (document.activeElement !== document.getElementById("searchInput")) {
@@ -300,29 +236,38 @@ function initSelect() {
 
   initTextSearch(msnry);
 
-  //SORT BY ALPHABETICALLY
-  document.querySelector("#orderByName").addEventListener("click", (e) => {
-    if (e.target.classList.contains("active") == false) {
-      msnry.arrange({ sortBy: "difficulty" });
-      e.target.classList.add("active");
-    } else {
-      msnry.arrange({ sortBy: "original-order" });
-      e.target.classList.remove("active");
-    }
-    document.querySelector("#orderByYear").classList.remove("active");
-  });
+  /*
+    document.querySelector(".resetInput").addEventListener("click", (el) => {
+      document.querySelector("#searchInput").value = "";
+      document.querySelector(".search-element").classList.remove("resetActive");
+      msnry.arrange({
+        filter: function (itemElem, itemElem2) {
+          return true;
+        },
+      });
+    });
 
-  // SORT BY YEAR
-  document.querySelector("#orderByYear").addEventListener("click", (e) => {
-    if (e.target.classList.contains("active") == false) {
-      msnry.arrange({ sortBy: "season" });
-      e.target.classList.add("active");
-    } else {
-      msnry.arrange({ sortBy: "original-order" });
-      e.target.classList.remove("active");
-    }
-    document.querySelector("#orderByName").classList.remove("active");
-  });
+    // SORT BY ALPHABETICALLY
+    document.querySelector("#orderByName").addEventListener("click", (e) => {
+      if (e.target.classList.contains("active") == false) {
+        msnry.arrange({ sortBy: "name" });
+        e.target.classList.add("active");
+      } else {
+        msnry.arrange({ sortBy: "original-order" });
+        e.target.classList.remove("active");
+      }
+    });
+
+    // SORT BY YEAR
+    document.querySelector("#orderByYear").addEventListener("click", (e) => {
+      if (e.target.classList.contains("active") == false) {
+        msnry.arrange({ sortBy: "year" });
+        e.target.classList.add("active");
+      } else {
+        msnry.arrange({ sortBy: "original-order" });
+        e.target.classList.remove("active");
+      }
+    });*/
 
   $(".filters-container select").each(function (index) {
     $(this).bind("change", (e) => {
@@ -331,16 +276,20 @@ function initSelect() {
       }
 
       selectors = {
-        fType: e.target.id !== "filterType",
+        fCompany: e.target.id !== "filterCompany",
+        fRole: e.target.id !== "filterRole",
+        fDepartment: e.target.id !== "filterDepartment",
         fDomain: e.target.id !== "filterDomain",
-        fTech: e.target.id !== "filterTechnology",
+        fCountry: e.target.id !== "filterCountry",
       };
 
       if (document.getElementById(e.target.id).value === "*") {
         selectors = {
-          fType: true,
+          fCompany: true,
+          fRole: true,
+          fDepartment: true,
           fDomain: true,
-          fTech: true,
+          fCountry: true,
         };
       }
 
@@ -350,6 +299,7 @@ function initSelect() {
       msnry.arrange({
         filter: concatValues(filterObj),
       });
+
       e.preventDefault();
     });
   });
@@ -418,28 +368,32 @@ function horizontalScroll() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+  $("#app").css("visibility", "hidden");
   $(document).ready(function () {
-    // POPULATE THE LISTING
     includeHTML(() => {
-      $("#filteredCompanies").text(window.modalData.length);
+      //$("#filteredCompanies").text(window.modalData.length);
       horizontalScroll();
       smoothScroll();
-      initSelect();
-      initModal();
-      filterToggle();
-      // Isotope istantiation
-      // Relies on unpkg.com/imagesloaded
-      var count = 0;
-      $('#app').imagesLoaded()
-      .always( function( instance ) {
-        msnry.arrange({ sortBy: "original-order" })
-      })
-      .progress( function( instance, image ) {
-          count++;
-          if ( count % 12 === 0){
-            msnry.arrange({ sortBy: "original-order" });
-          }
-      });
+        $("#app").css("visibility", "visible");
+        if (init) {
+          return;
+        }
+        init = true;
+        initSelect();
+        filterToggle();
+        // Isotope istantiation
+        // Relies on unpkg.com/imagesloaded
+        var count = 0;
+        $('#app').imagesLoaded()
+        .always( function( instance ) {
+          msnry.arrange({ sortBy: "original-order" })
+        })
+        .progress( function( instance, image ) {
+            count++;
+            if ( count % 12 === 0){
+              msnry.arrange({ sortBy: "original-order" });
+            }
+        });
     });
   });
 });
