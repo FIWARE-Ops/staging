@@ -23,9 +23,9 @@
         </select>
     </div>
     <div class='filter-element'>
-        <label for='filterDomain' class='dropdown-label'>Keywords</label>
+        <label for='filterDomain' class='dropdown-label'>Domain</label>
         <select name='' id='filterDomain'>
-            <option value='*'>All Keywords</option>
+            <option value='*'>All Domains</option>
             {{#each domains}}
                 {{#if (ne this '')}}
                     <option value='{{createClass this}}'>{{this}}</option>
