@@ -88,14 +88,6 @@ function initTextSearch(msnry) {
   });
 }
 
-function rating(difficulty) {
-    let result = '';
-    for (let i = 0; i < difficulty; i++) {
-        result += '★ ';
-    }
-    return result;
-}
-
 function createModalContent(tingleModalData) {
   var modalHtml = "";
   console.warn(tingleModalData);
