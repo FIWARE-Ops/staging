@@ -66,7 +66,7 @@ function parse(file) {
                 webinars
             };
 
-            Template.write(path.join(WEBINARS_DIR, 'webinars.html'), path.join(TEMPLATE_PATH, 'card.hbs'), webinars);
+            Template.write(path.join(WEBINARS_DIR, 'enablers.html'), path.join(TEMPLATE_PATH, 'card.hbs'), webinars);
             Template.write(path.join(WEBINARS_DIR, 'pageData.js'), path.join(TEMPLATE_PATH, 'modal.hbs'), filterData);
             Template.write(path.join(WEBINARS_DIR, 'filters.html'), path.join(TEMPLATE_PATH, 'filter.hbs'), filterData);
         })

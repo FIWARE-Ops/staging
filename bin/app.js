@@ -3,6 +3,7 @@ const Marketplace = require('./marketplace/parser');
 const Webinars = require('./webinars/parser');
 const iHubs = require('./iHubs/parser');
 const Organisations = require('./organisations/parser');
+const Enablers = require('./enablers/parser');
 const fs = require('fs-extra');
 const Loader = require('./downloader');
 
@@ -15,6 +16,7 @@ const IHUBS_FILE = 'iHubs.csv';
 const PRODUCTS_SUMMARY_FILE = 'products.csv';
 const PRODUCT_DETAILS_FILE = 'product-details.csv';
 const ORGANISATIONS_FILE = 'organisations.csv';
+const ENABLERS_FILE = 'enablers.csv';
 
 /**
  *  Ensure that a file exists
@@ -54,6 +56,13 @@ if (PROCESS.startsWith('iHubs')) {
 if (PROCESS.startsWith('organisations')) {
     Loader.load('organisations', ORGANISATIONS_FILE).then(() => {
         return Organisations.parse(ORGANISATIONS_FILE);
+    });
+}
+
+// Create HTML and template files for the generic enablers
+if (PROCESS.startsWith('enablers')) {
+    Loader.load('enablers', ENABLERS_FILE).then(() => {
+        return Enablers.parse(ENABLERS_FILE);
     });
 }
 

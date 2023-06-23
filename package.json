@@ -20,6 +20,7 @@
     "experts": "PROCESS=people PAGE=experts npm start && npm run prettier",
     "evangelists": "PROCESS=people PAGE=evangelists npm start && npm run prettier",
     "fisab": "PROCESS=people PAGE=fisab npm start && npm run prettier",
+    "enablers": "PROCESS=enablers npm start && npm run prettier",
     "ihubs": "PROCESS=iHubs npm start && npm run prettier",
     "iHubs": "PROCESS=iHubs npm start && npm run prettier",
     "organisations": "PROCESS=organisations npm start && npm run prettier",
