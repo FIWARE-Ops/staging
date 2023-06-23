@@ -51,6 +51,14 @@ function markdown(text) {
         .replaceAll(/\\'/g, "'");
 }
 
+function richMarkdown(text) {
+    const html = text !== '' ? converter.makeHtml(text.replaceAll(/•/g, '\n*').replaceAll(/\'/g, "'")) : '';
+    return html
+        .replaceAll(/\r\n/g, ' ')
+        .replaceAll(/\n/g, ' ')
+        .replaceAll(/\"/g, "'");
+}
+
 /**
  * Map the human names used in the input CSV into names
  * usable by the app to avoid spaces.
@@ -109,6 +117,7 @@ function boolean(input) {
 
 exports.getLinkArray = getLinkArray;
 exports.markdown = markdown;
+exports.richMarkdown = richMarkdown;
 exports.getCategory = getCategory;
 exports.getHash = getHash;
 exports.splitStrings = splitStrings;

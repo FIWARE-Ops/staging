@@ -32,7 +32,7 @@ function extractEnablers(input) {
             summary: item['Summary'],
             technology: Parser.splitStrings(item['Technology']),
             domain: Parser.splitStrings(item['Keywords']),
-            content: Parser.markdown(item['Content']),
+            content: Parser.richMarkdown(item['Content']),
             publish: Parser.boolean(item['Published'])
         };
         if (enabler.publish) {
