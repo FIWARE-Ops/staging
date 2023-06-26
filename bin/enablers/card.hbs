@@ -11,16 +11,18 @@
                 </div>
             </div>
         </div>
-        <div class='gridElementTechnologyDomain {{#if (eq technology.length 0)}}hidden{{/if}}'>
-            <div class='chip-technology-domain'>
+        <div class='gridElementTechnologyDomain'>
+            <div class='chip-technology'>
                 {{#if (gt technology.length 0)}}
                 <div class='chip-technology'>
+                    <p class="label-card">Technology</p>
                     <ul class='chips'>{{#each technology}}<li>{{this}}</li>{{/each}}</ul>
                     <span class='chips-gradient'></span>
                 </div>
                 {{/if}}
                 {{#if (gt domain.length 0)}}
-                <div class='chip-domain hidden'>
+                <div class='chip-domain'>
+                    <p class="label-card">Function</p>
                     <ul class='chips'>{{#each domain}}<li>{{this}}</li>{{/each}}</ul>
                     <span class='chips-gradient'></span>
                 </div>
