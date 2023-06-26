@@ -28,6 +28,9 @@ function getBadge(type) {
         case 'Processing':
             badge = `<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_ProcessingAnalysis.svg'/>`;
             break;
+        case 'Third Party':
+            badge = `<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_ThirdParty.svg'/>`;
+            break;
         case 'Visualization':
         case 'Visualisation':
             badge = `<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Visualization.svg'/>`;
