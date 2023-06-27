@@ -957,5 +957,19 @@ var pageData = [
         year: 2023,
         content:
             'Novality is a smart and secure parking solution for bicycles and scooters with individual lockers managed through an app.  The system knows the occupation of the places in real time and the mobility flows. It is also a multimodal hub where other Smartcities sensors can be installed.'
+    },
+    {
+        company: 'Anteral',
+        name: 'uRAD Smart Traffic Compact',
+        img: 'https://www.fiware.org/wp-content/uploads/17225a268f2066f3f92b13aee0f56f17.png',
+        fiwareMember: false,
+        fiwareIhub: false,
+        companyLink: '../product-details/?category=ready&id=anteral-uradsmarttrafficcompact',
+        domain: ['Automotive', 'Cities', 'Government', 'Mobility', 'Transport'],
+        type: 'IoT Device',
+        technology: ['Internet of Things', 'Mobility and Location', 'Sensory Systems'],
+        year: 2023,
+        content:
+            'uRAD Smart Traffic Compact is a Smart Cities specific radar solution for non-invasive traffic monitoring in urban and interurban environments'
     }
 ];
