@@ -221,7 +221,7 @@
     overflow-y: hidden;
     white-space: nowrap;
     width: auto;
-  	cursor: all-scroll;
+    cursor: all-scroll;
 }
   
 .grid-item ul::-webkit-scrollbar {
@@ -1223,7 +1223,7 @@
 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: none!important;
-	}
+    }
 */
 
     /* .et_pb_section.et_pb_section_4.et_section_regular {
