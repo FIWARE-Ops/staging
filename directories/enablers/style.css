@@ -228,12 +228,13 @@ h6 {
   align-items: center;
   justify-content: flex-start;
   gap: 20px;
+  padding-top: 20px;
 }
 
 .label-summary {
   min-height: 2em;
-  height: 3.75em;
-  overflow: scroll;
+  height: 3.6em;
+  overflow-y: scroll;
   margin-bottom: 10px !important;
 }
 
@@ -250,7 +251,6 @@ h6 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-bottom: 10px;
 }
 
 .label-type img {
@@ -329,7 +329,7 @@ h6 {
 }
 
 .gridElementTechnologyDomain {
-  width: 94%;
+  width: 92%;
   margin-left: 20px;
 }
 
@@ -505,7 +505,23 @@ h6 {
   color: #fff;
 }
 
-.cat-details, .cat-info {
+.cat-details {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  font-size: 15px;
+  color: #212121;
+  background-color:rgba(240, 240, 240, 0);
+  padding: 5px 10px;
+  margin-right: 15px;
+  border-radius: 4px;
+  transition: background-color 0.2s linear;
+  cursor: pointer;
+}
+
+.cat-info {
   width: auto;
   display: flex;
   flex-direction: row;
@@ -528,7 +544,7 @@ h6 {
 
 .cat-info:hover, .cat-info:focus {
   color: #212121;
-  border: 1px solid rgba(240, 240, 240, 1);
+  background-color:rgba(240, 240, 240, 1);
 }
 
 .cat-browse {
@@ -1101,6 +1117,20 @@ input[type="search"]::placeholder {
   background: rgba(0, 46, 103, 0.6);
 }
 
+.tingle-modal h1,
+.tingle-modal h2,
+.tingle-modal h3,
+.tingle-modal h4,
+.tingle-modal h5 {
+  padding-bottom: 10px!important;
+}
+
+.tingle-modal p {
+  font-size: 15px;
+  line-height: 1.4em;
+  color: #2d2d2d;
+}
+
 .tingle-modal--visible {
   z-index: 99999;
 }
@@ -1112,7 +1142,7 @@ input[type="search"]::placeholder {
 .tingle-modal-box {
   border-radius: 4px;
   background: #fff;
-  width: 720px;
+  width: 560px;
 }
 
 .info-modal {
@@ -1130,30 +1160,27 @@ input[type="search"]::placeholder {
 
 .credits-modal {
   display: flex;
-  margin-bottom: 25px;
+  width: 100%;
+  margin-bottom: 20px;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .tingle-modal img {
   vertical-align: middle;
   width: auto;
-  /* height: 120px;
-  border-radius: 100px;
-  border: 2px solid #000;
-  margin-right: 20px; */
-}
-
-.tingle-modal p {
-  color: #2d2d2d;
-  line-height: 1.5em;
+  height: 24px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  /* border-radius: 100px;
+  border: 2px solid #000; */
 }
 
 .tingle-modal h1 {
   color: #002e67;
   font-weight: 600;
-  padding-bottom: 15px;
   border-bottom: 2px solid #002e67;
-  font-size: 2em;
-  margin: 0px auto 15px;
+  font-size: 1.3em;
 }
 
 .tingle-modal h2 {
@@ -1247,6 +1274,12 @@ input[type="search"]::placeholder {
   font-size: 15px;
   color: #002e67;
   cursor: pointer;
+}
+
+.tingle-modal .bio-modal p,
+.tingle-modal-box__content .content {
+  max-height: 250px;
+  overflow: auto;
 }
 
 .tingle-modal .bio-modal p {
@@ -1764,9 +1797,12 @@ input[type="search"]::placeholder {
     width: 90%;
   }
 
-  .tingle-modal-box__content {
-    padding: 2rem 2rem;
-  }
+.tingle-modal-box__content {
+  padding: 3rem 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 
   .credits-modal {
     width: 100%;
