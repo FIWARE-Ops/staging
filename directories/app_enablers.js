@@ -123,7 +123,7 @@ function createModalContent(tingleModalData) {
 
 function initModal() {
   // Modal
-  document.querySelectorAll(".cat-bio").forEach(function (el) {
+  document.querySelectorAll(".cat-info").forEach(function (el) {
     el.addEventListener("click", function (e) {
       var modal = new tingle.modal({
         footer: true,
