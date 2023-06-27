@@ -52,10 +52,23 @@ function rating(difficulty) {
     return result;
 }
 
+function math(lvalue, operator, rvalue) {
+    lvalue = parseFloat(lvalue);
+    rvalue = parseFloat(rvalue);
+    return {
+        '+': lvalue + rvalue,
+        '-': lvalue - rvalue,
+        '*': lvalue * rvalue,
+        '/': lvalue / rvalue,
+        '%': lvalue % rvalue
+    }[operator];
+}
+
 Handlebars.registerHelper('createClasses', createClasses);
 Handlebars.registerHelper('createClass', createClass);
 Handlebars.registerHelper('rating', rating);
 Handlebars.registerHelper('json', stringify);
+Handlebars.registerHelper('math', math);
 
 Handlebars.registerHelper({
     eq: (v1, v2) => v1 === v2,
