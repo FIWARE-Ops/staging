@@ -232,7 +232,6 @@ h6 {
 }
 
 .label-summary {
-  min-height: 2em;
   height: 3.6em;
   overflow-y: scroll;
   margin-bottom: 10px !important;
