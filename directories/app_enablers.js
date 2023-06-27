@@ -109,7 +109,7 @@ function createModalContent(tingleModalData) {
     modalHtml += tingleModalData.content.replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&');
   }
   modalHtml += `</div><div class="foot-modal">
-        <a class="details" target="_blank" href="${tingleModalData.video}">
+        <a class="cat-info" target="_blank" href="${tingleModalData.video}">
           <span class="material-icons-outlined">play_arrow</span>
           Watch
       </a>
