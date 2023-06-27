@@ -97,9 +97,9 @@ function createModalContent(tingleModalData) {
     <div class="credits-modal">
       <h1>${tingleModalData.name}</h1>
         <div class="attributes-modal">`;
-          if (tingleModalData.badge !== '') {
+          if (tingleModalData.badge ) {
  
-            `<div class="label-type">
+            modalHtml += `<div class="label-type">
             ${tingleModalData.badge}
             </div>`;
           }
