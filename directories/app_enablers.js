@@ -394,7 +394,7 @@ function initFeaturedCarousel() {
 
 function horizontalScroll() {
   // Horizontal Scroll
-  var sliders = document.querySelectorAll(".chips");
+  var sliders = document.querySelectorAll(".chips, .badges");
   var isDown = false;
   var startX;
   var scrollLeft;
