@@ -96,11 +96,14 @@ function createModalContent(tingleModalData) {
   <div class="info-modal">
     <div class="credits-modal">
       <h1>${tingleModalData.name}</h1>
-        <div class="attributes-modal">
-          <div class="label-type">
-          ${tingleModalData.badge}
-          </div>
-        </div>
+        <div class="attributes-modal">`;
+          if (tingleModalData.badge !== '') {
+ 
+            `<div class="label-type">
+            ${tingleModalData.badge}
+            </div>`;
+          }
+    modalHtml += `</div>
       </div>
     </div>`;
 
@@ -108,12 +111,28 @@ function createModalContent(tingleModalData) {
   if (tingleModalData.content !== '') {
     modalHtml += tingleModalData.content.replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&');
   }
-  modalHtml += `</div><div class="foot-modal">
-        <a class="cat-info" target="_blank" href="${tingleModalData.video}">
-          <span class="material-icons-outlined">play_arrow</span>
-          Watch
-      </a>
-    </div>
+  modalHtml += `</div><div class="foot-modal">`;
+  if(tingleModalData.gitHub){
+    modalHtml +=  `<a class="cat-info" target="_blank" href="${tingleModalData.gitHub}">
+        <span class="material-icons-outlined">play_arrow</span>
+        GitHub
+    </a>`
+  }
+  if(tingleModalData.docker){
+    modalHtml +=  `<a class="cat-info" target="_blank" href="${tingleModalData.docker}">
+        <span class="material-icons-outlined">play_arrow</span>
+        Docker
+    </a>`
+  }
+
+   if(tingleModalData.documentation){
+    modalHtml +=  `<a class="cat-info" target="_blank" href="${tingleModalData.documentation}">
+        <span class="material-icons-outlined">play_arrow</span>
+        Docs
+    </a>`
+  }
+    
+    modalHtml += `</div>
   </div>
 </div>`;
   
@@ -123,7 +142,7 @@ function createModalContent(tingleModalData) {
 
 function initModal() {
   // Modal
-  document.querySelectorAll(".cat-info").forEach(function (el) {
+  document.querySelectorAll(".cat-info, .cat-details").forEach(function (el) {
     el.addEventListener("click", function (e) {
       var modal = new tingle.modal({
         footer: true,
