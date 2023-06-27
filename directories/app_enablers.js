@@ -438,7 +438,7 @@ document.addEventListener("DOMContentLoaded", () => {
       smoothScroll();
       initSelect();
       initModal();
-      //initFeaturedCarousel();
+      initFeaturedCarousel();
       filterToggle();
       // Isotope istantiation
       // Relies on unpkg.com/imagesloaded
