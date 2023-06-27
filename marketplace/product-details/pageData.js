@@ -8703,7 +8703,7 @@ var pageData = {
             videos: [['uRAD - Radar for traffic monitoring', 'https://www.youtube.com/watch?v=PJj2ZAx_gio']],
             materials: [
                 [
-                    'Pmaplona News',
+                    'Pamplona News',
                     'https://www.pamplona.es/actualidad/noticias/los-ocho-aforadores-de-bicicletas-instalados-en-la-ciudad-registran-27-millones'
                 ]
             ],
