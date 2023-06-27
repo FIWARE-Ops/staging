@@ -414,6 +414,10 @@ h6 {
   cursor: grab;
 }
 
+.badges::-webkit-scrollbar {
+  display: none;
+}
+
 .badges-gradient {
   position: absolute;
   right: 24px;
