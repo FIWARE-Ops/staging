@@ -261,7 +261,7 @@ ul {
   line-height: 1em;
 }
 
-.label-type {
+.label-type, .label-status {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -269,7 +269,7 @@ ul {
   gap: 10px;
 }
 
-.label-type img {
+.label-type img, .label-status img {
   height: 24px;
 }
 
