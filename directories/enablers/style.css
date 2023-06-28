@@ -475,7 +475,9 @@ ul {
 }
 
 .badge-spacer {
-  min-height: 2em;
+  min-height: 24px;
+  height: 24px;
+  max-height: 24px;
   min-width: 10em;
 }
 
