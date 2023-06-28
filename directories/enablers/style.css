@@ -1140,7 +1140,7 @@ input[type="search"]::placeholder {
   font-size: 15px;
   line-height: 1.4em;
   color: #2d2d2d;
-  padding-bottom: 25px!important;
+  padding-bottom: 20px!important;
 }
 
 .tingle-modal--visible {
