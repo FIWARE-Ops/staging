@@ -1314,7 +1314,6 @@ input[type="search"]::placeholder {
   overflow: auto;
   display: flex;
   flex-direction: column;
-  gap: 20px;
 }
 
 .tingle-modal .bio-modal p {
@@ -1350,6 +1349,21 @@ input[type="search"]::placeholder {
   /* "auto" or "thin" */
   scrollbar-color: #e5f5f7 transparent;
   /* scroll thumb and track */
+}
+
+.bullets {
+  padding-bottom: 20px;
+}
+
+.bullets p {
+  padding-bottom: 5px;
+}
+
+.bullet {
+  font-size: 15px;
+  line-height: 1.4em;
+  color: #2d2d2d;
+  padding: 0 0 5px;
 }
 
 /* Carousel */
