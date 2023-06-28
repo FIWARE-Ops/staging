@@ -552,7 +552,8 @@ ul {
   cursor: pointer;
 }
 
-.cat-info {
+.cat-info,
+.label-git-org {
   width: auto;
   display: flex;
   flex-direction: row;
@@ -575,7 +576,9 @@ ul {
 }
 
 .cat-info:hover,
-.cat-info:focus {
+.cat-info:focus,
+.label-git-org:hover,
+.label-git-org:focus {
   color: #212121;
   background-color: rgba(240, 240, 240, 1);
 }
