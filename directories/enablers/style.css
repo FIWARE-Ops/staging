@@ -28,7 +28,7 @@ ul {
 .cover-cta {
   display: flex;
   flex-direction: row;
-  gap: 30px;
+  gap: 20px;
 }
 
 .cover-image img {
