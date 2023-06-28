@@ -579,7 +579,7 @@ h6 {
 .icons {
   padding-top: 15px;
   margin-top: 20px;
-  border-top: 1px solid #c6c6c6;
+  border-top: 1px solid #ccc;
   display: flex;
   flex-direction: row;
   gap: 0px;
