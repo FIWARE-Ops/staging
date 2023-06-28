@@ -72,13 +72,10 @@ ul {
   transition: all 0.3s ease-in-out;
 }
 
-.cover-cta .details-negative:hover {
+.cover-cta .details-negative:hover,
+.cover-cta .details-negative:focus {
   background: rgba(255,255,255,1);
   color: #002E67 !important;
-}
-
-.cover-cta .details-negative:any-link {
-  color: #fff !important;
 }
 
 
