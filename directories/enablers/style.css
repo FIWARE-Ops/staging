@@ -1322,7 +1322,7 @@ input[type="search"]::placeholder {
 
 .tingle-modal .bio-modal p,
 .tingle-modal-box__content .content {
-  max-height: 168px;
+  max-height: 470px;
   overflow: auto;
   display: flex;
   flex-direction: column;
