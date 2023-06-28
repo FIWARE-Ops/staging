@@ -78,29 +78,38 @@ var modalData = [
     {
         name: 'Core Context Management',
         type: 'Core Context',
-        badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg'/>",
-        content: '<p></p>'
+        badge:
+            "<img decoding='async' class='cat-logo' src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg'>",
+        content:
+            '<p>A Context Broker component is the core and mandatory component of any “Powered by FIWARE” platform or solution. It enables to manage context information in a highly decentralised and large-scale manner. A wide variety of Data Connectors are also available.</p>'
     },
     {
         name: 'Context Processing, Analysis and Visualisation',
-        badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_ProcessingAnalysis.svg'/>",
-        content: '<p></p>'
+        badge:
+            "<img decoding='async' class='cat-logo' src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_ProcessingAnalysis.svg'><img decoding='async' class='cat-logo' src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Visualization.svg'>",
+        content:
+            '<p>A number of Generic Enablers are available making it easier to process, analyze or visualize context information for the purpose of implementing the feedback loop expected in any “smart” application.</p>'
     },
 
     {
         name: 'Interface with IoT, Robots and Third-Party Systems',
-        badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_IoTAgents.svg'/>",
-        content: '<p></p>'
+        badge:
+            "<img decoding='async' class='cat-logo' src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_IOTAgents.svg'><img decoding='async' class='cat-logo' src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_MediaStreams.svg'><img decoding='async' class='cat-logo' src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Robotics.svg'><img decoding='async' class='cat-logo' src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_ThirdParty.svg'>",
+        content:
+            '<p>A number of Generic Enablers are available making it easier to interface with the Internet of Things, Robots and Third-party systems for the purpose of gathering valuable context information or trigger actuations in response to context updates.</p>'
     },
     {
         name: 'Context Data/API Management, Publication and Monetization',
-        badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_APIManagement.svg'/>",
-        content: '<p></p>'
+        badge:
+            "<img decoding='async' class='cat-logo' src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_APIManagement.svg'><img decoding='async' class='cat-logo' src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_DataMonetization.svg'><img decoding='async' class='cat-logo' src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_DataPublication.svg'><img decoding='async' class='cat-logo' src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Security.svg'>",
+        content:
+            '<p>Context data resources can be published in common data formats or a fee charged for access. You should secure access to services within a “Powered by FIWARE” architecture by using Security components.</p>'
     },
     {
         name: 'Deployment Tools',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_DeploymentTools.svg'/>",
-        content: '<p></p>'
+        content:
+            '<p>FIWARE components can be deployed using standard containerisation techniques. Most components are directly available as Docker Images. For proper scalable solutions, Helm Charts also are available.</p>'
     },
     {
         name: 'Orion',
@@ -399,7 +408,7 @@ var modalData = [
         name: 'Kurento',
         img: 'https://www.fiware.org/wp-content/directories/organisations/images/naeva-tec.png',
         type: 'Media Streams',
-        badge: '<b>Media Streams</b>',
+        badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_MediaStreams.svg'/>",
         content: '',
         domain: 'Media Server',
         technology: 'WebRTC',
@@ -412,7 +421,7 @@ var modalData = [
         name: 'OpenVidu',
         img: 'https://www.fiware.org/wp-content/directories/organisations/images/naeva-tec.png',
         type: 'Media Streams',
-        badge: '<b>Media Streams</b>',
+        badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_MediaStreams.svg'/>",
         content: '',
         domain: 'Video Filters',
         technology: 'WebRTC',

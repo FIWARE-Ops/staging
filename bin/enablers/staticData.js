@@ -16,6 +16,9 @@ function getBadge(type) {
         case 'Robotics':
             badge = `<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Robotics.svg'/>`;
             break;
+        case 'Media Streams':
+            badge = `<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_MediaStreams.svg'/>`;
+            break;
         case 'Security':
             badge = `<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Security.svg'/>`;
             break;
