@@ -121,7 +121,8 @@ var modalData = [
         gitHub: 'https://github.com/telefonicaid/fiware-orion/',
         gitHubOrg: 'https://github.com/telefonicaid/',
         docker: 'https://quay.io/repository/fiware/orion',
-        documentation: 'https://fiware-orion.rtfd.io/'
+        documentation: 'https://fiware-orion.rtfd.io/',
+        status: 'Full'
     },
     {
         name: 'Orion-LD',
@@ -138,7 +139,8 @@ var modalData = [
         gitHub: 'https://github.com/FIWARE/context.Orion-LD',
         gitHubOrg: 'https://github.com/FIWARE/',
         docker: 'https://quay.io/repository/fiware/orion-ld',
-        documentation: 'https://github.com/FIWARE/context.Orion-LD/tree/develop/doc/manuals-ld'
+        documentation: 'https://github.com/FIWARE/context.Orion-LD/tree/develop/doc/manuals-ld',
+        status: 'Full'
     },
     {
         name: 'Scorpio',
@@ -155,7 +157,8 @@ var modalData = [
         gitHub: 'https://github.com/ScorpioBroker/ScorpioBroker',
         gitHubOrg: 'https://github.com/ScorpioBroker',
         docker: 'https://cloud.docker.com/u/scorpiobroker/',
-        documentation: 'https://scorpio.rtfd.io/'
+        documentation: 'https://scorpio.rtfd.io/',
+        status: 'Full'
     },
     {
         name: 'Stellio',
@@ -172,7 +175,8 @@ var modalData = [
         gitHub: 'https://github.com/stellio-hub/stellio-context-broker',
         gitHubOrg: 'https://github.com/stellio-hub',
         docker: 'https://hub.docker.com/orgs/stellio/repositories/',
-        documentation: 'https://stellio.rtfd.io/'
+        documentation: 'https://stellio.rtfd.io/',
+        status: 'Full'
     },
     {
         name: 'NGSI-JS',
@@ -188,7 +192,8 @@ var modalData = [
         gitHub: 'https://github.com/Ficodes/ngsijs',
         gitHubOrg: 'https://github.com/Ficodes',
         docker: 'https://quay.io/repository/fiware/ngsiproxy',
-        documentation: ''
+        documentation: '',
+        status: 'Full'
     },
     {
         name: 'STH-Comet',
@@ -205,7 +210,8 @@ var modalData = [
         gitHub: 'https://github.com/telefonicaid/fiware-sth-comet',
         gitHubOrg: 'https://github.com/telefonicaid/',
         docker: 'https://quay.io/repository/fiware/sth-comet',
-        documentation: 'https://fiware-sth-comet.rtfd.io/'
+        documentation: 'https://fiware-sth-comet.rtfd.io/',
+        status: 'Full'
     },
     {
         name: 'Cygnus',
@@ -222,7 +228,8 @@ var modalData = [
         gitHub: 'https://github.com/telefonicaid/fiware-cygnus',
         gitHubOrg: 'https://github.com/telefonicaid/',
         docker: 'https://quay.io/repository/fiware/cygnus-ngsi',
-        documentation: 'https://fiware-cygnus.rtfd.io/'
+        documentation: 'https://fiware-cygnus.rtfd.io/',
+        status: 'Full'
     },
     {
         name: 'Draco',
@@ -239,7 +246,8 @@ var modalData = [
         gitHub: 'https://github.com/ging/fiware-draco',
         gitHubOrg: 'https://github.com/ging',
         docker: 'https://quay.io/repository/fiware/draco',
-        documentation: 'https://fiware-draco.rtfd.io/'
+        documentation: 'https://fiware-draco.rtfd.io/',
+        status: 'Full'
     },
     {
         name: 'Cosmos Flink',
@@ -255,7 +263,8 @@ var modalData = [
         gitHub: 'https://github.com/ging/fiware-cosmos-orion-flink-connector/',
         gitHubOrg: 'https://github.com/ging/',
         docker: '',
-        documentation: 'https://fiware-cosmos-flink.readthedocs.io/'
+        documentation: 'https://fiware-cosmos-flink.readthedocs.io/',
+        status: 'Full'
     },
     {
         name: 'Cosmos Spark',
@@ -271,7 +280,8 @@ var modalData = [
         gitHub: 'https://github.com/ging/fiware-cosmos-orion-spark-connector',
         gitHubOrg: 'https://github.com/ging/',
         docker: '',
-        documentation: 'https://fiware-cosmos-spark.readthedocs.io/'
+        documentation: 'https://fiware-cosmos-spark.readthedocs.io/',
+        status: 'Full'
     },
     {
         name: 'QuantumLeap',
@@ -287,7 +297,8 @@ var modalData = [
         gitHub: 'https://github.com/smartsdk/ngsi-timeseries-api',
         gitHubOrg: 'https://github.com/smartsdk',
         docker: 'https://quay.io/repository/fiware/quantumleap',
-        documentation: 'https://quantumleap.rtfd.io/'
+        documentation: 'https://quantumleap.rtfd.io/',
+        status: 'Full'
     },
     {
         name: 'PySpark Connector',
@@ -303,7 +314,8 @@ var modalData = [
         gitHub: 'https://github.com/Engineering-Research-and-Development/fiware-orion-pyspark-connector',
         gitHubOrg: 'https://github.com/Engineering-Research-and-Development',
         docker: 'https://hub.docker.com/r/rdlabengpa/fiware-orion-pyspark-connector',
-        documentation: 'https://fiware-orion-pyspark-connector.readthedocs.io/'
+        documentation: 'https://fiware-orion-pyspark-connector.readthedocs.io/',
+        status: 'Incubating'
     },
     {
         name: 'Canis Major',
@@ -319,7 +331,8 @@ var modalData = [
         gitHub: 'https://github.com/FIWARE/CanisMajor',
         gitHubOrg: 'https://github.com/FIWARE/',
         docker: 'https://quay.io/repository/fiware/canis-major',
-        documentation: 'https://fiware.github.io/CanisMajor/'
+        documentation: 'https://fiware.github.io/CanisMajor/',
+        status: 'Incubating'
     },
     {
         name: 'Apollo',
@@ -335,7 +348,8 @@ var modalData = [
         gitHub: 'https://github.com/FIWARE/apollo',
         gitHubOrg: 'https://github.com/FIWARE/',
         docker: 'https://quay.io/repository/fiware/apollo',
-        documentation: 'https://github.com/FIWARE/apollo/README.md'
+        documentation: 'https://github.com/FIWARE/apollo/README.md',
+        status: 'Incubating'
     },
     {
         name: 'O2K Connector',
@@ -352,7 +366,8 @@ var modalData = [
         gitHubOrg: 'https://github.com/Engineering-Research-and-Development',
         docker: '',
         documentation:
-            'https://github.com/FIWARE/catalogue/blob/master/core/Engineering-Research-and-Development/o2k-connector/README.md'
+            'https://github.com/FIWARE/catalogue/blob/master/core/Engineering-Research-and-Development/o2k-connector/README.md',
+        status: 'Incubating'
     },
     {
         name: 'IoT Agent for JSON',
@@ -368,7 +383,8 @@ var modalData = [
         gitHub: 'https://github.com/telefonicaid/iotagent-json',
         gitHubOrg: 'https://github.com/telefonicaid/',
         docker: '',
-        documentation: ''
+        documentation: '',
+        status: 'Full'
     },
     {
         name: 'IoT Agent for LWM2M',
@@ -384,7 +400,8 @@ var modalData = [
         gitHub: 'https://github.com/telefonicaid/lightweightm2m-iotagent',
         gitHubOrg: 'https://github.com/telefonicaid/',
         docker: '',
-        documentation: ''
+        documentation: '',
+        status: 'Full'
     },
     {
         name: 'IoT Agent for Ultralight',
@@ -400,7 +417,8 @@ var modalData = [
         gitHub: 'https://github.com/telefonicaid/iotagent-ul',
         gitHubOrg: 'https://github.com/telefonicaid/',
         docker: '',
-        documentation: ''
+        documentation: '',
+        status: 'Full'
     },
     {
         name: 'IoT Agent for LoRaWAN',
@@ -416,7 +434,8 @@ var modalData = [
         gitHub: 'https://github.com/Atos-Research-and-Innovation/IoTagent-LoRaWAN',
         gitHubOrg: 'https://github.com/telefonicaid/',
         docker: '',
-        documentation: ''
+        documentation: '',
+        status: 'Full'
     },
     {
         name: 'IoT Agent for OPC-UA',
@@ -432,7 +451,8 @@ var modalData = [
         gitHub: 'https://github.com/Engineering-Research-and-Development/iotagent-opcua',
         gitHubOrg: 'https://github.com/Engineering-Research-and-Development',
         docker: '',
-        documentation: ''
+        documentation: '',
+        status: 'Full'
     },
     {
         name: 'IoT Agent for Sigfox',
@@ -448,7 +468,8 @@ var modalData = [
         gitHub: 'https://github.com/telefonicaid/sigfox-iotagent',
         gitHubOrg: 'https://github.com/telefonicaid/',
         docker: '',
-        documentation: ''
+        documentation: '',
+        status: 'Full'
     },
     {
         name: 'IoT Agent for ISOXML',
@@ -464,7 +485,8 @@ var modalData = [
         gitHub: 'https://github.com/FIWARE/iotagent-isoxml',
         gitHubOrg: 'https://github.com/FIWARE/',
         docker: '',
-        documentation: ''
+        documentation: '',
+        status: 'Incubating'
     },
     {
         name: 'IoT Agent library',
@@ -480,7 +502,8 @@ var modalData = [
         gitHub: 'https://github.com/telefonicaid/iotagent-node-lib',
         gitHubOrg: 'https://github.com/telefonicaid/',
         docker: '',
-        documentation: ''
+        documentation: '',
+        status: 'Full'
     },
     {
         name: 'Kurento',
@@ -496,7 +519,8 @@ var modalData = [
         gitHub: 'https://github.com/Kurento/kurento-media-server.',
         gitHubOrg: 'https://github.com/Kurento',
         docker: '',
-        documentation: ''
+        documentation: '',
+        status: 'Full'
     },
     {
         name: 'OpenVidu',
@@ -512,7 +536,8 @@ var modalData = [
         gitHub: 'https://github.com/OpenVidu/openvidu',
         gitHubOrg: 'https://github.com/OpenVidu/',
         docker: '',
-        documentation: ''
+        documentation: '',
+        status: 'Full'
     },
     {
         name: 'OpenMTC',
@@ -528,7 +553,8 @@ var modalData = [
         gitHub: 'https://github.com/OpenMTC/OpenMTC',
         gitHubOrg: 'https://github.com/OpenMTC',
         docker: '',
-        documentation: ''
+        documentation: '',
+        status: 'Incubating'
     },
     {
         name: 'Fast DDS',
@@ -544,7 +570,8 @@ var modalData = [
         gitHub: 'https://github.com/eProsima/Fast-DDS',
         gitHubOrg: 'https://github.com/eProsima',
         docker: '',
-        documentation: ''
+        documentation: '',
+        status: 'Incubating'
     },
     {
         name: 'Micro XRCE-DDS',
@@ -560,7 +587,8 @@ var modalData = [
         gitHub: 'https://github.com/eProsima/Micro-XRCE-DDS',
         gitHubOrg: 'https://github.com/eProsima',
         docker: '',
-        documentation: ''
+        documentation: '',
+        status: 'Incubating'
     },
     {
         name: 'FIROS',
@@ -576,7 +604,8 @@ var modalData = [
         gitHub: 'https://github.com/iml130/firos',
         gitHubOrg: 'https://github.com/iml130',
         docker: '',
-        documentation: ''
+        documentation: '',
+        status: 'Incubating'
     },
     {
         name: 'Domibus',
@@ -592,7 +621,8 @@ var modalData = [
         gitHub: 'https://ec.europa.eu/digital-building-blocks/code/scm/edelivery/domibus.git',
         gitHubOrg: 'https://ec.europa.eu/digital-building-blocks',
         docker: '',
-        documentation: ''
+        documentation: '',
+        status: 'Incubating'
     },
     {
         name: 'Oliot',
@@ -608,7 +638,8 @@ var modalData = [
         gitHub: 'https://github.com/yalewkidane/FIWARE_EPCIS_Mediation_Gateway',
         gitHubOrg: 'https://github.com/yalewkidane',
         docker: '',
-        documentation: ''
+        documentation: '',
+        status: 'Incubating'
     },
     {
         name: 'Wirecloud',
@@ -624,7 +655,8 @@ var modalData = [
         gitHub: 'https://github.com/Wirecloud/wirecloud',
         gitHubOrg: 'https://github.com/Ficodes',
         docker: '',
-        documentation: ''
+        documentation: '',
+        status: 'Full'
     },
     {
         name: 'FogFlow',
@@ -640,7 +672,8 @@ var modalData = [
         gitHub: 'https://github.com/smartfog/fogflow',
         gitHubOrg: 'https://github.com/smartfog',
         docker: '',
-        documentation: ''
+        documentation: '',
+        status: 'Full'
     },
     {
         name: 'Perseo',
@@ -656,7 +689,8 @@ var modalData = [
         gitHub: 'https://github.com/telefonicaid/perseo-fe',
         gitHubOrg: 'https://github.com/telefonicaid/',
         docker: '',
-        documentation: ''
+        documentation: '',
+        status: 'Incubating'
     },
     {
         name: 'Keyrock',
@@ -672,7 +706,8 @@ var modalData = [
         gitHub: 'https://github.com/ging/fiware-idm',
         gitHubOrg: 'https://github.com/ging',
         docker: '',
-        documentation: ''
+        documentation: '',
+        status: 'Full'
     },
     {
         name: 'Wilma',
@@ -688,7 +723,8 @@ var modalData = [
         gitHub: 'https://github.com/ging/fiware-pep-proxy',
         gitHubOrg: 'https://github.com/ging',
         docker: '',
-        documentation: ''
+        documentation: '',
+        status: 'Full'
     },
     {
         name: 'AuthZForce',
@@ -704,7 +740,8 @@ var modalData = [
         gitHub: 'https://github.com/authzforce/server',
         gitHubOrg: 'https://github.com/authzforce',
         docker: '',
-        documentation: ''
+        documentation: '',
+        status: 'Full'
     },
     {
         name: 'TRUE Connector',
@@ -720,7 +757,8 @@ var modalData = [
         gitHub: 'https://github.com/Engineering-Research-and-Development/fiware-true-connector',
         gitHubOrg: 'https://github.com/Engineering-Research-and-Development',
         docker: '',
-        documentation: ''
+        documentation: '',
+        status: 'Incubating'
     },
     {
         name: 'Steelskin',
@@ -736,7 +774,8 @@ var modalData = [
         gitHub: 'https://github.com/telefonicaid/fiware-pep-steelskin',
         gitHubOrg: 'https://github.com/telefonicaid/',
         docker: '',
-        documentation: ''
+        documentation: '',
+        status: 'Incubating'
     },
     {
         name: 'Keypass',
@@ -752,7 +791,8 @@ var modalData = [
         gitHub: 'https://github.com/telefonicaid/fiware-keypass',
         gitHubOrg: 'https://github.com/telefonicaid/',
         docker: '',
-        documentation: ''
+        documentation: '',
+        status: 'Incubating'
     },
     {
         name: 'Keystone SCIM',
@@ -768,7 +808,8 @@ var modalData = [
         gitHub: 'https://github.com/telefonicaid/fiware-keystone-scim',
         gitHubOrg: 'https://github.com/telefonicaid/',
         docker: '',
-        documentation: ''
+        documentation: '',
+        status: 'Incubating'
     },
     {
         name: 'Keystone SPASSWORD',
@@ -784,7 +825,8 @@ var modalData = [
         gitHub: 'https://github.com/telefonicaid/fiware-keystone-spassword',
         gitHubOrg: 'https://github.com/telefonicaid/',
         docker: '',
-        documentation: ''
+        documentation: '',
+        status: 'Incubating'
     },
     {
         name: 'CKAN extensions',
@@ -800,7 +842,8 @@ var modalData = [
         gitHub: 'https://github.com/conwetlab/FIWARE-CKAN-Extensions',
         gitHubOrg: 'https://github.com/Ficodes',
         docker: '',
-        documentation: ''
+        documentation: '',
+        status: 'Full'
     },
     {
         name: 'Biz Framework',
@@ -816,7 +859,8 @@ var modalData = [
         gitHub: 'https://github.com/FIWARE-TMForum/Business-API-Ecosystem',
         gitHubOrg: 'https://github.com/Ficodes',
         docker: '',
-        documentation: ''
+        documentation: '',
+        status: 'Full'
     },
     {
         name: 'Idra',
@@ -832,7 +876,8 @@ var modalData = [
         gitHub: 'https://github.com/OPSILab/Idra',
         gitHubOrg: 'https://github.com/Engineering-Research-and-Development',
         docker: '',
-        documentation: ''
+        documentation: '',
+        status: 'Full'
     },
     {
         name: 'APInf',
@@ -848,7 +893,8 @@ var modalData = [
         gitHub: 'https://github.com/FIWARE/api-umbrella',
         gitHubOrg: 'https://github.com/FIWARE/',
         docker: '',
-        documentation: ''
+        documentation: '',
+        status: 'Incubating'
     },
     {
         name: 'CoatRack',
@@ -864,7 +910,8 @@ var modalData = [
         gitHub: 'https://github.com/coatrack/coatrack',
         gitHubOrg: 'https://github.com/coatrack/',
         docker: '',
-        documentation: ''
+        documentation: '',
+        status: 'Incubating'
     },
     {
         name: 'Endpoint-Auth-Service',
@@ -880,7 +927,8 @@ var modalData = [
         gitHub: 'https://github.com/FIWARE/endpoint-auth-service',
         gitHubOrg: 'https://github.com/FIWARE/',
         docker: '',
-        documentation: ''
+        documentation: '',
+        status: 'Incubating'
     },
     {
         name: 'Kong Plugins',
@@ -896,6 +944,7 @@ var modalData = [
         gitHub: 'https://github.com/FIWARE/kong-plugins-fiware',
         gitHubOrg: 'https://github.com/FIWARE/',
         docker: '',
-        documentation: ''
+        documentation: '',
+        status: 'Incubating'
     }
 ];
