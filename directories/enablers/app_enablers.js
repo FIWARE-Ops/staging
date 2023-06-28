@@ -94,7 +94,7 @@ function createModalContent(tingleModalData) {
 
   modalHtml = `
   <div class="info-modal">
-    <div class="credits-modal">
+    <div class="credits-modal main-chapter ${tingleModalData.chapter}">
       <div class="title-modal">
         <h1>${tingleModalData.name}</h1>`;
         if (tingleModalData.company ) {
