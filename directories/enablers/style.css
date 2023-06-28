@@ -1413,6 +1413,19 @@ input[type="search"]::placeholder {
   padding: 0 0 5px;
 }
 
+.tingle-modal li a {
+  font-size: 15px;
+  line-height: 1.4em;
+  text-decoration: underline;
+  font-weight: 600;
+  color: #002E67;
+  transition: color 0.2s ease-in-out;
+}
+
+.tingle-modal li a {
+  color: #002452;
+}
+
 /* Carousel */
 
 .item {
