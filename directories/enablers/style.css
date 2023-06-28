@@ -1418,7 +1418,7 @@ input[type="search"]::placeholder {
   font-size: 15px;
   line-height: 1.4em;
   text-decoration: underline;
-  font-weight: 600;
+  font-weight: 500;
   color: #002E67;
   transition: color 0.2s ease-in-out;
 }
