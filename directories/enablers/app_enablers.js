@@ -98,18 +98,25 @@ function createModalContent(tingleModalData) {
       <h1>${tingleModalData.name}</h1>
         <div class="attributes-modal">`;
           if (tingleModalData.badge ) {
- 
             modalHtml += `<div class="label-type">
             ${tingleModalData.badge}
             </div>`;
           }
+          if (tingleModalData.status === 'Full' ) {
+            modalHtml += `<div class="label-status">
+            <img src="https://www.fiware.org/style/imgs/Badges/Badge_GEStatus_FullMember.svg"/>
+            </div>`;
+          }
+          if (tingleModalData.status === 'Incubating' ) {
+            modalHtml += `<div class="label-type">
+            <img src="https://www.fiware.org/style/imgs/Badges/Badge_GEStatus_Incubating.svg"/>
+            </div>`;
+          }
+
           if (tingleModalData.company ) {
  
             modalHtml += `<div class="label-git-org">
-              <span class="material-symbols-outlined">handyman</span>&nbsp;`;
-             if (tingleModalData.img) {
-               modalHtml += `<img href="${tingleModalData.img}"/>`;
-            }
+              <span class="material-symbols-outlined">handyman</span>`;
             modalHtml += `<a target="_blank" href="${tingleModalData.gitHubOrg}">${tingleModalData.company}`
             if (tingleModalData.companyType) {
                modalHtml += ` ${tingleModalData.companyType}`;
@@ -124,26 +131,30 @@ function createModalContent(tingleModalData) {
   if (tingleModalData.content !== '') {
     modalHtml += tingleModalData.content.replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&');
   }
-  modalHtml += `</div><div class="foot-modal">`;
-  if(tingleModalData.gitHub){
-    modalHtml +=  `<a class="cat-info" target="_blank" href="${tingleModalData.gitHub}">
-        <img class="ico-github" src="https://www.fiware.org/wp-content/directories/enablers/images/mark-github.svg">
-        GitHub
-    </a>`
-  }
-  if(tingleModalData.docker){
-    modalHtml +=  `<a class="cat-info" target="_blank" href="${tingleModalData.docker}">
-        <img class="ico-docker" src="https://www.fiware.org/wp-content/directories/enablers/images/mark-docker.svg">
-        Docker
-    </a>`
-  }
+  modalHtml += `</div>`;
 
-   if(tingleModalData.documentation){
-    modalHtml +=  `<a class="cat-details-primary"" target="_blank" href="${tingleModalData.documentation}">
-        <span class="material-symbols-outlined">description</span>
-        Docs
-    </a>`
-  }
+  if(tingleModalData.gitHub || tingleModalData.docker  ||  tingleModalData.documentation ){
+      modalHtml += `<div class="foot-modal">`;
+      if(tingleModalData.gitHub){
+        modalHtml +=  `<a class="cat-info" target="_blank" href="${tingleModalData.gitHub}">
+            <img class="ico-github" src="https://www.fiware.org/wp-content/directories/enablers/images/mark-github.svg">
+            GitHub
+        </a>`
+      }
+      if(tingleModalData.docker){
+        modalHtml +=  `<a class="cat-info" target="_blank" href="${tingleModalData.docker}">
+            <img class="ico-docker" src="https://www.fiware.org/wp-content/directories/enablers/images/mark-docker.svg">
+            Docker
+        </a>`
+      }
+
+       if(tingleModalData.documentation){
+        modalHtml +=  `<a class="cat-details-primary"" target="_blank" href="${tingleModalData.documentation}">
+            <span class="material-symbols-outlined">description</span>
+            Docs
+        </a>`
+      }
+   }
     
     modalHtml += `</div>
   </div>
