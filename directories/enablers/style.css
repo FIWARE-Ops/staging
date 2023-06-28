@@ -1304,8 +1304,11 @@ input[type="search"]::placeholder {
 
 .tingle-modal .bio-modal p,
 .tingle-modal-box__content .content {
-  max-height: 192px;
+  max-height: 168px;
   overflow: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .tingle-modal .bio-modal p {
