@@ -1165,7 +1165,11 @@ input[type="search"]::placeholder {
   font-size: 15px;
   line-height: 1.4em;
   color: #2d2d2d;
-  padding-bottom: 20px !important;
+  padding-bottom: 10px !important;
+  scrollbar-width: thin;
+  /* "auto" or "thin" */
+  scrollbar-color: #e5f5f7 transparent;
+  /* scroll thumb and track */
 }
 
 .tingle-modal--visible {
@@ -1327,19 +1331,14 @@ input[type="search"]::placeholder {
   display: flex;
   flex-direction: column;
 }
-
-.tingle-modal .bio-modal p {
+/*.tingle-modal .bio-modal p {
   max-height: 254px;
   overflow: auto;
   font-size: 15px;
   line-height: 1.6em;
   color: #2d2d2d;
   padding-right: 15px;
-  scrollbar-width: thin;
-  /* "auto" or "thin" */
-  scrollbar-color: #e5f5f7 transparent;
-  /* scroll thumb and track */
-}
+} */
 
 .tingle-modal .bio-modal p::-webkit-scrollbar {
   width: 8px;
