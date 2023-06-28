@@ -562,7 +562,7 @@ ul {
   color: #212121;
   background-color: rgba(240, 240, 240, 0);
   padding: 5px 10px;
-  margin-right: 15px;
+  /* margin-right: 15px; */
   border-radius: 4px;
   transition: background-color 0.2s linear;
   cursor: pointer;
