@@ -108,6 +108,7 @@ ul {
   transition: all 0.4s;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0) !important;
   transition: box-shadow 0.2s;
+  min-height: auto;
 }
 
 .grid-item.main-chapter.core,
