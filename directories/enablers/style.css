@@ -1152,10 +1152,6 @@ input[type="search"]::placeholder {
   padding-bottom: 20px !important;
 }
 
-.tingle-modal p:last-of-type {
-  padding-bottom: 0px !important;
-}
-
 .tingle-modal--visible {
   z-index: 99999;
 }
@@ -1355,8 +1351,9 @@ input[type="search"]::placeholder {
   padding-bottom: 20px;
 }
 
-.bullets p {
-  padding-bottom: 5px;
+.tingle-modal p:last-of-type,
+.bullets p:last-of-type {
+  padding-bottom: 5px!important;
 }
 
 .bullet {
