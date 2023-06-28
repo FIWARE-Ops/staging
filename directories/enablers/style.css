@@ -552,8 +552,7 @@ ul {
 }
 
 .cat-info,
-.label-git-org,
-.label-git-org a {
+.label-git-org {
   width: auto;
   display: flex;
   flex-direction: row;
@@ -567,6 +566,22 @@ ul {
   border-radius: 4px;
   transition: background-color 0.2s linear;
   cursor: pointer;
+}
+
+.label-git-org a {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  font-size: 15px;
+  color: #212121 !important;
+  background-color: rgba(240, 240, 240, 0);
+  /* padding: 5px 10px;
+  margin-right: 15px;
+  border-radius: 4px;
+  transition: background-color 0.2s linear;
+  cursor: pointer; */
 }
 
 .cat-details:hover,
