@@ -85,6 +85,8 @@ ul {
   margin: 0 8px 18px !important;
   border: 1px solid #ccc;
   transition: all 0.4s;
+  box-shadow: 0 0 0 0 rgb(0 0 0 / 10%);
+  transition: box-shadow 0.2s;
 }
 
 .grid-item.main-chapter.core {
@@ -126,7 +128,8 @@ ul {
   cursor: default;
 }
 
-.grid-item:hover {
+.grid-item:hover,
+.grid-item.main-chapter:hover {
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1) !important;
 }
 
@@ -135,12 +138,8 @@ ul {
   flex-direction: row;
   align-items: center;
   gap: 10px;
-  box-shadow: 0 0 0 0 rgb(0 0 0 / 10%);
-  transition: box-shadow 0.2s;
-  /* border: 1px solid #002e67; */
   border-radius: 4px;
   padding: 15px 0px 15px 15px;
-  /* background: rgba(0, 46, 103, .1); */
 }
 
 .f-cat:hover {
