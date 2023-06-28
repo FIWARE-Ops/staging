@@ -323,7 +323,7 @@ h6 {
   /*transform: scale(0.99);*/
 }
 
-.chips::-webkit-scrollbar {
+.chips::-webkit-scrollbar, .badges::-webkit-scrollbar {
   display: none;
 }
 
