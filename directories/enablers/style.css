@@ -1181,14 +1181,14 @@ input[type="search"]::placeholder {
 .tingle-modal h5 {
   font-weight: 600;
   padding-top: 1em !important;
-  padding-bottom: .5em !important;
+  padding-bottom: 0em !important;
 }
 
 .tingle-modal p {
   font-size: 15px;
   line-height: 1.4em;
   color: #2d2d2d;
-  padding-bottom: 10px !important;
+  /* padding-bottom: 10px !important; */
   scrollbar-width: thin;
   /* "auto" or "thin" */
   scrollbar-color: #e5f5f7 transparent;
@@ -1364,6 +1364,7 @@ input[type="search"]::placeholder {
   overflow: auto;
   display: flex;
   flex-direction: column;
+  gap: .5em;
 }
 
 /*.tingle-modal .bio-modal p {
@@ -1396,7 +1397,7 @@ input[type="search"]::placeholder {
 
 .bullets,
 .tingle-modal ul {
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
 }
 
 .tingle-modal p:last-of-type,
