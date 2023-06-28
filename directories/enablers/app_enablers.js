@@ -127,20 +127,20 @@ function createModalContent(tingleModalData) {
   modalHtml += `</div><div class="foot-modal">`;
   if(tingleModalData.gitHub){
     modalHtml +=  `<a class="cat-info" target="_blank" href="${tingleModalData.gitHub}">
-        <img class="ico-github" src="">
+        <img class="ico-github" src="https://www.fiware.org/wp-content/directories/enablers/images/mark-github.svg">
         GitHub
     </a>`
   }
   if(tingleModalData.docker){
     modalHtml +=  `<a class="cat-info" target="_blank" href="${tingleModalData.docker}">
-        <img class="ico-docker" src="">
+        <img class="ico-docker" src="https://www.fiware.org/wp-content/directories/enablers/images/mark-docker.svg">
         Docker
     </a>`
   }
 
    if(tingleModalData.documentation){
-    modalHtml +=  `<a class="cat-info" target="_blank" href="${tingleModalData.documentation}">
-        <img class="ico-docs" src="">
+    modalHtml +=  `<a class="cat-details-primary"" target="_blank" href="${tingleModalData.documentation}">
+        <span class="material-symbols-outlined">description</span>
         Docs
     </a>`
   }
