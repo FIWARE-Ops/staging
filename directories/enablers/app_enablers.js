@@ -202,7 +202,7 @@ function filterToggle() {
       if (!filtersContainer.classList.contains("active")) {
         filtersContainer.classList.add("active");
         document.querySelector("#filter-button-text").innerText =
-          "Hide Filters";
+          "Search and Filter";
         filtersContainer.style.height = "auto";
 
         let height = filtersContainer.clientHeight + "px";
