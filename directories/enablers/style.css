@@ -25,6 +25,13 @@ ul {
   display: flex;
 }
 
+.et_pb_text_6.et_pb_module,
+.et_pb_code_5.et_pb_module,
+.et_pb_text_5.et_pb_module {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
 .cover-cta {
   display: flex;
   flex-direction: row;
