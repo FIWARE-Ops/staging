@@ -1307,8 +1307,8 @@ input[type="search"]::placeholder {
   color: #000;
   font-weight: 600;
   padding-top: 0px !important;
-  font-size: 1.2em;
-  line-height: 1.4em;
+  font-size: 17px;
+  line-height: 1.5em;
 }
 
 .tingle-modal h2 {
