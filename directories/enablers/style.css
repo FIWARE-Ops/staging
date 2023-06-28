@@ -1304,7 +1304,7 @@ input[type="search"]::placeholder {
 
 .tingle-modal .bio-modal p,
 .tingle-modal-box__content .content {
-  max-height: 250px;
+  max-height: 192px;
   overflow: auto;
 }
 
