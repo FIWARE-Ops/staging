@@ -1352,7 +1352,18 @@ input[type="search"]::placeholder {
 }
 
 .bullets {
-  padding-bottom:20px;
+  padding-bottom: 20px;
+}
+
+.bullets p {
+  padding-bottom: 5px;
+}
+
+.bullet {
+  font-size: 15px;
+  line-height: 1.4em;
+  color: #2d2d2d;
+  padding: 0 0 5px;
 }
 
 /* Carousel */
