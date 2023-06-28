@@ -1188,7 +1188,7 @@ input[type="search"]::placeholder {
   font-size: 15px;
   line-height: 1.4em;
   color: #2d2d2d;
-  /* padding-bottom: 10px !important; */
+  padding-bottom: 0px !important;
   scrollbar-width: thin;
   /* "auto" or "thin" */
   scrollbar-color: #e5f5f7 transparent;
