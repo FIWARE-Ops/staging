@@ -228,11 +228,11 @@ h6 {
   align-items: center;
   justify-content: flex-start;
   gap: 20px;
-  padding-top: 20px;
 }
 
 .label-summary {
-  min-height: 3.6em;
+  min-height: 2em;
+  height: 3.6em;
   overflow-y: scroll;
   margin-bottom: 10px !important;
 }
@@ -323,7 +323,7 @@ h6 {
   /*transform: scale(0.99);*/
 }
 
-.chips::-webkit-scrollbar, .badges::-webkit-scrollbar {
+.chips::-webkit-scrollbar {
   display: none;
 }
 
@@ -412,10 +412,6 @@ h6 {
   will-change: transform;
   user-select: none;
   cursor: grab;
-}
-
-.badges::-webkit-scrollbar {
-  display: none;
 }
 
 .badges-gradient {
@@ -1125,6 +1121,7 @@ input[type="search"]::placeholder {
 .tingle-modal h3,
 .tingle-modal h4,
 .tingle-modal h5 {
+  font-weight: 600;
   padding-bottom: 10px!important;
 }
 
@@ -1145,7 +1142,7 @@ input[type="search"]::placeholder {
 .tingle-modal-box {
   border-radius: 4px;
   background: #fff;
-  width: 560px;
+  width: 720px;
 }
 
 .info-modal {
@@ -1164,7 +1161,7 @@ input[type="search"]::placeholder {
 .credits-modal {
   display: flex;
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   flex-direction: column;
   gap: 20px;
 }
@@ -1173,18 +1170,22 @@ input[type="search"]::placeholder {
   vertical-align: middle;
   width: auto;
   height: 24px;
-  margin-bottom: 5px;
-  margin-right: 5px;
   /* border-radius: 100px;
-  border: 2px solid #000; */
+  border: 2px solid #000;
+  margin-right: 20px; */
+}
+
+.tingle-modal p {
+  color: #2d2d2d;
+  line-height: 1.5em;
 }
 
 .tingle-modal h1 {
   color: #002e67;
   font-weight: 600;
+  padding-bottom: 15px !important;
   border-bottom: 2px solid #002e67;
-  font-size: 1.2em;
-  line-height: 1.4em;
+  font-size: 1.8em;
 }
 
 .tingle-modal h2 {
