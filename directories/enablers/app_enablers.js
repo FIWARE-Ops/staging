@@ -106,7 +106,11 @@ function createModalContent(tingleModalData) {
           if (tingleModalData.company ) {
  
             modalHtml += `<div class="label-git-org">
-            <a target="_blank" href="${tingleModalData.gitHubOrg}">${tingleModalData.company}`
+              <span class="material-symbols-outlined">handyman</span>&nbsp;`;
+             if (tingleModalData.img) {
+               modalHtml += `<img href="${tingleModalData.img}"/>`;
+            }
+            modalHtml += `<a target="_blank" href="${tingleModalData.gitHubOrg}">${tingleModalData.company}`
             if (tingleModalData.companyType) {
                modalHtml += ` ${tingleModalData.companyType}`;
             }
@@ -123,20 +127,20 @@ function createModalContent(tingleModalData) {
   modalHtml += `</div><div class="foot-modal">`;
   if(tingleModalData.gitHub){
     modalHtml +=  `<a class="cat-info" target="_blank" href="${tingleModalData.gitHub}">
-        <span class="material-icons-outlined">play_arrow</span>
+        <img class="ico-github" src="">
         GitHub
     </a>`
   }
   if(tingleModalData.docker){
     modalHtml +=  `<a class="cat-info" target="_blank" href="${tingleModalData.docker}">
-        <span class="material-icons-outlined">play_arrow</span>
+        <img class="ico-docker" src="">
         Docker
     </a>`
   }
 
    if(tingleModalData.documentation){
     modalHtml +=  `<a class="cat-info" target="_blank" href="${tingleModalData.documentation}">
-        <span class="material-icons-outlined">play_arrow</span>
+        <img class="ico-docs" src="">
         Docs
     </a>`
   }
