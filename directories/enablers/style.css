@@ -1363,7 +1363,8 @@ input[type="search"]::placeholder {
   /* scroll thumb and track */
 }
 
-.bullets {
+.bullets,
+.tingle-modal .bio-modal ul {
   padding-bottom: 20px;
 }
 
@@ -1372,7 +1373,8 @@ input[type="search"]::placeholder {
   padding-bottom: 5px!important;
 }
 
-.bullet {
+.bullet,
+.tingle-modal .bio-modal li {
   font-size: 15px;
   line-height: 1.4em;
   color: #2d2d2d;
