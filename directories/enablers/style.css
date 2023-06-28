@@ -1236,6 +1236,7 @@ input[type="search"]::placeholder {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   padding-bottom: 15px !important;
   border-bottom: 1px solid #2d2d2d;
 }
