@@ -95,7 +95,19 @@ function createModalContent(tingleModalData) {
   modalHtml = `
   <div class="info-modal">
     <div class="credits-modal">
-      <h1>${tingleModalData.name}</h1>
+      <div class="title-modal">
+        <h1>${tingleModalData.name}</h1>`;
+        if (tingleModalData.company ) {
+            modalHtml += `<div class="label-git-org">
+              <span class="material-symbols-outlined">handyman</span>`;
+            modalHtml += `<a target="_blank" href="${tingleModalData.gitHubOrg}">${tingleModalData.company}`
+            if (tingleModalData.companyType) {
+               modalHtml += ` ${tingleModalData.companyType}`;
+            }
+            modalHtml +=`</a></div>`;
+          }
+      modalHtml += 
+       `</div>
         <div class="attributes-modal">`;
           if (tingleModalData.badge ) {
             modalHtml += `<div class="label-type">
@@ -113,16 +125,7 @@ function createModalContent(tingleModalData) {
             </div>`;
           }
 
-          if (tingleModalData.company ) {
- 
-            modalHtml += `<div class="label-git-org">
-              <span class="material-symbols-outlined">handyman</span>`;
-            modalHtml += `<a target="_blank" href="${tingleModalData.gitHubOrg}">${tingleModalData.company}`
-            if (tingleModalData.companyType) {
-               modalHtml += ` ${tingleModalData.companyType}`;
-            }
-            modalHtml +=`</a></div>`;
-          }
+          
     modalHtml += `</div>
       </div>
     </div>`;
