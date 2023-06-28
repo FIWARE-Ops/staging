@@ -250,7 +250,9 @@ h6 {
 .label-type {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
+  gap: 10px;
 }
 
 .label-type img {
