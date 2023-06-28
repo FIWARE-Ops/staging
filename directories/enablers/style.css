@@ -542,19 +542,7 @@ ul {
 }
 
 .cat-details a {
-  width: auto;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 5px;
-  font-size: 15px;
   color: #212121;
-  background-color: rgba(240, 240, 240, 0);
-  padding: 5px 10px;
-  /* margin-right: 15px; */
-  border-radius: 4px;
-  transition: background-color 0.2s linear;
-  cursor: pointer;
 }
 
 .cat-info,
@@ -576,7 +564,9 @@ ul {
 }
 
 .cat-details:hover,
-.cat-details:focus {
+.cat-details:focus,
+.cat-details a:hover,
+.cat-details a:focus {
   color: #212121;
   background-color: rgba(240, 240, 240, 0);
 }
