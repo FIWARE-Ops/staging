@@ -62,7 +62,7 @@ ul {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  background: rgba(255,255,255,0);
+  background: rgba(255, 255, 255, 0);
   padding: 10px 15px;
   border: 1px solid #fff;
   border-radius: 4px;
@@ -74,7 +74,7 @@ ul {
 
 .cover-cta .details-negative:hover,
 .cover-cta .details-negative:focus {
-  background: rgba(255,255,255,1);
+  background: rgba(255, 255, 255, 1);
   color: #002E67 !important;
 }
 
@@ -110,27 +110,32 @@ ul {
   transition: box-shadow 0.2s;
 }
 
-.grid-item.main-chapter.core, .credits-modal.core {
+.grid-item.main-chapter.core,
+.credits-modal.core {
   border: 1px solid #002e67;
   background: rgba(0, 46, 103, .1);
 }
 
-.grid-item.main-chapter.interface, .credits-modal.interface {
+.grid-item.main-chapter.interface,
+.credits-modal.interface {
   border: 1px solid #5dc0cf;
   background: rgba(93, 192, 207, .1);
 }
 
-.grid-item.main-chapter.context-processing, .credits-modal.context-processing {
+.grid-item.main-chapter.context-processing,
+.credits-modal.context-processing {
   border: 1px solid #9b6cc3;
   background: rgba(155, 108, 195, .1);
 }
 
-.grid-item.main-chapter.context-data, .credits-modal.context-data {
+.grid-item.main-chapter.context-data,
+.credits-modal.context-data {
   border: 1px solid #15a97c;
   background: rgba(21, 169, 124, .1);
 }
 
-.grid-item.main-chapter.deployment-tools, .credits-modal.deployment-tools {
+.grid-item.main-chapter.deployment-tools,
+.credits-modal.deployment-tools {
   border: 1px solid #b1b2b4;
   background: rgba(177, 178, 180, .1);
 }
@@ -470,8 +475,8 @@ ul {
 }
 
 .badge-spacer {
-    min-height: 2em;
-    min-width: 20em;
+  min-height: 2em;
+  min-width: 20em;
 }
 
 .cat-ico {
@@ -1861,10 +1866,11 @@ input[type="search"]::placeholder {
 
 @media only screen and (min-width: 769px) and (max-width: 1440px) {
 
-  .et_pb_column_7, .et_pb_column_6 {
+  .et_pb_column_7,
+  .et_pb_column_6 {
     flex-direction: column;
     align-items: flex-start;
-}
+  }
 
   .icons {
     flex-direction: row;
@@ -1881,10 +1887,11 @@ input[type="search"]::placeholder {
 
 @media (max-width: 768px) {
 
-  .et_pb_column_7, .et_pb_column_6 {
+  .et_pb_column_7,
+  .et_pb_column_6 {
     flex-direction: column;
     align-items: flex-start;
-}
+  }
 
   .grid-item {
     width: 100%;
