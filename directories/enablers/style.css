@@ -1192,11 +1192,12 @@ input[type="search"]::placeholder {
 }
 
 .tingle-modal h1 {
-  color: #002e67;
+  color: #000;
   font-weight: 600;
   padding-bottom: 15px !important;
-  border-bottom: 2px solid #002e67;
-  font-size: 1.8em;
+  border-bottom: 1px solid #2d2d2d;
+  font-size: 1.3em;
+  line-height: 1.5em;
 }
 
 .tingle-modal h2 {
