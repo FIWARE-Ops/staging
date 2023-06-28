@@ -83,7 +83,13 @@ ul {
 .grid-item.main-chapter {
   width: calc(50% - 16px);
   margin: 0 8px 18px !important;
-  border: none;
+  border: 1px solid #ccc;
+  transition: all 0.4s;
+}
+
+.grid-item.main-chapter.core {
+  border: 1px solid #002e67;
+  background: rgba(0, 46, 103, .1);
 }
 
 .grid-item.main-chapter.interface {
@@ -131,10 +137,10 @@ ul {
   gap: 10px;
   box-shadow: 0 0 0 0 rgb(0 0 0 / 10%);
   transition: box-shadow 0.2s;
-  border: 1px solid #002e67;
+  /* border: 1px solid #002e67; */
   border-radius: 4px;
   padding: 15px 0px 15px 15px;
-  background: rgba(0, 46, 103, .1);
+  /* background: rgba(0, 46, 103, .1); */
 }
 
 .f-cat:hover {
