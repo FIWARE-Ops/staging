@@ -83,7 +83,13 @@ ul {
 .grid-item.main-chapter {
   width: calc(50% - 16px);
   margin: 0 8px 18px !important;
-  border: none;
+  border: 1px solid #ccc;
+  transition: all 0.4s;
+}
+
+.grid-item.main-chapter.core {
+  border: 1px solid #002e67;
+  background: rgba(0, 46, 103, .1);
 }
 
 .grid-item.main-chapter.interface {
