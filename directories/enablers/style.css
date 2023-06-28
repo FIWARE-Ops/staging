@@ -74,10 +74,11 @@ ul {
 
 .cover-cta .details-negative:hover {
   background: rgba(255,255,255,1);
+  color: #002E67 !important;
 }
 
 .cover-cta .details-negative:any-link {
-  color: #fff !important;
+  color: #002E67 !important;
 }
 
 
