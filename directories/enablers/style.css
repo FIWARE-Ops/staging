@@ -1196,8 +1196,8 @@ input[type="search"]::placeholder {
   font-weight: 600;
   padding-bottom: 15px !important;
   border-bottom: 1px solid #2d2d2d;
-  font-size: 1.3em;
-  line-height: 1.5em;
+  font-size: 1.2em;
+  line-height: 1.4em;
 }
 
 .tingle-modal h2 {
