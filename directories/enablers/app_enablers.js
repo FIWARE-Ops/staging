@@ -103,6 +103,15 @@ function createModalContent(tingleModalData) {
             ${tingleModalData.badge}
             </div>`;
           }
+          if (tingleModalData.company ) {
+ 
+            modalHtml += `<div class="label-git-org">
+            <a target="_blank" href="${tingleModalData.gitHubOrg}">${tingleModalData.company}`
+            if (tingleModalData.companyType) {
+               modalHtml += ` ${tingleModalData.companyType}`;
+            }
+            modalHtml +=`</a></div>`;
+          }
     modalHtml += `</div>
       </div>
     </div>`;
