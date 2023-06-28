@@ -1158,7 +1158,8 @@ input[type="search"]::placeholder {
 .tingle-modal h4,
 .tingle-modal h5 {
   font-weight: 600;
-  padding-bottom: 5px !important;
+  padding-bottom: 1em !important;
+  padding-bottom: .5em !important;
 }
 
 .tingle-modal p {
