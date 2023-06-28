@@ -81,35 +81,34 @@ var modalData = [
         badge:
             "<img decoding='async' class='cat-logo' src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Core.svg'>",
         content:
-            '<p>This chapter contains:</p><ul><li>Context Brokers</li><li>Data Connectors</li></ul><p>A Context Broker component is the core and mandatory component of any “Powered by FIWARE” platform or solution. It enables to manage context information in a highly decentralised and large-scale manner. A wide variety of Data Connectors are also available.</p>'
+            "<div class='bullets'><p>This chapter contains:</p><ul><li class='bullet'>Context Brokers</li><li class='bullet'>Data Connectors</li></ul></div><p>A Context Broker component is the core and mandatory component of any “Powered by FIWARE” platform or solution. It enables to manage context information in a highly decentralised and large-scale manner. A wide variety of Data Connectors are also available.</p>"
+    },
+    {
+        name: 'Interface with IoT, Robots and Third-Party Systems',
+        badge:
+            "<img decoding='async' class='cat-logo' src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_IOTAgents.svg'><img decoding='async' class='cat-logo' src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_MediaStreams.svg'><img decoding='async' class='cat-logo' src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Robotics.svg'><img decoding='async' class='cat-logo' src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_ThirdParty.svg'>",
+        content:
+            "<div class='bullets'><p>This chapter offers:</p><ul><li class='bullet'>Maintainance of interoperable Sensors and Actuators</li><li class='bullet'>Linking Robotic goals and sensors as context data</li><li class='bullet'>Retrieving context data from Cameras</li><li class='bullet'>Pushing Context Data to event based systems</li></ul></div><p>A number of Generic Enablers are available making it easier to interface with the Internet of Things, Robots and Third-party systems for the purpose of gathering valuable context information or trigger actuations in response to context updates.</p>"
     },
     {
         name: 'Context Processing, Analysis and Visualisation',
         badge:
             "<img decoding='async' class='cat-logo' src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_ProcessingAnalysis.svg'><img decoding='async' class='cat-logo' src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Visualization.svg'>",
         content:
-            '<p>This chapter contains:</p> <ul> <li>Decision making and Inference from Context</li><li>Graphs, Dashboards and Business Intellegence</li></ul><p>A number of Generic Enablers are available making it easier to process, analyze or visualize context information for the purpose of implementing the feedback loop expected in any “smart” application.</p>'
-    },
-
-    {
-        name: 'Interface with IoT, Robots and Third-Party Systems',
-        badge:
-            "<img decoding='async' class='cat-logo' src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_IOTAgents.svg'><img decoding='async' class='cat-logo' src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_MediaStreams.svg'><img decoding='async' class='cat-logo' src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Robotics.svg'><img decoding='async' class='cat-logo' src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_ThirdParty.svg'>",
-        content:
-            '<p>This chapter offers:</p><ul><li>Maintainance of interoperable Sensors and Actuators</li><li>Linking Robotic goals and sensors as context data</li><li>Retrieving context data from Cameras</li><li>Pushing Context Data to event based systems</li></ul><p>A number of Generic Enablers are available making it easier to interface with the Internet of Things, Robots and Third-party systems for the purpose of gathering valuable context information or trigger actuations in response to context updates.</p>'
+            "<div class='bullets'><p>This chapter contains:</p> <ul> <li class='bullet'>Decision making and Inference from Context</li><li class='bullet'>Graphs, Dashboards and Business Intellegence</li></ul></div><p>A number of Generic Enablers are available making it easier to process, analyze or visualize context information for the purpose of implementing the feedback loop expected in any “smart” application.</p>"
     },
     {
         name: 'Context Data/API Management, Publication and Monetization',
         badge:
             "<img decoding='async' class='cat-logo' src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_APIManagement.svg'><img decoding='async' class='cat-logo' src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_DataMonetization.svg'><img decoding='async' class='cat-logo' src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_DataPublication.svg'><img decoding='async' class='cat-logo' src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Security.svg'>",
         content:
-            '<p>This chapter contains:</p> <p>Context data resources can be published in common data formats or a fee charged for access. You should secure access to services within a “Powered by FIWARE” architecture by using Security components.</p>'
+            "<div class='bullets'><p>This chapter contains:</p><ul><li class='bullet'>Maintaining interoperable Sensors and Actuators</li><li class='bullet'>Linking Robotic goals and sensors as context data</li><li class='bullet'>Retrieving context data from Cameras</li><li class='bullet'>Pushing Context Data to event based systems</li></ul></div><p>Context data resources can be published in common data formats or a fee charged for access. You should secure access to services within a “Powered by FIWARE” architecture by using Security components.</p>"
     },
     {
         name: 'Deployment Tools',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_DeploymentTools.svg'/>",
         content:
-            '<p>This chapter covers:</p> <ul><li>Deploying FIWARE Systems at scale</li><li>Container Images of FIWARE Components</li></ul><p>FIWARE components can be deployed using standard containerisation techniques. Most components are directly available as Docker Images. For proper scalable solutions, Helm Charts also are available.</p>'
+            "<div class='bullets'><p>This chapter covers:</p> <ul><li class='bullet'>Deploying FIWARE Systems at scale</li><li class='bullet'>Container Images of FIWARE Components</li></ul></div><p>FIWARE components can be deployed using standard containerisation techniques. Most components are directly available as Docker Images. For proper scalable solutions, Helm Charts also are available.</p>"
     },
     {
         name: 'Orion',
