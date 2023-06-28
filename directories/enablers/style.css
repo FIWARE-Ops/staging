@@ -406,7 +406,7 @@ h6 {
   flex-wrap: wrap;
   gap: 10px;
   align-items: flex-start;
-  /* min-height: 55px; */
+  min-height: 58px;
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
