@@ -553,7 +553,8 @@ ul {
 }
 
 .cat-info,
-.label-git-org {
+.label-git-org,
+.label-git-org a {
   width: auto;
   display: flex;
   flex-direction: row;
@@ -578,7 +579,9 @@ ul {
 .cat-info:hover,
 .cat-info:focus,
 .label-git-org:hover,
-.label-git-org:focus {
+.label-git-org:focus,
+.label-git-org a:hover,
+.label-git-org a:focus {
   color: #212121!important;
   background-color: rgba(240, 240, 240, 1);
 }
