@@ -557,7 +557,7 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 5px;
+  gap: 10px;
   font-size: 15px;
   color: #212121 !important;
   background-color: rgba(240, 240, 240, 0);
@@ -573,7 +573,7 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 5px;
+  gap: 10px;
   font-size: 15px;
   color: #212121 !important;
   background-color: rgba(240, 240, 240, 0);
