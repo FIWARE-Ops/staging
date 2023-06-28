@@ -629,13 +629,17 @@ ul {
 }
 
 .cat-info:hover,
-.cat-info:focus,
+.cat-info:focus {
+  color: #212121 !important;
+  background-color: rgba(240, 240, 240, 1);
+}
+
 .label-git-org:hover,
 .label-git-org:focus,
 .label-git-org a:hover,
 .label-git-org a:focus {
   color: #212121 !important;
-  background-color: rgba(240, 240, 240, 1);
+  background-color: rgba(255, 255, 255, 1);
 }
 
 .cat-browse {
