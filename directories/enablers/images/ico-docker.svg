@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <path d="m104.84,65.49h-17.12v-15.49h17.12v15.49Z" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+  <rect x="53.89" y="65.49" width="16.71" height="15.49" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+  <rect x="70.6" y="65.49" width="17.12" height="15.49" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+  <rect x="87.72" y="65.49" width="17.12" height="15.49" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+  <rect x="104.84" y="80.98" width="17.12" height="15.49" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+  <rect x="87.72" y="80.98" width="17.12" height="15.49" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+  <rect x="70.6" y="80.98" width="17.12" height="15.49" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+  <rect x="53.89" y="80.98" width="16.71" height="15.49" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+  <rect x="36.77" y="80.98" width="17.12" height="15.49" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+  <path d="m174.85,87.6s-6.65-6.28-20.31-4.06c-1.48-10.71-12.92-16.98-12.92-16.98,0,0-10.71,12.92-2.95,27.32-2.22,1.11-5.91,2.58-11.45,2.58H25.69c-1.85,7.01-1.85,53.53,49.1,53.53,36.55,0,63.87-16.98,76.79-48,19.2,1.48,23.26-14.4,23.26-14.4" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+</svg>

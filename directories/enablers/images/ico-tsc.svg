@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <line x1="36.51" y1="166.83" x2="36.51" y2="117.93" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+  <line x1="163.94" y1="166.83" x2="163.94" y2="117.93" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+  <g>
+    <g>
+      <circle cx="51.16" cy="47.82" r="14.65" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+      <path d="m26.74,86.89c0-13.49,10.93-24.42,24.42-24.42s24.42,10.93,24.42,24.42" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+    </g>
+    <g>
+      <circle cx="100" cy="47.82" r="14.65" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+      <path d="m75.58,86.89c0-13.49,10.93-24.42,24.42-24.42s24.42,10.93,24.42,24.42" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+    </g>
+    <g>
+      <circle cx="148.84" cy="47.82" r="14.65" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+      <path d="m124.42,86.89c0-13.49,10.93-24.42,24.42-24.42s24.42,10.93,24.42,24.42" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+    </g>
+  </g>
+  <rect x="20" y="99.89" width="160" height="18.04" rx="5" ry="5" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+  <g>
+    <polyline points="108.22 138.28 122.5 152.56 108.22 166.83" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+    <polyline points="91.78 166.83 77.5 152.56 91.78 138.28" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <g>
+    <polyline points="120.22 71.89 134.5 86.17 120.22 100.44" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+    <polyline points="103.78 100.44 89.5 86.17 103.78 71.89" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+  </g>
+  <g id="shopping_cart" data-name="shopping cart">
+    <path id="shopping_cart-2" data-name="shopping cart" d="m170,53.33l-7.62,52.67c-1.33,7.99-5.51,12.66-12.97,12.66h-72.33c-8.44,0-13.04-6.65-15.72-17.2L44,30h-14m37.33,23.33h102.67m-117.98,9.42l15,62.71c2.65,11.87,7,16.54,15.8,16.54h77.84m-77,9.33c-5.16,0-9.33,4.18-9.33,9.33s4.18,9.33,9.33,9.33,9.33-4.18,9.33-9.33-4.18-9.33-9.33-9.33Zm63,0c-5.16,0-9.33,4.18-9.33,9.33s4.18,9.33,9.33,9.33,9.33-4.18,9.33-9.33-4.18-9.33-9.33-9.33Z" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+  </g>
+</svg>

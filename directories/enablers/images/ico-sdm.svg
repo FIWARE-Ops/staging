@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <line x1="75.33" y1="74.98" x2="126.14" y2="75.03" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+  <path d="m62.49,158.25h62.18c18.93,0,34.27-14.9,34.27-33.29s-15.34-33.29-34.27-33.29l-49.34-.06c-22.71-.87-22.74-32.4,0-33.29,0,0,23.2.06,23.2.06" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+  <path d="m94.37,141.61h30.31c22.72-.88,22.73-32.4,0-33.29,0,0-49.34-.06-49.34-.06-18.93,0-34.27-14.9-34.27-33.29s15.34-33.29,34.27-33.29l42.24.06" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+  <line x1="124.67" y1="124.97" x2="75.33" y2="124.97" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+  <ellipse cx="65.81" cy="124.97" rx="9.52" ry="9.25" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+  <ellipse cx="135.65" cy="75.03" rx="9.52" ry="9.25" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+  <ellipse cx="127.09" cy="41.75" rx="9.52" ry="9.25" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+  <ellipse cx="108.05" cy="58.39" rx="9.52" ry="9.25" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+  <ellipse cx="84.85" cy="141.61" rx="9.52" ry="9.25" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+  <ellipse cx="52.97" cy="158.25" rx="9.52" ry="9.25" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+</svg>

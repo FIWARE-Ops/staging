@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <circle id="circle3828" cx="100" cy="100" r="75" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+  <g>
+    <polygon id="polygon3832" points="106.58 99.99 128.42 146.2 109.82 146.2 87.99 99.99 109.82 53.8 128.42 53.8 106.58 99.99" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+    <polygon id="polygon3834" points="128.42 146.2 150.24 99.99 128.42 53.8 119.12 73.47 131.65 99.99 119.12 126.52 128.42 146.2" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+    <polygon id="polygon3836" points="68.35 99.99 90.18 146.2 71.58 146.2 49.76 99.99 71.58 53.8 90.18 53.8 68.35 99.99" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+    <polygon id="polygon3838" points="90.71 94.26 100 74.58 90.18 53.8 80.87 73.48 90.71 94.26" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+    <polygon id="polygon3840" points="80.87 126.52 90.18 146.2 100 125.42 90.71 105.74 80.87 126.52" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+  </g>
+</svg>

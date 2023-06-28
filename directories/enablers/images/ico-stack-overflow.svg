@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <path d="m43.83,122.33v40.17c0,2.76,2.24,5,5,5h93.22c2.76,0,5-2.24,5-5v-40.17" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+  <line x1="127.72" y1="141.69" x2="63.19" y2="141.69" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+  <line x1="129.62" y1="125.03" x2="66.74" y2="110.52" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+  <line x1="135.21" y1="109.23" x2="77.21" y2="80.95" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+  <line x1="144.22" y1="95.1" x2="94.07" y2="54.49" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+  <line x1="156.17" y1="83.35" x2="116.44" y2="32.5" style="fill: none; stroke: #002e67; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+</svg>
