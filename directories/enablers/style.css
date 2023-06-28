@@ -668,7 +668,7 @@ ul {
   flex-direction: row;
   gap: 0px;
   text-align: center;
-  justify-content: start;
+  justify-content: flex-end;
 }
 
 .icon::before {
