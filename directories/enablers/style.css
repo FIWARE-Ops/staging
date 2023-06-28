@@ -1239,6 +1239,16 @@ input[type="search"]::placeholder {
   margin-right: 20px; */
 }
 
+.tingle-modal .content img {
+  vertical-align: middle;
+  width: auto;
+  height: 24px;
+  padding-right:10px;
+  /* border-radius: 100px;
+  border: 2px solid #000;
+  margin-right: 20px; */
+}
+
 .tingle-modal h1 {
   color: #000;
   font-weight: 600;
