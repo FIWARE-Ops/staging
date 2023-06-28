@@ -1413,6 +1413,7 @@ input[type="search"]::placeholder {
   padding: 0 0 5px;
 }
 
+.tingle-modal p a,
 .tingle-modal li a {
   font-size: 15px;
   line-height: 1.4em;
@@ -1422,7 +1423,8 @@ input[type="search"]::placeholder {
   transition: color 0.2s ease-in-out;
 }
 
-.tingle-modal li a {
+.tingle-modal p a:hover,
+.tingle-modal li a:hover {
   color: #002452;
 }
 
