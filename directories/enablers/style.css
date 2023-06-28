@@ -395,9 +395,11 @@ h6 {
 }
 
 .cat-content {
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  padding-right: 20px;
 }
 
 .badges {
