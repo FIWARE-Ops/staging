@@ -1335,6 +1335,10 @@ input[type="search"]::placeholder {
   line-height: 1.6em;
   color: #2d2d2d;
   padding-right: 15px;
+  scrollbar-width: thin;
+  /* "auto" or "thin" */
+  scrollbar-color: #e5f5f7 transparent;
+  /* scroll thumb and track */
 }
 
 .tingle-modal .bio-modal p::-webkit-scrollbar {
@@ -1356,15 +1360,8 @@ input[type="search"]::placeholder {
   /* creates padding around scroll thumb */
 }
 
-.tingle-modal .bio-modal p {
-  scrollbar-width: thin;
-  /* "auto" or "thin" */
-  scrollbar-color: #e5f5f7 transparent;
-  /* scroll thumb and track */
-}
-
 .bullets,
-.tingle-modal .bio-modal ul {
+.tingle-modal ul {
   padding-bottom: 20px;
 }
 
@@ -1374,7 +1371,7 @@ input[type="search"]::placeholder {
 }
 
 .bullet,
-.tingle-modal .bio-modal li {
+.tingle-modal li {
   font-size: 15px;
   line-height: 1.4em;
   color: #2d2d2d;
