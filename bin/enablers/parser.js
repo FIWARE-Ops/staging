@@ -25,6 +25,7 @@ function extractEnablers(input) {
             gitHubOrg: item['GitHub Organisation'] || item['GitHub Organization'],
             type: item['Type'],
             badge: Static.getBadge(item['Type']),
+            chapter: Static.getChapter(item['Type']),
             status: item['Status'],
             documentation: item['Documentation'],
             docker: item['Docker'],

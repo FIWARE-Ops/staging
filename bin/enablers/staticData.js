@@ -46,4 +46,36 @@ function getBadge(type) {
     return badge;
 }
 
+function getChapter(type) {
+    let chapter;
+    switch (type) {
+        case 'Core Context':
+            chapter = 'core';
+            break;
+        case 'API Management':
+        case 'Data Monetization':
+        case 'Data Publication':
+        case 'Security':
+            chapter = 'context-data';
+            break;
+        case 'Robotics':
+        case 'Media Streams':
+        case 'Third Party':
+        case 'IoT Agents':
+            chapter = 'interface';
+            break;
+        case 'Processing':
+        case 'Visualization':
+        case 'Visualisation':
+            chapter = 'context-processing';
+            break;
+        default:
+            chapter = `<b>${type}</b>`;
+            break;
+    }
+
+    return chapter;
+}
+
 exports.getBadge = getBadge;
+exports.getChapter = getChapter;
