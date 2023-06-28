@@ -221,7 +221,8 @@ ul {
 
 .attributes-modal {
   display: flex;
-  gap: 20px;
+  flex-wrap: wrap;
+  gap: 5px;
 }
 
 .foot {
