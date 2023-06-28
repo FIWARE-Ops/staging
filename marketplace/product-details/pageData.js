@@ -17,8 +17,7 @@ var pageData = {
             challenge:
                 '<p>Advancing urbanization and the associated challenges, including in urban and regional infrastructures, mobility and energy, requires a new, networked approach.</p> <p>Resource-conserving and environmentally compatible actions on the one hand, and situation-appropriate and measured decision-making on the other, require extensive data from many, previously isolated systems within a community.</p> <p>[ui!] supports cities, communities, counties, and regions in their efforts to collect, process and analyze all existing and anonymized urban data on a central data platform. We also help make this data available for new services as added value for cities, communities, and utility companies.</p> <p>These solutions are based on an open urban data platform – the [ui!] UrbanPulse - where all data from a city’s various IT systems are fed into the system in order to be used for new smart city services in real-time. This meets the current requirements of DIN SPEC 91357 - Reference Architecture Model Open Urban Platform (OUP).</p> <p>Using a large number of connectors, we are able to link a wide variety of IT systems together. We are able to do this in such a way that all the information in a city can be used and made visible, while at the same time leaving the data sovereignty with the respective provider. The platform, therefore, not only provides integrated access to urban data, but also prevents the risk of data misuse.</p>',
             references: '<ul> <li>City of Bad Hersfeld</li> <li>City of Darmstadt</li> <li>City of Brisbane</li> </ul>',
-            awards:
-                '<p>First prize in the &quot;Innovation Award Reallabore 2022&quot; from the Federal Ministry of Economics and Climate Protection in the category &quot;Retrospectives&quot; for completed projects - Research project Reallabor Hamburg (RealLabHH).</p> <p>The Smart 50 Awards 2022 and 2016 of the internationally renowned organization &quot;Smart Cities Connect&quot; is awarded annually for global, innovative smart city projects and aims to honor some of the most influential projects and forward-looking ideas in the context of smart city and smart region. ([ui!] and the city of Bad Hersfeld)</p> <p>Digital Leader Award 2016 + 2017 - With the Digital Leader Award, German speaking businesses and leaders are rewarded in a competition for an outstanding example in leading digitalisation in their organisation. So the accomplishments for the digital transformation of the organisation are honoured and the responsible leaders publically rewarded. The Digital Leader Award is an initiative by the Initiative der IDG Business Media und Dimension Data.</p>',
+            awards: '<p>First prize in the &quot;Innovation Award Reallabore 2022&quot; from the Federal Ministry of Economics and Climate Protection in the category &quot;Retrospectives&quot; for completed projects - Research project Reallabor Hamburg (RealLabHH).</p> <p>The Smart 50 Awards 2022 and 2016 of the internationally renowned organization &quot;Smart Cities Connect&quot; is awarded annually for global, innovative smart city projects and aims to honor some of the most influential projects and forward-looking ideas in the context of smart city and smart region. ([ui!] and the city of Bad Hersfeld)</p> <p>Digital Leader Award 2016 + 2017 - With the Digital Leader Award, German speaking businesses and leaders are rewarded in a competition for an outstanding example in leading digitalisation in their organisation. So the accomplishments for the digital transformation of the organisation are honoured and the responsible leaders publically rewarded. The Digital Leader Award is an initiative by the Initiative der IDG Business Media und Dimension Data.</p>',
             technologies: [
                 'Data Analytics',
                 'Internet of Things',
@@ -30,8 +29,7 @@ var pageData = {
             docs: [],
             videos: [],
             materials: [],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_UrbanInstitute.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_UrbanInstitute.svg',
             featuredImage: 'https://ui.city/images/website/ui!_COCKPIT.png',
             furtherImages: ''
         },
@@ -58,8 +56,7 @@ var pageData = {
             docs: [],
             videos: [['VR Experience', 'http://bit.do/az360']],
             materials: [],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_AbsoluteZero.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_AbsoluteZero.svg',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_absolute-zero_thor.png',
             furtherImages: ''
         },
@@ -86,8 +83,7 @@ var pageData = {
             docs: [],
             videos: [],
             materials: [],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_save-a-space.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_save-a-space.svg',
             featuredImage:
                 'https://www.fiware.org/wp-content/marketplace/images/hero_accelogress-limited_save-a-space.png',
             furtherImages: ''
@@ -110,8 +106,7 @@ var pageData = {
                 '<p>Today farmers face several challenges, we are mostly working on:</p> <p>International market competition with products coming from unruled countries that produce at a very low cost. The effect is a reduction of the profit due to the need of reducing final selling prices. For this reason, farmers have to reduce costs and increase quality at the same time. Climate change requires continuous adaptation of the best time to proceed with any agricultural operation (seeding, fertilizing, manuring, irrigating, harvesting). Farmers need real-time support to understand the right timing for these operations.</p> <p>Agritech adoption among EU farmers is far below 20%, Agricolus can support them by making these technologies accessible and useful for daily work on the fields.</p>',
             references:
                 '<p>Agricolus is addressing the precision software market that is estimated 1.1 Bln $ by 2022 (Markets and Markets), food traceability is even bigger and is estimated 14 Bln $  Agro holding companies that want to standardize with Agricolus good practices among their suppliers (farmers). Association of farmers that want to support their associates with better tools providing high-value technologies. Medium big farms that can reduce costs and have better control, and an end-to-end traceability of the production. Government in the agricultural department that uses our product to raise farmers awareness on diseases and other agricultural threats.</p>',
-            awards:
-                '<p>First prize of the Startup Forum at the Food 4 Future event in Bilbao in 2021 Award for the best team at Global Agripreneurs Summit 2019 SME Instrument Phase 1 winner with Agricolus DSS project ID: 719968 Fractals winner with Oliwes solution is sub granted by FP7 Fractals ref. GA 632874 European Agricultural Fund for Rural Development (EAFRD)  Speed Up Europe winner with Agricolus Web Awareness project sub granted by FP7 Speed UP! Europe ref. GA 632858</p>',
+            awards: '<p>First prize of the Startup Forum at the Food 4 Future event in Bilbao in 2021 Award for the best team at Global Agripreneurs Summit 2019 SME Instrument Phase 1 winner with Agricolus DSS project ID: 719968 Fractals winner with Oliwes solution is sub granted by FP7 Fractals ref. GA 632874 European Agricultural Fund for Rural Development (EAFRD)  Speed Up Europe winner with Agricolus Web Awareness project sub granted by FP7 Speed UP! Europe ref. GA 632858</p>',
             technologies: [
                 'Artificial Intelligence',
                 'Big Data',
@@ -201,8 +196,7 @@ var pageData = {
             docs: [['MASAI Content', 'https://github.com/ARI-MR/MASAI']],
             videos: [],
             materials: [['Article', 'https://ieeexplore.ieee.org/document/8471981']],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_Masai.png',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_Masai.png',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_atos_masai.png',
             furtherImages: '',
             related: [
@@ -338,8 +332,7 @@ var pageData = {
             docs: [],
             videos: [],
             materials: [],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_BookingABus.png',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_BookingABus.png',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_bookingabus_bookingabus.png',
             furtherImages: ''
         },
@@ -386,15 +379,13 @@ var pageData = {
             challenge:
                 '<p>Air pollution is the  biggest environmental health threat of our time, killing 7 million people and costing the world economy 5 trillion USD per year. Data-driven decision making remains unfeasible as sensing equipment is expensive, stakeholders lack the necessary knowledge to analyze the data and suitable interventions are unknown.</p>',
             references: '<p>District of Hamburg-Rothenburgsort InfraLab Berlin</p>',
-            awards:
-                "<p>FIWARE Business Success Story *ship Global Startup Challenge (GSC) 2017 Winner (04.2017) WE DO DIGITAL award / DIHK &amp; German chambers of industry and commerce (05.2017) Deutschland: Land der Ideen (Germany: Land of Ideas / incl. distinction from German president) (06.2017) Power To Idea Accelerator (06.2017) TechFounders Accelerator (07.2017) Hamburger Gründerpreis (Hamburg Founders' Award) (09.2017) EU Top 50 (11.2017) Science4Life: Idea Phase (11.2017)</p>",
+            awards: "<p>FIWARE Business Success Story *ship Global Startup Challenge (GSC) 2017 Winner (04.2017) WE DO DIGITAL award / DIHK &amp; German chambers of industry and commerce (05.2017) Deutschland: Land der Ideen (Germany: Land of Ideas / incl. distinction from German president) (06.2017) Power To Idea Accelerator (06.2017) TechFounders Accelerator (07.2017) Hamburger Gründerpreis (Hamburg Founders' Award) (09.2017) EU Top 50 (11.2017) Science4Life: Idea Phase (11.2017)</p>",
             technologies: ['Internet of Things', 'Data Analytics', 'Sensory Systems'],
             domains: ['Cities'],
             docs: [['Breeze Technologies Solutions', 'http://www.breeze-technologies.de/solutions/']],
             videos: [['Press and Media', 'http://www.breeze-technologies.de/press']],
             materials: [],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_BreezeTechnologies.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_BreezeTechnologies.svg',
             featuredImage:
                 'https://www.fiware.org/wp-content/marketplace/images/hero_breeze-technologies_breeze-environmental-intelligence-cloud.png',
             furtherImages: '',
@@ -437,8 +428,7 @@ var pageData = {
                 '<p>Air pollution is the single biggest environmental health threat of our time, killing 7 million people and costing the world economy 5 trillion USD per year. Data-driven decision making remains unfeasible as sensing equipment is expensive, stakeholders lack necessary knowledge to analyse the data and suitable interventions are unknown. Though they share both sources and solutions, climate change and air pollution are often treated as separate issues. Addressing them together could create immediate and substantive effects for the world’s most vulnerable by reducing climate change and delivering local health and development benefits.</p>',
             references:
                 '<ul> <li>City of Vilnius</li> <li>City of Neckarsulm</li> <li>City of Moers</li> <li>City of Hennef</li> <li>City of Siegburg (non-exhaustive list)</li> </ul>',
-            awards:
-                '<ul> <li>Future Hamburg Award</li> <li>Nordic Smart City Award</li> <li>Smavard Smart City Awards - Special Merits Award - Sensing and ICT</li> <li>German Startup Games Winner</li> <li>Porsche Mobility for a better world award (non-exhaustive list)</li> </ul>',
+            awards: '<ul> <li>Future Hamburg Award</li> <li>Nordic Smart City Award</li> <li>Smavard Smart City Awards - Special Merits Award - Sensing and ICT</li> <li>German Startup Games Winner</li> <li>Porsche Mobility for a better world award (non-exhaustive list)</li> </ul>',
             technologies: [
                 'Artificial Intelligence',
                 'Big Data',
@@ -450,8 +440,7 @@ var pageData = {
             docs: [],
             videos: [],
             materials: [],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_BreezeTechnologies.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_BreezeTechnologies.svg',
             featuredImage:
                 'https://www.fiware.org/wp-content/marketplace/images/hero_breeze-technologies_environmental-intelligence-suite.png',
             furtherImages: '',
@@ -561,8 +550,7 @@ var pageData = {
             docs: [],
             videos: [['Ciclogreen-YouTube', 'https://www.youtube.com/watch?v=94uwGQcESn0&t=46s']],
             materials: [['Ciclogreen on Android', 'https://www.android.com/everyone/stories/ciclogreen']],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_CicloGreen.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_CicloGreen.svg',
             featuredImage:
                 'https://www.fiware.org/wp-content/marketplace/images/hero_ciclogreen-move-and-win_ciclogreen.png',
             furtherImages: ''
@@ -603,8 +591,7 @@ var pageData = {
                 ['The Urban Future', 'https://theurbanfuture.com/de-snuffelfiets-van-de-provincie-utrecht/'],
                 ['The CEF Digital Platform', 'https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/CEF+Digital+Home']
             ],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_SnifferBike.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_SnifferBike.svg',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_civity_sniffer-bike.png',
             furtherImages: ''
         },
@@ -632,8 +619,7 @@ var pageData = {
             docs: [],
             videos: [],
             materials: [],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_CommuniThings.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_CommuniThings.svg',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_communithings_stop-buy.png',
             furtherImages: ''
         },
@@ -670,8 +656,7 @@ var pageData = {
                     'http://www.msn.com/pt-pt/financas/noticias/ctt-e-se-o-seu-correio-ca%C3%ADsse-do-c%C3%A9u/ar-BBBgTQY?li=BBoPWjC&ocid=SK2MDHP'
                 ]
             ],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_ConnectRobotics.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_ConnectRobotics.svg',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_connect-robotics_drone-2-me.png',
             furtherImages: ''
         },
@@ -693,8 +678,7 @@ var pageData = {
                 '<p><strong>Outbarriers</strong> is born from the need of  helping blind people discover what’s around them and explore with security/confidence and accuracy new places and trade shops, by themselves, and with total autonomy.</p> <p>One blind friend brought to our awareness that cities are not accessible at all for them, moving with GPS and without accessibility information. We, as engineers, used all of our knowledge and experience to come up with a solution. The community of the visually impaired guided our development to the problem and FIWARE was our shuttle.</p> <p>Thanks to the support of FIWARE, the mass media and businesses, today Outbarriers is fully functional/used in more than 300 businesses, but also in hospitals, museums and bus stops with an objective to make this world a better place for all of us. A world where cities are adapted to its citizens and not vice versa.</p>',
             references:
                 '<p>Today, Outbarriers makes more than 300 places visible between Madrid, Granada and Córdoba, and in the next months it will reach 1.000 thanks to the contracts with big partners and cities. In turn, it is useful for thousands of users.</p>',
-            awards:
-                '<ul> <li><p>3rd FIWARE Smart Society Challenge (Sevilla) 2014 - https://www.fiware.org/2014/10/18/fiware-challenges-awards</p></li> <li><p>Winners of Call for Apps (mobility) Smart City Expo World Congress 2015 - http://www.smartcityexpo.com/outbarriers</p></li> <li><p>Winners of Madrid Appetece 2017 - http://forodeempresaspormadrid.es/actividades/premios-madrid-appetece</p></li> </ul>',
+            awards: '<ul> <li><p>3rd FIWARE Smart Society Challenge (Sevilla) 2014 - https://www.fiware.org/2014/10/18/fiware-challenges-awards</p></li> <li><p>Winners of Call for Apps (mobility) Smart City Expo World Congress 2015 - http://www.smartcityexpo.com/outbarriers</p></li> <li><p>Winners of Madrid Appetece 2017 - http://forodeempresaspormadrid.es/actividades/premios-madrid-appetece</p></li> </ul>',
             technologies: ['Internet of Things', 'Sensory Systems'],
             domains: ['Cities'],
             docs: [],
@@ -707,8 +691,7 @@ var pageData = {
                 ],
                 ['IoT news-Outbarriers', 'http://estoesiot.es/outbarriers-la-startup-negocio-visible-todos']
             ],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_OutBarriers.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_OutBarriers.svg',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_digitalilusion_outbarriers.png',
             furtherImages: '',
             related: [
@@ -1008,8 +991,7 @@ var pageData = {
                 ]
             ],
             materials: [],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_DigitalEnabler.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_DigitalEnabler.svg',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_engineering_digital-enabler.png',
             furtherImages: '',
             related: [
@@ -1063,8 +1045,7 @@ var pageData = {
             docs: [],
             videos: [],
             materials: [],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Engineering.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Engineering.svg',
             featuredImage:
                 'https://www.fiware.org/wp-content/marketplace/images/hero_engineering_curavestacuravesta.png',
             furtherImages: '',
@@ -1112,15 +1093,13 @@ var pageData = {
                 '<p><strong>Everimpact</strong> measures and monetizes Cities’ CO2 emission by combining satellites and ground sensors’ data. Cities get a real-time map of their emissions at street and building levels, at a precision never reached before. This is helpful for Cities to see whether their climate actions are working, and help them target key areas of interventions.</p> <p>Monitoring, reporting and verifying emissions as part of their climate plan, means that Cities can now monetize their CO2 reductions with various green finance instruments. In a nutshell, Everimpact is an innovative concept because it helps Cities draw important revenues from monitoring their CO2 emissions.</p>',
             challenge: '<p>Air Pollution and Climate Change</p>',
             references: '<p>Pilot Test in the Royal Greenwich Borough of London.</p>',
-            awards:
-                '<p>FIWARE VIP, Internet of Things 2015/16 Awards, Editors Choice Winner, FIWARE GCTC Challenge</p>',
+            awards: '<p>FIWARE VIP, Internet of Things 2015/16 Awards, Editors Choice Winner, FIWARE GCTC Challenge</p>',
             technologies: ['Internet of Things', 'Sensory Systems', 'Data Analytics'],
             domains: ['Cities'],
             docs: [],
             videos: [['EverImpact on Vimeo', 'https://vimeo.com/148248664']],
             materials: [['Everimpact-News', 'https://www.everimpact.com/blog']],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Everimpact.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Everimpact.svg',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_everimpact_everimpact.png',
             furtherImages: ''
         },
@@ -1175,8 +1154,7 @@ var pageData = {
             docs: [],
             videos: [],
             materials: [],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_FashionCloud.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_FashionCloud.svg',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_fashion-cloud_fashion-cloud.png',
             furtherImages: ''
         },
@@ -1283,8 +1261,7 @@ var pageData = {
                 '<p>The recent push towards Intelligent Transport Systems (ITS) within modern-day smart cities requires a large amount of high-quality data in real-time. These include traffic, bicycles, and people flow. The latter two are of particular importance to promote eco-friendly mobility plans and support the shift towards sustainable behaviors. </p> <p>However, there is a significant industrial and economic problem related to traffic monitoring. While high-tech monitoring technologies, based on inductive loops, cameras, ultrasound, radio waves, to cite but a few, have existed for some time, public and private organizations continue to rely largely on manual counts or other limited forms of data collection.</p>',
             references:
                 '<ul> <li>Municipality of Prato (Public body - Italy)</li> <li>Municipality of Funchal (Public body - Portugal)</li> <li>CATC SE (Company - sweden)</li> <li>Harris County Precinct Two (Public body - US)</li> <li>plus several other companies around the world.</li> </ul>',
-            awards:
-                "<p>FIWARE success story: https://twitter.com/fiware/status/725942769642930176 Philips Smart City Challenge - 2018 (https://www.agorize.com/en/challenges/philips-challenge) Europa a misura d'impresa - 2017 (https://goo.gl/VDTwpc)</p>",
+            awards: "<p>FIWARE success story: https://twitter.com/fiware/status/725942769642930176 Philips Smart City Challenge - 2018 (https://www.agorize.com/en/challenges/philips-challenge) Europa a misura d'impresa - 2017 (https://goo.gl/VDTwpc)</p>",
             technologies: ['Internet of Things', 'Data Analytics'],
             domains: ['Cities', 'Retail'],
             docs: [
@@ -1397,8 +1374,7 @@ var pageData = {
                     'https://www.agrocapital.gr/Category/Proswpa/Article/18210/quhoma-to-sygchrono-ergaleio-tis-agrotikis-paragwgis'
                 ]
             ],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_FutureIntelligence.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_FutureIntelligence.svg',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_future-intelligence_quhoma.png',
             furtherImages: ''
         },
@@ -1517,8 +1493,7 @@ var pageData = {
             docs: [['Helix Sandbox NG', 'https://github.com/Helix-Platform/Sandbox-NG']],
             videos: [],
             materials: [['IEEE Xplore- Helix SandBox', 'https://ieeexplore.ieee.org/document/8905583']],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/raster/logo_Helix.png',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/raster/logo_Helix.png',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_helix_helix.png',
             furtherImages: ''
         },
@@ -1628,8 +1603,7 @@ var pageData = {
                 '<p>Nowadays there are many companies in the world creating mobile applications, some of them also implement applications targeted to citizens offering some type of data related to their city.  There is no App that covers all the services and all the information provided by the local government to citizens, and that also integrates geolocation of local shops and businesses and, with all the information generated by the user, provide intelligence to the system on behalf of the public administrations, local businesses and even the own citizen that increase the quality of services they receive.</p>',
             references:
                 '<p>The SmartAppCity project covers the three pillars supporting a smart city: public administration, citizens and local business:</p> <p>The local administration knows the impressions of citizens and the impact of their decisions by  analyzing the provided social information , and by opening a new communication channel. The city shops and businesses use this technology as a geo-marketing tool to open a specific communication channel with References/Customers or prospective References/Customers. The citizens  use a channel to provide updated information about life in the city sharing information about their culture, habits or infrastructures and road conditions.</p>',
-            awards:
-                '<p>Seal of Excellence by the European Commission for its successful in a highly competitive evaluation process as an innovative project. Most innovative App and Greatest Potential Application, at the world biggest app competition at the FIWARE Smart Cities Challenge in Brazil (among 423 apps for Smart Cities from 23 countries). Cities Summit London 2014: LLGA Awards finalist: "Using technology to enhance commerce" category. Berlin’s EIT ICT Lab Challenge winners. Best App of the year at La Rioja Internet Awards 2013. Selected among the best TOP 10 projects at European Accelerator FINODEX 2015-2016 (among 297 proposals). Finalists at the Global City Teams Challenge 2016 in Austin (Texas, USA). Finalists at the Spanish Creative Cup 2016 in Malaga (Spain). Winners of the Madrid Smart Lab Program for the challenge: “Improving information access and quality of life for citizens”. Best App at the Smart Cities Awards 2015 by the Spanish Socinfo Foundation. Selected by the Spanish Institute for Foreign Trade as one of the 4 successful cases of PPP at the Smart City Expo World Congress 2013 (the only App selected) for their potential to Latin American markets. “Benidorm Smart City” awards finalist, inside the XVII International Forum: Strategies for Smart Destinations. FP7 Future Internet PPP partner inside the FIWARE consortium. Iberoeka trilateral collaboration (Mexico-Spain-France) inside the Culturemobile consortium. Selected for the Open Innovation Marketplace 2013, 2014 and 2015 inside the Smart City Expo World Congress. Citizen Innovation App Awards finalist in Mar del Plata (Argentina). Smart City App Hack SCAH-FIWARE Competition 2015 finalists (just 18 apps worldwide were selected). Selected for the Cambridge Gateway Program 2015. Selected as a Best Practice by the RAMUD (Réseau d’action en matière de mobilité urbaine durable) Mediterranean Initiative inside the IEVP (Instrument Européen de Voisinage).</p>',
+            awards: '<p>Seal of Excellence by the European Commission for its successful in a highly competitive evaluation process as an innovative project. Most innovative App and Greatest Potential Application, at the world biggest app competition at the FIWARE Smart Cities Challenge in Brazil (among 423 apps for Smart Cities from 23 countries). Cities Summit London 2014: LLGA Awards finalist: "Using technology to enhance commerce" category. Berlin’s EIT ICT Lab Challenge winners. Best App of the year at La Rioja Internet Awards 2013. Selected among the best TOP 10 projects at European Accelerator FINODEX 2015-2016 (among 297 proposals). Finalists at the Global City Teams Challenge 2016 in Austin (Texas, USA). Finalists at the Spanish Creative Cup 2016 in Malaga (Spain). Winners of the Madrid Smart Lab Program for the challenge: “Improving information access and quality of life for citizens”. Best App at the Smart Cities Awards 2015 by the Spanish Socinfo Foundation. Selected by the Spanish Institute for Foreign Trade as one of the 4 successful cases of PPP at the Smart City Expo World Congress 2013 (the only App selected) for their potential to Latin American markets. “Benidorm Smart City” awards finalist, inside the XVII International Forum: Strategies for Smart Destinations. FP7 Future Internet PPP partner inside the FIWARE consortium. Iberoeka trilateral collaboration (Mexico-Spain-France) inside the Culturemobile consortium. Selected for the Open Innovation Marketplace 2013, 2014 and 2015 inside the Smart City Expo World Congress. Citizen Innovation App Awards finalist in Mar del Plata (Argentina). Smart City App Hack SCAH-FIWARE Competition 2015 finalists (just 18 apps worldwide were selected). Selected for the Cambridge Gateway Program 2015. Selected as a Best Practice by the RAMUD (Réseau d’action en matière de mobilité urbaine durable) Mediterranean Initiative inside the IEVP (Instrument Européen de Voisinage).</p>',
             technologies: ['Internet of Things', 'Data Analytics'],
             domains: ['Cities'],
             docs: [['SMARTAPPCITY Documentation', 'http://smartappcity.com/images/pdf/smartappcity_english.pdf']],
@@ -1709,8 +1683,7 @@ var pageData = {
                 '<p>Digitalization is one of the main priorities in the infrastructure sector and its future depends on it. That is why Limmat Group is committed to developing technological products, such as the IMAS+®, which improve the safety, availability, and maintenance efficiency of infrastructures and railway vehicles.</p>',
             references:
                 '<ul> <li>Infrastructure Managers </li> <li>Railway Vehicle Owners and operators </li> <li>Rolling Stock Manufacturers </li> <li>Signalling &amp; Telecommunication Companies </li> <li>Construction Companies</li> </ul>',
-            awards:
-                '<ul> <li>TrenLab: Accelerator program powered by RENFE, Wayra and Telefonica </li> <li>SACYR Innovation award </li> <li>CLH Innovation award</li> </ul>',
+            awards: '<ul> <li>TrenLab: Accelerator program powered by RENFE, Wayra and Telefonica </li> <li>SACYR Innovation award </li> <li>CLH Innovation award</li> </ul>',
             technologies: ['Big Data', 'Data Analytics', 'Machine Learning'],
             domains: ['Cities', 'Industry', 'Ports'],
             docs: [],
@@ -1734,8 +1707,7 @@ var pageData = {
                     'http://www.diariodevalladolid.es/noticias/innovadores/jefe-mantenimiento-activo-24-horas_98819.html'
                 ]
             ],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_Imas%2B.png',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_Imas%2B.png',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_limmat-group_imas.png',
             furtherImages: ''
         },
@@ -1763,8 +1735,7 @@ var pageData = {
             docs: [],
             videos: [['Smart Cities-YouTube', 'https://www.youtube.com/watch?v=FNL2d4FakbU']],
             materials: [],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_LineaCiudadana.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_LineaCiudadana.svg',
             featuredImage:
                 'https://www.fiware.org/wp-content/marketplace/images/hero_linea-ciudadana_linea-ciudadana.png',
             furtherImages: ''
@@ -1786,8 +1757,7 @@ var pageData = {
                 '<p><strong>Orchestra Cities</strong>, Martel Lab’s new smart city data-management product is progressing at full speed! To answer the need for a flexible data-management platform for smart cities, the team at Martel Lab developed Orchestra Cities, an integrated platform based on FIWARE and other cutting-edge Open Source solutions that allow to bring in a single place all the vertical data silos of cities.</p> <p>Designed to facilitate the collaborative management of data and services by different cities and different stakeholders within the cities  allows the integration, analysis and visualization of a smart city’s data (from sensors, legacy system, citizen’s data, and more), Orchestra Cities plans to offer a powerful set of functionalities:<br /> Flexible dashboard co-creation, including map and graphs, and easy sharing Integrated management of Orchestra Cities APIs and third parties’ APIs, with flexible access policies and fault-tolerance mechanisms Data management based on open standards, supporting real-time data and historical data Support for centralized management of IoT allowing the integration of live data from IoT sensors, devices and other sources Advanced data privacy control mechanisms, ensuring that data owner is always in control of the data injected A visual data ingestion service that allows the design of data pipelines to populate the platform with data (from services, files, etc.)</p> <p>The above functionalities are ready to be used in the cloud, ensuring high-availability and scalability. Private deployments targeting single customers will be also possible in a few clicks!</p> <p>Taken as a whole, Orchestra Cities is a powerful tool for smart city managers across Europe and around the world. In recognition of its strength, it is one of the five contenders being selected for Phase 2 of the SELECT for Cities competition. The participation to the SELECT for Cities is driving the design of the platform with the collaboration of three cities (Antwerp, Copenhagen, and Helsinki) that allows  testing and validation of the Orchestra Cities platform in the following scenarios:</p> <p>Reducing traffic congestion in the city of Antwerp by intelligent decisions based on different data available from sensors and services. Supporting the monitoring of pre-diabetes patients in Helsinki through GDPR compliant management of Smart Homes.</p>',
             challenge: '',
             references: '<ul> <li>Antwerp</li> <li>Helsinki</li> <li>Wolfsburg</li> <li>POC in Switzerland</li> </ul>',
-            awards:
-                '<p>ORCHESTRA CITIES entered Phase II of the SELECT for Cities Pre-Commercial Procurement (PCP) process. 5G Award at Smart City World Expo Congress in Barcelona</p>',
+            awards: '<p>ORCHESTRA CITIES entered Phase II of the SELECT for Cities Pre-Commercial Procurement (PCP) process. 5G Award at Smart City World Expo Congress in Barcelona</p>',
             technologies: [
                 'Artificial Intelligence',
                 'Big Data',
@@ -1803,8 +1773,7 @@ var pageData = {
                 ['Lego Smart City-YouTube', 'https://www.youtube.com/watch?v=S4pi8rQUHw4'],
                 ['News', 'https://www.martel-innovate.com/news/2018/11/19/awards-and-accolades-for-martel-at-scewc/']
             ],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_OrchestraCities.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_OrchestraCities.svg',
             featuredImage:
                 'https://www.fiware.org/wp-content/marketplace/images/hero_martel-innovate_orchestra-cities.png',
             furtherImages: '',
@@ -2040,8 +2009,7 @@ var pageData = {
             ],
             videos: [['Youtube-Introduction', 'https://www.youtube.com/watch?v=qmAZWEE_y-A']],
             materials: [],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Profirator.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Profirator.svg',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_profirator_lakes.png',
             furtherImages: ''
         },
@@ -2106,8 +2074,7 @@ var pageData = {
                     'http://asociacionambe.com/baret-la-plataforma-inteligente-especializada-en-el-sector-de-la-bicicleta/'
                 ]
             ],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_PurpleBlob.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_PurpleBlob.svg',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_purple-blob_baret.png',
             furtherImages: '',
             related: [
@@ -2156,8 +2123,7 @@ var pageData = {
             ],
             videos: [],
             materials: [],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_PurpleBlob.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_PurpleBlob.svg',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_purple-blob_sara.png',
             furtherImages: '',
             related: [
@@ -2255,8 +2221,7 @@ var pageData = {
             docs: [],
             videos: [['Scuter Crowdfunding-YouTube', 'https://www.youtube.com/watch?v=t8GmPuORGQE']],
             materials: [['News', 'https://www.scuter.co/news/']],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_Scuter.png',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_Scuter.png',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_scuter_scuter.png',
             furtherImages: ''
         },
@@ -2284,8 +2249,7 @@ var pageData = {
             docs: [],
             videos: [['Introduction on Vimeo', 'https://vimeo.com/199648301']],
             materials: [],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_SecondNature.png',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_SecondNature.png',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_second-nature_ourpath.png',
             furtherImages: ''
         },
@@ -2408,8 +2372,7 @@ var pageData = {
             challenge:
                 '<p>Livestock farmers (breeders and fatteners) have a very low gross margin and currently, their benefits depend on subsidies. Electronic tagging of cattle is going to be mandatory in the EU. Current GPS/RFID-based solutions are suboptimal (cost, functionality) in feedlots. Software management apps for cattle farms are available, but they require human data entry, which are not backed by real data.</p> <p>In UE-28 there are more than 272k livestock fatteners that need a cost affordable solution that monitors the status of the animals and helps them with paperwork. Livestock breeders  lack the tools to monitor and locate their cattle; they assume a 10% of animal losses. Just in UE, there are more than 452k (60M of cattle) with this problem.</p>',
             references: '',
-            awards:
-                '<p>Digitanimal (former STEPLA) participated in SmartAgriFood accelerator where it reached the last stage of the acceleration program and  was selected at the top 3 best performance projects and the best technological project. Digitanimal project was selected in 2016 to be part of the GSMA Innovation City of the Mobile World Congress (https://youtu.be/vmMPpvw3SSQ, https://youtu.be/9dmH1WcLT18).</p>',
+            awards: '<p>Digitanimal (former STEPLA) participated in SmartAgriFood accelerator where it reached the last stage of the acceleration program and  was selected at the top 3 best performance projects and the best technological project. Digitanimal project was selected in 2016 to be part of the GSMA Innovation City of the Mobile World Congress (https://youtu.be/vmMPpvw3SSQ, https://youtu.be/9dmH1WcLT18).</p>',
             technologies: ['Internet of Things', 'Data Analytics'],
             domains: ['AgriFood'],
             docs: [],
@@ -2420,8 +2383,7 @@ var pageData = {
                     'https://4d4f.eu/content/case-study-gps-location-system-goats'
                 ]
             ],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_DigitAnimal.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_DigitAnimal.svg',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_sensowave_digitanimal.png',
             furtherImages: '',
             related: [
@@ -2509,8 +2471,7 @@ var pageData = {
                 '<p>Cities are rapidly transforming their services to address current societal, environmental and economic challenges. Vertical smart solutions are being progressively replaced by solutions capable of exploiting a huge range of data channels, getting smarter, and cross exploiting data. Cities/areas require highly tailored solutions, exploiting the legacy and pushing to the future and innovation. A flexible, dynamic, and highly interoperable platform is needed to increase sustainability, profit, and full control of operational objectives, fully integrated with the territory and all the stakeholders. Cities are abandoning an approach based on single data sources and becoming aware of actual data channels where information and actions flow in multiple directions and Digital Twins and creating living labs with all stakeholders, 3D City and building representation, BIM local and global. Multi-directional flows are key services in implementing the city/area operating system enabling daily tuning to deal with current challenges, mobility as a service, smart waste, smart lighting and smart parking.</p>',
             references:
                 '<p>Snap4City is operative with services and data in more than 40 cities/areas in countries such as Firenze (IT), Helsinki (FI), Antwerp (BE), Lonato del Garda (IT), Lavagno (IT), Valencia (SP), Pont Du Gard (FR), WestGreece (GR), Mostar (BA), Dubrovnik (KR), Santiago di Compostela (SP), Pisa (IT), Prato (IT), Pistoia (IT), Lucca (IT), Arezzo (IT), Grosseto (IT), Livorno (IT), Siena (IT), Massa (IT), Modena (IT), Cagliari (IT), Venezia (IT), Roma (IT), etc.; and from regions as Tuscany (IT), Garda Lake (IT), Svealand Region (Sweden), Sardegna (IT), Belgium (BE), Finland (Fl), Emilia Romagna (IT), Spain (SP), WestGreece (GR), Occitanie (FR), Bosnia-Herzegovina (BA), Croatia (KR), and many industries.</p>',
-            awards:
-                '<ul> <li>Winner of the ENEL-X Challenge on Open Data: https://openinnovability.enel.com/projects/New-smart-city-solutions-enabled-by-open-data </li> <li>Winner of the Select4Cities PCP for the design of the IoT/IoE solution and Living Lab for Helsinki and Antwerp (https://www.select4cities.eu/phase-3-winners) </li> <li>Snap4City is certified to offer FIWARE Training Services</li> <li>Snap4City is certified to offer FIWARE Consultancy Services</li> <li>Snap4City is a platform proposed on the Marketplace of EOSC</li> <li>Snap4city is on BeeSmart marketplace</li> <li>Snap4City is compliant with OBD2 Devices for vehicles and fleets monitoring</li> <li>Snap4City is fully compliant with GIS, ArcGIS, QGIS, etc., interoperating with WMS and WFS services, see the examples of Snap4City in connection with ArcGIS or OpenGIS provided and made available</li> <li>Km4City: Km4City of Snap4City is an official API of E015 suite</li> <li>LoraWAN: Snap4City is compliant with LoraWan</li> <li>SigFOX: Snap4City is a partner of SigFOX</li> <li>Node-RED, JSFoundation: Snap4City is an official library of Node-RED</li> <li>CKAN: Km4City/Snap4City are Powered by CKAN, since they provide DataGate CKAN module for shortening the ingestion and publication of Data Sets, and the eventual connection with other CKAN tools and installations in the world.</li> <li>Gold Member of the FIWARE Foundation</li> <li>Official Powered by FIWARE Solution</li> <li>GAIA-X member</li> </ul>',
+            awards: '<ul> <li>Winner of the ENEL-X Challenge on Open Data: https://openinnovability.enel.com/projects/New-smart-city-solutions-enabled-by-open-data </li> <li>Winner of the Select4Cities PCP for the design of the IoT/IoE solution and Living Lab for Helsinki and Antwerp (https://www.select4cities.eu/phase-3-winners) </li> <li>Snap4City is certified to offer FIWARE Training Services</li> <li>Snap4City is certified to offer FIWARE Consultancy Services</li> <li>Snap4City is a platform proposed on the Marketplace of EOSC</li> <li>Snap4city is on BeeSmart marketplace</li> <li>Snap4City is compliant with OBD2 Devices for vehicles and fleets monitoring</li> <li>Snap4City is fully compliant with GIS, ArcGIS, QGIS, etc., interoperating with WMS and WFS services, see the examples of Snap4City in connection with ArcGIS or OpenGIS provided and made available</li> <li>Km4City: Km4City of Snap4City is an official API of E015 suite</li> <li>LoraWAN: Snap4City is compliant with LoraWan</li> <li>SigFOX: Snap4City is a partner of SigFOX</li> <li>Node-RED, JSFoundation: Snap4City is an official library of Node-RED</li> <li>CKAN: Km4City/Snap4City are Powered by CKAN, since they provide DataGate CKAN module for shortening the ingestion and publication of Data Sets, and the eventual connection with other CKAN tools and installations in the world.</li> <li>Gold Member of the FIWARE Foundation</li> <li>Official Powered by FIWARE Solution</li> <li>GAIA-X member</li> </ul>',
             technologies: [
                 'Advanced or High Performance Computing',
                 'Artificial Intelligence',
@@ -2808,8 +2769,7 @@ var pageData = {
                     'https://techcrunch.com/2014/09/09/tablegrabber-resguru-disrupt-launch/?guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAABc_HvJXytQVtJ_cxFonVREaBh8kxNdF9Ja_hm5yMOvXhuCs4w5FU4UqznAZLd4RZ-vgj-L_hPoVujg68Zt18jvysxEZK2XTgFFLaZ2VZk34mbC_S4mV5zCpB-qT_qXz7BT8aXSCvDGwkKYfPbFoGhF853SYbP57pO0O78PiUFyZ'
                 ]
             ],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_RezGuru.png',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_RezGuru.png',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_tablegrabber_rezguru.png',
             furtherImages: ''
         },
@@ -2831,8 +2791,7 @@ var pageData = {
                 '<p>Every municipality is usually already equipped with a wide range of devices and sensors, but the results of all these technologies are almost wasted so far, as they become a huge amount of unrelated data, too complicated to process, which turns out to be a significant waste of time, money, and resources.</p> <p>Therefore, what they require is a technological system that guarantees an efficient collection and management of city data, with the integration of IoT services and technologies, a decision support system, and other tools to promote the active participation of citizens. Most importantly, the goal is to have a digital infrastructure capable of integrating the technologies already implemented in the municipality, making them more efficient and useful for all the stakeholders involved in the public sector (professionals, workers, and citizens).</p>',
             references:
                 '<p>Public Administration, Cities, Energy Utilities, Smart Water, Public Safety Industries, Natural Resource Management</p>',
-            awards:
-                '<p>2020:· Best Civic Tech Startup at South Europe Startup Awards 2019:·  WiseTown Situation Room top platform finalist of Smart City – Smart Idea Award at Gitex Award – Dubai 2nd place in Enhanced Data at IoMOBILITY Awards 2018:  WiseTown Virtual Situation Room awarded at Government Innovation Award ·        Member of the month Assintel (Associazione Nazionale Imprese ICT) ·        Best startup for Intermodal Mobility at Connected City – Torino 2017: Top project of 2nd call EIT Digital scale-up project </p>',
+            awards: '<p>2020:· Best Civic Tech Startup at South Europe Startup Awards 2019:·  WiseTown Situation Room top platform finalist of Smart City – Smart Idea Award at Gitex Award – Dubai 2nd place in Enhanced Data at IoMOBILITY Awards 2018:  WiseTown Virtual Situation Room awarded at Government Innovation Award ·        Member of the month Assintel (Associazione Nazionale Imprese ICT) ·        Best startup for Intermodal Mobility at Connected City – Torino 2017: Top project of 2nd call EIT Digital scale-up project </p>',
             technologies: [
                 'Artificial Intelligence',
                 'Big Data',
@@ -3598,8 +3557,7 @@ var pageData = {
                     'https://www.fiware.org/2018/03/20/the-province-of-badajoz-presents-its-smart-province-project/'
                 ]
             ],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Telefonica.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Telefonica.svg',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_telefonica_thinking-cities.png',
             furtherImages: ''
         },
@@ -3679,8 +3637,7 @@ var pageData = {
                 '<p>Trace Labs is a core technology builder of the open source OriginTrail protocol for inter-organizational data exchange. The Network Operating System (nOS) powered by OriginTrail empowers you to quickly set up data sharing focused blockchain use cases by performing quick network and node provisioning, setting up  consortia and their interactions with the various networks, public or private. Powered by OriginTrail protocol, nOS allows you to rapidly build solutions for the common good of the entire value chain end-to-end, by utilizing globally utilized data standards (GS1, Web of Things…), existing IT infrastructure and state of the art DLT/ blockchain technologies such as Hyperledger Fabric and Ethereum. nOS integrates with Oracle Blockchain Cloud Service, IaaS and ERP systems, as well as interoperates with all other major ERP and cloud providers. Core features of the nOS include network deployment, ERP integrations, consensus check, and supply chain mapping.</p>',
             references:
                 '<p>Perutnina Ptuj: www.perutnina.com OneAgrix www.oneagrix.com Dairy Celeia: www.zelenedoline.si Natureta: www.natureta.si</p>',
-            awards:
-                "<p>Texas (Austin) Food + City Challenge Prize Event 2017: People's Choice Winner https://www.foodandcity.org/2017-prize-summary/ Finish Fiware Accelerator 2016 Winner (top 3 accelerated companies) Walmart Food Safety Collaboration Center: Food Safety Innovation Spark Award 2017 (+ accepted to its Innovation Pipeline)</p>",
+            awards: "<p>Texas (Austin) Food + City Challenge Prize Event 2017: People's Choice Winner https://www.foodandcity.org/2017-prize-summary/ Finish Fiware Accelerator 2016 Winner (top 3 accelerated companies) Walmart Food Safety Collaboration Center: Food Safety Innovation Spark Award 2017 (+ accepted to its Innovation Pipeline)</p>",
             technologies: ['Internet of Things', 'Data Analytics'],
             domains: ['Logistics'],
             docs: [
@@ -3727,8 +3684,7 @@ var pageData = {
             challenge:
                 '<p>Expiry dates as used in the food industry today are important achievements in providing food safety but are also subject to considerable criticism. Many consumers consider the printed expiry dates as a fixed limit and throw away their food on the day of expiry even though it might still be good to eat.</p>',
             references: '<p>Metro Cash &amp; Carry. TagIT Smart.</p>',
-            awards:
-                '<p>1.) FInish Future Award in 2016 at international trade fair Fruit Logistica.  2.) Germany - Land of Ideas - Land der Ideen: Elf „Ausgezeichnete Orte“ 2017 aus Baden-Württemberg.</p>',
+            awards: '<p>1.) FInish Future Award in 2016 at international trade fair Fruit Logistica.  2.) Germany - Land of Ideas - Land der Ideen: Elf „Ausgezeichnete Orte“ 2017 aus Baden-Württemberg.</p>',
             technologies: ['Sensory Systems', 'Data Analytics', 'Internet of Things'],
             domains: ['AgriFood'],
             docs: [],
@@ -3769,8 +3725,7 @@ var pageData = {
             challenge:
                 '<p>Livestock farmers have to manually check their silos every week to assess stocks and avoid running out of feed. Then, they phone the feed supplier who must produce and deliver the feed in a short period of 24h-48h. This outdated system is very manual and inefficient causing every year over 400M€ of avoidable costs only in the EU.</p>',
             references: '',
-            awards:
-                '<p>[2015] 1st IoT Global call by Telefonica Open Future and China Unicomm.  [2016] High Flyers by SmartAgrifood accelerator.  [2016] CommBeBiz Awards by European Business Network.  [2016, 2017] Seal of Excellence by European Commission.</p>',
+            awards: '<p>[2015] 1st IoT Global call by Telefonica Open Future and China Unicomm.  [2016] High Flyers by SmartAgrifood accelerator.  [2016] CommBeBiz Awards by European Business Network.  [2016, 2017] Seal of Excellence by European Commission.</p>',
             technologies: ['Internet of Things', 'Data Analytics', 'Open Data', 'Cloud Computing'],
             domains: ['AgriFood', 'Logistics', 'Industry'],
             docs: [],
@@ -3913,8 +3868,7 @@ var pageData = {
                 '<p>The European WASTE4Think project, led by the DeustoTech institute of technology at the University of Deusto, seeks to design solutions based on the use of information and communication technologies that would enable the improvement of all waste management stages, adopting a global approach and particularly focusing on citizen participation in order to build more sustainable, eco-friendly cities.</p>',
             references:
                 '<p>These will depend on the eco-solution: We have some eco-solutions whose potential References/Customers would be Public Administration or Waste Collection Companies (Collection Module, Planning Module and Treatment Plants).  Other eco-solutions are targeted to schools and universities (Learning Materials and Serious Games). Environmental consultancies and researchers also have some eco-solutions (Circular Economy Module) and finally: Citizens (Apps).</p>',
-            awards:
-                '<p>These will depend on the eco-solution: We have some eco-solutions whose potential References/Customers would be Public Administration or Waste Collection Companies (Collection Module, Planning Module and Treatment Plants). Other eco-solutions are targeted to schools and universities (Learning Materials and Serious Games). Environmental consultancies and researchers also have some eco-solutions (Circular Economy Module) and finally: Citizens (Apps).</p>',
+            awards: '<p>These will depend on the eco-solution: We have some eco-solutions whose potential References/Customers would be Public Administration or Waste Collection Companies (Collection Module, Planning Module and Treatment Plants). Other eco-solutions are targeted to schools and universities (Learning Materials and Serious Games). Environmental consultancies and researchers also have some eco-solutions (Circular Economy Module) and finally: Citizens (Apps).</p>',
             technologies: ['Open Data', 'Data Analytics', 'Internet of Things'],
             domains: ['Cities'],
             docs: [],
@@ -3925,8 +3879,7 @@ var pageData = {
                     'https://docs.google.com/spreadsheets/d/1-_4KrkFWYTuK25vIjKA8qWhgQ1JCIDQwClfjmbYfmb4/edit#gid=1375822885'
                 ]
             ],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Waste4Think.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Waste4Think.svg',
             featuredImage:
                 'https://www.fiware.org/wp-content/marketplace/images/hero_university-of-deusto_waste4think.png',
             furtherImages: ''
@@ -3975,8 +3928,7 @@ var pageData = {
             challenge: '',
             references:
                 '<p>City of Vienna - Austria - Smarter Together Project (SmartData Wien Data Portal) Rio de Janeiro Operations Center (COR) - Rio de Janeiro - Brazil City of Nova Friburgo - Rio de Janeiro - Brazil</p>',
-            awards:
-                '<p>Smart City Expo World Congress SCEWC 2016 in Barcelona, Spain, event where the platform was chosen as top 5 at CALL FOR SOLUTIONS on the governance and economy category.</p> <p>Smart City Expo World Congress SCEWC 2016 in Barcelona, Spain, event where the platform was chosen as top 5 at World Smart City Award 2016 - INNOVATIVE GLOBAL SOUTH AWARD category.</p> <p>Winners of FIWARE Excellence Challenge on the island of Gran Canaria, Spain. The challenge brought together more than 1,800 projects from 23 countries. VM9 FI-Guardian was presented in the context of smart cities, gathering characteristics related to Internet of Things, Big Data analytics, complex event processing, multimedia services and real time geo-referenced communication.</p> <p>Winners of FIWARE Smart Cities Challenge at Campus Party Brazil 2014. The solution consolidates tracking system data, centralizing information from different sources, and carrying out customisable and intelligent remote sensor analysis, communicating risk events to citizens before they occur.</p>',
+            awards: '<p>Smart City Expo World Congress SCEWC 2016 in Barcelona, Spain, event where the platform was chosen as top 5 at CALL FOR SOLUTIONS on the governance and economy category.</p> <p>Smart City Expo World Congress SCEWC 2016 in Barcelona, Spain, event where the platform was chosen as top 5 at World Smart City Award 2016 - INNOVATIVE GLOBAL SOUTH AWARD category.</p> <p>Winners of FIWARE Excellence Challenge on the island of Gran Canaria, Spain. The challenge brought together more than 1,800 projects from 23 countries. VM9 FI-Guardian was presented in the context of smart cities, gathering characteristics related to Internet of Things, Big Data analytics, complex event processing, multimedia services and real time geo-referenced communication.</p> <p>Winners of FIWARE Smart Cities Challenge at Campus Party Brazil 2014. The solution consolidates tracking system data, centralizing information from different sources, and carrying out customisable and intelligent remote sensor analysis, communicating risk events to citizens before they occur.</p>',
             technologies: ['Internet of Things', 'Open Data', 'Data Analytics'],
             domains: ['Cities'],
             docs: [],
@@ -4045,8 +3997,7 @@ var pageData = {
             docs: [],
             videos: [],
             materials: [],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_ybvr.png',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_ybvr.png',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_yerbabuena-vr_ybvr.png',
             furtherImages: ''
         },
@@ -4128,8 +4079,7 @@ var pageData = {
             docs: [],
             videos: [],
             materials: [],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Hypertegrity.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Hypertegrity.svg',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_hypertegrity_udsp.png',
             furtherImages: ''
         },
@@ -4151,8 +4101,7 @@ var pageData = {
                 '<p>Recently, the evolution of 3D models has been gaining high research attention in several fields, such as aerospace and manufacturing, as well as Architecture, Engineering, and Construction (AEC).  The Digital Twin concept refers to developing a mirrored digital counterpart to a physical system and linking their information throughout the physical counterpart’s life cycle. The Digital Twin in construction is expected to augment architectural modeling as a progressive step that develops from Building Information Modelling (BIM) in the AEC field. The use of Digital Twins would contribute to making buildings smarter and enhancing their sustainability. The smart building is depicted as utilizing cyber-physical intelligence to improve building functions, provide more comfortable and safe conditions for people and businesses, and increase overall satisfaction. XDT (eXtended Digital Twin) aims at improving not only energy efficiency but to define a holistic view of the building: sustainability of logistics, energy consumption, communications, planning, safety, security, internal mobility, and liveability.</p>',
             references:
                 '<p>With the contribution of</p> <ul> <li><p>Engineering Group (http://www.eng.it)</p></li> <li><p>Focchi Group (https://www.focchi.it/it/)</p></li> <li><p>eFM (http://www.efmnet.com/)</p></li> <li><p>Università Politecnica delle Marche (https://www.univpm.it/)</p></li> </ul>',
-            awards:
-                '<p>Accelerating the development of AI Enabled Digital Twins (presentation to the Codemotion 2022 event in Milan)</p>',
+            awards: '<p>Accelerating the development of AI Enabled Digital Twins (presentation to the Codemotion 2022 event in Milan)</p>',
             technologies: [
                 'Artificial Intelligence',
                 'Data Analytics',
@@ -4165,8 +4114,7 @@ var pageData = {
             docs: [],
             videos: [],
             materials: [['Impact Stories', 'https://www.fiware.org/about-us/impact-stories/']],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Engineering.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Engineering.svg',
             featuredImage:
                 'https://www.fiware.org/wp-content/marketplace/images/hero_engineering_extended-digital-twin.png',
             furtherImages: ''
@@ -4189,15 +4137,13 @@ var pageData = {
                 '<p>This product has some major interests:</p> <ul> <li><p>Providing a standardized interface to several producers that can be used by AG platforms and other AG-related products</p></li> <li><p>Providing a standalone platform that can be used to visualize data coming from different sensors</p></li> <li><p>Providing a product that can be used even by the government (local and central) to connect many different sensors and to provide access to the farmers</p></li> </ul> <p>The developed product aims to fill a gap in the market. This kind of product is more than welcomed by the Public Administration and by platform producers to simplify access to this kind of data.</p> <p>This idea starts from a common need expressed by two of these platforms, Agricolus and 365FarmNet, that meet in the IOF2020 ecosystem and are recognized as a common benefit to run a joint effort to build this GE. Both companies recognized FIWARE as the natural architecture to choose for this kind of development.</p>',
             references:
                 '<p>Agrigateways is designed for farmers, agronomists and agricultural consortia and government departments.</p>',
-            awards:
-                '<ul> <li>First prize of the Startup Forum at the Food 4 Future event in Bilbao in 2021 </li> <li>Award for the best team at Global Agripreneurs Summit 2019 </li> <li>SME Instrument Phase 1 winner with Agricolus DSS project ID: 719968 </li> <li>Fractals winner with Oliwes solution is sub granted by FP7 Fractals ref. GA 632874 European Agricultural Fund for Rural Development (EAFRD) </li> <li>Speed Up Europe winner with Agricolus Web Awareness project sub granted by FP7 Speed UP! Europe ref. GA 632858</li> </ul>',
+            awards: '<ul> <li>First prize of the Startup Forum at the Food 4 Future event in Bilbao in 2021 </li> <li>Award for the best team at Global Agripreneurs Summit 2019 </li> <li>SME Instrument Phase 1 winner with Agricolus DSS project ID: 719968 </li> <li>Fractals winner with Oliwes solution is sub granted by FP7 Fractals ref. GA 632874 European Agricultural Fund for Rural Development (EAFRD) </li> <li>Speed Up Europe winner with Agricolus Web Awareness project sub granted by FP7 Speed UP! Europe ref. GA 632858</li> </ul>',
             technologies: ['Cloud Computing', 'Data Analytics', 'Data Handling', 'Internet of Things'],
             domains: ['Agriculture', 'AgriFood', 'Government', 'Sustainability', 'Weather'],
             docs: [['GitHub', 'https://github.com/Agricolus/AWG.api/blob/master/README.md']],
             videos: [['FIWARE AgriFood DAY-YouTube', 'https://www.youtube.com/watch?v=cnExMNsEuhA&t=6957s']],
             materials: [],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_AgriGateway.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_AgriGateway.svg',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_agricolus_agrigateways.png',
             furtherImages: ''
         },
@@ -4276,8 +4222,7 @@ var pageData = {
                 '<p>Engage your customers, your colleagues, your communities to figure out how to work, play or just think together through shared immersive, creative and productive experiences!</p>',
             references:
                 '<p><a href="https://www.youtube.com/watch?v=i8GzJ-EDWhs" title="CO2Mute">CO2Mute</a> <a href="https://www.youtube.com/watch?v=P0A1D6lRq2M" title="City of Saint-Quentin">City of Saint-Quentin</a> <a href="https://www.youtube.com/watch?v=j8KekjPjpMs" title="Herne Digital">Herne Digital</a></p>',
-            awards:
-                '<p>CEFAT4Cities hackathon double winner (Berlin TXL + Vienna) <a href="https://www.youtube.com/watch?v=VPp3KVkvmj0" title="Meta TXL Demo">Meta TXL Demo</a> <a href="https://www.youtube.com/watch?v=42dNh1VM7n4&t=1972s" title="Managing Data Models and Exposing Digital Twins ">Managing Data Models and Exposing Digital Twins </a></p>',
+            awards: '<p>CEFAT4Cities hackathon double winner (Berlin TXL + Vienna) <a href="https://www.youtube.com/watch?v=VPp3KVkvmj0" title="Meta TXL Demo">Meta TXL Demo</a> <a href="https://www.youtube.com/watch?v=42dNh1VM7n4&t=1972s" title="Managing Data Models and Exposing Digital Twins ">Managing Data Models and Exposing Digital Twins </a></p>',
             technologies: [
                 'Data Spaces',
                 'Digital Twins',
@@ -4293,8 +4238,7 @@ var pageData = {
                 ['FIWARE Global Summit 2022', 'https://www.youtube.com/watch?v=zZUknJ6Gmpw']
             ],
             materials: [],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_SOMWarespace.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_SOMWarespace.svg',
             featuredImage: 'https://www.fiware.org/wp-content/uploads/b8b094de1da4463a6d28fe70ea20aeff.png',
             furtherImages: ''
         }
@@ -4318,8 +4262,7 @@ var pageData = {
                 '<p>Today farmers face several challenges, we are mostly working on:</p> <p>International market competition with products coming from unruled countries that produce at a very low cost. The effect is a reduction of the profit due to the need of reducing final selling prices. For this reason, they have to reduce costs and increase quality at the same time. Climate change requires continuous adaptation of the best time to proceed with any agricultural operation (seeding, fertilizing, manuring, irrigating, harvesting, …). They need  real-time support to understand the right timing for these operations. AgriTech adoption is not an option but average usage in the EU is far below 10% versus 80% of North America and Australia: farmers need a way to integrate these technologies into daily tasks.</p>',
             references:
                 '<p>Agro holding companies that want to standardize with AGRICOLUS good practices among their suppliers (farmers) Association of farmers that want to support their associates with better tools providing high value technologies Medium big farms that can reduce costs and have  better control, and an end-to-end traceability of the production Government in agricultural department that uses our product to raise farmers awareness on diseases and other agricultural treats</p>',
-            awards:
-                '<p>Other than the Accelerators we participated in, we are winners of: SEUA 2016 Italian Prizes (EBAN, IAG prizes), ( SpinUp Awards 2017 (Grand Jury Prize), FoodTech 2017 (Intesa San Paolo), ForumPA 10x10 finalist.</p>',
+            awards: '<p>Other than the Accelerators we participated in, we are winners of: SEUA 2016 Italian Prizes (EBAN, IAG prizes), ( SpinUp Awards 2017 (Grand Jury Prize), FoodTech 2017 (Intesa San Paolo), ForumPA 10x10 finalist.</p>',
             technologies: ['Sensory Systems'],
             domains: ['AgriFood'],
             docs: [],
@@ -4392,8 +4335,7 @@ var pageData = {
                 '<p>Air pollution is the single biggest environmental health threat of our time, killing 7 million people and costing the world economy 5 trillion USD per year. Data-driven decision-making remains unfeasible as sensing equipment is expensive, stakeholders lack the necessary knowledge to analyze the data and suitable interventions are unknown</p>',
             references:
                 '<ul> <li>City of Hamburg </li> <li>City of Moers</li> <li>City of Hennef </li> <li>City of Neckarsulm </li> <li>City of Vilnius</li> <li>City of Siegburg</li> </ul>',
-            awards:
-                "<p>FIWARE Business Success Story *ship Global Startup Challenge (GSC) 2017 Winner (04.2017) WE DO DIGITAL award / DIHK &amp; German chambers of industry and commerce (05.2017) Deutschland: Land der Ideen (Germany: Land of Ideas / incl. distinction from German president) (06.2017) Hamburger Gründerpreis (Hamburg Founders' Award) (09.2017) EU Top 50 (11.2017) Science4Life: Idea Phase (11.2017) Forbes 30 Under 30 Europe / Social Entrepreneurship (01.2018) WE DO DIGITAL 2018 award / DIHK &amp; German chambers of industry and commerce (06.2018) betapitch Hamburg Winner (06.2018) Gründerwettbewerb Digitale Innovation (08.2018) WECONOMY (10.2018) betapitch global Winner (11.2018) Für-Gründer.de Top50 Startup (01.2019)</p>",
+            awards: "<p>FIWARE Business Success Story *ship Global Startup Challenge (GSC) 2017 Winner (04.2017) WE DO DIGITAL award / DIHK &amp; German chambers of industry and commerce (05.2017) Deutschland: Land der Ideen (Germany: Land of Ideas / incl. distinction from German president) (06.2017) Hamburger Gründerpreis (Hamburg Founders' Award) (09.2017) EU Top 50 (11.2017) Science4Life: Idea Phase (11.2017) Forbes 30 Under 30 Europe / Social Entrepreneurship (01.2018) WE DO DIGITAL 2018 award / DIHK &amp; German chambers of industry and commerce (06.2018) betapitch Hamburg Winner (06.2018) Gründerwettbewerb Digitale Innovation (08.2018) WECONOMY (10.2018) betapitch global Winner (11.2018) Für-Gründer.de Top50 Startup (01.2019)</p>",
             technologies: ['Artificial Intelligence', 'Cloud Computing'],
             domains: ['Cities', 'Industry', 'Ports'],
             docs: [['Breeze Technologies Solutions', 'https://www.breeze-technologies.de/solutions/']],
@@ -4401,8 +4343,7 @@ var pageData = {
             materials: [
                 ['Customer cases and References', 'https://www.breeze-technologies.de/projects-and-references/']
             ],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_BreezeTechnologies.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_BreezeTechnologies.svg',
             featuredImage:
                 'https://www.fiware.org/wp-content/marketplace/images/hero_breeze-technologies_breeze-air-quality-sensors.png',
             furtherImages: '',
@@ -6595,8 +6536,7 @@ var pageData = {
                 '<p>In the Smart Cities sector, we provide different solutions that have been designed in order to simplify and optimize waste collection and treatment processes.</p> <p>In the Industry sector, we offer Load control or dynamic weighing systems in industrial vehicles. We provide solutions that have been designed to make work processes easier for this type of machinery.</p>',
             references:
                 '<p>Urbaser, Ferrovial Servicios, Acciona, Valoriza, Ecovidrio, Ecoembes, Liebherr, Jungheinrich, Mitsubishi Forklift Trucks, Crownd, Linde, Volvo, Still, Caterpillar, Comatsu, Toyota Material Handling, Fobesa, Fovasa, Innovia Coptalia, Sersall,</p>',
-            awards:
-                '<p>Access4SMEs - Seal of Excellence R&amp;D&amp;I Projects «Collaboration Challenges» 2019 - Government of Spain Aid program for industry and SMEs in Aragon (PAIP) INNOVATIVE SME - Ministry of Science and Innovation, Government of Spain</p>',
+            awards: '<p>Access4SMEs - Seal of Excellence R&amp;D&amp;I Projects «Collaboration Challenges» 2019 - Government of Spain Aid program for industry and SMEs in Aragon (PAIP) INNOVATIVE SME - Ministry of Science and Innovation, Government of Spain</p>',
             technologies: [
                 'Artificial Intelligence',
                 'Internet of Things',
@@ -6625,8 +6565,7 @@ var pageData = {
                     'https://www.eysmunicipales.es/actualidad/notable-evolucion-en-el-software-de-gestion-sigeus-web'
                 ]
             ],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Distromel.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Distromel.svg',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_distromel_sigeus.png',
             furtherImages: ''
         },
@@ -6775,8 +6714,7 @@ var pageData = {
             docs: [],
             videos: [],
             materials: [],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Engineering.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Engineering.svg',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_engineering_dashram.png',
             furtherImages: '',
             related: [
@@ -6825,8 +6763,7 @@ var pageData = {
             challenge:
                 '<p>Companies and public entities have a lot of data coming from many data sources but often are not able to get full value from the data and experience a lack of information. There is the need to add BI capability to already existing platforms or to adopt a BI solution that is open, innovative, and cross-domain.  It is essential to provide a highly customized experience over data and analyses and present data through an effective data visualization. KNOWAGE enables data visualization over data managed with FIWARE GEs.</p>',
             references: '<p>FIAT Research Center, JOT Internet Media, biAuto-Biasotti Group</p>',
-            awards:
-                '<p>2011: OW2 Open Innovation Award 2014: OW2 Market Award 2018: OW2 Best Project Market Award  2020: OW2 Best Project Technology Award</p>',
+            awards: '<p>2011: OW2 Open Innovation Award 2014: OW2 Market Award 2018: OW2 Best Project Market Award  2020: OW2 Best Project Technology Award</p>',
             technologies: [
                 'Artificial Intelligence',
                 'Big Data',
@@ -6845,8 +6782,7 @@ var pageData = {
                 ['Developers Italia', 'https://developers.italia.it/it/software/knowagelabs-knowage-server-94e418'],
                 ['Capterra', 'https://www.capterra.com/p/209297/Big-Data/']
             ],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_KnowAge.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_KnowAge.svg',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_engineering_knowage.png',
             furtherImages: '',
             related: [
@@ -7017,8 +6953,7 @@ var pageData = {
                 '<p>Smart Cities’ success depends on the engagement from citizens in the solutions deployed. A Smart City must provide solutions and enhancement of services for its citizens.  The main problem we address is to support urban technicians and planners in their decision-making process in order to avoid penalties, accelerate investment for climate change mitigation and avoid losing grants due to lack of evidence-based indicators/results. Our ambition is to ensure that decisions consider the appropriate indicators of sustainability, climate change, air quality, and focus on people.</p>',
             references:
                 '<p>Aarhus, Denmark Mexico DF, Mexico Ceuti, Murcia, Molina de Segura,Cartagena, Spain Madrid,  Barcelona, Valencia, La Manga, Murcia.</p>',
-            awards:
-                '<p>HOPU has also received recognitions during last year as part of the urban design innovation such as Le Monde Smart Cities Urban Design award 2020 www.lemonde.fr/les-prix-de-l-innovation/;  Green Electronics Council 2019 https://greenelectronicscouncil.org/awards-events/gec-catalyst-awards/;  EIT Urban Mobility Scale-up Hub https://eit.europa.eu/news-events/news/eit-urban-mobility-welcomes-first-15-members-scale-hub;  Madrid GovTech Lab www.madrid.govtechlab.es/.</p>',
+            awards: '<p>HOPU has also received recognitions during last year as part of the urban design innovation such as Le Monde Smart Cities Urban Design award 2020 www.lemonde.fr/les-prix-de-l-innovation/;  Green Electronics Council 2019 https://greenelectronicscouncil.org/awards-events/gec-catalyst-awards/;  EIT Urban Mobility Scale-up Hub https://eit.europa.eu/news-events/news/eit-urban-mobility-welcomes-first-15-members-scale-hub;  Madrid GovTech Lab www.madrid.govtechlab.es/.</p>',
             technologies: ['Internet of Things', 'Sensory Systems'],
             domains: ['Air Quality', 'Cities', 'Government', 'Green Deal', 'Measurement'],
             docs: [
@@ -7120,15 +7055,13 @@ var pageData = {
                 "<p>More than a billion  bicycles are present in the world. Over 4 million bicycles are stolen yearly in Europe alone, it is about 7 bicycles a minute. Only a few of them - 4-5%- are  recovered. While the majority of victims choose a new bicycle of inferior price, up to 23% of victims do not replace their bicycle at all. Thus, bicycle thefts provoke significant economic damage to both bicycle owners and the entire industry.</p> <p>Moreover, bicycle thefts are emotionally stressful for those who experience them. Chains and U-locks are the two most widely used bicycle theft preventive measures. Millions of chains and U-locks are sold every year. Nevertheless, according to an experiment carried out by the Cyclists' Touring Club, even the most expensive 'Sold Secure Golden' standard locks can be broken in less than 42 seconds . </p> <p>A bicycle lock does not guarantee security but foil the opportunist thief and slow down the professional. With Kissmybike we are building a reliable integrated solution that will enable quick bike recovery in case of theft. Our ambition is to make bike theft futile by both technical innovation and creating new collaborations with bicycle industry players.</p>",
             references:
                 '<p>Kissmybike adopts a business model that bridges Reference Material/Customers and end-users and follows B2B2C marketing orientation. Our main target Reference Material/Customers are bicycle manufacturers, bicycle dealers, renting and insurance companies.</p> <p>We have signed a contract with Fantic Motor srl for a pilot project for 100 devices . Currently, we have scheduled trials with 6 companies (BikeeBike from Italy, SUNN and Douze Cycles from France, DIAVELO from the Netherlands, and MA NGSI Ready Devices and Corratec from Germany).</p>',
-            awards:
-                '<ul> <li><p>In October 2015, Kissmybike was awarded the first prize at the D2T Start Cup (Trento, Italy) in the field of Mechatronics. The team received €5K and 12 months of incubation at the Pole of Mechatronics (Rovereto, Italy). </p></li> <li><p>In July 2016, Kissmybike was selected to be in the Top-10 projects (out of 297) in the 2nd call of Finodex. We received a total of €100K, business coaching and business networking services. </p></li> <li><p>In October 2016, KMB Lab received €40K funding for business development from the Province of Trento (Italy). </p></li> <li><p>In March 2018, KMB Lab was selected for SME Instruments Phase 1 funding of €50K. </p></li> <li><p>In May 2018, Kissmybike was admitted to the MAG2 FrontierCities2 acceleration programme with €75K total funding and business acceleration services.</p></li> </ul>',
+            awards: '<ul> <li><p>In October 2015, Kissmybike was awarded the first prize at the D2T Start Cup (Trento, Italy) in the field of Mechatronics. The team received €5K and 12 months of incubation at the Pole of Mechatronics (Rovereto, Italy). </p></li> <li><p>In July 2016, Kissmybike was selected to be in the Top-10 projects (out of 297) in the 2nd call of Finodex. We received a total of €100K, business coaching and business networking services. </p></li> <li><p>In October 2016, KMB Lab received €40K funding for business development from the Province of Trento (Italy). </p></li> <li><p>In March 2018, KMB Lab was selected for SME Instruments Phase 1 funding of €50K. </p></li> <li><p>In May 2018, Kissmybike was admitted to the MAG2 FrontierCities2 acceleration programme with €75K total funding and business acceleration services.</p></li> </ul>',
             technologies: ['Internet of Things', 'Open Data', 'Data Analytics'],
             domains: ['Cities'],
             docs: [],
             videos: [],
             materials: [],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/raster/logo_KMBLab.png',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/raster/logo_KMBLab.png',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_kmb-lab_kissmybike.png',
             furtherImages: ''
         },
@@ -7840,8 +7773,7 @@ var pageData = {
                 '<p>There is no GPS signal inside buildings and infrastructures. Location-based services indoors are hardly built with costly and complex solutions which do not scale-up.</p>',
             references:
                 "<p>Some of the partners which use Situm's indoor positioning platform are companies like TELEFONICA, CARTO, EL CORTE INGLES.</p>",
-            awards:
-                '<p>Situm has won several awards, such as IMPACT Accelerator in 2016 or TELEFONICA Open Future 2015 in Galicia (Spain).</p>',
+            awards: '<p>Situm has won several awards, such as IMPACT Accelerator in 2016 or TELEFONICA Open Future 2015 in Galicia (Spain).</p>',
             technologies: ['Internet of Things', 'Artificial Intelligence', 'Data Analytics', 'Open Data'],
             domains: ['Cities', 'Logistics'],
             docs: [['Situm Core Technology', 'https://situm.com/en/technology/real-time-indoor-location/']],
@@ -8038,8 +7970,7 @@ var pageData = {
                 ['KMU Instrument-YouTube', 'https://www.youtube.com/watch?v=ZrQ9IZ6Wgag']
             ],
             materials: [['Press Reactions', 'https://en.telocate.de/press-reactions/']],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_FI-Assist.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_FI-Assist.svg',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_telocate_fi-assist.png',
             furtherImages: ''
         },
@@ -8223,8 +8154,7 @@ var pageData = {
             challenge:
                 '<p>Livestock farmers have to manually check their silos every week to assess stocks and avoid running out of feed. Then, they phone the feed supplier who must produce and deliver the feed in a short period of 24h-48h. This outdated system is very manual and inefficient causing every year over 400M€ of avoidable costs only in the EU.</p>',
             references: '',
-            awards:
-                '<p>[2015] 1st IoT Global call by Telefonica Open Future and China Unicomm.  [2016] High Flyers by SmartAgrifood accelerator.  [2016] CommBeBiz Awards by European Business Network.  [2016, 2017] Seal of Excellence by European Commission</p>',
+            awards: '<p>[2015] 1st IoT Global call by Telefonica Open Future and China Unicomm.  [2016] High Flyers by SmartAgrifood accelerator.  [2016] CommBeBiz Awards by European Business Network.  [2016, 2017] Seal of Excellence by European Commission</p>',
             technologies: ['Internet of Things', 'Data Analytics', 'Open Data', 'Cloud Computing'],
             domains: ['AgriFood', 'Logistics', 'Industry'],
             docs: [],
@@ -8280,8 +8210,7 @@ var pageData = {
                     'https://www.esmartcity.es/2018/09/10/urbaser-comienza-gestionar-vehiculos-contenedores-plantas-tratamiento-plataforma-iot'
                 ]
             ],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Urbaser.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_Urbaser.svg',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_urbaser_sensiot.png',
             furtherImages: ''
         },
@@ -8314,8 +8243,7 @@ var pageData = {
             docs: [],
             videos: [],
             materials: [['Tweet', 'https://twitter.com/OpenFuture_Ext/status/1210470507277176833']],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_GavillanControl.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_GavillanControl.svg',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_ventum_gavilan-control.png',
             furtherImages: ''
         },
@@ -8374,8 +8302,7 @@ var pageData = {
             ],
             videos: [],
             materials: [],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_WellnessTechGroup.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_WellnessTechGroup.svg',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_wellness-techgroup_quamtra.png',
             furtherImages: '',
             related: [
@@ -8418,8 +8345,7 @@ var pageData = {
             ],
             videos: [],
             materials: [],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_WellnessTechGroup.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_WellnessTechGroup.svg',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_wellness-techgroup_welight.png',
             furtherImages: '',
             related: [
@@ -8458,8 +8384,7 @@ var pageData = {
             docs: [],
             videos: [],
             materials: [],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/raster/logo_Xapix.png',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/raster/logo_Xapix.png',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_xapix_xapix.png',
             furtherImages: ''
         },
@@ -8481,8 +8406,7 @@ var pageData = {
                 '<p>MOBA SMART SOLUTIONS FOR EFFICIENT WASTE MANAGEMENT</p> <p><strong>MAWIS U2</strong> is the MOBA software for efficient management of urban services: waste collection, Civic amenity sites, street cleaning &amp; maintenance of urban equipment..</p> <p>It is a SaaS platform that integrates the necessary tools for the collection, transmission and processing of data, that allow optimization of the business processes in the area of urban services.</p> <p>MOBA has 30 years of experience in the field of smart cities offering efficient, robust and innovative technologies that provide public administrations and companies with tools to move towards the circular economy:</p> <ul> <li>Optimizing the MSW service, reducing management costs and polluting emissions.</li> <li>Improving the quality of service thanks to real-time data.</li> <li>Implementing fair rate systems (PAYT) that promote the reduction of waste and the increase of selective collection, advancing towards zero waste.</li> <li>Increasing citizen satisfaction, through transparency and communication with the MAWIS bitPAYT App.</li> </ul>',
             references:
                 "<p>Madrid, Barcelona, Valencia, EPREMASA (Empresa Provincial de Residuos y Medio Ambiente, S.A., dependiente de la Diputación de Córdoba), Sevilla, MARE (MEDIO AMBIENTE, AGUA, RESIDUOS Y ENERGÍA DE CANTABRIA, S.A.), Palma de Mallorca, Bilbao, Valladolid, L'Hospitalet, Cadiz, Granda, Cuenca, Tarragona, Girona, and more.</p>",
-            awards:
-                '<ul> <li>Top-Innovator 2018</li> <li>Bauma Innovation Award 2019 </li> <li>German Design Award 2020 </li> <li>German Bran Award 2021</li> </ul>',
+            awards: '<ul> <li>Top-Innovator 2018</li> <li>Bauma Innovation Award 2019 </li> <li>German Design Award 2020 </li> <li>German Bran Award 2021</li> </ul>',
             technologies: [
                 'Big Data',
                 'Internet of Things',
@@ -8547,15 +8471,13 @@ var pageData = {
                 '<p>Our goal is to achieve efficient management and maintenance of sports facilities, in the most automatic and interconnected way possible, including energy efficiency measures.</p>',
             references:
                 '<p>Our client portfolio is very broad, from public administration to private companies. These clients can be viewed at https://app.sporttia.com/search.</p>',
-            awards:
-                '<ul> <li>Confederation of businessmen of Seville. 2nd Initiative prize in the starting call. 2013 to Social Cloud S.L.</li> <li>Minerva Award 2018/2019. Promoted by Vodafone and Junta de Andalucia</li> </ul>',
+            awards: '<ul> <li>Confederation of businessmen of Seville. 2nd Initiative prize in the starting call. 2013 to Social Cloud S.L.</li> <li>Minerva Award 2018/2019. Promoted by Vodafone and Junta de Andalucia</li> </ul>',
             technologies: ['Internet of Things', 'Internet Services', 'Software as a Service'],
             domains: ['Cities', 'Energy', 'Measurement'],
             docs: [],
             videos: [],
             materials: [],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/raster/logo_Sporttia.png',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/raster/logo_Sporttia.png',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_social-club_sporttia.png',
             furtherImages: ''
         },
@@ -8589,8 +8511,7 @@ var pageData = {
             docs: [['Project Description ', 'https://smartcity.edag.com/en/referenzen/trive-park/']],
             videos: [['Demonstration of AVP type 1 and 2', 'https://www.youtube.com/watch?v=F47eE_QA93g']],
             materials: [['Live-Einsatz - trive.park', 'https://www.youtube.com/shorts/5LOQGha8Rew']],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/raster/logo_TrivePark.png',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/raster/logo_TrivePark.png',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_edag_trive-park.png',
             furtherImages: ''
         },
@@ -8645,8 +8566,7 @@ var pageData = {
                 "<p>Novality's challenge is to become a multimodal hub within the field of Smartcities.  The aim is to promote connected micro-mobility and take advantage of the IoT node to add services or utilities such as air quality sensors, noise, people counter, electric vehicle charging points, etc.  For this reason, it is essential for us to be able to integrate into a FIWARE environment to communicate with the different Smartcities platforms of the Public Administrations and Innovation Hubs.</p>",
             references:
                 '<ul> <li>2 Parkings in Marbella in 2021</li> <li>2 Parkings for Junta de Andalucía in 2022</li> <li>27 Parkings in Fuenlabrada in 2023</li> <li>2 Parkings in Churriana de la Vega in 2023</li> <li>1 Parking for Diputación de Guipuzkoa in 2023</li> </ul>',
-            awards:
-                '<p><strong>RENAULT FOUNDATION</strong> Winners with an Accesit to the best innovation within Sustainable and Accessible Mobility.</p> <p><strong>BABLE SMART CITIES</strong> Selected as one of the TOP 50 companies in the smart city field.</p> <p><strong>EIT URBAN MOBILITY</strong> Winners of the challenge posed by the city of Riga, (Latvia) within the "Raptor Pilot 2" program, installing a pilot in said city.</p> <p><strong>BBVA JOLY GROUP</strong> Awarded with the Sustainable Innovation Award awarded by the Joly Group at an event sponsored by BBVA.</p>',
+            awards: '<p><strong>RENAULT FOUNDATION</strong> Winners with an Accesit to the best innovation within Sustainable and Accessible Mobility.</p> <p><strong>BABLE SMART CITIES</strong> Selected as one of the TOP 50 companies in the smart city field.</p> <p><strong>EIT URBAN MOBILITY</strong> Winners of the challenge posed by the city of Riga, (Latvia) within the "Raptor Pilot 2" program, installing a pilot in said city.</p> <p><strong>BBVA JOLY GROUP</strong> Awarded with the Sustainable Innovation Award awarded by the Joly Group at an event sponsored by BBVA.</p>',
             technologies: ['Interaction Technologies', 'Internet of Things', 'Mobility and Location', 'Open Data'],
             domains: ['Cities', 'Manufacturing', 'Mobility', 'Sustainability', 'Telecommunication'],
             docs: [
@@ -8786,8 +8706,7 @@ var pageData = {
                     'http://www.elmundo.es/economia/2016/09/18/57ded87f46163f201b8b45c1.html'
                 ]
             ],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Atos.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Atos.svg',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_atos_connected-territories.png',
             furtherImages: '',
             related: [
@@ -8832,8 +8751,7 @@ var pageData = {
             docs: [],
             videos: [['Oral 3D Printing', 'https://oral3d.eu/']],
             materials: [['3D Printing', 'https://3dprintingmaterialsconference.com/']],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_BallistixDigital.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_BallistixDigital.svg',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_ballistix_ballistix.png',
             furtherImages: ''
         },
@@ -8859,8 +8777,7 @@ var pageData = {
             docs: [],
             videos: [],
             materials: [],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_EGM.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_EGM.svg',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_egm_design-office.png',
             furtherImages: '',
             related: [
@@ -8928,8 +8845,7 @@ var pageData = {
                 ['micro-ROS-YouTube', 'https://www.youtube.com/watch?v=slMhPRnBVwM']
             ],
             materials: [['eProsima News', 'https://www.eprosima.com/index.php/company-all/news']],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Eprosima.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Eprosima.svg',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_eprosima_eprosima.png',
             furtherImages: ''
         },
@@ -8962,8 +8878,7 @@ var pageData = {
             materials: [
                 ['Context Broker & Public Administrations', 'https://www.youtube.com/watch?v=ab1vx3wCg-0&t=4334s']
             ],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_FaubourgNume%CC%81rique.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_FaubourgNume%CC%81rique.svg',
             featuredImage:
                 'https://www.fiware.org/wp-content/marketplace/images/hero_faubourg-numerique_fiware-ihub.png',
             furtherImages: '',
@@ -9028,8 +8943,7 @@ var pageData = {
             docs: [],
             videos: [],
             materials: [],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Ficodes.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Ficodes.svg',
             featuredImage:
                 'https://www.fiware.org/wp-content/marketplace/images/hero_fiihub-canary-island_fiihub-academy.png',
             furtherImages: '',
@@ -9110,8 +9024,7 @@ var pageData = {
                 ['Facebook', 'https://www.facebook.com/fiwareinnovaihub']
             ],
             materials: [],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_FIWAREInnovaiHub.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_FIWAREInnovaiHub.svg',
             featuredImage:
                 'https://www.fiware.org/wp-content/marketplace/images/hero_fiware-innova-ihub_coaching-and-training-services.png',
             furtherImages: '',
@@ -9158,8 +9071,7 @@ var pageData = {
                     'https://s3platform-legacy.jrc.ec.europa.eu/digital-innovation-hubs-tool/-/dih/19412/view'
                 ]
             ],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_FiiHUB.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_FiiHUB.svg',
             featuredImage:
                 'https://www.fiware.org/wp-content/marketplace/images/hero_fiware-innova-ihub_promoting-fiware.png',
             furtherImages: '',
@@ -9213,8 +9125,7 @@ var pageData = {
                     'https://www.eldiario.es/eldiarioex/Premian-Smart-Provincia-Diputacion-Badajoz_0_846215718.html'
                 ]
             ],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_FIWARESpace.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_FIWARESpace.svg',
             featuredImage:
                 'https://www.fiware.org/wp-content/marketplace/images/hero_fiware-space_coaching-and-training-services.png',
             furtherImages: '',
@@ -9271,8 +9182,7 @@ var pageData = {
                     'https://www.eldiario.es/eldiarioex/Premian-Smart-Provincia-Diputacion-Badajoz_0_846215718.html'
                 ]
             ],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_FIWARESpace.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_FIWARESpace.svg',
             featuredImage:
                 'https://www.fiware.org/wp-content/marketplace/images/hero_fiware-space_consultancy-and-integration-services.png',
             furtherImages: '',
@@ -9316,8 +9226,7 @@ var pageData = {
                 ['Andalucía Digital Week-YouTube', 'https://youtu.be/KaOlNT799CE']
             ],
             materials: [],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_FIWAREZone.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_FIWAREZone.svg',
             featuredImage:
                 'https://www.fiware.org/wp-content/marketplace/images/hero_fiware-zone_coaching-and-training-services.png',
             furtherImages: '',
@@ -9349,8 +9258,7 @@ var pageData = {
                 '<p><strong>FIWARE Zone</strong>, the 3 star iHub based on the southern region of Spain, Andalucía, works on promoting and spreading FIWARE technology around the region, delivering several courses and helping companies to develop and integrate solutions to make the ecosystem grow.</p> <p>We have a complete set of resources, like an already deployed FIWARE platform ready to use, FIWARE Experts to work together with the companies helping them to understand  technologies and presence on fairs and events to promote regional companies, in order to improve the competitiveness of regional companies.</p>',
             challenge: '',
             references: '<p>Institutions.</p>',
-            awards:
-                '<p>EnerTIC Awards https://www.europasur.es/suplementotecnologico/iniciativa-BFiwareBZONE-premiada-enerTIC-Awards01201680321.html</p>',
+            awards: '<p>EnerTIC Awards https://www.europasur.es/suplementotecnologico/iniciativa-BFiwareBZONE-premiada-enerTIC-Awards01201680321.html</p>',
             technologies: ['Internet of Things', 'Big Data', 'Artificial Intelligence'],
             domains: ['Cities', 'AgriFood', 'Industry', 'Ports', 'Health'],
             docs: [['FIWARE Technology', 'https://fiware.zone/tecnologia-fiware/']],
@@ -9361,8 +9269,7 @@ var pageData = {
                 ['Andalucía Digital Week-YouTube', 'https://youtu.be/KaOlNT799CE']
             ],
             materials: [],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_FIWAREZone.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_FIWAREZone.svg',
             featuredImage:
                 'https://www.fiware.org/wp-content/marketplace/images/hero_fiware-zone_consultancy-and-integration-services.png',
             furtherImages: '',
@@ -9400,8 +9307,7 @@ var pageData = {
             docs: [['Opplafy platform', 'https://www.opplafy.eu/en/']],
             videos: [],
             materials: [],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_FIWAREZone.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_FIWAREZone.svg',
             featuredImage:
                 'https://www.fiware.org/wp-content/marketplace/images/hero_future-internet_consultancy-and-integration-services.png',
             furtherImages: ''
@@ -9423,8 +9329,7 @@ var pageData = {
             challenge: '',
             references:
                 '<p>Bettergy - An energy company solutions. VATIA and Ayuntamiento de Málaga - Noise measurement levels. Final individual References/Customers: All users that are using our products Senda and WIIM.</p>',
-            awards:
-                '<p>2019 - Founder Antonio Sánchez Pineda got the FIWARE Expert Certificate with distinction. (please find attached the picture). 2018 - Finalists on the Challenge of Malaga Sky Quality Meter. 2014 - Qualified for final Smart Society Fi-Ware Challenge, The final was in Sevilla in October. FiGlass aims to solve two major problems of hearing impaired people: Perceive acoustic events and communication, Finalists list link. 2014 - Best Google Glass App Emertech, Best Google Glass App in the Emertech Hackaton organized by Zerintia Technologies. 2014 - Finalist Fi-Ware 800k Challenge, The final was in Sâo Paulo from 27 January until 2 February. Our project was QuickParking. 2013 - Third Prize Fi-Ware Hackaton, The project was Open Alerts, is based on the idea of IFTTT but with IoT. 2013 - Best IoT application of Fi-Ware, Winner of this prize in Campus Party Europe 2013 - celebrated in London. The project, Hotel Automation Management, lets guests manage their rooms.</p>',
+            awards: '<p>2019 - Founder Antonio Sánchez Pineda got the FIWARE Expert Certificate with distinction. (please find attached the picture). 2018 - Finalists on the Challenge of Malaga Sky Quality Meter. 2014 - Qualified for final Smart Society Fi-Ware Challenge, The final was in Sevilla in October. FiGlass aims to solve two major problems of hearing impaired people: Perceive acoustic events and communication, Finalists list link. 2014 - Best Google Glass App Emertech, Best Google Glass App in the Emertech Hackaton organized by Zerintia Technologies. 2014 - Finalist Fi-Ware 800k Challenge, The final was in Sâo Paulo from 27 January until 2 February. Our project was QuickParking. 2013 - Third Prize Fi-Ware Hackaton, The project was Open Alerts, is based on the idea of IFTTT but with IoT. 2013 - Best IoT application of Fi-Ware, Winner of this prize in Campus Party Europe 2013 - celebrated in London. The project, Hotel Automation Management, lets guests manage their rooms.</p>',
             technologies: ['Artificial Intelligence', 'Internet of Things'],
             domains: ['Cities', 'AgriFood', 'Logistics', 'Industry', 'Ports', 'Retail', 'Home'],
             docs: [],
@@ -9454,8 +9359,7 @@ var pageData = {
                     'https://elreferente.es/innovadores/senda-es-un-servicio-disenado-para-el-cuidado-de-las-personas-mayores-a-traves-de-su-propia-red-de-familiares-y-cuidadores/'
                 ]
             ],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_byHS.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_byHS.svg',
             featuredImage:
                 'https://www.fiware.org/wp-content/marketplace/images/hero_hearing-software_consultancy-and-integration-services.png',
             furtherImages: '',
@@ -9488,8 +9392,7 @@ var pageData = {
             challenge: '',
             references:
                 '<p>Canarian companies selected in the framework of the FIMAC project (Spain) University of Alicante summer Bootcamp (Spain)</p>',
-            awards:
-                '<p>*Catalyst Awards Honorees 2019 - Green Electronic Council </p> <p>*Vice Chair of the IEEE Communications Society </p> <p>*Internet of Things Technical Committee </p> <ul> <li><p>FIWARE Foundation Gold member </p></li> <li><p>ETSI ISG CIM Member (Semantic Interoperability for Smart Cities) </p></li> <li><p>OMA Members (LwM2M and NGSI real-time communication protocols) </p></li> <li><p>IPSO Alliance Challenge - People Choice Award (Sponsored by Google) </p></li> <li><p>Best Smart City demo award - MIT</p></li> </ul>',
+            awards: '<p>*Catalyst Awards Honorees 2019 - Green Electronic Council </p> <p>*Vice Chair of the IEEE Communications Society </p> <p>*Internet of Things Technical Committee </p> <ul> <li><p>FIWARE Foundation Gold member </p></li> <li><p>ETSI ISG CIM Member (Semantic Interoperability for Smart Cities) </p></li> <li><p>OMA Members (LwM2M and NGSI real-time communication protocols) </p></li> <li><p>IPSO Alliance Challenge - People Choice Award (Sponsored by Google) </p></li> <li><p>Best Smart City demo award - MIT</p></li> </ul>',
             technologies: [],
             domains: ['Cities', 'AgriFood', 'Industry', 'Ports'],
             docs: [],
@@ -9558,8 +9461,7 @@ var pageData = {
                 '<p>Martel’s team has a long history with FIWARE, and has been intimately involved with its creation since its birth in 2011. Dr. Federico Facca, CTO of Martel Innovate, is a member of the FIWARE Board of Directors and  the Technical Steering Committee. Martel has been a FIWARE Gold Member, taking part in the steering of the FIWARE Community.</p> <p>We’re now making our experience in FIWARE available to our References/Customers and partners!</p> <p>We are leading experts on production level configuration of FIWARE Data and IoT management services and we can help you to manage your infrastructure for production-ready requirements such as - Security - Resilience - Scalability - Availability</p> <p>We can help you in designing your FIWARE-based platform and into customizing FIWARE to your needs.</p>',
             challenge: '',
             references: '<ul> <li>Antwerp</li> <li>Helsinki</li> <li>Wolfsburg</li> <li>EKZ</li> </ul>',
-            awards:
-                '<p>Selected for Phase I and Phase II of Select4Cities PCP. Selected for Phase I of AI4CITIES PCP.</p>',
+            awards: '<p>Selected for Phase I and Phase II of Select4Cities PCP. Selected for Phase I of AI4CITIES PCP.</p>',
             technologies: [
                 'Artificial Intelligence',
                 'Cloud Computing',
@@ -9592,8 +9494,7 @@ var pageData = {
                 ['News 3', 'https://www.martel-innovate.com/fiware/2018/10/04/martel-cto-is-a-fiware-evangelist/'],
                 ['News 4', 'https://www.martel-innovate.com/news/2018/11/19/awards-and-accolades-for-martel-at-scewc/']
             ],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Martel.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Martel.svg',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_martel-innovate_martel-lab.png',
             furtherImages: '',
             related: [
@@ -9672,8 +9573,7 @@ var pageData = {
             docs: [],
             videos: [],
             materials: [],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_MNX.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_MNX.svg',
             featuredImage:
                 'https://scontent-frx5-2.xx.fbcdn.net/v/t1.6435-9/45650857_1935338443198803_5855859270083411968_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=e3f864&_nc_ohc=yCLt7DU1U5gAX9rhEjB&_nc_ht=scontent-frx5-2.xx&oh=00_AT_7GMEorlv7hE7rJIr_TuN0kNW7LnLgxZBf5jAnPySaoA&oe=63589A5B',
             furtherImages: '',
@@ -9705,8 +9605,7 @@ var pageData = {
                 '<p>We have at your disposal a great team with wide experience in FIWARE especially, in the media processing Generic Enablers, and we can help you with a wide range of services around FIWARE:</p> <ul> <li>One-time consultancy </li> <li>Design of solutions and architectures "powered by FIWARE" or "FIWARE Ready"</li> <li>Turnkey developments</li> <li>Technical support to developers </li> <li>24/7 Support center</li> </ul> <p>All of these make us the perfect technological partner you need for your smart projects.</p>',
             challenge: '',
             references: '',
-            awards:
-                '<p>"best of show" Award at the WebRTC Conference &amp; Expo in Paris, Kurento is awarded "one among the most innovative technologies" by the WebRTC Pioneer Awards. "The WebRTC Pioneer Awards recognizes people who have been driving webification WebRTC and communications,"</p>',
+            awards: '<p>"best of show" Award at the WebRTC Conference &amp; Expo in Paris, Kurento is awarded "one among the most innovative technologies" by the WebRTC Pioneer Awards. "The WebRTC Pioneer Awards recognizes people who have been driving webification WebRTC and communications,"</p>',
             technologies: [
                 'Communication Networks',
                 'Internet of Things',
@@ -9724,8 +9623,7 @@ var pageData = {
             ],
             videos: [['Tutorial-YouTube', 'https://www.youtube.com/watch?v=1EKV1wpz4iU&t=3s']],
             materials: [],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_NaevaTec.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_NaevaTec.svg',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_naeva-tec_fiware-consultancy.png',
             furtherImages: ''
         },
@@ -9751,8 +9649,7 @@ var pageData = {
             docs: [['IoT Ready Solutions', 'https://secmotic.com/we-do/']],
             videos: [],
             materials: [],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Secmotic.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Secmotic.svg',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_secmotic_iotdevelopment.png',
             furtherImages: '',
             related: [
@@ -9791,8 +9688,7 @@ var pageData = {
             challenge: '',
             references:
                 '<p>Snap4City is operative with services and data in more than 40 cities/areas in countries such as Firenze (IT), Helsinki (FI), Antwerp (BE), Lonato del Garda (IT), Lavagno (IT), Valencia (SP), Pont Du Gard (FR), WestGreece (GR), Mostar (BA), Dubrovnik (KR), Santiago di Compostela (SP), Pisa (IT), Prato (IT), Pistoia (IT), Lucca (IT), Arezzo (IT), Grosseto (IT), Livorno (IT), Siena (IT), Massa (IT), Modena (IT), Cagliari (IT), Venezia (IT), Roma (IT), etc.; and from regions as Tuscany (IT), Garda Lake (IT), Svealand Region (Sweden), Sardegna (IT), Belgium (BE), Finland (Fl), Emilia Romagna (IT), Spain (SP), WestGreece (GR), Occitanie (FR), Bosnia-Herzegovina (BA), Croatia (KR), and many industries.</p>',
-            awards:
-                '<ul> <li>Winner of the ENEL-X Challenge on Open Data: https://openinnovability.enel.com/projects/New-smart-city-solutions-enabled-by-open-data </li> <li>Winner of the Select4Cities PCP for the design of the IoT/IoE solution and Living Lab for Helsinki and Antwerp (https://www.select4cities.eu/phase-3-winners) </li> <li>Snap4City is certified to offer FIWARE Training Services</li> <li>Snap4City is certified to offer FIWARE Consultancy Services</li> <li>Snap4City is a platform proposed on the Marketplace of EOSC</li> <li>Snap4city is on BeeSmart marketplace</li> <li>Snap4City is compliant with OBD2 Devices for vehicles and fleets monitoring</li> <li>Snap4City is fully compliant with GIS, ArcGIS, QGIS, etc., interoperating with WMS and WFS services, see the examples of Snap4City in connection with ArcGIS or OpenGIS provided and made available</li> <li>Km4City: Km4City of Snap4City is an official API of E015 suite</li> <li>LoraWAN: Snap4City is compliant with LoraWan</li> <li>SigFOX: Snap4City is a partner of SigFOX</li> <li>Node-RED, JSFoundation: Snap4City is an official library of Node-RED</li> <li>CKAN: Km4City/Snap4City are Powered by CKAN, since they provide DataGate CKAN module for shortening the ingestion and publication of Data Sets, and the eventual connection with other CKAN tools and installations in the world.</li> <li>Gold Member of the FIWARE Foundation</li> <li>Official Powered by FIWARE Solution</li> <li>GAIA-X member</li> </ul>',
+            awards: '<ul> <li>Winner of the ENEL-X Challenge on Open Data: https://openinnovability.enel.com/projects/New-smart-city-solutions-enabled-by-open-data </li> <li>Winner of the Select4Cities PCP for the design of the IoT/IoE solution and Living Lab for Helsinki and Antwerp (https://www.select4cities.eu/phase-3-winners) </li> <li>Snap4City is certified to offer FIWARE Training Services</li> <li>Snap4City is certified to offer FIWARE Consultancy Services</li> <li>Snap4City is a platform proposed on the Marketplace of EOSC</li> <li>Snap4city is on BeeSmart marketplace</li> <li>Snap4City is compliant with OBD2 Devices for vehicles and fleets monitoring</li> <li>Snap4City is fully compliant with GIS, ArcGIS, QGIS, etc., interoperating with WMS and WFS services, see the examples of Snap4City in connection with ArcGIS or OpenGIS provided and made available</li> <li>Km4City: Km4City of Snap4City is an official API of E015 suite</li> <li>LoraWAN: Snap4City is compliant with LoraWan</li> <li>SigFOX: Snap4City is a partner of SigFOX</li> <li>Node-RED, JSFoundation: Snap4City is an official library of Node-RED</li> <li>CKAN: Km4City/Snap4City are Powered by CKAN, since they provide DataGate CKAN module for shortening the ingestion and publication of Data Sets, and the eventual connection with other CKAN tools and installations in the world.</li> <li>Gold Member of the FIWARE Foundation</li> <li>Official Powered by FIWARE Solution</li> <li>GAIA-X member</li> </ul>',
             technologies: [
                 'Advanced or High Performance Computing',
                 'Big Data',
@@ -9880,8 +9776,7 @@ var pageData = {
             docs: [],
             videos: [],
             materials: [],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Snap4City.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Snap4City.svg',
             featuredImage:
                 'https://www.fiware.org/wp-content/marketplace/images/hero_snap4city_consultancy-and-integration-services.png',
             furtherImages: '',
@@ -9936,8 +9831,7 @@ var pageData = {
             docs: [],
             videos: [],
             materials: [],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_StoneOne.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_StoneOne.svg',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_stoneone_services.png',
             furtherImages: '',
             related: [
@@ -9987,8 +9881,7 @@ var pageData = {
                     'https://www.agricolus.com/en/agricolus-story-puntata-n-1-primi-passi-nel-precision-farming/'
                 ]
             ],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_TeamDev.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_TeamDev.svg',
             featuredImage:
                 'https://www.fiware.org/wp-content/marketplace/images/hero_teamdev_fiware-professional-services.png',
             furtherImages: '',
@@ -10084,8 +9977,7 @@ var pageData = {
                 ['Shaping Europe’s Digital Future', 'https://digital-strategy.ec.europa.eu/en'],
                 ['Porto-News', 'https://www.porto.pt/pt/noticia/porto-fiware-e-sucesso-no-mundo']
             ],
-            logo:
-                'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Ubiwhere.svg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Ubiwhere.svg',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_ubiwhere_fiware-at-ubiwhere.png',
             furtherImages: '',
             related: [
