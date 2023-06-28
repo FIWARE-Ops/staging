@@ -106,7 +106,7 @@ ul {
   margin: 0 8px 18px !important;
   border: 1px solid #ccc;
   transition: all 0.4s;
-  box-shadow: 0 0 0 0 rgb(0 0 0 / 10%);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0) !important;
   transition: box-shadow 0.2s;
 }
 
@@ -164,13 +164,13 @@ ul {
   flex-direction: row;
   align-items: center;
   gap: 10px;
-  border-radius: 4px;
+  /* border-radius: 4px; */
   padding: 15px 0px 15px 15px;
 }
 
-.f-cat:hover {
+/* .f-cat:hover {
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1) !important;
-}
+} */
 
 .gridElementTextContainer {
   display: flex;
