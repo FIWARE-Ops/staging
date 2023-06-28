@@ -22,7 +22,7 @@ function extractEnablers(input) {
             img: item['Owner Image'] ? item['Owner Image'] : DEFAULT_IMAGE,
             company: item['Owner'] || item['Organization'] || item['Organisation'],
             companyType: item['Legal Form'],
-            companyLink: item['Video'],
+            gitHubOrg: item['GitHub Organisation'] || item['GitHub Organization'],
             type: item['Type'],
             badge: Static.getBadge(item['Type']),
             status: item['Status'],
