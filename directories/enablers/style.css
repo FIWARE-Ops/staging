@@ -1924,6 +1924,13 @@ input[type="search"]::placeholder {
     margin: 0px 0px 20px !important;
   }
 
+  .title-filter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
   .f-cat {
     flex-direction: column;
     gap: 30px;
