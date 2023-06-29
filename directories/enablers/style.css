@@ -1999,8 +1999,15 @@ input[type="search"]::placeholder {
   }
 
   .title-modal h1 {
-    padding-bottom: 15px !important;
+    font-size: 20px;
+    width: 100%;
+    padding-bottom: 5px !important;
+    margin-bottom: 5px !important;
     border-bottom: 1px solid #2d2d2d;
+  }
+
+  .tingle-modal h2 {
+    font-size: 16px;
   }
 
   .credits-modal {
@@ -2009,6 +2016,14 @@ input[type="search"]::placeholder {
 
   .tingle-modal img {
     width: 100%;
+  }
+
+  .label-git-org {
+    margin-left: -10px;
+  }
+
+  .foot-modal {
+    justify-content: space-between;
   }
 
   .ico-github,
@@ -2051,14 +2066,6 @@ input[type="search"]::placeholder {
     display: none;
     /* display: inline-block; */
     padding: 20px 0 0 0;
-  }
-
-  .tingle-modal h1 {
-    font-size: 20px;
-  }
-
-  .tingle-modal h2 {
-    font-size: 16px;
   }
 
   /* .tingle-modal .bio-modal p {
