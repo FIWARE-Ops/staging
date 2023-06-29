@@ -1983,10 +1983,24 @@ input[type="search"]::placeholder {
   }
 
   .tingle-modal-box__content {
-    padding: 0 0 20px 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
     gap: 20px;
+  }
+
+  .title-modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 0 !important;
+    border-bottom: none;
+  }
+
+  .title-modal h1 {
+    padding-bottom: 15px !important;
+    border-bottom: 1px solid #2d2d2d;
   }
 
   .credits-modal {
@@ -1995,7 +2009,11 @@ input[type="search"]::placeholder {
 
   .tingle-modal img {
     width: 100%;
-    margin: 6px auto 0px;
+  }
+
+  .ico-github,
+  .ico-docker {
+    display: none;
   }
 
   .social-modal {
