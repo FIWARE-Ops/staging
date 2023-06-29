@@ -274,7 +274,7 @@ ul {
   gap: 20px;
   margin-top: 30px;
   margin-bottom: 0px;
-  padding-top: 20px;
+  padding: 20px;
   border-top: 1px solid #ccc;
 }
 
@@ -1257,10 +1257,15 @@ input[type="search"]::placeholder {
   width: 640px;
 }
 
+.tingle-modal-box__content {
+  padding: 0;
+}
+
 .info-modal {
   display: flex;
   align-items: flex-start;
   gap: 20px;
+  padding: 20px;
 }
 
 .tingle-modal-box__footer {
@@ -1425,6 +1430,7 @@ input[type="search"]::placeholder {
   display: flex;
   flex-direction: column;
   gap: .5em;
+  padding: 0 20px;
 }
 
 /*.tingle-modal .bio-modal p {
@@ -1983,7 +1989,7 @@ input[type="search"]::placeholder {
   }
 
   .tingle-modal-box__content {
-    padding: 3rem 3rem;
+    padding: 0;
     display: flex;
     flex-direction: column;
     gap: 20px;
