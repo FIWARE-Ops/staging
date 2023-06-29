@@ -1281,7 +1281,7 @@ input[type="search"]::placeholder {
 .credits-modal {
   display: flex;
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   flex-direction: column;
   gap: 20px;
   padding: 20px;
