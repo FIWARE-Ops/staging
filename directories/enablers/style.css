@@ -1271,6 +1271,13 @@ input[type="search"]::placeholder {
   padding: 20px 20px 40px;
 }
 
+.info-modal.main-chapter {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+}
+
 .tingle-modal-box__footer {
   display: none;
   /* border-bottom-right-radius: 10px;
