@@ -385,6 +385,9 @@ ul {
 }
 
 .card-attributes {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
   padding-left: 20px;
 }
 
@@ -396,7 +399,6 @@ ul {
 }
 
 .chip-technology {
-  margin-bottom: 15px;
   display: flex;
   gap: 10px;
 }
