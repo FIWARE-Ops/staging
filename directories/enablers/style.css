@@ -1896,7 +1896,10 @@ input[type="search"]::placeholder {
   }
 
   .et_pb_code_1,
-  .et_pb_code_2 {
+  .et_pb_code_2,
+  .et_pb_code_7,
+  .et_pb_code_8,
+  .et_pb_code_9 {
     display: block !important;
   }
 
@@ -1917,9 +1920,11 @@ input[type="search"]::placeholder {
     align-items: flex-start;
   }
 
-
   .et_pb_code_1,
-  .et_pb_code_2 {
+  .et_pb_code_2,
+  .et_pb_code_7,
+  .et_pb_code_8,
+  .et_pb_code_9 {
     display: block !important;
   }
 
@@ -1988,7 +1993,7 @@ input[type="search"]::placeholder {
   }
 
 
-  .tingle-modal .bio-modal p{
+  .tingle-modal .bio-modal p {
     max-height: calc(30vh - 2rem);
     padding: 0 20px 0px;
   }
@@ -2048,7 +2053,8 @@ input[type="search"]::placeholder {
     justify-content: space-between;
   }
 
-  .cat-info, .cat-details {
+  .cat-info,
+  .cat-details {
     padding: 0;
     gap: 5px;
   }
