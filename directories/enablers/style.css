@@ -1923,6 +1923,12 @@ input[type="search"]::placeholder {
     align-items: flex-start;
   }
 
+
+  .et_pb_code_1,
+  .et_pb_code_2 {
+    display: block !important;
+  }
+
   .grid-item,
   .grid-item.main-chapter {
     width: 100%;
