@@ -1958,6 +1958,10 @@ input[type="search"]::placeholder {
     text-align: center;
   }
 
+  .icons {
+    justify-content: space-between;
+  }
+
   .cat-ico {
     width: 60%;
   }
@@ -1984,10 +1988,15 @@ input[type="search"]::placeholder {
   }
 
 
-  .tingle-modal .bio-modal p,
+  .tingle-modal .bio-modal p{
+    max-height: calc(30vh - 2rem);
+    padding: 0 20px 0px;
+  }
+
   .tingle-modal-box__content .content {
     max-height: calc(30vh - 2rem);
     padding: 0 20px 0px;
+    margin-bottom: 20px;
   }
 
   .tingle-modal-box {
@@ -2012,6 +2021,7 @@ input[type="search"]::placeholder {
 
   .title-modal h1 {
     font-size: 17px;
+    line-height: 1.4em;
     width: 100%;
     padding-bottom: 10px !important;
     margin-bottom: 10px !important;
@@ -2027,7 +2037,7 @@ input[type="search"]::placeholder {
   }
 
   .tingle-modal img {
-    width: 100%;
+    width: auto;
   }
 
   .label-git-org {
@@ -2038,7 +2048,7 @@ input[type="search"]::placeholder {
     justify-content: space-between;
   }
 
-  .cat-info {
+  .cat-info, .cat-details {
     padding: 0;
     gap: 5px;
   }
