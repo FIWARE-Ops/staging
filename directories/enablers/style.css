@@ -1271,13 +1271,6 @@ input[type="search"]::placeholder {
   padding: 20px 20px 40px;
 }
 
-.info-modal.main-chapter {
-  display: flex;
-  align-items: flex-start;
-  gap: 20px;
-  padding: 20px;
-}
-
 .tingle-modal-box__footer {
   display: none;
   /* border-bottom-right-radius: 10px;
@@ -1984,12 +1977,19 @@ input[type="search"]::placeholder {
     box-shadow: 0 0 50px 0 rgba(0, 0, 0, 1) !important;
   }
 
+
+  .tingle-modal .bio-modal p,
+  .tingle-modal-box__content .content {
+    max-height: calc(30vh - 2rem);
+    padding: 0 20px 0px;
+  }
+
   .tingle-modal-box {
     width: 90%;
   }
 
   .tingle-modal-box__content {
-    padding: 0;
+    padding: 0 0 20px 0;
     display: flex;
     flex-direction: column;
     gap: 20px;
