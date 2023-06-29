@@ -385,6 +385,7 @@ ul {
 }
 
 .card-attributes {
+  min-height: 80px;
   display: flex;
   flex-direction: column;
   gap: 15px;
