@@ -384,6 +384,9 @@ ul {
   margin-left: 20px;
 }
 
+.card-attributes {
+  padding-left: 20px;
+}
 
 .label-card {
   color: #2d2d2d;
