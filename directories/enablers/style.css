@@ -1936,6 +1936,18 @@ input[type="search"]::placeholder {
     align-items: center;
   }
 
+  .dropdown-container {
+    flex-direction: column;
+  }
+
+  .filter-element {
+    width: 100%;
+  }
+
+  .search-element {
+    width: 100%;
+  }
+
   .f-cat {
     flex-direction: column;
     gap: 30px;
@@ -1999,10 +2011,10 @@ input[type="search"]::placeholder {
   }
 
   .title-modal h1 {
-    font-size: 20px;
+    font-size: 17px;
     width: 100%;
-    padding-bottom: 5px !important;
-    margin-bottom: 5px !important;
+    padding-bottom: 10px !important;
+    margin-bottom: 10px !important;
     border-bottom: 1px solid #2d2d2d;
   }
 
@@ -2026,10 +2038,15 @@ input[type="search"]::placeholder {
     justify-content: space-between;
   }
 
-  .ico-github,
+  .cat-info {
+    padding: 0;
+    gap: 5px;
+  }
+
+  /* .ico-github,
   .ico-docker {
     display: none;
-  }
+  } */
 
   .social-modal {
     flex-direction: column;
