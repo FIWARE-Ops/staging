@@ -1892,15 +1892,14 @@ input[type="search"]::placeholder {
   color: #212121;
 }
 
-
 .not-stickybar {
-    position: relative !important;
+  position: relative !important;
 }
 
 .stickybar {
-    top: 60px;
-    position: fixed !important;
-    z-index: 100;
+  top: 58px;
+  position: fixed !important;
+  z-index: 100;
 }
 
 /* ––––––––––––––––– */
@@ -1950,6 +1949,10 @@ input[type="search"]::placeholder {
   .grid-item.main-chapter {
     width: 100%;
     margin: 0px 0px 20px !important;
+  }
+
+  .stickybar {
+    top: 56px;
   }
 
   .title-filter {
