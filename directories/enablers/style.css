@@ -91,7 +91,7 @@ ul {
 .featured-negative {
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 5px;
   color: #fff;
 }
 
