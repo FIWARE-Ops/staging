@@ -88,6 +88,13 @@ ul {
   color: #000;
 }
 
+.featured-negative {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  color: #fff;
+}
+
 
 /* ---- Grid ---- */
 
