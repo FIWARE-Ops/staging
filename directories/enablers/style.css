@@ -1892,6 +1892,17 @@ input[type="search"]::placeholder {
   color: #212121;
 }
 
+
+.not-stickybar {
+    position: relative !important;
+}
+
+.stickybar {
+    top: 60px;
+    position: fixed !important;
+    z-index: 100;
+}
+
 /* ––––––––––––––––– */
 
 @media only screen and (min-width: 769px) and (max-width: 1440px) {
