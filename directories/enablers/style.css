@@ -2145,7 +2145,7 @@ input[type="search"]::placeholder {
   }
 
   .owl-dots {
-    text-align: center;
+    display: none;
   }
 
   .card-aims {
