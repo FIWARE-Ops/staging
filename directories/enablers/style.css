@@ -2082,6 +2082,12 @@ input[type="search"]::placeholder {
     gap: 5px;
   }
 
+  .cat-info,
+  .cat-details:hover,
+  .cat-browse:hover {
+    background-color: rgba(255, 255, 255, 0);
+  }
+
   /* .ico-github,
   .ico-docker {
     display: none;
