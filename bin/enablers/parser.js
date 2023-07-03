@@ -29,7 +29,7 @@ function extractEnablers(input) {
             status: item['Status'],
             documentation: item['Documentation'],
             docker: item['Docker'],
-            quay: item['Docker'],
+            quay: item['Quay'],
             gitHub: item['GitHub'],
             summary: item['Summary'],
             technology: Parser.splitStrings(item['Technology']),
