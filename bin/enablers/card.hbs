@@ -34,6 +34,9 @@
                 More Info
             </a>
             {{/if}}
+            {{#if (eq member false)}}
+            <span> </span>
+            {{/if}}
             <a class='cat-details-primary' target="_blank" href="{{documentation}}">
                 <span class='material-symbols-outlined'>description</span>
                 Docs
