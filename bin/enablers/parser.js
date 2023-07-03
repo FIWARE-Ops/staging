@@ -24,17 +24,19 @@ function extractEnablers(input) {
             companyType: item['Legal Form'],
             gitHubOrg: item['GitHub Organisation'] || item['GitHub Organization'],
             type: item['Type'],
-            badge: Static.getBadge(item['Type']),
+            badge: Static.getBadge(item['Type'], item['Status']),
             chapter: Static.getChapter(item['Type']),
             status: item['Status'],
             documentation: item['Documentation'],
             docker: item['Docker'],
+            quay: item['Docker'],
             gitHub: item['GitHub'],
             summary: item['Summary'],
             technology: Parser.splitStrings(item['Technology']),
             domain: Parser.splitStrings(item['Keywords']),
             content: Parser.richMarkdown(item['Content']),
-            publish: Parser.boolean(item['Published'])
+            publish: Parser.boolean(item['Published']),
+            member: Parser.boolean(item['Member'])
         };
         if (enabler.publish) {
             enablers.push(enabler);
@@ -69,7 +71,6 @@ function parse(file) {
                 domains: Sorter.flatSortData(enablers, 'domain'),
                 enablers
             };
-
             Template.write(path.join(ENABLERS_DIR, 'enablers.html'), path.join(TEMPLATE_PATH, 'card.hbs'), enablers);
             Template.write(path.join(ENABLERS_DIR, 'pageData.js'), path.join(TEMPLATE_PATH, 'modal.hbs'), filterData);
             Template.write(path.join(ENABLERS_DIR, 'filters.html'), path.join(TEMPLATE_PATH, 'filter.hbs'), filterData);

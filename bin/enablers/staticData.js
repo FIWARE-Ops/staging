@@ -1,4 +1,8 @@
-function getBadge(type) {
+function getBadge(type, status) {
+    if (status === 'Non-Member') {
+        return `<img src='https://www.fiware.org/style/imgs/Badges/Badge_OpenSource_Other.svg'/>`;
+    }
+
     let badge;
     switch (type) {
         case 'API Management':
