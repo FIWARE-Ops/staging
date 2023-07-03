@@ -97,79 +97,83 @@ function createModalContent(tingleModalData) {
     <div class="credits-modal main-chapter ${tingleModalData.chapter}">
       <div class="title-modal">
         <h1>${tingleModalData.name}</h1>`;
-        if (tingleModalData.company ) {
-            modalHtml += `<div class="label-git-org">
+  if (tingleModalData.company) {
+    modalHtml += `<div class="label-git-org">
               <span class="material-symbols-outlined">handyman</span>`;
-            modalHtml += `<a target="_blank" href="${tingleModalData.gitHubOrg}">${tingleModalData.company}`
-            if (tingleModalData.companyType) {
-               modalHtml += ` ${tingleModalData.companyType}`;
-            }
-            modalHtml +=`</a></div>`;
-          }
-      modalHtml += 
-       `</div>
+    modalHtml += `<a target="_blank" href="${tingleModalData.gitHubOrg}">${tingleModalData.company}`;
+    if (tingleModalData.companyType) {
+      modalHtml += ` ${tingleModalData.companyType}`;
+    }
+    modalHtml += `</a></div>`;
+  }
+  modalHtml += `</div>
         <div class="attributes-modal">`;
-          if (tingleModalData.badge ) {
-            modalHtml += `<div class="label-type">
+  if (tingleModalData.badge) {
+    modalHtml += `<div class="label-type">
             ${tingleModalData.badge}
             </div>`;
-          }
-          if (tingleModalData.status === 'Full' ) {
-            modalHtml += `<div class="label-status">
+  }
+  if (tingleModalData.status === "Full") {
+    modalHtml += `<div class="label-status">
             <img src="https://www.fiware.org/style/imgs/Badges/Badge_GEStatus_FullMember.svg"/>
             </div>`;
-          }
-          if (tingleModalData.status === 'Incubating' ) {
-            modalHtml += `<div class="label-type">
+  }
+  if (tingleModalData.status === "Incubating") {
+    modalHtml += `<div class="label-type">
             <img src="https://www.fiware.org/style/imgs/Badges/Badge_GEStatus_Incubating.svg"/>
             </div>`;
-          }
+  }
 
-          
-    modalHtml += `</div>
+  modalHtml += `</div>
       </div>
     </div>`;
 
   modalHtml += `<div class='content'>`;
-  if (tingleModalData.content !== '') {
-    modalHtml += tingleModalData.content.replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&');
+  if (tingleModalData.content !== "") {
+    modalHtml += tingleModalData.content
+      .replace(/&lt;/g, "<")
+      .replace(/&gt;/g, ">")
+      .replace(/&amp;/g, "&");
   }
   modalHtml += `</div>`;
 
-  if(tingleModalData.gitHub || tingleModalData.docker  ||  tingleModalData.documentation ){
-      modalHtml += `<div class="foot-modal">`;
-      if(tingleModalData.gitHub){
-        modalHtml +=  `<a class="cat-info" target="_blank" href="${tingleModalData.gitHub}">
+  if (
+    tingleModalData.gitHub ||
+    tingleModalData.docker ||
+    tingleModalData.documentation
+  ) {
+    modalHtml += `<div class="foot-modal">`;
+    if (tingleModalData.gitHub) {
+      modalHtml += `<a class="cat-info" target="_blank" href="${tingleModalData.gitHub}">
             <img class="ico-github" src="https://www.fiware.org/wp-content/directories/enablers/images/mark-github.svg">
             GitHub
-        </a>`
-      }
-      if(tingleModalData.docker){
-        modalHtml +=  `<a class="cat-info" target="_blank" href="${tingleModalData.docker}">
+        </a>`;
+    }
+    if (tingleModalData.docker) {
+      modalHtml += `<a class="cat-info" target="_blank" href="${tingleModalData.docker}">
             <img class="ico-docker" src="https://www.fiware.org/wp-content/directories/enablers/images/mark-docker.svg">
             Docker
-        </a>`
-      }
+        </a>`;
+    }
 
-      if(tingleModalData.quay){
-        modalHtml +=  `<a class="cat-info" target="_blank" href="${tingleModalData.quay}">
+    if (tingleModalData.quay) {
+      modalHtml += `<a class="cat-info" target="_blank" href="${tingleModalData.quay}">
             <img class="ico-quay" src="https://www.fiware.org/wp-content/directories/enablers/images/mark-quay.svg">
             quay.io
-        </a>`
-      }
+        </a>`;
+    }
 
-      if(tingleModalData.documentation){
-        modalHtml +=  `<a class="cat-details-primary"" target="_blank" href="${tingleModalData.documentation}">
+    if (tingleModalData.documentation) {
+      modalHtml += `<a class="cat-details-primary"" target="_blank" href="${tingleModalData.documentation}">
             <span class="material-symbols-outlined">description</span>
             Docs
-        </a>`
-      }
-   }
-    
-    modalHtml += `</div>
+        </a>`;
+    }
+  }
+
+  modalHtml += `</div>
   </div>
 </div>`;
-  
 
   return modalHtml;
 }
@@ -311,7 +315,7 @@ function initSelect() {
     layoutMode: "fitRows",
     masonry: {
       columnWidth: ".grid-sizer",
-    }
+    },
   });
 
   msnry.on("arrangeComplete", (filteredItems) => {
@@ -323,6 +327,20 @@ function initSelect() {
   });
 
   initTextSearch(msnry);
+
+  $("#fiwareMember").bind("change", (e) => {
+    // Add member if required.
+    if (document.querySelector("#fiwareMember").checked) {
+      filterObj.member = ".member";
+    } else {
+      delete filterObj.member;
+    }
+
+    msnry.arrange({
+      filter: concatValues(filterObj),
+    });
+    e.preventDefault();
+  });
 
   $(".filters-container select").each(function (index) {
     $(this).bind("change", (e) => {
@@ -347,6 +365,14 @@ function initSelect() {
       filterObj[e.target.id] = `${
         e.target.value == "*" ? "" : "." + e.target.value
       }`;
+
+      // Add member if required.
+      if (document.querySelector("#fiwareMember").checked) {
+        filterObj.member = ".member";
+      } else {
+        delete filterObj.member;
+      }
+
       msnry.arrange({
         filter: concatValues(filterObj),
       });
@@ -461,23 +487,20 @@ function horizontalScroll() {
       }
     });
   });
-
-
 }
 
-function initSticky(){
+function initSticky() {
   window.onscroll = onScrollHandler;
 
   function onScrollHandler() {
-
-
     const header = document.getElementById("filters");
-    const footer = document.getElementById('no-sticky');
+    const footer = document.getElementById("no-sticky");
 
     if (
-      !!header && !!footer &&
-      (window.pageYOffset > header.offsetTop
-      && window.pageYOffset < footer.offsetTop)
+      !!header &&
+      !!footer &&
+      window.pageYOffset > header.offsetTop &&
+      window.pageYOffset < footer.offsetTop
     ) {
       header.classList.add("stickybar");
       header.classList.remove("not-stickybar");
@@ -503,16 +526,17 @@ document.addEventListener("DOMContentLoaded", () => {
       // Isotope istantiation
       // Relies on unpkg.com/imagesloaded
       var count = 0;
-      $('#app').imagesLoaded()
-      .always( function( instance ) {
-        msnry.arrange({ sortBy: "original-order" })
-      })
-      .progress( function( instance, image ) {
+      $("#app")
+        .imagesLoaded()
+        .always(function (instance) {
+          msnry.arrange({ sortBy: "original-order" });
+        })
+        .progress(function (instance, image) {
           count++;
-          if ( count % 12 === 0){
+          if (count % 12 === 0) {
             msnry.arrange({ sortBy: "original-order" });
           }
-      });
+        });
     });
   });
 });
