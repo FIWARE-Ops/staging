@@ -152,7 +152,7 @@ function createModalContent(tingleModalData) {
       }
 
       if(tingleModalData.quay){
-        modalHtml +=  `<a class="cat-info" target="_blank" href="${tingleModalData.docker}">
+        modalHtml +=  `<a class="cat-info" target="_blank" href="${tingleModalData.quay}">
             <img class="ico-quay" src="https://www.fiware.org/wp-content/directories/enablers/images/mark-quay.svg">
             quay.io
         </a>`
