@@ -151,7 +151,14 @@ function createModalContent(tingleModalData) {
         </a>`
       }
 
-       if(tingleModalData.documentation){
+      if(tingleModalData.quay){
+        modalHtml +=  `<a class="cat-info" target="_blank" href="${tingleModalData.docker}">
+            <img class="ico-quay" src="https://www.fiware.org/wp-content/directories/enablers/images/mark-quay.svg">
+            quay.io
+        </a>`
+      }
+
+      if(tingleModalData.documentation){
         modalHtml +=  `<a class="cat-details-primary"" target="_blank" href="${tingleModalData.documentation}">
             <span class="material-symbols-outlined">description</span>
             Docs
