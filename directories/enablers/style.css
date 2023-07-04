@@ -886,7 +886,6 @@ ul {
   font-weight: 600;
   color: #4c4c4c;
   text-transform: uppercase;
-  width: 100%;
 }
 
 .filters-dropdown {
@@ -1072,6 +1071,7 @@ input[type="checkbox"]:checked+label::after {
   padding-bottom: 0px;
   justify-content: space-between;
   align-items: center;
+  gap: 20px;
 }
 
 .sort-element label {
