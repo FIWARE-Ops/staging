@@ -1004,7 +1004,10 @@ select::-ms-expand {
 }
 
 #member {
-  margin: 10px 10px 10px 0px;
+  flex-direction: row;
+  width: 22%;
+  align-items: baseline;
+  gap: 20px;
 }
 
 input[type="checkbox"] {
