@@ -1003,11 +1003,10 @@ select::-ms-expand {
   gap: 10px;
 }
 
-#member {
-  flex-direction: row;
-  width: 22%;
-  align-items: baseline;
-  gap: 20px;
+.checkbox-label {
+  padding-top: 20px;
+  font-size: 14px;
+  color: #4c4c4c;
 }
 
 input[type="checkbox"] {
