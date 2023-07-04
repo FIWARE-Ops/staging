@@ -151,7 +151,7 @@ ul {
 .grid-item.main-chapter.open-source,
 .credits-modal.open-source {
   border: 1px solid #ccc;
-  /* background: rgba(177, 178, 180, .1); */
+  background: rgba(255, 255, 255, 0);
 }
 
 .grid-item {
