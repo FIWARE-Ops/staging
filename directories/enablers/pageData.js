@@ -122,7 +122,7 @@ var modalData = [
     {
         name: 'Other Third-party Components',
         chapter: 'open-source',
-        badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_DeploymentTools.svg'/>",
+        badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_OpenSource_Other.svg'/>",
         content:
             '<p>FIWARE is fully committed to open source solutions, and can easily be integrated with other third-party components. A selection of external open source components in common use with existing Powered by FIWARE solutions has been added to the components list.</p>'
     },
