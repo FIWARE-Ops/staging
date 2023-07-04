@@ -885,7 +885,7 @@ ul {
   color: #4c4c4c;
   text-transform: uppercase;
   border-top: 1px solid #aaa;
-  padding-top: 20px;
+  padding: 20px 0;
   margin-top: 20px;
 }
 
