@@ -1004,9 +1004,9 @@ select::-ms-expand {
 }
 
 .checkbox-label {
-  padding-top: 20px;
+  padding-top: 10px;
   font-size: 14px;
-  color: #4c4c4c;
+  color: #4c4c4c!important;
 }
 
 input[type="checkbox"] {
