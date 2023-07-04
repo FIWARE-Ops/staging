@@ -1,5 +1,6 @@
 {{#each this}}
-    {{{createAnchor .. type @index}}}<div id="enabler-{{createClass name}}" class='grid-item {{createClass type}} {{createClasses domain}} {{createClasses technology}} {{#if (eq member true)}}member{{/if}}'>
+    <div id="enabler-{{createClass name}}" class='grid-item {{createClass type}} {{createClasses domain}} {{createClasses technology}} {{#if (eq member true)}}member{{/if}}'>
+        {{{createAnchor .. type @index}}}
         <div class='gridElementTextContainer'>
             <div class='label-type'>
                 {{{badge}}}
