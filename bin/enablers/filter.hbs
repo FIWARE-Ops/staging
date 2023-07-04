@@ -1,23 +1,29 @@
 <div>
-    <div class='products-record'>
-        <div class='products-label'>
-            <span id='ico-products' class='material-symbols-outlined'>category</span>
+    <div class="products-record">
+        <div class="products-label">
+            <span id="ico-products" class="material-symbols-outlined">category</span>
             <span>Components</span>
         </div>
-        <span id='filteredCompanies'></span>
+        <span id="filteredCompanies"></span>
     </div>
 </div>
 
-<div id="member" class="filter-element">
-    <div class="filter-label"><span id="ico-filter-all" class="material-icons-outlined">filter_list</span> Filter by</div>
-    <input type="checkbox" name="fiwareMember" id="fiwareMember" />
-    <label for="fiwareMember">Member</label>
-</div>  
+<div class="search-sort-container">
+    <div class="search-element">
+        <!-- <label for="searchInput" class="dropdown-label">Keywords</label> -->
+        <input type="search" id="searchInput" placeholder="Search by keywords" />
+    </div>
+</div>
 
-<div class='dropdown-container'>
-    <div class='filter-element'>
-        <label for='filterType' class='dropdown-label'>Chapter</label>
-        <select name='' id='filterType'>
+<!-- <div class="filter-by">
+    <span id="ico-filter-all" class="material-icons-outlined">filter_list</span> Filter by
+</div> -->
+
+<div class="dropdown-container">
+
+    <div class="filter-element">
+        <label for="filterType" class="dropdown-label">Chapter</label>
+        <select name="" id="filterType">
             <option value='*'>All Chapters</option>
             {{#each types}}
                 {{#if (ne this '')}}
@@ -26,8 +32,8 @@
             {{/each}}
         </select>
     </div>
-    <div class='filter-element'>
-        <label for='filterDomain' class='dropdown-label'>Function</label>
+    <div class="filter-element">
+        <label for="filterDomain" class="dropdown-label">Function</label>
         <select name='' id='filterDomain'>
             <option value='*'>All Functions</option>
             {{#each domains}}
@@ -37,8 +43,8 @@
             {{/each}}
         </select>
     </div>
-     <div class='filter-element'>
-        <label for='filterTechnology' class='dropdown-label'>Technology</label>
+    <div class="filter-element">
+        <label for="filterTechnology" class="dropdown-label">Technology</label>
         <select name='' id='filterTechnology'>
             <option value='*'>All Technologies</option>
             {{#each technologies}}
@@ -47,10 +53,12 @@
                 {{/if}}
             {{/each}}
         </select>
-    </div> 
-
-    <div class='search-element'>
-        <label for='searchInput' class='dropdown-label'>Keywords</label>
-        <input type="search" id="searchInput" placeholder="Search by keywords" />
     </div>
+
+    <div class="filter-element">
+        <label class="dropdown-label">Membership</label>
+        <input type="checkbox" name="fiwareMember" id="fiwareMember" />
+        <label class="checkbox-label" for="fiwareMember">FIWARE Catalogue</label>
+    </div>
+
 </div>
