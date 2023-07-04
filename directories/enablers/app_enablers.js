@@ -180,7 +180,7 @@ function createModalContent(tingleModalData) {
 
 function initModal() {
   // Modal
-  document.querySelectorAll(".cat-info, .cat-details").forEach(function (el) {
+  document.querySelectorAll(".cat-info[data-modal], .cat-details[data-modal]").forEach(function (el) {
     el.addEventListener("click", function (e) {
       var modal = new tingle.modal({
         footer: true,
