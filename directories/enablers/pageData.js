@@ -120,11 +120,11 @@ var modalData = [
             "<div class='bullets'><p>This chapter covers:</p> <ul><li class='bullet'>Deploying FIWARE Systems at scale</li><li class='bullet'>Container Images of FIWARE Components</li></ul></div><p>FIWARE components can be deployed using standard containerization techniques. Most components are directly available as Docker Images, links can be found within the GitHub repository of each generic enabler. For fully scalable production-ready instances please refer to the FIWARE <a href='https://github.com/FIWARE/helm-charts/' target='_blank' rel='noopener'>Helm Chart recipes</a>. A docker-compose file may also be available within individual GitHub repositories, but these should only be used in development environments.</p>"
     },
     {
-        name: 'Other Third-party Components',
+        name: 'External Third-party Components',
         chapter: 'open-source',
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_OpenSource_Other.svg'/>",
         content:
-            '<p>FIWARE is fully committed to open source solutions, and can easily be integrated with other third-party components. A selection of external open source components in common use with existing Powered by FIWARE solutions has been added to the components list.</p>'
+            '<p>FIWARE is fully committed to open source solutions, and can easily be integrated with other third-party components. A selection of external open source components commonly used and in alignment with existing <b>&quot;Powered by FIWARE&quot;</b> solutions has been added to the components list for your consideration.</p>'
     },
     {
         name: 'Orion',
