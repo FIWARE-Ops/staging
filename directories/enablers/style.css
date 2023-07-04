@@ -1011,7 +1011,7 @@ select::-ms-expand {
 .checkbox-label {
   padding-top: 10px;
   font-size: 14px;
-  color: #565656!important;
+  color: #565656 !important;
 }
 
 input[type="checkbox"] {
