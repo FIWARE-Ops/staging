@@ -403,7 +403,7 @@ var modalData = [
         gitHubOrg: 'https://github.com/FIWARE/',
         docker: '',
         quay: 'https://quay.io/repository/fiware/apollo',
-        documentation: 'https://github.com/FIWARE/apollo/README.md',
+        documentation: 'https://github.com/FIWARE/apollo#readme',
         status: 'Incubating'
     },
     {
@@ -423,8 +423,7 @@ var modalData = [
         gitHubOrg: 'https://github.com/Engineering-Research-and-Development',
         docker: '',
         quay: '',
-        documentation:
-            'https://github.com/FIWARE/catalogue/blob/master/core/Engineering-Research-and-Development/o2k-connector/README.md',
+        documentation: 'https://github.com/Engineering-Research-and-Development/o2k-connector#readme',
         status: 'Incubating'
     },
     {
@@ -1019,7 +1018,7 @@ var modalData = [
         gitHubOrg: 'https://github.com/telefonicaid/',
         docker: 'https://github.com/telefonicaid/fiware-pep-steelskin#README.md',
         quay: '',
-        documentation: 'https://github.com/telefonicaid/fiware-pep-steelskin#README.md',
+        documentation: 'https://github.com/telefonicaid/fiware-pep-steelskin#readme',
         status: 'Incubating'
     },
     {
@@ -1039,7 +1038,7 @@ var modalData = [
         gitHubOrg: 'https://github.com/telefonicaid/',
         docker: 'https://hub.docker.com/r/telefonicaiot/fiware-keypass',
         quay: '',
-        documentation: 'https://github.com/telefonicaid/fiware-keypass',
+        documentation: 'https://github.com/telefonicaid/fiware-keypass#readme',
         status: 'Incubating'
     },
     {
@@ -1059,7 +1058,7 @@ var modalData = [
         gitHubOrg: 'https://github.com/telefonicaid/',
         docker: '',
         quay: '',
-        documentation: 'https://github.com/telefonicaid/fiware-keystone-scim/README.md',
+        documentation: 'https://github.com/telefonicaid/fiware-keystone-scim#readme',
         status: 'Incubating'
     },
     {
@@ -1079,7 +1078,7 @@ var modalData = [
         gitHubOrg: 'https://github.com/telefonicaid/',
         docker: 'https://hub.docker.com/r/telefonicaiot/fiware-keystone-spassword',
         quay: '',
-        documentation: 'https://github.com/telefonicaid/fiware-keystone-spassword/README.md',
+        documentation: 'https://github.com/telefonicaid/fiware-keystone-spassword#readme',
         status: 'Incubating'
     },
     {
@@ -1099,7 +1098,7 @@ var modalData = [
         gitHubOrg: 'https://github.com/FIWARE/',
         docker: '',
         quay: 'https://quay.io/repository/fiware/trusted-issuers-list',
-        documentation: '',
+        documentation: 'https://github.com/FIWARE/trusted-issuers-list#readme',
         status: 'Incubating'
     },
     {
@@ -1119,7 +1118,7 @@ var modalData = [
         gitHubOrg: 'https://github.com/FIWARE/',
         docker: '',
         quay: 'https://quay.io/repository/fiware/dsba-pdp',
-        documentation: '',
+        documentation: 'https://github.com/FIWARE/dsba-pdp#readme',
         status: 'Incubating'
     },
     {
@@ -1139,7 +1138,7 @@ var modalData = [
         gitHubOrg: 'https://github.com/FIWARE/',
         docker: '',
         quay: 'https://quay.io/repository/fiware/vcverifier',
-        documentation: '',
+        documentation: 'https://github.com/FIWARE/VCVerifier#readme',
         status: 'Incubating'
     },
     {
@@ -1159,7 +1158,7 @@ var modalData = [
         gitHubOrg: 'https://github.com/FIWARE/',
         docker: '',
         quay: 'https://quay.io/repository/fiware/keycloak-vc-issuer',
-        documentation: '',
+        documentation: 'https://github.com/FIWARE/keycloak-vc-issuer#readme',
         status: 'Incubating'
     },
     {
@@ -1179,7 +1178,7 @@ var modalData = [
         gitHubOrg: 'https://github.com/FIWARE/',
         docker: '',
         quay: 'https://quay.io/repository/fiware/credentials-config-service',
-        documentation: '',
+        documentation: 'https://github.com/FIWARE/credentials-config-service#readme',
         status: 'Incubating'
     },
     {
@@ -1199,7 +1198,7 @@ var modalData = [
         gitHubOrg: 'https://github.com/FIWARE/',
         docker: '',
         quay: 'https://quay.io/repository/fiware/trusted-issuers-registry',
-        documentation: '',
+        documentation: 'https://github.com/FIWARE/trusted-issuers-registry#readme',
         status: 'Incubating'
     },
     {
@@ -1239,7 +1238,7 @@ var modalData = [
         gitHubOrg: 'https://github.com/Ficodes',
         docker: '',
         quay: 'https://quay.io/repository/fiware/biz-ecosystem-apis',
-        documentation: '',
+        documentation: 'https://business-api-ecosystem.readthedocs.io/',
         status: 'Full'
     },
     {
@@ -1257,9 +1256,9 @@ var modalData = [
         status: 'Full',
         gitHub: 'https://github.com/OPSILab/Idra',
         gitHubOrg: 'https://github.com/Engineering-Research-and-Development',
-        docker: '',
+        docker: 'https://hub.docker.com/r/idraopendata/idra',
         quay: '',
-        documentation: '',
+        documentation: 'https://idra.readthedocs.io/',
         status: 'Full'
     },
     {
@@ -1299,7 +1298,7 @@ var modalData = [
         gitHubOrg: 'https://github.com/FIWARE/',
         docker: '',
         quay: 'https://quay.io/repository/fiware/endpoint-configuration-service',
-        documentation: 'https://github.com/FIWARE/endpoint-auth-service/README.md',
+        documentation: 'https://github.com/FIWARE/endpoint-auth-service#readme',
         status: 'Incubating'
     },
     {
@@ -1319,7 +1318,7 @@ var modalData = [
         gitHubOrg: 'https://github.com/FIWARE/',
         docker: '',
         quay: '',
-        documentation: 'https://github.com/FIWARE/kong-plugins-fiware/README.md',
+        documentation: 'https://github.com/FIWARE/kong-plugins-fiware#readme',
         status: 'Incubating'
     },
     {
