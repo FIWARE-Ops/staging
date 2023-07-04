@@ -862,9 +862,6 @@ ul {
   display: flex;
   flex-direction: row;
   gap: 20px;
-  border-top: 1px solid #aaa;
-  padding-top: 20px;
-  margin-top: 20px;
 }
 
 .filters-container:not(.active) {
@@ -887,6 +884,9 @@ ul {
   font-weight: 600;
   color: #4c4c4c;
   text-transform: uppercase;
+  border-top: 1px solid #aaa;
+  padding-top: 20px;
+  margin-top: 20px;
 }
 
 .filters-dropdown {
