@@ -507,26 +507,6 @@ var modalData = [
         status: 'Full'
     },
     {
-        name: 'IoT Agent for OPC-UA',
-        img: 'https://www.fiware.org/wp-content/directories/enablers/images/webinar-default.png',
-        company: 'Engineering',
-        companyType: 'S.p.A.',
-        type: 'Robotics',
-        badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Robotics.svg'/>",
-        chapter: 'interface',
-        content:
-            "<p><img src='https://img.shields.io/github/license/Engineering-Research-and-Development/iotagent-opcua.svg' alt='License' /> <img src='https://img.shields.io/github/release-date/Engineering-Research-and-Development/iotagent-opcua.svg' alt='' /> <img src='https://img.shields.io/github/commits-since/Engineering-Research-and-Development/iotagent-opcua/latest.svg' alt='' /></p> <p>IoT Agent accepting data from OPC UA devices.</p> <p>This IoT Agent is designed to be a bridge between the <a href='http://www.opcua.us/'>OPC Unified Architecture</a> protocol and the <a href='https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/Fiware/specifications/master/OpenAPI/ngsiv2/ngsiv2-openapi.json'>NGSI</a> interface. It follows the standard interaction model defined in the <a href='https://iotagent-node-lib.rtfd.io'>IoT Agent Framework Library</a>.</p> <h4 id='whatareiotagents'>What are IoT Agents?</h4> <p>The IoT Agent (IDAS) component is an implementation of the Backend Device Management GE, according to the FIWARE reference architecture. You are here because you need to connect objects to gather data or interact with them, typical IoT use case scenario . If so, you need to use one of the existing IoT Agents that are part of IDAS.</p> <p>You need this component if you plan to connect IoT devices/gateways to FIWARE-based ecosystems. IoT Agents translate IoT-specific protocols into the NGSI context information protocol, that is the FIWARE standard data exchange model. You do not need this component if your devices or gateways natively support the NGSI API.</p> <p>FIWARE-Ready IoT devices are able demonstrate the ability of the IoT solutions to seamless interoperate with FIWARE platforms. Any IoT device which is able to connect to the context broker (either directly or via an IoT Agent) is able to undergo a certification and testing process and can be added to the <a href='https://marketplace.fiware.org/'>FIWARE marketplace</a> and labelled as a <a href='http://marketplace.fiware.org/pages/how-to-devices'>FIWARE-Ready IoT Device</a>.</p> <h4 id='whyuseiotagents'>Why Use IoT Agents?</h4> <p>By using an IoT Agent , your devices will be represented in a FIWARE platform as NGSI entities in a Context Broker. This means that you can query or subscribe to changes of device parameters status by querying or subscribing to the corresponding NGSI entity attributes at the ContextBroker.</p> <p>Additionally, you will be able trigger commands to your actuation devices by updating specific command-related attributes in the associated NGSI entities representation at the Context Broker. This way, all hardware interactions with IoT devices can be handled by the Context Broker, using a homogeneous <a href='https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/Fiware/specifications/master/OpenAPI/ngsiv2/ngsiv2-openapi.json'>NGSI</a> interface.</p>",
-        domain: 'IoT Devices',
-        technology: 'OPC-UA',
-        status: 'Full',
-        gitHub: 'https://github.com/Engineering-Research-and-Development/iotagent-opcua',
-        gitHubOrg: 'https://github.com/Engineering-Research-and-Development',
-        docker: 'https://hub.docker.com/r/beincpps/opcuaage',
-        quay: '',
-        documentation: 'https://iotagent-opcua.rtfd.io/',
-        status: 'Full'
-    },
-    {
         name: 'IoT Agent for Sigfox',
         img: 'https://www.fiware.org/wp-content/directories/enablers/images/webinar-default.png',
         company: 'Telefónica',
@@ -587,6 +567,26 @@ var modalData = [
         status: 'Full'
     },
     {
+        name: 'OpenMTC',
+        img: 'https://www.fiware.org/wp-content/directories/enablers/images/webinar-default.png',
+        company: 'Fraunhofer FOKUS',
+        companyType: '',
+        type: 'IoT Agents',
+        badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_IOTAgents.svg'/>",
+        chapter: 'interface',
+        content:
+            "<p><img src='https://img.shields.io/github/license/OpenMTC/OpenMTC.svg' alt='License' /> <img src='https://img.shields.io/github/last-commit/OpenMTC/OpenMTC.svg' alt='' /> <img src='https://img.shields.io/github/tag/OpenMTC/OpenMTC.svg' alt='' /></p> <p>A reference implementation of the <a href='http://www.onem2m.org/'>oneM2M</a> standard, for conducting applied research and developing innovative M2M and IoT applications. It offers an <a href='https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/Fiware/specifications/master/OpenAPI/ngsiv2/ngsiv2-openapi.json'>NGSI</a> interface for connection to the Orion Context Broker</p>",
+        domain: 'IoT Devices',
+        technology: 'OneM2M',
+        status: 'Incubating',
+        gitHub: 'https://github.com/OpenMTC/OpenMTC',
+        gitHubOrg: 'https://github.com/OpenMTC',
+        docker: 'https://hub.docker.com/u/openmtc',
+        quay: '',
+        documentation: 'https://fiware-openmtc.readthedocs.io/',
+        status: 'Incubating'
+    },
+    {
         name: 'Kurento',
         img: 'https://www.fiware.org/wp-content/directories/enablers/images/webinar-default.png',
         company: 'Naevatec',
@@ -625,26 +625,6 @@ var modalData = [
         quay: '',
         documentation: 'https://docs.openvidu.io/',
         status: 'Full'
-    },
-    {
-        name: 'OpenMTC',
-        img: 'https://www.fiware.org/wp-content/directories/enablers/images/webinar-default.png',
-        company: 'Fraunhofer FOKUS',
-        companyType: '',
-        type: 'IoT Agents',
-        badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_IOTAgents.svg'/>",
-        chapter: 'interface',
-        content:
-            "<p><img src='https://img.shields.io/github/license/OpenMTC/OpenMTC.svg' alt='License' /> <img src='https://img.shields.io/github/last-commit/OpenMTC/OpenMTC.svg' alt='' /> <img src='https://img.shields.io/github/tag/OpenMTC/OpenMTC.svg' alt='' /></p> <p>A reference implementation of the <a href='http://www.onem2m.org/'>oneM2M</a> standard, for conducting applied research and developing innovative M2M and IoT applications. It offers an <a href='https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/Fiware/specifications/master/OpenAPI/ngsiv2/ngsiv2-openapi.json'>NGSI</a> interface for connection to the Orion Context Broker</p>",
-        domain: 'IoT Devices',
-        technology: 'OneM2M',
-        status: 'Incubating',
-        gitHub: 'https://github.com/OpenMTC/OpenMTC',
-        gitHubOrg: 'https://github.com/OpenMTC',
-        docker: 'https://hub.docker.com/u/openmtc',
-        quay: '',
-        documentation: 'https://fiware-openmtc.readthedocs.io/',
-        status: 'Incubating'
     },
     {
         name: 'Fast DDS',
@@ -705,6 +685,26 @@ var modalData = [
         quay: '',
         documentation: 'https://firos.rtfd.io/',
         status: 'Incubating'
+    },
+    {
+        name: 'IoT Agent for OPC-UA',
+        img: 'https://www.fiware.org/wp-content/directories/enablers/images/webinar-default.png',
+        company: 'Engineering',
+        companyType: 'S.p.A.',
+        type: 'Robotics',
+        badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_Robotics.svg'/>",
+        chapter: 'interface',
+        content:
+            "<p><img src='https://img.shields.io/github/license/Engineering-Research-and-Development/iotagent-opcua.svg' alt='License' /> <img src='https://img.shields.io/github/release-date/Engineering-Research-and-Development/iotagent-opcua.svg' alt='' /> <img src='https://img.shields.io/github/commits-since/Engineering-Research-and-Development/iotagent-opcua/latest.svg' alt='' /></p> <p>IoT Agent accepting data from OPC UA devices.</p> <p>This IoT Agent is designed to be a bridge between the <a href='http://www.opcua.us/'>OPC Unified Architecture</a> protocol and the <a href='https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/Fiware/specifications/master/OpenAPI/ngsiv2/ngsiv2-openapi.json'>NGSI</a> interface. It follows the standard interaction model defined in the <a href='https://iotagent-node-lib.rtfd.io'>IoT Agent Framework Library</a>.</p> <h4 id='whatareiotagents'>What are IoT Agents?</h4> <p>The IoT Agent (IDAS) component is an implementation of the Backend Device Management GE, according to the FIWARE reference architecture. You are here because you need to connect objects to gather data or interact with them, typical IoT use case scenario . If so, you need to use one of the existing IoT Agents that are part of IDAS.</p> <p>You need this component if you plan to connect IoT devices/gateways to FIWARE-based ecosystems. IoT Agents translate IoT-specific protocols into the NGSI context information protocol, that is the FIWARE standard data exchange model. You do not need this component if your devices or gateways natively support the NGSI API.</p> <p>FIWARE-Ready IoT devices are able demonstrate the ability of the IoT solutions to seamless interoperate with FIWARE platforms. Any IoT device which is able to connect to the context broker (either directly or via an IoT Agent) is able to undergo a certification and testing process and can be added to the <a href='https://marketplace.fiware.org/'>FIWARE marketplace</a> and labelled as a <a href='http://marketplace.fiware.org/pages/how-to-devices'>FIWARE-Ready IoT Device</a>.</p> <h4 id='whyuseiotagents'>Why Use IoT Agents?</h4> <p>By using an IoT Agent , your devices will be represented in a FIWARE platform as NGSI entities in a Context Broker. This means that you can query or subscribe to changes of device parameters status by querying or subscribing to the corresponding NGSI entity attributes at the ContextBroker.</p> <p>Additionally, you will be able trigger commands to your actuation devices by updating specific command-related attributes in the associated NGSI entities representation at the Context Broker. This way, all hardware interactions with IoT devices can be handled by the Context Broker, using a homogeneous <a href='https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/Fiware/specifications/master/OpenAPI/ngsiv2/ngsiv2-openapi.json'>NGSI</a> interface.</p>",
+        domain: 'IoT Devices',
+        technology: 'OPC-UA',
+        status: 'Full',
+        gitHub: 'https://github.com/Engineering-Research-and-Development/iotagent-opcua',
+        gitHubOrg: 'https://github.com/Engineering-Research-and-Development',
+        docker: 'https://hub.docker.com/r/beincpps/opcuaage',
+        quay: '',
+        documentation: 'https://iotagent-opcua.rtfd.io/',
+        status: 'Full'
     },
     {
         name: 'Domibus',
@@ -1222,26 +1222,6 @@ var modalData = [
         status: 'Full'
     },
     {
-        name: 'Biz Framework',
-        img: 'https://www.fiware.org/wp-content/directories/enablers/images/webinar-default.png',
-        company: 'FICODES',
-        companyType: '',
-        type: 'Data Monetization',
-        badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_DataMonetization.svg'/>",
-        chapter: 'context-data',
-        content:
-            "<p><img src='https://img.shields.io/github/license/FIWARE-TMForum/Business-API-Ecosystem.svg' alt='License' /> <img src='https://img.shields.io/github/release-date/FIWARE-TMForum/Business-API-Ecosystem.svg' alt='' /> <img src='https://img.shields.io/github/commits-since/FIWARE-TMForum/Business-API-Ecosystem/latest.svg' alt='' /></p> <h4 id='whatisthebusinessapiecosystem'>What is the Business API Ecosystem?</h4> <p>The Business API Ecosystem GE is the result of the collaboration between FIWARE and the TMForum. In this regard, the Business API Ecosystem GE is a joint component made up by integrating the FIWARE Business Framework with a set of standard APIs (and its reference implementations) provided by the TMForum in its TMF API ecosystem.</p> <p>This component allows the monetization of different kind of assets (both digital and physical) during the whole service life cycle, from offering creation to its charging, accounting and revenue settlement and sharing. In this way, the Business API Ecosystem provides sellers the means for managing, publishing, and generating revenue of they products, apps, data, and services.</p> <p>By using the Business API Ecosystem you have access to the following key features:</p> <ul> <li>Support for the management of catalogs, products, and offering</li> <li>Support for rich pricing models, including recurring payments, pay-per-use, etc.</li> <li>Support for accounting callbacks</li> <li>Support for billing and charging</li> <li>Integrated support for PayPal, including customer charges and seller payments</li> <li>Support for revenue sharing, including models with multiple stakeholders involved</li> </ul> <p>The Business API Ecosystem exposes its complete functionality through TMForum standard APIs; concretely, it includes the catalog management, ordering management, inventory management, usage management, billing, customer, and party APIs.</p> <h4 id='whyusethebusinessapiecosystem'>Why use the Business API Ecosystem?</h4> <p>In those fields where it is expected to create a real ecosystem of apps, data, and services (such as Smart Cities), offering third parties a way to enrich existing services and data, and enable monetization, is a key factor. In this regard, the integrated support for pricing (including pay-per-use modalities), accounting, charging, billing and revenue sharing offered by the Business API Ecosystem can position it one step ahead of the current market.</p> <p>Additionally, the TMForum APIs are design to enable repeatable and flexible integration among operations and management systems, making it easier to create, build and operate complex innovative services. The Business API Ecosystem exposes its functionality using the standard TMForum APIs; therefore, it takes advantage of the benefits on operation and management offered by such standards, allowing companies that plan to offer data and apps in such ecosystem to not adapt their systems ad-hoc.</p> <p>Business API Ecosystem Open <a href='https://forge.fiware.org/plugins/mediawiki/wiki/fiware/index.php/FIWARE.OpenSpecification.Apps.BusinessAPIEcosystem'>Specification</a></p> <p>Biz Ecosystem RI is an implementation of the FIWARE/TMForum Business API Ecosystem Generic Enabler. More specifically, the Biz Ecosystem RI implements the following APIs and Open Specifications:</p> <ul> <li><a href='https://fiware-tmforum.github.io/Business-API-Ecosystem/'>Open API Specification</a></li> </ul>",
-        domain: '',
-        technology: '',
-        status: 'Full',
-        gitHub: 'https://github.com/FIWARE-TMForum/Business-API-Ecosystem',
-        gitHubOrg: 'https://github.com/Ficodes',
-        docker: '',
-        quay: 'https://quay.io/repository/fiware/biz-ecosystem-apis',
-        documentation: 'https://business-api-ecosystem.readthedocs.io/',
-        status: 'Full'
-    },
-    {
         name: 'Idra',
         img: 'https://www.fiware.org/wp-content/directories/enablers/images/webinar-default.png',
         company: 'Engineering',
@@ -1259,6 +1239,26 @@ var modalData = [
         docker: 'https://hub.docker.com/r/idraopendata/idra',
         quay: '',
         documentation: 'https://idra.readthedocs.io/',
+        status: 'Full'
+    },
+    {
+        name: 'Biz Framework',
+        img: 'https://www.fiware.org/wp-content/directories/enablers/images/webinar-default.png',
+        company: 'FICODES',
+        companyType: '',
+        type: 'Data Monetization',
+        badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_DataMonetization.svg'/>",
+        chapter: 'context-data',
+        content:
+            "<p><img src='https://img.shields.io/github/license/FIWARE-TMForum/Business-API-Ecosystem.svg' alt='License' /> <img src='https://img.shields.io/github/release-date/FIWARE-TMForum/Business-API-Ecosystem.svg' alt='' /> <img src='https://img.shields.io/github/commits-since/FIWARE-TMForum/Business-API-Ecosystem/latest.svg' alt='' /></p> <h4 id='whatisthebusinessapiecosystem'>What is the Business API Ecosystem?</h4> <p>The Business API Ecosystem GE is the result of the collaboration between FIWARE and the TMForum. In this regard, the Business API Ecosystem GE is a joint component made up by integrating the FIWARE Business Framework with a set of standard APIs (and its reference implementations) provided by the TMForum in its TMF API ecosystem.</p> <p>This component allows the monetization of different kind of assets (both digital and physical) during the whole service life cycle, from offering creation to its charging, accounting and revenue settlement and sharing. In this way, the Business API Ecosystem provides sellers the means for managing, publishing, and generating revenue of they products, apps, data, and services.</p> <p>By using the Business API Ecosystem you have access to the following key features:</p> <ul> <li>Support for the management of catalogs, products, and offering</li> <li>Support for rich pricing models, including recurring payments, pay-per-use, etc.</li> <li>Support for accounting callbacks</li> <li>Support for billing and charging</li> <li>Integrated support for PayPal, including customer charges and seller payments</li> <li>Support for revenue sharing, including models with multiple stakeholders involved</li> </ul> <p>The Business API Ecosystem exposes its complete functionality through TMForum standard APIs; concretely, it includes the catalog management, ordering management, inventory management, usage management, billing, customer, and party APIs.</p> <h4 id='whyusethebusinessapiecosystem'>Why use the Business API Ecosystem?</h4> <p>In those fields where it is expected to create a real ecosystem of apps, data, and services (such as Smart Cities), offering third parties a way to enrich existing services and data, and enable monetization, is a key factor. In this regard, the integrated support for pricing (including pay-per-use modalities), accounting, charging, billing and revenue sharing offered by the Business API Ecosystem can position it one step ahead of the current market.</p> <p>Additionally, the TMForum APIs are design to enable repeatable and flexible integration among operations and management systems, making it easier to create, build and operate complex innovative services. The Business API Ecosystem exposes its functionality using the standard TMForum APIs; therefore, it takes advantage of the benefits on operation and management offered by such standards, allowing companies that plan to offer data and apps in such ecosystem to not adapt their systems ad-hoc.</p> <p>Business API Ecosystem Open <a href='https://forge.fiware.org/plugins/mediawiki/wiki/fiware/index.php/FIWARE.OpenSpecification.Apps.BusinessAPIEcosystem'>Specification</a></p> <p>Biz Ecosystem RI is an implementation of the FIWARE/TMForum Business API Ecosystem Generic Enabler. More specifically, the Biz Ecosystem RI implements the following APIs and Open Specifications:</p> <ul> <li><a href='https://fiware-tmforum.github.io/Business-API-Ecosystem/'>Open API Specification</a></li> </ul>",
+        domain: '',
+        technology: '',
+        status: 'Full',
+        gitHub: 'https://github.com/FIWARE-TMForum/Business-API-Ecosystem',
+        gitHubOrg: 'https://github.com/Ficodes',
+        docker: '',
+        quay: 'https://quay.io/repository/fiware/biz-ecosystem-apis',
+        documentation: 'https://business-api-ecosystem.readthedocs.io/',
         status: 'Full'
     },
     {
