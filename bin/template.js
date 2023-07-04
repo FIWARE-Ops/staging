@@ -11,10 +11,10 @@ function stringify(data) {
 }
 
 function createAnchor(data, type, index) {
-    if (index === 0) {
-        return `<a id="${createClass(type)}-enablers"/>`;
-    } else if (data[index - 1].type !== type) {
-        return `<a id="${createClass(type)}-enablers"/>`;
+    if (index < data.length - 1) {
+        if (type !== data[index + 1].type) {
+            return `<a id="${createClass(data[index + 1].type)}-enablers"/>`;
+        }
     }
     return '';
 }
