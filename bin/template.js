@@ -10,6 +10,15 @@ function stringify(data) {
     return JSON.stringify(data);
 }
 
+function createAnchor(data, type, index) {
+    if (index === 0) {
+        return `<a name="${createClass(type)}-enablers"/>`;
+    } else if (data[index - 1].type !== type) {
+        return `<a name="${createClass(type)}-enablers"/>`;
+    }
+    return '';
+}
+
 /**
  * Remove special characters and create
  * a usable CSS class for Isotope to filter on.
@@ -66,6 +75,7 @@ function math(lvalue, operator, rvalue) {
 
 Handlebars.registerHelper('createClasses', createClasses);
 Handlebars.registerHelper('createClass', createClass);
+Handlebars.registerHelper('createAnchor', createAnchor);
 Handlebars.registerHelper('rating', rating);
 Handlebars.registerHelper('json', stringify);
 Handlebars.registerHelper('math', math);
