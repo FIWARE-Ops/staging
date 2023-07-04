@@ -1083,8 +1083,8 @@ input[type="checkbox"]:checked+label::after {
 
 .search-element {
   position: relative;
-  width: 45%;
-  max-width: 500px;
+  width: 50%;
+  /* max-width: 500px; */
 }
 
 .resetInput {
