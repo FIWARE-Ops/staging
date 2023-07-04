@@ -12,9 +12,9 @@ function stringify(data) {
 
 function createAnchor(data, type, index) {
     if (index === 0) {
-        return `name="${createClass(type)}-enablers"`;
+        return `<a name="${createClass(type)}-enablers"/>`;
     } else if (data[index - 1].type !== type) {
-        return `name="${createClass(type)}-enablers"`;
+        return `<a name="${createClass(type)}-enablers"/>`;
     }
     return '';
 }
