@@ -1932,6 +1932,10 @@ input[type="search"]::placeholder {
     margin-left: -10px;
   }
 
+  .checkbox-label {
+    padding-top: 0px;
+  }
+
   .cat-ico {
     display: none;
   }
