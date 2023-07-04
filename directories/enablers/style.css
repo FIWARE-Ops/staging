@@ -869,9 +869,10 @@ ul {
 }
 
 .search-sort-container {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-between; */
+  padding-bottom: 20px;
 }
 
 /* Filter list */
