@@ -148,6 +148,12 @@ ul {
   background: rgba(177, 178, 180, .1);
 }
 
+.grid-item.main-chapter.open-source,
+.credits-modal.open-source {
+  border: 1px solid #ccc;
+  /* background: rgba(177, 178, 180, .1); */
+}
+
 .grid-item {
   width: calc(33.3% - 36px);
   margin: 0 18px 24px 18px !important;
