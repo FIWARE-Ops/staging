@@ -25,7 +25,7 @@ function extractPeople(input) {
             surname: item['Surname Filters'],
             img: item['Profile Picture'] ? item['Profile Picture'] : DEFAULT_IMAGE,
             company: item['Company'] || item['Organization'] || item['Organisation'],
-            companyType: item['Legal Form'],
+            companyType: item['Legal Form'] || '',
             domain: item['Domain'],
             website: item['Company website'] || item['Organization website'] || item['Organisation website'],
             job: item['Job title'],
