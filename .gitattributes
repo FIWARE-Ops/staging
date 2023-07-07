@@ -1,4 +1,2 @@
-community/** linguist-vendored
-images/** linguist-vendored
+directories/** linguist-vendored
 marketplace/** linguist-vendored
-people/** linguist-vendored
