@@ -342,6 +342,34 @@ function initSelect() {
     e.preventDefault();
   });
 
+  $('.chip-technology ul li').each(function (index) {
+    $(this).bind("click", (e) => {
+      const anchorElt = $(this);
+      $("#filterTechnology").val(createClassFilter(anchorElt.text())).change();
+    });
+  });
+
+  $('.chip-technology .label-card').each(function (index) {
+    $(this).bind("click", (e) => {
+      const anchorElt = $(this);
+      $("#filterTechnology").val('*').change();
+    });
+  });
+
+  $('.chip-domain ul li').each(function (index) {
+    $(this).bind("click", (e) => {
+      const anchorElt = $(this);
+      $("#filterDomain").val(createClassFilter(anchorElt.text())).change();
+    });
+  });
+
+  $('.chip-domain .label-card').each(function (index) {
+    $(this).bind("click", (e) => {
+      const anchorElt = $(this);
+      $("#filterDomain").val('*').change();
+    });
+  });
+
   $(".filters-container select").each(function (index) {
     $(this).bind("change", (e) => {
       if (e.target.id === "searchInput") {
