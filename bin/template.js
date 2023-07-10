@@ -13,7 +13,7 @@ function stringify(data) {
 function createAnchor(data, type, index) {
     if (index < data.length - 1) {
         if (type !== data[index + 1].type) {
-            return `<a id="${createClass(data[index + 1].type)}-enablers"/>`;
+            return `<a id="${createClass(data[index + 1].type)}-enablers" class="hidden" />`;
         }
     }
     return '';
