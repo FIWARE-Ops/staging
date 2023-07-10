@@ -346,6 +346,7 @@ function initSelect() {
     $(this).bind("click", (e) => {
       const anchorElt = $(this);
       $("#filterTechnology").val(createClassFilter(anchorElt.text())).change();
+      $("#app").get(0).scrollIntoView({behavior: 'smooth', block: 'start'});
     });
   });
 
@@ -353,6 +354,7 @@ function initSelect() {
     $(this).bind("click", (e) => {
       const anchorElt = $(this);
       $("#filterTechnology").val('*').change();
+      $("#app").get(0).scrollIntoView({behavior: 'smooth', block: 'start'});
     });
   });
 
@@ -360,6 +362,7 @@ function initSelect() {
     $(this).bind("click", (e) => {
       const anchorElt = $(this);
       $("#filterDomain").val(createClassFilter(anchorElt.text())).change();
+      $("#app").get(0).scrollIntoView({behavior: 'smooth', block: 'start'});
     });
   });
 
@@ -367,6 +370,7 @@ function initSelect() {
     $(this).bind("click", (e) => {
       const anchorElt = $(this);
       $("#filterDomain").val('*').change();
+      $("#app").get(0).scrollIntoView({behavior: 'smooth', block: 'start'});
     });
   });
 
