@@ -273,6 +273,35 @@ var msnry;
 var selectors = { fType: true, fDomain: true, fTech: true };
 var filterObj = {};
 
+function initChips(){
+    $('.chip-technology ul li').each(function (index) {
+    $(this).bind("click", (e) => {
+      const anchorElt = $(this);
+      const techElt = $("#filterTechnology");
+
+      if(techElt.val() === "*"){
+        techElt.val(createClassFilter(anchorElt.text())).change();
+      } else {
+         techElt.val('*').change();
+      }
+      $("#app").get(0).scrollIntoView({behavior: 'smooth', block: 'start'});
+    });
+  });
+
+  $('.chip-domain ul li').each(function (index) {
+    $(this).bind("click", (e) => {
+      const anchorElt = $(this);
+      const domainElt = $("#filterDomain");
+      if(domainElt.val() === "*"){
+        domainElt.val(createClassFilter(anchorElt.text())).change();
+      } else {
+        domainElt.val('*').change();
+      }
+      $("#app").get(0).scrollIntoView({behavior: 'smooth', block: 'start'});
+    });
+  });
+}
+
 function initSelect() {
   msnry = new Isotope(".grid", {
     itemSelector: ".grid-item",
@@ -323,6 +352,8 @@ function initSelect() {
     }
     document.querySelector("#orderByName").classList.remove("active");
   });
+
+
 
   $(".filters-container select").each(function (index) {
     $(this).bind("change", (e) => {
@@ -425,6 +456,7 @@ document.addEventListener("DOMContentLoaded", () => {
       horizontalScroll();
       smoothScroll();
       initSelect();
+      initChips();
       initModal();
       filterToggle();
       // Isotope istantiation
