@@ -432,7 +432,7 @@ ul {
   transition: background-color 0.2s linear;
 }
 
-.chip-domain li.hover {
+.chip-technology li.hover {
   background-color: #c7e9ee;
   color: #fff;
   cursor: pointer;
