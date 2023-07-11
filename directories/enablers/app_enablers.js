@@ -422,6 +422,7 @@ function initSelect() {
         delete filterObj.member;
       }
 
+      highlightChips();
       msnry.arrange({
         filter: concatValues(filterObj),
       });

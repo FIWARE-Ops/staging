@@ -399,6 +399,7 @@ function initSelect() {
       filterObj[e.target.id] = `${
         e.target.value == "*" ? "" : "." + e.target.value
       }`;
+      highlightChips();
       msnry.arrange({
         filter: concatValues(filterObj),
       });
