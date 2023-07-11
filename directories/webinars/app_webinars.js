@@ -268,10 +268,16 @@ function concatValues(obj) {
   return value;
 }
 
-var init = false;
-var msnry;
-var selectors = { fType: true, fDomain: true, fTech: true };
-var filterObj = {};
+function scrollToView(){
+  const element =  $("#app .grid-item:visible:first").get(0);
+  const headerOffset = 88 + $(".filters-container").parent().height();  const elementPosition = element.getBoundingClientRect().top;
+  const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+  window.scrollTo({
+       top: offsetPosition,
+       behavior: "smooth"
+  });
+}
 
 function initChips(){
     $('.chip-technology ul li').each(function (index) {
@@ -284,7 +290,6 @@ function initChips(){
       } else {
          techElt.val('*').change();
       }
-      $("#app").get(0).scrollIntoView({behavior: 'smooth', block: 'start'});
     });
   });
 
@@ -297,7 +302,6 @@ function initChips(){
       } else {
         domainElt.val('*').change();
       }
-      $("#app").get(0).scrollIntoView({behavior: 'smooth', block: 'start'});
     });
   });
 }
@@ -321,6 +325,11 @@ function highlightChips(){
   });
 }
 
+var scrollSet = false;
+var init = false;
+var msnry;
+var selectors = { fType: true, fDomain: true, fTech: true };
+var filterObj = {};
 
 function initSelect() {
   msnry = new Isotope(".grid", {
@@ -341,11 +350,11 @@ function initSelect() {
 
   msnry.on("arrangeComplete", (filteredItems) => {
     $("#filteredCompanies").text(filteredItems.length);
-    /*if (document.activeElement !== document.getElementById("searchInput")) {
-      $("html, body").scrollTop($("#searchInput").offset().top + 70);
-    }*/
     dropdownFilters(selectors);
     highlightChips();
+    if (scrollSet) {
+      scrollToView();
+    }
   });
 
   initTextSearch(msnry);
@@ -400,6 +409,7 @@ function initSelect() {
         e.target.value == "*" ? "" : "." + e.target.value
       }`;
       highlightChips();
+      scrollSet = true;
       msnry.arrange({
         filter: concatValues(filterObj),
       });

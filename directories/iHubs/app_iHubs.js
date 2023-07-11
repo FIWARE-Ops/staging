@@ -191,6 +191,17 @@ function dropdownFilters(filter) {
   );
 }
 
+function scrollToView(){
+  const element =  $("#app .grid-item:visible:first").get(0);
+  const headerOffset = 88 + $(".filters-container").parent().height();  const elementPosition = element.getBoundingClientRect().top;
+  const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+  window.scrollTo({
+       top: offsetPosition,
+       behavior: "smooth"
+  });
+}
+
 function initChips(){
   $('.chip-domain ul li').each(function (index) {
     $(this).bind("click", (e) => {
@@ -201,7 +212,6 @@ function initChips(){
       } else {
         domainElt.val('*').change();
       }
-      $("#app").get(0).scrollIntoView({behavior: 'smooth', block: 'start'});
     });
   });
 }
@@ -218,7 +228,7 @@ function highlightChips(){
 }
 
 
-
+var scrollSet = false;
 var init = false;
 var msnry;
 var selectors = {
@@ -245,14 +255,6 @@ function initSelect() {
       name: true,
       year: false,
     },
-  });
-  msnry.on("arrangeComplete", (filteredItems) => {
-    $("#filteredCompanies").text(filteredItems.length);
-    /*if (document.activeElement !== document.getElementById("searchInput")) {
-      $("html, body").scrollTop($("#searchInput").offset().top + 70);
-    }*/
-    dropdownFilters(selectors);
-    highlightChips();
   });
 
   initTextSearch(msnry);
@@ -318,6 +320,7 @@ function initSelect() {
         e.target.value == "*" ? "" : "." + e.target.value
       }`;
       highlightChips();
+      scrollSet = true;
       msnry.arrange({
         filter: concatValues(filterObj),
       });
@@ -409,7 +412,15 @@ document.addEventListener("DOMContentLoaded", () => {
         var count = 0;
         $('#app').imagesLoaded()
         .always( function( instance ) {
-          msnry.arrange({ sortBy: "original-order" })
+          msnry.arrange({ sortBy: "original-order" });
+          msnry.on("arrangeComplete", (filteredItems) => {
+          $("#filteredCompanies").text(filteredItems.length);
+            dropdownFilters(selectors);
+            highlightChips();
+            if (scrollSet) {
+              scrollToView();
+            }
+          });
         })
         .progress( function( instance, image ) {
             count++;
