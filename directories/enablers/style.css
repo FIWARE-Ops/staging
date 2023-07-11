@@ -456,7 +456,7 @@ ul {
   transition: background-color 0.2s linear;
 }
 
-.chip-domain li.hover {
+.chip-domain li:hover {
   background-color: #c7e9ee;
   cursor: pointer;
 }
