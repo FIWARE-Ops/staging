@@ -361,6 +361,7 @@ function initSelect() {
 
   //SORT BY ALPHABETICALLY
   document.querySelector("#orderByName").addEventListener("click", (e) => {
+    scrollSet = false;
     if (e.target.classList.contains("active") == false) {
       msnry.arrange({ sortBy: "difficulty" });
       e.target.classList.add("active");
@@ -373,6 +374,7 @@ function initSelect() {
 
   // SORT BY YEAR
   document.querySelector("#orderByYear").addEventListener("click", (e) => {
+    scrollSet = false;
     if (e.target.classList.contains("active") == false) {
       msnry.arrange({ sortBy: "season" });
       e.target.classList.add("active");
