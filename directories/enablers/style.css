@@ -434,7 +434,6 @@ ul {
 
 .chip-technology li:hover {
   background-color: #c7e9ee;
-  color: #fff;
   cursor: pointer;
 }
 
@@ -465,7 +464,6 @@ ul {
 
 .chip-domain li:hover {
   background-color: #c7e9ee;
-  color: #fff;
   cursor: pointer;
 }
 
