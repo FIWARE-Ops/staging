@@ -288,6 +288,32 @@ function initModal() {
   });
 }
 
+function initChips(){
+  $('.chip-domain').each(function (index) {
+    $(this).bind("click", (e) => {
+      const anchorClass =  createClassFilter($(this).text());
+      const domainElt = $("#filterDomain");
+      if(domainElt.val() === "*" || domainElt.val() !== anchorClass ){
+        domainElt.val(anchorClass).change();
+      } else {
+        domainElt.val('*').change();
+      }
+      $("#app").get(0).scrollIntoView({behavior: 'smooth', block: 'start'});
+    });
+  });
+}
+
+function highlightChips(){
+  $('.chip-domain').each(function (index) {
+    const anchorClass =  createClassFilter($(this).text());
+    if($("#filterDomain").val() === anchorClass){
+      $(this).addClass('active')
+    } else {
+      $(this).removeClass('active')
+    }
+  });
+}
+
 var init = false;
 var msnry;
 var selectors = {
@@ -321,6 +347,7 @@ function initSelect() {
       $("html, body").scrollTop($("#searchInput").offset().top + 70);
     }*/
     dropdownFilters(selectors);
+    highlightChips();
   });
 
   initTextSearch(msnry);
@@ -469,6 +496,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
         init = true;
         initSelect();
+        initChips();
         initModal();
         filterToggle();
         // Isotope istantiation
