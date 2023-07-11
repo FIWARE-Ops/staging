@@ -304,6 +304,35 @@ function concatValues(obj) {
   return value;
 }
 
+function initChips(){
+    $('.chip-technology ul li').each(function (index) {
+    $(this).bind("click", (e) => {
+      const anchorElt = $(this);
+      const techElt = $("#filterTechnology");
+
+      if(techElt.val() === "*"){
+        techElt.val(createClassFilter(anchorElt.text())).change();
+      } else {
+         techElt.val('*').change();
+      }
+      $("#app").get(0).scrollIntoView({behavior: 'smooth', block: 'start'});
+    });
+  });
+
+  $('.chip-domain ul li').each(function (index) {
+    $(this).bind("click", (e) => {
+      const anchorElt = $(this);
+      const domainElt = $("#filterDomain");
+      if(domainElt.val() === "*"){
+        domainElt.val(createClassFilter(anchorElt.text())).change();
+      } else {
+        domainElt.val('*').change();
+      }
+      $("#app").get(0).scrollIntoView({behavior: 'smooth', block: 'start'});
+    });
+  });
+}
+
 var init = false;
 var msnry;
 var selectors = { fType: true, fDomain: true, fTech: true };
@@ -340,38 +369,6 @@ function initSelect() {
       filter: concatValues(filterObj),
     });
     e.preventDefault();
-  });
-
-  $('.chip-technology ul li').each(function (index) {
-    $(this).bind("click", (e) => {
-      const anchorElt = $(this);
-      $("#filterTechnology").val(createClassFilter(anchorElt.text())).change();
-      $("#app").get(0).scrollIntoView({behavior: 'smooth', block: 'start'});
-    });
-  });
-
-  $('.chip-technology .label-card').each(function (index) {
-    $(this).bind("click", (e) => {
-      const anchorElt = $(this);
-      $("#filterTechnology").val('*').change();
-      $("#app").get(0).scrollIntoView({behavior: 'smooth', block: 'start'});
-    });
-  });
-
-  $('.chip-domain ul li').each(function (index) {
-    $(this).bind("click", (e) => {
-      const anchorElt = $(this);
-      $("#filterDomain").val(createClassFilter(anchorElt.text())).change();
-      $("#app").get(0).scrollIntoView({behavior: 'smooth', block: 'start'});
-    });
-  });
-
-  $('.chip-domain .label-card').each(function (index) {
-    $(this).bind("click", (e) => {
-      const anchorElt = $(this);
-      $("#filterDomain").val('*').change();
-      $("#app").get(0).scrollIntoView({behavior: 'smooth', block: 'start'});
-    });
   });
 
   $(".filters-container select").each(function (index) {
@@ -551,6 +548,7 @@ document.addEventListener("DOMContentLoaded", () => {
       horizontalScroll();
       smoothScroll();
       initSelect();
+      initChips();
       initModal();
       initFeaturedCarousel();
       filterToggle();
