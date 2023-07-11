@@ -455,6 +455,11 @@ ul {
   display: inline-block;
 }
 
+.chip-domain li.hover {
+  background-color: #c7e9ee;
+  cursor: pointer;
+}
+
 .chip-domain li.active {
     background-color: #5dc0cf;
     color: #e5f5f7;
@@ -462,11 +467,6 @@ ul {
 
 .chip-domain li:last-of-type {
   margin-right: 40px;
-}
-
-.chip-domain li:hover {
-  background-color: #c7e9ee;
-  cursor: pointer;
 }
 
 .chips-gradient {
