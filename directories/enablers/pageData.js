@@ -715,7 +715,7 @@ var modalData = [
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_ThirdParty.svg'/>",
         chapter: 'interface',
         content:
-            "<p><img src='https://img.shields.io/badge/license-EUPL--1.2-orange' alt='License' /> <img src='https://img.shields.io/badge/tag-5.0-blue.svg' alt='' /></p> <h3 id='whatisdomibus'>What is Domibus?</h3> <p>Domibus is a sample implementation of a <a href='https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Access+Point+software'>CEF eDelivery Access Point</a>. CEF eDelivery helps users to exchange electronic data and documents with one another in a reliable and trusted way. The CEF eDelivery solution is based on a distributed model called the “4-corner model”. In this model, the backend systems of the users don’t exchange data directly with each other but do this through Access Points. These Access Points are conformant to the same technical specifications and therefore capable of communicating with each other. As a result of this, users adopting CEF eDelivery can easily and safely exchange data even if their IT systems were developed independently from each other.</p> <h3 id='whyusedomibus'>Why use Domibus?</h3> <p>eDelivery helps to achieve the following goals: Interoperability: Implementing common technical specifications that enable diverse organisations to exchange data and documents. Security: Promoting an atmosphere of trust among all participants in the message exchange network. Scalability and Performance: Enabling the number of participants in the data exchange network to grow as well as the number of exchanged messages. Legal Assurance and Accountability: Promoting a high level of transparency and confidence among all participants in the message exchange network. Re-using CEF eDelivery will accelerate the delivery time of a working document and data exchange network and reduces the cost and risk of creating, maintaining and operating such a network. CEF eDelivery was already tried and tested in multiple domains.</p>",
+            "<p><img src='https://img.shields.io/badge/license-EUPL--1.2-orange' alt='License' /> <img src='https://img.shields.io/badge/tag-5.0-blue.svg' alt='' /></p> <h4 id='whatisdomibus'>What is Domibus?</h4> <p>Domibus is a sample implementation of a <a href='https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Access+Point+software'>CEF eDelivery Access Point</a>. CEF eDelivery helps users to exchange electronic data and documents with one another in a reliable and trusted way. The CEF eDelivery solution is based on a distributed model called the “4-corner model”. In this model, the backend systems of the users don’t exchange data directly with each other but do this through Access Points. These Access Points are conformant to the same technical specifications and therefore capable of communicating with each other. As a result of this, users adopting CEF eDelivery can easily and safely exchange data even if their IT systems were developed independently from each other.</p> <h4 id='whyusedomibus'>Why use Domibus?</h4> <p>eDelivery helps to achieve the following goals: Interoperability: Implementing common technical specifications that enable diverse organisations to exchange data and documents. Security: Promoting an atmosphere of trust among all participants in the message exchange network. Scalability and Performance: Enabling the number of participants in the data exchange network to grow as well as the number of exchanged messages. Legal Assurance and Accountability: Promoting a high level of transparency and confidence among all participants in the message exchange network. Re-using CEF eDelivery will accelerate the delivery time of a working document and data exchange network and reduces the cost and risk of creating, maintaining and operating such a network. CEF eDelivery was already tried and tested in multiple domains.</p>",
         domain: 'Data Exchange',
         technology: 'eDelivery',
         status: 'Incubating',
@@ -735,7 +735,7 @@ var modalData = [
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_ThirdParty.svg'/>",
         chapter: 'interface',
         content:
-            "<p><img src='https://img.shields.io/github/license/yalewkidane/FIWARE_EPCIS_Mediation_Gateway.svg' alt='License' /> <img src='https://img.shields.io/github/last-commit/yalewkidane/FIWARE_EPCIS_Mediation_Gateway.svg' alt='' /> <img src='https://img.shields.io/github/tag/yalewkidane/FIWARE_EPCIS_Mediation_Gateway.svg' alt='' /></p> <h3 id='whatisoliot'>What is Oliot?</h3> <p>Oliot-MG is a mediation gateway which translates information from NGSI based IoT platform to EPCIS based IoT platform. This enables capturing state change in FIWARE context broker in the form of EPCIS Events.</p> <h3 id='whyuseoliot'>Why use Oliot?</h3> <p>To solve the issue of interoperability, multiple companies, organizations, and consortia have started to join and create standards. Currently, the two of the major standards that are widely being considered in the IoT sector are EPCIS and NGSI. Nevertheless, the two standards differ both in data encoding and service interface which create fragmentation from the point of view of data consumers application. Moreover, the two platforms differ in the underlying philosophy of representing and storing IoT data; namely, NGSI is entity-based and EPCIS is event-based. This creates an overhead to analyze and process data coming from the two platforms.</p> <p>FIWARE - EPCIS mediation gateway is developed to solve the interoperability between NGSI and EPCIS. It translates the entity based data from Orion context broker to EPCIS event. Moreover, enables traceability by capturing state change in FIWARE context broker in the form of EPCIS Event.</p>",
+            "<p><img src='https://img.shields.io/github/license/yalewkidane/FIWARE_EPCIS_Mediation_Gateway.svg' alt='License' /> <img src='https://img.shields.io/github/last-commit/yalewkidane/FIWARE_EPCIS_Mediation_Gateway.svg' alt='' /> <img src='https://img.shields.io/github/tag/yalewkidane/FIWARE_EPCIS_Mediation_Gateway.svg' alt='' /></p> <h4 id='whatisoliot'>What is Oliot?</h4> <p>Oliot-MG is a mediation gateway which translates information from NGSI based IoT platform to EPCIS based IoT platform. This enables capturing state change in FIWARE context broker in the form of EPCIS Events.</p> <h4 id='whyuseoliot'>Why use Oliot?</h4> <p>To solve the issue of interoperability, multiple companies, organizations, and consortia have started to join and create standards. Currently, the two of the major standards that are widely being considered in the IoT sector are EPCIS and NGSI. Nevertheless, the two standards differ both in data encoding and service interface which create fragmentation from the point of view of data consumers application. Moreover, the two platforms differ in the underlying philosophy of representing and storing IoT data; namely, NGSI is entity-based and EPCIS is event-based. This creates an overhead to analyze and process data coming from the two platforms.</p> <p>FIWARE - EPCIS mediation gateway is developed to solve the interoperability between NGSI and EPCIS. It translates the entity based data from Orion context broker to EPCIS event. Moreover, enables traceability by capturing state change in FIWARE context broker in the form of EPCIS Event.</p>",
         domain: 'Event Processing',
         technology: 'EPCIS',
         status: 'Incubating',
@@ -801,7 +801,7 @@ var modalData = [
         gitHubOrg: 'https://github.com/grafana/grafana',
         docker: '',
         quay: '',
-        documentation: 'https://github.com/bfi-de/ngsild-grafana-datasource',
+        documentation: 'https://github.com/bfi-de/ngsild-grafana-datasource#readme',
         status: 'Non-Member'
     },
     {
@@ -820,7 +820,7 @@ var modalData = [
         gitHubOrg: 'https://github.com/grafana/grafana',
         docker: '',
         quay: '',
-        documentation: 'https://github.com/msgis/fiware-gis-quickstart',
+        documentation: 'https://github.com/msgis/fiware-gis-quickstart#readme',
         status: 'Non-Member'
     },
     {
@@ -852,7 +852,7 @@ var modalData = [
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_ProcessingAnalysis.svg'/>",
         chapter: 'context-processing',
         content:
-            "<p><img src='https://img.shields.io/github/license/telefonicaid/perseo-fe.svg' alt='License' /> <img src='https://img.shields.io/github/release-date/telefonicaid/perseo-fe.svg' alt='' /> <img src='https://img.shields.io/github/commits-since/telefonicaid/perseo-fe/latest.svg' alt='' /></p> <h3 id='whatisperseo'>What is Perseo?</h3> <p>The Perseo Context-aware Complex Event Processing (Context-aware CEP) GE is a module that listens to events from context data (coming from Orion Context Broker or any other NGSI-compliant system or service) in real-time, and generates immediate insight, enabling thus instant response to changing conditions</p> <h3 id='whyuseperseo'>Why use Perseo?</h3> <p>Event processing in a Smart Solution enables you to listen to changes in the incoming context data and identify patterns in order to react by triggering external actions (e.g sending eMails or SMS messages)</p> <p>Perseo is an NSGI compliant rules-based query engine for event processing based on Esper CEP which means that rules can be defined using SQL-like queries in EPL eliminating the need to write code to hard-wire event conditions. Therefore Perseo can act as a bridge between the context data and other external systems.</p>",
+            "<p><img src='https://img.shields.io/github/license/telefonicaid/perseo-fe.svg' alt='License' /> <img src='https://img.shields.io/github/release-date/telefonicaid/perseo-fe.svg' alt='' /> <img src='https://img.shields.io/github/commits-since/telefonicaid/perseo-fe/latest.svg' alt='' /></p> <h4 id='whatisperseo'>What is Perseo?</h4> <p>The Perseo Context-aware Complex Event Processing (Context-aware CEP) GE is a module that listens to events from context data (coming from Orion Context Broker or any other NGSI-compliant system or service) in real-time, and generates immediate insight, enabling thus instant response to changing conditions</p> <h4 id='whyuseperseo'>Why use Perseo?</h4> <p>Event processing in a Smart Solution enables you to listen to changes in the incoming context data and identify patterns in order to react by triggering external actions (e.g sending eMails or SMS messages)</p> <p>Perseo is an NSGI compliant rules-based query engine for event processing based on Esper CEP which means that rules can be defined using SQL-like queries in EPL eliminating the need to write code to hard-wire event conditions. Therefore Perseo can act as a bridge between the context data and other external systems.</p>",
         domain: 'Event Processing',
         technology: 'HTTP,eMail,SMS',
         status: 'Incubating',
@@ -872,7 +872,7 @@ var modalData = [
         badge: "<img src='https://www.fiware.org/style/imgs/Badges/Badge_FIWARE_ProcessingAnalysis.svg'/>",
         chapter: 'context-processing',
         content:
-            "<p><img src='https://img.shields.io/github/license/telefonicaid/perseo-core.svg' alt='License' /> <img src='https://img.shields.io/github/release-date/telefonicaid/perseo-core.svg' alt='' /> <img src='https://img.shields.io/github/commits-since/telefonicaid/perseo-core/latest.svg' alt='' /></p> <h3 id='whatisperseo'>What is Perseo?</h3> <p>The Perseo Context-aware Complex Event Processing (Context-aware CEP) GE is a module that listens to events from context data (coming from Orion Context Broker or any other NGSI-compliant system or service) in real-time, and generates immediate insight, enabling thus instant response to changing conditions</p> <h3 id='whyuseperseo'>Why use Perseo?</h3> <p>Event processing in a Smart Solution enables you to listen to changes in the incoming context data and identify patterns in order to react by triggering external actions (e.g sending eMails or SMS messages)</p> <p>Perseo is an NSGI compliant rules-based query engine for event processing based on Esper CEP which means that rules can be defined using SQL-like queries in EPL eliminating the need to write code to hard-wire event conditions. Therefore Perseo can act as a bridge between the context data and other external systems.</p>",
+            "<p><img src='https://img.shields.io/github/license/telefonicaid/perseo-core.svg' alt='License' /> <img src='https://img.shields.io/github/release-date/telefonicaid/perseo-core.svg' alt='' /> <img src='https://img.shields.io/github/commits-since/telefonicaid/perseo-core/latest.svg' alt='' /></p> <h4 id='whatisperseo'>What is Perseo?</h4> <p>The Perseo Context-aware Complex Event Processing (Context-aware CEP) GE is a module that listens to events from context data (coming from Orion Context Broker or any other NGSI-compliant system or service) in real-time, and generates immediate insight, enabling thus instant response to changing conditions</p> <h4 id='whyuseperseo'>Why use Perseo?</h4> <p>Event processing in a Smart Solution enables you to listen to changes in the incoming context data and identify patterns in order to react by triggering external actions (e.g sending eMails or SMS messages)</p> <p>Perseo is an NSGI compliant rules-based query engine for event processing based on Esper CEP which means that rules can be defined using SQL-like queries in EPL eliminating the need to write code to hard-wire event conditions. Therefore Perseo can act as a bridge between the context data and other external systems.</p>",
         domain: 'Event Processing',
         technology: 'HTTP,eMail,SMS',
         status: 'Incubating',
@@ -919,7 +919,7 @@ var modalData = [
         gitHubOrg: 'https://github.com/grafana/grafana',
         docker: '',
         quay: '',
-        documentation: '',
+        documentation: 'https://github.com/keycloak/keycloak#readme',
         status: 'Non-Member'
     },
     {
@@ -938,7 +938,7 @@ var modalData = [
         gitHubOrg: 'https://github.com/grafana/grafana',
         docker: '',
         quay: '',
-        documentation: '',
+        documentation: 'https://github.com/openstack/keystone#readme',
         status: 'Non-Member'
     },
     {
@@ -1337,7 +1337,7 @@ var modalData = [
         gitHubOrg: 'https://github.com/grafana/grafana',
         docker: '',
         quay: '',
-        documentation: '',
+        documentation: 'https://github.com/Kong/kong#readme',
         status: 'Non-Member'
     }
 ];
