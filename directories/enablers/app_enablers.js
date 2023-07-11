@@ -333,6 +333,25 @@ function initChips(){
   });
 }
 
+function highlightChips(){
+  $('.chip-technology ul li').each(function (index) {
+    const anchorClass =  createClassFilter($(this).text());
+    if($("#filterTechnology").val() === anchorClass){
+      $(this).addClass('active')
+    } else {
+      $(this).removeClass('active')
+    }
+  });
+  $('.chip-domain ul li').each(function (index) {
+    const anchorClass =  createClassFilter($(this).text());
+    if($("#filterDomain").val() === anchorClass){
+      $(this).addClass('active')
+    } else {
+      $(this).removeClass('active')
+    }
+  });
+}
+
 var init = false;
 var msnry;
 var selectors = { fType: true, fDomain: true, fTech: true };
@@ -353,6 +372,7 @@ function initSelect() {
       $("html, body").scrollTop($("#searchInput").offset().top + 70);
     }*/
     dropdownFilters(selectors);
+    highlightChips();
   });
 
   initTextSearch(msnry);

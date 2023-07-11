@@ -141,12 +141,7 @@ function filterOptions(id, filter, data, css) {
       }
     });
 
-    console.log(arr)
-
     $(`${id} option`).each(function () {
-
-      console.log($(this).val())
-
       if (arr.includes($(this).val())) {
         $(this).show();
       } else {
@@ -197,20 +192,6 @@ function dropdownFilters(filter) {
 }
 
 function initChips(){
-    $('.chip-technology ul li').each(function (index) {
-    $(this).bind("click", (e) => {
-      const anchorClass =  createClassFilter($(this).text());
-      const techElt = $("#filterTechnology");
-
-      if(techElt.val() === "*" || techElt.val() !== anchorClass ){
-        techElt.val(anchorClass).change();
-      } else {
-         techElt.val('*').change();
-      }
-      $("#app").get(0).scrollIntoView({behavior: 'smooth', block: 'start'});
-    });
-  });
-
   $('.chip-domain ul li').each(function (index) {
     $(this).bind("click", (e) => {
       const anchorClass =  createClassFilter($(this).text());
@@ -225,6 +206,16 @@ function initChips(){
   });
 }
 
+function highlightChips(){
+  $('.chip-domain ul li').each(function (index) {
+    const anchorClass =  createClassFilter($(this).text());
+    if($("#filterDomain").val() === anchorClass){
+      $(this).addClass('active')
+    } else {
+      $(this).removeClass('active')
+    }
+  });
+}
 
 
 
@@ -261,6 +252,7 @@ function initSelect() {
       $("html, body").scrollTop($("#searchInput").offset().top + 70);
     }*/
     dropdownFilters(selectors);
+    highlightChips();
   });
 
   initTextSearch(msnry);
