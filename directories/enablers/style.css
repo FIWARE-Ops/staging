@@ -429,6 +429,12 @@ ul {
   padding: 6px 12px 8px;
   margin-right: 8px;
   display: inline-block;
+  transition: background-color 0.2s linear;
+}
+
+.chip-domain li.hover {
+  background-color: #c7e9ee;
+  cursor: pointer;
 }
 
 .chip-technology li.active {
@@ -456,7 +462,7 @@ ul {
   transition: background-color 0.2s linear;
 }
 
-.chip-domain li:hover {
+.chip-domain li.hover {
   background-color: #c7e9ee;
   cursor: pointer;
 }
