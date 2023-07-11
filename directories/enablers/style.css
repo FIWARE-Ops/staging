@@ -431,6 +431,11 @@ ul {
   display: inline-block;
 }
 
+.chip-technology li.active {
+    background-color: #5dc0cf;
+    color: #e5f5f7;
+}
+
 .chip-domain {
   display: flex;
   gap: 10px;
@@ -448,6 +453,11 @@ ul {
   padding: 6px 12px 8px;
   margin-right: 8px;
   display: inline-block;
+}
+
+.chip-domain li.active {
+    background-color: #5dc0cf;
+    color: #e5f5f7;
 }
 
 .chip-domain li:last-of-type {
