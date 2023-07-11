@@ -196,6 +196,35 @@ function dropdownFilters(filter) {
   );
 }
 
+function initChips(){
+    $('.chip-technology ul li').each(function (index) {
+    $(this).bind("click", (e) => {
+      const anchorElt = $(this);
+      const techElt = $("#filterTechnology");
+
+      if(techElt.val() === "*"){
+        techElt.val(createClassFilter(anchorElt.text())).change();
+      } else {
+         techElt.val('*').change();
+      }
+      $("#app").get(0).scrollIntoView({behavior: 'smooth', block: 'start'});
+    });
+  });
+
+  $('.chip-domain ul li').each(function (index) {
+    $(this).bind("click", (e) => {
+      const anchorElt = $(this);
+      const domainElt = $("#filterDomain");
+      if(domainElt.val() === "*"){
+        domainElt.val(createClassFilter(anchorElt.text())).change();
+      } else {
+        domainElt.val('*').change();
+      }
+      $("#app").get(0).scrollIntoView({behavior: 'smooth', block: 'start'});
+    });
+  });
+}
+
 
 
 
@@ -380,6 +409,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
         init = true;
         initSelect();
+        initChips();
         filterToggle();
         // Isotope istantiation
         // Relies on unpkg.com/imagesloaded
