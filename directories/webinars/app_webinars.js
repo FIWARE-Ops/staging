@@ -276,11 +276,11 @@ var filterObj = {};
 function initChips(){
     $('.chip-technology ul li').each(function (index) {
     $(this).bind("click", (e) => {
-      const anchorElt = $(this);
+      const anchorClass =  createClassFilter($(this).text());
       const techElt = $("#filterTechnology");
 
-      if(techElt.val() === "*"){
-        techElt.val(createClassFilter(anchorElt.text())).change();
+      if(techElt.val() === "*" || techElt.val() !== anchorClass ){
+        techElt.val(anchorClass).change();
       } else {
          techElt.val('*').change();
       }
@@ -290,10 +290,10 @@ function initChips(){
 
   $('.chip-domain ul li').each(function (index) {
     $(this).bind("click", (e) => {
-      const anchorElt = $(this);
+      const anchorClass =  createClassFilter($(this).text());
       const domainElt = $("#filterDomain");
-      if(domainElt.val() === "*"){
-        domainElt.val(createClassFilter(anchorElt.text())).change();
+      if(domainElt.val() === "*" || domainElt.val() !== anchorClass ){
+        domainElt.val(anchorClass).change();
       } else {
         domainElt.val('*').change();
       }
