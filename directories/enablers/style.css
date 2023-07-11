@@ -454,6 +454,11 @@ ul {
   margin-right: 40px;
 }
 
+.chip-domain li:hover {
+  background-color: #c7e9ee;
+  cursor: pointer;
+}
+
 .chips-gradient {
   position: absolute;
   right: 0;
