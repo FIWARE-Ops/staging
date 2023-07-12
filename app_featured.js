@@ -56,10 +56,6 @@ function enableCarousel() {
   });
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-  $(document).ready(function () {
-    includeHTML(() => {
-      enableCarousel();
-    });
-  });
+document.addEventListener('html-included', () => {
+  enableCarousel();
 });
