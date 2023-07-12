@@ -1,31 +1,3 @@
-function includeHTML(cb) {
-  var z, i, elmnt, file, xhttp;
-  z = document.getElementsByTagName("*");
-  for (i = 0; i < z.length; i++) {
-    elmnt = z[i];
-    file = elmnt.getAttribute("w3-include-html");
-    if (file) {
-      xhttp = new XMLHttpRequest();
-      xhttp.onreadystatechange = function () {
-        if (this.readyState == 4) {
-          if (this.status == 200) {
-            $(`#${elmnt.id}`).html(this.responseText);
-          }
-          if (this.status == 404) {
-            $(`#${elmnt.id}`).html("Page not found.");
-          }
-          elmnt.removeAttribute("w3-include-html");
-          includeHTML(cb);
-        }
-      };
-      xhttp.open("GET", file, true);
-      xhttp.send();
-      return;
-    }
-  }
-  if (cb) cb();
-}
-
 function filterOptions(id, filter, data, css) {
   var itemCSSFilter = ".grid-item:visible";
   // update Type select
@@ -572,33 +544,28 @@ function initSticky() {
   }
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-  $(document).ready(function () {
-    // POPULATE THE LISTING
-    includeHTML(() => {
-      $("#filteredCompanies").text(window.modalData.length);
-      horizontalScroll();
-      smoothScroll();
-      initSelect();
-      initChips();
-      initModal();
-      initFeaturedCarousel();
-      filterToggle();
-      initSticky();
-      // Isotope istantiation
-      // Relies on unpkg.com/imagesloaded
-      var count = 0;
-      $("#app")
-        .imagesLoaded()
-        .always(function (instance) {
-          msnry.arrange({ sortBy: "original-order" });
-        })
-        .progress(function (instance, image) {
-          count++;
-          if (count % 12 === 0) {
-            msnry.arrange({ sortBy: "original-order" });
-          }
-        });
+document.addEventListener("html-included", () => {
+  $("#filteredCompanies").text(window.modalData.length);
+  horizontalScroll();
+  smoothScroll();
+  initSelect();
+  initChips();
+  initModal();
+  initFeaturedCarousel();
+  filterToggle();
+  initSticky();
+  // Isotope istantiation
+  // Relies on unpkg.com/imagesloaded
+  var count = 0;
+  $("#app")
+    .imagesLoaded()
+    .always(function (instance) {
+      msnry.arrange({ sortBy: "original-order" });
+    })
+    .progress(function (instance, image) {
+      count++;
+      if (count % 12 === 0) {
+        msnry.arrange({ sortBy: "original-order" });
+      }
     });
-  });
 });

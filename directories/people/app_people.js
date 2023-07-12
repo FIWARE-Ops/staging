@@ -1,31 +1,3 @@
-function includeHTML(cb) {
-  var z, i, elmnt, file, xhttp;
-  z = document.getElementsByTagName("*");
-  for (i = 0; i < z.length; i++) {
-    elmnt = z[i];
-    file = elmnt.getAttribute("w3-include-html");
-    if (file) {
-      xhttp = new XMLHttpRequest();
-      xhttp.onreadystatechange = function () {
-        if (this.readyState == 4) {
-          if (this.status == 200) {
-            $(`#${elmnt.id}`).html(this.responseText);
-          }
-          if (this.status == 404) {
-            $(`#${elmnt.id}`).html("Page not found.");
-          }
-          elmnt.removeAttribute("w3-include-html");
-          includeHTML(cb);
-        }
-      };
-      xhttp.open("GET", file, true);
-      xhttp.send();
-      return;
-    }
-  }
-  if (cb) cb();
-}
-
 // Returns the right classNames for isotope card filtering system
 function createClassFilter(data) {
   var filterString = "";
@@ -496,35 +468,30 @@ function horizontalScroll() {
   });
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-  $("#app").css("visibility", "hidden");
-  $(document).ready(function () {
-    includeHTML(() => {
-      $("#filteredCompanies").text(window.modalData.length);
-      horizontalScroll();
-      smoothScroll();
-        $("#app").css("visibility", "visible");
-        if (init) {
-          return;
+document.addEventListener("html-included", () => {
+  $("#filteredCompanies").text(window.modalData.length);
+  horizontalScroll();
+  smoothScroll();
+    $("#app").css("visibility", "visible");
+    if (init) {
+      return;
+    }
+    init = true;
+    initSelect();
+    initChips();
+    initModal();
+    filterToggle();
+    // Isotope istantiation
+    // Relies on unpkg.com/imagesloaded
+    var count = 0;
+    $('#app').imagesLoaded()
+    .always( function( instance ) {
+      msnry.arrange({ sortBy: "original-order" })
+    })
+    .progress( function( instance, image ) {
+        count++;
+        if ( count % 12 === 0){
+          msnry.arrange({ sortBy: "original-order" });
         }
-        init = true;
-        initSelect();
-        initChips();
-        initModal();
-        filterToggle();
-        // Isotope istantiation
-        // Relies on unpkg.com/imagesloaded
-        var count = 0;
-        $('#app').imagesLoaded()
-        .always( function( instance ) {
-          msnry.arrange({ sortBy: "original-order" })
-        })
-        .progress( function( instance, image ) {
-            count++;
-            if ( count % 12 === 0){
-              msnry.arrange({ sortBy: "original-order" });
-            }
-        });
     });
-  });
 });
