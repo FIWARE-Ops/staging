@@ -152,35 +152,39 @@ function createModalContent(tingleModalData) {
 
 function initModal() {
   // Modal
-  document.querySelectorAll(".cat-info[data-modal], .cat-details[data-modal]").forEach(function (el) {
-    el.addEventListener("click", function (e) {
-      var modal = new tingle.modal({
-        footer: true,
-        stickyFooter: false,
-        closeMethods: ["overlay", "button", "escape"],
-        closeLabel: "Close",
-        cssClass: ["tingle-modal--fullscreen"],
-        onOpen: function () {
-          console.log("modal open");
-        },
-        onClose: function () {
-          console.log("modal closed");
-        },
-        beforeClose: function () {
-          // here's goes some logic
-          // e.g. save content before closing the modal
-          return true; // close the modal
-          return false; // nothing happens
-        },
+  document
+    .querySelectorAll(".cat-info[data-modal], .cat-details[data-modal]")
+    .forEach(function (el) {
+      el.addEventListener("click", function (e) {
+        var modal = new tingle.modal({
+          footer: true,
+          stickyFooter: false,
+          closeMethods: ["overlay", "button", "escape"],
+          closeLabel: "Close",
+          cssClass: ["tingle-modal--fullscreen"],
+          onOpen: function () {
+            console.log("modal open");
+          },
+          onClose: function () {
+            console.log("modal closed");
+          },
+          beforeClose: function () {
+            // here's goes some logic
+            // e.g. save content before closing the modal
+            return true; // close the modal
+            return false; // nothing happens
+          },
+        });
+        // set content
+
+        modal.setContent(
+          createModalContent(window.modalData[el.dataset.modal])
+        );
+
+        // open modal
+        modal.open();
       });
-      // set content
-
-      modal.setContent(createModalContent(window.modalData[el.dataset.modal]));
-
-      // open modal
-      modal.open();
     });
-  });
 
   $(document).ready(function () {
     $(".f-cat a").on("click", function (e) {
@@ -276,59 +280,60 @@ function concatValues(obj) {
   return value;
 }
 
-function scrollToView(){
-  const element =  $("#app .grid-item:visible:first").get(0);
-  const headerOffset = 88 + $(".filters-container").parent().height();  const elementPosition = element.getBoundingClientRect().top;
+function scrollToView() {
+  const element = $("#app .grid-item:visible:first").get(0);
+  const headerOffset = 88 + $(".filters-container").parent().height();
+  const elementPosition = element.getBoundingClientRect().top;
   const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
 
   window.scrollTo({
-       top: offsetPosition,
-       behavior: "instant"
+    top: offsetPosition,
+    behavior: "instant",
   });
 }
 
-function initChips(){
-    $('.chip-technology ul li').each(function (index) {
+function initChips() {
+  $(".chip-technology ul li").each(function (index) {
     $(this).bind("click", (e) => {
-      const anchorClass =  createClassFilter($(this).text());
+      const anchorClass = createClassFilter($(this).text());
       const techElt = $("#filterTechnology");
 
-      if(techElt.val() === "*" || techElt.val() !== anchorClass ){
+      if (techElt.val() === "*" || techElt.val() !== anchorClass) {
         techElt.val(anchorClass).change();
       } else {
-         techElt.val('*').change();
+        techElt.val("*").change();
       }
     });
   });
 
-  $('.chip-domain ul li').each(function (index) {
+  $(".chip-domain ul li").each(function (index) {
     $(this).bind("click", (e) => {
-      const anchorClass =  createClassFilter($(this).text());
+      const anchorClass = createClassFilter($(this).text());
       const domainElt = $("#filterDomain");
-      if(domainElt.val() === "*" || domainElt.val() !== anchorClass ){
+      if (domainElt.val() === "*" || domainElt.val() !== anchorClass) {
         domainElt.val(anchorClass).change();
       } else {
-        domainElt.val('*').change();
+        domainElt.val("*").change();
       }
     });
   });
 }
 
-function highlightChips(){
-  $('.chip-technology ul li').each(function (index) {
-    const anchorClass =  createClassFilter($(this).text());
-    if($("#filterTechnology").val() === anchorClass){
-      $(this).addClass('active')
+function highlightChips() {
+  $(".chip-technology ul li").each(function (index) {
+    const anchorClass = createClassFilter($(this).text());
+    if ($("#filterTechnology").val() === anchorClass) {
+      $(this).addClass("active");
     } else {
-      $(this).removeClass('active')
+      $(this).removeClass("active");
     }
   });
-  $('.chip-domain ul li').each(function (index) {
-    const anchorClass =  createClassFilter($(this).text());
-    if($("#filterDomain").val() === anchorClass){
-      $(this).addClass('active')
+  $(".chip-domain ul li").each(function (index) {
+    const anchorClass = createClassFilter($(this).text());
+    if ($("#filterDomain").val() === anchorClass) {
+      $(this).addClass("active");
     } else {
-      $(this).removeClass('active')
+      $(this).removeClass("active");
     }
   });
 }
@@ -545,6 +550,10 @@ function initSticky() {
 }
 
 document.addEventListener("html-included", () => {
+  if (init) {
+    return;
+  }
+  init = true;
   $("#filteredCompanies").text(window.modalData.length);
   horizontalScroll();
   smoothScroll();

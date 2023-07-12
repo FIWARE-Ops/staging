@@ -5,9 +5,15 @@ function createClassFilter(data) {
   if (typeof data == "object") {
     data.forEach((element, i) => {
       if (i + 1 === data.length) {
-        filterString += `${element.toLowerCase().replace(/&amp/gi, "").replace(regex, "-")}`;
+        filterString += `${element
+          .toLowerCase()
+          .replace(/&amp/gi, "")
+          .replace(regex, "-")}`;
       } else {
-        filterString += `${element.toLowerCase().replace(/&amp/gi, "").replace(regex, "-")} `;
+        filterString += `${element
+          .toLowerCase()
+          .replace(/&amp/gi, "")
+          .replace(regex, "-")} `;
       }
     });
   } else {
@@ -124,7 +130,6 @@ function filterOptions(id, filter, data, css) {
 }
 
 function dropdownFilters(filter) {
-
   var companyCSSFilter = getCSSFilter("#filterCompany");
   var roleCSSFilter = getCSSFilter("#filterRole");
   var departmentCSSFilter = getCSSFilter("#filterDepartment");
@@ -163,42 +168,42 @@ function dropdownFilters(filter) {
   );
 }
 
-function scrollToView(){
-  const element =  $("#app .grid-item:visible:first").get(0);
-  const headerOffset = 88 + $(".filters-container").parent().height();  const elementPosition = element.getBoundingClientRect().top;
+function scrollToView() {
+  const element = $("#app .grid-item:visible:first").get(0);
+  const headerOffset = 88 + $(".filters-container").parent().height();
+  const elementPosition = element.getBoundingClientRect().top;
   const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
 
   window.scrollTo({
-       top: offsetPosition,
-       behavior: "instant"
+    top: offsetPosition,
+    behavior: "instant",
   });
 }
 
-function initChips(){
-  $('.chip-domain ul li').each(function (index) {
+function initChips() {
+  $(".chip-domain ul li").each(function (index) {
     $(this).bind("click", (e) => {
-      const anchorClass =  createClassFilter($(this).text());
+      const anchorClass = createClassFilter($(this).text());
       const domainElt = $("#filterDomain");
-      if(domainElt.val() === "*" || domainElt.val() !== anchorClass ){
+      if (domainElt.val() === "*" || domainElt.val() !== anchorClass) {
         domainElt.val(anchorClass).change();
       } else {
-        domainElt.val('*').change();
+        domainElt.val("*").change();
       }
     });
   });
 }
 
-function highlightChips(){
-  $('.chip-domain ul li').each(function (index) {
-    const anchorClass =  createClassFilter($(this).text());
-    if($("#filterDomain").val() === anchorClass){
-      $(this).addClass('active')
+function highlightChips() {
+  $(".chip-domain ul li").each(function (index) {
+    const anchorClass = createClassFilter($(this).text());
+    if ($("#filterDomain").val() === anchorClass) {
+      $(this).addClass("active");
     } else {
-      $(this).removeClass('active')
+      $(this).removeClass("active");
     }
   });
 }
-
 
 var scrollSet = false;
 var init = false;
@@ -368,22 +373,23 @@ document.addEventListener("html-included", () => {
   //$("#filteredCompanies").text(window.modalData.length);
   horizontalScroll();
   smoothScroll();
-    $("#app").css("visibility", "visible");
-    if (init) {
-      return;
-    }
-    init = true;
-    initSelect();
-    initChips();
-    filterToggle();
-    // Isotope istantiation
-    // Relies on unpkg.com/imagesloaded
-    var count = 0;
-    $('#app').imagesLoaded()
-    .always( function( instance ) {
+  $("#app").css("visibility", "visible");
+  if (init) {
+    return;
+  }
+  init = true;
+  initSelect();
+  initChips();
+  filterToggle();
+  // Isotope istantiation
+  // Relies on unpkg.com/imagesloaded
+  var count = 0;
+  $("#app")
+    .imagesLoaded()
+    .always(function (instance) {
       msnry.arrange({ sortBy: "original-order" });
       msnry.on("arrangeComplete", (filteredItems) => {
-      $("#filteredCompanies").text(filteredItems.length);
+        $("#filteredCompanies").text(filteredItems.length);
         dropdownFilters(selectors);
         highlightChips();
         if (scrollSet) {
@@ -391,11 +397,10 @@ document.addEventListener("html-included", () => {
         }
       });
     })
-    .progress( function( instance, image ) {
-        count++;
-        if ( count % 12 === 0){
-          msnry.arrange({ sortBy: "original-order" });
-        }
+    .progress(function (instance, image) {
+      count++;
+      if (count % 12 === 0) {
+        msnry.arrange({ sortBy: "original-order" });
+      }
     });
 });
-

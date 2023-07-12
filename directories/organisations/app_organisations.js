@@ -5,9 +5,15 @@ function createClassFilter(data) {
   if (typeof data == "object") {
     data.forEach((element, i) => {
       if (i + 1 === data.length) {
-        filterString += `${element.toLowerCase().replace(/&amp/gi, "").replace(regex, "-")}`;
+        filterString += `${element
+          .toLowerCase()
+          .replace(/&amp/gi, "")
+          .replace(regex, "-")}`;
       } else {
-        filterString += `${element.toLowerCase().replace(/&amp/gi, "").replace(regex, "-")} `;
+        filterString += `${element
+          .toLowerCase()
+          .replace(/&amp/gi, "")
+          .replace(regex, "-")} `;
       }
     });
   } else {
@@ -27,7 +33,7 @@ function inputSearch(itemElem, textString) {
     }
   });
   var qsRegex = new RegExp(regex.join("|"), "gi");
-  return $(itemElem).find('.member-name').text().match(qsRegex);
+  return $(itemElem).find(".member-name").text().match(qsRegex);
 }
 
 function concatValues(obj) {
@@ -113,11 +119,10 @@ function filterOptions(id, filter, data, css) {
       }
     });
 
-    console.log(arr)
+    console.log(arr);
 
     $(`${id} option`).each(function () {
-
-      console.log($(this).val())
+      console.log($(this).val());
 
       if (arr.includes($(this).val())) {
         $(this).show();
@@ -129,7 +134,6 @@ function filterOptions(id, filter, data, css) {
 }
 
 function dropdownFilters(filter) {
-
   var companyCSSFilter = getCSSFilter("#filterCompany");
   var roleCSSFilter = getCSSFilter("#filterRole");
   var departmentCSSFilter = getCSSFilter("#filterDepartment");
@@ -168,9 +172,6 @@ function dropdownFilters(filter) {
   );
 }
 
-
-
-
 var init = false;
 var msnry;
 var selectors = {
@@ -193,7 +194,7 @@ function initSelect() {
       name: ".member-name",
     },
     sortAscending: {
-      name: true
+      name: true,
     },
   });
   msnry.on("arrangeComplete", (filteredItems) => {
@@ -206,19 +207,16 @@ function initSelect() {
 
   initTextSearch(msnry);
 
-
-
-    // SORT BY ALPHABETICALLY
-    document.querySelector("#orderByName").addEventListener("click", (e) => {
-      if (e.target.classList.contains("active") == false) {
-        msnry.arrange({ sortBy: "name" });
-        e.target.classList.add("active");
-      } else {
-        msnry.arrange({ sortBy: "original-order" });
-        e.target.classList.remove("active");
-      }
-    });
-
+  // SORT BY ALPHABETICALLY
+  document.querySelector("#orderByName").addEventListener("click", (e) => {
+    if (e.target.classList.contains("active") == false) {
+      msnry.arrange({ sortBy: "name" });
+      e.target.classList.add("active");
+    } else {
+      msnry.arrange({ sortBy: "original-order" });
+      e.target.classList.remove("active");
+    }
+  });
 
   $(".filters-container select").each(function (index) {
     $(this).bind("change", (e) => {
@@ -321,25 +319,25 @@ function horizontalScroll() {
 document.addEventListener("html-included", () => {
   horizontalScroll();
   smoothScroll();
-    $("#app").css("visibility", "visible");
-    if (init) {
-      return;
-    }
-    init = true;
-    initSelect();
-    filterToggle();
-    // Isotope istantiation
-    // Relies on unpkg.com/imagesloaded
-    var count = 0;
-    $('#app').imagesLoaded()
-    .always( function( instance ) {
-      msnry.arrange({ sortBy: "original-order" })
+  $("#app").css("visibility", "visible");
+  if (init) {
+    return;
+  }
+  init = true;
+  initSelect();
+  filterToggle();
+  // Isotope istantiation
+  // Relies on unpkg.com/imagesloaded
+  var count = 0;
+  $("#app")
+    .imagesLoaded()
+    .always(function (instance) {
+      msnry.arrange({ sortBy: "original-order" });
     })
-    .progress( function( instance, image ) {
-        count++;
-        if ( count % 12 === 0){
-          msnry.arrange({ sortBy: "original-order" });
-        }
+    .progress(function (instance, image) {
+      count++;
+      if (count % 12 === 0) {
+        msnry.arrange({ sortBy: "original-order" });
+      }
     });
 });
-

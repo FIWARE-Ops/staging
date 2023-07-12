@@ -5,9 +5,15 @@ function createClassFilter(data) {
   if (typeof data == "object") {
     data.forEach((element, i) => {
       if (i + 1 === data.length) {
-        filterString += `${element.toLowerCase().replace(/&amp/gi, "").replace(regex, "-")}`;
+        filterString += `${element
+          .toLowerCase()
+          .replace(/&amp/gi, "")
+          .replace(regex, "-")}`;
       } else {
-        filterString += `${element.toLowerCase().replace(/&amp/gi, "").replace(regex, "-")} `;
+        filterString += `${element
+          .toLowerCase()
+          .replace(/&amp/gi, "")
+          .replace(regex, "-")} `;
       }
     });
   } else {
@@ -168,13 +174,13 @@ function createModalContent(tingleModalData) {
   modalHtml += "<div class='info-modal'>";
   modalHtml += '<img class="headshot" src="' + tingleModalData.img + '" />';
   modalHtml += "<div class='credits-modal'>";
-  if (tingleModalData.name !== '') {
+  if (tingleModalData.name !== "") {
     modalHtml += "<h1>" + tingleModalData.name + "</h1>";
   }
-  if (tingleModalData.position !== '') {
+  if (tingleModalData.position !== "") {
     modalHtml += "<h2>" + tingleModalData.position + "</h2>";
   }
-  if (tingleModalData.company !== '') {
+  if (tingleModalData.company !== "") {
     modalHtml +=
       '<a class="company-link" href="' +
       tingleModalData["company-link"] +
@@ -185,26 +191,26 @@ function createModalContent(tingleModalData) {
   modalHtml += "</div>";
   modalHtml += "</div>";
   modalHtml += "<div class='bio-modal'>";
-  if (tingleModalData.content !== '') {
+  if (tingleModalData.content !== "") {
     modalHtml += "<p>" + tingleModalData.content + "</p>";
   }
   modalHtml += "</div>";
   modalHtml += "<div class='details-modal'>";
   modalHtml += "<div class='social-modal'>";
 
-  if (tingleModalData.twitter !== '') {
+  if (tingleModalData.twitter !== "") {
     modalHtml +=
       '<a class="twitter-link" href="' +
       tingleModalData["twitter"] +
       '" target="_blank"></a>';
   }
-  if (tingleModalData.linkedin !== '') {
+  if (tingleModalData.linkedin !== "") {
     modalHtml +=
       '<a class="linkedin-link" href="' +
       tingleModalData["linkedin"] +
       '" target="_blank"></a>';
   }
-  if (tingleModalData.flag !== '') {
+  if (tingleModalData.flag !== "") {
     modalHtml += `<img class="flag"  src="${tingleModalData.flag}"/>`;
   }
   modalHtml += "</div>";
@@ -260,38 +266,39 @@ function initModal() {
   });
 }
 
-function scrollToView(){
-  const element =  $("#app .grid-item:visible:first").get(0);
-  const headerOffset = 88 + $(".filters-container").parent().height();  const elementPosition = element.getBoundingClientRect().top;
+function scrollToView() {
+  const element = $("#app .grid-item:visible:first").get(0);
+  const headerOffset = 88 + $(".filters-container").parent().height();
+  const elementPosition = element.getBoundingClientRect().top;
   const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
 
   window.scrollTo({
-       top: offsetPosition,
-       behavior: "instant"
+    top: offsetPosition,
+    behavior: "instant",
   });
 }
 
-function initChips(){
-  $('.chip-domain').each(function (index) {
+function initChips() {
+  $(".chip-domain").each(function (index) {
     $(this).bind("click", (e) => {
-      const anchorClass =  createClassFilter($(this).text());
+      const anchorClass = createClassFilter($(this).text());
       const domainElt = $("#filterDomain");
-      if(domainElt.val() === "*" || domainElt.val() !== anchorClass ){
+      if (domainElt.val() === "*" || domainElt.val() !== anchorClass) {
         domainElt.val(anchorClass).change();
       } else {
-        domainElt.val('*').change();
+        domainElt.val("*").change();
       }
     });
   });
 }
 
-function highlightChips(){
-  $('.chip-domain').each(function (index) {
-    const anchorClass =  createClassFilter($(this).text());
-    if($("#filterDomain").val() === anchorClass){
-      $(this).addClass('active')
+function highlightChips() {
+  $(".chip-domain").each(function (index) {
+    const anchorClass = createClassFilter($(this).text());
+    if ($("#filterDomain").val() === anchorClass) {
+      $(this).addClass("active");
     } else {
-      $(this).removeClass('active')
+      $(this).removeClass("active");
     }
   });
 }
@@ -472,26 +479,27 @@ document.addEventListener("html-included", () => {
   $("#filteredCompanies").text(window.modalData.length);
   horizontalScroll();
   smoothScroll();
-    $("#app").css("visibility", "visible");
-    if (init) {
-      return;
-    }
-    init = true;
-    initSelect();
-    initChips();
-    initModal();
-    filterToggle();
-    // Isotope istantiation
-    // Relies on unpkg.com/imagesloaded
-    var count = 0;
-    $('#app').imagesLoaded()
-    .always( function( instance ) {
-      msnry.arrange({ sortBy: "original-order" })
+  $("#app").css("visibility", "visible");
+  if (init) {
+    return;
+  }
+  init = true;
+  initSelect();
+  initChips();
+  initModal();
+  filterToggle();
+  // Isotope istantiation
+  // Relies on unpkg.com/imagesloaded
+  var count = 0;
+  $("#app")
+    .imagesLoaded()
+    .always(function (instance) {
+      msnry.arrange({ sortBy: "original-order" });
     })
-    .progress( function( instance, image ) {
-        count++;
-        if ( count % 12 === 0){
-          msnry.arrange({ sortBy: "original-order" });
-        }
+    .progress(function (instance, image) {
+      count++;
+      if (count % 12 === 0) {
+        msnry.arrange({ sortBy: "original-order" });
+      }
     });
 });
