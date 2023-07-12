@@ -742,11 +742,13 @@ position: absolute;
 
 document.addEventListener("DOMContentLoaded", () => {
     function myCallback() {
-        // code that has to wait goes here
-        initClose();
+        const event = new Event("html-included");
+        document.dispatchEvent(event);
     }
     w3.includeHTML(myCallback);
 });
+
+document.addEventListener("html-included", (e) => {initClose();}, false);
 
   
 </script></div>
