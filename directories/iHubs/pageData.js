@@ -3,6 +3,7 @@ var departments = [];
 var titles = ['Advanced', 'Basic', 'Incubated', 'Premium', 'Standard'];
 var domains = [
     'AgriFood',
+    'Agrifood',
     'Cities',
     'Community',
     'eGovernance',
@@ -16,7 +17,9 @@ var domains = [
     'Safety and Security',
     'Space',
     'Sustainability',
+    'Territory',
     'Tourism',
+    'Villages',
     'Water'
 ];
 var countries = [
