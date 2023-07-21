@@ -30,7 +30,8 @@ var pageData = [
     {
         company: 'Breeze Technologies',
         name: 'Breeze Air Quality Sensors',
-        img: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_BreezeTechnologies.svg',
+        img:
+            'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_BreezeTechnologies.svg',
         fiwareMember: false,
         fiwareIhub: false,
         companyLink: '../product-details/?category=ready&id=breezetechnologies-breezeairqualitysensors',
@@ -790,7 +791,8 @@ var pageData = [
     {
         company: 'Ventum Innovacion',
         name: 'Gavilán Control',
-        img: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_GavillanControl.svg',
+        img:
+            'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_GavillanControl.svg',
         fiwareMember: false,
         fiwareIhub: false,
         companyLink: '../product-details/?category=ready&id=ventuminnovacion-gaviláncontrol',
@@ -846,7 +848,8 @@ var pageData = [
     {
         company: 'XapiX',
         name: 'Xapix',
-        img: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/raster/logo_Xapix.png',
+        img:
+            'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/raster/logo_Xapix.png',
         fiwareMember: false,
         fiwareIhub: false,
         companyLink: '../product-details/?category=ready&id=xapix-xapix',
@@ -894,7 +897,8 @@ var pageData = [
     {
         company: 'EDAG Engineering GmbH',
         name: 'trive.park',
-        img: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/raster/logo_TrivePark.png',
+        img:
+            'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/raster/logo_TrivePark.png',
         fiwareMember: false,
         fiwareIhub: false,
         companyLink: '../product-details/?category=ready&id=edagengineeringgmbh-trivepark',
@@ -967,5 +971,19 @@ var pageData = [
         year: 2023,
         content:
             'uRAD Smart Traffic Compact is a Smart Cities specific radar solution for non-invasive traffic monitoring in urban and interurban environments'
+    },
+    {
+        company: 'ATOS',
+        name: 'Bike Availability Forecast Service',
+        img: 'https://www.fiware.org/wp-content/uploads/17225a268f2066f3f92b13aee0f56f17.png',
+        fiwareMember: true,
+        fiwareIhub: true,
+        companyLink: '../product-details/?category=ready&id=atos-bikeavailabilityforecastservice',
+        domain: ['Automotive', 'Cities', 'Government', 'Mobility', 'Transport'],
+        type: 'Software Enabler',
+        technology: ['Internet of Things', 'Mobility and Location', 'Sensory Systems'],
+        year: 2023,
+        content:
+            'Bike availability prediction model for bike-sharing systems using historical data to optimize fleet management and improve user experience.'
     }
 ];
