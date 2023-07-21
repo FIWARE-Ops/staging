@@ -975,7 +975,7 @@ var pageData = [
     {
         company: 'ATOS',
         name: 'Bike Availability Forecast Service',
-        img: 'https://www.fiware.org/wp-content/uploads/17225a268f2066f3f92b13aee0f56f17.png',
+        img: 'https://www.fiware.org/wp-content/uploads/347206f0386cb72b1ee40ee161aa3d50.png',
         fiwareMember: true,
         fiwareIhub: true,
         companyLink: '../product-details/?category=ready&id=atos-bikeavailabilityforecastservice',
