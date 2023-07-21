@@ -8744,7 +8744,7 @@ var pageData = {
             challenge:
                 '<p>As cities embrace the concept of smart cities, the bike availability prediction service plays a vital role in addressing the challenges and needs of urban mobility. One of the key challenges is optimizing the utilization of bike-sharing systems within the broader transportation ecosystem. By accurately forecasting bike availability, the service enables better coordination with other modes of transport, such as buses, trains, and ride-sharing services, fostering a seamless and integrated transportation network.</p> <p>Another challenge lies in ensuring equitable access to bike-sharing services across different neighborhoods and communities. The prediction model can assist in identifying areas with higher demand and lower bike availability, allowing for targeted interventions and resource allocation to promote inclusivity and accessibility.</p>',
             references:
-                '<p><a href="https://www.imec-int.com/en" title="imec">imec</a> <a href="https://imredd.fr/en/home/" title="IMREDD">IMREDD</a> <a href="https://www.murcia.es/web/portal/inicio" title="Ayuntamiento de Murcia">Ayuntamiento de Murcia</a></p>',
+                '<ul> <li><a href="https://www.imec-int.com/en" title="imec">imec</a></li> <li><a href="https://imredd.fr/en/home/" title="IMREDD">IMREDD</a></li> <li><a href="https://www.murcia.es/web/portal/inicio" title="Ayuntamiento de Murcia">Ayuntamiento de Murcia</a></li> </ul>',
             awards: '',
             technologies: [
                 'Artificial Intelligence',
