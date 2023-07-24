@@ -456,6 +456,10 @@ function horizontalScroll() {
 }
 
 document.addEventListener("html-included", () => {
+  if (init) {
+    return;
+  }
+  init = true;
   $("#filteredCompanies").text(window.modalData.length);
   horizontalScroll();
   smoothScroll();
