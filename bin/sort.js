@@ -3,7 +3,7 @@ const _ = require('underscore');
 /**
  *  Sort order all lower case
  */
-const caseInsensitive = function(i) {
+const caseInsensitive = function (i) {
     return i ? i.toLowerCase() : '';
 };
 
@@ -13,7 +13,7 @@ const caseInsensitive = function(i) {
 function sortData(input, attr) {
     return _.sortBy(
         _.uniq(
-            _.map(input, function(el) {
+            _.map(input, function (el) {
                 return el[attr] ? el[attr] : '';
             })
         ),
@@ -28,7 +28,7 @@ function flatSortData(input, attr) {
     return _.sortBy(
         _.uniq(
             _.flatten(
-                _.map(input, function(el) {
+                _.map(input, function (el) {
                     return el[attr] ? el[attr] : '';
                 })
             )

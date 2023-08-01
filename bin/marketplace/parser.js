@@ -169,11 +169,7 @@ function extractSummaryInfo(input, details) {
             obj.technology = item['Technologies'];
             obj.year = parseInt(item['Certified in']);
             obj.content = item['Excerpt']
-                ? item['Excerpt']
-                      .replace(regEx, replaceMask)
-                      .replaceAll(/\r\n/g, ' ')
-                      .replaceAll(/\n/g, ' ')
-                      .trim()
+                ? item['Excerpt'].replace(regEx, replaceMask).replaceAll(/\r\n/g, ' ').replaceAll(/\n/g, ' ').trim()
                 : '';
 
             if (item['Category'] === 'Powered by FIWARE') {

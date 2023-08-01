@@ -45,18 +45,12 @@ function getLinkArray(fields, title, item) {
  */
 function markdown(text) {
     const html = text !== '' ? converter.makeHtml(text.replaceAll(/•/g, '\n*').replaceAll(/\'/g, "'")) : '';
-    return html
-        .replaceAll(/\r\n/g, ' ')
-        .replaceAll(/\n/g, ' ')
-        .replaceAll(/\\'/g, "'");
+    return html.replaceAll(/\r\n/g, ' ').replaceAll(/\n/g, ' ').replaceAll(/\\'/g, "'");
 }
 
 function richMarkdown(text) {
     const html = text !== '' ? converter.makeHtml(text.replaceAll(/•/g, '\n*').replaceAll(/\'/g, "'")) : '';
-    return html
-        .replaceAll(/\r\n/g, ' ')
-        .replaceAll(/\n/g, ' ')
-        .replaceAll(/\"/g, "'");
+    return html.replaceAll(/\r\n/g, ' ').replaceAll(/\n/g, ' ').replaceAll(/\"/g, "'");
 }
 
 /**
