@@ -16,7 +16,8 @@ var pageData = [
     {
         company: 'BallistiX',
         name: 'BallistiX',
-        img: 'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_BallistixDigital.svg',
+        img:
+            'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_BallistixDigital.svg',
         fiwareMember: false,
         fiwareIhub: false,
         companyLink: '../product-details/?category=services&id=ballistix-ballistix',
@@ -58,7 +59,8 @@ var pageData = [
     {
         company: 'eProsima',
         name: 'eProsima',
-        img: 'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Eprosima.svg',
+        img:
+            'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Eprosima.svg',
         fiwareMember: true,
         fiwareIhub: false,
         companyLink: '../product-details/?category=services&id=eprosima-eprosima',
@@ -72,7 +74,8 @@ var pageData = [
     {
         company: 'Faubourg Numérique',
         name: 'FIWARE iHub',
-        img: 'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_FaubourgNume%CC%81rique.svg',
+        img:
+            'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_FaubourgNume%CC%81rique.svg',
         fiwareMember: false,
         fiwareIhub: true,
         companyLink: '../product-details/?category=services&id=faubourgnumérique-fiwareihub',
@@ -100,7 +103,8 @@ var pageData = [
     {
         company: 'FiiHUB Canary Island',
         name: 'FiiHUB Academy',
-        img: 'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Ficodes.svg',
+        img:
+            'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Ficodes.svg',
         fiwareMember: false,
         fiwareIhub: true,
         companyLink: '../product-details/?category=services&id=fiihubcanaryisland-fiihubacademy',
@@ -128,7 +132,8 @@ var pageData = [
     {
         company: 'FIWARE Innova iHub',
         name: 'Consultancy & Integration Services',
-        img: 'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_FIWAREInnovaiHub.svg',
+        img:
+            'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_FIWAREInnovaiHub.svg',
         fiwareMember: false,
         fiwareIhub: true,
         companyLink: '../product-details/?category=services&id=fiwareinnovaihub-consultancyintegrationservices',
@@ -142,7 +147,8 @@ var pageData = [
     {
         company: 'FIWARE Innova iHub',
         name: 'Coaching & Training Services',
-        img: 'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_FIWAREInnovaiHub.svg',
+        img:
+            'https://www.fiware.org/style/imgs/Marketplace/product/services/training-coaching/logo_FIWAREInnovaiHub.svg',
         fiwareMember: false,
         fiwareIhub: true,
         companyLink: '../product-details/?category=services&id=fiwareinnovaihub-coachingtrainingservices',
@@ -212,7 +218,8 @@ var pageData = [
     {
         company: 'Future Internet',
         name: 'Consultancy & Integration Services',
-        img: 'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_FIWAREZone.svg',
+        img:
+            'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_FIWAREZone.svg',
         fiwareMember: false,
         fiwareIhub: false,
         companyLink: '../product-details/?category=services&id=futureinternet-consultancyintegrationservices',
@@ -254,7 +261,8 @@ var pageData = [
     {
         company: 'Martel Innovate',
         name: 'Martel Lab',
-        img: 'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Martel.svg',
+        img:
+            'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Martel.svg',
         fiwareMember: true,
         fiwareIhub: false,
         companyLink: '../product-details/?category=services&id=martelinnovate-martellab',
@@ -302,7 +310,8 @@ var pageData = [
     {
         company: 'Naeva Tec',
         name: 'FIWARE Consultancy',
-        img: 'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_NaevaTec.svg',
+        img:
+            'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_NaevaTec.svg',
         fiwareMember: true,
         fiwareIhub: false,
         companyLink: '../product-details/?category=services&id=naevatec-fiwareconsultancy',
@@ -323,7 +332,8 @@ var pageData = [
     {
         company: 'Secmotic',
         name: 'IoT Development',
-        img: 'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Secmotic.svg',
+        img:
+            'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Secmotic.svg',
         fiwareMember: true,
         fiwareIhub: false,
         companyLink: '../product-details/?category=services&id=secmotic-iotdevelopment',
@@ -337,7 +347,8 @@ var pageData = [
     {
         company: 'Snap4City',
         name: 'Consultancy & Integration Services',
-        img: 'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Snap4City.svg',
+        img:
+            'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Snap4City.svg',
         fiwareMember: true,
         fiwareIhub: false,
         companyLink: '../product-details/?category=services&id=snap4city-consultancyintegrationservices',
@@ -377,7 +388,8 @@ var pageData = [
     {
         company: 'StoneOne',
         name: 'StoneOne Services',
-        img: 'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_StoneOne.svg',
+        img:
+            'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_StoneOne.svg',
         fiwareMember: true,
         fiwareIhub: false,
         companyLink: '../product-details/?category=services&id=stoneone-stoneoneservices',
@@ -391,7 +403,8 @@ var pageData = [
     {
         company: 'TeamDev',
         name: 'FIWARE Professional Services',
-        img: 'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_TeamDev.svg',
+        img:
+            'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_TeamDev.svg',
         fiwareMember: true,
         fiwareIhub: false,
         companyLink: '../product-details/?category=services&id=teamdev-fiwareprofessionalservices',
@@ -411,7 +424,8 @@ var pageData = [
     {
         company: 'Ubiwhere',
         name: 'FIWARE @ UBIWHERE',
-        img: 'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Ubiwhere.svg',
+        img:
+            'https://www.fiware.org/style/imgs/Marketplace/product/services/consultancy-and-integration/logo_Ubiwhere.svg',
         fiwareMember: true,
         fiwareIhub: false,
         companyLink: '../product-details/?category=services&id=ubiwhere-fiwareubiwhere',

@@ -30,7 +30,8 @@ var pageData = [
     {
         company: 'Breeze Technologies',
         name: 'Breeze Air Quality Sensors',
-        img: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_BreezeTechnologies.svg',
+        img:
+            'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_BreezeTechnologies.svg',
         fiwareMember: false,
         fiwareIhub: false,
         companyLink: '../product-details/?category=ready&id=breezetechnologies-breezeairqualitysensors',
@@ -790,7 +791,8 @@ var pageData = [
     {
         company: 'Ventum Innovacion',
         name: 'Gavilán Control',
-        img: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_GavillanControl.svg',
+        img:
+            'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_GavillanControl.svg',
         fiwareMember: false,
         fiwareIhub: false,
         companyLink: '../product-details/?category=ready&id=ventuminnovacion-gaviláncontrol',
@@ -846,7 +848,8 @@ var pageData = [
     {
         company: 'XapiX',
         name: 'Xapix',
-        img: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/raster/logo_Xapix.png',
+        img:
+            'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/raster/logo_Xapix.png',
         fiwareMember: false,
         fiwareIhub: false,
         companyLink: '../product-details/?category=ready&id=xapix-xapix',
@@ -894,7 +897,8 @@ var pageData = [
     {
         company: 'EDAG Engineering GmbH',
         name: 'trive.park',
-        img: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/raster/logo_TrivePark.png',
+        img:
+            'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/raster/logo_TrivePark.png',
         fiwareMember: false,
         fiwareIhub: false,
         companyLink: '../product-details/?category=ready&id=edagengineeringgmbh-trivepark',
@@ -981,5 +985,19 @@ var pageData = [
         year: 2023,
         content:
             'Bike availability prediction model for bike-sharing systems using historical data to optimize fleet management and improve user experience.'
+    },
+    {
+        company: 'Libelium',
+        name: 'Smart Parking',
+        img: 'https://www.fiware.org/wp-content/uploads/8b0b1f2be79fcffe96bdc69a8db5b29c.jpg',
+        fiwareMember: true,
+        fiwareIhub: false,
+        companyLink: '../product-details/?category=ready&id=libelium-smartparking',
+        domain: ['Cities', 'Green Deal', 'Transport'],
+        type: 'Software Enabler',
+        technology: ['Internet of Things', 'Mobility and Location'],
+        year: 2023,
+        content:
+            'Smart Parking Sensor technology is a radar sensor device that allows the detection of parking availability indoors and outdoors. Libelium Smart Parking benefits from 2 different detection systems: Radar and Magnetic. Greater precision, improved detection and stability performance: 99% accuracy.'
     }
 ];
