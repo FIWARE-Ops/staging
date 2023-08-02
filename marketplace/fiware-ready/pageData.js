@@ -989,7 +989,7 @@ var pageData = [
     {
         company: 'Libelium',
         name: 'Smart Parking',
-        img: 'https://www.fiware.org/wp-content/uploads/8b0b1f2be79fcffe96bdc69a8db5b29c.jpg',
+        img: 'https://www.fiware.org/wp-content/uploads/f5ea8d844b4fedae47a783a6a122d591.png',
         fiwareMember: true,
         fiwareIhub: false,
         companyLink: '../product-details/?category=ready&id=libelium-smartparking',

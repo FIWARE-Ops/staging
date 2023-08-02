@@ -8837,7 +8837,7 @@ var pageData = {
             docs: [],
             videos: [],
             materials: [],
-            logo: 'https://www.fiware.org/wp-content/uploads/8b0b1f2be79fcffe96bdc69a8db5b29c.jpg',
+            logo: 'https://www.fiware.org/wp-content/uploads/f5ea8d844b4fedae47a783a6a122d591.png',
             featuredImage: 'https://www.fiware.org/wp-content/uploads/e196bfeb4628f5eab36430d6ba5b5535.png',
             furtherImages: '',
             related: [
