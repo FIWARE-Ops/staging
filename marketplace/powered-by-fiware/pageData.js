@@ -152,7 +152,8 @@ var pageData = [
     {
         company: 'BOOKINGABUS',
         name: 'Bookingabus.com',
-        img: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_BookingABus.png',
+        img:
+            'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_BookingABus.png',
         fiwareMember: false,
         fiwareIhub: false,
         companyLink: '../product-details/?category=powered&id=bookingabus-bookingabuscom',
@@ -180,7 +181,8 @@ var pageData = [
     {
         company: 'Breeze Technologies',
         name: 'Breeze Environmental Intelligence Cloud',
-        img: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_BreezeTechnologies.svg',
+        img:
+            'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_BreezeTechnologies.svg',
         fiwareMember: false,
         fiwareIhub: false,
         companyLink: '../product-details/?category=powered&id=breezetechnologies-breezeenvironmentalintelligencecloud',
@@ -194,7 +196,8 @@ var pageData = [
     {
         company: 'Breeze Technologies',
         name: 'Environmental Intelligence Suite',
-        img: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_BreezeTechnologies.svg',
+        img:
+            'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_BreezeTechnologies.svg',
         fiwareMember: false,
         fiwareIhub: false,
         companyLink: '../product-details/?category=powered&id=breezetechnologies-environmentalintelligencesuite',
@@ -278,7 +281,8 @@ var pageData = [
     {
         company: 'Connect Robotics',
         name: 'Drone 2 Me',
-        img: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_ConnectRobotics.svg',
+        img:
+            'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_ConnectRobotics.svg',
         fiwareMember: false,
         fiwareIhub: false,
         companyLink: '../product-details/?category=powered&id=connectrobotics-drone2me',
@@ -515,7 +519,8 @@ var pageData = [
     {
         company: 'Future Intelligence',
         name: 'QUHOMA',
-        img: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_FutureIntelligence.svg',
+        img:
+            'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_FutureIntelligence.svg',
         fiwareMember: true,
         fiwareIhub: false,
         companyLink: '../product-details/?category=powered&id=futureintelligence-quhoma',
@@ -673,7 +678,8 @@ var pageData = [
     {
         company: 'Martel Innovate',
         name: 'Orchestra Cities',
-        img: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_OrchestraCities.svg',
+        img:
+            'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_OrchestraCities.svg',
         fiwareMember: true,
         fiwareIhub: false,
         companyLink: '../product-details/?category=powered&id=martelinnovate-orchestracities',
@@ -894,7 +900,8 @@ var pageData = [
     {
         company: 'Second Nature',
         name: 'OurPath',
-        img: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_SecondNature.png',
+        img:
+            'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/raster/logo_SecondNature.png',
         fiwareMember: false,
         fiwareIhub: false,
         companyLink: '../product-details/?category=powered&id=secondnature-ourpath',

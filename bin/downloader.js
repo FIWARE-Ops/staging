@@ -56,7 +56,7 @@ function fetch(url) {
 function downloadFile(file, url) {
     return new Promise((resolve, reject) => {
         fetch(url).then((data) => {
-            fs.writeFile(file, data, function (err) {
+            fs.writeFile(file, data, function(err) {
                 return err ? reject(err) : resolve();
             });
         });
@@ -109,7 +109,7 @@ function downloadImages(image) {
             .image(options)
             .then(({ filename }) => {
                 try {
-                    sizeOf(filename, function (err, dimensions) {
+                    sizeOf(filename, function(err, dimensions) {
                         const height = dimensions ? dimensions.height : '???';
                         const width = dimensions ? dimensions.width : '???';
                         resolve(file + '\t' + height + '\t' + width);

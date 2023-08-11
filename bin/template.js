@@ -45,7 +45,7 @@ function createClass(data) {
  * input array
  */
 function createClasses(data) {
-    return _.map(data, function (el) {
+    return _.map(data, function(el) {
         return createClass(el);
     }).join(' ');
 }
@@ -99,14 +99,14 @@ Handlebars.registerHelper({
  * Output strucuted data using a Handlebars template file
  */
 function write(filename, template, input) {
-    readTemplate(template, function (err, data) {
+    readTemplate(template, function(err, data) {
         if (!err) {
             const template = Handlebars.compile(data);
 
             const output = template(input);
 
             fs.ensureFileSync(filename);
-            fs.writeFile(filename, output, function (err) {
+            fs.writeFile(filename, output, function(err) {
                 if (err) return console.log(err);
             });
         } else {
