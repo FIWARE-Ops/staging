@@ -13,23 +13,23 @@
   "scripts": {
     "lint": "eslint . --cache --fix",
     "start": "node ./bin/app",
-    "prettier": "prettier --parser flow --single-quote --write **/**/*.js  **/*.js; prettier --parser html --write **/**/*.html  **/*.html",
-    "people": "PROCESS=people PAGE=team npm start && npm run prettier",
-    "bod": "PROCESS=people PAGE=bod npm start && npm run prettier",
-    "boo": "PROCESS=people PAGE=boo npm start && npm run prettier",
-    "experts": "PROCESS=people PAGE=experts npm start && npm run prettier",
-    "evangelists": "PROCESS=people PAGE=evangelists npm start && npm run prettier",
-    "fisab": "PROCESS=people PAGE=fisab npm start && npm run prettier",
-    "enablers": "PROCESS=enablers npm start && npm run prettier",
-    "ihubs": "PROCESS=iHubs npm start && npm run prettier",
-    "iHubs": "PROCESS=iHubs npm start && npm run prettier",
-    "organisations": "PROCESS=organisations npm start && npm run prettier",
-    "msc": "PROCESS=people PAGE=msc npm start && npm run prettier",
-    "speakers": "PROCESS=people PAGE=speakers npm start && npm run prettier",
-    "team": "PROCESS=people PAGE=team npm start && npm run prettier",
-    "tsc": "PROCESS=people PAGE=tsc npm start && npm run prettier",
-    "webinars": "PROCESS=webinars npm start && npm run prettier",
-    "marketplace": "PROCESS=products npm start && npm run prettier",
+    "prettier": "prettier --single-quote --write **/**/*.js  **/*.js && prettier --parser html --write **/**/*.html  **/*.html",
+    "people": "PROCESS=people PAGE=team npm start",
+    "bod": "PROCESS=people PAGE=bod npm start",
+    "boo": "PROCESS=people PAGE=boo npm start",
+    "experts": "PROCESS=people PAGE=experts npm start",
+    "evangelists": "PROCESS=people PAGE=evangelists npm start",
+    "fisab": "PROCESS=people PAGE=fisab npm start",
+    "enablers": "PROCESS=enablers npm start",
+    "ihubs": "PROCESS=iHubs npm start",
+    "iHubs": "PROCESS=iHubs npm start",
+    "organisations": "PROCESS=organisations npm start",
+    "msc": "PROCESS=people PAGE=msc npm start",
+    "speakers": "PROCESS=people PAGE=speakers npm start",
+    "team": "PROCESS=people PAGE=team npm start npm run",
+    "tsc": "PROCESS=people PAGE=tsc npm start",
+    "webinars": "PROCESS=webinars npm start",
+    "marketplace": "PROCESS=products npm start",
     "postinstall": "PROCESS=postinstall npm start"
   },
   "dependencies": {
@@ -42,6 +42,7 @@
     "image-size": "^1.0.2",
     "jsdom": "^20.0.0",
     "json-schema-ref-parser": "^9.0.1",
+    "prettier": "3.0.1",
     "showdown": "^2.1.0",
     "underscore": "^1.13.4",
     "yargs": "^15.3.1"
@@ -49,8 +50,7 @@
   "devDependencies": {
     "eslint": "^5.3.0",
     "eslint-config-tamia": "^6.0.1",
-    "eslint-plugin-prettier": "^2.6.2",
-    "prettier": "2.7.1"
+    "eslint-plugin-prettier": "^2.6.2"
   },
   "keywords": []
 }

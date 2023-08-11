@@ -1,6 +1,7 @@
 const csv = require('csvtojson');
 const path = require('path');
 
+const Prettier = require('prettier');
 const Static = require('./staticData');
 const Parser = require('../dataParser');
 const Sorter = require('../sort');
@@ -66,9 +67,13 @@ function parse(file) {
                 webinars
             };
 
-            Template.write(path.join(WEBINARS_DIR, 'enablers.html'), path.join(TEMPLATE_PATH, 'card.hbs'), webinars);
+            Template.write(path.join(WEBINARS_DIR, 'webinars.html'), path.join(TEMPLATE_PATH, 'card.hbs'), webinars);
             Template.write(path.join(WEBINARS_DIR, 'pageData.js'), path.join(TEMPLATE_PATH, 'modal.hbs'), filterData);
             Template.write(path.join(WEBINARS_DIR, 'filters.html'), path.join(TEMPLATE_PATH, 'filter.hbs'), filterData);
+
+            Prettier.format(path.join(WEBINARS_DIR, 'webinars.html'), { parser: 'html' });
+            Prettier.format(path.join(WEBINARS_DIR, 'pageData.js'), { parser: 'flow' });
+            Prettier.format(path.join(WEBINARS_DIR, 'filters.html'), { parser: 'html' });
         })
         .catch((e) => {
             console.log(e);

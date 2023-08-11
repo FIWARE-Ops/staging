@@ -1,6 +1,7 @@
 const csv = require('csvtojson');
 const path = require('path');
 
+const Prettier = require('prettier');
 const Parser = require('../dataParser');
 const Sorter = require('../sort');
 const Template = require('../template');
@@ -72,6 +73,10 @@ function parse(file) {
             Template.write(path.join(IHUBS_DIR, 'iHubs.html'), path.join(TEMPLATE_PATH, 'card.hbs'), iHubs);
             Template.write(path.join(IHUBS_DIR, 'pageData.js'), path.join(TEMPLATE_PATH, 'modal.hbs'), filterData);
             Template.write(path.join(IHUBS_DIR, 'filters.html'), path.join(TEMPLATE_PATH, 'filter.hbs'), filterData);
+
+            Prettier.format(path.join(IHUBS_DIR, 'iHubs.html'), { parser: 'html' });
+            Prettier.format(path.join(IHUBS_DIR, 'pageData.js'), { parser: 'flow' });
+            Prettier.format(path.join(IHUBS_DIR, 'filters.html'), { parser: 'html' });
         })
         .catch((e) => {
             console.log(e);

@@ -1,5 +1,6 @@
 const csv = require('csvtojson');
 const path = require('path');
+const Prettier = require('prettier');
 
 const Static = require('./staticData');
 const Parser = require('../dataParser');
@@ -74,6 +75,10 @@ function parse(file) {
             Template.write(path.join(ENABLERS_DIR, 'enablers.html'), path.join(TEMPLATE_PATH, 'card.hbs'), enablers);
             Template.write(path.join(ENABLERS_DIR, 'pageData.js'), path.join(TEMPLATE_PATH, 'modal.hbs'), filterData);
             Template.write(path.join(ENABLERS_DIR, 'filters.html'), path.join(TEMPLATE_PATH, 'filter.hbs'), filterData);
+
+            Prettier.format(path.join(ENABLERS_DIR, 'enablers.html'), { parser: 'html' });
+            Prettier.format(path.join(ENABLERS_DIR, 'pageData.js'), { parser: 'flow' });
+            Prettier.format(path.join(ENABLERS_DIR, 'filters.html'), { parser: 'html' });
         })
         .catch((e) => {
             console.log(e);

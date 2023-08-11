@@ -1,6 +1,7 @@
 const csv = require('csvtojson');
 
 const path = require('path');
+const Prettier = require('prettier');
 const Parser = require('../dataParser');
 const Sorter = require('../sort');
 const Template = require('../template');
@@ -103,6 +104,10 @@ function parse(file, page) {
                 path.join(TEMPLATE_PATH, 'filter.hbs'),
                 filterData
             );
+
+            Prettier.format(path.join(PEOPLE_DIR, page, 'people.html'), { parser: 'html' });
+            Prettier.format(path.join(PEOPLE_DIR, page, 'pageData.js'), { parser: 'flow' });
+            Prettier.format(path.join(PEOPLE_DIR, page, 'filters.html'), { parser: 'html' });
         })
         .catch((e) => {
             console.log(e);

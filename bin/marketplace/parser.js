@@ -1,5 +1,6 @@
 const csv = require('csvtojson');
 const _ = require('underscore');
+const Prettier = require('prettier');
 const Downloader = require('../downloader');
 const Parser = require('../dataParser');
 const Template = require('../template');
@@ -294,6 +295,7 @@ function parse(detailsFile, summaryFile, processRun) {
                             path.join(TEMPLATE_PATH, 'modal.hbs'),
                             summaryInfo.powered
                         );
+                        Prettier.format('marketplace/powered-by-fiware/pageData.js', { parser: 'flow' });
                         console.log('');
                         console.log(summaryInfo.powered.length + ' Products');
                     }
@@ -307,6 +309,7 @@ function parse(detailsFile, summaryFile, processRun) {
                             path.join(TEMPLATE_PATH, 'modal.hbs'),
                             summaryInfo.ready
                         );
+                        Prettier.format('marketplace/fiware-ready/pageData.js', { parser: 'flow' });
 
                         console.log(summaryInfo.ready.length + ' Devices');
                     }
@@ -320,6 +323,7 @@ function parse(detailsFile, summaryFile, processRun) {
                             path.join(TEMPLATE_PATH, 'modal.hbs'),
                             summaryInfo.services
                         );
+                        Prettier.format('marketplace/support-services/pageData.js', { parser: 'flow' });
                         console.log(summaryInfo.services.length + ' Services');
                     }
 
@@ -332,6 +336,7 @@ function parse(detailsFile, summaryFile, processRun) {
                             path.join(TEMPLATE_PATH, 'modal.hbs'),
                             summaryInfo.cities
                         );
+                        Prettier.format('marketplace/cities4cities/pageData.js', { parser: 'flow' });
                         console.log(summaryInfo.cities.length + ' Cities');
                     }
 
@@ -340,6 +345,7 @@ function parse(detailsFile, summaryFile, processRun) {
                         path.join(TEMPLATE_PATH, 'productDetails.hbs'),
                         productDetails.details
                     );
+                    Prettier.format('marketplace/product-details/pageData.js', { parser: 'flow' });
 
                     const featured = extractFeatured(summaryInfo);
                     Template.write(
@@ -347,6 +353,7 @@ function parse(detailsFile, summaryFile, processRun) {
                         path.join(TEMPLATE_PATH, 'featured.hbs'),
                         featured
                     );
+                    Prettier.format('marketplace/product-details/featured.html', { parser: 'html' });
                 });
         })
         .then(() => {
