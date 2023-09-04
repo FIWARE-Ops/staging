@@ -1,4 +1,4 @@
-window.pageData = [
+var pageData = [
     {
         company: 'Atos',
         name: 'Connected Territories',
@@ -423,3 +423,5 @@ window.pageData = [
             'Ubiwhere’s offer includes systems for Smart Parking and Traffic Management, Smart Waste Management, Smart Environmental Monitoring, Smart Vending and Smart Card, along with its City Control Center, which allows for centralised management of the city’s ecosystem.'
     }
 ];
+
+loadProducts();

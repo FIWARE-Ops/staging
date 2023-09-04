@@ -939,61 +939,7 @@ var pageData = [
         year: 2022,
         content:
             'Software for human resources management, integrated in FIWARE. Lapsowork dumps data in real-time and allows us to obtain statistics associated with entry records, exit records, information on the worker who performs the registration, associated temperature (COVID19 measure)...'
-    },
-    {
-        company: 'NOVALITY',
-        name: 'Bikes and Scooters Smart Locker Parkings',
-        img: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Novality.svg',
-        fiwareMember: false,
-        fiwareIhub: false,
-        companyLink: '../product-details/?category=ready&id=novality-bikesandscooterssmartlockerparkings',
-        domain: ['Cities', 'Manufacturing', 'Mobility', 'Sustainability', 'Telecommunication'],
-        type: 'IoT Device',
-        technology: ['Interaction Technologies', 'Internet of Things', 'Mobility and Location', 'Open Data'],
-        year: 2023,
-        content:
-            'Novality is a smart and secure parking solution for bicycles and scooters with individual lockers managed through an app.  The system knows the occupation of the places in real time and the mobility flows. It is also a multimodal hub where other Smartcities sensors can be installed.'
-    },
-    {
-        company: 'Anteral',
-        name: 'uRAD Smart Traffic Compact',
-        img: 'https://www.fiware.org/wp-content/uploads/17225a268f2066f3f92b13aee0f56f17.png',
-        fiwareMember: false,
-        fiwareIhub: false,
-        companyLink: '../product-details/?category=ready&id=anteral-uradsmarttrafficcompact',
-        domain: ['Automotive', 'Cities', 'Government', 'Mobility', 'Transport'],
-        type: 'IoT Device',
-        technology: ['Internet of Things', 'Mobility and Location', 'Sensory Systems'],
-        year: 2023,
-        content:
-            'uRAD Smart Traffic Compact is a Smart Cities specific radar solution for non-invasive traffic monitoring in urban and interurban environments'
-    },
-    {
-        company: 'ATOS',
-        name: 'Bike Availability Forecast Service',
-        img: 'https://www.fiware.org/wp-content/uploads/347206f0386cb72b1ee40ee161aa3d50.png',
-        fiwareMember: true,
-        fiwareIhub: true,
-        companyLink: '../product-details/?category=ready&id=atos-bikeavailabilityforecastservice',
-        domain: ['Automotive', 'Cities', 'Government', 'Mobility', 'Transport'],
-        type: 'Software Enabler',
-        technology: ['Internet of Things', 'Mobility and Location', 'Sensory Systems'],
-        year: 2023,
-        content:
-            'Bike availability prediction model for bike-sharing systems using historical data to optimize fleet management and improve user experience.'
-    },
-    {
-        company: 'Libelium',
-        name: 'Smart Parking',
-        img: 'https://www.fiware.org/wp-content/uploads/f5ea8d844b4fedae47a783a6a122d591.png',
-        fiwareMember: true,
-        fiwareIhub: false,
-        companyLink: '../product-details/?category=ready&id=libelium-smartparking',
-        domain: ['Cities', 'Green Deal', 'Transport'],
-        type: 'Software Enabler',
-        technology: ['Internet of Things', 'Mobility and Location'],
-        year: 2023,
-        content:
-            'Smart Parking Sensor technology is a radar sensor device that allows the detection of parking availability indoors and outdoors. Libelium Smart Parking benefits from 2 different detection systems: Radar and Magnetic. Greater precision, improved detection and stability performance: 99% accuracy.'
     }
 ];
+
+loadProducts();

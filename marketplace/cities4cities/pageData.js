@@ -1,4 +1,4 @@
-window.pageData = [
+var pageData = [
     {
         company: 'City of Vienna',
         name: 'Smart Data Wien',
@@ -13,3 +13,5 @@ window.pageData = [
         content: 'Urban Data Platform of the City of Vienna'
     }
 ];
+
+loadProducts();
