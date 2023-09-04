@@ -655,13 +655,8 @@ function horizontalScroll() {
 }
 
 
-function initProducts() {
-
-  if (! window.pageData){
-    return setTimeout(initProducts, 5000);
-  }
-
-  window.pageData = shuffle(window.pageData);
+function loadProducts() {
+  pageData = shuffle(pageData);
   horizontalScroll();
   smoothScroll();
   initDropdowns();
@@ -673,8 +668,6 @@ function initProducts() {
       msnry.arrange({ sortBy: 'original-order' });
     });
 }
-
-initProducts();
 
 
 
