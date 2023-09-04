@@ -1,4 +1,4 @@
-var pageData = [
+window.pageData = [
     {
         company: '[ui!] Urban Software',
         name: '[ui!] UrbanPulse',

@@ -1,4 +1,4 @@
-var pageData = [
+window.pageData = [
     {
         company: 'Atos',
         name: 'Connected Territories',

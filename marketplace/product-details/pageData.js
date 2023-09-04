@@ -1,4 +1,4 @@
-var pageData = {
+window.pageData = {
     powered: {
         'uiurbansoftware-uiurbanpulse': {
             category: 'Powered by FIWARE',

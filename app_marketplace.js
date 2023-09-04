@@ -657,11 +657,11 @@ function horizontalScroll() {
 
 function initProducts() {
 
-  if (! pageData){
+  if (! window.pageData){
     return setTimeout(initProducts, 5000);
   }
 
-  pageData = shuffle(pageData);
+  window.pageData = shuffle(window.pageData);
   horizontalScroll();
   smoothScroll();
   initDropdowns();

@@ -1,4 +1,4 @@
-var pageData = [
+window.pageData = [
     {
         company: 'City of Vienna',
         name: 'Smart Data Wien',
