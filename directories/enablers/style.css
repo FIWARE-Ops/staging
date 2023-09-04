@@ -1927,7 +1927,7 @@ input[type="search"]::placeholder {
 }
 
 .stickybar {
-  top: 56px;
+  top: 42px;
   position: fixed !important;
   z-index: 100;
 }
