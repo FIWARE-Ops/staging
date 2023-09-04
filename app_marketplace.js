@@ -654,19 +654,19 @@ function horizontalScroll() {
   });
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-  $(document).ready(function () {
-    pageData = shuffle(pageData);
-    horizontalScroll();
-    smoothScroll();
-    initDropdowns();
-    cardCreation();
-    initCards();
 
-    $('#app')
-      .imagesLoaded()
-      .always(function (instance) {
-        msnry.arrange({ sortBy: 'original-order' });
-      });
-  });
+$(document).ready(function () {
+  pageData = shuffle(pageData);
+  horizontalScroll();
+  smoothScroll();
+  initDropdowns();
+  cardCreation();
+  initCards();
+
+  $('#app')
+    .imagesLoaded()
+    .always(function (instance) {
+      msnry.arrange({ sortBy: 'original-order' });
+    });
 });
+
