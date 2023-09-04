@@ -655,17 +655,26 @@ function horizontalScroll() {
 }
 
 
-//$(document).ready(function () {
-pageData = shuffle(pageData);
-horizontalScroll();
-smoothScroll();
-initDropdowns();
-cardCreation();
-initCards();
+function initProducts() {
 
-$('#app')
-  .imagesLoaded()
-  .always(function (instance) {
-    msnry.arrange({ sortBy: 'original-order' });
-  });
-//
+  if (!pageData){
+    return setTimeout(initProducts, 5000);
+  }
+
+  pageData = shuffle(pageData);
+  horizontalScroll();
+  smoothScroll();
+  initDropdowns();
+  cardCreation();
+  initCards();
+  $('#app')
+    .imagesLoaded()
+    .always(function (instance) {
+      msnry.arrange({ sortBy: 'original-order' });
+    });
+}
+
+initProducts();
+
+
+
