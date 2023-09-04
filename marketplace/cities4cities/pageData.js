@@ -13,3 +13,5 @@ var pageData = [
         content: 'Urban Data Platform of the City of Vienna'
     }
 ];
+
+loadProducts();

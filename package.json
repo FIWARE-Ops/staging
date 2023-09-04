@@ -13,6 +13,7 @@
   "scripts": {
     "lint": "eslint . --cache --fix",
     "start": "node ./bin/app",
+    "pretty-market": "prettier --single-quote --write marketplace/**/*.js  && prettier --parser html --write marketplace/**/*.html",
     "prettier": "prettier --single-quote --write **/**/*.js  **/*.js && prettier --parser html --write **/**/*.html  **/*.html",
     "people": "PROCESS=people PAGE=team npm start",
     "bod": "PROCESS=people PAGE=bod npm start",
@@ -29,20 +30,21 @@
     "team": "PROCESS=people PAGE=team npm start npm run",
     "tsc": "PROCESS=people PAGE=tsc npm start",
     "webinars": "PROCESS=webinars npm start",
-    "marketplace": "PROCESS=products npm start",
+    "marketplace": "PROCESS=products npm start && npm run pretty-market",
     "postinstall": "PROCESS=postinstall npm start"
   },
   "dependencies": {
     "@apidevtools/swagger-parser": "^10.0.2",
+    "@babel/parser": "^7.22.14",
     "csvtojson": "^2.0.10",
     "fs-extra": "^11.1.0",
-    "handlebars": "^4.7.7",
     "got": "~11.8.5",
+    "handlebars": "^4.7.7",
     "image-downloader": "^4.3.0",
     "image-size": "^1.0.2",
     "jsdom": "^20.0.0",
     "json-schema-ref-parser": "^9.0.1",
-    "prettier": "3.0.1",
+    "prettier": "3.0.3",
     "showdown": "^2.1.0",
     "underscore": "^1.13.4",
     "yargs": "^15.3.1"

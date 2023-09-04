@@ -1467,6 +1467,20 @@ var pageData = [
             'ADDIX operates IT platforms based on FIWARE technology and open-source software. These highly capable, customizable Kubernetes-cluster are already in use by regional development organisations and utility companies. ADDIX operates infrastructure in the field of radio link system, fiber, IoT and WLAN.'
     },
     {
+        company: 'Engineering ITS GmbH',
+        name: 'Engineering´s Urban Data Platform',
+        img: 'https://www.fiware.org/wp-content/uploads/f76c024d092fd8d3b56a5fadea08eaa3.png',
+        fiwareMember: true,
+        fiwareIhub: false,
+        companyLink: '../product-details/?category=powered&id=engineeringitsgmbh-engineeringsurbandataplatform',
+        domain: ['Cities'],
+        type: 'Platform',
+        technology: ['Data Spaces', 'Digital Twins', 'Internet of Things', 'Open Data', 'Software as a Service'],
+        year: 2022,
+        content:
+            'Our Urban Data Platform enables the development of a digital ecosystem in which existing data from different systems and applications can be used to build digital service offerings across fields of action. For this, we provide the urban data platform as a service approach.'
+    },
+    {
         company: '426 Code',
         name: 'SmartTown',
         img: 'https://www.fiware.org/wp-content/uploads/9daaee69f97a7d82e4092bd638394ef7.jpg',
@@ -1479,26 +1493,7 @@ var pageData = [
         year: 2023,
         content:
             'SmartTown is a horizontal platform, which includes different verticals that can occur in a population, for its remote management in a centralized way and offers interoperability between the different devices and integrations'
-    },
-    {
-        company: 'DIH Faubourg Numérique',
-        name: 'somware.space',
-        img: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_SOMWarespace.svg',
-        fiwareMember: true,
-        fiwareIhub: true,
-        companyLink: '../product-details/?category=powered&id=dihfaubourgnumérique-somwarespace',
-        domain: ['AgriFood', 'Cities', 'Industry', 'Manufacturing', 'Tourism'],
-        type: 'Solution',
-        technology: [
-            'Data Spaces',
-            'Digital Twins',
-            'Gamification',
-            'Simulation',
-            'Virtual',
-            'Augmented and Extended Reality'
-        ],
-        year: 2023,
-        content:
-            'A piece of the Metaverse fully connected to powered by FIWARE solutions: you can use the somware.space as virtual showroom, as a simulation environment, and even as a digital control room of real assets. You just have to make you solution \\"FIWARE ready\\" !!! Ready for the immersive experience??'
     }
 ];
+
+loadProducts();
