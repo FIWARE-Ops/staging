@@ -657,7 +657,7 @@ function horizontalScroll() {
 
 function initProducts() {
 
-  if (!pageData){
+  if (! pageData){
     return setTimeout(initProducts, 5000);
   }
 
