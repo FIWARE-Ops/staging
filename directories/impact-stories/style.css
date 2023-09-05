@@ -2078,8 +2078,7 @@ input[type="search"]::placeholder {
         width: auto;
     }
 
-    .filter-element select,
-    .sort-single-element select {
+    .filter-element select {
         width: 100%;
     }
 
@@ -2142,7 +2141,6 @@ input[type="search"]::placeholder {
     /* Card */
 
     .grid {
-        width: 90%;
         margin: 0 auto;
     }
 
@@ -2311,8 +2309,7 @@ input[type="search"]::placeholder {
     }
 
 
-    .filter-element,
-    .sort-single-element {
+    .filter-element {
         width: 100%;
     }
 
@@ -2320,8 +2317,7 @@ input[type="search"]::placeholder {
         width: 100%;
     }
 
-    .filter-element select,
-    .sort-single-element select {
+    .filter-element select{
         width: 100%;
     }
 
