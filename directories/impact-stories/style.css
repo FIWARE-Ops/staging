@@ -526,12 +526,11 @@
 .cat-name {
     font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
     font-weight: 600;
-    font-size: 17px;
+    font-size: 16px;
     text-align: left;
-    color: #002E67;
-    line-height: 1.5em;
+    color: #000;
+    line-height: 1.4em;
     padding-right: 15px !important;
-    padding-top: 5px !important;
 }
 
 .cat-excerpt.main-chapter {
@@ -610,7 +609,7 @@
     align-items: center;
     gap: 10px;
     font-size: 15px;
-    color: #212121 !important;
+    color: #777777 !important;
     background-color: rgba(240, 240, 240, 0);
     padding: 5px 10px;
     /* margin-right: 15px; */
