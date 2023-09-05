@@ -11,7 +11,6 @@ var titles = [
         'Blue Economy',
         'Buildings',
         'Cities',
-        'Cities Sustainability',
         'eGovernance',
         'eHealth',
         'Energy',
