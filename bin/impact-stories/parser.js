@@ -21,6 +21,7 @@ function extractStories(input) {
             name: item['Name'],
             year: item['Year'],
             img: item['Featured Image'] ? item['Featured Image'] : DEFAULT_IMAGE,
+            thumbnail: item['Thumb'] ? item['Thumb'] : DEFAULT_IMAGE,
             domain: Parser.splitStrings(item['Domain']),
             type: item['Type'],
             medium: item['Medium'],
