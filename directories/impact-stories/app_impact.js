@@ -369,8 +369,6 @@ function horizontalScroll() {
   });
 }
 
-
-
 function initSticky() {
   window.onscroll = onScrollHandler;
 
