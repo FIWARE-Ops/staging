@@ -230,7 +230,7 @@ function initSelect() {
     },
     sortAscending: {
       name: true,
-      year: false,
+      year: true,
     },
   });
 
