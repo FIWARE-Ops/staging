@@ -403,6 +403,7 @@ document.addEventListener("html-included", () => {
   initSelect();
   initChips();
   filterToggle();
+  initSticky();
   // Isotope istantiation
   // Relies on unpkg.com/imagesloaded
   var count = 0;
