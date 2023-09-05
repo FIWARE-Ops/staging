@@ -392,17 +392,16 @@ function initSticky() {
 }
 
 document.addEventListener("html-included", () => {
+  //$("#filteredCompanies").text(window.modalData.length);
+  horizontalScroll();
+  smoothScroll();
+  $("#app").css("visibility", "visible");
   if (init) {
     return;
   }
   init = true;
-  $("#filteredCompanies").text(window.modalData.length);
-  horizontalScroll();
-  smoothScroll();
   initSelect();
   initChips();
-  initModal();
-  initFeaturedCarousel();
   filterToggle();
   initSticky();
   // Isotope istantiation
@@ -412,6 +411,14 @@ document.addEventListener("html-included", () => {
     .imagesLoaded()
     .always(function (instance) {
       msnry.arrange({ sortBy: "original-order" });
+      msnry.on("arrangeComplete", (filteredItems) => {
+        $("#filteredCompanies").text(filteredItems.length);
+        dropdownFilters(selectors);
+        highlightChips();
+        if (scrollSet) {
+          scrollToView();
+        }
+      });
     })
     .progress(function (instance, image) {
       count++;
