@@ -1449,7 +1449,6 @@ select::-ms-expand {
 }
 
 .filter-element {
-    width: 20%;
     display: flex;
     flex-direction: column;
     gap: 10px;
