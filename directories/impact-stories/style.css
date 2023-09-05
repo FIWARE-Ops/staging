@@ -485,12 +485,46 @@
     transition: transform 0.2s 0s ease-in;
 } */
 
+#is-title {
+    font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: left;
+    color: #002E67;
+    line-height: 1.5em;
+    margin: 0px 0px 10px;
+    padding: 0px;
+}
+
+#is-excerpt {
+    font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: left;
+    color: #4c4c4c;
+    line-height: 1.5em;
+}
+
+#domains {
+    margin-bottom: 10px;
+}
+
+.is-domains {
+    font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #4c4c4c;
+    line-height: 1.5em;
+}
+
 .cat-name {
     font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
     font-weight: 600;
     font-size: 17px;
     text-align: left;
-    color: #000;
+    color: #002E67;
     line-height: 1.5em;
     padding-right: 15px !important;
     padding-top: 5px !important;
