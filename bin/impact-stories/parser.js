@@ -20,7 +20,7 @@ function extractStories(input) {
         const impactStory = {
             name: item['Name'],
             year: item['Year'],
-            img: item['Image'] ? item['Featured Image'] : DEFAULT_IMAGE,
+            img: item['Featured Image'] ? item['Featured Image'] : DEFAULT_IMAGE,
             domain: Parser.splitStrings(item['Domain']),
             type: item['Type'],
             medium: item['Medium'],
@@ -48,7 +48,7 @@ function extractStories(input) {
     console.log(impactStories.length, ' impact stories generated.');
 
     return impactStories.sort((a, b) => {
-        return b.name - a.name;
+        return b.year - a.year;
     });
 }
 
