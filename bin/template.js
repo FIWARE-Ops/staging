@@ -50,6 +50,13 @@ function createClasses(data) {
     }).join(' ');
 }
 
+
+function appendTexts(data) {
+    return _.map(data, function (el) {
+        return el;
+    }).join(' and ');
+}
+
 /**
  * Create a star rating from an integer
  */
@@ -76,6 +83,7 @@ function math(lvalue, operator, rvalue) {
 Handlebars.registerHelper('createClasses', createClasses);
 Handlebars.registerHelper('createClass', createClass);
 Handlebars.registerHelper('createAnchor', createAnchor);
+Handlebars.registerHelper('appendTexts', appendTexts);
 Handlebars.registerHelper('rating', rating);
 Handlebars.registerHelper('json', stringify);
 Handlebars.registerHelper('math', math);

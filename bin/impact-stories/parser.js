@@ -10,12 +10,15 @@ const IMPACT_STORIES_DIR = 'directories/impact-stories';
 
 const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/impact-stories/images/impact-story-default.png';
 
+
 /**
  * Take the human readable column names from the spreadsheet and create a
  * data object of impactStories for later use
  */
 function extractStories(input) {
     const impactStories = [];
+    let featuredStory = null;
+
     input.forEach((item) => {
         const impactStory = {
             name: item['Name'],
@@ -30,7 +33,9 @@ function extractStories(input) {
             language: item['Language'],
             flag: item['Country flag'],
             excerpt: item['Excerpt'],
-            publish: Parser.boolean(item['Published'])
+            description: item['Description'],
+            publish: Parser.boolean(item['Published']),
+            featured: Parser.boolean(item['Featured']),
         };
 
         if (impactStory.website || impactStory.twitter || impactStory.linkedIn) {
@@ -40,17 +45,25 @@ function extractStories(input) {
         if (impactStory.publish) {
             impactStories.push(impactStory);
         }
+        if (impactStory.featured) {
+            featuredStory = impactStory;
+        }
     });
 
     if (impactStories.length === 0) {
         console.error('ERROR: No impact stories uploaded.');
         process.exit(1);
     }
+
+    if (!featuredStory) {
+        console.error('ERROR: No featuredStory impact story defined.');
+        process.exit(1);
+    }
     console.log(impactStories.length, ' impact stories generated.');
 
-    return impactStories.sort((a, b) => {
+    return {featured: featuredStory, stories: impactStories.sort((a, b) => {
         return b.year - a.year;
-    });
+    })};
 }
 
 /**
@@ -63,7 +76,9 @@ function parse(file) {
         .then((input) => {
             return extractStories(input);
         })
-        .then((stories) => {
+        .then((data) => {
+            const stories = data.stories;
+
             const filterData = {
                 years: Sorter.sortData(stories, 'year'),
                 domains: Sorter.flatSortData(stories, 'domain'),
@@ -74,10 +89,12 @@ function parse(file) {
             Template.write(path.join(IMPACT_STORIES_DIR, 'impact.html'), path.join(TEMPLATE_PATH, 'card.hbs'), stories);
             Template.write(path.join(IMPACT_STORIES_DIR, 'pageData.js'), path.join(TEMPLATE_PATH, 'modal.hbs'), filterData);
             Template.write(path.join(IMPACT_STORIES_DIR, 'filters.html'), path.join(TEMPLATE_PATH, 'filter.hbs'), filterData);
+            Template.write(path.join(IMPACT_STORIES_DIR, 'latest.html'), path.join(TEMPLATE_PATH, 'latest.hbs'), data.featured);
 
             Prettier.format(path.join(IMPACT_STORIES_DIR, 'impact.html'), { parser: 'html' });
             Prettier.format(path.join(IMPACT_STORIES_DIR, 'pageData.js'), { parser: 'flow' });
             Prettier.format(path.join(IMPACT_STORIES_DIR, 'filters.html'), { parser: 'html' });
+             Prettier.format(path.join(IMPACT_STORIES_DIR, 'latest.html'), { parser: 'html' });
         })
         .catch((e) => {
             console.log(e);
