@@ -1,7 +1,9 @@
 {{#each this}}
     <div class='grid-item {{createClass type}} {{createClasses domain}} {{year}} {{createClass language}}'>
-    <img decoding="async" class="gridElementLogo"
-        src="{{thumbnail}}">
+    <a href="{{website}}" target="_blank" rel="noopener">
+        <img decoding="async" class="gridElementLogo"
+            src="{{thumbnail}}">
+    </a>
     <div class="gridElementTextContainer">
         <span class="year hidden">{{year}}</span>
         <a href="{{website}}" target="_blank" rel="noopener">
