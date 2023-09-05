@@ -225,7 +225,7 @@ function initSelect() {
       columnWidth: ".grid-sizer",
     },
     getSortData: {
-      name: ".name parseInt",
+      name: ".cat-name",
       year: ".year",
     },
     sortAscending: {
@@ -245,7 +245,7 @@ function initSelect() {
           return true;
         },
       });
-    });
+    });*/
 
     // SORT BY ALPHABETICALLY
     document.querySelector("#orderByName").addEventListener("click", (e) => {
@@ -267,7 +267,7 @@ function initSelect() {
         msnry.arrange({ sortBy: "original-order" });
         e.target.classList.remove("active");
       }
-    });*/
+    });
 
   $(".filters-container select").each(function (index) {
     $(this).bind("change", (e) => {
