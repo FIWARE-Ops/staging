@@ -395,6 +395,7 @@ document.addEventListener("html-included", () => {
   //$("#filteredCompanies").text(window.modalData.length);
   horizontalScroll();
   smoothScroll();
+  initSticky();
   $("#app").css("visibility", "visible");
   if (init) {
     return;
@@ -403,7 +404,6 @@ document.addEventListener("html-included", () => {
   initSelect();
   initChips();
   filterToggle();
-  initSticky();
   // Isotope istantiation
   // Relies on unpkg.com/imagesloaded
   var count = 0;
