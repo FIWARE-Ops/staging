@@ -1678,7 +1678,9 @@ select::-ms-expand {
 }
 
 .filter-element select:active,
-.filter-element select:focus {
+.filter-element select:focus,
+.sort-single-element:active,
+.sort-single-element:focus {
     border: 1px solid #002e67;
     color: #002e67;
     box-shadow: none;

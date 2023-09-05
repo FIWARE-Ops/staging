@@ -1,0 +1,82 @@
+{{#each this}}
+    <div class='grid-item {{createClass type}} {{createClasses domain}} {{createClass country}} {{year}} {{language}}'>
+    <img decoding="async" class="gridElementLogo"
+        src="{{img}}">
+    <div class="gridElementTextContainer">
+        <a href="{{website}}" target="_blank" rel="noopener">
+            <h6 class="cat-name">{{name}}</h6>
+            <h2 class="cat-excerpt hidden">{{excerpt}}</h2>
+        </a>
+        {{#if (gt domain.length 0)}}
+            <div class='chip-domain'>
+                <ul class='chips'>
+                {{#each domain}}
+                    <li>{{this}}</li>
+                {{/each}}
+                </ul>
+                <span class='chips-gradient'></span>
+            </div>
+        {{/if}}
+        <div class="icons">
+            <a class="cat-info" target="_blank" href="{{medium}}">
+                <span class="material-symbols-outlined">description</span>
+                Medium
+            </a>
+            <a class="cat-info" target="_blank" href="{{pdf}}">
+                <span class="material-symbols-outlined">description</span>
+                PDF
+            </a>
+            <img decoding="async" alt='{{language}}' class='flag' src='{{flag}}' loading='lazy' />
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+    <div class='grid-item {{createClass type}} {{createClasses domain}} {{createClass country}}'>
+        <img decoding="async" class="gridElementLogo" src="{{img}}">
+        <div class="gridElementTextContainer">
+            <div class="label-location">
+                <h3>{{city}}</h3>
+                {{#if country}}
+                    <img decoding="async"  alt='{{country}}' class='flag' src='{{flag}}' loading='lazy' />
+                {{/if}}
+            </div>
+            <h6 class="ihub-name">{{name}}</h6>
+            <h2 class="ihub-type">{{type}}</h2>
+            {{#if (gt domain.length 0)}}
+                <div class='chip-domain'>
+                    <ul class='chips'>
+                    {{#each domain}}
+                        <li>{{this}}</li>
+                    {{/each}}
+                    </ul>
+                    <span class='chips-gradient'></span>
+                </div>
+            {{/if}}
+            {{#if contacts}}
+            <div class="icons">
+                {{#if website}}
+                <a class="cat-website" target="_blank" href="{{website}}" rel="noopener">
+                    <span class="icon website"></span>
+                </a>
+                {{/if}}    
+                {{#if twitter}}
+                    <a class='cat-twitter' target='_blank' href='{{twitter}}' rel='noopener'>
+                        <span class='icon twitter'></span>
+                    </a>
+                {{/if}}
+                {{#if linkedIn}}
+                    <a class='cat-linkedin' target='_blank' href='{{linkedIn}}' rel='noopener'>
+                        <span class='icon linkedin'></span>
+                    </a>
+                {{/if}}
+            </div>
+            {{/if}}
+        </div>
+    </div>
+{{/each}}

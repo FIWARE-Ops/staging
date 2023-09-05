@@ -45,38 +45,22 @@
         <label for='filterDomain' class='dropdown-label'>Domain</label>
         <select name='' id='filterDomain'>
             <option value='*'>All Domains</option>
-                    <option value='agrifood'>AgriFood</option>
-                    <option value='agritech'>AgriTech</option>
-                    <option value='blue-economy'>Blue Economy</option>
-                    <option value='buildings'>Buildings</option>
-                    <option value='cities'>Cities</option>
-                    <option value='cities-sustainability'>Cities Sustainability</option>
-                    <option value='egovernance'>eGovernance</option>
-                    <option value='ehealth'>eHealth</option>
-                    <option value='energy'>Energy</option>
-                    <option value='industry'>Industry</option>
-                    <option value='islands'>Islands</option>
-                    <option value='logistics'>Logistics</option>
-                    <option value='manufacturing'>Manufacturing</option>
-                    <option value='mobility'>Mobility</option>
-                    <option value='ports'>Ports</option>
-                    <option value='robotics'>Robotics</option>
-                    <option value='spaces'>Spaces</option>
-                    <option value='street-lighting'>Street Lighting</option>
-                    <option value='sustainability'>Sustainability</option>
-                    <option value='tourism'>Tourism</option>
-                    <option value='water'>Water</option>
+            {{#each domains}}
+                {{#if (ne this '')}}
+                    <option value='{{createClass this}}'>{{this}}</option>
+                {{/if}}
+            {{/each}}
         </select>
     </div>
     <div class='filter-element'>
         <label for='filterCountry' class='dropdown-label'>Language</label>
         <select name='' id='filterCountry'>
             <option value='*'>All Locations</option>
-                    <option value='deutsch'>Deutsch</option>
-                    <option value='english'>English</option>
-                    <option value='español'>Español</option>
-                    <option value='français'>Français</option>
-                    <option value='italiano'>Italiano</option>
+            {{#each languages}}
+                {{#if (ne this '')}}
+                    <option value='{{createClass this}}'>{{this}}</option>
+                {{/if}}
+            {{/each}}
         </select>
     </div>
 
@@ -84,6 +68,11 @@
         <label for='filterRole' class='dropdown-label'>Year of Publication</label>
         <select name='' id='filterRole'>
             <option value='*'>All Levels</option>
+            {{#each types}}
+                {{#if (ne this '')}}
+                    <option value='{{createClass this}}'>{{this}}</option>
+                {{/if}}
+            {{/each}}
         </select>
     </div>
 
