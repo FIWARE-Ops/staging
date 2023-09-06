@@ -9,8 +9,8 @@ var years = [
         '2023',
 ];
 var departments = [
-        'completed',
-        'ongoing',
+        'Completed',
+        'Ongoing',
 ]; var domains = [
         'AgriFood',
         'Cities',
