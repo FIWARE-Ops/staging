@@ -37,6 +37,7 @@ function extractProjects(input) {
             startDate: Parser.date(item['Start Date']),
             endDate: Parser.date(item['End Date']),
             country: item['Funded By'],
+            disclaimant: item['Disclaimant'],
             excerpt: item['Excerpt'],
             description: Parser.markdown(item['Description']),
             program1: Parser.notBlank(item['Program 1']),

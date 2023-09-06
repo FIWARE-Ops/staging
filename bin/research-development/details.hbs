@@ -1,5 +1,8 @@
-var projects = {
+const projects = {
     {{#each this}}
         "{{createClass name}}" : {{{json this}}},
     {{/each}}
 };
+
+const event = new Event("data-ready");
+document.dispatchEvent(event);
