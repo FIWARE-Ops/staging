@@ -229,7 +229,6 @@ function initialiseStyleBackgroundIntersectionObserver() {
   }
 }
 
-$(function() {
-  // Handler for .ready() called.
-     loadProject();
-})(jQuery);
+document.addEventListener("data-ready", () => {
+    loadProject();
+});
