@@ -3,7 +3,9 @@
         <div class="f-cat active">
             <span class="year hidden">{{year}}</span>
             <a href="./project?name={{createClass name}}" rel="noopener">
-                <img decoding="async" class="project-logo" src="{{img}}">
+                <img decoding="async" class="project-logo" src="{{img}}"/>
+            </a>
+            <div class="gridElementTextContainer">
                 <h6 class="cat-name">{{name}}</h6>
                 <h4 class="excerpt-rd">{{excerpt}}</h4>
                 {{#if (gt domain.length 0)}}
@@ -16,29 +18,29 @@
                     <span class='chips-gradient'></span>
                 </div>
                 {{/if}}
-            </a>
 
-            <div class="icons">
-                {{#if contacts}}
-                <div class="materials">
-                     {{#if website}}
-                    <a class="cat-website" target="_blank" href="{{website}}" rel="noopener">
-                        <span class="icon website"></span>
-                    </a>
-                    {{/if}}    
-                    {{#if twitter}}
-                        <a class='cat-twitter' target='_blank' href='{{twitter}}' rel='noopener'>
-                            <span class='icon twitter'></span>
+                <div class="icons">
+                    {{#if contacts}}
+                    <div class="materials">
+                         {{#if website}}
+                        <a class="cat-website" target="_blank" href="{{website}}" rel="noopener">
+                            <span class="icon website"></span>
                         </a>
+                        {{/if}}    
+                        {{#if twitter}}
+                            <a class='cat-twitter' target='_blank' href='{{twitter}}' rel='noopener'>
+                                <span class='icon twitter'></span>
+                            </a>
+                        {{/if}}
+                        {{#if linkedIn}}
+                            <a class='cat-linkedin' target='_blank' href='{{linkedIn}}' rel='noopener'>
+                                <span class='icon linkedin'></span>
+                            </a>
+                        {{/if}}
+                    </div>
                     {{/if}}
-                    {{#if linkedIn}}
-                        <a class='cat-linkedin' target='_blank' href='{{linkedIn}}' rel='noopener'>
-                            <span class='icon linkedin'></span>
-                        </a>
-                    {{/if}}
+                    <img decoding="async" class='flag' src="{{flag}}" alt="{{country}}"/>
                 </div>
-                {{/if}}
-                <img decoding="async" class='flag' src="{{flag}}" alt="{{country}}"/>
             </div>
         </div>
     </div>
