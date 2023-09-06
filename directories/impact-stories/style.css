@@ -2136,6 +2136,11 @@ input[type="search"]::placeholder {
         display: none;
     }
 
+    #is-title {
+        font-size: 20px;
+        line-height: 1.3em;
+    }
+
     /* Card */
 
     .grid {
