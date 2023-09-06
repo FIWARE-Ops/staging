@@ -225,12 +225,12 @@ function initSelect() {
       columnWidth: ".grid-sizer",
     },
     getSortData: {
-      name: ".name parseInt",
+      name: ".cat-name",
       year: ".year",
     },
     sortAscending: {
       name: true,
-      year: false,
+      year: true,
     },
   });
 
@@ -245,7 +245,7 @@ function initSelect() {
           return true;
         },
       });
-    });
+    });*/
 
     // SORT BY ALPHABETICALLY
     document.querySelector("#orderByName").addEventListener("click", (e) => {
@@ -267,7 +267,7 @@ function initSelect() {
         msnry.arrange({ sortBy: "original-order" });
         e.target.classList.remove("active");
       }
-    });*/
+    });
 
   $(".filters-container select").each(function (index) {
     $(this).bind("change", (e) => {
@@ -369,6 +369,28 @@ function horizontalScroll() {
   });
 }
 
+function initSticky() {
+  window.onscroll = onScrollHandler;
+
+  function onScrollHandler() {
+    const header = document.getElementById("filters");
+    const footer = document.getElementById("no-sticky");
+
+    if (
+      !!header &&
+      !!footer &&
+      window.pageYOffset > header.offsetTop &&
+      window.pageYOffset < footer.offsetTop
+    ) {
+      header.classList.add("stickybar");
+      header.classList.remove("not-stickybar");
+    } else {
+      header.classList.remove("stickybar");
+      header.classList.add("not-stickybar");
+    }
+  }
+}
+
 document.addEventListener("html-included", () => {
   //$("#filteredCompanies").text(window.modalData.length);
   horizontalScroll();
@@ -381,6 +403,7 @@ document.addEventListener("html-included", () => {
   initSelect();
   initChips();
   filterToggle();
+  initSticky();
   // Isotope istantiation
   // Relies on unpkg.com/imagesloaded
   var count = 0;
