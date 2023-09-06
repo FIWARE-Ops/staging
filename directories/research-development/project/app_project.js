@@ -180,9 +180,9 @@ function loadProject() {
 
   if (
     $.urlParam('name') &&
-    pageData[$.urlParam('name')]
+    projects[$.urlParam('name')]
   ) {
-    fillProduct(pageData[$.urlParam('name')]);
+    fillProduct(projects[$.urlParam('name')]);
   } else {
     $($('.et_pb_section_1').children()).empty();
     $('#related-products').remove();
@@ -228,3 +228,8 @@ function initialiseStyleBackgroundIntersectionObserver() {
     lazyBackgrounds.forEach(setBackground);
   }
 }
+
+$(function() {
+  // Handler for .ready() called.
+     loadProject();
+})(jQuery);
