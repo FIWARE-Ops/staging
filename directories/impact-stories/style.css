@@ -2240,6 +2240,10 @@ input[type="search"]::placeholder {
         gap: 0px;
     }
 
+    .stickybar {
+        top: 56px;
+    }
+
     /* Toggle Open Close Filters */
 
     #mobileToggleFilters {
