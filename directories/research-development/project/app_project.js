@@ -82,6 +82,32 @@ function wrapResources(id, title, resources) {
   });
 }
 
+function setBar (startDate, endDate, status){
+  var start = new Date(startDate), // Jan 1, 2020
+    end = new Date(endDate), // Dec 31, 2021
+    today = new Date(); //
+
+  // Get the total possible timestamp value
+  var total = end.getTime() - start.getTime();
+
+  // Get the current value
+  var current = today.getTime() - start.getTime();
+
+  // Get the percentage
+  var p = Math.round((current / total) * 100) + "%";
+
+  $(".bar").css("width", p).after().append(p);
+  $('h6#start-date').text(start.toDateString().substring(3));
+  $('h6#end-date').text(end.toDateString().substring(3));
+  $('h6#status').text(status);
+
+  if (today > end ){
+     $(".bar").css("backgroundColor", 'red');
+     $('h6#status').css("color", 'red');
+  }
+  
+}
+
 function fillProject(project) {
   if (projectDone){
     return;
@@ -99,9 +125,7 @@ function fillProject(project) {
   $('div#partners-location').text(project.partnersLocation);
   $('span#partners').text(project.partners);
 
-  $('h6#start-date').text(new Date(project.startDate).toDateString());
-  $('h6#end-date').text(new Date(project.endDate).toDateString());
-  
+
   wrapImage('#logo', 500, 300, project.img);
   wrapImage('#main-logo', 500, 300, project.img);
 
@@ -151,8 +175,10 @@ function fillProject(project) {
   addChips('#domains', project.domain);
   addChips('#technologies', []);
 
-  wrapParagraphs('#partners-content', project.partnersDetails);
+  setBar (project.startDate, project.endDate, project.type);
 
+  $('div#partners-location').append(project.partnersDetails);
+  console.log (project.partnersDetails);
 
    if(project.disclaimant){
      wrapParagraphs('#disclaimer', `The content of this page does not represent the opinion of the
