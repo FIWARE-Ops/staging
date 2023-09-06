@@ -31,7 +31,7 @@ function extractProjects(input) {
             partners: item['Partners'],
             partersLocation: item['Partner Location'],
             tenderLink: item['Tender Link'],
-            partersDetails: item['Partner Details'],
+            partnersDetails: item['Partner Details'],
             grantAgreement: item['Grant Agreement'],
             flag: item['Flag'],
             startDate: Parser.date(item['Start Date']),
