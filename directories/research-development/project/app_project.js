@@ -238,7 +238,8 @@ function loadProject() {
     fillProject(projects[$.urlParam('name')]);
   } else {
     $($('.et_pb_section_1').children()).empty();
-    $('#related-products').remove();
+     $('#disclaimer').parent().parent().remove();
+    
   }
 
   initialiseStyleBackgroundIntersectionObserver();
