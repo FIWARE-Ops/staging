@@ -8,7 +8,7 @@ var years = [
         '2022',
         '2023',
 ];
-var status = [
+var departments = [
         'completed',
         'ongoing',
 ]; var domains = [
