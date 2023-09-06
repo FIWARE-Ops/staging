@@ -13,7 +13,6 @@ var departments = [
         'ongoing',
 ]; var domains = [
         'AgriFood',
-        'Any',
         'Cities',
         'Data Spaces',
         'eGovernance',
