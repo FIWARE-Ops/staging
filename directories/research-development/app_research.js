@@ -145,7 +145,7 @@ function dropdownFilters(filter) {
   filterOptions(
     "#filterRole",
     filter.fRole,
-    window.titles,
+    window.years,
     companyCSSFilter + departmentCSSFilter + domainCSSFilter + countryCSSFilter
   );
   filterOptions(
