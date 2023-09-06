@@ -1,47 +1,48 @@
 {{#each this}}
     <div class='grid-item {{createClass type}} {{createClasses domain}} {{createClass country}}  {{createClass year}}'>
-        <div class="f-cat active">
-            <span class="year hidden">{{year}}</span>
-            <a href="./project?name={{createClass name}}" rel="noopener">
+        <span class="year hidden">{{year}}</span>
+        <a href="./project?name={{createClass name}}" rel="noopener">
+            <div class="thumb">
                 <img decoding="async" class="project-logo" src="{{img}}"/>
-            </a>
-            <div class="gridElementTextContainer">
-                <h6 class="cat-name">{{name}}</h6>
-                <h4 class="excerpt-rd">{{excerpt}}</h4>
-                {{#if (gt domain.length 0)}}
-                <div class='chip-domain'>
-                    <ul class='chips'>
-                    {{#each domain}}
-                        <li>{{this}}</li>
-                    {{/each}}
-                    </ul>
-                    <span class='chips-gradient'></span>
+            </div>
+        </a>
+        <div class="gridElementTextContainer">
+            <h6 class="cat-name">{{name}}</h6>
+            <h4 class="excerpt-rd">{{excerpt}}</h4>
+            {{#if (gt domain.length 0)}}
+            <div class='chip-domain'>
+                <ul class='chips'>
+                {{#each domain}}
+                    <li>{{this}}</li>
+                {{/each}}
+                </ul>
+                <span class='chips-gradient'></span>
+            </div>
+            {{/if}}
+
+            <div class="icons">
+                {{#if contacts}}
+                <div class="materials">
+                     {{#if website}}
+                    <a class="cat-website" target="_blank" href="{{website}}" rel="noopener">
+                        <span class="icon website"></span>
+                    </a>
+                    {{/if}}    
+                    {{#if twitter}}
+                        <a class='cat-twitter' target='_blank' href='{{twitter}}' rel='noopener'>
+                            <span class='icon twitter'></span>
+                        </a>
+                    {{/if}}
+                    {{#if linkedIn}}
+                        <a class='cat-linkedin' target='_blank' href='{{linkedIn}}' rel='noopener'>
+                            <span class='icon linkedin'></span>
+                        </a>
+                    {{/if}}
                 </div>
                 {{/if}}
-
-                <div class="icons">
-                    {{#if contacts}}
-                    <div class="materials">
-                         {{#if website}}
-                        <a class="cat-website" target="_blank" href="{{website}}" rel="noopener">
-                            <span class="icon website"></span>
-                        </a>
-                        {{/if}}    
-                        {{#if twitter}}
-                            <a class='cat-twitter' target='_blank' href='{{twitter}}' rel='noopener'>
-                                <span class='icon twitter'></span>
-                            </a>
-                        {{/if}}
-                        {{#if linkedIn}}
-                            <a class='cat-linkedin' target='_blank' href='{{linkedIn}}' rel='noopener'>
-                                <span class='icon linkedin'></span>
-                            </a>
-                        {{/if}}
-                    </div>
-                    {{/if}}
-                    <img decoding="async" class='flag' src="{{flag}}" alt="{{country}}"/>
-                </div>
+                <img decoding="async" class='flag' src="{{flag}}" alt="{{country}}"/>
             </div>
         </div>
+
     </div>
 {{/each}}
