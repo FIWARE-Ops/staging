@@ -1,5 +1,5 @@
 var companies = [];
-var departments = [
+var years = [
         '2017',
         '2018',
         '2019',
@@ -8,7 +8,7 @@ var departments = [
         '2022',
         '2023',
 ];
-var titles = [
+var status = [
         'completed',
         'ongoing',
 ]; var domains = [
