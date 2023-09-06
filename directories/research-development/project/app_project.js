@@ -1,3 +1,5 @@
+let projectDone = false;
+
 function wrapImage(id, width, height, src) {
   var img = '';
 
@@ -35,17 +37,6 @@ function wrapParagraphs(id, input) {
   $(id).append(html);
 }
 
-function addResources(docs, demos, refs) {
-  if (docs.length === 0 && demos.length === 0 && refs.length === 0) {
-    $('#tech-docs').parent().remove();
-    return;
-  }
-
-  wrapResources('#tech-docs', 'Technical Documentation', docs);
-  wrapResources('#demo-videos', 'Links to Demos/Videos', demos);
-  wrapResources('#reference-materials', 'Reference Materials', refs);
-}
-
 function addChips(id, items) {
   if (items.length === 0) {
     $(id).parent().remove();
@@ -60,6 +51,8 @@ function addChips(id, items) {
 }
 
 function addContacts(id, contact) {
+
+  console.log(contact)
   if (!contact) {
     $(id).remove();
   } else {
@@ -67,40 +60,6 @@ function addContacts(id, contact) {
   }
 }
 
-function shuffle(sourceArray) {
-  for (var i = 0; i < sourceArray.length - 1; i++) {
-    var j = i + Math.floor(Math.random() * (sourceArray.length - i));
-
-    var temp = sourceArray[j];
-    sourceArray[j] = sourceArray[i];
-    sourceArray[i] = temp;
-  }
-  return sourceArray;
-}
-
-function addRelated(related) {
-  if (!related || related.length === 0) {
-    $('#related-products').remove();
-  } else {
-    var prods = shuffle(related);
-    $('#related-links').empty();
-    prods.forEach((product, i) => {
-      var resource = `<a class="yarpp-thumbnail" rel="norewrite" href="${product.companyLink}" >
-            <div class="yarpp-thumbnail-default" 
-              data-background-image='${product.featuredImage}'
-              title="${product.excerpt}"
-              style="min-height: 200px;min-width: 100%; 
-              background-repeat: no-repeat; background-size: contain; background-position: center center;"
-            >
-            </div>
-            <div class="yarpp-thumbnail-title">${product.productName}</div>
-            </a>`;
-      if (i < 3) {
-        $('#related-links').append(resource);
-      }
-    });
-  }
-}
 
 function wrapResources(id, title, resources) {
   if (resources.length === 0) {
@@ -123,45 +82,113 @@ function wrapResources(id, title, resources) {
   });
 }
 
-function fillProduct(product) {
-  $('h5#category').text(product.category);
+function fillProject(project) {
+  if (projectDone){
+    return;
+  }
+  projectDone = true;
+  $('h5#category').text(project.technology);
   $('h5#category').on('click', function (e) {
     e.preventDefault();
     window.history.back();
   });
-  $('h5#organisation-name').text(product.organisationName);
-  $('h6#organisation-name2').text(product.organisationName);
-  $('h1#product-name').text(product.productName);
-  $('h6#product-name2').text(product.productName);
-  $('h4#excerpt').text(product.excerpt);
-  $('span#certified-in').text(product.yearOfValidation);
+  $('h1#name').text(project.name);
+  $('h6#name').text(project.name);
+  $('h4#excerpt').text(project.excerpt);
+  $('h6#funded-by').text(project.country);
+  $('div#partners-location').text(project.partnersLocation);
+  $('span#partners').text(project.partners);
 
-  wrapImage('#logo', 500, 300, product.logo);
-  wrapImage('#main-logo', 500, 300, product.logo);
+  $('h6#start-date').text(new Date(project.startDate).toDateString());
+  $('h6#end-date').text(new Date(project.endDate).toDateString());
+  
+  wrapImage('#logo', 500, 300, project.img);
+  wrapImage('#main-logo', 500, 300, project.img);
+
+  wrapParagraphs('#description', project.description);
+  wrapParagraphs('#grant-agreement', project.grantAgreement);
+
+  if(project.topicLink){
+    $('a#topic-link').attr('href', project.topicLink);
+    $('a#topic-link').append(project.topic);
+  } else {
+     $('#topics').remove();
+  }
+
+  if(project.article1Link){
+    $('a#article-1-link').attr('href', project.article1Link);
+    $('a#article-1-link').append(project.article1);
+
+
+    $('a#article-2-link').attr('href', project.article2Link);
+    $('a#article-2-link').append(project.article2);
+  } else {
+    $('#articles').remove();
+  }
+
+  if(project.program1){
+    $('a#program-1-link').attr('href', project.program1Link);
+    $('a#program-1-link').append(project.program1);
+
+    if (project.program2) {
+      $('a#program-2-link').attr('href', project.program2Link);
+      $('a#program-2-link').append(project.program2);
+    } else {
+       $('#program-2-link').parent().remove();
+    }
+  } else {
+     $('#programs').remove();
+  }
+
+  $('a#project-website').attr('href', project.website);
+
+  $('a#tender-link').attr('href', project.tenderLink);
+  
+  addContacts('#linkedin', project.linkedIn);
+  addContacts('#twitter', project.twitter);
+  addContacts('#contact', project.contact);
+
+  addChips('#domains', project.domain);
+  addChips('#technologies', []);
+
+  wrapParagraphs('#partners-content', project.partnersDetails);
+
+
+   if(project.disclaimant){
+     wrapParagraphs('#disclaimer', `The content of this page does not represent the opinion of the
+      ${project.disclaimant}, and the ${project.disclaimant} is not responsible for any use that might be made
+       of such content.`);
+   } else {
+     $('#disclaimer').parent().parent().remove();
+  }
+
+  /*
   wrapImage('#featured-image', null, null, product.featuredImage);
 
-  wrapParagraphs('#description-and-benefits', product.description);
+  $('h6#organisation-name2').text(project.organisationName);
+  $('h1#project-name').text(project.projectName);
+  $('h6#project-name2').text(project.projectName);
+  $('span#certified-in').text(project.yearOfValidation);
   wrapParagraphs('#challenge-and-context', product.challenge);
   wrapParagraphs('#references-customers', product.references);
   wrapParagraphs('#awards', product.awards);
 
   addResources(product.docs, product.videos, product.materials);
-  addRelated(product.related);
 
-  $('a#product-website').attr('href', product.productWebsite);
 
-  addChips('#technologies', product.technologies);
-  addChips('#domains', product.domains);
 
   addContacts('#organisation-website', product.organisationWebsite);
   addContacts('#organisation-email', product.organisationEmail);
   addContacts('#linkedin', product.linkedIn);
   addContacts('#twitter', product.twitter);
+  */
 
-  document.title = product.category + ' - ' + product.productName;
+  document.title = project.name + ' - ' + project.technology;
+
 }
 
 function loadProject() {
+  $ = $ || jQuery;
   $.urlParam = function (name) {
     var results = new RegExp('[?&]' + name + '=([^&#]*)').exec(
       window.location.href
@@ -182,7 +209,7 @@ function loadProject() {
     $.urlParam('name') &&
     projects[$.urlParam('name')]
   ) {
-    fillProduct(projects[$.urlParam('name')]);
+    fillProject(projects[$.urlParam('name')]);
   } else {
     $($('.et_pb_section_1').children()).empty();
     $('#related-products').remove();
