@@ -109,6 +109,16 @@ function boolean(input) {
     return input && input.toLowerCase() === 'true';
 }
 
+function notBlank(input) {
+    return input  === '' ? undefined : input;
+}
+
+function date(input) {
+    return input  === '' ? undefined : new Date(input);
+}
+
+exports.notBlank = notBlank;
+exports.date = date;
 exports.getLinkArray = getLinkArray;
 exports.markdown = markdown;
 exports.richMarkdown = richMarkdown;

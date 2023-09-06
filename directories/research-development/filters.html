@@ -44,44 +44,47 @@
         <label for='filterCountry' class='dropdown-label'>Funded by</label>
         <select name='' id='filterCountry'>
             <option value='*'>All Locations</option>
-            {{#each countries}}
-                {{#if (ne this '')}}
-                    <option value='{{createClass this}}'>{{this}}</option>
-                {{/if}}
-            {{/each}}
+                    <option value='european-commission'>European Commission</option>
+                    <option value='germany'>Germany</option>
         </select>
     </div>
     <div class='filter-element'>
         <label for='filterDomain' class='dropdown-label'>Domain</label>
         <select name='' id='filterDomain'>
             <option value='*'>All Domains</option>
-            {{#each domains}}
-                {{#if (ne this '')}}
-                    <option value='{{createClass this}}'>{{this}}</option>
-                {{/if}}
-            {{/each}}
+                    <option value='agrifood'>AgriFood</option>
+                    <option value='any'>Any</option>
+                    <option value='cities'>Cities</option>
+                    <option value='data-spaces'>Data Spaces</option>
+                    <option value='egovernance'>eGovernance</option>
+                    <option value='energy'>Energy</option>
+                    <option value='green-deal'>Green Deal</option>
+                    <option value='industry'>Industry</option>
+                    <option value='mobility'>Mobility</option>
+                    <option value='robotics'>Robotics</option>
+                    <option value='security'>Security</option>
+                    <option value='water'>Water</option>
         </select>
     </div>
     <div class='filter-element'>
         <label for='filterRole' class='dropdown-label'>Start Date</label>
         <select name='' id='filterRole'>
             <option value='*'>All Dates</option>
-            {{#each years}}
-                {{#if (ne this '')}}
-                    <option value='{{createClass this}}'>{{this}}</option>
-                {{/if}}
-            {{/each}}
+                    <option value='2017'>2017</option>
+                    <option value='2018'>2018</option>
+                    <option value='2019'>2019</option>
+                    <option value='2020'>2020</option>
+                    <option value='2021'>2021</option>
+                    <option value='2022'>2022</option>
+                    <option value='2023'>2023</option>
         </select>
     </div>
     <div class='filter-element'>
         <label for='filterTechnology' class='dropdown-label'>Status</label>
         <select name='' id='filterTechnology'>
             <option value='*'>All Statuses</option>
-            {{#each types}}
-                {{#if (ne this '')}}
-                    <option value='{{createClass this}}'>{{this}}</option>
-                {{/if}}
-            {{/each}}
+                    <option value='completed'>completed</option>
+                    <option value='ongoing'>ongoing</option>
         </select>
     </div>
 </div>
