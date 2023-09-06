@@ -95,10 +95,10 @@ function parse(file) {
             };
 
 
-            Template.write(path.join(RESEARCH_DEVELOPMENT_DIR, 'research-development.html'), path.join(TEMPLATE_PATH, 'card.hbs'), projects);
+            Template.write(path.join(RESEARCH_DEVELOPMENT_DIR, 'research.html'), path.join(TEMPLATE_PATH, 'card.hbs'), projects);
             Template.write(path.join(RESEARCH_DEVELOPMENT_DIR, 'pageData.js'), path.join(TEMPLATE_PATH, 'modal.hbs'), filterData);
             Template.write(path.join(RESEARCH_DEVELOPMENT_DIR, 'filters.html'), path.join(TEMPLATE_PATH, 'filter.hbs'), filterData);
-            Prettier.format(path.join(RESEARCH_DEVELOPMENT_DIR, 'research-development.html'), { parser: 'html' });
+            Prettier.format(path.join(RESEARCH_DEVELOPMENT_DIR, 'research.html'), { parser: 'html' });
             Prettier.format(path.join(RESEARCH_DEVELOPMENT_DIR, 'pageData.js'), { parser: 'flow' });
         })
         .catch((e) => {
