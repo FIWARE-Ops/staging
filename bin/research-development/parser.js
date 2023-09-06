@@ -53,7 +53,7 @@ function extractProjects(input) {
         };
 
         project.year =  project.startDate ? project.startDate.getFullYear().toString() : 'unknown';
-        project.type =  project.endDate < today ? 'completed' : 'ongoing';
+        project.type =  project.endDate < today ? 'Completed' : 'Ongoing';
 
         if (project.website || project.twitter || project.linkedIn) {
             project.contacts = true;
