@@ -98,8 +98,11 @@ function parse(file) {
             Template.write(path.join(RESEARCH_DEVELOPMENT_DIR, 'research.html'), path.join(TEMPLATE_PATH, 'card.hbs'), projects);
             Template.write(path.join(RESEARCH_DEVELOPMENT_DIR, 'pageData.js'), path.join(TEMPLATE_PATH, 'modal.hbs'), filterData);
             Template.write(path.join(RESEARCH_DEVELOPMENT_DIR, 'filters.html'), path.join(TEMPLATE_PATH, 'filter.hbs'), filterData);
+            Template.write(path.join(RESEARCH_DEVELOPMENT_DIR, 'project/pageData.js'), path.join(TEMPLATE_PATH, 'details.hbs'), projects);
+            
             Prettier.format(path.join(RESEARCH_DEVELOPMENT_DIR, 'research.html'), { parser: 'html' });
             Prettier.format(path.join(RESEARCH_DEVELOPMENT_DIR, 'pageData.js'), { parser: 'flow' });
+            Prettier.format(path.join(RESEARCH_DEVELOPMENT_DIR, 'project/pageData.js'), { parser: 'flow' });
         })
         .catch((e) => {
             console.log(e);
