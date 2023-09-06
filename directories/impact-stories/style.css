@@ -584,7 +584,7 @@
     align-items: center;
     gap: 5px;
     font-size: 15px;
-    color: #212121;
+    color: #232324;
     background-color: rgba(240, 240, 240, 0);
     padding: 5px 10px;
     /* margin-right: 15px; */
@@ -594,7 +594,7 @@
 }
 
 .cat-details a {
-    color: #212121;
+    color: #232324;
     width: auto;
     display: flex;
     flex-direction: row;
@@ -611,7 +611,6 @@
     font-size: 15px;
     color: #8d8e90;
     border: 1px solid rgba(207, 208, 209, 1);
-    background-color: rgba(237, 237, 238, 0);
     padding: 5px 10px;
     /* margin-right: 15px; */
     border-radius: 4px;
@@ -623,15 +622,14 @@
 .cat-details:focus,
 .cat-details a:hover,
 .cat-details a:focus {
-    color: #212121;
-    border: 1px solid rgba(207, 208, 209, 0);
-    background-color: rgba(237, 237, 238, 1);
+    color: #232324;
+    border: 1px solid rgba(35, 35, 36, 1);
 }
 
 .cat-info:hover,
 .cat-info:focus {
-    color: #212121 !important;
-    background-color: rgba(242, 242, 242, 1);
+    color: #232324;
+    border: 1px solid rgba(35, 35, 36, 1);
 }
 
 .profile-details {
@@ -1346,15 +1344,14 @@
     .cat-details {
         padding: 6px 10px;
         gap: 5px;
-        border: 1px solid #cfd0d1;
-        background-color: rgba(255, 255, 255, 0);
+        border: 1px solid rgba(237, 237, 238, 1);
     }
 
     .cat-info:hover,
     .cat-details:hover,
     .cat-browse:hover {
-        color: #212121;
-        background-color: rgba(255, 255, 255, 0);
+        color: #8d8e90;
+        border: 1px solid rgba(35, 35, 36, 1);
     }
 
     /* .twitter::before {
