@@ -1,31 +1,30 @@
 var companies = [];
-var departments = [];
-var titles = [
-        '2023',
-        '2022',
+var departments = [
+        '2017',
+        '2018',
+        '2019',
+        '2020',
         '2021',
-        '2020'
+        '2022',
+        '2023',
+];
+var titles = [
+        'completed',
+        'ongoing',
 ]; var domains = [
-        'blueconomy',
-        'egovernance',
-        'ehealth',
-        'robotics',
-        'smartagrifood',
-        'smartagritech',
-        'smartbuildings',
-        'smartcities',
-        'smartenergy',
-        'smartindustry',
-        'smartstreetlighting',
-        'smartlogistics',
-        'smartmobility',
-        'smartports',
-        'smartspaces',
-        'smarttourism',
-        'smartwater',
-        'sustainability'
+        'AgriFood',
+        'Any',
+        'Cities',
+        'Data Spaces',
+        'eGovernance',
+        'Energy',
+        'Green Deal',
+        'Industry',
+        'Mobility',
+        'Robotics',
+        'Security',
+        'Water',
 ]; var countries = [
-        'ec',
-        'germany'
+        'European Commission',
+        'Germany',
 ]; 
-
