@@ -104,6 +104,7 @@ function setBar (startDate, endDate, status){
   if (today > end ){
      $(".bar").css("backgroundColor", 'red');
      $('h6#status').css("color", 'red');
+     $(".bar").css("width", '100%')
   }
   
 }
@@ -122,7 +123,7 @@ function fillProject(project) {
   $('h6#name').text(project.name);
   $('h4#excerpt').text(project.excerpt);
   $('h6#funded-by').text(project.country);
-  $('div#partners-location').text(project.partnersLocation);
+  $('div#partners-location').text(project.partnersLocation ? project.partnersLocation : '');
   $('span#partners').text(project.partners);
 
 
