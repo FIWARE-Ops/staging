@@ -114,11 +114,6 @@ function fillProject(project) {
     return;
   }
   projectDone = true;
-  $('h5#category').text(project.technology);
-  $('h5#category').on('click', function (e) {
-    e.preventDefault();
-    window.history.back();
-  });
   $('h1#name').text(project.name);
   $('h6#name').text(project.name);
   $('h4#excerpt').text(project.excerpt);
@@ -172,8 +167,8 @@ function fillProject(project) {
   addContacts('#twitter', project.twitter);
   addContacts('#contact', project.contact);
 
-  addChips('#domains', project.domain);
-  addChips('#technologies', []);
+  addChips('#domains', project.domains);
+  addChips('#technologies', project.technologies);
 
   setBar (project.startDate, project.endDate, project.type);
 
