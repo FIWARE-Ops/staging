@@ -29,7 +29,7 @@ function extractProjects(input) {
             twitter: item['Twitter'],
             website: item['Website'],
             partners: item['Partners'],
-            partersLocation: item['Partner Location'],
+            partnersLocation: item['Partner Location'],
             tenderLink: item['Tender Link'],
             partnersDetails: Parser.markdown(item['Partner Details']),
             grantAgreement: item['Grant Agreement'],
