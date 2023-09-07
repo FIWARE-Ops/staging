@@ -232,10 +232,10 @@ function loadProject() {
 
 
   if (
-    $.urlParam('name') &&
-    projects[$.urlParam('name')]
+    $.urlParam('id') &&
+    projects[$.urlParam('id')]
   ) {
-    fillProject(projects[$.urlParam('name')]);
+    fillProject(projects[$.urlParam('id')]);
   } else {
     $($('.et_pb_section_1').children()).empty();
      $('#disclaimer').parent().parent().remove();
