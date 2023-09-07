@@ -21,8 +21,8 @@ function extractProjects(input) {
         const project = {
             name: item['Name'],
             img: item['Image'] ? item['Image'] : DEFAULT_IMAGE,
-            domain: Parser.splitStrings(item['Domain']),
-            technology: item['Technology'],
+            domains: Parser.splitStrings(item['Domain']),
+            technologies: Parser.splitStrings(item['Technology']),
             type: item['Type'],
             contact: item['Contact'],
             linkedIn: item['LinkedIn'],
@@ -90,7 +90,7 @@ function parse(file) {
             const filterData = {
                 years: Sorter.sortData(projects, 'year'),
                 types: Sorter.sortData(projects, 'type'),
-                domains: Sorter.flatSortData(projects, 'domain'),
+                domains: Sorter.flatSortData(projects, 'domains'),
                 countries: Sorter.flatSortData(projects, 'country'),
                 projects
             };

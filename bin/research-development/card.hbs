@@ -1,5 +1,5 @@
 {{#each this}}
-    <div class='grid-item {{createClass type}} {{createClasses domain}} {{createClass country}}  {{createClass year}}'>
+    <div class='grid-item {{createClass type}} {{createClasses domains}} {{createClass country}}  {{createClass year}}'>
         <span class="year hidden">{{year}}</span>
         <a href="./project?id={{createClass name}}">
             <div class="thumb">
@@ -11,10 +11,10 @@
                 <h6 class="cat-name">{{name}}</h6>
                 <h4 class="excerpt-rd">{{excerpt}}</h4>
             </a>
-            {{#if (gt domain.length 0)}}
+            {{#if (gt domains.length 0)}}
             <div class='chip-domain'>
                 <ul class='chips'>
-                {{#each domain}}
+                {{#each domains}}
                     <li>{{this}}</li>
                 {{/each}}
                 </ul>
