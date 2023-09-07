@@ -236,6 +236,7 @@
     overflow-y: hidden;
     white-space: nowrap;
     padding: 0 !important;
+    line-height: 1em !important;
     transition: all 0.2s;
     /*transform: scale(0.98);*/
     will-change: transform;
@@ -268,10 +269,8 @@
 }
 
 .chip-technology {
-    /* margin-bottom: 15px; */
     display: flex;
-    align-items: center;
-    /* height: 28px; */
+    gap: 10px;
 }
 
 .chip-technology li {
@@ -286,6 +285,12 @@
     padding: 6px 12px 8px;
     margin-right: 8px;
     display: inline-block;
+    transition: background-color 0.2s linear;
+}
+
+.chip-technology li:hover {
+    background-color: #c7e9ee;
+    cursor: pointer;
 }
 
 .chip-technology li.active {
@@ -293,14 +298,9 @@
     color: #e5f5f7;
 }
 
-.chip-technology li:last-of-type {
-    /* margin-right: 40px; */
-}
-
 .chip-domain {
     display: flex;
-    align-items: center;
-    height: 28px;
+    gap: 10px;
 }
 
 .chip-domain li {
@@ -315,6 +315,12 @@
     padding: 6px 12px 8px;
     margin-right: 8px;
     display: inline-block;
+    transition: background-color 0.2s linear;
+}
+
+.chip-domain li:hover {
+    background-color: #c7e9ee;
+    cursor: pointer;
 }
 
 .chip-domain li.active {
@@ -328,7 +334,7 @@
 
 .chips-gradient {
     position: absolute;
-    right: 0;
+    right: 0px;
     height: 28px;
     margin-top: 0px;
     width: 30px;
@@ -1777,7 +1783,7 @@ input[type="search"]::placeholder {
     }
 
     .et_pb_image_1 .et_pb_image_wrap {
-        display: flex!important;
+        display: flex !important;
         justify-content: center;
     }
 
