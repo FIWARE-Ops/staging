@@ -182,28 +182,9 @@ function fillProject(project) {
      $('#disclaimer').parent().parent().remove();
   }
 
-  /*
-  wrapImage('#featured-image', null, null, product.featuredImage);
-
-  $('h6#organisation-name2').text(project.organisationName);
-  $('h1#project-name').text(project.projectName);
-  $('h6#project-name2').text(project.projectName);
-  $('span#certified-in').text(project.yearOfValidation);
-  wrapParagraphs('#challenge-and-context', product.challenge);
-  wrapParagraphs('#references-customers', product.references);
-  wrapParagraphs('#awards', product.awards);
-
-  addResources(product.docs, product.videos, product.materials);
 
 
-
-  addContacts('#organisation-website', product.organisationWebsite);
-  addContacts('#organisation-email', product.organisationEmail);
-  addContacts('#linkedin', product.linkedIn);
-  addContacts('#twitter', product.twitter);
-  */
-
-  document.title = project.name + ' - ' + project.technology;
+  document.title = project.name + ' - ' + project.technologies;
 
 }
 
