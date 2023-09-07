@@ -123,7 +123,6 @@ function fillProject(project) {
   $('h6#name').text(project.name);
   $('h4#excerpt').text(project.excerpt);
   $('h6#funded-by').text(project.country);
-  $('div#partners-location').text(project.partnersLocation ? project.partnersLocation : '');
   $('span#partners').text(project.partners);
 
 
@@ -179,7 +178,6 @@ function fillProject(project) {
   setBar (project.startDate, project.endDate, project.type);
 
   $('div#partners-location').append(project.partnersDetails);
-  console.log (project.partnersDetails);
 
    if(project.disclaimant){
      wrapParagraphs('#disclaimer', `The content of this page does not represent the opinion of the
