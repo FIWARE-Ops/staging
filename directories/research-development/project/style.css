@@ -3,6 +3,16 @@
   padding-bottom: 0px;
 }
 
+h4 {
+  padding: 0px;
+}
+
+#programs h4,
+#topics h4,
+#articles h4 {
+  padding-bottom: 10px;
+}
+
 .tag {
   display: none !important;
 }
