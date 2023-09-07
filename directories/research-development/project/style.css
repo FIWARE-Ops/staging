@@ -329,6 +329,26 @@
   width: 36px;
 }
 
+/* Progress Bar */
+
+.progress {
+  overflow: hidden;
+  height: 12px;
+  margin-bottom: 20px;
+  background-color: #ebebeb;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.progress-info .bar {
+  background-color: #5ac384;
+}
+
+.bar {
+  color: rgba(255, 255, 255, 0);
+}
+
+
 /* Related solutions */
 
 .yarpp-related {
