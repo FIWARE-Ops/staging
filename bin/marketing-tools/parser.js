@@ -5,7 +5,7 @@ const Prettier = require('prettier');
 const Parser = require('../dataParser');
 const Sorter = require('../sort');
 const Template = require('../template');
-const TEMPLATE_PATH = 'bin/ihubs/';
+const TEMPLATE_PATH = 'bin/marketing-tools/';
 const MARKETING_TOOLS_DIR = 'directories/marketing-tools';
 
 const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/marketing-tools/images/iHub-default.png';
