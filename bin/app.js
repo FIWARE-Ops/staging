@@ -6,6 +6,7 @@ const Organisations = require('./organisations/parser');
 const Enablers = require('./enablers/parser');
 const ImpactStories = require('./impact-stories/parser');
 const ResearchDevelopment = require('./research-development/parser');
+const Marketing = require('./marketing-tools/parser');
 const fs = require('fs-extra');
 const Loader = require('./downloader');
 
@@ -21,6 +22,7 @@ const ORGANISATIONS_FILE = 'organisations.csv';
 const ENABLERS_FILE = 'enablers.csv';
 const IMPACT_STORIES_FILE = 'impact-stories.csv';
 const RESEARCH_DEVELOPMENT_FILE = 'research-development.csv';
+const MARKETING_FILE = 'marketing.csv';
 
 /**
  *  Ensure that a file exists
@@ -70,17 +72,24 @@ if (PROCESS.startsWith('enablers')) {
     });
 }
 
-// Create HTML and template files for the generic enablers
+// Create HTML and template files for the impact stories
 if (PROCESS.startsWith('impact-stories')) {
     Loader.load('impact-stories', IMPACT_STORIES_FILE).then(() => {
         return ImpactStories.parse(IMPACT_STORIES_FILE);
     });
 }
 
-// Create HTML and template files for the generic enablers
+// Create HTML and template files for research and development
 if (PROCESS.startsWith('research-development')) {
     Loader.load('research-development', RESEARCH_DEVELOPMENT_FILE).then(() => {
         return ResearchDevelopment.parse(RESEARCH_DEVELOPMENT_FILE);
+    });
+}
+
+// Create HTML and template files for the generic enablers
+if (PROCESS.startsWith('marketing')) {
+    Loader.load('marketing', MARKETING_FILE).then(() => {
+        return Marketing.parse(MARKETING_FILE);
     });
 }
 
