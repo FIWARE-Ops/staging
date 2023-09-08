@@ -2,22 +2,24 @@
     <div class='grid-item {{createClass type}} {{createClasses domain}}'>
         <a href="{{website}}">
             <img decoding="async" class="gridElementLogo" src="{{img}}">
-            <div class="gridElementTextContainer">
+        </a>    
+        <div class="gridElementTextContainer">
+            <a href="{{website}}">
                 <div class="label-location">
                     <h3>{{type}}</h3>
                 </div>
                 <h6 class="ihub-name">{{name}}</h6>
-                {{#if (gt domain.length 0)}}
-                    <div class='chip-domain'>
-                        <ul class='chips'>
-                        {{#each domain}}
-                            <li>{{this}}</li>
-                        {{/each}}
-                        </ul>
-                        <span class='chips-gradient'></span>
-                    </div>
-                {{/if}}
-            </div>
-        </a>
+             </a>
+            {{#if (gt domain.length 0)}}
+                <div class='chip-domain'>
+                    <ul class='chips'>
+                    {{#each domain}}
+                        <li>{{this}}</li>
+                    {{/each}}
+                    </ul>
+                    <span class='chips-gradient'></span>
+                </div>
+            {{/if}}
+        </div>
     </div>
 {{/each}}
