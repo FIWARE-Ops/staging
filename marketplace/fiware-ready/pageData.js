@@ -939,6 +939,96 @@ var pageData = [
         year: 2022,
         content:
             'Software for human resources management, integrated in FIWARE. Lapsowork dumps data in real-time and allows us to obtain statistics associated with entry records, exit records, information on the worker who performs the registration, associated temperature (COVID19 measure)...'
+    },
+    {
+        company: 'NOVALITY',
+        name: 'Bikes and Scooters Smart Locker Parkings',
+        img: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Novality.svg',
+        fiwareMember: false,
+        fiwareIhub: false,
+        companyLink: '../product-details/?category=ready&id=novality-bikesandscooterssmartlockerparkings',
+        domain: ['Cities', 'Manufacturing', 'Mobility', 'Sustainability', 'Telecommunication'],
+        type: 'IoT Device',
+        technology: ['Interaction Technologies', 'Internet of Things', 'Mobility and Location', 'Open Data'],
+        year: 2023,
+        content:
+            'Novality is a smart and secure parking solution for bicycles and scooters with individual lockers managed through an app.  The system knows the occupation of the places in real time and the mobility flows. It is also a multimodal hub where other Smartcities sensors can be installed.'
+    },
+    {
+        company: 'Anteral',
+        name: 'uRAD Smart Traffic Compact',
+        img: 'https://www.fiware.org/wp-content/uploads/17225a268f2066f3f92b13aee0f56f17.png',
+        fiwareMember: false,
+        fiwareIhub: false,
+        companyLink: '../product-details/?category=ready&id=anteral-uradsmarttrafficcompact',
+        domain: ['Automotive', 'Cities', 'Government', 'Mobility', 'Transport'],
+        type: 'IoT Device',
+        technology: ['Internet of Things', 'Mobility and Location', 'Sensory Systems'],
+        year: 2023,
+        content:
+            'uRAD Smart Traffic Compact is a Smart Cities specific radar solution for non-invasive traffic monitoring in urban and interurban environments'
+    },
+    {
+        company: 'ATOS',
+        name: 'Bike Availability Forecast Service',
+        img: 'https://www.fiware.org/wp-content/uploads/347206f0386cb72b1ee40ee161aa3d50.png',
+        fiwareMember: true,
+        fiwareIhub: true,
+        companyLink: '../product-details/?category=ready&id=atos-bikeavailabilityforecastservice',
+        domain: ['Automotive', 'Cities', 'Government', 'Mobility', 'Transport'],
+        type: 'Software Enabler',
+        technology: ['Internet of Things', 'Mobility and Location', 'Sensory Systems'],
+        year: 2023,
+        content:
+            'Bike availability prediction model for bike-sharing systems using historical data to optimize fleet management and improve user experience.'
+    },
+    {
+        company: 'Libelium',
+        name: 'Smart Parking',
+        img: 'https://www.fiware.org/wp-content/uploads/f5ea8d844b4fedae47a783a6a122d591.png',
+        fiwareMember: true,
+        fiwareIhub: false,
+        companyLink: '../product-details/?category=ready&id=libelium-smartparking',
+        domain: ['Cities', 'Green Deal', 'Transport'],
+        type: 'Software Enabler',
+        technology: ['Internet of Things', 'Mobility and Location'],
+        year: 2023,
+        content:
+            'Smart Parking Sensor technology is a radar sensor device that allows the detection of parking availability indoors and outdoors. Libelium Smart Parking benefits from 2 different detection systems: Radar and Magnetic. Greater precision, improved detection and stability performance: 99% accuracy.'
+    },
+    {
+        company: "IMREDD - University Côte d\\'Azur",
+        name: 'Noise Forecasting',
+        img: 'https://www.fiware.org/wp-content/uploads/5228db9283053aa8d9992239a8f3047b.png',
+        fiwareMember: false,
+        fiwareIhub: false,
+        companyLink: '../product-details/?category=ready&id=imredduniversitycôtedazur-noiseforecasting',
+        domain: ['Air Quality', 'Cities', 'Measurement', 'Transport'],
+        type: 'Software Enabler',
+        technology: [
+            'Artificial Intelligence',
+            'Big Data',
+            'Data Analytics',
+            'Internet of Things',
+            'Software as a Service'
+        ],
+        year: 2023,
+        content:
+            'This service aims to provide short-term forecasting of a time series such as noise. It builds on historical data stored in a CSV file with a column for time, and a column for the values, then, a forecast model is trained, and forecasts are made available on demand through an API.'
+    },
+    {
+        company: 'IMREDD',
+        name: 'Traffic time series forecasting',
+        img: 'https://www.fiware.org/wp-content/uploads/9f08175aa7050bec23fa793da6d87a85.png',
+        fiwareMember: false,
+        fiwareIhub: false,
+        companyLink: '../product-details/?category=ready&id=imredd-traffictimeseriesforecasting',
+        domain: ['Cities', 'Sustainability', 'Transport'],
+        type: 'Software Enabler',
+        technology: ['Artificial Intelligence', 'Big Data', 'Software as a Service'],
+        year: 2023,
+        content:
+            'Traffic intensity forecasting service using historical data to forecast the traffic on the nex day. This can be used optimize traffic management, reduce traffic congestion and improve user experience'
     }
 ];
 
