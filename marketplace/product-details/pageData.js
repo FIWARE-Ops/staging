@@ -13,11 +13,10 @@ var pageData = {
                 '[ui!] UrbanPulse is an open central data platform for urban data in real-time - based on a highly scalable architecture for data processing and analysis, with a special connector framework for the integration of sensors, urban management systems and Visualization of complex data with tiles and maps.',
             yearOfValidation: 2019,
             description:
-                '<p>*[ui!] UrbanPulse *is the Open Urban Data Platform for cities, communities, utilities, and other organizations that want to reuse and repurpose new and existing urban data sources to create value-added services. The [ui!] UrbanPulse platform is the most efficient open urban platform with open APIs that makes it easy and affordable for small and large customers to integrate new and existing data sources, process and analyze data in near real-time. The platform also makes it possible to finally present and share the data with various stakeholders.</p> <p>When you go live with [ui!] UrbanPulse, you get an Open Urban Data Platform (OUP) with over 130 supported data sources (connectors) for direct connection. Among them, you will find management, sensor systems, and IoT devices that have been developed thanks to many cities/communities within their smart city projects with [ui!] UrbanPulse and are immediately available. So you can start testing and implementing your project right away.</p> <p>Using these existing data sources (connectors), data-driven services can be created or extended with a short implementation phase. This includes information on noise and environmental emissions, traffic issues such as volumes, real-time forecasts, and the intersection of different data sets. Transfer existing smart city use cases to your city/communities or region and adapt them to your circumstances.</p> <h4 id="specifications">Specifications</h4> <p>The platform is implemented according to DIN Spec 91357, developed for Software-as-a- Service (SaaS) application and can be operated in a local data center for data sovereignty reasons.</p>',
+                '<p><strong>[ui!] UrbanPulse</strong> is the Open Urban Data Platform for cities, communities, utilities, and other organizations that want to reuse and repurpose new and existing urban data sources to create value-added services. The [ui!] UrbanPulse platform is the most efficient open urban platform with open APIs that makes it easy and affordable for small and large customers to integrate new and existing data sources, process and analyze data in near real-time. The platform also makes it possible to finally present and share the data with various stakeholders.</p> <p>When you go live with [ui!] UrbanPulse, you get an Open Urban Data Platform (OUP) with over 130 supported data sources (connectors) for direct connection. Among them, you will find management, sensor systems, and IoT devices that have been developed thanks to many cities/communities within their smart city projects with [ui!] UrbanPulse and are immediately available. So you can start testing and implementing your project right away.</p> <p>Using these existing data sources (connectors), data-driven services can be created or extended with a short implementation phase. This includes information on noise and environmental emissions, traffic issues such as volumes, real-time forecasts, and the intersection of different data sets. Transfer existing smart city use cases to your city/communities or region and adapt them to your circumstances.</p> <h4 id="specifications">Specifications</h4> <p>The platform is implemented according to DIN Spec 91357, developed for Software-as-a- Service (SaaS) application and can be operated in a local data center for data sovereignty reasons.</p>',
             challenge:
                 '<p>Advancing urbanization and the associated challenges, including in urban and regional infrastructures, mobility and energy, requires a new, networked approach.</p> <p>Resource-conserving and environmentally compatible actions on the one hand, and situation-appropriate and measured decision-making on the other, require extensive data from many, previously isolated systems within a community.</p> <p>[ui!] supports cities, communities, counties, and regions in their efforts to collect, process and analyze all existing and anonymized urban data on a central data platform. We also help make this data available for new services as added value for cities, communities, and utility companies.</p> <p>These solutions are based on an open urban data platform – the [ui!] UrbanPulse - where all data from a city’s various IT systems are fed into the system in order to be used for new smart city services in real-time. This meets the current requirements of DIN SPEC 91357 - Reference Architecture Model Open Urban Platform (OUP).</p> <p>Using a large number of connectors, we are able to link a wide variety of IT systems together. We are able to do this in such a way that all the information in a city can be used and made visible, while at the same time leaving the data sovereignty with the respective provider. The platform, therefore, not only provides integrated access to urban data, but also prevents the risk of data misuse.</p>',
-            references:
-                '<ul> <li>City of Bad Hersfeld</li> <li>City of Darmstadt</li> <li>City of Langenfeld</li> <li>City of Brisbane</li> </ul>',
+            references: '<ul> <li>City of Bad Hersfeld</li> <li>City of Darmstadt</li> <li>City of Brisbane</li> </ul>',
             awards: '<p>First prize in the &quot;Innovation Award Reallabore 2022&quot; from the Federal Ministry of Economics and Climate Protection in the category &quot;Retrospectives&quot; for completed projects - Research project Reallabor Hamburg (RealLabHH).</p> <p>The Smart 50 Awards 2022 and 2016 of the internationally renowned organization &quot;Smart Cities Connect&quot; is awarded annually for global, innovative smart city projects and aims to honor some of the most influential projects and forward-looking ideas in the context of smart city and smart region. ([ui!] and the city of Bad Hersfeld)</p> <p>Digital Leader Award 2016 + 2017 - With the Digital Leader Award, German speaking businesses and leaders are rewarded in a competition for an outstanding example in leading digitalisation in their organisation. So the accomplishments for the digital transformation of the organisation are honoured and the responsible leaders publically rewarded. The Digital Leader Award is an initiative by the Initiative der IDG Business Media und Dimension Data.</p>',
             technologies: [
                 'Data Analytics',
@@ -31,8 +30,7 @@ var pageData = {
             videos: [],
             materials: [],
             logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_UrbanInstitute.svg',
-            featuredImage:
-                'https://www.fiware.org/wp-content/marketplace/images/hero_ui-urban-software_ui-urbanpulse.png',
+            featuredImage: 'https://ui.city/images/website/ui!_COCKPIT.png',
             furtherImages: ''
         },
         'absolutezero-thor': {
@@ -212,6 +210,14 @@ var pageData = {
                     companyLink: './?category=powered&id=atos-urbandataplatform'
                 },
                 {
+                    category: 'FIWARE-Ready',
+                    featuredImage: 'https://www.fiware.org/wp-content/uploads/15412dc37c52a67a274196fc1bc1c18f.png',
+                    excerpt:
+                        'Bike availability prediction model for bike-sharing systems using historical data to optimize fleet management and improve user experience.',
+                    productName: 'Bike Availability Forecast Service',
+                    companyLink: './?category=ready&id=atos-bikeavailabilityforecastservice'
+                },
+                {
                     category: 'Services',
                     featuredImage:
                         'https://www.fiware.org/wp-content/marketplace/images/hero_atos_connected-territories.png',
@@ -272,6 +278,14 @@ var pageData = {
                         'MASAI is an efficient data integration software for manufacturing systems allowing to collect data from a variety of IoT Devices in the manufacturing domain (Industry 4.0), that is not entirely covered by existing proprietary solutions.',
                     productName: 'MASAI',
                     companyLink: './?category=powered&id=atos-masai'
+                },
+                {
+                    category: 'FIWARE-Ready',
+                    featuredImage: 'https://www.fiware.org/wp-content/uploads/15412dc37c52a67a274196fc1bc1c18f.png',
+                    excerpt:
+                        'Bike availability prediction model for bike-sharing systems using historical data to optimize fleet management and improve user experience.',
+                    productName: 'Bike Availability Forecast Service',
+                    companyLink: './?category=ready&id=atos-bikeavailabilityforecastservice'
                 },
                 {
                     category: 'Services',
@@ -4177,45 +4191,6 @@ var pageData = {
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_addix_adi-fi.png',
             furtherImages: ''
         },
-        'engineeringitsgmbh-engineeringsurbandataplatform': {
-            category: 'Powered by FIWARE',
-            organisationName: 'Engineering ITS GmbH',
-            productName: 'Engineering´s Urban Data Platform',
-            organisationWebsite: 'https://www.eng-its.de/',
-            organisationEmail: 'mailto:info@eng-its.de',
-            linkedIn: 'https://www.linkedin.com/company/engineeringits/mycompany/',
-            twitter: '',
-            productWebsite: 'https://eng-its.de/unser-portfolio/plattformen-und-loesungen/urbane-datenplattform/',
-            excerpt:
-                'Our Urban Data Platform enables the development of a digital ecosystem in which existing data from different systems and applications can be used to build digital service offerings across fields of action. For this, we provide the urban data platform as a service approach.',
-            yearOfValidation: 2022,
-            description:
-                '<p>Our platform enables the integration and processing of a wide variety of data such as IoT sensors, open data sources, web services or business processes. For this purpose, we offer no-code applications within the platform so that you can easily integrate the data and develop new use cases such as analyses, data correlations or simulations as well as your own dashboards. You also get a data catalogue that allows you to publish the data as open data. </p> <p>Built on the FIWARE Reference architecture, our platform consists only of open-source modules for developing digital data spaces for smart cities. - Our platform is based on open source and open standards such as FIWARE. - Data sovereignty - All data rights and responsibilities remain in your hands. - Data models - We use FIWARE data models and help you with the individual development of new use cases. - Seamless integration - Build a digital ecosystem and integrate business processes and available data. - Best practices - From user &amp; role models to initial use cases, we offer you numerous examples for a quick start.</p>',
-            challenge:
-                '<p>Smart City stands for movement and efficiency. For this reason, we provide you with the urban data platform in an \\"as a service\\" approach. The platform is configured according to your requirements and the operation, and data storage is provided from a German cloud environment - but you can also operate the platform in your own data centre.</p> <p>Whether you want to gain initial experience or need a multi-platform environment - we support you with all your requirements.</p> <ul> <li><p>PoC - Get to know our platform via access for 6 months and implement first use cases with us.</p></li> <li><p>Pilot - Get started and receive a dedicated platform for the implementation of your goals. We take care of the operation and 8*5 tech. support for you.</p></li> <li><p>Production - Have you gained your first experiences and do you want to develop new services on the basis of the platform? Then we will provide you with a development and production environment for your Smart City. We take care of the operation and 24*7 tech. support for you.</p></li> </ul>',
-            references:
-                "<ul> <li>City of Heidelberg</li> <li>City of Monheim</li> <li>City of Dormagen</li> <li>DLR (Germany's research centre for aeronautics and space)1. </li> </ul>",
-            awards: '<p>Solutions4Cities Contest:  Best Solution for Resilient City Development  https://www.smart-city-dialog.de/wp-content/uploads/2021/02/Bamberg.mp4</p>',
-            technologies: ['Data Spaces', 'Digital Twins', 'Internet of Things', 'Open Data', 'Software as a Service'],
-            domains: ['Cities'],
-            docs: [],
-            videos: [],
-            materials: [
-                [
-                    'FIWARE Impact Stories',
-                    'https://www.fiware.org/wp-content/uploads/FF_ImpactStories_Engineering-DE.pdf'
-                ],
-                ['City of Dormagen', 'https://eng-its.de/en/reference-city-of-dormagen/'],
-                ['City of Heidelberg', 'https://eng-its.de/en/reference-city-of-heidelberg/'],
-                [
-                    'FIWARE Impact Stories- Heidelberg',
-                    'https://www.fiware.org/wp-content/uploads/FF_ImpactStories_Heidelberg.pdf'
-                ]
-            ],
-            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Engineering.svg',
-            featuredImage: 'https://www.fiware.org/wp-content/uploads/93ecd215f67ea8f6fcfc305b49e72a27.png',
-            furtherImages: ''
-        },
         '426code-smarttown': {
             category: 'Powered by FIWARE',
             organisationName: '426 Code',
@@ -4243,6 +4218,44 @@ var pageData = {
             materials: [],
             logo: 'https://www.fiware.org/wp-content/uploads/9daaee69f97a7d82e4092bd638394ef7.jpg',
             featuredImage: 'https://www.fiware.org/wp-content/uploads/c1bd83362f800e5279d08d9866f5ae1c.jpg',
+            furtherImages: ''
+        },
+        'dihfaubourgnumérique-somwarespace': {
+            category: 'Powered by FIWARE',
+            organisationName: 'DIH Faubourg Numérique',
+            productName: 'somware.space',
+            organisationWebsite: 'https://somware.space',
+            organisationEmail: 'mailto:contact@oasc.fr',
+            linkedIn: '',
+            twitter: '',
+            productWebsite: 'https://somware.space',
+            excerpt:
+                'A piece of the Metaverse fully connected to powered by FIWARE solutions: you can use the somware.space as virtual showroom, as a simulation environment, and even as a digital control room of real assets. You just have to make you solution \\"FIWARE ready\\" !!! Ready for the immersive experience??',
+            yearOfValidation: 2023,
+            description:
+                "<p><strong>somware.space</strong> is an immersive environment available 7/7 , 24/24.  It's fully open source in ts design and its main dependencies (FIWARE, three.js, node.js).  It's flexible: start small, scale - or fail! - fast :)</p>",
+            challenge:
+                '<p>Engage your customers, your colleagues, your communities to figure out how to work, play or just think together through shared immersive, creative and productive experiences!</p>',
+            references:
+                '<p><a href="https://www.youtube.com/watch?v=i8GzJ-EDWhs" title="CO2Mute">CO2Mute</a> <a href="https://www.youtube.com/watch?v=P0A1D6lRq2M" title="City of Saint-Quentin">City of Saint-Quentin</a> <a href="https://www.youtube.com/watch?v=j8KekjPjpMs" title="Herne Digital">Herne Digital</a></p>',
+            awards: '<p>CEFAT4Cities hackathon double winner (Berlin TXL + Vienna) <a href="https://www.youtube.com/watch?v=VPp3KVkvmj0" title="Meta TXL Demo">Meta TXL Demo</a> <a href="https://www.youtube.com/watch?v=42dNh1VM7n4&t=1972s" title="Managing Data Models and Exposing Digital Twins ">Managing Data Models and Exposing Digital Twins </a></p>',
+            technologies: [
+                'Data Spaces',
+                'Digital Twins',
+                'Gamification',
+                'Simulation',
+                'Virtual',
+                'Augmented and Extended Reality'
+            ],
+            domains: ['AgriFood', 'Cities', 'Industry', 'Manufacturing', 'Tourism'],
+            docs: [['Tech Documentation', 'https://youtu.be/42dNh1VM7n4']],
+            videos: [
+                ['FIWARE Metaworld', 'https://www.youtube.com/watch?v=v1fJeCQGL-k'],
+                ['FIWARE Global Summit 2022', 'https://www.youtube.com/watch?v=zZUknJ6Gmpw']
+            ],
+            materials: [],
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_SOMWarespace.svg',
+            featuredImage: 'https://www.fiware.org/wp-content/uploads/b8b094de1da4463a6d28fe70ea20aeff.png',
             furtherImages: ''
         }
     },
@@ -7113,6 +7126,14 @@ var pageData = {
                         'Waspmote hardware architecture has been specially designed to work with extremely low consumption. Digital switches allow to turn on and off any of the sensor interfaces as well as the radio modules.',
                     productName: 'Waspmote',
                     companyLink: './?category=ready&id=libelium-waspmote'
+                },
+                {
+                    category: 'FIWARE-Ready',
+                    featuredImage: 'https://www.fiware.org/wp-content/uploads/e196bfeb4628f5eab36430d6ba5b5535.png',
+                    excerpt:
+                        'Smart Parking Sensor technology is a radar sensor device that allows the detection of parking availability indoors and outdoors.\nLibelium Smart Parking benefits from 2 different detection systems:\nRadar and Magnetic.\nGreater precision, improved detection and stability performance: 99% accuracy.',
+                    productName: 'Smart Parking',
+                    companyLink: './?category=ready&id=libelium-smartparking'
                 }
             ]
         },
@@ -7162,6 +7183,14 @@ var pageData = {
                         'Waspmote hardware architecture has been specially designed to work with extremely low consumption. Digital switches allow to turn on and off any of the sensor interfaces as well as the radio modules.',
                     productName: 'Waspmote',
                     companyLink: './?category=ready&id=libelium-waspmote'
+                },
+                {
+                    category: 'FIWARE-Ready',
+                    featuredImage: 'https://www.fiware.org/wp-content/uploads/e196bfeb4628f5eab36430d6ba5b5535.png',
+                    excerpt:
+                        'Smart Parking Sensor technology is a radar sensor device that allows the detection of parking availability indoors and outdoors.\nLibelium Smart Parking benefits from 2 different detection systems:\nRadar and Magnetic.\nGreater precision, improved detection and stability performance: 99% accuracy.',
+                    productName: 'Smart Parking',
+                    companyLink: './?category=ready&id=libelium-smartparking'
                 }
             ]
         },
@@ -7208,6 +7237,14 @@ var pageData = {
                         'Plug&Sense is an IoT Device that offers its users several benefits such as easily attachment of the Sensor probes, solar panel option battery recharge, the 4G module features a GPS receiver etc.',
                     productName: 'Plug&Sense!',
                     companyLink: './?category=ready&id=libelium-plugsense'
+                },
+                {
+                    category: 'FIWARE-Ready',
+                    featuredImage: 'https://www.fiware.org/wp-content/uploads/e196bfeb4628f5eab36430d6ba5b5535.png',
+                    excerpt:
+                        'Smart Parking Sensor technology is a radar sensor device that allows the detection of parking availability indoors and outdoors.\nLibelium Smart Parking benefits from 2 different detection systems:\nRadar and Magnetic.\nGreater precision, improved detection and stability performance: 99% accuracy.',
+                    productName: 'Smart Parking',
+                    companyLink: './?category=ready&id=libelium-smartparking'
                 }
             ]
         },
@@ -8550,6 +8587,273 @@ var pageData = {
             logo: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_EDAG.svg',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_edag_smart-city-dashboard.png',
             furtherImages: ''
+        },
+        'novality-bikesandscooterssmartlockerparkings': {
+            category: 'FIWARE-Ready',
+            organisationName: 'NOVALITY',
+            productName: 'Bikes and Scooters Smart Locker Parkings',
+            organisationWebsite: 'https://https://novality.es/',
+            organisationEmail: 'mailto:info@novality.es',
+            linkedIn: 'https://es.linkedin.com/company/novalityes',
+            twitter: 'https://mobile.twitter.com/novalityes',
+            productWebsite: 'https://novality.es',
+            excerpt:
+                'Novality is a smart and secure parking solution for bicycles and scooters with individual lockers managed through an app. \nThe system knows the occupation of the places in real time and the mobility flows.\nIt is also a multimodal hub where other Smartcities sensors can be installed.',
+            yearOfValidation: 2023,
+            description:
+                '<p><strong>NOVALITY</strong> helps to develop urban micromobility through parking stations for bicycles and e-scooters fitted with private lockers including space for personal belongings and sockets to charge vehicles whilst stored.  Parking lots are controlled from a central unit and users can download an intuitive app to book their lockers in advance, compatible with other transport systems to support intermodality and is a source of mobility data for the cities. For Cities is possible to extract the occupation level of the parking and study the mobility flows.</p>',
+            challenge:
+                "<p>Novality's challenge is to become a multimodal hub within the field of Smartcities.  The aim is to promote connected micro-mobility and take advantage of the IoT node to add services or utilities such as air quality sensors, noise, people counter, electric vehicle charging points, etc.  For this reason, it is essential for us to be able to integrate into a FIWARE environment to communicate with the different Smartcities platforms of the Public Administrations and Innovation Hubs.</p>",
+            references:
+                '<ul> <li>2 Parkings in Marbella in 2021</li> <li>2 Parkings for Junta de Andalucía in 2022</li> <li>27 Parkings in Fuenlabrada in 2023</li> <li>2 Parkings in Churriana de la Vega in 2023</li> <li>1 Parking for Diputación de Guipuzkoa in 2023</li> </ul>',
+            awards: '<p><strong>RENAULT FOUNDATION</strong> Winners with an Accesit to the best innovation within Sustainable and Accessible Mobility.</p> <p><strong>BABLE SMART CITIES</strong> Selected as one of the TOP 50 companies in the smart city field.</p> <p><strong>EIT URBAN MOBILITY</strong> Winners of the challenge posed by the city of Riga, (Latvia) within the "Raptor Pilot 2" program, installing a pilot in said city.</p> <p><strong>BBVA JOLY GROUP</strong> Awarded with the Sustainable Innovation Award awarded by the Joly Group at an event sponsored by BBVA.</p>',
+            technologies: ['Interaction Technologies', 'Internet of Things', 'Mobility and Location', 'Open Data'],
+            domains: ['Cities', 'Manufacturing', 'Mobility', 'Sustainability', 'Telecommunication'],
+            docs: [
+                ['NOVALITY Catalogue', 'https://drive.google.com/file/d/1H8TjTqMqfsFLgFpdFe0uldcgJxuAVf7B/view?pli=1']
+            ],
+            videos: [
+                ['NOVALITY Presentation', 'https://drive.google.com/file/d/1GO_9YQbHFX_jyRF1pGZeDH8mfCqyhjKz/view'],
+                ['EIT Urban Mobility presents NOVALITY in Riga', 'https://www.youtube.com/watch?v=NbeH2JfURPM']
+            ],
+            materials: [
+                [
+                    'Fuenlabrada pionera',
+                    'https://www.fuenlabradanoticias.com/articulo/fuenlabrada/fuenlabrada-pionera-instalacion-aparcamientos-seguros-bicicletas-patinetes/20230210200326162888.html'
+                ],
+                [
+                    'ABC Motor',
+                    'https://www.abc.es/motor/motoreco/fundacion-renault-espana-reconoce-mejores-practicas-movilidad-20221206230832-nt.html'
+                ],
+                [
+                    'Diario de Sevilla',
+                    'https://www.diariodesevilla.es/sevilla/estacion-Plaza-Armas-aparcamiento-inteligente-primer-bicicletas_0_1691532456.html?utm_source=whatsapp.com&utm_medium=socialshare&utm_campaign=mobile_web'
+                ],
+                [
+                    'Diario Sur',
+                    'https://www.diariosur.es/marbella-estepona/marbella-instala-modulos-inteligentes-bicicletas-20211112160856-nt.html'
+                ]
+            ],
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Novality.svg',
+            featuredImage: 'https://www.fiware.org/wp-content/uploads/9c04b4c5dbdbb0df0a8246d4bd483152.jpg',
+            furtherImages: ''
+        },
+        'anteral-uradsmarttrafficcompact': {
+            category: 'FIWARE-Ready',
+            organisationName: 'Anteral',
+            productName: 'uRAD Smart Traffic Compact',
+            organisationWebsite: 'https://urad.es',
+            organisationEmail: 'mailto:contact@anteral.com',
+            linkedIn: 'https://www.linkedin.com/company/anteral',
+            twitter: '',
+            productWebsite: 'https://urad.es/en/soluciones-cerradas/',
+            excerpt:
+                'uRAD Smart Traffic Compact is a Smart Cities specific radar solution for non-invasive traffic monitoring in urban and interurban environments',
+            yearOfValidation: 2023,
+            description:
+                '<p>Based on mmwave radar technology, <strong>uRAD Smart Traffic Compact</strong> monitors vehicles on urban and interurban roads with dense or light traffic, reaching to monitor up to 6 vehicles lanes. For each vehicle, the device measures timestamp, velocity, direction, lane and classifies it between type of vehicle according its length.</p> <p>The device detects the vehicles only with radar technology, without video camera, this way is less intrusive, less computing capacity is needed and super accurate measuring the velocity.  Moreover, it has low consumption and works under all weather conditions without affecting the performance.</p>',
+            challenge:
+                '<p>Intelligent Transport Systems play a crucial role in shaping the future of transportation, with the potential to improve safety, efficiency, and sustainability across various modes of transportation.  By leveraging advanced technologies and data-driven solutions, ITS aims to enhance the overall performance and user experience of transportation systems.</p> <p>In the changing world we live in a data-driven traffic monitoring solution leverages advanced data processing, analytics, and visualization techniques to provide accurate and actionable insights for traffic management. By utilizing real-time and historical data, this type of solutions enables proactive decision-making, improves traffic flow, and enhances overall transportation efficiency.</p>',
+            references:
+                '<ul> <li>Municipality of Pamplona (Public body – Spain)</li> <li>Municipality of Leuwarden (Public body – Netherlands)</li> </ul>',
+            awards: '',
+            technologies: ['Internet of Things', 'Mobility and Location', 'Sensory Systems'],
+            domains: ['Automotive', 'Cities', 'Government', 'Mobility', 'Transport'],
+            docs: [['uRAD Smart Traffic', 'https://urad.es/en/soluciones-cerradas/urad-smart-traffic/']],
+            videos: [['uRAD - Radar for traffic monitoring', 'https://www.youtube.com/watch?v=PJj2ZAx_gio']],
+            materials: [
+                [
+                    'Pamplona News',
+                    'https://www.pamplona.es/actualidad/noticias/los-ocho-aforadores-de-bicicletas-instalados-en-la-ciudad-registran-27-millones'
+                ]
+            ],
+            logo: 'https://www.fiware.org/wp-content/uploads/17225a268f2066f3f92b13aee0f56f17.png',
+            featuredImage: 'https://www.fiware.org/wp-content/uploads/d9b3d3de708558c77ed6c0e5d0ed3381-scaled.jpg',
+            furtherImages: ''
+        },
+        'atos-bikeavailabilityforecastservice': {
+            category: 'FIWARE-Ready',
+            organisationName: 'ATOS',
+            productName: 'Bike Availability Forecast Service',
+            organisationWebsite: 'https://atos.net',
+            organisationEmail: 'mailto:i.sevillano@atos.net',
+            linkedIn: '',
+            twitter: '',
+            productWebsite: 'https://atos.net',
+            excerpt:
+                'Bike availability prediction model for bike-sharing systems using historical data to optimize fleet management and improve user experience.',
+            yearOfValidation: 2023,
+            description:
+                '<p>The <strong>bike availability prediction service</strong> is designed to assist bike-sharing systems in effectively managing their fleets and enhancing the overall user experience. By leveraging historical data and considering various factors such as holidays, day of the week, and past bike usage patterns, the model aims to estimate the number of available bikes at a specific location and time.</p> <p>The service employs advanced algorithms to collect and process data, ensuring accurate predictions. These algorithms analyze the historical bike usage data, identifying patterns and trends that contribute to bike availability fluctuations. By understanding these patterns, the model can generate reliable forecasts of bike availability, empowering bike-sharing systems to make informed decisions regarding fleet distribution and allocation.</p> <p>The bike availability prediction service offers a valuable solution for bike-sharing systems, enabling them to optimize fleet management, enhance user satisfaction, and potentially increase ridership.</p>',
+            challenge:
+                '<p>As cities embrace the concept of smart cities, the bike availability prediction service plays a vital role in addressing the challenges and needs of urban mobility. One of the key challenges is optimizing the utilization of bike-sharing systems within the broader transportation ecosystem. By accurately forecasting bike availability, the service enables better coordination with other modes of transport, such as buses, trains, and ride-sharing services, fostering a seamless and integrated transportation network.</p> <p>Another challenge lies in ensuring equitable access to bike-sharing services across different neighborhoods and communities. The prediction model can assist in identifying areas with higher demand and lower bike availability, allowing for targeted interventions and resource allocation to promote inclusivity and accessibility.</p>',
+            references:
+                '<ul> <li><a href="https://www.imec-int.com/en" title="imec">imec</a></li> <li><a href="https://imredd.fr/en/home/" title="IMREDD">IMREDD</a></li> <li><a href="https://www.murcia.es/web/portal/inicio" title="Ayuntamiento de Murcia">Ayuntamiento de Murcia</a></li> </ul>',
+            awards: '',
+            technologies: [
+                'Artificial Intelligence',
+                'Big Data',
+                'Data Analytics',
+                'Internet of Things',
+                'Service Architectures'
+            ],
+            domains: ['Logistics', 'Sustainability', 'Tourism', 'Transport'],
+            docs: [],
+            videos: [],
+            materials: [],
+            logo: 'https://www.fiware.org/wp-content/uploads/347206f0386cb72b1ee40ee161aa3d50.png',
+            featuredImage: 'https://www.fiware.org/wp-content/uploads/15412dc37c52a67a274196fc1bc1c18f.png',
+            furtherImages: '',
+            related: [
+                {
+                    category: 'Powered by FIWARE',
+                    featuredImage:
+                        'https://www.fiware.org/wp-content/marketplace/images/hero_atos_urban-data-platform.png',
+                    excerpt:
+                        'UDP is the open, secure, and interoperable Atos standard data platform that allows the integration and collection of information from data sources, and the standardization and processing of that information to provide aggregated and intelligent views of raw data to facilitate decision-making.',
+                    productName: 'Urban Data Platform',
+                    companyLink: './?category=powered&id=atos-urbandataplatform'
+                },
+                {
+                    category: 'Powered by FIWARE',
+                    featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_atos_masai.png',
+                    excerpt:
+                        'MASAI is an efficient data integration software for manufacturing systems allowing to collect data from a variety of IoT Devices in the manufacturing domain (Industry 4.0), that is not entirely covered by existing proprietary solutions.',
+                    productName: 'MASAI',
+                    companyLink: './?category=powered&id=atos-masai'
+                },
+                {
+                    category: 'Services',
+                    featuredImage:
+                        'https://www.fiware.org/wp-content/marketplace/images/hero_atos_connected-territories.png',
+                    excerpt:
+                        'Atos, a leading digital services company and one of the founders of the initiative, has acquired deep knowledge of the FIWARE technologies and ecosystem.',
+                    productName: 'Connected Territories',
+                    companyLink: './?category=services&id=atos-connectedterritories'
+                }
+            ]
+        },
+        'libelium-smartparking': {
+            category: 'FIWARE-Ready',
+            organisationName: 'Libelium',
+            productName: 'Smart Parking',
+            organisationWebsite: 'https://libelium.com',
+            organisationEmail: 'mailto:n.muro@libelium.com',
+            linkedIn: 'https://www.linkedin.com/company/libelium/',
+            twitter: 'https://twitter.com/libelium',
+            productWebsite: 'https://www.libelium.com/iot-products/smart-parking/',
+            excerpt:
+                'Smart Parking Sensor technology is a radar sensor device that allows the detection of parking availability indoors and outdoors.\nLibelium Smart Parking benefits from 2 different detection systems:\nRadar and Magnetic.\nGreater precision, improved detection and stability performance: 99% accuracy.',
+            yearOfValidation: 2023,
+            description:
+                '<ul> <li>Optimization of existing parking capacity</li> <li>Additional parking revenues: having real-time information about parking spaces increase parking revenues by up to 35%.</li> <li>Enforcement cost reduction and reduced parking violations</li> <li>Special permits detection (disabled, emergency…)</li> <li>Pricing strategies</li> <li>Reduction of traffic congestion</li> <li>Reduction of CO2, dust emissions (PM2.5 – PM10) and other pollutants. Congestion can be reduced by 15-30%.</li> <li>Reduction of noise pollution</li> <li>Improvement of quality of life and the reputation of being a greener city.</li> <li>Technological advancements such as online payments and the development of mobile apps for reserving parking slots are instrumental in driving the implementation of smart parking systems.</li> <li>Reduction in time spent looking for a parking space increases retail and business revenues in the area of implementation.</li> </ul>',
+            challenge:
+                '<p>Finding parking in urban areas, whether public or private, is an everyday problem. The result is an increase in air and noise pollution, fuel consumption, traffic congestion and stress for citizens.</p> <p>The IoT is enabling to reduce gas emissions and traffic congestion while increasing drivers’ health.</p>',
+            references:
+                '<ul> <li><a href="https://www.libelium.com/libeliumworld/success-stories/a-smart-parking-solution-for-the-best-beach-city-in-the-usa/" title="Smart Parking in USA">Smart Parking in USA</a></li> <li><a href="https://www.libelium.com/libeliumworld/success-stories/libelium-iot-technology-at-the-parking-lot-of-the-most-emblematic-hotel-in-madrid/" title="Smart Parking in Madrid">Smart Parking in Madrid</a></li> <li><a href="https://www.libelium.com/libeliumworld/success-stories/iot-technology-to-monitor-parking-for-disabled-citizens-in-the-north-of-spain/" title="Smart Parking in the north of Spain ">Smart Parking in the north of Spain </a></li> <li><a href="https://www.libelium.com/libeliumworld/success-stories/smart-parking-iot-platform-to-increase-the-efficiency-of-electric-car-recharging-station/" title="Electric car recharging station">Electric car recharging station</a></li> </ul>',
+            awards: '',
+            technologies: ['Internet of Things', 'Mobility and Location'],
+            domains: ['Cities', 'Green Deal', 'Transport'],
+            docs: [],
+            videos: [],
+            materials: [],
+            logo: 'https://www.fiware.org/wp-content/uploads/f5ea8d844b4fedae47a783a6a122d591.png',
+            featuredImage: 'https://www.fiware.org/wp-content/uploads/e196bfeb4628f5eab36430d6ba5b5535.png',
+            furtherImages: '',
+            related: [
+                {
+                    category: 'FIWARE-Ready',
+                    featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_libelium_meshlium.png',
+                    excerpt:
+                        'Meshlium is the IoT Gateway to connect any sensor to any Cloud Platform, including FIWARE. It provides customers/users with help to monitor daily activities in order to get gain business intelligence.',
+                    productName: 'Meshlium',
+                    companyLink: './?category=ready&id=libelium-meshlium'
+                },
+                {
+                    category: 'FIWARE-Ready',
+                    featuredImage:
+                        'https://www.fiware.org/wp-content/marketplace/images/hero_libelium_plug-and-sense.png',
+                    excerpt:
+                        'Plug&Sense is an IoT Device that offers its users several benefits such as easily attachment of the Sensor probes, solar panel option battery recharge, the 4G module features a GPS receiver etc.',
+                    productName: 'Plug&Sense!',
+                    companyLink: './?category=ready&id=libelium-plugsense'
+                },
+                {
+                    category: 'FIWARE-Ready',
+                    featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_libelium_waspmote.png',
+                    excerpt:
+                        'Waspmote hardware architecture has been specially designed to work with extremely low consumption. Digital switches allow to turn on and off any of the sensor interfaces as well as the radio modules.',
+                    productName: 'Waspmote',
+                    companyLink: './?category=ready&id=libelium-waspmote'
+                }
+            ]
+        },
+        'imredduniversitycôtedazur-noiseforecasting': {
+            category: 'FIWARE-Ready',
+            organisationName: "IMREDD - University Côte d\\'Azur",
+            productName: 'Noise Forecasting',
+            organisationWebsite: 'https://imredd.fr',
+            organisationEmail: 'mailto:benoit.couraud@unice.fr',
+            linkedIn: 'https://www.linkedin.com/showcase/imredd/',
+            twitter: '',
+            productWebsite: 'https://github.com/bcouraud/Noise_TimeSeries_Forecasting.git',
+            excerpt:
+                'This service aims to provide short-term forecasting of a time series such as noise. It builds on historical data stored in a CSV file with a column for time, and a column for the values, then, a forecast model is trained, and forecasts are made available on demand through an API.',
+            yearOfValidation: 2023,
+            description:
+                '<p>The <strong>Noise forecasting</strong> service is designed to assist cities and citizens in determining the time at which there will most likely be high noise annoyance around the location of a sensor. By leveraging historical data and considering various factors such as day of the week, and past noise evolution patterns, the model aims to estimate the future noise at a specific location and time.  The service employs standard AI algorithms to collect and process data, ensuring accurate predictions. These algorithms build on historical noise data, identifying patterns and trends that contribute to noise intensity fluctuations. By understanding these patterns, the model can generate reliable forecasts of noise levels.  The noise forecasting service offers a valuable solution for citizens, and forecasts are available in different format through an API.</p>',
+            challenge:
+                '<p>As cities embrace the concept of smart cities, the noise forecasting service plays an important role in addressing the challenges and needs of citizens. One of the key challenges is to provide a safe and pleasant environment to people living in cities. By accurately forecasting noise levels, the service enables citizens to avoid going out at times of high noise, or it enables cities to change the way people use their transportation system in order to reduce the impact of traffic on noise.</p>',
+            references:
+                '<p><a href="https://imredd.fr/en/home/" title="IMREDD">IMREDD</a> <a href="https://www.murcia.es/web/portal/inicio" title="Ayuntamiento de Murcia">Ayuntamiento de Murcia</a> <a href="https://tip-imredd.unice.fr/greenmovinterface/" title="GreenMov Interface ">GreenMov Interface </a></p>',
+            awards: '<p>NA</p>',
+            technologies: [
+                'Artificial Intelligence',
+                'Big Data',
+                'Data Analytics',
+                'Internet of Things',
+                'Software as a Service'
+            ],
+            domains: ['Air Quality', 'Cities', 'Measurement', 'Transport'],
+            docs: [['NoiseTime SeriesForecasting', 'https://github.com/bcouraud/Noise_TimeSeries_Forecasting']],
+            videos: [],
+            materials: [],
+            logo: 'https://www.fiware.org/wp-content/uploads/5228db9283053aa8d9992239a8f3047b.png',
+            featuredImage: 'https://www.fiware.org/wp-content/uploads/7e42c49f0ab68bb174a092337f8358e6.png',
+            furtherImages: ''
+        },
+        'imredd-traffictimeseriesforecasting': {
+            category: 'FIWARE-Ready',
+            organisationName: 'IMREDD',
+            productName: 'Traffic time series forecasting',
+            organisationWebsite: 'https://imredd.fr',
+            organisationEmail: 'mailto:benoit.couraud@unice.fr',
+            linkedIn: 'https://www.linkedin.com/showcase/imredd/?originalSubdomain=fr',
+            twitter: '',
+            productWebsite: 'https://github.com/bcouraud/traffic_timeseries_forecasting_NGSILD/tree/main',
+            excerpt:
+                'Traffic intensity forecasting service using historical data to forecast the traffic on the nex day. This can be used optimize traffic management, reduce traffic congestion and improve user experience',
+            yearOfValidation: 2023,
+            description:
+                "<p>**The traffic forecasting service **is designed to assist cities' systems in effectively managing their traffic and congestion and enhancing the overall user experience. By leveraging historical data and considering various factors such as the day of the week, and past traffic intensity patterns, the model aims to estimate the future traffic intensity at a specific location and day.  The service employs standard AI algorithms to collect and process data, ensuring accurate predictions. These algorithms analyze the historical traffic data, identifying patterns and trends that contribute to traffic fluctuations.  By understanding these patterns, the model can generate reliable forecasts of traffic, empowering cities and citizens to make informed decisions regarding fleet distribution and allocation.  The traffic forecasting service offers a valuable solution for traffic management that can enhance user satisfaction.</p>",
+            challenge:
+                '<p>As cities embrace the concept of smart cities, the traffic intensity forecasting service plays an important role in addressing the challenges and needs of urban mobility. One of the key challenges is optimizing traffic management within the city by efficiently regulating the traffic. By accurately forecasting the traffic, the service enables better coordination with other modes of transport, such as buses, trains, and ride-sharing services, fostering a seamless and integrated transportation network.</p>',
+            references:
+                '<p><a href="https://imredd.fr/en/home/#qui-sommes-nous-mobile" title="IMREDD">IMREDD</a> <a href="https://tip-imredd.unice.fr/greenmovtrafficforecasting/forecast/greenmov/traffic?aggregation=1D&forecast_horizon=1D" title="GreenMov Traffic Forecasting">GreenMov Traffic Forecasting</a></p>',
+            awards: '<p>NA</p>',
+            technologies: ['Artificial Intelligence', 'Big Data', 'Software as a Service'],
+            domains: ['Cities', 'Sustainability', 'Transport'],
+            docs: [
+                [
+                    'Traffictimeseriesforecasting_NGSILD',
+                    'https://github.com/bcouraud/traffic_timeseries_forecasting_NGSILD/tree/main'
+                ]
+            ],
+            videos: [],
+            materials: [['Reference 1', 'https://github.com/bcouraud/traffic_timeseries_forecasting_NGSILD/tree/main']],
+            logo: 'https://www.fiware.org/wp-content/uploads/9f08175aa7050bec23fa793da6d87a85.png',
+            featuredImage: 'https://www.fiware.org/wp-content/uploads/22e5e64229386ab6491bf249186ac4c8.png',
+            furtherImages: ''
         }
     },
     cities: {
@@ -8646,6 +8950,14 @@ var pageData = {
                         'MASAI is an efficient data integration software for manufacturing systems allowing to collect data from a variety of IoT Devices in the manufacturing domain (Industry 4.0), that is not entirely covered by existing proprietary solutions.',
                     productName: 'MASAI',
                     companyLink: './?category=powered&id=atos-masai'
+                },
+                {
+                    category: 'FIWARE-Ready',
+                    featuredImage: 'https://www.fiware.org/wp-content/uploads/15412dc37c52a67a274196fc1bc1c18f.png',
+                    excerpt:
+                        'Bike availability prediction model for bike-sharing systems using historical data to optimize fleet management and improve user experience.',
+                    productName: 'Bike Availability Forecast Service',
+                    companyLink: './?category=ready&id=atos-bikeavailabilityforecastservice'
                 }
             ]
         },
