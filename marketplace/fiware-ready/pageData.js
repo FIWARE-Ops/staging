@@ -997,7 +997,7 @@ var pageData = [
             'Smart Parking Sensor technology is a radar sensor device that allows the detection of parking availability indoors and outdoors. Libelium Smart Parking benefits from 2 different detection systems: Radar and Magnetic. Greater precision, improved detection and stability performance: 99% accuracy.'
     },
     {
-        company: "IMREDD - University Côte d\\'Azur",
+        company: "IMREDD - University Côte d'Azur",
         name: 'Noise Forecasting',
         img: 'https://www.fiware.org/wp-content/uploads/5228db9283053aa8d9992239a8f3047b.png',
         fiwareMember: false,
