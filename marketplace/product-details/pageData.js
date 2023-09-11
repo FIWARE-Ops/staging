@@ -8790,7 +8790,7 @@ var pageData = {
         },
         'imredduniversitycôtedazur-noiseforecasting': {
             category: 'FIWARE-Ready',
-            organisationName: "IMREDD - University Côte d\\'Azur",
+            organisationName: "IMREDD - University Côte d'Azur",
             productName: 'Noise Forecasting',
             organisationWebsite: 'https://imredd.fr',
             organisationEmail: 'mailto:benoit.couraud@unice.fr',
