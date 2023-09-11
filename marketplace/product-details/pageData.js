@@ -8805,8 +8805,8 @@ var pageData = {
             challenge:
                 '<p>As cities embrace the concept of smart cities, the noise forecasting service plays an important role in addressing the challenges and needs of citizens. One of the key challenges is to provide a safe and pleasant environment to people living in cities. By accurately forecasting noise levels, the service enables citizens to avoid going out at times of high noise, or it enables cities to change the way people use their transportation system in order to reduce the impact of traffic on noise.</p>',
             references:
-                '<p><a href="https://imredd.fr/en/home/" title="IMREDD">IMREDD</a> <a href="https://www.murcia.es/web/portal/inicio" title="Ayuntamiento de Murcia">Ayuntamiento de Murcia</a> <a href="https://tip-imredd.unice.fr/greenmovinterface/" title="GreenMov Interface ">GreenMov Interface </a></p>',
-            awards: '<p>NA</p>',
+                '<ul> <li><a href="https://imredd.fr/en/home/" title="IMREDD">IMREDD</a></li> <li><a href="https://www.murcia.es/web/portal/inicio" title="Ayuntamiento de Murcia">Ayuntamiento de Murcia</a></li> <li><a href="https://tip-imredd.unice.fr/greenmovinterface/" title="GreenMov Interface ">GreenMov Interface </a></li> </ul>',
+            awards: '',
             technologies: [
                 'Artificial Intelligence',
                 'Big Data',
@@ -8835,12 +8835,12 @@ var pageData = {
                 'Traffic intensity forecasting service using historical data to forecast the traffic on the nex day. This can be used optimize traffic management, reduce traffic congestion and improve user experience',
             yearOfValidation: 2023,
             description:
-                "<p>**The traffic forecasting service **is designed to assist cities' systems in effectively managing their traffic and congestion and enhancing the overall user experience. By leveraging historical data and considering various factors such as the day of the week, and past traffic intensity patterns, the model aims to estimate the future traffic intensity at a specific location and day.  The service employs standard AI algorithms to collect and process data, ensuring accurate predictions. These algorithms analyze the historical traffic data, identifying patterns and trends that contribute to traffic fluctuations.  By understanding these patterns, the model can generate reliable forecasts of traffic, empowering cities and citizens to make informed decisions regarding fleet distribution and allocation.  The traffic forecasting service offers a valuable solution for traffic management that can enhance user satisfaction.</p>",
+                "<p><strong>The traffic forecasting service</strong>  is designed to assist cities' systems in effectively managing their traffic and congestion and enhancing the overall user experience. By leveraging historical data and considering various factors such as the day of the week, and past traffic intensity patterns, the model aims to estimate the future traffic intensity at a specific location and day.  The service employs standard AI algorithms to collect and process data, ensuring accurate predictions. These algorithms analyze the historical traffic data, identifying patterns and trends that contribute to traffic fluctuations. </p> <p>By understanding these patterns, the model can generate reliable forecasts of traffic, empowering cities and citizens to make informed decisions regarding fleet distribution and allocation.  The traffic forecasting service offers a valuable solution for traffic management that can enhance user satisfaction.</p>",
             challenge:
                 '<p>As cities embrace the concept of smart cities, the traffic intensity forecasting service plays an important role in addressing the challenges and needs of urban mobility. One of the key challenges is optimizing traffic management within the city by efficiently regulating the traffic. By accurately forecasting the traffic, the service enables better coordination with other modes of transport, such as buses, trains, and ride-sharing services, fostering a seamless and integrated transportation network.</p>',
             references:
-                '<p><a href="https://imredd.fr/en/home/#qui-sommes-nous-mobile" title="IMREDD">IMREDD</a> <a href="https://tip-imredd.unice.fr/greenmovtrafficforecasting/forecast/greenmov/traffic?aggregation=1D&forecast_horizon=1D" title="GreenMov Traffic Forecasting">GreenMov Traffic Forecasting</a></p>',
-            awards: '<p>NA</p>',
+                '<ul> <li><a href="https://imredd.fr/en/home/#qui-sommes-nous-mobile" title="IMREDD">IMREDD</a></li> <li><a href="https://tip-imredd.unice.fr/greenmovtrafficforecasting/forecast/greenmov/traffic?aggregation=1D&forecast_horizon=1D" title="GreenMov Traffic Forecasting">GreenMov Traffic Forecasting</a></li> </ul>',
+            awards: '',
             technologies: ['Artificial Intelligence', 'Big Data', 'Software as a Service'],
             domains: ['Cities', 'Sustainability', 'Transport'],
             docs: [
