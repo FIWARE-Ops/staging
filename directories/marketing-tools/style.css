@@ -683,6 +683,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: end;
     gap: 10px;
 }
 
@@ -863,8 +864,6 @@
 
 .flag {
     width: 42px !important;
-    position: absolute;
-    right: 18px;
 }
 
 .f-cat h3 {
