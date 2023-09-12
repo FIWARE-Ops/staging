@@ -44,7 +44,7 @@ function extractTools(input) {
     console.log(tools.length, ' tools generated.');
 
     return tools.sort((a, b) => {
-        return b.name - a.name;
+        return ('' + a.name).localeCompare(b.name);
     });
 }
 

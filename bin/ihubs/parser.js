@@ -48,7 +48,7 @@ function extractIHubs(input) {
     console.log(iHubs.length, ' iHubs generated.');
 
     return iHubs.sort((a, b) => {
-        return b.name - a.name;
+        return ('' + a.name).localeCompare(b.name);
     });
 }
 
@@ -85,4 +85,4 @@ function parse(file) {
 }
 
 exports.parse = parse;
-exports.file = 'enablers.csv';
+exports.file = 'iHubs.csv';

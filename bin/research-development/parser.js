@@ -72,7 +72,7 @@ function extractProjects(input) {
     console.log(projects.length, ' projects generated.');
 
     return projects.sort((a, b) => {
-        return b.name - a.name;
+         return ('' + a.name.toLowerCase()).localeCompare(b.name.toLowerCase());
     });
 }
 

@@ -10,6 +10,8 @@ const ORGANISATIONS_DIR = 'directories/organisations';
 
 const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/organisations/images/organisation-default.png';
 
+const regex = /([^a-zA-Z0-9À-ÿ])/gi;
+
 /**
  * Take the human readable column names from the spreadsheet and create a
  * data object of organisations for later use
@@ -37,7 +39,31 @@ function extractOrganisations(input) {
     console.log(organisations.length, ' organisations generated.');
 
     return organisations.sort((a, b) => {
-        return b.name - a.name;
+        let aName =  '' + a.name.replace(regex, '');
+        let bName =  b.name.replace(regex, '');
+
+        if (a.type === 'Platinum' ){
+            aName = '000-' + aName;
+        }
+        if (b.type === 'Platinum' ){
+            bName = '000-' + bName;
+        }
+
+        if (a.type === 'Gold' ){
+            aName = '001-' + aName;
+        }
+        if (b.type === 'Gold' ){
+            bName = '001-' + bName;
+        }
+
+        if (a.type === 'Gold SEU' ){
+            aName = '002-' + aName;
+        }
+        if (b.type === 'Gold SEU' ){
+            bName = '002-' + bName;
+        }
+
+        return (aName.toLowerCase()).localeCompare(bName.toLowerCase());
     });
 }
 
