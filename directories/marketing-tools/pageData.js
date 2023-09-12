@@ -3,13 +3,11 @@ var departments = [];
 var titles = [
         'Book',
         'Booklet',
-        'Brand Guideline',
-        'Brochures',
-        'Deck',
-        'Flyer',
+        'Brand Guide',
+        'Brochure',
         'Position Paper',
         'Press Kit',
-        'Promotion',
+        'Promotion Kit',
         'White Paper',
 ]; var domains = [
         'AgriFood',
@@ -22,4 +20,7 @@ var titles = [
         'Mobility',
         'Sustainability',
 ]; var countries = [
+        'Deutsch',
+        'English',
+        'Español',
 ]; 
