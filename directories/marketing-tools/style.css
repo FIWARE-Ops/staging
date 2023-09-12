@@ -651,7 +651,8 @@
 .flag {
     width: 42px !important;
     position: absolute;
-    right: 18px;
+    right: 14px;
+    bottom: 8px;
 }
 
 .f-cat h3 {
