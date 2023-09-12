@@ -332,6 +332,28 @@ function smoothScroll() {
   });
 }
 
+function initSticky() {
+  window.onscroll = onScrollHandler;
+
+  function onScrollHandler() {
+    const header = document.getElementById("filters");
+    const footer = document.getElementById("no-sticky");
+
+    if (
+      !!header &&
+      !!footer &&
+      window.pageYOffset > header.offsetTop &&
+      window.pageYOffset < footer.offsetTop
+    ) {
+      header.classList.add("stickybar");
+      header.classList.remove("not-stickybar");
+    } else {
+      header.classList.remove("stickybar");
+      header.classList.add("not-stickybar");
+    }
+  }
+}
+
 function horizontalScroll() {
   // Horizontal Scroll
   var sliders = document.querySelectorAll(".chips");
@@ -381,6 +403,7 @@ document.addEventListener("html-included", () => {
   initSelect();
   initChips();
   filterToggle();
+  initSticky();
   // Isotope istantiation
   // Relies on unpkg.com/imagesloaded
   var count = 0;
