@@ -33,6 +33,19 @@
             {{/each}}
         </select>
     </div>
+
+    <div class='filter-element'>
+        <label for='filterCountry' class='dropdown-label'>Language</label>
+        <select name='' id='filterCountry'>
+            <option value='*'>All Languages</option>
+            {{#each languages}}
+                {{#if (ne this '')}}
+                    <option value='{{createClass this}}'>{{this}}</option>
+                {{/if}}
+            {{/each}}
+        </select>
+    </div>
+
    
     <div class='search-element'>
         <label for='searchInput' class='dropdown-label'>Keywords</label>

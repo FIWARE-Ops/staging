@@ -1,5 +1,5 @@
 {{#each this}}
-    <div class='grid-item {{createClass type}} {{createClasses domain}}'>
+    <div class='grid-item {{createClass type}} {{createClasses domain}} {{createClass language}}'>
         <a href="{{website}}">
             <img decoding="async" class="gridElementLogo" src="{{img}}">
         </a>    
@@ -20,6 +20,7 @@
                     <span class='chips-gradient'></span>
                 </div>
             {{/if}}
+            <img decoding="async" alt='{{language}}' class='flag' src='{{flag}}' loading='lazy' />
         </div>
     </div>
 {{/each}}

@@ -23,6 +23,8 @@ function extractTools(input) {
             domain: Parser.splitStrings(item['Domain']),
             type: item['Type'],
             website: item['Link'],
+            language: item['Language'],
+            flag: item['Country flag'],
             publish: Parser.boolean(item['Published'])
         };
 
@@ -60,7 +62,7 @@ function parse(file) {
             const filterData = {
                 types: Sorter.sortData(tools, 'type'),
                 domains: Sorter.flatSortData(tools, 'domain'),
-                countries: Sorter.flatSortData(tools, 'country'),
+                languages: Sorter.sortData(tools, 'language'),
                 tools
             };
 
