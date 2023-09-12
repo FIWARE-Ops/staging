@@ -84,3 +84,4 @@ function parse(file) {
 }
 
 exports.parse = parse;
+exports.file = 'organisations.csv';

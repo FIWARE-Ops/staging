@@ -50,7 +50,6 @@ function createClasses(data) {
     }).join(' ');
 }
 
-
 function appendTexts(data) {
     return _.map(data, function (el) {
         return el;

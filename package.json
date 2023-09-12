@@ -18,6 +18,7 @@
     "people": "PROCESS=people PAGE=team npm start",
     "bod": "PROCESS=people PAGE=bod npm start",
     "boo": "PROCESS=people PAGE=boo npm start",
+    "domains": "PROCESS=domains npm start",
     "experts": "PROCESS=people PAGE=experts npm start",
     "evangelists": "PROCESS=people PAGE=evangelists npm start",
     "fisab": "PROCESS=people PAGE=fisab npm start",

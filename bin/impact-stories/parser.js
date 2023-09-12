@@ -10,7 +10,6 @@ const IMPACT_STORIES_DIR = 'directories/impact-stories';
 
 const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/impact-stories/images/impact-story-default.png';
 
-
 /**
  * Take the human readable column names from the spreadsheet and create a
  * data object of impactStories for later use
@@ -35,7 +34,7 @@ function extractStories(input) {
             excerpt: item['Excerpt'],
             description: item['Description'],
             publish: Parser.boolean(item['Published']),
-            featured: Parser.boolean(item['Featured']),
+            featured: Parser.boolean(item['Featured'])
         };
 
         if (impactStory.website || impactStory.twitter || impactStory.linkedIn) {
@@ -61,9 +60,12 @@ function extractStories(input) {
     }
     console.log(impactStories.length, ' impact stories generated.');
 
-    return {featured: featuredStory, stories: impactStories.sort((a, b) => {
-        return b.year - a.year;
-    })};
+    return {
+        featured: featuredStory,
+        stories: impactStories.sort((a, b) => {
+            return b.year - a.year;
+        })
+    };
 }
 
 /**
@@ -87,14 +89,26 @@ function parse(file) {
             };
 
             Template.write(path.join(IMPACT_STORIES_DIR, 'impact.html'), path.join(TEMPLATE_PATH, 'card.hbs'), stories);
-            Template.write(path.join(IMPACT_STORIES_DIR, 'pageData.js'), path.join(TEMPLATE_PATH, 'modal.hbs'), filterData);
-            Template.write(path.join(IMPACT_STORIES_DIR, 'filters.html'), path.join(TEMPLATE_PATH, 'filter.hbs'), filterData);
-            Template.write(path.join(IMPACT_STORIES_DIR, 'latest.html'), path.join(TEMPLATE_PATH, 'latest.hbs'), data.featured);
+            Template.write(
+                path.join(IMPACT_STORIES_DIR, 'pageData.js'),
+                path.join(TEMPLATE_PATH, 'modal.hbs'),
+                filterData
+            );
+            Template.write(
+                path.join(IMPACT_STORIES_DIR, 'filters.html'),
+                path.join(TEMPLATE_PATH, 'filter.hbs'),
+                filterData
+            );
+            Template.write(
+                path.join(IMPACT_STORIES_DIR, 'latest.html'),
+                path.join(TEMPLATE_PATH, 'latest.hbs'),
+                data.featured
+            );
 
             Prettier.format(path.join(IMPACT_STORIES_DIR, 'impact.html'), { parser: 'html' });
             Prettier.format(path.join(IMPACT_STORIES_DIR, 'pageData.js'), { parser: 'flow' });
             Prettier.format(path.join(IMPACT_STORIES_DIR, 'filters.html'), { parser: 'html' });
-             Prettier.format(path.join(IMPACT_STORIES_DIR, 'latest.html'), { parser: 'html' });
+            Prettier.format(path.join(IMPACT_STORIES_DIR, 'latest.html'), { parser: 'html' });
         })
         .catch((e) => {
             console.log(e);
@@ -103,3 +117,4 @@ function parse(file) {
 }
 
 exports.parse = parse;
+exports.file = 'impact-stories.csv';

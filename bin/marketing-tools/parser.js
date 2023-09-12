@@ -65,8 +65,16 @@ function parse(file) {
             };
 
             Template.write(path.join(MARKETING_TOOLS_DIR, 'tools.html'), path.join(TEMPLATE_PATH, 'card.hbs'), tools);
-            Template.write(path.join(MARKETING_TOOLS_DIR, 'pageData.js'), path.join(TEMPLATE_PATH, 'modal.hbs'), filterData);
-            Template.write(path.join(MARKETING_TOOLS_DIR, 'filters.html'), path.join(TEMPLATE_PATH, 'filter.hbs'), filterData);
+            Template.write(
+                path.join(MARKETING_TOOLS_DIR, 'pageData.js'),
+                path.join(TEMPLATE_PATH, 'modal.hbs'),
+                filterData
+            );
+            Template.write(
+                path.join(MARKETING_TOOLS_DIR, 'filters.html'),
+                path.join(TEMPLATE_PATH, 'filter.hbs'),
+                filterData
+            );
 
             Prettier.format(path.join(MARKETING_TOOLS_DIR, 'tools.html'), { parser: 'html' });
             Prettier.format(path.join(MARKETING_TOOLS_DIR, 'pageData.js'), { parser: 'flow' });
@@ -79,3 +87,4 @@ function parse(file) {
 }
 
 exports.parse = parse;
+exports.file = 'marketing.csv';

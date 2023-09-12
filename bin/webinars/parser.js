@@ -82,3 +82,4 @@ function parse(file) {
 }
 
 exports.parse = parse;
+exports.file = 'webinars.csv';

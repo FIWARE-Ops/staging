@@ -116,3 +116,4 @@ function parse(file, page) {
 }
 
 exports.parse = parse;
+exports.file = 'people.csv';

@@ -15,7 +15,7 @@ const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/research-de
  * data object of each project for later use
  */
 function extractProjects(input) {
-    const today = new Date()
+    const today = new Date();
     const projects = [];
     input.forEach((item) => {
         const project = {
@@ -42,8 +42,8 @@ function extractProjects(input) {
             description: Parser.markdown(item['Description']),
             program1: Parser.notBlank(item['Program 1']),
             program1Link: Parser.notBlank(item['Program 1 Link']),
-            program2:  Parser.notBlank(item['Program 2']),
-            program2Link: Parser.notBlank(item['Program 2 Link']), 
+            program2: Parser.notBlank(item['Program 2']),
+            program2Link: Parser.notBlank(item['Program 2 Link']),
             topic: Parser.notBlank(item['Topic']),
             topicLink: Parser.notBlank(item['Topic Link']),
             article1: Parser.notBlank(item['Article 1']),
@@ -53,8 +53,8 @@ function extractProjects(input) {
             publish: Parser.boolean(item['Published'])
         };
 
-        project.year =  project.startDate ? project.startDate.getFullYear().toString() : 'unknown';
-        project.type =  project.endDate < today ? 'Completed' : 'Ongoing';
+        project.year = project.startDate ? project.startDate.getFullYear().toString() : 'unknown';
+        project.type = project.endDate < today ? 'Completed' : 'Ongoing';
 
         if (project.website || project.twitter || project.linkedIn) {
             project.contacts = true;
@@ -95,12 +95,27 @@ function parse(file) {
                 projects
             };
 
+            Template.write(
+                path.join(RESEARCH_DEVELOPMENT_DIR, 'research.html'),
+                path.join(TEMPLATE_PATH, 'card.hbs'),
+                projects
+            );
+            Template.write(
+                path.join(RESEARCH_DEVELOPMENT_DIR, 'pageData.js'),
+                path.join(TEMPLATE_PATH, 'modal.hbs'),
+                filterData
+            );
+            Template.write(
+                path.join(RESEARCH_DEVELOPMENT_DIR, 'filters.html'),
+                path.join(TEMPLATE_PATH, 'filter.hbs'),
+                filterData
+            );
+            Template.write(
+                path.join(RESEARCH_DEVELOPMENT_DIR, 'project/pageData.js'),
+                path.join(TEMPLATE_PATH, 'details.hbs'),
+                projects
+            );
 
-            Template.write(path.join(RESEARCH_DEVELOPMENT_DIR, 'research.html'), path.join(TEMPLATE_PATH, 'card.hbs'), projects);
-            Template.write(path.join(RESEARCH_DEVELOPMENT_DIR, 'pageData.js'), path.join(TEMPLATE_PATH, 'modal.hbs'), filterData);
-            Template.write(path.join(RESEARCH_DEVELOPMENT_DIR, 'filters.html'), path.join(TEMPLATE_PATH, 'filter.hbs'), filterData);
-            Template.write(path.join(RESEARCH_DEVELOPMENT_DIR, 'project/pageData.js'), path.join(TEMPLATE_PATH, 'details.hbs'), projects);
-            
             Prettier.format(path.join(RESEARCH_DEVELOPMENT_DIR, 'research.html'), { parser: 'html' });
             Prettier.format(path.join(RESEARCH_DEVELOPMENT_DIR, 'pageData.js'), { parser: 'flow' });
             Prettier.format(path.join(RESEARCH_DEVELOPMENT_DIR, 'project/pageData.js'), { parser: 'flow' });
@@ -112,3 +127,4 @@ function parse(file) {
 }
 
 exports.parse = parse;
+exports.file = 'research-development.csv';

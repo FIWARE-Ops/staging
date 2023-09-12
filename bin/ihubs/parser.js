@@ -85,3 +85,4 @@ function parse(file) {
 }
 
 exports.parse = parse;
+exports.file = 'enablers.csv';

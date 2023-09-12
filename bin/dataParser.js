@@ -110,11 +110,11 @@ function boolean(input) {
 }
 
 function notBlank(input) {
-    return input  === '' ? undefined : input;
+    return input === '' ? undefined : input;
 }
 
 function date(input) {
-    return input  === '' ? undefined : new Date(input);
+    return input === '' ? undefined : new Date(input);
 }
 
 exports.notBlank = notBlank;
