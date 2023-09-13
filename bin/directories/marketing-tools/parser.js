@@ -2,10 +2,10 @@ const csv = require('csvtojson');
 const path = require('path');
 
 const Prettier = require('prettier');
-const Parser = require('../dataParser');
-const Sorter = require('../sort');
-const Template = require('../template');
-const TEMPLATE_PATH = 'bin/marketing-tools/';
+const Parser = require('../../dataParser');
+const Sorter = require('../../sort');
+const Template = require('../../template');
+const TEMPLATE_PATH = 'bin/directories/marketing-tools/';
 const MARKETING_TOOLS_DIR = 'directories/marketing-tools';
 
 const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/marketing-tools/images/iHub-default.png';

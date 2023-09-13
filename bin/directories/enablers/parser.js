@@ -3,10 +3,10 @@ const path = require('path');
 const Prettier = require('prettier');
 
 const Static = require('./staticData');
-const Parser = require('../dataParser');
-const Sorter = require('../sort');
-const Template = require('../template');
-const TEMPLATE_PATH = 'bin/enablers/';
+const Parser = require('../../dataParser');
+const Sorter = require('../../sort');
+const Template = require('../../template');
+const TEMPLATE_PATH = 'bin/directories/enablers/';
 const ENABLERS_DIR = 'directories/enablers';
 
 const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/enablers/images/webinar-default.png';

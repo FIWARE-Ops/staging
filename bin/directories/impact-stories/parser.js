@@ -2,10 +2,10 @@ const csv = require('csvtojson');
 const path = require('path');
 
 const Prettier = require('prettier');
-const Parser = require('../dataParser');
-const Sorter = require('../sort');
-const Template = require('../template');
-const TEMPLATE_PATH = 'bin/impact-stories/';
+const Parser = require('../../dataParser');
+const Sorter = require('../../sort');
+const Template = require('../../template');
+const TEMPLATE_PATH = 'bin/directories/impact-stories/';
 const IMPACT_STORIES_DIR = 'directories/impact-stories';
 
 const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/impact-stories/images/impact-story-default.png';

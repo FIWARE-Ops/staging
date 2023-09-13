@@ -2,10 +2,10 @@ const csv = require('csvtojson');
 const path = require('path');
 
 const Prettier = require('prettier');
-const Parser = require('../dataParser');
-const Sorter = require('../sort');
-const Template = require('../template');
-const TEMPLATE_PATH = 'bin/open-calls/';
+const Parser = require('../../dataParser');
+const Sorter = require('../../sort');
+const Template = require('../../template');
+const TEMPLATE_PATH = 'bin/directories/open-calls/';
 const OPEN_CALLS_DIR = 'directories/open-calls';
 
 const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/open-calls/images/open-calls-default.png';

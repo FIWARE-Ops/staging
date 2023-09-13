@@ -1,14 +1,15 @@
-const Domains = require('./domains/parser');
-const Enablers = require('./enablers/parser');
-const ImpactStories = require('./impact-stories/parser');
-const iHubs = require('./ihubs/parser');
-const Marketing = require('./marketing-tools/parser');
-const Marketplace = require('./marketplace/parser');
-const OpenCalls = require('./open-calls/parser');
-const Organisations = require('./organisations/parser');
+const Domains = require('./directories/domains/parser');
+const Enablers = require('./directories/enablers/parser');
+const ImpactStories = require('./directories/impact-stories/parser');
+const iHubs = require('./directories/ihubs/parser');
+const Marketing = require('./directories/marketing-tools/parser');
+const OpenCalls = require('./directories/open-calls/parser');
+const Organisations = require('./directories/organisations/parser');
+const ResearchDevelopment = require('./directories/research-development/parser');
+const Webinars = require('./directories/webinars/parser');
+
 const People = require('./people/parser');
-const ResearchDevelopment = require('./research-development/parser');
-const Webinars = require('./webinars/parser');
+const Marketplace = require('./marketplace/parser');
 
 const fs = require('fs-extra');
 const Loader = require('./downloader');

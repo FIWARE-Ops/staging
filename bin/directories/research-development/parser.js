@@ -2,10 +2,10 @@ const csv = require('csvtojson');
 const path = require('path');
 
 const Prettier = require('prettier');
-const Parser = require('../dataParser');
-const Sorter = require('../sort');
-const Template = require('../template');
-const TEMPLATE_PATH = 'bin/research-development/';
+const Parser = require('../../dataParser');
+const Sorter = require('../../sort');
+const Template = require('../../template');
+const TEMPLATE_PATH = 'bin/directories/research-development/';
 const RESEARCH_DEVELOPMENT_DIR = 'directories/research-development';
 
 const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/research-development/images/r-and-d-default.png';
