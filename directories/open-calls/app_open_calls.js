@@ -392,6 +392,18 @@ function horizontalScroll() {
   });
 }
 
+function autoCloseCalls(){
+  const today = Date.parse(new Date());
+
+  $('[data-close-date]').each(function(  ) {
+     if ($(this).data('close-date') < today){
+        $(this).html('<span class="material-symbols-outlined">info</span>Closed');
+        $(this).addClass("closed");
+     }
+  });
+}
+
+
 document.addEventListener("html-included", () => {
   //$("#filteredCompanies").text(window.modalData.length);
   horizontalScroll();
@@ -401,6 +413,7 @@ document.addEventListener("html-included", () => {
     return;
   }
   init = true;
+  autoCloseCalls();
   initSelect();
   initChips();
   filterToggle();
