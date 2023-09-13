@@ -55,6 +55,10 @@ function formatDate(data) {
     return date.toDateString().substring(3);
 }
 
+function parseDate(data) {
+    return Date.parse(data);
+}
+
 function appendTexts(data) {
     return _.map(data, function (el) {
         return el;
@@ -89,6 +93,7 @@ Handlebars.registerHelper('createClass', createClass);
 Handlebars.registerHelper('createAnchor', createAnchor);
 Handlebars.registerHelper('appendTexts', appendTexts);
 Handlebars.registerHelper('formatDate', formatDate);
+Handlebars.registerHelper('parseDate', parseDate);
 Handlebars.registerHelper('rating', rating);
 Handlebars.registerHelper('json', stringify);
 Handlebars.registerHelper('math', math);

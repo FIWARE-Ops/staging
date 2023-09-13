@@ -6,12 +6,6 @@
         </a>
         <div class="gridElementTextContainer">
             <a target="_blank" href="{{website}}" rel="noopener">
-                <div class="label-location">
-                    <h3>{{city}}</h3>
-                    {{#if country}}
-                        <img decoding="async"  alt='{{country}}' class='flag' src='{{flag}}' loading='lazy' />
-                    {{/if}}
-                </div>
                 <h4 class="excerpt-rd">{{content}}</h4>
                 <h4 class="excerpt-rd">{{type}}</h4>
             </a>
@@ -43,7 +37,7 @@
                 </a>
                 {{/if}}
                 {{#if (eq type "Open")}}
-                 <a class='cat-details-primary' target="_blank" href="{{website}}" rel="noopener">
+                 <a class='cat-details-primary' target="_blank" href="{{website}}" rel="noopener" data-close-date="{{parseDate closeDate}}">
                      <span class="material-symbols-outlined">open_in_new</span>
                     Apply
                 </a>
