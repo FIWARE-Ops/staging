@@ -533,13 +533,14 @@
 }
 
 .cat-name {
-    font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+    display: none;
+    /* font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
     font-weight: 600;
     font-size: 16px;
     text-align: left;
     color: #000;
     line-height: 1.4em;
-    padding: 0px;
+    padding: 0px; */
 }
 
 .cat-excerpt.main-chapter {
@@ -566,18 +567,20 @@
 }
 
 .cat-details-primary {
-    width: auto;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     gap: 5px;
     font-size: 15px;
     color: #fff;
     background-color: #002E67;
-    padding: 5px 10px;
+    padding: 10px 10px;
     border-radius: 4px;
     transition: background-color 0.2s linear;
     cursor: pointer;
+    margin: 0 auto;
 }
 
 .cat-details-primary:hover,
@@ -675,10 +678,14 @@
     padding: 0px;
 }
 
+.oc-status {
+    display: none;
+}
+
 .icons {
-    padding: 20px 0px;
-    margin-top: 5px;
-    border-top: 1px solid #cdcdcd;
+    padding: 0px 0px 20px;
+    margin-top: 0px;
+    border-top: 0px solid #cdcdcd;
     display: flex;
     flex-direction: row;
     align-items: center;
