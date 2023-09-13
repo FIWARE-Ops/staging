@@ -685,7 +685,7 @@
 .oc-attributes {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 }
 
 .oc-attribute {
@@ -693,6 +693,7 @@
     flex-direction: row;
     align-items: stretch;
     gap: 10px;
+     color: #000;
 }
 
 .grant, .closeDate {
