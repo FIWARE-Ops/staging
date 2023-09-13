@@ -25,24 +25,27 @@
                     <span class='chips-gradient'></span>
                 </div>
             {{/if}}
-            <div>
-                <a target="_blank" href="{{website}}" rel="noopener">
-                    <h3 class="grant">{{grant}}</h3>
-                    <h3 class="closeDate">{{formatDate closeDate}}</h3>
-                </a>
+
+            <div class="oc-attributes">
+               <div class="oc-attribute">
+                 <span class="material-symbols-outlined">payments</span><h3 class="grant">{{grant}}</</h3>
+               </div>
+               <div class="oc-attribute">
+                 <span class="material-symbols-outlined">event</span><h3 class="closeDate"> {{formatDate closeDate}}></h3>
+               </div>
             </div>
 
             <div class='foot'>
                 {{#if (eq type "Closed")}}
-                <a class='cat-details-primary' target="_blank" href="{{website}}" rel="noopener">
+                <a class='cat-details-primary closed' target="_blank" href="{{website}}" rel="noopener">
                     <span class="material-symbols-outlined">info</span>
                     Closed
                 </a>
                 {{/if}}
                 {{#if (eq type "Open")}}
-                <a class='cat-details' target="_blank" href="{{website}}" rel="noopener">
-                    <span class="material-symbols-outlined">info</span>
-                    More Info
+                 <a class='cat-details-primary' target="_blank" href="{{website}}" rel="noopener">
+                     <span class="material-symbols-outlined">open_in_new</span>
+                    Apply
                 </a>
                 {{/if}}
             </div>

@@ -36,9 +36,9 @@
 
 <div class='dropdown-container'>
     <div class='filter-element'>
-        <label for='filterRole' class='dropdown-label'>Level</label>
+        <label for='filterRole' class='dropdown-label'>Status</label>
         <select name='' id='filterRole'>
-            <option value='*'>All Types</option>
+            <option value='*'>All Statuses</option>
             {{#each type}}
                 {{#if (ne this '')}}
                     <option value='{{createClass this}}'>{{this}}</option>
@@ -47,7 +47,7 @@
         </select>
     </div>
     <div class='filter-element'>
-        <label for='filterDomain' class='dropdown-label'>Domain</label>
+        <label for='filterDomain' class='dropdown-label'>Target</label>
         <select name='' id='filterDomain'>
             <option value='*'>All Targets</option>
             {{#each domain}}
