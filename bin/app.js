@@ -1,13 +1,15 @@
-const People = require('./people/parser');
-const Marketplace = require('./marketplace/parser');
-const Webinars = require('./webinars/parser');
-const iHubs = require('./ihubs/parser');
-const Organisations = require('./organisations/parser');
 const Domains = require('./domains/parser');
 const Enablers = require('./enablers/parser');
 const ImpactStories = require('./impact-stories/parser');
-const ResearchDevelopment = require('./research-development/parser');
+const iHubs = require('./ihubs/parser');
 const Marketing = require('./marketing-tools/parser');
+const Marketplace = require('./marketplace/parser');
+const OpenCalls = require('./open-calls/parser');
+const Organisations = require('./organisations/parser');
+const People = require('./people/parser');
+const ResearchDevelopment = require('./research-development/parser');
+const Webinars = require('./webinars/parser');
+
 const fs = require('fs-extra');
 const Loader = require('./downloader');
 
@@ -44,14 +46,14 @@ if (PROCESS.startsWith('webinars')) {
     });
 }
 
-// Create HTML and template files for the webinars
+// Create HTML and template files for the iHubs
 if (PROCESS.startsWith('iHubs')) {
     Loader.load('ihubs', iHubs.file).then(() => {
         return iHubs.parse(iHubs.file);
     });
 }
 
-// Create HTML and template files for the webinars
+// Create HTML and template files for the organisations
 if (PROCESS.startsWith('organisations')) {
     Loader.load('organisations', Organisations.file).then(() => {
         return Organisations.parse(Organisations.file);
@@ -90,6 +92,13 @@ if (PROCESS.startsWith('marketing')) {
 if (PROCESS.startsWith('domains')) {
     Loader.load('domains', Domains.file).then(() => {
         return Domains.parse(Domains.file);
+    });
+}
+
+// Create HTML and template files for the generic enablers
+if (PROCESS.startsWith('open-calls')) {
+    Loader.load('open-calls', OpenCalls.file).then(() => {
+        return OpenCalls.parse(OpenCalls.file);
     });
 }
 
