@@ -682,6 +682,22 @@
     display: none;
 }
 
+.oc-attribute {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    gap: 10px;
+}
+
+.grant, .closeDate {
+     font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+     font-weight: 600;
+     font-size: 16px;
+     color: #000;
+     line-height: 1.4em;
+     /*cursor: default;*/
+}
+
 .icons {
     padding: 0px 0px 20px;
     margin-top: 0px;
