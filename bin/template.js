@@ -50,6 +50,11 @@ function createClasses(data) {
     }).join(' ');
 }
 
+function formatDate(data) {
+    const date = new Date(data)
+    return date.toDateString().substring(3);
+}
+
 function appendTexts(data) {
     return _.map(data, function (el) {
         return el;
@@ -83,6 +88,7 @@ Handlebars.registerHelper('createClasses', createClasses);
 Handlebars.registerHelper('createClass', createClass);
 Handlebars.registerHelper('createAnchor', createAnchor);
 Handlebars.registerHelper('appendTexts', appendTexts);
+Handlebars.registerHelper('formatDate', formatDate);
 Handlebars.registerHelper('rating', rating);
 Handlebars.registerHelper('json', stringify);
 Handlebars.registerHelper('math', math);

@@ -15,7 +15,7 @@
         <label for='filterRole' class='dropdown-label'>Level</label>
         <select name='' id='filterRole'>
             <option value='*'>All Types</option>
-            {{#each types}}
+            {{#each type}}
                 {{#if (ne this '')}}
                     <option value='{{createClass this}}'>{{this}}</option>
                 {{/if}}
@@ -26,7 +26,7 @@
         <label for='filterDomain' class='dropdown-label'>Domain</label>
         <select name='' id='filterDomain'>
             <option value='*'>All Targets</option>
-            {{#each targets}}
+            {{#each domain}}
                 {{#if (ne this '')}}
                     <option value='{{createClass this}}'>{{this}}</option>
                 {{/if}}

@@ -22,11 +22,11 @@ function extractOpenCalls(input) {
             name: item['Name'],
             grant: item['Grant'],
             img: item['Image'] ? item['Image'] : DEFAULT_IMAGE,
-            target: Parser.splitStrings(item['Target']),
+            domain: Parser.splitStrings(item['Target']),
             closeDate: Parser.date(item['Close Date']),
             type: item['Type'],
             website: item['Link'],
-            content: Parser.markdown(item['Description']),
+            content: item['Description'],
             publish: Parser.boolean(item['Published'])
         };
 
@@ -60,8 +60,8 @@ function parse(file) {
         })
         .then((openCalls) => {
             const filterData = {
-                targets: Sorter.flatSortData(openCalls, 'target'),
-                types: Sorter.flatSortData(openCalls, 'type'),
+                domain: Sorter.flatSortData(openCalls, 'domain'),
+                type: Sorter.flatSortData(openCalls, 'type'),
                 openCalls
             };
 
