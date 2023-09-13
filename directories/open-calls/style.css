@@ -682,6 +682,12 @@
     display: none;
 }
 
+.oc-attributes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .oc-attribute {
     display: flex;
     flex-direction: row;
@@ -694,7 +700,7 @@
      font-weight: 600;
      font-size: 16px;
      color: #000;
-     line-height: 1.4em;
+     line-height: 1.6em;
      padding: 0px;
 }
 
