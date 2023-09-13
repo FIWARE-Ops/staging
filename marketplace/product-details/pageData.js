@@ -7134,6 +7134,22 @@ var pageData = {
                         'Smart Parking Sensor technology is a radar sensor device that allows the detection of parking availability indoors and outdoors.\nLibelium Smart Parking benefits from 2 different detection systems:\nRadar and Magnetic.\nGreater precision, improved detection and stability performance: 99% accuracy.',
                     productName: 'Smart Parking',
                     companyLink: './?category=ready&id=libelium-smartparking'
+                },
+                {
+                    category: 'FIWARE-Ready',
+                    featuredImage: 'https://www.fiware.org/wp-content/uploads/06a3e5d5bfa9fe16b1f6346db89d5946.png',
+                    excerpt:
+                        'Calculates traffic emissions for IoT measurements and model forecasts, allowing citizens and public authorities to easily understand the emissions amount in a location and timespan.',
+                    productName: 'Traffic Environmental Impact Calculation',
+                    companyLink: './?category=ready&id=libelium-trafficenvironmentalimpactcalculation'
+                },
+                {
+                    category: 'FIWARE-Ready',
+                    featuredImage: 'https://www.fiware.org/wp-content/uploads/1c63fe8805471c3b24f0b614cd1b44f4.png',
+                    excerpt:
+                        'Calculates European air quality index for IoT measurements and model forecasts, allowing citizens and public authorities to easily and standardise the air quality status in a location and timespan.',
+                    productName: 'Air Quality Index Calculation',
+                    companyLink: './?category=ready&id=libelium-airqualityindexcalculation'
                 }
             ]
         },
@@ -7191,6 +7207,22 @@ var pageData = {
                         'Smart Parking Sensor technology is a radar sensor device that allows the detection of parking availability indoors and outdoors.\nLibelium Smart Parking benefits from 2 different detection systems:\nRadar and Magnetic.\nGreater precision, improved detection and stability performance: 99% accuracy.',
                     productName: 'Smart Parking',
                     companyLink: './?category=ready&id=libelium-smartparking'
+                },
+                {
+                    category: 'FIWARE-Ready',
+                    featuredImage: 'https://www.fiware.org/wp-content/uploads/06a3e5d5bfa9fe16b1f6346db89d5946.png',
+                    excerpt:
+                        'Calculates traffic emissions for IoT measurements and model forecasts, allowing citizens and public authorities to easily understand the emissions amount in a location and timespan.',
+                    productName: 'Traffic Environmental Impact Calculation',
+                    companyLink: './?category=ready&id=libelium-trafficenvironmentalimpactcalculation'
+                },
+                {
+                    category: 'FIWARE-Ready',
+                    featuredImage: 'https://www.fiware.org/wp-content/uploads/1c63fe8805471c3b24f0b614cd1b44f4.png',
+                    excerpt:
+                        'Calculates European air quality index for IoT measurements and model forecasts, allowing citizens and public authorities to easily and standardise the air quality status in a location and timespan.',
+                    productName: 'Air Quality Index Calculation',
+                    companyLink: './?category=ready&id=libelium-airqualityindexcalculation'
                 }
             ]
         },
@@ -7245,6 +7277,22 @@ var pageData = {
                         'Smart Parking Sensor technology is a radar sensor device that allows the detection of parking availability indoors and outdoors.\nLibelium Smart Parking benefits from 2 different detection systems:\nRadar and Magnetic.\nGreater precision, improved detection and stability performance: 99% accuracy.',
                     productName: 'Smart Parking',
                     companyLink: './?category=ready&id=libelium-smartparking'
+                },
+                {
+                    category: 'FIWARE-Ready',
+                    featuredImage: 'https://www.fiware.org/wp-content/uploads/06a3e5d5bfa9fe16b1f6346db89d5946.png',
+                    excerpt:
+                        'Calculates traffic emissions for IoT measurements and model forecasts, allowing citizens and public authorities to easily understand the emissions amount in a location and timespan.',
+                    productName: 'Traffic Environmental Impact Calculation',
+                    companyLink: './?category=ready&id=libelium-trafficenvironmentalimpactcalculation'
+                },
+                {
+                    category: 'FIWARE-Ready',
+                    featuredImage: 'https://www.fiware.org/wp-content/uploads/1c63fe8805471c3b24f0b614cd1b44f4.png',
+                    excerpt:
+                        'Calculates European air quality index for IoT measurements and model forecasts, allowing citizens and public authorities to easily and standardise the air quality status in a location and timespan.',
+                    productName: 'Air Quality Index Calculation',
+                    companyLink: './?category=ready&id=libelium-airqualityindexcalculation'
                 }
             ]
         },
@@ -8785,6 +8833,22 @@ var pageData = {
                         'Waspmote hardware architecture has been specially designed to work with extremely low consumption. Digital switches allow to turn on and off any of the sensor interfaces as well as the radio modules.',
                     productName: 'Waspmote',
                     companyLink: './?category=ready&id=libelium-waspmote'
+                },
+                {
+                    category: 'FIWARE-Ready',
+                    featuredImage: 'https://www.fiware.org/wp-content/uploads/06a3e5d5bfa9fe16b1f6346db89d5946.png',
+                    excerpt:
+                        'Calculates traffic emissions for IoT measurements and model forecasts, allowing citizens and public authorities to easily understand the emissions amount in a location and timespan.',
+                    productName: 'Traffic Environmental Impact Calculation',
+                    companyLink: './?category=ready&id=libelium-trafficenvironmentalimpactcalculation'
+                },
+                {
+                    category: 'FIWARE-Ready',
+                    featuredImage: 'https://www.fiware.org/wp-content/uploads/1c63fe8805471c3b24f0b614cd1b44f4.png',
+                    excerpt:
+                        'Calculates European air quality index for IoT measurements and model forecasts, allowing citizens and public authorities to easily and standardise the air quality status in a location and timespan.',
+                    productName: 'Air Quality Index Calculation',
+                    companyLink: './?category=ready&id=libelium-airqualityindexcalculation'
                 }
             ]
         },
@@ -8850,10 +8914,157 @@ var pageData = {
                 ]
             ],
             videos: [],
-            materials: [['Reference 1', 'https://github.com/bcouraud/traffic_timeseries_forecasting_NGSILD/tree/main']],
+            materials: [
+                [
+                    'traffictimeseriesforecasting_NGSILD',
+                    'https://github.com/bcouraud/traffic_timeseries_forecasting_NGSILD/tree/main'
+                ]
+            ],
             logo: 'https://www.fiware.org/wp-content/uploads/9f08175aa7050bec23fa793da6d87a85.png',
             featuredImage: 'https://www.fiware.org/wp-content/uploads/22e5e64229386ab6491bf249186ac4c8.png',
             furtherImages: ''
+        },
+        'libelium-trafficenvironmentalimpactcalculation': {
+            category: 'FIWARE-Ready',
+            organisationName: 'Libelium',
+            productName: 'Traffic Environmental Impact Calculation',
+            organisationWebsite: 'https://www.libelium.com',
+            organisationEmail: 'mailto:e.illueca@libelium.com',
+            linkedIn: '',
+            twitter: '',
+            productWebsite: 'https://www.libelium.com',
+            excerpt:
+                'Calculates traffic emissions for IoT measurements and model forecasts, allowing citizens and public authorities to easily understand the emissions amount in a location and timespan.',
+            yearOfValidation: 2023,
+            description:
+                "<p>GreenMov <strong>Traffic Environmental Impact Calculation</strong> service empowers citizens and public authorities with real-time and forecasted insights into different locations' emissions. As concerns about air pollution and its impact on health rise, having access to accurate and up-to-date emissions readings is crucial for making informed decisions. </p> <p>Traffic Environmental Impact Calculation intelligent mobility and sustainable actions by staying informed about traffic emissions. In concrete, it provides the following benefits to involved stakeholders: i) real-time emissions information, ii) forecasted emissions information, iii) traffic management, iv) outdoor activities planning, iv) mobility decisions and v) environmental awareness.</p>",
+            challenge:
+                '<p>One of the key components in smart cities and the decission making process is emissions monitoring, with special focus on traffic emissions, which provides valuable insights to citizens and policy makers to take decisions against climate change.  However, emissions information is quite complex and difficult to process. By combining with other greenMov services, it is possible to approximate traffic emissions and related impact easily and understandably, facing the complexity of the field.  In addition, another challenge is ensuring emissions information for citizens so they can make intelligent decisions regarding mobility or know which areas are highly polluted or will be highly polluted, allowing citizens to select cleaner paths.</p>',
+            references:
+                '<ul> <li><a href="https://www.murcia.es/web/portal/inicio" title="Ayuntamiento de Murcia">Ayuntamiento de Murcia</a></li> <li><a href="https://imredd.fr/en/home/" title="IMREDD">IMREDD</a></li> </ul>',
+            awards: '',
+            technologies: ['Data Analytics', 'Digital Twins', 'Internet of Things'],
+            domains: ['Mobility', 'Sustainability', 'Transport'],
+            docs: [],
+            videos: [],
+            materials: [],
+            logo: 'https://www.fiware.org/wp-content/uploads/31f1f3fa98bbcb096bc4d5963aa9f43a.jpg',
+            featuredImage: 'https://www.fiware.org/wp-content/uploads/06a3e5d5bfa9fe16b1f6346db89d5946.png',
+            furtherImages: '',
+            related: [
+                {
+                    category: 'FIWARE-Ready',
+                    featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_libelium_meshlium.png',
+                    excerpt:
+                        'Meshlium is the IoT Gateway to connect any sensor to any Cloud Platform, including FIWARE. It provides customers/users with help to monitor daily activities in order to get gain business intelligence.',
+                    productName: 'Meshlium',
+                    companyLink: './?category=ready&id=libelium-meshlium'
+                },
+                {
+                    category: 'FIWARE-Ready',
+                    featuredImage:
+                        'https://www.fiware.org/wp-content/marketplace/images/hero_libelium_plug-and-sense.png',
+                    excerpt:
+                        'Plug&Sense is an IoT Device that offers its users several benefits such as easily attachment of the Sensor probes, solar panel option battery recharge, the 4G module features a GPS receiver etc.',
+                    productName: 'Plug&Sense!',
+                    companyLink: './?category=ready&id=libelium-plugsense'
+                },
+                {
+                    category: 'FIWARE-Ready',
+                    featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_libelium_waspmote.png',
+                    excerpt:
+                        'Waspmote hardware architecture has been specially designed to work with extremely low consumption. Digital switches allow to turn on and off any of the sensor interfaces as well as the radio modules.',
+                    productName: 'Waspmote',
+                    companyLink: './?category=ready&id=libelium-waspmote'
+                },
+                {
+                    category: 'FIWARE-Ready',
+                    featuredImage: 'https://www.fiware.org/wp-content/uploads/e196bfeb4628f5eab36430d6ba5b5535.png',
+                    excerpt:
+                        'Smart Parking Sensor technology is a radar sensor device that allows the detection of parking availability indoors and outdoors.\nLibelium Smart Parking benefits from 2 different detection systems:\nRadar and Magnetic.\nGreater precision, improved detection and stability performance: 99% accuracy.',
+                    productName: 'Smart Parking',
+                    companyLink: './?category=ready&id=libelium-smartparking'
+                },
+                {
+                    category: 'FIWARE-Ready',
+                    featuredImage: 'https://www.fiware.org/wp-content/uploads/1c63fe8805471c3b24f0b614cd1b44f4.png',
+                    excerpt:
+                        'Calculates European air quality index for IoT measurements and model forecasts, allowing citizens and public authorities to easily and standardise the air quality status in a location and timespan.',
+                    productName: 'Air Quality Index Calculation',
+                    companyLink: './?category=ready&id=libelium-airqualityindexcalculation'
+                }
+            ]
+        },
+        'libelium-airqualityindexcalculation': {
+            category: 'FIWARE-Ready',
+            organisationName: 'Libelium',
+            productName: 'Air Quality Index Calculation',
+            organisationWebsite: 'https://www.libelium.com',
+            organisationEmail: 'mailto:e.illueca@libelium.com',
+            linkedIn: '',
+            twitter: '',
+            productWebsite: 'https://www.libelium.com',
+            excerpt:
+                'Calculates European air quality index for IoT measurements and model forecasts, allowing citizens and public authorities to easily and standardise the air quality status in a location and timespan.',
+            yearOfValidation: 2023,
+            description:
+                "<p><strong>GreenMov Air Quality Index (AQI) Calculator</strong> service empowers citizens and public authorities with real-time and forecasted insights into your location's air quality. As concerns about air pollution and its impact on health rise, having access to accurate and up-to-date AQI readings is crucial for making informed decisions. It classifies a measurement or forecast into one of the following categories:  i) good, ii) fair, iii) moderate, iv) poor or v) extremely poor.</p> <p>AQI Calculator service prioritizes citizens' health, safety, and quality of life by staying informed about the air they breathe. In concrete, it provides the following benefits to involved stakeholders: i) real-time AQI information, ii) forecasted AQI information, iii) health awareness, iv) outdoor activities planning, iv) mobility decisions and v) environmental awareness</p>",
+            challenge:
+                "<p>One of the key components in smart cities and in the decission making process is air quality monitoring, which provides valuable insights to citizens and policy makers to take decisions against climate change. However, air quality information and pollutant concentration are quite technical information that is not often understandable for citizens or authorities.  Thus, this service's challenge is to summarize the air quality information by using a European standardised index that allows one to understand the status of the air qualitatively, increasing citizens' reliance and awareness. In addition, another challenge is ensuring air quality information for citizens so they can make intelligent decisions regarding mobility or know which areas are highly polluted or will be highly polluted, avoiding contaminant exposure.</p>",
+            references:
+                '<ul> <li><a href="https://www.murcia.es/web/portal/inicio" title="Ayuntamiento de Murcia">Ayuntamiento de Murcia</a></li> <li><a href="https://imredd.fr/en/home/" title="IMREDD">IMREDD</a></li> </ul>',
+            awards: '',
+            technologies: ['Data Analytics', 'Digital Twins', 'Internet of Things'],
+            domains: ['Air Quality', 'Cities', 'Sustainability'],
+            docs: [],
+            videos: [],
+            materials: [],
+            logo: 'https://www.fiware.org/wp-content/uploads/9b37f8d110b60d40a5c6a7f6d51c75d0.jpg',
+            featuredImage: 'https://www.fiware.org/wp-content/uploads/1c63fe8805471c3b24f0b614cd1b44f4.png',
+            furtherImages: '',
+            related: [
+                {
+                    category: 'FIWARE-Ready',
+                    featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_libelium_meshlium.png',
+                    excerpt:
+                        'Meshlium is the IoT Gateway to connect any sensor to any Cloud Platform, including FIWARE. It provides customers/users with help to monitor daily activities in order to get gain business intelligence.',
+                    productName: 'Meshlium',
+                    companyLink: './?category=ready&id=libelium-meshlium'
+                },
+                {
+                    category: 'FIWARE-Ready',
+                    featuredImage:
+                        'https://www.fiware.org/wp-content/marketplace/images/hero_libelium_plug-and-sense.png',
+                    excerpt:
+                        'Plug&Sense is an IoT Device that offers its users several benefits such as easily attachment of the Sensor probes, solar panel option battery recharge, the 4G module features a GPS receiver etc.',
+                    productName: 'Plug&Sense!',
+                    companyLink: './?category=ready&id=libelium-plugsense'
+                },
+                {
+                    category: 'FIWARE-Ready',
+                    featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_libelium_waspmote.png',
+                    excerpt:
+                        'Waspmote hardware architecture has been specially designed to work with extremely low consumption. Digital switches allow to turn on and off any of the sensor interfaces as well as the radio modules.',
+                    productName: 'Waspmote',
+                    companyLink: './?category=ready&id=libelium-waspmote'
+                },
+                {
+                    category: 'FIWARE-Ready',
+                    featuredImage: 'https://www.fiware.org/wp-content/uploads/e196bfeb4628f5eab36430d6ba5b5535.png',
+                    excerpt:
+                        'Smart Parking Sensor technology is a radar sensor device that allows the detection of parking availability indoors and outdoors.\nLibelium Smart Parking benefits from 2 different detection systems:\nRadar and Magnetic.\nGreater precision, improved detection and stability performance: 99% accuracy.',
+                    productName: 'Smart Parking',
+                    companyLink: './?category=ready&id=libelium-smartparking'
+                },
+                {
+                    category: 'FIWARE-Ready',
+                    featuredImage: 'https://www.fiware.org/wp-content/uploads/06a3e5d5bfa9fe16b1f6346db89d5946.png',
+                    excerpt:
+                        'Calculates traffic emissions for IoT measurements and model forecasts, allowing citizens and public authorities to easily understand the emissions amount in a location and timespan.',
+                    productName: 'Traffic Environmental Impact Calculation',
+                    companyLink: './?category=ready&id=libelium-trafficenvironmentalimpactcalculation'
+                }
+            ]
         }
     },
     cities: {
