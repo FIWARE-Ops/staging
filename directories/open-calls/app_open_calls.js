@@ -225,8 +225,7 @@ function initSelect() {
       columnWidth: ".grid-sizer",
     },
     getSortData: {
-      name: ".name parseInt",
-      year: ".year",
+      name: ".cat-name",
     },
     sortAscending: {
       name: true,
@@ -246,6 +245,7 @@ function initSelect() {
         },
       });
     });
+  */
 
     // SORT BY ALPHABETICALLY
     document.querySelector("#orderByName").addEventListener("click", (e) => {
@@ -258,6 +258,7 @@ function initSelect() {
       }
     });
 
+/*
     // SORT BY YEAR
     document.querySelector("#orderByYear").addEventListener("click", (e) => {
       if (e.target.classList.contains("active") == false) {
