@@ -7,7 +7,7 @@
         <div class="gridElementTextContainer">
             <a target="_blank" href="{{website}}" rel="noopener">
                 <h4 class="excerpt-rd">{{content}}</h4>
-                <h4 class="excerpt-rd">{{type}}</h4>
+                <h4 class="oc-status">{{type}}</h4>
             </a>
             {{#if (gt domain.length 0)}}
                 <div class='chip-domain'>
@@ -24,7 +24,7 @@
                <div class="oc-attribute">
                  <span class="material-symbols-outlined">payments</span><h3 class="grant">{{grant}}</</h3>
                </div>
-               <div class="oc-attribute">
+               <div class="oc-attribute {{#if (eq type 'Closed')}}closed{{/if}}">
                  <span class="material-symbols-outlined">event</span><h3 class="closeDate"> {{formatDate closeDate}}</h3>
                </div>
             </div>
