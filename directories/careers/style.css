@@ -306,21 +306,35 @@
     padding: 0px;
 }
 
-/* .grid-item ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: block;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    white-space: nowrap;
-    width: auto;
-  	cursor: all-scroll;
+.oc-attributes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
-  
-.grid-item ul::-webkit-scrollbar {
-    display: none;    
-} */
+
+.oc-attribute {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    font-weight: 700;
+    color: #15a97c;
+}
+
+.new {
+    padding-top: 2px;
+}
+
+.seniority-level {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #696969 !important;
+    padding-bottom: 0px !important;
+}
 
 .chips {
     position: relative;
