@@ -27,23 +27,21 @@
                </div>
                <div class="oc-attribute">
                  <span class="material-symbols-outlined">event</span>
-                 <h3 class="closeDate {{#if (eq type 'Closed')}}closed{{/if}}" {{#if (eq type 'Open')}}data-close-date="{{parseDate closeDate}}"{{/if}}> {{formatDate closeDate}}</h3>
+                 <h3 class="closeDate {{createClass type}}"{{#if (eq type 'Open')}} data-close-date="{{parseDate closeDate}}"{{/if}}> {{formatDate closeDate}}</h3>
                </div>
             </div>
 
             <div class='icons'>
-                {{#if (eq type "Closed")}}
-                <a class='cat-details-primary closed' target="_blank" href="{{website}}" rel="noopener">
-                    <span class="material-symbols-outlined">warning</span>
-                    Closed
-                </a>
+                <a class='cat-details-primary {{createClass type}}' target="_blank" href="{{website}}"{{#if (eq type 'Open')}} data-close-date="{{parseDate closeDate}}"{{/if}} rel="noopener">
+                    {{#if (eq type "Closed")}}
+                        <span class="material-symbols-outlined">warning</span>
+                        Closed
+                    {{/if}}
+                    {{#if (eq type "Open")}}
+                        <span class="material-symbols-outlined">open_in_new</span>
+                        Apply
                 {{/if}}
-                {{#if (eq type "Open")}}
-                 <a class='cat-details-primary' target="_blank" href="{{website}}" rel="noopener" data-close-date="{{parseDate closeDate}}">
-                     <span class="material-symbols-outlined">open_in_new</span>
-                    Apply
                 </a>
-                {{/if}}
             </div>
         </div>
     </div>
