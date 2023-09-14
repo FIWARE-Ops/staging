@@ -16,6 +16,10 @@ const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/careers/ima
  */
 function extractJobs(input) {
     const today = new Date();
+
+    let recent = new Date();
+    recent.setMonth((recent.getMonth() - 3) % 12);
+
     const jobs = [];
     input.forEach((item) => {
         const job = {
@@ -30,7 +34,7 @@ function extractJobs(input) {
         };
 
         job.status = job.closeDate < today ? 'Closed' : 'Open';
-
+        job.recent = (job.closeDate > recent);
         if (job.publish) {
             jobs.push(job);
         }

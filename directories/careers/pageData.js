@@ -1,6 +1,6 @@
 var departments = [
-        'Intermediate',
         'Junior',
+        'Mid-level',
         'Senior',
         'Working Student',
 ]; var domains = [
