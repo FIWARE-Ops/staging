@@ -1,0 +1,7 @@
+let projects = {
+    {{#each this}}
+        "role{{@index}}" : {{{json this}}},
+    {{/each}}
+};
+
+document.dispatchEvent(new Event("data-ready"));

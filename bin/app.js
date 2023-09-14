@@ -1,3 +1,4 @@
+const Careers = require('./directories/careers/parser');
 const Domains = require('./directories/domains/parser');
 const Enablers = require('./directories/enablers/parser');
 const ImpactStories = require('./directories/impact-stories/parser');
@@ -82,26 +83,34 @@ if (PROCESS.startsWith('research-development')) {
     });
 }
 
-// Create HTML and template files for the generic enablers
+// Create HTML and template files for the marketing tool box
 if (PROCESS.startsWith('marketing')) {
     Loader.load('marketing', Marketing.file).then(() => {
         return Marketing.parse(Marketing.file);
     });
 }
 
-// Create HTML and template files for the generic enablers
+// Create HTML and template files for the domains
 if (PROCESS.startsWith('domains')) {
     Loader.load('domains', Domains.file).then(() => {
         return Domains.parse(Domains.file);
     });
 }
 
-// Create HTML and template files for the generic enablers
+// Create HTML and template files for the open calls
 if (PROCESS.startsWith('open-calls')) {
     Loader.load('open-calls', OpenCalls.file).then(() => {
         return OpenCalls.parse(OpenCalls.file);
     });
 }
+
+// Create HTML and template files for careers
+if (PROCESS.startsWith('careers')) {
+    Loader.load('careers', Careers.file).then(() => {
+        return Careers.parse(Careers.file);
+    });
+}
+
 
 // Create HTML and template files for a listing of people
 if (PROCESS.startsWith('people')) {
