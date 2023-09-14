@@ -22,7 +22,7 @@ function extractJobs(input) {
             name: item['Job Title'],
             img: item['Image'] ? item['Image'] : DEFAULT_IMAGE,
             type: item['Experience'],
-            partnersDetails: Parser.markdown(item['Description']),
+            description: Parser.markdown(item['Description']),
             domain: Parser.splitStrings(item['Department']),
             closeDate: Parser.date(item['Close Date']),
             publish: Parser.boolean(item['Published'])
