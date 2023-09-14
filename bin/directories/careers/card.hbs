@@ -28,7 +28,10 @@
                     </div>
                     {{#if (eq recent true)}}
                     <div class="oc-attribute">
-                        <span class="material-symbols-outlined">new_releases</span><span class="new">NEW</span>
+                        <svg height="20" width="20" class="blinking">
+                            <circle cx="10" cy="10" r="8" fill="#15a97c"></circle>
+                        </svg>
+                        <span class="new">NEW</span>
                     </div>
                     {{/if}}
                </div>
