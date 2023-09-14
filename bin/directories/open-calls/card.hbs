@@ -27,14 +27,14 @@
                </div>
                <div class="oc-attribute">
                  <span class="material-symbols-outlined">event</span>
-                 <h3 class="closeDate {{#if (eq type 'Closed')}}closed{{/if}}"> {{formatDate closeDate}}</h3>
+                 <h3 class="closeDate {{#if (eq type 'Closed')}}closed{{/if}}" {{#if (eq type 'Open')}}data-close-date="{{parseDate closeDate}}"{{/if}}> {{formatDate closeDate}}</h3>
                </div>
             </div>
 
             <div class='icons'>
                 {{#if (eq type "Closed")}}
                 <a class='cat-details-primary closed' target="_blank" href="{{website}}" rel="noopener">
-                    <span class="material-symbols-outlined">info</span>
+                    <span class="material-symbols-outlined">warning</span>
                     Closed
                 </a>
                 {{/if}}
