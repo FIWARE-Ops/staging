@@ -724,6 +724,10 @@
     color: #ee4b2b;
 }
 
+.closeDate.open {
+    color: #15a97c;
+}
+
 .icons {
     padding: 0px 0px 20px;
     margin-top: 0px;
