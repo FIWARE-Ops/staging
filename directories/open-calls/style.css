@@ -594,7 +594,8 @@
     color: #fff;
 }
 
-.cat-details-primary.closed:hover {
+.cat-details-primary.closed:hover,
+.cat-details-primary.closed:focus {
     background-color: #a6341e;
 }
 
