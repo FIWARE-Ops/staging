@@ -21,10 +21,11 @@ function extractJobs(input) {
         const job = {
             name: item['Job Title'],
             img: item['Image'] ? item['Image'] : DEFAULT_IMAGE,
-            type: item['Experience'],
+            type: item['Seniority Level'],
             description: Parser.markdown(item['Description']),
             domain: Parser.splitStrings(item['Department']),
             closeDate: Parser.date(item['Close Date']),
+            formId: item['Submission Form id'],
             publish: Parser.boolean(item['Published'])
         };
 
