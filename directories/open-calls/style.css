@@ -584,13 +584,18 @@
 }
 
 .cat-details-primary.closed {
-    background-color: red;
+    background-color: #ee4b2b;
+    text-transform: uppercase;
 }
 
 .cat-details-primary:hover,
 .cat-details-primary:focus {
     background-color: #002452;
     color: #fff;
+}
+
+.cat-details-primary.closed:hover {
+    background-color: #a6341e;
 }
 
 .cat-details {
@@ -712,7 +717,7 @@
 }
 
 .closeDate.closed {
-    color: red;
+    color: #ee4b2b;
 }
 
 .icons {
