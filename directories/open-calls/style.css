@@ -701,9 +701,6 @@
      color: #000;
 }
 
-.oc-attribute.closed {
-    color: red;
-}
 
 .grant, .closeDate {
      font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
@@ -712,6 +709,10 @@
      color: #000;
      line-height: 1.6em;
      padding: 0px;
+}
+
+.closeDate.closed {
+    color: red;
 }
 
 .icons {
