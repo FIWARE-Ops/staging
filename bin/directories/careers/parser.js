@@ -18,7 +18,7 @@ function extractJobs(input) {
     const today = new Date();
 
     let recent = new Date();
-    recent.setMonth((recent.getMonth() - 3) % 12);
+    recent.setMonth(recent.getMonth() - 6);
 
     const jobs = [];
     input.forEach((item) => {
