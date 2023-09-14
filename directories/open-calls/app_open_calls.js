@@ -398,7 +398,7 @@ function autoCloseCalls(){
   $('[data-close-date]').each(function(  ) {
      if ($(this).data('close-date') < today){
         if ($(this).hasClass('cat-details-primary')) {
-          $(this).html('<span class="material-symbols-outlined">warning</span>Closed');
+          $(this).html('<span class="material-symbols-outlined">warning</span>CLOSED');
         }
         $(this).addClass("closed");
         $(this).removeClass("open");
