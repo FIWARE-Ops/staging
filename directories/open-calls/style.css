@@ -701,6 +701,10 @@
      color: #000;
 }
 
+.oc-attribute.closed {
+    color: red;
+}
+
 .grant, .closeDate {
      font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
      font-weight: 600;
