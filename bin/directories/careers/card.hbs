@@ -22,9 +22,15 @@
             </div>
             {{/if}}
             <div class="icons">
-                   <div class="oc-attribute">
-                    {{#if (eq recent true)}}<span class="new">NEW</span>{{/if}}
-                    <h6 class="seniority-level">{{type}}</h6>
+                <div class="oc-attributes">
+                    <div class="oc-attribute">
+                        <h6 class="seniority-level">{{type}}</h6>
+                    </div>
+                    {{#if (eq recent true)}}
+                    <div class="oc-attribute">
+                        <span class="material-symbols-outlined">new_releases</span><span class="new">NEW</span>
+                    </div>
+                    {{/if}}
                </div>
             </div>
         </div>
