@@ -397,8 +397,11 @@ function autoCloseCalls(){
 
   $('[data-close-date]').each(function(  ) {
      if ($(this).data('close-date') < today){
-        $(this).html('<span class="material-symbols-outlined">info</span>Closed');
+        if ($(this).hasClass('cat-details-primary')) {
+          $(this).html('<span class="material-symbols-outlined">warning</span>Closed');
+        }
         $(this).addClass("closed");
+        $(this).removeClass("open");
      }
   });
 }
