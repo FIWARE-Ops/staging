@@ -716,6 +716,10 @@
      padding: 0px;
 }
 
+.closeDate {
+    color: #3cab3b;
+}
+
 .closeDate.closed {
     color: #ee4b2b;
 }
