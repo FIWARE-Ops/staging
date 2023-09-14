@@ -26,15 +26,16 @@ function extractJobs(input) {
             name: item['Job Title'],
             img: item['Image'] ? item['Image'] : DEFAULT_IMAGE,
             type: item['Seniority Level'],
+            mission: item['Mission'],
             description: Parser.markdown(item['Description']),
             domain: Parser.splitStrings(item['Department']),
-            closeDate: Parser.date(item['Close Date']),
+            postingDate: Parser.date(item['Posting Date']),
             formId: item['Submission Form id'],
             publish: Parser.boolean(item['Published'])
         };
 
-        job.status = job.closeDate < today ? 'Closed' : 'Open';
-        job.recent = (job.closeDate > recent);
+        job.status = job.postingDate < today ? 'Closed' : 'Open';
+        job.recent = (job.postingDate > recent);
         if (job.publish) {
             jobs.push(job);
         }
@@ -47,7 +48,7 @@ function extractJobs(input) {
     console.log(jobs.length, ' jobs generated.');
 
     return jobs.sort((a, b) => {
-         return (a.closeDate > b.closeDate.getTime());
+         return (a.postingDate > b.postingDate.getTime());
     });
 }
 
