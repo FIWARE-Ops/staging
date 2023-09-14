@@ -225,12 +225,10 @@ function initSelect() {
       columnWidth: ".grid-sizer",
     },
     getSortData: {
-      name: ".cat-name",
-      year: ".year",
+      name: ".cat-name"
     },
     sortAscending: {
       name: true,
-      year: true,
     },
   });
 
@@ -258,16 +256,6 @@ function initSelect() {
       }
     });
 
-    // SORT BY YEAR
-    document.querySelector("#orderByYear").addEventListener("click", (e) => {
-      if (e.target.classList.contains("active") == false) {
-        msnry.arrange({ sortBy: "year" });
-        e.target.classList.add("active");
-      } else {
-        msnry.arrange({ sortBy: "original-order" });
-        e.target.classList.remove("active");
-      }
-    });
 
   $(".filters-container select").each(function (index) {
     $(this).bind("change", (e) => {
