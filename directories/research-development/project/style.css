@@ -26,13 +26,9 @@ h4 {
 }
 
 .solution-name {
-  margin: 0;
-  padding-bottom: 20px;
-}
-
-.name {
   font-weight: 400;
   margin: 0;
+  padding-bottom: 20px;
 }
 
 .company {
@@ -496,7 +492,7 @@ h4 {
     margin-top: 30px;
   }
 
-  .name {
+  .solution-name {
     font-weight: 400;
     font-size: 26px;
     color: #000000;
