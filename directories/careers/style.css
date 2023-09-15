@@ -2249,6 +2249,14 @@ input[type="search"]::placeholder {
         display: none;
     }
 
+    .cat-name {
+        padding: 0px 0px 15px;
+    }
+
+    .chip-domain {
+        padding-top: 8px;
+    }
+
     /* .grid-item ul {
         list-style: none;
         padding: 0;
