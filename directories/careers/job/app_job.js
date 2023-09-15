@@ -65,7 +65,7 @@ function fillJob(job) {
 
   wrapParagraphs('#description', job.description);
 
-  $('#impact-stories form input[name="happyforms_form_id"]')[0].val(job.formId)
+  $('#impact-stories form input[name="happyforms_form_id"]').val(job.formId)
 
   document.title = job.name + ' - ' + job.type;
 
