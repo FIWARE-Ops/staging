@@ -1,4 +1,3 @@
-let projectDone = false;
 
 function wrapImage(id, width, height, src) {
   var img = '';
@@ -110,10 +109,10 @@ function setBar (startDate, endDate, status){
 }
 
 function fillProject(project) {
-  if (projectDone){
+  if (window.projectDone){
     return;
   }
-  projectDone = true;
+  window.projectDone = true;
   $('h1#name').text(project.name);
   $('h6#name').text(project.name);
   $('h4#excerpt').text(project.excerpt);

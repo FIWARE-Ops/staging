@@ -1,4 +1,3 @@
-let projectDone = false;
 
 function wrapImage(id, width, height, src) {
   var img = '';
@@ -52,27 +51,23 @@ function addChips(id, items) {
 
 
 
-function fillJob(project) {
-  if (projectDone){
+function fillJob(job) {
+  if (window.jobDone){
     return;
   }
-  projectDone = true;
-  $('h1#name').text(project.name);
-  $('h6#name').text(project.name);
-  $('h4#mission').text(project.mission);
+  window.jobDone = true;
+  $('h1#name').text(job.name);
+  $('h6#name').text(job.name);
+  $('h4#mission').text(job.mission);
 
-  wrapImage('#logo', 500, 300, project.img);
-  wrapImage('#main-logo', 500, 300, project.img);
+  wrapImage('#logo', 500, 300, job.img);
+  wrapImage('#main-logo', 500, 300, job.img);
 
-  wrapParagraphs('#description', project.description);
+  wrapParagraphs('#description', job.description);
 
   $('#impact-stories form input[name="happyforms_form_id"]')[0].value("CCC")
 
-
-  console.log(project)
-
-
-  document.title = project.name + ' - ' + project.type;
+  document.title = job.name + ' - ' + job.type;
 
 }
 
@@ -96,9 +91,9 @@ function loadJob() {
 
   if (
     $.urlParam('id') &&
-    projects[$.urlParam('id')]
+    window.jobs[$.urlParam('id')]
   ) {
-    fillJob(projects[$.urlParam('id')]);
+    fillJob(window.jobs[$.urlParam('id')]);
   } else {
     $($('.et_pb_section_1').children()).empty();
      $('#disclaimer').parent().parent().remove();
