@@ -35,6 +35,11 @@ h4 {
   margin: 0;
 }
 
+.mission {
+  padding-right: 40%;
+  padding-bottom: 0;
+}
+
 .company {
   padding-top: 0px;
 }
@@ -660,6 +665,11 @@ h4 {
     font-size: 26px;
     color: #000000;
     padding-bottom: 20px;
+  }
+
+  .mission {
+    padding-right: 0;
+    padding-bottom: 0;
   }
 
   .happyforms-styles.happyforms-form .happyforms-part .happyforms-input {
