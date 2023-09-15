@@ -30,6 +30,14 @@ h4 {
   padding-bottom: 20px;
 }
 
+.name {
+  font-weight: 400;
+  font-size: 48px;
+  color: #000000;
+  line-height: 1.2em;
+  margin: 0;
+}
+
 .company {
   padding-top: 0px;
 }
@@ -487,7 +495,7 @@ h4 {
 .happyforms-styles button.submit.happyforms-button--submit:hover,
 .happyforms-styles button[type=submit].happyforms-button--submit:focus,
 .happyforms-styles button[type=submit].happyforms-button--submit:hover {
-  background: #002452!important;
+  background: #002452 !important;
 }
 
 /* .happyforms-styles input[type=submit].happyforms-button--submit,
@@ -626,6 +634,14 @@ h4 {
 
   .chips-gradient {
     margin-top: 30px;
+  }
+
+  .name {
+    font-weight: 400;
+    font-size: 26px;
+    color: #000000;
+    line-height: 1.2em;
+    padding-bottom: 20px;
   }
 
   .happyforms-styles.happyforms-form .happyforms-part .happyforms-input {
