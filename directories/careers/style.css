@@ -81,7 +81,7 @@
     background: #fff;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
     box-shadow: 0 0 0 0 rgb(0 0 0 / 10%);
     border: 1px solid #f0f0f0;
     transition: box-shadow 0.4s;
