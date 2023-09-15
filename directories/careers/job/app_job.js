@@ -68,7 +68,7 @@ function fillJob(project) {
   console.log(project)
 
 
-  document.title = project.name + ' - ' + project.technologies;
+  document.title = project.name + ' - ' + project.type;
 
 }
 
