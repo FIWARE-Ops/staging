@@ -101,9 +101,8 @@ function loadJob() {
   ) {
     fillJob(window.jobs[$.urlParam('id')]);
   } else {
-    $($('.et_pb_section_1').children()).empty();
-     $('#disclaimer').parent().parent().remove();
-    
+     $(".et_pb_section_1").remove()
+     $(".et_pb_section_2").css('padding', '2em')
   }
 
   initialiseStyleBackgroundIntersectionObserver();
