@@ -351,16 +351,15 @@ document.addEventListener("html-included", () => {
   initSticky();
   // Isotope istantiation
   // Relies on unpkg.com/imagesloaded
-  var count = 0;
   $("#app")
     .imagesLoaded()
     .always(function (instance) {
       msnry.arrange({ sortBy: "original-order" });
     })
+    .fail( function() {
+      msnry.arrange({ sortBy: "original-order" });
+    })
     .progress(function (instance, image) {
-      count++;
-      if (count % 12 === 0) {
-        msnry.arrange({ sortBy: "original-order" });
-      }
+      msnry.arrange({ sortBy: "original-order" });
     });
 });
