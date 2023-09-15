@@ -2240,6 +2240,15 @@ input[type="search"]::placeholder {
         right: 15px;
     }
 
+
+    .gridElementTextContainer {
+        margin: 10px auto 0;
+    }
+
+    .grid-item img {
+        display: none;
+    }
+
     /* .grid-item ul {
         list-style: none;
         padding: 0;
@@ -2270,16 +2279,6 @@ input[type="search"]::placeholder {
 
     .gridElementLogo {
         padding: 30px 20px 20px;
-    }
-
-    .grid-item img {
-    width: 140px;
-    margin: 0px 0px 20px;
-    }
-
-    .gridElementTextContainer {
-        width: 100%;
-        padding: 0px 20px;
     }
 
     /* .name {
