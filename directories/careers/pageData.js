@@ -1,7 +1,7 @@
 var departments = [
-        'Junior',
-        'Mid-level',
-        'Senior',
+        'Entry Level',
+        'Mid Level',
+        'Senior Level',
         'Working Student',
 ]; var domains = [
         'Marketing Team',
