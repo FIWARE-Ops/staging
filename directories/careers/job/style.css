@@ -65,6 +65,10 @@ h4 {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
 }
 
+#description li:last-child {
+  padding-bottom: 20px;
+}
+
 .et_pb_social_media_follow li {
   margin-bottom: 0px;
 }
@@ -460,7 +464,33 @@ h4 {
   color: var(--happyforms-color-submit-text);
 }
 
-.happyforms-styles input[type=submit].happyforms-button--submit,
+.happyforms-styles .happyforms-part.happyforms-part--legal .option-label .label {
+  padding-left: 10px;
+}
+
+.happyforms-styles button.happyforms-button,
+.happyforms-styles button.happyforms-text-button,
+.happyforms-styles button.submit.happyforms-button--submit,
+.happyforms-styles button[disabled].submit.happyforms-button--submit,
+.happyforms-styles button[type=submit].happyforms-button--submit,
+.happyforms-styles button[type=submit][disabled].happyforms-button--submit {
+  background: #002e67 !important;
+  border: 0px solid transparent !important;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 13px 20px 14px;
+}
+
+.happyforms-styles button.happyforms-button:focus,
+.happyforms-styles button.happyforms-button:hover,
+.happyforms-styles button.submit.happyforms-button--submit:focus,
+.happyforms-styles button.submit.happyforms-button--submit:hover,
+.happyforms-styles button[type=submit].happyforms-button--submit:focus,
+.happyforms-styles button[type=submit].happyforms-button--submit:hover {
+  background: #002452!important;
+}
+
+/* .happyforms-styles input[type=submit].happyforms-button--submit,
 .happyforms-styles input[type=submit][disabled].happyforms-button--submit,
 .happyforms-styles button.submit.happyforms-button--submit,
 .happyforms-styles button[disabled].submit.happyforms-button--submit {
@@ -488,7 +518,7 @@ h4 {
 .happyforms-styles button[disabled].happyforms-button--submit:hover,
 .happyforms-styles button[disabled].happyforms-button--submit:focus {
   background-color: #002452;
-}
+} */
 
 .happyforms-styles .happyforms-message-notices h2 {
   font-weight: 500 !important;
@@ -504,17 +534,6 @@ h4 {
 .happyforms-styles .happyforms-flex>.happyforms-message-notices .success h2 a:hover {
   text-decoration: underline !important;
 }
-
-/* Responsive */
-
-@media (max-width: 480px) {
-
-  .happyforms-styles.happyforms-form .happyforms-part .happyforms-input {
-    width: 100%;
-  }
-
-}
-
 
 
 
