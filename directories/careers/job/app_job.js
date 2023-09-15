@@ -67,8 +67,14 @@ function fillJob(job) {
 
   $('#impact-stories form input[name="happyforms_form_id"]').val(job.formId)
 
-  document.title = job.name + ' - ' + job.type;
-
+  const title = job.name + ' - ' + job.type;
+  document.title = title;
+  $('meta[name="twitter:title"]').attr("content",title);
+  $('meta[name="og:title"]').attr("content",title);
+  $('meta[name="twitter:description"]').attr("content",job.mission);
+  $('meta[name="og:description"]').attr("content",job.mission);
+  $('meta[name="description"]').attr("content",job.mission);
+  
 }
 
 function loadJob() {
