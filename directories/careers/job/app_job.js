@@ -59,11 +59,15 @@ function fillJob(project) {
   projectDone = true;
   $('h1#name').text(project.name);
   $('h6#name').text(project.name);
+  $('h4#mission').text(project.mission);
 
   wrapImage('#logo', 500, 300, project.img);
   wrapImage('#main-logo', 500, 300, project.img);
 
   wrapParagraphs('#description', project.description);
+
+  $('#impact-stories form input[name="happyforms_form_id"]')[0].value("CCC")
+
 
   console.log(project)
 
