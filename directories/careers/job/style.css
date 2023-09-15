@@ -540,6 +540,24 @@ h4 {
   text-decoration: underline !important;
 }
 
+.happyforms-styles .happyforms-part:not(.happyforms-part--table):not(.happyforms-part--checkbox):not(.happyforms-part--radio) .option-label {
+  margin-bottom: 0;
+}
+
+.happyforms-part--recaptcha {
+  margin-bottom: 0;
+}
+
+.happyforms-part--recaptcha .happyforms-part-wrap>div {
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.happyforms-form__part:last-child {
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
 
 
 @media screen and (min-width: 981px) and (max-width: 1133px) {
@@ -644,12 +662,7 @@ h4 {
     width: 100%;
   }
 
-  .happyforms-part--recaptcha {
-    margin-bottom: 0;
-  }
-
-  .happyforms-part--recaptcha .happyforms-part-wrap>div {
-    margin-bottom: 0;
-    padding: 0;
+  .happyforms-form__part:last-child {
+    margin-top: 0px;
   }
 }
