@@ -1,6 +1,6 @@
 window.jobs = {
     {{#each this}}
-        "role{{@index}}" : {{{json this}}},
+        "{{createClass name}}_{{@index}}" : {{{json this}}},
     {{/each}}
 };
 
