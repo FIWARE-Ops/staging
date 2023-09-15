@@ -30,6 +30,11 @@ h4 {
   padding-bottom: 20px;
 }
 
+.name {
+  font-weight: 400;
+  margin: 0;
+}
+
 .company {
   padding-top: 0px;
 }
@@ -196,11 +201,9 @@ h4 {
   margin-top: -7px;
   width: 30px;
   text-align: right;
-  background-image: -webkit-linear-gradient(
-    left,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(255, 255, 255, 1) 100%
-  );
+  background-image: -webkit-linear-gradient(left,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 1) 100%);
 }
 
 .icons {
@@ -386,11 +389,11 @@ h4 {
 }
 
 .yarpp-thumbnail-default {
-  background-size: cover!important;
-  border-radius: 4px 4px 0px 0px!important;
+  background-size: cover !important;
+  border-radius: 4px 4px 0px 0px !important;
 }
 
-.yarpp-thumbnail-default > img {
+.yarpp-thumbnail-default>img {
   min-width: -webkit-fill-available;
 }
 
@@ -491,5 +494,12 @@ h4 {
 
   .chips-gradient {
     margin-top: 30px;
+  }
+
+  .name {
+    font-weight: 400;
+    font-size: 26px;
+    color: #000000;
+    padding-bottom: 20px;
   }
 }
