@@ -91,7 +91,9 @@ function parse(file) {
             );
 
             jobs.forEach ((job, index) =>{
+
                 const filename= Template.createClass(job.name);
+                console.log (`${job.name.padEnd(35)} - https://careers.fiware.org/${filename}.html`)
                 job.index = index;
                 Template.write(
                     path.join(RESEARCH_DEVELOPMENT_DIR, `job/${filename}.html`),
@@ -100,6 +102,7 @@ function parse(file) {
                 Prettier.format(path.join(RESEARCH_DEVELOPMENT_DIR, `job/${filename}.html`), { parser: 'html' });
 
             });
+            console.log()
 
             Prettier.format(path.join(RESEARCH_DEVELOPMENT_DIR, 'jobs.html'), { parser: 'html' });
             Prettier.format(path.join(RESEARCH_DEVELOPMENT_DIR, 'pageData.js'), { parser: 'flow' });
