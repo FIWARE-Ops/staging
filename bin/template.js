@@ -142,3 +142,4 @@ function readTemplate(template, callback) {
 }
 
 exports.write = write;
+exports.createClass = createClass;

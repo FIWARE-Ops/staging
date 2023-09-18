@@ -90,6 +90,16 @@ function parse(file) {
                 jobs
             );
 
+            jobs.forEach ((job) =>{
+                const filename= Template.createClass(job.name);
+                Template.write(
+                    path.join(RESEARCH_DEVELOPMENT_DIR, `job/${filename}.html`),
+                    path.join(TEMPLATE_PATH, 'social-media.hbs'),
+                job);
+                Prettier.format(path.join(RESEARCH_DEVELOPMENT_DIR, `job/${filename}.html`), { parser: 'html' });
+
+            });
+
             Prettier.format(path.join(RESEARCH_DEVELOPMENT_DIR, 'jobs.html'), { parser: 'html' });
             Prettier.format(path.join(RESEARCH_DEVELOPMENT_DIR, 'pageData.js'), { parser: 'flow' });
             Prettier.format(path.join(RESEARCH_DEVELOPMENT_DIR, 'job/pageData.js'), { parser: 'flow' });
