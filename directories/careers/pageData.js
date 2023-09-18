@@ -5,6 +5,5 @@ var departments = [
         'Working Student',
 ]; var domains = [
         'Marketing Team',
-        'Operations Team',
         'Tech Team',
 ];
