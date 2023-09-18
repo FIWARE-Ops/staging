@@ -90,8 +90,9 @@ function parse(file) {
                 jobs
             );
 
-            jobs.forEach ((job) =>{
+            jobs.forEach ((job, index) =>{
                 const filename= Template.createClass(job.name);
+                job.index = index;
                 Template.write(
                     path.join(RESEARCH_DEVELOPMENT_DIR, `job/${filename}.html`),
                     path.join(TEMPLATE_PATH, 'social-media.hbs'),
