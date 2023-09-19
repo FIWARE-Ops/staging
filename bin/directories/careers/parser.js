@@ -38,7 +38,7 @@ function extractJobs(input) {
         job.recent = (job.postingDate > recent);
 
         const filename= Template.createClass(job.name);
-        job.social = `https://careers.fiware.org/${filename}.html`
+        job.social = `/wp-content/directories/careers/job/${filename}.html`
         if (job.publish) {
             jobs.push(job);
         }
