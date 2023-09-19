@@ -69,12 +69,7 @@ function fillJob(job) {
 
   const title = job.name + ' - ' + job.type;
   document.title = title;
-  $('meta[name="twitter:title"]').attr("content",title);
-  $('meta[name="og:title"]').attr("content",title);
-  $('meta[name="twitter:description"]').attr("content",job.mission);
-  $('meta[name="og:description"]').attr("content",job.mission);
-  $('meta[name="description"]').attr("content",job.mission);
-  
+  history.pushState({}, null, job.social);
 }
 
 function loadJob() {
