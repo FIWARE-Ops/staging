@@ -258,6 +258,26 @@ function findProduct(hash, category) {
         : null;
 }
 
+function createSocialMedia(products, dir, category){
+    console.log
+    _.each(products, (product, key) =>{
+
+        product.hash = Parser.getHash(product.organisationName, product.productName);
+        product.cat = category;
+
+        const filename = path.join(
+                Template.createClass(product.organisationName),
+                Template.createClass(product.productName));
+
+        Template.write(
+            path.join(dir, `${filename}.html`),
+            path.join(TEMPLATE_PATH, 'social-media.hbs'),
+        product);
+        Prettier.format(path.join(dir, `/${filename}.html`), { parser: 'html' });
+
+    });
+}
+
 /**
  * Read in the product details file and output
  * HTML and JavaScript files
@@ -289,56 +309,57 @@ function parse(detailsFile, summaryFile, processRun) {
                     if (summaryInfo.powered.length === 0) {
                         console.error('ERROR: No Products Generated.');
                         process.exit(1);
-                    } else {
-                        Template.write(
-                            'marketplace/powered-by-fiware/pageData.js',
-                            path.join(TEMPLATE_PATH, 'modal.hbs'),
-                            summaryInfo.powered
-                        );
-                        Prettier.format('marketplace/powered-by-fiware/pageData.js', { parser: 'flow' });
-                        console.log('');
-                        console.log(summaryInfo.powered.length + ' Products');
-                    }
-
+                    } 
                     if (summaryInfo.ready.length === 0) {
                         console.error('ERROR: No Devices Generated.');
                         process.exit(1);
-                    } else {
-                        Template.write(
-                            'marketplace/fiware-ready/pageData.js',
-                            path.join(TEMPLATE_PATH, 'modal.hbs'),
-                            summaryInfo.ready
-                        );
-                        Prettier.format('marketplace/fiware-ready/pageData.js', { parser: 'flow' });
-
-                        console.log(summaryInfo.ready.length + ' Devices');
                     }
-
                     if (summaryInfo.services.length === 0) {
                         console.error('ERROR: No Devices Generated.');
                         process.exit(1);
-                    } else {
-                        Template.write(
-                            'marketplace/support-services/pageData.js',
-                            path.join(TEMPLATE_PATH, 'modal.hbs'),
-                            summaryInfo.services
-                        );
-                        Prettier.format('marketplace/support-services/pageData.js', { parser: 'flow' });
-                        console.log(summaryInfo.services.length + ' Services');
                     }
-
                     if (summaryInfo.cities.length === 0) {
                         console.error('ERROR: No Devices Generated.');
                         process.exit(1);
-                    } else {
-                        Template.write(
-                            'marketplace/cities4cities/pageData.js',
-                            path.join(TEMPLATE_PATH, 'modal.hbs'),
-                            summaryInfo.cities
-                        );
-                        Prettier.format('marketplace/cities4cities/pageData.js', { parser: 'flow' });
-                        console.log(summaryInfo.cities.length + ' Cities');
                     }
+
+                    Template.write(
+                        'marketplace/powered-by-fiware/pageData.js',
+                        path.join(TEMPLATE_PATH, 'modal.hbs'),
+                        summaryInfo.powered
+                    );
+                    Prettier.format('marketplace/powered-by-fiware/pageData.js', { parser: 'flow' });
+                    console.log('');
+                    createSocialMedia(allProducts.details.powered, 'marketplace/powered-by-fiware/', 'powered');  
+                    console.log(summaryInfo.powered.length + ' Products');
+                
+                    Template.write(
+                        'marketplace/fiware-ready/pageData.js',
+                        path.join(TEMPLATE_PATH, 'modal.hbs'),
+                        summaryInfo.ready
+                    );
+                    Prettier.format('marketplace/fiware-ready/pageData.js', { parser: 'flow' });
+                    createSocialMedia(allProducts.details.ready, 'marketplace/fiware-ready/', 'ready');  
+                    console.log(summaryInfo.ready.length + ' Devices');
+                
+                    Template.write(
+                        'marketplace/support-services/pageData.js',
+                        path.join(TEMPLATE_PATH, 'modal.hbs'),
+                        summaryInfo.services
+                    );
+                    Prettier.format('marketplace/support-services/pageData.js', { parser: 'flow' });
+                    createSocialMedia(allProducts.details.services, 'marketplace/support-services/', 'services');   
+                    console.log(summaryInfo.services.length + ' Services');
+               
+                    Template.write(
+                        'marketplace/cities4cities/pageData.js',
+                        path.join(TEMPLATE_PATH, 'modal.hbs'),
+                        summaryInfo.cities
+                    );
+                    Prettier.format('marketplace/cities4cities/pageData.js', { parser: 'flow' });
+                    createSocialMedia(allProducts.details.cities, 'marketplace/cities4cities/', 'cities');  
+                    console.log(summaryInfo.cities.length + ' Cities');
+                   
 
                     Template.write(
                         'marketplace/product-details/pageData.js',
@@ -346,6 +367,9 @@ function parse(detailsFile, summaryFile, processRun) {
                         productDetails.details
                     );
                     Prettier.format('marketplace/product-details/pageData.js', { parser: 'flow' });
+
+
+
 
                     const featured = extractFeatured(summaryInfo);
                     Template.write(
