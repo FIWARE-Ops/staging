@@ -31,7 +31,7 @@ h4 {
 }
 
 .name {
-  font-weight: 400;
+  font-weight: 400!important;
   margin: 0;
   padding-top: 20px;
 }
