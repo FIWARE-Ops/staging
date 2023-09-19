@@ -36,6 +36,9 @@ function extractJobs(input) {
 
         job.status = job.postingDate < today ? 'Closed' : 'Open';
         job.recent = (job.postingDate > recent);
+
+        const filename= Template.createClass(job.name);
+        job.social = `https://careers.fiware.org/${filename}.html`
         if (job.publish) {
             jobs.push(job);
         }
@@ -93,7 +96,6 @@ function parse(file) {
             jobs.forEach ((job, index) =>{
 
                 const filename= Template.createClass(job.name);
-                console.log (`${job.name.padEnd(35)} - https://careers.fiware.org/${filename}.html`)
                 job.index = index;
                 Template.write(
                     path.join(RESEARCH_DEVELOPMENT_DIR, `job/${filename}.html`),
