@@ -31,7 +31,8 @@ function extractJobs(input) {
             domain: Parser.splitStrings(item['Department']),
             postingDate: Parser.date(item['Posting Date']),
             formId: item['Submission Form id'],
-            publish: Parser.boolean(item['Published'])
+            publish: Parser.boolean(item['Published']),
+            socialMedia: item['Banner SoMe'] ? item['Banner SoMe'] : (item['Image'] || DEFAULT_IMAGE)
         };
 
         job.status = job.postingDate < today ? 'Closed' : 'Open';
