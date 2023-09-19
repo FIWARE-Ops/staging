@@ -56,6 +56,11 @@ function extractProjects(input) {
         project.year = project.startDate ? project.startDate.getFullYear().toString() : 'unknown';
         project.type = project.endDate < today ? 'Completed' : 'Ongoing';
 
+        const filename= Template.createClass(project.name);
+        project.social = `/wp-content/directories/research-development/project/${filename}.html`
+        
+
+
         if (project.website || project.twitter || project.linkedIn) {
             project.contacts = true;
         }
