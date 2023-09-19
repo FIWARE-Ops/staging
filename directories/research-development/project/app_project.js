@@ -184,6 +184,7 @@ function fillProject(project) {
 
 
   document.title = project.name + ' - ' + project.technologies;
+  history.pushState({}, null, project.social);
 
 }
 
