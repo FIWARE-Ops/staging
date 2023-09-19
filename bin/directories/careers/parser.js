@@ -6,7 +6,7 @@ const Parser = require('../../dataParser');
 const Sorter = require('../../sort');
 const Template = require('../../template');
 const TEMPLATE_PATH = 'bin/directories/careers/';
-const RESEARCH_DEVELOPMENT_DIR = 'directories/careers';
+const CAREERS_DIR = 'directories/careers';
 
 const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/careers/images/careers-default.png';
 
@@ -74,22 +74,22 @@ function parse(file) {
             };
 
             Template.write(
-                path.join(RESEARCH_DEVELOPMENT_DIR, 'jobs.html'),
+                path.join(CAREERS_DIR, 'jobs.html'),
                 path.join(TEMPLATE_PATH, 'card.hbs'),
                 jobs
             );
             Template.write(
-                path.join(RESEARCH_DEVELOPMENT_DIR, 'pageData.js'),
+                path.join(CAREERS_DIR, 'pageData.js'),
                 path.join(TEMPLATE_PATH, 'modal.hbs'),
                 filterData
             );
             Template.write(
-                path.join(RESEARCH_DEVELOPMENT_DIR, 'filters.html'),
+                path.join(CAREERS_DIR, 'filters.html'),
                 path.join(TEMPLATE_PATH, 'filter.hbs'),
                 filterData
             );
             Template.write(
-                path.join(RESEARCH_DEVELOPMENT_DIR, 'job/pageData.js'),
+                path.join(CAREERS_DIR, 'job/pageData.js'),
                 path.join(TEMPLATE_PATH, 'details.hbs'),
                 jobs
             );
@@ -97,19 +97,17 @@ function parse(file) {
             jobs.forEach ((job, index) =>{
 
                 const filename= Template.createClass(job.name);
-                job.index = index;
                 Template.write(
-                    path.join(RESEARCH_DEVELOPMENT_DIR, `job/${filename}.html`),
+                    path.join(CAREERS_DIR, `job/${filename}.html`),
                     path.join(TEMPLATE_PATH, 'social-media.hbs'),
                 job);
-                Prettier.format(path.join(RESEARCH_DEVELOPMENT_DIR, `job/${filename}.html`), { parser: 'html' });
+                Prettier.format(path.join(CAREERS_DIR, `job/${filename}.html`), { parser: 'html' });
 
             });
-            console.log()
 
-            Prettier.format(path.join(RESEARCH_DEVELOPMENT_DIR, 'jobs.html'), { parser: 'html' });
-            Prettier.format(path.join(RESEARCH_DEVELOPMENT_DIR, 'pageData.js'), { parser: 'flow' });
-            Prettier.format(path.join(RESEARCH_DEVELOPMENT_DIR, 'job/pageData.js'), { parser: 'flow' });
+            Prettier.format(path.join(CAREERS_DIR, 'jobs.html'), { parser: 'html' });
+            Prettier.format(path.join(CAREERS_DIR, 'pageData.js'), { parser: 'flow' });
+            Prettier.format(path.join(CAREERS_DIR, 'job/pageData.js'), { parser: 'flow' });
         })
         .catch((e) => {
             console.log(e);

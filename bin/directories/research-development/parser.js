@@ -116,6 +116,17 @@ function parse(file) {
                 projects
             );
 
+             projects.forEach ((project, index) =>{
+
+                const filename= Template.createClass(project.name);
+                Template.write(
+                    path.join(RESEARCH_DEVELOPMENT_DIR, `project/${filename}.html`),
+                    path.join(TEMPLATE_PATH, 'social-media.hbs'),
+                project);
+                Prettier.format(path.join(RESEARCH_DEVELOPMENT_DIR, `project/${filename}.html`), { parser: 'html' });
+
+            });
+
             Prettier.format(path.join(RESEARCH_DEVELOPMENT_DIR, 'research.html'), { parser: 'html' });
             Prettier.format(path.join(RESEARCH_DEVELOPMENT_DIR, 'pageData.js'), { parser: 'flow' });
             Prettier.format(path.join(RESEARCH_DEVELOPMENT_DIR, 'project/pageData.js'), { parser: 'flow' });
