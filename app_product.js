@@ -159,6 +159,7 @@ function fillProduct(product) {
   addContacts('#twitter', product.twitter);
 
   document.title = product.category + ' - ' + product.productName;
+  history.pushState({}, null, product.social);
 }
 
 function loadProduct() {
