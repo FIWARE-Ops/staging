@@ -997,7 +997,7 @@ var pageData = [
             'Smart Parking Sensor technology is a radar sensor device that allows the detection of parking availability indoors and outdoors. Libelium Smart Parking benefits from 2 different detection systems: Radar and Magnetic. Greater precision, improved detection and stability performance: 99% accuracy.'
     },
     {
-        company: "IMREDD - University Côte d\\'Azur",
+        company: "IMREDD - University Côte d'Azur",
         name: 'Noise Forecasting',
         img: 'https://www.fiware.org/wp-content/uploads/5228db9283053aa8d9992239a8f3047b.png',
         fiwareMember: false,
@@ -1029,6 +1029,34 @@ var pageData = [
         year: 2023,
         content:
             'Traffic intensity forecasting service using historical data to forecast the traffic on the nex day. This can be used optimize traffic management, reduce traffic congestion and improve user experience'
+    },
+    {
+        company: 'Libelium',
+        name: 'Traffic Environmental Impact Calculation',
+        img: 'https://www.fiware.org/wp-content/uploads/31f1f3fa98bbcb096bc4d5963aa9f43a.jpg',
+        fiwareMember: true,
+        fiwareIhub: true,
+        companyLink: '../product-details/?category=ready&id=libelium-trafficenvironmentalimpactcalculation',
+        domain: ['Mobility', 'Sustainability', 'Transport'],
+        type: 'Software Enabler',
+        technology: ['Data Analytics', 'Digital Twins', 'Internet of Things'],
+        year: 2023,
+        content:
+            'Calculates traffic emissions for IoT measurements and model forecasts, allowing citizens and public authorities to easily understand the emissions amount in a location and timespan.'
+    },
+    {
+        company: 'Libelium',
+        name: 'Air Quality Index Calculation',
+        img: 'https://www.fiware.org/wp-content/uploads/9b37f8d110b60d40a5c6a7f6d51c75d0.jpg',
+        fiwareMember: true,
+        fiwareIhub: true,
+        companyLink: '../product-details/?category=ready&id=libelium-airqualityindexcalculation',
+        domain: ['Air Quality', 'Cities', 'Sustainability'],
+        type: 'Software Enabler',
+        technology: ['Data Analytics', 'Digital Twins', 'Internet of Things'],
+        year: 2023,
+        content:
+            'Calculates European air quality index for IoT measurements and model forecasts, allowing citizens and public authorities to easily and standardise the air quality status in a location and timespan.'
     }
 ];
 
