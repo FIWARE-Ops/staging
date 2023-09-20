@@ -121,6 +121,12 @@ function parse(file) {
                 projects
             );
 
+            Template.write(
+                path.join(RESEARCH_DEVELOPMENT_DIR, 'project/sitemap.html'),
+                path.join(TEMPLATE_PATH, 'sitemap.hbs'),
+                projects
+            );
+
              projects.forEach ((project, index) =>{
 
                 const filename= Template.createClass(project.name);
@@ -135,6 +141,7 @@ function parse(file) {
             Prettier.format(path.join(RESEARCH_DEVELOPMENT_DIR, 'research.html'), { parser: 'html' });
             Prettier.format(path.join(RESEARCH_DEVELOPMENT_DIR, 'pageData.js'), { parser: 'flow' });
             Prettier.format(path.join(RESEARCH_DEVELOPMENT_DIR, 'project/pageData.js'), { parser: 'flow' });
+            Prettier.format(path.join(RESEARCH_DEVELOPMENT_DIR, 'project/sitemap.html'), { parser: 'html' });
         })
         .catch((e) => {
             console.log(e);

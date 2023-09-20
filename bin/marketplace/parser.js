@@ -259,7 +259,6 @@ function findProduct(hash, category) {
 }
 
 function createSocialMedia(products, dir, category){
-    console.log
     _.each(products, (product, key) =>{
 
         product.hash = Parser.getHash(product.organisationName, product.productName);
@@ -275,7 +274,13 @@ function createSocialMedia(products, dir, category){
         product);
         Prettier.format(path.join(dir, `/${filename}.html`), { parser: 'html' });
 
+        product.social= path.join('wp-content', dir, `/${filename}.html`);
     });
+
+     Template.write(
+            path.join(dir, `sitemap.html`),
+            path.join(TEMPLATE_PATH, 'sitemap.hbs'),
+        products);
 }
 
 /**

@@ -94,6 +94,12 @@ function parse(file) {
                 jobs
             );
 
+            Template.write(
+                path.join(CAREERS_DIR, 'job/sitemap.html'),
+                path.join(TEMPLATE_PATH, 'sitemap.hbs'),
+                jobs
+            );
+
             jobs.forEach ((job, index) =>{
 
                 const filename= Template.createClass(job.name);
@@ -108,6 +114,7 @@ function parse(file) {
             Prettier.format(path.join(CAREERS_DIR, 'jobs.html'), { parser: 'html' });
             Prettier.format(path.join(CAREERS_DIR, 'pageData.js'), { parser: 'flow' });
             Prettier.format(path.join(CAREERS_DIR, 'job/pageData.js'), { parser: 'flow' });
+            Prettier.format(path.join(CAREERS_DIR, 'job/sitemap.html'), { parser: 'html' });
         })
         .catch((e) => {
             console.log(e);
