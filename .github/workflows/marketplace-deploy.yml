@@ -18,4 +18,4 @@ jobs:
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.SSH_KEY }}
           target: ${{ secrets.SSH_DIR }}
-          source: "marketplace/powered-by-fiware/pageData.js,marketplace/fiware-ready/pageData.js,marketplace/product-details/pageData.js,marketplace/cities4cities/pageData.js,marketplace/support-services/pageData.js,marketplace/product-details/featured.html"
+          source: "marketplace/**"
