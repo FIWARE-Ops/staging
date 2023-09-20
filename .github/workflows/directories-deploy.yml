@@ -1,4 +1,4 @@
-name: Publish directory pages to LIVE fiware.org
+name: Publish DIRECTORY pages to LIVE fiware.org
 
 on:
   workflow_dispatch:
