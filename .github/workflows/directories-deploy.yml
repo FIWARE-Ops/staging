@@ -18,4 +18,4 @@ jobs:
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.SSH_KEY }}
           target: ${{ secrets.SSH_DIR }}
-          source: "directories/careers/**,directories/domains/**,directories/enablers/**,directories/ihubs/**,directories/impact-stories/**,directories/marketing-tools/**,directories/open-calls/**,directories/organisations/**,directories/research-development/**,directories/webinars"
+          source: "directories/**,directories/**/**,!directories/people/**"
