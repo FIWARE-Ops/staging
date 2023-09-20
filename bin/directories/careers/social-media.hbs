@@ -1,8 +1,13 @@
 <html lang="en-US" prefix="og: https://ogp.me/ns#">
 <head>
+
+<!-- W3C HTML Tags -->
 <title>FIWARE Careers: {{name}} - {{domain}} ({{type}})</title>
 <meta name="description" content="{{mission}}">
+<meta name="keywords" content="{{name}},{{domain}},{{type}}">
 <meta http-equiv="refresh" content="0; url=https://www.fiware.org/foundation/careers/job?id={{createClass name}}" />
+
+<!-- Open Graph Tags -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
 <meta property="og:title" content="FIWARE Careers: {{name}} - {{domain}} ({{type}})">
@@ -16,6 +21,7 @@
 <meta property="og:image:alt" content="job">
 <meta property="og:image:type" content="image/png">
 
+<!-- Twitter Tags -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="FIWARE Careers: {{name}} - {{domain}} ({{type}})">
 <meta name="twitter:description" content="{{mission}}">
@@ -24,6 +30,44 @@
 <meta name="twitter:image" content="{{socialMedia}}">
 <meta name="twitter:label1" content="Time to read">
 <meta name="twitter:data1" content="5 minutes">
+
+<!-- Linked Data -->
+<script type='application/ld+json'> 
+{
+  	"@context": "http://schema.org",
+	"@type": "JobPosting",
+	"datePosted": "{{formatDate postingDate}}",
+	"description": "{{mission}}",
+	"title": "{{name}}",
+	"employmentType": "{{type}}",
+	"hiringOrganization": {
+		"@type": "Organization",
+		"name": "FIWARE Foundation"
+	},
+	"identifier": {
+		"@type": "PropertyValue",
+		"name": "{{name}}",
+		"value": "{{formId}}"
+	},
+	"image": "{{socialMedia}}",
+	"directApply": "https://www.fiware.org/foundation/careers/job?id={{createClass name}}",
+	"employerOverview": "FIWARE Foundation is a friendly, young and dynamic team with multiple locations worldwide and the possibility to work independently. Place of work can be in Berlin (FIWARE Foundation offices) or in Germany, Spain, Italy (remotely from home)",
+	"employmentUnit": "{{domain}}",
+	"jobLocation": {
+		"@type": "Place",
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "Franklinstrasse 13A",
+			"addressLocality": "Charlottenburg",
+			"addressRegion": "Berlin",
+			"postalCode": "10587",
+			"addressCountry": "DE"
+		}
+	},
+	"url": "https://www.fiware.org/foundation/careers/job?id={{createClass name}}",
+  }
+}
+ </script>
 </head>
 <body/>
 </html>
