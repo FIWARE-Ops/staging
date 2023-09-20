@@ -274,7 +274,7 @@ function createSocialMedia(products, dir, category){
         product);
         Prettier.format(path.join(dir, `/${filename}.html`), { parser: 'html' });
 
-        product.social= path.join('wp-content', dir, `/${filename}.html`);
+        product.social= path.join('/wp-content', dir, `/${filename}.html`);
     });
 
      Template.write(
