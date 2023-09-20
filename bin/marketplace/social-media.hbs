@@ -1,9 +1,13 @@
 <html lang="en-US" prefix="og: https://ogp.me/ns#">
 <head>
 
+<!-- W3C HTML Tags -->
 <title>{{category}}: {{organisationName}} - {{productName}} {{#if (gt technologies.length 0)}}({{technologies}}){{/if}}</title>
+<meta name="keywords" content="{{domains}}{{#if (gt technologies.length 0)}},{{technologies}}{{/if}}">
 <meta name="description" content="{{excerpt}}">
 <meta http-equiv="refresh" content="0; url=https://www.fiware.org/marketplace/product-details/?category={{cat}}&id={{hash}}" />
+
+<!-- Open Graph Tags -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
 <meta property="og:title" content="{{category}}: {{organisationName}} - {{productName}} {{#if (gt technologies.length 0)}}({{technologies}}){{/if}}">
@@ -17,6 +21,7 @@
 <meta property="og:image:alt" content="job">
 <meta property="og:image:type" content="image/png">
 
+<!-- Twitter Tags -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{category}}: {{organisationName}} - {{productName}} {{#if (gt technologies.length 0)}}({{technologies}}){{/if}}">
 <meta name="twitter:description" content="{{excerpt}}">
@@ -25,6 +30,21 @@
 <meta name="twitter:image" content="{{featuredImage}}">
 <meta name="twitter:label1" content="Time to read">
 <meta name="twitter:data1" content="5 minutes">
+
+<!-- Linked Data -->
+<script type='application/ld+json'> 
+{
+  "@context": "https://www.schema.org",
+  "@type": "product",
+  "brand": "{{organisationName}}",
+  "logo": "{{logo}}",
+  "keywords": "{{domains}}{{#if (gt technologies.length 0)}},{{technologies}}{{/if}}",
+  "name": "{{productName}}",
+  "category": "{{category}}",
+  "image": "{{featuredImage}}",
+  "description": "{{excerpt}}",
+}
+ </script>
 </head>
 <body/>
 </html>
