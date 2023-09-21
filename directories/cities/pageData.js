@@ -1,0 +1,37 @@
+var companies = [];
+var departments = [];
+var titles = [
+        'Africa',
+        'Asia-Pacific',
+        'Europe',
+        'Latin America',
+        'Middle East',
+        'North America',
+]; var domains = [
+]; var countries = [
+        'Argentina',
+        'Australia',
+        'Austria',
+        'Belgium',
+        'Brazil',
+        'Colombia',
+        'Croatia',
+        'Denmark',
+        'France',
+        'Germany',
+        'Greece',
+        'India',
+        'Italy',
+        'Japan',
+        'Morocco',
+        'Netherlands',
+        'Portugal',
+        'Romania',
+        'Saudi Arabia',
+        'Spain',
+        'Sweden',
+        'Switzerland',
+        'United Kingdom',
+        'Uruguay',
+        'USA',
+]; 
