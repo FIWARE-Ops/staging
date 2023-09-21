@@ -49,6 +49,9 @@ function extractcities(input) {
         };
 
 
+        const filename= Template.createClass(city.type) + '/' + Template.createClass(city.city);               
+        city.social = `/wp-content/directories/cities/${filename}.html`
+
         if (city.publish) {
             cities.push(city);
         }
@@ -92,13 +95,13 @@ function parse(file) {
             Prettier.format(path.join(CITIES_DIR, 'filters.html'), { parser: 'html' });
        
             Template.write(
-                path.join(CITIES_DIR, 'city/pageData.js'),
+                path.join(CITIES_DIR, 'city-details/pageData.js'),
                 path.join(TEMPLATE_PATH, 'details.hbs'),
                 cities
             );
 
             Template.write(
-                path.join(CITIES_DIR, 'city/sitemap.html'),
+                path.join(CITIES_DIR, 'sitemap.html'),
                 path.join(TEMPLATE_PATH, 'sitemap.hbs'),
                 cities
             );
@@ -107,10 +110,10 @@ function parse(file) {
 
                 const filename= Template.createClass(city.type) + '/' + Template.createClass(city.city);
                 Template.write(
-                    path.join(CITIES_DIR, `city/${filename}.html`),
+                    path.join(CITIES_DIR, `${filename}.html`),
                     path.join(TEMPLATE_PATH, 'social-media.hbs'),
                 city);
-                Prettier.format(path.join(CITIES_DIR, `city/${filename}.html`), { parser: 'html' });
+                Prettier.format(path.join(CITIES_DIR, `${filename}.html`), { parser: 'html' });
 
             });
 
