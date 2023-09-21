@@ -1,0 +1,17 @@
+{{#each this}}
+    <div class='grid-item {{createClass type}} {{createClasses domain}} {{createClass country}}'>
+        <div class="f-cat active">
+            <a href="./city?id={{createClass city}}">
+                <img decoding="async" class="city-photo" src="{{thumb}}">
+                <img decoding="async" class="flag" src="{{flag}}">
+                <h3>{{Country}}</h3>
+                <h6 class="city">{{city}}</h6>
+            </a>
+            <h2 class="domains-city">{{domains}}</h2>
+            <div class="icons">
+                <a class="cat-citystrategy" target="_blank" href="{{cityWebsite}}" rel="noopener">
+                    <span class="icon citystrategy"></span></a>
+            </div>
+        </div>
+    </div>
+{{/each}}

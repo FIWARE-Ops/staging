@@ -1,0 +1,52 @@
+<div>
+    <div class='products-record'>
+        <div class='products-label'>
+            <span id='ico-products' class='material-icons-outlined'>groups</span>
+            <span>iHubs</span>
+        </div>
+        <span id='filteredCompanies'></span>
+    </div>
+</div>
+
+
+
+<div class='dropdown-container'>
+    <div class='filter-element'>
+        <label for='filterRole' class='dropdown-label'>Level</label>
+        <select name='' id='filterRole'>
+            <option value='*'>All Levels</option>
+            {{#each types}}
+                {{#if (ne this '')}}
+                    <option value='{{createClass this}}'>{{this}}</option>
+                {{/if}}
+            {{/each}}
+        </select>
+    </div>
+    <div class='filter-element'>
+        <label for='filterDomain' class='dropdown-label'>Domain</label>
+        <select name='' id='filterDomain'>
+            <option value='*'>All Domains</option>
+            {{#each domains}}
+                {{#if (ne this '')}}
+                    <option value='{{createClass this}}'>{{this}}</option>
+                {{/if}}
+            {{/each}}
+        </select>
+    </div>
+    <div class='filter-element'>
+        <label for='filterCountry' class='dropdown-label'>Countries</label>
+        <select name='' id='filterCountry'>
+            <option value='*'>All Locations</option>
+            {{#each countries}}
+                {{#if (ne this '')}}
+                    <option value='{{createClass this}}'>{{this}}</option>
+                {{/if}}
+            {{/each}}
+        </select>
+    </div>
+
+     <div class='search-element'>
+        <label for='searchInput' class='dropdown-label'>Keywords</label>
+        <input type="search" id="searchInput" placeholder="Search by keywords" />
+    </div>
+</div>

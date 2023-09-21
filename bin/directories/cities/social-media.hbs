@@ -1,0 +1,48 @@
+<html lang="en-US" prefix="og: https://ogp.me/ns#">
+<head>
+
+<!-- W3C HTML Tags -->
+<title>FIWARE Smart Cities: {{city}}, {{country}}</title>
+<meta name="description" content="{{excerpt}}">
+<meta name="keywords" content="{{city}},{{domain}},{{type}}">
+<meta http-equiv="refresh" content="0; url=https://www.fiware.org/foundation/cities/city?id={{createClass name}}" />
+
+<!-- Open Graph Tags -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="FIWARE Smart Cities: {{city}}, {{country}} ">
+<meta property="og:description" content="{{excerpt}}">
+<meta property="og:url" content="https://www.fiware.org/foundation/cities/city?id={{createClass name}}">
+<meta property="og:site_name" content="FIWARE">
+<meta property="og:image" content="{{img}}">
+<meta property="og:image:secure_url" content="{{img}}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+<meta property="og:image:alt" content="{{city}}">
+<meta property="og:image:type" content="image/png">
+
+<!-- Twitter Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="FIWARE Smart Cities: {{city}}, {{country}}">
+<meta name="twitter:description" content="{{excerpt}}">
+<meta name="twitter:site" content="@FIWARE">
+<meta name="twitter:creator" content="@FIWARE">
+<meta name="twitter:image" content="{{img}}">
+<meta name="twitter:label1" content="Time to read">
+<meta name="twitter:data1" content="5 minutes">
+
+<!-- Linked Data -->
+<script type='application/ld+json'> 
+{
+  	"@context": "http://schema.org",
+	"@type": "Article",
+	"description": "{{excerpt}}",
+	"img":"{{img}}",
+	"title": "FIWARE Smart Cities: {{city}}, {{country}}",
+	"url": "https://www.fiware.org/foundation/cities/city?id={{createClass name}}",
+  }
+}
+ </script>
+</head>
+<body/>
+</html>

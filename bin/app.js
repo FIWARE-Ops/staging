@@ -1,4 +1,5 @@
 const Careers = require('./directories/careers/parser');
+const Cities = require('./directories/cities/parser');
 const Domains = require('./directories/domains/parser');
 const Enablers = require('./directories/enablers/parser');
 const ImpactStories = require('./directories/impact-stories/parser');
@@ -111,6 +112,12 @@ if (PROCESS.startsWith('careers')) {
     });
 }
 
+// Create HTML and template files for careers
+if (PROCESS.startsWith('cities')) {
+    Loader.load('cities', Cities.file).then(() => {
+        return Cities.parse(Cities.file);
+    });
+}
 
 // Create HTML and template files for a listing of people
 if (PROCESS.startsWith('people')) {

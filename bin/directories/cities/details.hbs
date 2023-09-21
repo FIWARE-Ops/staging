@@ -1,0 +1,7 @@
+window.cities = {
+    {{#each this}}
+        "{{createClass city}}" : {{{json this}}},
+    {{/each}}
+};
+
+document.dispatchEvent(new Event("data-ready"));

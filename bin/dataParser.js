@@ -1,6 +1,7 @@
 const showdown = require('showdown');
 const jsdom = require('jsdom');
 const converter = new showdown.Converter();
+const {markdownToTxt} = require('markdown-to-txt');
 
 /**
  * Links can be either URLs or markdown.
@@ -117,6 +118,10 @@ function date(input) {
     return input === '' ? undefined : new Date(input);
 }
 
+function textOnly(data) {
+    return markdownToTxt(data);
+}
+
 exports.notBlank = notBlank;
 exports.date = date;
 exports.getLinkArray = getLinkArray;
@@ -126,3 +131,4 @@ exports.getCategory = getCategory;
 exports.getHash = getHash;
 exports.splitStrings = splitStrings;
 exports.boolean = boolean;
+exports.textOnly = textOnly;
