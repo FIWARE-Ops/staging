@@ -34,7 +34,7 @@ var pageData = {
             furtherImages: '',
             hash: 'uiurbansoftware-uiurbanpulse',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/-ui---urban-software/-ui---urbanpulse.html'
+            social: '/powered-by-fiware/-ui---urban-software/-ui---urbanpulse.html'
         },
         'absolutezero-thor': {
             category: 'Powered by FIWARE',
@@ -64,7 +64,7 @@ var pageData = {
             furtherImages: '',
             hash: 'absolutezero-thor',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/absolute-zero/thor.html'
+            social: '/powered-by-fiware/absolute-zero/thor.html'
         },
         'accelogresslimited-saveaspace': {
             category: 'Powered by FIWARE',
@@ -95,7 +95,7 @@ var pageData = {
             furtherImages: '',
             hash: 'accelogresslimited-saveaspace',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/accelogress-limited/save-a-space.html'
+            social: '/powered-by-fiware/accelogress-limited/save-a-space.html'
         },
         'agricolus-agricolus': {
             category: 'Powered by FIWARE',
@@ -152,7 +152,7 @@ var pageData = {
             ],
             hash: 'agricolus-agricolus',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/agricolus/agricolus.html'
+            social: '/powered-by-fiware/agricolus/agricolus.html'
         },
         'amigo-indexdesignandanalysis': {
             category: 'Powered by FIWARE',
@@ -186,7 +186,7 @@ var pageData = {
             furtherImages: '',
             hash: 'amigo-indexdesignandanalysis',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/amigo/index-design-and-analysis.html'
+            social: '/powered-by-fiware/amigo/index-design-and-analysis.html'
         },
         'atos-masai': {
             category: 'Powered by FIWARE',
@@ -244,7 +244,7 @@ var pageData = {
             ],
             hash: 'atos-masai',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/atos/masai.html'
+            social: '/powered-by-fiware/atos/masai.html'
         },
         'atos-urbandataplatform': {
             category: 'Powered by FIWARE',
@@ -317,7 +317,7 @@ var pageData = {
             ],
             hash: 'atos-urbandataplatform',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/atos/urban-data-platform.html'
+            social: '/powered-by-fiware/atos/urban-data-platform.html'
         },
         'bettaircities-bettair': {
             category: 'Powered by FIWARE',
@@ -347,7 +347,7 @@ var pageData = {
             furtherImages: '',
             hash: 'bettaircities-bettair',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/bettair-cities/bettair.html'
+            social: '/powered-by-fiware/bettair-cities/bettair.html'
         },
         'bookingabus-bookingabuscom': {
             category: 'Powered by FIWARE',
@@ -377,7 +377,7 @@ var pageData = {
             furtherImages: '',
             hash: 'bookingabus-bookingabuscom',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/bookingabus/bookingabus-com.html'
+            social: '/powered-by-fiware/bookingabus/bookingabus-com.html'
         },
         'bosonit-elliotcloud': {
             category: 'Powered by FIWARE',
@@ -406,7 +406,7 @@ var pageData = {
             furtherImages: '',
             hash: 'bosonit-elliotcloud',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/bosonit/elliot-cloud.html'
+            social: '/powered-by-fiware/bosonit/elliot-cloud.html'
         },
         'breezetechnologies-breezeenvironmentalintelligencecloud': {
             category: 'Powered by FIWARE',
@@ -457,7 +457,7 @@ var pageData = {
             ],
             hash: 'breezetechnologies-breezeenvironmentalintelligencecloud',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/breeze-technologies/breeze-environmental-intelligence-cloud.html'
+            social: '/powered-by-fiware/breeze-technologies/breeze-environmental-intelligence-cloud.html'
         },
         'breezetechnologies-environmentalintelligencesuite': {
             category: 'Powered by FIWARE',
@@ -515,7 +515,7 @@ var pageData = {
             ],
             hash: 'breezetechnologies-environmentalintelligencesuite',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/breeze-technologies/environmental-intelligence-suite.html'
+            social: '/powered-by-fiware/breeze-technologies/environmental-intelligence-suite.html'
         },
         'cardioid-cardiowheel': {
             category: 'Powered by FIWARE',
@@ -553,7 +553,7 @@ var pageData = {
             furtherImages: '',
             hash: 'cardioid-cardiowheel',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/cardioid/cardiowheel.html'
+            social: '/powered-by-fiware/cardioid/cardiowheel.html'
         },
         'carto-urbo': {
             category: 'Powered by FIWARE',
@@ -583,7 +583,7 @@ var pageData = {
             furtherImages: '',
             hash: 'carto-urbo',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/carto/urbo.html'
+            social: '/powered-by-fiware/carto/urbo.html'
         },
         'ciclogreenmovewin-ciclogreen': {
             category: 'Powered by FIWARE',
@@ -614,7 +614,7 @@ var pageData = {
             furtherImages: '',
             hash: 'ciclogreenmovewin-ciclogreen',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/ciclogreen-move---win/ciclogreen.html'
+            social: '/powered-by-fiware/ciclogreen-move---win/ciclogreen.html'
         },
         'civity-snifferbike': {
             category: 'Powered by FIWARE',
@@ -657,7 +657,7 @@ var pageData = {
             furtherImages: '',
             hash: 'civity-snifferbike',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/civity/sniffer-bike.html'
+            social: '/powered-by-fiware/civity/sniffer-bike.html'
         },
         'communithings-stopbuy': {
             category: 'Powered by FIWARE',
@@ -688,7 +688,7 @@ var pageData = {
             furtherImages: '',
             hash: 'communithings-stopbuy',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/communithings/stop-buy.html'
+            social: '/powered-by-fiware/communithings/stop-buy.html'
         },
         'connectrobotics-drone2me': {
             category: 'Powered by FIWARE',
@@ -728,7 +728,7 @@ var pageData = {
             furtherImages: '',
             hash: 'connectrobotics-drone2me',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/connect-robotics/drone-2-me.html'
+            social: '/powered-by-fiware/connect-robotics/drone-2-me.html'
         },
         'digitalilusion-outbarriers': {
             category: 'Powered by FIWARE',
@@ -777,7 +777,7 @@ var pageData = {
             ],
             hash: 'digitalilusion-outbarriers',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/digitalilusion/outbarriers.html'
+            social: '/powered-by-fiware/digitalilusion/outbarriers.html'
         },
         'dksr-openurbandataplatform': {
             category: 'Powered by FIWARE',
@@ -810,7 +810,7 @@ var pageData = {
             furtherImages: '',
             hash: 'dksr-openurbandataplatform',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/dksr/open-urban-data-platform.html'
+            social: '/powered-by-fiware/dksr/open-urban-data-platform.html'
         },
         'egm-carpoolparking': {
             category: 'Powered by FIWARE',
@@ -875,7 +875,7 @@ var pageData = {
             ],
             hash: 'egm-carpoolparking',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/egm/carpool-parking.html'
+            social: '/powered-by-fiware/egm/carpool-parking.html'
         },
         'egm-connectedcanteens': {
             category: 'Powered by FIWARE',
@@ -943,7 +943,7 @@ var pageData = {
             ],
             hash: 'egm-connectedcanteens',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/egm/connected-canteens.html'
+            social: '/powered-by-fiware/egm/connected-canteens.html'
         },
         'egm-smartirrigation': {
             category: 'Powered by FIWARE',
@@ -1014,7 +1014,7 @@ var pageData = {
             ],
             hash: 'egm-smartirrigation',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/egm/smart-irrigation.html'
+            social: '/powered-by-fiware/egm/smart-irrigation.html'
         },
         'elmibit-evineyard': {
             category: 'Powered by FIWARE',
@@ -1048,7 +1048,7 @@ var pageData = {
             furtherImages: '',
             hash: 'elmibit-evineyard',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/elmibit/evineyard.html'
+            social: '/powered-by-fiware/elmibit/evineyard.html'
         },
         'engineering-digitalenabler': {
             category: 'Powered by FIWARE',
@@ -1111,7 +1111,7 @@ var pageData = {
             ],
             hash: 'engineering-digitalenabler',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/engineering/digital-enabler.html'
+            social: '/powered-by-fiware/engineering/digital-enabler.html'
         },
         'engineering-curavesta': {
             category: 'Powered by FIWARE',
@@ -1169,7 +1169,7 @@ var pageData = {
             ],
             hash: 'engineering-curavesta',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/engineering/curavesta.html'
+            social: '/powered-by-fiware/engineering/curavesta.html'
         },
         'everimpact-everimpact': {
             category: 'Powered by FIWARE',
@@ -1198,7 +1198,7 @@ var pageData = {
             furtherImages: '',
             hash: 'everimpact-everimpact',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/everimpact/everimpact.html'
+            social: '/powered-by-fiware/everimpact/everimpact.html'
         },
         'farmdogtechnologies-farmdog': {
             category: 'Powered by FIWARE',
@@ -1230,7 +1230,7 @@ var pageData = {
             furtherImages: '',
             hash: 'farmdogtechnologies-farmdog',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/farm-dog-technologies/farm-dog.html'
+            social: '/powered-by-fiware/farm-dog-technologies/farm-dog.html'
         },
         'fashioncloud-fashioncloud': {
             category: 'Powered by FIWARE',
@@ -1259,7 +1259,7 @@ var pageData = {
             furtherImages: '',
             hash: 'fashioncloud-fashioncloud',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/fashion-cloud/fashion-cloud.html'
+            social: '/powered-by-fiware/fashion-cloud/fashion-cloud.html'
         },
         'faubourgnumérique-ouranosws': {
             category: 'Powered by FIWARE',
@@ -1301,7 +1301,7 @@ var pageData = {
             ],
             hash: 'faubourgnumérique-ouranosws',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/faubourg-numérique/ouranos-ws.html'
+            social: '/powered-by-fiware/faubourg-numérique/ouranos-ws.html'
         },
         'fiwoo-fiwoo': {
             category: 'Powered by FIWARE',
@@ -1350,7 +1350,7 @@ var pageData = {
             furtherImages: '',
             hash: 'fiwoo-fiwoo',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/fiwoo/fiwoo.html'
+            social: '/powered-by-fiware/fiwoo/fiwoo.html'
         },
         'floud-floud': {
             category: 'Powered by FIWARE',
@@ -1389,7 +1389,7 @@ var pageData = {
             furtherImages: '',
             hash: 'floud-floud',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/floud/floud.html'
+            social: '/powered-by-fiware/floud/floud.html'
         },
         'freesense-freesense': {
             category: 'Powered by FIWARE',
@@ -1419,7 +1419,7 @@ var pageData = {
             furtherImages: '',
             hash: 'freesense-freesense',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/freesense/freesense.html'
+            social: '/powered-by-fiware/freesense/freesense.html'
         },
         'fueloyal-fueloyal': {
             category: 'Powered by FIWARE',
@@ -1449,7 +1449,7 @@ var pageData = {
             furtherImages: '',
             hash: 'fueloyal-fueloyal',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/fueloyal/fueloyal.html'
+            social: '/powered-by-fiware/fueloyal/fueloyal.html'
         },
         'futureintelligence-quhoma': {
             category: 'Powered by FIWARE',
@@ -1497,7 +1497,7 @@ var pageData = {
             furtherImages: '',
             hash: 'futureintelligence-quhoma',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/future-intelligence/quhoma.html'
+            social: '/powered-by-fiware/future-intelligence/quhoma.html'
         },
         'greenapes-greenapes': {
             category: 'Powered by FIWARE',
@@ -1527,7 +1527,7 @@ var pageData = {
             furtherImages: '',
             hash: 'greenapes-greenapes',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/greenapes/greenapes.html'
+            social: '/powered-by-fiware/greenapes/greenapes.html'
         },
         'gymcraft-gymcraft': {
             category: 'Powered by FIWARE',
@@ -1558,7 +1558,7 @@ var pageData = {
             furtherImages: '',
             hash: 'gymcraft-gymcraft',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/gymcraft/gymcraft.html'
+            social: '/powered-by-fiware/gymcraft/gymcraft.html'
         },
         'hearingsoftware-sendacare': {
             category: 'Powered by FIWARE',
@@ -1599,7 +1599,7 @@ var pageData = {
             ],
             hash: 'hearingsoftware-sendacare',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/hearing-software/senda-care.html'
+            social: '/powered-by-fiware/hearing-software/senda-care.html'
         },
         'helix-helix': {
             category: 'Powered by FIWARE',
@@ -1628,7 +1628,7 @@ var pageData = {
             furtherImages: '',
             hash: 'helix-helix',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/helix/helix.html'
+            social: '/powered-by-fiware/helix/helix.html'
         },
         'hopu-lowemissionzones': {
             category: 'Powered by FIWARE',
@@ -1684,7 +1684,7 @@ var pageData = {
             ],
             hash: 'hopu-lowemissionzones',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/hopu/low-emission-zones.html'
+            social: '/powered-by-fiware/hopu/low-emission-zones.html'
         },
         'hostabee-bkeep': {
             category: 'Powered by FIWARE',
@@ -1722,7 +1722,7 @@ var pageData = {
             furtherImages: '',
             hash: 'hostabee-bkeep',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/hostabee/b-keep.html'
+            social: '/powered-by-fiware/hostabee/b-keep.html'
         },
         'jig-smartappcity': {
             category: 'Powered by FIWARE',
@@ -1765,7 +1765,7 @@ var pageData = {
             furtherImages: '',
             hash: 'jig-smartappcity',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/jig/smartappcity.html'
+            social: '/powered-by-fiware/jig/smartappcity.html'
         },
         'lahakx-skyxpass': {
             category: 'Powered by FIWARE',
@@ -1808,7 +1808,7 @@ var pageData = {
             furtherImages: '',
             hash: 'lahakx-skyxpass',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/lahakx/skyx-pass.html'
+            social: '/powered-by-fiware/lahakx/skyx-pass.html'
         },
         'limmatgroup-imas': {
             category: 'Powered by FIWARE',
@@ -1857,7 +1857,7 @@ var pageData = {
             furtherImages: '',
             hash: 'limmatgroup-imas',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/limmat-group/imas-.html'
+            social: '/powered-by-fiware/limmat-group/imas-.html'
         },
         'líneaciudadana-líneaciudadana': {
             category: 'Powered by FIWARE',
@@ -1889,7 +1889,7 @@ var pageData = {
             furtherImages: '',
             hash: 'líneaciudadana-líneaciudadana',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/línea-ciudadana/línea-ciudadana.html'
+            social: '/powered-by-fiware/línea-ciudadana/línea-ciudadana.html'
         },
         'martelinnovate-orchestracities': {
             category: 'Powered by FIWARE',
@@ -1941,7 +1941,7 @@ var pageData = {
             ],
             hash: 'martelinnovate-orchestracities',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/martel-innovate/orchestra-cities.html'
+            social: '/powered-by-fiware/martel-innovate/orchestra-cities.html'
         },
         'movisat-ecosat': {
             category: 'Powered by FIWARE',
@@ -1993,7 +1993,7 @@ var pageData = {
             furtherImages: '',
             hash: 'movisat-ecosat',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/movisat/ecosat.html'
+            social: '/powered-by-fiware/movisat/ecosat.html'
         },
         'nec-cloudcityoperationscenter': {
             category: 'Powered by FIWARE',
@@ -2023,7 +2023,7 @@ var pageData = {
             furtherImages: '',
             hash: 'nec-cloudcityoperationscenter',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/nec/cloud-city-operations-center.html'
+            social: '/powered-by-fiware/nec/cloud-city-operations-center.html'
         },
         'netzlink-flinknode': {
             category: 'Powered by FIWARE',
@@ -2051,7 +2051,7 @@ var pageData = {
             furtherImages: '',
             hash: 'netzlink-flinknode',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/netzlink/flink-node.html'
+            social: '/powered-by-fiware/netzlink/flink-node.html'
         },
         'nixi1-nixi1': {
             category: 'Powered by FIWARE',
@@ -2084,7 +2084,7 @@ var pageData = {
             furtherImages: '',
             hash: 'nixi1-nixi1',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/nixi1/nixi1.html'
+            social: '/powered-by-fiware/nixi1/nixi1.html'
         },
         'openmove-openmove': {
             category: 'Powered by FIWARE',
@@ -2115,7 +2115,7 @@ var pageData = {
             furtherImages: '',
             hash: 'openmove-openmove',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/openmove/openmove.html'
+            social: '/powered-by-fiware/openmove/openmove.html'
         },
         'phoops-muvapp': {
             category: 'Powered by FIWARE',
@@ -2149,7 +2149,7 @@ var pageData = {
             furtherImages: '',
             hash: 'phoops-muvapp',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/phoops/muv-app.html'
+            social: '/powered-by-fiware/phoops/muv-app.html'
         },
         'profirator-lakesprofispace': {
             category: 'Powered by FIWARE',
@@ -2186,7 +2186,7 @@ var pageData = {
             furtherImages: '',
             hash: 'profirator-lakesprofispace',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/profirator/lakes-profi-space.html'
+            social: '/powered-by-fiware/profirator/lakes-profi-space.html'
         },
         'projectray-ray': {
             category: 'Powered by FIWARE',
@@ -2216,7 +2216,7 @@ var pageData = {
             furtherImages: '',
             hash: 'projectray-ray',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/project-ray/ray.html'
+            social: '/powered-by-fiware/project-ray/ray.html'
         },
         'purpleblob-baret': {
             category: 'Powered by FIWARE',
@@ -2267,7 +2267,7 @@ var pageData = {
             ],
             hash: 'purpleblob-baret',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/purple-blob/baret.html'
+            social: '/powered-by-fiware/purple-blob/baret.html'
         },
         'purpleblob-sara': {
             category: 'Powered by FIWARE',
@@ -2319,7 +2319,7 @@ var pageData = {
             ],
             hash: 'purpleblob-sara',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/purple-blob/sara.html'
+            social: '/powered-by-fiware/purple-blob/sara.html'
         },
         'pycno-pycno': {
             category: 'Powered by FIWARE',
@@ -2349,7 +2349,7 @@ var pageData = {
             furtherImages: '',
             hash: 'pycno-pycno',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/pycno/pycno.html'
+            social: '/powered-by-fiware/pycno/pycno.html'
         },
         'sammy-smartmarinaplatform': {
             category: 'Powered by FIWARE',
@@ -2385,7 +2385,7 @@ var pageData = {
             furtherImages: '',
             hash: 'sammy-smartmarinaplatform',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/sammy/smart-marina-platform.html'
+            social: '/powered-by-fiware/sammy/smart-marina-platform.html'
         },
         'scuter-scuter': {
             category: 'Powered by FIWARE',
@@ -2416,7 +2416,7 @@ var pageData = {
             furtherImages: '',
             hash: 'scuter-scuter',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/scuter/scuter.html'
+            social: '/powered-by-fiware/scuter/scuter.html'
         },
         'secondnature-ourpath': {
             category: 'Powered by FIWARE',
@@ -2447,7 +2447,7 @@ var pageData = {
             furtherImages: '',
             hash: 'secondnature-ourpath',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/second-nature/ourpath.html'
+            social: '/powered-by-fiware/second-nature/ourpath.html'
         },
         'sensative-yggioplatform': {
             category: 'Powered by FIWARE',
@@ -2497,7 +2497,7 @@ var pageData = {
             furtherImages: '',
             hash: 'sensative-yggioplatform',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/sensative/yggio-platform.html'
+            social: '/powered-by-fiware/sensative/yggio-platform.html'
         },
         'sensei-sensei': {
             category: 'Powered by FIWARE',
@@ -2527,7 +2527,7 @@ var pageData = {
             furtherImages: '',
             hash: 'sensei-sensei',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/sensei/sensei.html'
+            social: '/powered-by-fiware/sensei/sensei.html'
         },
         'sensohivetechnologiesaps-maturix': {
             category: 'Powered by FIWARE',
@@ -2558,7 +2558,7 @@ var pageData = {
             furtherImages: '',
             hash: 'sensohivetechnologiesaps-maturix',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/sensohive-technologies-aps/maturix.html'
+            social: '/powered-by-fiware/sensohive-technologies-aps/maturix.html'
         },
         'sensowave-digitanimal': {
             category: 'Powered by FIWARE',
@@ -2604,7 +2604,7 @@ var pageData = {
             ],
             hash: 'sensowave-digitanimal',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/sensowave/digitanimal.html'
+            social: '/powered-by-fiware/sensowave/digitanimal.html'
         },
         'sentio-vistra': {
             category: 'Powered by FIWARE',
@@ -2634,7 +2634,7 @@ var pageData = {
             furtherImages: '',
             hash: 'sentio-vistra',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/sentio/vistra.html'
+            social: '/powered-by-fiware/sentio/vistra.html'
         },
         'sirusnv-siruscitystore': {
             category: 'Powered by FIWARE',
@@ -2663,7 +2663,7 @@ var pageData = {
             furtherImages: '',
             hash: 'sirusnv-siruscitystore',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/sirus-nv/sirus-city-store.html'
+            social: '/powered-by-fiware/sirus-nv/sirus-city-store.html'
         },
         'snap4city-km4city': {
             category: 'Powered by FIWARE',
@@ -2755,7 +2755,7 @@ var pageData = {
             ],
             hash: 'snap4city-km4city',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/snap4city/km4city.html'
+            social: '/powered-by-fiware/snap4city/km4city.html'
         },
         'snap4city-snap4city': {
             category: 'Powered by FIWARE',
@@ -2845,7 +2845,7 @@ var pageData = {
             ],
             hash: 'snap4city-snap4city',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/snap4city/snap4city.html'
+            social: '/powered-by-fiware/snap4city/snap4city.html'
         },
         'srmconsulting-capacitycontrolsystem': {
             category: 'Powered by FIWARE',
@@ -2896,7 +2896,7 @@ var pageData = {
             ],
             hash: 'srmconsulting-capacitycontrolsystem',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/srm-consulting/capacity-control-system.html'
+            social: '/powered-by-fiware/srm-consulting/capacity-control-system.html'
         },
         'stoneone-smartorchestra': {
             category: 'Powered by FIWARE',
@@ -2939,7 +2939,7 @@ var pageData = {
             ],
             hash: 'stoneone-smartorchestra',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/stoneone/smartorchestra.html'
+            social: '/powered-by-fiware/stoneone/smartorchestra.html'
         },
         'stratio-stratioautomotive': {
             category: 'Powered by FIWARE',
@@ -2968,7 +2968,7 @@ var pageData = {
             furtherImages: '',
             hash: 'stratio-stratioautomotive',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/stratio/stratio-automotive.html'
+            social: '/powered-by-fiware/stratio/stratio-automotive.html'
         },
         'tablegrabber-rezguru': {
             category: 'Powered by FIWARE',
@@ -3003,7 +3003,7 @@ var pageData = {
             furtherImages: '',
             hash: 'tablegrabber-rezguru',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/tablegrabber/rezguru.html'
+            social: '/powered-by-fiware/tablegrabber/rezguru.html'
         },
         'teamdev-wisetown': {
             category: 'Powered by FIWARE',
@@ -3124,7 +3124,7 @@ var pageData = {
             ],
             hash: 'teamdev-wisetown',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/teamdev/wisetown.html'
+            social: '/powered-by-fiware/teamdev/wisetown.html'
         },
         'teamdev-wisetowncrowdplanning': {
             category: 'Powered by FIWARE',
@@ -3231,7 +3231,7 @@ var pageData = {
             ],
             hash: 'teamdev-wisetowncrowdplanning',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/teamdev/wisetown-crowd-planning.html'
+            social: '/powered-by-fiware/teamdev/wisetown-crowd-planning.html'
         },
         'teamdev-wisetowngeoanalytics': {
             category: 'Powered by FIWARE',
@@ -3339,7 +3339,7 @@ var pageData = {
             ],
             hash: 'teamdev-wisetowngeoanalytics',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/teamdev/wisetown-geoanalytics.html'
+            social: '/powered-by-fiware/teamdev/wisetown-geoanalytics.html'
         },
         'teamdev-wisetownissuemanager': {
             category: 'Powered by FIWARE',
@@ -3447,7 +3447,7 @@ var pageData = {
             ],
             hash: 'teamdev-wisetownissuemanager',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/teamdev/wisetown-issue-manager.html'
+            social: '/powered-by-fiware/teamdev/wisetown-issue-manager.html'
         },
         'teamdev-wisetownopendatamanager': {
             category: 'Powered by FIWARE',
@@ -3547,7 +3547,7 @@ var pageData = {
             ],
             hash: 'teamdev-wisetownopendatamanager',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/teamdev/wisetown-open-data-manager.html'
+            social: '/powered-by-fiware/teamdev/wisetown-open-data-manager.html'
         },
         'teamdev-wisetownsituationroom': {
             category: 'Powered by FIWARE',
@@ -3663,7 +3663,7 @@ var pageData = {
             ],
             hash: 'teamdev-wisetownsituationroom',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/teamdev/wisetown-situation-room.html'
+            social: '/powered-by-fiware/teamdev/wisetown-situation-room.html'
         },
         'teamdev-wisetownthematicdashboard': {
             category: 'Powered by FIWARE',
@@ -3770,7 +3770,7 @@ var pageData = {
             ],
             hash: 'teamdev-wisetownthematicdashboard',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/teamdev/wisetown-thematic-dashboard.html'
+            social: '/powered-by-fiware/teamdev/wisetown-thematic-dashboard.html'
         },
         'telefónica-thinkingcities': {
             category: 'Powered by FIWARE',
@@ -3815,7 +3815,7 @@ var pageData = {
             furtherImages: '',
             hash: 'telefónica-thinkingcities',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/telefónica/thinking-cities.html'
+            social: '/powered-by-fiware/telefónica/thinking-cities.html'
         },
         'telenetgroup-telenettinx': {
             category: 'Powered by FIWARE',
@@ -3844,7 +3844,7 @@ var pageData = {
             furtherImages: '',
             hash: 'telenetgroup-telenettinx',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/telenet-group/telenet-tinx.html'
+            social: '/powered-by-fiware/telenet-group/telenet-tinx.html'
         },
         'tera-beeta': {
             category: 'Powered by FIWARE',
@@ -3879,7 +3879,7 @@ var pageData = {
             furtherImages: '',
             hash: 'tera-beeta',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/tera/beeta.html'
+            social: '/powered-by-fiware/tera/beeta.html'
         },
         'tracelabs-tracelabs': {
             category: 'Powered by FIWARE',
@@ -3930,7 +3930,7 @@ var pageData = {
             furtherImages: '',
             hash: 'tracelabs-tracelabs',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/trace-labs/trace-labs.html'
+            social: '/powered-by-fiware/trace-labs/trace-labs.html'
         },
         'tsenso-freshindex': {
             category: 'Powered by FIWARE',
@@ -3974,7 +3974,7 @@ var pageData = {
             furtherImages: '',
             hash: 'tsenso-freshindex',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/tsenso/freshindex.html'
+            social: '/powered-by-fiware/tsenso/freshindex.html'
         },
         'ubikwa-insylo': {
             category: 'Powered by FIWARE',
@@ -4016,7 +4016,7 @@ var pageData = {
             furtherImages: '',
             hash: 'ubikwa-insylo',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/ubikwa/insylo.html'
+            social: '/powered-by-fiware/ubikwa/insylo.html'
         },
         'ubiwhere-smartlamppost': {
             category: 'Powered by FIWARE',
@@ -4065,7 +4065,7 @@ var pageData = {
             ],
             hash: 'ubiwhere-smartlamppost',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/ubiwhere/smartlamppost.html'
+            social: '/powered-by-fiware/ubiwhere/smartlamppost.html'
         },
         'ubiwhere-urbanplatform': {
             category: 'Powered by FIWARE',
@@ -4125,7 +4125,7 @@ var pageData = {
             ],
             hash: 'ubiwhere-urbanplatform',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/ubiwhere/urban-platform.html'
+            social: '/powered-by-fiware/ubiwhere/urban-platform.html'
         },
         'universityofdeusto-waste4think': {
             category: 'Powered by FIWARE',
@@ -4162,7 +4162,7 @@ var pageData = {
             furtherImages: '',
             hash: 'universityofdeusto-waste4think',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/university-of-deusto/waste4think.html'
+            social: '/powered-by-fiware/university-of-deusto/waste4think.html'
         },
         'viur-viur': {
             category: 'Powered by FIWARE',
@@ -4192,7 +4192,7 @@ var pageData = {
             furtherImages: '',
             hash: 'viur-viur',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/viur/viur.html'
+            social: '/powered-by-fiware/viur/viur.html'
         },
         'vm9-we4city': {
             category: 'Powered by FIWARE',
@@ -4231,7 +4231,7 @@ var pageData = {
             furtherImages: '',
             hash: 'vm9-we4city',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/vm9/we4city.html'
+            social: '/powered-by-fiware/vm9/we4city.html'
         },
         'witrac-witrac': {
             category: 'Powered by FIWARE',
@@ -4261,7 +4261,7 @@ var pageData = {
             furtherImages: '',
             hash: 'witrac-witrac',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/witrac/witrac.html'
+            social: '/powered-by-fiware/witrac/witrac.html'
         },
         'yerbabuenavr-ybvr': {
             category: 'Powered by FIWARE',
@@ -4291,7 +4291,7 @@ var pageData = {
             furtherImages: '',
             hash: 'yerbabuenavr-ybvr',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/yerbabuena-vr/ybvr.html'
+            social: '/powered-by-fiware/yerbabuena-vr/ybvr.html'
         },
         'amazonwebservices-smartterritoryframework': {
             category: 'Powered by FIWARE',
@@ -4343,7 +4343,7 @@ var pageData = {
             furtherImages: '',
             hash: 'amazonwebservices-smartterritoryframework',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/amazon-web-services/smart-territory-framework.html'
+            social: '/powered-by-fiware/amazon-web-services/smart-territory-framework.html'
         },
         'hypertegrityag-urbandataspaceplatformudsp': {
             category: 'Powered by FIWARE',
@@ -4379,7 +4379,7 @@ var pageData = {
             furtherImages: '',
             hash: 'hypertegrityag-urbandataspaceplatformudsp',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/hypertegrity-ag/urban-data-space-platform--udsp-.html'
+            social: '/powered-by-fiware/hypertegrity-ag/urban-data-space-platform--udsp-.html'
         },
         'engineeringingegneriainformatica-extendeddigitaltwinofsmartbuildings': {
             category: 'Powered by FIWARE',
@@ -4418,7 +4418,7 @@ var pageData = {
             furtherImages: '',
             hash: 'engineeringingegneriainformatica-extendeddigitaltwinofsmartbuildings',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/engineering-ingegneria-informatica/extended-digital-twin-of-smart-buildings.html'
+            social: '/powered-by-fiware/engineering-ingegneria-informatica/extended-digital-twin-of-smart-buildings.html'
         },
         'agricolussrl-agrigateways': {
             category: 'Powered by FIWARE',
@@ -4449,7 +4449,7 @@ var pageData = {
             furtherImages: '',
             hash: 'agricolussrl-agrigateways',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/agricolus-srl/agrigateways.html'
+            social: '/powered-by-fiware/agricolus-srl/agrigateways.html'
         },
         'addixgmbh-adifi': {
             category: 'Powered by FIWARE',
@@ -4480,7 +4480,7 @@ var pageData = {
             furtherImages: '',
             hash: 'addixgmbh-adifi',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/addix-gmbh/adi-fi.html'
+            social: '/powered-by-fiware/addix-gmbh/adi-fi.html'
         },
         '426code-smarttown': {
             category: 'Powered by FIWARE',
@@ -4512,7 +4512,7 @@ var pageData = {
             furtherImages: '',
             hash: '426code-smarttown',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/426-code/smarttown.html'
+            social: '/powered-by-fiware/426-code/smarttown.html'
         },
         'dihfaubourgnumérique-somwarespace': {
             category: 'Powered by FIWARE',
@@ -4553,7 +4553,7 @@ var pageData = {
             furtherImages: '',
             hash: 'dihfaubourgnumérique-somwarespace',
             cat: 'powered',
-            social: '/wp-content/marketplace/powered-by-fiware/dih-faubourg-numérique/somware-space.html'
+            social: '/powered-by-fiware/dih-faubourg-numérique/somware-space.html'
         }
     },
     ready: {
@@ -4603,7 +4603,7 @@ var pageData = {
             ],
             hash: 'agricolus-agricolusecosystem',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/agricolus/agricolus-ecosystem.html'
+            social: '/fiware-ready/agricolus/agricolus-ecosystem.html'
         },
         'axion-traxion': {
             category: 'FIWARE-Ready',
@@ -4634,7 +4634,7 @@ var pageData = {
             furtherImages: '',
             hash: 'axion-traxion',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/axion/traxion.html'
+            social: '/fiware-ready/axion/traxion.html'
         },
         'breezetechnologies-breezeairqualitysensors': {
             category: 'FIWARE-Ready',
@@ -4688,7 +4688,7 @@ var pageData = {
             ],
             hash: 'breezetechnologies-breezeairqualitysensors',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/breeze-technologies/breeze-air-quality-sensors.html'
+            social: '/fiware-ready/breeze-technologies/breeze-air-quality-sensors.html'
         },
         'cedesadigital-lapsowork': {
             category: 'FIWARE-Ready',
@@ -4718,7 +4718,7 @@ var pageData = {
             furtherImages: '',
             hash: 'cedesadigital-lapsowork',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/cedesa-digital/lapsowork.html'
+            social: '/fiware-ready/cedesa-digital/lapsowork.html'
         },
         'datakorumsolutions-beat': {
             category: 'FIWARE-Ready',
@@ -4872,7 +4872,7 @@ var pageData = {
             ],
             hash: 'datakorumsolutions-beat',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/datakorum-solutions/beat.html'
+            social: '/fiware-ready/datakorum-solutions/beat.html'
         },
         'datakorumsolutions-cs40': {
             category: 'FIWARE-Ready',
@@ -5020,7 +5020,7 @@ var pageData = {
             ],
             hash: 'datakorumsolutions-cs40',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/datakorum-solutions/cs40.html'
+            social: '/fiware-ready/datakorum-solutions/cs40.html'
         },
         'datakorumsolutions-lane': {
             category: 'FIWARE-Ready',
@@ -5168,7 +5168,7 @@ var pageData = {
             ],
             hash: 'datakorumsolutions-lane',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/datakorum-solutions/lane.html'
+            social: '/fiware-ready/datakorum-solutions/lane.html'
         },
         'datakorumsolutions-lb40': {
             category: 'FIWARE-Ready',
@@ -5316,7 +5316,7 @@ var pageData = {
             ],
             hash: 'datakorumsolutions-lb40',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/datakorum-solutions/lb40.html'
+            social: '/fiware-ready/datakorum-solutions/lb40.html'
         },
         'datakorumsolutions-lc40': {
             category: 'FIWARE-Ready',
@@ -5464,7 +5464,7 @@ var pageData = {
             ],
             hash: 'datakorumsolutions-lc40',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/datakorum-solutions/lc40.html'
+            social: '/fiware-ready/datakorum-solutions/lc40.html'
         },
         'datakorumsolutions-ls40': {
             category: 'FIWARE-Ready',
@@ -5612,7 +5612,7 @@ var pageData = {
             ],
             hash: 'datakorumsolutions-ls40',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/datakorum-solutions/ls40.html'
+            social: '/fiware-ready/datakorum-solutions/ls40.html'
         },
         'datakorumsolutions-mb43': {
             category: 'FIWARE-Ready',
@@ -5760,7 +5760,7 @@ var pageData = {
             ],
             hash: 'datakorumsolutions-mb43',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/datakorum-solutions/mb43.html'
+            social: '/fiware-ready/datakorum-solutions/mb43.html'
         },
         'datakorumsolutions-ms41': {
             category: 'FIWARE-Ready',
@@ -5908,7 +5908,7 @@ var pageData = {
             ],
             hash: 'datakorumsolutions-ms41',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/datakorum-solutions/ms41.html'
+            social: '/fiware-ready/datakorum-solutions/ms41.html'
         },
         'datakorumsolutions-peak': {
             category: 'FIWARE-Ready',
@@ -6061,7 +6061,7 @@ var pageData = {
             ],
             hash: 'datakorumsolutions-peak',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/datakorum-solutions/peak.html'
+            social: '/fiware-ready/datakorum-solutions/peak.html'
         },
         'datakorumsolutions-plug': {
             category: 'FIWARE-Ready',
@@ -6215,7 +6215,7 @@ var pageData = {
             ],
             hash: 'datakorumsolutions-plug',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/datakorum-solutions/plug.html'
+            social: '/fiware-ready/datakorum-solutions/plug.html'
         },
         'datakorumsolutions-pole': {
             category: 'FIWARE-Ready',
@@ -6369,7 +6369,7 @@ var pageData = {
             ],
             hash: 'datakorumsolutions-pole',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/datakorum-solutions/pole.html'
+            social: '/fiware-ready/datakorum-solutions/pole.html'
         },
         'datakorumsolutions-sc40': {
             category: 'FIWARE-Ready',
@@ -6517,7 +6517,7 @@ var pageData = {
             ],
             hash: 'datakorumsolutions-sc40',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/datakorum-solutions/sc40.html'
+            social: '/fiware-ready/datakorum-solutions/sc40.html'
         },
         'datakorumsolutions-ss47': {
             category: 'FIWARE-Ready',
@@ -6665,7 +6665,7 @@ var pageData = {
             ],
             hash: 'datakorumsolutions-ss47',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/datakorum-solutions/ss47.html'
+            social: '/fiware-ready/datakorum-solutions/ss47.html'
         },
         'datakorumsolutions-tiny': {
             category: 'FIWARE-Ready',
@@ -6819,7 +6819,7 @@ var pageData = {
             ],
             hash: 'datakorumsolutions-tiny',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/datakorum-solutions/tiny.html'
+            social: '/fiware-ready/datakorum-solutions/tiny.html'
         },
         'devicegateway-udg': {
             category: 'FIWARE-Ready',
@@ -6848,7 +6848,7 @@ var pageData = {
             furtherImages: '',
             hash: 'devicegateway-udg',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/device-gateway/udg.html'
+            social: '/fiware-ready/device-gateway/udg.html'
         },
         'digitalilusion-outbeacon': {
             category: 'FIWARE-Ready',
@@ -6889,7 +6889,7 @@ var pageData = {
             ],
             hash: 'digitalilusion-outbeacon',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/digitalilusion/outbeacon.html'
+            social: '/fiware-ready/digitalilusion/outbeacon.html'
         },
         'distromel-sigeus': {
             category: 'FIWARE-Ready',
@@ -6943,7 +6943,7 @@ var pageData = {
             furtherImages: '',
             hash: 'distromel-sigeus',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/distromel/sigeus.html'
+            social: '/fiware-ready/distromel/sigeus.html'
         },
         'eficae-miluz': {
             category: 'FIWARE-Ready',
@@ -6972,7 +6972,7 @@ var pageData = {
             furtherImages: '',
             hash: 'eficae-miluz',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/eficae/miluz.html'
+            social: '/fiware-ready/eficae/miluz.html'
         },
         'eficaesoluciones-industrialmeter40': {
             category: 'FIWARE-Ready',
@@ -7003,7 +7003,7 @@ var pageData = {
             furtherImages: '',
             hash: 'eficaesoluciones-industrialmeter40',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/eficae-soluciones/industrial-meter-4-0.html'
+            social: '/fiware-ready/eficae-soluciones/industrial-meter-4-0.html'
         },
         'egm-edgespot': {
             category: 'FIWARE-Ready',
@@ -7073,7 +7073,7 @@ var pageData = {
             ],
             hash: 'egm-edgespot',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/egm/edgespot.html'
+            social: '/fiware-ready/egm/edgespot.html'
         },
         'engineering-dashram': {
             category: 'FIWARE-Ready',
@@ -7132,7 +7132,7 @@ var pageData = {
             ],
             hash: 'engineering-dashram',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/engineering/dashram.html'
+            social: '/fiware-ready/engineering/dashram.html'
         },
         'engineering-knowage': {
             category: 'FIWARE-Ready',
@@ -7203,7 +7203,7 @@ var pageData = {
             ],
             hash: 'engineering-knowage',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/engineering/knowage.html'
+            social: '/fiware-ready/engineering/knowage.html'
         },
         'gecorsystem-gecor': {
             category: 'FIWARE-Ready',
@@ -7244,7 +7244,7 @@ var pageData = {
             furtherImages: '',
             hash: 'gecorsystem-gecor',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/gecor-system/gecor.html'
+            social: '/fiware-ready/gecor-system/gecor.html'
         },
         'greenglobesypa-nighteyeskysensor': {
             category: 'FIWARE-Ready',
@@ -7276,7 +7276,7 @@ var pageData = {
             furtherImages: '',
             hash: 'greenglobesypa-nighteyeskysensor',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/green-globe-sypa/night-eye-sky-sensor.html'
+            social: '/fiware-ready/green-globe-sypa/night-eye-sky-sensor.html'
         },
         'hopu-smartirrigationsolution': {
             category: 'FIWARE-Ready',
@@ -7333,7 +7333,7 @@ var pageData = {
             ],
             hash: 'hopu-smartirrigationsolution',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/hopu/smart-irrigation-solution.html'
+            social: '/fiware-ready/hopu/smart-irrigation-solution.html'
         },
         'hopu-smartspot': {
             category: 'FIWARE-Ready',
@@ -7412,7 +7412,7 @@ var pageData = {
             ],
             hash: 'hopu-smartspot',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/hopu/smart-spot.html'
+            social: '/fiware-ready/hopu/smart-spot.html'
         },
         'itudemobile-babbler': {
             category: 'FIWARE-Ready',
@@ -7441,7 +7441,7 @@ var pageData = {
             furtherImages: '',
             hash: 'itudemobile-babbler',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/itude-mobile/babbler.html'
+            social: '/fiware-ready/itude-mobile/babbler.html'
         },
         'kmblab-kissmybike': {
             category: 'FIWARE-Ready',
@@ -7472,7 +7472,7 @@ var pageData = {
             furtherImages: '',
             hash: 'kmblab-kissmybike',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/kmb-lab/kissmybike.html'
+            social: '/fiware-ready/kmb-lab/kissmybike.html'
         },
         'libelium-meshlium': {
             category: 'FIWARE-Ready',
@@ -7547,7 +7547,7 @@ var pageData = {
             ],
             hash: 'libelium-meshlium',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/libelium/meshlium.html'
+            social: '/fiware-ready/libelium/meshlium.html'
         },
         'libelium-plugsense': {
             category: 'FIWARE-Ready',
@@ -7623,7 +7623,7 @@ var pageData = {
             ],
             hash: 'libelium-plugsense',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/libelium/plug-sense-.html'
+            social: '/fiware-ready/libelium/plug-sense-.html'
         },
         'libelium-waspmote': {
             category: 'FIWARE-Ready',
@@ -7696,7 +7696,7 @@ var pageData = {
             ],
             hash: 'libelium-waspmote',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/libelium/waspmote.html'
+            social: '/fiware-ready/libelium/waspmote.html'
         },
         'montemas-cityprobe2': {
             category: 'FIWARE-Ready',
@@ -7727,7 +7727,7 @@ var pageData = {
             furtherImages: '',
             hash: 'montemas-cityprobe2',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/montem-a-s/cityprobe-2.html'
+            social: '/fiware-ready/montem-a-s/cityprobe-2.html'
         },
         'odinsolutions-ipex04datalogger': {
             category: 'FIWARE-Ready',
@@ -7785,7 +7785,7 @@ var pageData = {
             ],
             hash: 'odinsolutions-ipex04datalogger',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/odin-solutions/ipex-04-datalogger.html'
+            social: '/fiware-ready/odin-solutions/ipex-04-datalogger.html'
         },
         'odinsolutions-ipex12datalogger': {
             category: 'FIWARE-Ready',
@@ -7848,7 +7848,7 @@ var pageData = {
             ],
             hash: 'odinsolutions-ipex12datalogger',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/odin-solutions/ipex-12-datalogger.html'
+            social: '/fiware-ready/odin-solutions/ipex-12-datalogger.html'
         },
         'odinsolutions-ipex16datalogger': {
             category: 'FIWARE-Ready',
@@ -7908,7 +7908,7 @@ var pageData = {
             ],
             hash: 'odinsolutions-ipex16datalogger',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/odin-solutions/ipex-16-datalogger.html'
+            social: '/fiware-ready/odin-solutions/ipex-16-datalogger.html'
         },
         'odinsolutions-mex06datalogger': {
             category: 'FIWARE-Ready',
@@ -7973,7 +7973,7 @@ var pageData = {
             ],
             hash: 'odinsolutions-mex06datalogger',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/odin-solutions/mex-06-datalogger.html'
+            social: '/fiware-ready/odin-solutions/mex-06-datalogger.html'
         },
         'panstamp-respirafiware': {
             category: 'FIWARE-Ready',
@@ -8003,7 +8003,7 @@ var pageData = {
             furtherImages: '',
             hash: 'panstamp-respirafiware',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/panstamp/respira-fiware.html'
+            social: '/fiware-ready/panstamp/respira-fiware.html'
         },
         'seaconeurope-intellifood': {
             category: 'FIWARE-Ready',
@@ -8031,7 +8031,7 @@ var pageData = {
             furtherImages: '',
             hash: 'seaconeurope-intellifood',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/seacon-europe/intellifood.html'
+            social: '/fiware-ready/seacon-europe/intellifood.html'
         },
         'secmotic-lockart': {
             category: 'FIWARE-Ready',
@@ -8081,7 +8081,7 @@ var pageData = {
             ],
             hash: 'secmotic-lockart',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/secmotic/lockart.html'
+            social: '/fiware-ready/secmotic/lockart.html'
         },
         'secmotic-muvone': {
             category: 'FIWARE-Ready',
@@ -8131,7 +8131,7 @@ var pageData = {
             ],
             hash: 'secmotic-muvone',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/secmotic/muvone.html'
+            social: '/fiware-ready/secmotic/muvone.html'
         },
         'senecoas-citygrid': {
             category: 'FIWARE-Ready',
@@ -8178,7 +8178,7 @@ var pageData = {
             furtherImages: '',
             hash: 'senecoas-citygrid',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/seneco-a-s/citygrid.html'
+            social: '/fiware-ready/seneco-a-s/citygrid.html'
         },
         'sensowave-digitanimal': {
             category: 'FIWARE-Ready',
@@ -8230,7 +8230,7 @@ var pageData = {
             ],
             hash: 'sensowave-digitanimal',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/sensowave/digitanimal.html'
+            social: '/fiware-ready/sensowave/digitanimal.html'
         },
         'sensowave-digitanimallivestockgps': {
             category: 'FIWARE-Ready',
@@ -8279,7 +8279,7 @@ var pageData = {
             ],
             hash: 'sensowave-digitanimallivestockgps',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/sensowave/digitanimal-livestock-gps.html'
+            social: '/fiware-ready/sensowave/digitanimal-livestock-gps.html'
         },
         'situmindoorpositioning-situmindoornavigation': {
             category: 'FIWARE-Ready',
@@ -8336,7 +8336,7 @@ var pageData = {
             ],
             hash: 'situmindoorpositioning-situmindoornavigation',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/situm-indoor-positioning/situm-indoor-navigation.html'
+            social: '/fiware-ready/situm-indoor-positioning/situm-indoor-navigation.html'
         },
         'situmindoorpositioning-situmindoortracking': {
             category: 'FIWARE-Ready',
@@ -8374,7 +8374,7 @@ var pageData = {
             ],
             hash: 'situmindoorpositioning-situmindoortracking',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/situm-indoor-positioning/situm-indoor-tracking.html'
+            social: '/fiware-ready/situm-indoor-positioning/situm-indoor-tracking.html'
         },
         'srmconsulting-fiwaremapviewer': {
             category: 'FIWARE-Ready',
@@ -8426,7 +8426,7 @@ var pageData = {
             ],
             hash: 'srmconsulting-fiwaremapviewer',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/srm-consulting/fiware-map-viewer.html'
+            social: '/fiware-ready/srm-consulting/fiware-map-viewer.html'
         },
         'srmconsulting-mavdrone': {
             category: 'FIWARE-Ready',
@@ -8477,7 +8477,7 @@ var pageData = {
             ],
             hash: 'srmconsulting-mavdrone',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/srm-consulting/mavdrone.html'
+            social: '/fiware-ready/srm-consulting/mavdrone.html'
         },
         'telocate-fiassist': {
             category: 'FIWARE-Ready',
@@ -8513,7 +8513,7 @@ var pageData = {
             furtherImages: '',
             hash: 'telocate-fiassist',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/telocate/fi-assist.html'
+            social: '/fiware-ready/telocate/fi-assist.html'
         },
         'tstsistemas-tscontrolindustrialcontrol': {
             category: 'FIWARE-Ready',
@@ -8566,7 +8566,7 @@ var pageData = {
             ],
             hash: 'tstsistemas-tscontrolindustrialcontrol',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/tst-sistemas/tscontrol-industrial-control.html'
+            social: '/fiware-ready/tst-sistemas/tscontrol-industrial-control.html'
         },
         'tstsistemas-tsmartdevelopmentplatform': {
             category: 'FIWARE-Ready',
@@ -8626,7 +8626,7 @@ var pageData = {
             ],
             hash: 'tstsistemas-tsmartdevelopmentplatform',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/tst-sistemas/tsmart-development-platform.html'
+            social: '/fiware-ready/tst-sistemas/tsmart-development-platform.html'
         },
         'tstsistemas-tswaste': {
             category: 'FIWARE-Ready',
@@ -8685,7 +8685,7 @@ var pageData = {
             ],
             hash: 'tstsistemas-tswaste',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/tst-sistemas/tswaste.html'
+            social: '/fiware-ready/tst-sistemas/tswaste.html'
         },
         'ubikwa-insylo': {
             category: 'FIWARE-Ready',
@@ -8727,7 +8727,7 @@ var pageData = {
             furtherImages: '',
             hash: 'ubikwa-insylo',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/ubikwa/insylo.html'
+            social: '/fiware-ready/ubikwa/insylo.html'
         },
         'urbaser-sensiot': {
             category: 'FIWARE-Ready',
@@ -8768,7 +8768,7 @@ var pageData = {
             furtherImages: '',
             hash: 'urbaser-sensiot',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/urbaser/sensiot.html'
+            social: '/fiware-ready/urbaser/sensiot.html'
         },
         'ventuminnovacion-gaviláncontrol': {
             category: 'FIWARE-Ready',
@@ -8804,7 +8804,7 @@ var pageData = {
             furtherImages: '',
             hash: 'ventuminnovacion-gaviláncontrol',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/ventum-innovacion/gavilán-control.html'
+            social: '/fiware-ready/ventum-innovacion/gavilán-control.html'
         },
         'viralstudios-virtualart': {
             category: 'FIWARE-Ready',
@@ -8834,7 +8834,7 @@ var pageData = {
             furtherImages: '',
             hash: 'viralstudios-virtualart',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/viral-studios/virtualart.html'
+            social: '/fiware-ready/viral-studios/virtualart.html'
         },
         'wellnesstechgroup-quamtra': {
             category: 'FIWARE-Ready',
@@ -8880,7 +8880,7 @@ var pageData = {
             ],
             hash: 'wellnesstechgroup-quamtra',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/wellness-techgroup/quamtra.html'
+            social: '/fiware-ready/wellness-techgroup/quamtra.html'
         },
         'wellnesstechgroup-welight': {
             category: 'FIWARE-Ready',
@@ -8926,7 +8926,7 @@ var pageData = {
             ],
             hash: 'wellnesstechgroup-welight',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/wellness-techgroup/welight.html'
+            social: '/fiware-ready/wellness-techgroup/welight.html'
         },
         'xapix-xapix': {
             category: 'FIWARE-Ready',
@@ -8957,7 +8957,7 @@ var pageData = {
             furtherImages: '',
             hash: 'xapix-xapix',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/xapix/xapix.html'
+            social: '/fiware-ready/xapix/xapix.html'
         },
         'mobamobileautomation-mawisu2': {
             category: 'FIWARE-Ready',
@@ -9025,7 +9025,7 @@ var pageData = {
             furtherImages: '',
             hash: 'mobamobileautomation-mawisu2',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/moba-mobile-automation/mawis-u2.html'
+            social: '/fiware-ready/moba-mobile-automation/mawis-u2.html'
         },
         'socialcloudsl-sporttiafiot': {
             category: 'FIWARE-Ready',
@@ -9056,7 +9056,7 @@ var pageData = {
             furtherImages: '',
             hash: 'socialcloudsl-sporttiafiot',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/social-cloud--s-l-/sporttia-fiot.html'
+            social: '/fiware-ready/social-cloud--s-l-/sporttia-fiot.html'
         },
         'edagengineeringgmbh-trivepark': {
             category: 'FIWARE-Ready',
@@ -9093,7 +9093,7 @@ var pageData = {
             furtherImages: '',
             hash: 'edagengineeringgmbh-trivepark',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/edag-engineering-gmbh/trive-park.html'
+            social: '/fiware-ready/edag-engineering-gmbh/trive-park.html'
         },
         'edagproductionsolutionsgmbhcokg-opensourcesmartcitydashboard': {
             category: 'FIWARE-Ready',
@@ -9129,7 +9129,7 @@ var pageData = {
             furtherImages: '',
             hash: 'edagproductionsolutionsgmbhcokg-opensourcesmartcitydashboard',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/edag-production-solutions-gmbh---co--kg/open-source-smart-city-dashboard.html'
+            social: '/fiware-ready/edag-production-solutions-gmbh---co--kg/open-source-smart-city-dashboard.html'
         },
         'novality-bikesandscooterssmartlockerparkings': {
             category: 'FIWARE-Ready',
@@ -9182,7 +9182,7 @@ var pageData = {
             furtherImages: '',
             hash: 'novality-bikesandscooterssmartlockerparkings',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/novality/bikes-and-scooters-smart-locker-parkings.html'
+            social: '/fiware-ready/novality/bikes-and-scooters-smart-locker-parkings.html'
         },
         'anteral-uradsmarttrafficcompact': {
             category: 'FIWARE-Ready',
@@ -9218,7 +9218,7 @@ var pageData = {
             furtherImages: '',
             hash: 'anteral-uradsmarttrafficcompact',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/anteral/urad-smart-traffic-compact.html'
+            social: '/fiware-ready/anteral/urad-smart-traffic-compact.html'
         },
         'atos-bikeavailabilityforecastservice': {
             category: 'FIWARE-Ready',
@@ -9283,7 +9283,7 @@ var pageData = {
             ],
             hash: 'atos-bikeavailabilityforecastservice',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/atos/bike-availability-forecast-service.html'
+            social: '/fiware-ready/atos/bike-availability-forecast-service.html'
         },
         'libelium-smartparking': {
             category: 'FIWARE-Ready',
@@ -9357,7 +9357,7 @@ var pageData = {
             ],
             hash: 'libelium-smartparking',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/libelium/smart-parking.html'
+            social: '/fiware-ready/libelium/smart-parking.html'
         },
         'imredduniversitycôtedazur-noiseforecasting': {
             category: 'FIWARE-Ready',
@@ -9394,7 +9394,7 @@ var pageData = {
             furtherImages: '',
             hash: 'imredduniversitycôtedazur-noiseforecasting',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/imredd---university-côte-d-azur/noise-forecasting.html'
+            social: '/fiware-ready/imredd---university-côte-d-azur/noise-forecasting.html'
         },
         'imredd-traffictimeseriesforecasting': {
             category: 'FIWARE-Ready',
@@ -9435,7 +9435,7 @@ var pageData = {
             furtherImages: '',
             hash: 'imredd-traffictimeseriesforecasting',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/imredd/traffic-time-series-forecasting.html'
+            social: '/fiware-ready/imredd/traffic-time-series-forecasting.html'
         },
         'libelium-trafficenvironmentalimpactcalculation': {
             category: 'FIWARE-Ready',
@@ -9509,7 +9509,7 @@ var pageData = {
             ],
             hash: 'libelium-trafficenvironmentalimpactcalculation',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/libelium/traffic-environmental-impact-calculation.html'
+            social: '/fiware-ready/libelium/traffic-environmental-impact-calculation.html'
         },
         'libelium-airqualityindexcalculation': {
             category: 'FIWARE-Ready',
@@ -9583,7 +9583,7 @@ var pageData = {
             ],
             hash: 'libelium-airqualityindexcalculation',
             cat: 'ready',
-            social: '/wp-content/marketplace/fiware-ready/libelium/air-quality-index-calculation.html'
+            social: '/fiware-ready/libelium/air-quality-index-calculation.html'
         }
     },
     cities: {
@@ -9624,7 +9624,7 @@ var pageData = {
             furtherImages: '',
             hash: 'cityofvienna-smartdatawien',
             cat: 'cities',
-            social: '/wp-content/marketplace/cities4cities/city-of-vienna/smart-data-wien.html'
+            social: '/cities4cities/city-of-vienna/smart-data-wien.html'
         }
     },
     services: {
@@ -9695,7 +9695,7 @@ var pageData = {
             ],
             hash: 'atos-connectedterritories',
             cat: 'services',
-            social: '/wp-content/marketplace/support-services/atos/connected-territories.html'
+            social: '/support-services/atos/connected-territories.html'
         },
         'ballistix-ballistix': {
             category: 'Support Services',
@@ -9724,7 +9724,7 @@ var pageData = {
             furtherImages: '',
             hash: 'ballistix-ballistix',
             cat: 'services',
-            social: '/wp-content/marketplace/support-services/ballistix/ballistix.html'
+            social: '/support-services/ballistix/ballistix.html'
         },
         'egm-designoffice': {
             category: 'Services',
@@ -9788,7 +9788,7 @@ var pageData = {
             ],
             hash: 'egm-designoffice',
             cat: 'services',
-            social: '/wp-content/marketplace/support-services/egm/design-office.html'
+            social: '/support-services/egm/design-office.html'
         },
         'eprosima-eprosima': {
             category: 'Services',
@@ -9824,7 +9824,7 @@ var pageData = {
             furtherImages: '',
             hash: 'eprosima-eprosima',
             cat: 'services',
-            social: '/wp-content/marketplace/support-services/eprosima/eprosima.html'
+            social: '/support-services/eprosima/eprosima.html'
         },
         'faubourgnumérique-fiwareihub': {
             category: 'Services',
@@ -9872,7 +9872,7 @@ var pageData = {
             ],
             hash: 'faubourgnumérique-fiwareihub',
             cat: 'services',
-            social: '/wp-content/marketplace/support-services/faubourg-numérique/fiware-ihub.html'
+            social: '/support-services/faubourg-numérique/fiware-ihub.html'
         },
         'ficodes-coachingtrainingservices': {
             category: 'Support Services',
@@ -9902,7 +9902,7 @@ var pageData = {
             furtherImages: '',
             hash: 'ficodes-coachingtrainingservices',
             cat: 'services',
-            social: '/wp-content/marketplace/support-services/ficodes/coaching---training-services.html'
+            social: '/support-services/ficodes/coaching---training-services.html'
         },
         'fiihubcanaryisland-fiihubacademy': {
             category: 'Services',
@@ -9943,7 +9943,7 @@ var pageData = {
             ],
             hash: 'fiihubcanaryisland-fiihubacademy',
             cat: 'services',
-            social: '/wp-content/marketplace/support-services/fiihub-canary-island/fiihub-academy.html'
+            social: '/support-services/fiihub-canary-island/fiihub-academy.html'
         },
         'fiihubcanaryisland-innovationprojectdesignthroughfiware': {
             category: 'Services',
@@ -9985,7 +9985,7 @@ var pageData = {
             ],
             hash: 'fiihubcanaryisland-innovationprojectdesignthroughfiware',
             cat: 'services',
-            social: '/wp-content/marketplace/support-services/fiihub-canary-island/innovation-project-design-through-fiware.html'
+            social: '/support-services/fiihub-canary-island/innovation-project-design-through-fiware.html'
         },
         'fiwareinnovaihub-coachingtrainingservices': {
             category: 'Support Services',
@@ -10030,7 +10030,7 @@ var pageData = {
             ],
             hash: 'fiwareinnovaihub-coachingtrainingservices',
             cat: 'services',
-            social: '/wp-content/marketplace/support-services/fiware-innova-ihub/coaching---training-services.html'
+            social: '/support-services/fiware-innova-ihub/coaching---training-services.html'
         },
         'fiwareinnovaihub-consultancyintegrationservices': {
             category: 'Services',
@@ -10080,7 +10080,7 @@ var pageData = {
             ],
             hash: 'fiwareinnovaihub-consultancyintegrationservices',
             cat: 'services',
-            social: '/wp-content/marketplace/support-services/fiware-innova-ihub/consultancy---integration-services.html'
+            social: '/support-services/fiware-innova-ihub/consultancy---integration-services.html'
         },
         'fiwarespace-coachingtrainingservices': {
             category: 'Services',
@@ -10137,7 +10137,7 @@ var pageData = {
             ],
             hash: 'fiwarespace-coachingtrainingservices',
             cat: 'services',
-            social: '/wp-content/marketplace/support-services/fiware-space/coaching---training-services.html'
+            social: '/support-services/fiware-space/coaching---training-services.html'
         },
         'fiwarespace-consultancyintegrationservices': {
             category: 'Services',
@@ -10197,7 +10197,7 @@ var pageData = {
             ],
             hash: 'fiwarespace-consultancyintegrationservices',
             cat: 'services',
-            social: '/wp-content/marketplace/support-services/fiware-space/consultancy---integration-services.html'
+            social: '/support-services/fiware-space/consultancy---integration-services.html'
         },
         'fiwarezone-coachingtrainingservices': {
             category: 'Services',
@@ -10244,7 +10244,7 @@ var pageData = {
             ],
             hash: 'fiwarezone-coachingtrainingservices',
             cat: 'services',
-            social: '/wp-content/marketplace/support-services/fiware-zone/coaching---training-services.html'
+            social: '/support-services/fiware-zone/coaching---training-services.html'
         },
         'fiwarezone-consultancyintegrationservices': {
             category: 'Services',
@@ -10290,7 +10290,7 @@ var pageData = {
             ],
             hash: 'fiwarezone-consultancyintegrationservices',
             cat: 'services',
-            social: '/wp-content/marketplace/support-services/fiware-zone/consultancy---integration-services.html'
+            social: '/support-services/fiware-zone/consultancy---integration-services.html'
         },
         'futureinternet-consultancyintegrationservices': {
             category: 'Services',
@@ -10320,7 +10320,7 @@ var pageData = {
             furtherImages: '',
             hash: 'futureinternet-consultancyintegrationservices',
             cat: 'services',
-            social: '/wp-content/marketplace/support-services/future-internet/consultancy---integration-services.html'
+            social: '/support-services/future-internet/consultancy---integration-services.html'
         },
         'hearingsoftware-consultancyintegrationservices': {
             category: 'Services',
@@ -10386,7 +10386,7 @@ var pageData = {
             ],
             hash: 'hearingsoftware-consultancyintegrationservices',
             cat: 'services',
-            social: '/wp-content/marketplace/support-services/hearing-software/consultancy---integration-services.html'
+            social: '/support-services/hearing-software/consultancy---integration-services.html'
         },
         'hopu-fiwareexpertcertification': {
             category: 'Services',
@@ -10459,7 +10459,7 @@ var pageData = {
             ],
             hash: 'hopu-fiwareexpertcertification',
             cat: 'services',
-            social: '/wp-content/marketplace/support-services/hopu/fiware-expert-certification.html'
+            social: '/support-services/hopu/fiware-expert-certification.html'
         },
         'martelinnovate-martellab': {
             category: 'Services',
@@ -10526,7 +10526,7 @@ var pageData = {
             ],
             hash: 'martelinnovate-martellab',
             cat: 'services',
-            social: '/wp-content/marketplace/support-services/martel-innovate/martel-lab.html'
+            social: '/support-services/martel-innovate/martel-lab.html'
         },
         'mnxonline-coachingtrainingservices': {
             category: 'Services',
@@ -10566,7 +10566,7 @@ var pageData = {
             ],
             hash: 'mnxonline-coachingtrainingservices',
             cat: 'services',
-            social: '/wp-content/marketplace/support-services/mnx-online/coaching---training-services.html'
+            social: '/support-services/mnx-online/coaching---training-services.html'
         },
         'mnxonline-fiwaretransitionstrategy': {
             category: 'Services',
@@ -10612,7 +10612,7 @@ var pageData = {
             ],
             hash: 'mnxonline-fiwaretransitionstrategy',
             cat: 'services',
-            social: '/wp-content/marketplace/support-services/mnx-online/fiware-transition-strategy.html'
+            social: '/support-services/mnx-online/fiware-transition-strategy.html'
         },
         'naevatec-fiwareconsultancy': {
             category: 'Services',
@@ -10653,7 +10653,7 @@ var pageData = {
             furtherImages: '',
             hash: 'naevatec-fiwareconsultancy',
             cat: 'services',
-            social: '/wp-content/marketplace/support-services/naeva-tec/fiware-consultancy.html'
+            social: '/support-services/naeva-tec/fiware-consultancy.html'
         },
         'secmotic-iotdevelopment': {
             category: 'Services',
@@ -10700,7 +10700,7 @@ var pageData = {
             ],
             hash: 'secmotic-iotdevelopment',
             cat: 'services',
-            social: '/wp-content/marketplace/support-services/secmotic/iot-development.html'
+            social: '/support-services/secmotic/iot-development.html'
         },
         'snap4city-coachingtrainingservices': {
             category: 'Services',
@@ -10781,7 +10781,7 @@ var pageData = {
             ],
             hash: 'snap4city-coachingtrainingservices',
             cat: 'services',
-            social: '/wp-content/marketplace/support-services/snap4city/coaching---training-services.html'
+            social: '/support-services/snap4city/coaching---training-services.html'
         },
         'snap4city-consultancyintegrationservices': {
             category: 'Services',
@@ -10843,7 +10843,7 @@ var pageData = {
             ],
             hash: 'snap4city-consultancyintegrationservices',
             cat: 'services',
-            social: '/wp-content/marketplace/support-services/snap4city/consultancy---integration-services.html'
+            social: '/support-services/snap4city/consultancy---integration-services.html'
         },
         'stoneone-stoneoneservices': {
             category: 'Services',
@@ -10884,7 +10884,7 @@ var pageData = {
             ],
             hash: 'stoneone-stoneoneservices',
             cat: 'services',
-            social: '/wp-content/marketplace/support-services/stoneone/stoneone-services.html'
+            social: '/support-services/stoneone/stoneone-services.html'
         },
         'teamdev-fiwareprofessionalservices': {
             category: 'Services',
@@ -10991,7 +10991,7 @@ var pageData = {
             ],
             hash: 'teamdev-fiwareprofessionalservices',
             cat: 'services',
-            social: '/wp-content/marketplace/support-services/teamdev/fiware-professional-services.html'
+            social: '/support-services/teamdev/fiware-professional-services.html'
         },
         'ubiwhere-fiwareubiwhere': {
             category: 'Services',
@@ -11045,7 +11045,7 @@ var pageData = {
             ],
             hash: 'ubiwhere-fiwareubiwhere',
             cat: 'services',
-            social: '/wp-content/marketplace/support-services/ubiwhere/fiware---ubiwhere.html'
+            social: '/support-services/ubiwhere/fiware---ubiwhere.html'
         }
     },
     unknown: {
