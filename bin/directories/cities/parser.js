@@ -31,6 +31,8 @@ function extractcities(input) {
             domain: Parser.splitStrings(item['Domain']),
             type: item['Region'],
             country: item['Country'],
+            lat:  Number(item['Latitude']),
+            lng:  Number(item['Longitude']),
             flag: item['Country Flag'],
             excerpt: getExcerpt(item),
             cityStrategy: Parser.markdown(item['City Strategy Description']),
