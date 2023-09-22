@@ -225,8 +225,7 @@ function initSelect() {
       columnWidth: ".grid-sizer",
     },
     getSortData: {
-      name: ".name parseInt",
-      year: ".year",
+      name: ".ihub-name"
     },
     sortAscending: {
       name: true,
@@ -245,7 +244,7 @@ function initSelect() {
           return true;
         },
       });
-    });
+    });*/
 
     // SORT BY ALPHABETICALLY
     document.querySelector("#orderByName").addEventListener("click", (e) => {
@@ -258,7 +257,7 @@ function initSelect() {
       }
     });
 
-    // SORT BY YEAR
+    /* / SORT BY YEAR
     document.querySelector("#orderByYear").addEventListener("click", (e) => {
       if (e.target.classList.contains("active") == false) {
         msnry.arrange({ sortBy: "year" });
@@ -404,6 +403,8 @@ document.addEventListener("html-included", () => {
   initChips();
   filterToggle();
   initSticky();
+  let count = 0;
+  let target = 7;
   // Isotope istantiation
   // Relies on unpkg.com/imagesloaded
   $("#app")
@@ -423,6 +424,10 @@ document.addEventListener("html-included", () => {
       //msnry.arrange({ sortBy: "original-order" });
     })
     .progress(function (instance, image) {
-      //msnry.arrange({ sortBy: "original-order" });
+      count++;
+      if(count % target === 0){
+        target = target + 7;
+        msnry.arrange({ sortBy: "original-order" });
+      }
     });
 });

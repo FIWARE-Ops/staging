@@ -467,6 +467,8 @@ document.addEventListener("html-included", () => {
   initChips();
   initModal();
   filterToggle();
+  let count = 0;
+  let target = 7;
   // Isotope istantiation
   // Relies on unpkg.com/imagesloaded
   $("#app")
@@ -478,6 +480,10 @@ document.addEventListener("html-included", () => {
       // msnry.arrange({ sortBy: "original-order" });
     })
     .progress(function (instance, image) {
-      // msnry.arrange({ sortBy: "original-order" });
+      count++;
+      if(count % target === 0){
+        target = target + 7;
+        msnry.arrange({ sortBy: "original-order" });
+      }
     });
 });
