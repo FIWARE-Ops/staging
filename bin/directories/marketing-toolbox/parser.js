@@ -5,10 +5,10 @@ const Prettier = require('prettier');
 const Parser = require('../../dataParser');
 const Sorter = require('../../sort');
 const Template = require('../../template');
-const TEMPLATE_PATH = 'bin/directories/marketing-tools/';
-const MARKETING_TOOLS_DIR = 'directories/marketing-tools';
+const TEMPLATE_PATH = 'bin/directories/marketing-toolbox/';
+const MARKETING_TOOLS_DIR = 'directories/marketing-toolbox';
 
-const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/marketing-tools/images/iHub-default.png';
+const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/marketing-toolbox/images/iHub-default.png';
 
 /**
  * Take the human readable column names from the spreadsheet and create a
