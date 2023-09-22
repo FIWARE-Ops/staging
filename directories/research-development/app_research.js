@@ -420,9 +420,9 @@ document.addEventListener("html-included", () => {
       });
     })
    .fail( function() {
-      msnry.arrange({ sortBy: "original-order" });
+      // msnry.arrange({ sortBy: "original-order" });
     })
     .progress(function (instance, image) {
-      msnry.arrange({ sortBy: "original-order" });
+      // msnry.arrange({ sortBy: "original-order" });
     });
 });
