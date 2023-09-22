@@ -2,13 +2,14 @@
     <div class="grid-item  {{createClass type}} {{createClasses domain}} {{createClass country}}">
         <a href="./city-details?id={{createClass city}}">
             <img class="gridElementLogo" src="{{thumb}}"  
-            loading="lazy">
+            {{#if (gt @index 9)}}loading="lazy"{{/if}}>
         </a>
         <div class="gridElementTextContainer">
             <a href="./city-details?id={{createClass city}}">
             <div class="label-location">
                 <h3>{{country}}</h3>
-                <img alt="{{Country}}" class="flag" alt="{{country}}"src="{{flag}}" loading="lazy">
+                <img class="flag" alt="{{country}}"src="{{flag}}" 
+                 {{#if (gt @index 9)}}loading="lazy"{{/if}}>
             </div>
             <h6 class="cat-name">{{city}}</h6>
             </a>
