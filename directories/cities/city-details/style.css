@@ -71,6 +71,18 @@ h4 {
   text-decoration: underline;
 }
 
+.map-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 120px auto;
+}
+
+#map {
+  width: 450px;
+  background-color: grey;
+  height: 450px;
+}
+
 .material-symbols-outlined {
   color: #002e67;
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
@@ -680,4 +692,6 @@ h4 {
   .happyforms-form__part:last-child {
     margin-top: 0px;
   }
+
+
 }

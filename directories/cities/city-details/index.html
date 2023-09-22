@@ -358,7 +358,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	font-weight:600!important;
 	}
 	
-</style><link rel="stylesheet" id="et-core-unified-tb-129080-tb-81156-130128-cached-inline-styles" href="https://www.fiware.org/wp-content/et-cache/130128/et-core-unified-tb-129080-tb-81156-130128.min.css?ver=1695132992" /><link rel="stylesheet" id="et-core-unified-130128-cached-inline-styles" href="https://www.fiware.org/wp-content/et-cache/130128/et-core-unified-130128.min.css?ver=1695132991" /></head>
+</style><link rel="stylesheet" id="et-core-unified-tb-129080-tb-81156-130128-cached-inline-styles" href="https://www.fiware.org/wp-content/et-cache/130128/et-core-unified-tb-129080-tb-81156-130128.min.css?ver=1695132992" /><link rel="stylesheet" id="et-core-unified-130128-cached-inline-styles" href="https://www.fiware.org/wp-content/et-cache/130128/et-core-unified-130128.min.css?ver=1695132991" />
+
+
+  <!-- Leafletjs styles -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+  <!-- Leafletjs script (IMPORTANT: shoul connect after the Leafletjs styles) -->
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+</head>
 <body class="page-template-default page page-id-130128 page-child parent-pageid-130078 et-tb-has-template et-tb-has-header et-tb-has-footer tribe-no-js et_bloom et_monarch et_pb_button_helper_class et_cover_background et_pb_gutter osx et_pb_gutters3 et_pb_pagebuilder_layout et_smooth_scroll et_no_sidebar et_divi_theme et-db">
 	<div id="page-container">
 <div id="et-boc" class="et-boc">
@@ -1039,6 +1046,7 @@ z-index: 99999;
 				<div class="et_pb_text_inner"><h1 id="name" class="name">501 (Job) Not Implemented Yet</h1>
 <h4 id="mission" style="margin-top: -2%">Sorry, it looks like there is no  current Smart City opening to be found here at the moment. However the FIWARE Foundation  would also encourage speculative applications across a range of roles in operations, tech and marketing, so feel free to reach out and seen us a C.V. directly.</h4></div>
 			</div>
+				  
 			</div>
 				
 				
@@ -1063,7 +1071,13 @@ z-index: 99999;
 				<div class="et_pb_module et_pb_code et_pb_code_0">
 				
 				
-				
+				<div>
+						<div class="map-container">
+					    <div id="map">
+					      map here !!!
+					    </div>
+					  </div>
+				</div>
 				
 				<div class="et_pb_code_inner"><script src="./app_city.js"></script>
 <script>

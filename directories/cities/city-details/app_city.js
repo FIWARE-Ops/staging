@@ -49,6 +49,25 @@ function addChips(id, items) {
   });
 }
 
+function addMarker(lat,lng,zoom){
+  var map = L.map("map").setView([lat,lng], zoom);
+
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    attribution:
+      '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+
+  L.marker([lat,lng])
+    .addTo(map)
+
+  L.circle([lat,lng], {
+    color: "red",
+    fillColor: "#f03",
+    fillOpacity: 0.5,
+    radius: 500
+  }).addTo(map);
+}
+
 
 
 function fillDetails(city) {
@@ -66,9 +85,11 @@ function fillDetails(city) {
   wrapParagraphs('#description', city.cityStrategy);
 
 
-  const title = city.name + ' - ' + city.type;
+  console.log(city.lat,city.lng)
+  addMarker(city.lat,city.lng,5);
+  const title = city.city + ' - ' + city.type;
   document.title = title;
-  history.pushState({}, null, city.social);
+ // history.pushState({}, null, city.social);
 }
 
 function loadJob() {
