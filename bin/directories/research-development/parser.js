@@ -57,7 +57,7 @@ function extractProjects(input) {
         project.type = project.endDate < today ? 'Completed' : 'Ongoing';
 
         const filename= Template.createClass(project.name);
-        project.social = `/wp-content/directories/research-development/project/${filename}.html`
+        project.social = `/project/${filename}.html`
         
 
 
