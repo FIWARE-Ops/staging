@@ -124,6 +124,10 @@ function wrapResources(id, title, resources) {
 }
 
 function fillProduct(product) {
+  if (window.jobDone){
+    return;
+  }
+  window.jobDone = true;
   $('h5#category').text(product.category);
   $('h5#category').on('click', function (e) {
     e.preventDefault();
@@ -160,6 +164,7 @@ function fillProduct(product) {
 
   document.title = product.category + ' - ' + product.productName;
   history.pushState({}, null, product.social);
+  //console.log(product)
 }
 
 function loadProduct() {
