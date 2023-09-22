@@ -89,7 +89,7 @@ function fillDetails(city) {
   addMarker(city.lat,city.lng,5);
   const title = city.city + ' - ' + city.type;
   document.title = title;
- // history.pushState({}, null, city.social);
+  history.pushState({}, null, city.social);
 }
 
 function loadJob() {
