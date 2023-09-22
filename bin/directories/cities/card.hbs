@@ -1,14 +1,15 @@
 {{#each this}}
     <div class="grid-item  {{createClass type}} {{createClasses domain}} {{createClass country}}">
         <a href="./city-details?id={{createClass city}}">
-            <img decoding="async" class="gridElementLogo" src="{{thumb}}"  
+            <img class="gridElementLogo" src="{{thumb}}"  
             loading="lazy">
         </a>
         <div class="gridElementTextContainer">
             <a href="./city-details?id={{createClass city}}">
             <div class="label-location">
-                <h3>{{city}}</h3>
-                <img decoding="async" alt="{{Country}}<" class="flag" src="{{flag}}" loading="lazy">
+                <h3>{{country}}</h3>
+                <h6>{{city}}</h6>
+                <img alt="{{Country}}" class="flag" alt="{{country}}"src="{{flag}}" loading="lazy">
             </div>
             </a>
             <div class="icons">
