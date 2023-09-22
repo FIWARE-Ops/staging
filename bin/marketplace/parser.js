@@ -261,24 +261,25 @@ function findProduct(hash, category) {
 function createSocialMedia(products, dir, category){
     _.each(products, (product, key) =>{
 
-        product.hash = Parser.getHash(product.organisationName, product.productName);
-        product.cat = category;
-
         const filename = path.join(
                 Template.createClass(product.organisationName),
                 Template.createClass(product.productName));
+        
+        product.hash = Parser.getHash(product.organisationName, product.productName);
+        product.cat = category;
+        product.social= path.join('/', dir, `/${filename}.html`);
+
 
         Template.write(
-            path.join(dir, `${filename}.html`),
+            path.join('marketplace', dir, `${filename}.html`),
             path.join(TEMPLATE_PATH, 'social-media.hbs'),
         product);
-        Prettier.format(path.join(dir, `/${filename}.html`), { parser: 'html' });
+        Prettier.format(path.join('marketplace', dir, `/${filename}.html`), { parser: 'html' });
 
-        product.social= path.join('/wp-content', dir, `/${filename}.html`);
     });
 
      Template.write(
-            path.join(dir, `sitemap.html`),
+            path.join('marketplace', dir, `sitemap.html`),
             path.join(TEMPLATE_PATH, 'sitemap.hbs'),
         products);
 }
@@ -335,7 +336,7 @@ function parse(detailsFile, summaryFile, processRun) {
                     );
                     Prettier.format('marketplace/powered-by-fiware/pageData.js', { parser: 'flow' });
                     console.log('');
-                    createSocialMedia(allProducts.details.powered, 'marketplace/powered-by-fiware/', 'powered');  
+                    createSocialMedia(allProducts.details.powered, 'powered-by-fiware/', 'powered');  
                     console.log(summaryInfo.powered.length + ' Products');
                 
                     Template.write(
@@ -344,7 +345,7 @@ function parse(detailsFile, summaryFile, processRun) {
                         summaryInfo.ready
                     );
                     Prettier.format('marketplace/fiware-ready/pageData.js', { parser: 'flow' });
-                    createSocialMedia(allProducts.details.ready, 'marketplace/fiware-ready/', 'ready');  
+                    createSocialMedia(allProducts.details.ready, 'fiware-ready/', 'ready');  
                     console.log(summaryInfo.ready.length + ' Devices');
                 
                     Template.write(
@@ -353,7 +354,7 @@ function parse(detailsFile, summaryFile, processRun) {
                         summaryInfo.services
                     );
                     Prettier.format('marketplace/support-services/pageData.js', { parser: 'flow' });
-                    createSocialMedia(allProducts.details.services, 'marketplace/support-services/', 'services');   
+                    createSocialMedia(allProducts.details.services, 'support-services/', 'services');   
                     console.log(summaryInfo.services.length + ' Services');
                
                     Template.write(
@@ -362,7 +363,7 @@ function parse(detailsFile, summaryFile, processRun) {
                         summaryInfo.cities
                     );
                     Prettier.format('marketplace/cities4cities/pageData.js', { parser: 'flow' });
-                    createSocialMedia(allProducts.details.cities, 'marketplace/cities4cities/', 'cities');  
+                    createSocialMedia(allProducts.details.cities, 'cities4cities/', 'cities');  
                     console.log(summaryInfo.cities.length + ' Cities');
                    
 
