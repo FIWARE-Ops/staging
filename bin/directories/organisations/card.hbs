@@ -2,7 +2,7 @@
     <div class='grid-item {{createClass type}}'>
         <a target="_blank" href="{{website}}" rel="noopener">
             <div class="f-cat active card-url">
-                <img decoding="async" class="member-thumb" src="{{img}}">
+                <img class="member-thumb" src="{{img}}" {{#if (gt @index 9)}}loading="lazy"{{/if}}>
                 <h3 class="item-name member-name">{{name}}</h3>
                 <h5 class="type-member {{createClass type}}">{{type}}</h5>
             </div>

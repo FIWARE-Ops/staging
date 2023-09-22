@@ -1,7 +1,7 @@
 {{#each this}}
     <div class='grid-item {{createClass type}} {{createClasses domain}} {{createClasses technology}}'>
         <div class='gridElementLogo'>
-            <img src='{{img}}' alt='' loading='lazy' />
+            <img src='{{img}}' alt=''{{#if (gt @index 9)}}loading="lazy"{{/if}} />
         </div>
         <div class='gridElementTextContainer'>
             <div class='label-type'>

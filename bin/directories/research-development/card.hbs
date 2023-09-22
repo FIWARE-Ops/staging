@@ -3,7 +3,7 @@
         <span class="year hidden">{{year}}</span>
         <a href="./project?id={{createClass name}}">
             <div class="thumb">
-                <img decoding="async" class="project-logo" src="{{img}}"/>
+                <img class="project-logo" src="{{img}}" {{#if (gt @index 9)}}loading="lazy"{{/if}}/>
             </div>
         </a>
         <div class="gridElementTextContainer">
@@ -42,7 +42,7 @@
                     {{/if}}
                 </div>
                 {{/if}}
-                <img decoding="async" class='flag' src="{{flag}}" alt="{{country}}"/>
+                <img class='flag' src="{{flag}}" alt="{{country}}" {{#if (gt @index 9)}}loading="lazy"{{/if}}/>
             </div>
         </div>
 

@@ -1,8 +1,8 @@
-{{#each this}}
+ {{#if (gt @index 9)}}loading="lazy"{{/if}}{{#each this}}
     <div class='grid-item {{createClass type}} {{createClasses domain}}'>
         <a href="./job?id={{createClass name}}">
             <div class="thumb">
-                <img decoding="async" class="project-logo" src="{{img}}"/>
+                <img class="project-logo" src="{{img}}" {{#if (gt @index 9)}}loading="lazy"{{/if}}/>
             </div>
         </a>
         <div class="gridElementTextContainer">
