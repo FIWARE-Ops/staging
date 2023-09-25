@@ -119,7 +119,7 @@ var pageData = [
         ],
         year: 2019,
         content:
-            'Next-Gen Data Platform--One stop shop to your data platform Atos Cognitive Data Platform is a unique global framework, part of our Next-Gen Data Platform Portfolio, based on open, interoperable and standard building blocks. It allows all organizations to become data-driven decision making,leveraging from real-time data, analytics and AI. It helps leaders in their decision process providing actionable and objective insights whatever the field of expertise (sustainability, mobility, tourism, agriculture, energy, …).'
+            'Next-Gen Data Platform--One stop shop to your data platform Atos Cognitive Data Platform is a unique global framework, part of our Next-Gen Data Platform Portfolio, based on open, interoperable and standard building blocks. It allows all organizations to become data-driven decision making, leveraging from real-time data, analytics and AI. It helps leaders in their decision process providing actionable and objective insights whatever the field of expertise (sustainability, mobility, tourism, agriculture, energy, …).'
     },
     {
         company: 'Atos',
