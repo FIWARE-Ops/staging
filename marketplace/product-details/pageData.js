@@ -272,17 +272,15 @@ var pageData = {
                 'Mobility and Location'
             ],
             domains: ['Air Quality', 'Agriculture', 'Cities', 'Energy', 'Mobility'],
-            docs: [
-                ['Insight & Tech Trends', 'https://atos.net/en/newsroom'],
-                ['SlideShare', 'https://fr.slideshare.net/MASSAL3/acdp-fiwarepdf']
-            ],
+            docs: [['Insight & Tech Trends', 'https://atos.net/en/newsroom']],
             videos: [['YouTube - CityPulse', 'https://www.youtube.com/watch?v=oBTmsVwqZqc&ab_channel=VDEProductions']],
             materials: [
                 ['Press Release', 'https://cio-mag.com/atda-2023-pierryl-massal-atos-la-smart-city-cest-la-donnee/'],
                 [
                     'Atos Cognitive Data Platform -Building tomorrow’s city',
                     'https://atos.net/en-gb/united-kingdom/digital-vision-programme/digital-vision-cop26/building-tomorrows-city'
-                ]
+                ],
+                ['SlideShare', 'https://fr.slideshare.net/MASSAL3/acdp-fiwarepdf']
             ],
             logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Atos.svg',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_atos_urban-data-platform.png',
