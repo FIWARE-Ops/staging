@@ -220,9 +220,9 @@ var pageData = {
                     featuredImage:
                         'https://www.fiware.org/wp-content/marketplace/images/hero_atos_urban-data-platform.png',
                     excerpt:
-                        'Next-Gen Data Platform--One stop shop to your data platform\nAtos Cognitive Data Platform is a unique global framework, part of our Next-Gen Data Platform Portfolio, based on open, interoperable and standard building blocks. It allows all organizations to become data-driven decision making, leveraging from real-time data, analytics and AI. It helps leaders in their decision process providing actionable and objective insights whatever the field of expertise (sustainability, mobility, tourism, agriculture, energy, …).',
-                    productName: 'Atos Cognitive Data Platform',
-                    companyLink: './?category=powered&id=atos-atoscognitivedataplatform'
+                        'UDP is the open, secure, and interoperable Atos standard data platform that allows the integration and collection of information from data sources, and the standardization and processing of that information to provide aggregated and intelligent views of raw data to facilitate decision-making.',
+                    productName: 'Urban Data Platform',
+                    companyLink: './?category=powered&id=atos-urbandataplatform'
                 },
                 {
                     category: 'FIWARE-Ready',
@@ -246,20 +246,20 @@ var pageData = {
             cat: 'powered',
             social: '/powered-by-fiware/atos/masai.html'
         },
-        'atos-atoscognitivedataplatform': {
+        'atos-urbandataplatform': {
             category: 'Powered by FIWARE',
             organisationName: 'Atos',
-            productName: 'Atos Cognitive Data Platform',
-            organisationWebsite: 'https://atos.net/advancing-what-matters/en/',
+            productName: 'Urban Data Platform',
+            organisationWebsite: 'https://atos.net/en/',
             organisationEmail: 'mailto:de-info@atos.net.',
             linkedIn: 'https://www.linkedin.com/company/atos/',
             twitter: 'https://twitter.com/atos',
             productWebsite: 'https://atos.net/en/lp/urban-data-platforms/introducing-the-urban-data-platform',
             excerpt:
-                'Next-Gen Data Platform--One stop shop to your data platform\nAtos Cognitive Data Platform is a unique global framework, part of our Next-Gen Data Platform Portfolio, based on open, interoperable and standard building blocks. It allows all organizations to become data-driven decision making, leveraging from real-time data, analytics and AI. It helps leaders in their decision process providing actionable and objective insights whatever the field of expertise (sustainability, mobility, tourism, agriculture, energy, …).',
+                'UDP is the open, secure, and interoperable Atos standard data platform that allows the integration and collection of information from data sources, and the standardization and processing of that information to provide aggregated and intelligent views of raw data to facilitate decision-making.',
             yearOfValidation: 2019,
             description:
-                '<p><strong>ACdP (Atos Cognitive Data Platform)</strong> is addressing one of the main demanding type of solutions by societies and other customers: the aggregation of data from diverse information sources (sensors, social networks, open data portals, historical data, management systems, and many more) to developed context-aware applications and provide smart services to citizens, municipalities and business companies. </p> <p><strong>ACdP</strong> is following a commonly adopted approach by many cities and IT providers in the world by relying on the NGSI standard, which is currently providing the unique standard API to access context information. The integration of diverse technologies to provide business intelligence, efficient management of IoT devices, context management of data, advanced visualization of analyzed data, and overall security approach is positioning Atos as a good IT provider for your smart city challenge. Atos is also providing the cities and customers with the analysis of the use cases and business scenarios which may provide a better response to their needs and provide an added value and better service to the citizens and users. </p> <p><strong>ACdP</strong> has been developed using the most novel technologies both in the backend and frontend. The solution is  easy integration with any external system via API (ERPs, issue management systems, etc); deployable both in the cloud and on-premise, according to customer’s needs; and replicable and customizable to each customer’s requirements. <strong>ACdP</strong> is relying on consolidated open source technologies in the market which facilitates the adoption and lowers the maintenance costs and prevents the vendor lock-in as the <strong>ACdP</strong> is delivered under open source as well. The support to the open-source components from FIWARE is guaranteed by the FIWARE Foundation and Atos is providing full support to the <strong>ACdP</strong> platform, keeping the evolution of the technology up to date. Thanks to the modularity of the platform architecture, a future extension to adapt it to new scenarios or to add new functionalities would be quite straightforward. The platform is scalable according to the volume of sensors, data, and services to provide the required level of service.</p>',
+                '<p><strong>UDP</strong> is addressing one of the main demanding type of solutions by societies and other customers: the aggregation of data from diverse information sources (sensors, social networks, open data portals, historical data, management systems, and many more) to developed context-aware applications and provide smart services to citizens, municipalities and business companies. </p> <p><strong>UDP</strong> is following a commonly adopted approach by many cities and IT providers in the world by relying on the NGSI standard, which is currently providing the unique standard API to access context information. The integration of diverse technologies to provide business intelligence, efficient management of IoT devices, context management of data, advanced visualization of analyzed data, and overall security approach is positioning Atos as a good IT provider for your smart city challenge. Atos is also providing the cities and customers with the analysis of the use cases and business scenarios which may provide a better response to their needs and provide an added value and better service to the citizens and users. </p> <p><strong>UDP</strong> has been developed using the most novel technologies both in the backend and frontend. The solution is  easy integration with any external system via API (ERPs, issue management systems, etc); deployable both in the cloud and on-premise, according to customer’s needs; and replicable and customizable to each customer’s requirements. <strong>UDP</strong> is relying on consolidated open source technologies in the market which facilitates the adoption and lowers the maintenance costs and prevents the vendor lock-in as the <strong>UDP</strong> is delivered under open source as well. The support to the open-source components from FIWARE is guaranteed by the FIWARE Foundation and Atos is providing full support to the <strong>UDP</strong> platform, keeping the evolution of the technology up to date. Thanks to the modularity of the platform architecture, a future extension to adapt it to new scenarios or to add new functionalities would be quite straightforward. The platform is scalable according to the volume of sensors, data, and services to provide the required level of service.</p>',
             challenge: '',
             references:
                 '<p>Local, regional or national governments willing to adopt a data driven platform for citizens. Ecosystem of stakeholders willing to implement a Data Space (tourism, sport events, mobility, decarbonization,…). Scenarios which require complex integration of existing platforms or systems.</p>',
@@ -272,15 +272,18 @@ var pageData = {
                 'Mobility and Location'
             ],
             domains: ['Air Quality', 'Agriculture', 'Cities', 'Energy', 'Mobility'],
-            docs: [['Insight & Tech Trends', 'https://atos.net/en/newsroom']],
-            videos: [['YouTube - CityPulse', 'https://www.youtube.com/watch?v=oBTmsVwqZqc&ab_channel=VDEProductions']],
+            docs: [
+                ['Insight & Tech Trends', 'https://atos.net/en/newsroom'],
+                ['Overview', 'https://atos.net/en/lp/urban-data-platforms/introducing-the-urban-data-platform']
+            ],
+            videos: [['YouTube', 'https://www.youtube.com/watch?v=Ub6-e7kEmD4']],
             materials: [
-                ['Press Release', 'https://cio-mag.com/atda-2023-pierryl-massal-atos-la-smart-city-cest-la-donnee/'],
                 [
-                    'Atos Cognitive Data Platform -Building tomorrow’s city',
-                    'https://atos.net/en-gb/united-kingdom/digital-vision-programme/digital-vision-cop26/building-tomorrows-city'
+                    'Slideshare',
+                    'https://es.slideshare.net/FI-WARE/fiware-global-summit-audp-the-atos-urban-data-platform'
                 ],
-                ['SlideShare', 'https://fr.slideshare.net/MASSAL3/acdp-fiwarepdf']
+                ['Press Release', 'https://atos.net/en/2021/press-release_2021_02_09/leader-smart-cities-idc'],
+                ['Urban Data Platform-ITCONNECT', 'https://itconnect.lat/portal/']
             ],
             logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Atos.svg',
             featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_atos_urban-data-platform.png',
@@ -312,9 +315,9 @@ var pageData = {
                     companyLink: './?category=services&id=atos-connectedterritories'
                 }
             ],
-            hash: 'atos-atoscognitivedataplatform',
+            hash: 'atos-urbandataplatform',
             cat: 'powered',
-            social: '/powered-by-fiware/atos/atos-cognitive-data-platform.html'
+            social: '/powered-by-fiware/atos/urban-data-platform.html'
         },
         'bettaircities-bettair': {
             category: 'Powered by FIWARE',
@@ -9256,9 +9259,9 @@ var pageData = {
                     featuredImage:
                         'https://www.fiware.org/wp-content/marketplace/images/hero_atos_urban-data-platform.png',
                     excerpt:
-                        'Next-Gen Data Platform--One stop shop to your data platform\nAtos Cognitive Data Platform is a unique global framework, part of our Next-Gen Data Platform Portfolio, based on open, interoperable and standard building blocks. It allows all organizations to become data-driven decision making, leveraging from real-time data, analytics and AI. It helps leaders in their decision process providing actionable and objective insights whatever the field of expertise (sustainability, mobility, tourism, agriculture, energy, …).',
-                    productName: 'Atos Cognitive Data Platform',
-                    companyLink: './?category=powered&id=atos-atoscognitivedataplatform'
+                        'UDP is the open, secure, and interoperable Atos standard data platform that allows the integration and collection of information from data sources, and the standardization and processing of that information to provide aggregated and intelligent views of raw data to facilitate decision-making.',
+                    productName: 'Urban Data Platform',
+                    companyLink: './?category=powered&id=atos-urbandataplatform'
                 },
                 {
                     category: 'Powered by FIWARE',
@@ -9669,9 +9672,9 @@ var pageData = {
                     featuredImage:
                         'https://www.fiware.org/wp-content/marketplace/images/hero_atos_urban-data-platform.png',
                     excerpt:
-                        'Next-Gen Data Platform--One stop shop to your data platform\nAtos Cognitive Data Platform is a unique global framework, part of our Next-Gen Data Platform Portfolio, based on open, interoperable and standard building blocks. It allows all organizations to become data-driven decision making, leveraging from real-time data, analytics and AI. It helps leaders in their decision process providing actionable and objective insights whatever the field of expertise (sustainability, mobility, tourism, agriculture, energy, …).',
-                    productName: 'Atos Cognitive Data Platform',
-                    companyLink: './?category=powered&id=atos-atoscognitivedataplatform'
+                        'UDP is the open, secure, and interoperable Atos standard data platform that allows the integration and collection of information from data sources, and the standardization and processing of that information to provide aggregated and intelligent views of raw data to facilitate decision-making.',
+                    productName: 'Urban Data Platform',
+                    companyLink: './?category=powered&id=atos-urbandataplatform'
                 },
                 {
                     category: 'Powered by FIWARE',
