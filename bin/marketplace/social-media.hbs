@@ -51,5 +51,19 @@
 }
  </script>
 </head>
-<body/>
+<body>
+  <h1>{{category}}: {{organisationName}} - {{productName}} {{#if (gt technologies.length 0)}}({{technologies}}){{/if}}</h1>
+  <p>
+   {{excerpt}}
+  </p>
+  {{{description}}}
+  {{{challenge}}}
+  {{{references}}}
+  {{{awards}}}
+  
+
+  <img href="{{logo}}"/>
+  <img href="{{featuredImage}}"/>
+                 
+   </body>
 </html>
