@@ -1301,7 +1301,7 @@ var pageData = {
             ],
             hash: 'faubourgnumérique-ouranosws',
             cat: 'powered',
-            social: '/powered-by-fiware/faubourg-numérique/ouranos-ws.html'
+            social: '/powered-by-fiware/faubourg-numerique/ouranos-ws.html'
         },
         'fiwoo-fiwoo': {
             category: 'Powered by FIWARE',
@@ -1889,7 +1889,7 @@ var pageData = {
             furtherImages: '',
             hash: 'líneaciudadana-líneaciudadana',
             cat: 'powered',
-            social: '/powered-by-fiware/línea-ciudadana/línea-ciudadana.html'
+            social: '/powered-by-fiware/linea-ciudadana/linea-ciudadana.html'
         },
         'martelinnovate-orchestracities': {
             category: 'Powered by FIWARE',
@@ -3815,7 +3815,7 @@ var pageData = {
             furtherImages: '',
             hash: 'telefónica-thinkingcities',
             cat: 'powered',
-            social: '/powered-by-fiware/telefónica/thinking-cities.html'
+            social: '/powered-by-fiware/telefonica/thinking-cities.html'
         },
         'telenetgroup-telenettinx': {
             category: 'Powered by FIWARE',
@@ -4553,7 +4553,7 @@ var pageData = {
             furtherImages: '',
             hash: 'dihfaubourgnumérique-somwarespace',
             cat: 'powered',
-            social: '/powered-by-fiware/dih-faubourg-numérique/somware-space.html'
+            social: '/powered-by-fiware/dih-faubourg-numerique/somware-space.html'
         }
     },
     ready: {
@@ -8804,7 +8804,7 @@ var pageData = {
             furtherImages: '',
             hash: 'ventuminnovacion-gaviláncontrol',
             cat: 'ready',
-            social: '/fiware-ready/ventum-innovacion/gavilán-control.html'
+            social: '/fiware-ready/ventum-innovacion/gavilan-control.html'
         },
         'viralstudios-virtualart': {
             category: 'FIWARE-Ready',
@@ -9394,7 +9394,7 @@ var pageData = {
             furtherImages: '',
             hash: 'imredduniversitycôtedazur-noiseforecasting',
             cat: 'ready',
-            social: '/fiware-ready/imredd---university-côte-d-azur/noise-forecasting.html'
+            social: '/fiware-ready/imredd---university-cote-d-azur/noise-forecasting.html'
         },
         'imredd-traffictimeseriesforecasting': {
             category: 'FIWARE-Ready',
@@ -9872,7 +9872,7 @@ var pageData = {
             ],
             hash: 'faubourgnumérique-fiwareihub',
             cat: 'services',
-            social: '/support-services/faubourg-numérique/fiware-ihub.html'
+            social: '/support-services/faubourg-numerique/fiware-ihub.html'
         },
         'ficodes-coachingtrainingservices': {
             category: 'Support Services',
