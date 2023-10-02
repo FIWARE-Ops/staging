@@ -260,10 +260,9 @@ function findProduct(hash, category) {
 
 function createSocialMedia(products, dir, category){
     _.each(products, (product, key) =>{
-
         const filename = path.join(
-                Template.createClass(product.organisationName),
-                Template.createClass(product.productName));
+                Template.createClass(product.organisationName).normalize("NFD").replace(/[\u0300-\u036f]/g, ""),
+                Template.createClass(product.productName).normalize("NFD").replace(/[\u0300-\u036f]/g, ""));
         
         product.hash = Parser.getHash(product.organisationName, product.productName);
         product.cat = category;
@@ -278,9 +277,13 @@ function createSocialMedia(products, dir, category){
 
     });
 
-     Template.write(
+    Template.write(
             path.join('marketplace', dir, `sitemap.html`),
-            path.join(TEMPLATE_PATH, 'sitemap.hbs'),
+            path.join(TEMPLATE_PATH, 'sitemap-html.hbs'),
+        products);
+    Template.write(
+            path.join('marketplace', dir, `sitemap.xml`),
+            path.join(TEMPLATE_PATH, 'sitemap-xml.hbs'),
         products);
 }
 
