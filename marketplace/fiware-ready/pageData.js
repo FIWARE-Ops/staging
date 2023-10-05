@@ -1028,7 +1028,7 @@ var pageData = [
         technology: ['Artificial Intelligence', 'Big Data', 'Software as a Service'],
         year: 2023,
         content:
-            'Traffic intensity forecasting service using historical data to forecast the traffic on the nex day. This can be used optimize traffic management, reduce traffic congestion and improve user experience'
+            'Traffic intensity forecasting service using historical data to forecast the traffic on the next day. This can be used optimize traffic management, reduce traffic congestion and improve user experience'
     },
     {
         company: 'Libelium',
