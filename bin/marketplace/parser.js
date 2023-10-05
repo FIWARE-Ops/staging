@@ -6,6 +6,7 @@ const Parser = require('../dataParser');
 const Template = require('../template');
 const CATEGORIES = ['powered', 'ready', 'services', 'cities'];
 const TEMPLATE_PATH = 'bin/marketplace/';
+const fs = require('fs');
 
 let productDetails;
 
@@ -331,6 +332,10 @@ function parse(detailsFile, summaryFile, processRun) {
                         console.error('ERROR: No Devices Generated.');
                         process.exit(1);
                     }
+
+                    if (fs.existsSync('marketplace')) {
+                        fs.rmdirSync('marketplace', { recursive: true });
+                    } 
 
                     Template.write(
                         'marketplace/powered-by-fiware/pageData.js',

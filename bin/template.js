@@ -133,6 +133,15 @@ function write(filename, template, input) {
     });
 }
 
+function clean(dir) {
+    if (fs.existsSync(dir)) {
+        const files = fs.readdirSync(dir).filter(el => path.extname(el) === '.html')
+        files.forEach(file => {
+            fs.unlinkSync( path.join(dir , file));
+        });
+    }
+} 
+
 /**
  * Read in a Handlebars template
  */
@@ -142,4 +151,5 @@ function readTemplate(template, callback) {
 }
 
 exports.write = write;
+exports.clean = clean;
 exports.createClass = createClass;

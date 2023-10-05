@@ -88,6 +88,10 @@ function parse(file) {
                 cities
             };
 
+            filterData.types.forEach((type) => {
+                 Template.clean(path.join(CITIES_DIR, type));
+            });    
+
             Template.write(path.join(CITIES_DIR, 'cities.html'), path.join(TEMPLATE_PATH, 'card.hbs'), cities);
             Template.write(path.join(CITIES_DIR, 'pageData.js'), path.join(TEMPLATE_PATH, 'modal.hbs'), filterData);
             Template.write(path.join(CITIES_DIR, 'filters.html'), path.join(TEMPLATE_PATH, 'filter.hbs'), filterData);

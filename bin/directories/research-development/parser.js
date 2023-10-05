@@ -100,6 +100,8 @@ function parse(file) {
                 projects
             };
 
+            Template.clean(path.join(RESEARCH_DEVELOPMENT_DIR, '/project'));
+
             Template.write(
                 path.join(RESEARCH_DEVELOPMENT_DIR, 'research.html'),
                 path.join(TEMPLATE_PATH, 'card.hbs'),

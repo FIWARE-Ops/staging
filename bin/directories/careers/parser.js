@@ -73,6 +73,8 @@ function parse(file) {
                 jobs
             };
 
+            Template.clean(path.join(CAREERS_DIR, '/job'));
+
             Template.write(
                 path.join(CAREERS_DIR, 'jobs.html'),
                 path.join(TEMPLATE_PATH, 'card.hbs'),
