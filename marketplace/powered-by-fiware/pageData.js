@@ -103,11 +103,11 @@ var pageData = [
     },
     {
         company: 'Atos',
-        name: 'Urban Data Platform',
+        name: 'Atos Cognitive Data Platform',
         img: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Atos.svg',
         fiwareMember: true,
         fiwareIhub: false,
-        companyLink: '../product-details/?category=powered&id=atos-urbandataplatform',
+        companyLink: '../product-details/?category=powered&id=atos-atoscognitivedataplatform',
         domain: ['Air Quality', 'Agriculture', 'Cities', 'Energy', 'Mobility'],
         type: 'Platform',
         technology: [
@@ -119,7 +119,7 @@ var pageData = [
         ],
         year: 2019,
         content:
-            'UDP is the open, secure, and interoperable Atos standard data platform that allows the integration and collection of information from data sources, and the standardization and processing of that information to provide aggregated and intelligent views of raw data to facilitate decision-making.'
+            'Next-Gen Data Platform--One stop shop to your data platform Atos Cognitive Data Platform is a unique global framework, part of our Next-Gen Data Platform Portfolio, based on open, interoperable and standard building blocks. It allows all organizations to become data-driven decision making, leveraging from real-time data, analytics and AI. It helps leaders in their decision process providing actionable and objective insights whatever the field of expertise (sustainability, mobility, tourism, agriculture, energy, …).'
     },
     {
         company: 'Atos',
