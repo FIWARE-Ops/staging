@@ -283,10 +283,8 @@ var companies = [
     { name: "Aleksandar Vrglevski", img: "https://www.fiware.org/wp-content/directories/people/images/200px/aleksandar-vrglevski.jpg", position: "Technology Expert", company: "Vienna Business Agency", "company-link": "https://viennabusinessagency.at/",
     content: "Aleksandar Vrglevski has been involved in blockchain research since 2016 and is especially interested in privacy-related projects, which he was researching on as a part of the RIAT institute. Nowadays he is the focal person for Blockchain, Fintech as well as Open Source at the Vienna Business Agency and an active contributor for the FIWARE DACH-Community.", linkedin: "https://www.linkedin.com/in/avrglevski/", twitter: "", domain: "", location: "",
     flag: "", },
-    { name: "Yasunori", img: "https://drive.google.com/drive/folders/1aonAUouiO7ReqpGq-bArv3-y-tt4A3z_", position: "NEC Fellow", company: "NEC Corporation", "company-link": "https://www.nec.com/
-",
-    content: "", linkedin: "https://www.linkedin.com/in/yasunori-mochizuki-93bab674/?originalSubdomain&#x3D;jp", twitter: "https://twitter.com/YasunoriMochiz
-", domain: "", location: "",
+    { name: "Yasunori Mochizuki", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "NEC Fellow", company: "NEC Corporation", "company-link": "https://www.nec.com/",
+    content: "", linkedin: "https://www.linkedin.com/in/yasunori-mochizuki-93bab674/?originalSubdomain&#x3D;jp", twitter: "https://twitter.com/YasunoriMochiz", domain: "", location: "",
     flag: "", },
     { name: "Ken Zangelin", img: "https://www.fiware.org/wp-content/directories/people/images/200px/ken-zangelin.jpg", position: "Senior Technical Expert &amp; Evangelist", company: "FIWARE Foundation e.V.", "company-link": "https://www.fiware.org/",
     content: "", linkedin: "https://www.linkedin.com/in/kzangeli/", twitter: "", domain: "", location: "",
