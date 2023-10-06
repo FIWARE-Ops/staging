@@ -4551,6 +4551,47 @@ var pageData = {
             hash: 'dihfaubourgnumérique-somwarespace',
             cat: 'powered',
             social: '/powered-by-fiware/dih-faubourg-numerique/somware-space.html'
+        },
+        'anteral-uradsmarttrafficcompact': {
+            category: 'Powered by FIWARE',
+            organisationName: 'Anteral',
+            productName: 'uRAD Smart Traffic Compact',
+            organisationWebsite: 'https://urad.es/',
+            organisationEmail: 'mailto:contact@anteral.com',
+            linkedIn: 'https://www.linkedin.com/company/anteral/mycompany/',
+            twitter: '',
+            productWebsite: 'https://urad.es/en/soluciones-cerradas/',
+            excerpt:
+                'Solution based on the uRAD Smart Traffic device to monitor traffic in cities and interurban roads.',
+            yearOfValidation: 2023,
+            description:
+                '<p>Based on mmwave radar technology, <strong>uRAD Smart Traffic Compact</strong> monitors vehicles on urban and interurban roads with dense or light traffic, reaching to monitor up to 6 vehicle lanes. For each vehicle, the device measures timestamp, velocity, direction, lane and classifies it between types of vehicle according to its length.</p> <p>The device detects the vehicles only with radar technology, without a video camera, this way is less intrusive, less computing capacity is needed, and super accurate in measuring the velocity. Moreover, it has low consumption and works under all weather conditions without affecting the performance.</p> <p>By centralizing data from multiple devices on the FIWARE platform, traffic in a city or intercity environment can be monitored in a comprehensive manner.</p>',
+            challenge:
+                '<p>Intelligent Transport Systems play a crucial role in shaping the future of transportation, with the potential to improve safety, efficiency, and sustainability across various modes of transportation. By leveraging advanced technologies and data-driven solutions, ITS aims to enhance the overall performance and user experience of transportation systems.</p> <p>In the changing world we live in a data-driven traffic monitoring solution leverages advanced data processing, analytics, and visualization techniques to provide accurate and actionable insights for traffic management. By utilizing real-time and historical data, this type of solution enables proactive decision-making, improves traffic flow, and enhances overall transportation efficiency.</p>',
+            references:
+                '<ul> <li>Municipality of Pamplona (Public body – Spain)</li> <li>Municipality of Leuwarden (Public body – Netherlands)</li> </ul>',
+            awards: '',
+            technologies: ['Internet of Things', 'Mobility and Location'],
+            domains: ['Cities', 'Mobility', 'Transport'],
+            docs: [['Functionalities', 'https://urad.es/en/soluciones-cerradas/urad-smart-traffic/']],
+            videos: [
+                [
+                    'YouTube- Radar for traffic monitoring',
+                    'https://www.youtube.com/watch?v=PJj2ZAx_gio&ab_channel=Anteral'
+                ]
+            ],
+            materials: [
+                [
+                    'Ayuntamiento de Pamplona - News',
+                    'https://www.pamplona.es/actualidad/noticias/los-ocho-aforadores-de-bicicletas-instalados-en-la-ciudad-registran-27-millones'
+                ]
+            ],
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Anteral.svg',
+            featuredImage: 'https://www.fiware.org/wp-content/uploads/e0f1856c6089ad1b43d9dc260db8c230-scaled.jpg',
+            furtherImages: '',
+            hash: 'anteral-uradsmarttrafficcompact',
+            cat: 'powered',
+            social: '/powered-by-fiware/anteral/urad-smart-traffic-compact.html'
         }
     },
     ready: {

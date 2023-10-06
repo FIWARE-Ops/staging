@@ -1500,6 +1500,19 @@ var pageData = [
         year: 2023,
         content:
             'A piece of the Metaverse fully connected to powered by FIWARE solutions: you can use the somware.space as virtual showroom, as a simulation environment, and even as a digital control room of real assets. You just have to make you solution \\"FIWARE ready\\" !!! Ready for the immersive experience??'
+    },
+    {
+        company: 'Anteral',
+        name: 'uRAD Smart Traffic Compact',
+        img: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Anteral.svg',
+        fiwareMember: false,
+        fiwareIhub: false,
+        companyLink: '../product-details/?category=powered&id=anteral-uradsmarttrafficcompact',
+        domain: ['Cities', 'Mobility', 'Transport'],
+        type: 'Solution',
+        technology: ['Internet of Things', 'Mobility and Location'],
+        year: 2023,
+        content: 'Solution based on the uRAD Smart Traffic device to monitor traffic in cities and interurban roads.'
     }
 ];
 
