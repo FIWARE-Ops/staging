@@ -676,7 +676,9 @@ ul {
 }
 
 .cat-info:hover,
-.cat-info:focus {
+.cat-info:focus,
+.cat-share:hover,
+.cat-share:focus {
     color: #212121 !important;
     background-color: rgba(240, 240, 240, 1);
 }
@@ -2116,12 +2118,14 @@ input[type="search"]::placeholder {
     }
 
     .cat-info,
-    .cat-details {
+    .cat-details,
+    .cat-share {
         padding: 0;
         gap: 5px;
     }
 
     .cat-info,
+    .cat-share,
     .cat-details:hover,
     .cat-browse:hover {
         background-color: rgba(255, 255, 255, 0);
