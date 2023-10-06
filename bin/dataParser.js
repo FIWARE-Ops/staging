@@ -122,8 +122,17 @@ function textOnly(data) {
     return markdownToTxt(data);
 }
 
+function trim(input) {
+    if (input !== '') {
+        input = input.trim();
+    }
+    return input;
+}
+
+
 exports.notBlank = notBlank;
 exports.date = date;
+exports.trim = trim;
 exports.getLinkArray = getLinkArray;
 exports.markdown = markdown;
 exports.richMarkdown = richMarkdown;

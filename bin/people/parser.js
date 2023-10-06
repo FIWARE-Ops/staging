@@ -21,18 +21,18 @@ function extractPeople(input) {
     const people = [];
     input.forEach((item) => {
         const person = {
-            title: item['Title'],
+            title: Parser.trim(item['Title']),
             name: item['Full Name'],
             surname: item['Surname Filters'],
             img: item['Profile Picture'] ? item['Profile Picture'] : DEFAULT_IMAGE,
             company: item['Company'] || item['Organization'] || item['Organisation'],
             companyType: item['Legal Form'] || '',
             domain: item['Domain'],
-            website: item['Company website'] || item['Organization website'] || item['Organisation website'],
+            website: Parser.trim(item['Company website'] || item['Organization website'] || item['Organisation website']),
             job: item['Job title'],
             bio: item['Bio'] ? item['Bio'].replaceAll(/[\n\r]+/g, ' ') : '',
-            linkedIn: item['LinkedIn'],
-            twitter: item['Twitter'],
+            linkedIn: Parser.trim(item['LinkedIn']),
+            twitter: Parser.trim(item['Twitter']),
             department: item['Department'],
             country: item['Country'],
             flag: item['Country flag'],
@@ -42,8 +42,9 @@ function extractPeople(input) {
 
         if (person.publish) {
             if (person.title !== '') {
-                person.title = `${person.title.trim()} `;
+                person.title = `${person.title} `;
             }
+
             if (person.companyType !== '') {
                 person.companyType = ` ${person.companyType.trim()}`;
             }
