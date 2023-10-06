@@ -35,6 +35,7 @@ function extractWebinars(input) {
             type: item['Type'],
             excerpt: getExcerpt(item),
             badge: Static.getBadge(item['Type']),
+            chapter: Static.getChapter(item['Type']),
             technology: Parser.splitStrings(item['Technology']),
             year: parseInt(item['Year']),
             difficulty: parseInt(item['Difficulty']),
