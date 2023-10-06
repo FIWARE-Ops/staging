@@ -948,6 +948,13 @@ select::-ms-expand {
     gap: 10px;
 }
 
+.sort-single-element {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .search-element {
     width: 40%;
     display: flex;
@@ -955,7 +962,8 @@ select::-ms-expand {
     gap: 10px;
 }
 
-.filter-element select {
+.filter-element select,
+.sort-single-element select {
     background-color: #f4fbfc;
     border-radius: 30px;
     border: 1px solid #e5f5f7;
@@ -981,7 +989,8 @@ select::-ms-expand {
 
 /* Custom Button */
 
-.filter-element button {
+.filter-element button,
+.sort-single-element button {
     display: flex;
     align-items: center;
     background: none;
@@ -992,11 +1001,13 @@ select::-ms-expand {
     transition: all 0.3s ease-in-out;
 }
 
-.filter-element button:hover {
+.filter-element button:hover,
+.sort-single-element button:hover {
     background: #d2eef1;
 }
 
-.filter-element button.active {
+.filter-element button.active,
+.sort-single-element button.active {
     background: #002e67;
     color: #fff !important;
 }
@@ -1021,7 +1032,8 @@ select::-ms-expand {
 /* Custom Checkbox */
 
 .filter-element label,
-.search-element label {
+.search-element label,
+.sort-single-element label {
     font-size: 14px;
     color: #002e67;
 }
