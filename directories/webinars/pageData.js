@@ -64,7 +64,8 @@ var types = [
         domain: "Developers",  
         technology: "NGSI-LD",
         length: 50,
-        year: 2022
+        year: 2022,
+        social: "https://www.fiware.org/webinars/actuation--federation-and-interoperability-of-context-brokers.html"
     },
     { 
         name: "Building real-time inference AI services with FIWARE", 
@@ -78,7 +79,8 @@ var types = [
         domain: "Developers",  
         technology: "AI",
         length: 40,
-        year: 2022
+        year: 2022,
+        social: "https://www.fiware.org/webinars/building-real-time-inference-ai-services-with-fiware.html"
     },
     { 
         name: "Local Expert in B2B Data Sharing", 
@@ -92,7 +94,8 @@ var types = [
         domain: "iHubs,Community,Developers",  
         technology: "Data Spaces,NGSI-LD",
         length: 50,
-        year: 2022
+        year: 2022,
+        social: "https://www.fiware.org/webinars/local-expert-in-b2b-data-sharing.html"
     },
     { 
         name: "IoT Agent Gateways Using the IOTA Tangle for Secure Data Transfer", 
@@ -106,7 +109,8 @@ var types = [
         domain: "Developers",  
         technology: "IOTA Tangle,IoT Agent,Blockchain",
         length: 45,
-        year: 2022
+        year: 2022,
+        social: "https://www.fiware.org/webinars/iot-agent-gateways-using-the-iota-tangle-for-secure-data-transfer.html"
     },
     { 
         name: "Monitoring and Supervision of robotic systems using FIWARE and ROS 2", 
@@ -120,7 +124,8 @@ var types = [
         domain: "Developers",  
         technology: "ROS,IoT Agent",
         length: 30,
-        year: 2022
+        year: 2022,
+        social: "https://www.fiware.org/webinars/monitoring-and-supervision-of-robotic-systems-using-fiware-and-ros-2.html"
     },
     { 
         name: "Extending FIWARE MLOps using Argo Workflows", 
@@ -134,7 +139,8 @@ var types = [
         domain: "Developers",  
         technology: "AI,MLOps",
         length: 50,
-        year: 2022
+        year: 2022,
+        social: "https://www.fiware.org/webinars/extending-fiware-mlops-using-argo-workflows.html"
     },
     { 
         name: "NGSI-LD Concise Payloads and Merge Patch Operations", 
@@ -148,7 +154,8 @@ var types = [
         domain: "Developers",  
         technology: "NGSI-LD",
         length: 40,
-        year: 2022
+        year: 2022,
+        social: "https://www.fiware.org/webinars/ngsi-ld-concise-payloads-and-merge-patch-operations.html"
     },
     { 
         name: "Managing Data Models and Exposing Digital Twins", 
@@ -162,7 +169,8 @@ var types = [
         domain: "Developers,iHubs,Business",  
         technology: "NGSI-LD,Data Models",
         length: 40,
-        year: 2022
+        year: 2022,
+        social: "https://www.fiware.org/webinars/managing-data-models-and-exposing-digital-twins.html"
     },
     { 
         name: "NGSI-LD and Smart Data Models - Standardizing Access to Digital Twins", 
@@ -176,7 +184,8 @@ var types = [
         domain: "Developers",  
         technology: "NGSI-LD,Data Models",
         length: 50,
-        year: 2020
+        year: 2020,
+        social: "https://www.fiware.org/webinars/ngsi-ld-and-smart-data-models---standardizing-access-to-digital-twins.html"
     },
     { 
         name: "FIWARE Basics, understanding the terminology", 
@@ -190,7 +199,8 @@ var types = [
         domain: "Developers,Business,Community,iHubs",  
         technology: "NGSI-LD",
         length: 45,
-        year: 2021
+        year: 2021,
+        social: "https://www.fiware.org/webinars/fiware-basics--understanding-the-terminology.html"
     },
     { 
         name: "Passing the FIWARE Experts Exam", 
@@ -204,7 +214,8 @@ var types = [
         domain: "Developers,iHubs",  
         technology: "NGSI-v2,NGSI-LD",
         length: 40,
-        year: 2021
+        year: 2021,
+        social: "https://www.fiware.org/webinars/passing-the-fiware-experts-exam.html"
     },
     { 
         name: "Cloud-Edge processing with FogFlow", 
@@ -218,7 +229,8 @@ var types = [
         domain: "Developers",  
         technology: "FogFlow",
         length: 70,
-        year: 2021
+        year: 2021,
+        social: "https://www.fiware.org/webinars/cloud-edge-processing-with-fogflow.html"
     },
     { 
         name: "Scalable deployments with FIWARE", 
@@ -232,7 +244,8 @@ var types = [
         domain: "Developers",  
         technology: "",
         length: 35,
-        year: 2021
+        year: 2021,
+        social: "https://www.fiware.org/webinars/scalable-deployments-with-fiware.html"
     },
     { 
         name: "Machine learning with FIWARE and MLOps", 
@@ -246,7 +259,8 @@ var types = [
         domain: "Developers",  
         technology: "AI,MLOps",
         length: 30,
-        year: 2021
+        year: 2021,
+        social: "https://www.fiware.org/webinars/machine-learning-with-fiware-and-mlops.html"
     },
     { 
         name: "Language Maps and Multilanguage support in NGSI-LD", 
@@ -260,7 +274,8 @@ var types = [
         domain: "Developers",  
         technology: "NGSI-LD",
         length: 35,
-        year: 2021
+        year: 2021,
+        social: "https://www.fiware.org/webinars/language-maps-and-multilanguage-support-in-ngsi-ld.html"
     },
     { 
         name: "Managing Users Identities and Access Control Policies with API Umbrella", 
@@ -274,7 +289,8 @@ var types = [
         domain: "Developers",  
         technology: "API Umbrella,Keyrock",
         length: 45,
-        year: 2021
+        year: 2021,
+        social: "https://www.fiware.org/webinars/managing-users-identities-and-access-control-policies-with-api-umbrella.html"
     },
     { 
         name: "NGSI-LD Temporal Operations", 
@@ -288,7 +304,8 @@ var types = [
         domain: "Developers",  
         technology: "NGSI-LD",
         length: 45,
-        year: 2021
+        year: 2021,
+        social: "https://www.fiware.org/webinars/ngsi-ld-temporal-operations.html"
     },
     { 
         name: "End-to-end AI Solution With PySpark &amp; Draco", 
@@ -302,7 +319,8 @@ var types = [
         domain: "Developers",  
         technology: "AI,Pyspark,Apache NIFI",
         length: 45,
-        year: 2021
+        year: 2021,
+        social: "https://www.fiware.org/webinars/end-to-end-ai-solution-with-pyspark---draco.html"
     },
     { 
         name: "Connecting NGSI-LD FIWARE Components", 
@@ -316,7 +334,8 @@ var types = [
         domain: "Developers",  
         technology: "NGSI-v2,NGSI-LD",
         length: 40,
-        year: 2021
+        year: 2021,
+        social: "https://www.fiware.org/webinars/connecting-ngsi-ld-fiware-components.html"
     },
     { 
         name: "Customizing IoT Agents", 
@@ -330,7 +349,8 @@ var types = [
         domain: "Developers",  
         technology: "IoT Agent,AgriFood",
         length: 45,
-        year: 2021
+        year: 2021,
+        social: "https://www.fiware.org/webinars/customizing-iot-agents.html"
     },
     { 
         name: "India Urban Data Exchange", 
@@ -344,7 +364,8 @@ var types = [
         domain: "Developers",  
         technology: "NGSI-LD,Data Models,Cities",
         length: 25,
-        year: 2020
+        year: 2020,
+        social: "https://www.fiware.org/webinars/india-urban-data-exchange.html"
     },
     { 
         name: "Monitoring Measures Using FIWARE &amp; Grafana", 
@@ -358,7 +379,8 @@ var types = [
         domain: "Developers",  
         technology: "NGSI-v2,NGSI-LD,QuantumLeap,Grafana",
         length: 40,
-        year: 2021
+        year: 2021,
+        social: "https://www.fiware.org/webinars/monitoring-measures-using-fiware---grafana.html"
     },
     { 
         name: "Monetizing your Organization&#x27;s Data", 
@@ -372,7 +394,8 @@ var types = [
         domain: "Developers",  
         technology: "Business Ecosystem,Keyrock,API Umbrella",
         length: 45,
-        year: 2020
+        year: 2020,
+        social: "https://www.fiware.org/webinars/monetizing-your-organization-s-data.html"
     },
     { 
         name: "Creating Advanced Dashboards Using Wirecloud", 
@@ -386,7 +409,8 @@ var types = [
         domain: "Developers",  
         technology: "Wirecloud",
         length: 60,
-        year: 2020
+        year: 2020,
+        social: "https://www.fiware.org/webinars/creating-advanced-dashboards-using-wirecloud.html"
     },
     { 
         name: "Cities as Enablers of the Data Economy - Smart Data Models for Cities", 
@@ -400,7 +424,8 @@ var types = [
         domain: "Developers",  
         technology: "Cities",
         length: 45,
-        year: 2020
+        year: 2020,
+        social: "https://www.fiware.org/webinars/cities-as-enablers-of-the-data-economy---smart-data-models-for-cities.html"
     },
     { 
         name: "Machine Learning with Cosmos and Spark", 
@@ -414,7 +439,8 @@ var types = [
         domain: "Developers",  
         technology: "Cosmos,Apache Spark",
         length: 50,
-        year: 2020
+        year: 2020,
+        social: "https://www.fiware.org/webinars/machine-learning-with-cosmos-and-spark.html"
     },
     { 
         name: "NGSI-LD IoT Agents", 
@@ -428,7 +454,8 @@ var types = [
         domain: "Developers",  
         technology: "NGSI-LD,IoT Agent",
         length: 40,
-        year: 2021
+        year: 2021,
+        social: "https://www.fiware.org/webinars/ngsi-ld-iot-agents.html"
     },
     { 
         name: "Integrating Robotic Systems for Agile Manufacturing Using FIWARE", 
@@ -442,7 +469,8 @@ var types = [
         domain: "Developers",  
         technology: "",
         length: 30,
-        year: 2020
+        year: 2020,
+        social: "https://www.fiware.org/webinars/integrating-robotic-systems-for-agile-manufacturing-using-fiware.html"
     },
     { 
         name: "FIWARE and micro-ROS: Enabling Robotics Systems on Micro-controllers", 
@@ -456,7 +484,8 @@ var types = [
         domain: "Developers",  
         technology: "microROS",
         length: 30,
-        year: 2020
+        year: 2020,
+        social: "https://www.fiware.org/webinars/fiware-and-micro-ros--enabling-robotics-systems-on-micro-controllers.html"
     },
     { 
         name: "Smart Water Management - Using FIWARE Smart Data Models for Water", 
@@ -470,7 +499,8 @@ var types = [
         domain: "Developers",  
         technology: "NGSI-LD,Data Models,Water",
         length: 40,
-        year: 2020
+        year: 2020,
+        social: "https://www.fiware.org/webinars/smart-water-management---using-fiware-smart-data-models-for-water.html"
     },
     { 
         name: "Turning Organizations Into Smart Organizations", 
@@ -484,7 +514,8 @@ var types = [
         domain: "Developers",  
         technology: "Cities,AgriFood,Water",
         length: 45,
-        year: 2020
+        year: 2020,
+        social: "https://www.fiware.org/webinars/turning-organizations-into-smart-organizations.html"
     },
     { 
         name: "How to Develop FIWARE NGSI Interfaces for Robots", 
@@ -498,7 +529,8 @@ var types = [
         domain: "Developers",  
         technology: "NGSI-v2",
         length: 40,
-        year: 2020
+        year: 2020,
+        social: "https://www.fiware.org/webinars/how-to-develop-fiware-ngsi-interfaces-for-robots.html"
     },
     { 
         name: "Adopting Common Smart Data Models for Smart Cities", 
@@ -512,7 +544,8 @@ var types = [
         domain: "Developers",  
         technology: "NGSI-LD,Data Models,Cities",
         length: 35,
-        year: 2020
+        year: 2020,
+        social: "https://www.fiware.org/webinars/adopting-common-smart-data-models-for-smart-cities.html"
     },
     { 
         name: "Robots and Machine Interfaces: Building Interfaces to ROS Systems", 
@@ -526,7 +559,8 @@ var types = [
         domain: "Developers",  
         technology: "FIROS,ROS",
         length: 30,
-        year: 2020
+        year: 2020,
+        social: "https://www.fiware.org/webinars/robots-and-machine-interfaces--building-interfaces-to-ros-systems.html"
     },
     { 
         name: "Big Data Analysis using Cosmos with Spark or Flink", 
@@ -540,7 +574,8 @@ var types = [
         domain: "Developers",  
         technology: "Cosmos,Apache Spark,Apache Flink",
         length: 40,
-        year: 2020
+        year: 2020,
+        social: "https://www.fiware.org/webinars/big-data-analysis-using-cosmos-with-spark-or-flink.html"
     },
     { 
         name: "Blockchain/DLT Integration with FIWARE", 
@@ -554,7 +589,8 @@ var types = [
         domain: "Developers",  
         technology: "Canis Major,Blockchain",
         length: 40,
-        year: 2020
+        year: 2020,
+        social: "https://www.fiware.org/webinars/blockchain-dlt-integration-with-fiware.html"
     },
     { 
         name: "The Use of DDS Middleware in Robotics", 
@@ -568,7 +604,8 @@ var types = [
         domain: "Developers",  
         technology: "DDS,microROS",
         length: 40,
-        year: 2020
+        year: 2020,
+        social: "https://www.fiware.org/webinars/the-use-of-dds-middleware-in-robotics.html"
     },
     { 
         name: "Architecting Your Smart Solution Using FIWARE", 
@@ -582,7 +619,8 @@ var types = [
         domain: "Developers,Business",  
         technology: "Cities,AgriFood,Water",
         length: 40,
-        year: 2020
+        year: 2020,
+        social: "https://www.fiware.org/webinars/architecting-your-smart-solution-using-fiware.html"
     },
     { 
         name: "Choosing Open Source Licenses for FIWARE Components", 
@@ -596,7 +634,8 @@ var types = [
         domain: "Community,Business",  
         technology: "",
         length: 40,
-        year: 2020
+        year: 2020,
+        social: "https://www.fiware.org/webinars/choosing-open-source-licenses-for-fiware-components.html"
     },
     { 
         name: "FIWARE Vision and Value Proposition for a Smart Future", 
@@ -610,7 +649,8 @@ var types = [
         domain: "Developers,Business",  
         technology: "Cities,AgriFood,Water",
         length: 40,
-        year: 2020
+        year: 2020,
+        social: "https://www.fiware.org/webinars/fiware-vision-and-value-proposition-for-a-smart-future.html"
     },
     { 
         name: "FIWARE Building the Future", 
@@ -624,7 +664,8 @@ var types = [
         domain: "Developers,Business",  
         technology: "NGSI-LD,Data Models,AI,Blockchain",
         length: 40,
-        year: 2020
+        year: 2020,
+        social: "https://www.fiware.org/webinars/fiware-building-the-future.html"
     },
     { 
         name: "Introduction to NGSI-LD", 
@@ -638,7 +679,8 @@ var types = [
         domain: "Developers",  
         technology: "NGSI-LD",
         length: 40,
-        year: 2020
+        year: 2020,
+        social: "https://www.fiware.org/webinars/introduction-to-ngsi-ld.html"
     },
     { 
         name: "Securing FIWARE IoT Devices", 
@@ -652,7 +694,8 @@ var types = [
         domain: "Developers",  
         technology: "IoT Agent,Keyrock",
         length: 40,
-        year: 2020
+        year: 2020,
+        social: "https://www.fiware.org/webinars/securing-fiware-iot-devices.html"
     },
     { 
         name: "Short Term History within FIWARE Systems", 
@@ -666,7 +709,8 @@ var types = [
         domain: "Developers",  
         technology: "NGSI-v2,STH-Comet,QuantumLeap,Grafana",
         length: 40,
-        year: 2020
+        year: 2020,
+        social: "https://www.fiware.org/webinars/short-term-history-within-fiware-systems.html"
     },
     { 
         name: "Strategies for Context Data Persistence", 
@@ -680,7 +724,8 @@ var types = [
         domain: "Developers",  
         technology: "NGSI-v2,Draco,Cygnus,Apache Flume,Apache NIFI",
         length: 40,
-        year: 2020
+        year: 2020,
+        social: "https://www.fiware.org/webinars/strategies-for-context-data-persistence.html"
     },
     { 
         name: "FIWARE iHubs Webinar - the Netherlands, Canary Islands, Azores", 
@@ -694,7 +739,8 @@ var types = [
         domain: "iHubs",  
         technology: "iHubs",
         length: 60,
-        year: 2020
+        year: 2020,
+        social: "https://www.fiware.org/webinars/fiware-ihubs-webinar---the-netherlands--canary-islands--azores.html"
     },
     { 
         name: "FIWARE iHubs Webinar - Spain (Badajoz), France (Saint-Quentin), Uruguay (Montevideo)", 
@@ -708,7 +754,8 @@ var types = [
         domain: "iHubs",  
         technology: "iHubs",
         length: 60,
-        year: 2020
+        year: 2020,
+        social: "https://www.fiware.org/webinars/fiware-ihubs-webinar---spain--badajoz---france--saint-quentin---uruguay--montevideo-.html"
     },
     { 
         name: "FIWARE iHubs Webinar - Spain (Andalusia), Italy (Perugia), Argentina (La Plata)", 
@@ -722,7 +769,8 @@ var types = [
         domain: "iHubs",  
         technology: "iHubs",
         length: 60,
-        year: 2020
+        year: 2020,
+        social: "https://www.fiware.org/webinars/fiware-ihubs-webinar---spain--andalusia---italy--perugia---argentina--la-plata-.html"
     },
     { 
         name: "How to Get Context Data Out of Robots", 
@@ -736,7 +784,8 @@ var types = [
         domain: "Developers",  
         technology: "",
         length: 30,
-        year: 2019
+        year: 2019,
+        social: "https://www.fiware.org/webinars/how-to-get-context-data-out-of-robots.html"
     },
     { 
         name: "Data Modelling with NGSI", 
@@ -750,7 +799,8 @@ var types = [
         domain: "Developers",  
         technology: "NGSI-v2,Data Models,Cities,AgriFood",
         length: 35,
-        year: 2019
+        year: 2019,
+        social: "https://www.fiware.org/webinars/data-modelling-with-ngsi.html"
     },
     { 
         name: "How to Debug IoT Agents", 
@@ -764,7 +814,8 @@ var types = [
         domain: "Developers",  
         technology: "NGSI-v2,IoT Agent",
         length: 40,
-        year: 2019
+        year: 2019,
+        social: "https://www.fiware.org/webinars/how-to-debug-iot-agents.html"
     },
     { 
         name: "How to Secure FIWARE Architectures", 
@@ -778,7 +829,8 @@ var types = [
         domain: "Developers",  
         technology: "NGSI-v2,Keyrock",
         length: 50,
-        year: 2019
+        year: 2019,
+        social: "https://www.fiware.org/webinars/how-to-secure-fiware-architectures.html"
     },
     { 
         name: "What is an IoT Agent?", 
@@ -792,7 +844,8 @@ var types = [
         domain: "Developers",  
         technology: "IoT Agent",
         length: 40,
-        year: 2019
+        year: 2019,
+        social: "https://www.fiware.org/webinars/what-is-an-iot-agent-.html"
     },
     { 
         name: "Core Context Management", 
@@ -806,7 +859,8 @@ var types = [
         domain: "Developers",  
         technology: "NGSI-v2",
         length: 40,
-        year: 2019
+        year: 2019,
+        social: "https://www.fiware.org/webinars/core-context-management.html"
     },
     { 
         name: "Introduction to FIWARE", 
@@ -820,6 +874,7 @@ var types = [
         domain: "Developers,Business,Community,iHubs",  
         technology: "NGSI-v2",
         length: 30,
-        year: 2019
+        year: 2019,
+        social: "https://www.fiware.org/webinars/introduction-to-fiware.html"
     },
 ];
