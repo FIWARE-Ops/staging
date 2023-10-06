@@ -121,7 +121,7 @@ function createModalContent(tingleModalData) {
       .replace(/&amp;/g, "&");
   }
   modalHtml += `</div><div class="foot-modal">
-      <a class="cat-info" onclick="setClipboard('${tingleModalData.social}')">
+      <a class="cat-share" onclick="setClipboard('${tingleModalData.social}')">
           <span class="material-icons-outlined">share</span>
           Share
       </a>
@@ -138,7 +138,7 @@ function createModalContent(tingleModalData) {
 
 function initModal() {
   // Modal
-  document.querySelectorAll(".cat-bio").forEach(function (el) {
+  document.querySelectorAll(".cat-info").forEach(function (el) {
     el.addEventListener("click", function (e) {
       var modal = new tingle.modal({
         footer: true,
