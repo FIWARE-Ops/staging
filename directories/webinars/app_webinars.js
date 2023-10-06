@@ -19,6 +19,22 @@ function filterOptions(id, filter, data, css) {
   }
 }
 
+function setClipboard(text) {
+  const type = "text/plain";
+  const blob = new Blob([text], { type });
+  const data = [new ClipboardItem({ [type]: blob })];
+
+  navigator.clipboard.write(data).then(
+    () => {
+      /* success */
+      alert('Link copied to clipboard')
+    },
+    () => {
+      /* failure */
+    },
+  );
+}
+
 function dropdownFilters(filter) {
   var typeCSSFilter = getCSSFilter("#filterType");
   var techCSSFilter = getCSSFilter("#filterTech");
@@ -74,7 +90,7 @@ function createModalContent(tingleModalData) {
 
   modalHtml = `
   <div class="info-modal">
-    <div class="credits-modal">
+    <div class="credits-modal main-chapter ${tingleModalData.chapter}">
       <h1>${tingleModalData.name}</h1>
         <div class="attributes-modal">
           <div class="label-type">
@@ -105,7 +121,11 @@ function createModalContent(tingleModalData) {
       .replace(/&amp;/g, "&");
   }
   modalHtml += `</div><div class="foot-modal">
-        <a class="details" target="_blank" href="${tingleModalData.video}">
+      <a class="cat-info" onclick="setClipboard('${tingleModalData.social}')">
+          <span class="material-icons-outlined">share</span>
+          Share
+      </a>
+      <a class="cat-details-primary" target="_blank" href="${tingleModalData.video}">
           <span class="material-icons-outlined">play_arrow</span>
           Watch
       </a>
