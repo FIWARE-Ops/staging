@@ -195,7 +195,7 @@ ul {
     width: 90%;
     padding-top: 20px;
     margin: 0 auto;
-    /* min-height: 175px; */
+    min-height: 132px;
 }
 
 .gridElementLogo {
