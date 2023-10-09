@@ -244,7 +244,7 @@ var companies = [
     { name: "Irene Provvidenza", img: "https://www.fiware.org/wp-content/directories/people/images/200px/irene-provvidenza.jpg", position: "International Business Developer", company: "TeamDev SRL", "company-link": "https://teamdevecosystem.it/en/",
     content: "", linkedin: "https://www.linkedin.com/in/irene-provvidenza/", twitter: "", domain: "", location: "",
     flag: "", },
-    { name: "Gianluigi Riccio", img: "https://www.fiware.org/wp-content/directories/people/images/200px/irene-provvidenza.jpg", position: "Digital Engineer", company: "Meditech Competence Center", "company-link": "https://meditech4.com",
+    { name: "Gianluigi Riccio", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Digital Engineer", company: "Meditech Competence Center", "company-link": "https://meditech4.com",
     content: "", linkedin: "https://www.linkedin.com/in/gianluigi-riccio-609532b/", twitter: "https://twitter.com/RiccioGL", domain: "", location: "",
     flag: "", },
     { name: "Prof. Joaquín Salvachúa", img: "https://www.fiware.org/wp-content/directories/people/images/200px/joaquin-salvachua.jpg", position: "Professor", company: "Universidad Politécnica de Madrid", "company-link": "https://www.upm.es/internacional",
