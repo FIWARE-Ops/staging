@@ -1056,7 +1056,7 @@ var pageData = [
         technology: ['Data Analytics', 'Digital Twins', 'Internet of Things'],
         year: 2023,
         content:
-            'Calculates European air quality index for IoT measurements and model forecasts, allowing citizens and public authorities to easily and standardise the air quality status in a location and timespan.'
+            'Calculates European air quality index for IoT measurements and model forecasts, allowing citizens and public authorities to easily standardise the air quality status in a location and timespan.'
     }
 ];
 

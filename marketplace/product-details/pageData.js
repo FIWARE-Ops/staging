@@ -7578,7 +7578,7 @@ var pageData = {
                     category: 'FIWARE-Ready',
                     featuredImage: 'https://www.fiware.org/wp-content/uploads/1c63fe8805471c3b24f0b614cd1b44f4.png',
                     excerpt:
-                        'Calculates European air quality index for IoT measurements and model forecasts, allowing citizens and public authorities to easily and standardise the air quality status in a location and timespan.',
+                        'Calculates European air quality index for IoT measurements and model forecasts, allowing citizens and public authorities to easily standardise the air quality status in a location and timespan.',
                     productName: 'Air Quality Index Calculation',
                     companyLink: './?category=ready&id=libelium-airqualityindexcalculation'
                 }
@@ -7654,7 +7654,7 @@ var pageData = {
                     category: 'FIWARE-Ready',
                     featuredImage: 'https://www.fiware.org/wp-content/uploads/1c63fe8805471c3b24f0b614cd1b44f4.png',
                     excerpt:
-                        'Calculates European air quality index for IoT measurements and model forecasts, allowing citizens and public authorities to easily and standardise the air quality status in a location and timespan.',
+                        'Calculates European air quality index for IoT measurements and model forecasts, allowing citizens and public authorities to easily standardise the air quality status in a location and timespan.',
                     productName: 'Air Quality Index Calculation',
                     companyLink: './?category=ready&id=libelium-airqualityindexcalculation'
                 }
@@ -7727,7 +7727,7 @@ var pageData = {
                     category: 'FIWARE-Ready',
                     featuredImage: 'https://www.fiware.org/wp-content/uploads/1c63fe8805471c3b24f0b614cd1b44f4.png',
                     excerpt:
-                        'Calculates European air quality index for IoT measurements and model forecasts, allowing citizens and public authorities to easily and standardise the air quality status in a location and timespan.',
+                        'Calculates European air quality index for IoT measurements and model forecasts, allowing citizens and public authorities to easily standardise the air quality status in a location and timespan.',
                     productName: 'Air Quality Index Calculation',
                     companyLink: './?category=ready&id=libelium-airqualityindexcalculation'
                 }
@@ -9388,7 +9388,7 @@ var pageData = {
                     category: 'FIWARE-Ready',
                     featuredImage: 'https://www.fiware.org/wp-content/uploads/1c63fe8805471c3b24f0b614cd1b44f4.png',
                     excerpt:
-                        'Calculates European air quality index for IoT measurements and model forecasts, allowing citizens and public authorities to easily and standardise the air quality status in a location and timespan.',
+                        'Calculates European air quality index for IoT measurements and model forecasts, allowing citizens and public authorities to easily standardise the air quality status in a location and timespan.',
                     productName: 'Air Quality Index Calculation',
                     companyLink: './?category=ready&id=libelium-airqualityindexcalculation'
                 }
@@ -9540,7 +9540,7 @@ var pageData = {
                     category: 'FIWARE-Ready',
                     featuredImage: 'https://www.fiware.org/wp-content/uploads/1c63fe8805471c3b24f0b614cd1b44f4.png',
                     excerpt:
-                        'Calculates European air quality index for IoT measurements and model forecasts, allowing citizens and public authorities to easily and standardise the air quality status in a location and timespan.',
+                        'Calculates European air quality index for IoT measurements and model forecasts, allowing citizens and public authorities to easily standardise the air quality status in a location and timespan.',
                     productName: 'Air Quality Index Calculation',
                     companyLink: './?category=ready&id=libelium-airqualityindexcalculation'
                 }
@@ -9559,7 +9559,7 @@ var pageData = {
             twitter: '',
             productWebsite: 'https://www.libelium.com',
             excerpt:
-                'Calculates European air quality index for IoT measurements and model forecasts, allowing citizens and public authorities to easily and standardise the air quality status in a location and timespan.',
+                'Calculates European air quality index for IoT measurements and model forecasts, allowing citizens and public authorities to easily standardise the air quality status in a location and timespan.',
             yearOfValidation: 2023,
             description:
                 "<p><strong>GreenMov Air Quality Index (AQI) Calculator</strong> service empowers citizens and public authorities with real-time and forecasted insights into your location's air quality. As concerns about air pollution and its impact on health rise, having access to accurate and up-to-date AQI readings is crucial for making informed decisions. It classifies a measurement or forecast into one of the following categories:  i) good, ii) fair, iii) moderate, iv) poor or v) extremely poor.</p> <p>AQI Calculator service prioritizes citizens' health, safety, and quality of life by staying informed about the air they breathe. In concrete, it provides the following benefits to involved stakeholders: i) real-time AQI information, ii) forecasted AQI information, iii) health awareness, iv) outdoor activities planning, iv) mobility decisions and v) environmental awareness</p>",
