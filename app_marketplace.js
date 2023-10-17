@@ -359,7 +359,7 @@ function cardCreation() {
       <p class="solution-name">${gridElementData.name}</p>
       <div class="company-certified">
       <h3 class="name">${gridElementData.company}</h3>
-      <div class="label-certification"><span class="material-icons-outlined" id="ico-featured">verified</span> <span class="year">${
+      <div class="label-certification"><span class="material-symbols-outlined" id="ico-featured">verified</span> <span class="year">${
         gridElementData.year
       }</span></div>
       </div>
@@ -378,7 +378,7 @@ function cardCreation() {
     <div class="foot">
     <a class="details" href="${
       gridElementData.companyLink
-    }"><span id="ico-info" class="material-icons-outlined">info</span> See details</a>
+    }"><span id="ico-info" class="material-symbols-outlined">info</span> See details</a>
     </div>
   </div>`;
 
