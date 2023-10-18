@@ -499,25 +499,13 @@ document.addEventListener("html-included", () => {
   initModal();
   filterToggle();
 
-  let count = 0;
-  let target = 7;
   // Isotope istantiation
   // Relies on unpkg.com/imagesloaded
   $("#app")
     .imagesLoaded()
     .always(function (instance) {
-      msnry.arrange({ sortBy: "original-order" });
+      msnry.layout();
     })
-   .fail( function() {
-      // msnry.arrange({ sortBy: "original-order" });
-    })
-    .progress(function (instance, image) {
-      count++;
-      if(count % target === 0){
-        target = target + 7;
-        msnry.arrange({ sortBy: "original-order" });
-      }
-    });
           
   $(window).scroll(function() {
    lazyLoadImages();
