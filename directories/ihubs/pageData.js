@@ -49,6 +49,6 @@ var titles = [
         'Sweden',
         'Switzerland',
         'Tunisia',
-        'United States',
         'Uruguay',
+        'USA',
 ]; 
