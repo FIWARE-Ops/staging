@@ -503,7 +503,7 @@ document.addEventListener("html-included", () => {
   // Relies on unpkg.com/imagesloaded
   $("#app")
     .imagesLoaded()
-    .always(function (instance) {
+    .progress(function (instance) {
       msnry.layout();
     })
           
