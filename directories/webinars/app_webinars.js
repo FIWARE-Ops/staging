@@ -499,14 +499,14 @@ document.addEventListener("html-included", () => {
   initModal();
   filterToggle();
 
-  $.each($('.gridElementLogo img'), function() {
-    const height = ($(this).parent().parent().height() * 0.574)
-    $(this).css('min-height', `${height}px`);
-  })
-
-  msnry.arrange({ sortBy: "original-order" });
-
-
+    // Isotope istantiation
+  // Relies on unpkg.com/imagesloaded
+  $("#app")
+    .imagesLoaded()
+    .always(function (instance) {
+      msnry.arrange({ sortBy: "original-order" });
+    });
+          
   $(window).scroll(function() {
    lazyLoadImages();
   })
