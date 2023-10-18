@@ -350,6 +350,7 @@ function initSelect() {
     if (scrollSet) {
       scrollToView();
     }
+    lazyLoadImages();
   });
 
   initTextSearch(msnry);
@@ -475,6 +476,16 @@ function horizontalScroll() {
   });
 }
 
+function lazyLoadImages(){
+ $.each($('img'), function() {
+    if ( $(this).attr('data-src') && $(this).offset().top < ($(window).scrollTop() + $(window).height() + 500) ) {
+        var source = $(this).data('src');
+        $(this).attr('src', source);
+        $(this).removeAttr('data-src');
+    }
+  })
+}
+
 document.addEventListener("html-included", () => {
   if (init) {
     return;
@@ -487,23 +498,18 @@ document.addEventListener("html-included", () => {
   initChips();
   initModal();
   filterToggle();
-  let count = 0;
-  let target = 7;
-  // Isotope istantiation
-  // Relies on unpkg.com/imagesloaded
-  $("#app")
-    .imagesLoaded()
-    .always(function (instance) {
-      msnry.arrange({ sortBy: "original-order" });
-    })
-   .fail( function() {
-      // msnry.arrange({ sortBy: "original-order" });
-    })
-    .progress(function (instance, image) {
-      count++;
-      if(count % target === 0){
-        target = target + 7;
-        msnry.arrange({ sortBy: "original-order" });
-      }
-    });
+
+  $.each($('.gridElementLogo img'), function() {
+    const height = ($(this).parent().parent().height() * 0.574)
+    $(this).css('min-height', `${height}px`);
+  })
+
+  msnry.arrange({ sortBy: "original-order" });
+
+
+  $(window).scroll(function() {
+   lazyLoadImages();
+  })
 });
+
+
