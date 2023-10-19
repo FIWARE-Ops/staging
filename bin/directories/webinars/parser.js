@@ -9,7 +9,7 @@ const Template = require('../../template');
 const TEMPLATE_PATH = 'bin/directories/webinars/';
 const WEBINARS_DIR = 'directories/webinars';
 
-const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/webinars/images/webinar-default.png';
+const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/images/thumb-placeholder.jpg';
 
 
 
