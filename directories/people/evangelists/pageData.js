@@ -35,6 +35,7 @@ var companies = [
         'ms.GIS',
         'NEC Corporation',
         'NEC Corporation India',
+        'Nivid Technologies',
         'Open Solutions For Government',
         'Polytechnic School of the University of São Paulo',
         'Poznan Supercomputing and Networking Center',
@@ -99,6 +100,10 @@ var companies = [
     flag: "", },
     { name: "Ali Benbrahim", img: "https://www.fiware.org/wp-content/directories/people/images/200px/ali-benbrahim.jpg", position: "Chief Executive Officer", company: "iP-NETs", "company-link": "http://www.ipnets.tn/",
     content: "", linkedin: "https://www.linkedin.com/in/ali-benbrahim-71203121/", twitter: "https://twitter.com/alibb0404", domain: "", location: "",
+    flag: "", },
+    { name: "Salim Bendris
+", img: "https://www.fiware.org/wp-content/directories/people/images/200px/salim-bendris.jpg", position: "Executive Vice President Global Sales", company: "Nivid Technologies", "company-link": "https://nividit.com",
+    content: "I whole heartedly endorse the technology and its advantages, with a strong emphasis on how FIWARE&#x27;s open standards offer broader options for clients. I am confident in my ability to make a meaningful influence and impact.", linkedin: "https://www.linkedin.com/in/salim-bendris-2693129/", twitter: "", domain: "", location: "",
     flag: "", },
     { name: "José Benitez", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jose-benitez.jpg", position: "Co-Founder &amp; Chief Executive Officer", company: "Secmotic", "company-link": "https://secmotic.com/",
     content: "", linkedin: "https://www.linkedin.com/in/jose-benitez-secmotic", twitter: "https://twitter.com/josesecmotic", domain: "", location: "",
