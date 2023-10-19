@@ -519,7 +519,7 @@ var types = [
     },
     { 
         name: "How to Develop FIWARE NGSI Interfaces for Robots", 
-        img: "https://www.fiware.org/wp-content/directories/webinars/images/webinar-default.png",
+        img: "https://www.fiware.org/wp-content/directories/images/thumb-placeholder.jpg",
         type: "Robotics", 
         badge: "<img src='https://www.fiware.org/custom/brand-guide/img/badges/catalogue/02/svg/robotics.svg'/>",
         chapter: "interface", 
@@ -684,7 +684,7 @@ var types = [
     },
     { 
         name: "Securing FIWARE IoT Devices", 
-        img: "https://www.fiware.org/wp-content/directories/webinars/images/webinar-default.png",
+        img: "https://www.fiware.org/wp-content/directories/images/thumb-placeholder.jpg",
         type: "Security", 
         badge: "<img src='https://www.fiware.org/custom/brand-guide/img/badges/catalogue/04/svg/security.svg'/>",
         chapter: "context-data", 
@@ -714,7 +714,7 @@ var types = [
     },
     { 
         name: "Strategies for Context Data Persistence", 
-        img: "https://www.fiware.org/wp-content/directories/webinars/images/webinar-default.png",
+        img: "https://www.fiware.org/wp-content/directories/images/thumb-placeholder.jpg",
         type: "Core Context", 
         badge: "<img src='https://www.fiware.org/custom/brand-guide/img/badges/catalogue/01/svg/core.svg'/>",
         chapter: "core", 
@@ -789,7 +789,7 @@ var types = [
     },
     { 
         name: "Data Modelling with NGSI", 
-        img: "https://www.fiware.org/wp-content/directories/webinars/images/webinar-default.png",
+        img: "https://www.fiware.org/wp-content/directories/images/thumb-placeholder.jpg",
         type: "Core Context", 
         badge: "<img src='https://www.fiware.org/custom/brand-guide/img/badges/catalogue/01/svg/core.svg'/>",
         chapter: "core", 
@@ -804,7 +804,7 @@ var types = [
     },
     { 
         name: "How to Debug IoT Agents", 
-        img: "https://www.fiware.org/wp-content/directories/webinars/images/webinar-default.png",
+        img: "https://www.fiware.org/wp-content/directories/images/thumb-placeholder.jpg",
         type: "IoT Agents", 
         badge: "<img src='https://www.fiware.org/custom/brand-guide/img/badges/catalogue/02/svg/iot-agents.svg'/>",
         chapter: "interface", 
@@ -819,7 +819,7 @@ var types = [
     },
     { 
         name: "How to Secure FIWARE Architectures", 
-        img: "https://www.fiware.org/wp-content/directories/webinars/images/webinar-default.png",
+        img: "https://www.fiware.org/wp-content/directories/images/thumb-placeholder.jpg",
         type: "Security", 
         badge: "<img src='https://www.fiware.org/custom/brand-guide/img/badges/catalogue/04/svg/security.svg'/>",
         chapter: "context-data", 
@@ -834,7 +834,7 @@ var types = [
     },
     { 
         name: "What is an IoT Agent?", 
-        img: "https://www.fiware.org/wp-content/directories/webinars/images/webinar-default.png",
+        img: "https://www.fiware.org/wp-content/directories/images/thumb-placeholder.jpg",
         type: "IoT Agents", 
         badge: "<img src='https://www.fiware.org/custom/brand-guide/img/badges/catalogue/02/svg/iot-agents.svg'/>",
         chapter: "interface", 
@@ -849,7 +849,7 @@ var types = [
     },
     { 
         name: "Core Context Management", 
-        img: "https://www.fiware.org/wp-content/directories/webinars/images/webinar-default.png",
+        img: "https://www.fiware.org/wp-content/directories/images/thumb-placeholder.jpg",
         type: "Core Context", 
         badge: "<img src='https://www.fiware.org/custom/brand-guide/img/badges/catalogue/01/svg/core.svg'/>",
         chapter: "core", 
@@ -864,7 +864,7 @@ var types = [
     },
     { 
         name: "Introduction to FIWARE", 
-        img: "https://www.fiware.org/wp-content/directories/webinars/images/webinar-default.png",
+        img: "https://www.fiware.org/wp-content/directories/images/thumb-placeholder.jpg",
         type: "Fundamentals", 
         badge: "<img src='https://www.fiware.org/custom/brand-guide/img/badges/catalogue/01/svg/fundamentals.svg'/>",
         chapter: "core", 
