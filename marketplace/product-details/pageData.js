@@ -11084,6 +11084,54 @@ var pageData = {
             hash: 'ubiwhere-fiwareubiwhere',
             cat: 'services',
             social: '/support-services/ubiwhere/fiware---ubiwhere.html'
+        },
+        'robertocerveróciudad-excontrolfiwareintegrationservices': {
+            category: 'Services',
+            organisationName: 'Roberto Cerveró Ciudad',
+            productName: 'ExControl FIWARE integration services',
+            organisationWebsite: 'https://excontrol.es/',
+            organisationEmail: 'mailto:info@excontrol.es',
+            linkedIn: 'https://www.linkedin.com/company/88949859/admin/',
+            twitter: '',
+            productWebsite: 'https://excontrol.es/',
+            excerpt:
+                'Automation company that develops custom solutions using new technologies, such as IoT, AI, Artificial vision, etc. We offer solutions both in the domestic and industrial fields, paying special attention to making processes more efficient.',
+            yearOfValidation: 2023,
+            description:
+                '<p>We offer custom solutions for our clients, to whom we offer our experience and knowledge in the field of automation and digital transformation. Implementing custom solutions that fit our clients needs. Our clients receive solutions that help to optimize their production processes to improve efficiency. They improve the quality of the products by standardizing their productions. Customers reduce production costs and optimize energy consumption.</p>',
+            challenge:
+                '<p>We are focused on efficiency and paying special attention to:</p> <ul> <li>Reducing electric consumption in both public and private buildings.</li> <li>Reducing the carbon footprint in the industrial processes.</li> <li>Making processes safer for employes.</li> <li>Creating solutions in order to reduce energy consumption.</li> </ul>',
+            references:
+                '<ul> <li>EA Group Sociedad Cooperativa</li> <li>CEN Solution SL</li> <li>Diputacion de Badajoz</li> <li>Ayuntamiento de Casar de Cáceres</li> <li>Ayuntamiento de Valverde de la Vera</li> </ul>',
+            awards: '<p>2021 Challenge IoT Fiware Space</p>',
+            technologies: ['Artificial Intelligence', 'Big Data', 'Internet of Things', 'Robotics', 'Sensory Systems'],
+            domains: ['Agriculture', 'Cities', 'Electronics', 'Industry', 'Lighting'],
+            docs: [],
+            videos: [
+                [
+                    'Air Quality Monitoring System',
+                    'https://www.youtube.com/watch?v=pxd9Nrol28o&ab_channel=ExControl%2Cautomatizaci%C3%B3nyDomotica'
+                ],
+                [
+                    'Animal Health System',
+                    'https://www.youtube.com/watch?v=BLjxAdkwyCU&ab_channel=ExControl%2Cautomatizaci%C3%B3nyDomotica'
+                ],
+                [
+                    'Home automation for accessibility',
+                    'https://www.youtube.com/watch?v=gchMw8xZJUc&ab_channel=ExControl%2Cautomatizaci%C3%B3nyDomotica'
+                ],
+                [
+                    'IOT ExControl Irrigation Control',
+                    'https://www.youtube.com/watch?v=DQ8LhU9ANzU&ab_channel=ExControl%2Cautomatizaci%C3%B3nyDomotica'
+                ]
+            ],
+            materials: [['FIWARE Space Blog', 'https://fiware.space/excontrol-empresa-ganadora-del-reto-iot-2021/']],
+            logo: 'https://www.fiware.org/wp-content/uploads/9dc8ca6fdde7782c00efd503503bc5d5.png',
+            featuredImage: 'https://www.fiware.org/wp-content/uploads/abc393d8559fdb9dca6fbc34ee1bcf23.jpg',
+            furtherImages: '',
+            hash: 'robertocerveróciudad-excontrolfiwareintegrationservices',
+            cat: 'services',
+            social: '/support-services/roberto-cervero-ciudad/excontrol-fiware-integration-services.html'
         }
     },
     unknown: {
