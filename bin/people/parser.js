@@ -21,16 +21,16 @@ function extractPeople(input) {
     const people = [];
     input.forEach((item) => {
         const person = {
-            title: Parser.trim(item['Title']),
-            name: item['Full Name'],
+            title: Parser.trim(item['Title']).trim(),
+            name: item['Full Name'].trim(),
             surname: item['Surname Filters'],
-            img: item['Profile Picture'] ? item['Profile Picture'] : DEFAULT_IMAGE,
+            img: item['Profile Picture'] ? item['Profile Picture'].trim() : DEFAULT_IMAGE,
             company: item['Company'] || item['Organization'] || item['Organisation'],
             companyType: item['Legal Form'] || '',
             domain: item['Domain'],
             website: Parser.trim(item['Company website'] || item['Organization website'] || item['Organisation website']),
             job: item['Job title'],
-            bio: item['Bio'] ? item['Bio'].replaceAll(/[\n\r]+/g, ' ') : '',
+            bio: item['Bio'] ? item['Bio'].replaceAll(/[\n\r]+/g, ' ').trim() : '',
             linkedIn: Parser.trim(item['LinkedIn']),
             twitter: Parser.trim(item['Twitter']),
             department: item['Department'],
