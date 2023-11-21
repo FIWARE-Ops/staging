@@ -4592,6 +4592,47 @@ var pageData = {
             hash: 'anteral-uradsmarttrafficcompact',
             cat: 'powered',
             social: '/powered-by-fiware/anteral/urad-smart-traffic-compact.html'
+        },
+        'kmdgroup-datacontextplatform': {
+            category: 'Powered by FIWARE',
+            organisationName: 'KMD Group',
+            productName: 'Data Context Platform',
+            organisationWebsite: 'https://www.kmd.net/en',
+            organisationEmail: 'mailto:tif@kmd.dk',
+            linkedIn: 'https://www.linkedin.com/company/kmd/',
+            twitter: '',
+            productWebsite:
+                'https://www.kmd.net/en/solutions-and-services/technology-and-innovation/kmd-iot-context-management-platform',
+            excerpt:
+                'KMD Context Management Platform enables customers to contextrualize data across all their IoT sensors, system data, and 3rd party sources in Smart Data Models, enabling them to link data in new constellations and easily build custom applications.\n\nThe platform is an ideal fit for municipalities',
+            yearOfValidation: 2023,
+            description:
+                '<p><strong>Increase the value of your data</strong> Our platform helps you create context for your data across IoT, data warehouses, data lakes, and BI databases. The data you already have provides context in our platform. It delivers data into standardized data models managed in the platform, enabling the services consuming the data to translate them into real value.</p>',
+            challenge:
+                '<p><strong>Reclaim control of your data</strong>  Whether you have just started a few IoT projects or already have an active IoT strategy, it will be valuable to consolidate data in one platform. You gain control and scalability because your data sources become standardized into models through which your services and applications can utilize data across your data sources and IoT projects</p>',
+            references:
+                '<p>Customer case: <strong>City of Aarhus</strong></p> <p>Aarhus is the second-largest in Denmark and is a driving force in the GovTech Midtjylland technology community that encompasses 16 municipalities.</p> <p>Its Smart City Strategy focuses on using technology and innovation to improve green transition, sustainability, mobility, and quality of life for its residents.</p> <p>The strategy includes initiatives such as smart mobility solutions, energy-efficient buildings, and digital solutions for citizen engagement.</p> <p>Aarhus leverages the KMD Data Context Platform based on the NEC NGSI-LD Scorpio Broker to strategically approach municipal operations. This platform enables the municipality to consolidate scattered IoT projects, by breaking down silos and collecting and storing data across projects for immediate or future value creation.</p> <p>Customer case: <strong>DOLL Living Lab</strong></p> <p>DOLL is a unique living lab where private and public actors can test, showcase, and be inspired by cutting-edge technology in a “one-stop shop” . At DOLL you can find the latest Smart City technologies, intelligent traffic systems, and outdoor lighting solutions.</p> <p>DOLL utilizes the KMD Data Context Platform to improve urban environments by compiling sensor data from street lighting, traffic patterns, noise, air pollution, and public weather data. The platform enables DOLL to create a digital twin, fostering more complex use cases across data types, and allowing stakeholders to explore IoT-based applications.</p>',
+            awards: '<p><a href="https://nordiciot.dk/iot-award-2023/indstil-kandidat-2023/" title="Nominated for The ">Nominated for The </a></p>',
+            technologies: ['Big Data', 'Data Handling', 'Data Spaces', 'Digital Twins', 'Internet of Things'],
+            domains: ['Air Quality', 'Cities', 'Construction and Building', 'Government', 'Sustainability'],
+            docs: [],
+            videos: [],
+            materials: [
+                [
+                    'Smart City Expo World Congress 2023',
+                    'https://www.linkedin.com/posts/doll-living-lab_the-doll-team-are-present-at-this-years-activity-7127983817956421632-FDKL/?utm_source=share&utm_medium=member_desktop'
+                ],
+                [
+                    'DOLL Collaboration',
+                    'https://www.linkedin.com/posts/doll-living-lab_kmd-iot-context-management-platform-read-activity-7077956228072497152-o5Zl/?utm_source=share&utm_medium=member_desktop'
+                ]
+            ],
+            logo: 'https://www.fiware.org/wp-content/uploads/a612ba396d0863cd1c1078530837762d.png',
+            featuredImage: 'https://www.fiware.org/wp-content/uploads/2819b0439a5c476c23812821d2f3b2ac.png',
+            furtherImages: '',
+            hash: 'kmdgroup-datacontextplatform',
+            cat: 'powered',
+            social: '/powered-by-fiware/kmd-group/data-context-platform.html'
         }
     },
     ready: {
@@ -9622,6 +9663,41 @@ var pageData = {
             hash: 'libelium-airqualityindexcalculation',
             cat: 'ready',
             social: '/fiware-ready/libelium/air-quality-index-calculation.html'
+        },
+        'streamingo-videodataanonymization': {
+            category: 'FIWARE-Ready',
+            organisationName: 'Streamingo',
+            productName: 'Video data anonymization',
+            organisationWebsite: 'https://streamingo.ai',
+            organisationEmail: 'mailto:info@streamingo.ai',
+            linkedIn: 'https://www.linkedin.com/company/streamingo-ai/?viewAsMember=true',
+            twitter: '',
+            productWebsite: 'https://anonymize.streamingo.ai',
+            excerpt:
+                "Protecting identity in video data is very important for GDPR compliance. Streamingo has developed a solution to ensure speedy anonymization of audio and faces inside a video. It's a fast, accurate and affordable service which can be accessed through REST API.",
+            yearOfValidation: 2023,
+            description:
+                "<p><strong>Streamingo</strong>'s data anonymization service is available as REST APIs and can be integrated into any IOT or Software product. It enables data anonymization in video data, thereby ensuring GDPR compliance.</p>",
+            challenge:
+                '<p>Incorporating data anonymization into Computer vision pipelines is a must. The cost of a data anonymization solution is prohibitive today. Streamingo is a Video activity recognition depp learning company working with the largest CPG companies in USA and Europe. We have been able to make video-based studies of consumer behaviour a huge success, because of our data anonymization capabilities.</p>',
+            references: '<p>Our data anomymization service is already in use by P&amp;G in USA,Europe and Japan.</p>',
+            awards: '<p><a href="https://analyticsindiamag.com/20-hottest-ai-startups-in-india-2022/" title="AI Startups In India 2022">AI Startups In India 2022</a></p>',
+            technologies: [
+                'Advanced or High Performance Computing',
+                'Artificial Intelligence',
+                'Cloud Computing',
+                'Software as a Service'
+            ],
+            domains: ['Consumer Goods / Products', 'Content', 'Healthcare', 'Manufacturing', 'Retail and Wholesale'],
+            docs: [['How it works', 'https://anonymize.streamingo.ai/home']],
+            videos: [],
+            materials: [],
+            logo: 'https://www.fiware.org/wp-content/uploads/57913994550e67c1d9594163abe62b30.png',
+            featuredImage: 'https://www.fiware.org/wp-content/uploads/ac145dd01ec03fe54f84dbd97fd5634c.png',
+            furtherImages: '',
+            hash: 'streamingo-videodataanonymization',
+            cat: 'ready',
+            social: '/fiware-ready/streamingo/video-data-anonymization.html'
         }
     },
     cities: {

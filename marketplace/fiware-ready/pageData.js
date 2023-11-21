@@ -1057,6 +1057,25 @@ var pageData = [
         year: 2023,
         content:
             'Calculates European air quality index for IoT measurements and model forecasts, allowing citizens and public authorities to easily standardise the air quality status in a location and timespan.'
+    },
+    {
+        company: 'Streamingo',
+        name: 'Video data anonymization',
+        img: 'https://www.fiware.org/wp-content/uploads/57913994550e67c1d9594163abe62b30.png',
+        fiwareMember: false,
+        fiwareIhub: false,
+        companyLink: '../product-details/?category=ready&id=streamingo-videodataanonymization',
+        domain: ['Consumer Goods / Products', 'Content', 'Healthcare', 'Manufacturing', 'Retail and Wholesale'],
+        type: 'Software Enabler',
+        technology: [
+            'Advanced or High Performance Computing',
+            'Artificial Intelligence',
+            'Cloud Computing',
+            'Software as a Service'
+        ],
+        year: 2023,
+        content:
+            "Protecting identity in video data is very important for GDPR compliance. Streamingo has developed a solution to ensure speedy anonymization of audio and faces inside a video. It's a fast, accurate and affordable service which can be accessed through REST API."
     }
 ];
 

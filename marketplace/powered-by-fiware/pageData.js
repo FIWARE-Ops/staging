@@ -1513,6 +1513,20 @@ var pageData = [
         technology: ['Internet of Things', 'Mobility and Location'],
         year: 2023,
         content: 'Solution based on the uRAD Smart Traffic device to monitor traffic in cities and interurban roads.'
+    },
+    {
+        company: 'KMD Group',
+        name: 'Data Context Platform',
+        img: 'https://www.fiware.org/wp-content/uploads/a612ba396d0863cd1c1078530837762d.png',
+        fiwareMember: true,
+        fiwareIhub: false,
+        companyLink: '../product-details/?category=powered&id=kmdgroup-datacontextplatform',
+        domain: ['Air Quality', 'Cities', 'Construction and Building', 'Government', 'Sustainability'],
+        type: 'Solution',
+        technology: ['Big Data', 'Data Handling', 'Data Spaces', 'Digital Twins', 'Internet of Things'],
+        year: 2023,
+        content:
+            'KMD Context Management Platform enables customers to contextrualize data across all their IoT sensors, system data, and 3rd party sources in Smart Data Models, enabling them to link data in new constellations and easily build custom applications.  The platform is an ideal fit for municipalities'
     }
 ];
 

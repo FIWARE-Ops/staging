@@ -296,5 +296,9 @@
 			<loc>https://www.fiware.org/fiware-ready/libelium/air-quality-index-calculation.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
+		<url>
+			<loc>https://www.fiware.org/fiware-ready/streamingo/video-data-anonymization.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
 </urlset>
 
