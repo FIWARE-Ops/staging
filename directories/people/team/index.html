@@ -254,18 +254,56 @@ unicode-range: U+F004-F005,U+F007,U+F017,U+F022,U+F024,U+F02E,U+F03E,U+F044,U+F0
 <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tingle/0.8.4/tingle.min.js"></script>
 <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
-<script src="https://www.w3schools.com/lib/w3.js"></script>
+<!--script src="https://www.w3schools.com/lib/w3.js"></script-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/5.0.0/imagesloaded.pkgd.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.waitforimages/1.5.0/jquery.waitforimages.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.js"></script>
 
 <script>
+
+function fileFetch(file, element) {
+	return new Promise(function (resolve, reject) {
+	  fetch(file, {
+  			mode: 'no-cors',
+  			method: 'GET'})
+	    .then((response) => {
+	      element.removeAttribute("w3-include-html");
+	   	  return (response.ok) ? response.text() : "";
+        })
+        .then((data) => {
+          //const x = $(element);
+          //x.html(`${data}`);
+		  $(`#${element.id}`).html(`${data}`);
+	      return resolve();
+	    })
+	    .catch((err) => {
+       		resolve();
+        });
+	});
+}
+
+async function includeHTML(cb) {
+  const z = document.getElementsByTagName("*");
+  const promises = [];
+  for (let i = 0; i < z.length; i++) {
+    const element = z[i];
+    const file = element.getAttribute("w3-include-html");
+    if (element.id && file) {
+      promises.push(fileFetch(file, element))
+    }
+  }
+  await Promise.allSettled(promises)
+  if (cb) cb();
+};
+
+
+
 document.addEventListener("DOMContentLoaded", () => {
     function myCallback() {
         const event = new Event("html-included");
         document.dispatchEvent(event);
     }
-    w3.includeHTML(myCallback);
+    includeHTML(myCallback);
 });
 </script>
 
@@ -1103,8 +1141,7 @@ z-index: 99999;
 	scr.src = "./pageData.js" + "?ts=" + Math.round(new Date().getTime()/3600000);
 	document.getElementsByTagName("head")[0].appendChild(scr);
 </script>
-<script src="https://www.fiware.org/wp-content/directories/people/app_people.js"></script>
-
+<script src="../../people/app_people.js"></script>
 <div class="grid" id="app" w3-include-html="./people.html">
   <div class="grid-sizer"></div>
   <div class="gutter-sizer"></div>
@@ -1142,7 +1179,7 @@ z-index: 99999;
 				
 				
 				
-				<div class="et_pb_code_inner"><script src="https://www.w3schools.com/lib/w3.js"></script>
+				<div class="et_pb_code_inner"><!--script src="https://www.w3schools.com/lib/w3.js"></script-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tingle/0.8.4/tingle.min.js"></script>
 <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script></div>
