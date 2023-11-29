@@ -400,5 +400,9 @@
 			<loc>https://www.fiware.org/powered-by-fiware/anteral/urad-smart-traffic-compact.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
+		<url>
+			<loc>https://www.fiware.org/powered-by-fiware/kmd-group/data-context-platform.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
 </urlset>
 
