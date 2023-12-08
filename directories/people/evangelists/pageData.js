@@ -15,8 +15,7 @@ var companies = [
         'EPPO',
         'Faubourg Numérique',
         'FIWARE',
-        'FiWare Digital Transformation Lab at the University of Córdoba (Spain)
-',
+        'FIWARE Digital Transformation Lab at the University of Córdoba',
         'FIWARE Foundation',
         'FIWARE Space',
         'FundingBox',
@@ -133,10 +132,8 @@ var companies = [
     { name: "Chandra Challagonda", img: "https://www.fiware.org/wp-content/directories/people/images/200px/chandra-challagonda.jpg", position: "Solution Architect", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
     content: "Chandra Challagonda (m) is Senior Architect at FIWARE Foundation in Germany. Chandra holds a Masters in Software Engineering degree from 1999 - 2002. Chandra comes with nearly 25 years of experience in software development, integration projects and software product management. He worked for Ericsson and Nokia in various technical and non-technical roles in Network infrastructure and smartphones for 15 years. Chandra has been an active member of the FIWARE community since 2015 and joined FIWARE Foundation in 2019. In FIWARE Foundation, Chandra is the platform architect for SmartMaaS and IMPRESS projects funded by the German Federal government. Before joining FIWARE Foundation, he was part of the team which created a digital twin for Helsinki Transportation.", linkedin: "https://linkedin.com/in/challagonda", twitter: "https://twitter.com/challagonda", domain: "", location: "",
     flag: "", },
-    { name: "Josė", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jose-checa-claudel.jpg", position: "Coordinator of FiWare Digital Transformation Lab at the University of Córdoba
-", company: "FiWare Digital Transformation Lab at the University of Córdoba (Spain)
-", "company-link": "https://www.uco.es/atdfiware/",
-    content: "I have been disseminating FIWARE technology within the university community, local administrations and research projects for more than four years. I believe that we are one of the Universities that has the most movement disseminating this technology in Spain, especially in the agri-food environment and smart cities. More information in the attached document.", linkedin: "https://www.linkedin.com/in/jcheca", twitter: "https://twitter.com/abbasben", domain: "", location: "",
+    { name: "Josė", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jose-checa-claudel.jpg", position: "Coordinator of FiWare Digital Transformation Lab at the University of Córdoba", company: "FIWARE Digital Transformation Lab at the University of Córdoba", "company-link": "https://www.uco.es/atdfiware/",
+    content: "I have been disseminating FIWARE technology within the university community, local administrations and research projects for more than four years. I believe that we are one of the Universities that has the most movement disseminating this technology in Spain, especially in the agri-food environment and smart cities.", linkedin: "https://www.linkedin.com/in/jcheca", twitter: "https://twitter.com/abbasben", domain: "", location: "",
     flag: "", },
     { name: "Andrea Chiancone", img: "https://www.fiware.org/wp-content/directories/people/images/200px/andrea-chiancone.jpg", position: "Product Manager", company: "Agricolus", "company-link": "https://www.agricolus.com/",
     content: "", linkedin: "https://www.linkedin.com/in/andrea-chiancone-a3495a5/", twitter: "https://twitter.com/Antonio_Jara", domain: "", location: "",
