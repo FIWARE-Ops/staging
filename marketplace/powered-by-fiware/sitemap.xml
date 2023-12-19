@@ -404,5 +404,9 @@
 			<loc>https://www.fiware.org/powered-by-fiware/kmd-group/data-context-platform.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
+		<url>
+			<loc>https://www.fiware.org/powered-by-fiware/sociedad-iberica-de-construcciones-electricas/kaliope-pwf-platform.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
 </urlset>
 

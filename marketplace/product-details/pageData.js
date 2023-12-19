@@ -4633,6 +4633,37 @@ var pageData = {
             hash: 'kmdgroup-datacontextplatform',
             cat: 'powered',
             social: '/powered-by-fiware/kmd-group/data-context-platform.html'
+        },
+        'sociedadibéricadeconstruccioneseléctricas-kaliopepwfplatform': {
+            category: 'Powered by FIWARE',
+            organisationName: 'Sociedad Ibérica de Construcciones Eléctricas',
+            productName: 'Kaliope pwF Platform',
+            organisationWebsite: 'https://www.sice.com',
+            organisationEmail: 'mailto:tpaadin@sice.com',
+            linkedIn: '',
+            twitter: '',
+            productWebsite: 'https://www.sice.com/',
+            excerpt:
+                'Kaliope pwF Platform is conceptualized as a turnkey solution that includes all the SW elements for collecting, transforming and loading “big data” from IoT devices and city services. It incorporates a Data Analytics layer with a set of dashboards for supporting and facilitating decision-making.',
+            yearOfValidation: null,
+            description:
+                '<p>The core of “<strong>Kaliope pWF</strong>” Smart City Platform is based on Free Open Source Software top frameworks (mostly FIWARE, Apache Hadoop and Kubernetes) that support the most commonly used ICT/IoT/Scada Protocols and Standards. Kaliope pWF” Smart City Platform is conceptualized as a turnkey solution. It follows a modular architecture that can implement one or several components depending on customer needs and requirements. Thus, Kaliope pwF City Platform provides the following functionalities, which are described in summary form: </p> <ul> <li><p>Ability to connect to heterogeneous data sources and applications that support the protocols, standards and technologies widely used in the industry. </p></li> <li><p>Powerful Extraction, Transformation and Loading (ETL) procedures that allow the control and automation in the processes of extraction, transformation and storage of the data that constitutes the base of the "Data ingestion" process within the “Big data” life cycle. </p></li> <li><p>Tools and facilities that guarantee straightforward data reusability by the different vertical applications or connected services reducing the cost of an extension. This is achieved with the integration of contextual information, in particular spatial-temporal contextual information. </p></li> <li><p>Real-time data management able to process and monitor in an operational dashboard the variables that frequently change, systems performance and alert notifications. </p></li> <li><p>Implement "cooperative" strategies to operate the city\'s infrastructure and to analyse how the City operates / could operate in the future. </p></li> <li><p>Support the development of innovative Smart City solutions by third parties and/or citizens through the publication of Open Data or Open Web APIs.</p></li> </ul>',
+            challenge:
+                '<p>Cities and each of their vertical systems already have large volumes of data, however, much of it is traditionally managed in "silos" serving specific needs of each of these vertical services. The Kaliope pwF City Platform seeks to greatly improve the way in which this valuable resource is used. This is accomplished by gathering the different data sets, analysing them and enriching them with complementary data-generating knowledge and valuable information that can be used by each of the municipal services that manage the city.</p> <p>Therefore, the Kaliope Smart City Platform constitutes the integrating core of a City Digital Transformation Project, whose objective are twofold. On one side it will make available to the City Council a single and integrated vision of the city’s status which includes managing services and facilitating decision-making. Secondly, it will also allow the transformation of the services from a holistic point of view with the application of Open Data policies that favour the establishment of open and participative innovation processes, as well as greater transparency in management</p>',
+            references:
+                '<ul> <li>Public Administration</li> <li>Municipalities</li> <li>Mobility Managers</li> <li>Energy Utilities</li> <li>Smart Water Managers</li> <li>LEZ Managers</li> </ul>',
+            awards: '<p>-</p>',
+            technologies: ['Artificial Intelligence', 'Big Data', 'Data Analytics', 'Internet of Things', 'Open Data'],
+            domains: ['Cities', 'Tourism', 'Transport'],
+            docs: [],
+            videos: [['Startdust Video', 'https://www.sice.com/stardust']],
+            materials: [],
+            logo: 'https://www.fiware.org/wp-content/uploads/9cd44de27428f814a25201b91a96af4b.png',
+            featuredImage: 'https://www.fiware.org/wp-content/uploads/6482a64b530b975cb9124c67d9366f03.png',
+            furtherImages: '',
+            hash: 'sociedadibéricadeconstruccioneseléctricas-kaliopepwfplatform',
+            cat: 'powered',
+            social: '/powered-by-fiware/sociedad-iberica-de-construcciones-electricas/kaliope-pwf-platform.html'
         }
     },
     ready: {
