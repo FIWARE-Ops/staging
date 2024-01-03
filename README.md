@@ -1,4 +1,7 @@
 # FIWARE Marketplace Product Generator
+
+<img src="https://www.fiware.org/style/imgs/Marketplace/FIWAREMarketplace_Visual.svg" align="center" />
+
 FIWARE Marketplace Data
 
 1. Download the Approved Products as a CSV file.
