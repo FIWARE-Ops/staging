@@ -7,7 +7,7 @@ FIWARE Marketplace Data
 4. To generate files run:
 
 ```console
-npm start && npm run prettier
+npm run marketplace
 ```
 
 5. Upload generated `pageData.js` for each category on fiware.org to WP Content > Marketplace > Category folder (e.g. powered-by-fiware)
