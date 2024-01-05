@@ -421,20 +421,6 @@ var pageData = [
         year: 2017,
         content:
             'Ubiwhere’s offer includes systems for Smart Parking and Traffic Management, Smart Waste Management, Smart Environmental Monitoring, Smart Vending and Smart Card, along with its City Control Center, which allows for centralised management of the city’s ecosystem.'
-    },
-    {
-        company: 'Roberto Cerveró Ciudad',
-        name: 'ExControl FIWARE integration services',
-        img: 'https://www.fiware.org/wp-content/uploads/9dc8ca6fdde7782c00efd503503bc5d5.png',
-        fiwareMember: false,
-        fiwareIhub: false,
-        companyLink: '../product-details/?category=services&id=robertocerveróciudad-excontrolfiwareintegrationservices',
-        domain: ['Agriculture', 'Cities', 'Electronics', 'Industry', 'Lighting'],
-        type: 'Consultancy & Integration',
-        technology: ['Artificial Intelligence', 'Big Data', 'Internet of Things', 'Robotics', 'Sensory Systems'],
-        year: 2023,
-        content:
-            'Automation company that develops custom solutions using new technologies, such as IoT, AI, Artificial vision, etc. We offer solutions both in the domestic and industrial fields, paying special attention to making processes more efficient.'
     }
 ];
 

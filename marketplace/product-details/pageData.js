@@ -4551,119 +4551,6 @@ var pageData = {
             hash: 'dihfaubourgnumérique-somwarespace',
             cat: 'powered',
             social: '/powered-by-fiware/dih-faubourg-numerique/somware-space.html'
-        },
-        'anteral-uradsmarttrafficcompact': {
-            category: 'Powered by FIWARE',
-            organisationName: 'Anteral',
-            productName: 'uRAD Smart Traffic Compact',
-            organisationWebsite: 'https://urad.es/',
-            organisationEmail: 'mailto:contact@anteral.com',
-            linkedIn: 'https://www.linkedin.com/company/anteral/mycompany/',
-            twitter: '',
-            productWebsite: 'https://urad.es/en/soluciones-cerradas/',
-            excerpt:
-                'Solution based on the uRAD Smart Traffic device to monitor traffic in cities and interurban roads.',
-            yearOfValidation: 2023,
-            description:
-                '<p>Based on mmwave radar technology, <strong>uRAD Smart Traffic Compact</strong> monitors vehicles on urban and interurban roads with dense or light traffic, reaching to monitor up to 6 vehicle lanes. For each vehicle, the device measures timestamp, velocity, direction, lane and classifies it between types of vehicle according to its length.</p> <p>The device detects the vehicles only with radar technology, without a video camera, this way is less intrusive, less computing capacity is needed, and super accurate in measuring the velocity. Moreover, it has low consumption and works under all weather conditions without affecting the performance.</p> <p>By centralizing data from multiple devices on the FIWARE platform, traffic in a city or intercity environment can be monitored in a comprehensive manner.</p>',
-            challenge:
-                '<p>Intelligent Transport Systems play a crucial role in shaping the future of transportation, with the potential to improve safety, efficiency, and sustainability across various modes of transportation. By leveraging advanced technologies and data-driven solutions, ITS aims to enhance the overall performance and user experience of transportation systems.</p> <p>In the changing world we live in a data-driven traffic monitoring solution leverages advanced data processing, analytics, and visualization techniques to provide accurate and actionable insights for traffic management. By utilizing real-time and historical data, this type of solution enables proactive decision-making, improves traffic flow, and enhances overall transportation efficiency.</p>',
-            references:
-                '<ul> <li>Municipality of Pamplona (Public body – Spain)</li> <li>Municipality of Leuwarden (Public body – Netherlands)</li> </ul>',
-            awards: '',
-            technologies: ['Internet of Things', 'Mobility and Location'],
-            domains: ['Cities', 'Mobility', 'Transport'],
-            docs: [['Functionalities', 'https://urad.es/en/soluciones-cerradas/urad-smart-traffic/']],
-            videos: [
-                [
-                    'YouTube- Radar for traffic monitoring',
-                    'https://www.youtube.com/watch?v=PJj2ZAx_gio&ab_channel=Anteral'
-                ]
-            ],
-            materials: [
-                [
-                    'Ayuntamiento de Pamplona - News',
-                    'https://www.pamplona.es/actualidad/noticias/los-ocho-aforadores-de-bicicletas-instalados-en-la-ciudad-registran-27-millones'
-                ]
-            ],
-            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Anteral.svg',
-            featuredImage: 'https://www.fiware.org/wp-content/uploads/e0f1856c6089ad1b43d9dc260db8c230-scaled.jpg',
-            furtherImages: '',
-            hash: 'anteral-uradsmarttrafficcompact',
-            cat: 'powered',
-            social: '/powered-by-fiware/anteral/urad-smart-traffic-compact.html'
-        },
-        'kmdgroup-datacontextplatform': {
-            category: 'Powered by FIWARE',
-            organisationName: 'KMD Group',
-            productName: 'Data Context Platform',
-            organisationWebsite: 'https://www.kmd.net/en',
-            organisationEmail: 'mailto:tif@kmd.dk',
-            linkedIn: 'https://www.linkedin.com/company/kmd/',
-            twitter: '',
-            productWebsite:
-                'https://www.kmd.net/en/solutions-and-services/technology-and-innovation/kmd-iot-context-management-platform',
-            excerpt:
-                'KMD Context Management Platform enables customers to contextrualize data across all their IoT sensors, system data, and 3rd party sources in Smart Data Models, enabling them to link data in new constellations and easily build custom applications.\n\nThe platform is an ideal fit for municipalities',
-            yearOfValidation: 2023,
-            description:
-                '<p><strong>Increase the value of your data</strong></p> <p>Our platform helps you create context for your data across IoT, data warehouses, data lakes, and BI databases. The data you already have provides context in our platform. It delivers data into standardized data models managed in the platform, enabling the services consuming the data to translate them into real value.</p>',
-            challenge:
-                '<p><strong>Reclaim control of your data</strong> </p> <p>Whether you have just started a few IoT projects or already have an active IoT strategy, it will be valuable to consolidate data in one platform. You gain control and scalability because your data sources become standardized into models through which your services and applications can utilize data across your data sources and IoT projects</p>',
-            references:
-                '<p>Customer case: <strong>City of Aarhus</strong></p> <p>Aarhus is the second-largest in Denmark and is a driving force in the GovTech Midtjylland technology community that encompasses 16 municipalities.</p> <p>Its Smart City Strategy focuses on using technology and innovation to improve green transition, sustainability, mobility, and quality of life for its residents.</p> <p>The strategy includes initiatives such as smart mobility solutions, energy-efficient buildings, and digital solutions for citizen engagement.</p> <p>Aarhus leverages the KMD Data Context Platform based on the NEC NGSI-LD Scorpio Broker to strategically approach municipal operations. This platform enables the municipality to consolidate scattered IoT projects, by breaking down silos and collecting and storing data across projects for immediate or future value creation.</p> <p>Customer case: <strong>DOLL Living Lab</strong></p> <p>DOLL is a unique living lab where private and public actors can test, showcase, and be inspired by cutting-edge technology in a “one-stop shop” . At DOLL you can find the latest Smart City technologies, intelligent traffic systems, and outdoor lighting solutions.</p> <p>DOLL utilizes the KMD Data Context Platform to improve urban environments by compiling sensor data from street lighting, traffic patterns, noise, air pollution, and public weather data. The platform enables DOLL to create a digital twin, fostering more complex use cases across data types, and allowing stakeholders to explore IoT-based applications.</p>',
-            awards: '<p><a href="https://nordiciot.dk/iot-award-2023/indstil-kandidat-2023/" title="Anual IoT Award">Anual IoT Award</a></p>',
-            technologies: ['Big Data', 'Data Handling', 'Data Spaces', 'Digital Twins', 'Internet of Things'],
-            domains: ['Air Quality', 'Cities', 'Construction and Building', 'Government', 'Sustainability'],
-            docs: [],
-            videos: [],
-            materials: [
-                [
-                    'Smart City Expo World Congress 2023',
-                    'https://www.linkedin.com/posts/doll-living-lab_the-doll-team-are-present-at-this-years-activity-7127983817956421632-FDKL/?utm_source=share&utm_medium=member_desktop'
-                ],
-                [
-                    'DOLL Collaboration',
-                    'https://www.linkedin.com/posts/doll-living-lab_kmd-iot-context-management-platform-read-activity-7077956228072497152-o5Zl/?utm_source=share&utm_medium=member_desktop'
-                ]
-            ],
-            logo: 'https://www.fiware.org/wp-content/uploads/a612ba396d0863cd1c1078530837762d.png',
-            featuredImage: 'https://www.fiware.org/wp-content/uploads/2819b0439a5c476c23812821d2f3b2ac.png',
-            furtherImages: '',
-            hash: 'kmdgroup-datacontextplatform',
-            cat: 'powered',
-            social: '/powered-by-fiware/kmd-group/data-context-platform.html'
-        },
-        'sociedadibéricadeconstruccioneseléctricas-kaliopepwfplatform': {
-            category: 'Powered by FIWARE',
-            organisationName: 'Sociedad Ibérica de Construcciones Eléctricas',
-            productName: 'Kaliope pwF Platform',
-            organisationWebsite: 'https://www.sice.com',
-            organisationEmail: 'mailto:tpaadin@sice.com',
-            linkedIn: '',
-            twitter: '',
-            productWebsite: 'https://www.sice.com/',
-            excerpt:
-                'Kaliope pwF Platform is conceptualized as a turnkey solution that includes all the SW elements for collecting, transforming and loading “big data” from IoT devices and city services. It incorporates a Data Analytics layer with a set of dashboards for supporting and facilitating decision-making.',
-            yearOfValidation: null,
-            description:
-                '<p>The core of “<strong>Kaliope pWF</strong>” Smart City Platform is based on Free Open Source Software top frameworks (mostly FIWARE, Apache Hadoop and Kubernetes) that support the most commonly used ICT/IoT/Scada Protocols and Standards. Kaliope pWF” Smart City Platform is conceptualized as a turnkey solution. It follows a modular architecture that can implement one or several components depending on customer needs and requirements. Thus, Kaliope pwF City Platform provides the following functionalities, which are described in summary form: </p> <ul> <li><p>Ability to connect to heterogeneous data sources and applications that support the protocols, standards and technologies widely used in the industry. </p></li> <li><p>Powerful Extraction, Transformation and Loading (ETL) procedures that allow the control and automation in the processes of extraction, transformation and storage of the data that constitutes the base of the "Data ingestion" process within the “Big data” life cycle. </p></li> <li><p>Tools and facilities that guarantee straightforward data reusability by the different vertical applications or connected services reducing the cost of an extension. This is achieved with the integration of contextual information, in particular spatial-temporal contextual information. </p></li> <li><p>Real-time data management able to process and monitor in an operational dashboard the variables that frequently change, systems performance and alert notifications. </p></li> <li><p>Implement "cooperative" strategies to operate the city\'s infrastructure and to analyse how the City operates / could operate in the future. </p></li> <li><p>Support the development of innovative Smart City solutions by third parties and/or citizens through the publication of Open Data or Open Web APIs.</p></li> </ul>',
-            challenge:
-                '<p>Cities and each of their vertical systems already have large volumes of data, however, much of it is traditionally managed in "silos" serving specific needs of each of these vertical services. The Kaliope pwF City Platform seeks to greatly improve the way in which this valuable resource is used. This is accomplished by gathering the different data sets, analysing them and enriching them with complementary data-generating knowledge and valuable information that can be used by each of the municipal services that manage the city.</p> <p>Therefore, the Kaliope Smart City Platform constitutes the integrating core of a City Digital Transformation Project, whose objective are twofold. On one side it will make available to the City Council a single and integrated vision of the city’s status which includes managing services and facilitating decision-making. Secondly, it will also allow the transformation of the services from a holistic point of view with the application of Open Data policies that favour the establishment of open and participative innovation processes, as well as greater transparency in management</p>',
-            references:
-                '<ul> <li>Public Administration</li> <li>Municipalities</li> <li>Mobility Managers</li> <li>Energy Utilities</li> <li>Smart Water Managers</li> <li>LEZ Managers</li> </ul>',
-            awards: '<p>-</p>',
-            technologies: ['Artificial Intelligence', 'Big Data', 'Data Analytics', 'Internet of Things', 'Open Data'],
-            domains: ['Cities', 'Tourism', 'Transport'],
-            docs: [],
-            videos: [['Startdust Video', 'https://www.sice.com/stardust']],
-            materials: [],
-            logo: 'https://www.fiware.org/wp-content/uploads/9cd44de27428f814a25201b91a96af4b.png',
-            featuredImage: 'https://www.fiware.org/wp-content/uploads/6482a64b530b975cb9124c67d9366f03.png',
-            furtherImages: '',
-            hash: 'sociedadibéricadeconstruccioneseléctricas-kaliopepwfplatform',
-            cat: 'powered',
-            social: '/powered-by-fiware/sociedad-iberica-de-construcciones-electricas/kaliope-pwf-platform.html'
         }
     },
     ready: {
@@ -7650,7 +7537,7 @@ var pageData = {
                     category: 'FIWARE-Ready',
                     featuredImage: 'https://www.fiware.org/wp-content/uploads/1c63fe8805471c3b24f0b614cd1b44f4.png',
                     excerpt:
-                        'Calculates European air quality index for IoT measurements and model forecasts, allowing citizens and public authorities to easily standardise the air quality status in a location and timespan.',
+                        'Calculates European air quality index for IoT measurements and model forecasts, allowing citizens and public authorities to easily and standardise the air quality status in a location and timespan.',
                     productName: 'Air Quality Index Calculation',
                     companyLink: './?category=ready&id=libelium-airqualityindexcalculation'
                 }
@@ -7726,7 +7613,7 @@ var pageData = {
                     category: 'FIWARE-Ready',
                     featuredImage: 'https://www.fiware.org/wp-content/uploads/1c63fe8805471c3b24f0b614cd1b44f4.png',
                     excerpt:
-                        'Calculates European air quality index for IoT measurements and model forecasts, allowing citizens and public authorities to easily standardise the air quality status in a location and timespan.',
+                        'Calculates European air quality index for IoT measurements and model forecasts, allowing citizens and public authorities to easily and standardise the air quality status in a location and timespan.',
                     productName: 'Air Quality Index Calculation',
                     companyLink: './?category=ready&id=libelium-airqualityindexcalculation'
                 }
@@ -7799,7 +7686,7 @@ var pageData = {
                     category: 'FIWARE-Ready',
                     featuredImage: 'https://www.fiware.org/wp-content/uploads/1c63fe8805471c3b24f0b614cd1b44f4.png',
                     excerpt:
-                        'Calculates European air quality index for IoT measurements and model forecasts, allowing citizens and public authorities to easily standardise the air quality status in a location and timespan.',
+                        'Calculates European air quality index for IoT measurements and model forecasts, allowing citizens and public authorities to easily and standardise the air quality status in a location and timespan.',
                     productName: 'Air Quality Index Calculation',
                     companyLink: './?category=ready&id=libelium-airqualityindexcalculation'
                 }
@@ -9460,7 +9347,7 @@ var pageData = {
                     category: 'FIWARE-Ready',
                     featuredImage: 'https://www.fiware.org/wp-content/uploads/1c63fe8805471c3b24f0b614cd1b44f4.png',
                     excerpt:
-                        'Calculates European air quality index for IoT measurements and model forecasts, allowing citizens and public authorities to easily standardise the air quality status in a location and timespan.',
+                        'Calculates European air quality index for IoT measurements and model forecasts, allowing citizens and public authorities to easily and standardise the air quality status in a location and timespan.',
                     productName: 'Air Quality Index Calculation',
                     companyLink: './?category=ready&id=libelium-airqualityindexcalculation'
                 }
@@ -9516,7 +9403,7 @@ var pageData = {
             twitter: '',
             productWebsite: 'https://github.com/bcouraud/traffic_timeseries_forecasting_NGSILD/tree/main',
             excerpt:
-                'Traffic intensity forecasting service using historical data to forecast the traffic on the next day. This can be used optimize traffic management, reduce traffic congestion and improve user experience',
+                'Traffic intensity forecasting service using historical data to forecast the traffic on the nex day. This can be used optimize traffic management, reduce traffic congestion and improve user experience',
             yearOfValidation: 2023,
             description:
                 "<p><strong>The traffic forecasting service</strong>  is designed to assist cities' systems in effectively managing their traffic and congestion and enhancing the overall user experience. By leveraging historical data and considering various factors such as the day of the week, and past traffic intensity patterns, the model aims to estimate the future traffic intensity at a specific location and day.  The service employs standard AI algorithms to collect and process data, ensuring accurate predictions. These algorithms analyze the historical traffic data, identifying patterns and trends that contribute to traffic fluctuations. </p> <p>By understanding these patterns, the model can generate reliable forecasts of traffic, empowering cities and citizens to make informed decisions regarding fleet distribution and allocation.  The traffic forecasting service offers a valuable solution for traffic management that can enhance user satisfaction.</p>",
@@ -9560,7 +9447,7 @@ var pageData = {
                 'Calculates traffic emissions for IoT measurements and model forecasts, allowing citizens and public authorities to easily understand the emissions amount in a location and timespan.',
             yearOfValidation: 2023,
             description:
-                "<p>GreenMov <strong>Traffic Environmental Impact Calculation</strong> service empowers citizens and public authorities with real-time and forecasted insights into different locations' emissions. As concerns about air pollution and its impact on health rise, having access to accurate and up-to-date emissions readings is crucial for making informed decisions. </p> <p>Calculate Traffic Environmental Impact Calculation, promote intelligent mobility, and take sustainable actions by staying informed about traffic emissions.. In concrete, it provides the following benefits to involved stakeholders: i) real-time emissions information, ii) forecasted emissions information, iii) traffic management, iv) outdoor activities planning, iv) mobility decisions and v) environmental awareness.</p>",
+                "<p>GreenMov <strong>Traffic Environmental Impact Calculation</strong> service empowers citizens and public authorities with real-time and forecasted insights into different locations' emissions. As concerns about air pollution and its impact on health rise, having access to accurate and up-to-date emissions readings is crucial for making informed decisions. </p> <p>Traffic Environmental Impact Calculation intelligent mobility and sustainable actions by staying informed about traffic emissions. In concrete, it provides the following benefits to involved stakeholders: i) real-time emissions information, ii) forecasted emissions information, iii) traffic management, iv) outdoor activities planning, iv) mobility decisions and v) environmental awareness.</p>",
             challenge:
                 '<p>One of the key components in smart cities and the decission making process is emissions monitoring, with special focus on traffic emissions, which provides valuable insights to citizens and policy makers to take decisions against climate change.  However, emissions information is quite complex and difficult to process. By combining with other greenMov services, it is possible to approximate traffic emissions and related impact easily and understandably, facing the complexity of the field.  In addition, another challenge is ensuring emissions information for citizens so they can make intelligent decisions regarding mobility or know which areas are highly polluted or will be highly polluted, allowing citizens to select cleaner paths.</p>',
             references:
@@ -9612,7 +9499,7 @@ var pageData = {
                     category: 'FIWARE-Ready',
                     featuredImage: 'https://www.fiware.org/wp-content/uploads/1c63fe8805471c3b24f0b614cd1b44f4.png',
                     excerpt:
-                        'Calculates European air quality index for IoT measurements and model forecasts, allowing citizens and public authorities to easily standardise the air quality status in a location and timespan.',
+                        'Calculates European air quality index for IoT measurements and model forecasts, allowing citizens and public authorities to easily and standardise the air quality status in a location and timespan.',
                     productName: 'Air Quality Index Calculation',
                     companyLink: './?category=ready&id=libelium-airqualityindexcalculation'
                 }
@@ -9631,7 +9518,7 @@ var pageData = {
             twitter: '',
             productWebsite: 'https://www.libelium.com',
             excerpt:
-                'Calculates European air quality index for IoT measurements and model forecasts, allowing citizens and public authorities to easily standardise the air quality status in a location and timespan.',
+                'Calculates European air quality index for IoT measurements and model forecasts, allowing citizens and public authorities to easily and standardise the air quality status in a location and timespan.',
             yearOfValidation: 2023,
             description:
                 "<p><strong>GreenMov Air Quality Index (AQI) Calculator</strong> service empowers citizens and public authorities with real-time and forecasted insights into your location's air quality. As concerns about air pollution and its impact on health rise, having access to accurate and up-to-date AQI readings is crucial for making informed decisions. It classifies a measurement or forecast into one of the following categories:  i) good, ii) fair, iii) moderate, iv) poor or v) extremely poor.</p> <p>AQI Calculator service prioritizes citizens' health, safety, and quality of life by staying informed about the air they breathe. In concrete, it provides the following benefits to involved stakeholders: i) real-time AQI information, ii) forecasted AQI information, iii) health awareness, iv) outdoor activities planning, iv) mobility decisions and v) environmental awareness</p>",
@@ -9694,41 +9581,6 @@ var pageData = {
             hash: 'libelium-airqualityindexcalculation',
             cat: 'ready',
             social: '/fiware-ready/libelium/air-quality-index-calculation.html'
-        },
-        'streamingo-videodataanonymization': {
-            category: 'FIWARE-Ready',
-            organisationName: 'Streamingo',
-            productName: 'Video data anonymization',
-            organisationWebsite: 'https://streamingo.ai',
-            organisationEmail: 'mailto:info@streamingo.ai',
-            linkedIn: 'https://www.linkedin.com/company/streamingo-ai/?viewAsMember=true',
-            twitter: '',
-            productWebsite: 'https://anonymize.streamingo.ai',
-            excerpt:
-                "Protecting identity in video data is very important for GDPR compliance. Streamingo has developed a solution to ensure speedy anonymization of audio and faces inside a video. It's a fast, accurate and affordable service which can be accessed through REST API.",
-            yearOfValidation: 2023,
-            description:
-                "<p><strong>Streamingo</strong>'s data anonymization service is available as REST APIs and can be integrated into any IOT or Software product. It enables data anonymization in video data, thereby ensuring GDPR compliance.</p>",
-            challenge:
-                '<p>Incorporating data anonymization into Computer vision pipelines is a must. The cost of a data anonymization solution is prohibitive today. Streamingo is a Video activity recognition deep learning company working with the largest CPG companies in USA and Europe. We have been able to make video-based studies of consumer behaviour a huge success, because of our data anonymization capabilities.</p>',
-            references: '<p>Our data anomymization service is already in use by P&amp;G in USA,Europe and Japan.</p>',
-            awards: '<p><a href="https://analyticsindiamag.com/20-hottest-ai-startups-in-india-2022/" title="AI Startups In India 2022">AI Startups In India 2022</a></p>',
-            technologies: [
-                'Advanced or High Performance Computing',
-                'Artificial Intelligence',
-                'Cloud Computing',
-                'Software as a Service'
-            ],
-            domains: ['Consumer Goods / Products', 'Content', 'Healthcare', 'Manufacturing', 'Retail and Wholesale'],
-            docs: [['How it works', 'https://anonymize.streamingo.ai/home']],
-            videos: [],
-            materials: [],
-            logo: 'https://www.fiware.org/wp-content/uploads/57913994550e67c1d9594163abe62b30.png',
-            featuredImage: 'https://www.fiware.org/wp-content/uploads/ac145dd01ec03fe54f84dbd97fd5634c.png',
-            furtherImages: '',
-            hash: 'streamingo-videodataanonymization',
-            cat: 'ready',
-            social: '/fiware-ready/streamingo/video-data-anonymization.html'
         }
     },
     cities: {
@@ -11191,54 +11043,6 @@ var pageData = {
             hash: 'ubiwhere-fiwareubiwhere',
             cat: 'services',
             social: '/support-services/ubiwhere/fiware---ubiwhere.html'
-        },
-        'robertocerveróciudad-excontrolfiwareintegrationservices': {
-            category: 'Services',
-            organisationName: 'Roberto Cerveró Ciudad',
-            productName: 'ExControl FIWARE integration services',
-            organisationWebsite: 'https://excontrol.es/',
-            organisationEmail: 'mailto:info@excontrol.es',
-            linkedIn: 'https://www.linkedin.com/company/88949859/admin/',
-            twitter: '',
-            productWebsite: 'https://excontrol.es/',
-            excerpt:
-                'Automation company that develops custom solutions using new technologies, such as IoT, AI, Artificial vision, etc. We offer solutions both in the domestic and industrial fields, paying special attention to making processes more efficient.',
-            yearOfValidation: 2023,
-            description:
-                '<p>We offer custom solutions for our clients, to whom we offer our experience and knowledge in the field of automation and digital transformation. Implementing custom solutions that fit our clients needs. Our clients receive solutions that help to optimize their production processes to improve efficiency. They improve the quality of the products by standardizing their productions. Customers reduce production costs and optimize energy consumption.</p>',
-            challenge:
-                '<p>We are focused on efficiency and paying special attention to:</p> <ul> <li>Reducing electric consumption in both public and private buildings.</li> <li>Reducing the carbon footprint in the industrial processes.</li> <li>Making processes safer for employes.</li> <li>Creating solutions in order to reduce energy consumption.</li> </ul>',
-            references:
-                '<ul> <li>EA Group Sociedad Cooperativa</li> <li>CEN Solution SL</li> <li>Diputacion de Badajoz</li> <li>Ayuntamiento de Casar de Cáceres</li> <li>Ayuntamiento de Valverde de la Vera</li> </ul>',
-            awards: '<p>2021 Challenge IoT Fiware Space</p>',
-            technologies: ['Artificial Intelligence', 'Big Data', 'Internet of Things', 'Robotics', 'Sensory Systems'],
-            domains: ['Agriculture', 'Cities', 'Electronics', 'Industry', 'Lighting'],
-            docs: [],
-            videos: [
-                [
-                    'Air Quality Monitoring System',
-                    'https://www.youtube.com/watch?v=pxd9Nrol28o&ab_channel=ExControl%2Cautomatizaci%C3%B3nyDomotica'
-                ],
-                [
-                    'Animal Health System',
-                    'https://www.youtube.com/watch?v=BLjxAdkwyCU&ab_channel=ExControl%2Cautomatizaci%C3%B3nyDomotica'
-                ],
-                [
-                    'Home automation for accessibility',
-                    'https://www.youtube.com/watch?v=gchMw8xZJUc&ab_channel=ExControl%2Cautomatizaci%C3%B3nyDomotica'
-                ],
-                [
-                    'IOT ExControl Irrigation Control',
-                    'https://www.youtube.com/watch?v=DQ8LhU9ANzU&ab_channel=ExControl%2Cautomatizaci%C3%B3nyDomotica'
-                ]
-            ],
-            materials: [['FIWARE Space Blog', 'https://fiware.space/excontrol-empresa-ganadora-del-reto-iot-2021/']],
-            logo: 'https://www.fiware.org/wp-content/uploads/9dc8ca6fdde7782c00efd503503bc5d5.png',
-            featuredImage: 'https://www.fiware.org/wp-content/uploads/abc393d8559fdb9dca6fbc34ee1bcf23.jpg',
-            furtherImages: '',
-            hash: 'robertocerveróciudad-excontrolfiwareintegrationservices',
-            cat: 'services',
-            social: '/support-services/roberto-cervero-ciudad/excontrol-fiware-integration-services.html'
         }
     },
     unknown: {
