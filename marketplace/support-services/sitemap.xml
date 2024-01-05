@@ -108,9 +108,5 @@
 			<loc>https://www.fiware.org/support-services/ubiwhere/fiware---ubiwhere.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
-		<url>
-			<loc>https://www.fiware.org/support-services/roberto-cervero-ciudad/excontrol-fiware-integration-services.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
 </urlset>
 
