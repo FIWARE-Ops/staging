@@ -163,6 +163,29 @@ function fillProduct(product) {
   addContacts('#twitter', product.twitter);
 
   document.title = product.category + ' - ' + product.productName;
+  $('meta[name="robots"]').attr('content', 'all');
+  $('meta[name="description"]').attr('content', product.excerpt);
+
+  $('meta[property="og:title"]').attr('content', document.title );
+  $('meta[property="og:description"]').attr('content', product.excerpt);
+  $('meta[property="og:url"]').attr('content', product.social);
+  $('meta[property="og:site_name"]').attr('content', 'FIWARE');
+  $('meta[property="article:publisher"]').attr('content', 'https://es-es.facebook.com/eu.fiware/');
+  $('meta[property="article:section"]').attr('content', 'Marketplace');
+  $('meta[property="og:image"]').attr('content', product.featuredImage);
+  $('meta[property="og:image:secure_url"]').attr('content', product.featuredImage);
+  $('meta[property="og:image:width"]').attr('content',1920);
+  $('meta[property="og:image:height"]').attr('content',1080);
+  $('meta[property="og:image:type"]').attr('content','image/png');
+
+
+  $('meta[name="twitter:card"]').attr('content', 'summary_large_image');
+  $('meta[name="twitter:title"]').attr('content', document.title );
+  $('meta[name="twitter:description"]').attr('content',product.excerpt);
+  $('meta[name="twitter:site"]').attr('content', '@FIWARE');
+  $('meta[name="twitter:creator"]').attr('content','@FIWARE');
+  $('meta[name="twitter:image"]').attr('content', product.featuredImage);
+
   history.pushState({}, null, product.social);
   //console.log(product)
 }
