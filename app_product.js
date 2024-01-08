@@ -168,7 +168,7 @@ function fillProduct(product) {
 
   $('meta[property="og:title"]').attr('content', document.title );
   $('meta[property="og:description"]').attr('content', product.excerpt);
-  $('meta[property="og:url"]').attr('content', product.social);
+  $('meta[property="og:url"]').attr('content', 'https://www.fiware.org/' + product.social);
   $('meta[property="og:site_name"]').attr('content', 'FIWARE');
   $('meta[property="article:publisher"]').attr('content', 'https://es-es.facebook.com/eu.fiware/');
   $('meta[property="article:section"]').attr('content', 'Marketplace');
