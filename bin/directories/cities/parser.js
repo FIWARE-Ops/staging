@@ -108,7 +108,12 @@ function parse(file) {
 
             Template.write(
                 path.join(CITIES_DIR, 'sitemap.html'),
-                path.join(TEMPLATE_PATH, 'sitemap.hbs'),
+                path.join(TEMPLATE_PATH, 'sitemap-html.hbs'),
+                cities
+            );
+            Template.write(
+                path.join(CITIES_DIR, 'sitemap.xml'),
+                path.join(TEMPLATE_PATH, 'sitemap-xml.hbs'),
                 cities
             );
 
