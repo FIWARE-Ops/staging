@@ -1500,6 +1500,48 @@ var pageData = [
         year: 2023,
         content:
             'A piece of the Metaverse fully connected to powered by FIWARE solutions: you can use the somware.space as virtual showroom, as a simulation environment, and even as a digital control room of real assets. You just have to make you solution \\"FIWARE ready\\" !!! Ready for the immersive experience??'
+    },
+    {
+        company: 'Anteral',
+        name: 'uRAD Smart Traffic Compact',
+        img: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_Anteral.svg',
+        fiwareMember: false,
+        fiwareIhub: false,
+        companyLink: '../product-details/?category=powered&id=anteral-uradsmarttrafficcompact',
+        domain: ['Cities', 'Mobility', 'Transport'],
+        type: 'Solution',
+        technology: ['Internet of Things', 'Mobility and Location'],
+        year: 2023,
+        content: 'Solution based on the uRAD Smart Traffic device to monitor traffic in cities and interurban roads.'
+    },
+    {
+        company: 'KMD Group',
+        name: 'Data Context Platform',
+        img: 'https://www.fiware.org/wp-content/uploads/a612ba396d0863cd1c1078530837762d.png',
+        fiwareMember: true,
+        fiwareIhub: false,
+        companyLink: '../product-details/?category=powered&id=kmdgroup-datacontextplatform',
+        domain: ['Air Quality', 'Cities', 'Construction and Building', 'Government', 'Sustainability'],
+        type: 'Solution',
+        technology: ['Big Data', 'Data Handling', 'Data Spaces', 'Digital Twins', 'Internet of Things'],
+        year: 2023,
+        content:
+            'KMD Context Management Platform enables customers to contextrualize data across all their IoT sensors, system data, and 3rd party sources in Smart Data Models, enabling them to link data in new constellations and easily build custom applications.  The platform is an ideal fit for municipalities'
+    },
+    {
+        company: 'Sociedad Ibérica de Construcciones Eléctricas',
+        name: 'Kaliope pwF Platform',
+        img: 'https://www.fiware.org/wp-content/uploads/9cd44de27428f814a25201b91a96af4b.png',
+        fiwareMember: false,
+        fiwareIhub: false,
+        companyLink:
+            '../product-details/?category=powered&id=sociedadibéricadeconstruccioneseléctricas-kaliopepwfplatform',
+        domain: ['Cities', 'Tourism', 'Transport'],
+        type: 'Solution',
+        technology: ['Artificial Intelligence', 'Big Data', 'Data Analytics', 'Internet of Things', 'Open Data'],
+        year: 2023,
+        content:
+            'Kaliope pwF Platform is conceptualized as a turnkey solution that includes all the SW elements for collecting, transforming and loading “big data” from IoT devices and city services. It incorporates a Data Analytics layer with a set of dashboards for supporting and facilitating decision-making.'
     }
 ];
 
