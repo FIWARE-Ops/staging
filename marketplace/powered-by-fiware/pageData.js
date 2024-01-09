@@ -1527,6 +1527,21 @@ var pageData = [
         year: 2023,
         content:
             'KMD Context Management Platform enables customers to contextrualize data across all their IoT sensors, system data, and 3rd party sources in Smart Data Models, enabling them to link data in new constellations and easily build custom applications.  The platform is an ideal fit for municipalities'
+    },
+    {
+        company: 'Sociedad Ibérica de Construcciones Eléctricas',
+        name: 'Kaliope pwF Platform',
+        img: 'https://www.fiware.org/wp-content/uploads/9cd44de27428f814a25201b91a96af4b.png',
+        fiwareMember: false,
+        fiwareIhub: false,
+        companyLink:
+            '../product-details/?category=powered&id=sociedadibéricadeconstruccioneseléctricas-kaliopepwfplatform',
+        domain: ['Cities', 'Tourism', 'Transport'],
+        type: 'Solution',
+        technology: ['Artificial Intelligence', 'Big Data', 'Data Analytics', 'Internet of Things', 'Open Data'],
+        year: 2023,
+        content:
+            'Kaliope pwF Platform is conceptualized as a turnkey solution that includes all the SW elements for collecting, transforming and loading “big data” from IoT devices and city services. It incorporates a Data Analytics layer with a set of dashboards for supporting and facilitating decision-making.'
     }
 ];
 

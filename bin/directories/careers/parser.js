@@ -98,7 +98,12 @@ function parse(file) {
 
             Template.write(
                 path.join(CAREERS_DIR, 'job/sitemap.html'),
-                path.join(TEMPLATE_PATH, 'sitemap.hbs'),
+                path.join(TEMPLATE_PATH, 'sitemap-html.hbs'),
+                jobs
+            );
+            Template.write(
+                path.join(CAREERS_DIR, 'job/sitemap.xml'),
+                path.join(TEMPLATE_PATH, 'sitemap-xml.hbs'),
                 jobs
             );
 

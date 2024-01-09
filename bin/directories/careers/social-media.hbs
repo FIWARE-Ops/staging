@@ -38,7 +38,7 @@
 <!-- Linked Data -->
 <script type='application/ld+json'> 
 {
-  	"@context": "http://schema.org",
+  "@context": "https://schema.org/",
 	"@type": "JobPosting",
 	"datePosted": "{{formatDate postingDate}}",
 	"description": "{{mission}}",
@@ -68,8 +68,7 @@
 			"addressCountry": "DE"
 		}
 	},
-	"url": "https://www.fiware.org/foundation/careers/job?id={{createClass name}}",
-  }
+	"url": "https://www.fiware.org/foundation/careers/job?id={{createClass name}}"
 }
  </script>
   <style>
