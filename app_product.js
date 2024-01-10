@@ -177,7 +177,8 @@ function fillProduct(product) {
   $('meta[property="og:image:width"]').attr('content',1920);
   $('meta[property="og:image:height"]').attr('content',1080);
   $('meta[property="og:image:type"]').attr('content','image/png');
-
+  $('link[rel="canonical"]').attr('href', 'https://www.fiware.org/' + product.social);
+  
 
   $('meta[name="twitter:card"]').attr('content', 'summary_large_image');
   $('meta[name="twitter:title"]').attr('content', document.title );
@@ -218,6 +219,7 @@ function loadProduct() {
   } else {
     $($('.et_pb_section_1').children()).empty();
     $('#related-products').remove();
+    $('meta[name="robots"]').attr('content', 'noindex');
   }
 
   initialiseStyleBackgroundIntersectionObserver();
