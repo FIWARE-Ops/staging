@@ -3808,7 +3808,8 @@ var pageData = {
                 ]
             ],
             logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Telefonica.svg',
-            featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_telefonica_thinking-cities.png',
+            featuredImage:
+                'https://www.telefonica.com/en/wp-content/uploads/sites/5/2022/01/telefonica-tech-iot-transforma-insights.jpg?w=1224&h=673&crop=1',
             furtherImages: '',
             hash: 'telefónica-thinkingcities',
             cat: 'powered',
@@ -4645,7 +4646,7 @@ var pageData = {
             productWebsite: 'https://www.sice.com/',
             excerpt:
                 'Kaliope pwF Platform is conceptualized as a turnkey solution that includes all the SW elements for collecting, transforming and loading “big data” from IoT devices and city services. It incorporates a Data Analytics layer with a set of dashboards for supporting and facilitating decision-making.',
-            yearOfValidation: null,
+            yearOfValidation: 2023,
             description:
                 '<p>The core of “<strong>Kaliope pWF</strong>” Smart City Platform is based on Free Open Source Software top frameworks (mostly FIWARE, Apache Hadoop and Kubernetes) that support the most commonly used ICT/IoT/Scada Protocols and Standards. Kaliope pWF” Smart City Platform is conceptualized as a turnkey solution. It follows a modular architecture that can implement one or several components depending on customer needs and requirements. Thus, Kaliope pwF City Platform provides the following functionalities, which are described in summary form: </p> <ul> <li><p>Ability to connect to heterogeneous data sources and applications that support the protocols, standards and technologies widely used in the industry. </p></li> <li><p>Powerful Extraction, Transformation and Loading (ETL) procedures that allow the control and automation in the processes of extraction, transformation and storage of the data that constitutes the base of the "Data ingestion" process within the “Big data” life cycle. </p></li> <li><p>Tools and facilities that guarantee straightforward data reusability by the different vertical applications or connected services reducing the cost of an extension. This is achieved with the integration of contextual information, in particular spatial-temporal contextual information. </p></li> <li><p>Real-time data management able to process and monitor in an operational dashboard the variables that frequently change, systems performance and alert notifications. </p></li> <li><p>Implement "cooperative" strategies to operate the city\'s infrastructure and to analyse how the City operates / could operate in the future. </p></li> <li><p>Support the development of innovative Smart City solutions by third parties and/or citizens through the publication of Open Data or Open Web APIs.</p></li> </ul>',
             challenge:
@@ -9729,6 +9730,43 @@ var pageData = {
             hash: 'streamingo-videodataanonymization',
             cat: 'ready',
             social: '/fiware-ready/streamingo/video-data-anonymization.html'
+        },
+        'signify-interactcityfiwarebridge': {
+            category: 'FIWARE-Ready',
+            organisationName: 'Signify',
+            productName: 'Interact City Fiware bridge',
+            organisationWebsite: 'https://www.signify.com/global',
+            organisationEmail: 'mailto:stefan.bohrer@signify.com',
+            linkedIn: '',
+            twitter: '',
+            productWebsite: 'https://www.signify.com/global',
+            excerpt:
+                'Interact is a connected LED lighting management\nsystem which helps you improve services, enhance\nsafety, beautify public spaces, encourage civic pride\nand increase energy efficiency. Interact CityFIWARE bridge connects to FIWARE certified platforms using the NGSI v2 protocol.',
+            yearOfValidation: 2023,
+            description:
+                '<p>Interact City FIWARE connects to FIWARE certified platform using the NGSI v2 protocol . Customer running FIWARE certified platforms platforms can link via the Interact City FIWARE bridge to Interact City connected streetlighting infrastructure. The connected LED lighting system and management software enable remote management, monitoring and control of all city lighting, from roads and streets, to sidewalks and crossings, and parks and plazas, all from one single dashboard.</p>',
+            challenge:
+                '<p>Interact City FIWARE bridge is based on NGSI v2 protocol and has been successfully tested with industry leading platforms. Scope is the management of connected streetlighting to enable operators and cities to remotely manage and monitor their streetlighting infrastructure.</p>',
+            references: '',
+            awards: '<p>Certified aginst the follwoing FIWARE certified platforms: 1, Telefonica 2, EVIDEN / ATOS</p>',
+            technologies: [
+                'Cloud Computing',
+                'Data Analytics',
+                'Interaction Technologies',
+                'Internet of Things',
+                'Sensory Systems'
+            ],
+            domains: ['Cities', 'Energy', 'Lighting'],
+            docs: [],
+            videos: [],
+            materials: [],
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_signify.svg',
+            featuredImage:
+                'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_interact.svg',
+            furtherImages: '',
+            hash: 'signify-interactcityfiwarebridge',
+            cat: 'ready',
+            social: '/fiware-ready/signify/interact-city-fiware-bridge.html'
         }
     },
     cities: {
