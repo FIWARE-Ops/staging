@@ -9742,7 +9742,7 @@ var pageData = {
             productWebsite: 'https://www.interact-lighting.com/global',
             excerpt:
                 'Interact is a connected LED lighting management\nsystem which helps you improve services, enhance\nsafety, beautify public spaces, encourage civic pride\nand increase energy efficiency. Interact CityFIWARE bridge connects to FIWARE certified platforms using the NGSI v2 protocol.',
-            yearOfValidation: 2023,
+            yearOfValidation: 2024,
             description:
                 '<p><strong>Interact City FIWARE</strong> connects to FIWARE certified platform using the NGSI v2 protocol . Customer running FIWARE certified platforms platforms can link via the Interact City FIWARE bridge to Interact City connected streetlighting infrastructure.  The connected LED lighting system and management software enable remote management, monitoring and control of all city lighting, from roads and streets, to sidewalks and crossings, and parks and plazas, all from one single dashboard.</p>',
             challenge:
