@@ -9739,16 +9739,16 @@ var pageData = {
             organisationEmail: 'mailto:stefan.bohrer@signify.com',
             linkedIn: '',
             twitter: '',
-            productWebsite: 'https://www.signify.com/global',
+            productWebsite: 'https://www.interact-lighting.com/global',
             excerpt:
                 'Interact is a connected LED lighting management\nsystem which helps you improve services, enhance\nsafety, beautify public spaces, encourage civic pride\nand increase energy efficiency. Interact CityFIWARE bridge connects to FIWARE certified platforms using the NGSI v2 protocol.',
             yearOfValidation: 2023,
             description:
-                '<p>Interact City FIWARE connects to FIWARE certified platform using the NGSI v2 protocol . Customer running FIWARE certified platforms platforms can link via the Interact City FIWARE bridge to Interact City connected streetlighting infrastructure. The connected LED lighting system and management software enable remote management, monitoring and control of all city lighting, from roads and streets, to sidewalks and crossings, and parks and plazas, all from one single dashboard.</p>',
+                '<p><strong>Interact City FIWARE</strong> connects to FIWARE certified platform using the NGSI v2 protocol . Customer running FIWARE certified platforms platforms can link via the Interact City FIWARE bridge to Interact City connected streetlighting infrastructure.  The connected LED lighting system and management software enable remote management, monitoring and control of all city lighting, from roads and streets, to sidewalks and crossings, and parks and plazas, all from one single dashboard.</p>',
             challenge:
-                '<p>Interact City FIWARE bridge is based on NGSI v2 protocol and has been successfully tested with industry leading platforms. Scope is the management of connected streetlighting to enable operators and cities to remotely manage and monitor their streetlighting infrastructure.</p>',
+                '<p><strong>Interact City FIWARE bridge</strong> is based on NGSI v2 protocol and has been successfully tested with industry leading platforms. Scope is the management of connected streetlighting to enable operators and cities to remotely manage and monitor their streetlighting infrastructure.</p>',
             references: '',
-            awards: '<p>Certified aginst the follwoing FIWARE certified platforms: 1, Telefonica 2, EVIDEN / ATOS</p>',
+            awards: '<p>Certified aginst the follwoing FIWARE certified platforms:</p> <ol> <li>Telefonica</li> <li>EVIDEN / ATOS</li> </ol>',
             technologies: [
                 'Cloud Computing',
                 'Data Analytics',
