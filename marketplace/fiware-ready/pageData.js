@@ -1076,6 +1076,26 @@ var pageData = [
         year: 2023,
         content:
             "Protecting identity in video data is very important for GDPR compliance. Streamingo has developed a solution to ensure speedy anonymization of audio and faces inside a video. It's a fast, accurate and affordable service which can be accessed through REST API."
+    },
+    {
+        company: 'Signify',
+        name: 'Interact City Fiware bridge',
+        img: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_signify.svg',
+        fiwareMember: true,
+        fiwareIhub: false,
+        companyLink: '../product-details/?category=ready&id=signify-interactcityfiwarebridge',
+        domain: ['Cities', 'Energy', 'Lighting'],
+        type: 'IoT Device',
+        technology: [
+            'Cloud Computing',
+            'Data Analytics',
+            'Interaction Technologies',
+            'Internet of Things',
+            'Sensory Systems'
+        ],
+        year: 2024,
+        content:
+            'Interact is a connected LED lighting management system which helps you improve services, enhance safety, beautify public spaces, encourage civic pride and increase energy efficiency. Interact CityFIWARE bridge connects to FIWARE certified platforms using the NGSI v2 protocol.'
     }
 ];
 

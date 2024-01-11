@@ -300,5 +300,9 @@
 			<loc>https://www.fiware.org/fiware-ready/streamingo/video-data-anonymization.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
+		<url>
+			<loc>https://www.fiware.org/fiware-ready/signify/interact-city-fiware-bridge.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
 </urlset>
 
