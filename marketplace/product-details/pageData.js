@@ -9778,7 +9778,7 @@ var pageData = {
             twitter: '',
             productWebsite: 'https://www.solumpv.com/helios/',
             excerpt:
-                '**Helios** is a parking and charging solution for scooters and e-bikes. It is 100% sustainable, thanks to our Solar Arena pavement. It is managed through an App, which allows user interaction in real-time, and an online platform for customers to configure, monitor and manage charging stations remotely.',
+                'Helios is a parking and charging solution for scooters and e-bikes. It is 100% sustainable, thanks to our Solar Arena pavement. It is managed through an App, which allows user interaction in real-time, and an online platform for customers to configure, monitor and manage charging stations remotely.',
             yearOfValidation: 2024,
             description:
                 "<p><strong>Solum</strong> stems from the bold vision of harnessing urban spaces to generate renewable energy and deliver it to consumption points. After over two years of R&amp;D, we've developed an unprecedented innovation: solar pavement powered by photovoltaic technology. We manufacture solar parking and charging stations for electric scooters and bikes. Thanks to our patented photovoltaic pavement, we ensure renewable energy and independent installation anywhere in the city. Our internally designed products are efficient and sustainable. Since our debut in 2022, we've made exceptional progress. With over 800 charging points in 11 countries, we've benefited over 1,800 users, saving more than 3 tons of CO2. Our technological focus is on photovoltaic energy generation and IoT intelligence.</p>",
