@@ -304,5 +304,9 @@
 			<loc>https://www.fiware.org/fiware-ready/signify/interact-city-fiware-bridge.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
+		<url>
+			<loc>https://www.fiware.org/fiware-ready/solum/solar-station-helios.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
 </urlset>
 
