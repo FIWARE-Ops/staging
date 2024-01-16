@@ -9791,10 +9791,7 @@ var pageData = {
             domains: ['Cities', 'Energy', 'Mobility', 'Sustainability', 'Transport'],
             docs: [
                 ['Tech Doc', 'https://drive.google.com/file/d/1tncHqFXHnOsg40-Hv6sgxab1JyVAtjqF/view?usp=drive_link'],
-                [
-                    '[Tech Doc 2](Tech Doc "Tech Doc 2")',
-                    'https://drive.google.com/file/d/1tncHqFXHnOsg40-Hv6sgxab1JyVAtjqF/view?usp=drive_link'
-                ],
+                ['Tech Doc 2', 'https://drive.google.com/file/d/1tncHqFXHnOsg40-Hv6sgxab1JyVAtjqF/view?usp=drive_link'],
                 ['Tech Doc 3', 'https://drive.google.com/file/d/1-b7pg90IQliOIlRE38beVlGr2Bshh9Q6/view']
             ],
             videos: [['How to use Solum?', 'https://www.youtube.com/watch?v=hMTewlKgNCM&ab_channel=Solum']],
