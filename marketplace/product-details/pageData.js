@@ -9741,14 +9741,14 @@ var pageData = {
             twitter: '',
             productWebsite: 'https://www.interact-lighting.com/global',
             excerpt:
-                'Interact is a connected LED lighting management\nsystem which helps you improve services, enhance\nsafety, beautify public spaces, encourage civic pride\nand increase energy efficiency. Interact CityFIWARE bridge connects to FIWARE certified platforms using the NGSI v2 protocol.',
+                'Interact for cities FIWARE bridge- Interact is a wireless, connected street light management system. Interact optimizes energy consumption and provides centralized remote management of the connected street lighting network. Monitoring & control for on-grid and solar individual light points as well as group management cabinets ensure flexible light management. Rich asset data ensures ease of deployment and operational excellence. Interact supports data collection for smart city applications using advanced IoT sensing capabilities deployed on streetlights via standardized open interfaces.\n\n \n\nInteract for cities FIWARE bridge connects to FIWARE platforms via NGSI v2/LD.',
             yearOfValidation: 2024,
             description:
-                '<p><strong>Interact City FIWARE</strong> connects to FIWARE certified platform using the NGSI v2 protocol . Customer running FIWARE certified platforms platforms can link via the Interact City FIWARE bridge to Interact City connected streetlighting infrastructure.  The connected LED lighting system and management software enable remote management, monitoring and control of all city lighting, from roads and streets, to sidewalks and crossings, and parks and plazas, all from one single dashboard.</p>',
+                '<p>Interact for cities FIWARE bridge is a smart city solution handling data in both NGSI-v2 and NGSI-LD format.</p> <p>Interact for cities FIWARE bridge acts as a Generic Enabler supporting rich application monitoring and control of connected streetlighting networks:</p> <ul> <li><p>Fault Monitoring</p></li> <li><p>Energy Reporting</p></li> <li><p>Asset Management</p></li> <li><p>Light Control</p></li> </ul> <p>The connected Interact streetlighting management system supports remote management, monitoring, and control of streetlight assets</p>',
             challenge:
-                '<p><strong>Interact City FIWARE bridge</strong> is based on NGSI v2 protocol and has been successfully tested with industry leading platforms. Scope is the management of connected streetlighting to enable operators and cities to remotely manage and monitor their streetlighting infrastructure.</p>',
+                '<p><strong>Interact for cities FIWARE bridge</strong> acts as a Generic Enabler connecting to FIWARE platforms via NGSI v2/LD.</p>',
             references: '',
-            awards: '<p>Certified aginst the follwoing FIWARE certified platforms:</p> <ol> <li>Telefonica</li> <li>EVIDEN / ATOS</li> </ol>',
+            awards: '<p>Interact for cities FIWARE bridge has been integrated with industry leading FIWARE platforms such as <strong>Telefonica</strong> and <strong>Eviden/ATOS.</strong></p>',
             technologies: [
                 'Cloud Computing',
                 'Data Analytics',
