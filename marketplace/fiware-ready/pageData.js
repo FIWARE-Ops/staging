@@ -1095,7 +1095,7 @@ var pageData = [
         ],
         year: 2024,
         content:
-            'Interact is a connected LED lighting management system which helps you improve services, enhance safety, beautify public spaces, encourage civic pride and increase energy efficiency. Interact CityFIWARE bridge connects to FIWARE certified platforms using the NGSI v2 protocol.'
+            'Interact for cities FIWARE bridge- Interact is a wireless, connected street light management system. Interact optimizes energy consumption and provides centralized remote management of the connected street lighting network. Monitoring & control for on-grid and solar individual light points as well as group management cabinets ensure flexible light management. Rich asset data ensures ease of deployment and operational excellence. Interact supports data collection for smart city applications using advanced IoT sensing capabilities deployed on streetlights via standardized open interfaces.'
     }
 ];
 
