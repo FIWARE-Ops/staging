@@ -1095,7 +1095,7 @@ var pageData = [
         ],
         year: 2024,
         content:
-            'Interact for cities FIWARE bridge- Interact is a wireless, connected street light management system. Interact optimizes energy consumption and provides centralized remote management of the connected street lighting network. Monitoring & control for on-grid and solar individual light points as well as group management cabinets ensure flexible light management. Rich asset data ensures ease of deployment and operational excellence. Interact supports data collection for smart city applications using advanced IoT sensing capabilities deployed on streetlights via standardized open interfaces.'
+            'Interact is a wireless, connected street light management system. Interact optimizes energy consumption and provides centralized remote management of the connected street lighting network. Interact for cities FIWARE bridge connects to FIWARE platforms via NGSI v2/LD.'
     },
     {
         company: 'Solum',
