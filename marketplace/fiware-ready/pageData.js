@@ -1096,6 +1096,20 @@ var pageData = [
         year: 2024,
         content:
             'Interact for cities FIWARE bridge- Interact is a wireless, connected street light management system. Interact optimizes energy consumption and provides centralized remote management of the connected street lighting network. Monitoring & control for on-grid and solar individual light points as well as group management cabinets ensure flexible light management. Rich asset data ensures ease of deployment and operational excellence. Interact supports data collection for smart city applications using advanced IoT sensing capabilities deployed on streetlights via standardized open interfaces.'
+    },
+    {
+        company: 'Solum',
+        name: 'Solar Station Helios',
+        img: 'https://www.fiware.org/wp-content/uploads/28bb01cb58d86b775dc3255c92314a19.jpg',
+        fiwareMember: false,
+        fiwareIhub: false,
+        companyLink: '../product-details/?category=ready&id=solum-solarstationhelios',
+        domain: ['Cities', 'Energy', 'Mobility', 'Sustainability', 'Transport'],
+        type: 'Software Enabler',
+        technology: ['Interaction Technologies', 'Internet of Things', 'Mobility and Location'],
+        year: 2024,
+        content:
+            '**Helios** is a parking and charging solution for scooters and e-bikes. It is 100% sustainable, thanks to our Solar Arena pavement. It is managed through an App, which allows user interaction in real-time, and an online platform for customers to configure, monitor and manage charging stations remotely.'
     }
 ];
 

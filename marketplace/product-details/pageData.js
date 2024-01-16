@@ -9767,6 +9767,55 @@ var pageData = {
             hash: 'signify-interactcityfiwarebridge',
             cat: 'ready',
             social: '/fiware-ready/signify/interact-city-fiware-bridge.html'
+        },
+        'solum-solarstationhelios': {
+            category: 'FIWARE-Ready',
+            organisationName: 'Solum',
+            productName: 'Solar Station Helios',
+            organisationWebsite: 'https://www.solumpv.com/',
+            organisationEmail: 'mailto:cboza@solumpv.com',
+            linkedIn: 'https://www.linkedin.com/company/solum-pv',
+            twitter: '',
+            productWebsite: 'https://www.solumpv.com/helios/',
+            excerpt:
+                '**Helios** is a parking and charging solution for scooters and e-bikes. It is 100% sustainable, thanks to our Solar Arena pavement. It is managed through an App, which allows user interaction in real-time, and an online platform for customers to configure, monitor and manage charging stations remotely.',
+            yearOfValidation: 2024,
+            description:
+                "<p><strong>Solum</strong> stems from the bold vision of harnessing urban spaces to generate renewable energy and deliver it to consumption points. After over two years of R&amp;D, we've developed an unprecedented innovation: solar pavement powered by photovoltaic technology. We manufacture solar parking and charging stations for electric scooters and bikes. Thanks to our patented photovoltaic pavement, we ensure renewable energy and independent installation anywhere in the city. Our internally designed products are efficient and sustainable. Since our debut in 2022, we've made exceptional progress. With over 800 charging points in 11 countries, we've benefited over 1,800 users, saving more than 3 tons of CO2. Our technological focus is on photovoltaic energy generation and IoT intelligence.</p>",
+            challenge:
+                "<p>The aim of Solum is to serve as a significant parking and connectivity point within Smartcities. By promoting sustainable mobility, reducing traffic, and CO2 emissions, and using IoT technology to provide services like air and noise quality measurements, etc. That's why it's crucial for us to integrate into a FIWARE environment to communicate with Smartcity platforms used by public administrations and innovation centers.</p>",
+            references:
+                '<p>2 stations in Madrid 2021 3 stations in Naples 2022 4 stations for the City Council of Almazora 2022 6 stations for the University of Cádiz 2023 13 stations in Madrid 2023 2 stations in Belgium 2023</p>',
+            awards: '<ul> <li>JOLY GROUP BBVA Awarded the Sustainable Innovation Prize presented by the Joly Group in an event sponsored by BBVA</li> <li>The Cleantech Camp: 3rd Prize</li> <li>Star4Big: Winner</li> <li>EIT Climate-KIC: Acceleration program where we were selected in all 3 phases.</li> <li>Iberdrola Micromobility Challenge: Winner of the charging solution challenge for micromobility</li> </ul>',
+            technologies: ['Interaction Technologies', 'Internet of Things', 'Mobility and Location'],
+            domains: ['Cities', 'Energy', 'Mobility', 'Sustainability', 'Transport'],
+            docs: [
+                ['Tech Doc', 'https://drive.google.com/file/d/1tncHqFXHnOsg40-Hv6sgxab1JyVAtjqF/view?usp=drive_link'],
+                [
+                    '[Tech Doc 2](Tech Doc "Tech Doc 2")',
+                    'https://drive.google.com/file/d/1tncHqFXHnOsg40-Hv6sgxab1JyVAtjqF/view?usp=drive_link'
+                ],
+                ['Tech Doc 3', 'https://drive.google.com/file/d/1-b7pg90IQliOIlRE38beVlGr2Bshh9Q6/view']
+            ],
+            videos: [['How to use Solum?', 'https://www.youtube.com/watch?v=hMTewlKgNCM&ab_channel=Solum']],
+            materials: [
+                ['Reference 1', 'https://noticiasalas.com/solum-estaciones-de-recarga-conectadas/'],
+                [
+                    'Reference 2',
+                    'https://www.uca.es/noticia/la-uca-pone-en-marcha-ocho-estaciones-fotovoltaicas-de-aparcamiento-de-patinetes-en-los-cuatro-campus/'
+                ],
+                ['Reference 3', 'https://www.puertovenecia.com/servicios/estacion-de-carga-de-bicicletas-electricas'],
+                [
+                    'Reference 4',
+                    'https://www.salamancahoy.es/salamanca/universidad/usal-estrena-primeras-20221215130337-nt.html'
+                ]
+            ],
+            logo: 'https://www.fiware.org/wp-content/uploads/28bb01cb58d86b775dc3255c92314a19.jpg',
+            featuredImage: 'https://www.fiware.org/wp-content/uploads/9e396af58275eedee03ac47015c9181f.png',
+            furtherImages: '',
+            hash: 'solum-solarstationhelios',
+            cat: 'ready',
+            social: '/fiware-ready/solum/solar-station-helios.html'
         }
     },
     cities: {
