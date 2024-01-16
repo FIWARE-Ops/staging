@@ -1109,7 +1109,7 @@ var pageData = [
         technology: ['Interaction Technologies', 'Internet of Things', 'Mobility and Location'],
         year: 2024,
         content:
-            '**Helios** is a parking and charging solution for scooters and e-bikes. It is 100% sustainable, thanks to our Solar Arena pavement. It is managed through an App, which allows user interaction in real-time, and an online platform for customers to configure, monitor and manage charging stations remotely.'
+            'Helios is a parking and charging solution for scooters and e-bikes. It is 100% sustainable, thanks to our Solar Arena pavement. It is managed through an App, which allows user interaction in real-time, and an online platform for customers to configure, monitor and manage charging stations remotely.'
     }
 ];
 
