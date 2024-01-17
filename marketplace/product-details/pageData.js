@@ -9748,7 +9748,7 @@ var pageData = {
             challenge:
                 '<p><strong>Interact City FIWARE bridge</strong> acts as a Generic Enabler connecting to FIWARE platforms via NGSI v2/LD.</p>',
             references: '',
-            awards: '<p>Interact for cities FIWARE bridge has been integrated with industry leading FIWARE platforms such as <strong>Telefonica</strong> and <strong>Eviden/ATOS.</strong></p>',
+            awards: '<p>Interact City FIWARE bridge has been integrated with industry leading FIWARE platforms such as <strong>Telefonica</strong> and <strong>Eviden/ATOS.</strong></p>',
             technologies: [
                 'Cloud Computing',
                 'Data Analytics',
