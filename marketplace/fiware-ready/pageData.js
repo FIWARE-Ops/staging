@@ -1079,7 +1079,7 @@ var pageData = [
     },
     {
         company: 'Signify',
-        name: 'Interact City Fiware bridge',
+        name: 'Interact City FIWARE bridge',
         img: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_signify.svg',
         fiwareMember: true,
         fiwareIhub: false,
@@ -1095,7 +1095,7 @@ var pageData = [
         ],
         year: 2024,
         content:
-            'Interact is a wireless, connected street light management system. Interact optimizes energy consumption and provides centralized remote management of the connected street lighting network. Interact for cities FIWARE bridge connects to FIWARE platforms via NGSI v2/LD.'
+            'Interact City is a wireless, connected street light management system. Interact City optimizes energy consumption and provides centralized remote management of the connected street lighting network. Interact City FIWARE bridge connects to FIWARE platforms via NGSI v2/LD.'
     },
     {
         company: 'Solum',
