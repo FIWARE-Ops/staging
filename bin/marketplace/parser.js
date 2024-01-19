@@ -334,7 +334,7 @@ function parse(detailsFile, summaryFile, processRun) {
                     }
 
                     if (fs.existsSync('marketplace')) {
-                        fs.rmdirSync('marketplace', { recursive: true });
+                        fs.rmSync('marketplace', { recursive: true });
                     } 
 
                     Template.write(
