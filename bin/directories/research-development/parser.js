@@ -130,7 +130,7 @@ function parse(file) {
             );
              Template.write(
                 path.join(RESEARCH_DEVELOPMENT_DIR, 'project/sitemap.xml'),
-                path.join(TEMPLATE_PATH, 'sitemap-html.hbs'),
+                path.join(TEMPLATE_PATH, 'sitemap-xml.hbs'),
                 projects
             );
 
