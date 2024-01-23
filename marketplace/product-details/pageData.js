@@ -3808,7 +3808,8 @@ var pageData = {
                 ]
             ],
             logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_Telefonica.svg',
-            featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_telefonica_thinking-cities.png',
+            featuredImage:
+                'https://www.telefonica.com/en/wp-content/uploads/sites/5/2022/01/telefonica-tech-iot-transforma-insights.jpg?w=1224&h=673&crop=1',
             furtherImages: '',
             hash: 'telefónica-thinkingcities',
             cat: 'powered',
@@ -4645,7 +4646,7 @@ var pageData = {
             productWebsite: 'https://www.sice.com/',
             excerpt:
                 'Kaliope pwF Platform is conceptualized as a turnkey solution that includes all the SW elements for collecting, transforming and loading “big data” from IoT devices and city services. It incorporates a Data Analytics layer with a set of dashboards for supporting and facilitating decision-making.',
-            yearOfValidation: null,
+            yearOfValidation: 2023,
             description:
                 '<p>The core of “<strong>Kaliope pWF</strong>” Smart City Platform is based on Free Open Source Software top frameworks (mostly FIWARE, Apache Hadoop and Kubernetes) that support the most commonly used ICT/IoT/Scada Protocols and Standards. Kaliope pWF” Smart City Platform is conceptualized as a turnkey solution. It follows a modular architecture that can implement one or several components depending on customer needs and requirements. Thus, Kaliope pwF City Platform provides the following functionalities, which are described in summary form: </p> <ul> <li><p>Ability to connect to heterogeneous data sources and applications that support the protocols, standards and technologies widely used in the industry. </p></li> <li><p>Powerful Extraction, Transformation and Loading (ETL) procedures that allow the control and automation in the processes of extraction, transformation and storage of the data that constitutes the base of the "Data ingestion" process within the “Big data” life cycle. </p></li> <li><p>Tools and facilities that guarantee straightforward data reusability by the different vertical applications or connected services reducing the cost of an extension. This is achieved with the integration of contextual information, in particular spatial-temporal contextual information. </p></li> <li><p>Real-time data management able to process and monitor in an operational dashboard the variables that frequently change, systems performance and alert notifications. </p></li> <li><p>Implement "cooperative" strategies to operate the city\'s infrastructure and to analyse how the City operates / could operate in the future. </p></li> <li><p>Support the development of innovative Smart City solutions by third parties and/or citizens through the publication of Open Data or Open Web APIs.</p></li> </ul>',
             challenge:
@@ -9729,6 +9730,89 @@ var pageData = {
             hash: 'streamingo-videodataanonymization',
             cat: 'ready',
             social: '/fiware-ready/streamingo/video-data-anonymization.html'
+        },
+        'signify-interactcityfiwarebridge': {
+            category: 'FIWARE-Ready',
+            organisationName: 'Signify',
+            productName: 'Interact City FIWARE bridge',
+            organisationWebsite: 'https://www.signify.com/global',
+            organisationEmail: 'mailto:stefan.bohrer@signify.com',
+            linkedIn: '',
+            twitter: '',
+            productWebsite: 'https://www.interact-lighting.com/global',
+            excerpt:
+                'Interact City is a wireless, connected street light management system. Interact City optimizes energy consumption and provides centralized remote management of the connected street lighting network. Interact City FIWARE bridge connects to FIWARE platforms via NGSI v2/LD.',
+            yearOfValidation: 2024,
+            description:
+                '<p>Interact City FIWARE bridge is a smart city solution handling data in both NGSI-v2 and NGSI-LD format.</p> <p>Interact City FIWARE bridge acts as a Generic Enabler supporting rich application monitoring and control of connected streetlighting networks:</p> <ul> <li><p>Fault Monitoring</p></li> <li><p>Energy Reporting</p></li> <li><p>Asset Management</p></li> <li><p>Light Control</p></li> </ul> <p>The connected Interact streetlighting management system supports remote management, monitoring, and control of streetlight assets</p>',
+            challenge:
+                '<p><strong>Interact City FIWARE bridge</strong> acts as a Generic Enabler connecting to FIWARE platforms via NGSI v2/LD.</p>',
+            references: '',
+            awards: '<p>Interact City FIWARE bridge has been integrated with industry leading FIWARE platforms such as <strong>Telefonica</strong> and <strong>Eviden/ATOS.</strong></p>',
+            technologies: [
+                'Cloud Computing',
+                'Data Analytics',
+                'Interaction Technologies',
+                'Internet of Things',
+                'Sensory Systems'
+            ],
+            domains: ['Cities', 'Energy', 'Lighting'],
+            docs: [],
+            videos: [],
+            materials: [],
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_signify.svg',
+            featuredImage:
+                'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_interact.svg',
+            furtherImages: '',
+            hash: 'signify-interactcityfiwarebridge',
+            cat: 'ready',
+            social: '/fiware-ready/signify/interact-city-fiware-bridge.html'
+        },
+        'solum-solarstationhelios': {
+            category: 'FIWARE-Ready',
+            organisationName: 'Solum',
+            productName: 'Solar Station Helios',
+            organisationWebsite: 'https://www.solumpv.com/',
+            organisationEmail: 'mailto:cboza@solumpv.com',
+            linkedIn: 'https://www.linkedin.com/company/solum-pv',
+            twitter: '',
+            productWebsite: 'https://www.solumpv.com/helios/',
+            excerpt:
+                'Helios is a parking and charging solution for scooters and e-bikes. It is 100% sustainable, thanks to our Solar Arena pavement. It is managed through an App, which allows user interaction in real-time, and an online platform for customers to configure, monitor and manage charging stations remotely.',
+            yearOfValidation: 2024,
+            description:
+                "<p><strong>Solum</strong> stems from the bold vision of harnessing urban spaces to generate renewable energy and deliver it to consumption points. After over two years of R&amp;D, we've developed an unprecedented innovation: solar pavement powered by photovoltaic technology. We manufacture solar parking and charging stations for electric scooters and bikes. Thanks to our patented photovoltaic pavement, we ensure renewable energy and independent installation anywhere in the city. Our internally designed products are efficient and sustainable. Since our debut in 2022, we've made exceptional progress. With over 800 charging points in 11 countries, we've benefited over 1,800 users, saving more than 3 tons of CO2. Our technological focus is on photovoltaic energy generation and IoT intelligence.</p>",
+            challenge:
+                "<p>The aim of Solum is to serve as a significant parking and connectivity point within Smartcities. By promoting sustainable mobility, reducing traffic, and CO2 emissions, and using IoT technology to provide services like air and noise quality measurements, etc. That's why it's crucial for us to integrate into a FIWARE environment to communicate with Smartcity platforms used by public administrations and innovation centers.</p>",
+            references:
+                '<p>2 stations in Madrid 2021 3 stations in Naples 2022 4 stations for the City Council of Almazora 2022 6 stations for the University of Cádiz 2023 13 stations in Madrid 2023 2 stations in Belgium 2023</p>',
+            awards: '<ul> <li>JOLY GROUP BBVA Awarded the Sustainable Innovation Prize presented by the Joly Group in an event sponsored by BBVA</li> <li>The Cleantech Camp: 3rd Prize</li> <li>Star4Big: Winner</li> <li>EIT Climate-KIC: Acceleration program where we were selected in all 3 phases.</li> <li>Iberdrola Micromobility Challenge: Winner of the charging solution challenge for micromobility</li> </ul>',
+            technologies: ['Interaction Technologies', 'Internet of Things', 'Mobility and Location'],
+            domains: ['Cities', 'Energy', 'Mobility', 'Sustainability', 'Transport'],
+            docs: [
+                ['Tech Doc', 'https://drive.google.com/file/d/1tncHqFXHnOsg40-Hv6sgxab1JyVAtjqF/view?usp=drive_link'],
+                ['Tech Doc 2', 'https://drive.google.com/file/d/1tncHqFXHnOsg40-Hv6sgxab1JyVAtjqF/view?usp=drive_link'],
+                ['Tech Doc 3', 'https://drive.google.com/file/d/1-b7pg90IQliOIlRE38beVlGr2Bshh9Q6/view']
+            ],
+            videos: [['How to use Solum?', 'https://www.youtube.com/watch?v=hMTewlKgNCM&ab_channel=Solum']],
+            materials: [
+                ['Reference 1', 'https://noticiasalas.com/solum-estaciones-de-recarga-conectadas/'],
+                [
+                    'Reference 2',
+                    'https://www.uca.es/noticia/la-uca-pone-en-marcha-ocho-estaciones-fotovoltaicas-de-aparcamiento-de-patinetes-en-los-cuatro-campus/'
+                ],
+                ['Reference 3', 'https://www.puertovenecia.com/servicios/estacion-de-carga-de-bicicletas-electricas'],
+                [
+                    'Reference 4',
+                    'https://www.salamancahoy.es/salamanca/universidad/usal-estrena-primeras-20221215130337-nt.html'
+                ]
+            ],
+            logo: 'https://www.fiware.org/wp-content/uploads/28bb01cb58d86b775dc3255c92314a19.jpg',
+            featuredImage: 'https://www.fiware.org/wp-content/uploads/9e396af58275eedee03ac47015c9181f.png',
+            furtherImages: '',
+            hash: 'solum-solarstationhelios',
+            cat: 'ready',
+            social: '/fiware-ready/solum/solar-station-helios.html'
         }
     },
     cities: {

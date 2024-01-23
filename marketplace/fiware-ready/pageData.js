@@ -1076,6 +1076,40 @@ var pageData = [
         year: 2023,
         content:
             "Protecting identity in video data is very important for GDPR compliance. Streamingo has developed a solution to ensure speedy anonymization of audio and faces inside a video. It's a fast, accurate and affordable service which can be accessed through REST API."
+    },
+    {
+        company: 'Signify',
+        name: 'Interact City FIWARE bridge',
+        img: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_signify.svg',
+        fiwareMember: true,
+        fiwareIhub: false,
+        companyLink: '../product-details/?category=ready&id=signify-interactcityfiwarebridge',
+        domain: ['Cities', 'Energy', 'Lighting'],
+        type: 'IoT Device',
+        technology: [
+            'Cloud Computing',
+            'Data Analytics',
+            'Interaction Technologies',
+            'Internet of Things',
+            'Sensory Systems'
+        ],
+        year: 2024,
+        content:
+            'Interact City is a wireless, connected street light management system. Interact City optimizes energy consumption and provides centralized remote management of the connected street lighting network. Interact City FIWARE bridge connects to FIWARE platforms via NGSI v2/LD.'
+    },
+    {
+        company: 'Solum',
+        name: 'Solar Station Helios',
+        img: 'https://www.fiware.org/wp-content/uploads/28bb01cb58d86b775dc3255c92314a19.jpg',
+        fiwareMember: false,
+        fiwareIhub: false,
+        companyLink: '../product-details/?category=ready&id=solum-solarstationhelios',
+        domain: ['Cities', 'Energy', 'Mobility', 'Sustainability', 'Transport'],
+        type: 'Software Enabler',
+        technology: ['Interaction Technologies', 'Internet of Things', 'Mobility and Location'],
+        year: 2024,
+        content:
+            'Helios is a parking and charging solution for scooters and e-bikes. It is 100% sustainable, thanks to our Solar Arena pavement. It is managed through an App, which allows user interaction in real-time, and an online platform for customers to configure, monitor and manage charging stations remotely.'
     }
 ];
 
