@@ -9500,10 +9500,6 @@ var pageData = {
             videos: [],
             materials: [
                 [
-                    'NEOM-Air quality monitoring in construction sites',
-                    'https://www.libelium.com/libeliumworld/success-stories/the-line-sustainable-from-its-foundations-with-libeliums-ai-solution/'
-                ],
-                [
                     'Low Emission Zones',
                     'https://www.libelium.com/libeliumworld/designing-low-emission-zones-with-libelium-ia-solution-in-three-months/?utm_source=fiware.com&utm_medium=referral&utm_campaign=traffic-calc'
                 ]
@@ -9576,7 +9572,12 @@ var pageData = {
             domains: ['Air Quality', 'Cities', 'Sustainability'],
             docs: [],
             videos: [],
-            materials: [],
+            materials: [
+                [
+                    'NEOM-Air quality monitoring in construction sites',
+                    'https://www.libelium.com/libeliumworld/success-stories/the-line-sustainable-from-its-foundations-with-libeliums-ai-solution/'
+                ]
+            ],
             logo: 'https://www.fiware.org/wp-content/uploads/9b37f8d110b60d40a5c6a7f6d51c75d0.jpg',
             featuredImage:
                 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/pic_air-quality-index-libelium.jpg',
