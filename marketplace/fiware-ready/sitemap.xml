@@ -137,10 +137,6 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fiware-ready/libelium/waspmote.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
 			<loc>https://www.fiware.org/fiware-ready/montem-a-s/cityprobe-2.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
