@@ -163,7 +163,7 @@ function fillProduct(product) {
   addContacts('#twitter', product.twitter);
 
   document.title = product.category + ' - ' + product.productName;
-  $('meta[name="robots"]').attr('content', 'all');
+  $('meta[name="robots"]').attr('content', 'follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large');
   $('meta[name="description"]').attr('content', product.excerpt);
 
   $('meta[property="og:title"]').attr('content', document.title );
@@ -219,7 +219,7 @@ function loadProduct() {
   } else {
     $($('.et_pb_section_1').children()).empty();
     $('#related-products').remove();
-    $('meta[name="robots"]').attr('content', 'noindex');
+    //$('meta[name="robots"]').attr('content', 'noindex');
   }
 
   initialiseStyleBackgroundIntersectionObserver();
