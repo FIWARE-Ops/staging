@@ -9315,7 +9315,8 @@ var pageData = {
             category: 'FIWARE-Ready',
             organisationName: 'Libelium',
             productName: 'Smart Parking',
-            organisationWebsite: 'https://libelium.com',
+            organisationWebsite:
+                'https://libelium.com/?utm_source=fiware.com&utm_medium=referral&utm_campaign=fiware_parking',
             organisationEmail: 'mailto:n.muro@libelium.com',
             linkedIn: 'https://www.linkedin.com/company/libelium/',
             twitter: 'https://twitter.com/libelium',
@@ -9328,7 +9329,7 @@ var pageData = {
             challenge:
                 '<p>Finding parking in urban areas, whether public or private, is an everyday problem. The result is an increase in air and noise pollution, fuel consumption, traffic congestion and stress for citizens.</p> <p>The IoT is enabling to reduce gas emissions and traffic congestion while increasing drivers’ health.</p>',
             references:
-                '<ul> <li><a href="https://www.libelium.com/libeliumworld/success-stories/a-smart-parking-solution-for-the-best-beach-city-in-the-usa/" title="Smart Parking in USA">Smart Parking in USA</a></li> <li><a href="https://www.libelium.com/libeliumworld/success-stories/libelium-iot-technology-at-the-parking-lot-of-the-most-emblematic-hotel-in-madrid/" title="Smart Parking in Madrid">Smart Parking in Madrid</a></li> <li><a href="https://www.libelium.com/libeliumworld/success-stories/iot-technology-to-monitor-parking-for-disabled-citizens-in-the-north-of-spain/" title="Smart Parking in the north of Spain ">Smart Parking in the north of Spain </a></li> <li><a href="https://www.libelium.com/libeliumworld/success-stories/smart-parking-iot-platform-to-increase-the-efficiency-of-electric-car-recharging-station/" title="Electric car recharging station">Electric car recharging station</a></li> </ul>',
+                '<ul> <li><a href="https://www.libelium.com/libeliumworld/success-stories/a-smart-parking-solution-for-the-best-beach-city-in-the-usa/?utm_source=fiware.com&utm_medium=referral&utm_campaign=fiware_parking" title="Smart Parking in USA">Smart Parking in USA</a></li> <li><a href="https://www.libelium.com/libeliumworld/success-stories/libelium-iot-technology-at-the-parking-lot-of-the-most-emblematic-hotel-in-madrid/?utm_source=fiware.com&utm_medium=referral&utm_campaign=fiware_parking" title="Smart Parking in Madrid">Smart Parking in Madrid</a></li> <li><a href="https://www.libelium.com/libeliumworld/success-stories/iot-technology-to-monitor-parking-for-disabled-citizens-in-the-north-of-spain/?utm_source=fiware.com&utm_medium=referral&utm_campaign=fiware_parking" title="Smart Parking in the north of Spain">Smart Parking in the north of Spain</a></li> <li><a href="https://www.libelium.com/libeliumworld/success-stories/smart-parking-iot-platform-to-increase-the-efficiency-of-electric-car-recharging-station/?utm_source=fiware.com&utm_medium=referral&utm_campaign=fiware_parking" title="Electric car recharging station">Electric car recharging station</a></li> </ul>',
             awards: '',
             technologies: ['Internet of Things', 'Mobility and Location'],
             domains: ['Cities', 'Green Deal', 'Transport'],
@@ -9450,7 +9451,7 @@ var pageData = {
             challenge:
                 '<p>As cities embrace the concept of smart cities, the traffic intensity forecasting service plays an important role in addressing the challenges and needs of urban mobility. One of the key challenges is optimizing traffic management within the city by efficiently regulating the traffic. By accurately forecasting the traffic, the service enables better coordination with other modes of transport, such as buses, trains, and ride-sharing services, fostering a seamless and integrated transportation network.</p>',
             references:
-                '<ul> <li><a href="https://imredd.fr/en/home/#qui-sommes-nous-mobile" title="IMREDD">IMREDD</a></li> <li><a href="https://tip-imredd.unice.fr/greenmovtrafficforecasting/forecast/greenmov/traffic?aggregation=1D&forecast_horizon=1D" title="GreenMov Traffic Forecasting">GreenMov Traffic Forecasting</a></li> </ul>',
+                '<p>-<a href="https://www.libelium.com/libeliumworld/designing-low-emission-zones-with-libelium-ia-solution-in-three-months/?utm_source=fiware.com&utm_medium=referral&utm_campaign=traffic-calc" title="Efficient design using libelium’s SIA ">Efficient design using libelium’s SIA </a></p>',
             awards: '',
             technologies: ['Artificial Intelligence', 'Big Data', 'Software as a Service'],
             domains: ['Cities', 'Sustainability', 'Transport'],
