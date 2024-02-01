@@ -9328,8 +9328,7 @@ var pageData = {
                 '<ul> <li>Optimization of existing parking capacity</li> <li>Additional parking revenues: having real-time information about parking spaces increase parking revenues by up to 35%.</li> <li>Enforcement cost reduction and reduced parking violations</li> <li>Special permits detection (disabled, emergency…)</li> <li>Pricing strategies</li> <li>Reduction of traffic congestion</li> <li>Reduction of CO2, dust emissions (PM2.5 – PM10) and other pollutants. Congestion can be reduced by 15-30%.</li> <li>Reduction of noise pollution</li> <li>Improvement of quality of life and the reputation of being a greener city.</li> <li>Technological advancements such as online payments and the development of mobile apps for reserving parking slots are instrumental in driving the implementation of smart parking systems.</li> <li>Reduction in time spent looking for a parking space increases retail and business revenues in the area of implementation.</li> </ul>',
             challenge:
                 '<p>Finding parking in urban areas, whether public or private, is an everyday problem. The result is an increase in air and noise pollution, fuel consumption, traffic congestion and stress for citizens.</p> <p>The IoT is enabling to reduce gas emissions and traffic congestion while increasing drivers’ health.</p>',
-            references:
-                '<ul> <li><a href="https://www.libelium.com/libeliumworld/success-stories/a-smart-parking-solution-for-the-best-beach-city-in-the-usa/?utm_source=fiware.com&utm_medium=referral&utm_campaign=fiware_parking" title="Smart Parking in USA">Smart Parking in USA</a></li> <li><a href="https://www.libelium.com/libeliumworld/success-stories/libelium-iot-technology-at-the-parking-lot-of-the-most-emblematic-hotel-in-madrid/?utm_source=fiware.com&utm_medium=referral&utm_campaign=fiware_parking" title="Smart Parking in Madrid">Smart Parking in Madrid</a></li> <li><a href="https://www.libelium.com/libeliumworld/success-stories/iot-technology-to-monitor-parking-for-disabled-citizens-in-the-north-of-spain/?utm_source=fiware.com&utm_medium=referral&utm_campaign=fiware_parking" title="Smart Parking in the north of Spain">Smart Parking in the north of Spain</a></li> <li><a href="https://www.libelium.com/libeliumworld/success-stories/smart-parking-iot-platform-to-increase-the-efficiency-of-electric-car-recharging-station/?utm_source=fiware.com&utm_medium=referral&utm_campaign=fiware_parking" title="Electric car recharging station">Electric car recharging station</a></li> </ul>',
+            references: '',
             awards: '',
             technologies: ['Internet of Things', 'Mobility and Location'],
             domains: ['Cities', 'Green Deal', 'Transport'],
@@ -9337,15 +9336,15 @@ var pageData = {
             videos: [],
             materials: [
                 [
-                    'Smart parking solution USA',
+                    'Smart Parking in USA',
                     'https://www.libelium.com/libeliumworld/success-stories/a-smart-parking-solution-for-the-best-beach-city-in-the-usa/?utm_source=fiware.com&utm_medium=referral&utm_campaign=fiware_parking'
                 ],
                 [
-                    'IoT parking technology-',
+                    'Smart Parking in Madrid',
                     'https://www.libelium.com/libeliumworld/success-stories/libelium-iot-technology-at-the-parking-lot-of-the-most-emblematic-hotel-in-madrid/?utm_source=fiware.com&utm_medium=referral&utm_campaign=fiware_parking'
                 ],
                 [
-                    'Parking for disabled citizens',
+                    'Smart Parking in the north of Spain',
                     'https://www.libelium.com/libeliumworld/success-stories/iot-technology-to-monitor-parking-for-disabled-citizens-in-the-north-of-spain/?utm_source=fiware.com&utm_medium=referral&utm_campaign=fiware_parking'
                 ],
                 [
