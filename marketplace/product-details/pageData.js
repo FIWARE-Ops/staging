@@ -4480,16 +4480,15 @@ var pageData = {
             cat: 'powered',
             social: '/powered-by-fiware/addix-gmbh/adi-fi.html'
         },
-        '426code-smarttown': {
+        'globalsmart-smarttown': {
             category: 'Powered by FIWARE',
-            organisationName: '426 Code',
+            organisationName: 'Global Smart',
             productName: 'SmartTown',
-            organisationWebsite: 'https://426code.com',
-            organisationEmail: 'mailto:426code@426code.com',
-            linkedIn: 'https://likedin.com/company/426code',
-            twitter: 'https://twitter.com/426Code',
-            productWebsite:
-                'https://426code.com/smart-town/?_gl=1*19raehk*_up*MQ..*_ga*MTUxNzEzODYyOS4xNjc0ODE0MzM5*_ga_505Z8M09BD*MTY3NDgxNDMzOC4xLjAuMTY3NDgxNDMzOC4wLjAuMA..',
+            organisationWebsite: 'https://www.globalsmartiot.es/',
+            organisationEmail: 'mailto:javier.yuste@globalsmartiot.es',
+            linkedIn: 'https://www.linkedin.com/in/global-smart-iot-62bab42b2/',
+            twitter: '',
+            productWebsite: 'https://www.globalsmartiot.es/',
             excerpt:
                 'SmartTown is a horizontal platform, which includes different verticals that can occur in a population, for its remote management in a centralized way and offers interoperability between the different devices and integrations',
             yearOfValidation: 2023,
@@ -4505,12 +4504,13 @@ var pageData = {
             docs: [],
             videos: [],
             materials: [],
-            logo: 'https://www.fiware.org/wp-content/uploads/9daaee69f97a7d82e4092bd638394ef7.jpg',
-            featuredImage: 'https://www.fiware.org/wp-content/uploads/c1bd83362f800e5279d08d9866f5ae1c.jpg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_globalsmart.jpg',
+            featuredImage:
+                'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/pic_smarttown.jpg',
             furtherImages: '',
-            hash: '426code-smarttown',
+            hash: 'globalsmart-smarttown',
             cat: 'powered',
-            social: '/powered-by-fiware/426-code/smarttown.html'
+            social: '/powered-by-fiware/global-smart/smarttown.html'
         },
         'dihfaubourgnumérique-somwarespace': {
             category: 'Powered by FIWARE',
