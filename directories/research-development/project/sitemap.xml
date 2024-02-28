@@ -45,6 +45,10 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/project/didymos-xr.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/project/dih-.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -58,10 +62,6 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/project/dssc.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
-			<loc>https://www.fiware.org/project/dydimos-xr.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>

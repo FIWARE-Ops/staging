@@ -1467,12 +1467,12 @@ var pageData = [
             'ADDIX operates IT platforms based on FIWARE technology and open-source software. These highly capable, customizable Kubernetes-cluster are already in use by regional development organisations and utility companies. ADDIX operates infrastructure in the field of radio link system, fiber, IoT and WLAN.'
     },
     {
-        company: '426 Code',
+        company: 'Global Smart',
         name: 'SmartTown',
-        img: 'https://www.fiware.org/wp-content/uploads/9daaee69f97a7d82e4092bd638394ef7.jpg',
+        img: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_globalsmart.jpg',
         fiwareMember: true,
         fiwareIhub: false,
-        companyLink: '../product-details/?category=powered&id=426code-smarttown',
+        companyLink: '../product-details/?category=powered&id=globalsmart-smarttown',
         domain: ['Air Quality', 'Cities', 'Energy', 'Lighting', 'Parks &amp; Gardens'],
         type: 'Platform',
         technology: ['Big Data', 'Data Analytics', 'Data Handling', 'Internet of Things', 'Internet Services'],

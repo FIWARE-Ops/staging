@@ -3,6 +3,15 @@ const path = require('path');
 const fs = require('fs-extra');
 const _ = require('underscore');
 
+
+const notFound = `<html lang="en-US">
+<head>
+<title>FIWARE Foundation: Page Not Found</title>
+<meta http-equiv="refresh" content="0; url=https://www.fiware.org/404.html" />
+</head>
+<body/>
+</html>`;
+
 /**
  *  Take a raw dump of an Object as JSON
  */
@@ -137,10 +146,23 @@ function clean(dir) {
     if (fs.existsSync(dir)) {
         const files = fs.readdirSync(dir).filter(el => path.extname(el) === '.html')
         files.forEach(file => {
-            fs.unlinkSync( path.join(dir , file));
+            //fs.unlinkSync( path.join(dir , file));
+            fs.writeFileSync( path.join(dir, file), notFound);
         });
     }
 } 
+
+function cleanDir(dir) {
+   function listDirectories(dir) {
+      return fs.readdirSync(dir, {withFileTypes: true})
+        .filter(dirent => dirent.isDirectory())
+        .map(dirent => dirent.name);
+    }
+
+    listDirectories(dir).forEach(subdir => {
+        clean(path.join(dir, subdir));
+    });
+}
 
 /**
  * Read in a Handlebars template
@@ -152,4 +174,5 @@ function readTemplate(template, callback) {
 
 exports.write = write;
 exports.clean = clean;
+exports.cleanDir = cleanDir;
 exports.createClass = createClass;

@@ -4480,16 +4480,15 @@ var pageData = {
             cat: 'powered',
             social: '/powered-by-fiware/addix-gmbh/adi-fi.html'
         },
-        '426code-smarttown': {
+        'globalsmart-smarttown': {
             category: 'Powered by FIWARE',
-            organisationName: '426 Code',
+            organisationName: 'Global Smart',
             productName: 'SmartTown',
-            organisationWebsite: 'https://426code.com',
-            organisationEmail: 'mailto:426code@426code.com',
-            linkedIn: 'https://likedin.com/company/426code',
-            twitter: 'https://twitter.com/426Code',
-            productWebsite:
-                'https://426code.com/smart-town/?_gl=1*19raehk*_up*MQ..*_ga*MTUxNzEzODYyOS4xNjc0ODE0MzM5*_ga_505Z8M09BD*MTY3NDgxNDMzOC4xLjAuMTY3NDgxNDMzOC4wLjAuMA..',
+            organisationWebsite: 'https://www.globalsmartiot.es/',
+            organisationEmail: 'mailto:javier.yuste@globalsmartiot.es',
+            linkedIn: 'https://www.linkedin.com/in/global-smart-iot-62bab42b2/',
+            twitter: '',
+            productWebsite: 'https://www.globalsmartiot.es/',
             excerpt:
                 'SmartTown is a horizontal platform, which includes different verticals that can occur in a population, for its remote management in a centralized way and offers interoperability between the different devices and integrations',
             yearOfValidation: 2023,
@@ -4505,12 +4504,13 @@ var pageData = {
             docs: [],
             videos: [],
             materials: [],
-            logo: 'https://www.fiware.org/wp-content/uploads/9daaee69f97a7d82e4092bd638394ef7.jpg',
-            featuredImage: 'https://www.fiware.org/wp-content/uploads/c1bd83362f800e5279d08d9866f5ae1c.jpg',
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/logo_globalsmart.jpg',
+            featuredImage:
+                'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/platform/pic_smarttown.jpg',
             furtherImages: '',
-            hash: '426code-smarttown',
+            hash: 'globalsmart-smarttown',
             cat: 'powered',
-            social: '/powered-by-fiware/426-code/smarttown.html'
+            social: '/powered-by-fiware/global-smart/smarttown.html'
         },
         'dihfaubourgnumérique-somwarespace': {
             category: 'Powered by FIWARE',
@@ -7625,14 +7625,6 @@ var pageData = {
                 },
                 {
                     category: 'FIWARE-Ready',
-                    featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_libelium_waspmote.png',
-                    excerpt:
-                        'Waspmote hardware architecture has been specially designed to work with extremely low consumption. Digital switches allow to turn on and off any of the sensor interfaces as well as the radio modules.',
-                    productName: 'Waspmote',
-                    companyLink: './?category=ready&id=libelium-waspmote'
-                },
-                {
-                    category: 'FIWARE-Ready',
                     featuredImage: 'https://www.fiware.org/wp-content/uploads/e196bfeb4628f5eab36430d6ba5b5535.png',
                     excerpt:
                         'Smart Parking Sensor technology is a radar sensor device that allows the detection of parking availability indoors and outdoors.\nLibelium Smart Parking benefits from 2 different detection systems:\nRadar and Magnetic.\nGreater precision, improved detection and stability performance: 99% accuracy.',
@@ -7641,7 +7633,8 @@ var pageData = {
                 },
                 {
                     category: 'FIWARE-Ready',
-                    featuredImage: 'https://www.fiware.org/wp-content/uploads/06a3e5d5bfa9fe16b1f6346db89d5946.png',
+                    featuredImage:
+                        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/pic_traffic-environment-libelium.jpg',
                     excerpt:
                         'Calculates traffic emissions for IoT measurements and model forecasts, allowing citizens and public authorities to easily understand the emissions amount in a location and timespan.',
                     productName: 'Traffic Environmental Impact Calculation',
@@ -7649,7 +7642,8 @@ var pageData = {
                 },
                 {
                     category: 'FIWARE-Ready',
-                    featuredImage: 'https://www.fiware.org/wp-content/uploads/1c63fe8805471c3b24f0b614cd1b44f4.png',
+                    featuredImage:
+                        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/pic_air-quality-index-libelium.jpg',
                     excerpt:
                         'Calculates European air quality index for IoT measurements and model forecasts, allowing citizens and public authorities to easily standardise the air quality status in a location and timespan.',
                     productName: 'Air Quality Index Calculation',
@@ -7701,14 +7695,6 @@ var pageData = {
                 },
                 {
                     category: 'FIWARE-Ready',
-                    featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_libelium_waspmote.png',
-                    excerpt:
-                        'Waspmote hardware architecture has been specially designed to work with extremely low consumption. Digital switches allow to turn on and off any of the sensor interfaces as well as the radio modules.',
-                    productName: 'Waspmote',
-                    companyLink: './?category=ready&id=libelium-waspmote'
-                },
-                {
-                    category: 'FIWARE-Ready',
                     featuredImage: 'https://www.fiware.org/wp-content/uploads/e196bfeb4628f5eab36430d6ba5b5535.png',
                     excerpt:
                         'Smart Parking Sensor technology is a radar sensor device that allows the detection of parking availability indoors and outdoors.\nLibelium Smart Parking benefits from 2 different detection systems:\nRadar and Magnetic.\nGreater precision, improved detection and stability performance: 99% accuracy.',
@@ -7717,7 +7703,8 @@ var pageData = {
                 },
                 {
                     category: 'FIWARE-Ready',
-                    featuredImage: 'https://www.fiware.org/wp-content/uploads/06a3e5d5bfa9fe16b1f6346db89d5946.png',
+                    featuredImage:
+                        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/pic_traffic-environment-libelium.jpg',
                     excerpt:
                         'Calculates traffic emissions for IoT measurements and model forecasts, allowing citizens and public authorities to easily understand the emissions amount in a location and timespan.',
                     productName: 'Traffic Environmental Impact Calculation',
@@ -7725,7 +7712,8 @@ var pageData = {
                 },
                 {
                     category: 'FIWARE-Ready',
-                    featuredImage: 'https://www.fiware.org/wp-content/uploads/1c63fe8805471c3b24f0b614cd1b44f4.png',
+                    featuredImage:
+                        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/pic_air-quality-index-libelium.jpg',
                     excerpt:
                         'Calculates European air quality index for IoT measurements and model forecasts, allowing citizens and public authorities to easily standardise the air quality status in a location and timespan.',
                     productName: 'Air Quality Index Calculation',
@@ -7735,79 +7723,6 @@ var pageData = {
             hash: 'libelium-plugsense',
             cat: 'ready',
             social: '/fiware-ready/libelium/plug-sense-.html'
-        },
-        'libelium-waspmote': {
-            category: 'FIWARE-Ready',
-            organisationName: 'Libelium',
-            productName: 'Waspmote',
-            organisationWebsite: 'https://www.libelium.com/',
-            organisationEmail: '',
-            linkedIn: 'https://www.linkedin.com/company/libelium/',
-            twitter: 'https://twitter.com/libelium',
-            productWebsite: 'https://www.libelium.com/iot-products/waspmote/',
-            excerpt:
-                'Waspmote hardware architecture has been specially designed to work with extremely low consumption. Digital switches allow to turn on and off any of the sensor interfaces as well as the radio modules.',
-            yearOfValidation: 2017,
-            description:
-                '<p><strong>Waspmote</strong> hardware architecture has been specially designed to work with extremely low consumption. Digital switches allow  turning on and off any of the sensor interfaces as well as the radio modules. Three different sleep modes make Waspmote the lowest consumption IoT platform in the market (7 µA). There are more than 110 sensors available to connect to Waspmote: CO, CO2, soil moisture, wind, IR presence, humidity, temperature, pH, radiation, liquid, luminosity, etc. Our Sensor Boards allow developers to easily use sensors in Waspmote.</p> <p>There are 16 different wireless interfaces for Waspmote including long range (4G / 3G / GPRS / GPRS+GPS / LoRaWAN / LoRa / Sigfox / 868 MHz / 900 MHz), medium range (ZigBee / 802.15.4 / DigiMesh / WiFi) and short range (RFID/NFC / Bluetooth 2.1 / Bluetooth Low Energy). They can be used solely or in combination of two by using the Expansion Radio Board.</p> <p>Users can connect any sensor in industrial environments. Compatible with: RS-232, RS-485, Modbus, CAN Bus, 4-20mA.</p> <p>Over the Air programming (OTAP) enables software upgrades of the motes without the need of physical access. Software upgrades can be made in minutes and it is possible to choose between updating single nodes (unicast) or an entire network (broadcast).</p> <p>The encryption libraries for Waspmote ensure the authentication, confidentiality (privacy) and integrity of the information gathered by the sensors. To do so, different cryptography algorithms including AES 256, RSA 1024 and MD5 have been implemented.</p>',
-            challenge: '',
-            references:
-                '<p>Universities, research centres, system integrators, utilities, street light manufacturers, urban furniture manufacturers, and makers.</p>',
-            awards: '',
-            technologies: ['Internet of Things', 'Cloud Computing', 'Sensory Systems'],
-            domains: ['Cities'],
-            docs: [],
-            videos: [['Waspmote Gases Sensor Board-YouTube', 'https://www.youtube.com/watch?v=pj00pJMQsw0']],
-            materials: [],
-            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Libelium.svg',
-            featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_libelium_waspmote.png',
-            furtherImages: '',
-            related: [
-                {
-                    category: 'FIWARE-Ready',
-                    featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_libelium_meshlium.png',
-                    excerpt:
-                        'Meshlium is the IoT Gateway to connect any sensor to any Cloud Platform, including FIWARE. It provides customers/users with help to monitor daily activities in order to get gain business intelligence.',
-                    productName: 'Meshlium',
-                    companyLink: './?category=ready&id=libelium-meshlium'
-                },
-                {
-                    category: 'FIWARE-Ready',
-                    featuredImage:
-                        'https://www.fiware.org/wp-content/marketplace/images/hero_libelium_plug-and-sense.png',
-                    excerpt:
-                        'Plug&Sense is an IoT Device that offers its users several benefits such as easily attachment of the Sensor probes, solar panel option battery recharge, the 4G module features a GPS receiver etc.',
-                    productName: 'Plug&Sense!',
-                    companyLink: './?category=ready&id=libelium-plugsense'
-                },
-                {
-                    category: 'FIWARE-Ready',
-                    featuredImage: 'https://www.fiware.org/wp-content/uploads/e196bfeb4628f5eab36430d6ba5b5535.png',
-                    excerpt:
-                        'Smart Parking Sensor technology is a radar sensor device that allows the detection of parking availability indoors and outdoors.\nLibelium Smart Parking benefits from 2 different detection systems:\nRadar and Magnetic.\nGreater precision, improved detection and stability performance: 99% accuracy.',
-                    productName: 'Smart Parking',
-                    companyLink: './?category=ready&id=libelium-smartparking'
-                },
-                {
-                    category: 'FIWARE-Ready',
-                    featuredImage: 'https://www.fiware.org/wp-content/uploads/06a3e5d5bfa9fe16b1f6346db89d5946.png',
-                    excerpt:
-                        'Calculates traffic emissions for IoT measurements and model forecasts, allowing citizens and public authorities to easily understand the emissions amount in a location and timespan.',
-                    productName: 'Traffic Environmental Impact Calculation',
-                    companyLink: './?category=ready&id=libelium-trafficenvironmentalimpactcalculation'
-                },
-                {
-                    category: 'FIWARE-Ready',
-                    featuredImage: 'https://www.fiware.org/wp-content/uploads/1c63fe8805471c3b24f0b614cd1b44f4.png',
-                    excerpt:
-                        'Calculates European air quality index for IoT measurements and model forecasts, allowing citizens and public authorities to easily standardise the air quality status in a location and timespan.',
-                    productName: 'Air Quality Index Calculation',
-                    companyLink: './?category=ready&id=libelium-airqualityindexcalculation'
-                }
-            ],
-            hash: 'libelium-waspmote',
-            cat: 'ready',
-            social: '/fiware-ready/libelium/waspmote.html'
         },
         'montemas-cityprobe2': {
             category: 'FIWARE-Ready',
@@ -9400,7 +9315,8 @@ var pageData = {
             category: 'FIWARE-Ready',
             organisationName: 'Libelium',
             productName: 'Smart Parking',
-            organisationWebsite: 'https://libelium.com',
+            organisationWebsite:
+                'https://libelium.com/?utm_source=fiware.com&utm_medium=referral&utm_campaign=fiware_parking',
             organisationEmail: 'mailto:n.muro@libelium.com',
             linkedIn: 'https://www.linkedin.com/company/libelium/',
             twitter: 'https://twitter.com/libelium',
@@ -9412,14 +9328,30 @@ var pageData = {
                 '<ul> <li>Optimization of existing parking capacity</li> <li>Additional parking revenues: having real-time information about parking spaces increase parking revenues by up to 35%.</li> <li>Enforcement cost reduction and reduced parking violations</li> <li>Special permits detection (disabled, emergency…)</li> <li>Pricing strategies</li> <li>Reduction of traffic congestion</li> <li>Reduction of CO2, dust emissions (PM2.5 – PM10) and other pollutants. Congestion can be reduced by 15-30%.</li> <li>Reduction of noise pollution</li> <li>Improvement of quality of life and the reputation of being a greener city.</li> <li>Technological advancements such as online payments and the development of mobile apps for reserving parking slots are instrumental in driving the implementation of smart parking systems.</li> <li>Reduction in time spent looking for a parking space increases retail and business revenues in the area of implementation.</li> </ul>',
             challenge:
                 '<p>Finding parking in urban areas, whether public or private, is an everyday problem. The result is an increase in air and noise pollution, fuel consumption, traffic congestion and stress for citizens.</p> <p>The IoT is enabling to reduce gas emissions and traffic congestion while increasing drivers’ health.</p>',
-            references:
-                '<ul> <li><a href="https://www.libelium.com/libeliumworld/success-stories/a-smart-parking-solution-for-the-best-beach-city-in-the-usa/" title="Smart Parking in USA">Smart Parking in USA</a></li> <li><a href="https://www.libelium.com/libeliumworld/success-stories/libelium-iot-technology-at-the-parking-lot-of-the-most-emblematic-hotel-in-madrid/" title="Smart Parking in Madrid">Smart Parking in Madrid</a></li> <li><a href="https://www.libelium.com/libeliumworld/success-stories/iot-technology-to-monitor-parking-for-disabled-citizens-in-the-north-of-spain/" title="Smart Parking in the north of Spain ">Smart Parking in the north of Spain </a></li> <li><a href="https://www.libelium.com/libeliumworld/success-stories/smart-parking-iot-platform-to-increase-the-efficiency-of-electric-car-recharging-station/" title="Electric car recharging station">Electric car recharging station</a></li> </ul>',
+            references: '',
             awards: '',
             technologies: ['Internet of Things', 'Mobility and Location'],
             domains: ['Cities', 'Green Deal', 'Transport'],
             docs: [],
             videos: [],
-            materials: [],
+            materials: [
+                [
+                    'Smart Parking in USA',
+                    'https://www.libelium.com/libeliumworld/success-stories/a-smart-parking-solution-for-the-best-beach-city-in-the-usa/?utm_source=fiware.com&utm_medium=referral&utm_campaign=fiware_parking'
+                ],
+                [
+                    'Smart Parking in Madrid',
+                    'https://www.libelium.com/libeliumworld/success-stories/libelium-iot-technology-at-the-parking-lot-of-the-most-emblematic-hotel-in-madrid/?utm_source=fiware.com&utm_medium=referral&utm_campaign=fiware_parking'
+                ],
+                [
+                    'Smart Parking in the north of Spain',
+                    'https://www.libelium.com/libeliumworld/success-stories/iot-technology-to-monitor-parking-for-disabled-citizens-in-the-north-of-spain/?utm_source=fiware.com&utm_medium=referral&utm_campaign=fiware_parking'
+                ],
+                [
+                    'Electric car recharging station',
+                    'https://www.libelium.com/libeliumworld/success-stories/smart-parking-iot-platform-to-increase-the-efficiency-of-electric-car-recharging-station/?utm_source=fiware.com&utm_medium=referral&utm_campaign=fiware_parking'
+                ]
+            ],
             logo: 'https://www.fiware.org/wp-content/uploads/f5ea8d844b4fedae47a783a6a122d591.png',
             featuredImage: 'https://www.fiware.org/wp-content/uploads/e196bfeb4628f5eab36430d6ba5b5535.png',
             furtherImages: '',
@@ -9443,15 +9375,8 @@ var pageData = {
                 },
                 {
                     category: 'FIWARE-Ready',
-                    featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_libelium_waspmote.png',
-                    excerpt:
-                        'Waspmote hardware architecture has been specially designed to work with extremely low consumption. Digital switches allow to turn on and off any of the sensor interfaces as well as the radio modules.',
-                    productName: 'Waspmote',
-                    companyLink: './?category=ready&id=libelium-waspmote'
-                },
-                {
-                    category: 'FIWARE-Ready',
-                    featuredImage: 'https://www.fiware.org/wp-content/uploads/06a3e5d5bfa9fe16b1f6346db89d5946.png',
+                    featuredImage:
+                        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/pic_traffic-environment-libelium.jpg',
                     excerpt:
                         'Calculates traffic emissions for IoT measurements and model forecasts, allowing citizens and public authorities to easily understand the emissions amount in a location and timespan.',
                     productName: 'Traffic Environmental Impact Calculation',
@@ -9459,7 +9384,8 @@ var pageData = {
                 },
                 {
                     category: 'FIWARE-Ready',
-                    featuredImage: 'https://www.fiware.org/wp-content/uploads/1c63fe8805471c3b24f0b614cd1b44f4.png',
+                    featuredImage:
+                        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/pic_air-quality-index-libelium.jpg',
                     excerpt:
                         'Calculates European air quality index for IoT measurements and model forecasts, allowing citizens and public authorities to easily standardise the air quality status in a location and timespan.',
                     productName: 'Air Quality Index Calculation',
@@ -9524,7 +9450,7 @@ var pageData = {
             challenge:
                 '<p>As cities embrace the concept of smart cities, the traffic intensity forecasting service plays an important role in addressing the challenges and needs of urban mobility. One of the key challenges is optimizing traffic management within the city by efficiently regulating the traffic. By accurately forecasting the traffic, the service enables better coordination with other modes of transport, such as buses, trains, and ride-sharing services, fostering a seamless and integrated transportation network.</p>',
             references:
-                '<ul> <li><a href="https://imredd.fr/en/home/#qui-sommes-nous-mobile" title="IMREDD">IMREDD</a></li> <li><a href="https://tip-imredd.unice.fr/greenmovtrafficforecasting/forecast/greenmov/traffic?aggregation=1D&forecast_horizon=1D" title="GreenMov Traffic Forecasting">GreenMov Traffic Forecasting</a></li> </ul>',
+                '<p>-<a href="https://www.libelium.com/libeliumworld/designing-low-emission-zones-with-libelium-ia-solution-in-three-months/?utm_source=fiware.com&utm_medium=referral&utm_campaign=traffic-calc" title="Efficient design using libelium’s SIA ">Efficient design using libelium’s SIA </a></p>',
             awards: '',
             technologies: ['Artificial Intelligence', 'Big Data', 'Software as a Service'],
             domains: ['Cities', 'Sustainability', 'Transport'],
@@ -9552,7 +9478,8 @@ var pageData = {
             category: 'FIWARE-Ready',
             organisationName: 'Libelium',
             productName: 'Traffic Environmental Impact Calculation',
-            organisationWebsite: 'https://www.libelium.com',
+            organisationWebsite:
+                'https://www.libelium.com/?utm_source=fiware.com&utm_medium=referral&utm_campaign=aqi-calc',
             organisationEmail: 'mailto:e.illueca@libelium.com',
             linkedIn: '',
             twitter: '',
@@ -9561,9 +9488,9 @@ var pageData = {
                 'Calculates traffic emissions for IoT measurements and model forecasts, allowing citizens and public authorities to easily understand the emissions amount in a location and timespan.',
             yearOfValidation: 2023,
             description:
-                "<p>GreenMov <strong>Traffic Environmental Impact Calculation</strong> service empowers citizens and public authorities with real-time and forecasted insights into different locations' emissions. As concerns about air pollution and its impact on health rise, having access to accurate and up-to-date emissions readings is crucial for making informed decisions. </p> <p>Calculate Traffic Environmental Impact Calculation, promote intelligent mobility, and take sustainable actions by staying informed about traffic emissions.. In concrete, it provides the following benefits to involved stakeholders: i) real-time emissions information, ii) forecasted emissions information, iii) traffic management, iv) outdoor activities planning, iv) mobility decisions and v) environmental awareness.</p>",
+                "<p>Libelium Traffic Environmental Impact service empowers citizens and public authorities with real-time and forecasted insights into different locations' emissions. As concerns about air pollution and its impact on health rise, having access to accurate and up-to-date emissions readings is crucial for making informed decisions.</p> <p>Calculate Traffic Environmental Impact Calculation, promote intelligent mobility, and take sustainable actions by staying informed about traffic emissions. In concrete, it provides the following benefits to involved stakeholders: Real-time monitoring of air quality using IoT devices with the calculation of official WHO indicators Traffic and pollution dispersion models to identify and control critical pollution areas Sourcing and clustering air pollutants Ability to predict the effect that LEZ measures will have on city traffic Analysis of the impact on citizens and residents of the adopted policies and regulations Calculate Traffic Environmental Impact Calculation, promote intelligent mobility, and take sustainable actions by staying informed about traffic emissions.. In concrete, it provides the following benefits to involved stakeholders: i) real-time emissions information, ii) forecasted emissions information, iii) traffic management, iv) outdoor activities planning, iv) mobility decisions and v) environmental awareness.</p>",
             challenge:
-                '<p>One of the key components in smart cities and the decission making process is emissions monitoring, with special focus on traffic emissions, which provides valuable insights to citizens and policy makers to take decisions against climate change.  However, emissions information is quite complex and difficult to process. By combining with other greenMov services, it is possible to approximate traffic emissions and related impact easily and understandably, facing the complexity of the field.  In addition, another challenge is ensuring emissions information for citizens so they can make intelligent decisions regarding mobility or know which areas are highly polluted or will be highly polluted, allowing citizens to select cleaner paths.</p>',
+                '<p>Rapid urbanization and increased traffic lead to alarming levels of air pollution. Cities face the challenge of reducing pollutant gas emissions and promoting sustainable mobility. Companies and cities must effectively improve air quality, protect public health and promote a greener lifestyle in urban environments.  By combining with other Libelium solutions, it is possible to approximate traffic emissions and related impacts easily and understandably, facing the complexity of the field. In addition, another challenge is ensuring emissions information for citizens so they can make intelligent decisions regarding mobility or know which areas are highly polluted or will be highly polluted, allowing citizens to select cleaner paths.</p>',
             references:
                 '<ul> <li><a href="https://www.murcia.es/web/portal/inicio" title="Ayuntamiento de Murcia">Ayuntamiento de Murcia</a></li> <li><a href="https://imredd.fr/en/home/" title="IMREDD">IMREDD</a></li> </ul>',
             awards: '',
@@ -9571,9 +9498,15 @@ var pageData = {
             domains: ['Mobility', 'Sustainability', 'Transport'],
             docs: [],
             videos: [],
-            materials: [],
+            materials: [
+                [
+                    'Low Emission Zones',
+                    'https://www.libelium.com/libeliumworld/designing-low-emission-zones-with-libelium-ia-solution-in-three-months/?utm_source=fiware.com&utm_medium=referral&utm_campaign=traffic-calc'
+                ]
+            ],
             logo: 'https://www.fiware.org/wp-content/uploads/31f1f3fa98bbcb096bc4d5963aa9f43a.jpg',
-            featuredImage: 'https://www.fiware.org/wp-content/uploads/06a3e5d5bfa9fe16b1f6346db89d5946.png',
+            featuredImage:
+                'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/pic_traffic-environment-libelium.jpg',
             furtherImages: '',
             related: [
                 {
@@ -9595,14 +9528,6 @@ var pageData = {
                 },
                 {
                     category: 'FIWARE-Ready',
-                    featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_libelium_waspmote.png',
-                    excerpt:
-                        'Waspmote hardware architecture has been specially designed to work with extremely low consumption. Digital switches allow to turn on and off any of the sensor interfaces as well as the radio modules.',
-                    productName: 'Waspmote',
-                    companyLink: './?category=ready&id=libelium-waspmote'
-                },
-                {
-                    category: 'FIWARE-Ready',
                     featuredImage: 'https://www.fiware.org/wp-content/uploads/e196bfeb4628f5eab36430d6ba5b5535.png',
                     excerpt:
                         'Smart Parking Sensor technology is a radar sensor device that allows the detection of parking availability indoors and outdoors.\nLibelium Smart Parking benefits from 2 different detection systems:\nRadar and Magnetic.\nGreater precision, improved detection and stability performance: 99% accuracy.',
@@ -9611,7 +9536,8 @@ var pageData = {
                 },
                 {
                     category: 'FIWARE-Ready',
-                    featuredImage: 'https://www.fiware.org/wp-content/uploads/1c63fe8805471c3b24f0b614cd1b44f4.png',
+                    featuredImage:
+                        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/pic_air-quality-index-libelium.jpg',
                     excerpt:
                         'Calculates European air quality index for IoT measurements and model forecasts, allowing citizens and public authorities to easily standardise the air quality status in a location and timespan.',
                     productName: 'Air Quality Index Calculation',
@@ -9626,7 +9552,8 @@ var pageData = {
             category: 'FIWARE-Ready',
             organisationName: 'Libelium',
             productName: 'Air Quality Index Calculation',
-            organisationWebsite: 'https://www.libelium.com',
+            organisationWebsite:
+                'https://www.libelium.com/?utm_source=fiware.com&utm_medium=referral&utm_campaign=aqi-calc',
             organisationEmail: 'mailto:e.illueca@libelium.com',
             linkedIn: '',
             twitter: '',
@@ -9645,9 +9572,15 @@ var pageData = {
             domains: ['Air Quality', 'Cities', 'Sustainability'],
             docs: [],
             videos: [],
-            materials: [],
+            materials: [
+                [
+                    'NEOM-Air quality monitoring in construction sites',
+                    'https://www.libelium.com/libeliumworld/success-stories/the-line-sustainable-from-its-foundations-with-libeliums-ai-solution/'
+                ]
+            ],
             logo: 'https://www.fiware.org/wp-content/uploads/9b37f8d110b60d40a5c6a7f6d51c75d0.jpg',
-            featuredImage: 'https://www.fiware.org/wp-content/uploads/1c63fe8805471c3b24f0b614cd1b44f4.png',
+            featuredImage:
+                'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/pic_air-quality-index-libelium.jpg',
             furtherImages: '',
             related: [
                 {
@@ -9669,14 +9602,6 @@ var pageData = {
                 },
                 {
                     category: 'FIWARE-Ready',
-                    featuredImage: 'https://www.fiware.org/wp-content/marketplace/images/hero_libelium_waspmote.png',
-                    excerpt:
-                        'Waspmote hardware architecture has been specially designed to work with extremely low consumption. Digital switches allow to turn on and off any of the sensor interfaces as well as the radio modules.',
-                    productName: 'Waspmote',
-                    companyLink: './?category=ready&id=libelium-waspmote'
-                },
-                {
-                    category: 'FIWARE-Ready',
                     featuredImage: 'https://www.fiware.org/wp-content/uploads/e196bfeb4628f5eab36430d6ba5b5535.png',
                     excerpt:
                         'Smart Parking Sensor technology is a radar sensor device that allows the detection of parking availability indoors and outdoors.\nLibelium Smart Parking benefits from 2 different detection systems:\nRadar and Magnetic.\nGreater precision, improved detection and stability performance: 99% accuracy.',
@@ -9685,7 +9610,8 @@ var pageData = {
                 },
                 {
                     category: 'FIWARE-Ready',
-                    featuredImage: 'https://www.fiware.org/wp-content/uploads/06a3e5d5bfa9fe16b1f6346db89d5946.png',
+                    featuredImage:
+                        'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/pic_traffic-environment-libelium.jpg',
                     excerpt:
                         'Calculates traffic emissions for IoT measurements and model forecasts, allowing citizens and public authorities to easily understand the emissions amount in a location and timespan.',
                     productName: 'Traffic Environmental Impact Calculation',

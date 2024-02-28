@@ -333,8 +333,13 @@ function parse(detailsFile, summaryFile, processRun) {
                         process.exit(1);
                     }
 
+
                     if (fs.existsSync('marketplace')) {
-                        fs.rmSync('marketplace', { recursive: true });
+                        Template.cleanDir('marketplace/powered-by-fiware/')
+                        Template.cleanDir('marketplace/fiware-ready/')
+                        Template.cleanDir('marketplace/support-services/')
+                        Template.cleanDir('marketplace/cities4cities')
+                        //fs.rmSync('marketplace', { recursive: true });
                     } 
 
                     Template.write(

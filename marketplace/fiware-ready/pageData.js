@@ -467,20 +467,6 @@ var pageData = [
             'Plug&Sense is an IoT Device that offers its users several benefits such as easily attachment of the Sensor probes, solar panel option battery recharge, the 4G module features a GPS receiver etc.'
     },
     {
-        company: 'Libelium',
-        name: 'Waspmote',
-        img: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Libelium.svg',
-        fiwareMember: false,
-        fiwareIhub: false,
-        companyLink: '../product-details/?category=ready&id=libelium-waspmote',
-        domain: ['Cities'],
-        type: 'IoT Device',
-        technology: ['Internet of Things', 'Cloud Computing', 'Sensory Systems'],
-        year: 2017,
-        content:
-            'Waspmote hardware architecture has been specially designed to work with extremely low consumption. Digital switches allow to turn on and off any of the sensor interfaces as well as the radio modules.'
-    },
-    {
         company: 'MONTEM A/S',
         name: 'CityProbe 2',
         img: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_Montem.svg',
