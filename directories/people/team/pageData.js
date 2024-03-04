@@ -15,6 +15,7 @@ var companies = [
         'Business Development Manager DACH',
         'CEO',
         'Cloud Expert',
+        'CMO',
         'Community Manager',
         'COO',
         'CTO',
