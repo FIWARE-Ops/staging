@@ -1546,7 +1546,7 @@ var pageData = [
     {
         company: 'Solucionex',
         name: 'WebMonitor',
-        img: 'https://www.fiware.org/wp-content/uploads/ee11c5cc2226d379bc2d38af114ae3de.png',
+        img: 'https://www.fiware.org/wp-content/uploads/a69028c8321e56f05fd048fbd136bf75.png',
         fiwareMember: false,
         fiwareIhub: false,
         companyLink: '../product-details/?category=powered&id=solucionex-webmonitor',
