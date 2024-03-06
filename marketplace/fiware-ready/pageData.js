@@ -1096,6 +1096,26 @@ var pageData = [
         year: 2024,
         content:
             'Helios is a parking and charging solution for scooters and e-bikes. It is 100% sustainable, thanks to our Solar Arena pavement. It is managed through an App, which allows user interaction in real-time, and an online platform for customers to configure, monitor and manage charging stations remotely.'
+    },
+    {
+        company: 'Globaltronic',
+        name: 'SInGeLu v2',
+        img: 'https://www.fiware.org/wp-content/uploads/8fdeca6e9cb23872e7a3fee036043444.zip',
+        fiwareMember: false,
+        fiwareIhub: false,
+        companyLink: '../product-details/?category=ready&id=globaltronic-singeluv2',
+        domain: ['Cities', 'Electronics', 'Energy', 'Lighting', 'Weather'],
+        type: 'IoT Device',
+        technology: [
+            'Communication Networks',
+            'Data Analytics',
+            'Data Handling',
+            'Internet of Things',
+            'Sensory Systems'
+        ],
+        year: 2024,
+        content:
+            "We\\'re participating in a competition that requires FIWARE certification and we have some questions about it.Our product is a web platform with geo-referencing, focused on lighting, where it manages and controls luminaires and alarms.We have tested the API (NGSI-V2) via the Docker image you provided"
     }
 ];
 
