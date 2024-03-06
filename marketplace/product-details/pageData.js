@@ -4665,6 +4665,43 @@ var pageData = {
             hash: 'sociedadibéricadeconstruccioneseléctricas-kaliopepwfplatform',
             cat: 'powered',
             social: '/powered-by-fiware/sociedad-iberica-de-construcciones-electricas/kaliope-pwf-platform.html'
+        },
+        'solucionex-webmonitor': {
+            category: 'Powered by FIWARE',
+            organisationName: 'Solucionex',
+            productName: 'WebMonitor',
+            organisationWebsite: 'https://www.solucionex.com',
+            organisationEmail: 'mailto:info@solucionex.com',
+            linkedIn: 'https://www.linkedin.com/company/solucionex-sl/',
+            twitter: 'https://www.twitter.com/solucionex',
+            productWebsite: 'https://fiware.solucionex.dev',
+            excerpt:
+                'WebMonitor offers a pragmatic and efficient solution for website connectivity monitoring. Its design focuses on simplicity and on providing a useful tool for the everyday needs of any web operator.',
+            yearOfValidation: 2024,
+            description:
+                '<p><strong>WebMonitor</strong> offers a pragmatic and efficient solution for website connectivity monitoring. Its design focuses on simplicity and on providing a useful tool for the everyday needs of any web operator. Uncomplicated and uncomplicated, WebMonitor focuses on functionality and accessibility, allowing users to stay on top of the status of their websites with ease and efficiency.</p>',
+            challenge:
+                "<p>By leveraging FIWARE's advanced IoT and Big Data processing capabilities, WebMonitor provides a context-aware monitoring tool that adapts to the specific needs and challenges of any web operator, ensuring their websites remain accessible, efficient, and secure.</p>",
+            references:
+                '<p>Our main reference has been the Fiware Space Badajoz, which has trained us in the fundamentals and principles of FIWARE. Through their mentorship and support, we have developed WebMonitor, a product that embodies the essence of FIWARE technologies. This project is the direct result of the expert guidance and knowledge shared by Fiware Space Badajoz, demonstrating the real value of their mentorship program</p>',
+            awards: '<p>-</p>',
+            technologies: [
+                'Communication Networks',
+                'Data Analytics',
+                'Internet Services',
+                'Software as a Service',
+                'Service Architectures'
+            ],
+            domains: ['Telecommunication'],
+            docs: [['Fiware Web Monitor - SOLUCIONEX', 'https://fiware.solucionex.dev/webmonitor_technical.pdf']],
+            videos: [],
+            materials: [],
+            logo: 'https://www.fiware.org/wp-content/uploads/a69028c8321e56f05fd048fbd136bf75.png',
+            featuredImage: 'https://www.fiware.org/wp-content/uploads/ec85f03aee03e1e7d1a7006d0d3fa1e5.webp',
+            furtherImages: '',
+            hash: 'solucionex-webmonitor',
+            cat: 'powered',
+            social: '/powered-by-fiware/solucionex/webmonitor.html'
         }
     },
     ready: {
@@ -9739,6 +9776,43 @@ var pageData = {
             hash: 'solum-solarstationhelios',
             cat: 'ready',
             social: '/fiware-ready/solum/solar-station-helios.html'
+        },
+        'globaltronic-singeluv2': {
+            category: 'FIWARE-Ready',
+            organisationName: 'Globaltronic',
+            productName: 'SInGeLu v2',
+            organisationWebsite: 'https://globaltronic.pt',
+            organisationEmail: 'mailto:geral@globaltronic.pt',
+            linkedIn: 'https://www.linkedin.com/company/globaltronic-electronics-and-telecommunications',
+            twitter: '',
+            productWebsite: 'https://globaltronic.pt',
+            excerpt:
+                "We're participating in a competition that requires Fiware certification and we have some questions about it.Our product is a web platform with geo-referencing, focused on lighting, where it manages and controls luminaires and alarms.We have tested the API (NGSI-V2) via the Docker image you provided",
+            yearOfValidation: 2024,
+            description:
+                '<ul> <li>SInGeLu v2, is a web platform with geo-referencing that integrates systems and is currently focused on lighting, where it manages and controls luminaires and alarms</li> <li>It allows public entities to more efficiently manage their public lighting fleet, their consumption and optimize their energy efficiency.</li> <li>It allows you to manage the regulation of the luminous flux, either individually or in a group, which can be made up of streets, parks, areas, places, etc.</li> <li>It allows the creation of tickets, sending notifications to the indicated users. These tickets can be associated with a status, severity, one or more people responsible, description, comments and attached files.</li> </ul>',
+            challenge:
+                '<ul> <li>Challenge to the possibility of dynamic management of flow regulation, depending on the time of day, natural luminosity, its geographical position, the programming sent, the application of sensors and interaction with other applications, with the ultimate objective of energy savings.</li> <li>Challenge for prevention and preventive maintenance, minimizing corrective maintenance. By obtaining operating data, it will allow preventive maintenance actions to be taken, thus minimizing the impact of the failure on the population.</li> <li>Challenge to create interaction with other systems, thus optimizing their integration and aggregation of sensors.</li> <li>Challenge to create special interaction zones between the user and the lighting network, through the application of QRcodes on the roads.</li> </ul>',
+            references:
+                '<p>Intended for Customers such as:</p> <ul> <li>City Councils</li> <li>Stadiums</li> <li>Sports fields</li> <li>Subway station</li> <li>Historical structures</li> <li>Light shows among others</li> </ul>',
+            awards: '<p><a href="https://www.dgterritorio.gov.pt/sites/default/files/publicacoes/Cidades_Analiticas_2015.pdf" title="Urban Analytics 2015 ">Urban Analytics 2015 </a></p>',
+            technologies: [
+                'Communication Networks',
+                'Data Analytics',
+                'Data Handling',
+                'Internet of Things',
+                'Sensory Systems'
+            ],
+            domains: ['Cities', 'Electronics', 'Energy', 'Lighting', 'Weather'],
+            docs: [['SInGeLu', 'https://globaltronic.pt/en/platform/singelu-2/']],
+            videos: [],
+            materials: [],
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_globaltronic.svg',
+            featuredImage: 'https://www.fiware.org/wp-content/uploads/6fe89cfe246af5de16f3a9584098d0df.jpg',
+            furtherImages: '',
+            hash: 'globaltronic-singeluv2',
+            cat: 'ready',
+            social: '/fiware-ready/globaltronic/singelu-v2.html'
         }
     },
     cities: {

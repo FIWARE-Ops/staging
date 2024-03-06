@@ -1542,6 +1542,26 @@ var pageData = [
         year: 2023,
         content:
             'Kaliope pwF Platform is conceptualized as a turnkey solution that includes all the SW elements for collecting, transforming and loading “big data” from IoT devices and city services. It incorporates a Data Analytics layer with a set of dashboards for supporting and facilitating decision-making.'
+    },
+    {
+        company: 'Solucionex',
+        name: 'WebMonitor',
+        img: 'https://www.fiware.org/wp-content/uploads/ee11c5cc2226d379bc2d38af114ae3de.png',
+        fiwareMember: false,
+        fiwareIhub: false,
+        companyLink: '../product-details/?category=powered&id=solucionex-webmonitor',
+        domain: ['Telecommunication'],
+        type: 'Solution',
+        technology: [
+            'Communication Networks',
+            'Data Analytics',
+            'Internet Services',
+            'Software as a Service',
+            'Service Architectures'
+        ],
+        year: 2024,
+        content:
+            'WebMonitor offers a pragmatic and efficient solution for website connectivity monitoring. Its design focuses on simplicity and on providing a useful tool for the everyday needs of any web operator.'
     }
 ];
 
