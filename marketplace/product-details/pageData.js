@@ -4702,6 +4702,47 @@ var pageData = {
             hash: 'solucionex-webmonitor',
             cat: 'powered',
             social: '/powered-by-fiware/solucionex/webmonitor.html'
+        },
+        'ekom21-cosma21': {
+            category: 'Powered by FIWARE',
+            organisationName: 'ekom21',
+            productName: 'cosma21',
+            organisationWebsite: 'https://www.ekom21.de/loesungen/cosma21/',
+            organisationEmail: 'mailto:stab6d-cosma21@ekom21.de',
+            linkedIn: '',
+            twitter: '',
+            productWebsite: 'https://www.hessen-kommunal.digital/en/urban-data-platform/',
+            excerpt:
+                'The aim of our Smart City/Smart Region data platform cosma21 is to network the individual systems of the municipalities and their service providers or own enterprises. The resulting insights can then be used to significantly improve the quality of the decisions based on them.',
+            yearOfValidation: 2024,
+            description:
+                '<p>Citizens profit from the development of their community/region into a Smart City / Smart Region in various ways. The following areas are to be named as examples:</p> <ul> <li>optimized search for free parking lots</li> <li>decreased driving time</li> <li>networking of rural areas</li> <li>safe and user-oriented street lighting</li> <li>citizen participation</li> <li>a single source of information …amongst many others.</li> </ul>',
+            challenge:
+                '<p>One of the many challenge topics communities and regions face is energy. Energy prices have been rising for years, but with recent international events, inflation has accelerated. At the same time, saving energy has never been easier for municipalities than with digital solutions. A particularly good example of this is smart street lighting: here, streetlights are connected with sensor technology to increase the lighting intensity based on use and to dim it when not in use. </p> <p>The regulation is carried out automatically by built-in sensors. One approach is to control the on/off time by a brightness sensor to create the required lighting conditions in every situation. Another approach is to control light according to presence. For example, it could only shine more intensively when passers-by or cars are actually in the area of the light point. In addition, the aspect of environmental protection has recently been incorporated into the control of streetlights, especially the protection of insects. </p> <p>The pollination of a meadow decreases by more than two-thirds at night if there is a streetlight nearby. Accordingly, it is possible and necessary to control the street lamps near appropriate meadows so that insects are not disturbed at night. The current status of the streetlight and the location are displayed in the cockpit or dashboard of the data platform.</p>',
+            references: '<p>Frankfurt am Main</p>',
+            awards: '<p>Frankfurt am Main was awarded the Smart City Award for their use of cosma21 in June 2023.</p>',
+            technologies: ['Big Data', 'Data Analytics', 'Digital Twins', 'Internet of Things', 'Open Data'],
+            domains: ['Air Quality', 'Cities', 'Energy', 'Mobility', 'Sustainability'],
+            docs: [],
+            videos: [],
+            materials: [
+                [
+                    'Frankfurt-Live',
+                    'https://www.frankfurt-live.com/frankfurt-erh-aumllt-internationale-auszeichnung-f-uumlr-urbane-datenplattform-155946.html'
+                ],
+                [
+                    'Smart City Award',
+                    'https://www.kommune21.de/meldung_38394_Das+Ende+der+Papier-ra.html/druck/meldung_41628_Smart+City+Award+fr+cosma21.html'
+                ],
+                ['Urbane Datenplattform der Stadt Frankfurt', 'https://urbane-datenplattform.frankfurt.de/#!/tiles/'],
+                ['Datenplattform der Wissenschaftsstadt Darmstadt', 'https://datenplattform.darmstadt.de/#!/tiles/']
+            ],
+            logo: 'https://www.fiware.org/wp-content/uploads/ee11c5cc2226d379bc2d38af114ae3de.png',
+            featuredImage: 'https://www.fiware.org/wp-content/uploads/938cb70bb2c247801a7bf5c46022d64e.png',
+            furtherImages: '',
+            hash: 'ekom21-cosma21',
+            cat: 'powered',
+            social: '/powered-by-fiware/ekom21/cosma21.html'
         }
     },
     ready: {
