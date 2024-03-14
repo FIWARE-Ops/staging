@@ -1571,7 +1571,7 @@ var pageData = [
         fiwareIhub: false,
         companyLink: '../product-details/?category=powered&id=ekom21-cosma21',
         domain: ['Air Quality', 'Cities', 'Energy', 'Mobility', 'Sustainability'],
-        type: 'Solution',
+        type: 'Platform',
         technology: ['Big Data', 'Data Analytics', 'Digital Twins', 'Internet of Things', 'Open Data'],
         year: 2024,
         content:
