@@ -4,7 +4,8 @@ const fs = require('fs-extra');
 const _ = require('underscore');
 
 
-const notFound = `<html lang="en-US">
+const notFound = `<!doctype html>
+<html lang="en-US">
 <head>
 <title>FIWARE Foundation: Page Not Found</title>
 <meta http-equiv="refresh" content="0; url=https://www.fiware.org/404.html" />
