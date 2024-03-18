@@ -1542,6 +1542,40 @@ var pageData = [
         year: 2023,
         content:
             'Kaliope pwF Platform is conceptualized as a turnkey solution that includes all the SW elements for collecting, transforming and loading “big data” from IoT devices and city services. It incorporates a Data Analytics layer with a set of dashboards for supporting and facilitating decision-making.'
+    },
+    {
+        company: 'Solucionex',
+        name: 'WebMonitor',
+        img: 'https://www.fiware.org/wp-content/uploads/a69028c8321e56f05fd048fbd136bf75.png',
+        fiwareMember: false,
+        fiwareIhub: false,
+        companyLink: '../product-details/?category=powered&id=solucionex-webmonitor',
+        domain: ['Telecommunication'],
+        type: 'Solution',
+        technology: [
+            'Communication Networks',
+            'Data Analytics',
+            'Internet Services',
+            'Software as a Service',
+            'Service Architectures'
+        ],
+        year: 2024,
+        content:
+            'WebMonitor offers a pragmatic and efficient solution for website connectivity monitoring. Its design focuses on simplicity and on providing a useful tool for the everyday needs of any web operator.'
+    },
+    {
+        company: 'ekom21',
+        name: 'cosma21',
+        img: 'https://www.fiware.org/wp-content/uploads/ee11c5cc2226d379bc2d38af114ae3de.png',
+        fiwareMember: false,
+        fiwareIhub: false,
+        companyLink: '../product-details/?category=powered&id=ekom21-cosma21',
+        domain: ['Air Quality', 'Cities', 'Energy', 'Mobility', 'Sustainability'],
+        type: 'Platform',
+        technology: ['Big Data', 'Data Analytics', 'Digital Twins', 'Internet of Things', 'Open Data'],
+        year: 2024,
+        content:
+            'The aim of our Smart City/Smart Region data platform cosma21 is to network the individual systems of the municipalities and their service providers or own enterprises. The resulting insights can then be used to significantly improve the quality of the decisions based on them.'
     }
 ];
 

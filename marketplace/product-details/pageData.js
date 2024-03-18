@@ -4665,6 +4665,84 @@ var pageData = {
             hash: 'sociedadibéricadeconstruccioneseléctricas-kaliopepwfplatform',
             cat: 'powered',
             social: '/powered-by-fiware/sociedad-iberica-de-construcciones-electricas/kaliope-pwf-platform.html'
+        },
+        'solucionex-webmonitor': {
+            category: 'Powered by FIWARE',
+            organisationName: 'Solucionex',
+            productName: 'WebMonitor',
+            organisationWebsite: 'https://www.solucionex.com',
+            organisationEmail: 'mailto:info@solucionex.com',
+            linkedIn: 'https://www.linkedin.com/company/solucionex-sl/',
+            twitter: 'https://www.twitter.com/solucionex',
+            productWebsite: 'https://fiware.solucionex.dev',
+            excerpt:
+                'WebMonitor offers a pragmatic and efficient solution for website connectivity monitoring. Its design focuses on simplicity and on providing a useful tool for the everyday needs of any web operator.',
+            yearOfValidation: 2024,
+            description:
+                '<p><strong>WebMonitor</strong> offers a pragmatic and efficient solution for website connectivity monitoring. Its design focuses on simplicity and on providing a useful tool for the everyday needs of any web operator. Uncomplicated and uncomplicated, WebMonitor focuses on functionality and accessibility, allowing users to stay on top of the status of their websites with ease and efficiency.</p>',
+            challenge:
+                "<p>By leveraging FIWARE's advanced IoT and Big Data processing capabilities, WebMonitor provides a context-aware monitoring tool that adapts to the specific needs and challenges of any web operator, ensuring their websites remain accessible, efficient, and secure.</p>",
+            references:
+                '<p>Our main reference has been the Fiware Space Badajoz, which has trained us in the fundamentals and principles of FIWARE. Through their mentorship and support, we have developed WebMonitor, a product that embodies the essence of FIWARE technologies. This project is the direct result of the expert guidance and knowledge shared by Fiware Space Badajoz, demonstrating the real value of their mentorship program</p>',
+            awards: '<p>-</p>',
+            technologies: [
+                'Communication Networks',
+                'Data Analytics',
+                'Internet Services',
+                'Software as a Service',
+                'Service Architectures'
+            ],
+            domains: ['Telecommunication'],
+            docs: [['Fiware Web Monitor - SOLUCIONEX', 'https://fiware.solucionex.dev/webmonitor_technical.pdf']],
+            videos: [],
+            materials: [],
+            logo: 'https://www.fiware.org/wp-content/uploads/a69028c8321e56f05fd048fbd136bf75.png',
+            featuredImage: 'https://www.fiware.org/wp-content/uploads/ec85f03aee03e1e7d1a7006d0d3fa1e5.webp',
+            furtherImages: '',
+            hash: 'solucionex-webmonitor',
+            cat: 'powered',
+            social: '/powered-by-fiware/solucionex/webmonitor.html'
+        },
+        'ekom21-cosma21': {
+            category: 'Powered by FIWARE',
+            organisationName: 'ekom21',
+            productName: 'cosma21',
+            organisationWebsite: 'https://www.ekom21.de/loesungen/cosma21/',
+            organisationEmail: 'mailto:stab6d-cosma21@ekom21.de',
+            linkedIn: '',
+            twitter: '',
+            productWebsite: 'https://www.hessen-kommunal.digital/en/urban-data-platform/',
+            excerpt:
+                'The aim of our Smart City/Smart Region data platform cosma21 is to network the individual systems of the municipalities and their service providers or own enterprises. The resulting insights can then be used to significantly improve the quality of the decisions based on them.',
+            yearOfValidation: 2024,
+            description:
+                '<p>Citizens profit from the development of their community/region into a Smart City / Smart Region in various ways. The following areas are to be named as examples:</p> <ul> <li>optimized search for free parking lots</li> <li>decreased driving time</li> <li>networking of rural areas</li> <li>safe and user-oriented street lighting</li> <li>citizen participation</li> <li>a single source of information …amongst many others.</li> </ul>',
+            challenge:
+                '<p>One of the many challenge topics communities and regions face is energy. Energy prices have been rising for years, but with recent international events, inflation has accelerated. At the same time, saving energy has never been easier for municipalities than with digital solutions. A particularly good example of this is smart street lighting: here, streetlights are connected with sensor technology to increase the lighting intensity based on use and to dim it when not in use. </p> <p>The regulation is carried out automatically by built-in sensors. One approach is to control the on/off time by a brightness sensor to create the required lighting conditions in every situation. Another approach is to control light according to presence. For example, it could only shine more intensively when passers-by or cars are actually in the area of the light point. In addition, the aspect of environmental protection has recently been incorporated into the control of streetlights, especially the protection of insects. </p> <p>The pollination of a meadow decreases by more than two-thirds at night if there is a streetlight nearby. Accordingly, it is possible and necessary to control the street lamps near appropriate meadows so that insects are not disturbed at night. The current status of the streetlight and the location are displayed in the cockpit or dashboard of the data platform.</p>',
+            references: '<p>Frankfurt am Main</p>',
+            awards: '<p>Frankfurt am Main was awarded the Smart City Award for their use of cosma21 in June 2023.</p>',
+            technologies: ['Big Data', 'Data Analytics', 'Digital Twins', 'Internet of Things', 'Open Data'],
+            domains: ['Air Quality', 'Cities', 'Energy', 'Mobility', 'Sustainability'],
+            docs: [],
+            videos: [],
+            materials: [
+                [
+                    'Frankfurt-Live',
+                    'https://www.frankfurt-live.com/frankfurt-erh-aumllt-internationale-auszeichnung-f-uumlr-urbane-datenplattform-155946.html'
+                ],
+                [
+                    'Smart City Award',
+                    'https://www.kommune21.de/meldung_38394_Das+Ende+der+Papier-ra.html/druck/meldung_41628_Smart+City+Award+fr+cosma21.html'
+                ],
+                ['Urbane Datenplattform der Stadt Frankfurt', 'https://urbane-datenplattform.frankfurt.de/#!/tiles/'],
+                ['Datenplattform der Wissenschaftsstadt Darmstadt', 'https://datenplattform.darmstadt.de/#!/tiles/']
+            ],
+            logo: 'https://www.fiware.org/wp-content/uploads/ee11c5cc2226d379bc2d38af114ae3de.png',
+            featuredImage: 'https://www.fiware.org/wp-content/uploads/938cb70bb2c247801a7bf5c46022d64e.png',
+            furtherImages: '',
+            hash: 'ekom21-cosma21',
+            cat: 'powered',
+            social: '/powered-by-fiware/ekom21/cosma21.html'
         }
     },
     ready: {
@@ -9739,6 +9817,43 @@ var pageData = {
             hash: 'solum-solarstationhelios',
             cat: 'ready',
             social: '/fiware-ready/solum/solar-station-helios.html'
+        },
+        'globaltronic-singeluv2': {
+            category: 'FIWARE-Ready',
+            organisationName: 'Globaltronic',
+            productName: 'SInGeLu v2',
+            organisationWebsite: 'https://globaltronic.pt',
+            organisationEmail: 'mailto:geral@globaltronic.pt',
+            linkedIn: 'https://www.linkedin.com/company/globaltronic-electronics-and-telecommunications',
+            twitter: '',
+            productWebsite: 'https://globaltronic.pt',
+            excerpt:
+                "We're participating in a competition that requires Fiware certification and we have some questions about it.Our product is a web platform with geo-referencing, focused on lighting, where it manages and controls luminaires and alarms.We have tested the API (NGSI-V2) via the Docker image you provided",
+            yearOfValidation: 2024,
+            description:
+                '<ul> <li>SInGeLu v2, is a web platform with geo-referencing that integrates systems and is currently focused on lighting, where it manages and controls luminaires and alarms</li> <li>It allows public entities to more efficiently manage their public lighting fleet, their consumption and optimize their energy efficiency.</li> <li>It allows you to manage the regulation of the luminous flux, either individually or in a group, which can be made up of streets, parks, areas, places, etc.</li> <li>It allows the creation of tickets, sending notifications to the indicated users. These tickets can be associated with a status, severity, one or more people responsible, description, comments and attached files.</li> </ul>',
+            challenge:
+                '<ul> <li>Challenge to the possibility of dynamic management of flow regulation, depending on the time of day, natural luminosity, its geographical position, the programming sent, the application of sensors and interaction with other applications, with the ultimate objective of energy savings.</li> <li>Challenge for prevention and preventive maintenance, minimizing corrective maintenance. By obtaining operating data, it will allow preventive maintenance actions to be taken, thus minimizing the impact of the failure on the population.</li> <li>Challenge to create interaction with other systems, thus optimizing their integration and aggregation of sensors.</li> <li>Challenge to create special interaction zones between the user and the lighting network, through the application of QRcodes on the roads.</li> </ul>',
+            references:
+                '<p>Intended for Customers such as:</p> <ul> <li>City Councils</li> <li>Stadiums</li> <li>Sports fields</li> <li>Subway station</li> <li>Historical structures</li> <li>Light shows among others</li> </ul>',
+            awards: '<p><a href="https://www.dgterritorio.gov.pt/sites/default/files/publicacoes/Cidades_Analiticas_2015.pdf" title="Urban Analytics 2015 ">Urban Analytics 2015 </a></p>',
+            technologies: [
+                'Communication Networks',
+                'Data Analytics',
+                'Data Handling',
+                'Internet of Things',
+                'Sensory Systems'
+            ],
+            domains: ['Cities', 'Electronics', 'Energy', 'Lighting', 'Weather'],
+            docs: [['SInGeLu', 'https://globaltronic.pt/en/platform/singelu-2/']],
+            videos: [],
+            materials: [],
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_globaltronic.svg',
+            featuredImage: 'https://www.fiware.org/wp-content/uploads/6fe89cfe246af5de16f3a9584098d0df.jpg',
+            furtherImages: '',
+            hash: 'globaltronic-singeluv2',
+            cat: 'ready',
+            social: '/fiware-ready/globaltronic/singelu-v2.html'
         }
     },
     cities: {
