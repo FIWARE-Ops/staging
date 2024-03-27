@@ -1115,7 +1115,7 @@ var pageData = [
         ],
         year: 2024,
         content:
-            "We\\'re participating in a competition that requires FIWARE certification and we have some questions about it.Our product is a web platform with geo-referencing, focused on lighting, where it manages and controls luminaires and alarms.We have tested the API (NGSI-V2) via the Docker image you provided"
+            'SInGeLu v2 is the software that leads your intelligent city, collecting data from connected technology and other available sources. It is able to evaluate the information and reports of the city control centre.'
     }
 ];
 
