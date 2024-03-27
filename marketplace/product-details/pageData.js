@@ -9828,7 +9828,7 @@ var pageData = {
             twitter: '',
             productWebsite: 'https://globaltronic.pt',
             excerpt:
-                "We're participating in a competition that requires Fiware certification and we have some questions about it.Our product is a web platform with geo-referencing, focused on lighting, where it manages and controls luminaires and alarms.We have tested the API (NGSI-V2) via the Docker image you provided",
+                'SInGeLu v2 is the software that leads your intelligent city, collecting data from connected technology and other available sources. It is able to evaluate the information and reports of the city control centre.',
             yearOfValidation: 2024,
             description:
                 '<ul> <li>SInGeLu v2, is a web platform with geo-referencing that integrates systems and is currently focused on lighting, where it manages and controls luminaires and alarms</li> <li>It allows public entities to more efficiently manage their public lighting fleet, their consumption and optimize their energy efficiency.</li> <li>It allows you to manage the regulation of the luminous flux, either individually or in a group, which can be made up of streets, parks, areas, places, etc.</li> <li>It allows the creation of tickets, sending notifications to the indicated users. These tickets can be associated with a status, severity, one or more people responsible, description, comments and attached files.</li> </ul>',
