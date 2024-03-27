@@ -1100,7 +1100,7 @@ var pageData = [
     {
         company: 'Globaltronic',
         name: 'SInGeLu v2',
-        img: 'https://www.fiware.org/wp-content/uploads/8fdeca6e9cb23872e7a3fee036043444.zip',
+        img: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/iot-device/logo_globaltronic.svg',
         fiwareMember: false,
         fiwareIhub: false,
         companyLink: '../product-details/?category=ready&id=globaltronic-singeluv2',
