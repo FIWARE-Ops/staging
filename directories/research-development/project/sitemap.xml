@@ -13,6 +13,10 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/project/arise.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/project/battery-pass.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -41,6 +45,14 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/project/cyclops.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/project/deployemds.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/project/didoz-etteln.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -58,6 +70,10 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/project/ds4sscc.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/project/ds4sscc-dep.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -113,6 +129,10 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/project/nemo-bil.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/project/odala.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -122,6 +142,14 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/project/prepdspace4mobility.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/project/rise-sme.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/project/sm4rtenance.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
