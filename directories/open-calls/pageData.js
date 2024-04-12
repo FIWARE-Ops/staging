@@ -18,6 +18,7 @@ var titles = [
         'RTO',
         'RTOs',
         'Scaleups',
+        'SME',
         'SMEs',
         'SMEs Consortium',
         'SMEs Micro Consortium',
