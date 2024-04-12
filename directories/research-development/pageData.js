@@ -7,6 +7,7 @@ var years = [
         '2021',
         '2022',
         '2023',
+        '2024',
 ];
 var departments = [
         'Completed',
@@ -19,9 +20,12 @@ var departments = [
         'Energy',
         'Green Deal',
         'Industry',
+        'Manufacturing',
         'Mobility',
         'Robotics',
         'Security',
+        'Smart Cities',
+        'Smart Mobility',
         'Water',
 ]; var countries = [
         'European Commission',
