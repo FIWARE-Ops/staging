@@ -41,8 +41,8 @@ var companies = [
         'Technical Expert',
         'Technical Lead',
         'Vice President Business Development',
+        'Vice President of Strategic Marketing Initiatives',
         'VP Funded Programs',
-        'VP of Strategic Marketing Initiatives',
 ]; var countries = [
 ]; var modalData = [
     { name: "Dr. Alberto Abella", img: "https://www.fiware.org/wp-content/directories/people/images/200px/alberto-abella.jpg", position: "Data Modeling Expert &amp; Evangelist", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
@@ -126,7 +126,7 @@ var companies = [
     { name: "Xhulja Melyshi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/xhulja-melyshi.jpg", position: "Marketplace Manager", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
     content: "Xhulja Melyshi (f) is a student in her last semester at the University of Potsdam and is managing the Marketplace at FIWARE Foundation. She will soon be getting her degree from Master of Science in Clinical Exercise Science. She loves traveling as well as gaining international work experience which brought her to accomplish educational programs in Greece, Bulgaria, Albania, and Germany. She is currently managing the existing products as well as the new entries.", linkedin: "https://www.linkedin.com/in/xhulja-melyshi-273b66211/", twitter: "", domain: "", location: "",
     flag: "", },
-    { name: "Lydia Montandon", img: "https://www.fiware.org/wp-content/directories/people/images/200px/lydia-montandon.jpg", position: "VP of Strategic Marketing Initiatives", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
+    { name: "Lydia Montandon", img: "https://www.fiware.org/wp-content/directories/people/images/200px/lydia-montandon.jpg", position: "Vice President of Strategic Marketing Initiatives", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
     content: "Lydia Montandon (f) is marketing and project manager at the FIWARE Foundation. Previously, she was a consultant in digital transformation at Atos, with focus on innovation, experience and accessibility services. Before, her role as business development director was to promote and find a market to exploit R&amp;D outcomes and Innovations. In particular, she supported the commercialization of FIWARE methods and tools when they became mature enough to be proposed to Atos&#x27; clients. She has more than 20 years of experience in coordinating, managing and promoting large European R&amp;D projects. She has contributed to the development of Innovation Management strategies and facilitated co-creation and innovation workshops during more than 10 years. She holds a Master of Science in Education Technologies from the University of Geneva, Switzerland, an MBA in Sustainable Development and Diplomacy from EUCLID University and a diploma in Design &amp; Visual Communication from the Istituto Europeo di Design, Milan, Italy. She is fluent in English, French, Italian, Spanish, German and Greek.", linkedin: "https://www.linkedin.com/in/lydiamontandon/", twitter: "https://twitter.com/lmontandon", domain: "", location: "",
     flag: "", },
     { name: "Clara Pezuela", img: "https://www.fiware.org/wp-content/directories/people/images/200px/clara-pezuela.jpg", position: "Vice President Funded Programs", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
