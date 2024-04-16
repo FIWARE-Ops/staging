@@ -8,7 +8,6 @@ var companies = [
         'Tech Team',
 ]; var domains = [
 ]; var titles = [
-        'Acting CTO',
         'AI Expert',
         'Americas',
         'APAC',
@@ -20,6 +19,7 @@ var companies = [
         'CMO',
         'Community Manager',
         'COO',
+        'CTO',
         'Data Modeling Expert',
         'Demonstrator Manager',
         'Designer',
@@ -48,7 +48,7 @@ var companies = [
     { name: "Dr. Alberto Abella", img: "https://www.fiware.org/wp-content/directories/people/images/200px/alberto-abella.jpg", position: "Data Modeling Expert &amp; Evangelist", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
     content: "Alberto Abella (m) is PhD in Business (Open data) and Telecommunications Engineer and Master in Total Quality Management, Business Administration and Business Organization. He works as a Data Modelling Expert and Technical Evangelist at FIWARE and currently is the responsible person for the smart data models initiative.", linkedin: "https://www.linkedin.com/in/albertoabella/", twitter: "https://twitter.com/aabella", domain: "", location: "",
     flag: "", },
-    { name: "Andrea Battaglia", img: "https://www.fiware.org/wp-content/directories/people/images/200px/andrea-battaglia.jpg", position: "Chief Executive Officer", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
+    { name: "Andrea Battaglia", img: "https://www.fiware.org/wp-content/directories/people/images/200px/andrea-battaglia.jpg", position: "Chief Executive Officer, Acting CTO", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
     content: "With 20 years of expertise in the Global IT industry, Andrea Battaglia (m) is an accomplished thought leader with a proven track record in Digital Transformation, Enterprise IoT, and Ecosystem development. Thanks to his deep knowledge of the enterprise open-source industry&#x27;s business and technical aspects, Andrea brings a wealth of experience to the forefront of FIWARE&#x27;s mission to empower organizations through innovative open-source technologies, Ecosystem collaboration, and customer-centric vision.", linkedin: "https://www.linkedin.com/in/abattagl/", twitter: "", domain: "", location: "",
     flag: "", },
     { name: "Anna Beyer", img: "https://www.fiware.org/wp-content/directories/people/images/200px/anna-beyer.jpg", position: "Marketing &amp; Project Manager", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
@@ -132,7 +132,7 @@ var companies = [
     { name: "Clara Pezuela", img: "https://www.fiware.org/wp-content/directories/people/images/200px/clara-pezuela.jpg", position: "Vice President Funded Programs", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
     content: "Clara Pezuela (f) has a degree in Computer Science from the Universidad Politécnica of Madrid. She has 23 years’ experience in research for digital technologies domain mostly through European research and innovation projects. Currently, she is Vice President Funded Programs at FIWARE Foundation. Her main responsibilities now are the monitoring of funded projects, the new research projects scanning and the engagement of the foundation with European institutions and initiatives. Master in Innovation Management and GOLD for Business Leaders, she has high level skills in innovation and technology transfer from research to business and society. Technically, she has an advance level of knowledge in services architectures, cloud/edge computing, digital platforms, IoT and data spaces. Additionally, she has a high level of knowledge in Open Source licensing, delivery and processes. Currently, she is coordinating FIWARE activities around data spaces, participating actively in Date Spaces Support Center and Manufacturing, Mobility and Smart Communities data spaces.", linkedin: "https://www.linkedin.com/in/clara-pezuela-2b1257/", twitter: "", domain: "", location: "",
     flag: "", },
-    { name: "Jesús Ruiz Martinez", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jesus-ruiz.jpg", position: "Acting CTO", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
+    { name: "Jesús Ruiz Martinez", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jesus-ruiz.jpg", position: "Senior Consultant", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
     content: "Member of the board and CTO of Alastria Blockchain Ecosystem, participates in the Technical Governance of EBSI (European Blockchain Services Infrastructure from European Commission and Member States), and in LACChain (blockchain network promoted by the Inter-American Development Bank). He inspired the Public-Permissioned model followed by those networks, where decentralized governance and SSI are critical components.", linkedin: "https://www.linkedin.com/in/jesus-ruiz-martinez/", twitter: "", domain: "", location: "",
     flag: "", },
     { name: "Dr. Tonia Sapia", img: "https://www.fiware.org/wp-content/directories/people/images/200px/tonia-sapia.jpg", position: "Leader of Strategic Programs - Operations", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
