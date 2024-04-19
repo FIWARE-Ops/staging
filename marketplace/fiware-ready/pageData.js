@@ -1116,6 +1116,46 @@ var pageData = [
         year: 2024,
         content:
             'SInGeLu v2 is the software that leads your intelligent city, collecting data from connected technology and other available sources. It is able to evaluate the information and reports of the city control centre.'
+    },
+    {
+        company: 'IAPsolutions',
+        name: 'IAPsmartirrigation',
+        img: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_iap-solutions.svg',
+        fiwareMember: false,
+        fiwareIhub: false,
+        companyLink: '../product-details/?category=ready&id=iapsolutions-iapsmartirrigation',
+        domain: ['Agriculture', 'Cities', 'Green Deal', 'Parks &amp; Gardens', 'Water'],
+        type: 'Software Enabler',
+        technology: [
+            'Artificial Intelligence',
+            'Big Data',
+            'Internet of Things',
+            'Sensory Systems',
+            'Software as a Service'
+        ],
+        year: 2024,
+        content:
+            'IAPsmartirrigation is a centralized intelligent irrigation solution for agriculture, parks, and other green areas, facilitating significant water, fertilizer, and energy optimization.'
+    },
+    {
+        company: 'Dinycon Sistemas',
+        name: 'DinyCONT',
+        img: 'https://www.fiware.org/wp-content/uploads/bbe92e59850472dda2eee301d7419d37.jpg',
+        fiwareMember: false,
+        fiwareIhub: false,
+        companyLink: '../product-details/?category=ready&id=dinyconsistemas-dinycont',
+        domain: ['Cities', 'Mobility', 'Retail and Wholesale', 'Tourism', 'Water'],
+        type: 'Software Enabler',
+        technology: [
+            'Artificial Intelligence',
+            'Data Analytics',
+            'Data Spaces',
+            'Internet of Things',
+            'Mobility and Location'
+        ],
+        year: 2024,
+        content:
+            'DinyCONT provides people counting and information on people flow, differentiating between children, adults and people, etc. The system can be set up to measure in one or multiple zones, by accesses, time slots, etc. All of which is readily accessible from our software platform on the Cloud.'
     }
 ];
 

@@ -308,5 +308,13 @@
 			<loc>https://www.fiware.org/fiware-ready/globaltronic/singelu-v2.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
+		<url>
+			<loc>https://www.fiware.org/fiware-ready/iapsolutions/iapsmartirrigation.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fiware-ready/dinycon-sistemas/dinycont.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
 </urlset>
 

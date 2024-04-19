@@ -9854,6 +9854,115 @@ var pageData = {
             hash: 'globaltronic-singeluv2',
             cat: 'ready',
             social: '/fiware-ready/globaltronic/singelu-v2.html'
+        },
+        'iapsolutions-iapsmartirrigation': {
+            category: 'FIWARE-Ready',
+            organisationName: 'IAPsolutions',
+            productName: 'IAPsmartirrigation',
+            organisationWebsite: 'https://www.iapsolutions.com',
+            organisationEmail: 'mailto:administration@iapsolutions.com',
+            linkedIn: 'https://es.linkedin.com/company/iapsolutions',
+            twitter: 'https://twitter.com/iapsolutions?lang=es',
+            productWebsite: 'https://www.iapsolutions.com/en/smart-irrigation',
+            excerpt:
+                'IAPsmartirrigation is a centralized intelligent irrigation solution for agriculture, parks, and other green areas, facilitating significant water, fertilizer, and energy optimization.',
+            yearOfValidation: 2024,
+            description:
+                '<p>Solution for the centralized management of irrigation infrastructures. It enables the management of all elements of the infrastructure, including those inherent to it (pumps, actuators, water deposits, weather stations, humidity, temperature, and pressure sensors, etc.), as well as external ones (meteorological agencies, satellite images, etc.) from which it gathers information to automatically reprogram the irrigation schedules, fully optimizing water and energy consumption. It allows a complete automated remote management of the infrastructure, based on modern software technologies, such as rules, Artificial Intelligence and Edge Processing.</p>',
+            challenge:
+                '<p>In a context where sustainability, interoperability, and resource optimization take precedence above all else, our flexible solution covers all these needs and enables both scalability and integration with existing Smart Cities platforms.</p>',
+            references:
+                '<ul> <li>CENTER (National Center for Irrigation Technology)</li> <li>IKEA</li> <li>Inditex</li> <li>Public Houses Madrid</li> </ul>',
+            awards: '<p>Pyme Innovadora</p>',
+            technologies: [
+                'Artificial Intelligence',
+                'Big Data',
+                'Internet of Things',
+                'Sensory Systems',
+                'Software as a Service'
+            ],
+            domains: ['Agriculture', 'Cities', 'Green Deal', 'Parks &amp; Gardens', 'Water'],
+            docs: [['The Precision Irrigation Revolution', 'https://www.iapsolutions.com/en/smart-irrigation']],
+            videos: [],
+            materials: [],
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_iap-solutions.svg',
+            featuredImage: 'https://www.fiware.org/wp-content/uploads/1908f4c4681949380291819df35bb5d7.jpg',
+            furtherImages: '',
+            hash: 'iapsolutions-iapsmartirrigation',
+            cat: 'ready',
+            social: '/fiware-ready/iapsolutions/iapsmartirrigation.html'
+        },
+        'dinyconsistemas-dinycont': {
+            category: 'FIWARE-Ready',
+            organisationName: 'Dinycon Sistemas',
+            productName: 'DinyCONT',
+            organisationWebsite: 'https://www.dinycon.com',
+            organisationEmail: 'mailto:info@dinycon.com',
+            linkedIn: '',
+            twitter: '',
+            productWebsite: 'https://www.dinycon.com/en/solutions/people-count',
+            excerpt:
+                'DinyCONT provides people counting and information on people flow, differentiating between children, adults and people, etc. The system can be set up to measure in one or multiple zones, by accesses, time slots, etc. All of which is readily accessible from our software platform on the Cloud.',
+            yearOfValidation: 2024,
+            description:
+                '<p>People counters are electronic devices used to track the number of individuals passing through a certain area. They are employed in various settings for a multitude of purposes. Here are some common use cases for the use of DinyCONT:</p> <p><strong>Retail Stores:</strong> Retailers often use people counters to measure foot traffic in their stores. By analysing the data collected over time, they can understand peak hours, popular sections of the store, and optimize store layouts to enhance customer experience and increase sales.</p> <p><strong>Event Management:</strong> Organizers of events such as conferences, concerts, and exhibitions use people counters to gauge attendance and track the flow of visitors throughout the venue. This information assists in managing crowd control, ensuring safety, and optimizing event layouts for future occurrences.</p> <p><strong>Smart Cities:</strong> City planners utilize people counters to analyse pedestrian and cyclist traffic in urban areas. This information aids in urban planning, transportation infrastructure development, and public safety initiatives.</p> <p><strong>Tourism:</strong> People counters are essential in tourism management, aiding in capacity planning, infrastructure development, and tailored visitor experiences. They inform targeted marketing efforts, contributing to sustainable tourism development and destination optimization.</p> <p><strong>Museums and Attractions:</strong> Cultural institutions employ people counters to understand visitor behaviour, popular exhibits, and peak visitation times. This insight enables them to allocate resources effectively, tailor exhibitions to visitor interests, and improve the overall visitor experience.</p>',
+            challenge:
+                '<p>The challenge of implementing people counters lies in ensuring accuracy and reliability of data collection in diverse environments and situations. Contextually, factors such as varying lighting conditions, crowded spaces, and diverse demographics can affect the performance of people counting systems. </p> <p>Additionally, privacy concerns may arise, necessitating the implementation of transparent data collection practices and compliance with regulations such as GDPR or similar data privacy laws. Furthermore, integrating people counting technology with existing infrastructure and systems poses technical challenges that need to be addressed for seamless operation and effective utilization of data.</p> <p>Therefore, the context of deploying people counters involves addressing these challenges while balancing the need for accurate data collection with privacy considerations and technical compatibility. Over the last five years we have doubled down on efforts to bring artificial intelligence into the picture. </p> <p>The aim is to bring down the number of devices to a minimum by implementing what we call virtual sensors. This can be the perfect solution especially for wide open spaces where it would not be cost effective to install people counters everywhere.  The solution has been developed in conjunction with R&amp;D technology Centre Tecnalia.</p>',
+            references:
+                '<p>Since the year 2000, Dinycon has installed people counters in more than one hundred projects. To name a few are range of Vodafone shops, Shopping Centres (Factory Guadacorte, Niessen, Mendibil, Itaroa, Las Cañas, Max Ocio, Mercado San Martín etc), Historic Monuments (Santiago Cathedral, Cordoba Mosque, San Juan de Gaztelugatxe, Monjuic Castle, Manzanares El Real Castle etc), train stations (Joaquín Sorolla in Valencia), the Arts and Science Museum in Valencia, multiple popular events such as El Pilar in Zaragoza, sports evens (Davis Cup, Crossfit World Championship etc) and smartcity projects for clients such as Telefónica, T-Systems, Cibernos, Etra, IDOM etc.</p>',
+            awards: '<p>None</p>',
+            technologies: [
+                'Artificial Intelligence',
+                'Data Analytics',
+                'Data Spaces',
+                'Internet of Things',
+                'Mobility and Location'
+            ],
+            domains: ['Cities', 'Mobility', 'Retail and Wholesale', 'Tourism', 'Water'],
+            docs: [
+                [
+                    'Tech documentation',
+                    'https://drive.google.com/file/d/1KAHdRbZ8X2TucZdDpmoweF7CDZJhK35B/view?usp=drive_link'
+                ],
+                [
+                    'Tech documentation 1',
+                    'https://drive.google.com/file/d/12tZcfTLy3HHTbdRocxodmhheQLPmQ4yL/view?usp=drive_link'
+                ],
+                [
+                    'Tech Documentation 2',
+                    'https://docs.google.com/document/d/1tYC8zrUknxidzgiVhdmlDhFNSZvWQ4Y-/edit?usp=drive_link&ouid=108851425333401676840&rtpof=true&sd=truee_link&ouid=108851425333401676840&rtpof=true&sd=true'
+                ]
+            ],
+            videos: [
+                [
+                    'Soluciones Dinycon- YouTube',
+                    'https://www.youtube.com/watch?v=XzD-3y2kQUk&t=31s&ab_channel=DinyconSistemas'
+                ]
+            ],
+            materials: [
+                [
+                    'Yann Bussard Mogrovejo-Interview',
+                    'https://www.esmartcity.es/2021/11/11/yann-bussard-mogrovejo-director-general-dinycon-sistemas-madrid-latam?utm_source=Grupo+Tecma+Red+-+Newsletters&utm_campaign=c2b5e869fa-NL-DIARIO-ESMARTCITY&utm_medium=email&utm_term=0_b1faa04d2b-c2b5e869fa-29171929'
+                ],
+                [
+                    'The VIRDAT Project',
+                    'https://www.esmartcity.es/2023/03/31/proyecto-virdat-liderado-dinycon-disenara-ciudades-mas-amables-sostenibles?utm_source=Grupo+Tecma+Red+-+Newsletters&utm_campaign=5092b0dc06-NL-DIARIO-ESMARTCITY&utm_medium=email&utm_term=0_b1faa04d2b-5092b0dc06-29373184'
+                ],
+                [
+                    'Roberto García, CEO of Dinycon -Interview',
+                    'https://www.esmartcity.es/2020/12/10/roberto-garcia-ceo-dinycon'
+                ],
+                [
+                    "Dinycon: Capacity of Santander's beaches",
+                    'https://influyentescantabria.es/dinycon-conteo-playas-santander/?fbclid=IwAR2nvdeQUYsgS3rDvyz8TV4dcdWvqhYAxJS05HHT6DwW6Iie67XjhcocCuk'
+                ]
+            ],
+            logo: 'https://www.fiware.org/wp-content/uploads/bbe92e59850472dda2eee301d7419d37.jpg',
+            featuredImage: 'https://www.fiware.org/wp-content/uploads/518be1f3debe5336d15601aacc739a79.jpg',
+            furtherImages: '',
+            hash: 'dinyconsistemas-dinycont',
+            cat: 'ready',
+            social: '/fiware-ready/dinycon-sistemas/dinycont.html'
         }
     },
     cities: {
