@@ -1155,7 +1155,7 @@ var pageData = [
         ],
         year: 2024,
         content:
-            'DinyCONT provides people counting and information on people flow, differentiating between children, adults and people, etc. The system can be set up to measure in one or multiple zones, by accesses, time slots, etc. All of which is readily accessible from our software platform on the Cloud.'
+            'DinyCONT provides people counting and information on people flow, differentiating between children, adults etc. The system can be set up to measure in one or multiple zones, by accesses, time slots, etc. All of which is readily accessible from our software platform on the Cloud.'
     }
 ];
 
