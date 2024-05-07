@@ -5,7 +5,6 @@ var titles = [
         'Booklet',
         'Brand Guide',
         'Brochure',
-        'One Pager',
         'Position Paper',
         'Press Kit',
         'Promotion Kit',
