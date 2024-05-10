@@ -41,6 +41,10 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/project/circuloos.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/project/citcom-ai.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
