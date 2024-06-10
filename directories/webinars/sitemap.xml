@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 		<url>
+			<loc>https://www.fiware.org/webinars/using-ngsi-ld-in-a--system-of-systems--approach.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/webinars/actuation--federation-and-interoperability-of-context-brokers.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>

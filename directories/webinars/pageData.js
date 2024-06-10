@@ -53,6 +53,21 @@ var types = [
 
  var modalData = [
     { 
+        name: "Using NGSI-LD in a “System-of-Systems” Approach", 
+        img: "https://www.fiware.org/wp-content/uploads/fw-advanced-ngsi-ld-registrations.png",
+        type: "Core Context", 
+        badge: "<img src='https://www.fiware.org/custom/brand-guide/img/badges/catalogue/01/svg/core.svg'/>",
+        chapter: "core", 
+        difficulty: 5,
+        video: "https://www.youtube.com/watch?v=sTcxSaL3dIQ",
+        content: "&lt;p&gt;Linked data systems are structured from the bottom up to be collaborative, and offer the opportunity to create data spaces which keep the restrictions on participants data structures to an absolute minimum. The aim of such systems is to offer a cross-functional holistic viewpoint of the data drawn from multiple systems, giving users greater awareness of the actual state of the entities and allowing them to make better decisions.&lt;/p&gt; &lt;p&gt;NGSI-LD uses the registration concept to link data sources in multiple ways and the registrations in use can be tailored to the individual use-case. Furthermore recent developments also allow for easier traversal of the knowledge graph which improve the ontological structure of data.&lt;/p&gt; &lt;p&gt;This advanced webinar is a deep dive into using registrations effectively and will offer the opportunity to learn about NGSI-LD best practice for data spaces and system of systems.&lt;/p&gt;",  
+        domain: "Developers",  
+        technology: "NGSI-LD,Data Spaces",
+        length: 35,
+        year: 2024,
+        social: "https://www.fiware.org/webinars/using-ngsi-ld-in-a--system-of-systems--approach.html"
+    },
+    { 
         name: "Actuation, Federation and interoperability of context brokers", 
         img: "https://www.fiware.org/wp-content/directories/webinars/images/context-broker-interoperability.png",
         type: "Core Context", 

@@ -101,11 +101,11 @@ function createModalContent(tingleModalData) {
               <span class="star">${rating(tingleModalData.difficulty)}</span>
             </div>
             <div class='label-broadcast'>
-              <span class="material-icons-outlined">today</span>
+              <span class="material-symbols-outlined">today</span>
               <span class="name">${tingleModalData.year}</span>
             </div>
             <div class="label-duration">
-              <span class="material-icons-outlined">schedule</span>
+              <span class="material-symbols-outlined">schedule</span>
               <span class="name">${tingleModalData.length} mins</span>
             </div>
           </div>
@@ -122,11 +122,11 @@ function createModalContent(tingleModalData) {
   }
   modalHtml += `</div><div class="foot-modal">
       <a class="cat-share" onclick="setClipboard('${tingleModalData.social}')">
-          <span class="material-icons-outlined">share</span>
+          <span class="material-symbols-outlined">share</span>
           Share
       </a>
       <a class="cat-details-primary" target="_blank" href="${tingleModalData.video}">
-          <span class="material-icons-outlined">play_arrow</span>
+          <span class="material-symbols-outlined">play_arrow</span>
           Watch
       </a>
     </div>
