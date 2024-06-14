@@ -53,6 +53,36 @@ var types = [
 
  var modalData = [
     { 
+        name: "FIWARE Data Spaces – A Practical Introduction Into Roles and Components", 
+        img: "https://www.fiware.org/wp-content/directories/webinars/images/fiware-data-space-introduction.png",
+        type: "Security", 
+        badge: "<img src='https://www.fiware.org/custom/brand-guide/img/badges/catalogue/04/svg/security.svg'/>",
+        chapter: "context-data", 
+        difficulty: 3,
+        video: "https://www.youtube.com/watch?v=hm5qMlhpK0g",
+        content: "&lt;p&gt;Data Spaces are becoming the key to achieve interoperable and trustworthy data sharing between organizations and users. In order to build such Data Space, a proper understanding of the roles and responsibilities that participants have, is required.&lt;/p&gt; &lt;p&gt;This webinar will give an introduction into the fundamentals of a Data Space, built with the FIWARE Data Space Connector. It will explain the differences between participating organizations in the example of a running Data Space and the required operations and framework behind the Data Space itself. Besides that, we will take a deeper look into the concrete participant and the components it uses to fullfil its various responsibilities, like authentication, authorization or data-flow control.&lt;/p&gt; &lt;p&gt;After the webinar, every participant should be able to locally install a Minimal Data Space and have an understanding of the essential building blocks used for it.&lt;/p&gt;",  
+        domain: "Developers",  
+        technology: "Data Spaces",
+        length: 55,
+        year: 2024,
+        social: "https://www.fiware.org/webinars/fiware-data-spaces---a-practical-introduction-into-roles-and-components.html"
+    },
+    { 
+        name: "Using NGSI-LD in a “System-of-Systems” Approach", 
+        img: "https://www.fiware.org/wp-content/directories/webinars/images/ngsi-ld-system-of-system.png",
+        type: "Core Context", 
+        badge: "<img src='https://www.fiware.org/custom/brand-guide/img/badges/catalogue/01/svg/core.svg'/>",
+        chapter: "core", 
+        difficulty: 5,
+        video: "https://www.youtube.com/watch?v=sTcxSaL3dIQ",
+        content: "&lt;p&gt;Linked data systems are structured from the bottom up to be collaborative, and offer the opportunity to create data spaces which keep the restrictions on participants data structures to an absolute minimum. The aim of such systems is to offer a cross-functional holistic viewpoint of the data drawn from multiple systems, giving users greater awareness of the actual state of the entities and allowing them to make better decisions.&lt;/p&gt; &lt;p&gt;NGSI-LD uses the registration concept to link data sources in multiple ways and the registrations in use can be tailored to the individual use-case. Furthermore recent developments also allow for easier traversal of the knowledge graph which improve the ontological structure of data.&lt;/p&gt; &lt;p&gt;This advanced webinar is a deep dive into using registrations effectively and will offer the opportunity to learn about NGSI-LD best practice for data spaces and system of systems.&lt;/p&gt;",  
+        domain: "Developers",  
+        technology: "NGSI-LD,Data Spaces",
+        length: 35,
+        year: 2024,
+        social: "https://www.fiware.org/webinars/using-ngsi-ld-in-a--system-of-systems--approach.html"
+    },
+    { 
         name: "Actuation, Federation and interoperability of context brokers", 
         img: "https://www.fiware.org/wp-content/directories/webinars/images/context-broker-interoperability.png",
         type: "Core Context", 
