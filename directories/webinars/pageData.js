@@ -47,6 +47,7 @@ var types = [
         'QuantumLeap',
         'ROS',
         'STH-Comet',
+        'Universities',
         'Water',
         'Wirecloud',
 ];
@@ -62,7 +63,7 @@ var types = [
         video: "https://www.youtube.com/watch?v=057C4mBKSdU",
         content: "&lt;p&gt;The NGSI interface is commonly used within Smart Systems. It is based on solid fundamental principles such as REST and JSON which are used by developers across the world, and of course it is a well-defined ETSI standard adopted internationally in Europe, India, Columbia and beyond..&lt;/p&gt; &lt;p&gt;University courses want to remain relevant, and help their students develop the necessary skillsets to create the software engineers of the future. How can universities use and extend the available NGSI documentation as teaching materials to create well-structured and engaging courses to teach the basics of best practice to the next generation of developers?&lt;/p&gt; &lt;p&gt;Learn more about which FIWARE materials are available from beginner to advanced, and how to combine the common free-to-use generic enablers with other exisiting data protocols to structure an engaging curriculum to teach basic software skills to your students.&lt;/p&gt;",  
         domain: "Developers,iHubs",  
-        technology: "",
+        technology: "iHubs,Universities",
         length: 50,
         year: 2024,
         social: "https://www.fiware.org/webinars/leveraging-ngsi-in-university-courses.html"
