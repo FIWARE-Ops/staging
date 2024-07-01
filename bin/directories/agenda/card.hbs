@@ -1,0 +1,37 @@
+{{#each this}}
+
+
+<div class='grid-item {{createClass track}} {{createClass session}}'>
+    <div class="gridElementTextContainer">
+      <div class="chip-track">
+        <div class="track light-blue">{{track}}</div>
+      </div>
+      <p class="panel-title">{{title}}</p> 
+      <span class="excerpt">Session Name</span>
+      <div class="panel-info">
+        <h3 class="date">{{date}}</h3>
+        <span class="separator-dot"></span>
+        <span class="time">{{start}} – {{end}}</span>
+        <span class="separator-dot"></span>
+        <span class="place">{{location}}</span>
+      </div>
+    </div>
+    <div class="speakers-container">
+      <div class="speakers">
+        {{#each speakers}}
+        <div class="speaker">
+          <div class="profile-picture">
+            <img decoding="async" alt="" src="{{img}}" loading="lazy">
+          </div>
+          <div class="speaker-info">
+            <div class="speaker-name">{{name}}</div>
+            <div class="speaker-job-title">{{job}}</div>
+            <div class="speaker-company">{{company}}</div>
+          </div>
+        </div>
+        {{/each}}
+        <span class="speakers-gradient"></span>
+      </div>
+    </div>
+  </div>
+{{/each}}

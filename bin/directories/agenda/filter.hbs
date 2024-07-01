@@ -1,0 +1,69 @@
+<div>
+    <div class='products-record'>
+        <div class='products-label'>
+            <span id='ico-products' class='material-symbols-outlined'>groups</span>
+            <span>Open Positions</span>
+        </div>
+        <span id='filteredCompanies'></span>
+    </div>
+</div>
+
+<div class="search-sort-container">
+    <div class="search-element">
+        <div class="resetInput"></div>
+        <input type="search" id="searchInput" placeholder="Search by keywords" />
+    </div>
+
+    <div class="sort-element">
+        <label class="sort-by">Sort by</label>
+        <div class="sort-buttons">
+            <div class="sort-single-element">
+                <button id="orderByName">
+                    <span id="ico-sortby-alpha" class="material-symbols-outlined">sort_by_alpha</span>Name
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<p class="filter-by">
+    <span id="ico-filter-all" class="material-symbols-outlined">filter_list</span>
+    Filter by
+</p>
+<div class="filters-checkbox">
+    <br>
+</div>
+<div class='dropdown-container'>
+    <div class='filter-element'>
+        <label for='filterDomain' class='dropdown-label'>Department</label>
+        <select name='' id='filterDomain'>
+            <option value='*'>All Departments</option>
+            {{#each domains}}
+                {{#if (ne this '')}}
+                    <option value='{{createClass this}}'>{{this}}</option>
+                {{/if}}
+            {{/each}}
+        </select>
+    </div>
+    <div class='filter-element'>
+        <label for='filterDepartment' class='dropdown-label'>Seniority Level</label>
+        <select name='' id='filterDepartment'>
+            <option value='*'>All levels</option>
+            {{#each types}}
+                {{#if (ne this '')}}
+                    <option value='{{createClass this}}'>{{this}}</option>
+                {{/if}}
+            {{/each}}
+        </select>
+    </div>
+     <div class='filter-element'>
+        <label for='filterTechnology' class='dropdown-label'>Keywords</label>
+        <select name='' id='filterTechnology'>
+            <option value='*'>All Keywords</option>
+            {{#each technologies}}
+                {{#if (ne this '')}}
+                    <option value='{{createClass this}}'>{{this}}</option>
+                {{/if}}
+            {{/each}}
+        </select>
+    </div>
+</div>

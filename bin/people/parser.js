@@ -28,7 +28,9 @@ function extractPeople(input) {
             company: item['Company'] || item['Organization'] || item['Organisation'],
             companyType: item['Legal Form'] || '',
             domain: item['Domain'],
-            website: Parser.trim(item['Company website'] || item['Organization website'] || item['Organisation website']),
+            website: Parser.trim(
+                item['Company website'] || item['Organization website'] || item['Organisation website']
+            ),
             job: item['Job title'],
             bio: item['Bio'] ? item['Bio'].replaceAll(/[\n\r]+/g, ' ').trim() : '',
             linkedIn: Parser.trim(item['LinkedIn']),
@@ -117,4 +119,5 @@ function parse(file, page) {
 }
 
 exports.parse = parse;
+exports.extract = extractPeople;
 exports.file = 'people.csv';

@@ -9,7 +9,7 @@ const OpenCalls = require('./directories/open-calls/parser');
 const Organisations = require('./directories/organisations/parser');
 const ResearchDevelopment = require('./directories/research-development/parser');
 const Webinars = require('./directories/webinars/parser');
-
+const Agenda = require('./directories/agenda/parser');
 const People = require('./people/parser');
 const Marketplace = require('./marketplace/parser');
 
@@ -47,6 +47,18 @@ if (PROCESS.startsWith('webinars')) {
     Loader.load('webinars', Webinars.file).then(() => {
         return Webinars.parse(Webinars.file);
     });
+}
+
+// Create HTML and template files for the webinars
+if (PROCESS.startsWith('agenda')) {
+    let agenda = null;
+    Loader.load('agenda', Agenda.file)
+        .then(() => {
+            return Loader.load(PAGE, People.file);
+        })
+        .then(() => {
+            return Agenda.parse(Agenda.file, People.file);
+        });
 }
 
 // Create HTML and template files for the iHubs
@@ -139,4 +151,5 @@ if (PROCESS === 'postinstall') {
     touch(People.file);
     touch(ResearchDevelopment.file);
     touch(Webinars.file);
+    touch(Agenda.file);
 }

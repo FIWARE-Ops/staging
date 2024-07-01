@@ -16,6 +16,7 @@
     "pretty-market": "prettier --single-quote --write marketplace/**/*.js  && prettier --parser html --write marketplace/**/*.html",
     "prettier": "prettier --single-quote --write **/**/*.js  **/*.js && prettier --parser html --write **/**/*.html  **/*.html",
     "people": "PROCESS=people PAGE=team npm start",
+    "agenda": "PROCESS=agenda PAGE=speakers npm start",
     "bod": "PROCESS=people PAGE=bod npm start",
     "boo": "PROCESS=people PAGE=boo npm start",
     "cities": "PROCESS=cities npm start",

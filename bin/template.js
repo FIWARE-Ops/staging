@@ -3,7 +3,6 @@ const path = require('path');
 const fs = require('fs-extra');
 const _ = require('underscore');
 
-
 const notFound = `<!doctype html>
 <html lang="en-US">
 <head>
@@ -61,7 +60,7 @@ function createClasses(data) {
 }
 
 function formatDate(data) {
-    const date = new Date(data)
+    const date = new Date(data);
     return date.toDateString().substring(3);
 }
 
@@ -145,22 +144,23 @@ function write(filename, template, input) {
 
 function clean(dir) {
     if (fs.existsSync(dir)) {
-        const files = fs.readdirSync(dir).filter(el => path.extname(el) === '.html')
-        files.forEach(file => {
+        const files = fs.readdirSync(dir).filter((el) => path.extname(el) === '.html');
+        files.forEach((file) => {
             //fs.unlinkSync( path.join(dir , file));
-            fs.writeFileSync( path.join(dir, file), notFound);
+            fs.writeFileSync(path.join(dir, file), notFound);
         });
     }
-} 
+}
 
 function cleanDir(dir) {
-   function listDirectories(dir) {
-      return fs.readdirSync(dir, {withFileTypes: true})
-        .filter(dirent => dirent.isDirectory())
-        .map(dirent => dirent.name);
+    function listDirectories(dir) {
+        return fs
+            .readdirSync(dir, { withFileTypes: true })
+            .filter((dirent) => dirent.isDirectory())
+            .map((dirent) => dirent.name);
     }
 
-    listDirectories(dir).forEach(subdir => {
+    listDirectories(dir).forEach((subdir) => {
         clean(path.join(dir, subdir));
     });
 }
