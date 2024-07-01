@@ -5,6 +5,7 @@ var departments = [
 ]; var domains = [
         'Data Space Technology',
         'Digital Twins',
+        'FISAB &amp; Universities',
         'Innovation projects on data interoperability',
         'Innovation projects on data platforms and Data Spaces',
         'Innovation projects on green and industry digital twins',
