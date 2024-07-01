@@ -1,81 +1,108 @@
-<div class="showFilters">
-    <div id="mobileToggleFilters">
-      <span id="ico-filtersbar" class="material-symbols-outlined">filter_alt</span>
-      <span id="filter-button-text">Show Filters</span>
-    </div>
-  </div>
-
-  <div class="filters-container">
-    <!-- <div style="display:flex"> <img decoding="async"
-        src="https://www.fiware.org/style/imgs/Badges/Badge_FIWAREMarketplace_PoweredByFIWARE.svg"
-        alt="Powered by FIWARE" class="category-badge"></div>
-    <div class="filter-element">
-      <div class="products-record">
-        <div class="products-label">
-          <span id="ico-products" class="material-symbols-outlined">category</span>
-          <span>Products</span>
+<div>
+    <div class='products-record'>
+        <div class='products-label'>
+            <span id='ico-products' class='material-symbols-outlined'>groups</span>
+            <span>Open Positions</span>
         </div>
-        <span id="filteredCompanies"></span>
-      </div>
+        <span id='filteredCompanies'></span>
     </div>
-    -->
+</div>
 
+<div class="search-sort-container">
     <div class="search-element">
-      <div class="resetInput"></div>
-      <input type="search" id="searchInput" placeholder="Search">
+        <div class="resetInput"></div>
+        <input type="search" id="searchInput" placeholder="Search by keywords" />
     </div>
-    <div class="date-picker">
-      <p class="filter-by">
-        <!-- <span id="ico-filter-all" class="material-symbols-outlined">event</span> -->
-        September 2024
-      </p>
-      <div class="filters-checkbox">
-        <div id="date" class="filter-element">
-          <input type="checkbox" name="fiwareMember" id="fiwareMember">
-          <label for="fiwareMember">18</label>
-        </div>
-        <div id="date" class="filter-element">
-          <input type="checkbox" name="fiwareiHub" id="fiwareiHub">
-          <label for="fiwareiHub">19</label>
-        </div>
-      </div>
-    </div>
-    <div class="filter-element">
-      <!-- <label class="dropdown-label">Product Type</label >-->
-      <select name="" id="filterTraks">
-        <option value="*">Traks</option>
-      </select>
-    </div>
-    <div class="filter-element">
-      <!-- <label class="dropdown-label">Domain</label> -->
-      <select name="" id="filterSessions">
-        <option value="*">Sessions</option>
-      </select>
-    </div>
-    <div class="filter-element">
-      <!-- <label class="dropdown-label">Technology</label> -->
-      <select name="" id="filterSpeakers">
-        <option value="*">Speakers</option>
-      </select>
-    </div>
-    <!-- <div class="filter-element">
-      <label class="dropdown-label">Organization</label>
-      <select name="" id="filterSpeakers" class="dropdown-last">
-        <option value="*">Speakers</option>
-      </select>
-    </div> -->
-    <!-- <div class="sort-element">
-      <label class="sort-by">Sort by</label>
-      <div class="sort-buttons">
-        <div class="filter-element">
-          <button id="orderByYear"><span id="ico-sortby-year"
-              class="material-symbols-outlined">date_range</span>Year</button>
-        </div>
-        <div class="filter-element">
-          <button id="orderByName"><span id="ico-sortby-alpha"
-              class="material-symbols-outlined">sort_by_alpha</span>Name</button>
-        </div>
-      </div>
-    </div> -->
 
-  </div>
+    <div class="sort-element">
+        <label class="sort-by">Sort by</label>
+        <div class="sort-buttons">
+            <div class="sort-single-element">
+                <button id="orderByName">
+                    <span id="ico-sortby-alpha" class="material-symbols-outlined">sort_by_alpha</span>Name
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<p class="filter-by">
+    <span id="ico-filter-all" class="material-symbols-outlined">filter_list</span>
+    Filter by
+</p>
+<div class="filters-checkbox">
+    <br>
+</div>
+<div class='dropdown-container'>
+    <div class='filter-element'>
+        <label for='filterDomain' class='dropdown-label'>Department</label>
+        <select name='' id='filterDomain'>
+            <option value='*'>All Departments</option>
+                    <option value='data-space-technology'>Data Space Technology</option>
+                    <option value='digital-twins'>Digital Twins</option>
+                    <option value='innovation-projects-on-data-interoperability'>Innovation projects on data interoperability</option>
+                    <option value='innovation-projects-on-data-platforms-and-data-spaces'>Innovation projects on data platforms and Data Spaces</option>
+                    <option value='innovation-projects-on-green-and-industry-digital-twins'>Innovation projects on green and industry digital twins</option>
+                    <option value='smart-communities---mobility'>Smart Communities &amp; Mobility</option>
+                    <option value='smart-energy'>Smart Energy</option>
+        </select>
+    </div>
+    <div class='filter-element'>
+        <label for='filterDepartment' class='dropdown-label'>Seniority Level</label>
+        <select name='' id='filterDepartment'>
+            <option value='*'>All levels</option>
+                    <option value='hands-on-use-cases'>Hands-On Use Cases</option>
+                    <option value='innovation-with-fiware'>Innovation with FIWARE</option>
+                    <option value='tech---trends'>Tech &amp; Trends</option>
+        </select>
+    </div>
+     <div class='filter-element'>
+        <label for='filterTechnology' class='dropdown-label'>Keywords</label>
+        <select name='' id='filterTechnology'>
+            <option value='*'>All Keywords</option>
+                    <option value='alberto-abella'>Alberto Abella</option>
+                    <option value='ulrich-ahle'>Ulrich Ahle</option>
+                    <option value='andrea-battaglia'>Andrea Battaglia</option>
+                    <option value='martin-bauer'>Martin Bauer</option>
+                    <option value='ali-benrahim'>Ali Benrahim</option>
+                    <option value='massimo-bertoncini'>Massimo Bertoncini</option>
+                    <option value='sebastian-blechmann'>Sebastian Blechmann</option>
+                    <option value='ilaria-bortone'>Ilaria Bortone</option>
+                    <option value='david-campo'>David Campo</option>
+                    <option value='javier-conde'>Javier Conde</option>
+                    <option value='mireya-de-diego'>Mireya de Diego</option>
+                    <option value='stefano-de-panfilis'>Stefano De Panfilis</option>
+                    <option value='roberto-di-bernardo'>Roberto Di Bernardo</option>
+                    <option value='gregory-eve'>Gregory Eve</option>
+                    <option value='antonio-filograna'>Antonio Filograna</option>
+                    <option value='juanjo-hierro'>Juanjo Hierro</option>
+                    <option value='antonio-jara'>Antonio Jara</option>
+                    <option value='ernoe-kovacs'>Ernoe Kovacs</option>
+                    <option value='frédéric-le'>Frédéric Le</option>
+                    <option value='franck-le-gall'>Franck Le Gall</option>
+                    <option value='antonella-longo'>Antonella Longo</option>
+                    <option value='angelo-marguglio'>Angelo Marguglio</option>
+                    <option value='nejib-moalla'>Nejib Moalla</option>
+                    <option value='yasunori-mochizuki'>Yasunori Mochizuki</option>
+                    <option value='antonello-monti'>Antonello Monti</option>
+                    <option value='luis-muñoz'>Luis Muñoz</option>
+                    <option value='josé-a--mun-oz-arcentales'>José A. Muñoz Arcentales</option>
+                    <option value='francesco-mureddu'>Francesco Mureddu</option>
+                    <option value='robyn-lesley-oldfield'>Robyn Lesley Oldfield</option>
+                    <option value='fabiano-pallonetto'>Fabiano Pallonetto</option>
+                    <option value='mads-pohl-petersson'>Mads Pohl Petersson</option>
+                    <option value='clara-pezuela'>Clara Pezuela</option>
+                    <option value='manfredi-pistone'>Manfredi Pistone</option>
+                    <option value='michael-prange'>Michael Prange</option>
+                    <option value='matteo-repetto'>Matteo Repetto</option>
+                    <option value='ana-garcia-robles'>Ana Garcia Robles</option>
+                    <option value='jesús-ruiz-martinez'>Jesús Ruiz Martinez</option>
+                    <option value='joaquín-salvachúa'>Joaquín Salvachúa</option>
+                    <option value='raúl-sánchez-mateos-lizano'>Raúl Sánchez-Mateos Lizano</option>
+                    <option value='laura-ileana-schipani'>Laura Ileana Schipani</option>
+                    <option value='giovanni-vaglica'>Giovanni Vaglica</option>
+                    <option value='gaetano-volpe'>Gaetano Volpe</option>
+                    <option value='dennis-wendland'>Dennis Wendland</option>
+                    <option value='stefan-wiedemann'>Stefan Wiedemann</option>
+        </select>
+    </div>
+</div>
