@@ -64,6 +64,11 @@ function formatDate(data) {
     return date.toDateString().substring(3);
 }
 
+function formatDateNoYear(data) {
+    const date = new Date(data);
+    return date.toLocaleDateString(undefined, {month: "short", day: "numeric"});
+}
+
 function parseDate(data) {
     return Date.parse(data);
 }
@@ -102,6 +107,7 @@ Handlebars.registerHelper('createClass', createClass);
 Handlebars.registerHelper('createAnchor', createAnchor);
 Handlebars.registerHelper('appendTexts', appendTexts);
 Handlebars.registerHelper('formatDate', formatDate);
+Handlebars.registerHelper('formatDateNoYear', formatDateNoYear);
 Handlebars.registerHelper('parseDate', parseDate);
 Handlebars.registerHelper('rating', rating);
 Handlebars.registerHelper('json', stringify);
