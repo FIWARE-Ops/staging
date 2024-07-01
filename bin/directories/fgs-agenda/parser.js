@@ -69,13 +69,13 @@ function extractAgenda(input, speakers, activeSpeakers) {
         }
     });
 
-    console.log(activeSpeakers)
 
     if (agenda.length === 0) {
         console.error('ERROR: No agenda uploaded.');
         process.exit(1);
     }
     console.log(agenda.length, ' agenda items generated.');
+    console.log(activeSpeakers.length, ' agenda speakers found.')
 
     return agenda.sort((a, b) => {
         return a.startTime > b.startTime.getTime();

@@ -1,7 +1,7 @@
 {{#each this}}
 
 
-<div class='grid-item {{createClass track}} {{createClass session}}'>
+<div class='grid-item {{createClass track}} {{createClass session}}{{#each speakers}} {{createClass name}}{{/each}}'>
     <div class="gridElementTextContainer">
       <div class="chip-track">
         <div class="track {{createTrack track}}">{{track}}</div>
