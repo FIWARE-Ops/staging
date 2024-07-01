@@ -9,7 +9,7 @@ const OpenCalls = require('./directories/open-calls/parser');
 const Organisations = require('./directories/organisations/parser');
 const ResearchDevelopment = require('./directories/research-development/parser');
 const Webinars = require('./directories/webinars/parser');
-const Agenda = require('./directories/agenda/parser');
+const Agenda = require('./directories/fgs-agenda/parser');
 const People = require('./people/parser');
 const Marketplace = require('./marketplace/parser');
 

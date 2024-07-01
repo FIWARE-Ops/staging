@@ -6,8 +6,8 @@ const Prettier = require('prettier');
 const Parser = require('../../dataParser');
 const Sorter = require('../../sort');
 const Template = require('../../template');
-const TEMPLATE_PATH = 'bin/directories/agenda/';
-const AGENDA_DIR = 'directories/agenda';
+const TEMPLATE_PATH = 'bin/directories/fgs-agenda/';
+const AGENDA_DIR = 'directories/fgs-agenda';
 const People = require('../../people/parser');
 
 const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/agenda/images/careers-default.png';
@@ -101,7 +101,7 @@ function parse(agendaFile, speakersFile) {
                         agenda
                     };
 
-                    Template.clean(path.join(AGENDA_DIR, '/agenda'));
+                    Template.clean(path.join(AGENDA_DIR, '/fgs-agenda'));
 
                     Template.write(path.join(AGENDA_DIR, 'agenda.html'), path.join(TEMPLATE_PATH, 'card.hbs'), agenda);
                     Template.write(
