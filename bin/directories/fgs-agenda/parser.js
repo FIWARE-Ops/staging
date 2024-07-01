@@ -16,7 +16,7 @@ const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/agenda/imag
  * Take the human readable column names from the spreadsheet and create a
  * data object of each project for later use
  */
-function extractAgenda(input, speakers) {
+function extractAgenda(input, speakers, activeSpeakers) {
     const agenda = [];
     input.forEach((item) => {
         const event = {
@@ -60,10 +60,16 @@ function extractAgenda(input, speakers) {
                 return !!speaker ? speaker : { name, img: People.DEFAULT_IMAGE };
             });
 
+            event.speakers.forEach(speaker => {
+                activeSpeakers.push(speaker.name);
+            });
+
             event.startTime = Parser.addTime(event.date, event.start);
             agenda.push(event);
         }
     });
+
+    console.log(activeSpeakers)
 
     if (agenda.length === 0) {
         console.error('ERROR: No agenda uploaded.');
@@ -83,23 +89,22 @@ function extractAgenda(input, speakers) {
 function parse(agendaFile, speakersFile) {
     let agendaData = null;
     let speakers = null;
+    let activeSpeakers = [];
 
     csv()
         .fromFile(speakersFile)
         .then((input) => {
             speakers = People.extract(input);
 
-            speakerNames = _.map(speakers, function (speaker) {
-                return speaker.name;
-            });
-
+           
             csv()
                 .fromFile(agendaFile)
                 .then((input) => {
-                    return extractAgenda(input, speakers);
+                    return extractAgenda(input, speakers, activeSpeakers);
                 })
                 .then((agenda) => {
 
+                    const  speakerNames = _.sortBy(_.uniq(activeSpeakers), a => {return a});
                     const filterData = {
                         types: Sorter.sortData(agenda, 'track'),
                         domains: Sorter.flatSortData(agenda, 'session'),
