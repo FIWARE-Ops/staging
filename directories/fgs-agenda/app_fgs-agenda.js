@@ -130,42 +130,29 @@ function filterOptions(id, filter, data, css) {
 }
 
 function dropdownFilters(filter) {
-  var companyCSSFilter = getCSSFilter("#filterCompany");
-  var roleCSSFilter = getCSSFilter("#filterRole");
-  var departmentCSSFilter = getCSSFilter("#filterDepartment");
-  var domainCSSFilter = getCSSFilter("#filterDomain");
-  var countryCSSFilter = getCSSFilter("#filterCountry");
+  var TrackCSSFilter = getCSSFilter("#filterTrack");
+  var SessionCSSFilter = getCSSFilter("#filterSession");
+  var SpeakerCSSFilter = getCSSFilter("#filterSpeaker");
 
   filterOptions(
-    "#filterCompany",
-    filter.fCompany,
-    window.companies,
-    roleCSSFilter + departmentCSSFilter + domainCSSFilter + countryCSSFilter
+    "#filterTrack",
+    filter.fTrack,
+    window.tracks,
+    SessionCSSFilter + SpeakerCSSFilter
   );
   filterOptions(
-    "#filterRole",
-    filter.fRole,
-    window.titles,
-    companyCSSFilter + departmentCSSFilter + domainCSSFilter + countryCSSFilter
+    "#filterSession",
+    filter.fSession,
+    window.sessions,
+    TrackCSSFilter + SpeakerCSSFilter
   );
   filterOptions(
-    "#filterDepartment",
-    filter.fDepartment,
-    window.departments,
-    companyCSSFilter + roleCSSFilter + domainCSSFilter + countryCSSFilter
+    "#filterSpeaker",
+    filter.fSpeaker,
+    window.speakers,
+    TrackCSSFilter + SessionCSSFilter
   );
-  filterOptions(
-    "#filterDomain",
-    filter.fDomain,
-    window.domains,
-    companyCSSFilter + roleCSSFilter + departmentCSSFilter + countryCSSFilter
-  );
-  filterOptions(
-    "#filterCountry",
-    filter.fCountry,
-    window.countries,
-    companyCSSFilter + roleCSSFilter + departmentCSSFilter + domainCSSFilter
-  );
+
 }
 
 function scrollToView() {
@@ -184,11 +171,9 @@ var scrollSet = false;
 var init = false;
 var msnry;
 var selectors = {
-  fCompany: true,
-  fRole: true,
-  fDepartment: true,
-  fDomain: true,
-  fCountry: true,
+  fTrack: true,
+  fSession: true,
+  fSpeaker: true
 };
 var filterObj = {};
 
@@ -251,20 +236,16 @@ function initSelect() {
       }
 
       selectors = {
-        fCompany: e.target.id !== "filterCompany",
-        fRole: e.target.id !== "filterRole",
-        fDepartment: e.target.id !== "filterDepartment",
-        fDomain: e.target.id !== "filterDomain",
-        fCountry: e.target.id !== "filterCountry",
+        fTrack: e.target.id !== "filterTrack",
+        fSession: e.target.id !== "filterSession",
+        fSpeaker: e.target.id !== "filterSpeaker"
       };
 
       if (document.getElementById(e.target.id).value === "*") {
         selectors = {
-          fCompany: true,
-          fRole: true,
-          fDepartment: true,
-          fDomain: true,
-          fCountry: true,
+          fTrack: true,
+          fSession: true,
+          fSpeaker: true
         };
       }
 
@@ -358,7 +339,7 @@ document.addEventListener("html-included", () => {
   let target = 7;
   // Isotope istantiation
   // Relies on unpkg.com/imagesloaded
-  /*$("#app")
+  $("#app")
     .imagesLoaded()
     .always(function (instance) {
       //msnry.arrange({ sortBy: "original-order" });
@@ -378,5 +359,5 @@ document.addEventListener("html-included", () => {
         target = target + 7;
         msnry.arrange({ sortBy: "original-order" });
       }
-    });*/
+    });
 });
