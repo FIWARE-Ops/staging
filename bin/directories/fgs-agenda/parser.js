@@ -51,6 +51,12 @@ function extractAgenda(input, speakers) {
 
             event.speakers = _.map(names, function (name) {
                 const speaker = _.findWhere(speakers, { name });
+
+                if(speaker){
+                    speaker.shortJob = speaker.filters[0];
+                }
+
+
                 return !!speaker ? speaker : { name, img: People.DEFAULT_IMAGE };
             });
 
