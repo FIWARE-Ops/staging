@@ -1,42 +1,42 @@
-<div>
-    <div class='products-record'>
-        <div class='products-label'>
-            <span id='ico-products' class='material-symbols-outlined'>groups</span>
-            <span>Open Positions</span>
-        </div>
-        <span id='filteredCompanies'></span>
+<div class="showFilters">
+    <div id="mobileToggleFilters">
+      <span id="ico-filtersbar" class="material-symbols-outlined">filter_alt</span>
+      <span id="filter-button-text">Show Filters</span>
     </div>
-</div>
+  </div>
 
-<div class="search-sort-container">
+  <div class="filters-container">
     <div class="search-element">
-        <div class="resetInput"></div>
-        <input type="search" id="searchInput" placeholder="Search by keywords" />
+      <div class="resetInput"></div>
+      <input type="search" id="searchInput" placeholder="Search">
     </div>
-
-    <div class="sort-element">
-        <label class="sort-by">Sort by</label>
-        <div class="sort-buttons">
-            <div class="sort-single-element">
-                <button id="orderByName">
-                    <span id="ico-sortby-alpha" class="material-symbols-outlined">sort_by_alpha</span>Name
-                </button>
-            </div>
+    <div class="date-picker">
+      <p class="filter-by">
+        September 2024
+      </p>
+      <div class="filters-checkbox">
+        <div id="date" class="filter-element">
+          <input type="checkbox" name="fiwareMember" id="fiwareMember">
+          <label for="fiwareMember">18</label>
         </div>
+        <div id="date" class="filter-element">
+          <input type="checkbox" name="fiwareiHub" id="fiwareiHub">
+          <label for="fiwareiHub">19</label>
+        </div>
+      </div>
     </div>
-</div>
-<p class="filter-by">
-    <span id="ico-filter-all" class="material-symbols-outlined">filter_list</span>
-    Filter by
-</p>
-<div class="filters-checkbox">
-    <br>
-</div>
-<div class='dropdown-container'>
-    <div class='filter-element'>
-        <label for='filterDomain' class='dropdown-label'>Department</label>
-        <select name='' id='filterDomain'>
-            <option value='*'>All Departments</option>
+    <div class="filter-element">
+      <select name="" id="filterType">
+        <option value="*">Tracks</option>
+                    <option value='hands-on-use-cases'>Hands-On Use Cases</option>
+                    <option value='innovation-with-fiware'>Innovation with FIWARE</option>
+                    <option value='tech---trends'>Tech &amp; Trends</option>
+        
+      </select>
+    </div>
+    <div class="filter-element">
+      <select name="" id="filterDomain">
+        <option value="*">Sessions</option>
                     <option value='data-space-technology'>Data Space Technology</option>
                     <option value='digital-twins'>Digital Twins</option>
                     <option value='innovation-projects-on-data-interoperability'>Innovation projects on data interoperability</option>
@@ -44,21 +44,12 @@
                     <option value='innovation-projects-on-green-and-industry-digital-twins'>Innovation projects on green and industry digital twins</option>
                     <option value='smart-communities---mobility'>Smart Communities &amp; Mobility</option>
                     <option value='smart-energy'>Smart Energy</option>
-        </select>
+      </select>
     </div>
-    <div class='filter-element'>
-        <label for='filterDepartment' class='dropdown-label'>Seniority Level</label>
-        <select name='' id='filterDepartment'>
-            <option value='*'>All levels</option>
-                    <option value='hands-on-use-cases'>Hands-On Use Cases</option>
-                    <option value='innovation-with-fiware'>Innovation with FIWARE</option>
-                    <option value='tech---trends'>Tech &amp; Trends</option>
-        </select>
-    </div>
-     <div class='filter-element'>
-        <label for='filterTechnology' class='dropdown-label'>Keywords</label>
-        <select name='' id='filterTechnology'>
-            <option value='*'>All Keywords</option>
+    <div class="filter-element">
+      <!-- <label class="dropdown-label">Technology</label> -->
+      <select name="" id="filterTechnology">
+        <option value="*">Speakers</option>
                     <option value='alberto-abella'>Alberto Abella</option>
                     <option value='ulrich-ahle'>Ulrich Ahle</option>
                     <option value='andrea-battaglia'>Andrea Battaglia</option>
@@ -103,6 +94,6 @@
                     <option value='gaetano-volpe'>Gaetano Volpe</option>
                     <option value='dennis-wendland'>Dennis Wendland</option>
                     <option value='stefan-wiedemann'>Stefan Wiedemann</option>
-        </select>
+      </select>
     </div>
-</div>
+  </div></div>
