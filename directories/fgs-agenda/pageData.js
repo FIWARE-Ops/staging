@@ -1,8 +1,11 @@
-var departments = [
+var tracks = [
         'Hands-On Use Cases',
         'Innovation with FIWARE',
         'Tech &amp; Trends',
-]; var domains = [
+];
+var departments = [
+];
+var sessions = [
         'Data Space Technology',
         'Digital Twins',
         'FISAB &amp; Universities',
@@ -11,8 +14,7 @@ var departments = [
         'Innovation projects on green and industry digital twins',
         'Smart Communities &amp; Mobility',
         'Smart Energy',
-];
-var technologies = [
+]; var speakers = [
         'Alberto Abella',
         'Andrea Maioli',
         'Antonella Longo',
@@ -43,4 +45,5 @@ var technologies = [
         'Sebastian Blechmann',
         'Sophie Meszaros',
         'Tomohiro Kuwahara',
-];
+]; var countries = [
+]; 
