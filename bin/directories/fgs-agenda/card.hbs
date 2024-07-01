@@ -1,7 +1,7 @@
 {{#each this}}
 
 
-<div class='grid-item {{createClass track}} {{createClass session}}{{#each speakers}} {{createClass name}}{{/each}}'>
+<div class='grid-item {{createClass track}} {{createClass session}}{{#each speakers}} {{createClass name}}{{/each}} {{createClass shortDate}}'>
     <div class="gridElementTextContainer">
       <div class="chip-track">
         <div class="track {{createTrack track}}">{{track}}</div>
@@ -9,7 +9,7 @@
       <p class="panel-title">{{title}}</p> 
       <span class="excerpt">Session Name</span>
       <div class="panel-info">
-        <h3 class="date">{{formatDateNoYear date}}</h3>
+        <h3 class="date">{{shortDate}}</h3>
         <span class="separator-dot"></span>
         <span class="time">{{start}} – {{end}}</span>
         <span class="separator-dot"></span>

@@ -65,6 +65,7 @@ function extractAgenda(input, speakers, activeSpeakers) {
             });
 
             event.startTime = Parser.addTime(event.date, event.start);
+            event.shortDate = event.date.toLocaleDateString(undefined, {month: "long", day: "numeric"});
             agenda.push(event);
         }
     });
