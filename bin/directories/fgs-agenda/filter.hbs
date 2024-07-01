@@ -16,19 +16,19 @@
       </p>
       <div class="filters-checkbox">
         <div id="date" class="filter-element">
-          <input type="checkbox" name="fiwareMember" id="fiwareMember">
-          <label for="fiwareMember">18</label>
+          <input type="checkbox" name="dayOne" id="dayOne">
+          <label for="dayOne">18</label>
         </div>
         <div id="date" class="filter-element">
-          <input type="checkbox" name="fiwareiHub" id="fiwareiHub">
-          <label for="fiwareiHub">19</label>
+          <input type="checkbox" name="dayTwo" id="dayTwo">
+          <label for="dayTwo">19</label>
         </div>
       </div>
     </div>
     <div class="filter-element">
-      <select name="" id="filterType">
+      <select name="" id="filterTrack">
         <option value="*">Tracks</option>
-        {{#each types}}
+        {{#each tracks}}
                 {{#if (ne this '')}}
                     <option value='{{createClass this}}'>{{this}}</option>
                 {{/if}}
@@ -37,9 +37,9 @@
       </select>
     </div>
     <div class="filter-element">
-      <select name="" id="filterDomain">
+      <select name="" id="filterSession">
         <option value="*">Sessions</option>
-         {{#each domains}}
+         {{#each sessions}}
                 {{#if (ne this '')}}
                     <option value='{{createClass this}}'>{{this}}</option>
                 {{/if}}
@@ -48,9 +48,9 @@
     </div>
     <div class="filter-element">
       <!-- <label class="dropdown-label">Technology</label> -->
-      <select name="" id="filterTechnology">
+      <select name="" id="filterSpeaker">
         <option value="*">Speakers</option>
-         {{#each technologies}}
+         {{#each speakers}}
                 {{#if (ne this '')}}
                     <option value='{{createClass this}}'>{{this}}</option>
                 {{/if}}

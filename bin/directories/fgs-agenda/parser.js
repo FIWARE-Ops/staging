@@ -107,9 +107,9 @@ function parse(agendaFile, speakersFile) {
 
                     const  speakerNames = _.sortBy(_.uniq(activeSpeakers), a => {return a});
                     const filterData = {
-                        types: Sorter.sortData(agenda, 'track'),
-                        domains: Sorter.flatSortData(agenda, 'session'),
-                        technologies: speakerNames,
+                        tracks: Sorter.sortData(agenda, 'track'),
+                        sessions: Sorter.flatSortData(agenda, 'session'),
+                        speakers: speakerNames,
                         agenda
                     };
 
