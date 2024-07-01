@@ -211,7 +211,7 @@ function initSelect() {
 
   initTextSearch(msnry);
 
-  /*
+  
     document.querySelector(".resetInput").addEventListener("click", (el) => {
       document.querySelector("#searchInput").value = "";
       document.querySelector(".search-element").classList.remove("resetActive");
@@ -222,7 +222,7 @@ function initSelect() {
       });
     });
 
-    // SORT BY ALPHABETICALLY
+  /*  // SORT BY ALPHABETICALLY
     document.querySelector("#orderByName").addEventListener("click", (e) => {
       if (e.target.classList.contains("active") == false) {
         msnry.arrange({ sortBy: "name" });
