@@ -991,7 +991,7 @@ z-index: 99999;
 				
 				
 				<div class="et_pb_code_inner">
-					<div id="app" w3-include-html="./agenda.html"></div>
+					<div id="app" class="grid" w3-include-html="./agenda.html"></div>
 
 				</div>
 			</div>
@@ -1079,7 +1079,15 @@ z-index: 99999;
 				
 				
 				
-				<div class="et_pb_code_inner"><script src="./app_fgs-agenda.js"></script></div>
+				<div class="et_pb_code_inner">
+					<script>
+	var scr = document.createElement("script");
+	scr.src = "./pageData.js" + "?ts=" + Math.round(new Date().getTime()/3600000);
+	document.getElementsByTagName("head")[0].appendChild(scr);
+</script>
+
+
+					<script src="./app_fgs-agenda.js"></script></div>
 			</div>
 			</div>
 				
