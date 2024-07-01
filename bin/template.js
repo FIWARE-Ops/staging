@@ -49,6 +49,28 @@ function createClass(data) {
     return result;
 }
 
+function createTrack(data) {
+    let result = '';
+
+    switch (data) {
+        case 'Tech & Trends':
+            result="light-green"
+            break;
+        case 'Innovation with FIWARE':
+            result="light-blue"
+            break;
+        case
+            'Hands-On Use Cases':
+            result="light-yellow"
+            break;
+        default:
+            break;
+        }
+
+    
+    return result;
+}
+
 /**
  * Add multiple Isotope usable CSS classes for an
  * input array
@@ -66,7 +88,7 @@ function formatDate(data) {
 
 function formatDateNoYear(data) {
     const date = new Date(data);
-    return date.toLocaleDateString(undefined, {month: "short", day: "numeric"});
+    return date.toLocaleDateString(undefined, {month: "long", day: "numeric"});
 }
 
 function parseDate(data) {
@@ -102,6 +124,7 @@ function math(lvalue, operator, rvalue) {
     }[operator];
 }
 
+Handlebars.registerHelper('createTrack',createTrack);
 Handlebars.registerHelper('createClasses', createClasses);
 Handlebars.registerHelper('createClass', createClass);
 Handlebars.registerHelper('createAnchor', createAnchor);
