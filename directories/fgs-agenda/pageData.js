@@ -4,10 +4,8 @@ var tracks = [
         'Tech &amp; Trends',
 ];
 var summitDates = [
-        null,
         'september-18',
         'september-19',
-        null
 ];
 var sessions = [
         'Data Space Technology',
@@ -29,7 +27,7 @@ var speakers = [
         'Carmen Polcaro',
         'Davor Meersman',
         'Francesco Mureddu',
-        'Frank Le Gall',
+        'Franck Le Gall',
         'Gaetano Volpe',
         'Giovanni Vaglica',
         'Ifat Tariq',
@@ -71,6 +69,10 @@ var modalData = {
     "sebastian-blechmann":
         { name: "Sebastian Blechmann", img: "https://www.fiware.org/wp-content/directories/people/images/200px/sebastian-blechmann.jpg", position: "Research Associate", company: "RWTH Aachen University", "company-link": "https://www.rwth-aachen.de/",
         content: "Sebastian Blechmann is working as research associate at the Institute for Energy Efficient Buildings and Indoor Climate in the E.ON Energy Research Center of the RWTH Aachen University. He is member of a research group targeting digital energy neighborhoods and specializes in semantic interoperability and efficient data utilization. In his research, he applies FIWARE to handle data from building energy systems, structure them semantically and apply control algorithms to control various test facilities. Thereby, he focuses on control and knowledge representation in heating, ventilation and air conditioning systems. In his presentation, he will talk about his past and present developments in the building energy sector using FIWARE.", linkedin: "https://www.linkedin.com/in/sebastian-blechmann-a2b19a119/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "franck-le-gall":
+        { name: "Franck Le Gall", img: "https://www.fiware.org/wp-content/directories/people/images/200px/franck-le-gall.jpg", position: "Chief Executive Officer", company: "Easy Global Market", "company-link": "https://www.egm.io/en/egm-the-innovation-factory",
+        content: "Franck Le Gall is CEO at Easy Global Market, an innovative SME focused on integration and validation of emerging technologies. He is driving company development to deploy IoT and data technologies over vertical markets (water, agriculture, smart territories, environment, etc.). He involves himself in the standardization area including ETSI where he is co-chairman of the ETSI ISG-CIM working group on NGSI-LD. He is also chairing the interfaces working group of the FIWARE Technical Steering Committee (TSC) as well as the joint ETSI-FIWARE Foundation working group on Digital Twins. Finally, he is the Co-chair of the Smart Water working group of the ICT4Water European research cluster. He continuously contributes and drives several projects for public and private customers.", linkedin: "https://www.linkedin.com/in/francklegall/", twitter: "https://twitter.com/franck_le_gall", domain: "", location: "",
         flag: "", },
     "gaetano-volpe":
         { name: "Gaetano Volpe", img: "https://www.fiware.org/wp-content/directories/people/images/200px/gaetano-volpe.jpg", position: "Chief Executive Officer", company: "Latitudo 40", "company-link": "https://www.latitudo40.com/",
