@@ -104,7 +104,7 @@
     margin-bottom: 0px;
 }
 
-.panel-title.details {
+.panel-title.detail {
     font-size: 1.5em;
     margin-bottom: 10px;
 }
@@ -124,7 +124,7 @@
     color: #4c4c4c;
 }
 
-.excerpt.details {
+.excerpt.detail {
     font-size: 1.3em;
 }
 
@@ -270,7 +270,7 @@
     padding: 4px 8px 5px;
 }
 
-.track.details {
+.track.detail {
     font-size: 16px;
 }
 
