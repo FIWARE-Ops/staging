@@ -69,7 +69,7 @@
     align-items: flex-start;
     gap: 0;
     margin-top: 4px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .separator-dot {
@@ -206,6 +206,13 @@
     cursor: grab;
 }
 
+.speakers.detail {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 40px;
+    cursor: default;
+}
+
 .speaker {
     width: fit-content;
     display: flex;
@@ -244,6 +251,10 @@
     padding: 0;
 }
 
+.speaker-name.detail {
+    font-size: 15px;
+}
+
 .speaker-job-title,
 .speaker-company {
     color: #696969;
@@ -251,6 +262,11 @@
     line-height: 1.3em;
     font-weight: 400;
     padding: 0;
+}
+
+.speaker-job-title,
+.speaker-company {
+    font-size: 14px;
 }
 
 
