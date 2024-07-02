@@ -3,7 +3,11 @@ var tracks = [
         'Innovation with FIWARE',
         'Tech &amp; Trends',
 ];
-var departments = [
+var summitDates = [
+        null,
+        'september-18',
+        'september-19',
+        null
 ];
 var sessions = [
         'Data Space Technology',
@@ -14,7 +18,8 @@ var sessions = [
         'Innovation projects on green and industry digital twins',
         'Smart Communities &amp; Mobility',
         'Smart Energy',
-]; var speakers = [
+]; 
+var speakers = [
         'Alberto Abella',
         'Andrea Maioli',
         'Antonella Longo',
