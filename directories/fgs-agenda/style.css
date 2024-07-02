@@ -121,10 +121,13 @@
 
 .venue {
     display: flex;
-    flex-direction: row;
-    align-items: baseline;
+    align-items: center;
+    gap: 3px;
+    width: fit-content;
+    font-weight: 500;
+    font-size: 15px !important;
     color: #005fb9;
-    text-decoration: underline;
+    padding-bottom: 0px;
 }
 
 .panel-title {
