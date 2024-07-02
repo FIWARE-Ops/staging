@@ -1,30 +1,4 @@
 
-function wrapImage(id, width, height, src) {
-  var img = '';
-
-  if (width) {
-    img =
-      img +
-      `<span class="et_pb_image">
-                <img class="wp-image-100287" loading="lazy" 
-                width="${width}" height="${height}" src="${src}"/>
-            </span>`;
-  } else {
-    img =
-      img +
-      `<span class="et_pb_image">
-                <img class="hero-product" src="${src}"/>
-            </span>`;
-  }
-
-  $(id).empty();
-  $(id).append(img);
-  $(id + ' span')
-    .hide()
-    .show(0);
-  //}
-}
-
 function wrapParagraphs(id, input) {
   if (input === '') {
     $(id).prev().remove();
@@ -36,19 +10,28 @@ function wrapParagraphs(id, input) {
   $(id).append(html);
 }
 
-function addChips(id, items) {
-  if (items.length === 0) {
-    $(id).parent().remove();
-    return;
-  }
+
+function wrapSpeakers(id, speakers) {
+
+  let html = '';
+
+  speakers.forEach((speaker, index) => {
+    html += `<div class="speaker" data-modal='${index}'>
+<div class="profile-picture" >
+      <img decoding="async" alt="" src="${speaker.img}" loading="lazy">
+    </div>
+<div class="speaker-info">
+<div class="speaker-name detail">${speaker.name}</div>
+<div class="speaker-job-title detail">${speaker.job}</div>
+<div class="speaker-company detail">${speaker.company}</div>
+</p></div>
+</p></div>
+`
+  });
 
   $(id).empty();
-  items.forEach((el) => {
-    var resource = '<li class="resource">' + el + '</li>';
-    $(id).append(resource);
-  });
+  $(id).append(html);
 }
-
 
 
 function fillEvent(event) {
@@ -56,13 +39,15 @@ function fillEvent(event) {
     return;
   }
   window.eventDone = true;
-  $('h1#name').text(event.title);
-  $('h6#session').text(event.session);
+  $('div#track').text(event.track);
+  $('div.panel-title').text(event.title);
+  $('div.excerpt').text(event.session);
+  $('span.date').text(event.shortDate);
+  $('span.time').text(`${event.start} - ${event.end}`);
+  $('span.place').text(event.location);
 
-  wrapImage('#logo', 500, 300, event.img);
-  wrapImage('#main-logo', 500, 300, event.img);
-
-  wrapParagraphs('#description', event.description);
+  wrapParagraphs('div#description', event.description);
+  wrapSpeakers('div#speakers', event.speakers)
 
   const title = event.title + ' - ' + event.session;
   document.title = title;

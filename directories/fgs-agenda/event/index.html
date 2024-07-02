@@ -983,9 +983,9 @@ z-index: 99999;
 				
 				
 				
-				<div class="et_pb_text_inner">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-<p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p>
-<p>Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.</div>
+				<div id="description" class="et_pb_text_inner">
+
+				</div>
 			</div>
 			</div><div class="et_pb_column et_pb_column_2_5 et_pb_column_3  et_pb_css_mix_blend_mode_passthrough et-last-child">
 				
@@ -1004,34 +1004,14 @@ z-index: 99999;
   <span class="separator-dot detail"></span><br />
   <span class="place detail">Room Europa</span><br />
   <span class="separator-dot detail"></span><br />
-  <a class="venue" href="https://maps.app.goo.gl/BZjA9nzBpAog72hJ9" target="_blank" alt="Venue Address" rel="noopener"><span class="material-symbols-outlined">location_on</span><span style="border-bottom: 1px solid">Mostra d’Oltremare – Naples, Italy</span></a>
+  <a class="venue" href="https://www.openstreetmap.org/#map=17/40.8244/14.1915" target="_blank" alt="Venue Address" rel="noopener"><span class="material-symbols-outlined">location_on</span><span style="border-bottom: 1px solid">Mostra d’Oltremare – Naples, Italy</span></a>
 </div></div>
 			</div><div class="et_pb_module et_pb_text et_pb_text_3  et_pb_text_align_left et_pb_bg_layout_light">
 				
 				
 				
 				
-				<div class="et_pb_text_inner"><div class="speakers detail">
-<div class="speaker">
-<div class="profile-picture" data-modal='roberto-di-bernardo'>
-      <img decoding="async" alt="" src="https://www.fiware.org/wp-content/directories/people/images/200px/roberto-di-bernardo.jpg" loading="lazy">
-    </div>
-<div class="speaker-info">
-<div class="speaker-name detail">Roberto Di Bernardo</div>
-<div class="speaker-job-title detail">Director</div>
-<div class="speaker-company detail">Engineering</div>
-</p></div>
-</p></div>
-<div class="speaker">
-<div class="profile-picture" data-modal='antonio-jara'>
-      <img decoding="async" alt="" src="https://www.fiware.org/wp-content/directories/people/images/200px/antonio-jara.jpg" loading="lazy">
-    </div>
-<div class="speaker-info">
-<div class="speaker-name detail">Antonio Jara</div>
-<div class="speaker-job-title detail">Manager</div>
-<div class="speaker-company detail">Libelium</div>
-</p></div>
-</p></div>
+				<div class="et_pb_text_inner"><div id="speakers" class="speakers detail">xxx
 </div></div>
 			</div><div class="et_pb_button_module_wrapper et_pb_button_0_wrapper et_pb_button_alignment_left et_pb_module ">
 				<a class="et_pb_button et_pb_button_0 et_pb_bg_layout_light" href="#" target="_blank">Save event</a>
@@ -1115,6 +1095,13 @@ z-index: 99999;
 				
 				
 				<div class="et_pb_code_inner"><link rel="stylesheet" href="https://www.fiware.org/fiware-summit/naples-2024/agenda/style.css"></div>
+				<div class="et_pb_code_inner"><script>
+	var scr = document.createElement("script");
+	scr.src = "./pageData.js" + "?ts=" + Math.round(new Date().getTime()/3600000);
+	document.getElementsByTagName("head")[0].appendChild(scr);
+</script>
+<script src="./app_event.js"></script>
+			</div>
 			</div>
 			</div>
 				
