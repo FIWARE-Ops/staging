@@ -732,7 +732,7 @@ select::-ms-expand {
 }
 
 .checked + label {
-    background-color: rgba(138, 210, 220, 1);
+    background-color: rgba(138, 210, 220, 1)!important;
     color: #005fb9;
 }
 
