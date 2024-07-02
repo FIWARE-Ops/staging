@@ -256,4 +256,4 @@ function initialiseStyleBackgroundIntersectionObserver() {
 
 document.addEventListener("data-ready", () => {
     loadEvent();
-});
+}, { once: true });
