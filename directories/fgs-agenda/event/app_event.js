@@ -131,8 +131,6 @@ function initModal() {
         },
       });
       // set content
-
-      alert()
       modal.setContent(createModalContent(window.modalData[el.dataset.modal]));
 
       // open modal
