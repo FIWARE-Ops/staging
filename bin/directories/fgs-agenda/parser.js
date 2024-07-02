@@ -151,7 +151,7 @@ function parse(agendaFile, speakersFile) {
                     Template.write(
                         path.join(AGENDA_DIR, 'event/pageData.js'),
                         path.join(TEMPLATE_PATH, 'details.hbs'),
-                        agenda
+                        filterData
                     );
 
                     agenda.forEach ((event, index) =>{
