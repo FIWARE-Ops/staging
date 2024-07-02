@@ -398,13 +398,13 @@ function initSelect() {
   });
 }
 
-let checkboxes = document.querySelectorAll(".filters-checkbox input[type='checkbox']");
+let input_checkboxes = document.querySelectorAll(".filters-checkbox input[type='checkbox']");
 const removeChecked = () => {
-  checkboxes.forEach((input) => {
+  input_checkboxes.forEach((input) => {
     input.classList.remove("checked");
   });
-}
-checkboxes.forEach((input) => {
+};
+input_checkboxes.forEach((input) => {
   input.addEventListener("click", () => {
     if (!input.classList.contains("checked")) {
       removeChecked();
