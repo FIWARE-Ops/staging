@@ -16,7 +16,7 @@ const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/agenda/imag
  * Take the human readable column names from the spreadsheet and create a
  * data object of each project for later use
  */
-function extractAgenda(input, speakers, activeSpeakers) {
+function extractAgenda(input, speakers, activeSpeakers, eventDates) {
     const agenda = [];
     input.forEach((item) => {
         const event = {
@@ -66,6 +66,8 @@ function extractAgenda(input, speakers, activeSpeakers) {
 
             event.startTime = Parser.addTime(event.date, event.start);
             event.shortDate = event.date.toLocaleDateString(undefined, {month: "long", day: "numeric"});
+            
+            eventDates.push(event.shortDate)
             agenda.push(event);
         }
     });
@@ -91,6 +93,7 @@ function parse(agendaFile, speakersFile) {
     let agendaData = null;
     let speakers = null;
     let activeSpeakers = [];
+    let eventDates = [];
 
     csv()
         .fromFile(speakersFile)
@@ -101,15 +104,17 @@ function parse(agendaFile, speakersFile) {
             csv()
                 .fromFile(agendaFile)
                 .then((input) => {
-                    return extractAgenda(input, speakers, activeSpeakers);
+                    return extractAgenda(input, speakers, activeSpeakers, eventDates);
                 })
                 .then((agenda) => {
 
                     const  speakerNames = _.sortBy(_.uniq(activeSpeakers), a => {return a});
+                    const summitDates = _.uniq(eventDates)
                     const filterData = {
                         tracks: Sorter.sortData(agenda, 'track'),
                         sessions: Sorter.flatSortData(agenda, 'session'),
                         speakers: speakerNames,
+                        summitDates,
                         agenda
                     };
 

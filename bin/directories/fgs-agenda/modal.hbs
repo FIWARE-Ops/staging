@@ -5,7 +5,14 @@ var tracks = [
     {{/if}}
 {{/each}}
 ];
-var departments = [
+var summitDates = [
+        null,
+{{#each summitDates}}
+    {{#if (ne this '')}}
+        '{{createClass this}}',
+    {{/if}}
+{{/each}}
+        null
 ];
 var sessions = [
 {{#each sessions}}
@@ -13,7 +20,8 @@ var sessions = [
         '{{this}}',
     {{/if}}
 {{/each}}
-]; var speakers = [
+]; 
+var speakers = [
 {{#each speakers}}
     {{#if (ne this '')}}
         '{{this}}',
