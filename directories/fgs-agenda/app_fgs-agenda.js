@@ -398,23 +398,6 @@ function initSelect() {
   });
 }
 
-let input_checkboxes = document.querySelectorAll(".filters-checkbox input[type='checkbox']");
-const removeChecked = () => {
-  input_checkboxes.forEach((input) => {
-    input.classList.remove("checked");
-  });
-};
-input_checkboxes.forEach((input) => {
-  input.addEventListener("click", () => {
-    if (!input.classList.contains("checked")) {
-      removeChecked();
-      input.classList.add("checked");
-    } else {
-      removeChecked();
-    }
-  });
-});
-
 function smoothScroll() {
   // Add smooth scrolling to all links
   jQuery("a").on("click", function (event) {
