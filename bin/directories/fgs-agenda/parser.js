@@ -133,7 +133,7 @@ function parse(agendaFile, speakersFile) {
                         agenda
                     };
 
-                    Template.clean(path.join(AGENDA_DIR, '/events'));
+                    Template.clean(path.join(AGENDA_DIR, '/event'));
 
                     Template.write(path.join(AGENDA_DIR, 'agenda.html'), path.join(TEMPLATE_PATH, 'card.hbs'), agenda);
                     Template.write(
