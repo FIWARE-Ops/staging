@@ -185,6 +185,7 @@
 .profile-picture {
     width: 60px;
     height: 60px;
+    cursor: pointer;
 }
 
 .profile-picture img {
@@ -893,7 +894,7 @@ input[type="search"]::placeholder {
 /* –––––––––––––––– */
 
 @media screen and (max-width: 767px) {
-    
+
     /* Modal */
 
     .tingle-modal__close {
