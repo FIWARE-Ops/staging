@@ -6,13 +6,11 @@ var tracks = [
 {{/each}}
 ];
 var summitDates = [
-        null,
 {{#each summitDates}}
     {{#if (ne this '')}}
         '{{createClass this}}',
     {{/if}}
 {{/each}}
-        null
 ];
 var sessions = [
 {{#each sessions}}
