@@ -276,8 +276,8 @@
     padding: 0;
 }
 
-.speaker-job-title,
-.speaker-company {
+.speaker-job-title.detail,
+.speaker-company.detail {
     font-size: 14px;
 }
 
