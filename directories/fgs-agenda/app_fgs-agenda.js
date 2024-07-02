@@ -5,15 +5,9 @@ function createClassFilter(data) {
   if (typeof data == "object") {
     data.forEach((element, i) => {
       if (i + 1 === data.length) {
-        filterString += `${element
-          .toLowerCase()
-          .replace(/&amp/gi, "")
-          .replace(regex, "-")}`;
+        filterString += `${element.toLowerCase().replace(/&amp/gi, "").replace(regex, "-")}`;
       } else {
-        filterString += `${element
-          .toLowerCase()
-          .replace(/&amp/gi, "")
-          .replace(regex, "-")} `;
+        filterString += `${element.toLowerCase().replace(/&amp/gi, "").replace(regex, "-")} `;
       }
     });
   } else {
@@ -76,16 +70,10 @@ function createModalContent(tingleModalData) {
   modalHtml += "<div class='social-modal'>";
 
   if (tingleModalData.twitter !== "") {
-    modalHtml +=
-      '<a class="twitter-link" href="' +
-      tingleModalData["twitter"] +
-      '" target="_blank"></a>';
+    modalHtml += '<a class="twitter-link" href="' + tingleModalData["twitter"] + '" target="_blank"></a>';
   }
   if (tingleModalData.linkedin !== "") {
-    modalHtml +=
-      '<a class="linkedin-link" href="' +
-      tingleModalData["linkedin"] +
-      '" target="_blank"></a>';
+    modalHtml += '<a class="linkedin-link" href="' + tingleModalData["linkedin"] + '" target="_blank"></a>';
   }
   if (tingleModalData.flag !== "") {
     modalHtml += `<img class="flag"  src="${tingleModalData.flag}"/>`;
@@ -103,7 +91,6 @@ function createModalContent(tingleModalData) {
 
   return modalHtml;
 }
-
 
 function initModal() {
   // Modal
@@ -125,7 +112,6 @@ function initModal() {
           // here's goes some logic
           // e.g. save content before closing the modal
           return true; // close the modal
-          return false; // nothing happens
         },
       });
       // set content
@@ -156,40 +142,36 @@ function initTextSearch(msnry) {
 
 function filterToggle() {
   let filtersContainer = document.querySelector(".filters-container");
-  document
-    .querySelector("#mobileToggleFilters")
-    .addEventListener("click", (ev) => {
-      ev.target.classList.toggle("activeButton");
+  document.querySelector("#mobileToggleFilters").addEventListener("click", (ev) => {
+    ev.target.classList.toggle("activeButton");
 
-      if (!filtersContainer.classList.contains("active")) {
-        filtersContainer.classList.add("active");
-        document.querySelector("#filter-button-text").innerText =
-          "Hide Filters";
-        filtersContainer.style.height = "auto";
+    if (!filtersContainer.classList.contains("active")) {
+      filtersContainer.classList.add("active");
+      document.querySelector("#filter-button-text").innerText = "Hide Filters";
+      filtersContainer.style.height = "auto";
 
-        let height = filtersContainer.clientHeight + "px";
+      let height = filtersContainer.clientHeight + "px";
 
-        filtersContainer.style.height = "0px";
+      filtersContainer.style.height = "0px";
 
-        setTimeout(function () {
-          filtersContainer.style.height = height;
-        }, 0);
-      } else {
-        filtersContainer.style.height = "0px";
-        document.querySelector("#filter-button-text").innerText =
-          "Show Filters";
+      setTimeout(function () {
+        filtersContainer.style.height = height;
+      }, 0);
+    } else {
+      filtersContainer.style.height = "0px";
+      document.querySelector("#filter-button-text").innerText = "Show Filters";
 
-        filtersContainer.addEventListener(
-          "transitionend",
-          function () {
-            filtersContainer.classList.remove("active");
-          },
-          {
-            once: true,
-          }
-        );
-      }
-    });
+      filtersContainer.addEventListener(
+        "transitionend",
+        function () {
+          filtersContainer.classList.remove("active");
+        },
+        {
+          once: true,
+        }
+      );
+    }
+  });
 }
 
 function getCSSFilter(id) {
@@ -201,17 +183,17 @@ function getCSSFilter(id) {
   return document.querySelector(id) ? cssFilter : "";
 }
 
-function getCSSDayFilter(){
+function getCSSDayFilter() {
   var cssFilter = "";
   const dayOne = document.querySelector("#dayOne");
   const dayTwo = document.querySelector("#dayTwo");
 
-  if (dayOne.checked && (dayOne.checked  != dayTwo.checked)){
-    cssFilter = `.${window.summitDates[0]}`
-  } else if (dayTwo.checked && (dayOne.checked  != dayTwo.checked)){
-    cssFilter = `.${window.summitDates[1]}`
+  if (dayOne.checked && dayOne.checked != dayTwo.checked) {
+    cssFilter = `.${window.summitDates[0]}`;
+  } else if (dayTwo.checked && dayOne.checked != dayTwo.checked) {
+    cssFilter = `.${window.summitDates[1]}`;
   }
-  return cssFilter; 
+  return cssFilter;
 }
 
 function filterOptions(id, filter, data, css) {
@@ -242,25 +224,9 @@ function dropdownFilters(filter) {
   var SpeakerCSSFilter = getCSSFilter("#filterSpeaker");
   var DayCSSFilter = getCSSDayFilter();
 
-  filterOptions(
-    "#filterTrack",
-    filter.fTrack,
-    window.tracks,
-    SessionCSSFilter + SpeakerCSSFilter + DayCSSFilter
-  );
-  filterOptions(
-    "#filterSession",
-    filter.fSession,
-    window.sessions,
-    TrackCSSFilter + SpeakerCSSFilter + DayCSSFilter
-  );
-  filterOptions(
-    "#filterSpeaker",
-    filter.fSpeaker,
-    window.speakers,
-    TrackCSSFilter + SessionCSSFilter + DayCSSFilter
-  );
-
+  filterOptions("#filterTrack", filter.fTrack, window.tracks, SessionCSSFilter + SpeakerCSSFilter + DayCSSFilter);
+  filterOptions("#filterSession", filter.fSession, window.sessions, TrackCSSFilter + SpeakerCSSFilter + DayCSSFilter);
+  filterOptions("#filterSpeaker", filter.fSpeaker, window.speakers, TrackCSSFilter + SessionCSSFilter + DayCSSFilter);
 }
 
 function scrollToView() {
@@ -282,7 +248,7 @@ var selectors = {
   fTrack: true,
   fSession: true,
   fSpeaker: true,
-  fDay: true
+  fDay: true,
 };
 var filterObj = {};
 
@@ -305,7 +271,6 @@ function initSelect() {
 
   initTextSearch(msnry);
 
-  
   document.querySelector(".resetInput").addEventListener("click", (el) => {
     document.querySelector("#searchInput").value = "";
     document.querySelector(".search-element").classList.remove("resetActive");
@@ -320,11 +285,10 @@ function initSelect() {
   const dayTwo = document.querySelector("#dayTwo");
 
   dayOne.addEventListener("click", (el) => {
-
-    if (dayOne.checked && (dayOne.checked  != dayTwo.checked)){
-      filterObj.fDay = `.${window.summitDates[0]}`
-    } else if (dayTwo.checked && (dayOne.checked  != dayTwo.checked)){
-      filterObj.fDay = `.${window.summitDates[1]}`
+    if (dayOne.checked && dayOne.checked != dayTwo.checked) {
+      filterObj.fDay = `.${window.summitDates[0]}`;
+    } else if (dayTwo.checked && dayOne.checked != dayTwo.checked) {
+      filterObj.fDay = `.${window.summitDates[1]}`;
     } else {
       filterObj.fDay = "";
     }
@@ -333,19 +297,19 @@ function initSelect() {
       fTrack: true,
       fSession: true,
       fSpeaker: true,
-      fDay: false
+      fDay: false,
     };
 
     msnry.arrange({
-        filter: concatValues(filterObj),
-      });
+      filter: concatValues(filterObj),
+    });
   });
 
   dayTwo.addEventListener("click", (el) => {
-    if (dayOne.checked && (dayOne.checked  != dayTwo.checked)){
-      filterObj.fDay = `.${window.summitDates[0]}`
-    } else if (dayTwo.checked && (dayOne.checked  != dayTwo.checked)){
-      filterObj.fDay = `.${window.summitDates[1]}`
+    if (dayOne.checked && dayOne.checked != dayTwo.checked) {
+      filterObj.fDay = `.${window.summitDates[0]}`;
+    } else if (dayTwo.checked && dayOne.checked != dayTwo.checked) {
+      filterObj.fDay = `.${window.summitDates[1]}`;
     } else {
       filterObj.fDay = "";
     }
@@ -354,15 +318,14 @@ function initSelect() {
       fTrack: true,
       fSession: true,
       fSpeaker: true,
-      fDay: false
+      fDay: false,
     };
-    
+
     msnry.arrange({
-        filter: concatValues(filterObj),
-      });
+      filter: concatValues(filterObj),
+    });
   });
 
- 
   $(".filters-container select").each(function (index) {
     $(this).bind("change", (e) => {
       if (e.target.id === "searchInput") {
@@ -373,7 +336,7 @@ function initSelect() {
         fTrack: e.target.id !== "filterTrack",
         fSession: e.target.id !== "filterSession",
         fSpeaker: e.target.id !== "filterSpeaker",
-        fDay: true
+        fDay: true,
       };
 
       if (document.getElementById(e.target.id).value === "*") {
@@ -381,13 +344,11 @@ function initSelect() {
           fTrack: true,
           fSession: true,
           fSpeaker: true,
-          fDay: true
+          fDay: true,
         };
       }
 
-      filterObj[e.target.id] = `${
-        e.target.value == "*" ? "" : "." + e.target.value
-      }`;
+      filterObj[e.target.id] = `${e.target.value == "*" ? "" : "." + e.target.value}`;
       scrollSet = true;
       msnry.arrange({
         filter: concatValues(filterObj),
@@ -460,6 +421,28 @@ function horizontalScroll() {
   });
 }
 
+function checkboxChecked() {
+  var input_checkboxes = document.querySelectorAll(".filters-checkbox input[type='checkbox']");
+  function removeChecked() {
+    input_checkboxes.forEach((input) => {
+      input.classList.remove("checked");
+    });
+  }
+  input_checkboxes.forEach((input) => {
+    console.log(input);
+    input.addEventListener("click", () => {
+      console.log("click");
+      console.log(input.classList.contains("checked"));
+      if (!input.classList.contains("checked")) {
+        removeChecked();
+        input.classList.add("checked");
+      } else {
+        removeChecked();
+      }
+    });
+  });
+}
+
 document.addEventListener("html-included", () => {
   //$("#filteredCompanies").text(window.modalData.length);
   horizontalScroll();
@@ -472,6 +455,7 @@ document.addEventListener("html-included", () => {
   initSelect();
   initModal();
   filterToggle();
+  checkboxChecked();
   let count = 0;
   let target = 7;
   // Isotope istantiation
@@ -487,12 +471,12 @@ document.addEventListener("html-included", () => {
         }
       });
     })
-    .fail( function() {
+    .fail(function () {
       // msnry.arrange({ sortBy: "original-order" });
     })
     .progress(function (instance, image) {
       count++;
-      if(count % target === 0){
+      if (count % target === 0) {
         target = target + 7;
         msnry.arrange({ sortBy: "original-order" });
       }
