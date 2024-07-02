@@ -146,6 +146,9 @@ function fillEvent(event) {
   }
   window.eventDone = true;
   $('div#track').text(event.track);
+  $('div#track').addClass(trackCSS(event.track))
+  $('div#image').addClass(trackCSS(event.track))
+  
   $('div.panel-title').text(event.title);
   $('div.excerpt').text(event.session);
   $('span.date').text(event.shortDate);
@@ -158,6 +161,27 @@ function fillEvent(event) {
   const title = event.title + ' - ' + event.session;
   document.title = title;
   //history.pushState({}, null, event.social);
+}
+
+function trackCSS(data) {
+    let result = '';
+
+    switch (data) {
+        case 'Tech & Trends':
+            result="light-green"
+            break;
+        case 'Innovation with FIWARE':
+            result="light-blue"
+            break;
+        case
+            'Hands-On Use Cases':
+            result="light-yellow"
+            break;
+        default:
+            break;
+        }
+
+    return result;
 }
 
 function loadEvent() {
