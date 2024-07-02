@@ -731,6 +731,11 @@ select::-ms-expand {
     color: #005fb9;
 }
 
+.checked + label {
+    background-color: rgba(138, 210, 220, 1);
+    color: #005fb9;
+}
+
 input[type="checkbox"] {
     line-height: 2.1ex;
 }
