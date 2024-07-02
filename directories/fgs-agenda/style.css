@@ -332,6 +332,220 @@
     color: #fff !important;
 }
 
+/* –––––––––––––––– */
+
+
+/* Modal */
+
+.tingle-modal {
+    backdrop-filter: blur(5px);
+}
+
+.tingle-modal--visible {
+    z-index: 99999;
+}
+
+.tingle-modal__close {
+    color: #fff;
+}
+
+.tingle-modal-box {
+    border-radius: 10px;
+    background: #8ad2dc;
+    width: 640px;
+}
+
+.info-modal {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.tingle-modal-box__footer {
+    display: none;
+    /* border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #00D7A6; */
+}
+
+.tingle-modal img {
+    vertical-align: middle;
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    border: 2px solid #000;
+    margin-right: 20px;
+}
+
+.tingle-modal p {
+    color: #000;
+    line-height: 1.5em;
+}
+
+.tingle-modal h1 {
+    font-weight: 600;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #000;
+    font-size: 1.5em;
+    margin: 0px auto 15px;
+}
+
+.tingle-modal h2 {
+    font-weight: 500;
+    font-size: 1.15em;
+}
+
+.tingle-modal h3 {
+    font-size: 1.1em;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.tingle-modal .company-link {
+    font-size: 14px;
+    line-height: 1.5em;
+    color: #000;
+    text-decoration: underline;
+}
+
+.tingle-modal .company-link:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+/* .tingle-modal .company-link:after {
+    font-family: "ETmodules";
+    font-weight: 400;
+    content: "\e02c";
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    width: 32px;
+    color: #000;
+    text-align: center;
+    margin-left: 5px;
+} */
+
+.details-modal,
+.social-modal,
+.tags-modal {
+    display: flex;
+}
+
+.details-modal {
+    margin-top: 20px;
+}
+
+.social-modal {
+    margin-right: 10px;
+}
+
+.social-modal p.domain {
+    display: none;
+    /* background-color: #E37B6B;
+  border-radius: 16px;
+  padding: 5px 15px;
+  font-size: .9em;
+  margin-right:0px; */
+}
+
+.tags-modal p.location {
+    display: none;
+    /* display: flex;
+    font-size: .9em;
+    flex-direction: row;
+    padding-top: 5px; */
+}
+
+.tags-modal .location:before {
+    font-family: "ETmodules";
+    font-weight: 400;
+    content: "\e01d";
+    font-size: 28px;
+    line-height: 0.8em;
+    color: #000;
+    text-align: center;
+    margin-right: 3px;
+}
+
+.twitter-link::before {
+    font-family: "ETmodules";
+    font-weight: 400;
+    content: "\e094";
+    font-size: 16px;
+    display: inline-block;
+    position: relative;
+    /* background: #00aced; */
+    border: solid 1px #000;
+    border-radius: 40px;
+    width: 32px;
+    height: 32px;
+    color: #000;
+    text-align: center;
+    padding-left: 1px;
+    padding-top: 5px;
+}
+
+.twitter-link {
+    position: relative;
+    width: 32px;
+    margin-right: 12px;
+}
+
+.linkedin-link::before {
+    font-family: "ETmodules";
+    font-weight: 400;
+    content: "\e09d";
+    font-size: 16px;
+    display: inline-block;
+    position: relative;
+    /* background: #007bb6; */
+    border: solid 1px #000;
+    border-radius: 40px;
+    width: 32px;
+    height: 32px;
+    color: #000;
+    text-align: center;
+    padding-right: 0px;
+    padding-top: 4px;
+}
+
+.linkedin-link {
+    position: relative;
+    width: 32px;
+    margin-right: 12px;
+}
+
+.tingle-modal .bio-modal p {
+    max-height: 115px;
+    overflow: auto;
+}
+
+.tingle-modal .bio-modal p::-webkit-scrollbar {
+    width: 8px;
+    /* width of the entire scrollbar */
+}
+
+.tingle-modal .bio-modal p::-webkit-scrollbar-track {
+    background: transparent;
+    /* color of the tracking area */
+}
+
+.tingle-modal .bio-modal p::-webkit-scrollbar-thumb {
+    background-color: #005FB9;
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    border: 3px solid transparent;
+    /* creates padding around scroll thumb */
+}
+
+.tingle-modal .bio-modal p {
+    scrollbar-width: thin;
+    /* "auto" or "thin" */
+    scrollbar-color: #c7e9ee transparent;
+    /* scroll thumb and track */
+}
 
 /* –––––––––––––––– */
 
@@ -677,6 +891,95 @@ input[type="search"]::placeholder {
 }
 
 /* –––––––––––––––– */
+
+@media screen and (max-width: 767px) {
+    
+    /* Modal */
+
+    .tingle-modal__close {
+        color: #000;
+        font-weight: 400;
+        line-height: 1em;
+    }
+
+    .tingle-modal__close {
+        top: 5vw;
+        right: 5vw;
+        z-index: 99999;
+        background: #8ad2dc;
+        line-height: 0.9em;
+        box-shadow: 0 0 50px 0 rgba(0, 0, 0, 1) !important;
+    }
+
+    .tingle-modal-box {
+        width: 90%;
+    }
+
+    .tingle-modal-box__content {
+        padding: 2rem 2rem;
+    }
+
+    .credits-modal {
+        width: 100%;
+    }
+
+    .tingle-modal img {
+        display: none;
+    }
+
+    .details-modal {
+        display: block;
+    }
+
+    .social-modal p.domain {
+        display: none;
+        /* width: auto;
+    background-color: #E37B6B;
+    border-radius: 16px;
+    padding: 5px 15px;
+    font-size: .9em;
+    margin-right:0px;
+    margin-bottom:0px; */
+    }
+
+    .tags-modal {
+        display: none;
+        /* display: inline-block; */
+        padding: 20px 0 0 0;
+    }
+
+    .tags-modal p.location {
+        display: none;
+        /*display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+    margin-right: 20px;
+    padding-top: 0px; */
+    }
+
+    .tags-modal .location:before {
+        width: 32px;
+        margin-right: 10px;
+    }
+
+    .tingle-modal h1 {
+        font-size: 20px;
+    }
+
+    .tingle-modal h2 {
+        font-size: 16px;
+    }
+
+    .company {
+        font-size: 16px;
+        line-height: 0.8em;
+    }
+
+    .tingle-modal .bio-modal p {
+        max-height: 250px;
+        overflow: auto;
+    }
+}
 
 
 @media screen and (min-device-width: 481px) and (max-device-width: 980px) {
