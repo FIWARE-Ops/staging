@@ -1,0 +1,7 @@
+window.agenda = {
+    {{#each this}}
+        "{{createClass title}}" : {{{json this}}},
+    {{/each}}
+};
+
+document.dispatchEvent(new Event("data-ready"));

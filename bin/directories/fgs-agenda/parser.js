@@ -12,6 +12,12 @@ const People = require('../../people/parser');
 
 const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/agenda/images/careers-default.png';
 
+
+function getExcerpt(item){
+    let text =  Parser.textOnly(item['Description']);
+    const next = text.indexOf(".", 40);
+    return text.substring(0, next +1)
+}
 /**
  * Take the human readable column names from the spreadsheet and create a
  * data object of each project for later use
@@ -29,6 +35,7 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
             location: item['Location'],
             img: item['Image'] ? item['Image'] : DEFAULT_IMAGE,
             description: Parser.markdown(item['Description']),
+            excerpt: getExcerpt(item),
             publish: Parser.boolean(item['Published'])
         };
 
@@ -139,6 +146,27 @@ function parse(agendaFile, speakersFile) {
                         path.join(TEMPLATE_PATH, 'filter.hbs'),
                         filterData
                     );
+
+
+                    Template.write(
+                        path.join(AGENDA_DIR, 'event/pageData.js'),
+                        path.join(TEMPLATE_PATH, 'details.hbs'),
+                        agenda
+                    );
+
+                    agenda.forEach ((event, index) =>{
+
+                        const filename= Template.createClass(event.title);
+                        Template.write(
+                            path.join(AGENDA_DIR, `event/${filename}.html`),
+                            path.join(TEMPLATE_PATH, 'social-media.hbs'),
+                        event);
+                        Prettier.format(path.join(AGENDA_DIR, `event/${filename}.html`), { parser: 'html' });
+
+                    });
+
+
+
 
                     Prettier.format(path.join(AGENDA_DIR, 'agenda.html'), { parser: 'html' });
                     Prettier.format(path.join(AGENDA_DIR, 'pageData.js'), { parser: 'flow' });
