@@ -179,7 +179,7 @@
 }
 
 .speaker:last-of-type {
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 .profile-picture {
@@ -673,7 +673,7 @@ input[type="search"]::placeholder {
 
 #ico-filtersbar {
     margin-right: 8px;
-    color: #002e67;
+    color: #8ad2dc;
 }
 
 /* –––––––––––––––– */
@@ -929,7 +929,7 @@ input[type="search"]::placeholder {
 
     .showFilters {
         display: flex;
-        align-items: flex-end;
+        /* align-items: flex-end; */
     }
 
     .filtersBar {
@@ -944,7 +944,7 @@ input[type="search"]::placeholder {
         width: 100%;
         font-size: 14px;
         font-weight: 600;
-        color: #002e67;
+        color: #8ad2dc;
         text-transform: uppercase;
         display: flex;
         align-items: flex-end;
@@ -954,18 +954,22 @@ input[type="search"]::placeholder {
     .filters-container {
         transition: height .5s ease;
         overflow: hidden;
-        /* padding-top: 16px; */
-        border-top: 1px solid #aaa;
+        padding-top: 10px;
+        /* border-top: 1px solid #aaa; */
     }
 
     .filters-container:not(.active) {
         display: none;
     }
 
+    .date-picker {
+        justify-content: flex-end;
+    }
+
     /* Search */
 
     input[type="search"] {
-        background-position: 5%;
+        background-position: 3%;
     }
 
     /* Filtering */
