@@ -54,6 +54,8 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
 
                 if(speaker){
                     speaker.shortJob = speaker.filters[0];
+                } else {
+                    console.error(`DATA MISMATCH: Missing Speaker: ${name}`)
                 }
 
 

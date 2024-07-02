@@ -30,7 +30,7 @@ var speakers = [
 ]; 
 var modalData = {
 {{#each people}}
-    {{#if bio}}
+    {{#if img}}
     "{{createClass name}}":
         { name: "{{title}}{{name}}", img: "{{img}}", position: "{{job}}", company: "{{company}}{{companyType}}", "company-link": "{{website}}",
         content: "{{bio}}", linkedin: "{{linkedIn}}", twitter: "{{twitter}}", domain: "{{domain}}", location: "{{country}}",
