@@ -4,10 +4,8 @@ var tracks = [
         'Tech &amp; Trends',
 ];
 var summitDates = [
-        null,
         'september-18',
-        'september-19',
-        null
+        'september-19'
 ];
 var sessions = [
         'Data Space Technology',

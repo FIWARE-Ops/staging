@@ -201,6 +201,19 @@ function getCSSFilter(id) {
   return document.querySelector(id) ? cssFilter : "";
 }
 
+function getCSSDayFilter(){
+  var cssFilter = "";
+  const dayOne = document.querySelector("#dayOne");
+  const dayTwo = document.querySelector("#dayTwo");
+
+  if (dayOne.checked && (dayOne.checked  != dayTwo.checked)){
+    cssFilter = `.${window.summitDates[0]}`
+  } else if (dayTwo.checked && (dayOne.checked  != dayTwo.checked)){
+    cssFilter = `.${window.summitDates[1]}`
+  }
+  return cssFilter; 
+}
+
 function filterOptions(id, filter, data, css) {
   var itemCSSFilter = ".grid-item:visible";
   // update Type select
@@ -227,24 +240,25 @@ function dropdownFilters(filter) {
   var TrackCSSFilter = getCSSFilter("#filterTrack");
   var SessionCSSFilter = getCSSFilter("#filterSession");
   var SpeakerCSSFilter = getCSSFilter("#filterSpeaker");
+  var DayCSSFilter = getCSSDayFilter();
 
   filterOptions(
     "#filterTrack",
     filter.fTrack,
     window.tracks,
-    SessionCSSFilter + SpeakerCSSFilter
+    SessionCSSFilter + SpeakerCSSFilter + DayCSSFilter
   );
   filterOptions(
     "#filterSession",
     filter.fSession,
     window.sessions,
-    TrackCSSFilter + SpeakerCSSFilter
+    TrackCSSFilter + SpeakerCSSFilter + DayCSSFilter
   );
   filterOptions(
     "#filterSpeaker",
     filter.fSpeaker,
     window.speakers,
-    TrackCSSFilter + SessionCSSFilter
+    TrackCSSFilter + SessionCSSFilter + DayCSSFilter
   );
 
 }
@@ -267,7 +281,8 @@ var msnry;
 var selectors = {
   fTrack: true,
   fSession: true,
-  fSpeaker: true
+  fSpeaker: true,
+  fDay: true
 };
 var filterObj = {};
 
@@ -291,38 +306,63 @@ function initSelect() {
   initTextSearch(msnry);
 
   
-    document.querySelector(".resetInput").addEventListener("click", (el) => {
-      document.querySelector("#searchInput").value = "";
-      document.querySelector(".search-element").classList.remove("resetActive");
-      msnry.arrange({
-        filter: function (itemElem, itemElem2) {
-          return true;
-        },
+  document.querySelector(".resetInput").addEventListener("click", (el) => {
+    document.querySelector("#searchInput").value = "";
+    document.querySelector(".search-element").classList.remove("resetActive");
+    msnry.arrange({
+      filter: function (itemElem, itemElem2) {
+        return true;
+      },
+    });
+  });
+
+  const dayOne = document.querySelector("#dayOne");
+  const dayTwo = document.querySelector("#dayTwo");
+
+  dayOne.addEventListener("click", (el) => {
+
+    if (dayOne.checked && (dayOne.checked  != dayTwo.checked)){
+      filterObj.fDay = `.${window.summitDates[0]}`
+    } else if (dayTwo.checked && (dayOne.checked  != dayTwo.checked)){
+      filterObj.fDay = `.${window.summitDates[1]}`
+    } else {
+      filterObj.fDay = "";
+    }
+
+    selectors = {
+      fTrack: true,
+      fSession: true,
+      fSpeaker: true,
+      fDay: false
+    };
+
+    msnry.arrange({
+        filter: concatValues(filterObj),
       });
-    });
+  });
 
-  /*  // SORT BY ALPHABETICALLY
-    document.querySelector("#orderByName").addEventListener("click", (e) => {
-      if (e.target.classList.contains("active") == false) {
-        msnry.arrange({ sortBy: "name" });
-        e.target.classList.add("active");
-      } else {
-        msnry.arrange({ sortBy: "original-order" });
-        e.target.classList.remove("active");
-      }
-    });
+  dayTwo.addEventListener("click", (el) => {
+    if (dayOne.checked && (dayOne.checked  != dayTwo.checked)){
+      filterObj.fDay = `.${window.summitDates[0]}`
+    } else if (dayTwo.checked && (dayOne.checked  != dayTwo.checked)){
+      filterObj.fDay = `.${window.summitDates[1]}`
+    } else {
+      filterObj.fDay = "";
+    }
 
-    // SORT BY YEAR
-    document.querySelector("#orderByYear").addEventListener("click", (e) => {
-      if (e.target.classList.contains("active") == false) {
-        msnry.arrange({ sortBy: "year" });
-        e.target.classList.add("active");
-      } else {
-        msnry.arrange({ sortBy: "original-order" });
-        e.target.classList.remove("active");
-      }
-    });*/
+    selectors = {
+      fTrack: true,
+      fSession: true,
+      fSpeaker: true,
+      fDay: false
+    };
+    
+    msnry.arrange({
+        filter: concatValues(filterObj),
+      });
+  });
 
+ 
   $(".filters-container select").each(function (index) {
     $(this).bind("change", (e) => {
       if (e.target.id === "searchInput") {
@@ -332,14 +372,16 @@ function initSelect() {
       selectors = {
         fTrack: e.target.id !== "filterTrack",
         fSession: e.target.id !== "filterSession",
-        fSpeaker: e.target.id !== "filterSpeaker"
+        fSpeaker: e.target.id !== "filterSpeaker",
+        fDay: true
       };
 
       if (document.getElementById(e.target.id).value === "*") {
         selectors = {
           fTrack: true,
           fSession: true,
-          fSpeaker: true
+          fSpeaker: true,
+          fDay: true
         };
       }
 
