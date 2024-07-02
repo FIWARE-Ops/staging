@@ -61,7 +61,7 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
             });
 
             event.speakers.forEach(speaker => {
-                activeSpeakers.push(speaker.name);
+                activeSpeakers.push(speaker);
             });
 
             event.startTime = Parser.addTime(event.date, event.start);
@@ -91,29 +91,35 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
  */
 function parse(agendaFile, speakersFile) {
     let agendaData = null;
-    let speakers = null;
+    let people = null;
     let activeSpeakers = [];
     let eventDates = [];
 
     csv()
         .fromFile(speakersFile)
         .then((input) => {
-            speakers = People.extract(input);
-
-           
+            allSpeakers = People.extract(input);   
             csv()
                 .fromFile(agendaFile)
                 .then((input) => {
-                    return extractAgenda(input, speakers, activeSpeakers, eventDates);
+                    return extractAgenda(input, allSpeakers, activeSpeakers, eventDates);
                 })
                 .then((agenda) => {
 
-                    const  speakerNames = _.sortBy(_.uniq(activeSpeakers), a => {return a});
+
+
+
+                    const people = _.uniq(activeSpeakers)
+                    const speakerNames = 
+                        _.sortBy(
+                            _.map(people, a => {return a.name} ),
+                            a => {return a});
                     const summitDates = _.uniq(eventDates)
                     const filterData = {
                         tracks: Sorter.sortData(agenda, 'track'),
                         sessions: Sorter.flatSortData(agenda, 'session'),
                         speakers: speakerNames,
+                        people,
                         summitDates,
                         agenda
                     };

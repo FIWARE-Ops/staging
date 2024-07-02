@@ -27,5 +27,12 @@ var speakers = [
         '{{this}}',
     {{/if}}
 {{/each}}
-]; var countries = [
 ]; 
+var modalData = {
+{{#each people}}
+"{{createClass name}}":
+    { name: "{{title}}{{name}}", img: "{{img}}", position: "{{job}}", company: "{{company}}{{companyType}}", "company-link": "{{website}}",
+    content: "{{bio}}", linkedin: "{{linkedIn}}", twitter: "{{twitter}}", domain: "{{domain}}", location: "{{country}}",
+    flag: "{{flag}}", },
+{{/each}}
+};
