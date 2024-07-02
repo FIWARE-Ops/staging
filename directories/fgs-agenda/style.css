@@ -119,6 +119,14 @@
     font-size: 16px;
 }
 
+.venue {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    color: #005fb9;
+    text-decoration: underline;
+}
+
 .panel-title {
     font-weight: 600;
     font-size: 1.1em;
