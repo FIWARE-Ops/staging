@@ -50,9 +50,8 @@ if (PROCESS.startsWith('webinars')) {
 }
 
 // Create HTML and template files for the webinars
-if (PROCESS.startsWith('Summit')) {
-    let Summit = null;
-    Loader.load('Summit', Summit.file)
+if (PROCESS.startsWith('agenda')) {
+    Loader.load('agenda', Summit.file)
         .then(() => {
             return Loader.load(PAGE, People.file);
         })
