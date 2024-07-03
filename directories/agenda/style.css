@@ -787,7 +787,7 @@ select::-ms-expand {
     width: auto;
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 20px;
 }
 
 .btn-primary {
