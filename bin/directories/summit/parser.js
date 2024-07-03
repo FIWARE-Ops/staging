@@ -75,7 +75,7 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
 
             event.startTime = Parser.addTime(event.date, event.start);
             event.shortDate = event.date.toLocaleDateString(undefined, {month: "long", day: "numeric"});
-            const filename= Template.createClass(event.name);
+            const filename= Template.createClass(event.title);
             event.social = `/program/${filename}.html`
             eventDates.push(event.shortDate)
             agenda.push(event);
