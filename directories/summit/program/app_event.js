@@ -160,7 +160,7 @@ function fillEvent(event) {
 
   const title = event.title + ' - ' + event.session;
   document.title = title;
-  //history.pushState({}, null, event.social);
+  history.pushState({}, null, event.social);
 }
 
 function trackCSS(data) {
