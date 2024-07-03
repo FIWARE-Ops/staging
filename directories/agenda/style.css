@@ -81,7 +81,6 @@
     gap: 15px;
     padding: 20px 0;
     margin-top: 3px;
-    margin-bottom: 40px;
     cursor: default;
     border: 1px solid #c6c6c6;
     border-radius: 4px;
@@ -242,13 +241,15 @@
     /*transform: scale(0.98);*/
     will-change: transform;
     user-select: none;
+    cursor: grab;
 }
 
 .speakers.detail {
     flex-direction: column;
     align-items: flex-start;
     gap: 0;
-    margin-bottom: 40px;
+    margin: 20px 0 60px;
+    cursor: default;
 }
 
 .speaker {
@@ -261,15 +262,18 @@
     border-radius: 4px;
     background-color: rgba(240, 240, 240, 0);
     transition: all 0.3s ease-in-out;
-    cursor: grab;
+    cursor: pointer;
 }
 
 .speaker.detail {
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
     padding: 10px;
     border-radius: 4px;
     background-color: rgba(240, 240, 240, 0);
     transition: all 0.3s ease-in-out;
-    cursor: pointer!important;
+    cursor: pointer;
 }
 
 .speaker:last-of-type {
@@ -278,6 +282,13 @@
 
 .speaker:hover {
     background-color: rgba(240, 240, 240, 1);
+}
+
+.speaker-data {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
 }
 
 .profile-picture {
@@ -829,6 +840,7 @@ select::-ms-expand {
     width: auto;
     display: flex;
     flex-direction: row;
+    justify-content: end;
     gap: 20px;
 }
 
@@ -843,8 +855,13 @@ select::-ms-expand {
     background-color: #005fb9;
     padding: 8px 12px;
     border-radius: 4px;
-    transition: background-color 0.2s linear;
+    transition: all 0.2s ease-in-out;
     cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #0052a0;
+    color: #ffffff;
 }
 
 .btn-secondary {
@@ -859,8 +876,18 @@ select::-ms-expand {
     padding: 8px 12px;
     border: 1px solid #005fb9;
     border-radius: 4px;
-    transition: background-color 0.2s linear;
+    transition: all 0.2s ease-in-out;
     cursor: pointer;
+}
+
+.btn-secondary:hover {
+    color: #004586;
+    border-color: #004586;
+}
+
+.btn-icon {
+    display: flex;
+    align-items: center;
 }
 
 
@@ -1039,6 +1066,15 @@ input[type="search"]::placeholder {
 }
 
 /* Icons */
+
+.icon {
+    font-weight: 300;
+}
+
+.icon.cta {
+    font-size: 48px;
+    color: #005fb9;
+}
 
 #ico-sortby-alpha {
     margin-right: 8px;
