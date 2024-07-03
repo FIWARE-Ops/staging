@@ -35,18 +35,22 @@ function wrapSpeakers(id, speakers) {
   let html = '';
 
   speakers.forEach((speaker) => {
-    html += `<div class="speaker" data-modal='${createClassFilter(speaker.name)}'>
-<div class="profile-picture" >
-      <img decoding="async" alt="" src="${speaker.img}" loading="lazy">
+    html += `
+  <div class="speaker detail" data-modal='${createClassFilter(speaker.name)}'>
+    <div class="speaker-data">
+      <div class="profile-picture">
+        <img decoding="async" alt="" src="${speaker.img}" loading="lazy">
+      </div>
+      <div class="speaker-info">
+        <div class="speaker-name detail">${speaker.name}</div>
+        <div class="speaker-job-title detail">${speaker.job}</div>
+        <div class="speaker-company detail">${speaker.company}</div>
+      </div>
     </div>
-<div class="speaker-info">
-<div class="speaker-name detail">${speaker.name}</div>
-<div class="speaker-job-title detail">${speaker.job}</div>
-<div class="speaker-company detail">${speaker.company}</div>
-</p></div>
-</p></div>
-`
-  });
+    <div class="btn-icon">
+      <span class="material-symbols-outlined icon cta">trending_flat</span>
+    </div>
+  </div>`});
 
   $(id).empty();
   $(id).append(html);
