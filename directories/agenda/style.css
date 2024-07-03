@@ -1073,6 +1073,7 @@ input[type="search"]::placeholder {
 
 .icon.cta {
     font-size: 48px;
+    font-weight: 200;
     color: #005fb9;
 }
 
