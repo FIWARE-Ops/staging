@@ -151,9 +151,13 @@ function fillEvent(event) {
   
   $('div.panel-title').text(event.title);
   $('div.excerpt').text(event.session);
-  $('span.date').text(event.shortDate);
-  $('span.time').text(`${event.start} - ${event.end}`);
-  $('span.place').text(event.location);
+  $('.date').empty();
+  $('.date').append(`<span class="material-symbols-outlined icon">event</span>
+      ${event.shortDate}`);
+  $('.time').empty();
+  $('.time').append(`<span class="material-symbols-outlined icon">schedule</span>
+      ${event.start} - ${event.end}`);
+  $('.place').text(event.location);
 
   wrapParagraphs('div#description', event.description);
   wrapSpeakers('div#speakers', event.speakers)
