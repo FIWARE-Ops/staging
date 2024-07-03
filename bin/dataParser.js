@@ -119,7 +119,7 @@ function date(input) {
 }
 
 function addTime(date, time) {
-    return (new Date(date.toDateString() + ' ' + time))
+    return new Date(date.toDateString() + ' ' + time);
 }
 
 function textOnly(data) {

@@ -54,20 +54,18 @@ function createTrack(data) {
 
     switch (data) {
         case 'Tech & Trends':
-            result="light-green"
+            result = 'light-green';
             break;
         case 'Innovation with FIWARE':
-            result="light-blue"
+            result = 'light-blue';
             break;
-        case
-            'Hands-On Use Cases':
-            result="light-yellow"
+        case 'Hands-On Use Cases':
+            result = 'light-yellow';
             break;
         default:
             break;
-        }
+    }
 
-    
     return result;
 }
 
@@ -119,7 +117,7 @@ function math(lvalue, operator, rvalue) {
     }[operator];
 }
 
-Handlebars.registerHelper('createTrack',createTrack);
+Handlebars.registerHelper('createTrack', createTrack);
 Handlebars.registerHelper('createClasses', createClasses);
 Handlebars.registerHelper('createClass', createClass);
 Handlebars.registerHelper('createAnchor', createAnchor);

@@ -75,7 +75,8 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
 
             event.startTime = Parser.addTime(event.date, event.start);
             event.shortDate = event.date.toLocaleDateString(undefined, {month: "long", day: "numeric"});
-            
+            const filename= Template.createClass(event.name);
+            event.social = `/program/${filename}.html`
             eventDates.push(event.shortDate)
             agenda.push(event);
         }
@@ -152,6 +153,17 @@ function parse(agendaFile, speakersFile) {
                         path.join(SUMMIT_DIR, 'program/pageData.js'),
                         path.join(TEMPLATE_PATH, 'details.hbs'),
                         filterData
+                    );
+
+                    Template.write(
+                        path.join(SUMMIT_DIR, 'program/sitemap.html'),
+                        path.join(TEMPLATE_PATH, 'sitemap-html.hbs'),
+                        agenda
+                    );
+                    Template.write(
+                        path.join(SUMMIT_DIR, 'program/sitemap.xml'),
+                        path.join(TEMPLATE_PATH, 'sitemap-xml.hbs'),
+                        agenda
                     );
 
                     agenda.forEach ((event, index) =>{
