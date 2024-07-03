@@ -9,7 +9,7 @@ const OpenCalls = require('./directories/open-calls/parser');
 const Organisations = require('./directories/organisations/parser');
 const ResearchDevelopment = require('./directories/research-development/parser');
 const Webinars = require('./directories/webinars/parser');
-const Summit = require('./directories/summit/parser');
+const Agenda = require('./directories/agenda/parser');
 const People = require('./people/parser');
 const Marketplace = require('./marketplace/parser');
 
@@ -51,12 +51,12 @@ if (PROCESS.startsWith('webinars')) {
 
 // Create HTML and template files for the webinars
 if (PROCESS.startsWith('agenda')) {
-    Loader.load('agenda', Summit.file)
+    Loader.load('agenda', Agenda.file)
         .then(() => {
             return Loader.load(PAGE, People.file);
         })
         .then(() => {
-            return Summit.parse(Summit.file, People.file);
+            return Agenda.parse(Agenda.file, People.file);
         });
 }
 
