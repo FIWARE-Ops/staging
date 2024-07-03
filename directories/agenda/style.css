@@ -858,7 +858,7 @@ select::-ms-expand {
     gap: 20px;
 }
 
-.btn-primary {
+.btn-primary, .btn-primary:visited {
     width: auto;
     display: flex;
     flex-direction: row;
@@ -873,12 +873,12 @@ select::-ms-expand {
     cursor: pointer;
 }
 
-.btn-primary:hover {
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
     background-color: #0052a0;
     color: #ffffff;
 }
 
-.btn-secondary {
+.btn-secondary, .btn-secondary:visited {
     width: auto;
     display: flex;
     flex-direction: row;
@@ -894,7 +894,7 @@ select::-ms-expand {
     cursor: pointer;
 }
 
-.btn-secondary:hover {
+.btn-secondary:hover, .btn-secondary:active, .btn-secondary:focus {
     color: #004586;
     border-color: #004586;
 }
