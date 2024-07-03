@@ -157,7 +157,9 @@ function fillEvent(event) {
   $('.time').empty();
   $('.time').append(`<span class="material-symbols-outlined icon">schedule</span>
       ${event.start} - ${event.end}`);
-  $('.place').text(event.location);
+  $('.place').empty();
+  $('.place').append(`<span class="material-symbols-outlined icon">location_on</span>
+    ${event.location}`);
 
   wrapParagraphs('div#description', event.description);
   wrapSpeakers('div#speakers', event.speakers)
