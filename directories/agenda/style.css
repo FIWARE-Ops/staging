@@ -1431,7 +1431,7 @@ input[type="search"]::placeholder {
     }
 
     .topic-icon {
-        width: 80px;
+        width: 80px !important;
         float: left;
         margin-bottom: 20px !important;
     }
@@ -1445,8 +1445,17 @@ input[type="search"]::placeholder {
         padding-bottom: 5px!important;
     }
 
+    .panel-title.detail {
+        font-size: 1.3em;
+        margin-bottom: 5px;
+    }
+
     .excerpt {
         font-size: 15px;
+    }
+
+    .excerpt.detail {
+        font-size: 1.2em;
     }
 
     .panel-info {
@@ -1463,8 +1472,47 @@ input[type="search"]::placeholder {
         display: none;
     }
 
+    .separator-dot.detail {
+        display: block;
+    }
+
+    .venue {
+        font-size: 15px;
+        padding: 5px 0 0;
+    }
+
+    .speakers.detail {
+        white-space: normal;
+        gap: 15px;
+        margin: 30px 0;
+    }
+
+    .speaker-data {
+        align-items: flex-start;
+    }
+
+    .speaker.detail {
+        padding: 0;
+    }
+
+    .speaker-info {
+        width: 100%;
+    }
+
+    .speaker-name.detail {
+        font-size: 15px;
+    }
+
+    .speaker-job-title.detail, .speaker-company.detail {
+        font-size: 13px;
+    }
+
     .chips-gradient {
         margin-top: 30px;
+    }
+
+    .cta-container {
+        justify-content: space-between;
     }
 
     /* .label-card {
