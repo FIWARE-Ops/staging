@@ -67,8 +67,8 @@
 .panel-info.detail {
     flex-direction: column;
     align-items: flex-start;
-    gap: 0;
-    margin-top: 4px;
+    gap: 10px;
+    margin-top: 3px;
     margin-bottom: 40px;
     cursor: default;
 }
@@ -781,6 +781,44 @@ select::-ms-expand {
 
 #orderByDomain {
     color: #8ad2dc;
+}
+
+.cta-container {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.btn-primary {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #005fb9;
+    padding: 8px 12px;
+    border-radius: 2px;
+    transition: background-color 0.2s linear;
+    cursor: pointer;
+}
+
+.btn-secondary {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    color: #005fb9;
+    background-color: rgba(240, 240, 240, 0);
+    padding: 8px 12px;
+    border: 1px solid #005fb9;
+    border-radius: 2px;
+    transition: background-color 0.2s linear;
+    cursor: pointer;
 }
 
 
