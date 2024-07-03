@@ -9,7 +9,7 @@ const OpenCalls = require('./directories/open-calls/parser');
 const Organisations = require('./directories/organisations/parser');
 const ResearchDevelopment = require('./directories/research-development/parser');
 const Webinars = require('./directories/webinars/parser');
-const Agenda = require('./directories/fgs-agenda/parser');
+const Summit = require('./directories/summit/parser');
 const People = require('./people/parser');
 const Marketplace = require('./marketplace/parser');
 
@@ -50,14 +50,14 @@ if (PROCESS.startsWith('webinars')) {
 }
 
 // Create HTML and template files for the webinars
-if (PROCESS.startsWith('agenda')) {
-    let agenda = null;
-    Loader.load('agenda', Agenda.file)
+if (PROCESS.startsWith('Summit')) {
+    let Summit = null;
+    Loader.load('Summit', Summit.file)
         .then(() => {
             return Loader.load(PAGE, People.file);
         })
         .then(() => {
-            return Agenda.parse(Agenda.file, People.file);
+            return Summit.parse(Summit.file, People.file);
         });
 }
 
@@ -151,5 +151,5 @@ if (PROCESS === 'postinstall') {
     touch(People.file);
     touch(ResearchDevelopment.file);
     touch(Webinars.file);
-    touch(Agenda.file);
+    touch(Summit.file);
 }

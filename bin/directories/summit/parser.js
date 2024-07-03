@@ -6,8 +6,8 @@ const Prettier = require('prettier');
 const Parser = require('../../dataParser');
 const Sorter = require('../../sort');
 const Template = require('../../template');
-const TEMPLATE_PATH = 'bin/directories/fgs-agenda/';
-const AGENDA_DIR = 'directories/fgs-agenda';
+const TEMPLATE_PATH = 'bin/directories/summit/';
+const SUMMIT_DIR = 'directories/summit';
 const People = require('../../people/parser');
 
 const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/agenda/images/careers-default.png';
@@ -133,23 +133,23 @@ function parse(agendaFile, speakersFile) {
                         agenda
                     };
 
-                    Template.clean(path.join(AGENDA_DIR, '/event'));
+                    Template.clean(path.join(SUMMIT_DIR, '/program'));
 
-                    Template.write(path.join(AGENDA_DIR, 'agenda.html'), path.join(TEMPLATE_PATH, 'card.hbs'), agenda);
+                    Template.write(path.join(SUMMIT_DIR, 'agenda.html'), path.join(TEMPLATE_PATH, 'card.hbs'), agenda);
                     Template.write(
-                        path.join(AGENDA_DIR, 'pageData.js'),
+                        path.join(SUMMIT_DIR, 'pageData.js'),
                         path.join(TEMPLATE_PATH, 'modal.hbs'),
                         filterData
                     );
                     Template.write(
-                        path.join(AGENDA_DIR, 'filters.html'),
+                        path.join(SUMMIT_DIR, 'filters.html'),
                         path.join(TEMPLATE_PATH, 'filter.hbs'),
                         filterData
                     );
 
 
                     Template.write(
-                        path.join(AGENDA_DIR, 'event/pageData.js'),
+                        path.join(SUMMIT_DIR, 'program/pageData.js'),
                         path.join(TEMPLATE_PATH, 'details.hbs'),
                         filterData
                     );
@@ -158,18 +158,18 @@ function parse(agendaFile, speakersFile) {
 
                         const filename= Template.createClass(event.title);
                         Template.write(
-                            path.join(AGENDA_DIR, `event/${filename}.html`),
+                            path.join(SUMMIT_DIR, `program/${filename}.html`),
                             path.join(TEMPLATE_PATH, 'social-media.hbs'),
                         event);
-                        Prettier.format(path.join(AGENDA_DIR, `event/${filename}.html`), { parser: 'html' });
+                        Prettier.format(path.join(SUMMIT_DIR, `program/${filename}.html`), { parser: 'html' });
 
                     });
 
 
 
 
-                    Prettier.format(path.join(AGENDA_DIR, 'agenda.html'), { parser: 'html' });
-                    Prettier.format(path.join(AGENDA_DIR, 'pageData.js'), { parser: 'flow' });
+                    Prettier.format(path.join(SUMMIT_DIR, 'agenda.html'), { parser: 'html' });
+                    Prettier.format(path.join(SUMMIT_DIR, 'pageData.js'), { parser: 'flow' });
                 })
                 .catch((e) => {
                     console.log(e);
