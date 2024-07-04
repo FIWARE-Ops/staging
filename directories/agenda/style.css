@@ -469,6 +469,7 @@
 }
 
 .speakers-gradient {
+    display: none;
     position: absolute;
     top: 205px!important;
     right: 0;
@@ -1537,8 +1538,7 @@ input[type="search"]::placeholder {
     }
 
     .speakers-gradient {
-        top: 242px !important;
-        height: 64px;
+        display: none;
     }
 
     .chips-gradient {
