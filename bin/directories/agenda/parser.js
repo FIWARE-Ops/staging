@@ -12,7 +12,6 @@ const People = require('../../people/parser');
 
 const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/agenda/images/careers-default.png';
 
-
 function getExcerpt(item){
     let text =  Parser.textOnly(item['Description']);
     const next = text.indexOf(".", 40);
@@ -76,7 +75,7 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
             event.startTime = Parser.addTime(event.date, event.start);
             event.shortDate = event.date.toLocaleDateString(undefined, {month: "long", day: "numeric"});
             const filename= Template.createClass(event.title);
-            event.social = `/program/${filename}.html`
+            event.social = `https://www.fiware.org/fgs-${new Date().getFullYear()}/${filename}.html`
             eventDates.push(event.shortDate)
             agenda.push(event);
         }

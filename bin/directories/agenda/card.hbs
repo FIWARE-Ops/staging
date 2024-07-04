@@ -23,8 +23,8 @@
     <div class="speakers-container">
       <div class="speakers">
         {{#each speakers}}
-        <div class="speaker">
-          <div class="profile-picture" {{#if shortJob}}data-modal='{{createClass name}}'{{/if}}>
+        <div class="speaker" {{#if shortJob}}data-modal='{{createClass name}}'{{/if}}>
+          <div class="profile-picture">
             <img decoding="async" alt="" src="{{img}}" loading="lazy">
           </div>
           <div class="speaker-info">
