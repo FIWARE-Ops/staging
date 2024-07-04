@@ -42,12 +42,14 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
             const names = _.uniq(
                 _.filter(
                     [
-                        item['Speaker 1'],
-                        item['Speaker 2'],
-                        item['Speaker 3'],
-                        item['Speaker 4'],
-                        item['Speaker 5'],
-                        item['Speaker 6']
+                        (item['Speaker 1'] || ''),
+                        (item['Speaker 2'] || ''),
+                        (item['Speaker 3'] || ''),
+                        (item['Speaker 4'] || ''),
+                        (item['Speaker 5'] || ''),
+                        (item['Speaker 6'] || ''),
+                        (item['Speaker 7'] || ''),
+                        (item['Speaker 8'] || '')
                     ],
                     function (name) {
                         return name !== '';
@@ -65,7 +67,7 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
                 }
 
 
-                return !!speaker ? speaker : { name, img: People.DEFAULT_IMAGE };
+                return !!speaker ? speaker : { name, img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png"};
             });
 
             event.speakers.forEach(speaker => {
