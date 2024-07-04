@@ -444,7 +444,7 @@ function checkboxChecked() {
 }
 
 document.addEventListener("html-included", () => {
-  $("#eventCount").text($(".grid-item").length);
+  $(".event-count").text($(".grid-item").length);
   horizontalScroll();
   smoothScroll();
   $("#app").css("visibility", "visible");
@@ -465,7 +465,7 @@ document.addEventListener("html-included", () => {
     .always(function (instance) {
       msnry.arrange({ sortBy: "original-order" });
       msnry.on("arrangeComplete", (filteredItems) => {
-        $("#eventCount").text(filteredItems.length);
+        $(".event-count").text(filteredItems.length);
         dropdownFilters(selectors);
         if (scrollSet) {
           scrollToView();
