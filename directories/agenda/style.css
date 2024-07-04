@@ -67,6 +67,10 @@
     border-bottom: 1px solid;
 }
 
+.event-title a:hover {
+    color: #004586!important;
+}
+
 .panel-info {
     display: flex;
     flex-direction: row;
@@ -163,7 +167,7 @@
 }
 
 .venue a:hover {
-    color: #004586;
+    color: #004586!important;
 }
 
 .panel-title {
