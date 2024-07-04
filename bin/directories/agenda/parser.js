@@ -67,7 +67,7 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
                 }
 
 
-                return !!speaker ? speaker : { name, img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png"};
+                return !!speaker ? speaker : { name};
             });
 
             event.speakers.forEach(speaker => {

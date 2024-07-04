@@ -25,7 +25,11 @@
         {{#each speakers}}
         <div class="speaker" {{#if shortJob}}data-modal='{{createClass name}}'{{/if}}>
           <div class="profile-picture">
-            <img decoding="async" alt="" src="{{img}}" loading="lazy">
+            {{#if img}}
+            <img decoding="async" alt="{{name}}" src="{{img}}" loading="lazy">
+            {{else}}
+            <img decoding="async" alt="" src="https://www.fiware.org/wp-content/directories/people/images/ico_user.png" loading="lazy">    
+            {{/if}}
           </div>
           <div class="speaker-info">
             <div class="speaker-name">{{name}}</div>
