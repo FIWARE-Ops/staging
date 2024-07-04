@@ -75,7 +75,7 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
             event.startTime = Parser.addTime(event.date, event.start);
             event.shortDate = event.date.toLocaleDateString(undefined, {month: "long", day: "numeric"});
             const filename= Template.createClass(event.title);
-            event.social = `https://www.fiware.org/fgs-${new Date().getFullYear()}/${filename}.html`
+            event.social = `/fgs-${new Date().getFullYear()}/${filename}.html`
             eventDates.push(event.shortDate)
             agenda.push(event);
         }
