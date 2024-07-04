@@ -56,6 +56,24 @@ function wrapSpeakers(id, speakers) {
   $(id).append(html);
 }
 
+function setClipboard() {
+  const text =`https://fiware.org${window.social}`
+  const type = "text/plain";
+  const blob = new Blob([text], { type });
+  const data = [new ClipboardItem({ [type]: blob })];
+
+  navigator.clipboard.write(data).then(
+    () => {
+      /* success */
+      alert('Link copied to clipboard')
+    },
+    () => {
+      /* failure */
+    },
+  );
+}
+
+
 
 
 function createModalContent(tingleModalData) {
@@ -173,6 +191,8 @@ function fillEvent(event) {
 
   const title = event.title + ' - ' + event.session;
   document.title = title;
+
+  window.social = event.social;;
   //history.pushState({}, null, event.social);
 }
 
