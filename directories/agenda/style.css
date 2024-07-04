@@ -1535,6 +1535,11 @@ input[type="search"]::placeholder {
         font-size: 13px;
     }
 
+    .speakers-gradient {
+        top: 227px !important;
+        height: 64px;
+    }
+
     .chips-gradient {
         margin-top: 30px;
     }
