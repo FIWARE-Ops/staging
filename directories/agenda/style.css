@@ -175,12 +175,13 @@
     font-size: 18px;
     color: #000;
     line-height: 1.3em;
-    padding-bottom: 10px;
+    margin-bottom: 5px;
     user-select: none;
 }
 
 .panel-title.detail {
     font-size: 1.5em;
+    margin-bottom: 10px;
 }
 
 .time {
