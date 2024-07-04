@@ -167,7 +167,7 @@
 
 .panel-title {
     font-weight: 600;
-    font-size: 1.1em;
+    font-size: 18px;
     color: #000;
     line-height: 1.3em;
     padding-bottom: 5px !important;
@@ -394,6 +394,8 @@
 
 .track.detail {
     font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 20px;
 }
 
 .track.light-blue {
@@ -456,7 +458,7 @@
 
 .speakers-gradient {
     position: absolute;
-    top: 170px;
+    top: 160px!important;
     right: 0;
     height: 60px;
     width: 30px;
@@ -1440,6 +1442,10 @@ input[type="search"]::placeholder {
         flex-direction: column-reverse;
     }
 
+    .track.detail {
+        font-size: 15px;
+    }
+
     .panel-title {
         font-size: 16px;
         padding-bottom: 5px!important;
@@ -1487,6 +1493,10 @@ input[type="search"]::placeholder {
         margin: 30px 0;
     }
 
+    .speaker {
+        padding: 0;
+    }
+
     .speaker-data {
         align-items: flex-start;
     }
@@ -1496,7 +1506,7 @@ input[type="search"]::placeholder {
     }
 
     .speaker-info {
-        width: 100%;
+        width: auto;
     }
 
     .speaker-name.detail {
