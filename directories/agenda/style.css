@@ -778,6 +778,7 @@
     padding: 10px 0;
     border-top: 1px solid #8ad2dc;
     border-bottom: 1px solid #8ad2dc;
+    user-select: none;
 }
 
 .event-count {
