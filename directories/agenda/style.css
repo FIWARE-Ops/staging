@@ -172,6 +172,7 @@
     color: #000;
     line-height: 1.3em;
     padding-bottom: 10px;
+    user-select: none;
 }
 
 .panel-title.detail {
@@ -200,6 +201,7 @@
     font-size: 1em;
     line-height: 1em;
     color: #4c4c4c;
+    user-select: none;
 }
 
 .excerpt.detail {
