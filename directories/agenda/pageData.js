@@ -75,18 +75,6 @@ var modalData = {
         { name: "Franck Le Gall", img: "https://www.fiware.org/wp-content/directories/people/images/200px/franck-le-gall.jpg", position: "Chief Executive Officer", company: "Easy Global Market", "company-link": "https://www.egm.io/en/egm-the-innovation-factory",
         content: "Franck Le Gall is CEO at Easy Global Market, an innovative SME focused on integration and validation of emerging technologies. He is driving company development to deploy IoT and data technologies over vertical markets (water, agriculture, smart territories, environment, etc.). He involves himself in the standardization area including ETSI where he is co-chairman of the ETSI ISG-CIM working group on NGSI-LD. He is also chairing the interfaces working group of the FIWARE Technical Steering Committee (TSC) as well as the joint ETSI-FIWARE Foundation working group on Digital Twins. Finally, he is the Co-chair of the Smart Water working group of the ICT4Water European research cluster. He continuously contributes and drives several projects for public and private customers.", linkedin: "https://www.linkedin.com/in/francklegall/", twitter: "https://twitter.com/franck_le_gall", domain: "", location: "",
         flag: "", },
-    "jose-benítez":
-        { name: "Jose Benítez", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "", company: "", "company-link": "",
-        content: "", linkedin: "", twitter: "", domain: "", location: "",
-        flag: "", },
-    "davor-meersman":
-        { name: "Davor Meersman", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "", company: "", "company-link": "",
-        content: "", linkedin: "", twitter: "", domain: "", location: "",
-        flag: "", },
-    "ifat-tariq":
-        { name: "Ifat Tariq", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "", company: "", "company-link": "",
-        content: "", linkedin: "", twitter: "", domain: "", location: "",
-        flag: "", },
     "gaetano-volpe":
         { name: "Gaetano Volpe", img: "https://www.fiware.org/wp-content/directories/people/images/200px/gaetano-volpe.jpg", position: "Chief Executive Officer", company: "Latitudo 40", "company-link": "https://www.latitudo40.com/",
         content: "Gaetano is the CEO of Latitudo 40, a startup that uses satellite data to improve life on our planet. After working for over 20 years in space-related companies, launching new products and services based on the integration of IT with space technologies (telecommunications, navigation and remote sensing), he decided to combine his passion for space technologies with the need to improve the environmental impact of our cities. For Gaetano, innovation means finding a new solution to a global market problem.", linkedin: "https://www.linkedin.com/in/gaetanovolpe", twitter: "", domain: "", location: "",
@@ -99,26 +87,6 @@ var modalData = {
         { name: "Ilaria Bortone", img: "https://www.fiware.org/wp-content/directories/people/images/200px/ilaria-bortone.png", position: "Program Manager", company: "Meditech 4.0", "company-link": "https://meditech4.com/",
         content: "Biomedical engineer with strong expertise overseeing and managing national and international funded research projects. She is a Senior Project Manager at Meditech 4.0 Competence Center, with a mandate on EU Partnerships. Technical Coordinator of MISTRAL (GA 101095119, doi: 10.3030/101095119), an EU-funded project aimed at developing a technological toolkit for dynamic, intelligent prediction of health-related features, forecasting the trajectories of disability and quality of life reduction. More than 10 years of experience with physiological data acquisition, logging and analysis. Her research interests focus on developing new technology-driven methods and algorithms to improve diagnosis, treatment and follow-up. Active scientific collaboration with the University of Bari Aldo Moro, the Institute of Clinical Physiology, the Polytechnic University of Bari, and Scuola Superiore Sant’Anna. Adjunct Professor in Biomechanics and Bioengineering at the School of Medicine, University of Bari, mentoring PhD students. Author and co-author of over 80 publications in International Journals and Proceedings of National and International Conferences (Scopus, H-index: 16). She has been awarded several international acknowledgements (Group Study Exchange Rotary Foundation, Startcup Puglia 2016) and prizes (Ministry of Education University and Research, Tuscany Region, Ministry of Enterprises and Made in Italy, HORIZON EUROPE). She led two nationally-funded research projects (KISS-HEALTH, 2012-15, PON04a3_00097; TELOS, 2020-24, CUP J53D23005710006).", linkedin: "https://www.linkedin.com/in/ilaria-bortone-0461a146/", twitter: "", domain: "", location: "",
         flag: "", },
-    "sophie-meszaros":
-        { name: "Sophie Meszaros", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "", company: "", "company-link": "",
-        content: "", linkedin: "", twitter: "", domain: "", location: "",
-        flag: "", },
-    "carmen-polcaro":
-        { name: "Carmen Polcaro", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "", company: "", "company-link": "",
-        content: "", linkedin: "", twitter: "", domain: "", location: "",
-        flag: "", },
-    "joan-antonio-bernejo":
-        { name: "Joan Antonio Bernejo", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "", company: "", "company-link": "",
-        content: "", linkedin: "", twitter: "", domain: "", location: "",
-        flag: "", },
-    "jorge-hernandez":
-        { name: "Jorge Hernandez", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "", company: "", "company-link": "",
-        content: "", linkedin: "", twitter: "", domain: "", location: "",
-        flag: "", },
-    "tomohiro-kuwahara":
-        { name: "Tomohiro Kuwahara", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "", company: "", "company-link": "",
-        content: "", linkedin: "", twitter: "", domain: "", location: "",
-        flag: "", },
     "raza-jafri":
         { name: "Raza Jafri", img: "https://www.fiware.org/wp-content/directories/people/images/200px/raza-jafri.jpg", position: "Chief Executive Officer", company: "Metaworldx", "company-link": "https://www.metaworldx.com/",
         content: "Raza Jafri is a global entrepreneur, investor, and speaker, he is the founder and Chief Executive Officer of MetaWorldX, a world-class AI digital twin technology company that creates immersive and realistic simulations of urban environments for smart cities, cleantech, and other sectors. He launched MetaWorldX at the World Smart City Congress in Barcelona, Spain, and received the Top 40 Under 40 Sustainability Star Award for 2023 for his innovative and impactful work.", linkedin: "https://www.linkedin.com/in/razajafri", twitter: "", domain: "", location: "",
@@ -130,10 +98,6 @@ var modalData = {
     "mireya-de-diego":
         { name: "Mireya de Diego", img: "https://www.fiware.org/wp-content/directories/people/images/200px/mireya-de-diego.png", position: "EU Project Coordinator", company: "CARTIF", "company-link": "https://www.cartif.es/en/home/",
         content: "Mireya de Diego (f), MSc.Eng in Industrial Electronics and Automation and Degree in Telecommunications Engineering from the University of Valladolid (Spain). Since 2013, she has been a researcher in the CARTIF Industrial and Digital Systems Division, specializing in robotic, automation and process control within the agri-food manufacturing industry. In the field of process control, she has contributed to projects such as CAPRI, ECOFACT and REGENby2, driving innovation and sustainability across various industrial sectors. Currently serves as the coordinator for the ARISE project, focusing on the HRI - human-robot interaction in diverse sectors, including manufacturing, logistic and healthcare.", linkedin: "https://www.linkedin.com/in/mireya-de-diego/", twitter: "", domain: "", location: "",
-        flag: "", },
-    "andrea-maioli":
-        { name: "Andrea Maioli", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "", company: "", "company-link": "",
-        content: "", linkedin: "", twitter: "", domain: "", location: "",
         flag: "", },
     "francesco-mureddu":
         { name: "Francesco Mureddu", img: "https://www.fiware.org/wp-content/directories/people/images/200px/francesco-mureddu.jpg", position: "Senior Director", company: "The Lisbon Council", "company-link": "https://lisboncouncil.net/",
