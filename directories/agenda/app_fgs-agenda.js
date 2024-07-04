@@ -94,7 +94,7 @@ function createModalContent(tingleModalData) {
 
 function initModal() {
   // Modal
-  document.querySelectorAll(".profile-picture").forEach(function (el) {
+  document.querySelectorAll(".speaker").forEach(function (el) {
     el.addEventListener("click", function (e) {
       var modal = new tingle.modal({
         footer: true,

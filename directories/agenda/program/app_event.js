@@ -151,8 +151,11 @@ function fillEvent(event) {
   window.eventDone = true;
   $('div#track').text(event.track);
   $('div#track').addClass(trackCSS(event.track))
-  $('div#image').addClass(trackCSS(event.track))
-  
+  $('div#image').addClass(trackCSS(event.track));
+  $('div#image').empty();
+  $('div#image').append(`<span class="et_pb_image_wrap ">
+    <img decoding="async" src="${event.img}" alt="" title="${event.track}" /></span>`);
+
   $('div.panel-title').text(event.title);
   $('div.excerpt').text(event.session);
   $('.date').empty();
