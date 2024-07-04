@@ -176,15 +176,9 @@ function fillEvent(event) {
 
   $('div.panel-title').text(event.title);
   $('div.excerpt').text(event.session);
-  $('.date').empty();
-  $('.date').append(`<span class="material-symbols-outlined icon">event</span>
-      ${event.shortDate}`);
-  $('.time').empty();
-  $('.time').append(`<span class="material-symbols-outlined icon">schedule</span>
-      ${event.start} - ${event.end}`);
-  $('.place').empty();
-  $('.place').append(`<span class="material-symbols-outlined icon">location_on</span>
-    ${event.location}`);
+  $('#date').text(event.shortDate);
+  $('#time').text(`${event.start} - ${event.end}`);
+  $('#place').text(event.location);
 
   wrapParagraphs('div#description', event.description);
   wrapSpeakers('div#speakers', event.speakers)
