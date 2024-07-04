@@ -279,7 +279,7 @@
     width: fit-content;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     gap: 8px;
     padding: 10px;
     border-radius: 4px;
@@ -315,8 +315,8 @@
 }
 
 .profile-picture {
-    width: 60px;
-    height: 60px;
+    width: 64px;
+    height: 64px;
 }
 
 .profile-picture img {
@@ -1102,6 +1102,13 @@ input[type="search"]::placeholder {
     font-size: 48px;
     font-weight: 200;
     color: #005fb9;
+}
+
+.icon.cta.small {
+    font-size: 24px;
+    line-height: .5em;
+    font-weight: 300;
+    padding-top: 4px;
 }
 
 #ico-sortby-alpha {
