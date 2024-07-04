@@ -68,7 +68,7 @@
 }
 
 .event-title a:hover {
-    color: #004586!important;
+    color: #004586;
 }
 
 .panel-info {
@@ -166,8 +166,8 @@
     transition: all 0.2s ease-in-out;
 }
 
-.venue a:hover {
-    color: #004586!important;
+.venue:hover {
+    color: #004586;
 }
 
 .panel-title {
