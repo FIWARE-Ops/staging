@@ -768,6 +768,24 @@
     display: none;
 }
 
+.event-count-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    color: #ffffff;
+    margin: 25px 0px 15px;
+    padding: 10px 0;
+    border-top: 1px solid #8ad2dc;
+    border-bottom: 1px solid #8ad2dc;
+}
+
+.event-count {
+    color: #8ad2dc;
+    font-size: 20px;
+    font-weight: 600;
+}
+
 /* Filter list */
 
 .date-picker {
@@ -1112,6 +1130,13 @@ input[type="search"]::placeholder {
     line-height: .5em;
     font-weight: 300;
     padding-top: 4px;
+}
+
+.icon-label {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    gap: 5px;
 }
 
 #ico-sortby-alpha {
