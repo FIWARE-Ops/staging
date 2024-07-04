@@ -39,12 +39,12 @@ function wrapSpeakers(id, speakers) {
   <div class="speaker detail" data-modal='${createClassFilter(speaker.name)}'>
     <div class="speaker-data">
       <div class="profile-picture">
-        <img decoding="async" alt="" src="${speaker.img}" loading="lazy">
+        <img decoding="async" alt="" src="${speaker.img || 'https://www.fiware.org/wp-content/directories/people/images/ico_user.png'}" loading="lazy">
       </div>
       <div class="speaker-info">
-        <div class="speaker-name detail">${speaker.name}</div>
-        <div class="speaker-job-title detail">${speaker.job}</div>
-        <div class="speaker-company detail">${speaker.company}</div>
+        <div class="speaker-name detail">${speaker.name || ''}</div>
+        <div class="speaker-job-title detail">${speaker.job || ''}</div>
+        <div class="speaker-company detail">${speaker.company || ''}</div>
       </div>
     </div>
     <div class="btn-icon">

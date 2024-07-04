@@ -444,7 +444,7 @@ function checkboxChecked() {
 }
 
 document.addEventListener("html-included", () => {
-  //$("#filteredCompanies").text(window.modalData.length);
+  $("#eventCount").text($(".grid-item").length);
   horizontalScroll();
   smoothScroll();
   $("#app").css("visibility", "visible");
@@ -463,8 +463,9 @@ document.addEventListener("html-included", () => {
   $("#app")
     .imagesLoaded()
     .always(function (instance) {
-      //msnry.arrange({ sortBy: "original-order" });
+      msnry.arrange({ sortBy: "original-order" });
       msnry.on("arrangeComplete", (filteredItems) => {
+        $("#eventCount").text(filteredItems.length);
         dropdownFilters(selectors);
         if (scrollSet) {
           scrollToView();
@@ -472,7 +473,7 @@ document.addEventListener("html-included", () => {
       });
     })
     .fail(function () {
-      // msnry.arrange({ sortBy: "original-order" });
+      msnry.arrange({ sortBy: "original-order" });
     })
     .progress(function (instance, image) {
       count++;
