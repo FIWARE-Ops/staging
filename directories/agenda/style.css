@@ -1466,7 +1466,6 @@ input[type="search"]::placeholder {
 
     .panel-title {
         font-size: 16px;
-        padding-bottom: 5px!important;
     }
 
     .panel-title.detail {
