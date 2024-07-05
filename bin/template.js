@@ -56,7 +56,13 @@ function createTrack(data) {
         case 'Tech & Trends':
             result = 'light-green';
             break;
+        case 'Tech Training':
+            result = 'light-green';
+            break;
         case 'Innovation with FIWARE':
+            result = 'light-blue';
+            break;
+        case 'Grand Opening':
             result = 'light-blue';
             break;
         case 'Hands-On Use Cases':
