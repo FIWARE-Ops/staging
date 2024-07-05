@@ -197,6 +197,9 @@ function trackCSS(data) {
         case 'Tech & Trends':
             result="light-green"
             break;
+        case 'Tech Training':
+            result = 'light-green';
+            break;
         case 'Innovation with FIWARE':
             result="light-blue"
             break;
