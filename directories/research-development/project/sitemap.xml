@@ -49,11 +49,23 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/project/cognets.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/project/cyclops.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/project/deployai.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/project/deployemds.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/project/deploytour.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -106,6 +118,10 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/project/i4trust.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/project/ideation.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
