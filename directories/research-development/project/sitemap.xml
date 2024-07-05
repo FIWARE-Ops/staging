@@ -65,10 +65,6 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/project/deploytour.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
 			<loc>https://www.fiware.org/project/didoz-etteln.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
