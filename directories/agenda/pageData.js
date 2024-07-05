@@ -1,4 +1,5 @@
 var tracks = [
+        'Grand Opening',
         'Hands-On Use Cases',
         'Innovation with FIWARE',
         'Tech &amp; Trends',
@@ -10,15 +11,21 @@ var summitDates = [
 var sessions = [
         'Data Space Technology',
         'Digital Twins',
+        'Executive Leadership Welcome',
         'FISAB &amp; Universities',
+        'From Vision to Impact: a journey of transformation',
         'Innovation projects on data interoperability',
         'Innovation projects on data platforms and Data Spaces',
         'Innovation projects on green and industry digital twins',
         'Smart Communities &amp; Mobility',
         'Smart Energy',
+        'The new FIWARE Vision',
 ]; 
 var speakers = [
+        'Abdulrahman Ibrahim',
         'Alberto Abella',
+        'Alessandro Spigaroli',
+        'Andrea Battaglia',
         'Andrea Maioli',
         'Antonella Longo',
         'Antonello Monti',
@@ -38,19 +45,32 @@ var speakers = [
         'Joaquín Salvachúa',
         'Jorge Hernandez',
         'Jose Benítez',
+        'Laura Schipani',
         'Luigi Coppolino',
         'Luis Muñoz',
         'Martin Bauer',
         'Matteo Repetto',
         'Mireya de Diego',
         'Nejib Moalla',
+        'Pierryl Massal',
         'Raza Jafri',
         'Roberto Di Bernardo',
         'Sebastian Blechmann',
         'Sophie Meszaros',
+        'Stefano De Panfilis',
         'Tomohiro Kuwahara',
+        'Yasunori Mochizuk',
+        'Yasunori Mochizuk',
 ]; 
 var modalData = {
+    "andrea-battaglia":
+        { name: "Andrea Battaglia", img: "https://www.fiware.org/wp-content/directories/people/images/200px/andrea-battaglia.jpg", position: "Chief Executive Officer", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
+        content: "With 20 years of expertise in the Global IT industry, Andrea Battaglia (m) is an accomplished thought leader with a proven track record in Digital Transformation, Enterprise IoT, and Ecosystem development. Thanks to his deep knowledge of the enterprise open-source industry&#x27;s business and technical aspects, Andrea brings a wealth of experience to the forefront of FIWARE&#x27;s mission to empower organizations through innovative open-source technologies, Ecosystem collaboration, and customer-centric vision.", linkedin: "https://www.linkedin.com/in/abattagl/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "stefano-de-panfilis":
+        { name: "Stefano De Panfilis", img: "https://www.fiware.org/wp-content/directories/people/images/200px/stefano-depanfilis.jpg", position: "Chief Operations Officer", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
+        content: "Stefano de Panfilis (m) is the Chief Operating Officer at FIWARE Foundation. He graduated cum laude in Mathematics at the University of Rome “La Sapienza”. In 1984, he was hired in Engineering Ingegneria Informatica S.P.A as a software engineer. In 1986, he became Project Manager to then move to the R&amp;D department managing the “Formal Methods” unit. In 1993, he supported Engineering to receive the ISO-9001 compliancy. From 1994, he was involved in European R&amp;D. He coordinated SeCSE (IST 6FP), aiming at implement a platform for Service-Centric Systems Engineering, CBSEnet (IST-5FP NoE), CLARiFi (IST 5FP), DOOR (ESPRIT 4FP), SQUAD (INCO-DC), and VALSE (TV&amp;TT) projects, and the ENG- SODEPRO, DECO’ and DOMINARE ESSI Process Improvement Experiments. He also coordinated QualiPSo (IST 6FP) aiming at leverage Open Source Software development to recognised industrial standards, leading a consortium of 20 partners from Europe, Brazil and China. He actively participated to create and set-up the NESSI ETP of which he is the Coordinator of the Strategic Research Agenda Committee. Since 2017, he is employed by FIWARE Foundation as Chief Operations Officer.", linkedin: "https://www.linkedin.com/in/stefano-de-panfilis-1928a11/", twitter: "https://twitter.com/depa01", domain: "", location: "",
+        flag: "", },
     "roberto-di-bernardo":
         { name: "Roberto Di Bernardo", img: "https://www.fiware.org/wp-content/directories/people/images/200px/roberto-di-bernardo.jpg", position: "Head of Open Government R&amp;D Unit", company: "Engineering", "company-link": "https://www.eng.it/en/",
         content: "Roberto Di Bernardo is Senior Researcher and Head of the Open Government R&amp;D Group (part of Open Public Service Innovation Lab). He is an Electronic Engineer with Professional Master’s diplomas in “Clinical Engineering” and in “Internet Software Engineering”. He has been working as researcher at Engineering R&amp;D Laboratory since 2004, being involved in management and technical activities in many Italian and European projects. He is also acting as R&amp;D opportunity and network developer for the entire Public Sector R&amp;D area. At the moment, he is coordinating URBANAGE project (H2020-DT-Transforations-02) and his group is leading/involved in, among others, the following projects: DECIDO (H2020-DT-Governance-12), INTERSTAT (CEF-Public Open Data), SPOTTED (CEF-Public Open Data), ACROSS (H2020-DT-Governance-05), URBANITE (H2020-DT-Transformations-02). Currently he is leading the Smart Governance and Smart Cities sub-group of the Big Data Value Association and co-leading the Smart Cities Domain Committee of the FIWARE Foundation and the Digital Water Systems Working Group of Water Europe.", linkedin: "https://www.linkedin.com/in/robertodibernardo/", twitter: "", domain: "", location: "",
@@ -74,6 +94,14 @@ var modalData = {
     "franck-le-gall":
         { name: "Franck Le Gall", img: "https://www.fiware.org/wp-content/directories/people/images/200px/franck-le-gall.jpg", position: "Chief Executive Officer", company: "Easy Global Market", "company-link": "https://www.egm.io/en/egm-the-innovation-factory",
         content: "Franck Le Gall is CEO at Easy Global Market, an innovative SME focused on integration and validation of emerging technologies. He is driving company development to deploy IoT and data technologies over vertical markets (water, agriculture, smart territories, environment, etc.). He involves himself in the standardization area including ETSI where he is co-chairman of the ETSI ISG-CIM working group on NGSI-LD. He is also chairing the interfaces working group of the FIWARE Technical Steering Committee (TSC) as well as the joint ETSI-FIWARE Foundation working group on Digital Twins. Finally, he is the Co-chair of the Smart Water working group of the ICT4Water European research cluster. He continuously contributes and drives several projects for public and private customers.", linkedin: "https://www.linkedin.com/in/francklegall/", twitter: "https://twitter.com/franck_le_gall", domain: "", location: "",
+        flag: "", },
+    "abdulrahman-ibrahim":
+        { name: "Abdulrahman Ibrahim", img: "https://www.fiware.org/wp-content/directories/people/images/200px/abdulrahman-ibrahim.jpg", position: "Chief Data and Innovation Officer", company: "Madinah Region Development Authority", "company-link": "https://www.mda.gov.sa/",
+        content: "Mr. Abdulrahman is the Chief Data and Innovation Officer at Madinah Region Development Authority. He is a board member of state-owned Saudi companies. Under his leadership, Madinah was listed in the IMD Smart City Index since 2021. Also, Madinah was accredited by the World Council on City Data as an Early Adopter among the first ten cities worldwide in ISO37122 Smart City Indicators. Before joining the government, he was a Chief Executive Officer in the private sector with 22 years of experience in various industries, such as Consumer Goods, Food Manufacturing, Medical Supplies, and Supply Chain, where his operations covered the GCC market, Levant, and Africa. He’s the co-author of ‘Cities in a Time of Global Emergencies: Can smart cities help?’.", linkedin: "https://www.linkedin.com/in/abdulrahmanibrahim/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "pierryl-massal":
+        { name: "Pierryl Massal", img: "https://www.fiware.org/wp-content/directories/people/images/200px/pierryl-massal.jpg", position: "VP Head of Business development", company: "Atos", "company-link": "https://atos.net/en/",
+        content: "Pierryl Massal is Vice President, Head of Global Business development at Atos, a global IT company empowering and driving progress through digital innovation to create a livable and efficient future for the citizens. In this role, Pierryl oversees Atos’ relations and operations especially in the Smart City field enabling Atos to capitalize on opportunities across all industries, including Public Sector, Hospitality, Retail, …. Pierryl has been instrumental in providing central leadership to explore, develop and recommend approaches for sustainable business growth in that domain and manage strategic and brand-promotional partnership opportunities, representation at industry events and government/legislative relations.", linkedin: "https://www.linkedin.com/in/pierryl-massal-8939aa74/", twitter: "https://twitter.com/pierrylmassal", domain: "", location: "",
         flag: "", },
     "gaetano-volpe":
         { name: "Gaetano Volpe", img: "https://www.fiware.org/wp-content/directories/people/images/200px/gaetano-volpe.jpg", position: "Chief Executive Officer", company: "Latitudo 40", "company-link": "https://www.latitudo40.com/",

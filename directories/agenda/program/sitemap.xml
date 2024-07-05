@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 		<url>
+			<loc>https://www.fiware.org/fgs-2024/maecenas-nec-odio-et-ante-tincidunt-tempus-donec-vitae-sapien-ut-libero-venenatis-faucibus-.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2024/intro-to-session-input-on-digital-twins-and-ongoing-projects-as-food-for-thought--welcome-and-intro-from-city-representative.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -13,7 +17,15 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2024/maecenas-nec-odio-et-ante-tincidunt-tempus-donec-vitae-sapien-ut-libero-venenatis-faucibus.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2024/service-execution-and-analytical-services-with-ngsi-ld.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2024/nemo-enim-ipsam-voluptatem-quia-voluptas-sit-aspernatur-aut-odit-aut-fugit--sed-quia-consequuntur-magni-dolores-eos-qui-ratione.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -25,7 +37,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/lorem-ipsum-dolor-sit-amet-consectetuer-adipiscing-elit.html</loc>
+			<loc>https://www.fiware.org/fgs-2024/aliquam-lorem-ante--dapibus-in--viverra-quis--feugiat-a--tellus-phasellus-viverra-nulla.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
