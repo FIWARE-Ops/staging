@@ -1560,6 +1560,10 @@ input[type="search"]::placeholder {
         padding: 0;
     }
 
+    .speaker.detail:last-of-type {
+        margin-right: 20px;
+    }
+
     .speaker-info {
         width: auto;
     }
