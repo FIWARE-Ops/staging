@@ -26,7 +26,6 @@ var departments = [
         'Security',
         'Smart Cities',
         'Smart Mobility',
-        'Tourism',
         'Water',
 ]; var countries = [
         'European Commission',
