@@ -1547,9 +1547,13 @@ input[type="search"]::placeholder {
         padding: 0;
     }
 
-    .speaker-data {
-        align-items: flex-start;
+    .speaker:hover {
+        background-color: rgba(240, 240, 240, 0);
     }
+
+    /* .speaker-data {
+        align-items: flex-start;
+    } */
 
     .speaker.detail {
         padding: 0;
