@@ -1495,6 +1495,7 @@ input[type="search"]::placeholder {
 
     .track.detail {
         font-size: 15px;
+        padding: 5px 12px 6px;
     }
 
     .panel-title {
@@ -1503,7 +1504,7 @@ input[type="search"]::placeholder {
 
     .panel-title.detail {
         font-size: 1.3em;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
     }
 
     .excerpt {
@@ -1622,14 +1623,9 @@ input[type="search"]::placeholder {
     }
 
     .ico-filter-container {
-        font-size: 14px;
-        font-weight: 600;
-        color: #8ad2dc;
-        text-transform: uppercase;
         display: flex;
-        flex-direction: row;
-        align-items: end;
-        gap: 0px;
+        color: #ffffff;
+        font-size: 16px;
     }
 
     .event-count-container {
