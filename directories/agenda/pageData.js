@@ -3,6 +3,7 @@ var tracks = [
         'Hands-On Use Cases',
         'Innovation with FIWARE',
         'Tech &amp; Trends',
+        'Tech Training',
 ];
 var summitDates = [
         '18-september',
@@ -20,6 +21,8 @@ var sessions = [
         'Smart Communities &amp; Mobility',
         'Smart Energy',
         'The new FIWARE Vision',
+        'The Smart Data Models initiative',
+        'Tytire tu patulae',
 ]; 
 var speakers = [
         'Abdulrahman Ibrahim',
@@ -40,6 +43,7 @@ var speakers = [
         'Giovanni Vaglica',
         'Ifat Tariq',
         'Ilaria Bortone',
+        'Jason Fox',
         'Jesús Ruiz Martinez',
         'Joan Antonio Bernejo',
         'Joaquín Salvachúa',
@@ -59,8 +63,7 @@ var speakers = [
         'Sophie Meszaros',
         'Stefano De Panfilis',
         'Tomohiro Kuwahara',
-        'Yasunori Mochizuk',
-        'Yasunori Mochizuk',
+        'Yasunori Mochizuki',
 ]; 
 var modalData = {
     "andrea-battaglia":
@@ -70,6 +73,10 @@ var modalData = {
     "stefano-de-panfilis":
         { name: "Stefano De Panfilis", img: "https://www.fiware.org/wp-content/directories/people/images/200px/stefano-depanfilis.jpg", position: "Chief Operations Officer", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
         content: "Stefano de Panfilis (m) is the Chief Operating Officer at FIWARE Foundation. He graduated cum laude in Mathematics at the University of Rome “La Sapienza”. In 1984, he was hired in Engineering Ingegneria Informatica S.P.A as a software engineer. In 1986, he became Project Manager to then move to the R&amp;D department managing the “Formal Methods” unit. In 1993, he supported Engineering to receive the ISO-9001 compliancy. From 1994, he was involved in European R&amp;D. He coordinated SeCSE (IST 6FP), aiming at implement a platform for Service-Centric Systems Engineering, CBSEnet (IST-5FP NoE), CLARiFi (IST 5FP), DOOR (ESPRIT 4FP), SQUAD (INCO-DC), and VALSE (TV&amp;TT) projects, and the ENG- SODEPRO, DECO’ and DOMINARE ESSI Process Improvement Experiments. He also coordinated QualiPSo (IST 6FP) aiming at leverage Open Source Software development to recognised industrial standards, leading a consortium of 20 partners from Europe, Brazil and China. He actively participated to create and set-up the NESSI ETP of which he is the Coordinator of the Strategic Research Agenda Committee. Since 2017, he is employed by FIWARE Foundation as Chief Operations Officer.", linkedin: "https://www.linkedin.com/in/stefano-de-panfilis-1928a11/", twitter: "https://twitter.com/depa01", domain: "", location: "",
+        flag: "", },
+    "yasunori-mochizuki":
+        { name: "Yasunori Mochizuki", img: "https://www.fiware.org/wp-content/directories/people/images/200px/yasunori-mochizuki.jpg", position: "NEC Fellow", company: "NEC Corporation", "company-link": "https://www.nec.com/",
+        content: "Yasunori joined NEC in 1987, straight after concluding his PhD in Electronics Engineering. He went on to spend over two decades at NEC’s corporate R&amp;D center, first as a research scientist and later as a department manager, gaining broader technical expertise, including solid-state physics, semiconductor devices/LSIs, and computer science. Later in 2013, Yasunori started working at NEC’s newly-created Business Innovation Unit. As a senior vice president, he was responsible for the corporate-wide technology strategy and IoT business strategy. His current title of NEC Fellow means that he actively participates in innovation policy proposals, global ecosystem building related to smart society, and digital transformation. He is also a BoD member of FIWARE Foundation, World Economic Forum. Fellow, and member of Business at OECD (BIAC) Committee for Digital Economy Policy.", linkedin: "https://www.linkedin.com/in/yasunori-mochizuki-93bab674/", twitter: "https://twitter.com/yasunorimochiz", domain: "", location: "",
         flag: "", },
     "roberto-di-bernardo":
         { name: "Roberto Di Bernardo", img: "https://www.fiware.org/wp-content/directories/people/images/200px/roberto-di-bernardo.jpg", position: "Head of Open Government R&amp;D Unit", company: "Engineering", "company-link": "https://www.eng.it/en/",
@@ -103,13 +110,17 @@ var modalData = {
         { name: "Pierryl Massal", img: "https://www.fiware.org/wp-content/directories/people/images/200px/pierryl-massal.jpg", position: "VP Head of Business development", company: "Atos", "company-link": "https://atos.net/en/",
         content: "Pierryl Massal is Vice President, Head of Global Business development at Atos, a global IT company empowering and driving progress through digital innovation to create a livable and efficient future for the citizens. In this role, Pierryl oversees Atos’ relations and operations especially in the Smart City field enabling Atos to capitalize on opportunities across all industries, including Public Sector, Hospitality, Retail, …. Pierryl has been instrumental in providing central leadership to explore, develop and recommend approaches for sustainable business growth in that domain and manage strategic and brand-promotional partnership opportunities, representation at industry events and government/legislative relations.", linkedin: "https://www.linkedin.com/in/pierryl-massal-8939aa74/", twitter: "https://twitter.com/pierrylmassal", domain: "", location: "",
         flag: "", },
-    "gaetano-volpe":
-        { name: "Gaetano Volpe", img: "https://www.fiware.org/wp-content/directories/people/images/200px/gaetano-volpe.jpg", position: "Chief Executive Officer", company: "Latitudo 40", "company-link": "https://www.latitudo40.com/",
-        content: "Gaetano is the CEO of Latitudo 40, a startup that uses satellite data to improve life on our planet. After working for over 20 years in space-related companies, launching new products and services based on the integration of IT with space technologies (telecommunications, navigation and remote sensing), he decided to combine his passion for space technologies with the need to improve the environmental impact of our cities. For Gaetano, innovation means finding a new solution to a global market problem.", linkedin: "https://www.linkedin.com/in/gaetanovolpe", twitter: "", domain: "", location: "",
+    "jason-fox":
+        { name: "Jason Fox", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jason-fox.jpg", position: "Senior Technical Expert &amp; Evangelist", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
+        content: "Jason Fox (m) has been working for FIWARE Foundation for the last six years in the role of technical evangelist, educating and diseminating information about NGSI interfaces, JSON-LD, Linked Data, the components within the FIWARE Catalogue and Securing FIWARE architectures. Before joining FIWARE, he worked as a software engineer for over 20 years in various roles both in Germany and the United Kingdom using a wide variety of programming languages ranging from C++ to Java to Node.js. This has included coding the software behind selling lottery tickets online for the British National Lottery, and and developing and maintaining technical documentation applications for Nokia.", linkedin: "https://www.linkedin.com/in/jason-fox-8a79563/", twitter: "", domain: "", location: "",
         flag: "", },
     "alberto-abella":
         { name: "Alberto Abella", img: "https://www.fiware.org/wp-content/directories/people/images/200px/alberto-abella.jpg", position: "Data Modeling Expert &amp; Evangelist", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
         content: "Alberto Abella (m) is PhD in Business (Open data) and Telecommunications Engineer and Master in Total Quality Management, Business Administration and Business Organization. He works as a Data Modelling Expert and Technical Evangelist at FIWARE and currently is the responsible person for the smart data models initiative.", linkedin: "https://www.linkedin.com/in/albertoabella/", twitter: "https://twitter.com/aabella", domain: "", location: "",
+        flag: "", },
+    "gaetano-volpe":
+        { name: "Gaetano Volpe", img: "https://www.fiware.org/wp-content/directories/people/images/200px/gaetano-volpe.jpg", position: "Chief Executive Officer", company: "Latitudo 40", "company-link": "https://www.latitudo40.com/",
+        content: "Gaetano is the CEO of Latitudo 40, a startup that uses satellite data to improve life on our planet. After working for over 20 years in space-related companies, launching new products and services based on the integration of IT with space technologies (telecommunications, navigation and remote sensing), he decided to combine his passion for space technologies with the need to improve the environmental impact of our cities. For Gaetano, innovation means finding a new solution to a global market problem.", linkedin: "https://www.linkedin.com/in/gaetanovolpe", twitter: "", domain: "", location: "",
         flag: "", },
     "ilaria-bortone":
         { name: "Ilaria Bortone", img: "https://www.fiware.org/wp-content/directories/people/images/200px/ilaria-bortone.png", position: "Program Manager", company: "Meditech 4.0", "company-link": "https://meditech4.com/",

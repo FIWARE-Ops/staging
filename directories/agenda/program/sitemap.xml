@@ -29,6 +29,18 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2024/introduction-to-json-ld-and-linked-data.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2024/introduction-for-users.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2024/advanced--integration-and-contribution.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2024/from-data-to-digital-twin--challenges-and-best-practice-recipes.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
