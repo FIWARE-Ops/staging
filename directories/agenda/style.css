@@ -768,6 +768,12 @@
     display: none;
 }
 
+.event-label {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1em;
+}
+
 .event-count-container {
     display: flex;
     align-items: center;
@@ -1140,7 +1146,7 @@ input[type="search"]::placeholder {
 .icon-label {
     display: flex;
     flex-direction: row;
-    align-items: end;
+    align-items: center;
     gap: 5px;
 }
 
@@ -1166,10 +1172,10 @@ input[type="search"]::placeholder {
     margin-right: 8px;
 }
 
-#ico-filtersbar {
+/* #ico-filtersbar {
     margin-right: 8px;
     color: #8ad2dc;
-}
+} */
 
 /* –––––––––––––––– */
 
@@ -1610,7 +1616,7 @@ input[type="search"]::placeholder {
         display: block;
         width: 100%;
         display: flex;
-        align-items: flex-start;
+        align-items: center;
         justify-content: space-between;
         padding: 15px 0px;
     }
@@ -1628,8 +1634,11 @@ input[type="search"]::placeholder {
 
     .ico-filter-container {
         display: flex;
+        align-items: center;
+        gap: 3px;
         color: #ffffff;
         font-size: 16px;
+        line-height: 1em;
     }
 
     .event-count-container {
