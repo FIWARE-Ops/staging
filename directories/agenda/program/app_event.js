@@ -200,6 +200,9 @@ function trackCSS(data) {
         case 'Innovation with FIWARE':
             result="light-blue"
             break;
+        case 'Grand Opening':
+            result="light-blue"
+            break;
         case
             'Hands-On Use Cases':
             result="light-yellow"
