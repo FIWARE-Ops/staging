@@ -5,9 +5,15 @@ function createClassFilter(data) {
   if (typeof data == "object") {
     data.forEach((element, i) => {
       if (i + 1 === data.length) {
-        filterString += `${element.toLowerCase().replace(/&amp/gi, "").replace(regex, "-")}`;
+        filterString += `${element
+          .toLowerCase()
+          .replace(/&amp/gi, "")
+          .replace(regex, "-")}`;
       } else {
-        filterString += `${element.toLowerCase().replace(/&amp/gi, "").replace(regex, "-")} `;
+        filterString += `${element
+          .toLowerCase()
+          .replace(/&amp/gi, "")
+          .replace(regex, "-")} `;
       }
     });
   } else {
@@ -70,10 +76,16 @@ function createModalContent(tingleModalData) {
   modalHtml += "<div class='social-modal'>";
 
   if (tingleModalData.twitter !== "") {
-    modalHtml += '<a class="twitter-link" href="' + tingleModalData["twitter"] + '" target="_blank"></a>';
+    modalHtml +=
+      '<a class="twitter-link" href="' +
+      tingleModalData["twitter"] +
+      '" target="_blank"></a>';
   }
   if (tingleModalData.linkedin !== "") {
-    modalHtml += '<a class="linkedin-link" href="' + tingleModalData["linkedin"] + '" target="_blank"></a>';
+    modalHtml +=
+      '<a class="linkedin-link" href="' +
+      tingleModalData["linkedin"] +
+      '" target="_blank"></a>';
   }
   if (tingleModalData.flag !== "") {
     modalHtml += `<img class="flag"  src="${tingleModalData.flag}"/>`;
@@ -142,36 +154,40 @@ function initTextSearch(msnry) {
 
 function filterToggle() {
   let filtersContainer = document.querySelector(".filters-container");
-  document.querySelector("#mobileToggleFilters").addEventListener("click", (ev) => {
-    ev.target.classList.toggle("activeButton");
+  document
+    .querySelector("#mobileToggleFilters")
+    .addEventListener("click", (ev) => {
+      ev.target.classList.toggle("activeButton");
 
-    if (!filtersContainer.classList.contains("active")) {
-      filtersContainer.classList.add("active");
-      document.querySelector("#filter-button-text").innerText = "Hide Filters";
-      filtersContainer.style.height = "auto";
+      if (!filtersContainer.classList.contains("active")) {
+        filtersContainer.classList.add("active");
+        document.querySelector("#filter-button-text").innerText =
+          "Hide Filters";
+        filtersContainer.style.height = "auto";
 
-      let height = filtersContainer.clientHeight + "px";
+        let height = filtersContainer.clientHeight + "px";
 
-      filtersContainer.style.height = "0px";
+        filtersContainer.style.height = "0px";
 
-      setTimeout(function () {
-        filtersContainer.style.height = height;
-      }, 0);
-    } else {
-      filtersContainer.style.height = "0px";
-      document.querySelector("#filter-button-text").innerText = "Show Filters";
+        setTimeout(function () {
+          filtersContainer.style.height = height;
+        }, 0);
+      } else {
+        filtersContainer.style.height = "0px";
+        document.querySelector("#filter-button-text").innerText =
+          "Show Filters";
 
-      filtersContainer.addEventListener(
-        "transitionend",
-        function () {
-          filtersContainer.classList.remove("active");
-        },
-        {
-          once: true,
-        }
-      );
-    }
-  });
+        filtersContainer.addEventListener(
+          "transitionend",
+          function () {
+            filtersContainer.classList.remove("active");
+          },
+          {
+            once: true,
+          },
+        );
+      }
+    });
 }
 
 function getCSSFilter(id) {
@@ -224,9 +240,24 @@ function dropdownFilters(filter) {
   var SpeakerCSSFilter = getCSSFilter("#filterSpeaker");
   var DayCSSFilter = getCSSDayFilter();
 
-  filterOptions("#filterTrack", filter.fTrack, window.tracks, SessionCSSFilter + SpeakerCSSFilter + DayCSSFilter);
-  filterOptions("#filterSession", filter.fSession, window.sessions, TrackCSSFilter + SpeakerCSSFilter + DayCSSFilter);
-  filterOptions("#filterSpeaker", filter.fSpeaker, window.speakers, TrackCSSFilter + SessionCSSFilter + DayCSSFilter);
+  filterOptions(
+    "#filterTrack",
+    filter.fTrack,
+    window.tracks,
+    SessionCSSFilter + SpeakerCSSFilter + DayCSSFilter,
+  );
+  filterOptions(
+    "#filterSession",
+    filter.fSession,
+    window.sessions,
+    TrackCSSFilter + SpeakerCSSFilter + DayCSSFilter,
+  );
+  filterOptions(
+    "#filterSpeaker",
+    filter.fSpeaker,
+    window.speakers,
+    TrackCSSFilter + SessionCSSFilter + DayCSSFilter,
+  );
 }
 
 function scrollToView() {
@@ -348,7 +379,9 @@ function initSelect() {
         };
       }
 
-      filterObj[e.target.id] = `${e.target.value == "*" ? "" : "." + e.target.value}`;
+      filterObj[e.target.id] = `${
+        e.target.value == "*" ? "" : "." + e.target.value
+      }`;
       scrollSet = true;
       msnry.arrange({
         filter: concatValues(filterObj),
@@ -377,7 +410,7 @@ function smoothScroll() {
         function () {
           // Add hash (#) to URL when done scrolling (default click behavior)
           window.location.hash = hash;
-        }
+        },
       );
       return false;
     } // End if
@@ -422,7 +455,9 @@ function horizontalScroll() {
 }
 
 function checkboxChecked() {
-  var input_checkboxes = document.querySelectorAll(".filters-checkbox input[type='checkbox']");
+  var input_checkboxes = document.querySelectorAll(
+    ".filters-checkbox input[type='checkbox']",
+  );
   function removeChecked() {
     input_checkboxes.forEach((input) => {
       input.classList.remove("checked");
