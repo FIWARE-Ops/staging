@@ -101,7 +101,7 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
  * Read in the careers file and output
  * HTML and JavaScript files
  */
-function parse(agendaFile, speakersFile) {
+async function parse(agendaFile, speakersFile) {
     let agendaData = null;
     let people = null;
     let activeSpeakers = [];
@@ -167,7 +167,8 @@ function parse(agendaFile, speakersFile) {
                         agenda
                     );
 
-                    agenda.forEach((event, index) => {
+                    const socialImages = [];
+                    agenda.forEach((event, index) =>{
                         const filename = Template.createClass(event.title);
                         Template.write(
                             path.join(AGENDA_DIR, `program/${filename}.html`),
@@ -175,10 +176,14 @@ function parse(agendaFile, speakersFile) {
                             event
                         );
                         Prettier.format(path.join(AGENDA_DIR, `program/${filename}.html`), { parser: 'html' });
-                        createSocialMediaImage(filename, event);
+                        socialImages.push({ 
+                            output: path.join(AGENDA_DIR, `program/${filename}.png`),
+                            title: event.title})
                     });
                     Prettier.format(path.join(AGENDA_DIR, 'agenda.html'), { parser: 'html' });
                     Prettier.format(path.join(AGENDA_DIR, 'pageData.js'), { parser: 'flow' });
+
+                    createSocialMediaImages(socialImages);
                 })
                 .catch((e) => {
                     console.log(e);
@@ -187,10 +192,10 @@ function parse(agendaFile, speakersFile) {
         });
 }
 
-function createSocialMediaImage(filename, event) {
-    nodeHtmlToImage({
-        output: path.join(AGENDA_DIR, `program/${filename}.png`),
-        content: event,
+async function createSocialMediaImages(content) {
+    console.log('Generating Images');
+    return await nodeHtmlToImage({
+        content,
         html: `
   <html>
     <head>
