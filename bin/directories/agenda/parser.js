@@ -204,16 +204,19 @@ async function createSocialMediaImages(content) {
     console.log('Generating Images');
     return await nodeHtmlToImage({
         content,
+ //       puppeteerArgs: {
+ //           executablePath: '/opt/homebrew/bin/chromium',
+ //       },
         html: `
-  <html>
-    <head>
-      <style>
+ <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style>
         body {
-          width: 1200px;
-          height: 620px;
-          background-image: url("https://fiware-ops.github.io/fiwaremarketplace/directories/agenda/program/summit.png");
-          font-family: Montserrat, Sans-serif;
+            width: 1200px;
+            height: 620px;
+            background-image: url("https://fiware-ops.github.io/fiwaremarketplace/directories/agenda/program/summit.png");
+            font-family: Montserrat, Sans-serif;
         }
+
         .track {
             border-radius: 8px;
             padding: 5px;
@@ -221,8 +224,8 @@ async function createSocialMediaImages(content) {
             top: 140px;
             left: 100px;
             border: solid 1px black
-
         }
+
         .panel-title {
             position: absolute;
             top: 225px;
@@ -230,15 +233,18 @@ async function createSocialMediaImages(content) {
             width: 1000px;
             color: white;
         }
+
         .title {
             font-size: 40px;
             color: white;
         }
+
         .subtitle {
             margin-top: 10px;
             font-size: 30px;
             color: white;
         }
+
         .panel-info {
             position: absolute;
             top: 490px;
@@ -247,6 +253,7 @@ async function createSocialMediaImages(content) {
             font-size: 20px;
             color: white;
         }
+
         .track.light-blue {
             background-color: #cce0f0;
             color: #005fb9;
@@ -264,33 +271,32 @@ async function createSocialMediaImages(content) {
             color: #1b493a;
             border-color: #1b493a;
         }
-      </style>
-    </head>
-    <body>
-        <div class="track {{trackColor}}">{{track}}</div>
-        <div class="panel-title">
-            <div class="title">{{title}}</div>
-            <div class="subtitle">{{session}}</div>
-        </div>
-        <div class="panel-info">
-          <div>
-              <b class="date">{{shortDate}}</b>
-              <span class="separator-dot"> • </span>
-              <span class="time">{{start}} – {{end}}</span>
-              <span class="separator-dot"> • </span>
-              <span class="place">{{location}}</span>
-           </div>
-           <div>
-              <b>Mostra D’Oltremare, Naples, Italy</b>
-           </div>
-           <div>&nbsp;</div>
-           <div>
-                <i>#FIWARESummit24</i>
-           </div>
-        </div>
+    </style>
+</head>
 
-    </body>
-  </html>`
+<body>
+    <div class="track {{trackColor}}">{{track}}</div>
+    <div class="panel-title">
+        <div class="title">{{title}}</div>
+        <div class="subtitle">{{session}}</div>
+    </div>
+    <div class="panel-info">
+        <div>
+            <b class="date">{{shortDate}}</b>
+            <span class="separator-dot"> • </span>
+            <span class="time">{{start}} – {{end}}</span>
+            <span class="separator-dot"> • </span>
+            <span class="place">{{location}}</span>
+        </div>
+        <div>
+            <b>Mostra D’Oltremare, Naples, Italy</b>
+        </div>
+        
+        <div>
+            <i>#FIWARESummit24</i>
+        </div>
+    </div>
+</body></html>`
     });
 }
 
