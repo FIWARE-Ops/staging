@@ -204,3 +204,4 @@ exports.write = write;
 exports.clean = clean;
 exports.cleanDir = cleanDir;
 exports.createClass = createClass;
+exports.createTrack = createTrack;

@@ -178,7 +178,15 @@ async function parse(agendaFile, speakersFile) {
                         Prettier.format(path.join(AGENDA_DIR, `program/${filename}.html`), { parser: 'html' });
                         socialImages.push({ 
                             output: path.join(AGENDA_DIR, `program/${filename}.png`),
-                            title: event.title})
+                            title: event.title,
+                            session: event.session,
+                            shortDate: event.shortDate,
+                            start: event.start,
+                            end: event.end,
+                            track: event.track,
+                            trackColor:  Template.createTrack(event.track),
+                            location: event.location
+                        })
                     });
                     Prettier.format(path.join(AGENDA_DIR, 'agenda.html'), { parser: 'html' });
                     Prettier.format(path.join(AGENDA_DIR, 'pageData.js'), { parser: 'flow' });
@@ -201,23 +209,86 @@ async function createSocialMediaImages(content) {
     <head>
       <style>
         body {
-          width: 2400px;
-          height: 1260px;
+          width: 1200px;
+          height: 620px;
           background-image: url("https://fiware-ops.github.io/fiwaremarketplace/directories/agenda/program/summit.png");
+          font-family: Montserrat, Sans-serif;
+        }
+        .track {
+            border-radius: 8px;
+            padding: 5px;
+            position: absolute;
+            top: 140px;
+            left: 100px;
+            border: solid 1px black
+
+        }
+        .panel-title {
+            position: absolute;
+            top: 225px;
+            left: 100px;
+            width: 1000px;
+            color: white;
         }
         .title {
-            position: absolute;
-            top: 500px;
-            left: 380px;
-            width: 1640px;
-            font-size: 100px;
+            font-size: 40px;
             color: white;
-            font-family: Sans-serif
+        }
+        .subtitle {
+            margin-top: 10px;
+            font-size: 30px;
+            color: white;
+        }
+        .panel-info {
+            position: absolute;
+            top: 490px;
+            left: 100px;
+            width: 1000px;
+            font-size: 20px;
+            color: white;
+        }
+        .track.light-blue {
+            background-color: #cce0f0;
+            color: #005fb9;
+            border-color: #005fb9;
+        }
+
+        .track.light-yellow {
+            background-color: #f3f3de;
+            color: #5c5c00;
+            border-color: #5c5c00;
+        }
+
+        .track.light-green {
+            background-color: #b8e5d7;
+            color: #1b493a;
+            border-color: #1b493a;
         }
       </style>
     </head>
     <body>
-        <div class="title">{{title}}</div>
+        <div class="track {{trackColor}}">{{track}}</div>
+        <div class="panel-title">
+            <div class="title">{{title}}</div>
+            <div class="subtitle">{{session}}</div>
+        </div>
+        <div class="panel-info">
+          <div>
+              <b class="date">{{shortDate}}</b>
+              <span class="separator-dot"> • </span>
+              <span class="time">{{start}} – {{end}}</span>
+              <span class="separator-dot"> • </span>
+              <span class="place">{{location}}</span>
+           </div>
+           <div>
+              <b>Mostra D’Oltremare, Naples, Italy</b>
+           </div>
+           <div>&nbsp;</div>
+           <div>
+                <i>#FIWARESummit24</i>
+           </div>
+        </div>
+
     </body>
   </html>`
     });
