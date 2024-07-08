@@ -13,6 +13,13 @@ const People = require('../../people/parser');
 const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/agenda/images/careers-default.png';
 const nodeHtmlToImage = require('node-html-to-image');
 
+const font2base64 = require('node-font2base64')
+const font = {
+    regular: font2base64.encodeToDataUrlSync(path.join (__dirname, '../../../fonts/Montserrat-Regular.ttf')),
+    bold:font2base64.encodeToDataUrlSync(path.join (__dirname, '../../../fonts/Montserrat-Bold.ttf')),
+    italic: font2base64.encodeToDataUrlSync(path.join (__dirname, '../../../fonts/Montserrat-Italic.ttf'))
+}
+
 function getExcerpt(item) {
     let text = Parser.textOnly(item['Description']);
     const next = text.indexOf('.', 40);
@@ -185,7 +192,8 @@ async function parse(agendaFile, speakersFile) {
                             end: event.end,
                             track: event.track,
                             trackColor:  Template.createTrack(event.track),
-                            location: event.location
+                            location: event.location,
+                            font
                         })
                     });
                     Prettier.format(path.join(AGENDA_DIR, 'agenda.html'), { parser: 'html' });
@@ -209,6 +217,26 @@ async function createSocialMediaImages(content) {
  //       },
         html: `
  <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style>
+      @font-face {
+        font-family: 'Montserrat';
+        src: url("{{{font.regular}}}") format('woff2');
+        font-weight: normal;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: 'Montserrat';
+        src: url("{{{font.bold}}}") format('woff2');
+        font-weight: bold;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: 'Montserrat';
+        src: url("{{{font.italic}}}") format('woff2');
+        font-weight: normal;
+        font-style: italic;
+      }
+    </style>
     <style>
         body {
             width: 1200px;
