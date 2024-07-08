@@ -9,6 +9,7 @@ const Template = require('../../template');
 const TEMPLATE_PATH = 'bin/directories/agenda/';
 const AGENDA_DIR = 'directories/agenda';
 const People = require('../../people/parser');
+const CurrentYear = new Date().getFullYear();
 
 const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/agenda/images/careers-default.png';
 const nodeHtmlToImage = require('node-html-to-image');
@@ -84,7 +85,7 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
             event.startTime = Parser.addTime(event.date, event.start);
             event.shortDate = event.date.toLocaleDateString('en-GB', { month: 'long', day: 'numeric' });
             const filename = Template.createClass(event.title);
-            event.social = `/fgs-${new Date().getFullYear()}/${filename}.html`;
+            event.social = `/fgs-${CurrentYear}/${filename}.html`;
             event.socialImage = `/fiwaremarketplace/directories/agenda/program/${filename}.png`
 
             eventDates.push(event.shortDate);
@@ -193,6 +194,7 @@ async function parse(agendaFile, speakersFile) {
                             track: event.track,
                             trackColor:  Template.createTrack(event.track),
                             location: event.location,
+                            year: CurrentYear.toString().substr(-2),
                             font
                         })
                     });
@@ -328,7 +330,7 @@ async function createSocialMediaImages(content) {
               <span>Mostra D’Oltremare, Naples, Italy</span>
            </div>
            <div>
-                <i>#FIWARESummit24</i>
+                <i>#FIWARESummit{{year}}</i>
            </div>
         </div>
 
