@@ -11,11 +11,12 @@ const AGENDA_DIR = 'directories/agenda';
 const People = require('../../people/parser');
 
 const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/agenda/images/careers-default.png';
+const nodeHtmlToImage = require('node-html-to-image');
 
-function getExcerpt(item){
-    let text =  Parser.textOnly(item['Description']);
-    const next = text.indexOf(".", 40);
-    return text.substring(0, next +1)
+function getExcerpt(item) {
+    let text = Parser.textOnly(item['Description']);
+    const next = text.indexOf('.', 40);
+    return text.substring(0, next + 1);
 }
 /**
  * Take the human readable column names from the spreadsheet and create a
@@ -42,14 +43,14 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
             const names = _.uniq(
                 _.filter(
                     [
-                        (item['Speaker 1'] || ''),
-                        (item['Speaker 2'] || ''),
-                        (item['Speaker 3'] || ''),
-                        (item['Speaker 4'] || ''),
-                        (item['Speaker 5'] || ''),
-                        (item['Speaker 6'] || ''),
-                        (item['Speaker 7'] || ''),
-                        (item['Speaker 8'] || '')
+                        item['Speaker 1'] || '',
+                        item['Speaker 2'] || '',
+                        item['Speaker 3'] || '',
+                        item['Speaker 4'] || '',
+                        item['Speaker 5'] || '',
+                        item['Speaker 6'] || '',
+                        item['Speaker 7'] || '',
+                        item['Speaker 8'] || ''
                     ],
                     function (name) {
                         return name !== '';
@@ -60,36 +61,36 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
             event.speakers = _.map(names, function (name) {
                 const speaker = _.findWhere(speakers, { name });
 
-                if(speaker){
+                if (speaker) {
                     speaker.shortJob = speaker.filters[0];
                 } else {
-                    console.error(`DATA MISMATCH: Missing Speaker: ${name}`)
+                    console.error(`DATA MISMATCH: Missing Speaker: ${name}`);
                 }
 
-
-                return !!speaker ? speaker : { name};
+                return !!speaker ? speaker : { name };
             });
 
-            event.speakers.forEach(speaker => {
+            event.speakers.forEach((speaker) => {
                 activeSpeakers.push(speaker);
             });
 
             event.startTime = Parser.addTime(event.date, event.start);
-            event.shortDate = event.date.toLocaleDateString('en-GB', {month: "long", day: "numeric"});
-            const filename= Template.createClass(event.title);
-            event.social = `/fgs-${new Date().getFullYear()}/${filename}.html`
-            eventDates.push(event.shortDate)
+            event.shortDate = event.date.toLocaleDateString('en-GB', { month: 'long', day: 'numeric' });
+            const filename = Template.createClass(event.title);
+            event.social = `/fgs-${new Date().getFullYear()}/${filename}.html`;
+            event.socialImage = `/fiwaremarketplace/directories/agenda/program/${filename}.png`
+
+            eventDates.push(event.shortDate);
             agenda.push(event);
         }
     });
-
 
     if (agenda.length === 0) {
         console.error('ERROR: No agenda uploaded.');
         process.exit(1);
     }
     console.log(agenda.length, ' agenda items generated.');
-    console.log(activeSpeakers.length, ' agenda speakers found.')
+    console.log(activeSpeakers.length, ' agenda speakers found.');
 
     return agenda.sort((a, b) => {
         return a.startTime > b.startTime.getTime();
@@ -109,23 +110,23 @@ function parse(agendaFile, speakersFile) {
     csv()
         .fromFile(speakersFile)
         .then((input) => {
-            allSpeakers = People.extract(input);   
+            allSpeakers = People.extract(input);
             csv()
                 .fromFile(agendaFile)
                 .then((input) => {
                     return extractAgenda(input, allSpeakers, activeSpeakers, eventDates);
                 })
                 .then((agenda) => {
-
-
-
-
-                    const people = _.uniq(activeSpeakers)
-                    const speakerNames = 
-                        _.sortBy(
-                            _.map(people, a => {return a.name} ),
-                            a => {return a});
-                    const summitDates = _.uniq(eventDates)
+                    const people = _.uniq(activeSpeakers);
+                    const speakerNames = _.sortBy(
+                        _.map(people, (a) => {
+                            return a.name;
+                        }),
+                        (a) => {
+                            return a;
+                        }
+                    );
+                    const summitDates = _.uniq(eventDates);
                     const filterData = {
                         tracks: Sorter.sortData(agenda, 'track'),
                         sessions: Sorter.flatSortData(agenda, 'session'),
@@ -149,7 +150,6 @@ function parse(agendaFile, speakersFile) {
                         filterData
                     );
 
-
                     Template.write(
                         path.join(AGENDA_DIR, 'program/pageData.js'),
                         path.join(TEMPLATE_PATH, 'details.hbs'),
@@ -167,20 +167,16 @@ function parse(agendaFile, speakersFile) {
                         agenda
                     );
 
-                    agenda.forEach ((event, index) =>{
-
-                        const filename= Template.createClass(event.title);
+                    agenda.forEach((event, index) => {
+                        const filename = Template.createClass(event.title);
                         Template.write(
                             path.join(AGENDA_DIR, `program/${filename}.html`),
                             path.join(TEMPLATE_PATH, 'social-media.hbs'),
-                        event);
+                            event
+                        );
                         Prettier.format(path.join(AGENDA_DIR, `program/${filename}.html`), { parser: 'html' });
-
+                        createSocialMediaImage(filename, event);
                     });
-
-
-
-
                     Prettier.format(path.join(AGENDA_DIR, 'agenda.html'), { parser: 'html' });
                     Prettier.format(path.join(AGENDA_DIR, 'pageData.js'), { parser: 'flow' });
                 })
@@ -189,6 +185,37 @@ function parse(agendaFile, speakersFile) {
                     return;
                 });
         });
+}
+
+function createSocialMediaImage(filename, event) {
+    nodeHtmlToImage({
+        output: path.join(AGENDA_DIR, `program/${filename}.png`),
+        content: event,
+        html: `
+  <html>
+    <head>
+      <style>
+        body {
+          width: 2400px;
+          height: 1260px;
+          background-image: url("https://fiware-ops.github.io/fiwaremarketplace/directories/agenda/program/summit.png");
+        }
+        .title {
+            position: absolute;
+            top: 500px;
+            left: 380px;
+            width: 1640px;
+            font-size: 100px;
+            color: white;
+            font-family: Sans-serif
+        }
+      </style>
+    </head>
+    <body>
+        <div class="title">{{title}}</div>
+    </body>
+  </html>`
+    });
 }
 
 exports.parse = parse;
