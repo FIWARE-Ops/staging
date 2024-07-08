@@ -150,5 +150,5 @@ if (PROCESS === 'postinstall') {
     touch(People.file);
     touch(ResearchDevelopment.file);
     touch(Webinars.file);
-    touch(Summit.file);
+    touch(Agenda.file);
 }
