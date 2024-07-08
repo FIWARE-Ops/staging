@@ -238,50 +238,52 @@ async function createSocialMediaImages(content) {
       }
     </style>
     <style>
-        body {
-            width: 1200px;
-            height: 620px;
-            background-image: url("https://fiware-ops.github.io/fiwaremarketplace/directories/agenda/program/summit.png");
-            font-family: Montserrat, Sans-serif;
+            body {
+          width: 1200px;
+          height: 620px;
+          background-image: url("https://fiware-ops.github.io/fiwaremarketplace/directories/agenda/program/summit.png");
+          font-family: Montserrat, Sans-serif;
         }
-
         .track {
-            border-radius: 8px;
-            padding: 5px;
+            border-radius: 25px;
+            padding: 6px 12px;
             position: absolute;
-            top: 140px;
-            left: 100px;
-            border: solid 1px black
+            top: 105px;
+            left: 140px;
+            border: solid 1px #000000;
+            background-color: #ffffff;
         }
-
         .panel-title {
             position: absolute;
-            top: 225px;
-            left: 100px;
-            width: 1000px;
+            top: 170px;
+            left: 140px;
+            width: 800px;
             color: white;
         }
-
         .title {
             font-size: 40px;
+            line-height: 1.4em;
+            font-weight: 700;
             color: white;
         }
-
         .subtitle {
             margin-top: 10px;
-            font-size: 30px;
+            font-size: 24px;
+            line-height: 1.3em;
+            font-weight: 600;
             color: white;
         }
-
         .panel-info {
             position: absolute;
-            top: 490px;
-            left: 100px;
-            width: 1000px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            top: 452px;
+            left: 140px;
+            width: 800px;
             font-size: 20px;
             color: white;
         }
-
         .track.light-blue {
             background-color: #cce0f0;
             color: #005fb9;
@@ -299,13 +301,14 @@ async function createSocialMediaImages(content) {
             color: #1b493a;
             border-color: #1b493a;
         }
+      </style>
     </style>
 </head>
 
 <body>
     <div class="track {{trackColor}}">{{track}}</div>
     <div class="panel-title">
-        <div class="title">{{title}}</div>
+        <div class="title"><b>{{title}}</b></div>
         <div class="subtitle">{{session}}</div>
     </div>
     <div class="panel-info">
