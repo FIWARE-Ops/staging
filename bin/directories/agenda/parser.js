@@ -12,14 +12,8 @@ const People = require('../../people/parser');
 const CurrentYear = new Date().getFullYear();
 
 const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/agenda/images/careers-default.png';
-const nodeHtmlToImage = require('node-html-to-image');
 
-const font2base64 = require('node-font2base64')
-const font = {
-    regular: font2base64.encodeToDataUrlSync(path.join (__dirname, '../../../fonts/Montserrat-Regular.ttf')),
-    bold:font2base64.encodeToDataUrlSync(path.join (__dirname, '../../../fonts/Montserrat-Bold.ttf')),
-    italic: font2base64.encodeToDataUrlSync(path.join (__dirname, '../../../fonts/Montserrat-Italic.ttf'))
-}
+
 
 function getExcerpt(item) {
     let text = Parser.textOnly(item['Description']);
@@ -195,147 +189,19 @@ async function parse(agendaFile, speakersFile) {
                             trackColor:  Template.createTrack(event.track),
                             location: event.location,
                             year: CurrentYear.toString().substr(-2),
-                            font
+                            font: Template.font
                         })
                     });
                     Prettier.format(path.join(AGENDA_DIR, 'agenda.html'), { parser: 'html' });
                     Prettier.format(path.join(AGENDA_DIR, 'pageData.js'), { parser: 'flow' });
 
-                    createSocialMediaImages(socialImages);
+                    Template.createSocialMediaImages(socialImages, path.join(TEMPLATE_PATH, 'social-media-image.hbs'));
                 })
                 .catch((e) => {
                     console.log(e);
                     return;
                 });
         });
-}
-
-async function createSocialMediaImages(content) {
-    console.log('Generating Images');
-    return await nodeHtmlToImage({
-        content,
- //       puppeteerArgs: {
- //           executablePath: '/opt/homebrew/bin/chromium',
- //       },
-        html: `
- <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <style>
-      @font-face {
-        font-family: 'Montserrat';
-        src: url("{{{font.regular}}}") format('woff2');
-        font-weight: normal;
-        font-style: normal;
-      }
-      @font-face {
-        font-family: 'Montserrat';
-        src: url("{{{font.bold}}}") format('woff2');
-        font-weight: bold;
-        font-style: normal;
-      }
-      @font-face {
-        font-family: 'Montserrat';
-        src: url("{{{font.italic}}}") format('woff2');
-        font-weight: normal;
-        font-style: italic;
-      }
-    </style>
-      <style>
-        body {
-          width: 1200px;
-          height: 627px;
-          background-image: url("https://fiware-ops.github.io/fiwaremarketplace/directories/agenda/program/summit.png");
-          font-family: Montserrat, Sans-serif;
-        }
-        .track {
-            border-radius: 25px;
-            padding: 6px 12px;
-            position: absolute;
-            top: 138px;
-            left: 140px;
-            border: solid 1px #000000;
-            background-color: #ffffff;
-        }
-        .panel-title {
-            position: absolute;
-            top: 200px;
-            left: 140px;
-            width: 700px;
-            color: white;
-        }
-        .title {
-            font-size: 36px;
-            line-height: 1.2em;
-            font-weight: 700;
-            color: white;
-        }
-        .subtitle {
-            margin-top: 10px;
-            font-size: 24px;
-            line-height: 1.3em;
-            font-weight: 500;
-            color: white;
-        }
-        .panel-info {
-            position: absolute;
-            top: 452px;
-            left: 140px;
-            width: 800px;
-            font-size: 20px;
-            color: white;
-        }
-        .date-time {
-            margin-bottom: 10px;
-        }
-        .date {
-            font-weight: 700;
-        }
-        .venue {
-            margin-bottom: 10px;
-            font-weight: 600;
-        }
-        .track.light-blue {
-            background-color: #cce0f0;
-            color: #005fb9;
-            border-color: #005fb9;
-        }
-
-        .track.light-yellow {
-            background-color: #f3f3de;
-            color: #5c5c00;
-            border-color: #5c5c00;
-        }
-
-        .track.light-green {
-            background-color: #b8e5d7;
-            color: #1b493a;
-            border-color: #1b493a;
-        }
-      </style>
-    </head>
-    <body>
-        <div class="track {{trackColor}}">{{track}}</div>
-        <div class="panel-title">
-            <div class="title">{{title}}</div>
-            <div class="subtitle">{{session}}</div>
-        </div>
-        <div class="panel-info">
-          <div class="date-time">
-              <span class="date">{{shortDate}}</span>
-              <span class="separator-dot"> • </span>
-              <span class="time">{{start}} – {{end}}</span>
-              <span class="separator-dot"> • </span>
-              <span class="place">{{location}}</span>
-           </div>
-           <div class="venue">
-              <span>Mostra D’Oltremare, Naples, Italy</span>
-           </div>
-           <div>
-                <i>#FIWARESummit{{year}}</i>
-           </div>
-        </div>
-
-    </body></html>`
-    });
 }
 
 exports.parse = parse;

@@ -2,6 +2,7 @@ const Handlebars = require('handlebars');
 const path = require('path');
 const fs = require('fs-extra');
 const _ = require('underscore');
+const nodeHtmlToImage = require('node-html-to-image');
 
 const notFound = `<!doctype html>
 <html lang="en-US">
@@ -11,6 +12,15 @@ const notFound = `<!doctype html>
 </head>
 <body/>
 </html>`;
+
+
+const font2base64 = require('node-font2base64')
+const font = {
+    regular: font2base64.encodeToDataUrlSync(path.join (__dirname, '../fonts/Montserrat-Regular.ttf')),
+    bold:font2base64.encodeToDataUrlSync(path.join (__dirname, '../fonts/Montserrat-Bold.ttf')),
+    italic: font2base64.encodeToDataUrlSync(path.join (__dirname, '../fonts/Montserrat-Italic.ttf'))
+}
+
 
 /**
  *  Take a raw dump of an Object as JSON
@@ -200,8 +210,22 @@ function readTemplate(template, callback) {
     fs.readFile(filePath, { encoding: 'utf-8' }, callback);
 }
 
+
+ function createSocialMediaImages(content, template) {
+    readTemplate(template, async function (err, data) {
+        if (!err) {
+            console.log('Generating Images');
+            await nodeHtmlToImage({content, html: data})
+            } else {
+                console.log(err);
+            }
+    });
+}
+
+exports.font = font
 exports.write = write;
 exports.clean = clean;
 exports.cleanDir = cleanDir;
 exports.createClass = createClass;
 exports.createTrack = createTrack;
+exports.createSocialMediaImages = createSocialMediaImages;
