@@ -237,10 +237,10 @@ async function createSocialMediaImages(content) {
         font-style: italic;
       }
     </style>
-    <style>
-            body {
+      <style>
+        body {
           width: 1200px;
-          height: 620px;
+          height: 627px;
           background-image: url("https://fiware-ops.github.io/fiwaremarketplace/directories/agenda/program/summit.png");
           font-family: Montserrat, Sans-serif;
         }
@@ -248,21 +248,21 @@ async function createSocialMediaImages(content) {
             border-radius: 25px;
             padding: 6px 12px;
             position: absolute;
-            top: 105px;
+            top: 138px;
             left: 140px;
             border: solid 1px #000000;
             background-color: #ffffff;
         }
         .panel-title {
             position: absolute;
-            top: 170px;
+            top: 200px;
             left: 140px;
-            width: 800px;
+            width: 700px;
             color: white;
         }
         .title {
-            font-size: 40px;
-            line-height: 1.4em;
+            font-size: 36px;
+            line-height: 1.2em;
             font-weight: 700;
             color: white;
         }
@@ -270,19 +270,26 @@ async function createSocialMediaImages(content) {
             margin-top: 10px;
             font-size: 24px;
             line-height: 1.3em;
-            font-weight: 600;
+            font-weight: 500;
             color: white;
         }
         .panel-info {
             position: absolute;
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
             top: 452px;
             left: 140px;
             width: 800px;
             font-size: 20px;
             color: white;
+        }
+        .date-time {
+            margin-bottom: 10px;
+        }
+        .date {
+            font-weight: 700;
+        }
+        .venue {
+            margin-bottom: 10px;
+            font-weight: 600;
         }
         .track.light-blue {
             background-color: #cce0f0;
@@ -302,32 +309,30 @@ async function createSocialMediaImages(content) {
             border-color: #1b493a;
         }
       </style>
-    </style>
-</head>
+    </head>
+    <body>
+        <div class="track {{trackColor}}">{{track}}</div>
+        <div class="panel-title">
+            <div class="title">{{title}}</div>
+            <div class="subtitle">{{session}}</div>
+        </div>
+        <div class="panel-info">
+          <div class="date-time">
+              <span class="date">{{shortDate}}</span>
+              <span class="separator-dot"> • </span>
+              <span class="time">{{start}} – {{end}}</span>
+              <span class="separator-dot"> • </span>
+              <span class="place">{{location}}</span>
+           </div>
+           <div class="venue">
+              <span>Mostra D’Oltremare, Naples, Italy</span>
+           </div>
+           <div>
+                <i>#FIWARESummit24</i>
+           </div>
+        </div>
 
-<body>
-    <div class="track {{trackColor}}">{{track}}</div>
-    <div class="panel-title">
-        <div class="title"><b>{{title}}</b></div>
-        <div class="subtitle">{{session}}</div>
-    </div>
-    <div class="panel-info">
-        <div>
-            <b class="date">{{shortDate}}</b>
-            <span class="separator-dot"> • </span>
-            <span class="time">{{start}} – {{end}}</span>
-            <span class="separator-dot"> • </span>
-            <span class="place">{{location}}</span>
-        </div>
-        <div>
-            <b>Mostra D’Oltremare, Naples, Italy</b>
-        </div>
-        
-        <div>
-            <i>#FIWARESummit24</i>
-        </div>
-    </div>
-</body></html>`
+    </body></html>`
     });
 }
 
