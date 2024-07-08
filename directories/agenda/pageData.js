@@ -49,7 +49,7 @@ var speakers = [
         'Joaquín Salvachúa',
         'Jorge Hernandez',
         'Jose Benítez',
-        'Laura Schipani',
+        'Laura Ileana Schipani',
         'Luigi Coppolino',
         'Luis Muñoz',
         'Martin Bauer',
@@ -77,6 +77,10 @@ var modalData = {
     "yasunori-mochizuki":
         { name: "Yasunori Mochizuki", img: "https://www.fiware.org/wp-content/directories/people/images/200px/yasunori-mochizuki.jpg", position: "NEC Fellow", company: "NEC Corporation", "company-link": "https://www.nec.com/",
         content: "Yasunori joined NEC in 1987, straight after concluding his PhD in Electronics Engineering. He went on to spend over two decades at NEC’s corporate R&amp;D center, first as a research scientist and later as a department manager, gaining broader technical expertise, including solid-state physics, semiconductor devices/LSIs, and computer science. Later in 2013, Yasunori started working at NEC’s newly-created Business Innovation Unit. As a senior vice president, he was responsible for the corporate-wide technology strategy and IoT business strategy. His current title of NEC Fellow means that he actively participates in innovation policy proposals, global ecosystem building related to smart society, and digital transformation. He is also a BoD member of FIWARE Foundation, World Economic Forum. Fellow, and member of Business at OECD (BIAC) Committee for Digital Economy Policy.", linkedin: "https://www.linkedin.com/in/yasunori-mochizuki-93bab674/", twitter: "https://twitter.com/yasunorimochiz", domain: "", location: "",
+        flag: "", },
+    "laura-ileana-schipani":
+        { name: "Laura Ileana Schipani", img: "https://www.fiware.org/wp-content/directories/people/images/200px/laura-schipani.jpg", position: "Acting CMO", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
+        content: "With over 23 years of experience, Laura (f) brings a wealth of knowledge in strategic marketing and communications. Her career journey, which began with founding her own fashion brand, has led her through diverse managerial roles across consulting, pharmaceuticals, and ICT industries. She is committed to leveraging her expertise to drive growth, enhance brand distinctiveness, and develop impactful projects that resonate with audiences globally.", linkedin: "https://www.linkedin.com/in/lauraskip/", twitter: "", domain: "", location: "",
         flag: "", },
     "roberto-di-bernardo":
         { name: "Roberto Di Bernardo", img: "https://www.fiware.org/wp-content/directories/people/images/200px/roberto-di-bernardo.jpg", position: "Head of Open Government R&amp;D Unit", company: "Engineering", "company-link": "https://www.eng.it/en/",
