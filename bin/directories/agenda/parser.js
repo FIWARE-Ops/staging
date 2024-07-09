@@ -81,7 +81,8 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
             const filename = Template.createClass(event.title);
             event.social = `/fgs-${CurrentYear}/${filename}.html`;
             event.socialImage = `/fiwaremarketplace/directories/agenda/program/${filename}.png`
-
+            event.trackColor =  Template.createTrack(event.track),
+            event.numSpeakers = event.speakers.length,
             eventDates.push(event.shortDate);
             agenda.push(event);
         }
@@ -180,14 +181,7 @@ async function parse(agendaFile, speakersFile) {
                         Prettier.format(path.join(AGENDA_DIR, `program/${filename}.html`), { parser: 'html' });
                         socialImages.push({ 
                             output: path.join(AGENDA_DIR, `program/${filename}.png`),
-                            title: event.title,
-                            session: event.session,
-                            shortDate: event.shortDate,
-                            start: event.start,
-                            end: event.end,
-                            track: event.track,
-                            trackColor:  Template.createTrack(event.track),
-                            location: event.location,
+                            event,
                             year: CurrentYear.toString().substr(-2),
                             font: Template.font
                         })

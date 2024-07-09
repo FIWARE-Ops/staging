@@ -212,6 +212,10 @@ function readTemplate(template, callback) {
 
 
  function createSocialMediaImages(content, template) {
+
+
+
+    
     readTemplate(template, async function (err, data) {
         if (!err) {
             console.log('Generating Images');

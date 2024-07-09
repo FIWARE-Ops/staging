@@ -91,21 +91,128 @@
             color: #1b493a;
             border-color: #1b493a;
         }
+        .panel-speakers {
+            position: absolute;
+            top: 200px;
+            left: 840px;
+            width: 3000px;
+            height: 400px;
+            color: white;
+
+        }
+        .profile-picture {
+            width: 128px;
+            min-width: 124px;
+            max-width: 128px;
+            height: 128px;
+        }
+
+        .profile-picture img {
+            height: 128px;
+            width: 128px;
+            border-radius: 20px;
+            /* border: 2px solid #cce0f0; */
+        }
+
+        .profile-picture-small {
+            width: 64px;
+            min-width: 60px;
+            max-width: 64px;
+            height: 64px;
+        }
+
+        .profile-picture-small img {
+            height: 64px;
+            width: 64px;
+            border-radius: 10px;
+            /* border: 2px solid #cce0f0; */
+        }
+        .speaker-info{
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .speaker-info-small{
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        
       </style>
     </head>
     <body>
-        <div class="track {{trackColor}}">{{track}}</div>
+        <div class="track {{event.trackColor}}">{{event.track}}</div>
         <div class="panel-title">
-            <div class="title">{{title}}</div>
-            <div class="subtitle">{{session}}</div>
+            <div class="title">{{event.title}}</div>
+            <div class="subtitle">{{event.session}}</div>
+        </div>
+        <div class="panel-speakers">
+            <div class="speakers">
+                {{#if (eq event.numSpeakers 1)}}
+                    {{#each event.speakers}}
+                    <div class="speaker">
+                      <div class="profile-picture">
+                        {{#if img}}
+                        <img decoding="async" alt="{{name}}" src="{{img}}" loading="lazy">
+                        {{else}}
+                        <img decoding="async" alt="" src="https://www.fiware.org/wp-content/directories/people/images/ico_user.png" loading="lazy">    
+                        {{/if}}
+                      </div>
+                      <div class="speaker-info">
+                        <div class="speaker-name">{{name}}</div>
+                        <div class="speaker-job-title">{{shortJob}}</div>
+                        <div class="speaker-company">{{company}}</div>
+                      </div>
+                    </div>
+                    {{/each}}
+                {{else}}
+                {{#if (eq event.numSpeakers 2)}}
+                    {{#each event.speakers}}
+                    <div class="speaker">
+                      <div class="profile-picture-small">
+                        {{#if img}}
+                        <img decoding="async" alt="{{name}}" src="{{img}}" loading="lazy">
+                        {{else}}
+                        <img decoding="async" alt="" src="https://www.fiware.org/wp-content/directories/people/images/ico_user.png" loading="lazy">    
+                        {{/if}}
+                      </div>
+                      <div class="speaker-info">
+                        <div class="speaker-name">{{name}}</div>
+                        <div class="speaker-job-title">{{shortJob}}</div>
+                        <div class="speaker-company">{{company}}</div>
+                      </div>
+                    </div>
+                    {{/each}}
+                {{else}}
+                {{#if (eq event.numSpeakers 3)}}
+                    {{#each event.speakers}}
+                    <div class="speaker">
+                      <div class="speaker-info">
+                        <div class="speaker-name">{{name}}</div>
+                        <div class="speaker-job-title">{{shortJob}}</div>
+                        <div class="speaker-company">{{company}}</div>
+                      </div>
+                    </div>
+                    {{/each}}
+                {{else}}
+                    {{#each event.speakers}}
+                    <div class="speaker">
+                      <div class="speaker-info-small">
+                        <div class="speaker-name">{{name}}</div>
+                      </div>
+                    </div>
+                    {{/each}}
+                {{/if}}
+                {{/if}}
+                {{/if}}
+
+            </div>
         </div>
         <div class="panel-info">
           <div class="date-time">
-              <span class="date">{{shortDate}}</span>
+              <span class="date">{{event.shortDate}}</span>
               <span class="separator-dot"> • </span>
-              <span class="time">{{start}} – {{end}}</span>
+              <span class="time">{{event.start}} – {{event.end}}</span>
               <span class="separator-dot"> • </span>
-              <span class="place">{{location}}</span>
+              <span class="place">{{event.location}}</span>
            </div>
            <div class="venue">
               <span>Mostra D’Oltremare, Naples, Italy</span>
