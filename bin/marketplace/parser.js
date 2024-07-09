@@ -259,33 +259,35 @@ function findProduct(hash, category) {
         : null;
 }
 
-function createSocialMedia(products, dir, category){
-    _.each(products, (product, key) =>{
+function createSocialMedia(products, dir, category) {
+    _.each(products, (product, key) => {
         const filename = path.join(
-                Template.createClass(product.organisationName).normalize("NFD").replace(/[\u0300-\u036f]/g, ""),
-                Template.createClass(product.productName).normalize("NFD").replace(/[\u0300-\u036f]/g, ""));
-        
+            Template.createClass(product.organisationName)
+                .normalize('NFD')
+                .replace(/[\u0300-\u036f]/g, ''),
+            Template.createClass(product.productName)
+                .normalize('NFD')
+                .replace(/[\u0300-\u036f]/g, '')
+        );
+
         product.hash = Parser.getHash(product.organisationName, product.productName);
         product.cat = category;
-        product.social= path.join('/', dir, `/${filename}.html`);
-
+        product.social = path.join('/', dir, `/${filename}.html`);
 
         Template.write(
             path.join('marketplace', dir, `${filename}.html`),
             path.join(TEMPLATE_PATH, 'social-media.hbs'),
-        product);
+            product
+        );
         Prettier.format(path.join('marketplace', dir, `/${filename}.html`), { parser: 'html' });
-
     });
 
     Template.write(
-            path.join('marketplace', dir, `sitemap.html`),
-            path.join(TEMPLATE_PATH, 'sitemap-html.hbs'),
-        products);
-    Template.write(
-            path.join('marketplace', dir, `sitemap.xml`),
-            path.join(TEMPLATE_PATH, 'sitemap-xml.hbs'),
-        products);
+        path.join('marketplace', dir, `sitemap.html`),
+        path.join(TEMPLATE_PATH, 'sitemap-html.hbs'),
+        products
+    );
+    Template.write(path.join('marketplace', dir, `sitemap.xml`), path.join(TEMPLATE_PATH, 'sitemap-xml.hbs'), products);
 }
 
 /**
@@ -319,7 +321,7 @@ function parse(detailsFile, summaryFile, processRun) {
                     if (summaryInfo.powered.length === 0) {
                         console.error('ERROR: No Products Generated.');
                         process.exit(1);
-                    } 
+                    }
                     if (summaryInfo.ready.length === 0) {
                         console.error('ERROR: No Devices Generated.');
                         process.exit(1);
@@ -333,14 +335,13 @@ function parse(detailsFile, summaryFile, processRun) {
                         process.exit(1);
                     }
 
-
                     if (fs.existsSync('marketplace')) {
-                        Template.cleanDir('marketplace/powered-by-fiware/')
-                        Template.cleanDir('marketplace/fiware-ready/')
-                        Template.cleanDir('marketplace/support-services/')
-                        Template.cleanDir('marketplace/cities4cities')
+                        Template.cleanDir('marketplace/powered-by-fiware/');
+                        Template.cleanDir('marketplace/fiware-ready/');
+                        Template.cleanDir('marketplace/support-services/');
+                        Template.cleanDir('marketplace/cities4cities');
                         //fs.rmSync('marketplace', { recursive: true });
-                    } 
+                    }
 
                     Template.write(
                         'marketplace/powered-by-fiware/pageData.js',
@@ -349,36 +350,35 @@ function parse(detailsFile, summaryFile, processRun) {
                     );
                     Prettier.format('marketplace/powered-by-fiware/pageData.js', { parser: 'flow' });
                     console.log('');
-                    createSocialMedia(allProducts.details.powered, 'powered-by-fiware/', 'powered');  
+                    createSocialMedia(allProducts.details.powered, 'powered-by-fiware/', 'powered');
                     console.log(summaryInfo.powered.length + ' Products');
-                
+
                     Template.write(
                         'marketplace/fiware-ready/pageData.js',
                         path.join(TEMPLATE_PATH, 'modal.hbs'),
                         summaryInfo.ready
                     );
                     Prettier.format('marketplace/fiware-ready/pageData.js', { parser: 'flow' });
-                    createSocialMedia(allProducts.details.ready, 'fiware-ready/', 'ready');  
+                    createSocialMedia(allProducts.details.ready, 'fiware-ready/', 'ready');
                     console.log(summaryInfo.ready.length + ' Devices');
-                
+
                     Template.write(
                         'marketplace/support-services/pageData.js',
                         path.join(TEMPLATE_PATH, 'modal.hbs'),
                         summaryInfo.services
                     );
                     Prettier.format('marketplace/support-services/pageData.js', { parser: 'flow' });
-                    createSocialMedia(allProducts.details.services, 'support-services/', 'services');   
+                    createSocialMedia(allProducts.details.services, 'support-services/', 'services');
                     console.log(summaryInfo.services.length + ' Services');
-               
+
                     Template.write(
                         'marketplace/cities4cities/pageData.js',
                         path.join(TEMPLATE_PATH, 'modal.hbs'),
                         summaryInfo.cities
                     );
                     Prettier.format('marketplace/cities4cities/pageData.js', { parser: 'flow' });
-                    createSocialMedia(allProducts.details.cities, 'cities4cities/', 'cities');  
+                    createSocialMedia(allProducts.details.cities, 'cities4cities/', 'cities');
                     console.log(summaryInfo.cities.length + ' Cities');
-                   
 
                     Template.write(
                         'marketplace/product-details/pageData.js',
@@ -386,9 +386,6 @@ function parse(detailsFile, summaryFile, processRun) {
                         productDetails.details
                     );
                     Prettier.format('marketplace/product-details/pageData.js', { parser: 'flow' });
-
-
-
 
                     const featured = extractFeatured(summaryInfo);
                     Template.write(

@@ -2,7 +2,7 @@ const Handlebars = require('handlebars');
 const path = require('path');
 const fs = require('fs-extra');
 const _ = require('underscore');
-
+const nodeHtmlToImage = require('node-html-to-image');
 
 const notFound = `<!doctype html>
 <html lang="en-US">
@@ -12,6 +12,15 @@ const notFound = `<!doctype html>
 </head>
 <body/>
 </html>`;
+
+
+const font2base64 = require('node-font2base64')
+const font = {
+    regular: font2base64.encodeToDataUrlSync(path.join (__dirname, '../fonts/Montserrat-Regular.ttf')),
+    bold:font2base64.encodeToDataUrlSync(path.join (__dirname, '../fonts/Montserrat-Bold.ttf')),
+    italic: font2base64.encodeToDataUrlSync(path.join (__dirname, '../fonts/Montserrat-Italic.ttf'))
+}
+
 
 /**
  *  Take a raw dump of an Object as JSON
@@ -50,6 +59,32 @@ function createClass(data) {
     return result;
 }
 
+function createTrack(data) {
+    let result = '';
+
+    switch (data) {
+        case 'Tech & Trends':
+            result = 'light-green';
+            break;
+        case 'Tech Training':
+            result = 'light-green';
+            break;
+        case 'Innovation with FIWARE':
+            result = 'light-blue';
+            break;
+        case 'Grand Opening':
+            result = 'light-blue';
+            break;
+        case 'Hands-On Use Cases':
+            result = 'light-yellow';
+            break;
+        default:
+            break;
+    }
+
+    return result;
+}
+
 /**
  * Add multiple Isotope usable CSS classes for an
  * input array
@@ -61,7 +96,7 @@ function createClasses(data) {
 }
 
 function formatDate(data) {
-    const date = new Date(data)
+    const date = new Date(data);
     return date.toDateString().substring(3);
 }
 
@@ -98,6 +133,7 @@ function math(lvalue, operator, rvalue) {
     }[operator];
 }
 
+Handlebars.registerHelper('createTrack', createTrack);
 Handlebars.registerHelper('createClasses', createClasses);
 Handlebars.registerHelper('createClass', createClass);
 Handlebars.registerHelper('createAnchor', createAnchor);
@@ -145,22 +181,23 @@ function write(filename, template, input) {
 
 function clean(dir) {
     if (fs.existsSync(dir)) {
-        const files = fs.readdirSync(dir).filter(el => path.extname(el) === '.html')
-        files.forEach(file => {
+        const files = fs.readdirSync(dir).filter((el) => path.extname(el) === '.html');
+        files.forEach((file) => {
             //fs.unlinkSync( path.join(dir , file));
-            fs.writeFileSync( path.join(dir, file), notFound);
+            fs.writeFileSync(path.join(dir, file), notFound);
         });
     }
-} 
+}
 
 function cleanDir(dir) {
-   function listDirectories(dir) {
-      return fs.readdirSync(dir, {withFileTypes: true})
-        .filter(dirent => dirent.isDirectory())
-        .map(dirent => dirent.name);
+    function listDirectories(dir) {
+        return fs
+            .readdirSync(dir, { withFileTypes: true })
+            .filter((dirent) => dirent.isDirectory())
+            .map((dirent) => dirent.name);
     }
 
-    listDirectories(dir).forEach(subdir => {
+    listDirectories(dir).forEach((subdir) => {
         clean(path.join(dir, subdir));
     });
 }
@@ -173,7 +210,26 @@ function readTemplate(template, callback) {
     fs.readFile(filePath, { encoding: 'utf-8' }, callback);
 }
 
+
+ function createSocialMediaImages(content, template) {
+
+
+
+    
+    readTemplate(template, async function (err, data) {
+        if (!err) {
+            console.log('Generating Images');
+            await nodeHtmlToImage({content, html: data})
+            } else {
+                console.log(err);
+            }
+    });
+}
+
+exports.font = font
 exports.write = write;
 exports.clean = clean;
 exports.cleanDir = cleanDir;
 exports.createClass = createClass;
+exports.createTrack = createTrack;
+exports.createSocialMediaImages = createSocialMediaImages;

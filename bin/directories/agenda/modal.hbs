@@ -1,0 +1,38 @@
+var tracks = [
+{{#each tracks}}
+    {{#if (ne this '')}}
+        '{{this}}',
+    {{/if}}
+{{/each}}
+];
+var summitDates = [
+{{#each summitDates}}
+    {{#if (ne this '')}}
+        '{{createClass this}}',
+    {{/if}}
+{{/each}}
+];
+var sessions = [
+{{#each sessions}}
+    {{#if (ne this '')}}
+        '{{this}}',
+    {{/if}}
+{{/each}}
+]; 
+var speakers = [
+{{#each speakers}}
+    {{#if (ne this '')}}
+        '{{this}}',
+    {{/if}}
+{{/each}}
+]; 
+var modalData = {
+{{#each people}}
+    {{#if img}}
+    "{{createClass name}}":
+        { name: "{{title}}{{name}}", img: "{{img}}", position: "{{job}}", company: "{{company}}{{companyType}}", "company-link": "{{website}}",
+        content: "{{bio}}", linkedin: "{{linkedIn}}", twitter: "{{twitter}}", domain: "{{domain}}", location: "{{country}}",
+        flag: "{{flag}}", },
+    {{/if}}
+{{/each}}
+};

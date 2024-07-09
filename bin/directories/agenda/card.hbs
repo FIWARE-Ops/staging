@@ -1,0 +1,47 @@
+{{#each this}}
+
+
+<div class='grid-item {{createClass track}} {{createClass session}}{{#each speakers}} {{createClass name}}{{/each}} {{createClass shortDate}}'>
+    <div class="gridElementTextContainer">
+      <a href="./program?id={{createClass title}}">
+        <div class="chip-track">
+          <div class="track">{{track}}</div>
+        </div>
+        <p class="panel-title">{{title}}</p> 
+        <span class="excerpt">{{session}}</span>
+        <div class="panel-info">
+          <div class="date-time">
+            <h3 class="date">{{shortDate}}</h3>
+            <span class="separator-dot"></span>
+            <span class="time">{{start}} – {{end}}</span>
+          </div>
+          <span class="separator-dot"></span>
+          <span class="place">{{location}}</span>
+        </div>
+      </a>
+    </div>
+    <div class="speakers-container">
+      <div class="speakers">
+        {{#each speakers}}
+        <div class="speaker" {{#if shortJob}}data-modal='{{createClass name}}'{{/if}}>
+          <div class="profile-picture">
+            {{#if img}}
+            <img decoding="async" alt="{{name}}" src="{{img}}" loading="lazy">
+            {{else}}
+            <img decoding="async" alt="" src="https://www.fiware.org/wp-content/directories/people/images/ico_user.png" loading="lazy">    
+            {{/if}}
+          </div>
+          <div class="speaker-info">
+            <div class="speaker-name">{{name}}</div>
+            <div class="speaker-job-title">{{shortJob}}</div>
+            <div class="speaker-company">{{company}}</div>
+            <div class="btn-icon">
+      				<span class="material-symbols-outlined icon cta small">trending_flat</span>
+    				</div>
+          </div>
+        </div>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+{{/each}}
