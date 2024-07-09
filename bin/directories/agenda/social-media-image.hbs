@@ -129,12 +129,16 @@
       border-radius: 110px;
     }
     .profile-picture-small {
+      width: 100%;
+      align-items: center;
+    }
+    .profile-picture-small img {
+      margin: auto;
       width: 130px;
       min-width: 130px;
       max-width: 130px;
       height: 130px;
-    }
-    .profile-picture-small img {
+      display: block;
       width: 100%;
       border-radius: 80px;
     }
@@ -280,7 +284,7 @@
       <div class="speakers">
         <div class="grid-container">
         {{#each event.speakers}}
-          <div class="speaker">
+          <div class="speaker2">
             <div class="profile-picture-small">
               {{#if img}}
               <img decoding="async" alt="{{name}}" src="{{img}}" loading="lazy">
@@ -304,13 +308,13 @@
       <div class="speakers">
         <div class="grid-container">
         {{#each event.speakers}}
-          <div class="speaker">
+          <div class="speaker3">
             <div class="profile-picture-small">
-            {{#if img}}
-            <img decoding="async" alt="{{name}}" src="{{img}}" loading="lazy">
-            {{else}}
-            <img decoding="async" alt="" src="https://www.fiware.org/wp-content/directories/people/images/ico_user.png" loading="lazy">    
-            {{/if}}
+              {{#if img}}
+              <img decoding="async" alt="{{name}}" src="{{img}}" loading="lazy">
+              {{else}}
+              <img decoding="async" alt="" src="https://www.fiware.org/wp-content/directories/people/images/ico_user.png" loading="lazy">    
+              {{/if}}
             </div>
             <div class="speaker-info">
               <div class="speaker-name">{{name}}</div>
