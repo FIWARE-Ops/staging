@@ -1,236 +1,405 @@
 
  <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <style>
+    @font-face {
+    font-family: 'Montserrat';
+    src: url("{{{font.light}}}") format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    }
+    @font-face {
+    font-family: 'Montserrat';
+    src: url("{{{font.regular}}}") format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    }
+    @font-face {
+    font-family: 'Montserrat';
+    src: url("{{{font.medium}}}") format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    }
+    @font-face {
+    font-family: 'Montserrat';
+    src: url("{{{font.semibold}}}") format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    }
+    @font-face {
+    font-family: 'Montserrat';
+    src: url("{{{font.bold}}}") format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    }
+    @font-face {
+    font-family: 'Montserrat';
+    src: url("{{{font.italic}}}") format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    }
+    @font-face {
+    font-family: 'Montserrat';
+    src: url("{{{font.light}}}") format('woff2');
+    font-weight: 300;
+    }
+    @font-face {
+    font-family: 'Montserrat';
+    src: url("{{{font.medium}}}") format('woff2');
+    font-weight: 500;
+    }
+    @font-face {
+    font-family: 'Montserrat';
+    src: url("{{{font.semibold}}}") format('woff2');
+    font-weight: 600;
+    }
+  </style>
     <style>
-      @font-face {
-        font-family: 'Montserrat';
-        src: url("{{{font.regular}}}") format('woff2');
-        font-weight: normal;
-        font-style: normal;
-      }
-      @font-face {
-        font-family: 'Montserrat';
-        src: url("{{{font.bold}}}") format('woff2');
-        font-weight: bold;
-        font-style: normal;
-      }
-      @font-face {
-        font-family: 'Montserrat';
-        src: url("{{{font.italic}}}") format('woff2');
-        font-weight: normal;
-        font-style: italic;
-      }
+    body {
+      width: 1200px;
+      height: 627px;
+      background-image: url("https://fiware-ops.github.io/fiwaremarketplace/directories/agenda/program/summit.png");
+      font-family: Montserrat, Sans-serif;
+    }
+        @font-face {
+      font-family: 'Montserrat';
+      src: url("{{{font.regular}}}") format('woff2');
+      font-weight: normal;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: 'Montserrat';
+      src: url("{{{font.bold}}}") format('woff2');
+      font-weight: bold;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: 'Montserrat';
+      src: url("{{{font.italic}}}") format('woff2');
+      font-weight: normal;
+      font-style: italic;
+    }
+    body {
+      width: 1200px;
+      height: 627px;
+      margin: 0;
+      background-image: url("https://fiware-ops.github.io/fiwaremarketplace/directories/agenda/program/summit.png");
+      background-repeat: no-repeat;
+      background-position: top 0 left 0;
+      font-family: Montserrat, Sans-serif;
+    }
+    .track {
+      font-weight: 500;
+      border-radius: 25px;
+      padding: 6px 12px;
+      position: absolute;
+      top: 75px;
+      left: 433px;
+      border: solid 1px #000000;
+      background-color: #ffffff;
+    }
+    .panel-title {
+      position: absolute;
+      top: 125px;
+      left: 433px;
+      width: 690px;
+    }
+    .title {
+      font-size: 32px;
+      line-height: 40px;
+      font-weight: 700;
+      color: #000000;
+    }
+    .subtitle {
+      margin-top: 5px;
+      font-size: 26px;
+      line-height: 1.3em;
+      font-weight: 500;
+      color: #4c4c4c;
+    }
+    .panel-info {
+      position: absolute;
+      top: 257px;
+      left: 50px;
+      width: 300px;
+      font-size: 24px;
+      line-height: 34px;
+      font-weight: 500;
+      color: white;
+    }
+    .track.light-blue {
+      background-color: #cce0f0;
+      color: #005fb9;
+      border-color: #005fb9;
+    }
+
+    .track.light-yellow {
+      background-color: #f3f3de;
+      color: #5c5c00;
+      border-color: #5c5c00;
+    }
+
+    .track.light-green {
+      background-color: #b8e5d7;
+      color: #1b493a;
+      border-color: #1b493a;
+    }
+    .panel-speakers {
+      width: 690px;
+      position: absolute;
+      top: 320px;
+      left: 433px;
+    }
+    .panel-speakers.more {
+      top: 300px;
+    }
+    .profile-picture {
+      width: 200px;
+      min-width: 200px;
+      max-width: 200px;
+      height: 200px;
+    }
+    .profile-picture img {
+      width: 100%;
+      border-radius: 110px;
+    }
+    .profile-picture-small {
+      width: 100%;
+      align-items: center;
+    }
+    .profile-picture-small img {
+      margin: auto;
+      width: 130px;
+      min-width: 130px;
+      max-width: 130px;
+      height: 130px;
+      display: block;
+      width: 100%;
+      border-radius: 80px;
+    }
+    .speakers {
+      display: flex;
+      flex-direction: row;
+      gap: 50px;
+    }
+    .speakers.more {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: auto;
+      gap: 10px;
+    }
+    .speaker {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    .speaker-info {
+      margin-left: 20px;
+    }
+    .speakers.more .speaker-info {
+      margin-left: 0;
+    }
+    .grid-container .speaker-info {
+      margin-left: 0px;
+      padding-top: 0px;
+      text-align: center;
+    }
+    .speaker-info-small{
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+    .speaker-name {
+      font-size: 28px;
+      line-height: 40px;
+      font-weight: 700;
+      color: #000000;
+      padding: 0;
+      margin-bottom: 5px;
+    }
+    .grid-container .speaker-name {
+      font-size: 20px;
+      line-height: 32px;
+      font-weight: 600;
+      color: #000000;
+      padding: 0;
+      margin-bottom: 5px;
+    }
+    .speakers.more .speaker-name {
+      font-size: 18px;
+      line-height: 24px;
+      font-weight: 600;
+      color: #000000;
+      padding: 0;
+      margin-bottom: 0;
+    }
+    .speaker-job-title {
+      font-size: 28px;
+      line-height: 36px;
+      font-weight: 400;
+      color: #696969;
+      padding: 0;
+      margin-bottom: 5px;
+    }
+    .grid-container .speaker-job-title {
+      font-size: 20px;
+      line-height: 28px;
+      font-weight: 500;
+      color: #696969;
+      padding: 0;
+      margin-bottom: 0;
+    }
+    .speakers.more .speaker-job-title {
+      font-size: 16px;
+      line-height: 20px;
+      font-weight: 400;
+      color: #696969;
+      padding: 0;
+      margin-bottom: 0;
+    }
+    .speaker-company {
+      font-size: 24px;
+      line-height: 32px;
+      font-weight: 400;
+      color: #696969;
+      padding: 0;
+    }
+    .grid-container .speaker-company {
+      font-size: 16px;
+      line-height: 20px;
+      font-weight: 400;
+      color: #696969;
+      padding: 0;
+    }
+    .speakers.more .speaker-company {
+      font-size: 18px;
+      line-height: 24px;
+      font-weight: 500;
+      color: #696969;
+      padding: 0;
+    }
+    .grid-container {
+      display: grid;
+      grid-auto-columns: minmax(0, 1fr);
+      grid-auto-flow: column;
+      align-items: center;
+      gap: 5px;
+    }
     </style>
-      <style>
-        body {
-          width: 1200px;
-          height: 627px;
-          background-image: url("https://fiware-ops.github.io/fiwaremarketplace/directories/agenda/program/summit.png");
-          font-family: Montserrat, Sans-serif;
-        }
-        .track {
-            border-radius: 25px;
-            padding: 6px 12px;
-            position: absolute;
-            top: 138px;
-            left: 140px;
-            border: solid 1px #000000;
-            background-color: #ffffff;
-        }
-        .panel-title {
-            position: absolute;
-            top: 200px;
-            left: 140px;
-            width: 700px;
-            color: white;
-        }
-        .title {
-            font-size: 36px;
-            line-height: 1.2em;
-            font-weight: 700;
-            color: white;
-        }
-        .subtitle {
-            margin-top: 10px;
-            font-size: 24px;
-            line-height: 1.3em;
-            font-weight: 500;
-            color: white;
-        }
-        .panel-info {
-            position: absolute;
-            top: 452px;
-            left: 140px;
-            width: 800px;
-            font-size: 20px;
-            color: white;
-        }
-        .date-time {
-            margin-bottom: 10px;
-        }
-        .date {
-            font-weight: 700;
-        }
-        .venue {
-            margin-bottom: 10px;
-            font-weight: 600;
-        }
-        .track.light-blue {
-            background-color: #cce0f0;
-            color: #005fb9;
-            border-color: #005fb9;
-        }
-
-        .track.light-yellow {
-            background-color: #f3f3de;
-            color: #5c5c00;
-            border-color: #5c5c00;
-        }
-
-        .track.light-green {
-            background-color: #b8e5d7;
-            color: #1b493a;
-            border-color: #1b493a;
-        }
-        .panel-speakers {
-            position: absolute;
-            top: 200px;
-            left: 880px;
-            width: 240px;
-            color: white;
-
-        }
-        .profile-picture {
-            width: 160px;
-            min-width: 160px;
-            max-width: 160px;
-            height: 160px;
-        }
-
-        .profile-picture img {
-            height: 160px;
-            width: 160px;
-            border-radius: 40px;
-            border: 2px solid #cce0f0;
-        }
-
-        .profile-picture-small {
-            padding-top: 5px;
-            width: 80px;
-            min-width: 80px;
-            max-width: 80px;
-            height: 80px;
-        }
-
-        .profile-picture-small img {
-            height: 80px;
-            width: 80px;
-            border-radius: 20px;
-            border: 2px solid #cce0f0;
-        }
-        .speaker-info{
-            padding-top: 20px;
-            padding-bottom: 20px;
-        }
-        .speaker-info-small{
-            padding-top: 5px;
-            padding-bottom: 5px;
-        }
-        .grid-container {
-            display: grid;
-            padding-bottom: 20px;
-            grid-template-columns: 1fr 1fr;
-            grid-gap: 10px;
-        }
-        .grid-container .speaker-info{
-            padding-top: 0px;
-        }
-        
-      </style>
-    </head>
-    <body>
-        <div class="track {{event.trackColor}}">{{event.track}}</div>
-        <div class="panel-title">
-            <div class="title">{{event.title}}</div>
-            <div class="subtitle">{{event.session}}</div>
+  </head>
+  <body>
+    <div class="track {{event.trackColor}}">{{event.track}}</div>
+    <div class="panel-title">
+      <div class="title">{{event.title}}</div>
+      <div class="subtitle">{{event.session}}</div>
+    </div>
+    {{#if (eq event.numSpeakers 1)}}
+    <div class="panel-speakers">
+      <div class="speakers">
+        {{#each event.speakers}}
+        <div class="speaker">
+          <div class="profile-picture">
+            {{#if img}}
+            <img decoding="async" alt="{{name}}" src="{{img}}" loading="lazy">
+            {{else}}
+            <img decoding="async" alt="" src="https://www.fiware.org/wp-content/directories/people/images/ico_user.png" loading="lazy">    
+            {{/if}}
+          </div>
+          <div class="speaker-info">
+            <div class="speaker-name">{{name}}</div>
+            <div class="speaker-job-title">{{shortJob}}</div>
+            <div class="speaker-company">{{company}}</div>
+          </div>
         </div>
-        <div class="panel-speakers">
-            <div class="speakers">
-                {{#if (eq event.numSpeakers 1)}}
-                    {{#each event.speakers}}
-                    <div class="speaker">
-                      <div class="profile-picture">
-                        {{#if img}}
-                        <img decoding="async" alt="{{name}}" src="{{img}}" loading="lazy">
-                        {{else}}
-                        <img decoding="async" alt="" src="https://www.fiware.org/wp-content/directories/people/images/ico_user.png" loading="lazy">    
-                        {{/if}}
-                      </div>
-                      <div class="speaker-info">
-                        <div class="speaker-name">{{name}}</div>
-                        <div class="speaker-job-title">{{shortJob}}</div>
-                        <div class="speaker-company">{{company}}</div>
-                      </div>
-                    </div>
-                    {{/each}}
-                {{else}}
-                {{#if (eq event.numSpeakers 2)}}
-                    {{#each event.speakers}}
-                    <div class="speaker">
-                      <div class="grid-container">
-                          <div class="profile-picture-small">
-                            {{#if img}}
-                            <img decoding="async" alt="{{name}}" src="{{img}}" loading="lazy">
-                            {{else}}
-                            <img decoding="async" alt="" src="https://www.fiware.org/wp-content/directories/people/images/ico_user.png" loading="lazy">    
-                            {{/if}}
-                          </div>
-                          <div class="speaker-info">
-                            <div class="speaker-name">{{name}}</div>
-                            <div class="speaker-job-title">{{shortJob}}</div>
-                            <div class="speaker-company">{{company}}</div>
-                          </div>
-                      </div>
-                    </div>
-                    {{/each}}
-                {{else}}
-                {{#if (eq event.numSpeakers 3)}}
-                    {{#each event.speakers}}
-                    <div class="speaker">
-                      <div class="speaker-info">
-                        <div class="speaker-name">{{name}}</div>
-                        <div class="speaker-job-title">{{shortJob}}</div>
-                        <div class="speaker-company">{{company}}</div>
-                      </div>
-                    </div>
-                    {{/each}}
-                {{else}}
-                    {{#each event.speakers}}
-                    <div class="speaker">
-                      <div class="speaker-info-small">
-                        <div class="speaker-name">{{name}}</div>
-                      </div>
-                    </div>
-                    {{/each}}
-                {{/if}}
-                {{/if}}
-                {{/if}}
-
+        {{/each}}
+      </div>
+    </div>
+    {{else}}
+    {{#if (eq event.numSpeakers 2)}}
+    <div class="panel-speakers">
+      <div class="speakers">
+        <div class="grid-container">
+        {{#each event.speakers}}
+          <div class="speaker2">
+            <div class="profile-picture-small">
+              {{#if img}}
+              <img decoding="async" alt="{{name}}" src="{{img}}" loading="lazy">
+              {{else}}
+              <img decoding="async" alt="" src="https://www.fiware.org/wp-content/directories/people/images/ico_user.png" loading="lazy">    
+              {{/if}}
             </div>
+            <div class="speaker-info">
+              <div class="speaker-name">{{name}}</div>
+              <div class="speaker-job-title">{{shortJob}}</div>
+              <div class="speaker-company">{{company}}</div>
+            </div>
+          </div>
+          {{/each}}
         </div>
-        <div class="panel-info">
-          <div class="date-time">
-              <span class="date">{{event.shortDate}}</span>
-              <span class="separator-dot"> • </span>
-              <span class="time">{{event.start}} – {{event.end}}</span>
-              <span class="separator-dot"> • </span>
-              <span class="place">{{event.location}}</span>
-           </div>
-           <div class="venue">
-              <span>Mostra D’Oltremare, Naples, Italy</span>
-           </div>
-           <div>
-                <i>#FIWARESummit{{year}}</i>
-           </div>
+      </div>
+    </div>
+    {{else}}
+    {{#if (eq event.numSpeakers 3)}}
+    <div class="panel-speakers">
+      <div class="speakers">
+        <div class="grid-container">
+        {{#each event.speakers}}
+          <div class="speaker3">
+            <div class="profile-picture-small">
+              {{#if img}}
+              <img decoding="async" alt="{{name}}" src="{{img}}" loading="lazy">
+              {{else}}
+              <img decoding="async" alt="" src="https://www.fiware.org/wp-content/directories/people/images/ico_user.png" loading="lazy">    
+              {{/if}}
+            </div>
+            <div class="speaker-info">
+              <div class="speaker-name">{{name}}</div>
+              <div class="speaker-job-title">{{shortJob}}</div>
+              <div class="speaker-company">{{company}}</div>
+            </div>
+          </div>
+        {{/each}}
         </div>
+      </div>
+    </div>
+    {{else}}
+    {{#if (lt event.numSpeakers 7)}}
+    <div class="panel-speakers more">
+      <div class="speakers more">
+        {{#each event.speakers}}
+        <div class="speaker">
+          <div class="speaker-info-small">
+            <div class="speaker-name">{{name}}</div>
+            <div class="speaker-job-title">{{shortJob}}</div>
+            <div class="speaker-company">{{company}}</div>
+          </div>
+        </div>
+      {{/each}}
+      </div>
+    </div>
+    {{else}}
+    <div class="panel-speakers more">
+      <div class="speakers more">
+        {{#each event.speakers}}
+        <div class="speaker">
+          <div class="speaker-info-small">
+            <div class="speaker-name">{{name}}</div>
+            <div class="speaker-company">{{company}}</div>
+          </div>
+        </div>
+      {{/each}}
+      </div>
+    </div>
+    {{/if}}
+    {{/if}}
+    {{/if}}
+    {{/if}}
+    <div class="panel-info">
+      <div class="date-time">
+        <span class="date">{{event.shortDate}}</span>
+        <br/>
+        <span class="time">{{event.start}} – {{event.end}}</span>
+        <br/>
+        <span class="place">{{event.location}}</span>
+       </div>
+    </div>
 
-    </body></html>
+  </body></html>

@@ -18,7 +18,10 @@ const font2base64 = require('node-font2base64')
 const font = {
     regular: font2base64.encodeToDataUrlSync(path.join (__dirname, '../fonts/Montserrat-Regular.ttf')),
     bold:font2base64.encodeToDataUrlSync(path.join (__dirname, '../fonts/Montserrat-Bold.ttf')),
-    italic: font2base64.encodeToDataUrlSync(path.join (__dirname, '../fonts/Montserrat-Italic.ttf'))
+    italic: font2base64.encodeToDataUrlSync(path.join (__dirname, '../fonts/Montserrat-Italic.ttf')),
+    light: font2base64.encodeToDataUrlSync(path.join (__dirname, '../fonts/Montserrat-Light.ttf')),
+    medium: font2base64.encodeToDataUrlSync(path.join (__dirname, '../fonts/Montserrat-Medium.ttf')),
+    semibold: font2base64.encodeToDataUrlSync(path.join (__dirname, '../fonts/Montserrat-SemiBold.ttf'))
 }
 
 
