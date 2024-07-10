@@ -12,16 +12,13 @@ var summitDates = [
 var sessions = [
         'Data Space Technology',
         'Digital Twins',
-        'Executive Leadership Welcome',
         'FISAB &amp; Universities',
-        'From Vision to Impact: a journey of transformation',
         'Innovation projects on data interoperability',
         'Innovation projects on data platforms and Data Spaces',
         'Innovation projects on green and industry digital twins',
         'NGSI-LD Basics',
         'Smart Communities &amp; Mobility',
         'Smart Energy',
-        'The new FIWARE Vision',
         'The Smart Data Models initiative',
 ]; 
 var speakers = [
