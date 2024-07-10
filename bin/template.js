@@ -70,6 +70,9 @@ function createTrack(data) {
         case 'Tech Training':
             result = 'light-green';
             break;
+        case 'Empowering co-creation of technology solutions':
+            result = 'light-green';
+            break;
         case 'Innovation with FIWARE':
             result = 'light-blue';
             break;
