@@ -73,7 +73,7 @@
   .panel-speakers {
     width: 690px;
     position: absolute;
-    top: 330px;
+    top: 310px;
     left: 433px;
   }
 
@@ -112,6 +112,7 @@
   .speakers {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     gap: 50px;
   }
 
@@ -138,7 +139,7 @@
 
   .grid-container .speaker-info {
     margin-left: 0px;
-    margin-top: 15px;
+    margin-top: 0px;
     padding-top: 0px;
     text-align: center;
   }
@@ -227,8 +228,7 @@
   }
 
   .grid-container {
-    display: grid;
-    grid-auto-columns: minmax(0, 1fr);
-    grid-auto-flow: column;
+    display: flex;
+    flex-direction: column;
     gap: 10px;
   }

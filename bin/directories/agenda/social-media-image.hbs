@@ -108,9 +108,9 @@
     {{#if (eq event.numSpeakers 2)}}
     <div class="panel-speakers">
       <div class="speakers">
-        <div class="grid-container">
         {{#each event.speakers}}
-          <div class="speaker2">
+        <div class="speaker">
+          <div class="grid-container">
             <div class="profile-picture-small">
               {{#if img}}
               <img decoding="async" alt="{{name}}" src="{{img}}" loading="lazy">
@@ -124,17 +124,17 @@
               <div class="speaker-company">{{company}}</div>
             </div>
           </div>
-          {{/each}}
         </div>
+        {{/each}}
       </div>
     </div>
     {{else}}
     {{#if (eq event.numSpeakers 3)}}
     <div class="panel-speakers">
       <div class="speakers">
-        <div class="grid-container">
         {{#each event.speakers}}
-          <div class="speaker3">
+        <div class="speaker">
+          <div class="grid-container">
             <div class="profile-picture-small">
               {{#if img}}
               <img decoding="async" alt="{{name}}" src="{{img}}" loading="lazy">
@@ -148,8 +148,8 @@
               <div class="speaker-company">{{company}}</div>
             </div>
           </div>
-        {{/each}}
         </div>
+        {{/each}}
       </div>
     </div>
     {{else}}
