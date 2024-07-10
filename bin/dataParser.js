@@ -13,6 +13,7 @@ function getLinkArray(fields, title, item) {
     const errors = [];
     fields.forEach((field, i) => {
         if (!item[field] || item[field] === '') {
+            /// Do nothing
         } else if (item[field].startsWith('[')) {
             const html = converter.makeHtml(item[field]);
             const dom = new jsdom.JSDOM(html);

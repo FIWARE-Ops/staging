@@ -88,7 +88,7 @@ function parse(file) {
                 webinars
             );
 
-            webinars.forEach((webinar, index) => {
+            webinars.forEach((webinar) => {
                 const filename = Template.createClass(webinar.name);
                 Template.write(
                     path.join(WEBINARS_DIR, `${filename}.html`),

@@ -91,7 +91,7 @@ function parse(file) {
                 jobs
             );
 
-            jobs.forEach((job, index) => {
+            jobs.forEach((job) => {
                 const filename = Template.createClass(job.name);
                 Template.write(
                     path.join(CAREERS_DIR, `job/${filename}.html`),

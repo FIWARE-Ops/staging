@@ -65,7 +65,7 @@ function extractcities(input) {
     console.log(cities.length, ' cities generated.');
 
     return cities.sort((a, b) => {
-        return ('' + a.country + a.city).localeCompare(b.country + b.city);
+        return (String(a.country) + String(a.city)).localeCompare(String(b.country) + String(b.city));
     });
 }
 
@@ -108,7 +108,7 @@ function parse(file) {
             Template.write(path.join(CITIES_DIR, 'sitemap.html'), path.join(TEMPLATE_PATH, 'sitemap-html.hbs'), cities);
             Template.write(path.join(CITIES_DIR, 'sitemap.xml'), path.join(TEMPLATE_PATH, 'sitemap-xml.hbs'), cities);
 
-            cities.forEach((city, index) => {
+            cities.forEach((city) => {
                 const filename = Template.createClass(city.type) + '/' + Template.createClass(city.city);
                 Template.write(
                     path.join(CITIES_DIR, `${filename}.html`),

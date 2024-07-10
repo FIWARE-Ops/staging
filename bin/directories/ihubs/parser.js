@@ -48,7 +48,7 @@ function extractIHubs(input) {
     console.log(iHubs.length, ' iHubs generated.');
 
     return iHubs.sort((a, b) => {
-        return ('' + a.name).localeCompare(b.name);
+        return String(a.name).localeCompare(b.name);
     });
 }
 

@@ -75,7 +75,7 @@ function extractProjects(input) {
     console.log(projects.length, ' projects generated.');
 
     return projects.sort((a, b) => {
-        return ('' + a.name.toLowerCase()).localeCompare(b.name.toLowerCase());
+        return String(a.name.toLowerCase()).localeCompare(b.name.toLowerCase());
     });
 }
 
@@ -132,7 +132,7 @@ function parse(file) {
                 projects
             );
 
-            projects.forEach((project, index) => {
+            projects.forEach((project) => {
                 const filename = Template.createClass(project.name);
                 Template.write(
                     path.join(RESEARCH_DEVELOPMENT_DIR, `project/${filename}.html`),

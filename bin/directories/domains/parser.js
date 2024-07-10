@@ -4,12 +4,11 @@ const _ = require('underscore');
 
 const Prettier = require('prettier');
 const Parser = require('../../dataParser');
-const Sorter = require('../../sort');
 const Template = require('../../template');
 const TEMPLATE_PATH = 'bin/directories/domains/';
 const DOMAINS_DIR = 'directories/domains';
 
-const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/domains/images/impact-story-default.png';
+//const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/domains/images/impact-story-default.png';
 
 const regex = /([^a-zA-Z0-9À-ÿ])/gi;
 

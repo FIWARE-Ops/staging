@@ -39,8 +39,8 @@ function extractOrganisations(input) {
     console.log(organisations.length, ' organisations generated.');
 
     return organisations.sort((a, b) => {
-        let aName = '' + a.name.replace(regex, '');
-        let bName = b.name.replace(regex, '');
+        let aName = String(a.name).replace(regex, '');
+        let bName = String(b.name).replace(regex, '');
 
         if (a.type === 'Platinum') {
             aName = '000-' + aName;
@@ -63,7 +63,7 @@ function extractOrganisations(input) {
             bName = '002-' + bName;
         }
 
-        return aName.toLowerCase().localeCompare(bName.toLowerCase());
+        return String(aName.toLowerCase()).localeCompare(bName.toLowerCase());
     });
 }
 
