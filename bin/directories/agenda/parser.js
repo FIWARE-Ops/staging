@@ -105,6 +105,12 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
 function parse(agendaFile, speakersFile) {
     const activeSpeakers = [];
     const eventDates = [];
+    const style = {
+        one: Template.readCSS('agenda' , 'one'),
+        two: Template.readCSS('agenda' , 'two'),
+        three: Template.readCSS('agenda' , 'three'),
+        many: Template.readCSS('agenda' , 'many')
+    };
 
     csv()
         .fromFile(speakersFile)
@@ -179,7 +185,8 @@ function parse(agendaFile, speakersFile) {
                             output: path.join(AGENDA_DIR, `program/${filename}.png`),
                             event,
                             year: CurrentYear.toString().substr(-2),
-                            font: Template.font
+                            font: Template.font,
+                            style
                         });
                     });
                     Prettier.format(path.join(AGENDA_DIR, 'agenda.html'), { parser: 'html' });

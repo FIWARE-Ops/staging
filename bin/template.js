@@ -1,3 +1,4 @@
+
 const Handlebars = require('handlebars');
 const path = require('path');
 const fs = require('fs-extra');
@@ -22,6 +23,13 @@ const font = {
     medium: font2base64.encodeToDataUrlSync(path.join(__dirname, '../fonts/Montserrat-Medium.ttf')),
     semibold: font2base64.encodeToDataUrlSync(path.join(__dirname, '../fonts/Montserrat-SemiBold.ttf'))
 };
+
+
+function readCSS( page , attr) {
+    return  fs.readFileSync(
+        path.join(__dirname, `./../css/${page}-${attr}.css`),
+        { encoding: 'utf-8' });
+}
 
 /**
  *  Take a raw dump of an Object as JSON
@@ -231,6 +239,7 @@ function createSocialMediaImages(content, template) {
 exports.font = font;
 exports.write = write;
 exports.clean = clean;
+exports.readCSS = readCSS;
 exports.cleanDir = cleanDir;
 exports.createClass = createClass;
 exports.createTrack = createTrack;
