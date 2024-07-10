@@ -81,7 +81,11 @@
     <div class="track {{event.trackColor}}">{{event.track}}</div>
     <div class="panel-title">
       <div class="title">{{event.title}}</div>
+      {{#if event.session}} 
       <div class="subtitle">{{event.session}}</div>
+      {{else}}
+      <div class="subtitle">{{event.track}}</div>
+      {{/if}}
     </div>
     {{#if (eq event.numSpeakers 1)}}
     <div class="panel-speakers">
