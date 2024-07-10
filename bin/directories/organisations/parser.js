@@ -20,11 +20,11 @@ function extractOrganisations(input) {
     const organisations = [];
     input.forEach((item) => {
         const organisation = {
-            name: item['Name'].toUpperCase(),
-            img: item['Image'] ? item['Image'] : DEFAULT_IMAGE,
-            type: item['Type'],
-            website: item['Website'],
-            publish: Parser.boolean(item['Published'])
+            name: item.Name.toUpperCase(),
+            img: item.Image ? item.Image : DEFAULT_IMAGE,
+            type: item.Type,
+            website: item.Website,
+            publish: Parser.boolean(item.Published)
         };
 
         if (organisation.publish) {
@@ -39,31 +39,31 @@ function extractOrganisations(input) {
     console.log(organisations.length, ' organisations generated.');
 
     return organisations.sort((a, b) => {
-        let aName =  '' + a.name.replace(regex, '');
-        let bName =  b.name.replace(regex, '');
+        let aName = '' + a.name.replace(regex, '');
+        let bName = b.name.replace(regex, '');
 
-        if (a.type === 'Platinum' ){
+        if (a.type === 'Platinum') {
             aName = '000-' + aName;
         }
-        if (b.type === 'Platinum' ){
+        if (b.type === 'Platinum') {
             bName = '000-' + bName;
         }
 
-        if (a.type === 'Gold' ){
+        if (a.type === 'Gold') {
             aName = '001-' + aName;
         }
-        if (b.type === 'Gold' ){
+        if (b.type === 'Gold') {
             bName = '001-' + bName;
         }
 
-        if (a.type === 'Gold SEU' ){
+        if (a.type === 'Gold SEU') {
             aName = '002-' + aName;
         }
-        if (b.type === 'Gold SEU' ){
+        if (b.type === 'Gold SEU') {
             bName = '002-' + bName;
         }
 
-        return (aName.toLowerCase()).localeCompare(bName.toLowerCase());
+        return aName.toLowerCase().localeCompare(bName.toLowerCase());
     });
 }
 
@@ -105,7 +105,6 @@ function parse(file) {
         })
         .catch((e) => {
             console.log(e);
-            return;
         });
 }
 

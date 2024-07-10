@@ -19,15 +19,15 @@ function extractOpenCalls(input) {
     const openCalls = [];
     input.forEach((item) => {
         const openCall = {
-            name: item['Name'],
-            grant: item['Grant'],
-            img: item['Image'] ? item['Image'] : DEFAULT_IMAGE,
-            domain: Parser.splitStrings(item['Target']),
+            name: item.Name,
+            grant: item.Grant,
+            img: item.Image ? item.Image : DEFAULT_IMAGE,
+            domain: Parser.splitStrings(item.Target),
             closeDate: Parser.date(item['Close Date']),
-            type: item['Type'],
-            website: item['Link'],
-            content: item['Description'],
-            publish: Parser.boolean(item['Published'])
+            type: item.Type,
+            website: item.Link,
+            content: item.Description,
+            publish: Parser.boolean(item.Published)
         };
 
         openCall.type = openCall.closeDate < today ? 'Closed' : 'Open';
@@ -44,7 +44,7 @@ function extractOpenCalls(input) {
     console.log(openCalls.length, ' open calls generated.');
 
     return openCalls.sort((a, b) => {
-        return (a.closeDate > b.closeDate.getTime());
+        return a.closeDate > b.closeDate.getTime();
     });
 }
 
@@ -65,9 +65,17 @@ function parse(file) {
                 openCalls
             };
 
-            Template.write(path.join(OPEN_CALLS_DIR, 'open-calls.html'), path.join(TEMPLATE_PATH, 'card.hbs'), openCalls);
+            Template.write(
+                path.join(OPEN_CALLS_DIR, 'open-calls.html'),
+                path.join(TEMPLATE_PATH, 'card.hbs'),
+                openCalls
+            );
             Template.write(path.join(OPEN_CALLS_DIR, 'pageData.js'), path.join(TEMPLATE_PATH, 'modal.hbs'), filterData);
-            Template.write(path.join(OPEN_CALLS_DIR, 'filters.html'), path.join(TEMPLATE_PATH, 'filter.hbs'), filterData);
+            Template.write(
+                path.join(OPEN_CALLS_DIR, 'filters.html'),
+                path.join(TEMPLATE_PATH, 'filter.hbs'),
+                filterData
+            );
 
             Prettier.format(path.join(OPEN_CALLS_DIR, 'open-calls.html'), { parser: 'html' });
             Prettier.format(path.join(OPEN_CALLS_DIR, 'pageData.js'), { parser: 'flow' });
@@ -75,7 +83,6 @@ function parse(file) {
         })
         .catch((e) => {
             console.log(e);
-            return;
         });
 }
 

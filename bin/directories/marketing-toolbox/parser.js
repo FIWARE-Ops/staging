@@ -18,14 +18,14 @@ function extractTools(input) {
     const tools = [];
     input.forEach((item) => {
         const tool = {
-            name: item['Name'],
-            img: item['Image'] ? item['Image'] : DEFAULT_IMAGE,
-            domain: Parser.splitStrings(item['Domain']),
-            type: item['Type'],
-            website: item['Link'],
-            language: item['Language'],
+            name: item.Name,
+            img: item.Image ? item.Image : DEFAULT_IMAGE,
+            domain: Parser.splitStrings(item.Domain),
+            type: item.Type,
+            website: item.Link,
+            language: item.Language,
             flag: item['Country flag'],
-            publish: Parser.boolean(item['Published'])
+            publish: Parser.boolean(item.Published)
         };
 
         if (tool.website || tool.twitter || tool.linkedIn) {
@@ -84,7 +84,6 @@ function parse(file) {
         })
         .catch((e) => {
             console.log(e);
-            return;
         });
 }
 

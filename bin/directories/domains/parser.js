@@ -21,12 +21,12 @@ function extractDomains(input) {
     const domains = {};
 
     input.forEach((item) => {
-        const domain = item['Domain'].replace(regex, '').toLowerCase();
-        const publish = Parser.boolean(item['Published']);
+        const domain = item.Domain.replace(regex, '').toLowerCase();
+        const publish = Parser.boolean(item.Published);
         const domainCard = {
-            order: item['Order'],
-            title: item['Title'],
-            description: Parser.markdown(item['Content'])
+            order: item.Order,
+            title: item.Title,
+            description: Parser.markdown(item.Content)
         };
 
         if (publish) {
@@ -41,7 +41,7 @@ function extractDomains(input) {
     }
 
     _.keys(domains).forEach((domain) => {
-        let cards = domains[domain].sort((a, b) => {
+        const cards = domains[domain].sort((a, b) => {
             return a.order - b.order;
         });
         domains[domain] = cards;
@@ -74,7 +74,6 @@ function parse(file) {
         })
         .catch((e) => {
             console.log(e);
-            return;
         });
 }
 

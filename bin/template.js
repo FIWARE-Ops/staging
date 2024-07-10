@@ -13,17 +13,15 @@ const notFound = `<!doctype html>
 <body/>
 </html>`;
 
-
-const font2base64 = require('node-font2base64')
+const font2base64 = require('node-font2base64');
 const font = {
-    regular: font2base64.encodeToDataUrlSync(path.join (__dirname, '../fonts/Montserrat-Regular.ttf')),
-    bold:font2base64.encodeToDataUrlSync(path.join (__dirname, '../fonts/Montserrat-Bold.ttf')),
-    italic: font2base64.encodeToDataUrlSync(path.join (__dirname, '../fonts/Montserrat-Italic.ttf')),
-    light: font2base64.encodeToDataUrlSync(path.join (__dirname, '../fonts/Montserrat-Light.ttf')),
-    medium: font2base64.encodeToDataUrlSync(path.join (__dirname, '../fonts/Montserrat-Medium.ttf')),
-    semibold: font2base64.encodeToDataUrlSync(path.join (__dirname, '../fonts/Montserrat-SemiBold.ttf'))
-}
-
+    regular: font2base64.encodeToDataUrlSync(path.join(__dirname, '../fonts/Montserrat-Regular.ttf')),
+    bold: font2base64.encodeToDataUrlSync(path.join(__dirname, '../fonts/Montserrat-Bold.ttf')),
+    italic: font2base64.encodeToDataUrlSync(path.join(__dirname, '../fonts/Montserrat-Italic.ttf')),
+    light: font2base64.encodeToDataUrlSync(path.join(__dirname, '../fonts/Montserrat-Light.ttf')),
+    medium: font2base64.encodeToDataUrlSync(path.join(__dirname, '../fonts/Montserrat-Medium.ttf')),
+    semibold: font2base64.encodeToDataUrlSync(path.join(__dirname, '../fonts/Montserrat-SemiBold.ttf'))
+};
 
 /**
  *  Take a raw dump of an Object as JSON
@@ -213,23 +211,18 @@ function readTemplate(template, callback) {
     fs.readFile(filePath, { encoding: 'utf-8' }, callback);
 }
 
-
- function createSocialMediaImages(content, template) {
-
-
-
-    
+function createSocialMediaImages(content, template) {
     readTemplate(template, async function (err, data) {
         if (!err) {
             console.log('Generating Images');
-            await nodeHtmlToImage({content, html: data})
-            } else {
-                console.log(err);
-            }
+            await nodeHtmlToImage({ content, html: data });
+        } else {
+            console.log(err);
+        }
     });
 }
 
-exports.font = font
+exports.font = font;
 exports.write = write;
 exports.clean = clean;
 exports.cleanDir = cleanDir;

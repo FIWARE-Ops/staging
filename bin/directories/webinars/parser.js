@@ -11,12 +11,10 @@ const WEBINARS_DIR = 'directories/webinars';
 
 const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/images/thumb-placeholder.jpg';
 
-
-
-function getExcerpt(item){
-    let text =  Parser.textOnly(item['Content']);
-    const next = text.indexOf(".", 40);
-    return text.substring(0, next +1)
+function getExcerpt(item) {
+    const text = Parser.textOnly(item.Content);
+    const next = text.indexOf('.', 40);
+    return text.substring(0, next + 1);
 }
 
 /**
@@ -27,21 +25,21 @@ function extractWebinars(input) {
     const webinars = [];
     input.forEach((item) => {
         const webinar = {
-            season: item['Season'],
-            name: item['Name'],
-            img: item['Image'] ? item['Image'] : DEFAULT_IMAGE,
-            companyLink: item['Video'],
-            domain: Parser.splitStrings(item['Audience']),
-            type: item['Type'],
+            season: item.Season,
+            name: item.Name,
+            img: item.Image ? item.Image : DEFAULT_IMAGE,
+            companyLink: item.Video,
+            domain: Parser.splitStrings(item.Audience),
+            type: item.Type,
             excerpt: getExcerpt(item),
-            badge: Static.getBadge(item['Type']),
-            chapter: Static.getChapter(item['Type']),
-            technology: Parser.splitStrings(item['Technology']),
-            year: parseInt(item['Year']),
-            difficulty: parseInt(item['Difficulty']),
-            content: Parser.markdown(item['Content']),
-            length: item['Length'],
-            publish: Parser.boolean(item['Published'])
+            badge: Static.getBadge(item.Type),
+            chapter: Static.getChapter(item.Type),
+            technology: Parser.splitStrings(item.Technology),
+            year: parseInt(item.Year),
+            difficulty: parseInt(item.Difficulty),
+            content: Parser.markdown(item.Content),
+            length: item.Length,
+            publish: Parser.boolean(item.Published)
         };
         if (webinar.publish) {
             webinars.push(webinar);
@@ -90,16 +88,15 @@ function parse(file) {
                 webinars
             );
 
-            webinars.forEach ((webinar, index) =>{
-
+            webinars.forEach((webinar, index) => {
                 const filename = Template.createClass(webinar.name);
                 Template.write(
                     path.join(WEBINARS_DIR, `${filename}.html`),
                     path.join(TEMPLATE_PATH, 'social-media.hbs'),
-                webinar);
+                    webinar
+                );
                 Prettier.format(path.join(WEBINARS_DIR, `${filename}.html`), { parser: 'html' });
             });
-
 
             Template.write(path.join(WEBINARS_DIR, 'webinars.html'), path.join(TEMPLATE_PATH, 'card.hbs'), webinars);
             Template.write(path.join(WEBINARS_DIR, 'pageData.js'), path.join(TEMPLATE_PATH, 'modal.hbs'), filterData);
@@ -109,11 +106,9 @@ function parse(file) {
             Prettier.format(path.join(WEBINARS_DIR, 'pageData.js'), { parser: 'flow' });
             Prettier.format(path.join(WEBINARS_DIR, 'filters.html'), { parser: 'html' });
             Prettier.format(path.join(WEBINARS_DIR, 'sitemap.html'), { parser: 'html' });
-     
         })
         .catch((e) => {
             console.log(e);
-            return;
         });
 }
 

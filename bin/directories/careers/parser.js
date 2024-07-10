@@ -17,29 +17,29 @@ const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/careers/ima
 function extractJobs(input) {
     const today = new Date();
 
-    let recent = new Date();
+    const recent = new Date();
     recent.setMonth(recent.getMonth() - 6);
 
     const jobs = [];
     input.forEach((item) => {
         const job = {
             name: item['Job Title'],
-            img: item['Image'] ? item['Image'] : DEFAULT_IMAGE,
+            img: item.Image ? item.Image : DEFAULT_IMAGE,
             type: item['Seniority Level'],
-            mission: item['Mission'],
-            description: Parser.markdown(item['Description']),
-            domain: Parser.splitStrings(item['Department']),
+            mission: item.Mission,
+            description: Parser.markdown(item.Description),
+            domain: Parser.splitStrings(item.Department),
             postingDate: Parser.date(item['Posting Date']),
             formId: item['Submission Form id'],
-            publish: Parser.boolean(item['Published']),
-            socialMedia: item['Banner SoMe'] ? item['Banner SoMe'] : (item['Image'] || DEFAULT_IMAGE)
+            publish: Parser.boolean(item.Published),
+            socialMedia: item['Banner SoMe'] ? item['Banner SoMe'] : item.Image || DEFAULT_IMAGE
         };
 
         job.status = job.postingDate < today ? 'Closed' : 'Open';
-        job.recent = (job.postingDate > recent);
+        job.recent = job.postingDate > recent;
 
-        const filename= Template.createClass(job.name);
-        job.social = `/job/${filename}.html`
+        const filename = Template.createClass(job.name);
+        job.social = `/job/${filename}.html`;
         if (job.publish) {
             jobs.push(job);
         }
@@ -52,7 +52,7 @@ function extractJobs(input) {
     console.log(jobs.length, ' jobs generated.');
 
     return jobs.sort((a, b) => {
-         return (a.postingDate > b.postingDate.getTime());
+        return a.postingDate > b.postingDate.getTime();
     });
 }
 
@@ -75,26 +75,10 @@ function parse(file) {
 
             Template.clean(path.join(CAREERS_DIR, '/job'));
 
-            Template.write(
-                path.join(CAREERS_DIR, 'jobs.html'),
-                path.join(TEMPLATE_PATH, 'card.hbs'),
-                jobs
-            );
-            Template.write(
-                path.join(CAREERS_DIR, 'pageData.js'),
-                path.join(TEMPLATE_PATH, 'modal.hbs'),
-                filterData
-            );
-            Template.write(
-                path.join(CAREERS_DIR, 'filters.html'),
-                path.join(TEMPLATE_PATH, 'filter.hbs'),
-                filterData
-            );
-            Template.write(
-                path.join(CAREERS_DIR, 'job/pageData.js'),
-                path.join(TEMPLATE_PATH, 'details.hbs'),
-                jobs
-            );
+            Template.write(path.join(CAREERS_DIR, 'jobs.html'), path.join(TEMPLATE_PATH, 'card.hbs'), jobs);
+            Template.write(path.join(CAREERS_DIR, 'pageData.js'), path.join(TEMPLATE_PATH, 'modal.hbs'), filterData);
+            Template.write(path.join(CAREERS_DIR, 'filters.html'), path.join(TEMPLATE_PATH, 'filter.hbs'), filterData);
+            Template.write(path.join(CAREERS_DIR, 'job/pageData.js'), path.join(TEMPLATE_PATH, 'details.hbs'), jobs);
 
             Template.write(
                 path.join(CAREERS_DIR, 'job/sitemap.html'),
@@ -107,15 +91,14 @@ function parse(file) {
                 jobs
             );
 
-            jobs.forEach ((job, index) =>{
-
-                const filename= Template.createClass(job.name);
+            jobs.forEach((job, index) => {
+                const filename = Template.createClass(job.name);
                 Template.write(
                     path.join(CAREERS_DIR, `job/${filename}.html`),
                     path.join(TEMPLATE_PATH, 'social-media.hbs'),
-                job);
+                    job
+                );
                 Prettier.format(path.join(CAREERS_DIR, `job/${filename}.html`), { parser: 'html' });
-
             });
 
             Prettier.format(path.join(CAREERS_DIR, 'jobs.html'), { parser: 'html' });
@@ -125,7 +108,6 @@ function parse(file) {
         })
         .catch((e) => {
             console.log(e);
-            return;
         });
 }
 

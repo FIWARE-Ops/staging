@@ -20,21 +20,21 @@ function extractStories(input) {
 
     input.forEach((item) => {
         const impactStory = {
-            name: item['Name'],
-            year: item['Year'],
+            name: item.Name,
+            year: item.Year,
             img: item['Featured Image'] ? item['Featured Image'] : DEFAULT_IMAGE,
-            thumbnail: item['Thumb'] ? item['Thumb'] : DEFAULT_IMAGE,
-            domain: Parser.splitStrings(item['Domain']),
-            type: item['Type'],
-            medium: item['Medium'],
-            pdf: item['PDF'],
-            website: item['Website'],
-            language: item['Language'],
+            thumbnail: item.Thumb ? item.Thumb : DEFAULT_IMAGE,
+            domain: Parser.splitStrings(item.Domain),
+            type: item.Type,
+            medium: item.Medium,
+            pdf: item.PDF,
+            website: item.Website,
+            language: item.Language,
             flag: item['Country flag'],
-            excerpt: item['Excerpt'],
-            description: item['Description'],
-            publish: Parser.boolean(item['Published']),
-            featured: Parser.boolean(item['Featured'])
+            excerpt: item.Excerpt,
+            description: item.Description,
+            publish: Parser.boolean(item.Published),
+            featured: Parser.boolean(item.Featured)
         };
 
         if (impactStory.website || impactStory.twitter || impactStory.linkedIn) {
@@ -112,7 +112,6 @@ function parse(file) {
         })
         .catch((e) => {
             console.log(e);
-            return;
         });
 }
 

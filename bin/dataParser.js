@@ -10,7 +10,7 @@ const { markdownToTxt } = require('markdown-to-txt');
  */
 function getLinkArray(fields, title, item) {
     const array = [];
-    let errors = [];
+    const errors = [];
     fields.forEach((field, i) => {
         if (!item[field] || item[field] === '') {
         } else if (item[field].startsWith('[')) {
@@ -73,9 +73,8 @@ function getCategory(category) {
         return 'services';
     } else if (category === 'Cities4Cities') {
         return 'cities';
-    } else {
-        return 'unknown';
     }
+    return 'unknown';
 }
 
 /**

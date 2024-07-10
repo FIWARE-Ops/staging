@@ -19,25 +19,25 @@ function extractEnablers(input) {
     const enablers = [];
     input.forEach((item) => {
         const enabler = {
-            name: item['Name'],
+            name: item.Name,
             img: item['Owner Image'] ? item['Owner Image'] : DEFAULT_IMAGE,
-            company: item['Owner'] || item['Organization'] || item['Organisation'],
+            company: item.Owner || item.Organization || item.Organisation,
             companyType: item['Legal Form'],
             gitHubOrg: item['GitHub Organisation'] || item['GitHub Organization'],
-            type: item['Type'],
-            badge: Static.getBadge(item['Type'], item['Status']),
-            chapter: Static.getChapter(item['Type']),
-            status: item['Status'],
-            documentation: item['Documentation'],
-            docker: item['Docker'],
-            quay: item['Quay'],
-            gitHub: item['GitHub'],
-            summary: item['Summary'],
-            technology: Parser.splitStrings(item['Technology']),
-            domain: Parser.splitStrings(item['Keywords']),
-            content: Parser.richMarkdown(item['Content']),
-            publish: Parser.boolean(item['Published']),
-            member: Parser.boolean(item['Member'])
+            type: item.Type,
+            badge: Static.getBadge(item.Type, item.Status),
+            chapter: Static.getChapter(item.Type),
+            status: item.Status,
+            documentation: item.Documentation,
+            docker: item.Docker,
+            quay: item.Quay,
+            gitHub: item.GitHub,
+            summary: item.Summary,
+            technology: Parser.splitStrings(item.Technology),
+            domain: Parser.splitStrings(item.Keywords),
+            content: Parser.richMarkdown(item.Content),
+            publish: Parser.boolean(item.Published),
+            member: Parser.boolean(item.Member)
         };
         if (enabler.publish) {
             enablers.push(enabler);
@@ -82,7 +82,6 @@ function parse(file) {
         })
         .catch((e) => {
             console.log(e);
-            return;
         });
 }
 
