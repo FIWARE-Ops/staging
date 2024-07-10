@@ -13,6 +13,7 @@ var summitDates = [
 ];
 var sessions = [
         'Boosting the co-creation in across the domains',
+        'Building more secure and resilient solutions',
         'Data Space Technology',
         'Developing ecosystems for systemic sustainability',
         'Digital Twins',
@@ -41,10 +42,13 @@ var speakers = [
         'Antonio Skarmeta',
         'Björn Schwarze',
         'Carmen Polcaro',
+        'Dasha Davies',
         'Davor Meersman',
+        'Eugenia Kovatcheva',
         'Francesco Mureddu',
         'Franck Le Gall',
         'Gaetano Volpe',
+        'Gerard van der Hoeven',
         'Gilsoni Lunardi Albino',
         'Giovanni Vaglica',
         'Iffat Tariq',
@@ -63,6 +67,7 @@ var speakers = [
         'Lars Nagel',
         'Laura Ileana Schipani',
         'Lee Hung-hoon',
+        'Luca Remotti',
         'Luigi Coppolino',
         'Luis Muñoz',
         'Mannix Manglani',
@@ -76,6 +81,7 @@ var speakers = [
         'Pierryl Massal',
         'Raza Jafri',
         'Roberto Di Bernardo',
+        'Rocío Díaz Pereira',
         'Satish Jamadagni',
         'Sebastian Blechmann',
         'Sophie Meszaros',
@@ -171,6 +177,18 @@ var modalData = {
     "ana-garcia-robles":
         { name: "Ana Garcia Robles", img: "https://www.fiware.org/wp-content/directories/people/images/200px/ana-garcia-robles.jpg", position: "Chief Executive Officer", company: "BDVA", "company-link": "https://www.bdva.eu/",
         content: "Secretary General of the Big Data Value Association (BDVA), holds a Masters Degree in Telecommunications Engineering and an International Executive MBA. Ana has a strong ICT industrial background in the Telecommunications sector, with over 10 years’ experience in the design, implementation and configuration of large-scale telecom networks and services, and in the research and techno-economical assessment of new technologies and solutions for large-scale implementation. Ana has specialised in Innovation management and ecosystems, and she has an extensive experience at both local/regional and international level in Open innovation ecosystems, Living Labs, and socio-economic impacts of technology with over 5 years’ experience managing international associations and projects in this area.", linkedin: "https://www.linkedin.com/in/ana-garcia-robles-9750641/", twitter: "https://twitter.com/roblesag", domain: "", location: "",
+        flag: "", },
+    "rocío-díaz-pereira":
+        { name: "Rocío Díaz Pereira", img: "https://www.fiware.org/wp-content/directories/people/images/200px/rocio-diaz-pereira.jpg", position: "Hub Manager", company: "La Lonja Tech", "company-link": "https://lalonja.tech/en/",
+        content: "Rocio is an Industrial engineer with masters in control engineering electronics systems as well as another in industrial maintenance engineering. She obtained all of her qualifications at the University of Huelva. She has developed her career as a Project Manager in the industrial sector. Attending to tasks such as cost control, people management and data analysis in corporations such as Enagas, Impala Terminals or Tioxide. She has in intense focus on continuous improvement of processes and looking for new technological solutions in order to optimize operations. In February of 2022, she decided to take on a different challenge in her professional career by taking over the direction of La Lonja de la Innovación, a world first FIWARE iHub specialising in the port sector. Her main goal is to develop a port innovation ecosystem, which is a programme designed to attract talent and give opportunities to pilot solutions in the port of Huelva.", linkedin: "https://www.linkedin.com/in/roc%C3%ADo-d%C3%ADaz-pereira-62978851/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "gerard-van-der-hoeven":
+        { name: "Gerard van der Hoeven", img: "https://www.fiware.org/wp-content/directories/people/images/200px/gerard-van-der-hoeven.jpg", position: "Chief Executive Officer", company: "iSHARE Foundation", "company-link": "https://ishare.eu",
+        content: "Gerard is an entrepreneur, venture builder and senior executive with over 25 years of entrepreneurial experience in the Tech industry. Been founding, building and scaling ventures in consulting, software, telecom, utility, electronics, and payments.", linkedin: "https://www.linkedin.com/in/gerardvdhoeven", twitter: "", domain: "", location: "",
+        flag: "", },
+    "dasha-davies":
+        { name: "Dasha Davies", img: "https://www.fiware.org/wp-content/directories/people/images/200px/dasha-davies.jpg", position: "President", company: "Stealth-ISS Group", "company-link": "https://stealth-iss.com/",
+        content: "As a global cybersecurity consultant/CISO, President of Stealth-ISS Group Inc., and Board Advisor on several cyber security technology and consulting service delivery companies, Dasha is an expert in cybersecurity operations, delivery risk, and compliance and a U.S. Navy veteran. With over 25 years of experience as a technology professional, she shaped cybersecurity practices within the US Defense Industry, NATO, various national and international government agencies, and the and the commercial sector, ensuring the security of sporting events as significant as the Olympic Games and Formula 1. Her expertise is in cybersecurity, GRC, incident response, smart cities, artificial intelligence, national security/cyber warfare, and C4I services. She has a bachelor&#x27;s degree in International Relations and Foreign Affairs, a MBA, and a MSc in Information Technology and Management and Cybersecurity, respectively, complemented by her pursuit of a Doctorate in Business and a PhD (ABD) in Cyber Warfare and National Security. Her authority in cybersecurity is underscored by a suite of certifications such as CISSP, C|CISO, NSA/IAM/IEM, and CMMC CCA, among others, and by being honored as one of the Top 100 CISOs in 2020. Her voice is respected at global conferences and events where she has presented on topics including cyber security, data protection, AI, and smart cities. She is a published author of &quot;Beyond Binary: AI and Cybersecurity,&quot; with upcoming books on cyberwarfare and national security and &quot;Navigating in the Cyber and AI Unknown.&quot;", linkedin: "", twitter: "", domain: "", location: "",
         flag: "", },
     "roberto-di-bernardo":
         { name: "Roberto Di Bernardo", img: "https://www.fiware.org/wp-content/directories/people/images/200px/roberto-di-bernardo.jpg", position: "Head of Open Government R&amp;D Unit", company: "Engineering", "company-link": "https://www.eng.it/en/",

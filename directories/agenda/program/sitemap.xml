@@ -77,11 +77,31 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2024/the-european-cloud-and-edge-markeplace.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2024/driving-collaborative-excellence-beyond-borders.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2024/how-distributed-data-control-is-empowered-by-ishare-trust-framework-and-delivered-by-fiware-components.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2024/ai--cyber--and-smart-cities.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2024/risk-mitigation-and-cost-reduction-in-the-implementation-of-technology-stack-on-fiware-based.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2024/fiware-around-the-world.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2024/envisioning-the-future--trustworthy-ai-in-self-managing-cloud-environments.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
