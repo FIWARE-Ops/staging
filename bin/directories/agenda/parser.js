@@ -13,10 +13,8 @@ const CurrentYear = new Date().getFullYear();
 
 const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/agenda/images/careers-default.png';
 
-
-
 function getExcerpt(item) {
-    let text = Parser.textOnly(item['Description']);
+    const text = Parser.textOnly(item.Description);
     const next = text.indexOf('.', 40);
     return text.substring(0, next + 1);
 }
@@ -28,17 +26,17 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
     const agenda = [];
     input.forEach((item) => {
         const event = {
-            track: item['Track'],
-            session: item['Session'],
-            title: item['Title'],
-            date: Parser.date(item['Date']),
+            track: item.Track,
+            session: item.Session,
+            title: item.Title,
+            date: Parser.date(item.Date),
             start: item['Start Time'],
             end: item['End Time'],
-            location: item['Location'],
-            img: item['Image'] ? item['Image'] : DEFAULT_IMAGE,
-            description: Parser.markdown(item['Description']),
+            location: item.Location,
+            img: item.Image ? item.Image : DEFAULT_IMAGE,
+            description: Parser.markdown(item.Description),
             excerpt: getExcerpt(item),
-            publish: Parser.boolean(item['Published'])
+            publish: Parser.boolean(item.Published)
         };
 
         if (event.publish) {
@@ -69,7 +67,7 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
                     console.error(`DATA MISMATCH: Missing Speaker: ${name}`);
                 }
 
-                return !!speaker ? speaker : { name };
+                return speaker ? speaker : { name };
             });
 
             event.speakers.forEach((speaker) => {
@@ -80,9 +78,9 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
             event.shortDate = event.date.toLocaleDateString('en-GB', { month: 'long', day: 'numeric' });
             const filename = Template.createClass(event.title);
             event.social = `/fgs-${CurrentYear}/${filename}.html`;
-            event.socialImage = `/fiwaremarketplace/directories/agenda/program/${filename}.png`
-            event.trackColor =  Template.createTrack(event.track),
-            event.numSpeakers = event.speakers.length,
+            event.socialImage = `/fiwaremarketplace/directories/agenda/program/${filename}.png`;
+            event.trackColor = Template.createTrack(event.track);
+            event.numSpeakers = event.speakers.length;
             eventDates.push(event.shortDate);
             agenda.push(event);
         }
@@ -104,16 +102,14 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
  * Read in the careers file and output
  * HTML and JavaScript files
  */
-async function parse(agendaFile, speakersFile) {
-    let agendaData = null;
-    let people = null;
-    let activeSpeakers = [];
-    let eventDates = [];
+function parse(agendaFile, speakersFile) {
+    const activeSpeakers = [];
+    const eventDates = [];
 
     csv()
         .fromFile(speakersFile)
         .then((input) => {
-            allSpeakers = People.extract(input);
+            const allSpeakers = People.extract(input);
             csv()
                 .fromFile(agendaFile)
                 .then((input) => {
@@ -171,7 +167,7 @@ async function parse(agendaFile, speakersFile) {
                     );
 
                     const socialImages = [];
-                    agenda.forEach((event, index) =>{
+                    agenda.forEach((event) => {
                         const filename = Template.createClass(event.title);
                         Template.write(
                             path.join(AGENDA_DIR, `program/${filename}.html`),
@@ -179,12 +175,12 @@ async function parse(agendaFile, speakersFile) {
                             event
                         );
                         Prettier.format(path.join(AGENDA_DIR, `program/${filename}.html`), { parser: 'html' });
-                        socialImages.push({ 
+                        socialImages.push({
                             output: path.join(AGENDA_DIR, `program/${filename}.png`),
                             event,
                             year: CurrentYear.toString().substr(-2),
                             font: Template.font
-                        })
+                        });
                     });
                     Prettier.format(path.join(AGENDA_DIR, 'agenda.html'), { parser: 'html' });
                     Prettier.format(path.join(AGENDA_DIR, 'pageData.js'), { parser: 'flow' });
@@ -193,7 +189,6 @@ async function parse(agendaFile, speakersFile) {
                 })
                 .catch((e) => {
                     console.log(e);
-                    return;
                 });
         });
 }

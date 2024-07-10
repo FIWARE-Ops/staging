@@ -38,7 +38,6 @@ function getBadge(type) {
     return badge;
 }
 
-
 function getChapter(type) {
     let chapter;
     switch (type) {

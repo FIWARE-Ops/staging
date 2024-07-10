@@ -38,7 +38,7 @@ function checkFileExists(file) {
  * Read data from a URL
  */
 function fetch(url) {
-    return new Promise(async (resolve, reject) => {
+    return new Promise(async function (resolve, reject) {
         try {
             const response = await got(url);
             return resolve(response.body);

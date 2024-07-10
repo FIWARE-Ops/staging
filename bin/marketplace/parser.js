@@ -37,32 +37,32 @@ function extractProductDetails(input) {
     }
 
     input.forEach((item) => {
-        const category = Parser.getCategory(item['Category']);
+        const category = Parser.getCategory(item.Category);
         const hash = Parser.getHash(item['Organisation Name'], item['Product Name']);
 
         details[category][hash] = {
-            category: item['Category'],
+            category: item.Category,
             organisationName: item['Organisation Name'],
             productName: item['Product Name'],
             organisationWebsite: item['Organisation Website'],
             organisationEmail: item['Organisation Email'] !== '' ? 'mailto:' + item['Organisation Email'] : '',
-            linkedIn: item['LinkedIn'],
-            twitter: item['Twitter'],
+            linkedIn: item.LinkedIn,
+            twitter: item.Twitter,
             productWebsite: item['Product Website'],
-            excerpt: item['Excerpt'].replaceAll(/\\'/g, "'"),
+            excerpt: item.Excerpt.replaceAll(/\\'/g, "'"),
             yearOfValidation: parseInt(item['Year of validation']),
             description: Parser.markdown(item['Description and Benefits']),
             challenge: Parser.markdown(item['Challenge and Context']),
             references: Parser.markdown(item['References / Customers']),
-            awards: Parser.markdown(item['Awards']),
-            technologies: Parser.splitStrings(item['Technologies']),
-            domains: Parser.splitStrings(item['Domains']),
+            awards: Parser.markdown(item.Awards),
+            technologies: Parser.splitStrings(item.Technologies),
+            domains: Parser.splitStrings(item.Domains),
 
             docs: Parser.getLinkArray(docFields, 'Document', item),
             videos: Parser.getLinkArray(mediaFields, 'Media', item),
             materials: Parser.getLinkArray(refFields, 'Reference', item),
 
-            logo: item['Logo'],
+            logo: item.Logo,
             featuredImage: item['Featured Image'],
             furtherImages: ''
         };
@@ -110,7 +110,7 @@ function extractSummaryInfo(input, details) {
 
         const hash = Parser.getHash(item['Organisation Name'], item['Product Name']);
 
-        const category = Parser.getCategory(item['Category']);
+        const category = Parser.getCategory(item.Category);
 
         if (item.Status !== 'Deleted') {
             if (item.Domains) {
@@ -156,7 +156,7 @@ function extractSummaryInfo(input, details) {
             const obj = {};
             obj.company = item['Organisation Name'];
             obj.name = item['Product Name'];
-            obj.img = item['Logo'];
+            obj.img = item.Logo;
             obj.fiwareMember = item.Member;
             obj.fiwareIhub = item.iHub;
 
@@ -166,34 +166,34 @@ function extractSummaryInfo(input, details) {
                 console.log('FALLBACK LINK:  ' + category + ' ' + hash);
                 obj.companyLink = item['Product Website'];
             }
-            obj.domain = item['Domains'];
+            obj.domain = item.Domains;
             obj.type = item['Type of Product'];
-            obj.technology = item['Technologies'];
+            obj.technology = item.Technologies;
             obj.year = parseInt(item['Certified in']);
-            obj.content = item['Excerpt']
-                ? item['Excerpt'].replace(regEx, replaceMask).replaceAll(/\r\n/g, ' ').replaceAll(/\n/g, ' ').trim()
+            obj.content = item.Excerpt
+                ? item.Excerpt.replace(regEx, replaceMask).replaceAll(/\r\n/g, ' ').replaceAll(/\n/g, ' ').trim()
                 : '';
 
-            if (item['Category'] === 'Powered by FIWARE') {
+            if (item.Category === 'Powered by FIWARE') {
                 powered.push(obj);
                 hashes.powered.push(hash);
-            } else if (item['Category'] === 'NGSI Ready Devices') {
+            } else if (item.Category === 'NGSI Ready Devices') {
                 ready.push(obj);
                 hashes.ready.push(hash);
-            } else if (item['Category'] === 'FIWARE-Ready') {
+            } else if (item.Category === 'FIWARE-Ready') {
                 ready.push(obj);
                 hashes.ready.push(hash);
-            } else if (item['Category'] === 'Services') {
+            } else if (item.Category === 'Services') {
                 services.push(obj);
                 hashes.services.push(hash);
-            } else if (item['Category'] === 'Support Services') {
+            } else if (item.Category === 'Support Services') {
                 services.push(obj);
                 hashes.services.push(hash);
-            } else if (item['Category'] === 'Cities4Cities') {
+            } else if (item.Category === 'Cities4Cities') {
                 cities.push(obj);
                 hashes.cities.push(hash);
             } else {
-                console.log('UNKNOWN CATEGORY: ', item['Category']);
+                console.log('UNKNOWN CATEGORY: ', item.Category);
             }
         }
     });
@@ -398,9 +398,9 @@ function parse(detailsFile, summaryFile, processRun) {
         })
         .then(() => {
             if (processRun === 'products+images') {
-                let promises = [];
+                const promises = [];
                 productDetails.images.forEach((image) => {
-                    let promise = Downloader.downloadImages(image);
+                    const promise = Downloader.downloadImages(image);
                     promises.push(promise);
                 });
                 Promise.all(promises)
@@ -413,11 +413,9 @@ function parse(detailsFile, summaryFile, processRun) {
                         console.log(e);
                     });
             }
-            return;
         })
         .catch((e) => {
             console.log(e);
-            return;
         });
 }
 

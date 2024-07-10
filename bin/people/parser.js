@@ -21,25 +21,25 @@ function extractPeople(input) {
     const people = [];
     input.forEach((item) => {
         const person = {
-            title: Parser.trim(item['Title']).trim(),
+            title: Parser.trim(item.Title).trim(),
             name: item['Full Name'].trim(),
             surname: item['Surname Filters'],
             img: item['Profile Picture'] ? item['Profile Picture'].trim() : DEFAULT_IMAGE,
-            company: item['Company'] || item['Organization'] || item['Organisation'],
+            company: item.Company || item.Organization || item.Organisation,
             companyType: item['Legal Form'] || '',
-            domain: item['Domain'],
+            domain: item.Domain,
             website: Parser.trim(
                 item['Company website'] || item['Organization website'] || item['Organisation website']
             ),
             job: item['Job title'],
-            bio: item['Bio'] ? item['Bio'].replaceAll(/[\n\r]+/g, ' ').trim() : '',
-            linkedIn: Parser.trim(item['LinkedIn']),
-            twitter: Parser.trim(item['Twitter']),
-            department: item['Department'],
-            country: item['Country'],
+            bio: item.Bio ? item.Bio.replaceAll(/[\n\r]+/g, ' ').trim() : '',
+            linkedIn: Parser.trim(item.LinkedIn),
+            twitter: Parser.trim(item.Twitter),
+            department: item.Department,
+            country: item.Country,
             flag: item['Country flag'],
             filters: Parser.splitStrings(item['Keyword Job Title Filters']),
-            publish: Parser.boolean(item['Published'])
+            publish: Parser.boolean(item.Published)
         };
 
         if (person.publish) {
@@ -114,7 +114,6 @@ function parse(file, page) {
         })
         .catch((e) => {
             console.log(e);
-            return;
         });
 }
 
