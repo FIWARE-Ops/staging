@@ -70,7 +70,11 @@
     {{#if (eq event.numSpeakers 3)}}
       {{{style.three}}}
     {{else}}
+    {{#if (eq event.numSpeakers 4)}}
+      {{{style.four}}}
+    {{else}}
       {{{style.many}}}
+    {{/if}}
     {{/if}}
     {{/if}}
     {{/if}}
@@ -157,6 +161,30 @@
       </div>
     </div>
     {{else}}
+    {{#if (eq event.numSpeakers 4)}}
+    <div class="panel-speakers">
+      <div class="speakers">
+        {{#each event.speakers}}
+        <div class="speaker">
+          <div class="grid-container">
+            <div class="profile-picture-small">
+              {{#if img}}
+              <img decoding="async" alt="{{name}}" src="{{img}}" loading="lazy">
+              {{else}}
+              <img decoding="async" alt="" src="https://www.fiware.org/wp-content/directories/people/images/ico_user.png" loading="lazy">    
+              {{/if}}
+            </div>
+            <div class="speaker-info">
+              <div class="speaker-name">{{name}}</div>
+              <div class="speaker-job-title">{{shortJob}}</div>
+              <div class="speaker-company">{{company}}</div>
+            </div>
+          </div>
+        </div>
+        {{/each}}
+      </div>
+    </div>
+    {{else}}
     {{#if (lt event.numSpeakers 7)}}
     <div class="panel-speakers more">
       <div class="speakers more">
@@ -185,6 +213,7 @@
       {{/each}}
       </div>
     </div>
+    {{/if}}
     {{/if}}
     {{/if}}
     {{/if}}

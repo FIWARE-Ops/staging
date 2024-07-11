@@ -114,6 +114,7 @@ function parse(agendaFile, speakersFile) {
         one: Template.readCSS('agenda' , 'one'),
         two: Template.readCSS('agenda' , 'two'),
         three: Template.readCSS('agenda' , 'three'),
+        four: Template.readCSS('agenda' , 'four'),
         many: Template.readCSS('agenda' , 'many')
     };
 
