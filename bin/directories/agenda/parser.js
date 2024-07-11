@@ -26,6 +26,7 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
     const agenda = [];
     input.forEach((item) => {
         const event = {
+            priority: Number(item.Priority),
             track: item.Track,
             session: item.Session,
             title: item.Title,
@@ -77,7 +78,7 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
             event.startTime = Parser.addTime(event.date, event.start);
             event.shortDate = event.date.toLocaleDateString('en-GB', { month: 'long', day: 'numeric' });
             const filename = Template.createClass(event.title);
-            event.social = `/fgs-${CurrentYear}/${filename}.html`;
+            event.social =  event.description ? `/fgs-${CurrentYear}/${filename}.html` : '/global-summit/agenda'; 
             event.socialImage = `/fiwaremarketplace/directories/agenda/program/${filename}.png`;
             event.trackColor = Template.createTrack(event.track);
             event.numSpeakers = event.speakers.length;
@@ -93,10 +94,14 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
     console.log(agenda.length, ' agenda items generated.');
     console.log(activeSpeakers.length, ' agenda speakers found.');
 
-    return agenda.sort((a, b) => {
-        return a.startTime > b.startTime.getTime();
-    });
-}
+    return _.chain(agenda)
+          .sortBy('priority')
+          .sortBy('startTime')
+          .sortBy('date')
+          .value();
+    }
+
+
 
 /**
  * Read in the careers file and output
