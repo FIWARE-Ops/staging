@@ -17,10 +17,13 @@ var sessions = [
         'Data Space Technology',
         'Digital Twins',
         'FISAB &amp; Universities',
+        'FIWARE Catalog Components',
+        'FIWARE catalog components',
         'Innovation projects on data interoperability',
         'Innovation projects on data platforms and Data Spaces',
         'Innovation projects on green and industry digital twins',
         'NGSI-LD Basics',
+        'Security and Deployments',
         'Smart Communities &amp; Mobility',
         'Smart Energy',
         'Technology Vision',
@@ -59,6 +62,7 @@ var speakers = [
         'Joaquín Salvachúa',
         'Jorge Hernandez',
         'Jose Benítez',
+        'José Ignacio Carretero',
         'Juanjo Hierro',
         'Lars Nagel',
         'Laura Ileana Schipani',
@@ -66,6 +70,7 @@ var speakers = [
         'Luca Remotti',
         'Luigi Coppolino',
         'Luis Muñoz',
+        'Luka Keserič',
         'Mannix Manglani',
         'Marco Schuldt',
         'Margherita Volpe',
@@ -87,6 +92,7 @@ var speakers = [
         'Ulrich Ahle',
         'Vincent Demortier',
         'Yasunori Mochizuki',
+        'Yuzhen Li',
 ]; 
 var modalData = {
     "andrea-battaglia":
@@ -173,6 +179,18 @@ var modalData = {
         { name: "Dasha Davies", img: "https://www.fiware.org/wp-content/directories/people/images/200px/dasha-davies.jpg", position: "President", company: "Stealth-ISS Group", "company-link": "https://stealth-iss.com/",
         content: "As a global cybersecurity consultant/CISO, President of Stealth-ISS Group Inc., and Board Advisor on several cyber security technology and consulting service delivery companies, Dasha is an expert in cybersecurity operations, delivery risk, and compliance and a U.S. Navy veteran. With over 25 years of experience as a technology professional, she shaped cybersecurity practices within the US Defense Industry, NATO, various national and international government agencies, and the and the commercial sector, ensuring the security of sporting events as significant as the Olympic Games and Formula 1. Her expertise is in cybersecurity, GRC, incident response, smart cities, artificial intelligence, national security/cyber warfare, and C4I services. She has a bachelor&#x27;s degree in International Relations and Foreign Affairs, a MBA, and a MSc in Information Technology and Management and Cybersecurity, respectively, complemented by her pursuit of a Doctorate in Business and a PhD (ABD) in Cyber Warfare and National Security. Her authority in cybersecurity is underscored by a suite of certifications such as CISSP, C|CISO, NSA/IAM/IEM, and CMMC CCA, among others, and by being honored as one of the Top 100 CISOs in 2020. Her voice is respected at global conferences and events where she has presented on topics including cyber security, data protection, AI, and smart cities. She is a published author of &quot;Beyond Binary: AI and Cybersecurity,&quot; with upcoming books on cyberwarfare and national security and &quot;Navigating in the Cyber and AI Unknown.&quot;", linkedin: "", twitter: "", domain: "", location: "",
         flag: "", },
+    "luka-keseri-":
+        { name: "Luka Keserič", img: "https://www.fiware.org/wp-content/directories/people/images/200px/luka-keseric.jpg", position: "Marketing &amp; Demonstrator Manager", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
+        content: "Luka Keseric (m) is a forward-thinking Computer Science master&#x27;s student, deeply passionate about cutting-edge technologies, particularly in the fields of AI, IoT, and Smart Cities. He has completed a Bachelor&#x27;s degree in Electrical Engineering and is currently finishing his Master’s degree in Computer Science at the University of Ljubljana. His technical skills encompass expertise in Machine Learning and IoT development, proficiency in programming languages such as C, C++ and Python, and hands-on experience with Microcontrollers like Arduino, ESP32, and ESP32-CAM. In his previous three-year role as a Research Assistant at the Laboratory for Machine Intelligence at the University of Ljubljana, Luka played a pivotal role in computer vision research, focusing on generative image models such as GANs and Diffusion models. Additionally, he served as a Project Leader and Board Member for a local NGO in Slovenia, where he spearheaded the development of public health and sustainable development workshops for both local and international students. Luka&#x27;s unique blend of technical expertise, leadership capabilities, and effective communication skills positions him as an excellent Smart World demonstrator and developer at FIWARE.His personal attributes include commitment to academic pursuits while actively contributing to impactful projects. He is known for his exceptional collaboration and communication skills and his visionary thinking with commitment to shaping the future through innovative technology solutions set him apart.", linkedin: "https://www.linkedin.com/in/luka-keseri%C4%8D-426164260/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "roberto-di-bernardo":
+        { name: "Roberto Di Bernardo", img: "https://www.fiware.org/wp-content/directories/people/images/200px/roberto-di-bernardo.jpg", position: "Head of Open Government R&amp;D Unit", company: "Engineering", "company-link": "https://www.eng.it/en/",
+        content: "Roberto Di Bernardo is Senior Researcher and Head of the Open Government R&amp;D Group (part of Open Public Service Innovation Lab). He is an Electronic Engineer with Professional Master’s diplomas in “Clinical Engineering” and in “Internet Software Engineering”. He has been working as researcher at Engineering R&amp;D Laboratory since 2004, being involved in management and technical activities in many Italian and European projects. He is also acting as R&amp;D opportunity and network developer for the entire Public Sector R&amp;D area. At the moment, he is coordinating URBANAGE project (H2020-DT-Transforations-02) and his group is leading/involved in, among others, the following projects: DECIDO (H2020-DT-Governance-12), INTERSTAT (CEF-Public Open Data), SPOTTED (CEF-Public Open Data), ACROSS (H2020-DT-Governance-05), URBANITE (H2020-DT-Transformations-02). Currently he is leading the Smart Governance and Smart Cities sub-group of the Big Data Value Association and co-leading the Smart Cities Domain Committee of the FIWARE Foundation and the Digital Water Systems Working Group of Water Europe.", linkedin: "https://www.linkedin.com/in/robertodibernardo/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "antonio-jara":
+        { name: "Antonio Jara", img: "https://www.fiware.org/wp-content/directories/people/images/200px/antonio-jara.jpg", position: "General Manager Smart Cities", company: "Libelium", "company-link": "https://www.libelium.com/",
+        content: "Antonio has a PhD from the University of Murcia (Spain) and a MBA from the ENAE business school and UCAM (2012). He has received entrepreneurship awards from ENAE, emprendeGo, IPSO Alliance Award for its disruptive innovation in the IoT. As part of HOP Ubiquitous, Jara is focused on the Smart Cities market with solutions for citizens engagements, tourism, active participation, physical web and environmental monitoring (air quality sensors) in projects such as ENIAC SAFESENS, interoperability / pilots (SmartSDK, Synchronicity, Organicity, BeinCPPS) and also in several actions related to security/privacy (INPUT and FORTIKA).", linkedin: "https://www.linkedin.com/in/jara-libelium/", twitter: "https://twitter.com/antonio_jara", domain: "", location: "",
+        flag: "", },
     "martin-bauer":
         { name: "Martin Bauer", img: "https://www.fiware.org/wp-content/directories/people/images/200px/martin-bauer.jpg", position: "Senior Researcher", company: "NEC Lab Europe", "company-link": "https://www.neclab.eu/",
         content: "", linkedin: "https://www.linkedin.com/in/martin-bauer-a722141/", twitter: "", domain: "", location: "",
@@ -188,14 +206,6 @@ var modalData = {
     "franck-le-gall":
         { name: "Franck Le Gall", img: "https://www.fiware.org/wp-content/directories/people/images/200px/franck-le-gall.jpg", position: "Chief Executive Officer", company: "Easy Global Market", "company-link": "https://www.egm.io/en/egm-the-innovation-factory",
         content: "Franck Le Gall is CEO at Easy Global Market, an innovative SME focused on integration and validation of emerging technologies. He is driving company development to deploy IoT and data technologies over vertical markets (water, agriculture, smart territories, environment, etc.). He involves himself in the standardization area including ETSI where he is co-chairman of the ETSI ISG-CIM working group on NGSI-LD. He is also chairing the interfaces working group of the FIWARE Technical Steering Committee (TSC) as well as the joint ETSI-FIWARE Foundation working group on Digital Twins. Finally, he is the Co-chair of the Smart Water working group of the ICT4Water European research cluster. He continuously contributes and drives several projects for public and private customers.", linkedin: "https://www.linkedin.com/in/francklegall/", twitter: "https://twitter.com/franck_le_gall", domain: "", location: "",
-        flag: "", },
-    "roberto-di-bernardo":
-        { name: "Roberto Di Bernardo", img: "https://www.fiware.org/wp-content/directories/people/images/200px/roberto-di-bernardo.jpg", position: "Head of Open Government R&amp;D Unit", company: "Engineering", "company-link": "https://www.eng.it/en/",
-        content: "Roberto Di Bernardo is Senior Researcher and Head of the Open Government R&amp;D Group (part of Open Public Service Innovation Lab). He is an Electronic Engineer with Professional Master’s diplomas in “Clinical Engineering” and in “Internet Software Engineering”. He has been working as researcher at Engineering R&amp;D Laboratory since 2004, being involved in management and technical activities in many Italian and European projects. He is also acting as R&amp;D opportunity and network developer for the entire Public Sector R&amp;D area. At the moment, he is coordinating URBANAGE project (H2020-DT-Transforations-02) and his group is leading/involved in, among others, the following projects: DECIDO (H2020-DT-Governance-12), INTERSTAT (CEF-Public Open Data), SPOTTED (CEF-Public Open Data), ACROSS (H2020-DT-Governance-05), URBANITE (H2020-DT-Transformations-02). Currently he is leading the Smart Governance and Smart Cities sub-group of the Big Data Value Association and co-leading the Smart Cities Domain Committee of the FIWARE Foundation and the Digital Water Systems Working Group of Water Europe.", linkedin: "https://www.linkedin.com/in/robertodibernardo/", twitter: "", domain: "", location: "",
-        flag: "", },
-    "antonio-jara":
-        { name: "Antonio Jara", img: "https://www.fiware.org/wp-content/directories/people/images/200px/antonio-jara.jpg", position: "General Manager Smart Cities", company: "Libelium", "company-link": "https://www.libelium.com/",
-        content: "Antonio has a PhD from the University of Murcia (Spain) and a MBA from the ENAE business school and UCAM (2012). He has received entrepreneurship awards from ENAE, emprendeGo, IPSO Alliance Award for its disruptive innovation in the IoT. As part of HOP Ubiquitous, Jara is focused on the Smart Cities market with solutions for citizens engagements, tourism, active participation, physical web and environmental monitoring (air quality sensors) in projects such as ENIAC SAFESENS, interoperability / pilots (SmartSDK, Synchronicity, Organicity, BeinCPPS) and also in several actions related to security/privacy (INPUT and FORTIKA).", linkedin: "https://www.linkedin.com/in/jara-libelium/", twitter: "https://twitter.com/antonio_jara", domain: "", location: "",
         flag: "", },
     "iffat-tariq":
         { name: "Iffat Tariq", img: "https://www.fiware.org/wp-content/directories/people/images/200px/iffat-tariq.jpg", position: "Chief Digital Officer", company: "I&amp;I Software Inc", "company-link": "https://www.iandisoft.com/",
@@ -244,6 +254,10 @@ var modalData = {
     "jesús-ruiz-martinez":
         { name: "Jesús Ruiz Martinez", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jesus-ruiz.jpg", position: "Chief Technology Officer", company: "Alastria", "company-link": "https://alastria.io/en/",
         content: "Member of the board and CTO of Alastria Blockchain Ecosystem, participates in the Technical Governance of EBSI (European Blockchain Services Infrastructure from European Commission and Member States), and in LACChain (blockchain network promoted by the Inter-American Development Bank). He inspired the Public-Permissioned model followed by those networks, where decentralized governance and SSI are critical components.", linkedin: "https://www.linkedin.com/in/jesus-ruiz-martinez/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "yuzhen-li":
+        { name: "Yuzhen Li", img: "https://www.fiware.org/wp-content/directories/people/images/200px/yuzhen-li.jpg", position: "Demonstrator Manager", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
+        content: "Yuzhen Li (f) is a working student as a Lego Smart World developer &amp; demonstrator. She completed her BEng in Electronic Information Engineering and now is close to finishing her master&#x27;s degree in the same field (ICT-Telecommunication) at TU Berlin. Her interests and expertise mainly focus on Cloud-Computing, Network Engineering, and DevOps. Before joining FIWARE, she has 2-years of experience in handling massive global network traffic and data centers for the large music streaming platform SoundCloud as a Network Reliability Engineer. Now she is working on improving the software system (Docker, VMs, Database, NGSI, etc.) for LEGO models to make it better connected to FIWARE Technologies.", linkedin: "https://www.linkedin.com/in/yuzhen-li-b242421a4/", twitter: "", domain: "", location: "",
         flag: "", },
     "antonella-longo":
         { name: "Antonella Longo", img: "https://www.fiware.org/wp-content/directories/people/images/200px/antonella-longo.jpg", position: "Professor", company: "University of Salento", "company-link": "https://sydalab.unisalento.it/en/",
