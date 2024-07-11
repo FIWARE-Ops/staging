@@ -78,7 +78,7 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
             event.startTime = Parser.addTime(event.date, event.start);
             event.shortDate = event.date.toLocaleDateString('en-GB', { month: 'long', day: 'numeric' });
             const filename = Template.createClass(event.title);
-            event.social =  event.description ? `/fgs-${CurrentYear}/${filename}.html` : '/global-summit/agenda'; 
+            event.social = `/fgs-${CurrentYear}/${filename}.html`;
             event.socialImage = `/fiwaremarketplace/directories/agenda/program/${filename}.png`;
             event.trackColor = Template.createTrack(event.track);
             event.numSpeakers = event.speakers.length;
@@ -162,6 +162,12 @@ function parse(agendaFile, speakersFile) {
 
                     Template.write(
                         path.join(AGENDA_DIR, 'program/pageData.js'),
+                        path.join(TEMPLATE_PATH, 'details.hbs'),
+                        filterData
+                    );
+
+                    Template.write(
+                        path.join(AGENDA_DIR, 'program-details-summary/pageData.js'),
                         path.join(TEMPLATE_PATH, 'details.hbs'),
                         filterData
                     );

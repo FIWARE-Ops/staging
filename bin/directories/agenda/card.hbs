@@ -3,7 +3,7 @@
 
 <div class='grid-item {{createClass track}} {{createClass session}}{{#each speakers}} {{createClass name}}{{/each}} {{createClass shortDate}}'>
     <div class="gridElementTextContainer">
-      <a href="./program?id={{createClass title}}">
+      <a href="./{{#if description}}program{{else}}program-details-summary{{/if}}?id={{createClass title}}">
         <div class="chip-track">
           <div class="track {{trackColor}}">{{track}}</div>
         </div>
