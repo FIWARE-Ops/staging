@@ -5,19 +5,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/how-ngsi-ld-empowers-you-to-develop-advanced-digital-twins.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
-			<loc>https://www.fiware.org/fgs-2024/lorem-ipsum-dolor-sit-amet-consectetuer-adipiscing-elit.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
 			<loc>https://www.fiware.org/fgs-2024/the-new-fiware-vision.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
-			<loc>https://www.fiware.org/fgs-2024/service-execution-and-analytical-services-with-ngsi-ld.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -25,7 +13,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/lorem-ipsum-dolor-sit-amet-consectetuer-adipiscing-elit.html</loc>
+			<loc>https://www.fiware.org/fgs-2024/developing-ecosystems-for-systemic-sustainability.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -102,6 +90,18 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2024/envisioning-the-future--trustworthy-ai-in-self-managing-cloud-environments.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2024/how-ngsi-ld-empowers-you-to-develop-advanced-digital-twins.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2024/lorem-ipsum-dolor-sit-amet-consectetuer-adipiscing-elit.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2024/service-execution-and-analytical-services-with-ngsi-ld.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>

@@ -1,6 +1,6 @@
 var tracks = [
         'Building collaborative business strategies',
-        'Empowering co-creation of technology solutions',
+        'Empowering co-creation of tech solutions',
         'Grand Opening',
         'Hands-On Use Cases',
         'Innovation with FIWARE',
@@ -15,7 +15,6 @@ var sessions = [
         'Boosting the co-creation in across the domains',
         'Building more secure and resilient solutions',
         'Data Space Technology',
-        'Developing ecosystems for systemic sustainability',
         'Digital Twins',
         'FISAB &amp; Universities',
         'Innovation projects on data interoperability',
@@ -58,12 +57,9 @@ var speakers = [
         'Jesús Ruiz Martinez',
         'Joan Antonio Bernejo',
         'Joaquín Salvachúa',
-        'John Walicki',
         'Jorge Hernandez',
         'Jose Benítez',
-        'Josè Benitez',
         'Juanjo Hierro',
-        'Jumbi Edulbehram',
         'Lars Nagel',
         'Laura Ileana Schipani',
         'Lee Hung-hoon',
@@ -86,7 +82,6 @@ var speakers = [
         'Sebastian Blechmann',
         'Sophie Meszaros',
         'Stefano De Panfilis',
-        'Steve Johnson',
         'Thimo Thoeye',
         'Tomohiro Kuwahara',
         'Ulrich Ahle',
@@ -110,22 +105,6 @@ var modalData = {
         { name: "Laura Ileana Schipani", img: "https://www.fiware.org/wp-content/directories/people/images/200px/laura-schipani.jpg", position: "Acting CMO", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
         content: "With over 23 years of experience, Laura (f) brings a wealth of knowledge in strategic marketing and communications. Her career journey, which began with founding her own fashion brand, has led her through diverse managerial roles across consulting, pharmaceuticals, and ICT industries. She is committed to leveraging her expertise to drive growth, enhance brand distinctiveness, and develop impactful projects that resonate with audiences globally.", linkedin: "https://www.linkedin.com/in/lauraskip/", twitter: "", domain: "", location: "",
         flag: "", },
-    "martin-bauer":
-        { name: "Martin Bauer", img: "https://www.fiware.org/wp-content/directories/people/images/200px/martin-bauer.jpg", position: "Senior Researcher", company: "NEC Lab Europe", "company-link": "https://www.neclab.eu/",
-        content: "", linkedin: "https://www.linkedin.com/in/martin-bauer-a722141/", twitter: "", domain: "", location: "",
-        flag: "", },
-    "antonio-filograna":
-        { name: "Antonio Filograna", img: "https://www.fiware.org/wp-content/directories/people/images/200px/antonio-filograna.jpg", position: "Researcher", company: "Engineering", "company-link": "https://www.eng.it/en/",
-        content: "Antonio is an expert in ICTs with special skills in areas like Open &amp; eGovernment, Social Innovation, Smart City, Data Protection and Privacy-preserving technologies, Cloud Computing, Architectural Design, Policy making. He has been involved in several European and Italian research projects dealing with several domains (public service for PA, smart mobility, smart environment, energy, FIWARE architecture) as project manager, technical designer, work package and task leader. At present, he is the Project Coordinator of DECIDO project (H202-SC6-GOVERNANCE-2020), he is also involved in SPOTTED project (CEF-TC-2020-2 Public Open Data; 2021-2024) as project leader and REBUILD project (H2020-DT-MIGRATION-06-2108 – Grant 822215) as work package leader.", linkedin: "https://www.linkedin.com/in/antoniofilograna/", twitter: "https://twitter.com/afilograna", domain: "", location: "",
-        flag: "", },
-    "sebastian-blechmann":
-        { name: "Sebastian Blechmann", img: "https://www.fiware.org/wp-content/directories/people/images/200px/sebastian-blechmann.jpg", position: "Research Associate", company: "RWTH Aachen", "company-link": "https://www.rwth-aachen.de/",
-        content: "Sebastian Blechmann is working as research associate at the Institute for Energy Efficient Buildings and Indoor Climate in the E.ON Energy Research Center of the RWTH Aachen University. He is member of a research group targeting digital energy neighborhoods and specializes in semantic interoperability and efficient data utilization. In his research, he applies FIWARE to handle data from building energy systems, structure them semantically and apply control algorithms to control various test facilities. Thereby, he focuses on control and knowledge representation in heating, ventilation and air conditioning systems. In his presentation, he will talk about his past and present developments in the building energy sector using FIWARE.", linkedin: "https://www.linkedin.com/in/sebastian-blechmann-a2b19a119/", twitter: "", domain: "", location: "",
-        flag: "", },
-    "franck-le-gall":
-        { name: "Franck Le Gall", img: "https://www.fiware.org/wp-content/directories/people/images/200px/franck-le-gall.jpg", position: "Chief Executive Officer", company: "Easy Global Market", "company-link": "https://www.egm.io/en/egm-the-innovation-factory",
-        content: "Franck Le Gall is CEO at Easy Global Market, an innovative SME focused on integration and validation of emerging technologies. He is driving company development to deploy IoT and data technologies over vertical markets (water, agriculture, smart territories, environment, etc.). He involves himself in the standardization area including ETSI where he is co-chairman of the ETSI ISG-CIM working group on NGSI-LD. He is also chairing the interfaces working group of the FIWARE Technical Steering Committee (TSC) as well as the joint ETSI-FIWARE Foundation working group on Digital Twins. Finally, he is the Co-chair of the Smart Water working group of the ICT4Water European research cluster. He continuously contributes and drives several projects for public and private customers.", linkedin: "https://www.linkedin.com/in/francklegall/", twitter: "https://twitter.com/franck_le_gall", domain: "", location: "",
-        flag: "", },
     "abdulrahman-ibrahim":
         { name: "Abdulrahman Ibrahim", img: "https://www.fiware.org/wp-content/directories/people/images/200px/abdulrahman-ibrahim.jpg", position: "Chief Data and Innovation Officer", company: "MDA", "company-link": "https://www.mda.gov.sa/",
         content: "Mr. Abdulrahman is the Chief Data and Innovation Officer at Madinah Region Development Authority. He is a board member of state-owned Saudi companies. Under his leadership, Madinah was listed in the IMD Smart City Index since 2021. Also, Madinah was accredited by the World Council on City Data as an Early Adopter among the first ten cities worldwide in ISO37122 Smart City Indicators. Before joining the government, he was a Chief Executive Officer in the private sector with 22 years of experience in various industries, such as Consumer Goods, Food Manufacturing, Medical Supplies, and Supply Chain, where his operations covered the GCC market, Levant, and Africa. He’s the co-author of ‘Cities in a Time of Global Emergencies: Can smart cities help?’.", linkedin: "https://www.linkedin.com/in/abdulrahmanibrahim/", twitter: "", domain: "", location: "",
@@ -145,6 +124,10 @@ var modalData = {
     "juanjo-hierro":
         { name: "Juanjo Hierro", img: "https://www.fiware.org/wp-content/directories/people/images/200px/juanjo-hierro.jpg", position: "Chairman FIWARE TSC", company: "", "company-link": "",
         content: "Juanjo Hierro (m) obtained a degree in Computer Science in 1990 from the Universidad Politecnica de Madrid (UPM) and owns a certificate of research proficiency. In 1990, Juanjo joined Telefónica I+D where he stayed until he joined FIWARE Foundation. During his career at Telefónica, Juanjo had different management responsibilities in the development of mission-critical systems for Telefónica as well as several R&amp;D projects. In April 2011, he became the Chief Architect of the FIWARE programme combining this role with the one of the CTO of the IoT Division at Telefónica R&amp;D since November 2013. Now a days Juanjo is the Chairman of the FIWARE Technical Steering Committee.", linkedin: "https://www.linkedin.com/in/jhierro/", twitter: "https://twitter.com/JuanjoHierro", domain: "", location: "",
+        flag: "", },
+    "jose-benítez":
+        { name: "Jose Benítez", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jose-benitez.jpg", position: "Chief Executive Officer", company: "Secmotic", "company-link": "https://secmotic.com/",
+        content: "Since its establishment in 2015, Jose has been at the helm of Secmotic as CEO. His involvement on the Board of Directors of FIWARE since 2017 has contributed to shaping the future of the organization. In 2021, he embarked on a new venture, founding FIWOO Smart Solutions, a company dedicated to delivering FIWARE-based Smart City platform solutions tailored to the needs of the Spanish public sector.", linkedin: "https://www.linkedin.com/in/jose-benitez-secmotic/", twitter: "", domain: "", location: "",
         flag: "", },
     "björn-schwarze":
         { name: "Björn Schwarze", img: "https://www.fiware.org/wp-content/directories/people/images/200px/bjorn-schwarze.jpg", position: "Chief Executive Officer", company: "ADDIX", "company-link": "https://www.addix.net/",
@@ -190,6 +173,22 @@ var modalData = {
         { name: "Dasha Davies", img: "https://www.fiware.org/wp-content/directories/people/images/200px/dasha-davies.jpg", position: "President", company: "Stealth-ISS Group", "company-link": "https://stealth-iss.com/",
         content: "As a global cybersecurity consultant/CISO, President of Stealth-ISS Group Inc., and Board Advisor on several cyber security technology and consulting service delivery companies, Dasha is an expert in cybersecurity operations, delivery risk, and compliance and a U.S. Navy veteran. With over 25 years of experience as a technology professional, she shaped cybersecurity practices within the US Defense Industry, NATO, various national and international government agencies, and the and the commercial sector, ensuring the security of sporting events as significant as the Olympic Games and Formula 1. Her expertise is in cybersecurity, GRC, incident response, smart cities, artificial intelligence, national security/cyber warfare, and C4I services. She has a bachelor&#x27;s degree in International Relations and Foreign Affairs, a MBA, and a MSc in Information Technology and Management and Cybersecurity, respectively, complemented by her pursuit of a Doctorate in Business and a PhD (ABD) in Cyber Warfare and National Security. Her authority in cybersecurity is underscored by a suite of certifications such as CISSP, C|CISO, NSA/IAM/IEM, and CMMC CCA, among others, and by being honored as one of the Top 100 CISOs in 2020. Her voice is respected at global conferences and events where she has presented on topics including cyber security, data protection, AI, and smart cities. She is a published author of &quot;Beyond Binary: AI and Cybersecurity,&quot; with upcoming books on cyberwarfare and national security and &quot;Navigating in the Cyber and AI Unknown.&quot;", linkedin: "", twitter: "", domain: "", location: "",
         flag: "", },
+    "martin-bauer":
+        { name: "Martin Bauer", img: "https://www.fiware.org/wp-content/directories/people/images/200px/martin-bauer.jpg", position: "Senior Researcher", company: "NEC Lab Europe", "company-link": "https://www.neclab.eu/",
+        content: "", linkedin: "https://www.linkedin.com/in/martin-bauer-a722141/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "antonio-filograna":
+        { name: "Antonio Filograna", img: "https://www.fiware.org/wp-content/directories/people/images/200px/antonio-filograna.jpg", position: "Researcher", company: "Engineering", "company-link": "https://www.eng.it/en/",
+        content: "Antonio is an expert in ICTs with special skills in areas like Open &amp; eGovernment, Social Innovation, Smart City, Data Protection and Privacy-preserving technologies, Cloud Computing, Architectural Design, Policy making. He has been involved in several European and Italian research projects dealing with several domains (public service for PA, smart mobility, smart environment, energy, FIWARE architecture) as project manager, technical designer, work package and task leader. At present, he is the Project Coordinator of DECIDO project (H202-SC6-GOVERNANCE-2020), he is also involved in SPOTTED project (CEF-TC-2020-2 Public Open Data; 2021-2024) as project leader and REBUILD project (H2020-DT-MIGRATION-06-2108 – Grant 822215) as work package leader.", linkedin: "https://www.linkedin.com/in/antoniofilograna/", twitter: "https://twitter.com/afilograna", domain: "", location: "",
+        flag: "", },
+    "sebastian-blechmann":
+        { name: "Sebastian Blechmann", img: "https://www.fiware.org/wp-content/directories/people/images/200px/sebastian-blechmann.jpg", position: "Research Associate", company: "RWTH Aachen", "company-link": "https://www.rwth-aachen.de/",
+        content: "Sebastian Blechmann is working as research associate at the Institute for Energy Efficient Buildings and Indoor Climate in the E.ON Energy Research Center of the RWTH Aachen University. He is member of a research group targeting digital energy neighborhoods and specializes in semantic interoperability and efficient data utilization. In his research, he applies FIWARE to handle data from building energy systems, structure them semantically and apply control algorithms to control various test facilities. Thereby, he focuses on control and knowledge representation in heating, ventilation and air conditioning systems. In his presentation, he will talk about his past and present developments in the building energy sector using FIWARE.", linkedin: "https://www.linkedin.com/in/sebastian-blechmann-a2b19a119/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "franck-le-gall":
+        { name: "Franck Le Gall", img: "https://www.fiware.org/wp-content/directories/people/images/200px/franck-le-gall.jpg", position: "Chief Executive Officer", company: "Easy Global Market", "company-link": "https://www.egm.io/en/egm-the-innovation-factory",
+        content: "Franck Le Gall is CEO at Easy Global Market, an innovative SME focused on integration and validation of emerging technologies. He is driving company development to deploy IoT and data technologies over vertical markets (water, agriculture, smart territories, environment, etc.). He involves himself in the standardization area including ETSI where he is co-chairman of the ETSI ISG-CIM working group on NGSI-LD. He is also chairing the interfaces working group of the FIWARE Technical Steering Committee (TSC) as well as the joint ETSI-FIWARE Foundation working group on Digital Twins. Finally, he is the Co-chair of the Smart Water working group of the ICT4Water European research cluster. He continuously contributes and drives several projects for public and private customers.", linkedin: "https://www.linkedin.com/in/francklegall/", twitter: "https://twitter.com/franck_le_gall", domain: "", location: "",
+        flag: "", },
     "roberto-di-bernardo":
         { name: "Roberto Di Bernardo", img: "https://www.fiware.org/wp-content/directories/people/images/200px/roberto-di-bernardo.jpg", position: "Head of Open Government R&amp;D Unit", company: "Engineering", "company-link": "https://www.eng.it/en/",
         content: "Roberto Di Bernardo is Senior Researcher and Head of the Open Government R&amp;D Group (part of Open Public Service Innovation Lab). He is an Electronic Engineer with Professional Master’s diplomas in “Clinical Engineering” and in “Internet Software Engineering”. He has been working as researcher at Engineering R&amp;D Laboratory since 2004, being involved in management and technical activities in many Italian and European projects. He is also acting as R&amp;D opportunity and network developer for the entire Public Sector R&amp;D area. At the moment, he is coordinating URBANAGE project (H2020-DT-Transforations-02) and his group is leading/involved in, among others, the following projects: DECIDO (H2020-DT-Governance-12), INTERSTAT (CEF-Public Open Data), SPOTTED (CEF-Public Open Data), ACROSS (H2020-DT-Governance-05), URBANITE (H2020-DT-Transformations-02). Currently he is leading the Smart Governance and Smart Cities sub-group of the Big Data Value Association and co-leading the Smart Cities Domain Committee of the FIWARE Foundation and the Digital Water Systems Working Group of Water Europe.", linkedin: "https://www.linkedin.com/in/robertodibernardo/", twitter: "", domain: "", location: "",
@@ -197,10 +196,6 @@ var modalData = {
     "antonio-jara":
         { name: "Antonio Jara", img: "https://www.fiware.org/wp-content/directories/people/images/200px/antonio-jara.jpg", position: "General Manager Smart Cities", company: "Libelium", "company-link": "https://www.libelium.com/",
         content: "Antonio has a PhD from the University of Murcia (Spain) and a MBA from the ENAE business school and UCAM (2012). He has received entrepreneurship awards from ENAE, emprendeGo, IPSO Alliance Award for its disruptive innovation in the IoT. As part of HOP Ubiquitous, Jara is focused on the Smart Cities market with solutions for citizens engagements, tourism, active participation, physical web and environmental monitoring (air quality sensors) in projects such as ENIAC SAFESENS, interoperability / pilots (SmartSDK, Synchronicity, Organicity, BeinCPPS) and also in several actions related to security/privacy (INPUT and FORTIKA).", linkedin: "https://www.linkedin.com/in/jara-libelium/", twitter: "https://twitter.com/antonio_jara", domain: "", location: "",
-        flag: "", },
-    "jose-benítez":
-        { name: "Jose Benítez", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jose-benitez.jpg", position: "Chief Executive Officer", company: "Secmotic", "company-link": "https://secmotic.com/",
-        content: "Since its establishment in 2015, Jose has been at the helm of Secmotic as CEO. His involvement on the Board of Directors of FIWARE since 2017 has contributed to shaping the future of the organization. In 2021, he embarked on a new venture, founding FIWOO Smart Solutions, a company dedicated to delivering FIWARE-based Smart City platform solutions tailored to the needs of the Spanish public sector.", linkedin: "https://www.linkedin.com/in/jose-benitez-secmotic/", twitter: "", domain: "", location: "",
         flag: "", },
     "iffat-tariq":
         { name: "Iffat Tariq", img: "https://www.fiware.org/wp-content/directories/people/images/200px/iffat-tariq.jpg", position: "Chief Digital Officer", company: "I&amp;I Software Inc", "company-link": "https://www.iandisoft.com/",
