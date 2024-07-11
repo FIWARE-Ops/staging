@@ -95,12 +95,18 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
     console.log(agenda.length, ' agenda items generated.');
     console.log(activeSpeakers.length, ' agenda speakers found.');
 
-    return _.chain(agenda)
-          .sortBy('priority')
-          .sortBy('startTime')
-          .sortBy('date')
-          .value();
-    }
+    agenda.sort((a, b)=>{
+        if (b.date.getTime() !== a.date.getTime()){
+           return a.date.getTime() - b.date.getTime();
+        }
+        if (b.startTime.getTime() !== a.startTime.getTime()){
+           return a.startTime.getTime() - b.startTime.getTime();
+        }
+        return a.priority - b.priority
+    });
+
+    return agenda;
+}
 
 
 
