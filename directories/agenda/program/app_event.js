@@ -214,10 +214,10 @@ function trackCSS(data) {
     case "Grand Opening":
       result = "light-blue";
       break;
-    case "Building collaborative business strategies":
-      result = "light-blue";
-      break;
     case "Hands-On Use Cases":
+      result = "light-yellow";
+      break;
+    case "Building collaborative business strategies":
       result = "light-yellow";
       break;
     default:
