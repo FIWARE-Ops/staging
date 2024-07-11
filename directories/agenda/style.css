@@ -299,6 +299,10 @@
     cursor: pointer;
 }
 
+.speakers.detail.summary {
+    margin: 0;
+}
+
 .speaker:last-of-type {
     margin-right: 20px;
 }
@@ -910,6 +914,7 @@ select::-ms-expand {
     align-items: center;
     gap: 10px;
     font-size: 15px;
+    line-height: 18px;
     color: #ffffff;
     background-color: #005fb9;
     padding: 8px 12px;
