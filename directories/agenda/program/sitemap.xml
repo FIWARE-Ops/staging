@@ -149,10 +149,6 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/advanced-visualization-of-digital-twin-data-for-value-creation.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
 			<loc>https://www.fiware.org/fgs-2024/maecenas-tempus--tellus-eget-condimentum-rhoncus--sem-quam-semper-libero.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -178,6 +174,10 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2024/deployment-of-fiware-on-kubernetes.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2024/advanced-visualization-of-digital-twin-data-for-value-creation.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 </urlset>
