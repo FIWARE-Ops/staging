@@ -79,7 +79,8 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
             event.shortDate = event.date.toLocaleDateString('en-GB', { month: 'long', day: 'numeric' });
             const filename = Template.createClass(event.title);
             event.social = `/fgs-${CurrentYear}/${filename}.html`;
-            event.socialImage = `/fiwaremarketplace/directories/agenda/program/${filename}.png`;
+     //       event.socialImage = `/fgs-${CurrentYear}/${filename}.png`;
+            event.socialImage = `/fiware-summit/naples-2024/agenda/program/${filename}.png`;
             event.trackColor = Template.createTrack(event.track);
             event.numSpeakers = event.speakers.length;
             eventDates.push(event.shortDate);

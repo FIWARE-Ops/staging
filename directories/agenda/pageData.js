@@ -14,7 +14,6 @@ var summitDates = [
 var sessions = [
         'Boosting the co-creation in across the domains',
         'Building more secure and resilient solutions',
-        'Data Space Technology',
         'Data Spaces Technology',
         'Digital Twins',
         'FISAB &amp; Universities',
@@ -69,7 +68,6 @@ var speakers = [
         'Juanjo Hierro',
         'Lars Nagel',
         'Laura Schipani',
-        'Lee Hung-hoon',
         'Luca Remotti',
         'Luigi Coppolino',
         'Luis Muñoz',
