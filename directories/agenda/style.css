@@ -271,7 +271,7 @@
 }
 
 .speaker {
-    width: fit-content;
+    min-width: 40%;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -1557,6 +1557,7 @@ input[type="search"]::placeholder {
     }
 
     .speaker {
+        width: fit-content;
         padding: 0;
     }
 
