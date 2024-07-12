@@ -78,7 +78,7 @@ function createTrack(data) {
         case 'Tech Training':
             result = 'light-green';
             break;
-        case 'Empowering co-creation of tech solutions':
+        case 'Co-creation of tech solutions':
             result = 'light-green';
             break;
         case 'Innovation with FIWARE':
@@ -90,7 +90,7 @@ function createTrack(data) {
         case 'Hands-On Use Cases':
             result = 'light-yellow';
             break;
-        case 'Building collaborative business strategies':
+        case 'Collaborative business strategies':
             result = 'light-yellow';
             break;
         default:
