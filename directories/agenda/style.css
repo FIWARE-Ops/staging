@@ -1546,6 +1546,10 @@ input[type="search"]::placeholder {
         padding: 5px 0 0;
     }
 
+    .speakers {
+        gap: 20px;
+    }
+
     .speakers.detail {
         white-space: normal;
         gap: 15px;
