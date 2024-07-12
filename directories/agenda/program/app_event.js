@@ -199,29 +199,29 @@ function trackCSS(data) {
   let result = "";
 
   switch (data) {
-    case "Tech & Trends":
-      result = "light-green";
-      break;
-    case "Tech Training":
-      result = "light-green";
-      break;
-    case "Co-creation of tech solutions":
-      result = "light-green";
-      break;
-    case "Innovation with FIWARE":
-      result = "light-blue";
-      break;
-    case "Grand Opening":
-      result = "light-blue";
-      break;
-    case "Hands-On Use Cases":
-      result = "light-yellow";
-      break;
-    case "Collaborative business strategies":
-      result = "light-yellow";
-      break;
+    case 'Tech & Trends':
+        result = 'light-green';
+        break;
+    case 'Tech Training':
+        result = 'light-green';
+        break;
+    case 'Co-creation of tech solutions':
+        result = 'light-green';
+        break;
+    case 'Innovation with FIWARE':
+        result = 'light-blue';
+        break;
+    case 'Grand Opening':
+        result = 'light-blue';
+        break;
+    case 'Hands-On Use Cases':
+        result = 'light-yellow';
+        break;
+    case 'Collaborative business strategies':
+        result = 'light-yellow';
+        break;
     default:
-      break;
+        break;
   }
   return result;
 }
