@@ -1,6 +1,6 @@
 var tracks = [
-        'Building collaborative business strategies',
-        'Empowering co-creation of tech solutions',
+        'Co-creation of tech solutions',
+        'Collaborative business strategies',
         'Grand Opening',
         'Hands-On Use Cases',
         'Innovation with FIWARE',
@@ -12,87 +12,103 @@ var summitDates = [
         '19-september',
 ];
 var sessions = [
+        'AI &amp; ML',
         'Boosting the co-creation in across the domains',
         'Building more secure and resilient solutions',
         'Data Spaces Technology',
         'Digital Twins',
-        'FISAB &amp; Universities',
         'FIWARE Catalog Components',
-        'Innovation projects on data interoperability',
-        'Innovation projects on data platforms and Data Spaces',
-        'Innovation projects on green and industry digital twins',
+        'FIWARE Scientific Advisory Board',
+        'Innovation projects on industrial data and robots',
+        'Innovation projects on urban planning and climate action
+',
         'NGSI-LD Basics',
+        'ROBOTICS',
         'Security and Deployments',
+        'Smart Agriculture / Bio-Diversity',
         'Smart Communities &amp; Mobility',
         'Smart Energy',
+        'Smart Industry',
+        'Smart Water',
+        'Startup Innovative Products Pitches',
+        'Startup innovative technology-based products Pitches',
+        'Sustainability and Growth of the FIWARE Ecosystem through High-Performing Local Innovation Hubs',
         'Technology Vision',
         'The Smart Data Models initiative',
 ]; 
 var speakers = [
         'Abdulrahman Ibrahim',
         'Alberto Abella',
-        'Alessandro Spigaroli',
         'Ana Garcia Robles',
         'Andrea Battaglia',
+        'Andrea Cruciani',
         'Andrea Maioli',
-        'Angelo Giuliana',
+        'Angelo Marguglio',
         'Antonella Longo',
-        'Antonello Monti',
         'Antonio Filograna',
         'Antonio Jara',
-        'Antonio Skarmeta',
         'Björn Schwarze',
         'Carmen Polcaro',
         'Christoph Schneider',
         'Dasha Davies',
-        'Davor Meersman',
+        'Denis Chikurtev',
+        'Dennis Wendland',
+        'Dimitris Kalogeras',
+        'Ernoe Kovacs',
         'Eugenia Kovatcheva',
+        'Fabiano Pallonetto',
         'Francesco Mureddu',
         'Francisco de la Vega',
         'Franck Le Gall',
+        'Frédéric Le',
         'Gaetano Volpe',
         'Gerard van der Hoeven',
-        'Gilsoni Lunardi Albino',
         'Giovanni Vaglica',
+        'Gregory Eve',
+        'Harald Sundmaeker',
         'Iffat Tariq',
         'Ilaria Bortone',
         'Jason Fox',
-        'Jessica Ocampos',
+        'Javier Conde',
         'Jesús Ruiz Martinez',
-        'Joan Antonio Bernejo',
         'Joaquín Salvachúa',
         'Jorge Hernandez',
         'Jose Benítez',
+        'Jose Miguel Barone',
+        'Josué Ramos Gómez',
         'José A. Muñoz Arcentales',
-        'José Ignacio Carretero',
         'Juanjo Hierro',
+        'Jure Lampe',
         'Lars Nagel',
         'Laura Schipani',
-        'Luca Remotti',
         'Luigi Coppolino',
         'Luis Muñoz',
         'Luka Keserič',
+        'Mads Pohl Petersson',
+        'Manfredi Pistone',
         'Mannix Manglani',
-        'Marco Schuldt',
         'Margherita Volpe',
         'Martin Bauer',
         'Matteo Repetto',
-        'Matthias Rehfeld',
         'Mireya de Diego',
         'Nejib Moalla',
         'Pierryl Massal',
+        'Piotr Elmanowski',
         'Raza Jafri',
+        'Raúl Sánchez-Mateos Lizano',
         'Roberto Di Bernardo',
         'Rocío Díaz Pereira',
-        'Satish Jamadagni',
         'Sebastian Blechmann',
         'Sophie Meszaros',
+        'Stefan Wiedemann',
         'Stefano De Panfilis',
         'Thimo Thoeye',
         'Tomohiro Kuwahara',
         'Ulrich Ahle',
         'Vincent Demortier',
+        'Walter Domenico Vergara',
         'Yasunori Mochizuki',
+        'Yuki Kato',
         'Yuzhen Li',
 ]; 
 var modalData = {
@@ -104,13 +120,13 @@ var modalData = {
         { name: "Stefano De Panfilis", img: "https://www.fiware.org/wp-content/directories/people/images/200px/stefano-depanfilis.jpg", position: "Chief Operations Officer", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
         content: "Stefano de Panfilis (m) is the Chief Operating Officer at FIWARE Foundation. He graduated cum laude in Mathematics at the University of Rome “La Sapienza”. In 1984, he was hired in Engineering Ingegneria Informatica S.P.A as a software engineer. In 1986, he became Project Manager to then move to the R&amp;D department managing the “Formal Methods” unit. In 1993, he supported Engineering to receive the ISO-9001 compliancy. From 1994, he was involved in European R&amp;D. He coordinated SeCSE (IST 6FP), aiming at implement a platform for Service-Centric Systems Engineering, CBSEnet (IST-5FP NoE), CLARiFi (IST 5FP), DOOR (ESPRIT 4FP), SQUAD (INCO-DC), and VALSE (TV&amp;TT) projects, and the ENG- SODEPRO, DECO’ and DOMINARE ESSI Process Improvement Experiments. He also coordinated QualiPSo (IST 6FP) aiming at leverage Open Source Software development to recognised industrial standards, leading a consortium of 20 partners from Europe, Brazil and China. He actively participated to create and set-up the NESSI ETP of which he is the Coordinator of the Strategic Research Agenda Committee. Since 2017, he is employed by FIWARE Foundation as Chief Operations Officer.", linkedin: "https://www.linkedin.com/in/stefano-de-panfilis-1928a11/", twitter: "https://twitter.com/depa01", domain: "", location: "",
         flag: "", },
-    "yasunori-mochizuki":
-        { name: "Yasunori Mochizuki", img: "https://www.fiware.org/wp-content/directories/people/images/200px/yasunori-mochizuki.jpg", position: "NEC Fellow", company: "NEC Corporation", "company-link": "https://www.nec.com/",
-        content: "Yasunori joined NEC in 1987, straight after concluding his PhD in Electronics Engineering. He went on to spend over two decades at NEC’s corporate R&amp;D center, first as a research scientist and later as a department manager, gaining broader technical expertise, including solid-state physics, semiconductor devices/LSIs, and computer science. Later in 2013, Yasunori started working at NEC’s newly-created Business Innovation Unit. As a senior vice president, he was responsible for the corporate-wide technology strategy and IoT business strategy. His current title of NEC Fellow means that he actively participates in innovation policy proposals, global ecosystem building related to smart society, and digital transformation. He is also a BoD member of FIWARE Foundation, World Economic Forum. Fellow, and member of Business at OECD (BIAC) Committee for Digital Economy Policy.", linkedin: "https://www.linkedin.com/in/yasunori-mochizuki-93bab674/", twitter: "https://twitter.com/yasunorimochiz", domain: "", location: "",
-        flag: "", },
     "laura-schipani":
         { name: "Laura Schipani", img: "https://www.fiware.org/wp-content/directories/people/images/200px/laura-schipani.jpg", position: "Acting CMO", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
         content: "With over 23 years of experience, Laura (f) brings a wealth of knowledge in strategic marketing and communications. Her career journey, which began with founding her own fashion brand, has led her through diverse managerial roles across consulting, pharmaceuticals, and ICT industries. She is committed to leveraging her expertise to drive growth, enhance brand distinctiveness, and develop impactful projects that resonate with audiences globally.", linkedin: "https://www.linkedin.com/in/lauraskip/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "yasunori-mochizuki":
+        { name: "Yasunori Mochizuki", img: "https://www.fiware.org/wp-content/directories/people/images/200px/yasunori-mochizuki.jpg", position: "NEC Fellow", company: "NEC Corporation", "company-link": "https://www.nec.com/",
+        content: "Yasunori joined NEC in 1987, straight after concluding his PhD in Electronics Engineering. He went on to spend over two decades at NEC’s corporate R&amp;D center, first as a research scientist and later as a department manager, gaining broader technical expertise, including solid-state physics, semiconductor devices/LSIs, and computer science. Later in 2013, Yasunori started working at NEC’s newly-created Business Innovation Unit. As a senior vice president, he was responsible for the corporate-wide technology strategy and IoT business strategy. His current title of NEC Fellow means that he actively participates in innovation policy proposals, global ecosystem building related to smart society, and digital transformation. He is also a BoD member of FIWARE Foundation, World Economic Forum. Fellow, and member of Business at OECD (BIAC) Committee for Digital Economy Policy.", linkedin: "https://www.linkedin.com/in/yasunori-mochizuki-93bab674/", twitter: "https://twitter.com/yasunorimochiz", domain: "", location: "",
         flag: "", },
     "abdulrahman-ibrahim":
         { name: "Abdulrahman Ibrahim", img: "https://www.fiware.org/wp-content/directories/people/images/200px/abdulrahman-ibrahim.jpg", position: "Chief Data and Innovation Officer", company: "MDA", "company-link": "https://www.mda.gov.sa/",
@@ -118,7 +134,7 @@ var modalData = {
         flag: "", },
     "pierryl-massal":
         { name: "Pierryl Massal", img: "https://www.fiware.org/wp-content/directories/people/images/200px/pierryl-massal.jpg", position: "VP Head of Business development", company: "Atos", "company-link": "https://atos.net/en/",
-        content: "Pierryl Massal is Vice President, Head of Global Business development at Atos, a global IT company empowering and driving progress through digital innovation to create a livable and efficient future for the citizens. In this role, Pierryl oversees Atos’ relations and operations especially in the Smart City field enabling Atos to capitalize on opportunities across all industries, including Public Sector, Hospitality, Retail, …. Pierryl has been instrumental in providing central leadership to explore, develop and recommend approaches for sustainable business growth in that domain and manage strategic and brand-promotional partnership opportunities, representation at industry events and government/legislative relations.", linkedin: "https://www.linkedin.com/in/pierryl-massal-8939aa74/", twitter: "https://twitter.com/pierrylmassal", domain: "", location: "",
+        content: "Pierryl MASSAL is Vice President, Head of Business development at Atos, a global IT company empowering and driving progress through digital innovation to create a livable and efficient future for the citizens. In this role, Pierryl oversees Atos’s relations and operations especially in the Smart City field enabling Atos to capitalize on opportunities across all industries, including Public Sector, Hospitality, Retail. Pierryl has been instrumental in providing central leadership to explore, develop and recommend approaches for sustainable business growth in that domain and manage strategic and brand-promotional partnership opportunities, representation at industry events and government/legislative relations.", linkedin: "https://www.linkedin.com/in/pierryl-massal-8939aa74/", twitter: "https://twitter.com/pierrylmassal", domain: "", location: "",
         flag: "", },
     "juanjo-hierro":
         { name: "Juanjo Hierro", img: "https://www.fiware.org/wp-content/directories/people/images/200px/juanjo-hierro.jpg", position: "Chairman FIWARE TSC", company: "", "company-link": "",
@@ -134,7 +150,7 @@ var modalData = {
         flag: "", },
     "margherita-volpe":
         { name: "Margherita Volpe", img: "https://www.fiware.org/wp-content/directories/people/images/200px/margherita-volpe.jpg", position: "Project Manager", company: "Zabala", "company-link": "https://www.zabala.eu/",
-        content: "", linkedin: "https://www.linkedin.com/in/margherita-volpe-60020235/", twitter: "", domain: "", location: "",
+        content: "Margherita Volpe is an Innovation funding and management specialist, with over 11 years’ experience in R&amp;I projects funded by the European Commission (e.g. H2020, Horizon Europe, European Defence Fund, EIT Digital, Erasmus+, Creative Europe, Life, structural funds and tenders) and innovation’s exploitation and assessment, including business modelling and technology transfer strategies’ definition. She is currently Brussels Office EU Proposals operative coordinator at Zabala Innovation Consulting Brussels and Security, Defence and Space Knowledge Area Leader. She was former Manager at EY Advisory SpA, Funding4Innovation solution and has been a EC external-reviewer for the evaluation of SME Instrument project proposals for over 2 years.", linkedin: "https://www.linkedin.com/in/margherita-volpe-60020235/", twitter: "", domain: "", location: "",
         flag: "", },
     "ulrich-ahle":
         { name: "Ulrich Ahle", img: "https://www.fiware.org/wp-content/directories/people/images/200px/ulrich-ahle.jpg", position: "Chief Executive Officer", company: "Gaia-X", "company-link": "https://gaia-x.eu/",
@@ -154,11 +170,15 @@ var modalData = {
         flag: "", },
     "mannix-manglani":
         { name: "Mannix Manglani", img: "https://www.fiware.org/wp-content/directories/people/images/200px/mannix-manglani.jpg", position: "Technological Entrepreneur", company: "MNX Online", "company-link": "http://www.mnxonline.com/",
-        content: "With a professional career spanning more than 16 years, 12 of them as an entrepreneur, Mannix Manglani is a certified FIWARE Expert who understands the real needs of companies and markets developing useful commercial solutions. He has specialised and has trained others in FIWARE technologies and is focused towards developing and promoting Smart Tourism Destinations models. Currently, while developing the Smart Tourism vertical from the Canary Islands to transform destinations through a more efficient, sustainable and attractive model, he is also: part of the i4Trust experiment of the iGreenPort consortium which promotes a DataSpace related to Smart Ports; Smart digitalisation manager at CleanCarbon Solutions and, FIWARE trainer for University students and future certified Experts.", linkedin: "https://www.linkedin.com/in/mannixmanglani/", twitter: "https://mobile.twitter.com/mnxman", domain: "", location: "",
+        content: "Mannix Manglani is the CEO of MNX Online and the main promoter behind TOURiLab FIWARE iHUB. Under his leadership, MNX Online has emerged as a leader in developing innovative solutions using FIWARE technology, focusing on data spaces for smart and sustainable tourism. The company has been recognized as one of the top 100 innovation startups in 2023 in Spain by APTE. MNX Online&#x27;s commitment to innovation is evident through its active participation in initiatives such as GAIA-X and i4Trust, promoting the adoption of data spaces in a few sector, specially in tourism. Recently, MNX Online received the accésit of Innovación y Digitalización at the SME of the Year of Las Palmas Awards 2024, further highlighting their impact in the region.", linkedin: "https://www.linkedin.com/in/mannixmanglani/", twitter: "https://mobile.twitter.com/mnxman", domain: "", location: "",
         flag: "", },
     "vincent-demortier":
         { name: "Vincent Demortier", img: "https://www.fiware.org/wp-content/directories/people/images/200px/vincent-demortier.jpg", position: "President", company: "Faubourg Numérique", "company-link": "https://dih-fbn.com/",
         content: "Vincent has multiple professional experiences in developing and deploying digital solutions: originally in industrial logistics within the automotive industry and in the food &amp; beverage industry, then as consultant for a wide variety of SMEs and finally as entrepreneur involved in the creation of new businesses. In order to contribute to the development of its regional innovative ecosystem to support the digital transition and innovation, in 2014, Vincent co-founded the association Faubourg Numérique, of which he is now president. With this entrepreneurial impulse, Faubourg Numérique is committed to the FIWARE initiative as an Innovation Hub and involved in the future EDIH Sumity. Vincent is a certified FIWARE expert, i4Trust LEBD, and DIH2 LER.", linkedin: "https://www.linkedin.com/in/vincent-demortier-fr/", twitter: "https://twitter.com/VincDemortier", domain: "", location: "",
+        flag: "", },
+    "thimo-thoeye":
+        { name: "Thimo Thoeye", img: "https://www.fiware.org/wp-content/directories/people/images/200px/thimo-thoeye.jpg", position: "Innovation Manager", company: "OASC", "company-link": "oascities.org",
+        content: "Thimo Thoeye is a technology advisor for OASC in various projects. He brings in years of experience in interoperability and linked data. Thimo is a driving force behind Open Knowledge Belgium and works for the Information and communication technology agency of the city of Ghent in Belgium.", linkedin: "https://www.linkedin.com/in/thimothoeye/", twitter: "", domain: "", location: "",
         flag: "", },
     "rocío-díaz-pereira":
         { name: "Rocío Díaz Pereira", img: "https://www.fiware.org/wp-content/directories/people/images/200px/rocio-diaz-pereira.jpg", position: "Hub Manager", company: "La Lonja Tech", "company-link": "https://lalonja.tech/en/",
@@ -172,33 +192,41 @@ var modalData = {
         { name: "Dasha Davies", img: "https://www.fiware.org/wp-content/directories/people/images/200px/dasha-davies.jpg", position: "President", company: "Stealth-ISS Group", "company-link": "https://stealth-iss.com/",
         content: "As a global cybersecurity consultant/CISO, President of Stealth-ISS Group Inc., and Board Advisor on several cyber security technology and consulting service delivery companies, Dasha is an expert in cybersecurity operations, delivery risk, and compliance and a U.S. Navy veteran. With over 25 years of experience as a technology professional, she shaped cybersecurity practices within the US Defense Industry, NATO, various national and international government agencies, and the and the commercial sector, ensuring the security of sporting events as significant as the Olympic Games and Formula 1. Her expertise is in cybersecurity, GRC, incident response, smart cities, artificial intelligence, national security/cyber warfare, and C4I services. She has a bachelor&#x27;s degree in International Relations and Foreign Affairs, a MBA, and a MSc in Information Technology and Management and Cybersecurity, respectively, complemented by her pursuit of a Doctorate in Business and a PhD (ABD) in Cyber Warfare and National Security. Her authority in cybersecurity is underscored by a suite of certifications such as CISSP, C|CISO, NSA/IAM/IEM, and CMMC CCA, among others, and by being honored as one of the Top 100 CISOs in 2020. Her voice is respected at global conferences and events where she has presented on topics including cyber security, data protection, AI, and smart cities. She is a published author of &quot;Beyond Binary: AI and Cybersecurity,&quot; with upcoming books on cyberwarfare and national security and &quot;Navigating in the Cyber and AI Unknown.&quot;", linkedin: "", twitter: "", domain: "", location: "",
         flag: "", },
-    "antonio-filograna":
-        { name: "Antonio Filograna", img: "https://www.fiware.org/wp-content/directories/people/images/200px/antonio-filograna.jpg", position: "Researcher", company: "Engineering", "company-link": "https://www.eng.it/en/",
-        content: "Antonio is an expert in ICTs with special skills in areas like Open &amp; eGovernment, Social Innovation, Smart City, Data Protection and Privacy-preserving technologies, Cloud Computing, Architectural Design, Policy making. He has been involved in several European and Italian research projects dealing with several domains (public service for PA, smart mobility, smart environment, energy, FIWARE architecture) as project manager, technical designer, work package and task leader. At present, he is the Project Coordinator of DECIDO project (H202-SC6-GOVERNANCE-2020), he is also involved in SPOTTED project (CEF-TC-2020-2 Public Open Data; 2021-2024) as project leader and REBUILD project (H2020-DT-MIGRATION-06-2108 – Grant 822215) as work package leader.", linkedin: "https://www.linkedin.com/in/antoniofilograna/", twitter: "https://twitter.com/afilograna", domain: "", location: "",
+    "eugenia-kovatcheva":
+        { name: "Eugenia Kovatcheva", img: "https://www.fiware.org/wp-content/directories/people/images/200px/eugenia-kovatcheva.jpg", position: "Research Policy Director", company: "University of Sofia", "company-link": "https://www.uni-sofia.bg/eng",
+        content: "Eugenia Kovatcheva is an Assistant Professor at the University of Sofia, Bulgaria. She has started working in the area of information technology for education since 2000 and has begun research on the psychological aspects of cyberspace and its impact on human beings.", linkedin: "https://www.linkedin.com/in/eugenia-kovatcheva/", twitter: "", domain: "", location: "",
         flag: "", },
-    "sebastian-blechmann":
-        { name: "Sebastian Blechmann", img: "https://www.fiware.org/wp-content/directories/people/images/200px/sebastian-blechmann.jpg", position: "Research Associate", company: "RWTH Aachen", "company-link": "https://www.rwth-aachen.de/",
-        content: "Sebastian Blechmann is working as research associate at the Institute for Energy Efficient Buildings and Indoor Climate in the E.ON Energy Research Center of the RWTH Aachen University. He is member of a research group targeting digital energy neighborhoods and specializes in semantic interoperability and efficient data utilization. In his research, he applies FIWARE to handle data from building energy systems, structure them semantically and apply control algorithms to control various test facilities. Thereby, he focuses on control and knowledge representation in heating, ventilation and air conditioning systems. In his presentation, he will talk about his past and present developments in the building energy sector using FIWARE.", linkedin: "https://www.linkedin.com/in/sebastian-blechmann-a2b19a119/", twitter: "", domain: "", location: "",
+    "francesco-mureddu":
+        { name: "Francesco Mureddu", img: "https://www.fiware.org/wp-content/directories/people/images/200px/francesco-mureddu.jpg", position: "Senior Director", company: "The Lisbon Council", "company-link": "https://lisboncouncil.net/",
+        content: "Francesco Mureddu is a leading analyst on innovation and technology policies with a special focus on digital transformation, big data, artificial intelligence, eGovernment, smart cities, social innovation, future science and citizen science. He holds a PhD in economics from the University of Cagliari and a master’s degree in economics from the Catholic University of Louvain.", linkedin: "https://www.linkedin.com/in/francescomureddu/", twitter: "", domain: "", location: "",
         flag: "", },
     "ilaria-bortone":
         { name: "Ilaria Bortone", img: "https://www.fiware.org/wp-content/directories/people/images/200px/ilaria-bortone.png", position: "Program Manager", company: "Meditech 4.0", "company-link": "https://meditech4.com/",
         content: "Biomedical engineer with strong expertise overseeing and managing national and international funded research projects. She is a Senior Project Manager at Meditech 4.0 Competence Center, with a mandate on EU Partnerships. Technical Coordinator of MISTRAL (GA 101095119, doi: 10.3030/101095119), an EU-funded project aimed at developing a technological toolkit for dynamic, intelligent prediction of health-related features, forecasting the trajectories of disability and quality of life reduction. More than 10 years of experience with physiological data acquisition, logging and analysis. Her research interests focus on developing new technology-driven methods and algorithms to improve diagnosis, treatment and follow-up. Active scientific collaboration with the University of Bari Aldo Moro, the Institute of Clinical Physiology, the Polytechnic University of Bari, and Scuola Superiore Sant’Anna. Adjunct Professor in Biomechanics and Bioengineering at the School of Medicine, University of Bari, mentoring PhD students. Author and co-author of over 80 publications in International Journals and Proceedings of National and International Conferences (Scopus, H-index: 16). She has been awarded several international acknowledgements (Group Study Exchange Rotary Foundation, Startcup Puglia 2016) and prizes (Ministry of Education University and Research, Tuscany Region, Ministry of Enterprises and Made in Italy, HORIZON EUROPE). She led two nationally-funded research projects (KISS-HEALTH, 2012-15, PON04a3_00097; TELOS, 2020-24, CUP J53D23005710006).", linkedin: "https://www.linkedin.com/in/ilaria-bortone-0461a146/", twitter: "", domain: "", location: "",
         flag: "", },
+    "sebastian-blechmann":
+        { name: "Sebastian Blechmann", img: "https://www.fiware.org/wp-content/directories/people/images/200px/sebastian-blechmann.jpg", position: "Research Associate", company: "RWTH Aachen", "company-link": "https://www.rwth-aachen.de/",
+        content: "Sebastian Blechmann is working as research associate at the Institute for Energy Efficient Buildings and Indoor Climate in the E.ON Energy Research Center of the RWTH Aachen University. He is member of a research group targeting digital energy neighborhoods and specializes in semantic interoperability and efficient data utilization. In his research, he applies FIWARE to handle data from building energy systems, structure them semantically and apply control algorithms to control various test facilities. Thereby, he focuses on control and knowledge representation in heating, ventilation and air conditioning systems. In his presentation, he will talk about his past and present developments in the building energy sector using FIWARE.", linkedin: "https://www.linkedin.com/in/sebastian-blechmann-a2b19a119/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "antonio-filograna":
+        { name: "Antonio Filograna", img: "https://www.fiware.org/wp-content/directories/people/images/200px/antonio-filograna.jpg", position: "Researcher", company: "Engineering", "company-link": "https://www.eng.it/en/",
+        content: "Antonio is an expert in ICTs with special skills in areas like Open &amp; eGovernment, Social Innovation, Smart City, Data Protection and Privacy-preserving technologies, Cloud Computing, Architectural Design, Policy making. He has been involved in several European and Italian research projects dealing with several domains (public service for PA, smart mobility, smart environment, energy, FIWARE architecture) as project manager, technical designer, work package and task leader. At present, he is the Project Coordinator of DECIDO project (H202-SC6-GOVERNANCE-2020), he is also involved in SPOTTED project (CEF-TC-2020-2 Public Open Data; 2021-2024) as project leader and REBUILD project (H2020-DT-MIGRATION-06-2108 – Grant 822215) as work package leader.", linkedin: "https://www.linkedin.com/in/antoniofilograna/", twitter: "https://twitter.com/afilograna", domain: "", location: "",
+        flag: "", },
     "sophie-meszaros":
         { name: "Sophie Meszaros", img: "https://www.fiware.org/wp-content/directories/people/images/200px/sophie-meszaros.jpg", position: "Project Manager", company: "OASC", "company-link": "oascities.org",
         content: "Sophie is a project coordinator and research advisor at Open &amp; Agile Smart Cities (OASC). She oversees projects like the European Data Space for Smart Communities and the Living-in.EU initiative. As part of her work at OASC, she also coordinates the development of the Minimal Interoperability Mechanisms (MIMs). Her work supports the digital transformation of smart cities and communities, focusing on trust in technology within data spaces, local digital twins, and testing facilities. Using both qualitative and quantitative methods, Sophie translates her research into practical guidelines, requirements, and recommendations, including governance models and data management plans.", linkedin: "https://www.linkedin.com/in/sophiemeszaros/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "carmen-polcaro":
+        { name: "Carmen Polcaro", img: "https://www.fiware.org/wp-content/directories/people/images/200px/carmen-polcaro.jpg", position: "Project Manager", company: "Innovalia", "company-link": "https://innovalia.org/en/",
+        content: "Experienced project manager and senior consultant with more than 15 years of experience assessing and supporting companies in their research and innovation activities, analysing their needs and providing technological solutions to foster the creation of new products and processes, improve efficiency and identify market opportunities. My scientific background is in Industrial Chemistry and Material Science, with a strong focus on R&amp;D; in 2008 I joined Innovalia Association, where I am in charge of several R+D European projects in the field of ICT solutions (IoT, Cyberphysical systems, Big Data) for the manufacturing industry.", linkedin: "https://www.linkedin.com/in/carmenpolcaro/", twitter: "", domain: "", location: "",
         flag: "", },
     "mireya-de-diego":
         { name: "Mireya de Diego", img: "https://www.fiware.org/wp-content/directories/people/images/200px/mireya-de-diego.png", position: "EU Project Coordinator", company: "CARTIF", "company-link": "https://www.cartif.es/en/home/",
         content: "Mireya de Diego (f), MSc.Eng in Industrial Electronics and Automation and Degree in Telecommunications Engineering from the University of Valladolid (Spain). Since 2013, she has been a researcher in the CARTIF Industrial and Digital Systems Division, specializing in robotic, automation and process control within the agri-food manufacturing industry. In the field of process control, she has contributed to projects such as CAPRI, ECOFACT and REGENby2, driving innovation and sustainability across various industrial sectors. Currently serves as the coordinator for the ARISE project, focusing on the HRI - human-robot interaction in diverse sectors, including manufacturing, logistic and healthcare.", linkedin: "https://www.linkedin.com/in/mireya-de-diego/", twitter: "", domain: "", location: "",
         flag: "", },
-    "andrea-maioli":
-        { name: "Andrea Maioli", img: "https://www.fiware.org/wp-content/directories/people/images/200px/andrea-maioli.jpg", position: "Postdoctoral Researcher", company: "Politecnico di Milano", "company-link": "https://www.polimi.it/",
-        content: "Andrea Maioli is a postdoctoral researcher at the Network Embedded Software Lab of Politecnico di Milano (Italy). His current research focuses on smart cities and embedded systems, with particular emphasis on enabling a battery-free computation for the embedded systems powering the Internet of Things.", linkedin: "https://www.linkedin.com/in/andrea-maioli-300a2070/", twitter: "", domain: "", location: "",
-        flag: "", },
-    "francesco-mureddu":
-        { name: "Francesco Mureddu", img: "https://www.fiware.org/wp-content/directories/people/images/200px/francesco-mureddu.jpg", position: "Senior Director", company: "The Lisbon Council", "company-link": "https://lisboncouncil.net/",
-        content: "Francesco Mureddu is a leading analyst on innovation and technology policies with a special focus on digital transformation, big data, artificial intelligence, eGovernment, smart cities, social innovation, future science and citizen science. He holds a PhD in economics from the University of Cagliari and a master’s degree in economics from the Catholic University of Louvain.", linkedin: "https://www.linkedin.com/in/francescomureddu/", twitter: "", domain: "", location: "",
+    "dimitris-kalogeras":
+        { name: "Dimitris Kalogeras", img: "https://www.fiware.org/wp-content/directories/people/images/200px/dimitris-kalogeras.jpg", position: "Research Engineer", company: "ICCS", "company-link": "https://www.ece.ntua.gr/en/iccs",
+        content: "Dimitrios Kalogeras is affiliated with the Institute of Communications &amp; Computer Systems (ICCS), National Technical University of Athens (NTUA). Within NTUA, he is a Senior Researcher at the Network Management &amp; Optimal Design Laboratory (NETMODE), School of Electrical &amp; Computer Engineering. He obtained his Engineering Diploma (1990) and the Doctorate degree (1996), both in Electrical &amp; Computer Engineering from NTUA. His research spans several aspects of advanced network technologies and protocols. He is consulting on planning the new generations of GRNET (the Greek National Research &amp; Education Network) and the NTUA Campus Local Area Network. Dr. Kalogeras was involved in several European Research &amp; Technological Development projects, e.g. on IPv6 (6Net) and on Network Security (GEANT2 / GN2 – JRA2). At the National level he was the Principal Investigator of numerous projects of ICCS/NTUA, e.g. the support of the National Greek School Network, and the ADSL and Internet over Satellite pilot studies for the Greek incumbent (OTE). He served in several European Commission technical panels and, for two terms, he was with the Technical Committee of the Trans-European Research &amp; Education Networking (TERENA). He is the author of several research papers and regularly delivers invited lectures on advanced networking concepts in Greek, European and international events.", linkedin: "https://www.linkedin.com/in/dimitris-kalogeras-8ba7b7/?originalSubdomain&#x3D;gr", twitter: "", domain: "", location: "",
         flag: "", },
     "antonella-longo":
         { name: "Antonella Longo", img: "https://www.fiware.org/wp-content/directories/people/images/200px/antonella-longo.jpg", position: "Professor", company: "University of Salento", "company-link": "https://sydalab.unisalento.it/en/",
@@ -207,10 +235,6 @@ var modalData = {
     "nejib-moalla":
         { name: "Nejib Moalla", img: "https://www.fiware.org/wp-content/directories/people/images/200px/nejib-moalla.jpg", position: "Professor", company: "Université Lumière Lyon 2", "company-link": "https://welcome.univ-lyon2.fr/",
         content: "Prof. Nejib Moalla, received a master degree in Computer Science. He finished his Ph.D. thesis in 2007 and hisnhabilitation in 2015. He held the responsibility of the project management department between 2008 and 2012. His research activities deal with software and data engineering to support digital transformation with finalised solutionsin Manufacturing, Healthcare, Smart Farming, etc. In software engineering, the developed research concepts and solutions cover: software quality, service-oriented architectures, microservice architecture, performance-based service reuse, service personalisation, ontology engineering, knowledge management, decision support, etc. In data engineering, the research activities cover: the application of data-driven artificial intelligence technics (Machine Learning, etc.) to support decision-making processes in a digital twin perspective. Nejib Moalla is in charge of the DIH ICT4Manuf. As a project manager, he coordinates regional industrial projects and continues to be involved in different collaborative and international projects: H2020 DIH4CPS (2020-2022), EPlus ENHANCE (2021-2024, Coordinator), EPlus TETRIS (2021-2024), H2020 vf-OS (2017-2019), FIPPP FP7 FITMAN (2013-2015), etc. He is a member of several international program committees (IPC) of international journals and conferences.", linkedin: "https://www.linkedin.com/in/n%C3%A9jib-moalla-7b846513/", twitter: "https://twitter.com/nejib_moalla", domain: "", location: "",
-        flag: "", },
-    "antonello-monti":
-        { name: "Antonello Monti", img: "https://www.fiware.org/wp-content/directories/people/images/200px/antonello-monti.jpg", position: "Professor &amp; Institute Director", company: "RWTH Aachen University", "company-link": "https://www.rwth-aachen.de/go/id/a/?lidx&#x3D;1",
-        content: "Prof. Antonello Monti received his M.Sc degree (summa cum laude) and his PhD in Electrical Engineering from Politecnico di Milano, Italy in 1989 and 1994 respectively. He started his career in Ansaldo Industria and then moved in 1995 to Politecnico di Milano as Assistant Professor. In 2000 he joined the Department of Electrical Engineering of the University of South Carolina (USA) as Associate and then Professor. Since 2008 he is the director of the Institute for Automation of Complex Power System within the E.ON Energy Research Center at RWTH Aachen University. From 2019 he holds a double appointment with Fraunhofer FIT where he is developing the new Center for Digital Energy in Aachen. Prof. Monti is author or coauthor of more than 400 peer-reviewed papers published in international Journals and in the proceedings of International conferences. He is a Senior Member of IEEE, Associate Editor of the IEEE System Journal, Associate Editor of IEEE Electrification Magazine, Member of the Editorial Board of the Elsevier Journal SEGAN and member of the founding board of the Springer Journal “Energy Informatics”. Dr. Monti was the recipient of the 2017 IEEE Innovation in Societal Infrastructure Award.", linkedin: "https://www.linkedin.com/in/antonellomonti/", twitter: "", domain: "", location: "",
         flag: "", },
     "luis-muñoz":
         { name: "Luis Muñoz", img: "https://www.fiware.org/wp-content/directories/people/images/200px/luis-munoz.jpg", position: "Professor", company: "University of Cantabria", "company-link": "https://web.unican.es/en/Pages/default.aspx",
@@ -223,6 +247,18 @@ var modalData = {
     "joaquín-salvachúa":
         { name: "Joaquín Salvachúa", img: "https://www.fiware.org/wp-content/directories/people/images/200px/joaquin-salvachua.jpg", position: "Professor", company: "UPM", "company-link": "https://www.upm.es/internacional",
         content: "Prof. Joaquín Salvachúa received a master degree in Computer Science. He holds the Orange Chair for the “Science of Complex Networks” and the Kairos Chair on “Bank Middleware and Blockchain” at UPM and is a member of the UPM-ING and CyberAula groups. He has participated in several European research projects with several publications at international magazines, books and conferences. (https://orcid.org/0000-0002-7269-8079). Also have participated in several standardization activities, including been coauthor one RFC ( RFC 8802 ).His research focuses today on WebRTC, Cloud infrastructure, social graphs and recommendation, agile cloud infrastructures, P2P, DHT (Distributed HashTables), IOT, Non SQL Data Bases, Big data processing architectures, Identity Management and BlockChain distributed agreement algorithms.His teaching duties includes cloud computing, distributed application development, Databases, Web Full-stack development, Blockchain architecture, Data Engineering and Big data architecture and applications. Has been involved in the FIWARE Initiative since it started (2010) and he is architect and developer of several GE related to security, data persistence and Big Data analysis.", linkedin: "https://es.linkedin.com/in/jsalvachua", twitter: "https://twitter.com/jsalvachua", domain: "", location: "",
+        flag: "", },
+    "gregory-eve":
+        { name: "Gregory Eve", img: "https://www.fiware.org/wp-content/directories/people/images/200px/gregory-eve.png", position: "Chief Executive Officer", company: "greenApes", "company-link": "https://www.greenapes.com/en/",
+        content: "Gregory Eve is CEO and co-Founder of greenApes, the digital platform rewarding sustainable lifestyles. Before founding greenApes he organised and performed the “Sustainability World Tour” delivering workshops in companies, schools, municipalities and NGOs, across 19 countries (but no flights) in Europe, Middle East &amp; Northern Africa and Asia (project supported by Lund University, Wuppertal Institute, UNIDO, Eurail, IKEA). Gregory holds a Master’s degree in Environmental Engineering (University of Florence - Italy) and a MSc in Environmental Management and Policy (Lund University - Sweden).", linkedin: "https://www.linkedin.com/in/gregoryeve/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "frédéric-le":
+        { name: "Frédéric Le", img: "https://www.fiware.org/wp-content/directories/people/images/200px/frederic-le.png", position: "Partner", company: "youragileway", "company-link": "https://youragileway.com/",
+        content: "President of Youragileway, is an AFNeT expert who represents the association on the Gaia-X Architecture Working Group. He is contributing to the Specialist Task Force STF 676 (Usage domains mappings) of ETSI. He is specifying how to both establish and maintain the number of connections between NGSI-LD entities and their geographical 2D/3D representations. His areas of expertise cover Data Spaces design, the Smart Cities, software architecture and agile methods.", linkedin: "https://www.linkedin.com/in/frederic-le-708777//", twitter: "", domain: "", location: "",
+        flag: "", },
+    "piotr-elmanowski":
+        { name: "Piotr Elmanowski", img: "https://www.fiware.org/wp-content/directories/people/images/200px/piotr-elmanowski.jpg", position: "Senior Software Developer", company: "Bosch", "company-link": "https://www.bosch.pl/",
+        content: "Piotr Elmanowski is the founder and main developer of the Green-Powers-Forecast.com app. A passionate programmer, he has always been fascinated by the forces of nature, the weather, and its forecasts. He has been coding since primary school (over 20 years). He currently has 12 years of commercial experience, which he gained working in a fintech startup, running his own web development company, and, for the last 8 years, working for large corporations. He is experienced in full-stack development with JavaScript, Python, HTML, CSS, SQL, and PHP. In recent years, he has been focused on AI and machine learning development.", linkedin: "https://www.linkedin.com/in/piotrelmanowski/", twitter: "", domain: "", location: "",
         flag: "", },
     "roberto-di-bernardo":
         { name: "Roberto Di Bernardo", img: "https://www.fiware.org/wp-content/directories/people/images/200px/roberto-di-bernardo.jpg", position: "Head of Open Government R&amp;D Unit", company: "Engineering", "company-link": "https://www.eng.it/en/",
@@ -248,6 +284,38 @@ var modalData = {
         { name: "Luigi Coppolino", img: "https://www.fiware.org/wp-content/directories/people/images/200px/luigi-coppolino.jpg", position: "Professor", company: "Parthenope University", "company-link": "https://www.uniparthenope.it/",
         content: "Luigi Coppolino is an Associate Professor at the University of Naples Parthenope. After his graduation in Computer Engineering at the University of Naples Federico II, in 2004 he got a Master degree in Dependable Architectures at the University of Campania Vanvitelli (former Second University of Naples). He moved to the industry with a quick experience at InCard Spa (currently ST Microelectronic) and Ansaldo Segnalamento Ferroviario (currently Hitachi Rail Italy) after that he moved back to the University where he got a Ph.D. degree in Computer Engineering from the University of Naples Federico II. In 2006 the TrustedSIM, javacard based project, developed by Mr. Coppolino, was one of the winners of the 7th SIMAGINE contest, sponsored by Axalto, SUN Microsystems, and Samsung. His research activity mainly focuses on dependability (performance/performability, reliability, availability, safety e security) of critical networked computing systems, such as telemedicine, e-government, and video surveillance applications, or avionics, railways, and automotive systems. During his Ph.D, Mr. Coppolino was at the University of New South Wales (Sydney), as Visiting Researcher, working with prof. Branko Celler’s research group to the security of the Home Telecare system developed and distributed by prof. Branko Celler’s research group. Luigi Coppolino is/has been engaged in several research projects funded by the European Community in the framework of FP7 and H2020 funding programs. He is indeed the Technical Coordinator of the COMPACT research project and he was leading was one of the principal investigators of the projects STREAM (Scalable Autonomic Streaming Middleware for Real-time Processing of Massive Data Flows), Grant agreement no. 216181, INTERSECTION (INfrastructure for heTErogeneous, Resilient, SEcure, Complex, Tightly Inter-Operating Networks), Grant agreement no. 216585, INSPIRE (INcreasing Security and Protection through Infrastructure Resilience), Grant agreement no. 225553, MASSIF (MAnagement of Security information and events in Service InFrastructures), Grant agreement no. 257475, SAWSOC (Situation AWare Security Operations Center), Grant agreement no. 313034, LeanBigData, Grant agreement no. 619606, SERECA (Secure Enclaves for REactive Cloud Applications), KONFIDO (Secure and Trusted Paradigm for Interoperable eHealth Services), Grant agreement no. 727528.", linkedin: "https://www.linkedin.com/in/luigi-coppolino-0701366/", twitter: "", domain: "", location: "",
         flag: "", },
+    "fabiano-pallonetto":
+        { name: "Fabiano Pallonetto", img: "https://www.fiware.org/wp-content/directories/people/images/200px/fabio-pallonetto.png", position: "Professor", company: "Maynooth University", "company-link": "https://www.maynoothuniversity.ie/",
+        content: "Fabiano Pallonetto, a Professor in Management Information Systems, specializes in integrating data systems for energy optimization, smart grids, and local flexibility markets. His research focuses on leveraging advanced data analytics and machine learning to predict energy consumption patterns, optimize distribution, and improve grid stability. By integrating diverse data sources such as real-time energy usage and weather forecasts, Pallonetto creates comprehensive datasets that inform energy management strategies. He pioneers the development of intelligent control algorithms and centralized data repositories to enable real-time demand response programs, reducing energy waste and enhancing grid resilience. Additionally, Pallonetto&#x27;s work on local flexibility markets facilitates decentralized energy resource management, fostering a culture of sustainability and collective action for energy efficiency and carbon reduction. Through community engagement initiatives and AI-enhanced learning frameworks, he empowers local communities with the tools and knowledge to participate in sustainable energy practices. As the coordinator of RES4CITY and a WP Leader in several EU projects, including NEXSYS-ENERGY and THE FLOW Project, Pallonetto continues to drive innovation in sustainable energy solutions.", linkedin: "https://www.linkedin.com/in/fabianopallonetto/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "denis-chikurtev":
+        { name: "Denis Chikurtev", img: "https://www.fiware.org/wp-content/directories/people/images/200px/denis-chikurtev.jpg", position: "Associate Professor", company: "ULSIT", "company-link": "https://www.unibit.bg/en",
+        content: "Denis Chikurtev is a PhD in Cybernetics and Robotics since 2017. Since 2021 till now I am Associate professor in Bulgarian Academy of Sciences and ULSIT. My research expertise is within robotics, information technologies, IoT, embedded systems, communication networks.", linkedin: "https://www.linkedin.com/in/denis-chikurtev-20522b176/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "ernoe-kovacs":
+        { name: "Ernoe Kovacs", img: "https://www.fiware.org/wp-content/directories/people/images/200px/erno-kovacs.jpg", position: "Senior Manager", company: "NEC Lab Europe", "company-link": "https://www.neclab.eu/",
+        content: "Ernö started his journey in the scientific world as a student working for IBM Scientific Center in Heidelberg, Germany, where he got to know more about the research process and how the boundaries of technologies were pushed worldwide. He then moved on to do his PhD at the University of Stuttgart with a long-term collaboration and research visit to HP in Fort Collins, Colorado, USA. Afterward, he joined Sony’s research lab to work on topics such as mobile communication, context-aware services, and broadband multimedia. In the early 2000s, Ernö was leading teams at NEC, establishing context-aware services and IoT as a long term research topic.", linkedin: "https://www.linkedin.com/in/ern%C3%B6-kovacs-1459041/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "angelo-marguglio":
+        { name: "Angelo Marguglio", img: "https://www.fiware.org/wp-content/directories/people/images/200px/angelo-marguglio.jpg", position: "Head of Data Platforms &amp; Ecosystems Unit", company: "Engineering", "company-link": "https://www.eng.it/en/",
+        content: "Angelo Marguglio is the head of the “Smart Industry and Agrifood” Unit within the Industry and Security Technologies, Research and Innovation (IS3) Lab. Main role as Research Area Manager mainly concerns with coordinating a group of more than 30 researchers using state-of-the-art PM methodologies (e.g. PMP and Agile/SCRUM); defining the strategic roadmap and the operational plans of the Unit; coordinating several research projects and collaborating with the Industry Business Unit of the Engineering Group.", linkedin: "https://www.linkedin.com/in/amarguglio/", twitter: "https://twitter.com/angmarguglio", domain: "", location: "",
+        flag: "", },
+    "harald-sundmaeker":
+        { name: "Harald Sundmaeker", img: "https://www.fiware.org/wp-content/directories/people/images/200px/harald-sundmaeker.jpg", position: "Senior Researcher", company: "ATB Bremen", "company-link": "https://www.atb-bremen.de/",
+        content: "Since 1998, Harald has been working in the field of innovation and research. He was joining FIWARE from the very beginning, having a focus on realising potentials for stakeholders in the food systems. He was managing as well as contributing to several projects, making use of FIWARE open source. This included the realisation of solutions running in the food system as well as promoting the involvement of startups and SMEs in the scope of acceleration initiatives and RTD programmes.", linkedin: "https://www.linkedin.com/in/sundmaeker", twitter: "https://twitter.com/HSundmaeker", domain: "", location: "",
+        flag: "", },
+    "josué-ramos-gómez":
+        { name: "Josué Ramos Gómez", img: "https://www.fiware.org/wp-content/directories/people/images/200px/josue-ramos-gomez.jpg", position: "FIWARE Technology Coordinator, La Vega Innova iHub", company: "MB3-GESTION", "company-link": "https://mb3-gestion.com/",
+        content: "Josué Ramos is a Geomatics Engineer with more than 10 years of experience across various industries. Currently, as a FIWARE Expert, Josué serves as a FIWARE Facilitator at the AgriFoodTech iHub La Vega Innova. In this role, he supports the implementation and integration of data into La Vega Innova&#x27;s FIWARE platform, collaborating with different companies and developers on pilot projects. Additionally, Josué trains startups on FIWARE and mentors them through the process of obtaining FIWARE certifications, including FIWARE Ready and Powered by FIWARE.", linkedin: "https://www.linkedin.com/in/josueramosgomez/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "andrea-maioli":
+        { name: "Andrea Maioli", img: "https://www.fiware.org/wp-content/directories/people/images/200px/andrea-maioli.jpg", position: "Postdoctoral Researcher", company: "Politecnico di Milano", "company-link": "https://www.polimi.it/",
+        content: "Andrea Maioli is a postdoctoral researcher at the Network Embedded Software Lab of Politecnico di Milano (Italy). His current research focuses on smart cities and embedded systems, with particular emphasis on enabling a battery-free computation for the embedded systems powering the Internet of Things.", linkedin: "https://www.linkedin.com/in/andrea-maioli-300a2070/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "andrea-cruciani":
+        { name: "Andrea Cruciani", img: "https://www.fiware.org/wp-content/directories/people/images/200px/andrea-cruciani.jpg", position: "Chief Executive Officer", company: "Agricolus", "company-link": "https://www.agricolus.com/",
+        content: "Andrea is the Agricolus co-founder and CEO, member of FIWARE Foundation BoD, Chairman of the FIWARE Smart AgriFood MSC. He runs the international business area and the financial aspects of the company and he has a technical background and experience in applications Development, Enterprise Architectures, Cloud Computing, and GIS. Andrea is involved in Innovative Startup Evolution and scaleup, during the years he worked with Public Administration, multinational companies, NGOs, and SMEs. He is a speaker for several universities and public events where he is invited to discuss entrepreneurship and digital transformation, and he is a contributor in several technical articles and publications about agritech.", linkedin: "https://www.linkedin.com/in/andreacruciani/", twitter: "https://twitter.com/kokkete", domain: "", location: "",
+        flag: "", },
     "jesús-ruiz-martinez":
         { name: "Jesús Ruiz Martinez", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jesus-ruiz.jpg", position: "Chief Technology Officer", company: "Alastria", "company-link": "https://alastria.io/en/",
         content: "Member of the board and CTO of Alastria Blockchain Ecosystem, participates in the Technical Governance of EBSI (European Blockchain Services Infrastructure from European Commission and Member States), and in LACChain (blockchain network promoted by the Inter-American Development Bank). He inspired the Public-Permissioned model followed by those networks, where decentralized governance and SSI are critical components.", linkedin: "https://www.linkedin.com/in/jesus-ruiz-martinez/", twitter: "", domain: "", location: "",
@@ -264,13 +332,13 @@ var modalData = {
         { name: "Francisco de la Vega", img: "https://www.fiware.org/wp-content/directories/people/images/200px/francisco-de-la-vega.jpg", position: "Chief Technology Officer", company: "Ficodes", "company-link": "https://www.ficodes.com/en/",
         content: "Francisco de la Vega (male) is co-founder and CTO of the spanish startup FICODES as well as FIWARE architect. Francisco held a Master of Science in Computer Science from Universidad Politécnica de Madrid in 2015. Currently, he is making his Ph.D. in Computer Science in Universidad Politécnica de Madrid focusing on digital service management and monetization, automated revenue sharing, and value chain aggregation. As a researcher of the Computer Networks and Web Technologies Laboratory (CoNWeT Lab.) of UPM, he was engaged in several EU projects around the FIWARE platform starting in 2012, including FI-WARE and FI-CORE. Later, as CTO of FICODES he has been involved in multiple projects as FIWARE Architect, with a special focus in logistics, Smart Port and Smart City platforms. He has been actively participating on the FIWARE Community initially as the FIWARE Business Framework GEs owner (Store, Marketplace, Repository, and Revenue Settlement and Sharing system), and later as the FIWARE/TMF Business API Ecosystem GE owner, which integrates the aforementioned GEs with standard TMForum technologies. He is a member of the Data/API Management, Publication and Monetization FIWARE’s Technical Steering Committee.", linkedin: "https://www.linkedin.com/in/fdelavegagarcia", twitter: "https://twitter.com/frandlvega", domain: "", location: "",
         flag: "", },
-    "raza-jafri":
-        { name: "Raza Jafri", img: "https://www.fiware.org/wp-content/directories/people/images/200px/raza-jafri.jpg", position: "Chief Executive Officer", company: "Metaworldx", "company-link": "https://www.metaworldx.com/",
-        content: "Raza Jafri is a global entrepreneur, investor, and speaker, he is the founder and Chief Executive Officer of MetaWorldX, a world-class AI digital twin technology company that creates immersive and realistic simulations of urban environments for smart cities, cleantech, and other sectors. He launched MetaWorldX at the World Smart City Congress in Barcelona, Spain, and received the Top 40 Under 40 Sustainability Star Award for 2023 for his innovative and impactful work.", linkedin: "https://www.linkedin.com/in/razajafri", twitter: "", domain: "", location: "",
+    "dennis-wendland":
+        { name: "Dennis Wendland", img: "https://www.fiware.org/wp-content/directories/people/images/200px/dennis-wendland.jpg", position: "Technical Lead &amp; Architect", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
+        content: "Dennis Wendland (m) is a Technical Lead and Architect at the FIWARE Foundation where he is involved in a variety of projects in the field of data spaces. He holds a doctorate in high energy physics from Humboldt University of Berlin gaining a broad experience in the development of particle collision data analysis software and the statistical analysis of large data sets. His doctoral dissertation was about the search of new elementary particles at high-energy collisions at the CERN Large Hadron Collider in Geneva. After his doctorate, he has also worked at T-Systems and Deutsche Telekom AG acquiring expertise in the development, architecture and management of large software projects.", linkedin: "https://www.linkedin.com/in/dennis-wendland/", twitter: "", domain: "", location: "",
         flag: "", },
-    "giovanni-vaglica":
-        { name: "Giovanni Vaglica", img: "https://www.fiware.org/wp-content/directories/people/images/200px/giovanni-vaglica.jpg", position: "IT Engineer", company: "JRC – EC", "company-link": "https://joint-research-centre.ec.europa.eu",
-        content: "Giovanni Vaglica is an IT engineer, specialised in the development and implementation of Smart City systems and smart infrastructures. He is responsible of the technical implementation and development of the Smart City digital platform test-bed of the EC Joint Research Centre - E.3 Unit, Safety and Security of Buildings, aimed at developing and testing technologies and solutions in real-world urban environment scenarios. As the platform&#x27;s architect, he carries out research and development to develop scalable and interoperable solutions to support Smart city applications for critical infrastructures. Additionally, the integration of heterogeneous IoT sensors and wireless networks in a very secure networking environment is a key focus of his work.", linkedin: "linkedin.com/in/giovanni-vaglica-55103a197", twitter: "", domain: "", location: "",
+    "stefan-wiedemann":
+        { name: "Stefan Wiedemann", img: "https://www.fiware.org/wp-content/directories/people/images/200px/stefan-wiedemann.jpg", position: "Technical Lead &amp; Architect", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
+        content: "", linkedin: "https://www.linkedin.com/in/stefan-wiedemann-37a0ba13a/", twitter: "", domain: "", location: "",
         flag: "", },
     "martin-bauer":
         { name: "Martin Bauer", img: "https://www.fiware.org/wp-content/directories/people/images/200px/martin-bauer.jpg", position: "Senior Researcher", company: "NEC Lab Europe", "company-link": "https://www.neclab.eu/",
@@ -283,6 +351,46 @@ var modalData = {
     "alberto-abella":
         { name: "Alberto Abella", img: "https://www.fiware.org/wp-content/directories/people/images/200px/alberto-abella.jpg", position: "Data Modeling Expert &amp; Evangelist", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
         content: "Alberto Abella (m) is PhD in Business (Open data) and Telecommunications Engineer and Master in Total Quality Management, Business Administration and Business Organization. He works as a Data Modelling Expert and Technical Evangelist at FIWARE and currently is the responsible person for the smart data models initiative.", linkedin: "https://www.linkedin.com/in/albertoabella/", twitter: "https://twitter.com/aabella", domain: "", location: "",
+        flag: "", },
+    "raza-jafri":
+        { name: "Raza Jafri", img: "https://www.fiware.org/wp-content/directories/people/images/200px/raza-jafri.jpg", position: "Chief Executive Officer", company: "Metaworldx", "company-link": "https://www.metaworldx.com/",
+        content: "Raza Jafri is a global entrepreneur, investor, and speaker, he is the founder and Chief Executive Officer of MetaWorldX, a world-class AI digital twin technology company that creates immersive and realistic simulations of urban environments for smart cities, cleantech, and other sectors. He launched MetaWorldX at the World Smart City Congress in Barcelona, Spain, and received the Top 40 Under 40 Sustainability Star Award for 2023 for his innovative and impactful work.", linkedin: "https://www.linkedin.com/in/razajafri", twitter: "", domain: "", location: "",
+        flag: "", },
+    "giovanni-vaglica":
+        { name: "Giovanni Vaglica", img: "https://www.fiware.org/wp-content/directories/people/images/200px/giovanni-vaglica.jpg", position: "IT Engineer", company: "JRC – EC", "company-link": "https://joint-research-centre.ec.europa.eu",
+        content: "Giovanni Vaglica is an IT engineer, specialised in the development and implementation of Smart City systems and smart infrastructures. He is responsible of the technical implementation and development of the Smart City digital platform test-bed of the EC Joint Research Centre - E.3 Unit, Safety and Security of Buildings, aimed at developing and testing technologies and solutions in real-world urban environment scenarios. As the platform&#x27;s architect, he carries out research and development to develop scalable and interoperable solutions to support Smart city applications for critical infrastructures. Additionally, the integration of heterogeneous IoT sensors and wireless networks in a very secure networking environment is a key focus of his work.", linkedin: "linkedin.com/in/giovanni-vaglica-55103a197", twitter: "", domain: "", location: "",
+        flag: "", },
+    "raúl-sánchez-mateos-lizano":
+        { name: "Raúl Sánchez-Mateos Lizano", img: "https://www.fiware.org/wp-content/directories/people/images/200px/raul-sanchez-mateos-lizano.png", position: "Software Engineer", company: "eProsima", "company-link": "https://www.eprosima.com/",
+        content: "Software engineer from UPM and robotics engineer from KTH, I am currently a software developer and project manager at eProsima, also leading international innovation and research projects such as ALMA and SustainML. In the past I have worked on IoT communications and distributed artificial intelligence projects applied to the industrial field.", linkedin: "https://www.linkedin.com/in/raulsanchezmateos/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "manfredi-pistone":
+        { name: "Manfredi Pistone", img: "https://www.fiware.org/wp-content/directories/people/images/200px/manfredi-pistone.jpg", position: "Researcher", company: "Engineering", "company-link": "https://www.eng.it/en/",
+        content: "Researcher, member of “Digital Industry and Agrifood” Unit within the Industry and Security Technologies, Research and Innovation (IS3) Lab at Engineering Ingegneria Informatica. He graduated in 2018 in Computer Engineering at the University of Palermo (Italy). Since 2018 he has been involved in EU and Italian research projects as solution designer and developer, and technical leader of many activities, fostering the adoption of Open Source technologies in the manufacturing domain.", linkedin: "https://www.linkedin.com/in/manfredi-pistone-224878119/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "walter-domenico-vergara":
+        { name: "Walter Domenico Vergara", img: "https://www.fiware.org/wp-content/directories/people/images/200px/walter-domenico-vergara.jpg", position: "Senior Researcher", company: "Engineering", "company-link": "https://www.eng.it/en/",
+        content: "Master&#x27;s degree with laude in Computer Engineering from the University of Palermo, actually working in the Digital Platforms &amp; Ecosystems unit for Engineering Ingegneria Informatica S.p.A. With a solid background on European research projects and initiatives, I&#x27;m a software development specialist in industry domain, working on system integration and design of edge-cloud data platforms to enable AI execution in smart factories. Active contributor in FIWARE community as FIWARE Expert.", linkedin: "https://www.linkedin.com/in/walter-vergara/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "javier-conde":
+        { name: "Javier Conde", img: "https://www.fiware.org/wp-content/directories/people/images/200px/javier-conde.jpg", position: "Assistant Professor", company: "UPM", "company-link": "https://www.upm.es/internacional",
+        content: "Assistant Professor with the UPM. I teach Big Data, Databases, Telecommunication Networks, and Web Engineering subjects. My research interests lie in the fields of Open Linked Data, Digital Twins, Big Data and Machine Learning. In the FIWARE ecosystem I contribute to the Draco GE and study architectures based on FIWARE GEs and FIWARE Smart Data Models.", linkedin: "https://es.linkedin.com/in/javier-conde-diaz", twitter: "https://twitter.com/JaviConD3", domain: "", location: "",
+        flag: "", },
+    "mads-pohl-petersson":
+        { name: "Mads Pohl Petersson", img: "https://www.fiware.org/wp-content/directories/people/images/200px/mads-pohl-petersson.png", position: "Product Innovation Manager", company: "KMD Group", "company-link": "https://www.kmd.net/",
+        content: "With innovation in the ascendant Mads has earned experience in most roles relevant to digital product management; covering marketing, sales, development and delivery of a software product. Mads was a main driver in digitalising the oldest insurance company in Denmark, he has been part of building an innovation department in Nilfisk and now he is the main driver of long-term innovative product development in KMD, one of the biggest suppliers of software to the Danish public sector. Current focus is FIWARE, interoperability and data spaces.", linkedin: "https://www.linkedin.com/in/madspetersson/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "jose-miguel-barone":
+        { name: "Jose Miguel Barone", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jose-miguel-barone.jpg", position: "Director", company: "Intendencia de Montevideo", "company-link": "https://montevideo.gub.uy/",
+        content: "Jose Barone is an IT Engineer with experience in Open Source apps and services development on central architectures, motivated by innovation and interoperability to create value services to the community. He is currently the Director of the Smart City Platform in the city of Montevideo, Uruguay.", linkedin: "https://www.linkedin.com/in/jose-miguel-barone-a7272b20/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "jure-lampe":
+        { name: "Jure Lampe", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jure-lampe.png", position: "Chief Executive Officer", company: "SenLab d.o.o.", "company-link": "https://senlab.io/en/about-us",
+        content: "SenLab is an IoT consulting company that I founded and lead as the CEO and owner since 2014. My mission is to deliver knowledge, answers, and solutions for IoT projects in various domains, such as Industry 4.0, logistics, smart cities, home automation, healthcare, research and education. With over 20 years of experience in this field, I have developed core competencies in IoT concept design, prototyping, testing, and deployment, as well as new business development, consulting, and team leadership. I hold a BS in Computer and Information Science and I am pursuing a PhD in Business and Management, which enable me to combine technical expertise with business acumen and creativity. I am passionate about solving complex problems with simple, innovative, and user-friendly IoT solutions that have a positive impact on society and the environment. I have led and participated in multiple award-winning IoT projects, such as IoTool, IoChat, and RelaxedCare, that demonstrate the potential and value of IoT in various settings and scenarios.", linkedin: "https://www.linkedin.com/in/jurelampe/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "yuki-kato":
+        { name: "Yuki Kato", img: "https://www.fiware.org/wp-content/directories/people/images/200px/yuki-kato.jpg", position: "Project Manager &amp; Researcher", company: "Toyooka City Hall", "company-link": "https://toyooka-city.jp/",
+        content: "Yuki Kato is affiliated with the Toyooka City Hall in Hyogo Prefecture. He currently leads workshops for regional revitalization using digital tools and design at the Toyooka Smart Community. With a background as a recording engineer and systems engineer, Kato brings a unique blend of technical and creative expertise to his role, driving innovative community development initiatives.", linkedin: "", twitter: "", domain: "", location: "",
         flag: "", },
     "jason-fox":
         { name: "Jason Fox", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jason-fox.jpg", position: "Senior Technical Expert &amp; Evangelist", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
