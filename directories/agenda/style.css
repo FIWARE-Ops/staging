@@ -214,6 +214,7 @@
 
 .excerpt.detail {
     font-size: 1.3em;
+    line-height: 1.4em;
 }
 
 /* .grid-item ul {
@@ -1524,6 +1525,7 @@ input[type="search"]::placeholder {
 
     .excerpt.detail {
         font-size: 1.2em;
+        line-height: 1.4em;
     }
 
     .panel-info {
