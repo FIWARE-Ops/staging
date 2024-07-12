@@ -25,7 +25,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/working-together-for-a-healthier-planet.html</loc>
+			<loc>https://www.fiware.org/fgs-2024/looking-into-the-visionary-technologies-for-a-sustainable-growth.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -41,7 +41,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/leveraging-data-spaces-with-satellite-remote-sensing-and-ai-for-climate-resilience-and-sustainable-urban-development.html</loc>
+			<loc>https://www.fiware.org/fgs-2024/practical-use-of-fiware-and-mims-as-a-tool-for--local--government-it-procurement.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -49,7 +49,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/data-spaces--paving-the-way-for-sustainable-and-smart-tourism.html</loc>
+			<loc>https://www.fiware.org/fgs-2024/the-port-as-a-driving-force-for-innovation-in-the-region-.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -61,7 +61,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/practical-use-of-fiware-and-mims-as-a-tool-for--local--government-it-procurement.html</loc>
+			<loc>https://www.fiware.org/fgs-2024/data-spaces--paving-the-way-for-sustainable-and-smart-tourism.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -69,11 +69,11 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/the-port-as-a-driving-force-for-innovation-in-the-region-.html</loc>
+			<loc>https://www.fiware.org/fgs-2024/leveraging-data-spaces-with-satellite-remote-sensing-and-ai-for-climate-resilience-and-sustainable-urban-development.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/dome--the-european-cloud-and-edge-markeplace.html</loc>
+			<loc>https://www.fiware.org/fgs-2024/the-european-cloud-and-edge-markeplace.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -89,6 +89,10 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2024/fiware-around-the-world.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2024/ai--cyber--and-smart-cities.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -98,10 +102,6 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2024/risk-mitigation-and-cost-reduction-in-the-implementation-of-technology-stack-on-fiware-based.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
-			<loc>https://www.fiware.org/fgs-2024/fiware-around-the-world.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -121,7 +121,15 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2024/mlops.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2024/calliope--working-towards-the-first-one-health-data-space-to-empower-the-new-urban-era-.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2024/welcome-and-intro-from-city-representative.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -149,7 +157,11 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/fiware-data-connector.html</loc>
+			<loc>https://www.fiware.org/fgs-2024/elements-of-a-foundational-data-spaces-framework.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2024/building-real-time-inference-ai-services-with-fiware---ai-on-edge---edge-processing---slms.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -165,7 +177,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/-arise--open-source--real-time-middleware-for-human-robotic-interaction-for-industry.html</loc>
+			<loc>https://www.fiware.org/fgs-2024/arise--open-source--real-time-middleware-for-human-robotic-interaction-for-industry.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -182,6 +194,10 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2024/how-ngsi-ld-empowers-you-to-develop-advanced-digital-twins.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2024/concepts-of-basic-security.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -213,11 +229,19 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2024/introduction-to-data-spaces-connector-components.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2024/balancing-growth-and-environmental-responsibility.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2024/vulcanexus--a-ros2-distribution-focused-on-efficient-robotics-and-ready-for-integration-into-fiware-architectures.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2024/decentralized-iam-in-fiware.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -242,6 +266,10 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2024/iot-agent-ui---a-user-friendly-interface-for-iotagent-node-lib-based-agents.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2024/trust-services-for-data-spaces.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -274,6 +302,10 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2024/intendencia-de-montevideo.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2024/visualizations-of-context-data.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
