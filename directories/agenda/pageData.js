@@ -20,8 +20,7 @@ var sessions = [
         'FIWARE Catalog Components',
         'FIWARE Scientific Advisory Board',
         'Innovation projects on industrial data and robots',
-        'Innovation projects on urban planning and climate action
-',
+        'Innovation projects on urban planning and climate action',
         'NGSI-LD Basics',
         'ROBOTICS',
         'Security and Deployments',
@@ -92,6 +91,7 @@ var speakers = [
         'Matteo Repetto',
         'Mireya de Diego',
         'Nejib Moalla',
+        'Nvidia',
         'Pierryl Massal',
         'Piotr Elmanowski',
         'Raza Jafri',
