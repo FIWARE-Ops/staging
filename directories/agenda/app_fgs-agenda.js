@@ -417,7 +417,6 @@ function smoothScroll() {
   });
 }
 
-/*
 function horizontalScroll() {
   // Horizontal Scroll
   var sliders = document.querySelectorAll(".speakers");
@@ -454,7 +453,6 @@ function horizontalScroll() {
     });
   });
 }
-*/
 
 function checkboxChecked() {
   var input_checkboxes = document.querySelectorAll(
