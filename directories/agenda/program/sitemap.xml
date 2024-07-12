@@ -217,10 +217,6 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
 			<loc>https://www.fiware.org/fgs-2024/vulcanexus--a-ros2-distribution-focused-on-efficient-robotics-and-ready-for-integration-into-fiware-architectures.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
