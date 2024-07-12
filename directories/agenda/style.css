@@ -246,7 +246,7 @@
 
 .speakers-container {
     width: 100%;
-    padding: 0 0 20px 20px;
+    padding: 0 20px 20px 20px;
 }
 
 .speakers {
@@ -254,18 +254,12 @@
     width: 100%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
-    gap: 20px;
-    /* height: 100vh; */
-    overflow-x: scroll;
-    overflow-y: hidden;
+    gap: 10px;
     white-space: nowrap;
     padding: 0 !important;
     transition: all 0.2s;
-    /*transform: scale(0.98);*/
-    will-change: transform;
-    user-select: none;
-    cursor: grab;
 }
 
 .speakers.detail {
@@ -305,7 +299,7 @@
 }
 
 .speaker:last-of-type {
-    margin-right: 20px;
+    /* margin-right: 20px; */
 }
 
 .speaker:hover {
@@ -1574,7 +1568,7 @@ input[type="search"]::placeholder {
     }
 
     .speaker:last-of-type {
-        margin-right: 20px!important;
+        /* margin-right: 20px!important; */
     }
 
     .speaker-info {
