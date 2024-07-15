@@ -59,7 +59,7 @@ var speakers = [
         'Antonello Monti',
         'Antonio Filograna',
         'Antonio Jara',
-        'Bernhard Schmit',
+        'Bernhard Schmidt',
         'Björn Schwarze',
         'Carmen Polcaro',
         'Christoph Schneider',
@@ -187,6 +187,10 @@ var modalData = {
     "jose-benítez":
         { name: "Jose Benítez", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jose-benitez.jpg", position: "Chief Executive Officer", company: "Secmotic", "company-link": "https://secmotic.com/",
         content: "Since its establishment in 2015, Jose has been at the helm of Secmotic as CEO. His involvement on the Board of Directors of FIWARE since 2017 has contributed to shaping the future of the organization. In 2021, he embarked on a new venture, founding FIWOO Smart Solutions, a company dedicated to delivering FIWARE-based Smart City platform solutions tailored to the needs of the Spanish public sector.", linkedin: "https://www.linkedin.com/in/jose-benitez-secmotic/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "bernhard-schmidt":
+        { name: "Bernhard Schmidt", img: "https://www.fiware.org/wp-content/directories/people/images/200px/bernhard-schmidt.jpg", position: "Team Leader Digital Technology", company: "City of Vienna", "company-link": "https://www.wien.gv.at/english/",
+        content: "Bernhard Schmid started his studies of land use planning at the University of Technology in Vienna after his school leaving examination in 1981. He received his degree in Business Administration from the Business Development Institute in Vienna and began working for a company, where he built up and headed the purchase department. Since 1991 he has been employed with the Vienna Business Agency. After several years in the real estate department he changed to the European department where he became project manager of a EU object project “IT Cluster Vienna” which started in October 2003.  Mr. Schmid is an expert in dealing with (EU) funding’s and consulting IT-companies. In 2014 the “IT Cluster Vienna” was reorganized and changed to the “Technology Services” department, where he is now the team leader of the “Digital Technologies” team with similar tasks than before. The focus lies on innovative digital companies. He hosted several conferences and matchmaking events at home and abroad. He attended various trainings and completed seminars in the field of IT and has a profound understanding of the Austrian IT Market and is a great networker. He is the main contact person for the FIWARE Foundation, and the VBA has been a Gold Member of the Foundation since its beginning.", linkedin: "", twitter: "", domain: "", location: "",
         flag: "", },
     "björn-schwarze":
         { name: "Björn Schwarze", img: "https://www.fiware.org/wp-content/directories/people/images/200px/bjorn-schwarze.jpg", position: "Chief Executive Officer", company: "ADDIX", "company-link": "https://www.addix.net/",
