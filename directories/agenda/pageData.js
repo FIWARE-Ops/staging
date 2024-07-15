@@ -47,6 +47,8 @@ var speakers = [
         'Abdulrahman Ibrahim',
         'Alberto Abella',
         'Alessandro Errico',
+        'Alessandro Spigaroli',
+        'Amina Syriou',
         'Ana Garcia Robles',
         'Andrea Battaglia',
         'Andrea Cruciani',
@@ -54,8 +56,10 @@ var speakers = [
         'Angelo Giuliana',
         'Angelo Marguglio',
         'Antonella Longo',
+        'Antonello Monti',
         'Antonio Filograna',
         'Antonio Jara',
+        'Bernhard Schmit',
         'Björn Schwarze',
         'Carmen Polcaro',
         'Christoph Schneider',
@@ -85,6 +89,7 @@ var speakers = [
         'Harald Sundmaeker',
         'Iffat Tariq',
         'Ilaria Bortone',
+        'James Erlich',
         'Jason Fox',
         'Javier Conde',
         'Jessica Ocampos',
@@ -97,6 +102,7 @@ var speakers = [
         'José A. Muñoz Arcentales',
         'José Ignacio Carretero',
         'Juan Antonio Bermejo',
+        'Juan Sanchez',
         'Juanjo Hierro',
         'Jure Lampe',
         'Lars Nagel',
@@ -128,7 +134,6 @@ var speakers = [
         'Roberto Di Bernardo',
         'Rocío Díaz Pereira',
         'Satish Jamadagni',
-        'Schmid Bernhard',
         'Sebastian Blechmann',
         'Silvia Campailla',
         'Sophie Meszaros',
@@ -170,6 +175,10 @@ var modalData = {
     "pierryl-massal":
         { name: "Pierryl Massal", img: "https://www.fiware.org/wp-content/directories/people/images/200px/pierryl-massal.jpg", position: "VP Head of Business development", company: "Atos", "company-link": "https://atos.net/en/",
         content: "Pierryl MASSAL is Vice President, Head of Business development at Atos, a global IT company empowering and driving progress through digital innovation to create a livable and efficient future for the citizens. In this role, Pierryl oversees Atos’s relations and operations especially in the Smart City field enabling Atos to capitalize on opportunities across all industries, including Public Sector, Hospitality, Retail. Pierryl has been instrumental in providing central leadership to explore, develop and recommend approaches for sustainable business growth in that domain and manage strategic and brand-promotional partnership opportunities, representation at industry events and government/legislative relations.", linkedin: "https://www.linkedin.com/in/pierryl-massal-8939aa74/", twitter: "https://twitter.com/pierrylmassal", domain: "", location: "",
+        flag: "", },
+    "angelo-giuliana":
+        { name: "Angelo Giuliana", img: "https://www.fiware.org/wp-content/directories/people/images/200px/angelo-giuliana.jpg", position: "General Director", company: "Meditech 4.0", "company-link": "https://meditech4.com/",
+        content: "", linkedin: "https://www.linkedin.com/in/angelogiuliana/", twitter: "", domain: "", location: "",
         flag: "", },
     "juanjo-hierro":
         { name: "Juanjo Hierro", img: "https://www.fiware.org/wp-content/directories/people/images/200px/juanjo-hierro.jpg", position: "Chairman FIWARE TSC", company: "", "company-link": "",
@@ -274,6 +283,10 @@ var modalData = {
     "nejib-moalla":
         { name: "Nejib Moalla", img: "https://www.fiware.org/wp-content/directories/people/images/200px/nejib-moalla.jpg", position: "Professor", company: "Université Lumière Lyon 2", "company-link": "https://welcome.univ-lyon2.fr/",
         content: "Prof. Nejib Moalla, received a master degree in Computer Science. He finished his Ph.D. thesis in 2007 and hisnhabilitation in 2015. He held the responsibility of the project management department between 2008 and 2012. His research activities deal with software and data engineering to support digital transformation with finalised solutionsin Manufacturing, Healthcare, Smart Farming, etc. In software engineering, the developed research concepts and solutions cover: software quality, service-oriented architectures, microservice architecture, performance-based service reuse, service personalisation, ontology engineering, knowledge management, decision support, etc. In data engineering, the research activities cover: the application of data-driven artificial intelligence technics (Machine Learning, etc.) to support decision-making processes in a digital twin perspective. Nejib Moalla is in charge of the DIH ICT4Manuf. As a project manager, he coordinates regional industrial projects and continues to be involved in different collaborative and international projects: H2020 DIH4CPS (2020-2022), EPlus ENHANCE (2021-2024, Coordinator), EPlus TETRIS (2021-2024), H2020 vf-OS (2017-2019), FIPPP FP7 FITMAN (2013-2015), etc. He is a member of several international program committees (IPC) of international journals and conferences.", linkedin: "https://www.linkedin.com/in/n%C3%A9jib-moalla-7b846513/", twitter: "https://twitter.com/nejib_moalla", domain: "", location: "",
+        flag: "", },
+    "antonello-monti":
+        { name: "Antonello Monti", img: "https://www.fiware.org/wp-content/directories/people/images/200px/antonello-monti.jpg", position: "Professor &amp; Institute Director", company: "RWTH Aachen University", "company-link": "https://www.rwth-aachen.de/go/id/a/?lidx&#x3D;1",
+        content: "Prof. Antonello Monti received his M.Sc degree (summa cum laude) and his PhD in Electrical Engineering from Politecnico di Milano, Italy in 1989 and 1994 respectively. He started his career in Ansaldo Industria and then moved in 1995 to Politecnico di Milano as Assistant Professor. In 2000 he joined the Department of Electrical Engineering of the University of South Carolina (USA) as Associate and then Professor. Since 2008 he is the director of the Institute for Automation of Complex Power System within the E.ON Energy Research Center at RWTH Aachen University. From 2019 he holds a double appointment with Fraunhofer FIT where he is developing the new Center for Digital Energy in Aachen. Prof. Monti is author or coauthor of more than 400 peer-reviewed papers published in international Journals and in the proceedings of International conferences. He is a Senior Member of IEEE, Associate Editor of the IEEE System Journal, Associate Editor of IEEE Electrification Magazine, Member of the Editorial Board of the Elsevier Journal SEGAN and member of the founding board of the Springer Journal “Energy Informatics”. Dr. Monti was the recipient of the 2017 IEEE Innovation in Societal Infrastructure Award.", linkedin: "https://www.linkedin.com/in/antonellomonti/", twitter: "", domain: "", location: "",
         flag: "", },
     "luis-muñoz":
         { name: "Luis Muñoz", img: "https://www.fiware.org/wp-content/directories/people/images/200px/luis-munoz.jpg", position: "Professor", company: "University of Cantabria", "company-link": "https://web.unican.es/en/Pages/default.aspx",

@@ -81,6 +81,10 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2024/how-space-technology-and-applications-can-help-towards-the-green-energy-transition.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2024/data-persistence-of-context-data.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -185,10 +189,6 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/bringing-new-vision-into-the-fiware-world.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
 			<loc>https://www.fiware.org/fgs-2024/visual-tool-for-prototyping-iot-platforms-supporting-semantic-interoperability-and-blockchain.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -206,6 +206,10 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2024/service-execution-and-analytical-services-with-ngsi-ld.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2024/bringing-new-vision-into-the-fiware-world.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -257,7 +261,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/get-future-insights-today---ai-generated-forecasts-of-green-electricity.html</loc>
+			<loc>https://www.fiware.org/fgs-2024/get-future-insights-today--ai-generated-forecasts-of-green-electricity.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -265,7 +269,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/iot-agent-ui---a-user-friendly-interface-for-iotagent-node-lib-based-agents.html</loc>
+			<loc>https://www.fiware.org/fgs-2024/iot-agent-ui--a-user-friendly-interface-for-iotagent-node-lib-based-agents.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -309,7 +313,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/fiware-in-a-box---how-to-start-using-fiware--learn-and-prototype-integrated-solutions-in-hours.html</loc>
+			<loc>https://www.fiware.org/fgs-2024/fiware-in-a-box--how-to-start-using-fiware--learn-and-prototype-integrated-solutions-in-hours.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
