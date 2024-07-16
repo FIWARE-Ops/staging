@@ -71,7 +71,7 @@ function setClipboard() {
   navigator.clipboard.write(data).then(
     () => {
       /* success */
-      alert("Link copied to clipboard");
+      alert("Link copied to clipboard. Share session details with others!");
     },
     () => {
       /* failure */
