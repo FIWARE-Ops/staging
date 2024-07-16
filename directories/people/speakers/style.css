@@ -225,7 +225,7 @@
     cursor: pointer;
 }
 
-.btn-primary:hover, .btn-primary:active, .btn-primary:focus, .twitter:hover, .linkedin:hover {
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus, .twitter::before:hover, .linkedin::before:hover {
     background-color: #8ad2dc;
 }
 
