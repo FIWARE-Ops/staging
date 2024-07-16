@@ -107,7 +107,6 @@ var speakers = [
         'Jure Lampe',
         'Lars Nagel',
         'Laura Schipani',
-        'Linux Foundation',
         'Lissandra Tamayo',
         'Luigi Coppolino',
         'Luis Muñoz',
