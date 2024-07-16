@@ -289,7 +289,7 @@
 
 .cat-bio {
     position: relative;
-    width: 32px;
+    width: auto;
     /* margin-right: 12px; */
     cursor: pointer;
 }
