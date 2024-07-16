@@ -1,39 +1,39 @@
 {{#each this}}
-    <div
-        class='grid-item
-            {{createClass company}}
-            {{createClass country}}
-            {{createClass department}}
-            {{createClasses filters}}
-            {{createClass domain}}'
-    >
-        {{#if bio}}<a class="cat-bio" data-modal='{{@index}}'>{{/if}}
-            <div class='f-cat active'>
-                <img alt='' class='city-photo' src='{{img}}' loading='lazy' />
-                <div class='profile-details'>
-                    <h6 class='name'>{{title}}{{name}}</h6>
-                    <h4 class='position'>{{job}}</h4>
-                    <a target='_blank' href='{{website}}' rel='noopener'>
-                        <h5 class='company-link'>{{company}}{{companyType}}</h5>
-                    </a>
+    {{#if bio}}<a class="cat-bio" data-modal='{{@index}}'>{{/if}}
+        <div
+            class='grid-item
+                {{createClass company}}
+                {{createClass country}}
+                {{createClass department}}
+                {{createClasses filters}}
+                {{createClass domain}}'
+        >
+                <div class='f-cat active'>
+                    <img alt='' class='city-photo' src='{{img}}' loading='lazy' />
+                    <div class='profile-details'>
+                        <h6 class='name'>{{title}}{{name}}</h6>
+                        <h4 class='position'>{{job}}</h4>
+                        <a target='_blank' href='{{website}}' rel='noopener'>
+                            <h5 class='company-link'>{{company}}{{companyType}}</h5>
+                        </a>
+                    </div>
+                    <div class='icons'> 
+                        {{#if twitter}}
+                            <a class='cat-twitter' target='_blank' href='{{twitter}}' rel='noopener'><span
+                                    class='icon twitter'
+                                ></span></a>
+                        {{/if}}
+                        {{#if linkedIn}}
+                            <a class='cat-linkedin' target='_blank' href='{{linkedIn}}' rel='noopener'><span
+                                    class='icon linkedin'
+                                ></span></a>
+                        {{/if}}
+                        <a class="btn-primary" href="https://www.fiware.org/global-summit/agenda/?speaker={{createClass name}}">
+                            <span class="material-symbols-outlined">view_agenda</span>
+                            Panels
+                        </a>
+                    </div>
                 </div>
-                <div class='icons'> 
-                    {{#if twitter}}
-                        <a class='cat-twitter' target='_blank' href='{{twitter}}' rel='noopener'><span
-                                class='icon twitter'
-                            ></span></a>
-                    {{/if}}
-                    {{#if linkedIn}}
-                        <a class='cat-linkedin' target='_blank' href='{{linkedIn}}' rel='noopener'><span
-                                class='icon linkedin'
-                            ></span></a>
-                    {{/if}}
-                    <a class="btn-primary" href="https://www.fiware.org/global-summit/agenda/?speaker={{createClass name}}">
-                        <span class="material-symbols-outlined">view_agenda</span>
-                        Panels
-                    </a>
-                </div>
-            </div>
-        {{#if bio}}</a>{{/if}}
-    </div>
+        </div>
+    {{#if bio}}</a>{{/if}}
 {{/each}}
