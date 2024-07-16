@@ -1,0 +1,45 @@
+{{#each this}}
+    <div
+        class='grid-item
+            {{createClass company}}
+            {{createClass country}}
+            {{createClass department}}
+            {{createClasses filters}}
+            {{createClass domain}}'
+    >
+        <div class='f-cat active'>
+            <img alt='' class='city-photo' src='{{img}}' loading='lazy' />
+            <div class='profile-details'>
+                <h6 class='name'>{{title}}{{name}}</h6>
+                <h4 class='position'>{{job}}</h4>
+                <a target='_blank' href='{{website}}' rel='noopener'>
+                    <h5 class='company-link'>{{company}}{{companyType}}</h5>
+                </a>
+                {{#if department}}
+                    <div class='department'>{{department}}</div>
+                {{/if}}
+                {{#if domain}}
+                    <div class='chip-domain'>{{domain}}</div>
+                {{/if}}
+            </div>
+            <div class='icons'>
+                {{#if bio}}
+                    <a class='cat-bio' data-modal='{{@index}}'><span class='icon bio'></span></a>
+                {{/if}}
+                {{#if twitter}}
+                    <a class='cat-twitter' target='_blank' href='{{twitter}}' rel='noopener'><span
+                            class='icon twitter'
+                        ></span></a>
+                {{/if}}
+                {{#if linkedIn}}
+                    <a class='cat-linkedin' target='_blank' href='{{linkedIn}}' rel='noopener'><span
+                            class='icon linkedin'
+                        ></span></a>
+                {{/if}}
+                <a class='cat-twitter' href="https://www.fiware.org/global-summit/agenda/?speaker={{createClass name}}">
+                    <span class='icon bio'></span>
+                </a>
+            </div>
+        </div>
+    </div>
+{{/each}}

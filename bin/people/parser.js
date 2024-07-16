@@ -96,7 +96,11 @@ function parse(file, page) {
 
             filterData.filters = _.sortBy(_.uniq(filters), Sorter.caseInsensitive);
 
-            Template.write(path.join(PEOPLE_DIR, page, 'people.html'), path.join(TEMPLATE_PATH, 'card.hbs'), people);
+            if(page === 'speakers'){
+                Template.write(path.join(PEOPLE_DIR, page, 'people.html'), path.join(TEMPLATE_PATH, 'speaker-card.hbs'), people);
+            } else {
+                Template.write(path.join(PEOPLE_DIR, page, 'people.html'), path.join(TEMPLATE_PATH, 'card.hbs'), people);
+            }
             Template.write(
                 path.join(PEOPLE_DIR, page, 'pageData.js'),
                 path.join(TEMPLATE_PATH, 'modal.hbs'),
