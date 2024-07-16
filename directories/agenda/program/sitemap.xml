@@ -305,7 +305,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/intendencia-de-montevideo.html</loc>
+			<loc>https://www.fiware.org/fgs-2024/integrate-solutions-and-data-management.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -313,15 +313,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/fiware-in-a-box--how-to-start-using-fiware--learn-and-prototype-integrated-solutions-in-hours.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
 			<loc>https://www.fiware.org/fgs-2024/q-a.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
-			<loc>https://www.fiware.org/fgs-2024/toyooka-city-hall.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 </urlset>
