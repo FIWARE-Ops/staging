@@ -225,9 +225,10 @@
     cursor: pointer;
 }
 
-/* .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
-    background-color: #8ad2dc;
-} */
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    /* background-color: #8ad2dc; */
+    color: #005fb9;
+}
 
 .icons {
     padding: 0px;
