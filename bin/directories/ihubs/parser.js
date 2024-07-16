@@ -18,18 +18,18 @@ function extractIHubs(input) {
     const iHubs = [];
     input.forEach((item) => {
         const iHub = {
-            name: item['Name'],
-            city: item['City'],
-            img: item['Image'] ? item['Image'] : DEFAULT_IMAGE,
-            domain: Parser.splitStrings(item['Domain']),
-            type: item['Type'],
-            linkedIn: item['LinkedIn'],
-            twitter: item['Twitter'],
-            website: item['Website'],
-            country: item['Country'],
+            name: item.Name,
+            city: item.City,
+            img: item.Image ? item.Image : DEFAULT_IMAGE,
+            domain: Parser.splitStrings(item.Domain),
+            type: item.Type,
+            linkedIn: item.LinkedIn,
+            twitter: item.Twitter,
+            website: item.Website,
+            country: item.Country,
             flag: item['Country flag'],
-            content: Parser.markdown(item['Content']),
-            publish: Parser.boolean(item['Published'])
+            content: Parser.markdown(item.Content),
+            publish: Parser.boolean(item.Published)
         };
 
         if (iHub.website || iHub.twitter || iHub.linkedIn) {
@@ -48,7 +48,7 @@ function extractIHubs(input) {
     console.log(iHubs.length, ' iHubs generated.');
 
     return iHubs.sort((a, b) => {
-        return ('' + a.name).localeCompare(b.name);
+        return String(a.name).localeCompare(b.name);
     });
 }
 
@@ -80,7 +80,6 @@ function parse(file) {
         })
         .catch((e) => {
             console.log(e);
-            return;
         });
 }
 

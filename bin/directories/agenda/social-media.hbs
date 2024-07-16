@@ -10,17 +10,24 @@
 
 <meta name="description" content="{{excerpt}}">
 <meta name="keywords" content="FIWARE,{{track}}">
+{{#if description}}
 <meta http-equiv="refresh" content="1; url=https://www.fiware.org/global-summit/agenda/program?id={{createClass title}}" />
-
+{{else}}
+<meta http-equiv="refresh" content="1; url=https://www.fiware.org/global-summit/agenda/program-details-summary/?id={{createClass title}}" />
+{{/if}}
 <!-- Open Graph Tags -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="FIWARE Global Summit: {{title}} ({{track}})">
-<meta property="og:description" content="{{excerpt}}">
+<meta property="og:title" content="FIWARE Global Summit: {{title}}">
+{{#if session}} 
+<meta property="og:description" content="{{track}} - {{session}}">
+{{else}}
+<meta property="og:description" content="{{track}}">
+{{/if}}
 <meta property="og:url" content="https://www.fiware.org/global-summit/agenda/program?id={{createClass title}}">
 <meta property="og:site_name" content="FIWARE">
-<meta property="og:image" content="https://www.fiware.org/wp-content/uploads/FGS24_GeneralBanner-1.png">
-<meta property="og:image:secure_url" content="https://www.fiware.org/wp-content/uploads/FGS24_GeneralBanner-1.png">
+<meta property="og:image" content="https://fiware.org/{{socialImage}}">
+<meta property="og:image:secure_url" content="https://fiware.org/{{socialImage}}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="627">
 <meta property="og:image:alt" content="{{name}}">
@@ -28,11 +35,15 @@
 
 <!-- Twitter Tags -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="FIWARE Global Summit: {{title}} ({{track}})">
-<meta name="twitter:description" content="{{excerpt}}">
+<meta name="twitter:title" content="FIWARE Global Summit: {{title}}">
+{{#if session}} 
+<meta property="twitter:description" content="{{track}} - {{session}}">
+{{else}}
+<meta property="twitter:description" content="{{track}}">
+{{/if}}
 <meta name="twitter:site" content="@FIWARE">
 <meta name="twitter:creator" content="@FIWARE">
-<meta name="twitter:image" content="https://www.fiware.org/wp-content/uploads/FGS24_GeneralBanner-1.png">
+<meta name="twitter:image" content="https://fiware.org{{socialImage}}">
 <meta name="twitter:label1" content="Time to read">
 <meta name="twitter:data1" content="5 minutes">
 

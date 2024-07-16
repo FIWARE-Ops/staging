@@ -3,5 +3,6 @@ var departments = [
         'Mid Level',
         'Senior Level',
 ]; var domains = [
+        'Admin and Accounting Team',
         'Tech Team',
 ];

@@ -16,7 +16,7 @@
 /* Card */
 
 .grid-item {
-    width: 80%;
+    width: 70%;
     margin-bottom: 32px;
     background: #fff;
     display: flex;
@@ -26,7 +26,7 @@
     border: 1px solid #f0f0f0;
     transition: box-shadow 0.4s;
     border-radius: 4px;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .grid-item:hover {
@@ -214,6 +214,7 @@
 
 .excerpt.detail {
     font-size: 1.3em;
+    line-height: 1.4em;
 }
 
 /* .grid-item ul {
@@ -245,7 +246,7 @@
 
 .speakers-container {
     width: 100%;
-    padding: 0 0 20px 20px;
+    padding: 0 20px 20px 20px;
 }
 
 .speakers {
@@ -253,18 +254,12 @@
     width: 100%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
-    gap: 20px;
-    /* height: 100vh; */
-    overflow-x: scroll;
-    overflow-y: hidden;
+    gap: 10px;
     white-space: nowrap;
     padding: 0 !important;
     transition: all 0.2s;
-    /*transform: scale(0.98);*/
-    will-change: transform;
-    user-select: none;
-    cursor: grab;
 }
 
 .speakers.detail {
@@ -276,7 +271,7 @@
 }
 
 .speaker {
-    width: fit-content;
+    min-width: 45%;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -299,8 +294,12 @@
     cursor: pointer;
 }
 
+.speakers.detail.summary {
+    margin: 0;
+}
+
 .speaker:last-of-type {
-    margin-right: 20px;
+    /* margin-right: 20px; */
 }
 
 .speaker:hover {
@@ -481,8 +480,9 @@
 
 .foot {
     display: flex;
+    justify-content: flex-end;
     width: 100%;
-    padding: 0px 40px 40px 40px;
+    padding: 0px 20px 20px 20px;
 }
 
 .details {
@@ -910,6 +910,7 @@ select::-ms-expand {
     align-items: center;
     gap: 10px;
     font-size: 15px;
+    line-height: 18px;
     color: #ffffff;
     background-color: #005fb9;
     padding: 8px 12px;
@@ -1519,6 +1520,7 @@ input[type="search"]::placeholder {
 
     .excerpt.detail {
         font-size: 1.2em;
+        line-height: 1.4em;
     }
 
     .panel-info {
@@ -1544,6 +1546,10 @@ input[type="search"]::placeholder {
         padding: 5px 0 0;
     }
 
+    .speakers {
+        gap: 20px;
+    }
+
     .speakers.detail {
         white-space: normal;
         gap: 15px;
@@ -1551,6 +1557,7 @@ input[type="search"]::placeholder {
     }
 
     .speaker {
+        width: fit-content;
         padding: 0;
     }
 
@@ -1567,7 +1574,7 @@ input[type="search"]::placeholder {
     }
 
     .speaker:last-of-type {
-        margin-right: 20px!important;
+        /* margin-right: 20px!important; */
     }
 
     .speaker-info {

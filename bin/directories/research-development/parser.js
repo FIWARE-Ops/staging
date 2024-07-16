@@ -19,47 +19,45 @@ function extractProjects(input) {
     const projects = [];
     input.forEach((item) => {
         const project = {
-            name: item['Name'],
-            img: item['Image'] ? item['Image'] : DEFAULT_IMAGE,
-            domains: Parser.splitStrings(item['Domain']),
-            technologies: Parser.splitStrings(item['Technology']),
-            type: item['Type'],
-            contact: item['Contact'],
-            linkedIn: item['LinkedIn'],
-            twitter: item['Twitter'],
-            website: item['Website'],
-            partners: item['Partners'],
+            name: item.Name,
+            img: item.Image ? item.Image : DEFAULT_IMAGE,
+            domains: Parser.splitStrings(item.Domain),
+            technologies: Parser.splitStrings(item.Technology),
+            type: item.Type,
+            contact: item.Contact,
+            linkedIn: item.LinkedIn,
+            twitter: item.Twitter,
+            website: item.Website,
+            partners: item.Partners,
             partnersLocation: item['Partner Location'],
             tenderLink: item['Tender Link'],
             partnersDetails: Parser.markdown(item['Partner Details']),
             grantAgreement: item['Grant Agreement'],
-            flag: item['Flag'],
+            flag: item.Flag,
             startDate: Parser.date(item['Start Date']),
             endDate: Parser.date(item['End Date']),
             country: item['Funded By'],
-            disclaimant: item['Disclaimant'],
-            excerpt: item['Excerpt'],
-            description: Parser.markdown(item['Description']),
+            disclaimant: item.Disclaimant,
+            excerpt: item.Excerpt,
+            description: Parser.markdown(item.Description),
             program1: Parser.notBlank(item['Program 1']),
             program1Link: Parser.notBlank(item['Program 1 Link']),
             program2: Parser.notBlank(item['Program 2']),
             program2Link: Parser.notBlank(item['Program 2 Link']),
-            topic: Parser.notBlank(item['Topic']),
+            topic: Parser.notBlank(item.Topic),
             topicLink: Parser.notBlank(item['Topic Link']),
             article1: Parser.notBlank(item['Article 1']),
             article1Link: Parser.notBlank(item['Article 1 Link']),
             article2: Parser.notBlank(item['Article 2']),
             article2Link: Parser.notBlank(item['Article 2 Link']),
-            publish: Parser.boolean(item['Published'])
+            publish: Parser.boolean(item.Published)
         };
 
         project.year = project.startDate ? project.startDate.getFullYear().toString() : 'unknown';
         project.type = project.endDate < today ? 'Completed' : 'Ongoing';
 
-        const filename= Template.createClass(project.name);
-        project.social = `/project/${filename}.html`
-        
-
+        const filename = Template.createClass(project.name);
+        project.social = `/project/${filename}.html`;
 
         if (project.website || project.twitter || project.linkedIn) {
             project.contacts = true;
@@ -77,7 +75,7 @@ function extractProjects(input) {
     console.log(projects.length, ' projects generated.');
 
     return projects.sort((a, b) => {
-         return ('' + a.name.toLowerCase()).localeCompare(b.name.toLowerCase());
+        return String(a.name.toLowerCase()).localeCompare(b.name.toLowerCase());
     });
 }
 
@@ -128,21 +126,20 @@ function parse(file) {
                 path.join(TEMPLATE_PATH, 'sitemap-html.hbs'),
                 projects
             );
-             Template.write(
+            Template.write(
                 path.join(RESEARCH_DEVELOPMENT_DIR, 'project/sitemap.xml'),
                 path.join(TEMPLATE_PATH, 'sitemap-xml.hbs'),
                 projects
             );
 
-             projects.forEach ((project, index) =>{
-
-                const filename= Template.createClass(project.name);
+            projects.forEach((project) => {
+                const filename = Template.createClass(project.name);
                 Template.write(
                     path.join(RESEARCH_DEVELOPMENT_DIR, `project/${filename}.html`),
                     path.join(TEMPLATE_PATH, 'social-media.hbs'),
-                project);
+                    project
+                );
                 Prettier.format(path.join(RESEARCH_DEVELOPMENT_DIR, `project/${filename}.html`), { parser: 'html' });
-
             });
 
             Prettier.format(path.join(RESEARCH_DEVELOPMENT_DIR, 'research.html'), { parser: 'html' });
@@ -152,7 +149,6 @@ function parse(file) {
         })
         .catch((e) => {
             console.log(e);
-            return;
         });
 }
 

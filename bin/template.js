@@ -1,7 +1,9 @@
+
 const Handlebars = require('handlebars');
 const path = require('path');
 const fs = require('fs-extra');
 const _ = require('underscore');
+const nodeHtmlToImage = require('node-html-to-image');
 
 const notFound = `<!doctype html>
 <html lang="en-US">
@@ -11,6 +13,23 @@ const notFound = `<!doctype html>
 </head>
 <body/>
 </html>`;
+
+const font2base64 = require('node-font2base64');
+const font = {
+    regular: font2base64.encodeToDataUrlSync(path.join(__dirname, '../fonts/Montserrat-Regular.ttf')),
+    bold: font2base64.encodeToDataUrlSync(path.join(__dirname, '../fonts/Montserrat-Bold.ttf')),
+    italic: font2base64.encodeToDataUrlSync(path.join(__dirname, '../fonts/Montserrat-Italic.ttf')),
+    light: font2base64.encodeToDataUrlSync(path.join(__dirname, '../fonts/Montserrat-Light.ttf')),
+    medium: font2base64.encodeToDataUrlSync(path.join(__dirname, '../fonts/Montserrat-Medium.ttf')),
+    semibold: font2base64.encodeToDataUrlSync(path.join(__dirname, '../fonts/Montserrat-SemiBold.ttf'))
+};
+
+
+function readCSS( page , attr) {
+    return  fs.readFileSync(
+        path.join(__dirname, `./../css/${page}-${attr}.css`),
+        { encoding: 'utf-8' });
+}
 
 /**
  *  Take a raw dump of an Object as JSON
@@ -59,6 +78,9 @@ function createTrack(data) {
         case 'Tech Training':
             result = 'light-green';
             break;
+        case 'Co-creation of tech solutions':
+            result = 'light-green';
+            break;
         case 'Innovation with FIWARE':
             result = 'light-blue';
             break;
@@ -66,6 +88,9 @@ function createTrack(data) {
             result = 'light-blue';
             break;
         case 'Hands-On Use Cases':
+            result = 'light-yellow';
+            break;
+        case 'Collaborative business strategies':
             result = 'light-yellow';
             break;
         default:
@@ -200,7 +225,22 @@ function readTemplate(template, callback) {
     fs.readFile(filePath, { encoding: 'utf-8' }, callback);
 }
 
+function createSocialMediaImages(content, template) {
+    readTemplate(template, async (err, data) => {
+        if (!err) {
+            console.log('Generating Images');
+            await nodeHtmlToImage({ content, html: data });
+        } else {
+            console.log(err);
+        }
+    });
+}
+
+exports.font = font;
 exports.write = write;
 exports.clean = clean;
+exports.readCSS = readCSS;
 exports.cleanDir = cleanDir;
 exports.createClass = createClass;
+exports.createTrack = createTrack;
+exports.createSocialMediaImages = createSocialMediaImages;
