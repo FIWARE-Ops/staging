@@ -7,28 +7,16 @@
             {{createClasses filters}}
             {{createClass domain}}'
     >
-        <a class="cat-bio" data-modal='{{@index}}'>
+        {{#if bio}}<a class="cat-bio" data-modal='{{@index}}'>{{/if}}
             <div class='f-cat active'>
                 <img alt='' class='city-photo' src='{{img}}' loading='lazy' />
-                {{#if bio}}
-                <a class='cat-bio' data-modal='{{@index}}'>
-                    <div class='profile-details'>
-                        <h6 class='name'>{{title}}{{name}}</h6>
-                        <h4 class='position'>{{job}}</h4>
-                        <a target='_blank' href='{{website}}' rel='noopener'>
-                            <h5 class='company-link'>{{company}}{{companyType}}</h5>
-                        </a>
-                    </div>
-                </a>
-                {{else}}
-                    <div class='profile-details'>
-                        <h6 class='name'>{{title}}{{name}}</h6>
-                        <h4 class='position'>{{job}}</h4>
-                        <a target='_blank' href='{{website}}' rel='noopener'>
-                            <h5 class='company-link'>{{company}}{{companyType}}</h5>
-                        </a>
-                    </div>
-                {{/if}}
+                <div class='profile-details'>
+                    <h6 class='name'>{{title}}{{name}}</h6>
+                    <h4 class='position'>{{job}}</h4>
+                    <a target='_blank' href='{{website}}' rel='noopener'>
+                        <h5 class='company-link'>{{company}}{{companyType}}</h5>
+                    </a>
+                </div>
                 <div class='icons'> 
                     {{#if twitter}}
                         <a class='cat-twitter' target='_blank' href='{{twitter}}' rel='noopener'><span
@@ -46,6 +34,6 @@
                     </a>
                 </div>
             </div>
-        </a>
+        {{#if bio}}</a>{{/if}}
     </div>
 {{/each}}
