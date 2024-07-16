@@ -478,6 +478,25 @@ function checkboxChecked() {
   });
 }
 
+function loadSpeaker() {
+  $.urlParam = function (name) {
+    var results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
+      window.location.href,
+    );
+    if (results == null) {
+      return null;
+    }
+    return decodeURI(results[1]) || 0;
+  };
+
+  if ($.urlParam("speaker")) {
+    $('#filterSpeaker').val($.urlParam("speaker"));
+    $('#filterSpeaker').change();
+  } else {
+    msnry.arrange({ sortBy: "original-order" });
+  }
+}
+
 document.addEventListener("html-included", () => {
   $(".event-count").text($(".grid-item").length);
   horizontalScroll();
@@ -498,7 +517,7 @@ document.addEventListener("html-included", () => {
   $("#app")
     .imagesLoaded()
     .always(function (instance) {
-      msnry.arrange({ sortBy: "original-order" });
+      loadSpeaker();
       msnry.on("arrangeComplete", (filteredItems) => {
         $(".event-count").text(filteredItems.length);
         dropdownFilters(selectors);
