@@ -129,7 +129,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/calliope--working-towards-the-first-one-health-data-space-to-empower-the-new-urban-era-.html</loc>
+			<loc>https://www.fiware.org/fgs-2024/calliope--working-towards-the-first-one-health-data-space-to-empower-the-new-urban-era.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -137,7 +137,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/data-access-control-based-on-relationships-for-data-spaces--rebac-.html</loc>
+			<loc>https://www.fiware.org/fgs-2024/application-of-relationships-based-access-control--rebac--in-data-spaces.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -153,7 +153,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/global-organizational-identity-with-the-vlei.html</loc>
+			<loc>https://www.fiware.org/fgs-2024/towards-a-global-organizational-identity-using-vlei.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -161,7 +161,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/elements-of-a-foundational-data-spaces-framework.html</loc>
+			<loc>https://www.fiware.org/fgs-2024/present-and-future-of-fiware-data-space-components.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -189,10 +189,6 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/visual-tool-for-prototyping-iot-platforms-supporting-semantic-interoperability-and-blockchain.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
 			<loc>https://www.fiware.org/fgs-2024/how-ngsi-ld-empowers-you-to-develop-advanced-digital-twins.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -201,7 +197,15 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/enhancing-resilience--developing-a-digital-infrastructure-for-the-irish-energy-system-.html</loc>
+			<loc>https://www.fiware.org/fgs-2024/exploring-fiware-system-in-smart-university.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2024/enhancing-resilience--developing-a-digital-infrastructure-for-the-irish-energy-system.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2024/visual-tool-for-prototyping-iot-platforms-supporting-semantic-interoperability-and-blockchain.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -213,11 +217,11 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/exploring-fiware-system-in-smart-university.html</loc>
+			<loc>https://www.fiware.org/fgs-2024/q-a.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/the-smart-data-models-initiative.html</loc>
+			<loc>https://www.fiware.org/fgs-2024/smart-data-models-for-digital-twins.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -225,7 +229,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/advanced-visualization-of-digital-twin-data-for-value-creation.html</loc>
+			<loc>https://www.fiware.org/fgs-2024/deriving-value-from-the-advanced-visualization-of-digital-twins-data.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -237,7 +241,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/environmental-responsability-and-green-solutions.html</loc>
+			<loc>https://www.fiware.org/fgs-2024/balancing-growth-and-environmental-responsibility.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -249,6 +253,10 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2024/get-future-insights-today--ai-generated-forecasts-of-green-electricity.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2024/revolutionizing-water-management-with-fiware.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -257,7 +265,11 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/strengthening-digital-innovation-ecosystems-in-african-continent-.html</loc>
+			<loc>https://www.fiware.org/fgs-2024/ddd-and-data-mesh-for-designing-modular-smart-data-models.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2024/strengthening-digital-innovation-ecosystems-in-african-continent.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -277,7 +289,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/integration-of-llms-within-the-context-brokerthe-virtual-tour-guide-use-case.html</loc>
+			<loc>https://www.fiware.org/fgs-2024/integration-of-llms-within-the-context-broker.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -285,7 +297,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/transforming-data-to-be-ngsi-ld-compatible-using-llm-and-focus-on-prototype-of-llm.html</loc>
+			<loc>https://www.fiware.org/fgs-2024/transforming-data-to-be-ngsi-ld-compatible-using-llm.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -297,7 +309,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/integrate-solutions-and-data-management.html</loc>
+			<loc>https://www.fiware.org/fgs-2024/fiiware-hybrid-cloud-for-public-applications.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -305,7 +317,15 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2024/fiware-in-a-box--how-to-start-using-fiware--learn-and-prototype-integrated-solutions-in-hours.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2024/q-a.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2024/from-local-knowledge-to-shared-data-resources.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 </urlset>
