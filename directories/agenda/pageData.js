@@ -142,6 +142,7 @@ var speakers = [
         'Steve Johnston',
         'Thimo Thoeye',
         'Tomohiro Kuwahara',
+        'Tonia Sapia',
         'Ulrich Ahle',
         'Vincent Demortier',
         'Walter Domenico Vergara',
@@ -455,6 +456,10 @@ var modalData = {
     "yuki-kato":
         { name: "Yuki Kato", img: "https://www.fiware.org/wp-content/directories/people/images/200px/yuki-kato.jpg", position: "Project Manager &amp; Researcher", company: "Toyooka City Hall", "company-link": "https://toyooka-city.jp/",
         content: "Yuki Kato is affiliated with the Toyooka City Hall in Hyogo Prefecture. He currently leads workshops for regional revitalization using digital tools and design at the Toyooka Smart Community. With a background as a recording engineer and systems engineer, Kato brings a unique blend of technical and creative expertise to his role, driving innovative community development initiatives.", linkedin: "", twitter: "", domain: "", location: "",
+        flag: "", },
+    "tonia-sapia":
+        { name: "Tonia Sapia", img: "https://www.fiware.org/wp-content/directories/people/images/200px/tonia-sapia.jpg", position: "Leader of Strategic Programs", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
+        content: "Tonia (f) holds a PhD in Intercultural Sociology from 2010-2013. With more than 10 years of Experiences, Tonia comes with a profound expertise in working as a commercial coach and evaluator in European projects like frontierCities (2014-2016) and frontierCities2 (2016-2018) FIWARE Accelerator programme. She joined FIWARE Foundation in 2018 as a project manager for European projects with a strong focus on “Connecting Europe Facility (CEF)”. Since then, she has extended her responsibilities to several highly strategic projects to position and grow FIWARE Foundation in the academic as well as in the Accelerators/VC world through her additional role as a Marketing Manager. Projects include a FIWARE University Programme for students and professors, the foundation of the FIWARE Scientific Advisory Board, publication of FIWARE Impact Stories and Open Calls matching for SMEs and Startups and a new programme around Reference Marketing. Her involvement with European projects has been extended ever since, including Open Data under the umbrella of CEF grants, CEFAT4Cities (eGov and Smart Cities domains), ODALA (Smart Cities and Open Data), INTERSTAT (Public Administrations and Open Data), and since October 2020, as project manager, to i4Trust, specifically for the DIH engagement and community building (DIH Ambassador Programme), SPOTTED, focus on Earth Observation and Satellite Data, GreenMov, more related to smart Mobility and Smart Cities, Enershare, focused on Smart Solutions for Smart Energy domain. She regularly contributes to the writing of proposals to the European Commission.", linkedin: "https://www.linkedin.com/in/tonia-sapia-a171bb63/", twitter: "", domain: "", location: "",
         flag: "", },
     "jason-fox":
         { name: "Jason Fox", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jason-fox.jpg", position: "Senior Technical Expert &amp; Evangelist", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
