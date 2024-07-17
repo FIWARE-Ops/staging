@@ -129,22 +129,6 @@ function concatValues(obj) {
   return value;
 }
 
-function initTextSearch(msnry) {
-  // Search input
-  document.querySelector("#searchInput").addEventListener("keyup", (e) => {
-    if (e.target.value != "") {
-      e.target.parentNode.classList.add("resetActive");
-    } else {
-      e.target.parentNode.classList.remove("resetActive");
-    }
-    msnry.arrange({
-      filter: function (itemElem, itemElem2) {
-        return inputSearch(itemElem2, e.target.value);
-      },
-    });
-  });
-}
-
 function filterToggle() {
   let filtersContainer = document.querySelector(".filters-container");
   document
@@ -289,8 +273,6 @@ function initSelect() {
     }*/
     dropdownFilters(selectors);
   });
-
-  initTextSearch(msnry);
 
   // SORT BY ALPHABETICALLY
   document.querySelector("#orderByName").addEventListener("click", (e) => {
