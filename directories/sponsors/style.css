@@ -1068,6 +1068,7 @@
 .dropdown-container {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     gap: 20px;
 }
 
@@ -1304,8 +1305,8 @@ input[type="checkbox"]:checked+label::after {
 }
 
 #searchInput {
-    max-width: unset !important;
-    width: -webkit-fill-available;
+    /* max-width: unset !important;*/
+    width: 100%;
 }
 
 input[type="search"] {
