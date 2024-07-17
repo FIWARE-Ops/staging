@@ -1,11 +1,28 @@
 {{#each this}}
-    <div class='grid-item {{createClass type}}'>
-        <a target="_blank" href="{{website}}" rel="noopener">
-            <div class="f-cat active card-url">
-                <img class="member-thumb" src="{{img}}" {{#if (gt @index 9)}}loading="lazy"{{/if}}>
-                <h3 class="item-name member-name">{{name}}</h3>
-                <h5 class="type-member {{createClass type}}">{{type}}</h5>
-            </div>
-        </a>
+<div
+    class='grid-item {{#if bio}}cat-bio {{/if}}
+        {{createClass name}}
+        {{createClass type}}'
+    {{#if bio}}  
+    data-modal='{{@index}}'
+    {{/if}}
+>
+    <div class='f-cat active'>
+        <img alt='' class='city-photo' src='{{img}}' loading='lazy' />
+        <div class='profile-details'>
+            
+            <h6 class='name'>
+                <a target='_blank' href='{{website}}' rel='noopener'>{{name}}</a>
+            </h6>
+            <h4 class='position'>{{type}}</h4>
+        </div>
+        <div class='icons'>
+        {{#if linkedIn}}
+            <a class='cat-linkedin' target='_blank' href='{{linkedIn}}' rel='noopener'>
+                <span class='icon linkedin' ></span>
+            </a>
+        {{/if}}
+        </div>
     </div>
+</div>
 {{/each}}

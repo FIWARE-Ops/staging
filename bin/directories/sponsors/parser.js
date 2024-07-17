@@ -24,6 +24,7 @@ function extractSponsors(input) {
             img: item.Image ? item.Image : DEFAULT_IMAGE,
             type: item.Type,
             website: item.Website,
+            bio: item.Description ? item.Description.replaceAll(/[\n\r]+/g, ' ').trim() : '', 
             publish: Parser.boolean(item.Published)
         };
 
