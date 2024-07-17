@@ -226,7 +226,7 @@
 }
 
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
-    /* background-color: #8ad2dc; */
+    background-color: #8ad2dc;
     color: #005fb9;
 }
 
@@ -283,8 +283,7 @@
     font-size: 16px;
     display: inline-block;
     position: relative;
-    background: #5dc0cf;
-    border-radius: 40px;
+   
     width: 32px;
     height: 32px;
     color: #005fb9;
@@ -293,9 +292,17 @@
     padding-top: 5px;
 }
 
+
 .cat-linkedin {
     position: relative;
     width: 32px;
+    background: #5dc0cf;
+    border-radius: 40px;
+}
+
+.cat-linkedin:hover, .cat-linkedin:active, .cat-linkedin:focus {
+    background-color: #8ad2dc;
+    color: #005fb9;
 }
 
 .bio::before {
