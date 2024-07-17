@@ -1297,6 +1297,7 @@ input[type="search"] {
     line-height: 1em;
     font-weight: 500;
     padding: 12px 35px 12px 40px !important;
+    margin: 10px 0 10px 0;
     font-size: 15px;
     background-image: url(https://www.fiware.org/fiware-summit/naples-2024/assets/icons/ico_search.svg);
     background-position: 4%;
