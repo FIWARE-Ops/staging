@@ -253,6 +253,17 @@
     padding: 0 20px 20px 20px;
 }
 
+.moderated-by {
+    width: fit-content;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 1em;
+    letter-spacing: .5px;
+    color: #4c4c4c;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
 .speakers {
     position: relative;
     width: 100%;
