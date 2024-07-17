@@ -28,7 +28,7 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
         const event = {
             priority: Number(item.Priority),
             track: item.Track,
-            moderator: item.Moderator,
+            moderator: Parser.boolean(item.Moderator),
             session: item.Session,
             title: item.Title,
             date: Parser.date(item.Date),

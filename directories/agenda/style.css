@@ -29,8 +29,8 @@
     /* cursor: pointer; */
 }
 
-.grid-item.moderator {
-    background: #efefef;
+.grid-item .moderator {
+    background: #afafaf;
 }
 
 .grid-item:hover {
