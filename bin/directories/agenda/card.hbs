@@ -23,7 +23,7 @@
     <div class="speakers-container{{#if moderator}} moderator{{/if}}">
       {{#if moderator}} 
       <div class="moderated-by">
-        Moderated by
+        Session moderated by
       </div>
       {{/if}}
       <div class="speakers">
@@ -51,7 +51,12 @@
     <div class="foot">
       <a class="btn-primary" href="./{{#if description}}program{{else}}program-details-summary{{/if}}?id={{createClass title}}">
         <span class="material-symbols-outlined">info</span>
-        See details</a>
+        {{#if moderator}}
+          See details
+        {{else}}
+          Session details
+        {{/if}}
+      </a>
     </div>
   </div>
 {{/each}}
