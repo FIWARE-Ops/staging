@@ -12,12 +12,7 @@ function createModalContent(tingleModalData) {
   if (tingleModalData.position !== "") {
     modalHtml += "<h2>" + tingleModalData.type + "</h2>";
   }
-  if (tingleModalData.company !== "") {
-    modalHtml +=
-      '<a class="company-link" href="' +
-      tingleModalData["company-link"] +
-      '" target="_blank">Website</a>';
-  }
+ 
   modalHtml += "</div>";
   modalHtml += "</div>";
   modalHtml += "<div class='bio-modal'>";
@@ -27,6 +22,13 @@ function createModalContent(tingleModalData) {
   modalHtml += "</div>";
   modalHtml += "<div class='details-modal'>";
   modalHtml += "<div class='social-modal'>";
+
+   if (tingleModalData["company-link"] !== "") {
+    modalHtml +=
+      '<a class="company-link" href="' +
+      tingleModalData["company-link"] +
+      '" target="_blank"></a>';
+  }
 
   if (tingleModalData.twitter !== "") {
     modalHtml +=
