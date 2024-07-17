@@ -229,13 +229,14 @@
 }
 
 .icons {
-    padding: 0px;
+    display: none;
+    /* padding: 0px;
     display: inline-flex;
     flex-direction: row;
     align-items: center;
     gap:12px;
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto; */
 }
 
 .icon::before {
