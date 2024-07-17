@@ -1154,7 +1154,7 @@ select::-ms-expand {
 }
 
 #orderByName {
-    color: #8ad2dc;
+    /* color: #8ad2dc;*/
 }
 
 #orderByCountry {
@@ -1259,19 +1259,19 @@ input[type="checkbox"]:checked+label::after {
     flex-direction: row;
     align-items: center;
     gap: 0;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 18px;
     color: #005fb9;
     background-color: #5dc0cf;
-    padding: 4px 8px 4px 4px;
+    padding: 16px;
     border-radius: 4px;
     transition: all 0.2s ease-in-out;
     cursor: pointer;
+    border: none !important;
 }
 
 .sort-element button:hover {
     background-color: #8ad2dc;
-    color: #005fb9;
 }
 
 
