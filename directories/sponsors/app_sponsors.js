@@ -1,3 +1,88 @@
+
+function createModalContent(tingleModalData) {
+  var modalHtml = "";
+  console.warn(tingleModalData);
+
+  modalHtml += "<div class='info-modal'>";
+  modalHtml += '<img class="headshot" src="' + tingleModalData.img + '" />';
+  modalHtml += "<div class='credits-modal'>";
+  if (tingleModalData.name !== "") {
+    modalHtml += "<h1>" + tingleModalData.name + "</h1>";
+  }
+  if (tingleModalData.position !== "") {
+    modalHtml += "<h2>" + tingleModalData.type + "</h2>";
+  }
+  if (tingleModalData.company !== "") {
+    modalHtml +=
+      '<a class="company-link" href="' +
+      tingleModalData["company-link"] +
+      '" target="_blank">Website</a>';
+  }
+  modalHtml += "</div>";
+  modalHtml += "</div>";
+  modalHtml += "<div class='bio-modal'>";
+  if (tingleModalData.content !== "") {
+    modalHtml += "<p>" + tingleModalData.content + "</p>";
+  }
+  modalHtml += "</div>";
+  modalHtml += "<div class='details-modal'>";
+  modalHtml += "<div class='social-modal'>";
+
+  if (tingleModalData.twitter !== "") {
+    modalHtml +=
+      '<a class="twitter-link" href="' +
+      tingleModalData["twitter"] +
+      '" target="_blank"></a>';
+  }
+  if (tingleModalData.linkedin !== "") {
+    modalHtml +=
+      '<a class="linkedin-link" href="' +
+      tingleModalData["linkedin"] +
+      '" target="_blank"></a>';
+  }
+  modalHtml += "</div>";
+  modalHtml += "<div class='tags-modal'>";
+  if (tingleModalData.domain) {
+    modalHtml += '<p class="domain">' + tingleModalData.domain + "</p>";
+  }
+
+  modalHtml += "</div>";
+
+  return modalHtml;
+}
+
+function initModal() {
+  // Modal
+  document.querySelectorAll(".sponsor").forEach(function (el) {
+    el.addEventListener("click", function (e) {
+      var modal = new tingle.modal({
+        footer: true,
+        stickyFooter: false,
+        closeMethods: ["overlay", "button", "escape"],
+        closeLabel: "Close",
+        cssClass: ["tingle-modal--fullscreen"],
+        onOpen: function () {
+          console.log("modal open");
+        },
+        onClose: function () {
+          console.log("modal closed");
+        },
+        beforeClose: function () {
+          // here's goes some logic
+          // e.g. save content before closing the modal
+          return true; // close the modal
+        },
+      });
+      // set content
+      modal.setContent(createModalContent(window.modalData[el.dataset.modal]));
+
+      // open modal
+      modal.open();
+    });
+  });
+}
+
+
 // Returns the right classNames for isotope card filtering system
 function createClassFilter(data) {
   var filterString = "";
@@ -326,6 +411,7 @@ document.addEventListener("html-included", () => {
   }
   init = true;
   initSelect();
+  initModal();
   filterToggle();
   let count = 0;
   let target = 7;
