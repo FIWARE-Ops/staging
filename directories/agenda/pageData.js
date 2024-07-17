@@ -63,6 +63,7 @@ var speakers = [
         'Björn Schwarze',
         'Carmen Polcaro',
         'Christoph Schneider',
+        'Clara Pezuela',
         'Dasha Davies',
         'David Campo',
         'Davor Meersman',
@@ -211,6 +212,10 @@ var modalData = {
     "ana-garcia-robles":
         { name: "Ana Garcia Robles", img: "https://www.fiware.org/wp-content/directories/people/images/200px/ana-garcia-robles.jpg", position: "Chief Executive Officer", company: "BDVA", "company-link": "https://www.bdva.eu/",
         content: "Secretary General of the Big Data Value Association (BDVA), holds a Masters Degree in Telecommunications Engineering and an International Executive MBA. Ana has a strong ICT industrial background in the Telecommunications sector, with over 10 years’ experience in the design, implementation and configuration of large-scale telecom networks and services, and in the research and techno-economical assessment of new technologies and solutions for large-scale implementation. Ana has specialised in Innovation management and ecosystems, and she has an extensive experience at both local/regional and international level in Open innovation ecosystems, Living Labs, and socio-economic impacts of technology with over 5 years’ experience managing international associations and projects in this area.", linkedin: "https://www.linkedin.com/in/ana-garcia-robles-9750641/", twitter: "https://twitter.com/roblesag", domain: "", location: "",
+        flag: "", },
+    "clara-pezuela":
+        { name: "Clara Pezuela", img: "https://www.fiware.org/wp-content/directories/people/images/200px/clara-pezuela.jpg", position: "Vice President Funded Programs", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
+        content: "Working in Atos since 22 years ago, she gained large experience in European research programs in digital domain. During such period I had the chance to participate in many diverse research projects doing different roles and working with many people across Europe.  She is a Computer Science engineer and Master in Innovation management. Technically speaking, She has been involved in sales and delivery about services architectures, cloud/edge computing, IoT and digital platforms. Additionally, she have a high level of knowledge in Open Source licensing, delivery and processes. Member of Technical Steering Committee at FIWARE Foundation and President of the Spanish Technology Platform for digital technologies on behalf of Atos. Currently, she is  Innovation Officer at CTO Office in Public Sector and Defense industry in charge of defining and putting in place the innovation strategy for this sector.", linkedin: "https://www.linkedin.com/in/clara-pezuela-2b1257/", twitter: "", domain: "", location: "",
         flag: "", },
     "thimo-thoeye":
         { name: "Thimo Thoeye", img: "https://www.fiware.org/wp-content/directories/people/images/200px/thimo-thoeye.jpg", position: "Innovation Manager", company: "OASC", "company-link": "oascities.org",

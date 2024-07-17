@@ -1,7 +1,7 @@
 {{#each this}}
 
 
-<div class='grid-item {{createClass track}} {{createClass session}}{{#each speakers}} {{createClass name}}{{/each}} {{createClass shortDate}}'>
+<div class='grid-item {{createClass track}} {{createClass session}}{{#each speakers}} {{createClass name}}{{/each}} {{createClass shortDate}} {{#if moderator}}moderator{{/if}}'>
     <div class="gridElementTextContainer">
       <a href="./{{#if description}}program{{else}}program-details-summary{{/if}}?id={{createClass title}}">
         <div class="chip-track">
