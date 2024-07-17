@@ -46,16 +46,10 @@
 }
 
 .f-cat {
-    border-radius: 8px;
-    padding: 30px 20px;
-    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 1);
     transition: all 0.4s;
     cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
 }
 
 .f-cat:hover {
@@ -397,35 +391,38 @@
 }
 
 .f-cat h4 {
-    font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+    display: none;
+    /*font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
     font-weight: 500;
     font-size: 14px;
     color: #fff;
     line-height: 1.4em;
     padding: 0px;
-    /*cursor: default;*/
+    cursor: default;*/
 }
 
 .f-cat h5 {
-    text-align: center;
+    display: none;
+    /*text-align: center;
     font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
     font-weight: 500;
     color: #8ad2dc;
     font-size: 13px;
     line-height: 1.5em;
     text-decoration: underline;
-    padding: 0px;
+    padding: 0px;*/
 }
 
 .f-cat h6 {
-    font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+    display: none;
+    /*font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
     font-weight: 600;
     font-size: 16px;
     text-align: center;
     color: #8ad2dc;
     line-height: 1.4em;
     padding: 0px;
-    /*cursor: default;*/
+    cursor: default;*/
 }
 
 .region {
