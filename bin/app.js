@@ -1,3 +1,4 @@
+const Agenda = require('./directories/agenda/parser');
 const Careers = require('./directories/careers/parser');
 const Cities = require('./directories/cities/parser');
 const Domains = require('./directories/domains/parser');
@@ -7,9 +8,9 @@ const iHubs = require('./directories/ihubs/parser');
 const Marketing = require('./directories/marketing-toolbox/parser');
 const OpenCalls = require('./directories/open-calls/parser');
 const Organisations = require('./directories/organisations/parser');
+const Sponsors = require('./directories/sponsors/parser');
 const ResearchDevelopment = require('./directories/research-development/parser');
 const Webinars = require('./directories/webinars/parser');
-const Agenda = require('./directories/agenda/parser');
 const People = require('./people/parser');
 const Marketplace = require('./marketplace/parser');
 
@@ -137,6 +138,13 @@ if (PROCESS.startsWith('people')) {
     });
 }
 
+// Create HTML and template files for the sponsors
+if (PROCESS.startsWith('sponsors')) {
+    Loader.load('sponsors', Sponsors.file).then(() => {
+        return Sponsors.parse(Sponsors.file);
+    });
+}
+
 // Ensure that CSV files are present
 if (PROCESS === 'postinstall') {
     touch(PRODUCT_DETAILS_FILE);
@@ -151,4 +159,5 @@ if (PROCESS === 'postinstall') {
     touch(ResearchDevelopment.file);
     touch(Webinars.file);
     touch(Agenda.file);
+    touch(Sponsors.file);
 }

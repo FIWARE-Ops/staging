@@ -35,6 +35,7 @@
     "msc": "PROCESS=people PAGE=msc npm start",
     "research-development": "PROCESS=research-development npm start",
     "speakers": "PROCESS=people PAGE=speakers npm start",
+    "sponsors": "PROCESS=sponsors npm start",
     "team": "PROCESS=people PAGE=team npm start npm run",
     "tsc": "PROCESS=people PAGE=tsc npm start",
     "webinars": "PROCESS=webinars npm start",

@@ -1,0 +1,36 @@
+<div>
+    <div class='products-record'>
+        <div class='products-label'>
+            <span id='ico-products' class='material-symbols-outlined'>groups</span>
+            <span>Sponsors</span>
+        </div>
+        <span id='filteredCompanies'></span>
+    </div>
+</div>
+
+<div class='elements-container'>
+    <div class='dropdown-container'>
+        <div class='filter-element'>
+            <label for='filterRole' class='dropdown-label'>Type</label>
+            <select name='' id='filterRole'>
+                <option value='*'>All Types</option>
+                        <option value='basic-sponsor'>Basic Sponsor</option>
+                        <option value='exhibitor'>Exhibitor</option>
+                        <option value='hosting-partner'>Hosting Partner</option>
+                        <option value='media-partners'>Media Partners</option>
+                        <option value='official-partner'>Official Partner</option>
+                        <option value='premiere-sponsor'>Premiere Sponsor</option>
+                        <option value='prestige-sponsor'>Prestige Sponsor</option>
+            </select>
+        </div>
+
+        <div class='search-element'>
+            <label for='searchInput' class='dropdown-label'>Find a Member</label>
+            <input type="search" id="searchInput" placeholder="Search by keywords" />
+        </div>
+    </div>
+    <div class="sort-element">
+        <label for='filterRole' class='dropdown-label'>Sort by</label>
+        <button id="orderByName"><span id="ico-sortby-alpha" class="material-icons-outlined">sort_by_alpha</span>Name</button>
+    </div>
+</div>
