@@ -41,7 +41,7 @@
 /* ---- .element-item ---- */
 
 .grid-item {
-    width: calc(25% - 24px) !important;
+    width: calc(25% - 24px);
     margin: 0 12px 30px !important;
 }
 
