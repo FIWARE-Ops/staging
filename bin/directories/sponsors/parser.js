@@ -108,6 +108,7 @@ function parse(file) {
         .then((sponsors) => {
             const filterData = {
                 types: Sorter.sortData(sponsors, 'type'),
+                names: Sorter.sortData(sponsors, 'name'),
                 sponsors
             };
 

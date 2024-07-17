@@ -1,4 +1,20 @@
 var companies = [
+        'BEOPEN',
+        'CITIES TODAY',
+        'DOME PROJECT',
+        'DSBA',
+        'ENERSHARE',
+        'ESA',
+        'INFINITI MONDI',
+        'LATITUDO 40',
+        'MEDITECH',
+        'MUNICIPALITY OF NAPLES',
+        'OPENDATASOFT',
+        'RENEWABLE MATTER',
+        'SMARTCITIESWORLD',
+        'THE LISBON COUNCIL',
+        'THE SMART CITY JOURNAL',
+        'ULSIT',
 ]; var departments = [
 ]; var domains = [
 ]; var titles = [

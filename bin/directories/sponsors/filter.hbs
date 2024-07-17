@@ -22,10 +22,18 @@
             </select>
         </div>
 
-        <div class='search-element'>
-            <label for='searchInput' class='dropdown-label'>Find a Member</label>
-            <input type="search" id="searchInput" placeholder="Search by keywords" />
+        <div class='filter-element'>
+            <label for='filterCompanies' class='dropdown-label'>Type</label>
+            <select name='' id='filterCompanies'>
+                <option value='*'>All Sponsors</option>
+                {{#each names}}
+                    {{#if (ne this '')}}
+                        <option value='{{createClass this}}'>{{this}}</option>
+                    {{/if}}
+                {{/each}}
+            </select>
         </div>
+
         <div class="sort-element">
             <label for='filterRole' class='dropdown-label'>Sort by</label>
             <button id="orderByName"><span id="ico-sortby-alpha" class="material-icons-outlined">sort_by_alpha</span>Name</button>
