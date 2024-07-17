@@ -104,6 +104,23 @@ function createModalContent(tingleModalData) {
   return modalHtml;
 }
 
+function initChips(){
+  const trackFilter = $('#filterTrack');
+  document.querySelectorAll(".track").forEach(function (el) {
+    el.addEventListener("click", function (e) {
+      const track = createClassFilter($(el).text());
+      if(trackFilter.val() === track){
+        trackFilter.val('*');
+      } else {
+        trackFilter.val(track);
+      }
+      trackFilter.change();
+      trackFilter.focus();
+      e.preventDefault();
+    });
+  });
+}
+
 function initModal() {
   // Modal
   document.querySelectorAll(".speaker").forEach(function (el) {
@@ -508,6 +525,7 @@ document.addEventListener("html-included", () => {
   init = true;
   initSelect();
   initModal();
+  initChips();
   filterToggle();
   checkboxChecked();
   let count = 0;
