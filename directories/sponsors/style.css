@@ -391,7 +391,7 @@
     text-align:left;*/
 }
 
-.f-cat h4 {
+.profile-details h4 {
     display: none;
     /*font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
     font-weight: 500;
@@ -414,7 +414,7 @@
     padding: 0px;*/
 }
 
-.f-cat h6 {
+.profile-details h6 {
     display: none;
     /*font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
     font-weight: 600;
@@ -654,6 +654,30 @@
 }
 
 .linkedin-link {
+    position: relative;
+    width: 32px;
+    margin-right: 12px;
+}
+
+.company-link::before {
+    font-family: "ETmodules";
+    font-weight: 400;
+    content: "\e0e3";
+    font-size: 16px;
+    display: inline-block;
+    position: relative;
+    /* background: #007bb6; */
+    border: solid 1px #000;
+    border-radius: 40px;
+    width: 32px;
+    height: 32px;
+    color: #000;
+    text-align: center;
+    padding-right: 0px;
+    padding-top: 4px;
+}
+
+.company-link {
     position: relative;
     width: 32px;
     margin-right: 12px;
