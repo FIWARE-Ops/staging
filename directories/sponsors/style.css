@@ -1262,14 +1262,14 @@ input[type="checkbox"]:checked+label::after {
 
 .resetInput {
     opacity: 0;
-    background-image: url(https://www.fiware.org/wp-content/uploads/ico_clear_blue.png);
+    background-image: url(https://www.fiware.org/fiware-summit/naples-2024/assets/icons/ico_clear.svg);
     background-repeat: no-repeat;
     pointer-events: none;
     position: absolute;
     top: 13px;
-    right: 8px;
-    width: 32px;
-    height: 32px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
     transition: all 200ms;
 }
 
@@ -1290,28 +1290,29 @@ input[type="checkbox"]:checked+label::after {
 }
 
 input[type="search"] {
-    background-color: #fff;
-    border-radius: 30px;
+    background-color: rgba(138, 210, 220, 0);
+    border-radius: 4px;
     border: 1px solid #8ad2dc;
     cursor: pointer;
     line-height: 1em;
     font-weight: 500;
-    padding: 12px 16px 12px 50px !important;
+    padding: 12px 35px 12px 40px !important;
     font-size: 15px;
-    background-image: url(https://www.fiware.org/wp-content/uploads/ico_search.png);
+    background-image: url(https://www.fiware.org/fiware-summit/naples-2024/assets/icons/ico_search.svg);
     background-position: 4%;
     background-repeat: no-repeat;
+    background-size: 24px 24px;
 }
 
 input[type="search"]:active,
 input[type="search"]:focus {
     border: 1px solid #8ad2dc;
-    color: #005FB9;
+    color: #ffffff;
     box-shadow: none;
 }
 
 input[type="search"]::placeholder {
-    color: #a9a9a9;
+    color: #8ad2dc;
 }
 
 /* Icons */
