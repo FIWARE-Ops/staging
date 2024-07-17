@@ -27,6 +27,8 @@ function extractSponsors(input) {
             type: item.Type,
             website: item.Website,
             bio: item.Description ? item.Description.replaceAll(/[\n\r]+/g, ' ').trim() : '', 
+            linkedIn: Parser.trim(item.LinkedIn),
+            twitter: Parser.trim(item.Twitter),
             publish: Parser.boolean(item.Published)
         };
 
