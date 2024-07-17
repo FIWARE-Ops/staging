@@ -70,6 +70,15 @@ body {
     border-color: #1b493a;
   }
 
+  .panel-moderated-by {
+    width: 690px;
+    position: absolute;
+    top: 280px;
+    left: 433px;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
   .panel-speakers {
     width: 690px;
     position: absolute;
