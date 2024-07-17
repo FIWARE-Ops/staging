@@ -1244,7 +1244,7 @@ input[type="checkbox"]:checked+label::after {
     display: flex;
     flex-direction: column;
     padding-bottom: 0px;
-    justify-content: space-between;
+    gap: 12px;
     align-items: flex-start;
 }
 
@@ -1254,15 +1254,24 @@ input[type="checkbox"]:checked+label::after {
 }
 
 .sort-element button {
+    width: auto;
     display: flex;
+    flex-direction: row;
     align-items: center;
-    background: #f4fbfc;
-    border: none;
-    padding: 6px 12px;
+    gap: 0;
     font-size: 14px;
-    font-weight: 600;
-    border-radius: 30px;
-    transition: all 0.3s ease-in-out;
+    line-height: 18px;
+    color: #005fb9;
+    background-color: #5dc0cf;
+    padding: 4px 8px 4px 4px;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.sort-element button:hover {
+    background-color: #8ad2dc;
+    color: #005fb9;
 }
 
 
@@ -1295,10 +1304,8 @@ input[type="checkbox"]:checked+label::after {
 }
 
 #searchInput {
-    padding: 5px;
     max-width: unset !important;
     width: -webkit-fill-available;
-    font-size: 16px;
 }
 
 input[type="search"] {
@@ -1308,11 +1315,11 @@ input[type="search"] {
     cursor: pointer;
     line-height: 1em;
     font-weight: 500;
-    padding: 12px 35px 12px 40px !important;
+    padding: 10px 35px 10px 40px !important;
     margin: 10px 0 10px 0;
     font-size: 15px;
     background-image: url(https://www.fiware.org/fiware-summit/naples-2024/assets/icons/ico_search.svg);
-    background-position: 4%;
+    background-position: 3%;
     background-repeat: no-repeat;
     background-size: 24px 24px;
 }
