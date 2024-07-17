@@ -11,6 +11,11 @@
         <div class='profile-details'>
             <h6 class='name'>{{name}}</h6>
         </div>
+        {{#if showType}}
+        <div class='sponsor-details'>
+            <h6 class='sponsor-type'>{{type}}</h6>
+        </div>
+        {{/if}}
         <div class='icons'>
         {{#if linkedIn}}
             <a class='cat-linkedin' target='_blank' href='{{linkedIn}}' rel='noopener'>
