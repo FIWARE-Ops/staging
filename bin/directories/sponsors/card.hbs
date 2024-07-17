@@ -1,7 +1,6 @@
 {{#each this}}
 <div
     class='grid-item {{#if bio}}sponsor {{/if}}
-        {{createClass name}}
         {{createClass type}}'
     {{#if bio}}  
     data-modal='{{@index}}'
@@ -10,10 +9,7 @@
     <div class='f-cat active'>
         <img alt='' class='city-photo' src='{{img}}' loading='lazy' />
         <div class='profile-details'>
-            
-            <h6 class='name'>
-                <a target='_blank' href='{{website}}' rel='noopener'>{{name}}</a>
-            </h6>
+            <h6 class='name'>{{name}}</h6>
             <h4 class='position'>{{type}}</h4>
         </div>
         <div class='icons'>
