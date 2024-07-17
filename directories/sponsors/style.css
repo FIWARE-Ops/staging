@@ -366,10 +366,10 @@
 }
 
 .city-photo {
-    border-radius: 100px;
+    /* border-radius: 100px;
     width: 130px;
     border: 3px solid #8ad2dc;
-    margin: 0 auto 10px auto;
+    margin: 0 auto 10px auto;*/
 }
 
 .flag {
