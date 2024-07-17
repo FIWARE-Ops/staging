@@ -50,7 +50,7 @@
     padding: 30px 20px;
     background: rgba(255, 255, 255, 0.1);
     transition: all 0.4s;
-    cursor: default;
+    cursor: pointer;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -314,12 +314,12 @@
     padding: 1px 1px 1px 0px;
 }
 
-.cat-bio {
+/*.cat-bio {
     position: relative;
-    width: auto;
-    /* margin-right: 12px; */
+    /*width: auto;*/
+    /* margin-right: 12px;
     cursor: pointer;
-}
+}*/
 
 .cat-location {
     position: relative;
