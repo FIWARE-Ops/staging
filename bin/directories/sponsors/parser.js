@@ -12,7 +12,7 @@ const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/sponsors/im
 
 const regex = /([^a-zA-Z0-9À-ÿ])/gi;
 
-const displayedTypes = ["Hosting Partners", "Official Partner", "Prestige Sponsor", "Premiere Sponsor"];
+const displayedTypes = ["Hosting Partner", "Official Partner", "Prestige Sponsor", "Premiere Sponsor"];
 
 /**
  * Take the human readable column names from the spreadsheet and create a
