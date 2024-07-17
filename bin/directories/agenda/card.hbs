@@ -21,6 +21,11 @@
       </a>
     </div>
     <div class="speakers-container{{#if moderator}} moderator{{/if}}">
+      {{#if moderator}} 
+      <div class="moderated-by">
+        Moderated by
+      </div>
+      {{/if}}
       <div class="speakers">
         {{#each speakers}}
         <div class="speaker" {{#if shortJob}}data-modal='{{createClass name}}'{{/if}}>
