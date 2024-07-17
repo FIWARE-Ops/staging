@@ -260,7 +260,7 @@ function initSelect() {
       columnWidth: ".grid-sizer",
     },
     getSortData: {
-      name: ".member-name",
+      name: ".name",
     },
     sortAscending: {
       name: true,
