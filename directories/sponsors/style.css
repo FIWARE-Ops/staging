@@ -1308,8 +1308,8 @@ input[type="checkbox"]:checked+label::after {
 }
 
 #searchInput {
-    /* max-width: unset !important;*/
-    width: 100%;
+    /* max-width: unset !important;
+    width: 100%;*/
 }
 
 input[type="search"] {
