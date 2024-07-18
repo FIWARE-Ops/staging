@@ -12,8 +12,6 @@ const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/sponsors/im
 
 const regex = /([^a-zA-Z0-9À-ÿ])/gi;
 
-const displayedTypes = ["Hosting Partner", "Official Partner", "Prestige Sponsor", "Premiere Sponsor"];
-
 /**
  * Take the human readable column names from the spreadsheet and create a
  * data object of sponsors for later use
@@ -25,6 +23,7 @@ function extractSponsors(input) {
             name: item.Name.toUpperCase(),
             img: item.Image ? item.Image : DEFAULT_IMAGE,
             type: item.Type,
+            exhibitor: item.Exhibitor,
             priority: item.Priority,
             website: item.Website,
             bio: item.Description ? item.Description.replaceAll(/[\n\r]+/g, ' ').trim() : '', 
@@ -34,7 +33,6 @@ function extractSponsors(input) {
         };
 
         if (sponsor.publish) {
-            sponsor.showType = displayedTypes.includes(sponsor.type);
             sponsors.push(sponsor);
         }
     });
