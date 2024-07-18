@@ -784,7 +784,8 @@
     }
 
     .f-cat h6 {
-        font-size: 17px;
+        /* font-size: 17px; */
+        padding: 4px;
     }
 
     .f-cat h4 {
