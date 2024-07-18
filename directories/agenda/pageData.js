@@ -36,7 +36,7 @@ var sessions = [
         'Smart Industry',
         'Smart Water',
         'Startup Innovative Products Pitches',
-        'Startup Innovative Technology-based Products Pitches',
+        'Startup innovative technology-based products Pitches',
         'Sustainability and Growth of the FIWARE Ecosystem through High-Performing Local Innovation Hubs',
         'The Smart Data Models initiative',
         'The value of the Ecosystem',
