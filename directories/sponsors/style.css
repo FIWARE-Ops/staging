@@ -209,11 +209,11 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 0;
+    gap: 5px;
     font-size: 14px;
     line-height: 18px;
-    color: #005fb9;
-    background-color: #5dc0cf;
+    color: #5dc0cf;
+    background-color: #005fb9;
     padding: 4px 8px 4px 4px;
     border-radius: 4px;
     transition: all 0.2s ease-in-out;
@@ -223,8 +223,7 @@
 .btn-primary:hover,
 .btn-primary:active,
 .btn-primary:focus {
-    background-color: #8ad2dc;
-    color: #005fb9;
+    background-color: #006cd3;
 }
 
 .icon {
