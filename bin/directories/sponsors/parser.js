@@ -20,7 +20,7 @@ function extractSponsors(input) {
     const sponsors = [];
     input.forEach((item) => {
         const sponsor = {
-            name: item.Name.toUpperCase(),
+            name: item.Name,
             img: item.Image ? item.Image : DEFAULT_IMAGE,
             type: item.Type,
             exhibitor: Parser.boolean(item.Exhibitor),
