@@ -1575,7 +1575,8 @@ input[type="search"]::placeholder {
     .sort-element {
         display: flex;
         flex-direction: row;
-        padding-bottom: 20px;
+        margin-top: 10px;
+        padding: 0;
         justify-content: space-evenly;
     }
 
