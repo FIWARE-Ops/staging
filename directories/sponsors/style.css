@@ -1039,6 +1039,12 @@
 
 /* Search & Filtering */
 
+.check-sort-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
 .category-badge {
     width: auto;
     height: 20px;
