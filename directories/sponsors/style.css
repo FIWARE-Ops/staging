@@ -1112,8 +1112,8 @@
     width: 100%;
     max-width: 1184px;
     margin: 0 auto 15px;
-    /* padding-top: 16px; */
-    border-top: 1px solid #8ad2dc;
+    /* padding-top: 16px;
+    border-top: 1px solid #8ad2dc; */
 }
 
 .filters-container:not(.active) {
@@ -1760,7 +1760,8 @@ input[type="search"]::placeholder {
     .sort-element {
         display: flex;
         flex-direction: row;
-        padding-bottom: 20px;
+        margin-top: 10px;
+        padding: 0;
         justify-content: space-evenly;
     }
 
