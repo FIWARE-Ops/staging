@@ -1533,7 +1533,7 @@ input[type="search"]::placeholder {
         width: 80%;
         margin: 0 auto;
         padding-top: 16px;
-        border-top: 1px solid #aaa;
+        /* border-top: 1px solid #aaa; */
     }
 
     .filters-container:not(.active) {
