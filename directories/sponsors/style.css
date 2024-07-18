@@ -520,6 +520,8 @@
 .info-modal {
     display: flex;
     align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
     margin-bottom: 20px;
 }
 
@@ -532,11 +534,8 @@
 
 .tingle-modal img {
     vertical-align: middle;
-    width: 120px;
+    width: auto;
     height: 120px;
-    border-radius: 100px;
-    border: 2px solid #000;
-    margin-right: 20px;
 }
 
 .tingle-modal p {
@@ -564,15 +563,25 @@
 }
 
 .tingle-modal .company-link {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0;
     font-size: 14px;
-    line-height: 1.5em;
-    color: #000;
-    text-decoration: underline;
+    line-height: 18px;
+    color: #5dc0cf;
+    background-color: #005fb9;
+    padding: 4px 8px 4px 4px;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
 }
 
-.tingle-modal .company-link:hover {
-    color: #000;
-    text-decoration: underline;
+.tingle-modal .company-link:hover {}
+
+.tingle-modal .company-link::before {
+    display: none;
 }
 
 /* .tingle-modal .company-link:after {
@@ -595,11 +604,13 @@
 }
 
 .details-modal {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .social-modal {
-    margin-right: 10px;
+    width: -webkit-fill-available;
+    flex-direction: row-reverse;
+    justify-content: space-between;
 }
 
 .social-modal p.domain {
