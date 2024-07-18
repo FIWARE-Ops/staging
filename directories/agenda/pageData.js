@@ -56,6 +56,7 @@ var speakers = [
         'Ilaria Bortone',
         'Silvia Campailla',
         'David Campo',
+        'José Ignacio Carretero',
         'Denis Chikurtev',
         'Javier Conde Díaz',
         'Luigi Coppolino',
@@ -67,7 +68,6 @@ var speakers = [
         'Vincent Demortier',
         'Roberto Di Bernardo',
         'Rocío Díaz Pereira',
-        'Walter Domenico Vergara',
         'James Ehrlich',
         'Piotr Elmanowski',
         'Alessandro Errico',
@@ -81,7 +81,6 @@ var speakers = [
         'Jorge Hernandez',
         'Juanjo Hierro',
         'Abdulrahman Ibrahim',
-        'José Ignacio Carretero',
         'Raza Jafri',
         'Satish Jamadagni',
         'Antonio Jara',
@@ -149,6 +148,7 @@ var speakers = [
         'Nvidia',
         'Giovanni Vaglica',
         'Gerard van der Hoeven',
+        'Walter Domenico Vergara',
         'Margherita Volpe',
         'Gaetano Volpe',
         'Dennis Wendland',
@@ -460,7 +460,7 @@ var modalData = {
         content: "Researcher, member of “Digital Industry and Agrifood” Unit within the Industry and Security Technologies, Research and Innovation (IS3) Lab at Engineering Ingegneria Informatica. He graduated in 2018 in Computer Engineering at the University of Palermo (Italy). Since 2018 he has been involved in EU and Italian research projects as solution designer and developer, and technical leader of many activities, fostering the adoption of Open Source technologies in the manufacturing domain.", linkedin: "https://www.linkedin.com/in/manfredi-pistone-224878119/", twitter: "", domain: "", location: "",
         flag: "", },
     "walter-domenico-vergara":
-        { name: "Walter Domenico Vergara", img: "https://www.fiware.org/wp-content/directories/people/images/200px/walter-domenico-vergara.jpg", position: "Senior Researcher", company: "Engineering", "company-link": "https://www.eng.it/en/",
+        { name: "Walter Domenico Vergara", img: "https://www.fiware.org/wp-content/directories/people/images/200px/walter-domenico-vergara.jpg", position: "Senior Researcher", company: "Engineering", "company-link": "https://www.eng.it/en/",
         content: "Master&#x27;s degree with laude in Computer Engineering from the University of Palermo, actually working in the Digital Platforms &amp; Ecosystems unit for Engineering Ingegneria Informatica S.p.A. With a solid background on European research projects and initiatives, I&#x27;m a software development specialist in industry domain, working on system integration and design of edge-cloud data platforms to enable AI execution in smart factories. Active contributor in FIWARE community as FIWARE Expert.", linkedin: "https://www.linkedin.com/in/walter-vergara/", twitter: "", domain: "", location: "",
         flag: "", },
     "david-campo":
@@ -504,7 +504,7 @@ var modalData = {
         content: "Álvaro Alonso is currently an Assistant Professor with the UPM. His research interests include Multi Video Conferencing Systems, Security Management in Smart Context scenarios, and Public Open Data.", linkedin: "https://www.linkedin.com/in/alvaroalonsogonzalez", twitter: "", domain: "", location: "",
         flag: "", },
     "josé-ignacio-carretero":
-        { name: "José Ignacio Carretero", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jose-ignacio-carretero.jpg", position: "Cloud &amp; Platform Expert", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
+        { name: "José Ignacio Carretero", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jose-ignacio-carretero.jpg", position: "Cloud &amp; Platform Expert", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
         content: "José Ignacio (m) holds a degree of Computer Science from Universidad de Salamanca (Salamanca, Spain). He is FIWARE Cloud and platform expert in charge of maintaining and developing the FIWARE Lab environments. He started his career working for Telefonica I+D (Research &amp; Development) programming in different projects in the field of communications, implementing protocols and gaining experience with TCP/IP networking, while coding he started to get in charge of the computer infrastructures and started to get deep knowledge and experience in Unix/Linux administration and virtualisation. He deployed the very first version of FIWARE Lab and gained experience as Openstack expert. He has also being in charge of a big part of the infrastructure behind the FIWARE Foundation with experience in different fields like networking, containerisation, security, DevOps of QA insurance. José Ignacio is currently contributing to different projects in the field of Cloud continuum.", linkedin: "https://www.linkedin.com/in/jos%C3%A9-ignacio-carretero-guarde-789622ab/", twitter: "https://twitter.com/jicarreterogu", domain: "", location: "",
         flag: "", },
     "yuzhen-li":
