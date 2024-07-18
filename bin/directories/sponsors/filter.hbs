@@ -12,7 +12,7 @@
     <div class='dropdown-container'>
         <div class='filter-element'>
             <label for='filterRole' class='dropdown-label'>Type</label>
-            <select name='' id='filterRole'>
+            <select name='filterRole' id='filterRole'>
                 <option value='*'>All Types</option>
                 {{#each types}}
                     {{#if (ne this '')}}
@@ -24,7 +24,7 @@
 
         <div class='filter-element'>
             <label for='filterCompany' class='dropdown-label'>Sponsor</label>
-            <select name='' id='filterCompany'>
+            <select name='filterCompany' id='filterCompany'>
                 <option value='*'>All Sponsors</option>
                 {{#each names}}
                     {{#if (ne this '')}}
@@ -41,7 +41,7 @@
         </div>
 
         <div class="sort-element">
-            <label for='filterRole' class='dropdown-label'>Sort by</label>
+            <label for='orderByName' class='dropdown-label'>Sort by</label>
             <button id="orderByName"><span id="ico-sortby-alpha" class="material-symbols-outlined icon">sort_by_alpha</span>Name</button>
         </div>
     </div>
