@@ -47,10 +47,10 @@ var speakers = [
         'Alberto Abella',
         'Ulrich Ahle',
         'Álvaro Alonso',
-        'Juan Antonio Bermejo',
         'Andrea Battaglia',
         'Martin Bauer',
         'Jose Benítez',
+        'Juan Antonio Bermejo',
         'Massimo Bertoncini',
         'Sebastian Blechmann',
         'Ilaria Bortone',
@@ -356,7 +356,7 @@ var modalData = {
         content: "With over two decades of experience, Iffat Tariq, Chief Digital Officer, has pioneered diverse digital initiatives globally. Specializing in Smart Cities and the Public Sector, she is instrumental in assisting governments at the forefront of data utilization and evidence-based decision-making, paving the way for excellence through digitization. With her extensive experience in developing modern data platforms for state and local governments, Iffat has become a trusted advisor in the government data landscape. Her expertise in bringing people, process, and technology together with an underlying foundation of data has transformed cities to move beyond pockets of excellence to citywide scale, sustainability, and resident impact. Iffat&#x27;s advisory role in the government data sector earned recognition at the Arizona Digital Government Summit 2023 in the session &#x27;My Data + Your Data &#x3D; Our Data.&#x27; She holds several industry certifications and international awards including &quot;ALM-Women’s Leaders in Consulting Award 2023&quot; and The International Awards Associate (IAA) 2023 due to her innovation and technology contributions in the public sector.", linkedin: "https://www.linkedin.com/in/iffattariq/", twitter: "", domain: "", location: "",
         flag: "", },
     "juan-antonio-bermejo":
-        { name: "Juan Antonio Bermejo", img: "https://www.fiware.org/wp-content/directories/people/images/200px/antonio-bermejo.jpg", position: "Head of Service of the digital transformation", company: "Cabla Palma", "company-link": "www.cablapalma.es",
+        { name: "Juan Antonio Bermejo", img: "https://www.fiware.org/wp-content/directories/people/images/200px/antonio-bermejo.jpg", position: "Head of Service of the digital transformation", company: "Cabla Palma", "company-link": "www.cablapalma.es",
         content: "A career official of the Island Council of La Palma, he currently serves as Head of the Digital Transformation Service where he leads the La Palma Smart Island Project, awarded with various awards. Official Master of Public Management and Leadership from INAP - UIMP 2019-2021 specialty Digital Society. &quot;Master in Business Intelligence and Big Data&quot; from the School of Industrial Organization, &quot;Master in Cartography, Remote Sensing and GIS&quot; from the University of Alcalá de Henares, Executive Program in Digital Transformation for Public Administrations&quot; from the School of Industrial Organization (EOI ).", linkedin: "https://www.linkedin.com/in/juanantoniobermejo/", twitter: "", domain: "", location: "",
         flag: "", },
     "jorge-hernandez":
