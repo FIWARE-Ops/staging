@@ -1771,8 +1771,7 @@ input[type="search"]::placeholder {
 
     .sort-element {
         display: flex;
-        flex-direction: row;
-        margin-top: 10px;
+        flex-direction: column;
         padding: 0;
         justify-content: flex-start;
     }
