@@ -212,7 +212,7 @@
     gap: 5px;
     font-size: 14px;
     line-height: 18px;
-    color: #FFFFFF;
+    color: #ffffff;
     background-color: #005fb9;
     padding: 8px 12px;
     border-radius: 4px;
@@ -224,6 +224,13 @@
 .btn-primary:active,
 .btn-primary:focus {
     background-color: #006cd3;
+    color: #ffffff;
+}
+
+.btn-primary a:hover,
+.btn-primary a:active,
+.btn-primary a:focus {
+    color: #ffffff;
 }
 
 .icon {
