@@ -1,6 +1,5 @@
-
 function wrapImage(id, width, height, src) {
-  var img = '';
+  var img = "";
 
   if (width) {
     img =
@@ -19,14 +18,14 @@ function wrapImage(id, width, height, src) {
 
   $(id).empty();
   $(id).append(img);
-  $(id + ' span')
+  $(id + " span")
     .hide()
     .show(0);
   //}
 }
 
 function wrapParagraphs(id, input) {
-  if (input === '') {
+  if (input === "") {
     $(id).prev().remove();
     $(id).remove();
     return;
@@ -44,48 +43,45 @@ function addChips(id, items) {
 
   $(id).empty();
   items.forEach((el) => {
-    var resource = '<li class="resource">' + el + '</li>';
+    var resource = '<li class="resource">' + el + "</li>";
     $(id).append(resource);
   });
 }
 
-function addMarker(lat,lng,zoom){
-  var map = L.map("map").setView([lat,lng], zoom);
+function addMarker(lat, lng, zoom) {
+  var map = L.map("map").setView([lat, lng], zoom);
 
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution:
-      '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+      '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
   }).addTo(map);
 
-  L.marker([lat,lng])
-    .addTo(map)
+  L.marker([lat, lng]).addTo(map);
 
-  L.circle([lat,lng], {
+  L.circle([lat, lng], {
     color: "red",
     fillColor: "#f03",
     fillOpacity: 0.5,
-    radius: 500
+    radius: 500,
   }).addTo(map);
 }
 
-
-
 function fillDetails(city) {
-  if (window.jobDone){
+  if (window.jobDone) {
     return;
   }
   window.jobDone = true;
-  $('h1#name').text(city.city);
-  $('h6#name').text(city.city);
-  $('h4#mission').text(city.excerpt);
+  $("h1#name").text(city.city);
+  $("h6#name").text(city.city);
+  $("h4#mission").text(city.excerpt);
 
-  wrapImage('#logo', 500, 300, city.img);
-  wrapImage('#main-logo', 500, 300, city.img);
+  wrapImage("#logo", 500, 300, city.img);
+  wrapImage("#main-logo", 500, 300, city.img);
 
-  wrapParagraphs('#description', city.cityStrategy);
+  wrapParagraphs("#description", city.cityStrategy);
 
-  addMarker(city.lat,city.lng,5);
-  const title = city.city + ' - ' + city.type;
+  addMarker(city.lat, city.lng, 5);
+  const title = city.city + " - " + city.type;
   document.title = title;
   history.pushState({}, null, city.social);
 }
@@ -93,8 +89,8 @@ function fillDetails(city) {
 function loadJob() {
   $ = $ || jQuery;
   $.urlParam = function (name) {
-    var results = new RegExp('[?&]' + name + '=([^&#]*)').exec(
-      window.location.href
+    var results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
+      window.location.href,
     );
     if (results == null) {
       return null;
@@ -102,20 +98,16 @@ function loadJob() {
     return decodeURI(results[1]) || 0;
   };
 
-  $('div#back-button').on('click', function (e) {
+  $("div#back-button").on("click", function (e) {
     e.preventDefault();
     window.history.back();
   });
 
-
-  if (
-    $.urlParam('id') &&
-    window.cities[$.urlParam('id')]
-  ) {
-    fillDetails(window.cities[$.urlParam('id')]);
+  if ($.urlParam("id") && window.cities[$.urlParam("id")]) {
+    fillDetails(window.cities[$.urlParam("id")]);
   } else {
-     $(".et_pb_section_1").remove()
-     $(".et_pb_section_2").css('padding', '2em')
+    $(".et_pb_section_1").remove();
+    $(".et_pb_section_2").css("padding", "2em");
   }
 
   initialiseStyleBackgroundIntersectionObserver();
@@ -125,7 +117,7 @@ function loadJob() {
 
 function initialiseStyleBackgroundIntersectionObserver() {
   const lazyBackgrounds = Array.from(
-    document.querySelectorAll('[data-background-image]')
+    document.querySelectorAll("[data-background-image]"),
   );
 
   if (lazyBackgrounds.length === 0) {
@@ -149,7 +141,7 @@ function initialiseStyleBackgroundIntersectionObserver() {
     element.style.backgroundImage = `url('${entry.target.dataset.backgroundImage}')`;
   };
 
-  if (typeof window.IntersectionObserver === 'function') {
+  if (typeof window.IntersectionObserver === "function") {
     lazyBackgroundObserver = new IntersectionObserver((entries) => {
       entries.forEach(loadBackgroundIfElementOnScreen);
     });
@@ -160,5 +152,5 @@ function initialiseStyleBackgroundIntersectionObserver() {
 }
 
 document.addEventListener("data-ready", () => {
-    loadJob();
+  loadJob();
 });

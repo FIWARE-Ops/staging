@@ -1,6 +1,5 @@
-
 function wrapImage(id, width, height, src) {
-  var img = '';
+  var img = "";
 
   if (width) {
     img =
@@ -19,14 +18,14 @@ function wrapImage(id, width, height, src) {
 
   $(id).empty();
   $(id).append(img);
-  $(id + ' span')
+  $(id + " span")
     .hide()
     .show(0);
   //}
 }
 
 function wrapParagraphs(id, input) {
-  if (input === '') {
+  if (input === "") {
     $(id).prev().remove();
     $(id).remove();
     return;
@@ -44,30 +43,28 @@ function addChips(id, items) {
 
   $(id).empty();
   items.forEach((el) => {
-    var resource = '<li class="resource">' + el + '</li>';
+    var resource = '<li class="resource">' + el + "</li>";
     $(id).append(resource);
   });
 }
 
-
-
 function fillJob(job) {
-  if (window.jobDone){
+  if (window.jobDone) {
     return;
   }
   window.jobDone = true;
-  $('h1#name').text(job.name);
-  $('h6#name').text(job.name);
-  $('h4#mission').text(job.mission);
+  $("h1#name").text(job.name);
+  $("h6#name").text(job.name);
+  $("h4#mission").text(job.mission);
 
-  wrapImage('#logo', 500, 300, job.img);
-  wrapImage('#main-logo', 500, 300, job.img);
+  wrapImage("#logo", 500, 300, job.img);
+  wrapImage("#main-logo", 500, 300, job.img);
 
-  wrapParagraphs('#description', job.description);
+  wrapParagraphs("#description", job.description);
 
-  $('#impact-stories form input[name="happyforms_form_id"]').val(job.formId)
+  $('#impact-stories form input[name="happyforms_form_id"]').val(job.formId);
 
-  const title = job.name + ' - ' + job.type;
+  const title = job.name + " - " + job.type;
   document.title = title;
   history.pushState({}, null, job.social);
 }
@@ -75,8 +72,8 @@ function fillJob(job) {
 function loadJob() {
   $ = $ || jQuery;
   $.urlParam = function (name) {
-    var results = new RegExp('[?&]' + name + '=([^&#]*)').exec(
-      window.location.href
+    var results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
+      window.location.href,
     );
     if (results == null) {
       return null;
@@ -84,20 +81,16 @@ function loadJob() {
     return decodeURI(results[1]) || 0;
   };
 
-  $('div#back-button').on('click', function (e) {
+  $("div#back-button").on("click", function (e) {
     e.preventDefault();
     window.history.back();
   });
 
-
-  if (
-    $.urlParam('id') &&
-    window.jobs[$.urlParam('id')]
-  ) {
-    fillJob(window.jobs[$.urlParam('id')]);
+  if ($.urlParam("id") && window.jobs[$.urlParam("id")]) {
+    fillJob(window.jobs[$.urlParam("id")]);
   } else {
-     $(".et_pb_section_1").remove()
-     $(".et_pb_section_2").css('padding', '2em')
+    $(".et_pb_section_1").remove();
+    $(".et_pb_section_2").css("padding", "2em");
   }
 
   initialiseStyleBackgroundIntersectionObserver();
@@ -107,7 +100,7 @@ function loadJob() {
 
 function initialiseStyleBackgroundIntersectionObserver() {
   const lazyBackgrounds = Array.from(
-    document.querySelectorAll('[data-background-image]')
+    document.querySelectorAll("[data-background-image]"),
   );
 
   if (lazyBackgrounds.length === 0) {
@@ -131,7 +124,7 @@ function initialiseStyleBackgroundIntersectionObserver() {
     element.style.backgroundImage = `url('${entry.target.dataset.backgroundImage}')`;
   };
 
-  if (typeof window.IntersectionObserver === 'function') {
+  if (typeof window.IntersectionObserver === "function") {
     lazyBackgroundObserver = new IntersectionObserver((entries) => {
       entries.forEach(loadBackgroundIfElementOnScreen);
     });
@@ -142,5 +135,5 @@ function initialiseStyleBackgroundIntersectionObserver() {
 }
 
 document.addEventListener("data-ready", () => {
-    loadJob();
+  loadJob();
 });

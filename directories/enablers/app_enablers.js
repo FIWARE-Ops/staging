@@ -28,19 +28,19 @@ function dropdownFilters(filter) {
     "#filterType",
     filter.fType,
     window.types,
-    techCSSFilter + domainCSSFilter
+    techCSSFilter + domainCSSFilter,
   );
   filterOptions(
     "#filterDomain",
     filter.fDomain,
     window.domains,
-    typeCSSFilter + techCSSFilter
+    typeCSSFilter + techCSSFilter,
   );
   filterOptions(
     "#filterTechnology",
     filter.fTech,
     window.technologies,
-    typeCSSFilter + domainCSSFilter
+    typeCSSFilter + domainCSSFilter,
   );
 }
 
@@ -178,7 +178,7 @@ function initModal() {
         // set content
 
         modal.setContent(
-          createModalContent(window.modalData[el.dataset.modal])
+          createModalContent(window.modalData[el.dataset.modal]),
         );
 
         // open modal
@@ -225,7 +225,7 @@ function filterToggle() {
           },
           {
             once: true,
-          }
+          },
         );
       }
     });
@@ -437,7 +437,7 @@ function smoothScroll() {
         function () {
           // Add hash (#) to URL when done scrolling (default click behavior)
           window.location.hash = hash;
-        }
+        },
       );
       return false;
     } // End if
@@ -572,12 +572,12 @@ document.addEventListener("html-included", () => {
     .always(function (instance) {
       msnry.arrange({ sortBy: "original-order" });
     })
-   .fail( function() {
+    .fail(function () {
       // msnry.arrange({ sortBy: "original-order" });
     })
     .progress(function (instance, image) {
       count++;
-      if(count % target === 0){
+      if (count % target === 0) {
         target = target + 7;
         msnry.arrange({ sortBy: "original-order" });
       }

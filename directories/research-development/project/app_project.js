@@ -1,6 +1,5 @@
-
 function wrapImage(id, width, height, src) {
-  var img = '';
+  var img = "";
 
   if (width) {
     img =
@@ -19,14 +18,14 @@ function wrapImage(id, width, height, src) {
 
   $(id).empty();
   $(id).append(img);
-  $(id + ' span')
+  $(id + " span")
     .hide()
     .show(0);
   //}
 }
 
 function wrapParagraphs(id, input) {
-  if (input === '') {
+  if (input === "") {
     $(id).prev().remove();
     $(id).remove();
     return;
@@ -44,7 +43,7 @@ function addChips(id, items) {
 
   $(id).empty();
   items.forEach((el) => {
-    var resource = '<li class="resource">' + el + '</li>';
+    var resource = '<li class="resource">' + el + "</li>";
     $(id).append(resource);
   });
 }
@@ -53,10 +52,9 @@ function addContacts(id, contact) {
   if (!contact) {
     $(id).remove();
   } else {
-    $(id).attr('href', contact);
+    $(id).attr("href", contact);
   }
 }
-
 
 function wrapResources(id, title, resources) {
   if (resources.length === 0) {
@@ -64,7 +62,7 @@ function wrapResources(id, title, resources) {
     return;
   }
   $(id).empty();
-  var title = '<h4>' + title + '</h4>';
+  var title = "<h4>" + title + "</h4>";
 
   $(id).append(title);
   resources.forEach((el) => {
@@ -74,12 +72,12 @@ function wrapResources(id, title, resources) {
       el[1] +
       '" target="_blank" rel="noopener">' +
       el[0] +
-      '</a></div>';
+      "</a></div>";
     $(id).append(resource);
   });
 }
 
-function setBar (startDate, endDate, status){
+function setBar(startDate, endDate, status) {
   var start = new Date(startDate), // Jan 1, 2020
     end = new Date(endDate), // Dec 31, 2021
     today = new Date(); //
@@ -94,103 +92,100 @@ function setBar (startDate, endDate, status){
   var p = Math.round((current / total) * 100) + "%";
 
   $(".bar").css("width", p).after().append(p);
-  $('h6#start-date').text(start.toDateString().substring(3));
-  $('h6#end-date').text(end.toDateString().substring(3));
-  $('h6#status').text(status);
+  $("h6#start-date").text(start.toDateString().substring(3));
+  $("h6#end-date").text(end.toDateString().substring(3));
+  $("h6#status").text(status);
 
-  if (today > end ){
-     $(".bar").css("backgroundColor", 'red');
-     $('h6#status').css("color", 'red');
-     $(".bar").css("width", '100%')
+  if (today > end) {
+    $(".bar").css("backgroundColor", "red");
+    $("h6#status").css("color", "red");
+    $(".bar").css("width", "100%");
   }
-  
 }
 
 function fillProject(project) {
-  if (window.projectDone){
+  if (window.projectDone) {
     return;
   }
   window.projectDone = true;
-  $('h1#name').text(project.name);
-  $('h6#name').text(project.name);
-  $('h4#excerpt').text(project.excerpt);
-  $('h6#funded-by').text(project.country);
-  $('span#partners').text(project.partners);
+  $("h1#name").text(project.name);
+  $("h6#name").text(project.name);
+  $("h4#excerpt").text(project.excerpt);
+  $("h6#funded-by").text(project.country);
+  $("span#partners").text(project.partners);
 
+  wrapImage("#logo", 500, 300, project.img);
+  wrapImage("#main-logo", 500, 300, project.img);
 
-  wrapImage('#logo', 500, 300, project.img);
-  wrapImage('#main-logo', 500, 300, project.img);
+  wrapParagraphs("#description", project.description);
+  wrapParagraphs("#grant-agreement", project.grantAgreement);
 
-  wrapParagraphs('#description', project.description);
-  wrapParagraphs('#grant-agreement', project.grantAgreement);
-
-  if(project.topicLink){
-    $('a#topic-link').attr('href', project.topicLink);
-    $('a#topic-link').append(project.topic);
+  if (project.topicLink) {
+    $("a#topic-link").attr("href", project.topicLink);
+    $("a#topic-link").append(project.topic);
   } else {
-     $('#topics').remove();
+    $("#topics").remove();
   }
 
-  if(project.article1Link){
-    $('a#article-1-link').attr('href', project.article1Link);
-    $('a#article-1-link').append(project.article1);
+  if (project.article1Link) {
+    $("a#article-1-link").attr("href", project.article1Link);
+    $("a#article-1-link").append(project.article1);
 
-
-    $('a#article-2-link').attr('href', project.article2Link);
-    $('a#article-2-link').append(project.article2);
+    $("a#article-2-link").attr("href", project.article2Link);
+    $("a#article-2-link").append(project.article2);
   } else {
-    $('#articles').remove();
+    $("#articles").remove();
   }
 
-  if(project.program1){
-    $('a#program-1-link').attr('href', project.program1Link);
-    $('a#program-1-link').append(project.program1);
+  if (project.program1) {
+    $("a#program-1-link").attr("href", project.program1Link);
+    $("a#program-1-link").append(project.program1);
 
     if (project.program2) {
-      $('a#program-2-link').attr('href', project.program2Link);
-      $('a#program-2-link').append(project.program2);
+      $("a#program-2-link").attr("href", project.program2Link);
+      $("a#program-2-link").append(project.program2);
     } else {
-       $('#program-2-link').parent().remove();
+      $("#program-2-link").parent().remove();
     }
   } else {
-     $('#programs').remove();
+    $("#programs").remove();
   }
 
-  $('a#project-website').attr('href', project.website);
+  $("a#project-website").attr("href", project.website);
 
-  $('a#tender-link').attr('href', project.tenderLink);
-  
-  addContacts('#linkedin', project.linkedIn);
-  addContacts('#twitter', project.twitter);
-  addContacts('#contact', project.contact);
+  $("a#tender-link").attr("href", project.tenderLink);
 
-  addChips('#domains', project.domains);
-  addChips('#technologies', project.technologies);
+  addContacts("#linkedin", project.linkedIn);
+  addContacts("#twitter", project.twitter);
+  addContacts("#contact", project.contact);
 
-  setBar (project.startDate, project.endDate, project.type);
+  addChips("#domains", project.domains);
+  addChips("#technologies", project.technologies);
 
-  $('div#partners-location').append(project.partnersDetails);
+  setBar(project.startDate, project.endDate, project.type);
 
-   if(project.disclaimant){
-     wrapParagraphs('#disclaimer', `The content of this page does not represent the opinion of the
+  $("div#partners-location").append(project.partnersDetails);
+
+  if (project.disclaimant) {
+    wrapParagraphs(
+      "#disclaimer",
+      `The content of this page does not represent the opinion of the
       ${project.disclaimant}, and the ${project.disclaimant} is not responsible for any use that might be made
-       of such content.`);
-   } else {
-     $('#disclaimer').parent().parent().remove();
+       of such content.`,
+    );
+  } else {
+    $("#disclaimer").parent().parent().remove();
   }
 
-
-
-  document.title = project.name + ' - ' + project.technologies;
+  document.title = project.name + " - " + project.technologies;
   history.pushState({}, null, project.social);
-
 }
 
 function loadProject() {
   $ = $ || jQuery;
   $.urlParam = function (name) {
-    var results = new RegExp('[?&]' + name + '=([^&#]*)').exec(
-      window.location.href
+    var results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
+      window.location.href,
     );
     if (results == null) {
       return null;
@@ -198,21 +193,16 @@ function loadProject() {
     return decodeURI(results[1]) || 0;
   };
 
-  $('div#back-button').on('click', function (e) {
+  $("div#back-button").on("click", function (e) {
     e.preventDefault();
     window.history.back();
   });
 
-
-  if (
-    $.urlParam('id') &&
-    projects[$.urlParam('id')]
-  ) {
-    fillProject(projects[$.urlParam('id')]);
+  if ($.urlParam("id") && projects[$.urlParam("id")]) {
+    fillProject(projects[$.urlParam("id")]);
   } else {
-    $($('.et_pb_section_1').children()).empty();
-     $('#disclaimer').parent().parent().remove();
-    
+    $($(".et_pb_section_1").children()).empty();
+    $("#disclaimer").parent().parent().remove();
   }
 
   initialiseStyleBackgroundIntersectionObserver();
@@ -222,7 +212,7 @@ function loadProject() {
 
 function initialiseStyleBackgroundIntersectionObserver() {
   const lazyBackgrounds = Array.from(
-    document.querySelectorAll('[data-background-image]')
+    document.querySelectorAll("[data-background-image]"),
   );
 
   if (lazyBackgrounds.length === 0) {
@@ -246,7 +236,7 @@ function initialiseStyleBackgroundIntersectionObserver() {
     element.style.backgroundImage = `url('${entry.target.dataset.backgroundImage}')`;
   };
 
-  if (typeof window.IntersectionObserver === 'function') {
+  if (typeof window.IntersectionObserver === "function") {
     lazyBackgroundObserver = new IntersectionObserver((entries) => {
       entries.forEach(loadBackgroundIfElementOnScreen);
     });
@@ -257,5 +247,5 @@ function initialiseStyleBackgroundIntersectionObserver() {
 }
 
 document.addEventListener("data-ready", () => {
-    loadProject();
+  loadProject();
 });

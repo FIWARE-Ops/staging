@@ -27,7 +27,7 @@ function setClipboard(text) {
   navigator.clipboard.write(data).then(
     () => {
       /* success */
-      alert('Link copied to clipboard')
+      alert("Link copied to clipboard");
     },
     () => {
       /* failure */
@@ -44,19 +44,19 @@ function dropdownFilters(filter) {
     "#filterType",
     filter.fType,
     window.types,
-    techCSSFilter + domainCSSFilter
+    techCSSFilter + domainCSSFilter,
   );
   filterOptions(
     "#filterDomain",
     filter.fDomain,
     window.domains,
-    typeCSSFilter + techCSSFilter
+    typeCSSFilter + techCSSFilter,
   );
   filterOptions(
     "#filterTechnology",
     filter.fTech,
     window.technologies,
-    typeCSSFilter + domainCSSFilter
+    typeCSSFilter + domainCSSFilter,
   );
 }
 
@@ -207,7 +207,7 @@ function filterToggle() {
           },
           {
             once: true,
-          }
+          },
         );
       }
     });
@@ -432,7 +432,7 @@ function smoothScroll() {
         function () {
           // Add hash (#) to URL when done scrolling (default click behavior)
           window.location.hash = hash;
-        }
+        },
       );
       return false;
     } // End if
@@ -476,14 +476,17 @@ function horizontalScroll() {
   });
 }
 
-function lazyLoadImages(){
- $.each($('img'), function() {
-    if ( $(this).attr('data-src') && $(this).offset().top < ($(window).scrollTop() + $(window).height() + 500) ) {
-        var source = $(this).data('src');
-        $(this).attr('src', source);
-        $(this).removeAttr('data-src');
+function lazyLoadImages() {
+  $.each($("img"), function () {
+    if (
+      $(this).attr("data-src") &&
+      $(this).offset().top < $(window).scrollTop() + $(window).height() + 500
+    ) {
+      var source = $(this).data("src");
+      $(this).attr("src", source);
+      $(this).removeAttr("data-src");
     }
-  })
+  });
 }
 
 document.addEventListener("html-included", () => {
@@ -505,11 +508,9 @@ document.addEventListener("html-included", () => {
     .imagesLoaded()
     .progress(function (instance) {
       msnry.layout();
-    })
-          
-  $(window).scroll(function() {
-   lazyLoadImages();
-  })
+    });
+
+  $(window).scroll(function () {
+    lazyLoadImages();
+  });
 });
-
-

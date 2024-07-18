@@ -92,7 +92,7 @@ function filterToggle() {
           },
           {
             once: true,
-          }
+          },
         );
       }
     });
@@ -139,31 +139,31 @@ function dropdownFilters(filter) {
     "#filterCompany",
     filter.fCompany,
     window.companies,
-    roleCSSFilter + departmentCSSFilter + domainCSSFilter + countryCSSFilter
+    roleCSSFilter + departmentCSSFilter + domainCSSFilter + countryCSSFilter,
   );
   filterOptions(
     "#filterRole",
     filter.fRole,
     window.titles,
-    companyCSSFilter + departmentCSSFilter + domainCSSFilter + countryCSSFilter
+    companyCSSFilter + departmentCSSFilter + domainCSSFilter + countryCSSFilter,
   );
   filterOptions(
     "#filterDepartment",
     filter.fDepartment,
     window.departments,
-    companyCSSFilter + roleCSSFilter + domainCSSFilter + countryCSSFilter
+    companyCSSFilter + roleCSSFilter + domainCSSFilter + countryCSSFilter,
   );
   filterOptions(
     "#filterDomain",
     filter.fDomain,
     window.domains,
-    companyCSSFilter + roleCSSFilter + departmentCSSFilter + countryCSSFilter
+    companyCSSFilter + roleCSSFilter + departmentCSSFilter + countryCSSFilter,
   );
   filterOptions(
     "#filterCountry",
     filter.fCountry,
     window.countries,
-    companyCSSFilter + roleCSSFilter + departmentCSSFilter + domainCSSFilter
+    companyCSSFilter + roleCSSFilter + departmentCSSFilter + domainCSSFilter,
   );
 }
 
@@ -431,7 +431,7 @@ function smoothScroll() {
         function () {
           // Add hash (#) to URL when done scrolling (default click behavior)
           window.location.hash = hash;
-        }
+        },
       );
       return false;
     } // End if
@@ -497,12 +497,12 @@ document.addEventListener("html-included", () => {
     .always(function (instance) {
       msnry.arrange({ sortBy: "original-order" });
     })
-    .fail( function() {
+    .fail(function () {
       // msnry.arrange({ sortBy: "original-order" });
     })
     .progress(function (instance, image) {
       count++;
-      if(count % target === 0){
+      if (count % target === 0) {
         target = target + 7;
         msnry.arrange({ sortBy: "original-order" });
       }

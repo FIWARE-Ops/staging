@@ -46,7 +46,7 @@ function concatValues(obj) {
 
 function createModalContent(tingleModalData) {
   var modalHtml = "";
-  
+
   modalHtml += "<div class='info-modal'>";
   modalHtml += '<img class="headshot" src="' + tingleModalData.img + '" />';
   modalHtml += "<div class='credits-modal'>";
@@ -103,13 +103,13 @@ function createModalContent(tingleModalData) {
   return modalHtml;
 }
 
-function initChips(){
-  const trackFilter = $('#filterTrack');
+function initChips() {
+  const trackFilter = $("#filterTrack");
   document.querySelectorAll(".track").forEach(function (el) {
     el.addEventListener("click", function (e) {
       const track = createClassFilter($(el).text());
-      if(trackFilter.val() === track){
-        trackFilter.val('*');
+      if (trackFilter.val() === track) {
+        trackFilter.val("*");
       } else {
         trackFilter.val(track);
       }
@@ -130,12 +130,8 @@ function initModal() {
         closeMethods: ["overlay", "button", "escape"],
         closeLabel: "Close",
         cssClass: ["tingle-modal--fullscreen"],
-        onOpen: function () {
-          
-        },
-        onClose: function () {
-          
-        },
+        onOpen: function () {},
+        onClose: function () {},
         beforeClose: function () {
           // here's goes some logic
           // e.g. save content before closing the modal
@@ -480,7 +476,6 @@ function checkboxChecked() {
     });
   }
   input_checkboxes.forEach((input) => {
-    
     input.addEventListener("click", () => {
       if (!input.classList.contains("checked")) {
         removeChecked();
@@ -504,8 +499,8 @@ function loadSpeaker() {
   };
 
   if ($.urlParam("speaker")) {
-    $('#filterSpeaker').val($.urlParam("speaker"));
-    $('#filterSpeaker').change();
+    $("#filterSpeaker").val($.urlParam("speaker"));
+    $("#filterSpeaker").change();
   } else {
     msnry.arrange({ sortBy: "original-order" });
   }

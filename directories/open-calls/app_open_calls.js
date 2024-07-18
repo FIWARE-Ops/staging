@@ -92,7 +92,7 @@ function filterToggle() {
           },
           {
             once: true,
-          }
+          },
         );
       }
     });
@@ -140,31 +140,31 @@ function dropdownFilters(filter) {
     "#filterCompany",
     filter.fCompany,
     window.companies,
-    roleCSSFilter + departmentCSSFilter + domainCSSFilter + countryCSSFilter
+    roleCSSFilter + departmentCSSFilter + domainCSSFilter + countryCSSFilter,
   );
   filterOptions(
     "#filterRole",
     filter.fRole,
     window.titles,
-    companyCSSFilter + departmentCSSFilter + domainCSSFilter + countryCSSFilter
+    companyCSSFilter + departmentCSSFilter + domainCSSFilter + countryCSSFilter,
   );
   filterOptions(
     "#filterDepartment",
     filter.fDepartment,
     window.departments,
-    companyCSSFilter + roleCSSFilter + domainCSSFilter + countryCSSFilter
+    companyCSSFilter + roleCSSFilter + domainCSSFilter + countryCSSFilter,
   );
   filterOptions(
     "#filterDomain",
     filter.fDomain,
     window.domains,
-    companyCSSFilter + roleCSSFilter + departmentCSSFilter + countryCSSFilter
+    companyCSSFilter + roleCSSFilter + departmentCSSFilter + countryCSSFilter,
   );
   filterOptions(
     "#filterCountry",
     filter.fCountry,
     window.countries,
-    companyCSSFilter + roleCSSFilter + departmentCSSFilter + domainCSSFilter
+    companyCSSFilter + roleCSSFilter + departmentCSSFilter + domainCSSFilter,
   );
 }
 
@@ -247,18 +247,18 @@ function initSelect() {
     });
   */
 
-    // SORT BY ALPHABETICALLY
-    document.querySelector("#orderByName").addEventListener("click", (e) => {
-      if (e.target.classList.contains("active") == false) {
-        msnry.arrange({ sortBy: "name" });
-        e.target.classList.add("active");
-      } else {
-        msnry.arrange({ sortBy: "original-order" });
-        e.target.classList.remove("active");
-      }
-    });
+  // SORT BY ALPHABETICALLY
+  document.querySelector("#orderByName").addEventListener("click", (e) => {
+    if (e.target.classList.contains("active") == false) {
+      msnry.arrange({ sortBy: "name" });
+      e.target.classList.add("active");
+    } else {
+      msnry.arrange({ sortBy: "original-order" });
+      e.target.classList.remove("active");
+    }
+  });
 
-/*
+  /*
     // SORT BY YEAR
     document.querySelector("#orderByYear").addEventListener("click", (e) => {
       if (e.target.classList.contains("active") == false) {
@@ -326,7 +326,7 @@ function smoothScroll() {
         function () {
           // Add hash (#) to URL when done scrolling (default click behavior)
           window.location.hash = hash;
-        }
+        },
       );
       return false;
     } // End if
@@ -392,20 +392,21 @@ function horizontalScroll() {
   });
 }
 
-function autoCloseCalls(){
+function autoCloseCalls() {
   const today = Date.parse(new Date());
 
-  $('[data-close-date]').each(function(  ) {
-     if ($(this).data('close-date') < today){
-        if ($(this).hasClass('cat-details-primary')) {
-          $(this).html('<span class="material-symbols-outlined">warning</span>CLOSED');
-        }
-        $(this).addClass("closed");
-        $(this).removeClass("open");
-     }
+  $("[data-close-date]").each(function () {
+    if ($(this).data("close-date") < today) {
+      if ($(this).hasClass("cat-details-primary")) {
+        $(this).html(
+          '<span class="material-symbols-outlined">warning</span>CLOSED',
+        );
+      }
+      $(this).addClass("closed");
+      $(this).removeClass("open");
+    }
   });
 }
-
 
 document.addEventListener("html-included", () => {
   //$("#filteredCompanies").text(window.modalData.length);
@@ -438,12 +439,12 @@ document.addEventListener("html-included", () => {
         }
       });
     })
-    .fail( function() {
+    .fail(function () {
       // msnry.arrange({ sortBy: "original-order" });
     })
     .progress(function (instance, image) {
       count++;
-      if(count % target === 0){
+      if (count % target === 0) {
         target = target + 7;
         msnry.arrange({ sortBy: "original-order" });
       }

@@ -1,7 +1,5 @@
-
 function createModalContent(tingleModalData) {
   var modalHtml = "";
-  
 
   modalHtml += "<div class='info-modal'>";
   modalHtml += '<img class="headshot" src="' + tingleModalData.img + '" />';
@@ -12,7 +10,7 @@ function createModalContent(tingleModalData) {
   if (tingleModalData.position !== "") {
     modalHtml += "<h2>" + tingleModalData.type + "</h2>";
   }
- 
+
   modalHtml += "</div>";
   modalHtml += "</div>";
   modalHtml += "<div class='bio-modal'>";
@@ -23,9 +21,8 @@ function createModalContent(tingleModalData) {
   modalHtml += "<div class='details-modal'>";
   modalHtml += "<div class='social-modal'>";
 
-   if (tingleModalData["company-link"] !== "") {
-    modalHtml +=
-      `<a class="btn-primary" href="${tingleModalData["company-link"]}" target="_blank">
+  if (tingleModalData["company-link"] !== "") {
+    modalHtml += `<a class="btn-primary" href="${tingleModalData["company-link"]}" target="_blank">
           <span class="material-symbols-outlined icon">language</span>
             Website
       </a>`;
@@ -64,12 +61,8 @@ function initModal() {
         closeMethods: ["overlay", "button", "escape"],
         closeLabel: "Close",
         cssClass: ["tingle-modal--fullscreen"],
-        onOpen: function () {
-          
-        },
-        onClose: function () {
-          
-        },
+        onOpen: function () {},
+        onClose: function () {},
         beforeClose: function () {
           // here's goes some logic
           // e.g. save content before closing the modal
@@ -84,7 +77,6 @@ function initModal() {
     });
   });
 }
-
 
 // Returns the right classNames for isotope card filtering system
 function createClassFilter(data) {
@@ -164,7 +156,7 @@ function filterToggle() {
           },
           {
             once: true,
-          }
+          },
         );
       }
     });
@@ -220,13 +212,13 @@ function dropdownFilters(filter) {
     "#filterCompany",
     filter.fCompany,
     window.companies,
-    roleCSSFilter + exhibitorCSSFilter
+    roleCSSFilter + exhibitorCSSFilter,
   );
   filterOptions(
     "#filterRole",
     filter.fRole,
     window.titles,
-    companyCSSFilter + exhibitorCSSFilter 
+    companyCSSFilter + exhibitorCSSFilter,
   );
 }
 
@@ -260,7 +252,6 @@ function initSelect() {
     }*/
     dropdownFilters(selectors);
   });
-
 
   document.querySelector("#exhibitor").addEventListener("click", (el) => {
     if (document.querySelector("#exhibitor").checked) {
@@ -341,7 +332,7 @@ function smoothScroll() {
         function () {
           // Add hash (#) to URL when done scrolling (default click behavior)
           window.location.hash = hash;
-        }
+        },
       );
       return false;
     } // End if
@@ -385,7 +376,6 @@ function horizontalScroll() {
   });
 }
 
-
 document.addEventListener("html-included", () => {
   horizontalScroll();
   smoothScroll();
@@ -406,12 +396,12 @@ document.addEventListener("html-included", () => {
     .always(function (instance) {
       msnry.arrange({ sortBy: "original-order" });
     })
-    .fail( function() {
+    .fail(function () {
       // msnry.arrange({ sortBy: "original-order" });
     })
     .progress(function (instance, image) {
       count++;
-      if(count % target === 0){
+      if (count % target === 0) {
         target = target + 7;
         msnry.arrange({ sortBy: "original-order" });
       }
