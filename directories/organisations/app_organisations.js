@@ -119,11 +119,7 @@ function filterOptions(id, filter, data, css) {
       }
     });
 
-    console.log(arr);
-
     $(`${id} option`).each(function () {
-      console.log($(this).val());
-
       if (arr.includes($(this).val())) {
         $(this).show();
       } else {

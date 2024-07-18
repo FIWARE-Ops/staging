@@ -50,8 +50,6 @@ function addChips(id, items) {
 }
 
 function addContacts(id, contact) {
-
-  console.log(contact)
   if (!contact) {
     $(id).remove();
   } else {

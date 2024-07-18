@@ -1,7 +1,6 @@
 var msnry;
 var selectors = { fType: true, fDomain: true, fTech: true, fCompany: true };
 
-// console.warn(`Log time: ${Date.now()}`);
 // Returns a unique list of element based on a json property(eg. select of companies, or select of technologies)
 function createUniqueList(jsonProperty) {
   var emptyList = [];
@@ -57,21 +56,18 @@ function createUniqueListByFilter() {
   let filteredPageData = [];
 
   if (activeFilters.filterByFiwareMember && activeFilters.filterByFiwareIhub) {
-    //console.log("both active");
     window.pageData.forEach((el, i) => {
       if (el['fiwareMember'] && el['fiwareIhub']) {
         filteredPageData.push(el);
       }
     });
   } else if (activeFilters.filterByFiwareMember) {
-    //console.log("filterByFiwareMember active");
     window.pageData.forEach((el, i) => {
       if (el['fiwareMember']) {
         filteredPageData.push(el);
       }
     });
   } else if (activeFilters.filterByFiwareIhub) {
-    //console.log("filterByFiwareIhub active");
     window.pageData.forEach((el, i) => {
       if (el['fiwareIhub']) {
         filteredPageData.push(el);
@@ -79,7 +75,6 @@ function createUniqueListByFilter() {
     });
   } else {
     filteredPageData = window.pageData;
-    //console.log("none is active");
   }
   return filteredPageData;
 }
@@ -413,7 +408,6 @@ function initCards() {
       $('html, body').scrollTop($('#searchInput').offset().top + 70);
     }
     dropdownFilters(selectors);
-    //console.warn(filteredItems);
   });
 }
 

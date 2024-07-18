@@ -188,7 +188,6 @@ function fillProduct(product) {
   $('meta[name="twitter:image"]').attr('content', product.featuredImage);
 
   history.pushState({}, null, product.social);
-  //console.log(product)
 }
 
 function loadProduct() {

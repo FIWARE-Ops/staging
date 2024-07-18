@@ -46,8 +46,7 @@ function concatValues(obj) {
 
 function createModalContent(tingleModalData) {
   var modalHtml = "";
-  console.warn(tingleModalData);
-
+  
   modalHtml += "<div class='info-modal'>";
   modalHtml += '<img class="headshot" src="' + tingleModalData.img + '" />';
   modalHtml += "<div class='credits-modal'>";
@@ -132,10 +131,10 @@ function initModal() {
         closeLabel: "Close",
         cssClass: ["tingle-modal--fullscreen"],
         onOpen: function () {
-          console.log("modal open");
+          
         },
         onClose: function () {
-          console.log("modal closed");
+          
         },
         beforeClose: function () {
           // here's goes some logic
@@ -481,10 +480,8 @@ function checkboxChecked() {
     });
   }
   input_checkboxes.forEach((input) => {
-    console.log(input);
+    
     input.addEventListener("click", () => {
-      console.log("click");
-      console.log(input.classList.contains("checked"));
       if (!input.classList.contains("checked")) {
         removeChecked();
         input.classList.add("checked");

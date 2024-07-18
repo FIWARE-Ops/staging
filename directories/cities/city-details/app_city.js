@@ -84,8 +84,6 @@ function fillDetails(city) {
 
   wrapParagraphs('#description', city.cityStrategy);
 
-
-  console.log(city.lat,city.lng)
   addMarker(city.lat,city.lng,5);
   const title = city.city + ' - ' + city.type;
   document.title = title;

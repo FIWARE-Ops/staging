@@ -1,7 +1,7 @@
 
 function createModalContent(tingleModalData) {
   var modalHtml = "";
-  console.warn(tingleModalData);
+  
 
   modalHtml += "<div class='info-modal'>";
   modalHtml += '<img class="headshot" src="' + tingleModalData.img + '" />';
@@ -65,10 +65,10 @@ function initModal() {
         closeLabel: "Close",
         cssClass: ["tingle-modal--fullscreen"],
         onOpen: function () {
-          console.log("modal open");
+          
         },
         onClose: function () {
-          console.log("modal closed");
+          
         },
         beforeClose: function () {
           // here's goes some logic
@@ -202,8 +202,6 @@ function filterOptions(id, filter, data, css) {
     });
 
     $(`${id} option`).each(function () {
-      console.log($(this).val());
-
       if (arr.includes($(this).val())) {
         $(this).show();
       } else {
