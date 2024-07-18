@@ -179,6 +179,16 @@ function getCSSFilter(id) {
   return document.querySelector(id) ? cssFilter : "";
 }
 
+function getCSSExhibitorFilter() {
+  var cssFilter = "";
+  const exhibitor = document.querySelector("#exhibitor");
+
+  if (exhibitor) {
+    cssFilter = ".exhibitor";
+  }
+  return cssFilter;
+}
+
 function filterOptions(id, filter, data, css) {
   var itemCSSFilter = ".grid-item:visible";
   // update Type select
@@ -190,8 +200,6 @@ function filterOptions(id, filter, data, css) {
         arr.push(typeClass);
       }
     });
-
-    console.log(arr);
 
     $(`${id} option`).each(function () {
       console.log($(this).val());
@@ -208,39 +216,19 @@ function filterOptions(id, filter, data, css) {
 function dropdownFilters(filter) {
   var companyCSSFilter = getCSSFilter("#filterCompany");
   var roleCSSFilter = getCSSFilter("#filterRole");
-  var departmentCSSFilter = getCSSFilter("#filterDepartment");
-  var domainCSSFilter = getCSSFilter("#filterDomain");
-  var countryCSSFilter = getCSSFilter("#filterCountry");
+  var exhibitorCSSFilter = getCSSExhibitorFilter();
 
   filterOptions(
     "#filterCompany",
     filter.fCompany,
     window.companies,
-    roleCSSFilter + departmentCSSFilter + domainCSSFilter + countryCSSFilter
+    roleCSSFilter + exhibitorCSSFilter
   );
   filterOptions(
     "#filterRole",
     filter.fRole,
     window.titles,
-    companyCSSFilter + departmentCSSFilter + domainCSSFilter + countryCSSFilter
-  );
-  filterOptions(
-    "#filterDepartment",
-    filter.fDepartment,
-    window.departments,
-    companyCSSFilter + roleCSSFilter + domainCSSFilter + countryCSSFilter
-  );
-  filterOptions(
-    "#filterDomain",
-    filter.fDomain,
-    window.domains,
-    companyCSSFilter + roleCSSFilter + departmentCSSFilter + countryCSSFilter
-  );
-  filterOptions(
-    "#filterCountry",
-    filter.fCountry,
-    window.countries,
-    companyCSSFilter + roleCSSFilter + departmentCSSFilter + domainCSSFilter
+    companyCSSFilter + exhibitorCSSFilter 
   );
 }
 
@@ -249,9 +237,7 @@ var msnry;
 var selectors = {
   fCompany: true,
   fRole: true,
-  fDepartment: true,
-  fDomain: true,
-  fCountry: true,
+  fExhibitor: true,
 };
 var filterObj = {};
 
@@ -277,6 +263,26 @@ function initSelect() {
     dropdownFilters(selectors);
   });
 
+
+  const exhibitor = document.querySelector("#exhibitor");
+  exhibitor.addEventListener("click", (el) => {
+    if (exhibitor.checked) {
+      filterObj.fExhibitor = ".exhibitor";
+    } else {
+      filterObj.fExhibitor = "";
+    }
+
+    selectors = {
+      fCompany: true,
+      fRole: true,
+      fExhbitor: false,
+    };
+
+    msnry.arrange({
+      filter: concatValues(filterObj),
+    });
+  });
+
   // SORT BY ALPHABETICALLY
   document.querySelector("#orderByName").addEventListener("click", (e) => {
     if (e.target.classList.contains("active") == false) {
@@ -297,18 +303,14 @@ function initSelect() {
       selectors = {
         fCompany: e.target.id !== "filterCompany",
         fRole: e.target.id !== "filterRole",
-        fDepartment: e.target.id !== "filterDepartment",
-        fDomain: e.target.id !== "filterDomain",
-        fCountry: e.target.id !== "filterCountry",
+        fExhibitor: true,
       };
 
       if (document.getElementById(e.target.id).value === "*") {
         selectors = {
           fCompany: true,
           fRole: true,
-          fDepartment: true,
-          fDomain: true,
-          fCountry: true,
+          fExhibitor: true,
         };
       }
 
