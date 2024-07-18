@@ -212,9 +212,9 @@
     gap: 5px;
     font-size: 14px;
     line-height: 18px;
-    color: #5dc0cf;
+    color: #FFFFFF;
     background-color: #005fb9;
-    padding: 4px 8px 4px 4px;
+    padding: 8px 12px;
     border-radius: 4px;
     transition: all 0.2s ease-in-out;
     cursor: pointer;
