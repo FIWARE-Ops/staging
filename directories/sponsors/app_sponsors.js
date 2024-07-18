@@ -183,7 +183,7 @@ function getCSSExhibitorFilter() {
   var cssFilter = "";
   const exhibitor = document.querySelector("#exhibitor");
 
-  if (exhibitor) {
+  if (exhibitor.checked) {
     cssFilter = ".exhibitor";
   }
   return cssFilter;
@@ -264,9 +264,8 @@ function initSelect() {
   });
 
 
-  const exhibitor = document.querySelector("#exhibitor");
-  exhibitor.addEventListener("click", (el) => {
-    if (exhibitor.checked) {
+  document.querySelector("#exhibitor").addEventListener("click", (el) => {
+    if (document.querySelector("#exhibitor").checked) {
       filterObj.fExhibitor = ".exhibitor";
     } else {
       filterObj.fExhibitor = "";
@@ -275,7 +274,7 @@ function initSelect() {
     selectors = {
       fCompany: true,
       fRole: true,
-      fExhbitor: false,
+      fExhibitor: false,
     };
 
     msnry.arrange({
