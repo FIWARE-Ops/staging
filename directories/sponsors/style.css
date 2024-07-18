@@ -1714,7 +1714,7 @@ input[type="search"]::placeholder {
         transition: height .5s ease;
         overflow: hidden;
         /* padding-top: 16px; */
-        border-top: 1px solid #aaa;
+        border-top: 1px solid #8ad2dc;
         margin: 0 auto 25px;
     }
 
