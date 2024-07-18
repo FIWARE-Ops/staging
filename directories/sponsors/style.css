@@ -1224,17 +1224,18 @@ select::-ms-expand {
 
 /* Custom Checkbox */
 
-.filter-element label,
 .search-element label {
     font-size: 14px;
     color: #8ad2dc;
 }
 
-.filters-checkbox {
+.filter-element label {
+    font-size: 14px;
+    color: #8ad2dc;
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column-reverse;
     gap: 10px;
+    min-width: 100px;
 }
 
 #member {
