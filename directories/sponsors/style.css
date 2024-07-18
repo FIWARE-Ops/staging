@@ -1704,6 +1704,7 @@ input[type="search"]::placeholder {
         overflow: hidden;
         /* padding-top: 16px; */
         border-top: 1px solid #aaa;
+        margin: 0 auto 25px;
     }
 
     .filters-container:not(.active) {
