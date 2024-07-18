@@ -25,9 +25,10 @@ function createModalContent(tingleModalData) {
 
    if (tingleModalData["company-link"] !== "") {
     modalHtml +=
-      '<a class="company-link" href="' +
-      tingleModalData["company-link"] +
-      '" target="_blank"></a>';
+      `<a class="btn-primary" href="${tingleModalData["company-link"]}" target="_blank">
+          <span class="material-symbols-outlined icon">language</span>
+            Website
+      </a>`;
   }
 
   if (tingleModalData.twitter !== "") {
