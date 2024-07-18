@@ -23,7 +23,7 @@ function extractSponsors(input) {
             name: item.Name.toUpperCase(),
             img: item.Image ? item.Image : DEFAULT_IMAGE,
             type: item.Type,
-            exhibitor: item.Exhibitor,
+            exhibitor: Parser.boolean(item.Exhibitor),
             priority: item.Priority,
             website: item.Website,
             bio: item.Description ? item.Description.replaceAll(/[\n\r]+/g, ' ').trim() : '', 
