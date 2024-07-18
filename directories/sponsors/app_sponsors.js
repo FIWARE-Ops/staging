@@ -56,7 +56,7 @@ function createModalContent(tingleModalData) {
 
 function initModal() {
   // Modal
-  document.querySelectorAll(".sponsor").forEach(function (el) {
+  document.querySelectorAll(".org-bio").forEach(function (el) {
     el.addEventListener("click", function (e) {
       var modal = new tingle.modal({
         footer: true,
