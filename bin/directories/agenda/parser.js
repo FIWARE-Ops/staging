@@ -137,13 +137,14 @@ function parse(agendaFile, speakersFile) {
                 })
                 .then((agenda) => {
                     const people = _.uniq(activeSpeakers);
-                    const speakerNames = _.sortBy(
+                    const collator = new Intl.Collator("en", { sensitivity: "base" });
+                    const speakerNames =
                         _.map(people, (a) => {
                             return a.name;
-                        }),
-                        (a) => {
-                            return a;
+                        }).sort( (a, b) => {
+                            return collator.compare(a.split(" ")[1], b.split(" ")[1]);
                         }
+
                     );
                     const summitDates = _.uniq(eventDates);
                     const filterData = {
