@@ -1,6 +1,6 @@
 {{#each this}}
 <div
-    class='grid-item {{#if bio}}sponsor {{/if}}{{#if exhibitor}}exhibitor {{/if}}{{createClass type}} {{createClass name}}'
+    class='grid-item {{#if bio}}org-bio {{/if}}{{#if exhibitor}}exhibitor {{/if}}{{createClass type}} {{createClass name}}'
     {{#if bio}}  
     data-modal='{{@index}}'
     {{/if}}
