@@ -1253,6 +1253,7 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"]+label {
+    width: fit-content;
     position: relative;
     overflow: hidden;
     cursor: pointer;
@@ -1712,7 +1713,7 @@ input[type="search"]::placeholder {
 
     .dropdown-container {
         flex-direction: column;
-        gap: 0px;
+        gap: 10px;
     }
 
     /* Search */
@@ -1761,7 +1762,7 @@ input[type="search"]::placeholder {
         flex-direction: row;
         margin-top: 10px;
         padding: 0;
-        justify-content: space-evenly;
+        justify-content: flex-start;
     }
 
     #orderByYear {
