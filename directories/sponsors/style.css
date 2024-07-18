@@ -1757,9 +1757,9 @@ input[type="search"]::placeholder {
         flex-direction: row;
     }
 
-    .dropdown-label {
+    /* .dropdown-label {
         display: none;
-    }
+    } */
 
     #member {
         margin: 15px 15px 15px 0px;
