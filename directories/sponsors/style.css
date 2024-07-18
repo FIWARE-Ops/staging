@@ -1262,13 +1262,11 @@ input[type="checkbox"]+label::before {
     content: "";
     display: inline-block;
     vertical-align: -26%;
-    height: 1.4em;
-    width: 1.4em;
-    background-color: white;
-    border: 1px solid rgb(166, 166, 166);
-    border-radius: 3px;
-    margin-right: 10px;
-    margin-left: 2px;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 1px solid #8ad2dc;
+    border-radius: 4px;
 }
 
 input[type="checkbox"]:checked+label::after {
