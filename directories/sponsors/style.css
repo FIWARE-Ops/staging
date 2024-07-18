@@ -521,14 +521,14 @@
     align-items: center;
     flex-direction: row-reverse;
     justify-content: space-between;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 .tingle-modal-box__footer {
     display: none;
     /* border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  background-color: #00D7A6; */
+    border-bottom-left-radius: 10px;
+    background-color: #00D7A6; */
 }
 
 .tingle-modal img {
@@ -615,10 +615,10 @@
 .social-modal p.domain {
     display: none;
     /* background-color: #E37B6B;
-  border-radius: 16px;
-  padding: 5px 15px;
-  font-size: .9em;
-  margin-right:0px; */
+    border-radius: 16px;
+    padding: 5px 15px;
+    font-size: .9em;
+    margin-right:0px; */
 }
 
 .tags-modal p.location {
