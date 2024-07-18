@@ -298,6 +298,7 @@
     width: 32px;
     background: #5dc0cf;
     border-radius: 40px;
+    transition: all 0.2s ease-in-out;
 }
 
 .cat-linkedin:hover, .cat-linkedin:active, .cat-linkedin:focus {
