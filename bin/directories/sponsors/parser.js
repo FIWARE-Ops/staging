@@ -25,6 +25,7 @@ function extractSponsors(input) {
             name: item.Name.toUpperCase(),
             img: item.Image ? item.Image : DEFAULT_IMAGE,
             type: item.Type,
+            priority: item.Priority,
             website: item.Website,
             bio: item.Description ? item.Description.replaceAll(/[\n\r]+/g, ' ').trim() : '', 
             linkedIn: Parser.trim(item.LinkedIn),
@@ -45,58 +46,10 @@ function extractSponsors(input) {
     console.log(sponsors.length, ' sponsors generated.');
 
     return sponsors.sort((a, b) => {
-        let aName = String(a.name).replace(regex, '');
-        let bName = String(b.name).replace(regex, '');
-
-        if (a.type === 'Hosting Partner') {
-            aName = '000-' + aName;
+        if (a.priority !== b.priority){
+            return a.priority - b.priority;
         }
-        if (b.type === 'Hosting Partner') {
-            bName = '000-' + bName;
-        }
-
-        if (a.type === 'Official Partner') {
-            aName = '001-' + aName;
-        }
-        if (b.type === 'Official Partner') {
-            bName = '001-' + bName;
-        }
-
-        if (a.type === 'Prestige Sponsor') {
-            aName = '002-' + aName;
-        }
-        if (b.type === 'Prestige Sponsor') {
-            bName = '002-' + bName;
-        }
-
-        if (a.type === 'Premiere Sponsor') {
-            aName = '003-' + aName;
-        }
-        if (b.type === 'Premiere Sponsor') {
-            bName = '003-' + bName;
-        }
-
-        if (a.type === 'Basic Sponsor') {
-            aName = '004-' + aName;
-        }
-        if (b.type === 'Basic Sponsor') {
-            bName = '004-' + bName;
-        }
-
-        if (a.type === 'Media Partner') {
-            aName = '005-' + aName;
-        }
-        if (b.type === 'Media Partner') {
-            bName = '005-' + bName;
-        }
-
-         if (a.type === 'Exhibitor') {
-            aName = '006-' + aName;
-        }
-        if (b.type === 'Exhibitor') {
-            bName = '006-' + bName;
-        }
-        return String(aName.toLowerCase()).localeCompare(bName.toLowerCase());
+        return String(a.name.toLowerCase()).localeCompare(b.name.toLowerCase());
     });
 }
 
