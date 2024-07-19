@@ -54,6 +54,36 @@ var types = [
 
  var modalData = [
     { 
+        name: "Advanced Dashboards with WireCloud 2.0", 
+        img: "https://www.fiware.org/wp-content/uploads/fw-advanced-dashboards-with-wirecloud-2.png",
+        type: "Visualisation", 
+        badge: "<img src='https://www.fiware.org/custom/brand-guide/img/badges/catalogue/03/svg/visualisation.svg'/>",
+        chapter: "context-processing", 
+        difficulty: 3,
+        video: "https://www.youtube.com/watch?v=88uqeNDGoJI",
+        content: "&lt;p&gt;An interactive session on mastering Wirecloud, a powerful tool for creating dynamic dashboards using a visual interface. This workshop will guide you through the essentials of setting up Wirecloud, crafting customized dashboards, and integrating data from FIWARE. You will also learn how to develop and deploy your own widgets and operators to enhance the functionality of your dashboards. Whether you are new to Wirecloud or looking to deepen your understanding, this session provides hands-on activities and expert insights to help you leverage the full potential of this versatile platform.&lt;/p&gt;",  
+        domain: "Developers",  
+        technology: "Wirecloud",
+        length: 60,
+        year: 2024,
+        social: "https://www.fiware.org/webinars/advanced-dashboards-with-wirecloud-2-0.html"
+    },
+    { 
+        name: "Creating Combined NGSI-v2/NGSI-LD Data Spaces", 
+        img: "https://www.fiware.org/wp-content/directories/webinars/images/combined-nsgi-v2-ngsi-ld.png",
+        type: "Core Context", 
+        badge: "<img src='https://www.fiware.org/custom/brand-guide/img/badges/catalogue/01/svg/core.svg'/>",
+        chapter: "core", 
+        difficulty: 3,
+        video: "https://www.youtube.com/watch?v=PjuYn8Lj-Xc",
+        content: "&lt;p&gt;The NGSI-v2 data format has a proven track record of providing interoperability within individual Smart systems, linking together web services and IoT devices via a well-defined neutral interface to maximise architectural flexibility between components and eliminate vendor lock-in. However for broader data spaces, the linked data aspects of NGSI-LD are required to ensure that no participant within a data space is limited within their own internal systems, and can continue to create and use their own preferred data structures and terminology.&lt;/p&gt; &lt;p&gt;Learn how context brokers are able to seamlessly combine the NGSI-v2 and NGSI-LD formats successfully, and leverage the advantages of both linked-data and non linked-data systems within their own domain and how to structure your NGSI-v2 data according to best practice future-proofing your ability to create and collaborate with open data spaces as they develop.&lt;/p&gt;",  
+        domain: "Developers",  
+        technology: "NGSI-v2,NGSI-LD,Data Spaces",
+        length: 45,
+        year: 2024,
+        social: "https://www.fiware.org/webinars/creating-combined-ngsi-v2-ngsi-ld-data-spaces.html"
+    },
+    { 
         name: "Leveraging NGSI in University Courses", 
         img: "https://www.fiware.org/wp-content/directories/webinars/images/ngsi-in-universities.png",
         type: "Cross-Chapter", 
