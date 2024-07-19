@@ -94,6 +94,7 @@ var speakers = [
         'Jure Lampe',
         'Frédéric Le',
         'Franck Le Gall',
+        'Jung-Hoon Lee',
         'Yuzhen Li',
         'Antonella Longo',
         'Frederico Lopez',
@@ -135,12 +136,11 @@ var speakers = [
         'Bernhard Schmidt',
         'Christoph Schneider',
         'Björn Schwarze',
-        'Mario Scuderi',
         'Olaf Seidel',
         'Fayssal Soulaymani',
         'Alessandro Spigaroli',
         'Harald Sundmaeker',
-        'Amina Syriou',
+        'Asimina Syriou',
         'Lissandra Tamayo',
         'Iffat Tariq',
         'Ángeles Tejado',
@@ -215,6 +215,10 @@ var modalData = {
         { name: "Ana Garcia Robles", img: "https://www.fiware.org/wp-content/directories/people/images/200px/ana-garcia-robles.jpg", position: "Chief Executive Officer", company: "BDVA", "company-link": "https://www.bdva.eu/",
         content: "Secretary General of the Big Data Value Association (BDVA), holds a Masters Degree in Telecommunications Engineering and an International Executive MBA. Ana has a strong ICT industrial background in the Telecommunications sector, with over 10 years’ experience in the design, implementation and configuration of large-scale telecom networks and services, and in the research and techno-economical assessment of new technologies and solutions for large-scale implementation. Ana has specialised in Innovation management and ecosystems, and she has an extensive experience at both local/regional and international level in Open innovation ecosystems, Living Labs, and socio-economic impacts of technology with over 5 years’ experience managing international associations and projects in this area.", linkedin: "https://www.linkedin.com/in/ana-garcia-robles-9750641/", twitter: "https://twitter.com/roblesag", domain: "", location: "",
         flag: "", },
+    "gilsoni-lunardi-albino":
+        { name: "Gilsoni Lunardi Albino", img: "https://www.fiware.org/wp-content/directories/people/images/200px/gilsoni-lunardi-albino.jpg", position: "Executive Director", company: "CIGA", "company-link": "consorciociga.gov.br",
+        content: "Gilsoni Lunardi Albino is director of the Public Management Innovation Consortium – CIGA with 343 consortium cities in Brazil, co-founder of the startup SmartCityTec, member of the Connectivity and Sustainability Institute – ICONECTS. He is director of public management for the Excelência SC movement and an individual member of the FIWARE Foundation. He participated in the development of Brazil&#x27;s national digital government strategy, is engaged in verticals that support businesses and startups for the public sector, such as ACATE&#x27;s Smart Cities Vertical and SEBRAE Nacional&#x27;s acceleration programs. He has an MBA in Business Technology: AI, Data Science and Big Data from PUCRS, a degree in Computer Science, with a specialization in Business Administration, a postgraduate degree in Environmental Management and Sustainability and an MBA in Project Management and a specialization in Advanced Topics in Project Management from the University of La Verne in California (USA).", linkedin: "https://www.linkedin.com/in/gilsoni/", twitter: "", domain: "", location: "",
+        flag: "", },
     "clara-pezuela":
         { name: "Clara Pezuela", img: "https://www.fiware.org/wp-content/directories/people/images/200px/clara-pezuela.jpg", position: "Vice President Funded Programs", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
         content: "Working in Atos since 22 years ago, she gained large experience in European research programs in digital domain. During such period I had the chance to participate in many diverse research projects doing different roles and working with many people across Europe.  She is a Computer Science engineer and Master in Innovation management. Technically speaking, She has been involved in sales and delivery about services architectures, cloud/edge computing, IoT and digital platforms. Additionally, she have a high level of knowledge in Open Source licensing, delivery and processes. Member of Technical Steering Committee at FIWARE Foundation and President of the Spanish Technology Platform for digital technologies on behalf of Atos. Currently, she is  Innovation Officer at CTO Office in Public Sector and Defense industry in charge of defining and putting in place the innovation strategy for this sector.", linkedin: "https://www.linkedin.com/in/clara-pezuela-2b1257/", twitter: "", domain: "", location: "",
@@ -246,6 +250,10 @@ var modalData = {
     "antonella-longo":
         { name: "Antonella Longo", img: "https://www.fiware.org/wp-content/directories/people/images/200px/antonella-longo.jpg", position: "Professor", company: "University of Salento", "company-link": "https://sydalab.unisalento.it/en/",
         content: "Antonella Longo, is an Professor at the Department of Engineering for Innovation of the University of Salento. She received the PhD in Information Engineering in 2004. She teaches Data Management and Big data management at the school of Engineering. Her research interests deal with information systems and databases, service-oriented architectures design for cloud infrastructure, technology-enhanced learning and citizen science. Her current research activity focuses on big data management and investigation of cloud architectures integration with edge computing in cyber-physical social systems. She is currently involved in a number of projects for developing data spaces for digital twins of cities and energy systems. On these topics, she has published more than 100 papers in peer-reviewed journals and international conference proceedings. She coordinate the SyDA – Lab at University of Salento.", linkedin: "https://www.linkedin.com/in/antonellalongo", twitter: "", domain: "", location: "",
+        flag: "", },
+    "asimina-syriou":
+        { name: "Asimina Syriou", img: "https://www.fiware.org/wp-content/directories/people/images/200px/asimina-syriou.jpg", position: "Engineer", company: "ESA", "company-link": "https://www.esa.int/",
+        content: "A space tech evangelist, with business development, project management, organisational leadership and hands-on remote sensing/ geospatial expertise. This has been achieved through a track record working across NGOs, academia, the Scottish government, the United Nations and the space sector as my last stop. In my current role at ESA, I am responsible for developing and promoting space-based applications and services in different thematic areas and vertical sectors focusing on sustainable development. I am responsible for establishing and developing strategic partnerships with private and public stakeholders in innovative technological domains and markets. Part of my role also involves supporting start-ups, new ventures and early-stage business concepts on space-tech related inquires. Additionally, I am coordinating the Environment, Natural Resources and Wildlife Working Group for downstream applications within TIA-A (Directorate of Telecommunications and Integrated Applications). I also have an interest on Energy &amp; Utilities, Safety &amp; Security (humanitarian &amp; maritime sustainability), Sustainable Tourism and Smart Cities. I am a Fellow and a Chartered Geographer at the Royal Geographical Society. I hold a position as a STEM Ambassador. I am a mentor to early/ mid-career geospatial/ EO professionals/ business start-uppers.", linkedin: "https://www.linkedin.com/in/mina-syriou-34601118/", twitter: "https://twitter.com/MinaSyriou", domain: "", location: "",
         flag: "", },
     "gerard-van-der-hoeven":
         { name: "Gerard van der Hoeven", img: "https://www.fiware.org/wp-content/directories/people/images/200px/gerard-van-der-hoeven.jpg", position: "Chief Executive Officer", company: "iSHARE Foundation", "company-link": "https://ishare.eu",
