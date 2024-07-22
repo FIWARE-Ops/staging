@@ -105,6 +105,10 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2024/pioneering-the-future-of-data-exchange-economy-and-data-models.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2024/fiware-around-the-world.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -249,7 +253,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/visual-tool-for-prototyping-iot-platforms-supporting-semantic-interoperability-and-blockchain.html</loc>
+			<loc>https://www.fiware.org/fgs-2024/enhanced-cybersecurity-monitoring-through-dataspaces-and-fiware.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>

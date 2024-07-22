@@ -84,6 +84,7 @@ var speakers = [
         'Raza Jafri',
         'Satish Jamadagni',
         'Antonio Jara',
+        'Sheridan Johns',
         'Steve Johnston',
         'Dimitris Kalogeras',
         'Yuki Kato',
