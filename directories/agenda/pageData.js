@@ -105,6 +105,7 @@ var speakers = [
         'Angelo Marguglio',
         'Pierryl Massal',
         'Davor Meersman',
+        'Francisco Meléndez',
         'Sophie Meszaros',
         'Jose Miguel Barone',
         'Nejib Moalla',
@@ -363,6 +364,10 @@ var modalData = {
     "antonio-jara":
         { name: "Antonio Jara", img: "https://www.fiware.org/wp-content/directories/people/images/200px/antonio-jara.jpg", position: "General Manager Smart Cities", company: "Libelium", "company-link": "https://www.libelium.com/",
         content: "Antonio has a PhD from the University of Murcia (Spain) and a MBA from the ENAE business school and UCAM (2012). He has received entrepreneurship awards from ENAE, emprendeGo, IPSO Alliance Award for its disruptive innovation in the IoT. As part of HOP Ubiquitous, Jara is focused on the Smart Cities market with solutions for citizens engagements, tourism, active participation, physical web and environmental monitoring (air quality sensors) in projects such as ENIAC SAFESENS, interoperability / pilots (SmartSDK, Synchronicity, Organicity, BeinCPPS) and also in several actions related to security/privacy (INPUT and FORTIKA).", linkedin: "https://www.linkedin.com/in/jara-libelium/", twitter: "https://twitter.com/antonio_jara", domain: "", location: "",
+        flag: "", },
+    "davor-meersman":
+        { name: "Davor Meersman", img: "https://www.fiware.org/wp-content/directories/people/images/200px/davor-meersman.jpg", position: "Chief Executive Officer", company: "FutureCraft Habitats", "company-link": "https://futurecraft.earth/",
+        content: "Dr. Davor Meersman is CEO of FutureCraft Open Source Habitats and Chairman of the FutureCraft Foundation, working with cities and regions worldwide on building free, open-source, production-ready, interoperable digital twins for constructing climate-positive affordable neighbourhoods: the Digital Housing Commons. Davor is also the Smart Communities Advisor of the Industry Commons Foundation, working with the New European Bauhaus High-Level Roundtable. Previously, Davor was CEO of Open &amp; Agile Smart Cities and the initiator of IMEC City of Things, Europe’s largest IoT living lab. Davor is also an honorary member of the United Nations SDG 11 Global Council, the European Commission’s Steering Committee on Advanced Technologies for Industry, and Ambassador of the International Society of Service Innovation Professionals under the auspices of IBM, Cisco, HP, Dell, and other leading organisations. He holds a PhD in Information Systems from Curtin University, Australia.", linkedin: "https://www.linkedin.com/in/davormeersman/", twitter: "https://twitter.com/davor_oasc", domain: "", location: "",
         flag: "", },
     "iffat-tariq":
         { name: "Iffat Tariq", img: "https://www.fiware.org/wp-content/directories/people/images/200px/iffat-tariq.jpg", position: "Chief Digital Officer", company: "I&amp;I Software Inc", "company-link": "https://www.iandisoft.com/",
