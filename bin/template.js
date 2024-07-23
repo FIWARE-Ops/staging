@@ -82,16 +82,16 @@ function createTrack(data) {
             result = 'light-green';
             break;
         case 'Innovation with FIWARE':
-            result = 'light-blue';
+            result = 'light-yellow';
             break;
         case 'Grand Opening':
             result = 'light-blue';
             break;
         case 'Hands-On Use Cases':
-            result = 'light-yellow';
+            result = 'light-blue';
             break;
         case 'Collaborative business strategies':
-            result = 'light-yellow';
+            result = 'light-blue';
             break;
         default:
             break;
