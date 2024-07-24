@@ -102,6 +102,7 @@ var speakers = [
         'Gilsoni Lunardi Albino',
         'Andrea Maioli',
         'Mannix Manglani',
+        'Lanfranco Marasso',
         'Angelo Marguglio',
         'Pierryl Massal',
         'Davor Meersman',
@@ -126,6 +127,7 @@ var speakers = [
         'Michael Prange',
         'Josué Ramos Gómez',
         'Matthias Rehfeld',
+        'Luka Remotti',
         'Maeda Reo',
         'Matteo Repetto',
         'Gianluigi Riccio',
@@ -137,9 +139,11 @@ var speakers = [
         'Laura Schipani',
         'Bernhard Schmidt',
         'Christoph Schneider',
+        'Marco Schuldt',
         'Björn Schwarze',
         'Olaf Seidel',
         'Fayssal Soulaymani',
+        'Andrew Spannaus',
         'Alessandro Spigaroli',
         'Harald Sundmaeker',
         'Asimina Syriou',
@@ -157,13 +161,13 @@ var speakers = [
         'Stefan Wiedemann',
 ]; 
 var modalData = {
-    "andrea-battaglia":
-        { name: "Andrea Battaglia", img: "https://www.fiware.org/wp-content/directories/people/images/200px/andrea-battaglia.jpg", position: "Chief Executive Officer", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
-        content: "With 20 years of expertise in the Global IT industry, Andrea Battaglia (m) is an accomplished thought leader with a proven track record in Digital Transformation, Enterprise IoT, and Ecosystem development. Thanks to his deep knowledge of the enterprise open-source industry&#x27;s business and technical aspects, Andrea brings a wealth of experience to the forefront of FIWARE&#x27;s mission to empower organizations through innovative open-source technologies, Ecosystem collaboration, and customer-centric vision.", linkedin: "https://www.linkedin.com/in/abattagl/", twitter: "", domain: "", location: "",
-        flag: "", },
     "yasunori-mochizuki":
         { name: "Yasunori Mochizuki", img: "https://www.fiware.org/wp-content/directories/people/images/200px/yasunori-mochizuki.jpg", position: "NEC Fellow", company: "NEC Corporation", "company-link": "https://www.nec.com/",
         content: "Yasunori joined NEC in 1987, straight after concluding his PhD in Electronics Engineering. He went on to spend over two decades at NEC’s corporate R&amp;D center, first as a research scientist and later as a department manager, gaining broader technical expertise, including solid-state physics, semiconductor devices/LSIs, and computer science. Later in 2013, Yasunori started working at NEC’s newly-created Business Innovation Unit. As a senior vice president, he was responsible for the corporate-wide technology strategy and IoT business strategy. His current title of NEC Fellow means that he actively participates in innovation policy proposals, global ecosystem building related to smart society, and digital transformation. He is also a BoD member of FIWARE Foundation, World Economic Forum. Fellow, and member of Business at OECD (BIAC) Committee for Digital Economy Policy.", linkedin: "https://www.linkedin.com/in/yasunori-mochizuki-93bab674/", twitter: "https://twitter.com/yasunorimochiz", domain: "", location: "",
+        flag: "", },
+    "andrea-battaglia":
+        { name: "Andrea Battaglia", img: "https://www.fiware.org/wp-content/directories/people/images/200px/andrea-battaglia.jpg", position: "Chief Executive Officer", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
+        content: "With 20 years of expertise in the Global IT industry, Andrea Battaglia (m) is an accomplished thought leader with a proven track record in Digital Transformation, Enterprise IoT, and Ecosystem development. Thanks to his deep knowledge of the enterprise open-source industry&#x27;s business and technical aspects, Andrea brings a wealth of experience to the forefront of FIWARE&#x27;s mission to empower organizations through innovative open-source technologies, Ecosystem collaboration, and customer-centric vision.", linkedin: "https://www.linkedin.com/in/abattagl/", twitter: "", domain: "", location: "",
         flag: "", },
     "stefano-de-panfilis":
         { name: "Stefano De Panfilis", img: "https://www.fiware.org/wp-content/directories/people/images/200px/stefano-depanfilis.jpg", position: "Chief Operations Officer", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
@@ -357,10 +361,6 @@ var modalData = {
         { name: "Steve Johnston", img: "https://www.fiware.org/wp-content/directories/people/images/200px/steve-johnston.jpg", position: "Chief Executive Officer", company: "MindfulTech Institute", "company-link": "https://mindfultech.institute/",
         content: "Steve Johnston – Architect of Community Technology Ecosystems for Good Steve Johnston is at the forefront of MindfulTech Institute’s mission to harness technology for the greater good. His expertise in creating and nurturing ecosystems allows technology to become a powerful tool for community empowerment and development. Passionate about making sophisticated systems accessible, Steve is dedicated to devising practical, innovative solutions that ensure technology benefits all, especially those it intends to serve. His work encourages communities to adopt and adapt technological advancements, making them useful and beneficial across diverse contexts. Join Steve at MindfulTech, where we are committed to turning technology into a force for positive, widespread change.", linkedin: "https://www.linkedin.com/in/steve-johnston/", twitter: "", domain: "", location: "",
         flag: "", },
-    "michael-prange":
-        { name: "Michael Prange", img: "https://www.fiware.org/wp-content/directories/people/images/200px/michael-prange.jpg", position: "Professor", company: "FH Kiel", "company-link": "https://www.fh-kiel.de/startseite/",
-        content: "Prof. Dr. Michael Prange studied Computer Science and Physics at Kiel University of Applied Sciences and received his doctorate in Mechanical Engineering from Hamburg University of Technology. He brings with him experience from 30 years of international business activity, from a wide variety of tasks and functions in associations and in politics, and as a lecturer at various universities. As a Professor of Data Science at Kiel University of Applied Sciences and as an entrepreneur and IT expert, the focus of his research and consulting activities is on digital transformation and sustainable development of private and public organizations with a focus on smart infrastructures, digital technologies, innovative business models, open data platforms and artificial intelligence for Smart Cities and the Green Economy.", linkedin: "https://www.linkedin.com/in/michael-prange-1232187/", twitter: "", domain: "", location: "",
-        flag: "", },
     "roberto-di-bernardo":
         { name: "Roberto Di Bernardo", img: "https://www.fiware.org/wp-content/directories/people/images/200px/roberto-di-bernardo.jpg", position: "Head of Open Government R&amp;D Unit", company: "Engineering", "company-link": "https://www.eng.it/en/",
         content: "Roberto Di Bernardo is Senior Researcher and Head of the Open Government R&amp;D Group (part of Open Public Service Innovation Lab). He is an Electronic Engineer with Professional Master’s diplomas in “Clinical Engineering” and in “Internet Software Engineering”. He has been working as researcher at Engineering R&amp;D Laboratory since 2004, being involved in management and technical activities in many Italian and European projects. He is also acting as R&amp;D opportunity and network developer for the entire Public Sector R&amp;D area. At the moment, he is coordinating URBANAGE project (H2020-DT-Transforations-02) and his group is leading/involved in, among others, the following projects: DECIDO (H2020-DT-Governance-12), INTERSTAT (CEF-Public Open Data), SPOTTED (CEF-Public Open Data), ACROSS (H2020-DT-Governance-05), URBANITE (H2020-DT-Transformations-02). Currently he is leading the Smart Governance and Smart Cities sub-group of the Big Data Value Association and co-leading the Smart Cities Domain Committee of the FIWARE Foundation and the Digital Water Systems Working Group of Water Europe.", linkedin: "https://www.linkedin.com/in/robertodibernardo/", twitter: "", domain: "", location: "",
@@ -376,6 +376,10 @@ var modalData = {
     "iffat-tariq":
         { name: "Iffat Tariq", img: "https://www.fiware.org/wp-content/directories/people/images/200px/iffat-tariq.jpg", position: "Chief Digital Officer", company: "I&amp;I Software Inc", "company-link": "https://www.iandisoft.com/",
         content: "With over two decades of experience, Iffat Tariq, Chief Digital Officer, has pioneered diverse digital initiatives globally. Specializing in Smart Cities and the Public Sector, she is instrumental in assisting governments at the forefront of data utilization and evidence-based decision-making, paving the way for excellence through digitization. With her extensive experience in developing modern data platforms for state and local governments, Iffat has become a trusted advisor in the government data landscape. Her expertise in bringing people, process, and technology together with an underlying foundation of data has transformed cities to move beyond pockets of excellence to citywide scale, sustainability, and resident impact. Iffat&#x27;s advisory role in the government data sector earned recognition at the Arizona Digital Government Summit 2023 in the session &#x27;My Data + Your Data &#x3D; Our Data.&#x27; She holds several industry certifications and international awards including &quot;ALM-Women’s Leaders in Consulting Award 2023&quot; and The International Awards Associate (IAA) 2023 due to her innovation and technology contributions in the public sector.", linkedin: "https://www.linkedin.com/in/iffattariq/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "michael-prange":
+        { name: "Michael Prange", img: "https://www.fiware.org/wp-content/directories/people/images/200px/michael-prange.jpg", position: "Professor", company: "FH Kiel", "company-link": "https://www.fh-kiel.de/startseite/",
+        content: "Prof. Dr. Michael Prange studied Computer Science and Physics at Kiel University of Applied Sciences and received his doctorate in Mechanical Engineering from Hamburg University of Technology. He brings with him experience from 30 years of international business activity, from a wide variety of tasks and functions in associations and in politics, and as a lecturer at various universities. As a Professor of Data Science at Kiel University of Applied Sciences and as an entrepreneur and IT expert, the focus of his research and consulting activities is on digital transformation and sustainable development of private and public organizations with a focus on smart infrastructures, digital technologies, innovative business models, open data platforms and artificial intelligence for Smart Cities and the Green Economy.", linkedin: "https://www.linkedin.com/in/michael-prange-1232187/", twitter: "", domain: "", location: "",
         flag: "", },
     "juan-antonio-bermejo":
         { name: "Juan Antonio Bermejo", img: "https://www.fiware.org/wp-content/directories/people/images/200px/antonio-bermejo.jpg", position: "Head of Service of the digital transformation", company: "Cabla Palma", "company-link": "www.cablapalma.es",
@@ -482,7 +486,7 @@ var modalData = {
         content: "Software engineer from UPM and robotics engineer from KTH, I am currently a software developer and project manager at eProsima, also leading international innovation and research projects such as ALMA and SustainML. In the past I have worked on IoT communications and distributed artificial intelligence projects applied to the industrial field.", linkedin: "https://www.linkedin.com/in/raulsanchezmateos/", twitter: "", domain: "", location: "",
         flag: "", },
     "manfredi-pistone":
-        { name: "Manfredi Pistone", img: "https://www.fiware.org/wp-content/directories/people/images/200px/manfredi-pistone.jpg", position: "Researcher", company: "Engineering", "company-link": "https://www.eng.it/en/",
+        { name: "Manfredi Pistone", img: "https://www.fiware.org/wp-content/directories/people/images/200px/manfredi-pistone.jpg", position: "Senior Researcher", company: "Engineering", "company-link": "https://www.eng.it/en/",
         content: "Researcher, member of “Digital Industry and Agrifood” Unit within the Industry and Security Technologies, Research and Innovation (IS3) Lab at Engineering Ingegneria Informatica. He graduated in 2018 in Computer Engineering at the University of Palermo (Italy). Since 2018 he has been involved in EU and Italian research projects as solution designer and developer, and technical leader of many activities, fostering the adoption of Open Source technologies in the manufacturing domain.", linkedin: "https://www.linkedin.com/in/manfredi-pistone-224878119/", twitter: "", domain: "", location: "",
         flag: "", },
     "walter-domenico-vergara":
