@@ -6,11 +6,11 @@ function getTrackColor(data) {
         case 'Tech & Trends':
             result = 'light-green';
             break;
-        case 'Tech Training':
-            result = 'light-green';
-            break;
         case 'Co-creation of tech solutions':
             result = 'light-green';
+            break;
+        case 'Tech Training':
+            result = 'cyan';
             break;
         case 'Innovation with FIWARE':
             result = 'light-yellow';
