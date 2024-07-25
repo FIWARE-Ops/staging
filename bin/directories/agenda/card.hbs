@@ -21,7 +21,7 @@
       </a>
     </div>
     <div class="speakers-container{{#if moderator}} moderator{{/if}}">
-      {{#if moderator}} 
+      {{#if (and moderator (gt numSpeakers 0))}} 
       <div class="moderated-by">
         Session moderated by
       </div>

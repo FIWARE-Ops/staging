@@ -5,6 +5,7 @@ const _ = require('underscore');
 const Prettier = require('prettier');
 const Parser = require('../../dataParser');
 const Sorter = require('../../sort');
+const Static = require('./staticData');
 const Template = require('../../template');
 const TEMPLATE_PATH = 'bin/directories/agenda/';
 const AGENDA_DIR = 'directories/agenda';
@@ -82,7 +83,7 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
             event.social = `/fgs-${CurrentYear}/${filename}.html`;
      //       event.socialImage = `/fgs-${CurrentYear}/${filename}.png`;
             event.socialImage = `/fiware-summit/naples-2024/agenda/program/${filename}.png`;
-            event.trackColor = Template.createTrack(event.track);
+            event.trackColor = Static.getTrackColor(event.track);
             event.numSpeakers = event.speakers.length;
             eventDates.push(event.shortDate);
             agenda.push(event);

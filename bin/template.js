@@ -68,38 +68,6 @@ function createClass(data) {
     return result;
 }
 
-function createTrack(data) {
-    let result = '';
-
-    switch (data) {
-        case 'Tech & Trends':
-            result = 'light-green';
-            break;
-        case 'Tech Training':
-            result = 'light-green';
-            break;
-        case 'Co-creation of tech solutions':
-            result = 'light-green';
-            break;
-        case 'Innovation with FIWARE':
-            result = 'light-yellow';
-            break;
-        case 'Grand Opening':
-            result = 'light-blue';
-            break;
-        case 'Hands-On Use Cases':
-            result = 'light-blue';
-            break;
-        case 'Collaborative business strategies':
-            result = 'light-blue';
-            break;
-        default:
-            break;
-    }
-
-    return result;
-}
-
 /**
  * Add multiple Isotope usable CSS classes for an
  * input array
@@ -148,7 +116,6 @@ function math(lvalue, operator, rvalue) {
     }[operator];
 }
 
-Handlebars.registerHelper('createTrack', createTrack);
 Handlebars.registerHelper('createClasses', createClasses);
 Handlebars.registerHelper('createClass', createClass);
 Handlebars.registerHelper('createAnchor', createAnchor);
@@ -242,5 +209,4 @@ exports.clean = clean;
 exports.readCSS = readCSS;
 exports.cleanDir = cleanDir;
 exports.createClass = createClass;
-exports.createTrack = createTrack;
 exports.createSocialMediaImages = createSocialMediaImages;
