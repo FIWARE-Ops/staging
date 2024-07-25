@@ -61,7 +61,7 @@
         font-weight: 600;
       }
   
-    {{#if (eq event.numSpeakers 1)}}
+    {{#if (lt event.numSpeakers 2)}}
       {{{style.one}}}
     {{else}}
     {{#if (eq event.numSpeakers 2)}}
@@ -89,9 +89,17 @@
       <div class="subtitle">{{event.session}}</div>
       {{/if}}
     </div>
-    {{#if event.moderator}} 
+    {{#if (and event.moderator (gt event.numSpeakers 0))}}
     <div class="panel-moderated-by">Moderated by:</div>
     {{/if}}
+
+    {{#if (eq event.numSpeakers 0)}}
+    <div class="panel-session">
+      <div class="session-picture {{event.trackColor}}">
+        <img src="{{event.img}}"/>
+      </div>
+    </div>
+    {{else}}
     {{#if (eq event.numSpeakers 1)}}
     <div class="panel-speakers">
       <div class="speakers">
@@ -99,9 +107,9 @@
         <div class="speaker">
           <div class="profile-picture">
             {{#if img}}
-            <img decoding="async" alt="{{name}}" src="{{img}}" loading="lazy">
+            <img decoding="async" alt="{{name}}" src="{{img}}">
             {{else}}
-            <img decoding="async" alt="" src="https://www.fiware.org/wp-content/directories/people/images/ico_user.png" loading="lazy">    
+            <img src="https://www.fiware.org/wp-content/directories/people/images/ico_user.png">    
             {{/if}}
           </div>
           <div class="speaker-info">
@@ -122,9 +130,9 @@
           <div class="grid-container">
             <div class="profile-picture-small">
               {{#if img}}
-              <img decoding="async" alt="{{name}}" src="{{img}}" loading="lazy">
+              <img decoding="async" alt="{{name}}" src="{{img}}">
               {{else}}
-              <img decoding="async" alt="" src="https://www.fiware.org/wp-content/directories/people/images/ico_user.png" loading="lazy">    
+              <img src="https://www.fiware.org/wp-content/directories/people/images/ico_user.png">    
               {{/if}}
             </div>
             <div class="speaker-info">
@@ -146,9 +154,9 @@
           <div class="grid-container">
             <div class="profile-picture-small">
               {{#if img}}
-              <img decoding="async" alt="{{name}}" src="{{img}}" loading="lazy">
+              <img decoding="async" alt="{{name}}" src="{{img}}">
               {{else}}
-              <img decoding="async" alt="" src="https://www.fiware.org/wp-content/directories/people/images/ico_user.png" loading="lazy">    
+              <img src="https://www.fiware.org/wp-content/directories/people/images/ico_user.png">    
               {{/if}}
             </div>
             <div class="speaker-info">
@@ -170,9 +178,9 @@
           <div class="grid-container">
             <div class="profile-picture-small">
               {{#if img}}
-              <img decoding="async" alt="{{name}}" src="{{img}}" loading="lazy">
+              <img src="{{img}}">
               {{else}}
-              <img decoding="async" alt="" src="https://www.fiware.org/wp-content/directories/people/images/ico_user.png" loading="lazy">    
+              <img src="https://www.fiware.org/wp-content/directories/people/images/ico_user.png">    
               {{/if}}
             </div>
             <div class="speaker-info">
@@ -214,6 +222,7 @@
       {{/each}}
       </div>
     </div>
+    {{/if}}
     {{/if}}
     {{/if}}
     {{/if}}

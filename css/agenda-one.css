@@ -118,6 +118,44 @@ body {
     border-radius: 80px;
   }
 
+  .panel-session {
+    width: 690px;
+    position: absolute;
+    top: 260px;
+    left: 433px;
+  }
+
+  .session-picture {
+    width: 280px;
+    min-width: 280px;
+    max-width: 280px;
+    height: 280px;
+  }
+
+  .session-picture img {
+    width: 100%;
+    border-radius: 110px;
+  }
+
+  .session-picture.light-blue {
+    background-color: #cce0f0;
+    color: #005fb9;
+    border-color: #005fb9;
+  }
+
+  .session-picture.light-yellow {
+    background-color: #f3f3de;
+    color: #5c5c00;
+    border-color: #5c5c00;
+  }
+
+  .session-picture.light-green {
+    background-color: #b8e5d7;
+    color: #1b493a;
+    border-color: #1b493a;
+  }
+
+
   .speakers {
     display: flex;
     flex-direction: row;
