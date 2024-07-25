@@ -40,7 +40,6 @@ var sessions = [
         'Sustainability and Growth of the FIWARE Ecosystem through High-Performing Local Innovation Hubs',
         'The Smart Data Models initiative',
         'The value of the Ecosystem',
-        'Visualizations',
         'Working together for a healthier planet',
 ]; 
 var speakers = [
@@ -56,7 +55,6 @@ var speakers = [
         'Ilaria Bortone',
         'Silvia Campailla',
         'David Campo',
-        'José Ignacio Carretero',
         'Denis Chikurtev',
         'Javier Conde Díaz',
         'Luigi Coppolino',
@@ -137,7 +135,7 @@ var speakers = [
         'Raúl Sánchez-Mateos Lizano',
         'Tonia Sapia',
         'Laura Schipani',
-        'Bernhard Schmidt',
+        'Bernhard Schmid',
         'Christoph Schneider',
         'Marco Schuldt',
         'Björn Schwarze',
@@ -149,6 +147,7 @@ var speakers = [
         'Asimina Syriou',
         'Lissandra Tamayo',
         'Iffat Tariq',
+        'Christopher Tate',
         'Ángeles Tejado',
         'Thimo Thoeye',
         'Nvidia',
@@ -201,8 +200,8 @@ var modalData = {
         { name: "Jose Benítez", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jose-benitez.jpg", position: "Chief Executive Officer", company: "Secmotic", "company-link": "https://secmotic.com/",
         content: "Since its establishment in 2015, Jose has been at the helm of Secmotic as CEO. His involvement on the Board of Directors of FIWARE since 2017 has contributed to shaping the future of the organization. In 2021, he embarked on a new venture, founding FIWOO Smart Solutions, a company dedicated to delivering FIWARE-based Smart City platform solutions tailored to the needs of the Spanish public sector.", linkedin: "https://www.linkedin.com/in/jose-benitez-secmotic/", twitter: "", domain: "", location: "",
         flag: "", },
-    "bernhard-schmidt":
-        { name: "Bernhard Schmidt", img: "https://www.fiware.org/wp-content/directories/people/images/200px/bernhard-schmidt.jpg", position: "Team Leader Digital Technology", company: "City of Vienna", "company-link": "https://www.wien.gv.at/english/",
+    "bernhard-schmid":
+        { name: "Bernhard Schmid", img: "https://www.fiware.org/wp-content/directories/people/images/200px/bernhard-schmidt.jpg", position: "Team Leader Digital Technology", company: "City of Vienna", "company-link": "https://www.wien.gv.at/english/",
         content: "Bernhard Schmid started his studies of land use planning at the University of Technology in Vienna after his school leaving examination in 1981. He received his degree in Business Administration from the Business Development Institute in Vienna and began working for a company, where he built up and headed the purchase department. Since 1991 he has been employed with the Vienna Business Agency. After several years in the real estate department he changed to the European department where he became project manager of a EU object project “IT Cluster Vienna” which started in October 2003.  Mr. Schmid is an expert in dealing with (EU) funding’s and consulting IT-companies. In 2014 the “IT Cluster Vienna” was reorganized and changed to the “Technology Services” department, where he is now the team leader of the “Digital Technologies” team with similar tasks than before. The focus lies on innovative digital companies. He hosted several conferences and matchmaking events at home and abroad. He attended various trainings and completed seminars in the field of IT and has a profound understanding of the Austrian IT Market and is a great networker. He is the main contact person for the FIWARE Foundation, and the VBA has been a Gold Member of the Foundation since its beginning.", linkedin: "", twitter: "", domain: "", location: "",
         flag: "", },
     "björn-schwarze":
@@ -521,6 +520,10 @@ var modalData = {
         { name: "Jason Fox", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jason-fox.jpg", position: "Senior Technical Expert &amp; Evangelist", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
         content: "Jason Fox (m) has been working for FIWARE Foundation for the last six years in the role of technical evangelist, educating and diseminating information about NGSI interfaces, JSON-LD, Linked Data, the components within the FIWARE Catalogue and Securing FIWARE architectures. Before joining FIWARE, he worked as a software engineer for over 20 years in various roles both in Germany and the United Kingdom using a wide variety of programming languages ranging from C++ to Java to Node.js. This has included coding the software behind selling lottery tickets online for the British National Lottery, and and developing and maintaining technical documentation applications for Nokia.", linkedin: "https://www.linkedin.com/in/jason-fox-8a79563/", twitter: "", domain: "", location: "",
         flag: "", },
+    "yuzhen-li":
+        { name: "Yuzhen Li", img: "https://www.fiware.org/wp-content/directories/people/images/200px/yuzhen-li.jpg", position: "Demonstrator Manager", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
+        content: "Yuzhen Li (f) is a working student as a Lego Smart World developer &amp; demonstrator. She completed her BEng in Electronic Information Engineering and now is close to finishing her master&#x27;s degree in the same field (ICT-Telecommunication) at TU Berlin. Her interests and expertise mainly focus on Cloud-Computing, Network Engineering, and DevOps. Before joining FIWARE, she has 2-years of experience in handling massive global network traffic and data centers for the large music streaming platform SoundCloud as a Network Reliability Engineer. Now she is working on improving the software system (Docker, VMs, Database, NGSI, etc.) for LEGO models to make it better connected to FIWARE Technologies.", linkedin: "https://www.linkedin.com/in/yuzhen-li-b242421a4/", twitter: "", domain: "", location: "",
+        flag: "", },
     "luka-keseri-":
         { name: "Luka Keserič", img: "https://www.fiware.org/wp-content/directories/people/images/200px/luka-keseric.jpg", position: "Marketing &amp; Demonstrator Manager", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
         content: "Luka Keseric (m) is a forward-thinking Computer Science master&#x27;s student, deeply passionate about cutting-edge technologies, particularly in the fields of AI, IoT, and Smart Cities. He has completed a Bachelor&#x27;s degree in Electrical Engineering and is currently finishing his Master’s degree in Computer Science at the University of Ljubljana. His technical skills encompass expertise in Machine Learning and IoT development, proficiency in programming languages such as C, C++ and Python, and hands-on experience with Microcontrollers like Arduino, ESP32, and ESP32-CAM. In his previous three-year role as a Research Assistant at the Laboratory for Machine Intelligence at the University of Ljubljana, Luka played a pivotal role in computer vision research, focusing on generative image models such as GANs and Diffusion models. Additionally, he served as a Project Leader and Board Member for a local NGO in Slovenia, where he spearheaded the development of public health and sustainable development workshops for both local and international students. Luka&#x27;s unique blend of technical expertise, leadership capabilities, and effective communication skills positions him as an excellent Smart World demonstrator and developer at FIWARE.His personal attributes include commitment to academic pursuits while actively contributing to impactful projects. He is known for his exceptional collaboration and communication skills and his visionary thinking with commitment to shaping the future through innovative technology solutions set him apart.", linkedin: "https://www.linkedin.com/in/luka-keseri%C4%8D-426164260/", twitter: "", domain: "", location: "",
@@ -533,12 +536,8 @@ var modalData = {
         { name: "Álvaro Alonso", img: "https://www.fiware.org/wp-content/directories/people/images/200px/alvaro-alonso.jpg", position: "Assistant Professor", company: "UPM", "company-link": "https://www.upm.es/internacional",
         content: "Álvaro Alonso is currently an Assistant Professor with the UPM. His research interests include Multi Video Conferencing Systems, Security Management in Smart Context scenarios, and Public Open Data.", linkedin: "https://www.linkedin.com/in/alvaroalonsogonzalez", twitter: "", domain: "", location: "",
         flag: "", },
-    "josé-ignacio-carretero":
-        { name: "José Ignacio Carretero", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jose-ignacio-carretero.jpg", position: "Cloud &amp; Platform Expert", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
-        content: "José Ignacio (m) holds a degree of Computer Science from Universidad de Salamanca (Salamanca, Spain). He is FIWARE Cloud and platform expert in charge of maintaining and developing the FIWARE Lab environments. He started his career working for Telefonica I+D (Research &amp; Development) programming in different projects in the field of communications, implementing protocols and gaining experience with TCP/IP networking, while coding he started to get in charge of the computer infrastructures and started to get deep knowledge and experience in Unix/Linux administration and virtualisation. He deployed the very first version of FIWARE Lab and gained experience as Openstack expert. He has also being in charge of a big part of the infrastructure behind the FIWARE Foundation with experience in different fields like networking, containerisation, security, DevOps of QA insurance. José Ignacio is currently contributing to different projects in the field of Cloud continuum.", linkedin: "https://www.linkedin.com/in/jos%C3%A9-ignacio-carretero-guarde-789622ab/", twitter: "https://twitter.com/jicarreterogu", domain: "", location: "",
-        flag: "", },
-    "yuzhen-li":
-        { name: "Yuzhen Li", img: "https://www.fiware.org/wp-content/directories/people/images/200px/yuzhen-li.jpg", position: "Demonstrator Manager", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
-        content: "Yuzhen Li (f) is a working student as a Lego Smart World developer &amp; demonstrator. She completed her BEng in Electronic Information Engineering and now is close to finishing her master&#x27;s degree in the same field (ICT-Telecommunication) at TU Berlin. Her interests and expertise mainly focus on Cloud-Computing, Network Engineering, and DevOps. Before joining FIWARE, she has 2-years of experience in handling massive global network traffic and data centers for the large music streaming platform SoundCloud as a Network Reliability Engineer. Now she is working on improving the software system (Docker, VMs, Database, NGSI, etc.) for LEGO models to make it better connected to FIWARE Technologies.", linkedin: "https://www.linkedin.com/in/yuzhen-li-b242421a4/", twitter: "", domain: "", location: "",
+    "christopher-tate":
+        { name: "Christopher Tate", img: "https://www.fiware.org/wp-content/directories/people/images/200px/christopher-tate.jpg", position: "Senior Consultant", company: "Red Hat", "company-link": "https://www.redhat.com/en",
+        content: "Chris Tate believes that open source software can help communities and can build a better world. He automates software development and shares how to develop and deploy software easily. He is a large contributor to open source software on GitHub. His journey with open source software began when he took a job in Bordeaux France to develop websites driven by open source search engines with a small group of search experts. He also worked in Linux Virtualization at a Linux training company, which led him to Red Hat Consulting. Chris is now a Principal Consultant in Red Hat FSI working on Event-Driven Automation solutions and many Red Hat Social Innovation projects. He currently works on 2 Red Hat Research Collaboratory Projects with Boston University students and professors to implement Ecological Forecasting and Smart Traffic Lights at scale on enterprise open source software, and integrated with FIWARE technology.", linkedin: "https://www.linkedin.com/in/computate/", twitter: "", domain: "", location: "",
         flag: "", },
 };
