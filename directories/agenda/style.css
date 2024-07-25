@@ -429,6 +429,11 @@
     color: #005fb9;
 }
 
+.track.cyan {
+    background-color: #e5f5f7;
+    color: #5dc0cf;
+}
+
 .track.light-yellow {
     background-color: #f3f3de;
     color: #5c5c00;
