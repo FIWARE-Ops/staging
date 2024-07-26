@@ -109,6 +109,22 @@ body {
       border-radius: 80px;
     }
 
+    .profile-picture-tiny {
+      width: 100%;
+      align-items: center;
+    }
+
+    .profile-picture-tiny img {
+      margin: auto;
+      width: 80px;
+      min-width: 80px;
+      max-width: 80px;
+      height: 80px;
+      display: block;
+      width: 100%;
+      border-radius: 50px;
+    }
+
     .speakers {
       display: flex;
       flex-direction: row;

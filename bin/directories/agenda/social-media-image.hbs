@@ -199,6 +199,13 @@
       <div class="speakers more">
         {{#each event.speakers}}
         <div class="speaker">
+          <div class="profile-picture-tiny">
+            {{#if img}}
+            <img src="{{img}}">
+            {{else}}
+            <img src="https://www.fiware.org/wp-content/directories/people/images/ico_user.png">    
+            {{/if}}
+          </div>
           <div class="speaker-info-small">
             <div class="speaker-name">{{name}}</div>
             <div class="speaker-job-title">{{shortJob}}</div>
