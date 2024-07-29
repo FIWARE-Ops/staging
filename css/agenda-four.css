@@ -15,7 +15,7 @@ body {
   position: absolute;
   top: 75px;
   left: 433px;
-  border: solid 1px #000000;
+  border: solid 0px #000000;
   background-color: #ffffff;
 }
 
@@ -34,7 +34,7 @@ body {
 }
 
 .subtitle {
-  margin-top: 5px;
+  margin-top: 10px;
   font-size: 24px;
   line-height: 1.3em;
   font-weight: 500;

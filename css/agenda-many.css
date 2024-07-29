@@ -15,7 +15,7 @@ body {
       position: absolute;
       top: 75px;
       left: 433px;
-      border: solid 1px #000000;
+      border: solid 0px #000000;
       background-color: #ffffff;
     }
 
@@ -34,8 +34,8 @@ body {
     }
 
     .subtitle {
-      margin-top: 5px;
-      font-size: 26px;
+      margin-top: 10px;
+      font-size: 24px;
       line-height: 1.3em;
       font-weight: 500;
       color: #4c4c4c;
@@ -78,6 +78,7 @@ body {
     }
 
     .panel-speakers.more {
+      width: 700px;
       top: 300px;
     }
 
@@ -110,12 +111,11 @@ body {
     }
 
     .profile-picture-tiny {
-      width: 100%;
-      align-items: center;
+      margin-right: 10px;
     }
 
     .profile-picture-tiny img {
-      margin: auto;
+      margin: 0;
       width: 80px;
       min-width: 80px;
       max-width: 80px;
@@ -132,17 +132,20 @@ body {
     }
 
     .speakers.more {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-template-rows: auto;
-      gap: 10px;
-    }
-
-    .speaker {
       display: flex;
       flex-direction: row;
-      align-items: center;
-    }
+      flex-wrap: wrap;
+      gap: 13px;
+  }
+
+    .speaker {
+      min-width: 32%;
+      width: 32%;
+      max-width: 32%;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+  }
 
     .speaker-info {
       margin-left: 20px;
@@ -159,8 +162,8 @@ body {
     }
 
     .speaker-info-small {
-      padding-top: 5px;
-      padding-bottom: 5px;
+      /* padding-top: 5px;
+      padding-bottom: 5px; */
     }
 
     .speaker-name {
@@ -183,11 +186,11 @@ body {
 
     .speakers.more .speaker-name {
       font-size: 18px;
-      line-height: 24px;
+      line-height: 22px;
       font-weight: 600;
       color: #000000;
       padding: 0;
-      margin-bottom: 0;
+      margin-bottom: 5px;
     }
 
     .speaker-job-title {
