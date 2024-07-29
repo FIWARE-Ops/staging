@@ -455,12 +455,16 @@
   background-color: #cce0f0;
 }
 
+.topic-icon.cyan {
+    background-color: #ddf1f4;
+}
+
 .topic-icon.light-yellow {
-  background-color: #f3f3de;
+  background-color: #fdf6cf;
 }
 
 .topic-icon.light-green {
-  background-color: #b8e5d7;
+  background-color: #d0ede4;
 }
 
 .chip-domain {
