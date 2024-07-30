@@ -127,7 +127,7 @@ var speakers = [
         'Michael Prange',
         'Josué Ramos Gómez',
         'Matthias Rehfeld',
-        'Luka Remotti',
+        'Luca Remotti',
         'Maeda Reo',
         'Matteo Repetto',
         'Gianluigi Riccio',
@@ -273,6 +273,10 @@ var modalData = {
     "eugenia-kovatcheva":
         { name: "Eugenia Kovatcheva", img: "https://www.fiware.org/wp-content/directories/people/images/200px/eugenia-kovatcheva.jpg", position: "Research Policy Director", company: "University of Sofia", "company-link": "https://www.uni-sofia.bg/eng",
         content: "Eugenia Kovatcheva is an Assistant Professor at the University of Sofia, Bulgaria. She has started working in the area of information technology for education since 2000 and has begun research on the psychological aspects of cyberspace and its impact on human beings.", linkedin: "https://www.linkedin.com/in/eugenia-kovatcheva/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "luca-remotti":
+        { name: "Luca Remotti", img: "https://www.fiware.org/wp-content/directories/people/images/200px/luca-remotti.jpg", position: "Manager and Program Director", company: "Data Power", "company-link": "https://www.data-power.net/",
+        content: "Luca is the managing partner and one of the founders of DataPower Srl located in Italy and with a global operational scope. He has over 30 years’ experience as an international Project Director in technology evaluation, technology processes and road mapping, in strategic innovation and technology marketing. He has a deep experience in the logic structuring of quantitative process design and evaluation models and in the identification of variables and data for strategic positioning, for road mapping, and in the construction of the relevant indicators. He has a major experience in research and innovation in the areas of ICT, Digital Transformation; Open data, Big Data and High Value Datasets; Cloud and Edge Computing continuum and IoT; Nanotechnologies, Advanced Materials, Advanced Manufacturing and Processing and Biotechnology; eGovernment and Design of Public Administrations and Local Governments services; Smart Cities; and the Social economy. He is skilled in high-level institutional relationships, from National Governments, International bodies (European Commission, the European Parliament, the UN Economic and Social Committee, the OECD); in Strategic orientation, organisational analysis, marketing and business development and impact evaluation, strong focus on results and outcome.", linkedin: "https://www.linkedin.com/in/lucaalessandroremotti/", twitter: "", domain: "", location: "",
         flag: "", },
     "clara-pezuela":
         { name: "Clara Pezuela", img: "https://www.fiware.org/wp-content/directories/people/images/200px/clara-pezuela.jpg", position: "Vice President Funded Programs", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
