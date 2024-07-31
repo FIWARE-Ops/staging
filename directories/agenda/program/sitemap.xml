@@ -45,7 +45,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/boosting-the-co-creation-across-the-domains.html</loc>
+			<loc>https://www.fiware.org/fgs-2024/boosting-the-co-creation-in-across-the-domains.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -81,7 +81,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/the-european-cloud-and-edge-marketplace.html</loc>
+			<loc>https://www.fiware.org/fgs-2024/the-european-cloud-and-edge-markeplace.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -105,10 +105,6 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/introduction-to-iot-agent-integration.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
 			<loc>https://www.fiware.org/fgs-2024/pioneering-the-future-of-data-exchange-economy-and-data-models.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -121,11 +117,11 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/risk-mitigation-and-cost-reduction-in-the-implementation-of-technology-stack-on-fiware-based.html</loc>
+			<loc>https://www.fiware.org/fgs-2024/introduction-to-iot-agent-integration.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/attaching-a-sensor-to-an-iot-agent.html</loc>
+			<loc>https://www.fiware.org/fgs-2024/risk-mitigation-and-cost-reduction-in-the-implementation-of-technology-stack-on-fiware-based.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -138,10 +134,6 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2024/urbreath--urban-greening-and-renaturing-towards-climate-neutrality.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
-			<loc>https://www.fiware.org/fgs-2024/smart-communities---mobility.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -265,10 +257,6 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/energy-data-space--secure-and-trust-data-sharing-framework-for-innovative-energy-solutions.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
 			<loc>https://www.fiware.org/fgs-2024/bringing-new-vision-into-the-fiware-world.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -297,6 +285,10 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2024/introduction-to-data-spaces-connector-components.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2024/startup-innovative-products-pitches.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -309,7 +301,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/introduction-to-data-spaces-connector-components.html</loc>
+			<loc>https://www.fiware.org/fgs-2024/decentralized-iam-in-fiware.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -341,11 +333,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/a-user-friendly-interface-for-iotagent-node-lib-based-agents.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
-			<loc>https://www.fiware.org/fgs-2024/decentralized-iam-in-fiware.html</loc>
+			<loc>https://www.fiware.org/fgs-2024/iot-agent-ui---a-user-friendly-interface-for-iotagent-node-lib-based-agents.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -354,6 +342,10 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2024/roadmap-and-activities-within-the-ai-ml-working-group.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2024/trust-services-for-data-spaces.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -377,10 +369,6 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/trust-services-for-data-spaces.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
 			<loc>https://www.fiware.org/fgs-2024/the-fiware-ihub-value-proposition.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -394,6 +382,10 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2024/fiiware-hybrid-cloud-for-public-applications.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2024/visualizations-of-context-data.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
