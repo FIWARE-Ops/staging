@@ -19,10 +19,14 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
 <meta property="og:title" content="FIWARE Global Summit: {{title}}">
+{{#if excerpt}} 
+<meta property="og:description" content="{{excerpt}}">
+{{else}}
 {{#if session}} 
 <meta property="og:description" content="{{track}} - {{session}}">
 {{else}}
 <meta property="og:description" content="{{track}}">
+{{/if}}
 {{/if}}
 <meta property="og:url" content="https://www.fiware.org/global-summit/agenda/program?id={{createClass title}}">
 <meta property="og:site_name" content="FIWARE">
@@ -36,10 +40,14 @@
 <!-- Twitter Tags -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="FIWARE Global Summit: {{title}}">
+{{#if excerpt}} 
+<meta property="twitter:description" content="{{excerpt}}">
+{{else}}
 {{#if session}} 
 <meta property="twitter:description" content="{{track}} - {{session}}">
 {{else}}
 <meta property="twitter:description" content="{{track}}">
+{{/if}}
 {{/if}}
 <meta name="twitter:site" content="@FIWARE">
 <meta name="twitter:creator" content="@FIWARE">

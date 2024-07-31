@@ -15,7 +15,7 @@ body {
     position: absolute;
     top: 75px;
     left: 433px;
-    border: solid 1px #000000;
+    border: solid 0px #000000;
     background-color: #ffffff;
   }
 
@@ -34,8 +34,8 @@ body {
   }
 
   .subtitle {
-    margin-top: 5px;
-    font-size: 26px;
+    margin-top: 10px;
+    font-size: 24px;
     line-height: 1.3em;
     font-weight: 500;
     color: #4c4c4c;
@@ -55,19 +55,44 @@ body {
   .track.light-blue {
     background-color: #cce0f0;
     color: #005fb9;
-    border-color: #005fb9;
   }
-
+  
+  .track.cyan {
+    background-color: #ddf1f4;
+    color: #0891b2;
+  }
+  
   .track.light-yellow {
-    background-color: #f3f3de;
-    color: #5c5c00;
-    border-color: #5c5c00;
+    background-color: #fdf6cf;
+    color: #faa307;
   }
-
+  
   .track.light-green {
-    background-color: #b8e5d7;
-    color: #1b493a;
-    border-color: #1b493a;
+    background-color: #d0ede4;
+    color: #108763;
+  }
+  
+  .topic-icon {
+    width: 140px;
+    background-color: #8ad2dc;
+    border-radius: 4px;
+    float: right;
+  }
+  
+  .topic-icon.light-blue {
+    background-color: #cce0f0;
+  }
+  
+  .topic-icon.cyan {
+      background-color: #ddf1f4;
+  }
+  
+  .topic-icon.light-yellow {
+    background-color: #fdf6cf;
+  }
+  
+  .topic-icon.light-green {
+    background-color: #d0ede4;
   }
 
   .panel-moderated-by {
