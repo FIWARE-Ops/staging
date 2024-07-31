@@ -29,6 +29,10 @@
     /* cursor: pointer; */
 }
 
+.grid-item .moderator {
+    /* background: #efefef; */
+}
+
 .grid-item:hover {
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1) !important;
 }
@@ -247,6 +251,17 @@
 .speakers-container {
     width: 100%;
     padding: 0 20px 20px 20px;
+}
+
+.moderated-by {
+    width: fit-content;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1em;
+    letter-spacing: .5px;
+    color: #4c4c4c;
+    text-transform: uppercase;
+    padding-bottom: 10px;
 }
 
 .speakers {

@@ -1,0 +1,49 @@
+<div>
+    <div class='products-record'>
+        <div class='products-label'>
+            <span id='ico-products' class='material-symbols-outlined'>apps</span>
+            <span>Partners &#38; Sponsors</span>
+        </div>
+        <span id='filteredCompanies'></span>
+    </div>
+</div>
+
+<div class='elements-container'>
+    <div class='dropdown-container'>
+        <div class='filter-element'>
+            <label for='filterRole' class='dropdown-label'>Type</label>
+            <select name='filterRole' id='filterRole'>
+                <option value='*'>All Types</option>
+                {{#each types}}
+                    {{#if (ne this '')}}
+                        <option value='{{createClass this}}'>{{this}}</option>
+                    {{/if}}
+                {{/each}}
+            </select>
+        </div>
+
+        <div class='filter-element'>
+            <label for='filterCompany' class='dropdown-label'>Sponsor</label>
+            <select name='filterCompany' id='filterCompany'>
+                <option value='*'>All Sponsors</option>
+                {{#each names}}
+                    {{#if (ne this '')}}
+                        <option value='{{createClass this}}'>{{this}}</option>
+                    {{/if}}
+                {{/each}}
+            </select>
+        </div>
+
+        <div class="check-sort-container">
+            <div class="filter-element">
+                <input type="checkbox" name="exhibitor" id="exhibitor">
+                <label for="exhibitor">Exhibitor</label>
+            </div>
+
+            <div class="sort-element">
+                <label for='orderByName' class='dropdown-label'>Sort by</label>
+                <button id="orderByName"><span id="ico-sortby-alpha" class="material-symbols-outlined icon">sort_by_alpha</span>Name</button>
+            </div>
+        </div>
+    </div>
+</div>

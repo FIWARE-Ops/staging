@@ -127,7 +127,7 @@ function textOnly(data) {
 }
 
 function trim(input) {
-    if (input !== '') {
+    if (input && input !== '') {
         input = input.trim();
     }
     return input;

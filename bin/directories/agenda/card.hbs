@@ -1,8 +1,8 @@
 {{#each this}}
 
 
-<div class='grid-item {{createClass track}} {{createClass session}}{{#each speakers}} {{createClass name}}{{/each}} {{createClass shortDate}}'>
-    <div class="gridElementTextContainer">
+<div class='grid-item {{createClass track}} {{#if (ne session '')}}{{createClass session}}{{else}}{{createClass title}}{{/if}}{{#each speakers}} {{createClass name}}{{/each}} {{createClass shortDate}}'>
+    <div class="gridElementTextContainer{{#if moderator}} moderator{{/if}}">
       <a href="./{{#if description}}program{{else}}program-details-summary{{/if}}?id={{createClass title}}">
         <div class="chip-track">
           <div class="track {{trackColor}}">{{track}}</div>
@@ -20,7 +20,12 @@
         </div>
       </a>
     </div>
-    <div class="speakers-container">
+    <div class="speakers-container{{#if moderator}} moderator{{/if}}">
+      {{#if moderator}} 
+      <div class="moderated-by">
+        Session moderated by
+      </div>
+      {{/if}}
       <div class="speakers">
         {{#each speakers}}
         <div class="speaker" {{#if shortJob}}data-modal='{{createClass name}}'{{/if}}>
@@ -43,10 +48,15 @@
         {{/each}}
       </div>
     </div>
-    <div class="foot">
+    <div class="foot{{#if moderator}} moderator{{/if}}">
       <a class="btn-primary" href="./{{#if description}}program{{else}}program-details-summary{{/if}}?id={{createClass title}}">
         <span class="material-symbols-outlined">info</span>
-        See details</a>
+        {{#if moderator}}
+          Session details
+        {{else}}
+          See details
+        {{/if}}
+      </a>
     </div>
   </div>
 {{/each}}
