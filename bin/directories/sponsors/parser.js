@@ -26,7 +26,8 @@ function extractSponsors(input) {
             exhibitor: Parser.boolean(item.Exhibitor),
             priority: item.Priority,
             website: item.Website,
-            bio: item.Description ? item.Description.replaceAll(/[\n\r]+/g, ' ').trim() : '', 
+            //bio: item.Description ? item.Description.replaceAll(/[\n\r]+/g, ' ').trim() : '', 
+            bio: Parser.markdown(item.Description),
             linkedIn: Parser.trim(item.LinkedIn),
             twitter: Parser.trim(item.Twitter),
             publish: Parser.boolean(item.Published)
