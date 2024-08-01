@@ -523,9 +523,9 @@
     width: 640px;
 }
 
-.tingle-modal-box__content {
+/* .tingle-modal-box__content {
     user-select: none;
-}
+} */
 
 .info-modal {
     display: flex;
