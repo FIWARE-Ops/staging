@@ -15,7 +15,10 @@ function createModalContent(tingleModalData) {
   modalHtml += "</div>";
   modalHtml += "<div class='bio-modal'>";
   if (tingleModalData.content !== "") {
-    modalHtml += "<p>" + tingleModalData.content + "</p>";
+     modalHtml += tingleModalData.content
+        .replace(/&lt;/g, "<")
+        .replace(/&gt;/g, ">")
+        .replace(/&amp;/g, "&");
   }
   modalHtml += "</div>";
   modalHtml += "<div class='details-modal'>";
