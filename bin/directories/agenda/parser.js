@@ -31,6 +31,7 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
             track: item.Track,
             moderator: Parser.boolean(item.Moderator),
             session: item.Session,
+            prefix: item.Prefix,
             title: item.Title,
             date: Parser.date(item.Date),
             start: item['Start Time'],
