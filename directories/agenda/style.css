@@ -444,6 +444,22 @@
     color: #108763;
 }
 
+.title-type.light-blue {
+    color: #005fb9;
+}
+
+.title-type.cyan {
+    color: #0891b2;
+}
+
+.title-type.light-yellow {
+    color: #faa307;
+}
+
+.title-type.light-green {
+    color: #108763;
+}
+
 .topic-icon {
   width: 140px;
   background-color: #8ad2dc;
