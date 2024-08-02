@@ -10,14 +10,18 @@ var companies = [
         'Meditech',
         'Municipality of Naples',
         'Opendatasoft',
+        'Pleiades',
         'Renewable Matter',
         'SmartCitiesWorld',
+        'TeamDev',
         'The Lisbon Council',
         'The Smart City Journal',
         'ULSIT',
+        'Uni Systems',
 ]; var departments = [
 ]; var domains = [
 ]; var titles = [
+        'Exhibitor',
         'Hosting Partner',
         'Media Partner',
         'Official Partner',
@@ -42,4 +46,7 @@ var companies = [
     { name: "Renewable Matter", img: "https://www.fiware.org/fiware-summit/naples-2024/images/partners/logo-renewable-matter.png", "company-link": "https://www.renewablematter.eu/en", content: "&lt;p&gt;The bimonthly magazine Renewable Matter is an in-depth tool, in English and Italian. Each issue addresses a key topic of the circular economic transition, giving voice to experts, political leaders, innovators, designers and entrepreneurs. Soil, construction, circular fashion, food systems, services, bioeconomy, sharing economy, sustainable finance are some of the themes that you will find on the pages of Renewable Matter, available only via subscription in paper and digital format. An essential intelligence tool, to be read calmly and carefully, a tool for businesses and research centers. Subscribers will find access to all issues published to date.&lt;/p&gt;", linkedin: "", twitter: "", type: "Media Partner" },
     { name: "SmartCitiesWorld", img: "https://www.fiware.org/fiware-summit/naples-2024/images/partners/logo-smart-cities-world.png", "company-link": "https://www.smartcitiesworld.net/", content: "&lt;p&gt;SmartCitiesWorld is a world-leading platform for sharing ideas and case studies to solve urban challenges that enable us to live in more resilient, sustainable, safe, and prosperous environments.&lt;/p&gt;", linkedin: "https://www.linkedin.com/company/smartcitiesworld/", twitter: "", type: "Media Partner" },
     { name: "The Smart City Journal", img: "https://www.fiware.org/fiware-summit/naples-2024/images/partners/logo-smart-city-journal.png", "company-link": "https://www.thesmartcityjournal.com/en/", content: "&lt;p&gt;The Smart City Journal is the world&#x27;s leading communication platform in the smart city – sector. In 2020, the most complicated year affected by a pandemic, we have reached one and a half million people in 135 countries in more than 1,000 cities around the world. Our platform is up to date with the latest news on urban innovation, technology and solutions in a world that moves by leaps and bounds. The Smart City Journal presents success stories of cities, organizations and companies for the development and global exchange of solutions, sustainable strategies, unique products and services in favor of citizens for a better world.&lt;/p&gt;", linkedin: "https://www.linkedin.com/company/the-smart-city-journal/", twitter: "", type: "Media Partner" },
+    { name: "Pleiades", img: "https://www.fiware.org/fiware-summit/naples-2024/images/sponsors/logo-pleiades.png", "company-link": "https://pleiadesiot.com/", content: "&lt;p&gt;The Pleiades Community comprises of all individuals and organizations contributing in achieving the Clusters’ mission. The Cluster community is not only formed by contributors to the technology, but also those who contribute in building the ecosystem and making it sustainable over time.&lt;/p&gt;", linkedin: "https://www.linkedin.com/company/pleiades-iot-innovation-cluster/", twitter: "", type: "Exhibitor" },
+    { name: "TeamDev", img: "https://www.fiware.org/fiware-summit/naples-2024/images/sponsors/logo-teamdev.png", "company-link": "https://www.teamdev.it/en/", content: "&lt;p&gt;TeamDev has created over the years a true ecosystem of professionalism, TeamDev Ecosystem. Since 2008, it has been dealing with technological innovation and geographic sciences, creating customised solutions, offering support and training services for enterprises, public administration, precision agriculture, smart cities and smart land, and NGOs. The heart of the company is the R&amp;amp;D area and Data Lab, from which come the capabilities to create new processes and products and to give value to the data collected, using a predominantly geographic approach.&lt;/p&gt;", linkedin: "https://www.linkedin.com/company/teamdev-tech/", twitter: "", type: "Exhibitor" },
+    { name: "Uni Systems", img: "https://www.fiware.org/fiware-summit/naples-2024/images/sponsors/logo-unisystems.png", "company-link": "https://www.unisystems.com/", content: "&lt;p&gt;We see IT differently. That is our vision and our promise to our stakeholders. In our long-lasting journey, we have been leading the digital transformation journey and for more than half a century, we are consistently growing into one of the most reliable ICT systems integration companies in the European Markets. Motivated by the transforming power of Information Technologies, an agile business model, in-depth business and technological know-how and highly skilled and experienced unique people, we provide agile solutions to assist our clients transform their business and remain competitive in very challenging times.&lt;/p&gt;", linkedin: "https://www.linkedin.com/compa", twitter: "", type: "Exhibitor" },
 ];
