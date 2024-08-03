@@ -72,6 +72,10 @@ body {
       color: #108763;
     }
 
+    .title-type {
+      padding-right: 1em;
+    }
+
     .title-type.light-blue {
       color: #005fb9;
     }
