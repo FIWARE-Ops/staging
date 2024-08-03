@@ -116,6 +116,14 @@ function math(lvalue, operator, rvalue) {
     }[operator];
 }
 
+function multiline(data) {
+    if (data && data.length > 25){
+        const last = data.substring(0, 25).lastIndexOf(' ')
+        return `${data.substring(0, last)}<br/>${data.substring(last)}`
+    }
+    return data;
+}
+
 Handlebars.registerHelper('createClasses', createClasses);
 Handlebars.registerHelper('createClass', createClass);
 Handlebars.registerHelper('createAnchor', createAnchor);
@@ -125,6 +133,7 @@ Handlebars.registerHelper('parseDate', parseDate);
 Handlebars.registerHelper('rating', rating);
 Handlebars.registerHelper('json', stringify);
 Handlebars.registerHelper('math', math);
+Handlebars.registerHelper('multiline', multiline);
 
 Handlebars.registerHelper({
     eq: (v1, v2) => v1 === v2,
