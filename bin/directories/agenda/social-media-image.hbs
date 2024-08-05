@@ -84,7 +84,7 @@
   <body{{#if moderator}} class="moderator"{{/if}}>
     <div class="track {{event.trackColor}}">{{event.track}}</div>
     <div class="panel-title">
-      <div class="title">{{#if (ne event.prefix '')}}<span class="title-type {{event.trackColor}}">{{event.prefix}}</span>{{/if}}{{{longTitle event.title}}}</div>
+      <div class="title">{{#if (ne event.prefix '')}}<span class="title-type {{event.trackColor}}">{{event.prefix}}</span>{{/if}}{{{longTitle event.title 90}}}</div>
       {{#if event.session}} 
       <div class="subtitle">{{event.session}}</div>
       {{/if}}
@@ -184,7 +184,7 @@
               {{/if}}
             </div>
             <div class="speaker-info">
-              <div class="speaker-name">{{name}}</div>
+              <div class="speaker-name">{{{longTitle name 18}}}</div>
               <div class="speaker-job-title">{{shortJob}}</div>
               <div class="speaker-company">{{{multiline company}}}</div>
             </div>
