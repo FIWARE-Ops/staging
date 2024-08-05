@@ -186,6 +186,7 @@
     user-select: none;
     display: flex;
     gap: 1em;
+    align-items: center;
 }
 
 .panel-title.detail {
