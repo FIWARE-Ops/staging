@@ -124,6 +124,13 @@ function multiline(data) {
     return data;
 }
 
+function longTitle(data) {
+    if (data && data.length > 90){
+        return `<span style="font-size:80%;">${data}</small>`
+    }
+    return data;
+}
+
 Handlebars.registerHelper('createClasses', createClasses);
 Handlebars.registerHelper('createClass', createClass);
 Handlebars.registerHelper('createAnchor', createAnchor);
@@ -134,6 +141,7 @@ Handlebars.registerHelper('rating', rating);
 Handlebars.registerHelper('json', stringify);
 Handlebars.registerHelper('math', math);
 Handlebars.registerHelper('multiline', multiline);
+Handlebars.registerHelper('longTitle', longTitle);
 
 Handlebars.registerHelper({
     eq: (v1, v2) => v1 === v2,
