@@ -147,6 +147,7 @@ var speakers = [
         'Andrew Spannaus',
         'Alessandro Spigaroli',
         'Harald Sundmaeker',
+        'Mina Syriou',
         'Asimina Syriou',
         'Lisandra Tamayo',
         'Iffat Tariq',
