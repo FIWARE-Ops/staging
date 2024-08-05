@@ -154,7 +154,6 @@ var speakers = [
         'Ángeles Tejado',
         'Thimo Thoeye',
         'Nvidia',
-        'Walter Vergara',
         'Giovanni Vaglica',
         'Gerard van der Hoeven',
         'Walter Domenico Vergara',
