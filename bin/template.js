@@ -126,7 +126,7 @@ function multiline(data) {
 
 function longTitle(data) {
     if (data && data.length > 90){
-        return `<span style="font-size:80%;">${data}</small>`
+        return `<span style="font-size:80%;">${data}</span>`
     }
     return data;
 }
