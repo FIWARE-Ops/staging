@@ -106,7 +106,6 @@ var speakers = [
         'Angelo Marguglio',
         'Pierryl Massal',
         'Davor Meersman',
-        'Francisco Meléndez',
         'Sophie Meszaros',
         'Jose Miguel Barone',
         'Nejib Moalla',
@@ -511,10 +510,6 @@ var modalData = {
         { name: "Giovanni Vaglica", img: "https://www.fiware.org/wp-content/directories/people/images/200px/giovanni-vaglica.jpg", position: "IT Engineer", company: "JRC – EC", "company-link": "https://joint-research-centre.ec.europa.eu",
         content: "Giovanni Vaglica is an IT engineer, specialised in the development and implementation of Smart City systems and smart infrastructures. He is responsible of the technical implementation and development of the Smart City digital platform test-bed of the EC Joint Research Centre - E.3 Unit, Safety and Security of Buildings, aimed at developing and testing technologies and solutions in real-world urban environment scenarios. As the platform&#x27;s architect, he carries out research and development to develop scalable and interoperable solutions to support Smart city applications for critical infrastructures. Additionally, the integration of heterogeneous IoT sensors and wireless networks in a very secure networking environment is a key focus of his work.", linkedin: "linkedin.com/in/giovanni-vaglica-55103a197", twitter: "", domain: "", location: "",
         flag: "", },
-    "raúl-sánchez-mateos-lizano":
-        { name: "Raúl Sánchez-Mateos Lizano", img: "https://www.fiware.org/wp-content/directories/people/images/200px/raul-sanchez-mateos-lizano.png", position: "Software Engineer", company: "eProsima", "company-link": "https://www.eprosima.com/",
-        content: "Software engineer from UPM and robotics engineer from KTH, I am currently a software developer and project manager at eProsima, also leading international innovation and research projects such as ALMA and SustainML. In the past I have worked on IoT communications and distributed artificial intelligence projects applied to the industrial field.", linkedin: "https://www.linkedin.com/in/raulsanchezmateos/", twitter: "", domain: "", location: "",
-        flag: "", },
     "manfredi-pistone":
         { name: "Manfredi Pistone", img: "https://www.fiware.org/wp-content/directories/people/images/200px/manfredi-pistone.jpg", position: "Senior Researcher", company: "Engineering", "company-link": "https://www.eng.it/en/",
         content: "Researcher, member of “Digital Industry and Agrifood” Unit within the Industry and Security Technologies, Research and Innovation (IS3) Lab at Engineering Ingegneria Informatica. He graduated in 2018 in Computer Engineering at the University of Palermo (Italy). Since 2018 he has been involved in EU and Italian research projects as solution designer and developer, and technical leader of many activities, fostering the adoption of Open Source technologies in the manufacturing domain.", linkedin: "https://www.linkedin.com/in/manfredi-pistone-224878119/", twitter: "", domain: "", location: "",
@@ -523,9 +518,9 @@ var modalData = {
         { name: "Walter Domenico Vergara", img: "https://www.fiware.org/wp-content/directories/people/images/200px/walter-domenico-vergara.jpg", position: "Senior Researcher", company: "Engineering", "company-link": "https://www.eng.it/en/",
         content: "Master&#x27;s degree with laude in Computer Engineering from the University of Palermo, actually working in the Digital Platforms &amp; Ecosystems unit for Engineering Ingegneria Informatica S.p.A. With a solid background on European research projects and initiatives, I&#x27;m a software development specialist in industry domain, working on system integration and design of edge-cloud data platforms to enable AI execution in smart factories. Active contributor in FIWARE community as FIWARE Expert.", linkedin: "https://www.linkedin.com/in/walter-vergara/", twitter: "", domain: "", location: "",
         flag: "", },
-    "francisco-meléndez":
-        { name: "Francisco Meléndez", img: "https://www.fiware.org/wp-content/directories/people/images/200px/francisco-melendez.jpg", position: "Technical Expert &amp; Evangelist", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
-        content: "Francisco Melendez (m) is a Telecommunications &amp; Robotics Engineer and is FIWARE’s Technical Expert in Robotics, Automation and Industry 4.0. He is also one of the representatives of FIWARE in the Digital Twin Consortium and some international projects where FIWARE is developing its technical roadmap in robotics and automation. As a mobile robotics engineer and researcher with more than 8 years of experience in web-enabled robot applications, his work is currently focused on the development of convenient interfaces between cyber physical systems and digital twins in FIWARE-based solutions.", linkedin: "https://www.linkedin.com/in/franmelfer/", twitter: "", domain: "", location: "",
+    "raúl-sánchez-mateos-lizano":
+        { name: "Raúl Sánchez-Mateos Lizano", img: "https://www.fiware.org/wp-content/directories/people/images/200px/raul-sanchez-mateos-lizano.png", position: "Software Engineer", company: "eProsima", "company-link": "https://www.eprosima.com/",
+        content: "Software engineer from UPM and robotics engineer from KTH, I am currently a software developer and project manager at eProsima, also leading international innovation and research projects such as ALMA and SustainML. In the past I have worked on IoT communications and distributed artificial intelligence projects applied to the industrial field.", linkedin: "https://www.linkedin.com/in/raulsanchezmateos/", twitter: "", domain: "", location: "",
         flag: "", },
     "david-campo":
         { name: "David Campo", img: "https://www.fiware.org/wp-content/directories/people/images/200px/david-campo.jpg", position: "Senior Technical Expert &amp; Evangelist", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
