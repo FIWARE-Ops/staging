@@ -46,6 +46,7 @@ var speakers = [
         'Ulrich Ahle',
         'Álvaro Alonso',
         'Alexander Andrade',
+        'Dario Avallone',
         'Andrea Battaglia',
         'Martin Bauer',
         'Jose Benítez',
