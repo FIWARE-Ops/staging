@@ -316,5 +316,17 @@
 			<loc>https://www.fiware.org/fiware-ready/dinycon-sistemas/dinycont.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
+		<url>
+			<loc>https://www.fiware.org/fiware-ready/lobsta/lobsta.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fiware-ready/ecosystem-informatics-inc/esi-fiware-api.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fiware-ready/dinycon-sistemas/dinypark.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
 </urlset>
 

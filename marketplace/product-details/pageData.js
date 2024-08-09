@@ -9960,9 +9960,176 @@ var pageData = {
             logo: 'https://www.fiware.org/wp-content/uploads/bbe92e59850472dda2eee301d7419d37.jpg',
             featuredImage: 'https://www.fiware.org/wp-content/uploads/518be1f3debe5336d15601aacc739a79.jpg',
             furtherImages: '',
+            related: [
+                {
+                    category: 'FIWARE-Ready',
+                    featuredImage: 'https://www.fiware.org/wp-content/uploads/a3a0837cf8726329464969d160632de6.jpg',
+                    excerpt:
+                        'DinyPARK offers a complete smart parking solution for vehicle counting, tracking and classification with information on free spaces in parking lots. DinyPARK offers precise real-time information on the number of vehicles that are in a certain area, for both indoor and outdoor car parks.',
+                    productName: 'DinyPARK',
+                    companyLink: './?category=ready&id=dinyconsistemas-dinypark'
+                }
+            ],
             hash: 'dinyconsistemas-dinycont',
             cat: 'ready',
             social: '/fiware-ready/dinycon-sistemas/dinycont.html'
+        },
+        'lobsta-lobsta': {
+            category: 'FIWARE-Ready',
+            organisationName: 'LOBSTA',
+            productName: 'LOBSTA',
+            organisationWebsite: 'https://lobsta.org/',
+            organisationEmail: 'mailto:lotta@lobsta.io',
+            linkedIn: '',
+            twitter: '',
+            productWebsite: 'https://lobsta.org',
+            excerpt:
+                'LOBSTA is a new Task Management that connects Places and Tasks and helps manage all kinds of location-based tasks collaboratively and more efficiently.\nLOBSTA provides an interface to FIWARE to easily create and publish subscriptions and automate task creation based on Context Broker notifications.',
+            yearOfValidation: 2024,
+            description:
+                '<p><strong>LOBSTA</strong> is a location-based task and project management solution for on-site customer services and mobile businesses. LOBSTA provides direct value for any business with location-based tasks and remote workflows. LOBSTA allows customization and optional packages, and one of them is a plugin that integrates with FIWARE deployments. It provides a form-based interface to create and publish FIWARE Context Broker subscriptions and turn Context Broker notifications automated and in real-time into actionable tasks. </p> <p>LOBSTA brings a new usage perspective to many FIWARE deployments. Integrating robust task management capabilities directly with FIWARE provides direct value through its ability to translate real-time context data into actionable tasks.   Some examples of how LOBSTA can be used in combination with FIWARE are:</p> <ul> <li>Smart City Management: Local governments can use the plugin to manage tasks related to urban infrastructure, traffic management, and public services, all driven by real-time data. </li> <li>Environmental Monitoring: Track and respond to environmental changes by automatically creating tasks based on sensor data, ensuring timely interventions. </li> <li>Emergency Response: Improve response times and coordination by creating tasks triggered by real-time incident reports and sensor alerts.</li> </ul>',
+            challenge:
+                '<p>Currently, the FIWARE integration of LOBSTA is available as an optional plugin and only supports NGSIv2 standard. </p> <ul> <li>Create and publish FIWARE Context Broker subscriptions </li> <li>Create and update tasks based on FIWARE Context Broker notifications LOBSTA as a hosted service offering is entirely based on Open Source software based on the Redmine project, enhanced with various plugins collected under the GTT-Project: https://gtt-project.org/ </li> </ul> <p>The FIWARE plugin is licensed under GPL-3.0 and the source code is published at https://github.com/gtt-project/redmine<em>gtt</em>fiware Support for NGSI-LD and further enhancements are planned for the upcoming releases.  Customers and contributors are encouraged to support and influence the development of new functionality. </p> <p>By promoting the service through the FIWARE Marketplace we also hope to receive feedback and insight into FIWARE deployments that share suitable use cases.</p>',
+            references:
+                '<p>The FIWARE plugin is a recent addition to the project/service and there are no customer deployments yet. </p> <p>LOBSTA as a service is used by various organisations in Japan, from port  management to forestry. It also builds the underlying technology of the MyCityReport platform: https://www.mycityreport.jp/</p>',
+            awards: '',
+            technologies: [
+                'Data Handling',
+                'Internet Services',
+                'Mobility and Location',
+                'Software as a Service',
+                'Service Architectures'
+            ],
+            domains: [
+                'Cities',
+                'Construction and Building',
+                'Government',
+                'Parks &amp; Gardens',
+                'Utilities',
+                'Oil and Gas'
+            ],
+            docs: [['GTT- FIWARE', 'https://github.com/gtt-project/redmine_gtt_fiware']],
+            videos: [],
+            materials: [['LOBSTA Solutions', 'https://www.lobsta.org/solutions/']],
+            logo: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_lobsta.svg',
+            featuredImage: 'https://www.fiware.org/wp-content/uploads/8e682f673e122f21e68990294175907d.png',
+            furtherImages: '',
+            hash: 'lobsta-lobsta',
+            cat: 'ready',
+            social: '/fiware-ready/lobsta/lobsta.html'
+        },
+        'ecosysteminformaticsinc-esifiwareapi': {
+            category: 'FIWARE-Ready',
+            organisationName: 'Ecosystem Informatics Inc',
+            productName: 'ESI FIWARE API',
+            organisationWebsite: 'https://ecosinfo.ca',
+            organisationEmail: 'mailto:it_admin@ecosinfo.ca',
+            linkedIn: '',
+            twitter: '',
+            productWebsite: 'https://ecosinfo.ca',
+            excerpt:
+                'The ESI FIWARE API uses IoT devices with sensors for CO, SO₂, NO₂, O₃, H₂S, CO₂, PM, VOC, and atmospheric data, writing to an Orion Context Broker. The API system allows FIWARE-compliant systems to access city air quality data via NGSIv2 connections.',
+            yearOfValidation: 2024,
+            description:
+                '<p><strong>The ESI FIWARE AP</strong>I revolutionizes air quality management for cities, vehicles, and customers. Our advanced IoT devices capture vital air quality data, while our API delivers an intelligent, cost-effective solution for real-time environmental decision-making. </p> <p>This empowers users to: </p> <ol> <li>Ensure regulatory compliance </li> <li>Enhance health and safety </li> <li>Drive climate action </li> <li>Track emissions effectively </li> </ol> <p>Our solution offers the following benefits to our customers: Truly-Mobile Our patented AI-powered system enables data collection and air sensing even when the sampling device is on the move, allowing us to cover a dynamic geographical area and reach locations that are inaccessible to conventional devices. Accurate and Reliable The accuracy and reliability of data are built into our corporate DNA. This is achieved consistently through artificial intelligence, which sets our technology apart. Backed by Science Our ever-evolving technology, developed through rigorous research, continues to enable the delivery of high-quality insights and information.  Hyperlocal Scale of Monitoring Gain an understanding of pollution at the hyperlocal human scale through our network of moving and stationary sensors. Our technology provides a hyperlocal resolution, enabling us to measure air quality with exceptional detail. Low cost, High Impact!  Our innovative technology boasts a small hardware footprint and a highly adaptable system, resulting in operating costs that are 5X lower and 10X better geographic coverage.</p>',
+            challenge:
+                '<p>We address several key challenges: </p> <ol> <li>Air Quality Monitoring: Providing accurate, real-time data on air pollutants like CO, SO₂, NO₂, O₃, H₂S, CO₂, PM, and VOCs.</li> <li>Data Integration: Ensuring seamless data collection and integration from diverse IoT devices into a unified platform. </li> <li>Regulatory Compliance: Helping cities and organizations meet environmental regulations and standards. </li> <li>Health &amp; Safety: Enhancing public health and safety by monitoring and managing air quality to reduce exposure to harmful pollutants. </li> <li>Climate Action: Supporting climate initiatives by tracking and managing emissions and environmental impact. </li> <li>Decision Support: Enabling informed decision-making through real-time data and analytics for better environmental management. </li> <li>Cost-Effective Solutions: Offering affordable, scalable solutions for comprehensive air quality monitoring and management. </li> </ol> <p>Cities, Municipalities and Governments primarily utilise our system for: </p> <ol> <li>Public Health &amp; Safety </li> <li>Transportation network planning </li> <li>Geological leak detection</li> <li>Infrastructure planning </li> <li>Scenario planning &amp; consultation</li> <li>Emissions benchmarking &amp; tracking </li> <li>Long-term air quality tracking &amp; trends </li> </ol> <p>We also provide a host of Industrial Solutions including: </p> <ol> <li>Occupational Health &amp; Safety </li> <li>Compliance &amp; Regulation </li> <li>Fenceline monitoring </li> <li>Contaminant detection &amp; alarms </li> <li>Environment Impact assessments </li> <li>Risk Assessments </li> <li>Scenario planning &amp; consultation </li> </ol> <p>Our forte is in: </p> <ol> <li>Helping urban planners make informed decisions and policies around air quality, infrastructure, and transportation planning, and achieve sustainability. </li> <li>Quantifying and managing progress on environmental challenges against carbon footprint goals. </li> <li>Identifying critical zones and action areas with precise, real-time air quality data to safeguard public health and employees.</li> </ol>',
+            references:
+                '<p>Our customers span a wide range of cities, municipalities, governments, urban planners, corporations, industries and many more. A list of our testimonials can be found on our website.  Sharing a few here: \\"We are impressed with ESI\'s dedication to providing high-quality technology solutions for the industrial sector. Their expertise has assisted us in applying practical solutions and in solving environmental/civil challenges for our clients. We highly recommend ESI to any organization looking for innovative technology solutions.\\" - Minh Le, President, C3 Group</p> <p>\\"ESI\'s technology and service was a great option for the City of Hamilton. We know that the demand for small high-quality air quality monitors is growing, and it has a huge potential to positively impact the health and well-being of communities in not just Hamilton, but beyond.\\" - Public Health &amp; Safety, City of Hamilton, Ontario, Canada</p>',
+            awards: '',
+            technologies: [
+                'Artificial Intelligence',
+                'Data Analytics',
+                'Digital Twins',
+                'Internet of Things',
+                'Software as a Service'
+            ],
+            domains: ['Air Quality', 'Automotive', 'Cities', 'Government', 'Industry'],
+            docs: [
+                [
+                    'Specifications/System',
+                    'https://ecosinfo-my.sharepoint.com/personal/anirudh_ecosinfo_ca/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fanirudh%5Fecosinfo%5Fca%2FDocuments%2FESI%20FIWARE%20API&ga=1'
+                ]
+            ],
+            videos: [],
+            materials: [],
+            logo: 'https://www.fiware.org/wp-content/uploads/01a198894b53fee684c497c04ce4e620.png',
+            featuredImage: 'https://www.fiware.org/wp-content/uploads/1de3b0ef76869973cad8fa433b0c2c2f.png',
+            furtherImages: '',
+            hash: 'ecosysteminformaticsinc-esifiwareapi',
+            cat: 'ready',
+            social: '/fiware-ready/ecosystem-informatics-inc/esi-fiware-api.html'
+        },
+        'dinyconsistemas-dinypark': {
+            category: 'FIWARE-Ready',
+            organisationName: 'Dinycon Sistemas',
+            productName: 'DinyPARK',
+            organisationWebsite: 'https://https://www.dinycon.com/en/home',
+            organisationEmail: 'mailto:info@dinycon.com',
+            linkedIn: 'https://es.linkedin.com/company/dinycon-conteo-personas',
+            twitter: 'https://twitter.com/DinyconSistemas',
+            productWebsite: 'https://https://www.dinycon.com/en/solutions/information-on-free-spaces-in-car-parks',
+            excerpt:
+                'DinyPARK offers a complete smart parking solution for vehicle counting, tracking and classification with information on free spaces in parking lots. DinyPARK offers precise real-time information on the number of vehicles that are in a certain area, for both indoor and outdoor car parks.',
+            yearOfValidation: 2024,
+            description:
+                '<p><strong>DinyPARK</strong> offers several benefits that can significantly enhance the efficiency and convenience of urban parking. The main advantage is a reduction of the time drivers spend searching for available spots, thus reducing stress, alleviating road congestion, decreasing pollution and noise levels, etc. Here is a list of other advantages: </p> <ul> <li>Optimised parking space use: the deployment of sensors, guiding systems, and the software to process real-time data is what makes DinyPARK a solution to efficiently manage parking spaces.  </li> <li>Time and fuel savings: drivers spend less time circling to find parking, leading to reduced fuel consumption and lower carbon emissions. This also enhances overall traffic flow in urban areas. - -</li> <li>Improved user experience: DinyPARK provides real-time information about available spaces through Dinycon´s ATPOINTS Web App and street information displays (Signage). This improves the overall experience for drivers by reducing stress and frustration associated with parking. </li> <li>Enhanced revenue generation: by efficiently managing parking spaces, cities or parking operators can maximize revenue from parking facilities. This can be achieved through dynamic pricing based on demand or increased turnover of parking spaces. </li> <li>Data-driven insights: DinyPARK generates valuable data on parking patterns, peak hours, and usage trends. This data can be used to optimize city planning, traffic management, and future infrastructure development. </li> <li>Environmental impact: by reducing traffic congestion and emissions associated with parking searches, DinyPARK contributes to environmental sustainability. </li> <li>Integration with smart cities: smart parking is a key component of smart city initiatives, integrating with other urban systems like transportation, IoT networks, and data analytics platforms to create more efficient and sustainable urban environments. </li> <li>Accessibility and safety: real-time information on available parking spaces can also improve accessibility for drivers with disabilities (PRM). Additionally, it can contribute to safer parking environments by reducing the need for sudden maneuvers and illegal parking. </li> </ul> <p>Overall, DinyPARK can help modernise urban infrastructure and improve the quality of life for residents and visitors by making parking easier, more efficient, and environmentally friendly.</p>',
+            challenge:
+                '<p>The challenge of implementing smart parking solutions lies in trying to reduce the number of sensors and infrastructure required to monitor and control a parking lot. In some cases, car parks can have hundreds or even thousands of available slots, and there even be the need to differentiate between standard, PRM, or even EV recharging slots. In this sense, Dinycon´s differentiator is in combining multiple technologies (hybrid) to suit specific car park requirements. The accuracy and reliability of the sensors also have to be addressed, especially in challenging environments such as outdoor parking with varying weather conditions, parking spaces in open unmarked ground i.e. in fields, obstructions in the line of sight (especially for computer vision), and lack of lighting conditions to read number plates.  </p> <p>Additionally, privacy concerns may arise, necessitating the implementation of transparent data collection practices and compliance with regulations such as GDPR or similar data privacy laws. Furthermore, integrating smart parking technology with existing infrastructure and systems poses technical challenges that need to be addressed for seamless operation and effective utilization of data. Over the last five years, we have doubled down on efforts to bring artificial intelligence into the picture.  The aim is to use Deep Learning algorithms with processed images to discern between occupied/free car park slots with the absolute minimum number of sensors. The solution has been developed in conjunction with the R&amp;D technology Centre Tekniker.</p>',
+            references:
+                '<p>Since the year 2000, Dinycon has installed smart parking in more than 80 projects projects. To name a few are public car parks at the following Municipalities; Irún, Santander, Deba, Coruña, San Sebastián, Guadalajara, Getxo, Amorebieta, Alcalá de Henares, Salamanca, Utrera etc., as well as internationally in cities such as Teheran (Iran), Lima (Perú), Santiago de Chile and Quito (Ecuador). </p> <p>Likewise, Dinycon has been subcontracted in smart parking projects by clients such as Telefónica, T-Systems, and Cibernos to deploy in cities like Adeje, Málaga, Calviá, La Nucia, and Badajoz to name a few. </p> <p>All projects involved a combination of installing sensors, receiving the data from sensors in the DinyPARK software platform, and then presenting the occupancy level of each car park on street information displays distributed around the city.</p>',
+            awards: '',
+            technologies: ['Artificial Intelligence', 'Data Spaces', 'Internet of Things', 'Mobility and Location'],
+            domains: ['Cities', 'Mobility', 'Parks &amp; Gardens', 'Retail and Wholesale', 'Tourism'],
+            docs: [
+                [
+                    'Documentation',
+                    'https://drive.google.com/file/d/1E2CPjq3uCjW-Vm9aNRlrgStIkWcccOjE/view?usp=drive_link'
+                ],
+                [
+                    'Google Doc',
+                    'https://docs.google.com/document/d/1vj4dlExBnR8xRGFDreiBibHEI8Z2_aGL/edit?usp=drive_link&ouid=108851425333401676840&rtpof=true&sd=true'
+                ],
+                [
+                    'Google Doc 2',
+                    'https://drive.google.com/file/d/1crHXTUyuwYoKFPe7YiqziFe2KGKIXeBl/view?usp=drive_link'
+                ]
+            ],
+            videos: [['YouTube', 'https://www.youtube.com/watch?v=-qQXGzFco9g']],
+            materials: [
+                [
+                    'Article ',
+                    'https://www.noticiasdegipuzkoa.eus/sociedad/2015/11/23/nuevo-sistema-gestiona-donostia-plazas-4113840.html'
+                ],
+                [
+                    'Parking management for people with disabilities',
+                    'https://www.euskaditecnologia.com/dinypark-pmr-gestion-de-aparcamiento-para-personas-con-discapacidad/'
+                ],
+                [
+                    'Advanced parking management',
+                    'https://www.tecnocarreteras.es/2011/10/06/feria-trafic-dinypark-gestion-avanzada-de-aparcamiento/'
+                ],
+                [
+                    'Telefónica',
+                    'https://alicanteplaza.es/telefonica-y-la-generalitat-lanzan-un-piloto-para-servicios-turisticos-deportivos-y-urbanos-en-la-nucia'
+                ]
+            ],
+            logo: 'https://www.fiware.org/wp-content/uploads/3d276736a064edd7108397266807424e.jpg',
+            featuredImage: 'https://www.fiware.org/wp-content/uploads/a3a0837cf8726329464969d160632de6.jpg',
+            furtherImages: '',
+            related: [
+                {
+                    category: 'FIWARE-Ready',
+                    featuredImage: 'https://www.fiware.org/wp-content/uploads/518be1f3debe5336d15601aacc739a79.jpg',
+                    excerpt:
+                        'DinyCONT provides people counting and information on people flow, differentiating between children, adults etc. The system can be set up to measure in one or multiple zones, by accesses, time slots, etc. All of which is readily accessible from our software platform on the Cloud.',
+                    productName: 'DinyCONT',
+                    companyLink: './?category=ready&id=dinyconsistemas-dinycont'
+                }
+            ],
+            hash: 'dinyconsistemas-dinypark',
+            cat: 'ready',
+            social: '/fiware-ready/dinycon-sistemas/dinypark.html'
         }
     },
     cities: {
