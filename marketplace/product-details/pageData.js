@@ -10064,11 +10064,11 @@ var pageData = {
             category: 'FIWARE-Ready',
             organisationName: 'Dinycon Sistemas',
             productName: 'DinyPARK',
-            organisationWebsite: 'https://https://www.dinycon.com/en/home',
+            organisationWebsite: 'https://www.dinycon.com/en/home',
             organisationEmail: 'mailto:info@dinycon.com',
             linkedIn: 'https://es.linkedin.com/company/dinycon-conteo-personas',
             twitter: 'https://twitter.com/DinyconSistemas',
-            productWebsite: 'https://https://www.dinycon.com/en/solutions/information-on-free-spaces-in-car-parks',
+            productWebsite: 'https://www.dinycon.com/en/solutions/information-on-free-spaces-in-car-parks',
             excerpt:
                 'DinyPARK offers a complete smart parking solution for vehicle counting, tracking and classification with information on free spaces in parking lots. DinyPARK offers precise real-time information on the number of vehicles that are in a certain area, for both indoor and outdoor car parks.',
             yearOfValidation: 2024,
