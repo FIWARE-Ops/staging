@@ -40,15 +40,6 @@ body {
       color: #4c4c4c;
     }
 
-    .panel-moderated-by {
-      font-size: 15px!important;
-      line-height: 1.3em;
-      font-weight: 500!important;
-      color: #4c4c4c;
-      text-transform: uppercase;
-      margin-bottom: 15px!important;
-    }
-
     .panel-info {
       position: absolute;
       top: 257px;
