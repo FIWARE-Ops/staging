@@ -349,6 +349,10 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2024/water-data-valorization.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2024/a-user-friendly-interface-for-iotagent-node-lib-based-agents.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
