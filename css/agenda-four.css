@@ -33,7 +33,7 @@ body {
 }
 
 .subtitle {
-  margin-top: 10px;
+  margin-top: 8px;
   font-size: 24px;
   line-height: 1.3em;
   font-weight: 500;
@@ -41,11 +41,12 @@ body {
 }
 
 .panel-moderated-by {
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.3em;
   font-weight: 500;
   color: #4c4c4c;
   text-transform: uppercase;
+  margin-bottom: 15px;
 }
 
 .panel-info {
