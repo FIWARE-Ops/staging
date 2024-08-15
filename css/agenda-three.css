@@ -21,18 +21,13 @@
 
   .panel-title {
     position: absolute;
-    top: 125px;
+    top: 120px;
     left: 433px;
     width: 690px;
   }
-
-  .prefix {
-    display: none;
-  } 
-
   .title {
-    font-size: 32px;
-    line-height: 40px;
+    font-size: 28px;
+    line-height: 36px;
     font-weight: 700;
     color: #000000;
   }
@@ -43,6 +38,14 @@
     line-height: 1.3em;
     font-weight: 500;
     color: #4c4c4c;
+  }
+
+  .panel-moderated-by {
+    font-size: 15px;
+    line-height: 1.3em;
+    font-weight: 500;
+    color: #4c4c4c;
+    text-transform: uppercase;
   }
 
   .panel-info {
