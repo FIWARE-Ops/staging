@@ -81,7 +81,7 @@
       
     </style>
   </head>
-  <body{{#if moderator}} class="moderator"{{/if}}>
+  <body{{#if moderated}} class="moderated"{{/if}}>
     <div class="track {{event.trackColor}}">{{event.track}}</div>
     <div class="panel-title">
       <div class="title">{{#if (ne event.prefix '')}}<span class="title-type {{event.trackColor}}">{{event.prefix}}</span>{{/if}}{{{longTitle event.title 90}}}</div>
@@ -89,7 +89,7 @@
       <div class="subtitle">{{event.session}}</div>
       {{/if}}
     </div>
-    {{#if (and event.moderator (gt event.numSpeakers 0))}}
+    {{#if (and event.moderated (gt event.numSpeakers 0))}}
     <div class="panel-moderated-by">Moderated by:</div>
     {{/if}}
 
