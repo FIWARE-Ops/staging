@@ -41,12 +41,12 @@ body {
     }
 
     .panel-moderated-by {
-      font-size: 13px;
+      font-size: 13px!important;
       line-height: 1.3em;
-      font-weight: 400;
+      font-weight: 400!important;
       color: #4c4c4c;
       text-transform: uppercase;
-      margin-bottom: 15px;
+      margin-bottom: 15px!important;
     }
 
     .panel-info {
