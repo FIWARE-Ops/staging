@@ -84,7 +84,7 @@
   <body{{#if moderated}} class="moderated"{{/if}}>
     <div class="track {{event.trackColor}}">{{event.track}}</div>
     <div class="panel-title">
-      <div class="title"><span class="title-type {{event.trackColor}}"></span>{{/if}}{{{longTitle event.title 90}}}</div>
+      <div class="title">{{#if (ne event.type '')}}<span class="title-type {{event.trackColor}}">{{event.type}}</span>{{/if}}{{{longTitle event.title 90}}}</div>
       {{#if event.session}} 
       <div class="subtitle">{{event.session}}</div>
       {{/if}}
