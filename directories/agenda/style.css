@@ -427,6 +427,10 @@
     border-radius: 20px;
 }
 
+.title-type {
+    display: none;
+}
+
 .track.light-blue,
 .title-type.light-blue {
     background-color: #cce0f0;
