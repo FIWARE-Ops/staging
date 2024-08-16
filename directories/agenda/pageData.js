@@ -221,7 +221,7 @@ var modalData = {
         flag: "", },
     "marco-schuldt":
         { name: "Marco Schuldt", img: "https://www.fiware.org/wp-content/directories/people/images/200px/marco-schuldt.jpg", position: "Deputy-Head of Section for Digitalisation", company: "BMWK", "company-link": "https://www.bmwk.de/Navigation/EN/Home/home.html",
-        content: "Christoph Schneider is Head of IT Development and Operations at the Global Legal Entity Identifier Foundation (GLEIF). In June 2017, Christoph joined the International Organization for Standardization (ISO) as co-leader of the Technical Committee 68 FinTech Technical Advisory Group (ISO TC 68 FinTech TAG) workstream dealing with digital identity. He has extensive experience in developing and implementing solutions in financial technology. Christoph holds a Master of Science degree in Business Information Systems from Technische Universität Darmstadt.", linkedin: "", twitter: "", domain: "", location: "",
+        content: "", linkedin: "", twitter: "", domain: "", location: "",
         flag: "", },
     "jose-benítez":
         { name: "Jose Benítez", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jose-benitez.jpg", position: "Chief Executive Officer", company: "Secmotic", "company-link": "https://secmotic.com/",
