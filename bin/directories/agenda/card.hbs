@@ -6,8 +6,9 @@
       <a href="./{{#if description}}program{{else}}program-details-summary{{/if}}?id={{createClass title}}">
         <div class="chip-track">
           <div class="track {{trackColor}}">{{track}}</div>
+          {{#if (ne prefix '')}}<span class="title-type {{trackColor}}">{{prefix}}</span>{{/if}}
         </div>
-        <p class="panel-title">{{#if (ne prefix '')}}<span class="title-type {{trackColor}}">{{prefix}}</span>{{/if}}{{title}}</p> 
+        <p class="panel-title">{{title}}</p> 
         <span class="excerpt">{{session}}</span>
         <div class="panel-info">
           <div class="date-time">
