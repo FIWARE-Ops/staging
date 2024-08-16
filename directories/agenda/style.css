@@ -1548,7 +1548,7 @@ input[type="search"]::placeholder {
     }
 
     .chip-track {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     .track.detail {
