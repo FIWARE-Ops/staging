@@ -1547,10 +1547,6 @@ input[type="search"]::placeholder {
         margin-bottom: 20px !important;
     }
 
-    .chip-track {
-        flex-direction: column;
-    }
-
     .track.detail {
         font-size: 15px;
         padding: 5px 12px 6px;
