@@ -1529,7 +1529,7 @@ input[type="search"]::placeholder {
     /* .grid-item img {
     width: 140px;
     margin: 0px 0px 20px;
-} */
+    } */
 
     .gridElementTextContainer {
         width: 100%;
@@ -1545,6 +1545,10 @@ input[type="search"]::placeholder {
         width: 80px !important;
         float: left;
         margin-bottom: 20px !important;
+    }
+
+    .chip-track.detail {
+        flex-direction: column-reverse;
     }
 
     .track.detail {
