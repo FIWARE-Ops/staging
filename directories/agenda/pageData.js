@@ -55,8 +55,9 @@ var speakers = [
         'Massimo Bertoncini',
         'Sebastian Blechmann',
         'Ilaria Bortone',
-        'Silvia Campailla',
         'David Campo',
+        'Antony Cassano',
+        'Davide Cazzaniga',
         'Denis Chikurtev',
         'Javier Conde Díaz',
         'Luigi Coppolino',
@@ -73,6 +74,7 @@ var speakers = [
         'Piotr Elmanowski',
         'Alessandro Errico',
         'Gregory Eve',
+        'Rodolfo Falcone',
         'Rihab Feki',
         'Antonio Filograna',
         'Jason Fox',
@@ -109,6 +111,7 @@ var speakers = [
         'Pierryl Massal',
         'Davor Meersman',
         'Francisco Meléndez',
+        'Feroz Merchhiya',
         'Sophie Meszaros',
         'Jose Miguel Barone',
         'Hattori Misato',
@@ -183,25 +186,33 @@ var modalData = {
         { name: "Laura Schipani", img: "https://www.fiware.org/wp-content/directories/people/images/200px/laura-schipani.jpg", position: "Acting CMO", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
         content: "With over 23 years of experience, Laura (f) brings a wealth of knowledge in strategic marketing and communications. Her career journey, which began with founding her own fashion brand, has led her through diverse managerial roles across consulting, pharmaceuticals, and ICT industries. She is committed to leveraging her expertise to drive growth, enhance brand distinctiveness, and develop impactful projects that resonate with audiences globally.", linkedin: "https://www.linkedin.com/in/lauraskip/", twitter: "", domain: "", location: "",
         flag: "", },
-    "abdulrahman-ibrahim":
-        { name: "Abdulrahman Ibrahim", img: "https://www.fiware.org/wp-content/directories/people/images/200px/abdulrahman-ibrahim.jpg", position: "Chief Data and Innovation Officer", company: "MDA", "company-link": "https://www.mda.gov.sa/",
-        content: "Mr. Abdulrahman is the Chief Data and Innovation Officer at Madinah Region Development Authority. He is a board member of state-owned Saudi companies. Under his leadership, Madinah was listed in the IMD Smart City Index since 2021. Also, Madinah was accredited by the World Council on City Data as an Early Adopter among the first ten cities worldwide in ISO37122 Smart City Indicators. Before joining the government, he was a Chief Executive Officer in the private sector with 22 years of experience in various industries, such as Consumer Goods, Food Manufacturing, Medical Supplies, and Supply Chain, where his operations covered the GCC market, Levant, and Africa. He’s the co-author of ‘Cities in a Time of Global Emergencies: Can smart cities help?’.", linkedin: "https://www.linkedin.com/in/abdulrahmanibrahim/", twitter: "", domain: "", location: "",
+    "andrew-spannaus":
+        { name: "Andrew Spannaus", img: "https://www.fiware.org/wp-content/directories/people/images/200px/andrew-spannaus.jpg", position: "Journalist &amp; Political Analyst", company: "Radio24", "company-link": "https://www.radio24.ilsole24ore.com/",
+        content: "Andrew Spannaus is an American journalist and political analyst, known for his analysis of populism and the shift away from globalization. He is the author of the podcast “That’s America” and a commentator for Radio24, and is invited to present his opinions on numerous television, radio and print media in Italy and elsewhere. He was the Chairman of the Milan Foreign Press Association for two terms, and is a Lecturer at the ASERI Graduate School of the Catholic University of Milan. As a commentator and opinion leader in the world of communications, Andrew takes a keen interest in the changes underway due to new technologies, focusing on the importance of increasing productivity while maintaining a clear definition of human creativity. In a world undergoing economic transformation driven in part by global strategic competition, it is essential to create cooperation which strengthens society, using technology to go beyond the old paradigm of maximizing shareholder value.", linkedin: "https://www.linkedin.com/in/andrew-spannaus-5257b733/", twitter: "https://twitter.com/andrewspannaus", domain: "", location: "",
+        flag: "", },
+    "rodolfo-falcone":
+        { name: "Rodolfo Falcone", img: "https://www.fiware.org/wp-content/directories/people/images/200px/rodolfo-falcone.jpg", position: "Country Manager", company: "Red Hat", "company-link": "https://www.redhat.com/en",
+        content: "Rodolfo Falcone is Country Manager Italy for Red Hat, the world&#x27;s leading provider of open source solutions. Rodolfo joined Red Hat in November 2019, bringing the company more than two decades of experience into sales and business leadership in the IT industry. His previous experience include a variety of roles at leading technology companies such as ForcePoint, ServiceNow, Commvault and Check Point Software Technologies. Rodolfo Falcone also served as Managing Director of Security Reply, and Country Manager Italy at Trend Micro.", linkedin: "https://www.linkedin.com/in/rodolfofalcone/", twitter: "", domain: "", location: "",
         flag: "", },
     "pierryl-massal":
         { name: "Pierryl Massal", img: "https://www.fiware.org/wp-content/directories/people/images/200px/pierryl-massal.jpg", position: "VP Head of Business development", company: "Atos", "company-link": "https://atos.net/en/",
         content: "Pierryl MASSAL is Vice President, Head of Business development at Atos, a global IT company empowering and driving progress through digital innovation to create a livable and efficient future for the citizens. In this role, Pierryl oversees Atos’s relations and operations especially in the Smart City field enabling Atos to capitalize on opportunities across all industries, including Public Sector, Hospitality, Retail. Pierryl has been instrumental in providing central leadership to explore, develop and recommend approaches for sustainable business growth in that domain and manage strategic and brand-promotional partnership opportunities, representation at industry events and government/legislative relations.", linkedin: "https://www.linkedin.com/in/pierryl-massal-8939aa74/", twitter: "https://twitter.com/pierrylmassal", domain: "", location: "",
         flag: "", },
-    "andrew-spannaus":
-        { name: "Andrew Spannaus", img: "https://www.fiware.org/wp-content/directories/people/images/200px/andrew-spannaus.jpg", position: "Journalist &amp; Political Analyst", company: "Radio24", "company-link": "https://www.radio24.ilsole24ore.com/",
-        content: "Andrew Spannaus is an American journalist and political analyst, known for his analysis of populism and the shift away from globalization. He is the author of the podcast “That’s America” and a commentator for Radio24, and is invited to present his opinions on numerous television, radio and print media in Italy and elsewhere. He was the Chairman of the Milan Foreign Press Association for two terms, and is a Lecturer at the ASERI Graduate School of the Catholic University of Milan. As a commentator and opinion leader in the world of communications, Andrew takes a keen interest in the changes underway due to new technologies, focusing on the importance of increasing productivity while maintaining a clear definition of human creativity. In a world undergoing economic transformation driven in part by global strategic competition, it is essential to create cooperation which strengthens society, using technology to go beyond the old paradigm of maximizing shareholder value.", linkedin: "https://www.linkedin.com/in/andrew-spannaus-5257b733/", twitter: "https://twitter.com/andrewspannaus", domain: "", location: "",
-        flag: "", },
     "pier-luigi-pisa":
         { name: "Pier Luigi Pisa", img: "https://www.fiware.org/wp-content/directories/people/images/200px/pier-luigi-pisa.jpg", position: "Journalist", company: "La Repubblica", "company-link": "https://www.repubblica.it/",
         content: "Pier Luigi Pisa is a journalist, tv author, storyteller, content creator/producer for La Repubblica and Repubblica Tv. He is Deputy News Editor and Front Page Editor on La Repubblica&#x27;s site and Deputy News Editor for all the contents developed for Repubblica Tv, including docufilms, original web series, video interviews.", linkedin: "https://www.linkedin.com/in/ppisa/", twitter: "", domain: "", location: "",
         flag: "", },
+    "antony-cassano":
+        { name: "Antony Cassano", img: "https://www.fiware.org/wp-content/directories/people/images/200px/antony-cassano.jpg", position: "President &amp; Founder", company: "Pleiades-IoT Cluster", "company-link": "https://pleiadesiot.com/",
+        content: "Antony Cassano is the Business Development Director of Uni Systems and the President and Founder of the Pleiades IoT Innovation Cluster, also recognized as FIWARE i-Hub. With more than 15 years of experience in Infrastructure Technologies, Antonis is now substantiating his expertise to lead the Research and Innovation activities of Uni Systems. He drives business development by exploring new growth opportunities and by institutionalizing a continuous endeavor to improve business practices. Antonis studied in the UK and graduated with a M.Sc. in Business Administration &amp; Information Technology.", linkedin: "https://www.linkedin.com/in/antony-cassano-7a03601/", twitter: "", domain: "", location: "",
+        flag: "", },
     "angelo-giuliana":
         { name: "Angelo Giuliana", img: "https://www.fiware.org/wp-content/directories/people/images/200px/angelo-giuliana.jpg", position: "General Director", company: "Meditech 4.0", "company-link": "https://meditech4.com/",
         content: "", linkedin: "https://www.linkedin.com/in/angelogiuliana/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "feroz-merchhiya":
+        { name: "Feroz Merchhiya", img: "https://www.fiware.org/wp-content/directories/people/images/200px/feroz-merchhiya.jpg", position: "Chief Information Officer", company: "City of Santa Monica", "company-link": "https://www.santamonica.gov/",
+        content: "Feroz Merchhiya is an award-winning CIO of the City of Santa Monica, CA, and former CIO of the City of Glendale, AZ, and former Board Member of The Association for Executives in Healthcare Information Technology (AEHIT). He is a technology executive at the helm of transformative initiatives, an inspirational people-oriented leader with an ability to build high performing teams. Mr. Merchhiya has a broad range of experience in enterprise technology. Mr. Merchhiya strives to manage technology initiatives effectively by orchestrating diverse groups’ contributions to overcome complex challenges with pragmatic solutions. Mr. Merchhiya is directly responsible for the City of Santa Monica’s strategic use of technology to improve processes, capture data, deliver insights, and enhance services. As the city’s chief technologist, Mr. Merchhiya leads the implementation of complex technology initiatives. Mr. Merchhiya holds several industry certifications and recognitions such as CGEIT, CRISC, SCPM, CDPSE and Boardroom Certified Qualified Technology Expert (QTE). Winner of 2024 ROI Award, CIO 100 2023 Award, and CIO Impact Award.", linkedin: "https://www.linkedin.com/in/ferozmerchhiya/", twitter: "", domain: "", location: "",
         flag: "", },
     "matthias-rehfeld":
         { name: "Matthias Rehfeld", img: "https://www.fiware.org/wp-content/directories/people/images/200px/matthias-rehfeld.jpg", position: "Head of Make-IT in Africa", company: "GIZ", "company-link": "https://www.giz.de/",
@@ -251,6 +262,10 @@ var modalData = {
         { name: "Ulrich Ahle", img: "https://www.fiware.org/wp-content/directories/people/images/200px/ulrich-ahle.jpg", position: "Chief Executive Officer", company: "Gaia-X", "company-link": "https://gaia-x.eu/",
         content: "Ulrich Ahle (m) is a reputed executive in the industrial sector, formerly Vice President and leader of Manufacturing, Retail &amp; Transportation business and responsible for Industry 4.0 at Atos in Germany. He is also founder and member of the Board of the International Data Spaces Association in Germany and served 16 years in the Board of prostep ivip, until April 2018. After an apprenticeship as toolmaker at Hella KG, he studied Mechanical Engineering at the University of Paderborn. In his career, Ulrich held several positions as development engineer, Director of PLM services, Sales Director and Vice President. He has been part of Nixdorf Computer AG, Siemens and Atos. From November 2016 to December 2023, Ulrich acted as Chief Executive Officer of FIWARE Foundation. Since January 2024 he is the CEO of Gaia-X.", linkedin: "https://de.linkedin.com/in/ahlefiware", twitter: "https://twitter.com/UlrichAhle", domain: "", location: "",
         flag: "", },
+    "dario-avallone":
+        { name: "Dario Avallone", img: "https://www.fiware.org/wp-content/directories/people/images/200px/dario-avallone.jpg", position: "Member of EDIB", company: "EDIB", "company-link": "https://www.eng.it/en/",
+        content: "Straight after getting his degree in Computer Science, Dario joined Engineering Ingegneria Informatica S.p.A’s R&amp;D Laboratory, where he has so far held different successful positions. In 2000, Dario became the Director of the R&amp;D division, aiming to push innovation into the large Engineering Group. During his professional career, Dario has been directly involved in different research initiatives, holding both managerial and technical responsibilities. He is also the author of different publications and articles and has co-authored the book “The Renaissance of Legacy Systems”.", linkedin: "https://www.linkedin.com/in/dario-avallone-428934a/", twitter: "", domain: "", location: "",
+        flag: "", },
     "lars-nagel":
         { name: "Lars Nagel", img: "https://www.fiware.org/wp-content/directories/people/images/200px/lars-nagel.jpg", position: "Chief Executive Officer", company: "IDSA", "company-link": "https://internationaldataspaces.org/",
         content: "Lars Nagel is CEO of the International Data Spaces Association since it’s foundation in 2016. He is also a member of the Executive Board of Digital Hub Management GmbH, where he manages innovation and technology transfer. Previously, Lars founded and led GlobalGate, a provider of learning environments for industrial and research institutions. Lars studied mechanical engineering at the Technical University of Dortmund and graduated with a diploma in engineering.", linkedin: "https://www.linkedin.com/in/lars-nagel-704411b8/", twitter: "https://twitter.com/larsmnagel", domain: "", location: "",
@@ -258,10 +273,6 @@ var modalData = {
     "ana-garcia-robles":
         { name: "Ana Garcia Robles", img: "https://www.fiware.org/wp-content/directories/people/images/200px/ana-garcia-robles.jpg", position: "Secretary General", company: "BDVA", "company-link": "https://www.bdva.eu/",
         content: "Secretary General of the Big Data Value Association (BDVA), holds a Masters Degree in Telecommunications Engineering and an International Executive MBA. Ana has a strong ICT industrial background in the Telecommunications sector, with over 10 years’ experience in the design, implementation and configuration of large-scale telecom networks and services, and in the research and techno-economical assessment of new technologies and solutions for large-scale implementation. Ana has specialised in Innovation management and ecosystems, and she has an extensive experience at both local/regional and international level in Open innovation ecosystems, Living Labs, and socio-economic impacts of technology with over 5 years’ experience managing international associations and projects in this area.", linkedin: "https://www.linkedin.com/in/ana-garcia-robles-9750641/", twitter: "https://twitter.com/roblesag", domain: "", location: "",
-        flag: "", },
-    "dario-avallone":
-        { name: "Dario Avallone", img: "https://www.fiware.org/wp-content/directories/people/images/200px/dario-avallone.jpg", position: "Member of EDIB", company: "EDIB", "company-link": "https://www.eng.it/en/",
-        content: "Straight after getting his degree in Computer Science, Dario joined Engineering Ingegneria Informatica S.p.A’s R&amp;D Laboratory, where he has so far held different successful positions. In 2000, Dario became the Director of the R&amp;D division, aiming to push innovation into the large Engineering Group. During his professional career, Dario has been directly involved in different research initiatives, holding both managerial and technical responsibilities. He is also the author of different publications and articles and has co-authored the book “The Renaissance of Legacy Systems”.", linkedin: "https://www.linkedin.com/in/dario-avallone-428934a/", twitter: "", domain: "", location: "",
         flag: "", },
     "lanfranco-marasso":
         { name: "Lanfranco Marasso", img: "https://www.fiware.org/wp-content/directories/people/images/200px/lanfranco-marasso.jpg", position: "Head of International Digital Innovation", company: "Almaviva", "company-link": "https://www.eng.it/en/",
@@ -274,6 +285,10 @@ var modalData = {
     "hattori-misato":
         { name: "Hattori Misato", img: "https://www.fiware.org/wp-content/directories/people/images/200px/misato-hattori.jpg", position: "Senior Business Development Manager", company: "NEC America", "company-link": "https://www.necam.com/",
         content: "Misato Hattori is the Senior Business Development Manager at NEC, a Japanese global information and communications technology corporation. She is particularly involved in smart city business development, and research and opportunity analysis of the smart city market in the United States. She has been in charge of the technology industry for over twenty years since she got a master’s degree in computer science. Her career has spanned technology research and development, mobile product planning, and policy advocacy, and she has worked with the Japanese government on developing the Smart City Reference Architecture in Japan. Currently based in New York, she participates with the Center of Smart Streetscapes led by Columbia University as the industry advisory board member.", linkedin: "https://www.linkedin.com/in/misato-hattori-535199254/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "abdulrahman-ibrahim":
+        { name: "Abdulrahman Ibrahim", img: "https://www.fiware.org/wp-content/directories/people/images/200px/abdulrahman-ibrahim.jpg", position: "Chief Data and Innovation Officer", company: "MDA", "company-link": "https://www.mda.gov.sa/",
+        content: "Mr. Abdulrahman is the Chief Data and Innovation Officer at Madinah Region Development Authority. He is a board member of state-owned Saudi companies. Under his leadership, Madinah was listed in the IMD Smart City Index since 2021. Also, Madinah was accredited by the World Council on City Data as an Early Adopter among the first ten cities worldwide in ISO37122 Smart City Indicators. Before joining the government, he was a Chief Executive Officer in the private sector with 22 years of experience in various industries, such as Consumer Goods, Food Manufacturing, Medical Supplies, and Supply Chain, where his operations covered the GCC market, Levant, and Africa. He’s the co-author of ‘Cities in a Time of Global Emergencies: Can smart cities help?’.", linkedin: "https://www.linkedin.com/in/abdulrahmanibrahim/", twitter: "", domain: "", location: "",
         flag: "", },
     "gilsoni-lunardi-albino":
         { name: "Gilsoni Lunardi Albino", img: "https://www.fiware.org/wp-content/directories/people/images/200px/gilsoni-lunardi-albino.jpg", position: "Executive Director", company: "CIGA", "company-link": "consorciociga.gov.br",
@@ -486,6 +501,10 @@ var modalData = {
     "alessandro-errico":
         { name: "Alessandro Errico", img: "https://www.fiware.org/wp-content/directories/people/images/200px/alessandro-errico.jpg", position: "Product Service Designer", company: "Maxfone", "company-link": "https://maxfone.it/",
         content: "Graduated with honours in Product Service System Design from the Politecnico di Milano, Alessandro has more than four years of experience in the development of digital innovation projects in various sectors, including automotive, light mobility, industry and consumer products, with a focus on servitization processes. Recently a member of the Maxfone team, he is focused on the strategic development of the IDA solution and the management of clients&#x27; implementations, ensuring advanced and customised solutions for every need.", linkedin: "https://www.linkedin.com/in/alessandroerrico/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "davide-cazzaniga":
+        { name: "Davide Cazzaniga", img: "https://www.fiware.org/wp-content/directories/people/images/200px/davide-cazzaniga.jpg", position: "Manufacturing Innovation Project Manager", company: "Beko Europe", "company-link": "https://www.bekoeurope.com/",
+        content: "Davide Cazzaniga is a seasoned manufacturing expert with a passion for technology and innovation. With over 20 years in the appliance industry, he specializes in optimizing processes, acquiring strategic capital, and driving cost-effective new product launches.", linkedin: "https://www.linkedin.com/in/davidecazzaniga/", twitter: "", domain: "", location: "",
         flag: "", },
     "franck-le-gall":
         { name: "Franck Le Gall", img: "https://www.fiware.org/wp-content/directories/people/images/200px/franck-le-gall.jpg", position: "Chief Executive Officer", company: "Easy Global Market", "company-link": "https://www.egm.io/en/egm-the-innovation-factory",
