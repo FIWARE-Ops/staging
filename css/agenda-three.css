@@ -94,6 +94,17 @@
     background-color: #d0ede4;
   }
 
+  .panel-moderated-by {
+    width: 690px;
+    position: absolute;
+    top: 275px;
+    left: 433px;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #4c4c4c;
+  }
+
   .panel-speakers {
     width: 690px;
     position: absolute;

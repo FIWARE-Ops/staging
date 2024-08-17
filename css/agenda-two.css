@@ -97,10 +97,12 @@ body {
   .panel-moderated-by {
     width: 690px;
     position: absolute;
-    top: 280px;
+    top: 275px;
     left: 433px;
-    font-size: 24px;
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #4c4c4c;
   }
 
   .panel-speakers {
