@@ -1543,12 +1543,12 @@ input[type="search"]::placeholder {
 
     .topic-icon {
         width: 80px !important;
-        float: left;
-        margin-bottom: 20px !important;
+        /* float: left;
+        margin-bottom: 20px !important;*/
     }
 
     .chip-track.detail {
-        flex-direction: column-reverse;
+        /* flex-direction: column-reverse; */
     }
 
     .track.detail {
