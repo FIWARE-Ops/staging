@@ -1542,13 +1542,13 @@ input[type="search"]::placeholder {
     }
 
     .topic-icon {
-        width: 80px !important;
-        /* float: left;
-        margin-bottom: 20px !important;*/
+        width: 60px !important;
+        float: right;
+        margin-bottom: 0px !important;
     }
 
     .chip-track.detail {
-        /* flex-direction: column-reverse; */
+        flex-direction: column-reverse;
     }
 
     .track.detail {
