@@ -1571,8 +1571,8 @@ input[type="search"]::placeholder {
     }
 
     .excerpt.detail {
-        font-size: 17px;
-        line-height: 1.2em;
+        font-size: 16px;
+        line-height: 1.3em;
     }
 
     .panel-info {
