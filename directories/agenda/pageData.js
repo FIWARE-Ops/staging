@@ -127,7 +127,6 @@ var speakers = [
         'Fabiano Pallonetto',
         'Clara Pezuela',
         'Francesca Pignataro',
-        'Francesca Pignataro',
         'Manfredi Pistone',
         'Mads Pohl Petersson',
         'Carmen Polcaro',
