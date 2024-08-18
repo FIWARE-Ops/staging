@@ -333,6 +333,10 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2024/revolutionizing-water-management-with-fiware.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2024/iot-agents-for-i4-0-components.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
