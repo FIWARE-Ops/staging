@@ -249,6 +249,7 @@ function filterOptions(id, filter, data, css) {
 function dropdownFilters(filter) {
   var TrackCSSFilter = getCSSFilter("#filterTrack");
   var SessionCSSFilter = getCSSFilter("#filterSession");
+  var PrefixCSSFilter = getCSSFilter("#filterPrefix");
   var SpeakerCSSFilter = getCSSFilter("#filterSpeaker");
   var DayCSSFilter = getCSSDayFilter();
 
@@ -256,19 +257,25 @@ function dropdownFilters(filter) {
     "#filterTrack",
     filter.fTrack,
     window.tracks,
-    SessionCSSFilter + SpeakerCSSFilter + DayCSSFilter,
+    SessionCSSFilter + PrefixCSSFilter + SpeakerCSSFilter + DayCSSFilter,
   );
   filterOptions(
     "#filterSession",
     filter.fSession,
     window.sessions,
-    TrackCSSFilter + SpeakerCSSFilter + DayCSSFilter,
+    TrackCSSFilter + PrefixCSSFilter + SpeakerCSSFilter + DayCSSFilter,
+  );
+  filterOptions(
+    "#filterPrefix",
+    filter.fPrefix,
+    window.prefixes,
+    TrackCSSFilter + SessionCSSFilter + SpeakerCSSFilter + DayCSSFilter,
   );
   filterOptions(
     "#filterSpeaker",
     filter.fSpeaker,
     window.speakers,
-    TrackCSSFilter + SessionCSSFilter + DayCSSFilter,
+    TrackCSSFilter + SessionCSSFilter + PrefixCSSFilter + DayCSSFilter,
   );
 }
 
@@ -290,6 +297,7 @@ var msnry;
 var selectors = {
   fTrack: true,
   fSession: true,
+  fPrefix: true,
   fSpeaker: true,
   fDay: true,
 };
@@ -339,6 +347,7 @@ function initSelect() {
     selectors = {
       fTrack: true,
       fSession: true,
+      fPrefix: true,
       fSpeaker: true,
       fDay: false,
     };
@@ -360,6 +369,7 @@ function initSelect() {
     selectors = {
       fTrack: true,
       fSession: true,
+      fPrefix: true,
       fSpeaker: true,
       fDay: false,
     };
@@ -378,6 +388,7 @@ function initSelect() {
       selectors = {
         fTrack: e.target.id !== "filterTrack",
         fSession: e.target.id !== "filterSession",
+        fPrefix: e.target.id !== "filterPrefix",
         fSpeaker: e.target.id !== "filterSpeaker",
         fDay: true,
       };
@@ -386,6 +397,7 @@ function initSelect() {
         selectors = {
           fTrack: true,
           fSession: true,
+          fPrefix: true,
           fSpeaker: true,
           fDay: true,
         };
