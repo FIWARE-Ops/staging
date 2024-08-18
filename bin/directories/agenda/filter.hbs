@@ -62,8 +62,8 @@
   </div>
   <div class="filter-element">
     <select name="" id="filterPrefix">
-      <option value="*">Prefixes</option>
-      {{#each sessions}}
+      <option value="*">Types</option>
+      {{#each prefixes}}
         {{#if (ne this '')}}
           <option value='{{createClass this}}'>{{this}}</option>
         {{/if}}
