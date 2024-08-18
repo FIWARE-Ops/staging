@@ -151,6 +151,7 @@ function parse(agendaFile, speakersFile) {
                     const filterData = {
                         tracks: Sorter.sortData(agenda, 'track'),
                         sessions: Sorter.flatSortData(agenda, 'session'),
+                        sessions: Sorter.flatSortData(agenda, 'prefix'),
                         speakers: speakerNames,
                         people,
                         summitDates,
