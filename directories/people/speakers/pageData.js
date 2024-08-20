@@ -135,6 +135,7 @@ var companies = [
         'Project Manager',
         'Researcher',
         'Secretary General',
+        'Senior Director',
         'Technical Expert',
         'VP',
 ]; var countries = [
@@ -247,7 +248,7 @@ var companies = [
     { name: "Jason Fox", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jason-fox.jpg", position: "Senior Technical Expert &amp; Evangelist", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
     content: "Jason Fox (m) has been working for FIWARE Foundation for the last six years in the role of technical evangelist, educating and diseminating information about NGSI interfaces, JSON-LD, Linked Data, the components within the FIWARE Catalogue and Securing FIWARE architectures. Before joining FIWARE, he worked as a software engineer for over 20 years in various roles both in Germany and the United Kingdom using a wide variety of programming languages ranging from C++ to Java to Node.js. This has included coding the software behind selling lottery tickets online for the British National Lottery, and and developing and maintaining technical documentation applications for Nokia.", linkedin: "https://www.linkedin.com/in/jason-fox-8a79563/", twitter: "", domain: "", location: "",
     flag: "", },
-    { name: "Bruno Georges", img: "https://www.fiware.org/wp-content/directories/people/images/200px/bruno-georges.jpg", position: "Director of Engineering", company: "Red Hat", "company-link": "https://www.redhat.com/en",
+    { name: "Bruno Georges", img: "https://www.fiware.org/wp-content/directories/people/images/200px/bruno-georges.jpg", position: "Senior Director", company: "Red Hat", "company-link": "https://www.redhat.com/en",
     content: "Bruno Georges joined Red Hat in 2007 and currently serves as the Senior Director of Engineering. He leads the development of Application Services Runtimes, including EAP, OpenJDK, Node.js, Vert.x, and Quarkus, which set the standard for secure, performant, and scalable modern architectures. Before joining Red Hat, Bruno developed solutions for B2B platforms, insurance, telecommunications, financial, and commodity trading markets. With 20 years of international speaking engagements, he is a prominent advocate for technology innovations in enterprise middleware and open-source software.", linkedin: "https://www.linkedin.com/in/bruno-georges-04229a182/?originalSubdomain&#x3D;ch", twitter: "", domain: "", location: "",
     flag: "", },
     { name: "Angelo Giuliana", img: "https://www.fiware.org/wp-content/directories/people/images/200px/angelo-giuliana.jpg", position: "General Director", company: "Meditech 4.0", "company-link": "https://meditech4.com/",
