@@ -4,6 +4,7 @@ var tracks = [
         'Grand Opening',
         'Hands-On Use Cases',
         'Innovation with FIWARE',
+        'Organisation',
         'Tech &amp; Trends',
         'Tech Training',
 ];
@@ -54,6 +55,7 @@ var speakers = [
         'Juan Antonio Bermejo',
         'Massimo Bertoncini',
         'Sebastian Blechmann',
+        'Vera Böhner',
         'Ilaria Bortone',
         'David Campo',
         'Antony Cassano',
@@ -83,6 +85,7 @@ var speakers = [
         'Angelo Giuliana',
         'Jorge Hernandez',
         'Juanjo Hierro',
+        'Jung Hoon Lee',
         'Abdulrahman Ibrahim',
         'Raza Jafri',
         'Satish Jamadagni',
@@ -99,7 +102,6 @@ var speakers = [
         'Jure Lampe',
         'Frédéric Le',
         'Franck Le Gall',
-        'Jung-Hoon Lee',
         'Yuzhen Li',
         'Antonella Longo',
         'Frederico Lopes',
@@ -222,6 +224,10 @@ var modalData = {
         { name: "Juanjo Hierro", img: "https://www.fiware.org/wp-content/directories/people/images/200px/juanjo-hierro.jpg", position: "Chairman FIWARE TSC", company: "", "company-link": "",
         content: "Juanjo Hierro (m) obtained a degree in Computer Science in 1990 from the Universidad Politecnica de Madrid (UPM) and owns a certificate of research proficiency. In 1990, Juanjo joined Telefónica I+D where he stayed until he joined FIWARE Foundation. During his career at Telefónica, Juanjo had different management responsibilities in the development of mission-critical systems for Telefónica as well as several R&amp;D projects. In April 2011, he became the Chief Architect of the FIWARE programme combining this role with the one of the CTO of the IoT Division at Telefónica R&amp;D since November 2013. Now a days Juanjo is the Chairman of the FIWARE Technical Steering Committee.", linkedin: "https://www.linkedin.com/in/jhierro/", twitter: "https://twitter.com/JuanjoHierro", domain: "", location: "",
         flag: "", },
+    "jung-hoon-lee":
+        { name: "Jung Hoon Lee", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jung-hoon-lee.jpg", position: "Honorary Mayor", company: "Seoul Municipality", "company-link": "https://english.seoul.go.kr/",
+        content: "Jung Hoon Lee is currently a Professor of Technology &amp; Innovation Management at the Graduate School of Information, Yonsei University in Seoul, and Honorary Mayor of the Seoul Metropolitan Government (former chair of Smart City Committee 2018-2020). At the national level, he is currently a member of the National Smart City Committee, and also the Chair of the Public Data Open/Usage Committee in the Open Data Strategy Council, as well as a working committee member of the National Data Policy Committee in the Republic of Korea.", linkedin: "https://www.linkedin.com/in/lee-jung-hoon-b486a4109/", twitter: "", domain: "", location: "",
+        flag: "", },
     "bruno-georges":
         { name: "Bruno Georges", img: "https://www.fiware.org/wp-content/directories/people/images/200px/bruno-georges.jpg", position: "Senior Director", company: "Red Hat", "company-link": "https://www.redhat.com/en",
         content: "Bruno Georges joined Red Hat in 2007 and currently serves as the Senior Director of Engineering. He leads the development of Application Services Runtimes, including EAP, OpenJDK, Node.js, Vert.x, and Quarkus, which set the standard for secure, performant, and scalable modern architectures. Before joining Red Hat, Bruno developed solutions for B2B platforms, insurance, telecommunications, financial, and commodity trading markets. With 20 years of international speaking engagements, he is a prominent advocate for technology innovations in enterprise middleware and open-source software.", linkedin: "https://www.linkedin.com/in/bruno-georges-04229a182/?originalSubdomain&#x3D;ch", twitter: "", domain: "", location: "",
@@ -333,6 +339,10 @@ var modalData = {
     "luca-remotti":
         { name: "Luca Remotti", img: "https://www.fiware.org/wp-content/directories/people/images/200px/luca-remotti.jpg", position: "Manager and Program Director", company: "Data Power", "company-link": "https://www.data-power.net/",
         content: "Luca is the managing partner and one of the founders of DataPower Srl located in Italy and with a global operational scope. He has over 30 years’ experience as an international Project Director in technology evaluation, technology processes and road mapping, in strategic innovation and technology marketing. He has a deep experience in the logic structuring of quantitative process design and evaluation models and in the identification of variables and data for strategic positioning, for road mapping, and in the construction of the relevant indicators. He has a major experience in research and innovation in the areas of ICT, Digital Transformation; Open data, Big Data and High Value Datasets; Cloud and Edge Computing continuum and IoT; Nanotechnologies, Advanced Materials, Advanced Manufacturing and Processing and Biotechnology; eGovernment and Design of Public Administrations and Local Governments services; Smart Cities; and the Social economy. He is skilled in high-level institutional relationships, from National Governments, International bodies (European Commission, the European Parliament, the UN Economic and Social Committee, the OECD); in Strategic orientation, organisational analysis, marketing and business development and impact evaluation, strong focus on results and outcome.", linkedin: "https://www.linkedin.com/in/lucaalessandroremotti/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "vera-böhner":
+        { name: "Vera Böhner", img: "https://www.fiware.org/wp-content/directories/people/images/200px/vera-bohner.jpg", position: "Business Development Manager DACH", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
+        content: "Vera Böhner (f) is a Marketing Manager at FIWARE. She has more than 10 years experiences in strategic and operational marketing. This includes communication planning (content marketing, online marketing, social media, newsletter) and strategic planning (market analysis, competition analysis). Vera has a strong background in project management and experiences in event management for international exhibitions and seminars. She is involved in a funded project and holds an active role within the project. Vera holds a Bachelor of Commerce from the Fontys Hogeschool in Venlo, The Netherlands, and a CAS in Digital Marketing from the ZHAW in Switzerland.", linkedin: "https://www.linkedin.com/in/vera-b%C3%B6hner-88a39693/", twitter: "", domain: "", location: "",
         flag: "", },
     "clara-pezuela":
         { name: "Clara Pezuela", img: "https://www.fiware.org/wp-content/directories/people/images/200px/clara-pezuela.jpg", position: "Vice President Funded Programs", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",

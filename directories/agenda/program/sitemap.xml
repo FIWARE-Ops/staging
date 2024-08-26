@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/introduction-and-strategic-vision.html</loc>
+			<loc>https://www.fiware.org/fgs-2024/registration.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2024/welcome-coffee.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -14,6 +18,10 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2024/from-vision-to-impact--a-journey-of-transformation.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2024/break.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -45,7 +53,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/diversity-and-ecosystem-collaboration.html</loc>
+			<loc>https://www.fiware.org/fgs-2024/lunch.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -90,6 +98,10 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2024/the-european-cloud-and-edge-marketplace.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2024/break.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -145,15 +157,23 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2024/closing.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2024/registration.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2024/welcome-coffee.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2024/innovation-projects-on-urban-planning-and-climate-action.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2024/urbreath--urban-greening-and-renaturing-towards-climate-neutrality.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
-			<loc>https://www.fiware.org/fgs-2024/smart-communities---mobility.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -241,6 +261,10 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2024/break.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2024/fiware-scientific-advisory-board.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -309,6 +333,10 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2024/lunch.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2024/startup-innovative-products-pitches.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -342,10 +370,6 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2024/ddd-and-data-mesh-for-designing-modular-smart-data-models.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
-			<loc>https://www.fiware.org/fgs-2024/sustainability-and-growth-of-the-fiware-ecosystem-through-high-performing-local-innovation-hubs.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -422,6 +446,10 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2024/from-local-knowledge-to-shared-data-resources--a-citizen-led-data-management-project-in-toyooka-city.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2024/closing.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 </urlset>
