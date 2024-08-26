@@ -16,8 +16,10 @@
             <span class="separator-dot"></span>
             <span class="time">{{start}} – {{end}}</span>
           </div>
+          {{#if (ne location '')}}
           <span class="separator-dot"></span>
           <span class="place">{{location}}</span>
+          {{/if}}
         </div>
       </a>
     </div>
