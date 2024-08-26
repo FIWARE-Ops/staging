@@ -21,6 +21,14 @@
         </div>
       </a>
     </div>
+
+    {{#if (eq numSpeakers 0)}}
+    <div class="speakers-container">
+      <div class="session-picture {{trackColor}}">
+        <img src="{{img}}"/>
+      </div>
+    </div>
+    {{else}}
     <div class="speakers-container{{#if moderated}} moderated{{/if}}">
       {{#if (and moderated (gt numSpeakers 0))}} 
       <div class="moderated-by">
@@ -49,6 +57,8 @@
         {{/each}}
       </div>
     </div>
+    {{/if}}
+    {{#if (gt numSpeakers 0)}}
     <div class="foot{{#if moderated}} moderated{{/if}}">
       <a class="btn-primary" href="./{{#if description}}program{{else}}program-details-summary{{/if}}?id={{createClass title}}">
         <span class="material-symbols-outlined">info</span>
@@ -59,5 +69,6 @@
         {{/if}}
       </a>
     </div>
+    {{/if}}
   </div>
 {{/each}}
