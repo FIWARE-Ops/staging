@@ -1224,6 +1224,10 @@ input[type="search"]::placeholder {
     margin-right: 8px;
 }
 
+.session-picture {
+    width: 30%;
+    margin: auto;
+}
 
 .session-picture img {
     width: 100%;

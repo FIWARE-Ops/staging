@@ -15,6 +15,7 @@ function getTrackColor(data) {
             break;
         case 'Grand Opening':
         case 'Organisation':
+        case 'Organization':
         case 'Hands-On Use Cases':
         case 'Collaborative business strategies':
             result = 'light-blue';

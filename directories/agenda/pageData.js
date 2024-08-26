@@ -4,7 +4,7 @@ var tracks = [
         'Grand Opening',
         'Hands-On Use Cases',
         'Innovation with FIWARE',
-        'Organisation',
+        'Organization',
         'Tech &amp; Trends',
         'Tech Training',
 ];
