@@ -19,7 +19,6 @@ var sessions = [
         'Data Spaces Technology',
         'Deployments',
         'Digital Twins',
-        'Distributed Trust',
         'Diversity and Ecosystem collaboration',
         'FIWARE Catalog Components',
         'FIWARE Scientific Advisory Board',
@@ -30,7 +29,7 @@ var sessions = [
         'NGSI-LD Basics',
         'Process &amp; Inference',
         'Robotics',
-        'Security',
+        'Security &amp; Distributed Trust',
         'Smart Agriculture &amp; Bio-Diversity',
         'Smart Communities &amp; Mobility',
         'Smart Energy',
@@ -41,6 +40,7 @@ var sessions = [
         'Sustainability and Growth of the FIWARE Ecosystem through High-Performing Local Innovation Hubs',
         'The Smart Data Models initiative',
         'The value of the Ecosystem',
+        'Visualisation',
         'Working together for a healthier planet',
 ]; 
 var speakers = [
@@ -168,8 +168,6 @@ var speakers = [
         'Walter Domenico Vergara',
         'Margherita Volpe',
         'Gaetano Volpe',
-        'Dennis Wendland',
-        'Stefan Wiedemann',
 ]; 
 var modalData = {
     "yasunori-mochizuki":
@@ -517,7 +515,7 @@ var modalData = {
         content: "Experienced Engineer and Manager with a demonstrated history of working in the computer software industry. Skilled in Management, Web Development, and Mobile Development. Strong information technology professional with a Master of Science (M.Sc.) focused in International Business Management from Keuka College in New York.", linkedin: "https://www.linkedin.com/in/eduardoserra/", twitter: "", domain: "", location: "",
         flag: "", },
     "franck-le-gall":
-        { name: "Franck Le Gall", img: "https://www.fiware.org/wp-content/directories/people/images/200px/franck-le-gall.jpg", position: "Chief Executive Officer", company: "Easy Global Market", "company-link": "https://www.egm.io/en/egm-the-innovation-factory",
+        { name: "Franck Le Gall", img: "https://www.fiware.org/wp-content/directories/people/images/200px/franck-le-gall.jpg", position: "Chief Executive Officer", company: "EGM", "company-link": "https://www.egm.io/en/egm-the-innovation-factory",
         content: "Franck Le Gall is CEO at Easy Global Market, an innovative SME focused on integration and validation of emerging technologies. He is driving company development to deploy IoT and data technologies over vertical markets (water, agriculture, smart territories, environment, etc.). He involves himself in the standardization area including ETSI where he is co-chairman of the ETSI ISG-CIM working group on NGSI-LD. He is also chairing the interfaces working group of the FIWARE Technical Steering Committee (TSC) as well as the joint ETSI-FIWARE Foundation working group on Digital Twins. Finally, he is the Co-chair of the Smart Water working group of the ICT4Water European research cluster. He continuously contributes and drives several projects for public and private customers.", linkedin: "https://www.linkedin.com/in/francklegall/", twitter: "https://twitter.com/franck_le_gall", domain: "", location: "",
         flag: "", },
     "harald-sundmaeker":
@@ -548,13 +546,9 @@ var modalData = {
         { name: "Christoph Schneider", img: "https://www.fiware.org/wp-content/directories/people/images/200px/christoph-schneider.jpg", position: "Head of IT Development and Operations", company: "GLEIF", "company-link": "https://www.gleif.org/en",
         content: "Christoph Schneider is Head of IT Development and Operations at the Global Legal Entity Identifier Foundation (GLEIF). In June 2017, Christoph joined the International Organization for Standardization (ISO) as co-leader of the Technical Committee 68 FinTech Technical Advisory Group (ISO TC 68 FinTech TAG) workstream dealing with digital identity. He has extensive experience in developing and implementing solutions in financial technology. Christoph holds a Master of Science degree in Business Information Systems from Technische Universität Darmstadt.", linkedin: "https://www.linkedin.com/in/christoph-schneider-69282a84/", twitter: "", domain: "", location: "",
         flag: "", },
-    "dennis-wendland":
-        { name: "Dennis Wendland", img: "https://www.fiware.org/wp-content/directories/people/images/200px/dennis-wendland.jpg", position: "Technical Lead &amp; Architect", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
-        content: "Dennis Wendland (m) is a Technical Lead and Architect at the FIWARE Foundation where he is involved in a variety of projects in the field of data spaces. He holds a doctorate in high energy physics from Humboldt University of Berlin gaining a broad experience in the development of particle collision data analysis software and the statistical analysis of large data sets. His doctoral dissertation was about the search of new elementary particles at high-energy collisions at the CERN Large Hadron Collider in Geneva. After his doctorate, he has also worked at T-Systems and Deutsche Telekom AG acquiring expertise in the development, architecture and management of large software projects.", linkedin: "https://www.linkedin.com/in/dennis-wendland/", twitter: "", domain: "", location: "",
-        flag: "", },
-    "stefan-wiedemann":
-        { name: "Stefan Wiedemann", img: "https://www.fiware.org/wp-content/directories/people/images/200px/stefan-wiedemann.jpg", position: "Technical Lead &amp; Architect", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
-        content: "", linkedin: "https://www.linkedin.com/in/stefan-wiedemann-37a0ba13a/", twitter: "", domain: "", location: "",
+    "jason-fox":
+        { name: "Jason Fox", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jason-fox.jpg", position: "Senior Technical Expert &amp; Evangelist", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
+        content: "Jason Fox (m) has been working for FIWARE Foundation for the last six years in the role of technical evangelist, educating and diseminating information about NGSI interfaces, JSON-LD, Linked Data, the components within the FIWARE Catalogue and Securing FIWARE architectures. Before joining FIWARE, he worked as a software engineer for over 20 years in various roles both in Germany and the United Kingdom using a wide variety of programming languages ranging from C++ to Java to Node.js. This has included coding the software behind selling lottery tickets online for the British National Lottery, and and developing and maintaining technical documentation applications for Nokia.", linkedin: "https://www.linkedin.com/in/jason-fox-8a79563/", twitter: "", domain: "", location: "",
         flag: "", },
     "martin-bauer":
         { name: "Martin Bauer", img: "https://www.fiware.org/wp-content/directories/people/images/200px/martin-bauer.jpg", position: "Senior Researcher", company: "NEC Lab Europe", "company-link": "https://www.neclab.eu/",
@@ -611,10 +605,6 @@ var modalData = {
     "yuki-kato":
         { name: "Yuki Kato", img: "https://www.fiware.org/wp-content/directories/people/images/200px/yuki-kato.jpg", position: "Project Manager &amp; Researcher", company: "Toyooka City Hall", "company-link": "https://toyooka-city.jp/",
         content: "Yuki Kato is affiliated with the Toyooka City Hall in Hyogo Prefecture. He currently leads workshops for regional revitalization using digital tools and design at the Toyooka Smart Community. With a background as a recording engineer and systems engineer, Kato brings a unique blend of technical and creative expertise to his role, driving innovative community development initiatives.", linkedin: "", twitter: "", domain: "", location: "",
-        flag: "", },
-    "jason-fox":
-        { name: "Jason Fox", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jason-fox.jpg", position: "Senior Technical Expert &amp; Evangelist", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
-        content: "Jason Fox (m) has been working for FIWARE Foundation for the last six years in the role of technical evangelist, educating and diseminating information about NGSI interfaces, JSON-LD, Linked Data, the components within the FIWARE Catalogue and Securing FIWARE architectures. Before joining FIWARE, he worked as a software engineer for over 20 years in various roles both in Germany and the United Kingdom using a wide variety of programming languages ranging from C++ to Java to Node.js. This has included coding the software behind selling lottery tickets online for the British National Lottery, and and developing and maintaining technical documentation applications for Nokia.", linkedin: "https://www.linkedin.com/in/jason-fox-8a79563/", twitter: "", domain: "", location: "",
         flag: "", },
     "yuzhen-li":
         { name: "Yuzhen Li", img: "https://www.fiware.org/wp-content/directories/people/images/200px/yuzhen-li.jpg", position: "Demonstrator Manager", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",

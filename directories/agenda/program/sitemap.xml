@@ -349,7 +349,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/introduction-to-data-spaces-connector-components.html</loc>
+			<loc>https://www.fiware.org/fgs-2024/trust-services-for-data-spaces.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -385,7 +385,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/decentralized-iam-in-fiware.html</loc>
+			<loc>https://www.fiware.org/fgs-2024/introduction-to-data-spaces-connector-components.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -409,15 +409,15 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2024/fiware-data-space-connector-deployment-and-use.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2024/agrifoodtech-use-cases-on-la-vega-innova.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2024/transforming-data-to-be-ngsi-ld-compatible-using-llm.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
-			<loc>https://www.fiware.org/fgs-2024/trust-services-for-data-spaces.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -434,6 +434,10 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2024/fiiware-hybrid-cloud-for-public-applications.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2024/options-for-visualization-of-iot-data--wirecloud--grafana--geojson--gis-.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
