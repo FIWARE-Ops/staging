@@ -32,15 +32,14 @@ var sessions = [
         'Security &amp; Distributed Trust',
         'Smart Agriculture &amp; Bio-Diversity',
         'Smart Communities &amp; Mobility',
+        'Smart Data Models',
         'Smart Energy',
         'Smart Industry',
         'Smart Water',
         'Startup Innovative Products Pitches',
         'Startup innovative technology-based products Pitches',
         'Sustainability and Growth of the FIWARE Ecosystem through High-Performing Local Innovation Hubs',
-        'The Smart Data Models initiative',
         'The value of the Ecosystem',
-        'Visualisation',
         'Working together for a healthier planet',
 ]; 
 var speakers = [
