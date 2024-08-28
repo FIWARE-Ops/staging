@@ -91,7 +91,6 @@ var companies = [
 ]; var domains = [
 ]; var titles = [
         'Acting CMO',
-        'Architect',
         'Assistant Professor',
         'Associate Professor',
         'Business Development Manager DACH',
@@ -499,11 +498,5 @@ var companies = [
     flag: "", },
     { name: "Gaetano Volpe", img: "https://www.fiware.org/wp-content/directories/people/images/200px/gaetano-volpe.jpg", position: "Chief Executive Officer", company: "Latitudo 40", "company-link": "https://www.latitudo40.com/",
     content: "Gaetano is the CEO of Latitudo 40, a startup that uses satellite data to improve life on our planet. After working for over 20 years in space-related companies, launching new products and services based on the integration of IT with space technologies (telecommunications, navigation and remote sensing), he decided to combine his passion for space technologies with the need to improve the environmental impact of our cities. For Gaetano, innovation means finding a new solution to a global market problem.", linkedin: "https://www.linkedin.com/in/gaetanovolpe", twitter: "", domain: "", location: "",
-    flag: "", },
-    { name: "Dennis Wendland", img: "https://www.fiware.org/wp-content/directories/people/images/200px/dennis-wendland.jpg", position: "Technical Lead &amp; Architect", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
-    content: "Dennis Wendland (m) is a Technical Lead and Architect at the FIWARE Foundation where he is involved in a variety of projects in the field of data spaces. He holds a doctorate in high energy physics from Humboldt University of Berlin gaining a broad experience in the development of particle collision data analysis software and the statistical analysis of large data sets. His doctoral dissertation was about the search of new elementary particles at high-energy collisions at the CERN Large Hadron Collider in Geneva. After his doctorate, he has also worked at T-Systems and Deutsche Telekom AG acquiring expertise in the development, architecture and management of large software projects.", linkedin: "https://www.linkedin.com/in/dennis-wendland/", twitter: "", domain: "", location: "",
-    flag: "", },
-    { name: "Stefan Wiedemann", img: "https://www.fiware.org/wp-content/directories/people/images/200px/stefan-wiedemann.jpg", position: "Technical Lead &amp; Architect", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
-    content: "", linkedin: "https://www.linkedin.com/in/stefan-wiedemann-37a0ba13a/", twitter: "", domain: "", location: "",
     flag: "", },
 ];
