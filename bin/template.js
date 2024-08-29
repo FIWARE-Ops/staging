@@ -4,6 +4,7 @@ const path = require('path');
 const fs = require('fs-extra');
 const _ = require('underscore');
 const nodeHtmlToImage = require('node-html-to-image');
+const QRCode = require('qrcode');
 
 const notFound = `<!doctype html>
 <html lang="en-US">
@@ -220,9 +221,26 @@ function createSocialMediaImages(content, template) {
     });
 }
 
+function qrCodes(path, agenda){
+    console.log('Generating QR Codes');
+    agenda.forEach((event) => {
+        const url = `https://www.fiware.org${event.social}`;
+        const file = `${path}/${createClass(event.title)}.svg`;
+        QRCode.toFile(file, url, {
+          color: {
+            dark: '#000',  // Black dots
+            light: '#0000' // Transparent background
+          }
+        }, function (err) {
+          if (err) throw err
+        })
+    });
+}
+
 exports.font = font;
 exports.write = write;
 exports.clean = clean;
+exports.qrCodes = qrCodes;
 exports.readCSS = readCSS;
 exports.cleanDir = cleanDir;
 exports.createClass = createClass;

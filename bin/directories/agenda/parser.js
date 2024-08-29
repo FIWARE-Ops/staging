@@ -215,7 +215,9 @@ function parse(agendaFile, speakersFile) {
                     Prettier.format(path.join(AGENDA_DIR, 'agenda.html'), { parser: 'html' });
                     Prettier.format(path.join(AGENDA_DIR, 'pageData.js'), { parser: 'flow' });
 
+                    Template.qrCodes(path.join(AGENDA_DIR, 'qr'), agenda);
                     Template.createSocialMediaImages(socialImages, path.join(TEMPLATE_PATH, 'social-media-image.hbs'));
+            
                 })
                 .catch((e) => {
                     console.log(e);
