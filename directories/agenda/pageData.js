@@ -4,6 +4,7 @@ var tracks = [
         'Grand Opening',
         'Hands-On Use Cases',
         'Innovation with FIWARE',
+        'Organization',
         'Tech &amp; Trends',
         'Tech Training',
 ];
@@ -18,7 +19,6 @@ var sessions = [
         'Data Spaces Technology',
         'Deployments',
         'Digital Twins',
-        'Distributed Trust',
         'Diversity and Ecosystem collaboration',
         'FIWARE Catalog Components',
         'FIWARE Scientific Advisory Board',
@@ -29,15 +29,16 @@ var sessions = [
         'NGSI-LD Basics',
         'Process &amp; Inference',
         'Robotics',
-        'Security',
+        'Security &amp; Distributed Trust',
         'Smart Agriculture &amp; Bio-Diversity',
         'Smart Communities &amp; Mobility',
+        'Smart Data Models',
         'Smart Energy',
         'Smart Industry',
+        'Smart Water',
         'Startup Innovative Products Pitches',
         'Startup innovative technology-based products Pitches',
         'Sustainability and Growth of the FIWARE Ecosystem through High-Performing Local Innovation Hubs',
-        'The Smart Data Models initiative',
         'The value of the Ecosystem',
         'Working together for a healthier planet',
 ]; 
@@ -53,9 +54,11 @@ var speakers = [
         'Juan Antonio Bermejo',
         'Massimo Bertoncini',
         'Sebastian Blechmann',
+        'Vera Böhner',
         'Ilaria Bortone',
-        'Silvia Campailla',
         'David Campo',
+        'Antony Cassano',
+        'Davide Cazzaniga',
         'Denis Chikurtev',
         'Javier Conde Díaz',
         'Luigi Coppolino',
@@ -72,22 +75,26 @@ var speakers = [
         'Piotr Elmanowski',
         'Alessandro Errico',
         'Gregory Eve',
+        'Rodolfo Falcone',
         'Rihab Feki',
         'Antonio Filograna',
         'Jason Fox',
         'Ana Garcia Robles',
+        'Bruno Georges',
         'Angelo Giuliana',
-        'Misato Hattori',
         'Jorge Hernandez',
         'Juanjo Hierro',
+        'Jung Hoon Lee',
         'Abdulrahman Ibrahim',
         'Raza Jafri',
         'Satish Jamadagni',
         'Antonio Jara',
+        'Eduardo Javier Serra',
         'Sheridan Johns',
         'Steve Johnston',
         'Dimitris Kalogeras',
         'Yuki Kato',
+        'Jin Kawasaki',
         'Luka Keserič',
         'Ernoe Kovacs',
         'Eugenia Kovatcheva',
@@ -95,7 +102,6 @@ var speakers = [
         'Jure Lampe',
         'Frédéric Le',
         'Franck Le Gall',
-        'Jung-Hoon Lee',
         'Yuzhen Li',
         'Antonella Longo',
         'Frederico Lopes',
@@ -108,8 +114,10 @@ var speakers = [
         'Pierryl Massal',
         'Davor Meersman',
         'Francisco Meléndez',
+        'Feroz Merchhiya',
         'Sophie Meszaros',
         'Jose Miguel Barone',
+        'Hattori Misato',
         'Nejib Moalla',
         'Yasunori Mochizuki',
         'Antonello Monti',
@@ -121,7 +129,6 @@ var speakers = [
         'Gilles Orazi',
         'Fabiano Pallonetto',
         'Clara Pezuela',
-        'Francesca Pignataro',
         'Francesca Pignataro',
         'Manfredi Pistone',
         'Mads Pohl Petersson',
@@ -161,8 +168,6 @@ var speakers = [
         'Walter Domenico Vergara',
         'Margherita Volpe',
         'Gaetano Volpe',
-        'Dennis Wendland',
-        'Stefan Wiedemann',
 ]; 
 var modalData = {
     "yasunori-mochizuki":
@@ -181,17 +186,33 @@ var modalData = {
         { name: "Laura Schipani", img: "https://www.fiware.org/wp-content/directories/people/images/200px/laura-schipani.jpg", position: "Acting CMO", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
         content: "With over 23 years of experience, Laura (f) brings a wealth of knowledge in strategic marketing and communications. Her career journey, which began with founding her own fashion brand, has led her through diverse managerial roles across consulting, pharmaceuticals, and ICT industries. She is committed to leveraging her expertise to drive growth, enhance brand distinctiveness, and develop impactful projects that resonate with audiences globally.", linkedin: "https://www.linkedin.com/in/lauraskip/", twitter: "", domain: "", location: "",
         flag: "", },
-    "abdulrahman-ibrahim":
-        { name: "Abdulrahman Ibrahim", img: "https://www.fiware.org/wp-content/directories/people/images/200px/abdulrahman-ibrahim.jpg", position: "Chief Data and Innovation Officer", company: "MDA", "company-link": "https://www.mda.gov.sa/",
-        content: "Mr. Abdulrahman is the Chief Data and Innovation Officer at Madinah Region Development Authority. He is a board member of state-owned Saudi companies. Under his leadership, Madinah was listed in the IMD Smart City Index since 2021. Also, Madinah was accredited by the World Council on City Data as an Early Adopter among the first ten cities worldwide in ISO37122 Smart City Indicators. Before joining the government, he was a Chief Executive Officer in the private sector with 22 years of experience in various industries, such as Consumer Goods, Food Manufacturing, Medical Supplies, and Supply Chain, where his operations covered the GCC market, Levant, and Africa. He’s the co-author of ‘Cities in a Time of Global Emergencies: Can smart cities help?’.", linkedin: "https://www.linkedin.com/in/abdulrahmanibrahim/", twitter: "", domain: "", location: "",
+    "andrew-spannaus":
+        { name: "Andrew Spannaus", img: "https://www.fiware.org/wp-content/directories/people/images/200px/andrew-spannaus.jpg", position: "Journalist &amp; Political Analyst", company: "Radio24", "company-link": "https://www.radio24.ilsole24ore.com/",
+        content: "Andrew Spannaus is an American journalist and political analyst, known for his analysis of populism and the shift away from globalization. He is the author of the podcast “That’s America” and a commentator for Radio24, and is invited to present his opinions on numerous television, radio and print media in Italy and elsewhere. He was the Chairman of the Milan Foreign Press Association for two terms, and is a Lecturer at the ASERI Graduate School of the Catholic University of Milan. As a commentator and opinion leader in the world of communications, Andrew takes a keen interest in the changes underway due to new technologies, focusing on the importance of increasing productivity while maintaining a clear definition of human creativity. In a world undergoing economic transformation driven in part by global strategic competition, it is essential to create cooperation which strengthens society, using technology to go beyond the old paradigm of maximizing shareholder value.", linkedin: "https://www.linkedin.com/in/andrew-spannaus-5257b733/", twitter: "https://twitter.com/andrewspannaus", domain: "", location: "",
+        flag: "", },
+    "rodolfo-falcone":
+        { name: "Rodolfo Falcone", img: "https://www.fiware.org/wp-content/directories/people/images/200px/rodolfo-falcone.jpg", position: "Country Manager", company: "Red Hat", "company-link": "https://www.redhat.com/en",
+        content: "Rodolfo Falcone is Country Manager Italy for Red Hat, the world&#x27;s leading provider of open source solutions. Rodolfo joined Red Hat in November 2019, bringing the company more than two decades of experience into sales and business leadership in the IT industry. His previous experience include a variety of roles at leading technology companies such as ForcePoint, ServiceNow, Commvault and Check Point Software Technologies. Rodolfo Falcone also served as Managing Director of Security Reply, and Country Manager Italy at Trend Micro.", linkedin: "https://www.linkedin.com/in/rodolfofalcone/", twitter: "", domain: "", location: "",
         flag: "", },
     "pierryl-massal":
         { name: "Pierryl Massal", img: "https://www.fiware.org/wp-content/directories/people/images/200px/pierryl-massal.jpg", position: "VP Head of Business development", company: "Atos", "company-link": "https://atos.net/en/",
         content: "Pierryl MASSAL is Vice President, Head of Business development at Atos, a global IT company empowering and driving progress through digital innovation to create a livable and efficient future for the citizens. In this role, Pierryl oversees Atos’s relations and operations especially in the Smart City field enabling Atos to capitalize on opportunities across all industries, including Public Sector, Hospitality, Retail. Pierryl has been instrumental in providing central leadership to explore, develop and recommend approaches for sustainable business growth in that domain and manage strategic and brand-promotional partnership opportunities, representation at industry events and government/legislative relations.", linkedin: "https://www.linkedin.com/in/pierryl-massal-8939aa74/", twitter: "https://twitter.com/pierrylmassal", domain: "", location: "",
         flag: "", },
+    "pier-luigi-pisa":
+        { name: "Pier Luigi Pisa", img: "https://www.fiware.org/wp-content/directories/people/images/200px/pier-luigi-pisa.jpg", position: "Journalist", company: "La Repubblica", "company-link": "https://www.repubblica.it/",
+        content: "Pier Luigi Pisa is a journalist, tv author, storyteller, content creator/producer for La Repubblica and Repubblica Tv. He is Deputy News Editor and Front Page Editor on La Repubblica&#x27;s site and Deputy News Editor for all the contents developed for Repubblica Tv, including docufilms, original web series, video interviews.", linkedin: "https://www.linkedin.com/in/ppisa/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "antony-cassano":
+        { name: "Antony Cassano", img: "https://www.fiware.org/wp-content/directories/people/images/200px/antony-cassano.jpg", position: "President &amp; Founder", company: "Pleiades-IoT Cluster", "company-link": "https://pleiadesiot.com/",
+        content: "Antony Cassano is the Business Development Director of Uni Systems and the President and Founder of the Pleiades IoT Innovation Cluster, also recognized as FIWARE i-Hub. With more than 15 years of experience in Infrastructure Technologies, Antonis is now substantiating his expertise to lead the Research and Innovation activities of Uni Systems. He drives business development by exploring new growth opportunities and by institutionalizing a continuous endeavor to improve business practices. Antonis studied in the UK and graduated with a M.Sc. in Business Administration &amp; Information Technology.", linkedin: "https://www.linkedin.com/in/antony-cassano-7a03601/", twitter: "", domain: "", location: "",
+        flag: "", },
     "angelo-giuliana":
         { name: "Angelo Giuliana", img: "https://www.fiware.org/wp-content/directories/people/images/200px/angelo-giuliana.jpg", position: "General Director", company: "Meditech 4.0", "company-link": "https://meditech4.com/",
         content: "", linkedin: "https://www.linkedin.com/in/angelogiuliana/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "feroz-merchhiya":
+        { name: "Feroz Merchhiya", img: "https://www.fiware.org/wp-content/directories/people/images/200px/feroz-merchhiya.jpg", position: "Chief Information Officer", company: "City of Santa Monica", "company-link": "https://www.santamonica.gov/",
+        content: "Feroz Merchhiya is an award-winning CIO of the City of Santa Monica, CA, and former CIO of the City of Glendale, AZ, and former Board Member of The Association for Executives in Healthcare Information Technology (AEHIT). He is a technology executive at the helm of transformative initiatives, an inspirational people-oriented leader with an ability to build high performing teams. Mr. Merchhiya has a broad range of experience in enterprise technology. Mr. Merchhiya strives to manage technology initiatives effectively by orchestrating diverse groups’ contributions to overcome complex challenges with pragmatic solutions. Mr. Merchhiya is directly responsible for the City of Santa Monica’s strategic use of technology to improve processes, capture data, deliver insights, and enhance services. As the city’s chief technologist, Mr. Merchhiya leads the implementation of complex technology initiatives. Mr. Merchhiya holds several industry certifications and recognitions such as CGEIT, CRISC, SCPM, CDPSE and Boardroom Certified Qualified Technology Expert (QTE). Winner of 2024 ROI Award, CIO 100 2023 Award, and CIO Impact Award.", linkedin: "https://www.linkedin.com/in/ferozmerchhiya/", twitter: "", domain: "", location: "",
         flag: "", },
     "matthias-rehfeld":
         { name: "Matthias Rehfeld", img: "https://www.fiware.org/wp-content/directories/people/images/200px/matthias-rehfeld.jpg", position: "Head of Make-IT in Africa", company: "GIZ", "company-link": "https://www.giz.de/",
@@ -202,8 +223,20 @@ var modalData = {
         content: "Juanjo Hierro (m) obtained a degree in Computer Science in 1990 from the Universidad Politecnica de Madrid (UPM) and owns a certificate of research proficiency. In 1990, Juanjo joined Telefónica I+D where he stayed until he joined FIWARE Foundation. During his career at Telefónica, Juanjo had different management responsibilities in the development of mission-critical systems for Telefónica as well as several R&amp;D projects. In April 2011, he became the Chief Architect of the FIWARE programme combining this role with the one of the CTO of the IoT Division at Telefónica R&amp;D since November 2013. Now a days Juanjo is the Chairman of the FIWARE Technical Steering Committee.", linkedin: "https://www.linkedin.com/in/jhierro/", twitter: "https://twitter.com/JuanjoHierro", domain: "", location: "",
         flag: "", },
     "jung-hoon-lee":
-        { name: "Jung-Hoon Lee", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jung-hoon-lee.jpg", position: "Honorary Mayor", company: "Seoul Municipality", "company-link": "https://english.seoul.go.kr/",
-        content: "Jung-Hoon Lee is currently a Professor of Technology &amp; Innovation Management at the Graduate School of Information, Yonsei University in Seoul, and Honorary Mayor of the Seoul Metropolitan Government (former chair of Smart City Committee 2018-2020). At the national level, he is currently a member of the National Smart City Committee, and also the Chair of the Public Data Open/Usage Committee in the Open Data Strategy Council, as well as a working committee member of the National Data Policy Committee in the Republic of Korea.", linkedin: "https://www.linkedin.com/in/lee-jung-hoon-b486a4109/", twitter: "", domain: "", location: "",
+        { name: "Jung Hoon Lee", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jung-hoon-lee.jpg", position: "Honorary Mayor", company: "Seoul Municipality", "company-link": "https://english.seoul.go.kr/",
+        content: "Jung Hoon Lee is currently a Professor of Technology &amp; Innovation Management at the Graduate School of Information, Yonsei University in Seoul, and Honorary Mayor of the Seoul Metropolitan Government (former chair of Smart City Committee 2018-2020). At the national level, he is currently a member of the National Smart City Committee, and also the Chair of the Public Data Open/Usage Committee in the Open Data Strategy Council, as well as a working committee member of the National Data Policy Committee in the Republic of Korea.", linkedin: "https://www.linkedin.com/in/lee-jung-hoon-b486a4109/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "bruno-georges":
+        { name: "Bruno Georges", img: "https://www.fiware.org/wp-content/directories/people/images/200px/bruno-georges.jpg", position: "Senior Director", company: "Red Hat", "company-link": "https://www.redhat.com/en",
+        content: "Bruno Georges joined Red Hat in 2007 and currently serves as the Senior Director of Engineering. He leads the development of Application Services Runtimes, including EAP, OpenJDK, Node.js, Vert.x, and Quarkus, which set the standard for secure, performant, and scalable modern architectures. Before joining Red Hat, Bruno developed solutions for B2B platforms, insurance, telecommunications, financial, and commodity trading markets. With 20 years of international speaking engagements, he is a prominent advocate for technology innovations in enterprise middleware and open-source software.", linkedin: "https://www.linkedin.com/in/bruno-georges-04229a182/?originalSubdomain&#x3D;ch", twitter: "", domain: "", location: "",
+        flag: "", },
+    "jin-kawasaki":
+        { name: "Jin Kawasaki", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jin-kawasaki.jpg", position: "Head Researcher", company: "Mitsubishi Electric", "company-link": "https://www.mitsubishielectric.com/en/index.html",
+        content: "Jin Kawasaki is working as Head Researcher at Information Technology R&amp;D Center of Mitsubishi Electric Corporation. He received Ph.D. degree from University of Tsukuba in 2016. His research interest is smart building and city platform which provides solution such as carbon neutrality, energy management and workplace management.", linkedin: "https://www.linkedin.com/in/jin-kawasaki-817809205/?original_referer&#x3D;https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&amp;originalSubdomain&#x3D;jp", twitter: "", domain: "", location: "",
+        flag: "", },
+    "marco-schuldt":
+        { name: "Marco Schuldt", img: "https://www.fiware.org/wp-content/directories/people/images/200px/marco-schuldt.jpg", position: "Deputy-Head of Section for Digitalisation", company: "BMWK", "company-link": "https://www.bmwk.de/Navigation/EN/Home/home.html",
+        content: "", linkedin: "", twitter: "", domain: "", location: "",
         flag: "", },
     "jose-benítez":
         { name: "Jose Benítez", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jose-benitez.jpg", position: "Chief Executive Officer", company: "Secmotic", "company-link": "https://secmotic.com/",
@@ -221,17 +254,21 @@ var modalData = {
         { name: "Mario Scuderi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/mario-scuderi.jpg", position: "Senior Partner", company: "CDP Venture Capitalist", "company-link": "https://www.cdpventurecapital.it/cdp-venture-capital/it/home.page",
         content: "With over eight years of experience in venture capital (Sistema Investimenti, Invitalia Ventures) and corporate venture capital (TIM Working Capital), Mario Scuderi is involved in growth capital investments, early stage, and tech-transfer in DeepTech, Space, MedTech, Digital, ICT, and FoodTech at Fondo Italia Venture I. He is a board member of 4 startups. He holds a master&#x27;s degree in Management Engineering and is a Kauffman Fellow (Executive Venture Education Center). He is Passionate about new tech and great founders. Established International Network within the Venture Capital Industry.", linkedin: "https://www.linkedin.com/in/marioscuderi/", twitter: "", domain: "", location: "",
         flag: "", },
-    "margherita-volpe":
-        { name: "Margherita Volpe", img: "https://www.fiware.org/wp-content/directories/people/images/200px/margherita-volpe.jpg", position: "Project Manager", company: "Zabala", "company-link": "https://www.zabala.eu/",
-        content: "Margherita Volpe is an Innovation funding and management specialist, with over 11 years’ experience in R&amp;I projects funded by the European Commission (e.g. H2020, Horizon Europe, European Defence Fund, EIT Digital, Erasmus+, Creative Europe, Life, structural funds and tenders) and innovation’s exploitation and assessment, including business modelling and technology transfer strategies’ definition. She is currently Brussels Office EU Proposals operative coordinator at Zabala Innovation Consulting Brussels and Security, Defence and Space Knowledge Area Leader. She was former Manager at EY Advisory SpA, Funding4Innovation solution and has been a EC external-reviewer for the evaluation of SME Instrument project proposals for over 2 years.", linkedin: "https://www.linkedin.com/in/margherita-volpe-60020235/", twitter: "", domain: "", location: "",
-        flag: "", },
     "asimina-syriou":
         { name: "Asimina Syriou", img: "https://www.fiware.org/wp-content/directories/people/images/200px/asimina-syriou.jpg", position: "Energy WG Lead", company: "European Space Agency", "company-link": "https://www.esa.int/",
         content: "Mina is a passionate advocate for space technology with extensive experience in business development, project management, and leadership across NGOs, academia, government, the United Nations, and the space sector. Her global perspective, cultivated through work in four countries, brings a rich and diverse skill set to her roles. Currently, Mina holds a pivotal position at ESA’s Business Applications – Space Solutions (BASS) department, within the Directorate of Commercialisation, Industry and Competitiveness (D/CIC). She focuses on developing and promoting space-based applications with a strong emphasis on sustainability, excels in building strategic partnerships, and supports SMEs and start-ups in navigating space technology. As the lead of BASS’s Energy &amp; Utilities Working Group, Mina explores innovative solutions to energy sector challenges using space technology. She is also a Fellow and Chartered Geographer at the Royal Geographical Society, a STEM Ambassador, and a mentor to professionals and entrepreneurs in business accelerators. Additionally, she actively promotes diversity through networks like Women in Geospatial+. Mina has led space elective courses at the University of Oxford, the University of Southampton, and UCL.", linkedin: "https://www.linkedin.com/in/asimina-mina-syriou-34601118/", twitter: "https://twitter.com/MinaSyriou", domain: "", location: "",
         flag: "", },
+    "margherita-volpe":
+        { name: "Margherita Volpe", img: "https://www.fiware.org/wp-content/directories/people/images/200px/margherita-volpe.jpg", position: "Project Manager", company: "Zabala", "company-link": "https://www.zabala.eu/",
+        content: "Margherita Volpe is an Innovation funding and management specialist, with over 11 years’ experience in R&amp;I projects funded by the European Commission (e.g. H2020, Horizon Europe, European Defence Fund, EIT Digital, Erasmus+, Creative Europe, Life, structural funds and tenders) and innovation’s exploitation and assessment, including business modelling and technology transfer strategies’ definition. She is currently Brussels Office EU Proposals operative coordinator at Zabala Innovation Consulting Brussels and Security, Defence and Space Knowledge Area Leader. She was former Manager at EY Advisory SpA, Funding4Innovation solution and has been a EC external-reviewer for the evaluation of SME Instrument project proposals for over 2 years.", linkedin: "https://www.linkedin.com/in/margherita-volpe-60020235/", twitter: "", domain: "", location: "",
+        flag: "", },
     "ulrich-ahle":
         { name: "Ulrich Ahle", img: "https://www.fiware.org/wp-content/directories/people/images/200px/ulrich-ahle.jpg", position: "Chief Executive Officer", company: "Gaia-X", "company-link": "https://gaia-x.eu/",
         content: "Ulrich Ahle (m) is a reputed executive in the industrial sector, formerly Vice President and leader of Manufacturing, Retail &amp; Transportation business and responsible for Industry 4.0 at Atos in Germany. He is also founder and member of the Board of the International Data Spaces Association in Germany and served 16 years in the Board of prostep ivip, until April 2018. After an apprenticeship as toolmaker at Hella KG, he studied Mechanical Engineering at the University of Paderborn. In his career, Ulrich held several positions as development engineer, Director of PLM services, Sales Director and Vice President. He has been part of Nixdorf Computer AG, Siemens and Atos. From November 2016 to December 2023, Ulrich acted as Chief Executive Officer of FIWARE Foundation. Since January 2024 he is the CEO of Gaia-X.", linkedin: "https://de.linkedin.com/in/ahlefiware", twitter: "https://twitter.com/UlrichAhle", domain: "", location: "",
+        flag: "", },
+    "dario-avallone":
+        { name: "Dario Avallone", img: "https://www.fiware.org/wp-content/directories/people/images/200px/dario-avallone.jpg", position: "Member of EDIB", company: "EDIB", "company-link": "https://www.eng.it/en/",
+        content: "Straight after getting his degree in Computer Science, Dario joined Engineering Ingegneria Informatica S.p.A’s R&amp;D Laboratory, where he has so far held different successful positions. In 2000, Dario became the Director of the R&amp;D division, aiming to push innovation into the large Engineering Group. During his professional career, Dario has been directly involved in different research initiatives, holding both managerial and technical responsibilities. He is also the author of different publications and articles and has co-authored the book “The Renaissance of Legacy Systems”.", linkedin: "https://www.linkedin.com/in/dario-avallone-428934a/", twitter: "", domain: "", location: "",
         flag: "", },
     "lars-nagel":
         { name: "Lars Nagel", img: "https://www.fiware.org/wp-content/directories/people/images/200px/lars-nagel.jpg", position: "Chief Executive Officer", company: "IDSA", "company-link": "https://internationaldataspaces.org/",
@@ -245,17 +282,21 @@ var modalData = {
         { name: "Lanfranco Marasso", img: "https://www.fiware.org/wp-content/directories/people/images/200px/lanfranco-marasso.jpg", position: "Head of International Digital Innovation", company: "Almaviva", "company-link": "https://www.eng.it/en/",
         content: "Lanfranco has a strong managerial background with a proven track record in IT projects and innovation in public sector, as well as a good strategic vision complemented by a remarkable execution effectiveness. After completing Engineering at University of Genova, he took his Ph.D. on Process Engineering at Polytechnic of Milan. He is currently the Smart City Program Director at Engineering Ingegneria Informatica spa. He has been involved at C-level in private companies at national and international level (Boston, MA, USA). In 1999 he moved from private to public sector as CIO of Municipality of Parma (Italy), covering important role for Italian Ministries. In 2003 he went back to private sector, at Engineering covering senior positions in Public Sector Department. Since 2009 he has been working in R&amp;D Department looking at the technological transfer from Research to Innovation to the Market, mainly in public sector. He has co-founded several companies and startups (first CONTECO 1994, last beMINT 2015). He is playing an active role on several EU initiatives on Software and Services for Public Sector: FIWARE (FIWARE Smart Cities Domain Committee), ENOLL (European Network of Living Lab), BDVA (Big Data Value Association), ECSO (European Cyber Security Organisation) and AIOTI (Alliance Internet Of Thing Innovation). He has published several articles and books on process and project management, new technologies applications and innovation in public sector and smart city.", linkedin: "https://www.linkedin.com/in/marasso/", twitter: "https://twitter.com/lmarasso", domain: "", location: "",
         flag: "", },
-    "dario-avallone":
-        { name: "Dario Avallone", img: "https://www.fiware.org/wp-content/directories/people/images/200px/dario-avallone.jpg", position: "Member of EDIB", company: "EDIB", "company-link": "https://www.eng.it/en/",
-        content: "Straight after getting his degree in Computer Science, Dario joined Engineering Ingegneria Informatica S.p.A’s R&amp;D Laboratory, where he has so far held different successful positions. In 2000, Dario became the Director of the R&amp;D division, aiming to push innovation into the large Engineering Group. During his professional career, Dario has been directly involved in different research initiatives, holding both managerial and technical responsibilities. He is also the author of different publications and articles and has co-authored the book “The Renaissance of Legacy Systems”.", linkedin: "https://www.linkedin.com/in/dario-avallone-428934a/", twitter: "", domain: "", location: "",
-        flag: "", },
     "sheridan-johns":
         { name: "Sheridan Johns", img: "https://www.fiware.org/wp-content/directories/people/images/200px/johns-sheridan.jpg", position: "Head of Ecosystem Ocean Protocol", company: "Ocean Protocol", "company-link": "https://oceanprotocol.com/",
         content: "Sheridan Johns covers Collaborations &amp; Ecosystem at Ocean Protocol where he is co-lead of the Ocean Enterprise Collective, a non-profit association established to operate and maintain Ocean Enterprise: a free, open-source, collectively-governed and compliant enterprise-ready version of Ocean Protocol.  Sheridan is passionate about building the New Open Data Economy and works with entrepreneurs, startups and enterprise to implement Ocean Protocol’s next generation decentralized data exchange technology to unlock the intrinsic value of data in a safe, secure and transparent manner. Sheridan is project manager for numerous high-profile multi-stakeholder consortium projects in automotive, financial services, mobility and the public sector. Prior to joining Ocean in 2018, Sheridan developed and managed global Executive MBA programs for creative executives in digital services at Steinbeis University Berlin. Born in Durham, North Carolina, Sheridan earned his MA from Johns Hopkins University and was awarded a Fulbright Scholarship to attend the Free University Berlin.", linkedin: "https://www.linkedin.com/in/sjohnsiv/?originalSubdomain&#x3D;de", twitter: "https://twitter.com/sjohns?lang&#x3D;de", domain: "", location: "",
         flag: "", },
+    "abdulrahman-ibrahim":
+        { name: "Abdulrahman Ibrahim", img: "https://www.fiware.org/wp-content/directories/people/images/200px/abdulrahman-ibrahim.jpg", position: "Chief Data and Innovation Officer", company: "MDA", "company-link": "https://www.mda.gov.sa/",
+        content: "Mr. Abdulrahman is the Chief Data and Innovation Officer at Madinah Region Development Authority. He is a board member of state-owned Saudi companies. Under his leadership, Madinah was listed in the IMD Smart City Index since 2021. Also, Madinah was accredited by the World Council on City Data as an Early Adopter among the first ten cities worldwide in ISO37122 Smart City Indicators. Before joining the government, he was a Chief Executive Officer in the private sector with 22 years of experience in various industries, such as Consumer Goods, Food Manufacturing, Medical Supplies, and Supply Chain, where his operations covered the GCC market, Levant, and Africa. He’s the co-author of ‘Cities in a Time of Global Emergencies: Can smart cities help?’.", linkedin: "https://www.linkedin.com/in/abdulrahmanibrahim/", twitter: "", domain: "", location: "",
+        flag: "", },
     "gilsoni-lunardi-albino":
         { name: "Gilsoni Lunardi Albino", img: "https://www.fiware.org/wp-content/directories/people/images/200px/gilsoni-lunardi-albino.jpg", position: "Executive Director", company: "CIGA", "company-link": "consorciociga.gov.br",
         content: "Gilsoni Lunardi Albino is director of the Public Management Innovation Consortium – CIGA with 343 consortium cities in Brazil, co-founder of the startup SmartCityTec, member of the Connectivity and Sustainability Institute – ICONECTS. He is director of public management for the Excelência SC movement and an individual member of the FIWARE Foundation. He participated in the development of Brazil&#x27;s national digital government strategy, is engaged in verticals that support businesses and startups for the public sector, such as ACATE&#x27;s Smart Cities Vertical and SEBRAE Nacional&#x27;s acceleration programs. He has an MBA in Business Technology: AI, Data Science and Big Data from PUCRS, a degree in Computer Science, with a specialization in Business Administration, a postgraduate degree in Environmental Management and Sustainability and an MBA in Project Management and a specialization in Advanced Topics in Project Management from the University of La Verne in California (USA).", linkedin: "https://www.linkedin.com/in/gilsoni/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "hattori-misato":
+        { name: "Hattori Misato", img: "https://www.fiware.org/wp-content/directories/people/images/200px/misato-hattori.jpg", position: "Senior Business Development Manager", company: "NEC America", "company-link": "https://www.necam.com/",
+        content: "Misato Hattori is the Senior Business Development Manager at NEC, a Japanese global information and communications technology corporation. She is particularly involved in smart city business development, and research and opportunity analysis of the smart city market in the United States. She has been in charge of the technology industry for over twenty years since she got a master’s degree in computer science. Her career has spanned technology research and development, mobile product planning, and policy advocacy, and she has worked with the Japanese government on developing the Smart City Reference Architecture in Japan. Currently based in New York, she participates with the Center of Smart Streetscapes led by Columbia University as the industry advisory board member.", linkedin: "https://www.linkedin.com/in/misato-hattori-535199254/", twitter: "", domain: "", location: "",
         flag: "", },
     "thimo-thoeye":
         { name: "Thimo Thoeye", img: "https://www.fiware.org/wp-content/directories/people/images/200px/thimo-thoeye.jpg", position: "Innovation Manager", company: "OASC", "company-link": "oascities.org",
@@ -291,7 +332,7 @@ var modalData = {
         flag: "", },
     "dasha-davies":
         { name: "Dasha Davies", img: "https://www.fiware.org/wp-content/directories/people/images/200px/dasha-davies.jpg", position: "President", company: "Stealth-ISS Group", "company-link": "https://stealth-iss.com/",
-        content: "As a global cybersecurity consultant/CISO, President of Stealth-ISS Group Inc., and Board Advisor on several cyber security technology and consulting service delivery companies, Dasha is an expert in cybersecurity operations, delivery risk, and compliance and a U.S. Navy veteran. With over 25 years of experience as a technology professional, she shaped cybersecurity practices within the US Defense Industry, NATO, various national and international government agencies, and the and the commercial sector, ensuring the security of sporting events as significant as the Olympic Games and Formula 1. Her expertise is in cybersecurity, GRC, incident response, smart cities, artificial intelligence, national security/cyber warfare, and C4I services. She has a bachelor&#x27;s degree in International Relations and Foreign Affairs, a MBA, and a MSc in Information Technology and Management and Cybersecurity, respectively, complemented by her pursuit of a Doctorate in Business and a PhD (ABD) in Cyber Warfare and National Security. Her authority in cybersecurity is underscored by a suite of certifications such as CISSP, C|CISO, NSA/IAM/IEM, and CMMC CCA, among others, and by being honored as one of the Top 100 CISOs in 2020. Her voice is respected at global conferences and events where she has presented on topics including cyber security, data protection, AI, and smart cities. She is a published author of &quot;Beyond Binary: AI and Cybersecurity,&quot; with upcoming books on cyberwarfare and national security and &quot;Navigating in the Cyber and AI Unknown.&quot;", linkedin: "", twitter: "", domain: "", location: "",
+        content: "As a global cybersecurity consultant/CISO, President of Stealth-ISS Group Inc., and Board Advisor on several cyber security technology and consulting service delivery companies, Dasha is an expert in cybersecurity operations, delivery risk, and compliance and a U.S. Navy veteran. With over 25 years of experience as a technology professional, she shaped cybersecurity practices within the US Defense Industry, NATO, various national and international government agencies, and the and the commercial sector, ensuring the security of sporting events as significant as the Olympic Games and Formula 1. Her expertise is in cybersecurity, GRC, incident response, smart cities, artificial intelligence, national security/cyber warfare, and C4I services. She has a bachelor&#x27;s degree in International Relations and Foreign Affairs, a MBA, and a MSc in Information Technology and Management and Cybersecurity, respectively, complemented by her pursuit of a Doctorate in Business and a PhD (ABD) in Cyber Warfare and National Security. Her authority in cybersecurity is underscored by a suite of certifications such as CISSP, C|CISO, NSA/IAM/IEM, and CMMC CCA, among others, and by being honored as one of the Top 100 CISOs in 2020. Her voice is respected at global conferences and events where she has presented on topics including cyber security, data protection, AI, and smart cities. She is a published author of &quot;Beyond Binary: AI and Cybersecurity,&quot; with upcoming books on cyberwarfare and national security and &quot;Navigating in the Cyber and AI Unknown.&quot;", linkedin: "https://www.linkedin.com/in/dasha-davies/", twitter: "https://twitter.com/dashadavies24", domain: "", location: "",
         flag: "", },
     "eugenia-kovatcheva":
         { name: "Eugenia Kovatcheva", img: "https://www.fiware.org/wp-content/directories/people/images/200px/eugenia-kovatcheva.jpg", position: "Research Policy Director", company: "University of Sofia", "company-link": "https://www.uni-sofia.bg/eng",
@@ -301,9 +342,13 @@ var modalData = {
         { name: "Luca Remotti", img: "https://www.fiware.org/wp-content/directories/people/images/200px/luca-remotti.jpg", position: "Manager and Program Director", company: "Data Power", "company-link": "https://www.data-power.net/",
         content: "Luca is the managing partner and one of the founders of DataPower Srl located in Italy and with a global operational scope. He has over 30 years’ experience as an international Project Director in technology evaluation, technology processes and road mapping, in strategic innovation and technology marketing. He has a deep experience in the logic structuring of quantitative process design and evaluation models and in the identification of variables and data for strategic positioning, for road mapping, and in the construction of the relevant indicators. He has a major experience in research and innovation in the areas of ICT, Digital Transformation; Open data, Big Data and High Value Datasets; Cloud and Edge Computing continuum and IoT; Nanotechnologies, Advanced Materials, Advanced Manufacturing and Processing and Biotechnology; eGovernment and Design of Public Administrations and Local Governments services; Smart Cities; and the Social economy. He is skilled in high-level institutional relationships, from National Governments, International bodies (European Commission, the European Parliament, the UN Economic and Social Committee, the OECD); in Strategic orientation, organisational analysis, marketing and business development and impact evaluation, strong focus on results and outcome.", linkedin: "https://www.linkedin.com/in/lucaalessandroremotti/", twitter: "", domain: "", location: "",
         flag: "", },
+    "vera-böhner":
+        { name: "Vera Böhner", img: "https://www.fiware.org/wp-content/directories/people/images/200px/vera-bohner.jpg", position: "Business Development Manager DACH", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
+        content: "Vera Böhner (f) is a Marketing Manager at FIWARE. She has more than 10 years experiences in strategic and operational marketing. This includes communication planning (content marketing, online marketing, social media, newsletter) and strategic planning (market analysis, competition analysis). Vera has a strong background in project management and experiences in event management for international exhibitions and seminars. She is involved in a funded project and holds an active role within the project. Vera holds a Bachelor of Commerce from the Fontys Hogeschool in Venlo, The Netherlands, and a CAS in Digital Marketing from the ZHAW in Switzerland.", linkedin: "https://www.linkedin.com/in/vera-b%C3%B6hner-88a39693/", twitter: "", domain: "", location: "",
+        flag: "", },
     "clara-pezuela":
         { name: "Clara Pezuela", img: "https://www.fiware.org/wp-content/directories/people/images/200px/clara-pezuela.jpg", position: "Vice President Funded Programs", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
-        content: "Working in Atos since 22 years ago, she gained large experience in European research programs in digital domain. During such period I had the chance to participate in many diverse research projects doing different roles and working with many people across Europe.  She is a Computer Science engineer and Master in Innovation management. Technically speaking, She has been involved in sales and delivery about services architectures, cloud/edge computing, IoT and digital platforms. Additionally, she have a high level of knowledge in Open Source licensing, delivery and processes. Member of Technical Steering Committee at FIWARE Foundation and President of the Spanish Technology Platform for digital technologies on behalf of Atos. Currently, she is  Innovation Officer at CTO Office in Public Sector and Defense industry in charge of defining and putting in place the innovation strategy for this sector.", linkedin: "https://www.linkedin.com/in/clara-pezuela-2b1257/", twitter: "", domain: "", location: "",
+        content: "Clara Pezuela (f) has a degree in Computer Science from the Universidad Politécnica of Madrid. She has 23 years’ experience in research for digital technologies domain mostly through European research and innovation projects. Currently, she is Vice President Funded Programs at FIWARE Foundation. Her main responsibilities now are the monitoring of funded projects, the new research projects scanning and the engagement of the foundation with European institutions and initiatives. Master in Innovation Management and GOLD for Business Leaders, she has high level skills in innovation and technology transfer from research to business and society. Technically, she has an advance level of knowledge in services architectures, cloud/edge computing, digital platforms, IoT and data spaces. Additionally, she has a high level of knowledge in Open Source licensing, delivery and processes. Currently, she is coordinating FIWARE activities around data spaces, participating actively in Date Spaces Support Center and Manufacturing, Mobility and Smart Communities data spaces.", linkedin: "https://www.linkedin.com/in/clara-pezuela-2b1257/", twitter: "", domain: "", location: "",
         flag: "", },
     "francesco-mureddu":
         { name: "Francesco Mureddu", img: "https://www.fiware.org/wp-content/directories/people/images/200px/francesco-mureddu.jpg", position: "Senior Director", company: "The Lisbon Council", "company-link": "https://lisboncouncil.net/",
@@ -382,7 +427,7 @@ var modalData = {
         content: "Angeles Tejado (f) comes with more than 20 years of strong experience in Marketing and Brand Management for customer-focused multinational companies, Angeles coordinated the development of marketing messages helping to communicate the vision and unique value proposition of FIWARE in domains such Smart Cities, Smart Manufacturing &amp; Industry 4.0 and Smart Agrifood; the planning and execution of the FIWARE Communication Strategy; the organization of FIWARE Summits; the coordination of FIWARE presence in all kind of events (market events, StartUp Events, Tech Events, Workshops, Hackathons, Meetups) and in general, coordinating activities targeted to engage members of the FIWARE Community through different FIWARE Mission Support Committees (FIWARE iHubs Committee, FIWARE Accelerator Committee, FIWARE Mundus Committee and Domain Committees associated to the different application domains) and enlarging the FIWARE ecosystem.", linkedin: "https://www.linkedin.com/in/%C3%A1ngeles-tejado-s%C3%A1nchez-2a61b411/", twitter: "", domain: "", location: "",
         flag: "", },
     "frederico-lopes":
-        { name: "Frederico Lopes", img: "https://www.fiware.org/wp-content/directories/people/images/200px/frederico-lopes.jpg", position: "Professor &amp; Institute Director", company: "Federal University of Rio Grande do Norte", "company-link": "https://www.ufrn.br/",
+        { name: "Frederico Lopes", img: "https://www.fiware.org/wp-content/directories/people/images/200px/frederico-lopes.jpg", position: "Professor &amp; Institute Director", company: "UFRN", "company-link": "https://www.ufrn.br/",
         content: "Associate Professor at UFRN (Brazil), he holds a bachelor&#x27;s degree (2005) and a Ph.D. (2011) in Computer Science from UFRN and a master&#x27;s degree in Systems and Computing also from UFRN. Postdoctoral fellowship (2016) at the University of British Columbia, Vancouver/Canada. During the year 2010, he was a Ph.D. intern (sandwich doctorate) at IST/UTL, Lisbon/Portugal (2010). He has experience in the field of Computer Science, with an emphasis on Distributed Systems and Software Engineering, mainly working on the following topics: geographic information systems, middleware, ubiquitous computing, pervasive computing, smart cities, computational platforms, cloud computing, the internet of things. Member of the Fiware Foundation since 2017, he is Fiware evangelist and the director of Smart Metropolis Fiware iHub, in Natal / Brazil. Coordinator of the Smart Metropolis Laboratory, with more than a dozen software registrations for real smart city systems in partnership with: Federal Highway Police, RN Public Security Department, Ministry of Regional Development, RN Public Ministry, Natal City Hall, among other public agencies. Coordinator of the Postgraduate Program in Information Technology (PPgTI) at UFRN from 2013 to 2015 and currently since 2023.", linkedin: "https://www.linkedin.com/in/frederico-lopes-342a697/", twitter: "", domain: "", location: "",
         flag: "", },
     "gilles-orazi":
@@ -465,12 +510,24 @@ var modalData = {
         { name: "Alessandro Errico", img: "https://www.fiware.org/wp-content/directories/people/images/200px/alessandro-errico.jpg", position: "Product Service Designer", company: "Maxfone", "company-link": "https://maxfone.it/",
         content: "Graduated with honours in Product Service System Design from the Politecnico di Milano, Alessandro has more than four years of experience in the development of digital innovation projects in various sectors, including automotive, light mobility, industry and consumer products, with a focus on servitization processes. Recently a member of the Maxfone team, he is focused on the strategic development of the IDA solution and the management of clients&#x27; implementations, ensuring advanced and customised solutions for every need.", linkedin: "https://www.linkedin.com/in/alessandroerrico/", twitter: "", domain: "", location: "",
         flag: "", },
+    "davide-cazzaniga":
+        { name: "Davide Cazzaniga", img: "https://www.fiware.org/wp-content/directories/people/images/200px/davide-cazzaniga.jpg", position: "Manufacturing Innovation Project Manager", company: "Beko Europe", "company-link": "https://www.bekoeurope.com/",
+        content: "Davide Cazzaniga is a seasoned manufacturing expert with a passion for technology and innovation. With over 20 years in the appliance industry, he specializes in optimizing processes, acquiring strategic capital, and driving cost-effective new product launches.", linkedin: "https://www.linkedin.com/in/davidecazzaniga/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "eduardo-javier-serra":
+        { name: "Eduardo Javier Serra", img: "https://www.fiware.org/wp-content/directories/people/images/200px/eduardo-serra.jpg", position: "Senior IT Manager", company: "GRUPO TX", "company-link": "https://www.grupotx.com/en",
+        content: "Experienced Engineer and Manager with a demonstrated history of working in the computer software industry. Skilled in Management, Web Development, and Mobile Development. Strong information technology professional with a Master of Science (M.Sc.) focused in International Business Management from Keuka College in New York.", linkedin: "https://www.linkedin.com/in/eduardoserra/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "franck-le-gall":
+        { name: "Franck Le Gall", img: "https://www.fiware.org/wp-content/directories/people/images/200px/franck-le-gall.jpg", position: "Chief Executive Officer", company: "EGM", "company-link": "https://www.egm.io/en/egm-the-innovation-factory",
+        content: "Franck Le Gall is CEO at Easy Global Market, an innovative SME focused on integration and validation of emerging technologies. He is driving company development to deploy IoT and data technologies over vertical markets (water, agriculture, smart territories, environment, etc.). He involves himself in the standardization area including ETSI where he is co-chairman of the ETSI ISG-CIM working group on NGSI-LD. He is also chairing the interfaces working group of the FIWARE Technical Steering Committee (TSC) as well as the joint ETSI-FIWARE Foundation working group on Digital Twins. Finally, he is the Co-chair of the Smart Water working group of the ICT4Water European research cluster. He continuously contributes and drives several projects for public and private customers.", linkedin: "https://www.linkedin.com/in/francklegall/", twitter: "https://twitter.com/franck_le_gall", domain: "", location: "",
+        flag: "", },
     "harald-sundmaeker":
         { name: "Harald Sundmaeker", img: "https://www.fiware.org/wp-content/directories/people/images/200px/harald-sundmaeker.jpg", position: "Senior Researcher", company: "ATB Bremen", "company-link": "https://www.atb-bremen.de/",
         content: "Since 1998, Harald has been working in the field of innovation and research. He was joining FIWARE from the very beginning, having a focus on realising potentials for stakeholders in the food systems. He was managing as well as contributing to several projects, making use of FIWARE open source. This included the realisation of solutions running in the food system as well as promoting the involvement of startups and SMEs in the scope of acceleration initiatives and RTD programmes.", linkedin: "https://www.linkedin.com/in/sundmaeker", twitter: "https://twitter.com/HSundmaeker", domain: "", location: "",
         flag: "", },
     "josué-ramos-gómez":
-        { name: "Josué Ramos Gómez", img: "https://www.fiware.org/wp-content/directories/people/images/200px/josue-ramos-gomez.jpg", position: "FIWARE Technology Coordinator, La Vega Innova iHub", company: "MB3-GESTION", "company-link": "https://mb3-gestion.com/",
+        { name: "Josué Ramos Gómez", img: "https://www.fiware.org/wp-content/directories/people/images/200px/josue-ramos-gomez.jpg", position: "Coordinator La Vega Innova iHub", company: "MB3-GESTION", "company-link": "https://mb3-gestion.com/",
         content: "Josué Ramos is a Geomatics Engineer with more than 10 years of experience across various industries. Currently, as a FIWARE Expert, Josué serves as a FIWARE Facilitator at the AgriFoodTech iHub La Vega Innova. In this role, he supports the implementation and integration of data into La Vega Innova&#x27;s FIWARE platform, collaborating with different companies and developers on pilot projects. Additionally, Josué trains startups on FIWARE and mentors them through the process of obtaining FIWARE certifications, including FIWARE Ready and Powered by FIWARE.", linkedin: "https://www.linkedin.com/in/josueramosgomez/", twitter: "", domain: "", location: "",
         flag: "", },
     "andrea-maioli":
@@ -493,21 +550,13 @@ var modalData = {
         { name: "Christoph Schneider", img: "https://www.fiware.org/wp-content/directories/people/images/200px/christoph-schneider.jpg", position: "Head of IT Development and Operations", company: "GLEIF", "company-link": "https://www.gleif.org/en",
         content: "Christoph Schneider is Head of IT Development and Operations at the Global Legal Entity Identifier Foundation (GLEIF). In June 2017, Christoph joined the International Organization for Standardization (ISO) as co-leader of the Technical Committee 68 FinTech Technical Advisory Group (ISO TC 68 FinTech TAG) workstream dealing with digital identity. He has extensive experience in developing and implementing solutions in financial technology. Christoph holds a Master of Science degree in Business Information Systems from Technische Universität Darmstadt.", linkedin: "https://www.linkedin.com/in/christoph-schneider-69282a84/", twitter: "", domain: "", location: "",
         flag: "", },
-    "dennis-wendland":
-        { name: "Dennis Wendland", img: "https://www.fiware.org/wp-content/directories/people/images/200px/dennis-wendland.jpg", position: "Technical Lead &amp; Architect", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
-        content: "Dennis Wendland (m) is a Technical Lead and Architect at the FIWARE Foundation where he is involved in a variety of projects in the field of data spaces. He holds a doctorate in high energy physics from Humboldt University of Berlin gaining a broad experience in the development of particle collision data analysis software and the statistical analysis of large data sets. His doctoral dissertation was about the search of new elementary particles at high-energy collisions at the CERN Large Hadron Collider in Geneva. After his doctorate, he has also worked at T-Systems and Deutsche Telekom AG acquiring expertise in the development, architecture and management of large software projects.", linkedin: "https://www.linkedin.com/in/dennis-wendland/", twitter: "", domain: "", location: "",
-        flag: "", },
-    "stefan-wiedemann":
-        { name: "Stefan Wiedemann", img: "https://www.fiware.org/wp-content/directories/people/images/200px/stefan-wiedemann.jpg", position: "Technical Lead &amp; Architect", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
-        content: "", linkedin: "https://www.linkedin.com/in/stefan-wiedemann-37a0ba13a/", twitter: "", domain: "", location: "",
+    "jason-fox":
+        { name: "Jason Fox", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jason-fox.jpg", position: "Senior Technical Expert &amp; Evangelist", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
+        content: "Jason Fox (m) has been working for FIWARE Foundation for the last six years in the role of technical evangelist, educating and diseminating information about NGSI interfaces, JSON-LD, Linked Data, the components within the FIWARE Catalogue and Securing FIWARE architectures. Before joining FIWARE, he worked as a software engineer for over 20 years in various roles both in Germany and the United Kingdom using a wide variety of programming languages ranging from C++ to Java to Node.js. This has included coding the software behind selling lottery tickets online for the British National Lottery, and and developing and maintaining technical documentation applications for Nokia.", linkedin: "https://www.linkedin.com/in/jason-fox-8a79563/", twitter: "", domain: "", location: "",
         flag: "", },
     "martin-bauer":
         { name: "Martin Bauer", img: "https://www.fiware.org/wp-content/directories/people/images/200px/martin-bauer.jpg", position: "Senior Researcher", company: "NEC Lab Europe", "company-link": "https://www.neclab.eu/",
         content: "", linkedin: "https://www.linkedin.com/in/martin-bauer-a722141/", twitter: "", domain: "", location: "",
-        flag: "", },
-    "franck-le-gall":
-        { name: "Franck Le Gall", img: "https://www.fiware.org/wp-content/directories/people/images/200px/franck-le-gall.jpg", position: "Chief Executive Officer", company: "Easy Global Market", "company-link": "https://www.egm.io/en/egm-the-innovation-factory",
-        content: "Franck Le Gall is CEO at Easy Global Market, an innovative SME focused on integration and validation of emerging technologies. He is driving company development to deploy IoT and data technologies over vertical markets (water, agriculture, smart territories, environment, etc.). He involves himself in the standardization area including ETSI where he is co-chairman of the ETSI ISG-CIM working group on NGSI-LD. He is also chairing the interfaces working group of the FIWARE Technical Steering Committee (TSC) as well as the joint ETSI-FIWARE Foundation working group on Digital Twins. Finally, he is the Co-chair of the Smart Water working group of the ICT4Water European research cluster. He continuously contributes and drives several projects for public and private customers.", linkedin: "https://www.linkedin.com/in/francklegall/", twitter: "https://twitter.com/franck_le_gall", domain: "", location: "",
         flag: "", },
     "alberto-abella":
         { name: "Alberto Abella", img: "https://www.fiware.org/wp-content/directories/people/images/200px/alberto-abella.jpg", position: "Data Modeling Expert &amp; Evangelist", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
@@ -530,7 +579,7 @@ var modalData = {
         content: "Software engineer from UPM and robotics engineer from KTH, I am currently a software developer and project manager at eProsima, also leading international innovation and research projects such as ALMA and SustainML. In the past I have worked on IoT communications and distributed artificial intelligence projects applied to the industrial field.", linkedin: "https://www.linkedin.com/in/raulsanchezmateos/", twitter: "", domain: "", location: "",
         flag: "", },
     "manfredi-pistone":
-        { name: "Manfredi Pistone", img: "https://www.fiware.org/wp-content/directories/people/images/200px/manfredi-pistone.jpg", position: "Senior Researcher", company: "Engineering", "company-link": "https://www.eng.it/en/",
+        { name: "Manfredi Pistone", img: "https://www.fiware.org/wp-content/directories/people/images/200px/manfredi-pistone.jpg", position: "Researcher", company: "Engineering", "company-link": "https://www.eng.it/en/",
         content: "Researcher, member of “Digital Industry and Agrifood” Unit within the Industry and Security Technologies, Research and Innovation (IS3) Lab at Engineering Ingegneria Informatica. He graduated in 2018 in Computer Engineering at the University of Palermo (Italy). Since 2018 he has been involved in EU and Italian research projects as solution designer and developer, and technical leader of many activities, fostering the adoption of Open Source technologies in the manufacturing domain.", linkedin: "https://www.linkedin.com/in/manfredi-pistone-224878119/", twitter: "", domain: "", location: "",
         flag: "", },
     "walter-domenico-vergara":
@@ -560,10 +609,6 @@ var modalData = {
     "yuki-kato":
         { name: "Yuki Kato", img: "https://www.fiware.org/wp-content/directories/people/images/200px/yuki-kato.jpg", position: "Project Manager &amp; Researcher", company: "Toyooka City Hall", "company-link": "https://toyooka-city.jp/",
         content: "Yuki Kato is affiliated with the Toyooka City Hall in Hyogo Prefecture. He currently leads workshops for regional revitalization using digital tools and design at the Toyooka Smart Community. With a background as a recording engineer and systems engineer, Kato brings a unique blend of technical and creative expertise to his role, driving innovative community development initiatives.", linkedin: "", twitter: "", domain: "", location: "",
-        flag: "", },
-    "jason-fox":
-        { name: "Jason Fox", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jason-fox.jpg", position: "Senior Technical Expert &amp; Evangelist", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
-        content: "Jason Fox (m) has been working for FIWARE Foundation for the last six years in the role of technical evangelist, educating and diseminating information about NGSI interfaces, JSON-LD, Linked Data, the components within the FIWARE Catalogue and Securing FIWARE architectures. Before joining FIWARE, he worked as a software engineer for over 20 years in various roles both in Germany and the United Kingdom using a wide variety of programming languages ranging from C++ to Java to Node.js. This has included coding the software behind selling lottery tickets online for the British National Lottery, and and developing and maintaining technical documentation applications for Nokia.", linkedin: "https://www.linkedin.com/in/jason-fox-8a79563/", twitter: "", domain: "", location: "",
         flag: "", },
     "yuzhen-li":
         { name: "Yuzhen Li", img: "https://www.fiware.org/wp-content/directories/people/images/200px/yuzhen-li.jpg", position: "Demonstrator Manager", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
