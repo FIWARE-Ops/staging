@@ -154,7 +154,6 @@ var speakers = [
         'Olaf Seidel',
         'Fayssal Soulaymani',
         'Andrew Spannaus',
-        'Alessandro Spigaroli',
         'Harald Sundmaeker',
         'Asimina Syriou',
         'Lisandra Tamayo',
@@ -194,6 +193,14 @@ var modalData = {
         { name: "Rodolfo Falcone", img: "https://www.fiware.org/wp-content/directories/people/images/200px/rodolfo-falcone.jpg", position: "Country Manager", company: "Red Hat", "company-link": "https://www.redhat.com/en",
         content: "Rodolfo Falcone is Country Manager Italy for Red Hat, the world&#x27;s leading provider of open source solutions. Rodolfo joined Red Hat in November 2019, bringing the company more than two decades of experience into sales and business leadership in the IT industry. His previous experience include a variety of roles at leading technology companies such as ForcePoint, ServiceNow, Commvault and Check Point Software Technologies. Rodolfo Falcone also served as Managing Director of Security Reply, and Country Manager Italy at Trend Micro.", linkedin: "https://www.linkedin.com/in/rodolfofalcone/", twitter: "", domain: "", location: "",
         flag: "", },
+    "angelo-giuliana":
+        { name: "Angelo Giuliana", img: "https://www.fiware.org/wp-content/directories/people/images/200px/angelo-giuliana.jpg", position: "General Director", company: "Meditech 4.0", "company-link": "https://meditech4.com/",
+        content: "", linkedin: "https://www.linkedin.com/in/angelogiuliana/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "abdulrahman-ibrahim":
+        { name: "Abdulrahman Ibrahim", img: "https://www.fiware.org/wp-content/directories/people/images/200px/abdulrahman-ibrahim.jpg", position: "Chief Data and Innovation Officer", company: "MDA", "company-link": "https://www.mda.gov.sa/",
+        content: "Mr. Abdulrahman is the Chief Data and Innovation Officer at Madinah Region Development Authority. He is a board member of state-owned Saudi companies. Under his leadership, Madinah was listed in the IMD Smart City Index since 2021. Also, Madinah was accredited by the World Council on City Data as an Early Adopter among the first ten cities worldwide in ISO37122 Smart City Indicators. Before joining the government, he was a Chief Executive Officer in the private sector with 22 years of experience in various industries, such as Consumer Goods, Food Manufacturing, Medical Supplies, and Supply Chain, where his operations covered the GCC market, Levant, and Africa. He’s the co-author of ‘Cities in a Time of Global Emergencies: Can smart cities help?’.", linkedin: "https://www.linkedin.com/in/abdulrahmanibrahim/", twitter: "", domain: "", location: "",
+        flag: "", },
     "pierryl-massal":
         { name: "Pierryl Massal", img: "https://www.fiware.org/wp-content/directories/people/images/200px/pierryl-massal.jpg", position: "VP Head of Business development", company: "Atos", "company-link": "https://atos.net/en/",
         content: "Pierryl MASSAL is Vice President, Head of Business development at Atos, a global IT company empowering and driving progress through digital innovation to create a livable and efficient future for the citizens. In this role, Pierryl oversees Atos’s relations and operations especially in the Smart City field enabling Atos to capitalize on opportunities across all industries, including Public Sector, Hospitality, Retail. Pierryl has been instrumental in providing central leadership to explore, develop and recommend approaches for sustainable business growth in that domain and manage strategic and brand-promotional partnership opportunities, representation at industry events and government/legislative relations.", linkedin: "https://www.linkedin.com/in/pierryl-massal-8939aa74/", twitter: "https://twitter.com/pierrylmassal", domain: "", location: "",
@@ -205,10 +212,6 @@ var modalData = {
     "antony-cassano":
         { name: "Antony Cassano", img: "https://www.fiware.org/wp-content/directories/people/images/200px/antony-cassano.jpg", position: "President &amp; Founder", company: "Pleiades-IoT Cluster", "company-link": "https://pleiadesiot.com/",
         content: "Antony Cassano is the Business Development Director of Uni Systems and the President and Founder of the Pleiades IoT Innovation Cluster, also recognized as FIWARE i-Hub. With more than 15 years of experience in Infrastructure Technologies, Antonis is now substantiating his expertise to lead the Research and Innovation activities of Uni Systems. He drives business development by exploring new growth opportunities and by institutionalizing a continuous endeavor to improve business practices. Antonis studied in the UK and graduated with a M.Sc. in Business Administration &amp; Information Technology.", linkedin: "https://www.linkedin.com/in/antony-cassano-7a03601/", twitter: "", domain: "", location: "",
-        flag: "", },
-    "angelo-giuliana":
-        { name: "Angelo Giuliana", img: "https://www.fiware.org/wp-content/directories/people/images/200px/angelo-giuliana.jpg", position: "General Director", company: "Meditech 4.0", "company-link": "https://meditech4.com/",
-        content: "", linkedin: "https://www.linkedin.com/in/angelogiuliana/", twitter: "", domain: "", location: "",
         flag: "", },
     "feroz-merchhiya":
         { name: "Feroz Merchhiya", img: "https://www.fiware.org/wp-content/directories/people/images/200px/feroz-merchhiya.jpg", position: "Chief Information Officer", company: "City of Santa Monica", "company-link": "https://www.santamonica.gov/",
@@ -285,10 +288,6 @@ var modalData = {
     "sheridan-johns":
         { name: "Sheridan Johns", img: "https://www.fiware.org/wp-content/directories/people/images/200px/johns-sheridan.jpg", position: "Head of Ecosystem Ocean Protocol", company: "Ocean Protocol", "company-link": "https://oceanprotocol.com/",
         content: "Sheridan Johns covers Collaborations &amp; Ecosystem at Ocean Protocol where he is co-lead of the Ocean Enterprise Collective, a non-profit association established to operate and maintain Ocean Enterprise: a free, open-source, collectively-governed and compliant enterprise-ready version of Ocean Protocol.  Sheridan is passionate about building the New Open Data Economy and works with entrepreneurs, startups and enterprise to implement Ocean Protocol’s next generation decentralized data exchange technology to unlock the intrinsic value of data in a safe, secure and transparent manner. Sheridan is project manager for numerous high-profile multi-stakeholder consortium projects in automotive, financial services, mobility and the public sector. Prior to joining Ocean in 2018, Sheridan developed and managed global Executive MBA programs for creative executives in digital services at Steinbeis University Berlin. Born in Durham, North Carolina, Sheridan earned his MA from Johns Hopkins University and was awarded a Fulbright Scholarship to attend the Free University Berlin.", linkedin: "https://www.linkedin.com/in/sjohnsiv/?originalSubdomain&#x3D;de", twitter: "https://twitter.com/sjohns?lang&#x3D;de", domain: "", location: "",
-        flag: "", },
-    "abdulrahman-ibrahim":
-        { name: "Abdulrahman Ibrahim", img: "https://www.fiware.org/wp-content/directories/people/images/200px/abdulrahman-ibrahim.jpg", position: "Chief Data and Innovation Officer", company: "MDA", "company-link": "https://www.mda.gov.sa/",
-        content: "Mr. Abdulrahman is the Chief Data and Innovation Officer at Madinah Region Development Authority. He is a board member of state-owned Saudi companies. Under his leadership, Madinah was listed in the IMD Smart City Index since 2021. Also, Madinah was accredited by the World Council on City Data as an Early Adopter among the first ten cities worldwide in ISO37122 Smart City Indicators. Before joining the government, he was a Chief Executive Officer in the private sector with 22 years of experience in various industries, such as Consumer Goods, Food Manufacturing, Medical Supplies, and Supply Chain, where his operations covered the GCC market, Levant, and Africa. He’s the co-author of ‘Cities in a Time of Global Emergencies: Can smart cities help?’.", linkedin: "https://www.linkedin.com/in/abdulrahmanibrahim/", twitter: "", domain: "", location: "",
         flag: "", },
     "gilsoni-lunardi-albino":
         { name: "Gilsoni Lunardi Albino", img: "https://www.fiware.org/wp-content/directories/people/images/200px/gilsoni-lunardi-albino.jpg", position: "Executive Director", company: "CIGA", "company-link": "consorciociga.gov.br",
