@@ -82,6 +82,7 @@ var speakers = [
         'Ana Garcia Robles',
         'Bruno Georges',
         'Angelo Giuliana',
+        'Miguel Gonzalez-Mendoza',
         'Jorge Hernandez',
         'Juanjo Hierro',
         'Jung Hoon Lee',
@@ -341,6 +342,10 @@ var modalData = {
     "luca-remotti":
         { name: "Luca Remotti", img: "https://www.fiware.org/wp-content/directories/people/images/200px/luca-remotti.jpg", position: "Manager and Program Director", company: "Data Power", "company-link": "https://www.data-power.net/",
         content: "Luca is the managing partner and one of the founders of DataPower Srl located in Italy and with a global operational scope. He has over 30 years’ experience as an international Project Director in technology evaluation, technology processes and road mapping, in strategic innovation and technology marketing. He has a deep experience in the logic structuring of quantitative process design and evaluation models and in the identification of variables and data for strategic positioning, for road mapping, and in the construction of the relevant indicators. He has a major experience in research and innovation in the areas of ICT, Digital Transformation; Open data, Big Data and High Value Datasets; Cloud and Edge Computing continuum and IoT; Nanotechnologies, Advanced Materials, Advanced Manufacturing and Processing and Biotechnology; eGovernment and Design of Public Administrations and Local Governments services; Smart Cities; and the Social economy. He is skilled in high-level institutional relationships, from National Governments, International bodies (European Commission, the European Parliament, the UN Economic and Social Committee, the OECD); in Strategic orientation, organisational analysis, marketing and business development and impact evaluation, strong focus on results and outcome.", linkedin: "https://www.linkedin.com/in/lucaalessandroremotti/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "miguel-gonzalez-mendoza":
+        { name: "Miguel Gonzalez-Mendoza", img: "https://www.fiware.org/wp-content/directories/people/images/200px/miguel-gmendoza.jpg", position: "Researcher", company: "Tecnológico de Monterrey", "company-link": "https://tec.mx/en",
+        content: "Miguel González Mendoza holds a PhD degree and a Postdoc in Artificial Intelligence from INSA and LAAS-CNRS Toulouse, France, in 2003 and 2004 respectively. Since 2004 he works as research professor at Tecnologico de Monterrey, Mexico. Miguel González Mendoza’s research activities are focused on machine learning, computer vision, areas in which has supervised 11 PhD and 26 MSc. Theses, published more than 130 peer reviewed scientific publications, participated and conducted more than 20 national (CONACYT founded) and international (European founded) research and innovation projects, and chaired 4 international Congresses, and had serve as senior consulting in the Finance Sector. President of the Mexican Society for Artificial Intelligence (2017-2018), Member of the Mexican National Research System (SNI) rank II , member since 2006. Member of the Mexican Academy of Sciences. Head of the Graduate Programs on Computer Sciences at Tecnologico de Monterrey, Mexico City 2005-2016. Young Scientist at the World Economic Forum for New Champions, 2012.", linkedin: "https://www.linkedin.com/in/miguel-gonzalez-mendoza/", twitter: "https://twitter.com/mgonzamm", domain: "", location: "",
         flag: "", },
     "vera-böhner":
         { name: "Vera Böhner", img: "https://www.fiware.org/wp-content/directories/people/images/200px/vera-bohner.jpg", position: "Business Development Manager DACH", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
