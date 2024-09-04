@@ -134,6 +134,7 @@ var speakers = [
         'Mads Pohl Petersson',
         'Carmen Polcaro',
         'Michael Prange',
+        'Hervé Pruvost',
         'Josué Ramos Gómez',
         'Matthias Rehfeld',
         'Luca Remotti',
@@ -360,6 +361,10 @@ var modalData = {
     "sebastian-blechmann":
         { name: "Sebastian Blechmann", img: "https://www.fiware.org/wp-content/directories/people/images/200px/sebastian-blechmann.jpg", position: "Research Associate", company: "RWTH Aachen", "company-link": "https://www.rwth-aachen.de/",
         content: "Sebastian Blechmann is working as research associate at the Institute for Energy Efficient Buildings and Indoor Climate in the E.ON Energy Research Center of the RWTH Aachen University. He is member of a research group targeting digital energy neighborhoods and specializes in semantic interoperability and efficient data utilization. In his research, he applies FIWARE to handle data from building energy systems, structure them semantically and apply control algorithms to control various test facilities. Thereby, he focuses on control and knowledge representation in heating, ventilation and air conditioning systems. In his presentation, he will talk about his past and present developments in the building energy sector using FIWARE.", linkedin: "https://www.linkedin.com/in/sebastian-blechmann-a2b19a119/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "hervé-pruvost":
+        { name: "Hervé Pruvost", img: "https://www.fiware.org/wp-content/directories/people/images/200px/herve-pruvost.jpg", position: "Research Associate", company: "RWTH Aachen", "company-link": "https://www.rwth-aachen.de/go/id/a/?lidx&#x3D;1",
+        content: "Hervé Pruvost graduated in mechanical and industrial engineering from the Ecole Nationale Supérieure d’Arts et Métiers, Paris, France. After a first career journey in the building industry by BNP Paribas Real Estate, he moved to R&amp;D working several years on digitalizing the AEC/FM sector at the Institute for Construction Informatics of the Technische Universität Dresden, Germany. In joined Fraunhofer IIS/EAS for further developing the topic of Building Information Modeling (BIM) in facility management. Over the years, he gained much expertise in design and development of software solutions for energy-efficient buildings, using knowledge graphs and semantic web, data engineering and data science. His main activities focus currently on the application of BIM, Ontologies and IoT for monitoring automation in HVAC systems.", linkedin: "https://www.linkedin.com/in/hervepruvost/", twitter: "", domain: "", location: "",
         flag: "", },
     "antonio-filograna":
         { name: "Antonio Filograna", img: "https://www.fiware.org/wp-content/directories/people/images/200px/antonio-filograna.jpg", position: "Researcher", company: "Engineering", "company-link": "https://www.eng.it/en/",
