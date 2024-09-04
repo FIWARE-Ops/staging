@@ -341,6 +341,10 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2024/balancing-growth-and-environmental-responsibility.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2024/robotics.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -350,10 +354,6 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2024/trust-services-for-data-spaces.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
-			<loc>https://www.fiware.org/fgs-2024/balancing-growth-and-environmental-responsibility.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
