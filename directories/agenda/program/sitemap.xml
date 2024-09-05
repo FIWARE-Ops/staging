@@ -97,6 +97,10 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2024/data-portals-at-the-heart-of-smart-city-success.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2024/the-european-cloud-and-edge-marketplace.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -458,6 +462,10 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2024/closing.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2024/10th-fiware-global-summit-celebration.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 </urlset>
