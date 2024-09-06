@@ -54,6 +54,21 @@ var types = [
 
  var modalData = [
     { 
+        name: "Enhancing Tourism with Smart Technologies: Integrating FIWARE and Large Language Models", 
+        img: "https://www.fiware.org/wp-content/uploads/fw-enhancing-tourism.png",
+        type: "Processing", 
+        badge: "<img src='https://www.fiware.org/custom/brand-guide/img/badges/catalogue/03/svg/processing-analysis.svg'/>",
+        chapter: "context-processing", 
+        difficulty: 3,
+        video: "https://www.youtube.com/watch?v=SHUnETH4wDo",
+        content: "&lt;p&gt;This session will delve into the integration of FIWARE with the powerful capabilities of Large Language Models (LLMs) equipped with Retrieval Augmented Generation (RAG). We will explore an innovative architecture that leverages FIWARE’s NGSI API to enrich the contextual information available to tourists.&lt;/p&gt; &lt;p&gt;Attendees will gain insights into:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;The fundamentals of FIWARE and its role in context data management.&lt;/li&gt; &lt;li&gt;The capabilities of LLMs, specifically focusing on RAG for enhancing contextual information.&lt;/li&gt; &lt;li&gt;Practical applications through a real-world use case, showcasing the integration of FIWARE’s context data with LLMs to provide enriched information about various points of interest (POIs).&lt;/li&gt; &lt;li&gt;The synergy between FIWARE and LLMs in understanding and processing NGSI entities and queries, and how this can lead to more advanced and intelligent applications in tourism and beyond.&lt;/li&gt; &lt;/ul&gt;",  
+        domain: "Developers",  
+        technology: "AI",
+        length: 50,
+        year: 2024,
+        social: "https://www.fiware.org/webinars/enhancing-tourism-with-smart-technologies--integrating-fiware-and-large-language-models.html"
+    },
+    { 
         name: "Advanced Dashboards with WireCloud 2.0", 
         img: "https://www.fiware.org/wp-content/uploads/fw-advanced-dashboards-with-wirecloud-2.png",
         type: "Visualisation", 
