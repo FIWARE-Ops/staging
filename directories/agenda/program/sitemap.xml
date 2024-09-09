@@ -37,12 +37,16 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/wrap-up---key-takeaways.html</loc>
+			<loc>https://www.fiware.org/fgs-2024/advanced--integration-and-contribution.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 			<loc>https://www.fiware.org/fgs-2024/advanced--integration-and-contribution.html</loc>
+=======
+			<loc>https://www.fiware.org/fgs-2024/wrap-up---key-takeaways.html</loc>
+>>>>>>> ed57607f9144c396ddaa0ed37116090e51b18798
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -109,6 +113,10 @@
 		<url>
 			<loc>https://www.fiware.org/fgs-2024/the-port-as-a-driving-force-for-innovation-in-the-region-.html</loc>
 >>>>>>> Stashed changes
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2024/data-portals-at-the-heart-of-smart-city-success.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -186,7 +194,14 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+<<<<<<< HEAD
 <<<<<<< Updated upstream
+=======
+			<loc>https://www.fiware.org/fgs-2024/identity-unlock--ai-powered-recognition-with-privacy-preserved.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+>>>>>>> ed57607f9144c396ddaa0ed37116090e51b18798
 			<loc>https://www.fiware.org/fgs-2024/closing.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -473,11 +488,14 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+<<<<<<< HEAD
 			<loc>https://www.fiware.org/fgs-2024/balancing-growth-and-environmental-responsibility.html</loc>
 >>>>>>> 4b99f128fa514cc2befc211b56d81f40ff41ecbc
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+=======
+>>>>>>> ed57607f9144c396ddaa0ed37116090e51b18798
 			<loc>https://www.fiware.org/fgs-2024/get-future-insights-today--ai-generated-forecasts-of-green-electricity.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -578,6 +596,10 @@
 =======
 			<loc>https://www.fiware.org/fgs-2024/deployment-of-fiware-on-kubernetes.html</loc>
 >>>>>>> Stashed changes
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2024/10th-fiware-global-summit-celebration.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 </urlset>
