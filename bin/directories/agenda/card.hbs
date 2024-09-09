@@ -2,12 +2,15 @@
 
 
 <div class='grid-item {{createClass track}} {{#if (ne session '')}}{{createClass session}}{{else}}{{createClass title}}{{/if}}{{#each speakers}} {{createClass name}}{{/each}} {{createClass shortDate}}'>
-    <div class="gridElementTextContainer{{#if moderator}} moderator{{/if}}">
+    <div class="gridElementTextContainer{{#if moderated}} moderated{{/if}}">
+      {{#if (gt numSpeakers 0)}}
       <a href="./{{#if description}}program{{else}}program-details-summary{{/if}}?id={{createClass title}}">
+      {{/if}}
         <div class="chip-track">
           <div class="track {{trackColor}}">{{track}}</div>
+          {{#if (ne prefix '')}}<span class="title-type {{trackColor}}">{{prefix}}</span>{{/if}}
         </div>
-        <p class="panel-title">{{#if (ne prefix '')}}<span class="title-type {{trackColor}}">{{prefix}}</span>{{/if}}{{title}}</p> 
+        <p class="panel-title">{{title}}</p> 
         <span class="excerpt">{{session}}</span>
         <div class="panel-info">
           <div class="date-time">
@@ -15,13 +18,25 @@
             <span class="separator-dot"></span>
             <span class="time">{{start}} – {{end}}</span>
           </div>
+          {{#if (ne location '')}}
           <span class="separator-dot"></span>
           <span class="place">{{location}}</span>
+          {{/if}}
         </div>
+      {{#if (gt numSpeakers 0)}}
       </a>
+      {{/if}}
     </div>
-    <div class="speakers-container{{#if moderator}} moderator{{/if}}">
-      {{#if (and moderator (gt numSpeakers 0))}} 
+
+    {{#if (eq numSpeakers 0)}}
+    <div class="speakers-container">
+      <div class="session-picture {{trackColor}}">
+        <img src="{{img}}"/>
+      </div>
+    </div>
+    {{else}}
+    <div class="speakers-container{{#if moderated}} moderated{{/if}}">
+      {{#if (and moderated (gt numSpeakers 0))}} 
       <div class="moderated-by">
         Session moderated by
       </div>
@@ -48,15 +63,18 @@
         {{/each}}
       </div>
     </div>
-    <div class="foot{{#if moderator}} moderator{{/if}}">
+    {{/if}}
+    {{#if (gt numSpeakers 0)}}
+    <div class="foot{{#if moderated}} moderated{{/if}}">
       <a class="btn-primary" href="./{{#if description}}program{{else}}program-details-summary{{/if}}?id={{createClass title}}">
         <span class="material-symbols-outlined">info</span>
-        {{#if moderator}}
+        {{#if moderated}}
           Session details
         {{else}}
           See details
         {{/if}}
       </a>
     </div>
+    {{/if}}
   </div>
 {{/each}}

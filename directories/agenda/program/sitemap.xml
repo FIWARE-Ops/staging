@@ -354,6 +354,13 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2024/trust-services-for-data-spaces.html</loc>
+<<<<<<< HEAD
+=======
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2024/balancing-growth-and-environmental-responsibility.html</loc>
+>>>>>>> 4b99f128fa514cc2befc211b56d81f40ff41ecbc
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>

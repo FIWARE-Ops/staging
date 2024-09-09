@@ -1156,6 +1156,67 @@ var pageData = [
         year: 2024,
         content:
             'DinyCONT provides people counting and information on people flow, differentiating between children, adults etc. The system can be set up to measure in one or multiple zones, by accesses, time slots, etc. All of which is readily accessible from our software platform on the Cloud.'
+    },
+    {
+        company: 'LOBSTA',
+        name: 'LOBSTA',
+        img: 'https://www.fiware.org/style/imgs/Marketplace/product/fiware-ready/software-enabler/logo_lobsta.svg',
+        fiwareMember: false,
+        fiwareIhub: false,
+        companyLink: '../product-details/?category=ready&id=lobsta-lobsta',
+        domain: [
+            'Cities',
+            'Construction and Building',
+            'Government',
+            'Parks &amp; Gardens',
+            'Utilities',
+            'Oil and Gas'
+        ],
+        type: 'Software Enabler',
+        technology: [
+            'Data Handling',
+            'Internet Services',
+            'Mobility and Location',
+            'Software as a Service',
+            'Service Architectures'
+        ],
+        year: 2024,
+        content:
+            'LOBSTA is a new Task Management that connects Places and Tasks and helps manage all kinds of location-based tasks collaboratively and more efficiently. LOBSTA provides an interface to FIWARE to easily create and publish subscriptions and automate task creation based on Context Broker notifications.'
+    },
+    {
+        company: 'Ecosystem Informatics Inc',
+        name: 'ESI FIWARE API',
+        img: 'https://www.fiware.org/wp-content/uploads/01a198894b53fee684c497c04ce4e620.png',
+        fiwareMember: false,
+        fiwareIhub: false,
+        companyLink: '../product-details/?category=ready&id=ecosysteminformaticsinc-esifiwareapi',
+        domain: ['Air Quality', 'Automotive', 'Cities', 'Government', 'Industry'],
+        type: 'Software Enabler',
+        technology: [
+            'Artificial Intelligence',
+            'Data Analytics',
+            'Digital Twins',
+            'Internet of Things',
+            'Software as a Service'
+        ],
+        year: 2024,
+        content:
+            'The ESI FIWARE API uses IoT devices with sensors for CO, SO₂, NO₂, O₃, H₂S, CO₂, PM, VOC, and atmospheric data, writing to an Orion Context Broker. The API system allows FIWARE-compliant systems to access city air quality data via NGSIv2 connections.'
+    },
+    {
+        company: 'Dinycon Sistemas',
+        name: 'DinyPARK',
+        img: 'https://www.fiware.org/wp-content/uploads/3d276736a064edd7108397266807424e.jpg',
+        fiwareMember: false,
+        fiwareIhub: false,
+        companyLink: '../product-details/?category=ready&id=dinyconsistemas-dinypark',
+        domain: ['Cities', 'Mobility', 'Parks &amp; Gardens', 'Retail and Wholesale', 'Tourism'],
+        type: 'Software Enabler',
+        technology: ['Artificial Intelligence', 'Data Spaces', 'Internet of Things', 'Mobility and Location'],
+        year: 2024,
+        content:
+            'DinyPARK offers a complete smart parking solution for vehicle counting, tracking and classification with information on free spaces in parking lots. DinyPARK offers precise real-time information on the number of vehicles that are in a certain area, for both indoor and outdoor car parks.'
     }
 ];
 

@@ -4,8 +4,6 @@ function getTrackColor(data) {
 
     switch (data) {
         case 'Tech & Trends':
-            result = 'light-green';
-            break;
         case 'Co-creation of tech solutions':
             result = 'light-green';
             break;
@@ -16,11 +14,9 @@ function getTrackColor(data) {
             result = 'light-yellow';
             break;
         case 'Grand Opening':
-            result = 'light-blue';
-            break;
+        case 'Organisation':
+        case 'Organization':
         case 'Hands-On Use Cases':
-            result = 'light-blue';
-            break;
         case 'Collaborative business strategies':
             result = 'light-blue';
             break;

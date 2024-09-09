@@ -21,20 +21,19 @@
 
   .panel-title {
     position: absolute;
-    top: 125px;
+    top: 120px;
     left: 433px;
     width: 690px;
   }
-
   .title {
-    font-size: 32px;
-    line-height: 40px;
+    font-size: 28px;
+    line-height: 36px;
     font-weight: 700;
     color: #000000;
   }
 
   .subtitle {
-    margin-top: 10px;
+    margin-top: 8px;
     font-size: 24px;
     line-height: 1.3em;
     font-weight: 500;
@@ -93,6 +92,17 @@
   
   .topic-icon.light-green {
     background-color: #d0ede4;
+  }
+
+  .panel-moderated-by {
+    width: 690px;
+    position: absolute;
+    top: 275px;
+    left: 433px;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #4c4c4c;
   }
 
   .panel-speakers {

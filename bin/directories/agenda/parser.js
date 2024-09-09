@@ -29,7 +29,7 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
         const event = {
             priority: Number(item.Priority),
             track: item.Track,
-            moderator: Parser.boolean(item.Moderator),
+            moderated: Parser.boolean(item.Moderated),
             session: item.Session,
             prefix: item.Prefix,
             title: item.Title,
@@ -151,6 +151,7 @@ function parse(agendaFile, speakersFile) {
                     const filterData = {
                         tracks: Sorter.sortData(agenda, 'track'),
                         sessions: Sorter.flatSortData(agenda, 'session'),
+                        prefixes: Sorter.flatSortData(agenda, 'prefix'),
                         speakers: speakerNames,
                         people,
                         summitDates,
@@ -214,7 +215,9 @@ function parse(agendaFile, speakersFile) {
                     Prettier.format(path.join(AGENDA_DIR, 'agenda.html'), { parser: 'html' });
                     Prettier.format(path.join(AGENDA_DIR, 'pageData.js'), { parser: 'flow' });
 
+                    Template.qrCodes(path.join(AGENDA_DIR, 'qr'), agenda);
                     Template.createSocialMediaImages(socialImages, path.join(TEMPLATE_PATH, 'social-media-image.hbs'));
+            
                 })
                 .catch((e) => {
                     console.log(e);
