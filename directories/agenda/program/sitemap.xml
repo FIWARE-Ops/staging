@@ -353,6 +353,10 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2024/revolutionizing-water-management-with-fiware.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2024/robotics.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -369,7 +373,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/revolutionizing-water-management-with-fiware.html</loc>
+			<loc>https://www.fiware.org/fgs-2024/water-data-valorization.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -385,7 +389,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/water-data-valorization.html</loc>
+			<loc>https://www.fiware.org/fgs-2024/how-fiware-can-support-the-management-of-integral-water-cycle---an-experience-in-costa-de-sol.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
