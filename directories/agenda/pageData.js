@@ -165,6 +165,7 @@ var speakers = [
         'Nvidia',
         'Giovanni Vaglica',
         'Gerard van der Hoeven',
+        'Eloisa Vargiu',
         'Walter Domenico Vergara',
         'Margherita Volpe',
         'Gaetano Volpe',
@@ -263,7 +264,7 @@ var modalData = {
         content: "With over eight years of experience in venture capital (Sistema Investimenti, Invitalia Ventures) and corporate venture capital (TIM Working Capital), Mario Scuderi is involved in growth capital investments, early stage, and tech-transfer in DeepTech, Space, MedTech, Digital, ICT, and FoodTech at Fondo Italia Venture I. He is a board member of 4 startups. He holds a master&#x27;s degree in Management Engineering and is a Kauffman Fellow (Executive Venture Education Center). He is Passionate about new tech and great founders. Established International Network within the Venture Capital Industry.", linkedin: "https://www.linkedin.com/in/marioscuderi/", twitter: "", domain: "", location: "",
         flag: "", },
     "asimina-syriou":
-        { name: "Asimina Syriou", img: "https://www.fiware.org/wp-content/directories/people/images/200px/asimina-syriou.jpg", position: "Energy WG Lead", company: "European Space Agency", "company-link": "https://www.esa.int/",
+        { name: "Asimina Syriou", img: "https://www.fiware.org/wp-content/directories/people/images/200px/asimina-syriou.jpg", position: "Senior Researcher", company: "European Space Agency", "company-link": "https://www.esa.int/",
         content: "Mina is a passionate advocate for space technology with extensive experience in business development, project management, and leadership across NGOs, academia, government, the United Nations, and the space sector. Her global perspective, cultivated through work in four countries, brings a rich and diverse skill set to her roles. Currently, Mina holds a pivotal position at ESA’s Business Applications – Space Solutions (BASS) department, within the Directorate of Commercialisation, Industry and Competitiveness (D/CIC). She focuses on developing and promoting space-based applications with a strong emphasis on sustainability, excels in building strategic partnerships, and supports SMEs and start-ups in navigating space technology. As the lead of BASS’s Energy &amp; Utilities Working Group, Mina explores innovative solutions to energy sector challenges using space technology. She is also a Fellow and Chartered Geographer at the Royal Geographical Society, a STEM Ambassador, and a mentor to professionals and entrepreneurs in business accelerators. Additionally, she actively promotes diversity through networks like Women in Geospatial+. Mina has led space elective courses at the University of Oxford, the University of Southampton, and UCL.", linkedin: "https://www.linkedin.com/in/asimina-mina-syriou-34601118/", twitter: "https://twitter.com/MinaSyriou", domain: "", location: "",
         flag: "", },
     "margherita-volpe":
