@@ -84,6 +84,7 @@ var speakers = [
         'Angelo Giuliana',
         'Miguel Gonzalez-Mendoza',
         'Dilip Hanumara',
+        'Misato Hattori',
         'Jorge Hernandez',
         'Juanjo Hierro',
         'Jung Hoon Lee',
@@ -123,7 +124,6 @@ var speakers = [
         'Feroz Merchhiya',
         'Sophie Meszaros',
         'Jose Miguel Barone',
-        'Hattori Misato',
         'Nejib Moalla',
         'Yasunori Mochizuki',
         'Antonello Monti',
@@ -314,8 +314,8 @@ var modalData = {
         { name: "Gilsoni Lunardi Albino", img: "https://www.fiware.org/wp-content/directories/people/images/200px/gilsoni-lunardi-albino.jpg", position: "Executive Director", company: "CIGA", "company-link": "consorciociga.gov.br",
         content: "Gilsoni Lunardi Albino is director of the Public Management Innovation Consortium – CIGA with 343 consortium cities in Brazil, co-founder of the startup SmartCityTec, member of the Connectivity and Sustainability Institute – ICONECTS. He is director of public management for the Excelência SC movement and an individual member of the FIWARE Foundation. He participated in the development of Brazil&#x27;s national digital government strategy, is engaged in verticals that support businesses and startups for the public sector, such as ACATE&#x27;s Smart Cities Vertical and SEBRAE Nacional&#x27;s acceleration programs. He has an MBA in Business Technology: AI, Data Science and Big Data from PUCRS, a degree in Computer Science, with a specialization in Business Administration, a postgraduate degree in Environmental Management and Sustainability and an MBA in Project Management and a specialization in Advanced Topics in Project Management from the University of La Verne in California (USA).", linkedin: "https://www.linkedin.com/in/gilsoni/", twitter: "", domain: "", location: "",
         flag: "", },
-    "hattori-misato":
-        { name: "Hattori Misato", img: "https://www.fiware.org/wp-content/directories/people/images/200px/misato-hattori.jpg", position: "Senior Business Development Manager", company: "NEC America", "company-link": "https://www.necam.com/",
+    "misato-hattori":
+        { name: "Misato Hattori", img: "https://www.fiware.org/wp-content/directories/people/images/200px/misato-hattori.jpg", position: "Senior Business Development Manager", company: "NEC America", "company-link": "https://www.necam.com/",
         content: "Misato Hattori is the Senior Business Development Manager at NEC, a Japanese global information and communications technology corporation. She is particularly involved in smart city business development, and research and opportunity analysis of the smart city market in the United States. She has been in charge of the technology industry for over twenty years since she got a master’s degree in computer science. Her career has spanned technology research and development, mobile product planning, and policy advocacy, and she has worked with the Japanese government on developing the Smart City Reference Architecture in Japan. Currently based in New York, she participates with the Center of Smart Streetscapes led by Columbia University as the industry advisory board member.", linkedin: "https://www.linkedin.com/in/misato-hattori-535199254/", twitter: "", domain: "", location: "",
         flag: "", },
     "alexander-andrade":
