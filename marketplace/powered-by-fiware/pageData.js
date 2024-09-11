@@ -1576,6 +1576,20 @@ var pageData = [
         year: 2024,
         content:
             'The aim of our Smart City/Smart Region data platform cosma21 is to network the individual systems of the municipalities and their service providers or own enterprises. The resulting insights can then be used to significantly improve the quality of the decisions based on them.'
+    },
+    {
+        company: 'SATEC',
+        name: 'Palatine',
+        img: 'https://www.fiware.org/style/imgs/Marketplace/product/powered-by-fiware/solution/logo_satec.svg',
+        fiwareMember: false,
+        fiwareIhub: false,
+        companyLink: '../product-details/?category=powered&id=satec-palatine',
+        domain: ['Agriculture', 'Cities', 'Government', 'Tourism', 'Water'],
+        type: 'Solution',
+        technology: ['Cloud Computing', 'Data Handling', 'Data Spaces', 'Digital Twins', 'Internet of Things'],
+        year: 2024,
+        content:
+            'A modular, multitenant, and extensible system designed to simplify the deployment and management of IoT solutions'
     }
 ];
 
