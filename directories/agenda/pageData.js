@@ -171,6 +171,7 @@ var speakers = [
         'Walter Domenico Vergara',
         'Margherita Volpe',
         'Gaetano Volpe',
+        'Christopher Wilson',
 ]; 
 var modalData = {
     "yasunori-mochizuki":
@@ -224,6 +225,10 @@ var modalData = {
     "matthias-rehfeld":
         { name: "Matthias Rehfeld", img: "https://www.fiware.org/wp-content/directories/people/images/200px/matthias-rehfeld.jpg", position: "Head of Make-IT in Africa", company: "GIZ", "company-link": "https://www.giz.de/",
         content: "With 15 years of expertise in building innovation ecosystems and supporting startups in Africa, Matthias Rehfeld is dedicated to bridging the gap between Africa and Europe. As the head of Make-IT in Africa, funded by the German Development Cooperation, the European Commission, and the Green Climate Fund, Matthias fosters partnerships with leading companies such as Airbus, Merck, Orange, and FIWARE. He also spearheads Project CATAL1.5°T, driving direct investment in climate tech startups across Africa, and co-leads Project SPARK, establishing African Digital Innovation Hubs. Matthias&#x27;s efforts are pivotal in nurturing the continent&#x27;s tech landscape and fostering sustainable growth.", linkedin: "https://www.linkedin.com/in/matthias-rehfeld-30784248/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "christopher-wilson":
+        { name: "Christopher Wilson", img: "https://www.fiware.org/wp-content/directories/people/images/200px/christopher-wilson.jpg", position: "Executive Director", company: "MyData Global", "company-link": "https://mydata.org/",
+        content: "Christopher Wilson is the executive director of MyData Global. He has produced leading research on civic trust and engagement in government&#x27;s digital transformation, and has over a decade of experience assessing and designing digitization processes within multilateral and international organizations. He founded the Responsible Data Forum and the Engine Room, an applied research center and digital help desk for advocacy organizations and activists. He has previously led governance assessment projects at the United Nations Development Program and the evidence and learning portfolio at the Extractive Industries Transparency Initiative.", linkedin: "https://www.linkedin.com/in/christopher-wilson-07b9991a/", twitter: "", domain: "", location: "",
         flag: "", },
     "juanjo-hierro":
         { name: "Juanjo Hierro", img: "https://www.fiware.org/wp-content/directories/people/images/200px/juanjo-hierro.jpg", position: "Chairman FIWARE TSC", company: "", "company-link": "",
