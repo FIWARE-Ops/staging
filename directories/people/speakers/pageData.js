@@ -59,6 +59,7 @@ var companies = [
         'MNX Online',
         'Municipality of Bologna',
         'Municipality of Naples',
+        'MyData Global',
         'NEC America',
         'NEC Corporation',
         'NEC Lab Europe',
@@ -535,5 +536,8 @@ var companies = [
     flag: "", },
     { name: "Gaetano Volpe", img: "https://www.fiware.org/wp-content/directories/people/images/200px/gaetano-volpe.jpg", position: "Chief Executive Officer", company: "Latitudo 40", "company-link": "https://www.latitudo40.com/",
     content: "Gaetano is the CEO of Latitudo 40, a startup that uses satellite data to improve life on our planet. After working for over 20 years in space-related companies, launching new products and services based on the integration of IT with space technologies (telecommunications, navigation and remote sensing), he decided to combine his passion for space technologies with the need to improve the environmental impact of our cities. For Gaetano, innovation means finding a new solution to a global market problem.", linkedin: "https://www.linkedin.com/in/gaetanovolpe", twitter: "", domain: "", location: "",
+    flag: "", },
+    { name: "Christopher Wilson", img: "https://www.fiware.org/wp-content/directories/people/images/200px/christopher-wilson.jpg", position: "Executive Director", company: "MyData Global", "company-link": "https://mydata.org/",
+    content: "Christopher Wilson is the executive director of MyData Global. He has produced leading research on civic trust and engagement in government&#x27;s digital transformation, and has over a decade of experience assessing and designing digitization processes within multilateral and international organizations. He founded the Responsible Data Forum and the Engine Room, an applied research center and digital help desk for advocacy organizations and activists. He has previously led governance assessment projects at the United Nations Development Program and the evidence and learning portfolio at the Extractive Industries Transparency Initiative.", linkedin: "https://www.linkedin.com/in/christopher-wilson-07b9991a/", twitter: "", domain: "", location: "",
     flag: "", },
 ];
