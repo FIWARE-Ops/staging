@@ -94,6 +94,7 @@ var speakers = [
         'Sheridan Johns',
         'Steve Johnston',
         'Dimitris Kalogeras',
+        'Evanson Karanja',
         'Yuki Kato',
         'Jin Kawasaki',
         'Luka Keserič',
@@ -116,6 +117,7 @@ var speakers = [
         'Lanfranco Marasso',
         'Angelo Marguglio',
         'Pierryl Massal',
+        'Caroline Mbaya',
         'Davor Meersman',
         'Francisco Meléndez',
         'Feroz Merchhiya',
@@ -153,7 +155,6 @@ var speakers = [
         'Marco Schuldt',
         'Björn Schwarze',
         'Mario Scuderi',
-        'Olaf Seidel',
         'Andrew Spannaus',
         'Harald Sundmaeker',
         'Asimina Syriou',
@@ -162,6 +163,7 @@ var speakers = [
         'Christopher Tate',
         'Ángeles Tejado',
         'Thimo Thoeye',
+        'Moise Tuyizere',
         'Nvidia',
         'Giovanni Vaglica',
         'Gerard van der Hoeven',
@@ -171,10 +173,6 @@ var speakers = [
         'Gaetano Volpe',
 ]; 
 var modalData = {
-    "gaetano-manfredi":
-        { name: "Gaetano Manfredi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/gaetano-manfredi.jpg", position: "Mayor of Naples", company: "Municipality of Naples", "company-link": "https://www.comune.napoli.it/home",
-        content: "Since 2021, Gaetano Manfredi is serving as the Mayor of Naples. He is an engineer with a PhD in Structural Engineering and a full professor at the University of Naples Federico II. From January 2020 to February 2021, he held the position of Minister of University and Research. Previously, he was the Rector of the University of Naples Federico II and President of the Conference of Italian University Rectors. His service includes roles as a member of the Superior Council of Public Works and the Major Risks Commission at the Ministry of Infrastructure, as well as an Advisor to the Minister for Reforms and Innovations in Public Administration. An author or editor of numerous books and more than 400 scientific publications, Manfredi has led theoretical and experimental research primarily in seismic engineering and innovative structures and materials. He has coordinated numerous national and international research projects and has been actively involved in prestigious national and international scientific and standard-setting associations.", linkedin: "", twitter: "", domain: "", location: "",
-        flag: "", },
     "yasunori-mochizuki":
         { name: "Yasunori Mochizuki", img: "https://www.fiware.org/wp-content/directories/people/images/200px/yasunori-mochizuki.jpg", position: "NEC Fellow", company: "NEC Corporation", "company-link": "https://www.nec.com/",
         content: "Yasunori Mochizuki is NEC Fellow and is focused on digital transformation and ecosystem strategy for Smart Cities and is active in policy recommendation and multi-stakeholder collaboration initiatives for technology innovation as well as technology governance, leveraging his global smart city networks. Previously, he was Senior Vice President responsible for NEC’s corporate technology strategy including R&amp;D roadmap and open innovations. He is currently the chairman of the BoD of FIWARE Foundation, In addition he was member of the BoD since 2017 when NEC joined the Foundation as a Platinum Member. Yasunori has 30+ years of career as a research scientist and then as head of multiple research departments in NEC and his technical expertise covers a broad area including AI-oriented computer science, ICT systems, integrated devices and solid-state physics. He received his PhD in Electronics Engineering from the University of Tokyo.", linkedin: "https://www.linkedin.com/in/yasunori-mochizuki-93bab674/", twitter: "https://twitter.com/yasunorimochiz", domain: "", location: "",
@@ -247,6 +245,10 @@ var modalData = {
         { name: "Marco Schuldt", img: "https://www.fiware.org/wp-content/directories/people/images/200px/marco-schuldt.jpg", position: "Deputy-Head of Section for Digitalisation", company: "BMWK", "company-link": "https://www.bmwk.de/Navigation/EN/Home/home.html",
         content: "", linkedin: "", twitter: "", domain: "", location: "",
         flag: "", },
+    "gaetano-manfredi":
+        { name: "Gaetano Manfredi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/gaetano-manfredi.jpg", position: "Mayor of Naples", company: "Municipality of Naples", "company-link": "https://www.comune.napoli.it/home",
+        content: "Since 2021, Gaetano Manfredi is serving as the Mayor of Naples. He is an engineer with a PhD in Structural Engineering and a full professor at the University of Naples Federico II. From January 2020 to February 2021, he held the position of Minister of University and Research. Previously, he was the Rector of the University of Naples Federico II and President of the Conference of Italian University Rectors. His service includes roles as a member of the Superior Council of Public Works and the Major Risks Commission at the Ministry of Infrastructure, as well as an Advisor to the Minister for Reforms and Innovations in Public Administration. An author or editor of numerous books and more than 400 scientific publications, Manfredi has led theoretical and experimental research primarily in seismic engineering and innovative structures and materials. He has coordinated numerous national and international research projects and has been actively involved in prestigious national and international scientific and standard-setting associations.", linkedin: "", twitter: "", domain: "", location: "",
+        flag: "", },
     "jose-benítez":
         { name: "Jose Benítez", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jose-benitez.jpg", position: "Chief Executive Officer", company: "Secmotic", "company-link": "https://secmotic.com/",
         content: "Since its establishment in 2015, Jose has been at the helm of Secmotic as CEO. His involvement on the Board of Directors of FIWARE since 2017 has contributed to shaping the future of the organization. In 2021, he embarked on a new venture, founding FIWOO Smart Solutions, a company dedicated to delivering FIWARE-based Smart City platform solutions tailored to the needs of the Spanish public sector.", linkedin: "https://www.linkedin.com/in/jose-benitez-secmotic/", twitter: "", domain: "", location: "",
@@ -310,6 +312,10 @@ var modalData = {
     "hattori-misato":
         { name: "Hattori Misato", img: "https://www.fiware.org/wp-content/directories/people/images/200px/misato-hattori.jpg", position: "Senior Business Development Manager", company: "NEC America", "company-link": "https://www.necam.com/",
         content: "Misato Hattori is the Senior Business Development Manager at NEC, a Japanese global information and communications technology corporation. She is particularly involved in smart city business development, and research and opportunity analysis of the smart city market in the United States. She has been in charge of the technology industry for over twenty years since she got a master’s degree in computer science. Her career has spanned technology research and development, mobile product planning, and policy advocacy, and she has worked with the Japanese government on developing the Smart City Reference Architecture in Japan. Currently based in New York, she participates with the Center of Smart Streetscapes led by Columbia University as the industry advisory board member.", linkedin: "https://www.linkedin.com/in/misato-hattori-535199254/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "alexander-andrade":
+        { name: "Alexander Andrade", img: "https://www.fiware.org/wp-content/directories/people/images/200px/alexander-andrade.jpg", position: "Smart City Director", company: "Sysman", "company-link": "",
+        content: "Electronic Engineer, Master’s in Science, Technology, and Innovation Management and Master(c) in Smart Cities, with experience in Information and Communications Technology projects as tools for Smart Cities and Digital Transformation. Co-founded Digital Marketing and Software Development companies. Likewise, he has worked with the ICT Ministry of Colombia in En TIC Confío, Mipyme Digital and Digital Government, Smart Cities and Territories strategy. With more than twenty years of experience in the public and private sectors, he has led teams in different areas and disciplines, achieving results-oriented missional and strategic objectives of the organizations.", linkedin: "https://www.linkedin.com/in/alexricand/?originalSubdomain&#x3D;co", twitter: "", domain: "", location: "",
         flag: "", },
     "thimo-thoeye":
         { name: "Thimo Thoeye", img: "https://www.fiware.org/wp-content/directories/people/images/200px/thimo-thoeye.jpg", position: "Innovation Manager", company: "OASC", "company-link": "oascities.org",
@@ -443,9 +449,21 @@ var modalData = {
         { name: "Frédéric Le", img: "https://www.fiware.org/wp-content/directories/people/images/200px/frederic-le.png", position: "Partner", company: "youragileway", "company-link": "https://youragileway.com/",
         content: "President of Youragileway, is an AFNeT expert who represents the association on the Gaia-X Architecture Working Group. He is contributing to the Specialist Task Force STF 676 (Usage domains mappings) of ETSI. He is specifying how to both establish and maintain the number of connections between NGSI-LD entities and their geographical 2D/3D representations. His areas of expertise cover Data Spaces design, the Smart Cities, software architecture and agile methods.", linkedin: "https://www.linkedin.com/in/frederic-le-708777//", twitter: "", domain: "", location: "",
         flag: "", },
+    "evanson-karanja":
+        { name: "Evanson Karanja", img: "https://www.fiware.org/wp-content/directories/people/images/200px/evanson-karanja.jpg", position: "Innovative Technology and Data Science Lead", company: "JhubAfrica", "company-link": "https://www.jhubafrica.com/",
+        content: "Evanson is a co-founder and also serves as Innovative Technology and Data science Lead at JHUBAFRICA. A digital innovation hub that support ideation,design and implementation of technological solutions that solves real- world challenges such as green and digital finance, smart climate agriculture, rural and urban living spaces to create spin-offs that spur social and economic impact. More projects can be found  https://jhubafrica.com/blog. Evanson holds a Doctorate in Engineering and has over  15  years experience in technology diffusion, automation and innovation management.", linkedin: "https://www.linkedin.com/in/drmwangi-karanja/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "caroline-mbaya":
+        { name: "Caroline Mbaya", img: "https://www.fiware.org/wp-content/directories/people/images/200px/caroline-mbaya.jpg", position: "Project Manager", company: "Green and Digital Innovation Hub", "company-link": "https://www.gdih.org/",
+        content: "Caroline is the Project Manager for the Green and Digital Innovation Hub (gDIH) Kenya, a hub that supports Innovators, MSMEs, Youth and Women led enterprises to access Green and Digital technologies, Finance as well as Capacity Building aimed at scaling up their businesses. Caroline holds a Doctorate in Entrepreneurship and has over 15 years’ experience in research and policy formulation.", linkedin: "https://www.linkedin.com/in/caroline-mbaya-025ba756/", twitter: "", domain: "", location: "",
+        flag: "", },
     "ángeles-tejado":
         { name: "Ángeles Tejado", img: "https://www.fiware.org/wp-content/directories/people/images/200px/angeles-tejado.jpg", position: "Senior Program Manager", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
         content: "Angeles Tejado (f) comes with more than 20 years of strong experience in Marketing and Brand Management for customer-focused multinational companies, Angeles coordinated the development of marketing messages helping to communicate the vision and unique value proposition of FIWARE in domains such Smart Cities, Smart Manufacturing &amp; Industry 4.0 and Smart Agrifood; the planning and execution of the FIWARE Communication Strategy; the organization of FIWARE Summits; the coordination of FIWARE presence in all kind of events (market events, StartUp Events, Tech Events, Workshops, Hackathons, Meetups) and in general, coordinating activities targeted to engage members of the FIWARE Community through different FIWARE Mission Support Committees (FIWARE iHubs Committee, FIWARE Accelerator Committee, FIWARE Mundus Committee and Domain Committees associated to the different application domains) and enlarging the FIWARE ecosystem.", linkedin: "https://www.linkedin.com/in/%C3%A1ngeles-tejado-s%C3%A1nchez-2a61b411/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "moise-tuyizere":
+        { name: "Moise Tuyizere", img: "https://www.fiware.org/wp-content/directories/people/images/200px/moise-tuyizere.jpg", position: "Director of Operations", company: "Rwanda ICT Chamber", "company-link": "www.ictchamber.rw",
+        content: "Moise Tuyizere is a highly experienced professional with over five years in business administration and project management, focusing on advancing Rwanda&#x27;s ICT sector. As Director of Operations at the Rwanda ICT Chamber since 2018, Moise has supported in the implementation of key initiatives that drive industry growth. His leadership has been crucial in strategic planning, financial oversight, and improving operational efficiency across the organization. Moise has played a pivotal role in the implementation of high-impact projects, such as the development of the University Innovation Pod (UNIPOD) and the Hanga Hubs Program, which are aimed at fostering innovation and entrepreneurship in Rwanda’s ICT ecosystem. His expertise in project management, combined with certifications like the PMP, underscores his dedication to driving meaningful progress in the Rwanda’s ICT sector.", linkedin: "https://www.linkedin.com/in/moise-tuyizere-a475aa127/", twitter: "", domain: "", location: "",
         flag: "", },
     "frederico-lopes":
         { name: "Frederico Lopes", img: "https://www.fiware.org/wp-content/directories/people/images/200px/frederico-lopes.jpg", position: "Professor &amp; Institute Director", company: "UFRN", "company-link": "https://www.ufrn.br/",
@@ -550,6 +568,10 @@ var modalData = {
     "franck-le-gall":
         { name: "Franck Le Gall", img: "https://www.fiware.org/wp-content/directories/people/images/200px/franck-le-gall.jpg", position: "Chief Executive Officer", company: "EGM", "company-link": "https://www.egm.io/en/egm-the-innovation-factory",
         content: "Franck Le Gall is CEO at Easy Global Market, an innovative SME focused on integration and validation of emerging technologies. He is driving company development to deploy IoT and data technologies over vertical markets (water, agriculture, smart territories, environment, etc.). He involves himself in the standardization area including ETSI where he is co-chairman of the ETSI ISG-CIM working group on NGSI-LD. He is also chairing the interfaces working group of the FIWARE Technical Steering Committee (TSC) as well as the joint ETSI-FIWARE Foundation working group on Digital Twins. Finally, he is the Co-chair of the Smart Water working group of the ICT4Water European research cluster. He continuously contributes and drives several projects for public and private customers.", linkedin: "https://www.linkedin.com/in/francklegall/", twitter: "https://twitter.com/franck_le_gall", domain: "", location: "",
+        flag: "", },
+    "eloisa-vargiu":
+        { name: "Eloisa Vargiu", img: "https://www.fiware.org/wp-content/directories/people/images/200px/eloisa-vargiu.jpg", position: "Water 4.0 Researcher", company: "Cetaqua", "company-link": "https://www.cetaqua.com/en/cetaqua-the-water-technology-centre/",
+        content: "Eloisa Vargiu holds a Ph.D. degree in Electronic and Computer Engineering from the University of Cagliari (Italy). Currently, she is working at Cetaqua Water Technology Center as a senior researcher in the field of Digital Water and a specialist in public funding. Since June 2024, she has been the coordinator of the Horizon Europe IDEATION project. She is also the leader of the Working Group on Water &amp; Digital Systems for Water Europe. From 2013 to 2020, she managed the Integrated Care research line at the eHealth R&amp;D Unit, Eurecat Centre Tecnòlogic de Catalunya. From April 2016 to December 2019, she was the technical coordinator of the EU project CONNECARE (H2020), which was evaluated as &quot;outstanding&quot; by the EC. From January 2012 to June 2015, I was the technical coordinator and main researcher of the EU project BackHome (FP7) which was evaluated with &quot;Excellent&quot; by the EC. I was also the technical coordinator from Eurecat for several Spanish projects.", linkedin: "https://www.linkedin.com/in/eloisavargiu/", twitter: "https://twitter.com/eloaiuola", domain: "", location: "",
         flag: "", },
     "harald-sundmaeker":
         { name: "Harald Sundmaeker", img: "https://www.fiware.org/wp-content/directories/people/images/200px/harald-sundmaeker.jpg", position: "Senior Researcher", company: "ATB Bremen", "company-link": "https://www.atb-bremen.de/",
