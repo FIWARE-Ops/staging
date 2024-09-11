@@ -416,5 +416,9 @@
 			<loc>https://www.fiware.org/powered-by-fiware/ekom21/cosma21.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
+		<url>
+			<loc>https://www.fiware.org/powered-by-fiware/satec/palatine.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
 </urlset>
 
