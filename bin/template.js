@@ -152,8 +152,6 @@ function listSpeakers(speakers) {
     let list =  _.map(speakers, function(speaker){ 
         return speaker.name; 
     });
-
-    console.log(list)
     return list.concat(',');
 }
 
