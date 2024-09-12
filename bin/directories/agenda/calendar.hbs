@@ -64,7 +64,7 @@ li {
 	<ul>
 	{{#each this}}
 		<li>
-			<a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text={{title}}&details={{details}}+Speakers:+{{listSpeakers speakers}}&ctz=Europe/Naples&location={{location}}&dates={{calendar date start end}}">{{title}}</a>
+			<a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text={{title}}&details={{track}}{{#if (ne session '')}} - {{session}}++{{/if}}{{excerpt}}++Speakers:+{{listSpeakers speakers}}&ctz=Europe/Naples&location={{location}}&dates={{calendar date start end}}">{{title}}</a>
             - {{track}}{{#if (ne session '')}} - {{session}}{{/if}}
 			<div class="date-time">
 	            <span class="separator-dot"></span>
