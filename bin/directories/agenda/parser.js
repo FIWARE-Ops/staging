@@ -189,6 +189,12 @@ function parse(agendaFile, speakersFile) {
                         path.join(TEMPLATE_PATH, 'sitemap-html.hbs'),
                         agenda
                     );
+
+                    Template.write(
+                        path.join(AGENDA_DIR, 'calendar.html'),
+                        path.join(TEMPLATE_PATH, 'calendar.hbs'),
+                        agenda
+                    );
                     Template.write(
                         path.join(AGENDA_DIR, 'program/sitemap.xml'),
                         path.join(TEMPLATE_PATH, 'sitemap-xml.hbs'),

@@ -124,6 +124,38 @@ function multiline(data) {
     }
     return data;
 }
+function formatDateCal(date, time){
+
+    let hour = time.substring(0, time.indexOf( ':')); 
+    if(time.includes('pm')){
+        hour =  12 + parseInt(hour, 10)
+    }
+
+    let minute = time.substring(time.indexOf(':')+1,  time.indexOf(':')+ 3); 
+
+    return date.getFullYear() + 
+    (`0${date.getMonth() + 1}`.slice(-2)) +
+    (`0${date.getDate()}`.slice(-2)) +
+    "T" +
+    (`00${hour}`.slice(-2)) +
+    (`00${minute}`.slice(-2)) +
+    "00"
+
+
+}
+
+function calendar(date, startTime, endTime) {
+    return formatDateCal(date, startTime) + "/" + formatDateCal(date, endTime);
+}
+
+function listSpeakers(speakers) {
+    let list =  _.map(speakers, function(speaker){ 
+        return speaker.name; 
+    });
+
+    console.log(list)
+    return list.concat(',');
+}
 
 function longTitle(data, size) {
     if (data && data.length > size){
@@ -143,6 +175,8 @@ Handlebars.registerHelper('json', stringify);
 Handlebars.registerHelper('math', math);
 Handlebars.registerHelper('multiline', multiline);
 Handlebars.registerHelper('longTitle', longTitle);
+Handlebars.registerHelper('calendar', calendar);
+Handlebars.registerHelper('listSpeakers', listSpeakers);
 
 Handlebars.registerHelper({
     eq: (v1, v2) => v1 === v2,
