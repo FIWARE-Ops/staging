@@ -133,7 +133,7 @@ function formatDateCal(date, time){
 
     let minute = time.substring(time.indexOf(':')+1,  time.indexOf(':')+ 3); 
 
-    return date.getFullYear() + 
+    return ((new Date).getFullYear()) + 
     (`0${date.getMonth() + 1}`.slice(-2)) +
     (`0${date.getDate()}`.slice(-2)) +
     "T" +
