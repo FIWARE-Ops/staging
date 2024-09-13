@@ -197,7 +197,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/intro-to-session-input-on-digital-twins-and-ongoing-projects-as-food-for-thought.html</loc>
+			<loc>https://www.fiware.org/fgs-2024/intro-to-session-input-on-digital-twins-and-ongoing-projects-as-food-for-thought--welcome-and-intro-from-city-representative.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -214,10 +214,6 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2024/calliope--working-towards-the-first-one-health-data-space-to-empower-the-new-urban-era.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
-			<loc>https://www.fiware.org/fgs-2024/welcome-and-intro-from-city-representative.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -293,10 +289,6 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/bringing-new-vision-into-the-fiware-world.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
 			<loc>https://www.fiware.org/fgs-2024/digital-twins.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -334,6 +326,10 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2024/energy-data-space--secure-and-trust-data-sharing-framework-for-innovative-energy-solutions.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2024/bringing-new-vision-into-the-fiware-world.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -477,7 +473,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/fiiware-hybrid-cloud-for-public-applications.html</loc>
+			<loc>https://www.fiware.org/fgs-2024/fiware-hybrid-cloud-for-public-applications.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -485,7 +481,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2024/fiware-in-a-box---how-to-start-using-fiware--learn-and-prototype-integrated-solutions-in-hours.html</loc>
+			<loc>https://www.fiware.org/fgs-2024/fiware-in-a-box--how-to-start-using-fiware--learn-and-prototype-integrated-solutions-in-hours.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
