@@ -69,9 +69,10 @@ li {
             {{#if (ne track 'Organization')}} - {{track}}{{#if (ne session '')}} - {{session}}{{/if}}{{/if}}
 			<div class="date-time">
 	            <span class="separator-dot"></span>
-	            <span class="time">{{start}} – {{end}}</span>
+	            <span class="time">{{start}} - {{end}}</span>
 	        </div>
 	        <div class="place">{{location}}</div>
+            {{#if (eq track 'Organization')}}<br/>{{/if}}
 		</li>
     {{/each}}
 	</ul>
