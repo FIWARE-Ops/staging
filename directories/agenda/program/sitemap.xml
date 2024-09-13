@@ -289,6 +289,10 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2024/have-you-ever-cared-about-the-implications-of-digital-interconnectedness-.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2024/bringing-new-vision-into-the-fiware-world.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -314,6 +318,10 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2024/enhancing-resilience--developing-a-digital-infrastructure-for-the-irish-energy-system.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2024/inspirational-pitch.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
