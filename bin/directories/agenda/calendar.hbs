@@ -64,8 +64,9 @@ li {
 	<ul>
 	{{#each this}}
 		<li>
+            {{#if (eq track 'Organization')}}<br/>{{/if}}
 			<a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text={{title}}&details={{track}}{{#if (ne session '')}} - {{session}}++{{/if}}{{excerpt}}{{#if (gt numSpeakers 0)}}++Speakers:+{{listSpeakers speakers}}{{/if}}&ctz=Europe/Naples&location={{location}}&dates={{calendar date start end}}">{{title}}</a>
-            - {{track}}{{#if (ne session '')}} - {{session}}{{/if}}
+            {{#if (ne track 'Organization')}} - {{track}}{{#if (ne session '')}} - {{session}}{{/if}}{{/if}}
 			<div class="date-time">
 	            <span class="separator-dot"></span>
 	            <span class="time">{{start}} – {{end}}</span>
