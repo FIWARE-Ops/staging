@@ -1236,13 +1236,14 @@ input[type="search"]::placeholder {
 }
 
 .session-picture {
-    width: 30%;
+    width: 60px;
     margin: auto;
+    border-radius: 4px;
+    float: left;
 }
 
 .session-picture img {
     width: 100%;
-    border-radius: 110px;
 }
 
 .session-picture.light-blue {
