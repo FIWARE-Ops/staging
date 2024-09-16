@@ -51,7 +51,6 @@ var speakers = [
         'Andrea Battaglia',
         'Martin Bauer',
         'Jose Benítez',
-        'Juan Antonio Bermejo',
         'Massimo Bertoncini',
         'Sebastian Blechmann',
         'Ilaria Bortone',
@@ -68,7 +67,6 @@ var speakers = [
         'Francisco de la Vega',
         'Mireya de Diego',
         'Vincent Demortier',
-        'Roberto Di Bernardo',
         'Rocío Díaz Pereira',
         'Piotr Elmanowski',
         'Alessandro Errico',
@@ -169,6 +167,7 @@ var speakers = [
         'Walter Domenico Vergara',
         'Margherita Volpe',
         'Gaetano Volpe',
+        'Susan Wanjiku',
         'Christopher Wilson',
 ]; 
 var modalData = {
@@ -397,7 +396,7 @@ var modalData = {
         content: "Antonio is an expert in ICTs with special skills in areas like Open &amp; eGovernment, Social Innovation, Smart City, Data Protection and Privacy-preserving technologies, Cloud Computing, Architectural Design, Policy making. He has been involved in several European and Italian research projects dealing with several domains (public service for PA, smart mobility, smart environment, energy, FIWARE architecture) as project manager, technical designer, work package and task leader. At present, he is the Project Coordinator of DECIDO project (H202-SC6-GOVERNANCE-2020), he is also involved in SPOTTED project (CEF-TC-2020-2 Public Open Data; 2021-2024) as project leader and REBUILD project (H2020-DT-MIGRATION-06-2108 – Grant 822215) as work package leader.", linkedin: "https://www.linkedin.com/in/antoniofilograna/", twitter: "https://twitter.com/afilograna", domain: "", location: "",
         flag: "", },
     "juan-sanchez":
-        { name: "Juan Sanchez", img: "https://www.fiware.org/wp-content/directories/people/images/200px/juan-sanchez.jpg", position: "Researcher", company: "Universidad de Málaga", "company-link": "https://www.uma.es/",
+        { name: "Juan Sanchez", img: "https://www.fiware.org/wp-content/directories/people/images/200px/juan-sanchez.jpg", position: "Researcher", company: "Universidad de Murcia", "company-link": "https://www.uma.es/",
         content: "Juan Sánchez Valverde is a Computer Engineer from the University of Murcia who has contributed to pioneering projects in the fields of the Internet of Things (IoT) and Smart Buildings. He has been involved in European Commission-funded initiatives such as PHOENIX and MASTERPIECE, focusing on innovation and energy efficiency. His expertise includes designing and implementing intelligent platforms for connected environments, with a particular focus on optimizing energy usage through advanced monitoring and management systems.", linkedin: "https://www.linkedin.com/in/juansanchez7456/?originalSubdomain&#x3D;es", twitter: "", domain: "", location: "",
         flag: "", },
     "sophie-meszaros":
@@ -468,6 +467,10 @@ var modalData = {
         { name: "Moise Tuyizere", img: "https://www.fiware.org/wp-content/directories/people/images/200px/moise-tuyizere.jpg", position: "Director of Operations", company: "Rwanda ICT Chamber", "company-link": "www.ictchamber.rw",
         content: "Moise Tuyizere is a highly experienced professional with over five years in business administration and project management, focusing on advancing Rwanda&#x27;s ICT sector. As Director of Operations at the Rwanda ICT Chamber since 2018, Moise has supported in the implementation of key initiatives that drive industry growth. His leadership has been crucial in strategic planning, financial oversight, and improving operational efficiency across the organization. Moise has played a pivotal role in the implementation of high-impact projects, such as the development of the University Innovation Pod (UNIPOD) and the Hanga Hubs Program, which are aimed at fostering innovation and entrepreneurship in Rwanda’s ICT ecosystem. His expertise in project management, combined with certifications like the PMP, underscores his dedication to driving meaningful progress in the Rwanda’s ICT sector.", linkedin: "https://www.linkedin.com/in/moise-tuyizere-a475aa127/", twitter: "", domain: "", location: "",
         flag: "", },
+    "susan-wanjiku":
+        { name: "Susan Wanjiku", img: "https://www.fiware.org/wp-content/directories/people/images/200px/susan-wanjiku.jpg", position: "Digital Ecosystem Advisor", company: "GIZ", "company-link": "https://www.giz.de/de/html/index.html",
+        content: "Susan is a professional with up to 9 years of experience. She is a Innovation &amp; Investment Fund Manager at SPARK, GIZ Kenya, working on building and investing in climate-smart ventures, applied research and gender equitable topics. More recently was working on bridging the digital divides through digital skilling of youth, women, startups and SMEs in Kenya and building resilient, futuristic, inclusive innovation ecosystems in Africa. She has worked on strengthening innovation support organizations, women angel investor networks and policy.  Previously, has worked on venture capital and start up scale-up programs in the region to enable gender-lensed funding to reach female founders.", linkedin: "https://www.linkedin.com/in/susan-wanjiku-w-86664bb7/", twitter: "", domain: "", location: "",
+        flag: "", },
     "frederico-lopes":
         { name: "Frederico Lopes", img: "https://www.fiware.org/wp-content/directories/people/images/200px/frederico-lopes.jpg", position: "Professor &amp; Institute Director", company: "UFRN", "company-link": "https://www.ufrn.br/",
         content: "Associate Professor at UFRN (Brazil), he holds a bachelor&#x27;s degree (2005) and a Ph.D. (2011) in Computer Science from UFRN and a master&#x27;s degree in Systems and Computing also from UFRN. Postdoctoral fellowship (2016) at the University of British Columbia, Vancouver/Canada. During the year 2010, he was a Ph.D. intern (sandwich doctorate) at IST/UTL, Lisbon/Portugal (2010). He has experience in the field of Computer Science, with an emphasis on Distributed Systems and Software Engineering, mainly working on the following topics: geographic information systems, middleware, ubiquitous computing, pervasive computing, smart cities, computational platforms, cloud computing, the internet of things. Member of the Fiware Foundation since 2017, he is Fiware evangelist and the director of Smart Metropolis Fiware iHub, in Natal / Brazil. Coordinator of the Smart Metropolis Laboratory, with more than a dozen software registrations for real smart city systems in partnership with: Federal Highway Police, RN Public Security Department, Ministry of Regional Development, RN Public Ministry, Natal City Hall, among other public agencies. Coordinator of the Postgraduate Program in Information Technology (PPgTI) at UFRN from 2013 to 2015 and currently since 2023.", linkedin: "https://www.linkedin.com/in/frederico-lopes-342a697/", twitter: "", domain: "", location: "",
@@ -475,10 +478,6 @@ var modalData = {
     "reo-maeda":
         { name: "Reo Maeda", img: "https://www.fiware.org/wp-content/directories/people/images/200px/reo-maeda.jpg", position: "iHub Base Technical Manager", company: "NEC Corporation", "company-link": "https://www.nec.com/",
         content: "Reo Maeda is a technical manager at iHub Base, the first FIWARE iHub in Japan, and a member of NEC, one of the platinum members of the FIWARE Foundation. With three years of experience in system engineering, he has been working to promote FIWARE and to create the FIWARE community in Japan.", linkedin: "", twitter: "", domain: "", location: "",
-        flag: "", },
-    "gilles-orazi":
-        { name: "Gilles Orazi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/gilles-orazi.jpg", position: "R&amp;D Engineer", company: "EGM", "company-link": "https://www.egm.io/en/egm-the-innovation-factory",
-        content: "Gilles Orazi is a PhD in physics with 25 years of experience in the software development sector. He joined EGM in 2019, where he is currently responsible for the engineering department developing the EdgeSpot platform as a building block for EGM&#x27;s commercial offering. He also contributes to various research projects (ASTRAL, LOTUS, SEDIMARK, ScaleAgData) and designs IoT solutions for the customers. At the same time, and in collaboration with EGM, he has also worked for the SCIC Tetris, a third place for the ecological and the societal transition, leading projects that mixes digital technologies and ecology. This led to the creation of the Centifolab, a FIWARE iHub, dedicated to environmental projects.", linkedin: "", twitter: "", domain: "", location: "",
         flag: "", },
     "gianluigi-riccio":
         { name: "Gianluigi Riccio", img: "https://www.fiware.org/wp-content/directories/people/images/200px/gianluigi-riccio.jpg", position: "Chief Data Officer", company: "Meditech 4.0", "company-link": "https://meditech4.com/",
@@ -488,13 +487,13 @@ var modalData = {
         { name: "Steve Johnston", img: "https://www.fiware.org/wp-content/directories/people/images/200px/steve-johnston.jpg", position: "Chief Executive Officer", company: "MindfulTech Institute", "company-link": "https://mindfultech.institute/",
         content: "Steve Johnston – Architect of Community Technology Ecosystems for Good Steve Johnston is at the forefront of MindfulTech Institute’s mission to harness technology for the greater good. His expertise in creating and nurturing ecosystems allows technology to become a powerful tool for community empowerment and development. Passionate about making sophisticated systems accessible, Steve is dedicated to devising practical, innovative solutions that ensure technology benefits all, especially those it intends to serve. His work encourages communities to adopt and adapt technological advancements, making them useful and beneficial across diverse contexts. Join Steve at MindfulTech, where we are committed to turning technology into a force for positive, widespread change.", linkedin: "https://www.linkedin.com/in/steve-johnston/", twitter: "", domain: "", location: "",
         flag: "", },
+    "gilles-orazi":
+        { name: "Gilles Orazi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/gilles-orazi.jpg", position: "R&amp;D Engineer", company: "EGM", "company-link": "https://www.egm.io/en/egm-the-innovation-factory",
+        content: "Gilles Orazi is a PhD in physics with 25 years of experience in the software development sector. He joined EGM in 2019, where he is currently responsible for the engineering department developing the EdgeSpot platform as a building block for EGM&#x27;s commercial offering. He also contributes to various research projects (ASTRAL, LOTUS, SEDIMARK, ScaleAgData) and designs IoT solutions for the customers. At the same time, and in collaboration with EGM, he has also worked for the SCIC Tetris, a third place for the ecological and the societal transition, leading projects that mixes digital technologies and ecology. This led to the creation of the Centifolab, a FIWARE iHub, dedicated to environmental projects.", linkedin: "", twitter: "", domain: "", location: "",
+        flag: "", },
     "lisandra-tamayo":
         { name: "Lisandra Tamayo", img: "https://www.fiware.org/wp-content/directories/people/images/200px/lisandra-tamayo.jpg", position: "FIWARE Dynamizer", company: "La Lonja de la Innovación", "company-link": "https://lalonja.tech/",
         content: "Lisandra Tamayo has more than 10 years of professional work experience linked to: computer science teaching, network administration, software development projects, research and innovation activities with the use of FIWARE technology. Among the professional roles performed are: data analyst, quality manager, software developer, project leader and FIWARE dynamizer.", linkedin: "https://www.linkedin.com/in/lisandra-tamayo-espinosa-2bb399223/", twitter: "", domain: "", location: "",
-        flag: "", },
-    "roberto-di-bernardo":
-        { name: "Roberto Di Bernardo", img: "https://www.fiware.org/wp-content/directories/people/images/200px/roberto-di-bernardo.jpg", position: "Head of Open Government R&amp;D Unit", company: "Engineering", "company-link": "https://www.eng.it/en/",
-        content: "Roberto Di Bernardo is Senior Researcher and Head of the Open Government R&amp;D Group (part of Open Public Service Innovation Lab). He is an Electronic Engineer with Professional Master’s diplomas in “Clinical Engineering” and in “Internet Software Engineering”. He has been working as researcher at Engineering R&amp;D Laboratory since 2004, being involved in management and technical activities in many Italian and European projects. He is also acting as R&amp;D opportunity and network developer for the entire Public Sector R&amp;D area. At the moment, he is coordinating URBANAGE project (H2020-DT-Transforations-02) and his group is leading/involved in, among others, the following projects: DECIDO (H2020-DT-Governance-12), INTERSTAT (CEF-Public Open Data), SPOTTED (CEF-Public Open Data), ACROSS (H2020-DT-Governance-05), URBANITE (H2020-DT-Transformations-02). Currently he is leading the Smart Governance and Smart Cities sub-group of the Big Data Value Association and co-leading the Smart Cities Domain Committee of the FIWARE Foundation and the Digital Water Systems Working Group of Water Europe.", linkedin: "https://www.linkedin.com/in/robertodibernardo/", twitter: "", domain: "", location: "",
         flag: "", },
     "antonio-jara":
         { name: "Antonio Jara", img: "https://www.fiware.org/wp-content/directories/people/images/200px/antonio-jara.jpg", position: "General Manager Smart Cities", company: "Libelium", "company-link": "https://www.libelium.com/",
@@ -515,10 +514,6 @@ var modalData = {
     "michael-prange":
         { name: "Michael Prange", img: "https://www.fiware.org/wp-content/directories/people/images/200px/michael-prange.jpg", position: "Professor", company: "FH Kiel", "company-link": "https://www.fh-kiel.de/startseite/",
         content: "Prof. Dr. Michael Prange studied Computer Science and Physics at Kiel University of Applied Sciences and received his doctorate in Mechanical Engineering from Hamburg University of Technology. He brings with him experience from 30 years of international business activity, from a wide variety of tasks and functions in associations and in politics, and as a lecturer at various universities. As a Professor of Data Science at Kiel University of Applied Sciences and as an entrepreneur and IT expert, the focus of his research and consulting activities is on digital transformation and sustainable development of private and public organizations with a focus on smart infrastructures, digital technologies, innovative business models, open data platforms and artificial intelligence for Smart Cities and the Green Economy.", linkedin: "https://www.linkedin.com/in/michael-prange-1232187/", twitter: "", domain: "", location: "",
-        flag: "", },
-    "juan-antonio-bermejo":
-        { name: "Juan Antonio Bermejo", img: "https://www.fiware.org/wp-content/directories/people/images/200px/antonio-bermejo.jpg", position: "Head of Service of the digital transformation", company: "Cabla Palma", "company-link": "https://www.lapalmasmartisland.es/en/",
-        content: "A career official of the Island Council of La Palma, he currently serves as Head of the Digital Transformation Service where he leads the La Palma Smart Island Project, awarded with various awards. Official Master of Public Management and Leadership from INAP - UIMP 2019-2021 specialty Digital Society. &quot;Master in Business Intelligence and Big Data&quot; from the School of Industrial Organization, &quot;Master in Cartography, Remote Sensing and GIS&quot; from the University of Alcalá de Henares, Executive Program in Digital Transformation for Public Administrations&quot; from the School of Industrial Organization (EOI ).", linkedin: "https://www.linkedin.com/in/juanantoniobermejo/", twitter: "", domain: "", location: "",
         flag: "", },
     "jorge-hernandez":
         { name: "Jorge Hernandez", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jorge-hernandez.jpg", position: "Chief Executive Officer", company: "Ignicion Games", "company-link": "https://www.igniciongames.com/",
@@ -617,7 +612,7 @@ var modalData = {
         content: "Raza Jafri is a global entrepreneur, investor, and speaker, he is the founder and Chief Executive Officer of MetaWorldX, a world-class AI digital twin technology company that creates immersive and realistic simulations of urban environments for smart cities, cleantech, and other sectors. He launched MetaWorldX at the World Smart City Congress in Barcelona, Spain, and received the Top 40 Under 40 Sustainability Star Award for 2023 for his innovative and impactful work.", linkedin: "https://www.linkedin.com/in/razajafri", twitter: "", domain: "", location: "",
         flag: "", },
     "giovanni-vaglica":
-        { name: "Giovanni Vaglica", img: "https://www.fiware.org/wp-content/directories/people/images/200px/giovanni-vaglica.jpg", position: "IT Engineer", company: "JRC – EC", "company-link": "https://joint-research-centre.ec.europa.eu",
+        { name: "Giovanni Vaglica", img: "https://www.fiware.org/wp-content/directories/people/images/200px/giovanni-vaglica.jpg", position: "IT Solution Architect", company: "JRC – EC", "company-link": "https://joint-research-centre.ec.europa.eu",
         content: "Giovanni Vaglica is an IT engineer, specialised in the development and implementation of Smart City systems and smart infrastructures. He is responsible of the technical implementation and development of the Smart City digital platform test-bed of the EC Joint Research Centre - E.3 Unit, Safety and Security of Buildings, aimed at developing and testing technologies and solutions in real-world urban environment scenarios. As the platform&#x27;s architect, he carries out research and development to develop scalable and interoperable solutions to support Smart city applications for critical infrastructures. Additionally, the integration of heterogeneous IoT sensors and wireless networks in a very secure networking environment is a key focus of his work.", linkedin: "linkedin.com/in/giovanni-vaglica-55103a197", twitter: "", domain: "", location: "",
         flag: "", },
     "francisco-meléndez":
