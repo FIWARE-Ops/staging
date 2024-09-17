@@ -91,7 +91,6 @@ var companies = [
         'Université Lumière Lyon 2',
         'UPM',
         'youragileway',
-        'Zabala',
 ]; var departments = [
 ]; var domains = [
 ]; var titles = [
@@ -527,9 +526,6 @@ var companies = [
     flag: "", },
     { name: "Walter Domenico Vergara", img: "https://www.fiware.org/wp-content/directories/people/images/200px/walter-domenico-vergara.jpg", position: "Senior Researcher", company: "Engineering", "company-link": "https://www.eng.it/en/",
     content: "Master&#x27;s degree with laude in Computer Engineering from the University of Palermo, actually working in the Digital Platforms &amp; Ecosystems unit for Engineering Ingegneria Informatica S.p.A. With a solid background on European research projects and initiatives, I&#x27;m a software development specialist in industry domain, working on system integration and design of edge-cloud data platforms to enable AI execution in smart factories. Active contributor in FIWARE community as FIWARE Expert.", linkedin: "https://www.linkedin.com/in/walter-vergara/", twitter: "", domain: "", location: "",
-    flag: "", },
-    { name: "Margherita Volpe", img: "https://www.fiware.org/wp-content/directories/people/images/200px/margherita-volpe.jpg", position: "Project Manager", company: "Zabala", "company-link": "https://www.zabala.eu/",
-    content: "Margherita Volpe is an Innovation funding and management specialist, with over 11 years’ experience in R&amp;I projects funded by the European Commission (e.g. H2020, Horizon Europe, European Defence Fund, EIT Digital, Erasmus+, Creative Europe, Life, structural funds and tenders) and innovation’s exploitation and assessment, including business modelling and technology transfer strategies’ definition. She is currently Brussels Office EU Proposals operative coordinator at Zabala Innovation Consulting Brussels and Security, Defence and Space Knowledge Area Leader. She was former Manager at EY Advisory SpA, Funding4Innovation solution and has been a EC external-reviewer for the evaluation of SME Instrument project proposals for over 2 years.", linkedin: "https://www.linkedin.com/in/margherita-volpe-60020235/", twitter: "", domain: "", location: "",
     flag: "", },
     { name: "Gaetano Volpe", img: "https://www.fiware.org/wp-content/directories/people/images/200px/gaetano-volpe.jpg", position: "Chief Executive Officer", company: "Latitudo 40", "company-link": "https://www.latitudo40.com/",
     content: "Gaetano is the CEO of Latitudo 40, a startup that uses satellite data to improve life on our planet. After working for over 20 years in space-related companies, launching new products and services based on the integration of IT with space technologies (telecommunications, navigation and remote sensing), he decided to combine his passion for space technologies with the need to improve the environmental impact of our cities. For Gaetano, innovation means finding a new solution to a global market problem.", linkedin: "https://www.linkedin.com/in/gaetanovolpe", twitter: "", domain: "", location: "",
