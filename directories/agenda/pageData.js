@@ -144,6 +144,7 @@ var speakers = [
         'Juan Sanchez',
         'Raúl Sánchez-Mateos Lizano',
         'Tonia Sapia',
+        'Shuhei Sasano',
         'Laura Schipani',
         'Bernhard Schmid',
         'Christoph Schneider',
@@ -477,6 +478,10 @@ var modalData = {
         { name: "Gianluigi Riccio", img: "https://www.fiware.org/wp-content/directories/people/images/200px/gianluigi-riccio.jpg", position: "Chief Data Officer", company: "Meditech 4.0", "company-link": "https://meditech4.com/",
         content: "Gianluigi is the Chief Data Officer at the Meditech Competence Center, where his job is focused on architecting, organizing and conducting data-driven businesses. Over his 40+ year career, Gianluigi has worked with several prominent organizations, including QueryObject System Inc., Meta Group Inc., Aeritalia Saipa, Olivetti Inc, Gartner Group Inc., and the Eureka Consortium, in both the United States and Italy. Gianluigi is an electronic engineer.", linkedin: "https://www.linkedin.com/in/gianluigi-riccio-609532b/", twitter: "", domain: "", location: "",
         flag: "", },
+    "shuhei-sasano":
+        { name: "Shuhei Sasano", img: "https://www.fiware.org/wp-content/directories/people/images/200px/shuhei-sasano.jpg", position: "Smart Cities Business Dev Manager", company: "NEC Saudi Arabia", "company-link": "https://sa.nec.com/",
+        content: "Shuhei Sasano is the Smart Cities Business Development Manager at NEC Saudi Arabia Ltd, starting in August 2024. Before joining NEC Saudi Arabia, he was engaged in smart city business development at NEC Corporation based in Tokyo, and he and his team led the establishment of iHub Base, the first FIWARE iHub in Japan. He was then appointed as a FIWARE Evangelist in recognition of his work since the launch of iHub Base, and he currently supports iHub Base&#x27;s activities as an advisor. He is passionate about collaboration that transcends organizations and countries, and has led international collaborations based on the FIWARE iHubs network. He was also involved in establishing the Smart City Implementation Consortium, which includes more than 180 organizations such as government agencies, municipalities, and enterprises to implement smart cities in Japan.", linkedin: "https://www.linkedin.com/in/shuhei-sasano-79637a219/", twitter: "", domain: "", location: "",
+        flag: "", },
     "steve-johnston":
         { name: "Steve Johnston", img: "https://www.fiware.org/wp-content/directories/people/images/200px/steve-johnston.jpg", position: "Chief Executive Officer", company: "MindfulTech Institute", "company-link": "https://mindfultech.institute/",
         content: "Steve Johnston – Architect of Community Technology Ecosystems for Good Steve Johnston is at the forefront of MindfulTech Institute’s mission to harness technology for the greater good. His expertise in creating and nurturing ecosystems allows technology to become a powerful tool for community empowerment and development. Passionate about making sophisticated systems accessible, Steve is dedicated to devising practical, innovative solutions that ensure technology benefits all, especially those it intends to serve. His work encourages communities to adopt and adapt technological advancements, making them useful and beneficial across diverse contexts. Join Steve at MindfulTech, where we are committed to turning technology into a force for positive, widespread change.", linkedin: "https://www.linkedin.com/in/steve-johnston/", twitter: "", domain: "", location: "",
@@ -488,6 +493,10 @@ var modalData = {
     "lisandra-tamayo":
         { name: "Lisandra Tamayo", img: "https://www.fiware.org/wp-content/directories/people/images/200px/lisandra-tamayo.jpg", position: "FIWARE Dynamizer", company: "La Lonja de la Innovación", "company-link": "https://lalonja.tech/",
         content: "Lisandra Tamayo has more than 10 years of professional work experience linked to: computer science teaching, network administration, software development projects, research and innovation activities with the use of FIWARE technology. Among the professional roles performed are: data analyst, quality manager, software developer, project leader and FIWARE dynamizer.", linkedin: "https://www.linkedin.com/in/lisandra-tamayo-espinosa-2bb399223/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "christopher-tate":
+        { name: "Christopher Tate", img: "https://www.fiware.org/wp-content/directories/people/images/200px/christopher-tate.jpg", position: "Senior Consultant", company: "Red Hat", "company-link": "https://www.redhat.com/en",
+        content: "Chris Tate believes that open source software can help communities and can build a better world. He automates software development and shares how to develop and deploy software easily. He is a large contributor to open source software on GitHub. His journey with open source software began when he took a job in Bordeaux France to develop websites driven by open source search engines with a small group of search experts. He also worked in Linux Virtualization at a Linux training company, which led him to Red Hat Consulting. Chris is now a Principal Consultant in Red Hat FSI working on Event-Driven Automation solutions and many Red Hat Social Innovation projects. He currently works on 2 Red Hat Research Collaboratory Projects with Boston University students and professors to implement Ecological Forecasting and Smart Traffic Lights at scale on enterprise open source software, and integrated with FIWARE technology.", linkedin: "https://www.linkedin.com/in/computate/", twitter: "", domain: "", location: "",
         flag: "", },
     "francesca-pignataro":
         { name: "Francesca Pignataro", img: "https://www.fiware.org/wp-content/directories/people/images/200px/francesca-pignataro.jpg", position: "Chief GIS Analyst", company: "Municipality of Naples", "company-link": "https://www.comune.napoli.it/home",
@@ -660,9 +669,5 @@ var modalData = {
     "álvaro-alonso":
         { name: "Álvaro Alonso", img: "https://www.fiware.org/wp-content/directories/people/images/200px/alvaro-alonso.jpg", position: "Assistant Professor", company: "UPM", "company-link": "https://www.upm.es/internacional",
         content: "Álvaro Alonso is currently an Assistant Professor with the UPM. His research interests include Multi Video Conferencing Systems, Security Management in Smart Context scenarios, and Public Open Data.", linkedin: "https://www.linkedin.com/in/alvaroalonsogonzalez", twitter: "", domain: "", location: "",
-        flag: "", },
-    "christopher-tate":
-        { name: "Christopher Tate", img: "https://www.fiware.org/wp-content/directories/people/images/200px/christopher-tate.jpg", position: "Senior Consultant", company: "Red Hat", "company-link": "https://www.redhat.com/en",
-        content: "Chris Tate believes that open source software can help communities and can build a better world. He automates software development and shares how to develop and deploy software easily. He is a large contributor to open source software on GitHub. His journey with open source software began when he took a job in Bordeaux France to develop websites driven by open source search engines with a small group of search experts. He also worked in Linux Virtualization at a Linux training company, which led him to Red Hat Consulting. Chris is now a Principal Consultant in Red Hat FSI working on Event-Driven Automation solutions and many Red Hat Social Innovation projects. He currently works on 2 Red Hat Research Collaboratory Projects with Boston University students and professors to implement Ecological Forecasting and Smart Traffic Lights at scale on enterprise open source software, and integrated with FIWARE technology.", linkedin: "https://www.linkedin.com/in/computate/", twitter: "", domain: "", location: "",
         flag: "", },
 };
