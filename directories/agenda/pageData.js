@@ -62,6 +62,7 @@ var speakers = [
         'Luigi Coppolino',
         'Vincenzo Croce',
         'Andrea Cruciani',
+        'Francesca D’Agresti',
         'Dasha Davies',
         'Stefano De Panfilis',
         'Francisco de la Vega',
@@ -73,7 +74,6 @@ var speakers = [
         'Gregory Eve',
         'Rodolfo Falcone',
         'Rihab Feki',
-        'Antonio Filograna',
         'Jason Fox',
         'Ana Garcia Robles',
         'Frédéric Gauzy',
@@ -381,10 +381,6 @@ var modalData = {
     "hervé-pruvost":
         { name: "Hervé Pruvost", img: "https://www.fiware.org/wp-content/directories/people/images/200px/herve-pruvost.jpg", position: "Research Associate", company: "RWTH Aachen", "company-link": "https://www.rwth-aachen.de/go/id/a/?lidx&#x3D;1",
         content: "Hervé Pruvost graduated in mechanical and industrial engineering from the Ecole Nationale Supérieure d’Arts et Métiers, Paris, France. After a first career journey in the building industry by BNP Paribas Real Estate, he moved to R&amp;D working several years on digitalizing the AEC/FM sector at the Institute for Construction Informatics of the Technische Universität Dresden, Germany. In joined Fraunhofer IIS/EAS for further developing the topic of Building Information Modeling (BIM) in facility management. Over the years, he gained much expertise in design and development of software solutions for energy-efficient buildings, using knowledge graphs and semantic web, data engineering and data science. His main activities focus currently on the application of BIM, Ontologies and IoT for monitoring automation in HVAC systems.", linkedin: "https://www.linkedin.com/in/hervepruvost/", twitter: "", domain: "", location: "",
-        flag: "", },
-    "antonio-filograna":
-        { name: "Antonio Filograna", img: "https://www.fiware.org/wp-content/directories/people/images/200px/antonio-filograna.jpg", position: "Researcher", company: "Engineering", "company-link": "https://www.eng.it/en/",
-        content: "Antonio is an expert in ICTs with special skills in areas like Open &amp; eGovernment, Social Innovation, Smart City, Data Protection and Privacy-preserving technologies, Cloud Computing, Architectural Design, Policy making. He has been involved in several European and Italian research projects dealing with several domains (public service for PA, smart mobility, smart environment, energy, FIWARE architecture) as project manager, technical designer, work package and task leader. At present, he is the Project Coordinator of DECIDO project (H202-SC6-GOVERNANCE-2020), he is also involved in SPOTTED project (CEF-TC-2020-2 Public Open Data; 2021-2024) as project leader and REBUILD project (H2020-DT-MIGRATION-06-2108 – Grant 822215) as work package leader.", linkedin: "https://www.linkedin.com/in/antoniofilograna/", twitter: "https://twitter.com/afilograna", domain: "", location: "",
         flag: "", },
     "juan-sanchez":
         { name: "Juan Sanchez", img: "https://www.fiware.org/wp-content/directories/people/images/200px/juan-sanchez.jpg", position: "Researcher", company: "Universidad de Murcia", "company-link": "https://www.uma.es/",
