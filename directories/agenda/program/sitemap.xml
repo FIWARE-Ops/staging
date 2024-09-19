@@ -357,6 +357,14 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2024/a-more-efficient-enterprise-is-a-more-sustainable-enterprise.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2024/whirlpool-emea-transaction---a-use-case-from-beko-europe.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2024/the-role-of-data-in-the-green-transition-of-the-eu-industry.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>

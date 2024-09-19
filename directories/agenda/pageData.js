@@ -551,13 +551,13 @@ var modalData = {
         { name: "Angelo Marguglio", img: "https://www.fiware.org/wp-content/directories/people/images/200px/angelo-marguglio.jpg", position: "Head of Data Platforms &amp; Ecosystems Unit", company: "Engineering", "company-link": "https://www.eng.it/en/",
         content: "Angelo Marguglio is the head of the “Smart Industry and Agrifood” Unit within the Industry and Security Technologies, Research and Innovation (IS3) Lab. Main role as Research Area Manager mainly concerns with coordinating a group of more than 30 researchers using state-of-the-art PM methodologies (e.g. PMP and Agile/SCRUM); defining the strategic roadmap and the operational plans of the Unit; coordinating several research projects and collaborating with the Industry Business Unit of the Engineering Group.", linkedin: "https://www.linkedin.com/in/amarguglio/", twitter: "https://twitter.com/angmarguglio", domain: "", location: "",
         flag: "", },
-    "davide-cazzaniga":
-        { name: "Davide Cazzaniga", img: "https://www.fiware.org/wp-content/directories/people/images/200px/davide-cazzaniga.jpg", position: "Manufacturing Innovation Project Manager", company: "Beko Europe", "company-link": "https://www.bekoeurope.com/",
-        content: "Davide Cazzaniga is a seasoned manufacturing expert with a passion for technology and innovation. With over 20 years in the appliance industry, he specializes in optimizing processes, acquiring strategic capital, and driving cost-effective new product launches.", linkedin: "https://www.linkedin.com/in/davidecazzaniga/", twitter: "", domain: "", location: "",
-        flag: "", },
     "alessandro-errico":
         { name: "Alessandro Errico", img: "https://www.fiware.org/wp-content/directories/people/images/200px/alessandro-errico.jpg", position: "Product Service Designer", company: "Maxfone", "company-link": "https://maxfone.it/",
         content: "Graduated with honours in Product Service System Design from the Politecnico di Milano, Alessandro has more than four years of experience in the development of digital innovation projects in various sectors, including automotive, light mobility, industry and consumer products, with a focus on servitization processes. Recently a member of the Maxfone team, he is focused on the strategic development of the IDA solution and the management of clients&#x27; implementations, ensuring advanced and customised solutions for every need.", linkedin: "https://www.linkedin.com/in/alessandroerrico/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "davide-cazzaniga":
+        { name: "Davide Cazzaniga", img: "https://www.fiware.org/wp-content/directories/people/images/200px/davide-cazzaniga.jpg", position: "Manufacturing Innovation Project Manager", company: "Beko Europe", "company-link": "https://www.bekoeurope.com/",
+        content: "Davide Cazzaniga is a seasoned manufacturing expert with a passion for technology and innovation. With over 20 years in the appliance industry, he specializes in optimizing processes, acquiring strategic capital, and driving cost-effective new product launches.", linkedin: "https://www.linkedin.com/in/davidecazzaniga/", twitter: "", domain: "", location: "",
         flag: "", },
     "eduardo-javier-serra":
         { name: "Eduardo Javier Serra", img: "https://www.fiware.org/wp-content/directories/people/images/200px/eduardo-serra.jpg", position: "Senior IT Manager", company: "GRUPO TX", "company-link": "https://www.grupotx.com/en",
