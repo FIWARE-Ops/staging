@@ -133,6 +133,7 @@ var speakers = [
         'Manfredi Pistone',
         'Mads Pohl Petersson',
         'Carmen Polcaro',
+        'Michael Prange',
         'Irene Provvidenza',
         'Hervé Pruvost',
         'Josué Ramos Gómez',
@@ -509,6 +510,10 @@ var modalData = {
     "iffat-tariq":
         { name: "Iffat Tariq", img: "https://www.fiware.org/wp-content/directories/people/images/200px/iffat-tariq.jpg", position: "Chief Digital Officer", company: "I&amp;I Software Inc", "company-link": "https://www.iandisoft.com/",
         content: "With over two decades of experience, Iffat Tariq, Chief Digital Officer, has pioneered diverse digital initiatives globally. Specializing in Smart Cities and the Public Sector, she is instrumental in assisting governments at the forefront of data utilization and evidence-based decision-making, paving the way for excellence through digitization. With her extensive experience in developing modern data platforms for state and local governments, Iffat has become a trusted advisor in the government data landscape. Her expertise in bringing people, process, and technology together with an underlying foundation of data has transformed cities to move beyond pockets of excellence to citywide scale, sustainability, and resident impact. Iffat&#x27;s advisory role in the government data sector earned recognition at the Arizona Digital Government Summit 2023 in the session &#x27;My Data + Your Data &#x3D; Our Data.&#x27; She holds several industry certifications and international awards including &quot;ALM-Women’s Leaders in Consulting Award 2023&quot; and The International Awards Associate (IAA) 2023 due to her innovation and technology contributions in the public sector.", linkedin: "https://www.linkedin.com/in/iffattariq/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "michael-prange":
+        { name: "Michael Prange", img: "https://www.fiware.org/wp-content/directories/people/images/200px/michael-prange.jpg", position: "Professor", company: "FH Kiel", "company-link": "https://www.fh-kiel.de/startseite/",
+        content: "Prof. Dr. Michael Prange studied Computer Science and Physics at Kiel University of Applied Sciences and received his doctorate in Mechanical Engineering from Hamburg University of Technology. He brings with him experience from 30 years of international business activity, from a wide variety of tasks and functions in associations and in politics, and as a lecturer at various universities. As a Professor of Data Science at Kiel University of Applied Sciences and as an entrepreneur and IT expert, the focus of his research and consulting activities is on digital transformation and sustainable development of private and public organizations with a focus on smart infrastructures, digital technologies, innovative business models, open data platforms and artificial intelligence for Smart Cities and the Green Economy.", linkedin: "https://www.linkedin.com/in/michael-prange-1232187/", twitter: "", domain: "", location: "",
         flag: "", },
     "jorge-hernandez":
         { name: "Jorge Hernandez", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jorge-hernandez.jpg", position: "Chief Executive Officer", company: "Ignicion Games", "company-link": "https://www.igniciongames.com/",
