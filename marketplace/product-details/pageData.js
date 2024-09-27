@@ -10162,6 +10162,44 @@ var pageData = {
             hash: 'dinyconsistemas-dinypark',
             cat: 'ready',
             social: '/fiware-ready/dinycon-sistemas/dinypark.html'
+        },
+        'bleeckertechnologies-bleeckersystem': {
+            category: 'FIWARE-Ready',
+            organisationName: 'Bleecker Technologies',
+            productName: 'Bleecker System',
+            organisationWebsite: 'https://bleecker.tech',
+            organisationEmail: 'mailto:info@bleecker.tech',
+            linkedIn: 'https://www.linkedin.com/company/bleeckertech/',
+            twitter: '',
+            productWebsite: 'https://bleecker.tech',
+            excerpt:
+                'The Bleecker System enables automatic identification of goods using Computer Vision and AI algorithms, optimizing logistics processes. It utilizes low-cost IP cameras and patented visual codes for multiple and moving readings. This technology surpasses traditional systems like barcodes and RFID.',
+            yearOfValidation: 2024,
+            description:
+                '<p><strong>The Bleecker System</strong> enables the automatic identification and tracking of any goods through Computer Vision and AI algorithms, optimizing various logistics processes. Our system relies on low-cost IP cameras and specially designed visual codes for multiple and moving readings. This patented technology allows for the optimization and error prevention of common logistics processes such as loading and unloading goods in logistic warehouses, order fulfillment, and inventory management. Our system replaces traditional identification systems (barcodes, DataMatrix, or RFID) by overcoming their technological deficiencies and offering new functionalities that traditional technologies cannot provide. Key technical features of our system include:</p> <ul> <li>Real-time position and movement vector acquisition of each code in the work environment. For instance, it can detect whether goods are being loaded onto or unloaded from a truck during a truck loading/unloading process, enabling thorough control and error prevention in logistics.</li> <li>Real-time multiple and moving readings of all codes. The system can read codes in motion without speed restrictions and all codes the goods might carry.</li> <li>Real-time height and volume calculation of goods. Using the code, it is possible, for example, to determine the height and volume of a pallet during an expedition process.</li> <li>Reading proof through photo or video. Each code read is recorded in the system with a photo or video of when the reading occurred. This allows for documentary evidence of the goods loaded during an expedition process.</li> <li>Codes can be printed on any type of media, such as typical labels, and can encode the SSCC identifier or any other required by the company.</li> <li>The system offers a well-defined API for integration into the company’s software.</li> <li>Additionally, it supports installations of more than 100 cameras simultaneously reading codes in real-time.</li> </ul>',
+            challenge:
+                '<p>The development of our solution based on Computer Vision and Bleecker codes represents a significant advancement over current identification and tracking technologies, such as RFID and barcodes, widely used in warehouse logistics.</p> <ul> <li><p>RFID Technology: While RFID systems offer robust tracking capabilities without the need for line of sight, they have limitations in terms of resolution and accuracy in environments densely populated with metallic or liquid goods, where interference is common. Additionally, the implementation costs of RFID can be high due to the need for specific tags and readers. Our solution, by utilizing Computer Vision, overcomes these limitations by providing precise identification without material interference and potentially lower operational costs, as Bleecker codes can be printed directly on existing product labels without the need for additional complex technology.</p></li> <li><p>Barcodes: Barcodes are a proven and cost-effective solution for product identification but require the reader to have a clear line of sight and no movement towards the label, which can be challenging in dynamic and fast-paced logistics environments. In contrast, Computer Vision with Bleecker codes allows for continuous recognition and tracking of multiple moving codes, with enhanced capabilities to operate in less-than-ideal conditions and process information more flexibly and robustly.</p></li> </ul> <p>Numerous advantages of our solution can be highlighted, but the most significant are:</p> <ul> <li>Enhanced tracking capability: Computer Vision allows for continuous, real-time tracking of pallets and goods, surpassing the deficiencies of RFID and barcodes.</li> <li>Operational flexibility: Our technology offers greater flexibility in changing and dynamic environments. It can quickly adapt to new warehouse layouts or process changes without the need for intensive reconfiguration.</li> <li>Advanced applications: Our solution introduces functionalities unfeasible with RFID and barcodes, such as calculating the dimensions of goods and precise identification of merchandise.</li> <li>Cost reduction: By reducing reliance on specific and expensive hardware like RFID systems and minimizing reading and tracking errors, our solution can offer significant reductions in operational and maintenance costs.</li> </ul>',
+            references:
+                '<p>Currently, our Bleecker System is integrated into companies across various industrial verticals to optimize logistics processes. We have worked with prominent logistics operators such as <a href="www.id-logistics.com" title="ID Logistics">ID Logistics</a>  and <a href="https://airpharm.com" title="Airpharm">Airpharm</a> Logistics, among others. Our technology has also been adopted by end customers in various sectors, including ElDulze Growers, Zambú Higiene, Cartonajes Bernabéu, and Natural Fruits.  Additionally, numerous large companies are exploring our solutions through pilots and proof-of-concept trials, anticipating future implementation.</p> <p>It should be noted that the entire FIWARE certification process has been carried out with the assistance of iHUB La Vega Innova.</p>',
+            awards: '<ul> <li>Selected startup in EU-LAC Digital Accelerator, iHub La Vega Innova, and Logistics 4.0 Incubator CZFB.</li> <li>ENISA certification as an emerging company (startup) 2024.</li> <li>Finalist in AgroBank Tech Digital Innovation 2023.</li> <li>Finalist for the Startup CEL Award 2022.</li> <li>Neotec CDTI Program 2022.</li> <li>First prize in the INFO-EXOLUM Startup 2021.</li> </ul>',
+            technologies: [
+                'Artificial Intelligence',
+                'Internet of Things',
+                'Logistics',
+                'Sensory Systems',
+                'Virtual',
+                'Augmented and Extended Reality'
+            ],
+            domains: ['Industry', 'Logistics', 'Manufacturing'],
+            docs: [],
+            videos: [['Bleecker System', 'https://vimeo.com/902901788']],
+            materials: [],
+            logo: 'https://www.fiware.org/wp-content/uploads/44241acf6d0550a84c7c1ce37abc0768.jpg',
+            featuredImage: 'https://www.fiware.org/wp-content/uploads/bd77a85ec0370f83d61bb7743760fcc4.png',
+            furtherImages: '',
+            hash: 'bleeckertechnologies-bleeckersystem',
+            cat: 'ready',
+            social: '/fiware-ready/bleecker-technologies/bleecker-system.html'
         }
     },
     cities: {

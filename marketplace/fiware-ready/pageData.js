@@ -1217,6 +1217,27 @@ var pageData = [
         year: 2024,
         content:
             'DinyPARK offers a complete smart parking solution for vehicle counting, tracking and classification with information on free spaces in parking lots. DinyPARK offers precise real-time information on the number of vehicles that are in a certain area, for both indoor and outdoor car parks.'
+    },
+    {
+        company: 'Bleecker Technologies',
+        name: 'Bleecker System',
+        img: 'https://www.fiware.org/wp-content/uploads/44241acf6d0550a84c7c1ce37abc0768.jpg',
+        fiwareMember: false,
+        fiwareIhub: false,
+        companyLink: '../product-details/?category=ready&id=bleeckertechnologies-bleeckersystem',
+        domain: ['Industry', 'Logistics', 'Manufacturing'],
+        type: 'Software Enabler',
+        technology: [
+            'Artificial Intelligence',
+            'Internet of Things',
+            'Logistics',
+            'Sensory Systems',
+            'Virtual',
+            'Augmented and Extended Reality'
+        ],
+        year: 2024,
+        content:
+            'The Bleecker System enables automatic identification of goods using Computer Vision and AI algorithms, optimizing logistics processes. It utilizes low-cost IP cameras and patented visual codes for multiple and moving readings. This technology surpasses traditional systems like barcodes and RFID.'
     }
 ];
 
