@@ -42,7 +42,9 @@
         function pop_data(feature, layer) {
             var content = feature.properties;
             var tempDiv = document.createElement('div');
-                tempDiv.innerHTML = content;
+                tempDiv.innerHTML = '<table><tr>' + 
+                    content.html.join('</tr><tr>') +
+                        '</tr><table>';
 			layer.bindPopup(tempDiv, { maxHeight: 400 });
         }
 
