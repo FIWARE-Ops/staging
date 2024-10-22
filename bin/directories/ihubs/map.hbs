@@ -1,0 +1,31 @@
+var iHub_data = {
+	"type":"FeatureCollection","name":"ihubs_4",
+	"crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},
+	"features":[
+	{{#each this}}
+		{
+			"type":"Feature",
+			"properties":{
+				"html": [
+					"<tr><td colspan='6'><img class='featured-image' src='{{img}}'></td></tr>",
+					"<tr><td class='ihub-location'>{{city}}<br>{{country}}</td><td>{{#if country}}<img alt='{{country}}' class='flag' src='{{flag}}'/>{{/if}}</td></tr>",
+					"<tr><td class='ihub-name' colspan='6'>{{name}}</td></tr>",
+					"<tr><th colspan='6' scope='row' class='label'>{{name}}</th></tr>",
+					"<tr><td colspan='6' class='visible-with-data attribute' id='Type'>Incubated</td></tr>",
+					{{#if (gt domain.length 0)}}
+					"<tr><th colspan='6' scope='row' class='label'>Domain</th></tr>",
+					"<tr><td colspan='6' class='visible-with-data attribute' id='Domain'>{{#each domain}}{{this}}{{/each}}</td></tr>",
+					{{/if}}
+					{{#if contacts}}
+					"<tr colspan='6'><td class='icons' colspan='1'>{{#if website}}<a class='cat-twitter' target='_blank' href='{{twitter}}' rel='noopener'><span class='icon twitter'></span></a>{{/if}}{{#if linkedIn}}<a class='cat-linkedin' target='_blank' href='{{linkedIn}}' rel='noopener'><span class='icon linkedin'></span></a>{{/if}}</td></tr>"
+					{{/if}}
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[{{longitude}},{{latitude}}]
+			}
+		},
+		{{/each}}
+	]
+};

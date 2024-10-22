@@ -29,7 +29,9 @@ function extractIHubs(input) {
             country: item.Country,
             flag: item['Country flag'],
             content: Parser.markdown(item.Content),
-            publish: Parser.boolean(item.Published)
+            publish: Parser.boolean(item.Published),
+            latitude: item.Latitude,
+            longitude: item.Longitude,
         };
 
         if (iHub.website || iHub.twitter || iHub.linkedIn) {
@@ -71,6 +73,7 @@ function parse(file) {
             };
 
             Template.write(path.join(IHUBS_DIR, 'iHubs.html'), path.join(TEMPLATE_PATH, 'card.hbs'), iHubs);
+            Template.write(path.join(IHUBS_DIR, 'mapData.js'), path.join(TEMPLATE_PATH, 'map.hbs'), iHubs);
             Template.write(path.join(IHUBS_DIR, 'pageData.js'), path.join(TEMPLATE_PATH, 'modal.hbs'), filterData);
             Template.write(path.join(IHUBS_DIR, 'filters.html'), path.join(TEMPLATE_PATH, 'filter.hbs'), filterData);
 
