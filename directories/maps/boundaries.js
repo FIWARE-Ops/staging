@@ -1,7 +1,7 @@
 var json_mapboundaries =
 {"type":"FeatureCollection", "features": [
 {"type":"Feature","geometry":{"type":"LineString",
-"coordinates":[[-124.758,48.494],[-123.585,48.212717184],[-123.31,48.9925]]}},
+"coordinates":[[-124.758,48.494],[-123.585,48.21],[-123.31,48.9925]]}},
 {"type":"Feature","geometry":{"type":"LineString",
 "coordinates":[[11.4375,58.991],[10.9070,58.936]]}},
 {"type":"Feature","geometry":{"type":"MultiLineString",
