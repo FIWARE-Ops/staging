@@ -7,10 +7,10 @@ var iHub_data = {
 			"type":"Feature",
 			"properties":{
 				"html": [
-					"<div><img class='gridElementLogo' src='{{img}}'></div>",
-					"<div class='ihub-location'>{{city}}<br>{{country}} {{#if country}}<img alt='{{country}}' class='flag' src='{{flag}}'/>{{/if}}</div>",
+					"<div ><img class='gridElementLogo' src='{{img}}'/></div>",
+					"<div class='ihub-location' style='display: flex;flex-direction: row;'><div>{{city}}{{#if country}}, {{country}}{{/if}}</div>{{#if country}}<img alt='{{country}}' class='flag' src='{{flag}}' style='margin-left: auto;'/>{{/if}}</div>",
 					"<div class='ihub-name' colspan='6'>{{name}}</div>",
-					"<div class='visible-with-data attribute' id='Type'>Incubated</div>",
+					"<div class='visible-with-data attribute'>Incubated</div>",
 					{{#if (gt domain.length 0)}}
 					"<div class='label'>Domain</div>",
 					"<div>{{#each domain}}{{this}}&nbsp;{{/each}}</div>",
