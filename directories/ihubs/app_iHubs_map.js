@@ -9,22 +9,6 @@
         var bounds_group = new L.featureGroup([]);
         function setBounds() {
         }
-
-        /*
-        map.createPane('pane_mapcoastline');
-        map.getPane('pane_mapcoastline').style.zIndex = 400;
-        map.getPane('pane_mapcoastline').style['mix-blend-mode'] = 'normal';
-        var layer_mapcoastline = new L.geoJson(json_mapcoastline, {
-            attribution: '',
-            interactive: false,
-            dataVar: 'json_mapcoastline',
-            layerName: 'layer_mapcoastline',
-            pane: 'pane_mapcoastline',
-            style: style_mapcoastline,
-        });
-        bounds_group.addLayer(layer_mapcoastline);
-        map.addLayer(layer_mapcoastline);
-        */
         
         map.createPane('pane_mapcountries');
         map.getPane('pane_mapcountries').style.zIndex = 401;
@@ -76,10 +60,10 @@
         map.createPane('pane_data');
         map.getPane('pane_data').style.zIndex = 404;
         map.getPane('pane_data').style['mix-blend-mode'] = 'normal';
-        var layer_data = new L.geoJson(json_data, {
+        var layer_data = new L.geoJson(iHub_data, {
             attribution: '',
             interactive: true,
-            dataVar: 'json_data',
+            dataVar: 'iHub_data',
             layerName: 'layer_data',
             pane: 'pane_data',
             onEachFeature: pop_data,
