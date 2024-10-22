@@ -6,14 +6,13 @@ var iHub_data = {
 			"type":"Feature",
 			"properties":{
 				"html": [
-					"<tr><td colspan='6'><img class='featured-image' src='https://www.fiware.org/wp-content/directories/ihubs/images/acastro.png'></td></tr>",
-					"<tr><td class='ihub-location'>Montevideo<br>Uruguay</td><td><img alt='Uruguay' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Uruguay.png'/></td></tr>",
-					"<tr><td class='ihub-name' colspan='6'>A. Castro Servicios &amp; Tecnología</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>A. Castro Servicios &amp; Tecnología</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Type'>Incubated</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Domain</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Domain'>AgriFoodCitiesEnergy</td></tr>",
-					"<tr colspan='6'><td class='icons' colspan='1'><a class='cat-twitter' target='_blank' href='https://twitter.com/#!/arnaldocastrosa' rel='noopener'><span class='icon twitter'></span></a><a class='cat-linkedin' target='_blank' href='https://www.linkedin.com/company/arnaldo-c.-castro-s.a./' rel='noopener'><span class='icon linkedin'></span></a></td></tr>"
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/acastro.png'></div>",
+					"<div class='ihub-location'>Montevideo<br>Uruguay <img alt='Uruguay' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Uruguay.png'/></div>",
+					"<div class='ihub-name' colspan='6'>A. Castro Servicios &amp; Tecnología</div>",
+					"<div class='visible-with-data attribute' id='Type'>Incubated</div>",
+					"<div class='label'>Domain</div>",
+					"<div>AgriFood&nbsp;Cities&nbsp;Energy&nbsp;</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.arnaldocastro.com.uy/' rel='noopener'><span class='icon website'></span><a class='cat-twitter' target='_blank' href='https://twitter.com/#!/arnaldocastrosa' rel='noopener'><span class='icon twitter'></span></a><a class='cat-linkedin' target='_blank' href='https://www.linkedin.com/company/arnaldo-c.-castro-s.a./' rel='noopener'><span class='icon linkedin'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -25,14 +24,13 @@ var iHub_data = {
 			"type":"Feature",
 			"properties":{
 				"html": [
-					"<tr><td colspan='6'><img class='featured-image' src='https://www.fiware.org/wp-content/directories/ihubs/images/astrid.png'></td></tr>",
-					"<tr><td class='ihub-location'>Wolfsburg<br>Germany</td><td><img alt='Germany' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png'/></td></tr>",
-					"<tr><td class='ihub-name' colspan='6'>Astrid</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Astrid</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Type'>Incubated</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Domain</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Domain'>CitiesIndustryMobility</td></tr>",
-					"<tr colspan='6'><td class='icons' colspan='1'><a class='cat-twitter' target='_blank' href='https://twitter.com/AstridIhub' rel='noopener'><span class='icon twitter'></span></a></td></tr>"
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/astrid.png'></div>",
+					"<div class='ihub-location'>Wolfsburg<br>Germany <img alt='Germany' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png'/></div>",
+					"<div class='ihub-name' colspan='6'>Astrid</div>",
+					"<div class='visible-with-data attribute' id='Type'>Incubated</div>",
+					"<div class='label'>Domain</div>",
+					"<div>Cities&nbsp;Industry&nbsp;Mobility&nbsp;</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://astridhub.com/' rel='noopener'><span class='icon website'></span><a class='cat-twitter' target='_blank' href='https://twitter.com/AstridIhub' rel='noopener'><span class='icon twitter'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -44,13 +42,12 @@ var iHub_data = {
 			"type":"Feature",
 			"properties":{
 				"html": [
-					"<tr><td colspan='6'><img class='featured-image' src='https://www.fiware.org/wp-content/directories/ihubs/images/atio.png'></td></tr>",
-					"<tr><td class='ihub-location'>Barcelona<br>Spain</td><td><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png'/></td></tr>",
-					"<tr><td class='ihub-name' colspan='6'>ATIO</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>ATIO</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Type'>Incubated</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Domain</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Domain'>AgriFoodWater</td></tr>",
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/atio.png'></div>",
+					"<div class='ihub-location'>Barcelona<br>Spain <img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png'/></div>",
+					"<div class='ihub-name' colspan='6'>ATIO</div>",
+					"<div class='visible-with-data attribute' id='Type'>Incubated</div>",
+					"<div class='label'>Domain</div>",
+					"<div>AgriFood&nbsp;Water&nbsp;</div>",
 				]
 			},
 			"geometry":{
@@ -62,14 +59,13 @@ var iHub_data = {
 			"type":"Feature",
 			"properties":{
 				"html": [
-					"<tr><td colspan='6'><img class='featured-image' src='https://www.fiware.org/wp-content/directories/ihubs/images/cartiffactory.png'></td></tr>",
-					"<tr><td class='ihub-location'>Valladolid<br>Spain</td><td><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png'/></td></tr>",
-					"<tr><td class='ihub-name' colspan='6'>CARTIFactory iHub</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>CARTIFactory iHub</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Type'>Incubated</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Domain</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Domain'>AIComputer vision &amp; Mixed RealityIndustryRobotics</td></tr>",
-					"<tr colspan='6'><td class='icons' colspan='1'><a class='cat-twitter' target='_blank' href='' rel='noopener'><span class='icon twitter'></span></a></td></tr>"
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/cartiffactory.png'></div>",
+					"<div class='ihub-location'>Valladolid<br>Spain <img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png'/></div>",
+					"<div class='ihub-name' colspan='6'>CARTIFactory iHub</div>",
+					"<div class='visible-with-data attribute' id='Type'>Incubated</div>",
+					"<div class='label'>Domain</div>",
+					"<div>AI&nbsp;Computer vision &amp; Mixed Reality&nbsp;Industry&nbsp;Robotics&nbsp;</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.cartif.es/en/' rel='noopener'><span class='icon website'></span></div>"
 				]
 			},
 			"geometry":{
@@ -81,14 +77,13 @@ var iHub_data = {
 			"type":"Feature",
 			"properties":{
 				"html": [
-					"<tr><td colspan='6'><img class='featured-image' src='https://www.fiware.org/wp-content/directories/ihubs/images/centifo-hub.png'></td></tr>",
-					"<tr><td class='ihub-location'>Grasse<br>France</td><td><img alt='France' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_France.png'/></td></tr>",
-					"<tr><td class='ihub-name' colspan='6'>Centifo Hub</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Centifo Hub</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Type'>Incubated</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Domain</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Domain'>AgriFoodSustainability</td></tr>",
-					"<tr colspan='6'><td class='icons' colspan='1'><a class='cat-twitter' target='_blank' href='' rel='noopener'><span class='icon twitter'></span></a></td></tr>"
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/centifo-hub.png'></div>",
+					"<div class='ihub-location'>Grasse<br>France <img alt='France' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_France.png'/></div>",
+					"<div class='ihub-name' colspan='6'>Centifo Hub</div>",
+					"<div class='visible-with-data attribute' id='Type'>Incubated</div>",
+					"<div class='label'>Domain</div>",
+					"<div>AgriFood&nbsp;Sustainability&nbsp;</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://centifohub.scic-tetris.org/' rel='noopener'><span class='icon website'></span></div>"
 				]
 			},
 			"geometry":{
@@ -100,14 +95,13 @@ var iHub_data = {
 			"type":"Feature",
 			"properties":{
 				"html": [
-					"<tr><td colspan='6'><img class='featured-image' src='https://www.fiware.org/wp-content/directories/ihubs/images/ciudades-del-futuro-ihub.png'></td></tr>",
-					"<tr><td class='ihub-location'>La Plata<br>Argentina</td><td><img alt='Argentina' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Argentina.png'/></td></tr>",
-					"<tr><td class='ihub-name' colspan='6'>Ciudades del Futuro iHub</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Ciudades del Futuro iHub</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Type'>Incubated</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Domain</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Domain'>Cities</td></tr>",
-					"<tr colspan='6'><td class='icons' colspan='1'><a class='cat-twitter' target='_blank' href='https://www.twitter.com/iciudadesfuturo' rel='noopener'><span class='icon twitter'></span></a><a class='cat-linkedin' target='_blank' href='https://ar.linkedin.com/in/iciudadesfuturo' rel='noopener'><span class='icon linkedin'></span></a></td></tr>"
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/ciudades-del-futuro-ihub.png'></div>",
+					"<div class='ihub-location'>La Plata<br>Argentina <img alt='Argentina' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Argentina.png'/></div>",
+					"<div class='ihub-name' colspan='6'>Ciudades del Futuro iHub</div>",
+					"<div class='visible-with-data attribute' id='Type'>Incubated</div>",
+					"<div class='label'>Domain</div>",
+					"<div>Cities&nbsp;</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.fiware.com.ar/' rel='noopener'><span class='icon website'></span><a class='cat-twitter' target='_blank' href='https://www.twitter.com/iciudadesfuturo' rel='noopener'><span class='icon twitter'></span></a><a class='cat-linkedin' target='_blank' href='https://ar.linkedin.com/in/iciudadesfuturo' rel='noopener'><span class='icon linkedin'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -119,14 +113,13 @@ var iHub_data = {
 			"type":"Feature",
 			"properties":{
 				"html": [
-					"<tr><td colspan='6'><img class='featured-image' src='https://www.fiware.org/wp-content/directories/ihubs/images/detecon-fiware-ihub.png'></td></tr>",
-					"<tr><td class='ihub-location'>Cologne<br>Germany</td><td><img alt='Germany' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png'/></td></tr>",
-					"<tr><td class='ihub-name' colspan='6'>Detecon FIWARE iHub</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Detecon FIWARE iHub</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Type'>Incubated</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Domain</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Domain'>CitieseGovernanceEnergyIndustry</td></tr>",
-					"<tr colspan='6'><td class='icons' colspan='1'><a class='cat-twitter' target='_blank' href='https://twitter.com/detecon' rel='noopener'><span class='icon twitter'></span></a><a class='cat-linkedin' target='_blank' href='https://www.linkedin.com/company/detecon-international-gmbh/' rel='noopener'><span class='icon linkedin'></span></a></td></tr>"
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/detecon-fiware-ihub.png'></div>",
+					"<div class='ihub-location'>Cologne<br>Germany <img alt='Germany' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png'/></div>",
+					"<div class='ihub-name' colspan='6'>Detecon FIWARE iHub</div>",
+					"<div class='visible-with-data attribute' id='Type'>Incubated</div>",
+					"<div class='label'>Domain</div>",
+					"<div>Cities&nbsp;eGovernance&nbsp;Energy&nbsp;Industry&nbsp;</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.detecon.com/en/consulting/consulting-practices/business-technology/fiware-ihub-cologne' rel='noopener'><span class='icon website'></span><a class='cat-twitter' target='_blank' href='https://twitter.com/detecon' rel='noopener'><span class='icon twitter'></span></a><a class='cat-linkedin' target='_blank' href='https://www.linkedin.com/company/detecon-international-gmbh/' rel='noopener'><span class='icon linkedin'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -138,14 +131,13 @@ var iHub_data = {
 			"type":"Feature",
 			"properties":{
 				"html": [
-					"<tr><td colspan='6'><img class='featured-image' src='https://www.fiware.org/wp-content/directories/ihubs/images/digi-city-connect.png'></td></tr>",
-					"<tr><td class='ihub-location'>Atlanta, Georgia<br>USA</td><td><img alt='USA' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_United-States.png'/></td></tr>",
-					"<tr><td class='ihub-name' colspan='6'>DigiCityConnect</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>DigiCityConnect</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Type'>Incubated</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Domain</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Domain'>Cities</td></tr>",
-					"<tr colspan='6'><td class='icons' colspan='1'><a class='cat-twitter' target='_blank' href='' rel='noopener'><span class='icon twitter'></span></a></td></tr>"
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/digi-city-connect.png'></div>",
+					"<div class='ihub-location'>Atlanta, Georgia<br>USA <img alt='USA' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_United-States.png'/></div>",
+					"<div class='ihub-name' colspan='6'>DigiCityConnect</div>",
+					"<div class='visible-with-data attribute' id='Type'>Incubated</div>",
+					"<div class='label'>Domain</div>",
+					"<div>Cities&nbsp;</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='http://www.DigiCityConnect.com' rel='noopener'><span class='icon website'></span></div>"
 				]
 			},
 			"geometry":{
@@ -157,14 +149,13 @@ var iHub_data = {
 			"type":"Feature",
 			"properties":{
 				"html": [
-					"<tr><td colspan='6'><img class='featured-image' src='https://www.fiware.org/wp-content/directories/ihubs/images/dihbai-tur.png'></td></tr>",
-					"<tr><td class='ihub-location'>Mallorca<br>Spain</td><td><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png'/></td></tr>",
-					"<tr><td class='ihub-name' colspan='6'>DIHBAI-TUR</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>DIHBAI-TUR</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Type'>Incubated</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Domain</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Domain'>AgriFoodIndustryTourism</td></tr>",
-					"<tr colspan='6'><td class='icons' colspan='1'><a class='cat-twitter' target='_blank' href='https://twitter.com/dihbaitur' rel='noopener'><span class='icon twitter'></span></a><a class='cat-linkedin' target='_blank' href='https://www.linkedin.com/in/dihbai-tur-b5b9451ab/' rel='noopener'><span class='icon linkedin'></span></a></td></tr>"
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/dihbai-tur.png'></div>",
+					"<div class='ihub-location'>Mallorca<br>Spain <img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png'/></div>",
+					"<div class='ihub-name' colspan='6'>DIHBAI-TUR</div>",
+					"<div class='visible-with-data attribute' id='Type'>Incubated</div>",
+					"<div class='label'>Domain</div>",
+					"<div>AgriFood&nbsp;Industry&nbsp;Tourism&nbsp;</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='http://www.dihbai-tur.com' rel='noopener'><span class='icon website'></span><a class='cat-twitter' target='_blank' href='https://twitter.com/dihbaitur' rel='noopener'><span class='icon twitter'></span></a><a class='cat-linkedin' target='_blank' href='https://www.linkedin.com/in/dihbai-tur-b5b9451ab/' rel='noopener'><span class='icon linkedin'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -176,14 +167,13 @@ var iHub_data = {
 			"type":"Feature",
 			"properties":{
 				"html": [
-					"<tr><td colspan='6'><img class='featured-image' src='https://www.fiware.org/wp-content/directories/ihubs/images/fiihub-azores-dih.png'></td></tr>",
-					"<tr><td class='ihub-location'>Lagoa<br>Portugal</td><td><img alt='Portugal' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Portugal.png'/></td></tr>",
-					"<tr><td class='ihub-name' colspan='6'>FiiHub Azores DIH</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>FiiHub Azores DIH</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Type'>Incubated</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Domain</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Domain'>AgriFoodCities</td></tr>",
-					"<tr colspan='6'><td class='icons' colspan='1'><a class='cat-twitter' target='_blank' href='https://twitter.com/fiwaremac' rel='noopener'><span class='icon twitter'></span></a></td></tr>"
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/fiihub-azores-dih.png'></div>",
+					"<div class='ihub-location'>Lagoa<br>Portugal <img alt='Portugal' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Portugal.png'/></div>",
+					"<div class='ihub-name' colspan='6'>FiiHub Azores DIH</div>",
+					"<div class='visible-with-data attribute' id='Type'>Incubated</div>",
+					"<div class='label'>Domain</div>",
+					"<div>AgriFood&nbsp;Cities&nbsp;</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://azoresdih.pt/' rel='noopener'><span class='icon website'></span><a class='cat-twitter' target='_blank' href='https://twitter.com/fiwaremac' rel='noopener'><span class='icon twitter'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -195,14 +185,13 @@ var iHub_data = {
 			"type":"Feature",
 			"properties":{
 				"html": [
-					"<tr><td colspan='6'><img class='featured-image' src='https://www.fiware.org/wp-content/directories/ihubs/images/fiihub-canary-islands.png'></td></tr>",
-					"<tr><td class='ihub-location'>Tenerife<br>Spain</td><td><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png'/></td></tr>",
-					"<tr><td class='ihub-name' colspan='6'>FiiHub Canary Islands</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>FiiHub Canary Islands</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Type'>Incubated</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Domain</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Domain'>Cities</td></tr>",
-					"<tr colspan='6'><td class='icons' colspan='1'><a class='cat-twitter' target='_blank' href='https://twitter.com/fimac_fiihub' rel='noopener'><span class='icon twitter'></span></a></td></tr>"
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/fiihub-canary-islands.png'></div>",
+					"<div class='ihub-location'>Tenerife<br>Spain <img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png'/></div>",
+					"<div class='ihub-name' colspan='6'>FiiHub Canary Islands</div>",
+					"<div class='visible-with-data attribute' id='Type'>Incubated</div>",
+					"<div class='label'>Domain</div>",
+					"<div>Cities&nbsp;</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://fiihub.cidihub.org/' rel='noopener'><span class='icon website'></span><a class='cat-twitter' target='_blank' href='https://twitter.com/fimac_fiihub' rel='noopener'><span class='icon twitter'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -214,14 +203,13 @@ var iHub_data = {
 			"type":"Feature",
 			"properties":{
 				"html": [
-					"<tr><td colspan='6'><img class='featured-image' src='https://www.fiware.org/wp-content/directories/ihubs/images/fiware-innova-ihub.png'></td></tr>",
-					"<tr><td class='ihub-location'>Perugia<br>Italy</td><td><img alt='Italy' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Italy.png'/></td></tr>",
-					"<tr><td class='ihub-name' colspan='6'>FIWARE Innova iHub</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>FIWARE Innova iHub</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Type'>Incubated</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Domain</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Domain'>AgriFoodCities</td></tr>",
-					"<tr colspan='6'><td class='icons' colspan='1'><a class='cat-twitter' target='_blank' href='https://twitter.com/FiwareInnova' rel='noopener'><span class='icon twitter'></span></a><a class='cat-linkedin' target='_blank' href='https://www.linkedin.com/company/fiware-innova-ihub/' rel='noopener'><span class='icon linkedin'></span></a></td></tr>"
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/fiware-innova-ihub.png'></div>",
+					"<div class='ihub-location'>Perugia<br>Italy <img alt='Italy' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Italy.png'/></div>",
+					"<div class='ihub-name' colspan='6'>FIWARE Innova iHub</div>",
+					"<div class='visible-with-data attribute' id='Type'>Incubated</div>",
+					"<div class='label'>Domain</div>",
+					"<div>AgriFood&nbsp;Cities&nbsp;</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.fiwareinnova.org/' rel='noopener'><span class='icon website'></span><a class='cat-twitter' target='_blank' href='https://twitter.com/FiwareInnova' rel='noopener'><span class='icon twitter'></span></a><a class='cat-linkedin' target='_blank' href='https://www.linkedin.com/company/fiware-innova-ihub/' rel='noopener'><span class='icon linkedin'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -233,14 +221,13 @@ var iHub_data = {
 			"type":"Feature",
 			"properties":{
 				"html": [
-					"<tr><td colspan='6'><img class='featured-image' src='https://www.fiware.org/wp-content/directories/ihubs/images/fiware-oil-ihub.png'></td></tr>",
-					"<tr><td class='ihub-location'>Lund<br>Sweden</td><td><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png'/></td></tr>",
-					"<tr><td class='ihub-name' colspan='6'>FIWARE OIL iHub</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>FIWARE OIL iHub</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Type'>Incubated</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Domain</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Domain'>CitieseHealthEnergyIndustryWater</td></tr>",
-					"<tr colspan='6'><td class='icons' colspan='1'><a class='cat-twitter' target='_blank' href='' rel='noopener'><span class='icon twitter'></span></a><a class='cat-linkedin' target='_blank' href='https://www.linkedin.com/company/openiotlabs/' rel='noopener'><span class='icon linkedin'></span></a></td></tr>"
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/fiware-oil-ihub.png'></div>",
+					"<div class='ihub-location'>Lund<br>Sweden <img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png'/></div>",
+					"<div class='ihub-name' colspan='6'>FIWARE OIL iHub</div>",
+					"<div class='visible-with-data attribute' id='Type'>Incubated</div>",
+					"<div class='label'>Domain</div>",
+					"<div>Cities&nbsp;eHealth&nbsp;Energy&nbsp;Industry&nbsp;Water&nbsp;</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://openiotlabs.io/' rel='noopener'><span class='icon website'></span><a class='cat-linkedin' target='_blank' href='https://www.linkedin.com/company/openiotlabs/' rel='noopener'><span class='icon linkedin'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -252,14 +239,13 @@ var iHub_data = {
 			"type":"Feature",
 			"properties":{
 				"html": [
-					"<tr><td colspan='6'><img class='featured-image' src='https://www.fiware.org/wp-content/directories/ihubs/images/fiware-space.png'></td></tr>",
-					"<tr><td class='ihub-location'>Badajoz Provincial Council<br>Spain</td><td><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png'/></td></tr>",
-					"<tr><td class='ihub-name' colspan='6'>FIWARE Space</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>FIWARE Space</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Type'>Incubated</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Domain</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Domain'>TerritoryEnergyTourismAgrifoodVillages</td></tr>",
-					"<tr colspan='6'><td class='icons' colspan='1'><a class='cat-twitter' target='_blank' href='https://twitter.com/@fiwarespace' rel='noopener'><span class='icon twitter'></span></a><a class='cat-linkedin' target='_blank' href='https://in.linkedin.com/company/fiwarespace' rel='noopener'><span class='icon linkedin'></span></a></td></tr>"
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/fiware-space.png'></div>",
+					"<div class='ihub-location'>Badajoz Provincial Council<br>Spain <img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png'/></div>",
+					"<div class='ihub-name' colspan='6'>FIWARE Space</div>",
+					"<div class='visible-with-data attribute' id='Type'>Incubated</div>",
+					"<div class='label'>Domain</div>",
+					"<div>Territory&nbsp;Energy&nbsp;Tourism&nbsp;Agrifood&nbsp;Villages&nbsp;</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.fiware.space/' rel='noopener'><span class='icon website'></span><a class='cat-twitter' target='_blank' href='https://twitter.com/@fiwarespace' rel='noopener'><span class='icon twitter'></span></a><a class='cat-linkedin' target='_blank' href='https://in.linkedin.com/company/fiwarespace' rel='noopener'><span class='icon linkedin'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -271,14 +257,13 @@ var iHub_data = {
 			"type":"Feature",
 			"properties":{
 				"html": [
-					"<tr><td colspan='6'><img class='featured-image' src='https://www.fiware.org/wp-content/directories/ihubs/images/fiware-zone.png'></td></tr>",
-					"<tr><td class='ihub-location'>Málaga<br>Spain</td><td><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png'/></td></tr>",
-					"<tr><td class='ihub-name' colspan='6'>FIWARE Zone</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>FIWARE Zone</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Type'>Incubated</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Domain</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Domain'>AgriFoodCitiesIndustryLogistics</td></tr>",
-					"<tr colspan='6'><td class='icons' colspan='1'><a class='cat-twitter' target='_blank' href='https://twitter.com/FIWAREZone' rel='noopener'><span class='icon twitter'></span></a><a class='cat-linkedin' target='_blank' href='https://www.linkedin.com/company/fiware-zone' rel='noopener'><span class='icon linkedin'></span></a></td></tr>"
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/fiware-zone.png'></div>",
+					"<div class='ihub-location'>Málaga<br>Spain <img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png'/></div>",
+					"<div class='ihub-name' colspan='6'>FIWARE Zone</div>",
+					"<div class='visible-with-data attribute' id='Type'>Incubated</div>",
+					"<div class='label'>Domain</div>",
+					"<div>AgriFood&nbsp;Cities&nbsp;Industry&nbsp;Logistics&nbsp;</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://fiware.zone/' rel='noopener'><span class='icon website'></span><a class='cat-twitter' target='_blank' href='https://twitter.com/FIWAREZone' rel='noopener'><span class='icon twitter'></span></a><a class='cat-linkedin' target='_blank' href='https://www.linkedin.com/company/fiware-zone' rel='noopener'><span class='icon linkedin'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -290,14 +275,13 @@ var iHub_data = {
 			"type":"Feature",
 			"properties":{
 				"html": [
-					"<tr><td colspan='6'><img class='featured-image' src='https://www.fiware.org/wp-content/directories/ihubs/images/future-city-ihub.png'></td></tr>",
-					"<tr><td class='ihub-location'>Amersfoort<br>Netherlands</td><td><img alt='Netherlands' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Netherlands.png'/></td></tr>",
-					"<tr><td class='ihub-name' colspan='6'>Future City iHub</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Future City iHub</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Type'>Incubated</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Domain</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Domain'>Cities</td></tr>",
-					"<tr colspan='6'><td class='icons' colspan='1'><a class='cat-twitter' target='_blank' href='https://twitter.com/FutureCityEU' rel='noopener'><span class='icon twitter'></span></a><a class='cat-linkedin' target='_blank' href='https://www.linkedin.com/company/future-city' rel='noopener'><span class='icon linkedin'></span></a></td></tr>"
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/future-city-ihub.png'></div>",
+					"<div class='ihub-location'>Amersfoort<br>Netherlands <img alt='Netherlands' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Netherlands.png'/></div>",
+					"<div class='ihub-name' colspan='6'>Future City iHub</div>",
+					"<div class='visible-with-data attribute' id='Type'>Incubated</div>",
+					"<div class='label'>Domain</div>",
+					"<div>Cities&nbsp;</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://future-city.nl/' rel='noopener'><span class='icon website'></span><a class='cat-twitter' target='_blank' href='https://twitter.com/FutureCityEU' rel='noopener'><span class='icon twitter'></span></a><a class='cat-linkedin' target='_blank' href='https://www.linkedin.com/company/future-city' rel='noopener'><span class='icon linkedin'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -309,14 +293,13 @@ var iHub_data = {
 			"type":"Feature",
 			"properties":{
 				"html": [
-					"<tr><td colspan='6'><img class='featured-image' src='https://www.fiware.org/wp-content/directories/ihubs/images/hellenic-fiware-ihub.png'></td></tr>",
-					"<tr><td class='ihub-location'>Athens<br>Greece</td><td><img alt='Greece' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Greece.png'/></td></tr>",
-					"<tr><td class='ihub-name' colspan='6'>Hellenic FIWARE iHub</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Hellenic FIWARE iHub</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Type'>Incubated</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Domain</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Domain'>AgriFoodCitiesEnergyIndustrySustainability</td></tr>",
-					"<tr colspan='6'><td class='icons' colspan='1'><a class='cat-twitter' target='_blank' href='' rel='noopener'><span class='icon twitter'></span></a></td></tr>"
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/hellenic-fiware-ihub.png'></div>",
+					"<div class='ihub-location'>Athens<br>Greece <img alt='Greece' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Greece.png'/></div>",
+					"<div class='ihub-name' colspan='6'>Hellenic FIWARE iHub</div>",
+					"<div class='visible-with-data attribute' id='Type'>Incubated</div>",
+					"<div class='label'>Domain</div>",
+					"<div>AgriFood&nbsp;Cities&nbsp;Energy&nbsp;Industry&nbsp;Sustainability&nbsp;</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.fiwareihub.gr/' rel='noopener'><span class='icon website'></span></div>"
 				]
 			},
 			"geometry":{
@@ -328,14 +311,13 @@ var iHub_data = {
 			"type":"Feature",
 			"properties":{
 				"html": [
-					"<tr><td colspan='6'><img class='featured-image' src='https://www.fiware.org/wp-content/directories/ihubs/images/ideas-forum.png'></td></tr>",
-					"<tr><td class='ihub-location'>Herne<br>Germany</td><td><img alt='Germany' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png'/></td></tr>",
-					"<tr><td class='ihub-name' colspan='6'>IDEASFORUM</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>IDEASFORUM</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Type'>Incubated</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Domain</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Domain'>CitiesEnergy</td></tr>",
-					"<tr colspan='6'><td class='icons' colspan='1'><a class='cat-twitter' target='_blank' href='https://twitter.com/IDEASFORUMORG' rel='noopener'><span class='icon twitter'></span></a></td></tr>"
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/ideas-forum.png'></div>",
+					"<div class='ihub-location'>Herne<br>Germany <img alt='Germany' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png'/></div>",
+					"<div class='ihub-name' colspan='6'>IDEASFORUM</div>",
+					"<div class='visible-with-data attribute' id='Type'>Incubated</div>",
+					"<div class='label'>Domain</div>",
+					"<div>Cities&nbsp;Energy&nbsp;</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='http://www.ideasforum.org/' rel='noopener'><span class='icon website'></span><a class='cat-twitter' target='_blank' href='https://twitter.com/IDEASFORUMORG' rel='noopener'><span class='icon twitter'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -347,14 +329,13 @@ var iHub_data = {
 			"type":"Feature",
 			"properties":{
 				"html": [
-					"<tr><td colspan='6'><img class='featured-image' src='https://www.fiware.org/wp-content/directories/ihubs/images/ihub-base.png'></td></tr>",
-					"<tr><td class='ihub-location'>Tokyo<br>Japan</td><td><img alt='Japan' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Japan.png'/></td></tr>",
-					"<tr><td class='ihub-name' colspan='6'>iHub Base</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>iHub Base</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Type'>Incubated</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Domain</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Domain'>Cities</td></tr>",
-					"<tr colspan='6'><td class='icons' colspan='1'><a class='cat-twitter' target='_blank' href='https://twitter.com/ihubbase' rel='noopener'><span class='icon twitter'></span></a><a class='cat-linkedin' target='_blank' href='https://www.linkedin.com/company/ihub-base/' rel='noopener'><span class='icon linkedin'></span></a></td></tr>"
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/ihub-base.png'></div>",
+					"<div class='ihub-location'>Tokyo<br>Japan <img alt='Japan' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Japan.png'/></div>",
+					"<div class='ihub-name' colspan='6'>iHub Base</div>",
+					"<div class='visible-with-data attribute' id='Type'>Incubated</div>",
+					"<div class='label'>Domain</div>",
+					"<div>Cities&nbsp;</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://ihubbase.jp/' rel='noopener'><span class='icon website'></span><a class='cat-twitter' target='_blank' href='https://twitter.com/ihubbase' rel='noopener'><span class='icon twitter'></span></a><a class='cat-linkedin' target='_blank' href='https://www.linkedin.com/company/ihub-base/' rel='noopener'><span class='icon linkedin'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -366,14 +347,13 @@ var iHub_data = {
 			"type":"Feature",
 			"properties":{
 				"html": [
-					"<tr><td colspan='6'><img class='featured-image' src='https://www.fiware.org/wp-content/directories/ihubs/images/ihub-fiware-bridge.png'></td></tr>",
-					"<tr><td class='ihub-location'>Tunis<br>Tunisia</td><td><img alt='Tunisia' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Tunisia.png'/></td></tr>",
-					"<tr><td class='ihub-name' colspan='6'>iHub FIWARE Bridge</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>iHub FIWARE Bridge</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Type'>Incubated</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Domain</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Domain'>AgriFoodeHealthEnergyWater</td></tr>",
-					"<tr colspan='6'><td class='icons' colspan='1'><a class='cat-twitter' target='_blank' href='' rel='noopener'><span class='icon twitter'></span></a></td></tr>"
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/ihub-fiware-bridge.png'></div>",
+					"<div class='ihub-location'>Tunis<br>Tunisia <img alt='Tunisia' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Tunisia.png'/></div>",
+					"<div class='ihub-name' colspan='6'>iHub FIWARE Bridge</div>",
+					"<div class='visible-with-data attribute' id='Type'>Incubated</div>",
+					"<div class='label'>Domain</div>",
+					"<div>AgriFood&nbsp;eHealth&nbsp;Energy&nbsp;Water&nbsp;</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='http://ihub-brige.org/' rel='noopener'><span class='icon website'></span></div>"
 				]
 			},
 			"geometry":{
@@ -385,14 +365,13 @@ var iHub_data = {
 			"type":"Feature",
 			"properties":{
 				"html": [
-					"<tr><td colspan='6'><img class='featured-image' src='https://www.fiware.org/wp-content/directories/ihubs/images/iot-booster.png'></td></tr>",
-					"<tr><td class='ihub-location'>Saint-Quentin<br>France</td><td><img alt='France' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_France.png'/></td></tr>",
-					"<tr><td class='ihub-name' colspan='6'>IoT Booster</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>IoT Booster</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Type'>Incubated</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Domain</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Domain'>AgriFoodCitiesIndustry</td></tr>",
-					"<tr colspan='6'><td class='icons' colspan='1'><a class='cat-twitter' target='_blank' href='https://twitter.com/Hub_Faubourg' rel='noopener'><span class='icon twitter'></span></a></td></tr>"
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/iot-booster.png'></div>",
+					"<div class='ihub-location'>Saint-Quentin<br>France <img alt='France' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_France.png'/></div>",
+					"<div class='ihub-name' colspan='6'>IoT Booster</div>",
+					"<div class='visible-with-data attribute' id='Type'>Incubated</div>",
+					"<div class='label'>Domain</div>",
+					"<div>AgriFood&nbsp;Cities&nbsp;Industry&nbsp;</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://dih-fbn.com/en/' rel='noopener'><span class='icon website'></span><a class='cat-twitter' target='_blank' href='https://twitter.com/Hub_Faubourg' rel='noopener'><span class='icon twitter'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -404,14 +383,13 @@ var iHub_data = {
 			"type":"Feature",
 			"properties":{
 				"html": [
-					"<tr><td colspan='6'><img class='featured-image' src='https://www.fiware.org/wp-content/directories/ihubs/images/iot-lab-ihub.png'></td></tr>",
-					"<tr><td class='ihub-location'>Geneva<br>Switzerland</td><td><img alt='Switzerland' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Switzerland.png'/></td></tr>",
-					"<tr><td class='ihub-name' colspan='6'>IoT Lab iHub</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>IoT Lab iHub</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Type'>Incubated</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Domain</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Domain'>AgriFoodCitiesEnergySpaceWater</td></tr>",
-					"<tr colspan='6'><td class='icons' colspan='1'><a class='cat-twitter' target='_blank' href='' rel='noopener'><span class='icon twitter'></span></a></td></tr>"
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/iot-lab-ihub.png'></div>",
+					"<div class='ihub-location'>Geneva<br>Switzerland <img alt='Switzerland' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Switzerland.png'/></div>",
+					"<div class='ihub-name' colspan='6'>IoT Lab iHub</div>",
+					"<div class='visible-with-data attribute' id='Type'>Incubated</div>",
+					"<div class='label'>Domain</div>",
+					"<div>AgriFood&nbsp;Cities&nbsp;Energy&nbsp;Space&nbsp;Water&nbsp;</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.udgalliance.org/' rel='noopener'><span class='icon website'></span></div>"
 				]
 			},
 			"geometry":{
@@ -423,14 +401,13 @@ var iHub_data = {
 			"type":"Feature",
 			"properties":{
 				"html": [
-					"<tr><td colspan='6'><img class='featured-image' src='https://www.fiware.org/wp-content/directories/ihubs/images/la-lonja-de-la-innovacion.png'></td></tr>",
-					"<tr><td class='ihub-location'>Huelva<br>Spain</td><td><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png'/></td></tr>",
-					"<tr><td class='ihub-name' colspan='6'>La Lonja de la Innovación</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>La Lonja de la Innovación</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Type'>Incubated</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Domain</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Domain'>LogisticsPortsWater</td></tr>",
-					"<tr colspan='6'><td class='icons' colspan='1'><a class='cat-twitter' target='_blank' href='https://twitter.com/lalonjatech' rel='noopener'><span class='icon twitter'></span></a><a class='cat-linkedin' target='_blank' href='https://www.linkedin.com/company/lalonja-tech/about/?viewAsMember&#x3D;true' rel='noopener'><span class='icon linkedin'></span></a></td></tr>"
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/la-lonja-de-la-innovacion.png'></div>",
+					"<div class='ihub-location'>Huelva<br>Spain <img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png'/></div>",
+					"<div class='ihub-name' colspan='6'>La Lonja de la Innovación</div>",
+					"<div class='visible-with-data attribute' id='Type'>Incubated</div>",
+					"<div class='label'>Domain</div>",
+					"<div>Logistics&nbsp;Ports&nbsp;Water&nbsp;</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://lalonja.tech/' rel='noopener'><span class='icon website'></span><a class='cat-twitter' target='_blank' href='https://twitter.com/lalonjatech' rel='noopener'><span class='icon twitter'></span></a><a class='cat-linkedin' target='_blank' href='https://www.linkedin.com/company/lalonja-tech/about/?viewAsMember&#x3D;true' rel='noopener'><span class='icon linkedin'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -442,14 +419,13 @@ var iHub_data = {
 			"type":"Feature",
 			"properties":{
 				"html": [
-					"<tr><td colspan='6'><img class='featured-image' src='https://www.fiware.org/wp-content/directories/ihubs/images/la-vega-innova.png'></td></tr>",
-					"<tr><td class='ihub-location'>Madrid<br>Spain</td><td><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png'/></td></tr>",
-					"<tr><td class='ihub-name' colspan='6'>La Vega Innova</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>La Vega Innova</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Type'>Incubated</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Domain</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Domain'>AgriFood</td></tr>",
-					"<tr colspan='6'><td class='icons' colspan='1'><a class='cat-twitter' target='_blank' href='https://twitter.com/lavegainnova' rel='noopener'><span class='icon twitter'></span></a><a class='cat-linkedin' target='_blank' href='https://www.linkedin.com/company/la-vega-innova/' rel='noopener'><span class='icon linkedin'></span></a></td></tr>"
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/la-vega-innova.png'></div>",
+					"<div class='ihub-location'>Madrid<br>Spain <img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png'/></div>",
+					"<div class='ihub-name' colspan='6'>La Vega Innova</div>",
+					"<div class='visible-with-data attribute' id='Type'>Incubated</div>",
+					"<div class='label'>Domain</div>",
+					"<div>AgriFood&nbsp;</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://lavegainnova.es/' rel='noopener'><span class='icon website'></span><a class='cat-twitter' target='_blank' href='https://twitter.com/lavegainnova' rel='noopener'><span class='icon twitter'></span></a><a class='cat-linkedin' target='_blank' href='https://www.linkedin.com/company/la-vega-innova/' rel='noopener'><span class='icon linkedin'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -461,14 +437,13 @@ var iHub_data = {
 			"type":"Feature",
 			"properties":{
 				"html": [
-					"<tr><td colspan='6'><img class='featured-image' src='https://www.fiware.org/wp-content/directories/ihubs/images/lanif.png'></td></tr>",
-					"<tr><td class='ihub-location'>México City<br>Mexico</td><td><img alt='Mexico' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Mexico.png'/></td></tr>",
-					"<tr><td class='ihub-name' colspan='6'>LaNIF</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>LaNIF</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Type'>Incubated</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Domain</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Domain'>CitieseHealth</td></tr>",
-					"<tr colspan='6'><td class='icons' colspan='1'><a class='cat-twitter' target='_blank' href='https://twitter.com/LaNIFInfotec' rel='noopener'><span class='icon twitter'></span></a></td></tr>"
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/lanif.png'></div>",
+					"<div class='ihub-location'>México City<br>Mexico <img alt='Mexico' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Mexico.png'/></div>",
+					"<div class='ihub-name' colspan='6'>LaNIF</div>",
+					"<div class='visible-with-data attribute' id='Type'>Incubated</div>",
+					"<div class='label'>Domain</div>",
+					"<div>Cities&nbsp;eHealth&nbsp;</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.infotec.mx/en_mx/Infotec/LaNif' rel='noopener'><span class='icon website'></span><a class='cat-twitter' target='_blank' href='https://twitter.com/LaNIFInfotec' rel='noopener'><span class='icon twitter'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -480,14 +455,13 @@ var iHub_data = {
 			"type":"Feature",
 			"properties":{
 				"html": [
-					"<tr><td colspan='6'><img class='featured-image' src='https://www.fiware.org/wp-content/directories/ihubs/images/madeira-fiware-ihub.png'></td></tr>",
-					"<tr><td class='ihub-location'>Funchal<br>Portugal</td><td><img alt='Portugal' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Portugal.png'/></td></tr>",
-					"<tr><td class='ihub-name' colspan='6'>Madeira FIWARE iHub</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Madeira FIWARE iHub</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Type'>Incubated</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Domain</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Domain'>AgriFoodCitiesEnergyIndustryTourism</td></tr>",
-					"<tr colspan='6'><td class='icons' colspan='1'><a class='cat-twitter' target='_blank' href='https://twitter.com/madeirafiware' rel='noopener'><span class='icon twitter'></span></a><a class='cat-linkedin' target='_blank' href='https://www.linkedin.com/company/madeirafiware' rel='noopener'><span class='icon linkedin'></span></a></td></tr>"
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/madeira-fiware-ihub.png'></div>",
+					"<div class='ihub-location'>Funchal<br>Portugal <img alt='Portugal' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Portugal.png'/></div>",
+					"<div class='ihub-name' colspan='6'>Madeira FIWARE iHub</div>",
+					"<div class='visible-with-data attribute' id='Type'>Incubated</div>",
+					"<div class='label'>Domain</div>",
+					"<div>AgriFood&nbsp;Cities&nbsp;Energy&nbsp;Industry&nbsp;Tourism&nbsp;</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://madeirafiwareihub.org/' rel='noopener'><span class='icon website'></span><a class='cat-twitter' target='_blank' href='https://twitter.com/madeirafiware' rel='noopener'><span class='icon twitter'></span></a><a class='cat-linkedin' target='_blank' href='https://www.linkedin.com/company/madeirafiware' rel='noopener'><span class='icon linkedin'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -499,14 +473,13 @@ var iHub_data = {
 			"type":"Feature",
 			"properties":{
 				"html": [
-					"<tr><td colspan='6'><img class='featured-image' src='https://www.fiware.org/wp-content/directories/ihubs/images/madinah-innovation-lab.png'></td></tr>",
-					"<tr><td class='ihub-location'>Madinah<br>Saudi Arabia</td><td><img alt='Saudi Arabia' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_SaudiArabia.png'/></td></tr>",
-					"<tr><td class='ihub-name' colspan='6'>Madinah Innovation Lab | MIL</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Madinah Innovation Lab | MIL</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Type'>Incubated</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Domain</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Domain'>AgriFoodCitieseHealthIndustryTourism</td></tr>",
-					"<tr colspan='6'><td class='icons' colspan='1'></td></tr>"
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/madinah-innovation-lab.png'></div>",
+					"<div class='ihub-location'>Madinah<br>Saudi Arabia <img alt='Saudi Arabia' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_SaudiArabia.png'/></div>",
+					"<div class='ihub-name' colspan='6'>Madinah Innovation Lab | MIL</div>",
+					"<div class='visible-with-data attribute' id='Type'>Incubated</div>",
+					"<div class='label'>Domain</div>",
+					"<div>AgriFood&nbsp;Cities&nbsp;eHealth&nbsp;Industry&nbsp;Tourism&nbsp;</div>",
+					"<div class='icons'><a class='cat-twitter' target='_blank' href='Not yet' rel='noopener'><span class='icon twitter'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -518,14 +491,13 @@ var iHub_data = {
 			"type":"Feature",
 			"properties":{
 				"html": [
-					"<tr><td colspan='6'><img class='featured-image' src='https://www.fiware.org/wp-content/directories/ihubs/images/maroc-numeric-cluster.png'></td></tr>",
-					"<tr><td class='ihub-location'>Casablanca<br>Morocco</td><td><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png'/></td></tr>",
-					"<tr><td class='ihub-name' colspan='6'>Maroc Numeric Cluster</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Maroc Numeric Cluster</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Type'>Incubated</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Domain</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Domain'>AgriFoodCitiesEnergyIndustry</td></tr>",
-					"<tr colspan='6'><td class='icons' colspan='1'><a class='cat-linkedin' target='_blank' href='https://www.linkedin.com/company/maroc-numeric-cluster' rel='noopener'><span class='icon linkedin'></span></a></td></tr>"
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/maroc-numeric-cluster.png'></div>",
+					"<div class='ihub-location'>Casablanca<br>Morocco <img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png'/></div>",
+					"<div class='ihub-name' colspan='6'>Maroc Numeric Cluster</div>",
+					"<div class='visible-with-data attribute' id='Type'>Incubated</div>",
+					"<div class='label'>Domain</div>",
+					"<div>AgriFood&nbsp;Cities&nbsp;Energy&nbsp;Industry&nbsp;</div>",
+					"<div class='icons'><a class='cat-linkedin' target='_blank' href='https://www.linkedin.com/company/maroc-numeric-cluster' rel='noopener'><span class='icon linkedin'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -537,14 +509,13 @@ var iHub_data = {
 			"type":"Feature",
 			"properties":{
 				"html": [
-					"<tr><td colspan='6'><img class='featured-image' src='https://www.fiware.org/wp-content/directories/ihubs/images/marso-ihub.png'></td></tr>",
-					"<tr><td class='ihub-location'>Bogotá<br>Colombia</td><td><img alt='Colombia' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Colombia.png'/></td></tr>",
-					"<tr><td class='ihub-name' colspan='6'>Marso iHub</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Marso iHub</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Type'>Incubated</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Domain</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Domain'>CitiesIndustry</td></tr>",
-					"<tr colspan='6'><td class='icons' colspan='1'><a class='cat-twitter' target='_blank' href='Not yet' rel='noopener'><span class='icon twitter'></span></a></td></tr>"
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/marso-ihub.png'></div>",
+					"<div class='ihub-location'>Bogotá<br>Colombia <img alt='Colombia' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Colombia.png'/></div>",
+					"<div class='ihub-name' colspan='6'>Marso iHub</div>",
+					"<div class='visible-with-data attribute' id='Type'>Incubated</div>",
+					"<div class='label'>Domain</div>",
+					"<div>Cities&nbsp;Industry&nbsp;</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://marsotechnologies.com/' rel='noopener'><span class='icon website'></span><a class='cat-twitter' target='_blank' href='Not yet' rel='noopener'><span class='icon twitter'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -556,14 +527,13 @@ var iHub_data = {
 			"type":"Feature",
 			"properties":{
 				"html": [
-					"<tr><td colspan='6'><img class='featured-image' src='https://www.fiware.org/wp-content/directories/ihubs/images/medihub.png'></td></tr>",
-					"<tr><td class='ihub-location'>Naples<br>Italy</td><td><img alt='Italy' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Italy.png'/></td></tr>",
-					"<tr><td class='ihub-name' colspan='6'>MEDiHub</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>MEDiHub</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Type'>Incubated</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Domain</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Domain'>CitiesCultureHeritageSeaTourism</td></tr>",
-					"<tr colspan='6'><td class='icons' colspan='1'><a class='cat-twitter' target='_blank' href='' rel='noopener'><span class='icon twitter'></span></a></td></tr>"
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/medihub.png'></div>",
+					"<div class='ihub-location'>Naples<br>Italy <img alt='Italy' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Italy.png'/></div>",
+					"<div class='ihub-name' colspan='6'>MEDiHub</div>",
+					"<div class='visible-with-data attribute' id='Type'>Incubated</div>",
+					"<div class='label'>Domain</div>",
+					"<div>Cities&nbsp;Culture&nbsp;Heritage&nbsp;Sea&nbsp;Tourism&nbsp;</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://medihub.meditech4.com/' rel='noopener'><span class='icon website'></span></div>"
 				]
 			},
 			"geometry":{
@@ -575,14 +545,13 @@ var iHub_data = {
 			"type":"Feature",
 			"properties":{
 				"html": [
-					"<tr><td colspan='6'><img class='featured-image' src='https://www.fiware.org/wp-content/directories/ihubs/images/mindful-tech-institute.png'></td></tr>",
-					"<tr><td class='ihub-location'>Gatineau<br>Canada</td><td><img alt='Canada' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Canada.png'/></td></tr>",
-					"<tr><td class='ihub-name' colspan='6'>MindfulTech Institute</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>MindfulTech Institute</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Type'>Incubated</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Domain</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Domain'>Community</td></tr>",
-					"<tr colspan='6'><td class='icons' colspan='1'><a class='cat-twitter' target='_blank' href='' rel='noopener'><span class='icon twitter'></span></a></td></tr>"
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/mindful-tech-institute.png'></div>",
+					"<div class='ihub-location'>Gatineau<br>Canada <img alt='Canada' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Canada.png'/></div>",
+					"<div class='ihub-name' colspan='6'>MindfulTech Institute</div>",
+					"<div class='visible-with-data attribute' id='Type'>Incubated</div>",
+					"<div class='label'>Domain</div>",
+					"<div>Community&nbsp;</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.mindfultech.institute/' rel='noopener'><span class='icon website'></span></div>"
 				]
 			},
 			"geometry":{
@@ -594,14 +563,13 @@ var iHub_data = {
 			"type":"Feature",
 			"properties":{
 				"html": [
-					"<tr><td colspan='6'><img class='featured-image' src='https://www.fiware.org/wp-content/directories/ihubs/images/matis-ihub.png'></td></tr>",
-					"<tr><td class='ihub-location'>Sao Paolo<br>Brazil</td><td><img alt='Brazil' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Brazil.png'/></td></tr>",
-					"<tr><td class='ihub-name' colspan='6'>MOA GLOBAL</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>MOA GLOBAL</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Type'>Incubated</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Domain</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Domain'>AgriFoodCitieseHealthLogistics</td></tr>",
-					"<tr colspan='6'><td class='icons' colspan='1'><a class='cat-twitter' target='_blank' href='' rel='noopener'><span class='icon twitter'></span></a><a class='cat-linkedin' target='_blank' href='www.linkedin.com/company /moa-global' rel='noopener'><span class='icon linkedin'></span></a></td></tr>"
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/matis-ihub.png'></div>",
+					"<div class='ihub-location'>Sao Paolo<br>Brazil <img alt='Brazil' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Brazil.png'/></div>",
+					"<div class='ihub-name' colspan='6'>MOA GLOBAL</div>",
+					"<div class='visible-with-data attribute' id='Type'>Incubated</div>",
+					"<div class='label'>Domain</div>",
+					"<div>AgriFood&nbsp;Cities&nbsp;eHealth&nbsp;Logistics&nbsp;</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.moaglobal.net/' rel='noopener'><span class='icon website'></span><a class='cat-linkedin' target='_blank' href='www.linkedin.com/company /moa-global' rel='noopener'><span class='icon linkedin'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -613,14 +581,13 @@ var iHub_data = {
 			"type":"Feature",
 			"properties":{
 				"html": [
-					"<tr><td colspan='6'><img class='featured-image' src='https://www.fiware.org/wp-content/directories/ihubs/images/mydigitalcity.png'></td></tr>",
-					"<tr><td class='ihub-location'>Halden<br>Norway</td><td><img alt='Norway' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Norway.png'/></td></tr>",
-					"<tr><td class='ihub-name' colspan='6'>My Digital City</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>My Digital City</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Type'>Incubated</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Domain</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Domain'>CitiesEnergyIndustryTourism</td></tr>",
-					"<tr colspan='6'><td class='icons' colspan='1'><a class='cat-twitter' target='_blank' href='https://twitter.com/MyDigitalCityNO' rel='noopener'><span class='icon twitter'></span></a><a class='cat-linkedin' target='_blank' href='https://www.linkedin.com/company/my-digital-city-norway' rel='noopener'><span class='icon linkedin'></span></a></td></tr>"
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/mydigitalcity.png'></div>",
+					"<div class='ihub-location'>Halden<br>Norway <img alt='Norway' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Norway.png'/></div>",
+					"<div class='ihub-name' colspan='6'>My Digital City</div>",
+					"<div class='visible-with-data attribute' id='Type'>Incubated</div>",
+					"<div class='label'>Domain</div>",
+					"<div>Cities&nbsp;Energy&nbsp;Industry&nbsp;Tourism&nbsp;</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://mydigitalcity.no/' rel='noopener'><span class='icon website'></span><a class='cat-twitter' target='_blank' href='https://twitter.com/MyDigitalCityNO' rel='noopener'><span class='icon twitter'></span></a><a class='cat-linkedin' target='_blank' href='https://www.linkedin.com/company/my-digital-city-norway' rel='noopener'><span class='icon linkedin'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -632,14 +599,13 @@ var iHub_data = {
 			"type":"Feature",
 			"properties":{
 				"html": [
-					"<tr><td colspan='6'><img class='featured-image' src='https://www.fiware.org/wp-content/directories/ihubs/images/nivid-technologies.png'></td></tr>",
-					"<tr><td class='ihub-location'>Sterling, Virginia<br>USA</td><td><img alt='USA' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_United-States.png'/></td></tr>",
-					"<tr><td class='ihub-name' colspan='6'>Nivid Technologies</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Nivid Technologies</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Type'>Incubated</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Domain</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Domain'>CitiesEnergy</td></tr>",
-					"<tr colspan='6'><td class='icons' colspan='1'><a class='cat-twitter' target='_blank' href='https://twitter.com/nividtech' rel='noopener'><span class='icon twitter'></span></a><a class='cat-linkedin' target='_blank' href='https://in.linkedin.com/company/nividtechnologies' rel='noopener'><span class='icon linkedin'></span></a></td></tr>"
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/nivid-technologies.png'></div>",
+					"<div class='ihub-location'>Sterling, Virginia<br>USA <img alt='USA' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_United-States.png'/></div>",
+					"<div class='ihub-name' colspan='6'>Nivid Technologies</div>",
+					"<div class='visible-with-data attribute' id='Type'>Incubated</div>",
+					"<div class='label'>Domain</div>",
+					"<div>Cities&nbsp;Energy&nbsp;</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://nividit.com' rel='noopener'><span class='icon website'></span><a class='cat-twitter' target='_blank' href='https://twitter.com/nividtech' rel='noopener'><span class='icon twitter'></span></a><a class='cat-linkedin' target='_blank' href='https://in.linkedin.com/company/nividtechnologies' rel='noopener'><span class='icon linkedin'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -651,12 +617,11 @@ var iHub_data = {
 			"type":"Feature",
 			"properties":{
 				"html": [
-					"<tr><td colspan='6'><img class='featured-image' src='https://www.fiware.org/wp-content/directories/ihubs/images/north-iberia-fiware-ihub.png'></td></tr>",
-					"<tr><td class='ihub-location'>La Rioja<br>Spain</td><td><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png'/></td></tr>",
-					"<tr><td class='ihub-name' colspan='6'>North Iberia FIWARE iHub</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>North Iberia FIWARE iHub</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Type'>Incubated</td></tr>",
-					"<tr colspan='6'><td class='icons' colspan='1'><a class='cat-twitter' target='_blank' href='https://twitter.com/AERTIC' rel='noopener'><span class='icon twitter'></span></a><a class='cat-linkedin' target='_blank' href='https://www.linkedin.com/company/aei-aertic/' rel='noopener'><span class='icon linkedin'></span></a></td></tr>"
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/north-iberia-fiware-ihub.png'></div>",
+					"<div class='ihub-location'>La Rioja<br>Spain <img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png'/></div>",
+					"<div class='ihub-name' colspan='6'>North Iberia FIWARE iHub</div>",
+					"<div class='visible-with-data attribute' id='Type'>Incubated</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://northiberiafiware.org/' rel='noopener'><span class='icon website'></span><a class='cat-twitter' target='_blank' href='https://twitter.com/AERTIC' rel='noopener'><span class='icon twitter'></span></a><a class='cat-linkedin' target='_blank' href='https://www.linkedin.com/company/aei-aertic/' rel='noopener'><span class='icon linkedin'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -668,14 +633,13 @@ var iHub_data = {
 			"type":"Feature",
 			"properties":{
 				"html": [
-					"<tr><td colspan='6'><img class='featured-image' src='https://www.fiware.org/wp-content/directories/ihubs/images/nosc-ua-dih.png'></td></tr>",
-					"<tr><td class='ihub-location'>Kyiv<br>Ukraine</td><td><img alt='Ukraine' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Ukraine.png'/></td></tr>",
-					"<tr><td class='ihub-name' colspan='6'>NOSC-UA DIH FIWARE iHub</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>NOSC-UA DIH FIWARE iHub</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Type'>Incubated</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Domain</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Domain'>Multidomain</td></tr>",
-					"<tr colspan='6'><td class='icons' colspan='1'><a class='cat-twitter' target='_blank' href='https://twitter.com/NOSC_UA_DIH' rel='noopener'><span class='icon twitter'></span></a><a class='cat-linkedin' target='_blank' href='https://www.linkedin.com/showcase/nosc-ua-dih/' rel='noopener'><span class='icon linkedin'></span></a></td></tr>"
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/nosc-ua-dih.png'></div>",
+					"<div class='ihub-location'>Kyiv<br>Ukraine <img alt='Ukraine' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Ukraine.png'/></div>",
+					"<div class='ihub-name' colspan='6'>NOSC-UA DIH FIWARE iHub</div>",
+					"<div class='visible-with-data attribute' id='Type'>Incubated</div>",
+					"<div class='label'>Domain</div>",
+					"<div>Multidomain&nbsp;</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='http://cloud-5.bitp.kiev.ua/?page_id&#x3D;1256&amp;lang&#x3D;en' rel='noopener'><span class='icon website'></span><a class='cat-twitter' target='_blank' href='https://twitter.com/NOSC_UA_DIH' rel='noopener'><span class='icon twitter'></span></a><a class='cat-linkedin' target='_blank' href='https://www.linkedin.com/showcase/nosc-ua-dih/' rel='noopener'><span class='icon linkedin'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -687,14 +651,13 @@ var iHub_data = {
 			"type":"Feature",
 			"properties":{
 				"html": [
-					"<tr><td colspan='6'><img class='featured-image' src='https://www.fiware.org/wp-content/directories/ihubs/images/open-memory-lab-fiware-ihub.png'></td></tr>",
-					"<tr><td class='ihub-location'>Mikkeli<br>Finland</td><td><img alt='Finland' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Finland.png'/></td></tr>",
-					"<tr><td class='ihub-name' colspan='6'>Open MemoryLab FIWARE iHub</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Open MemoryLab FIWARE iHub</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Type'>Incubated</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Domain</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Domain'>AgriFoodCitiesEnergyIndustryWater</td></tr>",
-					"<tr colspan='6'><td class='icons' colspan='1'><a class='cat-twitter' target='_blank' href='' rel='noopener'><span class='icon twitter'></span></a></td></tr>"
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/open-memory-lab-fiware-ihub.png'></div>",
+					"<div class='ihub-location'>Mikkeli<br>Finland <img alt='Finland' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Finland.png'/></div>",
+					"<div class='ihub-name' colspan='6'>Open MemoryLab FIWARE iHub</div>",
+					"<div class='visible-with-data attribute' id='Type'>Incubated</div>",
+					"<div class='label'>Domain</div>",
+					"<div>AgriFood&nbsp;Cities&nbsp;Energy&nbsp;Industry&nbsp;Water&nbsp;</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://fiware.memorylab.fi/' rel='noopener'><span class='icon website'></span></div>"
 				]
 			},
 			"geometry":{
@@ -706,14 +669,13 @@ var iHub_data = {
 			"type":"Feature",
 			"properties":{
 				"html": [
-					"<tr><td colspan='6'><img class='featured-image' src='https://www.fiware.org/wp-content/directories/ihubs/images/uni-fiware-ihub.png'></td></tr>",
-					"<tr><td class='ihub-location'>Athens<br>Greece</td><td><img alt='Greece' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Greece.png'/></td></tr>",
-					"<tr><td class='ihub-name' colspan='6'>Pleiades IoT Innovation Cluster</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Pleiades IoT Innovation Cluster</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Type'>Incubated</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Domain</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Domain'>CitiesEnergyIndustryLogisticsTourism</td></tr>",
-					"<tr colspan='6'><td class='icons' colspan='1'><a class='cat-twitter' target='_blank' href='' rel='noopener'><span class='icon twitter'></span></a><a class='cat-linkedin' target='_blank' href='https://www.linkedin.com/company/pleiades-iot-innovation-cluster/' rel='noopener'><span class='icon linkedin'></span></a></td></tr>"
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/uni-fiware-ihub.png'></div>",
+					"<div class='ihub-location'>Athens<br>Greece <img alt='Greece' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Greece.png'/></div>",
+					"<div class='ihub-name' colspan='6'>Pleiades IoT Innovation Cluster</div>",
+					"<div class='visible-with-data attribute' id='Type'>Incubated</div>",
+					"<div class='label'>Domain</div>",
+					"<div>Cities&nbsp;Energy&nbsp;Industry&nbsp;Logistics&nbsp;Tourism&nbsp;</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://pleiadesiot.com/' rel='noopener'><span class='icon website'></span><a class='cat-linkedin' target='_blank' href='https://www.linkedin.com/company/pleiades-iot-innovation-cluster/' rel='noopener'><span class='icon linkedin'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -725,14 +687,13 @@ var iHub_data = {
 			"type":"Feature",
 			"properties":{
 				"html": [
-					"<tr><td colspan='6'><img class='featured-image' src='https://www.fiware.org/wp-content/directories/ihubs/images/smartmetropolis.png'></td></tr>",
-					"<tr><td class='ihub-location'>Natal<br>Brazil</td><td><img alt='Brazil' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Brazil.png'/></td></tr>",
-					"<tr><td class='ihub-name' colspan='6'>Smart Metropolis FIWARE iHub</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Smart Metropolis FIWARE iHub</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Type'>Incubated</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Domain</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Domain'>CitiesSustainability</td></tr>",
-					"<tr colspan='6'><td class='icons' colspan='1'><a class='cat-twitter' target='_blank' href='' rel='noopener'><span class='icon twitter'></span></a><a class='cat-linkedin' target='_blank' href='https://www.linkedin.com/company/smartmetropolis/' rel='noopener'><span class='icon linkedin'></span></a></td></tr>"
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/smartmetropolis.png'></div>",
+					"<div class='ihub-location'>Natal<br>Brazil <img alt='Brazil' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Brazil.png'/></div>",
+					"<div class='ihub-name' colspan='6'>Smart Metropolis FIWARE iHub</div>",
+					"<div class='visible-with-data attribute' id='Type'>Incubated</div>",
+					"<div class='label'>Domain</div>",
+					"<div>Cities&nbsp;Sustainability&nbsp;</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://ihub.imd.ufrn.br/en/' rel='noopener'><span class='icon website'></span><a class='cat-linkedin' target='_blank' href='https://www.linkedin.com/company/smartmetropolis/' rel='noopener'><span class='icon linkedin'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -744,14 +705,13 @@ var iHub_data = {
 			"type":"Feature",
 			"properties":{
 				"html": [
-					"<tr><td colspan='6'><img class='featured-image' src='https://www.fiware.org/wp-content/directories/ihubs/images/smarta-byar-smart-village-community.png'></td></tr>",
-					"<tr><td class='ihub-location'>Brookline, Massachusetts<br>USA</td><td><img alt='USA' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_United-States.png'/></td></tr>",
-					"<tr><td class='ihub-name' colspan='6'>Smarta Byar Smart Village Community</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Smarta Byar Smart Village Community</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Type'>Incubated</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Domain</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Domain'>Cities</td></tr>",
-					"<tr colspan='6'><td class='icons' colspan='1'><a class='cat-twitter' target='_blank' href='' rel='noopener'><span class='icon twitter'></span></a></td></tr>"
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/smarta-byar-smart-village-community.png'></div>",
+					"<div class='ihub-location'>Brookline, Massachusetts<br>USA <img alt='USA' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_United-States.png'/></div>",
+					"<div class='ihub-name' colspan='6'>Smarta Byar Smart Village Community</div>",
+					"<div class='visible-with-data attribute' id='Type'>Incubated</div>",
+					"<div class='label'>Domain</div>",
+					"<div>Cities&nbsp;</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://smartvillage.computate.org/' rel='noopener'><span class='icon website'></span></div>"
 				]
 			},
 			"geometry":{
@@ -763,14 +723,13 @@ var iHub_data = {
 			"type":"Feature",
 			"properties":{
 				"html": [
-					"<tr><td colspan='6'><img class='featured-image' src='https://www.fiware.org/wp-content/directories/ihubs/images/the-texas-project-ihub.png'></td></tr>",
-					"<tr><td class='ihub-location'>Austin, Texas<br>USA</td><td><img alt='USA' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_United-States.png'/></td></tr>",
-					"<tr><td class='ihub-name' colspan='6'>The Texas Project iHub</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>The Texas Project iHub</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Type'>Incubated</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Domain</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Domain'>CitieseHealthEnergyIndustryWater</td></tr>",
-					"<tr colspan='6'><td class='icons' colspan='1'><a class='cat-twitter' target='_blank' href='https://www.twitter.com/INNOVATIONTX' rel='noopener'><span class='icon twitter'></span></a></td></tr>"
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/the-texas-project-ihub.png'></div>",
+					"<div class='ihub-location'>Austin, Texas<br>USA <img alt='USA' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_United-States.png'/></div>",
+					"<div class='ihub-name' colspan='6'>The Texas Project iHub</div>",
+					"<div class='visible-with-data attribute' id='Type'>Incubated</div>",
+					"<div class='label'>Domain</div>",
+					"<div>Cities&nbsp;eHealth&nbsp;Energy&nbsp;Industry&nbsp;Water&nbsp;</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.thetexasproject.com/' rel='noopener'><span class='icon website'></span><a class='cat-twitter' target='_blank' href='https://www.twitter.com/INNOVATIONTX' rel='noopener'><span class='icon twitter'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -782,14 +741,13 @@ var iHub_data = {
 			"type":"Feature",
 			"properties":{
 				"html": [
-					"<tr><td colspan='6'><img class='featured-image' src='https://www.fiware.org/wp-content/directories/ihubs/images/tourilab.png'></td></tr>",
-					"<tr><td class='ihub-location'>Fuerteventura<br>Spain</td><td><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png'/></td></tr>",
-					"<tr><td class='ihub-name' colspan='6'>TOURiLab</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>TOURiLab</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Type'>Incubated</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Domain</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Domain'>SustainabilityTourism</td></tr>",
-					"<tr colspan='6'><td class='icons' colspan='1'><a class='cat-twitter' target='_blank' href='' rel='noopener'><span class='icon twitter'></span></a></td></tr>"
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/tourilab.png'></div>",
+					"<div class='ihub-location'>Fuerteventura<br>Spain <img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png'/></div>",
+					"<div class='ihub-name' colspan='6'>TOURiLab</div>",
+					"<div class='visible-with-data attribute' id='Type'>Incubated</div>",
+					"<div class='label'>Domain</div>",
+					"<div>Sustainability&nbsp;Tourism&nbsp;</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='http://tourilab.com/' rel='noopener'><span class='icon website'></span></div>"
 				]
 			},
 			"geometry":{
@@ -801,14 +759,13 @@ var iHub_data = {
 			"type":"Feature",
 			"properties":{
 				"html": [
-					"<tr><td colspan='6'><img class='featured-image' src='https://www.fiware.org/wp-content/directories/ihubs/images/upb-fiware-ihub.png'></td></tr>",
-					"<tr><td class='ihub-location'>Medellin<br>Colombia</td><td><img alt='Colombia' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Colombia.png'/></td></tr>",
-					"<tr><td class='ihub-name' colspan='6'>UPB FIWARE iHub</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>UPB FIWARE iHub</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Type'>Incubated</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Domain</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Domain'>AgriFoodCitiesEnergyIndustryWater</td></tr>",
-					"<tr colspan='6'><td class='icons' colspan='1'><a class='cat-twitter' target='_blank' href='Not yet' rel='noopener'><span class='icon twitter'></span></a></td></tr>"
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/upb-fiware-ihub.png'></div>",
+					"<div class='ihub-location'>Medellin<br>Colombia <img alt='Colombia' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Colombia.png'/></div>",
+					"<div class='ihub-name' colspan='6'>UPB FIWARE iHub</div>",
+					"<div class='visible-with-data attribute' id='Type'>Incubated</div>",
+					"<div class='label'>Domain</div>",
+					"<div>AgriFood&nbsp;Cities&nbsp;Energy&nbsp;Industry&nbsp;Water&nbsp;</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.upb.edu.co/es/centro-energia-inteligente-y-sostenible-sec' rel='noopener'><span class='icon website'></span><a class='cat-twitter' target='_blank' href='Not yet' rel='noopener'><span class='icon twitter'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -820,14 +777,13 @@ var iHub_data = {
 			"type":"Feature",
 			"properties":{
 				"html": [
-					"<tr><td colspan='6'><img class='featured-image' src='https://www.fiware.org/wp-content/directories/ihubs/images/urban-sp.png'></td></tr>",
-					"<tr><td class='ihub-location'>Miami, Florida<br>USA</td><td><img alt='USA' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_United-States.png'/></td></tr>",
-					"<tr><td class='ihub-name' colspan='6'>Urban SP</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Urban SP</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Type'>Incubated</td></tr>",
-					"<tr><th colspan='6' scope='row' class='label'>Domain</th></tr>",
-					"<tr><td colspan='6' class='visible-with-data attribute' id='Domain'>CitiesEnvironmentMobilitySafety and Security</td></tr>",
-					"<tr colspan='6'><td class='icons' colspan='1'><a class='cat-twitter' target='_blank' href='' rel='noopener'><span class='icon twitter'></span></a></td></tr>"
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/urban-sp.png'></div>",
+					"<div class='ihub-location'>Miami, Florida<br>USA <img alt='USA' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_United-States.png'/></div>",
+					"<div class='ihub-name' colspan='6'>Urban SP</div>",
+					"<div class='visible-with-data attribute' id='Type'>Incubated</div>",
+					"<div class='label'>Domain</div>",
+					"<div>Cities&nbsp;Environment&nbsp;Mobility&nbsp;Safety and Security&nbsp;</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.urbansp.city/' rel='noopener'><span class='icon website'></span></div>"
 				]
 			},
 			"geometry":{
