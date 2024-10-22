@@ -756,7 +756,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[-71.1629459,,42.3232021]
+				"coordinates":[-71.1629459,42.3232021]
 			}
 		},
 		{
