@@ -1,4 +1,4 @@
-var cities_data = {
+{
 	"type":"FeatureCollection","name":"cities",
 	"crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},
 	"features":[
@@ -9,17 +9,15 @@ var cities_data = {
 				"html": [
 					"<div ><img class='gridElementLogo' src='{{img}}'/></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>{{city}}</h3>{{#if country}}<img alt='{{country}}' class='flag' src='{{flag}}' style='margin-left: auto;'/>{{/if}}</div>",
-					"<div class='ihub-name'>{{city}}</div>",
-					{{#if contacts}}
-					"<div class='icons'>{{#if website}}<a class='cat-website' target='_blank' href='{{website}}' rel='noopener'><span class='icon website'></span>{{/if}}{{#if twitter}}<a class='cat-twitter' target='_blank' href='{{twitter}}' rel='noopener'><span class='icon twitter'></span></a>{{/if}}{{#if linkedIn}}<a class='cat-linkedin' target='_blank' href='{{linkedIn}}' rel='noopener'><span class='icon linkedin'></span></a>{{/if}}</div>"
-					{{/if}}
+					"<div class='ihub-name'>{{city}}</div>"{{#if contacts}},
+					"<div class='icons'>{{#if website}}<a class='cat-website' target='_blank' href='{{website}}' rel='noopener'><span class='icon website'></span>{{/if}}{{#if twitter}}<a class='cat-twitter' target='_blank' href='{{twitter}}' rel='noopener'><span class='icon twitter'></span></a>{{/if}}{{#if linkedIn}}<a class='cat-linkedin' target='_blank' href='{{linkedIn}}' rel='noopener'><span class='icon linkedin'></span></a>{{/if}}</div>"{{/if}}
 				]
 			},
 			"geometry":{
 				"type":"Point",
 				"coordinates":[{{lng}},{{lat}}]
 			}
-		},
+		}{{#unless @last}},{{/unless}}
 		{{/each}}
 	]
-};
+}
