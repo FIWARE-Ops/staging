@@ -1,4 +1,4 @@
-var iHub_data = {
+var cities_data = {
 	"type":"FeatureCollection","name":"cities",
 	"crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},
 	"features":[
@@ -13,7 +13,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-58.3815591,-34.6036844]
 			}
 		},
 		{
@@ -27,7 +27,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-59.8227099,-34.3766824]
 			}
 		},
 		{
@@ -41,7 +41,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-65.7795441,-28.469581]
 			}
 		},
 		{
@@ -55,7 +55,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-57.9535657,-34.9204948]
 			}
 		},
 		{
@@ -69,7 +69,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-55.9008746,-27.3621374]
 			}
 		},
 		{
@@ -83,7 +83,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[153.0260341,-27.4704528]
 			}
 		},
 		{
@@ -97,7 +97,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[153.066667,-26.65]
 			}
 		},
 		{
@@ -111,7 +111,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[15.6166788,47.5933772]
 			}
 		},
 		{
@@ -125,7 +125,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[15.439504,47.070714]
 			}
 		},
 		{
@@ -139,7 +139,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[16.3738189,48.2081743]
 			}
 		},
 		{
@@ -153,7 +153,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[4.4051485,51.2213404]
 			}
 		},
 		{
@@ -167,7 +167,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[3.2247552,51.2091807]
 			}
 		},
 		{
@@ -181,7 +181,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[4.3571696,50.8476424]
 			}
 		},
 		{
@@ -195,7 +195,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[3.7303351,51.0500182]
 			}
 		},
 		{
@@ -209,7 +209,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[4.7137645,50.8822871]
 			}
 		},
 		{
@@ -223,7 +223,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[4.4775553,51.0259143]
 			}
 		},
 		{
@@ -237,7 +237,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[3.1292766,50.9498725]
 			}
 		},
 		{
@@ -251,7 +251,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-44.3185172,-23.0069216]
 			}
 		},
 		{
@@ -265,7 +265,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-47.8918874,-15.7975154]
 			}
 		},
 		{
@@ -279,7 +279,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-54.6218477,-20.4648517]
 			}
 		},
 		{
@@ -293,7 +293,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-49.2699727,-25.4372382]
 			}
 		},
 		{
@@ -307,7 +307,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-48.5569286,-27.5948036]
 			}
 		},
 		{
@@ -321,7 +321,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-46.6333824,-23.5506507]
 			}
 		},
 		{
@@ -335,7 +335,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-42.5340796,-22.2887261]
 			}
 		},
 		{
@@ -349,7 +349,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-48.3242858,-10.249091]
 			}
 		},
 		{
@@ -363,7 +363,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-34.8829629,-8.0577401]
 			}
 		},
 		{
@@ -377,7 +377,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-67.8098191,-9.9740249]
 			}
 		},
 		{
@@ -391,7 +391,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-43.1728965,-22.9068467]
 			}
 		},
 		{
@@ -405,7 +405,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-38.5025926,-12.9015848]
 			}
 		},
 		{
@@ -419,7 +419,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-48.2755227,-18.9127749]
 			}
 		},
 		{
@@ -433,7 +433,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-79.6233478,43.679557]
 			}
 		},
 		{
@@ -447,7 +447,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-73.0329273,5.8268951]
 			}
 		},
 		{
@@ -461,7 +461,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-75.5027698,5.0629743]
 			}
 		},
 		{
@@ -475,7 +475,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-75.5658153,6.2476376]
 			}
 		},
 		{
@@ -489,7 +489,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-72.94018,5.7237875]
 			}
 		},
 		{
@@ -503,7 +503,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[18.0944238,42.6506606]
 			}
 		},
 		{
@@ -517,7 +517,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[10.203921,56.162939]
 			}
 		},
 		{
@@ -531,7 +531,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[12.357064,55.659616]
 			}
 		},
 		{
@@ -545,7 +545,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[27.6781725,62.89797]
 			}
 		},
 		{
@@ -559,7 +559,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[24.938379,60.1698557]
 			}
 		},
 		{
@@ -573,7 +573,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[23.7609535,61.4977524]
 			}
 		},
 		{
@@ -587,7 +587,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[5.3102505,43.5911679]
 			}
 		},
 		{
@@ -601,7 +601,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[6.2544415,43.8003619]
 			}
 		},
 		{
@@ -615,7 +615,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-61.1098441,14.6492418]
 			}
 		},
 		{
@@ -629,7 +629,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[5.8614605,43.3876716]
 			}
 		},
 		{
@@ -643,7 +643,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[55.536384,-21.115141]
 			}
 		},
 		{
@@ -657,7 +657,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[7.0498442,43.6882998]
 			}
 		},
 		{
@@ -671,7 +671,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[2.55261,48.848579]
 			}
 		},
 		{
@@ -685,7 +685,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[2.5507715,49.0078597]
 			}
 		},
 		{
@@ -699,7 +699,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[2.8948332,42.6886591]
 			}
 		},
 		{
@@ -713,7 +713,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[3.2874,49.847066]
 			}
 		},
 		{
@@ -727,7 +727,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[4.52405,43.9670879]
 			}
 		},
 		{
@@ -741,7 +741,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[8.052771,51.4073375]
 			}
 		},
 		{
@@ -755,7 +755,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[8.3926278,51.0515666]
 			}
 		},
 		{
@@ -769,7 +769,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[9.7019675,50.8701345]
 			}
 		},
 		{
@@ -783,7 +783,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[10.9027636,49.8988135]
 			}
 		},
 		{
@@ -797,7 +797,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[13.404954,52.5200066]
 			}
 		},
 		{
@@ -811,7 +811,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[8.6511929,49.8728253]
 			}
 		},
 		{
@@ -825,7 +825,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[6.8289112,51.0936851]
 			}
 		},
 		{
@@ -839,7 +839,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[6.4326391,51.4462868]
 			}
 		},
 		{
@@ -853,7 +853,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[9.6358982,50.4622276]
 			}
 		},
 		{
@@ -867,7 +867,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[8.7615176,51.6298449]
 			}
 		},
 		{
@@ -881,7 +881,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[10.6139151,54.1319978]
 			}
 		},
 		{
@@ -895,7 +895,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[9.6808449,50.5558095]
 			}
 		},
 		{
@@ -909,7 +909,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[8.6724335,49.3987524]
 			}
 		},
 		{
@@ -923,7 +923,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[7.2009147,51.5368948]
 			}
 		},
 		{
@@ -937,7 +937,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[9.7690455,50.6726672]
 			}
 		},
 		{
@@ -951,7 +951,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[7.4567493,49.4265087]
 			}
 		},
 		{
@@ -965,7 +965,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[10.1227652,54.3232927]
 			}
 		},
 		{
@@ -979,7 +979,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[9.1105074,47.708352]
 			}
 		},
 		{
@@ -993,7 +993,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[6.9512663,51.1191898]
 			}
 		},
 		{
@@ -1007,7 +1007,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[8.9018625,52.0266732]
 			}
 		},
 		{
@@ -1021,7 +1021,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[10.6865593,53.8654673]
 			}
 		},
 		{
@@ -1035,7 +1035,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[8.2472526,49.9928617]
 			}
 		},
 		{
@@ -1049,7 +1049,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[7.7953337,51.4377453]
 			}
 		},
 		{
@@ -1063,7 +1063,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[6.6408148,51.4516041]
 			}
 		},
 		{
@@ -1077,7 +1077,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[6.4315392,51.1941686]
 			}
 		},
 		{
@@ -1091,7 +1091,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[6.8919926,51.0902426]
 			}
 		},
 		{
@@ -1105,7 +1105,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[7.843424,51.0276975]
 			}
 		},
 		{
@@ -1119,7 +1119,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[8.7575093,51.7189205]
 			}
 		},
 		{
@@ -1133,7 +1133,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[12.8626116,52.428247]
 			}
 		},
 		{
@@ -1147,7 +1147,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[7.5284344,51.4307099]
 			}
 		},
 		{
@@ -1161,7 +1161,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[8.1105291,51.5714188]
 			}
 		},
 		{
@@ -1175,7 +1175,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[6.982486,51.0859543]
 			}
 		},
 		{
@@ -1189,7 +1189,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[9.0863893,51.8697655]
 			}
 		},
 		{
@@ -1203,7 +1203,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[13.2874679,52.5589414]
 			}
 		},
 		{
@@ -1217,7 +1217,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[9.9876076,48.4010822]
 			}
 		},
 		{
@@ -1231,7 +1231,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[10.7865461,52.4226503]
 			}
 		},
 		{
@@ -1245,7 +1245,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[6.9989659,51.2417759]
 			}
 		},
 		{
@@ -1259,7 +1259,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[23.7275388,37.9838096]
 			}
 		},
 		{
@@ -1273,7 +1273,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[25.3776734,37.1035665]
 			}
 		},
 		{
@@ -1287,7 +1287,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[91.2867777,23.831457]
 			}
 		},
 		{
@@ -1301,7 +1301,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[78.0080745,27.1766701]
 			}
 		},
 		{
@@ -1315,7 +1315,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[72.5713621,23.022505]
 			}
 		},
 		{
@@ -1329,7 +1329,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[75.0098903,19.869853]
 			}
 		},
 		{
@@ -1343,7 +1343,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[79.4304381,28.3670355]
 			}
 		},
 		{
@@ -1357,7 +1357,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[74.4672412,15.8667092]
 			}
 		},
 		{
@@ -1371,7 +1371,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[77.5945627,12.9715987]
 			}
 		},
 		{
@@ -1385,7 +1385,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[77.412615,23.2599333]
 			}
 		},
 		{
@@ -1399,7 +1399,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[85.8245398,20.2960587]
 			}
 		},
 		{
@@ -1413,7 +1413,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[82.1306155,22.0796538]
 			}
 		},
 		{
@@ -1427,7 +1427,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[76.7794179,30.7333148]
 			}
 		},
 		{
@@ -1441,7 +1441,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[80.2707184,13.0826802]
 			}
 		},
 		{
@@ -1455,7 +1455,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[76.9558321,11.0168445]
 			}
 		},
 		{
@@ -1469,7 +1469,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[74.2606185,22.8344992]
 			}
 		},
 		{
@@ -1483,7 +1483,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[75.3070102,14.3696395]
 			}
 		},
 		{
@@ -1497,7 +1497,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[77.9347351,30.3254026]
 			}
 		},
 		{
@@ -1511,7 +1511,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[76.3234037,32.219042]
 			}
 		},
 		{
@@ -1525,7 +1525,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[77.3177894,28.4089123]
 			}
 		},
 		{
@@ -1539,7 +1539,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[72.6369415,23.2156354]
 			}
 		},
 		{
@@ -1553,7 +1553,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[78.1084993,26.2141324]
 			}
 		},
 		{
@@ -1567,7 +1567,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[78.486671,17.385044]
 			}
 		},
 		{
@@ -1581,7 +1581,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[75.7872709,26.9124336]
 			}
 		},
 		{
@@ -1595,7 +1595,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[74.7775645,32.7146473]
 			}
 		},
 		{
@@ -1609,7 +1609,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[73.0889498,19.2402382]
 			}
 		},
 		{
@@ -1623,7 +1623,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[75.3703662,11.8744775]
 			}
 		},
 		{
@@ -1637,7 +1637,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[80.3318736,26.449923]
 			}
 		},
 		{
@@ -1651,7 +1651,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[79.0919489,18.4348006]
 			}
 		},
 		{
@@ -1665,7 +1665,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[94.1085998,25.6751129]
 			}
 		},
 		{
@@ -1679,7 +1679,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[80.8601131,26.8486681]
 			}
 		},
 		{
@@ -1693,7 +1693,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[79.0881546,21.1458004]
 			}
 		},
 		{
@@ -1707,7 +1707,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[88.344758,27.1651539]
 			}
 		},
 		{
@@ -1721,7 +1721,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[88.4516017,22.5861507]
 			}
 		},
 		{
@@ -1735,7 +1735,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[77.3910265,28.5355161]
 			}
 		},
 		{
@@ -1749,7 +1749,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[95.2763549,28.0640697]
 			}
 		},
 		{
@@ -1763,7 +1763,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[73.7997094,18.6297811]
 			}
 		},
 		{
@@ -1777,7 +1777,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[81.7190131,25.4023958]
 			}
 		},
 		{
@@ -1791,7 +1791,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[73.8567437,18.5204303]
 			}
 		},
 		{
@@ -1805,7 +1805,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[81.6296413,21.2513844]
 			}
 		},
 		{
@@ -1819,7 +1819,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[70.8021599,22.3038945]
 			}
 		},
 		{
@@ -1833,7 +1833,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[85.2387548,23.3433408]
 			}
 		},
 		{
@@ -1847,7 +1847,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[78.7378068,23.838805]
 			}
 		},
 		{
@@ -1861,7 +1861,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[80.7204772,24.5795182]
 			}
 		},
 		{
@@ -1875,7 +1875,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[77.1734033,31.1048145]
 			}
 		},
 		{
@@ -1889,7 +1889,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[74.7972825,34.0836708]
 			}
 		},
 		{
@@ -1903,7 +1903,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[72.8310607,21.1702401]
 			}
 		},
 		{
@@ -1917,7 +1917,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[76.9366376,8.5241391]
 			}
 		},
 		{
@@ -1931,7 +1931,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[78.1348361,8.7641661]
 			}
 		},
 		{
@@ -1945,7 +1945,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[77.117325,13.3378762]
 			}
 		},
 		{
@@ -1959,7 +1959,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[73.1812187,22.3071588]
 			}
 		},
 		{
@@ -1973,7 +1973,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[82.9739144,25.3176452]
 			}
 		},
 		{
@@ -1987,7 +1987,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[83.2184815,17.6868159]
 			}
 		},
 		{
@@ -2001,7 +2001,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[11.8796336,43.4632839]
 			}
 		},
 		{
@@ -2015,7 +2015,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[11.2558136,43.7695604]
 			}
 		},
 		{
@@ -2029,7 +2029,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[10.6351414,45.6049385]
 			}
 		},
 		{
@@ -2043,7 +2043,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[8.946256,44.4056499]
 			}
 		},
 		{
@@ -2057,7 +2057,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[10.3105674,43.548473]
 			}
 		},
 		{
@@ -2071,7 +2071,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[15.5542057,38.1937335]
 			}
 		},
 		{
@@ -2085,7 +2085,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[9.189982,45.4642035]
 			}
 		},
 		{
@@ -2099,7 +2099,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[10.9252269,44.647128]
 			}
 		},
 		{
@@ -2113,7 +2113,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[14.1604341,40.8536844]
 			}
 		},
 		{
@@ -2127,7 +2127,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[12.3908279,43.1107168]
 			}
 		},
 		{
@@ -2141,7 +2141,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[10.4016888,43.7228386]
 			}
 		},
 		{
@@ -2155,7 +2155,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[10.9078587,43.9303475]
 			}
 		},
 		{
@@ -2169,7 +2169,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[9.7074754,43.3495839]
 			}
 		},
 		{
@@ -2183,7 +2183,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[10.5410119,45.7298265]
 			}
 		},
 		{
@@ -2197,7 +2197,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[12.4963655,41.9027835]
 			}
 		},
 		{
@@ -2211,7 +2211,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[7.686864,45.0703393]
 			}
 		},
 		{
@@ -2225,7 +2225,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[11.5354214,45.5454787]
 			}
 		},
 		{
@@ -2239,7 +2239,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[10.8660333,43.399395]
 			}
 		},
 		{
@@ -2253,7 +2253,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[139.0855869,35.9916443]
 			}
 		},
 		{
@@ -2267,7 +2267,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[130.4016888,33.5901838]
 			}
 		},
 		{
@@ -2281,7 +2281,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[137.4425421,34.9759279]
 			}
 		},
 		{
@@ -2295,7 +2295,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[139.4685613,35.754598]
 			}
 		},
 		{
@@ -2309,7 +2309,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[134.84136,34.7569193]
 			}
 		},
 		{
@@ -2323,7 +2323,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[139.7028012,35.5305307]
 			}
 		},
 		{
@@ -2337,7 +2337,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[133.2833918,33.9602876]
 			}
 		},
 		{
@@ -2351,7 +2351,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[139.1523086,35.2648307]
 			}
 		},
 		{
@@ -2365,7 +2365,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[127.7025012,26.1201911]
 			}
 		},
 		{
@@ -2379,7 +2379,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[141.3544506,43.0617713]
 			}
 		},
 		{
@@ -2393,7 +2393,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[143.1878331,42.6504165]
 			}
 		},
 		{
@@ -2407,7 +2407,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[140.869418,38.268195]
 			}
 		},
 		{
@@ -2421,7 +2421,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[138.3826773,34.9755668]
 			}
 		},
 		{
@@ -2435,7 +2435,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[134.0465405,34.342542]
 			}
 		},
 		{
@@ -2449,7 +2449,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[137.2137211,36.6958223]
 			}
 		},
 		{
@@ -2463,7 +2463,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[140.0764454,36.0835255]
 			}
 		},
 		{
@@ -2477,7 +2477,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[100.3287506,5.4141307]
 			}
 		},
 		{
@@ -2491,7 +2491,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-102.2915677,21.8852562]
 			}
 		},
 		{
@@ -2505,7 +2505,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-99.133208,19.4326077]
 			}
 		},
 		{
@@ -2519,7 +2519,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[7.4246158,43.7384176]
 			}
 		},
 		{
@@ -2533,7 +2533,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-2.3123031,34.9177281]
 			}
 		},
 		{
@@ -2547,7 +2547,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-7.9898258,31.6225224]
 			}
 		},
 		{
@@ -2561,7 +2561,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-7.6114217,33.0266712]
 			}
 		},
 		{
@@ -2575,7 +2575,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-5.3625516,35.5888995]
 			}
 		},
 		{
@@ -2589,7 +2589,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[4.9041389,52.3675734]
 			}
 		},
 		{
@@ -2603,7 +2603,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[5.4622897,51.4231423]
 			}
 		},
 		{
@@ -2617,7 +2617,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[6.8936619,52.2215372]
 			}
 		},
 		{
@@ -2631,7 +2631,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[6.5665018,53.2193835]
 			}
 		},
 		{
@@ -2645,7 +2645,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[5.1668974,52.2291696]
 			}
 		},
 		{
@@ -2659,7 +2659,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[5.1214201,52.0907374]
 			}
 		},
 		{
@@ -2673,7 +2673,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[4.3006999,52.0704978]
 			}
 		},
 		{
@@ -2687,7 +2687,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-79.6182854,9.0817171]
 			}
 		},
 		{
@@ -2701,7 +2701,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[0,0]
 			}
 		},
 		{
@@ -2715,7 +2715,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-77.042754,-12.0463731]
 			}
 		},
 		{
@@ -2729,7 +2729,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-77.030539,-12.1218773]
 			}
 		},
 		{
@@ -2743,7 +2743,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[16.9251681,52.406374]
 			}
 		},
 		{
@@ -2757,7 +2757,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-7.913502,38.571431]
 			}
 		},
 		{
@@ -2771,7 +2771,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-8.2917857,41.44253]
 			}
 		},
 		{
@@ -2785,7 +2785,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-9.1393366,38.7222524]
 			}
 		},
 		{
@@ -2799,7 +2799,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-8.6291053,41.1579438]
 			}
 		},
 		{
@@ -2813,7 +2813,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[27.9594714,45.2652463]
 			}
 		},
 		{
@@ -2827,7 +2827,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[39.5691841,24.5246542]
 			}
 		},
 		{
@@ -2841,7 +2841,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-17.4676861,14.716677]
 			}
 		},
 		{
@@ -2855,7 +2855,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-3.3688023,40.4843898]
 			}
 		},
 		{
@@ -2869,7 +2869,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-0.4810937,38.6987066]
 			}
 		},
 		{
@@ -2883,7 +2883,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-5.456233,36.1407591]
 			}
 		},
 		{
@@ -2897,7 +2897,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-0.7588059,38.3576982]
 			}
 		},
 		{
@@ -2911,7 +2911,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-6.4058423,38.6914575]
 			}
 		},
 		{
@@ -2925,7 +2925,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-2.4637136,36.834047]
 			}
 		},
 		{
@@ -2939,7 +2939,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-4.6812086,40.656685]
 			}
 		},
 		{
@@ -2953,7 +2953,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-6.9702093,38.8801136]
 			}
 		},
 		{
@@ -2967,7 +2967,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[2.168568,41.3873974]
 			}
 		},
 		{
@@ -2981,7 +2981,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-0.1233831,38.5411928]
 			}
 		},
 		{
@@ -2995,7 +2995,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-2.9349852,43.2630126]
 			}
 		},
 		{
@@ -3009,7 +3009,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-6.4320043,39.4716956]
 			}
 		},
 		{
@@ -3023,7 +3023,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-5.8987139,36.6361857]
 			}
 		},
 		{
@@ -3037,7 +3037,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[0.0456876,38.6436469]
 			}
 		},
 		{
@@ -3051,7 +3051,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[2.5033683,39.5653483]
 			}
 		},
 		{
@@ -3065,7 +3065,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-1.009107,37.6174439]
 			}
 		},
 		{
@@ -3079,7 +3079,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-0.1494988,40.1451772]
 			}
 		},
 		{
@@ -3093,7 +3093,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-1.272254,38.0800864]
 			}
 		},
 		{
@@ -3107,7 +3107,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-4.7793835,37.8881751]
 			}
 		},
 		{
@@ -3121,7 +3121,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[0.1050557,38.8387992]
 			}
 		},
 		{
@@ -3135,7 +3135,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-5.7467879,41.5034712]
 			}
 		},
 		{
@@ -3149,7 +3149,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-5.9242391,37.2865803]
 			}
 		},
 		{
@@ -3163,7 +3163,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[2.096263,41.3225846]
 			}
 		},
 		{
@@ -3177,7 +3177,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-14.053676,28.3587436]
 			}
 		},
 		{
@@ -3191,7 +3191,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[2.8214264,41.9794005]
 			}
 		},
 		{
@@ -3205,7 +3205,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-15.5474373,27.9202202]
 			}
 		},
 		{
@@ -3219,7 +3219,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-3.5984368,37.1774605]
 			}
 		},
 		{
@@ -3233,7 +3233,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-3.1834722,40.6321897]
 			}
 		},
 		{
@@ -3247,7 +3247,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-0.4078058,42.131845]
 			}
 		},
 		{
@@ -3261,7 +3261,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-0.8028603,37.6045762]
 			}
 		},
 		{
@@ -3275,7 +3275,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-0.1261013,38.6057121]
 			}
 		},
 		{
@@ -3289,7 +3289,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-17.9057813,28.7133828]
 			}
 		},
 		{
@@ -3303,7 +3303,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-5.9816424,37.4872681]
 			}
 		},
 		{
@@ -3317,7 +3317,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-13.5899733,29.0468535]
 			}
 		},
 		{
@@ -3331,7 +3331,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-3.8757916,40.4935329]
 			}
 		},
 		{
@@ -3345,7 +3345,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-5.9714151,42.6341451]
 			}
 		},
 		{
@@ -3359,7 +3359,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-2.4449852,42.4627195]
 			}
 		},
 		{
@@ -3373,7 +3373,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-4.4961008,37.4129332]
 			}
 		},
 		{
@@ -3387,7 +3387,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-7.5567582,43.0097384]
 			}
 		},
 		{
@@ -3401,7 +3401,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-3.7037902,40.4167754]
 			}
 		},
 		{
@@ -3415,7 +3415,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-4.4212655,36.721261]
 			}
 		},
 		{
@@ -3429,7 +3429,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[3.0175712,39.6952629]
 			}
 		},
 		{
@@ -3443,7 +3443,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-1.2073261,38.051681]
 			}
 		},
 		{
@@ -3457,7 +3457,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-1.1306544,37.9922399]
 			}
 		},
 		{
@@ -3471,7 +3471,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-0.2750573,39.9650461]
 			}
 		},
 		{
@@ -3485,7 +3485,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-7.863881,42.3357893]
 			}
 		},
 		{
@@ -3499,7 +3499,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-5.1033081,37.2373642]
 			}
 		},
 		{
@@ -3513,7 +3513,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-4.5287949,42.0096832]
 			}
 		},
 		{
@@ -3527,7 +3527,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-4.707687,36.766795]
 			}
 		},
 		{
@@ -3541,7 +3541,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-8.6446202,42.4298846]
 			}
 		},
 		{
@@ -3555,7 +3555,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-6.9484945,37.2575874]
 			}
 		},
 		{
@@ -3569,7 +3569,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-5.9939136,37.3608161]
 			}
 		},
 		{
@@ -3583,7 +3583,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[2.735632782,39.35877592]
 			}
 		},
 		{
@@ -3597,7 +3597,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-16.5449611,28.411413]
 			}
 		},
 		{
@@ -3611,7 +3611,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-4.7277528,37.5442706]
 			}
 		},
 		{
@@ -3625,7 +3625,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-4.3976357,41.8356821]
 			}
 		},
 		{
@@ -3639,7 +3639,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-3.097702,39.2795607]
 			}
 		},
 		{
@@ -3653,7 +3653,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[2.1138977,41.5421013]
 			}
 		},
 		{
@@ -3667,7 +3667,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-5.6635397,40.9701039]
 			}
 		},
 		{
@@ -3681,7 +3681,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-1.9812313,43.318334]
 			}
 		},
 		{
@@ -3695,7 +3695,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-3.8099719,43.4620412]
 			}
 		},
 		{
@@ -3709,7 +3709,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-8.5441729,42.8768606]
 			}
 		},
 		{
@@ -3723,7 +3723,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-4.1088942,40.9429296]
 			}
 		},
 		{
@@ -3737,7 +3737,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-2.4790306,41.7665464]
 			}
 		},
 		{
@@ -3751,7 +3751,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-16.6799906,28.0998267]
 			}
 		},
 		{
@@ -3765,7 +3765,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-4.0820011,39.8623118]
 			}
 		},
 		{
@@ -3779,7 +3779,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-5.7795147,37.1848134]
 			}
 		},
 		{
@@ -3793,7 +3793,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-3.3876655,38.7605618]
 			}
 		},
 		{
@@ -3807,7 +3807,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-0.3762881,39.4699075]
 			}
 		},
 		{
@@ -3821,7 +3821,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-4.7245321,41.652251]
 			}
 		},
 		{
@@ -3835,7 +3835,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-0.3368007,40.0304928]
 			}
 		},
 		{
@@ -3849,7 +3849,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-8.7207268,42.2405989]
 			}
 		},
 		{
@@ -3863,7 +3863,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[1.727446,41.2151504]
 			}
 		},
 		{
@@ -3877,7 +3877,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-0.1004465,39.9372616]
 			}
 		},
 		{
@@ -3891,7 +3891,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-5.7467879,41.5034712]
 			}
 		},
 		{
@@ -3905,7 +3905,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-0.8890853,41.6488226]
 			}
 		},
 		{
@@ -3919,7 +3919,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[18.310783,59.4802773]
 			}
 		},
 		{
@@ -3933,7 +3933,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[14.5560006,56.8992104]
 			}
 		},
 		{
@@ -3947,7 +3947,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[15.22155,57.6172]
 			}
 		},
 		{
@@ -3961,7 +3961,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[16.5098045,59.3712486]
 			}
 		},
 		{
@@ -3975,7 +3975,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[13.3033914,55.8391198]
 			}
 		},
 		{
@@ -3989,7 +3989,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[13.54326,57.2985]
 			}
 		},
 		{
@@ -4003,7 +4003,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[13.7371898,57.3580398]
 			}
 		},
 		{
@@ -4017,7 +4017,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[11.97456,57.70887]
 			}
 		},
 		{
@@ -4031,7 +4031,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[18.4867447,57.4684121]
 			}
 		},
 		{
@@ -4045,7 +4045,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[14.0743665,57.9093094]
 			}
 		},
 		{
@@ -4059,7 +4059,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[12.8577884,56.6743748]
 			}
 		},
 		{
@@ -4073,7 +4073,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[18.3469875,59.000615]
 			}
 		},
 		{
@@ -4087,7 +4087,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[17.9408714,62.6322698]
 			}
 		},
 		{
@@ -4101,7 +4101,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[12.6945121,56.0464674]
 			}
 		},
 		{
@@ -4115,7 +4115,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[16.356779,56.6634447]
 			}
 		},
 		{
@@ -4129,7 +4129,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[13.5114977,59.4021806]
 			}
 		},
 		{
@@ -4143,7 +4143,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[14.1566778,56.0293936]
 			}
 		},
 		{
@@ -4157,7 +4157,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[15.2700008,56.7512642]
 			}
 		},
 		{
@@ -4171,7 +4171,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[13.1910073,55.7046601]
 			}
 		},
 		{
@@ -4185,7 +4185,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[13.003822,55.604981]
 			}
 		},
 		{
@@ -4199,7 +4199,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[12.016667,57.65]
 			}
 		},
 		{
@@ -4213,7 +4213,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[13.8773174,57.9165989]
 			}
 		},
 		{
@@ -4227,7 +4227,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[14.6967247,57.6530355]
 			}
 		},
 		{
@@ -4241,7 +4241,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[16.192421,58.587745]
 			}
 		},
 		{
@@ -4255,7 +4255,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[15.2134105,59.2752626]
 			}
 		},
 		{
@@ -4269,7 +4269,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[18.5353419,59.521157]
 			}
 		},
 		{
@@ -4283,7 +4283,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[14.3439173,57.3708434]
 			}
 		},
 		{
@@ -4297,7 +4297,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[17.7104465,59.2061999]
 			}
 		},
 		{
@@ -4311,7 +4311,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[14.6658136,57.3989958]
 			}
 		},
 		{
@@ -4325,7 +4325,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[18.0084334,59.3688791]
 			}
 		},
 		{
@@ -4339,7 +4339,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[14.5796878,56.0537433]
 			}
 		},
 		{
@@ -4353,7 +4353,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[13.5957692,55.9902572]
 			}
 		},
 		{
@@ -4367,7 +4367,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[18.0685808,59.3293235]
 			}
 		},
 		{
@@ -4381,7 +4381,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[17.9609133,59.369325]
 			}
 		},
 		{
@@ -4395,7 +4395,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[17.306927,62.390811]
 			}
 		},
 		{
@@ -4409,7 +4409,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[18.0703299,59.4419]
 			}
 		},
 		{
@@ -4423,7 +4423,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[14.9785342,56.5247452]
 			}
 		},
 		{
@@ -4437,7 +4437,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[18.3174748,59.2071441]
 			}
 		},
 		{
@@ -4451,7 +4451,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[17.6389267,59.8585638]
 			}
 		},
 		{
@@ -4465,7 +4465,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[14.1486297,57.4989621]
 			}
 		},
 		{
@@ -4479,7 +4479,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[14.0478214,57.1831605]
 			}
 		},
 		{
@@ -4493,7 +4493,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[16.5448091,59.6099005]
 			}
 		},
 		{
@@ -4507,7 +4507,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[18.3263804,59.4032968]
 			}
 		},
 		{
@@ -4521,7 +4521,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[14.8058522,56.8790044]
 			}
 		},
 		{
@@ -4535,7 +4535,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[8.6356452,47.359536]
 			}
 		},
 		{
@@ -4549,7 +4549,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[6.1378539,46.1829674]
 			}
 		},
 		{
@@ -4563,7 +4563,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-2.0937528,57.1498891]
 			}
 		},
 		{
@@ -4577,7 +4577,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-4.135998,50.9546459]
 			}
 		},
 		{
@@ -4591,7 +4591,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-56.1851147,-34.9055016]
 			}
 		},
 		{
@@ -4605,7 +4605,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-104.8519798,39.6889822]
 			}
 		},
 		{
@@ -4619,7 +4619,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-71.13543,42.3144854]
 			}
 		},
 		{
@@ -4633,7 +4633,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-94.4155068,39.0911161]
 			}
 		},
 		{
@@ -4647,7 +4647,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-122.605853,45.3556099]
 			}
 		},
 		{
@@ -4661,7 +4661,7 @@ var iHub_data = {
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[,]
+				"coordinates":[-121.7728754,38.5615899]
 			}
 		},
 	]
