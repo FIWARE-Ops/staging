@@ -3,9 +3,6 @@ function horizontalScroll(popup) {
 
 
   var sliders = popup.querySelectorAll(".chips");
-  
-  console.log(sliders);
-
   var isDown = false;
   var startX;
   var scrollLeft;
