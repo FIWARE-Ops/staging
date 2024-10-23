@@ -59,7 +59,7 @@
       },
       "paint": {
         "line-color": {
-          "stops": [[5, "rgba(80, 80, 80, 1)"], [6, "rgba(0, 46, 103, 1)"]]
+          "stops": [[5, "rgba(0, 46, 103, 1)"], [6, "rgba(0, 46, 103, 1)"]]
         },
         "line-dasharray": {"stops": [[5, [1, 1]], [6, [1, 2]]]},
         "line-opacity": 1,
