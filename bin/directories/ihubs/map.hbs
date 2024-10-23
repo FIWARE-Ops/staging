@@ -8,9 +8,9 @@ var iHub_data = {
 			"properties":{
 				"html": [
 					"<div ><img class='gridElementLogo' src='{{img}}'/></div>",
-					"<div class='ihub-location' style='display: flex;flex-direction: row;'><div>{{city}}{{#if country}}, {{country}}{{/if}}</div>{{#if country}}<img alt='{{country}}' class='flag' src='{{flag}}' style='margin-left: auto;'/>{{/if}}</div>",
-					"<div class='ihub-name' colspan='6'>{{name}}</div>",
-					"<div class='visible-with-data attribute'>Incubated</div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>{{city}}</h3>{{#if country}}<img alt='{{country}}' class='flag' src='{{flag}}' style='margin-left: auto;'/>{{/if}}</div>",
+					"<div class='ihub-name'>{{name}}</div>",
+					"<div class='ihub-type'>Incubated</div>",
 					{{#if (gt domain.length 0)}}
 					"<div class='label'>Domain</div>",
 					"<div>{{#each domain}}{{this}}&nbsp;{{/each}}</div>",
