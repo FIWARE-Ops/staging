@@ -73,7 +73,7 @@ function parse(file) {
             };
 
             Template.write(path.join(IHUBS_DIR, 'iHubs.html'), path.join(TEMPLATE_PATH, 'card.hbs'), iHubs);
-            Template.write(path.join(IHUBS_DIR, 'mapData.js'), path.join(TEMPLATE_PATH, 'map.hbs'), iHubs);
+            Template.write(path.join(IHUBS_DIR, 'iHubs.json'), path.join(TEMPLATE_PATH, 'map.hbs'), iHubs);
             Template.write(path.join(IHUBS_DIR, 'pageData.js'), path.join(TEMPLATE_PATH, 'modal.hbs'), filterData);
             Template.write(path.join(IHUBS_DIR, 'filters.html'), path.join(TEMPLATE_PATH, 'filter.hbs'), filterData);
 
