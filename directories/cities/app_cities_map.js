@@ -1,6 +1,11 @@
 function horizontalScroll(popup) {
   // Horizontal Scroll
+
+
   var sliders = popup.querySelectorAll(".chips");
+  
+  console.log(sliders);
+
   var isDown = false;
   var startX;
   var scrollLeft;
@@ -56,7 +61,7 @@ map.once("load", () => {
     data: "./cities.json",
 
     cluster: true,
-    clusterRadius: 50 // cluster two trailheads if less than 20 pixels apart
+    clusterRadius: 50
  
   });
 
@@ -117,6 +122,10 @@ map.on("click", "cities-circle", (e) => {
       .setHTML(`<div> ${content}</div>`)
       .setLngLat(city.geometry.coordinates)
       .addTo(map);
+
+    setTimeout(function(){
+      horizontalScroll(document.querySelectorAll(".maplibregl-popup-content")[0])
+    }, 500);
   }
 
 });

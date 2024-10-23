@@ -37,97 +37,93 @@ function horizontalScroll(popup) {
 
 function setBounds() {}
 
-var map = L.map("map", {
+const map = new maplibregl.Map({
+  container: 'map',
+  style: './style.json',
   zoomControl: false,
   maxZoom: 28,
   minZoom: 1,
 }).fitBounds([
-  [-56.093228369773406, -175.73934032129907],
-  [83.70561326982735, 179.54543205831558],
+  [-175.73934032129907, -56.093228369773406 ],
+  [179.54543205831558, 83.70561326982735 ],
 ]);
-var hash = new L.Hash(map);
-map.attributionControl.setPrefix(
-  '<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>',
-);
-var zoomControl = L.control
-  .zoom({
-    position: "topleft",
-  })
-  .addTo(map);
-var bounds_group = new L.featureGroup([]);
 
+map.addControl(new maplibregl.NavigationControl());
 
-map.createPane("pane_mapcountries");
-map.getPane("pane_mapcountries").style.zIndex = 401;
-map.getPane("pane_mapcountries").style["mix-blend-mode"] = "normal";
-var layer_mapcountries = new L.geoJson(json_mapcountries, {
-  attribution: "",
-  interactive: false,
-  dataVar: "json_mapcountries",
-  layerName: "layer_mapcountries",
-  pane: "pane_mapcountries",
-  style: style_mapcountries,
+map.once("load", () => {
+  map.addSource("iHubs", {
+    type: "geojson",
+    data: "./iHubs.json",
+
+    cluster: true,
+    clusterRadius: 50
+ 
+  });
+
+  map.addLayer({
+    id: "iHubs-circle",
+    type: "circle",
+    source: "iHubs",
+
+    paint: {
+      "circle-color": ["case", ["boolean", ["get", "cluster"], false],"white", "cyan"],
+      "circle-stroke-width": ["case", ["boolean", ["get", "cluster"], false], 5, 0],
+      "circle-radius": ["case", ["boolean", ["get", "cluster"], false], 15, 5],
+      "circle-stroke-color": ["case", ["boolean", ["get", "cluster"], false], "silver", "cyan"]
+    }
+  });
+
+  map.addLayer({
+    id: "iHubs-cluster-count",
+    type: "symbol",
+    source: "iHubs",
+    layout: {
+      "text-font": ["Monserrat Bold, Arial Bold"],
+      "text-size": 12,
+      "text-field": ["get", "point_count"],
+      "text-offset": [0, 0.1] // move the label vertically downwards slightly to improve centering
+    },
+    paint: {
+      "text-color": "black"
+    }
+  });
+
 });
-bounds_group.addLayer(layer_mapcountries);
-map.addLayer(layer_mapcountries);
 
-map.createPane("pane_mapboundaries");
-map.getPane("pane_mapboundaries").style.zIndex = 402;
-map.getPane("pane_mapboundaries").style["mix-blend-mode"] = "normal";
-var layer_mapboundaries = new L.geoJson(json_mapboundaries, {
-  attribution: "",
-  interactive: false,
-  dataVar: "json_mapboundaries",
-  layerName: "layer_mapboundaries",
-  pane: "pane_mapboundaries",
-  style: style_mapboundaries,
+map.on("mouseenter", "iHubs-circle", () => {
+  map.getCanvas().style.cursor = "pointer";
 });
-bounds_group.addLayer(layer_mapboundaries);
-map.addLayer(layer_mapboundaries);
 
-function pop_data(feature, layer) {
-  var content = feature.properties;
-  var tempDiv = document.createElement("div");
-  tempDiv.innerHTML = "<div>" + content.html.join("") + "</div>";
-  horizontalScroll(tempDiv);
-  layer.bindPopup(tempDiv, { minWidth: 400, maxHeight: 600 });
-}
-
-function style_data() {
-  return {
-    pane: "pane_data",
-    radius: 6.0,
-    stroke: false,
-    fill: true,
-    fillOpacity: 1,
-    fillColor: "rgba(93,192,207,1.0)",
-    interactive: true,
-  };
-}
-map.createPane("pane_data");
-map.getPane("pane_data").style.zIndex = 404;
-map.getPane("pane_data").style["mix-blend-mode"] = "normal";
-var layer_data = new L.geoJson(iHub_data, {
-  attribution: "",
-  interactive: true,
-  dataVar: "iHub_data",
-  layerName: "layer_data",
-  pane: "pane_data",
-  onEachFeature: pop_data,
-  pointToLayer: function (feature, latlng) {
-    var context = {
-      feature: feature,
-      variables: {},
-    };
-    return L.circleMarker(latlng, style_data(feature));
-  },
+map.on("mouseleave", "iHubs-circle", () => {
+  map.getCanvas().style.cursor = "";
 });
-var cluster_data = new L.MarkerClusterGroup({
-  showCoverageOnHover: false,
-  spiderfyDistanceMultiplier: 2,
-});
-cluster_data.addLayer(layer_data);
 
-bounds_group.addLayer(layer_data);
-cluster_data.addTo(map);
-setBounds();
+
+map.on("click", "iHubs-circle", (e) => {
+  const iHub = e.features[0]; 
+  if(iHub.properties.cluster){
+    const point = [e.lngLat.lng, e.lngLat.lat]
+    map.flyTo({
+      center: point
+    });
+    setTimeout(function(){
+       map.zoomIn()
+    }, 500);
+  } else {
+    const html = JSON.parse(iHub.properties.html);
+    const content = html.join('');
+
+    new maplibregl.Popup()
+      .setHTML(`<div> ${content}</div>`)
+      .setLngLat(iHub.geometry.coordinates)
+      .addTo(map);
+
+    setTimeout(function(){
+      horizontalScroll(document.querySelectorAll(".maplibregl-popup-content")[0])
+    }, 500);
+
+
+  }
+
+});
+
