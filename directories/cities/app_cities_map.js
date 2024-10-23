@@ -56,7 +56,7 @@ map.once("load", () => {
     data: "./cities.json",
 
     cluster: true,
-    clusterRadius: 40 // cluster two trailheads if less than 20 pixels apart
+    clusterRadius: 50 // cluster two trailheads if less than 20 pixels apart
  
   });
 
@@ -66,10 +66,10 @@ map.once("load", () => {
     source: "cities",
 
     paint: {
-      "circle-color": "hsla(5,80%,70%,0.5)",
-      "circle-stroke-width": 2,
-      "circle-radius": ["case", ["get", "cluster"], 10, 5],
-      "circle-stroke-color": "hsl(5,80%,50%)"
+      "circle-color": ["case", ["boolean", ["get", "cluster"], false],"white", "cyan"],
+      "circle-stroke-width": ["case", ["boolean", ["get", "cluster"], false], 5, 0],
+      "circle-radius": ["case", ["boolean", ["get", "cluster"], false], 15, 5],
+      "circle-stroke-color": ["case", ["boolean", ["get", "cluster"], false], "silver", "cyan"]
     }
   });
 
@@ -78,12 +78,13 @@ map.once("load", () => {
     type: "symbol",
     source: "cities",
     layout: {
-      "text-font": ["Arial Bold"],
+      "text-font": ["Monserrat Bold, Arial Bold"],
+      "text-size": 12,
       "text-field": ["get", "point_count"],
       "text-offset": [0, 0.1] // move the label vertically downwards slightly to improve centering
     },
     paint: {
-      "text-color": "white"
+      "text-color": "black"
     }
   });
 

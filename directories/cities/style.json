@@ -27,7 +27,7 @@
       "type": "background",
       "minzoom": 0,
       "maxzoom": 20,
-      "paint": {"background-color": "rgba(31, 117, 213, 0.73)"}
+      "paint": {"background-color": "rgba(25,65,155,1.0)"}
     },
     {
       "id": "water",
@@ -41,7 +41,7 @@
         ["!=", "intermittent", 1]
       ],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-antialias": true, "fill-color": "rgba(0, 0, 0, 1)"}
+      "paint": {"fill-antialias": true, "fill-color": "rgba(0, 46, 103, 1)"}
     },
     {
       "id": "boundary_state",
@@ -59,7 +59,7 @@
       },
       "paint": {
         "line-color": {
-          "stops": [[5, "rgba(80, 80, 80, 1)"], [6, "rgba(0, 0, 0, 1)"]]
+          "stops": [[5, "rgba(80, 80, 80, 1)"], [6, "rgba(0, 46, 103, 1)"]]
         },
         "line-dasharray": {"stops": [[5, [1, 1]], [6, [1, 2]]]},
         "line-opacity": 1,
@@ -85,7 +85,7 @@
       },
       "paint": {
         "line-blur": 0,
-        "line-color": "rgba(0, 0, 0, 1)",
+        "line-color": "rgba(0, 46, 103, 1)",
         "line-opacity": 1,
         "line-width": {"base": 1.1, "stops": [[2, 1], [22, 20]]}
       }
