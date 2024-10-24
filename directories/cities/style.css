@@ -198,6 +198,7 @@
 }
 
 .label-location h3 {
+    font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
     font-weight: 600;
     text-transform: uppercase;
     font-size: 13px;
@@ -217,6 +218,7 @@
 }
 
 .ihub-name {
+    font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
     font-weight: 600;
     font-size: 18px;
     text-align: left;
@@ -227,6 +229,7 @@
 }
 
 .ihub-type {
+    font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
     text-transform: uppercase;
     color: #000000;
     font-size: 14px;
@@ -308,6 +311,7 @@
 .chip-technology {
     display: flex;
     gap: 10px;
+    font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
 }
 
 .chip-technology li {
@@ -338,6 +342,7 @@
 .chip-domain {
     display: flex;
     gap: 10px;
+    font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
 }
 
 .chip-domain li {
@@ -496,7 +501,7 @@
     height: 32px;
     color: #002e67;
     text-align: center;
-    padding-right: 1px;
+    padding: 4px 2px 0px 1px;
     transition: all 0.3s ease-in-out;
 }
 
@@ -517,7 +522,7 @@
     font-size: 16px;
     display: inline-block;
     position: relative;
-    background: #00aced;
+    background: #000;
     border-radius: 40px;
     width: 32px;
     height: 32px;
