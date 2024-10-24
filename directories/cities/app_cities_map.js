@@ -126,7 +126,7 @@ map.once("load", () => {
   // Add 3 sources
   addSource("cities","./cities.json");
   addSource("community","./community.json");
-  addSource("iHubs","../iHubs/iHubs.json");
+  addSource("iHubs","../ihubs/iHubs.json");
 
   addLayer("community")
 
