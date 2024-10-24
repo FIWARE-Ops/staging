@@ -26,7 +26,7 @@
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/brisbane.jpg'/></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Brisbane</h3><img alt='Australia' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Australia.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-title'>[ui!]  UrbanInsight</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://au.ui.city/' rel='noopener'><span class='icon website'></span></a><a target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;uiurbansoftware-uiurbanpulse'><span class='icon-marketplace'></span></a></div>"
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://au.ui.city/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;uiurbansoftware-uiurbanpulse'><span class='icon marketplace'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -42,7 +42,7 @@
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/sunshine-coast.jpg'/></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Sunshine Coast</h3><img alt='Australia' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Australia.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-title'>[ui!] UrbanInsight</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://au.ui.city/' rel='noopener'><span class='icon website'></span></a><a target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;uiurbansoftware-uiurbanpulse'><span class='icon-marketplace'></span></a></div>"
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://au.ui.city/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;uiurbansoftware-uiurbanpulse'><span class='icon marketplace'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -58,7 +58,7 @@
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/vienna.jpg'/></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Vienna</h3><img alt='Austria' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Austria.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-title'>Smartdata.Wien Platform</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://smartdata.wien.gv.at/' rel='noopener'><span class='icon website'></span></a><a target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;cities&amp;id&#x3D;cityofvienna-smartdatawien'><span class='icon-marketplace'></span></a><a target='_blank' href='https://www.fiware.org/2020/04/02/a-platform-facilitating-citizens-urban-experience/'><span class='icon-impactstory'></span></a></div>"
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://smartdata.wien.gv.at/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;cities&amp;id&#x3D;cityofvienna-smartdatawien'><span class='icon marketplace'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/2020/04/02/a-platform-facilitating-citizens-urban-experience/'><span class='icon impactstory'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -74,7 +74,7 @@
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/antwerp.jpg'/></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Antwerp</h3><img alt='Belgium' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Belgium.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-title'>Generic IoT Platform Sirus City Store</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://sirus.be/cases/city-of-antwerp/' rel='noopener'><span class='icon website'></span></a><a target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;sirusnv-siruscitystore'><span class='icon-marketplace'></span></a></div>"
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://sirus.be/cases/city-of-antwerp/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;sirusnv-siruscitystore'><span class='icon marketplace'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -90,7 +90,7 @@
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/bruges.jpg'/></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Bruges</h3><img alt='Belgium' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Belgium.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-title'>VLOED</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://sirus.be/cases/smart-city-project-brugge-roeselare-leuven/' rel='noopener'><span class='icon website'></span></a><a target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;sirusnv-siruscitystore'><span class='icon-marketplace'></span></a></div>"
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://sirus.be/cases/smart-city-project-brugge-roeselare-leuven/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;sirusnv-siruscitystore'><span class='icon marketplace'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -124,7 +124,7 @@
 					"<div class='solution-title'>Dynamic Access Control (DAC)</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://multimodaal.vlaanderen/' rel='noopener'><span class='icon website'></span></a></div>",
 					"<div class='solution-title'>Noise monitoring</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://sirus.be/cases/smart-city-project-brugge-roeselare-leuven/' rel='noopener'><span class='icon website'></span></a><a target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;sirusnv-siruscitystore'><span class='icon-marketplace'></span></a></div>"
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://sirus.be/cases/smart-city-project-brugge-roeselare-leuven/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;sirusnv-siruscitystore'><span class='icon marketplace'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -140,7 +140,7 @@
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/roeselare.jpg'/></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Roeselare</h3><img alt='Belgium' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Belgium.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-title'>Rainbrain</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='http://www.urbansense.be/' rel='noopener'><span class='icon website'></span></a><a target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;sirusnv-siruscitystore'><span class='icon-marketplace'></span></a></div>"
+					"<div class='icons'><a class='cat-website' target='_blank' href='http://www.urbansense.be/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;sirusnv-siruscitystore'><span class='icon marketplace'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -156,7 +156,7 @@
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/greater-sao-paulo.jpg'/></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Greater São Paulo</h3><img alt='Brazil' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Brazil.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-title'>Elliot Water</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://elliotcloud.com/smart-water/' rel='noopener'><span class='icon website'></span></a><a target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;bosonit-elliotcloud'><span class='icon-marketplace'></span></a><a target='_blank' href='https://www.fiware.org/about-us/impact-stories/'><span class='icon-impactstory'></span></a></div>"
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://elliotcloud.com/smart-water/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;bosonit-elliotcloud'><span class='icon marketplace'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/about-us/impact-stories/'><span class='icon impactstory'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -250,7 +250,7 @@
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/dubrovnik.jpg'/></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Dubrovnik</h3><img alt='Croatia' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Croatia.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-title'>Snap4City</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.snap4city.org/dashboardSmartCity/management/iframeApp.php?linkUrl&#x3D;https://www.snap4city.org/drupal&amp;linkId&#x3D;snap4cityPortalLink&amp;pageTitle&#x3D;www.snap4city.org&amp;fromSubmenu&#x3D;false' rel='noopener'><span class='icon website'></span></a><a target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;snap4city-snap4city'><span class='icon-marketplace'></span></a><a target='_blank' href='https://www.fiware.org/about-us/impact-stories/'><span class='icon-impactstory'></span></a></div>"
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.snap4city.org/dashboardSmartCity/management/iframeApp.php?linkUrl&#x3D;https://www.snap4city.org/drupal&amp;linkId&#x3D;snap4cityPortalLink&amp;pageTitle&#x3D;www.snap4city.org&amp;fromSubmenu&#x3D;false' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;snap4city-snap4city'><span class='icon marketplace'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/about-us/impact-stories/'><span class='icon impactstory'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -376,7 +376,7 @@
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/nice.jpg'/></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Metropolis Nice Côte d’Azur</h3><img alt='France' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_France.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-title'>Eridanis Smart City Platform</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.eridanis.com/en/home/' rel='noopener'><span class='icon website'></span></a><a target='_blank' href='https://www.fiware.org/about-us/impact-stories/'><span class='icon-impactstory'></span></a></div>"
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.eridanis.com/en/home/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/about-us/impact-stories/'><span class='icon impactstory'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -408,7 +408,7 @@
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/paris.jpg'/></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Paris Airport</h3><img alt='France' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_France.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-title'>Smart Territories – Aéroport de Paris</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.parisaeroport.fr/en/group/group-news/olga-project-holistic-green-airport' rel='noopener'><span class='icon website'></span></a><a target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;atos-urbandataplatform'><span class='icon-marketplace'></span></a></div>"
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.parisaeroport.fr/en/group/group-news/olga-project-holistic-green-airport' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;atos-urbandataplatform'><span class='icon marketplace'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -424,7 +424,7 @@
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/saint-quentin.jpg'/></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Saint-Quentin</h3><img alt='France' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_France.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-title'>Smart Irrigation</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.egm.io/en/smart-irrigation' rel='noopener'><span class='icon website'></span></a><a target='_blank' href='https://www.fiware.org/about-us/impact-stories/'><span class='icon-impactstory'></span></a></div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.egm.io/en/smart-irrigation' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/about-us/impact-stories/'><span class='icon impactstory'></span></a></div>",
 					"<div class='solution-title'>Connected Canteens</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://viamatele.tv/la-cantine-connectee/' rel='noopener'><span class='icon website'></span></a></div>"
 				]
@@ -442,7 +442,7 @@
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/vers%E2%80%93pont-du-gard.jpg'/></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Vers-Pont-du-Gard</h3><img alt='France' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_France.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-title'>Snap4City</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.snap4city.org/dashboardSmartCity/management/iframeApp.php?linkUrl&#x3D;https://www.snap4city.org/drupal&amp;linkId&#x3D;snap4cityPortalLink&amp;pageTitle&#x3D;www.snap4city.org&amp;fromSubmenu&#x3D;false' rel='noopener'><span class='icon website'></span></a><a target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;snap4city-snap4city'><span class='icon-marketplace'></span></a><a target='_blank' href='https://www.fiware.org/about-us/impact-stories/'><span class='icon-impactstory'></span></a></div>"
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.snap4city.org/dashboardSmartCity/management/iframeApp.php?linkUrl&#x3D;https://www.snap4city.org/drupal&amp;linkId&#x3D;snap4cityPortalLink&amp;pageTitle&#x3D;www.snap4city.org&amp;fromSubmenu&#x3D;false' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;snap4city-snap4city'><span class='icon marketplace'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/about-us/impact-stories/'><span class='icon impactstory'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -458,7 +458,7 @@
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/bad-hersfeld.jpg'/></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Bad Hersfeld</h3><img alt='Germany' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-title'>[ui!] Urban Pulse</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.ui.city/en/solutions' rel='noopener'><span class='icon website'></span></a><a target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;uiurbansoftware-uiurbanpulse'><span class='icon-marketplace'></span></a></div>"
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.ui.city/en/solutions' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;uiurbansoftware-uiurbanpulse'><span class='icon marketplace'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -504,7 +504,7 @@
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/darmstadt.jpg'/></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Darmstadt</h3><img alt='Germany' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-title'>[ui!] Urban Pulse</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.ui.city/en/solutions' rel='noopener'><span class='icon website'></span></a><a target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;uiurbansoftware-uiurbanpulse'><span class='icon-marketplace'></span></a></div>"
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.ui.city/en/solutions' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;uiurbansoftware-uiurbanpulse'><span class='icon marketplace'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -520,7 +520,7 @@
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/dormagen.jpg'/></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Dormagen</h3><img alt='Germany' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-title'>Urban Data Platform</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://smart-industrial.city/news/detail-1/urbane-datenplattform' rel='noopener'><span class='icon website'></span></a><a target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;engineering-digitalenabler'><span class='icon-marketplace'></span></a></div>"
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://smart-industrial.city/news/detail-1/urbane-datenplattform' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;engineering-digitalenabler'><span class='icon marketplace'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -552,9 +552,9 @@
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/heidelberg.jpg'/></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Heidelberg</h3><img alt='Germany' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-title'>Heidelberg City Kompass</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://eng-its.de/unsere-loesungen/digital-enabler/' rel='noopener'><span class='icon website'></span></a><a target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;engineering-digitalenabler'><span class='icon-marketplace'></span></a><a target='_blank' href='https://www.fiware.org/2021/03/03/heidelberg-city-kompass-citizens-information-service-powered-by-fiware/'><span class='icon-impactstory'></span></a></div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://eng-its.de/unsere-loesungen/digital-enabler/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;engineering-digitalenabler'><span class='icon marketplace'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/2021/03/03/heidelberg-city-kompass-citizens-information-service-powered-by-fiware/'><span class='icon impactstory'></span></a></div>",
 					"<div class='solution-title'>Urban Data Platform Heidelberg</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://eng-its.de/unsere-loesungen/digital-enabler/' rel='noopener'><span class='icon website'></span></a><a target='_blank' href='https://fiware-foundation.medium.com/heidelberg-city-kompass-citizens-information-service-powered-by-fiware-338b7a38260a'><span class='icon-impactstory'></span></a></div>"
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://eng-its.de/unsere-loesungen/digital-enabler/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://fiware-foundation.medium.com/heidelberg-city-kompass-citizens-information-service-powered-by-fiware-338b7a38260a'><span class='icon impactstory'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -570,7 +570,7 @@
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/herne.jpg'/></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Herne</h3><img alt='Germany' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-title'>KlimaViertel</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.stadtwerke-herne.de/unternehmen/das-klimaviertel' rel='noopener'><span class='icon website'></span></a><a target='_blank' href='https://www.fiware.org/wp-content/uploads/FF_ImpactStories_EnergyMSC.pdf'><span class='icon-impactstory'></span></a></div>"
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.stadtwerke-herne.de/unternehmen/das-klimaviertel' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/wp-content/uploads/FF_ImpactStories_EnergyMSC.pdf'><span class='icon impactstory'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -632,7 +632,7 @@
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/langenfeld.jpg'/></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Langenfeld</h3><img alt='Germany' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-title'>[ui!] UrbanInsight</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.ui.city/en/solutions' rel='noopener'><span class='icon website'></span></a><a target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;uiurbansoftware-uiurbanpulse'><span class='icon-marketplace'></span></a></div>"
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.ui.city/en/solutions' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;uiurbansoftware-uiurbanpulse'><span class='icon marketplace'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -678,7 +678,7 @@
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/moers.jpg'/></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Moers</h3><img alt='Germany' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-title'>Urban Air Quality Platform</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.breeze-technologies.de/solutions/urban-air-quality/' rel='noopener'><span class='icon website'></span></a><a target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;breezetechnologies-breezeenvironmentalintelligencecloud'><span class='icon-marketplace'></span></a><a target='_blank' href='https://www.fiware.org/about-us/impact-stories/'><span class='icon-impactstory'></span></a></div>"
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.breeze-technologies.de/solutions/urban-air-quality/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;breezetechnologies-breezeenvironmentalintelligencecloud'><span class='icon marketplace'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/about-us/impact-stories/'><span class='icon impactstory'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -694,7 +694,7 @@
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/monheim-am-rhein.jpg'/></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Monheim am Rhein</h3><img alt='Germany' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-title'>MonLightGrid</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://monlightgrid.de/' rel='noopener'><span class='icon website'></span></a><a target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;engineering-digitalenabler'><span class='icon-marketplace'></span></a></div>"
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://monlightgrid.de/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;engineering-digitalenabler'><span class='icon marketplace'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -806,7 +806,7 @@
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/athens.jpg'/></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Athens</h3><img alt='Greece' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-title'>SaMMY</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.sammyacht.com/' rel='noopener'><span class='icon website'></span></a><a target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;sammy-smartmarinaplatform'><span class='icon-marketplace'></span></a><a target='_blank' href='https://www.fiware.org/about-us/impact-stories/'><span class='icon-impactstory'></span></a></div>"
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.sammyacht.com/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;sammy-smartmarinaplatform'><span class='icon marketplace'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/about-us/impact-stories/'><span class='icon impactstory'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -822,7 +822,7 @@
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/naxos.jpg'/></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Naxos</h3><img alt='Greece' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-title'>Smart Island</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://aws.amazon.com/' rel='noopener'><span class='icon website'></span></a><a target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;amazonwebservices-smartterritoryframework'><span class='icon-marketplace'></span></a></div>"
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://aws.amazon.com/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;amazonwebservices-smartterritoryframework'><span class='icon marketplace'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -1062,7 +1062,7 @@
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/arezzo.jpg'/></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Arezzo</h3><img alt='Italy' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Italy.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-title'>Atam Parking App</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.atamarezzo.it/it/news/atam-parking-la-nuova-app-per-il-pagamento-della-sosta-e-molto-altro_15.html' rel='noopener'><span class='icon website'></span></a><a target='_blank' href='https://www.fiware.org/about-us/impact-stories/'><span class='icon-impactstory'></span></a></div>"
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.atamarezzo.it/it/news/atam-parking-la-nuova-app-per-il-pagamento-della-sosta-e-molto-altro_15.html' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/about-us/impact-stories/'><span class='icon impactstory'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -1078,7 +1078,7 @@
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/florence.jpg'/></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Florence</h3><img alt='Italy' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Italy.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-title'>Info-Mobility Florence</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://muv-app.city/' rel='noopener'><span class='icon website'></span></a><a target='_blank' href='https://www.fiware.org/about-us/impact-stories/'><span class='icon-impactstory'></span></a></div>"
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://muv-app.city/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/about-us/impact-stories/'><span class='icon impactstory'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -1142,7 +1142,7 @@
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/perugia.jpg'/></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Perugia</h3><img alt='Italy' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Italy.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-title'>WiseTown</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://wise.town/' rel='noopener'><span class='icon website'></span></a><a target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;teamdev-wisetown'><span class='icon-marketplace'></span></a><a target='_blank' href='https://www.fiware.org/about-us/impact-stories/'><span class='icon-impactstory'></span></a></div>"
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://wise.town/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;teamdev-wisetown'><span class='icon marketplace'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/about-us/impact-stories/'><span class='icon impactstory'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -1158,7 +1158,7 @@
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/rome.jpg'/></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rome</h3><img alt='Italy' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Italy.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-title'>Platoon</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://platoon-project.eu/' rel='noopener'><span class='icon website'></span></a><a target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;bettaircities-bettair'><span class='icon-marketplace'></span></a></div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://platoon-project.eu/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;bettaircities-bettair'><span class='icon marketplace'></span></a></div>",
 					"<div class='solution-title'>MappingAir</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://bettaircities.com/' rel='noopener'><span class='icon website'></span></a></div>"
 				]
@@ -1192,7 +1192,7 @@
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/kakogawa.jpg'/></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Kakogawa</h3><img alt='Japan' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Japan.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-title'>Crime Monitoring Platform</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.nec.com/en/global/techrep/journal/g18/n01/180109.html' rel='noopener'><span class='icon website'></span></a><a target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;nec-cloudcityoperationscenter'><span class='icon-marketplace'></span></a></div>"
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.nec.com/en/global/techrep/journal/g18/n01/180109.html' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;nec-cloudcityoperationscenter'><span class='icon marketplace'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -1224,7 +1224,7 @@
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/takamatsu.jpg'/></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Takamatsu</h3><img alt='Japan' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Japan.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-title'>Common IoT Platform</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.nec.com/en/global/techrep/journal/g18/n01/pdf/180106.pdf' rel='noopener'><span class='icon website'></span></a><a target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;nec-cloudcityoperationscenter'><span class='icon-marketplace'></span></a><a target='_blank' href='https://www.fiware.org/about-us/impact-stories/'><span class='icon-impactstory'></span></a></div>"
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.nec.com/en/global/techrep/journal/g18/n01/pdf/180106.pdf' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;nec-cloudcityoperationscenter'><span class='icon marketplace'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/about-us/impact-stories/'><span class='icon impactstory'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -1240,7 +1240,7 @@
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/toyama.jpg'/></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Toyama</h3><img alt='Japan' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Japan.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-title'>Face Recognition Software</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.nec.com/en/global/delight/casestudies/toyama-city/' rel='noopener'><span class='icon website'></span></a><a target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;nec-cloudcityoperationscenter'><span class='icon-marketplace'></span></a></div>"
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.nec.com/en/global/delight/casestudies/toyama-city/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;nec-cloudcityoperationscenter'><span class='icon marketplace'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -1300,7 +1300,7 @@
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/eindhoven.jpg'/></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Eindhoven</h3><img alt='Netherlands' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Netherlands.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-title'>Urban Data Platform</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://atos.net/en/industries/local-government-cities/atos-codex-cities-urban-data-management' rel='noopener'><span class='icon website'></span></a><a target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;atos-urbandataplatform'><span class='icon-marketplace'></span></a></div>"
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://atos.net/en/industries/local-government-cities/atos-codex-cities-urban-data-management' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;atos-urbandataplatform'><span class='icon marketplace'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -1316,7 +1316,7 @@
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/region-of-utrecht.jpg'/></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Region of Utrecht</h3><img alt='Netherlands' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Netherlands.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-title'>Snifferbike</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://civity.nl/en/products-solutions/sniffer-bike/' rel='noopener'><span class='icon website'></span></a><a target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;civity-snifferbike'><span class='icon-marketplace'></span></a><a target='_blank' href='https://www.fiware.org/about-us/impact-stories/'><span class='icon-impactstory'></span></a></div>"
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://civity.nl/en/products-solutions/sniffer-bike/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;civity-snifferbike'><span class='icon marketplace'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/about-us/impact-stories/'><span class='icon impactstory'></span></a></div>"
 				]
 			},
 			"geometry":{
@@ -1532,7 +1532,7 @@
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/cartagena.jpg'/></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Cartagena</h3><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-title'>Smart Irrigation and Air Quality Monitoring</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://opendata.hopu.eu/grafana/d/46VKVlJZz/home?orgId&#x3D;1' rel='noopener'><span class='icon website'></span></a><a target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;ready&amp;id&#x3D;hopu-smartspot'><span class='icon-marketplace'></span></a><a target='_blank' href='https://www.fiware.org/about-us/impact-stories/'><span class='icon-impactstory'></span></a></div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://opendata.hopu.eu/grafana/d/46VKVlJZz/home?orgId&#x3D;1' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;ready&amp;id&#x3D;hopu-smartspot'><span class='icon marketplace'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/about-us/impact-stories/'><span class='icon impactstory'></span></a></div>",
 					"<div class='solution-title'>Envair360</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.libelium.com/libeliumworld/success-stories/low-emission-zone-in-cartagena/' rel='noopener'><span class='icon website'></span></a></div>"
 				]
