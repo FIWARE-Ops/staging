@@ -25,6 +25,13 @@
     max-height: 55vh;
 }
 
+/* Popup */
+
+.maplibregl-popup-content {
+    padding: 0;
+    cursor: default;
+}
+
 /* Card */
 
 .grid-item {
@@ -56,6 +63,8 @@
 
 .gridElementLogo {
     width: 100%;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
 }
 
 .gutter-sizer {
@@ -195,6 +204,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    padding: 5px 10px;
 }
 
 .label-location h3 {
@@ -224,8 +234,7 @@
     text-align: left;
     color: #002e67;
     line-height: 1.4em;
-    padding: 0px;
-    /*cursor: default;*/
+    padding: 0 10px 10px;
 }
 
 .ihub-type {
@@ -235,7 +244,7 @@
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
-    padding-bottom: 10px;
+    padding: 0 10px 10px;
 }
 
 .year {
@@ -343,6 +352,7 @@
     display: flex;
     gap: 10px;
     font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+    padding: 0 10px 0;
 }
 
 .chip-domain li {
@@ -470,8 +480,8 @@
 }
 
 .icons {
-    padding: 15px 0px 0px;
-    margin-top: 5px;
+    padding: 10px 10px 10px;
+    margin-top: 12px;
     border-top: 1px solid #cdcdcd;
     display: flex;
     flex-direction: row;
