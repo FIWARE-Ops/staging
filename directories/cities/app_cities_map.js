@@ -52,6 +52,11 @@ const map = new maplibregl.Map({
 
 map.addControl(new maplibregl.NavigationControl());
 
+const isIhub = ['==', ['get', 'type'], 'ihub'];
+const isCity = ['==', ['get', 'type'], 'city'];
+const hasIhub = ['>', ['get', 'clusterProperties.iHubCount'], 0];
+
+
 map.once("load", () => {
   map.addSource("cities", {
     type: "geojson",
@@ -59,30 +64,44 @@ map.once("load", () => {
 
     cluster: true,
     clusterRadius: 50,
-    clusterMaxZoom: 5
- 
+    clusterMaxZoom: 5,
+    'clusterProperties': {
+      'iHubCount': ['+', ['case', isIhub, 1, 0]],
+      'cityCount': ['+', ['case', isCity, 1, 0]]
+    }
   });
 
-  const isIhub = ['==', ['get', 'type'], 'ihub'];
-  const isCity = ['==', ['get', 'type'], 'city'];
-  const isCluster =  ["boolean", ["get", "cluster"], false];
+  
 
   map.addLayer({
     id: "cities-circle",
     type: "circle",
     source: "cities",
-
+    'filter': ['!=', 'cluster', true],
     paint: {
       "circle-color": ["case",
-         isCluster, "white", 
-         isCity, "white", 
+         isCity, "white",
+         isIhub, "cyan", 
          "cyan"],
-      "circle-stroke-width": ["case", isCluster , 5, 0],
+      "circle-stroke-width": 0,
       "circle-radius": ["case", 
-        isCluster, 15,
         isCity, 5,
-        8],
-      "circle-stroke-color": ["case", isCluster , "silver", "cyan"]
+        isIhub, 8,
+        8]
+    }
+  });
+
+
+  map.addLayer({
+    id: "cities-circle-cluster",
+    type: "circle",
+    source: "cities",
+    'filter': ['==', 'cluster', true],
+    paint: {
+      "circle-color": "white", 
+      "circle-stroke-width": 5,
+      "circle-radius": 15,
+      "circle-stroke-color":  "silver"
     }
   });
 
