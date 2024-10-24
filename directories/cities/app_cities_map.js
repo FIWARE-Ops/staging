@@ -56,27 +56,23 @@ const isIhub = ['==', ['get', 'type'], 'ihub'];
 const isCity = ['==', ['get', 'type'], 'city'];
 const hasIhub = ['>', ['get', 'clusterProperties.iHubCount'], 0];
 
-
-map.once("load", () => {
-  map.addSource("cities", {
+function addSource(name, source ) {
+  map.addSource(name, {
     type: "geojson",
-    data: "./community.json",
+    data: source,
 
     cluster: true,
     clusterRadius: 50,
-    clusterMaxZoom: 5,
-    'clusterProperties': {
-      'iHubCount': ['+', ['case', isIhub, 1, 0]],
-      'cityCount': ['+', ['case', isCity, 1, 0]]
-    }
+    clusterMaxZoom: 5
   });
+}
 
-  
-
+function addLayer(source){
+  if (map.getLayer('points')) map.removeLayer('points');
   map.addLayer({
-    id: "cities-circle",
+    id: "points",
     type: "circle",
-    source: "cities",
+    source,
     'filter': ['!=', 'cluster', true],
     paint: {
       "circle-color": ["case",
@@ -91,11 +87,13 @@ map.once("load", () => {
     }
   });
 
-
+  if (map.getLayer('clusters')){ 
+    map.removeLayer('clusters');
+  }
   map.addLayer({
-    id: "cities-circle-cluster",
+    id: "clusters",
     type: "circle",
-    source: "cities",
+    source,
     'filter': ['==', 'cluster', true],
     paint: {
       "circle-color": "white", 
@@ -105,10 +103,13 @@ map.once("load", () => {
     }
   });
 
+  if (map.getLayer('cluster-count')) {
+    map.removeLayer('cluster-count');
+  }
   map.addLayer({
-    id: "cities-cluster-count",
+    id: "cluster-count",
     type: "symbol",
-    source: "cities",
+    source,
     layout: {
       "text-font": ["Monserrat Bold, Arial Bold"],
       "text-size": 12,
@@ -119,18 +120,27 @@ map.once("load", () => {
       "text-color": "black"
     }
   });
+}
+
+map.once("load", () => {
+  // Add 3 sources
+  addSource("cities","./cities.json");
+  addSource("community","./community.json");
+  addSource("iHubs","../iHubs/iHubs.json");
+
+  addLayer("community")
 
 });
 
-map.on("mouseenter", "cities-circle", () => {
+map.on("mouseenter", "points", () => {
   map.getCanvas().style.cursor = "pointer";
 });
 
-map.on("mouseleave", "cities-circle", () => {
+map.on("mouseleave", "points", () => {
   map.getCanvas().style.cursor = "";
 });
 
-map.on("click", "cities-circle-cluster", (e) => {
+map.on("click", "clusters", (e) => {
     const point = [e.lngLat.lng, e.lngLat.lat];
     map.flyTo({
       center: point
@@ -140,7 +150,7 @@ map.on("click", "cities-circle-cluster", (e) => {
     }, 500);
 });
 
-map.on("click", "cities-circle", (e) => {
+map.on("click", "points", (e) => {
   const city = e.features[0]; 
     const html = JSON.parse(city.properties.html);
     const content = html.join('');
@@ -154,6 +164,25 @@ map.on("click", "cities-circle", (e) => {
       horizontalScroll(document.querySelectorAll(".maplibregl-popup-content")[0])
     }, 500);
   
-
 });
+
+document.getElementById('nav-filter').addEventListener('change', (e) => {
+
+  const iHubsCheck = document.getElementById('iHubs');
+  const citiesCheck = document.getElementById('cities');
+
+  if(iHubsCheck.checked === true) {
+    if(citiesCheck.checked === true) {
+      addLayer("community")
+    } else {
+      addLayer("iHubs")
+    }
+  } else if(citiesCheck.checked === true) {
+    addLayer("cities")
+  } else {
+    if (map.getLayer('points')) map.removeLayer('points');
+    if (map.getLayer('clusters')) map.removeLayer('clusters');
+    if (map.getLayer('cluster-count')) map.removeLayer('cluster-count');
+  }
+});      
 
