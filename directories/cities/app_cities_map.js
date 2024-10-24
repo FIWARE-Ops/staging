@@ -130,18 +130,18 @@ map.on("mouseleave", "cities-circle", () => {
   map.getCanvas().style.cursor = "";
 });
 
-
-map.on("click", "cities-circle", (e) => {
-  const city = e.features[0]; 
-  if(city.properties.cluster){
-    const point = [e.lngLat.lng, e.lngLat.lat]
+map.on("click", "cities-circle-cluster", (e) => {
+    const point = [e.lngLat.lng, e.lngLat.lat];
     map.flyTo({
       center: point
     });
     setTimeout(function(){
        map.zoomIn()
     }, 500);
-  } else {
+});
+
+map.on("click", "cities-circle", (e) => {
+  const city = e.features[0]; 
     const html = JSON.parse(city.properties.html);
     const content = html.join('');
 
@@ -153,7 +153,7 @@ map.on("click", "cities-circle", (e) => {
     setTimeout(function(){
       horizontalScroll(document.querySelectorAll(".maplibregl-popup-content")[0])
     }, 500);
-  }
+  
 
 });
 
