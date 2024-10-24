@@ -18,7 +18,7 @@ function getExcerpt(item) {
 }
 
 function trunc(value){
-    return (Math.trunc(value *100)/100) + 0.005;
+    return (Math.trunc(value *10)/10);
 }
 
 /**

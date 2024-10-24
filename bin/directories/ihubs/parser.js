@@ -12,7 +12,7 @@ const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/iHubs/image
 
 
 function trunc(value){
-    return (Math.trunc(value *100)/100) - 0.005;
+    return (Math.trunc((value - 0.005) *1000)/1000) ;
 }
 
 /**
