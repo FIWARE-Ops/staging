@@ -571,6 +571,58 @@
     padding: 4px 2px 0px 1px;
 }
 
+.impactstory::before {
+    font-family: "ETmodules";
+    font-weight: 400;
+    content: "\e086";
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    background: #fff;
+    border: 1px solid #002e67;
+    border-radius: 40px;
+    width: 32px;
+    height: 32px;
+    color: #002e67;
+    text-align: center;
+    padding-right: 1px;
+    transition: all 0.3s ease-in-out;
+}
+
+.impactstory:hover:before {
+    border: 1px solid #002e67;
+    background: #002e67;
+    color: #fff;
+}
+
+.marketplace::before {
+    font-family: "ETmodules";
+    font-weight: 400;
+    content: "\e0ed";
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    background: #fff;
+    border: 1px solid #002e67;
+    border-radius: 40px;
+    width: 32px;
+    height: 32px;
+    color: #002e67;
+    text-align: center;
+    padding-right: 1px;
+    transition: all 0.3s ease-in-out;
+}
+
+.marketplace:hover:before {
+    border: 1px solid #002e67;
+    background: #002e67;
+    color: #fff;
+}
+
+
+
+
+
 .cat-website {
     width: 32px;
 }
