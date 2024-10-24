@@ -27,6 +27,24 @@
 
 /* Popup */
 
+.maplibregl-popup {
+    max-width: 280px !important;
+}
+
+.maplibregl-popup-close-button {
+    font-size: 24px !important;
+    mix-blend-mode: multiply;
+    opacity: .8;
+    color: #002E67;
+    border-radius: 0 3px 0 3px;
+    background-color: rgba(0, 46, 102, 0);
+    transition: all 0.2s ease-in-out;
+}
+
+.maplibregl-popup-close-button:hover {
+    background-color: rgba(0, 46, 102, .3);
+}
+
 .maplibregl-popup-content {
     padding: 0;
     cursor: default;
@@ -64,6 +82,10 @@
 
 .gridElementLogo {
     width: 100%;
+}
+
+.maplibregl-popup-content .gridElementLogo {
+    border-radius: 3px 3px 0 0
 }
 
 .gutter-sizer {
