@@ -55,12 +55,16 @@ map.addControl(new maplibregl.NavigationControl());
 map.once("load", () => {
   map.addSource("cities", {
     type: "geojson",
-    data: "./cities.json",
+    data: "./community.json",
 
     cluster: true,
     clusterRadius: 50
  
   });
+
+  const isIhub = ['==', ['get', 'type'], 'ihub'];
+  const isCity = ['==', ['get', 'type'], 'city'];
+  const isCluster =  ["boolean", ["get", "cluster"], false];
 
   map.addLayer({
     id: "cities-circle",
@@ -68,10 +72,16 @@ map.once("load", () => {
     source: "cities",
 
     paint: {
-      "circle-color": ["case", ["boolean", ["get", "cluster"], false],"white", "cyan"],
-      "circle-stroke-width": ["case", ["boolean", ["get", "cluster"], false], 5, 0],
-      "circle-radius": ["case", ["boolean", ["get", "cluster"], false], 15, 5],
-      "circle-stroke-color": ["case", ["boolean", ["get", "cluster"], false], "silver", "cyan"]
+      "circle-color": ["case",
+         isCluster, "white", 
+         isCity, "white", 
+         "cyan"],
+      "circle-stroke-width": ["case", isCluster , 5, 0],
+      "circle-radius": ["case", 
+        isCluster, 15,
+        isCity, 5,
+        8],
+      "circle-stroke-color": ["case", isCluster , "silver", "cyan"]
     }
   });
 
