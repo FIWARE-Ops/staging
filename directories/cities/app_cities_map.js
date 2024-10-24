@@ -168,8 +168,8 @@ map.on("click", "points", (e) => {
 
 document.getElementById('nav-filter').addEventListener('change', (e) => {
 
-  const iHubsCheck = document.getElementById('iHubs');
-  const citiesCheck = document.getElementById('cities');
+  const iHubsCheck = document.getElementById('iHubsCheck');
+  const citiesCheck = document.getElementById('citiesCheck');
 
   if(iHubsCheck.checked === true) {
     if(citiesCheck.checked === true) {
