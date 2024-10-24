@@ -132,6 +132,15 @@
     padding: 0px;
 }
 
+.solution-title {
+    font-weight: 600;
+    font-size: 14px;
+    text-align: left;
+    color: #001b3d;
+    line-height: 1.4em;
+    padding: 0px;
+}
+
 .details-container {
     display: flex;
     align-items: center;
