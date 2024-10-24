@@ -30,6 +30,7 @@
 .maplibregl-popup-content {
     padding: 0;
     cursor: default;
+    font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
 }
 
 /* Card */
@@ -63,8 +64,6 @@
 
 .gridElementLogo {
     width: 100%;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
 }
 
 .gutter-sizer {
@@ -204,11 +203,13 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+
+.maplibregl-popup-content .label-location {
     padding: 5px 10px;
 }
 
 .label-location h3 {
-    font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
     font-weight: 600;
     text-transform: uppercase;
     font-size: 13px;
@@ -228,22 +229,29 @@
 }
 
 .ihub-name {
-    font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
     font-weight: 600;
     font-size: 18px;
     text-align: left;
     color: #002e67;
     line-height: 1.4em;
+    padding: 0px;
+    /*cursor: default;*/
+}
+
+.maplibregl-popup-content .ihub-name {
     padding: 0 10px 10px;
 }
 
 .ihub-type {
-    font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
     text-transform: uppercase;
     color: #000000;
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
+    padding-bottom: 10px;
+}
+
+.maplibregl-popup-content .ihub-type {
     padding: 0 10px 10px;
 }
 
@@ -293,6 +301,8 @@
     cursor: grab;
 }
 
+
+
 .chips.active {
     background: rgba(255, 255, 255, 0.3);
     cursor: grabbing;
@@ -320,7 +330,10 @@
 .chip-technology {
     display: flex;
     gap: 10px;
-    font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+}
+
+.maplibregl-popup-content .chip-technology {
+    padding: 0 10px 0;
 }
 
 .chip-technology li {
@@ -351,7 +364,9 @@
 .chip-domain {
     display: flex;
     gap: 10px;
-    font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+}
+
+.maplibregl-popup-content .chip-domain {
     padding: 0 10px 0;
 }
 
@@ -392,6 +407,10 @@
     width: 30px;
     text-align: right;
     background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+.maplibregl-popup-content .chips-gradient {
+    right: 0;
 }
 
 .details {
@@ -480,12 +499,17 @@
 }
 
 .icons {
-    padding: 10px 10px 10px;
-    margin-top: 12px;
+    padding: 15px 0px 0px;
+    margin-top: 5px;
     border-top: 1px solid #cdcdcd;
     display: flex;
     flex-direction: row;
     gap: 10px;
+}
+
+.maplibregl-popup-content .icons {
+    padding: 10px 10px 10px;
+    margin-top: 12px;
 }
 
 .icon::before {
@@ -511,7 +535,7 @@
     height: 32px;
     color: #002e67;
     text-align: center;
-    padding: 4px 2px 0px 1px;
+    padding-right: 1px;
     transition: all 0.3s ease-in-out;
 }
 
@@ -519,6 +543,10 @@
     border: 1px solid #002e67;
     background: #002e67;
     color: #fff;
+}
+
+.maplibregl-popup-content .website::before {
+    padding: 4px 2px 0px 1px;
 }
 
 .cat-website {
@@ -532,7 +560,7 @@
     font-size: 16px;
     display: inline-block;
     position: relative;
-    background: #000;
+    background: #00aced;
     border-radius: 40px;
     width: 32px;
     height: 32px;
