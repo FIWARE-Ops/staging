@@ -7,6 +7,7 @@ const Sorter = require('../../sort');
 const Template = require('../../template');
 const TEMPLATE_PATH = 'bin/directories/cities/';
 const CITIES_DIR = 'directories/cities';
+const IHUBS_DIR = 'directories/ihubs';
 
 const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/cities/images/city-default.png';
 
@@ -118,6 +119,12 @@ function parse(file) {
                 );
                 Prettier.format(path.join(CITIES_DIR, `${filename}.html`), { parser: 'html' });
             });
+
+            Template.concatGeoJSON(
+                path.join(CITIES_DIR, 'community.json'),
+                path.join(IHUBS_DIR, 'iHubs.json'),
+                path.join(CITIES_DIR, 'cities.json')
+          );
         })
         .catch((e) => {
             console.log(e);

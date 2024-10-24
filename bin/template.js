@@ -25,6 +25,21 @@ const font = {
     semibold: font2base64.encodeToDataUrlSync(path.join(__dirname, '../fonts/Montserrat-SemiBold.ttf'))
 };
 
+function concatGeoJSON(filename, file1, file2) {
+    const geoJSON1 = JSON.parse(
+        fs.readFileSync(file1, { encoding: 'utf8', flag: 'r' }
+    ));
+    const geoJSON2 = JSON.parse(
+        fs.readFileSync(file2, { encoding: 'utf8', flag: 'r' }
+    ));
+
+    geoJSON1.features = geoJSON1.features.concat(geoJSON2.features); 
+    const output = JSON.stringify(geoJSON1);
+    fs.ensureFileSync(filename);
+    fs.writeFile(filename, output, function (err) {
+        if (err) return console.log(err);
+    });
+}
 
 function readCSS( page , attr) {
     return  fs.readFileSync(
@@ -211,6 +226,7 @@ function write(filename, template, input) {
     });
 }
 
+
 function clean(dir) {
     if (fs.existsSync(dir)) {
         const files = fs.readdirSync(dir).filter((el) => path.extname(el) === '.html');
@@ -274,6 +290,7 @@ exports.write = write;
 exports.clean = clean;
 exports.qrCodes = qrCodes;
 exports.readCSS = readCSS;
+exports.concatGeoJSON= concatGeoJSON;
 exports.cleanDir = cleanDir;
 exports.createClass = createClass;
 exports.createSocialMediaImages = createSocialMediaImages;
