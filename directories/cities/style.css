@@ -231,7 +231,8 @@
     padding: 5px 10px;
 }
 
-.label-location h3 {
+.label-location h3,
+.label-location h6 {
     font-weight: 600;
     text-transform: uppercase;
     font-size: 13px;
