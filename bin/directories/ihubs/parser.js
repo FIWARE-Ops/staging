@@ -10,6 +10,11 @@ const IHUBS_DIR = 'directories/ihubs';
 
 const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/iHubs/images/iHub-default.png';
 
+
+function trunc(value){
+    return (Math.trunc(value *1000)/1000) - 0.0001;
+}
+
 /**
  * Take the human readable column names from the spreadsheet and create a
  * data object of iHubs for later use
@@ -30,8 +35,8 @@ function extractIHubs(input) {
             flag: item['Country flag'],
             content: Parser.markdown(item.Content),
             publish: Parser.boolean(item.Published),
-            latitude: item.Latitude,
-            longitude: item.Longitude,
+            latitude: trunc(Number(item.Latitude)),
+            longitude: trunc(Number(item.Longitude)),
         };
 
         if (iHub.website || iHub.twitter || iHub.linkedIn) {

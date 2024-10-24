@@ -17,6 +17,10 @@ function getExcerpt(item) {
     return text.substring(0, next + 1);
 }
 
+function trunc(value){
+    return (Math.trunc(value *1000)/1000) + 0.0001;
+}
+
 /**
  * Take the human readable column names from the spreadsheet and create a
  * data object of cities for later use
@@ -32,8 +36,8 @@ function extractcities(input) {
             domain: Parser.splitStrings(item.Domain),
             type: item.Region,
             country: item.Country,
-            lat: Number(item.Latitude),
-            lng: Number(item.Longitude),
+            lat: trunc(Number(item.Latitude)),
+            lng: trunc(Number(item.Longitude)),
             flag: item['Country Flag'],
             excerpt: getExcerpt(item),
             cityStrategy: Parser.markdown(item['City Strategy Description']),
