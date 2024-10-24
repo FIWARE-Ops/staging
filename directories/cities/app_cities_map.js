@@ -58,7 +58,8 @@ map.once("load", () => {
     data: "./community.json",
 
     cluster: true,
-    clusterRadius: 50
+    clusterRadius: 50,
+    clusterMaxZoom: 5
  
   });
 
