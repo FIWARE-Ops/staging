@@ -54,7 +54,7 @@ map.addControl(new maplibregl.NavigationControl());
 
 const isIhub = ['==', ['get', 'type'], 'ihub'];
 const isCity = ['==', ['get', 'type'], 'city'];
-const hasIhub = ['>', ['get', 'clusterProperties.iHubCount'], 0];
+const isMember = ['==', ['get', 'type'], 'Organization'];
 
 function addSource(name, source ) {
   map.addSource(name, {
@@ -77,13 +77,14 @@ function addLayer(source){
     paint: {
       "circle-color": ["case",
          isCity, "white",
-         isIhub, "cyan", 
+         isIhub, "cyan",
+         isMember, "red", 
          "cyan"],
       "circle-stroke-width": 0,
       "circle-radius": ["case", 
         isCity, 5,
         isIhub, 8,
-        8]
+        5]
     }
   });
 
@@ -127,6 +128,7 @@ map.once("load", () => {
   addSource("cities","./cities.json");
   addSource("community","./community.json");
   addSource("iHubs","../ihubs/iHubs.json");
+  addSource("members","../organisations/organisations.json");
 
   addLayer("community")
 
@@ -167,7 +169,6 @@ map.on("click", "points", (e) => {
 });
 
 document.getElementById('nav-filter').addEventListener('change', (e) => {
-  console.log(e.target.value)
   switch(e.target.value) {
     case "ihubs":
       addLayer("iHubs")
@@ -175,9 +176,9 @@ document.getElementById('nav-filter').addEventListener('change', (e) => {
     case "cities":
       addLayer("cities")
       break;
-    /*case "orgs":
-      // code block
-      break;*/
+    case "orgs":
+      addLayer("members");
+      break;
     default:
       addLayer("community")
   }
