@@ -8,6 +8,7 @@ const Template = require('../../template');
 const TEMPLATE_PATH = 'bin/directories/cities/';
 const CITIES_DIR = 'directories/cities';
 const IHUBS_DIR = 'directories/ihubs';
+const ORGANISATIONS_DIR = 'directories/organisations';
 
 const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/cities/images/city-default.png';
 
@@ -126,8 +127,9 @@ function parse(file) {
 
             Template.concatGeoJSON(
                 path.join(CITIES_DIR, 'community.json'),
+                path.join(CITIES_DIR, 'cities.json'),  
                 path.join(IHUBS_DIR, 'iHubs.json'),
-                path.join(CITIES_DIR, 'cities.json')
+                path.join(ORGANISATIONS_DIR, 'organisations.json')
           );
         })
         .catch((e) => {

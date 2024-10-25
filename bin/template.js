@@ -25,15 +25,19 @@ const font = {
     semibold: font2base64.encodeToDataUrlSync(path.join(__dirname, '../fonts/Montserrat-SemiBold.ttf'))
 };
 
-function concatGeoJSON(filename, file1, file2) {
+function concatGeoJSON(filename, file1, file2, file3) {
     const geoJSON1 = JSON.parse(
         fs.readFileSync(file1, { encoding: 'utf8', flag: 'r' }
     ));
     const geoJSON2 = JSON.parse(
         fs.readFileSync(file2, { encoding: 'utf8', flag: 'r' }
     ));
+     const geoJSON3 = JSON.parse(
+        fs.readFileSync(file3, { encoding: 'utf8', flag: 'r' }
+    ));
 
-    geoJSON1.features = geoJSON1.features.concat(geoJSON2.features); 
+    geoJSON1.features = geoJSON1.features.concat(geoJSON2.features);
+    geoJSON1.features = geoJSON1.features.concat(geoJSON3.features); 
     const output = JSON.stringify(geoJSON1);
     fs.ensureFileSync(filename);
     fs.writeFile(filename, output, function (err) {

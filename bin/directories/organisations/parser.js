@@ -24,6 +24,9 @@ function extractOrganisations(input) {
             img: item.Image ? item.Image : DEFAULT_IMAGE,
             type: item.Type,
             website: item.Website,
+            country: item.Country,
+            latitude: Number(item.Latitude),
+            longitude: Number(item.Longitude),
             publish: Parser.boolean(item.Published)
         };
 
@@ -88,6 +91,12 @@ function parse(file) {
                 path.join(TEMPLATE_PATH, 'card.hbs'),
                 organisations
             );
+            Template.write(
+                path.join(ORGANISATIONS_DIR, 'organisations.json'),
+                path.join(TEMPLATE_PATH, 'map.hbs'), 
+                organisations
+            );
+            
             Template.write(
                 path.join(ORGANISATIONS_DIR, 'pageData.js'),
                 path.join(TEMPLATE_PATH, 'modal.hbs'),
