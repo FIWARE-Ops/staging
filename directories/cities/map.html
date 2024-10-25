@@ -32,7 +32,7 @@
     .map-overlay {
         font: 12px/20px Montserrat, Arial, Helvetica, sans-serif;
         position: absolute;
-        width: 10em;
+        width: 12em;
         top: 0;
         left: 0;
         padding: 10px;
@@ -61,10 +61,14 @@
         <div class="map-overlay">
             <div class="map-overlay-inner">
                 <nav id="nav-filter">
-                    <input type="checkbox" checked="checked" id="iHubsCheck" name="filter" />
+                    <input type="radio" id="iHubsCheck" name="filter" value="ihubs">
                     <label for="iHubsCheck">iHubs</label><br>
-                    <input type="checkbox" checked="checked" id="citiesCheck" name="filter" value="cities"/>
+                     <input type="radio" id="citiesCheck" name="filter" value="cities">
                     <label for="citiesCheck">Cities</label><br>
+                     <input type="radio" id="orgsCheck" name="filter" value="orgs">
+                    <label for="orgsCheck">Members</label><br>
+                     <input type="radio" id="allCheck" name="filter" value="all" checked="checked">
+                    <label for="allCheck">All</label><br>
                 </nav>
 
             </div>

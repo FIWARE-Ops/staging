@@ -167,22 +167,20 @@ map.on("click", "points", (e) => {
 });
 
 document.getElementById('nav-filter').addEventListener('change', (e) => {
-
-  const iHubsCheck = document.getElementById('iHubsCheck');
-  const citiesCheck = document.getElementById('citiesCheck');
-
-  if(iHubsCheck.checked === true) {
-    if(citiesCheck.checked === true) {
-      addLayer("community")
-    } else {
+  console.log(e.target.value)
+  switch(e.target.value) {
+    case "ihubs":
       addLayer("iHubs")
-    }
-  } else if(citiesCheck.checked === true) {
-    addLayer("cities")
-  } else {
-    if (map.getLayer('points')) map.removeLayer('points');
-    if (map.getLayer('clusters')) map.removeLayer('clusters');
-    if (map.getLayer('cluster-count')) map.removeLayer('cluster-count');
+      break;
+    case "cities":
+      addLayer("cities")
+      break;
+    /*case "orgs":
+      // code block
+      break;*/
+    default:
+      addLayer("community")
   }
-});      
+});
+ 
 

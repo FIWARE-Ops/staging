@@ -1668,6 +1668,7 @@ select::-ms-expand {
     margin: 10px 10px 10px 0px;
 }
 
+input[type="radio"],
 input[type="checkbox"] {
     line-height: 2.1ex;
 }
@@ -1677,13 +1678,14 @@ input[type="checkbox"] {
     position: absolute;
     left: -999em;
 }
-
+input[type="radio"]+label,
 input[type="checkbox"]+label {
     position: relative;
     overflow: hidden;
     cursor: pointer;
 }
 
+input[type="radio"]+label::before,
 input[type="checkbox"]+label::before {
     content: "";
     display: inline-block;
@@ -1697,6 +1699,7 @@ input[type="checkbox"]+label::before {
     margin-left: 2px;
 }
 
+input[type="radio"]:checked+label::after,
 input[type="checkbox"]:checked+label::after {
     content: "";
     display: inline-block;
@@ -2259,5 +2262,5 @@ input[type="search"]::placeholder {
     /* –––––––––––––––– */
 
 
-
+  .nav-filter 
 }
