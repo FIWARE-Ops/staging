@@ -111,7 +111,7 @@ function addLayer(source){
     type: "symbol",
     source,
     layout: {
-      "text-font": ["Monserrat Bold, Arial Bold"],
+      "text-font": ["Montserrat Bold, Arial Bold"],
       "text-size": 12,
       "text-field": ["get", "point_count"],
       "text-offset": [0, 0.1] // move the label vertically downwards slightly to improve centering
