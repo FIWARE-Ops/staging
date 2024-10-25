@@ -123,11 +123,24 @@
     padding: 0px;
 }
 
+.solution-item {
+    padding: 0 10px;
+}
+
 .solution-name {
     font-weight: 600;
     font-size: 16px;
     text-align: left;
     color: #002e67;
+    line-height: 1.4em;
+    padding: 0px;
+}
+
+.solution-title {
+    font-weight: 600;
+    font-size: 14px;
+    text-align: left;
+    color: #001b3d;
     line-height: 1.4em;
     padding: 0px;
 }
@@ -257,7 +270,19 @@
     color: #002e67;
     line-height: 1.4em;
     padding: 0px;
-    /*cursor: default;*/
+}
+
+.city-name {
+    padding: 10px 10px 0 10px;
+}
+
+.city-name h3 {
+    font-weight: 600;
+    font-size: 18px;
+    text-align: left;
+    color: #002e67;
+    line-height: 1.4em;
+    padding: 0px;
 }
 
 .maplibregl-popup-content .ihub-name {
@@ -529,6 +554,12 @@
     gap: 10px;
 }
 
+.solution .icons {
+    border: none;
+    padding: 0!important;
+    margin: 5px auto 10px !important;
+}
+
 .maplibregl-popup-content .icons {
     padding: 10px 10px 10px;
     margin-top: 12px;
@@ -543,105 +574,104 @@
     padding-right: 10px;
 }
 
-.website::before {
-    font-family: "ETmodules";
-    font-weight: 400;
-    content: "\e0e3";
-    font-size: 20px;
-    display: inline-block;
-    position: relative;
-    background: #fff;
-    border: 1px solid #002e67;
-    border-radius: 40px;
-    width: 32px;
-    height: 32px;
-    color: #002e67;
-    text-align: center;
-    padding-right: 1px;
-    transition: all 0.3s ease-in-out;
+.website {
+	font-weight: 400;
+	font-size: 20px;
+	display: inline-block;
+	position: relative;
+	background-color: #ebebeb;
+	background-image: url(https://www.fiware.org/custom/icons/blue/website.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 55%;
+	border-radius: 40px;
+	width: 32px;
+	height: 32px;
+	color: #002e67;
+	text-align: center;
+	padding: 2px;
+	transition: all 0.3s ease-in-out;
 }
 
-.website:hover:before {
-    border: 1px solid #002e67;
-    background: #002e67;
-    color: #fff;
+.website:hover {
+	background-color: #002e67;
+	background-image: url(https://www.fiware.org/custom/icons/white/website.svg);
 }
 
-.maplibregl-popup-content .website::before {
-    padding: 4px 2px 0px 1px;
+.impactstory {
+	font-weight: 400;
+	font-size: 20px;
+	display: inline-block;
+	position: relative;
+	background-color: #ebebeb;
+	background-image: url(https://www.fiware.org/custom/icons/blue/impact-story.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 45%;
+	border-radius: 40px;
+	width: 32px;
+	height: 32px;
+	color: #002e67;
+	text-align: center;
+	padding: 2px;
+	transition: all 0.3s ease-in-out;
 }
 
-.impactstory::before {
-    font-family: "ETmodules";
-    font-weight: 400;
-    content: "\e086";
-    font-size: 20px;
-    display: inline-block;
-    position: relative;
-    background: #fff;
-    border: 1px solid #002e67;
-    border-radius: 40px;
-    width: 32px;
-    height: 32px;
-    color: #002e67;
-    text-align: center;
-    padding-right: 1px;
-    transition: all 0.3s ease-in-out;
+.impactstory:hover {
+	background-color: #002e67;
+	background-image: url(https://www.fiware.org/custom/icons/white/impact-story.svg);
 }
 
-.impactstory:hover:before {
-    border: 1px solid #002e67;
-    background: #002e67;
-    color: #fff;
+.marketplace {
+	font-weight: 400;
+	font-size: 20px;
+	display: inline-block;
+	position: relative;
+	background-color: #ebebeb;
+	background-image: url(https://www.fiware.org/custom/icons/blue/marketplace.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 50%;
+	border-radius: 40px;
+	width: 32px;
+	height: 32px;
+	color: #002e67;
+	text-align: center;
+	padding: 2px;
+	transition: all 0.3s ease-in-out;
 }
 
-.marketplace::before {
-    font-family: "ETmodules";
-    font-weight: 400;
-    content: "\e0ed";
-    font-size: 20px;
-    display: inline-block;
-    position: relative;
-    background: #fff;
-    border: 1px solid #002e67;
-    border-radius: 40px;
-    width: 32px;
-    height: 32px;
-    color: #002e67;
-    text-align: center;
-    padding-right: 1px;
-    transition: all 0.3s ease-in-out;
+.marketplace:hover {
+	background-color: #002e67;
+	background-image: url(https://www.fiware.org/custom/icons/white/marketplace.svg);
 }
-
-.marketplace:hover:before {
-    border: 1px solid #002e67;
-    background: #002e67;
-    color: #fff;
-}
-
-
-
-
 
 .cat-website {
     width: 32px;
 }
 
-.twitter::before {
-    font-family: "ETmodules";
-    font-weight: 400;
-    content: "\e094";
-    font-size: 16px;
-    display: inline-block;
-    position: relative;
-    background: #00aced;
-    border-radius: 40px;
-    width: 32px;
-    height: 32px;
-    color: #fff;
-    text-align: center;
-    padding-left: 8px;
-    padding-top: 5px;
+.twitter {
+	font-weight: 400;
+	font-size: 20px;
+	display: inline-block;
+	position: relative;
+	background-color: #ebebeb;
+	background-image: url(https://www.fiware.org/custom/icons/blue/twitter.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 50%;
+	border-radius: 40px;
+	width: 32px;
+	height: 32px;
+	color: #002e67;
+	text-align: center;
+	padding: 2px;
+	transition: all 0.3s ease-in-out;
+}
+
+.twitter:hover {
+	background-color: #002e67;
+	background-image: url(https://www.fiware.org/custom/icons/white/marketplace.svg);
 }
 
 .cat-twitter {
@@ -649,21 +679,28 @@
     width: 32px;
 }
 
-.linkedin::before {
-    font-family: "ETmodules";
-    font-weight: 400;
-    content: "\e09d";
-    font-size: 16px;
-    display: inline-block;
-    position: relative;
-    background: #007bb6;
-    border-radius: 40px;
-    width: 32px;
-    height: 32px;
-    color: #fff;
-    text-align: center;
-    padding-right: 0px;
-    padding-top: 5px;
+.linkedin {
+	font-weight: 400;
+	font-size: 20px;
+	display: inline-block;
+	position: relative;
+	background-color: #ebebeb;
+	background-image: url(https://www.fiware.org/custom/icons/blue/linkedin.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 45%;
+	border-radius: 40px;
+	width: 32px;
+	height: 32px;
+	color: #002e67;
+	text-align: center;
+	padding: 2px;
+	transition: all 0.3s ease-in-out;
+}
+
+.linkedin:hover {
+	background-color: #002e67;
+	background-image: url(https://www.fiware.org/custom/icons/white/linkedin.svg);
 }
 
 .cat-linkedin {
