@@ -598,6 +598,30 @@
 	background-image: url(https://www.fiware.org/custom/icons/white/website.svg);
 }
 
+.strategy {
+	font-weight: 400;
+	font-size: 20px;
+	display: inline-block;
+	position: relative;
+	background-color: #ebebeb;
+	background-image: url(https://www.fiware.org/custom/icons/blue/strategy.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 55%;
+	border-radius: 40px;
+	width: 32px;
+	height: 32px;
+	color: #002e67;
+	text-align: center;
+	padding: 2px;
+	transition: all 0.3s ease-in-out;
+}
+
+.strategy:hover {
+	background-color: #002e67;
+	background-image: url(https://www.fiware.org/custom/icons/white/strategy.svg);
+}
+
 .impactstory {
 	font-weight: 400;
 	font-size: 20px;
