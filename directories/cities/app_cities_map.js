@@ -77,14 +77,15 @@ function addLayer(source){
     paint: {
       "circle-color": ["case",
          isCity, "white",
-         isIhub, "cyan",
-         isMember, "red", 
-         "cyan"],
+         isIhub, "#5dc0cf",
+         isMember, "#3cab3b", 
+         "#5dc0cf"],
       "circle-stroke-width": 0,
       "circle-radius": ["case", 
         isCity, 5,
         isIhub, 8,
-        5]
+        isMember, 6,
+        6]
     }
   });
 
