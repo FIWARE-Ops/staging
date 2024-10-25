@@ -300,6 +300,7 @@
 }
 
 .maplibregl-popup-content .ihub-type {
+    font-size: 13px;
     padding: 0 15px 10px;
 }
 
@@ -445,6 +446,11 @@
 
 .chip-domain li:last-of-type {
     margin-right: 40px;
+}
+
+.maplibregl-popup-content .chip-domain li {
+    font-size: 13px;
+    padding: 4px 8px 6px;
 }
 
 .chips-gradient {
