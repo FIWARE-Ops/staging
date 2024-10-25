@@ -20,6 +20,9 @@
     display: flex;
 }
 
+a:focus {
+    outline: none!important;
+}
 
 .cover-image img {
     max-height: 55vh;
