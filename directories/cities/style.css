@@ -32,6 +32,8 @@
 }
 
 .maplibregl-popup-close-button {
+    width: 20px;
+    padding: 0;
     font-size: 24px !important;
     mix-blend-mode: multiply;
     opacity: .8;
@@ -287,7 +289,7 @@
 }
 
 .maplibregl-popup-content .ihub-name {
-    padding: 0 15px 10px;
+    padding: 0 15px 5px;
 }
 
 .ihub-type {
@@ -301,7 +303,7 @@
 
 .maplibregl-popup-content .ihub-type {
     font-size: 13px;
-    padding: 0 15px 10px;
+    padding: 0 15px;
 }
 
 .year {
@@ -416,7 +418,7 @@
 }
 
 .maplibregl-popup-content .chip-domain {
-    padding: 0 10px 0;
+    padding: 10px 10px 0;
 }
 
 .chip-domain li {
