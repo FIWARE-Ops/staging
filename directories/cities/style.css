@@ -56,6 +56,82 @@ a:focus {
     font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
 }
 
+.map-overlay {
+    font-size: 12px;
+    line-height: 20px;
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    width: 11em;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+}
+
+.map-overlay .map-overlay-inner {
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+#nav-filter {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#nav-filter input[type="radio"]+label::before,
+#nav-filter input[type="checkbox"]+label::before {
+    content: "";
+    display: flex;
+    justify-content: center;
+    height: 16px;
+    width: 16px;
+    background-color: white;
+    border: 1px solid rgb(166, 166, 166);
+    border-radius: 10px;
+    margin-right: 8px;
+}
+
+#nav-filter input[type="radio"]:checked+label::after,
+input[type="checkbox"]:checked+label::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    height: .8em;
+    width: .8em;
+    background-color: #000;
+    border-radius: 5px;
+    top: .51rem;
+    left: .51rem;
+}
+
+input[type="radio"]:checked+label[for="iHubsCheck"]::after {
+    background-color: #5dc0cf!important;
+    border: none;
+}
+
+input[type="radio"]:checked+label[for="orgsCheck"]::after {
+    background-color: #002E67!important;
+    border: none;
+}
+
+input[type="radio"]:checked+label[for="citiesCheck"]::after {
+    background-color: #6a7be7!important;
+    border: none;
+}
+
+.map-overlay input {
+    margin: 2px;
+}
+
+.map-overlay-inner label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 /* Card */
 
 .grid-item {
