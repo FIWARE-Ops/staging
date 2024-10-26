@@ -569,7 +569,7 @@ a:focus {
 .solution-item .icons {
     border: none;
     padding: 0!important;
-    margin: 5px auto 10px !important;
+    margin: 5px auto 15px !important;
 }
 
 .maplibregl-popup-content .icons {
@@ -708,7 +708,7 @@ a:focus {
 
 .twitter:hover {
 	background-color: #002e67;
-	background-image: url(https://www.fiware.org/custom/icons/white/marketplace.svg);
+	background-image: url(https://www.fiware.org/custom/icons/white/twitter.svg);
 }
 
 .cat-twitter {
@@ -2324,6 +2324,41 @@ input[type="search"]::placeholder {
     }
 
     /* Icons */
+
+    .website:hover {
+        background-color: #ebebeb;
+        background-image: url(https://www.fiware.org/custom/icons/blue/website.svg);
+    }
+
+    .strategy:hover {
+        background-color: #ebebeb;
+        background-image: url(https://www.fiware.org/custom/icons/blue/strategy.svg);
+    }
+
+    .solution:hover {
+        background-color: #ebebeb;
+        background-image: url(https://www.fiware.org/custom/icons/blue/solution.svg);
+    }
+
+    .impactstory:hover {
+        background-color: #ebebeb;
+        background-image: url(https://www.fiware.org/custom/icons/blue/impact-story.svg);
+    }
+
+    .marketplace:hover {
+        background-color: #ebebeb;
+        background-image: url(https://www.fiware.org/custom/icons/blue/marketplace.svg);
+    }
+
+    .twitter:hover {
+        background-color: #ebebeb;
+        background-image: url(https://www.fiware.org/custom/icons/blue/twitter.svg);
+    }
+
+    .linkedin:hover {
+        background-color: #ebebeb;
+        background-image: url(https://www.fiware.org/custom/icons/blue/linkedin.svg);
+    }
 
     #ico-sortby-alpha {
         margin-right: 0px;
