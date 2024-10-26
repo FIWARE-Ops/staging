@@ -91,10 +91,10 @@ function addLayer(source){
          isMember, "rgba(255,255,255,1)", 
          "rgba(93,192,207,1)"],
       "circle-radius": ["case", 
-        isCity, 6,
-        isIhub, 6,
-        isMember, 6,
-        6]
+        isCity, 7,
+        isIhub, 7,
+        isMember, 7,
+        7]
     }
   });
 
