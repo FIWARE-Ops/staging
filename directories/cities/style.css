@@ -68,7 +68,7 @@ a:focus {
 }
 
 .map-overlay .map-overlay-inner {
-    background-color: #fff;
+    background-color: rgba(255,255,255,.9);
     border-radius: 4px;
     padding: 10px;
     margin-bottom: 0;
