@@ -28,7 +28,11 @@ a:focus {
     max-height: 55vh;
 }
 
-/* Popup */
+/* Map */
+
+.maplibregl-ctrl-bottom-right {
+    display: none;
+}
 
 .maplibregl-popup {
     max-width: 280px !important;
@@ -91,12 +95,12 @@ input[type="checkbox"]:checked+label::after {
     content: "";
     display: inline-block;
     position: absolute;
-    height: 15px;
-    width: 15px;
+    height: 16px;
+    width: 16px;
     background-color: #000;
     border-radius: 10px;
-    top: .65rem;
-    left: .8rem;
+    top: .5rem;
+    left: .75rem;
 }
 
 input[type="radio"]:checked+label[for="iHubsCheck"]::after {
@@ -2167,6 +2171,17 @@ input[type="search"]::placeholder {
 
     .title-icon {
         display: none;
+    }
+
+    /* Map */
+
+    .map-overlay {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        top: auto;
+        bottom: 0;
+        padding: 0 0 15px 0;
     }
 
     /* Card */
