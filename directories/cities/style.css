@@ -61,23 +61,16 @@ a:focus {
     line-height: 20px;
     font-family: "Montserrat", sans-serif;
     position: absolute;
-    width: 11em;
-    bottom: 0;
+    /* width: 11em; */
+    top: 0;
     left: 0;
-    padding: 10px;
-}
-
-.map-overlay .map-overlay-inner {
-    background-color: rgba(255,255,255,.9);
-    border-radius: 4px;
-    padding: 10px;
-    margin-bottom: 0px;
+    padding: 10px 0 0 10px;
 }
 
 #nav-filter {
     display: flex;
-    flex-direction: column;
-    gap: 5px;
+    flex-direction: row;
+    gap: 10px;
 }
 
 #nav-filter input[type="radio"]+label::before,
@@ -85,12 +78,12 @@ a:focus {
     content: "";
     display: flex;
     justify-content: center;
-    height: 16px;
-    width: 16px;
+    height: 15px;
+    width: 15px;
     background-color: white;
     border: 1px solid rgb(166, 166, 166);
     border-radius: 10px;
-    margin-right: 8px;
+    margin-right: 5px;
 }
 
 #nav-filter input[type="radio"]:checked+label::after,
@@ -98,12 +91,12 @@ input[type="checkbox"]:checked+label::after {
     content: "";
     display: inline-block;
     position: absolute;
-    height: .8em;
-    width: .8em;
+    height: 15px;
+    width: 15px;
     background-color: #000;
-    border-radius: 5px;
-    top: .51rem;
-    left: .51rem;
+    border-radius: 10px;
+    top: .65rem;
+    left: .8rem;
 }
 
 input[type="radio"]:checked+label[for="iHubsCheck"]::after {
@@ -129,6 +122,10 @@ input[type="radio"]:checked+label[for="citiesCheck"]::after {
     display: flex;
     flex-direction: row;
     align-items: center;
+    background-color: rgba(255,255,255,.9);
+    padding: 3px 12px 3px 6px;
+    border-radius: 15px;font-size: 12px;
+
 }
 
 /* Card */
