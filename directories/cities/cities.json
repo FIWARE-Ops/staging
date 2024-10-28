@@ -2856,8 +2856,7 @@
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/evora.jpg'/></div>",
 					"<div class='city-name'><h3>Évora</h3><a class='cat-website' target='_blank' href='https://www.anmp.pt/files/event/2017/SmartCitiesTour/EV/Evora.pdf' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Portugal</h6><img alt='Portugal' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Portugal.png' style='margin-left: auto;'/></div>",
-					"<div class='solution-item'><div class='solution-title'>Urban Data
-Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://www.ubiwhere.com/en/products/smart-cities/urban-platform' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;ubiwhere-urbanplatform'><span class='icon marketplace'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/2020/12/21/ubiwhere-a-single-integrated-view-of-smart-cities/'><span class='icon impactstory'></span></a></div></div>"
+					"<div class='solution-item'><div class='solution-title'>Urban Data Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://www.ubiwhere.com/en/products/smart-cities/urban-platform' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;ubiwhere-urbanplatform'><span class='icon marketplace'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/2020/12/21/ubiwhere-a-single-integrated-view-of-smart-cities/'><span class='icon impactstory'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -2887,8 +2886,7 @@ Platform</div><div class='icons'><a class='cat-website' target='_blank' href='ht
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/lisbon.jpg'/></div>",
 					"<div class='city-name'><h3>Lisbon</h3><a class='cat-website' target='_blank' href='https://smartopenlisboa.com/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Portugal</h6><img alt='Portugal' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Portugal.png' style='margin-left: auto;'/></div>",
-					"<div class='solution-item'><div class='solution-title'>NEC Cloud City
-Operation Center</div><div class='icons'><a class='cat-website' target='_blank' href='https://www.nec.com/en/case/lisbon_council/index.html' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;nec-cloudcityoperationscenter'><span class='icon marketplace'></span></a></div></div>"
+					"<div class='solution-item'><div class='solution-title'>NEC Cloud City Operation Center</div><div class='icons'><a class='cat-website' target='_blank' href='https://www.nec.com/en/case/lisbon_council/index.html' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;nec-cloudcityoperationscenter'><span class='icon marketplace'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -2918,8 +2916,7 @@ Operation Center</div><div class='icons'><a class='cat-website' target='_blank' 
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/braila.jpg'/></div>",
 					"<div class='city-name'><h3>Braila</h3><a class='cat-website' target='_blank' href='http://www.primariabr.ro/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Romania</h6><img alt='Romania' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Romania.png' style='margin-left: auto;'/></div>",
-					"<div class='solution-item'><div class='solution-title'>NAIADES
-IoT Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://naiades-project.eu/' rel='noopener'><span class='icon website'></span></a></div></div>"
+					"<div class='solution-item'><div class='solution-title'>NAIADES IoT Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://naiades-project.eu/' rel='noopener'><span class='icon website'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -2934,8 +2931,7 @@ IoT Platform</div><div class='icons'><a class='cat-website' target='_blank' href
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/madinah.jpg'/></div>",
 					"<div class='city-name'><h3>Madinah</h3><a class='cat-website' target='_blank' href='https://smartmadinah.city/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Saudi Arabia</h6><img alt='Saudi Arabia' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_SaudiArabia.png' style='margin-left: auto;'/></div>",
-					"<div class='solution-item'><div class='solution-title'>Raseel Smart City
-Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://aws.amazon.com/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;amazonwebservices-smartterritoryframework'><span class='icon marketplace'></span></a></div></div>"
+					"<div class='solution-item'><div class='solution-title'>Raseel Smart City Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://aws.amazon.com/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;amazonwebservices-smartterritoryframework'><span class='icon marketplace'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -2978,8 +2974,7 @@ Platform</div><div class='icons'><a class='cat-website' target='_blank' href='ht
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/alcoi.jpg'/></div>",
 					"<div class='city-name'><h3>Alcoi</h3><a class='cat-website' target='_blank' href='https://smartcity.alcoi.org/ca/index.html' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
-					"<div class='solution-item'><div class='solution-title'>Alcoi Smart City
-Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://thinking-cities.readthedocs.io/en/latest/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;telefónica-thinkingcities'><span class='icon marketplace'></span></a></div></div>"
+					"<div class='solution-item'><div class='solution-title'>Alcoi Smart City Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://thinking-cities.readthedocs.io/en/latest/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;telefónica-thinkingcities'><span class='icon marketplace'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -3138,9 +3133,7 @@ Platform</div><div class='icons'><a class='cat-website' target='_blank' href='ht
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/cadiz.jpg'/></div>",
 					"<div class='city-name'><h3>Cádiz Provincial Council</h3><a class='cat-website' target='_blank' href='https://institucional.cadiz.es/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
-					"<div class='solution-item'><div class='solution-title'>Smart Tourism
-Destination
-Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://www.cadizturismo.com/es' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/'><span class='icon marketplace'></span></a></div></div>"
+					"<div class='solution-item'><div class='solution-title'>Smart Tourism Destination Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://www.cadizturismo.com/es' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/'><span class='icon marketplace'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -3199,8 +3192,7 @@ Platform</div><div class='icons'><a class='cat-website' target='_blank' href='ht
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/castellon.jpg'/></div>",
 					"<div class='city-name'><h3>Castellón Provincial Council</h3><a class='cat-website' target='_blank' href='https://smartvillages.dipcas.es/es/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
-					"<div class='solution-item'><div class='solution-title'>SmartVillages
- Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://thinking-cities.readthedocs.io/en/latest/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;telefónica-thinkingcities'><span class='icon marketplace'></span></a></div></div>"
+					"<div class='solution-item'><div class='solution-title'>SmartVillages Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://thinking-cities.readthedocs.io/en/latest/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;telefónica-thinkingcities'><span class='icon marketplace'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -3300,8 +3292,7 @@ Platform</div><div class='icons'><a class='cat-website' target='_blank' href='ht
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/fuerteventura.jpg'/></div>",
 					"<div class='city-name'><h3>Fuerteventura</h3><a class='cat-website' target='_blank' href='https://www.esmartcity.es/2021/07/01/smart-island-fuerteventura-inicia-transformacion-digital-isla-municipio-pajara' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
-					"<div class='solution-item'><div class='solution-title'>Smart Island
-Solution</div><div class='icons'><a class='cat-website' target='_blank' href='https://thinking-cities.readthedocs.io/en/latest/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;telefónica-thinkingcities'><span class='icon marketplace'></span></a></div></div>"
+					"<div class='solution-item'><div class='solution-title'>Smart Island Solution</div><div class='icons'><a class='cat-website' target='_blank' href='https://thinking-cities.readthedocs.io/en/latest/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;telefónica-thinkingcities'><span class='icon marketplace'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -3415,8 +3406,7 @@ Solution</div><div class='icons'><a class='cat-website' target='_blank' href='ht
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/la-palma.jpg'/></div>",
 					"<div class='city-name'><h3>La Palma</h3><a class='cat-website' target='_blank' href='https://www.lapalmasmartisland.es/en/home-2/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
-					"<div class='solution-item'><div class='solution-title'>Smart Island 
-Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://thinking-cities.readthedocs.io/en/latest/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;telefónica-thinkingcities'><span class='icon marketplace'></span></a></div></div>"
+					"<div class='solution-item'><div class='solution-title'>Smart Island Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://thinking-cities.readthedocs.io/en/latest/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;telefónica-thinkingcities'><span class='icon marketplace'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -3544,8 +3534,7 @@ Platform</div><div class='icons'><a class='cat-website' target='_blank' href='ht
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/malaga.jpg'/></div>",
 					"<div class='city-name'><h3>Málaga</h3><a class='cat-website' target='_blank' href='https://malagasmart.malaga.eu/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
-					"<div class='solution-item'><div class='solution-title'>Personal Citizen 
-Dashboard</div><div class='icons'><a class='cat-website' target='_blank' href='https://info-mipanel.malaga.eu/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;telefónica-thinkingcities'><span class='icon marketplace'></span></a></div></div>"
+					"<div class='solution-item'><div class='solution-title'>Personal Citizen Dashboard</div><div class='icons'><a class='cat-website' target='_blank' href='https://info-mipanel.malaga.eu/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;telefónica-thinkingcities'><span class='icon marketplace'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -3560,8 +3549,7 @@ Dashboard</div><div class='icons'><a class='cat-website' target='_blank' href='h
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/mallorca.jpg'/></div>",
 					"<div class='city-name'><h3>Mallorca</h3><a class='cat-website' target='_blank' href='https://smart.conselldemallorca.cat/es/inici' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
-					"<div class='solution-item'><div class='solution-title'>Smart Island
-Mallorca</div><div class='icons'><a class='cat-website' target='_blank' href='https://thinking-cities.readthedocs.io/en/latest/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;telefónica-thinkingcities'><span class='icon marketplace'></span></a></div></div>"
+					"<div class='solution-item'><div class='solution-title'>Smart Island Mallorca</div><div class='icons'><a class='cat-website' target='_blank' href='https://thinking-cities.readthedocs.io/en/latest/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;telefónica-thinkingcities'><span class='icon marketplace'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -3591,8 +3579,7 @@ Mallorca</div><div class='icons'><a class='cat-website' target='_blank' href='ht
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/murcia.jpg'/></div>",
 					"<div class='city-name'><h3>Murcia</h3><a class='cat-website' target='_blank' href='https://hopu.eu/smart-region-hopu-eng/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
-					"<div class='solution-item'><div class='solution-title'>MiMurcia
- Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://www.red.es/redes/sites/redes/files/murcia4.pdf' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;ready&amp;id&#x3D;hopu-smartspot'><span class='icon marketplace'></span></a></div></div>"
+					"<div class='solution-item'><div class='solution-title'>MiMurcia Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://www.red.es/redes/sites/redes/files/murcia4.pdf' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;ready&amp;id&#x3D;hopu-smartspot'><span class='icon marketplace'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -3677,8 +3664,7 @@ Mallorca</div><div class='icons'><a class='cat-website' target='_blank' href='ht
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/pontevedra.jpg'/></div>",
 					"<div class='city-name'><h3>Pontevedra Provincial Council</h3><a class='cat-website' target='_blank' href='https://www.depo.gal/es/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
-					"<div class='solution-item'><div class='solution-title'>Tourist Inside
- Rías Baixas</div><div class='icons'><a class='cat-website' target='_blank' href='https://www.fiwoo.eu/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;fiwoo-fiwoo'><span class='icon marketplace'></span></a></div></div>"
+					"<div class='solution-item'><div class='solution-title'>Tourist Inside Rías Baixas</div><div class='icons'><a class='cat-website' target='_blank' href='https://www.fiwoo.eu/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;fiwoo-fiwoo'><span class='icon marketplace'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -3693,8 +3679,7 @@ Mallorca</div><div class='icons'><a class='cat-website' target='_blank' href='ht
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/port-of-huelva.jpg'/></div>",
 					"<div class='city-name'><h3>Port of Huelva</h3><a class='cat-website' target='_blank' href='https://www.puertohuelva.com/transformacion-digital/?lang&#x3D;en' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
-					"<div class='solution-item'><div class='solution-title'>Smart Port 
-Innovation Node</div><div class='icons'><a class='cat-website' target='_blank' href='https://lalonja.tech/' rel='noopener'><span class='icon website'></span></a></div></div>"
+					"<div class='solution-item'><div class='solution-title'>Smart Port Innovation Node</div><div class='icons'><a class='cat-website' target='_blank' href='https://lalonja.tech/' rel='noopener'><span class='icon website'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -3709,8 +3694,7 @@ Innovation Node</div><div class='icons'><a class='cat-website' target='_blank' h
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/port-of-seville.jpg'/></div>",
 					"<div class='city-name'><h3>Port of Seville</h3><a class='cat-website' target='_blank' href='https://www.puertodesevilla.com/en/the-port' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
-					"<div class='solution-item'><div class='solution-title'>The PAIS
- Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://www.smartsantander.eu/' rel='noopener'><span class='icon website'></span></a></div></div>"
+					"<div class='solution-item'><div class='solution-title'>The PAIS Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://www.smartsantander.eu/' rel='noopener'><span class='icon website'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -3740,8 +3724,7 @@ Innovation Node</div><div class='icons'><a class='cat-website' target='_blank' h
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/puerto-de-la-cruz.jpg'/></div>",
 					"<div class='city-name'><h3>Puerto de la Cruz</h3><a class='cat-website' target='_blank' href='https://workintenerife.intechtenerife.es/blog-en/what-makes-the-canary-islands-the-ideal-place-to-develop-tourism-technology/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
-					"<div class='solution-item'><div class='solution-title'>Smart Destination
- Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://thinking-cities.readthedocs.io/en/latest/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;telefónica-thinkingcities'><span class='icon marketplace'></span></a></div></div>"
+					"<div class='solution-item'><div class='solution-title'>Smart Destination Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://thinking-cities.readthedocs.io/en/latest/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;telefónica-thinkingcities'><span class='icon marketplace'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -3770,8 +3753,7 @@ Innovation Node</div><div class='icons'><a class='cat-website' target='_blank' h
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/castile-and-leon.jpg'/></div>",
 					"<div class='city-name'><h3>Region of Castile and León</h3><a class='cat-website' target='_blank' href='https://www.esmartcity.es/comunicaciones/comunicacion-plataforma-territorio-rural-inteligente-castilla-leon' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
-					"<div class='solution-item'><div class='solution-title'>Smart Region
- Castilla and Léon</div><div class='icons'><a class='cat-website' target='_blank' href='https://thinking-cities.readthedocs.io/en/latest/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;telefónica-thinkingcities'><span class='icon marketplace'></span></a></div></div>"
+					"<div class='solution-item'><div class='solution-title'>Smart Region Castilla and Léon</div><div class='icons'><a class='cat-website' target='_blank' href='https://thinking-cities.readthedocs.io/en/latest/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;telefónica-thinkingcities'><span class='icon marketplace'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -3786,8 +3768,7 @@ Innovation Node</div><div class='icons'><a class='cat-website' target='_blank' h
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/region-of-castilla-la-mancha.jpg'/></div>",
 					"<div class='city-name'><h3>Region of Castilla la Mancha</h3><a class='cat-website' target='_blank' href='https://territorioruralinteligente.castillalamancha.es/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
-					"<div class='solution-item'><div class='solution-title'>Smart Office and 
-FIWARE iHub</div><div class='icons'><a class='cat-website' target='_blank' href='https://territorioruralinteligente.castillalamancha.es/oficina-smart' rel='noopener'><span class='icon website'></span></a></div></div>"
+					"<div class='solution-item'><div class='solution-title'>Smart Office and  FIWARE iHub</div><div class='icons'><a class='cat-website' target='_blank' href='https://territorioruralinteligente.castillalamancha.es/oficina-smart' rel='noopener'><span class='icon website'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -3844,8 +3825,7 @@ FIWARE iHub</div><div class='icons'><a class='cat-website' target='_blank' href=
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/santander.jpg'/></div>",
 					"<div class='city-name'><h3>Santander</h3><a class='cat-website' target='_blank' href='https://www.smartsantander.eu/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
-					"<div class='solution-item'><div class='solution-title'>Santander
- City Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://www.smartsantander.eu/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;engineering-digitalenabler'><span class='icon marketplace'></span></a></div></div>"
+					"<div class='solution-item'><div class='solution-title'>Santander City Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://www.smartsantander.eu/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;engineering-digitalenabler'><span class='icon marketplace'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -3917,8 +3897,7 @@ FIWARE iHub</div><div class='icons'><a class='cat-website' target='_blank' href=
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/toledo.jpg'/></div>",
 					"<div class='city-name'><h3>Toledo</h3><a class='cat-website' target='_blank' href='https://www.toledo.es/toledo-avanza-en-la-gestion-de-los-servicios-publicos-y-el-turismo-gracias-a-su-proyecto-de-ciudad-inteligente/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
-					"<div class='solution-item'><div class='solution-title'>Toledo
-City Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://thinking-cities.readthedocs.io/en/latest/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;telefónica-thinkingcities'><span class='icon marketplace'></span></a></div></div>"
+					"<div class='solution-item'><div class='solution-title'>Toledo City Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://thinking-cities.readthedocs.io/en/latest/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;telefónica-thinkingcities'><span class='icon marketplace'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -4004,8 +3983,7 @@ City Platform</div><div class='icons'><a class='cat-website' target='_blank' hre
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/vigo.jpg'/></div>",
 					"<div class='city-name'><h3>Vigo</h3><a class='cat-website' target='_blank' href='https://datos.vigo.org/es/plataforma-smart-city-vci-2-0/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
-					"<div class='solution-item'><div class='solution-title'>Vigo Smart City
- Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://thinking-cities.readthedocs.io/en/latest/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;telefónica-thinkingcities'><span class='icon marketplace'></span></a></div></div>"
+					"<div class='solution-item'><div class='solution-title'>Vigo Smart City Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://thinking-cities.readthedocs.io/en/latest/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;telefónica-thinkingcities'><span class='icon marketplace'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -4034,8 +4012,7 @@ City Platform</div><div class='icons'><a class='cat-website' target='_blank' hre
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/villarreal.jpg'/></div>",
 					"<div class='city-name'><h3>Villarreal</h3><a class='cat-website' target='_blank' href='https://www.vila-real.es/portal/p_20_contenedor1.jsp?seccion&#x3D;s_fnot_d4_v1.jsp&amp;contenido&#x3D;57523&amp;tipo&#x3D;8&amp;nivel&#x3D;1400&amp;layout&#x3D;p_20_contenedor1.jsp&amp;codResi&#x3D;1&amp;language&#x3D;es' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
-					"<div class='solution-item'><div class='solution-title'>Smart City Platform
- Vila Real</div><div class='icons'><a class='cat-website' target='_blank' href='https://thinking-cities.readthedocs.io/en/latest/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;telefónica-thinkingcities'><span class='icon marketplace'></span></a></div></div>"
+					"<div class='solution-item'><div class='solution-title'>Smart City Platform Vila Real</div><div class='icons'><a class='cat-website' target='_blank' href='https://thinking-cities.readthedocs.io/en/latest/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;telefónica-thinkingcities'><span class='icon marketplace'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -4718,8 +4695,7 @@ City Platform</div><div class='icons'><a class='cat-website' target='_blank' hre
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/carouge.jpg'/></div>",
 					"<div class='city-name'><h3>Carouge</h3><a class='cat-website' target='_blank' href='https://www.carouge.ch/smart-city-carouge' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Switzerland</h6><img alt='Switzerland' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Switzerland.png' style='margin-left: auto;'/></div>",
-					"<div class='solution-item'><div class='solution-title'>NAIADES
- IoT Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://naiades-project.eu/' rel='noopener'><span class='icon website'></span></a></div></div>"
+					"<div class='solution-item'><div class='solution-title'>NAIADES IoT Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://naiades-project.eu/' rel='noopener'><span class='icon website'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -4749,8 +4725,7 @@ City Platform</div><div class='icons'><a class='cat-website' target='_blank' hre
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/great-torrington.jpg'/></div>",
 					"<div class='city-name'><h3>Great Torrington</h3><a class='cat-website' target='_blank' href='https://www.onegreattorrington.uk/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>United Kingdom</h6><img alt='United Kingdom' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_UnitedKingdom.png' style='margin-left: auto;'/></div>",
-					"<div class='solution-item'><div class='solution-title'>FIWARE-ready
- Smart Solutions</div><div class='icons'><a class='cat-website' target='_blank' href='https://www.fiware4water.eu/demo-cases/united-kingdom-smart-metering-and-citizen-engagement-case' rel='noopener'><span class='icon website'></span></a></div></div>"
+					"<div class='solution-item'><div class='solution-title'>FIWARE-ready Smart Solutions</div><div class='icons'><a class='cat-website' target='_blank' href='https://www.fiware4water.eu/demo-cases/united-kingdom-smart-metering-and-citizen-engagement-case' rel='noopener'><span class='icon website'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -4765,10 +4740,8 @@ City Platform</div><div class='icons'><a class='cat-website' target='_blank' hre
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/montevideo.jpg'/></div>",
 					"<div class='city-name'><h3>Montevideo</h3><a class='cat-website' target='_blank' href='https://montevideo.gub.uy/institucional/dependencias/desarrollo-sostenible-e-inteligente' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Uruguay</h6><img alt='Uruguay' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Uruguay.png' style='margin-left: auto;'/></div>",
-					"<div class='solution-item'><div class='solution-title'>Montevideo
- API</div><div class='icons'><a class='cat-website' target='_blank' href='https://www.fiware.org/2018/11/09/city-of-montevideo-to-be-integrated-as-a-strategic-user-city-of-the-fiware-platform/' rel='noopener'><span class='icon website'></span></a></div></div>",
-					"<div class='solution-item'><div class='solution-title'>Automated Open Data
-Portal</div><div class='icons'><a class='cat-website' target='_blank' href='https://ckan.montevideo.gub.uy/' rel='noopener'><span class='icon website'></span></a></div></div>"
+					"<div class='solution-item'><div class='solution-title'>Montevideo API</div><div class='icons'><a class='cat-website' target='_blank' href='https://www.fiware.org/2018/11/09/city-of-montevideo-to-be-integrated-as-a-strategic-user-city-of-the-fiware-platform/' rel='noopener'><span class='icon website'></span></a></div></div>",
+					"<div class='solution-item'><div class='solution-title'>Automated Open Data Portal</div><div class='icons'><a class='cat-website' target='_blank' href='https://ckan.montevideo.gub.uy/' rel='noopener'><span class='icon website'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -4811,8 +4784,7 @@ Portal</div><div class='icons'><a class='cat-website' target='_blank' href='http
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/independence-oregon.jpg'/></div>",
 					"<div class='city-name'><h3>Independence</h3><a class='cat-website' target='_blank' href='https://www.oregonconnections.info/presentations19/Shawn%20Irvine%20Oregon%20Connections.pdf' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>USA</h6><img alt='USA' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_United-States.png' style='margin-left: auto;'/></div>",
-					"<div class='solution-item'><div class='solution-title'>WiseTown
- Situation Room</div><div class='icons'><a class='cat-website' target='_blank' href='https://wise.town/en/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;teamdev-wisetown'><span class='icon marketplace'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/about-us/impact-stories/'><span class='icon impactstory'></span></a></div></div>"
+					"<div class='solution-item'><div class='solution-title'>WiseTown Situation Room</div><div class='icons'><a class='cat-website' target='_blank' href='https://wise.town/en/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;teamdev-wisetown'><span class='icon marketplace'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/about-us/impact-stories/'><span class='icon impactstory'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -4827,8 +4799,7 @@ Portal</div><div class='icons'><a class='cat-website' target='_blank' href='http
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/oregon-city.jpg'/></div>",
 					"<div class='city-name'><h3>Oregon City</h3><a class='cat-website' target='_blank' href='https://www.smartcitypdx.com/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>USA</h6><img alt='USA' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_United-States.png' style='margin-left: auto;'/></div>",
-					"<div class='solution-item'><div class='solution-title'>OpenMove 
-MaaS platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://www.openmove.com/solutions/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;openmove-openmove'><span class='icon marketplace'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/about-us/impact-stories/'><span class='icon impactstory'></span></a></div></div>"
+					"<div class='solution-item'><div class='solution-title'>OpenMove MaaS Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://www.openmove.com/solutions/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;openmove-openmove'><span class='icon marketplace'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/about-us/impact-stories/'><span class='icon impactstory'></span></a></div></div>"
 				]
 			},
 			"geometry":{
