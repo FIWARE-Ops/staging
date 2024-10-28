@@ -45,12 +45,14 @@ const map = new maplibregl.Map({
   zoomControl: false,
   maxZoom: 28,
   minZoom: 1,
+  attributionControl: false
 }).fitBounds([
   [-175.73934032129907, -56.093228369773406 ],
   [179.54543205831558, 83.70561326982735 ],
 ]);
 
 map.addControl(new maplibregl.NavigationControl());
+map.addControl(new maplibregl.AttributionControl({compact: true}));
 
 const isIhub = ['==', ['get', 'type'], 'ihub'];
 const isCity = ['==', ['get', 'type'], 'city'];

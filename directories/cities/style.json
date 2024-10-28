@@ -167,7 +167,7 @@
       ],
       "layout": {
         "text-anchor": "center",
-        "text-field": "{name:latin}",
+        "text-field": "{name:en}",
         "text-font": ["Metropolis Regular", "Noto Sans Regular"],
         "text-size": {"base": 1.4, "stops": [[0, 0], [4, 10], [6, 12]]},
         "text-transform": "uppercase",
@@ -196,7 +196,7 @@
         ["has", "iso_a2"]
       ],
       "layout": {
-        "text-field": "{name:latin}",
+        "text-field": "{name:en}",
         "text-font": ["Metropolis Regular", "Noto Sans Regular"],
         "text-size": {"base": 1, "stops": [[0, 0], [4, 10], [6, 12]]},
         "text-transform": "uppercase",
