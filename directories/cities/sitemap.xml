@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/latin-america/buenos-aires.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/latin-america/carmen-de-areco.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/latin-america/catamarca.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/latin-america/la-plata.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/wp-content/directories/cities/latin-america/posadas.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -10,6 +26,14 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/sunshine-coast.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/ganz.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/graz.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -29,7 +53,15 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/ghent.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/wp-content/directories/cities/europe/leuven.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/mechelen.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -37,11 +69,59 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/latin-america/angra-dos-reis.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/latin-america/brasília.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/latin-america/campo-grande.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/latin-america/curitiba.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/latin-america/florianópolis.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/wp-content/directories/cities/latin-america/greater-são-paulo.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/latin-america/nova-friburgo.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/latin-america/palmas.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/latin-america/recife.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/latin-america/rio-branco.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/wp-content/directories/cities/latin-america/rio-de-janeiro.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/latin-america/salvador.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/latin-america/uberlândia.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/north-america/toronto-airport.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -73,7 +153,15 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/kuopio.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/wp-content/directories/cities/europe/region-of-helsinki-uusimaa.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/tampere.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -82,6 +170,10 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/wp-content/directories/cities/europe/alpes-provence-verdon.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/fort-de-france.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -105,11 +197,23 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/perpignan.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/wp-content/directories/cities/europe/saint-quentin.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/wp-content/directories/cities/europe/vers-pont-du-gard.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/arnsberg.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/bad-berleburg.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -133,7 +237,23 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/duisburg.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/eichenzell.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/wp-content/directories/cities/europe/etteln.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/eutin.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/fulda.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -142,6 +262,10 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/wp-content/directories/cities/europe/herne.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/hünfeld.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -169,11 +293,27 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/mainz.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/menden.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/wp-content/directories/cities/europe/moers.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/mönchengladbach.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/wp-content/directories/cities/europe/monheim-am-rhein.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/olpe.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -189,6 +329,10 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/soest.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/wp-content/directories/cities/europe/south-westphalia-provincial-council.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -197,7 +341,19 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/tegel-airport.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/ulm.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/wp-content/directories/cities/europe/wolfsburg.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/wuppertal.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -217,6 +373,22 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/ahmedabad.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/aurangabad.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/bareilly.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/belagavi.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/bengaluru.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -229,7 +401,35 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/bilaspur.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/chandigarh.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/chennai.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/coimbatore.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/dahod.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/davanagere.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/dehradun.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/dharamshala.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -237,11 +437,75 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/gandhinagar.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/gwalior.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/hyderabad.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/jaipur.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/jammu.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/kalyan-dombivli.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/kannur.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/kanpur.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/karimnagar.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/kohima.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/lucknow.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/nagpur.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/namchi.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/new-town-kolkata.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/noida.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/pasighat.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/pimpri-chinchwad.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/prayagraj.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -253,7 +517,43 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/rajkot.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/ranchi.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/sagar.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/satna.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/shimla.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/srinagar.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/surat.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/thiruvananthapuram.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/thoothukudi.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/tumakuru.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -265,11 +565,27 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/visakhapatnam.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/wp-content/directories/cities/europe/arezzo.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/wp-content/directories/cities/europe/florence.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/garda-lake-area.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/genoa.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/livorno.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -281,11 +597,31 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/modena.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/wp-content/directories/cities/europe/naples.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/wp-content/directories/cities/europe/perugia.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/pisa.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/pistoia.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/region-of-tuscany.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/region-of-veneto.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -297,11 +633,63 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/vicenza.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/volterra.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/chichibu.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/fukuoka.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/hamamatsu.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/higashimurayama.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/kakogawa.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/kawasaki.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/niihama.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/odawara.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/okinawa-prefecture.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/sapporo.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/sarabetsu.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/sendai.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/shizuoka.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -313,7 +701,15 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/tsukuba.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/wp-content/directories/cities/asia-pacific/penang.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/latin-america/aguascalientes.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -321,7 +717,27 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/monaco.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/africa/berkane.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/africa/marrakech.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/wp-content/directories/cities/africa/region-of-casablanca-settat.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/africa/tétouan.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/amsterdam.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -329,11 +745,39 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/enschede.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/groningen.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/hilversum.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/wp-content/directories/cities/europe/region-of-utrecht.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/the-hague.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/wp-content/directories/cities/central-america/panama-city.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/latin-america/lima.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/latin-america/miraflores.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/poznan.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -361,6 +805,14 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/africa/dakar.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/alcalá-de-henares.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/wp-content/directories/cities/europe/alcoi.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -369,7 +821,19 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/alicante.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/wp-content/directories/cities/europe/almendralejo.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/almería.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/ávila.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -381,11 +845,27 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/benidorm.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/bilbao.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/cáceres.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/wp-content/directories/cities/europe/cádiz-provincial-council.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/wp-content/directories/cities/europe/calpe.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/calvia.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -397,7 +877,47 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/ceutí.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/córdoba.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/denia.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/diputación-de-zamora.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/dos-hermanas.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/wp-content/directories/cities/europe/el-prat-de-llobregat.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/fuerteventura.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/girona.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/gran-canaria.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/granada.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/guadalajara.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -405,7 +925,19 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/la-manga.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/la-nucia.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/wp-content/directories/cities/europe/la-palma.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/la-rinconada.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -413,7 +945,23 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/wp-content/directories/cities/europe/las-rozas.html</loc>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/las-rozas-de-madrid.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/león-provincial-council.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/logroño.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/lucena.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/lugo.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -437,6 +985,26 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/onda.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/orense-provincial-council.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/osuna.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/palencia-provincial-council.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/pizarra.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/wp-content/directories/cities/europe/pontevedra-provincial-council.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -457,6 +1025,10 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/region-of-andalusia.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/wp-content/directories/cities/europe/region-of-castile-and-león.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -465,7 +1037,31 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/sabadell.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/salamanca.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/san-sebastián.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/wp-content/directories/cities/europe/santander.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/santiago-de-compostela.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/segovia-provincial-council.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/soria-provincial-council.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -477,7 +1073,23 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/utrera.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/valdepeñas.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/wp-content/directories/cities/europe/valencia.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/valladolid.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/vallat.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -485,11 +1097,71 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/vilanova-i-la-geltrú.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/wp-content/directories/cities/europe/villarreal.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/zamora-provincial-council.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/zaragoza.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/åkersberga.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/alvesta.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/eksjö.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/eskilstuna.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/eslöv.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/gislaved.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/gnosjö.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/wp-content/directories/cities/europe/göteborg.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/gotland.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/habo.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/halmstad.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/haninge.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/wp-content/directories/cities/europe/härnösand.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>

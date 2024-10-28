@@ -830,7 +830,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[-3.7765202,40.3280852]
 			}
 		},
 		{
@@ -910,7 +910,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[-3.9905218,5.370212]
 			}
 		},
 		{
@@ -926,7 +926,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[135.515368,34.8622536]
 			}
 		},
 		{
@@ -942,7 +942,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[72.8716782,19.1245044]
 			}
 		},
 		{
@@ -958,7 +958,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[-8.6457877,40.6468655]
 			}
 		},
 		{
@@ -974,7 +974,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[13.3372586,52.4965591]
 			}
 		},
 		{
@@ -990,7 +990,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[23.7155898,37.9592667]
 			}
 		},
 		{
@@ -1006,7 +1006,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[2.5236678,48.7666074]
 			}
 		},
 		{
@@ -1022,7 +1022,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[13.3370371,52.5037743]
 			}
 		},
 		{
@@ -1038,7 +1038,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[11.5667074,48.1642883]
 			}
 		},
 		{
@@ -1054,7 +1054,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[20.8108604,52.1557747]
 			}
 		},
 		{
@@ -1070,7 +1070,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[-1.615858,42.7984276]
 			}
 		},
 		{
@@ -1086,7 +1086,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[-56.1968445,-34.8918893]
 			}
 		},
 		{
@@ -1102,7 +1102,23 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[-6.978457,38.8742139]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
+				"html": [
+					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/province-of-berkane.png'/></div>",
+					"<div class='ihub-name'>BERKANE PROVINCIAL COUNCIL</div>",
+					"<div class='ihub-type'>Gold SEU</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://provinceberkane.ma/citoyen/public/' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-2.3305548,34.942864]
 			}
 		},
 		{
@@ -1118,7 +1134,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[-73.0496308,5.8259912]
 			}
 		},
 		{
@@ -1134,7 +1150,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[8.734437,44.4468122]
 			}
 		},
 		{
@@ -1150,7 +1166,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[7.2147903,51.5379764]
 			}
 		},
 		{
@@ -1166,7 +1182,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[-75.6141307,6.2370508]
 			}
 		},
 		{
@@ -1182,7 +1198,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[-1.2159457,38.0548853]
 			}
 		},
 		{
@@ -1198,7 +1214,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[-56.3898608,-34.8198504]
 			}
 		},
 		{
@@ -1214,7 +1230,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[-1.1527349,37.9882426]
 			}
 		},
 		{
@@ -1230,7 +1246,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[8.7512403,51.7173241]
 			}
 		},
 		{
@@ -1246,7 +1262,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[12.2039265,43.1396415]
 			}
 		},
 		{
@@ -1262,7 +1278,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[-3.814856,43.4621597]
 			}
 		},
 		{
@@ -1278,7 +1294,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[-48.9819298,-28.1652563]
 			}
 		},
 		{
@@ -1294,7 +1310,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[16.3558387,48.2107368]
 			}
 		},
 		{
@@ -1310,7 +1326,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[-0.3969455,39.453135]
 			}
 		},
 		{
@@ -1326,7 +1342,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[7.4204463,43.7304828]
 			}
 		},
 		{
@@ -1342,23 +1358,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
-			}
-		},
-		{
-			"type":"Feature",
-			"properties":{
-				"type": "Organization",
-				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/mimpact-foundation.png'/></div>",
-					"<div class='ihub-name'>MIMPACT FOUNDATION</div>",
-					"<div class='ihub-type'>Gold SEU</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.mimpact.org/' rel='noopener'><span class='icon website'></span></div>"
-				]
-			},
-			"geometry":{
-				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[-3.8957842,40.521161]
 			}
 		},
 		{
@@ -1374,7 +1374,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[-3.6931945,40.4086301]
 			}
 		},
 		{
@@ -1390,7 +1390,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[81.4854459,28.3719176]
 			}
 		},
 		{
@@ -1406,7 +1406,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[10.4977795,52.2527287]
 			}
 		},
 		{
@@ -1422,23 +1422,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
-			}
-		},
-		{
-			"type":"Feature",
-			"properties":{
-				"type": "Organization",
-				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/province-of-berkane.png'/></div>",
-					"<div class='ihub-name'>PROVINCE OF BERKANE</div>",
-					"<div class='ihub-type'>Gold SEU</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://provinceberkane.ma/citoyen/public/' rel='noopener'><span class='icon website'></span></div>"
-				]
-			},
-			"geometry":{
-				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[-4.4187902,36.7225115]
 			}
 		},
 		{
@@ -1454,7 +1438,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[16.9249323,52.4092838]
 			}
 		},
 		{
@@ -1470,7 +1454,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[6.8389207,51.0928004]
 			}
 		},
 		{
@@ -1486,7 +1470,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[14.2509216,40.8373843]
 			}
 		},
 		{
@@ -1502,7 +1486,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[16.353308,48.2010117]
 			}
 		},
 		{
@@ -1518,7 +1502,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[-2.4487809,42.4660228]
 			}
 		},
 		{
@@ -1534,7 +1518,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[-16.9283973,32.6597222]
 			}
 		},
 		{
@@ -1550,7 +1534,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[4.3641469,50.8491816]
 			}
 		},
 		{
@@ -1566,7 +1550,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[8.8439407,53.1075322]
 			}
 		},
 		{
@@ -1582,7 +1566,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[7.2687886,51.4474276]
 			}
 		},
 		{
@@ -1598,7 +1582,23 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[9.2098843,45.5215261]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
+				"html": [
+					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/certh-iti.png'/></div>",
+					"<div class='ihub-name'>CERTH-ITI</div>",
+					"<div class='ihub-type'>Associate</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.iti.gr/' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[22.9945211,40.5679247]
 			}
 		},
 		{
@@ -1614,7 +1614,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[-74.0474411,4.6838969]
 			}
 		},
 		{
@@ -1630,7 +1630,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[-5.5039272,35.884739]
 			}
 		},
 		{
@@ -1646,7 +1646,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[139.6536052,35.6668907]
 			}
 		},
 		{
@@ -1662,7 +1662,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[139.7622283,35.6864098]
 			}
 		},
 		{
@@ -1678,7 +1678,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[8.9519685,38.9904458]
 			}
 		},
 		{
@@ -1694,7 +1694,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[-71.504817,42.1496041]
 			}
 		},
 		{
@@ -1710,7 +1710,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[127.3650411,36.3814175]
 			}
 		},
 		{
@@ -1726,7 +1726,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[2.1994068,41.4044905]
 			}
 		},
 		{
@@ -1742,7 +1742,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[-6.2680035,53.3353155]
 			}
 		},
 		{
@@ -1758,7 +1758,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[3.2187308,49.6058686]
 			}
 		},
 		{
@@ -1774,7 +1774,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[23.3256908,42.6737533]
 			}
 		},
 		{
@@ -1790,7 +1790,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[14.514904,46.0715941]
 			}
 		},
 		{
@@ -1806,7 +1806,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[7.401391,51.4928063]
 			}
 		},
 		{
@@ -1822,7 +1822,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[11.050355,59.973341]
 			}
 		},
 		{
@@ -1838,7 +1838,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[4.6755243,50.8672818]
 			}
 		},
 		{
@@ -1854,7 +1854,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[-7.312085,53.5236707]
 			}
 		},
 		{
@@ -1870,7 +1870,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[-57.9522281,-34.9140753]
 			}
 		},
 		{
@@ -1886,23 +1886,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
-			}
-		},
-		{
-			"type":"Feature",
-			"properties":{
-				"type": "Organization",
-				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/certh-iti.png'/></div>",
-					"<div class='ihub-name'>ITI</div>",
-					"<div class='ihub-type'>Associate</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.iti.gr/' rel='noopener'><span class='icon website'></span></div>"
-				]
-			},
-			"geometry":{
-				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[9.6488111,45.6602457]
 			}
 		},
 		{
@@ -1918,7 +1902,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[121.0411041,24.7748165]
 			}
 		},
 		{
@@ -1934,7 +1918,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[127.1572057,37.4039212]
 			}
 		},
 		{
@@ -1950,7 +1934,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[8.3165622,51.350586]
 			}
 		},
 		{
@@ -1966,7 +1950,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[14.3176754,48.3359911]
 			}
 		},
 		{
@@ -1982,7 +1966,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[-75.7162855,45.426412]
 			}
 		},
 		{
@@ -1998,7 +1982,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[-25.5793633,37.7495414]
 			}
 		},
 		{
@@ -2014,7 +1998,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[4.3653054,50.8400416]
 			}
 		},
 		{
@@ -2030,7 +2014,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[-121.3589723,38.793093]
 			}
 		},
 		{
@@ -2046,7 +2030,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[23.7153914,37.9591508]
 			}
 		},
 		{
@@ -2062,7 +2046,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[-3.7218601,40.4486372]
 			}
 		},
 		{
@@ -2078,7 +2062,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[-75.5919429,6.242341]
 			}
 		},
 		{
@@ -2094,7 +2078,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[8.6382204,49.8773084]
 			}
 		},
 		{
@@ -2110,7 +2094,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[6.0603152,50.7842131]
 			}
 		},
 		{
@@ -2126,7 +2110,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[6.9261631,43.6576799]
 			}
 		},
 		{
@@ -2142,7 +2126,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[13.4164971,52.5026582]
 			}
 		},
 		{
@@ -2158,7 +2142,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[139.7414666,35.6612935]
 			}
 		},
 		{
@@ -2174,7 +2158,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[26.6774976,60.8731209]
 			}
 		},
 		{
@@ -2190,7 +2174,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[23.7842619,61.4990648]
 			}
 		},
 		{
@@ -2206,7 +2190,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[4.3779404,50.8428087]
 			}
 		},
 		{
@@ -2222,7 +2206,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[10.2162253,45.5545147]
 			}
 		},
 		{
@@ -2238,7 +2222,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[6.1352151,46.2115058]
 			}
 		},
 		{
@@ -2270,7 +2254,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[4.8345848,45.7507892]
 			}
 		},
 		{
@@ -2286,7 +2270,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[-3.8045542,43.471704]
 			}
 		},
 		{
@@ -2302,7 +2286,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[-2.9422871,43.2712379]
 			}
 		},
 		{
@@ -2318,7 +2302,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[-1.1719603,38.018751]
 			}
 		},
 		{
@@ -2334,7 +2318,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[18.1635651,40.3559039]
 			}
 		},
 		{
@@ -2350,7 +2334,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[79.9026749,6.8559816]
 			}
 		},
 		{
@@ -2366,7 +2350,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[13.7399207,51.0232299]
 			}
 		},
 		{
@@ -2382,7 +2366,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[126.9788841,37.5698552]
 			}
 		},
 		{
@@ -2398,7 +2382,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[114.2701456,30.4594886]
 			}
 		},
 		{
@@ -2414,7 +2398,7 @@
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[0,0]
+				"coordinates":[9.1928354,4.02246]
 			}
 		}
 	]
