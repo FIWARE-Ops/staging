@@ -368,7 +368,14 @@ input[type="radio"]:checked+label[for="citiesCheck"]::after {
     padding: 0px;
 }
 
+.maplibregl-popup-content .city-name h3 {
+    font-size: 16px;
+    line-height: 1.3em;
+}
+
 .maplibregl-popup-content .ihub-name {
+    font-size: 16px;
+    line-height: 1.3em;
     padding: 0 15px 5px;
 }
 
@@ -377,7 +384,7 @@ input[type="radio"]:checked+label[for="citiesCheck"]::after {
     font-size: 16px;
     text-align: left;
     color: #002e67;
-    line-height: 1.4em;
+    line-height: 1.3em;
     padding: 0 15px 5px;
 }
 
