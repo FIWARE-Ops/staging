@@ -815,6 +815,7 @@ input[type="radio"]:checked+label[for="citiesCheck"]::after {
 .cat-twitter {
     position: relative;
     width: 32px;
+    height: 32px;
 }
 
 .linkedin {
@@ -844,6 +845,7 @@ input[type="radio"]:checked+label[for="citiesCheck"]::after {
 .cat-linkedin {
     position: relative;
     width: 32px;
+    height: 32px;
 }
 
 .bio::before {
@@ -894,6 +896,7 @@ input[type="radio"]:checked+label[for="citiesCheck"]::after {
 .cat-location {
     position: relative;
     width: 32px;
+    height: 32px;
 }
 
 .location-label {
