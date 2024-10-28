@@ -2175,7 +2175,7 @@ input[type="search"]::placeholder {
     .map-overlay {
         width: 100%;
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         top: auto;
         bottom: 0;
         padding: 0 0 10px 10px;
