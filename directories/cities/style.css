@@ -31,7 +31,7 @@ a:focus {
 /* Map */
 
 .maplibregl-popup {
-    min-width: 30ch !important;
+    min-width: 25ch !important;
     max-width: 280px !important;
 }
 
@@ -52,7 +52,7 @@ a:focus {
 }
 
 .maplibregl-popup-content {
-    padding: 12px 0 12px 0;
+    padding: 0;
     cursor: default;
     font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
 }
@@ -62,7 +62,6 @@ a:focus {
     line-height: 20px;
     font-family: "Montserrat", sans-serif;
     position: absolute;
-    /* width: 11em; */
     top: 0;
     left: 0;
     padding: 10px 0 0 10px;
@@ -163,9 +162,7 @@ input[type="radio"]:checked+label[for="citiesCheck"]::after {
 }
 
 .maplibregl-popup-content .gridElementLogo {
-    border-radius: 3px 3px 0 0;
-    padding-bottom: 0;
-    transform: translateY(-12px);
+    border-radius: 3px 3px 0 0
 }
 
 .gutter-sizer {
@@ -203,11 +200,8 @@ input[type="radio"]:checked+label[for="citiesCheck"]::after {
     padding: 0px;
 }
 
-.solution-container {
+.solution-item {
     padding: 0 15px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
 }
 
 .solution-name {
@@ -324,16 +318,15 @@ input[type="radio"]:checked+label[for="citiesCheck"]::after {
 }
 
 .maplibregl-popup-content .label-location {
-    padding: 0 15px;
-    align-items: flex-start;
+    padding: 10px 15px;
 }
 
 .label-location h3,
 .label-location h6 {
     font-weight: 600;
     text-transform: uppercase;
-    font-size: 13px;
-    line-height: 1.2em;
+    font-size: 12px;
+    line-height: 1.3em;
     letter-spacing: 1px;
     color: #696969 !important;
     padding-bottom: 0px !important;
@@ -362,7 +355,7 @@ input[type="radio"]:checked+label[for="citiesCheck"]::after {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 15px 8px;
+    padding: 10px 15px 0 15px;
 }
 
 .city-name h3 {
@@ -382,7 +375,7 @@ input[type="radio"]:checked+label[for="citiesCheck"]::after {
 .maplibregl-popup-content .ihub-name {
     font-size: 16px;
     line-height: 1.3em;
-    padding: 10px 15px 5px;
+    padding: 0 15px 5px;
 }
 
 .maplibregl-popup-content .org-name {
@@ -677,11 +670,11 @@ input[type="radio"]:checked+label[for="citiesCheck"]::after {
 .solution-item .icons {
     border: none;
     padding: 0!important;
-    margin-top: 7px!important;
+    margin: 5px auto 15px !important;
 }
 
 .maplibregl-popup-content .icons {
-    padding: 15px 15px 0;
+    padding: 10px 15px 10px;
     margin-top: 12px;
 }
 
