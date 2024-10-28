@@ -31,7 +31,7 @@ a:focus {
 /* Map */
 
 .maplibregl-popup {
-    min-width: 70vw !important;
+    min-width: 25ch !important;
     max-width: 280px !important;
 }
 
