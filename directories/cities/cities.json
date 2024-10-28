@@ -6,6 +6,62 @@
 			"properties":{
 				"type": "city",
 				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Buenos Aires</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Argentina</h6><img alt='Argentina' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Argentina.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-58.3,-34.6]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Carmen de Areco</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Argentina</h6><img alt='Argentina' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Argentina.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-59.8,-34.3]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Catamarca</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Argentina</h6><img alt='Argentina' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Argentina.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-65.7,-28.4]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>La Plata</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Argentina</h6><img alt='Argentina' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Argentina.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-57.9,-34.9]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/posadas.jpg'/></div>",
 					"<div class='city-name'><h3>Posadas</h3><a class='cat-website' target='_blank' href='https://turismoposadas.tur.ar/dti.html' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Argentina</h6><img alt='Argentina' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Argentina.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-item'><div class='solution-title'>Intelligent Tourism Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://turismoposadas.tur.ar/' rel='noopener'><span class='icon website'></span></a></div></div>"
@@ -44,6 +100,34 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[153,-26.6]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Ganz</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Austria</h6><img alt='Austria' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Austria.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[15.6,47.5]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Graz</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Austria</h6><img alt='Austria' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Austria.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[15.4,47]
 			}
 		},
 		{
@@ -111,6 +195,20 @@
 			"properties":{
 				"type": "city",
 				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Ghent</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Belgium</h6><img alt='Belgium' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Belgium.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[3.7,51]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/leuven.jpg'/></div>",
 					"<div class='city-name'><h3>Leuven</h3><a class='cat-website' target='_blank' href='https://leuven.be/smart-city' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Belgium</h6><img alt='Belgium' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Belgium.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-item'><div class='solution-title'>Dynamic Access Control (DAC)</div><div class='icons'><a class='cat-website' target='_blank' href='https://multimodaal.vlaanderen/' rel='noopener'><span class='icon website'></span></a></div></div>",
@@ -120,6 +218,20 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[4.7,50.8]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Mechelen</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Belgium</h6><img alt='Belgium' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Belgium.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[4.4,51]
 			}
 		},
 		{
@@ -142,6 +254,76 @@
 			"properties":{
 				"type": "city",
 				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Angra dos Reis</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Brazil</h6><img alt='Brazil' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Brazil.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-44.3,-23]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Brasília</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Brazil</h6><img alt='Brazil' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Brazil.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-47.8,-15.7]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Campo Grande</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Brazil</h6><img alt='Brazil' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Brazil.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-54.6,-20.4]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Curitiba</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Brazil</h6><img alt='Brazil' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Brazil.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-49.2,-25.4]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Florianópolis</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Brazil</h6><img alt='Brazil' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Brazil.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-48.5,-27.5]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/greater-sao-paulo.jpg'/></div>",
 					"<div class='city-name'><h3>Greater São Paulo</h3><a class='cat-website' target='_blank' href='https://www.smartcitiesdive.com/ex/sustainablecitiescollective/s-o-paulo-s-new-master-plan-prioritizes-sustainable-urban-development/313116/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Brazil</h6><img alt='Brazil' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Brazil.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-item'><div class='solution-title'>Elliot Water</div><div class='icons'><a class='cat-website' target='_blank' href='https://elliotcloud.com/smart-water/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;bosonit-elliotcloud'><span class='icon marketplace'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/about-us/impact-stories/'><span class='icon impactstory'></span></a></div></div>"
@@ -157,6 +339,62 @@
 			"properties":{
 				"type": "city",
 				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Nova Friburgo</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Brazil</h6><img alt='Brazil' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Brazil.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-42.5,-22.2]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Palmas</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Brazil</h6><img alt='Brazil' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Brazil.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-48.3,-10.2]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Recife</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Brazil</h6><img alt='Brazil' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Brazil.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-34.8,-8]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Rio Branco</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Brazil</h6><img alt='Brazil' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Brazil.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-67.8,-9.9]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/rio-de-janeiro.jpg'/></div>",
 					"<div class='city-name'><h3>Rio de Janeiro</h3><a class='cat-website' target='_blank' href='http://prefeitura.rio/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Brazil</h6><img alt='Brazil' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Brazil.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-item'><div class='solution-title'>Rio Operations Center</div><div class='icons'><a class='cat-website' target='_blank' href='http://cor.rio/2desafiocor/' rel='noopener'><span class='icon website'></span></a></div></div>"
@@ -165,6 +403,48 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[-43.1,-22.9]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Salvador</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Brazil</h6><img alt='Brazil' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Brazil.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-38.5,-12.9]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Uberlândia</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Brazil</h6><img alt='Brazil' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Brazil.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-48.2,-18.9]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Toronto Airport</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Canada</h6><img alt='Canada' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Canada.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-79.6,43.6]
 			}
 		},
 		{
@@ -276,6 +556,20 @@
 			"properties":{
 				"type": "city",
 				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Kuopio</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Finland</h6><img alt='Finland' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Finland.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[27.6,62.8]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/helsinki.jpg'/></div>",
 					"<div class='city-name'><h3>Region of Helsinki Uusimaa</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Finland</h6><img alt='Finland' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Finland.png' style='margin-left: auto;'/></div>"
 				]
@@ -283,6 +577,20 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[24.9,60.1]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Tampere</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Finland</h6><img alt='Finland' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Finland.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[23.7,61.4]
 			}
 		},
 		{
@@ -313,6 +621,20 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[6.2,43.8]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Fort-de-France</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>France</h6><img alt='France' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_France.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-61.1,14.6]
 			}
 		},
 		{
@@ -395,6 +717,20 @@
 			"properties":{
 				"type": "city",
 				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Perpignan</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>France</h6><img alt='France' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_France.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[2.8,42.6]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/saint-quentin.jpg'/></div>",
 					"<div class='city-name'><h3>Saint-Quentin</h3><a class='cat-website' target='_blank' href='http://smartcityinnovation.eu/city-of-saint-quentin/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>France</h6><img alt='France' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_France.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-item'><div class='solution-title'>Smart Irrigation</div><div class='icons'><a class='cat-website' target='_blank' href='https://www.egm.io/en/smart-irrigation' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/about-us/impact-stories/'><span class='icon impactstory'></span></a></div></div>",
@@ -419,6 +755,34 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[4.5,43.9]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Arnsberg</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Germany</h6><img alt='Germany' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[8,51.4]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Bad Berleburg</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Germany</h6><img alt='Germany' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[8.3,51]
 			}
 		},
 		{
@@ -500,6 +864,34 @@
 			"properties":{
 				"type": "city",
 				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Duisburg</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Germany</h6><img alt='Germany' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[6.4,51.4]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Eichenzell</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Germany</h6><img alt='Germany' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[9.6,50.4]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/etteln.jpg'/></div>",
 					"<div class='city-name'><h3>Etteln</h3><a class='cat-website' target='_blank' href='https://www.etteln.de/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Germany</h6><img alt='Germany' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-item'><div class='solution-title'>Digital Village Twin Etteln</div><div class='icons'></div></div>"
@@ -508,6 +900,34 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[8.7,51.6]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Eutin</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Germany</h6><img alt='Germany' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[10.6,54.1]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Fulda</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Germany</h6><img alt='Germany' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[9.6,50.5]
 			}
 		},
 		{
@@ -539,6 +959,20 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[7.2,51.5]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Hünfeld</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Germany</h6><img alt='Germany' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[9.7,50.6]
 			}
 		},
 		{
@@ -634,6 +1068,34 @@
 			"properties":{
 				"type": "city",
 				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Mainz</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Germany</h6><img alt='Germany' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[8.2,49.9]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Menden</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Germany</h6><img alt='Germany' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[7.7,51.4]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/moers.jpg'/></div>",
 					"<div class='city-name'><h3>Moers</h3><a class='cat-website' target='_blank' href='https://www.moers.de/app/inhalt/startcenter-fuer-mobile-endgeraete/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Germany</h6><img alt='Germany' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-item'><div class='solution-title'>Urban Air Quality Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://www.breeze-technologies.de/solutions/urban-air-quality/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;breezetechnologies-breezeenvironmentalintelligencecloud'><span class='icon marketplace'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/about-us/impact-stories/'><span class='icon impactstory'></span></a></div></div>"
@@ -649,6 +1111,20 @@
 			"properties":{
 				"type": "city",
 				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Mönchengladbach</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Germany</h6><img alt='Germany' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[6.4,51.1]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/monheim-am-rhein.jpg'/></div>",
 					"<div class='city-name'><h3>Monheim am Rhein</h3><a class='cat-website' target='_blank' href='https://www.monheim.de/homepage-english/about-monheim/city-profile/smart-city' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Germany</h6><img alt='Germany' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-item'><div class='solution-title'>MonLightGrid</div><div class='icons'><a class='cat-website' target='_blank' href='https://monlightgrid.de/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;engineering-digitalenabler'><span class='icon marketplace'></span></a></div></div>"
@@ -657,6 +1133,20 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[6.8,51]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Olpe</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Germany</h6><img alt='Germany' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[7.8,51]
 			}
 		},
 		{
@@ -708,6 +1198,20 @@
 			"properties":{
 				"type": "city",
 				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Soest</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Germany</h6><img alt='Germany' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[8.1,51.5]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/south-westphalia.jpg'/></div>",
 					"<div class='city-name'><h3>South Westphalia Provincial Council</h3><a class='cat-website' target='_blank' href='https://smartcities-suedwestfalen.com/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Germany</h6><img alt='Germany' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-item'><div class='solution-title'>Regional Open Data Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://smartcities-suedwestfalen.com/offene-regionale-datenplattform/' rel='noopener'><span class='icon website'></span></a></div></div>"
@@ -738,6 +1242,34 @@
 			"properties":{
 				"type": "city",
 				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Tegel Airport</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Germany</h6><img alt='Germany' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[13.2,52.5]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Ulm</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Germany</h6><img alt='Germany' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[9.9,48.4]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/wolfsburg.jpg'/></div>",
 					"<div class='city-name'><h3>Wolfsburg</h3><a class='cat-website' target='_blank' href='https://wolfsburgdigital.org/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Germany</h6><img alt='Germany' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-item'><div class='solution-title'>Open Data Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://wolfsburgdigital.org/projekte/open-data-platform/' rel='noopener'><span class='icon website'></span></a></div></div>",
@@ -747,6 +1279,20 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[10.7,52.4]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Wuppertal</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Germany</h6><img alt='Germany' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[6.9,51.2]
 			}
 		},
 		{
@@ -814,6 +1360,66 @@
 			"properties":{
 				"type": "city",
 				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Ahmedabad</h3><a class='cat-website' target='_blank' href='https://nudm.mohua.gov.in/wp-content/uploads/2021/02/IUDX-Booklet-FINAL.pdf' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>India</h6><img alt='India' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_India.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>IUDX</div><div class='icons'><a class='cat-website' target='_blank' href='https://iudx.org.in/' rel='noopener'><span class='icon website'></span></a></div></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[72.5,23]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Aurangabad</h3><a class='cat-website' target='_blank' href='https://nudm.mohua.gov.in/wp-content/uploads/2021/02/IUDX-Booklet-FINAL.pdf' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>India</h6><img alt='India' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_India.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>IUDX</div><div class='icons'><a class='cat-website' target='_blank' href='https://iudx.org.in/' rel='noopener'><span class='icon website'></span></a></div></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[75,19.8]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Bareilly</h3><a class='cat-website' target='_blank' href='https://nudm.mohua.gov.in/wp-content/uploads/2021/02/IUDX-Booklet-FINAL.pdf' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>India</h6><img alt='India' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_India.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>IUDX</div><div class='icons'><a class='cat-website' target='_blank' href='https://iudx.org.in/' rel='noopener'><span class='icon website'></span></a></div></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[79.4,28.3]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Belagavi</h3><a class='cat-website' target='_blank' href='https://nudm.mohua.gov.in/wp-content/uploads/2021/02/IUDX-Booklet-FINAL.pdf' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>India</h6><img alt='India' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_India.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>IUDX</div><div class='icons'><a class='cat-website' target='_blank' href='https://iudx.org.in/' rel='noopener'><span class='icon website'></span></a></div></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[74.4,15.8]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/bengaluru.jpg'/></div>",
 					"<div class='city-name'><h3>Bengaluru</h3><a class='cat-website' target='_blank' href='https://blrsmartcity.karnataka.gov.in/page/About%20Us/About%20Bengaluru%20Smart%20City/en' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>India</h6><img alt='India' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_India.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-item'><div class='solution-title'>IUDX</div><div class='icons'><a class='cat-website' target='_blank' href='https://nudm.mohua.gov.in/wp-content/uploads/2021/02/IUDX-Booklet-FINAL.pdf' rel='noopener'><span class='icon website'></span></a></div></div>"
@@ -859,6 +1465,36 @@
 			"properties":{
 				"type": "city",
 				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Bilaspur</h3><a class='cat-website' target='_blank' href='https://nudm.mohua.gov.in/wp-content/uploads/2021/02/IUDX-Booklet-FINAL.pdf' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>India</h6><img alt='India' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_India.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>IUDX</div><div class='icons'><a class='cat-website' target='_blank' href='https://iudx.org.in/' rel='noopener'><span class='icon website'></span></a></div></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[82.1,22]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Chandigarh</h3><a class='cat-website' target='_blank' href='https://nudm.mohua.gov.in/wp-content/uploads/2021/02/IUDX-Booklet-FINAL.pdf' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>India</h6><img alt='India' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_India.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>IUDX</div><div class='icons'><a class='cat-website' target='_blank' href='https://iudx.org.in/' rel='noopener'><span class='icon website'></span></a></div></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[76.7,30.7]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/chennai.jpg'/></div>",
 					"<div class='city-name'><h3>Chennai</h3><a class='cat-website' target='_blank' href='https://cscl.co.in/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>India</h6><img alt='India' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_India.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-item'><div class='solution-title'>IUDX</div><div class='icons'><a class='cat-website' target='_blank' href='https://nudm.mohua.gov.in/wp-content/uploads/2021/02/IUDX-Booklet-FINAL.pdf' rel='noopener'><span class='icon website'></span></a></div></div>"
@@ -867,6 +1503,81 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[80.2,13]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Coimbatore</h3><a class='cat-website' target='_blank' href='https://nudm.mohua.gov.in/wp-content/uploads/2021/02/IUDX-Booklet-FINAL.pdf' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>India</h6><img alt='India' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_India.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>IUDX</div><div class='icons'><a class='cat-website' target='_blank' href='https://iudx.org.in/' rel='noopener'><span class='icon website'></span></a></div></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[76.9,11]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Dahod</h3><a class='cat-website' target='_blank' href='https://nudm.mohua.gov.in/wp-content/uploads/2021/02/IUDX-Booklet-FINAL.pdf' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>India</h6><img alt='India' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_India.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>IUDX</div><div class='icons'><a class='cat-website' target='_blank' href='https://iudx.org.in/' rel='noopener'><span class='icon website'></span></a></div></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[74.2,22.8]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Davanagere</h3><a class='cat-website' target='_blank' href='https://nudm.mohua.gov.in/wp-content/uploads/2021/02/IUDX-Booklet-FINAL.pdf' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>India</h6><img alt='India' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_India.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>IUDX</div><div class='icons'><a class='cat-website' target='_blank' href='https://iudx.org.in/' rel='noopener'><span class='icon website'></span></a></div></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[75.3,14.3]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Dehradun</h3><a class='cat-website' target='_blank' href='https://nudm.mohua.gov.in/wp-content/uploads/2021/02/IUDX-Booklet-FINAL.pdf' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>India</h6><img alt='India' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_India.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>IUDX</div><div class='icons'><a class='cat-website' target='_blank' href='https://iudx.org.in/' rel='noopener'><span class='icon website'></span></a></div></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[77.9,30.3]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Dharamshala</h3><a class='cat-website' target='_blank' href='https://nudm.mohua.gov.in/wp-content/uploads/2021/02/IUDX-Booklet-FINAL.pdf' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>India</h6><img alt='India' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_India.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>IUDX</div><div class='icons'><a class='cat-website' target='_blank' href='https://iudx.org.in/' rel='noopener'><span class='icon website'></span></a></div></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[76.3,32.2]
 			}
 		},
 		{
@@ -889,6 +1600,51 @@
 			"properties":{
 				"type": "city",
 				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Gandhinagar</h3><a class='cat-website' target='_blank' href='https://nudm.mohua.gov.in/wp-content/uploads/2021/02/IUDX-Booklet-FINAL.pdf' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>India</h6><img alt='India' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_India.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>IUDX</div><div class='icons'><a class='cat-website' target='_blank' href='https://iudx.org.in/' rel='noopener'><span class='icon website'></span></a></div></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[72.6,23.2]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Gwalior</h3><a class='cat-website' target='_blank' href='https://nudm.mohua.gov.in/wp-content/uploads/2021/02/IUDX-Booklet-FINAL.pdf' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>India</h6><img alt='India' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_India.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>IUDX</div><div class='icons'><a class='cat-website' target='_blank' href='https://iudx.org.in/' rel='noopener'><span class='icon website'></span></a></div></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[78.1,26.2]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Hyderabad</h3><a class='cat-website' target='_blank' href='https://nudm.mohua.gov.in/wp-content/uploads/2021/02/IUDX-Booklet-FINAL.pdf' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>India</h6><img alt='India' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_India.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>IUDX</div><div class='icons'><a class='cat-website' target='_blank' href='https://iudx.org.in/' rel='noopener'><span class='icon website'></span></a></div></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[78.4,17.3]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/jaipur.jpg'/></div>",
 					"<div class='city-name'><h3>Jaipur</h3><a class='cat-website' target='_blank' href='https://smartnet.niua.org/content/f2a57ffa-1d34-41eb-ad3f-0219a2798c10' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>India</h6><img alt='India' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_India.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-item'><div class='solution-title'>IUDX</div><div class='icons'><a class='cat-website' target='_blank' href='https://iudx.org.in/' rel='noopener'><span class='icon website'></span></a></div></div>"
@@ -904,6 +1660,81 @@
 			"properties":{
 				"type": "city",
 				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Jammu</h3><a class='cat-website' target='_blank' href='https://nudm.mohua.gov.in/wp-content/uploads/2021/02/IUDX-Booklet-FINAL.pdf' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>India</h6><img alt='India' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_India.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>IUDX</div><div class='icons'><a class='cat-website' target='_blank' href='https://iudx.org.in/' rel='noopener'><span class='icon website'></span></a></div></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[74.7,32.7]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Kalyan-Dombivli</h3><a class='cat-website' target='_blank' href='https://nudm.mohua.gov.in/wp-content/uploads/2021/02/IUDX-Booklet-FINAL.pdf' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>India</h6><img alt='India' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_India.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>IUDX</div><div class='icons'><a class='cat-website' target='_blank' href='https://iudx.org.in/' rel='noopener'><span class='icon website'></span></a></div></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[73,19.2]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Kannur</h3><a class='cat-website' target='_blank' href='https://nudm.mohua.gov.in/wp-content/uploads/2021/02/IUDX-Booklet-FINAL.pdf' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>India</h6><img alt='India' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_India.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>IUDX</div><div class='icons'><a class='cat-website' target='_blank' href='https://iudx.org.in/' rel='noopener'><span class='icon website'></span></a></div></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[75.3,11.8]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Kanpur</h3><a class='cat-website' target='_blank' href='https://nudm.mohua.gov.in/wp-content/uploads/2021/02/IUDX-Booklet-FINAL.pdf' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>India</h6><img alt='India' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_India.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>IUDX</div><div class='icons'><a class='cat-website' target='_blank' href='https://iudx.org.in/' rel='noopener'><span class='icon website'></span></a></div></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[80.3,26.4]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Karimnagar</h3><a class='cat-website' target='_blank' href='https://nudm.mohua.gov.in/wp-content/uploads/2021/02/IUDX-Booklet-FINAL.pdf' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>India</h6><img alt='India' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_India.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>IUDX</div><div class='icons'><a class='cat-website' target='_blank' href='https://iudx.org.in/' rel='noopener'><span class='icon website'></span></a></div></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[79,18.4]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/kohima.jpg'/></div>",
 					"<div class='city-name'><h3>Kohima</h3><a class='cat-website' target='_blank' href='https://www.kohimasmartcity.com/about' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>India</h6><img alt='India' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_India.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-item'><div class='solution-title'>IUDX</div><div class='icons'><a class='cat-website' target='_blank' href='https://iudx.org.in/' rel='noopener'><span class='icon website'></span></a></div></div>"
@@ -912,6 +1743,126 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[94.1,25.6]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Lucknow</h3><a class='cat-website' target='_blank' href='https://nudm.mohua.gov.in/wp-content/uploads/2021/02/IUDX-Booklet-FINAL.pdf' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>India</h6><img alt='India' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_India.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>IUDX</div><div class='icons'><a class='cat-website' target='_blank' href='https://iudx.org.in/' rel='noopener'><span class='icon website'></span></a></div></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[80.8,26.8]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Nagpur</h3><a class='cat-website' target='_blank' href='https://nudm.mohua.gov.in/wp-content/uploads/2021/02/IUDX-Booklet-FINAL.pdf' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>India</h6><img alt='India' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_India.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>IUDX</div><div class='icons'><a class='cat-website' target='_blank' href='https://iudx.org.in/' rel='noopener'><span class='icon website'></span></a></div></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[79,21.1]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Namchi</h3><a class='cat-website' target='_blank' href='https://nudm.mohua.gov.in/wp-content/uploads/2021/02/IUDX-Booklet-FINAL.pdf' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>India</h6><img alt='India' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_India.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>IUDX</div><div class='icons'><a class='cat-website' target='_blank' href='https://iudx.org.in/' rel='noopener'><span class='icon website'></span></a></div></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[88.3,27.1]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>New Town Kolkata</h3><a class='cat-website' target='_blank' href='https://nudm.mohua.gov.in/wp-content/uploads/2021/02/IUDX-Booklet-FINAL.pdf' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>India</h6><img alt='India' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_India.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>IUDX</div><div class='icons'><a class='cat-website' target='_blank' href='https://iudx.org.in/' rel='noopener'><span class='icon website'></span></a></div></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[88.4,22.5]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Noida</h3><a class='cat-website' target='_blank' href='https://nudm.mohua.gov.in/wp-content/uploads/2021/02/IUDX-Booklet-FINAL.pdf' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>India</h6><img alt='India' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_India.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>IUDX</div><div class='icons'><a class='cat-website' target='_blank' href='https://iudx.org.in/' rel='noopener'><span class='icon website'></span></a></div></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[77.3,28.5]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Pasighat</h3><a class='cat-website' target='_blank' href='https://nudm.mohua.gov.in/wp-content/uploads/2021/02/IUDX-Booklet-FINAL.pdff' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>India</h6><img alt='India' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_India.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>IUDX</div><div class='icons'><a class='cat-website' target='_blank' href='https://iudx.org.in/' rel='noopener'><span class='icon website'></span></a></div></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[95.2,28]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Pimpri Chinchwad</h3><a class='cat-website' target='_blank' href='https://nudm.mohua.gov.in/wp-content/uploads/2021/02/IUDX-Booklet-FINAL.pdf' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>India</h6><img alt='India' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_India.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>IUDX</div><div class='icons'><a class='cat-website' target='_blank' href='https://iudx.org.in/' rel='noopener'><span class='icon website'></span></a></div></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[73.7,18.6]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Prayagraj</h3><a class='cat-website' target='_blank' href='https://nudm.mohua.gov.in/wp-content/uploads/2021/02/IUDX-Booklet-FINAL.pdf' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>India</h6><img alt='India' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_India.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>IUDX</div><div class='icons'><a class='cat-website' target='_blank' href='https://iudx.org.in/' rel='noopener'><span class='icon website'></span></a></div></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[81.7,25.4]
 			}
 		},
 		{
@@ -949,6 +1900,96 @@
 			"properties":{
 				"type": "city",
 				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Rajkot</h3><a class='cat-website' target='_blank' href='https://nudm.mohua.gov.in/wp-content/uploads/2021/02/IUDX-Booklet-FINAL.pdf' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>India</h6><img alt='India' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_India.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>IUDX</div><div class='icons'><a class='cat-website' target='_blank' href='https://iudx.org.in/' rel='noopener'><span class='icon website'></span></a></div></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[70.8,22.3]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Ranchi</h3><a class='cat-website' target='_blank' href='https://nudm.mohua.gov.in/wp-content/uploads/2021/02/IUDX-Booklet-FINAL.pdf' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>India</h6><img alt='India' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_India.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>IUDX</div><div class='icons'><a class='cat-website' target='_blank' href='https://iudx.org.in/' rel='noopener'><span class='icon website'></span></a></div></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[85.2,23.3]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Sagar</h3><a class='cat-website' target='_blank' href='https://nudm.mohua.gov.in/wp-content/uploads/2021/02/IUDX-Booklet-FINAL.pdf' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>India</h6><img alt='India' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_India.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>IUDX</div><div class='icons'><a class='cat-website' target='_blank' href='https://iudx.org.in/' rel='noopener'><span class='icon website'></span></a></div></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[78.7,23.8]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Satna</h3><a class='cat-website' target='_blank' href='https://nudm.mohua.gov.in/wp-content/uploads/2021/02/IUDX-Booklet-FINAL.pdf' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>India</h6><img alt='India' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_India.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>IUDX</div><div class='icons'><a class='cat-website' target='_blank' href='https://iudx.org.in/' rel='noopener'><span class='icon website'></span></a></div></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[80.7,24.5]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Shimla</h3><a class='cat-website' target='_blank' href='https://nudm.mohua.gov.in/wp-content/uploads/2021/02/IUDX-Booklet-FINAL.pdf' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>India</h6><img alt='India' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_India.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>IUDX</div><div class='icons'><a class='cat-website' target='_blank' href='https://iudx.org.in/' rel='noopener'><span class='icon website'></span></a></div></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[77.1,31.1]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Srinagar</h3><a class='cat-website' target='_blank' href='https://nudm.mohua.gov.in/wp-content/uploads/2021/02/IUDX-Booklet-FINAL.pdf' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>India</h6><img alt='India' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_India.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>IUDX</div><div class='icons'><a class='cat-website' target='_blank' href='https://iudx.org.in/' rel='noopener'><span class='icon website'></span></a></div></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[74.7,34]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/surat.jpg'/></div>",
 					"<div class='city-name'><h3>Surat</h3><a class='cat-website' target='_blank' href='https://nudm.mohua.gov.in/wp-content/uploads/2021/02/IUDX-Booklet-FINAL.pdf' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>India</h6><img alt='India' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_India.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-item'><div class='solution-title'>IUDX</div><div class='icons'><a class='cat-website' target='_blank' href='https://iudx.org.in/' rel='noopener'><span class='icon website'></span></a></div></div>"
@@ -957,6 +1998,51 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[72.8,21.1]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Thiruvananthapuram</h3><a class='cat-website' target='_blank' href='https://nudm.mohua.gov.in/wp-content/uploads/2021/02/IUDX-Booklet-FINAL.pdf' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>India</h6><img alt='India' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_India.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>IUDX</div><div class='icons'><a class='cat-website' target='_blank' href='https://iudx.org.in/' rel='noopener'><span class='icon website'></span></a></div></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[76.9,8.5]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Thoothukudi</h3><a class='cat-website' target='_blank' href='https://nudm.mohua.gov.in/wp-content/uploads/2021/02/IUDX-Booklet-FINAL.pdf' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>India</h6><img alt='India' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_India.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>IUDX</div><div class='icons'><a class='cat-website' target='_blank' href='https://iudx.org.in/' rel='noopener'><span class='icon website'></span></a></div></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[78.1,8.7]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Tumakuru</h3><a class='cat-website' target='_blank' href='https://nudm.mohua.gov.in/wp-content/uploads/2021/02/IUDX-Booklet-FINAL.pdf' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>India</h6><img alt='India' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_India.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>IUDX</div><div class='icons'><a class='cat-website' target='_blank' href='https://iudx.org.in/' rel='noopener'><span class='icon website'></span></a></div></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[77.1,13.3]
 			}
 		},
 		{
@@ -994,6 +2080,21 @@
 			"properties":{
 				"type": "city",
 				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Visakhapatnam</h3><a class='cat-website' target='_blank' href='https://nudm.mohua.gov.in/wp-content/uploads/2021/02/IUDX-Booklet-FINAL.pdf' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>India</h6><img alt='India' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_India.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>IUDX</div><div class='icons'><a class='cat-website' target='_blank' href='https://iudx.org.in/' rel='noopener'><span class='icon website'></span></a></div></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[83.2,17.6]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/arezzo.jpg'/></div>",
 					"<div class='city-name'><h3>Arezzo</h3><a class='cat-website' target='_blank' href='https://www.comune.arezzo.it/notizie/arezzo-verso-smart-city' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Italy</h6><img alt='Italy' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Italy.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-item'><div class='solution-title'>Atam Parking App</div><div class='icons'><a class='cat-website' target='_blank' href='https://www.atamarezzo.it/it/news/atam-parking-la-nuova-app-per-il-pagamento-della-sosta-e-molto-altro_15.html' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/about-us/impact-stories/'><span class='icon impactstory'></span></a></div></div>"
@@ -1017,6 +2118,48 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[11.2,43.7]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Garda Lake area</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Italy</h6><img alt='Italy' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Italy.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[10.6,45.6]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Genoa</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Italy</h6><img alt='Italy' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Italy.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[8.9,44.4]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Livorno</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Italy</h6><img alt='Italy' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Italy.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[10.3,43.5]
 			}
 		},
 		{
@@ -1054,6 +2197,20 @@
 			"properties":{
 				"type": "city",
 				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Modena</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Italy</h6><img alt='Italy' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Italy.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[10.9,44.6]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/naples.jpg'/></div>",
 					"<div class='city-name'><h3>Naples</h3><a class='cat-website' target='_blank' href='https://www.comune.napoli.it/ambiente-mare-tutela-animali' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Italy</h6><img alt='Italy' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Italy.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-item'><div class='solution-title'>SPOTTED</div><div class='icons'><a class='cat-website' target='_blank' href='https://cef-spotted.eu/' rel='noopener'><span class='icon website'></span></a></div></div>"
@@ -1077,6 +2234,62 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[12.3,43.1]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Pisa</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Italy</h6><img alt='Italy' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Italy.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[10.4,43.7]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Pistoia</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Italy</h6><img alt='Italy' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Italy.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[10.9,43.9]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Region of Tuscany</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Italy</h6><img alt='Italy' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Italy.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[9.7,43.3]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Region of Veneto</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Italy</h6><img alt='Italy' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Italy.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[10.5,45.7]
 			}
 		},
 		{
@@ -1115,6 +2328,90 @@
 			"properties":{
 				"type": "city",
 				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Vicenza</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Italy</h6><img alt='Italy' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Italy.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[11.5,45.5]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Volterra</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Italy</h6><img alt='Italy' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Italy.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[10.8,43.3]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Chichibu</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Japan</h6><img alt='Japan' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Japan.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[139,35.9]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Fukuoka</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Japan</h6><img alt='Japan' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Japan.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[130.4,33.5]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Hamamatsu</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Japan</h6><img alt='Japan' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Japan.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[137.4,34.9]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Higashimurayama</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Japan</h6><img alt='Japan' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Japan.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[139.4,35.7]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/kakogawa.jpg'/></div>",
 					"<div class='city-name'><h3>Kakogawa</h3><a class='cat-website' target='_blank' href='https://www.kantei.go.jp/jp/singi/keikyou/pdf/Japan%27s_Smart_Cities-1(Main_Report).pdf' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Japan</h6><img alt='Japan' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Japan.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-item'><div class='solution-title'>Crime Monitoring Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://www.nec.com/en/global/techrep/journal/g18/n01/180109.html' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;nec-cloudcityoperationscenter'><span class='icon marketplace'></span></a></div></div>"
@@ -1130,6 +2427,62 @@
 			"properties":{
 				"type": "city",
 				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Kawasaki</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Japan</h6><img alt='Japan' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Japan.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[139.7,35.5]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Niihama</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Japan</h6><img alt='Japan' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Japan.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[133.2,33.9]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Odawara</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Japan</h6><img alt='Japan' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Japan.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[139.1,35.2]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Okinawa Prefecture</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Japan</h6><img alt='Japan' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Japan.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[127.7,26.1]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/sapporo.jpg'/></div>",
 					"<div class='city-name'><h3>Sapporo</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Japan</h6><img alt='Japan' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Japan.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-item'><div class='solution-title'>Data Trading Market</div><div class='icons'><a class='cat-website' target='_blank' href='https://ui.apimarket-sapporo.jp/' rel='noopener'><span class='icon website'></span></a></div></div>"
@@ -1138,6 +2491,48 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[141.3,43]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Sarabetsu</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Japan</h6><img alt='Japan' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Japan.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[143.1,42.6]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Sendai</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Japan</h6><img alt='Japan' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Japan.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[140.8,38.2]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Shizuoka</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Japan</h6><img alt='Japan' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Japan.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[138.3,34.9]
 			}
 		},
 		{
@@ -1176,12 +2571,40 @@
 				"type": "city",
 				"html": [
 					"<div></div>",
+					"<div class='city-name'><h3>Tsukuba</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Japan</h6><img alt='Japan' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Japan.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[140,36]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
 					"<div class='city-name'><h3>Penang</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Malaysia</h6><img alt='Malaysia' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Malaysia.png' style='margin-left: auto;'/></div>"
 				]
 			},
 			"geometry":{
 				"type":"Point",
 				"coordinates":[100.3,5.4]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Aguascalientes</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Mexico</h6><img alt='Mexico' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Mexico.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-102.2,21.8]
 			}
 		},
 		{
@@ -1196,6 +2619,48 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[-99.1,19.4]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Monaco</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Monaco</h6><img alt='Monaco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Monaco.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[7.4,43.7]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Berkane</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Morocco</h6><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-2.3,34.9]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Marrakech</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Morocco</h6><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-7.9,31.6]
 			}
 		},
 		{
@@ -1218,6 +2683,34 @@
 			"properties":{
 				"type": "city",
 				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Tétouan</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Morocco</h6><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-5.3,35.5]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Amsterdam</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Netherlands</h6><img alt='Netherlands' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Netherlands.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[4.9,52.3]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/eindhoven.jpg'/></div>",
 					"<div class='city-name'><h3>Eindhoven</h3><a class='cat-website' target='_blank' href='https://www.eindhoven.nl/sites/default/files/2018-01/Smart%20Society%20IoT%20charter%20Eindhoven%20v01.pdf' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Netherlands</h6><img alt='Netherlands' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Netherlands.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-item'><div class='solution-title'>Urban Data Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://atos.net/en/industries/local-government-cities/atos-codex-cities-urban-data-management' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;atos-urbandataplatform'><span class='icon marketplace'></span></a></div></div>"
@@ -1226,6 +2719,48 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[5.4,51.4]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Enschede</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Netherlands</h6><img alt='Netherlands' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Netherlands.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[6.8,52.2]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Groningen</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Netherlands</h6><img alt='Netherlands' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Netherlands.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[6.5,53.2]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Hilversum</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Netherlands</h6><img alt='Netherlands' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Netherlands.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[5.1,52.2]
 			}
 		},
 		{
@@ -1248,6 +2783,20 @@
 			"properties":{
 				"type": "city",
 				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>The Hague</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Netherlands</h6><img alt='Netherlands' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Netherlands.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[4.3,52]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/panama-city.jpg'/></div>",
 					"<div class='city-name'><h3>Panama City</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Panama</h6><img alt='Panama' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Panama.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-item'><div class='solution-title'>AsterIoT Platform: Empowering Urban Solutions</div><div class='icons'><a class='cat-website' target='_blank' href='https://www.grupotx.com/soluciones-inteligentes' rel='noopener'><span class='icon website'></span></a></div></div>"
@@ -1263,8 +2812,52 @@
 			"properties":{
 				"type": "city",
 				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Lima</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Peru</h6><img alt='Peru' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Peru.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-77,-12]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Miraflores</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Peru</h6><img alt='Peru' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Peru.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-77,-12.1]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Poznan</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Poland</h6><img alt='Poland' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Poland.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[16.9,52.4]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/evora.jpg'/></div>",
-					"<div class='city-name'><h3>Évora</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Portugal</h6><img alt='Portugal' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Portugal.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Évora</h3><a class='cat-website' target='_blank' href='https://www.anmp.pt/files/event/2017/SmartCitiesTour/EV/Evora.pdf' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Portugal</h6><img alt='Portugal' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Portugal.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>Urban Data
+Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://www.ubiwhere.com/en/products/smart-cities/urban-platform' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;ubiwhere-urbanplatform'><span class='icon marketplace'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/2020/12/21/ubiwhere-a-single-integrated-view-of-smart-cities/'><span class='icon impactstory'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -1278,7 +2871,8 @@
 				"type": "city",
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/guimaraes.jpg'/></div>",
-					"<div class='city-name'><h3>Guimarães</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Portugal</h6><img alt='Portugal' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Portugal.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Guimarães</h3><a class='cat-website' target='_blank' href='https://www.intelligentcitieschallenge.eu/cities/guimaraes' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Portugal</h6><img alt='Portugal' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Portugal.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>Urban Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://urbanplatform.city/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;ubiwhere-urbanplatform'><span class='icon marketplace'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/2020/12/21/ubiwhere-a-single-integrated-view-of-smart-cities/'><span class='icon impactstory'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -1292,7 +2886,9 @@
 				"type": "city",
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/lisbon.jpg'/></div>",
-					"<div class='city-name'><h3>Lisbon</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Portugal</h6><img alt='Portugal' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Portugal.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Lisbon</h3><a class='cat-website' target='_blank' href='https://smartopenlisboa.com/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Portugal</h6><img alt='Portugal' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Portugal.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>NEC Cloud City
+Operation Center</div><div class='icons'><a class='cat-website' target='_blank' href='https://www.nec.com/en/case/lisbon_council/index.html' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;nec-cloudcityoperationscenter'><span class='icon marketplace'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -1306,7 +2902,8 @@
 				"type": "city",
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/porto.jpg'/></div>",
-					"<div class='city-name'><h3>Porto</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Portugal</h6><img alt='Portugal' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Portugal.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Porto</h3><a class='cat-website' target='_blank' href='https://synchronicity-iot.eu/project/porto/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Portugal</h6><img alt='Portugal' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Portugal.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>SynchroniCity</div><div class='icons'><a class='cat-website' target='_blank' href='https://synchronicity-iot.eu/' rel='noopener'><span class='icon website'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -1320,7 +2917,9 @@
 				"type": "city",
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/braila.jpg'/></div>",
-					"<div class='city-name'><h3>Braila</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Romania</h6><img alt='Romania' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Romania.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Braila</h3><a class='cat-website' target='_blank' href='http://www.primariabr.ro/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Romania</h6><img alt='Romania' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Romania.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>NAIADES
+IoT Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://naiades-project.eu/' rel='noopener'><span class='icon website'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -1334,7 +2933,9 @@
 				"type": "city",
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/madinah.jpg'/></div>",
-					"<div class='city-name'><h3>Madinah</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Saudi Arabia</h6><img alt='Saudi Arabia' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_SaudiArabia.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Madinah</h3><a class='cat-website' target='_blank' href='https://smartmadinah.city/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Saudi Arabia</h6><img alt='Saudi Arabia' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_SaudiArabia.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>Raseel Smart City
+Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://aws.amazon.com/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;amazonwebservices-smartterritoryframework'><span class='icon marketplace'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -1347,8 +2948,38 @@
 			"properties":{
 				"type": "city",
 				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Dakar</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Senegal</h6><img alt='Senegal' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Senegal.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-17.4,14.7]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Alcalá de Henares</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-3.3,40.4]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/alcoi.jpg'/></div>",
-					"<div class='city-name'><h3>Alcoi</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Alcoi</h3><a class='cat-website' target='_blank' href='https://smartcity.alcoi.org/ca/index.html' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>Alcoi Smart City
+Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://thinking-cities.readthedocs.io/en/latest/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;telefónica-thinkingcities'><span class='icon marketplace'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -1362,7 +2993,8 @@
 				"type": "city",
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/algeciras.jpg'/></div>",
-					"<div class='city-name'><h3>Algeciras</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Algeciras</h3><a class='cat-website' target='_blank' href='https://www.algeciras.es/es/detalle-de-noticia/Avanza-el-proyecto-Fireware-para-conocer-la-calidad-del-cielo-de-Algeciras-e-impulsar-el-astroturismo/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>Cielos de Algeciras</div><div class='icons'><a class='cat-website' target='_blank' href='https://www.cielosdealgeciras.es/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/2021/07/07/algeciras-promotes-stargazing-using-real-time-monitoring-of-the-night-sky/'><span class='icon impactstory'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -1375,13 +3007,56 @@
 			"properties":{
 				"type": "city",
 				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Alicante</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-0.7,38.3]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/almendralejo.jpg'/></div>",
-					"<div class='city-name'><h3>Almendralejo</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Almendralejo</h3><a class='cat-website' target='_blank' href='https://www.fiware.org/2018/03/20/the-province-of-badajoz-presents-its-smart-province-project/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>Open Data Portal</div><div class='icons'><a class='cat-website' target='_blank' href='http://datos.aytobadajoz.es/es/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;telefónica-thinkingcities'><span class='icon impactstory'></span></a></div></div>"
 				]
 			},
 			"geometry":{
 				"type":"Point",
 				"coordinates":[-6.4,38.6]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Almería</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-2.4,36.8]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Ávila</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-4.6,40.6]
 			}
 		},
 		{
@@ -1405,7 +3080,8 @@
 				"type": "city",
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/barcelona.jpg'/></div>",
-					"<div class='city-name'><h3>Barcelona</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Barcelona</h3><a class='cat-website' target='_blank' href='https://ajuntament.barcelona.cat/digital/en/about-us' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>Bettair</div><div class='icons'><a class='cat-website' target='_blank' href='https://bettaircities.com/solutions/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;bettaircities-bettair'><span class='icon marketplace'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -1418,8 +3094,53 @@
 			"properties":{
 				"type": "city",
 				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Benidorm</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-0.1,38.5]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Bilbao</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-2.9,43.2]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Cáceres</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-6.4,39.4]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/cadiz.jpg'/></div>",
-					"<div class='city-name'><h3>Cádiz Provincial Council</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Cádiz Provincial Council</h3><a class='cat-website' target='_blank' href='https://institucional.cadiz.es/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>Smart Tourism
+Destination
+Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://www.cadizturismo.com/es' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/'><span class='icon marketplace'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -1446,6 +3167,20 @@
 			"properties":{
 				"type": "city",
 				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Calvia</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[2.5,39.5]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/cartagena.jpg'/></div>",
 					"<div class='city-name'><h3>Cartagena</h3><a class='cat-website' target='_blank' href='https://www.cartagena.gov.co/component/content/article/93-acciones-comunicacionales/1805-cartagena-emprende-plan-de-accion-para-convertirse-en-una-ciudad-inteligente' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
 					"<div class='solution-item'><div class='solution-title'>Smart Irrigation and Air Quality Monitoring</div><div class='icons'><a class='cat-website' target='_blank' href='https://opendata.hopu.eu/grafana/d/46VKVlJZz/home?orgId&#x3D;1' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;ready&amp;id&#x3D;hopu-smartspot'><span class='icon marketplace'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/about-us/impact-stories/'><span class='icon impactstory'></span></a></div></div>",
@@ -1463,7 +3198,9 @@
 				"type": "city",
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/castellon.jpg'/></div>",
-					"<div class='city-name'><h3>Castellón Provincial Council</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Castellón Provincial Council</h3><a class='cat-website' target='_blank' href='https://smartvillages.dipcas.es/es/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>SmartVillages
+ Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://thinking-cities.readthedocs.io/en/latest/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;telefónica-thinkingcities'><span class='icon marketplace'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -1476,8 +3213,79 @@
 			"properties":{
 				"type": "city",
 				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Ceutí</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-1.2,38]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Córdoba</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-4.7,37.8]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Denia</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[0.1,38.8]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Diputación de Zamora</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-5.7,41.5]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Dos Hermanas</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-5.9,37.2]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/el-prat-de-llobregat.jpg'/></div>",
-					"<div class='city-name'><h3>El Prat de Llobregat</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>El Prat de Llobregat</h3><a class='cat-website' target='_blank' href='https://www.elprat.cat/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>IBAM project</div><div class='icons'><a class='cat-website' target='_blank' href='https://bettaircities.com/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;bettaircities-bettair'><span class='icon marketplace'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -1490,8 +3298,81 @@
 			"properties":{
 				"type": "city",
 				"html": [
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/fuerteventura.jpg'/></div>",
+					"<div class='city-name'><h3>Fuerteventura</h3><a class='cat-website' target='_blank' href='https://www.esmartcity.es/2021/07/01/smart-island-fuerteventura-inicia-transformacion-digital-isla-municipio-pajara' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>Smart Island
+Solution</div><div class='icons'><a class='cat-website' target='_blank' href='https://thinking-cities.readthedocs.io/en/latest/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;telefónica-thinkingcities'><span class='icon marketplace'></span></a></div></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-14,28.3]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Girona</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[2.8,41.9]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Gran Canaria</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-15.5,27.9]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Granada</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-3.5,37.1]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Guadalajara</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-3.1,40.6]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/huesca.jpg'/></div>",
-					"<div class='city-name'><h3>Huesca</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Huesca</h3><a class='cat-website' target='_blank' href='https://www.esmartcity.es/2020/12/03/provincia-huesca-saca-licitacion-proyecto-territorio-inteligente' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>BARET</div><div class='icons'><a class='cat-website' target='_blank' href='https://baret.es/' rel='noopener'><span class='icon website'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -1504,13 +3385,57 @@
 			"properties":{
 				"type": "city",
 				"html": [
-					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/la-palma.jpg'/></div>",
-					"<div class='city-name'><h3>La Palma</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+					"<div></div>",
+					"<div class='city-name'><h3>La Manga</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
 				]
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[-17.9,28.7]
+				"coordinates":[-0.8,37.6]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>La Nucia</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-0.1,38.6]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/la-palma.jpg'/></div>",
+					"<div class='city-name'><h3>La Palma</h3><a class='cat-website' target='_blank' href='https://www.lapalmasmartisland.es/en/home-2/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>Smart Island 
+Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://thinking-cities.readthedocs.io/en/latest/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;telefónica-thinkingcities'><span class='icon marketplace'></span></a></div></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-17.9,28.6]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>La Rinconada</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-5.9,37.4]
 			}
 		},
 		{
@@ -1533,7 +3458,7 @@
 				"type": "city",
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/las-rozas-de-madrid.jpg'/></div>",
-					"<div class='city-name'><h3>Las Rozas</h3><a class='cat-website' target='_blank' href='https://www.lasrozas.es/smart-city' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Las Rozas de Madrid</h3><a class='cat-website' target='_blank' href='https://www.lasrozas.es/smart-city' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
 				]
 			},
 			"geometry":{
@@ -1546,8 +3471,65 @@
 			"properties":{
 				"type": "city",
 				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>León Provincial Council</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-5.9,42.6]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Logroño</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-2.4,42.4]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Lucena</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-4.4,37.4]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Lugo</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-7.5,43]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/madrid.jpg'/></div>",
-					"<div class='city-name'><h3>Madrid</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Madrid</h3><a class='cat-website' target='_blank' href='https://hub.beesmart.city/en/strategy/smart-environment/smart-cities-in-spain-the-commitment-to-a-green-economy' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>Open Data Portal</div><div class='icons'><a class='cat-website' target='_blank' href='https://opendata.hopu.eu/grafana/d/46VKVlJZz/home?orgId&#x3D;1' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;telefónica-thinkingcities'><span class='icon marketplace'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/about-us/impact-stories/'><span class='icon impactstory'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -1561,7 +3543,9 @@
 				"type": "city",
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/malaga.jpg'/></div>",
-					"<div class='city-name'><h3>Málaga</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Málaga</h3><a class='cat-website' target='_blank' href='https://malagasmart.malaga.eu/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>Personal Citizen 
+Dashboard</div><div class='icons'><a class='cat-website' target='_blank' href='https://info-mipanel.malaga.eu/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;telefónica-thinkingcities'><span class='icon marketplace'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -1575,7 +3559,9 @@
 				"type": "city",
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/mallorca.jpg'/></div>",
-					"<div class='city-name'><h3>Mallorca</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Mallorca</h3><a class='cat-website' target='_blank' href='https://smart.conselldemallorca.cat/es/inici' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>Smart Island
+Mallorca</div><div class='icons'><a class='cat-website' target='_blank' href='https://thinking-cities.readthedocs.io/en/latest/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;telefónica-thinkingcities'><span class='icon marketplace'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -1589,7 +3575,8 @@
 				"type": "city",
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/molina-de-segura.jpg'/></div>",
-					"<div class='city-name'><h3>Molina de Segura</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Molina de Segura</h3><a class='cat-website' target='_blank' href='https://federmolina.es/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>Smart City Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://ciudadinteligente.molinadesegura.es/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/2021/12/23/molina-de-segura-smart-city-platform-and-iot-network-with-fiware/'><span class='icon impactstory'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -1603,7 +3590,9 @@
 				"type": "city",
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/murcia.jpg'/></div>",
-					"<div class='city-name'><h3>Murcia</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Murcia</h3><a class='cat-website' target='_blank' href='https://hopu.eu/smart-region-hopu-eng/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>MiMurcia
+ Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://www.red.es/redes/sites/redes/files/murcia4.pdf' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;ready&amp;id&#x3D;hopu-smartspot'><span class='icon marketplace'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -1616,8 +3605,80 @@
 			"properties":{
 				"type": "city",
 				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Onda</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-0.2,39.9]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Orense Provincial Council</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-7.8,42.3]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Osuna</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-5.1,37.2]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Palencia Provincial Council</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-4.5,42]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Pizarra</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-4.7,36.7]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/pontevedra.jpg'/></div>",
-					"<div class='city-name'><h3>Pontevedra Provincial Council</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Pontevedra Provincial Council</h3><a class='cat-website' target='_blank' href='https://www.depo.gal/es/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>Tourist Inside
+ Rías Baixas</div><div class='icons'><a class='cat-website' target='_blank' href='https://www.fiwoo.eu/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;fiwoo-fiwoo'><span class='icon marketplace'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -1631,7 +3692,9 @@
 				"type": "city",
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/port-of-huelva.jpg'/></div>",
-					"<div class='city-name'><h3>Port of Huelva</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Port of Huelva</h3><a class='cat-website' target='_blank' href='https://www.puertohuelva.com/transformacion-digital/?lang&#x3D;en' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>Smart Port 
+Innovation Node</div><div class='icons'><a class='cat-website' target='_blank' href='https://lalonja.tech/' rel='noopener'><span class='icon website'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -1645,7 +3708,9 @@
 				"type": "city",
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/port-of-seville.jpg'/></div>",
-					"<div class='city-name'><h3>Port of Seville</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Port of Seville</h3><a class='cat-website' target='_blank' href='https://www.puertodesevilla.com/en/the-port' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>The PAIS
+ Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://www.smartsantander.eu/' rel='noopener'><span class='icon website'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -1659,7 +3724,8 @@
 				"type": "city",
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/ports-of-balears.jpg'/></div>",
-					"<div class='city-name'><h3>Ports of Balears</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Ports of Balears</h3><a class='cat-website' target='_blank' href='https://www.caib.es/govern/index.do?lang&#x3D;ca' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>iGreenPort</div><div class='icons'><a class='cat-website' target='_blank' href='https://www.igreenport.com/' rel='noopener'><span class='icon website'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -1673,7 +3739,9 @@
 				"type": "city",
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/puerto-de-la-cruz.jpg'/></div>",
-					"<div class='city-name'><h3>Puerto de la Cruz</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Puerto de la Cruz</h3><a class='cat-website' target='_blank' href='https://workintenerife.intechtenerife.es/blog-en/what-makes-the-canary-islands-the-ideal-place-to-develop-tourism-technology/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>Smart Destination
+ Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://thinking-cities.readthedocs.io/en/latest/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;telefónica-thinkingcities'><span class='icon marketplace'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -1686,8 +3754,24 @@
 			"properties":{
 				"type": "city",
 				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Region of Andalusia</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-4.7,37.5]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/castile-and-leon.jpg'/></div>",
-					"<div class='city-name'><h3>Region of Castile and León</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Region of Castile and León</h3><a class='cat-website' target='_blank' href='https://www.esmartcity.es/comunicaciones/comunicacion-plataforma-territorio-rural-inteligente-castilla-leon' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>Smart Region
+ Castilla and Léon</div><div class='icons'><a class='cat-website' target='_blank' href='https://thinking-cities.readthedocs.io/en/latest/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;telefónica-thinkingcities'><span class='icon marketplace'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -1701,7 +3785,9 @@
 				"type": "city",
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/region-of-castilla-la-mancha.jpg'/></div>",
-					"<div class='city-name'><h3>Region of Castilla la Mancha</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Region of Castilla la Mancha</h3><a class='cat-website' target='_blank' href='https://territorioruralinteligente.castillalamancha.es/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>Smart Office and 
+FIWARE iHub</div><div class='icons'><a class='cat-website' target='_blank' href='https://territorioruralinteligente.castillalamancha.es/oficina-smart' rel='noopener'><span class='icon website'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -1714,13 +3800,99 @@
 			"properties":{
 				"type": "city",
 				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Sabadell</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[2.1,41.5]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Salamanca</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-5.6,40.9]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>San Sebastián</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-1.9,43.3]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/santander.jpg'/></div>",
-					"<div class='city-name'><h3>Santander</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Santander</h3><a class='cat-website' target='_blank' href='https://www.smartsantander.eu/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>Santander
+ City Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://www.smartsantander.eu/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;engineering-digitalenabler'><span class='icon marketplace'></span></a></div></div>"
 				]
 			},
 			"geometry":{
 				"type":"Point",
 				"coordinates":[-3.8,43.4]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Santiago de Compostela</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-8.5,42.8]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Segovia Provincial Council</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-4.1,40.9]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Soria Provincial Council</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-2.4,41.7]
 			}
 		},
 		{
@@ -1744,7 +3916,9 @@
 				"type": "city",
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/toledo.jpg'/></div>",
-					"<div class='city-name'><h3>Toledo</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Toledo</h3><a class='cat-website' target='_blank' href='https://www.toledo.es/toledo-avanza-en-la-gestion-de-los-servicios-publicos-y-el-turismo-gracias-a-su-proyecto-de-ciudad-inteligente/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>Toledo
+City Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://thinking-cities.readthedocs.io/en/latest/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;telefónica-thinkingcities'><span class='icon marketplace'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -1757,8 +3931,37 @@
 			"properties":{
 				"type": "city",
 				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Utrera</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-5.7,37.1]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Valdepeñas</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-3.3,38.7]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/valencia.jpg'/></div>",
-					"<div class='city-name'><h3>Valencia</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Valencia</h3><a class='cat-website' target='_blank' href='https://smartcity.valencia.es/en/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>VLCi Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://thinking-cities.readthedocs.io/en/latest/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;telefónica-thinkingcities'><span class='icon marketplace'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -1771,8 +3974,38 @@
 			"properties":{
 				"type": "city",
 				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Valladolid</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-4.7,41.6]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Vallat</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-0.3,40]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/vigo.jpg'/></div>",
-					"<div class='city-name'><h3>Vigo</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Vigo</h3><a class='cat-website' target='_blank' href='https://datos.vigo.org/es/plataforma-smart-city-vci-2-0/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>Vigo Smart City
+ Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://thinking-cities.readthedocs.io/en/latest/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;telefónica-thinkingcities'><span class='icon marketplace'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -1785,8 +4018,24 @@
 			"properties":{
 				"type": "city",
 				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Vilanova i la Geltrú</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[1.7,41.2]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/villarreal.jpg'/></div>",
-					"<div class='city-name'><h3>Villarreal</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Villarreal</h3><a class='cat-website' target='_blank' href='https://www.vila-real.es/portal/p_20_contenedor1.jsp?seccion&#x3D;s_fnot_d4_v1.jsp&amp;contenido&#x3D;57523&amp;tipo&#x3D;8&amp;nivel&#x3D;1400&amp;layout&#x3D;p_20_contenedor1.jsp&amp;codResi&#x3D;1&amp;language&#x3D;es' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>Smart City Platform
+ Vila Real</div><div class='icons'><a class='cat-website' target='_blank' href='https://thinking-cities.readthedocs.io/en/latest/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;telefónica-thinkingcities'><span class='icon marketplace'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -1799,8 +4048,136 @@
 			"properties":{
 				"type": "city",
 				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Zamora Provincial Council</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-5.7,41.5]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Zaragoza</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Spain</h6><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-0.8,41.6]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Åkersberga</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[18.3,59.4]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Alvesta</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[14.5,56.8]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Eksjö</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[15.2,57.6]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Eskilstuna</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[16.5,59.3]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Eslöv</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[13.3,55.8]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Gislaved</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[13.5,57.2]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Gnosjö</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[13.7,57.3]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/goteborg.jpg'/></div>",
-					"<div class='city-name'><h3>Göteborg</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Göteborg</h3><a class='cat-website' target='_blank' href='https://www.thisisgothenburg.com/smart-city' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>SCOREwater Project</div><div class='icons'><a class='cat-website' target='_blank' href='https://scorewater.eu/cases/goteborg-en' rel='noopener'><span class='icon website'></span></a></div></div>",
+					"<div class='solution-item'><div class='solution-title'>IRIS Project</div><div class='icons'><a class='cat-website' target='_blank' href='https://smartcitysweden.com/visit-programs/90/iris-smart-cities/' rel='noopener'><span class='icon website'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -1813,8 +4190,79 @@
 			"properties":{
 				"type": "city",
 				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Gotland</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[18.4,57.4]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Habo</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[14,57.9]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Halmstad</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[12.8,56.6]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Haninge</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[18.3,59]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
+					"<div></div>",
+					"<div class='city-name'><h3>Härnösand</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[17.9,62.6]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "city",
+				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/helsingborg.jpg'/></div>",
-					"<div class='city-name'><h3>Helsingborg</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Helsingborg</h3><a class='cat-website' target='_blank' href='https://h22.se/en/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>Yggio</div><div class='icons'><a class='cat-website' target='_blank' href='https://sensative.com/yggio/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;sensative-yggioplatform'><span class='icon marketplace'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -1884,7 +4332,8 @@
 				"type": "city",
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/lund.jpg'/></div>",
-					"<div class='city-name'><h3>Lund</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Lund</h3><a class='cat-website' target='_blank' href='https://www.futurebylund.se/category/smart-cities' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>Yggio</div><div class='icons'><a class='cat-website' target='_blank' href='https://sensative.com/yggio/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;sensative-yggioplatform'><span class='icon marketplace'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -1898,7 +4347,8 @@
 				"type": "city",
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/malmo.jpg'/></div>",
-					"<div class='city-name'><h3>Malmö</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Malmö</h3><a class='cat-website' target='_blank' href='https://malmo.se/Sa-arbetar-vi-med.../IT-och-digitalisering/Det-digitala-Malmo.html' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>FISMEP Project</div><div class='icons'><a class='cat-website' target='_blank' href='https://fismep.de/' rel='noopener'><span class='icon website'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -1996,7 +4446,8 @@
 				"type": "city",
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/jonkoping.jpg'/></div>",
-					"<div class='city-name'><h3>Region of Jönköpin</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Region of Jönköpin</h3><a class='cat-website' target='_blank' href='https://utveckling.rjl.se/globalassets/utveckling-i-jonkopings-lan/strategier-och-handlingsplaner/rus-regional-utvecklingsstrategi-for-jonkopings-lan.pdf' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>Yggio</div><div class='icons'><a class='cat-website' target='_blank' href='https://sensative.com/yggio/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;sensative-yggioplatform'><span class='icon marketplace'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -2080,7 +4531,8 @@
 				"type": "city",
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/stockholm.jpg'/></div>",
-					"<div class='city-name'><h3>Stockholm</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Stockholm</h3><a class='cat-website' target='_blank' href='https://malmo.se/Sa-arbetar-vi-med.../IT-och-digitalisering/Det-digitala-Malmo.html' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>FISMEP Project</div><div class='icons'><a class='cat-website' target='_blank' href='https://fismep.de/' rel='noopener'><span class='icon website'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -2108,7 +4560,8 @@
 				"type": "city",
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/sundsvall.jpg'/></div>",
-					"<div class='city-name'><h3>Sundsvall</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Sundsvall</h3><a class='cat-website' target='_blank' href='https://sundsvall.se/digital-infrastruktur/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>IOT Sundsvall</div><div class='icons'><a class='cat-website' target='_blank' href='https://innovationhubsundsvall.se/case/internet-of-things-for-tillganglighet/' rel='noopener'><span class='icon website'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -2234,7 +4687,8 @@
 				"type": "city",
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/vaxjo.jpg'/></div>",
-					"<div class='city-name'><h3>Växjö</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Växjö</h3><a class='cat-website' target='_blank' href='https://smartcitysweden.com/companies/105/city-of-vaxjo/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>Yggio</div><div class='icons'><a class='cat-website' target='_blank' href='https://sensative.com/yggio/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;sensative-yggioplatform'><span class='icon marketplace'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -2248,7 +4702,8 @@
 				"type": "city",
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/zurich.jpg'/></div>",
-					"<div class='city-name'><h3>Canton of Zürich</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Switzerland</h6><img alt='Switzerland' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Switzerland.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Canton of Zürich</h3><a class='cat-website' target='_blank' href='https://www.stadt-zuerich.ch/portal/de/index/politik_u_recht/stadtrat/weitere-politikfelder/smartcity/strategie.html' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Switzerland</h6><img alt='Switzerland' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Switzerland.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>Orchestra Cities</div><div class='icons'><a class='cat-website' target='_blank' href='https://www.orchestracities.com/' rel='noopener'><span class='icon website'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -2262,7 +4717,9 @@
 				"type": "city",
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/carouge.jpg'/></div>",
-					"<div class='city-name'><h3>Carouge</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Switzerland</h6><img alt='Switzerland' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Switzerland.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Carouge</h3><a class='cat-website' target='_blank' href='https://www.carouge.ch/smart-city-carouge' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Switzerland</h6><img alt='Switzerland' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Switzerland.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>NAIADES
+ IoT Platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://naiades-project.eu/' rel='noopener'><span class='icon website'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -2276,7 +4733,8 @@
 				"type": "city",
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/aberdeen.jpg'/></div>",
-					"<div class='city-name'><h3>Aberdeen</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>United Kingdom</h6><img alt='United Kingdom' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_UnitedKingdom.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Aberdeen</h3><a class='cat-website' target='_blank' href='https://www.aberdeencity.gov.uk/services/environment/aberdeen-sustainable-smart-city' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>United Kingdom</h6><img alt='United Kingdom' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_UnitedKingdom.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>A/RportTWIN</div><div class='icons'><a class='cat-website' target='_blank' href='https://newsroom.ferrovial.com/en/news/a-rportwin-the-next-digital-twin-platform-for-aberdeen-airport/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/about-us/impact-stories/'><span class='icon impactstory'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -2290,7 +4748,9 @@
 				"type": "city",
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/great-torrington.jpg'/></div>",
-					"<div class='city-name'><h3>Great Torrington</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>United Kingdom</h6><img alt='United Kingdom' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_UnitedKingdom.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Great Torrington</h3><a class='cat-website' target='_blank' href='https://www.onegreattorrington.uk/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>United Kingdom</h6><img alt='United Kingdom' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_UnitedKingdom.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>FIWARE-ready
+ Smart Solutions</div><div class='icons'><a class='cat-website' target='_blank' href='https://www.fiware4water.eu/demo-cases/united-kingdom-smart-metering-and-citizen-engagement-case' rel='noopener'><span class='icon website'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -2304,7 +4764,11 @@
 				"type": "city",
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/montevideo.jpg'/></div>",
-					"<div class='city-name'><h3>Montevideo</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Uruguay</h6><img alt='Uruguay' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Uruguay.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Montevideo</h3><a class='cat-website' target='_blank' href='https://montevideo.gub.uy/institucional/dependencias/desarrollo-sostenible-e-inteligente' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Uruguay</h6><img alt='Uruguay' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Uruguay.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>Montevideo
+ API</div><div class='icons'><a class='cat-website' target='_blank' href='https://www.fiware.org/2018/11/09/city-of-montevideo-to-be-integrated-as-a-strategic-user-city-of-the-fiware-platform/' rel='noopener'><span class='icon website'></span></a></div></div>",
+					"<div class='solution-item'><div class='solution-title'>Automated Open Data
+Portal</div><div class='icons'><a class='cat-website' target='_blank' href='https://ckan.montevideo.gub.uy/' rel='noopener'><span class='icon website'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -2346,7 +4810,9 @@
 				"type": "city",
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/independence-oregon.jpg'/></div>",
-					"<div class='city-name'><h3>Independence</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>USA</h6><img alt='USA' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_United-States.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Independence</h3><a class='cat-website' target='_blank' href='https://www.oregonconnections.info/presentations19/Shawn%20Irvine%20Oregon%20Connections.pdf' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>USA</h6><img alt='USA' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_United-States.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>WiseTown
+ Situation Room</div><div class='icons'><a class='cat-website' target='_blank' href='https://wise.town/en/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;teamdev-wisetown'><span class='icon marketplace'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/about-us/impact-stories/'><span class='icon impactstory'></span></a></div></div>"
 				]
 			},
 			"geometry":{
@@ -2360,7 +4826,9 @@
 				"type": "city",
 				"html": [
 					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/cover/oregon-city.jpg'/></div>",
-					"<div class='city-name'><h3>Oregon City</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>USA</h6><img alt='USA' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_United-States.png' style='margin-left: auto;'/></div>"
+					"<div class='city-name'><h3>Oregon City</h3><a class='cat-website' target='_blank' href='https://www.smartcitypdx.com/' rel='noopener'><span class='icon strategy'></span></a></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>USA</h6><img alt='USA' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_United-States.png' style='margin-left: auto;'/></div>",
+					"<div class='solution-item'><div class='solution-title'>OpenMove 
+MaaS platform</div><div class='icons'><a class='cat-website' target='_blank' href='https://www.openmove.com/solutions/' rel='noopener'><span class='icon website'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/marketplace/product-details/?category&#x3D;powered&amp;id&#x3D;openmove-openmove'><span class='icon marketplace'></span></a><a class='cat-website' target='_blank' href='https://www.fiware.org/about-us/impact-stories/'><span class='icon impactstory'></span></a></div></div>"
 				]
 			},
 			"geometry":{
