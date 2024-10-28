@@ -605,7 +605,7 @@
 			"properties":{
 				"type": "city",
 				"html": [
-					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/city-default.png'/></div>",
+					"<div></div>",
 					"<div class='city-name'><h3>Lemgo</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Germany</h6><img alt='Germany' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png' style='margin-left: auto;'/></div>"
 				]
 			},
@@ -679,7 +679,7 @@
 			"properties":{
 				"type": "city",
 				"html": [
-					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/city-default.png'/></div>",
+					"<div></div>",
 					"<div class='city-name'><h3>Potsdam</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Germany</h6><img alt='Germany' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png' style='margin-left: auto;'/></div>"
 				]
 			},
@@ -1175,7 +1175,7 @@
 			"properties":{
 				"type": "city",
 				"html": [
-					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/city-default.png'/></div>",
+					"<div></div>",
 					"<div class='city-name'><h3>Penang</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Malaysia</h6><img alt='Malaysia' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Malaysia.png' style='margin-left: auto;'/></div>"
 				]
 			},
@@ -1827,7 +1827,7 @@
 			"properties":{
 				"type": "city",
 				"html": [
-					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/city-default.png'/></div>",
+					"<div></div>",
 					"<div class='city-name'><h3>Kalmar</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>"
 				]
 			},
@@ -1841,7 +1841,7 @@
 			"properties":{
 				"type": "city",
 				"html": [
-					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/city-default.png'/></div>",
+					"<div></div>",
 					"<div class='city-name'><h3>Karlstad</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>"
 				]
 			},
@@ -1855,7 +1855,7 @@
 			"properties":{
 				"type": "city",
 				"html": [
-					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/city-default.png'/></div>",
+					"<div></div>",
 					"<div class='city-name'><h3>Kristianstad</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>"
 				]
 			},
@@ -1869,7 +1869,7 @@
 			"properties":{
 				"type": "city",
 				"html": [
-					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/city-default.png'/></div>",
+					"<div></div>",
 					"<div class='city-name'><h3>Lessebo</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>"
 				]
 			},
@@ -1911,7 +1911,7 @@
 			"properties":{
 				"type": "city",
 				"html": [
-					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/city-default.png'/></div>",
+					"<div></div>",
 					"<div class='city-name'><h3>Mölndal</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>"
 				]
 			},
@@ -1925,7 +1925,7 @@
 			"properties":{
 				"type": "city",
 				"html": [
-					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/city-default.png'/></div>",
+					"<div></div>",
 					"<div class='city-name'><h3>Mullsjö</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>"
 				]
 			},
@@ -1939,7 +1939,7 @@
 			"properties":{
 				"type": "city",
 				"html": [
-					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/city-default.png'/></div>",
+					"<div></div>",
 					"<div class='city-name'><h3>Nässjö</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>"
 				]
 			},
@@ -1953,7 +1953,7 @@
 			"properties":{
 				"type": "city",
 				"html": [
-					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/city-default.png'/></div>",
+					"<div></div>",
 					"<div class='city-name'><h3>Norrköping</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>"
 				]
 			},
@@ -1967,7 +1967,7 @@
 			"properties":{
 				"type": "city",
 				"html": [
-					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/city-default.png'/></div>",
+					"<div></div>",
 					"<div class='city-name'><h3>Örebro</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>"
 				]
 			},
@@ -1981,7 +1981,7 @@
 			"properties":{
 				"type": "city",
 				"html": [
-					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/city-default.png'/></div>",
+					"<div></div>",
 					"<div class='city-name'><h3>Österåker</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>"
 				]
 			},
@@ -2009,7 +2009,7 @@
 			"properties":{
 				"type": "city",
 				"html": [
-					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/city-default.png'/></div>",
+					"<div></div>",
 					"<div class='city-name'><h3>Salem</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>"
 				]
 			},
@@ -2023,7 +2023,7 @@
 			"properties":{
 				"type": "city",
 				"html": [
-					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/city-default.png'/></div>",
+					"<div></div>",
 					"<div class='city-name'><h3>Sävsjö</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>"
 				]
 			},
@@ -2037,7 +2037,7 @@
 			"properties":{
 				"type": "city",
 				"html": [
-					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/city-default.png'/></div>",
+					"<div></div>",
 					"<div class='city-name'><h3>Solna</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>"
 				]
 			},
@@ -2051,7 +2051,7 @@
 			"properties":{
 				"type": "city",
 				"html": [
-					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/city-default.png'/></div>",
+					"<div></div>",
 					"<div class='city-name'><h3>Sölvesborg</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>"
 				]
 			},
@@ -2065,7 +2065,7 @@
 			"properties":{
 				"type": "city",
 				"html": [
-					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/city-default.png'/></div>",
+					"<div></div>",
 					"<div class='city-name'><h3>Southwest Skåne</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>"
 				]
 			},
@@ -2093,7 +2093,7 @@
 			"properties":{
 				"type": "city",
 				"html": [
-					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/city-default.png'/></div>",
+					"<div></div>",
 					"<div class='city-name'><h3>Sundbyberg</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>"
 				]
 			},
@@ -2121,7 +2121,7 @@
 			"properties":{
 				"type": "city",
 				"html": [
-					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/city-default.png'/></div>",
+					"<div></div>",
 					"<div class='city-name'><h3>Täby</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>"
 				]
 			},
@@ -2135,7 +2135,7 @@
 			"properties":{
 				"type": "city",
 				"html": [
-					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/city-default.png'/></div>",
+					"<div></div>",
 					"<div class='city-name'><h3>Tingsryd</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>"
 				]
 			},
@@ -2149,7 +2149,7 @@
 			"properties":{
 				"type": "city",
 				"html": [
-					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/city-default.png'/></div>",
+					"<div></div>",
 					"<div class='city-name'><h3>Tyresö</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>"
 				]
 			},
@@ -2163,7 +2163,7 @@
 			"properties":{
 				"type": "city",
 				"html": [
-					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/city-default.png'/></div>",
+					"<div></div>",
 					"<div class='city-name'><h3>Uppsala</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>"
 				]
 			},
@@ -2177,7 +2177,7 @@
 			"properties":{
 				"type": "city",
 				"html": [
-					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/city-default.png'/></div>",
+					"<div></div>",
 					"<div class='city-name'><h3>Vaggeryd</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>"
 				]
 			},
@@ -2191,7 +2191,7 @@
 			"properties":{
 				"type": "city",
 				"html": [
-					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/city-default.png'/></div>",
+					"<div></div>",
 					"<div class='city-name'><h3>Värnamo</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>"
 				]
 			},
@@ -2205,7 +2205,7 @@
 			"properties":{
 				"type": "city",
 				"html": [
-					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/city-default.png'/></div>",
+					"<div></div>",
 					"<div class='city-name'><h3>Västerås</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>"
 				]
 			},
@@ -2219,7 +2219,7 @@
 			"properties":{
 				"type": "city",
 				"html": [
-					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/city-default.png'/></div>",
+					"<div></div>",
 					"<div class='city-name'><h3>Vaxholm</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>Sweden</h6><img alt='Sweden' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Sweden.png' style='margin-left: auto;'/></div>"
 				]
 			},
@@ -2317,7 +2317,7 @@
 			"properties":{
 				"type": "city",
 				"html": [
-					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/city-default.png'/></div>",
+					"<div></div>",
 					"<div class='city-name'><h3>Aurora</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>USA</h6><img alt='USA' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_United-States.png' style='margin-left: auto;'/></div>"
 				]
 			},
@@ -2331,7 +2331,7 @@
 			"properties":{
 				"type": "city",
 				"html": [
-					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/city-default.png'/></div>",
+					"<div></div>",
 					"<div class='city-name'><h3>Boston</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>USA</h6><img alt='USA' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_United-States.png' style='margin-left: auto;'/></div>"
 				]
 			},
@@ -2373,7 +2373,7 @@
 			"properties":{
 				"type": "city",
 				"html": [
-					"<div><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/city-default.png'/></div>",
+					"<div></div>",
 					"<div class='city-name'><h3>Sacramento</h3></div><div class='label-location' style='display: flex;flex-direction: row;'><h6>USA</h6><img alt='USA' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_United-States.png' style='margin-left: auto;'/></div>"
 				]
 			},

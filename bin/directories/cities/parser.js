@@ -31,7 +31,7 @@ function extractcities(input) {
     input.forEach((item) => {
         const city = {
             city: item.City,
-            img: item.Cover ? item.Cover : DEFAULT_IMAGE,
+            img: item.Cover ? item.Cover : undefined,
             thumb: item.Thumb ? item.Thumb : DEFAULT_IMAGE,
             logo: item.Logo ? item.Logo : DEFAULT_IMAGE,
             domain: Parser.splitStrings(item.Domain),
