@@ -2244,7 +2244,7 @@ input[type="search"]::placeholder {
 
     .map-overlay-inner .search-sort-container {
         min-width: inherit;
-        max-width: calc(100% - 8px);
+        max-width: calc(100% - 5px);
     }
 
 }
@@ -2573,7 +2573,7 @@ input[type="search"]::placeholder {
 
     .map-overlay-inner .search-sort-container {
         min-width: inherit;
-        max-width: calc(100% - 8px);
+        max-width: calc(100% - 5px);
     }
 }
 
