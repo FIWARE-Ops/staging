@@ -2024,6 +2024,12 @@ input[type="search"]::placeholder {
     color: inherit;
 }
 
+.search-sort-container {
+    min-width: 50em;
+    position: relative;
+    top: -36px;
+    left: 36px;
+}
 /* –––––––––––––––– */
 
 
@@ -2174,6 +2180,8 @@ input[type="search"]::placeholder {
     #orderByYear {
         margin-right: 12px;
     }
+
+
 
 }
 

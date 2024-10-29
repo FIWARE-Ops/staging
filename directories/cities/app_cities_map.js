@@ -170,10 +170,8 @@ function initTextSearch() {
         padding: {top: 10, bottom:25, left: 15, right: 5}
       });
 
-      e.target.value = matches[0];
+      
  
-
-      //console.log(map.querySourceFeatures(location))
 
       
       map.once('idle', () => {
@@ -191,6 +189,7 @@ function initTextSearch() {
 
         const html = JSON.parse(targetFeature.properties.html);
         const content = html.join('');
+        e.target.value = matches[0];
 
         if(popups){popups.remove()}
         popups = new maplibregl.Popup()
