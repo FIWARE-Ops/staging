@@ -2235,6 +2235,18 @@ input[type="search"]::placeholder {
         margin-right: 12px;
     }
 
+    .map-overlay-inner {
+        top: inherit;
+        bottom: 25px;
+        left: 15px;
+        position: absolute;
+    }
+
+    .map-overlay-inner .search-sort-container {
+        min-width: inherit;
+        max-width: calc(100% - 8px);
+    }
+
 }
 
 
@@ -2551,6 +2563,19 @@ input[type="search"]::placeholder {
     #ico-sortby-year {
         margin-right: 0px;
     }
+
+    .map-overlay-inner {
+        top: inherit;
+        bottom: 25px;
+        left: 15px;
+        position: absolute;
+    }
+
+    .map-overlay-inner .search-sort-container {
+        min-width: inherit;
+        max-width: calc(100% - 8px);
+    }
+}
 
     /* –––––––––––––––– */
 }
