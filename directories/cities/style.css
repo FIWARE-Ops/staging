@@ -1827,6 +1827,10 @@ select::-ms-expand {
     gap: 10px;
 }
 
+.search-sort-container .search-element {
+    width: 332px;
+}
+
 .filter-element select {
     background-color: #f4fbfc;
     border-radius: 30px;
@@ -2574,7 +2578,7 @@ input[type="search"]::placeholder {
 
     .map-overlay-inner {
         top: inherit;
-        bottom: 60px;
+        bottom: 35px;
         left: 10px;
         position: absolute;
     }
