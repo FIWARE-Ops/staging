@@ -2025,15 +2025,18 @@ input[type="search"]::placeholder {
 }
 
 .search-sort-container {
-    min-width: 50em;
-    position: relative;
-    top: -36px;
-    left: 36px;
+    min-width: 55em;
 }
 
 .search-button .icons {
     border-top: none;
     margin-top: 0px;
+}
+
+.map-overlay-inner {
+    top: 25px;
+    left: 60px;
+    position: absolute;
 }
 
 
@@ -2184,8 +2187,6 @@ input[type="search"]::placeholder {
     #orderByYear {
         margin-right: 12px;
     }
-
-
 
 }
 

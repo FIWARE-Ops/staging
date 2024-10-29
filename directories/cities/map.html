@@ -30,6 +30,10 @@
         <div id="map">
         </div>
         <div class="map-overlay">
+            <details>
+                <summary class="search-button">
+                   <div class="icons"><a class="cat-website"><span class="icon website"></span></a></div>
+                </summary>
             <div class="map-overlay-inner">
                 <nav id="nav-filter">
                     <input type="radio" id="allCheck" name="filter" value="all" checked="checked">
@@ -42,10 +46,7 @@
                     <label for="citiesCheck">Cities</label>
                 </nav>
                 <div style="padding-top:10px;">
-                    <details>
-                        <summary class="search-button">
-                           <div class="icons"><a class="cat-website"><span class="icon website"></span></a></div>
-                        </summary>
+                    
                         <div class="search-sort-container">
                             <div class="search-element">
                                 <div class="resetInput"></div>
@@ -53,9 +54,10 @@
                             </div>
                         <div>
 
-                    </div></details>
+                    </div>
                 </div>
             </div>
+            </details>
         </div>
         <script src="./search.js"></script>
         <script src="./app_cities_map.js"></script>
