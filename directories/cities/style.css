@@ -2030,7 +2030,11 @@ input[type="search"]::placeholder {
     top: -36px;
     left: 36px;
 }
-/* –––––––––––––––– */
+
+.search-button .icons {
+    border-top: none;
+    margin-top: 0px;
+}
 
 
 @media screen and (min-device-width: 481px) and (max-device-width: 980px) {
