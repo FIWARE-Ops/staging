@@ -5,6 +5,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Atos",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/atos.png'/></div>",
 					"<div class='org-name'>Atos</div>",
@@ -21,6 +22,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Madinah Region Development Authority",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/mrda.png'/></div>",
 					"<div class='org-name'>Madinah Region Development Authority</div>",
@@ -37,6 +39,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "MedITech",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/medi-tech.png'/></div>",
 					"<div class='org-name'>MedITech</div>",
@@ -53,6 +56,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Nec",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/nec.png'/></div>",
 					"<div class='org-name'>Nec</div>",
@@ -69,6 +73,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Addix",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/addix.png'/></div>",
 					"<div class='org-name'>Addix</div>",
@@ -85,6 +90,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Alpha-Omega Technology",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/alpha-omega-technology.png'/></div>",
 					"<div class='org-name'>Alpha-Omega Technology</div>",
@@ -101,6 +107,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "AWS",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/aws.png'/></div>",
 					"<div class='org-name'>AWS</div>",
@@ -117,6 +124,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "BeeZeeLinx",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/bee-zee-linx.png'/></div>",
 					"<div class='org-name'>BeeZeeLinx</div>",
@@ -133,6 +141,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Bettair",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/bettair.png'/></div>",
 					"<div class='org-name'>Bettair</div>",
@@ -149,6 +158,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "BluSky",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/blu-sky.png'/></div>",
 					"<div class='org-name'>BluSky</div>",
@@ -165,6 +175,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Capelon",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/capelon.png'/></div>",
 					"<div class='org-name'>Capelon</div>",
@@ -181,6 +192,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Digitanimal",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/digitanimal.png'/></div>",
 					"<div class='org-name'>Digitanimal</div>",
@@ -197,6 +209,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "DISIT",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/disit-unifidinfo.png'/></div>",
 					"<div class='org-name'>DISIT</div>",
@@ -213,6 +226,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "DKSR",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/dksr.png'/></div>",
 					"<div class='org-name'>DKSR</div>",
@@ -229,6 +243,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "DOTSOFT",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/dotsoft.png'/></div>",
 					"<div class='org-name'>DOTSOFT</div>",
@@ -245,6 +260,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "EGM",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/easy-global-market.png'/></div>",
 					"<div class='org-name'>EGM</div>",
@@ -261,6 +277,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Elliot Cloud",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/elliot-cloud.png'/></div>",
 					"<div class='org-name'>Elliot Cloud</div>",
@@ -277,6 +294,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Endava",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/endava.png'/></div>",
 					"<div class='org-name'>Endava</div>",
@@ -293,6 +311,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Eprosima",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/eprosima.png'/></div>",
 					"<div class='org-name'>Eprosima</div>",
@@ -309,6 +328,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Eridanis",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/eridanis.png'/></div>",
 					"<div class='org-name'>Eridanis</div>",
@@ -325,6 +345,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Ficodes",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/ficodes.png'/></div>",
 					"<div class='org-name'>Ficodes</div>",
@@ -341,6 +362,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "FIWOO",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/fiwoo.png'/></div>",
 					"<div class='org-name'>FIWOO</div>",
@@ -357,6 +379,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Funding Box",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/funding-box.png'/></div>",
 					"<div class='org-name'>Funding Box</div>",
@@ -373,6 +396,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Future City Foundation",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/future-city-foundation.png'/></div>",
 					"<div class='org-name'>Future City Foundation</div>",
@@ -389,6 +413,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Future Intelligence",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/future-intelligence.png'/></div>",
 					"<div class='org-name'>Future Intelligence</div>",
@@ -405,6 +430,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Gaviti Consulting",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/gaviti-consulting.png'/></div>",
 					"<div class='org-name'>Gaviti Consulting</div>",
@@ -421,6 +447,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Hypertegrity",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/hypertegrity.png'/></div>",
 					"<div class='org-name'>Hypertegrity</div>",
@@ -437,6 +464,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Ignicion Games",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/ignicion-games.png'/></div>",
 					"<div class='org-name'>Ignicion Games</div>",
@@ -453,6 +481,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "IN2",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/in2.png'/></div>",
 					"<div class='org-name'>IN2</div>",
@@ -469,6 +498,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Infodom",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/infodom.png'/></div>",
 					"<div class='org-name'>Infodom</div>",
@@ -485,6 +515,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Innovalia",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/innovalia.png'/></div>",
 					"<div class='org-name'>Innovalia</div>",
@@ -501,6 +532,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "JIG",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/jig.png'/></div>",
 					"<div class='org-name'>JIG</div>",
@@ -517,6 +549,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Kanzo",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/kanzo.png'/></div>",
 					"<div class='org-name'>Kanzo</div>",
@@ -533,6 +566,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Latitudo 40",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/latitudo-40.png'/></div>",
 					"<div class='org-name'>Latitudo 40</div>",
@@ -549,6 +583,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Libelium",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/libelium.png'/></div>",
 					"<div class='org-name'>Libelium</div>",
@@ -565,6 +600,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Martel Innovate",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/martel-innovate.png'/></div>",
 					"<div class='org-name'>Martel Innovate</div>",
@@ -581,6 +617,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "MNX Online S.L.",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/mnx-online.png'/></div>",
 					"<div class='org-name'>MNX Online S.L.</div>",
@@ -597,6 +634,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "ms.gis",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/ms-gis.png'/></div>",
 					"<div class='org-name'>ms.gis</div>",
@@ -613,6 +651,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Naeva Tec",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/naeva-tec.png'/></div>",
 					"<div class='org-name'>Naeva Tec</div>",
@@ -629,6 +668,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Nexus Geografics",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/nexus-geographics.png'/></div>",
 					"<div class='org-name'>Nexus Geografics</div>",
@@ -645,6 +685,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Nivid Technologies",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/nivid-technologies.png'/></div>",
 					"<div class='org-name'>Nivid Technologies</div>",
@@ -661,6 +702,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "NTT Data",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/ntt-data.png'/></div>",
 					"<div class='org-name'>NTT Data</div>",
@@ -677,6 +719,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Opendatasoft",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/opendatasoft.png'/></div>",
 					"<div class='org-name'>Opendatasoft</div>",
@@ -693,6 +736,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Profirator",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/profirator.png'/></div>",
 					"<div class='org-name'>Profirator</div>",
@@ -709,6 +753,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Red Española de Ciudades Inteligentes",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/reci.png'/></div>",
 					"<div class='org-name'>Red Española de Ciudades Inteligentes</div>",
@@ -725,6 +770,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Secmotic",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/secmotic.png'/></div>",
 					"<div class='org-name'>Secmotic</div>",
@@ -741,6 +787,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Sensative",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/sensative.png'/></div>",
 					"<div class='org-name'>Sensative</div>",
@@ -757,6 +804,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Sirus",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/sirus.png'/></div>",
 					"<div class='org-name'>Sirus</div>",
@@ -773,6 +821,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "SKG Tecnologia",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/skg-tecnologia.png'/></div>",
 					"<div class='org-name'>SKG Tecnologia</div>",
@@ -789,6 +838,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "SMEV AG",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/smevag.png'/></div>",
 					"<div class='org-name'>SMEV AG</div>",
@@ -805,6 +855,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Solinfra",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/solinfra.png'/></div>",
 					"<div class='org-name'>Solinfra</div>",
@@ -821,6 +872,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Soluziona Tech",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/soluziona-tech.png'/></div>",
 					"<div class='org-name'>Soluziona Tech</div>",
@@ -837,6 +889,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Stadtwerke Lübeck Digital",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/travekom.png'/></div>",
 					"<div class='org-name'>Stadtwerke Lübeck Digital</div>",
@@ -853,6 +906,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Stadtwerke Wolfsburg",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/stadtwerke-wolfsburg.png'/></div>",
 					"<div class='org-name'>Stadtwerke Wolfsburg</div>",
@@ -869,6 +923,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Sysman",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/sysman.png'/></div>",
 					"<div class='org-name'>Sysman</div>",
@@ -885,6 +940,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Team Dev",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/team-dev.png'/></div>",
 					"<div class='org-name'>Team Dev</div>",
@@ -901,6 +957,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Tech n&#x27;Change",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/techn-change.png'/></div>",
 					"<div class='org-name'>Tech n&#x27;Change</div>",
@@ -917,6 +974,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "TIS",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/tis.png'/></div>",
 					"<div class='org-name'>TIS</div>",
@@ -933,6 +991,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Trigyn",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/trigyn-technologies.png'/></div>",
 					"<div class='org-name'>Trigyn</div>",
@@ -949,6 +1008,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Ubiwhere",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/ubiwhere.png'/></div>",
 					"<div class='org-name'>Ubiwhere</div>",
@@ -965,6 +1025,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "[ui!]",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/ui.png'/></div>",
 					"<div class='org-name'>[ui!]</div>",
@@ -981,6 +1042,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Uni System",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/uni-system.png'/></div>",
 					"<div class='org-name'>Uni System</div>",
@@ -997,6 +1059,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "VIA2MOOV",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/via2moov.png'/></div>",
 					"<div class='org-name'>VIA2MOOV</div>",
@@ -1013,6 +1076,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Virtual City Systems",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/virtual-city-systems.png'/></div>",
 					"<div class='org-name'>Virtual City Systems</div>",
@@ -1029,6 +1093,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "WinIT",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/win-it.png'/></div>",
 					"<div class='org-name'>WinIT</div>",
@@ -1045,6 +1110,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "WMBExpert",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/wmb-expert.png'/></div>",
 					"<div class='org-name'>WMBExpert</div>",
@@ -1061,6 +1127,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Zabala",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/zabala.png'/></div>",
 					"<div class='org-name'>Zabala</div>",
@@ -1077,6 +1144,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Antel",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/antel.png'/></div>",
 					"<div class='org-name'>Antel</div>",
@@ -1093,6 +1161,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Badajoz Provincial Council",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/province-of-badajoz.png'/></div>",
 					"<div class='org-name'>Badajoz Provincial Council</div>",
@@ -1109,6 +1178,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Berkane Provincial Council",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/province-of-berkane.png'/></div>",
 					"<div class='org-name'>Berkane Provincial Council</div>",
@@ -1125,6 +1195,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "City of Duitama",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-duitama.png'/></div>",
 					"<div class='org-name'>City of Duitama</div>",
@@ -1141,6 +1212,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "City of Genova",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-genova.png'/></div>",
 					"<div class='org-name'>City of Genova</div>",
@@ -1157,6 +1229,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "City of Herne",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-herne.png'/></div>",
 					"<div class='org-name'>City of Herne</div>",
@@ -1173,6 +1246,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "City of Medellin",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-medellin.png'/></div>",
 					"<div class='org-name'>City of Medellin</div>",
@@ -1189,6 +1263,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "City of Molina de Segura",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-molina-de-segura.png'/></div>",
 					"<div class='org-name'>City of Molina de Segura</div>",
@@ -1205,6 +1280,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "City of Montevideo",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-montevideo.png'/></div>",
 					"<div class='org-name'>City of Montevideo</div>",
@@ -1221,6 +1297,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "City of Murcia",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-murcia.png'/></div>",
 					"<div class='org-name'>City of Murcia</div>",
@@ -1237,6 +1314,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "City of Paderborn",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-paderborn.png'/></div>",
 					"<div class='org-name'>City of Paderborn</div>",
@@ -1253,6 +1331,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "City of Perugia",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-perugia.png'/></div>",
 					"<div class='org-name'>City of Perugia</div>",
@@ -1269,6 +1348,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "City of Santander",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-santander.png'/></div>",
 					"<div class='org-name'>City of Santander</div>",
@@ -1285,6 +1365,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "City of São Martinho",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/sao-martinho.png'/></div>",
 					"<div class='org-name'>City of São Martinho</div>",
@@ -1301,6 +1382,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "City of Wien",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-vienna.png'/></div>",
 					"<div class='org-name'>City of Wien</div>",
@@ -1317,6 +1399,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Doctor Peset University Hospital",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/doctor-peset-hospital.png'/></div>",
 					"<div class='org-name'>Doctor Peset University Hospital</div>",
@@ -1333,6 +1416,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Government of Monaco",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/government-of-monaco.png'/></div>",
 					"<div class='org-name'>Government of Monaco</div>",
@@ -1349,6 +1433,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Las Rozas Innova",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/las-rozas-innova.png'/></div>",
 					"<div class='org-name'>Las Rozas Innova</div>",
@@ -1365,6 +1450,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Ministry of Agriculture, Fisheries and Food",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/mapa.png'/></div>",
 					"<div class='org-name'>Ministry of Agriculture, Fisheries and Food</div>",
@@ -1381,6 +1467,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Nepal three Municipalities",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-nepal.png'/></div>",
 					"<div class='org-name'>Nepal three Municipalities</div>",
@@ -1397,6 +1484,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Netzlink",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/netzlink.png'/></div>",
 					"<div class='org-name'>Netzlink</div>",
@@ -1413,6 +1501,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "ProMalaga",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/pro-malaga.png'/></div>",
 					"<div class='org-name'>ProMalaga</div>",
@@ -1429,6 +1518,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Psnc",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/psnc.png'/></div>",
 					"<div class='org-name'>Psnc</div>",
@@ -1445,6 +1535,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "SWD Dormagen",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/swd-dormagen.png'/></div>",
 					"<div class='org-name'>SWD Dormagen</div>",
@@ -1461,6 +1552,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "University of Naples &quot;Parthenope&quot;",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/university-of-naples-parthenope.png'/></div>",
 					"<div class='org-name'>University of Naples &quot;Parthenope&quot;</div>",
@@ -1477,6 +1569,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Vienna Business Agency",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/vienna-business-agency.png'/></div>",
 					"<div class='org-name'>Vienna Business Agency</div>",
@@ -1493,6 +1586,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "AEI AERTIC",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/aertic.png'/></div>",
 					"<div class='org-name'>AEI AERTIC</div>",
@@ -1509,6 +1603,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "ARDITI",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/arditi.png'/></div>",
 					"<div class='org-name'>ARDITI</div>",
@@ -1525,6 +1620,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Artech Consulting",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/artech-international.png'/></div>",
 					"<div class='org-name'>Artech Consulting</div>",
@@ -1541,6 +1637,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "ATB Bremen",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/atb-bremen.png'/></div>",
 					"<div class='org-name'>ATB Bremen</div>",
@@ -1557,6 +1654,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Bochum University of Applied Sciences",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/bochum-university-of-applied-sciences.png'/></div>",
 					"<div class='org-name'>Bochum University of Applied Sciences</div>",
@@ -1573,6 +1671,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Cefriel",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/cefriel.png'/></div>",
 					"<div class='org-name'>Cefriel</div>",
@@ -1589,6 +1688,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "CERTH-ITI",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/certh-iti.png'/></div>",
 					"<div class='org-name'>CERTH-ITI</div>",
@@ -1605,6 +1705,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "CINTEL",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/cintel.png'/></div>",
 					"<div class='org-name'>CINTEL</div>",
@@ -1621,6 +1722,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "CIRES",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/cires.png'/></div>",
 					"<div class='org-name'>CIRES</div>",
@@ -1637,6 +1739,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Code for Japan",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/code-for-japan.png'/></div>",
 					"<div class='org-name'>Code for Japan</div>",
@@ -1653,6 +1756,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "CRIEPI",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/criepi.png'/></div>",
 					"<div class='org-name'>CRIEPI</div>",
@@ -1669,6 +1773,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "CRS4",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/crs4.png'/></div>",
 					"<div class='org-name'>CRS4</div>",
@@ -1685,6 +1790,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Digital Twin Consortium",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/digital-twin-consortium.png'/></div>",
 					"<div class='org-name'>Digital Twin Consortium</div>",
@@ -1701,6 +1807,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "ETRI",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/etri.png'/></div>",
 					"<div class='org-name'>ETRI</div>",
@@ -1717,6 +1824,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Eurecat",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/eurecat.png'/></div>",
 					"<div class='org-name'>Eurecat</div>",
@@ -1733,6 +1841,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "F6S",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/f6s.png'/></div>",
 					"<div class='org-name'>F6S</div>",
@@ -1749,6 +1858,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Faubourg Numérique",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/faubourg-numerique.png'/></div>",
 					"<div class='org-name'>Faubourg Numérique</div>",
@@ -1765,6 +1875,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Gate Institute",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/gate-institute.png'/></div>",
 					"<div class='org-name'>Gate Institute</div>",
@@ -1781,6 +1892,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "ICT Innovation Network",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/ict-innovation-network.png'/></div>",
 					"<div class='org-name'>ICT Innovation Network</div>",
@@ -1797,6 +1909,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "IDSA",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/idsa.png'/></div>",
 					"<div class='org-name'>IDSA</div>",
@@ -1813,6 +1926,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "IFE",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/ife.png'/></div>",
 					"<div class='org-name'>IFE</div>",
@@ -1829,6 +1943,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Imec",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/imec.png'/></div>",
 					"<div class='org-name'>Imec</div>",
@@ -1845,6 +1960,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "IMR – Irish Manufacturing Research",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/irish-manufacturing-research.png'/></div>",
 					"<div class='org-name'>IMR – Irish Manufacturing Research</div>",
@@ -1861,6 +1977,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Instituto Ciudades del Futuro",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/instituto-ciudades-del-futuro.png'/></div>",
 					"<div class='org-name'>Instituto Ciudades del Futuro</div>",
@@ -1877,6 +1994,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Intellimech",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/intellimech.png'/></div>",
 					"<div class='org-name'>Intellimech</div>",
@@ -1893,6 +2011,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "ITRI",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/itri.png'/></div>",
 					"<div class='org-name'>ITRI</div>",
@@ -1909,6 +2028,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "KETI",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/keti.png'/></div>",
 					"<div class='org-name'>KETI</div>",
@@ -1925,6 +2045,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Kommunal 4.0",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/kommunal-40.png'/></div>",
 					"<div class='org-name'>Kommunal 4.0</div>",
@@ -1941,6 +2062,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Linz Center Of Mechatronics",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/linz-center-of-mechatronics.png'/></div>",
 					"<div class='org-name'>Linz Center Of Mechatronics</div>",
@@ -1957,6 +2079,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Mindfultech Institute",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/mindfultech-institute.png'/></div>",
 					"<div class='org-name'>Mindfultech Institute</div>",
@@ -1973,6 +2096,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "NONAGON",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/nonagon.png'/></div>",
 					"<div class='org-name'>NONAGON</div>",
@@ -1989,6 +2113,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "OASC",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/oasc.png'/></div>",
 					"<div class='org-name'>OASC</div>",
@@ -2005,6 +2130,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Open Solutions For Government",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/ogov.png'/></div>",
 					"<div class='org-name'>Open Solutions For Government</div>",
@@ -2021,6 +2147,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Pleiades Innovation Cluster",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/pleiades.png'/></div>",
 					"<div class='org-name'>Pleiades Innovation Cluster</div>",
@@ -2037,6 +2164,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Polytechnic University of Madrid",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/university-politecnica-of-madrid.png'/></div>",
 					"<div class='org-name'>Polytechnic University of Madrid</div>",
@@ -2053,6 +2181,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Pontifical Bolivarian University",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/upb.png'/></div>",
 					"<div class='org-name'>Pontifical Bolivarian University</div>",
@@ -2069,6 +2198,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "ProStep",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/pro-step.png'/></div>",
 					"<div class='org-name'>ProStep</div>",
@@ -2085,6 +2215,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "RWTH Aachen University",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/rwth-aachen-university.png'/></div>",
 					"<div class='org-name'>RWTH Aachen University</div>",
@@ -2101,6 +2232,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "SCIC",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/scic.png'/></div>",
 					"<div class='org-name'>SCIC</div>",
@@ -2117,6 +2249,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "SIBB",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/sibb.png'/></div>",
 					"<div class='org-name'>SIBB</div>",
@@ -2133,6 +2266,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Smart City Institute Japan",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/smart-city-institute-japan.png'/></div>",
 					"<div class='org-name'>Smart City Institute Japan</div>",
@@ -2149,6 +2283,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "South-Eastern Finland University of Applied Sciences",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/xamk.png'/></div>",
 					"<div class='org-name'>South-Eastern Finland University of Applied Sciences</div>",
@@ -2165,6 +2300,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Tampere University of Applied Sciences",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/tamk.png'/></div>",
 					"<div class='org-name'>Tampere University of Applied Sciences</div>",
@@ -2181,6 +2317,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "The Lisbon Council",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/the-lisbon-council.png'/></div>",
 					"<div class='org-name'>The Lisbon Council</div>",
@@ -2197,6 +2334,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "TSCAI",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/tscai.png'/></div>",
 					"<div class='org-name'>TSCAI</div>",
@@ -2213,6 +2351,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "UDG Alliance",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/udg-alliance.png'/></div>",
 					"<div class='org-name'>UDG Alliance</div>",
@@ -2229,6 +2368,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Union Syndicale des Agriculteurs",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/union-syndicale-des-agriculteurs.png'/></div>",
 					"<div class='org-name'>Union Syndicale des Agriculteurs</div>",
@@ -2245,6 +2385,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "University Lumiere Lyon 2",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/university-lumiere-lyon-2.png'/></div>",
 					"<div class='org-name'>University Lumiere Lyon 2</div>",
@@ -2261,6 +2402,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "University of Cantabria",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/university-of-cantabria.png'/></div>",
 					"<div class='org-name'>University of Cantabria</div>",
@@ -2277,6 +2419,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "University of Deusto",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/university-of-deusto.png'/></div>",
 					"<div class='org-name'>University of Deusto</div>",
@@ -2293,6 +2436,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "University of Murcia",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/university-of-murcia.png'/></div>",
 					"<div class='org-name'>University of Murcia</div>",
@@ -2309,6 +2453,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "University of Salento",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/university-of-salento.png'/></div>",
 					"<div class='org-name'>University of Salento</div>",
@@ -2325,6 +2470,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "University of Sri Jayewardenepura",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/university-sri-jayewardenepura.png'/></div>",
 					"<div class='org-name'>University of Sri Jayewardenepura</div>",
@@ -2341,6 +2487,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "WAZIUP",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/waziup.png'/></div>",
 					"<div class='org-name'>WAZIUP</div>",
@@ -2357,6 +2504,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "WeGO",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/wego.png'/></div>",
 					"<div class='org-name'>WeGO</div>",
@@ -2373,6 +2521,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Wuhan Yangtze Business University",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/wtbu.png'/></div>",
 					"<div class='org-name'>Wuhan Yangtze Business University</div>",
@@ -2389,6 +2538,7 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Zixtech Association",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/zixtech.png'/></div>",
 					"<div class='org-name'>Zixtech Association</div>",

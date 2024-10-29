@@ -46,6 +46,18 @@ function concatGeoJSON(filename, file1, file2, file3) {
     fs.writeFile(filename, output, function (err) {
         if (err) return console.log(err);
     });
+
+    const searchObj = {};
+    geoJSON1.features.forEach((feature)=>{
+        if(feature.properties.name){
+            searchObj[feature.properties.name]= feature.geometry.coordinates;
+        }
+        if(feature.properties.city){
+            searchObj[feature.properties.city]= feature.geometry.coordinates;
+        }
+    })
+
+    return searchObj;
 }
 
 function readCSS( page , attr) {

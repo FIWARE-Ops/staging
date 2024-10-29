@@ -125,12 +125,14 @@ function parse(file) {
                 Prettier.format(path.join(CITIES_DIR, `${filename}.html`), { parser: 'html' });
             });
 
-            Template.concatGeoJSON(
+            const searchObj = Template.concatGeoJSON(
                 path.join(CITIES_DIR, 'community.json'),
                 path.join(CITIES_DIR, 'cities.json'),  
                 path.join(IHUBS_DIR, 'iHubs.json'),
                 path.join(ORGANISATIONS_DIR, 'organisations.json')
-          );
+            );
+            Template.write(path.join(CITIES_DIR, 'search.js'), path.join(TEMPLATE_PATH, 'search.hbs'), searchObj);
+            
         })
         .catch((e) => {
             console.log(e);
