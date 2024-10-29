@@ -109,7 +109,7 @@ function addLayer(source){
     type: "symbol",
     source,
     layout: {
-      "text-font": ["Montserrat Bold, Arial Bold"],
+      "text-font": ["Montserrat Bold", "Arial Bold"],
       "text-size": 12,
       "text-field": ["get", "point_count"],
       "text-offset": [0, 0.1] // move the label vertically downwards slightly to improve centering
@@ -143,6 +143,12 @@ let popups = null;
 
 function initTextSearch() {
   const searchKeys = Object.keys(searchObj);
+
+  document.querySelector(".resetInput").addEventListener("click", (el) => {
+    document.querySelector("#searchInput").value = "";
+   
+  });
+
   // Search input
   document.querySelector("#searchInput").addEventListener("keyup", (e) => {
     if (e.target.value != "") {
