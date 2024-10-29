@@ -131,8 +131,8 @@ input[type="radio"]:checked+label[for="citiesCheck"]::after {
 .map-overlay-inner .resetInput {
     background-size: 80%;
     background-position: center;
-    top: 10px;
-    right: 7px;
+    top: 12px;
+    right: 10px;
     width: 20px;
     height: 20px;
 }
@@ -152,12 +152,12 @@ input[type="radio"]:checked+label[for="citiesCheck"]::after {
 .map-overlay-inner input[type="search"]:active,
 .map-overlay-inner input[type="search"]:focus {
     border: none;
-    color: #001b3d;
+    color: #002E67;
     box-shadow: none;
 }
 
 .map-overlay-inner input[type="search"]::placeholder {
-    color: #002E67;
+    color: #333;
 }
 
 /* Card */
@@ -2054,12 +2054,11 @@ input[type="search"]::placeholder {
 .search-button .icons {
     border-top: none;
     margin-top: 0px;
-    padding-top: 0px;
 }
 
 .map-overlay-inner {
-    top: 13px;
-    left: 55px;
+    top: 25px;
+    left: 60px;
     position: absolute;
 }
 
