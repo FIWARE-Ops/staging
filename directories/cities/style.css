@@ -2024,7 +2024,17 @@ input[type="search"]::placeholder {
     color: inherit;
 }
 
-/* –––––––––––––––– */
+.search-sort-container {
+    min-width: 50em;
+    position: relative;
+    top: -36px;
+    left: 36px;
+}
+
+.search-button .icons {
+    border-top: none;
+    margin-top: 0px;
+}
 
 
 @media screen and (min-device-width: 481px) and (max-device-width: 980px) {
