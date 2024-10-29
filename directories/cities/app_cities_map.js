@@ -139,6 +139,7 @@ function initRadio() {
   });
 }
 
+let popups = null;
 
 function initTextSearch() {
   const searchKeys = Object.keys(searchObj);
@@ -164,11 +165,36 @@ function initTextSearch() {
       });
 
       e.target.value = matches[0];
-      /*new maplibregl.Popup()
-        .setHTML(`<div> ${matches[0]}</div>`)
-        .setLngLat(location)
-        .addTo(map);*/
+ 
+
+      //console.log(map.querySourceFeatures(location))
+
       
+      map.once('idle', () => {
+        const features = map.querySourceFeatures('community') 
+
+        let targetFeature = {}
+        features.forEach((feature)=> {
+            if(feature.properties.city === matches[0]){
+              targetFeature = feature;
+            }
+            if(feature.properties.name === matches[0]){
+              targetFeature = feature;
+            }
+        });
+
+        const html = JSON.parse(targetFeature.properties.html);
+        const content = html.join('');
+
+        if(popups){popups.remove()}
+        popups = new maplibregl.Popup()
+          .setHTML(`<div> ${content}</div>`)
+          .setLngLat(location);
+
+        popups.addTo(map);
+        horizontalScroll(document.querySelectorAll(".maplibregl-popup-content")[0])
+      });
+
     }
   });
 }
@@ -201,10 +227,12 @@ function initMap() {
       const html = JSON.parse(city.properties.html);
       const content = html.join('');
 
-      new maplibregl.Popup()
+      if(popups){popups.remove()}
+      popups = new maplibregl.Popup()
         .setHTML(`<div> ${content}</div>`)
-        .setLngLat(city.geometry.coordinates)
-        .addTo(map);
+        .setLngLat(city.geometry.coordinates);
+
+      popups.addTo(map);
 
       setTimeout(function(){
         horizontalScroll(document.querySelectorAll(".maplibregl-popup-content")[0])
