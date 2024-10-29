@@ -39,21 +39,6 @@ function horizontalScroll(popup) {
 
 function setBounds() {}
 
-const map = new maplibregl.Map({
-  container: 'map',
-  style: './style.json',
-  zoomControl: false,
-  maxZoom: 28,
-  minZoom: 1,
-  attributionControl: false
-}).fitBounds([
-  [-175.73934032129907, -56.093228369773406 ],
-  [179.54543205831558, 83.70561326982735 ],
-]);
-
-map.addControl(new maplibregl.NavigationControl());
-map.addControl(new maplibregl.AttributionControl({compact: true}));
-
 const isIhub = ['==', ['get', 'type'], 'ihub'];
 const isCity = ['==', ['get', 'type'], 'city'];
 const isMember = ['==', ['get', 'type'], 'Organization'];
@@ -135,65 +120,121 @@ function addLayer(source){
   });
 }
 
-map.once("load", () => {
-  // Add 3 sources
-  addSource("cities","./cities.json");
-  addSource("community","./community.json");
-  addSource("iHubs","../ihubs/iHubs.json");
-  addSource("members","../organisations/organisations.json");
 
-  addLayer("community")
+function initRadio() {
+  document.getElementById('nav-filter').addEventListener('change', (e) => {
+    switch(e.target.value) {
+      case "ihubs":
+        addLayer("iHubs")
+        break;
+      case "cities":
+        addLayer("cities")
+        break;
+      case "orgs":
+        addLayer("members");
+        break;
+      default:
+        addLayer("community")
+    }
+  });
+}
 
-});
 
-map.on("mouseenter", "points", () => {
-  map.getCanvas().style.cursor = "pointer";
-});
+function initTextSearch() {
+  const searchKeys = Object.keys(searchObj);
+  // Search input
+  document.querySelector("#searchInput").addEventListener("keyup", (e) => {
+    if (e.target.value != "") {
+      e.target.parentNode.classList.add("resetActive");
+    } else {
+      e.target.parentNode.classList.remove("resetActive");
+    }
 
-map.on("mouseleave", "points", () => {
-  map.getCanvas().style.cursor = "";
-});
+    const re = new RegExp(e.target.value, "gi");
+    let matches = searchKeys.filter(value => re.test(value));
 
-map.on("click", "clusters", (e) => {
-    const point = [e.lngLat.lng, e.lngLat.lat];
-    map.flyTo({
-      center: point
-    });
-    setTimeout(function(){
-       map.zoomIn()
-    }, 500);
-});
+    if(matches.length === 1){
+      const location = (searchObj[matches[0]]);
+      let bbox = [
+        [location[0]-1, location[1]-1], 
+        [location[0]+1, location[1]+1]];
 
-map.on("click", "points", (e) => {
-  const city = e.features[0]; 
-    const html = JSON.parse(city.properties.html);
-    const content = html.join('');
+      map.fitBounds(bbox, {
+        padding: {top: 10, bottom:25, left: 15, right: 5}
+      });
 
-    new maplibregl.Popup()
-      .setHTML(`<div> ${content}</div>`)
-      .setLngLat(city.geometry.coordinates)
-      .addTo(map);
+      e.target.value = matches[0];
+      /*new maplibregl.Popup()
+        .setHTML(`<div> ${matches[0]}</div>`)
+        .setLngLat(location)
+        .addTo(map);*/
+      
+    }
+  });
+}
 
-    setTimeout(function(){
-      horizontalScroll(document.querySelectorAll(".maplibregl-popup-content")[0])
-    }, 500);
+function initMap() { 
   
-});
 
-document.getElementById('nav-filter').addEventListener('change', (e) => {
-  switch(e.target.value) {
-    case "ihubs":
-      addLayer("iHubs")
-      break;
-    case "cities":
-      addLayer("cities")
-      break;
-    case "orgs":
-      addLayer("members");
-      break;
-    default:
-      addLayer("community")
-  }
-});
- 
+  map.addControl(new maplibregl.NavigationControl());
+  map.addControl(new maplibregl.AttributionControl({compact: true}));
+  map.on("mouseenter", "points", () => {
+    map.getCanvas().style.cursor = "pointer";
+  });
 
+  map.on("mouseleave", "points", () => {
+    map.getCanvas().style.cursor = "";
+  });
+
+  map.on("click", "clusters", (e) => {
+      const point = [e.lngLat.lng, e.lngLat.lat];
+      map.flyTo({
+        center: point
+      });
+      setTimeout(function(){
+         map.zoomIn()
+      }, 500);
+  });
+
+  map.on("click", "points", (e) => {
+    const city = e.features[0]; 
+      const html = JSON.parse(city.properties.html);
+      const content = html.join('');
+
+      new maplibregl.Popup()
+        .setHTML(`<div> ${content}</div>`)
+        .setLngLat(city.geometry.coordinates)
+        .addTo(map);
+
+      setTimeout(function(){
+        horizontalScroll(document.querySelectorAll(".maplibregl-popup-content")[0])
+      }, 500);
+    
+  });
+
+  map.once("load", () => {
+    // Add 3 sources
+    addSource("cities","./cities.json");
+    addSource("community","./community.json");
+    addSource("iHubs","../ihubs/iHubs.json");
+    addSource("members","../organisations/organisations.json");
+
+    addLayer("community")
+
+  });
+}
+
+const map = new maplibregl.Map({
+    container: 'map',
+    style: './style.json',
+    zoomControl: false,
+    maxZoom: 28,
+    minZoom: 1,
+    attributionControl: false
+  }).fitBounds([
+    [-175.73934032129907, -56.093228369773406 ],
+    [179.54543205831558, 83.70561326982735 ],
+  ]);
+initMap();
+initRadio();
+initTextSearch();
