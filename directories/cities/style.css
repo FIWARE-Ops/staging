@@ -137,6 +137,29 @@ input[type="radio"]:checked+label[for="citiesCheck"]::after {
     height: 20px;
 }
 
+.map-overlay-inner input[type="search"] {
+    background-image: none;
+    background-color: rgba(255, 255, 255, .8);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    line-height: 1.3em;
+    padding: 8px 12px 7px !important;
+    font-size: 15px !important;
+}
+
+.map-overlay-inner input[type="search"]:active,
+.map-overlay-inner input[type="search"]:focus {
+    border: none;
+    color: #002E67;
+    box-shadow: none;
+}
+
+.map-overlay-inner input[type="search"]::placeholder {
+    color: #333;
+}
+
 /* Card */
 
 .grid-item {
