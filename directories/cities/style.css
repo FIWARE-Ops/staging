@@ -131,10 +131,33 @@ input[type="radio"]:checked+label[for="citiesCheck"]::after {
 .map-overlay-inner .resetInput {
     background-size: 80%;
     background-position: center;
-    top: 12px;
-    right: 10px;
+    top: 10px;
+    right: 7px;
     width: 20px;
     height: 20px;
+}
+
+.map-overlay-inner input[type="search"] {
+    background-image: none;
+    background-color: rgba(255, 255, 255, .8);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    line-height: 1.3em;
+    padding: 8px 12px 7px !important;
+    font-size: 15px !important;
+}
+
+.map-overlay-inner input[type="search"]:active,
+.map-overlay-inner input[type="search"]:focus {
+    border: none;
+    color: #001b3d;
+    box-shadow: none;
+}
+
+.map-overlay-inner input[type="search"]::placeholder {
+    color: #002E67;
 }
 
 /* Card */
@@ -2031,11 +2054,12 @@ input[type="search"]::placeholder {
 .search-button .icons {
     border-top: none;
     margin-top: 0px;
+    padding-top: 0px;
 }
 
 .map-overlay-inner {
-    top: 25px;
-    left: 60px;
+    top: 13px;
+    left: 55px;
     position: absolute;
 }
 
