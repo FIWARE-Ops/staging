@@ -724,7 +724,7 @@ input[type="radio"]:checked+label[for="citiesCheck"]::after {
 	font-size: 20px;
 	display: inline-block;
 	position: relative;
-	background-color: #ebebeb;
+	background-color: rgba(255, 255, 255, .9);
 	background-image: url(https://www.fiware.org/custom/icons/blue/filters.svg);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -736,11 +736,12 @@ input[type="radio"]:checked+label[for="citiesCheck"]::after {
 	text-align: center;
 	padding: 2px;
 	transition: all 0.3s ease-in-out;
+    cursor: pointer;
 }
 
 .filters:hover {
-	background-color: #002e67;
-	background-image: url(https://www.fiware.org/custom/icons/white/filters.svg);
+	background-color: rgba(255, 255, 255, 1);
+	background-image: url(https://www.fiware.org/custom/icons/blue/filters.svg);
 }
 
 .website {
