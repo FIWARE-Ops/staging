@@ -725,11 +725,11 @@ input[type="radio"]:checked+label[for="citiesCheck"]::after {
 	display: inline-block;
 	position: relative;
 	background-color: #ebebeb;
-	background-image: url(https://www.fiware.org/custom/icons/blue/website.svg);
+	background-image: url(https://www.fiware.org/custom/icons/blue/filters.svg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 55%;
-	border-radius: 40px;
+	border-radius: 4px;
 	width: 32px;
 	height: 32px;
 	color: #002e67;
@@ -740,7 +740,7 @@ input[type="radio"]:checked+label[for="citiesCheck"]::after {
 
 .filters:hover {
 	background-color: #002e67;
-	background-image: url(https://www.fiware.org/custom/icons/white/website.svg);
+	background-image: url(https://www.fiware.org/custom/icons/white/filters.svg);
 }
 
 .website {
@@ -773,7 +773,7 @@ input[type="radio"]:checked+label[for="citiesCheck"]::after {
 	display: inline-block;
 	position: relative;
 	background-color: #ebebeb;
-	background-image: url(https://www.fiware.org/custom/icons/blue/strategy.svg);
+	background-image: url(https://www.fiware.org/custom/icons/blue/website.svg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 55%;
@@ -788,7 +788,7 @@ input[type="radio"]:checked+label[for="citiesCheck"]::after {
 
 .strategy:hover {
 	background-color: #002e67;
-	background-image: url(https://www.fiware.org/custom/icons/white/strategy.svg);
+	background-image: url(https://www.fiware.org/custom/icons/white/website.svg);
 }
 
 .impactstory {
@@ -2078,11 +2078,12 @@ input[type="search"]::placeholder {
 .search-button .icons {
     border-top: none;
     margin-top: 0px;
+    padding: 0;
 }
 
 .map-overlay-inner {
-    top: 25px;
-    left: 60px;
+    top: 14px;
+    left: 55px;
     position: absolute;
 }
 
@@ -2566,8 +2567,8 @@ input[type="search"]::placeholder {
 
     .map-overlay-inner {
         top: inherit;
-        bottom: 25px;
-        left: 15px;
+        bottom: 60px;
+        left: 10px;
         position: absolute;
     }
 
