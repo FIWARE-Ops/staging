@@ -52,7 +52,7 @@ a:focus {
 }
 
 .maplibregl-popup-content {
-    padding: 0;
+    padding: 0 0 12px;
     cursor: default;
     font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
 }
@@ -194,7 +194,7 @@ input[type="radio"]:checked+label[for="citiesCheck"]::after {
 }
 
 .maplibregl-popup-content .gridElementLogo {
-    border-radius: 3px 3px 0 0
+    border-radius: 3px 3px 0 0;
 }
 
 .gutter-sizer {
@@ -230,6 +230,12 @@ input[type="radio"]:checked+label[for="citiesCheck"]::after {
     color: #002e67;
     line-height: 1.4em;
     padding: 0px;
+}
+
+.solution-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .solution-item {
@@ -702,7 +708,7 @@ input[type="radio"]:checked+label[for="citiesCheck"]::after {
 .solution-item .icons {
     border: none;
     padding: 0!important;
-    margin: 5px auto 15px !important;
+    margin: 5px auto 0 !important;
 }
 
 .maplibregl-popup-content .icons {
