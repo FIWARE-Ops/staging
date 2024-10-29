@@ -170,8 +170,8 @@ function initTextSearch() {
     if(matches.length === 1){
       const location = (searchObj.data[matches[0]]);
       let bbox = [
-        [location[0]-1, location[1]-1], 
-        [location[0]+1, location[1]+1]];
+        [location[0]-1, location[1]-0.5], 
+        [location[0]+1, location[1]+1.5]];
 
       map.fitBounds(bbox, {
         padding: {top: 10, bottom:25, left: 15, right: 5}
