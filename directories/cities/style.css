@@ -712,7 +712,7 @@ input[type="radio"]:checked+label[for="citiesCheck"]::after {
 }
 
 .maplibregl-popup-content .icons {
-    padding: 10px 15px 10px;
+    padding: 10px 15px 12px;
     margin-top: 12px;
 }
 
