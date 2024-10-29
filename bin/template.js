@@ -24,7 +24,19 @@ const font = {
     medium: font2base64.encodeToDataUrlSync(path.join(__dirname, '../fonts/Montserrat-Medium.ttf')),
     semibold: font2base64.encodeToDataUrlSync(path.join(__dirname, '../fonts/Montserrat-SemiBold.ttf'))
 };
-
+function getSearchKeys(filename){
+    const geoJSON = JSON.parse(fs.readFileSync(filename, { encoding: 'utf8', flag: 'r' }));
+    const searchObj = {};
+    geoJSON.features.forEach((feature)=>{
+        if(feature.properties.name){
+            searchObj[feature.properties.name]= feature.geometry.coordinates;
+        }
+        if(feature.properties.city){
+            searchObj[feature.properties.city]= feature.geometry.coordinates;
+        }
+    })
+    return searchObj;
+}
 function concatGeoJSON(filename, file1, file2, file3) {
     const geoJSON1 = JSON.parse(
         fs.readFileSync(file1, { encoding: 'utf8', flag: 'r' }
@@ -43,21 +55,7 @@ function concatGeoJSON(filename, file1, file2, file3) {
         force: true,
     });
     fs.ensureFileSync(filename);
-    fs.writeFile(filename, output, function (err) {
-        if (err) return console.log(err);
-    });
-
-    const searchObj = {};
-    geoJSON1.features.forEach((feature)=>{
-        if(feature.properties.name){
-            searchObj[feature.properties.name]= feature.geometry.coordinates;
-        }
-        if(feature.properties.city){
-            searchObj[feature.properties.city]= feature.geometry.coordinates;
-        }
-    })
-
-    return searchObj;
+    fs.writeFileSync(filename, output);
 }
 
 function readCSS( page , attr) {
@@ -310,6 +308,7 @@ exports.clean = clean;
 exports.qrCodes = qrCodes;
 exports.readCSS = readCSS;
 exports.concatGeoJSON= concatGeoJSON;
+exports.getSearchKeys = getSearchKeys;
 exports.cleanDir = cleanDir;
 exports.createClass = createClass;
 exports.createSocialMediaImages = createSocialMediaImages;

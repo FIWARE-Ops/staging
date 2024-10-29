@@ -125,13 +125,28 @@ function parse(file) {
                 Prettier.format(path.join(CITIES_DIR, `${filename}.html`), { parser: 'html' });
             });
 
-            const searchObj = Template.concatGeoJSON(
+            Template.concatGeoJSON(
                 path.join(CITIES_DIR, 'community.json'),
                 path.join(CITIES_DIR, 'cities.json'),  
                 path.join(IHUBS_DIR, 'iHubs.json'),
                 path.join(ORGANISATIONS_DIR, 'organisations.json')
             );
-            Template.write(path.join(CITIES_DIR, 'search.js'), path.join(TEMPLATE_PATH, 'search.hbs'), searchObj);
+
+            const searchObj = Template.getSearchKeys(path.join(CITIES_DIR, 'community.json'));
+            
+            Template.write(path.join(CITIES_DIR, 'search.js'),
+                path.join(TEMPLATE_PATH, 'search.hbs'), 
+                {
+                    keys: {
+                        cities: Object.keys(Template.getSearchKeys(path.join(CITIES_DIR, 'cities.json'))),
+                        ihubs: Object.keys( Template.getSearchKeys(path.join(IHUBS_DIR, 'iHubs.json'))),
+                        members: Object.keys(Template.getSearchKeys(path.join(ORGANISATIONS_DIR, 'organisations.json'))),
+                        community:  Object.keys(searchObj)
+                    },
+                    data: searchObj
+                }
+            );
+            Prettier.format(path.join(CITIES_DIR, 'search.js'), { parser: 'flow' });
             
         })
         .catch((e) => {
