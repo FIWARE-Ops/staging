@@ -120,29 +120,34 @@ function addLayer(source){
   });
 }
 
+let popups = null;
+let filter = "community";
 
 function initRadio() {
   document.getElementById('nav-filter').addEventListener('change', (e) => {
     switch(e.target.value) {
       case "ihubs":
         addLayer("iHubs")
+        filter = "ihubs";
         break;
       case "cities":
         addLayer("cities")
+        filter = "cities";
         break;
       case "orgs":
         addLayer("members");
+        filter = "members";
         break;
       default:
         addLayer("community")
+        filter = "community";
     }
   });
 }
 
-let popups = null;
 
 function initTextSearch() {
-  const searchKeys = Object.keys(searchObj);
+  
 
   document.querySelector(".resetInput").addEventListener("click", (el) => {
     document.querySelector("#searchInput").value = "";
@@ -151,6 +156,8 @@ function initTextSearch() {
 
   // Search input
   document.querySelector("#searchInput").addEventListener("keyup", (e) => {
+    let searchKeys = searchObj.keys[filter]
+
     if (e.target.value != "") {
       e.target.parentNode.classList.add("resetActive");
     } else {
@@ -161,7 +168,7 @@ function initTextSearch() {
     let matches = searchKeys.filter(value => re.test(value));
 
     if(matches.length === 1){
-      const location = (searchObj[matches[0]]);
+      const location = (searchObj.data[matches[0]]);
       let bbox = [
         [location[0]-1, location[1]-1], 
         [location[0]+1, location[1]+1]];
@@ -175,7 +182,7 @@ function initTextSearch() {
 
       
       map.once('idle', () => {
-        const features = map.querySourceFeatures('community') 
+        const features = map.querySourceFeatures(filter) 
 
         let targetFeature = {}
         features.forEach((feature)=> {
