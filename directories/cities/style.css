@@ -124,8 +124,8 @@ input[type="radio"]:checked+label[for="citiesCheck"]::after {
     align-items: center;
     background-color: rgba(255,255,255,.9);
     padding: 3px 12px 3px 6px;
-    border-radius: 15px;font-size: 12px;
-
+    border-radius: 15px;
+    font-size: 12px;
 }
 
 .map-overlay-inner .resetInput {
@@ -2082,9 +2082,9 @@ input[type="search"]::placeholder {
     color: inherit;
 }
 
-.search-sort-container {
+/* .search-sort-container {
     min-width: 55em;
-}
+} */
 
 .search-button .icons {
     border-top: none;
@@ -2583,8 +2583,20 @@ input[type="search"]::placeholder {
         position: absolute;
     }
 
-    .map-overlay-inner .search-sort-container {
-        min-width: inherit;
-        max-width: calc(100% - 5px);
+    /* .map-overlay-inner .search-sort-container {
+        width: 90%;
+    } */
+
+    .search-sort-container .search-element {
+        width: 100%;
+    }
+
+    .map-overlay-inner input[type="search"] {
+        padding: 12px 12px 9px !important;
+        font-size: 16px !important;
+    }
+
+    .map-overlay-inner label {
+        font-size: 15px;
     }
 }
