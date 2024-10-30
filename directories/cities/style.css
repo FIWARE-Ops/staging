@@ -2578,7 +2578,7 @@ input[type="search"]::placeholder {
 
     .map-overlay-inner {
         top: inherit;
-        bottom: 35px;
+        bottom: 55px;
         left: 10px;
         position: absolute;
     }
