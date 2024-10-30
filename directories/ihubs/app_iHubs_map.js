@@ -249,7 +249,7 @@ function initMap() {
 
   map.once("load", () => {
     // Add sources
-    addSource("ihubs","./ihubs.json");
+    addSource("ihubs","./iHubs.json");
     addLayer("ihubs")
   });
 }
