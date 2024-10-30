@@ -7,11 +7,13 @@
         <meta name="mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <script src="https://unpkg.com/maplibre-gl@4.1.2/dist/maplibre-gl.js"></script>
-  <link href="https://unpkg.com/maplibre-gl@4.1.2/dist/maplibre-gl.css" rel="stylesheet" />
-
+        <link href="https://unpkg.com/maplibre-gl@4.1.2/dist/maplibre-gl.css" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./style.css">
         <link rel='stylesheet' id='divi-style-parent-css' href='https://www.fiware.org/wp-content/themes/Divi/style-static.min.css?ver=4.22.0' type='text/css' media='all' />
-<link rel='stylesheet' id='divi-style-css' href='https://www.fiware.org/wp-content/themes/Divi-child/style.css?ver=4.22.0' type='text/css' media='all' />
+        <link rel='stylesheet' id='divi-style-css' href='https://www.fiware.org/wp-content/themes/Divi-child/style.css?ver=4.22.0' type='text/css' media='all' />
         
         <style>
         html, body, #map {
@@ -21,12 +23,29 @@
             margin: 0;
         }
         </style>
+
         <title></title>
     </head>
     <body>
-        <div id="map">
+        <div id="map"></div>
+        <div class="map-overlay">
+            <details>
+                <summary class="search-button">
+                   <div class="icons"><a class="cat-website"><span class="icon filters"></span></a></div>
+                </summary>
+                <div class="map-overlay-inner">
+                    <div style="padding-top:15px;">
+                        <div class="search-sort-container">
+                            <div class="search-element">
+                                <div class="resetInput"></div>
+                                <input type="search" id="searchInput" placeholder="Search"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </details>
         </div>
+        <script src="./search.js"></script>
         <script src="./app_iHubs_map.js"></script>
     </body>
 </html>
-

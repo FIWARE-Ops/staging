@@ -25,6 +25,146 @@
     max-height: 55vh;
 }
 
+/* Map */
+
+.maplibregl-popup {
+    min-width: 30ch !important;
+    max-width: 280px !important;
+}
+
+.maplibregl-popup-close-button {
+    width: 20px;
+    padding: 0;
+    font-size: 24px !important;
+    mix-blend-mode: multiply;
+    opacity: .8;
+    color: #002E67;
+    border-radius: 0 3px 0 3px;
+    background-color: rgba(0, 46, 102, 0);
+    transition: all 0.2s ease-in-out;
+}
+
+.maplibregl-popup-close-button:hover {
+    background-color: rgba(0, 46, 102, .3);
+}
+
+.popup-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.maplibregl-popup-content {
+    padding: 0 0 12px;
+    cursor: default;
+    font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+}
+
+.map-overlay {
+    font-size: 13px;
+    line-height: 20px;
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0 0 10px;
+}
+
+#nav-filter {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#nav-filter input[type="radio"]+label::before,
+#nav-filter input[type="checkbox"]+label::before {
+    content: "";
+    display: flex;
+    justify-content: center;
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border: 1px solid rgb(166, 166, 166);
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+#nav-filter input[type="radio"]:checked+label::after,
+input[type="checkbox"]:checked+label::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    background-color: #000;
+    border-radius: 10px;
+    top: .5rem;
+    left: .75rem;
+}
+
+input[type="radio"]:checked+label[for="iHubsCheck"]::after {
+    background-color: #5dc0cf!important;
+    border: none;
+}
+
+input[type="radio"]:checked+label[for="orgsCheck"]::after {
+    background-color: #002E67!important;
+    border: none;
+}
+
+input[type="radio"]:checked+label[for="citiesCheck"]::after {
+    background-color: #5073ad!important;
+    border: none;
+}
+
+.map-overlay input {
+    margin: 2px;
+}
+
+.map-overlay-inner label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(255,255,255,.9);
+    padding: 3px 12px 3px 6px;
+    border-radius: 15px;
+    font-size: 12px;
+}
+
+.map-overlay-inner .resetInput {
+    background-size: 80%;
+    background-position: center;
+    top: 10px;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.map-overlay-inner input[type="search"] {
+    background-image: none;
+    background-color: rgba(255, 255, 255, .8);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    line-height: 1.3em;
+    padding: 8px 12px 7px !important;
+    font-size: 15px !important;
+}
+
+.map-overlay-inner input[type="search"]:active,
+.map-overlay-inner input[type="search"]:focus {
+    border: none;
+    color: #002E67;
+    box-shadow: none;
+}
+
+.map-overlay-inner input[type="search"]::placeholder {
+    color: #333;
+}
+
+
+
 /* Card */
 
 .grid-item {
@@ -1622,6 +1762,31 @@ input[type="checkbox"]:checked+label::after {
 
 
 /* Search */
+
+.filters {
+    font-weight: 400;
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    background-color: rgba(255, 255, 255, .9);
+    background-image: url(https://www.fiware.org/custom/icons/blue/filters.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 55%;
+    border-radius: 4px;
+    width: 32px;
+    height: 32px;
+    color: #002e67;
+    text-align: center;
+    padding: 2px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.filters:hover {
+    background-color: rgba(255, 255, 255, 1);
+    background-image: url(https://www.fiware.org/custom/icons/blue/filters.svg);
+}
 
 .search-element {
     position: relative;
