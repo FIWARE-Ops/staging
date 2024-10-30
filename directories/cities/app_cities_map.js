@@ -215,7 +215,7 @@ function initTextSearch() {
 
         if(popups){popups.remove()}
         popups = new maplibregl.Popup()
-          .setHTML(`<div> ${content}</div>`)
+          .setHTML(`<div class="popup-info"> ${content}</div>`)
           .setLngLat(location);
 
         popups.addTo(map);
@@ -256,7 +256,7 @@ function initMap() {
 
       if(popups){popups.remove()}
       popups = new maplibregl.Popup()
-        .setHTML(`<div> ${content}</div>`)
+        .setHTML(`<div class="popup-info"> ${content}</div>`)
         .setLngLat(city.geometry.coordinates);
 
       popups.addTo(map);
