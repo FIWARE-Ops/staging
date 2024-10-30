@@ -21,6 +21,7 @@
     "boo": "PROCESS=people PAGE=boo npm start",
     "cities": "PROCESS=cities npm start",
     "careers": "PROCESS=careers npm start",
+    "community": "PROCESS=community npm start",
     "domains": "PROCESS=domains npm start",
     "experts": "PROCESS=people PAGE=experts npm start",
     "evangelists": "PROCESS=people PAGE=evangelists npm start",

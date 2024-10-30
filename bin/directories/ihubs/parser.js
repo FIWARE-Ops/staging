@@ -5,6 +5,7 @@ const Prettier = require('prettier');
 const Parser = require('../../dataParser');
 const Sorter = require('../../sort');
 const Template = require('../../template');
+const Community = require('../community/parser');
 const TEMPLATE_PATH = 'bin/directories/ihubs/';
 const IHUBS_DIR = 'directories/ihubs';
 
@@ -78,13 +79,30 @@ function parse(file) {
             };
 
             Template.write(path.join(IHUBS_DIR, 'iHubs.html'), path.join(TEMPLATE_PATH, 'card.hbs'), iHubs);
-            Template.write(path.join(IHUBS_DIR, 'iHubs.json'), path.join(TEMPLATE_PATH, 'map.hbs'), iHubs);
             Template.write(path.join(IHUBS_DIR, 'pageData.js'), path.join(TEMPLATE_PATH, 'modal.hbs'), filterData);
             Template.write(path.join(IHUBS_DIR, 'filters.html'), path.join(TEMPLATE_PATH, 'filter.hbs'), filterData);
 
             Prettier.format(path.join(IHUBS_DIR, 'iHubs.html'), { parser: 'html' });
             Prettier.format(path.join(IHUBS_DIR, 'pageData.js'), { parser: 'flow' });
             Prettier.format(path.join(IHUBS_DIR, 'filters.html'), { parser: 'html' });
+
+             // Generate Maps
+            Template.write(
+                path.join(IHUBS_DIR, 'iHubs.json'),
+                path.join(TEMPLATE_PATH, 'map.hbs'), 
+                iHubs
+            );
+            const searchObj = Template.getSearchKeys(path.join(IHUBS_DIR, 'iHubs.json'));
+            Template.write(path.join(IHUBS_DIR, 'search.js'),
+                path.join(TEMPLATE_PATH, 'search.hbs'), 
+                {
+                    keys: {
+                        ihubs: Object.keys(searchObj)
+                    },
+                    data: searchObj
+                }
+            );
+            Community.generateMap();
         })
         .catch((e) => {
             console.log(e);

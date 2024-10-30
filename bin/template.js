@@ -51,6 +51,7 @@ function concatGeoJSON(filename, file1, file2, file3) {
     geoJSON1.features = geoJSON1.features.concat(geoJSON2.features);
     geoJSON1.features = geoJSON1.features.concat(geoJSON3.features); 
     const output = JSON.stringify(geoJSON1);
+
     fs.rmSync(filename, {
         force: true,
     });

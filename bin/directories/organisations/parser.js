@@ -5,6 +5,7 @@ const Prettier = require('prettier');
 const Parser = require('../../dataParser');
 const Sorter = require('../../sort');
 const Template = require('../../template');
+const Community = require('../community/parser');
 const TEMPLATE_PATH = 'bin/directories/organisations/';
 const ORGANISATIONS_DIR = 'directories/organisations';
 
@@ -92,11 +93,7 @@ function parse(file) {
                 path.join(TEMPLATE_PATH, 'card.hbs'),
                 organisations
             );
-            Template.write(
-                path.join(ORGANISATIONS_DIR, 'organisations.json'),
-                path.join(TEMPLATE_PATH, 'map.hbs'), 
-                organisations
-            );
+            
             
             Template.write(
                 path.join(ORGANISATIONS_DIR, 'pageData.js'),
@@ -112,6 +109,24 @@ function parse(file) {
             Prettier.format(path.join(ORGANISATIONS_DIR, 'organisations.html'), { parser: 'html' });
             Prettier.format(path.join(ORGANISATIONS_DIR, 'pageData.js'), { parser: 'flow' });
             Prettier.format(path.join(ORGANISATIONS_DIR, 'filters.html'), { parser: 'html' });
+
+            // Generate Maps
+            Template.write(
+                path.join(ORGANISATIONS_DIR, 'organisations.json'),
+                path.join(TEMPLATE_PATH, 'map.hbs'), 
+                organisations
+            );
+            const searchObj = Template.getSearchKeys(path.join(ORGANISATIONS_DIR, 'organisations.json'));
+            Template.write(path.join(ORGANISATIONS_DIR, 'search.js'),
+                path.join(TEMPLATE_PATH, 'search.hbs'), 
+                {
+                    keys: {
+                        members: Object.keys(searchObj)
+                    },
+                    data: searchObj
+                }
+            );
+            Community.generateMap();
         })
         .catch((e) => {
             console.log(e);

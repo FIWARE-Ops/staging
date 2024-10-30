@@ -7,8 +7,7 @@ const Sorter = require('../../sort');
 const Template = require('../../template');
 const TEMPLATE_PATH = 'bin/directories/cities/';
 const CITIES_DIR = 'directories/cities';
-const IHUBS_DIR = 'directories/ihubs';
-const ORGANISATIONS_DIR = 'directories/organisations';
+const Community = require('../community/parser');
 
 const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/cities/images/city-default.png';
 
@@ -79,7 +78,7 @@ function extractcities(input) {
  * Read in the cities file and output
  * HTML and JavaScript files
  */
-function parse(file) {
+async function parse(file) {
     csv()
         .fromFile(file)
         .then((input) => {
@@ -98,7 +97,6 @@ function parse(file) {
             });
 
             Template.write(path.join(CITIES_DIR, 'cities.html'), path.join(TEMPLATE_PATH, 'card.hbs'), cities);
-            Template.write(path.join(CITIES_DIR, 'cities.json'), path.join(TEMPLATE_PATH, 'map.hbs'), cities);
             Template.write(path.join(CITIES_DIR, 'pageData.js'), path.join(TEMPLATE_PATH, 'modal.hbs'), filterData);
             Template.write(path.join(CITIES_DIR, 'filters.html'), path.join(TEMPLATE_PATH, 'filter.hbs'), filterData);
 
@@ -125,29 +123,19 @@ function parse(file) {
                 Prettier.format(path.join(CITIES_DIR, `${filename}.html`), { parser: 'html' });
             });
 
-            Template.concatGeoJSON(
-                path.join(CITIES_DIR, 'community.json'),
-                path.join(CITIES_DIR, 'cities.json'),  
-                path.join(IHUBS_DIR, 'iHubs.json'),
-                path.join(ORGANISATIONS_DIR, 'organisations.json')
-            );
-
-            const searchObj = Template.getSearchKeys(path.join(CITIES_DIR, 'community.json'));
-            
+            // Generate Map Data
+            Template.write(path.join(CITIES_DIR, 'cities.json'), path.join(TEMPLATE_PATH, 'map.hbs'), cities);
+            const searchObj = Template.getSearchKeys(path.join(CITIES_DIR, 'cities.json'));
             Template.write(path.join(CITIES_DIR, 'search.js'),
                 path.join(TEMPLATE_PATH, 'search.hbs'), 
                 {
                     keys: {
-                        cities: Object.keys(Template.getSearchKeys(path.join(CITIES_DIR, 'cities.json'))),
-                        ihubs: Object.keys( Template.getSearchKeys(path.join(IHUBS_DIR, 'iHubs.json'))),
-                        members: Object.keys(Template.getSearchKeys(path.join(ORGANISATIONS_DIR, 'organisations.json'))),
-                        community:  Object.keys(searchObj)
+                        cities: Object.keys(searchObj)
                     },
                     data: searchObj
                 }
             );
-            Prettier.format(path.join(CITIES_DIR, 'search.js'), { parser: 'flow' });
-            
+            Community.generateMap();
         })
         .catch((e) => {
             console.log(e);
