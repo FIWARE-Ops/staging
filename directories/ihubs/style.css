@@ -163,6 +163,10 @@ input[type="radio"]:checked+label[for="citiesCheck"]::after {
     color: #333;
 }
 
+.map-overlay .icons {
+    border-top: none;
+}
+
 
 
 /* Card */
