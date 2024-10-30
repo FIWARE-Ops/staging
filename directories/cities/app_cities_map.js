@@ -151,7 +151,7 @@ function initTextSearch() {
 
   document.querySelector(".resetInput").addEventListener("click", (el) => {
     document.querySelector("#searchInput").value = "";
-   
+    document.querySelector(".search-element").classList.remove("resetActive");
   });
 
   // Search input
