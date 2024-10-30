@@ -157,18 +157,33 @@ function initTextSearch() {
   // Search input
   document.querySelector("#searchInput").addEventListener("keyup", (e) => {
     let searchKeys = searchObj.keys[filter]
+    let location = null;
+    const reFuzzy = new RegExp(`.*${e.target.value}.*`, "gi");
+    const reExact = new RegExp(`^${e.target.value}`, "gi");
 
     if (e.target.value != "") {
       e.target.parentNode.classList.add("resetActive");
     } else {
       e.target.parentNode.classList.remove("resetActive");
     }
-
-    const re = new RegExp(e.target.value, "gi");
-    let matches = searchKeys.filter(value => re.test(value));
-
+    if (e.target.value.length < 3) {
+      return;
+    }
+    
+    let matches = searchKeys.filter(value => reFuzzy.test(value));
     if(matches.length === 1){
-      const location = (searchObj.data[matches[0]]);
+      location = searchObj.data[matches[0]];
+    } else {
+      matches = searchKeys.filter(value => reExact.test(value));
+      if(matches.length === 1){
+        location = searchObj.data[matches[0]];
+      }
+    }
+
+
+
+    if(location){
+      
       let bbox = [
         [location[0]-1, location[1]-0.5], 
         [location[0]+1, location[1]+1.5]];
