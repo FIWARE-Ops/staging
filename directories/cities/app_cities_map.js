@@ -121,30 +121,7 @@ function addLayer(source){
 }
 
 let popups = null;
-let filter = "community";
-
-function initRadio() {
-  document.getElementById('nav-filter').addEventListener('change', (e) => {
-    switch(e.target.value) {
-      case "ihubs":
-        addLayer("iHubs")
-        filter = "ihubs";
-        break;
-      case "cities":
-        addLayer("cities")
-        filter = "cities";
-        break;
-      case "orgs":
-        addLayer("members");
-        filter = "members";
-        break;
-      default:
-        addLayer("community")
-        filter = "community";
-    }
-  });
-}
-
+let filter = "cities";
 
 function initTextSearch() {
   
@@ -268,14 +245,9 @@ function initMap() {
   });
 
   map.once("load", () => {
-    // Add 3 sources
+    // Add sources
     addSource("cities","./cities.json");
-    addSource("community","./community.json");
-    addSource("iHubs","../ihubs/iHubs.json");
-    addSource("members","../organisations/organisations.json");
-
-    addLayer("community")
-
+    addLayer("cities")
   });
 }
 
@@ -291,5 +263,4 @@ const map = new maplibregl.Map({
     [179.54543205831558, 83.70561326982735 ],
   ]);
 initMap();
-initRadio();
 initTextSearch();
