@@ -23,6 +23,7 @@ jobs:
         fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
     - name: Create local changes
       run: |
+        cp -R main/showcase staging
         cp -R main/marketplace staging
         cp -R main/directories staging
     - name: Commit files

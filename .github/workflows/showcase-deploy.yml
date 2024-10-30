@@ -1,4 +1,4 @@
-name: Publish PRODUCTS to LIVE fiware.org/marketplace
+name: Publish PRODUCTS to LIVE fiware.org/showcase
 
 on:
   workflow_dispatch:
@@ -18,4 +18,4 @@ jobs:
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.SSH_KEY }}
           target: ${{ secrets.SSH_DIR }}
-          source: "marketplace/**"
+          source: "marketplace/**,showcase/**"
