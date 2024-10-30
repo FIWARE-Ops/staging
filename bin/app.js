@@ -12,7 +12,7 @@ const Sponsors = require('./directories/sponsors/parser');
 const ResearchDevelopment = require('./directories/research-development/parser');
 const Webinars = require('./directories/webinars/parser');
 const People = require('./people/parser');
-const Marketplace = require('./marketplace/parser');
+const Marketplace = require('./showcase/parser');
 
 const fs = require('fs-extra');
 const Loader = require('./downloader');

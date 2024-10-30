@@ -13,7 +13,6 @@
   "scripts": {
     "lint": "eslint ./bin --cache --fix",
     "start": "node ./bin/app",
-    "pretty-market": "prettier --single-quote --write marketplace/**/*.js  && prettier --parser html --write marketplace/**/*.html",
     "prettier": "prettier --single-quote --write **/**/*.js  **/*.js && prettier --parser html --write **/**/*.html  **/*.html",
     "people": "PROCESS=people PAGE=team npm start",
     "agenda": "PROCESS=agenda PAGE=speakers npm start",
@@ -35,12 +34,13 @@
     "organisations": "PROCESS=organisations npm start",
     "msc": "PROCESS=people PAGE=msc npm start",
     "research-development": "PROCESS=research-development npm start",
+    "showcase": "PROCESS=products npm start",
     "speakers": "PROCESS=people PAGE=speakers npm start",
     "sponsors": "PROCESS=sponsors npm start",
     "team": "PROCESS=people PAGE=team npm start npm run",
     "tsc": "PROCESS=people PAGE=tsc npm start",
     "webinars": "PROCESS=webinars npm start",
-    "marketplace": "PROCESS=products npm start && npm run pretty-market",
+    "marketplace": "PROCESS=products npm start",
     "postinstall": "PROCESS=postinstall npm start"
   },
   "dependencies": {
