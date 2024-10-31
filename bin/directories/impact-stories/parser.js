@@ -68,6 +68,12 @@ function extractStories(input) {
     };
 }
 
+function extractRecent(impactStories){
+    const recent = [
+        ...impactStories.slice(0, 7)];
+    return recent;
+}
+
 /**
  * Read in the impactStories file and output
  * HTML and JavaScript files
@@ -80,6 +86,7 @@ function parse(file) {
         })
         .then((data) => {
             const stories = data.stories;
+            const recentStories = extractRecent(stories);
 
             const filterData = {
                 years: Sorter.sortData(stories, 'year'),
@@ -104,11 +111,18 @@ function parse(file) {
                 path.join(TEMPLATE_PATH, 'latest.hbs'),
                 data.featured
             );
+            Template.write(
+                path.join(IMPACT_STORIES_DIR, 'recent.html'),
+                path.join(TEMPLATE_PATH, 'recent.hbs'),
+                recentStories
+            );
 
             Prettier.format(path.join(IMPACT_STORIES_DIR, 'impact.html'), { parser: 'html' });
             Prettier.format(path.join(IMPACT_STORIES_DIR, 'pageData.js'), { parser: 'flow' });
             Prettier.format(path.join(IMPACT_STORIES_DIR, 'filters.html'), { parser: 'html' });
             Prettier.format(path.join(IMPACT_STORIES_DIR, 'latest.html'), { parser: 'html' });
+            Prettier.format(path.join(IMPACT_STORIES_DIR, 'recent.html'), { parser: 'html' });
+
         })
         .catch((e) => {
             console.log(e);

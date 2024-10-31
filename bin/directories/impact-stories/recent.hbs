@@ -1,0 +1,13 @@
+{{#each this}}
+    <div class='item'>
+        <div class='card card-primary card-hover card-body light'>
+            <div>
+                <img decoding="async" class="hero-story" src="{{thumbnail}}">
+            </div>
+            <div class="story-content">
+                <h3 class="card-story-title">{{name}}</h3>
+                <a class="story-details" href="{{website}}" rel="noopener"> Read story <span id="ico-info" class="material-symbols-outlined">navigate_next</span></a>
+            </div>
+        </div>
+    </div>
+{{/each}}
