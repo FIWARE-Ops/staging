@@ -1,3 +1,7 @@
+directories/**/** linguist-vendored
 directories/** linguist-vendored
+marketplace/**/** linguist-vendored
 marketplace/** linguist-vendored
+showcase/**/** linguist-vendored
+showcase/** linguist-vendored
 fonts/** linguist-vendored
