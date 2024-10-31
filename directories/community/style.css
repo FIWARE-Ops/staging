@@ -422,7 +422,7 @@ input[type="radio"]:checked+label[for="citiesCheck"]::after {
 .maplibregl-popup-content .ihub-name {
     font-size: 16px;
     line-height: 1.3em;
-    padding: 0 15px 5px;
+    padding: 0 15px;
 }
 
 .maplibregl-popup-content .org-name {
@@ -431,7 +431,7 @@ input[type="radio"]:checked+label[for="citiesCheck"]::after {
     text-align: left;
     color: #002e67;
     line-height: 1.3em;
-    padding: 0 15px 5px;
+    padding: 0 15px;
 }
 
 .ihub-type {
@@ -569,7 +569,7 @@ input[type="radio"]:checked+label[for="citiesCheck"]::after {
 }
 
 .maplibregl-popup-content .chip-domain {
-    padding: 10px 10px 0;
+    padding: 0 10px;
 }
 
 .chip-domain li {
@@ -722,7 +722,7 @@ input[type="radio"]:checked+label[for="citiesCheck"]::after {
 
 .maplibregl-popup-content .icons {
     padding: 10px 15px 0;
-    margin-top: 12px;
+    margin-top: 0;
 }
 
 .icon::before {
