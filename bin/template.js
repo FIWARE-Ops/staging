@@ -38,6 +38,9 @@ function getSearchKeys(filename){
     return searchObj;
 }
 function concatGeoJSON(filename, file1, file2, file3) {
+    fs.rmSync(filename, {
+        force: true,
+    });
     const geoJSON1 = JSON.parse(
         fs.readFileSync(file1, { encoding: 'utf8', flag: 'r' }
     ));
@@ -52,9 +55,6 @@ function concatGeoJSON(filename, file1, file2, file3) {
     geoJSON1.features = geoJSON1.features.concat(geoJSON3.features); 
     const output = JSON.stringify(geoJSON1);
 
-    fs.rmSync(filename, {
-        force: true,
-    });
     fs.ensureFileSync(filename);
     fs.writeFileSync(filename, output);
 }
