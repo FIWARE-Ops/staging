@@ -21,7 +21,7 @@
 }
 
 a:focus {
-    outline: none!important;
+    outline: none !important;
 }
 
 .cover-image img {
@@ -33,6 +33,12 @@ a:focus {
 .maplibregl-popup {
     min-width: 30ch !important;
     max-width: 280px !important;
+}
+
+.popup-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .maplibregl-popup-close-button {
@@ -100,17 +106,17 @@ input[type="checkbox"]:checked+label::after {
 }
 
 input[type="radio"]:checked+label[for="iHubsCheck"]::after {
-    background-color: #5dc0cf!important;
+    background-color: #5dc0cf !important;
     border: none;
 }
 
 input[type="radio"]:checked+label[for="orgsCheck"]::after {
-    background-color: #002E67!important;
+    background-color: #002E67 !important;
     border: none;
 }
 
 input[type="radio"]:checked+label[for="citiesCheck"]::after {
-    background-color: #5073ad!important;
+    background-color: #5073ad !important;
     border: none;
 }
 
@@ -122,7 +128,7 @@ input[type="radio"]:checked+label[for="citiesCheck"]::after {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: rgba(255,255,255,.9);
+    background-color: rgba(255, 255, 255, .9);
     padding: 3px 12px 3px 6px;
     border-radius: 15px;
     font-size: 12px;
@@ -138,14 +144,17 @@ input[type="radio"]:checked+label[for="citiesCheck"]::after {
 }
 
 .map-overlay-inner input[type="search"] {
-    background-image: none;
+    background-image: url(https://www.fiware.org/custom/icons/blue/search.svg);
+    background-position: 3%;
+    background-size: 6%;
+    background-repeat: no-repeat;
     background-color: rgba(255, 255, 255, .8);
     border-radius: 4px;
     border: none;
     cursor: pointer;
     font-weight: 500;
     line-height: 1.3em;
-    padding: 8px 12px 7px !important;
+    padding: 8px 12px 7px 40px !important;
     font-size: 15px !important;
 }
 
@@ -356,7 +365,7 @@ input[type="radio"]:checked+label[for="citiesCheck"]::after {
 }
 
 .maplibregl-popup-content .label-location {
-    padding: 10px 15px;
+    padding: 0 15px;
 }
 
 .label-location h3,
@@ -393,7 +402,7 @@ input[type="radio"]:checked+label[for="citiesCheck"]::after {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 15px 0 15px;
+    padding: 0 15px 0 15px;
 }
 
 .city-name h3 {
@@ -707,7 +716,7 @@ input[type="radio"]:checked+label[for="citiesCheck"]::after {
 
 .solution-item .icons {
     border: none;
-    padding: 0!important;
+    padding: 0 !important;
     margin: 5px auto 0 !important;
 }
 
@@ -726,124 +735,124 @@ input[type="radio"]:checked+label[for="citiesCheck"]::after {
 }
 
 .filters {
-	font-weight: 400;
-	font-size: 20px;
-	display: inline-block;
-	position: relative;
-	background-color: rgba(255, 255, 255, .9);
-	background-image: url(https://www.fiware.org/custom/icons/blue/filters.svg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 55%;
-	border-radius: 4px;
-	width: 32px;
-	height: 32px;
-	color: #002e67;
-	text-align: center;
-	padding: 2px;
-	transition: all 0.3s ease-in-out;
+    font-weight: 400;
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    background-color: rgba(255, 255, 255, .9);
+    background-image: url(https://www.fiware.org/custom/icons/blue/filters.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 55%;
+    border-radius: 4px;
+    width: 32px;
+    height: 32px;
+    color: #002e67;
+    text-align: center;
+    padding: 2px;
+    transition: all 0.3s ease-in-out;
     cursor: pointer;
 }
 
 .filters:hover {
-	background-color: rgba(255, 255, 255, 1);
-	background-image: url(https://www.fiware.org/custom/icons/blue/filters.svg);
+    background-color: rgba(255, 255, 255, 1);
+    background-image: url(https://www.fiware.org/custom/icons/blue/filters.svg);
 }
 
 .website {
-	font-weight: 400;
-	font-size: 20px;
-	display: inline-block;
-	position: relative;
-	background-color: #ebebeb;
-	background-image: url(https://www.fiware.org/custom/icons/blue/website.svg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 55%;
-	border-radius: 40px;
-	width: 32px;
-	height: 32px;
-	color: #002e67;
-	text-align: center;
-	padding: 2px;
-	transition: all 0.3s ease-in-out;
+    font-weight: 400;
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    background-color: #ebebeb;
+    background-image: url(https://www.fiware.org/custom/icons/blue/website.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 55%;
+    border-radius: 40px;
+    width: 32px;
+    height: 32px;
+    color: #002e67;
+    text-align: center;
+    padding: 2px;
+    transition: all 0.3s ease-in-out;
 }
 
 .website:hover {
-	background-color: #002e67;
-	background-image: url(https://www.fiware.org/custom/icons/white/website.svg);
+    background-color: #002e67;
+    background-image: url(https://www.fiware.org/custom/icons/white/website.svg);
 }
 
 .strategy {
-	font-weight: 400;
-	font-size: 20px;
-	display: inline-block;
-	position: relative;
-	background-color: #ebebeb;
-	background-image: url(https://www.fiware.org/custom/icons/blue/website.svg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 55%;
-	border-radius: 40px;
-	width: 32px;
-	height: 32px;
-	color: #002e67;
-	text-align: center;
-	padding: 2px;
-	transition: all 0.3s ease-in-out;
+    font-weight: 400;
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    background-color: #ebebeb;
+    background-image: url(https://www.fiware.org/custom/icons/blue/website.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 55%;
+    border-radius: 40px;
+    width: 32px;
+    height: 32px;
+    color: #002e67;
+    text-align: center;
+    padding: 2px;
+    transition: all 0.3s ease-in-out;
 }
 
 .strategy:hover {
-	background-color: #002e67;
-	background-image: url(https://www.fiware.org/custom/icons/white/website.svg);
+    background-color: #002e67;
+    background-image: url(https://www.fiware.org/custom/icons/white/website.svg);
 }
 
 .impactstory {
-	font-weight: 400;
-	font-size: 20px;
-	display: inline-block;
-	position: relative;
-	background-color: #ebebeb;
-	background-image: url(https://www.fiware.org/custom/icons/blue/impact-story.svg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 45%;
-	border-radius: 40px;
-	width: 32px;
-	height: 32px;
-	color: #002e67;
-	text-align: center;
-	padding: 2px;
-	transition: all 0.3s ease-in-out;
+    font-weight: 400;
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    background-color: #ebebeb;
+    background-image: url(https://www.fiware.org/custom/icons/blue/impact-story.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 45%;
+    border-radius: 40px;
+    width: 32px;
+    height: 32px;
+    color: #002e67;
+    text-align: center;
+    padding: 2px;
+    transition: all 0.3s ease-in-out;
 }
 
 .impactstory:hover {
-	background-color: #002e67;
-	background-image: url(https://www.fiware.org/custom/icons/white/impact-story.svg);
+    background-color: #002e67;
+    background-image: url(https://www.fiware.org/custom/icons/white/impact-story.svg);
 }
 
 .marketplace {
-	font-weight: 400;
-	font-size: 20px;
-	display: inline-block;
-	position: relative;
-	background-color: #ebebeb;
-	background-image: url(https://www.fiware.org/custom/icons/blue/marketplace.svg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 50%;
-	border-radius: 40px;
-	width: 32px;
-	height: 32px;
-	color: #002e67;
-	text-align: center;
-	padding: 2px;
-	transition: all 0.3s ease-in-out;
+    font-weight: 400;
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    background-color: #ebebeb;
+    background-image: url(https://www.fiware.org/custom/icons/blue/marketplace.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    border-radius: 40px;
+    width: 32px;
+    height: 32px;
+    color: #002e67;
+    text-align: center;
+    padding: 2px;
+    transition: all 0.3s ease-in-out;
 }
 
 .marketplace:hover {
-	background-color: #002e67;
-	background-image: url(https://www.fiware.org/custom/icons/white/marketplace.svg);
+    background-color: #002e67;
+    background-image: url(https://www.fiware.org/custom/icons/white/marketplace.svg);
 }
 
 .cat-website {
@@ -852,27 +861,27 @@ input[type="radio"]:checked+label[for="citiesCheck"]::after {
 }
 
 .twitter {
-	font-weight: 400;
-	font-size: 20px;
-	display: inline-block;
-	position: relative;
-	background-color: #ebebeb;
-	background-image: url(https://www.fiware.org/custom/icons/blue/twitter.svg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 50%;
-	border-radius: 40px;
-	width: 32px;
-	height: 32px;
-	color: #002e67;
-	text-align: center;
-	padding: 2px;
-	transition: all 0.3s ease-in-out;
+    font-weight: 400;
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    background-color: #ebebeb;
+    background-image: url(https://www.fiware.org/custom/icons/blue/twitter.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    border-radius: 40px;
+    width: 32px;
+    height: 32px;
+    color: #002e67;
+    text-align: center;
+    padding: 2px;
+    transition: all 0.3s ease-in-out;
 }
 
 .twitter:hover {
-	background-color: #002e67;
-	background-image: url(https://www.fiware.org/custom/icons/white/twitter.svg);
+    background-color: #002e67;
+    background-image: url(https://www.fiware.org/custom/icons/white/twitter.svg);
 }
 
 .cat-twitter {
@@ -882,27 +891,27 @@ input[type="radio"]:checked+label[for="citiesCheck"]::after {
 }
 
 .linkedin {
-	font-weight: 400;
-	font-size: 20px;
-	display: inline-block;
-	position: relative;
-	background-color: #ebebeb;
-	background-image: url(https://www.fiware.org/custom/icons/blue/linkedin.svg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 45%;
-	border-radius: 40px;
-	width: 32px;
-	height: 32px;
-	color: #002e67;
-	text-align: center;
-	padding: 2px;
-	transition: all 0.3s ease-in-out;
+    font-weight: 400;
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    background-color: #ebebeb;
+    background-image: url(https://www.fiware.org/custom/icons/blue/linkedin.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 45%;
+    border-radius: 40px;
+    width: 32px;
+    height: 32px;
+    color: #002e67;
+    text-align: center;
+    padding: 2px;
+    transition: all 0.3s ease-in-out;
 }
 
 .linkedin:hover {
-	background-color: #002e67;
-	background-image: url(https://www.fiware.org/custom/icons/white/linkedin.svg);
+    background-color: #002e67;
+    background-image: url(https://www.fiware.org/custom/icons/white/linkedin.svg);
 }
 
 .cat-linkedin {
@@ -1923,6 +1932,7 @@ input[type="checkbox"] {
     position: absolute;
     left: -999em;
 }
+
 input[type="radio"]+label,
 input[type="checkbox"]+label {
     position: relative;
@@ -2592,8 +2602,13 @@ input[type="search"]::placeholder {
     }
 
     .map-overlay-inner input[type="search"] {
-        padding: 12px 12px 9px !important;
+        padding: 12px 12px 9px 40px !important;
         font-size: 16px !important;
+    }
+
+    .map-overlay-inner .resetInput {
+        top: 13px;
+        right: 9px;
     }
 
     .map-overlay-inner label {
