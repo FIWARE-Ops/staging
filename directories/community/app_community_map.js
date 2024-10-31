@@ -283,7 +283,7 @@ const map = new maplibregl.Map({
     container: 'map',
     style: './style.json',
     maxZoom: 20,
-    minZoom: 3,
+    minZoom: 1,
     attributionControl: false,
     dragRotate: false
   }).fitBounds([
