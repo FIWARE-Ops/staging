@@ -1,4 +1,4 @@
-# FIWARE Marketplace Product Generator
+# FIWARE Staging website for data-driven web pages 
 
 <img src="https://www.fiware.org/style/imgs/Marketplace/FIWAREMarketplace_Visual.svg" align="center" />
 
@@ -10,10 +10,10 @@ FIWARE Marketplace Data
 4. To generate files run:
 
 ```console
-npm run marketplace
+npm run showcase
 ```
 
-5. Upload generated `pageData.js` for each category on fiware.org to WP Content > Marketplace > Category folder (e.g. powered-by-fiware)
+5. Upload generated `pageData.js` for each category on fiware.org to WP Content > Showcase > Category folder (e.g. powered-by-fiware)
 6. Upload generated `products.js` onto fiware.org
 
    
@@ -32,7 +32,7 @@ brew install git
 2. Download the tool
 
 ```console
-git clone https://github.com/FIWARE-Ops/fiwaremarketplace.git
+git clone https://github.com/FIWARE-Ops/staging.git
 ```
 
 3. Install Node.js libraries
@@ -45,17 +45,32 @@ npm install
 
 ## Usage
 
-### Update FIWARE Marketplace Products
+### Update FIWARE Showcase Products
 
 ```console
-npm run marketplace
+npm run showcase
 ```
 
-### Update FIWARE Global Summit Speakers
+### Update FIWARE Global Summit
+
+- FIWARE Global Summit Agenda
+
+```console
+npm run agenda
+```
+
+- FIWARE Global Summit Speakers
 
 ```console
 npm run speakers
 ```
+
+- FIWARE Global Summit Sponsors
+
+```console
+npm run sponsors
+```
+
 
 ### Update People listings on fiware.org
 
