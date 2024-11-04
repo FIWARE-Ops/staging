@@ -192,6 +192,23 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Contrasec",
+				"html": [
+					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/contrasec.png'/></div>",
+					"<div class='org-name'>Contrasec</div>",
+					"<div class='membership-type'>Gold</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://contrasec.fi/' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[23.7582872,61.5015345]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
 				"name": "Digitanimal",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/digitanimal.png'/></div>",
@@ -730,23 +747,6 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[-0.9380377,48.0374435]
-			}
-		},
-		{
-			"type":"Feature",
-			"properties":{
-				"type": "Organization",
-				"name": "Profirator",
-				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/profirator.png'/></div>",
-					"<div class='org-name'>Profirator</div>",
-					"<div class='membership-type'>Gold</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://profirator.fi/' rel='noopener'><span class='icon website'></span></div>"
-				]
-			},
-			"geometry":{
-				"type":"Point",
-				"coordinates":[23.7582881,61.5014287]
 			}
 		},
 		{
