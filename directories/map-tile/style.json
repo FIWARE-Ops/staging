@@ -69,12 +69,11 @@
       "type": "fill",
       "source": "openmaptiles",
       "source-layer": "landcover",
-      "minzoom": 12,
+      "minzoom": 10,
       "filter": ["all", ["==", "$type", "Polygon"], ["==", "class", "wood"]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(53, 84, 165, .6)",
-        "fill-opacity": {"base": 1, "stops": [[8, 0], [12, 1]]}
+        "fill-color": "rgba(53, 84, 165, .4)"
       }
     },
     {
@@ -164,7 +163,7 @@
       "layout": {"visibility": "visible"},
       "paint": {
         "fill-antialias": true,
-        "fill-color": "rgba(53, 84, 165, .5)",
+        "fill-color": "rgba(53, 84, 165, .7)",
         "fill-outline-color": "rgba(32, 98, 199, 0)"
       }
     },
