@@ -17,15 +17,7 @@
     "openmaptiles": {
       "type": "vector",
       "url": "https://api.maptiler.com/tiles/v3-openmaptiles/tiles.json?key=kmv5Wc7wNv1zSO1j0YFg"
-    },
-		"TerrainSource": {
-			"type": "raster-dem",
-			"url": "https://api.maptiler.com/tiles/terrain-rgb-v2/tiles.json?key=Z47DzG5ZVry0NpEHMpZS"
-		},
-		"HillshadeSource": {
-			"type": "raster-dem",
-			"url": "https://api.maptiler.com/tiles/terrain-rgb-v2/tiles.json?key=Z47DzG5ZVry0NpEHMpZS"
-		}
+    }
   },
   "sprite": "https://openmaptiles.github.io/maptiler-toner-gl-style/sprite",
   "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=kmv5Wc7wNv1zSO1j0YFg",
@@ -36,19 +28,6 @@
       "minzoom": 0,
       "maxzoom": 20,
       "paint": {"background-color": "rgba(25,65,155,1.0)"}
-    },
-    {
-    "id": "hillshading",
-    "source": "HillshadeSource",
-    "type": "hillshade",
-    "layout": {"visibility": "none"},
-    "paint": {
-      "hillshade-illumination-direction": 0,
-      "hillshade-exaggeration": 1,
-      "hillshade-highlight-color": "rgba(25,65,155,1.0)",
-      "hillshade-shadow-color": "rgba(0, 46, 103, 1)",
-      "hillshade-accent-color": "rgba(0, 46, 103, 1)"
-    }
     },
     {
       "id": "water",
@@ -485,7 +464,7 @@
       "source": "openmaptiles",
       "source-layer": "place",
       "minzoom": 4,
-      "maxzoom": 8,
+      "maxzoom": 6,
       "filter": [
         "all",
         ["==", "$type", "Point"],
@@ -515,7 +494,7 @@
       "source": "openmaptiles",
       "source-layer": "place",
       "minzoom": 4,
-      "maxzoom": 8,
+      "maxzoom": 6,
       "filter": [
         "all",
         ["==", "$type", "Point"],
@@ -543,7 +522,7 @@
       "source": "openmaptiles",
       "source-layer": "place",
       "minzoom": 2,
-      "maxzoom": 8,
+      "maxzoom": 6,
       "filter": [
         "all",
         ["==", "$type", "Point"],
