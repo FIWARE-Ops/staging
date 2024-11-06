@@ -27,6 +27,10 @@
 
 /* Map */
 
+.maplibregl-canvas {
+    border-radius: 4px;
+}
+
 .maplibregl-popup {
     min-width: 30ch !important;
     max-width: 280px !important;
