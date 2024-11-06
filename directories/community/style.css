@@ -128,6 +128,12 @@ input[type="radio"]:checked+label[for="citiesCheck"]::after {
     margin: 2px;
 }
 
+.map-overlay-inner {
+    top: 14px;
+    left: 55px;
+    position: absolute;
+}
+
 .map-overlay-inner label {
     display: flex;
     flex-direction: row;
@@ -2104,12 +2110,6 @@ input[type="search"]::placeholder {
     border-top: none;
     margin-top: 0px;
     padding: 0;
-}
-
-.map-overlay-inner {
-    top: 14px;
-    left: 55px;
-    position: absolute;
 }
 
 
