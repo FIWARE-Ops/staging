@@ -2451,6 +2451,17 @@ input[type="search"]::placeholder {
         margin-right: 0px;
     }
 
+    /* Map */
+
+    .map-overlay {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        top: auto;
+        bottom: 0;
+        padding: 0 0 10px 10px;
+    }
+
     .map-overlay-inner {
         top: inherit;
         bottom: 55px;
@@ -2463,7 +2474,7 @@ input[type="search"]::placeholder {
     } */
 
     .search-sort-container .search-element {
-        width: 100%;
+        width: calc(100vw - 20px);
     }
 
     .map-overlay-inner input[type="search"] {
