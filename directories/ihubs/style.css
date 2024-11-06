@@ -28,7 +28,7 @@
 /* Map */
 
 .maplibregl-canvas {
-    border-radius: 4px;
+    border-radius: 4px !important;
 }
 
 .maplibregl-popup {
