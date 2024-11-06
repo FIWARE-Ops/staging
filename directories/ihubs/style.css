@@ -114,7 +114,7 @@ details summary::-webkit-details-marker {
     cursor: pointer;
     font-weight: 500;
     line-height: 1.3em;
-    padding: 8px 12px 7px 40px !important;
+    padding: 9px 12px 7px 40px !important;
     font-size: 15px !important;
 }
 
@@ -1787,6 +1787,7 @@ input[type="checkbox"]:checked+label::after {
 }
 
 #searchInput {
+    margin: 0;
     padding: 5px;
     max-width: unset !important;
     width: -moz-available;
