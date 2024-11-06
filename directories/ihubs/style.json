@@ -1,6 +1,6 @@
- {
+{
   "version": 8,
-  "name": "Toner",
+  "name": "FIWARE",
   "metadata": {
     "mapbox:autocomposite": false,
     "mapbox:type": "template",
@@ -17,7 +17,15 @@
     "openmaptiles": {
       "type": "vector",
       "url": "https://api.maptiler.com/tiles/v3-openmaptiles/tiles.json?key=kmv5Wc7wNv1zSO1j0YFg"
-    }
+    },
+		"TerrainSource": {
+			"type": "raster-dem",
+			"url": "https://api.maptiler.com/tiles/terrain-rgb-v2/tiles.json?key=Z47DzG5ZVry0NpEHMpZS"
+		},
+		"HillshadeSource": {
+			"type": "raster-dem",
+			"url": "https://api.maptiler.com/tiles/terrain-rgb-v2/tiles.json?key=Z47DzG5ZVry0NpEHMpZS"
+		}
   },
   "sprite": "https://openmaptiles.github.io/maptiler-toner-gl-style/sprite",
   "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=kmv5Wc7wNv1zSO1j0YFg",
@@ -28,6 +36,19 @@
       "minzoom": 0,
       "maxzoom": 20,
       "paint": {"background-color": "rgba(25,65,155,1.0)"}
+    },
+    {
+    "id": "hillshading",
+    "source": "HillshadeSource",
+    "type": "hillshade",
+    "layout": {"visibility": "visible"},
+    "paint": {
+      "hillshade-illumination-direction": 0,
+      "hillshade-exaggeration": 1,
+      "hillshade-highlight-color": "rgba(25,65,155,1.0)",
+      "hillshade-shadow-color": "rgba(0, 46, 103, 1)",
+      "hillshade-accent-color": "rgba(0, 46, 103, 1)"
+    }
     },
     {
       "id": "water",
@@ -44,12 +65,51 @@
       "paint": {"fill-antialias": true, "fill-color": "rgba(0, 46, 103, 1)"}
     },
     {
+      "id": "landuse_residential",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "landuse",
+      "maxzoom": 16,
+      "filter": [
+        "all",
+        ["==", "$type", "Polygon"],
+        ["==", "class", "residential"]
+      ],
+      "layout": {"visibility": "none"},
+      "paint": {
+        "fill-color": "rgba(49, 94, 214, 1)",
+        "fill-opacity": {"base": 0, "stops": [[7, 0], [10, 0.6]]}
+      }
+    },
+    {
+      "id": "landcover_wood",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "landcover",
+      "maxzoom": 16,
+      "filter": ["all", ["==", "$type", "Polygon"], ["==", "class", "wood"]],
+      "layout": {"visibility": "none"},
+      "paint": {
+        "fill-color": "rgba(35, 74, 176, 1)",
+        "fill-opacity": {"base": 0, "stops": [[5, 0.5], [10, 1]]}
+      }
+    },
+    {
+      "id": "waterway",
+      "type": "line",
+      "source": "openmaptiles",
+      "source-layer": "waterway",
+      "filter": ["==", "$type", "LineString"],
+      "layout": {"visibility": "visible"},
+      "paint": {"line-color": "rgba(0, 46, 103, 1)"}
+    },
+    {
       "id": "boundary_state",
       "type": "line",
       "metadata": {"mapbox:group": "a14c9607bc7954ba1df7205bf660433f"},
       "source": "openmaptiles",
       "source-layer": "boundary",
-      "minzoom": 3,
+      "minzoom": 5,
       "maxzoom": 14,
       "filter": ["all", ["==", "admin_level", 4]],
       "layout": {
@@ -59,7 +119,7 @@
       },
       "paint": {
         "line-color": {
-          "stops": [[5, "rgba(80, 80, 80, 1)"], [6, "rgba(0, 46, 103, 1)"]]
+          "stops": [[5, "rgba(0, 46, 103, 1)"], [6, "rgba(0, 46, 103, 1)"]]
         },
         "line-dasharray": {"stops": [[5, [1, 1]], [6, [1, 2]]]},
         "line-opacity": 1,
@@ -89,7 +149,66 @@
         "line-opacity": 1,
         "line-width": {"base": 1.1, "stops": [[2, 1], [22, 20]]}
       }
+    },
+    {
+      "id": "place_country_major",
+      "type": "symbol",
+      "metadata": {"mapbox:group": "101da9f13b64a08fa4b6ac1168e89e5f"},
+      "source": "openmaptiles",
+      "source-layer": "place",
+      "minzoom": 4,
+      "maxzoom": 8,
+      "filter": [
+        "all",
+        ["==", "$type", "Point"],
+        ["<=", "rank", 1],
+        ["==", "class", "country"],
+        ["has", "iso_a2"]
+      ],
+      "layout": {
+        "text-anchor": "center",
+        "text-field": "{name:en}",
+        "text-font": ["Metropolis Regular", "Noto Sans Regular"],
+        "text-size": {"base": 1.4, "stops": [[0, 0], [4, 10], [6, 12]]},
+        "text-transform": "uppercase",
+        "visibility": "visible"
+      },
+      "paint": {
+        "text-color": "rgba(0, 27, 61, 1)",
+        "text-halo-color": "rgba(0, 27, 61, 1)",
+        "text-halo-width": 0.2,
+        "icon-color": "rgba(0, 27, 61, 1)"
+      }
+    },
+    {
+      "id": "place_country_minor",
+      "type": "symbol",
+      "metadata": {"mapbox:group": "101da9f13b64a08fa4b6ac1168e89e5f"},
+      "source": "openmaptiles",
+      "source-layer": "place",
+      "minzoom": 4,
+      "maxzoom": 8,
+      "filter": [
+        "all",
+        ["==", "$type", "Point"],
+        ["==", "class", "country"],
+        [">=", "rank", 2],
+        ["has", "iso_a2"]
+      ],
+      "layout": {
+        "text-field": "{name:en}",
+        "text-font": ["Metropolis Regular", "Noto Sans Regular"],
+        "text-size": {"base": 1, "stops": [[0, 0], [4, 10], [6, 12]]},
+        "text-transform": "uppercase",
+        "visibility": "visible"
+      },
+      "paint": {
+        "text-color": "rgba(0, 27, 61, 1)",
+        "text-halo-color": "rgba(0, 27, 61, 1)",
+        "text-halo-width": 0.2
+      }
     }
   ],
+
   "id": "c4268e48-fac9-4478-8120-201224fbd4d8"
 }
