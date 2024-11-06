@@ -54,6 +54,36 @@ var types = [
 
  var modalData = [
     { 
+        name: "Decentralized IAM based on Verifiable Credentials and ODRL", 
+        img: "https://www.fiware.org/wp-content/uploads/fw-dataspaces-series.png",
+        type: "Security", 
+        badge: "<img src='https://www.fiware.org/custom/brand-guide/img/badges/catalogue/04/svg/security.svg'/>",
+        chapter: "context-data", 
+        difficulty: 3,
+        video: "https://www.youtube.com/watch?v=zz7MHd3imzs",
+        content: "&lt;p&gt;In this session, you will discover how to securely store and use your digital identity while maintaining full control of your data, thanks to Decentralised Identity. You will also see advanced mechanisms to protect data access and the FIWARE international standards that facilitate data space aggregation and promote a new data economy.&lt;/p&gt; &lt;p&gt;A deep dive into the FIWARE components implementing standards for Identity Management based on Verifiable Credentials, as well as FIWARE components implementing Authorization Management based on the enforcement of policies specified in ODRL&lt;/p&gt;",  
+        domain: "Developers",  
+        technology: "Data Spaces",
+        length: 80,
+        year: 2024,
+        social: "https://www.fiware.org/webinars/decentralized-iam-based-on-verifiable-credentials-and-odrl.html"
+    },
+    { 
+        name: "FIWARE Vision on Data Spaces", 
+        img: "https://www.fiware.org/wp-content/uploads/fw-dataspaces-series.png",
+        type: "Security", 
+        badge: "<img src='https://www.fiware.org/custom/brand-guide/img/badges/catalogue/04/svg/security.svg'/>",
+        chapter: "context-data", 
+        difficulty: 3,
+        video: "https://www.youtube.com/watch?v=phCPgxzT8t0",
+        content: "&lt;p&gt;The first session of the six-part webinar series on FIWARE Data Space Technologies.  Led by Juanjo Hierro, this session provides an overview of data spaces and shares the FIWARE Vision regarding how data spaces should be run and managed.&lt;/p&gt; &lt;p&gt;Participants will learn about the necessary components and how to onboard to existing ones seamlessly. The basis for this is a series of internationally recognised standards for Decentralised Identity and Access Management based on Verifiable Credentials, a terminology that will be explained in detail. Some data spaces are free, whereas others require payment to access their services.&lt;/p&gt; &lt;p&gt;In this regard a description of the products and offerings based on TM Forum Open APIs is supported by the FIWARE Data Space connector, and the use of this will also be described.&lt;/p&gt;",  
+        domain: "Developers,Business",  
+        technology: "Data Spaces",
+        length: 90,
+        year: 2024,
+        social: "https://www.fiware.org/webinars/fiware-vision-on-data-spaces.html"
+    },
+    { 
         name: "Enhancing Tourism with Smart Technologies: Integrating FIWARE and Large Language Models", 
         img: "https://www.fiware.org/wp-content/uploads/fw-enhancing-tourism.png",
         type: "Processing", 
