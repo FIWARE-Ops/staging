@@ -2495,6 +2495,10 @@ input[type="search"]::placeholder {
         font-size: 15px;
     }
 
+    .maplibregl-canvas {
+        border-radius: 0px !important;
+    }
+
     /* –––––––––––––––– */
 
 
