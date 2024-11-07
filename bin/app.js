@@ -3,6 +3,7 @@ const Careers = require('./directories/careers/parser');
 const Cities = require('./directories/cities/parser');
 const Domains = require('./directories/domains/parser');
 const Enablers = require('./directories/enablers/parser');
+const Events = require('./directories/events/parser');
 const ImpactStories = require('./directories/impact-stories/parser');
 const iHubs = require('./directories/ihubs/parser');
 const Marketing = require('./directories/marketing-toolbox/parser');
@@ -58,6 +59,17 @@ if (PROCESS.startsWith('agenda')) {
         })
         .then(() => {
             return Agenda.parse(Agenda.file, People.file);
+        });
+}
+
+// Create HTML and template files for the webinars
+if (PROCESS.startsWith('events')) {
+    Loader.load('events', Events.file)
+        .then(() => {
+            return Loader.load(PAGE, People.file);
+        })
+        .then(() => {
+            return Events.parse(Events.file, People.file);
         });
 }
 

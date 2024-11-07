@@ -1,0 +1,18 @@
+window.eventData = {
+    {{#each events}}
+        "{{createClass title}}" : {{{json this}}},
+    {{/each}}
+};
+
+window.modalData = {
+{{#each people}}
+    {{#if img}}
+    "{{createClass name}}":
+        { name: "{{title}}{{name}}", img: "{{img}}", position: "{{job}}", company: "{{company}}{{companyType}}", "company-link": "{{website}}",
+        content: "{{bio}}", linkedin: "{{linkedIn}}", twitter: "{{twitter}}", domain: "{{domain}}", location: "{{country}}",
+        flag: "{{flag}}", },
+    {{/if}}
+{{/each}}
+};
+
+document.dispatchEvent(new Event("data-ready"));
