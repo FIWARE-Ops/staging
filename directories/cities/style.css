@@ -2546,6 +2546,10 @@ input[type="search"]::placeholder {
         margin-right: 0px;
     }
 
+    .maplibregl-canvas {
+        border-radius: 0px !important;
+    }
+
     .map-overlay-inner {
         top: inherit;
         bottom: 55px;
