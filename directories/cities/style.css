@@ -2547,6 +2547,7 @@ input[type="search"]::placeholder {
     }
 
     .maplibregl-canvas {
+        height: 600px!important;
         border-radius: 0px !important;
     }
 
