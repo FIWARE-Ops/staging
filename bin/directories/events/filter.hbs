@@ -1,84 +1,31 @@
-<div class="showFilters">
-  <div id="mobileToggleFilters">
-    <div class="ico-filter-container">
-      <span id="ico-filtersbar" class="material-symbols-outlined icon">filter_alt</span>
-      <span id="filter-button-text">Show Filters</span>
+<div>
+    <div class='products-record'>
+        <div class='products-label'>
+            <span id='ico-products' class='material-symbols-outlined'>library_books</span>
+            <span>Stories</span>
+        </div>
+        <span id='filteredCompanies'></span>
     </div>
-    <div class="event-count-container mobile">
-      <div class="icon-label">
-        <span class="material-symbols-outlined icon">mic</span>
-        <label class="event-label">FGS Talks</label>
-      </div>
-      <div class="event-count"></div>
-    </div>
-  </div>
 </div>
-<div class="filters-container">
-  <div class="search-element">
-    <div class="resetInput"></div>
-    <input type="search" id="searchInput" placeholder="Search">
-  </div>
-  <div class="date-picker">
-    <p class="filter-by">
-      September 2024
-    </p>
-    <div class="filters-checkbox">
-      <div id="date" class="filter-element">
-        <input type="checkbox" name="dayOne" id="dayOne">
-        <label for="dayOne">18</label>
-      </div>
-      <div id="date" class="filter-element">
-        <input type="checkbox" name="dayTwo" id="dayTwo">
-        <label for="dayTwo">19</label>
-      </div>
+
+<div class="search-sort-container">
+   
+</div>
+<p class="filter-by">
+    <span id="ico-filter-all" class="material-symbols-outlined">filter_list</span>
+    Filter by
+</p>
+<div class="filters-checkbox">
+    <br>
+</div>
+<div class='dropdown-container'>
+
+    <div class='filter-element'>
+        <label for='filterMonth' class='dropdown-label'>Months</label>
+        <select name='' id='filterMonth'>
+            {{#each months}}
+                <option value='{{@key}}'>{{text}}</option>
+            {{/each}}
+        </select>
     </div>
-  </div>
-  <div class="event-count-container">
-    <div class="icon-label">
-      <span class="material-symbols-outlined icon">mic</span>
-      <label class="event-label">FGS Talks</label>
-    </div>
-    <div class="event-count"></div>
-  </div>
-  <div class="filter-element">
-    <select name="" id="filterTrack">
-      <option value="*">Tracks</option>
-      {{#each tracks}}
-        {{#if (ne this '')}}
-          <option value='{{createClass this}}'>{{this}}</option>
-        {{/if}}
-      {{/each}}
-    </select>
-  </div>
-  <div class="filter-element">
-    <select name="" id="filterSession">
-      <option value="*">Sessions</option>
-      {{#each sessions}}
-        {{#if (ne this '')}}
-          <option value='{{createClass this}}'>{{this}}</option>
-        {{/if}}
-      {{/each}}
-    </select>
-  </div>
-  <!-- <div class="filter-element">
-    <select name="" id="filterPrefix">
-      <option value="*">Types</option>
-      {{#each prefixes}}
-        {{#if (ne this '')}}
-          <option value='{{createClass this}}'>{{this}}</option>
-        {{/if}}
-      {{/each}}
-    </select>
-  </div> -->
-  <div class="filter-element">
-    <!-- <label class="dropdown-label">Technology</label> -->
-    <select name="" id="filterSpeaker">
-      <option value="*">Speakers</option>
-      {{#each speakers}}
-        {{#if (ne this '')}}
-          <option value='{{createClass this}}'>{{this}}</option>
-        {{/if}}
-      {{/each}}
-    </select>
-  </div>
 </div>

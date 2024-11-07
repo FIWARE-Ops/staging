@@ -18,6 +18,49 @@ function getExcerpt(item) {
     const next = text.indexOf('.', 40);
     return text.substring(0, next + 1);
 }
+
+function formatYearMonth(data) {
+    const date = new Date(data);
+    return date.toISOString().split('T')[0].replaceAll("-","").substring(0,6);
+}
+function getEventsByMonth(events){
+    const eventsByMonth = {};
+    events.forEach((event) =>{
+        const date = new Date(event.startDate);
+        const yearMonth  = date.toISOString().split('T')[0].replaceAll("-","").substring(0,6);
+
+        if (!eventsByMonth[yearMonth]){
+            eventsByMonth[yearMonth] = {
+                text: `${date.toLocaleString('en-GB', { month: 'long' ,year: 'numeric'})}`,
+                events: []
+            }
+        }
+        event.yearMonth = yearMonth;
+        eventsByMonth[yearMonth].events.push(event)
+    });
+    return eventsByMonth;
+}
+
+function getSixMonths(){
+    const months = {};
+   let thisYear = new Date().getFullYear();
+   
+    for (year = thisYear-1; year < thisYear + 2; year++) { 
+        for (var month = 0; month < 12; month++) {
+            const date =  new Date(year, month, 1);
+            const yearMonth  = date.toISOString().split('T')[0].replaceAll("-","").substring(0,6);
+
+            months[yearMonth] = {
+                text: `${date.toLocaleString('en-GB', { month: 'long' ,year: 'numeric'})}`
+            };
+        }
+    }
+
+   
+
+   return months
+}
+
 /**
  * Take the human readable column names from the spreadsheet and create a
  * data object of each project for later use
@@ -133,6 +176,7 @@ function parse(eventsFile, speakersFile) {
                     return extractAgenda(input, allSpeakers, activeSpeakers, eventDates);
                 })
                 .then((events) => {
+                    const eventsByMonth = getEventsByMonth(events);
                     const people = _.uniq(activeSpeakers);
                     const collator = new Intl.Collator("en", { sensitivity: "base" });
                     const speakerNames =
@@ -152,29 +196,21 @@ function parse(eventsFile, speakersFile) {
 
                     Template.clean(path.join(EVENTS_DIR));
 
-                    Template.write(path.join(EVENTS_DIR, 'events.html'), path.join(TEMPLATE_PATH, 'card.hbs'), events);
-                    Template.write(
-                        path.join(EVENTS_DIR, 'pageData.js'),
-                        path.join(TEMPLATE_PATH, 'modal.hbs'),
-                        filterData
+                    Template.write(path.join(EVENTS_DIR, 'events.html'),
+                     path.join(TEMPLATE_PATH, 'card.hbs'), 
+                        {months: eventsByMonth}
+                    );
+
+                     Template.write(
+                        path.join(EVENTS_DIR, 'filters.html'),
+                        path.join(TEMPLATE_PATH, 'filter.hbs'),
+                        {months: getSixMonths(eventsByMonth)}
                     );
 
                     Template.write(
                         path.join(EVENTS_DIR, 'event-details/pageData.js'),
                         path.join(TEMPLATE_PATH, 'details.hbs'),
                         filterData
-                    );
-
-                    Template.write(
-                        path.join(EVENTS_DIR, 'sitemap.html'),
-                        path.join(TEMPLATE_PATH, 'sitemap-html.hbs'),
-                        events
-                    );
-
-                    Template.write(
-                        path.join(EVENTS_DIR, 'sitemap.xml'),
-                        path.join(TEMPLATE_PATH, 'sitemap-xml.hbs'),
-                        events
                     );
                    
                     Prettier.format(path.join(EVENTS_DIR, 'events.html'), { parser: 'html' });

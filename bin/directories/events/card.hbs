@@ -1,33 +1,39 @@
-{{#each this}}
+{{{months}}}
 
+{{#each months}}
+  <div class='grid-item {{createClass title}} {{@key}}'>
+    <h3>{{text}}</h3>
+  </div>
+  {{#each events}}
 
-<div class='grid-item {{createClass title}}'>
-    <div class="gridElementTextContainer">
-      <a href="./event-details?id={{createClass title}}">
-        <p class="panel-title">{{title}}</p> 
-        <span class="excerpt">{{session}}</span>
-        <img href="{{img}}"/>
-        <div>{{excerpt}}</div>
-        <div class="panel-info">
-          <div class="date-time">
-            <h3 class="date">{{shortDateStart}}</h3>
+  <div class='grid-item {{createClass title}} {{yearMonth}}'>
+      <div class="gridElementTextContainer">
+        <a href="./event-details?id={{createClass title}}">
+          <p class="panel-title">{{title}}</p> 
+          <span class="excerpt">{{session}}</span>
+          <img href="{{img}}"/>
+          <div>{{excerpt}}</div>
+          <div class="panel-info">
+            <div class="date-time">
+              <h3 class="date">{{shortDateStart}}</h3>
+              <span class="separator-dot"></span>
+              <span class="time">{{start}} – {{end}}</span>
+            </div>
+            {{#if (ne venueName '')}}
             <span class="separator-dot"></span>
-            <span class="time">{{start}} – {{end}}</span>
+            <span class="place">{{venueName}}</span>
+            <span class="place">{{venueAddress}}</span>
+            {{/if}}
           </div>
-          {{#if (ne venueName '')}}
-          <span class="separator-dot"></span>
-          <span class="place">{{venueName}}</span>
-          <span class="place">{{venueAddress}}</span>
-          {{/if}}
-        </div>
-      </a>
-    </div>
-    <div class="foot">
-      <a class="btn-primary" href="./event-details?id={{createClass title}}">
-        <span class="material-symbols-outlined">info</span>
-          See details
-      </a>
+        </a>
+      </div>
+      <div class="foot">
+        <a class="btn-primary" href="./event-details?id={{createClass title}}">
+          <span class="material-symbols-outlined">info</span>
+            See details
+        </a>
+      </div>
     </div>
   </div>
-</div>
+  {{/each}}
 {{/each}}

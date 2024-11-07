@@ -120,6 +120,10 @@ function formatDate(data) {
 function parseDate(data) {
     return Date.parse(data);
 }
+function formatYearMonth(data) {
+    const date = new Date(data);
+    return date.toISOString().split('T')[0].replaceAll("-","");
+}
 
 function appendTexts(data) {
     return _.map(data, function (el) {
@@ -201,6 +205,8 @@ Handlebars.registerHelper('createAnchor', createAnchor);
 Handlebars.registerHelper('appendTexts', appendTexts);
 Handlebars.registerHelper('formatDate', formatDate);
 Handlebars.registerHelper('parseDate', parseDate);
+Handlebars.registerHelper('formatYearMonth', formatYearMonth);
+
 Handlebars.registerHelper('rating', rating);
 Handlebars.registerHelper('json', stringify);
 Handlebars.registerHelper('math', math);
