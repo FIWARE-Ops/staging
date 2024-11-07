@@ -2068,6 +2068,11 @@ input[type="search"]::placeholder {
     padding: 0;
 }
 
+.search-button .cat-website {
+    width: 36px;
+    height: 36px;
+}
+
 
 @media screen and (min-device-width: 481px) and (max-device-width: 980px) {
 
