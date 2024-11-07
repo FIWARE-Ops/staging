@@ -420,5 +420,9 @@
 			<loc>https://www.fiware.org/powered-by-fiware/satec/palatine.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
+		<url>
+			<loc>https://www.fiware.org/powered-by-fiware/skg-tecnologia/smarte-helios.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
 </urlset>
 
