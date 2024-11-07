@@ -104,7 +104,7 @@ var selectors = {
 var filterObj = {};
 
 function initSelect() {
-  msnry = new Isotope(".grid", {
+  /*msnry = new Isotope(".grid", {
     itemSelector: ".grid-item",
     layoutMode: "fitRows",
     masonry: {
@@ -118,7 +118,39 @@ function initSelect() {
       name: true,
       year: true,
     },
-  });
+  });*/
+
+   $("#filterMonth").change(function(){
+    var selectedMonth = this.value;
+    $( ".grid-item" ).each(function( index ) {
+      const month = $(this).data('month');
+
+      if(month >= selectedMonth){
+        $(this).show();
+        //msnry.revealItemElements(this )
+      } else {
+        $(this).hide();
+        //msnry.hideItemElements(this )
+      }
+    });
+
+    });
+
+    const yearMonth  =  new Number(new Date().toISOString().split('T')[0].replaceAll("-","").substring(0,6)- 1);
+    $(`#filterMonth option[value="${yearMonth}"]`).prop('selected', true)
+
+
+    $( ".grid-item" ).each(function( index ) {
+      const month = $(this).data('month');
+
+      if(month >= yearMonth){
+        $(this).show();
+        //msnry.revealItemElements(this )
+      } else {
+        $(this).hide();
+        //msnry.hideItemElements(this )
+      }
+    });
 }
 
 function smoothScroll() {
@@ -183,7 +215,7 @@ document.addEventListener("html-included", () => {
   let target = 7;
   // Isotope istantiation
   // Relies on unpkg.com/imagesloaded
-  $("#app")
+  /*$("#app")
     .imagesLoaded()
     .always(function (instance) {
       msnry.arrange({ sortBy: "original-order" });
@@ -202,5 +234,5 @@ document.addEventListener("html-included", () => {
         target = target + 7;
         msnry.arrange({ sortBy: "original-order" });
       }
-    });
+    });*/
 });
