@@ -1,12 +1,14 @@
 {{{months}}}
 
 {{#each months}}
-  <div class='grid-item {{createClass title}} {{@key}}'>
-    <h3>{{text}}</h3>
+  <div class='grid-item {{createClass title}}' data-month='{{@key}}'>
+    <div class="gridElementTextContainer">
+      <h3>{{text}}</h3>
+    </div>
   </div>
   {{#each events}}
 
-  <div class='grid-item {{createClass title}} {{yearMonth}}'>
+  <div class='grid-item {{createClass title}}' data-month='{{yearMonth}}'>
       <div class="gridElementTextContainer">
         <a href="./event-details?id={{createClass title}}">
           <p class="panel-title">{{title}}</p> 
