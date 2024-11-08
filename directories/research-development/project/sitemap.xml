@@ -125,10 +125,6 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/project/incode.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
 			<loc>https://www.fiware.org/project/interstat.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -154,6 +150,10 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/project/open-dei.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/project/p2code.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
