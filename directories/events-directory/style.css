@@ -20,7 +20,8 @@
     margin-bottom: 32px;
     background: #fff;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 20px;
     align-items: flex-start;
     box-shadow: 0 0 0 0 rgb(0 0 0 / 10%);
     border: 1px solid #f0f0f0;
@@ -37,17 +38,19 @@
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1) !important;
 }
 
+.event-date {
+    width: 10%;
+}
+
 .gridElementTextContainer {
-    width: 100%;
-    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 45%;
 }
 
 .gridElementLogo {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    width: 100%;
-    padding: 40px 40px 30px 40px;
+    width: 45%;
 }
 
 .gutter-sizer {
@@ -187,6 +190,7 @@
     display: flex;
     gap: 1em;
     align-items: center;
+    margin-bottom: 0;
 }
 
 .panel-title.detail {
@@ -270,12 +274,11 @@
 .speakers {
     position: relative;
     width: 100%;
+    overflow: auto;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     align-items: center;
     gap: 10px;
-    white-space: nowrap;
     padding: 0 !important;
     transition: all 0.2s;
 }
