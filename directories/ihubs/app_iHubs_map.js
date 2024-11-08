@@ -247,6 +247,10 @@ function initMap() {
     
   });
 
+  map.on('load', function () {
+    map.resize();
+  });
+
   map.once("load", () => {
     // Add sources
     addSource("ihubs","./iHubs.json");
