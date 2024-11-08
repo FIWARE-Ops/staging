@@ -267,6 +267,10 @@ function initMap() {
     
   });
 
+  map.on('load', function () {
+    map.resize();
+  });
+
   map.once("load", () => {
     // Add 3 sources
     addSource("cities","../cities/cities.json");
