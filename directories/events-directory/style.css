@@ -10,6 +10,7 @@
 
 .et_pb_section_3.et_pb_section {
     background-color: #fff!important;
+    padding-top: 50px;
 }
 
 .et_pb_row_3 {
@@ -61,6 +62,10 @@
 
 .grid-item .moderated {
     /* background: #efefef; */
+}
+
+.grid-item.month-divider {
+    margin-bottom: 50px!important;
 }
 
 /* .grid-item:hover {
@@ -119,8 +124,8 @@
     flex-direction: row;
     align-items: center;
     gap: 10px;
-    margin-top: 10px;
-    padding: 15px 0;
+    margin-top: 0px;
+    padding: 10px 0;
     border-top: 1px solid #c6c6c6;
     border-bottom: 1px solid #c6c6c6;
     user-select: none;
@@ -559,7 +564,7 @@
     position: relative;
     border-radius: 20px;
     overflow: hidden;
-    padding: 5px 8px 6px;
+    padding: 5px 10px 6px;
     margin-right: 8px;
     display: inline-block;
     user-select: none;
@@ -567,6 +572,13 @@
 
 .chip-domain li:last-of-type {
     margin-right: 40px;
+}
+
+.chip-type {
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #002E67;
 }
 
 .speakers-gradient {
@@ -1211,8 +1223,8 @@ input[type="checkbox"]:checked+label::after {
 
 input[type="search"] {
     background-image: url(https://www.fiware.org/custom/icons/blue/search.svg);
-    background-position: 3%;
-    background-size: 4.5%;
+    background-position: 2%;
+    background-size: 4%;
     background-repeat: no-repeat;
     background-color: rgba(255, 255, 255, 0);
     border-radius: 4px;
@@ -1220,7 +1232,7 @@ input[type="search"] {
     cursor: pointer;
     font-weight: 500;
     line-height: 1.3em;
-    padding: 8px 12px 7px 36px !important;
+    padding: 8px 12px 7px 38px !important;
     font-size: 15px !important;
 }
 
