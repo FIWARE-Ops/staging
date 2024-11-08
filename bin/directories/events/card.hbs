@@ -27,13 +27,16 @@
             </ul>
           </div>
           <div class="panel-info">
+            {{#if (eq venueName '')}}
+            <span class="online-event">Online</span>
+            {{/if}}
+            {{#if (ne start '')}}
             <div class="date-time">
               <span class="time">{{start}} – {{end}}</span>
             </div>
+             {{/if}}
             {{#if (ne venueName '')}}
             <span class="place">{{venueName}}</span>
-            {{else}}
-            <span class="online-event">Online</span>
             {{/if}}
           </div>
           <div class="speakers">
