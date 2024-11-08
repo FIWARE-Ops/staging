@@ -7,39 +7,33 @@
   {{#each events}}
 
   <div class='grid-item {{createClass title}}' data-month='{{yearMonth}}'>
-      <div class="gridElementTextContainer">
-        <a href="./event-details?id={{createClass title}}">
-          <p class="panel-title">{{title}}</p> 
+    <div class="gridElementTextContainer">
+      <a href="./event-details?id={{createClass title}}">
+        <p class="panel-title">{{title}}</p> 
+      </a>
+      <div class='chip-domain'>
+        <ul class='chips'>
+          <li>{{category}}</li>
+        </ul>
+      </div>
 
-          <div class='chip-domain'>
-              <ul class='chips'>
-                <li>{{category}}</li>
-              </ul>
-          </div>
-
-           <div class='chip-type'>
-              <ul class='chips'>
-                 <li>{{type}}</li>
-              </ul>
-          </div>
-
-
-          <img class="gridElementLogo" src="{{img}}"/>
-          <div class="excerpt">{{excerpt}}</div>
-          <div class="panel-info">
-            <div class="date-time">
-              <h3 class="date">{{shortDateStart}}</h3>
-              <span class="separator-dot"></span>
-              <span class="time">{{start}} – {{end}}</span>
-            </div>
-            <span class="separator-dot"></span>
-            {{#if (ne venueName '')}}
-            <span class="place">{{venueName}}</span>
-            {{else}}
-            <span class="place">Online</span>
-            {{/if}}
-          </div>
-        </a>
+      <div class='chip-type'>
+        <ul class='chips'>
+          <li>{{type}}</li>
+        </ul>
+      </div>
+      <div class="excerpt">{{excerpt}}</div>
+      <div class="panel-info">
+        <div class="date-time">
+          <h3 class="date">{{shortDateStart}}</h3>
+          <span class="separator-dot"></span>
+          <span class="time">{{start}} – {{end}}</span>
+        </div>
+        {{#if (ne venueName '')}}
+        <span class="place">{{venueName}}</span>
+        {{else}}
+        <span class="online-event">Online</span>
+        {{/if}}
       </div>
       <div class="speakers">
         {{#each speakers}}
@@ -64,10 +58,13 @@
       </div>
       <div class="foot">
         <a class="btn-primary" href="./event-details?id={{createClass title}}">
-          <span class="material-symbols-outlined">info</span>
-            See details
-        </a>
-      </div>
+            <span class="material-symbols-outlined">info</span>
+              See details
+          </a>
+        </div>
+    </div>
+    <div>
+      <img class="gridElementLogo" src="{{img}}"/>
     </div>
   </div>
   {{/each}}
