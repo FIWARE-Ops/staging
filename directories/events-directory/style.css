@@ -20,9 +20,8 @@
     margin-bottom: 32px;
     background: #fff;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 20px;
-    align-items: flex-start;
     box-shadow: 0 0 0 0 rgb(0 0 0 / 10%);
     border: 1px solid #f0f0f0;
     transition: box-shadow 0.4s;
@@ -36,6 +35,13 @@
 
 .grid-item:hover {
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1) !important;
+}
+
+.item-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: flex-start;
 }
 
 .event-date {
@@ -547,7 +553,7 @@
     display: flex;
     justify-content: flex-end;
     width: 100%;
-    padding: 0px 20px 20px 20px;
+    padding: 0px;
 }
 
 .details {
