@@ -100,7 +100,11 @@ var selectedText = "";
 
 function filterFunction (){
   const month = $(this).data('month');
-  if (selectedText !==""){
+  
+  if ($(this).hasClass( "month-divider" ) ){
+    return month >= selectedMonth;
+  }
+  if (selectedText !=="" ){
       return month >= selectedMonth && inputSearch($(this).html(), selectedText); 
   }
   return month >= selectedMonth;
