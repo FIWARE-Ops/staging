@@ -27,7 +27,6 @@
     transition: box-shadow 0.4s;
     border-radius: 4px;
     /* cursor: pointer; */
-    padding: 20px;
 }
 
 .grid-item .moderated {
@@ -522,18 +521,17 @@
 }
 
 .chip-domain li {
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 500;
     line-height: 1em;
     color: #5dc0cf;
     background-color: #e5f5f7;
     position: relative;
-    border-radius: 20px;
+    border-radius: 20px 20px 20px 20px;
     overflow: hidden;
-    padding: 5px 8px 6px;
+    padding: 6px 12px 8px;
     margin-right: 8px;
     display: inline-block;
-    user-select: none;
 }
 
 .chip-domain li:last-of-type {
