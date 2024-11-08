@@ -32,9 +32,11 @@
               <span class="separator-dot"></span>
               <span class="time">{{start}} – {{end}}</span>
             </div>
-            {{#if (ne venueName '')}}
             <span class="separator-dot"></span>
+            {{#if (ne venueName '')}}
             <span class="place">{{venueName}}</span>
+            {{else}}
+            <span class="place">Online</span>
             {{/if}}
           </div>
         </a>
