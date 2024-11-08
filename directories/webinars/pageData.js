@@ -54,6 +54,21 @@ var types = [
 
  var modalData = [
     { 
+        name: "Contract Negotiation in Data Spaces", 
+        img: "https://www.fiware.org/wp-content/uploads/fw-dataspaces-series.png",
+        type: "Security", 
+        badge: "<img src='https://www.fiware.org/custom/brand-guide/img/badges/catalogue/04/svg/security.svg'/>",
+        chapter: "context-data", 
+        difficulty: 3,
+        video: "https://www.youtube.com/watch?v=kkvNQfkVJkg",
+        content: "&lt;p&gt;Within the data economy, much of your data can be considered valuable assets. When selling data and services across a data space, it is necessary to set up contracts between parties to ensure that payment for access can be negotiated easily and that participants can access the data requested once a fee has been paid.&lt;/p&gt; &lt;p&gt;The session presented by Francisco de la Vega will describe the use of the FIWARE BAE Marketplace to facilitate this, and the use of the TMForum Open APIs to set up products and services. Learn how to publish services, resources, and offerings using the TMForum API and acquire and activate services.&lt;/p&gt;",  
+        domain: "Developers",  
+        technology: "Business Ecosystem,Data Spaces",
+        length: 60,
+        year: 2024,
+        social: "https://www.fiware.org/webinars/contract-negotiation-in-data-spaces.html"
+    },
+    { 
         name: "Decentralized IAM based on Verifiable Credentials and ODRL", 
         img: "https://www.fiware.org/wp-content/uploads/fw-dataspaces-series.png",
         type: "Security", 
