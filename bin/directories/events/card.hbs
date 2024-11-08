@@ -6,66 +6,68 @@
   </div>
   {{#each events}}
 
-  <div class='grid-item {{createClass title}}' data-month='{{yearMonth}}'>
-    <div class="event-date">
-      <h3 class="date">{{shortDateStart}}</h3>
-    </div>
-    <div class="gridElementTextContainer">
-      <div class='chip-type'>
-        <ul class='chips'>
-          <li>{{type}}</li>
-        </ul>
-      </div>
-      <a href="./event-details?id={{createClass title}}">
-        <p class="panel-title">{{title}}</p> 
-      </a>
-      <div class='chip-domain'>
-        <ul class='chips'>
-          <li>{{category}}</li>
-        </ul>
-      </div>
-      <div class="excerpt">{{excerpt}}</div>
-      <div class="panel-info">
-        <div class="date-time">
-          <span class="time">{{start}} – {{end}}</span>
+    <div class='grid-item {{createClass title}}' data-month='{{yearMonth}}'>
+      <div class="item-container">
+        <div class="event-date">
+          <h3 class="date">{{shortDateStart}}</h3>
         </div>
-        {{#if (ne venueName '')}}
-        <span class="place">{{venueName}}</span>
-        {{else}}
-        <span class="online-event">Online</span>
-        {{/if}}
-      </div>
-      <div class="speakers">
-        {{#each speakers}}
-        <div class="speaker" {{#if shortJob}}data-modal='{{createClass name}}'{{/if}}>
-          <div class="profile-picture">
-            {{#if img}}
-            <img decoding="async" alt="{{name}}" src="{{img}}" loading="lazy">
+        <div class="gridElementTextContainer">
+          <div class='chip-type'>
+            <ul class='chips'>
+              <li>{{type}}</li>
+            </ul>
+          </div>
+          <a href="./event-details?id={{createClass title}}">
+            <p class="panel-title">{{title}}</p> 
+          </a>
+          <div class="excerpt">{{excerpt}}</div>
+          <div class='chip-domain'>
+            <ul class='chips'>
+              <li>{{category}}</li>
+            </ul>
+          </div>
+          <div class="panel-info">
+            <div class="date-time">
+              <span class="time">{{start}} – {{end}}</span>
+            </div>
+            {{#if (ne venueName '')}}
+            <span class="place">{{venueName}}</span>
             {{else}}
-            <img decoding="async" alt="" src="https://www.fiware.org/wp-content/directories/people/images/ico_user.png" loading="lazy">    
+            <span class="online-event">Online</span>
             {{/if}}
           </div>
-          <div class="speaker-info">
-            <div class="speaker-name">{{name}}</div>
-            <div class="speaker-job-title">{{shortJob}}</div>
-            <div class="speaker-company">{{{multiline company}}}</div>
-            <div class="btn-icon">
-              <span class="material-symbols-outlined icon cta small">trending_flat</span>
+          <div class="speakers">
+            {{#each speakers}}
+            <div class="speaker" {{#if shortJob}}data-modal='{{createClass name}}'{{/if}}>
+              <div class="profile-picture">
+                {{#if img}}
+                <img decoding="async" alt="{{name}}" src="{{img}}" loading="lazy">
+                {{else}}
+                <img decoding="async" alt="" src="https://www.fiware.org/wp-content/directories/people/images/ico_user.png" loading="lazy">    
+                {{/if}}
+              </div>
+              <div class="speaker-info">
+                <div class="speaker-name">{{name}}</div>
+                <div class="speaker-job-title">{{shortJob}}</div>
+                <div class="speaker-company">{{{multiline company}}}</div>
+                <div class="btn-icon">
+                  <span class="material-symbols-outlined icon cta small">trending_flat</span>
+                </div>
+              </div>
             </div>
+            {{/each}}
           </div>
         </div>
-        {{/each}}
+        <div class="gridElementLogo" >
+          <img class="event-image" src="{{img}}"/>
+        </div>
       </div>
       <div class="foot">
         <a class="btn-primary" href="./event-details?id={{createClass title}}">
-            <span class="material-symbols-outlined">info</span>
-              See details
-          </a>
-        </div>
-    </div>
-    <div class="gridElementLogo" >
-      <img class="event-image" src="{{img}}"/>
-    </div>
+          <span class="material-symbols-outlined">info</span>
+            See details
+        </a>
+      </div>
   </div>
   {{/each}}
 {{/each}}
