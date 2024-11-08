@@ -169,7 +169,7 @@ function parse(eventsFile, speakersFile) {
     csv()
         .fromFile(speakersFile)
         .then((input) => {
-            const allSpeakers = People.extract(input);
+            const allSpeakers = People.extract(input, true);
             csv()
                 .fromFile(eventsFile)
                 .then((input) => {

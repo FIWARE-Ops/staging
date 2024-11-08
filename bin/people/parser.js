@@ -17,7 +17,7 @@ const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/people/imag
  * Take the human readable column names from the spreadsheet and create a
  * data object of people for later use
  */
-function extractPeople(input) {
+function extractPeople(input, all = false) {
     const people = [];
     input.forEach((item) => {
         const person = {
@@ -42,7 +42,7 @@ function extractPeople(input) {
             publish: Parser.boolean(item.Published)
         };
 
-        if (person.publish) {
+        if (person.publish || all) {
             if (person.title !== '') {
                 person.title = `${person.title} `;
             }
@@ -58,8 +58,9 @@ function extractPeople(input) {
         console.error('ERROR: No people uploaded.');
         process.exit(1);
     }
-    console.log(people.length, ' people generated.');
-
+    if (!all){
+        console.log(people.length, ' people generated.');
+    }
     return people.sort((a, b) => {
         return a.surname.localeCompare(b.surname);
     });
