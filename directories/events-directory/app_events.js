@@ -94,63 +94,32 @@ function scrollToView() {
 var scrollSet = false;
 var init = false;
 var msnry;
-var selectors = {
-  fCompany: true,
-  fRole: true,
-  fDepartment: true,
-  fDomain: true,
-  fCountry: true,
-};
-var filterObj = {};
+var selectedMonth =  new Number(new Date().toISOString().split('T')[0].replaceAll("-","").substring(0,6)- 1);
+
+function filterFunction (){
+  const month = $(this).data('month');
+  return month >= selectedMonth;
+}
 
 function initSelect() {
-  /*msnry = new Isotope(".grid", {
+
+  $("#filterMonth").change(function(){
+       selectedMonth = this.value;
+       msnry.arrange({ sortBy: "original-order" });
+  });
+
+  $(`#filterMonth option[value="${selectedMonth}"]`).prop('selected', true)
+
+  msnry = new Isotope(".grid", {
     itemSelector: ".grid-item",
     layoutMode: "fitRows",
+    filter: filterFunction,
     masonry: {
       columnWidth: ".grid-sizer",
-    },
-    getSortData: {
-      name: ".cat-name",
-      year: ".year",
-    },
-    sortAscending: {
-      name: true,
-      year: true,
-    },
-  });*/
-
-   $("#filterMonth").change(function(){
-    var selectedMonth = this.value;
-    $( ".grid-item" ).each(function( index ) {
-      const month = $(this).data('month');
-
-      if(month >= selectedMonth){
-        $(this).show();
-        //msnry.revealItemElements(this )
-      } else {
-        $(this).hide();
-        //msnry.hideItemElements(this )
-      }
-    });
-
-    });
-
-    const yearMonth  =  new Number(new Date().toISOString().split('T')[0].replaceAll("-","").substring(0,6)- 1);
-    $(`#filterMonth option[value="${yearMonth}"]`).prop('selected', true)
+    }
+  });
 
 
-    $( ".grid-item" ).each(function( index ) {
-      const month = $(this).data('month');
-
-      if(month >= yearMonth){
-        $(this).show();
-        //msnry.revealItemElements(this )
-      } else {
-        $(this).hide();
-        //msnry.hideItemElements(this )
-      }
-    });
 }
 
 function smoothScroll() {
@@ -209,13 +178,13 @@ document.addEventListener("html-included", () => {
   }
   init = true;
   initSelect();
-  filterToggle();
+  //filterToggle();
   initSticky();
   let count = 0;
   let target = 7;
   // Isotope istantiation
   // Relies on unpkg.com/imagesloaded
-  /*$("#app")
+  $("#app")
     .imagesLoaded()
     .always(function (instance) {
       msnry.arrange({ sortBy: "original-order" });
@@ -234,5 +203,5 @@ document.addEventListener("html-included", () => {
         target = target + 7;
         msnry.arrange({ sortBy: "original-order" });
       }
-    });*/
+    });
 });
