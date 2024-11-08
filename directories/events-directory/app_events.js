@@ -95,10 +95,42 @@ var scrollSet = false;
 var init = false;
 var msnry;
 var selectedMonth =  new Number(new Date().toISOString().split('T')[0].replaceAll("-","").substring(0,6)- 1);
+var selectedText = "";
+
 
 function filterFunction (){
   const month = $(this).data('month');
+  if (selectedText !==""){
+      return month >= selectedMonth && inputSearch($(this).html(), selectedText); 
+  }
   return month >= selectedMonth;
+}
+
+function inputSearch(itemElem, textString) {
+  var stopwords = /\b(FIWARE|IoT|Smart|Solution|Product|Device)\b/gi;
+  var words = textString.trim().replaceAll(stopwords, "").split(/[ ,]+/);
+  var regex = [];
+  words.forEach(function (currentValue, index) {
+    if (currentValue.trim() != "") {
+      regex.push("(" + currentValue.trim() + ")");
+    }
+  });
+  var qsRegex = new RegExp(regex.join("|"), "gi");
+  return itemElem.match(qsRegex);
+}
+
+
+function initTextSearch(msnry) {
+  // Search input
+  document.querySelector("#searchInput").addEventListener("keyup", (e) => {
+    if (e.target.value != "") {
+      e.target.parentNode.classList.add("resetActive");
+    } else {
+      e.target.parentNode.classList.remove("resetActive");
+    }
+    selectedText = e.target.value;
+    msnry.arrange({ sortBy: "original-order" });
+  });
 }
 
 function initSelect() {
@@ -119,7 +151,7 @@ function initSelect() {
     }
   });
 
-
+  initTextSearch(msnry);
 }
 
 function smoothScroll() {
@@ -178,6 +210,7 @@ document.addEventListener("html-included", () => {
   }
   init = true;
   initSelect();
+
   //filterToggle();
   initSticky();
   let count = 0;
