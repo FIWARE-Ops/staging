@@ -7,6 +7,9 @@
   {{#each events}}
 
   <div class='grid-item {{createClass title}}' data-month='{{yearMonth}}'>
+    <div class="event-date">
+      <h3 class="date">{{shortDateStart}}</h3>
+    </div>
     <div class="gridElementTextContainer">
       <a href="./event-details?id={{createClass title}}">
         <p class="panel-title">{{title}}</p> 
@@ -25,8 +28,6 @@
       <div class="excerpt">{{excerpt}}</div>
       <div class="panel-info">
         <div class="date-time">
-          <h3 class="date">{{shortDateStart}}</h3>
-          <span class="separator-dot"></span>
           <span class="time">{{start}} – {{end}}</span>
         </div>
         {{#if (ne venueName '')}}
