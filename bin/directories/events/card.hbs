@@ -8,7 +8,14 @@
 
     <div class='grid-item {{createClass title}}' data-month='{{yearMonth}}'>
       <div class="event-date">
-        <h3 class="date">{{shortDateStart}}</h3>
+        <h3 class="date">{{formatDay shortDateStart}}</h3>
+        <h3 class="date">{{formatMonth shortDateStart}}</h3>
+        {{#if (eq venueName '')}}
+        <h3 class="city-name">Online</h3>
+        {{else}}
+        <h3 class="city-name">{{city}}</h3>
+        <img alt='{{country}}' class='flag' src='{{flag}}' loading="lazy"/>
+        {{/if}}
       </div>
       <div class="item-container">
         <div class="gridElementTextContainer">
@@ -27,9 +34,6 @@
             </ul>
           </div>
           <div class="panel-info">
-            {{#if (eq venueName '')}}
-            <span class="online-event">Online</span>
-            {{/if}}
             {{#if (ne start '')}}
             <div class="date-time">
               <span class="time">{{start}} – {{end}}</span>

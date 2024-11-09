@@ -186,6 +186,19 @@
     padding: 0 20px;
 }
 
+.city-name h3 {
+    font-weight: 600;
+    text-align: left;
+    color: #002e67;
+    line-height: 1.4em;
+    padding: 0px;
+}
+
+.flag {
+    width: 32px;
+    position: relative;
+}
+
 .location {
     display: flex;
     flex-direction: column;

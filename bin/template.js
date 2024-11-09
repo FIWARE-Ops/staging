@@ -117,6 +117,14 @@ function formatDate(data) {
     return date.toDateString().substring(3);
 }
 
+function formatDay(data) {
+   return data.substring(0, data.indexOf(' '));
+}
+
+function formatMonth(data) {
+    return data.substring(data.indexOf(' ') + 1);
+}
+
 function parseDate(data) {
     return Date.parse(data);
 }
@@ -205,6 +213,8 @@ Handlebars.registerHelper('createAnchor', createAnchor);
 Handlebars.registerHelper('appendTexts', appendTexts);
 Handlebars.registerHelper('formatDate', formatDate);
 Handlebars.registerHelper('parseDate', parseDate);
+Handlebars.registerHelper('formatDay', formatDay);
+Handlebars.registerHelper('formatMonth', formatMonth);
 Handlebars.registerHelper('formatYearMonth', formatYearMonth);
 
 Handlebars.registerHelper('rating', rating);
