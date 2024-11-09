@@ -196,21 +196,11 @@ function initCalendar(){
         },
         events: {
             onEventClick: (e) => {
-                console.log("Clicked me - Tung!");
-                console.log(e)
+                window.location.href = `./event-details?id=${e.id}`;
             }        
-        }
+        },
+        data : window.eventData
     });
-
-    var event1 = {
-      from: new Date(),
-      to: new Date(),
-      title: "New Event 1",
-      description: "A description of the new event"
-    };
-
-    calendarInstance1.addEvent( event1 );
-
 }
 
 
