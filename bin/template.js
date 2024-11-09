@@ -133,6 +133,11 @@ function formatYearMonth(data) {
     return date.toISOString().split('T')[0].replaceAll("-","");
 }
 
+function formatISO(data) {
+    const date = new Date(data);
+    return date.toISOString();
+}
+
 function appendTexts(data) {
     return _.map(data, function (el) {
         return el;
@@ -216,7 +221,7 @@ Handlebars.registerHelper('parseDate', parseDate);
 Handlebars.registerHelper('formatDay', formatDay);
 Handlebars.registerHelper('formatMonth', formatMonth);
 Handlebars.registerHelper('formatYearMonth', formatYearMonth);
-
+Handlebars.registerHelper('formatISO', formatISO);
 Handlebars.registerHelper('rating', rating);
 Handlebars.registerHelper('json', stringify);
 Handlebars.registerHelper('math', math);

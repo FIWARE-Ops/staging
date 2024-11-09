@@ -215,9 +215,16 @@ function parse(eventsFile, speakersFile) {
                         path.join(TEMPLATE_PATH, 'details.hbs'),
                         filterData
                     );
+
+                    Template.write(
+                        path.join(EVENTS_DIR, '/pageData.js'),
+                        path.join(TEMPLATE_PATH, 'modal.hbs'),
+                        filterData
+                    );
                    
                     Prettier.format(path.join(EVENTS_DIR, 'events.html'), { parser: 'html' });
                     Prettier.format(path.join(EVENTS_DIR, 'pageData.js'), { parser: 'flow' });
+                    Prettier.format(path.join(EVENTS_DIR, 'event-details/pageData.js'), { parser: 'flow' });
             
                 })
                 .catch((e) => {

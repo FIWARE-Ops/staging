@@ -1,31 +1,19 @@
-var tracks = [
-{{#each tracks}}
-    {{#if (ne this '')}}
-        '{{this}}',
-    {{/if}}
-{{/each}}
+window.eventData = []
+    {{#each events}}
+    {
+        "id": "{{createClass title}}",
+        "title": "{{title}}",
+        "from": "{{formatISO startTime}}",
+        "to": "{{formatISO endTime}}",
+        "description": "{{excerpt}}",
+        "location": "{{#if (eq venueName '')}}Online{{else}}{{venueName}} {{venueAddress}} {{/if}}",
+        "isAllDay": {{#if (eq start '')}}true{{else}}false{{/if}},
+        "group": "{{type}}",
+        "url": "./event-details?id={{createClass title}}",
+    },
+    {{/each}}
 ];
-var summitDates = [
-{{#each summitDates}}
-    {{#if (ne this '')}}
-        '{{createClass this}}',
-    {{/if}}
-{{/each}}
-];
-var sessions = [
-{{#each sessions}}
-    {{#if (ne this '')}}
-        '{{this}}',
-    {{/if}}
-{{/each}}
-]; 
-var speakers = [
-{{#each speakers}}
-    {{#if (ne this '')}}
-        '{{this}}',
-    {{/if}}
-{{/each}}
-]; 
+
 var modalData = {
 {{#each people}}
     {{#if img}}

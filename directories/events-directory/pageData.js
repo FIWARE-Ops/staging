@@ -1,11 +1,83 @@
-var tracks = [
+window.eventData = []
+    {
+        "id": "gitex-africa-2024",
+        "title": "GITEX Africa 2024",
+        "from": "2024-05-28T22:00:00.000Z",
+        "to": "2024-05-30T22:00:00.000Z",
+        "description": "FIWARE and Atos will be showcasing the joint value proposition that aligns digital innovation with environmental responsibility.",
+        "location": "Place Bab Jdid Bd Al Yarmouk, Marrakesh, 40000 Morocco ",
+        "isAllDay": true,
+        "group": "Conference",
+        "url": "./event-details?id=gitex-africa-2024",
+    },
+    {
+        "id": "dach-netzwerktreffen-at-viennaup",
+        "title": "DACH Netzwerktreffen at ViennaUP",
+        "from": "2024-06-05T08:00:00.000Z",
+        "to": "2024-06-05T10:30:00.000Z",
+        "description": "The FIWARE DACH Networking Event brings together German-speaking FIWARE enthusiasts for high-quality lectures and opportunities.",
+        "location": "Impact Hub Lindengasse 56, 1070 Wien, Austria ",
+        "isAllDay": false,
+        "group": "Networking",
+        "url": "./event-details?id=dach-netzwerktreffen-at-viennaup",
+    },
+    {
+        "id": "advanced-ngsi-ld-registrations---using-ngsi-ld-in-a--system-of-systems--approach",
+        "title": "Advanced NGSI-LD Registrations – Using NGSI-LD in a “System-of-Systems” Approach",
+        "from": "2024-06-07T08:00:00.000Z",
+        "to": "2024-06-07T09:00:00.000Z",
+        "description": "A deep dive into using registrations effectively, and best practice for data spaces and system of systems with NGSI-LD.",
+        "location": "Online",
+        "isAllDay": false,
+        "group": "FIWARE Webinars",
+        "url": "./event-details?id=advanced-ngsi-ld-registrations---using-ngsi-ld-in-a--system-of-systems--approach",
+    },
+    {
+        "id": "cities-climate-action-summit-2024",
+        "title": "Cities Climate Action Summit 2024",
+        "from": "2024-06-26T07:00:00.000Z",
+        "to": "2024-06-27T16:00:00.000Z",
+        "description": "The CCAS24 is the leading event focused on climate action in cities, FIWARE is proud to partner with Smart Cities World.",
+        "location": "County Hall Belvedere Rd, London SE1 7GP, Regno Unito ",
+        "isAllDay": false,
+        "group": "Summit",
+        "url": "./event-details?id=cities-climate-action-summit-2024",
+    },
+    {
+        "id": "smart-city-expo-world-congress-2024",
+        "title": "Smart City Expo World Congress 2024",
+        "from": "2024-11-04T23:00:00.000Z",
+        "to": "2024-11-06T23:00:00.000Z",
+        "description": "As an official Event Partner, we are honoured to be present in Pavilion 3, Stand B11, with the FIWARE Community booth.",
+        "location": "Fira Barcelona Gran Via Av. Joan Carles I, 64, 08908 L&#x27;Hospitalet de Llobregat, Barcelona, Spain ",
+        "isAllDay": true,
+        "group": "Conference",
+        "url": "./event-details?id=smart-city-expo-world-congress-2024",
+    },
+    {
+        "id": "fiware-data-space-technologies-webinar--6--ongoing-and-future-work",
+        "title": "FIWARE Data Space Technologies Webinar #6: Ongoing and Future Work",
+        "from": "2024-11-21T14:30:00.000Z",
+        "to": "2024-11-21T16:00:00.000Z",
+        "description": "Get a sneak peek into the support of data space protocols, the DOME project and, upcoming innovations and ongoing work.",
+        "location": "Online",
+        "isAllDay": false,
+        "group": "FIWARE Webinars",
+        "url": "./event-details?id=fiware-data-space-technologies-webinar--6--ongoing-and-future-work",
+    },
+    {
+        "id": "data-spaces-symposium-2024",
+        "title": "Data Spaces Symposium 2024",
+        "from": "2025-03-11T23:00:00.000Z",
+        "to": "2025-03-13T23:00:00.000Z",
+        "description": "This year’s edition will show market-ready use cases and advanced technology solutions for existing and future data spaces.",
+        "location": "Darmstadtium - Science and Congress Center Schlossgraben 1, 64283 Darmstadt, Germany ",
+        "isAllDay": true,
+        "group": "Symposium",
+        "url": "./event-details?id=data-spaces-symposium-2024",
+    },
 ];
-var summitDates = [
-];
-var sessions = [
-]; 
-var speakers = [
-]; 
+
 var modalData = {
     "francisco-de-la-vega":
         { name: "Francisco de la Vega", img: "https://www.fiware.org/wp-content/directories/people/images/200px/francisco-de-la-vega.jpg", position: "Chief Technology Officer", company: "Ficodes", "company-link": "https://www.ficodes.com/en/",
@@ -14,6 +86,10 @@ var modalData = {
     "juanjo-hierro":
         { name: "Juanjo Hierro", img: "https://www.fiware.org/wp-content/directories/people/images/200px/juanjo-hierro.jpg", position: "Chairman FIWARE TSC", company: "", "company-link": "",
         content: "Juanjo Hierro (m) obtained a degree in Computer Science in 1990 from the Universidad Politecnica de Madrid (UPM) and owns a certificate of research proficiency. In 1990, Juanjo joined Telefónica I+D where he stayed until he joined FIWARE Foundation. During his career at Telefónica, Juanjo had different management responsibilities in the development of mission-critical systems for Telefónica as well as several R&amp;D projects. In April 2011, he became the Chief Architect of the FIWARE programme combining this role with the one of the CTO of the IoT Division at Telefónica R&amp;D since November 2013. Now a days Juanjo is the Chairman of the FIWARE Technical Steering Committee.", linkedin: "https://www.linkedin.com/in/jhierro/", twitter: "https://twitter.com/JuanjoHierro", domain: "", location: "",
+        flag: "", },
+    "stefan-wiedemann":
+        { name: "Stefan Wiedemann", img: "https://www.fiware.org/wp-content/directories/people/images/200px/stefan-wiedemann.jpg", position: "Technical Lead &amp; Architect", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
+        content: "", linkedin: "https://www.linkedin.com/in/stefan-wiedemann-37a0ba13a/", twitter: "", domain: "", location: "",
         flag: "", },
     "clara-pezuela":
         { name: "Clara Pezuela", img: "https://www.fiware.org/wp-content/directories/people/images/200px/clara-pezuela.jpg", position: "Vice President Funded Programs", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
@@ -26,6 +102,10 @@ var modalData = {
     "andrea-battaglia":
         { name: "Andrea Battaglia", img: "https://www.fiware.org/wp-content/directories/people/images/200px/andrea-battaglia.jpg", position: "Chief Executive Officer", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
         content: "With 20 years of expertise in the Global IT industry, Andrea Battaglia (m) is an accomplished thought leader with a proven track record in Digital Transformation, Enterprise IoT, and Ecosystem development. Thanks to his deep knowledge of the enterprise open-source industry&#x27;s business and technical aspects, Andrea brings a wealth of experience to the forefront of FIWARE&#x27;s mission to empower organizations through innovative open-source technologies, Ecosystem collaboration, and customer-centric vision.", linkedin: "https://www.linkedin.com/in/abattagl/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "lukas-künzel":
+        { name: "Lukas Künzel", img: "https://www.fiware.org/wp-content/directories/people/images/200px/lukas-kuenzel.jpg", position: "Chief Technology Officer", company: "ms.GIS", "company-link": "https://www.msgis.com/",
+        content: "Lukas Künzel (m) after studying computer science and geographic information science started at young age as a software developer and had the chance to continuously challenge myself at ms.GIS by getting more responsibility, manage country wide software projects and lead a team of software and data engineers. For the last couple of years I was CTO overseeing all activities related to technology and data. Currently I am leading our management team as an Integrator, following the approach of entrepreneur operating system.", linkedin: "https://www.linkedin.com/in/lukas-k%C3%BCnzel-825033155/", twitter: "", domain: "", location: "",
         flag: "", },
     "michael-prange":
         { name: "Michael Prange", img: "https://www.fiware.org/wp-content/directories/people/images/200px/michael-prange.jpg", position: "Professor", company: "FH Kiel", "company-link": "https://www.fh-kiel.de/startseite/",
