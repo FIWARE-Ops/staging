@@ -11,6 +11,10 @@ div.calendar-tooltip-event {
   background-color: rgb(229, 245, 247)
 }
 
+div.calendar div.full-month-view div.row-cells div.cell div.event:hover {
+    cursor: pointer;
+}
+
 @media screen and (min-width: 451px) {
    div.calendar div.full-month-view div.row-cells div.cell div.event {
       font-size: 1.0rem !important;

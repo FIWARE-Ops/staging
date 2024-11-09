@@ -173,6 +173,12 @@ function initCalendar(){
         fullScreenModeEnabled: false,
         showHolidays: false,
         isWidget: false,
+        searchOptions:{
+          enabled: false
+        },
+        importEventsEnabled: false,
+        configurationDialogEnabled: false,
+        eventTooltipDelay: 0,
         manualEditingEnabled: false,
         views: {
           fullDay: {
