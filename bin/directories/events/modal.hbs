@@ -1,4 +1,4 @@
-window.eventData = []
+window.eventData = [
     {{#each events}}
     {
         "id": "{{createClass title}}",
@@ -9,8 +9,8 @@ window.eventData = []
         "location": "{{#if (eq venueName '')}}Online{{else}}{{venueName}} {{venueAddress}} {{/if}}",
         "isAllDay": {{#if (eq start '')}}true{{else}}false{{/if}},
         "group": "{{type}}",
-        "url": "./event-details?id={{createClass title}}",
-    },
+        "url": "./event-details?id={{createClass title}}"
+    }{{#unless @last}},{{/unless}}
     {{/each}}
 ];
 
@@ -20,7 +20,7 @@ var modalData = {
     "{{createClass name}}":
         { name: "{{title}}{{name}}", img: "{{img}}", position: "{{job}}", company: "{{company}}{{companyType}}", "company-link": "{{website}}",
         content: "{{bio}}", linkedin: "{{linkedIn}}", twitter: "{{twitter}}", domain: "{{domain}}", location: "{{country}}",
-        flag: "{{flag}}", },
+        flag: "{{flag}}"}{{#unless @last}},{{/unless}}
     {{/if}}
 {{/each}}
 };
