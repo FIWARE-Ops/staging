@@ -6,6 +6,11 @@
   --calendar-js-dark-color: rgb(0, 36, 82);
 }
 
+div.calendar-tooltip,
+div.calendar-tooltip-event {
+  background-color: rgb(229, 245, 247)
+}
+
 @media screen and (min-width: 451px) {
    div.calendar div.full-month-view div.row-cells div.cell div.event {
       font-size: 1.0rem !important;
