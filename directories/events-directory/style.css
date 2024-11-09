@@ -935,7 +935,7 @@
 
 /* Toggle Open Close Filters */
 
-#mobileToggleFilters {
+#viewToggle {
     width: fit-content;
     font-size: 13px;
     font-weight: 600;
@@ -951,8 +951,8 @@
     transition: all 0.3s ease-in-out;
 }
 
-#mobileToggleFilters:hover,
-#mobileToggleFilters:focus {
+#viewToggle:hover,
+#viewToggle:focus {
     background: #002452;
     color: #fff;
 }

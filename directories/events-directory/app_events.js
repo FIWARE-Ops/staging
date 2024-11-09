@@ -166,6 +166,55 @@ function initSelect() {
   initTextSearch(msnry);
 }
 
+function initCalendar(){
+  var calendarInstance1 = new calendarJs( "calendar1", { 
+        exportEventsEnabled: true,
+        useAmPmForTimeDisplays: true,
+        fullScreenModeEnabled: false,
+        showHolidays: false,
+        isWidget: false,
+        manualEditingEnabled: false,
+        views: {
+          fullDay: {
+              enabled: false
+          },
+          fullWeek: {
+              enabled: false
+          },
+          fullMonth: {
+             enabled: true
+          },
+          fullYear: {
+              enabled: false
+          },
+          timeline: {
+              enabled: false
+          },
+          allEvents: {
+              enabled: false
+          }
+        },
+        events: {
+            onEventClick: (e) => {
+                console.log("Clicked me - Tung!");
+                console.log(e)
+            }        
+        }
+    });
+
+    var event1 = {
+      from: new Date(),
+      to: new Date(),
+      title: "New Event 1",
+      description: "A description of the new event"
+    };
+
+    calendarInstance1.addEvent( event1 );
+
+}
+
+
+
 function smoothScroll() {
   // Add smooth scrolling to all links
   jQuery("a").on("click", function (event) {
@@ -252,6 +301,24 @@ function initSticky() {
   }
 }
 
+function viewToggle() {
+  let button =  $("#view-button-text");
+  document
+    .querySelector("#viewToggle")
+    .addEventListener("click", (ev) => {
+      const view = button.text();
+      if (view.includes("List View")) {
+        button.text( "Calendar");
+        $("#calendar").show();
+        $("#app").hide();
+      } else {
+        button.text("List View");
+        $("#app").show();
+        $("#calendar").hide();
+      }
+    });
+}
+
 document.addEventListener("html-included", () => {
 
   $("#app").css("visibility", "visible");
@@ -260,10 +327,12 @@ document.addEventListener("html-included", () => {
   }
   init = true;
   initSelect();
+  initCalendar();
   horizontalScroll();
   smoothScroll();
   initModal();
   initSticky();
+  viewToggle();
   let count = 0;
   let target = 7;
   // Isotope istantiation

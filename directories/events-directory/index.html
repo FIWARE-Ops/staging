@@ -351,7 +351,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	font-weight:600!important;
 	}
 	
-</style><link rel="stylesheet" id="et-core-unified-tb-129080-tb-81156-129199-cached-inline-styles" href="https://www.fiware.org/wp-content/et-cache/129199/et-core-unified-tb-129080-tb-81156-129199.min.css?ver=1694008623" /><link rel="stylesheet" id="et-core-unified-129199-cached-inline-styles" href="https://www.fiware.org/wp-content/et-cache/129199/et-core-unified-129199.min.css?ver=1694008623" /></head>
+</style>
+
+
+<link rel="stylesheet" id="et-core-unified-tb-129080-tb-81156-129199-cached-inline-styles" href="https://www.fiware.org/wp-content/et-cache/129199/et-core-unified-tb-129080-tb-81156-129199.min.css?ver=1694008623" /><link rel="stylesheet" id="et-core-unified-129199-cached-inline-styles" href="https://www.fiware.org/wp-content/et-cache/129199/et-core-unified-129199.min.css?ver=1694008623" />
+
+
+
+</head>
 <body class="page-template-default page page-id-129199 page-child parent-pageid-96223 et-tb-has-template et-tb-has-header et-tb-has-footer tribe-no-js et_bloom et_monarch et_pb_button_helper_class et_cover_background et_pb_gutter osx et_pb_gutters3 et_pb_pagebuilder_layout et_smooth_scroll et_no_sidebar et_divi_theme et-db">
 	<div id="page-container">
 <div id="et-boc" class="et-boc">
@@ -1042,11 +1049,19 @@ z-index: 99999;
 	scr.src = "./pageData.js" + "?ts=" + Math.round(new Date().getTime()/3600000);
 	document.getElementsByTagName("head")[0].appendChild(scr);
 </script>
-<script src="./app_events.js"></script>
 
+
+<script src="https://cdn.jsdelivr.net/gh/williamtroup/Calendar.js@2.12.1a/dist/calendar.js"></script>
+<link rel="stylesheet" href="./calendar.js.css"/>
+<script src="./app_events.js"></script>
 <div class="grid" id="app" w3-include-html="./events.html">
   <div class="grid-sizer"></div>
   <div class="gutter-sizer"></div>
+</div>
+<div id="calendar">
+    <div class="grid">
+        <div id="calendar1" style="width: 100%"></div>
+    </div>
 </div>
 <div id="no-sticky"/></div>
 			</div>
