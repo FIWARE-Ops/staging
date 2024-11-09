@@ -1,15 +1,14 @@
 window.eventData = [
     {{#each events}}
     {
-        "id": "{{createClass title}}",
+        "id": "{{yearMonth}}-{{createClass title}}",
         "title": "{{title}}",
         "from": "{{formatISO startTime}}",
         "to": "{{formatISO endTime}}",
         "description": "{{excerpt}}",
         "location": "{{#if (eq venueName '')}}Online{{else}}{{venueName}} {{venueAddress}} {{/if}}",
         "isAllDay": {{#if (eq start '')}}true{{else}}false{{/if}},
-        "group": "{{type}}",
-        "url": "./event-details?id={{createClass title}}"
+        "group": "{{type}}"
     }{{#unless @last}},{{/unless}}
     {{/each}}
 ];

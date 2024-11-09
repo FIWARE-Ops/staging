@@ -1,6 +1,6 @@
 window.eventData = {
     {{#each events}}
-        "{{createClass title}}" : {{{json this}}},
+        "{{yearMonth}}-{{createClass title}}" : {{{json this}}},
     {{/each}}
 };
 
