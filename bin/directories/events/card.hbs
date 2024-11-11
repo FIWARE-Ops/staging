@@ -12,9 +12,6 @@
         <h3 class="event-month">{{formatMonth shortDateStart}}</h3>
         {{#if (eq venueName '')}}
         <h3 class="online-event">Online</h3>
-        {{else}}
-        <h3 class="city-name">{{city}}</h3>
-        <img alt='{{country}}' class='flag' src='{{flag}}' loading="lazy"/>
         {{/if}}
       </div>
       <div class="item-container">
@@ -35,6 +32,8 @@
           </div>
           <div class="panel-info">
             {{#if (ne venueName '')}}
+            <img alt='{{country}}' class='flag' src='{{flag}}' loading="lazy"/>
+            <h3 class="city-name">{{city}}</h3>
             <span class="place">{{venueName}}</span>
             {{/if}}
             {{#if (ne start '')}}
