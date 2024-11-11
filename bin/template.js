@@ -122,7 +122,7 @@ function formatDay(data) {
 }
 
 function formatMonth(data) {
-    return data.substring(data.indexOf(' ') + 1);
+    return data.substring(data.indexOf(' ') + 1).substring(0,3);
 }
 
 function parseDate(data) {

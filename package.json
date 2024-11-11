@@ -24,7 +24,7 @@
     "domains": "PROCESS=domains npm start",
     "experts": "PROCESS=people PAGE=experts npm start",
     "evangelists": "PROCESS=people PAGE=evangelists npm start",
-    "events": "PROCESS=events npm start",
+    "events": "PROCESS=events PAGE=speakers npm start",
     "fisab": "PROCESS=people PAGE=fisab npm start",
     "enablers": "PROCESS=enablers npm start",
     "ihubs": "PROCESS=iHubs npm start",
