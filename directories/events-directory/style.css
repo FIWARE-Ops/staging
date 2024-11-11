@@ -9,29 +9,29 @@
 /* WP Static Page */
 
 .et_pb_section_3.et_pb_section {
-    background-color: #fff!important;
+    background-color: #fff !important;
     padding-top: 50px;
 }
 
 .et_pb_row_3 {
-    background-color: rgba(255,255,255, 0);
+    background-color: rgba(255, 255, 255, 0);
 }
 
 .et_pb_row_3.et_pb_row {
-    padding-top: 50px!important;
+    padding-top: 50px !important;
 }
 
 .et_pb_section_2.et_pb_section.stickybar .et_pb_row_3.et_pb_row {
-    padding-top: 15px!important;
+    padding-top: 15px !important;
 }
 
 .et_pb_section_2.et_pb_section {
-    background-color: rgba(255,255,255,.95)!important;
-    border-bottom: 1px solid rgba(235,235,235,1);
+    background-color: rgba(255, 255, 255, .95) !important;
+    border-bottom: 1px solid rgba(235, 235, 235, 1);
 }
 
 .et_pb_section_2.et_pb_section.not-stickybar {
-    border-bottom: 1px solid rgba(235,235,235,0);
+    border-bottom: 1px solid rgba(235, 235, 235, 0);
 }
 
 /* ––––––––––– */
@@ -66,7 +66,7 @@
 }
 
 .grid-item.month-divider {
-    margin-bottom: 50px!important;
+    margin-bottom: 50px !important;
 }
 
 .gridElementSeparator .month-divider {
@@ -579,12 +579,12 @@
     color: #0891b2;
 }
 
-.track.light-yellow  {
+.track.light-yellow {
     background-color: #fdf6cf;
     color: #faa307;
 }
 
-.title-type.light-yellow  {
+.title-type.light-yellow {
     color: #faa307;
 }
 
@@ -599,21 +599,21 @@
 
 .title-type {
     /* display: none; */
-    background-color: rgba(255,255,255,0);
+    background-color: rgba(255, 255, 255, 0);
     font-size: 12px;
     font-weight: 600;
     text-transform: uppercase;
 }
 
 .topic-icon {
-  width: 140px;
-  background-color: #8ad2dc;
-  border-radius: 4px;
-  float: right;
+    width: 140px;
+    background-color: #8ad2dc;
+    border-radius: 4px;
+    float: right;
 }
 
 .topic-icon.light-blue {
-  background-color: #cce0f0;
+    background-color: #cce0f0;
 }
 
 .topic-icon.cyan {
@@ -621,11 +621,11 @@
 }
 
 .topic-icon.light-yellow {
-  background-color: #fdf6cf;
+    background-color: #fdf6cf;
 }
 
 .topic-icon.light-green {
-  background-color: #d0ede4;
+    background-color: #d0ede4;
 }
 
 .chip-domain {
@@ -663,7 +663,7 @@
 .speakers-gradient {
     display: none;
     position: absolute;
-    top: 205px!important;
+    top: 205px !important;
     right: 0;
     height: 85px;
     width: 30px;
@@ -994,29 +994,69 @@
 }
 
 
-/* Toggle Open Close Filters */
+/* Toggle View */
 
-#viewToggle {
-    width: fit-content;
-    font-size: 13px;
-    font-weight: 600;
-    line-height: 1em;
-    color: #002e67;
-    display: flex;
-    border: 1px solid #002e67;
-    border-radius: 18px;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 4px 12px 3px 10px;
+.btn-toggle-view {
+    border: 3px solid #1a1a1a;
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    transition: background 600ms ease, color 600ms ease;
+}
+
+input[type=radio].toggle {
+    display: none;
+}
+
+input[type=radio].toggle+label {
     cursor: pointer;
-    transition: all 0.3s ease-in-out;
+    min-width: 60px;
 }
 
-#viewToggle:hover,
-#viewToggle:focus {
-    background: #002452;
-    color: #fff;
+input[type=radio].toggle+label:hover {
+    background: none;
+    color: #1a1a1a;
 }
+
+input[type=radio].toggle+label:after {
+    background: #1a1a1a;
+    content: "";
+    height: 100%;
+    position: absolute;
+    top: 0;
+    transition: left 200ms cubic-bezier(0.77, 0, 0.175, 1);
+    width: 100%;
+    z-index: -1;
+}
+
+input[type=radio].toggle.toggle-left+label {
+    border-right: 0;
+}
+
+input[type=radio].toggle.toggle-left+label:after {
+    left: 100%;
+}
+
+input[type=radio].toggle.toggle-right+label {
+    margin-left: -5px;
+}
+
+input[type=radio].toggle.toggle-right+label:after {
+    left: -100%;
+}
+
+input[type=radio].toggle:checked+label {
+    cursor: default;
+    color: #fff;
+    transition: color 200ms;
+}
+
+input[type=radio].toggle:checked+label:after {
+    left: 0;
+}
+
+/* Filters */
 
 .filters-container {
     transition: height .5s ease;
@@ -1073,7 +1113,8 @@ select {
     -moz-appearance: none !important;
     background-color: #fafafa;
     background-image: url(https://www.fiware.org/custom/icons/grey/arrow-down.svg);
-    background-position: 100%;
+    background-size: 10%;
+    background-position: 94%;
     background-repeat: no-repeat;
 }
 
@@ -1096,17 +1137,16 @@ select::-ms-expand {
     gap: 10px;
 }
 
-.filter-element select, .sort-single-element select {
+.filter-element select,
+.sort-single-element select {
     background-color: rgba(255, 255, 255, 0);
     border-radius: 4px;
     border: 1px solid #c6c6c6;
     color: #696969;
     cursor: pointer;
     font-weight: 500;
-    padding: 8px 16px;
-    font-size: 15px;
-    width: 180px;
-    /* margin: 5px 0 10px 0; */
+    padding: 8px 32px 8px 10px;
+    font-size: 14px;
 }
 
 .filter-element select:active,
@@ -1114,6 +1154,7 @@ select::-ms-expand {
     border: 1px solid #002e67;
     color: #002e67;
     box-shadow: none;
+    background-image: url(https://www.fiware.org/custom/icons/blue/arrow-down.svg);
 }
 
 .dropdown-last {
@@ -1257,8 +1298,7 @@ input[type="checkbox"]:checked+label::after {
 
 .search-element {
     position: relative;
-    width: 45%;
-    max-width: 500px;
+    width: 30%;
 }
 
 .resetInput {
@@ -1296,8 +1336,8 @@ input[type="checkbox"]:checked+label::after {
 
 input[type="search"] {
     background-image: url(https://www.fiware.org/custom/icons/blue/search.svg);
-    background-position: 2%;
-    background-size: 4%;
+    background-position: 3%;
+    background-size: 6%;
     background-repeat: no-repeat;
     background-color: rgba(255, 255, 255, 0);
     border-radius: 4px;
@@ -1305,7 +1345,7 @@ input[type="search"] {
     cursor: pointer;
     font-weight: 500;
     line-height: 1.3em;
-    padding: 8px 12px 7px 38px !important;
+    padding: 9px 12px 8px 38px !important;
     font-size: 15px !important;
 }
 
@@ -1803,7 +1843,8 @@ input[type="search"]::placeholder {
         font-size: 15px;
     }
 
-    .speaker-job-title.detail, .speaker-company.detail {
+    .speaker-job-title.detail,
+    .speaker-company.detail {
         font-size: 13px;
     }
 
