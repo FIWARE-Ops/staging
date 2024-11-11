@@ -145,6 +145,28 @@ function addChips(id, items) {
   });
 }
 
+function addMap(eventDetails){
+
+  if(eventDetails.latitude === ''){
+      $('#map').empty();
+      return;
+  }
+
+  console.log(eventDetails.longitude)
+  console.log(eventDetails.latitude)
+  const map = new maplibregl.Map({
+      container: 'map',
+      style:
+          'https://api.maptiler.com/maps/streets/style.json?key=kmv5Wc7wNv1zSO1j0YFg',
+      center: [eventDetails.longitude, eventDetails.latitude],
+      zoom: 8
+  });
+
+  const marker = new maplibregl.Marker()
+      .setLngLat([eventDetails.longitude, eventDetails.latitude])
+      .addTo(map);
+}
+
 function fillJob(eventDetails) {
   if (window.eventDetailsDone) {
     return;
@@ -173,6 +195,7 @@ function fillJob(eventDetails) {
   wrapVenueDetails("#venue-details", eventDetails)
 
   wrapParagraphs("#description", eventDetails.description);
+  addMap(eventDetails);
 
   const title = eventDetails.title + " - " + eventDetails.type;
   document.title = title;

@@ -370,7 +370,16 @@ document.addEventListener("DOMContentLoaded", () => {
 	font-weight:600!important;
 	}
 	
-</style><link rel="stylesheet" id="et-core-unified-cpt-tb-129080-tb-81156-138406-cached-inline-styles" href="https://www.fiware.org/wp-content/et-cache/138406/et-core-unified-cpt-tb-129080-tb-81156-138406.min.css?ver=1730912355" /><link rel="stylesheet" id="et-core-unified-138406-cached-inline-styles" href="https://www.fiware.org/wp-content/et-cache/138406/et-core-unified-138406.min.css?ver=1730912354" /></head>
+</style><link rel="stylesheet" id="et-core-unified-cpt-tb-129080-tb-81156-138406-cached-inline-styles" href="https://www.fiware.org/wp-content/et-cache/138406/et-core-unified-cpt-tb-129080-tb-81156-138406.min.css?ver=1730912355" /><link rel="stylesheet" id="et-core-unified-138406-cached-inline-styles" href="https://www.fiware.org/wp-content/et-cache/138406/et-core-unified-138406.min.css?ver=1730912354" />
+
+
+<style>
+{
+	#map: {height: 100%; }
+}
+</style>
+
+</head>
 <body class="tribe_events-template-default single single-tribe_events postid-138406 et-tb-has-template et-tb-has-header et-tb-has-footer tribe-events-page-template tribe-no-js tribe-filter-live et_bloom et_monarch et_pb_button_helper_class et_cover_background et_pb_gutter osx et_pb_gutters3 et_pb_pagebuilder_layout et_smooth_scroll et_right_sidebar et_divi_theme et-db events-single tribe-events-style-full tribe-events-style-theme">
 	<div id="page-container">
 <div id="et-boc" class="et-boc">
@@ -1023,7 +1032,7 @@ z-index: 99999;
 	</div>
 
 			<!-- Event meta -->
-						
+	<div><hr/><div>					
 	<div class="">
 		<div >
 			<h2 class=""> Details </h2>
@@ -1036,6 +1045,14 @@ z-index: 99999;
 			<dl id="venue-details">
 		</div>
 	</div>
+
+	<div><hr/></div>
+
+	<div id="map" style="height:400px"></div>
+
+
+<script src="https://unpkg.com/maplibre-gl@4.1.2/dist/maplibre-gl.js"></script>
+        <link href="https://unpkg.com/maplibre-gl@4.1.2/dist/maplibre-gl.css" rel="stylesheet" />
 </section>	
 
 <footer class="et-l et-l--footer">
