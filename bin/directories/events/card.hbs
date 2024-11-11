@@ -1,6 +1,6 @@
 {{#each months}}
   <div class='grid-item {{createClass title}} month-divider' data-month='{{@key}}'>
-    <div class="gridElementTextContainer">
+    <div class="gridElementSeparator">
       <h3>{{text}}</h3>
     </div>
   </div>
@@ -22,8 +22,7 @@
             </ul>
           </div>
           <a href="./event-details?id={{yearMonth}}-{{createClass title}}">
-            <p class="panel-title">{{title}}</p> 
-          </a>
+            <p class="panel-title">{{title}}</p>
           <!-- <div class="excerpt">{{excerpt}}</div> -->
           <div class='chip-domain'>
             <ul class='chips'>
@@ -42,6 +41,7 @@
             </div>
              {{/if}}
           </div>
+          </a>
           <div class="speakers">
             {{#each speakers}}
             <div class="speaker" {{#if shortJob}}data-modal='{{createClass name}}'{{/if}}>
