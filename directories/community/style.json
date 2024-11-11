@@ -16,19 +16,11 @@
   "sources": {
     "openmaptiles": {
       "type": "vector",
-      "url": "https://api.maptiler.com/tiles/v3-openmaptiles/tiles.json?key=zkd23y22iONVNvOomAnR"
-    },
-		"TerrainSource": {
-			"type": "raster-dem",
-			"url": "https://api.maptiler.com/tiles/terrain-rgb-v2/tiles.json?key=Z47DzG5ZVry0NpEHMpZS"
-		},
-		"HillshadeSource": {
-			"type": "raster-dem",
-			"url": "https://api.maptiler.com/tiles/terrain-rgb-v2/tiles.json?key=Z47DzG5ZVry0NpEHMpZS"
-		}
+      "url": "https://api.maptiler.com/tiles/v3-openmaptiles/tiles.json?key=n44Ktx99fX39EIdajCRk"
+    }
   },
   "sprite": "https://openmaptiles.github.io/maptiler-toner-gl-style/sprite",
-  "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=zkd23y22iONVNvOomAnR",
+  "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=n44Ktx99fX39EIdajCRk",
   "layers": [
     {
       "id": "background",
@@ -36,19 +28,6 @@
       "minzoom": 0,
       "maxzoom": 20,
       "paint": {"background-color": "rgba(25,65,155,1.0)"}
-    },
-    {
-    "id": "hillshading",
-    "source": "HillshadeSource",
-    "type": "hillshade",
-    "layout": {"visibility": "visible"},
-    "paint": {
-      "hillshade-illumination-direction": 0,
-      "hillshade-exaggeration": 1,
-      "hillshade-highlight-color": "rgba(25,65,155,1.0)",
-      "hillshade-shadow-color": "rgba(0, 46, 103, 1)",
-      "hillshade-accent-color": "rgba(0, 46, 103, 1)"
-    }
     },
     {
       "id": "water",
@@ -65,33 +44,15 @@
       "paint": {"fill-antialias": true, "fill-color": "rgba(0, 46, 103, 1)"}
     },
     {
-      "id": "landuse_residential",
-      "type": "fill",
-      "source": "openmaptiles",
-      "source-layer": "landuse",
-      "maxzoom": 16,
-      "filter": [
-        "all",
-        ["==", "$type", "Polygon"],
-        ["==", "class", "residential"]
-      ],
-      "layout": {"visibility": "none"},
-      "paint": {
-        "fill-color": "rgba(49, 94, 214, 1)",
-        "fill-opacity": {"base": 0, "stops": [[7, 0], [10, 0.6]]}
-      }
-    },
-    {
       "id": "landcover_wood",
       "type": "fill",
       "source": "openmaptiles",
       "source-layer": "landcover",
-      "maxzoom": 16,
+      "minzoom": 10,
       "filter": ["all", ["==", "$type", "Polygon"], ["==", "class", "wood"]],
-      "layout": {"visibility": "none"},
+      "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(35, 74, 176, 1)",
-        "fill-opacity": {"base": 0, "stops": [[5, 0.5], [10, 1]]}
+        "fill-color": "rgba(53, 84, 165, .4)"
       }
     },
     {
@@ -157,7 +118,7 @@
       "source": "openmaptiles",
       "source-layer": "place",
       "minzoom": 4,
-      "maxzoom": 8,
+      "maxzoom": 6,
       "filter": [
         "all",
         ["==", "$type", "Point"],
@@ -187,7 +148,7 @@
       "source": "openmaptiles",
       "source-layer": "place",
       "minzoom": 4,
-      "maxzoom": 8,
+      "maxzoom": 6,
       "filter": [
         "all",
         ["==", "$type", "Point"],
