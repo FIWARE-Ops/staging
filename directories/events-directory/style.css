@@ -133,6 +133,13 @@
     color: #696969;
 }
 
+.gridElementSeparator {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+}
+
 .gridElementTextContainer {
     display: flex;
     flex-direction: column;
@@ -377,14 +384,14 @@
 .speakers {
     position: relative;
     margin-top: 15px;
-    width: fit-content;
     overflow: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 10px;
     cursor: grab;
-    /* transition: all 0.2s; */
+    /* width: fit-content;
+    transition: all 0.2s; */
 }
 
 .speaker-elements {
