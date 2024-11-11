@@ -69,10 +69,21 @@
     margin-bottom: 50px!important;
 }
 
-.month-divider h3  {
+.gridElementSeparator .month-divider {
+    border-top: 1px solid #c6c6c6;
+    width: calc(100% - 158px);
+    position: absolute;
+    right: 0;
+}
+
+.month-divider h3 {
+    width: auto;
+    max-width: 200px;
     color: #002452;
     font-weight: 700;
-
+    font-size: 17px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 /* .grid-item:hover {
@@ -96,7 +107,7 @@
 .event-day {
     font-size: 20px;
     font-weight: 700;
-    padding: 10px 0 3px;
+    padding: 9px 0 3px;
     border-top: 1px solid #c6c6c6;
     color: #000;
 }
@@ -137,6 +148,7 @@
     display: flex;
     flex-direction: row;
     gap: 10px;
+    align-items: center;
     width: 100%;
 }
 
