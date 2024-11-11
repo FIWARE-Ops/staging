@@ -86,30 +86,47 @@
 }
 
 .event-date {
-    width: fit-content;
-    max-width: 15%;
+    width: 10%;
+    max-width: 100px;
 }
 
 .event-day {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 700;
-    padding-bottom: 5px;
-    color: #002452;
+    padding: 10px 0 3px;
+    border-top: 1px solid #c6c6c6;
+    color: #000;
 }
 
 .event-month {
     font-size: 14px;
     font-weight: 500;
-    color: #002452;
-    border-bottom: 1px solid #dedede;
+    color: #000;
     padding-bottom: 10px;
-    margin-bottom: 10px;
+}
+
+.online-event {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    width: fit-content;
+    background-color: #15a97c;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+    padding: 5px 6px;
+}
+
+.online-event:before {
+    content: url(https://www.fiware.org/custom/icons/white/website.svg);
+    width: 12px;
 }
 
 .city-name {
     font-size: 14px;
-    font-weight: 600;
-    padding-bottom: 5px;
+    font-weight: 500;
+    padding-bottom: 0;
     color: #696969;
 }
 
@@ -232,7 +249,7 @@
 
 .place {
     width: fit-content;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 14px;
     line-height: 1em;
     color: #696969;
