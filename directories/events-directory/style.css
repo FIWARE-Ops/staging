@@ -1039,7 +1039,6 @@ input[type=radio].toggle.toggle-left+label:after {
 
 input[type=radio].toggle.toggle-right+label {
     margin-left: -5px;
-    min-width: 95px;
 }
 
 input[type=radio].toggle.toggle-right+label:after {
