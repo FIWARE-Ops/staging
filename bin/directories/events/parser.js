@@ -92,7 +92,7 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
             country: item.Country,
             flag: item['Country Flag'],
             latitude: item['Latitude'],
-            longitude: item['Latitude'],
+            longitude: item['Longitude'],
             publish: Parser.boolean(item.Published),
         };
 
