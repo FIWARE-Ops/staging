@@ -95,8 +95,8 @@
 }
 
 .event-date {
-    min-width: 80px;
-    max-width: 80px;
+    min-width: 60px;
+    max-width: 60px;
     border-top: 1px solid #c6c6c6;
     cursor: default;
     user-select: none;
@@ -129,10 +129,10 @@
     padding: 5px 6px;
 }
 
-.online-event:before {
+/* .online-event:before {
     content: url(https://www.fiware.org/custom/icons/white/website.svg);
     width: 12px;
-}
+} */
 
 .city-name {
     font-size: 14px;
@@ -189,7 +189,7 @@
     align-items: center;
     gap: 10px;
     margin-top: 0px;
-    padding: 5px 0;
+    height: 45px;
     border-top: 1px solid #e3e3e3;
     border-bottom: 1px solid #e3e3e3;
     user-select: none;
@@ -1072,7 +1072,7 @@ select {
     -webkit-appearance: none !important;
     -moz-appearance: none !important;
     background-color: #fafafa;
-    background-image: url(https://www.fiware.org/wp-content/uploads/ico_chevron_bottom.png);
+    background-image: url(https://www.fiware.org/custom/icons/grey/arrow-down.svg);
     background-position: 100%;
     background-repeat: no-repeat;
 }
@@ -1091,13 +1091,6 @@ select::-ms-expand {
 
 .sort-single-element {
     width: fit-content;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.search-element {
-    width: 40%;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -1174,6 +1167,7 @@ select::-ms-expand {
 .filter-element label,
 .search-element label,
 .sort-single-element label {
+    display: none;
     font-size: 14px;
     color: #002e67;
 }
