@@ -77,6 +77,38 @@ function wrapEventDetails (id, event){
   $(id).append(html);
 }
 
+function wrapVenueDetails (id, event){
+  console.log(event)
+  if(event.venueName === ''){
+    $(id).parent().empty();
+    return;
+  }
+  var venueName = event.venueName;
+  if (event.venueLink !== ''){
+    venueName = `<a href="${event.venueLink}">${venueName}</a>`
+  }
+
+  var html =  `<dt aria-label="Venue name: This represents the name of the event venue.">
+          </dt>
+    <dd class="tribe-venue"<dt>${venueName}</dd>
+    <dt aria-label="Venue name: This represents the address of the event venue.">
+    </dt>
+    <dd>${event.venueAddress}</dd>
+    <dt></dt>
+    <dd>${event.city}</dd>
+    <dt></dt>
+    <dd>${event.country}</dd>
+    `;
+
+  if (event.website !== ''){
+     html += `<dt></dt><dd>&nbsp;</dd><dt></dt>
+      <dd><a href="${event.website}">Event Website</a></dd>
+      `
+  }
+  $(id).empty();
+  $(id).append(html);
+}
+
 function wrapSpeakers (id, speakers){
 
   var div= `<div class="et_pb_text_inner"><h5>Presenters</h5>`;
@@ -138,18 +170,12 @@ function fillJob(eventDetails) {
   }
 
   wrapEventDetails("#event-details", eventDetails)
-
-  /*$("h6#name").text(eventDetails.title);
-  $("h4#mission").text(eventDetails.excerpt);
-
-  wrapImage("#logo", 1920, 300, eventDetails.img);
-  */
+  wrapVenueDetails("#venue-details", eventDetails)
 
   wrapParagraphs("#description", eventDetails.description);
 
   const title = eventDetails.title + " - " + eventDetails.type;
   document.title = title;
-  history.pushState({}, null, eventDetails.social);
 }
 
 function loadEventDetails() {
