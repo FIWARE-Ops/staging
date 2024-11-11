@@ -297,6 +297,20 @@ function initSticky() {
   }
 }
 
+function listViewShow(){
+  $("#app").show();
+  $("#calendar").hide();
+  $("#calendar-selected-event").hide();
+  
+}
+
+function calendarShow(){
+ 
+  $("#calendar").show();
+  $("#calendar-selected-event").show();
+  $("#app").hide();
+}
+
 function viewToggle() {
   let button =  $("#view-button-text");
   document
@@ -304,13 +318,11 @@ function viewToggle() {
     .addEventListener("click", (ev) => {
       const view = button.text();
       if (view.includes("List View")) {
-        button.text( "Calendar");
-        $("#calendar").show();
-        $("#app").hide();
+         button.text( "Calendar");
+         calendarShow();
       } else {
         button.text("List View");
-        $("#app").show();
-        $("#calendar").hide();
+        listViewShow();
       }
     });
 }
@@ -322,6 +334,7 @@ document.addEventListener("html-included", () => {
     return;
   }
   init = true;
+  listViewShow();
   initSelect();
   initCalendar();
   horizontalScroll();
