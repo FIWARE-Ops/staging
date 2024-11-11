@@ -104,17 +104,35 @@ var init = false;
 var msnry;
 var selectedMonth =  new Number(new Date().toISOString().split('T')[0].replaceAll("-","").substring(0,6)- 1);
 var selectedText = "";
+var selectedType = "*";
+var selectedDomain = "*";
+
 
 
 function filterFunction (){
   const month = $(this).data('month');
+  const domain = $(this).data('domain');
+  const type = $(this).data('type');
   
   if ($(this).hasClass( "month-divider" ) ){
     return month >= selectedMonth;
   }
+
+  if (selectedType !== "*" && type !== selectedType){
+
+    return false;
+  }
+  if (selectedDomain !== "*" && domain !== selectedDomain){
+    return false;
+  }
+
+
   if (selectedText !=="" ){
       return month >= selectedMonth && inputSearch($(this).html(), selectedText); 
   }
+
+
+
   return month >= selectedMonth;
 }
 
@@ -149,6 +167,14 @@ function initSelect() {
 
   $("#filterMonth").change(function(){
        selectedMonth = this.value;
+       msnry.arrange({ sortBy: "original-order" });
+  });
+  $("#filterDomain").change(function(){
+       selectedDomain = this.value;
+       msnry.arrange({ sortBy: "original-order" });
+  });
+  $("#filterType").change(function(){
+       selectedType = this.value;
        msnry.arrange({ sortBy: "original-order" });
   });
 
@@ -313,17 +339,16 @@ function calendarShow(){
 }
 
 function viewToggle() {
-  let button =  $("#view-button-text");
   document
     .querySelector("#viewToggle")
-    .addEventListener("click", (ev) => {
-      const view = button.text();
-      if (view.includes("List View")) {
-         button.text( "Calendar");
-         calendarShow();
-      } else {
-        button.text("List View");
-        listViewShow();
+    .addEventListener("change", (ev) => {
+      switch (ev.target.value){
+        case "list-view":
+          listViewShow();
+          break;
+        case "calendar":
+          calendarShow();
+          break;
       }
     });
 }
