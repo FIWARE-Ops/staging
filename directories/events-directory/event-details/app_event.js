@@ -151,16 +151,19 @@ function addMap(eventDetails){
       $('#map').empty();
       return;
   }
-
-  console.log(eventDetails.longitude)
-  console.log(eventDetails.latitude)
   const map = new maplibregl.Map({
       container: 'map',
-      style:
-          'https://api.maptiler.com/maps/streets/style.json?key=kmv5Wc7wNv1zSO1j0YFg',
+      style: './style.json',
+      maxZoom: 20,
+      minZoom: 3,
+      attributionControl: false,
+      dragRotate: false,
       center: [eventDetails.longitude, eventDetails.latitude],
       zoom: 8
   });
+
+  map.addControl(new maplibregl.NavigationControl());
+  map.addControl(new maplibregl.AttributionControl({compact: true}));
 
   const marker = new maplibregl.Marker()
       .setLngLat([eventDetails.longitude, eventDetails.latitude])

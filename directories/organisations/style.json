@@ -16,11 +16,11 @@
   "sources": {
     "openmaptiles": {
       "type": "vector",
-      "url": "https://api.maptiler.com/tiles/v3-openmaptiles/tiles.json?key=kmv5Wc7wNv1zSO1j0YFg"
+      "url": "https://api.maptiler.com/tiles/v3-openmaptiles/tiles.json?key=zkd23y22iONVNvOomAnR"
     }
   },
   "sprite": "https://openmaptiles.github.io/maptiler-toner-gl-style/sprite",
-  "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=kmv5Wc7wNv1zSO1j0YFg",
+  "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=zkd23y22iONVNvOomAnR",
   "layers": [
     {
       "id": "background",
