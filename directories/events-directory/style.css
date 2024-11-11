@@ -86,7 +86,31 @@
 }
 
 .event-date {
-    width: 80px;
+    width: fit-content;
+    max-width: 15%;
+}
+
+.event-day {
+    font-size: 22px;
+    font-weight: 700;
+    padding-bottom: 5px;
+    color: #002452;
+}
+
+.event-month {
+    font-size: 14px;
+    font-weight: 500;
+    color: #002452;
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.city-name {
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    color: #696969;
 }
 
 .gridElementTextContainer {
