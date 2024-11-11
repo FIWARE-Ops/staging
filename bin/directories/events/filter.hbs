@@ -5,13 +5,34 @@
     </div> 
     <div class='filter-element'>
         <label for='filterMonth' class='dropdown-label'>Months</label>
-        <select name='' id='filterMonth'>
+        <select id='filterMonth'>
             {{#each months}}
                 <option value='{{@key}}'>{{text}}</option>
             {{/each}}
         </select>
     </div>
-    <div id="viewToggle">
-        <span id="view-button-text">List View</span>
+    <div class='filter-element'>
+        <label for='filterType' class='dropdown-label'>Type</label>
+        <select id='filterType'>
+            <option value='*'>All types</option>
+            {{#each types}}
+                <option value='{{createClass this}}'>{{this}}</option>
+            {{/each}}
+        </select>
+    </div>
+    <div class='filter-element'>
+        <label for='filterDomain' class='dropdown-label'>Category</label>
+        <select id='filterDomain'>
+            <option value='*'>All categories</option>
+            {{#each categories}}
+                <option value='{{createClass this}}'>{{this}}</option>
+            {{/each}}
+        </select>
+    </div>
+    <div class="filter-element">
+        <select id='viewToggle'>
+            <option value='list-view'>List View</option>
+            <option value='calendar'>Calendar</option>
+        </select>
     </div>
 </div>

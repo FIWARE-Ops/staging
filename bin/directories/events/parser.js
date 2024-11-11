@@ -181,6 +181,8 @@ function parse(eventsFile, speakersFile) {
                 .then((events) => {
                     const eventsByMonth = getEventsByMonth(events);
                     const people = _.uniq(activeSpeakers);
+                    const types = _.uniq(_.map(events, (event)=>{return event.type}));
+                    const categories = _.uniq(_.map(events, (event)=>{return event.category}));
                     const collator = new Intl.Collator("en", { sensitivity: "base" });
                     const speakerNames =
                         _.map(people, (a) => {
@@ -207,7 +209,11 @@ function parse(eventsFile, speakersFile) {
                      Template.write(
                         path.join(EVENTS_DIR, 'filters.html'),
                         path.join(TEMPLATE_PATH, 'filter.hbs'),
-                        {months: getSixMonths(eventsByMonth)}
+                        {
+                            months: getSixMonths(eventsByMonth),
+                            types,
+                            categories
+                        }
                     );
 
                     Template.write(
