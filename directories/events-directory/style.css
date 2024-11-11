@@ -71,19 +71,16 @@
 
 .gridElementSeparator .month-divider {
     border-top: 1px solid #c6c6c6;
-    width: calc(100% - 158px);
-    position: absolute;
-    right: 0;
+    width: 100%;
 }
 
 .month-divider h3 {
-    width: auto;
-    max-width: 200px;
-    color: #002452;
-    font-weight: 700;
-    font-size: 17px;
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
     padding-bottom: 0px;
     margin-bottom: 0px;
+    white-space: nowrap;
 }
 
 /* .grid-item:hover {
@@ -98,8 +95,9 @@
 }
 
 .event-date {
-    width: 10%;
-    max-width: 100px;
+    min-width: 80px;
+    max-width: 80px;
+    border-top: 1px solid #c6c6c6;
     cursor: default;
     user-select: none;
 }
@@ -108,7 +106,6 @@
     font-size: 20px;
     font-weight: 700;
     padding: 9px 0 3px;
-    border-top: 1px solid #c6c6c6;
     color: #000;
 }
 
@@ -147,7 +144,7 @@
 .gridElementSeparator {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 15px;
     align-items: center;
     width: 100%;
 }
@@ -192,7 +189,7 @@
     align-items: center;
     gap: 10px;
     margin-top: 0px;
-    padding: 10px 0;
+    padding: 5px 0;
     border-top: 1px solid #e3e3e3;
     border-bottom: 1px solid #e3e3e3;
     user-select: none;
@@ -312,7 +309,7 @@
     display: flex;
     gap: 1em;
     align-items: center;
-    margin-bottom: 5px;
+    margin-bottom: 0;
 }
 
 .panel-title.detail {
@@ -395,15 +392,15 @@
 
 .speakers {
     position: relative;
-    margin-top: 15px;
+    margin-top: 10px;
     overflow: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 10px;
     cursor: grab;
-    /* width: fit-content;
-    transition: all 0.2s; */
+    width: fit-content;
+    /* transition: all 0.2s; */
 }
 
 .speaker-elements {
@@ -648,7 +645,6 @@
     overflow: hidden;
     padding: 5px 10px 6px;
     margin-right: 8px;
-    display: inline-block;
     user-select: none;
 }
 
