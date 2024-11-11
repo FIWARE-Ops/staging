@@ -5,7 +5,7 @@
     </div> 
     <div class='filter-element'>
         <label for='filterMonth' class='dropdown-label'>Months</label>
-        <select name='' id='filterMonth'>
+        <select id='filterMonth'>
                 <option value='202212'>January 2023</option>
                 <option value='202301'>February 2023</option>
                 <option value='202302'>March 2023</option>
@@ -44,7 +44,30 @@
                 <option value='202511'>December 2025</option>
         </select>
     </div>
-    <div id="viewToggle">
-        <span id="view-button-text">List View</span>
+    <div class='filter-element'>
+        <label for='filterType' class='dropdown-label'>Type</label>
+        <select id='filterType'>
+            <option value='*'>All types</option>
+                <option value='conference'>Conference</option>
+                <option value='networking'>Networking</option>
+                <option value='fiware-webinars'>FIWARE Webinars</option>
+                <option value='summit'>Summit</option>
+                <option value='symposium'>Symposium</option>
+        </select>
+    </div>
+    <div class='filter-element'>
+        <label for='filterDomain' class='dropdown-label'>Category</label>
+        <select id='filterDomain'>
+            <option value='*'>All categories</option>
+                <option value='technology'>Technology</option>
+                <option value='smart-cities'>Smart Cities</option>
+                <option value='data-spaces'>Data Spaces</option>
+        </select>
+    </div>
+    <div class="filter-element">
+        <select id='viewToggle'>
+            <option value='list-view'>List View</option>
+            <option value='calendar'>Calendar</option>
+        </select>
     </div>
 </div>
