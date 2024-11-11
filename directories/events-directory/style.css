@@ -51,6 +51,7 @@
     display: flex;
     flex-direction: row;
     gap: 60px;
+    user-select: none;
     /* background: #fff;
     box-shadow: 0 0 0 0 rgb(0 0 0 / 10%);
     border: 1px solid #f0f0f0;
@@ -88,6 +89,8 @@
 .event-date {
     width: 10%;
     max-width: 100px;
+    cursor: default;
+    user-select: none;
 }
 
 .event-day {
@@ -639,6 +642,7 @@
     font-size: 12px;
     letter-spacing: 1px;
     color: #002E67;
+    cursor: default;
 }
 
 .speakers-gradient {
