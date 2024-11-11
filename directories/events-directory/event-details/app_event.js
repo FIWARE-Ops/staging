@@ -24,6 +24,50 @@ function wrapImage(id, width, height, src) {
   //}
 }
 
+function wrapEventBrite (id, eventBrite){
+
+var img =
+  `<div class="et_pb_with_border et_pb_module et_pb_text et_pb_text_1  et_pb_text_align_left et_pb_bg_layout_light">
+  <div class="et_pb_text_inner">
+    <h4>PLEASE NOTE</h4>
+    <p>Registration is required. You will find the access information for the event in the registration confirmation email.</p>
+  </div>
+</div>
+<div class="et_pb_with_border et_pb_module et_pb_code et_pb_code_0">
+  <div class="et_pb_code_inner">
+    <div id="eventbrite-widget-container-${eventBrite}"></div>
+    <script type="text/javascript">
+      var exampleCallback = function() {
+        console.log('Order complete!');
+      };
+      window.EBWidgets.createWidget({
+        widgetType: 'checkout',
+        eventId: '${eventBrite}',
+        iframeContainerId: 'eventbrite-widget-container-${eventBrite}',
+        iframeContainerHeight: 520,
+        onOrderComplete: exampleCallback 
+    });
+    </script>
+  </div>
+</div>`;
+
+  $(id).empty();
+  $(id).append(img);
+
+}
+
+function wrapSpeakers (id, speakers){
+
+  var div= `<div class="et_pb_text_inner"><h5>Presenters</h5>`;
+  speakers.forEach((speaker) => {
+      div += `<p><b>${speaker.name}</b> (${speaker.job}, ${speaker.company})</p>`
+  })
+  div +="</div>";
+
+  $(id).empty();
+  $(id).append(div);
+}
+
 function wrapParagraphs(id, input) {
   if (input === "") {
     $(id).prev().remove();
@@ -53,16 +97,32 @@ function fillJob(eventDetails) {
     return;
   }
   window.eventDetailsDone = true;
-  $("h1#name").text(eventDetails.title);
-  $("h6#name").text(eventDetails.title);
+  $("h1#title").text(eventDetails.title);
+  console.log(eventDetails)
+  let dateText = `${eventDetails.shortDateStart}`;
+  if (eventDetails.start){
+     dateText += `  @ ${eventDetails.start} – ${eventDetails.end}  ${eventDetails.timeZone}`
+  }
+  if (eventDetails.shortDateStart !== eventDetails.shortDateEnd){
+    dateText += ` - ${eventDetails.shortDateEnd}`
+  }
+  $("span#date-start").text(dateText);
+  wrapImage("#main-logo", 1920, 1080, eventDetails.img);
+
+  if(eventDetails.eventBrite){
+    wrapEventBrite("#registration", eventDetails.eventBrite);
+  }
+  if(eventDetails.speakers.length > 0){
+    wrapSpeakers("#speakers", eventDetails.speakers);
+  }
+
+  /*$("h6#name").text(eventDetails.title);
   $("h4#mission").text(eventDetails.excerpt);
 
-  wrapImage("#logo", 500, 300, eventDetails.img);
-  wrapImage("#main-logo", 500, 300, eventDetails.img);
+  wrapImage("#logo", 1920, 300, eventDetails.img);
+  */
 
   wrapParagraphs("#description", eventDetails.description);
-
-  $('#impact-stories form input[name="happyforms_form_id"]').val(eventDetails.formId);
 
   const title = eventDetails.title + " - " + eventDetails.type;
   document.title = title;
