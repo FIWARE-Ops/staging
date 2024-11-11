@@ -339,10 +339,25 @@ function calendarShow(){
 }
 
 function viewToggle() {
+
   document
-    .querySelector("#viewToggle")
+    .querySelector("#toggle-on")
     .addEventListener("change", (ev) => {
-      switch (ev.target.value){
+      const value = $('input[name="toggle"]:checked').val();
+      switch (value){
+        case "list-view":
+          listViewShow();
+          break;
+        case "calendar":
+          calendarShow();
+          break;
+      }
+    });
+  document
+    .querySelector("#toggle-off")
+    .addEventListener("change", (ev) => {
+      const value = $('input[name="toggle"]:checked').val();
+      switch (value){
         case "list-view":
           listViewShow();
           break;
