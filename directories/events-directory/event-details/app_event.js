@@ -56,6 +56,27 @@ var img =
 
 }
 
+function wrapEventDetails (id, event){
+  let dateText = event.shortDateStart;
+  if (event.shortDateStart !== event.shortDateEnd){
+    dateText += ` - ${event.shortDateEnd}`
+  }
+
+  var html= `
+    <dt class=""> Date: </dt>
+    <dd>${dateText}</dd>`;
+    if (event.start){
+      let timeText = `${event.start} – ${event.end}  ${event.timeZone}`
+
+      html += `<dt class=""> Time: </dt><dd>
+        <div class=""> ${timeText}</div></dd>`;
+    }
+    html += `<dt class="">Event Categories:</dt> 
+    <dd class="">${event.type}, ${event.category}</a></dd>`;
+  $(id).empty();
+  $(id).append(html);
+}
+
 function wrapSpeakers (id, speakers){
 
   var div= `<div class="et_pb_text_inner"><h5>Presenters</h5>`;
@@ -115,6 +136,8 @@ function fillJob(eventDetails) {
   if(eventDetails.speakers.length > 0){
     wrapSpeakers("#speakers", eventDetails.speakers);
   }
+
+  wrapEventDetails("#event-details", eventDetails)
 
   /*$("h6#name").text(eventDetails.title);
   $("h4#mission").text(eventDetails.excerpt);
