@@ -178,7 +178,7 @@ function initCalendar(){
         },
         importEventsEnabled: false,
         configurationDialogEnabled: false,
-        eventTooltipDelay: 0,
+        tooltipsEnabled: false,
         manualEditingEnabled: false,
         views: {
           fullDay: {
@@ -202,8 +202,9 @@ function initCalendar(){
         },
         events: {
             onEventClick: (e) => {
-                window.location.href = `./event-details?id=${e.id}`;
-            }        
+                //window.location.href = `./event-details?id=${e.id}`;
+                $('#selected-event').html($(`*[data-id="${e.id}"]`).html())
+            }
         },
         data : window.eventData
     });
@@ -300,14 +301,14 @@ function initSticky() {
 function listViewShow(){
   $("#app").show();
   $("#calendar").hide();
-  $("#calendar-selected-event").hide();
-  
+  $("#selected-event").hide();
+  $('#selected-event').html('');
 }
 
 function calendarShow(){
  
   $("#calendar").show();
-  $("#calendar-selected-event").show();
+  $("#selected-event").show();
   $("#app").hide();
 }
 

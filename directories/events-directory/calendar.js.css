@@ -19,3 +19,7 @@ div.calendar div.full-month-view div.row-cells div.cell div.event:hover {
    div.calendar div.full-month-view div.row-cells div.cell div.event {
       font-size: 1.0rem !important;
 }
+
+#selected-event {
+    padding-top: 10px;
+}
