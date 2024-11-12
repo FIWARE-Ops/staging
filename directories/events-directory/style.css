@@ -131,23 +131,8 @@
 }
 
 .online-event.ongoing {
-  -webkit-animation: blink-ongoing 1s infinite;
-  -moz-animation: blink-ongoing 1s infinite;
-  -o-animation: blink-ongoing 1s infinite; 
-  animation: blink-ongoing 1s infinite;
-}
-
-@-webkit-keyframes blink-ongoing {
-  0%, 49% {
     background-color: #15a97c;
-    border: 1px solid #1c372f;
-  }
-  50%, 100% {
-    background-color: #24c194;
-    border: 1px solid #1c372f;
-  }
 }
-
 .online-event.future {
     background-color: #5dc0cf;
 }
@@ -155,7 +140,7 @@
     background-color: #b8b5b5;
 }
 .online-event.recorded {
-    background-color: #d63c0d;
+    background-color: #002E67;
 }
 
 /* .online-event:before {
