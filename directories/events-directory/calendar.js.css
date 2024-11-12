@@ -1,0 +1,59 @@
+:root {
+  --calendar-js-default-font: "Monserrat", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  --calendar-js-large-font-size: 2.0rem;
+  --calendar-js-small-font-size: 0.9rem;
+  --calendar-js-dark-color: rgb(0, 36, 82);
+  --calendar-js-grid-border-color: #dedede;
+  --calendar-js-light-color: rgba(255,255,255,1)
+}
+
+div.calendar {
+  border: var(--calendar-js-spacing-border-size) solid var(--calendar-js-grid-border-color) !important;
+  border-radius: 4px!important;
+}
+
+div.calendar sup {
+  display: none !important;
+}
+
+div.calendar div.header-days {
+  font-size: 14px;
+  font-weight: 400 !important;
+  color: var(--calendar-js-dark-color) !important;
+  text-transform: uppercase;
+  background-color: var(--calendar-js-light-color) !important;
+  border-bottom: 0!important;
+}
+
+div.calendar div.row-cells.header-days div.cell {
+  padding-bottom: 0!important;
+}
+
+div.calendar div.weekend-day {
+  background-color: var(--calendar-js-light-color) !important;
+}
+
+div.calendar div.row-cells div.cell span.first-day {
+  background-color: rgba(255,255,255,0) !important;
+}
+
+div.calendar-tooltip,
+div.calendar-tooltip-event {
+  background-color: rgb(229, 245, 247)
+}
+
+div.calendar div.full-month-view div.row-cells div.cell div.event:hover {
+    cursor: pointer;
+}
+
+@media screen and (min-width: 451px) {
+   div.calendar div.full-month-view div.row-cells div.cell div.event {
+      font-size: 1.0rem !important;
+}
+
+#selected-event {
+    padding-top: 50px;
+}
+
+}
