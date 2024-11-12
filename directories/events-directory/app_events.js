@@ -312,15 +312,17 @@ function initOnlineEvents() {
       if ( dateTo < now){
         if (recording){
            $(value).addClass('recorded')
-           $(value).html(`<a href="${recording}">Recorded</a>`)
+           $(value).html(`<a href="${recording}">Watch</a>`)
         } else {
           $(value).addClass('past')
         }
-      } else  if  ( dateFrom > now){
-        $(value).addClass('future');
-      } else  if (url){
+      } else if (dateFrom > now){
         $(value).addClass('ongoing')
-        $(value).html(`<a href="${url}">Join Now</a>`)
+        if (url){
+          $(value).html(`<a href="${url}">Join&nbsp;Now</a>`)
+        }
+      } else {
+        $(value).addClass('future');
       }
    });
 }
