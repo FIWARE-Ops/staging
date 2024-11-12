@@ -85,6 +85,7 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
             location: item.Location,
             online: Parser.boolean(item.Online),
             onlineLink: item['Online Link'],
+            recording: item['Recording'],
             venueName: item['Venue Name'],
             venueAddress: item['Venue Address'],
             venueLink: item['Venue Website'],
