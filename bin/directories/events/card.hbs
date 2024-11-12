@@ -34,8 +34,10 @@
           </div>
           <div class="panel-info">
             {{#if (ne venueName '')}}
+            <div class="location-container">
             <img alt='{{country}}' class='flag' src='{{flag}}' loading="lazy"/>
             <h3 class="city-name">{{city}}</h3>
+            </div>
             <span class="place">{{venueName}}</span>
             {{/if}}
             {{#if (ne start '')}}
