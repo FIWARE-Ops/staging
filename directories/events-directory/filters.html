@@ -1,8 +1,17 @@
-<div class='dropdown-container'>
+<div class="search-sort-container">
     <div class="search-element">
         <div class="resetInput"></div>
         <input type="search" id="searchInput" placeholder="Search">
-    </div> 
+    </div>
+    <div class="toggle-views">
+        <input id="toggle-on" class="toggle toggle-left" name="toggle" value="list-view" type="radio" checked>
+        <label for="toggle-on" class="btn-toggle-view">List</label>
+        <input id="toggle-off" class="toggle toggle-right" name="toggle" value="calendar" type="radio">
+        <label for="toggle-off" class="btn-toggle-view">Calendar</label>
+    </div>
+</div>
+
+<div class='dropdown-container'>
     <div class='filter-element'>
         <label for='filterMonth' class='dropdown-label'>Months</label>
         <select id='filterMonth'>
@@ -63,11 +72,5 @@
                 <option value='smart-cities'>Smart Cities</option>
                 <option value='data-spaces'>Data Spaces</option>
         </select>
-    </div>
-    <div class="toggle-views">
-        <input id="toggle-on" class="toggle toggle-left" name="toggle" value="list-view" type="radio" checked>
-        <label for="toggle-on" class="btn-toggle-view">List</label>
-        <input id="toggle-off" class="toggle toggle-right" name="toggle" value="calendar" type="radio">
-        <label for="toggle-off" class="btn-toggle-view">Calendar</label>
     </div>
 </div>
