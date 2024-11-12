@@ -1635,10 +1635,6 @@ input[type="search"]::placeholder {
         width: calc(100% - 80px);
     }
 
-    .panel-info {
-        height: auto;
-    }
-
     .grid-item ul {
         list-style: none;
         padding: 0;
@@ -1721,8 +1717,9 @@ input[type="search"]::placeholder {
     }
 
     .panel-info {
+        height: auto;
         flex-direction: column;
-        gap: 10px;
+        gap: 5px;
         align-items: flex-start;
     }
 
@@ -1805,6 +1802,18 @@ input[type="search"]::placeholder {
 
     /* Search & Filtering */
 
+    .stickybar {
+        top: 56px;
+    }
+
+    .et_pb_section_2.et_pb_section.stickybar .et_pb_row_3.et_pb_row {
+        padding: 15px 0!important;
+    }
+
+    .et_pb_row_3.et_pb_row {
+        padding: 0!important;
+    }
+
     .showFilters {
         display: flex;
         /* align-items: flex-end; */
@@ -1829,8 +1838,8 @@ input[type="search"]::placeholder {
     .filters-container {
         transition: height .5s ease;
         overflow: hidden;
-        padding-top: 10px;
-        /* border-top: 1px solid #aaa; */
+        /* padding-top: 10px;
+        border-top: 1px solid #aaa; */
     }
 
     .filters-container:not(.active) {
@@ -1870,8 +1879,26 @@ input[type="search"]::placeholder {
 
     /* Search */
 
+    .show {
+        gap: 15px;
+    }
+
+    .search-sort-container {
+        flex-direction: column;
+        width: -webkit-fill-available;
+        gap: 15px;
+    }
+
+    .search-element {
+        width: auto;
+    }
+
     input[type="search"] {
         background-position: 3%;
+    }
+
+    .btn-toggle-view {
+        width: -webkit-fill-available;
     }
 
     /* Filtering */
@@ -1888,13 +1915,18 @@ input[type="search"]::placeholder {
         width: auto;
     }
 
+    select {
+        background-size: 5%;
+        background-position: 96%;
+    }
+
     .filter-element select {
         width: 100%;
     }
 
-    .filter-element:last-of-type {
+    /* .filter-element:last-of-type {
         margin-bottom: 20px;
-    }
+    } */
 
     .filters-checkbox {
         display: flex;
@@ -1903,6 +1935,11 @@ input[type="search"]::placeholder {
 
     .filters-checkbox .filter-element:last-of-type {
         margin-bottom: 0px;
+    }
+
+    .dropdown-container {
+        flex-direction: column;
+        gap: 15px;
     }
 
     .dropdown-label {
