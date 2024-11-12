@@ -8,11 +8,12 @@
   {{#each events}}
 
     <div class='grid-item' data-id='{{yearMonth}}-{{createClass title}}' data-month='{{yearMonth}}' data-type="{{createClass type}}" data-domain="{{createClass category}}">
-      <div class="event-date">
+      <div class="event-date" data-from="{{formatISO startTime}}"
+        data-to={{formatISO endTime}}>
         <h3 class="event-day">{{formatDay shortDateStart}}</h3>
         <h3 class="event-month">{{formatMonth shortDateStart}}</h3>
         {{#if (eq venueName '')}}
-        <h3 class="online-event">Online</h3>
+        <h3 class="online-event" data-url="{{onlineLink}}">Online</h3>
         {{/if}}
       </div>
       <div class="item-container">
