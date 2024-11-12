@@ -198,7 +198,7 @@ function fillJob(eventDetails) {
   wrapVenueDetails("#venue-details", eventDetails)
 
   wrapParagraphs("#description", eventDetails.description);
-  addMap(eventDetails);
+  //addMap(eventDetails);
 
   const title = eventDetails.title + " - " + eventDetails.type;
   document.title = title;

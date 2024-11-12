@@ -301,10 +301,32 @@ function horizontalScroll() {
   });
 }
 
+function initOnlineEvents() {
+  const now = new Date() 
+  console.log ('NOW: ' + now.toDateString() +  now.toTimeString())
+   const events = $('.event-date .online-event');
+   $('.event-date .online-event').each((index, value)=> {
+      const dateFrom = new Date($(value).parent().data('from'));
+      const dateTo = new Date($(value).parent().data('to'));
+      const url = $(value).data('url');
+
+      if ( dateTo < now){
+        $(value).addClass('past')
+         $(value).text('recorded')
+        $(value).parent().append(`<a href="${url}">view recording</a>`)
+      } else  if  ( dateFrom > now){
+        $(value).addClass('future');
+        $(value).parent().append(`<a href="${url}">register</a>`)
+      } else {
+        $(value).addClass('ongoing')
+        $(value).parent().append(`<a href="${url}">join</a>`)
+      }
+   });
+}
+
 
 function initSticky() {
   window.onscroll = onScrollHandler;
-
   function onScrollHandler() {
     const header = document.getElementById("filters");
     const footer = document.getElementById("no-sticky");
@@ -378,6 +400,7 @@ document.addEventListener("html-included", () => {
   listViewShow();
   initSelect();
   initCalendar();
+  initOnlineEvents();
   horizontalScroll();
   smoothScroll();
   initModal();
