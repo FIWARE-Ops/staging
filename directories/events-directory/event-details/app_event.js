@@ -56,29 +56,32 @@ var img =
 
 }
 
-function wrapEventDetails (id, event){
+function wrapEventDetails (event){
   let dateText = event.shortDateStart;
   if (event.shortDateStart !== event.shortDateEnd){
     dateText += ` - ${event.shortDateEnd}`
   }
 
   var html= `
-    <dt class=""> Date: </dt>
+    <dt class="event-attribute-label"> Date: </dt>
     <dd>${dateText}</dd>`;
     if (event.start){
       let timeText = `${event.start} – ${event.end}  ${event.timeZone}`
 
-      html += `<dt class=""> Time: </dt><dd>
+      html += `<dt class="event-attribute-label> Time: </dt><dd>
         <div class=""> ${timeText}</div></dd>`;
     }
-    html += `<dt class="">Event Categories:</dt> 
-    <dd class="">${event.type}, ${event.category}</a></dd>`;
-  $(id).empty();
-  $(id).append(html);
+  $('#event-date').html(html)
+
+  $('#event-type').html(`<dt class="event-attribute-label">Type</dt> 
+    <dd class=""> ${event.type}</dd>`);
+  $('#event-category').html(`<dt class="event-attribute-label">Category</dt> 
+    <dd class=""> ${event.category}</dd>`);
+
+
 }
 
 function wrapVenueDetails (id, event){
-  console.log(event)
   if(event.venueName === ''){
     $(id).parent().empty();
     return;
@@ -88,7 +91,7 @@ function wrapVenueDetails (id, event){
     venueName = `<a href="${event.venueLink}">${venueName}</a>`
   }
 
-  var html =  `<dt aria-label="Venue name: This represents the name of the event venue.">
+  var html =  `<dt class="event-attribute-label">Location 
           </dt>
     <dd class="tribe-venue"<dt>${venueName}</dd>
     <dt aria-label="Venue name: This represents the address of the event venue.">
@@ -147,6 +150,7 @@ function addChips(id, items) {
 
 function addMap(eventDetails){
 
+  console.log('add')
   if(eventDetails.latitude === ''){
       $('#map').empty();
       return;
@@ -176,7 +180,6 @@ function fillJob(eventDetails) {
   }
   window.eventDetailsDone = true;
   $("h1#title").text(eventDetails.title);
-  console.log(eventDetails)
   let dateText = `${eventDetails.shortDateStart}`;
   if (eventDetails.start){
      dateText += `  @ ${eventDetails.start} – ${eventDetails.end}  ${eventDetails.timeZone}`
@@ -185,7 +188,7 @@ function fillJob(eventDetails) {
     dateText += ` - ${eventDetails.shortDateEnd}`
   }
   $("span#date-start").text(dateText);
-  wrapImage("#main-logo", 1920, 1080, eventDetails.img);
+  wrapImage("#event-cover", 1920, 1080, eventDetails.img);
 
   if(eventDetails.eventBrite){
     wrapEventBrite("#registration", eventDetails.eventBrite);
@@ -194,11 +197,11 @@ function fillJob(eventDetails) {
     wrapSpeakers("#speakers", eventDetails.speakers);
   }
 
-  wrapEventDetails("#event-details", eventDetails)
+  wrapEventDetails(eventDetails)
   wrapVenueDetails("#venue-details", eventDetails)
 
   wrapParagraphs("#description", eventDetails.description);
-  //addMap(eventDetails);
+  addMap(eventDetails);
 
   const title = eventDetails.title + " - " + eventDetails.type;
   document.title = title;
