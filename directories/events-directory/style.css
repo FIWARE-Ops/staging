@@ -134,19 +134,25 @@
     background-color: #15a97c;
 }
 .online-event.future {
-    background-color: #66b7c9;
+    background-color: #5dc0cf;
 }
 .online-event.past {
     background-color: #b8b5b5;
 }
 .online-event.recorded {
-    background-color: #c96667;
+    background-color: #002E67;
 }
 
 /* .online-event:before {
     content: url(https://www.fiware.org/custom/icons/white/website.svg);
     width: 12px;
 } */
+
+.location-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
 
 .city-name {
     font-size: 14px;
