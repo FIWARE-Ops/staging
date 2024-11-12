@@ -1063,27 +1063,36 @@ input[type=radio].toggle:checked+label:after {
 .filters-container {
     transition: height .5s ease;
     width: 100%;
-    max-width: 1184px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 
 .dropdown-container {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .filters-container:not(.active) {
     display: none;
 }
 
+.show {
+    display: flex!important;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .search-sort-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    width: 520px;
+    margin: 0 auto;
+    gap: 20px;
 }
 
 /* Filter list */
@@ -1300,7 +1309,7 @@ input[type="checkbox"]:checked+label::after {
 
 .search-element {
     position: relative;
-    width: 30%;
+    width: 70%;
 }
 
 .resetInput {
