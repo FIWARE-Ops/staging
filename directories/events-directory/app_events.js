@@ -309,25 +309,18 @@ function initOnlineEvents() {
       const dateTo = new Date($(value).parent().data('to'));
       const url = $(value).data('url');
       const recording = $(value).data('recording');
-      const eventBrite = $(value).data('event-brite');
-
       if ( dateTo < now){
         if (recording){
            $(value).addClass('recorded')
-           $(value).parent().append(`<a href="${url}">watch</a>`)
+           $(value).html(`<a href="${recording}">Recorded</a>`)
         } else {
           $(value).addClass('past')
         }
       } else  if  ( dateFrom > now){
         $(value).addClass('future');
-        if (eventBrite){
-          $(value).parent().append(
-            `<a href="https://www.eventbrite.com/e/${eventBrite}">register</a>`
-          );
-        }
-      } else {
+      } else  if (url){
         $(value).addClass('ongoing')
-        $(value).parent().append(`<a href="${url}">join</a>`)
+        $(value).html(`<a href="${url}">Join Now</a>`)
       }
    });
 }
