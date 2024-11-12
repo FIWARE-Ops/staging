@@ -5,7 +5,7 @@ window.eventData = [
         "from": "2024-05-28T22:00:00.000Z",
         "to": "2024-05-30T22:00:00.000Z",
         "description": "FIWARE and Atos will be showcasing the joint value proposition that aligns digital innovation with environmental responsibility.",
-        "location": "Place Bab Jdid Bd Al Yarmouk, Marrakesh, 40000 Morocco ",
+        "location": "Place Bab Jdid Bd Al Yarmouk, 40000 ",
         "isAllDay": true,
         "group": "Conference"
     },
@@ -15,7 +15,7 @@ window.eventData = [
         "from": "2024-06-05T08:00:00.000Z",
         "to": "2024-06-05T10:30:00.000Z",
         "description": "The FIWARE DACH Networking Event brings together German-speaking FIWARE enthusiasts for high-quality lectures and opportunities.",
-        "location": "Impact Hub Lindengasse 56, 1070 Wien, Austria ",
+        "location": "Impact Hub Lindengasse 56, 1070 ",
         "isAllDay": false,
         "group": "Networking"
     },
@@ -35,7 +35,7 @@ window.eventData = [
         "from": "2024-06-26T07:00:00.000Z",
         "to": "2024-06-27T16:00:00.000Z",
         "description": "The CCAS24 is the leading event focused on climate action in cities, FIWARE is proud to partner with Smart Cities World.",
-        "location": "County Hall Belvedere Rd, London SE1 7GP, Regno Unito ",
+        "location": "County Hall Belvedere Rd, SE1 7GP ",
         "isAllDay": false,
         "group": "Summit"
     },
@@ -45,7 +45,7 @@ window.eventData = [
         "from": "2024-11-04T23:00:00.000Z",
         "to": "2024-11-06T23:00:00.000Z",
         "description": "As an official Event Partner, we are honoured to be present in Pavilion 3, Stand B11, with the FIWARE Community booth.",
-        "location": "Fira Barcelona Gran Via Av. Joan Carles I, 64, 08908 L&#x27;Hospitalet de Llobregat, Barcelona, Spain ",
+        "location": "Fira Barcelona Gran Via Av. Joan Carles I, 64, 08908 L&#x27;Hospitalet de Llobregat ",
         "isAllDay": true,
         "group": "Conference"
     },
@@ -65,7 +65,7 @@ window.eventData = [
         "from": "2025-03-11T23:00:00.000Z",
         "to": "2025-03-13T23:00:00.000Z",
         "description": "This year’s edition will show market-ready use cases and advanced technology solutions for existing and future data spaces.",
-        "location": "Darmstadtium - Science and Congress Center Schlossgraben 1, 64283 Darmstadt, Germany ",
+        "location": "Darmstadtium - Science and Congress Center Schlossgraben 1, 64283 ",
         "isAllDay": true,
         "group": "Symposium"
     }
