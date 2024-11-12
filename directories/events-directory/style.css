@@ -130,6 +130,19 @@
     padding: 5px 6px;
 }
 
+.online-event.ongoing {
+    background-color: #15a97c;
+}
+.online-event.future {
+    background-color: #66b7c9;
+}
+.online-event.past {
+    background-color: #b8b5b5;
+}
+.online-event.recorded {
+    background-color: #c96667;
+}
+
 /* .online-event:before {
     content: url(https://www.fiware.org/custom/icons/white/website.svg);
     width: 12px;
