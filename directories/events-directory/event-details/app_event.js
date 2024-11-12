@@ -24,9 +24,12 @@ function wrapImage(id, width, height, src) {
   //}
 }
 
-function wrapEventBrite (id, eventBrite){
+function wrapEventBrite (id, eventBrite, website){
   if (eventBrite !== ''){
     $(id).attr("href", `https://www.eventbrite.com/e/${eventBrite}`)
+  } else if (website !== ''){
+    $(id).attr("href", website);
+    $(id).text("Website");
   } else {
     $(id).parent().empty();
   }
@@ -79,7 +82,7 @@ function wrapVenueDetails (id, event){
     <dd>${event.country}</dd>
     `;
 
-  if (event.website !== ''){
+  if (event.eventBrite !== '' && event.website !== ''){
      html += `<dt></dt><dd>&nbsp;</dd><dt></dt>
       <dd><a href="${event.website}">Event Website</a></dd>
       `
@@ -90,12 +93,24 @@ function wrapVenueDetails (id, event){
 
 function wrapSpeakers (id, speakers){
 
-  var div= `<div class="et_pb_text_inner"><h5>Presenters</h5>`;
+  var div= "";
   speakers.forEach((speaker) => {
-      div += `<p><b>${speaker.name}</b> (${speaker.job}, ${speaker.company})</p>`
+      div += `
+      <div class="speaker" data-modal="${speaker.id}">`;
+      if(speaker.img){
+           div += `<div class="profile-picture">
+                <img decoding="async" alt="${speaker.name}" src="${speaker.img}" loading="lazy">
+              </div>`;}
+       div += `<div class="speaker-info">
+                <div class="speaker-name">${speaker.name}</div>`;
+      
+      if(speaker.shortJob){
+        div += `<div class="speaker-job-title">${speaker.shortJob}</div>`;}
+      if(speaker.company){
+        div += `<div class="speaker-company">${speaker.company}</div>`;}
+        div += `</div>
+            </div>`;
   })
-  div +="</div>";
-
   $(id).empty();
   $(id).append(div);
 }
@@ -156,7 +171,7 @@ function fillJob(eventDetails) {
   $("h1#title").text(eventDetails.title);
   wrapImage("#event-cover", 1920, 1080, eventDetails.img);
 
-  wrapEventBrite("#register", eventDetails.eventBrite);
+  wrapEventBrite("#register", eventDetails.eventBrite, eventDetails.website);
   
   if(eventDetails.speakers.length > 0){
     wrapSpeakers("#speakers", eventDetails.speakers);

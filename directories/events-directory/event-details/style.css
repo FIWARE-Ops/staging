@@ -4,3 +4,19 @@ font-weight: 600;
 color: #002452;
 text-transform: uppercase;
 }
+
+.speakers.active {
+    background: rgba(255, 255, 255, 0.3);
+    cursor: grabbing;
+    cursor: -webkit-grabbing;
+    /*transform: scale(0.99);*/
+}
+
+.speakers::-webkit-scrollbar {
+    display: none;
+}
+
+.speakers-container {
+    width: 100%;
+    padding: 0;
+}
