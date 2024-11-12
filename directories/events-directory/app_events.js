@@ -303,20 +303,28 @@ function horizontalScroll() {
 
 function initOnlineEvents() {
   const now = new Date() 
-  console.log ('NOW: ' + now.toDateString() +  now.toTimeString())
-   const events = $('.event-date .online-event');
-   $('.event-date .online-event').each((index, value)=> {
+  const events = $('.event-date .online-event');
+  $('.event-date .online-event').each((index, value)=> {
       const dateFrom = new Date($(value).parent().data('from'));
       const dateTo = new Date($(value).parent().data('to'));
       const url = $(value).data('url');
+      const recording = $(value).data('recording');
+      const eventBrite = $(value).data('event-brite');
 
       if ( dateTo < now){
-        $(value).addClass('past')
-         $(value).text('recorded')
-        $(value).parent().append(`<a href="${url}">view recording</a>`)
+        if (recording){
+           $(value).addClass('recorded')
+           $(value).parent().append(`<a href="${url}">watch</a>`)
+        } else {
+          $(value).addClass('past')
+        }
       } else  if  ( dateFrom > now){
         $(value).addClass('future');
-        $(value).parent().append(`<a href="${url}">register</a>`)
+        if (eventBrite){
+          $(value).parent().append(
+            `<a href="https://www.eventbrite.com/e/${eventBrite}">register</a>`
+          );
+        }
       } else {
         $(value).addClass('ongoing')
         $(value).parent().append(`<a href="${url}">join</a>`)

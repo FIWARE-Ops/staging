@@ -25,35 +25,11 @@ function wrapImage(id, width, height, src) {
 }
 
 function wrapEventBrite (id, eventBrite){
-
-var img =
-  `<div class="et_pb_with_border et_pb_module et_pb_text et_pb_text_1  et_pb_text_align_left et_pb_bg_layout_light">
-  <div class="et_pb_text_inner">
-    <h4>PLEASE NOTE</h4>
-    <p>Registration is required. You will find the access information for the event in the registration confirmation email.</p>
-  </div>
-</div>
-<div class="et_pb_with_border et_pb_module et_pb_code et_pb_code_0">
-  <div class="et_pb_code_inner">
-    <div id="eventbrite-widget-container-${eventBrite}"></div>
-    <script type="text/javascript">
-      var exampleCallback = function() {
-        console.log('Order complete!');
-      };
-      window.EBWidgets.createWidget({
-        widgetType: 'checkout',
-        eventId: '${eventBrite}',
-        iframeContainerId: 'eventbrite-widget-container-${eventBrite}',
-        iframeContainerHeight: 520,
-        onOrderComplete: exampleCallback 
-    });
-    </script>
-  </div>
-</div>`;
-
-  $(id).empty();
-  $(id).append(img);
-
+  if (eventBrite !== ''){
+    $(id).attr("href", `https://www.eventbrite.com/e/${eventBrite}`)
+  } else {
+    $(id).parent().empty();
+  }
 }
 
 function wrapEventDetails (event){
@@ -149,8 +125,6 @@ function addChips(id, items) {
 }
 
 function addMap(eventDetails){
-
-  console.log('add')
   if(eventDetails.latitude === ''){
       $('#map').empty();
       return;
@@ -180,19 +154,10 @@ function fillJob(eventDetails) {
   }
   window.eventDetailsDone = true;
   $("h1#title").text(eventDetails.title);
-  let dateText = `${eventDetails.shortDateStart}`;
-  if (eventDetails.start){
-     dateText += `  @ ${eventDetails.start} – ${eventDetails.end}  ${eventDetails.timeZone}`
-  }
-  if (eventDetails.shortDateStart !== eventDetails.shortDateEnd){
-    dateText += ` - ${eventDetails.shortDateEnd}`
-  }
-  $("span#date-start").text(dateText);
   wrapImage("#event-cover", 1920, 1080, eventDetails.img);
 
-  if(eventDetails.eventBrite){
-    wrapEventBrite("#registration", eventDetails.eventBrite);
-  }
+  wrapEventBrite("#register", eventDetails.eventBrite);
+  
   if(eventDetails.speakers.length > 0){
     wrapSpeakers("#speakers", eventDetails.speakers);
   }
