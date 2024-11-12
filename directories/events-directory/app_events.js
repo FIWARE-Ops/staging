@@ -352,6 +352,8 @@ function initSticky() {
 function listViewShow(){
   $("#app").show();
   $("#calendar").hide();
+  $(".dropdown-container").show();
+  $(".search-element").show();
   $("#selected-event").hide();
   $('#selected-event').html('');
 }
@@ -360,6 +362,8 @@ function calendarShow(){
  
   $("#calendar").show();
   $("#selected-event").show();
+  $(".dropdown-container").hide();
+  $(".search-element").hide();
   $("#app").hide();
 }
 
