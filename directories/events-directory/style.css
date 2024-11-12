@@ -1002,11 +1002,16 @@
 .toggle-views {
     border: 1px solid #c6c6c6;
     border-radius: 4px;
+    min-width: 140px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .btn-toggle-view {
     display: inline-block;
-    padding: 8px 10px;
+    padding: 8px 12px;
     position: relative;
     font-size: 14px;
     text-align: center;
@@ -1040,9 +1045,9 @@ input[type=radio].toggle.toggle-left+label:after {
     left: 100%;
 }
 
-input[type=radio].toggle.toggle-right+label {
+/* input[type=radio].toggle.toggle-right+label {
     margin-left: -5px;
-}
+} */
 
 input[type=radio].toggle.toggle-right+label:after {
     left: -100%;
@@ -1090,7 +1095,7 @@ input[type=radio].toggle:checked+label:after {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 520px;
+    width: 516px;
     margin: 0 auto;
     gap: 20px;
 }
@@ -1455,6 +1460,38 @@ input[type="search"]::placeholder {
 
 /* –––––––––––––––– */
 
+@media screen and (max-width: 1140px) {
+    .panel-info {
+        flex-direction: column;
+        height: auto;
+        align-items: flex-start;
+        padding: 10px 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .item-container {
+        flex-direction: column-reverse;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .gridElementTextContainer {
+        width: 100%;
+        max-width: none;
+    }
+
+    .gridElementLogo {
+        width: 100%;
+    }
+
+    .panel-info {
+        flex-direction: row;
+        align-items: center;
+        height: 45px;
+    }
+}
+
 @media screen and (max-width: 767px) {
 
     /* Modal */
@@ -1543,152 +1580,6 @@ input[type="search"]::placeholder {
         overflow: auto;
     }
 }
-
-
-@media screen and (min-device-width: 481px) and (max-device-width: 980px) {
-
-    /* .et_pb_sticky .et_pb_code_2 {
-    padding-top: 20px!important;
-    padding-bottom: 20px!important;
-} */
-
-    /* Card */
-
-    .grid {
-        width: 80%;
-        margin: 0 auto;
-    }
-
-    .grid-item {
-        width: 100%;
-        padding: 0px;
-    }
-
-    .gridElementImageAndDetails {
-        flex-direction: row;
-        padding: 40px 20px 0px 20px;
-    }
-
-    .grid-item ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        display: block;
-        overflow-x: scroll;
-        overflow-y: hidden;
-        white-space: nowrap;
-        width: 100%;
-    }
-
-    .grid-item ul::-webkit-scrollbar {
-        display: none;
-    }
-
-    .gridElementTechnologyDomain {
-        width: 100%;
-        padding: 0px 0px 16px 20px;
-    }
-
-    .gridElementTextContainer {
-        width: 90%;
-        padding: 0px 20px;
-    }
-
-    .label-card {
-        padding-bottom: 10px !important;
-    }
-
-    .chip-technology {
-        margin-bottom: 8px;
-    }
-
-    .chip-domain li {
-        display: inline-block;
-    }
-
-    .chip-technology li {
-        display: inline-block;
-    }
-
-    /* Search & Filtering */
-
-    .filtersBar {
-        width: 100% !important;
-        left: 0px !important;
-    }
-
-    /* Toggle Open Close Filters */
-
-    #mobileToggleFilters {
-        display: block;
-        width: 100%;
-        font-size: 14px;
-        font-weight: 600;
-        color: #002e67;
-        text-transform: uppercase;
-        display: flex;
-        align-items: flex-end;
-        padding: 15px 0px;
-    }
-
-    .filters-container {
-        transition: height .5s ease;
-        overflow: hidden;
-        width: 80%;
-        margin: 0 auto;
-        padding-top: 16px;
-        border-top: 1px solid #aaa;
-    }
-
-    .filters-container:not(.active) {
-        display: none;
-    }
-
-    /* Filtering */
-
-    .category-badge {
-        margin-top: 20px;
-    }
-
-    .products-record {
-        width: auto;
-    }
-
-    .filter-by {
-        width: auto;
-    }
-
-    .filter-element select {
-        width: 100%;
-    }
-
-    .filters-checkbox {
-        display: flex;
-        flex-direction: row;
-    }
-
-    #member {
-        margin: 15px 15px 15px 0px;
-    }
-
-    #filter-last {
-        width: 100%;
-    }
-
-    .sort-element {
-        display: flex;
-        flex-direction: row;
-        padding-bottom: 20px;
-        justify-content: space-evenly;
-    }
-
-    #orderByYear {
-        margin-right: 12px;
-    }
-
-}
-
-
 
 @media only screen and (max-width: 480px) {
 
