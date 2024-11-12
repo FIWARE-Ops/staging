@@ -292,7 +292,7 @@
     width: fit-content;
     font-weight: 600;
     font-size: 14px;
-    line-height: 1em;
+    line-height: 1.3em;
     color: #696969;
     padding-bottom: 0px;
 }
@@ -1490,9 +1490,17 @@ input[type="search"]::placeholder {
 }
 
 @media screen and (max-width: 1024px) {
+
+
+    .et_pb_section_3.et_pb_section {
+        width: 100%;
+        max-width: 720px;
+        margin: 0 auto;
+    }
+
     .item-container {
         flex-direction: column-reverse;
-        width: 100%;
+        /* width: 100%; */
         gap: 20px;
     }
 
@@ -1611,7 +1619,7 @@ input[type="search"]::placeholder {
     /* Card */
 
     .grid {
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
     }
 
@@ -1620,6 +1628,15 @@ input[type="search"]::placeholder {
         padding: 0px;
         margin: 20px auto;
         position: relative;
+        gap: 20px;
+    }
+
+    .item-container {
+        width: calc(100% - 80px);
+    }
+
+    .panel-info {
+        height: auto;
     }
 
     .grid-item ul {
@@ -1650,9 +1667,9 @@ input[type="search"]::placeholder {
         display: inline-block;
     }
 
-    .gridElementLogo {
+    /* .gridElementLogo {
         padding: 30px 20px 20px;
-    }
+    } */
 
     /* .grid-item img {
     width: 140px;
@@ -1661,7 +1678,7 @@ input[type="search"]::placeholder {
 
     .gridElementTextContainer {
         width: 100%;
-        padding: 20px;
+        /* padding: 20px; */
     }
 
     .solution-name {
