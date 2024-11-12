@@ -1025,7 +1025,7 @@ z-index: 99999;
 				
 				<div class="et_pb_code_inner"><div>
 	<p class="event-attribute-label">Speakers</p> 
-	<dl id="speakers">
+	<dl id="speakers"/>
 </div></div>
 			</div>
 			</div><div class="et_pb_column et_pb_column_2_5 et_pb_column_3  et_pb_css_mix_blend_mode_passthrough et-last-child">
@@ -1067,7 +1067,18 @@ z-index: 99999;
 				<div class="et_pb_code_inner"><div>
 	<dl id="venue-details"/>
 </div>
-<div id="map" style="height:180px" class="maplibregl-map"></div>
+
+<div id="map" style="height:180px;width:400px"></div>
+<script src="./app_event.js"></script>
+<script>
+	if (!window.jobs){
+		var scr = document.createElement("script");
+		scr.src = "./pageData.js" + "?ts=" + Math.round(new Date().getTime()/3600000);
+		document.getElementsByTagName("head")[0].appendChild(scr);
+	}
+</script>
+
+
 </div>
 			</div>
 			</div>
@@ -1159,14 +1170,7 @@ z-index: 99999;
 				
 				<div class="et_pb_code_inner">
 
-<script src="./app_event.js"></script>
-<script>
-	if (!window.jobs){
-		var scr = document.createElement("script");
-		scr.src = "./pageData.js" + "?ts=" + Math.round(new Date().getTime()/3600000);
-		document.getElementsByTagName("head")[0].appendChild(scr);
-	}
-</script>
+
 
 <style>
 .et_pb_post .entry-featured-image-url {
@@ -1489,12 +1493,7 @@ padding: 0;
 		</div>
 		</div>
 
-					<script>
-		( function ( body ) {
-			'use strict';
-			body.className = body.className.replace( /\btribe-no-js\b/, 'tribe-js' );
-		} )( document.body );
-		</script>
+	
 		
   <!--copyscapeskip-->
   <aside id="moove_gdpr_cookie_info_bar" class="moove-gdpr-info-bar-hidden moove-gdpr-align-center moove-gdpr-dark-scheme gdpr_infobar_postion_bottom" aria-label="GDPR Cookie Banner" style="display: none;">
@@ -1553,8 +1552,8 @@ var monarchSettings = {"ajaxurl":"https:\/\/www.fiware.org\/wp-admin\/admin-ajax
 var pageinfo = {"is_single":"0","post_type":"page","is_events_page":"","is_search":""};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://www.fiware.org/wp-content/themes/Divi-child/js/theme.js?ver=1.0" id="theme-js-js"></script>
-<script type="text/javascript" src="https://www.fiware.org/wp-content/themes/Divi-child/js/contact-us.js?ver=1.0" id="contact-us-js-js"></script>
+<!--script type="text/javascript" src="https://www.fiware.org/wp-content/themes/Divi-child/js/theme.js?ver=1.0" id="theme-js-js"></script>
+<script type="text/javascript" src="https://www.fiware.org/wp-content/themes/Divi-child/js/contact-us.js?ver=1.0" id="contact-us-js-js"></script-->
 <script type="text/javascript" id="divi-custom-script-js-extra">
 /* <![CDATA[ */
 var DIVI = {"item_count":"%d Item","items_count":"%d Items"};
