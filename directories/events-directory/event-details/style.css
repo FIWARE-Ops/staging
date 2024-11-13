@@ -30,7 +30,7 @@ dd.tribe-venue {
 #event-date .event-attribute-label::before {
   content: url(https://www.fiware.org/custom/icons/black/date.svg);
   display: inline-block;
-  width: 15px;
+  width: 14px;
   margin-right: 5px;
 }
 
@@ -58,7 +58,7 @@ dd.tribe-venue {
 #venue-details .event-attribute-label::before {
   content: url(https://www.fiware.org/custom/icons/black/location.svg);
   display: inline-block;
-  width: 15px;
+  width: 14px;
   margin-right: 5px;
 }
 
