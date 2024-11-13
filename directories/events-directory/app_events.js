@@ -228,7 +228,7 @@ function initOnlineEvents() {
         } else {
           $(value).addClass('past')
         }
-      } else if (dateFrom > now){
+      } else if (dateTo < now && dateFrom > now){
         $(value).addClass('ongoing')
         if (url){
           $(value).html(`<a href="${url}">Join&nbsp;Now</a>`)
