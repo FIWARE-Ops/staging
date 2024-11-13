@@ -1,3 +1,116 @@
+function createModalContent(tingleModalData) {
+  var modalHtml = "";
+
+  modalHtml += "<div class='info-modal'>";
+  modalHtml += '<img class="headshot" src="' + tingleModalData.img + '" />';
+  modalHtml += "<div class='credits-modal'>";
+  if (tingleModalData.name !== "") {
+    modalHtml += "<h1>" + tingleModalData.name + "</h1>";
+  }
+  if (tingleModalData.position !== "") {
+    modalHtml += "<h2>" + tingleModalData.position + "</h2>";
+  }
+  if (tingleModalData.company !== "") {
+    modalHtml +=
+      '<a class="company-link" href="' +
+      tingleModalData["company-link"] +
+      '" target="_blank">' +
+      tingleModalData.company +
+      "</a>";
+  }
+  modalHtml += "</div>";
+  modalHtml += "</div>";
+  modalHtml += "<div class='bio-modal'>";
+  if (tingleModalData.content !== "") {
+    modalHtml += "<p>" + tingleModalData.content + "</p>";
+  }
+  modalHtml += "</div>";
+  modalHtml += "<div class='details-modal'>";
+  modalHtml += "<div class='social-modal'>";
+
+  if (tingleModalData.twitter !== "") {
+    modalHtml +=
+      '<a class="twitter-link" href="' +
+      tingleModalData["twitter"] +
+      '" target="_blank"></a>';
+  }
+  if (tingleModalData.linkedin !== "") {
+    modalHtml +=
+      '<a class="linkedin-link" href="' +
+      tingleModalData["linkedin"] +
+      '" target="_blank"></a>';
+  }
+  if (tingleModalData.flag !== "") {
+    modalHtml += `<img class="flag"  src="${tingleModalData.flag}"/>`;
+  }
+  modalHtml += "</div>";
+  modalHtml += "<div class='tags-modal'>";
+  if (tingleModalData.domain) {
+    modalHtml += '<p class="domain">' + tingleModalData.domain + "</p>";
+  }
+  /*
+  if (tingleModalData.location) {
+    modalHtml += '<p class="location">' + tingleModalData.location + "</p>";
+  }*/
+  modalHtml += "</div>";
+
+  return modalHtml;
+}
+
+// Returns the right classNames for isotope card filtering system
+function createClassFilter(data) {
+  var filterString = "";
+  var regex = /([^a-zA-Z0-9À-ÿ])/gi;
+  if (typeof data == "object") {
+    data.forEach((element, i) => {
+      if (i + 1 === data.length) {
+        filterString += `${element
+          .toLowerCase()
+          .replace(/&amp/gi, "")
+          .replace(regex, "-")}`;
+      } else {
+        filterString += `${element
+          .toLowerCase()
+          .replace(/&amp/gi, "")
+          .replace(regex, "-")} `;
+      }
+    });
+  } else {
+    filterString = data.toLowerCase().replace(/&amp/gi, "").replace(regex, "-");
+  }
+
+  return filterString;
+}
+
+
+function initModal() {
+  // Modal
+  document.querySelectorAll(".speaker").forEach(function (el) {
+    el.addEventListener("click", function (e) {
+      var modal = new tingle.modal({
+        footer: true,
+        stickyFooter: false,
+        closeMethods: ["overlay", "button", "escape"],
+        closeLabel: "Close",
+        cssClass: ["tingle-modal--fullscreen"],
+        onOpen: function () {},
+        onClose: function () {},
+        beforeClose: function () {
+          // here's goes some logic
+          // e.g. save content before closing the modal
+          return true; // close the modal
+        },
+      });
+      // set content
+
+      modal.setContent(createModalContent(window.modalData[el.dataset.modal]));
+
+      // open modal
+      modal.open();
+    });
+  });
+}
+
 function wrapImage(id, width, height, src) {
   var img = "";
 
@@ -101,7 +214,7 @@ function wrapSpeakers (id, speakers){
   var div= "";
   speakers.forEach((speaker) => {
       div += `
-      <div class="speaker" data-modal="${speaker.id}">`;
+      <div class="speaker" data-modal="${createClassFilter(speaker.name)}">`;
       if(speaker.img){
            div += `<div class="profile-picture">
                 <img decoding="async" alt="${speaker.name}" src="${speaker.img}" loading="lazy">
@@ -296,6 +409,7 @@ function initialiseStyleBackgroundIntersectionObserver() {
 document.addEventListener("data-ready", () => {
   loadEventDetails();
   horizontalScroll();
+  initModal();
 }, {once: true});
 
 $ = $ || jQuery;
