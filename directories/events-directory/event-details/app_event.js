@@ -181,7 +181,7 @@ function fillJob(eventDetails) {
   wrapVenueDetails("#venue-details", eventDetails)
 
   wrapParagraphs("#description", eventDetails.description);
-  addMap(eventDetails);
+  
 
   const title = eventDetails.title + " - " + eventDetails.type;
   document.title = title;
@@ -293,3 +293,10 @@ document.addEventListener("data-ready", () => {
   loadEventDetails();
   horizontalScroll();
 }, {once: true});
+
+
+$(document).ready(function(){
+  if ($.urlParam("id") && window.eventData[$.urlParam("id")]) {
+    addMap(window.eventData[$.urlParam("id")]);
+  }
+})
