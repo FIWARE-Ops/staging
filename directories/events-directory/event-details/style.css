@@ -1,14 +1,83 @@
+dl {
+    margin: 0 0 10px;
+    padding: 0 0 10px;
+    border-bottom: 1px solid #dedede;
+}
+
+dl#venue-details {
+    border-bottom: none;
+    padding: 0;
+    font-size: 14px;
+    text-wrap: balance;
+}
+
+dd.tribe-venue {
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: underline;
+    color: #002E67;
+    padding-bottom: 5px;
+}
+
 .event-attribute-label {
-font-size: 13px;
-font-weight: 600;
-color: #002452;
-text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    color: #000;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+#event-date .event-attribute-label::before {
+    content: url(https://www.fiware.org/custom/icons/blue/website.svg);
+    display: inline-block;
+    width: 15px;
+    margin-right: 5px;
+}
+
+#event-time .event-attribute-label::before {
+    content: url(https://www.fiware.org/custom/icons/blue/website.svg);
+    display: inline-block;
+    width: 15px;
+    margin-right: 5px;
+}
+
+#event-type .event-attribute-label::before {
+    content: url(https://www.fiware.org/custom/icons/blue/website.svg);
+    display: inline-block;
+    width: 15px;
+    margin-right: 5px;
+}
+
+#event-category .event-attribute-label::before {
+    content: url(https://www.fiware.org/custom/icons/blue/website.svg);
+    display: inline-block;
+    width: 15px;
+    margin-right: 5px;
+}
+
+#venue-details .event-attribute-label::before {
+    content: url(https://www.fiware.org/custom/icons/blue/website.svg);
+    display: inline-block;
+    width: 15px;
+    margin-right: 5px;
 }
 
 dd.event-date {
     min-width: fit-content;
     border: none;
-    padding-top: 5px;
+}
+
+dd.chip-domain {
+    padding: 5px 0;
+}
+
+ul.chips {
+    padding: 0;
+    list-style-type: none;
+}
+
+.chip-type li {
+    line-height: 15px;
 }
 
 .speakers.active {
@@ -25,4 +94,8 @@ dd.event-date {
 .speakers-container {
     width: 100%;
     padding: 0;
+}
+
+.maplibregl-map {
+    border-radius: 4px;
 }
