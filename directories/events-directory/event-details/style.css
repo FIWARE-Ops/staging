@@ -5,6 +5,12 @@ color: #002452;
 text-transform: uppercase;
 }
 
+dd.event-date {
+    min-width: fit-content;
+    border: none;
+    padding-top: 5px;
+}
+
 .speakers.active {
     background: rgba(255, 255, 255, 0.3);
     cursor: grabbing;
