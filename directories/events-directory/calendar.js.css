@@ -13,8 +13,44 @@ div.calendar {
   border-radius: 4px!important;
 }
 
-div.calendar sup {
+.title-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 0 6px 0;
+
+}
+
+.ib-arrow-left-full {
+  position: absolute;
+  right: 30px;
+  border-right: 12px solid var(--calendar-js-title-bar-button-color)
+}
+
+.ib-arrow-right-full {
+  position: absolute;
+  right: 8px;
+  border-left: 12px solid var(--calendar-js-title-bar-button-color)
+}
+
+.ib-hamburger, .left-divider-line, .ib-pin, .ib-arrow-right-full-line, .left-divider-line-events, .ib-refresh, .ib-arrow-down-full-medium, sup {
   display: none !important;
+}
+
+.year-dropdown-button {
+  overflow: none!important;
+  padding: 0!important;
+  padding-left: 0!important;
+  padding-right: 0!important;
+  border-radius: 0!important;
+  background-color: rgba(255,255,255,0)!important;
+  border: 0!important;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600!important;
+  font-size: 18px;
+  transition: var(--calendar-js-transition);
+  transition-property: opacity;
 }
 
 div.calendar div.header-days {
