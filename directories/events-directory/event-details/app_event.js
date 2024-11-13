@@ -406,48 +406,41 @@ function initialiseStyleBackgroundIntersectionObserver() {
   }
 }
 
-
-function fileFetch(file, element) {
-  return new Promise(function (resolve, reject) {
-    fetch(file, {
-        mode: 'no-cors',
-        method: 'GET'})
-      .then((response) => {
-        element.removeAttribute("w3-include-html");
-        return (response.ok) ? response.text() : "";
-        })
-        .then((data) => {
-      $(`#${element.id}`).html(`${data}`);
-        return resolve();
-      })
-      .catch((err) => {
-          resolve();
-        });
+function enableCarousel() {
+  $(".owl-carousel").owlCarousel({
+    stagePadding: 30,
+    loop: false,
+    margin: 15,
+    nav: true,
+    navText: [
+      '<span class="uk-margin-small-right uk-icon" uk-icon="icon: chevron-left"></span>',
+      '<span class="uk-margin-small-left uk-icon" uk-icon="icon: chevron-right"></span>',
+    ],
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 2,
+      },
+      1000: {
+        items: 3,
+      },
+      1400: {
+        items: 4,
+      },
+      1600: {
+        items: 4,
+      },
+    },
   });
 }
 
-async function includeHTML(cb) {
-  const z = document.getElementsByTagName("*");
-  const promises = [];
-  for (let i = 0; i < z.length; i++) {
-    const element = z[i];
-    const file = element.getAttribute("w3-include-html");
-    if (element.id && file) {
-      promises.push(fileFetch(file, element))
-    }
-  }
-  await Promise.allSettled(promises)
-  if (cb) cb();
-};
 
-document.addEventListener("DOMContentLoaded", () => {
-    function myCallback() {
-        const event = new Event("html-included");
-        document.dispatchEvent(event);
-    }
-  includeHTML(myCallback);
+document.addEventListener("html-included", () => {
+  enableCarousel();
 });
-
+    
 document.addEventListener("data-ready", () => {
   loadEventDetails();
   horizontalScroll();
@@ -458,5 +451,6 @@ $ = $ || jQuery;
 $(document).ready(function(){
   if ($.urlParam("id") && window.eventData[$.urlParam("id")]) {
     addMap(window.eventData[$.urlParam("id")]);
+
   }
 })
