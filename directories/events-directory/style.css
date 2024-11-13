@@ -1098,7 +1098,7 @@ input[type=radio].toggle:checked+label:after {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .filters-container:not(.active) {
@@ -1112,10 +1112,10 @@ input[type=radio].toggle:checked+label:after {
 }
 
 .search-sort-container {
+    width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    width: 516px;
+    justify-content: end;
     margin: 0 auto;
     gap: 20px;
 }
@@ -1334,7 +1334,7 @@ input[type="checkbox"]:checked+label::after {
 
 .search-element {
     position: relative;
-    width: 70%;
+    min-width: calc(100% - 160px);
 }
 
 .resetInput {
@@ -1362,20 +1362,15 @@ input[type="checkbox"]:checked+label::after {
 }
 
 #searchInput {
-    padding: 5px;
-    max-width: unset !important;
-    width: -moz-available;
-    /* WebKit-based browsers will ignore this. */
-    width: -webkit-fill-available;
-    /* Mozilla-based browsers will ignore this. */
-    width: fill-available;
-    font-size: 16px;
+    width: 100%;
+    max-width: 516px;
 }
 
 input[type="search"] {
+    box-sizing: border-box;
     background-image: url(https://www.fiware.org/custom/icons/blue/search.svg);
-    background-position: 3%;
-    background-size: 6%;
+    background-position: 2%;
+    background-size: 4%;
     background-repeat: no-repeat;
     background-color: rgba(255, 255, 255, 0);
     border-radius: 4px;
