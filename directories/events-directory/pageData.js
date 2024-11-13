@@ -50,6 +50,16 @@ window.eventData = [
         "group": "Conference"
     },
     {
+        "id": "202411-fiware-data-space-technologies-webinar--5--reference-use-case",
+        "title": "FIWARE Data Space Technologies Webinar #5: Reference Use Case",
+        "from": "2024-11-19T14:30:00.000Z",
+        "to": "2024-11-19T16:00:00.000Z",
+        "description": "This session will dive into a reference use case detailing the description of the participants and conclude with a deployment aligning to the business needs of the use case.",
+        "location": "Online",
+        "isAllDay": false,
+        "group": "FIWARE Webinars"
+    },
+    {
         "id": "202411-fiware-data-space-technologies-webinar--6--ongoing-and-future-work",
         "title": "FIWARE Data Space Technologies Webinar #6: Ongoing and Future Work",
         "from": "2024-11-21T14:30:00.000Z",
@@ -72,6 +82,10 @@ window.eventData = [
 ];
 
 var modalData = {
+    "stefan-wiedemann":
+        { name: "Stefan Wiedemann", img: "https://www.fiware.org/wp-content/directories/people/images/200px/stefan-wiedemann.jpg", position: "Technical Lead &amp; Architect", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
+        content: "", linkedin: "https://www.linkedin.com/in/stefan-wiedemann-37a0ba13a/", twitter: "", domain: "", location: "",
+        flag: ""},
     "francisco-de-la-vega":
         { name: "Francisco de la Vega", img: "https://www.fiware.org/wp-content/directories/people/images/200px/francisco-de-la-vega.jpg", position: "Chief Technology Officer", company: "Ficodes", "company-link": "https://www.ficodes.com/en/",
         content: "Francisco de la Vega (male) is co-founder and CTO of the spanish startup FICODES as well as FIWARE architect. Francisco held a Master of Science in Computer Science from Universidad Politécnica de Madrid in 2015. Currently, he is making his Ph.D. in Computer Science in Universidad Politécnica de Madrid focusing on digital service management and monetization, automated revenue sharing, and value chain aggregation. As a researcher of the Computer Networks and Web Technologies Laboratory (CoNWeT Lab.) of UPM, he was engaged in several EU projects around the FIWARE platform starting in 2012, including FI-WARE and FI-CORE. Later, as CTO of FICODES he has been involved in multiple projects as FIWARE Architect, with a special focus in logistics, Smart Port and Smart City platforms. He has been actively participating on the FIWARE Community initially as the FIWARE Business Framework GEs owner (Store, Marketplace, Repository, and Revenue Settlement and Sharing system), and later as the FIWARE/TMF Business API Ecosystem GE owner, which integrates the aforementioned GEs with standard TMForum technologies. He is a member of the Data/API Management, Publication and Monetization FIWARE’s Technical Steering Committee.", linkedin: "https://www.linkedin.com/in/fdelavegagarcia", twitter: "https://twitter.com/frandlvega", domain: "", location: "",
@@ -79,10 +93,6 @@ var modalData = {
     "juanjo-hierro":
         { name: "Juanjo Hierro", img: "https://www.fiware.org/wp-content/directories/people/images/200px/juanjo-hierro.jpg", position: "Chairman FIWARE TSC", company: "", "company-link": "",
         content: "Juanjo Hierro (m) obtained a degree in Computer Science in 1990 from the Universidad Politecnica de Madrid (UPM) and owns a certificate of research proficiency. In 1990, Juanjo joined Telefónica I+D where he stayed until he joined FIWARE Foundation. During his career at Telefónica, Juanjo had different management responsibilities in the development of mission-critical systems for Telefónica as well as several R&amp;D projects. In April 2011, he became the Chief Architect of the FIWARE programme combining this role with the one of the CTO of the IoT Division at Telefónica R&amp;D since November 2013. Now a days Juanjo is the Chairman of the FIWARE Technical Steering Committee.", linkedin: "https://www.linkedin.com/in/jhierro/", twitter: "https://twitter.com/JuanjoHierro", domain: "", location: "",
-        flag: ""},
-    "stefan-wiedemann":
-        { name: "Stefan Wiedemann", img: "https://www.fiware.org/wp-content/directories/people/images/200px/stefan-wiedemann.jpg", position: "Technical Lead &amp; Architect", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
-        content: "", linkedin: "https://www.linkedin.com/in/stefan-wiedemann-37a0ba13a/", twitter: "", domain: "", location: "",
         flag: ""},
     "clara-pezuela":
         { name: "Clara Pezuela", img: "https://www.fiware.org/wp-content/directories/people/images/200px/clara-pezuela.jpg", position: "Chief Operations Officer", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
