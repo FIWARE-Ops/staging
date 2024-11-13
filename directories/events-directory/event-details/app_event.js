@@ -36,41 +36,39 @@ function wrapEventBrite (id, eventBrite, website){
 }
 
 function wrapEventDetails (event){
-  let dateText = event.shortDateStart;
+ let dateText = event.shortDateStart;
   if (event.shortDateStart !== event.shortDateEnd){
     dateText += ` - ${event.shortDateEnd}`
   }
-
-  var html= `
+  $('#event-date').html(`
     <dt class="event-attribute-label"> Date: </dt>
-    <dd class="event-date">${dateText}</dd>`;
-    if (event.start){
-      let timeText = `${event.start} – ${event.end}  ${event.timeZone}`
+    <dd class="event-date">${dateText}</dd>`);
 
-      html += `<dt class="event-attribute-label> Time: </dt><dd>
-        <div class="event-time"> ${timeText}</div></dd>`;
-    }
-  $('#event-date').html(html)
-
-  $('#event-type').html(`<dt class="event-attribute-label">Type</dt> 
+ if (event.start){
+    let timeText = `${event.start} – ${event.end}  ${event.timeZone}`
+    $('#event-time').html(`<dt class="event-attribute-label"> Time: </dt>
+      <dd class="event-time"> ${timeText}</dd>`);
+  } else {
+      $('#event-time').remove();
+  }
+  $('dl#event-type').html(`<dt class="event-attribute-label">Type</dt> 
     <dd class="chip-type">
       <ul class="chips">
         <li>${event.type}</li>
       </ul>
     </dd>`);
-  $('#event-category').html(`<dt class="event-attribute-label">Category</dt> 
+
+  $('dl#event-category').html(`<dt class="event-attribute-label">Category</dt> 
     <dd class="chip-domain">
       <ul class="chips">
         <li>${event.category}</li>
       </ul>
     </dd>`);
-
-
 }
 
 function wrapVenueDetails (id, event){
   if(event.venueName === ''){
-    $(id).parent().empty();
+    $(id).remove();
     return;
   }
   var venueName = event.venueName;
@@ -95,8 +93,7 @@ function wrapVenueDetails (id, event){
       <dd><a href="${event.website}">Event Website</a></dd>
       `
   }
-  $(id).empty();
-  $(id).append(html);
+  $(id).html(html);
 }
 
 function wrapSpeakers (id, speakers){
@@ -233,7 +230,6 @@ function horizontalScroll() {
 }
 
 function loadEventDetails() {
-  $ = $ || jQuery;
   $.urlParam = function (name) {
     var results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
       window.location.href,
@@ -302,7 +298,7 @@ document.addEventListener("data-ready", () => {
   horizontalScroll();
 }, {once: true});
 
-
+$ = $ || jQuery;
 $(document).ready(function(){
   if ($.urlParam("id") && window.eventData[$.urlParam("id")]) {
     addMap(window.eventData[$.urlParam("id")]);
