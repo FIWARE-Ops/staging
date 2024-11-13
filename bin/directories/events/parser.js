@@ -26,16 +26,9 @@ function getFeaturedEvents(types, categories, events){
         return event.startDate > now});
     const promotedEvents = splitEvents[0].concat(splitEvents[1].reverse());
     let featuredEvents = [];
-    types.forEach((type)=>{
-        featuredEvents = featuredEvents.concat((_.where(promotedEvents, { type : type }).slice(0, 1)));
-    });
-
-    /*
     categories.forEach((category)=>{
-        featuredEvents = featuredEvents.concat(_.where(promotedEvents, { category: category }).slice(0, 1));
+        featuredEvents = featuredEvents.concat((_.where(promotedEvents, { category}).slice(0, 3)));
     });
-    */
-    
     featuredEvents = _.uniq(featuredEvents);
     return featuredEvents;
 }
