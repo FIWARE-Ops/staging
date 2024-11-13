@@ -43,19 +43,27 @@ function wrapEventDetails (event){
 
   var html= `
     <dt class="event-attribute-label"> Date: </dt>
-    <dd>${dateText}</dd>`;
+    <dd class="event-date">${dateText}</dd>`;
     if (event.start){
       let timeText = `${event.start} – ${event.end}  ${event.timeZone}`
 
       html += `<dt class="event-attribute-label> Time: </dt><dd>
-        <div class=""> ${timeText}</div></dd>`;
+        <div class="event-time"> ${timeText}</div></dd>`;
     }
   $('#event-date').html(html)
 
   $('#event-type').html(`<dt class="event-attribute-label">Type</dt> 
-    <dd class=""> ${event.type}</dd>`);
+    <dd class="chip-type">
+      <ul class="chips">
+        <li>${event.type}</li>
+      </ul>
+    </dd>`);
   $('#event-category').html(`<dt class="event-attribute-label">Category</dt> 
-    <dd class=""> ${event.category}</dd>`);
+    <dd class="chip-domain">
+      <ul class="chips">
+        <li>${event.category}</li>
+      </ul>
+    </dd>`);
 
 
 }
