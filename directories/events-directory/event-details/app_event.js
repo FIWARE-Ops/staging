@@ -406,6 +406,48 @@ function initialiseStyleBackgroundIntersectionObserver() {
   }
 }
 
+
+function fileFetch(file, element) {
+  return new Promise(function (resolve, reject) {
+    fetch(file, {
+        mode: 'no-cors',
+        method: 'GET'})
+      .then((response) => {
+        element.removeAttribute("w3-include-html");
+        return (response.ok) ? response.text() : "";
+        })
+        .then((data) => {
+      $(`#${element.id}`).html(`${data}`);
+        return resolve();
+      })
+      .catch((err) => {
+          resolve();
+        });
+  });
+}
+
+async function includeHTML(cb) {
+  const z = document.getElementsByTagName("*");
+  const promises = [];
+  for (let i = 0; i < z.length; i++) {
+    const element = z[i];
+    const file = element.getAttribute("w3-include-html");
+    if (element.id && file) {
+      promises.push(fileFetch(file, element))
+    }
+  }
+  await Promise.allSettled(promises)
+  if (cb) cb();
+};
+
+document.addEventListener("DOMContentLoaded", () => {
+    function myCallback() {
+        const event = new Event("html-included");
+        document.dispatchEvent(event);
+    }
+  includeHTML(myCallback);
+});
+
 document.addEventListener("data-ready", () => {
   loadEventDetails();
   horizontalScroll();
