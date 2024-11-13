@@ -438,6 +438,15 @@ function enableCarousel() {
 
 
 document.addEventListener("html-included", () => {
+
+  if ($.urlParam("id") && window.eventData[$.urlParam("id")]) {
+    const category = createClassFilter(window.eventData[$.urlParam("id")].category);
+    document.querySelectorAll("#featured .item").forEach(function (el) {
+      if (category !== $(el).data('category')){
+        $(el).remove();
+      }
+    });
+  }
   enableCarousel();
 });
     
