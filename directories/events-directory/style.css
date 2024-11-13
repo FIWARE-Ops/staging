@@ -1737,6 +1737,11 @@ input[type="search"]::placeholder {
         padding: 5px 0 0;
     }
 
+    .online-event {
+        font-size: 11px;
+        padding: 4px;
+    }
+
     .speakers {
         gap: 20px;
     }
