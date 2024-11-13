@@ -12,14 +12,3 @@ window.eventData = [
     }{{#unless @last}},{{/unless}}
     {{/each}}
 ];
-
-var modalData = {
-{{#each people}}
-    {{#if img}}
-    "{{createClass name}}":
-        { name: "{{title}}{{name}}", img: "{{img}}", position: "{{job}}", company: "{{company}}{{companyType}}", "company-link": "{{website}}",
-        content: "{{bio}}", linkedin: "{{linkedIn}}", twitter: "{{twitter}}", domain: "{{domain}}", location: "{{country}}",
-        flag: "{{flag}}"}{{#unless @last}},{{/unless}}
-    {{/if}}
-{{/each}}
-};
