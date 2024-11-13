@@ -19,6 +19,27 @@ function getExcerpt(item) {
     return text.substring(0, next + 1);
 }
 
+function getFeaturedEvents(types, categories, events){
+    
+    const now = new Date();
+    const splitEvents =  _.partition(events, (event)=> {
+        return event.startDate > now});
+    const promotedEvents = splitEvents[0].concat(splitEvents[1].reverse());
+    let featuredEvents = [];
+    types.forEach((type)=>{
+        featuredEvents = featuredEvents.concat((_.where(promotedEvents, { type : type }).slice(0, 1)));
+    });
+
+    /*
+    categories.forEach((category)=>{
+        featuredEvents = featuredEvents.concat(_.where(promotedEvents, { category: category }).slice(0, 1));
+    });
+    */
+    
+    featuredEvents = _.uniq(featuredEvents);
+    return featuredEvents;
+}
+
 function formatYearMonth(data) {
     const date = new Date(data);
     return date.toISOString().split('T')[0].replaceAll("-","").substring(0,6);
@@ -184,6 +205,9 @@ function parse(eventsFile, speakersFile) {
                     const people = _.uniq(activeSpeakers);
                     const types = _.uniq(_.map(events, (event)=>{return event.type}));
                     const categories = _.uniq(_.map(events, (event)=>{return event.category}));
+
+                    const featuredEvents = getFeaturedEvents(types, categories, events)
+
                     const collator = new Intl.Collator("en", { sensitivity: "base" });
                     const speakerNames =
                         _.map(people, (a) => {
@@ -222,6 +246,11 @@ function parse(eventsFile, speakersFile) {
                         path.join(TEMPLATE_PATH, 'details.hbs'),
                         filterData
                     );
+                     Template.write(
+                        path.join(EVENTS_DIR, 'event-details/featured.html'),
+                        path.join(TEMPLATE_PATH, 'recent.hbs'),
+                        featuredEvents
+                    );  
 
                     Template.write(
                         path.join(EVENTS_DIR, '/pageData.js'),
