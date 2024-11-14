@@ -279,7 +279,7 @@ function addMap(eventDetails){
       attributionControl: false,
       dragRotate: false,
       center: [eventDetails.longitude, eventDetails.latitude],
-      zoom: 8
+      zoom: 16
   });
 
   map.addControl(new maplibregl.NavigationControl());
