@@ -31,17 +31,19 @@ dd.tribe-venue {
   content: url(https://www.fiware.org/custom/icons/black/date.svg);
   display: inline-block;
   width: 14px;
-  margin-right: 5px;
+  margin-right: 8px;
+  vertical-align: middle;
 }
 
 #event-time .event-attribute-label::before {
   content: url(https://www.fiware.org/custom/icons/black/time.svg);
   display: inline-block;
   width: 15px;
-  margin-right: 5px;
+  margin-right: 8px;
+  vertical-align: middle;
 }
 
-#event-type .event-attribute-label::before {
+/* #event-type .event-attribute-label::before {
   content: url(https://www.fiware.org/custom/icons/black/type.svg);
   display: inline-block;
   width: 15px;
@@ -53,13 +55,14 @@ dd.tribe-venue {
   display: inline-block;
   width: 15px;
   margin-right: 5px;
-}
+} */
 
 #venue-details .event-attribute-label::before {
   content: url(https://www.fiware.org/custom/icons/black/location.svg);
   display: inline-block;
   width: 14px;
-  margin-right: 5px;
+  margin-right: 8px;
+  vertical-align: middle;
 }
 
 dd.event-date {
