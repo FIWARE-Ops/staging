@@ -64,36 +64,36 @@ function inputSearch(itemElem, textString) {
 
 function initTextSearch(msnry) {
   // Search input
-  document.querySelector("#searchInput").addEventListener("keyup", (e) => {
-    if (e.target.value != "") {
-      e.target.parentNode.classList.add("resetActive");
+  $("#searchInput").keyup((ev) => {
+    if (ev.currentTarget.value != "") {
+      $(ev.currentTarget).parent().addClass("resetActive");
     } else {
-      e.target.parentNode.classList.remove("resetActive");
+      $(ev.currentTarget).parent().removeClass("resetActive");
     }
-    selectedText = e.target.value;
+    selectedText = ev.currentTarget.value;
     msnry.arrange({ sortBy: "original-order" });
   });
 
-  document.querySelector(".resetInput").addEventListener("click", (el) => {
-    document.querySelector("#searchInput").value = "";
+  $(".resetInput").click(() => {
+    $("#searchInput").val("");
     selectedText = '';
-    document.querySelector(".search-element").classList.remove("resetActive");
+    $(".search-element").removeClass("resetActive");
     msnry.arrange({ sortBy: "original-order" });
   });
 }
 
 function initSelect() {
 
-  $("#filterMonth").change(function(){
-       selectedMonth = this.value;
+  $("#filterMonth").change((ev) => {
+       selectedMonth = $(ev.currentTarget).val();
        msnry.arrange({ sortBy: "original-order" });
   });
-  $("#filterDomain").change(function(){
-       selectedDomain = this.value;
+  $("#filterDomain").change((ev) => {
+       selectedDomain = $(ev.currentTarget).val();
        msnry.arrange({ sortBy: "original-order" });
   });
-  $("#filterType").change(function(){
-       selectedType = this.value;
+  $("#filterType").change((ev) => {
+       selectedType = $(ev.currentTarget).val();
        msnry.arrange({ sortBy: "original-order" });
   });
 
@@ -289,8 +289,6 @@ function calendarShow(){
 function filterToggle() {
   let isMobile = window.matchMedia("(max-width: 767px)").matches;
 
-  console.log(isMobile)
-
   if(!isMobile){
     $(".title-filter").removeClass('show')
     $(".filters-container").addClass('show')
@@ -300,51 +298,25 @@ function filterToggle() {
   $(".title-filter").addClass('show');
   $(".filters-container").removeClass('show');
 
-
-
-
   let filtersContainer = document.querySelector(".filters-container");
-  document
-    .querySelector("#mobileToggleFilters")
-    .addEventListener("click", (ev) => {
-      ev.target.classList.toggle("activeButton");
+  $("#mobileToggleFilters").click((ev) => {
+      $(ev.target).toggleClass("activeButton");
 
-      if (!filtersContainer.classList.contains("active")) {
-        filtersContainer.classList.add("active");
-        document.querySelector("#filter-button-text").innerText =
-          "Hide Filters";
-        filtersContainer.style.height = "auto";
-
-        let height = filtersContainer.clientHeight + "px";
-
-        filtersContainer.style.height = "0px";
-
-        setTimeout(function () {
-          filtersContainer.style.height = height;
-        }, 0);
+      if ($(".filters-container").hasClass("show")){
+        $("#filter-button-text").html("Show Filters");
+        $(".filters-container").removeClass('show')
+        $(".filters-container").hide()
       } else {
-        filtersContainer.style.height = "0px";
-        document.querySelector("#filter-button-text").innerText =
-          "Show Filters";
-
-        filtersContainer.addEventListener(
-          "transitionend",
-          function () {
-            filtersContainer.classList.remove("active");
-          },
-          {
-            once: true,
-          },
-        );
-      }
+        $(".filters-container").addClass('show')
+        $(".filters-container").show()
+        $("#filter-button-text").html("Hide Filters");
+      }  
     });
 }
 
 function viewToggle() {
 
-  document
-    .querySelector("#toggle-on")
-    .addEventListener("change", (ev) => {
+  $("#toggle-on").change((ev) => {
       const value = $('input[name="toggle"]:checked').val();
       switch (value){
         case "list-view":
@@ -355,9 +327,7 @@ function viewToggle() {
           break;
       }
     });
-  document
-    .querySelector("#toggle-off")
-    .addEventListener("change", (ev) => {
+  $("#toggle-off").change((ev) => {
       const value = $('input[name="toggle"]:checked').val();
       switch (value){
         case "list-view":
