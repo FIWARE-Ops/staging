@@ -346,7 +346,10 @@ function parse(detailsFile, summaryFile, processRun) {
                     Template.write(
                         'showcase/powered-by-fiware/pageData.js',
                         path.join(TEMPLATE_PATH, 'modal.hbs'),
-                        summaryInfo.powered
+                        {
+                            members: _.where(summaryInfo.powered, {fiwareMember:true}),
+                            nonMembers: _.where(summaryInfo.powered, {fiwareMember:false})
+                        }
                     );
                     Prettier.format('showcase/powered-by-fiware/pageData.js', { parser: 'flow' });
                     console.log('');
@@ -356,7 +359,10 @@ function parse(detailsFile, summaryFile, processRun) {
                     Template.write(
                         'showcase/fiware-ready/pageData.js',
                         path.join(TEMPLATE_PATH, 'modal.hbs'),
-                        summaryInfo.ready
+                         {
+                            members: _.where(summaryInfo.ready, {fiwareMember:true}),
+                            nonMembers: _.where(summaryInfo.ready, {fiwareMember:false})
+                        }
                     );
                     Prettier.format('showcase/fiware-ready/pageData.js', { parser: 'flow' });
                     createSocialMedia(allProducts.details.ready, 'fiware-ready/', 'ready');
@@ -365,7 +371,10 @@ function parse(detailsFile, summaryFile, processRun) {
                     Template.write(
                         'showcase/support-services/pageData.js',
                         path.join(TEMPLATE_PATH, 'modal.hbs'),
-                        summaryInfo.services
+                         {
+                            members: _.where(summaryInfo.services, {fiwareMember:true}),
+                            nonMembers: _.where(summaryInfo.services, {fiwareMember:false})
+                        }
                     );
                     Prettier.format('showcase/support-services/pageData.js', { parser: 'flow' });
                     createSocialMedia(allProducts.details.services, 'support-services/', 'services');
@@ -374,7 +383,10 @@ function parse(detailsFile, summaryFile, processRun) {
                     Template.write(
                         'showcase/cities4cities/pageData.js',
                         path.join(TEMPLATE_PATH, 'modal.hbs'),
-                        summaryInfo.cities
+                         {
+                            members: _.where(summaryInfo.cities, {fiwareMember:true}),
+                            nonMembers: _.where(summaryInfo.cities, {fiwareMember:false})
+                        }
                     );
                     Prettier.format('showcase/cities4cities/pageData.js', { parser: 'flow' });
                     createSocialMedia(allProducts.details.cities, 'cities4cities/', 'cities');
