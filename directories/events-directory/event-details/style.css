@@ -28,7 +28,6 @@ dd.tribe-venue {
   font-weight: 600;
   color: #000;
   text-transform: uppercase;
-  padding-bottom: 5px;
 }
 
 #event-date .event-attribute-label::before {
