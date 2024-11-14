@@ -2,6 +2,10 @@ dl {
   margin: 0 0 10px;
   padding: 0 0 10px;
   border-bottom: 1px solid #dedede;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 10px;
 }
 
 dl#venue-details {
@@ -31,7 +35,7 @@ dd.tribe-venue {
   content: url(https://www.fiware.org/custom/icons/black/date.svg);
   display: inline-block;
   width: 14px;
-  margin-right: 8px;
+  /* margin-right: 8px; */
   vertical-align: middle;
 }
 
@@ -39,7 +43,7 @@ dd.tribe-venue {
   content: url(https://www.fiware.org/custom/icons/black/time.svg);
   display: inline-block;
   width: 15px;
-  margin-right: 8px;
+  /* margin-right: 8px; */
   vertical-align: middle;
 }
 
@@ -61,7 +65,7 @@ dd.tribe-venue {
   content: url(https://www.fiware.org/custom/icons/black/location.svg);
   display: inline-block;
   width: 14px;
-  margin-right: 8px;
+  /* margin-right: 8px; */
   vertical-align: middle;
 }
 
