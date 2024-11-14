@@ -323,6 +323,58 @@ function printDomain(data) {
   }
 }
 
+
+function buildTracker(href, type, product, company, excerpt){
+  const path = window.location.pathname.replace('/showcase', '');
+  var url = `fiware.org${path}${createClassFilter(company)}/${createClassFilter(product)}.html` ;
+  var eventObj = {
+    actor: {
+      type: "User", 
+      id: "System", //Ideal to have a randomly generated id which is stored in a cookie here
+    },
+    action: { 
+      type: "View Solution",
+      Name: product
+    },
+    context: { 
+      type: "Showcase",
+      name: "View Showcase Solution", 
+      attributes: {
+        url: url, 
+        "company name": company}
+    },
+    object: {
+      type: type,
+      name: company,
+      attributes:{
+        url: url, 
+        "company name": company,
+        description: excerpt,
+        indexforsearch: true 
+      }
+    }
+  };
+
+  if(this.qualetics){
+    this.qualetics.send(eventObj);
+  } else {
+    //console.log(eventObj)
+  }
+}
+
+// Card tracking
+function cardTracking(){
+ $(document).on("click","a.details", function (ev) {
+  buildTracker(
+    $(this).attr('href'),
+    $(this).data('type'),
+    $(this).parent().parent().find('.solution-name').text(),
+    $(this).parent().parent().find('.name').text(),
+    $(this).parent().parent().find('.excerpt').text()
+   );
+  });
+}
+
 // Card creation
 function cardCreation() {
   var appContainer = document.querySelector("#app");
@@ -359,7 +411,9 @@ function cardCreation() {
       </div>
     </div>
     <div class="foot">
-    <a class="details" href="${
+    <a class="details" 
+      data-type="${createClassFilter(gridElementData.type)}" 
+      href="${
       gridElementData.companyLink
     }"><span id="ico-info" class="material-symbols-outlined">info</span> See details</a>
     </div>
@@ -369,7 +423,6 @@ function cardCreation() {
     //appContainer.insertAdjacentHTML("beforeend", gridElement);
   });
   appContainer.innerHTML = appContainerTmpl;
-
   document.getElementById("filteredCompanies").innerText = pageData.length;
 }
 
@@ -642,6 +695,7 @@ function loadProducts() {
   smoothScroll();
   initDropdowns();
   cardCreation();
+  cardTracking();
   initCards();
   $("#app")
     .imagesLoaded()
