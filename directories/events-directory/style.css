@@ -178,6 +178,12 @@
     max-width: calc(50% - 20px);
 }
 
+.gridElementTextContainer a {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .gridElementLogo {
     width: 50%;
 }
@@ -680,7 +686,6 @@
     font-size: 12px;
     letter-spacing: 1px;
     color: #002E67;
-    cursor: default;
 }
 
 .speakers-gradient {
