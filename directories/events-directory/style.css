@@ -1022,7 +1022,7 @@
 .toggle-views {
     border: 1px solid #c6c6c6;
     border-radius: 4px;
-    min-width: 140px;
+    width: 140px;
     margin: 0;
     padding: 0;
     display: flex;
@@ -1098,7 +1098,7 @@ input[type=radio].toggle:checked+label:after {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .filters-container:not(.active) {
@@ -1108,15 +1108,6 @@ input[type=radio].toggle:checked+label:after {
 .show {
     display: flex!important;
     flex-direction: column;
-    gap: 20px;
-}
-
-.search-sort-container {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    margin: 0 auto;
     gap: 20px;
 }
 
@@ -1332,9 +1323,22 @@ input[type="checkbox"]:checked+label::after {
 
 /* Search */
 
+.search-sort-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.empty-container {
+    width: 140px;
+}
+
 .search-element {
     position: relative;
-    min-width: calc(100% - 160px);
+    width: 516px;
 }
 
 .resetInput {
@@ -1362,8 +1366,7 @@ input[type="checkbox"]:checked+label::after {
 }
 
 #searchInput {
-    width: 100%;
-    max-width: 516px;
+    width: 516px;
 }
 
 input[type="search"] {
