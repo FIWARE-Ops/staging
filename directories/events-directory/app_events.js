@@ -73,6 +73,13 @@ function initTextSearch(msnry) {
     selectedText = e.target.value;
     msnry.arrange({ sortBy: "original-order" });
   });
+
+  document.querySelector(".resetInput").addEventListener("click", (el) => {
+    document.querySelector("#searchInput").value = "";
+    selectedText = '';
+    document.querySelector(".search-element").classList.remove("resetActive");
+    msnry.arrange({ sortBy: "original-order" });
+  });
 }
 
 function initSelect() {
