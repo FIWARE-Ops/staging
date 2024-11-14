@@ -11,9 +11,12 @@ dl {
 dl#venue-name {
   border-bottom: none;
   padding: 0;
+  color: #000;
   font-size: 15px;
+  font-weight: 600;
   text-wrap: balance;
   gap: 0;
+  margin-left: 10px;
   margin-bottom: 5px;
 }
 
