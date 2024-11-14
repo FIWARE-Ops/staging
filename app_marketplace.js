@@ -295,18 +295,6 @@ function isFiwareIhubClass(data) {
   return data == true ? "isFiwareIhub" : "";
 }
 
-// Shuffle object order in pageData array before print the card html in page
-function shuffle(sourceArray) {
-  for (var i = 0; i < sourceArray.length - 1; i++) {
-    var j = i + Math.floor(Math.random() * (sourceArray.length - i));
-
-    var temp = sourceArray[j];
-    sourceArray[j] = sourceArray[i];
-    sourceArray[i] = temp;
-  }
-  return sourceArray;
-}
-
 // print technology
 
 function printTecnology(data) {
@@ -648,8 +636,8 @@ function horizontalScroll() {
   });
 }
 
+$ = $ || jQuery;
 function loadProducts() {
-  pageData = shuffle(pageData);
   horizontalScroll();
   smoothScroll();
   initDropdowns();
