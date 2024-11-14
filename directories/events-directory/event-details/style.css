@@ -16,17 +16,22 @@ dl#venue-name {
   font-weight: 600;
   text-wrap: balance;
   gap: 0;
-  margin-left: 10px;
   margin-bottom: 5px;
 }
 
 dl#venue-name a {
-  margin-left: 10px;
   color: #000;
   text-decoration: underline;
   font-size: 15px;
   font-weight: 600;
   text-underline-position: under
+}
+
+dt.tribe-venue {
+  margin-left: 10px;
+  color: #000;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 dl#venue-address {
