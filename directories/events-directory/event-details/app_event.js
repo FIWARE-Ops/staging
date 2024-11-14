@@ -409,7 +409,8 @@ function initialiseStyleBackgroundIntersectionObserver() {
 function enableCarousel() {
   $(".owl-carousel").owlCarousel({
     stagePadding: 30,
-    loop: false,
+    loop: true,
+    autoplay: true,
     margin: 15,
     nav: true,
     navText: [
