@@ -243,7 +243,7 @@ function initOnlineEvents() {
 function initSticky() {
   window.onscroll = onScrollHandler;
   function onScrollHandler() {
-    const header = document.getElementById("filters");
+    const header = document.getElementById("filter-head");
     const footer = document.getElementById("no-sticky");
 
     if (
