@@ -8,7 +8,7 @@ dl {
   gap: 10px;
 }
 
-dl#venue-details {
+dl#venue-name {
   border-bottom: none;
   padding: 0;
   font-size: 14px;
@@ -60,7 +60,7 @@ dd.tribe-venue {
   margin-right: 5px;
 } */
 
-#venue-details .event-attribute-label::before {
+#venue-name .event-attribute-label::before {
   content: url(https://www.fiware.org/custom/icons/black/location.svg);
   display: inline-block;
   width: 14px;

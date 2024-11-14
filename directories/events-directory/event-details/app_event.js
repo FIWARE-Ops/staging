@@ -179,33 +179,39 @@ function wrapEventDetails (event){
     </dd>`);
 }
 
-function wrapVenueDetails (id, event){
+function wrapVenueDetails (event){
   if(event.venueName === ''){
-    $(id).remove();
+    $('#venue-name').remove();
+    $('#venue-address').remove();
+    $('#venue-website').remove();
     return;
   }
   var venueName = event.venueName;
   if (event.venueLink !== ''){
     venueName = `<a href="${event.venueLink}">${venueName}</a>`
   }
-
-  var html =  `<dt class="event-attribute-label"></dt>
-    <dd class="tribe-venue"<dt>${venueName}</dd>
-    <dt aria-label="Venue name: This represents the address of the event venue.">
-    </dt>
-    <dd>${event.venueAddress}</dd>
-    <dt></dt>
-    <dd>${event.city}</dd>
-    <dt></dt>
-    <dd>${event.country}</dd>
-    `;
-
+ 
+  $("#venue-name").html(`<dt class="event-attribute-label"></dt>
+      <dd class="tribe-venue"><dt>${venueName}</dd>`
+  );
+  $("#venue-address").html( `
+      <dt aria-label="Venue name: This represents the address of the event venue.">
+      </dt>
+      <dd>
+        <div>${event.venueAddress}</div>
+        <div>${event.city}</div>
+        <div>${event.country}</div>
+      </dd>`
+  );
   if (event.eventBrite !== '' && event.website !== ''){
-     html += `<dt></dt><dd>&nbsp;</dd><dt></dt>
+    $("#venue-website").html(`<dt></dt><dd>&nbsp;</dd><dt></dt>
       <dd><a href="${event.website}">Event Website</a></dd>
       `
+    );
+  } else {
+    $('#venue-website').remove();
   }
-  $(id).html(html);
+ 
 }
 
 function wrapSpeakers (id, speakers){
@@ -224,7 +230,11 @@ function wrapSpeakers (id, speakers){
       if(speaker.shortJob){
         div += `<div class="speaker-job-title">${speaker.shortJob}</div>`;}
       if(speaker.company){
-        div += `<div class="speaker-company">${speaker.company}</div>`;}
+        div += `<div class="speaker-company">${speaker.company}</div>`;
+      }
+        div += `<div class="btn-icon">
+          <span class="material-symbols-outlined icon cta small">trending_flat</span>
+        </div>`;
         div += `</div>
             </div>`;
   })
@@ -295,7 +305,7 @@ function fillJob(eventDetails) {
   }
 
   wrapEventDetails(eventDetails)
-  wrapVenueDetails("#venue-details", eventDetails)
+  wrapVenueDetails(eventDetails)
 
   wrapParagraphs("#description", eventDetails.description);
   
