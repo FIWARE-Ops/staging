@@ -1851,6 +1851,9 @@ input[type="search"]::placeholder {
         overflow: hidden;
         /* padding-top: 10px;
         border-top: 1px solid #aaa; */
+        gap: 15px;
+        margin: 0 0 20px;
+        height: auto!important;
     }
 
     .filters-container:not(.active) {
@@ -1894,8 +1897,12 @@ input[type="search"]::placeholder {
         gap: 15px;
     }
 
+    .toggle-views {
+        margin: 0 auto;
+    }
+
     .search-sort-container {
-        flex-direction: column;
+        flex-direction: column-reverse;
         width: -webkit-fill-available;
         gap: 15px;
     }
@@ -1904,12 +1911,16 @@ input[type="search"]::placeholder {
         width: auto;
     }
 
+    #searchInput {
+        width: 100%;
+    }
+
     input[type="search"] {
         background-position: 3%;
     }
 
-    .btn-toggle-view {
-        width: -webkit-fill-available;
+    .empty-container {
+        display: none;
     }
 
     /* Filtering */
