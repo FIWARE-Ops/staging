@@ -17,15 +17,14 @@
         {{/if}}
       </div>
       <div class="item-container">
+        <a href="./event-details/?id={{yearMonth}}-{{createClass title}}">
         <div class="gridElementTextContainer">
           <div class='chip-type'>
             <ul class='chips'>
               <li>{{type}}</li>
             </ul>
           </div>
-          <a href="./event-details/?id={{yearMonth}}-{{createClass title}}">
             <p class="panel-title">{{title}}</p> 
-          </a>
           <!-- <div class="excerpt">{{excerpt}}</div> -->
           <div class='chip-domain'>
             <ul class='chips'>
@@ -46,6 +45,7 @@
             </div>
              {{/if}}
           </div>
+          </a>
           <div class="speakers">
             {{#each speakers}}
             <div class="speaker" {{#if shortJob}}data-modal='{{createClass name}}'{{/if}}>
