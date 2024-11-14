@@ -192,7 +192,7 @@ function wrapVenueDetails (event){
   }
  
   $("#venue-name").html(`<dt class="event-attribute-label"></dt>
-      <dd class="tribe-venue"><dt>${venueName}</dd>`
+      <dd><dt class="tribe-venue">${venueName}</dt></dd>`
   );
   $("#venue-address").html( `
       <dt aria-label="Venue name: This represents the address of the event venue.">
