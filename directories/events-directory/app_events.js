@@ -279,6 +279,60 @@ function calendarShow(){
   $("#app").hide();
 }
 
+function filterToggle() {
+  let isMobile = window.matchMedia("(max-width: 767px)").matches;
+
+  console.log(isMobile)
+
+  if(!isMobile){
+    $(".title-filter").removeClass('show')
+    $(".filters-container").addClass('show')
+    return;
+  }
+
+  $(".title-filter").addClass('show');
+  $(".filters-container").removeClass('show');
+
+
+
+
+  let filtersContainer = document.querySelector(".filters-container");
+  document
+    .querySelector("#mobileToggleFilters")
+    .addEventListener("click", (ev) => {
+      ev.target.classList.toggle("activeButton");
+
+      if (!filtersContainer.classList.contains("active")) {
+        filtersContainer.classList.add("active");
+        document.querySelector("#filter-button-text").innerText =
+          "Hide Filters";
+        filtersContainer.style.height = "auto";
+
+        let height = filtersContainer.clientHeight + "px";
+
+        filtersContainer.style.height = "0px";
+
+        setTimeout(function () {
+          filtersContainer.style.height = height;
+        }, 0);
+      } else {
+        filtersContainer.style.height = "0px";
+        document.querySelector("#filter-button-text").innerText =
+          "Show Filters";
+
+        filtersContainer.addEventListener(
+          "transitionend",
+          function () {
+            filtersContainer.classList.remove("active");
+          },
+          {
+            once: true,
+          },
+        );
+      }
+    });
+}
+
 function viewToggle() {
 
   document
@@ -318,6 +372,7 @@ document.addEventListener("html-included", () => {
   init = true;
   listViewShow();
   initSelect();
+  filterToggle();
   initCalendar();
   initOnlineEvents();
   horizontalScroll();
