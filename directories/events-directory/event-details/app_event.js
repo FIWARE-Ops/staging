@@ -154,12 +154,12 @@ function wrapEventDetails (event){
     dateText += ` - ${event.shortDateEnd}`
   }
   $('#event-date').html(`
-    <dt class="event-attribute-label">Date</dt>
+    <dt class="event-attribute-label"></dt>
     <dd class="event-date">${dateText}</dd>`);
 
  if (event.start){
     let timeText = `${event.start} – ${event.end}  ${event.timeZone}`
-    $('#event-time').html(`<dt class="event-attribute-label">Time</dt>
+    $('#event-time').html(`<dt class="event-attribute-label"></dt>
       <dd class="event-time"> ${timeText}</dd>`);
   } else {
       $('#event-time').remove();
@@ -189,8 +189,7 @@ function wrapVenueDetails (id, event){
     venueName = `<a href="${event.venueLink}">${venueName}</a>`
   }
 
-  var html =  `<dt class="event-attribute-label">Location 
-          </dt>
+  var html =  `<dt class="event-attribute-label"></dt>
     <dd class="tribe-venue"<dt>${venueName}</dd>
     <dt aria-label="Venue name: This represents the address of the event venue.">
     </dt>
