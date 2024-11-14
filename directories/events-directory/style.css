@@ -434,11 +434,11 @@
 
 .speakers-gradient {
     position: absolute;
+    top: 0;
     right: 0;
     height: 64px;
     margin-top: 0px;
-    width: 30px;
-    text-align: right;
+    width: 60px;
     background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
 }
 
@@ -697,17 +697,6 @@
     font-weight: 600;
     letter-spacing: .5px;
     color: #002E67;
-}
-
-.speakers-gradient {
-    display: none;
-    position: absolute;
-    top: 205px !important;
-    right: 0;
-    height: 85px;
-    width: 30px;
-    text-align: right;
-    background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
 }
 
 .foot {
@@ -1812,10 +1801,6 @@ input[type="search"]::placeholder {
     .speaker-job-title.detail,
     .speaker-company.detail {
         font-size: 13px;
-    }
-
-    .speakers-gradient {
-        display: none;
     }
 
     .chips-gradient {
