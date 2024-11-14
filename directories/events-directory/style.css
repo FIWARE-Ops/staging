@@ -1485,6 +1485,7 @@ input[type="search"]::placeholder {
         flex-direction: column;
         height: auto;
         align-items: flex-start;
+        gap: 5px;
         padding: 10px 0;
     }
 }
