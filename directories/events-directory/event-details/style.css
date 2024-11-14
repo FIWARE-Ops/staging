@@ -11,6 +11,24 @@ dl {
 dl#venue-name {
   border-bottom: none;
   padding: 0;
+  font-size: 15px;
+  text-wrap: balance;
+  gap: 0;
+  margin-bottom: 5px;
+}
+
+dl#venue-name a {
+  margin-left: 10px;
+  color: #000;
+  text-decoration: underline;
+  font-size: 15px;
+  font-weight: 600;
+  text-underline-position: under
+}
+
+dl#venue-address {
+  gap: 0;
+  border-bottom: none;
   font-size: 14px;
   text-wrap: balance;
 }
@@ -24,10 +42,9 @@ dd.tribe-venue {
 }
 
 .event-attribute-label {
-  font-size: 13px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 500;
   color: #000;
-  text-transform: uppercase;
 }
 
 #event-date .event-attribute-label::before {
@@ -71,6 +88,9 @@ dd.tribe-venue {
 dd.event-date {
   min-width: fit-content;
   border: none;
+  color: #000;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 dd.chip-domain {
