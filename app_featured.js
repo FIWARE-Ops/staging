@@ -29,8 +29,8 @@ function includeHTML(cb) {
 function enableCarousel() {
   $(".owl-carousel").owlCarousel({
     stagePadding: 30,
-    loop: true,
-    autoplay: true,
+    loop: false,
+    autoplay: false,
     margin: 15,
     nav: true,
     navText: [
@@ -40,9 +40,11 @@ function enableCarousel() {
     responsive: {
       0: {
         items: 1,
+        loop: true,
       },
       600: {
         items: 2,
+        loop: true,
       },
       1000: {
         items: 3,
