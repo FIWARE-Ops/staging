@@ -22,9 +22,9 @@ dl {
   gap: 10px;
 }
 
-dl.event-category {
-  max-width: 100%;
-  padding-bottom: 13px;
+dl#event-category {
+  /* max-width: 100%; */
+  align-items: center!important;
 }
 
 dl#venue-name {
@@ -155,8 +155,8 @@ dd.chip-domain {
 }
 
 .chip-domain {
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
   height: 28px;
 } 
 
