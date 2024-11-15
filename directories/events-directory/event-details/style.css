@@ -31,7 +31,7 @@ dl#event-category {
   align-items: center!important;
 }
 
-dl#venue-name {
+dl#venue-name, dl#venue-website {
   border-bottom: none;
   padding: 0;
   color: #000;
@@ -42,7 +42,7 @@ dl#venue-name {
   margin-bottom: 5px;
 }
 
-dl#venue-name a {
+dl#venue-name a, dl#venue-website a {
   color: #000;
   text-decoration: underline;
   font-size: 15px;
@@ -116,7 +116,15 @@ dd.tribe-venue {
   vertical-align: middle;
 }
 
-dd.event-date {
+#venue-website .event-attribute-label::before {
+  content: url(https://www.fiware.org/custom/icons/black/website.svg);
+  display: inline-block;
+  width: 14px;
+  /* margin-right: 8px; */
+  vertical-align: middle;
+}
+
+dd.event-date, dd.event-time {
   min-width: fit-content;
   border: none;
   color: #000;
