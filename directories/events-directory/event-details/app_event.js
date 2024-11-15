@@ -458,9 +458,19 @@ function enableCarousel() {
 document.addEventListener("html-included", () => {
 
   if ($.urlParam("id") && window.eventData[$.urlParam("id")]) {
-    const category = createClassFilter(window.eventData[$.urlParam("id")].category);
+    const currentCategories = window.eventData[$.urlParam("id")].category;
+    
+    
     document.querySelectorAll("#featured .item").forEach(function (el) {
-      if (category !== $(el).data('category')){
+      var remove = true;
+      var categories = $(el).data('category')
+      currentCategories.forEach((category)=> {
+        var catClass = createClassFilter(category);
+        if (categories.includes(catClass)){
+          remove = false;
+        }
+      });
+      if (remove) {
         $(el).remove();
       }
     });
