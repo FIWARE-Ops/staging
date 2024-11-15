@@ -14,12 +14,16 @@ function scrollToView() {
 var scrollSet = false;
 var init = false;
 var msnry;
-var selectedMonth =  new Number(new Date().toISOString().split('T')[0].replaceAll("-","").substring(0,6)- 1);
+var selectedMonth = getDate();
 var selectedText = "";
 var selectedType = "*";
 var selectedDomain = "*";
 
-
+function getDate(){
+  const date =  new Date(); 
+  date.setMonth(date.getMonth()+1);
+  return new Number(date.toISOString().split('T')[0].replaceAll("-","").substring(0,6)- 1);
+}
 
 function filterFunction (){
   const month = $(this).data('month');
