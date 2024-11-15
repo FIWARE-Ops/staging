@@ -60,10 +60,8 @@ window.eventData = [
         "group": "Summit"
     },
     {
-        "id": "202407-creating-combined-ngsi-v2-ngsi-ld-data-spaces--",
-        "title": "Creating Combined NGSI-v2/NGSI-LD Data Spaces
-
-",
+        "id": "202407-creating-combined-ngsi-v2-ngsi-ld-data-spaces",
+        "title": "Creating Combined NGSI-v2/NGSI-LD Data Spaces",
         "from": "2024-07-05T08:00:00.000Z",
         "to": "2024-07-05T09:00:00.000Z",
         "description": "Discover how context brokers can effectively combine the NGSI-v2 and NGSI-LD formats to take advantage of linked-data and non-linked-data systems within their domain.",
@@ -72,10 +70,8 @@ window.eventData = [
         "group": "Webinar"
     },
     {
-        "id": "202407-advanced-dashboards-with-wirecloud-2-0--",
-        "title": "Advanced Dashboards with WireCloud 2.0
-
-",
+        "id": "202407-advanced-dashboards-with-wirecloud-2-0",
+        "title": "Advanced Dashboards with WireCloud 2.0",
         "from": "2024-07-19T08:00:00.000Z",
         "to": "2024-07-19T09:00:00.000Z",
         "description": "This FIWARE Webinar will guide you through the essentials of setting up Wirecloud, crafting customized dashboards, and integrating data from FIWARE.",
