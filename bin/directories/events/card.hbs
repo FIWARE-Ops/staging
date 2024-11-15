@@ -25,12 +25,14 @@
             </ul>
           </div>
             <p class="panel-title">{{title}}</p> 
+        </a>
           <!-- <div class="excerpt">{{excerpt}}</div> -->
           <div class='chip-domain'>
             <ul class='chips'>
               {{#each category}}<li>{{this}}</li>{{/each}}
             </ul>
           </div>
+        <a href="./event-details/?id={{yearMonth}}-{{createClass title}}">  
           <div class="panel-info">
             {{#if (ne venueName '')}}
             <div class="location-container">
