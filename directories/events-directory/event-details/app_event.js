@@ -137,9 +137,16 @@ function wrapImage(id, width, height, src) {
   //}
 }
 
-function wrapEventBrite (id, eventBrite, website){
+function wrapEventBrite (id, eventBrite, website, startDate, endDate){
+  const now = new Date();
+  const dateTo = endDate ? new Date(endDate) : new Date (new Date(startDate).getTime() + 86400000);
   if (eventBrite !== ''){
-    $(id).attr("href", `https://www.eventbrite.com/e/${eventBrite}`)
+    $(id).attr("href", `https://www.eventbrite.com/e/${eventBrite}`);
+    console.log('xxx'+  endDate)
+    if (dateTo < now){
+      $(id).text("Event Ended");
+      $(id).addClass('past')
+    }
   } else if (website !== ''){
     $(id).attr("href", website);
     $(id).text("Website");
@@ -305,7 +312,7 @@ function fillJob(eventDetails) {
   $("h1#title").text(eventDetails.title);
   wrapImage("#event-cover", 1920, 1080, eventDetails.img);
 
-  wrapEventBrite("#register", eventDetails.eventBrite, eventDetails.website);
+  wrapEventBrite("#register", eventDetails.eventBrite, eventDetails.website, eventDetails.startDate, eventDetails.endDate);
   
   if(eventDetails.speakers.length > 0){
     wrapSpeakers("#speakers", eventDetails.speakers);
@@ -323,7 +330,7 @@ function fillJob(eventDetails) {
 
 function horizontalScroll() {
   // Horizontal Scroll
-  var sliders = document.querySelectorAll(".speakers");
+  var sliders = document.querySelectorAll(".speakers, .chip-domain .chips");
   var isDown = false;
   var startX;
   var scrollLeft;
