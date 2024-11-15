@@ -22,6 +22,11 @@ dl {
   gap: 10px;
 }
 
+dl.event-category {
+  max-width: 100%;
+  padding-bottom: 13px;
+}
+
 dl#venue-name {
   border-bottom: none;
   padding: 0;
@@ -116,6 +121,7 @@ dd.event-date {
 }
 
 dd.chip-domain {
+  overflow: auto;
   padding: 5px 0;
 }
 
