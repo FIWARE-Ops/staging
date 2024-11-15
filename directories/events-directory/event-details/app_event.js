@@ -461,11 +461,9 @@ function enableCarousel() {
     responsive: {
       0: {
         items: 1,
-        loop: true,
       },
       600: {
         items: 2,
-        loop: true,
       },
       1000: {
         items: 3,
