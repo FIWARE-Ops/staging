@@ -137,18 +137,24 @@ function wrapImage(id, width, height, src) {
   //}
 }
 
-function wrapEventBrite (id, eventBrite, website, startDate, endDate){
+function wrapEventBrite (id, event){
   const now = new Date();
-  const dateTo = endDate ? new Date(endDate) : new Date (new Date(startDate).getTime() + 86400000);
-  if (eventBrite !== ''){
-    $(id).attr("href", `https://www.eventbrite.com/e/${eventBrite}`);
-    console.log('xxx'+  endDate)
+  const dateTo = event.endDate ? new Date(event.endDate) : new Date (new Date(event.startDate).getTime() + 86400000);
+  if (event.eventBrite !== ''){
+    $(id).attr("href", `https://www.eventbrite.com/e/${event.eventBrite}`);
     if (dateTo < now){
-      $(id).text("Event Ended");
-      $(id).addClass('past')
+      if (event.recording !== ''){
+        $(id).attr("href", event.recording);
+        $(id).attr("target", "_blank");
+        $(id).text("Watch Recording");
+      } else {
+        $(id).text("Event Ended");
+        $(id).addClass('past')
+      }
     }
-  } else if (website !== ''){
-    $(id).attr("href", website);
+  } else if (event.website !== ''){
+    $(id).attr("href", event.website);
+    $(id).attr("target", "_blank");
     $(id).text("Website");
   } else {
     $(id).parent().empty();
@@ -313,7 +319,7 @@ function fillJob(eventDetails) {
   $("h1#title").text(eventDetails.title);
   wrapImage("#event-cover", 1920, 1080, eventDetails.img);
 
-  wrapEventBrite("#register", eventDetails.eventBrite, eventDetails.website, eventDetails.startDate, eventDetails.endDate);
+  wrapEventBrite("#register", eventDetails);
   
   if(eventDetails.speakers.length > 0){
     wrapSpeakers("#speakers", eventDetails.speakers);

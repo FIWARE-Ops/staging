@@ -235,14 +235,15 @@ function initOnlineEvents() {
       if ( dateTo < now){
         if (recording){
            $(value).addClass('recorded')
-           $(value).html(`<a href="${recording}">Watch</a>`)
+           $(value).html(`<a target="_blank" href="${recording}">Watch</a>`)
         } else {
           $(value).addClass('past')
         }
       } else if (dateTo < now && dateFrom > now){
+
         $(value).addClass('ongoing')
         if (url){
-          $(value).html(`<a href="${url}">Join&nbsp;Now</a>`)
+          $(value).html(`<a target="_blank" href="${url}">Join&nbsp;Now</a>`)
         }
       } else {
         $(value).addClass('future');
