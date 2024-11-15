@@ -87,7 +87,7 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
             excerpt: item.Excerpt,
             description: Parser.markdown(item.Description),
             type: item.Type,
-            category: item.Category,
+            category: Parser.splitStrings(item.Category),
             img: item.Image ? item.Image : DEFAULT_IMAGE,
             website: item.Website,
             startDate: Parser.date(item['Start Date']),
@@ -191,7 +191,7 @@ function parse(eventsFile, speakersFile) {
                     const eventsByMonth = getEventsByMonth(events);
                     const people = _.uniq(activeSpeakers);
                     const types = _.uniq(_.map(events, (event)=>{return event.type}));
-                    const categories = _.uniq(_.map(events, (event)=>{return event.category}));
+                    const categories = _.uniq(_.flatten(_.map(events, (event)=>{return event.category})));
 
                     const featuredEvents = getFeaturedEvents(types, categories, events)
 
