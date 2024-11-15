@@ -120,14 +120,58 @@ dd.event-date {
   font-weight: 600;
 }
 
+.entry-content ul {
+  line-height: 2em;
+}
+
+.chips {
+  position: relative;
+  width: 100%;
+  /* height: 100vh; */
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding: 0!important;
+  transition: all 0.2s;
+  /*transform: scale(0.98);*/
+  will-change: transform;
+  user-select: none;
+  cursor: grab;
+}
+
+.chips.active {
+  background: rgba(255, 255, 255, 0.3);
+  cursor: grabbing;
+  cursor: -webkit-grabbing;
+  /*transform: scale(0.99);*/
+}
+  
+.chips::-webkit-scrollbar {
+  display: none;
+}
+
 dd.chip-domain {
   overflow: auto;
 }
 
-ul.chips {
-  line-height: 0em;
-  padding: 0;
-  list-style-type: none;
+.chip-domain {
+  display: flex;
+  align-items: center;
+  height: 28px;
+} 
+
+.chip-domain li {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1em;
+  color: #5dc0cf;
+  background-color: #e5f5f7;
+  position: relative;
+  border-radius: 20px 20px 20px 20px;
+  overflow: hidden;
+  padding: 6px 12px 8px;
+  margin-right: 8px;
+  display: inline-block;
 }
 
 .chip-type li {

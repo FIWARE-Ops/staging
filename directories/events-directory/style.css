@@ -1166,6 +1166,7 @@ select::-ms-expand {
 
 .filter-element select,
 .sort-single-element select {
+    min-width: 156px;
     background-color: rgba(255, 255, 255, 0);
     border-radius: 4px;
     border: 1px solid #c6c6c6;
