@@ -189,7 +189,7 @@ function smoothScroll() {
 
 function horizontalScroll() {
   // Horizontal Scroll
-  var sliders = document.querySelectorAll(".speakers");
+  var sliders = document.querySelectorAll(".speakers, .chip-domain .chips");
   var isDown = false;
   var startX;
   var scrollLeft;
