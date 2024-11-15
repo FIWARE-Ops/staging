@@ -265,8 +265,13 @@ function wrapSpeakers (id, speakers){
         div += `</div>
             </div>`;
   })
-  $(id).empty();
-  $(id).append(div);
+
+  if(speakers.length > 0){
+    $(id).empty();
+    $(id).append(div);
+  } else {
+    $(id).remove();
+  }
 }
 
 function wrapParagraphs(id, input) {
