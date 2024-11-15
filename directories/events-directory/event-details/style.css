@@ -120,10 +120,6 @@ dd.event-date {
   font-weight: 600;
 }
 
-.entry-content ul {
-  line-height: 0em;
-}
-
 dd.chip-domain {
   overflow: auto;
 }
