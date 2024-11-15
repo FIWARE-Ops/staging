@@ -693,7 +693,7 @@
   
   .chip-domain {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     height: 28px;
   } 
   
