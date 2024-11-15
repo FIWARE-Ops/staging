@@ -679,6 +679,7 @@
     padding: 5px 10px 6px;
     margin-right: 8px;
     user-select: none;
+    display: inline;
 }
 
 .chip-domain li:last-of-type {
