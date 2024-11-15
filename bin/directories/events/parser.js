@@ -27,7 +27,9 @@ function getFeaturedEvents(types, categories, events){
     const promotedEvents = splitEvents[0].concat(splitEvents[1].reverse());
     let featuredEvents = [];
     categories.forEach((category)=>{
-        featuredEvents = featuredEvents.concat((_.where(promotedEvents, { category}).slice(0, 3)));
+        featuredEvents = featuredEvents.concat((_.filter(promotedEvents, (event)=>{
+            return event.category.includes(category);
+        }).slice(0, 3)));
     });
     featuredEvents = _.uniq(featuredEvents);
     return featuredEvents;
