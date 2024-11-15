@@ -140,16 +140,17 @@ function wrapImage(id, width, height, src) {
 function wrapEventBrite (id, event){
   const now = new Date();
   const dateTo = event.endDate ? new Date(event.endDate) : new Date (new Date(event.startDate).getTime() + 86400000);
+  const eventOver = (dateTo < now);
   if (event.eventBrite !== ''){
     $(id).attr("href", `https://www.eventbrite.com/e/${event.eventBrite}`);
-    if (dateTo < now){
+    if (eventOver){
       if (event.recording !== ''){
         $(id).attr("href", event.recording);
         $(id).attr("target", "_blank");
         $(id).text("Watch Recording");
       } else {
         $(id).text("Event Ended");
-        $(id).addClass('past')
+        $(id).css("background-color", "#b8b5b5");
       }
     }
   } else if (event.website !== ''){
@@ -157,7 +158,12 @@ function wrapEventBrite (id, event){
     $(id).attr("target", "_blank");
     $(id).text("Website");
   } else {
-    $(id).parent().empty();
+    if (eventOver){
+        $(id).text("Event Ended");
+        $(id).css("background-color", "#b8b5b5");
+    } else {
+      $(id).parent().empty();
+    }
   }
 }
 
