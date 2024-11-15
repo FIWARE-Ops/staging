@@ -173,7 +173,7 @@ function wrapEventDetails (event){
 
   var chips ="";
   event.category.forEach((category)=>{
-     chips += `<li>${category}</li>`;
+     chips += `<li>${category.replace(' ','&nbsp;')}</li>`;
   })
  
 
