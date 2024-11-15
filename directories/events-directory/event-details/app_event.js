@@ -231,7 +231,7 @@ function wrapVenueDetails (event){
       </dd>`
   );
   if (event.eventBrite !== '' && event.website !== ''){
-    $("#venue-website").html(`<dt></dt><dd>&nbsp;</dd><dt></dt>
+    $("#venue-website").html(`<dt class="event-attribute-label"></dt>
       <dd><a href="${event.website}">Event Website</a></dd>
       `
     );
