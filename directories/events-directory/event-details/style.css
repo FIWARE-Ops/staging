@@ -144,12 +144,16 @@ dd.chip-domain {
   padding: 0;
 }
 
-.speaker {
-  cursor: pointer;
+.profile-picture {
+  user-select: none;
 }
 
 .speaker-info {
   user-select: none;
+}
+
+.btn-icon {
+  cursor: pointer;
 }
 
 .maplibregl-map {
