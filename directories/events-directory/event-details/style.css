@@ -144,6 +144,14 @@ dd.chip-domain {
   padding: 0;
 }
 
+.speaker {
+  cursor: pointer;
+}
+
+.speaker-info {
+  user-select: none;
+}
+
 .maplibregl-map {
   border-radius: 4px;
 }
