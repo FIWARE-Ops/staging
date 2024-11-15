@@ -125,7 +125,7 @@ dd.chip-domain {
 }
 
 ul.chips {
-  line-height: 1.9em;
+  line-height: 0em;
   padding: 0;
   list-style-type: none;
 }
