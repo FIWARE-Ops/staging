@@ -122,10 +122,10 @@ dd.event-date {
 
 dd.chip-domain {
   overflow: auto;
-  padding: 5px 0;
 }
 
 ul.chips {
+  line-height: 1.9em;
   padding: 0;
   list-style-type: none;
 }
