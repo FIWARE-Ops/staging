@@ -171,10 +171,16 @@ function wrapEventDetails (event){
       </ul>
     </dd>`);
 
+  var chips ="";
+  event.category.forEach((category)=>{
+     chips += `<li>${category}</li>`;
+  })
+ 
+
   $('dl#event-category').html(`<dt class="event-attribute-label">Category</dt> 
     <dd class="chip-domain">
       <ul class="chips">
-        <li>${event.category}</li>
+        ${chips}
       </ul>
     </dd>`);
 }
