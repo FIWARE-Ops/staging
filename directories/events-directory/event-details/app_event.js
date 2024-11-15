@@ -188,9 +188,10 @@ function wrapEventDetails (event){
     <dd class="chip-domain">
       <ul class="chips">
         ${chips}
+      <span class='chips-gradient'></span>
       </ul>
     </dd>
-    <span class='chips-gradient'></span>`);
+    `);
 }
 
 function wrapVenueDetails (event){
