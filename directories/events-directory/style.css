@@ -661,26 +661,68 @@
     background-color: #d0ede4;
 }
 
-.chip-domain {
-    display: flex;
-    align-items: center;
+.entry-content ul {
+    line-height: 2em;
+  }
+  
+  .chips {
+    position: relative;
+    width: 100%;
+    /* height: 100vh; */
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding: 0!important;
+    transition: all 0.2s;
+    /*transform: scale(0.98);*/
+    will-change: transform;
+    user-select: none;
+    cursor: grab;
+  }
+  
+  .chips.active {
+    background: rgba(255, 255, 255, 0.3);
+    cursor: grabbing;
+    cursor: -webkit-grabbing;
+    /*transform: scale(0.99);*/
+  }
+    
+  .chips::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .chip-domain {
+    /* display: flex;
+    align-items: center; */
     height: 28px;
-}
-
-.chip-domain li {
-    font-size: 13px;
+  } 
+  
+  .chip-domain li {
+    font-size: 14px;
     font-weight: 500;
     line-height: 1em;
     color: #5dc0cf;
     background-color: #e5f5f7;
     position: relative;
-    border-radius: 20px;
+    border-radius: 20px 20px 20px 20px;
     overflow: hidden;
-    padding: 5px 10px 6px;
+    padding: 6px 12px 8px;
     margin-right: 8px;
-    user-select: none;
-    display: inline;
-}
+    display: inline-block;
+  }
+  
+  .chip-type li {
+    line-height: 15px;
+  }
+  
+  .chips-gradient {
+    position: absolute;
+    right: 0;
+    height: 28px;
+    width: 30px;
+    text-align: right;
+    background-image: -webkit-linear-gradient( left, rgba( 255, 255, 255, 0 ) 0%, rgba( 255, 255, 255, 1 ) 100% );
+  }
 
 /* .chip-domain li:last-of-type {
     margin-right: 40px;
