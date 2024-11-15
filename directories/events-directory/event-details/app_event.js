@@ -183,7 +183,6 @@ function wrapEventDetails (event){
   } else {
       $('#event-time').remove();
   }
-
   $('dl#event-type').html(`<dt class="event-attribute-label">Type</dt> 
     <dd class="chip-type">
       <ul class="chips">
@@ -205,26 +204,26 @@ function wrapEventDetails (event){
       <span class='chips-gradient'></span>
     </dd>
     `);
+
+  
+    if (event.eventBrite !== '' && event.website !== ''){
+      $("#venue-website").html(`<dt></dt><dd>&nbsp;</dd><dt></dt>
+        <dd><a href="${event.website}">Event Website</a></dd>
+        `
+      );
+    } else {
+      $('#venue-website').remove();
+    }
 }
 
 function wrapVenueDetails (event){
-
-  if (event.eventBrite !== '' && event.website !== ''){
-    $("#venue-website").html(`<dt class="event-attribute-label"></dt>
-      <dd><a href="${event.website}">Event Website</a></dd>`
-    );
-  } else {
-    $('#venue-website').remove();
-  }
-
   if(event.venueName === ''){
-    $('#venue-website').remove();
     $('#venue-name').remove();
     $('#venue-address').remove();
+    $('#venue-website').remove();
     return;
   }
   var venueName = event.venueName;
-
   if (event.venueLink !== ''){
     venueName = `<a href="${event.venueLink}">${venueName}</a>`
   }
@@ -241,6 +240,7 @@ function wrapVenueDetails (event){
         <div>${event.country}</div>
       </dd>`
   );
+ 
 }
 
 function wrapSpeakers (id, speakers){
