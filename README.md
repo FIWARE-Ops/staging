@@ -5,23 +5,18 @@
 FIWARE Marketplace Data
 
 1. Download the Approved Products as a CSV file.
-2. Copy over the Products CSV to `products.csv`
-3. Copy over the Product Details CSV to `product-details.csv`
-4. To generate files run:
-
-```console
-npm run showcase
-```
-
-5. Upload generated `pageData.js` for each category on fiware.org to WP Content > Showcase > Category folder (e.g. powered-by-fiware)
-6. Upload generated `products.js` onto fiware.org
+2. Copy over the Products CSV to - `products.csv`
+3. Copy over the Product Details CSV to - `product-details.csv`
+4. To generate files run: - `npm run showcase`
+5. Upload generated - `pageData.js` for each category on fiware.org to WP Content > Showcase > Category folder (e.g. powered-by-fiware)
+6. Upload generated - `products.js` onto fiware.org
 
    
 ## Install
 
 The process to setup the tool is as follows:
 
-1. Install Node.js and Git
+1. Install Node.js and Git 
 
 ```console
 brew install node
@@ -29,167 +24,52 @@ brew install npm
 brew install git
 ```
 
-2. Download the tool
+2. Download the tool - 
 
 ```console
 git clone https://github.com/FIWARE-Ops/staging.git
 ```
 
-3. Install Node.js libraries
-
-```console
-npm install
-```
-
+3. Install Node.js libraries - `npm install`
 4. Optional Copy an edit a version of Keys and edit the list of auto-downloaded CSVs.
 
 ## Usage
 
 ### Update FIWARE Showcase Products
 
-```console
-npm run showcase
-```
+- `npm run showcase`
 
 ### Update FIWARE Global Summit
 
-- FIWARE Global Summit Agenda
-
-```console
-npm run agenda
-```
-
-- FIWARE Global Summit Speakers
-
-```console
-npm run speakers
-```
-
-- FIWARE Global Summit Sponsors
-
-```console
-npm run sponsors
-```
-
+- `npm run agenda` - FIWARE Global Summit Agenda 
+- `npm run speakers` - FIWARE Global Summit Speakers 
+- `npm run sponsors` - FIWARE Global Summit Sponsors
 
 ### Update People listings on fiware.org
 
-- FIWARE Team
-
-```console
-npm run team|people
-```
-
-- Board of Directors
-
-```console
-npm run bod
-```
-
--  Board of Officers
-
-```console
-npm run boo
-```
-
-- FIWARE Experts
-
-```console
-npm run experts
-```
-
-- FIWARE Evangelists
-
-```console
-npm run evangelists
-```
-
-- FIWARE Mission Support Committees
-
-```console
-npm run msc
-```
-
-- FIWARE Technical Support Committee
-
-```console
- npm run tsc
-```
-
-- Scientific Advisory Board
-
-```console
-npm run fisab
-```
+- `npm run team|people` - FIWARE Team 
+- `npm run bod` - Board of Directors 
+- `npm run boo` - Board of Officers 
+- `npm run experts` - FIWARE Experts 
+- `npm run evangelists` - FIWARE Evangelists 
+- `npm run msc` - FIWARE Mission Support Committees 
+- `npm run tsc` - FIWARE Technical Support Committee 
+- `npm run fisab` - Scientific Advisory Board 
 
 ### Update Directory listings on fiware.org
 
-- FIWARE Smart Cities
-
-```console
-npm run cities
-```
-
--  FIWARE Jobs Postings
-
-```console
-npm run careers
-```
-
-- FIWARE Domains
-
-```console
-npm run domains
-```
-
-- FIWARE Generic Enablers
-
-```console
-npm run enablers
-```
-
-- FIWARE iHubs
-
-```console
-npm run ihubs|iHubs
-```
-
-- FIWARE Impact Stories
-
-```console
-npm run impact-stories
-```
-
-- FIWARE Marketing Materials
-
-```console
-npm run marketing
-```
-
-- FIWARE Open Calls
-
-```console
-npm run open-calls
-```
-
-- FIWARE Membership
-
-```console
-npm run organisations
-```
-
-- FIWARE Research and Development Projects
-
-```console
-npm run research-development
-```
-
-- FIWARE Webinars
-
-```console
-npm run webinars
-```
-
+- `npm run cities` - FIWARE Smart Cities 
+- `npm run careers` - FIWARE Jobs Postings 
+- `npm run domains` - FIWARE Domains 
+- `npm run enablers` - FIWARE Generic Enablers 
+- `npm run events`- FIWARE Event Listings 
+- `npm run ihubs|iHubs` - FIWARE iHubs 
+- `npm run impact-stories` - FIWARE Impact Stories
+- `npm run marketing` - FIWARE Marketing Materials 
+- `npm run open-calls` - FIWARE Open Calls 
+- `npm run organisations` - FIWARE Membership 
+- `npm run research-development` - FIWARE Research and Development Projects 
+- `npm run webinars` - FIWARE Webinars 
 
 ## License
 
