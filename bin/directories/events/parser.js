@@ -100,6 +100,7 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
             online: Parser.boolean(item.Online),
             onlineLink: item['Online Link'],
             recording: item['Recording'],
+            speakers: Parser.splitStrings(item.Speakers),
             venueName: item['Venue Name'],
             venueAddress: item['Venue Address'],
             venueLink: item['Venue Website'],
@@ -112,23 +113,16 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
         };
 
         if (event.publish) {
-            const names = _.uniq(
+            event.speakers = _.uniq(
                 _.filter(
-                    [
-                        item['Speaker 1'] || '',
-                        item['Speaker 2'] || '',
-                        item['Speaker 3'] || '',
-                        item['Speaker 4'] || '',
-                        item['Speaker 5'] || '',
-                        item['Speaker 6'] || ''
-                    ],
+                    event.speakers,
                     function (name) {
                         return name !== '';
                     }
                 )
             );
 
-            event.speakers = _.map(names, function (name) {
+           event.speakers = _.map(event.speakers, function (name) {
                 const speaker = _.findWhere(speakers, { name });
 
                 if (speaker) {
