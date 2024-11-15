@@ -1,3 +1,17 @@
+/* Divi Styles */
+
+.et_pb_section_2.et_pb_section {
+  border: none!important;
+  padding-bottom: 0 !important;
+}
+
+.et_pb_row_3.et_pb_row {
+  padding-bottom: 0!important;
+  margin-top: 40px!important;
+}
+
+/* ––––––––––– */
+
 dl {
   margin: 0 0 10px;
   padding: 0 0 10px;
