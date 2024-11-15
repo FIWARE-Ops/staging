@@ -106,7 +106,7 @@ window.eventData = [
         "description": "Get equipped with the necessary skills to develop Smart Solutions based on FIWARE!",
         "location": "Mostra d&#x27;Oltremare 54 Viale John Fitzgerald Kennedy ",
         "isAllDay": true,
-        "group": "Summit"
+        "group": "Training"
     },
     {
         "id": "202409-fiware-global-summit-2024--",
