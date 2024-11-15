@@ -68,7 +68,9 @@ function getSixMonths(){
     for (year = thisYear-1; year < thisYear + 2; year++) { 
         for (var month = 0; month < 12; month++) {
             const date =  new Date(year, month, 1);
-            const yearMonth  = date.toISOString().split('T')[0].replaceAll("-","").substring(0,6);
+            const date2 =  new Date(date); 
+            date2.setMonth(date.getMonth()+1); 
+            const yearMonth  = date2.toISOString().split('T')[0].replaceAll("-","").substring(0,6);
 
             months[yearMonth] = {
                 text: `${date.toLocaleString('en-GB', { month: 'long' ,year: 'numeric'})}`
