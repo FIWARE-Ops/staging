@@ -460,20 +460,42 @@ document.addEventListener("html-included", () => {
 
   if ($.urlParam("id") && window.eventData[$.urlParam("id")]) {
     const currentCategories = window.eventData[$.urlParam("id")].category;
-    
-    
+    const directMatches = [];
+    const categoryMatches = [];
+    const allIds = [];
+
     document.querySelectorAll("#featured .item").forEach(function (el) {
-      var remove = true;
-      var categories = $(el).data('category')
-      currentCategories.forEach((category)=> {
-        var catClass = createClassFilter(category);
-        if (categories.includes(catClass)){
-          remove = false;
+      let categories = $(el).data('category')
+      let id = $(el).data('id');
+      let directMatch = false;
+      let categoryMatch = false;
+      if( id !== $.urlParam("id")) {
+        currentCategories.forEach((category)=> {
+          var catClass = createClassFilter(category);
+          if (categories === catClass){
+            directMatch = true;
+            categoryMatch = false;
+          } else if (categories.includes(catClass)){
+            categoryMatch = (directMatch === false);
+          } 
+        });
+
+        if (directMatch){
+          directMatches.push(id)
+        } else if (categoryMatch){
+          categoryMatches.push(id)
+        } else {
+          allIds.push(id)
         }
-      });
-      if (remove) {
-        $(el).remove();
       }
+
+     });
+
+    const featuredIds = (directMatches.concat( categoryMatches.concat(allIds))).slice(0, 3);
+    document.querySelectorAll("#featured .item").forEach(function (el) {
+      if (!featuredIds.includes($(el).data('id'))) {
+        $(el).remove();
+      } 
     });
   }
   enableCarousel();
