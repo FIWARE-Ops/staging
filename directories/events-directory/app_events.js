@@ -34,7 +34,7 @@ function filterFunction (){
 
     return false;
   }
-  if (selectedDomain !== "*" && domain !== selectedDomain){
+  if (selectedDomain !== "*" && !domain.includes(selectedDomain)){
     return false;
   }
 
