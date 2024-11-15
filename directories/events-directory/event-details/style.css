@@ -119,8 +119,8 @@ dd.tribe-venue {
 #venue-website .event-attribute-label::before {
   content: url(https://www.fiware.org/custom/icons/black/website.svg);
   display: inline-block;
-  width: 14px;
-  /* margin-right: 8px; */
+  width: 15px;
+  margin-right: 10px;
   vertical-align: middle;
 }
 
