@@ -40,10 +40,8 @@ window.eventData = [
         "group": "Webinar"
     },
     {
-        "id": "202406-leveraging-ngsi-in-university-courses--",
-        "title": "Leveraging NGSI in University Courses
-
-",
+        "id": "202406-leveraging-ngsi-in-university-courses",
+        "title": "Leveraging NGSI in University Courses",
         "from": "2024-06-21T08:00:00.000Z",
         "to": "2024-06-21T09:00:00.000Z",
         "description": "This FIWARE Webinar explores the available FIWARE materials and demonstrates how to combine free-to-use generic enablers with other existing data protocols to craft an inspiring curriculum for teaching software skills to students.",
@@ -62,8 +60,8 @@ window.eventData = [
         "group": "Summit"
     },
     {
-        "id": "202407-creating-combined-ngsi-v2-ngsi-ld-data-spaces---",
-        "title": "Creating Combined NGSI-v2/NGSI-LD Data Spaces 
+        "id": "202407-creating-combined-ngsi-v2-ngsi-ld-data-spaces--",
+        "title": "Creating Combined NGSI-v2/NGSI-LD Data Spaces
 
 ",
         "from": "2024-07-05T08:00:00.000Z",
@@ -86,9 +84,8 @@ window.eventData = [
         "group": "Webinar"
     },
     {
-        "id": "202409-enhancing-tourism-with-smart-technologies--integrating-fiware-and-large-language-models--",
-        "title": "Enhancing Tourism with Smart Technologies: Integrating FIWARE and Large Language Models 
-",
+        "id": "202409-enhancing-tourism-with-smart-technologies--integrating-fiware-and-large-language-models",
+        "title": "Enhancing Tourism with Smart Technologies: Integrating FIWARE and Large Language Models",
         "from": "2024-09-06T08:00:00.000Z",
         "to": "2024-09-06T09:00:00.000Z",
         "description": "This FIWARE Webinar will delve into the integration of FIWARE with the powerful capabilities of Large Language Models (LLMs) equipped with Retrieval Augmented Generation (RAG).",
@@ -97,10 +94,8 @@ window.eventData = [
         "group": "Webinar"
     },
     {
-        "id": "202409-fiware-tech-training-naples--",
-        "title": "FIWARE Tech Training Naples
-
-",
+        "id": "202409-fiware-tech-training-naples",
+        "title": "FIWARE Tech Training Naples",
         "from": "2024-09-17T22:00:00.000Z",
         "to": "2024-09-18T22:00:00.000Z",
         "description": "Get equipped with the necessary skills to develop Smart Solutions based on FIWARE!",
@@ -109,10 +104,8 @@ window.eventData = [
         "group": "Training"
     },
     {
-        "id": "202409-fiware-global-summit-2024--",
-        "title": "FIWARE Global Summit 2024
-
-",
+        "id": "202409-fiware-global-summit-2024",
+        "title": "FIWARE Global Summit 2024",
         "from": "2024-09-17T22:00:00.000Z",
         "to": "2024-09-18T22:00:00.000Z",
         "description": "Mark your calendars: the 10th Anniversary FIWARE Global Summit will take place on September 18-19, 2024 in Naples, Italy! Join pioneers from open source companies, cities, universities, and developers shaping the digital economy. This is a must-attend event for entrepreneurs, public administrations, academia, startups, and technologists.",
