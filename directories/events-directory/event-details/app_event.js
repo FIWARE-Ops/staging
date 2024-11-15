@@ -182,7 +182,6 @@ function wrapEventDetails (event){
       <ul class="chips">
         ${chips}
       </ul>
-      <span class='chips-gradient'></span>
     </dd>`);
 }
 
