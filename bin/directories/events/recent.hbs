@@ -1,5 +1,5 @@
 {{#each this}}
-    <div class='item' data-category="{{#each category}}{{createClass this}}{{#unless @last}} {{/unless}}{{/each}}">
+    <div class='item' data-id='{{yearMonth}}-{{createClass title}}' data-category="{{#each category}}{{createClass this}}{{#unless @last}} {{/unless}}{{/each}}">
     	 <a class="story-details" href="./?id={{yearMonth}}-{{createClass title}}" rel="noopener">
         <div class='card card-story card-primary card-hover card-body light'>
             <div>
