@@ -208,13 +208,6 @@ function wrapEventDetails (event){
 }
 
 function wrapVenueDetails (event){
-  if(event.venueName === ''){
-    $('#venue-website').remove();
-    $('#venue-name').remove();
-    $('#venue-address').remove();
-    return;
-  }
-  var venueName = event.venueName;
 
   if (event.eventBrite !== '' && event.website !== ''){
     $("#venue-website").html(`<dt class="event-attribute-label"></dt>
@@ -223,6 +216,14 @@ function wrapVenueDetails (event){
   } else {
     $('#venue-website').remove();
   }
+
+  if(event.venueName === ''){
+    $('#venue-website').remove();
+    $('#venue-name').remove();
+    $('#venue-address').remove();
+    return;
+  }
+  var venueName = event.venueName;
 
   if (event.venueLink !== ''){
     venueName = `<a href="${event.venueLink}">${venueName}</a>`
