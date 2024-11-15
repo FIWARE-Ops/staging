@@ -424,5 +424,9 @@
 			<loc>https://www.fiware.org/powered-by-fiware/skg-tecnologia/smart-helios.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
+		<url>
+			<loc>https://www.fiware.org/powered-by-fiware/senlab/fiwarebox.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
 </urlset>
 
