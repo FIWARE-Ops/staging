@@ -152,6 +152,7 @@ dd.event-date {
 
 dd.chip-domain {
   overflow: auto;
+  display: flex;
 }
 
 .chip-domain {

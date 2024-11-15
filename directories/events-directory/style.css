@@ -692,8 +692,8 @@
   }
   
   .chip-domain {
-    /* display: flex;
-    align-items: center; */
+    display: flex;
+    align-items: center;
     height: 28px;
   } 
   
