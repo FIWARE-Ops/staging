@@ -183,6 +183,16 @@ function wrapEventDetails (event){
   } else {
       $('#event-time').remove();
   }
+
+  if (event.eventBrite !== '' && event.website !== ''){
+    $("#venue-website").html(`<dt class="event-attribute-label"></dt>
+      <dd><a href="${event.website}">Event Website</a></dd>
+      `
+    );
+  } else {
+    $('#venue-website').remove();
+  }
+
   $('dl#event-type').html(`<dt class="event-attribute-label">Type</dt> 
     <dd class="chip-type">
       <ul class="chips">
@@ -230,14 +240,6 @@ function wrapVenueDetails (event){
         <div>${event.country}</div>
       </dd>`
   );
-  if (event.eventBrite !== '' && event.website !== ''){
-    $("#venue-website").html(`<dt class="event-attribute-label"></dt>
-      <dd><a href="${event.website}">Event Website</a></dd>
-      `
-    );
-  } else {
-    $('#venue-website').remove();
-  }
  
 }
 
