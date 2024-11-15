@@ -209,9 +209,9 @@ function wrapEventDetails (event){
 
 function wrapVenueDetails (event){
   if(event.venueName === ''){
+    $('#venue-website').remove();
     $('#venue-name').remove();
     $('#venue-address').remove();
-    $('#venue-website').remove();
     return;
   }
   var venueName = event.venueName;
