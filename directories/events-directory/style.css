@@ -682,9 +682,9 @@
     display: inline;
 }
 
-.chip-domain li:last-of-type {
+/* .chip-domain li:last-of-type {
     margin-right: 40px;
-}
+} */
 
 .chip-type {
     text-transform: uppercase;
