@@ -130,6 +130,10 @@
     padding: 5px 6px;
 }
 
+.online-event a, .online-event a:hover {
+    color: #fff;
+}
+
 .online-event.ongoing {
     background-color: #15a97c;
 }
