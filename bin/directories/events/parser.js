@@ -29,9 +29,13 @@ function getFeaturedEvents(types, categories, events){
     categories.forEach((category)=>{
         featuredEvents = featuredEvents.concat((_.filter(promotedEvents, (event)=>{
             return event.category.includes(category);
-        }).slice(0, 3)));
+        }).slice(0, 4)));
     });
     featuredEvents = _.uniq(featuredEvents);
+
+    featuredEvents.sort((a, b)=>{
+        return b.startDate.getTime() - a.startDate.getTime();
+    });
     return featuredEvents;
 }
 
