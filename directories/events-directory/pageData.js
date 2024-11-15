@@ -151,6 +151,36 @@ window.eventData = [
         "group": "Conference"
     },
     {
+        "id": "202411-fiware-data-space-technologies-webinar--2--decentralized-iam-based-on-verifiable-credentials-and-odrl",
+        "title": "FIWARE Data Space Technologies Webinar #2: Decentralized IAM based on Verifiable Credentials and ODRL",
+        "from": "2024-11-05T14:30:00.000Z",
+        "to": "2024-11-05T16:00:00.000Z",
+        "description": "A deep dive into the FIWARE components implementing standards for Identity Management based on Verifiable Credentials, as well as FIWARE components implementing Authorization Management based on the enforcement of policies specified in ODRL.",
+        "location": "Online",
+        "isAllDay": false,
+        "group": "Webinar"
+    },
+    {
+        "id": "202411-fiware-data-space-technologies-webinar--3--contract-negotiation-in-data-spaces",
+        "title": "FIWARE Data Space Technologies Webinar #3: Contract Negotiation in Data Spaces",
+        "from": "2024-11-07T14:30:00.000Z",
+        "to": "2024-11-07T16:00:00.000Z",
+        "description": "A deep dive into the FIWARE components implementing the DOME-compatible TM Forum standards adopted for the description of data product descriptions, publication of offerings, and the management of contracts, including payments.",
+        "location": "Online",
+        "isAllDay": false,
+        "group": "Webinar"
+    },
+    {
+        "id": "202411-fiware-data-space-technologies-webinar--4--deploying-a-fiware-data-space-connector",
+        "title": "FIWARE Data Space Technologies Webinar #4: Deploying a FIWARE Data Space Connector",
+        "from": "2024-11-12T14:30:00.000Z",
+        "to": "2024-11-12T16:00:00.000Z",
+        "description": "Learn how to seamlessly integrate a FIWARE Data Space Connector within your organization, enabling a smooth connection to data spaces.",
+        "location": "Online",
+        "isAllDay": false,
+        "group": "Webinar"
+    },
+    {
         "id": "202411-transforming---exploiting-high-value-datasets--synergies-in-eu-open-data-projects",
         "title": "Transforming &amp; Exploiting High Value Datasets: Synergies in EU Open Data Projects",
         "from": "2024-11-19T09:00:00.000Z",
