@@ -671,7 +671,7 @@
   
   .chips {
     position: relative;
-    width: 100%;
+    width: fit-content;
     /* height: 100vh; */
     overflow-x: scroll;
     overflow-y: hidden;
