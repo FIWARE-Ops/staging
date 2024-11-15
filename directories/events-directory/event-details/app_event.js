@@ -204,16 +204,6 @@ function wrapEventDetails (event){
       <span class='chips-gradient'></span>
     </dd>
     `);
-
-  
-    if (event.eventBrite !== '' && event.website !== ''){
-      $("#venue-website").html(`<dt></dt><dd>&nbsp;</dd><dt></dt>
-        <dd><a href="${event.website}">Event Website</a></dd>
-        `
-      );
-    } else {
-      $('#venue-website').remove();
-    }
 }
 
 function wrapVenueDetails (event){
@@ -240,6 +230,14 @@ function wrapVenueDetails (event){
         <div>${event.country}</div>
       </dd>`
   );
+  if (event.eventBrite !== '' && event.website !== ''){
+    $("#venue-website").html(`<dt></dt><dd>&nbsp;</dd><dt></dt>
+      <dd><a href="${event.website}">Event Website</a></dd>
+      `
+    );
+  } else {
+    $('#venue-website').remove();
+  }
  
 }
 
