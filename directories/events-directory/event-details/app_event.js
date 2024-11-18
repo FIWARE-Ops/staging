@@ -457,6 +457,8 @@ function enableCarousel() {
     stagePadding: 30,
     loop: false,
     autoplay: true,
+    autoplayTimeout: 2500,
+    autoplayHoverPause: true,
     margin: 15,
     nav: true,
     navText: [
@@ -466,11 +468,17 @@ function enableCarousel() {
     responsive: {
       0: {
         items: 1,
-        loop: true
+        autoplay: true,
+        nav: false,
+        dots: true,
+        loop: true,
       },
       600: {
         items: 2,
-        loop: true
+        autoplay: true,
+        nav: false,
+        dots: true,
+        loop: true,
       },
       1000: {
         items: 3,
