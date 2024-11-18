@@ -362,6 +362,23 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "ESI – Eco System Informatics",
+				"html": [
+					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/esi.png'/></div>",
+					"<div class='org-name'>ESI – Eco System Informatics</div>",
+					"<div class='membership-type'>Gold</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.ecosinfo.ai/' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-79.90674,43.516747]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
 				"name": "Ficodes",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/ficodes.png'/></div>",
@@ -753,6 +770,23 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Qualetics",
+				"html": [
+					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/qualetics.png'/></div>",
+					"<div class='org-name'>Qualetics</div>",
+					"<div class='membership-type'>Gold</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://qualetics.com/' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-74.656516,40.413581]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
 				"name": "Red Española de Ciudades Inteligentes",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/reci.png'/></div>",
@@ -798,6 +832,23 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[13.2227023,55.71667]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
+				"name": "Sensora",
+				"html": [
+					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/sensora.png'/></div>",
+					"<div class='org-name'>Sensora</div>",
+					"<div class='membership-type'>Gold</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.sensora.com.co/' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-75.494067,10.343497]
 			}
 		},
 		{
@@ -1093,6 +1144,23 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Visions",
+				"html": [
+					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/visions.png'/></div>",
+					"<div class='org-name'>Visions</div>",
+					"<div class='membership-type'>Gold</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://visionspol.eu/en' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[2.29128,48.834721]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
 				"name": "WinIT",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/win-it.png'/></div>",
@@ -1240,6 +1308,23 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[7.2147903,51.5379764]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
+				"name": "City of La Palma",
+				"html": [
+					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-la-palma.png'/></div>",
+					"<div class='org-name'>City of La Palma</div>",
+					"<div class='membership-type'>Gold SEU</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.cabildodelapalma.es/en' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-17.765723,28.681339]
 			}
 		},
 		{
@@ -1552,10 +1637,10 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
-				"name": "University of Naples &quot;Parthenope&quot;",
+				"name": "University of Naples “Parthenope”",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/university-of-naples-parthenope.png'/></div>",
-					"<div class='org-name'>University of Naples &quot;Parthenope&quot;</div>",
+					"<div class='org-name'>University of Naples “Parthenope”</div>",
 					"<div class='membership-type'>Gold SEU</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://uniparthenope.it/' rel='noopener'><span class='icon website'></span></div>"
 				]
@@ -2402,6 +2487,23 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "University of Balearic Islands",
+				"html": [
+					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/ubi.png'/></div>",
+					"<div class='org-name'>University of Balearic Islands</div>",
+					"<div class='membership-type'>Associate</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.uib.eu/' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[2.64324,39.63998]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
 				"name": "University of Cantabria",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/university-of-cantabria.png'/></div>",
@@ -2413,6 +2515,23 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[-3.8045542,43.471704]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
+				"name": "University of Córdoba",
+				"html": [
+					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/uco.png'/></div>",
+					"<div class='org-name'>University of Córdoba</div>",
+					"<div class='membership-type'>Associate</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.uco.es/internacional/extranjeros/en/' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-4.788532,37.884298]
 			}
 		},
 		{
