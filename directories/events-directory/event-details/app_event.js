@@ -456,7 +456,7 @@ function enableCarousel() {
   $(".owl-carousel").owlCarousel({
     stagePadding: 30,
     loop: false,
-    autoplay: false,
+    autoplay: true,
     margin: 15,
     nav: true,
     navText: [
@@ -466,9 +466,11 @@ function enableCarousel() {
     responsive: {
       0: {
         items: 1,
+        loop: true
       },
       600: {
         items: 2,
+        loop: true
       },
       1000: {
         items: 3,
