@@ -1020,6 +1020,7 @@
 .showFilters {
     display: flex;
     align-items: flex-end;
+    color: #696969;
 }
 
 .category-badge {
@@ -1886,7 +1887,7 @@ input[type="search"]::placeholder {
     }
 
     .et_pb_section_2.et_pb_section.stickybar .et_pb_row_3.et_pb_row {
-        padding: 15px 0 !important;
+        padding: 0 !important;
     }
 
     .et_pb_row_3.et_pb_row {
@@ -1912,6 +1913,11 @@ input[type="search"]::placeholder {
         justify-content: space-between;
         gap: 5px;
         padding: 10px 0px;
+    }
+
+    #filter-button-text {
+        font-size: 15px;
+        font-weight: 600;
     }
 
     .filters-container {
@@ -1973,6 +1979,7 @@ input[type="search"]::placeholder {
         flex-direction: column-reverse;
         width: -webkit-fill-available;
         gap: 15px;
+        padding-top: 10px;
     }
 
     .search-element {
