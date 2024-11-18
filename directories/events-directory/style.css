@@ -1783,6 +1783,10 @@ input[type="search"]::placeholder {
         display: block;
     }
 
+    .time {
+        padding-top: 5px;
+    }
+
     .separator-dot {
         display: none;
     }
@@ -1803,6 +1807,10 @@ input[type="search"]::placeholder {
 
     .speakers {
         gap: 20px;
+    }
+
+    .speakers-gradient {
+        right: 0;
     }
 
     .speakers.detail {
