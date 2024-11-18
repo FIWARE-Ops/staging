@@ -542,7 +542,12 @@ $(document).one("html-included", () => {
       }
     });
   }
-  enableCarousel();
+  let isMobile = window.matchMedia("(max-width: 767px)").matches;
+  if (!isMobile){
+    enableCarousel();} 
+  else {
+    $('#featured').removeClass('owl-carousel');
+  }
 });
 
 $(document).one(
