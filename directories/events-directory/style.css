@@ -1860,7 +1860,7 @@ input[type="search"]::placeholder {
     }
 
     .chips-gradient {
-        margin-top: 30px;
+        margin-top: 0px;
     }
 
     .gridElementTextContainer .chips-gradient {
