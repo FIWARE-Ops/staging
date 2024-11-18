@@ -389,16 +389,6 @@ function horizontalScroll() {
 }
 
 function loadEventDetails() {
-  $.urlParam = function (name) {
-    var results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
-      window.location.href,
-    );
-    if (results == null) {
-      return null;
-    }
-    return decodeURI(results[1]) || 0;
-  };
-
   $("div#back-button").on("click", function (e) {
     e.preventDefault();
     window.history.back();
@@ -493,7 +483,24 @@ function enableCarousel() {
   });
 }
 
-document.addEventListener("html-included", () => {
+$ = $ || jQuery;
+$.urlParam = function (name) {
+  var results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
+    window.location.href,
+  );
+  if (results == null) {
+    return null;
+  }
+  return decodeURI(results[1]) || 0;
+};
+  
+$(document).ready(function () {
+  if ($.urlParam("id") && window.eventData[$.urlParam("id")]) {
+    addMap(window.eventData[$.urlParam("id")]);
+  }
+});
+
+$(document).one("html-included", () => {
   if ($.urlParam("id") && window.eventData[$.urlParam("id")]) {
     const currentCategories = window.eventData[$.urlParam("id")].category;
     const directMatches = [];
@@ -538,19 +545,13 @@ document.addEventListener("html-included", () => {
   enableCarousel();
 });
 
-document.addEventListener(
+$(document).one(
   "data-ready",
   () => {
     loadEventDetails();
     horizontalScroll();
     initModal();
-  },
-  { once: true },
+  }
 );
 
-$ = $ || jQuery;
-$(document).ready(function () {
-  if ($.urlParam("id") && window.eventData[$.urlParam("id")]) {
-    addMap(window.eventData[$.urlParam("id")]);
-  }
-});
+
