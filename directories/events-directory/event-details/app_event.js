@@ -494,7 +494,7 @@ $.urlParam = function (name) {
   return decodeURI(results[1]) || 0;
 };
   
-$(document).ready(function () {
+$(window).load(function () {
   if ($.urlParam("id") && window.eventData[$.urlParam("id")]) {
     addMap(window.eventData[$.urlParam("id")]);
   }
