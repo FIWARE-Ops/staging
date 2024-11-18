@@ -31,7 +31,7 @@ dl#event-category {
   align-items: center!important;
 }
 
-dl#venue-name, dl#venue-website {
+dl#venue-name {
   border-bottom: none;
   padding: 0;
   color: #000;
@@ -40,6 +40,17 @@ dl#venue-name, dl#venue-website {
   text-wrap: balance;
   gap: 0;
   margin-bottom: 5px;
+}
+
+dl#venue-website {
+  margin: 0 0 10px;
+  padding: 0 0 10px;
+  border-bottom: 1px solid #dedede;
+  color: #000;
+  font-size: 15px;
+  font-weight: 600;
+  text-wrap: balance;
+  gap: 0;
 }
 
 dl#venue-name a, dl#venue-website a {
@@ -268,4 +279,20 @@ background: #002e67;
 
 .owl-carousel .owl-item a:hover {
 color: #002452;
+}
+
+@media only screen and (max-width: 480px) {
+
+  .maplibregl-map {
+  width: 100% !important;
+  height: 220px !important;
+  }
+
+  .carousel-container .item {
+    margin-bottom: 30px;
+  }
+
+  .carousel-container .item:last-of-type {
+    margin-bottom: 0px;
+  }
 }
