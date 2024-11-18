@@ -1,4 +1,3 @@
-
 function scrollToView() {
   const element = $("#app .grid-item:visible:first").get(0);
   const headerOffset = 88 + $(".filters-container").parent().height();
@@ -19,35 +18,33 @@ var selectedText = "";
 var selectedType = "*";
 var selectedDomain = "*";
 
-function getDate(){
-  const date =  new Date(); 
-  date.setMonth(date.getMonth()+1);
-  return new Number(date.toISOString().split('T')[0].replaceAll("-","").substring(0,6)- 1);
+function getDate() {
+  const date = new Date();
+  date.setMonth(date.getMonth() + 1);
+  return new Number(
+    date.toISOString().split("T")[0].replaceAll("-", "").substring(0, 6) - 1,
+  );
 }
 
-function filterFunction (){
-  const month = $(this).data('month');
-  const domain = $(this).data('domain');
-  const type = $(this).data('type');
-  
-  if ($(this).hasClass( "month-divider" ) ){
+function filterFunction() {
+  const month = $(this).data("month");
+  const domain = $(this).data("domain");
+  const type = $(this).data("type");
+
+  if ($(this).hasClass("month-divider")) {
     return month >= selectedMonth;
   }
 
-  if (selectedType !== "*" && type !== selectedType){
-
+  if (selectedType !== "*" && type !== selectedType) {
     return false;
   }
-  if (selectedDomain !== "*" && !domain.includes(selectedDomain)){
+  if (selectedDomain !== "*" && !domain.includes(selectedDomain)) {
     return false;
   }
 
-
-  if (selectedText !=="" ){
-      return month >= selectedMonth && inputSearch($(this).html(), selectedText); 
+  if (selectedText !== "") {
+    return month >= selectedMonth && inputSearch($(this).html(), selectedText);
   }
-
-
 
   return month >= selectedMonth;
 }
@@ -65,7 +62,6 @@ function inputSearch(itemElem, textString) {
   return itemElem.match(qsRegex);
 }
 
-
 function initTextSearch(msnry) {
   // Search input
   $("#searchInput").keyup((ev) => {
@@ -80,28 +76,27 @@ function initTextSearch(msnry) {
 
   $(".resetInput").click(() => {
     $("#searchInput").val("");
-    selectedText = '';
+    selectedText = "";
     $(".search-element").removeClass("resetActive");
     msnry.arrange({ sortBy: "original-order" });
   });
 }
 
 function initSelect() {
-
   $("#filterMonth").change((ev) => {
-       selectedMonth = $(ev.currentTarget).val();
-       msnry.arrange({ sortBy: "original-order" });
+    selectedMonth = $(ev.currentTarget).val();
+    msnry.arrange({ sortBy: "original-order" });
   });
   $("#filterDomain").change((ev) => {
-       selectedDomain = $(ev.currentTarget).val();
-       msnry.arrange({ sortBy: "original-order" });
+    selectedDomain = $(ev.currentTarget).val();
+    msnry.arrange({ sortBy: "original-order" });
   });
   $("#filterType").change((ev) => {
-       selectedType = $(ev.currentTarget).val();
-       msnry.arrange({ sortBy: "original-order" });
+    selectedType = $(ev.currentTarget).val();
+    msnry.arrange({ sortBy: "original-order" });
   });
 
-  $(`#filterMonth option[value="${selectedMonth}"]`).prop('selected', true)
+  $(`#filterMonth option[value="${selectedMonth}"]`).prop("selected", true);
 
   msnry = new Isotope(".grid", {
     itemSelector: ".grid-item",
@@ -109,57 +104,55 @@ function initSelect() {
     filter: filterFunction,
     masonry: {
       columnWidth: ".grid-sizer",
-    }
+    },
   });
 
   initTextSearch(msnry);
 }
 
-function initCalendar(){
-  var calendarInstance1 = new calendarJs( "calendar1", { 
-        exportEventsEnabled: true,
-        useAmPmForTimeDisplays: true,
-        fullScreenModeEnabled: false,
-        showHolidays: false,
-        isWidget: false,
-        searchOptions:{
-          enabled: false
-        },
-        importEventsEnabled: false,
-        configurationDialogEnabled: false,
-        tooltipsEnabled: false,
-        manualEditingEnabled: false,
-        views: {
-          fullDay: {
-              enabled: false
-          },
-          fullWeek: {
-              enabled: false
-          },
-          fullMonth: {
-             enabled: true
-          },
-          fullYear: {
-              enabled: false
-          },
-          timeline: {
-              enabled: false
-          },
-          allEvents: {
-              enabled: false
-          }
-        },
-        events: {
-            onEventClick: (e) => {
-                //window.location.href = `./event-details?id=${e.id}`;
-                $('#selected-event').html($(`*[data-id="${e.id}"]`).html())
-            }
-        },
-        data : window.eventData
-    });
+function initCalendar() {
+  var calendarInstance1 = new calendarJs("calendar1", {
+    exportEventsEnabled: true,
+    useAmPmForTimeDisplays: true,
+    fullScreenModeEnabled: false,
+    showHolidays: false,
+    isWidget: false,
+    searchOptions: {
+      enabled: false,
+    },
+    importEventsEnabled: false,
+    configurationDialogEnabled: false,
+    tooltipsEnabled: false,
+    manualEditingEnabled: false,
+    views: {
+      fullDay: {
+        enabled: false,
+      },
+      fullWeek: {
+        enabled: false,
+      },
+      fullMonth: {
+        enabled: true,
+      },
+      fullYear: {
+        enabled: false,
+      },
+      timeline: {
+        enabled: false,
+      },
+      allEvents: {
+        enabled: false,
+      },
+    },
+    events: {
+      onEventClick: (e) => {
+        //window.location.href = `./event-details?id=${e.id}`;
+        $("#selected-event").html($(`*[data-id="${e.id}"]`).html());
+      },
+    },
+    data: window.eventData,
+  });
 }
-
-
 
 function smoothScroll() {
   // Add smooth scrolling to all links
@@ -185,7 +178,6 @@ function smoothScroll() {
     } // End if
   });
 }
-
 
 function horizontalScroll() {
   // Horizontal Scroll
@@ -225,32 +217,30 @@ function horizontalScroll() {
 }
 
 function initOnlineEvents() {
-  const now = new Date() 
-  const events = $('.event-date .online-event');
-  $('.event-date .online-event').each((index, value)=> {
-      const dateFrom = new Date($(value).parent().data('from'));
-      const dateTo = new Date($(value).parent().data('to'));
-      const url = $(value).data('url');
-      const recording = $(value).data('recording');
-      if ( dateTo < now){
-        if (recording){
-           $(value).addClass('recorded')
-           $(value).html(`<a target="_blank" href="${recording}">Watch</a>`)
-        } else {
-          $(value).addClass('past')
-        }
-      } else if (dateTo < now && dateFrom > now){
-
-        $(value).addClass('ongoing')
-        if (url){
-          $(value).html(`<a target="_blank" href="${url}">Join&nbsp;Now</a>`)
-        }
+  const now = new Date();
+  const events = $(".event-date .online-event");
+  $(".event-date .online-event").each((index, value) => {
+    const dateFrom = new Date($(value).parent().data("from"));
+    const dateTo = new Date($(value).parent().data("to"));
+    const url = $(value).data("url");
+    const recording = $(value).data("recording");
+    if (dateTo < now) {
+      if (recording) {
+        $(value).addClass("recorded");
+        $(value).html(`<a target="_blank" href="${recording}">Watch</a>`);
       } else {
-        $(value).addClass('future');
+        $(value).addClass("past");
       }
-   });
+    } else if (dateTo < now && dateFrom > now) {
+      $(value).addClass("ongoing");
+      if (url) {
+        $(value).html(`<a target="_blank" href="${url}">Join&nbsp;Now</a>`);
+      }
+    } else {
+      $(value).addClass("future");
+    }
+  });
 }
-
 
 function initSticky() {
   window.onscroll = onScrollHandler;
@@ -273,17 +263,16 @@ function initSticky() {
   }
 }
 
-function listViewShow(){
+function listViewShow() {
   $("#app").show();
   $("#calendar").hide();
   $(".dropdown-container").show();
   $(".search-element").show();
   $("#selected-event").hide();
-  $('#selected-event').html('');
+  $("#selected-event").html("");
 }
 
-function calendarShow(){
- 
+function calendarShow() {
   $("#calendar").show();
   $("#selected-event").show();
   $(".dropdown-container").hide();
@@ -294,59 +283,57 @@ function calendarShow(){
 function filterToggle() {
   let isMobile = window.matchMedia("(max-width: 767px)").matches;
 
-  if(!isMobile){
-    $(".title-filter").removeClass('show')
-    $(".filters-container").addClass('show')
+  if (!isMobile) {
+    $(".title-filter").removeClass("show");
+    $(".filters-container").addClass("show");
     return;
   }
 
-  $(".title-filter").addClass('show');
-  $(".filters-container").removeClass('show');
+  $(".title-filter").addClass("show");
+  $(".filters-container").removeClass("show");
 
   let filtersContainer = document.querySelector(".filters-container");
   $("#mobileToggleFilters").click((ev) => {
-      $(ev.target).toggleClass("activeButton");
+    $(ev.target).toggleClass("activeButton");
 
-      if ($(".filters-container").hasClass("show")){
-        $("#filter-button-text").html("Show Filters");
-        $(".filters-container").removeClass('show')
-        $(".filters-container").hide()
-      } else {
-        $(".filters-container").addClass('show')
-        $(".filters-container").show()
-        $("#filter-button-text").html("Hide Filters");
-      }  
-    });
+    if ($(".filters-container").hasClass("show")) {
+      $("#filter-button-text").html("Show Filters");
+      $(".filters-container").removeClass("show");
+      $(".filters-container").hide();
+    } else {
+      $(".filters-container").addClass("show");
+      $(".filters-container").show();
+      $("#filter-button-text").html("Hide Filters");
+    }
+  });
 }
 
 function viewToggle() {
-
   $("#toggle-on").change((ev) => {
-      const value = $('input[name="toggle"]:checked').val();
-      switch (value){
-        case "list-view":
-          listViewShow();
-          break;
-        case "calendar":
-          calendarShow();
-          break;
-      }
-    });
+    const value = $('input[name="toggle"]:checked').val();
+    switch (value) {
+      case "list-view":
+        listViewShow();
+        break;
+      case "calendar":
+        calendarShow();
+        break;
+    }
+  });
   $("#toggle-off").change((ev) => {
-      const value = $('input[name="toggle"]:checked').val();
-      switch (value){
-        case "list-view":
-          listViewShow();
-          break;
-        case "calendar":
-          calendarShow();
-          break;
-      }
-    });
+    const value = $('input[name="toggle"]:checked').val();
+    switch (value) {
+      case "list-view":
+        listViewShow();
+        break;
+      case "calendar":
+        calendarShow();
+        break;
+    }
+  });
 }
 
 document.addEventListener("html-included", () => {
-
   $("#app").css("visibility", "visible");
   if (init) {
     return;

@@ -82,7 +82,6 @@ function createClassFilter(data) {
   return filterString;
 }
 
-
 function initModal() {
   // Modal
   document.querySelectorAll(".speaker").forEach(function (el) {
@@ -137,66 +136,67 @@ function wrapImage(id, width, height, src) {
   //}
 }
 
-function wrapEventBrite (id, event){
+function wrapEventBrite(id, event) {
   const now = new Date();
-  const dateTo = event.endDate ? new Date(event.endDate) : new Date (new Date(event.startDate).getTime() + 86400000);
-  const eventOver = (dateTo < now);
-  if (event.eventBrite !== ''){
-    $(id).attr("href", `https://www.eventbrite.com/e/${event.eventBrite}`);
-    if (eventOver){
-      if (event.recording !== ''){
-        $(id).attr("href", event.recording);
-        $(id).attr("target", "_blank");
-        $(id).text("Watch Recording");
-      } else {
-        $(id).text("Event Ended");
-        $(id).css("background-color", "#b8b5b5");
-      }
+  const dateTo = event.endDate
+    ? new Date(event.endDate)
+    : new Date(new Date(event.startDate).getTime() + 86400000);
+  const eventOver = dateTo < now;
+
+  if (eventOver) {
+    if (event.recording !== "") {
+      $(id).attr("href", event.recording);
+      $(id).attr("target", "_blank");
+      $(id).text("Watch Recording");
+    } else {
+      $(id)
+        .parent()
+        .append(
+          "<span style='background-color:#b8b5b5' class='et_pb_button et_pb_button_0 et_pb_bg_layout_light'>Event Ended</span>",
+        );
+      $(id).remove();
     }
-  } else if (event.website !== ''){
+    return;
+  }
+
+  if (event.eventBrite !== "") {
+    $(id).attr("href", `https://www.eventbrite.com/e/${event.eventBrite}`);
+  } else if (event.website !== "" && !eventOver) {
     $(id).attr("href", event.website);
     $(id).attr("target", "_blank");
     $(id).text("Website");
-  } else {
-    if (eventOver){
-        $(id).text("Event Ended");
-        $(id).css("background-color", "#b8b5b5");
-    } else {
-      $(id).parent().empty();
-    }
   }
 }
 
-function wrapEventDetails (event){
- let dateText = event.shortDateStart;
-  if (event.shortDateStart !== event.shortDateEnd){
-    dateText += ` - ${event.shortDateEnd}`
+function wrapEventDetails(event) {
+  let dateText = event.shortDateStart;
+  if (event.shortDateStart !== event.shortDateEnd) {
+    dateText += ` - ${event.shortDateEnd}`;
   }
-  $('#event-date').html(`
+  $("#event-date").html(`
     <dt class="event-attribute-label"></dt>
     <dd class="event-date">${dateText}</dd>`);
 
- if (event.start){
-    let timeText = `${event.start} – ${event.end}  ${event.timeZone}`
-    $('#event-time').html(`<dt class="event-attribute-label"></dt>
+  if (event.start) {
+    let timeText = `${event.start} – ${event.end}  ${event.timeZone}`;
+    $("#event-time").html(`<dt class="event-attribute-label"></dt>
       <dd class="event-time"> ${timeText}</dd>`);
   } else {
-      $('#event-time').remove();
+    $("#event-time").remove();
   }
-  $('dl#event-type').html(`<dt class="event-attribute-label">Type</dt> 
+  $("dl#event-type").html(`<dt class="event-attribute-label">Type</dt> 
     <dd class="chip-type">
       <ul class="chips">
         <li>${event.type}</li>
       </ul>
     </dd>`);
 
-  var chips ="";
-  event.category.forEach((category)=>{
-     chips += `<li>${category.replace(' ','&nbsp;')}</li>`;
-  })
- 
+  var chips = "";
+  event.category.forEach((category) => {
+    chips += `<li>${category.replace(" ", "&nbsp;")}</li>`;
+  });
 
-  $('dl#event-category').html(`<dt class="event-attribute-label">Category</dt> 
+  $("dl#event-category").html(`<dt class="event-attribute-label">Category</dt> 
     <dd class="chip-domain">
       <ul class="chips">
         ${chips}
@@ -206,67 +206,73 @@ function wrapEventDetails (event){
     `);
 }
 
-function wrapVenueDetails (event){
-  if(event.venueName === ''){
-    $('#venue-name').remove();
-    $('#venue-address').remove();
-    $('#venue-website').remove();
+function wrapVenueDetails(event) {
+  const now = new Date();
+  const dateTo = event.endDate
+    ? new Date(event.endDate)
+    : new Date(new Date(event.startDate).getTime() + 86400000);
+  const eventOver = dateTo < now;
+
+  if (event.venueName === "") {
+    $("#venue-name").remove();
+    $("#venue-address").remove();
+    $("#venue-website").remove();
     return;
   }
   var venueName = event.venueName;
-  if (event.venueLink !== ''){
-    venueName = `<a href="${event.venueLink}">${venueName}</a>`
+  if (event.venueLink !== "") {
+    venueName = `<a href="${event.venueLink}">${venueName}</a>`;
   }
- 
+
   $("#venue-name").html(`<dt class="event-attribute-label"></dt>
-      <dd><dt class="tribe-venue">${venueName}</dt></dd>`
-  );
-  $("#venue-address").html( `
+      <dd><dt class="tribe-venue">${venueName}</dt></dd>`);
+  $("#venue-address").html(`
       <dt aria-label="Venue name: This represents the address of the event venue.">
       </dt>
       <dd>
         <div>${event.venueAddress}</div>
         <div>${event.city}</div>
         <div>${event.country}</div>
-      </dd>`
-  );
-  if (event.eventBrite !== '' && event.website !== ''){
+      </dd>`);
+
+  if (event.website !== "" && (eventOver || event.eventBrite !== "")) {
     $("#venue-website").html(`<dt class="event-attribute-label"></dt>
-      <dd><a href="${event.website}">Event Website</a></dd>
-      `
-    );
+      <dd><a href="${event.website}">Event Website</a></dd>`);
   } else {
-    $('#venue-website').remove();
+    $("#venue-website").remove();
   }
- 
+
+  $("#venue-website").html(`<dt class="event-attribute-label"></dt>
+      <dd><a href="${event.website}">Event Website</a></dd>`);
 }
 
-function wrapSpeakers (id, speakers){
-
-  var div= "";
+function wrapSpeakers(id, speakers) {
+  var div = "";
   speakers.forEach((speaker) => {
-      div += `
+    div += `
       <div class="speaker" data-modal="${createClassFilter(speaker.name)}">`;
-      if(speaker.img){
-           div += `<div class="profile-picture">
+    if (speaker.img) {
+      div += `<div class="profile-picture">
                 <img decoding="async" alt="${speaker.name}" src="${speaker.img}" loading="lazy">
-              </div>`;}
-       div += `<div class="speaker-info">
+              </div>`;
+    }
+    div += `<div class="speaker-info">
                 <div class="speaker-name">${speaker.name}</div>`;
-      
-      if(speaker.shortJob){
-        div += `<div class="speaker-job-title">${speaker.shortJob}</div>`;}
-      if(speaker.company){
-        div += `<div class="speaker-company">${speaker.company}</div>`;
-      }
-        div += `<div class="btn-icon">
+
+    if (speaker.shortJob) {
+      div += `<div class="speaker-job-title">${speaker.shortJob}</div>`;
+    }
+    if (speaker.company) {
+      div += `<div class="speaker-company">${speaker.company}</div>`;
+    }
+    div += `<div class="btn-icon">
           <span class="material-symbols-outlined icon cta small">trending_flat</span>
         </div>`;
-        div += `</div>
+    div += `</div>
             </div>`;
-  })
+  });
 
-  if(speakers.length > 0){
+  if (speakers.length > 0) {
     $(id).empty();
     $(id).append(div);
   } else {
@@ -298,28 +304,28 @@ function addChips(id, items) {
   });
 }
 
-function addMap(eventDetails){
-  if(eventDetails.latitude === ''){
-      $('#map').empty();
-      return;
+function addMap(eventDetails) {
+  if (eventDetails.latitude === "") {
+    $("#map").empty();
+    return;
   }
   const map = new maplibregl.Map({
-      container: 'map',
-      style: './style.json',
-      maxZoom: 20,
-      minZoom: 3,
-      attributionControl: false,
-      dragRotate: false,
-      center: [eventDetails.longitude, eventDetails.latitude],
-      zoom: 14
+    container: "map",
+    style: "./style.json",
+    maxZoom: 20,
+    minZoom: 3,
+    attributionControl: false,
+    dragRotate: false,
+    center: [eventDetails.longitude, eventDetails.latitude],
+    zoom: 14,
   });
 
   map.addControl(new maplibregl.NavigationControl());
-  map.addControl(new maplibregl.AttributionControl({compact: true}));
+  map.addControl(new maplibregl.AttributionControl({ compact: true }));
 
   const marker = new maplibregl.Marker()
-      .setLngLat([eventDetails.longitude, eventDetails.latitude])
-      .addTo(map);
+    .setLngLat([eventDetails.longitude, eventDetails.latitude])
+    .addTo(map);
 }
 
 function fillJob(eventDetails) {
@@ -331,16 +337,15 @@ function fillJob(eventDetails) {
   wrapImage("#event-cover", 1920, 1080, eventDetails.img);
 
   wrapEventBrite("#register", eventDetails);
-  
-  if(eventDetails.speakers.length > 0){
+
+  if (eventDetails.speakers.length > 0) {
     wrapSpeakers("#speakers", eventDetails.speakers);
   }
 
-  wrapEventDetails(eventDetails)
-  wrapVenueDetails(eventDetails)
+  wrapEventDetails(eventDetails);
+  wrapVenueDetails(eventDetails);
 
   wrapParagraphs("#description", eventDetails.description);
-  
 
   const title = eventDetails.title + " - " + eventDetails.type;
   document.title = title;
@@ -478,9 +483,7 @@ function enableCarousel() {
   });
 }
 
-
 document.addEventListener("html-included", () => {
-
   if ($.urlParam("id") && window.eventData[$.urlParam("id")]) {
     const currentCategories = window.eventData[$.urlParam("id")].category;
     const directMatches = [];
@@ -488,52 +491,56 @@ document.addEventListener("html-included", () => {
     const allIds = [];
 
     document.querySelectorAll("#featured .item").forEach(function (el) {
-      let categories = $(el).data('category')
-      let id = $(el).data('id');
+      let categories = $(el).data("category");
+      let id = $(el).data("id");
       let directMatch = false;
       let categoryMatch = false;
-      if( id !== $.urlParam("id")) {
-        currentCategories.forEach((category)=> {
+      if (id !== $.urlParam("id")) {
+        currentCategories.forEach((category) => {
           var catClass = createClassFilter(category);
-          if (categories === catClass){
+          if (categories === catClass) {
             directMatch = true;
             categoryMatch = false;
-          } else if (categories.includes(catClass)){
-            categoryMatch = (directMatch === false);
-          } 
+          } else if (categories.includes(catClass)) {
+            categoryMatch = directMatch === false;
+          }
         });
 
-        if (directMatch){
-          directMatches.push(id)
-        } else if (categoryMatch){
-          categoryMatches.push(id)
+        if (directMatch) {
+          directMatches.push(id);
+        } else if (categoryMatch) {
+          categoryMatches.push(id);
         } else {
-          allIds.push(id)
+          allIds.push(id);
         }
       }
+    });
 
-     });
-
-    const featuredIds = (directMatches.concat( categoryMatches.concat(allIds))).slice(0, 3);
+    const featuredIds = directMatches
+      .concat(categoryMatches.concat(allIds))
+      .slice(0, 3);
     document.querySelectorAll("#featured .item").forEach(function (el) {
-      if (!featuredIds.includes($(el).data('id'))) {
+      if (!featuredIds.includes($(el).data("id"))) {
         $(el).remove();
-      } 
+      }
     });
   }
   enableCarousel();
 });
-    
-document.addEventListener("data-ready", () => {
-  loadEventDetails();
-  horizontalScroll();
-  initModal();
-}, {once: true});
+
+document.addEventListener(
+  "data-ready",
+  () => {
+    loadEventDetails();
+    horizontalScroll();
+    initModal();
+  },
+  { once: true },
+);
 
 $ = $ || jQuery;
-$(document).ready(function(){
+$(document).ready(function () {
   if ($.urlParam("id") && window.eventData[$.urlParam("id")]) {
     addMap(window.eventData[$.urlParam("id")]);
-
   }
-})
+});
