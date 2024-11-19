@@ -49,6 +49,7 @@
              {{/if}}
           </div>
         </a>
+        {{#if (gt speakers.length 0)}}
           <div class="speakers">
             {{#each speakers}}
             <div class="speaker" {{#if shortJob}}data-modal='{{createClass name}}'{{/if}}>
@@ -68,6 +69,7 @@
             {{/each}}
             <span class='speakers-gradient'></span>
           </div>
+        {{/if}}
         </div>
           <div class="gridElementLogo" >
             <a href="./event-details/?id={{yearMonth}}-{{createClass title}}">
