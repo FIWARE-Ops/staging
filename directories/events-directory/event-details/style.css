@@ -26,6 +26,12 @@ dl {
   gap: 10px;
 }
 
+dl#speakers {
+  border-bottom: none;
+  padding: 0;
+  margin: 0;
+}
+
 dl#event-category {
   /* max-width: 100%; */
   align-items: center!important;
