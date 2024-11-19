@@ -221,7 +221,7 @@ function wrapVenueDetails(event) {
   }
   var venueName = event.venueName;
   if (event.venueLink !== "") {
-    venueName = `<a href="${event.venueLink}">${venueName}</a>`;
+    venueName = `<a href="${event.venueLink}" target="_blank">${venueName}</a>`;
   }
 
   $("#venue-name").html(`<dt class="event-attribute-label"></dt>
@@ -237,13 +237,13 @@ function wrapVenueDetails(event) {
 
   if (event.website !== "" && (eventOver || event.eventBrite !== "")) {
     $("#venue-website").html(`<dt class="event-attribute-label"></dt>
-      <dd><a href="${event.website}">Event Website</a></dd>`);
+      <dd><a href="${event.website}" target="_blank">Event Website</a></dd>`);
   } else {
     $("#venue-website").remove();
   }
 
   $("#venue-website").html(`<dt class="event-attribute-label"></dt>
-      <dd><a href="${event.website}">Event Website</a></dd>`);
+      <dd><a href="${event.website}" target="_blank">Event Website</a></dd>`);
 }
 
 function wrapSpeakers(id, speakers) {
@@ -307,12 +307,12 @@ function addChips(id, items) {
 
 function addMap(eventDetails) {
   if (eventDetails.latitude === "") {
-    $("#map").empty();
+    $("#map").remove();
     return;
   }
   const map = new maplibregl.Map({
     container: "map",
-    style: "./style.json",
+    style: "https://www.fiware.org/wp-content/directories/events-directory/event-details/style.json",
     maxZoom: 20,
     minZoom: 3,
     attributionControl: false,
@@ -395,7 +395,7 @@ function loadEventDetails() {
     window.history.back();
   });
 
-  if ($.urlParam("id") && window.eventData[$.urlParam("id")]) {
+  if ($.urlParam("id") &&  window.eventData && window.eventData[$.urlParam("id")]) {
     fillJob(window.eventData[$.urlParam("id")]);
   } else {
     $(".et_pb_section_1").remove();
