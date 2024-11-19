@@ -275,6 +275,7 @@ function wrapSpeakers(id, speakers) {
   if (speakers.length > 0) {
     $(id).empty();
     $(id).append(div);
+    $(id).append('<span class="speakers-gradient"></span>');
   } else {
     $(id).remove();
   }
