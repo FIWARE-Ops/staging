@@ -46,7 +46,8 @@
 }
 
 .cover-image img {
-    max-height: 55vh;
+    max-height: 70vh;
+    float: inline-end;
 }
 
 .cover-cta .details {
@@ -513,6 +514,7 @@
     flex-direction: row;
     align-items: center;
     gap: 20px;
+    cursor: default;
 }
 
 .speakers-gradient {
@@ -766,7 +768,7 @@
     /*transform: scale(0.98);*/
     will-change: transform;
     user-select: none;
-    cursor: grab;
+    cursor: default;
 }
 
 .chips.active {
