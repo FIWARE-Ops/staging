@@ -204,8 +204,8 @@ window.eventData = [
         "title": "Data Spaces Symposium 2024",
         "from": "2025-03-11T23:00:00.000Z",
         "to": "2025-03-13T23:00:00.000Z",
-        "description": "This year’s edition will show market-ready use cases and advanced technology solutions for existing and future data spaces.",
-        "location": "Darmstadtium - Science and Congress Center Schlossgraben 1, 64283 ",
+        "description": "The Data Spaces Symposium 2025 will highlight the value of data sharing in Europe and beyond, unlocking business opportunities, and boosting the impact and market adoption.",
+        "location": "Hilton Warsaw City Grzybowska 63, 00-844 ",
         "isAllDay": true,
         "group": "Symposium"
     }
