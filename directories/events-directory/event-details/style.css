@@ -1,6 +1,6 @@
 /* Divi Styles */
 
-.et_pb_section_2.et_pb_section {
+/* .et_pb_section_2.et_pb_section {
   border: none!important;
   padding-bottom: 0 !important;
 }
@@ -8,7 +8,7 @@
 .et_pb_row_3.et_pb_row {
   padding-bottom: 0!important;
   margin-top: 40px!important;
-}
+} */
 
 /* ––––––––––– */
 
@@ -24,6 +24,12 @@ dl {
   flex-direction: row;
   align-items: baseline;
   gap: 10px;
+}
+
+dl:last-of-type {
+  border-bottom: none;
+  padding-bottom: 0;
+  border-bottom: 0;
 }
 
 dl#speakers {
@@ -300,11 +306,5 @@ color: #002452;
 
   .carousel-container .item:last-of-type {
     margin-bottom: 0px;
-  }
-
-  dl:last-of-type {
-    border-bottom: none;
-    padding-bottom: 0;
-    border-bottom: 0;
   }
 }
