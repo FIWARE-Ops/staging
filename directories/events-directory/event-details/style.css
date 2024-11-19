@@ -301,4 +301,10 @@ color: #002452;
   .carousel-container .item:last-of-type {
     margin-bottom: 0px;
   }
+
+  dl:last-of-type {
+    border-bottom: none;
+    padding-bottom: 0;
+    border-bottom: 0;
+  }
 }
