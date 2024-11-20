@@ -84,7 +84,7 @@ function createClassFilter(data) {
 
 function initModal() {
   // Modal
-  document.querySelectorAll(".speaker").forEach(function (el) {
+  document.querySelectorAll(".btn-icon").forEach(function (el) {
     el.addEventListener("click", function (e) {
       var modal = new tingle.modal({
         footer: true,
