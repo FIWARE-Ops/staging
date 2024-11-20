@@ -200,8 +200,8 @@ window.eventData = [
         "group": "Webinar"
     },
     {
-        "id": "202503-data-spaces-symposium-2024",
-        "title": "Data Spaces Symposium 2024",
+        "id": "202503-data-spaces-symposium-2025",
+        "title": "Data Spaces Symposium 2025",
         "from": "2025-03-11T23:00:00.000Z",
         "to": "2025-03-13T23:00:00.000Z",
         "description": "The Data Spaces Symposium 2025 will highlight the value of data sharing in Europe and beyond, unlocking business opportunities, and boosting the impact and market adoption.",
