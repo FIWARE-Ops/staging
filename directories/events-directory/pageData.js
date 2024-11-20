@@ -160,26 +160,6 @@ window.eventData = [
         "group": "Webinar"
     },
     {
-        "id": "202411-fiware-data-space-technologies-webinar--4--deploying-a-fiware-data-space-connector",
-        "title": "FIWARE Data Space Technologies Webinar #4: Deploying a FIWARE Data Space Connector",
-        "from": "2024-11-12T14:30:00.000Z",
-        "to": "2024-11-12T16:00:00.000Z",
-        "description": "Learn how to seamlessly integrate a FIWARE Data Space Connector within your organization, enabling a smooth connection to data spaces.",
-        "location": "Online",
-        "isAllDay": false,
-        "group": "Webinar"
-    },
-    {
-        "id": "202411-transforming---exploiting-high-value-datasets--synergies-in-eu-open-data-projects",
-        "title": "Transforming &amp; Exploiting High Value Datasets: Synergies in EU Open Data Projects",
-        "from": "2024-11-19T09:00:00.000Z",
-        "to": "2024-11-19T11:00:00.000Z",
-        "description": "This event showcases the collaborative efforts of four pioneering EU-funded projects; Open Maps for Europe 2 (OME2), MAREGRAPH, RODEO, and BeOpen, to revolutionise the landscape of High Value Datasets (HVDs).",
-        "location": "Online",
-        "isAllDay": false,
-        "group": "Webinar"
-    },
-    {
         "id": "202411-fiware-data-space-technologies-webinar--5--reference-use-case",
         "title": "FIWARE Data Space Technologies Webinar #5: Reference Use Case",
         "from": "2024-11-19T14:30:00.000Z",
@@ -190,10 +170,30 @@ window.eventData = [
         "group": "Webinar"
     },
     {
+        "id": "202411-fiware-data-space-technologies-webinar--4--deploying-a-fiware-data-space-connector",
+        "title": "FIWARE Data Space Technologies Webinar #4: Deploying a FIWARE Data Space Connector",
+        "from": "2024-11-19T14:30:00.000Z",
+        "to": "2024-11-19T16:00:00.000Z",
+        "description": "Learn how to seamlessly integrate a FIWARE Data Space Connector within your organization, enabling a smooth connection to data spaces.",
+        "location": "Online",
+        "isAllDay": false,
+        "group": "Webinar"
+    },
+    {
+        "id": "202411-transforming---exploiting-high-value-datasets--synergies-in-eu-open-data-projects",
+        "title": "Transforming &amp; Exploiting High Value Datasets: Synergies in EU Open Data Projects",
+        "from": "2024-11-21T09:00:00.000Z",
+        "to": "2024-11-21T11:00:00.000Z",
+        "description": "This event showcases the collaborative efforts of four pioneering EU-funded projects; Open Maps for Europe 2 (OME2), MAREGRAPH, RODEO, and BeOpen, to revolutionise the landscape of High Value Datasets (HVDs).",
+        "location": "Online",
+        "isAllDay": false,
+        "group": "Webinar"
+    },
+    {
         "id": "202411-fiware-data-space-technologies-webinar--6--ongoing-and-future-work",
         "title": "FIWARE Data Space Technologies Webinar #6: Ongoing and Future Work",
-        "from": "2024-11-21T14:30:00.000Z",
-        "to": "2024-11-21T16:00:00.000Z",
+        "from": "2024-11-26T14:30:00.000Z",
+        "to": "2024-11-26T16:00:00.000Z",
         "description": "Get a sneak peek into the support of data space protocols, the DOME project and, upcoming innovations and ongoing work.",
         "location": "Online",
         "isAllDay": false,
