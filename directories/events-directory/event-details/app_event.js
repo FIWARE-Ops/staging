@@ -250,7 +250,7 @@ function wrapSpeakers(id, speakers) {
   var div = "";
   speakers.forEach((speaker) => {
     div += `
-      <div class="speaker" data-modal="${createClassFilter(speaker.name)}">`;
+      <div class="speaker">`;
     if (speaker.img) {
       div += `<div class="profile-picture">
                 <img decoding="async" alt="${speaker.name}" src="${speaker.img}" loading="lazy">
@@ -265,7 +265,7 @@ function wrapSpeakers(id, speakers) {
     if (speaker.company) {
       div += `<div class="speaker-company">${speaker.company}</div>`;
     }
-    div += `<div class="btn-icon">
+    div += `<div class="btn-icon" data-modal="${createClassFilter(speaker.name)}">
           <span class="material-symbols-outlined icon cta small">trending_flat</span>
         </div>`;
     div += `</div>
