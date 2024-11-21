@@ -30,6 +30,10 @@ a:focus {
 
 /* Map */
 
+.maplibregl-canvas {
+    border-radius: 4px !important;
+}
+
 .maplibregl-popup {
     min-width: 30ch !important;
     max-width: 280px !important;
