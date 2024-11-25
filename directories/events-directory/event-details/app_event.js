@@ -312,7 +312,7 @@ function addMap(eventDetails) {
   }
   const map = new maplibregl.Map({
     container: "map",
-    style: "./style.json",
+    style: window.mapStyle || "https://www.fiware.org/wp-content/directories/events-directory/event-details/style.json" ,
     maxZoom: 20,
     minZoom: 3,
     attributionControl: false,
