@@ -200,6 +200,16 @@ window.eventData = [
         "group": "Webinar"
     },
     {
+        "id": "202411-international-conference-on-digital-sovereignty--icds--2024",
+        "title": "International Conference on Digital Sovereignty (ICDS) 2024",
+        "from": "2024-11-28T08:00:00.000Z",
+        "to": "2024-11-30T15:00:00.000Z",
+        "description": "The International Conference on Digital Sovereignty 2024, Nov 28-30 in Oslo, explores its role in securing infrastructures.",
+        "location": "Oslo Science Park Gaustadalléen 21, 0349 ",
+        "isAllDay": false,
+        "group": "Conference"
+    },
+    {
         "id": "202503-data-spaces-symposium-2025",
         "title": "Data Spaces Symposium 2025",
         "from": "2025-03-11T23:00:00.000Z",
