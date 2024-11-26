@@ -194,7 +194,7 @@ window.eventData = [
         "title": "FIWARE Data Space Technologies Webinar #6: Reference Use Case",
         "from": "2024-11-26T14:30:00.000Z",
         "to": "2024-11-26T16:00:00.000Z",
-        "description": "In this final session of the webinar series on FIWARE Data Space Technologies, the presenters will discuss ongoing and future work related to the FIWARE Data Space connector and associated technologies. FDSC is a data space connector deeply aligned with existing standards and technologies, and this session will discuss subjects such as integration with Gaia-X clearing houses and the DOME marketplace.",
+        "description": "This session will dive into a reference use case detailing the description of the participants and conclude with a deployment aligning to the business needs of the use case.",
         "location": "Online",
         "isAllDay": false,
         "group": "Webinar"
