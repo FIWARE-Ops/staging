@@ -180,8 +180,8 @@ window.eventData = [
         "group": "Webinar"
     },
     {
-        "id": "202411-fiware-data-space-technologies-webinar--6--ongoing-and-future-work",
-        "title": "FIWARE Data Space Technologies Webinar #6: Ongoing and Future Work",
+        "id": "202411-fiware-data-space-technologies-webinar--5--ongoing-and-future-work",
+        "title": "FIWARE Data Space Technologies Webinar #5: Ongoing and Future Work",
         "from": "2024-11-21T14:30:00.000Z",
         "to": "2024-11-21T16:00:00.000Z",
         "description": "Get a sneak peek into the support of data space protocols, the DOME project and, upcoming innovations and ongoing work.",
@@ -190,11 +190,11 @@ window.eventData = [
         "group": "Webinar"
     },
     {
-        "id": "202411-fiware-data-space-technologies-webinar--5--reference-use-case",
-        "title": "FIWARE Data Space Technologies Webinar #5: Reference Use Case",
+        "id": "202411-fiware-data-space-technologies-webinar--6--reference-use-case",
+        "title": "FIWARE Data Space Technologies Webinar #6: Reference Use Case",
         "from": "2024-11-26T14:30:00.000Z",
         "to": "2024-11-26T16:00:00.000Z",
-        "description": "This session will dive into a reference use case detailing the description of the participants and conclude with a deployment aligning to the business needs of the use case.",
+        "description": "In this final session of the webinar series on FIWARE Data Space Technologies, the presenters will discuss ongoing and future work related to the FIWARE Data Space connector and associated technologies. FDSC is a data space connector deeply aligned with existing standards and technologies, and this session will discuss subjects such as integration with Gaia-X clearing houses and the DOME marketplace.",
         "location": "Online",
         "isAllDay": false,
         "group": "Webinar"
