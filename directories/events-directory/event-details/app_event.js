@@ -494,55 +494,67 @@ $.urlParam = function (name) {
   }
   return decodeURI(results[1]) || 0;
 };
+
+function waitForData() {
+    return new Promise(resolve => {
+        if (window.eventData) {
+            return resolve(window.eventData);
+        }
+    });
+}
   
 $(document).ready(function () {
-  if ($.urlParam("id") && window.eventData && window.eventData[$.urlParam("id")]) {
-    addMap(window.eventData[$.urlParam("id")]);
-  }
+  waitForData().then((eventData) => {
+    if ($.urlParam("id") && eventData && eventData[$.urlParam("id")]) {
+      addMap(eventData[$.urlParam("id")]);
+    }
+  });
 });
 
 $(document).one("html-included", () => {
-  if ($.urlParam("id") && window.eventData[$.urlParam("id")]) {
-    const currentCategories = window.eventData[$.urlParam("id")].category;
-    const directMatches = [];
-    const categoryMatches = [];
-    const allIds = [];
+  waitForData().then((eventData) => {
+    if ($.urlParam("id") && eventData && eventData[$.urlParam("id")]) {
+      const currentCategories = eventData[$.urlParam("id")].category;
+      const directMatches = [];
+      const categoryMatches = [];
+      const allIds = [];
 
-    document.querySelectorAll("#featured .item").forEach(function (el) {
-      let categories = $(el).data("category");
-      let id = $(el).data("id");
-      let directMatch = false;
-      let categoryMatch = false;
-      if (id !== $.urlParam("id")) {
-        currentCategories.forEach((category) => {
-          var catClass = createClassFilter(category);
-          if (categories === catClass) {
-            directMatch = true;
-            categoryMatch = false;
-          } else if (categories.includes(catClass)) {
-            categoryMatch = directMatch === false;
+      document.querySelectorAll("#featured .item").forEach(function (el) {
+        let categories = $(el).data("category");
+        let id = $(el).data("id");
+        let directMatch = false;
+        let categoryMatch = false;
+        if (id !== $.urlParam("id")) {
+          currentCategories.forEach((category) => {
+            var catClass = createClassFilter(category);
+            if (categories === catClass) {
+              directMatch = true;
+              categoryMatch = false;
+            } else if (categories.includes(catClass)) {
+              categoryMatch = directMatch === false;
+            }
+          });
+
+          if (directMatch) {
+            directMatches.push(id);
+          } else if (categoryMatch) {
+            categoryMatches.push(id);
+          } else {
+            allIds.push(id);
           }
-        });
-
-        if (directMatch) {
-          directMatches.push(id);
-        } else if (categoryMatch) {
-          categoryMatches.push(id);
-        } else {
-          allIds.push(id);
         }
-      }
-    });
+      });
 
-    const featuredIds = directMatches
-      .concat(categoryMatches.concat(allIds))
-      .slice(0, 3);
-    document.querySelectorAll("#featured .item").forEach(function (el) {
-      if (!featuredIds.includes($(el).data("id"))) {
-        $(el).remove();
-      }
-    });
-  }
+      const featuredIds = directMatches
+        .concat(categoryMatches.concat(allIds))
+        .slice(0, 3);
+      document.querySelectorAll("#featured .item").forEach(function (el) {
+        if (!featuredIds.includes($(el).data("id"))) {
+          $(el).remove();
+        }
+      });
+    }
+  });
   let isMobile = window.matchMedia("(max-width: 767px)").matches;
   if (!isMobile){
     enableCarousel();} 
