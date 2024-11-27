@@ -324,27 +324,30 @@ function printDomain(data) {
 }
 
 function buildTracker(action, context, type, product, company, excerpt, url) {
+
   var eventObj = {
     actor: {
-      type: "User",
-      id: "System", //Ideal to have a randomly generated id which is stored in a cookie here
-    },
-    action: {
-      type: action,
-      Name: product,
-    },
-    context,
-    object: {
-      type: type,
-      name: company,
-      attributes: {
-        url: url,
+    type: "User", 
+    id: "System",
+    attributes: {"name": "John Doe"}
+  },
+  action: { 
+     type: "action", 
+     name: action,
+     attributes: {"referrer": "Facebook", "coupon": "KIHSK123FS"}
+  },
+  context,
+  object: {
+    "type": type,
+     name: company,
+     attributes:{
+       url: url,
         "company name": company,
         description: excerpt,
         indexforsearch: true,
-      },
-    },
-  };
+     }
+  }};
+
 
   if (this.qualetics) {
     this.qualetics.send(eventObj);
@@ -398,7 +401,7 @@ function cardTracking() {
       attributes: {
         url: url,
         "company name": company,
-      },
+      }
     };
 
     buildTracker(
