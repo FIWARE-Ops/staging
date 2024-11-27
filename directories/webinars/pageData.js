@@ -54,6 +54,21 @@ var types = [
 
  var modalData = [
     { 
+        name: "FIWARE Data Space Technologies - Reference Use Case", 
+        img: "https://www.fiware.org/wp-content/uploads/fw-dataspaces-series.png",
+        type: "Security", 
+        badge: "<img src='https://www.fiware.org/custom/brand-guide/img/badges/catalogue/04/svg/security.svg'/>",
+        chapter: "context-data", 
+        difficulty: 4,
+        video: "https://www.youtube.com/watch?v=3fLisTubkF0",
+        content: "",  
+        domain: "Developers",  
+        technology: "Data Spaces",
+        length: 90,
+        year: 2024,
+        social: "https://www.fiware.org/webinars/fiware-data-space-technologies---reference-use-case.html"
+    },
+    { 
         name: "FIWARE Data Space Technologies - Ongoing and Future Work", 
         img: "https://www.fiware.org/wp-content/uploads/fw-dataspaces-series.png",
         type: "Security", 
@@ -61,7 +76,7 @@ var types = [
         chapter: "context-data", 
         difficulty: 4,
         video: "https://www.youtube.com/watch?v=bZAzOHIdSr8",
-        content: "&lt;p&gt;In this session of the webinar series on FIWARE Data Space Technologies, the presenters will discuss ongoing and future work related to the FIWARE Data Space connector and associated technologies. FDSC is a data space connector deeply aligned with existing standards and technologies, and this session will discuss subjects such as integration with Gaia-X clearing houses and the DOME marketplace&lt;/p&gt;",  
+        content: "",  
         domain: "Developers",  
         technology: "Data Spaces",
         length: 90,
