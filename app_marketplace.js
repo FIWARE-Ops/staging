@@ -323,55 +323,93 @@ function printDomain(data) {
   }
 }
 
-
-function buildTracker(href, type, product, company, excerpt){
-  const path = window.location.pathname.replace('/showcase', '');
-  var url = `fiware.org${path}${createClassFilter(company)}/${createClassFilter(product)}.html` ;
+function buildTracker(action, context, type, product, company, excerpt, url) {
   var eventObj = {
     actor: {
-      type: "User", 
+      type: "User",
       id: "System", //Ideal to have a randomly generated id which is stored in a cookie here
     },
-    action: { 
-      type: "View Solution",
-      Name: product
+    action: {
+      type: action,
+      Name: product,
     },
-    context: { 
-      type: "Showcase",
-      name: "View Showcase Solution", 
-      attributes: {
-        url: url, 
-        "company name": company}
-    },
+    context,
     object: {
       type: type,
       name: company,
-      attributes:{
-        url: url, 
+      attributes: {
+        url: url,
         "company name": company,
         description: excerpt,
-        indexforsearch: true 
-      }
-    }
+        indexforsearch: true,
+      },
+    },
   };
 
-  if(this.qualetics){
+  if (this.qualetics) {
     this.qualetics.send(eventObj);
   } else {
-    //console.log(eventObj)
+    console.log(eventObj);
   }
 }
 
 // Card tracking
-function cardTracking(){
- $(document).on("click","a.details", function (ev) {
-  buildTracker(
-    $(this).attr('href'),
-    $(this).data('type'),
-    $(this).parent().parent().find('.solution-name').text(),
-    $(this).parent().parent().find('.name').text(),
-    $(this).parent().parent().find('.excerpt').text()
-   );
+function cardTracking() {
+  $(document).on("click", "a.details", function (ev) {
+    const product = $(this).parent().parent().find(".solution-name").text();
+    const path = window.location.pathname.replace("/showcase", "");
+    const company = $(this).parent().parent().find(".name").text();
+    const description = $(this).parent().parent().find(".excerpt").text();
+    var url = `fiware.org${path}${createClassFilter(
+      company,
+    )}/${createClassFilter(product)}.html`;
+
+    const context = {
+      type: "Showcase",
+      name: "View Showcase Solution",
+      attributes: {
+        url: url,
+        "company name": company,
+      },
+    };
+
+    buildTracker(
+      "View Showcase Solution",
+      context,
+      $(this).data("type"),
+      product,
+      company,
+      description,
+      url,
+    );
+  });
+
+  $(document).on("change", ".filter-element select", function (ev) {
+    const path = window.location.pathname.replace("/showcase", "");
+    const url = `fiware.org${path}`;
+    const type = $("#filterType option:selected").text();
+    const domain = $("#filterDomain option:selected").text();
+    const technology = $("#filterTechnology option:selected").text();
+    const company = $("#filterCompany option:selected").text();
+
+    const context = {
+      type: "Showcase",
+      name: "Select Showcase Solution",
+      attributes: {
+        url: url,
+        "company name": company,
+      },
+    };
+
+    buildTracker(
+      "Select",
+      context,
+      type,
+      "",
+      company,
+      `Search for ${domain} and ${technology}`,
+      url,
+    );
   });
 }
 
@@ -414,8 +452,8 @@ function cardCreation() {
     <a class="details" 
       data-type="${createClassFilter(gridElementData.type)}" 
       href="${
-      gridElementData.companyLink
-    }"><span id="ico-info" class="material-symbols-outlined">info</span> See details</a>
+        gridElementData.companyLink
+      }"><span id="ico-info" class="material-symbols-outlined">info</span> See details</a>
     </div>
   </div>`;
 
