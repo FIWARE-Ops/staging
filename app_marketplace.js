@@ -351,21 +351,10 @@ function buildTracker(action, context, type, product, company, excerpt, url) {
 
   if (this.qualetics) {
     this.qualetics.send(eventObj);
-    this.showCaseStats.send(eventObj);
   } else {
     console.log(eventObj);
   }
 }
-
-var showCaseStats = this.qualetics ?
-new Qualetics.service
-("showcase", "pZkyAx0L57LE", "JtlXpW", true, {host: "wss://api.qualetics.com", port: 443, appVersion: "1.0.1", trackUserGeoLocation: false, captureClicks: true, captureTimings: true})
-: null;
-
-if(showCaseStats){
-  showCaseStats.init();
-}
-
 
 // Card tracking
 function cardTracking() {
