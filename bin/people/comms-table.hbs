@@ -8,16 +8,20 @@
         <td>{{title}}{{name}}</td><td>{{job}}</td>
         <td>
         {{#if email}}
+        <div class="cat-email">
         <a target='_blank' href='{{email}}' rel='noopener'>
             <span class='icon email'></span>
         </a>
+        </div>
         {{/if}}
         </td>
         <td>
         {{#if linkedIn}}
+        <div class="cat-linkedin">
         <a target='_blank' href='{{linkedIn}}' rel='noopener'>
             <span class='icon linkedin'></span>
         </a>
+        </div>
         {{/if}}
         </td>
     </tr>
