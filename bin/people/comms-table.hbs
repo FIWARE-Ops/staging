@@ -1,0 +1,12 @@
+<table>
+    <tr>
+        <th>Name</th><th>Department</th><th>Job Title</th>
+    </tr>
+{{#each this}}
+    {{#if (eq department 'Comms Team')}}
+    <tr>
+        <td>{{title}}{{name}}</td><td>{{department}}</td><td>{{job}}</td>
+    </tr>
+    {{/if}}
+{{/each}}
+</table>
