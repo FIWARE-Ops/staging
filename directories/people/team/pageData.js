@@ -1,11 +1,6 @@
 var companies = [
         'FIWARE Foundation',
 ]; var departments = [
-        'Admin Team',
-        'Comms Team',
-        'Community Dev Team',
-        'Operations Team',
-        'Tech Team',
 ]; var domains = [
 ]; var titles = [
 ]; var countries = [
