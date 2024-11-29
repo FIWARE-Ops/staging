@@ -1,5 +1,6 @@
 .DS_Store
 images/*
+welcome/*
 !images/.gitkeep
 node_modules
 Untitled.txt
