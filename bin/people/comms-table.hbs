@@ -1,16 +1,22 @@
 <table>
     <tr>
-        <th>Name</th><th>Department</th><th>Job Title</th><th>eMail</th><th>LinkedIn</th>
+        <th>Name</th><th>Job Title</th><th>eMail</th><th>LinkedIn</th>
     </tr>
 {{#each this}}
     {{#if (eq department 'Comms Team')}}
     <tr>
-        <td>{{title}}{{name}}</td><td>{{department}}</td><td>{{job}}</td><td>{{email}}</td>
+        <td>{{title}}{{name}}</td><td>{{job}}</td>
+        <td>
+        {{#if email}}
+        <a target='_blank' href='{{email}}' rel='noopener'>
+            <span class='icon email'></span>
+        </a>
+        </td>
         <td>
         {{#if linkedIn}}
-        <a target='_blank' href='{{linkedIn}}' rel='noopener'><span
-                class='icon linkedin'
-            ></span></a>
+        <a target='_blank' href='{{linkedIn}}' rel='noopener'>
+            <span class='icon linkedin'></span>
+        </a>
         {{/if}}
         </td>
     </tr>
