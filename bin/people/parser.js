@@ -102,10 +102,9 @@ function parse(file, page) {
                 Template.write(path.join(PEOPLE_DIR, page, 'people.html'), path.join(TEMPLATE_PATH, 'speaker-card.hbs'), people);
             } else {
                 Template.write(path.join(PEOPLE_DIR, page, 'people.html'), path.join(TEMPLATE_PATH, 'card.hbs'), people);
-                Template.write(path.join('welcome', PEOPLE_DIR, page, 'people.html'), path.join(TEMPLATE_PATH, 'table.hbs'), people);
-             }
+            }
             if(page === 'team'){
-               Template.write(path.join('welcome', PEOPLE_DIR, page, 'tech.html'), path.join(TEMPLATE_PATH, 'technical-table.hbs'), people);
+               Template.write(path.join('welcome', PEOPLE_DIR, page, 'tech.html'), path.join(TEMPLATE_PATH, 'technical-table..hbs'), people);
                Template.write(path.join('welcome', PEOPLE_DIR, page, 'comms.html'), path.join(TEMPLATE_PATH, 'comms-table.hbs'), people);
             }
             Template.write(
