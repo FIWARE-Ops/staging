@@ -39,6 +39,7 @@ function extractPeople(input, all = false) {
             country: item.Country,
             flag: item['Country flag'],
             filters: Parser.splitStrings(item['Keyword Job Title Filters']),
+            email: item['Email'].trim(),         
             publish: Parser.boolean(item.Published)
         };
 
