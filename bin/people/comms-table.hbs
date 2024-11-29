@@ -1,30 +1,31 @@
-<table class="table-people">
-    <tr class="thead">
-        <th>Name</th><th>Job Title</th><th>eMail</th><th>LinkedIn</th>
-    </tr>
+<div class="list-people">
+    <div class="lp-head">
+        <div>Name</div><div>Job Title</div><div>eMail</div><div>LinkedIn</div>
+    </div>
 {{#each this}}
     {{#if (eq department 'Comms Team')}}
-    <tr>
-        <td>{{title}}{{name}}</td><td>{{job}}</td>
-        <td>
-        {{#if email}}
-        <div class="cat-email">
-        <a target='_blank' href='{{email}}' rel='noopener'>
-            <span class='icon email'></span>
-        </a>
+    <div class="lp-item-container">
+        <div class="lp-item-name">{{title}}{{name}}</div>
+        <div class="lp-item-role">{{job}}</div>
+        <div class="lp-item-icons">
+            {{#if email}}
+            <div class="cat-email">
+            <a target='_blank' href='{{email}}' rel='noopener'>
+                <span class='icon email'></span>
+            </a>
+            </div>
+            {{/if}}
+            </td>
+            <td>
+            {{#if linkedIn}}
+            <div class="cat-linkedin">
+            <a target='_blank' href='{{linkedIn}}' rel='noopener'>
+                <span class='icon linkedin'></span>
+            </a>
+            </div>
+            {{/if}}
         </div>
-        {{/if}}
-        </td>
-        <td>
-        {{#if linkedIn}}
-        <div class="cat-linkedin">
-        <a target='_blank' href='{{linkedIn}}' rel='noopener'>
-            <span class='icon linkedin'></span>
-        </a>
-        </div>
-        {{/if}}
-        </td>
-    </tr>
+    </div>
     {{/if}}
 {{/each}}
-</table>
+</div>
