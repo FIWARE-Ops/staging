@@ -82,6 +82,7 @@ function parse(file, page) {
             const filterData = {
                 companies: Sorter.sortData(people, 'company'),
                 departments: Sorter.sortData(people, 'department'),
+                teams: Sorter.sortData(people, 'team'),
                 domains: Sorter.sortData(people, 'domain'),
                 filters: [],
                 countries: Sorter.sortData(people, 'country'),
