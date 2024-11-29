@@ -4,6 +4,7 @@ const Cities = require('./directories/cities/parser');
 const Domains = require('./directories/domains/parser');
 const Enablers = require('./directories/enablers/parser');
 const Events = require('./directories/events/parser');
+const Figures = require('./directories/key-figures/parser');
 const ImpactStories = require('./directories/impact-stories/parser');
 const iHubs = require('./directories/ihubs/parser');
 const Marketing = require('./directories/marketing-toolbox/parser');
@@ -94,6 +95,13 @@ if (PROCESS.startsWith('enablers')) {
     });
 }
 
+// Create HTML for key figures
+if (PROCESS.startsWith('figures')) {
+    Loader.load('figures', Figures.file).then(() => {
+        return Figures.parse(Figures.file);
+    });
+}
+
 // Create HTML and template files for the impact stories
 if (PROCESS.startsWith('impact-stories')) {
     Loader.load('impact-stories', ImpactStories.file).then(() => {
@@ -163,6 +171,7 @@ if (PROCESS === 'postinstall') {
     touch(PRODUCTS_SUMMARY_FILE);
     touch(Domains.file);
     touch(Enablers.file);
+    touch(Figures.file);
     touch(ImpactStories.file);
     touch(iHubs.file);
     touch(Marketing.file);
