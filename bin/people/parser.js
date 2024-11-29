@@ -105,9 +105,8 @@ function parse(file, page) {
                 Template.write(path.join('welcome', PEOPLE_DIR, page, 'people.html'), path.join(TEMPLATE_PATH, 'table.hbs'), people);
              }
             if(page === 'team'){
-               Template.write(path.join('welcome', PEOPLE_DIR, page, 'tech.html'), path.join(TEMPLATE_PATH, 'tech-table.hbs'), people);
+               Template.write(path.join('welcome', PEOPLE_DIR, page, 'tech.html'), path.join(TEMPLATE_PATH, 'technical-table.hbs'), people);
                Template.write(path.join('welcome', PEOPLE_DIR, page, 'comms.html'), path.join(TEMPLATE_PATH, 'comms-table.hbs'), people);
-               Template.write(path.join('welcome', PEOPLE_DIR, page, 'other.html'), path.join(TEMPLATE_PATH, 'other-table.hbs'), people);
             }
             Template.write(
                 path.join(PEOPLE_DIR, page, 'pageData.js'),
