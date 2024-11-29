@@ -1,11 +1,11 @@
 <table>
     <tr>
-        <th>Name</th><th>Department</th><th>Job Title</th>
+        <th>Name</th><th>Department</th><th>Job Title</th><th>eMail</th><th>LinkedIn</th>
     </tr>
 {{#each this}}
     {{#if (eq department 'Tech Team')}}
     <tr>
-        <td>{{title}}{{name}}</td><td>{{department}}</td><td>{{job}}</td><td>{{email}}</td>
+        <td>{{title}}{{name}}</td><td>{{department}}</td><td>{{job}}</td><td>{{email}}</td><td>{{linkedIn}}</td>
     </tr>
     {{/if}}
 {{/each}}
