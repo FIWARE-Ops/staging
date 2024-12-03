@@ -1,15 +1,6 @@
 {{#each this}}
-<div>
- {{name}}: {{value}}
-  {{#if (ne source '')}}
-	  <div>
-	  	Source: {{source}}  
-	  </div>
-  {{/if}}
-  {{#if (ne owner '')}}
-	  <div>
-	  	Owner: {{owner}}  
-	  </div>
-  {{/if}}
+<div class="card">
+ <div class="md-figure-name"><h5>{{name}}</h5></div>
+ <div class="md-value--large">{{value}}</div>
 </div>
 {{/each}}
