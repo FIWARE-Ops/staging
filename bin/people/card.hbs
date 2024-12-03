@@ -15,8 +15,12 @@
                 <a target='_blank' href='{{website}}' rel='noopener'>
                     <h5 class='company-link'>{{company}}{{companyType}}</h5>
                 </a>
+                {{#if team}}
+                    <div class='department'>{{team}}</div>
+                {{else}}
                 {{#if department}}
                     <div class='department'>{{department}}</div>
+                {{/if}}
                 {{/if}}
                 {{#if domain}}
                     <div class='chip-domain'>{{domain}}</div>

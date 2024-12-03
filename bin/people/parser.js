@@ -36,6 +36,7 @@ function extractPeople(input, all = false) {
             linkedIn: Parser.trim(item.LinkedIn),
             twitter: Parser.trim(item.Twitter),
             department: item.Department,
+            team: item.Team,
             country: item.Country,
             flag: item['Country flag'],
             filters: Parser.splitStrings(item['Keyword Job Title Filters']),
