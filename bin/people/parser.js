@@ -40,7 +40,7 @@ function extractPeople(input, all = false) {
             country: item.Country,
             flag: item['Country flag'],
             filters: Parser.splitStrings(item['Keyword Job Title Filters']),
-            email: item['Email'] ? item['Email'].trim() : '',
+            email: item.Email ? item.Email.trim() : '',
             publish: Parser.boolean(item.Published)
         };
 
@@ -68,6 +68,58 @@ function extractPeople(input, all = false) {
     });
 }
 
+function generateHTML(people, page) {
+    const templateData = Static.getPeopleData(page);
+    const filterData = {
+        companies: Sorter.sortData(people, 'company'),
+        departments: Sorter.sortData(people, 'department'),
+        teams: Sorter.sortData(people, 'team'),
+        domains: Sorter.sortData(people, 'domain'),
+        filters: [],
+        countries: Sorter.sortData(people, 'country'),
+        people,
+        labels: templateData
+    };
+
+    const filters = [];
+    people.forEach((person) => {
+        person.filters.forEach((filter) => {
+            filters.push(filter);
+        });
+    });
+
+    filterData.filters = _.sortBy(_.uniq(filters), Sorter.caseInsensitive);
+
+    if (page === 'speakers') {
+        Template.write(
+            path.join(PEOPLE_DIR, page, 'people.html'),
+            path.join(TEMPLATE_PATH, 'speaker-card.hbs'),
+            people
+        );
+    } else {
+        Template.write(path.join(PEOPLE_DIR, page, 'people.html'), path.join(TEMPLATE_PATH, 'card.hbs'), people);
+    }
+    if (page === 'team') {
+        Template.write(
+            path.join('welcome', PEOPLE_DIR, page, 'tech.html'),
+            path.join(TEMPLATE_PATH, 'tech-table.hbs'),
+            people
+        );
+        Template.write(
+            path.join('welcome', PEOPLE_DIR, page, 'ops.html'),
+            path.join(TEMPLATE_PATH, 'ops-table.hbs'),
+            people
+        );
+    }
+    Template.write(path.join(PEOPLE_DIR, page, 'pageData.js'), path.join(TEMPLATE_PATH, 'modal.hbs'), filterData);
+    Template.write(path.join(PEOPLE_DIR, page, 'filters.html'), path.join(TEMPLATE_PATH, 'filter.hbs'), filterData);
+
+    Prettier.format(path.join(PEOPLE_DIR, page, 'people.html'), { parser: 'html' });
+    Prettier.format(path.join(PEOPLE_DIR, page, 'pageData.js'), { parser: 'flow' });
+    Prettier.format(path.join(PEOPLE_DIR, page, 'filters.html'), { parser: 'html' });
+    return people;
+}
+
 /**
  * Read in the people file and output
  * HTML and JavaScript files
@@ -79,67 +131,7 @@ function parse(file, page) {
             return extractPeople(input);
         })
         .then((people) => {
-            const templateData = Static.getPeopleData(page);
-            const filterData = {
-                companies: Sorter.sortData(people, 'company'),
-                departments: Sorter.sortData(people, 'department'),
-                teams: Sorter.sortData(people, 'team'),
-                domains: Sorter.sortData(people, 'domain'),
-                filters: [],
-                countries: Sorter.sortData(people, 'country'),
-                people,
-                labels: templateData
-            };
-
-            const filters = [];
-            people.forEach((person) => {
-                person.filters.forEach((filter) => {
-                    filters.push(filter);
-                });
-            });
-
-            filterData.filters = _.sortBy(_.uniq(filters), Sorter.caseInsensitive);
-
-            if (page === 'speakers') {
-                Template.write(
-                    path.join(PEOPLE_DIR, page, 'people.html'),
-                    path.join(TEMPLATE_PATH, 'speaker-card.hbs'),
-                    people
-                );
-            } else {
-                Template.write(
-                    path.join(PEOPLE_DIR, page, 'people.html'),
-                    path.join(TEMPLATE_PATH, 'card.hbs'),
-                    people
-                );
-            }
-            if (page === 'team') {
-                Template.write(
-                    path.join('welcome', PEOPLE_DIR, page, 'tech.html'),
-                    path.join(TEMPLATE_PATH, 'tech-table.hbs'),
-                    people
-                );
-                Template.write(
-                    path.join('welcome', PEOPLE_DIR, page, 'ops.html'),
-                    path.join(TEMPLATE_PATH, 'ops-table.hbs'),
-                    people
-                );
-            }
-            Template.write(
-                path.join(PEOPLE_DIR, page, 'pageData.js'),
-                path.join(TEMPLATE_PATH, 'modal.hbs'),
-                filterData
-            );
-            Template.write(
-                path.join(PEOPLE_DIR, page, 'filters.html'),
-                path.join(TEMPLATE_PATH, 'filter.hbs'),
-                filterData
-            );
-
-            Prettier.format(path.join(PEOPLE_DIR, page, 'people.html'), { parser: 'html' });
-            Prettier.format(path.join(PEOPLE_DIR, page, 'pageData.js'), { parser: 'flow' });
-            Prettier.format(path.join(PEOPLE_DIR, page, 'filters.html'), { parser: 'html' });
-            return people;
+            return generateHTML(people, page);
         })
         .catch((e) => {
             console.log(e);

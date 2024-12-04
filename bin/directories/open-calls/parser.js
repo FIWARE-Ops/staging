@@ -3,12 +3,13 @@ const path = require('path');
 
 const Prettier = require('prettier');
 const Parser = require('../../dataParser');
+const Downloader = require('../../downloader');
 const Sorter = require('../../sort');
 const Template = require('../../template');
 const TEMPLATE_PATH = 'bin/directories/open-calls/';
 const OPEN_CALLS_DIR = 'directories/open-calls';
 
-const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/open-calls/images/open-calls-default.png';
+const WP_CONTENT_DIR = 'wp-content/directories/open-calls/images';
 
 /**
  * Take the human readable column names from the spreadsheet and create a
@@ -21,7 +22,8 @@ function extractOpenCalls(input) {
         const openCall = {
             name: item.Name,
             grant: item.Grant,
-            img: item.Image ? item.Image : DEFAULT_IMAGE,
+            img: item.Image ? item.Image : '',
+            image_name: item['Image Name'] ? item['Image Name'] : 'open-calls-default.png',
             domain: Parser.splitStrings(item.Target),
             closeDate: Parser.date(item['Close Date']),
             type: item.Type,
@@ -30,6 +32,8 @@ function extractOpenCalls(input) {
             publish: Parser.boolean(item.Published)
         };
 
+        //openCall.img = path.join('https://www.fiware.org', WP_CONTENT_DIR, openCall.image_name);
+        openCall.image = 'https://www.fiware.org/' + path.join(WP_CONTENT_DIR, openCall.image_name);
         openCall.type = openCall.closeDate < today ? 'Closed' : 'Open';
 
         if (openCall.publish) {
@@ -65,6 +69,24 @@ function generateHTML(openCalls) {
     return openCalls;
 }
 
+function uploadMissingImages(openCalls) {
+    console.log('Checking Images');
+    return Downloader.checkImages(openCalls, 'image', 'image_name')
+        .then((missing) => {
+            const count = missing.filter(Boolean).length;
+            if (count > 0) {
+                console.log(`${count} files missing`);
+            }
+            return Downloader.uploadImages(missing, WP_CONTENT_DIR);
+        })
+        .then((files) => {
+            const count = files.filter(Boolean).length;
+            if (count > 0) {
+                console.log(`${count} new files uploaded`);
+            }
+        });
+}
+
 /**
  * Read in the open-calls file and output
  * HTML and JavaScript files
@@ -77,6 +99,11 @@ function parse(file) {
         })
         .then((openCalls) => {
             return generateHTML(openCalls);
+        })
+        .then((openCalls) => {
+            uploadMissingImages(openCalls).then(() => {
+                return openCalls;
+            });
         })
         .catch((e) => {
             console.log(e);

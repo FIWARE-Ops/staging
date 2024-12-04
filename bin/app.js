@@ -53,12 +53,13 @@ switch (PROCESS) {
         break;
     // Create HTML and template files for the webinars
     case 'agenda':
-        Loader.load('agenda', Agenda.file).then(() => {
-            return Loader.load(PAGE, People.file);
-        })
-        .then(() => {
-            return Agenda.parse(Agenda.file, People.file);
-        });
+        Loader.load('agenda', Agenda.file)
+            .then(() => {
+                return Loader.load(PAGE, People.file);
+            })
+            .then(() => {
+                return Agenda.parse(Agenda.file, People.file);
+            });
 
         break;
     // Create HTML and template files for the webinars

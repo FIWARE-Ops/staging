@@ -3,6 +3,7 @@ const download = require('image-downloader');
 const got = require('got');
 const fs = require('fs-extra');
 const csv = require('csvtojson');
+const path = require('path');
 
 /**
  * Within Keys.csv check to see if a matxhing URL can be found.
@@ -34,10 +35,74 @@ function checkFileExists(file) {
         .catch(() => false);
 }
 
+function urlExists(url, name) {
+    return new Promise((resolve, reject) => {
+        fetch(url, { method: 'HEAD' }, 10000)
+            .then((data, err) => {
+                process.stdout.write(data.status !== 200 ? 'X' : '.');
+                return err ? reject(err) : resolve(data.status !== 200 ? name : null);
+            })
+            .catch((e) => {
+                console.log('timeout');
+                resolve(null);
+            });
+    });
+}
+
+async function checkImages(items, image, base) {
+    const promises = [];
+    const missing = [];
+    let count = 0;
+
+    console.log();
+    for (const item of items) {
+        let value = await urlExists(item[image], item[base]);
+        if (value) {
+            missing.push(value);
+        }
+        count++;
+        if (count % 60 === 0) {
+            console.log();
+        }
+    }
+    console.log();
+    return missing;
+}
+
+function uploadImages(items, filepath) {
+    return new Promise((resolve, reject) => {
+        const promises = [];
+        items.forEach((item) => {
+            promises.push(uploadImage(item, filepath));
+        });
+        Promise.all(promises).then((values) => {
+            return resolve(values);
+        });
+    });
+}
+
+function uploadImage(filename, filepath) {
+    return new Promise(async function (resolve, reject) {
+        const dir = path.join(__dirname, '..', filepath);
+        const file = path.join(__dirname, '../images', filename);
+        checkFileExists(file).then((exist) => {
+            if (exist) {
+                if (!fs.existsSync(dir)) {
+                    fs.mkdirSync(dir, { recursive: true });
+                }
+                fs.copyFileSync(file, path.join(dir, filename));
+            } else {
+                console.log(`MISSING IMAGE: ${filename}`);
+            }
+            return resolve(exist); //checkFileExists(item)
+        });
+    });
+}
+
 /**
  * Read data from a URL
  */
-function fetch(url) {
+function fetchData(url) {
     return new Promise(async function (resolve, reject) {
         try {
             const response = await got(url);
@@ -57,7 +122,7 @@ function downloadFile(file, url) {
     return new Promise((resolve, reject) => {
         console.log(`Retrieving ${file}`);
         //console.log(url)
-        fetch(url).then((data) => {
+        fetchData(url).then((data) => {
             //console.log(data)
             fs.writeFile(file, data, function (err) {
                 return err ? reject(err) : resolve();
@@ -130,4 +195,6 @@ function downloadImages(image) {
 }
 
 exports.downloadImages = downloadImages;
+exports.uploadImages = uploadImages;
+exports.checkImages = checkImages;
 exports.load = loadCSV;

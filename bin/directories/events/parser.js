@@ -65,10 +65,10 @@ function getEventsByMonth(events) {
 
 function getSixMonths() {
     const months = {};
-    let thisYear = new Date().getFullYear();
+    const thisYear = new Date().getFullYear();
 
     for (year = thisYear - 1; year < thisYear + 2; year++) {
-        for (var month = 0; month < 12; month++) {
+        for (let month = 0; month < 12; month++) {
             const date = new Date(year, month, 1);
             const date2 = new Date(date);
             date2.setMonth(date.getMonth() + 1);
@@ -107,7 +107,7 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
             location: item.Location,
             online: Parser.boolean(item.Online),
             onlineLink: item['Online Link'],
-            recording: item['Recording'],
+            recording: item.Recording,
             speakers: Parser.splitStrings(item.Speakers),
             venueName: item['Venue Name'],
             venueAddress: item['Venue Address'],
@@ -115,8 +115,8 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
             city: item.City,
             country: item.Country,
             flag: item['Country Flag'],
-            latitude: item['Latitude'],
-            longitude: item['Longitude'],
+            latitude: item.Latitude,
+            longitude: item.Longitude,
             publish: Parser.boolean(item.Published)
         };
 
