@@ -69,19 +69,16 @@ function generateHTML(openCalls) {
     return openCalls;
 }
 
-function uploadMissingImages(openCalls) {
+function uploadImages(openCalls) {
     return Downloader.checkImages(openCalls, 'image', 'image_name')
-        .then((missing) => {
-            return Downloader.logMissing(missing);
+        .then((missingImages) => {
+            Downloader.logMissing(missingImages);
+            return Downloader.validateUploads(missingImages);
         })
-        .then((missing) => {
-            return Downloader.validateUploads(missing);
-        })
-        .then((missing) => {
-            return Downloader.uploadImages(missing, WP_CONTENT_DIR);
-        })
-        .then((files) => {
-           return Downloader.logUploads(files);
+        .then((uploads) => {
+            Downloader.uploadImages(uploads, WP_CONTENT_DIR);
+            Downloader.logUploads(uploads);
+            return uploads;
         });
 }
 
@@ -99,7 +96,7 @@ function parse(file) {
             return generateHTML(openCalls);
         })
         .then((openCalls) => {
-            uploadMissingImages(openCalls).then(() => {
+            uploadImages(openCalls).then(() => {
                 return openCalls;
             });
         })

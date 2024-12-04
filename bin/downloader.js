@@ -49,23 +49,34 @@ function urlExists(url, name) {
     });
 }
 
-function logMissing(missing){
+function logMissing(missing) {
     const count = missing.filter(Boolean).length;
     if (count > 0) {
-        console.log(`${count} files missing`);
+        console.log(`${count} new files needed`);
     }
-    return missing;
 }
 
-function logUploads(files){
+function logUploads(files) {
     const count = files.filter(Boolean).length;
     if (count > 0) {
         console.log(`${count} new files uploaded`);
     }
 }
 
-function validateUploads(files){
-    return files;
+async function validateUploads(items) {
+    const validFiles = [];
+    for (const item of items) {
+        const file = path.join(__dirname, '../images', item);
+        const exist = await checkFileExists(file);
+        if (!exist) {
+            console.log(`MISSING IMAGE: ${item}`);
+            continue;
+        }
+        const dimensions = sizeOf(file);
+        console.log(file + '\t' + dimensions.height + '\t' + dimensions.width);
+        validFiles.push(item);
+    }
+    return validFiles;
 }
 
 async function checkImages(items, image, base) {
@@ -90,33 +101,18 @@ async function checkImages(items, image, base) {
 }
 
 function uploadImages(items, filepath) {
-    return new Promise((resolve, reject) => {
-        const promises = [];
-        items.forEach((item) => {
-            promises.push(uploadImage(item, filepath));
-        });
-        Promise.all(promises).then((values) => {
-            return resolve(values);
-        });
+    items.forEach((item) => {
+        uploadImage(item, filepath);
     });
 }
 
 function uploadImage(filename, filepath) {
-    return new Promise(async function (resolve, reject) {
-        const dir = path.join(__dirname, '..', filepath);
-        const file = path.join(__dirname, '../images', filename);
-        checkFileExists(file).then((exist) => {
-            if (exist) {
-                if (!fs.existsSync(dir)) {
-                    fs.mkdirSync(dir, { recursive: true });
-                }
-                fs.copyFileSync(file, path.join(dir, filename));
-            } else {
-                console.log(`MISSING IMAGE: ${filename}`);
-            }
-            return resolve(exist); //checkFileExists(item)
-        });
-    });
+    const dir = path.join(__dirname, '..', filepath);
+    const file = path.join(__dirname, '../images', filename);
+    if (!fs.existsSync(dir)) {
+        fs.mkdirSync(dir, { recursive: true });
+    }
+    fs.copyFileSync(file, path.join(dir, filename));
 }
 
 /**

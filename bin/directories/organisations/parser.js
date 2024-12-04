@@ -113,19 +113,16 @@ function generateHTML(organisations) {
     return organisations;
 }
 
-function uploadMissingImages(organisations) {
+function uploadImages(organisations) {
     return Downloader.checkImages(organisations, 'image', 'image_name')
-        .then((missing) => {
-            return Downloader.logMissing(missing);
+        .then((missingImages) => {
+            Downloader.logMissing(missingImages);
+            return Downloader.validateUploads(missingImages);
         })
-        .then((missing) => {
-            return Downloader.validateUploads(missing);
-        })
-        .then((missing) => {
-            return Downloader.uploadImages(missing, WP_CONTENT_DIR);
-        })
-        .then((files) => {
-           return Downloader.logUploads(files);
+        .then((uploads) => {
+            Downloader.uploadImages(uploads, WP_CONTENT_DIR);
+            Downloader.logUploads(uploads);
+            return uploads;
         });
 }
 
@@ -143,7 +140,7 @@ function parse(file) {
             return generateHTML(organisations);
         })
         .then((organisations) => {
-            uploadMissingImages(organisations).then(() => {
+            uploadImages(organisations).then(() => {
                 return organisations;
             });
         })
