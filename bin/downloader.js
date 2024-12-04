@@ -55,7 +55,10 @@ function fetch(url) {
  */
 function downloadFile(file, url) {
     return new Promise((resolve, reject) => {
+        console.log(`Retrieving ${file}`)
+        //console.log(url)
         fetch(url).then((data) => {
+            //console.log(data)
             fs.writeFile(file, data, function (err) {
                 return err ? reject(err) : resolve();
             });
