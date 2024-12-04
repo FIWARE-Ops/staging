@@ -3,13 +3,13 @@ const path = require('path');
 const Prettier = require('prettier');
 const Template = require('../../template');
 const TEMPLATE_PATH = 'bin/directories/main-figures/';
-const FIGURES_DIR = 'directories/main-figures';
+const MAIN_FIGURES_DIR = 'directories/main-figures';
 /**
  * Take the human readable column names from the spreadsheet and create a
- * data object of main key figures for later use
+ * data object of key figures for later use
  */
 function extractMainFigures(input) {
-    const MainFigures = [];
+    const mfigures = [];
     input.forEach((item) => {
         const enabler = {
             name: item.Figure,
@@ -17,15 +17,15 @@ function extractMainFigures(input) {
             source: item.Source,
             owner: item.Website
         };
-        MainFigures.push(enabler);
+        mfigures.push(enabler);
     });
 
-    if (MainFigures.length === 0) {
-        console.error('ERROR: No MainFigures uploaded.');
+    if (mfigures.length === 0) {
+        console.error('ERROR: No main figures uploaded.');
         process.exit(1);
     }
-    console.log(MainFigures.length, ' MainFigures generated.');
-    return MainFigures;
+    console.log(mfigures.length, ' main figures generated.');
+    return mfigures;
 }
 
 /**
@@ -38,13 +38,13 @@ function parse(file) {
         .then((input) => {
             return extractMainFigures(input);
         })
-        .then((MainFigures) => {
+        .then((mfigures) => {
             Template.write(
-                path.join('welcome', FIGURES_DIR, 'main-figures.html'),
+                path.join('welcome', MAIN_FIGURES_DIR, 'main-figures.html'),
                 path.join(TEMPLATE_PATH, 'table.hbs'),
-                MainFigures
+                mfigures
             );
-            Prettier.format(path.join('welcome', FIGURES_DIR, 'main-figures.html'), { parser: 'html' });
+            Prettier.format(path.join('welcome', MAIN_FIGURES_DIR, 'main-figures.html'), { parser: 'html' });
         })
         .catch((e) => {
             console.log(e);

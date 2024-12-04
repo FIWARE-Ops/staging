@@ -7,7 +7,7 @@ const Events = require('./directories/events/parser');
 const Figures = require('./directories/key-figures/parser');
 const ImpactStories = require('./directories/impact-stories/parser');
 const iHubs = require('./directories/ihubs/parser');
-const MainFigures = require('./directories/main-figures/parser');
+const MFigures = require('./directories/main-figures/parser');
 const Marketing = require('./directories/marketing-toolbox/parser');
 const OpenCalls = require('./directories/open-calls/parser');
 const Organisations = require('./directories/organisations/parser');
@@ -93,8 +93,8 @@ switch (PROCESS) {
         break;
     // Create HTML for main figures
     case 'main-figures':
-        Loader.load('main-figures', MainFigures.file).then(() => {
-            return MainFigures.parse(MainFigures.file);
+        Loader.load('main-figures', MFigures.file).then(() => {
+            return MFigures.parse(MFigures.file);
         });
         break;
     // Create HTML for key figures
