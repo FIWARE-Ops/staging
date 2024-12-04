@@ -92,8 +92,8 @@ switch (PROCESS) {
         });
         break;
     // Create HTML for main figures
-    case 'figures':
-        Loader.load('MainFigures', MainFigures.file).then(() => {
+    case 'main-figures':
+        Loader.load('main-figures', MainFigures.file).then(() => {
             return MainFigures.parse(MainFigures.file);
         });
         break;
