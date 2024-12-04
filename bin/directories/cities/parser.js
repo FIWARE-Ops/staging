@@ -17,8 +17,8 @@ function getExcerpt(item) {
     return text.substring(0, next + 1);
 }
 
-function trunc(value){
-    return (Math.trunc(value *10)/10);
+function trunc(value) {
+    return Math.trunc(value * 10) / 10;
 }
 
 /**
@@ -74,68 +74,62 @@ function extractcities(input) {
     });
 }
 
+function generateHTML(cities) {
+    const filterData = {
+        types: Sorter.sortData(cities, 'type'),
+        domains: Sorter.flatSortData(cities, 'domain'),
+        countries: Sorter.flatSortData(cities, 'country'),
+        cities
+    };
+
+    filterData.types.forEach((type) => {
+        Template.clean(path.join(CITIES_DIR, type));
+    });
+
+    Template.write(path.join(CITIES_DIR, 'cities.html'), path.join(TEMPLATE_PATH, 'card.hbs'), cities);
+    Template.write(path.join(CITIES_DIR, 'pageData.js'), path.join(TEMPLATE_PATH, 'modal.hbs'), filterData);
+    Template.write(path.join(CITIES_DIR, 'filters.html'), path.join(TEMPLATE_PATH, 'filter.hbs'), filterData);
+
+    Prettier.format(path.join(CITIES_DIR, 'cities.html'), { parser: 'html' });
+    Prettier.format(path.join(CITIES_DIR, 'pageData.js'), { parser: 'flow' });
+    Prettier.format(path.join(CITIES_DIR, 'filters.html'), { parser: 'html' });
+
+    Template.write(path.join(CITIES_DIR, 'city-details/pageData.js'), path.join(TEMPLATE_PATH, 'details.hbs'), cities);
+
+    Template.write(path.join(CITIES_DIR, 'sitemap.html'), path.join(TEMPLATE_PATH, 'sitemap-html.hbs'), cities);
+    Template.write(path.join(CITIES_DIR, 'sitemap.xml'), path.join(TEMPLATE_PATH, 'sitemap-xml.hbs'), cities);
+
+    cities.forEach((city) => {
+        const filename = Template.createClass(city.type) + '/' + Template.createClass(city.city);
+        Template.write(path.join(CITIES_DIR, `${filename}.html`), path.join(TEMPLATE_PATH, 'social-media.hbs'), city);
+        Prettier.format(path.join(CITIES_DIR, `${filename}.html`), { parser: 'html' });
+    });
+
+    // Generate Map Data
+    Template.write(path.join(CITIES_DIR, 'cities.json'), path.join(TEMPLATE_PATH, 'map.hbs'), cities);
+    const searchObj = Template.getSearchKeys(path.join(CITIES_DIR, 'cities.json'));
+    Template.write(path.join(CITIES_DIR, 'search.js'), path.join(TEMPLATE_PATH, 'search.hbs'), {
+        keys: {
+            cities: Object.keys(searchObj)
+        },
+        data: searchObj
+    });
+    Community.generateMap();
+    return cities;
+}
+
 /**
  * Read in the cities file and output
  * HTML and JavaScript files
  */
 async function parse(file) {
-    csv()
+    return csv()
         .fromFile(file)
         .then((input) => {
             return extractcities(input);
         })
         .then((cities) => {
-            const filterData = {
-                types: Sorter.sortData(cities, 'type'),
-                domains: Sorter.flatSortData(cities, 'domain'),
-                countries: Sorter.flatSortData(cities, 'country'),
-                cities
-            };
-
-            filterData.types.forEach((type) => {
-                Template.clean(path.join(CITIES_DIR, type));
-            });
-
-            Template.write(path.join(CITIES_DIR, 'cities.html'), path.join(TEMPLATE_PATH, 'card.hbs'), cities);
-            Template.write(path.join(CITIES_DIR, 'pageData.js'), path.join(TEMPLATE_PATH, 'modal.hbs'), filterData);
-            Template.write(path.join(CITIES_DIR, 'filters.html'), path.join(TEMPLATE_PATH, 'filter.hbs'), filterData);
-
-            Prettier.format(path.join(CITIES_DIR, 'cities.html'), { parser: 'html' });
-            Prettier.format(path.join(CITIES_DIR, 'pageData.js'), { parser: 'flow' });
-            Prettier.format(path.join(CITIES_DIR, 'filters.html'), { parser: 'html' });
-
-            Template.write(
-                path.join(CITIES_DIR, 'city-details/pageData.js'),
-                path.join(TEMPLATE_PATH, 'details.hbs'),
-                cities
-            );
-
-            Template.write(path.join(CITIES_DIR, 'sitemap.html'), path.join(TEMPLATE_PATH, 'sitemap-html.hbs'), cities);
-            Template.write(path.join(CITIES_DIR, 'sitemap.xml'), path.join(TEMPLATE_PATH, 'sitemap-xml.hbs'), cities);
-
-            cities.forEach((city) => {
-                const filename = Template.createClass(city.type) + '/' + Template.createClass(city.city);
-                Template.write(
-                    path.join(CITIES_DIR, `${filename}.html`),
-                    path.join(TEMPLATE_PATH, 'social-media.hbs'),
-                    city
-                );
-                Prettier.format(path.join(CITIES_DIR, `${filename}.html`), { parser: 'html' });
-            });
-
-            // Generate Map Data
-            Template.write(path.join(CITIES_DIR, 'cities.json'), path.join(TEMPLATE_PATH, 'map.hbs'), cities);
-            const searchObj = Template.getSearchKeys(path.join(CITIES_DIR, 'cities.json'));
-            Template.write(path.join(CITIES_DIR, 'search.js'),
-                path.join(TEMPLATE_PATH, 'search.hbs'), 
-                {
-                    keys: {
-                        cities: Object.keys(searchObj)
-                    },
-                    data: searchObj
-                }
-            );
-            Community.generateMap();
+            return generateHTML(cities);
         })
         .catch((e) => {
             console.log(e);

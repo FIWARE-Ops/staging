@@ -282,12 +282,64 @@ function createSocialMedia(products, dir, category) {
         Prettier.format(path.join('marketplace', dir, `/${filename}.html`), { parser: 'html' });
     });
 
-    Template.write(
-        path.join('showcase', dir, `sitemap.html`),
-        path.join(TEMPLATE_PATH, 'sitemap-html.hbs'),
-        products
-    );
+    Template.write(path.join('showcase', dir, `sitemap.html`), path.join(TEMPLATE_PATH, 'sitemap-html.hbs'), products);
     Template.write(path.join('marketplace', dir, `sitemap.xml`), path.join(TEMPLATE_PATH, 'sitemap-xml.hbs'), products);
+}
+
+function generateHTML(allProducts, summaryInfo) {
+    if (fs.existsSync('marketplace')) {
+        Template.cleanDir('marketplace/powered-by-fiware/');
+        Template.cleanDir('marketplace/fiware-ready/');
+        Template.cleanDir('marketplace/support-services/');
+        Template.cleanDir('marketplace/cities4cities');
+        //fs.rmSync('marketplace', { recursive: true });
+    }
+
+    Template.write('showcase/powered-by-fiware/pageData.js', path.join(TEMPLATE_PATH, 'modal.hbs'), {
+        members: _.where(summaryInfo.powered, { fiwareMember: true }),
+        nonMembers: _.where(summaryInfo.powered, { fiwareMember: false })
+    });
+    Prettier.format('showcase/powered-by-fiware/pageData.js', { parser: 'flow' });
+    console.log('');
+    createSocialMedia(allProducts.details.powered, 'powered-by-fiware/', 'powered');
+    console.log(summaryInfo.powered.length + ' Products');
+
+    Template.write('showcase/fiware-ready/pageData.js', path.join(TEMPLATE_PATH, 'modal.hbs'), {
+        members: _.where(summaryInfo.ready, { fiwareMember: true }),
+        nonMembers: _.where(summaryInfo.ready, { fiwareMember: false })
+    });
+    Prettier.format('showcase/fiware-ready/pageData.js', { parser: 'flow' });
+    createSocialMedia(allProducts.details.ready, 'fiware-ready/', 'ready');
+    console.log(summaryInfo.ready.length + ' Devices');
+
+    Template.write('showcase/support-services/pageData.js', path.join(TEMPLATE_PATH, 'modal.hbs'), {
+        members: _.where(summaryInfo.services, { fiwareMember: true }),
+        nonMembers: _.where(summaryInfo.services, { fiwareMember: false })
+    });
+    Prettier.format('showcase/support-services/pageData.js', { parser: 'flow' });
+    createSocialMedia(allProducts.details.services, 'support-services/', 'services');
+    console.log(summaryInfo.services.length + ' Services');
+
+    Template.write('showcase/cities4cities/pageData.js', path.join(TEMPLATE_PATH, 'modal.hbs'), {
+        members: _.where(summaryInfo.cities, { fiwareMember: true }),
+        nonMembers: _.where(summaryInfo.cities, { fiwareMember: false })
+    });
+    Prettier.format('showcase/cities4cities/pageData.js', { parser: 'flow' });
+    createSocialMedia(allProducts.details.cities, 'cities4cities/', 'cities');
+    console.log(summaryInfo.cities.length + ' Cities');
+
+    Template.write(
+        'showcase/product-details/pageData.js',
+        path.join(TEMPLATE_PATH, 'productDetails.hbs'),
+        productDetails.details
+    );
+    Prettier.format('showcase/product-details/pageData.js', { parser: 'flow' });
+
+    const featured = extractFeatured(summaryInfo);
+    Template.write('showcase/product-details/featured.html', path.join(TEMPLATE_PATH, 'featured.hbs'), featured);
+    Prettier.format('showcase/product-details/featured.html', { parser: 'html' });
+
+    return summaryInfo;
 }
 
 /**
@@ -335,96 +387,8 @@ function parse(detailsFile, summaryFile, processRun) {
                         process.exit(1);
                     }
 
-                    if (fs.existsSync('marketplace')) {
-                        Template.cleanDir('marketplace/powered-by-fiware/');
-                        Template.cleanDir('marketplace/fiware-ready/');
-                        Template.cleanDir('marketplace/support-services/');
-                        Template.cleanDir('marketplace/cities4cities');
-                        //fs.rmSync('marketplace', { recursive: true });
-                    }
-
-                    Template.write(
-                        'showcase/powered-by-fiware/pageData.js',
-                        path.join(TEMPLATE_PATH, 'modal.hbs'),
-                        {
-                            members: _.where(summaryInfo.powered, {fiwareMember:true}),
-                            nonMembers: _.where(summaryInfo.powered, {fiwareMember:false})
-                        }
-                    );
-                    Prettier.format('showcase/powered-by-fiware/pageData.js', { parser: 'flow' });
-                    console.log('');
-                    createSocialMedia(allProducts.details.powered, 'powered-by-fiware/', 'powered');
-                    console.log(summaryInfo.powered.length + ' Products');
-
-                    Template.write(
-                        'showcase/fiware-ready/pageData.js',
-                        path.join(TEMPLATE_PATH, 'modal.hbs'),
-                         {
-                            members: _.where(summaryInfo.ready, {fiwareMember:true}),
-                            nonMembers: _.where(summaryInfo.ready, {fiwareMember:false})
-                        }
-                    );
-                    Prettier.format('showcase/fiware-ready/pageData.js', { parser: 'flow' });
-                    createSocialMedia(allProducts.details.ready, 'fiware-ready/', 'ready');
-                    console.log(summaryInfo.ready.length + ' Devices');
-
-                    Template.write(
-                        'showcase/support-services/pageData.js',
-                        path.join(TEMPLATE_PATH, 'modal.hbs'),
-                         {
-                            members: _.where(summaryInfo.services, {fiwareMember:true}),
-                            nonMembers: _.where(summaryInfo.services, {fiwareMember:false})
-                        }
-                    );
-                    Prettier.format('showcase/support-services/pageData.js', { parser: 'flow' });
-                    createSocialMedia(allProducts.details.services, 'support-services/', 'services');
-                    console.log(summaryInfo.services.length + ' Services');
-
-                    Template.write(
-                        'showcase/cities4cities/pageData.js',
-                        path.join(TEMPLATE_PATH, 'modal.hbs'),
-                         {
-                            members: _.where(summaryInfo.cities, {fiwareMember:true}),
-                            nonMembers: _.where(summaryInfo.cities, {fiwareMember:false})
-                        }
-                    );
-                    Prettier.format('showcase/cities4cities/pageData.js', { parser: 'flow' });
-                    createSocialMedia(allProducts.details.cities, 'cities4cities/', 'cities');
-                    console.log(summaryInfo.cities.length + ' Cities');
-
-                    Template.write(
-                        'showcase/product-details/pageData.js',
-                        path.join(TEMPLATE_PATH, 'productDetails.hbs'),
-                        productDetails.details
-                    );
-                    Prettier.format('showcase/product-details/pageData.js', { parser: 'flow' });
-
-                    const featured = extractFeatured(summaryInfo);
-                    Template.write(
-                        'showcase/product-details/featured.html',
-                        path.join(TEMPLATE_PATH, 'featured.hbs'),
-                        featured
-                    );
-                    Prettier.format('showcase/product-details/featured.html', { parser: 'html' });
+                    return generateHTML(allProducts, summaryInfo);
                 });
-        })
-        .then(() => {
-            if (processRun === 'products+images') {
-                const promises = [];
-                productDetails.images.forEach((image) => {
-                    const promise = Downloader.downloadImages(image);
-                    promises.push(promise);
-                });
-                Promise.all(promises)
-                    .then((results) => {
-                        results.forEach((result) => {
-                            console.log(result);
-                        });
-                    })
-                    .catch((e) => {
-                        console.log(e);
-                    });
-            }
         })
         .catch((e) => {
             console.log(e);

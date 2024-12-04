@@ -68,10 +68,34 @@ function extractStories(input) {
     };
 }
 
-function extractRecent(impactStories){
-    const recent = [
-        ...impactStories.slice(0, 7)];
+function extractRecent(impactStories) {
+    const recent = [...impactStories.slice(0, 7)];
     return recent;
+}
+
+function generateHTML(data) {
+    const stories = data.stories;
+    const recentStories = extractRecent(stories);
+
+    const filterData = {
+        years: Sorter.sortData(stories, 'year'),
+        domains: Sorter.flatSortData(stories, 'domain'),
+        languages: Sorter.sortData(stories, 'language'),
+        stories
+    };
+
+    Template.write(path.join(IMPACT_STORIES_DIR, 'impact.html'), path.join(TEMPLATE_PATH, 'card.hbs'), stories);
+    Template.write(path.join(IMPACT_STORIES_DIR, 'pageData.js'), path.join(TEMPLATE_PATH, 'modal.hbs'), filterData);
+    Template.write(path.join(IMPACT_STORIES_DIR, 'filters.html'), path.join(TEMPLATE_PATH, 'filter.hbs'), filterData);
+    Template.write(path.join(IMPACT_STORIES_DIR, 'latest.html'), path.join(TEMPLATE_PATH, 'latest.hbs'), data.featured);
+    Template.write(path.join(IMPACT_STORIES_DIR, 'recent.html'), path.join(TEMPLATE_PATH, 'recent.hbs'), recentStories);
+
+    Prettier.format(path.join(IMPACT_STORIES_DIR, 'impact.html'), { parser: 'html' });
+    Prettier.format(path.join(IMPACT_STORIES_DIR, 'pageData.js'), { parser: 'flow' });
+    Prettier.format(path.join(IMPACT_STORIES_DIR, 'filters.html'), { parser: 'html' });
+    Prettier.format(path.join(IMPACT_STORIES_DIR, 'latest.html'), { parser: 'html' });
+    Prettier.format(path.join(IMPACT_STORIES_DIR, 'recent.html'), { parser: 'html' });
+    return stories;
 }
 
 /**
@@ -79,50 +103,13 @@ function extractRecent(impactStories){
  * HTML and JavaScript files
  */
 function parse(file) {
-    csv()
+    return csv()
         .fromFile(file)
         .then((input) => {
             return extractStories(input);
         })
         .then((data) => {
-            const stories = data.stories;
-            const recentStories = extractRecent(stories);
-
-            const filterData = {
-                years: Sorter.sortData(stories, 'year'),
-                domains: Sorter.flatSortData(stories, 'domain'),
-                languages: Sorter.sortData(stories, 'language'),
-                stories
-            };
-
-            Template.write(path.join(IMPACT_STORIES_DIR, 'impact.html'), path.join(TEMPLATE_PATH, 'card.hbs'), stories);
-            Template.write(
-                path.join(IMPACT_STORIES_DIR, 'pageData.js'),
-                path.join(TEMPLATE_PATH, 'modal.hbs'),
-                filterData
-            );
-            Template.write(
-                path.join(IMPACT_STORIES_DIR, 'filters.html'),
-                path.join(TEMPLATE_PATH, 'filter.hbs'),
-                filterData
-            );
-            Template.write(
-                path.join(IMPACT_STORIES_DIR, 'latest.html'),
-                path.join(TEMPLATE_PATH, 'latest.hbs'),
-                data.featured
-            );
-            Template.write(
-                path.join(IMPACT_STORIES_DIR, 'recent.html'),
-                path.join(TEMPLATE_PATH, 'recent.hbs'),
-                recentStories
-            );
-
-            Prettier.format(path.join(IMPACT_STORIES_DIR, 'impact.html'), { parser: 'html' });
-            Prettier.format(path.join(IMPACT_STORIES_DIR, 'pageData.js'), { parser: 'flow' });
-            Prettier.format(path.join(IMPACT_STORIES_DIR, 'filters.html'), { parser: 'html' });
-            Prettier.format(path.join(IMPACT_STORIES_DIR, 'latest.html'), { parser: 'html' });
-            Prettier.format(path.join(IMPACT_STORIES_DIR, 'recent.html'), { parser: 'html' });
-
+            return generateHTML(data);
         })
         .catch((e) => {
             console.log(e);

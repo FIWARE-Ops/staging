@@ -1,4 +1,3 @@
-
 const Handlebars = require('handlebars');
 const path = require('path');
 const fs = require('fs-extra');
@@ -24,45 +23,37 @@ const font = {
     medium: font2base64.encodeToDataUrlSync(path.join(__dirname, '../fonts/Montserrat-Medium.ttf')),
     semibold: font2base64.encodeToDataUrlSync(path.join(__dirname, '../fonts/Montserrat-SemiBold.ttf'))
 };
-function getSearchKeys(filename){
+function getSearchKeys(filename) {
     const geoJSON = JSON.parse(fs.readFileSync(filename, { encoding: 'utf8', flag: 'r' }));
     const searchObj = {};
-    geoJSON.features.forEach((feature)=>{
-        if(feature.properties.name){
-            searchObj[feature.properties.name]= feature.geometry.coordinates;
+    geoJSON.features.forEach((feature) => {
+        if (feature.properties.name) {
+            searchObj[feature.properties.name] = feature.geometry.coordinates;
         }
-        if(feature.properties.city){
-            searchObj[feature.properties.city]= feature.geometry.coordinates;
+        if (feature.properties.city) {
+            searchObj[feature.properties.city] = feature.geometry.coordinates;
         }
-    })
+    });
     return searchObj;
 }
 function concatGeoJSON(filename, file1, file2, file3) {
     fs.rmSync(filename, {
-        force: true,
+        force: true
     });
-    const geoJSON1 = JSON.parse(
-        fs.readFileSync(file1, { encoding: 'utf8', flag: 'r' }
-    ));
-    const geoJSON2 = JSON.parse(
-        fs.readFileSync(file2, { encoding: 'utf8', flag: 'r' }
-    ));
-     const geoJSON3 = JSON.parse(
-        fs.readFileSync(file3, { encoding: 'utf8', flag: 'r' }
-    ));
+    const geoJSON1 = JSON.parse(fs.readFileSync(file1, { encoding: 'utf8', flag: 'r' }));
+    const geoJSON2 = JSON.parse(fs.readFileSync(file2, { encoding: 'utf8', flag: 'r' }));
+    const geoJSON3 = JSON.parse(fs.readFileSync(file3, { encoding: 'utf8', flag: 'r' }));
 
     geoJSON1.features = geoJSON1.features.concat(geoJSON2.features);
-    geoJSON1.features = geoJSON1.features.concat(geoJSON3.features); 
+    geoJSON1.features = geoJSON1.features.concat(geoJSON3.features);
     const output = JSON.stringify(geoJSON1);
 
     fs.ensureFileSync(filename);
     fs.writeFileSync(filename, output);
 }
 
-function readCSS( page , attr) {
-    return  fs.readFileSync(
-        path.join(__dirname, `./../css/${page}-${attr}.css`),
-        { encoding: 'utf-8' });
+function readCSS(page, attr) {
+    return fs.readFileSync(path.join(__dirname, `./../css/${page}-${attr}.css`), { encoding: 'utf-8' });
 }
 
 /**
@@ -118,11 +109,11 @@ function formatDate(data) {
 }
 
 function formatDay(data) {
-   return data.substring(0, data.indexOf(' '));
+    return data.substring(0, data.indexOf(' '));
 }
 
 function formatMonth(data) {
-    return data.substring(data.indexOf(' ') + 1).substring(0,3);
+    return data.substring(data.indexOf(' ') + 1).substring(0, 3);
 }
 
 function parseDate(data) {
@@ -130,7 +121,7 @@ function parseDate(data) {
 }
 function formatYearMonth(data) {
     const date = new Date(data);
-    return date.toISOString().split('T')[0].replaceAll("-","");
+    return date.toISOString().split('T')[0].replaceAll('-', '');
 }
 
 function formatISO(data) {
@@ -168,46 +159,45 @@ function math(lvalue, operator, rvalue) {
 }
 
 function multiline(data) {
-    if (data && data.length > 25){
-        const last = data.substring(0, 25).lastIndexOf(' ')
-        return `${data.substring(0, last)}<br/>${data.substring(last)}`
+    if (data && data.length > 25) {
+        const last = data.substring(0, 25).lastIndexOf(' ');
+        return `${data.substring(0, last)}<br/>${data.substring(last)}`;
     }
     return data;
 }
-function formatDateCal(date, time){
-
-    let hour = time.substring(0, time.indexOf( ':')); 
-    if(time.includes('pm')){
-        hour =  12 + parseInt(hour, 10)
+function formatDateCal(date, time) {
+    let hour = time.substring(0, time.indexOf(':'));
+    if (time.includes('pm')) {
+        hour = 12 + parseInt(hour, 10);
     }
 
-    let minute = time.substring(time.indexOf(':')+1,  time.indexOf(':')+ 3); 
+    let minute = time.substring(time.indexOf(':') + 1, time.indexOf(':') + 3);
 
-    return ((new Date).getFullYear()) + 
-    (`0${date.getMonth() + 1}`.slice(-2)) +
-    (`0${date.getDate()}`.slice(-2)) +
-    "T" +
-    (`00${hour}`.slice(-2)) +
-    (`00${minute}`.slice(-2)) +
-    "00"
-
-
+    return (
+        new Date().getFullYear() +
+        `0${date.getMonth() + 1}`.slice(-2) +
+        `0${date.getDate()}`.slice(-2) +
+        'T' +
+        `00${hour}`.slice(-2) +
+        `00${minute}`.slice(-2) +
+        '00'
+    );
 }
 
 function calendar(date, startTime, endTime) {
-    return formatDateCal(date, startTime) + "/" + formatDateCal(date, endTime);
+    return formatDateCal(date, startTime) + '/' + formatDateCal(date, endTime);
 }
 
 function listSpeakers(speakers) {
-    let list =  _.map(speakers, function(speaker){ 
-        return speaker.name; 
+    let list = _.map(speakers, function (speaker) {
+        return speaker.name;
     });
     return list.concat(',');
 }
 
 function longTitle(data, size) {
-    if (data && data.length > size){
-        return `<span style="font-size:80%;">${data}</span>`
+    if (data && data.length > size) {
+        return `<span style="font-size:80%;">${data}</span>`;
     }
     return data;
 }
@@ -265,7 +255,6 @@ function write(filename, template, input) {
     });
 }
 
-
 function clean(dir) {
     if (fs.existsSync(dir)) {
         const files = fs.readdirSync(dir).filter((el) => path.extname(el) === '.html');
@@ -308,19 +297,24 @@ function createSocialMediaImages(content, template) {
     });
 }
 
-function qrCodes(path, agenda){
+function qrCodes(path, agenda) {
     console.log('Generating QR Codes');
     agenda.forEach((event) => {
         const url = `https://www.fiware.org${event.social}`;
         const file = `${path}/${createClass(event.title)}.svg`;
-        QRCode.toFile(file, url, {
-          color: {
-            dark: '#000',  // Black dots
-            light: '#0000' // Transparent background
-          }
-        }, function (err) {
-          if (err) throw err
-        })
+        QRCode.toFile(
+            file,
+            url,
+            {
+                color: {
+                    dark: '#000', // Black dots
+                    light: '#0000' // Transparent background
+                }
+            },
+            function (err) {
+                if (err) throw err;
+            }
+        );
     });
 }
 
@@ -329,7 +323,7 @@ exports.write = write;
 exports.clean = clean;
 exports.qrCodes = qrCodes;
 exports.readCSS = readCSS;
-exports.concatGeoJSON= concatGeoJSON;
+exports.concatGeoJSON = concatGeoJSON;
 exports.getSearchKeys = getSearchKeys;
 exports.cleanDir = cleanDir;
 exports.createClass = createClass;

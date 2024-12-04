@@ -19,21 +19,23 @@ function getExcerpt(item) {
     return text.substring(0, next + 1);
 }
 
-function getFeaturedEvents(types, categories, events){
-    
+function getFeaturedEvents(types, categories, events) {
     const now = new Date();
-    const splitEvents =  _.partition(events, (event)=> {
-        return event.startDate > now});
+    const splitEvents = _.partition(events, (event) => {
+        return event.startDate > now;
+    });
     const promotedEvents = splitEvents[0].concat(splitEvents[1].reverse());
     let featuredEvents = [];
-    categories.forEach((category)=>{
-        featuredEvents = featuredEvents.concat((_.filter(promotedEvents, (event)=>{
-            return event.category.includes(category);
-        }).slice(0, 4)));
+    categories.forEach((category) => {
+        featuredEvents = featuredEvents.concat(
+            _.filter(promotedEvents, (event) => {
+                return event.category.includes(category);
+            }).slice(0, 4)
+        );
     });
     featuredEvents = _.uniq(featuredEvents);
 
-    featuredEvents.sort((a, b)=>{
+    featuredEvents.sort((a, b) => {
         return b.startDate.getTime() - a.startDate.getTime();
     });
     return featuredEvents;
@@ -41,46 +43,44 @@ function getFeaturedEvents(types, categories, events){
 
 function formatYearMonth(data) {
     const date = new Date(data);
-    return date.toISOString().split('T')[0].replaceAll("-","").substring(0,6);
+    return date.toISOString().split('T')[0].replaceAll('-', '').substring(0, 6);
 }
-function getEventsByMonth(events){
+function getEventsByMonth(events) {
     const eventsByMonth = {};
-    events.forEach((event) =>{
+    events.forEach((event) => {
         const date = new Date(event.startDate);
-        const yearMonth  = date.toISOString().split('T')[0].replaceAll("-","").substring(0,6);
+        const yearMonth = date.toISOString().split('T')[0].replaceAll('-', '').substring(0, 6);
 
-        if (!eventsByMonth[yearMonth]){
+        if (!eventsByMonth[yearMonth]) {
             eventsByMonth[yearMonth] = {
-                text: `${date.toLocaleString('en-GB', { month: 'long' ,year: 'numeric'})}`,
+                text: `${date.toLocaleString('en-GB', { month: 'long', year: 'numeric' })}`,
                 events: []
-            }
+            };
         }
         event.yearMonth = yearMonth;
-        eventsByMonth[yearMonth].events.push(event)
+        eventsByMonth[yearMonth].events.push(event);
     });
     return eventsByMonth;
 }
 
-function getSixMonths(){
+function getSixMonths() {
     const months = {};
-   let thisYear = new Date().getFullYear();
-   
-    for (year = thisYear-1; year < thisYear + 2; year++) { 
+    let thisYear = new Date().getFullYear();
+
+    for (year = thisYear - 1; year < thisYear + 2; year++) {
         for (var month = 0; month < 12; month++) {
-            const date =  new Date(year, month, 1);
-            const date2 =  new Date(date); 
-            date2.setMonth(date.getMonth()+1); 
-            const yearMonth  = date2.toISOString().split('T')[0].replaceAll("-","").substring(0,6);
+            const date = new Date(year, month, 1);
+            const date2 = new Date(date);
+            date2.setMonth(date.getMonth() + 1);
+            const yearMonth = date2.toISOString().split('T')[0].replaceAll('-', '').substring(0, 6);
 
             months[yearMonth] = {
-                text: `${date.toLocaleString('en-GB', { month: 'long' ,year: 'numeric'})}`
+                text: `${date.toLocaleString('en-GB', { month: 'long', year: 'numeric' })}`
             };
         }
     }
 
-   
-
-   return months
+    return months;
 }
 
 /**
@@ -117,20 +117,17 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
             flag: item['Country Flag'],
             latitude: item['Latitude'],
             longitude: item['Longitude'],
-            publish: Parser.boolean(item.Published),
+            publish: Parser.boolean(item.Published)
         };
 
         if (event.publish) {
             event.speakers = _.uniq(
-                _.filter(
-                    event.speakers,
-                    function (name) {
-                        return name !== '';
-                    }
-                )
+                _.filter(event.speakers, function (name) {
+                    return name !== '';
+                })
             );
 
-           event.speakers = _.map(event.speakers, function (name) {
+            event.speakers = _.map(event.speakers, function (name) {
                 const speaker = _.findWhere(speakers, { name });
 
                 if (speaker) {
@@ -162,20 +159,18 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
     console.log(events.length, ' events items generated.');
     console.log(activeSpeakers.length, ' events speakers found.');
 
-    events.sort((a, b)=>{
-        if (b.startDate.getTime() !== a.startDate.getTime()){
-           return a.startDate.getTime() - b.startDate.getTime();
+    events.sort((a, b) => {
+        if (b.startDate.getTime() !== a.startDate.getTime()) {
+            return a.startDate.getTime() - b.startDate.getTime();
         }
-        if (b.startTime.getTime() !== a.startTime.getTime()){
-           return a.startTime.getTime() - b.startTime.getTime();
+        if (b.startTime.getTime() !== a.startTime.getTime()) {
+            return a.startTime.getTime() - b.startTime.getTime();
         }
         return 0;
     });
 
     return events;
 }
-
-
 
 /**
  * Read in the careers file and output
@@ -184,7 +179,6 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
 function parse(eventsFile, speakersFile) {
     const activeSpeakers = [];
     const eventDates = [];
-    
 
     csv()
         .fromFile(speakersFile)
@@ -198,65 +192,65 @@ function parse(eventsFile, speakersFile) {
                 .then((events) => {
                     const eventsByMonth = getEventsByMonth(events);
                     const people = _.uniq(activeSpeakers);
-                    const types = _.uniq(_.map(events, (event)=>{return event.type}));
-                    const categories = _.uniq(_.flatten(_.map(events, (event)=>{return event.category})));
-
-                    const featuredEvents = getFeaturedEvents(types, categories, events)
-
-                    const collator = new Intl.Collator("en", { sensitivity: "base" });
-                    const speakerNames =
-                        _.map(people, (a) => {
-                            return a.name;
-                        }).sort( (a, b) => {
-                            return collator.compare(a.split(" ")[1], b.split(" ")[1]);
-                        }
-
+                    const types = _.uniq(
+                        _.map(events, (event) => {
+                            return event.type;
+                        })
                     );
+                    const categories = _.uniq(
+                        _.flatten(
+                            _.map(events, (event) => {
+                                return event.category;
+                            })
+                        )
+                    );
+
+                    const featuredEvents = getFeaturedEvents(types, categories, events);
+
+                    const collator = new Intl.Collator('en', { sensitivity: 'base' });
+                    const speakerNames = _.map(people, (a) => {
+                        return a.name;
+                    }).sort((a, b) => {
+                        return collator.compare(a.split(' ')[1], b.split(' ')[1]);
+                    });
 
                     const filterData = {
                         people,
                         events
                     };
-                    
 
                     Template.clean(path.join(EVENTS_DIR));
 
-                    Template.write(path.join(EVENTS_DIR, 'events.html'),
-                     path.join(TEMPLATE_PATH, 'card.hbs'), 
-                        {months: eventsByMonth}
-                    );
+                    Template.write(path.join(EVENTS_DIR, 'events.html'), path.join(TEMPLATE_PATH, 'card.hbs'), {
+                        months: eventsByMonth
+                    });
 
-                     Template.write(
-                        path.join(EVENTS_DIR, 'filters.html'),
-                        path.join(TEMPLATE_PATH, 'filter.hbs'),
-                        {
-                            months: getSixMonths(eventsByMonth),
-                            types,
-                            categories
-                        }
-                    );
+                    Template.write(path.join(EVENTS_DIR, 'filters.html'), path.join(TEMPLATE_PATH, 'filter.hbs'), {
+                        months: getSixMonths(eventsByMonth),
+                        types,
+                        categories
+                    });
 
                     Template.write(
                         path.join(EVENTS_DIR, 'event-details/pageData.js'),
                         path.join(TEMPLATE_PATH, 'details.hbs'),
                         filterData
                     );
-                     Template.write(
+                    Template.write(
                         path.join(EVENTS_DIR, 'event-details/featured.html'),
                         path.join(TEMPLATE_PATH, 'recent.hbs'),
                         featuredEvents
-                    );  
+                    );
 
                     Template.write(
                         path.join(EVENTS_DIR, '/pageData.js'),
                         path.join(TEMPLATE_PATH, 'modal.hbs'),
                         filterData
                     );
-                   
+
                     Prettier.format(path.join(EVENTS_DIR, 'events.html'), { parser: 'html' });
                     Prettier.format(path.join(EVENTS_DIR, 'pageData.js'), { parser: 'flow' });
                     Prettier.format(path.join(EVENTS_DIR, 'event-details/pageData.js'), { parser: 'flow' });
-            
                 })
                 .catch((e) => {
                     console.log(e);

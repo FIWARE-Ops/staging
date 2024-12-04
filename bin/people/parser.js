@@ -40,7 +40,7 @@ function extractPeople(input, all = false) {
             country: item.Country,
             flag: item['Country flag'],
             filters: Parser.splitStrings(item['Keyword Job Title Filters']),
-            email: item['Email'] ? item['Email'].trim() : '',         
+            email: item['Email'] ? item['Email'].trim() : '',
             publish: Parser.boolean(item.Published)
         };
 
@@ -60,7 +60,7 @@ function extractPeople(input, all = false) {
         console.error('ERROR: No people uploaded.');
         process.exit(1);
     }
-    if (!all){
+    if (!all) {
         console.log(people.length, ' people generated.');
     }
     return people.sort((a, b) => {
@@ -73,7 +73,7 @@ function extractPeople(input, all = false) {
  * HTML and JavaScript files
  */
 function parse(file, page) {
-    csv()
+    return csv()
         .fromFile(file)
         .then((input) => {
             return extractPeople(input);
@@ -100,14 +100,30 @@ function parse(file, page) {
 
             filterData.filters = _.sortBy(_.uniq(filters), Sorter.caseInsensitive);
 
-            if(page === 'speakers'){
-                Template.write(path.join(PEOPLE_DIR, page, 'people.html'), path.join(TEMPLATE_PATH, 'speaker-card.hbs'), people);
+            if (page === 'speakers') {
+                Template.write(
+                    path.join(PEOPLE_DIR, page, 'people.html'),
+                    path.join(TEMPLATE_PATH, 'speaker-card.hbs'),
+                    people
+                );
             } else {
-                Template.write(path.join(PEOPLE_DIR, page, 'people.html'), path.join(TEMPLATE_PATH, 'card.hbs'), people);
+                Template.write(
+                    path.join(PEOPLE_DIR, page, 'people.html'),
+                    path.join(TEMPLATE_PATH, 'card.hbs'),
+                    people
+                );
             }
-            if(page === 'team'){
-               Template.write(path.join('welcome', PEOPLE_DIR, page, 'tech.html'), path.join(TEMPLATE_PATH, 'tech-table.hbs'), people);
-               Template.write(path.join('welcome', PEOPLE_DIR, page, 'ops.html'), path.join(TEMPLATE_PATH, 'ops-table.hbs'), people);
+            if (page === 'team') {
+                Template.write(
+                    path.join('welcome', PEOPLE_DIR, page, 'tech.html'),
+                    path.join(TEMPLATE_PATH, 'tech-table.hbs'),
+                    people
+                );
+                Template.write(
+                    path.join('welcome', PEOPLE_DIR, page, 'ops.html'),
+                    path.join(TEMPLATE_PATH, 'ops-table.hbs'),
+                    people
+                );
             }
             Template.write(
                 path.join(PEOPLE_DIR, page, 'pageData.js'),
@@ -123,6 +139,7 @@ function parse(file, page) {
             Prettier.format(path.join(PEOPLE_DIR, page, 'people.html'), { parser: 'html' });
             Prettier.format(path.join(PEOPLE_DIR, page, 'pageData.js'), { parser: 'flow' });
             Prettier.format(path.join(PEOPLE_DIR, page, 'filters.html'), { parser: 'html' });
+            return people;
         })
         .catch((e) => {
             console.log(e);

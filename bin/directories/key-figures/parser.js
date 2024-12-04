@@ -17,7 +17,6 @@ function extractFigures(input) {
             value: item.Value,
             source: item.Source,
             owner: item.Owner
-            
         };
         figures.push(enabler);
     });
@@ -41,9 +40,12 @@ function parse(file) {
             return extractFigures(input);
         })
         .then((figures) => {
-             Template.write(path.join('welcome', FIGURES_DIR, 'figures.html'), path.join(TEMPLATE_PATH, 'table.hbs'), figures);
-             Prettier.format(path.join('welcome', FIGURES_DIR, 'figures.html'), { parser: 'html' });
-            
+            Template.write(
+                path.join('welcome', FIGURES_DIR, 'figures.html'),
+                path.join(TEMPLATE_PATH, 'table.hbs'),
+                figures
+            );
+            Prettier.format(path.join('welcome', FIGURES_DIR, 'figures.html'), { parser: 'html' });
         })
         .catch((e) => {
             console.log(e);

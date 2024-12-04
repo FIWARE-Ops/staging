@@ -1,4 +1,3 @@
-
 function getTrackColor(data) {
     let result = '';
 

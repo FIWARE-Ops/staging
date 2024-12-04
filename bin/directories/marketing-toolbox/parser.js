@@ -48,39 +48,36 @@ function extractTools(input) {
     });
 }
 
+function generateHTML(tools) {
+    const filterData = {
+        types: Sorter.sortData(tools, 'type'),
+        domains: Sorter.flatSortData(tools, 'domain'),
+        languages: Sorter.sortData(tools, 'language'),
+        tools
+    };
+
+    Template.write(path.join(MARKETING_TOOLS_DIR, 'tools.html'), path.join(TEMPLATE_PATH, 'card.hbs'), tools);
+    Template.write(path.join(MARKETING_TOOLS_DIR, 'pageData.js'), path.join(TEMPLATE_PATH, 'modal.hbs'), filterData);
+    Template.write(path.join(MARKETING_TOOLS_DIR, 'filters.html'), path.join(TEMPLATE_PATH, 'filter.hbs'), filterData);
+
+    Prettier.format(path.join(MARKETING_TOOLS_DIR, 'tools.html'), { parser: 'html' });
+    Prettier.format(path.join(MARKETING_TOOLS_DIR, 'pageData.js'), { parser: 'flow' });
+    Prettier.format(path.join(MARKETING_TOOLS_DIR, 'filters.html'), { parser: 'html' });
+    return tools;
+}
+
 /**
  * Read in the iHubs file and output
  * HTML and JavaScript files
  */
 function parse(file) {
-    csv()
+    return csv()
         .fromFile(file)
         .then((input) => {
             return extractTools(input);
         })
         .then((tools) => {
-            const filterData = {
-                types: Sorter.sortData(tools, 'type'),
-                domains: Sorter.flatSortData(tools, 'domain'),
-                languages: Sorter.sortData(tools, 'language'),
-                tools
-            };
-
-            Template.write(path.join(MARKETING_TOOLS_DIR, 'tools.html'), path.join(TEMPLATE_PATH, 'card.hbs'), tools);
-            Template.write(
-                path.join(MARKETING_TOOLS_DIR, 'pageData.js'),
-                path.join(TEMPLATE_PATH, 'modal.hbs'),
-                filterData
-            );
-            Template.write(
-                path.join(MARKETING_TOOLS_DIR, 'filters.html'),
-                path.join(TEMPLATE_PATH, 'filter.hbs'),
-                filterData
-            );
-
-            Prettier.format(path.join(MARKETING_TOOLS_DIR, 'tools.html'), { parser: 'html' });
-            Prettier.format(path.join(MARKETING_TOOLS_DIR, 'pageData.js'), { parser: 'flow' });
-            Prettier.format(path.join(MARKETING_TOOLS_DIR, 'filters.html'), { parser: 'html' });
+            return generateHTML(tools);
         })
         .catch((e) => {
             console.log(e);

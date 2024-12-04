@@ -61,7 +61,7 @@ function extractJobs(input) {
  * HTML and JavaScript files
  */
 function parse(file) {
-    csv()
+    return csv()
         .fromFile(file)
         .then((input) => {
             return extractJobs(input);
@@ -105,6 +105,7 @@ function parse(file) {
             Prettier.format(path.join(CAREERS_DIR, 'pageData.js'), { parser: 'flow' });
             Prettier.format(path.join(CAREERS_DIR, 'job/pageData.js'), { parser: 'flow' });
             Prettier.format(path.join(CAREERS_DIR, 'job/sitemap.html'), { parser: 'html' });
+            return jobs;
         })
         .catch((e) => {
             console.log(e);

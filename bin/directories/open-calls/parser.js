@@ -48,38 +48,35 @@ function extractOpenCalls(input) {
     });
 }
 
+function generateHTML(openCalls) {
+    const filterData = {
+        domain: Sorter.flatSortData(openCalls, 'domain'),
+        type: Sorter.flatSortData(openCalls, 'type'),
+        openCalls
+    };
+
+    Template.write(path.join(OPEN_CALLS_DIR, 'open-calls.html'), path.join(TEMPLATE_PATH, 'card.hbs'), openCalls);
+    Template.write(path.join(OPEN_CALLS_DIR, 'pageData.js'), path.join(TEMPLATE_PATH, 'modal.hbs'), filterData);
+    Template.write(path.join(OPEN_CALLS_DIR, 'filters.html'), path.join(TEMPLATE_PATH, 'filter.hbs'), filterData);
+
+    Prettier.format(path.join(OPEN_CALLS_DIR, 'open-calls.html'), { parser: 'html' });
+    Prettier.format(path.join(OPEN_CALLS_DIR, 'pageData.js'), { parser: 'flow' });
+    Prettier.format(path.join(OPEN_CALLS_DIR, 'filters.html'), { parser: 'html' });
+    return openCalls;
+}
+
 /**
  * Read in the open-calls file and output
  * HTML and JavaScript files
  */
 function parse(file) {
-    csv()
+    return csv()
         .fromFile(file)
         .then((input) => {
             return extractOpenCalls(input);
         })
         .then((openCalls) => {
-            const filterData = {
-                domain: Sorter.flatSortData(openCalls, 'domain'),
-                type: Sorter.flatSortData(openCalls, 'type'),
-                openCalls
-            };
-
-            Template.write(
-                path.join(OPEN_CALLS_DIR, 'open-calls.html'),
-                path.join(TEMPLATE_PATH, 'card.hbs'),
-                openCalls
-            );
-            Template.write(path.join(OPEN_CALLS_DIR, 'pageData.js'), path.join(TEMPLATE_PATH, 'modal.hbs'), filterData);
-            Template.write(
-                path.join(OPEN_CALLS_DIR, 'filters.html'),
-                path.join(TEMPLATE_PATH, 'filter.hbs'),
-                filterData
-            );
-
-            Prettier.format(path.join(OPEN_CALLS_DIR, 'open-calls.html'), { parser: 'html' });
-            Prettier.format(path.join(OPEN_CALLS_DIR, 'pageData.js'), { parser: 'flow' });
-            Prettier.format(path.join(OPEN_CALLS_DIR, 'filters.html'), { parser: 'html' });
+            return generateHTML(openCalls);
         })
         .catch((e) => {
             console.log(e);

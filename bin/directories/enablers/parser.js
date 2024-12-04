@@ -55,6 +55,23 @@ function extractEnablers(input) {
     });
 }
 
+function generateHTML(enablers) {
+    const filterData = {
+        types: Sorter.sortData(enablers, 'type'),
+        technologies: Sorter.flatSortData(enablers, 'technology'),
+        domains: Sorter.flatSortData(enablers, 'domain'),
+        enablers
+    };
+    Template.write(path.join(ENABLERS_DIR, 'enablers.html'), path.join(TEMPLATE_PATH, 'card.hbs'), enablers);
+    Template.write(path.join(ENABLERS_DIR, 'pageData.js'), path.join(TEMPLATE_PATH, 'modal.hbs'), filterData);
+    Template.write(path.join(ENABLERS_DIR, 'filters.html'), path.join(TEMPLATE_PATH, 'filter.hbs'), filterData);
+
+    Prettier.format(path.join(ENABLERS_DIR, 'enablers.html'), { parser: 'html' });
+    Prettier.format(path.join(ENABLERS_DIR, 'pageData.js'), { parser: 'flow' });
+    Prettier.format(path.join(ENABLERS_DIR, 'filters.html'), { parser: 'html' });
+    return enablers;
+}
+
 /**
  * Read in the enablers file and output
  * HTML and JavaScript files
@@ -66,19 +83,7 @@ function parse(file) {
             return extractEnablers(input);
         })
         .then((enablers) => {
-            const filterData = {
-                types: Sorter.sortData(enablers, 'type'),
-                technologies: Sorter.flatSortData(enablers, 'technology'),
-                domains: Sorter.flatSortData(enablers, 'domain'),
-                enablers
-            };
-            Template.write(path.join(ENABLERS_DIR, 'enablers.html'), path.join(TEMPLATE_PATH, 'card.hbs'), enablers);
-            Template.write(path.join(ENABLERS_DIR, 'pageData.js'), path.join(TEMPLATE_PATH, 'modal.hbs'), filterData);
-            Template.write(path.join(ENABLERS_DIR, 'filters.html'), path.join(TEMPLATE_PATH, 'filter.hbs'), filterData);
-
-            Prettier.format(path.join(ENABLERS_DIR, 'enablers.html'), { parser: 'html' });
-            Prettier.format(path.join(ENABLERS_DIR, 'pageData.js'), { parser: 'flow' });
-            Prettier.format(path.join(ENABLERS_DIR, 'filters.html'), { parser: 'html' });
+            return generateHTML(enablers);
         })
         .catch((e) => {
             console.log(e);

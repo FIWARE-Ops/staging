@@ -97,20 +97,81 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
     console.log(agenda.length, ' agenda items generated.');
     console.log(activeSpeakers.length, ' agenda speakers found.');
 
-    agenda.sort((a, b)=>{
-        if (b.date.getTime() !== a.date.getTime()){
-           return a.date.getTime() - b.date.getTime();
+    agenda.sort((a, b) => {
+        if (b.date.getTime() !== a.date.getTime()) {
+            return a.date.getTime() - b.date.getTime();
         }
-        if (b.startTime.getTime() !== a.startTime.getTime()){
-           return a.startTime.getTime() - b.startTime.getTime();
+        if (b.startTime.getTime() !== a.startTime.getTime()) {
+            return a.startTime.getTime() - b.startTime.getTime();
         }
-        return a.priority - b.priority
+        return a.priority - b.priority;
     });
 
     return agenda;
 }
 
+function generateHTML(agenda, activeSpeakers, eventDates, style) {
+    const people = _.uniq(activeSpeakers);
+    const collator = new Intl.Collator('en', { sensitivity: 'base' });
+    const speakerNames = _.map(people, (a) => {
+        return a.name;
+    }).sort((a, b) => {
+        return collator.compare(a.split(' ')[1], b.split(' ')[1]);
+    });
+    const summitDates = _.uniq(eventDates);
+    const filterData = {
+        tracks: Sorter.sortData(agenda, 'track'),
+        sessions: Sorter.flatSortData(agenda, 'session'),
+        prefixes: Sorter.flatSortData(agenda, 'prefix'),
+        speakers: speakerNames,
+        people,
+        summitDates,
+        agenda
+    };
 
+    Template.clean(path.join(AGENDA_DIR, '/program'));
+
+    Template.write(path.join(AGENDA_DIR, 'agenda.html'), path.join(TEMPLATE_PATH, 'card.hbs'), agenda);
+    Template.write(path.join(AGENDA_DIR, 'pageData.js'), path.join(TEMPLATE_PATH, 'modal.hbs'), filterData);
+    Template.write(path.join(AGENDA_DIR, 'filters.html'), path.join(TEMPLATE_PATH, 'filter.hbs'), filterData);
+
+    Template.write(path.join(AGENDA_DIR, 'program/pageData.js'), path.join(TEMPLATE_PATH, 'details.hbs'), filterData);
+
+    Template.write(
+        path.join(AGENDA_DIR, 'program-details-summary/pageData.js'),
+        path.join(TEMPLATE_PATH, 'details.hbs'),
+        filterData
+    );
+
+    Template.write(path.join(AGENDA_DIR, 'program/sitemap.html'), path.join(TEMPLATE_PATH, 'sitemap-html.hbs'), agenda);
+
+    Template.write(path.join(AGENDA_DIR, 'calendar.html'), path.join(TEMPLATE_PATH, 'calendar.hbs'), agenda);
+    Template.write(path.join(AGENDA_DIR, 'program/sitemap.xml'), path.join(TEMPLATE_PATH, 'sitemap-xml.hbs'), agenda);
+
+    const socialImages = [];
+    agenda.forEach((event) => {
+        const filename = Template.createClass(event.title);
+        Template.write(
+            path.join(AGENDA_DIR, `program/${filename}.html`),
+            path.join(TEMPLATE_PATH, 'social-media.hbs'),
+            event
+        );
+        Prettier.format(path.join(AGENDA_DIR, `program/${filename}.html`), { parser: 'html' });
+        socialImages.push({
+            output: path.join(AGENDA_DIR, `program/${filename}.png`),
+            event,
+            year: CurrentYear.toString().substr(-2),
+            font: Template.font,
+            style
+        });
+    });
+    Prettier.format(path.join(AGENDA_DIR, 'agenda.html'), { parser: 'html' });
+    Prettier.format(path.join(AGENDA_DIR, 'pageData.js'), { parser: 'flow' });
+
+    //Template.qrCodes(path.join(AGENDA_DIR, 'qr'), agenda);
+    //Template.createSocialMediaImages(socialImages, path.join(TEMPLATE_PATH, 'social-media-image.hbs'));
+    return agenda;
+}
 
 /**
  * Read in the careers file and output
@@ -120,110 +181,24 @@ function parse(agendaFile, speakersFile) {
     const activeSpeakers = [];
     const eventDates = [];
     const style = {
-        one: Template.readCSS('agenda' , 'one'),
-        two: Template.readCSS('agenda' , 'two'),
-        three: Template.readCSS('agenda' , 'three'),
-        four: Template.readCSS('agenda' , 'four'),
-        many: Template.readCSS('agenda' , 'many')
+        one: Template.readCSS('agenda', 'one'),
+        two: Template.readCSS('agenda', 'two'),
+        three: Template.readCSS('agenda', 'three'),
+        four: Template.readCSS('agenda', 'four'),
+        many: Template.readCSS('agenda', 'many')
     };
 
-    csv()
+    return csv()
         .fromFile(speakersFile)
         .then((input) => {
             const allSpeakers = People.extract(input);
-            csv()
+            return csv()
                 .fromFile(agendaFile)
                 .then((input) => {
                     return extractAgenda(input, allSpeakers, activeSpeakers, eventDates);
                 })
                 .then((agenda) => {
-                    const people = _.uniq(activeSpeakers);
-                    const collator = new Intl.Collator("en", { sensitivity: "base" });
-                    const speakerNames =
-                        _.map(people, (a) => {
-                            return a.name;
-                        }).sort( (a, b) => {
-                            return collator.compare(a.split(" ")[1], b.split(" ")[1]);
-                        }
-
-                    );
-                    const summitDates = _.uniq(eventDates);
-                    const filterData = {
-                        tracks: Sorter.sortData(agenda, 'track'),
-                        sessions: Sorter.flatSortData(agenda, 'session'),
-                        prefixes: Sorter.flatSortData(agenda, 'prefix'),
-                        speakers: speakerNames,
-                        people,
-                        summitDates,
-                        agenda
-                    };
-
-                    Template.clean(path.join(AGENDA_DIR, '/program'));
-
-                    Template.write(path.join(AGENDA_DIR, 'agenda.html'), path.join(TEMPLATE_PATH, 'card.hbs'), agenda);
-                    Template.write(
-                        path.join(AGENDA_DIR, 'pageData.js'),
-                        path.join(TEMPLATE_PATH, 'modal.hbs'),
-                        filterData
-                    );
-                    Template.write(
-                        path.join(AGENDA_DIR, 'filters.html'),
-                        path.join(TEMPLATE_PATH, 'filter.hbs'),
-                        filterData
-                    );
-
-                    Template.write(
-                        path.join(AGENDA_DIR, 'program/pageData.js'),
-                        path.join(TEMPLATE_PATH, 'details.hbs'),
-                        filterData
-                    );
-
-                    Template.write(
-                        path.join(AGENDA_DIR, 'program-details-summary/pageData.js'),
-                        path.join(TEMPLATE_PATH, 'details.hbs'),
-                        filterData
-                    );
-
-                    Template.write(
-                        path.join(AGENDA_DIR, 'program/sitemap.html'),
-                        path.join(TEMPLATE_PATH, 'sitemap-html.hbs'),
-                        agenda
-                    );
-
-                    Template.write(
-                        path.join(AGENDA_DIR, 'calendar.html'),
-                        path.join(TEMPLATE_PATH, 'calendar.hbs'),
-                        agenda
-                    );
-                    Template.write(
-                        path.join(AGENDA_DIR, 'program/sitemap.xml'),
-                        path.join(TEMPLATE_PATH, 'sitemap-xml.hbs'),
-                        agenda
-                    );
-
-                    const socialImages = [];
-                    agenda.forEach((event) => {
-                        const filename = Template.createClass(event.title);
-                        Template.write(
-                            path.join(AGENDA_DIR, `program/${filename}.html`),
-                            path.join(TEMPLATE_PATH, 'social-media.hbs'),
-                            event
-                        );
-                        Prettier.format(path.join(AGENDA_DIR, `program/${filename}.html`), { parser: 'html' });
-                        socialImages.push({
-                            output: path.join(AGENDA_DIR, `program/${filename}.png`),
-                            event,
-                            year: CurrentYear.toString().substr(-2),
-                            font: Template.font,
-                            style
-                        });
-                    });
-                    Prettier.format(path.join(AGENDA_DIR, 'agenda.html'), { parser: 'html' });
-                    Prettier.format(path.join(AGENDA_DIR, 'pageData.js'), { parser: 'flow' });
-
-                    Template.qrCodes(path.join(AGENDA_DIR, 'qr'), agenda);
-                    Template.createSocialMediaImages(socialImages, path.join(TEMPLATE_PATH, 'social-media-image.hbs'));
-            
+                    return generateHTML(agenda, activeSpeakers, eventDates, style);
                 })
                 .catch((e) => {
                     console.log(e);

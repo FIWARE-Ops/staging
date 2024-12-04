@@ -72,61 +72,54 @@ function extractOrganisations(input) {
     });
 }
 
+function generateHTML(organisations) {
+    const filterData = {
+        types: Sorter.sortData(organisations, 'type'),
+        organisations
+    };
+
+    Template.write(
+        path.join(ORGANISATIONS_DIR, 'organisations.html'),
+        path.join(TEMPLATE_PATH, 'card.hbs'),
+        organisations
+    );
+
+    Template.write(path.join(ORGANISATIONS_DIR, 'pageData.js'), path.join(TEMPLATE_PATH, 'modal.hbs'), filterData);
+    Template.write(path.join(ORGANISATIONS_DIR, 'filters.html'), path.join(TEMPLATE_PATH, 'filter.hbs'), filterData);
+
+    Prettier.format(path.join(ORGANISATIONS_DIR, 'organisations.html'), { parser: 'html' });
+    Prettier.format(path.join(ORGANISATIONS_DIR, 'pageData.js'), { parser: 'flow' });
+    Prettier.format(path.join(ORGANISATIONS_DIR, 'filters.html'), { parser: 'html' });
+
+    // Generate Maps
+    Template.write(
+        path.join(ORGANISATIONS_DIR, 'organisations.json'),
+        path.join(TEMPLATE_PATH, 'map.hbs'),
+        organisations
+    );
+    const searchObj = Template.getSearchKeys(path.join(ORGANISATIONS_DIR, 'organisations.json'));
+    Template.write(path.join(ORGANISATIONS_DIR, 'search.js'), path.join(TEMPLATE_PATH, 'search.hbs'), {
+        keys: {
+            members: Object.keys(searchObj)
+        },
+        data: searchObj
+    });
+    Community.generateMap();
+    return organisations;
+}
+
 /**
  * Read in the organisations file and output
  * HTML and JavaScript files
  */
 function parse(file) {
-    csv()
+    return csv()
         .fromFile(file)
         .then((input) => {
             return extractOrganisations(input);
         })
         .then((organisations) => {
-            const filterData = {
-                types: Sorter.sortData(organisations, 'type'),
-                organisations
-            };
-
-            Template.write(
-                path.join(ORGANISATIONS_DIR, 'organisations.html'),
-                path.join(TEMPLATE_PATH, 'card.hbs'),
-                organisations
-            );
-            
-            
-            Template.write(
-                path.join(ORGANISATIONS_DIR, 'pageData.js'),
-                path.join(TEMPLATE_PATH, 'modal.hbs'),
-                filterData
-            );
-            Template.write(
-                path.join(ORGANISATIONS_DIR, 'filters.html'),
-                path.join(TEMPLATE_PATH, 'filter.hbs'),
-                filterData
-            );
-
-            Prettier.format(path.join(ORGANISATIONS_DIR, 'organisations.html'), { parser: 'html' });
-            Prettier.format(path.join(ORGANISATIONS_DIR, 'pageData.js'), { parser: 'flow' });
-            Prettier.format(path.join(ORGANISATIONS_DIR, 'filters.html'), { parser: 'html' });
-
-            // Generate Maps
-            Template.write(
-                path.join(ORGANISATIONS_DIR, 'organisations.json'),
-                path.join(TEMPLATE_PATH, 'map.hbs'), 
-                organisations
-            );
-            const searchObj = Template.getSearchKeys(path.join(ORGANISATIONS_DIR, 'organisations.json'));
-            Template.write(path.join(ORGANISATIONS_DIR, 'search.js'),
-                path.join(TEMPLATE_PATH, 'search.hbs'), 
-                {
-                    keys: {
-                        members: Object.keys(searchObj)
-                    },
-                    data: searchObj
-                }
-            );
-            Community.generateMap();
+            return generateHTML(organisations);
         })
         .catch((e) => {
             console.log(e);

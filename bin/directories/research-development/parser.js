@@ -79,73 +79,78 @@ function extractProjects(input) {
     });
 }
 
+function generateHTML(projects) {
+    const filterData = {
+        years: Sorter.sortData(projects, 'year'),
+        types: Sorter.sortData(projects, 'type'),
+        domains: Sorter.flatSortData(projects, 'domains'),
+        countries: Sorter.flatSortData(projects, 'country'),
+        projects
+    };
+
+    Template.clean(path.join(RESEARCH_DEVELOPMENT_DIR, '/project'));
+
+    Template.write(
+        path.join(RESEARCH_DEVELOPMENT_DIR, 'research.html'),
+        path.join(TEMPLATE_PATH, 'card.hbs'),
+        projects
+    );
+    Template.write(
+        path.join(RESEARCH_DEVELOPMENT_DIR, 'pageData.js'),
+        path.join(TEMPLATE_PATH, 'modal.hbs'),
+        filterData
+    );
+    Template.write(
+        path.join(RESEARCH_DEVELOPMENT_DIR, 'filters.html'),
+        path.join(TEMPLATE_PATH, 'filter.hbs'),
+        filterData
+    );
+    Template.write(
+        path.join(RESEARCH_DEVELOPMENT_DIR, 'project/pageData.js'),
+        path.join(TEMPLATE_PATH, 'details.hbs'),
+        projects
+    );
+
+    Template.write(
+        path.join(RESEARCH_DEVELOPMENT_DIR, 'project/sitemap.html'),
+        path.join(TEMPLATE_PATH, 'sitemap-html.hbs'),
+        projects
+    );
+    Template.write(
+        path.join(RESEARCH_DEVELOPMENT_DIR, 'project/sitemap.xml'),
+        path.join(TEMPLATE_PATH, 'sitemap-xml.hbs'),
+        projects
+    );
+
+    projects.forEach((project) => {
+        const filename = Template.createClass(project.name);
+        Template.write(
+            path.join(RESEARCH_DEVELOPMENT_DIR, `project/${filename}.html`),
+            path.join(TEMPLATE_PATH, 'social-media.hbs'),
+            project
+        );
+        Prettier.format(path.join(RESEARCH_DEVELOPMENT_DIR, `project/${filename}.html`), { parser: 'html' });
+    });
+
+    Prettier.format(path.join(RESEARCH_DEVELOPMENT_DIR, 'research.html'), { parser: 'html' });
+    Prettier.format(path.join(RESEARCH_DEVELOPMENT_DIR, 'pageData.js'), { parser: 'flow' });
+    Prettier.format(path.join(RESEARCH_DEVELOPMENT_DIR, 'project/pageData.js'), { parser: 'flow' });
+    Prettier.format(path.join(RESEARCH_DEVELOPMENT_DIR, 'project/sitemap.html'), { parser: 'html' });
+    return projects;
+}
+
 /**
  * Read in the research-development file and output
  * HTML and JavaScript files
  */
 function parse(file) {
-    csv()
+    return csv()
         .fromFile(file)
         .then((input) => {
             return extractProjects(input);
         })
         .then((projects) => {
-            const filterData = {
-                years: Sorter.sortData(projects, 'year'),
-                types: Sorter.sortData(projects, 'type'),
-                domains: Sorter.flatSortData(projects, 'domains'),
-                countries: Sorter.flatSortData(projects, 'country'),
-                projects
-            };
-
-            Template.clean(path.join(RESEARCH_DEVELOPMENT_DIR, '/project'));
-
-            Template.write(
-                path.join(RESEARCH_DEVELOPMENT_DIR, 'research.html'),
-                path.join(TEMPLATE_PATH, 'card.hbs'),
-                projects
-            );
-            Template.write(
-                path.join(RESEARCH_DEVELOPMENT_DIR, 'pageData.js'),
-                path.join(TEMPLATE_PATH, 'modal.hbs'),
-                filterData
-            );
-            Template.write(
-                path.join(RESEARCH_DEVELOPMENT_DIR, 'filters.html'),
-                path.join(TEMPLATE_PATH, 'filter.hbs'),
-                filterData
-            );
-            Template.write(
-                path.join(RESEARCH_DEVELOPMENT_DIR, 'project/pageData.js'),
-                path.join(TEMPLATE_PATH, 'details.hbs'),
-                projects
-            );
-
-            Template.write(
-                path.join(RESEARCH_DEVELOPMENT_DIR, 'project/sitemap.html'),
-                path.join(TEMPLATE_PATH, 'sitemap-html.hbs'),
-                projects
-            );
-            Template.write(
-                path.join(RESEARCH_DEVELOPMENT_DIR, 'project/sitemap.xml'),
-                path.join(TEMPLATE_PATH, 'sitemap-xml.hbs'),
-                projects
-            );
-
-            projects.forEach((project) => {
-                const filename = Template.createClass(project.name);
-                Template.write(
-                    path.join(RESEARCH_DEVELOPMENT_DIR, `project/${filename}.html`),
-                    path.join(TEMPLATE_PATH, 'social-media.hbs'),
-                    project
-                );
-                Prettier.format(path.join(RESEARCH_DEVELOPMENT_DIR, `project/${filename}.html`), { parser: 'html' });
-            });
-
-            Prettier.format(path.join(RESEARCH_DEVELOPMENT_DIR, 'research.html'), { parser: 'html' });
-            Prettier.format(path.join(RESEARCH_DEVELOPMENT_DIR, 'pageData.js'), { parser: 'flow' });
-            Prettier.format(path.join(RESEARCH_DEVELOPMENT_DIR, 'project/pageData.js'), { parser: 'flow' });
-            Prettier.format(path.join(RESEARCH_DEVELOPMENT_DIR, 'project/sitemap.html'), { parser: 'html' });
+            return generateHTML(projects);
         })
         .catch((e) => {
             console.log(e);
