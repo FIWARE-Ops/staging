@@ -49,11 +49,31 @@ function urlExists(url, name) {
     });
 }
 
+function logMissing(missing){
+    const count = missing.filter(Boolean).length;
+    if (count > 0) {
+        console.log(`${count} files missing`);
+    }
+    return missing;
+}
+
+function logUploads(files){
+    const count = files.filter(Boolean).length;
+    if (count > 0) {
+        console.log(`${count} new files uploaded`);
+    }
+}
+
+function validateUploads(files){
+    return files;
+}
+
 async function checkImages(items, image, base) {
     const promises = [];
     const missing = [];
     let count = 0;
 
+    console.log(`Checking ${items.length} Images`);
     console.log();
     for (const item of items) {
         let value = await urlExists(item[image], item[base]);
@@ -195,6 +215,9 @@ function downloadImages(image) {
 }
 
 exports.downloadImages = downloadImages;
+exports.logMissing = logMissing;
+exports.logUploads = logUploads;
+exports.validateUploads = validateUploads;
 exports.uploadImages = uploadImages;
 exports.checkImages = checkImages;
 exports.load = loadCSV;

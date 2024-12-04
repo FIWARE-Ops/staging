@@ -70,20 +70,18 @@ function generateHTML(openCalls) {
 }
 
 function uploadMissingImages(openCalls) {
-    console.log('Checking Images');
     return Downloader.checkImages(openCalls, 'image', 'image_name')
         .then((missing) => {
-            const count = missing.filter(Boolean).length;
-            if (count > 0) {
-                console.log(`${count} files missing`);
-            }
+            return Downloader.logMissing(missing);
+        })
+        .then((missing) => {
+            return Downloader.validateUploads(missing);
+        })
+        .then((missing) => {
             return Downloader.uploadImages(missing, WP_CONTENT_DIR);
         })
         .then((files) => {
-            const count = files.filter(Boolean).length;
-            if (count > 0) {
-                console.log(`${count} new files uploaded`);
-            }
+           return Downloader.logUploads(files);
         });
 }
 
