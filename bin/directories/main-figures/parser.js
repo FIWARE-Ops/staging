@@ -2,30 +2,30 @@ const csv = require('csvtojson');
 const path = require('path');
 const Prettier = require('prettier');
 const Template = require('../../template');
-const TEMPLATE_PATH = 'bin/directories/key-figures/';
-const FIGURES_DIR = 'directories/key-figures';
+const TEMPLATE_PATH = 'bin/directories/main-figures/';
+const FIGURES_DIR = 'directories/main-figures';
 /**
  * Take the human readable column names from the spreadsheet and create a
- * data object of key figures for later use
+ * data object of main key figures for later use
  */
-function extractFigures(input) {
-    const figures = [];
+function extractMainFigures(input) {
+    const MainFigures = [];
     input.forEach((item) => {
         const enabler = {
             name: item.Figure,
             value: item.Value,
             source: item.Source,
-            owner: item.Owner
+            owner: item.Website
         };
-        figures.push(enabler);
+        MainFigures.push(enabler);
     });
 
-    if (figures.length === 0) {
-        console.error('ERROR: No figures uploaded.');
+    if (MainFigures.length === 0) {
+        console.error('ERROR: No MainFigures uploaded.');
         process.exit(1);
     }
-    console.log(figures.length, ' figures generated.');
-    return figures;
+    console.log(MainFigures.length, ' MainFigures generated.');
+    return MainFigures;
 }
 
 /**
@@ -36,15 +36,15 @@ function parse(file) {
     return csv()
         .fromFile(file)
         .then((input) => {
-            return extractFigures(input);
+            return extractMainFigures(input);
         })
-        .then((figures) => {
+        .then((MainFigures) => {
             Template.write(
-                path.join('welcome', FIGURES_DIR, 'figures.html'),
+                path.join('welcome', FIGURES_DIR, 'main-figures.html'),
                 path.join(TEMPLATE_PATH, 'table.hbs'),
-                figures
+                MainFigures
             );
-            Prettier.format(path.join('welcome', FIGURES_DIR, 'figures.html'), { parser: 'html' });
+            Prettier.format(path.join('welcome', FIGURES_DIR, 'main-figures.html'), { parser: 'html' });
         })
         .catch((e) => {
             console.log(e);
@@ -52,4 +52,4 @@ function parse(file) {
 }
 
 exports.parse = parse;
-exports.file = 'figures.csv';
+exports.file = 'main-figures.csv';

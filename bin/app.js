@@ -7,6 +7,7 @@ const Events = require('./directories/events/parser');
 const Figures = require('./directories/key-figures/parser');
 const ImpactStories = require('./directories/impact-stories/parser');
 const iHubs = require('./directories/ihubs/parser');
+const MainFigures = require('./directories/main-figures/parser');
 const Marketing = require('./directories/marketing-toolbox/parser');
 const OpenCalls = require('./directories/open-calls/parser');
 const Organisations = require('./directories/organisations/parser');
@@ -90,6 +91,12 @@ switch (PROCESS) {
             return Enablers.parse(Enablers.file);
         });
         break;
+    // Create HTML for main figures
+    case 'figures':
+        Loader.load('MainFigures', MainFigures.file).then(() => {
+            return MainFigures.parse(MainFigures.file);
+        });
+        break;
     // Create HTML for key figures
     case 'figures':
         Loader.load('figures', Figures.file).then(() => {
@@ -160,6 +167,7 @@ switch (PROCESS) {
         touch(Figures.file);
         touch(ImpactStories.file);
         touch(iHubs.file);
+        touch(MainFigures.file);
         touch(Marketing.file);
         touch(Organisations.file);
         touch(People.file);
