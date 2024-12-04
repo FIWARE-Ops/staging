@@ -4,20 +4,12 @@ const path = require('path');
 const _ = require('underscore');
 const Prettier = require('prettier');
 const Parser = require('../../dataParser');
-const Sorter = require('../../sort');
 const Template = require('../../template');
 const TEMPLATE_PATH = 'bin/directories/events/';
 const EVENTS_DIR = 'directories/events-directory';
 const People = require('../../people/parser');
-const CurrentYear = new Date().getFullYear();
 
 const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/events-directory/images/default.png';
-
-function getExcerpt(item) {
-    const text = Parser.textOnly(item.Description);
-    const next = text.indexOf('.', 40);
-    return text.substring(0, next + 1);
-}
 
 function getFeaturedEvents(types, categories, events) {
     const now = new Date();
@@ -41,10 +33,6 @@ function getFeaturedEvents(types, categories, events) {
     return featuredEvents;
 }
 
-function formatYearMonth(data) {
-    const date = new Date(data);
-    return date.toISOString().split('T')[0].replaceAll('-', '').substring(0, 6);
-}
 function getEventsByMonth(events) {
     const eventsByMonth = {};
     events.forEach((event) => {
@@ -67,7 +55,7 @@ function getSixMonths() {
     const months = {};
     const thisYear = new Date().getFullYear();
 
-    for (year = thisYear - 1; year < thisYear + 2; year++) {
+    for (let year = thisYear - 1; year < thisYear + 2; year++) {
         for (let month = 0; month < 12; month++) {
             const date = new Date(year, month, 1);
             const date2 = new Date(date);
@@ -206,14 +194,6 @@ function parse(eventsFile, speakersFile) {
                     );
 
                     const featuredEvents = getFeaturedEvents(types, categories, events);
-
-                    const collator = new Intl.Collator('en', { sensitivity: 'base' });
-                    const speakerNames = _.map(people, (a) => {
-                        return a.name;
-                    }).sort((a, b) => {
-                        return collator.compare(a.split(' ')[1], b.split(' ')[1]);
-                    });
-
                     const filterData = {
                         people,
                         events

@@ -1,9 +1,5 @@
-const csv = require('csvtojson');
 const path = require('path');
-
 const Prettier = require('prettier');
-const Parser = require('../../dataParser');
-const Sorter = require('../../sort');
 const Template = require('../../template');
 const TEMPLATE_PATH = 'bin/directories/community/';
 const COMMUNITY_DIR = 'directories/community';

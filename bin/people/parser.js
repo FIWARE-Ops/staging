@@ -141,4 +141,4 @@ function parse(file, page) {
 exports.parse = parse;
 exports.extract = extractPeople;
 exports.file = 'people.csv';
-exports.DEFAULT_IMAGE;
+exports.DEFAULT_IMAGE = DEFAULT_IMAGE;

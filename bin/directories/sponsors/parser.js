@@ -10,8 +10,6 @@ const SPONSORS_DIR = 'directories/sponsors';
 
 const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/sponsors/images/sponsor-default.png';
 
-const regex = /([^a-zA-Z0-9À-ÿ])/gi;
-
 /**
  * Take the human readable column names from the spreadsheet and create a
  * data object of sponsors for later use

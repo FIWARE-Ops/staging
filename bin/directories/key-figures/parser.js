@@ -1,7 +1,6 @@
 const csv = require('csvtojson');
 const path = require('path');
 const Prettier = require('prettier');
-const Parser = require('../../dataParser');
 const Template = require('../../template');
 const TEMPLATE_PATH = 'bin/directories/key-figures/';
 const FIGURES_DIR = 'directories/key-figures';
@@ -34,7 +33,7 @@ function extractFigures(input) {
  * HTML and JavaScript files
  */
 function parse(file) {
-    csv()
+    return csv()
         .fromFile(file)
         .then((input) => {
             return extractFigures(input);

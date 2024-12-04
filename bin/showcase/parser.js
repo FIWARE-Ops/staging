@@ -1,7 +1,6 @@
 const csv = require('csvtojson');
 const _ = require('underscore');
 const Prettier = require('prettier');
-const Downloader = require('../downloader');
 const Parser = require('../dataParser');
 const Template = require('../template');
 const CATEGORIES = ['powered', 'ready', 'services', 'cities'];
@@ -140,16 +139,16 @@ function extractSummaryInfo(input, details) {
             item.Member = item.Member ? item.Member.toLowerCase() : 'false';
             item.iHub = item.iHub ? item.iHub.toLowerCase() : 'false';
 
-            if (item.Member == 'false') {
+            if (item.Member === 'false') {
                 item.Member = false;
             }
-            if (item.Member == 'true') {
+            if (item.Member === 'true') {
                 item.Member = true;
             }
-            if (item.iHub == 'false') {
+            if (item.iHub === 'false') {
                 item.iHub = false;
             }
-            if (item.iHub == 'true') {
+            if (item.iHub === 'true') {
                 item.iHub = true;
             }
 
@@ -260,7 +259,7 @@ function findProduct(hash, category) {
 }
 
 function createSocialMedia(products, dir, category) {
-    _.each(products, (product, key) => {
+    _.each(products, (product) => {
         const filename = path.join(
             Template.createClass(product.organisationName)
                 .normalize('NFD')
@@ -346,7 +345,7 @@ function generateHTML(allProducts, summaryInfo) {
  * Read in the product details file and output
  * HTML and JavaScript files
  */
-function parse(detailsFile, summaryFile, processRun) {
+function parse(detailsFile, summaryFile) {
     csv()
         .fromFile(detailsFile)
         .then((input) => {

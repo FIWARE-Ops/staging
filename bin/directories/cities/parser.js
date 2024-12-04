@@ -122,7 +122,7 @@ function generateHTML(cities) {
  * Read in the cities file and output
  * HTML and JavaScript files
  */
-async function parse(file) {
+function parse(file) {
     return csv()
         .fromFile(file)
         .then((input) => {
