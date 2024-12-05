@@ -129,13 +129,13 @@ async function checkImages(items, image, base) {
 }
 
 function uploadImages(items, filepath, height = 201, width = 360) {
+    fs.rmSync(path.join(__dirname, '../assets'), { recursive: true, force: true });
     items.forEach((item) => {
         uploadImage(item, filepath, height, width);
     });
 }
 
 async function uploadImage(filename, filepath, height, width) {
-    fs.rmSync(path.join(__dirname, '../assets'), { recursive: true, force: true });
     const dir = path.join(__dirname, '..', filepath);
     const file = path.join(__dirname, '../images', filename);
     if (!fs.existsSync(dir)) {
