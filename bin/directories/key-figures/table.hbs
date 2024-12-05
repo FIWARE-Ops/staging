@@ -2,13 +2,13 @@
     {{#each this}}
         <div class="lp-item-container">
             <div class="md-figure-name">{{name}}</div>
-            <div class="md-value--small">{{job}}</div>
             {{#if source}}
             <div class="md-figure-source">{{source}}</div>
             {{/if}}
             {{#if owner}}
-            <div class="md-figure-source">{{owner}}</div>
+            <div class="lp-item-name">{{owner}}</div>
             {{/if}}
+            <div class="md-value--small">{{value}}</div>
         </div>
     {{/each}}
 </div>
