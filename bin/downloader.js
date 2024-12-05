@@ -102,8 +102,6 @@ async function validateUploads(items) {
             console.log(`MISSING IMAGE: ${item}`);
             continue;
         }
-        const dimensions = sizeOf(file);
-        console.log(file + '\t' + dimensions.height + '\t' + dimensions.width);
         validFiles.push(item);
     }
     return validFiles;
@@ -137,6 +135,7 @@ function uploadImages(items, filepath, height = 201, width = 360) {
 }
 
 async function uploadImage(filename, filepath, height, width) {
+    fs.rmSync(path.join(__dirname, '../assets'), { recursive: true, force: true });
     const dir = path.join(__dirname, '..', filepath);
     const file = path.join(__dirname, '../images', filename);
     if (!fs.existsSync(dir)) {

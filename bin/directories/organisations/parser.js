@@ -10,7 +10,7 @@ const Downloader = require('../../downloader');
 const TEMPLATE_PATH = 'bin/directories/organisations/';
 const ORGANISATIONS_DIR = 'directories/organisations';
 
-const WP_CONTENT_DIR = 'wp-content/directories/organisations/images';
+const ASSETS_DIR = 'directories/organisations/images';
 
 const regex = /([^a-zA-Z0-9À-ÿ])/gi;
 
@@ -34,8 +34,8 @@ function extractOrganisations(input) {
             publish: Parser.boolean(item.Published)
         };
 
-        //organisation.img = path.join('https://www.fiware.org', WP_CONTENT_DIR, organisation.image_name);
-        organisation.image = 'https://www.fiware.org/' + path.join(WP_CONTENT_DIR, organisation.image_name);
+        //organisation.img = path.join('https://www.fiware.org/wp-content/', ASSETS_DIR, organisation.image_name);
+        organisation.image = 'https://www.fiware.org/wp-content/' + path.join(ASSETS_DIR, organisation.image_name);
 
         if (organisation.publish) {
             organisations.push(organisation);
@@ -120,7 +120,7 @@ function uploadImages(organisations) {
             return Downloader.validateUploads(missingImages);
         })
         .then((uploads) => {
-            Downloader.uploadImages(uploads, WP_CONTENT_DIR);
+            Downloader.uploadImages(uploads, path.join('assets',ASSETS_DIR));
             Downloader.logUploads(uploads);
             return uploads;
         });

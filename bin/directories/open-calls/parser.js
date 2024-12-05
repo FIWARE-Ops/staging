@@ -9,7 +9,7 @@ const Template = require('../../template');
 const TEMPLATE_PATH = 'bin/directories/open-calls/';
 const OPEN_CALLS_DIR = 'directories/open-calls';
 
-const WP_CONTENT_DIR = 'wp-content/directories/open-calls/images';
+const ASSETS_DIR = 'directories/open-calls/images';
 
 /**
  * Take the human readable column names from the spreadsheet and create a
@@ -32,8 +32,8 @@ function extractOpenCalls(input) {
             publish: Parser.boolean(item.Published)
         };
 
-        //openCall.img = path.join('https://www.fiware.org', WP_CONTENT_DIR, openCall.image_name);
-        openCall.image = 'https://www.fiware.org/' + path.join(WP_CONTENT_DIR, openCall.image_name);
+        //openCall.img = path.join('https://www.fiware.org', ASSETS_DIR, openCall.image_name);
+        openCall.image = 'https://www.fiware.org/wp-content/' + path.join(ASSETS_DIR, openCall.image_name);
         openCall.type = openCall.closeDate < today ? 'Closed' : 'Open';
 
         if (openCall.publish) {
@@ -76,7 +76,7 @@ function uploadImages(openCalls) {
             return Downloader.validateUploads(missingImages);
         })
         .then((uploads) => {
-            Downloader.uploadImages(uploads, WP_CONTENT_DIR);
+            Downloader.uploadImages(uploads, path.join( 'assets', ASSETS_DIR));
             Downloader.logUploads(uploads);
             return uploads;
         });
