@@ -15,6 +15,7 @@ function extractFigures(input) {
             name: item.Figure,
             value: item.Value,
             source: item.Source,
+            url: item.Url,
             owner: item.Owner
         };
         figures.push(enabler);

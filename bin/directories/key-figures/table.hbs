@@ -1,14 +1,19 @@
-<div class="list-people">
+<div class="list-directory">
     {{#each this}}
-        <div class="lp-item-container">
-            <div class="md-figure-name">{{name}}</div>
+        <div class="ld-item-container">
+            <div class="ld-figure-name">{{name}}</div>
+            <div class="md-value--small">{{value}}</div>
             {{#if source}}
-            <div class="md-figure-source">{{source}}</div>
+            <a target='_blank' href='{{url}}' rel='noopener'>
+                <div class="md-button md-button--secondary">
+                {{source}}
+                </div>
+            </a>
             {{/if}}
             {{#if owner}}
-            <div class="lp-item-name">{{owner}}</div>
+            <img alt='' class='lp-item-pic' src='{{img}}' loading='lazy' />
+            <div class="ld-item-name">{{owner}}</div>
             {{/if}}
-            <div class="md-value--small">{{value}}</div>
         </div>
     {{/each}}
 </div>
