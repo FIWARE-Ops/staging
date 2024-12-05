@@ -2,7 +2,6 @@ var companies = [];
 var departments = [];
 var titles = [
         'Closed',
-        'Open',
 ]; var domains = [
         'Academia',
         'Any Legal Entity',
