@@ -11,6 +11,7 @@ const TEMPLATE_PATH = 'bin/directories/organisations/';
 const ORGANISATIONS_DIR = 'directories/organisations';
 
 const ASSETS_DIR = 'directories/organisations/images';
+const IMAGE_SIZE  = {height: 216, width: 385};
 
 const regex = /([^a-zA-Z0-9À-ÿ])/gi;
 
@@ -24,8 +25,7 @@ function extractOrganisations(input) {
         const organisation = {
             upperName: item.Name.toUpperCase(),
             name: item.Name,
-            img: item.Image ? item.Image : '',
-            image_name: item['Image Name'] ? item['Image Name'] : 'organisation-default.png',
+            image: item['Image'] ? item['Image'] : 'organisation-default.png',
             type: item.Type,
             website: item.Website,
             country: item.Country,
@@ -34,10 +34,8 @@ function extractOrganisations(input) {
             publish: Parser.boolean(item.Published)
         };
 
-        //organisation.img = path.join('https://www.fiware.org/wp-content/', ASSETS_DIR, organisation.image_name);
-        organisation.image = 'https://www.fiware.org/wp-content/' + path.join(ASSETS_DIR, organisation.image_name);
-
-        if (organisation.publish) {
+         if (organisation.publish) {
+            organisation.img = 'https://www.fiware.org/wp-content/' + path.join(ASSETS_DIR, organisation.image);
             organisations.push(organisation);
         }
     });
@@ -114,13 +112,13 @@ function generateHTML(organisations) {
 }
 
 function uploadImages(organisations) {
-    return Downloader.checkImages(organisations, 'image', 'image_name')
+    return Downloader.checkImages(organisations)
         .then((missingImages) => {
             Downloader.logMissing(missingImages);
             return Downloader.validateUploads(missingImages);
         })
         .then((uploads) => {
-            Downloader.uploadImages(uploads, path.join('assets',ASSETS_DIR));
+            Downloader.uploadImages(uploads, path.join('assets',ASSETS_DIR), IMAGE_SIZE);
             Downloader.logUploads(uploads);
             return uploads;
         });

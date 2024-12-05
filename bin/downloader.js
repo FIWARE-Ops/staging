@@ -43,12 +43,12 @@ function checkFileExists(file) {
 function urlExists(url, name) {
     return new Promise((resolve, reject) => {
         if  (name.match(UPLOAD)){
-            process.stdout.write('^');
+            process.stdout.write('↑');
             return resolve(name)
         } else if (name.match(DOWNLOAD)) {
             fetch(url, { method: 'GET' }, 10000)
                 .then(function(resp) {
-                    process.stdout.write(resp.ok ? 'v' : '?');
+                    process.stdout.write(resp.ok ? '↓' : '?');
                     return resp.ok ? resp.blob() : null;
                  })
                 .then(async function(blob) {
