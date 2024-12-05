@@ -5,10 +5,12 @@ const Prettier = require('prettier');
 const Parser = require('../../dataParser');
 const Sorter = require('../../sort');
 const Template = require('../../template');
+const Downloader = require('../../downloader');
 const TEMPLATE_PATH = 'bin/directories/marketing-toolbox/';
 const MARKETING_TOOLS_DIR = 'directories/marketing-toolbox';
-
-const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/marketing-toolbox/images/iHub-default.png';
+const ASSETS_DIR = 'directories/marketing-toolbox/images/thumbs';
+const IMAGE_SIZE  = {height: 201, width: 360};
+const DEFAULT_IMAGE = 'tools-default.png';
 
 /**
  * Take the human readable column names from the spreadsheet and create a
@@ -19,7 +21,7 @@ function extractTools(input) {
     input.forEach((item) => {
         const tool = {
             name: item.Name,
-            img: item.Image ? item.Image : DEFAULT_IMAGE,
+            image: item.Image ? item.Image : DEFAULT_IMAGE,
             domain: Parser.splitStrings(item.Domain),
             type: item.Type,
             website: item.Link,
@@ -33,6 +35,7 @@ function extractTools(input) {
         }
 
         if (tool.publish) {
+            tool.img = 'https://www.fiware.org/wp-content/' + path.join(ASSETS_DIR, tool.image);
             tools.push(tool);
         }
     });
@@ -46,6 +49,19 @@ function extractTools(input) {
     return tools.sort((a, b) => {
         return String(a.name).localeCompare(b.name);
     });
+}
+
+function uploadImages(tools) {
+    return Downloader.checkImages(tools)
+        .then((missingImages) => {
+            Downloader.logMissing(missingImages);
+            return Downloader.validateUploads(missingImages);
+        })
+        .then((uploads) => {
+            Downloader.uploadImages(uploads, path.join( 'assets', ASSETS_DIR), IMAGE_SIZE);
+            Downloader.logUploads(uploads);
+            return uploads;
+        });
 }
 
 function generateHTML(tools) {
@@ -78,6 +94,11 @@ function parse(file) {
         })
         .then((tools) => {
             return generateHTML(tools);
+        })
+        .then((tools) => {
+            uploadImages(tools).then(() => {
+                return tools;
+            });
         })
         .catch((e) => {
             console.log(e);

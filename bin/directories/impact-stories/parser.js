@@ -5,10 +5,13 @@ const Prettier = require('prettier');
 const Parser = require('../../dataParser');
 const Sorter = require('../../sort');
 const Template = require('../../template');
+const Downloader = require('../../downloader');
 const TEMPLATE_PATH = 'bin/directories/impact-stories/';
 const IMPACT_STORIES_DIR = 'directories/impact-stories';
+const ASSETS_DIR = 'uploads';
+const IMAGE_SIZE  = {height: 201, width: 360};
 
-const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/impact-stories/images/impact-story-default.png';
+const DEFAULT_IMAGE = 'impact-story-default.png';
 
 /**
  * Take the human readable column names from the spreadsheet and create a
@@ -23,7 +26,7 @@ function extractStories(input) {
             name: item.Name,
             year: item.Year,
             img: item['Featured Image'] ? item['Featured Image'] : DEFAULT_IMAGE,
-            thumbnail: item.Thumb ? item.Thumb : DEFAULT_IMAGE,
+            thumb: item.Thumb ? item.Thumb : DEFAULT_IMAGE,
             domain: Parser.splitStrings(item.Domain),
             type: item.Type,
             medium: item.Medium,
@@ -42,6 +45,7 @@ function extractStories(input) {
         }
 
         if (impactStory.publish) {
+            impactStory.thumbnail = 'https://www.fiware.org/wp-content/' + path.join(ASSETS_DIR, impactStory.thumb);
             impactStories.push(impactStory);
         }
         if (impactStory.featured) {
@@ -71,6 +75,19 @@ function extractStories(input) {
 function extractRecent(impactStories) {
     const recent = [...impactStories.slice(0, 7)];
     return recent;
+}
+
+function uploadImages(impactStories) {
+    return Downloader.checkImages(impactStories, 'thumbnail', 'thumb')
+        .then((missingImages) => {
+            Downloader.logMissing(missingImages);
+            return Downloader.validateUploads(missingImages);
+        })
+        .then((uploads) => {
+            Downloader.uploadImages(uploads, path.join( 'assets', ASSETS_DIR), IMAGE_SIZE);
+            Downloader.logUploads(uploads);
+            return uploads;
+        });
 }
 
 function generateHTML(data) {
@@ -110,6 +127,11 @@ function parse(file) {
         })
         .then((data) => {
             return generateHTML(data);
+        })
+        .then((stories) => {
+            uploadImages(stories).then(() => {
+                return stories;
+            });
         })
         .catch((e) => {
             console.log(e);

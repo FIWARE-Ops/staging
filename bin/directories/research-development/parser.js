@@ -5,10 +5,12 @@ const Prettier = require('prettier');
 const Parser = require('../../dataParser');
 const Sorter = require('../../sort');
 const Template = require('../../template');
+const Downloader = require('../../downloader');
 const TEMPLATE_PATH = 'bin/directories/research-development/';
 const RESEARCH_DEVELOPMENT_DIR = 'directories/research-development';
-
-const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/research-development/images/r-and-d-default.png';
+const ASSETS_DIR = 'directories/research-development/images';
+const IMAGE_SIZE  = {height: 201, width: 360};
+const DEFAULT_IMAGE = 'r-and-d-default.png';
 
 /**
  * Take the human readable column names from the spreadsheet and create a
@@ -20,7 +22,7 @@ function extractProjects(input) {
     input.forEach((item) => {
         const project = {
             name: item.Name,
-            img: item.Image ? item.Image : DEFAULT_IMAGE,
+            image: item.Image ? item.Image : DEFAULT_IMAGE,
             domains: Parser.splitStrings(item.Domain),
             technologies: Parser.splitStrings(item.Technology),
             type: item.Type,
@@ -64,6 +66,7 @@ function extractProjects(input) {
         }
 
         if (project.publish) {
+            project.img = 'https://www.fiware.org/wp-content/' + path.join(ASSETS_DIR, project.image);
             projects.push(project);
         }
     });
@@ -77,6 +80,19 @@ function extractProjects(input) {
     return projects.sort((a, b) => {
         return String(a.name.toLowerCase()).localeCompare(b.name.toLowerCase());
     });
+}
+
+function uploadImages(projects) {
+    return Downloader.checkImages(projects)
+        .then((missingImages) => {
+            Downloader.logMissing(missingImages);
+            return Downloader.validateUploads(missingImages);
+        })
+        .then((uploads) => {
+            Downloader.uploadImages(uploads, path.join( 'assets', ASSETS_DIR), IMAGE_SIZE);
+            Downloader.logUploads(uploads);
+            return uploads;
+        });
 }
 
 function generateHTML(projects) {
@@ -151,6 +167,11 @@ function parse(file) {
         })
         .then((projects) => {
             return generateHTML(projects);
+        })
+        .then((projects) => {
+            uploadImages(projects).then(() => {
+                return projects;
+            });
         })
         .catch((e) => {
             console.log(e);

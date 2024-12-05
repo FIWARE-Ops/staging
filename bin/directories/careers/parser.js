@@ -11,7 +11,7 @@ const Downloader = require('../../downloader');
 
 const ASSETS_DIR = 'directories/careers/images';
 const IMAGE_SIZE  = null;
-'careers-default.png';
+const DEFAULT_IMAGE = 'careers-default.svg'
 
 /**
  * Take the human readable column names from the spreadsheet and create a
@@ -27,7 +27,7 @@ function extractJobs(input) {
     input.forEach((item) => {
         const job = {
             name: item['Job Title'],
-            image: item.Image ? item.Image : 'careers-default.png',
+            image: item.Image ? item.Image : DEFAULT_IMAGE,
             type: item['Seniority Level'],
             mission: item.Mission,
             description: Parser.markdown(item.Description),

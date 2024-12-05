@@ -5,11 +5,13 @@ const Prettier = require('prettier');
 const Parser = require('../../dataParser');
 const Sorter = require('../../sort');
 const Template = require('../../template');
+const Downloader = require('../../downloader');
 const Community = require('../community/parser');
 const TEMPLATE_PATH = 'bin/directories/ihubs/';
 const IHUBS_DIR = 'directories/ihubs';
-
-const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/iHubs/images/iHub-default.png';
+const ASSETS_DIR = 'directories/ihubs/images';
+const IMAGE_SIZE  = {height: 201, width: 360};
+const DEFAULT_IMAGE = 'ihub-default.png';
 
 function trunc(value) {
     return Math.trunc((value - 0.005) * 1000) / 1000;
@@ -25,7 +27,7 @@ function extractIHubs(input) {
         const iHub = {
             name: item.Name,
             city: item.City,
-            img: item.Image ? item.Image : DEFAULT_IMAGE,
+            image: item.Image ? item.Image : DEFAULT_IMAGE,
             domain: Parser.splitStrings(item.Domain),
             type: item.Type,
             linkedIn: item.LinkedIn,
@@ -44,6 +46,7 @@ function extractIHubs(input) {
         }
 
         if (iHub.publish) {
+            iHub.img = 'https://www.fiware.org/wp-content/' + path.join(ASSETS_DIR, iHub.image);
             iHubs.push(iHub);
         }
     });
@@ -57,6 +60,19 @@ function extractIHubs(input) {
     return iHubs.sort((a, b) => {
         return String(a.name).localeCompare(b.name);
     });
+}
+
+function uploadImages(iHubs) {
+    return Downloader.checkImages(iHubs)
+        .then((missingImages) => {
+            Downloader.logMissing(missingImages);
+            return Downloader.validateUploads(missingImages);
+        })
+        .then((uploads) => {
+            Downloader.uploadImages(uploads, path.join( 'assets', ASSETS_DIR), IMAGE_SIZE);
+            Downloader.logUploads(uploads);
+            return uploads;
+        });
 }
 
 function generateHTML(iHubs) {
@@ -100,6 +116,11 @@ function parse(file) {
         })
         .then((iHubs) => {
             return generateHTML(iHubs);
+        })
+        .then((iHubs) => {
+            uploadImages(iHubs).then(() => {
+                return iHubs;
+            });
         })
         .catch((e) => {
             console.log(e);

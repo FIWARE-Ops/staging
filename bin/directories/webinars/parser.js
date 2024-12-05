@@ -6,10 +6,12 @@ const Static = require('./staticData');
 const Parser = require('../../dataParser');
 const Sorter = require('../../sort');
 const Template = require('../../template');
+const Downloader = require('../../downloader');
 const TEMPLATE_PATH = 'bin/directories/webinars/';
 const WEBINARS_DIR = 'directories/webinars';
-
-const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/images/thumb-placeholder.jpg';
+const ASSETS_DIR = 'directories/webinars/images';
+const IMAGE_SIZE  = {height: 201, width: 360};
+const DEFAULT_IMAGE = 'webinar-default.png';
 
 function getExcerpt(item) {
     const text = Parser.textOnly(item.Content);
@@ -27,7 +29,7 @@ function extractWebinars(input) {
         const webinar = {
             season: item.Season,
             name: item.Name,
-            img: item.Image ? item.Image : DEFAULT_IMAGE,
+            image: item.Image ? item.Image : DEFAULT_IMAGE,
             companyLink: item.Video,
             domain: Parser.splitStrings(item.Audience),
             type: item.Type,
@@ -42,6 +44,7 @@ function extractWebinars(input) {
             publish: Parser.boolean(item.Published)
         };
         if (webinar.publish) {
+            webinar.img = 'https://www.fiware.org/wp-content/' + path.join(ASSETS_DIR, webinar.image);
             webinars.push(webinar);
         }
     });
@@ -55,6 +58,19 @@ function extractWebinars(input) {
     return webinars.sort((a, b) => {
         return b.season - a.season;
     });
+}
+
+function uploadImages(webinars) {
+    return Downloader.checkImages(webinars)
+        .then((missingImages) => {
+            Downloader.logMissing(missingImages);
+            return Downloader.validateUploads(missingImages);
+        })
+        .then((uploads) => {
+            Downloader.uploadImages(uploads, path.join( 'assets', ASSETS_DIR), IMAGE_SIZE);
+            Downloader.logUploads(uploads);
+            return uploads;
+        });
 }
 
 function generateHTML(webinars) {
@@ -103,6 +119,11 @@ function parse(file) {
         })
         .then((webinars) => {
             return generateHTML(webinars);
+        })
+        .then((webinars) => {
+            uploadImages(webinars).then(() => {
+                return webinars;
+            });
         })
         .catch((e) => {
             console.log(e);
