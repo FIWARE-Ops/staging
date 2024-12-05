@@ -3,16 +3,16 @@
         <div class="ld-item-container">
             <div class="ld-figure-name">{{name}}</div>
             <div class="md-value--small">{{value}}</div>
+            {{#if owner}}
+            <img alt='' class='ld-item-pic' src='{{img}}' loading='lazy' />
+            <div class="ld-item-name">{{owner}}</div>
+            {{/if}}
             {{#if source}}
             <a target='_blank' href='{{url}}' rel='noopener'>
                 <div class="md-button md-button--secondary">
                 {{source}}
                 </div>
             </a>
-            {{/if}}
-            {{#if owner}}
-            <img alt='' class='lp-item-pic' src='{{img}}' loading='lazy' />
-            <div class="ld-item-name">{{owner}}</div>
             {{/if}}
         </div>
     {{/each}}
