@@ -31,6 +31,7 @@
     "ihubs": "PROCESS=iHubs npm start",
     "iHubs": "PROCESS=iHubs npm start",
     "impact-stories": "PROCESS=impact-stories npm start",
+    "main-figures": "PROCESS=figures npm start",
     "marketing": "PROCESS=marketing npm start",
     "open-calls": "PROCESS=open-calls npm start",
     "organisations": "PROCESS=organisations npm start",
