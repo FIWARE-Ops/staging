@@ -107,7 +107,7 @@ async function validateUploads(items) {
     return validFiles;
 }
 
-async function checkImages(items, image, base) {
+async function checkImages(items, image = 'img', base = 'image') {
     const promises = [];
     const missing = [];
     let count = 0;

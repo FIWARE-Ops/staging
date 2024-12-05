@@ -22,8 +22,7 @@ function extractOpenCalls(input) {
         const openCall = {
             name: item.Name,
             grant: item.Grant,
-            img: item.Image ? item.Image : '',
-            image_name: item['Image Name'] ? item['Image Name'] : 'open-calls-default.png',
+            image: item['Image'] ? item['Image'] : 'open-calls-default.png',
             domain: Parser.splitStrings(item.Target),
             closeDate: Parser.date(item['Close Date']),
             type: item.Type,
@@ -33,10 +32,10 @@ function extractOpenCalls(input) {
         };
 
         //openCall.img = path.join('https://www.fiware.org', ASSETS_DIR, openCall.image_name);
-        openCall.image = 'https://www.fiware.org/wp-content/' + path.join(ASSETS_DIR, openCall.image_name);
-        openCall.type = openCall.closeDate < today ? 'Closed' : 'Open';
 
         if (openCall.publish) {
+            openCall.img = 'https://www.fiware.org/wp-content/' + path.join(ASSETS_DIR, openCall.image);
+            openCall.type = openCall.closeDate < today ? 'Closed' : 'Open';
             openCalls.push(openCall);
         }
     });
@@ -70,7 +69,7 @@ function generateHTML(openCalls) {
 }
 
 function uploadImages(openCalls) {
-    return Downloader.checkImages(openCalls, 'image', 'image_name')
+    return Downloader.checkImages(openCalls)
         .then((missingImages) => {
             Downloader.logMissing(missingImages);
             return Downloader.validateUploads(missingImages);
