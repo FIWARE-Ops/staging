@@ -10,7 +10,7 @@
 				"city": "{{city}}",
 				"html": [
 					"<div ><img class='gridElementLogo' src='{{img}}'/></div>",
-					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>{{city}}</h3>{{#if country}}<img alt='{{country}}' class='flag' src='{{flag}}' style='margin-left: auto;'/>{{/if}}</div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>{{city}}</h3>{{#if country}}<img alt='{{country}}' class='flag' src='{{flagUrl}}' style='margin-left: auto;'/>{{/if}}</div>",
 					"<div class='ihub-name'>{{name}}</div>",
 					"<div class='ihub-type'>{{type}}</div>"{{#if (gt domain.length 0)}},
                 	"<div class='chip-domain'><ul class='chips'>{{#each domain}}<li>{{this}}</li>{{/each}}</ul><span class='chips-gradient'></span></div>"
