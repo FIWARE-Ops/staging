@@ -128,26 +128,23 @@ async function checkImages(items, image = 'img', base = 'image') {
     return missing;
 }
 
-function uploadImages(items, filepath, height = 201, width = 360) {
+function uploadImages(items, filepath, dimensions = {height: 201, width: 360}) {
     fs.rmSync(path.join(__dirname, '../assets'), { recursive: true, force: true });
     items.forEach((item) => {
-        uploadImage(item, filepath, height, width);
+        uploadImage(item, filepath, dimensions);
     });
 }
 
-async function uploadImage(filename, filepath, height, width) {
+async function uploadImage(filename, filepath, dimensions) {
     const dir = path.join(__dirname, '..', filepath);
     const file = path.join(__dirname, '../images', filename);
     if (!fs.existsSync(dir)) {
         fs.mkdirSync(dir, { recursive: true });
     }
-    await resizeImage(file, path.join(dir, filename), height, width);
+    await sharp(file).resize(dimensions).toFile(path.join(dir, filename));
     await formatImage(path.join(dir, filename), 'webp');
 }
 
-async function resizeImage(file, toFile, height, width) {
-    await sharp(file).resize({ width, height}).toFile(toFile);
-}
 
 async function formatImage(file, format) {
     const base = path.basename(file, path.extname(file));

@@ -10,6 +10,7 @@ const TEMPLATE_PATH = 'bin/directories/open-calls/';
 const OPEN_CALLS_DIR = 'directories/open-calls';
 
 const ASSETS_DIR = 'directories/open-calls/images';
+const IMAGE_SIZE  = {height: 201, width: 360};
 
 /**
  * Take the human readable column names from the spreadsheet and create a
@@ -75,7 +76,7 @@ function uploadImages(openCalls) {
             return Downloader.validateUploads(missingImages);
         })
         .then((uploads) => {
-            Downloader.uploadImages(uploads, path.join( 'assets', ASSETS_DIR));
+            Downloader.uploadImages(uploads, path.join( 'assets', ASSETS_DIR), IMAGE_SIZE);
             Downloader.logUploads(uploads);
             return uploads;
         });
