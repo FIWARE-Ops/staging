@@ -41,7 +41,10 @@ function checkFileExists(file) {
 
 function urlExists(url, name) {
     return new Promise((resolve, reject) => {
-        if (name.match(UPLOAD)) {
+        if (name === '') {
+            process.stdout.write('-');
+            return resolve(null);
+        } else if (name.match(UPLOAD)) {
             process.stdout.write('↑');
             return resolve(name);
         } else if (name.match(DOWNLOAD)) {
@@ -106,12 +109,12 @@ async function validateUploads(items) {
     return validFiles;
 }
 
-async function checkImages(items, image = 'img', base = 'image') {
+async function checkAssets(items, image = 'img', base = 'image') {
     const promises = [];
     const missing = [];
     let count = 0;
 
-    console.log(`Checking ${items.length} Images`);
+    console.log(`Checking ${items.length} ${base}s`);
     console.log();
     for (const item of items) {
         let value = await urlExists(item[image], item[base]);
@@ -130,11 +133,18 @@ async function checkImages(items, image = 'img', base = 'image') {
 function uploadImages(items, filepath, dimensions) {
     fs.rmSync(path.join(__dirname, '../assets'), { recursive: true, force: true });
     items.forEach((item) => {
-        uploadImage(item, filepath, dimensions);
+        uploadAsset(item, filepath, dimensions, true);
     });
 }
 
-async function uploadImage(filename, filepath, dimensions) {
+function uploadAssets(items, filepath) {
+    fs.rmSync(path.join(__dirname, '../assets'), { recursive: true, force: true });
+    items.forEach((item) => {
+        uploadAsset(item, filepath, null, false);
+    });
+}
+
+async function uploadAsset(filename, filepath, dimensions, isImageFile) {
     const dir = path.join(__dirname, '..', filepath);
     const file = path.join(__dirname, '../images', filename);
     if (!fs.existsSync(dir)) {
@@ -145,7 +155,9 @@ async function uploadImage(filename, filepath, dimensions) {
     } else {
         fs.copyFileSync(file,path.join(dir, filename));
     }
-    await formatImage(path.join(dir, filename), 'webp');
+    if(isImageFile){
+        await formatImage(path.join(dir, filename), 'webp');
+    }
 }
 
 async function formatImage(file, format) {
@@ -256,5 +268,7 @@ exports.logMissing = logMissing;
 exports.logUploads = logUploads;
 exports.validateUploads = validateUploads;
 exports.uploadImages = uploadImages;
-exports.checkImages = checkImages;
+exports.uploadAssets = uploadAssets;
+exports.checkImages = checkAssets;
+exports.checkAssets = checkAssets;
 exports.load = loadCSV;

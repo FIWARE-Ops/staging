@@ -7,9 +7,11 @@ const Parser = require('../../dataParser');
 const Template = require('../../template');
 const TEMPLATE_PATH = 'bin/directories/events/';
 const EVENTS_DIR = 'directories/events-directory';
+const Downloader = require('../../downloader');
 const People = require('../../people/parser');
-
-const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/events-directory/images/default.png';
+const ASSETS_DIR = 'uploads';
+const IMAGE_SIZE  = {height: 628, width: 1200};
+const DEFAULT_IMAGE = 'events-default.png';
 
 function getFeaturedEvents(types, categories, events) {
     const now = new Date();
@@ -71,6 +73,19 @@ function getSixMonths() {
     return months;
 }
 
+function uploadImages(events) {
+    return Downloader.checkImages(events)
+        .then((missingImages) => {
+            Downloader.logMissing(missingImages);
+            return Downloader.validateUploads(missingImages);
+        })
+        .then((uploads) => {
+            Downloader.uploadImages(uploads, path.join( 'assets', ASSETS_DIR), IMAGE_SIZE);
+            Downloader.logUploads(uploads);
+            return uploads;
+        });
+}
+
 /**
  * Take the human readable column names from the spreadsheet and create a
  * data object of each project for later use
@@ -84,7 +99,7 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
             description: Parser.markdown(item.Description),
             type: item.Type,
             category: Parser.splitStrings(item.Category),
-            img: item.Image ? item.Image : DEFAULT_IMAGE,
+            image: item.Image ? item.Image : DEFAULT_IMAGE,
             website: item.Website,
             startDate: Parser.date(item['Start Date']),
             endDate: Parser.date(item['End Date']),
@@ -136,6 +151,7 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
             event.endTime = Parser.addTime(event.endDate ? event.endDate : event.startDate, event.end);
             event.shortDateEnd = event.endTime.toLocaleDateString('en-GB', { month: 'long', day: 'numeric' });
             eventDates.push(event.shortDateEnd);
+            event.img = 'https://www.fiware.org/wp-content/' + path.join(ASSETS_DIR, event.image);
             events.push(event);
         }
     });

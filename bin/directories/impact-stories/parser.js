@@ -9,7 +9,10 @@ const Downloader = require('../../downloader');
 const TEMPLATE_PATH = 'bin/directories/impact-stories/';
 const IMPACT_STORIES_DIR = 'directories/impact-stories';
 const ASSETS_DIR = 'uploads';
-const IMAGE_SIZE  = {height: 201, width: 360};
+const FLAGS_DIR = 'directories/people/images/flag';
+const THUMB_SIZE  = {height: 201, width: 360};
+const IMAGE_SIZE  = {height: 745, width: 970};
+const FLAG_SIZE  = {height: 120, width: 120};
 
 const DEFAULT_IMAGE = 'impact-story-default.png';
 
@@ -25,7 +28,7 @@ function extractStories(input) {
         const impactStory = {
             name: item.Name,
             year: item.Year,
-            img: item['Featured Image'] ? item['Featured Image'] : DEFAULT_IMAGE,
+            image: item['Featured Image'] ? item['Featured Image'] : '',
             thumb: item.Thumb ? item.Thumb : DEFAULT_IMAGE,
             domain: Parser.splitStrings(item.Domain),
             type: item.Type,
@@ -46,6 +49,10 @@ function extractStories(input) {
 
         if (impactStory.publish) {
             impactStory.thumbnail = 'https://www.fiware.org/wp-content/' + path.join(ASSETS_DIR, impactStory.thumb);
+            impactStory.img = 'https://www.fiware.org/wp-content/' + path.join(ASSETS_DIR, impactStory.image);
+            impactStory.pdfUrl = 'https://www.fiware.org/wp-content/' + path.join(ASSETS_DIR, impactStory.pdf);
+            impactStory.flagUrl = 'https://www.fiware.org/wp-content/' + path.join(FLAGS_DIR, impactStory.flag);
+            
             impactStories.push(impactStory);
         }
         if (impactStory.featured) {
@@ -78,7 +85,7 @@ function extractRecent(impactStories) {
 }
 
 function uploadImages(impactStories) {
-    return Downloader.checkImages(impactStories, 'thumbnail', 'thumb')
+    return Downloader.checkImages(impactStories, 'img', 'image')
         .then((missingImages) => {
             Downloader.logMissing(missingImages);
             return Downloader.validateUploads(missingImages);
@@ -89,6 +96,48 @@ function uploadImages(impactStories) {
             return uploads;
         });
 }
+
+function uploadThumbnails(impactStories) {
+    return Downloader.checkImages(impactStories, 'thumbnail', 'thumb')
+        .then((missingImages) => {
+            Downloader.logMissing(missingImages);
+            return Downloader.validateUploads(missingImages);
+        })
+        .then((uploads) => {
+            Downloader.uploadImages(uploads, path.join( 'assets', ASSETS_DIR), THUMB_SIZE);
+            Downloader.logUploads(uploads);
+            return uploads;
+        });
+}
+
+function uploadFlags(impactStories) {
+    return Downloader.checkImages(impactStories, 'flagUrl', 'flag')
+        .then((missingImages) => {
+            Downloader.logMissing(missingImages);
+            return Downloader.validateUploads(missingImages);
+        })
+        .then((uploads) => {
+            Downloader.uploadImages(uploads, path.join( 'assets', FLAGS_DIR), FLAG_SIZE);
+            Downloader.logUploads(uploads);
+            return uploads;
+        });
+}
+
+function uploadPDFs(impactStories) {
+    return Downloader.checkAssets(impactStories, 'pdfUrl', 'pdf')
+        .then((missingAssets) => {
+            Downloader.logMissing(missingAssets);
+            return Downloader.validateUploads(missingAssets);
+        })
+        .then((uploads) => {
+            Downloader.uploadAssets(uploads, path.join( 'assets', ASSETS_DIR), THUMB_SIZE);
+            Downloader.logUploads(uploads);
+            return uploads;
+        });
+}
+
+
+
 
 function generateHTML(data) {
     const stories = data.stories;
@@ -129,9 +178,24 @@ function parse(file) {
             return generateHTML(data);
         })
         .then((stories) => {
-            uploadImages(stories).then(() => {
+            return uploadThumbnails(stories).then(() => {
                 return stories;
-            });
+            })
+        })
+        .then((stories) => {
+            return uploadImages(stories).then(() => {
+                return stories;
+            })
+        })
+        .then((stories) => {
+            return uploadFlags(stories).then(() => {
+                return stories;
+            })
+        })
+        .then((stories) => {
+            return uploadPDFs(stories).then(() => {
+                return stories;
+            })
         })
         .catch((e) => {
             console.log(e);
