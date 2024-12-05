@@ -22,7 +22,7 @@ jobs:
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.SSH_KEY }}
         target: ${{ secrets.SSH_DIR }}
-        source: ./assets
+        source: /github/workspace/assets
 
   refresh-page-data:
     name: Refresh Staging Files
