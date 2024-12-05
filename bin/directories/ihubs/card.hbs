@@ -5,7 +5,7 @@
             <div class="label-location">
                 <h3>{{city}}</h3>
                 {{#if country}}
-                    <img alt='{{country}}' class='flag' src='{{flag}}' {{#if (gt @index 9)}}loading="lazy"{{/if}}/>
+                    <img alt='{{country}}' class='flag' src='{{flagUrl}}' {{#if (gt @index 9)}}loading="lazy"{{/if}}/>
                 {{/if}}
             </div>
             <h6 class="ihub-name">{{name}}</h6>
