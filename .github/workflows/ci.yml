@@ -12,19 +12,9 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v3
-    - name: Get all changed files
-      uses: tj-actions/changed-files@v45
-      with:
-        separator: ","
-        files: |
-          assets/**
-    - name: List all changed files
-      env:
-        ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
+    - name: Check assets
       run: |
-          for file in ${ALL_CHANGED_FILES}; do
-            echo "$file was changed"
-          done
+        cd assets
     - name: copy file via ssh password
       uses: appleboy/scp-action@master
       continue-on-error: true
@@ -34,7 +24,7 @@ jobs:
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.SSH_KEY }}
         target: ${{ secrets.SSH_DIR }}
-        source: ./assets/**
+        source: ./**
 
   refresh-page-data:
     name: Refresh Staging Files
