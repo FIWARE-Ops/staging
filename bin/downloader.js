@@ -4,6 +4,11 @@ const got = require('got');
 const fs = require('fs-extra');
 const csv = require('csvtojson');
 const path = require('path');
+const sharp = require('sharp');
+
+const UPLOAD = process.env.UPLOAD ?  new RegExp(`${process.env.UPLOAD}.*`, 'ig') : null;
+const DOWNLOAD = process.env.DOWNLOAD ?  new RegExp(`${process.env.DOWNLOAD}.*`, 'ig') : null;
+
 
 /**
  * Within Keys.csv check to see if a matxhing URL can be found.
@@ -37,15 +42,40 @@ function checkFileExists(file) {
 
 function urlExists(url, name) {
     return new Promise((resolve, reject) => {
+        if  (name.match(UPLOAD)){
+            process.stdout.write('^');
+            return resolve(name)
+        } else if (name.match(DOWNLOAD)) {
+            fetch(url, { method: 'GET' }, 10000)
+                .then(function(resp) {
+                    process.stdout.write(resp.ok ? 'v' : '?');
+                    return resp.ok ? resp.blob() : null;
+                 })
+                .then(async function(blob) {
+                    if(!blob){
+                        return resolve(name);
+                    }
+                    var buffer = await blob.arrayBuffer();
+                    buffer = Buffer.from(buffer)
+                    const file = path.join(__dirname, '../images', name);
+                    fs.createWriteStream(file).write(buffer);
+                    return resolve(null);
+                })
+                .catch((e) => {
+                    console.log(e);
+                    return resolve(null);
+                });
+        } else {
         fetch(url, { method: 'HEAD' }, 10000)
             .then((data, err) => {
-                process.stdout.write(data.status !== 200 ? 'X' : '.');
+                process.stdout.write(data.ok ? '.' : 'X');
                 return err ? reject(err) : resolve(data.status !== 200 ? name : null);
             })
             .catch((e) => {
                 console.log('timeout');
                 resolve(null);
             });
+        }
     });
 }
 
@@ -100,19 +130,32 @@ async function checkImages(items, image, base) {
     return missing;
 }
 
-function uploadImages(items, filepath) {
+function uploadImages(items, filepath, height = 201, width = 360) {
     items.forEach((item) => {
-        uploadImage(item, filepath);
+        uploadImage(item, filepath, height, width);
     });
 }
 
-function uploadImage(filename, filepath) {
+async function uploadImage(filename, filepath, height, width) {
     const dir = path.join(__dirname, '..', filepath);
     const file = path.join(__dirname, '../images', filename);
     if (!fs.existsSync(dir)) {
         fs.mkdirSync(dir, { recursive: true });
     }
-    fs.copyFileSync(file, path.join(dir, filename));
+    await resizeImage(file, path.join(dir, filename), height, width);
+    await formatImage(path.join(dir, filename), 'webp');
+}
+
+async function resizeImage(file, toFile, height, width) {
+    await sharp(file).resize({ width, height}).toFile(toFile);
+}
+
+async function formatImage(file, format) {
+    const base = path.basename(file, path.extname(file));
+    const dir = path.dirname(file);
+    await sharp(file)
+        .toFormat(format, { palette: true })
+        .toFile(path.join(dir, `${base}.${format}`));
 }
 
 /**

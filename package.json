@@ -61,6 +61,7 @@
     "node-html-to-image": "5.0.0",
     "prettier": "3.3.2",
     "qrcode": "^1.5.4",
+    "sharp": "^0.33.5",
     "showdown": "^2.1.0",
     "underscore": "^1.13.6",
     "yargs": "^17.7.2"
