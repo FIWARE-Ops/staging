@@ -7,8 +7,11 @@ const Sorter = require('../../sort');
 const Template = require('../../template');
 const TEMPLATE_PATH = 'bin/directories/careers/';
 const CAREERS_DIR = 'directories/careers';
+const Downloader = require('../../downloader');
 
-const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/careers/images/careers-default.png';
+const ASSETS_DIR = 'directories/careers/images';
+const IMAGE_SIZE  = null;
+'careers-default.png';
 
 /**
  * Take the human readable column names from the spreadsheet and create a
@@ -24,7 +27,7 @@ function extractJobs(input) {
     input.forEach((item) => {
         const job = {
             name: item['Job Title'],
-            img: item.Image ? item.Image : DEFAULT_IMAGE,
+            image: item.Image ? item.Image : 'careers-default.png',
             type: item['Seniority Level'],
             mission: item.Mission,
             description: Parser.markdown(item.Description),
@@ -41,6 +44,7 @@ function extractJobs(input) {
         const filename = Template.createClass(job.name);
         job.social = `/job/${filename}.html`;
         if (job.publish) {
+            job.img = 'https://www.fiware.org/wp-content/' + path.join(ASSETS_DIR, job.image); 
             jobs.push(job);
         }
     });
@@ -56,18 +60,8 @@ function extractJobs(input) {
     });
 }
 
-/**
- * Read in the careers file and output
- * HTML and JavaScript files
- */
-function parse(file) {
-    return csv()
-        .fromFile(file)
-        .then((input) => {
-            return extractJobs(input);
-        })
-        .then((jobs) => {
-            const filterData = {
+function generateHTML(jobs) {
+    const filterData = {
                 types: Sorter.sortData(jobs, 'type'),
                 domains: Sorter.flatSortData(jobs, 'domain'),
                 jobs
@@ -106,6 +100,39 @@ function parse(file) {
             Prettier.format(path.join(CAREERS_DIR, 'job/pageData.js'), { parser: 'flow' });
             Prettier.format(path.join(CAREERS_DIR, 'job/sitemap.html'), { parser: 'html' });
             return jobs;
+
+}
+
+function uploadImages(jobs) {
+    return Downloader.checkImages(jobs)
+        .then((missingImages) => {
+            Downloader.logMissing(missingImages);
+            return Downloader.validateUploads(missingImages);
+        })
+        .then((uploads) => {
+            Downloader.uploadImages(uploads, path.join( 'assets', ASSETS_DIR), IMAGE_SIZE);
+            Downloader.logUploads(uploads);
+            return uploads;
+        });
+}
+
+/**
+ * Read in the careers file and output
+ * HTML and JavaScript files
+ */
+function parse(file) {
+    return csv()
+        .fromFile(file)
+        .then((input) => {
+            return extractJobs(input);
+        })
+        .then((jobs) => {
+            return generateHTML(jobs);
+        })
+        .then((jobs) => {
+            uploadImages(jobs).then(() => {
+                return jobs;
+            });
         })
         .catch((e) => {
             console.log(e);
