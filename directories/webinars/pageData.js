@@ -55,7 +55,7 @@ var types = [
  var modalData = [
     { 
         name: "FIWARE Data Space Technologies - Reference Use Case", 
-        img: "https://www.fiware.org/wp-content/uploads/fw-dataspaces-series.png",
+        img: "https://www.fiware.org/wp-content/directories/webinars/images/dataspaces-series.png",
         type: "Security", 
         badge: "<img src='https://www.fiware.org/custom/brand-guide/img/badges/catalogue/04/svg/security.svg'/>",
         chapter: "context-data", 
@@ -70,7 +70,7 @@ var types = [
     },
     { 
         name: "FIWARE Data Space Technologies - Ongoing and Future Work", 
-        img: "https://www.fiware.org/wp-content/uploads/fw-dataspaces-series.png",
+        img: "https://www.fiware.org/wp-content/directories/webinars/images/dataspaces-series.png",
         type: "Security", 
         badge: "<img src='https://www.fiware.org/custom/brand-guide/img/badges/catalogue/04/svg/security.svg'/>",
         chapter: "context-data", 
@@ -85,7 +85,7 @@ var types = [
     },
     { 
         name: "Deploying a FIWARE Data Space Connector", 
-        img: "https://www.fiware.org/wp-content/uploads/fw-dataspaces-series.png",
+        img: "https://www.fiware.org/wp-content/directories/webinars/images/dataspaces-series.png",
         type: "Security", 
         badge: "<img src='https://www.fiware.org/custom/brand-guide/img/badges/catalogue/04/svg/security.svg'/>",
         chapter: "context-data", 
@@ -100,7 +100,7 @@ var types = [
     },
     { 
         name: "Contract Negotiation in Data Spaces", 
-        img: "https://www.fiware.org/wp-content/uploads/fw-dataspaces-series.png",
+        img: "https://www.fiware.org/wp-content/directories/webinars/images/dataspaces-series.png",
         type: "Security", 
         badge: "<img src='https://www.fiware.org/custom/brand-guide/img/badges/catalogue/04/svg/security.svg'/>",
         chapter: "context-data", 
@@ -115,7 +115,7 @@ var types = [
     },
     { 
         name: "Decentralized IAM based on Verifiable Credentials and ODRL", 
-        img: "https://www.fiware.org/wp-content/uploads/fw-dataspaces-series.png",
+        img: "https://www.fiware.org/wp-content/directories/webinars/images/dataspaces-series.png",
         type: "Security", 
         badge: "<img src='https://www.fiware.org/custom/brand-guide/img/badges/catalogue/04/svg/security.svg'/>",
         chapter: "context-data", 
@@ -130,7 +130,7 @@ var types = [
     },
     { 
         name: "FIWARE Vision on Data Spaces", 
-        img: "https://www.fiware.org/wp-content/uploads/fw-dataspaces-series.png",
+        img: "https://www.fiware.org/wp-content/directories/webinars/images/dataspaces-series.png",
         type: "Security", 
         badge: "<img src='https://www.fiware.org/custom/brand-guide/img/badges/catalogue/04/svg/security.svg'/>",
         chapter: "context-data", 
@@ -145,7 +145,7 @@ var types = [
     },
     { 
         name: "Enhancing Tourism with Smart Technologies: Integrating FIWARE and Large Language Models", 
-        img: "https://www.fiware.org/wp-content/uploads/fw-enhancing-tourism.png",
+        img: "https://www.fiware.org/wp-content/directories/webinars/images/enhancing-tourism.png",
         type: "Processing", 
         badge: "<img src='https://www.fiware.org/custom/brand-guide/img/badges/catalogue/03/svg/processing-analysis.svg'/>",
         chapter: "context-processing", 
@@ -160,7 +160,7 @@ var types = [
     },
     { 
         name: "Advanced Dashboards with WireCloud 2.0", 
-        img: "https://www.fiware.org/wp-content/uploads/fw-advanced-dashboards-with-wirecloud-2.png",
+        img: "https://www.fiware.org/wp-content/directories/webinars/images/advanced-dashboards-with-wirecloud-2.png",
         type: "Visualisation", 
         badge: "<img src='https://www.fiware.org/custom/brand-guide/img/badges/catalogue/03/svg/visualisation.svg'/>",
         chapter: "context-processing", 
