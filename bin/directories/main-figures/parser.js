@@ -15,7 +15,7 @@ function extractMainFigures(input) {
             name: item.Figure,
             value: item.Value,
             source: item.Source,
-            owner: item.Website
+            website: item.Website
         };
         mfigures.push(enabler);
     });
