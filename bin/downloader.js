@@ -41,8 +41,8 @@ function checkFileExists(file) {
 
 function urlExists(url, name) {
     return new Promise((resolve, reject) => {
-        if (name === '') {
-            process.stdout.write('-');
+        if (name === '' || name === undefined) {
+            process.stdout.write('?');
             return resolve(null);
         } else if (name.match(UPLOAD)) {
             process.stdout.write('↑');
