@@ -821,6 +821,23 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "SenLab",
+				"html": [
+					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/senlab.png'/></div>",
+					"<div class='org-name'>SenLab</div>",
+					"<div class='membership-type'>Gold</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://senlab.io/' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[14.481467,46.076298]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
 				"name": "Sensative",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/sensative.png'/></div>",
