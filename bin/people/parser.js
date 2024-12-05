@@ -5,13 +5,16 @@ const Prettier = require('prettier');
 const Parser = require('../dataParser');
 const Sorter = require('../sort');
 const Template = require('../template');
+const Downloader = require('../downloader');
 const _ = require('underscore');
 
 const Static = require('./staticData');
 
 const TEMPLATE_PATH = 'bin/people/';
 const PEOPLE_DIR = 'directories/people';
-const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/people/images/ico_user.png';
+const ASSETS_DIR = 'directories/people/images/200px';
+const IMAGE_SIZE  = {height: 200, width: 200};
+const DEFAULT_IMAGE = '../ico_user.png';
 
 /**
  * Take the human readable column names from the spreadsheet and create a
@@ -24,7 +27,7 @@ function extractPeople(input, all = false) {
             title: Parser.trim(item.Title).trim(),
             name: item['Full Name'].trim(),
             surname: item['Surname Filters'],
-            img: item['Profile Picture'] ? item['Profile Picture'].trim() : DEFAULT_IMAGE,
+            image: item['Profile Picture'] ? item['Profile Picture'].trim() : DEFAULT_IMAGE,
             company: item.Company || item.Organization || item.Organisation,
             companyType: item['Legal Form'] || '',
             domain: item.Domain,
@@ -52,6 +55,7 @@ function extractPeople(input, all = false) {
             if (person.companyType !== '') {
                 person.companyType = ` ${person.companyType.trim()}`;
             }
+            person.img = 'https://www.fiware.org/wp-content/' + path.join(ASSETS_DIR, person.image);
             people.push(person);
         }
     });
@@ -66,6 +70,19 @@ function extractPeople(input, all = false) {
     return people.sort((a, b) => {
         return a.surname.localeCompare(b.surname);
     });
+}
+
+function uploadImages(people) {
+    return Downloader.checkImages(people)
+        .then((missingImages) => {
+            Downloader.logMissing(missingImages);
+            return Downloader.validateUploads(missingImages);
+        })
+        .then((uploads) => {
+            Downloader.uploadImages(uploads, path.join( 'assets', ASSETS_DIR), IMAGE_SIZE);
+            Downloader.logUploads(uploads);
+            return uploads;
+        });
 }
 
 function generateHTML(people, page) {
@@ -132,6 +149,11 @@ function parse(file, page) {
         })
         .then((people) => {
             return generateHTML(people, page);
+        })
+        .then((people) => {
+            uploadImages(people).then(() => {
+                return people;
+            });
         })
         .catch((e) => {
             console.log(e);
