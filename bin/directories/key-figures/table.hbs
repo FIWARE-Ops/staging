@@ -1,6 +1,14 @@
-{{#each this}}
-<div class="card">
- <div class="md-figure-name"><h5>{{name}}</h5></div>
- <div class="md-value--large">{{value}}</div>
+<div class="list-people">
+    {{#each this}}
+        <div class="lp-item-container">
+            <div class="md-figure-name">{{name}}</div>
+            <div class="md-value--small">{{job}}</div>
+            {{#if source}}
+            <div class="md-figure-source">{{source}}</div>
+            {{/if}}
+            {{#if owner}}
+            <div class="md-figure-source">{{owner}}</div>
+            {{/if}}
+        </div>
+    {{/each}}
 </div>
-{{/each}}
