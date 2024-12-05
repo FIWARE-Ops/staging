@@ -5,6 +5,7 @@ const fs = require('fs-extra');
 const csv = require('csvtojson');
 const path = require('path');
 const sharp = require('sharp');
+const _ = require('underscore');
 
 const UPLOAD = process.env.UPLOAD ? new RegExp(`${process.env.UPLOAD}.*`, 'ig') : null;
 const DOWNLOAD = process.env.DOWNLOAD ? new RegExp(`${process.env.DOWNLOAD}.*`, 'ig') : null;
@@ -114,10 +115,16 @@ async function checkAssets(items, image = 'img', base = 'image') {
     const missing = [];
     let count = 0;
 
-    console.log(`Checking ${items.length} ${base}s`);
-    console.log();
+    const obj = {};
+
     for (const item of items) {
-        let value = await urlExists(item[image], item[base]);
+        obj[item[base]] = item[image]
+    }
+    const uniqueItems = _.pairs(obj) 
+    console.log(`Checking ${uniqueItems.length} ${base}s`);
+    console.log();
+    for (const item of uniqueItems) {
+        let value = await urlExists(item[1], item[0]);
         if (value) {
             missing.push(value);
         }

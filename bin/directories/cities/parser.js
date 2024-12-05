@@ -5,10 +5,14 @@ const Prettier = require('prettier');
 const Parser = require('../../dataParser');
 const Sorter = require('../../sort');
 const Template = require('../../template');
+const Downloader = require('../../downloader');
 const TEMPLATE_PATH = 'bin/directories/cities/';
 const CITIES_DIR = 'directories/cities';
+const FLAGS_DIR = 'directories/people/images/flag';
+
 const Community = require('../community/parser');
 
+const FLAG_SIZE  = {height: 120, width: 120};
 const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/cities/images/city-default.png';
 
 function getExcerpt(item) {
@@ -25,7 +29,7 @@ function trunc(value) {
  * Take the human readable column names from the spreadsheet and create a
  * data object of cities for later use
  */
-function extractcities(input) {
+function extractCities(input) {
     const cities = [];
     input.forEach((item) => {
         const city = {
@@ -59,6 +63,7 @@ function extractcities(input) {
         city.social = `/wp-content/directories/cities/${filename}.html`;
 
         if (city.publish) {
+            city.flagUrl = 'https://www.fiware.org/wp-content/' + path.join(FLAGS_DIR, city.flag);
             cities.push(city);
         }
     });
@@ -72,6 +77,19 @@ function extractcities(input) {
     return cities.sort((a, b) => {
         return (String(a.country) + String(a.city)).localeCompare(String(b.country) + String(b.city));
     });
+}
+
+function uploadFlags(cities) {
+    return Downloader.checkImages(cities, 'flagUrl', 'flag')
+        .then((missingImages) => {
+            Downloader.logMissing(missingImages);
+            return Downloader.validateUploads(missingImages);
+        })
+        .then((uploads) => {
+            Downloader.uploadImages(uploads, path.join( 'assets', FLAGS_DIR), FLAG_SIZE);
+            Downloader.logUploads(uploads);
+            return uploads;
+        });
 }
 
 function generateHTML(cities) {
@@ -126,10 +144,15 @@ function parse(file) {
     return csv()
         .fromFile(file)
         .then((input) => {
-            return extractcities(input);
+            return extractCities(input);
         })
         .then((cities) => {
             return generateHTML(cities);
+        })
+        .then((cities) => {
+            return uploadFlags(cities).then(() => {
+                return cities;
+            })
         })
         .catch((e) => {
             console.log(e);
