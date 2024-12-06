@@ -4,7 +4,7 @@ const Cities = require('./directories/cities/parser');
 const Domains = require('./directories/domains/parser');
 const Enablers = require('./directories/enablers/parser');
 const Events = require('./directories/events/parser');
-const Figures = require('./directories/directory-figures/parser');
+const DirectoryFigures = require('./directories/directory-figures/parser');
 const ImpactStories = require('./directories/impact-stories/parser');
 const iHubs = require('./directories/ihubs/parser');
 const MainFigures = require('./directories/main-figures/parser');
@@ -98,9 +98,9 @@ switch (PROCESS) {
         });
         break;
     // Create HTML for key figures
-    case 'figures':
-        Loader.load('figures', Figures.file).then(() => {
-            return Figures.parse(Figures.file);
+    case 'directory-figures':
+        Loader.load('directory-figures', DirectoryFigures.file).then(() => {
+            return DirectoryFigures.parse(DirectoryFigures.file);
         });
         break;
     // Create HTML and template files for the impact stories
@@ -164,7 +164,7 @@ switch (PROCESS) {
         touch(PRODUCTS_SUMMARY_FILE);
         touch(Domains.file);
         touch(Enablers.file);
-        touch(Figures.file);
+        touch(DirectoryFigures.file);
         touch(ImpactStories.file);
         touch(iHubs.file);
         touch(MainFigures.file);

@@ -9,7 +9,7 @@ const PEOPLE_ASSETS_DIR = 'directories/people/images/200px';
  * Take the human readable column names from the spreadsheet and create a
  * data object of key figures for later use
  */
-function extractFigures(input) {
+function extractDirectoryFigures(input) {
     const dfigures = [];
     input.forEach((item) => {
         const figure = {
@@ -26,10 +26,10 @@ function extractFigures(input) {
     });
 
     if (dfigures.length === 0) {
-        console.error('ERROR: No figures uploaded.');
+        console.error('ERROR: No directory figures uploaded.');
         process.exit(1);
     }
-    console.log(figures.length, ' figures generated.');
+    console.log(dfigures.length, ' directory figures generated.');
     return dfigures;
 }
 
@@ -41,7 +41,7 @@ function parse(file) {
     return csv()
         .fromFile(file)
         .then((input) => {
-            return extractFigures(input);
+            return extractDirectoryFigures(input);
         })
         .then((dfigures) => {
             Template.write(
