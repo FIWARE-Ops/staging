@@ -20,9 +20,9 @@ var selectedDomain = "*";
 
 function getDate() {
   const date = new Date();
-  date.setMonth(date.getMonth() + 1);
+  date.setMonth(date.getMonth());
   return new Number(
-    date.toISOString().split("T")[0].replaceAll("-", "").substring(0, 6) - 1,
+    date.toISOString().split("T")[0].replaceAll("-", "").substring(0, 6)
   );
 }
 
@@ -96,8 +96,7 @@ function initSelect() {
     msnry.arrange({ sortBy: "original-order" });
   });
 
-  $(`#filterMonth option[value="${selectedMonth}"]`).prop("selected", true);
-
+  
   msnry = new Isotope(".grid", {
     itemSelector: ".grid-item",
     layoutMode: "fitRows",
@@ -106,6 +105,9 @@ function initSelect() {
       columnWidth: ".grid-sizer",
     },
   });
+
+  $(`#filterMonth option[value="${selectedMonth}"]`).prop("selected", true);
+
 
   initTextSearch(msnry);
 }
