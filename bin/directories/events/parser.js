@@ -266,11 +266,11 @@ function parse(eventsFile, speakersFile) {
                 .then((events) => {
                     return generateHTML(events, activeSpeakers);
                 })
-                /*.then((events) => {
-                    uploadImages(events).then(() => {
+                .then((events) => {
+                    return uploadImages(events).then(() => {
                         return events;
                     });
-                })*/
+                })
                 .then((events) => {
                     return uploadFlags(events).then(() => {
                         return events;

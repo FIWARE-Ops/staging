@@ -210,10 +210,20 @@ window.eventData = [
         "group": "Conference"
     },
     {
+        "id": "202412-water-knowledge-europe-2024",
+        "title": "Water Knowledge Europe 2024",
+        "from": "2024-12-10T07:00:00.000Z",
+        "to": "2025-03-15T16:00:00.000Z",
+        "description": "Join Water Knowledge Europe: network, explore Horizon Europe funding, and build project partnerships.",
+        "location": "BluePoint Brussels A. Reyers Ln 80 - 1030 ",
+        "isAllDay": false,
+        "group": "Conference"
+    },
+    {
         "id": "202503-data-spaces-symposium-2025",
         "title": "Data Spaces Symposium 2025",
         "from": "2025-03-11T23:00:00.000Z",
-        "to": "2025-03-13T23:00:00.000Z",
+        "to": "2024-12-11T23:00:00.000Z",
         "description": "The Data Spaces Symposium 2025 will highlight the value of data sharing in Europe and beyond, unlocking business opportunities, and boosting the impact and market adoption.",
         "location": "Hilton Warsaw City Grzybowska 63, 00-844 ",
         "isAllDay": true,
