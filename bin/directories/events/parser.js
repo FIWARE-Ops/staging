@@ -102,6 +102,38 @@ function uploadFlags(events) {
         });
 }
 
+function validateEvents(events) {
+    console.log(`Checking ${events.length} events`);
+    for (const event of events) {
+        if (!event.online) {
+            if (event.venueName === '') {
+                console.log(`DATA MISMATCH: Missing Venue: ${event.title}`);
+            }
+            if (event.venueAddress === '') {
+                console.log(`DATA MISMATCH: Missing Address: ${event.title}`);
+            }
+            if (event.venueLink === '') {
+                console.log(`DATA MISMATCH: Missing Venue Link: ${event.title}`);
+            }
+            if (event.city === '') {
+                console.log(`DATA MISMATCH: Missing City: ${event.title}`);
+            }
+            if (event.country === '') {
+                console.log(`DATA MISMATCH: Missing Country: ${event.title}`);
+            }
+            if (event.flag === '') {
+                console.log(`DATA MISMATCH: Missing Flag: ${event.title}`);
+            }
+            if (event.latitude === '') {
+                console.log(`DATA MISMATCH: Missing Latitude: ${event.title}`);
+            }
+            if (event.longitude === '') {
+                console.log(`DATA MISMATCH: Missing Longitude: ${event.title}`);
+            }
+        }
+    }
+}
+
 /**
  * Take the human readable column names from the spreadsheet and create a
  * data object of each project for later use
@@ -265,6 +297,10 @@ function parse(eventsFile, speakersFile) {
                 })
                 .then((events) => {
                     return generateHTML(events, activeSpeakers);
+                })
+                .then((events) => {
+                    validateEvents(events);
+                    return events;
                 })
                 .then((events) => {
                     return uploadImages(events).then(() => {
