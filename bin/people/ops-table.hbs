@@ -5,21 +5,25 @@
 {{#each this}}
     {{#if (eq department 'Operations')}}
     <div class="lp-item-container">
-        <img alt='' class='lp-item-pic' src='{{img}}' loading='lazy' />
-        <div class="lp-item-name">{{name}}</div>
-        <div class="lp-item-role">{{job}}</div>
-        <div class="lp-item-team">{{team}}</div>
-        <div class="lp-item-contacts">
-            {{#if email}}
-                <div class="cat-email">{{email}}</div>
-            {{/if}}
-            {{#if linkedIn}}
-            <div class="cat-linkedin">
-                <a target='_blank' href='{{linkedIn}}' rel='noopener'>
-                    <span class='icon linkedin'></span>
-                </a>
+        <div class="lp-item">
+            <img alt='' class='lp-item-pic' src='{{img}}' loading='lazy' />
+            <div class="lp-item-name">{{name}}</div>
+        </div>
+        <div class="lp-item-attributes">
+            <div class="lp-item-role">{{job}}</div>
+            <div class="lp-item-team">{{team}}</div>
+            <div class="lp-item-contacts">
+                {{#if email}}
+                    <div class="cat-email">{{email}}</div>
+                {{/if}}
+                {{#if linkedIn}}
+                <div class="cat-linkedin">
+                    <a target='_blank' href='{{linkedIn}}' rel='noopener'>
+                        <span class='icon linkedin'></span>
+                    </a>
+                </div>
+                {{/if}}
             </div>
-            {{/if}}
         </div>
     {{/if}}
     </div>
