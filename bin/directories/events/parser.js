@@ -193,6 +193,59 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
     return events;
 }
 
+function generateHTML(events, activeSpeakers) {
+    const eventsByMonth = getEventsByMonth(events);
+    const people = _.uniq(activeSpeakers);
+    const types = _.uniq(
+        _.map(events, (event) => {
+            return event.type;
+        })
+    );
+    const categories = _.uniq(
+        _.flatten(
+            _.map(events, (event) => {
+                return event.category;
+            })
+        )
+    );
+
+    const featuredEvents = getFeaturedEvents(types, categories, events);
+    const filterData = {
+        people,
+        events
+    };
+
+    Template.clean(path.join(EVENTS_DIR));
+
+    Template.write(path.join(EVENTS_DIR, 'events.html'), path.join(TEMPLATE_PATH, 'card.hbs'), {
+        months: eventsByMonth
+    });
+
+    Template.write(path.join(EVENTS_DIR, 'filters.html'), path.join(TEMPLATE_PATH, 'filter.hbs'), {
+        months: getSixMonths(eventsByMonth),
+        types,
+        categories
+    });
+
+    Template.write(
+        path.join(EVENTS_DIR, 'event-details/pageData.js'),
+        path.join(TEMPLATE_PATH, 'details.hbs'),
+        filterData
+    );
+    Template.write(
+        path.join(EVENTS_DIR, 'event-details/featured.html'),
+        path.join(TEMPLATE_PATH, 'recent.hbs'),
+        featuredEvents
+    );
+
+    Template.write(path.join(EVENTS_DIR, '/pageData.js'), path.join(TEMPLATE_PATH, 'modal.hbs'), filterData);
+
+    Prettier.format(path.join(EVENTS_DIR, 'events.html'), { parser: 'html' });
+    Prettier.format(path.join(EVENTS_DIR, 'pageData.js'), { parser: 'flow' });
+    Prettier.format(path.join(EVENTS_DIR, 'event-details/pageData.js'), { parser: 'flow' });
+    return events;
+}
+
 /**
  * Read in the careers file and output
  * HTML and JavaScript files
@@ -211,59 +264,17 @@ function parse(eventsFile, speakersFile) {
                     return extractAgenda(input, allSpeakers, activeSpeakers, eventDates);
                 })
                 .then((events) => {
-                    const eventsByMonth = getEventsByMonth(events);
-                    const people = _.uniq(activeSpeakers);
-                    const types = _.uniq(
-                        _.map(events, (event) => {
-                            return event.type;
-                        })
-                    );
-                    const categories = _.uniq(
-                        _.flatten(
-                            _.map(events, (event) => {
-                                return event.category;
-                            })
-                        )
-                    );
-
-                    const featuredEvents = getFeaturedEvents(types, categories, events);
-                    const filterData = {
-                        people,
-                        events
-                    };
-
-                    Template.clean(path.join(EVENTS_DIR));
-
-                    Template.write(path.join(EVENTS_DIR, 'events.html'), path.join(TEMPLATE_PATH, 'card.hbs'), {
-                        months: eventsByMonth
+                    return generateHTML(events, activeSpeakers);
+                })
+                /*.then((events) => {
+                    uploadImages(events).then(() => {
+                        return events;
                     });
-
-                    Template.write(path.join(EVENTS_DIR, 'filters.html'), path.join(TEMPLATE_PATH, 'filter.hbs'), {
-                        months: getSixMonths(eventsByMonth),
-                        types,
-                        categories
+                })*/
+                .then((events) => {
+                    return uploadFlags(events).then(() => {
+                        return events;
                     });
-
-                    Template.write(
-                        path.join(EVENTS_DIR, 'event-details/pageData.js'),
-                        path.join(TEMPLATE_PATH, 'details.hbs'),
-                        filterData
-                    );
-                    Template.write(
-                        path.join(EVENTS_DIR, 'event-details/featured.html'),
-                        path.join(TEMPLATE_PATH, 'recent.hbs'),
-                        featuredEvents
-                    );
-
-                    Template.write(
-                        path.join(EVENTS_DIR, '/pageData.js'),
-                        path.join(TEMPLATE_PATH, 'modal.hbs'),
-                        filterData
-                    );
-
-                    Prettier.format(path.join(EVENTS_DIR, 'events.html'), { parser: 'html' });
-                    Prettier.format(path.join(EVENTS_DIR, 'pageData.js'), { parser: 'flow' });
-                    Prettier.format(path.join(EVENTS_DIR, 'event-details/pageData.js'), { parser: 'flow' });
                 })
                 .catch((e) => {
                     console.log(e);
