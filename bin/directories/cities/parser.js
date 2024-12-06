@@ -11,7 +11,12 @@ const CITIES_DIR = 'directories/cities';
 const FLAGS_DIR = 'directories/people/images/flag';
 
 const Community = require('../community/parser');
+const THUMBS_DIR = 'directories/cities/images/thumb';
+const IMAGES_DIR = 'directories/cities/images/cover';
+const LOGOS_DIR = 'directories/cities/logo';
 
+const THUMB_SIZE = { height: 179, width: 320 };
+const IMAGE_SIZE = { height: 670, width: 1199 };
 const FLAG_SIZE = { height: 120, width: 120 };
 const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/cities/images/city-default.png';
 
@@ -34,9 +39,9 @@ function extractCities(input) {
     input.forEach((item) => {
         const city = {
             city: item.City,
-            img: item.Cover ? item.Cover : undefined,
-            thumb: item.Thumb ? item.Thumb : DEFAULT_IMAGE,
-            logo: item.Logo ? item.Logo : DEFAULT_IMAGE,
+            image: item.Cover ? item.Cover : '',
+            thumb: item.Thumb ? item.Thumb : '',
+            logo: item.Logo ? item.Logo : '',
             domain: Parser.splitStrings(item.Domain),
             type: item.Region,
             country: item.Country,
@@ -64,6 +69,9 @@ function extractCities(input) {
 
         if (city.publish) {
             city.flagUrl = 'https://www.fiware.org/wp-content/' + path.join(FLAGS_DIR, city.flag);
+            city.thumbnail = 'https://www.fiware.org/wp-content/' + path.join(THUMBS_DIR, city.thumb);
+            city.img = 'https://www.fiware.org/wp-content/' + path.join(IMAGES_DIR, city.image);
+            city.logoUrl = 'https://www.fiware.org/wp-content/' + path.join(LOGOS_DIR, city.logo);
             cities.push(city);
         }
     });
@@ -77,6 +85,45 @@ function extractCities(input) {
     return cities.sort((a, b) => {
         return (String(a.country) + String(a.city)).localeCompare(String(b.country) + String(b.city));
     });
+}
+
+function uploadImages(cities) {
+    return Downloader.checkImages(cities, 'img', 'image')
+        .then((missingImages) => {
+            Downloader.logMissing(missingImages);
+            return Downloader.validateUploads(missingImages);
+        })
+        .then((uploads) => {
+            Downloader.uploadImages(uploads, path.join('assets', IMAGES_DIR), IMAGE_SIZE);
+            Downloader.logUploads(uploads);
+            return uploads;
+        });
+}
+
+function uploadThumbnails(cities) {
+    return Downloader.checkImages(cities, 'thumbnail', 'thumb')
+        .then((missingImages) => {
+            Downloader.logMissing(missingImages);
+            return Downloader.validateUploads(missingImages);
+        })
+        .then((uploads) => {
+            Downloader.uploadImages(uploads, path.join('assets', THUMBS_DIR), THUMB_SIZE);
+            Downloader.logUploads(uploads);
+            return uploads;
+        });
+}
+
+function uploadLogos(cities) {
+    return Downloader.checkImages(cities, 'logoUrl', 'logo')
+        .then((missingImages) => {
+            Downloader.logMissing(missingImages);
+            return Downloader.validateUploads(missingImages);
+        })
+        .then((uploads) => {
+            Downloader.uploadImages(uploads, path.join('assets', LOGOS_DIR));
+            Downloader.logUploads(uploads);
+            return uploads;
+        });
 }
 
 function uploadFlags(cities) {
@@ -148,6 +195,21 @@ function parse(file) {
         })
         .then((cities) => {
             return generateHTML(cities);
+        })
+        .then((cities) => {
+            return uploadImages(cities).then(() => {
+                return cities;
+            });
+        })
+        .then((cities) => {
+            return uploadThumbnails(cities).then(() => {
+                return cities;
+            });
+        })
+        .then((cities) => {
+            return uploadLogos(cities).then(() => {
+                return cities;
+            });
         })
         .then((cities) => {
             return uploadFlags(cities).then(() => {
