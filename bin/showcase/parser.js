@@ -328,17 +328,19 @@ async function generateContent(optIn, products, dir, category){
         const hash = Parser.getHash(item.company, item.name);
         return hash;
     })
+    console.log('Generating Premium Content');
 
     for (const item of _.pairs(products)) {
         if (hashes.includes(item[0])){
             let text = await Downloader.getTextContent(item[1]);
 
-            const filename =  path.join(__dirname, '../../marketplace/', dir, `texts/${item[0]}.html`)
+            const filename =  path.join(__dirname, `../../marketplace/texts/${item[0]}.html`)
             fs.writeFile(filename, text, function (err) {
                 if (err) return console.log(err);
             });
         }
     }
+    console.log();
 
 }
 
