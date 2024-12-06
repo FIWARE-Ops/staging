@@ -113,6 +113,7 @@ function parse(file) {
             return generateHTML(tools);
         })
         .then((tools) => {
+            Downloader.emptyAssets();
             return uploadImages(tools).then(() => {
                 return tools;
             });

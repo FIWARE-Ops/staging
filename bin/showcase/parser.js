@@ -427,6 +427,7 @@ function parse(detailsFile, summaryFile) {
                     return generateHTML(allProducts, summaryInfo);
                 })
                 .then((summaryInfo) => {
+                    Downloader.emptyAssets();
                     return uploadImages(summaryInfo).then(() => {
                         return summaryInfo;
                     });

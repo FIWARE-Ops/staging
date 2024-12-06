@@ -135,6 +135,7 @@ function parse(file) {
             return generateHTML(iHubs);
         })
         .then((iHubs) => {
+            Downloader.emptyAssets();
             return uploadImages(iHubs).then(() => {
                 return iHubs;
             });

@@ -138,15 +138,16 @@ async function checkAssets(items, image = 'img', base = 'image') {
     return missing;
 }
 
-function uploadImages(items, filepath, dimensions) {
+function emptyAssets(){
     fs.rmSync(path.join(__dirname, '../assets'), { recursive: true, force: true });
+}
+function uploadImages(items, filepath, dimensions) {
     items.forEach((item) => {
         uploadAsset(item, filepath, dimensions, true);
     });
 }
 
 function uploadAssets(items, filepath) {
-    fs.rmSync(path.join(__dirname, '../assets'), { recursive: true, force: true });
     items.forEach((item) => {
         uploadAsset(item, filepath, null, false);
     });
@@ -277,6 +278,7 @@ exports.logUploads = logUploads;
 exports.validateUploads = validateUploads;
 exports.uploadImages = uploadImages;
 exports.uploadAssets = uploadAssets;
+exports.emptyAssets = emptyAssets;
 exports.checkImages = checkAssets;
 exports.checkAssets = checkAssets;
 exports.load = loadCSV;
