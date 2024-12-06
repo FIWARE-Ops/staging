@@ -328,12 +328,12 @@ function createSocialMedia(products, dir, category) {
     Template.write(path.join('marketplace', dir, `sitemap.xml`), path.join(TEMPLATE_PATH, 'sitemap-xml.hbs'), products);
 }
 
-async function generateContent(optIn, products, dir, category){
+async function generateContent(optIn, products, type){
     const hashes = _.map(optIn, (item)=>{
         const hash = Parser.getHash(item.company, item.name);
         return hash;
     })
-    console.log('Generating Premium Content');
+    console.log(`Generating Premium Content for ${type}`);
 
     for (const item of _.pairs(products)) {
         if (hashes.includes(item[0])){
@@ -455,17 +455,36 @@ function parse(detailsFile, summaryFile) {
                     return generateHTML(allProducts, summaryInfo);
                 })
                 .then((summaryInfo) => {
-                    if(!GEN_CONTENT){
-                       return summaryInfo; 
-                    }
-                    return  generateContent(
+                    return GEN_CONTENT ? generateContent(
                         _.where(summaryInfo.powered, { fiwareMember: true }),
-                        allProducts.details.powered, 
-                        'powered-by-fiware/', 
-                        'powered')
+                        allProducts.details.powered, 'products')
                         .then(() => {
                             return summaryInfo;
-                        });
+                        }): summaryInfo;
+                })
+                .then((summaryInfo) => {
+                    return GEN_CONTENT ? generateContent(
+                        _.where(summaryInfo.ready, { fiwareMember: true }),
+                        allProducts.details.ready, 'devices')
+                        .then(() => {
+                            return summaryInfo;
+                        }): summaryInfo;
+                })
+                .then((summaryInfo) => {
+                    return GEN_CONTENT ? generateContent(
+                        _.where(summaryInfo.services, { fiwareMember: true }),
+                        allProducts.details.services, 'services')
+                        .then(() => {
+                            return summaryInfo;
+                        }): summaryInfo;
+                })
+                .then((summaryInfo) => {
+                    return GEN_CONTENT ? generateContent(
+                        _.where(summaryInfo.cities, { fiwareMember: true }),
+                        allProducts.details.cities, 'cities')
+                        .then(() => {
+                            return summaryInfo;
+                        }): summaryInfo;
                 })
                 
                 .then((summaryInfo) => {
