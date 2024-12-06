@@ -97,10 +97,16 @@ switch (PROCESS) {
             return MainFigures.parse(MainFigures.file);
         });
         break;
-    // Create HTML for key figures
+    // Create HTML for directory figures
     case 'directory-figures':
         Loader.load('directory-figures', DirectoryFigures.file).then(() => {
             return DirectoryFigures.parse(DirectoryFigures.file);
+        });
+        break;
+    // Create HTML for people figures
+    case 'people-figures':
+        Loader.load('people-figures', PeopleFigures.file).then(() => {
+            return PeopleFigures.parse(PeopleFigures.file);
         });
         break;
     // Create HTML and template files for the impact stories
