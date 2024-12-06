@@ -7,10 +7,12 @@
     <div class="lp-item-container">
         <div class="lp-item">
             <img alt='' class='lp-item-pic' src='{{img}}' loading='lazy' />
-            <div class="lp-item-name">{{name}}</div>
+            <div class="lp-item-info">
+                <div class="lp-item-name">{{name}}</div>
+                <div class="lp-item-role">{{job}}</div>
+            </div>
         </div>
         <div class="lp-item-attributes">
-            <div class="lp-item-role">{{job}}</div>
             <div class="lp-item-team">{{team}}</div>
             <div class="lp-item-contacts">
                 {{#if email}}
