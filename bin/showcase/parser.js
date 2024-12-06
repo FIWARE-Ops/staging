@@ -9,6 +9,8 @@ const TEMPLATE_PATH = 'bin/showcase/';
 const IMAGES_DIR = 'marketplace/images';
 const fs = require('fs');
 
+const GEN_CONTENT = !!process.env.GEN_CONTENT || false;
+
 let productDetails;
 
 const docFields = ['Tech Documentation', 'Doc 2', 'Doc 3', ' Doc 4', 'Doc 5'];
@@ -321,6 +323,25 @@ function createSocialMedia(products, dir, category) {
     Template.write(path.join('marketplace', dir, `sitemap.xml`), path.join(TEMPLATE_PATH, 'sitemap-xml.hbs'), products);
 }
 
+async function generateContent(optIn, products, dir, category){
+    const hashes = _.map(optIn, (item)=>{
+        const hash = Parser.getHash(item.company, item.name);
+        return hash;
+    })
+
+    for (const item of _.pairs(products)) {
+        if (hashes.includes(item[0])){
+            let text = await Downloader.getTextContent(item[1]);
+
+            const filename =  path.join(__dirname, '../../marketplace/', dir, `texts/${item[0]}.html`)
+            fs.writeFile(filename, text, function (err) {
+                if (err) return console.log(err);
+            });
+        }
+    }
+
+}
+
 function generateHTML(allProducts, summaryInfo) {
     if (fs.existsSync('marketplace')) {
         Template.cleanDir('marketplace/powered-by-fiware/');
@@ -426,6 +447,20 @@ function parse(detailsFile, summaryFile) {
                 .then((summaryInfo) => {
                     return generateHTML(allProducts, summaryInfo);
                 })
+                .then((summaryInfo) => {
+                    if(!GEN_CONTENT){
+                       return summaryInfo; 
+                    }
+                    return  generateContent(
+                        _.where(summaryInfo.powered, { fiwareMember: true }),
+                        allProducts.details.powered, 
+                        'powered-by-fiware/', 
+                        'powered')
+                        .then(() => {
+                            return summaryInfo;
+                        });
+                })
+                
                 .then((summaryInfo) => {
                     Downloader.emptyAssets();
                     return uploadImages(summaryInfo).then(() => {
