@@ -3,7 +3,7 @@ const path = require('path');
 const Prettier = require('prettier');
 const Template = require('../../template');
 const TEMPLATE_PATH = 'bin/directories/people-figures/';
-const FIGURES_DIR = 'directories/people-figures';
+const PEOPLE_FIGURES_DIR = 'directories/people-figures';
 const PEOPLE_ASSETS_DIR = 'directories/people/images/200px';
 /**
  * Take the human readable column names from the spreadsheet and create a
@@ -45,11 +45,11 @@ function parse(file) {
         })
         .then((pfigures) => {
             Template.write(
-                path.join('welcome', FIGURES_DIR, 'people-figures.html'),
+                path.join('welcome', PEOPLE_FIGURES_DIR, 'people-figures.html'),
                 path.join(TEMPLATE_PATH, 'table.hbs'),
                 pfigures
             );
-            Prettier.format(path.join('welcome', FIGURES_DIR, 'people-figures.html'), { parser: 'html' });
+            Prettier.format(path.join('welcome', PEOPLE_FIGURES_DIR, 'people-figures.html'), { parser: 'html' });
         })
         .catch((e) => {
             console.log(e);
