@@ -27,6 +27,7 @@
     "events": "PROCESS=events PAGE=speakers npm start",
     "fisab": "PROCESS=people PAGE=fisab npm start",
     "directory-figures": "PROCESS=directory-figures npm start",
+    "people-figures": "PROCESS=people-figures npm start",
     "enablers": "PROCESS=enablers npm start",
     "ihubs": "PROCESS=iHubs npm start",
     "iHubs": "PROCESS=iHubs npm start",
