@@ -2,16 +2,17 @@ const csv = require('csvtojson');
 const _ = require('underscore');
 const Prettier = require('prettier');
 const Parser = require('../dataParser');
+const Downloader = require('../downloader');
 const Template = require('../template');
 const CATEGORIES = ['powered', 'ready', 'services', 'cities'];
 const TEMPLATE_PATH = 'bin/showcase/';
+const IMAGES_DIR = 'marketplace/images';
 const fs = require('fs');
 
 let productDetails;
 
 const docFields = ['Tech Documentation', 'Doc 2', 'Doc 3', ' Doc 4', 'Doc 5'];
 const mediaFields = ['Media', 'Media 2', 'Media 3', 'Media 4', 'Media 5'];
-
 const refFields = ['Reference Material', 'Material 2', 'Material 3', 'Material 4', 'Material 5'];
 
 const path = require('path');
@@ -240,6 +241,41 @@ function relatedProducts(product, allCategories, category) {
     }
 }
 
+
+function tempArray (summaryInfo){
+    arr = [];
+    _.each(summaryInfo.powered, (item)=>{
+        arr.push({img : item.img, image: path.basename(item.img)})
+    });
+    _.each(summaryInfo.ready, (item)=>{
+        arr.push({img : item.img, image: path.basename(item.img)})
+    });
+    _.each(summaryInfo.services, (item)=>{
+        arr.push({img : item.img, image: path.basename(item.img)})
+    });
+    _.each(summaryInfo.cities, (item)=>{
+        arr.push({img : item.img, image: path.basename(item.img)})
+    });
+    
+    return arr;
+}
+
+function uploadImages(summaryInfo) {
+
+    const items = tempArray (summaryInfo);
+
+    return Downloader.checkImages(items, 'img', 'image')
+        .then((missingImages) => {
+            Downloader.logMissing(missingImages);
+            return Downloader.validateUploads(missingImages);
+        })
+        .then((uploads) => {
+            Downloader.uploadImages(uploads, path.join('assets', IMAGES_DIR));
+            Downloader.logUploads(uploads);
+            return uploads;
+        });
+}
+
 function findProduct(hash, category) {
     const product = productDetails.details[category][hash];
 
@@ -385,10 +421,18 @@ function parse(detailsFile, summaryFile) {
                         console.error('ERROR: No Devices Generated.');
                         process.exit(1);
                     }
-
+                    return summaryInfo;
+                })
+                .then((summaryInfo) => {
                     return generateHTML(allProducts, summaryInfo);
-                });
+                })
+                .then((summaryInfo) => {
+                    return uploadImages(summaryInfo).then(() => {
+                        return summaryInfo;
+                    });
+                })
         })
+       
         .catch((e) => {
             console.log(e);
         });
