@@ -175,6 +175,7 @@ function parse(file) {
             return generateHTML(data);
         })
         .then((stories) => {
+            Downloader.emptyAssets();
             return uploadThumbnails(stories).then(() => {
                 return stories;
             });

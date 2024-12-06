@@ -9,7 +9,7 @@ const TEMPLATE_PATH = 'bin/directories/events/';
 const EVENTS_DIR = 'directories/events-directory';
 const Downloader = require('../../downloader');
 const People = require('../../people/parser');
-const ASSETS_DIR = 'uploads';
+const ASSETS_DIR = 'directories/events-directory/images';
 const FLAGS_DIR = 'directories/people/images/flag';
 
 const IMAGE_SIZE = { height: 628, width: 1200 };
@@ -303,6 +303,7 @@ function parse(eventsFile, speakersFile) {
                     return events;
                 })
                 .then((events) => {
+                    Downloader.emptyAssets();
                     return uploadImages(events).then(() => {
                         return events;
                     });

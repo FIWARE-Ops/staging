@@ -168,6 +168,7 @@ function parse(file, page) {
             return generateHTML(people, page);
         })
         .then((people) => {
+            Downloader.emptyAssets();
             return uploadImages(people).then(() => {
                 return people;
             });

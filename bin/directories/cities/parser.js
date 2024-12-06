@@ -197,6 +197,7 @@ function parse(file) {
             return generateHTML(cities);
         })
         .then((cities) => {
+            Downloader.emptyAssets();
             return uploadImages(cities).then(() => {
                 return cities;
             });

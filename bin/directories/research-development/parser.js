@@ -185,6 +185,7 @@ function parse(file) {
             return generateHTML(projects);
         })
         .then((projects) => {
+            Downloader.emptyAssets();
             return uploadImages(projects).then(() => {
                 return projects;
             });
