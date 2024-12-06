@@ -38,10 +38,15 @@ function extractProductDetails(input) {
         process.exit(1);
     }
 
-    input.forEach((item) => {
+    for (const item of input) {
         const category = Parser.getCategory(item.Category);
         const hash = Parser.getHash(item['Organisation Name'], item['Product Name']);
-
+        let additionalText = '';
+        try {
+            const additionalText = fs.readFileSync(path.join(__dirname, `../../marketplace/texts/${hash}.html`)).toString();
+        } catch (e){
+            // Nothing
+        }
         details[category][hash] = {
             category: item.Category,
             organisationName: item['Organisation Name'],
@@ -63,7 +68,7 @@ function extractProductDetails(input) {
             docs: Parser.getLinkArray(docFields, 'Document', item),
             videos: Parser.getLinkArray(mediaFields, 'Media', item),
             materials: Parser.getLinkArray(refFields, 'Reference', item),
-
+            additionalText,
             logo: item.Logo,
             featuredImage: item['Featured Image'],
             furtherImages: ''
@@ -74,7 +79,7 @@ function extractProductDetails(input) {
                 'hero_' + item['Organisation Name'] + '_' + item['Product Name'] + path.extname(item['Featured Image']);
             images.push([file, item['Featured Image']]);
         }
-    });
+    }
 
     return { details, images };
 }
