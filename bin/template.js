@@ -184,6 +184,14 @@ function formatDateCal(date, time) {
     );
 }
 
+function webp(file) {
+    return path.format({
+        dir: path.dirname(file),
+        name: path.basename(file, path.extname(file)),
+        ext: 'webp',
+    });
+}
+
 function calendar(date, startTime, endTime) {
     return formatDateCal(date, startTime) + '/' + formatDateCal(date, endTime);
 }
@@ -218,6 +226,7 @@ Handlebars.registerHelper('math', math);
 Handlebars.registerHelper('multiline', multiline);
 Handlebars.registerHelper('longTitle', longTitle);
 Handlebars.registerHelper('calendar', calendar);
+Handlebars.registerHelper('webp', webp);
 Handlebars.registerHelper('listSpeakers', listSpeakers);
 
 Handlebars.registerHelper({
