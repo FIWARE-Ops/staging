@@ -171,6 +171,7 @@ switch (PROCESS) {
         touch(Domains.file);
         touch(Enablers.file);
         touch(DirectoryFigures.file);
+        touch(PeopleFigures.file);
         touch(ImpactStories.file);
         touch(iHubs.file);
         touch(MainFigures.file);
