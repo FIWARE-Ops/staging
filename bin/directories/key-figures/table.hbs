@@ -2,10 +2,10 @@
     {{#each this}}
         <div class="ld-item-container">
             <div class="ld-figure-name">{{name}}</div>
+            <div class="md-value--small">{{value}}</div>
             {{#if source}}
             <div class="md-figure-source">{{source}}</div>
             {{/if}}
-            <div class="md-value--small">{{value}}</div>
             {{#if owner}}
             <img alt='' class='ld-item-pic' src='{{img}}' loading='lazy' />
             <div class="ld-item-name">{{owner}}</div>
