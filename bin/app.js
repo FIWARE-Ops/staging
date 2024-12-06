@@ -97,10 +97,10 @@ switch (PROCESS) {
             return MainFigures.parse(MainFigures.file);
         });
         break;
-    // Create HTML for key figures
-    case 'figures':
-        Loader.load('figures', Figures.file).then(() => {
-            return Figures.parse(Figures.file);
+    // Create HTML for directory figures
+    case 'directory-figures':
+        Loader.load('directory-figures', DirectoryFigures.file).then(() => {
+            return DirectoryFigures.parse(DirectoryFigures.file);
         });
         break;
     // Create HTML and template files for the impact stories
@@ -164,7 +164,7 @@ switch (PROCESS) {
         touch(PRODUCTS_SUMMARY_FILE);
         touch(Domains.file);
         touch(Enablers.file);
-        touch(Figures.file);
+        touch(DirectoryFigures.file);
         touch(ImpactStories.file);
         touch(iHubs.file);
         touch(MainFigures.file);
