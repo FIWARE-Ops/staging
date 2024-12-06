@@ -149,7 +149,12 @@ function fillProduct(product) {
   wrapParagraphs("#challenge-and-context", product.challenge);
   wrapParagraphs("#references-customers", product.references);
   wrapParagraphs("#awards", product.awards);
-  $("div#additionalText").html(product.additionalText);
+  if(product.additionalText === ''){
+    $("div#additionalText").parent().parent().parent().remove();
+  } else {
+    $("div#additionalText").html(product.additionalText);
+  }
+
 
   addResources(product.docs, product.videos, product.materials);
   addRelated(product.related);
@@ -209,6 +214,7 @@ function fillProduct(product) {
 function loadProduct() {
   //document.addEventListener("DOMContentLoaded", () => {
   //  $(document).ready(function () {
+  $ = $ || jQuery;
   $.urlParam = function (name) {
     var results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
       window.location.href,
