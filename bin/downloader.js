@@ -120,7 +120,7 @@ async function checkAssets(items, image = 'img', base = 'image') {
     for (const item of items) {
         obj[item[base] || 'none'] = item[image];
     }
-    delete obj.none
+    delete obj.none;
     const uniqueItems = _.pairs(obj);
     console.log(`Checking ${uniqueItems.length} ${base}s`);
     console.log();
