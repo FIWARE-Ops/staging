@@ -4,3 +4,4 @@ node_modules
 images/
 welcome/
 !images/.gitkeep
+secrets
