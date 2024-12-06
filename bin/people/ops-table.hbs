@@ -1,38 +1,35 @@
 <div class="list-people">
-    <div class="lp-head">
-        <div>Name</div><div>Job Title</div><div>eMail</div><div>LinkedIn</div>
-    </div>
-{{#each this}}
-    {{#if (eq department 'Operations')}}
-    <div class="lp-item-container">
-        <div class="lp-item">
-            <img alt='' class='lp-item-pic' src='{{img}}' loading='lazy' />
-            <div class="lp-item-info">
-                <div class="lp-item-name">{{name}}</div>
-                <div class="lp-item-role">{{job}}</div>
-            </div>
-        </div>
-        <div class="lp-item-attributes">
-            <div class="lp-item-team">
-                <div class="chip">{{team}}</div>
-            </div>
-            <div class="lp-item-contacts">
-                {{#if email}}
-                    <div class="cat-email">
-                        <div class="email-address">{{email}}</div>
-                        <a class="md-clipboard md-icon" href="mailto:{{email}}"></a>
-                    </div>
-                {{/if}}
-                {{#if linkedIn}}
-                <div class="cat-linkedin">
-                    <a target='_blank' href='{{linkedIn}}' rel='noopener'>
-                        <span class='icon linkedin'></span>
-                    </a>
+    {{#each this}}
+        {{#if (eq department 'Operations')}}
+        <div class="lp-item-container">
+            <div class="lp-item">
+                <img alt='' class='lp-item-pic' src='{{img}}' loading='lazy' />
+                <div class="lp-item-info">
+                    <div class="lp-item-name">{{name}}</div>
+                    <div class="lp-item-role">{{job}}</div>
                 </div>
-                {{/if}}
+            </div>
+            <div class="lp-item-attributes">
+                <div class="lp-item-team">
+                    <div class="chip">{{team}}</div>
+                </div>
+                <div class="lp-item-contacts">
+                    {{#if email}}
+                        <div class="cat-email">
+                            <div class="email-address">{{email}}</div>
+                            <a class="md-clipboard md-icon" href="mailto:{{email}}"></a>
+                        </div>
+                    {{/if}}
+                    {{#if linkedIn}}
+                    <div class="cat-linkedin">
+                        <a target='_blank' href='{{linkedIn}}' rel='noopener'>
+                            <span class='icon linkedin'></span>
+                        </a>
+                    </div>
+                    {{/if}}
+                </div>
             </div>
         </div>
-    {{/if}}
-    </div>
-{{/each}}
+        {{/if}}
+    {{/each}}
 </div>
