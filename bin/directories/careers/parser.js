@@ -10,8 +10,8 @@ const CAREERS_DIR = 'directories/careers';
 const Downloader = require('../../downloader');
 
 const ASSETS_DIR = 'directories/careers/images';
-const IMAGE_SIZE  = null;
-const DEFAULT_IMAGE = 'careers-default.svg'
+const IMAGE_SIZE = null;
+const DEFAULT_IMAGE = 'careers-default.svg';
 
 /**
  * Take the human readable column names from the spreadsheet and create a
@@ -44,7 +44,7 @@ function extractJobs(input) {
         const filename = Template.createClass(job.name);
         job.social = `/job/${filename}.html`;
         if (job.publish) {
-            job.img = 'https://www.fiware.org/wp-content/' + path.join(ASSETS_DIR, job.image); 
+            job.img = 'https://www.fiware.org/wp-content/' + path.join(ASSETS_DIR, job.image);
             jobs.push(job);
         }
     });
@@ -62,45 +62,36 @@ function extractJobs(input) {
 
 function generateHTML(jobs) {
     const filterData = {
-                types: Sorter.sortData(jobs, 'type'),
-                domains: Sorter.flatSortData(jobs, 'domain'),
-                jobs
-            };
+        types: Sorter.sortData(jobs, 'type'),
+        domains: Sorter.flatSortData(jobs, 'domain'),
+        jobs
+    };
 
-            Template.clean(path.join(CAREERS_DIR, '/job'));
+    Template.clean(path.join(CAREERS_DIR, '/job'));
 
-            Template.write(path.join(CAREERS_DIR, 'jobs.html'), path.join(TEMPLATE_PATH, 'card.hbs'), jobs);
-            Template.write(path.join(CAREERS_DIR, 'pageData.js'), path.join(TEMPLATE_PATH, 'modal.hbs'), filterData);
-            Template.write(path.join(CAREERS_DIR, 'filters.html'), path.join(TEMPLATE_PATH, 'filter.hbs'), filterData);
-            Template.write(path.join(CAREERS_DIR, 'job/pageData.js'), path.join(TEMPLATE_PATH, 'details.hbs'), jobs);
+    Template.write(path.join(CAREERS_DIR, 'jobs.html'), path.join(TEMPLATE_PATH, 'card.hbs'), jobs);
+    Template.write(path.join(CAREERS_DIR, 'pageData.js'), path.join(TEMPLATE_PATH, 'modal.hbs'), filterData);
+    Template.write(path.join(CAREERS_DIR, 'filters.html'), path.join(TEMPLATE_PATH, 'filter.hbs'), filterData);
+    Template.write(path.join(CAREERS_DIR, 'job/pageData.js'), path.join(TEMPLATE_PATH, 'details.hbs'), jobs);
 
-            Template.write(
-                path.join(CAREERS_DIR, 'job/sitemap.html'),
-                path.join(TEMPLATE_PATH, 'sitemap-html.hbs'),
-                jobs
-            );
-            Template.write(
-                path.join(CAREERS_DIR, 'job/sitemap.xml'),
-                path.join(TEMPLATE_PATH, 'sitemap-xml.hbs'),
-                jobs
-            );
+    Template.write(path.join(CAREERS_DIR, 'job/sitemap.html'), path.join(TEMPLATE_PATH, 'sitemap-html.hbs'), jobs);
+    Template.write(path.join(CAREERS_DIR, 'job/sitemap.xml'), path.join(TEMPLATE_PATH, 'sitemap-xml.hbs'), jobs);
 
-            jobs.forEach((job) => {
-                const filename = Template.createClass(job.name);
-                Template.write(
-                    path.join(CAREERS_DIR, `job/${filename}.html`),
-                    path.join(TEMPLATE_PATH, 'social-media.hbs'),
-                    job
-                );
-                Prettier.format(path.join(CAREERS_DIR, `job/${filename}.html`), { parser: 'html' });
-            });
+    jobs.forEach((job) => {
+        const filename = Template.createClass(job.name);
+        Template.write(
+            path.join(CAREERS_DIR, `job/${filename}.html`),
+            path.join(TEMPLATE_PATH, 'social-media.hbs'),
+            job
+        );
+        Prettier.format(path.join(CAREERS_DIR, `job/${filename}.html`), { parser: 'html' });
+    });
 
-            Prettier.format(path.join(CAREERS_DIR, 'jobs.html'), { parser: 'html' });
-            Prettier.format(path.join(CAREERS_DIR, 'pageData.js'), { parser: 'flow' });
-            Prettier.format(path.join(CAREERS_DIR, 'job/pageData.js'), { parser: 'flow' });
-            Prettier.format(path.join(CAREERS_DIR, 'job/sitemap.html'), { parser: 'html' });
-            return jobs;
-
+    Prettier.format(path.join(CAREERS_DIR, 'jobs.html'), { parser: 'html' });
+    Prettier.format(path.join(CAREERS_DIR, 'pageData.js'), { parser: 'flow' });
+    Prettier.format(path.join(CAREERS_DIR, 'job/pageData.js'), { parser: 'flow' });
+    Prettier.format(path.join(CAREERS_DIR, 'job/sitemap.html'), { parser: 'html' });
+    return jobs;
 }
 
 function uploadImages(jobs) {
@@ -110,7 +101,7 @@ function uploadImages(jobs) {
             return Downloader.validateUploads(missingImages);
         })
         .then((uploads) => {
-            Downloader.uploadImages(uploads, path.join( 'assets', ASSETS_DIR), IMAGE_SIZE);
+            Downloader.uploadImages(uploads, path.join('assets', ASSETS_DIR), IMAGE_SIZE);
             Downloader.logUploads(uploads);
             return uploads;
         });

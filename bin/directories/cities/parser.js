@@ -12,7 +12,7 @@ const FLAGS_DIR = 'directories/people/images/flag';
 
 const Community = require('../community/parser');
 
-const FLAG_SIZE  = {height: 120, width: 120};
+const FLAG_SIZE = { height: 120, width: 120 };
 const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/cities/images/city-default.png';
 
 function getExcerpt(item) {
@@ -86,7 +86,7 @@ function uploadFlags(cities) {
             return Downloader.validateUploads(missingImages);
         })
         .then((uploads) => {
-            Downloader.uploadImages(uploads, path.join( 'assets', FLAGS_DIR), FLAG_SIZE);
+            Downloader.uploadImages(uploads, path.join('assets', FLAGS_DIR), FLAG_SIZE);
             Downloader.logUploads(uploads);
             return uploads;
         });
@@ -152,7 +152,7 @@ function parse(file) {
         .then((cities) => {
             return uploadFlags(cities).then(() => {
                 return cities;
-            })
+            });
         })
         .catch((e) => {
             console.log(e);

@@ -10,9 +10,9 @@ const TEMPLATE_PATH = 'bin/directories/impact-stories/';
 const IMPACT_STORIES_DIR = 'directories/impact-stories';
 const ASSETS_DIR = 'uploads';
 const FLAGS_DIR = 'directories/people/images/flag';
-const THUMB_SIZE  = {height: 201, width: 360};
-const IMAGE_SIZE  = {height: 745, width: 970};
-const FLAG_SIZE  = {height: 120, width: 120};
+const THUMB_SIZE = { height: 201, width: 360 };
+const IMAGE_SIZE = { height: 745, width: 970 };
+const FLAG_SIZE = { height: 120, width: 120 };
 
 const DEFAULT_IMAGE = 'impact-story-default.png';
 
@@ -52,7 +52,7 @@ function extractStories(input) {
             impactStory.img = 'https://www.fiware.org/wp-content/' + path.join(ASSETS_DIR, impactStory.image);
             impactStory.pdfUrl = 'https://www.fiware.org/wp-content/' + path.join(ASSETS_DIR, impactStory.pdf);
             impactStory.flagUrl = 'https://www.fiware.org/wp-content/' + path.join(FLAGS_DIR, impactStory.flag);
-            
+
             impactStories.push(impactStory);
         }
         if (impactStory.featured) {
@@ -91,7 +91,7 @@ function uploadImages(impactStories) {
             return Downloader.validateUploads(missingImages);
         })
         .then((uploads) => {
-            Downloader.uploadImages(uploads, path.join( 'assets', ASSETS_DIR), IMAGE_SIZE);
+            Downloader.uploadImages(uploads, path.join('assets', ASSETS_DIR), IMAGE_SIZE);
             Downloader.logUploads(uploads);
             return uploads;
         });
@@ -104,7 +104,7 @@ function uploadThumbnails(impactStories) {
             return Downloader.validateUploads(missingImages);
         })
         .then((uploads) => {
-            Downloader.uploadImages(uploads, path.join( 'assets', ASSETS_DIR), THUMB_SIZE);
+            Downloader.uploadImages(uploads, path.join('assets', ASSETS_DIR), THUMB_SIZE);
             Downloader.logUploads(uploads);
             return uploads;
         });
@@ -117,7 +117,7 @@ function uploadFlags(impactStories) {
             return Downloader.validateUploads(missingImages);
         })
         .then((uploads) => {
-            Downloader.uploadImages(uploads, path.join( 'assets', FLAGS_DIR), FLAG_SIZE);
+            Downloader.uploadImages(uploads, path.join('assets', FLAGS_DIR), FLAG_SIZE);
             Downloader.logUploads(uploads);
             return uploads;
         });
@@ -130,14 +130,11 @@ function uploadPDFs(impactStories) {
             return Downloader.validateUploads(missingAssets);
         })
         .then((uploads) => {
-            Downloader.uploadAssets(uploads, path.join( 'assets', ASSETS_DIR), THUMB_SIZE);
+            Downloader.uploadAssets(uploads, path.join('assets', ASSETS_DIR), THUMB_SIZE);
             Downloader.logUploads(uploads);
             return uploads;
         });
 }
-
-
-
 
 function generateHTML(data) {
     const stories = data.stories;
@@ -180,22 +177,22 @@ function parse(file) {
         .then((stories) => {
             return uploadThumbnails(stories).then(() => {
                 return stories;
-            })
+            });
         })
         .then((stories) => {
             return uploadImages(stories).then(() => {
                 return stories;
-            })
+            });
         })
         .then((stories) => {
             return uploadFlags(stories).then(() => {
                 return stories;
-            })
+            });
         })
         .then((stories) => {
             return uploadPDFs(stories).then(() => {
                 return stories;
-            })
+            });
         })
         .catch((e) => {
             console.log(e);

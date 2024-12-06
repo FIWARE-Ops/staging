@@ -10,7 +10,10 @@ const EVENTS_DIR = 'directories/events-directory';
 const Downloader = require('../../downloader');
 const People = require('../../people/parser');
 const ASSETS_DIR = 'uploads';
-const IMAGE_SIZE  = {height: 628, width: 1200};
+const FLAGS_DIR = 'directories/people/images/flag';
+
+const IMAGE_SIZE = { height: 628, width: 1200 };
+const FLAG_SIZE = { height: 120, width: 120 };
 const DEFAULT_IMAGE = 'events-default.png';
 
 function getFeaturedEvents(types, categories, events) {
@@ -80,7 +83,20 @@ function uploadImages(events) {
             return Downloader.validateUploads(missingImages);
         })
         .then((uploads) => {
-            Downloader.uploadImages(uploads, path.join( 'assets', ASSETS_DIR), IMAGE_SIZE);
+            Downloader.uploadImages(uploads, path.join('assets', ASSETS_DIR), IMAGE_SIZE);
+            Downloader.logUploads(uploads);
+            return uploads;
+        });
+}
+
+function uploadFlags(events) {
+    return Downloader.checkImages(events, 'flagUrl', 'flag')
+        .then((missingImages) => {
+            Downloader.logMissing(missingImages);
+            return Downloader.validateUploads(missingImages);
+        })
+        .then((uploads) => {
+            Downloader.uploadImages(uploads, path.join('assets', FLAGS_DIR), FLAG_SIZE);
             Downloader.logUploads(uploads);
             return uploads;
         });
@@ -152,6 +168,7 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
             event.shortDateEnd = event.endTime.toLocaleDateString('en-GB', { month: 'long', day: 'numeric' });
             eventDates.push(event.shortDateEnd);
             event.img = 'https://www.fiware.org/wp-content/' + path.join(ASSETS_DIR, event.image);
+            event.flagUrl = 'https://www.fiware.org/wp-content/' + path.join(FLAGS_DIR, event.flag);
             events.push(event);
         }
     });

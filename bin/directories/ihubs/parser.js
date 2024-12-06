@@ -12,8 +12,8 @@ const IHUBS_DIR = 'directories/ihubs';
 const ASSETS_DIR = 'directories/ihubs/images';
 const FLAGS_DIR = 'directories/people/images/flag';
 
-const IMAGE_SIZE  = {height: 201, width: 360};
-const FLAG_SIZE  = {height: 120, width: 120};
+const IMAGE_SIZE = { height: 201, width: 360 };
+const FLAG_SIZE = { height: 120, width: 120 };
 const DEFAULT_IMAGE = 'ihub-default.png';
 
 function trunc(value) {
@@ -73,7 +73,7 @@ function uploadImages(iHubs) {
             return Downloader.validateUploads(missingImages);
         })
         .then((uploads) => {
-            Downloader.uploadImages(uploads, path.join( 'assets', ASSETS_DIR), IMAGE_SIZE);
+            Downloader.uploadImages(uploads, path.join('assets', ASSETS_DIR), IMAGE_SIZE);
             Downloader.logUploads(uploads);
             return uploads;
         });
@@ -86,7 +86,7 @@ function uploadFlags(iHubs) {
             return Downloader.validateUploads(missingImages);
         })
         .then((uploads) => {
-            Downloader.uploadImages(uploads, path.join( 'assets', FLAGS_DIR), FLAG_SIZE);
+            Downloader.uploadImages(uploads, path.join('assets', FLAGS_DIR), FLAG_SIZE);
             Downloader.logUploads(uploads);
             return uploads;
         });
@@ -142,7 +142,7 @@ function parse(file) {
         .then((iHubs) => {
             return uploadFlags(iHubs).then(() => {
                 return iHubs;
-            })
+            });
         })
         .catch((e) => {
             console.log(e);

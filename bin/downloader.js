@@ -118,9 +118,9 @@ async function checkAssets(items, image = 'img', base = 'image') {
     const obj = {};
 
     for (const item of items) {
-        obj[item[base]] = item[image]
+        obj[item[base]] = item[image];
     }
-    const uniqueItems = _.pairs(obj) 
+    const uniqueItems = _.pairs(obj);
     console.log(`Checking ${uniqueItems.length} ${base}s`);
     console.log();
     for (const item of uniqueItems) {
@@ -157,12 +157,12 @@ async function uploadAsset(filename, filepath, dimensions, isImageFile) {
     if (!fs.existsSync(dir)) {
         fs.mkdirSync(dir, { recursive: true });
     }
-    if (dimensions){
+    if (dimensions) {
         await sharp(file).resize(dimensions).toFile(path.join(dir, filename));
     } else {
-        fs.copyFileSync(file,path.join(dir, filename));
+        fs.copyFileSync(file, path.join(dir, filename));
     }
-    if(isImageFile){
+    if (isImageFile) {
         await formatImage(path.join(dir, filename), 'webp');
     }
 }

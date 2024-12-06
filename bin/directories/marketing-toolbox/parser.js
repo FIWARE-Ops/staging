@@ -11,8 +11,8 @@ const MARKETING_TOOLS_DIR = 'directories/marketing-toolbox';
 const ASSETS_DIR = 'directories/marketing-toolbox/images/thumbs';
 const FLAGS_DIR = 'directories/people/images/flag';
 
-const IMAGE_SIZE  = {height: 201, width: 360};
-const FLAG_SIZE  = {height: 120, width: 120};
+const IMAGE_SIZE = { height: 201, width: 360 };
+const FLAG_SIZE = { height: 120, width: 120 };
 const DEFAULT_IMAGE = 'tools-default.png';
 
 /**
@@ -62,7 +62,7 @@ function uploadImages(tools) {
             return Downloader.validateUploads(missingImages);
         })
         .then((uploads) => {
-            Downloader.uploadImages(uploads, path.join( 'assets', ASSETS_DIR), IMAGE_SIZE);
+            Downloader.uploadImages(uploads, path.join('assets', ASSETS_DIR), IMAGE_SIZE);
             Downloader.logUploads(uploads);
             return uploads;
         });
@@ -75,7 +75,7 @@ function uploadFlags(tools) {
             return Downloader.validateUploads(missingImages);
         })
         .then((uploads) => {
-            Downloader.uploadImages(uploads, path.join( 'assets', FLAGS_DIR), FLAG_SIZE);
+            Downloader.uploadImages(uploads, path.join('assets', FLAGS_DIR), FLAG_SIZE);
             Downloader.logUploads(uploads);
             return uploads;
         });
@@ -120,7 +120,7 @@ function parse(file) {
         .then((tools) => {
             return uploadFlags(tools).then(() => {
                 return tools;
-            })
+            });
         })
         .catch((e) => {
             console.log(e);

@@ -10,7 +10,7 @@ const Downloader = require('../../downloader');
 const TEMPLATE_PATH = 'bin/directories/webinars/';
 const WEBINARS_DIR = 'directories/webinars';
 const ASSETS_DIR = 'directories/webinars/images';
-const IMAGE_SIZE  = {height: 201, width: 360};
+const IMAGE_SIZE = { height: 201, width: 360 };
 const DEFAULT_IMAGE = 'webinar-default.png';
 
 function getExcerpt(item) {
@@ -67,7 +67,7 @@ function uploadImages(webinars) {
             return Downloader.validateUploads(missingImages);
         })
         .then((uploads) => {
-            Downloader.uploadImages(uploads, path.join( 'assets', ASSETS_DIR), IMAGE_SIZE);
+            Downloader.uploadImages(uploads, path.join('assets', ASSETS_DIR), IMAGE_SIZE);
             Downloader.logUploads(uploads);
             return uploads;
         });

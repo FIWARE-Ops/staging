@@ -21,7 +21,7 @@ function extractFigures(input) {
             image: item['Profile Picture']
         };
 
-        figure.img = 'https://www.fiware.org/wp-content/' + path.join(PEOPLE_ASSETS_DIR, figure.image || '');         
+        figure.img = 'https://www.fiware.org/wp-content/' + path.join(PEOPLE_ASSETS_DIR, figure.image || '');
         figures.push(figure);
     });
 

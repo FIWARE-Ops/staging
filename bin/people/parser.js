@@ -15,8 +15,8 @@ const PEOPLE_DIR = 'directories/people';
 const ASSETS_DIR = 'directories/people/images/200px';
 const FLAGS_DIR = 'directories/people/images/flag';
 
-const IMAGE_SIZE  = {height: 200, width: 200};
-const FLAG_SIZE  = {height: 120, width: 120};
+const IMAGE_SIZE = { height: 200, width: 200 };
+const FLAG_SIZE = { height: 120, width: 120 };
 const DEFAULT_IMAGE = '../ico_user.png';
 
 /**
@@ -83,7 +83,7 @@ function uploadImages(people) {
             return Downloader.validateUploads(missingImages);
         })
         .then((uploads) => {
-            Downloader.uploadImages(uploads, path.join( 'assets', ASSETS_DIR), IMAGE_SIZE);
+            Downloader.uploadImages(uploads, path.join('assets', ASSETS_DIR), IMAGE_SIZE);
             Downloader.logUploads(uploads);
             return uploads;
         });
@@ -96,7 +96,7 @@ function uploadFlags(impactStories) {
             return Downloader.validateUploads(missingImages);
         })
         .then((uploads) => {
-            Downloader.uploadImages(uploads, path.join( 'assets', FLAGS_DIR), FLAG_SIZE);
+            Downloader.uploadImages(uploads, path.join('assets', FLAGS_DIR), FLAG_SIZE);
             Downloader.logUploads(uploads);
             return uploads;
         });
@@ -175,7 +175,7 @@ function parse(file, page) {
         .then((people) => {
             return uploadFlags(people).then(() => {
                 return people;
-            })
+            });
         })
         .catch((e) => {
             console.log(e);

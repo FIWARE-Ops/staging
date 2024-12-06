@@ -10,7 +10,7 @@ const TEMPLATE_PATH = 'bin/directories/open-calls/';
 const OPEN_CALLS_DIR = 'directories/open-calls';
 
 const ASSETS_DIR = 'directories/open-calls/images';
-const IMAGE_SIZE  = {height: 201, width: 360};
+const IMAGE_SIZE = { height: 201, width: 360 };
 
 /**
  * Take the human readable column names from the spreadsheet and create a
@@ -23,7 +23,7 @@ function extractOpenCalls(input) {
         const openCall = {
             name: item.Name,
             grant: item.Grant,
-            image: item['Image'] ? item['Image'] : 'open-calls-default.png',
+            image: item.Image ? item.Image : 'open-calls-default.png',
             domain: Parser.splitStrings(item.Target),
             closeDate: Parser.date(item['Close Date']),
             type: item.Type,
@@ -76,7 +76,7 @@ function uploadImages(openCalls) {
             return Downloader.validateUploads(missingImages);
         })
         .then((uploads) => {
-            Downloader.uploadImages(uploads, path.join( 'assets', ASSETS_DIR), IMAGE_SIZE);
+            Downloader.uploadImages(uploads, path.join('assets', ASSETS_DIR), IMAGE_SIZE);
             Downloader.logUploads(uploads);
             return uploads;
         });
