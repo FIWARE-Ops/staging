@@ -5,6 +5,7 @@ const Domains = require('./directories/domains/parser');
 const Enablers = require('./directories/enablers/parser');
 const Events = require('./directories/events/parser');
 const DirectoryFigures = require('./directories/directory-figures/parser');
+const PeopleFigures = require('./directories/people-figures/parser');
 const ImpactStories = require('./directories/impact-stories/parser');
 const iHubs = require('./directories/ihubs/parser');
 const MainFigures = require('./directories/main-figures/parser');
