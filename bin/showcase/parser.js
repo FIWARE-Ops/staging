@@ -43,7 +43,7 @@ function extractProductDetails(input) {
         const hash = Parser.getHash(item['Organisation Name'], item['Product Name']);
         let additionalText = '';
         try {
-            const additionalText = fs.readFileSync(path.join(__dirname, `../../marketplace/texts/${hash}.html`)).toString();
+            additionalText = fs.readFileSync(path.join(__dirname, `../../marketplace/texts/${hash}.html`)).toString();
         } catch (e){
             // Nothing
         }
