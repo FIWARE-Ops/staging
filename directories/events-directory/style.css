@@ -273,8 +273,18 @@
     gap: 10px;
 }
 
+.gridElementLogoContainer {
+    width:100%;
+    height:0; 
+    padding-top: 52%;
+    position:relative;
+}
+
 .gridElementLogo {
-    width: 50%;
+    width: 100%;
+    position:absolute; 
+    top:0; 
+    left:1px;
 }
 
 .gutter-sizer {
