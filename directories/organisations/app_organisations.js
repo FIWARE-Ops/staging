@@ -327,16 +327,35 @@ function initSticky() {
     ) {
       header.classList.add("stickybar");
       header.classList.remove("not-stickybar");
-    } else {
+    } else  if (header) {
       header.classList.remove("stickybar");
       header.classList.add("not-stickybar");
     }
   }
 }
 
+function setDropdown() {
+  $.urlParam = function (name) {
+    var results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
+      window.location.href,
+    );
+    if (results == null) {
+      return null;
+    }
+    return decodeURI(results[1]) || 0;
+  };
+
+
+  if ($.urlParam("type")){
+    $("#filterRole").val($.urlParam("type"));
+    return $("#filterRole").change();
+  } else {
+    msnry.arrange({ sortBy: "original-order" });
+  }
+}
+
+
 document.addEventListener("html-included", () => {
-  horizontalScroll();
-  smoothScroll();
   $("#app").css("visibility", "visible");
   if (init) {
     return;
@@ -345,23 +364,11 @@ document.addEventListener("html-included", () => {
   initSelect();
   filterToggle();
   initSticky();
-  let count = 0;
-  let target = 7;
-  // Isotope istantiation
-  // Relies on unpkg.com/imagesloaded
-  $("#app")
-    .imagesLoaded()
-    .always(function (instance) {
-      msnry.arrange({ sortBy: "original-order" });
-    })
-    .fail(function () {
-      // msnry.arrange({ sortBy: "original-order" });
-    })
-    .progress(function (instance, image) {
-      count++;
-      if (count % target === 0) {
-        target = target + 7;
-        msnry.arrange({ sortBy: "original-order" });
-      }
-    });
-});
+  horizontalScroll();
+  smoothScroll();
+  msnry.on("arrangeComplete", (filteredItems) => {
+    $("#filteredCompanies").text(filteredItems.length);
+    //dropdownFilters(selectors);
+  });
+  setDropdown();
+}, {once: true});
