@@ -8,7 +8,8 @@ const Template = require('../../template');
 const Downloader = require('../../downloader');
 const TEMPLATE_PATH = 'bin/directories/impact-stories/';
 const IMPACT_STORIES_DIR = 'directories/impact-stories';
-const ASSETS_DIR = 'uploads';
+const ASSETS_DIR = 'directories/impact-stories/images';
+const PDFS_DIR = 'uploads';
 const FLAGS_DIR = 'directories/people/images/flag';
 const THUMB_SIZE = { height: 201, width: 360 };
 const IMAGE_SIZE = { height: 745, width: 970 };
@@ -50,7 +51,7 @@ function extractStories(input) {
         if (impactStory.publish) {
             impactStory.thumbnail = 'https://www.fiware.org/wp-content/' + path.join(ASSETS_DIR, impactStory.thumb);
             impactStory.img = 'https://www.fiware.org/wp-content/' + path.join(ASSETS_DIR, impactStory.image);
-            impactStory.pdfUrl = 'https://www.fiware.org/wp-content/' + path.join(ASSETS_DIR, impactStory.pdf);
+            impactStory.pdfUrl = 'https://www.fiware.org/wp-content/' + path.join(PDFS_DIR, impactStory.pdf);
             impactStory.flagUrl = 'https://www.fiware.org/wp-content/' + path.join(FLAGS_DIR, impactStory.flag);
 
             impactStories.push(impactStory);
