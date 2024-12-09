@@ -2,7 +2,12 @@
     <div class='grid-item {{createClass type}} {{createClasses domain}}'>
         <a target="_blank" href="{{website}}" rel="noopener">
             <span class="cat-name hidden">{{createClass name}}</span>
-            <img class="gridElementLogo" src="{{img}}" {{#if (gt @index 9)}}loading="lazy"{{/if}}>
+            <div class="gridElementLogoContainer">
+                <picture>
+                    <source srcset="{{webp img}}" type="image/webp"/>
+                    <img class="gridElementLogo" src="{{img}}" loading="lazy"/>
+                </picture>
+            </div>
         </a>
         <div class="gridElementTextContainer">
             <a target="_blank" href="{{website}}" rel="noopener">
