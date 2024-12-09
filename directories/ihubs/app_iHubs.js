@@ -391,11 +391,33 @@ function horizontalScroll() {
   });
 }
 
-document.addEventListener("html-included", () => {
-  //$("#filteredCompanies").text(window.modalData.length);
-  if(msnry){
-     msnry.arrange({ sortBy: "original-order" });
+function setDropdown() {
+  $.urlParam = function (name) {
+    var results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
+      window.location.href,
+    );
+    if (results == null) {
+      return null;
+    }
+    return decodeURI(results[1]) || 0;
+  };
+
+
+  if ($.urlParam("country")){
+    $("#filterCountry").val($.urlParam("country"));
+    return $("#filterCountry").change();
+  } else if ($.urlParam("level")){
+    $("#filterRole").val($.urlParam("level"));
+    return $("#filterRole").change();
+  } else if ($.urlParam("domain")){
+    $("#filterDomain").val($.urlParam("domain"));
+    return $("#filterDomain").change();
+  } else {
+    msnry.arrange({ sortBy: "original-order" });
   }
+}
+
+document.addEventListener("html-included", () => {
   $("#app").css("visibility", "visible");
   if (init) {
     return;
@@ -407,8 +429,6 @@ document.addEventListener("html-included", () => {
   initSticky();
   horizontalScroll();
   smoothScroll();
-
-  msnry.arrange({ sortBy: "original-order" });
   msnry.on("arrangeComplete", (filteredItems) => {
     $("#filteredCompanies").text(filteredItems.length);
     dropdownFilters(selectors);
@@ -417,5 +437,6 @@ document.addEventListener("html-included", () => {
       scrollToView();
     }
   });
+  setDropdown();
  
 }, {once: true});
