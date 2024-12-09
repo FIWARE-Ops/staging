@@ -3,7 +3,10 @@
         <span class="year hidden">{{year}}</span>
         <a href="./project?id={{createClass name}}">
             <div class="thumb">
-                <img class="project-logo" src="{{img}}" {{#if (gt @index 9)}}loading="lazy"{{/if}}/>
+                <picture>
+                    <source srcset="{{webp img}}" type="image/webp"/>
+                    <img class="project-logo" src="{{img}}" loading="lazy"/>
+                </picture>
             </div>
         </a>
         <div class="gridElementTextContainer">
