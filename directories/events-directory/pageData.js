@@ -220,6 +220,16 @@ window.eventData = [
         "group": "Conference"
     },
     {
+        "id": "202412-onboarding-companies-and-offerings-publication-on-the-dome-marketplace-",
+        "title": "Onboarding Companies and Offerings Publication on the DOME Marketplace.",
+        "from": "2024-12-10T10:00:00.000Z",
+        "to": "2024-12-10T11:15:00.000Z",
+        "description": "Discover how to join DOME Marketplace, build trust, publish offers, and ensure product quality.",
+        "location": "Online",
+        "isAllDay": false,
+        "group": "Webinar"
+    },
+    {
         "id": "202412-data-week-2024--ai-ready-data-products",
         "title": "Data Week 2024: AI-ready Data Products",
         "from": "2024-12-10T10:30:00.000Z",
