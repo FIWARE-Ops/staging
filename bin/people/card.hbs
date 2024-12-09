@@ -8,7 +8,10 @@
             {{createClass domain}}'
     >
         <div class='f-cat active'>
-            <img alt='' class='city-photo' src='{{img}}' loading='lazy' />
+            <picture>
+               <source srcset="{{webp img}}" type="image/webp"/>
+               <img alt='' class='city-photo' src='{{img}}' loading='lazy' />
+            </picture>
             <div class='profile-details'>
                 <h6 class='name'>{{title}}{{name}}</h6>
                 <h4 class='position'>{{job}}</h4>
