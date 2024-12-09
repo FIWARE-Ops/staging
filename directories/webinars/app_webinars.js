@@ -476,41 +476,53 @@ function horizontalScroll() {
   });
 }
 
-function lazyLoadImages() {
-  $.each($("img"), function () {
-    if (
-      $(this).attr("data-src") &&
-      $(this).offset().top < $(window).scrollTop() + $(window).height() + 500
-    ) {
-      var source = $(this).data("src");
-      $(this).attr("src", source);
-      $(this).removeAttr("data-src");
+
+function setDropdown() {
+  $.urlParam = function (name) {
+    var results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
+      window.location.href,
+    );
+    if (results == null) {
+      return null;
     }
-  });
+    return decodeURI(results[1]) || 0;
+  };
+
+
+  if ($.urlParam("chapter")){
+    $("#filterType").val($.urlParam("chapter"));
+    return $("#filterType").change();
+  } else if ($.urlParam("audience")){
+    $("#filterDomain").val($.urlParam("audience"));
+    return $("#filterDomain").change();
+  } else if ($.urlParam("keyword")){
+    $("#filterTechnology").val($.urlParam("keyword"));
+    return $("#filterTechnology").change();
+  } else {
+    msnry.arrange({ sortBy: "original-order" });
+  }
 }
 
 document.addEventListener("html-included", () => {
+  $("#app").css("visibility", "visible");
   if (init) {
     return;
   }
   init = true;
-  $("#filteredCompanies").text(window.modalData.length);
-  horizontalScroll();
-  smoothScroll();
   initSelect();
   initChips();
-  initModal();
   filterToggle();
-
-  // Isotope istantiation
-  // Relies on unpkg.com/imagesloaded
-  $("#app")
-    .imagesLoaded()
-    .progress(function (instance) {
-      msnry.layout();
-    });
-
-  $(window).scroll(function () {
-    lazyLoadImages();
+  //initSticky();
+  horizontalScroll();
+  smoothScroll();
+  msnry.on("arrangeComplete", (filteredItems) => {
+    $("#filteredCompanies").text(filteredItems.length);
+    dropdownFilters(selectors);
+    highlightChips();
+    if (scrollSet) {
+      scrollToView();
+    }
   });
-});
+  setDropdown();
+ 
+}, {once: true});
