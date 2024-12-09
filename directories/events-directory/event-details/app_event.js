@@ -444,7 +444,12 @@ function initialiseStyleBackgroundIntersectionObserver() {
   }
 }
 
+var init = false;
 function enableCarousel() {
+  if (init) {
+    return;
+  }
+  init = true;
   $(".owl-carousel").owlCarousel({
     stagePadding: 30,
     loop: false,
@@ -554,14 +559,15 @@ $(document).one("html-included", () => {
           $(el).remove();
         }
       });
+
+      let isMobile = window.matchMedia("(max-width: 767px)").matches;
+      if (!isMobile){
+        enableCarousel();} 
+      else {
+        $('#featured').removeClass('owl-carousel');
+      }
     }
   });
-  let isMobile = window.matchMedia("(max-width: 767px)").matches;
-  if (!isMobile){
-    enableCarousel();} 
-  else {
-    $('#featured').removeClass('owl-carousel');
-  }
 });
 
 $(document).one(
