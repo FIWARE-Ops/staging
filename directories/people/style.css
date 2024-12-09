@@ -512,6 +512,11 @@
     }
 }
 
+.city-photo-container {
+    width: 130px;
+    margin: 0 auto 10px auto;
+}
+
 .city-photo {
     border-radius: 100px;
     width: 130px;
