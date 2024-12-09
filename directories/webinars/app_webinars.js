@@ -350,7 +350,6 @@ function initSelect() {
     if (scrollSet) {
       scrollToView();
     }
-    lazyLoadImages();
   });
 
   initTextSearch(msnry);
