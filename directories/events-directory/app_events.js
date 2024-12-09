@@ -335,6 +335,32 @@ function viewToggle() {
   });
 }
 
+function setDropdown() {
+  $.urlParam = function (name) {
+    var results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
+      window.location.href,
+    );
+    if (results == null) {
+      return null;
+    }
+    return decodeURI(results[1]) || 0;
+  };
+
+
+  if ($.urlParam("month")){
+    $("#filterMonth").val($.urlParam("month"));
+    return $("#filterMonth").change();
+  } else if ($.urlParam("type")){
+    $("#filterType").val($.urlParam("type"));
+    return $("#filterType").change();
+  } else if ($.urlParam("domain")){
+    $("#filterDomain").val($.urlParam("domain"));
+    return $("#filterDomain").change();
+  } else {
+    msnry.arrange({ sortBy: "original-order" });
+  }
+}
+
 document.addEventListener("html-included", () => {
   $("#app").css("visibility", "visible");
   if (init) {
@@ -350,28 +376,14 @@ document.addEventListener("html-included", () => {
   smoothScroll();
   initSticky();
   viewToggle();
-  let count = 0;
-  let target = 7;
-  // Isotope istantiation
-  // Relies on unpkg.com/imagesloaded
-  $("#app")
-    .imagesLoaded()
-    .always(function (instance) {
-      msnry.arrange({ sortBy: "original-order" });
-      msnry.on("arrangeComplete", (filteredItems) => {
-        if (scrollSet) {
-          scrollToView();
-        }
-      });
-    })
-    .fail(function () {
-      // msnry.arrange({ sortBy: "original-order" });
-    })
-    .progress(function (instance, image) {
-      count++;
-      if (count % target === 0) {
-        target = target + 7;
-        msnry.arrange({ sortBy: "original-order" });
-      }
-    });
-});
+ 
+  msnry.on("arrangeComplete", (filteredItems) => {
+    if (scrollSet) {
+      scrollToView();
+    }
+  });
+
+  setDropdown();
+ 
+}, {once: true});
+
