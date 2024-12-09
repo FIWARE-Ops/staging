@@ -687,7 +687,7 @@
 }
 
 .icons {
-    padding: 10px 0px;
+    /*padding: 10px 0px;*/
     margin-top: 5px;
     border-top: 1px solid #cdcdcd;
     display: flex;
@@ -695,6 +695,17 @@
     align-items: center;
     justify-content: end;
     gap: 10px;
+
+    padding-top: 52px;
+    padding-bottom: 10px;
+    position:relative;
+}
+
+.icons .flag {
+    width: 100%;
+    position:absolute;
+    top:10px; 
+    left:0;
 }
 
 .icon::before {
