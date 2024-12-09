@@ -53,11 +53,14 @@
           <div class="speakers">
             {{#each speakers}}
             <div class="speaker" {{#if shortJob}}data-modal='{{createClass name}}'{{/if}}>
-              <div class="profile-picture">
+              <div class="profile-picture-container">
                 {{#if img}}
-                <img decoding="async" alt="{{name}}" src="{{img}}" loading="lazy">
+                <picture>
+                    <source srcset="{{webp img}}" type="image/webp"/>
+                    <img class="profile-picture" src="{{img}}" loading="lazy"/>
+                </picture>
                 {{else}}
-                <img decoding="async" alt="" src="https://www.fiware.org/wp-content/directories/people/images/ico_user.png" loading="lazy">    
+                <img class="profile-picture" decoding="async" alt="" src="https://www.fiware.org/wp-content/directories/people/images/ico_user.png" loading="lazy">    
                 {{/if}}
               </div>
               <div class="speaker-info">
@@ -71,13 +74,16 @@
           </div>
         {{/if}}
         </div>
-          <div class="gridElementLogo" >
-            <a href="./event-details/?id={{yearMonth}}-{{createClass title}}">
-              {{#if (ne img '')}}
-              <img class="event-image" src="{{img}}" loading="lazy"/>
-              {{/if}}
-            </a>
-          </div>
+          {{#if (ne img '')}}
+          <a href="./event-details/?id={{yearMonth}}-{{createClass title}}">
+            <div class="gridElementLogoContainer" >
+               <picture>
+                  <source srcset="{{webp img}}" type="image/webp"/>
+                  <img class="gridElementLogo" src="{{img}}" loading="lazy"/>
+                </picture>
+            </div>
+          </a>
+          {{/if}}
       </div>
     </div>
   {{/each}}
