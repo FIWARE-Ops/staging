@@ -1637,8 +1637,9 @@ input[type="search"]::placeholder {
         max-width: none;
     }
 
-    .gridElementLogo {
+    .gridElementLogoContainer {
         width: 100%;
+        padding-top: 55%;
     }
 
     .panel-info {
