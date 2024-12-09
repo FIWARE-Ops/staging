@@ -213,9 +213,19 @@ window.eventData = [
         "id": "202412-water-knowledge-europe-2024",
         "title": "Water Knowledge Europe 2024",
         "from": "2024-12-10T07:00:00.000Z",
-        "to": "2025-03-15T16:00:00.000Z",
+        "to": "2024-12-12T16:00:00.000Z",
         "description": "Join Water Knowledge Europe: network, explore Horizon Europe funding, and build project partnerships.",
         "location": "BluePoint Brussels A. Reyers Ln 80 - 1030 ",
+        "isAllDay": false,
+        "group": "Conference"
+    },
+    {
+        "id": "202412-data-week-2024--ai-ready-data-products",
+        "title": "Data Week 2024: AI-ready Data Products",
+        "from": "2024-12-10T10:30:00.000Z",
+        "to": "2024-12-10T12:00:00.000Z",
+        "description": "AI-ready Data Products: adapting data for AI applications to enhance sharing, usability, and value.",
+        "location": "Novotel Luxembourg Kirchberg 6 rue Fort Niedergrünewald ",
         "isAllDay": false,
         "group": "Conference"
     },
