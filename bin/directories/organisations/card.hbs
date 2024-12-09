@@ -2,7 +2,12 @@
     <div class='grid-item {{createClass type}}'>
         <a target="_blank" href="{{website}}" rel="noopener">
             <div class="f-cat active card-url">
-                <img class="member-thumb" src="{{img}}" {{#if (gt @index 9)}}loading="lazy"{{/if}}>
+                <div class="member-thumb-container">
+                    <picture>
+                       <source srcset="{{webp img}}" type="image/webp"/>
+                       <img class="member-thumb" src="{{img}}" loading="lazy"/>
+                    </picture>
+                </div>
                 <h3 class="item-name member-name">{{upperName}}</h3>
                 <h5 class="type-member {{createClass type}}">{{type}}</h5>
             </div>
