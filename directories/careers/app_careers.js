@@ -391,10 +391,10 @@ function setDropdown() {
 
 
   if ($.urlParam("status")){
-    $("#filterRole").val($.urlParam("status"));
-    return $("#filterRole").change();
+    $("#filterDepartment").val($.urlParam("level"));
+    return $("#filterDepartment").change();
   } else if ($.urlParam("target")){
-    $("#filterDomain").val($.urlParam("target"));
+    $("#filterDomain").val($.urlParam("department"));
     return $("#filterDomain").change();
   } else {
     msnry.arrange({ sortBy: "original-order" });
