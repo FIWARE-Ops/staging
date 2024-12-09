@@ -1633,13 +1633,19 @@ input[type="search"]::placeholder {
     }
 
     .gridElementTextContainer {
-        width: 100%;
+        width: calc(100% - 20px);
         max-width: none;
     }
 
     .gridElementLogoContainer {
-        width: 100%;
+        width: calc(100% - 20px);
         padding-top: 55%;
+    }
+
+    .grid-item {
+        width: 100%;
+        padding: 0px 10px;
+        position: relative;
     }
 
     .panel-info {
