@@ -408,10 +408,30 @@ function autoCloseCalls() {
   });
 }
 
+function setDropdown() {
+  $.urlParam = function (name) {
+    var results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
+      window.location.href,
+    );
+    if (results == null) {
+      return null;
+    }
+    return decodeURI(results[1]) || 0;
+  };
+
+
+  if ($.urlParam("status")){
+    $("#filterRole").val($.urlParam("status"));
+    return $("#filterRole").change();
+  } else if ($.urlParam("target")){
+    $("#filterDomain").val($.urlParam("target"));
+    return $("#filterDomain").change();
+  } else {
+    msnry.arrange({ sortBy: "original-order" });
+  }
+}
+
 document.addEventListener("html-included", () => {
-  //$("#filteredCompanies").text(window.modalData.length);
-  horizontalScroll();
-  smoothScroll();
   $("#app").css("visibility", "visible");
   if (init) {
     return;
@@ -422,31 +442,16 @@ document.addEventListener("html-included", () => {
   initChips();
   filterToggle();
   initSticky();
-  let count = 0;
-  let target = 7;
-  // Isotope istantiation
-  // Relies on unpkg.com/imagesloaded
-  $("#app")
-    .imagesLoaded()
-    .always(function (instance) {
-      msnry.arrange({ sortBy: "original-order" });
-      msnry.on("arrangeComplete", (filteredItems) => {
-        $("#filteredCompanies").text(filteredItems.length);
-        dropdownFilters(selectors);
-        highlightChips();
-        if (scrollSet) {
-          scrollToView();
-        }
-      });
-    })
-    .fail(function () {
-      // msnry.arrange({ sortBy: "original-order" });
-    })
-    .progress(function (instance, image) {
-      count++;
-      if (count % target === 0) {
-        target = target + 7;
-        msnry.arrange({ sortBy: "original-order" });
-      }
-    });
-});
+  horizontalScroll();
+  smoothScroll();
+  msnry.on("arrangeComplete", (filteredItems) => {
+    $("#filteredCompanies").text(filteredItems.length);
+    dropdownFilters(selectors);
+    highlightChips();
+    if (scrollSet) {
+      scrollToView();
+    }
+  });
+  setDropdown();
+ 
+}, {once: true});
