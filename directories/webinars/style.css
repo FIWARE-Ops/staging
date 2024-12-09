@@ -206,11 +206,13 @@ ul {
 }
 
 .gridElementLogo {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
     width: 100%;
     position:absolute; 
     background-color: #e2e9ea;
     top:0; 
-    left:0;
+    left:1px;
 }
 
 .gutter-sizer {
