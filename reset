@@ -2,3 +2,4 @@
 git reset --hard origin/main
 rm -rf node_modules
 npm install
+mkdir images
