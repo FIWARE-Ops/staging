@@ -110,8 +110,7 @@
 
 .gridElementLogo {
     width: 100%;
-    position:absolute; 
-    background-color: #e2e9ea;
+    position:absolute;
     top:0; 
     left:1px;
 }
