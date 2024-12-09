@@ -276,7 +276,7 @@
 .gridElementLogoContainer {
     width:50%;
     height:0; 
-    padding-top: 52%;
+    padding-top: 20%;
     position:relative;
 }
 
@@ -285,15 +285,13 @@
     position:absolute; 
     top:0; 
     left:1px;
+    border-radius: 4px;
 }
 
 .gutter-sizer {
     width: 0;
 }
 
-.gridElementLogo img {
-    border-radius: 4px;
-}
 
 .event-title {
     padding: 0 20px;
