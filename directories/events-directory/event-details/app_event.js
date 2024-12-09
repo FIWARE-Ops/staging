@@ -246,14 +246,15 @@ function wrapVenueDetails(event) {
       <dd><a href="${event.website}" target="_blank">Event Website</a></dd>`);
 }
 
+
 function wrapSpeakers(id, speakers) {
   var div = "";
   speakers.forEach((speaker) => {
     div += `
       <div class="speaker">`;
     if (speaker.img) {
-      div += `<div class="profile-picture">
-                <img decoding="async" alt="${speaker.name}" src="${speaker.img}" loading="lazy">
+      div += `<div class="profile-picture-container">
+                <img class="profile-picture" decoding="async" alt="${speaker.name}" src="${speaker.img}">
               </div>`;
     }
     div += `<div class="speaker-info">
