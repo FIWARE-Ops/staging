@@ -407,7 +407,6 @@ document.addEventListener("html-included", () => {
     return;
   }
   init = true;
-  autoCloseCalls();
   initSelect();
   initChips();
   filterToggle();
