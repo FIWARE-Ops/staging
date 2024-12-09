@@ -75,14 +75,14 @@
         {{/if}}
         </div>
           {{#if (ne img '')}}
-          <a href="./event-details/?id={{yearMonth}}-{{createClass title}}">
-            <div class="gridElementLogoContainer" >
-               <picture>
-                  <source srcset="{{webp img}}" type="image/webp"/>
-                  <img class="gridElementLogo" src="{{img}}" loading="lazy"/>
-                </picture>
-            </div>
-          </a>
+          <div class="gridElementLogoContainer" >
+            <a href="./event-details/?id={{yearMonth}}-{{createClass title}}">
+              <picture>
+                <source srcset="{{webp img}}" type="image/webp"/>
+                <img class="gridElementLogo" src="{{img}}" loading="lazy"/>
+              </picture>
+            </a>
+          </div>
           {{/if}}
       </div>
     </div>
