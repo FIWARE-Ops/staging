@@ -1,7 +1,12 @@
 {{#each this}}
     <div class='grid-item {{createClass type}} {{createClasses domain}} {{createClass language}}'>
         <a href="{{website}}" target="_blank" href="{{website}}" rel="noopener">
-            <img class="gridElementLogo" src="{{img}}" {{#if (gt @index 9)}}loading="lazy"{{/if}}>
+            <div class="gridElementLogoContainer">
+                <picture>
+                   <source srcset="{{webp img}}" type="image/webp"/>
+                   <img class="gridElementLogo" src="{{img}}" loading="lazy"/>
+                </picture>
+            </div>
         </a>    
         <div class="gridElementTextContainer">
             <a href="{{website}}" target="_blank" rel="noopener">
