@@ -30,6 +30,7 @@ function extractTools(input) {
             website: item.Link,
             language: item.Language,
             flag: item['Country flag'],
+            source: item.Source,
             publish: Parser.boolean(item.Published)
         };
 
@@ -122,6 +123,14 @@ function parse(file) {
             return uploadFlags(tools).then(() => {
                 return tools;
             });
+        })
+        .then((dfigures) => {
+            Template.write(
+                path.join('welcome', MARKETING_TOOLS_DIR, 'publications-directory.html'),
+                path.join(TEMPLATE_PATH, 'table.hbs'),
+                dfigures
+            );
+            Prettier.format(path.join('welcome', MARKETING_TOOLS_DIR, 'publications-directory.html'), { parser: 'html' });
         })
         .catch((e) => {
             console.log(e);
