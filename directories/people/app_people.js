@@ -265,7 +265,7 @@ function initModal() {
       e.preventDefault();
       var target = $(this.hash);
       $('html, body').animate({
-          scrollTop: target.offset().top - 100 
+          scrollTop: target.offset().top - 120 
       }, 10);
       return false;
     });
@@ -423,7 +423,7 @@ function smoothScroll() {
   // Add smooth scrolling to all links
   $("a").on("click", function (event) {
     // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "" && !($(this.hash).hasClass( "grid-scroll-offset" ))) {
+    if (this.hash !== "" && !($(this.hash).hasClass( "grid-item" ))) {
       // Store hash
       var hash = this.hash;
 
