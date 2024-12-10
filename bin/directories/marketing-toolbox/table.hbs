@@ -2,7 +2,7 @@
     <div class="ld-head">
             <div class="ld-publication-name">Name</div>
             <div class="ld-type">Type</div>
-            <div class="chip-domain">Domain</div>
+            <div class="ld-domain">Domain</div>
     </div>
     {{#each this}}
         <div class="ld-item-container">
@@ -14,8 +14,8 @@
                 </ul>
             </div>
             <div class="ld-icons-container">
-                {{#if website}}
-                <a target='_blank' href='{{website}}' rel='noopener'>
+                {{#if output}}
+                <a target='_blank' href='{{output}}' rel='noopener'>
                     <div class="list-icon">
                     <span class="material-symbols-outlined regular">visibility</span>
                     </div>
@@ -24,7 +24,7 @@
                 {{#if source}}
                 <a target='_blank' href='{{source}}' rel='noopener'>
                     <div class="list-icon">
-                    <span class="material-symbols-outlined regular">draw</span>
+                    <span class="material-symbols-outlined regular">edit_square</span>
                     </div>
                 </a>
                 {{/if}}

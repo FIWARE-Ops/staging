@@ -30,6 +30,7 @@ function extractTools(input) {
             website: item.Link,
             language: item.Language,
             flag: item['Country flag'],
+            output: item.Output,
             source: item.Source,
             publish: Parser.boolean(item.Published)
         };

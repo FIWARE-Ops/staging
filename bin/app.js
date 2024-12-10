@@ -12,6 +12,7 @@ const MainFigures = require('./directories/main-figures/parser');
 const Marketing = require('./directories/marketing-toolbox/parser');
 const OpenCalls = require('./directories/open-calls/parser');
 const Organisations = require('./directories/organisations/parser');
+const Press = require('./directories/press/parser');
 const Sponsors = require('./directories/sponsors/parser');
 const ResearchDevelopment = require('./directories/research-development/parser');
 const Webinars = require('./directories/webinars/parser');
@@ -110,6 +111,12 @@ switch (PROCESS) {
             return PeopleFigures.parse(PeopleFigures.file);
         });
         break;
+    // Create HTML for press releases
+    case 'press':
+        Loader.load('press', Press.file).then(() => {
+            return Press.parse(Press.file);
+        });
+        break;
     // Create HTML and template files for the impact stories
     case 'impact-stories':
         Loader.load('impact-stories', ImpactStories.file).then(() => {
@@ -179,6 +186,7 @@ switch (PROCESS) {
         touch(Marketing.file);
         touch(Organisations.file);
         touch(People.file);
+        touch(Press.file);
         touch(ResearchDevelopment.file);
         touch(Webinars.file);
         touch(Agenda.file);
