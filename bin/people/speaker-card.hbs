@@ -1,12 +1,13 @@
 {{#each this}}
-        <div
+        <div id="item-{{@index}}"
             class='grid-item {{#if bio}}cat-bio {{/if}}
                 {{createClass company}}
                 {{createClass country}}
                 {{createClass department}}
                 {{createClasses filters}}
                 {{createClass domain}}'
-            {{#if bio}}  
+            {{#if bio}}
+            href="#item-{{@index}}"  
             data-modal='{{@index}}'
             {{/if}}
         >

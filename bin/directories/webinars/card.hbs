@@ -1,5 +1,5 @@
 {{#each this}}
-    <div class='grid-item {{createClass type}} {{createClasses domain}} {{createClasses technology}}'>
+    <div id="item-{{@index}}" class='grid-item {{createClass type}} {{createClasses domain}} {{createClasses technology}}'>
         <div class="gridElementLogoContainer">
             <picture>
                <source srcset="{{webp img}}" type="image/webp"/>
@@ -43,7 +43,7 @@
             </div>
         </div>
         <div class='foot'>
-            <a class='cat-info' data-modal='{{@index}}'>
+            <a href="#item-{{@index}}" class='cat-info' data-modal='{{@index}}'>
                 <span class="material-symbols-outlined">info</span>
                 More Info
             </a>

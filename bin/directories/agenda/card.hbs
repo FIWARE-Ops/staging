@@ -1,7 +1,7 @@
 {{#each this}}
 
 
-<div class='grid-item {{createClass track}} {{#if (ne session '')}}{{createClass session}}{{else}}{{createClass title}}{{/if}}{{#each speakers}} {{createClass name}}{{/each}} {{createClass shortDate}}'>
+<div id="item-{{@index}}" class='grid-item {{createClass track}} {{#if (ne session '')}}{{createClass session}}{{else}}{{createClass title}}{{/if}}{{#each speakers}} {{createClass name}}{{/each}} {{createClass shortDate}}'>
     <div class="gridElementTextContainer{{#if moderated}} moderated{{/if}}">
       {{#if (gt numSpeakers 0)}}
       <a href="./{{#if description}}program{{else}}program-details-summary{{/if}}?id={{createClass title}}">
@@ -55,7 +55,7 @@
       {{/if}}
       <div class="speakers">
         {{#each speakers}}
-        <div class="speaker" {{#if shortJob}}data-modal='{{createClass name}}'{{/if}}>
+        <div class="speaker" {{#if shortJob}} href="item-{{@index}}" data-modal='{{createClass name}}'{{/if}}>
           <div class="profile-picture">
             {{#if img}}
             <img decoding="async" alt="{{name}}" src="{{img}}" loading="lazy">

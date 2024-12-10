@@ -1,7 +1,8 @@
 {{#each this}}
-<div
+<div id="item-{{@index}}"
     class='grid-item {{#if bio}}org-bio {{/if}}{{#if exhibitor}}exhibitor {{/if}}{{createClass type}} {{createClass name}}'
     {{#if bio}}  
+    href="#item-{{@index}}"
     data-modal='{{@index}}'
     {{/if}}
 >
