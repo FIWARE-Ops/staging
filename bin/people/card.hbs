@@ -1,5 +1,5 @@
 {{#each this}}
-    <div 
+    <div id='item-{{@index}}'
         class='grid-item
             {{createClass company}}
             {{createClass country}}
@@ -7,7 +7,6 @@
             {{createClasses filters}}
             {{createClass domain}}'
     >
-        <span class="grid-scroll-offset" id='item-{{@index}}'/>
         <div class='f-cat active'>
             <div class='city-photo-container'>
                 <picture>
