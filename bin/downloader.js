@@ -125,7 +125,8 @@ async function checkAssets(items, image = 'img', base = 'image') {
     console.log(`Checking ${uniqueItems.length} ${base}s`);
     console.log();
     for (const item of uniqueItems) {
-        let value = await urlExists(item[1], item[0]);
+        console.log(item[1], item[0])
+        let value = await urlExists(item[1], path.basename(item[0]));
         if (value) {
             missing.push(value);
         }

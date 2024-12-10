@@ -18,6 +18,7 @@ const mediaFields = ['Media', 'Media 2', 'Media 3', 'Media 4', 'Media 5'];
 const refFields = ['Reference Material', 'Material 2', 'Material 3', 'Material 4', 'Material 5'];
 
 const path = require('path');
+const LOGO_DIR = 'directories/showcase/logo';
 
 /**
  * Take the human readable column names from the spreadsheet and create a
@@ -70,6 +71,7 @@ function extractProductDetails(input) {
             materials: Parser.getLinkArray(refFields, 'Reference', item),
             additionalText,
             logo: item.Logo,
+            logoName: item['Logo Name'],
             featuredImage: item['Featured Image'],
             furtherImages: ''
         };
@@ -164,6 +166,7 @@ function extractSummaryInfo(input, details) {
             obj.company = item['Organisation Name'];
             obj.name = item['Product Name'];
             obj.img = item.Logo;
+            obj.logoName = item['Logo Name'];
             obj.fiwareMember = item.Member;
             obj.fiwareIhub = item.iHub;
 
@@ -252,18 +255,17 @@ function relatedProducts(product, allCategories, category) {
 function tempArray (summaryInfo){
     arr = [];
     _.each(summaryInfo.powered, (item)=>{
-        arr.push({img : item.img, image: path.basename(item.img)})
+        arr.push({img : item.img, image: item.logoName})
     });
     _.each(summaryInfo.ready, (item)=>{
-        arr.push({img : item.img, image: path.basename(item.img)})
+        arr.push({img : item.img, image: item.logoName})
     });
     _.each(summaryInfo.services, (item)=>{
-        arr.push({img : item.img, image: path.basename(item.img)})
+        arr.push({img : item.img, image: item.logoName})
     });
     _.each(summaryInfo.cities, (item)=>{
-        arr.push({img : item.img, image: path.basename(item.img)})
-    });
-    
+        arr.push({img : item.img, image: item.logoName})
+    });    
     return arr;
 }
 
@@ -277,7 +279,7 @@ function uploadImages(summaryInfo) {
             return Downloader.validateUploads(missingImages);
         })
         .then((uploads) => {
-            Downloader.uploadImages(uploads, path.join('assets', IMAGES_DIR));
+            Downloader.uploadImages(uploads, path.join('assets', LOGO_DIR));
             Downloader.logUploads(uploads);
             return uploads;
         });
