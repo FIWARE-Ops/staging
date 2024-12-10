@@ -421,9 +421,9 @@ function initSelect() {
 
 function smoothScroll() {
   // Add smooth scrolling to all links
-  jQuery("a").on("click", function (event) {
+  $("a").on("click", function (event) {
     // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
+    if (this.hash !== "" && !($(this.hash).hasClass( "grid-scroll-offset" ))) {
       // Store hash
       var hash = this.hash;
 
