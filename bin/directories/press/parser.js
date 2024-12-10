@@ -15,8 +15,9 @@ function extractPeopleFigures(input) {
         const figure = {
             date: item.Date,
             title: item.Title,
-            link: item.Link,
-            topic: item.Url
+            news: item.News,
+            article: item.Article,
+            topic: item.Topic
         };
         
         press.push(figure);

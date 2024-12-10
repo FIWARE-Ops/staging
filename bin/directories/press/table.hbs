@@ -1,25 +1,32 @@
 <div class="list-directory">
-    <div class="ld-head">
-            <div class="ld-item-name">Figure</div>
-            <div class="ld-item-value">Value</div>
-            <div class="ld-item-owner">Owner</div>
-            <div class="ld-item-source">Source</div>
-    </div>
+    <!-- <div class="ld-head">
+            <div class="ld-publication-name">Name</div>
+            <div class="ld-type">Type</div>
+            <div class="ld-domain">Domain</div>
+    </div> -->
     {{#each this}}
         <div class="ld-item-container">
-            <div class="ld-figure-name">{{name}}</div>
-            <div class="md-value--small">{{value}}</div>
-            {{#if owner}}
-            <img alt='' class='ld-item-pic' src='{{img}}' loading='lazy' />
-            <div class="ld-item-name">{{owner}}</div>
-            {{/if}}
-            {{#if source}}
-            <a target='_blank' href='{{url}}' rel='noopener'>
-                <div class="md-button md-button--secondary">
-                {{source}}
-                </div>
-            </a>
-            {{/if}}
+            <div class="ld-publication-name">{{title}}</div>
+            <div class="ld-type">{{date}}</div>
+            <div class="lp-item-team">
+                <div class="chip">{{topic}}</div>
+            </div>
+            <div class="ld-icons-container">
+                {{#if news}}
+                <a target='_blank' href='{{news}}' rel='noopener'>
+                    <div class="list-icon">
+                    <span class="material-symbols-outlined regular">visibility</span>
+                    </div>
+                </a>
+                {{/if}}
+                {{#if article}}
+                <a target='_blank' href='{{article}}' rel='noopener'>
+                    <div class="list-icon">
+                    <span class="material-symbols-outlined regular">description</span>
+                    </div>
+                </a>
+                {{/if}}
+            </div>
         </div>
     {{/each}}
 </div>
