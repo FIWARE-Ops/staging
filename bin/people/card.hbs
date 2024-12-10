@@ -1,5 +1,5 @@
 {{#each this}}
-    <div
+    <div id='item-{{@index}}'
         class='grid-item
             {{createClass company}}
             {{createClass country}}
@@ -33,7 +33,7 @@
             </div>
             <div class='icons'>
                 {{#if bio}}
-                    <a href="#" class='cat-bio' data-modal='{{@index}}'><span class='icon bio'></span></a>
+                    <a href="#item-{{@index}}" class='cat-bio' data-modal='{{@index}}'><span class='icon bio'></span></a>
                 {{/if}}
                 {{#if twitter}}
                     <a class='cat-twitter' target='_blank' href='{{twitter}}' rel='noopener'><span
