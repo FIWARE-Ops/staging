@@ -4,6 +4,7 @@ const path = require('path');
 const Prettier = require('prettier');
 const Parser = require('../dataParser');
 const Sorter = require('../sort');
+const People = require('./people');
 const Template = require('../template');
 const Downloader = require('../downloader');
 const TEMPLATE_PATH = 'bin/templates/research-development/';
@@ -20,14 +21,13 @@ const _ = require('underscore');
  * Take the human readable column names from the spreadsheet and create a
  * data object of each project for later use
  */
-function extractProjects(input) {
+function extractProjects(input ,team) {
     const today = new Date();
     const projects = [];
     input.forEach((item) => {
         const project = {
             name: item.Name,
             image: item.Image ? item.Image : DEFAULT_IMAGE,
-            imageProfile: item['Profile Picture'],
             domains: Parser.splitStrings(item.Domain),
             technologies: Parser.splitStrings(item.Technology),
             type: item.Type,
@@ -65,7 +65,6 @@ function extractProjects(input) {
             publish: Parser.boolean(item.Published)
         };
 
-        project.img = 'https://www.fiware.org/wp-content/' + path.join(PEOPLE_ASSETS_DIR, project.image || '');
         project.year = project.startDate ? project.startDate.getFullYear().toString() : 'unknown';
         project.type = project.endDate < today ? 'Completed' : 'Ongoing';
 
@@ -79,6 +78,16 @@ function extractProjects(input) {
         if (project.publish) {
             project.img = 'https://www.fiware.org/wp-content/' + path.join(ASSETS_DIR, project.image);
             project.flagUrl = 'https://www.fiware.org/wp-content/' + path.join(FLAGS_DIR, project.flag);
+            
+            if (project.responsible !== ''){
+            const responsible = _.findWhere(team, { name: project.responsible });
+                if (responsible){
+                   project.responsibleUrl = responsible.img; 
+               } else {
+                 console.log(`${project.responsible} not found`)
+               }
+            }
+            
             projects.push(project);
         }
     });
@@ -190,36 +199,41 @@ function generateHTML(projects) {
  * Read in the research-development file and output
  * HTML and JavaScript files
  */
-function parse(file) {
+function parse(file, teamFile) {
     return csv()
-        .fromFile(file)
+        .fromFile(teamFile)
         .then((input) => {
-            return extractProjects(input);
-        })
-        .then((projects) => {
-            return generateHTML(projects);
-        })
-        .then((projects) => {
-            Downloader.emptyAssets();
-            return uploadImages(projects).then(() => {
-                return projects;
+            const team = People.extract(input, true);
+        return csv()
+            .fromFile(file)
+            .then((input) => {
+                return extractProjects(input, team);
+            })
+            .then((projects) => {
+                return generateHTML(projects);
+            })
+            .then((projects) => {
+                Downloader.emptyAssets();
+                return uploadImages(projects).then(() => {
+                    return projects;
+                });
+            })
+            .then((projects) => {
+                return uploadFlags(projects).then(() => {
+                    return projects;
+                });
+            })
+            .then((projects) => {
+                Template.write(
+                    path.join('welcome', RESEARCH_DEVELOPMENT_DIR, 'projects-list.html'),
+                    path.join(TEMPLATE_PATH, 'table.hbs'),
+                    projects
+                );
+                Prettier.format(path.join('welcome', RESEARCH_DEVELOPMENT_DIR, 'projects-list.html'), { parser: 'html' });
+            })
+            .catch((e) => {
+                console.log(e);
             });
-        })
-        .then((projects) => {
-            return uploadFlags(projects).then(() => {
-                return projects;
-            });
-        })
-        .then((projects) => {
-            Template.write(
-                path.join('welcome', RESEARCH_DEVELOPMENT_DIR, 'projects-list.html'),
-                path.join(TEMPLATE_PATH, 'table.hbs'),
-                projects
-            );
-            Prettier.format(path.join('welcome', RESEARCH_DEVELOPMENT_DIR, 'projects-list.html'), { parser: 'html' });
-        })
-        .catch((e) => {
-            console.log(e);
         });
 }
 

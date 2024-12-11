@@ -41,7 +41,7 @@
     "organisations": "PROCESS=organisations npm start",
     "msc": "PROCESS=people PAGE=msc npm start",
     "press": "PROCESS=press PAGE=press npm start",
-    "research-development": "PROCESS=research-development npm start",
+    "research-development": "PROCESS=research-development  PAGE=team npm start",
     "showcase": "PROCESS=products npm start",
     "showcase+": "GEN_CONTENT=true PROCESS=products npm start",
     "speakers": "PROCESS=people PAGE=speakers npm start",

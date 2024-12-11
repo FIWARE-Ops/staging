@@ -125,9 +125,13 @@ switch (PROCESS) {
         break;
     // Create HTML and template files for research and development
     case 'research-development':
-        Loader.load('research-development', ResearchDevelopment.file).then(() => {
-            return ResearchDevelopment.parse(ResearchDevelopment.file);
-        });
+        Loader.load('research-development', ResearchDevelopment.file)
+            .then(() => {
+                return Loader.load(PAGE, People.file);
+            })
+            .then(() => {
+                return ResearchDevelopment.parse(ResearchDevelopment.file, People.file);
+            });
         break;
     // Create HTML and template files for the marketing tool box
     case 'marketing':
