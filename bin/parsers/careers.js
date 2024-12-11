@@ -121,7 +121,7 @@ function parse(file) {
             return generateHTML(jobs);
         })
         .then((jobs) => {
-            Downloader.emptyAssets()
+            Downloader.emptyAssets();
             return uploadImages(jobs).then(() => {
                 return jobs;
             });

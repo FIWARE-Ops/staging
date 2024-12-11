@@ -4,6 +4,7 @@ const Prettier = require('prettier');
 const Template = require('../template');
 const TEMPLATE_PATH = 'bin/templates/directory-figures/';
 const DIRECTORY_FIGURES_DIR = 'directories/directory-figures';
+const INTERNAL_FIGURES_DIR = 'welcome/directories/directory-figures';
 const PEOPLE_ASSETS_DIR = 'directories/people/images/200px';
 /**
  * Take the human readable column names from the spreadsheet and create a
@@ -33,6 +34,16 @@ function extractDirectoryFigures(input) {
     return dfigures;
 }
 
+function generateInternalHTML(dfigures) {
+    Template.write(
+        path.join(INTERNAL_FIGURES_DIR, 'directory-figures.html'),
+        path.join(TEMPLATE_PATH, 'table.hbs'),
+        dfigures
+    );
+    Prettier.format(path.join(INTERNAL_FIGURES_DIR, 'directory-figures.html'), { parser: 'html' });
+    return dfigures;
+}
+
 /**
  * Read in the figures file and output
  * HTML and JavaScript files
@@ -44,12 +55,7 @@ function parse(file) {
             return extractDirectoryFigures(input);
         })
         .then((dfigures) => {
-            Template.write(
-                path.join('welcome', DIRECTORY_FIGURES_DIR, 'directory-figures.html'),
-                path.join(TEMPLATE_PATH, 'table.hbs'),
-                dfigures
-            );
-            Prettier.format(path.join('welcome', DIRECTORY_FIGURES_DIR, 'directory-figures.html'), { parser: 'html' });
+            return generateInternalHTML(dfigures);
         })
         .catch((e) => {
             console.log(e);

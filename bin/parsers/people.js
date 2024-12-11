@@ -12,6 +12,7 @@ const Static = require('./peopleData');
 
 const TEMPLATE_PATH = 'bin/templates/people';
 const PEOPLE_DIR = 'directories/people';
+const INTERNAL_PEOPLE_DIR = 'welcome/directories/people';
 const ASSETS_DIR = 'directories/people/images/200px';
 const FLAGS_DIR = 'directories/people/images/flag';
 
@@ -135,12 +136,12 @@ function generateHTML(people, page) {
     }
     if (page === 'team') {
         Template.write(
-            path.join('welcome', PEOPLE_DIR, page, 'tech.html'),
+            path.join(INTERNAL_PEOPLE_DIR, page, 'tech.html'),
             path.join(TEMPLATE_PATH, 'tech-table.hbs'),
             people
         );
         Template.write(
-            path.join('welcome', PEOPLE_DIR, page, 'ops.html'),
+            path.join(INTERNAL_PEOPLE_DIR, page, 'ops.html'),
             path.join(TEMPLATE_PATH, 'ops-table.hbs'),
             people
         );

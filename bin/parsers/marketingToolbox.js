@@ -8,6 +8,7 @@ const Template = require('../template');
 const Downloader = require('../downloader');
 const TEMPLATE_PATH = 'bin/templates/marketing-toolbox/';
 const MARKETING_TOOLS_DIR = 'directories/marketing-toolbox';
+const INTERNAL_MARKETING_TOOLS_DIR = 'welcome/directories/marketing-toolbox';
 const ASSETS_DIR = 'directories/marketing-toolbox/images/thumbs';
 const FLAGS_DIR = 'directories/people/images/flag';
 
@@ -101,6 +102,16 @@ function generateHTML(tools) {
     return tools;
 }
 
+function generateInternalHTML(tools) {
+    Template.write(
+        path.join(INTERNAL_MARKETING_TOOLS_DIR, 'publications-directory.html'),
+        path.join(TEMPLATE_PATH, 'table.hbs'),
+        tools
+    );
+    Prettier.format(path.join(INTERNAL_MARKETING_TOOLS_DIR, 'publications-directory.html'), { parser: 'html' });
+    return tools;
+}
+
 /**
  * Read in the iHubs file and output
  * HTML and JavaScript files
@@ -125,13 +136,8 @@ function parse(file) {
                 return tools;
             });
         })
-        .then((dfigures) => {
-            Template.write(
-                path.join('welcome', MARKETING_TOOLS_DIR, 'publications-directory.html'),
-                path.join(TEMPLATE_PATH, 'table.hbs'),
-                dfigures
-            );
-            Prettier.format(path.join('welcome', MARKETING_TOOLS_DIR, 'publications-directory.html'), { parser: 'html' });
+        .then((tools) => {
+            return generateInternalHTML(tools);
         })
         .catch((e) => {
             console.log(e);

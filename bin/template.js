@@ -188,7 +188,7 @@ function webp(file) {
     return path.format({
         dir: path.dirname(file),
         name: path.basename(file, path.extname(file)),
-        ext: 'webp',
+        ext: 'webp'
     });
 }
 

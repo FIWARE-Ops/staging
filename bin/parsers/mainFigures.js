@@ -3,7 +3,7 @@ const path = require('path');
 const Prettier = require('prettier');
 const Template = require('../template');
 const TEMPLATE_PATH = 'bin/templates/main-figures/';
-const MAIN_FIGURES_DIR = 'directories/main-figures';
+const INTERNAL_MAIN_FIGURES_DIR = 'welcome/directories/main-figures';
 /**
  * Take the human readable column names from the spreadsheet and create a
  * data object of key figures for later use
@@ -27,7 +27,16 @@ function extractMainFigures(input) {
     console.log(mfigures.length, ' main figures generated.');
     return mfigures;
 }
+function generateInternalHTML(mfigures) {
+    Template.write(
+        path.join(INTERNAL_MAIN_FIGURES_DIR, 'main-figures.html'),
+        path.join(TEMPLATE_PATH, 'table.hbs'),
+        mfigures
+    );
+    Prettier.format(path.join(INTERNAL_MAIN_FIGURES_DIR, 'main-figures.html'), { parser: 'html' });
 
+    return mfigures;
+}
 /**
  * Read in the figures file and output
  * HTML and JavaScript files
@@ -39,12 +48,7 @@ function parse(file) {
             return extractMainFigures(input);
         })
         .then((mfigures) => {
-            Template.write(
-                path.join('welcome', MAIN_FIGURES_DIR, 'main-figures.html'),
-                path.join(TEMPLATE_PATH, 'table.hbs'),
-                mfigures
-            );
-            Prettier.format(path.join('welcome', MAIN_FIGURES_DIR, 'main-figures.html'), { parser: 'html' });
+            return generateInternalHTML(mfigures);
         })
         .catch((e) => {
             console.log(e);

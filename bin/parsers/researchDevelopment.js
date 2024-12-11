@@ -9,8 +9,8 @@ const Template = require('../template');
 const Downloader = require('../downloader');
 const TEMPLATE_PATH = 'bin/templates/research-development/';
 const RESEARCH_DEVELOPMENT_DIR = 'directories/research-development';
+const INTERNAL_R_AND_D_DIR = 'welcome/directories/research-development';
 const ASSETS_DIR = 'directories/research-development/images';
-const PEOPLE_ASSETS_DIR = 'directories/people/images/200px';
 const FLAGS_DIR = 'directories/people/images/flag';
 const IMAGE_SIZE = { height: 201, width: 360 };
 const FLAG_SIZE = { height: 120, width: 120 };
@@ -21,7 +21,7 @@ const _ = require('underscore');
  * Take the human readable column names from the spreadsheet and create a
  * data object of each project for later use
  */
-function extractProjects(input ,team) {
+function extractProjects(input, team) {
     const today = new Date();
     const projects = [];
     input.forEach((item) => {
@@ -78,16 +78,16 @@ function extractProjects(input ,team) {
         if (project.publish) {
             project.img = 'https://www.fiware.org/wp-content/' + path.join(ASSETS_DIR, project.image);
             project.flagUrl = 'https://www.fiware.org/wp-content/' + path.join(FLAGS_DIR, project.flag);
-            
-            if (project.responsible !== ''){
-            const responsible = _.findWhere(team, { name: project.responsible });
-                if (responsible){
-                   project.responsibleUrl = responsible.img; 
-               } else {
-                 console.log(`${project.responsible} not found`)
-               }
+
+            if (project.responsible !== '') {
+                const responsible = _.findWhere(team, { name: project.responsible });
+                if (responsible) {
+                    project.responsibleUrl = responsible.img;
+                } else {
+                    console.log(`${project.responsible} not found`);
+                }
             }
-            
+
             projects.push(project);
         }
     });
@@ -135,7 +135,7 @@ function generateHTML(projects) {
         types: Sorter.sortData(projects, 'type'),
         domains: Sorter.flatSortData(projects, 'domains'),
         countries: Sorter.flatSortData(projects, 'country'),
-        projects: _.map(projects, (project)=>{
+        projects: _.map(projects, (project) => {
             delete project.datasheet;
             delete project.projectDir;
             delete project.designDir;
@@ -195,6 +195,16 @@ function generateHTML(projects) {
     return projects;
 }
 
+function generateInternalHTML(projects) {
+    Template.write(
+        path.join(INTERNAL_R_AND_D_DIR, 'projects-list.html'),
+        path.join(TEMPLATE_PATH, 'table.hbs'),
+        projects
+    );
+    Prettier.format(path.join(INTERNAL_R_AND_D_DIR, 'projects-list.html'), { parser: 'html' });
+    return projects;
+}
+
 /**
  * Read in the research-development file and output
  * HTML and JavaScript files
@@ -204,36 +214,31 @@ function parse(file, teamFile) {
         .fromFile(teamFile)
         .then((input) => {
             const team = People.extract(input, true);
-        return csv()
-            .fromFile(file)
-            .then((input) => {
-                return extractProjects(input, team);
-            })
-            .then((projects) => {
-                return generateHTML(projects);
-            })
-            .then((projects) => {
-                Downloader.emptyAssets();
-                return uploadImages(projects).then(() => {
-                    return projects;
+            return csv()
+                .fromFile(file)
+                .then((input) => {
+                    return extractProjects(input, team);
+                })
+                .then((projects) => {
+                    return generateHTML(projects);
+                })
+                .then((projects) => {
+                    Downloader.emptyAssets();
+                    return uploadImages(projects).then(() => {
+                        return projects;
+                    });
+                })
+                .then((projects) => {
+                    return uploadFlags(projects).then(() => {
+                        return projects;
+                    });
+                })
+                .then((projects) => {
+                    return generateInternalHTML(projects);
+                })
+                .catch((e) => {
+                    console.log(e);
                 });
-            })
-            .then((projects) => {
-                return uploadFlags(projects).then(() => {
-                    return projects;
-                });
-            })
-            .then((projects) => {
-                Template.write(
-                    path.join('welcome', RESEARCH_DEVELOPMENT_DIR, 'projects-list.html'),
-                    path.join(TEMPLATE_PATH, 'table.hbs'),
-                    projects
-                );
-                Prettier.format(path.join('welcome', RESEARCH_DEVELOPMENT_DIR, 'projects-list.html'), { parser: 'html' });
-            })
-            .catch((e) => {
-                console.log(e);
-            });
         });
 }
 

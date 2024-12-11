@@ -44,7 +44,7 @@ function extractProductDetails(input) {
         let additionalText = '';
         try {
             additionalText = fs.readFileSync(path.join(__dirname, `../../marketplace/texts/${hash}.html`)).toString();
-        } catch (e){
+        } catch (e) {
             // Nothing
         }
         details[category][hash] = {
@@ -248,28 +248,26 @@ function relatedProducts(product, allCategories, category) {
     }
 }
 
-
-function tempArray (summaryInfo){
+function tempArray(summaryInfo) {
     arr = [];
-    _.each(summaryInfo.powered, (item)=>{
-        arr.push({img : item.img, image: path.basename(item.img)})
+    _.each(summaryInfo.powered, (item) => {
+        arr.push({ img: item.img, image: path.basename(item.img) });
     });
-    _.each(summaryInfo.ready, (item)=>{
-        arr.push({img : item.img, image: path.basename(item.img)})
+    _.each(summaryInfo.ready, (item) => {
+        arr.push({ img: item.img, image: path.basename(item.img) });
     });
-    _.each(summaryInfo.services, (item)=>{
-        arr.push({img : item.img, image: path.basename(item.img)})
+    _.each(summaryInfo.services, (item) => {
+        arr.push({ img: item.img, image: path.basename(item.img) });
     });
-    _.each(summaryInfo.cities, (item)=>{
-        arr.push({img : item.img, image: path.basename(item.img)})
+    _.each(summaryInfo.cities, (item) => {
+        arr.push({ img: item.img, image: path.basename(item.img) });
     });
-    
+
     return arr;
 }
 
 function uploadImages(summaryInfo) {
-
-    const items = tempArray (summaryInfo);
+    const items = tempArray(summaryInfo);
 
     return Downloader.checkImages(items, 'img', 'image')
         .then((missingImages) => {
@@ -328,25 +326,24 @@ function createSocialMedia(products, dir, category) {
     Template.write(path.join('marketplace', dir, `sitemap.xml`), path.join(TEMPLATE_PATH, 'sitemap-xml.hbs'), products);
 }
 
-async function generateContent(optIn, products, type){
-    const hashes = _.map(optIn, (item)=>{
+async function generateContent(optIn, products, type) {
+    const hashes = _.map(optIn, (item) => {
         const hash = Parser.getHash(item.company, item.name);
         return hash;
-    })
+    });
     console.log(`Generating Premium Content for ${type}`);
 
     for (const item of _.pairs(products)) {
-        if (hashes.includes(item[0])){
+        if (hashes.includes(item[0])) {
             let text = await Downloader.getTextContent(item[1]);
 
-            const filename =  path.join(__dirname, `../../marketplace/texts/${item[0]}.html`)
+            const filename = path.join(__dirname, `../../marketplace/texts/${item[0]}.html`);
             fs.writeFile(filename, text, function (err) {
                 if (err) return console.log(err);
             });
         }
     }
     console.log();
-
 }
 
 function generateHTML(allProducts, summaryInfo) {
@@ -455,46 +452,58 @@ function parse(detailsFile, summaryFile) {
                     return generateHTML(allProducts, summaryInfo);
                 })
                 .then((summaryInfo) => {
-                    return GEN_CONTENT ? generateContent(
-                        _.where(summaryInfo.powered, { fiwareMember: true }),
-                        allProducts.details.powered, 'products')
-                        .then(() => {
-                            return summaryInfo;
-                        }): summaryInfo;
+                    return GEN_CONTENT
+                        ? generateContent(
+                              _.where(summaryInfo.powered, { fiwareMember: true }),
+                              allProducts.details.powered,
+                              'products'
+                          ).then(() => {
+                              return summaryInfo;
+                          })
+                        : summaryInfo;
                 })
                 .then((summaryInfo) => {
-                    return GEN_CONTENT ? generateContent(
-                        _.where(summaryInfo.ready, { fiwareMember: true }),
-                        allProducts.details.ready, 'devices')
-                        .then(() => {
-                            return summaryInfo;
-                        }): summaryInfo;
+                    return GEN_CONTENT
+                        ? generateContent(
+                              _.where(summaryInfo.ready, { fiwareMember: true }),
+                              allProducts.details.ready,
+                              'devices'
+                          ).then(() => {
+                              return summaryInfo;
+                          })
+                        : summaryInfo;
                 })
                 .then((summaryInfo) => {
-                    return GEN_CONTENT ? generateContent(
-                        _.where(summaryInfo.services, { fiwareMember: true }),
-                        allProducts.details.services, 'services')
-                        .then(() => {
-                            return summaryInfo;
-                        }): summaryInfo;
+                    return GEN_CONTENT
+                        ? generateContent(
+                              _.where(summaryInfo.services, { fiwareMember: true }),
+                              allProducts.details.services,
+                              'services'
+                          ).then(() => {
+                              return summaryInfo;
+                          })
+                        : summaryInfo;
                 })
                 .then((summaryInfo) => {
-                    return GEN_CONTENT ? generateContent(
-                        _.where(summaryInfo.cities, { fiwareMember: true }),
-                        allProducts.details.cities, 'cities')
-                        .then(() => {
-                            return summaryInfo;
-                        }): summaryInfo;
+                    return GEN_CONTENT
+                        ? generateContent(
+                              _.where(summaryInfo.cities, { fiwareMember: true }),
+                              allProducts.details.cities,
+                              'cities'
+                          ).then(() => {
+                              return summaryInfo;
+                          })
+                        : summaryInfo;
                 })
-                
+
                 .then((summaryInfo) => {
                     Downloader.emptyAssets();
                     return uploadImages(summaryInfo).then(() => {
                         return summaryInfo;
                     });
-                })
+                });
         })
-       
+
         .catch((e) => {
             console.log(e);
         });

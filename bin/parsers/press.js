@@ -3,8 +3,7 @@ const path = require('path');
 const Prettier = require('prettier');
 const Template = require('../template');
 const TEMPLATE_PATH = 'bin/templates/press/';
-const PRESS_DIR = 'directories/press';
-const PEOPLE_ASSETS_DIR = 'directories/people/images/200px';
+const INTERNAL_PRESS_DIR = 'welcome/directories/press';
 /**
  * Take the human readable column names from the spreadsheet and create a
  * data object of key figures for later use
@@ -19,7 +18,7 @@ function extractPeopleFigures(input) {
             article: item.Article,
             topic: item.Topic
         };
-        
+
         press.push(figure);
     });
 
@@ -28,6 +27,12 @@ function extractPeopleFigures(input) {
         process.exit(1);
     }
     console.log(press.length, ' press releases generated.');
+    return press;
+}
+
+function generateInternalHTML(press) {
+    Template.write(path.join(INTERNAL_PRESS_DIR, 'press.html'), path.join(TEMPLATE_PATH, 'table.hbs'), press);
+    Prettier.format(path.join(INTERNAL_PRESS_DIR, 'press.html'), { parser: 'html' });
     return press;
 }
 
@@ -42,12 +47,7 @@ function parse(file) {
             return extractPeopleFigures(input);
         })
         .then((press) => {
-            Template.write(
-                path.join('welcome', PRESS_DIR, 'press.html'),
-                path.join(TEMPLATE_PATH, 'table.hbs'),
-                press
-            );
-            Prettier.format(path.join('welcome', PRESS_DIR, 'press.html'), { parser: 'html' });
+            return generateInternalHTML(press);
         })
         .catch((e) => {
             console.log(e);
