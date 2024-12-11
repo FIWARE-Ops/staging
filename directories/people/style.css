@@ -51,7 +51,6 @@
     padding: 20px 0 15px;
     background: rgba(255, 255, 255, 1);
     transition: all 0.4s;
-    cursor: pointer;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -79,6 +78,7 @@
     padding: 0 20px;
     margin: 0 auto;
     gap: 5px;
+    cursor: pointer;
 }
 
 .profile-details p {
@@ -517,6 +517,7 @@
     padding-top: 130px;
     position:relative;
     margin: 0 auto 10px auto;
+    cursor: pointer;
 }
 
 .city-photo {
