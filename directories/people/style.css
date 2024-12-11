@@ -51,7 +51,7 @@
     padding: 20px 0 15px;
     background: rgba(255, 255, 255, 1);
     transition: all 0.4s;
-    cursor: default;
+    cursor: pointer;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -447,7 +447,7 @@
     color: #002e67;
     text-align: center;
     padding: 1px 1px 1px 0px;
-}*/
+}
 
 .cat-bio {
     display: flex;
@@ -467,7 +467,7 @@
 .cat-bio:hover {
     color: #fff;
     background-color: #002e67;
-}
+}*/
 
 .cat-location {
     position: relative;
@@ -682,6 +682,10 @@
     width: 640px;
 }
 
+.tingle-modal-box__content {
+    padding: 3rem 3rem 2rem;
+}
+
 .info-modal {
     display: flex;
     margin-bottom: 20px;
@@ -892,7 +896,7 @@
 }
 
 .tingle-modal .bio-modal p {
-    max-height: 115px;
+    max-height: 110px;
     overflow: auto;
 }
 
