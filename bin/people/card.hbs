@@ -1,6 +1,6 @@
 {{#each this}}
         <div id="item-{{@index}}"
-            class='grid-item {{#if bio}}cat-bio {{/if}}
+            class='grid-item
                 {{createClass company}}
                 {{createClass country}}
                 {{createClass department}}
@@ -12,13 +12,13 @@
             {{/if}}
         >
             <div class='f-cat active'>
-                 <div class='city-photo-container'>
+                 <div class='city-photo-container {{#if bio}}cat-bio {{/if}}'>
                     <picture>
                        <source srcset="{{webp img}}" type="image/webp"/>
                        <img alt='' class='city-photo' src='{{img}}' loading='lazy' />
                     </picture>
                 </div>
-                <div class='profile-details'>
+                <div class='profile-details {{#if bio}}cat-bio {{/if}}'>
                     <h6 class='name'>{{title}}{{name}}</h6>
                     <h4 class='position'>{{job}}</h4>
                     <a target='_blank' href='{{website}}' rel='noopener'>
