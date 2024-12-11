@@ -323,13 +323,13 @@ function printDomain(data) {
   }
 }
 
-function buildTracker(action, context, type, product, company, excerpt, url) {
+function buildTracker(action, context, type, product, company, excerpt, url, geoLocation) {
 
   var eventObj = {
     actor: {
     type: "User", 
     id: "System",
-    attributes: {"name": "John Doe"}
+    attributes: {"name": "John Doe", "geoLocation": geoLocation}
   },
   action: { 
      type: "action", 
@@ -350,15 +350,18 @@ function buildTracker(action, context, type, product, company, excerpt, url) {
 
 
   if (this.qualetics) {
+    console.log(action, "SENDING TO QUALETICS");
     this.qualetics.send(eventObj);
   } else {
-    console.log(eventObj);
+    console.log(action, eventObj);
   }
 }
 
+// "click"
+
 // Card tracking
 function cardTracking() {
-  $(document).on("click", "a.details", function (ev) {
+  $(document).on("mouseenter", "a.details", function (ev) {
     const product = $(this).parent().parent().find(".solution-name").text();
     const path = window.location.pathname.replace("/showcase", "");
     const company = $(this).parent().parent().find(".name").text();
@@ -384,6 +387,7 @@ function cardTracking() {
       company,
       description,
       url,
+      window.geoLocation,
     );
   });
 
@@ -412,6 +416,7 @@ function cardTracking() {
       company,
       `Search for ${domain} and ${technology}`,
       url,
+      window.geoLocation,
     );
   });
 }
