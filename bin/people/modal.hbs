@@ -31,7 +31,9 @@ var companies = [
 ]; var modalData = [
 {{#each people}}
     { name: "{{title}}{{name}}", img: "{{img}}", position: "{{job}}", company: "{{company}}{{companyType}}", "company-link": "{{website}}",
-    content: "{{bio}}", linkedin: "{{linkedIn}}", twitter: "{{twitter}}", domain: "{{domain}}", location: "{{country}}",
-    flag: "{{flagUrl}}", },
+    content: "{{bio}}", linkedin: "{{linkedIn}}", twitter: "{{twitter}}", domain: "{{domain}}", location: "{{country}}"
+    {{#if (ne flagUrl 'https://www.fiware.org/wp-content/directories/people/images/flag')}}
+    ,flag: "{{flagUrl}}"
+    {{/if}} 
 {{/each}}
 ];
