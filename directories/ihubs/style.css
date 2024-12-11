@@ -1383,6 +1383,7 @@ details summary::-webkit-details-marker {
     }
 
     .icons {
+        padding: 15px 0;
         flex-direction: row;
         text-align: center;
     }
