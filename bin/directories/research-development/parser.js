@@ -8,8 +8,8 @@ const Template = require('../../template');
 const Downloader = require('../../downloader');
 const TEMPLATE_PATH = 'bin/directories/research-development/';
 const RESEARCH_DEVELOPMENT_DIR = 'directories/research-development';
-const PEOPLE_ASSETS_DIR = 'directories/people/images/200px';
 const ASSETS_DIR = 'directories/research-development/images';
+const PEOPLE_ASSETS_DIR = 'directories/people/images/200px';
 const FLAGS_DIR = 'directories/people/images/flag';
 const IMAGE_SIZE = { height: 201, width: 360 };
 const FLAG_SIZE = { height: 120, width: 120 };
@@ -27,7 +27,7 @@ function extractProjects(input) {
         const project = {
             name: item.Name,
             image: item.Image ? item.Image : DEFAULT_IMAGE,
-            imagePeople: item['Profile Picture'],
+            imageProfile: item['Profile Picture'],
             domains: Parser.splitStrings(item.Domain),
             technologies: Parser.splitStrings(item.Technology),
             type: item.Type,
@@ -65,9 +65,9 @@ function extractProjects(input) {
             publish: Parser.boolean(item.Published)
         };
 
+        project.img = 'https://www.fiware.org/wp-content/' + path.join(PEOPLE_ASSETS_DIR, project.image || '');
         project.year = project.startDate ? project.startDate.getFullYear().toString() : 'unknown';
         project.type = project.endDate < today ? 'Completed' : 'Ongoing';
-        project.img = 'https://www.fiware.org/wp-content/' + path.join(PEOPLE_ASSETS_DIR, project.image || '');
 
         const filename = Template.createClass(project.name);
         project.social = `/project/${filename}.html`;
@@ -128,9 +128,9 @@ function generateHTML(projects) {
         countries: Sorter.flatSortData(projects, 'country'),
         projects: _.map(projects, (project)=>{
             delete project.datasheet;
-            delete item.projectDirectory
-            delete item.designDirectory
-            delete item.gaLink
+            delete project.projectDir;
+            delete project.designDir;
+            delete project.gaLink;
             return project;
         })
     };
@@ -169,12 +169,6 @@ function generateHTML(projects) {
         projects
     );
 
-    Template.write(
-        path.join('welcome', RESEARCH_DEVELOPMENT_DIR, 'projects-list.html'),
-        path.join(TEMPLATE_PATH, 'table.hbs'),
-        projects
-    );
-
     projects.forEach((project) => {
         const filename = Template.createClass(project.name);
         Template.write(
@@ -183,7 +177,6 @@ function generateHTML(projects) {
             project
         );
         Prettier.format(path.join(RESEARCH_DEVELOPMENT_DIR, `project/${filename}.html`), { parser: 'html' });
-        Prettier.format(path.join('welcome', RESEARCH_DEVELOPMENT_DIR, 'projects-list.html'), { parser: 'html' });
     });
 
     Prettier.format(path.join(RESEARCH_DEVELOPMENT_DIR, 'research.html'), { parser: 'html' });
@@ -216,6 +209,14 @@ function parse(file) {
             return uploadFlags(projects).then(() => {
                 return projects;
             });
+        })
+        .then((projects) => {
+            Template.write(
+                path.join('welcome', RESEARCH_DEVELOPMENT_DIR, 'projects-list.html'),
+                path.join(TEMPLATE_PATH, 'table.hbs'),
+                projects
+            );
+            Prettier.format(path.join('welcome', RESEARCH_DEVELOPMENT_DIR, 'projects-list.html'), { parser: 'html' });
         })
         .catch((e) => {
             console.log(e);
