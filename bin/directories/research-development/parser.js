@@ -8,6 +8,7 @@ const Template = require('../../template');
 const Downloader = require('../../downloader');
 const TEMPLATE_PATH = 'bin/directories/research-development/';
 const RESEARCH_DEVELOPMENT_DIR = 'directories/research-development';
+const PEOPLE_ASSETS_DIR = 'directories/people/images/200px';
 const ASSETS_DIR = 'directories/research-development/images';
 const FLAGS_DIR = 'directories/people/images/flag';
 const IMAGE_SIZE = { height: 201, width: 360 };
@@ -26,6 +27,7 @@ function extractProjects(input) {
         const project = {
             name: item.Name,
             image: item.Image ? item.Image : DEFAULT_IMAGE,
+            imagePeople: item['Profile Picture'],
             domains: Parser.splitStrings(item.Domain),
             technologies: Parser.splitStrings(item.Technology),
             type: item.Type,
