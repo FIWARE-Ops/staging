@@ -261,13 +261,16 @@ function initModal() {
 
   $(document).ready(function () {
     $(".f-cat a").on("click", function (e) {
-      e.stopPropagation();
-      e.preventDefault();
       var target = $(this.hash);
-      $('html, body').animate({
-          scrollTop: target.offset().top - 120 
-      }, 10);
-      return false;
+      if(target.offset()){
+        e.stopPropagation();
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: target.offset().top - 120 
+        }, 10);
+        return false;
+      }
+      
     });
   });
 }
