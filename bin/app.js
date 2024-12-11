@@ -101,15 +101,23 @@ switch (PROCESS) {
         break;
     // Create HTML for directory figures
     case 'directory-figures':
-        Loader.load('directory-figures', DirectoryFigures.file).then(() => {
-            return DirectoryFigures.parse(DirectoryFigures.file);
-        });
+        Loader.load('directory-figures', DirectoryFigures.file)
+            .then(() => {
+                return Loader.load(PAGE, People.file);
+            })
+            .then(() => {
+                return DirectoryFigures.parse(DirectoryFigures.file, People.file);
+            });
         break;
     // Create HTML for people figures
     case 'people-figures':
-        Loader.load('people-figures', PeopleFigures.file).then(() => {
-            return PeopleFigures.parse(PeopleFigures.file);
-        });
+        Loader.load('people-figures', PeopleFigures.file)
+            .then(() => {
+                return Loader.load(PAGE, People.file);
+            })
+            .then(() => {
+                return PeopleFigures.parse(PeopleFigures.file, People.file);
+            });
         break;
     // Create HTML for press releases
     case 'press':

@@ -1,16 +1,16 @@
 const csv = require('csvtojson');
 const path = require('path');
+const _ = require('underscore');
 const Prettier = require('prettier');
+const People = require('./people');
 const Template = require('../template');
 const TEMPLATE_PATH = 'bin/templates/directory-figures/';
-const DIRECTORY_FIGURES_DIR = 'directories/directory-figures';
 const INTERNAL_FIGURES_DIR = 'welcome/directories/directory-figures';
-const PEOPLE_ASSETS_DIR = 'directories/people/images/200px';
 /**
  * Take the human readable column names from the spreadsheet and create a
  * data object of key figures for later use
  */
-function extractDirectoryFigures(input) {
+function extractDirectoryFigures(input, team) {
     const dfigures = [];
     input.forEach((item) => {
         const figure = {
@@ -18,11 +18,17 @@ function extractDirectoryFigures(input) {
             value: item.Value,
             source: item.Source,
             url: item.Url,
-            owner: item.Owner,
-            image: item['Profile Picture']
+            owner: item.Owner
         };
 
-        figure.img = 'https://www.fiware.org/wp-content/' + path.join(PEOPLE_ASSETS_DIR, figure.image || '');
+        if (figure.owner !== '') {
+            const owner = _.findWhere(team, { name: figure.owner });
+            if (owner) {
+                figure.image = owner.img;
+            } else {
+                console.log(`${figure.owner} not found`);
+            }
+        }
         dfigures.push(figure);
     });
 
@@ -48,14 +54,19 @@ function generateInternalHTML(dfigures) {
  * Read in the figures file and output
  * HTML and JavaScript files
  */
-function parse(file) {
+function parse(file, teamFile) {
     return csv()
-        .fromFile(file)
+        .fromFile(teamFile)
         .then((input) => {
-            return extractDirectoryFigures(input);
-        })
-        .then((dfigures) => {
-            return generateInternalHTML(dfigures);
+            const team = People.extract(input, true);
+            return csv()
+                .fromFile(file)
+                .then((input) => {
+                    return extractDirectoryFigures(input, team);
+                })
+                .then((dfigures) => {
+                    return generateInternalHTML(dfigures);
+                });
         })
         .catch((e) => {
             console.log(e);
