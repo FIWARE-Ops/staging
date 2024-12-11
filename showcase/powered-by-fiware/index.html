@@ -907,7 +907,6 @@ document.addEventListener("DOMContentLoaded", () => {
 <script>
 function getGeoLocation() {
     return new Promise((resolve, reject) => {
-        // Use the geoip2.insights method to get location information
         geoip2.city(
             function onSuccess(response) {
                 // If successful, extract location information
@@ -948,7 +947,7 @@ try {
     PAGEVIEW_TRACKING = true;
     OPTIONS = {
               host: "wss://api.qualetics.com",
-              //port: 443,
+              port: 443,
               trackUserGeoLocation: false
               };
     var qualetics = new Qualetics.service("fiwarestaging", "tCYhHGwxFW28", "L4z5mP", PAGEVIEW_TRACKING, OPTIONS);  
