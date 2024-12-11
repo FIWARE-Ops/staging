@@ -12,13 +12,25 @@
             {{/if}}
         >
             <div class='f-cat active'>
-                 <div class='city-photo-container {{#if bio}}cat-bio {{/if}}'>
+                 <div class='city-photo-container
+                    {{#if bio}}cat-bio {{/if}}'
+                    {{#if bio}}
+                    href="#item-{{@index}}"  
+                    data-modal='{{@index}}'
+                    {{/if}}
+                 >
                     <picture>
                        <source srcset="{{webp img}}" type="image/webp"/>
                        <img alt='' class='city-photo' src='{{img}}' loading='lazy' />
                     </picture>
                 </div>
-                <div class='profile-details {{#if bio}}cat-bio {{/if}}'>
+                <div class='profile-details
+                    {{#if bio}}cat-bio {{/if}}'
+                    {{#if bio}}
+                    href="#item-{{@index}}"  
+                    data-modal='{{@index}}'
+                    {{/if}}
+                 >
                     <h6 class='name'>{{title}}{{name}}</h6>
                     <h4 class='position'>{{job}}</h4>
                     <a target='_blank' href='{{website}}' rel='noopener'>
