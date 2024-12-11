@@ -210,7 +210,7 @@ function createModalContent(tingleModalData) {
       tingleModalData["linkedin"] +
       '" target="_blank"></a>';
   }
-  if (tingleModalData.flag !== "") {
+  if (tingleModalData.flag) {
     modalHtml += `<img class="flag"  src="${tingleModalData.flag}"/>`;
   }
   modalHtml += "</div>";
