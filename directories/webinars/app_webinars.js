@@ -165,12 +165,16 @@ function initModal() {
 
       // open modal
       modal.open();
-    });
-  });
 
-  $(document).ready(function () {
-    $(".f-cat a").on("click", function (e) {
-      e.stopPropagation();
+      var target = $(this.hash);
+      if(target.offset()){
+        e.stopPropagation();
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: target.offset().top - 120 
+        }, 10);
+        return false;
+      }
     });
   });
 }
@@ -415,9 +419,9 @@ function initSelect() {
 
 function smoothScroll() {
   // Add smooth scrolling to all links
-  jQuery("a").on("click", function (event) {
+  $("a").on("click", function (event) {
     // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
+    if (this.hash !== ""  && !($(this.hash).hasClass( "grid-item" ))) {
       // Store hash
       var hash = this.hash;
 
@@ -510,6 +514,7 @@ document.addEventListener("html-included", () => {
   init = true;
   initSelect();
   initChips();
+  initModal();
   filterToggle();
   //initSticky();
   horizontalScroll();
