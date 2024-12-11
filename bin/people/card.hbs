@@ -1,36 +1,19 @@
 {{#each this}}
-        <div id="item-{{@index}}"
-            class='grid-item
-                {{createClass company}}
-                {{createClass country}}
-                {{createClass department}}
-                {{createClasses filters}}
-                {{createClass domain}}'
-            {{#if bio}}
-            href="#item-{{@index}}"  
-            data-modal='{{@index}}'
-            {{/if}}
-        >
+        <div id="item-{{@index}}" class="grid-item {{createClass company}} {{createClass country}} {{createClass department}} {{createClasses filters}} {{createClass domain}}">
             <div class='f-cat active'>
-                 <div class='city-photo-container
-                    {{#if bio}}cat-bio {{/if}}'
-                    {{#if bio}}
-                    href="#item-{{@index}}"  
-                    data-modal='{{@index}}'
-                    {{/if}}
-                 >
+                {{#if bio}}
+                <a class='cat-bio' href="#item-{{@index}}" data-modal='{{@index}}'>
+                {{/if}}
+                <div class='city-photo-container'>
                     <picture>
                        <source srcset="{{webp img}}" type="image/webp"/>
-                       <img alt='' class='city-photo' src='{{img}}' loading='lazy' />
+                       <img alt="" class="city-photo" src="{{img}}" loading="lazy" />
                     </picture>
                 </div>
-                <div class='profile-details
-                    {{#if bio}}cat-bio {{/if}}'
-                    {{#if bio}}
-                    href="#item-{{@index}}"  
-                    data-modal='{{@index}}'
-                    {{/if}}
-                 >
+                {{#if bio}}
+                </a>
+                {{/if}}
+                <div class='profile-details'>
                     <h6 class='name'>{{title}}{{name}}</h6>
                     <h4 class='position'>{{job}}</h4>
                     <a target='_blank' href='{{website}}' rel='noopener'>
