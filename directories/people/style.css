@@ -48,7 +48,7 @@
 
 .f-cat {
     border-radius: 4px;
-    padding: 20px;
+    padding: 20px 0 15px;
     background: rgba(255, 255, 255, 1);
     transition: all 0.4s;
     cursor: default;
@@ -76,6 +76,7 @@
     display: flex;
     flex-direction: column;
     width: fit-content;
+    padding: 0 20px;
     margin: 0 auto;
     gap: 5px;
 }
@@ -429,12 +430,10 @@
     font-family: "ETmodules";
     font-weight: 600;
     content: "\4c";
-    font-size: 20px;
+    font-size: 22px;
     display: inline-block;
     position: relative;
-    padding: 0;
-    /* width: 32px;
-    height: 32px; */
+    padding: 0 1px 1px 0;
 }
 
 /*
@@ -809,7 +808,7 @@
     margin-right: 3px;
 }
 
-.twitter-link::before {
+/* .twitter-link::before {
     font-family: "ETmodules";
     font-weight: 400;
     content: "\e094";
@@ -824,13 +823,33 @@
     text-align: center;
     padding-left: 1px;
     padding-top: 4px;
-}
+} */
 
 .twitter-link {
+    font-weight: 400;
+    font-size: 20px;
+    display: inline-block;
     position: relative;
+    background-color: #ebebeb;
+    background-image: url(https://www.fiware.org/custom/icons/blue/twitter.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    border-radius: 40px;
+    width: 32px;
+    height: 32px;
+    color: #002e67;
+    text-align: center;
+    padding: 2px;
+    transition: all 0.3s ease-in-out;
 }
 
-.linkedin-link::before {
+.twitter-link:hover {
+    background-color: #002e67;
+    background-image: url(https://www.fiware.org/custom/icons/white/twitter.svg);
+}
+
+/* .linkedin-link::before {
     font-family: "ETmodules";
     font-weight: 400;
     content: "\e09d";
@@ -846,10 +865,30 @@
     text-align: center;
     padding-right: 0px;
     padding-top: 4px;
-}
+} */
 
 .linkedin-link {
+    font-weight: 400;
+    font-size: 20px;
+    display: inline-block;
     position: relative;
+    background-color: #ebebeb;
+    background-image: url(https://www.fiware.org/custom/icons/blue/linkedin.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 45%;
+    border-radius: 40px;
+    width: 32px;
+    height: 32px;
+    color: #002e67;
+    text-align: center;
+    padding: 2px;
+    transition: all 0.3s ease-in-out;
+}
+
+.linkedin-link:hover {
+    background-color: #002e67;
+    background-image: url(https://www.fiware.org/custom/icons/white/linkedin.svg);
 }
 
 .tingle-modal .bio-modal p {
