@@ -908,7 +908,7 @@ document.addEventListener("DOMContentLoaded", () => {
 function getGeoLocation() {
     return new Promise((resolve, reject) => {
         // Use the geoip2.insights method to get location information
-        geoip2.insights(
+        geoip2.city(
             function onSuccess(response) {
                 // If successful, extract location information
                 const location = {
