@@ -13,6 +13,7 @@ const FLAGS_DIR = 'directories/people/images/flag';
 const IMAGE_SIZE = { height: 201, width: 360 };
 const FLAG_SIZE = { height: 120, width: 120 };
 const DEFAULT_IMAGE = 'r-and-d-default.png';
+const _ = require('underscore');
 
 /**
  * Take the human readable column names from the spreadsheet and create a
@@ -29,6 +30,7 @@ function extractProjects(input) {
             technologies: Parser.splitStrings(item.Technology),
             type: item.Type,
             contact: item.Contact,
+            datasheet: item.Datasheet,
             linkedIn: item.LinkedIn,
             twitter: item.Twitter,
             website: item.Website,
@@ -117,7 +119,10 @@ function generateHTML(projects) {
         types: Sorter.sortData(projects, 'type'),
         domains: Sorter.flatSortData(projects, 'domains'),
         countries: Sorter.flatSortData(projects, 'country'),
-        projects
+        projects: _.map(projects, (project)=>{
+            delete project.datasheet;
+            return project;
+        })
     };
 
     Template.clean(path.join(RESEARCH_DEVELOPMENT_DIR, '/project'));
