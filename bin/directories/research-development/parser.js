@@ -39,9 +39,13 @@ function extractProjects(input) {
             tenderLink: item['Tender Link'],
             partnersDetails: Parser.markdown(item['Partner Details']),
             grantAgreement: item['Grant Agreement'],
+            gaLink: item['GA Link'],
             flag: item.Flag,
             startDate: Parser.date(item['Start Date']),
             endDate: Parser.date(item['End Date']),
+            responsible: item.Responsible,
+            projectDir: item['Project Directory'],
+            designDir: item['Design Directory'],
             country: item['Funded By'],
             disclaimant: item.Disclaimant,
             excerpt: item.Excerpt,
@@ -121,6 +125,9 @@ function generateHTML(projects) {
         countries: Sorter.flatSortData(projects, 'country'),
         projects: _.map(projects, (project)=>{
             delete project.datasheet;
+            delete item.projectDirectory
+            delete item.designDirectory
+            delete item.gaLink
             return project;
         })
     };
