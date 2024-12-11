@@ -34,6 +34,7 @@ var companies = [
     content: "{{bio}}", linkedin: "{{linkedIn}}", twitter: "{{twitter}}", domain: "{{domain}}", location: "{{country}}"
     {{#if (ne flagUrl 'https://www.fiware.org/wp-content/directories/people/images/flag')}}
     ,flag: "{{flagUrl}}"
-    {{/if}} 
+    {{/if}}
+    }{{#unless @last}},{{/unless}}
 {{/each}}
 ];
