@@ -166,7 +166,16 @@ function extractSummaryInfo(input, details) {
             obj.company = item['Organisation Name'];
             obj.name = item['Product Name'];
             obj.img = item.Logo;
-            obj.logoName = item['Logo Name'];
+            if (item['Logo Name'] != '' && item['Logo Name'].split('/').pop().startsWith('logo_')) {
+                obj.logoName = item['Logo Name'];
+            } else if (item['Logo'] != '') {
+                obj.logoName = 'logo_' + Template.normalizeStringWithReplacement(item['Organisation Name']) + path.extname(item['Logo']);
+            } else {
+                obj.logoName = '';
+                console.log('NO LOGO: ', item['Organisation Name']);
+            }
+            
+
             obj.fiwareMember = item.Member;
             obj.fiwareIhub = item.iHub;
 

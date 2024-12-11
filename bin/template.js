@@ -327,6 +327,24 @@ function qrCodes(path, agenda) {
     });
 }
 
+function normalizeStringWithReplacement(input, replacement) {
+    if (!input) return ''; // Handle null or undefined input
+    
+    if (replacement) {
+        // If X is provided, replace spaces with X
+        return input
+            .normalize('NFD') // Decomposes special characters into base letters and diacritical marks
+            .replace(/[\u0300-\u036f]/g, '') // Removes diacritical marks
+            .replace(/\s+/g, replacement); // Replace all spaces with 'replacement'
+    } else {
+        // If X is not provided, remove all spaces
+        return input
+            .normalize('NFD')
+            .replace(/[\u0300-\u036f]/g, '') // Removes diacritical marks
+            .replace(/\s+/g, ''); // Removes spaces entirely
+    }
+}
+
 exports.font = font;
 exports.write = write;
 exports.clean = clean;
@@ -337,3 +355,4 @@ exports.getSearchKeys = getSearchKeys;
 exports.cleanDir = cleanDir;
 exports.createClass = createClass;
 exports.createSocialMediaImages = createSocialMediaImages;
+exports.normalizeStringWithReplacement = normalizeStringWithReplacement;
