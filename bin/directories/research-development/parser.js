@@ -67,6 +67,7 @@ function extractProjects(input) {
 
         project.year = project.startDate ? project.startDate.getFullYear().toString() : 'unknown';
         project.type = project.endDate < today ? 'Completed' : 'Ongoing';
+        project.img = 'https://www.fiware.org/wp-content/' + path.join(PEOPLE_ASSETS_DIR, project.image || '');
 
         const filename = Template.createClass(project.name);
         project.social = `/project/${filename}.html`;
@@ -168,6 +169,12 @@ function generateHTML(projects) {
         projects
     );
 
+    Template.write(
+        path.join('welcome', RESEARCH_DEVELOPMENT_DIR, 'projects-list.html'),
+        path.join(TEMPLATE_PATH, 'table.hbs'),
+        projects
+    );
+
     projects.forEach((project) => {
         const filename = Template.createClass(project.name);
         Template.write(
@@ -176,6 +183,7 @@ function generateHTML(projects) {
             project
         );
         Prettier.format(path.join(RESEARCH_DEVELOPMENT_DIR, `project/${filename}.html`), { parser: 'html' });
+        Prettier.format(path.join('welcome', RESEARCH_DEVELOPMENT_DIR, 'projects-list.html'), { parser: 'html' });
     });
 
     Prettier.format(path.join(RESEARCH_DEVELOPMENT_DIR, 'research.html'), { parser: 'html' });
