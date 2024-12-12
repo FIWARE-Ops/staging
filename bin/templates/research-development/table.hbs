@@ -6,6 +6,7 @@
             <div class="ld-item-source">Source</div>
     </div> -->
     {{#each this}}
+        {{#if (and (eq country 'European Commission') (eq type 'Ongoing'))}}
         <div class="ld-item-container">
             <div class="ld-figure-name">{{name}}</div>
             <div class="ld-type">{{country}}</div>
