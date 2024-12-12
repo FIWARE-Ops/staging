@@ -90,6 +90,23 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Aizatron",
+				"html": [
+					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/aizatron.png'/></div>",
+					"<div class='org-name'>Aizatron</div>",
+					"<div class='membership-type'>Gold</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.aizatron.com/' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-1.887198,52.488655]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
 				"name": "Alpha-Omega Technology",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/alpha-omega-technology.png'/></div>",
@@ -158,6 +175,23 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Beyond Civic",
+				"html": [
+					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/beyond-civic.png'/></div>",
+					"<div class='org-name'>Beyond Civic</div>",
+					"<div class='membership-type'>Gold</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://beyondcivic.com/en' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[8.297436,47.050354]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
 				"name": "BluSky",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/blu-sky.png'/></div>",
@@ -186,6 +220,23 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[17.9206231,59.272983]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
+				"name": "Computate",
+				"html": [
+					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/computate.png'/></div>",
+					"<div class='org-name'>Computate</div>",
+					"<div class='membership-type'>Gold</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.computate.org/' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-111.94841,40.86118]
 			}
 		},
 		{
@@ -753,6 +804,23 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Odin Solutions",
+				"html": [
+					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/odin-solutions.png'/></div>",
+					"<div class='org-name'>Odin Solutions</div>",
+					"<div class='membership-type'>Gold</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://odins.es/en/' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-1.143655,37.998783]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
 				"name": "Opendatasoft",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/opendatasoft.png'/></div>",
@@ -764,6 +832,22 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[-0.9380377,48.0374435]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
+				"name": "ProptechOS",
+				"html": [
+					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/proptech-os.png'/></div>",
+					"<div class='org-name'>ProptechOS</div>",
+					"<div class='membership-type'>Gold</div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[18.077075,59.334154]
 			}
 		},
 		{
@@ -1280,6 +1364,23 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "CARTIF",
+				"html": [
+					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/cartif.png'/></div>",
+					"<div class='org-name'>CARTIF</div>",
+					"<div class='membership-type'>Gold SEU</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.cartif.es/en/home/' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-4.71896,41.5198]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
 				"name": "City of Duitama",
 				"html": [
 					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-duitama.png'/></div>",
@@ -1444,6 +1545,23 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[12.2039265,43.1396415]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
+				"name": "City of Posadas",
+				"html": [
+					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-posadas.png'/></div>",
+					"<div class='org-name'>City of Posadas</div>",
+					"<div class='membership-type'>Gold SEU</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.posadas.gov.ar/' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-55.891162,-27.36664]
 			}
 		},
 		{
