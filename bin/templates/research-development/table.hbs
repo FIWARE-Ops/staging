@@ -16,30 +16,30 @@
                 {{/if}}
                 <div class="ld-icons-container">
                     {{#if website}}
-                    <a target='_blank' href='{{website}}' rel='noopener'>
+                    <a target='_blank' href='{{website}}' rel='noopener' title="Project Website">
                         <div class="list-icon">
                         <span class="material-symbols-outlined regular">language</span>
                         </div>
                     </a>
                     {{/if}}
                     {{#if datasheet}}
-                    <a target='_blank' href='{{datasheet}}' rel='noopener'>
+                    <a target='_blank' href='{{datasheet}}' rel='noopener' title="Project Datasheet">
                         <div class="list-icon">
                         <span class="material-symbols-outlined regular">table</span>
                         </div>
                     </a>
                     {{/if}}
                     {{#if projectDir}}
-                    <a target='_blank' href='{{projectDir}}' rel='noopener'>
+                    <a target='_blank' href='{{projectDir}}' rel='noopener' title="Project Directory">
                         <div class="list-icon">
                         <span class="material-symbols-outlined regular">docs</span>
                         </div>
                     </a>
                     {{/if}}
                     {{#if designDir}}
-                    <a target='_blank' href='{{designDir}}' rel='noopener'>
+                    <a target='_blank' href='{{designDir}}' rel='noopener' title="Design Directory">
                         <div class="list-icon">
-                        <span class="material-symbols-outlined regular">draw</span>
+                        <span class="material-symbols-outlined regular">design_services</span>
                         </div>
                     </a>
                     {{/if}}
@@ -47,10 +47,23 @@
             </div>
             <div class="content">
                 <div>{{excerpt}}</div>
-                <div>{{domains}}</div>
-                <div>{{technologies}}</div>
-                <div>{{grantAgreement}}</div>
-                <div>{{gaLink}}</div>
+                <div class='chip-domain'>
+                    <ul class='chips'>
+                    {{#each domains}}<li>{{this}}</li>{{/each}}
+                    </ul>
+                </div>
+                <div class='chip-technology'>
+                    <ul class='chips'>
+                    {{#each technologies}}<li>{{this}}</li>{{/each}}
+                    </ul>
+                </div>
+                {{#if gaLink}}
+                <a target='_blank' href='{{url}}' rel='noopener'>
+                    <div class="md-button md-button--secondary">
+                        Grant Agreement
+                    </div>
+                </a>
+                {{/if}}
             </div>
         </div>
         {{/if}}
