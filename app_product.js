@@ -98,11 +98,13 @@ function addRelated(related) {
       console.log(product)
 
       var resource = `<a class="yarpp-thumbnail" rel="norewrite" href="${product.companyLink}" >
-            <div class="hero-product-container">
-              <picture>
-                  <source srcset="${webp(product.featuredImageUrl)}" type="image/webp"/>
-                  <img loading="lazy" class="hero-product"  src="'${product.featuredImageUrl}" title="${product.excerpt}"/>
-              </picture>
+            <div class="yarpp-thumbnail-default">
+              <div class="hero-product-container">
+                <picture>
+                    <source srcset="${webp(product.featuredImageUrl)}" type="image/webp"/>
+                    <img loading="lazy" class="hero-product"  src="'${product.featuredImageUrl}" title="${product.excerpt}"/>
+                </picture>
+              </div>
             </div>
             <div class="yarpp-thumbnail-title">${product.productName}</div>
             </a>`;
@@ -227,7 +229,9 @@ function fillProduct(product) {
   $('meta[name="twitter:creator"]').attr("content", "@FIWARE");
   $('meta[name="twitter:image"]').attr("content", product.featuredImage);
 
-  history.pushState({}, null, product.social);
+  if(window.location.host === 'www.fiware.org'){
+    history.pushState({}, null, product.social);
+  }
 }
 
 function loadProduct() {
