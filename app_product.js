@@ -227,7 +227,7 @@ function fillProduct(product) {
   $('meta[name="twitter:creator"]').attr("content", "@FIWARE");
   $('meta[name="twitter:image"]').attr("content", product.featuredImage);
 
-  //history.pushState({}, null, product.social);
+  history.pushState({}, null, product.social);
 }
 
 function loadProduct() {
