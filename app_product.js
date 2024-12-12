@@ -140,7 +140,6 @@ function fillProduct(product) {
   $("h4#excerpt").text(product.excerpt);
   $("span#certified-in").text(product.yearOfValidation);
 
-
   wrapImage("#logo", 500, 300, product.logo);
   wrapImage("#main-logo", 500, 300, product.logo);
   wrapImage("#featured-image", null, null, product.featuredImage);
@@ -149,12 +148,11 @@ function fillProduct(product) {
   wrapParagraphs("#challenge-and-context", product.challenge);
   wrapParagraphs("#references-customers", product.references);
   wrapParagraphs("#awards", product.awards);
-  if(product.additionalText === ''){
+  if (product.additionalText === "") {
     $("div#additionalText").parent().parent().parent().remove();
   } else {
     $("div#additionalText").html(product.additionalText);
   }
-
 
   addResources(product.docs, product.videos, product.materials);
   addRelated(product.related);

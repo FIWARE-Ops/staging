@@ -323,31 +323,39 @@ function printDomain(data) {
   }
 }
 
-function buildTracker(action, context, type, product, company, excerpt, url, geoLocation) {
-
+function buildTracker(
+  action,
+  context,
+  type,
+  product,
+  company,
+  excerpt,
+  url,
+  geoLocation,
+) {
   var eventObj = {
     actor: {
-    type: "User", 
-    id: "System",
-    attributes: {"name": "John Doe", "geoLocation": geoLocation}
-  },
-  action: { 
-     type: "action", 
-     name: action,
-     attributes: {"referrer": "Facebook", "coupon": "KIHSK123FS"}
-  },
-  context,
-  object: {
-    "type": type,
-     name: company,
-     attributes:{
-       url: url,
+      type: "User",
+      id: "System",
+      attributes: { name: "John Doe", geoLocation: geoLocation },
+    },
+    action: {
+      type: "action",
+      name: action,
+      attributes: { referrer: "Facebook", coupon: "KIHSK123FS" },
+    },
+    context,
+    object: {
+      type: type,
+      name: company,
+      attributes: {
+        url: url,
         "company name": company,
         description: excerpt,
         indexforsearch: true,
-     }
-  }};
-
+      },
+    },
+  };
 
   if (this.qualetics) {
     console.log(action, "SENDING TO QUALETICS");
@@ -405,7 +413,7 @@ function cardTracking() {
       attributes: {
         url: url,
         "company name": company,
-      }
+      },
     };
 
     buildTracker(
@@ -421,6 +429,10 @@ function cardTracking() {
   });
 }
 
+function webp(url){
+  return url.substring(0, url.lastIndexOf('.')) + '.webp';
+}
+
 // Card creation
 function cardCreation() {
   var appContainer = document.querySelector("#app");
@@ -433,8 +445,11 @@ function cardCreation() {
     )} ${createClassFilter(gridElementData.type)} ${isFiwareMemberClass(
       gridElementData.fiwareMember,
     )} ${isFiwareIhubClass(gridElementData.fiwareIhub)}">
-    <div class="gridElementLogo">
-      <img src="${gridElementData.img}" alt="${gridElementData.company}" />
+    <div class="gridElementLogoContainer">
+        <picture>
+           <source srcset="${webp(gridElementData.logoUrl)}" type="image/webp"/>
+           <img class="gridElementLogo" src="${gridElementData.logoUrl}" loading="lazy" alt="${gridElementData.company}"/>
+        </picture>
     </div>
     <div class="gridElementTextContainer">
       <p class="solution-name">${gridElementData.name}</p>
