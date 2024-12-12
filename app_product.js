@@ -1,3 +1,7 @@
+function webp(url){
+  return url.substring(0, url.lastIndexOf('.')) + '.webp';
+}
+
 function wrapImage(id, width, height, src) {
   var img = "";
 
@@ -5,9 +9,11 @@ function wrapImage(id, width, height, src) {
     img =
       img +
       `<span class="et_pb_image">
-                <img class="wp-image-100287" loading="lazy" 
-                width="${width}" height="${height}" src="${src}"/>
-            </span>`;
+        <picture>
+          <source srcset="${webp(src)}" type="image/webp"/>
+          <img loading="lazy" width="${width}" height="${height}" src="${src}"/>
+        </picture>
+      </span>`;
   } else {
     img =
       img +
@@ -128,6 +134,15 @@ function fillProduct(product) {
     return;
   }
   window.jobDone = true;
+
+  const LOGOS_DIR = {
+    powered: 'directories/showcase/powered-by-fiware/logo/',
+    ready: 'directories/showcase/fiware-ready/logo/',
+    services: 'directories/showcase/services/logo/',
+    cities: 'directories/showcase/cities4cities/logo/',
+  }
+
+
   $("h5#category").text(product.category);
   $("h5#category").on("click", function (e) {
     e.preventDefault();
@@ -140,6 +155,7 @@ function fillProduct(product) {
   $("h4#excerpt").text(product.excerpt);
   $("span#certified-in").text(product.yearOfValidation);
 
+  product.logo = 'https://www.fiware.org/wp-content/' + LOGOS_DIR[product.cat] + product.logo;
   wrapImage("#logo", 500, 300, product.logo);
   wrapImage("#main-logo", 500, 300, product.logo);
   wrapImage("#featured-image", null, null, product.featuredImage);
