@@ -10,8 +10,12 @@
         <div class="ld-project-block">
             <div class="ld-block-container">
                 <div class="ld-project-name">{{name}}</div>
+                {{#if responsible}}
+                <div class="ld-item-responsible">
                 <img alt='' class='ld-item-pic' src='{{responsibleUrl}}' loading='lazy' />
                 <div class="ld-item-name">{{responsible}}</div>
+                </div>
+                {{/if}}
                 <div class="ld-icons-container">
                     {{#if website}}
                     <a target='_blank' href='{{website}}' rel='noopener' title="Project Website">
@@ -70,6 +74,10 @@
                     </div>
                 </a>
                 {{/if}}
+                <div class="ld-date-container">
+                    <div class="chip-label">End Date</div>
+                    <div class="ld-date">{{endDate}}</div>
+                </div>
             </div>
         </div>
         {{/if}}
