@@ -223,7 +223,6 @@ function parse(file, teamFile) {
                     return generateInternalHTML(projects);
                 })
                 .then((projects) => {
-                    console.log('c')
                     return generateHTML(projects);
                 })
                 .then((projects) => {
