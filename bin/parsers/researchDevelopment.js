@@ -197,11 +197,11 @@ function generateHTML(projects) {
 
 async function generateInternalHTML(projects) {
     await Template.write(
-        path.join(INTERNAL_R_AND_D_DIR, 'projects-list.html'),
+        path.join(INTERNAL_R_AND_D_DIR, 'eu-projects.html'),
         path.join(TEMPLATE_PATH, 'table.hbs'),
         _.map(projects, _.clone)
     );
-    Prettier.format(path.join(INTERNAL_R_AND_D_DIR, 'projects-list.html'), { parser: 'html' });
+    Prettier.format(path.join(INTERNAL_R_AND_D_DIR, 'eu-projects.html'), { parser: 'html' });
     return projects;
 }
 
