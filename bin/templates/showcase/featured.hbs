@@ -1,8 +1,11 @@
 {{#each this}}
     <div class='item'>
         <div class='card card-primary card-hover card-body light'>
-            <div class='featured-logo'>
-                <img src='{{img}}' alt='{{organisationName}}' />
+            <div class='featured-logo-container'>
+                <picture>
+                   <source srcset="{{webp logoUrl}}" type="image/webp"/>
+                   <img class="featured-logo" src="{{logoUrl}}" loading="lazy"/>
+                </picture>
             </div>
             <h3 class='card-title'>{{name}}</h3>
             <a class='details' href='{{companyLink}}' rel='noopener'>See details
