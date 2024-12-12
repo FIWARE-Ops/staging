@@ -1,5 +1,5 @@
 function webp(url){
-  return url.substring(0, url.lastIndexOf('.')) + '.webp';
+  return url? url.substring(0, url.lastIndexOf('.')) + '.webp' : '';
 }
 
 function wrapImage(id, width, height, src) {
@@ -94,13 +94,15 @@ function addRelated(related) {
     var prods = shuffle(related);
     $("#related-links").empty();
     prods.forEach((product, i) => {
+
+      console.log(product)
+
       var resource = `<a class="yarpp-thumbnail" rel="norewrite" href="${product.companyLink}" >
-            <div class="yarpp-thumbnail-default" 
-              data-background-image='${product.featuredImage}'
-              title="${product.excerpt}"
-              style="min-height: 200px;min-width: 100%; 
-              background-repeat: no-repeat; background-size: contain; background-position: center center;"
-            >
+            <div class="hero-product-container">
+              <picture>
+                  <source srcset="${webp(product.featuredImageUrl)}" type="image/webp"/>
+                  <img loading="lazy" class="hero-product"  src="'${product.featuredImageUrl}" title="${product.excerpt}"/>
+              </picture>
             </div>
             <div class="yarpp-thumbnail-title">${product.productName}</div>
             </a>`;
@@ -225,7 +227,7 @@ function fillProduct(product) {
   $('meta[name="twitter:creator"]').attr("content", "@FIWARE");
   $('meta[name="twitter:image"]').attr("content", product.featuredImage);
 
-  history.pushState({}, null, product.social);
+  //history.pushState({}, null, product.social);
 }
 
 function loadProduct() {
