@@ -45,6 +45,7 @@ function extractProjects(input, team) {
             flag: item.Flag,
             startDate: Parser.date(item['Start Date']),
             endDate: Parser.date(item['End Date']),
+
             responsible: item.Responsible,
             projectDir: item['Project Directory'],
             designDir: item['Design Directory'],
@@ -67,6 +68,8 @@ function extractProjects(input, team) {
 
         project.year = project.startDate ? project.startDate.getFullYear().toString() : 'unknown';
         project.type = project.endDate < today ? 'Completed' : 'Ongoing';
+        project.shortDate = project.endDate.toLocaleDateString('en-GB', { month: 'long', day: 'numeric', year: 'numeric' });
+            
 
         const filename = Template.createClass(project.name);
         project.social = `/project/${filename}.html`;
@@ -140,6 +143,9 @@ function generateHTML(projects) {
             delete project.projectDir;
             delete project.designDir;
             delete project.gaLink;
+            delete project.responsibleUrl;
+            delete project.responsible;
+            delete project.shortDate;
             return project;
         })
     };
