@@ -6,7 +6,12 @@ const Downloader = require('../downloader');
 const Template = require('../template');
 const CATEGORIES = ['powered', 'ready', 'services', 'cities'];
 const TEMPLATE_PATH = 'bin/templates/showcase/';
-const IMAGES_DIR = 'marketplace/images';
+const LOGOS_DIR = {
+    powered: 'directories/showcase/powered-by-fiware/logo',
+    ready: 'directories/showcase/fiware-ready/logo',
+    services: 'directories/showcase/services/logo',
+    cities: 'directories/showcase/cities4cities/logo',
+}
 const fs = require('fs');
 
 const GEN_CONTENT = !!process.env.GEN_CONTENT || false;
@@ -163,7 +168,7 @@ function extractSummaryInfo(input, details) {
             const obj = {};
             obj.company = item['Organisation Name'];
             obj.name = item['Product Name'];
-            obj.img = item.Logo;
+            obj.logo = item.Logo;
             obj.fiwareMember = item.Member;
             obj.fiwareIhub = item.iHub;
 
@@ -182,21 +187,27 @@ function extractSummaryInfo(input, details) {
                 : '';
 
             if (item.Category === 'Powered by FIWARE') {
+                obj.logoUrl = 'https://www.fiware.org/wp-content/' + path.join(LOGOS_DIR.powered, obj.logo);
                 powered.push(obj);
                 hashes.powered.push(hash);
             } else if (item.Category === 'NGSI Ready Devices') {
+                obj.logoUrl = 'https://www.fiware.org/wp-content/' + path.join(LOGOS_DIR.ready, obj.logo);
                 ready.push(obj);
                 hashes.ready.push(hash);
             } else if (item.Category === 'FIWARE-Ready') {
+                obj.logoUrl = 'https://www.fiware.org/wp-content/' + path.join(LOGOS_DIR.ready, obj.logo);
                 ready.push(obj);
                 hashes.ready.push(hash);
             } else if (item.Category === 'Services') {
+                obj.logoUrl = 'https://www.fiware.org/wp-content/' + path.join(LOGOS_DIR.services, obj.logo);
                 services.push(obj);
                 hashes.services.push(hash);
             } else if (item.Category === 'Support Services') {
+                obj.logoUrl = 'https://www.fiware.org/wp-content/' + path.join(LOGOS_DIR.services, obj.logo);
                 services.push(obj);
                 hashes.services.push(hash);
             } else if (item.Category === 'Cities4Cities') {
+                obj.logoUrl = 'https://www.fiware.org/wp-content/' + path.join(LOGOS_DIR.cities, obj.logo);
                 cities.push(obj);
                 hashes.cities.push(hash);
             } else {
@@ -248,34 +259,16 @@ function relatedProducts(product, allCategories, category) {
     }
 }
 
-function tempArray(summaryInfo) {
-    arr = [];
-    _.each(summaryInfo.powered, (item) => {
-        arr.push({ img: item.img, image: path.basename(item.img) });
-    });
-    _.each(summaryInfo.ready, (item) => {
-        arr.push({ img: item.img, image: path.basename(item.img) });
-    });
-    _.each(summaryInfo.services, (item) => {
-        arr.push({ img: item.img, image: path.basename(item.img) });
-    });
-    _.each(summaryInfo.cities, (item) => {
-        arr.push({ img: item.img, image: path.basename(item.img) });
-    });
 
-    return arr;
-}
 
-function uploadImages(summaryInfo) {
-    const items = tempArray(summaryInfo);
-
-    return Downloader.checkImages(items, 'img', 'image')
+function uploadImages(summaryInfo, uploadDir, url= 'img', file ='image') {
+    return Downloader.checkImages(summaryInfo, url, file)
         .then((missingImages) => {
             Downloader.logMissing(missingImages);
             return Downloader.validateUploads(missingImages);
         })
         .then((uploads) => {
-            Downloader.uploadImages(uploads, path.join('assets', IMAGES_DIR));
+            Downloader.uploadImages(uploads, path.join('assets', uploadDir));
             Downloader.logUploads(uploads);
             return uploads;
         });
@@ -314,6 +307,7 @@ function createSocialMedia(products, dir, category) {
         product.cat = category;
         product.social = path.join('/', dir, `/${filename}.html`);
 
+        product.img= 'https://www.fiware.org/wp-content/' + path.join(LOGOS_DIR[category], product.logo);
         Template.write(
             path.join('marketplace', dir, `${filename}.html`),
             path.join(TEMPLATE_PATH, 'social-media.hbs'),
@@ -498,7 +492,17 @@ function parse(detailsFile, summaryFile) {
 
                 .then((summaryInfo) => {
                     Downloader.emptyAssets();
-                    return uploadImages(summaryInfo).then(() => {
+                    return uploadImages(summaryInfo.powered, LOGOS_DIR.powered, 'logoUrl', 'logo')
+                    .then(() => {
+                        return uploadImages(summaryInfo.ready, LOGOS_DIR.ready, 'logoUrl', 'logo')
+                    })
+                    .then(() => {
+                        return uploadImages(summaryInfo.services, LOGOS_DIR.services, 'logoUrl', 'logo')
+                    })
+                    .then(() => {
+                        return uploadImages(summaryInfo.cities, LOGOS_DIR.cities, 'logoUrl', 'logo')
+                    })
+                    .then(() => {
                         return summaryInfo;
                     });
                 });
