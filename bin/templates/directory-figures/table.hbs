@@ -10,8 +10,10 @@
             <div class="ld-figure-name">{{name}}</div>
             <div class="md-value--small">{{value}}</div>
             {{#if owner}}
-            <img alt='' class='ld-item-pic' src='{{image}}' loading='lazy' />
-            <div class="ld-item-name">{{owner}}</div>
+            <div class="ld-item-responsible">
+                <img alt='' class='ld-item-pic' src='{{image}}' loading='lazy' />
+                <div class="ld-item-name">{{owner}}</div>
+            </div>
             {{/if}}
             {{#if source}}
             <a target='_blank' href='{{url}}' rel='noopener'>

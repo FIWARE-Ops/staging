@@ -51,30 +51,32 @@
                 {{#if excerpt}}
                 <div class="excerpt">{{excerpt}}</div>
                 {{/if}}
-                {{#if domains}}
-                <div class='chip-domain'>
-                    <div class="chip-label">Domain</div>
-                    <ul class='chips'>
-                    {{#each domains}}<li>{{this}}</li>{{/each}}
-                    </ul>
-                </div>
-                {{/if}}
-                {{#if technologies}}
-                <div class='chip-technology'>
-                    <div class="chip-label">Technology</div>
-                    <ul class='chips'>
-                    {{#each technologies}}<li>{{this}}</li>{{/each}}
-                    </ul>
-                </div>
-                {{/if}}
                 {{#if gaLink}}
                 <a target='_blank' href='{{gaLink}}' rel='noopener'>
                     <div class="md-button md-button--secondary">Grant Agreement</div>
                 </a>
                 {{/if}}
-                <div class="ld-date-container">
-                    <div class="chip-label">End Date</div>
-                    <div class="ld-date">{{endDate}}</div>
+                <div class="attributes-container">
+                    {{#if domains}}
+                    <div class='chip-domain'>
+                        <div class="chip-label">Domain</div>
+                        <ul class='chips'>
+                        {{#each domains}}<li>{{this}}</li>{{/each}}
+                        </ul>
+                    </div>
+                    {{/if}}
+                    {{#if technologies}}
+                    <div class='chip-technology'>
+                        <div class="chip-label">Technology</div>
+                        <ul class='chips'>
+                        {{#each technologies}}<li>{{this}}</li>{{/each}}
+                        </ul>
+                    </div>
+                    {{/if}}
+                    <div class="ld-date-container">
+                        <div class="chip-label">End Date</div>
+                        <div class="ld-date">{{endDate}}</div>
+                    </div>
                 </div>
             </div>
         </div>
