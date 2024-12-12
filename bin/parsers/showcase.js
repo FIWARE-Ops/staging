@@ -289,7 +289,7 @@ function findProduct(hash, category) {
     return product
         ? {
               category: product.category,
-              featuredImageUrl: product.featuredImageUrl,
+              featuredImageUrl: 'https://www.fiware.org/wp-content/' + path.join(IMAGE_DIR[category], product.featuredImage),
               excerpt: product.excerpt,
               productName: product.productName,
               companyLink: './?category=' + category + '&id=' + hash
