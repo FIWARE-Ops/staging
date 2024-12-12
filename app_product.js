@@ -18,8 +18,11 @@ function wrapImage(id, width, height, src) {
     img =
       img +
       `<span class="et_pb_image">
-                <img class="hero-product" src="${src}"/>
-            </span>`;
+          <picture>
+            <source srcset="${webp(src)}" type="image/webp"/>
+            <img loading="lazy" class="hero-product"  src="${src}"/>
+        </picture>
+      </span>`;
   }
 
   $(id).empty();
@@ -158,7 +161,7 @@ function fillProduct(product) {
   product.logo = 'https://www.fiware.org/wp-content/' + LOGOS_DIR[product.cat] + product.logo;
   wrapImage("#logo", 500, 300, product.logo);
   wrapImage("#main-logo", 500, 300, product.logo);
-  wrapImage("#featured-image", null, null, product.featuredImage);
+  wrapImage("#featured-image", null, null, product.featuredImageUrl);
 
   wrapParagraphs("#description-and-benefits", product.description);
   wrapParagraphs("#challenge-and-context", product.challenge);
