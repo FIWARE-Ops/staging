@@ -7,42 +7,50 @@
     </div> -->
     {{#each this}}
         {{#if (and (eq country 'European Commission') (eq type 'Ongoing'))}}
-        <div class="ld-item-container">
-            <div class="ld-figure-name">{{name}}</div>
-            <div class="ld-type">{{country}}</div>
-            {{#if responsible}}
-            <img alt='' class='ld-item-pic' src='{{responsibleUrl}}' loading='lazy' />
-            <div class="ld-item-name">{{responsible}}</div>
-            {{/if}}
-            <div class="ld-icons-container">
-                {{#if website}}
-                <a target='_blank' href='{{website}}' rel='noopener'>
-                    <div class="list-icon">
-                    <span class="material-symbols-outlined regular">language</span>
-                    </div>
-                </a>
+        <div class="ld-project-block">
+            <div class="ld-block-container">
+                <div class="ld-project-name">{{name}}</div>
+                {{#if responsible}}
+                <img alt='' class='ld-item-pic' src='{{responsibleUrl}}' loading='lazy' />
+                <div class="ld-item-name">{{responsible}}</div>
                 {{/if}}
-                {{#if datasheet}}
-                <a target='_blank' href='{{datasheet}}' rel='noopener'>
-                    <div class="list-icon">
-                    <span class="material-symbols-outlined regular">table</span>
-                    </div>
-                </a>
-                {{/if}}
-                {{#if projectDir}}
-                <a target='_blank' href='{{projectDir}}' rel='noopener'>
-                    <div class="list-icon">
-                    <span class="material-symbols-outlined regular">docs</span>
-                    </div>
-                </a>
-                {{/if}}
-                {{#if designDir}}
-                <a target='_blank' href='{{designDir}}' rel='noopener'>
-                    <div class="list-icon">
-                    <span class="material-symbols-outlined regular">draw</span>
-                    </div>
-                </a>
-                {{/if}}
+                <div class="ld-icons-container">
+                    {{#if website}}
+                    <a target='_blank' href='{{website}}' rel='noopener'>
+                        <div class="list-icon">
+                        <span class="material-symbols-outlined regular">language</span>
+                        </div>
+                    </a>
+                    {{/if}}
+                    {{#if datasheet}}
+                    <a target='_blank' href='{{datasheet}}' rel='noopener'>
+                        <div class="list-icon">
+                        <span class="material-symbols-outlined regular">table</span>
+                        </div>
+                    </a>
+                    {{/if}}
+                    {{#if projectDir}}
+                    <a target='_blank' href='{{projectDir}}' rel='noopener'>
+                        <div class="list-icon">
+                        <span class="material-symbols-outlined regular">docs</span>
+                        </div>
+                    </a>
+                    {{/if}}
+                    {{#if designDir}}
+                    <a target='_blank' href='{{designDir}}' rel='noopener'>
+                        <div class="list-icon">
+                        <span class="material-symbols-outlined regular">draw</span>
+                        </div>
+                    </a>
+                    {{/if}}
+                </div>
+            </div>
+            <div class="content">
+                <div>{{excerpt}}</div>
+                <div>{{domains}}</div>
+                <div>{{technologies}}</div>
+                <div>{{grantAgreement}}</div>
+                <div>{{gaLink}}</div>
             </div>
         </div>
         {{/if}}
