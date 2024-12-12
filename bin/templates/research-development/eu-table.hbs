@@ -10,10 +10,8 @@
         <div class="ld-project-block">
             <div class="ld-block-container">
                 <div class="ld-project-name">{{name}}</div>
-                {{#if responsible}}
                 <img alt='' class='ld-item-pic' src='{{responsibleUrl}}' loading='lazy' />
                 <div class="ld-item-name">{{responsible}}</div>
-                {{/if}}
                 <div class="ld-icons-container">
                     {{#if website}}
                     <a target='_blank' href='{{website}}' rel='noopener' title="Project Website">
@@ -66,7 +64,7 @@
                 </div>
                 {{/if}}
                 {{#if gaLink}}
-                <a target='_blank' href='{{url}}' rel='noopener'>
+                <a target='_blank' href='{{gaLink}}' rel='noopener'>
                     <div class="md-button md-button--icon">
                         <span class="material-symbols-outlined regular">link</span> Grant Agreement
                     </div>
