@@ -313,6 +313,7 @@ function createSocialMedia(products, dir, category) {
         product.social = path.join('/', dir, `/${filename}.html`);
 
         product.img= 'https://www.fiware.org/wp-content/' + path.join(LOGOS_DIR[category], product.logo);
+        product.featuredImageUrl = 'https://www.fiware.org/wp-content/' + path.join(IMAGE_DIR[category], product.featuredImage);
         Template.write(
             path.join('marketplace', dir, `${filename}.html`),
             path.join(TEMPLATE_PATH, 'social-media.hbs'),
