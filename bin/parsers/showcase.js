@@ -12,6 +12,12 @@ const LOGOS_DIR = {
     services: 'directories/showcase/services/logo',
     cities: 'directories/showcase/cities4cities/logo',
 }
+const IMAGE_DIR = {
+    powered: 'directories/showcase/powered-by-fiware/hero',
+    ready: 'directories/showcase/fiware-ready/hero',
+    services: 'directories/showcase/support-services/hero',
+    cities: 'directories/showcase/cities4cities/hero',
+}
 const fs = require('fs');
 
 const GEN_CONTENT = !!process.env.GEN_CONTENT || false;
@@ -79,14 +85,13 @@ function extractProductDetails(input) {
             furtherImages: ''
         };
 
-        if (item['Featured Image']) {
-            const file =
-                'hero_' + item['Organisation Name'] + '_' + item['Product Name'] + path.extname(item['Featured Image']);
-            images.push([file, item['Featured Image']]);
-        }
+        details.img = 'https://www.fiware.org/wp-content/' + 
+        path.join(IMAGE_DIR[Parser.getCategory(item.Category)] || '', 
+            item['Featured Image'] || '');
+               
     }
 
-    return { details, images };
+    return details;
 }
 
 /**
@@ -254,8 +259,8 @@ function relatedProducts(product, allCategories, category) {
             }
         });
     });
-    if (!_.isEmpty(related) && productDetails.details[category][productHash]) {
-        productDetails.details[category][productHash].related = related;
+    if (!_.isEmpty(related) && productDetails[category][productHash]) {
+        productDetails[category][productHash].related = related;
     }
 }
 
@@ -275,7 +280,7 @@ function uploadImages(summaryInfo, uploadDir, url= 'img', file ='image') {
 }
 
 function findProduct(hash, category) {
-    const product = productDetails.details[category][hash];
+    const product = productDetails[category][hash];
 
     if (!product) {
         console.log('DATA MISMATCH: ', category, hash);
@@ -355,7 +360,7 @@ function generateHTML(allProducts, summaryInfo) {
     });
     Prettier.format('showcase/powered-by-fiware/pageData.js', { parser: 'flow' });
     console.log('');
-    createSocialMedia(allProducts.details.powered, 'powered-by-fiware/', 'powered');
+    createSocialMedia(allProducts.powered, 'powered-by-fiware/', 'powered');
     console.log(summaryInfo.powered.length + ' Products');
 
     Template.write('showcase/fiware-ready/pageData.js', path.join(TEMPLATE_PATH, 'modal.hbs'), {
@@ -363,7 +368,7 @@ function generateHTML(allProducts, summaryInfo) {
         nonMembers: _.where(summaryInfo.ready, { fiwareMember: false })
     });
     Prettier.format('showcase/fiware-ready/pageData.js', { parser: 'flow' });
-    createSocialMedia(allProducts.details.ready, 'fiware-ready/', 'ready');
+    createSocialMedia(allProducts.ready, 'fiware-ready/', 'ready');
     console.log(summaryInfo.ready.length + ' Devices');
 
     Template.write('showcase/support-services/pageData.js', path.join(TEMPLATE_PATH, 'modal.hbs'), {
@@ -371,7 +376,7 @@ function generateHTML(allProducts, summaryInfo) {
         nonMembers: _.where(summaryInfo.services, { fiwareMember: false })
     });
     Prettier.format('showcase/support-services/pageData.js', { parser: 'flow' });
-    createSocialMedia(allProducts.details.services, 'support-services/', 'services');
+    createSocialMedia(allProducts.services, 'support-services/', 'services');
     console.log(summaryInfo.services.length + ' Services');
 
     Template.write('showcase/cities4cities/pageData.js', path.join(TEMPLATE_PATH, 'modal.hbs'), {
@@ -379,13 +384,13 @@ function generateHTML(allProducts, summaryInfo) {
         nonMembers: _.where(summaryInfo.cities, { fiwareMember: false })
     });
     Prettier.format('showcase/cities4cities/pageData.js', { parser: 'flow' });
-    createSocialMedia(allProducts.details.cities, 'cities4cities/', 'cities');
+    createSocialMedia(allProducts.cities, 'cities4cities/', 'cities');
     console.log(summaryInfo.cities.length + ' Cities');
 
     Template.write(
         'showcase/product-details/pageData.js',
         path.join(TEMPLATE_PATH, 'productDetails.hbs'),
-        productDetails.details
+        productDetails
     );
     Prettier.format('showcase/product-details/pageData.js', { parser: 'flow' });
 
@@ -413,7 +418,7 @@ function parse(detailsFile, summaryFile) {
             csv()
                 .fromFile(summaryFile)
                 .then((input) => {
-                    return extractSummaryInfo(input, allProducts.details);
+                    return extractSummaryInfo(input, allProducts);
                 })
                 .then((summaryInfo) => {
                     CATEGORIES.forEach((category) => {
@@ -449,7 +454,7 @@ function parse(detailsFile, summaryFile) {
                     return GEN_CONTENT
                         ? generateContent(
                               _.where(summaryInfo.powered, { fiwareMember: true }),
-                              allProducts.details.powered,
+                              allProducts.powered,
                               'products'
                           ).then(() => {
                               return summaryInfo;
@@ -460,7 +465,7 @@ function parse(detailsFile, summaryFile) {
                     return GEN_CONTENT
                         ? generateContent(
                               _.where(summaryInfo.ready, { fiwareMember: true }),
-                              allProducts.details.ready,
+                              allProducts.ready,
                               'devices'
                           ).then(() => {
                               return summaryInfo;
@@ -471,7 +476,7 @@ function parse(detailsFile, summaryFile) {
                     return GEN_CONTENT
                         ? generateContent(
                               _.where(summaryInfo.services, { fiwareMember: true }),
-                              allProducts.details.services,
+                              allProducts.services,
                               'services'
                           ).then(() => {
                               return summaryInfo;
@@ -482,7 +487,7 @@ function parse(detailsFile, summaryFile) {
                     return GEN_CONTENT
                         ? generateContent(
                               _.where(summaryInfo.cities, { fiwareMember: true }),
-                              allProducts.details.cities,
+                              allProducts.cities,
                               'cities'
                           ).then(() => {
                               return summaryInfo;
@@ -501,6 +506,18 @@ function parse(detailsFile, summaryFile) {
                     })
                     .then(() => {
                         return uploadImages(summaryInfo.cities, LOGOS_DIR.cities, 'logoUrl', 'logo')
+                    })
+                    .then(() => {
+                        return uploadImages(_.values(productDetails.powered), IMAGE_DIR.powered, 'img', 'featuredImage')
+                    })
+                    .then(() => {
+                        return uploadImages(_.values(productDetails.ready), IMAGE_DIR.ready, 'img', 'featuredImage')
+                    })
+                    .then(() => {
+                        return uploadImages(_.values(productDetails.services), IMAGE_DIR.services, 'img', 'featuredImage')
+                    })
+                    .then(() => {
+                        return uploadImages(_.values(productDetails.cities), IMAGE_DIR.cities, 'img', 'featuredImage')
                     })
                     .then(() => {
                         return summaryInfo;

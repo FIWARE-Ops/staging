@@ -200,9 +200,12 @@ async function uploadAsset(filename, filepath, dimensions, isImageFile) {
 async function formatImage(file, format) {
     const base = path.basename(file, path.extname(file));
     const dir = path.dirname(file);
-    await sharp(file)
-        .toFormat(format, { palette: true })
-        .toFile(path.join(dir, `${base}.${format}`));
+
+    if ( path.extname(file) !== `.${format}`){
+        await sharp(file)
+            .toFormat(format, { palette: true })
+            .toFile(path.join(dir, `${base}.${format}`));
+        }
 }
 
 /**
