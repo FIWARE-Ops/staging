@@ -238,10 +238,10 @@ function initModal() {
         closeLabel: "Close",
         cssClass: ["tingle-modal--fullscreen"],
         onOpen: function () {
-          console.log("modal open");
+          //console.log("modal open");
         },
         onClose: function () {
-          console.log("modal closed");
+          //console.log("modal closed");
         },
         beforeClose: function () {
           // here's goes some logic
@@ -262,15 +262,17 @@ function initModal() {
   $(document).ready(function () {
     $(".f-cat a").on("click", function (e) {
       var target = $(this.hash);
-      if(target.offset()){
+      if (target.offset()) {
         e.stopPropagation();
         e.preventDefault();
-        $('html, body').animate({
-            scrollTop: target.offset().top - 120 
-        }, 10);
+        $("html, body").animate(
+          {
+            scrollTop: target.offset().top - 120,
+          },
+          10,
+        );
         return false;
       }
-      
     });
   });
 }
@@ -426,7 +428,7 @@ function smoothScroll() {
   // Add smooth scrolling to all links
   $("a").on("click", function (event) {
     // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "" && !($(this.hash).hasClass( "grid-item" ))) {
+    if (this.hash !== "" && !$(this.hash).hasClass("grid-item")) {
       // Store hash
       var hash = this.hash;
 
@@ -495,24 +497,22 @@ function setDropdown() {
     return decodeURI(results[1]) || 0;
   };
 
-
-  if ($.urlParam("country")){
+  if ($.urlParam("country")) {
     $("#filterCountry").val($.urlParam("country"));
     return $("#filterCountry").change();
-  } else if ($.urlParam("level")){
+  } else if ($.urlParam("level")) {
     $("#filterRole").val($.urlParam("role"));
     return $("#filterRole").change();
-  } else if ($.urlParam("domain")){
+  } else if ($.urlParam("domain")) {
     $("#filterDomain").val($.urlParam("domain"));
     return $("#filterDomain").change();
-  } else if ($.urlParam("company")){
+  } else if ($.urlParam("company")) {
     $("#filterCompany").val($.urlParam("company"));
     return $("#filterCompany").change();
-  }else {
+  } else {
     msnry.arrange({ sortBy: "original-order" });
   }
 }
-
 
 document.addEventListener("html-included", () => {
   $("#filteredCompanies").text(window.modalData.length);
@@ -537,5 +537,4 @@ document.addEventListener("html-included", () => {
     }
   });
   setDropdown();
- 
 });

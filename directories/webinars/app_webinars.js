@@ -147,10 +147,10 @@ function initModal() {
         closeLabel: "Close",
         cssClass: ["tingle-modal--fullscreen"],
         onOpen: function () {
-          console.log("modal open");
+          //console.log("modal open");
         },
         onClose: function () {
-          console.log("modal closed");
+          //console.log("modal closed");
         },
         beforeClose: function () {
           // here's goes some logic
@@ -167,12 +167,15 @@ function initModal() {
       modal.open();
 
       var target = $(this.hash);
-      if(target.offset()){
+      if (target.offset()) {
         e.stopPropagation();
         e.preventDefault();
-        $('html, body').animate({
-            scrollTop: target.offset().top - 120 
-        }, 10);
+        $("html, body").animate(
+          {
+            scrollTop: target.offset().top - 120,
+          },
+          10,
+        );
         return false;
       }
     });
@@ -421,7 +424,7 @@ function smoothScroll() {
   // Add smooth scrolling to all links
   $("a").on("click", function (event) {
     // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== ""  && !($(this.hash).hasClass( "grid-item" ))) {
+    if (this.hash !== "" && !$(this.hash).hasClass("grid-item")) {
       // Store hash
       var hash = this.hash;
 
@@ -479,7 +482,6 @@ function horizontalScroll() {
   });
 }
 
-
 function setDropdown() {
   $.urlParam = function (name) {
     var results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
@@ -491,14 +493,13 @@ function setDropdown() {
     return decodeURI(results[1]) || 0;
   };
 
-
-  if ($.urlParam("chapter")){
+  if ($.urlParam("chapter")) {
     $("#filterType").val($.urlParam("chapter"));
     return $("#filterType").change();
-  } else if ($.urlParam("audience")){
+  } else if ($.urlParam("audience")) {
     $("#filterDomain").val($.urlParam("audience"));
     return $("#filterDomain").change();
-  } else if ($.urlParam("keyword")){
+  } else if ($.urlParam("keyword")) {
     $("#filterTechnology").val($.urlParam("keyword"));
     return $("#filterTechnology").change();
   } else {
@@ -506,27 +507,30 @@ function setDropdown() {
   }
 }
 
-document.addEventListener("html-included", () => {
-  $("#app").css("visibility", "visible");
-  if (init) {
-    return;
-  }
-  init = true;
-  initSelect();
-  initChips();
-  initModal();
-  filterToggle();
-  //initSticky();
-  horizontalScroll();
-  smoothScroll();
-  msnry.on("arrangeComplete", (filteredItems) => {
-    $("#filteredCompanies").text(filteredItems.length);
-    dropdownFilters(selectors);
-    highlightChips();
-    if (scrollSet) {
-      scrollToView();
+document.addEventListener(
+  "html-included",
+  () => {
+    $("#app").css("visibility", "visible");
+    if (init) {
+      return;
     }
-  });
-  setDropdown();
- 
-}, {once: true});
+    init = true;
+    initSelect();
+    initChips();
+    initModal();
+    filterToggle();
+    //initSticky();
+    horizontalScroll();
+    smoothScroll();
+    msnry.on("arrangeComplete", (filteredItems) => {
+      $("#filteredCompanies").text(filteredItems.length);
+      dropdownFilters(selectors);
+      highlightChips();
+      if (scrollSet) {
+        scrollToView();
+      }
+    });
+    setDropdown();
+  },
+  { once: true },
+);

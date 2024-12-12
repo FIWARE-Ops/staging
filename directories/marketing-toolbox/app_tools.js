@@ -92,7 +92,7 @@ function filterToggle() {
           },
           {
             once: true,
-          }
+          },
         );
       }
     });
@@ -140,31 +140,31 @@ function dropdownFilters(filter) {
     "#filterCompany",
     filter.fCompany,
     window.companies,
-    roleCSSFilter + departmentCSSFilter + domainCSSFilter + countryCSSFilter
+    roleCSSFilter + departmentCSSFilter + domainCSSFilter + countryCSSFilter,
   );
   filterOptions(
     "#filterRole",
     filter.fRole,
     window.titles,
-    companyCSSFilter + departmentCSSFilter + domainCSSFilter + countryCSSFilter
+    companyCSSFilter + departmentCSSFilter + domainCSSFilter + countryCSSFilter,
   );
   filterOptions(
     "#filterDepartment",
     filter.fDepartment,
     window.departments,
-    companyCSSFilter + roleCSSFilter + domainCSSFilter + countryCSSFilter
+    companyCSSFilter + roleCSSFilter + domainCSSFilter + countryCSSFilter,
   );
   filterOptions(
     "#filterDomain",
     filter.fDomain,
     window.domains,
-    companyCSSFilter + roleCSSFilter + departmentCSSFilter + countryCSSFilter
+    companyCSSFilter + roleCSSFilter + departmentCSSFilter + countryCSSFilter,
   );
   filterOptions(
     "#filterCountry",
     filter.fCountry,
     window.countries,
-    companyCSSFilter + roleCSSFilter + departmentCSSFilter + domainCSSFilter
+    companyCSSFilter + roleCSSFilter + departmentCSSFilter + domainCSSFilter,
   );
 }
 
@@ -325,7 +325,7 @@ function smoothScroll() {
         function () {
           // Add hash (#) to URL when done scrolling (default click behavior)
           window.location.hash = hash;
-        }
+        },
       );
       return false;
     } // End if
@@ -402,14 +402,13 @@ function setDropdown() {
     return decodeURI(results[1]) || 0;
   };
 
-
-  if ($.urlParam("language")){
+  if ($.urlParam("language")) {
     $("#filterCountry").val($.urlParam("language"));
     return $("#filterCountry").change();
-  } else if ($.urlParam("type")){
+  } else if ($.urlParam("type")) {
     $("#filterRole").val($.urlParam("type"));
     return $("#filterRole").change();
-  } else if ($.urlParam("domain")){
+  } else if ($.urlParam("domain")) {
     $("#filterDomain").val($.urlParam("domain"));
     return $("#filterDomain").change();
   } else {
@@ -417,27 +416,29 @@ function setDropdown() {
   }
 }
 
-
-document.addEventListener("html-included", () => {
-  $("#app").css("visibility", "visible");
-  if (init) {
-    return;
-  }
-  init = true;
-  initSelect();
-  initChips();
-  filterToggle();
-  initSticky();
-  horizontalScroll();
-  smoothScroll();
-  msnry.on("arrangeComplete", (filteredItems) => {
-    $("#filteredCompanies").text(filteredItems.length);
-    dropdownFilters(selectors);
-    highlightChips();
-    if (scrollSet) {
-      scrollToView();
+document.addEventListener(
+  "html-included",
+  () => {
+    $("#app").css("visibility", "visible");
+    if (init) {
+      return;
     }
-  });
-  setDropdown();
- 
-}, {once: true});
+    init = true;
+    initSelect();
+    initChips();
+    filterToggle();
+    initSticky();
+    horizontalScroll();
+    smoothScroll();
+    msnry.on("arrangeComplete", (filteredItems) => {
+      $("#filteredCompanies").text(filteredItems.length);
+      dropdownFilters(selectors);
+      highlightChips();
+      if (scrollSet) {
+        scrollToView();
+      }
+    });
+    setDropdown();
+  },
+  { once: true },
+);

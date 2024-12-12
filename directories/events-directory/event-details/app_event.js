@@ -246,7 +246,6 @@ function wrapVenueDetails(event) {
       <dd><a href="${event.website}" target="_blank">Event Website</a></dd>`);
 }
 
-
 function wrapSpeakers(id, speakers) {
   var div = "";
   speakers.forEach((speaker) => {
@@ -266,7 +265,9 @@ function wrapSpeakers(id, speakers) {
     if (speaker.company) {
       div += `<div class="speaker-company">${speaker.company}</div>`;
     }
-    div += `<div class="btn-icon" data-modal="${createClassFilter(speaker.name)}">
+    div += `<div class="btn-icon" data-modal="${createClassFilter(
+      speaker.name,
+    )}">
           <span class="material-symbols-outlined icon cta small">trending_flat</span>
         </div>`;
     div += `</div>
@@ -313,7 +314,9 @@ function addMap(eventDetails) {
   }
   const map = new maplibregl.Map({
     container: "map",
-    style: window.mapStyle || "https://www.fiware.org/wp-content/directories/events-directory/event-details/style.json" ,
+    style:
+      window.mapStyle ||
+      "https://www.fiware.org/wp-content/directories/events-directory/event-details/style.json",
     maxZoom: 20,
     minZoom: 3,
     attributionControl: false,
@@ -396,7 +399,11 @@ function loadEventDetails() {
     window.history.back();
   });
 
-  if ($.urlParam("id") &&  window.eventData && window.eventData[$.urlParam("id")]) {
+  if (
+    $.urlParam("id") &&
+    window.eventData &&
+    window.eventData[$.urlParam("id")]
+  ) {
     fillJob(window.eventData[$.urlParam("id")]);
   } else {
     $(".et_pb_section_1").remove();
@@ -502,13 +509,13 @@ $.urlParam = function (name) {
 };
 
 function waitForData() {
-    return new Promise(resolve => {
-        if (window.eventData) {
-            return resolve(window.eventData);
-        }
-    });
+  return new Promise((resolve) => {
+    if (window.eventData) {
+      return resolve(window.eventData);
+    }
+  });
 }
-  
+
 $(document).ready(function () {
   waitForData().then((eventData) => {
     if ($.urlParam("id") && eventData && eventData[$.urlParam("id")]) {
@@ -561,22 +568,17 @@ $(document).one("html-included", () => {
       });
 
       let isMobile = window.matchMedia("(max-width: 767px)").matches;
-      if (!isMobile){
-        enableCarousel();} 
-      else {
-        $('#featured').removeClass('owl-carousel');
+      if (!isMobile) {
+        enableCarousel();
+      } else {
+        $("#featured").removeClass("owl-carousel");
       }
     }
   });
 });
 
-$(document).one(
-  "data-ready",
-  () => {
-    loadEventDetails();
-    horizontalScroll();
-    initModal();
-  }
-);
-
-
+$(document).one("data-ready", () => {
+  loadEventDetails();
+  horizontalScroll();
+  initModal();
+});

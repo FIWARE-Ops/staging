@@ -1,5 +1,5 @@
-function htmlDecode(value){ 
-  return $('<div/>').html(value).text(); 
+function htmlDecode(value) {
+  return $("<div/>").html(value).text();
 }
 
 function createModalContent(tingleModalData) {
@@ -19,7 +19,7 @@ function createModalContent(tingleModalData) {
   modalHtml += "</div>";
   modalHtml += "<div class='bio-modal'>";
   if (tingleModalData.content !== "") {
-    modalHtml += htmlDecode(tingleModalData.content); 
+    modalHtml += htmlDecode(tingleModalData.content);
   }
   modalHtml += "</div>";
   modalHtml += "<div class='details-modal'>";

@@ -147,10 +147,10 @@ function initModal() {
         closeLabel: "Close",
         cssClass: ["tingle-modal--fullscreen"],
         onOpen: function () {
-          console.log("modal open");
+          //console.log("modal open");
         },
         onClose: function () {
-          console.log("modal closed");
+          //console.log("modal closed");
         },
         beforeClose: function () {
           // here's goes some logic

@@ -22,7 +22,7 @@ function getDate() {
   const date = new Date();
   date.setMonth(date.getMonth());
   return new Number(
-    date.toISOString().split("T")[0].replaceAll("-", "").substring(0, 6)
+    date.toISOString().split("T")[0].replaceAll("-", "").substring(0, 6),
   );
 }
 
@@ -96,7 +96,6 @@ function initSelect() {
     msnry.arrange({ sortBy: "original-order" });
   });
 
-  
   msnry = new Isotope(".grid", {
     itemSelector: ".grid-item",
     layoutMode: "fitRows",
@@ -107,7 +106,6 @@ function initSelect() {
   });
 
   $(`#filterMonth option[value="${selectedMonth}"]`).prop("selected", true);
-
 
   initTextSearch(msnry);
 }
@@ -346,14 +344,13 @@ function setDropdown() {
     return decodeURI(results[1]) || 0;
   };
 
-
-  if ($.urlParam("month")){
+  if ($.urlParam("month")) {
     $("#filterMonth").val($.urlParam("month"));
     return $("#filterMonth").change();
-  } else if ($.urlParam("type")){
+  } else if ($.urlParam("type")) {
     $("#filterType").val($.urlParam("type"));
     return $("#filterType").change();
-  } else if ($.urlParam("domain")){
+  } else if ($.urlParam("domain")) {
     $("#filterDomain").val($.urlParam("domain"));
     return $("#filterDomain").change();
   } else {
@@ -361,29 +358,31 @@ function setDropdown() {
   }
 }
 
-document.addEventListener("html-included", () => {
-  $("#app").css("visibility", "visible");
-  if (init) {
-    return;
-  }
-  init = true;
-  listViewShow();
-  initSelect();
-  filterToggle();
-  initCalendar();
-  initOnlineEvents();
-  horizontalScroll();
-  smoothScroll();
-  initSticky();
-  viewToggle();
- 
-  msnry.on("arrangeComplete", (filteredItems) => {
-    if (scrollSet) {
-      scrollToView();
+document.addEventListener(
+  "html-included",
+  () => {
+    $("#app").css("visibility", "visible");
+    if (init) {
+      return;
     }
-  });
+    init = true;
+    listViewShow();
+    initSelect();
+    filterToggle();
+    initCalendar();
+    initOnlineEvents();
+    horizontalScroll();
+    smoothScroll();
+    initSticky();
+    viewToggle();
 
-  setDropdown();
- 
-}, {once: true});
+    msnry.on("arrangeComplete", (filteredItems) => {
+      if (scrollSet) {
+        scrollToView();
+      }
+    });
 
+    setDropdown();
+  },
+  { once: true },
+);

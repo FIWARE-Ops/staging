@@ -347,7 +347,7 @@ function initSticky() {
     ) {
       header.classList.add("stickybar");
       header.classList.remove("not-stickybar");
-    } else if (header){
+    } else if (header) {
       header.classList.remove("stickybar");
       header.classList.add("not-stickybar");
     }
@@ -402,14 +402,13 @@ function setDropdown() {
     return decodeURI(results[1]) || 0;
   };
 
-
-  if ($.urlParam("country")){
+  if ($.urlParam("country")) {
     $("#filterCountry").val($.urlParam("country"));
     return $("#filterCountry").change();
-  } else if ($.urlParam("level")){
+  } else if ($.urlParam("level")) {
     $("#filterRole").val($.urlParam("level"));
     return $("#filterRole").change();
-  } else if ($.urlParam("domain")){
+  } else if ($.urlParam("domain")) {
     $("#filterDomain").val($.urlParam("domain"));
     return $("#filterDomain").change();
   } else {
@@ -417,26 +416,29 @@ function setDropdown() {
   }
 }
 
-document.addEventListener("html-included", () => {
-  $("#app").css("visibility", "visible");
-  if (init) {
-    return;
-  }
-  init = true;
-  initSelect();
-  initChips();
-  filterToggle();
-  initSticky();
-  horizontalScroll();
-  smoothScroll();
-  msnry.on("arrangeComplete", (filteredItems) => {
-    $("#filteredCompanies").text(filteredItems.length);
-    dropdownFilters(selectors);
-    highlightChips();
-    if (scrollSet) {
-      scrollToView();
+document.addEventListener(
+  "html-included",
+  () => {
+    $("#app").css("visibility", "visible");
+    if (init) {
+      return;
     }
-  });
-  setDropdown();
- 
-}, {once: true});
+    init = true;
+    initSelect();
+    initChips();
+    filterToggle();
+    initSticky();
+    horizontalScroll();
+    smoothScroll();
+    msnry.on("arrangeComplete", (filteredItems) => {
+      $("#filteredCompanies").text(filteredItems.length);
+      dropdownFilters(selectors);
+      highlightChips();
+      if (scrollSet) {
+        scrollToView();
+      }
+    });
+    setDropdown();
+  },
+  { once: true },
+);
