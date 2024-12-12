@@ -195,11 +195,11 @@ function generateHTML(projects) {
     return projects;
 }
 
-function generateInternalHTML(projects) {
-    Template.write(
+async function generateInternalHTML(projects) {
+    await Template.write(
         path.join(INTERNAL_R_AND_D_DIR, 'projects-list.html'),
         path.join(TEMPLATE_PATH, 'table.hbs'),
-        projects
+        _.map(projects, _.clone)
     );
     Prettier.format(path.join(INTERNAL_R_AND_D_DIR, 'projects-list.html'), { parser: 'html' });
     return projects;
@@ -220,6 +220,10 @@ function parse(file, teamFile) {
                     return extractProjects(input, team);
                 })
                 .then((projects) => {
+                    return generateInternalHTML(projects);
+                })
+                .then((projects) => {
+                    console.log('c')
                     return generateHTML(projects);
                 })
                 .then((projects) => {
@@ -232,9 +236,6 @@ function parse(file, teamFile) {
                     return uploadFlags(projects).then(() => {
                         return projects;
                     });
-                })
-                .then((projects) => {
-                    return generateInternalHTML(projects);
                 })
                 .catch((e) => {
                     console.log(e);
