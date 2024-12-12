@@ -18,6 +18,16 @@ const IMAGE_DIR = {
     services: 'directories/showcase/support-services/hero',
     cities: 'directories/showcase/cities4cities/hero',
 }
+
+const THUMB_DIR = {
+    powered: 'directories/showcase/powered-by-fiware/thumb',
+    ready: 'directories/showcase/fiware-ready/thumb',
+    services: 'directories/showcase/support-services/thumb',
+    cities: 'directories/showcase/cities4cities/thumb',
+}
+
+const THUMB_SIZE = { height: 216, width: 385, fit: 'contain' , background: {r: 255, g: 255, b: 255, alpha: 0}};
+
 const fs = require('fs');
 
 const GEN_CONTENT = !!process.env.GEN_CONTENT || false;
@@ -266,14 +276,14 @@ function relatedProducts(product, allCategories, category) {
 
 
 
-function uploadImages(summaryInfo, uploadDir, url= 'img', file ='image') {
+function uploadImages(summaryInfo, uploadDir, url= 'img', file ='image' ,dimemsions=null) {
     return Downloader.checkImages(summaryInfo, url, file)
         .then((missingImages) => {
             Downloader.logMissing(missingImages);
             return Downloader.validateUploads(missingImages);
         })
         .then((uploads) => {
-            Downloader.uploadImages(uploads, path.join('assets', uploadDir));
+            Downloader.uploadImages(uploads, path.join('assets', uploadDir), dimemsions);
             Downloader.logUploads(uploads);
             return uploads;
         });
@@ -289,7 +299,7 @@ function findProduct(hash, category) {
     return product
         ? {
               category: product.category,
-              featuredImageUrl: 'https://www.fiware.org/wp-content/' + path.join(IMAGE_DIR[category], product.featuredImage),
+              featuredImageUrl: 'https://www.fiware.org/wp-content/' + path.join(THUMB_DIR[category], product.featuredImage),
               excerpt: product.excerpt,
               productName: product.productName,
               companyLink: './?category=' + category + '&id=' + hash
@@ -512,13 +522,25 @@ function parse(detailsFile, summaryFile) {
                         return uploadImages(_.values(productDetails.powered), IMAGE_DIR.powered, 'img', 'featuredImage')
                     })
                     .then(() => {
+                        return uploadImages(_.values(productDetails.powered), THUMB_DIR.powered, 'img', 'featuredImage', THUMB_SIZE)
+                    })
+                    .then(() => {
                         return uploadImages(_.values(productDetails.ready), IMAGE_DIR.ready, 'img', 'featuredImage')
+                    })
+                    .then(() => {
+                        return uploadImages(_.values(productDetails.ready), THUMB_DIR.ready, 'img', 'featuredImage', THUMB_SIZE)
                     })
                     .then(() => {
                         return uploadImages(_.values(productDetails.services), IMAGE_DIR.services, 'img', 'featuredImage')
                     })
                     .then(() => {
+                        return uploadImages(_.values(productDetails.services), THUMB_DIR.services, 'img', 'featuredImage', THUMB_SIZE)
+                    })
+                    .then(() => {
                         return uploadImages(_.values(productDetails.cities), IMAGE_DIR.cities, 'img', 'featuredImage')
+                    })
+                    .then(() => {
+                        return uploadImages(_.values(productDetails.cities), THUMB_DIR.cities, 'img', 'featuredImage', THUMB_SIZE)
                     })
                     .then(() => {
                         return summaryInfo;
