@@ -69,7 +69,9 @@ function fillJob(job) {
   history.pushState({}, null, job.social);
 }
 
-function loadJob() {
+function loadJob(e) {
+  e.target.removeEventListener("data-ready", loadJob, false);
+  
   $ = $ || jQuery;
   $.urlParam = function (name) {
     var results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
@@ -134,6 +136,4 @@ function initialiseStyleBackgroundIntersectionObserver() {
   }
 }
 
-document.addEventListener("data-ready", () => {
-  loadJob();
-});
+document.addEventListener("data-ready", loadJob);

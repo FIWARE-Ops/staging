@@ -86,7 +86,9 @@ function fillDetails(city) {
   history.pushState({}, null, city.social);
 }
 
-function loadJob() {
+function loadCity(e) {
+  e.target.removeEventListener("data-ready", loadCity, false);
+  
   $ = $ || jQuery;
   $.urlParam = function (name) {
     var results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
@@ -151,6 +153,4 @@ function initialiseStyleBackgroundIntersectionObserver() {
   }
 }
 
-document.addEventListener("data-ready", () => {
-  loadJob();
-});
+document.addEventListener("data-ready", loadCity);

@@ -181,7 +181,8 @@ function fillProject(project) {
   history.pushState({}, null, project.social);
 }
 
-function loadProject() {
+function loadProject(e) {
+  e.target.removeEventListener("data-ready", loadProject, false);
   $ = $ || jQuery;
   $.urlParam = function (name) {
     var results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
@@ -246,6 +247,4 @@ function initialiseStyleBackgroundIntersectionObserver() {
   }
 }
 
-document.addEventListener("data-ready", () => {
-  loadProject();
-});
+document.addEventListener("data-ready", loadProject);
