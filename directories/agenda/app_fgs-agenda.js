@@ -291,16 +291,16 @@ function scrollToView() {
   });
 }
 
-let scrollSet = false;
-let msnry;
-let selectors = {
+var scrollSet = false;
+var msnry;
+var selectors = {
   fTrack: true,
   fSession: true,
   fPrefix: true,
   fSpeaker: true,
   fDay: true,
 };
-const filterObj = {};
+var filterObj = {};
 
 function initSelect() {
   msnry = new Isotope(".grid", {

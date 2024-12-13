@@ -327,11 +327,11 @@ function highlightChips() {
   });
 }
 
-let scrollSet = false;
+var scrollSet = false;
 
-let msnry;
-let selectors = { fType: true, fDomain: true, fTech: true };
-const filterObj = {};
+var msnry;
+var selectors = { fType: true, fDomain: true, fTech: true };
+var filterObj = {};
 
 function initSelect() {
   msnry = new Isotope(".grid", {

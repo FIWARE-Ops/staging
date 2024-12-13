@@ -168,15 +168,15 @@ function dropdownFilters(filter) {
   );
 }
 
-let msnry;
-let selectors = {
+var msnry;
+var selectors = {
   fCompany: true,
   fRole: true,
   fDepartment: true,
   fDomain: true,
   fCountry: true,
 };
-const filterObj = {};
+var filterObj = {};
 
 function initSelect() {
   msnry = new Isotope(".grid", {

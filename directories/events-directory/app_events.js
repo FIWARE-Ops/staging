@@ -10,13 +10,13 @@ function scrollToView() {
   });
 }
 
-const scrollSet = false;
+var scrollSet = false;
 
-let msnry;
-let selectedMonth = getDate();
-let selectedText = "";
-let selectedType = "*";
-let selectedDomain = "*";
+var msnry;
+var selectedMonth = getDate();
+var selectedText = "";
+var selectedType = "*";
+var selectedDomain = "*";
 
 function getDate() {
   const date = new Date();

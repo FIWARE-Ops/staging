@@ -226,13 +226,13 @@ function dropdownFilters(filter) {
   );
 }
 
-let msnry;
-let selectors = {
+var msnry;
+var selectors = {
   fCompany: true,
   fRole: true,
   fExhibitor: true,
 };
-const filterObj = {};
+var filterObj = {};
 
 function initSelect() {
   msnry = new Isotope(".grid", {

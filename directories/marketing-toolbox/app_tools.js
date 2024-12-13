@@ -1,3 +1,5 @@
+
+
 // Returns the right classNames for isotope card filtering system
 function createClassFilter(data) {
   let filterString = "";
@@ -205,17 +207,17 @@ function highlightChips() {
   });
 }
 
-let scrollSet = false;
+var scrollSet = false;
 
-let msnry;
-let selectors = {
+var msnry;
+var selectors = {
   fCompany: true,
   fRole: true,
   fDepartment: true,
   fDomain: true,
   fCountry: true,
 };
-const filterObj = {};
+var filterObj = {};
 
 function initSelect() {
   msnry = new Isotope(".grid", {

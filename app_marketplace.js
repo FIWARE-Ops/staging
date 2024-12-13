@@ -1,5 +1,5 @@
-let msnry;
-let selectors = { fType: true, fDomain: true, fTech: true, fCompany: true };
+var msnry;
+var selectors = { fType: true, fDomain: true, fTech: true, fCompany: true };
 
 // Returns a unique list of element based on a json property(eg. select of companies, or select of technologies)
 function createUniqueList(jsonProperty) {

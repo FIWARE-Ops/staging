@@ -205,17 +205,17 @@ function highlightChips() {
   });
 }
 
-let scrollSet = false;
+var scrollSet = false;
 
-let msnry;
-let selectors = {
+var msnry = null;
+var selectors = {
   fCompany: true,
   fRole: true,
   fDepartment: true,
   fDomain: true,
   fCountry: true,
 };
-const filterObj = {};
+var filterObj = {};
 
 function initSelect() {
   msnry = new Isotope(".grid", {
