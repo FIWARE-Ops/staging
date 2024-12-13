@@ -120,9 +120,9 @@ function wrapResources(id, title, resources) {
     return;
   }
   $(id).empty();
-  var title = "<h4>" + title + "</h4>";
+  const titleHeader = "<h4>" + title + "</h4>";
 
-  $(id).append(title);
+  $(id).append(titleHeader);
   resources.forEach((el) => {
     const resource =
       '<div class="resource"><span class="material-symbols-outlined">link</span>' +

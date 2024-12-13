@@ -9,4 +9,4 @@ images/
 welcome/
 !images/.gitkeep
 secrets
-eslintcache
+.eslintcache

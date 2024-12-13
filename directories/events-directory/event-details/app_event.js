@@ -454,10 +454,6 @@ function initialiseStyleBackgroundIntersectionObserver() {
 }
 
 function enableCarousel() {
-  if (init) {
-    return;
-  }
-  init = true;
   $(".owl-carousel").owlCarousel({
     stagePadding: 30,
     loop: false,
@@ -578,8 +574,13 @@ $(document).one("html-included", () => {
   });
 });
 
-$(document).one("data-ready", () => {
+function loadEvent(e) {
+  e.target.removeEventListener("data-ready", loadEvent, false);
   loadEventDetails();
   horizontalScroll();
   initModal();
-});
+}
+
+
+document.addEventListener("data-ready", loadEvent);
+
