@@ -26,7 +26,8 @@ function includeHTML(cb) {
   if (cb) cb();
 }
 
-function enableCarousel() {
+function enableCarousel(e) {
+   e.target.removeEventListener("html-included", enableCarousel, false);
   $(".owl-carousel").owlCarousel({
     stagePadding: 30,
     loop: false,
@@ -59,6 +60,4 @@ function enableCarousel() {
   });
 }
 
-document.addEventListener("html-included", () => {
-  enableCarousel();
-});
+document.addEventListener("html-included", enableCarousel);

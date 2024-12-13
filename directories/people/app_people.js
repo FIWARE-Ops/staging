@@ -315,7 +315,6 @@ function highlightChips() {
 }
 
 var scrollSet = false;
-var init = false;
 var msnry;
 var selectors = {
   fCompany: true,
@@ -514,15 +513,12 @@ function setDropdown() {
   }
 }
 
-document.addEventListener("html-included", () => {
+function setupIsotope (e){
+  e.target.removeEventListener("html-included", setupIsotope, false);
   $("#filteredCompanies").text(window.modalData.length);
   horizontalScroll();
   smoothScroll();
   $("#app").css("visibility", "visible");
-  if (init) {
-    return;
-  }
-  init = true;
   initSelect();
   initChips();
   initModal();
@@ -537,4 +533,6 @@ document.addEventListener("html-included", () => {
     }
   });
   setDropdown();
-});
+}
+
+document.addEventListener("html-included", setupIsotope)

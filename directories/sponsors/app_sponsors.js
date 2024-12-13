@@ -226,7 +226,6 @@ function dropdownFilters(filter) {
   );
 }
 
-var init = false;
 var msnry;
 var selectors = {
   fCompany: true,
@@ -380,34 +379,17 @@ function horizontalScroll() {
   });
 }
 
-document.addEventListener("html-included", () => {
+function setupIsotope (e){
+  e.target.removeEventListener("html-included", setupIsotope, false);
+
   horizontalScroll();
   smoothScroll();
-  $("#app").css("visibility", "visible");
-  if (init) {
-    return;
-  }
-  init = true;
   initSelect();
   initModal();
   filterToggle();
-  let count = 0;
-  let target = 7;
-  // Isotope istantiation
-  // Relies on unpkg.com/imagesloaded
-  $("#app")
-    .imagesLoaded()
-    .always(function (instance) {
-      msnry.arrange({ sortBy: "original-order" });
-    })
-    .fail(function () {
-      // msnry.arrange({ sortBy: "original-order" });
-    })
-    .progress(function (instance, image) {
-      count++;
-      if (count % target === 0) {
-        target = target + 7;
-        msnry.arrange({ sortBy: "original-order" });
-      }
-    });
-});
+
+  msnry.arrange({ sortBy: "original-order" });
+
+}
+
+document.addEventListener("html-included", setupIsotope)

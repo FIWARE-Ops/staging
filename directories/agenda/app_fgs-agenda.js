@@ -292,7 +292,6 @@ function scrollToView() {
 }
 
 var scrollSet = false;
-var init = false;
 var msnry;
 var selectors = {
   fTrack: true,
@@ -518,44 +517,26 @@ function loadSpeaker() {
   }
 }
 
-document.addEventListener("html-included", () => {
+function setupIsotope (e){
+  e.target.removeEventListener("html-included", setupIsotope, false);
+
   $(".event-count").text($(".grid-item").length);
   horizontalScroll();
   smoothScroll();
   $("#app").css("visibility", "visible");
-  if (init) {
-    return;
-  }
-  init = true;
   initSelect();
   initModal();
   initChips();
   filterToggle();
   checkboxChecked();
-  let count = 0;
-  let target = 7;
-  // Isotope istantiation
-  // Relies on unpkg.com/imagesloaded
-  $("#app")
-    .imagesLoaded()
-    .always(function (instance) {
-      loadSpeaker();
-      msnry.on("arrangeComplete", (filteredItems) => {
-        $(".event-count").text(filteredItems.length);
-        dropdownFilters(selectors);
-        if (scrollSet) {
-          scrollToView();
-        }
-      });
-    })
-    .fail(function () {
-      msnry.arrange({ sortBy: "original-order" });
-    })
-    .progress(function (instance, image) {
-      count++;
-      if (count % target === 0) {
-        target = target + 7;
-        msnry.arrange({ sortBy: "original-order" });
-      }
-    });
-});
+
+  loadSpeaker();
+  msnry.on("arrangeComplete", (filteredItems) => {
+    $(".event-count").text(filteredItems.length);
+    dropdownFilters(selectors);
+    if (scrollSet) {
+      scrollToView();
+    }
+  });
+
+}
