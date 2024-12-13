@@ -7,7 +7,7 @@
 				"type": "Organization",
 				"name": "Atos",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/atos.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/atos.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/atos.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Atos</div>",
 					"<div class='membership-type'>Platinum</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://atos.net/en/' rel='noopener'><span class='icon website'></span></div>"
@@ -24,7 +24,7 @@
 				"type": "Organization",
 				"name": "Madinah Region Development Authority",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/mrda.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/mrda.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/mrda.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Madinah Region Development Authority</div>",
 					"<div class='membership-type'>Platinum</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://mda.gov.sa/' rel='noopener'><span class='icon website'></span></div>"
@@ -41,7 +41,7 @@
 				"type": "Organization",
 				"name": "MedITech",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/medi-tech.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/medi-tech.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/medi-tech.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>MedITech</div>",
 					"<div class='membership-type'>Platinum</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://meditech4.com/' rel='noopener'><span class='icon website'></span></div>"
@@ -58,7 +58,7 @@
 				"type": "Organization",
 				"name": "Nec",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/nec.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/nec.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/nec.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Nec</div>",
 					"<div class='membership-type'>Platinum</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.nec.com/' rel='noopener'><span class='icon website'></span></div>"
@@ -75,7 +75,7 @@
 				"type": "Organization",
 				"name": "Addix",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/addix.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/addix.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/addix.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Addix</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.addix.net/' rel='noopener'><span class='icon website'></span></div>"
@@ -92,7 +92,7 @@
 				"type": "Organization",
 				"name": "Aizatron",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/aizatron.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/aizatron.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/aizatron.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Aizatron</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.aizatron.com/' rel='noopener'><span class='icon website'></span></div>"
@@ -109,7 +109,7 @@
 				"type": "Organization",
 				"name": "Alpha-Omega Technology",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/alpha-omega-technology.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/alpha-omega-technology.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/alpha-omega-technology.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Alpha-Omega Technology</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://alpha-omega-technology.de/' rel='noopener'><span class='icon website'></span></div>"
@@ -126,7 +126,7 @@
 				"type": "Organization",
 				"name": "AWS",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/aws.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/aws.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/aws.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>AWS</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://aws.amazon.com/' rel='noopener'><span class='icon website'></span></div>"
@@ -143,7 +143,7 @@
 				"type": "Organization",
 				"name": "BeeZeeLinx",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/bee-zee-linx.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/bee-zee-linx.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/bee-zee-linx.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>BeeZeeLinx</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://beezeelinx.com/' rel='noopener'><span class='icon website'></span></div>"
@@ -160,7 +160,7 @@
 				"type": "Organization",
 				"name": "Bettair",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/bettair.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/bettair.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/bettair.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Bettair</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://bettaircities.com/' rel='noopener'><span class='icon website'></span></div>"
@@ -177,7 +177,7 @@
 				"type": "Organization",
 				"name": "Beyond Civic",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/beyond-civic.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/beyond-civic.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/beyond-civic.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Beyond Civic</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://beyondcivic.com/en' rel='noopener'><span class='icon website'></span></div>"
@@ -194,7 +194,7 @@
 				"type": "Organization",
 				"name": "BluSky",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/blu-sky.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/blu-sky.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/blu-sky.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>BluSky</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://blusky.me/' rel='noopener'><span class='icon website'></span></div>"
@@ -211,7 +211,7 @@
 				"type": "Organization",
 				"name": "Capelon",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/capelon.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/capelon.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/capelon.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Capelon</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.capelon.se/' rel='noopener'><span class='icon website'></span></div>"
@@ -228,7 +228,7 @@
 				"type": "Organization",
 				"name": "Computate",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/computate.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/computate.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/computate.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Computate</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.computate.org/' rel='noopener'><span class='icon website'></span></div>"
@@ -245,7 +245,7 @@
 				"type": "Organization",
 				"name": "Contrasec",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/contrasec.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/contrasec.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/contrasec.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Contrasec</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://contrasec.fi/' rel='noopener'><span class='icon website'></span></div>"
@@ -262,7 +262,7 @@
 				"type": "Organization",
 				"name": "Digitanimal",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/digitanimal.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/digitanimal.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/digitanimal.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Digitanimal</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://digitanimal.com/?lang&#x3D;en' rel='noopener'><span class='icon website'></span></div>"
@@ -279,7 +279,7 @@
 				"type": "Organization",
 				"name": "DISIT",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/disit-unifidinfo.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/disit-unifidinfo.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/disit-unifidinfo.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>DISIT</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.disit.org/drupal/?q&#x3D;it' rel='noopener'><span class='icon website'></span></div>"
@@ -296,7 +296,7 @@
 				"type": "Organization",
 				"name": "DKSR",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/dksr.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/dksr.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/dksr.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>DKSR</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.dksr.city/' rel='noopener'><span class='icon website'></span></div>"
@@ -313,7 +313,7 @@
 				"type": "Organization",
 				"name": "DOTSOFT",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/dotsoft.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/dotsoft.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/dotsoft.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>DOTSOFT</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://dotsoft.gr/en' rel='noopener'><span class='icon website'></span></div>"
@@ -330,7 +330,7 @@
 				"type": "Organization",
 				"name": "EGM",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/easy-global-market.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/easy-global-market.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/easy-global-market.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>EGM</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.egm.io/en/egm-the-innovation-factory' rel='noopener'><span class='icon website'></span></div>"
@@ -347,7 +347,7 @@
 				"type": "Organization",
 				"name": "Elliot Cloud",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/elliot-cloud.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/elliot-cloud.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/elliot-cloud.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Elliot Cloud</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://elliotcloud.com/' rel='noopener'><span class='icon website'></span></div>"
@@ -364,7 +364,7 @@
 				"type": "Organization",
 				"name": "Endava",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/endava.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/endava.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/endava.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Endava</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.endava.com/' rel='noopener'><span class='icon website'></span></div>"
@@ -381,7 +381,7 @@
 				"type": "Organization",
 				"name": "Eprosima",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/eprosima.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/eprosima.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/eprosima.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Eprosima</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.eprosima.com/' rel='noopener'><span class='icon website'></span></div>"
@@ -398,7 +398,7 @@
 				"type": "Organization",
 				"name": "Eridanis",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/eridanis.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/eridanis.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/eridanis.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Eridanis</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.eridanis.com/en/' rel='noopener'><span class='icon website'></span></div>"
@@ -415,7 +415,7 @@
 				"type": "Organization",
 				"name": "ESI – Eco System Informatics",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/esi.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/esi.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/esi.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>ESI – Eco System Informatics</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.ecosinfo.ai/' rel='noopener'><span class='icon website'></span></div>"
@@ -432,7 +432,7 @@
 				"type": "Organization",
 				"name": "Ficodes",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/ficodes.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/ficodes.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/ficodes.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Ficodes</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.ficodes.com/en/' rel='noopener'><span class='icon website'></span></div>"
@@ -449,7 +449,7 @@
 				"type": "Organization",
 				"name": "FIWOO",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/fiwoo.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/fiwoo.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/fiwoo.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>FIWOO</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.fiwoo.eu/en/' rel='noopener'><span class='icon website'></span></div>"
@@ -466,7 +466,7 @@
 				"type": "Organization",
 				"name": "Funding Box",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/funding-box.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/funding-box.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/funding-box.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Funding Box</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://fundingbox.com/' rel='noopener'><span class='icon website'></span></div>"
@@ -483,7 +483,7 @@
 				"type": "Organization",
 				"name": "Future City Foundation",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/future-city-foundation.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/future-city-foundation.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/future-city-foundation.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Future City Foundation</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://future-city.nl/' rel='noopener'><span class='icon website'></span></div>"
@@ -500,7 +500,7 @@
 				"type": "Organization",
 				"name": "Future Intelligence",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/future-intelligence.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/future-intelligence.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/future-intelligence.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Future Intelligence</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.f-in.co.uk/' rel='noopener'><span class='icon website'></span></div>"
@@ -517,7 +517,7 @@
 				"type": "Organization",
 				"name": "Gaviti Consulting",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/gaviti-consulting.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/gaviti-consulting.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/gaviti-consulting.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Gaviti Consulting</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://gaviticonsulting.com/' rel='noopener'><span class='icon website'></span></div>"
@@ -534,7 +534,7 @@
 				"type": "Organization",
 				"name": "Hypertegrity",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/hypertegrity.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/hypertegrity.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/hypertegrity.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Hypertegrity</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.hypertegrity.de/' rel='noopener'><span class='icon website'></span></div>"
@@ -551,7 +551,7 @@
 				"type": "Organization",
 				"name": "Ignicion Games",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/ignicion-games.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/ignicion-games.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/ignicion-games.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Ignicion Games</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.igniciongames.com/' rel='noopener'><span class='icon website'></span></div>"
@@ -568,7 +568,7 @@
 				"type": "Organization",
 				"name": "IN2",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/in2.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/in2.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/in2.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>IN2</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://in2.es/en' rel='noopener'><span class='icon website'></span></div>"
@@ -585,7 +585,7 @@
 				"type": "Organization",
 				"name": "Infodom",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/infodom.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/infodom.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/infodom.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Infodom</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='http://www.infodom.hr/' rel='noopener'><span class='icon website'></span></div>"
@@ -602,7 +602,7 @@
 				"type": "Organization",
 				"name": "Innovalia",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/innovalia.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/innovalia.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/innovalia.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Innovalia</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://innovalia.org/en/' rel='noopener'><span class='icon website'></span></div>"
@@ -619,7 +619,7 @@
 				"type": "Organization",
 				"name": "JIG",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/jig.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/jig.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/jig.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>JIG</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.jig.es/' rel='noopener'><span class='icon website'></span></div>"
@@ -636,7 +636,7 @@
 				"type": "Organization",
 				"name": "Kanzo",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/kanzo.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/kanzo.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/kanzo.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Kanzo</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://kanzo.tech/' rel='noopener'><span class='icon website'></span></div>"
@@ -653,7 +653,7 @@
 				"type": "Organization",
 				"name": "Latitudo 40",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/latitudo-40.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/latitudo-40.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/latitudo-40.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Latitudo 40</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.latitudo40.com/' rel='noopener'><span class='icon website'></span></div>"
@@ -670,7 +670,7 @@
 				"type": "Organization",
 				"name": "Libelium",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/libelium.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/libelium.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/libelium.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Libelium</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.libelium.com/' rel='noopener'><span class='icon website'></span></div>"
@@ -687,7 +687,7 @@
 				"type": "Organization",
 				"name": "Martel Innovate",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/martel-innovate.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/martel-innovate.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/martel-innovate.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Martel Innovate</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.martel-innovate.com/' rel='noopener'><span class='icon website'></span></div>"
@@ -704,7 +704,7 @@
 				"type": "Organization",
 				"name": "MNX Online S.L.",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/mnx-online.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/mnx-online.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/mnx-online.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>MNX Online S.L.</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://mnxonline.com/' rel='noopener'><span class='icon website'></span></div>"
@@ -721,7 +721,7 @@
 				"type": "Organization",
 				"name": "ms.gis",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/ms-gis.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/ms-gis.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/ms-gis.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>ms.gis</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.msgis.com/' rel='noopener'><span class='icon website'></span></div>"
@@ -738,7 +738,7 @@
 				"type": "Organization",
 				"name": "Naeva Tec",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/naeva-tec.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/naeva-tec.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/naeva-tec.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Naeva Tec</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.naevatec.com/en/' rel='noopener'><span class='icon website'></span></div>"
@@ -755,7 +755,7 @@
 				"type": "Organization",
 				"name": "Nexus Geografics",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/nexus-geographics.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/nexus-geographics.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/nexus-geographics.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Nexus Geografics</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.nexusgeographics.com/' rel='noopener'><span class='icon website'></span></div>"
@@ -772,7 +772,7 @@
 				"type": "Organization",
 				"name": "Nivid Technologies",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/nivid-technologies.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/nivid-technologies.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/nivid-technologies.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Nivid Technologies</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://nividit.com/' rel='noopener'><span class='icon website'></span></div>"
@@ -789,7 +789,7 @@
 				"type": "Organization",
 				"name": "NTT Data",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/ntt-data.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/ntt-data.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/ntt-data.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>NTT Data</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.nttdata.com/global/en/' rel='noopener'><span class='icon website'></span></div>"
@@ -806,7 +806,7 @@
 				"type": "Organization",
 				"name": "Odin Solutions",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/odin-solutions.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/odin-solutions.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/odin-solutions.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Odin Solutions</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://odins.es/en/' rel='noopener'><span class='icon website'></span></div>"
@@ -823,7 +823,7 @@
 				"type": "Organization",
 				"name": "Opendatasoft",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/opendatasoft.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/opendatasoft.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/opendatasoft.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Opendatasoft</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.opendatasoft.com/en/' rel='noopener'><span class='icon website'></span></div>"
@@ -840,7 +840,7 @@
 				"type": "Organization",
 				"name": "ProptechOS",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/proptech-os.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/proptech-os.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/proptech-os.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>ProptechOS</div>",
 					"<div class='membership-type'>Gold</div>"
 				]
@@ -856,7 +856,7 @@
 				"type": "Organization",
 				"name": "Qualetics",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/qualetics.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/qualetics.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/qualetics.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Qualetics</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://qualetics.com/' rel='noopener'><span class='icon website'></span></div>"
@@ -873,7 +873,7 @@
 				"type": "Organization",
 				"name": "Red Española de Ciudades Inteligentes",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/reci.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/reci.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/reci.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Red Española de Ciudades Inteligentes</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://reddeciudadesinteligentes.es/' rel='noopener'><span class='icon website'></span></div>"
@@ -890,7 +890,7 @@
 				"type": "Organization",
 				"name": "Secmotic",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/secmotic.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/secmotic.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/secmotic.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Secmotic</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://secmotic.com/' rel='noopener'><span class='icon website'></span></div>"
@@ -907,7 +907,7 @@
 				"type": "Organization",
 				"name": "SenLab",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/senlab.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/senlab.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/senlab.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>SenLab</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://senlab.io/' rel='noopener'><span class='icon website'></span></div>"
@@ -924,7 +924,7 @@
 				"type": "Organization",
 				"name": "Sensative",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/sensative.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/sensative.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/sensative.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Sensative</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://sensative.com/' rel='noopener'><span class='icon website'></span></div>"
@@ -941,7 +941,7 @@
 				"type": "Organization",
 				"name": "Sensora",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/sensora.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/sensora.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/sensora.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Sensora</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.sensora.com.co/' rel='noopener'><span class='icon website'></span></div>"
@@ -958,7 +958,7 @@
 				"type": "Organization",
 				"name": "Sirus",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/sirus.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/sirus.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/sirus.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Sirus</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://sirus.be/' rel='noopener'><span class='icon website'></span></div>"
@@ -975,7 +975,7 @@
 				"type": "Organization",
 				"name": "SKG Tecnologia",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/skg-tecnologia.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/skg-tecnologia.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/skg-tecnologia.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>SKG Tecnologia</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://skgtecnologia.com/' rel='noopener'><span class='icon website'></span></div>"
@@ -992,7 +992,7 @@
 				"type": "Organization",
 				"name": "SMEV AG",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/smevag.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/smevag.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/smevag.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>SMEV AG</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://smev.ag/' rel='noopener'><span class='icon website'></span></div>"
@@ -1009,7 +1009,7 @@
 				"type": "Organization",
 				"name": "Solinfra",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/solinfra.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/solinfra.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/solinfra.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Solinfra</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://solinfra.com/en/home/' rel='noopener'><span class='icon website'></span></div>"
@@ -1026,7 +1026,7 @@
 				"type": "Organization",
 				"name": "Soluziona Tech",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/soluziona-tech.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/soluziona-tech.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/soluziona-tech.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Soluziona Tech</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://soluzionatech.com/' rel='noopener'><span class='icon website'></span></div>"
@@ -1043,7 +1043,7 @@
 				"type": "Organization",
 				"name": "Stadtwerke Lübeck Digital",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/travekom.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/travekom.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/travekom.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Stadtwerke Lübeck Digital</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.travekom.de/' rel='noopener'><span class='icon website'></span></div>"
@@ -1060,7 +1060,7 @@
 				"type": "Organization",
 				"name": "Stadtwerke Wolfsburg",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/stadtwerke-wolfsburg.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/stadtwerke-wolfsburg.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/stadtwerke-wolfsburg.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Stadtwerke Wolfsburg</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.stadtwerke-wolfsburg.de/' rel='noopener'><span class='icon website'></span></div>"
@@ -1077,7 +1077,7 @@
 				"type": "Organization",
 				"name": "Sysman",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/sysman.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/sysman.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/sysman.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Sysman</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://sysman.com.co/' rel='noopener'><span class='icon website'></span></div>"
@@ -1094,7 +1094,7 @@
 				"type": "Organization",
 				"name": "Team Dev",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/team-dev.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/team-dev.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/team-dev.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Team Dev</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.teamdev.it/' rel='noopener'><span class='icon website'></span></div>"
@@ -1111,7 +1111,7 @@
 				"type": "Organization",
 				"name": "Tech n&#x27;Change",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/techn-change.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/techn-change.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/techn-change.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Tech n&#x27;Change</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.technchange.net/' rel='noopener'><span class='icon website'></span></div>"
@@ -1128,7 +1128,7 @@
 				"type": "Organization",
 				"name": "TIS",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/tis.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/tis.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/tis.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>TIS</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='http://www.tis.com/' rel='noopener'><span class='icon website'></span></div>"
@@ -1145,7 +1145,7 @@
 				"type": "Organization",
 				"name": "Trigyn",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/trigyn-technologies.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/trigyn-technologies.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/trigyn-technologies.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Trigyn</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.trigyn.com/' rel='noopener'><span class='icon website'></span></div>"
@@ -1162,7 +1162,7 @@
 				"type": "Organization",
 				"name": "Ubiwhere",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/ubiwhere.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/ubiwhere.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/ubiwhere.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Ubiwhere</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.ubiwhere.com/' rel='noopener'><span class='icon website'></span></div>"
@@ -1179,7 +1179,7 @@
 				"type": "Organization",
 				"name": "[ui!]",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/ui.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/ui.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/ui.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>[ui!]</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.ui.city/en/' rel='noopener'><span class='icon website'></span></div>"
@@ -1196,7 +1196,7 @@
 				"type": "Organization",
 				"name": "Uni System",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/uni-system.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/uni-system.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/uni-system.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Uni System</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.unisystems.com/' rel='noopener'><span class='icon website'></span></div>"
@@ -1213,7 +1213,7 @@
 				"type": "Organization",
 				"name": "VIA2MOOV",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/via2moov.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/via2moov.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/via2moov.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>VIA2MOOV</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='http://via4u.io/' rel='noopener'><span class='icon website'></span></div>"
@@ -1230,7 +1230,7 @@
 				"type": "Organization",
 				"name": "Virtual City Systems",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/virtual-city-systems.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/virtual-city-systems.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/virtual-city-systems.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Virtual City Systems</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://vc.systems/' rel='noopener'><span class='icon website'></span></div>"
@@ -1247,7 +1247,7 @@
 				"type": "Organization",
 				"name": "Visions",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/visions.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/visions.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/visions.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Visions</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://visionspol.eu/en' rel='noopener'><span class='icon website'></span></div>"
@@ -1264,7 +1264,7 @@
 				"type": "Organization",
 				"name": "WinIT",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/win-it.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/win-it.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/win-it.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>WinIT</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://win-it.de/' rel='noopener'><span class='icon website'></span></div>"
@@ -1281,7 +1281,7 @@
 				"type": "Organization",
 				"name": "WMBExpert",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/wmb-expert.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/wmb-expert.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/wmb-expert.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>WMBExpert</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='http://wmb.expert/' rel='noopener'><span class='icon website'></span></div>"
@@ -1298,7 +1298,7 @@
 				"type": "Organization",
 				"name": "Zabala",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/zabala.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/zabala.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/zabala.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Zabala</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.zabala.es/' rel='noopener'><span class='icon website'></span></div>"
@@ -1315,7 +1315,7 @@
 				"type": "Organization",
 				"name": "Antel",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/antel.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/antel.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/antel.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Antel</div>",
 					"<div class='membership-type'>Gold SEU</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='http://www.antel.com.uy/' rel='noopener'><span class='icon website'></span></div>"
@@ -1332,7 +1332,7 @@
 				"type": "Organization",
 				"name": "Badajoz Provincial Council",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/province-of-badajoz.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/province-of-badajoz.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/province-of-badajoz.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Badajoz Provincial Council</div>",
 					"<div class='membership-type'>Gold SEU</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.dip-badajoz.es/' rel='noopener'><span class='icon website'></span></div>"
@@ -1349,7 +1349,7 @@
 				"type": "Organization",
 				"name": "Berkane Provincial Council",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/province-of-berkane.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/province-of-berkane.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/province-of-berkane.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Berkane Provincial Council</div>",
 					"<div class='membership-type'>Gold SEU</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://provinceberkane.ma/citoyen/public/' rel='noopener'><span class='icon website'></span></div>"
@@ -1366,7 +1366,7 @@
 				"type": "Organization",
 				"name": "CARTIF",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/cartif.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/cartif.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/cartif.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>CARTIF</div>",
 					"<div class='membership-type'>Gold SEU</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.cartif.es/en/home/' rel='noopener'><span class='icon website'></span></div>"
@@ -1383,7 +1383,7 @@
 				"type": "Organization",
 				"name": "City of Duitama",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-duitama.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/city-of-duitama.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-duitama.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>City of Duitama</div>",
 					"<div class='membership-type'>Gold SEU</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.duitama-boyaca.gov.co' rel='noopener'><span class='icon website'></span></div>"
@@ -1400,7 +1400,7 @@
 				"type": "Organization",
 				"name": "City of Genova",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-genova.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/city-of-genova.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-genova.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>City of Genova</div>",
 					"<div class='membership-type'>Gold SEU</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://smart.comune.genova.it/' rel='noopener'><span class='icon website'></span></div>"
@@ -1417,7 +1417,7 @@
 				"type": "Organization",
 				"name": "City of Herne",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-herne.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/city-of-herne.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-herne.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>City of Herne</div>",
 					"<div class='membership-type'>Gold SEU</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.herne.de/' rel='noopener'><span class='icon website'></span></div>"
@@ -1434,7 +1434,7 @@
 				"type": "Organization",
 				"name": "City of La Palma",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-la-palma.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/city-of-la-palma.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-la-palma.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>City of La Palma</div>",
 					"<div class='membership-type'>Gold SEU</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.cabildodelapalma.es/en' rel='noopener'><span class='icon website'></span></div>"
@@ -1451,7 +1451,7 @@
 				"type": "Organization",
 				"name": "City of Medellin",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-medellin.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/city-of-medellin.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-medellin.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>City of Medellin</div>",
 					"<div class='membership-type'>Gold SEU</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.municipio.com.co/municipio-medellin.html' rel='noopener'><span class='icon website'></span></div>"
@@ -1468,7 +1468,7 @@
 				"type": "Organization",
 				"name": "City of Molina de Segura",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-molina-de-segura.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/city-of-molina-de-segura.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-molina-de-segura.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>City of Molina de Segura</div>",
 					"<div class='membership-type'>Gold SEU</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://portal.molinadesegura.es/' rel='noopener'><span class='icon website'></span></div>"
@@ -1485,7 +1485,7 @@
 				"type": "Organization",
 				"name": "City of Montevideo",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-montevideo.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/city-of-montevideo.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-montevideo.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>City of Montevideo</div>",
 					"<div class='membership-type'>Gold SEU</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://montevideo.gub.uy/' rel='noopener'><span class='icon website'></span></div>"
@@ -1502,7 +1502,7 @@
 				"type": "Organization",
 				"name": "City of Murcia",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-murcia.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/city-of-murcia.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-murcia.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>City of Murcia</div>",
 					"<div class='membership-type'>Gold SEU</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.murcia.es/web/portal/inicio;jsessionid&#x3D;34282344B572E7DF712875AAAE761342' rel='noopener'><span class='icon website'></span></div>"
@@ -1519,7 +1519,7 @@
 				"type": "Organization",
 				"name": "City of Paderborn",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-paderborn.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/city-of-paderborn.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-paderborn.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>City of Paderborn</div>",
 					"<div class='membership-type'>Gold SEU</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.paderborn.de/' rel='noopener'><span class='icon website'></span></div>"
@@ -1536,7 +1536,7 @@
 				"type": "Organization",
 				"name": "City of Perugia",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-perugia.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/city-of-perugia.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-perugia.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>City of Perugia</div>",
 					"<div class='membership-type'>Gold SEU</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.comune.perugia.it/' rel='noopener'><span class='icon website'></span></div>"
@@ -1553,7 +1553,7 @@
 				"type": "Organization",
 				"name": "City of Posadas",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-posadas.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/city-of-posadas.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-posadas.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>City of Posadas</div>",
 					"<div class='membership-type'>Gold SEU</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.posadas.gov.ar/' rel='noopener'><span class='icon website'></span></div>"
@@ -1570,7 +1570,7 @@
 				"type": "Organization",
 				"name": "City of Santander",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-santander.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/city-of-santander.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-santander.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>City of Santander</div>",
 					"<div class='membership-type'>Gold SEU</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='http://santander.es/' rel='noopener'><span class='icon website'></span></div>"
@@ -1587,7 +1587,7 @@
 				"type": "Organization",
 				"name": "City of São Martinho",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/sao-martinho.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/sao-martinho.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/sao-martinho.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>City of São Martinho</div>",
 					"<div class='membership-type'>Gold SEU</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://saomartinho.sc.gov.br/' rel='noopener'><span class='icon website'></span></div>"
@@ -1604,7 +1604,7 @@
 				"type": "Organization",
 				"name": "City of Wien",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-vienna.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/city-of-vienna.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-vienna.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>City of Wien</div>",
 					"<div class='membership-type'>Gold SEU</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.wien.gv.at/english/' rel='noopener'><span class='icon website'></span></div>"
@@ -1621,7 +1621,7 @@
 				"type": "Organization",
 				"name": "Doctor Peset University Hospital",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/doctor-peset-hospital.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/doctor-peset-hospital.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/doctor-peset-hospital.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Doctor Peset University Hospital</div>",
 					"<div class='membership-type'>Gold SEU</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://doctorpeset.san.gva.es/es/' rel='noopener'><span class='icon website'></span></div>"
@@ -1638,7 +1638,7 @@
 				"type": "Organization",
 				"name": "Government of Monaco",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/government-of-monaco.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/government-of-monaco.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/government-of-monaco.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Government of Monaco</div>",
 					"<div class='membership-type'>Gold SEU</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://en.gouv.mc/' rel='noopener'><span class='icon website'></span></div>"
@@ -1655,7 +1655,7 @@
 				"type": "Organization",
 				"name": "Las Rozas Innova",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/las-rozas-innova.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/las-rozas-innova.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/las-rozas-innova.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Las Rozas Innova</div>",
 					"<div class='membership-type'>Gold SEU</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://lasrozasinnova.es/en/' rel='noopener'><span class='icon website'></span></div>"
@@ -1672,7 +1672,7 @@
 				"type": "Organization",
 				"name": "Ministry of Agriculture, Fisheries and Food",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/mapa.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/mapa.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/mapa.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Ministry of Agriculture, Fisheries and Food</div>",
 					"<div class='membership-type'>Gold SEU</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.mapa.gob.es/en/default.aspx' rel='noopener'><span class='icon website'></span></div>"
@@ -1689,7 +1689,7 @@
 				"type": "Organization",
 				"name": "Nepal three Municipalities",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-nepal.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/city-of-nepal.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-nepal.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Nepal three Municipalities</div>",
 					"<div class='membership-type'>Gold SEU</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://nepal.gov.np/' rel='noopener'><span class='icon website'></span></div>"
@@ -1706,7 +1706,7 @@
 				"type": "Organization",
 				"name": "Netzlink",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/netzlink.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/netzlink.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/netzlink.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Netzlink</div>",
 					"<div class='membership-type'>Gold SEU</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://netzlink.com/' rel='noopener'><span class='icon website'></span></div>"
@@ -1723,7 +1723,7 @@
 				"type": "Organization",
 				"name": "ProMalaga",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/pro-malaga.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/pro-malaga.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/pro-malaga.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>ProMalaga</div>",
 					"<div class='membership-type'>Gold SEU</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.promalaga.es/' rel='noopener'><span class='icon website'></span></div>"
@@ -1740,7 +1740,7 @@
 				"type": "Organization",
 				"name": "Psnc",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/psnc.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/psnc.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/psnc.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Psnc</div>",
 					"<div class='membership-type'>Gold SEU</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.psnc.pl/' rel='noopener'><span class='icon website'></span></div>"
@@ -1757,7 +1757,7 @@
 				"type": "Organization",
 				"name": "SWD Dormagen",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/swd-dormagen.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/swd-dormagen.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/swd-dormagen.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>SWD Dormagen</div>",
 					"<div class='membership-type'>Gold SEU</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.swd-dormagen.de' rel='noopener'><span class='icon website'></span></div>"
@@ -1774,7 +1774,7 @@
 				"type": "Organization",
 				"name": "University of Naples “Parthenope”",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/university-of-naples-parthenope.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/university-of-naples-parthenope.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/university-of-naples-parthenope.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>University of Naples “Parthenope”</div>",
 					"<div class='membership-type'>Gold SEU</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://uniparthenope.it/' rel='noopener'><span class='icon website'></span></div>"
@@ -1791,7 +1791,7 @@
 				"type": "Organization",
 				"name": "Vienna Business Agency",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/vienna-business-agency.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/vienna-business-agency.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/vienna-business-agency.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Vienna Business Agency</div>",
 					"<div class='membership-type'>Gold SEU</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://viennabusinessagency.at/' rel='noopener'><span class='icon website'></span></div>"
@@ -1808,7 +1808,7 @@
 				"type": "Organization",
 				"name": "AEI AERTIC",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/aertic.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/aertic.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/aertic.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>AEI AERTIC</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://aertic.es/en/home/' rel='noopener'><span class='icon website'></span></div>"
@@ -1825,7 +1825,7 @@
 				"type": "Organization",
 				"name": "ARDITI",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/arditi.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/arditi.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/arditi.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>ARDITI</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.arditi.pt/pt/' rel='noopener'><span class='icon website'></span></div>"
@@ -1842,7 +1842,7 @@
 				"type": "Organization",
 				"name": "Artech Consulting",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/artech-international.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/artech-international.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/artech-international.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Artech Consulting</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://artechconsulting.net/' rel='noopener'><span class='icon website'></span></div>"
@@ -1859,7 +1859,7 @@
 				"type": "Organization",
 				"name": "ATB Bremen",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/atb-bremen.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/atb-bremen.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/atb-bremen.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>ATB Bremen</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.atb-bremen.de/' rel='noopener'><span class='icon website'></span></div>"
@@ -1876,7 +1876,7 @@
 				"type": "Organization",
 				"name": "Bochum University of Applied Sciences",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/bochum-university-of-applied-sciences.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/bochum-university-of-applied-sciences.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/bochum-university-of-applied-sciences.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Bochum University of Applied Sciences</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.hochschule-bochum.de/en/' rel='noopener'><span class='icon website'></span></div>"
@@ -1893,7 +1893,7 @@
 				"type": "Organization",
 				"name": "Cefriel",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/cefriel.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/cefriel.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/cefriel.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Cefriel</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.cefriel.com/en/home' rel='noopener'><span class='icon website'></span></div>"
@@ -1910,7 +1910,7 @@
 				"type": "Organization",
 				"name": "CERTH-ITI",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/certh-iti.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/certh-iti.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/certh-iti.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>CERTH-ITI</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.iti.gr/' rel='noopener'><span class='icon website'></span></div>"
@@ -1927,7 +1927,7 @@
 				"type": "Organization",
 				"name": "CINTEL",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/cintel.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/cintel.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/cintel.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>CINTEL</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://cintel.co/' rel='noopener'><span class='icon website'></span></div>"
@@ -1944,7 +1944,7 @@
 				"type": "Organization",
 				"name": "CIRES",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/cires.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/cires.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/cires.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>CIRES</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.cirestechnologies.com/' rel='noopener'><span class='icon website'></span></div>"
@@ -1961,7 +1961,7 @@
 				"type": "Organization",
 				"name": "Code for Japan",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/code-for-japan.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/code-for-japan.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/code-for-japan.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Code for Japan</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.code4japan.org/' rel='noopener'><span class='icon website'></span></div>"
@@ -1978,7 +1978,7 @@
 				"type": "Organization",
 				"name": "CRIEPI",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/criepi.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/criepi.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/criepi.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>CRIEPI</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://criepi.denken.or.jp/en/' rel='noopener'><span class='icon website'></span></div>"
@@ -1995,7 +1995,7 @@
 				"type": "Organization",
 				"name": "CRS4",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/crs4.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/crs4.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/crs4.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>CRS4</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.crs4.it/' rel='noopener'><span class='icon website'></span></div>"
@@ -2012,7 +2012,7 @@
 				"type": "Organization",
 				"name": "Digital Twin Consortium",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/digital-twin-consortium.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/digital-twin-consortium.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/digital-twin-consortium.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Digital Twin Consortium</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.digitaltwinconsortium.org/index.htm' rel='noopener'><span class='icon website'></span></div>"
@@ -2029,7 +2029,7 @@
 				"type": "Organization",
 				"name": "ETRI",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/etri.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/etri.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/etri.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>ETRI</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.etri.re.kr/eng/main/main.etri' rel='noopener'><span class='icon website'></span></div>"
@@ -2046,7 +2046,7 @@
 				"type": "Organization",
 				"name": "Eurecat",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/eurecat.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/eurecat.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/eurecat.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Eurecat</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://eurecat.org/en/' rel='noopener'><span class='icon website'></span></div>"
@@ -2063,7 +2063,7 @@
 				"type": "Organization",
 				"name": "F6S",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/f6s.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/f6s.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/f6s.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>F6S</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://innovation.f6s.com/' rel='noopener'><span class='icon website'></span></div>"
@@ -2080,7 +2080,7 @@
 				"type": "Organization",
 				"name": "Faubourg Numérique",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/faubourg-numerique.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/faubourg-numerique.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/faubourg-numerique.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Faubourg Numérique</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://dih-fbn.com/en/' rel='noopener'><span class='icon website'></span></div>"
@@ -2097,7 +2097,7 @@
 				"type": "Organization",
 				"name": "Gate Institute",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/gate-institute.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/gate-institute.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/gate-institute.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Gate Institute</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://gate-ai.eu/en/home/' rel='noopener'><span class='icon website'></span></div>"
@@ -2114,7 +2114,7 @@
 				"type": "Organization",
 				"name": "ICT Innovation Network",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/ict-innovation-network.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/ict-innovation-network.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/ict-innovation-network.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>ICT Innovation Network</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://ikthm-en.gzs.si/' rel='noopener'><span class='icon website'></span></div>"
@@ -2131,7 +2131,7 @@
 				"type": "Organization",
 				"name": "IDSA",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/idsa.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/idsa.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/idsa.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>IDSA</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.internationaldataspaces.org/' rel='noopener'><span class='icon website'></span></div>"
@@ -2148,7 +2148,7 @@
 				"type": "Organization",
 				"name": "IFE",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/ife.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/ife.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/ife.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>IFE</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://ife.no/en/front-page/' rel='noopener'><span class='icon website'></span></div>"
@@ -2165,7 +2165,7 @@
 				"type": "Organization",
 				"name": "Imec",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/imec.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/imec.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/imec.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Imec</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.imec-int.com/en' rel='noopener'><span class='icon website'></span></div>"
@@ -2182,7 +2182,7 @@
 				"type": "Organization",
 				"name": "IMR – Irish Manufacturing Research",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/irish-manufacturing-research.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/irish-manufacturing-research.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/irish-manufacturing-research.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>IMR – Irish Manufacturing Research</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://imr.ie/' rel='noopener'><span class='icon website'></span></div>"
@@ -2199,7 +2199,7 @@
 				"type": "Organization",
 				"name": "Instituto Ciudades del Futuro",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/instituto-ciudades-del-futuro.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/instituto-ciudades-del-futuro.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/instituto-ciudades-del-futuro.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Instituto Ciudades del Futuro</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.ciudadesdelfuturo.com.ar/' rel='noopener'><span class='icon website'></span></div>"
@@ -2216,7 +2216,7 @@
 				"type": "Organization",
 				"name": "Intellimech",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/intellimech.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/intellimech.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/intellimech.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Intellimech</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.intellimech.it/en/' rel='noopener'><span class='icon website'></span></div>"
@@ -2233,7 +2233,7 @@
 				"type": "Organization",
 				"name": "ITRI",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/itri.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/itri.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/itri.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>ITRI</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.itri.org.tw/english/' rel='noopener'><span class='icon website'></span></div>"
@@ -2250,7 +2250,7 @@
 				"type": "Organization",
 				"name": "KETI",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/keti.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/keti.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/keti.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>KETI</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.keti.re.kr/eng/main/main.php' rel='noopener'><span class='icon website'></span></div>"
@@ -2267,7 +2267,7 @@
 				"type": "Organization",
 				"name": "Kommunal 4.0",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/kommunal-40.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/kommunal-40.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/kommunal-40.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Kommunal 4.0</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://en.hst.de/' rel='noopener'><span class='icon website'></span></div>"
@@ -2284,7 +2284,7 @@
 				"type": "Organization",
 				"name": "Linz Center Of Mechatronics",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/linz-center-of-mechatronics.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/linz-center-of-mechatronics.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/linz-center-of-mechatronics.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Linz Center Of Mechatronics</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.lcm.at/' rel='noopener'><span class='icon website'></span></div>"
@@ -2301,7 +2301,7 @@
 				"type": "Organization",
 				"name": "Mindfultech Institute",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/mindfultech-institute.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/mindfultech-institute.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/mindfultech-institute.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Mindfultech Institute</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://mindfultech.institute/' rel='noopener'><span class='icon website'></span></div>"
@@ -2318,7 +2318,7 @@
 				"type": "Organization",
 				"name": "NONAGON",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/nonagon.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/nonagon.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/nonagon.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>NONAGON</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://nonagon.pt/' rel='noopener'><span class='icon website'></span></div>"
@@ -2335,7 +2335,7 @@
 				"type": "Organization",
 				"name": "OASC",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/oasc.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/oasc.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/oasc.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>OASC</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://oascities.org/' rel='noopener'><span class='icon website'></span></div>"
@@ -2352,7 +2352,7 @@
 				"type": "Organization",
 				"name": "Open Solutions For Government",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/ogov.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/ogov.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/ogov.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Open Solutions For Government</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://ogov.org/' rel='noopener'><span class='icon website'></span></div>"
@@ -2369,7 +2369,7 @@
 				"type": "Organization",
 				"name": "Pleiades Innovation Cluster",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/pleiades.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/pleiades.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/pleiades.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Pleiades Innovation Cluster</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://pleiadesiot.com/' rel='noopener'><span class='icon website'></span></div>"
@@ -2386,7 +2386,7 @@
 				"type": "Organization",
 				"name": "Polytechnic University of Madrid",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/university-politecnica-of-madrid.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/university-politecnica-of-madrid.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/university-politecnica-of-madrid.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Polytechnic University of Madrid</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.upm.es/internacional' rel='noopener'><span class='icon website'></span></div>"
@@ -2403,7 +2403,7 @@
 				"type": "Organization",
 				"name": "Pontifical Bolivarian University",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/upb.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/upb.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/upb.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Pontifical Bolivarian University</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.upb.edu.co/es/home' rel='noopener'><span class='icon website'></span></div>"
@@ -2420,7 +2420,7 @@
 				"type": "Organization",
 				"name": "ProStep",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/pro-step.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/pro-step.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/pro-step.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>ProStep</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.prostep.org/en/' rel='noopener'><span class='icon website'></span></div>"
@@ -2437,7 +2437,7 @@
 				"type": "Organization",
 				"name": "RWTH Aachen University",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/rwth-aachen-university.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/rwth-aachen-university.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/rwth-aachen-university.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>RWTH Aachen University</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.rwth-aachen.de/go/id/a/?lidx&#x3D;1' rel='noopener'><span class='icon website'></span></div>"
@@ -2454,7 +2454,7 @@
 				"type": "Organization",
 				"name": "SCIC",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/scic.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/scic.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/scic.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>SCIC</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='http://scic-tetris.org/' rel='noopener'><span class='icon website'></span></div>"
@@ -2471,7 +2471,7 @@
 				"type": "Organization",
 				"name": "SIBB",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/sibb.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/sibb.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/sibb.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>SIBB</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.sibb.de/' rel='noopener'><span class='icon website'></span></div>"
@@ -2488,7 +2488,7 @@
 				"type": "Organization",
 				"name": "Smart City Institute Japan",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/smart-city-institute-japan.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/smart-city-institute-japan.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/smart-city-institute-japan.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Smart City Institute Japan</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.sci-japan.or.jp/english/' rel='noopener'><span class='icon website'></span></div>"
@@ -2505,7 +2505,7 @@
 				"type": "Organization",
 				"name": "South-Eastern Finland University of Applied Sciences",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/xamk.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/xamk.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/xamk.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>South-Eastern Finland University of Applied Sciences</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.xamk.fi/en/frontpage/' rel='noopener'><span class='icon website'></span></div>"
@@ -2522,7 +2522,7 @@
 				"type": "Organization",
 				"name": "Tampere University of Applied Sciences",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/tamk.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/tamk.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/tamk.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Tampere University of Applied Sciences</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.tuni.fi/en' rel='noopener'><span class='icon website'></span></div>"
@@ -2539,7 +2539,7 @@
 				"type": "Organization",
 				"name": "The Lisbon Council",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/the-lisbon-council.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/the-lisbon-council.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/the-lisbon-council.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>The Lisbon Council</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://lisboncouncil.net/' rel='noopener'><span class='icon website'></span></div>"
@@ -2556,7 +2556,7 @@
 				"type": "Organization",
 				"name": "TSCAI",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/tscai.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/tscai.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/tscai.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>TSCAI</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://thesmartcityassociation.org/' rel='noopener'><span class='icon website'></span></div>"
@@ -2573,7 +2573,7 @@
 				"type": "Organization",
 				"name": "UDG Alliance",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/udg-alliance.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/udg-alliance.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/udg-alliance.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>UDG Alliance</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.udgalliance.org/' rel='noopener'><span class='icon website'></span></div>"
@@ -2590,7 +2590,7 @@
 				"type": "Organization",
 				"name": "Union Syndicale des Agriculteurs",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/union-syndicale-des-agriculteurs.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/union-syndicale-des-agriculteurs.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/union-syndicale-des-agriculteurs.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Union Syndicale des Agriculteurs</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://namati.org/network/organization/union-syndicale-des-agriculteurs/' rel='noopener'><span class='icon website'></span></div>"
@@ -2607,7 +2607,7 @@
 				"type": "Organization",
 				"name": "University Lumiere Lyon 2",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/university-lumiere-lyon-2.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/university-lumiere-lyon-2.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/university-lumiere-lyon-2.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>University Lumiere Lyon 2</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://welcome.univ-lyon2.fr/' rel='noopener'><span class='icon website'></span></div>"
@@ -2624,7 +2624,7 @@
 				"type": "Organization",
 				"name": "University of Balearic Islands",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/ubi.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/ubi.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/ubi.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>University of Balearic Islands</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.uib.eu/' rel='noopener'><span class='icon website'></span></div>"
@@ -2641,7 +2641,7 @@
 				"type": "Organization",
 				"name": "University of Cantabria",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/university-of-cantabria.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/university-of-cantabria.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/university-of-cantabria.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>University of Cantabria</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://web.unican.es/en/Pages/default.aspx' rel='noopener'><span class='icon website'></span></div>"
@@ -2658,7 +2658,7 @@
 				"type": "Organization",
 				"name": "University of Córdoba",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/uco.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/uco.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/uco.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>University of Córdoba</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.uco.es/internacional/extranjeros/en/' rel='noopener'><span class='icon website'></span></div>"
@@ -2675,7 +2675,7 @@
 				"type": "Organization",
 				"name": "University of Deusto",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/university-of-deusto.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/university-of-deusto.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/university-of-deusto.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>University of Deusto</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.deusto.es/cs/Satellite/deusto/en/university-deusto?cambioidioma&#x3D;si' rel='noopener'><span class='icon website'></span></div>"
@@ -2692,7 +2692,7 @@
 				"type": "Organization",
 				"name": "University of Murcia",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/university-of-murcia.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/university-of-murcia.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/university-of-murcia.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>University of Murcia</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.um.es/' rel='noopener'><span class='icon website'></span></div>"
@@ -2709,7 +2709,7 @@
 				"type": "Organization",
 				"name": "University of Salento",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/university-of-salento.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/university-of-salento.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/university-of-salento.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>University of Salento</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://international.unisalento.it/' rel='noopener'><span class='icon website'></span></div>"
@@ -2726,7 +2726,7 @@
 				"type": "Organization",
 				"name": "University of Sri Jayewardenepura",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/university-sri-jayewardenepura.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/university-sri-jayewardenepura.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/university-sri-jayewardenepura.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>University of Sri Jayewardenepura</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.sjp.ac.lk/' rel='noopener'><span class='icon website'></span></div>"
@@ -2743,7 +2743,7 @@
 				"type": "Organization",
 				"name": "WAZIUP",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/waziup.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/waziup.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/waziup.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>WAZIUP</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.waziup.eu/' rel='noopener'><span class='icon website'></span></div>"
@@ -2760,7 +2760,7 @@
 				"type": "Organization",
 				"name": "WeGO",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/wego.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/wego.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/wego.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>WeGO</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='http://we-gov.org/' rel='noopener'><span class='icon website'></span></div>"
@@ -2777,7 +2777,7 @@
 				"type": "Organization",
 				"name": "Wuhan Yangtze Business University",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/wtbu.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/wtbu.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/wtbu.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Wuhan Yangtze Business University</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://eng.wtbu.edu.cn/#/' rel='noopener'><span class='icon website'></span></div>"
@@ -2794,7 +2794,7 @@
 				"type": "Organization",
 				"name": "Zixtech Association",
 				"html": [
-					"<div ><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/zixtech.png'/></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/zixtech.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/zixtech.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Zixtech Association</div>",
 					"<div class='membership-type'>Associate</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.zixtechhub.com/' rel='noopener'><span class='icon website'></span></div>"
