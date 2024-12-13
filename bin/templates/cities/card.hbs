@@ -2,10 +2,12 @@
     <div class="grid-item  {{createClass type}} {{createClasses domain}} {{createClass country}}">
         <a href="./city-details?id={{createClass city}}">
             <div class="gridElementLogoContainer">
+                {{#if image}}
                 <picture>
                    <source srcset="{{webp thumbnail}}" type="image/webp"/>
                    <img class="gridElementLogo" src="{{thumbnail}}" loading="lazy"/>
                 </picture>
+                {{/if}}
             </div>
         </a>
         <div class="gridElementTextContainer">
