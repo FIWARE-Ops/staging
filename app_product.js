@@ -1,9 +1,9 @@
-function webp(url){
-  return url? url.substring(0, url.lastIndexOf('.')) + '.webp' : '';
+function webp(url) {
+  return url ? url.substring(0, url.lastIndexOf(".")) + ".webp" : "";
 }
 
 function wrapImage(id, width, height, src) {
-  var img = "";
+  let img = "";
 
   if (width) {
     img =
@@ -63,7 +63,7 @@ function addChips(id, items) {
 
   $(id).empty();
   items.forEach((el) => {
-    var resource = '<li class="resource">' + el + "</li>";
+    const resource = '<li class="resource">' + el + "</li>";
     $(id).append(resource);
   });
 }
@@ -77,10 +77,10 @@ function addContacts(id, contact) {
 }
 
 function shuffle(sourceArray) {
-  for (var i = 0; i < sourceArray.length - 1; i++) {
-    var j = i + Math.floor(Math.random() * (sourceArray.length - i));
+  for (let i = 0; i < sourceArray.length - 1; i++) {
+    const j = i + Math.floor(Math.random() * (sourceArray.length - i));
 
-    var temp = sourceArray[j];
+    const temp = sourceArray[j];
     sourceArray[j] = sourceArray[i];
     sourceArray[i] = temp;
   }
@@ -91,13 +91,12 @@ function addRelated(related) {
   if (!related || related.length === 0) {
     $("#related-products").remove();
   } else {
-    var prods = shuffle(related);
+    const prods = shuffle(related);
     $("#related-links").empty();
     prods.forEach((product, i) => {
+      console.log(product);
 
-      console.log(product)
-
-      var resource = `<a class="yarpp-thumbnail" rel="norewrite" href="${product.companyLink}" >
+      const resource = `<a class="yarpp-thumbnail" rel="norewrite" href="${product.companyLink}" >
             <div class="yarpp-thumbnail-default">
               <div class="hero-product-container">
                 <picture>
@@ -125,7 +124,7 @@ function wrapResources(id, title, resources) {
 
   $(id).append(title);
   resources.forEach((el) => {
-    var resource =
+    const resource =
       '<div class="resource"><span class="material-symbols-outlined">link</span>' +
       '<a class="link" href="' +
       el[1] +
@@ -143,12 +142,11 @@ function fillProduct(product) {
   window.jobDone = true;
 
   const LOGOS_DIR = {
-    powered: 'directories/showcase/powered-by-fiware/logo/',
-    ready: 'directories/showcase/fiware-ready/logo/',
-    services: 'directories/showcase/services/logo/',
-    cities: 'directories/showcase/cities4cities/logo/',
-  }
-
+    powered: "directories/showcase/powered-by-fiware/logo/",
+    ready: "directories/showcase/fiware-ready/logo/",
+    services: "directories/showcase/services/logo/",
+    cities: "directories/showcase/cities4cities/logo/",
+  };
 
   $("h5#category").text(product.category);
   $("h5#category").on("click", function (e) {
@@ -162,7 +160,10 @@ function fillProduct(product) {
   $("h4#excerpt").text(product.excerpt);
   $("span#certified-in").text(product.yearOfValidation);
 
-  product.logo = 'https://www.fiware.org/wp-content/' + LOGOS_DIR[product.cat] + product.logo;
+  product.logo =
+    "https://www.fiware.org/wp-content/" +
+    LOGOS_DIR[product.cat] +
+    product.logo;
   wrapImage("#logo", 500, 300, product.logo);
   wrapImage("#main-logo", 500, 300, product.logo);
   wrapImage("#featured-image", null, null, product.featuredImageUrl);
@@ -229,7 +230,7 @@ function fillProduct(product) {
   $('meta[name="twitter:creator"]').attr("content", "@FIWARE");
   $('meta[name="twitter:image"]').attr("content", product.featuredImage);
 
-  if(window.location.host === 'www.fiware.org'){
+  if (window.location.host === "www.fiware.org") {
     history.pushState({}, null, product.social);
   }
 }
@@ -239,7 +240,7 @@ function loadProduct() {
   //  $(document).ready(function () {
   $ = $ || jQuery;
   $.urlParam = function (name) {
-    var results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
+    const results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
       window.location.href,
     );
     if (results == null) {

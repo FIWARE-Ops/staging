@@ -1,5 +1,5 @@
 function wrapImage(id, width, height, src) {
-  var img = "";
+  let img = "";
 
   if (width) {
     img =
@@ -43,7 +43,7 @@ function addChips(id, items) {
 
   $(id).empty();
   items.forEach((el) => {
-    var resource = '<li class="resource">' + el + "</li>";
+    const resource = '<li class="resource">' + el + "</li>";
     $(id).append(resource);
   });
 }
@@ -66,7 +66,7 @@ function wrapResources(id, title, resources) {
 
   $(id).append(title);
   resources.forEach((el) => {
-    var resource =
+    const resource =
       '<div class="resource"><span class="material-symbols-outlined">link</span>' +
       '<a class="link" href="' +
       el[1] +
@@ -78,18 +78,18 @@ function wrapResources(id, title, resources) {
 }
 
 function setBar(startDate, endDate, status) {
-  var start = new Date(startDate), // Jan 1, 2020
-    end = new Date(endDate), // Dec 31, 2021
-    today = new Date(); //
+  const start = new Date(startDate); // Jan 1, 2020
+  const end = new Date(endDate); // Dec 31, 2021
+  const today = new Date(); //
 
   // Get the total possible timestamp value
-  var total = end.getTime() - start.getTime();
+  const total = end.getTime() - start.getTime();
 
   // Get the current value
-  var current = today.getTime() - start.getTime();
+  const current = today.getTime() - start.getTime();
 
   // Get the percentage
-  var p = Math.round((current / total) * 100) + "%";
+  const p = Math.round((current / total) * 100) + "%";
 
   $(".bar").css("width", p).after().append(p);
   $("h6#start-date").text(start.toDateString().substring(3));
@@ -185,7 +185,7 @@ function loadProject(e) {
   e.target.removeEventListener("data-ready", loadProject, false);
   $ = $ || jQuery;
   $.urlParam = function (name) {
-    var results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
+    const results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
       window.location.href,
     );
     if (results == null) {

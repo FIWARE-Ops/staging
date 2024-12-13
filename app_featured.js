@@ -1,5 +1,9 @@
 function includeHTML(cb) {
-  var z, i, elmnt, file, xhttp;
+  let z;
+  let i;
+  let elmnt;
+  let file;
+  let xhttp;
   z = document.getElementsByTagName("*");
   for (i = 0; i < z.length; i++) {
     elmnt = z[i];
@@ -23,11 +27,13 @@ function includeHTML(cb) {
       return;
     }
   }
-  if (cb) cb();
+  if (cb) {
+    cb();
+  }
 }
 
 function enableCarousel(e) {
-   e.target.removeEventListener("html-included", enableCarousel, false);
+  e.target.removeEventListener("html-included", enableCarousel, false);
   $(".owl-carousel").owlCarousel({
     stagePadding: 30,
     loop: false,

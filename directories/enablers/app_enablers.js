@@ -1,10 +1,10 @@
 function filterOptions(id, filter, data, css) {
-  var itemCSSFilter = ".grid-item:visible";
+  const itemCSSFilter = ".grid-item:visible";
   // update Type select
   if (document.querySelector(id) && data && filter) {
-    var arr = ["*"];
+    const arr = ["*"];
     data.forEach((el) => {
-      var typeClass = createClassFilter(el);
+      const typeClass = createClassFilter(el);
       if (typeClass !== "" && $("." + typeClass + css + itemCSSFilter).size()) {
         arr.push(typeClass);
       }
@@ -20,9 +20,9 @@ function filterOptions(id, filter, data, css) {
 }
 
 function dropdownFilters(filter) {
-  var typeCSSFilter = getCSSFilter("#filterType");
-  var techCSSFilter = getCSSFilter("#filterTech");
-  var domainCSSFilter = getCSSFilter("#filterDomain");
+  const typeCSSFilter = getCSSFilter("#filterType");
+  const techCSSFilter = getCSSFilter("#filterTech");
+  const domainCSSFilter = getCSSFilter("#filterDomain");
 
   filterOptions(
     "#filterType",
@@ -53,7 +53,7 @@ function initTextSearch(msnry) {
       e.target.parentNode.classList.remove("resetActive");
     }
     msnry.arrange({
-      filter: function (itemElem, itemElem2) {
+      filter(itemElem, itemElem2) {
         return inputSearch(itemElem2, e.target.value);
       },
     });
@@ -61,7 +61,7 @@ function initTextSearch(msnry) {
 }
 
 function createModalContent(tingleModalData) {
-  var modalHtml = "";
+  let modalHtml = "";
   console.warn(tingleModalData);
 
   modalHtml = `
@@ -156,19 +156,19 @@ function initModal() {
     .querySelectorAll(".cat-info[data-modal], .cat-details[data-modal]")
     .forEach(function (el) {
       el.addEventListener("click", function (e) {
-        var modal = new tingle.modal({
+        const modal = new tingle.modal({
           footer: true,
           stickyFooter: false,
           closeMethods: ["overlay", "button", "escape"],
           closeLabel: "Close",
           cssClass: ["tingle-modal--fullscreen"],
-          onOpen: function () {
+          onOpen() {
             //console.log("modal open");
           },
-          onClose: function () {
+          onClose() {
             //console.log("modal closed");
           },
-          beforeClose: function () {
+          beforeClose() {
             // here's goes some logic
             // e.g. save content before closing the modal
             return true; // close the modal
@@ -188,7 +188,7 @@ function initModal() {
 
   $(document).ready(function () {
     $(".cat-info").on("click", function (e) {
-      var target = $(this.hash);
+      const target = $(this.hash);
       if (target.offset()) {
         e.stopPropagation();
         e.preventDefault();
@@ -205,7 +205,7 @@ function initModal() {
 }
 
 function filterToggle() {
-  let filtersContainer = document.querySelector(".filters-container");
+  const filtersContainer = document.querySelector(".filters-container");
   document
     .querySelector("#mobileToggleFilters")
     .addEventListener("click", (ev) => {
@@ -217,7 +217,7 @@ function filterToggle() {
           "Search and Filter";
         filtersContainer.style.height = "auto";
 
-        let height = filtersContainer.clientHeight + "px";
+        const height = filtersContainer.clientHeight + "px";
 
         filtersContainer.style.height = "0px";
 
@@ -243,8 +243,8 @@ function filterToggle() {
 }
 
 function getCSSFilter(id) {
-  var cssFilter = "";
-  var currentType = $(id).val();
+  let cssFilter = "";
+  const currentType = $(id).val();
   if (currentType !== "*") {
     cssFilter = "." + currentType;
   }
@@ -253,9 +253,9 @@ function getCSSFilter(id) {
 
 // Returns the right classNames for isotope card filtering system
 function createClassFilter(data) {
-  var filterString = "";
-  var regex = /([^a-zA-Z0-9À-ÿ])/gi;
-  if (typeof data == "object") {
+  let filterString = "";
+  const regex = /([^a-zA-Z0-9À-ÿ])/gi;
+  if (typeof data === "object") {
     data.forEach((element, i) => {
       if (i + 1 === data.length) {
         filterString += `${element.toLowerCase().replace(regex, "-")}`;
@@ -271,21 +271,21 @@ function createClassFilter(data) {
 }
 
 function inputSearch(itemElem, textString) {
-  var stopwords = /\b(FIWARE|IoT|Smart|Solution|Product|Device)\b/gi;
-  var words = textString.trim().replaceAll(stopwords, "").split(/[ ,]+/);
-  var regex = [];
+  const stopwords = /\b(FIWARE|IoT|Smart|Solution|Product|Device)\b/gi;
+  const words = textString.trim().replaceAll(stopwords, "").split(/[ ,]+/);
+  const regex = [];
   words.forEach(function (currentValue, index) {
     if (currentValue.trim() != "") {
       regex.push("(" + currentValue.trim() + ")");
     }
   });
-  var qsRegex = new RegExp(regex.join("|"), "gi");
+  const qsRegex = new RegExp(regex.join("|"), "gi");
   return itemElem.innerText.match(qsRegex);
 }
 
 function concatValues(obj) {
-  var value = "";
-  for (var prop in obj) {
+  let value = "";
+  for (const prop in obj) {
     value += obj[prop];
   }
   return value;
@@ -349,10 +349,10 @@ function highlightChips() {
   });
 }
 
-var scrollSet = false;
-var msnry;
-var selectors = { fType: true, fDomain: true, fTech: true };
-var filterObj = {};
+let scrollSet = false;
+let msnry;
+let selectors = { fType: true, fDomain: true, fTech: true };
+const filterObj = {};
 
 function initSelect() {
   msnry = new Isotope(".grid", {
@@ -435,7 +435,7 @@ function smoothScroll() {
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "" && !$(this.hash).hasClass("grid-item")) {
       // Store hash
-      var hash = this.hash;
+      const hash = this.hash;
 
       // Using jQuery's animate() method to add smooth page scroll
       // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
@@ -502,10 +502,10 @@ function initFeaturedCarousel() {
 
 function horizontalScroll() {
   // Horizontal Scroll
-  var sliders = document.querySelectorAll(".chips, .badges");
-  var isDown = false;
-  var startX;
-  var scrollLeft;
+  const sliders = document.querySelectorAll(".chips, .badges");
+  let isDown = false;
+  let startX;
+  let scrollLeft;
   sliders.forEach(function (slider) {
     slider.addEventListener("mousedown", function (e) {
       isDown = true;
@@ -522,15 +522,17 @@ function horizontalScroll() {
       slider.classList.remove("active");
     });
     slider.addEventListener("mousemove", function (e) {
-      if (!isDown) return;
+      if (!isDown) {
+        return;
+      }
       e.preventDefault();
-      var x = e.pageX - slider.offsetLeft;
-      var walk = (x - startX) * 3; //scroll-fast
+      const x = e.pageX - slider.offsetLeft;
+      const walk = (x - startX) * 3; //scroll-fast
 
       slider.scrollLeft = scrollLeft - walk;
-      var links = slider.querySelectorAll(".item");
+      const links = slider.querySelectorAll(".item");
 
-      for (var i = 0; i < links.length; i++) {
+      for (let i = 0; i < links.length; i++) {
         links[i].classList.add("noclick");
       }
     });
@@ -561,7 +563,7 @@ function initSticky() {
 
 function setDropdown() {
   $.urlParam = function (name) {
-    var results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
+    const results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
       window.location.href,
     );
     if (results == null) {
@@ -576,7 +578,7 @@ function setDropdown() {
   } else if ($.urlParam("domain")) {
     $("#filterDomain").val($.urlParam("domain"));
     return $("#filterDomain").change();
-  }  else if ($.urlParam("domain")) {
+  } else if ($.urlParam("domain")) {
     $("#filterTechnology").val($.urlParam("technology"));
     return $("#filterTechnology").change();
   } else {
@@ -584,7 +586,7 @@ function setDropdown() {
   }
 }
 
-function setupIsotope (e){
+function setupIsotope(e) {
   e.target.removeEventListener("html-included", setupIsotope, false);
   $("#filteredCompanies").text(window.modalData.length);
   horizontalScroll();
@@ -607,6 +609,4 @@ function setupIsotope (e){
   setDropdown();
 }
 
-document.addEventListener("html-included", setupIsotope)
-
-
+document.addEventListener("html-included", setupIsotope);

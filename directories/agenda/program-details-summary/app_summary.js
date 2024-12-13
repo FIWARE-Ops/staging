@@ -10,9 +10,9 @@ function wrapParagraphs(id, input) {
 }
 
 function createClassFilter(data) {
-  var filterString = "";
-  var regex = /([^a-zA-Z0-9À-ÿ])/gi;
-  if (typeof data == "object") {
+  let filterString = "";
+  const regex = /([^a-zA-Z0-9À-ÿ])/gi;
+  if (typeof data === "object") {
     data.forEach((element, i) => {
       if (i + 1 === data.length) {
         filterString += `${element
@@ -80,7 +80,7 @@ function setClipboard() {
 }
 
 function createModalContent(tingleModalData) {
-  var modalHtml = "";
+  let modalHtml = "";
   console.warn(tingleModalData);
 
   modalHtml += "<div class='info-modal'>";
@@ -113,13 +113,13 @@ function createModalContent(tingleModalData) {
   if (tingleModalData.twitter !== "") {
     modalHtml +=
       '<a class="twitter-link" href="' +
-      tingleModalData["twitter"] +
+      tingleModalData.twitter +
       '" target="_blank"></a>';
   }
   if (tingleModalData.linkedin !== "") {
     modalHtml +=
       '<a class="linkedin-link" href="' +
-      tingleModalData["linkedin"] +
+      tingleModalData.linkedin +
       '" target="_blank"></a>';
   }
   if (tingleModalData.flag !== "") {
@@ -140,19 +140,19 @@ function initModal() {
   // Modal
   document.querySelectorAll(".speaker").forEach(function (el) {
     el.addEventListener("click", function (e) {
-      var modal = new tingle.modal({
+      const modal = new tingle.modal({
         footer: true,
         stickyFooter: false,
         closeMethods: ["overlay", "button", "escape"],
         closeLabel: "Close",
         cssClass: ["tingle-modal--fullscreen"],
-        onOpen: function () {
+        onOpen() {
           //console.log("modal open");
         },
-        onClose: function () {
+        onClose() {
           //console.log("modal closed");
         },
-        beforeClose: function () {
+        beforeClose() {
           // here's goes some logic
           // e.g. save content before closing the modal
           return true; // close the modal
@@ -228,7 +228,7 @@ function trackCSS(data) {
 function loadEvent() {
   $ = $ || jQuery;
   $.urlParam = function (name) {
-    var results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
+    const results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
       window.location.href,
     );
     if (results == null) {

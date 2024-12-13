@@ -10,13 +10,13 @@ function scrollToView() {
   });
 }
 
-var scrollSet = false;
+const scrollSet = false;
 
-var msnry;
-var selectedMonth = getDate();
-var selectedText = "";
-var selectedType = "*";
-var selectedDomain = "*";
+let msnry;
+let selectedMonth = getDate();
+let selectedText = "";
+let selectedType = "*";
+let selectedDomain = "*";
 
 function getDate() {
   const date = new Date();
@@ -50,15 +50,15 @@ function filterFunction() {
 }
 
 function inputSearch(itemElem, textString) {
-  var stopwords = /\b(FIWARE|IoT|Smart|Solution|Product|Device)\b/gi;
-  var words = textString.trim().replaceAll(stopwords, "").split(/[ ,]+/);
-  var regex = [];
+  const stopwords = /\b(FIWARE|IoT|Smart|Solution|Product|Device)\b/gi;
+  const words = textString.trim().replaceAll(stopwords, "").split(/[ ,]+/);
+  const regex = [];
   words.forEach(function (currentValue, index) {
     if (currentValue.trim() != "") {
       regex.push("(" + currentValue.trim() + ")");
     }
   });
-  var qsRegex = new RegExp(regex.join("|"), "gi");
+  const qsRegex = new RegExp(regex.join("|"), "gi");
   return itemElem.match(qsRegex);
 }
 
@@ -111,7 +111,7 @@ function initSelect() {
 }
 
 function initCalendar() {
-  var calendarInstance1 = new calendarJs("calendar1", {
+  const calendarInstance1 = new calendarJs("calendar1", {
     exportEventsEnabled: true,
     useAmPmForTimeDisplays: true,
     fullScreenModeEnabled: false,
@@ -160,7 +160,7 @@ function smoothScroll() {
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
       // Store hash
-      var hash = this.hash;
+      const hash = this.hash;
 
       // Using jQuery's animate() method to add smooth page scroll
       // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
@@ -181,10 +181,10 @@ function smoothScroll() {
 
 function horizontalScroll() {
   // Horizontal Scroll
-  var sliders = document.querySelectorAll(".speakers, .chip-domain .chips");
-  var isDown = false;
-  var startX;
-  var scrollLeft;
+  const sliders = document.querySelectorAll(".speakers, .chip-domain .chips");
+  let isDown = false;
+  let startX;
+  let scrollLeft;
   sliders.forEach(function (slider) {
     slider.addEventListener("mousedown", function (e) {
       isDown = true;
@@ -201,15 +201,17 @@ function horizontalScroll() {
       slider.classList.remove("active");
     });
     slider.addEventListener("mousemove", function (e) {
-      if (!isDown) return;
+      if (!isDown) {
+        return;
+      }
       e.preventDefault();
-      var x = e.pageX - slider.offsetLeft;
-      var walk = (x - startX) * 3; //scroll-fast
+      const x = e.pageX - slider.offsetLeft;
+      const walk = (x - startX) * 3; //scroll-fast
 
       slider.scrollLeft = scrollLeft - walk;
-      var links = slider.querySelectorAll(".item");
+      const links = slider.querySelectorAll(".item");
 
-      for (var i = 0; i < links.length; i++) {
+      for (let i = 0; i < links.length; i++) {
         links[i].classList.add("noclick");
       }
     });
@@ -281,7 +283,7 @@ function calendarShow() {
 }
 
 function filterToggle() {
-  let isMobile = window.matchMedia("(max-width: 767px)").matches;
+  const isMobile = window.matchMedia("(max-width: 767px)").matches;
 
   if (!isMobile) {
     $(".title-filter").removeClass("show");
@@ -292,7 +294,7 @@ function filterToggle() {
   $(".title-filter").addClass("show");
   $(".filters-container").removeClass("show");
 
-  let filtersContainer = document.querySelector(".filters-container");
+  const filtersContainer = document.querySelector(".filters-container");
   $("#mobileToggleFilters").click((ev) => {
     $(ev.target).toggleClass("activeButton");
 
@@ -335,7 +337,7 @@ function viewToggle() {
 
 function setDropdown() {
   $.urlParam = function (name) {
-    var results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
+    const results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
       window.location.href,
     );
     if (results == null) {
@@ -358,7 +360,7 @@ function setDropdown() {
   }
 }
 
-function setupIsotope (e){
+function setupIsotope(e) {
   e.target.removeEventListener("html-included", setupIsotope, false);
 
   $("#app").css("visibility", "visible");
@@ -382,4 +384,4 @@ function setupIsotope (e){
   setDropdown();
 }
 
-document.addEventListener("html-included", setupIsotope)
+document.addEventListener("html-included", setupIsotope);

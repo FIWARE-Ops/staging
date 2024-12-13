@@ -1,5 +1,5 @@
 function createModalContent(tingleModalData) {
-  var modalHtml = "";
+  let modalHtml = "";
 
   modalHtml += "<div class='info-modal'>";
   modalHtml += '<img class="headshot" src="' + tingleModalData.img + '" />';
@@ -31,13 +31,13 @@ function createModalContent(tingleModalData) {
   if (tingleModalData.twitter !== "") {
     modalHtml +=
       '<a class="twitter-link" href="' +
-      tingleModalData["twitter"] +
+      tingleModalData.twitter +
       '" target="_blank"></a>';
   }
   if (tingleModalData.linkedin !== "") {
     modalHtml +=
       '<a class="linkedin-link" href="' +
-      tingleModalData["linkedin"] +
+      tingleModalData.linkedin +
       '" target="_blank"></a>';
   }
   if (tingleModalData.flag !== "") {
@@ -59,9 +59,9 @@ function createModalContent(tingleModalData) {
 
 // Returns the right classNames for isotope card filtering system
 function createClassFilter(data) {
-  var filterString = "";
-  var regex = /([^a-zA-Z0-9À-ÿ])/gi;
-  if (typeof data == "object") {
+  let filterString = "";
+  const regex = /([^a-zA-Z0-9À-ÿ])/gi;
+  if (typeof data === "object") {
     data.forEach((element, i) => {
       if (i + 1 === data.length) {
         filterString += `${element
@@ -86,15 +86,15 @@ function initModal() {
   // Modal
   document.querySelectorAll(".btn-icon").forEach(function (el) {
     el.addEventListener("click", function (e) {
-      var modal = new tingle.modal({
+      const modal = new tingle.modal({
         footer: true,
         stickyFooter: false,
         closeMethods: ["overlay", "button", "escape"],
         closeLabel: "Close",
         cssClass: ["tingle-modal--fullscreen"],
-        onOpen: function () {},
-        onClose: function () {},
-        beforeClose: function () {
+        onOpen() {},
+        onClose() {},
+        beforeClose() {
           // here's goes some logic
           // e.g. save content before closing the modal
           return true; // close the modal
@@ -111,7 +111,7 @@ function initModal() {
 }
 
 function wrapImage(id, width, height, src) {
-  var img = "";
+  let img = "";
 
   if (width) {
     img =
@@ -178,7 +178,7 @@ function wrapEventDetails(event) {
     <dd class="event-date">${dateText}</dd>`);
 
   if (event.start) {
-    let timeText = `${event.start} – ${event.end}  ${event.timeZone}`;
+    const timeText = `${event.start} – ${event.end}  ${event.timeZone}`;
     $("#event-time").html(`<dt class="event-attribute-label"></dt>
       <dd class="event-time"> ${timeText}</dd>`);
   } else {
@@ -191,7 +191,7 @@ function wrapEventDetails(event) {
       </ul>
     </dd>`);
 
-  var chips = "";
+  let chips = "";
   event.category.forEach((category) => {
     chips += `<li>${category.replace(" ", "&nbsp;")}</li>`;
   });
@@ -219,7 +219,7 @@ function wrapVenueDetails(event) {
     $("#venue-website").remove();
     return;
   }
-  var venueName = event.venueName;
+  let venueName = event.venueName;
   if (event.venueLink !== "") {
     venueName = `<a href="${event.venueLink}" target="_blank">${venueName}</a>`;
   }
@@ -247,7 +247,7 @@ function wrapVenueDetails(event) {
 }
 
 function wrapSpeakers(id, speakers) {
-  var div = "";
+  let div = "";
   speakers.forEach((speaker) => {
     div += `
       <div class="speaker">`;
@@ -302,7 +302,7 @@ function addChips(id, items) {
 
   $(id).empty();
   items.forEach((el) => {
-    var resource = '<li class="resource">' + el + "</li>";
+    const resource = '<li class="resource">' + el + "</li>";
     $(id).append(resource);
   });
 }
@@ -358,10 +358,10 @@ function fillJob(eventDetails) {
 
 function horizontalScroll() {
   // Horizontal Scroll
-  var sliders = document.querySelectorAll(".speakers, .chip-domain .chips");
-  var isDown = false;
-  var startX;
-  var scrollLeft;
+  const sliders = document.querySelectorAll(".speakers, .chip-domain .chips");
+  let isDown = false;
+  let startX;
+  let scrollLeft;
   sliders.forEach(function (slider) {
     slider.addEventListener("mousedown", function (e) {
       isDown = true;
@@ -378,15 +378,17 @@ function horizontalScroll() {
       slider.classList.remove("active");
     });
     slider.addEventListener("mousemove", function (e) {
-      if (!isDown) return;
+      if (!isDown) {
+        return;
+      }
       e.preventDefault();
-      var x = e.pageX - slider.offsetLeft;
-      var walk = (x - startX) * 3; //scroll-fast
+      const x = e.pageX - slider.offsetLeft;
+      const walk = (x - startX) * 3; //scroll-fast
 
       slider.scrollLeft = scrollLeft - walk;
-      var links = slider.querySelectorAll(".item");
+      const links = slider.querySelectorAll(".item");
 
-      for (var i = 0; i < links.length; i++) {
+      for (let i = 0; i < links.length; i++) {
         links[i].classList.add("noclick");
       }
     });
@@ -451,7 +453,6 @@ function initialiseStyleBackgroundIntersectionObserver() {
   }
 }
 
-
 function enableCarousel() {
   if (init) {
     return;
@@ -499,7 +500,7 @@ function enableCarousel() {
 
 $ = $ || jQuery;
 $.urlParam = function (name) {
-  var results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
+  const results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
     window.location.href,
   );
   if (results == null) {
@@ -533,13 +534,13 @@ $(document).one("html-included", () => {
       const allIds = [];
 
       document.querySelectorAll("#featured .item").forEach(function (el) {
-        let categories = $(el).data("category");
-        let id = $(el).data("id");
+        const categories = $(el).data("category");
+        const id = $(el).data("id");
         let directMatch = false;
         let categoryMatch = false;
         if (id !== $.urlParam("id")) {
           currentCategories.forEach((category) => {
-            var catClass = createClassFilter(category);
+            const catClass = createClassFilter(category);
             if (categories === catClass) {
               directMatch = true;
               categoryMatch = false;
@@ -567,7 +568,7 @@ $(document).one("html-included", () => {
         }
       });
 
-      let isMobile = window.matchMedia("(max-width: 767px)").matches;
+      const isMobile = window.matchMedia("(max-width: 767px)").matches;
       if (!isMobile) {
         enableCarousel();
       } else {

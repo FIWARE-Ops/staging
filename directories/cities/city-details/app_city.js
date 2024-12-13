@@ -1,5 +1,5 @@
 function wrapImage(id, width, height, src) {
-  var img = "";
+  let img = "";
 
   if (width) {
     img =
@@ -43,13 +43,13 @@ function addChips(id, items) {
 
   $(id).empty();
   items.forEach((el) => {
-    var resource = '<li class="resource">' + el + "</li>";
+    const resource = '<li class="resource">' + el + "</li>";
     $(id).append(resource);
   });
 }
 
 function addMarker(lat, lng, zoom) {
-  var map = L.map("map").setView([lat, lng], zoom);
+  const map = L.map("map").setView([lat, lng], zoom);
 
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution:
@@ -88,10 +88,10 @@ function fillDetails(city) {
 
 function loadCity(e) {
   e.target.removeEventListener("data-ready", loadCity, false);
-  
+
   $ = $ || jQuery;
   $.urlParam = function (name) {
-    var results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
+    const results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
       window.location.href,
     );
     if (results == null) {

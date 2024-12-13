@@ -1,8 +1,8 @@
 // Returns the right classNames for isotope card filtering system
 function createClassFilter(data) {
-  var filterString = "";
-  var regex = /([^a-zA-Z0-9À-ÿ])/gi;
-  if (typeof data == "object") {
+  let filterString = "";
+  const regex = /([^a-zA-Z0-9À-ÿ])/gi;
+  if (typeof data === "object") {
     data.forEach((element, i) => {
       if (i + 1 === data.length) {
         filterString += `${element
@@ -24,21 +24,21 @@ function createClassFilter(data) {
 }
 
 function inputSearch(itemElem, textString) {
-  var stopwords = /\b(FIWARE|IoT|Smart|Solution|Product|Device)\b/gi;
-  var words = textString.trim().replaceAll(stopwords, "").split(/[ ,]+/);
-  var regex = [];
+  const stopwords = /\b(FIWARE|IoT|Smart|Solution|Product|Device)\b/gi;
+  const words = textString.trim().replaceAll(stopwords, "").split(/[ ,]+/);
+  const regex = [];
   words.forEach(function (currentValue, index) {
     if (currentValue.trim() != "") {
       regex.push("(" + currentValue.trim() + ")");
     }
   });
-  var qsRegex = new RegExp(regex.join("|"), "gi");
+  const qsRegex = new RegExp(regex.join("|"), "gi");
   return itemElem.innerText.match(qsRegex);
 }
 
 function concatValues(obj) {
-  var value = "";
-  for (var prop in obj) {
+  let value = "";
+  for (const prop in obj) {
     value += obj[prop];
   }
   return value;
@@ -53,7 +53,7 @@ function initTextSearch(msnry) {
       e.target.parentNode.classList.remove("resetActive");
     }
     msnry.arrange({
-      filter: function (itemElem, itemElem2) {
+      filter(itemElem, itemElem2) {
         return inputSearch(itemElem2, e.target.value);
       },
     });
@@ -61,7 +61,7 @@ function initTextSearch(msnry) {
 }
 
 function filterToggle() {
-  let filtersContainer = document.querySelector(".filters-container");
+  const filtersContainer = document.querySelector(".filters-container");
   document
     .querySelector("#mobileToggleFilters")
     .addEventListener("click", (ev) => {
@@ -73,7 +73,7 @@ function filterToggle() {
           "Hide Filters";
         filtersContainer.style.height = "auto";
 
-        let height = filtersContainer.clientHeight + "px";
+        const height = filtersContainer.clientHeight + "px";
 
         filtersContainer.style.height = "0px";
 
@@ -99,8 +99,8 @@ function filterToggle() {
 }
 
 function getCSSFilter(id) {
-  var cssFilter = "";
-  var currentType = $(id).val();
+  let cssFilter = "";
+  const currentType = $(id).val();
   if (currentType !== "*") {
     cssFilter = "." + currentType;
   }
@@ -108,12 +108,12 @@ function getCSSFilter(id) {
 }
 
 function filterOptions(id, filter, data, css) {
-  var itemCSSFilter = ".grid-item:visible";
+  const itemCSSFilter = ".grid-item:visible";
   // update Type select
   if (document.querySelector(id) && data && filter) {
-    var arr = ["*"];
+    const arr = ["*"];
     data.forEach((el) => {
-      var typeClass = createClassFilter(el);
+      const typeClass = createClassFilter(el);
       if (typeClass !== "" && $("." + typeClass + css + itemCSSFilter).size()) {
         arr.push(typeClass);
       }
@@ -130,11 +130,11 @@ function filterOptions(id, filter, data, css) {
 }
 
 function dropdownFilters(filter) {
-  var companyCSSFilter = getCSSFilter("#filterCompany");
-  var roleCSSFilter = getCSSFilter("#filterRole");
-  var departmentCSSFilter = getCSSFilter("#filterDepartment");
-  var domainCSSFilter = getCSSFilter("#filterDomain");
-  var countryCSSFilter = getCSSFilter("#filterCountry");
+  const companyCSSFilter = getCSSFilter("#filterCompany");
+  const roleCSSFilter = getCSSFilter("#filterRole");
+  const departmentCSSFilter = getCSSFilter("#filterDepartment");
+  const domainCSSFilter = getCSSFilter("#filterDomain");
+  const countryCSSFilter = getCSSFilter("#filterCountry");
 
   filterOptions(
     "#filterCompany",
@@ -205,16 +205,16 @@ function highlightChips() {
   });
 }
 
-var scrollSet = false;
-var msnry;
-var selectors = {
+let scrollSet = false;
+let msnry;
+let selectors = {
   fCompany: true,
   fRole: true,
   fDepartment: true,
   fDomain: true,
   fCountry: true,
 };
-var filterObj = {};
+const filterObj = {};
 
 function initSelect() {
   msnry = new Isotope(".grid", {
@@ -311,7 +311,7 @@ function smoothScroll() {
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
       // Store hash
-      var hash = this.hash;
+      const hash = this.hash;
 
       // Using jQuery's animate() method to add smooth page scroll
       // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
@@ -345,7 +345,7 @@ function initSticky() {
     ) {
       header.classList.add("stickybar");
       header.classList.remove("not-stickybar");
-    } else if (header){
+    } else if (header) {
       header.classList.remove("stickybar");
       header.classList.add("not-stickybar");
     }
@@ -354,10 +354,10 @@ function initSticky() {
 
 function horizontalScroll() {
   // Horizontal Scroll
-  var sliders = document.querySelectorAll(".chips");
-  var isDown = false;
-  var startX;
-  var scrollLeft;
+  const sliders = document.querySelectorAll(".chips");
+  let isDown = false;
+  let startX;
+  let scrollLeft;
   sliders.forEach(function (slider) {
     slider.addEventListener("mousedown", function (e) {
       isDown = true;
@@ -374,22 +374,24 @@ function horizontalScroll() {
       slider.classList.remove("active");
     });
     slider.addEventListener("mousemove", function (e) {
-      if (!isDown) return;
+      if (!isDown) {
+        return;
+      }
       e.preventDefault();
-      var x = e.pageX - slider.offsetLeft;
-      var walk = (x - startX) * 3; //scroll-fast
+      const x = e.pageX - slider.offsetLeft;
+      const walk = (x - startX) * 3; //scroll-fast
 
       slider.scrollLeft = scrollLeft - walk;
-      var links = slider.querySelectorAll(".item");
+      const links = slider.querySelectorAll(".item");
 
-      for (var i = 0; i < links.length; i++) {
+      for (let i = 0; i < links.length; i++) {
         links[i].classList.add("noclick");
       }
     });
   });
 }
 
-function setupIsotope (e){
+function setupIsotope(e) {
   e.target.removeEventListener("html-included", setupIsotope, false);
 
   horizontalScroll();
@@ -400,7 +402,7 @@ function setupIsotope (e){
   initChips();
   filterToggle();
   initSticky();
- 
+
   msnry.arrange({ sortBy: "original-order" });
   msnry.on("arrangeComplete", (filteredItems) => {
     $("#filteredCompanies").text(filteredItems.length);
@@ -412,5 +414,4 @@ function setupIsotope (e){
   });
 }
 
-
-document.addEventListener("html-included", setupIsotope)
+document.addEventListener("html-included", setupIsotope);

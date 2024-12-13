@@ -1,11 +1,11 @@
-var msnry;
-var selectors = { fType: true, fDomain: true, fTech: true, fCompany: true };
+let msnry;
+let selectors = { fType: true, fDomain: true, fTech: true, fCompany: true };
 
 // Returns a unique list of element based on a json property(eg. select of companies, or select of technologies)
 function createUniqueList(jsonProperty) {
-  var emptyList = [];
-  var companies = pageData.map((el) => {
-    var propertyVal = el[jsonProperty];
+  const emptyList = [];
+  let companies = pageData.map((el) => {
+    const propertyVal = el[jsonProperty];
     if (Array.isArray(propertyVal)) {
       propertyVal.map((el2) => {
         emptyList.push(el2);
@@ -16,15 +16,15 @@ function createUniqueList(jsonProperty) {
     }
   });
   companies = emptyList.length > 0 ? emptyList : companies;
-  var setOfValue = new Set(companies);
+  const setOfValue = new Set(companies);
   companies = [...setOfValue].sort();
   return companies;
 }
 
 function createUniqueFilteredList(jsonProperty, filteredPageData) {
-  var emptyList = [];
-  var companies = filteredPageData.map((el) => {
-    var propertyVal = el[jsonProperty];
+  const emptyList = [];
+  let companies = filteredPageData.map((el) => {
+    const propertyVal = el[jsonProperty];
     if (Array.isArray(propertyVal)) {
       propertyVal.map((el2) => {
         emptyList.push(el2);
@@ -35,9 +35,9 @@ function createUniqueFilteredList(jsonProperty, filteredPageData) {
     }
   });
   companies = emptyList.length > 0 ? emptyList : companies;
-  var setOfValue = new Set(companies);
+  const setOfValue = new Set(companies);
   companies = [...setOfValue].sort(function (a, b) {
-    var regex = /([^a-zA-Z0-9À-ÿ])/gi;
+    const regex = /([^a-zA-Z0-9À-ÿ])/gi;
     return a
       .replace(regex, "")
       .toLowerCase()
@@ -48,7 +48,7 @@ function createUniqueFilteredList(jsonProperty, filteredPageData) {
 
 // function to repopulate the selects based on fiware member and fiware iHub checkbox
 function createUniqueListByFilter() {
-  let activeFilters = {
+  const activeFilters = {
     filterByFiwareMember: document.querySelector("#fiwareMember").checked,
     filterByFiwareIhub: document.querySelector("#fiwareiHub").checked,
   };
@@ -57,19 +57,19 @@ function createUniqueListByFilter() {
 
   if (activeFilters.filterByFiwareMember && activeFilters.filterByFiwareIhub) {
     window.pageData.forEach((el, i) => {
-      if (el["fiwareMember"] && el["fiwareIhub"]) {
+      if (el.fiwareMember && el.fiwareIhub) {
         filteredPageData.push(el);
       }
     });
   } else if (activeFilters.filterByFiwareMember) {
     window.pageData.forEach((el, i) => {
-      if (el["fiwareMember"]) {
+      if (el.fiwareMember) {
         filteredPageData.push(el);
       }
     });
   } else if (activeFilters.filterByFiwareIhub) {
     window.pageData.forEach((el, i) => {
-      if (el["fiwareIhub"]) {
+      if (el.fiwareIhub) {
         filteredPageData.push(el);
       }
     });
@@ -80,78 +80,78 @@ function createUniqueListByFilter() {
 }
 
 function initDropdowns() {
-  var filteredPageData = createUniqueListByFilter();
+  const filteredPageData = createUniqueListByFilter();
   // update Company select
-  var companiesSelectTmpl = "<option value='*'>All Organizations</option>";
+  let companiesSelectTmpl = "<option value='*'>All Organizations</option>";
   createUniqueFilteredList("company", filteredPageData).forEach((el) => {
-    var companyClass = createClassFilter(el);
-    var selectEl = `<option value="${companyClass}">${el}</option>`;
+    const companyClass = createClassFilter(el);
+    const selectEl = `<option value="${companyClass}">${el}</option>`;
     companiesSelectTmpl += selectEl;
   });
   document.querySelector("#filterCompany").innerHTML = companiesSelectTmpl;
 
   // update Technology Select
-  var technologiesTmpl = "<option value='*'>All Technologies</option>";
+  let technologiesTmpl = "<option value='*'>All Technologies</option>";
   companiesTechnology = createUniqueFilteredList(
     "technology",
     filteredPageData,
   ).forEach((el) => {
-    var techClass = createClassFilter(el);
-    var selectEl = `<option value="${techClass}">${el}</option>`;
+    const techClass = createClassFilter(el);
+    const selectEl = `<option value="${techClass}">${el}</option>`;
     technologiesTmpl += selectEl;
   });
   document.querySelector("#filterTechnology").innerHTML = technologiesTmpl;
 
   // update Type select
-  var typesSelectTmpl = "<option value='*'>All Products</option>";
+  let typesSelectTmpl = "<option value='*'>All Products</option>";
   createUniqueFilteredList("type", filteredPageData).forEach((el) => {
-    var typeClass = createClassFilter(el);
-    var selectEl = `<option value="${typeClass}">${el}</option>`;
+    const typeClass = createClassFilter(el);
+    const selectEl = `<option value="${typeClass}">${el}</option>`;
     typesSelectTmpl += selectEl;
   });
   document.querySelector("#filterType").innerHTML = typesSelectTmpl;
 
   // update Domain select
-  var domainsSelectTmpl = "<option value='*'>All Domains</option>";
+  let domainsSelectTmpl = "<option value='*'>All Domains</option>";
   createUniqueFilteredList("domain", filteredPageData).forEach((el) => {
-    var domainClass = createClassFilter(el);
-    var selectEl = `<option value="${domainClass}">${el}</option>`;
+    const domainClass = createClassFilter(el);
+    const selectEl = `<option value="${domainClass}">${el}</option>`;
     domainsSelectTmpl += selectEl;
   });
   document.querySelector("#filterDomain").innerHTML = domainsSelectTmpl;
 }
 
 function dropdownFilters(filter) {
-  var filteredPageData = createUniqueListByFilter();
-  var itemCSSFilter = ".grid-item:visible";
-  var companyCSSFilter = "";
-  var currentCompany = $("#filterCompany").val();
+  const filteredPageData = createUniqueListByFilter();
+  const itemCSSFilter = ".grid-item:visible";
+  let companyCSSFilter = "";
+  const currentCompany = $("#filterCompany").val();
   if (currentCompany !== "*") {
     companyCSSFilter = "." + currentCompany;
   }
-  var typeCSSFilter = "";
-  var currentType = $("#filterType").val();
+  let typeCSSFilter = "";
+  const currentType = $("#filterType").val();
   if (currentType !== "*") {
     typeCSSFilter = "." + currentType;
   }
 
-  var domainCSSFilter = "";
-  var currentDomain = $("#filterDomain").val();
+  let domainCSSFilter = "";
+  const currentDomain = $("#filterDomain").val();
   if (currentDomain !== "*") {
     domainCSSFilter = "." + currentDomain;
   }
 
-  var techCSSFilter = "";
-  var currentTech = $("#filterTechnology").val();
+  let techCSSFilter = "";
+  const currentTech = $("#filterTechnology").val();
   if (currentTech !== "*") {
     techCSSFilter = "." + currentTech;
   }
 
   // update Company select
   if (filter.fCompany) {
-    var companyNameArr = ["*"];
+    const companyNameArr = ["*"];
     createUniqueFilteredList("company", filteredPageData).forEach((el) => {
-      var companyClass = createClassFilter(el);
+      const companyClass = createClassFilter(el);
       if (
         $(
           "." +
@@ -177,9 +177,9 @@ function dropdownFilters(filter) {
 
   // update Type select
   if (filter.fType) {
-    var typesArr = ["*"];
+    const typesArr = ["*"];
     createUniqueFilteredList("type", filteredPageData).forEach((el) => {
-      var typeClass = createClassFilter(el);
+      const typeClass = createClassFilter(el);
       if (
         $(
           "." +
@@ -204,9 +204,9 @@ function dropdownFilters(filter) {
 
   // update Domain select
   if (filter.fDomain) {
-    var companyDomainArr = ["*"];
+    const companyDomainArr = ["*"];
     createUniqueFilteredList("domain", filteredPageData).forEach((el) => {
-      var domainClass = createClassFilter(el);
+      const domainClass = createClassFilter(el);
       if (
         $(
           "." +
@@ -231,9 +231,9 @@ function dropdownFilters(filter) {
 
   // update Technology Select
   if (filter.fTech) {
-    var companiesTechnologyArr = ["*"];
+    const companiesTechnologyArr = ["*"];
     createUniqueFilteredList("technology", filteredPageData).forEach((el) => {
-      var techClass = createClassFilter(el);
+      const techClass = createClassFilter(el);
       if (
         $(
           "." +
@@ -259,7 +259,7 @@ function dropdownFilters(filter) {
 
 // Returns a list of <li> for companies' technologies or domains
 function createList(elements) {
-  var list = "";
+  let list = "";
   elements.forEach((element) => {
     list += `<li>${element}</li>`;
   });
@@ -268,9 +268,9 @@ function createList(elements) {
 
 // Returns the right classNames for isotope card filtering system
 function createClassFilter(data) {
-  var filterString = "";
-  var regex = /([^a-zA-Z0-9À-ÿ])/gi;
-  if (typeof data == "object") {
+  let filterString = "";
+  const regex = /([^a-zA-Z0-9À-ÿ])/gi;
+  if (typeof data === "object") {
     data.forEach((element, i) => {
       if (i + 1 === data.length) {
         filterString += `${element.toLowerCase().replace(regex, "-")}`;
@@ -333,11 +333,11 @@ function buildTracker(
   url,
   geoLocation,
 ) {
-  var eventObj = {
+  const eventObj = {
     actor: {
       type: "User",
       id: "System",
-      attributes: { name: "John Doe", geoLocation: geoLocation },
+      attributes: { name: "John Doe", geoLocation },
     },
     action: {
       type: "action",
@@ -346,10 +346,10 @@ function buildTracker(
     },
     context,
     object: {
-      type: type,
+      type,
       name: company,
       attributes: {
-        url: url,
+        url,
         "company name": company,
         description: excerpt,
         indexforsearch: true,
@@ -374,7 +374,7 @@ function cardTracking() {
     const path = window.location.pathname.replace("/showcase", "");
     const company = $(this).parent().parent().find(".name").text();
     const description = $(this).parent().parent().find(".excerpt").text();
-    var url = `fiware.org${path}${createClassFilter(
+    const url = `fiware.org${path}${createClassFilter(
       company,
     )}/${createClassFilter(product)}.html`;
 
@@ -382,7 +382,7 @@ function cardTracking() {
       type: "Showcase",
       name: "View Showcase Solution",
       attributes: {
-        url: url,
+        url,
         "company name": company,
       },
     };
@@ -411,7 +411,7 @@ function cardTracking() {
       type: "Showcase",
       name: "Select Showcase Solution",
       attributes: {
-        url: url,
+        url,
         "company name": company,
       },
     };
@@ -429,16 +429,16 @@ function cardTracking() {
   });
 }
 
-function webp(url){
-  return url.substring(0, url.lastIndexOf('.')) + '.webp';
+function webp(url) {
+  return url.substring(0, url.lastIndexOf(".")) + ".webp";
 }
 
 // Card creation
 function cardCreation() {
-  var appContainer = document.querySelector("#app");
-  var appContainerTmpl = "";
+  const appContainer = document.querySelector("#app");
+  let appContainerTmpl = "";
   pageData.forEach((gridElementData, i) => {
-    var gridElement = `<div class="grid-item ${createClassFilter(
+    const gridElement = `<div class="grid-item ${createClassFilter(
       gridElementData.domain,
     )} ${createClassFilter(gridElementData.technology)} ${createClassFilter(
       gridElementData.company,
@@ -514,7 +514,7 @@ function initCards() {
 }
 
 // Main wrapper of filter functions
-var filterFunctions = {
+const filterFunctions = {
   hasClass: (itemElem, selectorStringClass) => {
     if (selectorStringClass == "") {
       return true;
@@ -523,15 +523,15 @@ var filterFunctions = {
     }
   },
   inputSearch: (itemElem, textString) => {
-    var stopwords = /\b(FIWARE|IoT|Smart|Solution|Product|Device)\b/gi;
-    var words = textString.trim().replaceAll(stopwords, "").split(/[ ,]+/);
-    var regex = [];
+    const stopwords = /\b(FIWARE|IoT|Smart|Solution|Product|Device)\b/gi;
+    const words = textString.trim().replaceAll(stopwords, "").split(/[ ,]+/);
+    const regex = [];
     words.forEach(function (currentValue, index) {
       if (currentValue.trim() != "") {
         regex.push("(" + currentValue.trim() + ")");
       }
     });
-    var qsRegex = new RegExp(regex.join("|"), "gi");
+    const qsRegex = new RegExp(regex.join("|"), "gi");
     return itemElem.innerText.match(qsRegex);
   },
 };
@@ -544,7 +544,7 @@ document.querySelector("#searchInput").addEventListener("keyup", (e) => {
     e.target.parentNode.classList.remove("resetActive");
   }
   msnry.arrange({
-    filter: function (itemElem, itemElem2) {
+    filter(itemElem, itemElem2) {
       return filterFunctions.inputSearch(itemElem2, e.target.value);
     },
   });
@@ -554,7 +554,7 @@ document.querySelector(".resetInput").addEventListener("click", (el) => {
   document.querySelector("#searchInput").value = "";
   document.querySelector(".search-element").classList.remove("resetActive");
   msnry.arrange({
-    filter: function (itemElem, itemElem2) {
+    filter(itemElem, itemElem2) {
       return true;
     },
   });
@@ -582,10 +582,10 @@ document.querySelector("#orderByYear").addEventListener("click", (e) => {
   }
 });
 
-var filterObj = {};
+const filterObj = {};
 
-var updateFilterObj = (targetIdKey, targetValue) => {
-  var filterSafeValue;
+const updateFilterObj = (targetIdKey, targetValue) => {
+  let filterSafeValue;
   if (targetIdKey == "fiwareMember") {
     createUniqueListByFilter();
     if (document.querySelector("#" + targetIdKey).checked) {
@@ -605,7 +605,7 @@ var updateFilterObj = (targetIdKey, targetValue) => {
     filterSafeValue = targetValue == "*" ? "" : "." + targetValue;
   }
   filterObj[targetIdKey] = `${filterSafeValue}`;
-  var filterValue = concatValues(filterObj);
+  const filterValue = concatValues(filterObj);
   filterSetter(filterValue);
 };
 
@@ -639,8 +639,8 @@ document.querySelector(".filters-container").addEventListener("change", (e) => {
 });
 
 function concatValues(obj) {
-  var value = "";
-  for (var prop in obj) {
+  let value = "";
+  for (const prop in obj) {
     value += obj[prop];
   }
   return value;
@@ -648,7 +648,7 @@ function concatValues(obj) {
 
 // toggle filter menu only on mobile
 if (window.innerWidth <= 980) {
-  let filtersContainer = document.querySelector(".filters-container");
+  const filtersContainer = document.querySelector(".filters-container");
   document
     .querySelector("#mobileToggleFilters")
     .addEventListener("click", (ev) => {
@@ -660,7 +660,7 @@ if (window.innerWidth <= 980) {
           "Hide Filters";
         filtersContainer.style.height = "auto";
 
-        let height = filtersContainer.clientHeight + "px";
+        const height = filtersContainer.clientHeight + "px";
 
         filtersContainer.style.height = "0px";
 
@@ -693,7 +693,7 @@ function smoothScroll() {
       // Make sure this.hash has a value before overriding default behavior
       if (this.hash !== "") {
         // Store hash
-        var hash = this.hash;
+        const hash = this.hash;
 
         // Using jQuery's animate() method to add smooth page scroll
         // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
@@ -715,10 +715,10 @@ function smoothScroll() {
 
 function horizontalScroll() {
   // Horizontal Scroll
-  var sliders = document.querySelectorAll(".speakers");
-  var isDown = false;
-  var startX;
-  var scrollLeft;
+  const sliders = document.querySelectorAll(".speakers");
+  let isDown = false;
+  let startX;
+  let scrollLeft;
   sliders.forEach(function (slider) {
     slider.addEventListener("mousedown", function (e) {
       isDown = true;
@@ -735,15 +735,17 @@ function horizontalScroll() {
       slider.classList.remove("active");
     });
     slider.addEventListener("mousemove", function (e) {
-      if (!isDown) return;
+      if (!isDown) {
+        return;
+      }
       e.preventDefault();
-      var x = e.pageX - slider.offsetLeft;
-      var walk = (x - startX) * 3; //scroll-fast
+      const x = e.pageX - slider.offsetLeft;
+      const walk = (x - startX) * 3; //scroll-fast
 
       slider.scrollLeft = scrollLeft - walk;
-      var links = slider.querySelectorAll(".item");
+      const links = slider.querySelectorAll(".item");
 
-      for (var i = 0; i < links.length; i++) {
+      for (let i = 0; i < links.length; i++) {
         links[i].classList.add("noclick");
       }
     });
