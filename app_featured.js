@@ -1,17 +1,17 @@
+// eslint-disable-next-line no-unused-vars
 function includeHTML(cb) {
-  var z, i, elmnt, file, xhttp;
-  z = document.getElementsByTagName("*");
-  for (i = 0; i < z.length; i++) {
-    elmnt = z[i];
-    file = elmnt.getAttribute("w3-include-html");
+  const z = document.getElementsByTagName("*");
+  for (let i = 0; i < z.length; i++) {
+    const elmnt = z[i];
+    const file = elmnt.getAttribute("w3-include-html");
     if (file) {
-      xhttp = new XMLHttpRequest();
+      const xhttp = new XMLHttpRequest();
       xhttp.onreadystatechange = function () {
-        if (this.readyState == 4) {
-          if (this.status == 200) {
+        if (this.readyState === 4) {
+          if (this.status === 200) {
             $(`#${elmnt.id}`).html(this.responseText);
           }
-          if (this.status == 404) {
+          if (this.status === 404) {
             $(`#${elmnt.id}`).html("Page not found.");
           }
           elmnt.removeAttribute("w3-include-html");
@@ -23,7 +23,9 @@ function includeHTML(cb) {
       return;
     }
   }
-  if (cb) cb();
+  if (cb) {
+    cb();
+  }
 }
 
 function enableCarousel() {

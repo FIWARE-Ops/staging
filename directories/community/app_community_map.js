@@ -1,10 +1,10 @@
 function horizontalScroll(popup) {
   // Horizontal Scroll
 
-  var sliders = popup.querySelectorAll(".chips");
-  var isDown = false;
-  var startX;
-  var scrollLeft;
+  const sliders = popup.querySelectorAll(".chips");
+  let isDown = false;
+  let startX;
+  let scrollLeft;
   sliders.forEach(function (slider) {
     slider.addEventListener("mousedown", function (e) {
       isDown = true;
@@ -21,22 +21,22 @@ function horizontalScroll(popup) {
       slider.classList.remove("active");
     });
     slider.addEventListener("mousemove", function (e) {
-      if (!isDown) return;
+      if (!isDown) {
+        return;
+      }
       e.preventDefault();
-      var x = e.pageX - slider.offsetLeft;
-      var walk = (x - startX) * 3; //scroll-fast
+      const x = e.pageX - slider.offsetLeft;
+      const walk = (x - startX) * 3; //scroll-fast
 
       slider.scrollLeft = scrollLeft - walk;
-      var links = slider.querySelectorAll(".item");
+      const links = slider.querySelectorAll(".item");
 
-      for (var i = 0; i < links.length; i++) {
+      for (let i = 0; i < links.length; i++) {
         links[i].classList.add("noclick");
       }
     });
   });
 }
-
-function setBounds() {}
 
 const isIhub = ["==", ["get", "type"], "ihub"];
 const isCity = ["==", ["get", "type"], "city"];
@@ -54,7 +54,9 @@ function addSource(name, source) {
 }
 
 function addLayer(source) {
-  if (map.getLayer("points")) map.removeLayer("points");
+  if (map.getLayer("points")) {
+    map.removeLayer("points");
+  }
   map.addLayer({
     id: "points",
     type: "circle",
@@ -147,19 +149,19 @@ function initRadio() {
 }
 
 function initTextSearch() {
-  document.querySelector(".resetInput").addEventListener("click", (el) => {
+  document.querySelector(".resetInput").addEventListener("click", () => {
     document.querySelector("#searchInput").value = "";
     document.querySelector(".search-element").classList.remove("resetActive");
   });
 
   // Search input
   document.querySelector("#searchInput").addEventListener("keyup", (e) => {
-    let searchKeys = searchObj.keys[filter];
+    const searchKeys = searchObj.keys[filter];
     let location = null;
     const reFuzzy = new RegExp(`.*${e.target.value}.*`, "gi");
     const reExact = new RegExp(`^${e.target.value}`, "gi");
 
-    if (e.target.value != "") {
+    if (e.target.value !== "") {
       e.target.parentNode.classList.add("resetActive");
     } else {
       e.target.parentNode.classList.remove("resetActive");
@@ -179,7 +181,7 @@ function initTextSearch() {
     }
 
     if (location) {
-      let bbox = [
+      const bbox = [
         [location[0] - 1, location[1] - 0.5],
         [location[0] + 1, location[1] + 1.5],
       ];

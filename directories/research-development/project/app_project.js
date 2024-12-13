@@ -1,5 +1,5 @@
 function wrapImage(id, width, height, src) {
-  var img = "";
+  let img = "";
 
   if (width) {
     img =
@@ -43,7 +43,7 @@ function addChips(id, items) {
 
   $(id).empty();
   items.forEach((el) => {
-    var resource = '<li class="resource">' + el + "</li>";
+    const resource = '<li class="resource">' + el + "</li>";
     $(id).append(resource);
   });
 }
@@ -56,40 +56,19 @@ function addContacts(id, contact) {
   }
 }
 
-function wrapResources(id, title, resources) {
-  if (resources.length === 0) {
-    $(id).remove();
-    return;
-  }
-  $(id).empty();
-  var title = "<h4>" + title + "</h4>";
-
-  $(id).append(title);
-  resources.forEach((el) => {
-    var resource =
-      '<div class="resource"><span class="material-symbols-outlined">link</span>' +
-      '<a class="link" href="' +
-      el[1] +
-      '" target="_blank" rel="noopener">' +
-      el[0] +
-      "</a></div>";
-    $(id).append(resource);
-  });
-}
-
 function setBar(startDate, endDate, status) {
-  var start = new Date(startDate), // Jan 1, 2020
-    end = new Date(endDate), // Dec 31, 2021
-    today = new Date(); //
+  const start = new Date(startDate); // Jan 1, 2020
+  const end = new Date(endDate); // Dec 31, 2021
+  const today = new Date(); //
 
   // Get the total possible timestamp value
-  var total = end.getTime() - start.getTime();
+  const total = end.getTime() - start.getTime();
 
   // Get the current value
-  var current = today.getTime() - start.getTime();
+  const current = today.getTime() - start.getTime();
 
   // Get the percentage
-  var p = Math.round((current / total) * 100) + "%";
+  const p = Math.round((current / total) * 100) + "%";
 
   $(".bar").css("width", p).after().append(p);
   $("h6#start-date").text(start.toDateString().substring(3));
@@ -184,10 +163,10 @@ function fillProject(project) {
 function loadProject() {
   $ = $ || jQuery;
   $.urlParam = function (name) {
-    var results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
+    const results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
       window.location.href,
     );
-    if (results == null) {
+    if (results === null) {
       return null;
     }
     return decodeURI(results[1]) || 0;
@@ -198,7 +177,9 @@ function loadProject() {
     window.history.back();
   });
 
+  // eslint-disable-next-line no-undef
   if ($.urlParam("id") && projects[$.urlParam("id")]) {
+    // eslint-disable-next-line no-undef
     fillProject(projects[$.urlParam("id")]);
   } else {
     $($(".et_pb_section_1").children()).empty();
@@ -232,8 +213,8 @@ function initialiseStyleBackgroundIntersectionObserver() {
     lazyBackgroundObserver.observe(lazyBackground);
   };
 
-  const setBackground = (element) => {
-    element.style.backgroundImage = `url('${entry.target.dataset.backgroundImage}')`;
+  const setBackground = (entry) => {
+    entry.style.backgroundImage = `url('${entry.target.dataset.backgroundImage}')`;
   };
 
   if (typeof window.IntersectionObserver === "function") {

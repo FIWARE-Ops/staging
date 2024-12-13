@@ -10,9 +10,9 @@ function wrapParagraphs(id, input) {
 }
 
 function createClassFilter(data) {
-  var filterString = "";
-  var regex = /([^a-zA-Z0-9À-ÿ])/gi;
-  if (typeof data == "object") {
+  let filterString = "";
+  const regex = /([^a-zA-Z0-9À-ÿ])/gi;
+  if (typeof data === "object") {
     data.forEach((element, i) => {
       if (i + 1 === data.length) {
         filterString += `${element
@@ -62,6 +62,7 @@ function wrapSpeakers(id, speakers) {
   $(id).append(html);
 }
 
+// eslint-disable-next-line no-unused-vars
 function setClipboard() {
   const text = `https://fiware.org${window.social}`;
   const type = "text/plain";
@@ -70,7 +71,7 @@ function setClipboard() {
 
   navigator.clipboard.write(data).then(
     () => {
-      /* success */
+      // eslint-disable-next-line no-alert
       alert("Link copied to clipboard. Share session details with others!");
     },
     () => {
@@ -80,7 +81,7 @@ function setClipboard() {
 }
 
 function createModalContent(tingleModalData) {
-  var modalHtml = "";
+  let modalHtml = "";
   console.warn(tingleModalData);
 
   modalHtml += "<div class='info-modal'>";
@@ -113,13 +114,13 @@ function createModalContent(tingleModalData) {
   if (tingleModalData.twitter !== "") {
     modalHtml +=
       '<a class="twitter-link" href="' +
-      tingleModalData["twitter"] +
+      tingleModalData.twitter +
       '" target="_blank"></a>';
   }
   if (tingleModalData.linkedin !== "") {
     modalHtml +=
       '<a class="linkedin-link" href="' +
-      tingleModalData["linkedin"] +
+      tingleModalData.linkedin +
       '" target="_blank"></a>';
   }
   if (tingleModalData.flag !== "") {
@@ -139,24 +140,14 @@ function createModalContent(tingleModalData) {
 function initModal() {
   // Modal
   document.querySelectorAll(".speaker").forEach(function (el) {
-    el.addEventListener("click", function (e) {
-      var modal = new tingle.modal({
+    el.addEventListener("click", () => {
+      // eslint-disable-next-line new-cap
+      const modal = new tingle.modal({
         footer: true,
         stickyFooter: false,
         closeMethods: ["overlay", "button", "escape"],
         closeLabel: "Close",
         cssClass: ["tingle-modal--fullscreen"],
-        onOpen: function () {
-          //console.log("modal open");
-        },
-        onClose: function () {
-          //console.log("modal closed");
-        },
-        beforeClose: function () {
-          // here's goes some logic
-          // e.g. save content before closing the modal
-          return true; // close the modal
-        },
       });
       // set content
       modal.setContent(createModalContent(window.modalData[el.dataset.modal]));
@@ -229,10 +220,10 @@ function trackCSS(data) {
 function loadEvent() {
   $ = $ || jQuery;
   $.urlParam = function (name) {
-    var results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
+    const results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
       window.location.href,
     );
-    if (results == null) {
+    if (results === null) {
       return null;
     }
     return decodeURI(results[1]) || 0;
@@ -278,8 +269,8 @@ function initialiseStyleBackgroundIntersectionObserver() {
     lazyBackgroundObserver.observe(lazyBackground);
   };
 
-  const setBackground = (element) => {
-    element.style.backgroundImage = `url('${entry.target.dataset.backgroundImage}')`;
+  const setBackground = (entry) => {
+    entry.style.backgroundImage = `url('${entry.target.dataset.backgroundImage}')`;
   };
 
   if (typeof window.IntersectionObserver === "function") {

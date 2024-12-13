@@ -1,5 +1,3 @@
-function setBounds() {}
-
 function initMap() {
   map.addControl(new maplibregl.NavigationControl());
   map.addControl(new maplibregl.AttributionControl({ compact: true }));

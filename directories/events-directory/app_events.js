@@ -10,18 +10,18 @@ function scrollToView() {
   });
 }
 
-var scrollSet = false;
-var init = false;
-var msnry;
-var selectedMonth = getDate();
-var selectedText = "";
-var selectedType = "*";
-var selectedDomain = "*";
+const scrollSet = false;
+let init = false;
+let msnry;
+let selectedMonth = getDate();
+let selectedText = "";
+let selectedType = "*";
+let selectedDomain = "*";
 
 function getDate() {
   const date = new Date();
   date.setMonth(date.getMonth());
-  return new Number(
+  return Number(
     date.toISOString().split("T")[0].replaceAll("-", "").substring(0, 6),
   );
 }
@@ -50,22 +50,22 @@ function filterFunction() {
 }
 
 function inputSearch(itemElem, textString) {
-  var stopwords = /\b(FIWARE|IoT|Smart|Solution|Product|Device)\b/gi;
-  var words = textString.trim().replaceAll(stopwords, "").split(/[ ,]+/);
-  var regex = [];
-  words.forEach(function (currentValue, index) {
-    if (currentValue.trim() != "") {
+  const stopwords = /\b(FIWARE|IoT|Smart|Solution|Product|Device)\b/gi;
+  const words = textString.trim().replaceAll(stopwords, "").split(/[ ,]+/);
+  const regex = [];
+  words.forEach((currentValue) => {
+    if (currentValue.trim() !== "") {
       regex.push("(" + currentValue.trim() + ")");
     }
   });
-  var qsRegex = new RegExp(regex.join("|"), "gi");
+  const qsRegex = new RegExp(regex.join("|"), "gi");
   return itemElem.match(qsRegex);
 }
 
 function initTextSearch(msnry) {
   // Search input
   $("#searchInput").keyup((ev) => {
-    if (ev.currentTarget.value != "") {
+    if (ev.currentTarget.value !== "") {
       $(ev.currentTarget).parent().addClass("resetActive");
     } else {
       $(ev.currentTarget).parent().removeClass("resetActive");
@@ -111,7 +111,8 @@ function initSelect() {
 }
 
 function initCalendar() {
-  var calendarInstance1 = new calendarJs("calendar1", {
+  // eslint-disable-next-line new-cap
+  new calendarJs("calendar1", {
     exportEventsEnabled: true,
     useAmPmForTimeDisplays: true,
     fullScreenModeEnabled: false,
@@ -156,11 +157,11 @@ function initCalendar() {
 
 function smoothScroll() {
   // Add smooth scrolling to all links
-  jQuery("a").on("click", function (event) {
+  jQuery("a").on("click", () => {
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
       // Store hash
-      var hash = this.hash;
+      const hash = this.hash;
 
       // Using jQuery's animate() method to add smooth page scroll
       // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
@@ -181,10 +182,10 @@ function smoothScroll() {
 
 function horizontalScroll() {
   // Horizontal Scroll
-  var sliders = document.querySelectorAll(".speakers, .chip-domain .chips");
-  var isDown = false;
-  var startX;
-  var scrollLeft;
+  const sliders = document.querySelectorAll(".speakers, .chip-domain .chips");
+  let isDown = false;
+  let startX;
+  let scrollLeft;
   sliders.forEach(function (slider) {
     slider.addEventListener("mousedown", function (e) {
       isDown = true;
@@ -201,15 +202,17 @@ function horizontalScroll() {
       slider.classList.remove("active");
     });
     slider.addEventListener("mousemove", function (e) {
-      if (!isDown) return;
+      if (!isDown) {
+        return;
+      }
       e.preventDefault();
-      var x = e.pageX - slider.offsetLeft;
-      var walk = (x - startX) * 3; //scroll-fast
+      const x = e.pageX - slider.offsetLeft;
+      const walk = (x - startX) * 3; //scroll-fast
 
       slider.scrollLeft = scrollLeft - walk;
-      var links = slider.querySelectorAll(".item");
+      const links = slider.querySelectorAll(".item");
 
-      for (var i = 0; i < links.length; i++) {
+      for (let i = 0; i < links.length; i++) {
         links[i].classList.add("noclick");
       }
     });
@@ -218,7 +221,6 @@ function horizontalScroll() {
 
 function initOnlineEvents() {
   const now = new Date();
-  const events = $(".event-date .online-event");
   $(".event-date .online-event").each((index, value) => {
     const dateFrom = new Date($(value).parent().data("from"));
     const dateTo = new Date($(value).parent().data("to"));
@@ -231,6 +233,7 @@ function initOnlineEvents() {
       } else {
         $(value).addClass("past");
       }
+      /* eslint-disable-next-line  no-dupe-else-if */
     } else if (dateTo < now && dateFrom > now) {
       $(value).addClass("ongoing");
       if (url) {
@@ -281,7 +284,7 @@ function calendarShow() {
 }
 
 function filterToggle() {
-  let isMobile = window.matchMedia("(max-width: 767px)").matches;
+  const isMobile = window.matchMedia("(max-width: 767px)").matches;
 
   if (!isMobile) {
     $(".title-filter").removeClass("show");
@@ -292,7 +295,6 @@ function filterToggle() {
   $(".title-filter").addClass("show");
   $(".filters-container").removeClass("show");
 
-  let filtersContainer = document.querySelector(".filters-container");
   $("#mobileToggleFilters").click((ev) => {
     $(ev.target).toggleClass("activeButton");
 
@@ -309,7 +311,7 @@ function filterToggle() {
 }
 
 function viewToggle() {
-  $("#toggle-on").change((ev) => {
+  $("#toggle-on").change(() => {
     const value = $('input[name="toggle"]:checked').val();
     switch (value) {
       case "list-view":
@@ -320,7 +322,7 @@ function viewToggle() {
         break;
     }
   });
-  $("#toggle-off").change((ev) => {
+  $("#toggle-off").change(() => {
     const value = $('input[name="toggle"]:checked').val();
     switch (value) {
       case "list-view":
@@ -335,10 +337,10 @@ function viewToggle() {
 
 function setDropdown() {
   $.urlParam = function (name) {
-    var results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
+    const results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
       window.location.href,
     );
-    if (results == null) {
+    if (results === null) {
       return null;
     }
     return decodeURI(results[1]) || 0;
@@ -376,7 +378,7 @@ document.addEventListener(
     initSticky();
     viewToggle();
 
-    msnry.on("arrangeComplete", (filteredItems) => {
+    msnry.on("arrangeComplete", () => {
       if (scrollSet) {
         scrollToView();
       }

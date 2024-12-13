@@ -1,5 +1,5 @@
 function wrapImage(id, width, height, src) {
-  var img = "";
+  let img = "";
 
   if (width) {
     img =
@@ -35,19 +35,6 @@ function wrapParagraphs(id, input) {
   $(id).append(html);
 }
 
-function addChips(id, items) {
-  if (items.length === 0) {
-    $(id).parent().remove();
-    return;
-  }
-
-  $(id).empty();
-  items.forEach((el) => {
-    var resource = '<li class="resource">' + el + "</li>";
-    $(id).append(resource);
-  });
-}
-
 function fillJob(job) {
   if (window.jobDone) {
     return;
@@ -72,10 +59,10 @@ function fillJob(job) {
 function loadJob() {
   $ = $ || jQuery;
   $.urlParam = function (name) {
-    var results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
+    const results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
       window.location.href,
     );
-    if (results == null) {
+    if (results === null) {
       return null;
     }
     return decodeURI(results[1]) || 0;
@@ -120,8 +107,8 @@ function initialiseStyleBackgroundIntersectionObserver() {
     lazyBackgroundObserver.observe(lazyBackground);
   };
 
-  const setBackground = (element) => {
-    element.style.backgroundImage = `url('${entry.target.dataset.backgroundImage}')`;
+  const setBackground = (entry) => {
+    entry.style.backgroundImage = `url('${entry.target.dataset.backgroundImage}')`;
   };
 
   if (typeof window.IntersectionObserver === "function") {

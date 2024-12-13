@@ -1,8 +1,8 @@
 // Returns the right classNames for isotope card filtering system
 function createClassFilter(data) {
-  var filterString = "";
-  var regex = /([^a-zA-Z0-9À-ÿ])/gi;
-  if (typeof data == "object") {
+  let filterString = "";
+  const regex = /([^a-zA-Z0-9À-ÿ])/gi;
+  if (typeof data === "object") {
     data.forEach((element, i) => {
       if (i + 1 === data.length) {
         filterString += `${element
@@ -24,21 +24,21 @@ function createClassFilter(data) {
 }
 
 function inputSearch(itemElem, textString) {
-  var stopwords = /\b(FIWARE|IoT|Smart|Solution|Product|Device)\b/gi;
-  var words = textString.trim().replaceAll(stopwords, "").split(/[ ,]+/);
-  var regex = [];
-  words.forEach(function (currentValue, index) {
-    if (currentValue.trim() != "") {
+  const stopwords = /\b(FIWARE|IoT|Smart|Solution|Product|Device)\b/gi;
+  const words = textString.trim().replaceAll(stopwords, "").split(/[ ,]+/);
+  const regex = [];
+  words.forEach((currentValue) => {
+    if (currentValue.trim() !== "") {
       regex.push("(" + currentValue.trim() + ")");
     }
   });
-  var qsRegex = new RegExp(regex.join("|"), "gi");
+  const qsRegex = new RegExp(regex.join("|"), "gi");
   return itemElem.innerText.match(qsRegex);
 }
 
 function concatValues(obj) {
-  var value = "";
-  for (var prop in obj) {
+  let value = "";
+  for (const prop in obj) {
     value += obj[prop];
   }
   return value;
@@ -47,13 +47,13 @@ function concatValues(obj) {
 function initTextSearch(msnry) {
   // Search input
   document.querySelector("#searchInput").addEventListener("keyup", (e) => {
-    if (e.target.value != "") {
+    if (e.target.value !== "") {
       e.target.parentNode.classList.add("resetActive");
     } else {
       e.target.parentNode.classList.remove("resetActive");
     }
     msnry.arrange({
-      filter: function (itemElem, itemElem2) {
+      filter(itemElem, itemElem2) {
         return inputSearch(itemElem2, e.target.value);
       },
     });
@@ -61,7 +61,7 @@ function initTextSearch(msnry) {
 }
 
 function filterToggle() {
-  let filtersContainer = document.querySelector(".filters-container");
+  const filtersContainer = document.querySelector(".filters-container");
   document
     .querySelector("#mobileToggleFilters")
     .addEventListener("click", (ev) => {
@@ -73,7 +73,7 @@ function filterToggle() {
           "Hide Filters";
         filtersContainer.style.height = "auto";
 
-        let height = filtersContainer.clientHeight + "px";
+        const height = filtersContainer.clientHeight + "px";
 
         filtersContainer.style.height = "0px";
 
@@ -99,8 +99,8 @@ function filterToggle() {
 }
 
 function getCSSFilter(id) {
-  var cssFilter = "";
-  var currentType = $(id).val();
+  let cssFilter = "";
+  const currentType = $(id).val();
   if (currentType !== "*") {
     cssFilter = "." + currentType;
   }
@@ -108,12 +108,12 @@ function getCSSFilter(id) {
 }
 
 function filterOptions(id, filter, data, css) {
-  var itemCSSFilter = ".grid-item:visible";
+  const itemCSSFilter = ".grid-item:visible";
   // update Type select
   if (document.querySelector(id) && data && filter) {
-    var arr = ["*"];
+    const arr = ["*"];
     data.forEach((el) => {
-      var typeClass = createClassFilter(el);
+      const typeClass = createClassFilter(el);
       if (typeClass !== "" && $("." + typeClass + css + itemCSSFilter).size()) {
         arr.push(typeClass);
       }
@@ -130,11 +130,11 @@ function filterOptions(id, filter, data, css) {
 }
 
 function dropdownFilters(filter) {
-  var companyCSSFilter = getCSSFilter("#filterCompany");
-  var roleCSSFilter = getCSSFilter("#filterRole");
-  var departmentCSSFilter = getCSSFilter("#filterDepartment");
-  var domainCSSFilter = getCSSFilter("#filterDomain");
-  var countryCSSFilter = getCSSFilter("#filterCountry");
+  const companyCSSFilter = getCSSFilter("#filterCompany");
+  const roleCSSFilter = getCSSFilter("#filterRole");
+  const departmentCSSFilter = getCSSFilter("#filterDepartment");
+  const domainCSSFilter = getCSSFilter("#filterDomain");
+  const countryCSSFilter = getCSSFilter("#filterCountry");
 
   filterOptions(
     "#filterCompany",
@@ -181,8 +181,8 @@ function scrollToView() {
 }
 
 function initChips() {
-  $(".chip-domain ul li").each(function (index) {
-    $(this).bind("click", (e) => {
+  $(".chip-domain ul li").each(() => {
+    $(this).bind("click", () => {
       const anchorClass = createClassFilter($(this).text());
       const domainElt = $("#filterDomain");
       if (domainElt.val() === "*" || domainElt.val() !== anchorClass) {
@@ -195,7 +195,7 @@ function initChips() {
 }
 
 function highlightChips() {
-  $(".chip-domain ul li").each(function (index) {
+  $(".chip-domain ul li").each(() => {
     const anchorClass = createClassFilter($(this).text());
     if ($("#filterDomain").val() === anchorClass) {
       $(this).addClass("active");
@@ -205,17 +205,17 @@ function highlightChips() {
   });
 }
 
-var scrollSet = false;
-var init = false;
-var msnry;
-var selectors = {
+let scrollSet = false;
+let init = false;
+let msnry;
+let selectors = {
   fCompany: true,
   fRole: true,
   fDepartment: true,
   fDomain: true,
   fCountry: true,
 };
-var filterObj = {};
+const filterObj = {};
 
 function initSelect() {
   msnry = new Isotope(".grid", {
@@ -236,40 +236,7 @@ function initSelect() {
 
   initTextSearch(msnry);
 
-  /*
-    document.querySelector(".resetInput").addEventListener("click", (el) => {
-      document.querySelector("#searchInput").value = "";
-      document.querySelector(".search-element").classList.remove("resetActive");
-      msnry.arrange({
-        filter: function (itemElem, itemElem2) {
-          return true;
-        },
-      });
-    });
-
-    // SORT BY ALPHABETICALLY
-    document.querySelector("#orderByName").addEventListener("click", (e) => {
-      if (e.target.classList.contains("active") == false) {
-        msnry.arrange({ sortBy: "name" });
-        e.target.classList.add("active");
-      } else {
-        msnry.arrange({ sortBy: "original-order" });
-        e.target.classList.remove("active");
-      }
-    });
-
-    // SORT BY YEAR
-    document.querySelector("#orderByYear").addEventListener("click", (e) => {
-      if (e.target.classList.contains("active") == false) {
-        msnry.arrange({ sortBy: "year" });
-        e.target.classList.add("active");
-      } else {
-        msnry.arrange({ sortBy: "original-order" });
-        e.target.classList.remove("active");
-      }
-    });*/
-
-  $(".filters-container select").each(function (index) {
+  $(".filters-container select").each(() => {
     $(this).bind("change", (e) => {
       if (e.target.id === "searchInput") {
         return;
@@ -294,7 +261,7 @@ function initSelect() {
       }
 
       filterObj[e.target.id] = `${
-        e.target.value == "*" ? "" : "." + e.target.value
+        e.target.value === "*" ? "" : "." + e.target.value
       }`;
       highlightChips();
       scrollSet = true;
@@ -309,11 +276,11 @@ function initSelect() {
 
 function smoothScroll() {
   // Add smooth scrolling to all links
-  jQuery("a").on("click", function (event) {
+  jQuery("a").on("click", () => {
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
       // Store hash
-      var hash = this.hash;
+      const hash = this.hash;
 
       // Using jQuery's animate() method to add smooth page scroll
       // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
@@ -334,10 +301,10 @@ function smoothScroll() {
 
 function horizontalScroll() {
   // Horizontal Scroll
-  var sliders = document.querySelectorAll(".chips");
-  var isDown = false;
-  var startX;
-  var scrollLeft;
+  const sliders = document.querySelectorAll(".chips");
+  let isDown = false;
+  let startX;
+  let scrollLeft;
   sliders.forEach(function (slider) {
     slider.addEventListener("mousedown", function (e) {
       isDown = true;
@@ -354,15 +321,17 @@ function horizontalScroll() {
       slider.classList.remove("active");
     });
     slider.addEventListener("mousemove", function (e) {
-      if (!isDown) return;
+      if (!isDown) {
+        return;
+      }
       e.preventDefault();
-      var x = e.pageX - slider.offsetLeft;
-      var walk = (x - startX) * 3; //scroll-fast
+      const x = e.pageX - slider.offsetLeft;
+      const walk = (x - startX) * 3; //scroll-fast
 
       slider.scrollLeft = scrollLeft - walk;
-      var links = slider.querySelectorAll(".item");
+      const links = slider.querySelectorAll(".item");
 
-      for (var i = 0; i < links.length; i++) {
+      for (let i = 0; i < links.length; i++) {
         links[i].classList.add("noclick");
       }
     });
@@ -393,10 +362,10 @@ function initSticky() {
 
 function setDropdown() {
   $.urlParam = function (name) {
-    var results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
+    const results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
       window.location.href,
     );
-    if (results == null) {
+    if (results === null) {
       return null;
     }
     return decodeURI(results[1]) || 0;
