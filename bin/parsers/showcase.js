@@ -9,7 +9,7 @@ const TEMPLATE_PATH = 'bin/templates/showcase/';
 const LOGOS_DIR = {
     powered: 'directories/showcase/powered-by-fiware/logo',
     ready: 'directories/showcase/fiware-ready/logo',
-    services: 'directories/showcase/services/logo',
+    services: 'directories/showcase/support-services/logo',
     cities: 'directories/showcase/cities4cities/logo',
 }
 const IMAGE_DIR = {
