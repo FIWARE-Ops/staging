@@ -48,7 +48,7 @@ function createUniqueFilteredList(jsonProperty, filteredPageData) {
 
 // function to repopulate the selects based on fiware member and fiware iHub checkbox
 function createUniqueListByFilter() {
-  const activeFilters = {
+  let activeFilters = {
     filterByFiwareMember: document.querySelector("#fiwareMember").checked,
     filterByFiwareIhub: document.querySelector("#fiwareiHub").checked,
   };
@@ -57,19 +57,19 @@ function createUniqueListByFilter() {
 
   if (activeFilters.filterByFiwareMember && activeFilters.filterByFiwareIhub) {
     window.pageData.forEach((el, i) => {
-      if (el.fiwareMember && el.fiwareIhub) {
+      if (el["fiwareMember"] && el["fiwareIhub"]) {
         filteredPageData.push(el);
       }
     });
   } else if (activeFilters.filterByFiwareMember) {
     window.pageData.forEach((el, i) => {
-      if (el.fiwareMember) {
+      if (el["fiwareMember"]) {
         filteredPageData.push(el);
       }
     });
   } else if (activeFilters.filterByFiwareIhub) {
     window.pageData.forEach((el, i) => {
-      if (el.fiwareIhub) {
+      if (el["fiwareIhub"]) {
         filteredPageData.push(el);
       }
     });
@@ -429,7 +429,7 @@ function cardTracking() {
   });
 }
 
-function webp(url) {
+function webp(url){
   return url.substring(0, url.lastIndexOf(".")) + ".webp";
 }
 
@@ -514,7 +514,7 @@ function initCards() {
 }
 
 // Main wrapper of filter functions
-const filterFunctions = {
+var filterFunctions = {
   hasClass: (itemElem, selectorStringClass) => {
     if (selectorStringClass == "") {
       return true;
@@ -544,7 +544,7 @@ document.querySelector("#searchInput").addEventListener("keyup", (e) => {
     e.target.parentNode.classList.remove("resetActive");
   }
   msnry.arrange({
-    filter(itemElem, itemElem2) {
+    filter: function (itemElem, itemElem2) {
       return filterFunctions.inputSearch(itemElem2, e.target.value);
     },
   });
@@ -554,7 +554,7 @@ document.querySelector(".resetInput").addEventListener("click", (el) => {
   document.querySelector("#searchInput").value = "";
   document.querySelector(".search-element").classList.remove("resetActive");
   msnry.arrange({
-    filter(itemElem, itemElem2) {
+    filter: function (itemElem, itemElem2) {
       return true;
     },
   });
@@ -582,9 +582,9 @@ document.querySelector("#orderByYear").addEventListener("click", (e) => {
   }
 });
 
-const filterObj = {};
+var filterObj = {};
 
-const updateFilterObj = (targetIdKey, targetValue) => {
+function updateFilterObj (targetIdKey, targetValue){
   let filterSafeValue;
   if (targetIdKey == "fiwareMember") {
     createUniqueListByFilter();
@@ -609,7 +609,7 @@ const updateFilterObj = (targetIdKey, targetValue) => {
   filterSetter(filterValue);
 };
 
-var filterSetter = (filterValue) => {
+function filterSetter (filterValue) {
   msnry.arrange({
     filter: filterValue,
   });
