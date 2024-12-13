@@ -206,7 +206,6 @@ function highlightChips() {
 }
 
 var scrollSet = false;
-var init = false;
 var msnry;
 var selectors = {
   fCompany: true,
@@ -396,10 +395,7 @@ function setupIsotope (e){
   horizontalScroll();
   smoothScroll();
   $("#app").css("visibility", "visible");
-  if (init) {
-    return;
-  }
-  init = true;
+
   initSelect();
   initChips();
   filterToggle();

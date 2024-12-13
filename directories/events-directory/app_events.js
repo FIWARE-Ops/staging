@@ -11,7 +11,7 @@ function scrollToView() {
 }
 
 var scrollSet = false;
-var init = false;
+
 var msnry;
 var selectedMonth = getDate();
 var selectedText = "";
@@ -358,31 +358,28 @@ function setDropdown() {
   }
 }
 
-document.addEventListener(
-  "html-included",
-  () => {
-    $("#app").css("visibility", "visible");
-    if (init) {
-      return;
+function setupIsotope (e){
+  e.target.removeEventListener("html-included", setupIsotope, false);
+
+  $("#app").css("visibility", "visible");
+
+  listViewShow();
+  initSelect();
+  filterToggle();
+  initCalendar();
+  initOnlineEvents();
+  horizontalScroll();
+  smoothScroll();
+  initSticky();
+  viewToggle();
+
+  msnry.on("arrangeComplete", (filteredItems) => {
+    if (scrollSet) {
+      scrollToView();
     }
-    init = true;
-    listViewShow();
-    initSelect();
-    filterToggle();
-    initCalendar();
-    initOnlineEvents();
-    horizontalScroll();
-    smoothScroll();
-    initSticky();
-    viewToggle();
+  });
 
-    msnry.on("arrangeComplete", (filteredItems) => {
-      if (scrollSet) {
-        scrollToView();
-      }
-    });
+  setDropdown();
+}
 
-    setDropdown();
-  },
-  { once: true },
-);
+document.addEventListener("html-included", setupIsotope)

@@ -328,7 +328,7 @@ function highlightChips() {
 }
 
 var scrollSet = false;
-var init = false;
+
 var msnry;
 var selectors = { fType: true, fDomain: true, fTech: true };
 var filterObj = {};
@@ -507,30 +507,27 @@ function setDropdown() {
   }
 }
 
-document.addEventListener(
-  "html-included",
-  () => {
-    $("#app").css("visibility", "visible");
-    if (init) {
-      return;
+function setupIsotope (e){
+  e.target.removeEventListener("html-included", setupIsotope, false);
+
+  $("#app").css("visibility", "visible");
+ 
+  initSelect();
+  initChips();
+  initModal();
+  filterToggle();
+  //initSticky();
+  horizontalScroll();
+  smoothScroll();
+  msnry.on("arrangeComplete", (filteredItems) => {
+    $("#filteredCompanies").text(filteredItems.length);
+    dropdownFilters(selectors);
+    highlightChips();
+    if (scrollSet) {
+      scrollToView();
     }
-    init = true;
-    initSelect();
-    initChips();
-    initModal();
-    filterToggle();
-    //initSticky();
-    horizontalScroll();
-    smoothScroll();
-    msnry.on("arrangeComplete", (filteredItems) => {
-      $("#filteredCompanies").text(filteredItems.length);
-      dropdownFilters(selectors);
-      highlightChips();
-      if (scrollSet) {
-        scrollToView();
-      }
-    });
-    setDropdown();
-  },
-  { once: true },
-);
+  });
+  setDropdown();
+}
+
+document.addEventListener("html-included", setupIsotope)

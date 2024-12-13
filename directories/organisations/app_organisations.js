@@ -168,7 +168,7 @@ function dropdownFilters(filter) {
   );
 }
 
-var init = false;
+
 var msnry;
 var selectors = {
   fCompany: true,
@@ -353,24 +353,21 @@ function setDropdown() {
   }
 }
 
-document.addEventListener(
-  "html-included",
-  () => {
-    $("#app").css("visibility", "visible");
-    if (init) {
-      return;
-    }
-    init = true;
-    initSelect();
-    filterToggle();
-    initSticky();
-    horizontalScroll();
-    smoothScroll();
-    msnry.on("arrangeComplete", (filteredItems) => {
-      $("#filteredCompanies").text(filteredItems.length);
-      //dropdownFilters(selectors);
-    });
-    setDropdown();
-  },
-  { once: true },
-);
+function setupIsotope (e){
+  e.target.removeEventListener("html-included", setupIsotope, false);
+
+  $("#app").css("visibility", "visible");
+
+  initSelect();
+  filterToggle();
+  initSticky();
+  horizontalScroll();
+  smoothScroll();
+  msnry.on("arrangeComplete", (filteredItems) => {
+    $("#filteredCompanies").text(filteredItems.length);
+    //dropdownFilters(selectors);
+  });
+  setDropdown();
+}
+
+document.addEventListener("html-included", setupIsotope)

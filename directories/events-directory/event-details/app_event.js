@@ -451,7 +451,7 @@ function initialiseStyleBackgroundIntersectionObserver() {
   }
 }
 
-var init = false;
+
 function enableCarousel() {
   if (init) {
     return;
