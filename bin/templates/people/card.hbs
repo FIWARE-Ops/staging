@@ -2,7 +2,7 @@
         <div id="item-{{@index}}" class="grid-item {{createClass company}} {{createClass country}} {{createClass department}} {{createClasses filters}} {{createClass domain}}">
             <div class='f-cat active'>
                 {{#if bio}}
-                <a class='cat-bio' href="#item-{{@index}}" data-modal='{{@index}}'>
+                <div class='cat-bio' data-modal='{{@index}}'>
                 {{/if}}
                 <div class='city-photo-container'>
                     <picture>
@@ -11,11 +11,11 @@
                     </picture>
                 </div>
                 {{#if bio}}
-                </a>
+                </div>
                 {{/if}}
                 <div class='profile-details'>
                 {{#if bio}}
-                <a class='cat-bio' href="#item-{{@index}}" data-modal='{{@index}}'>
+                <div class='cat-bio' data-modal='{{@index}}'>
                 {{/if}}
                     <h6 class='name'>{{title}}{{name}}</h6>
                     <h4 class='position'>{{job}}</h4>
@@ -34,7 +34,7 @@
                     {{/if}}
                 </div>
                 {{#if bio}}
-                </a>
+                </div>
                 {{/if}}
                 <div class='icons'>
                     {{#if linkedIn}}
