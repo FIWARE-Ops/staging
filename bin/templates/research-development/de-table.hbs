@@ -1,0 +1,85 @@
+<div class="list-directory">
+    <!-- <div class="ld-head">
+            <div class="ld-item-name">Figure</div>
+            <div class="ld-item-value">Value</div>
+            <div class="ld-item-owner">Owner</div>
+            <div class="ld-item-source">Source</div>
+    </div> -->
+    {{#each this}}
+        {{#if (and (eq country 'Germany') (eq type 'Ongoing'))}}
+        <div class="ld-project-block">
+            <div class="ld-block-container">
+                <div class="ld-project-name">{{name}}</div>
+                {{#if responsible}}
+                <div class="ld-item-responsible">
+                <img alt='' class='ld-item-pic' src='{{responsibleUrl}}' loading='lazy' />
+                <div class="ld-item-name">{{responsible}}</div>
+                </div>
+                {{/if}}
+                <div class="ld-icons-container">
+                    {{#if website}}
+                    <a target='_blank' href='{{website}}' rel='noopener' title="Project Website">
+                        <div class="list-icon">
+                        <span class="material-symbols-outlined regular">language</span>
+                        </div>
+                    </a>
+                    {{/if}}
+                    {{#if datasheet}}
+                    <a target='_blank' href='{{datasheet}}' rel='noopener' title="Project Datasheet">
+                        <div class="list-icon">
+                        <span class="material-symbols-outlined regular">table</span>
+                        </div>
+                    </a>
+                    {{/if}}
+                    {{#if projectDir}}
+                    <a target='_blank' href='{{projectDir}}' rel='noopener' title="Project Directory">
+                        <div class="list-icon">
+                        <span class="material-symbols-outlined regular">docs</span>
+                        </div>
+                    </a>
+                    {{/if}}
+                    {{#if designDir}}
+                    <a target='_blank' href='{{designDir}}' rel='noopener' title="Design Directory">
+                        <div class="list-icon">
+                        <span class="material-symbols-outlined regular">design_services</span>
+                        </div>
+                    </a>
+                    {{/if}}
+                </div>
+            </div>
+            <div class="content">
+                {{#if excerpt}}
+                <div class="excerpt">{{excerpt}}</div>
+                {{/if}}
+                {{#if gaLink}}
+                <a target='_blank' href='{{gaLink}}' rel='noopener'>
+                    <div class="md-button md-button--secondary">Grant Agreement</div>
+                </a>
+                {{/if}}
+                <div class="attributes-container">
+                    {{#if domains}}
+                    <div class='chip-domain'>
+                        <div class="chip-label">Domain</div>
+                        <ul class='chips'>
+                        {{#each domains}}<li>{{this}}</li>{{/each}}
+                        </ul>
+                    </div>
+                    {{/if}}
+                    {{#if technologies}}
+                    <div class='chip-technology'>
+                        <div class="chip-label">Technology</div>
+                        <ul class='chips'>
+                        {{#each technologies}}<li>{{this}}</li>{{/each}}
+                        </ul>
+                    </div>
+                    {{/if}}
+                    <div class="ld-date-container">
+                        <div class="chip-label">End Date</div>
+                        <div class="ld-date">{{shortDate}}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{/if}}
+    {{/each}}
+</div>
