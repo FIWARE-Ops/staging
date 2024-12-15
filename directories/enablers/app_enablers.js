@@ -578,7 +578,7 @@ function setDropdown() {
   } else if ($.urlParam("domain")) {
     $("#filterDomain").val($.urlParam("domain"));
     return $("#filterDomain").change();
-  } else if ($.urlParam("domain")) {
+  } else if ($.urlParam("technology")) {
     $("#filterTechnology").val($.urlParam("technology"));
     return $("#filterTechnology").change();
   } else {

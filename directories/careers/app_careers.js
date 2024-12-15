@@ -391,10 +391,10 @@ function setDropdown() {
     return decodeURI(results[1]) || 0;
   };
 
-  if ($.urlParam("status")) {
+  if ($.urlParam("level")) {
     $("#filterDepartment").val($.urlParam("level"));
     return $("#filterDepartment").change();
-  } else if ($.urlParam("target")) {
+  } else if ($.urlParam("department")) {
     $("#filterDomain").val($.urlParam("department"));
     return $("#filterDomain").change();
   } else {
