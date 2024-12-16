@@ -1095,6 +1095,11 @@
 
     /* Modal */
 
+    .tingle-modal {
+        padding: 0;
+        display: flex;
+    }
+
     .tingle-modal__close {
         color: #002e67;
         font-weight: 400;
@@ -1106,15 +1111,17 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 90%;
+        width: 40px;
+        height: 40px;
         top: 20px;
         margin: 0 auto;
         left: auto;
-        right: auto;
-        border-radius: 4px;
+        right: 20px;
+        border-radius: 25px;
     }
 
     .tingle-modal__closeLabel {
+        display: none;
         font-family: 'Montserrat';
         font-weight: 600;
         padding-bottom: 4px;
@@ -1122,6 +1129,11 @@
 
     .tingle-modal-box {
         width: 90%;
+    }
+
+    .tingle-modal__closeIcon {
+        margin: 0;
+        line-height: normal;
     }
 
     .tingle-modal-box__content {
@@ -1167,10 +1179,6 @@
     .tags-modal .location:before {
         width: 32px;
         margin-right: 10px;
-    }
-
-    .tingle-modal {
-        display: flex;
     }
 
     .tingle-modal h1 {
