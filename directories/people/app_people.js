@@ -114,7 +114,7 @@ function filterOptions(id, filter, data, css) {
     const arr = ["*"];
     data.forEach((el) => {
       const typeClass = createClassFilter(el);
-      if (typeClass !== "" && $("." + typeClass + css + itemCSSFilter).size()) {
+      if (typeClass !== "" && $("." + typeClass + css + itemCSSFilter).length) {
         arr.push(typeClass);
       }
     });
@@ -259,7 +259,7 @@ function initModal() {
     });
   });
 
-  $(document).ready(function () {
+  
     $(".f-cat a").on("click", function (e) {
       const target = $(this.hash);
       if (target.offset()) {
@@ -274,7 +274,6 @@ function initModal() {
         return false;
       }
     });
-  });
 }
 
 function scrollToView() {
@@ -515,26 +514,45 @@ function setDropdown() {
   }
 }
 
-function setupIsotope(e) {
-  e.target.removeEventListener("html-included", setupIsotope, false);
-  $("#filteredCompanies").text(window.modalData.length);
-  horizontalScroll();
-  smoothScroll();
-  $("#app").css("visibility", "visible");
-  initSelect();
-  initChips();
-  initModal();
-  filterToggle();
-
-  msnry.on("arrangeComplete", (filteredItems) => {
-    $("#filteredCompanies").text(filteredItems.length);
-    dropdownFilters(selectors);
-    highlightChips();
-    if (scrollSet) {
-      scrollToView();
+function waitForData() {
+  return new Promise((resolve) => {
+     function checkCondition() {
+      if (window.modalData) {
+        resolve();
+      } else {
+        console.log('x')
+        setTimeout(checkCondition, 500);
+      }
     }
+    checkCondition();
   });
-  setDropdown();
+}
+
+function setupIsotope(e) {
+
+  e.target.removeEventListener("html-included", setupIsotope, false);
+  $(document).ready(function () {
+    waitForData().then(() => {
+      $("#filteredCompanies").text(window.modalData.length);
+      horizontalScroll();
+      smoothScroll();
+      $("#app").css("visibility", "visible");
+      initSelect();
+      initChips();
+      initModal();
+      filterToggle();
+
+      msnry.on("arrangeComplete", (filteredItems) => {
+        $("#filteredCompanies").text(filteredItems.length);
+        dropdownFilters(selectors);
+        highlightChips();
+        if (scrollSet) {
+          scrollToView();
+        }
+      });
+      setDropdown();
+    });
+  });
 }
 
 document.addEventListener("html-included", setupIsotope);
