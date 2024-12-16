@@ -1,6 +1,6 @@
 {{#each this}}
         <div id="item-{{@index}}" class="grid-item {{createClass company}} {{createClass country}} {{createClass department}} {{createClasses filters}} {{createClass domain}}">
-            <a class='f-cat active'>
+            <div class='f-cat active'>
                 {{#if bio}}
                 <a href='#item-{{@index}}' class='cat-bio' data-modal='{{@index}}'>
                 {{/if}}
