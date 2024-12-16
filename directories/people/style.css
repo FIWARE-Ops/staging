@@ -1159,6 +1159,10 @@
         margin-right: 10px;
     }
 
+    .tingle-modal {
+        display: flex;
+    }
+
     .tingle-modal h1 {
         font-size: 20px;
     }
@@ -1173,7 +1177,7 @@
     }
 
     .tingle-modal .bio-modal p {
-        max-height: 250px;
+        max-height: 235px;
         overflow: auto;
     }
 }
