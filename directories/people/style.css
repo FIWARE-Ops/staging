@@ -678,7 +678,7 @@
 }
 
 .tingle-modal-box {
-    border-radius: 10px;
+    border-radius: 4px;
     background: #fff;
     width: 640px;
 }
@@ -1112,6 +1112,12 @@
         left: auto;
         right: auto;
         border-radius: 4px;
+    }
+
+    .tingle-modal__closeLabel {
+        font-family: 'Montserrat';
+        font-weight: 600;
+        padding-bottom: 4px;
     }
 
     .tingle-modal-box {
