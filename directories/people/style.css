@@ -529,6 +529,7 @@
     background-color: #e2e9ea;
     top:0; 
     left:0;
+    cursor: pointer;
 }
 
 .flag {
