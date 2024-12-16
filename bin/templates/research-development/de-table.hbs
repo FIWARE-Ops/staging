@@ -1,10 +1,9 @@
 <div class="list-directory">
-    <!-- <div class="ld-head">
-            <div class="ld-item-name">Figure</div>
-            <div class="ld-item-value">Value</div>
-            <div class="ld-item-owner">Owner</div>
-            <div class="ld-item-source">Source</div>
-    </div> -->
+    <div class="ld-head">
+            <div class="ld-project-name">Project</div>
+            <div class="ld-item-responsible">Responsible</div>
+            <div class="ld-item-source">Resources</div>
+    </div>
     {{#each this}}
         {{#if (and (eq country 'Germany') (eq type 'Ongoing'))}}
         <div class="ld-project-block">
@@ -73,10 +72,10 @@
                         </ul>
                     </div>
                     {{/if}}
-                    <div class="ld-date-container">
-                        <div class="chip-label">End Date</div>
-                        <div class="ld-date">{{shortDate}}</div>
-                    </div>
+                </div>
+                <div class="ld-date-container">
+                    <div class="chip-label">End Date</div>
+                    <div class="ld-date">{{shortDate}}</div>
                 </div>
             </div>
         </div>
