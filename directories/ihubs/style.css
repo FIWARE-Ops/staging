@@ -183,6 +183,10 @@ details summary::-webkit-details-marker {
     left:1px; */
 }
 
+.maplibregl-popup-content .gridElementLogo {
+    border-radius: 4px 4px 0 0;
+}
+
 .gutter-sizer {
     width: 0;
 }
