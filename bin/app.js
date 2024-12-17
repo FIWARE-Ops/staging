@@ -20,6 +20,7 @@ const People = require('./parsers/people');
 const Marketplace = require('./parsers/showcase');
 
 const fs = require('fs-extra');
+const path = require('path');
 const Loader = require('./downloader');
 
 const PROCESS = process.env.PROCESS || 'products';
@@ -185,6 +186,12 @@ switch (PROCESS) {
         break;
 
     case 'postinstall':
+
+        const dir = path.join(__dirname, '../images');
+        if (!fs.existsSync(dir)){
+            fs.mkdirSync(dir);
+        }
+
         // Ensure that CSV files are present
         touch(PRODUCT_DETAILS_FILE);
         touch(PRODUCTS_SUMMARY_FILE);
