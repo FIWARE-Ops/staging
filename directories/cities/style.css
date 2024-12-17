@@ -187,6 +187,13 @@ details summary::-webkit-details-marker {
     left: inhert;
 }
 
+.maplibregl-popup-content .gridElementLogoContainer {
+    width:100%;
+    height: initial; 
+    padding-top: initial;
+    position:initial;
+}
+
 .gutter-sizer {
     width: 0;
 }
