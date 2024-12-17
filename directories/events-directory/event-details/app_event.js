@@ -505,13 +505,6 @@ $.urlParam = function (name) {
   return decodeURI(results[1]) || 0;
 };
 
-function waitForData() {
-  return new Promise((resolve) => {
-    if (window.eventData) {
-      return resolve(window.eventData);
-    }
-  });
-}
 
 $(document).ready(function () {
   waitForData().then((eventData) => {
@@ -577,8 +570,8 @@ $(document).one("html-included", () => {
 function waitForData() {
   return new Promise((resolve) => {
      function checkCondition() {
-      if (window.modalData) {
-        resolve();
+      if (window.eventData) {
+        resolve(window.eventData);
       } else {
         setTimeout(checkCondition, 500);
       }
