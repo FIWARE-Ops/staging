@@ -574,11 +574,28 @@ $(document).one("html-included", () => {
   });
 });
 
+function waitForData() {
+  return new Promise((resolve) => {
+     function checkCondition() {
+      if (window.modalData) {
+        resolve();
+      } else {
+        setTimeout(checkCondition, 500);
+      }
+    }
+    checkCondition();
+  });
+}
+
 function loadEvent(e) {
   e.target.removeEventListener("data-ready", loadEvent, false);
-  loadEventDetails();
-  horizontalScroll();
-  initModal();
+  $(document).ready(function () {
+    waitForData().then(() => {
+      loadEventDetails();
+      horizontalScroll();
+      initModal();
+    });
+  });
 }
 
 

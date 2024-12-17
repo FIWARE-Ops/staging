@@ -520,7 +520,6 @@ function waitForData() {
       if (window.modalData) {
         resolve();
       } else {
-        console.log('x')
         setTimeout(checkCondition, 500);
       }
     }

@@ -509,27 +509,44 @@ function setDropdown() {
   }
 }
 
+function waitForData() {
+  return new Promise((resolve) => {
+     function checkCondition() {
+      if (window.modalData) {
+        resolve();
+      } else {
+        setTimeout(checkCondition, 500);
+      }
+    }
+    checkCondition();
+  });
+}
+
 function setupIsotope(e) {
   e.target.removeEventListener("html-included", setupIsotope, false);
 
-  $("#app").css("visibility", "visible");
+  $(document).ready(function () {
+    waitForData().then(() => {
+      $("#app").css("visibility", "visible");
 
-  initSelect();
-  initChips();
-  initModal();
-  filterToggle();
-  //initSticky();
-  horizontalScroll();
-  smoothScroll();
-  msnry.on("arrangeComplete", (filteredItems) => {
-    $("#filteredCompanies").text(filteredItems.length);
-    dropdownFilters(selectors);
-    highlightChips();
-    if (scrollSet) {
-      scrollToView();
-    }
+      initSelect();
+      initChips();
+      initModal();
+      filterToggle();
+      //initSticky();
+      horizontalScroll();
+      smoothScroll();
+      msnry.on("arrangeComplete", (filteredItems) => {
+        $("#filteredCompanies").text(filteredItems.length);
+        dropdownFilters(selectors);
+        highlightChips();
+        if (scrollSet) {
+          scrollToView();
+        }
+      });
+      setDropdown();
+    });
   });
-  setDropdown();
 }
 
 document.addEventListener("html-included", setupIsotope);
