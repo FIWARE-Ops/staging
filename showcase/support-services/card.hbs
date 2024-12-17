@@ -1,0 +1,61 @@
+{{#each this}}
+        <div id="item-{{@index}}" class="grid-item {{createClass company}} {{createClass country}} {{createClass department}} {{createClasses filters}} {{createClass domain}}">
+            <div class='f-cat active'>
+                {{#if bio}}
+                <div class='cat-bio' data-modal='{{@index}}'>
+                {{/if}}
+                <div class='city-photo-container'>
+                    <picture>
+                       <source srcset="{{webp img}}" type="image/webp"/>
+                       <img alt="" class="city-photo" src="{{img}}" loading="lazy" />
+                    </picture>
+                </div>
+                {{#if bio}}
+                </div>
+                {{/if}}
+                <div class='profile-details'>
+                {{#if bio}}
+                <div class='cat-bio' data-modal='{{@index}}'>
+                {{/if}}
+                    <h6 class='name'>{{title}}{{name}}</h6>
+                    <h4 class='position'>{{job}}</h4>
+                    <a target='_blank' href='{{website}}' rel='noopener'>
+                        <h5 class='company-link'>{{company}}{{companyType}}</h5>
+                    </a>
+                    {{#if team}}
+                        <div class='department'>{{team}}</div>
+                    {{else}}
+                    {{#if department}}
+                        <div class='department'>{{department}}</div>
+                    {{/if}}
+                    {{/if}}
+                    {{#if domain}}
+                        <div class='chip-domain'>{{domain}}</div>
+                    {{/if}}
+                </div>
+                {{#if bio}}
+                </div>
+                {{/if}}
+                <div class='icons'>
+                    {{#if linkedIn}}
+                        <a class='cat-linkedin' target='_blank' href='{{linkedIn}}' rel='noopener'><span
+                                class='icon linkedin'
+                            ></span></a>
+                    {{/if}}
+                    {{#if twitter}}
+                        <a class='cat-twitter' target='_blank' href='{{twitter}}' rel='noopener'><span
+                                class='icon twitter'
+                            ></span></a>
+                    {{/if}}
+                    {{#if country}}
+                        <div class='cat-location'><span class='location-label'>{{country}}</span><img
+                                alt='{{country}}'
+                                class='flag'
+                                src='{{flagUrl}}'
+                                loading='lazy'
+                            /></div>
+                    {{/if}}
+                </div>
+            </div>
+        </div>
+{{/each}}
