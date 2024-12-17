@@ -55,7 +55,6 @@ var titles = [
         'Switzerland',
         'Tunisia',
         'Ukraine',
-        'United Kingdom',
         'Uruguay',
         'USA',
 ]; 
