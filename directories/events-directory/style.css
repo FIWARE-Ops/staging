@@ -283,8 +283,7 @@
 .gridElementLogo {
     width: 100%;
     position:absolute; 
-    top:0; 
-    left:1px;
+    top:0;
     border-radius: 4px;
 }
 
@@ -1815,7 +1814,7 @@ input[type="search"]::placeholder {
 
     .gridElementLogoContainer {
         width: 100%;
-        padding-top: 50%;
+        padding-top: 52%;
     }
 
     .solution-name {
