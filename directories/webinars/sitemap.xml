@@ -2,270 +2,806 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 		<url>
 			<loc>https://www.fiware.org/webinars/fiware-data-space-technologies---reference-use-case.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/dataspaces-series.png</video:thumbnail_loc>
+				<video:title>FIWARE Data Space Technologies - Reference Use Case</video:title>
+				<video:description></video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=3fLisTubkF0</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/fiware-data-space-technologies---ongoing-and-future-work.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/dataspaces-series.png</video:thumbnail_loc>
+				<video:title>FIWARE Data Space Technologies - Ongoing and Future Work</video:title>
+				<video:description></video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=bZAzOHIdSr8</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/deploying-a-fiware-data-space-connector.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/dataspaces-series.png</video:thumbnail_loc>
+				<video:title>Deploying a FIWARE Data Space Connector</video:title>
+				<video:description>A data space connector needs to fulfill many different roles to work successfully.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=5qrhUCczk8w</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/contract-negotiation-in-data-spaces.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/dataspaces-series.png</video:thumbnail_loc>
+				<video:title>Contract Negotiation in Data Spaces</video:title>
+				<video:description>Within the data economy, much of your data can be considered valuable assets.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=kkvNQfkVJkg</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/decentralized-iam-based-on-verifiable-credentials-and-odrl.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/dataspaces-series.png</video:thumbnail_loc>
+				<video:title>Decentralized IAM based on Verifiable Credentials and ODRL</video:title>
+				<video:description>In this session, you will discover how to securely store and use your digital identity while maintaining full control of your data, thanks to Decentralised Identity.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=zz7MHd3imzs</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/fiware-vision-on-data-spaces.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/dataspaces-series.png</video:thumbnail_loc>
+				<video:title>FIWARE Vision on Data Spaces</video:title>
+				<video:description>The first session of the six-part webinar series on FIWARE Data Space Technologies.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=phCPgxzT8t0</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/enhancing-tourism-with-smart-technologies--integrating-fiware-and-large-language-models.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/enhancing-tourism.png</video:thumbnail_loc>
+				<video:title>Enhancing Tourism with Smart Technologies: Integrating FIWARE and Large Language Models</video:title>
+				<video:description>This session will delve into the integration of FIWARE with the powerful capabilities of Large Language Models (LLMs) equipped with Retrieval Augmented Generation (RAG).</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=SHUnETH4wDo</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/advanced-dashboards-with-wirecloud-2-0.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/advanced-dashboards-with-wirecloud-2.png</video:thumbnail_loc>
+				<video:title>Advanced Dashboards with WireCloud 2.0</video:title>
+				<video:description>An interactive session on mastering Wirecloud, a powerful tool for creating dynamic dashboards using a visual interface.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=88uqeNDGoJI</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/creating-combined-ngsi-v2-ngsi-ld-data-spaces.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/combined-nsgi-v2-ngsi-ld.png</video:thumbnail_loc>
+				<video:title>Creating Combined NGSI-v2/NGSI-LD Data Spaces</video:title>
+				<video:description>The NGSI-v2 data format has a proven track record of providing interoperability within individual Smart systems, linking together web services and IoT devices via a well-defined neutral interface to maximise architectural flexibility between components and eliminate vendor lock-in.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=PjuYn8Lj-Xc</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/leveraging-ngsi-in-university-courses.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/ngsi-in-universities.png</video:thumbnail_loc>
+				<video:title>Leveraging NGSI in University Courses</video:title>
+				<video:description>The NGSI interface is commonly used within Smart Systems.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=057C4mBKSdU</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/fiware-data-spaces---a-practical-introduction-into-roles-and-components.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/fiware-data-space-introduction.png</video:thumbnail_loc>
+				<video:title>FIWARE Data Spaces – A Practical Introduction Into Roles and Components</video:title>
+				<video:description>Data Spaces are becoming the key to achieve interoperable and trustworthy data sharing between organizations and users.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=hm5qMlhpK0g</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/using-ngsi-ld-in-a--system-of-systems--approach.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/ngsi-ld-system-of-system.png</video:thumbnail_loc>
+				<video:title>Using NGSI-LD in a “System-of-Systems” Approach</video:title>
+				<video:description>Linked data systems are structured from the bottom up to be collaborative, and offer the opportunity to create data spaces which keep the restrictions on participants data structures to an absolute minimum.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=sTcxSaL3dIQ</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/actuation--federation-and-interoperability-of-context-brokers.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/context-broker-interoperability.png</video:thumbnail_loc>
+				<video:title>Actuation, Federation and interoperability of context brokers</video:title>
+				<video:description>Registration of external context sources is a fundamental principle behind the correct use of context brokers.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=ebk14k5dNxo</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/building-real-time-inference-ai-services-with-fiware.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/ai-interface.png</video:thumbnail_loc>
+				<video:title>Building real-time inference AI services with FIWARE</video:title>
+				<video:description>There is no point in training Machine Learning models if there is no plan to make them available for applications to use.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=L_IDCUE1IbA</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/local-expert-in-b2b-data-sharing.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/lebds.png</video:thumbnail_loc>
+				<video:title>Local Expert in B2B Data Sharing</video:title>
+				<video:description>Effective B2B Data Sharing relies on the agreement to use common frameworks and protocols.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=J38N832HRjM</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/iot-agent-gateways-using-the-iota-tangle-for-secure-data-transfer.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/tangle.png</video:thumbnail_loc>
+				<video:title>IoT Agent Gateways Using the IOTA Tangle for Secure Data Transfer</video:title>
+				<video:description>Within the FIWARE Ecosystem, IoT Agents are used to ensure that devices can send their data to, and be managed from a  Context Broker using their own native protocols.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=qDMljIidA6k</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/monitoring-and-supervision-of-robotic-systems-using-fiware-and-ros-2.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/iotagent-ros2.png</video:thumbnail_loc>
+				<video:title>Monitoring and Supervision of robotic systems using FIWARE and ROS 2</video:title>
+				<video:description>Essential background concepts - FIWARE and ROS2  Architectural Approachiot-agent-node-lib IoT Agent for JSON as baseline rclnodejs library   Demo: Turtle Sim  FIWARE can be found in many industrial systems and in this webinar, we will share with you the secrets behind implementing a ROS2 IoT Agent, and how to potentially extend this methodology to other  industrial robotics systems.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=gED5mAtBtYg</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/extending-fiware-mlops-using-argo-workflows.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/argo.png</video:thumbnail_loc>
+				<video:title>Extending FIWARE MLOps using Argo Workflows</video:title>
+				<video:description>Background to MLOps Tooling for Machine Learning Use of FIWARE within MLOps Use of Argo Workflows Verta AI monitioring Continuous Training, Continuous Integration, Continuous Development  MLOps is trend which has emerged to facilitate the industrialization of AI models.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=IIN5d2Mco9A</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/ngsi-ld-concise-payloads-and-merge-patch-operations.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/concise-merge-patch.png</video:thumbnail_loc>
+				<video:title>NGSI-LD Concise Payloads and Merge Patch Operations</video:title>
+				<video:description>NGSI-LD payload formatsNormalized Simplified (Key-Value pairs) Concise   Context broker operations and supported HTTP Methods in Orion-LD:GET, POST, DELETE, PATCH, PUT, OPTIONS   PATCH Operations Deep Dive:Partial Update Merge Use of JSON Literal null Architectural Scenario FIWARE Ready Devices  As NGSI-LD becomes more established, the needs of its user base become ever more diverse.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=-XPGyM7K_kU</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/managing-data-models-and-exposing-digital-twins.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/beyond-ngsi-ld.png</video:thumbnail_loc>
+				<video:title>Managing Data Models and Exposing Digital Twins</video:title>
+				<video:description>FIWARE iHubs - local and global Structure and Use of NGSI-LD to deal with Complexity Data Models as a &quot;common language&quot; Building a simple sensor model Controlling actions of Digital Twins Capabilities defined in AAS (Asset Administrative Shell)  NGSI-LD has proved its relevance and efficiency to address technical interoperability challenges in many sectors and use cases implemented through FIWARE components, but we need new tools and approaches to go further towards semantic interoperability and  controlled interactions with heterogeneous stakeholders, including human beings who have no idea of what an API is.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=42dNh1VM7n4</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/ngsi-ld-and-smart-data-models---standardizing-access-to-digital-twins.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/ngsi-ld-sdm.png</video:thumbnail_loc>
+				<video:title>NGSI-LD and Smart Data Models - Standardizing Access to Digital Twins</video:title>
+				<video:description></video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=MBx23ypORLk</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/fiware-basics--understanding-the-terminology.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/basics.png</video:thumbnail_loc>
+				<video:title>FIWARE Basics, understanding the terminology</video:title>
+				<video:description>What is FIWARE? The role of the FIWARE Foundation Standards, Interfaces and Interoperability Developer TerminologyREST JSON Linked Data NGSI-v2 &amp; NGSI-LD   Standards within Security and Data Sharing  Do you know what an &quot;API&quot; is? Ever wondered what makes it &quot;open&quot;?  Every profession has its own jargon and software engineering is no exception.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=laDTBcLziB8</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/passing-the-fiware-experts-exam.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/experts.png</video:thumbnail_loc>
+				<video:title>Passing the FIWARE Experts Exam</video:title>
+				<video:description>Background and History of the Examination The role of the Examiners, Marking and Grading Mock ExaminationBody of Work NGSI Interfaces FIWARE Catalogue Architectural Scenario FIWARE Ready Devices   Conclusions and Opportunities for certified FIWARE Experts  As an emerging technology, the FIWARE ecosystem has a growing need to be able to identify those principle developers who fully understand its core concepts(such as NGSI-v2 and NGSI-LD interfaces and other FIWARE fundamentals) and are able to create intelligent Smart Solutions which leverage the technology to the best effect.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=6_JLn-69Z_8</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/cloud-edge-processing-with-fogflow.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/fogflow.png</video:thumbnail_loc>
+				<video:title>Cloud-Edge processing with FogFlow</video:title>
+				<video:description>Device orchestration can be boring, repetitive and error-prone, however, FogFlow, with its novel intent-based programming model has turned the tables on this monotony, and created a standard-based data orchestration mechanism.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=D06W3t5uv94</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/scalable-deployments-with-fiware.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/scalable.png</video:thumbnail_loc>
+				<video:title>Scalable deployments with FIWARE</video:title>
+				<video:description>Understanding of a scalable deployment Infrastructure Use-case Analysis Scaling the Orion-LD context broker Tooling and testing  FIWARE components offer a wide range of functionalities and opportunities.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=WUman6Mnx58</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/machine-learning-with-fiware-and-mlops.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/mlops.png</video:thumbnail_loc>
+				<video:title>Machine learning with FIWARE and MLOps</video:title>
+				<video:description>What is MLOps? Tooling for Machine Learning Model &amp; Data Monitoring Continuous Integration, Deployment and Training Further Experimentation and Learning  IoT has enabled companies to access data from billion of devices from all over the world but the full exploitation of this data has not yet been achieved as AI adoption still lags.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=6X9r5Kb8UIs</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/language-maps-and-multilanguage-support-in-ngsi-ld.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/language.png</video:thumbnail_loc>
+				<video:title>Language Maps and Multilanguage support in NGSI-LD</video:title>
+				<video:description>Language Maps and why you need them NGSI-LD LanguageProperty Multilingual Queries and ResponsesNGSI-LD Output formats Language Tags (BCP 47) Content Language Headers (RFC 3282)   Localization and InternationalizationDates and Currencies Collation and Sort Order Semantic Markup of Complex Objects  Smart Tourism is a growing sector of IT and an opportunity for economic growth.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=QZIrSa7un24</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/managing-users-identities-and-access-control-policies-with-api-umbrella.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/umbrella.png</video:thumbnail_loc>
+				<video:title>Managing Users Identities and Access Control Policies with API Umbrella</video:title>
+				<video:description>Overview - API Umbrella Basic PEP and PDP Functions Load Balancing Integration with Keyrock Statistics and Logs iSHARE and Attribute-based Access Control  Access and usage control guarantees the enforcement of data access and usage policies - such policies are defined as part of the terms and conditions when data resources and services are published or negotiated between providers and consumers.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=BuyhK1rzHIY</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/ngsi-ld-temporal-operations.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/ngsi-ld-temporal.png</video:thumbnail_loc>
+				<video:title>NGSI-LD Temporal Operations</video:title>
+				<video:description>How to use NGSI-LD 1.3.1 Temporal Functions Normalized and Simplified Temporal Formats Complex Temporal QueriesFiltering Geo-queries Pagination   NGSI-LD 1.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=w6ymNPO-Baw</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/end-to-end-ai-solution-with-pyspark---draco.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/pyspark-draco.png</video:thumbnail_loc>
+				<video:title>End-to-end AI Solution With PySpark &amp; Draco</video:title>
+				<video:description>Managing Real-Time Context Data Data Transformation and Persistence using Apache NIFI Setting up a Google Cloud EnvironmentCreating a DataProc Cluster and connecting it to Jupyter Notebook Using Google Cloud Storage service Submitting a PySpark Job on DataProc   Modelling a Machine Learning Solution on PySpark for Multi-classification  Data processing is key to ensure Machine Learning models&#x27; performance.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=d724j7PpaVg</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/connecting-ngsi-ld-fiware-components.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/combining-v2-ld.png</video:thumbnail_loc>
+				<video:title>Connecting NGSI-LD FIWARE Components</video:title>
+				<video:description>Differences between NGSI-v2 vs NGSI-LD InterfacesCRUD, Subscriptions and Registrations   Data Models and NGSI-LD @context NGSI-LD InterfacesSubscription Payloads (Key-Values, Normalized and GeoJSON) and Customizing Payloads Registration Forwarding and receiving payloads Federations and Data Ownership   Demo: Combining v2 and LD  NGSI-LD is all about linked data.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=sWa0k5GyGyw</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/customizing-iot-agents.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/custom-iot-agents.png</video:thumbnail_loc>
+				<video:title>Customizing IoT Agents</video:title>
+				<video:description>Overview of Existing IoT AgentsPayloads, Transports and Protocols   Code walkthroughsCustomizing the IoT Agent for Ultralight to accept XML payloads IoT Agent Plugin adaptions - IoT Agent for ADAPT/ISOXML File-based Device Measure Upserts (CSV, Excel)  Many common payloads and protocols are already supported by IoT Agents.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=HuEwI8wJKFU</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/india-urban-data-exchange.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/iudx.png</video:thumbnail_loc>
+				<video:title>India Urban Data Exchange</video:title>
+				<video:description>This is the second half of the Adopting Common Smart Data Models for Smart Cities webinar, where FIWARE teamed up with the India Urban Data Exchange (IUDX) Program.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=YXp822s2_n4</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/monitoring-measures-using-fiware---grafana.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/grafana.png</video:thumbnail_loc>
+				<video:title>Monitoring Measures Using FIWARE &amp; Grafana</video:title>
+				<video:description>What is Grafana? FIWARE Architectural ConsiderationsWhich microservices? What roles are required? NGSI Data: Sources, Sinks, Transformations and Data Formats   Deep Dive: Filling Station Dashboard HOPU: Real-life Use Cases and Customizations with Grafana  Visualisation of data is key to understanding trends and this webinar discusses how to analyse context data using common open source tools.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=Gaa23hC0teo</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/monetizing-your-organization-s-data.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/monetizing-with-data.png</video:thumbnail_loc>
+				<video:title>Monetizing your Organization&#x27;s Data</video:title>
+				<video:description>What is the Business API Ecosystem? How does the Business API Ecosystem relate to the FIWARE Security Framework? How can Context Data be monetized?Demo   How can the Business API Ecosystem be extended to fit custom environments?  In the digital economy, your context data has value and could be used as a potential revenue stream.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=jsG7SYtP4FU</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/creating-advanced-dashboards-using-wirecloud.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/dashboards-with-wirecloud.png</video:thumbnail_loc>
+				<video:title>Creating Advanced Dashboards Using Wirecloud</video:title>
+				<video:description>Wirecloud is a web mashup tool designed to ease the development of operational dashboards.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=LkGpx6BKbRM</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/cities-as-enablers-of-the-data-economy---smart-data-models-for-cities.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/cities-as-enablers.png</video:thumbnail_loc>
+				<video:title>Cities as Enablers of the Data Economy - Smart Data Models for Cities</video:title>
+				<video:description></video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=b0EWq5E5jAc</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/machine-learning-with-cosmos-and-spark.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/ml-with-cosmos-and-spark.png</video:thumbnail_loc>
+				<video:title>Machine Learning with Cosmos and Spark</video:title>
+				<video:description>This webinar presents an introduction to data engineering with FIWARE using Apache Spark ready for big data deployments.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=isugbtZWU4I</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/ngsi-ld-iot-agents.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/ngsi-ld-iot-agents.png</video:thumbnail_loc>
+				<video:title>NGSI-LD IoT Agents</video:title>
+				<video:description>What is an IoT Agent? NGSI-LD Measures NGSI-LD Actuations + Lazy Attributes:Registrations Subscriptions   Provisioning NGSI-LD Devices:Data Models and NGSI-LD @context The role of metadata GeoJSON and GPS device provisioning   Combining NGSI-v2 Devices with an NGSI-LD Context Broker  NGSI-LD support has been added to the library underpinning all of the IoT Agent so now it is simple to combine the power of linked data with IoT devices running the protocols of your choice.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=XBLyMa-UBmg</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/integrating-robotic-systems-for-agile-manufacturing-using-fiware.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/integrating-robotics-systems.png</video:thumbnail_loc>
+				<video:title>Integrating Robotic Systems for Agile Manufacturing Using FIWARE</video:title>
+				<video:description>Robotics-based Applications for Agile Manufacturing using FIWARE Robotics centered use cases Digital Factory centered use cases.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=ftxNOdwqjiQ</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/fiware-and-micro-ros--enabling-robotics-systems-on-micro-controllers.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/micro-ros.png</video:thumbnail_loc>
+				<video:title>FIWARE and micro-ROS: Enabling Robotics Systems on Micro-controllers</video:title>
+				<video:description>The micro-ROS Framework Synergies between Context Information Management and Robotics Structure of FIWARE-Ready and &quot;Powered by FIWARE&quot; micro-ROS Architectures SOSS-FIWARE Demo  The aim of this webinar is to give an introduction about the existing synergies between FIWARE, ROS, and micro-ROS - the Robot Operating System for microcontrollers - frameworks.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=XJL2_FHcils</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/smart-water-management---using-fiware-smart-data-models-for-water.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/smart-water.png</video:thumbnail_loc>
+				<video:title>Smart Water Management - Using FIWARE Smart Data Models for Water</video:title>
+				<video:description>Using FIWARE Smart Data Models for Water.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=QbAiLMFEQrY</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/turning-organizations-into-smart-organizations.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/smart-organizations.png</video:thumbnail_loc>
+				<video:title>Turning Organizations Into Smart Organizations</video:title>
+				<video:description>This webinar will cover the “system of systems” approach and FIWARE transformation journey, also with the help of success stories.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=XsoXchKiKB4</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/how-to-develop-fiware-ngsi-interfaces-for-robots.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/webinar-default.png</video:thumbnail_loc>
+				<video:title>How to Develop FIWARE NGSI Interfaces for Robots</video:title>
+				<video:description>Robot Types Digital Twins FIWARE NGSI Robotics InterfacesROS, ROS2, OPC-UA and DDS   Use Cases in Smart Industry  This webinar presents different alternatives for developing FIWARE-Ready robots and the main FIWARE components that can facilitate/empower these developments.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=m5JWxlMMuqk</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/adopting-common-smart-data-models-for-smart-cities.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/iudx.png</video:thumbnail_loc>
+				<video:title>Adopting Common Smart Data Models for Smart Cities</video:title>
+				<video:description>Why is relevant to have shared data models for the industry and for the citizenOpen license and shared data models as an economic booster for smart cities   Summary of the agreement:Adoption of NGSI-LD standard as the basis for data exchange Contribution to smart data models initiative (including participation in governance bodies)   Introduction to the Smart Data ModelsGeneral introduction New contribution mechanism New specification Other updates  For this webinar, FIWARE teamed up with the India Urban Data Exchange (IUDX) Program.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=dfMo0HnaIUQ</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/robots-and-machine-interfaces--building-interfaces-to-ros-systems.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/robots-and-machine-interface.png</video:thumbnail_loc>
+				<video:title>Robots and Machine Interfaces: Building Interfaces to ROS Systems</video:title>
+				<video:description>ROS-Side Perspective (Introduction to FIROS 0.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=a0NxSS96YzY</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/big-data-analysis-using-cosmos-with-spark-or-flink.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/big-data-analysis.png</video:thumbnail_loc>
+				<video:title>Big Data Analysis using Cosmos with Spark or Flink</video:title>
+				<video:description></video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=n6XN89VSZNg</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/blockchain-dlt-integration-with-fiware.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/blockchain.png</video:thumbnail_loc>
+				<video:title>Blockchain/DLT Integration with FIWARE</video:title>
+				<video:description>Introduction to Blockchain / Distributed Ledger Technologies FIWARE and DLTsAgri-Food Supply Chain Demo   Upcoming DLT Components and Research  This webinar will be an introduction to Blockchain and how FIWARE can be integrated with Blockchain/DLTs with a demo.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=ITSxtlCmNhQ</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/the-use-of-dds-middleware-in-robotics.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/webinar-default.png</video:thumbnail_loc>
+				<video:title>The Use of DDS Middleware in Robotics</video:title>
+				<video:description>About eProsima &amp; FIWARE Fast DDS &amp; ROS2Introduction Architecture &amp; Demo What is new?   XRCE-DDS &amp; Micro-ROS  An introduction to core real-time technologies: FAST DDS, the most complete Open Source DDS for ROS 2, and Micro XRCE-DDS, the middleware for microcontrollers, and micro-ROS.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=OQYBJJ5ydto</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/architecting-your-smart-solution-using-fiware.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/architecting.png</video:thumbnail_loc>
+				<video:title>Architecting Your Smart Solution Using FIWARE</video:title>
+				<video:description>Learn how Smart Solutions solving a particular challenge are architected with FIWARE.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=pTkZk4VF0gY</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/choosing-open-source-licenses-for-fiware-components.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/choosing-open-source.png</video:thumbnail_loc>
+				<video:title>Choosing Open Source Licenses for FIWARE Components</video:title>
+				<video:description>Issues may arise when attempting to release software as Open Source, and this webinar discusses some of the decisions which need to be made (such as deciding which license to use) and offers a few solutions to cover some common release processes as well as explaining the commitments that must be made when offering new software to FIWARE.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=1X_kNwkkcjo</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/fiware-vision-and-value-proposition-for-a-smart-future.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/fiware-vision.png</video:thumbnail_loc>
+				<video:title>FIWARE Vision and Value Proposition for a Smart Future</video:title>
+				<video:description>Understanding FIWARE Building &quot;Powered by FIWARE&quot; Solutions FIWARE: Going beyond the technology  A broad overview of the value proposition of FIWARE and its position in a Smart Digital Future.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=7ZMUYEWD1gw</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/fiware-building-the-future.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/future.png</video:thumbnail_loc>
+				<video:title>FIWARE Building the Future</video:title>
+				<video:description>A Reminder of some core concepts Roadmap TopicsNGSI-LD Smart Data Models Blockchain Robotics Data Marketplace Marketplace of Plug &amp; Play AI / Big Data Services  An in-depth look at where FIWARE is going next and integrates with blockchain and distributed ledger technologies, Artificial Intelligence or Robotics.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=REoJA7yxJ_0</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/introduction-to-ngsi-ld.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/introduction-to-ngsi-ld.png</video:thumbnail_loc>
+				<video:title>Introduction to NGSI-LD</video:title>
+				<video:description>What is JSON-LD? What is NGSI-LD? What is the relationship betweenJSON-LD and NGSI-LD? NGSI v2 and NGSI-LD   What is core @context ?Why are data models so important   Defining NGSI-LD properties, relationships and enumerations Using Compaction/Expansion operations on NGSI-LD data Navigating the @graph  A data-model driven and linked data first introduction for developers to NGSI-LD and JSON-LD.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=rZ13IyLpAtA</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/securing-fiware-iot-devices.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/webinar-default.png</video:thumbnail_loc>
+				<video:title>Securing FIWARE IoT Devices</video:title>
+				<video:description>How can insecure systems be attacked? What common actions should be taken to help to secure systems?What options do I have to secure HTTP traffic? What options do I have to secure MQTT traffic? What options do I have with other protocols?   What is a PEP Proxy and how can I use one to protect services and device?s  Live coding session and commentary, demonstrating various techniques and methods for securing the interactions between Devices, IoT Agents, and the Context Broker.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=_87IZhrYo3U</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/short-term-history-within-fiware-systems.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/webinar-default.png</video:thumbnail_loc>
+				<video:title>Short Term History within FIWARE Systems</video:title>
+				<video:description></video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=fX_YAc7G4Dk</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/strategies-for-context-data-persistence.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/webinar-default.png</video:thumbnail_loc>
+				<video:title>Strategies for Context Data Persistence</video:title>
+				<video:description>What is data persistence and why do you need it? Which data persistence options do you have? What is Big Data? Which FIWARE components are available to deal with the persistence of context data? Why do context brokers not offer a data persistence function of their own?  Introduction to the data persistence components found within the FIWARE Catalogue and various options on how to maintain a historical record of context when a context broker has no memory.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=_uLZDGFPlRA</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/fiware-ihubs-webinar---the-netherlands--canary-islands--azores.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/ihubs-02.png</video:thumbnail_loc>
+				<video:title>FIWARE iHubs Webinar - the Netherlands, Canary Islands, Azores</video:title>
+				<video:description>This webinar describes the functions of a FIWARE iHub.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=a1RV2UILgyg</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/fiware-ihubs-webinar---spain--badajoz---france--saint-quentin---uruguay--montevideo-.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/ihubs-01.png</video:thumbnail_loc>
+				<video:title>FIWARE iHubs Webinar - Spain (Badajoz), France (Saint-Quentin), Uruguay (Montevideo)</video:title>
+				<video:description>This webinar describes the functions of a FIWARE iHub.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=GmloMFyDa7Y</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/fiware-ihubs-webinar---spain--andalusia---italy--perugia---argentina--la-plata-.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/ihubs-default.png</video:thumbnail_loc>
+				<video:title>FIWARE iHubs Webinar - Spain (Andalusia), Italy (Perugia), Argentina (La Plata)</video:title>
+				<video:description>This webinar describes the functions of a FIWARE iHub.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=IXjQwcuf9Xw</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/how-to-get-context-data-out-of-robots.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/webinar-default.png</video:thumbnail_loc>
+				<video:title>How to Get Context Data Out of Robots</video:title>
+				<video:description></video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=T8XV6Wah9l4</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/data-modelling-with-ngsi.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/webinar-default.png</video:thumbnail_loc>
+				<video:title>Data Modelling with NGSI</video:title>
+				<video:description>Understanding and applying Standard Data Models.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=T_1DpKf6C_c</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/how-to-debug-iot-agents.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/webinar-default.png</video:thumbnail_loc>
+				<video:title>How to Debug IoT Agents</video:title>
+				<video:description>How to diagnose common problems How to test services in isolation How to set-up and interpret debug Configuring IoT Agents Adding diagnostic debug Where to look for help and advice  This video presentation shows how to connect devices to processing enablers via an IoT Agent and the context broker, what can go wrong when trying to wire up the system.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=FRqJsywi9e8</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/how-to-secure-fiware-architectures.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/webinar-default.png</video:thumbnail_loc>
+				<video:title>How to Secure FIWARE Architectures</video:title>
+				<video:description>What are Identity Management and Access Control?   Which FIWARE components will you need?   What are Authentication and Authorization? How do they differ?   What is OAuth2? What flows are supported?   What is a PEP Proxy? What does it do?   What is a PDP and when will I need one?   What terms such as RBAC, PBAC and XACML mean and how are they used?  This video presentation shows how to add Identity Management and Access Control elements to your FIWARE Architecture by using the Generic Enablers from the Security Chapter.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=SP0zFdTybA4</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/what-is-an-iot-agent-.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/webinar-default.png</video:thumbnail_loc>
+				<video:title>What is an IoT Agent?</video:title>
+				<video:description>This video presentation shows how to connect IoT Devices to the Context Broker using an IoT Agent and how to ensure your device is FIWARE Ready.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=my6Kgiqx-OM</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/core-context-management.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/webinar-default.png</video:thumbnail_loc>
+				<video:title>Core Context Management</video:title>
+				<video:description>What is Context Data? What is a Context Broker? What is NGSI v2? Introduction to harmonized data models How to read and update context data via REST How to assign relationships between Entities How to register other sources as context data How to subscribe to changes in context  This video presentation is an introduction to Core Context Management describing about the NGSI DataModel and the NGSI interface, registrations, subscription etc.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=pK4GgYjlmdY</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/webinars/introduction-to-fiware.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/webinar-default.png</video:thumbnail_loc>
+				<video:title>Introduction to FIWARE</video:title>
+				<video:description>What is context data? How is context data used within a Smart Solution? What is FIWARE? How does it help What is NGSI v2? What is the FIWARE Catalogue? What is the FIWARE Marketplace? What is the role of the FIWARE Foundation?  This video presentation is a basic introduction describing what FIWARE is, why you need it and how the elements of the FIWARE Catalogue can help accelerate the development of your Smart Solution.</video:description>
+				<video:player_loc>https://youtu.be/97JsnnpPLrA'</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 </urlset>

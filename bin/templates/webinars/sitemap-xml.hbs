@@ -3,6 +3,14 @@
 	{{#each this}}
 		<url>
 			<loc>https://www.fiware.org/webinars/{{createClass name}}.html</loc>
+			<video:video>
+				<video:thumbnail_loc>{{img}}</video:thumbnail_loc>
+				<video:title>{{name}}</video:title>
+				<video:description>{{excerpt}}</video:description>
+				<video:player_loc>{{{companyLink}}}</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
 			<changefreq>monthly</changefreq>
 		</url>
 	{{/each}}
