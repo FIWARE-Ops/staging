@@ -193,8 +193,6 @@ function webp(file) {
 }
 
 function embed(data) {
-    //  "url": "https://www.youtube.com/watch?v=ebk14k5dNxo",
-
     return data.replace("watch?v=", "embed/");
 }
 
