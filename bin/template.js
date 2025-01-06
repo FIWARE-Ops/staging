@@ -192,6 +192,13 @@ function webp(file) {
     });
 }
 
+function embed(data) {
+    //  "url": "https://www.youtube.com/watch?v=ebk14k5dNxo",
+
+    return data.replace("watch?v=", "embed/");
+}
+
+
 function calendar(date, startTime, endTime) {
     return formatDateCal(date, startTime) + '/' + formatDateCal(date, endTime);
 }
@@ -227,6 +234,7 @@ Handlebars.registerHelper('multiline', multiline);
 Handlebars.registerHelper('longTitle', longTitle);
 Handlebars.registerHelper('calendar', calendar);
 Handlebars.registerHelper('webp', webp);
+Handlebars.registerHelper('embed', embed);
 Handlebars.registerHelper('listSpeakers', listSpeakers);
 
 Handlebars.registerHelper({

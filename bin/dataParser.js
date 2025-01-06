@@ -123,7 +123,7 @@ function addTime(date, time) {
 }
 
 function textOnly(data) {
-    return markdownToTxt(data);
+    return markdownToTxt(data).replace(/\n/g, ' ');
 }
 
 function trim(input) {
