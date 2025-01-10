@@ -10,7 +10,7 @@
 
 <meta name="description" content="Within the FIWARE Ecosystem, IoT Agents are used to ensure that devices can send their data to, and be managed from a  Context Broker using their own native protocols.">
 <meta name="keywords" content="IoT Agent Gateways Using the IOTA Tangle for Secure Data Transfer,Developers,IoT Agents">
-<meta http-equiv="refresh" content="1; url=https://www.youtube.com/watch?v=qDMljIidA6k" />
+<!--meta http-equiv="refresh" content="1; url=https://www.youtube.com/watch?v=qDMljIidA6k" /-->
 
 <!-- Open Graph Tags -->
 <meta property="og:locale" content="en_US">
@@ -72,17 +72,66 @@
   gtag('config', 'G-7CR5VQQLYP');
 </script>
 <style>
-body {
-  display: none;
+@import url('https://fonts.googleapis.com/css?family=Montserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&ver=4.9.6#038;subset=latin,latin-ext');
+
+.heading {
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    color: #5DC0CF !important;
+    line-height: 1.3em;
+    text-align: left;
 }
+
+p {
+    
+    font-weight: 500;
+    line-height: 1.6em;
+
+}
+body {
+  background-color: rgb(0, 36, 82);
+  color: #FFFFFF;
+  font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.youtube-video-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.youtube-video-container::after {
+  display: block;
+  content: "";
+  padding-top: 56.25%;
+}
+
+.youtube-video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
 </style>
 </head>
 <body>
-	<h1>FIWARE Webinars: IoT Agent Gateways Using the IOTA Tangle for Secure Data Transfer - Developers (IoT Agents)</h1>
+	<h1 class="heading">FIWARE Webinars: IoT Agent Gateways Using the IOTA Tangle for Secure Data Transfer - Developers (IoT Agents)</h1>
+  
+  <div class="youtube-video-container">
+    <iframe height="720" width="1280" 
+              src="https://www.youtube.com/embed/qDMljIidA6k"> 
+    </iframe>
+  </div>
   <p>
    Within the FIWARE Ecosystem, IoT Agents are used to ensure that devices can send their data to, and be managed from a  Context Broker using their own native protocols.
   </p>
-  <p>Within the FIWARE Ecosystem, IoT Agents are used to ensure that devices can send their data to, and be managed from a  Context Broker using their own native protocols. There is no restrictions on the transport layer to be used for these communications,  it could be anything from HTTP to MQTT to OPC-UA to LoRaWAN and more.</p> <p>For example, IOTA is an open-source data communication protocol and zero-fee micro-transaction system utilising distributed ledger  technology. This allows participants in the IOTA network (“the Tangle”) to securely and immutably encrypt, transfer and store data. </p> <p>The aim of this webinar is to demonstrate how create a gateway component for an IoT Agent and how connect to devices securely using  the IOTA Tangle, using it as a single source of truth and trust in data. Additionally discussing how to pick the most appropriate transport  or your use case and avoiding anti-patterns when securing IoT data.</p>
-  <img src="https://www.fiware.org/wp-content/directories/webinars/images/tangle.png"/>
+  <p>Within the FIWARE Ecosystem, IoT Agents are used to ensure that devices can send their data to, and be managed from a  Context Broker using their own native protocols. There is no restrictions on the transport layer to be used for these communications,  it could be anything from HTTP to MQTT to OPC-UA to LoRaWAN and more.</p> <p>For example, IOTA is an open-source data communication protocol and zero-fee micro-transaction system utilising distributed ledger  technology. This allows participants in the IOTA network (“the Tangle”) to securely and immutably encrypt, transfer and store data. </p> <p>The aim of this webinar is to demonstrate how create a gateway component for an IoT Agent and how connect to devices securely using  the IOTA Tangle, using it as a single source of truth and trust in data. Additionally discussing how to pick the most appropriate transport  or your use case and avoiding anti-patterns when securing IoT data.</p> 
 </body>
 </html>
