@@ -143,9 +143,6 @@ const PROMPT =
 function getTextContent(item) {
     const url = 'https://mlapi.qualetics.com/api/datamachine/init?id=6751b18658f9465ff86d2eef';
     const input = `<p>${item.excerpt}.</p> ${item.description}`;
-
-    console.log(input)
-
     const payload = { input, prompt: PROMPT };
     return fetch(
         url,

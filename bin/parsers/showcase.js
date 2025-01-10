@@ -166,6 +166,7 @@ function extractSummaryInfo(input, details) {
 
             item.Member = item.Member ? item.Member.toLowerCase() : 'false';
             item.iHub = item.iHub ? item.iHub.toLowerCase() : 'false';
+            item.optIn = item['Opt In'] ? item['Opt In'].toLowerCase() : 'false';
 
             if (item.Member === 'false') {
                 item.Member = false;
@@ -179,6 +180,12 @@ function extractSummaryInfo(input, details) {
             if (item.iHub === 'true') {
                 item.iHub = true;
             }
+            if (item.optIn === 'false') {
+                item.optIn = false;
+            }
+            if (item.optIn === 'true') {
+                item.optIn = true;
+            }
 
             const obj = {};
             obj.company = item['Organisation Name'];
@@ -186,6 +193,7 @@ function extractSummaryInfo(input, details) {
             obj.logo = item.Logo;
             obj.fiwareMember = item.Member;
             obj.fiwareIhub = item.iHub;
+            obj.optIn = item.Member && item.optIn;
 
             if (details[category][hash]) {
                 obj.companyLink = '../product-details/?category=' + category + '&id=' + hash;
@@ -344,12 +352,16 @@ async function generateContent(optIn, products, type) {
     console.log(`Generating Premium Content for ${type}`);
 
     for (const item of _.pairs(products)) {
+        const filename = path.join(__dirname, `../../marketplace/texts/${item[0]}.html`);
         if (hashes.includes(item[0])) {
-            let text = await Downloader.getTextContent(item[1]);
+            const text = await Downloader.getTextContent(item[1]);
 
-            const filename = path.join(__dirname, `../../marketplace/texts/${item[0]}.html`);
             fs.writeFile(filename, text, function (err) {
                 if (err) return console.log(err);
+            });
+        } else {
+            fs.rmSync(filename, {
+                force: true,
             });
         }
     }
@@ -464,7 +476,7 @@ function parse(detailsFile, summaryFile) {
                 .then((summaryInfo) => {
                     return GEN_CONTENT
                         ? generateContent(
-                              _.where(summaryInfo.powered, { fiwareMember: true }),
+                              _.where(summaryInfo.powered, { optIn: true }),
                               allProducts.powered,
                               'products'
                           ).then(() => {
@@ -475,7 +487,7 @@ function parse(detailsFile, summaryFile) {
                 .then((summaryInfo) => {
                     return GEN_CONTENT
                         ? generateContent(
-                              _.where(summaryInfo.ready, { fiwareMember: true }),
+                              _.where(summaryInfo.ready, { optIn: true }),
                               allProducts.ready,
                               'devices'
                           ).then(() => {
@@ -486,7 +498,7 @@ function parse(detailsFile, summaryFile) {
                 .then((summaryInfo) => {
                     return GEN_CONTENT
                         ? generateContent(
-                              _.where(summaryInfo.services, { fiwareMember: true }),
+                              _.where(summaryInfo.services, { optIn: true }),
                               allProducts.services,
                               'services'
                           ).then(() => {
@@ -497,7 +509,7 @@ function parse(detailsFile, summaryFile) {
                 .then((summaryInfo) => {
                     return GEN_CONTENT
                         ? generateContent(
-                              _.where(summaryInfo.cities, { fiwareMember: true }),
+                              _.where(summaryInfo.cities, { optIn: true }),
                               allProducts.cities,
                               'cities'
                           ).then(() => {
