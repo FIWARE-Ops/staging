@@ -6,7 +6,7 @@
 			<video:video>
 				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/dataspaces-series.png</video:thumbnail_loc>
 				<video:title>FIWARE Data Space Technologies - Reference Use Case</video:title>
-				<video:description></video:description>
+				<video:description>Identifying the roles of the participants within a data space can be difficult, as participants can frequently undertake more than one role.</video:description>
 				<video:player_loc>https://www.youtube.com/watch?v=3fLisTubkF0</video:player_loc>
 				<video:family_friendly>yes</video:family_friendly>
 				<video:live>no</video:live>
@@ -18,7 +18,7 @@
 			<video:video>
 				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/dataspaces-series.png</video:thumbnail_loc>
 				<video:title>FIWARE Data Space Technologies - Ongoing and Future Work</video:title>
-				<video:description></video:description>
+				<video:description>In this session of the webinar series on FIWARE Data Space Technologies, the presenters will discuss ongoing and future work related to the FIWARE Data Space connector and associated technologies.</video:description>
 				<video:player_loc>https://www.youtube.com/watch?v=bZAzOHIdSr8</video:player_loc>
 				<video:family_friendly>yes</video:family_friendly>
 				<video:live>no</video:live>

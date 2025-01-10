@@ -10,7 +10,7 @@
 
 <meta name="description" content="ROS-Side Perspective (Introduction to FIROS 0.">
 <meta name="keywords" content="Robots and Machine Interfaces: Building Interfaces to ROS Systems,Developers,Robotics">
-<meta http-equiv="refresh" content="1; url=https://www.youtube.com/watch?v=a0NxSS96YzY" />
+<!--meta http-equiv="refresh" content="1; url=https://www.youtube.com/watch?v=a0NxSS96YzY" /-->
 
 <!-- Open Graph Tags -->
 <meta property="og:locale" content="en_US">
@@ -72,17 +72,66 @@
   gtag('config', 'G-7CR5VQQLYP');
 </script>
 <style>
-body {
-  display: none;
+@import url('https://fonts.googleapis.com/css?family=Montserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&ver=4.9.6#038;subset=latin,latin-ext');
+
+.heading {
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    color: #5DC0CF !important;
+    line-height: 1.3em;
+    text-align: left;
 }
+
+p {
+    
+    font-weight: 500;
+    line-height: 1.6em;
+
+}
+body {
+  background-color: rgb(0, 36, 82);
+  color: #FFFFFF;
+  font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.youtube-video-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.youtube-video-container::after {
+  display: block;
+  content: "";
+  padding-top: 56.25%;
+}
+
+.youtube-video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
 </style>
 </head>
 <body>
-	<h1>FIWARE Webinars: Robots and Machine Interfaces: Building Interfaces to ROS Systems - Developers (Robotics)</h1>
+	<h1 class="heading">FIWARE Webinars: Robots and Machine Interfaces: Building Interfaces to ROS Systems - Developers (Robotics)</h1>
+  
+  <div class="youtube-video-container">
+    <iframe height="720" width="1280" 
+              src="https://www.youtube.com/embed/a0NxSS96YzY"> 
+    </iframe>
+  </div>
   <p>
    ROS-Side Perspective (Introduction to FIROS 0.
   </p>
-  <ul> <li>ROS-Side Perspective (Introduction to FIROS 0.2.0)<ul> <li>Basic ROS Concepts</li> <li>FIROS Configuration</li> <li>ROS-NGSI mapping</li> <li>How to build the Interface</li></ul></li> <li>FIWARE-Side Perspective (Context Data Management in Robotics)<ul> <li>Simple Example: AMR in a Warehouse</li></ul></li> </ul> <p>This webinar will present how to develop FIWARE NGSI Interfaces for ROS-based robots.</p>
-  <img src="https://www.fiware.org/wp-content/directories/webinars/images/robots-and-machine-interface.png"/>
+  <ul> <li>ROS-Side Perspective (Introduction to FIROS 0.2.0)<ul> <li>Basic ROS Concepts</li> <li>FIROS Configuration</li> <li>ROS-NGSI mapping</li> <li>How to build the Interface</li></ul></li> <li>FIWARE-Side Perspective (Context Data Management in Robotics)<ul> <li>Simple Example: AMR in a Warehouse</li></ul></li> </ul> <p>This webinar will present how to develop FIWARE NGSI Interfaces for ROS-based robots.</p> 
 </body>
 </html>

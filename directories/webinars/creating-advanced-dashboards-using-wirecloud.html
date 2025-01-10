@@ -10,7 +10,7 @@
 
 <meta name="description" content="Wirecloud is a web mashup tool designed to ease the development of operational dashboards.">
 <meta name="keywords" content="Creating Advanced Dashboards Using Wirecloud,Developers,Visualisation">
-<meta http-equiv="refresh" content="1; url=https://www.youtube.com/watch?v=LkGpx6BKbRM" />
+<!--meta http-equiv="refresh" content="1; url=https://www.youtube.com/watch?v=LkGpx6BKbRM" /-->
 
 <!-- Open Graph Tags -->
 <meta property="og:locale" content="en_US">
@@ -72,17 +72,66 @@
   gtag('config', 'G-7CR5VQQLYP');
 </script>
 <style>
-body {
-  display: none;
+@import url('https://fonts.googleapis.com/css?family=Montserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&ver=4.9.6#038;subset=latin,latin-ext');
+
+.heading {
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    color: #5DC0CF !important;
+    line-height: 1.3em;
+    text-align: left;
 }
+
+p {
+    
+    font-weight: 500;
+    line-height: 1.6em;
+
+}
+body {
+  background-color: rgb(0, 36, 82);
+  color: #FFFFFF;
+  font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.youtube-video-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.youtube-video-container::after {
+  display: block;
+  content: "";
+  padding-top: 56.25%;
+}
+
+.youtube-video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
 </style>
 </head>
 <body>
-	<h1>FIWARE Webinars: Creating Advanced Dashboards Using Wirecloud - Developers (Visualisation)</h1>
+	<h1 class="heading">FIWARE Webinars: Creating Advanced Dashboards Using Wirecloud - Developers (Visualisation)</h1>
+  
+  <div class="youtube-video-container">
+    <iframe height="720" width="1280" 
+              src="https://www.youtube.com/embed/LkGpx6BKbRM"> 
+    </iframe>
+  </div>
   <p>
    Wirecloud is a web mashup tool designed to ease the development of operational dashboards.
   </p>
-  <p>Wirecloud is a web mashup tool designed to ease the development of operational dashboards. This allows end users to easily create web applications and dashboards without programming skills and to visualize data of interest and control their environment.</p> <p>Web application mashups integrate heterogeneous data, application logic, and UI components (widgets) sourced from the Web to create new coherent and value-adding composite applications. This webinar demonstrates how to create flexible dashboards loading real-time context data and modify the representation of the data to gain insight and fit the needs of your organization.</p>
-  <img src="https://www.fiware.org/wp-content/directories/webinars/images/dashboards-with-wirecloud.png"/>
+  <p>Wirecloud is a web mashup tool designed to ease the development of operational dashboards. This allows end users to easily create web applications and dashboards without programming skills and to visualize data of interest and control their environment.</p> <p>Web application mashups integrate heterogeneous data, application logic, and UI components (widgets) sourced from the Web to create new coherent and value-adding composite applications. This webinar demonstrates how to create flexible dashboards loading real-time context data and modify the representation of the data to gain insight and fit the needs of your organization.</p> 
 </body>
 </html>

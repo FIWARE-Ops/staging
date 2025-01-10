@@ -10,7 +10,7 @@
 
 <meta name="description" content="The NGSI-v2 data format has a proven track record of providing interoperability within individual Smart systems, linking together web services and IoT devices via a well-defined neutral interface to maximise architectural flexibility between components and eliminate vendor lock-in.">
 <meta name="keywords" content="Creating Combined NGSI-v2/NGSI-LD Data Spaces,Developers,Core Context">
-<meta http-equiv="refresh" content="1; url=https://www.youtube.com/watch?v=PjuYn8Lj-Xc" />
+<!--meta http-equiv="refresh" content="1; url=https://www.youtube.com/watch?v=PjuYn8Lj-Xc" /-->
 
 <!-- Open Graph Tags -->
 <meta property="og:locale" content="en_US">
@@ -72,17 +72,66 @@
   gtag('config', 'G-7CR5VQQLYP');
 </script>
 <style>
-body {
-  display: none;
+@import url('https://fonts.googleapis.com/css?family=Montserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&ver=4.9.6#038;subset=latin,latin-ext');
+
+.heading {
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    color: #5DC0CF !important;
+    line-height: 1.3em;
+    text-align: left;
 }
+
+p {
+    
+    font-weight: 500;
+    line-height: 1.6em;
+
+}
+body {
+  background-color: rgb(0, 36, 82);
+  color: #FFFFFF;
+  font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.youtube-video-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.youtube-video-container::after {
+  display: block;
+  content: "";
+  padding-top: 56.25%;
+}
+
+.youtube-video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
 </style>
 </head>
 <body>
-	<h1>FIWARE Webinars: Creating Combined NGSI-v2/NGSI-LD Data Spaces - Developers (Core Context)</h1>
+	<h1 class="heading">FIWARE Webinars: Creating Combined NGSI-v2/NGSI-LD Data Spaces - Developers (Core Context)</h1>
+  
+  <div class="youtube-video-container">
+    <iframe height="720" width="1280" 
+              src="https://www.youtube.com/embed/PjuYn8Lj-Xc"> 
+    </iframe>
+  </div>
   <p>
    The NGSI-v2 data format has a proven track record of providing interoperability within individual Smart systems, linking together web services and IoT devices via a well-defined neutral interface to maximise architectural flexibility between components and eliminate vendor lock-in.
   </p>
-  <p>The NGSI-v2 data format has a proven track record of providing interoperability within individual Smart systems, linking together web services and IoT devices via a well-defined neutral interface to maximise architectural flexibility between components and eliminate vendor lock-in. However for broader data spaces, the linked data aspects of NGSI-LD are required to ensure that no participant within a data space is limited within their own internal systems, and can continue to create and use their own preferred data structures and terminology.</p> <p>Learn how context brokers are able to seamlessly combine the NGSI-v2 and NGSI-LD formats successfully, and leverage the advantages of both linked-data and non linked-data systems within their own domain and how to structure your NGSI-v2 data according to best practice future-proofing your ability to create and collaborate with open data spaces as they develop.</p>
-  <img src="https://www.fiware.org/wp-content/directories/webinars/images/combined-nsgi-v2-ngsi-ld.png"/>
+  <p>The NGSI-v2 data format has a proven track record of providing interoperability within individual Smart systems, linking together web services and IoT devices via a well-defined neutral interface to maximise architectural flexibility between components and eliminate vendor lock-in. However for broader data spaces, the linked data aspects of NGSI-LD are required to ensure that no participant within a data space is limited within their own internal systems, and can continue to create and use their own preferred data structures and terminology.</p> <p>Learn how context brokers are able to seamlessly combine the NGSI-v2 and NGSI-LD formats successfully, and leverage the advantages of both linked-data and non linked-data systems within their own domain and how to structure your NGSI-v2 data according to best practice future-proofing your ability to create and collaborate with open data spaces as they develop.</p> 
 </body>
 </html>

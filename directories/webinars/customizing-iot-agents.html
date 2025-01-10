@@ -10,7 +10,7 @@
 
 <meta name="description" content="Overview of Existing IoT AgentsPayloads, Transports and Protocols   Code walkthroughsCustomizing the IoT Agent for Ultralight to accept XML payloads IoT Agent Plugin adaptions - IoT Agent for ADAPT/ISOXML File-based Device Measure Upserts (CSV, Excel)  Many common payloads and protocols are already supported by IoT Agents.">
 <meta name="keywords" content="Customizing IoT Agents,Developers,IoT Agents">
-<meta http-equiv="refresh" content="1; url=https://www.youtube.com/watch?v=HuEwI8wJKFU" />
+<!--meta http-equiv="refresh" content="1; url=https://www.youtube.com/watch?v=HuEwI8wJKFU" /-->
 
 <!-- Open Graph Tags -->
 <meta property="og:locale" content="en_US">
@@ -72,17 +72,66 @@
   gtag('config', 'G-7CR5VQQLYP');
 </script>
 <style>
-body {
-  display: none;
+@import url('https://fonts.googleapis.com/css?family=Montserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&ver=4.9.6#038;subset=latin,latin-ext');
+
+.heading {
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    color: #5DC0CF !important;
+    line-height: 1.3em;
+    text-align: left;
 }
+
+p {
+    
+    font-weight: 500;
+    line-height: 1.6em;
+
+}
+body {
+  background-color: rgb(0, 36, 82);
+  color: #FFFFFF;
+  font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.youtube-video-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.youtube-video-container::after {
+  display: block;
+  content: "";
+  padding-top: 56.25%;
+}
+
+.youtube-video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
 </style>
 </head>
 <body>
-	<h1>FIWARE Webinars: Customizing IoT Agents - Developers (IoT Agents)</h1>
+	<h1 class="heading">FIWARE Webinars: Customizing IoT Agents - Developers (IoT Agents)</h1>
+  
+  <div class="youtube-video-container">
+    <iframe height="720" width="1280" 
+              src="https://www.youtube.com/embed/HuEwI8wJKFU"> 
+    </iframe>
+  </div>
   <p>
    Overview of Existing IoT AgentsPayloads, Transports and Protocols   Code walkthroughsCustomizing the IoT Agent for Ultralight to accept XML payloads IoT Agent Plugin adaptions - IoT Agent for ADAPT/ISOXML File-based Device Measure Upserts (CSV, Excel)  Many common payloads and protocols are already supported by IoT Agents.
   </p>
-  <ul> <li>Overview of Existing IoT Agents<ul> <li>Payloads, Transports and Protocols</li></ul></li> <li>Code walkthroughs<ul> <li>Customizing the IoT Agent for Ultralight to accept XML payloads</li> <li>IoT Agent Plugin adaptions - IoT Agent for ADAPT/ISOXML</li> <li>File-based Device Measure Upserts (CSV, Excel)</li></ul></li> </ul> <p>Many common payloads and protocols are already supported by IoT Agents. However, sometimes this is not enough and it is necessary to create your own IoT Agent or customize an existing IoT Agent. This webinar discusses various strategies on how to do this focusing on real-life use-cases from farming and water management.</p>
-  <img src="https://www.fiware.org/wp-content/directories/webinars/images/custom-iot-agents.png"/>
+  <ul> <li>Overview of Existing IoT Agents<ul> <li>Payloads, Transports and Protocols</li></ul></li> <li>Code walkthroughs<ul> <li>Customizing the IoT Agent for Ultralight to accept XML payloads</li> <li>IoT Agent Plugin adaptions - IoT Agent for ADAPT/ISOXML</li> <li>File-based Device Measure Upserts (CSV, Excel)</li></ul></li> </ul> <p>Many common payloads and protocols are already supported by IoT Agents. However, sometimes this is not enough and it is necessary to create your own IoT Agent or customize an existing IoT Agent. This webinar discusses various strategies on how to do this focusing on real-life use-cases from farming and water management.</p> 
 </body>
 </html>

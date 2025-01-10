@@ -10,7 +10,7 @@
 
 <meta name="description" content="Registration of external context sources is a fundamental principle behind the correct use of context brokers.">
 <meta name="keywords" content="Actuation, Federation and interoperability of context brokers,Developers,Core Context">
-<meta http-equiv="refresh" content="1; url=https://www.youtube.com/watch?v=ebk14k5dNxo" />
+<!--meta http-equiv="refresh" content="1; url=https://www.youtube.com/watch?v=ebk14k5dNxo" /-->
 
 <!-- Open Graph Tags -->
 <meta property="og:locale" content="en_US">
@@ -72,17 +72,66 @@
   gtag('config', 'G-7CR5VQQLYP');
 </script>
 <style>
-body {
-  display: none;
+@import url('https://fonts.googleapis.com/css?family=Montserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&ver=4.9.6#038;subset=latin,latin-ext');
+
+.heading {
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    color: #5DC0CF !important;
+    line-height: 1.3em;
+    text-align: left;
 }
+
+p {
+    
+    font-weight: 500;
+    line-height: 1.6em;
+
+}
+body {
+  background-color: rgb(0, 36, 82);
+  color: #FFFFFF;
+  font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.youtube-video-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.youtube-video-container::after {
+  display: block;
+  content: "";
+  padding-top: 56.25%;
+}
+
+.youtube-video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
 </style>
 </head>
 <body>
-	<h1>FIWARE Webinars: Actuation, Federation and interoperability of context brokers - Developers (Core Context)</h1>
+	<h1 class="heading">FIWARE Webinars: Actuation, Federation and interoperability of context brokers - Developers (Core Context)</h1>
+  
+  <div class="youtube-video-container">
+    <iframe height="720" width="1280" 
+              src="https://www.youtube.com/embed/ebk14k5dNxo"> 
+    </iframe>
+  </div>
   <p>
    Registration of external context sources is a fundamental principle behind the correct use of context brokers.
   </p>
-  <p>Registration of external context sources is a fundamental principle behind the correct use of context brokers. The use of NGSI-LD expands into multiple different areas ranging from robotics to IoT to distributed data spaces. The 1.6.1 ETSI Specification has introduced new modes of registration and clarified best practices to be used across interoperable systems.</p> <p>Learn more about recent changes around the federation of context brokers and  the connection of context brokers with other sources of context such as IoT Agents.  Understand the correct use of datasetId for multi-attribute properties and the preferred definition of sequential actuations.</p>
-  <img src="https://www.fiware.org/wp-content/directories/webinars/images/context-broker-interoperability.png"/>
+  <p>Registration of external context sources is a fundamental principle behind the correct use of context brokers. The use of NGSI-LD expands into multiple different areas ranging from robotics to IoT to distributed data spaces. The 1.6.1 ETSI Specification has introduced new modes of registration and clarified best practices to be used across interoperable systems.</p> <p>Learn more about recent changes around the federation of context brokers and  the connection of context brokers with other sources of context such as IoT Agents.  Understand the correct use of datasetId for multi-attribute properties and the preferred definition of sequential actuations.</p> 
 </body>
 </html>

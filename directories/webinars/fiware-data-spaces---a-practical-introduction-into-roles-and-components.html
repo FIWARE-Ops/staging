@@ -10,7 +10,7 @@
 
 <meta name="description" content="Data Spaces are becoming the key to achieve interoperable and trustworthy data sharing between organizations and users.">
 <meta name="keywords" content="FIWARE Data Spaces – A Practical Introduction Into Roles and Components,Developers,Security">
-<meta http-equiv="refresh" content="1; url=https://www.youtube.com/watch?v=hm5qMlhpK0g" />
+<!--meta http-equiv="refresh" content="1; url=https://www.youtube.com/watch?v=hm5qMlhpK0g" /-->
 
 <!-- Open Graph Tags -->
 <meta property="og:locale" content="en_US">
@@ -72,17 +72,66 @@
   gtag('config', 'G-7CR5VQQLYP');
 </script>
 <style>
-body {
-  display: none;
+@import url('https://fonts.googleapis.com/css?family=Montserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&ver=4.9.6#038;subset=latin,latin-ext');
+
+.heading {
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    color: #5DC0CF !important;
+    line-height: 1.3em;
+    text-align: left;
 }
+
+p {
+    
+    font-weight: 500;
+    line-height: 1.6em;
+
+}
+body {
+  background-color: rgb(0, 36, 82);
+  color: #FFFFFF;
+  font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.youtube-video-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.youtube-video-container::after {
+  display: block;
+  content: "";
+  padding-top: 56.25%;
+}
+
+.youtube-video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
 </style>
 </head>
 <body>
-	<h1>FIWARE Webinars: FIWARE Data Spaces – A Practical Introduction Into Roles and Components - Developers (Security)</h1>
+	<h1 class="heading">FIWARE Webinars: FIWARE Data Spaces – A Practical Introduction Into Roles and Components - Developers (Security)</h1>
+  
+  <div class="youtube-video-container">
+    <iframe height="720" width="1280" 
+              src="https://www.youtube.com/embed/hm5qMlhpK0g"> 
+    </iframe>
+  </div>
   <p>
    Data Spaces are becoming the key to achieve interoperable and trustworthy data sharing between organizations and users.
   </p>
-  <p>Data Spaces are becoming the key to achieve interoperable and trustworthy data sharing between organizations and users. In order to build such Data Space, a proper understanding of the roles and responsibilities that participants have, is required.</p> <p>This webinar will give an introduction into the fundamentals of a Data Space, built with the FIWARE Data Space Connector. It will explain the differences between participating organizations in the example of a running Data Space and the required operations and framework behind the Data Space itself. Besides that, we will take a deeper look into the concrete participant and the components it uses to fullfil its various responsibilities, like authentication, authorization or data-flow control.</p> <p>After the webinar, every participant should be able to locally install a Minimal Data Space and have an understanding of the essential building blocks used for it.</p>
-  <img src="https://www.fiware.org/wp-content/directories/webinars/images/fiware-data-space-introduction.png"/>
+  <p>Data Spaces are becoming the key to achieve interoperable and trustworthy data sharing between organizations and users. In order to build such Data Space, a proper understanding of the roles and responsibilities that participants have, is required.</p> <p>This webinar will give an introduction into the fundamentals of a Data Space, built with the FIWARE Data Space Connector. It will explain the differences between participating organizations in the example of a running Data Space and the required operations and framework behind the Data Space itself. Besides that, we will take a deeper look into the concrete participant and the components it uses to fullfil its various responsibilities, like authentication, authorization or data-flow control.</p> <p>After the webinar, every participant should be able to locally install a Minimal Data Space and have an understanding of the essential building blocks used for it.</p> 
 </body>
 </html>
