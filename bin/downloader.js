@@ -139,10 +139,14 @@ async function checkAssets(items, image = 'img', base = 'image') {
 }
 
 const PROMPT =
-    'Generate a 300 word summary of use cases for this product. Provide the output in HTML format. Do not include the HTML, doctype, header tags. Please generate only the body text.';
+    'Generate a 500 word summary of use cases for this product. Provide the output in HTML format. Do not include the HTML, doctype, header tags. Please generate only the body text.';
 function getTextContent(item) {
     const url = 'https://mlapi.qualetics.com/api/datamachine/init?id=6751b18658f9465ff86d2eef';
-    const payload = { input: item.description, prompt: PROMPT };
+    const input = `<p>${item.excerpt}.</p> ${item.description}`;
+
+    console.log(input)
+
+    const payload = { input, prompt: PROMPT };
     return fetch(
         url,
         {
