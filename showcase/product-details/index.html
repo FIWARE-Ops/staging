@@ -1626,6 +1626,91 @@ var et_pb_sticky_elements = {"et_pb_section_0_tb_header":{"id":"et_pb_section_0_
 /* ]]> */
 </script>
 <script type="text/javascript" src="https://www.fiware.org/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/sticky-elements.js?ver=4.27.2" id="et-builder-modules-script-sticky-js"></script>
+
+
+<!-- GeoIP -->
+<script>
+async function getRandomCoordinates() {
+  return new Promise((resolve) => {
+      // Simulate an asynchronous operation with a timeout
+      setTimeout(() => {
+      // Define the bounding boxes for New York, Berlin, and Tokyo
+      const locations = {
+        newYork: {
+          latMin: 40.477399,
+          latMax: 40.917577,
+          lngMin: -74.25909,
+          lngMax: -73.700272,
+        },
+        berlin: {
+          latMin: 52.338261,
+          latMax: 52.675454,
+          lngMin: 13.088346,
+          lngMax: 13.761117,
+        },
+        tokyo: {
+          latMin: 35.528984,
+          latMax: 35.898524,
+          lngMin: 139.562914,
+          lngMax: 139.927754,
+        },
+      };
+
+      // Randomly select one of the cities
+      const cities = Object.keys(locations);
+      const selectedCity = cities[Math.floor(Math.random() * cities.length)];
+      const bounds = locations[selectedCity];
+
+      // Generate random latitude and longitude within the selected city's bounding box
+      const randomLat = Math.random() * (bounds.latMax - bounds.latMin) + bounds.latMin;
+      const randomLng = Math.random() * (bounds.lngMax - bounds.lngMin) + bounds.lngMin;
+
+      const location = {
+                    latitude: randomLat,
+                    longitude: randomLng,
+                        };
+      // Resolve the promise with the result
+      resolve(location);
+    }, 500); // Simulated delay (500ms)
+  });
+}
+
+// Example usage with async/await
+async function fetchLocation() {
+    try {
+        //window.geoLocation = await getGeoLocation();
+        window.geoLocation = await getRandomCoordinates();
+        // Do something with the location here (e.g., display it on the UI)
+    } catch (error) {
+        window.geoLocation = {
+                    latitude: null,
+                    longitude: null,
+                    };
+        console.error("Failed to retrieve location:", error);
+    }
+}
+// Call the function to fetch the location
+fetchLocation();
+</script>
+
+<!-- Qualetics -->
+<script src="https://sdk.qualetics.com/qualetics-js-sdk-v3.js"></script>
+<script>
+try {
+    PAGEVIEW_TRACKING = true;
+    OPTIONS = {
+              host: "wss://api.qualetics.com",
+              port: 443,
+              trackUserGeoLocation: false
+              };
+    var qualetics_showcase = new Qualetics.service("stagingshowcase", "TvebnoeTX8Qa", "QpnumF", PAGEVIEW_TRACKING, OPTIONS);  
+    qualetics_showcase.init()
+} catch (error) {
+    console.error("Qualetics initialization failed:", error);
+}
+</script>
+
+
 <style id='tribe-common-full-style-inline-css' class='tec-customizer-inline-style' type='text/css'>
 :root {
 				/* Customizer-added Global Event styles */

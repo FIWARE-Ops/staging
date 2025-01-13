@@ -357,9 +357,9 @@ function buildTracker(
     },
   };
 
-  if (this.qualetics) {
+  if (this.qualetics_showcase) {
     console.log("Sending:", action, eventObj, geoLocation);
-    this.qualetics.send(eventObj);
+    this.qualetics_showcase.send(eventObj);
   } else {
     console.log("no qualetics", action, eventObj, geoLocation);
   }

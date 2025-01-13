@@ -307,3 +307,80 @@ function initialiseStyleBackgroundIntersectionObserver() {
     lazyBackgrounds.forEach(setBackground);
   }
 }
+
+function buildTracker(
+  action,
+  context,
+  type,
+  product,
+  company,
+  excerpt,
+  url,
+  geoLocation,
+) {
+  const eventObj = {
+    actor: {
+      type: "User",
+      id: "System",
+      attributes: { name: "John Doe", "geoLocation": geoLocation},
+    },
+    action: {
+      type: "action",
+      name: action,
+      attributes: { referrer: "Facebook", coupon: "KIHSK123FS" },
+    },
+    context,
+    object: {
+      type,
+      name: company,
+      attributes: {
+        url,
+        "company name": company,
+        description: excerpt,
+        indexforsearch: true,
+      },
+    },
+  };
+
+  if (this.qualetics_showcase) {
+    console.log("Sending:", action, eventObj, geoLocation);
+    this.qualetics_showcase.send(eventObj);
+  } else {
+    console.log("no qualetics", action, eventObj, geoLocation);
+  }
+}
+
+function cardTracking() {
+  $(document).ready(function () {
+    const product = "test product";
+    const path = "test path";
+    const company = "test company";
+    const description = "test description";
+    const url = "test url";
+
+    const context = {
+      type: "Showcase",
+      name: "View Showcase Solution",
+      attributes: {
+        url,
+        "company name": company,
+      },
+    };
+
+    const waitForVariable = setInterval(function () {
+      if (typeof window.geoLocation !== "undefined") {
+        clearInterval(waitForVariable); // Stop checking
+        buildTracker(
+          "View Showcase Solution",
+          context,
+          $(this).data("type"),
+          product,
+          company,
+          description,
+          url,
+          window.geoLocation,
+        );
+      }
+    }, 100); // Check every 100 milliseconds
+  });
+}
