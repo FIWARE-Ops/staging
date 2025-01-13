@@ -7,6 +7,7 @@ css/
 fonts/
 images/
 welcome/
+members/
 !images/.gitkeep
 secrets
 .eslintcache
