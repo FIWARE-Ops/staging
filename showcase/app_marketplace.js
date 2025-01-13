@@ -337,7 +337,7 @@ function buildTracker(
     actor: {
       type: "User",
       id: "System",
-      attributes: { name: "John Doe", geoLocation },
+      attributes: { name: "John Doe", "geoLocation": geoLocation},
     },
     action: {
       type: "action",
@@ -358,10 +358,10 @@ function buildTracker(
   };
 
   if (this.qualetics) {
-    console.log(action, "SENDING TO QUALETICS", geoLocation);
+    console.log("Sending:", action, eventObj, geoLocation);
     this.qualetics.send(eventObj);
   } else {
-    console.log(action, eventObj, geoLocation);
+    console.log("no qualetics", action, eventObj, geoLocation);
   }
 }
 
