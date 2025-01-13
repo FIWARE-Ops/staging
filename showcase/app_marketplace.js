@@ -366,10 +366,10 @@ function buildTracker(
 }
 
 // "click"
-
+// "mouseenter"
 // Card tracking
 function cardTracking() {
-  $(document).on("mouseenter", "a.details", function (ev) {
+  $(document).on("click", "a.details", function (ev) {
     const product = $(this).parent().parent().find(".solution-name").text();
     const path = window.location.pathname.replace("/showcase", "");
     const company = $(this).parent().parent().find(".name").text();
