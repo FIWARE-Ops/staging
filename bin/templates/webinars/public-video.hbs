@@ -10,14 +10,14 @@
 
 <meta name="description" content="{{excerpt}}">
 <meta name="keywords" content="{{name}},{{domain}},{{type}}">
-<!--meta http-equiv="refresh" content="1; url={{{companyLink}}}" /-->
+<!--meta http-equiv="refresh" content="1; url={{{video}}}" /-->
 
 <!-- Open Graph Tags -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="FIWARE Webinars: {{name}} - {{domain}} ({{type}})">
 <meta property="og:description" content="{{excerpt}}">
-<meta property="og:url" content="{{{companyLink}}}">
+<meta property="og:url" content="{{{video}}}">
 <meta property="og:site_name" content="FIWARE">
 <meta property="og:image" content="{{img}}">
 <meta property="og:image:secure_url" content="{{img}}">
@@ -48,11 +48,11 @@
   	"@type": "Organization",
   	"name": "FIWARE Foundation"
   },
-  "contentUrl": "{{{companyLink}}}",
-  "embedUrl": "{{embed companyLink}}",
+  "contentUrl": "{{{video}}}",
+  "embedUrl": "{{embed video}}",
   "duration": "T{{length}}M0S",
   "encodingFormat": "video/mpeg",
-  "url": "{{{companyLink}}}",
+  "url": "{{{video}}}",
   "width": "1280",
   "height": "720",
   "isFamilyFriendly": "True",
@@ -205,6 +205,32 @@ footer p {
 }
 
 
+.callout {
+    color: white;
+    background-color: #002E67;
+    border-radius: 4px 4px 4px 4px;
+    overflow: hidden;
+    border-color: RGBA(255,255,255,0);
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    transition: background-color 300ms ease 0ms,background-image 300ms ease 0ms;
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.callout a {
+  color: white;
+}
+
+.callout h4 {
+  margin: 0px;
+}
+
+
+
 @media screen and (min-device-width: 481px) and (max-device-width: 980px) {
 
   footer p {
@@ -263,13 +289,27 @@ footer p {
   <div class="main-content">
     <div class="video-section">
       <div class="youtube-video-container">
+        {{#if (eq preview '')}}
         <iframe height="720" width="1280" 
-            src="{{embed companyLink}}"
+            src="{{embed video}}"
             frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> 
         </iframe>
+        {{else}}
+         <iframe height="720" width="1280" 
+            src="{{embed preview}}"
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> 
+        </iframe>
+        {{/if}}
       </div>
     </div>
     <div class="text-section">
+        {{#if (ne preview '')}}
+        <div class="callout">
+          <h4>Preview</h4>
+          <p>The full video is currently only available to FIWARE members</p>
+          <a href="https://members.fiware.org/webinars/{{createClass name}}.html">Log In</a>
+        </div>
+        {{/if}}
         <h4 class="description">Description</h4>
         {{{content}}}
     </div>

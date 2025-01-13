@@ -1,0 +1,39 @@
+var types = [
+{{#each types}}
+    {{#if (ne this '')}}
+        '{{this}}',
+    {{/if}}
+{{/each}}
+]; var domains = [
+{{#each domains}}
+    {{#if (ne this '')}}
+        '{{this}}',
+    {{/if}}
+{{/each}}
+]; var technologies = [
+{{#each technologies}}
+    {{#if (ne this '')}}
+        '{{this}}',
+    {{/if}}
+{{/each}}
+];
+
+ var modalData = [
+{{#each webinars}}
+    { 
+        name: "{{name}}", 
+        img: "{{img}}",
+        type: "{{type}}", 
+        badge: "{{{badge}}}",
+        chapter: "{{{chapter}}}", 
+        difficulty: {{difficulty}},
+        video: "https://members.fiware.org/webinars/{{{createClass name}}}.html",
+        content: "{{content}}",  
+        domain: "{{domain}}",  
+        technology: "{{technology}}",
+        length: {{length}},
+        year: {{year}},
+        social: "https://www.fiware.org/webinars/{{createClass name}}.html"
+    },
+{{/each}}
+];

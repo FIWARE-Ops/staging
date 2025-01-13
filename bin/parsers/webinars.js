@@ -9,6 +9,7 @@ const Template = require('../template');
 const Downloader = require('../downloader');
 const TEMPLATE_PATH = 'bin/templates/webinars/';
 const WEBINARS_DIR = 'directories/webinars';
+const MEMBERS_WEBINARS_DIR = 'members/webinars';
 const ASSETS_DIR = 'directories/webinars/images';
 const IMAGE_SIZE = { height: 201, width: 360 };
 const DEFAULT_IMAGE = 'webinar-default.png';
@@ -30,7 +31,8 @@ function extractWebinars(input) {
             season: item.Season,
             name: item.Name,
             image: item.Image ? item.Image : DEFAULT_IMAGE,
-            companyLink: item.Video,
+            video: item.Video,
+            preview: item['Preview Video'],
             domain: Parser.splitStrings(item.Audience),
             type: item.Type,
             excerpt: getExcerpt(item),
@@ -90,20 +92,46 @@ function generateHTML(webinars) {
         const filename = Template.createClass(webinar.name);
         Template.write(
             path.join(WEBINARS_DIR, `${filename}.html`),
-            path.join(TEMPLATE_PATH, 'social-media.hbs'),
+            path.join(TEMPLATE_PATH, 'public-video.hbs'),
             webinar
         );
         Prettier.format(path.join(WEBINARS_DIR, `${filename}.html`), { parser: 'html' });
     });
-
-    Template.write(path.join(WEBINARS_DIR, 'webinars.html'), path.join(TEMPLATE_PATH, 'card.hbs'), webinars);
-    Template.write(path.join(WEBINARS_DIR, 'pageData.js'), path.join(TEMPLATE_PATH, 'modal.hbs'), filterData);
+    Template.write(path.join(WEBINARS_DIR, 'webinars.html'), path.join(TEMPLATE_PATH, 'public-card.hbs'), webinars);
+    Template.write(path.join(WEBINARS_DIR, 'pageData.js'), path.join(TEMPLATE_PATH, 'public-modal.hbs'), filterData);
     Template.write(path.join(WEBINARS_DIR, 'filters.html'), path.join(TEMPLATE_PATH, 'filter.hbs'), filterData);
 
     Prettier.format(path.join(WEBINARS_DIR, 'webinars.html'), { parser: 'html' });
     Prettier.format(path.join(WEBINARS_DIR, 'pageData.js'), { parser: 'flow' });
     Prettier.format(path.join(WEBINARS_DIR, 'filters.html'), { parser: 'html' });
     Prettier.format(path.join(WEBINARS_DIR, 'sitemap.html'), { parser: 'html' });
+    return webinars;
+}
+
+function generatePrivateHTML(webinars) {
+    const filterData = {
+        types: Sorter.sortData(webinars, 'type'),
+        technologies: Sorter.flatSortData(webinars, 'technology'),
+        domains: Sorter.flatSortData(webinars, 'domain'),
+        webinars
+    };
+    webinars.forEach((webinar) => {
+        const filename = Template.createClass(webinar.name);
+        Template.write(
+            path.join(MEMBERS_WEBINARS_DIR, `${filename}.html`),
+            path.join(TEMPLATE_PATH, 'private-video.hbs'),
+            webinar
+        );
+        Prettier.format(path.join(MEMBERS_WEBINARS_DIR, `${filename}.html`), { parser: 'html' });
+    });
+    Template.write(path.join(MEMBERS_WEBINARS_DIR, 'webinars.html'), path.join(TEMPLATE_PATH, 'private-card.hbs'), webinars);
+    Template.write(path.join(MEMBERS_WEBINARS_DIR, 'pageData.js'), path.join(TEMPLATE_PATH, 'private-modal.hbs'), filterData);
+    Template.write(path.join(MEMBERS_WEBINARS_DIR, 'filters.html'), path.join(TEMPLATE_PATH, 'filter.hbs'), filterData);
+
+    Prettier.format(path.join(MEMBERS_WEBINARS_DIR, 'webinars.html'), { parser: 'html' });
+    Prettier.format(path.join(MEMBERS_WEBINARS_DIR, 'pageData.js'), { parser: 'flow' });
+    Prettier.format(path.join(MEMBERS_WEBINARS_DIR, 'filters.html'), { parser: 'html' });
+    Prettier.format(path.join(MEMBERS_WEBINARS_DIR, 'sitemap.html'), { parser: 'html' });
     return webinars;
 }
 
@@ -119,6 +147,9 @@ function parse(file) {
         })
         .then((webinars) => {
             return generateHTML(webinars);
+        })
+        .then((webinars) => {
+            return generatePrivateHTML(webinars);
         })
         .then((webinars) => {
             uploadImages(webinars).then(() => {

@@ -1,0 +1,56 @@
+{{#each this}}
+    <div id="item-{{@index}}" class='grid-item {{createClass type}} {{createClasses domain}} {{createClasses technology}}'>
+        <div class="gridElementLogoContainer">
+            <picture>
+               <source srcset="{{webp img}}" type="image/webp"/>
+               <img class="gridElementLogo" src="{{img}}" loading="lazy"/>
+            </picture>
+        </div>
+        <div class='gridElementTextContainer'>
+            <div class='label-type'>
+                {{{badge}}}
+            </div>
+            <p class='solution-name'>{{name}}</p>
+            <div class="details-container">
+                <div class='label-duration'>
+                    <span class="material-symbols-outlined">schedule</span>
+                    <span class='name'>{{length}} mins</span>
+                </div>
+                <div class='label-difficulty'>
+                    <span class='difficulty hidden'>{{difficulty}}</span>
+                    <span class="star">{{rating difficulty}}</span>
+                </div>
+                <div>
+                    <span class='season hidden'>{{season}}</span>
+                </div>
+            </div>
+        </div>
+        <div class='gridElementTechnologyDomain {{#if (eq technology.length 0)}}hidden{{/if}}'>
+            <div class='chip-technology-domain'>
+                {{#if (gt technology.length 0)}}
+                <div class='chip-technology'>
+                    <ul class='chips'>{{#each technology}}<li>{{this}}</li>{{/each}}</ul>
+                    <span class='chips-gradient'></span>
+                </div>
+                {{/if}}
+                {{#if (gt domain.length 0)}}
+                <div class='chip-domain hidden'>
+                    <p class='label-card'>Audience</p>
+                    <ul class='chips'>{{#each domain}}<li>{{this}}</li>{{/each}}</ul>
+                    <span class='chips-gradient'></span>
+                </div>
+                {{/if}}
+            </div>
+        </div>
+        <div class='foot'>
+            <div class='cat-info' data-modal='{{@index}}'>
+                <span class="material-symbols-outlined">info</span>
+                More Info
+            </div>
+            <a class='cat-details-primary' target="_blank" href="https://members.fiware.org/webinars/{{createClass name}}.html">
+                <span class='material-symbols-outlined'>play_arrow</span>
+                Watch
+            </a>
+        </div>
+    </div>
+{{/each}}

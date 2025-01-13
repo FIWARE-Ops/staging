@@ -3,56 +3,56 @@
 <head>
 
 <!-- W3C HTML Tags -->
-<title>FIWARE Webinars: Deploying a FIWARE Data Space Connector - Developers (Security)</title>
+<title>FIWARE Webinars: {{name}} - {{domain}} ({{type}})</title>
 <meta name="robots" content="follow, index, noarchive, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
-<link rel="canonical" href="https://www.fiware.org/webinars/deploying-a-fiware-data-space-connector.html" />
+<link rel="canonical" href="https://www.fiware.org/webinars/{{createClass name}}.html" />
 <link rel="shortcut icon" href="https://www.fiware.org/wp-content/uploads/2017/11/favicon-1.png" />
 
-<meta name="description" content="A data space connector needs to fulfill many different roles to work successfully.">
-<meta name="keywords" content="Deploying a FIWARE Data Space Connector,Developers,Security">
-<!--meta http-equiv="refresh" content="1; url=https://www.youtube.com/watch?v=5qrhUCczk8w" /-->
+<meta name="description" content="{{excerpt}}">
+<meta name="keywords" content="{{name}},{{domain}},{{type}}">
+<!--meta http-equiv="refresh" content="1; url={{{video}}}" /-->
 
 <!-- Open Graph Tags -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="video.movie">
-<meta property="og:title" content="FIWARE Webinars: Deploying a FIWARE Data Space Connector - Developers (Security)">
-<meta property="og:description" content="A data space connector needs to fulfill many different roles to work successfully.">
-<meta property="og:url" content="https://www.youtube.com/watch?v=5qrhUCczk8w">
+<meta property="og:title" content="FIWARE Webinars: {{name}} - {{domain}} ({{type}})">
+<meta property="og:description" content="{{excerpt}}">
+<meta property="og:url" content="{{{video}}}">
 <meta property="og:site_name" content="FIWARE">
-<meta property="og:image" content="https://www.fiware.org/wp-content/directories/webinars/images/dataspaces-series.png">
-<meta property="og:image:secure_url" content="https://www.fiware.org/wp-content/directories/webinars/images/dataspaces-series.png">
+<meta property="og:image" content="{{img}}">
+<meta property="og:image:secure_url" content="{{img}}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="627">
-<meta property="og:image:alt" content="Deploying a FIWARE Data Space Connector">
+<meta property="og:image:alt" content="{{name}}">
 <meta property="og:image:type" content="image/png">
 
 <!-- Twitter Tags -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="FIWARE Webinars: Deploying a FIWARE Data Space Connector - Developers (Security)">
-<meta name="twitter:description" content="A data space connector needs to fulfill many different roles to work successfully.">
+<meta name="twitter:title" content="FIWARE Webinars: {{name}} - {{domain}} ({{type}})">
+<meta name="twitter:description" content="{{excerpt}}">
 <meta name="twitter:site" content="@FIWARE">
 <meta name="twitter:creator" content="@FIWARE">
-<meta name="twitter:image" content="https://www.fiware.org/wp-content/directories/webinars/images/dataspaces-series.png">
+<meta name="twitter:image" content="{{img}}">
 <meta name="twitter:label1" content="Time to read">
-<meta name="twitter:data1" content="90 minutes">
+<meta name="twitter:data1" content="{{length}} minutes">
 
 <!-- Linked Data -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "VideoObject",
-  "name": "Deploying a FIWARE Data Space Connector",
-  "description": "A data space connector needs to fulfill many different roles to work successfully.",
-  "thumbnailUrl": "https://www.fiware.org/wp-content/directories/webinars/images/dataspaces-series.png",
+  "name": "{{name}}",
+  "description": "{{excerpt}}",
+  "thumbnailUrl": "{{img}}",
   "creator":  {
   	"@type": "Organization",
   	"name": "FIWARE Foundation"
   },
-  "contentUrl": "https://www.youtube.com/watch?v=5qrhUCczk8w",
-  "embedUrl": "https://www.youtube.com/embed/5qrhUCczk8w",
-  "duration": "T90M0S",
+  "contentUrl": "{{{video}}}",
+  "embedUrl": "{{embed video}}",
+  "duration": "T{{length}}M0S",
   "encodingFormat": "video/mpeg",
-  "url": "https://www.youtube.com/watch?v=5qrhUCczk8w",
+  "url": "{{{video}}}",
   "width": "1280",
   "height": "720",
   "isFamilyFriendly": "True",
@@ -60,7 +60,7 @@
   "isPartOf": {
     "@id": "https://www.fiware.org/community/webinars/"
   },
-  "uploadDate": "2024-01-01T10:00:00+01:00" 
+  "uploadDate": "{{year}}-01-01T10:00:00+01:00" 
 }
 </script>
 <!-- Google tag (gtag.js) -->
@@ -205,32 +205,6 @@ footer p {
 }
 
 
-.callout {
-    color: white;
-    background-color: #002E67;
-    border-radius: 4px 4px 4px 4px;
-    overflow: hidden;
-    border-color: RGBA(255,255,255,0);
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    transition: background-color 300ms ease 0ms,background-image 300ms ease 0ms;
-    display: flex;
-    flex-direction: column;
-    gap: 10px
-}
-
-.callout a {
-  color: white;
-}
-
-.callout h4 {
-  margin: 0px;
-}
-
-
-
 @media screen and (min-device-width: 481px) and (max-device-width: 980px) {
 
   footer p {
@@ -275,34 +249,34 @@ footer p {
       </a>
     </div>
     <div class="menu-item title-page">
-      <a href="https://fiware.org/webinars">Webinars</a>
+      <a href="https://members.fiware.org/webinars">Webinars</a>
     </div>
     <div class="menu-item">
     </div>
   </div>
   <div class="header-content">
     <div class="title-section">
-       <h5 class="chapter">Security</h5>
-	     <h1 class="title">Deploying a FIWARE Data Space Connector</h1>
+       <h5 class="chapter">{{type}}</h5>
+	     <h1 class="title">{{name}}</h1>
     </div>
   </div>
   <div class="main-content">
     <div class="video-section">
       <div class="youtube-video-container">
         <iframe height="720" width="1280" 
-            src="https://www.youtube.com/embed/5qrhUCczk8w"
+            src="{{embed video}}"
             frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> 
         </iframe>
       </div>
     </div>
     <div class="text-section">
         <h4 class="description">Description</h4>
-        <p>A data space connector needs to fulfill many different roles to work successfully. The FIWARE Data Space connector does this using the app-of-apps Helm chart paradigm, which allows for flexibility when deciding which underlying components to use.</p> <p>This week, Stefan Wiedemann will explain the connector’s architecture and the details of each component’s role. Furthermore, deployments will be discussed, along with a simple demonstration of the components in use.</p>
+        {{{content}}}
     </div>
   </div>
   <footer>
     <p>
-    2024 &copy; FIWARE Foundation, e.V.
+    {{year}} &copy; FIWARE Foundation, e.V.
     </p> 
   </footer> 
 </body>
