@@ -357,6 +357,7 @@ function cardTracking() {
     const company = "test company";
     const description = "test description";
     const url = "test url";
+    const type = "test type"
 
     const context = {
       type: "Showcase",
@@ -373,7 +374,7 @@ function cardTracking() {
         buildTracker(
           "View Showcase Solution",
           context,
-          $(this).data("type"),
+          type,
           product,
           company,
           description,
