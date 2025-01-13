@@ -75,13 +75,23 @@
 <style>
 @import url('https://fonts.googleapis.com/css?family=Montserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&ver=4.9.6#038;subset=latin,latin-ext');
 
-.heading {
-    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
-    font-weight: 600;
-    font-size: 36px;
+.chapter {
+    font-weight: 800;
+    font-size: 20px;
     color: #5DC0CF !important;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.title {
+
+    font-weight: 300;
+    font-size: 48px;
+    color:#242424 !important;
     line-height: 1.3em;
     text-align: left;
+    margin-top: 0px;
 }
 
 p {
@@ -91,17 +101,18 @@ p {
 
 }
 body {
-  background-color: rgb(0, 36, 82);
-  color: #FFFFFF;
+  background-color: white;
+  color: #444444 !important;
   font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
-  margin-left: 100px;
-  margin-right: 100px;
+
 }
 
 .youtube-video-container {
   position: relative;
   overflow: hidden;
-  width: 100%;
+  min-width: 640px;
+  max-width: 980px;
+  border: 2px solid;
 }
 
 .youtube-video-container::after {
@@ -118,22 +129,155 @@ body {
   height: 100%;
 }
 
+.menu-container {
+  background-color: rgb(0, 36, 82);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
 
+.menu-item {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+
+.header-content {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.main-content {
+  background-color:#e5f5f7!important
+}
+
+
+.title-page a {
+  font-size: 20px;
+  font-weight: 800;
+  text-align: right;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #5dc0cf !important;
+  cursor: pointer;
+}
+
+.video-section {
+ padding-top:80px;
+  padding-bottom:0px;
+  margin-left: 100px;
+  margin-right: 100px;
+  
+}
+
+.text-section {
+  padding-top:80px;
+  padding-bottom:80px;
+  margin-left: 100px;
+  margin-right: 100px;
+  min-width: 640px;
+  max-width: 980px;
+  
+}
+
+.description {
+  font-weight:600;
+  font-size:16px;
+  color:#002E67!important;
+  line-height:1.2em;
+  text-align:left
+}
+
+.title-page {
+  color: white;
+}
+
+footer {
+  color: white;
+  background-color: black;
+  padding: 10px;
+}
+footer p {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+
+@media screen and (min-device-width: 481px) and (max-device-width: 980px) {
+
+  footer p {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .video-section {
+   padding-top:40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    min-width: initial;
+    max-width: initial;
+    
+  }
+
+  .text-section {
+    padding-top:40px;
+    padding-bottom:40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    min-width: initial;
+    max-width: initial;
+    
+  }
+
+  .menu-item {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+
+}
 
 </style>
 </head>
 <body>
-	<h1 class="heading">FIWARE Webinars: Managing Data Models and Exposing Digital Twins</h1>
-  
-  <div class="youtube-video-container">
-    <iframe height="720" width="1280" 
-        src="https://www.youtube.com/embed/42dNh1VM7n4"
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> 
-    </iframe>
+  <div class="menu-container">
+    <div class="menu-item">
+      <a href="https://fiware.org">
+        <img decoding="async" class="item-logo" src="https://www.fiware.org/custom/brand-guide/img/logo/fiware/primary/svg/logo-fiware-white.svg" height="30" alt="FIWARE Logo"/>
+      </a>
+    </div>
+    <div class="menu-item title-page">
+      <a href="https://fiware.org/webinars">FIWARE Webinars</a>
+    </div>
+    <div class="menu-item">
+    </div>
   </div>
-  <p>
-   FIWARE iHubs - local and global Structure and Use of NGSI-LD to deal with Complexity Data Models as a &quot;common language&quot; Building a simple sensor model Controlling actions of Digital Twins Capabilities defined in AAS (Asset Administrative Shell)  NGSI-LD has proved its relevance and efficiency to address technical interoperability challenges in many sectors and use cases implemented through FIWARE components, but we need new tools and approaches to go further towards semantic interoperability and  controlled interactions with heterogeneous stakeholders, including human beings who have no idea of what an API is.
-  </p>
-  <ul> <li>FIWARE iHubs - local and global</li> <li>Structure and Use of NGSI-LD to deal with Complexity</li> <li>Data Models as a "common language"</li> <li>Building a simple sensor model</li> <li>Controlling actions of Digital Twins</li> <li>Capabilities defined in AAS (Asset Administrative Shell)</li> </ul> <p>NGSI-LD has proved its relevance and efficiency to address technical interoperability challenges in many sectors and use cases implemented through FIWARE components, but we need new tools and approaches to go further towards semantic interoperability and  controlled interactions with heterogeneous stakeholders, including human beings who have no idea of what an API is.</p> <p>The Asset Administration Shell (AAS) is a key concept to support digital twins implementation following the vision of the German  Plattform I4.0 initiative, and can contribute to a better exploitation of Machine-to-Machine interactions and also an improved  understanding of the digitized assets for people who may have a deep knowledge of own their businesses opportunities and constraints but little API experience.</p> <p>In this webinar, we’ll discover how the French FIWARE iHub Faubourg Numérique has built up tools and methodologies based on NGSI-LD data models and the AAS concept to better engage and support SMEs and local governments in their digital innovations and transformations. Concrete use cases and demos in environmental monitoring and industrial robotics among others, will illustrate data modeling and  capabilities definitions with the help of a GUI-based “powered by FIWARE” solution.</p> 
+  <div class="header-content">
+    <div class="title-section">
+       <h5 class="chapter">Core Context</h5>
+	     <h1 class="title">Managing Data Models and Exposing Digital Twins</h1>
+    </div>
+  </div>
+  <div class="main-content">
+    <div class="video-section">
+      <div class="youtube-video-container">
+        <iframe height="720" width="1280" 
+            src="https://www.youtube.com/embed/42dNh1VM7n4"
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> 
+        </iframe>
+      </div>
+    </div>
+    <div class="text-section">
+        <h4 class="description">Description</h4>
+        <ul> <li>FIWARE iHubs - local and global</li> <li>Structure and Use of NGSI-LD to deal with Complexity</li> <li>Data Models as a "common language"</li> <li>Building a simple sensor model</li> <li>Controlling actions of Digital Twins</li> <li>Capabilities defined in AAS (Asset Administrative Shell)</li> </ul> <p>NGSI-LD has proved its relevance and efficiency to address technical interoperability challenges in many sectors and use cases implemented through FIWARE components, but we need new tools and approaches to go further towards semantic interoperability and  controlled interactions with heterogeneous stakeholders, including human beings who have no idea of what an API is.</p> <p>The Asset Administration Shell (AAS) is a key concept to support digital twins implementation following the vision of the German  Plattform I4.0 initiative, and can contribute to a better exploitation of Machine-to-Machine interactions and also an improved  understanding of the digitized assets for people who may have a deep knowledge of own their businesses opportunities and constraints but little API experience.</p> <p>In this webinar, we’ll discover how the French FIWARE iHub Faubourg Numérique has built up tools and methodologies based on NGSI-LD data models and the AAS concept to better engage and support SMEs and local governments in their digital innovations and transformations. Concrete use cases and demos in environmental monitoring and industrial robotics among others, will illustrate data modeling and  capabilities definitions with the help of a GUI-based “powered by FIWARE” solution.</p>
+    </div>
+  </div>
+  <footer>
+    <p>
+    2024 &copy; FIWARE Foundation, e.V.
+    </p> 
+  </footer> 
 </body>
 </html>
