@@ -1,6 +1,9 @@
 .DS_Store
 images/*
 welcome/*
+members/*/*.html
+members/*/pageData.js
+!members/*/index.html
 !images/.gitkeep
 node_modules
 Untitled.txt
