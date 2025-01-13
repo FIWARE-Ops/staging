@@ -358,10 +358,10 @@ function buildTracker(
   };
 
   if (this.qualetics) {
-    console.log(action, "SENDING TO QUALETICS");
+    console.log(action, "SENDING TO QUALETICS", geoLocation);
     this.qualetics.send(eventObj);
   } else {
-    console.log(action, eventObj);
+    console.log(action, eventObj, geoLocation);
   }
 }
 
@@ -369,7 +369,7 @@ function buildTracker(
 // "mouseenter"
 // Card tracking
 function cardTracking() {
-  $(document).on("click", "a.details", function (ev) {
+  $(document).on("mouseenter", "a.details", function (ev) {
     const product = $(this).parent().parent().find(".solution-name").text();
     const path = window.location.pathname.replace("/showcase", "");
     const company = $(this).parent().parent().find(".name").text();
