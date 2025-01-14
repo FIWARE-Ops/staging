@@ -652,7 +652,7 @@ function loadProducts() {
   smoothScroll();
   initDropdowns();
   cardCreation();
-  cardTracking();
+  //cardTracking();
   initCards();
   $("#app")
     .imagesLoaded()
