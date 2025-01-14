@@ -353,7 +353,8 @@ function buildTracker(
 // "click"
 // "mouseenter"
 // Card tracking
-function cardTracking() {
+function cardTracking(e) {
+  e.target.removeEventListener("locationAvailable", cardTracking, false);
   $(document).ready(function () {
     const product = "test product";
     const path = "test path";

@@ -1650,9 +1650,7 @@ try {
 <script src="../app_product.js"></script>
 <script>
 const locationEvent = new Event("locationAvailable");
-document.addEventListener("locationAvailable", () => {
-  cardTracking(); // send data to qualetics once location is available
-});
+document.addEventListener("locationAvailable", cardTracking); // send data to qualetics once location is available
 </script>
 
 <!-- GeoIP -->
