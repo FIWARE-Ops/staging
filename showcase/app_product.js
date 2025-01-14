@@ -350,6 +350,9 @@ function buildTracker(
   }
 }
 
+// "click"
+// "mouseenter"
+// Card tracking
 function cardTracking() {
   $(document).ready(function () {
     const product = "test product";

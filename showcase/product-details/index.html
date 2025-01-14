@@ -1689,6 +1689,7 @@ async function fetchLocation() {
         console.error("Failed to retrieve location:", error);
     }
 }
+
 // Call the function to fetch the location
 fetchLocation();
 </script>
@@ -1710,6 +1711,11 @@ try {
 }
 </script>
 
+<!-- Send tracking data to Qualetics -->
+<script src="../app_product.js"></script>
+<script>
+cardTracking();
+</script>
 
 <style id='tribe-common-full-style-inline-css' class='tec-customizer-inline-style' type='text/css'>
 :root {
