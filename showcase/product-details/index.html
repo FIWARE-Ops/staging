@@ -1716,11 +1716,50 @@ function withTimeout(promise, timeout) {
   });
 }
 
+async function getIpAddress() {
+  try {
+    const response = await fetch('https://api.ipify.org?format=json');
+    const data = await response.json();
+    console.log('Your IP address is:', data);
+    return data.ip
+  } catch (error) {
+    console.error('Error fetching IP address:', error);
+  }
+}
+
+
+
+async function getLocationFromIP(ip) {
+  // URL to make GET request to
+  const url = `http://46.17.108.87:5000/api\?ip\=${ip}`;
+  // Call the function and handle the response
+  fetch(url, {
+    method: 'GET',  // HTTP method (GET request in this case)
+    mode: 'no-cors',
+    })
+    .then(response => {
+      console.log(response);
+      response.json();
+    })  // Parse the response as JSON
+    .then(data => {
+        console.log('Data received:', data);  // Handle the data
+    })
+    .catch(error => {
+        console.error('Error:', error);  // Handle any errors
+    });
+  
+  //console.log('Fetching IP:', ip);
+  //const response = await fetch(`http://46.17.108.87:5000/api\?ip\=${ip}`);
+  //const data = await response.json();
+  //console.log('Your location is:', data);
+}
+
 // Example usage with async/await
-async function fetchLocation() {
+async function fetchLocation() {    
     try {
-        //window.geoLocation = await getGeoLocation();
-        window.geoLocation = await withTimeout(getRandomCoordinates(), 3000); // timeout at 3 seconds
+        const ip = await withTimeout(getIpAddress(), 2000);
+        window.geoLocation = await withTimeout(getLocationFromIP(ip), 2000);
+        //window.geoLocation_random = await withTimeout(getRandomCoordinates(), 2000);
         document.dispatchEvent(locationEvent);
     } catch (error) {
         window.geoLocation = {
@@ -1731,6 +1770,7 @@ async function fetchLocation() {
         document.dispatchEvent(locationEvent);
     }
 }
+
 // Call the function to fetch the location
 fetchLocation();
 </script>
