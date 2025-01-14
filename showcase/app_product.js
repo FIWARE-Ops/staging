@@ -371,20 +371,15 @@ function cardTracking() {
       },
     };
 
-    const waitForVariable = setInterval(function () {
-      if (typeof window.geoLocation !== "undefined") {
-        clearInterval(waitForVariable); // Stop checking
-        buildTracker(
-          "View Showcase Solution",
-          context,
-          type,
-          product,
-          company,
-          description,
-          url,
-          window.geoLocation,
-        );
-      }
-    }, 100); // Check every 100 milliseconds
+    buildTracker(
+      "View Showcase Solution",
+      context,
+      type,
+      product,
+      company,
+      description,
+      url,
+      window.geoLocation,
+    );
   });
 }

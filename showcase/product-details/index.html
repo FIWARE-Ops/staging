@@ -1628,6 +1628,33 @@ var et_pb_sticky_elements = {"et_pb_section_0_tb_header":{"id":"et_pb_section_0_
 <script type="text/javascript" src="https://www.fiware.org/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/sticky-elements.js?ver=4.27.2" id="et-builder-modules-script-sticky-js"></script>
 
 
+<!-- Qualetics -->
+<script src="https://sdk.qualetics.com/qualetics-js-sdk-v3.js"></script>
+<script>
+try {
+    PAGEVIEW_TRACKING = true;
+    OPTIONS = {
+              host: "wss://api.qualetics.com",
+              port: 443,
+              trackUserGeoLocation: false
+              };
+    var qualetics_showcase = new Qualetics.service("stagingshowcase", "TvebnoeTX8Qa", "QpnumF", PAGEVIEW_TRACKING, OPTIONS);  
+    qualetics_showcase.init()
+} catch (error) {
+    console.error("Qualetics initialization failed:", error);
+}
+</script>
+
+
+<!-- Send tracking data to Qualetics -->
+<script src="../app_product.js"></script>
+<script>
+const locationEvent = new Event("locationAvailable");
+document.addEventListener("locationAvailable", () => {
+  cardTracking(); // send data to qualetics once location is available
+});
+</script>
+
 <!-- GeoIP -->
 <script>
 async function getRandomCoordinates() {
@@ -1671,7 +1698,23 @@ async function getRandomCoordinates() {
                         };
       // Resolve the promise with the result
       resolve(location);
-    }, 500); // Simulated delay (500ms)
+    }, 500); // Simulated delay
+  });
+}
+
+// Helper function to add a timeout to a promise
+function withTimeout(promise, timeout) {
+  return new Promise((resolve, reject) => {
+    const timer = setTimeout(() => reject(new Error(`Timeout exceeded after ${timeout} milliseconds`)), timeout);
+    promise
+      .then((result) => {
+        clearTimeout(timer);
+        resolve(result);
+      })
+      .catch((err) => {
+        clearTimeout(timer);
+        reject(err);
+      });
   });
 }
 
@@ -1679,42 +1722,19 @@ async function getRandomCoordinates() {
 async function fetchLocation() {
     try {
         //window.geoLocation = await getGeoLocation();
-        window.geoLocation = await getRandomCoordinates();
-        // Do something with the location here (e.g., display it on the UI)
+        window.geoLocation = await withTimeout(getRandomCoordinates(), 3000); // timeout at 3 seconds
+        document.dispatchEvent(locationEvent);
     } catch (error) {
         window.geoLocation = {
                     latitude: null,
                     longitude: null,
                     };
         console.error("Failed to retrieve location:", error);
+        document.dispatchEvent(locationEvent);
     }
 }
-
 // Call the function to fetch the location
 fetchLocation();
-</script>
-
-<!-- Qualetics -->
-<script src="https://sdk.qualetics.com/qualetics-js-sdk-v3.js"></script>
-<script>
-try {
-    PAGEVIEW_TRACKING = true;
-    OPTIONS = {
-              host: "wss://api.qualetics.com",
-              port: 443,
-              trackUserGeoLocation: false
-              };
-    var qualetics_showcase = new Qualetics.service("stagingshowcase", "TvebnoeTX8Qa", "QpnumF", PAGEVIEW_TRACKING, OPTIONS);  
-    qualetics_showcase.init()
-} catch (error) {
-    console.error("Qualetics initialization failed:", error);
-}
-</script>
-
-<!-- Send tracking data to Qualetics -->
-<script src="../app_product.js"></script>
-<script>
-cardTracking();
 </script>
 
 <style id='tribe-common-full-style-inline-css' class='tec-customizer-inline-style' type='text/css'>
