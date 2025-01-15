@@ -1731,7 +1731,7 @@ async function getIpAddress() {
 
 async function getLocationFromIP(ip) {
   // URL to make request to
-  const url = `http://46.17.108.87:5000/api\?ip\=${ip}`;
+  const url = `https://46.17.108.87:5000/api\?ip\=${ip}`;
 
   let response = await fetch(url);
   console.log('Response', response);
