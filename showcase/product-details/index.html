@@ -1722,7 +1722,7 @@ async function getIpAddress() {
 
   if (response.status === 200) {
   const data = await response.json();
-  //console.log('Your IP address is:', data);
+  console.log('Your IP address is:', data);
   return data.ip
   } else {
     throw new Error(`IP Request failed with status ${response.status}`);
@@ -1734,9 +1734,10 @@ async function getLocationFromIP(ip) {
   const url = `http://46.17.108.87:5000/api\?ip\=${ip}`;
 
   let response = await fetch(url);
+  console.log('Response', response);
   if (response.status === 200) {
     let data = await response.json();
-    //console.log('Success! Data received:', data);
+    console.log('Success! Data received:', data);
     return data
   } else {
     throw new Error(`Location Request failed with status ${response.status}`);
