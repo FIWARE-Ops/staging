@@ -1717,41 +1717,30 @@ function withTimeout(promise, timeout) {
 }
 
 async function getIpAddress() {
-  try {
-    const response = await fetch('https://api.ipify.org?format=json');
-    const data = await response.json();
-    console.log('Your IP address is:', data);
-    return data.ip
-  } catch (error) {
-    console.error('Error fetching IP address:', error);
+  // URL to make request to
+  const response = await fetch('https://api.ipify.org?format=json');
+
+  if (response.status === 200) {
+  const data = await response.json();
+  //console.log('Your IP address is:', data);
+  return data.ip
+  } else {
+    throw new Error(`IP Request failed with status ${response.status}`);
   }
 }
 
-
-
 async function getLocationFromIP(ip) {
-  // URL to make GET request to
+  // URL to make request to
   const url = `http://46.17.108.87:5000/api\?ip\=${ip}`;
-  // Call the function and handle the response
-  fetch(url, {
-    method: 'GET',  // HTTP method (GET request in this case)
-    mode: 'no-cors',
-    })
-    .then(response => {
-      console.log(response);
-      response.json();
-    })  // Parse the response as JSON
-    .then(data => {
-        console.log('Data received:', data);  // Handle the data
-    })
-    .catch(error => {
-        console.error('Error:', error);  // Handle any errors
-    });
-  
-  //console.log('Fetching IP:', ip);
-  //const response = await fetch(`http://46.17.108.87:5000/api\?ip\=${ip}`);
-  //const data = await response.json();
-  //console.log('Your location is:', data);
+
+  let response = await fetch(url);
+  if (response.status === 200) {
+    let data = await response.json();
+    //console.log('Success! Data received:', data);
+    return data
+  } else {
+    throw new Error(`Location Request failed with status ${response.status}`);
+  }
 }
 
 // Example usage with async/await
