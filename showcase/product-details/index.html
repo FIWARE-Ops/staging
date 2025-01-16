@@ -1747,8 +1747,8 @@ async function getLocationFromIP(ip) {
 // Example usage with async/await
 async function fetchLocation() {    
     try {
-        const ip = await withTimeout(getIpAddress(), 2000);
-        window.geoLocation = await withTimeout(getLocationFromIP(ip), 2000);
+        const ip = await withTimeout(getIpAddress(), 5000);
+        window.geoLocation = await withTimeout(getLocationFromIP(ip), 5000);
         //window.geoLocation_random = await withTimeout(getRandomCoordinates(), 2000);
         document.dispatchEvent(locationEvent);
     } catch (error) {
