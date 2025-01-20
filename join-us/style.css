@@ -65,6 +65,11 @@
   flex-wrap: wrap;
 }
 
+.cat-grid.single-item {
+  margin: 20px auto 0 auto;
+  justify-content: center;
+}
+
 /* ---- Item ---- */
 
 .grid-item {
@@ -157,6 +162,11 @@
  
 .cat-name.col-3.associate-package {
   background-color: #5dc0cc;
+  color: #000;
+}
+ 
+.cat-name.col-3.individual-package {
+  background-color: #b1b2b4;
   color: #000;
 }
 
