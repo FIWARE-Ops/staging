@@ -27,28 +27,26 @@ function initModal() {
 
           function createModalContent(tingleModalData){
             var modalHtml = "";
-            console.warn(tingleModalData);
-            
-                modalHtml += "<div class='credits-modal'>";
-            
-            modalHtml += '<img src="' + tingleModalData.badge + '" class="cat-badge-modal" />';
-       
-            modalHtml += "</div>";
+            //console.warn(tingleModalData);
+            if(tingleModalData.badge){
+              modalHtml += "<div class='credits-modal'>";
+              modalHtml += '<img src="' + tingleModalData.badge + '" class="cat-badge-modal" />';
+              modalHtml += "</div>";
+            }
                 
-                modalHtml += "<div class='info-modal'>";
-                
-            modalHtml += '<img src="' + tingleModalData.img + '" class="cat-ico-modal" />';
-            
-              modalHtml += "<div class='content'>";
-              if (tingleModalData.content !== "") {
+            modalHtml += "<div class='info-modal'>";
+            if(tingleModalData.img){    
+              modalHtml += '<img src="' + tingleModalData.img + '" class="cat-ico-modal" />';
+            }
+            modalHtml += "<div class='content'>";
+            if (tingleModalData.content !== "") {
               modalHtml += tingleModalData.content
                .replace(/</g, "<")
                .replace(/>/g, ">")
                .replace(/&/g, "&");
-              }
+            }
             
-              modalHtml += "</div>";
-       
+            modalHtml += "</div>";
             modalHtml += "</div>";
        
             // modalHtml += "<div class='details-modal'>";
