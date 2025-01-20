@@ -7,6 +7,7 @@ var companies = [
         'MedITech',
         'NEC',
         'Secmotic',
+        'Telefonica',
 ]; var departments = [
 ]; var domains = [
         'Gold',
@@ -31,6 +32,10 @@ var companies = [
 ]; var modalData = [
     { name: "José Benitez", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jose-benitez.jpg", position: "Co-Founder &amp; Chief Executive Officer", company: "Secmotic", "company-link": "https://secmotic.com/",
     content: "Jose has been Secmotic’s CEO since 2014 and founder of FIWOO, a smart city platform based on FIWARE, created in 2021. He has been a member of the FIWARE Board of Directors since 2018, being keen at any moment in time to represent the vision of SMEs and their interests. Jose is a vibrant and active player in the FIWARE Community and is deeply motivated bringing in cutting edge innovation technologies. As a Telecommunications Engineer, he is continuously investigating what’s happening in the space of data acquisition through wireless communications such as 5G, LoRA, WiFi, LTE, among others.", linkedin: "https://www.linkedin.com/in/jose-benitez-secmotic", twitter: "https://twitter.com/josesecmotic", domain: "Gold", location: "Spain"
+    ,flag: "https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png"
+    },
+    { name: "Agustín Cardenas Fernandez", img: "https://www.fiware.org/wp-content/directories/people/images/200px/agustin-cardenas-fernandez.jpg", position: "Director of Company Business Transformation", company: "Telefonica S.A.", "company-link": "https://www.telefonica.com/en/",
+    content: "", linkedin: "https://www.linkedin.com/in/agucardenas/", twitter: "https://twitter.com/agucardenas", domain: "Platinum", location: "Spain"
     ,flag: "https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png"
     },
     { name: "Francisco de la Vega", img: "https://www.fiware.org/wp-content/directories/people/images/200px/francisco-de-la-vega.jpg", position: "Chief Technology Officer", company: "Ficodes", "company-link": "https://www.ficodes.com/en/",
