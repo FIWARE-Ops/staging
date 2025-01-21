@@ -198,7 +198,13 @@ function initModal() {
     });
   }
 
-  function initStepper(stepperBlockId) {
+  function initStepper(){
+    $(".card-step").each(function (i, el) {
+      initStep("#" + $(el).attr("id"));
+    });
+  }
+
+  function initStep(stepperBlockId) {
     var step = 0;
     var stepItem = $(
       stepperBlockId + ".step-progress .step-slider .step-slider-item"
@@ -275,7 +281,7 @@ document.addEventListener("DOMContentLoaded", () => {
         smoothScroll();
         initModal();
         initFeaturedCarousel();
-        initStepper('stepper-1');
+        initStepper();
     }
     w3.includeHTML(myCallback);
 });
