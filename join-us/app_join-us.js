@@ -51,7 +51,7 @@ function initModal() {
             }
             
             if (tingleModalData["company-link"]){
-                 modalHtml += `<div><a href=">${tingleModalData["company-link"]}">MORE</a></div>`;
+                 modalHtml += `<div><a href="${tingleModalData["company-link"]}">MORE</a></div>`;
             }
             modalHtml += "</div>";
             modalHtml += "</div>";
