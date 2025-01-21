@@ -248,7 +248,7 @@ document.addEventListener("DOMContentLoaded", () => {
         smoothScroll();
         initModal();
         initFeaturedCarousel();
-        initStepper('steps');
+        initStepper('stepper-1');
     }
     w3.includeHTML(myCallback);
 });
