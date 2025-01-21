@@ -27,16 +27,20 @@ function initModal() {
 
           function createModalContent(tingleModalData){
             var modalHtml = "";
-            //console.warn(tingleModalData);
+            console.warn(tingleModalData);
+
+            if (tingleModalData.name){
+               modalHtml += `<h1>${tingleModalData.name}</h1>`;
+            }
             if(tingleModalData.badge){
               modalHtml += "<div class='credits-modal'>";
-              modalHtml += '<img src="' + tingleModalData.badge + '" class="cat-badge-modal" />';
+              modalHtml += `<img src="${tingleModalData.badge}" class="cat-badge-modal" />`;
               modalHtml += "</div>";
             }
                 
             modalHtml += "<div class='info-modal'>";
             if(tingleModalData.img){    
-              modalHtml += '<img src="' + tingleModalData.img + '" class="cat-ico-modal" />';
+              modalHtml += `<img src="${tingleModalData.img}" class="cat-ico-modal" />`;
             }
             modalHtml += "<div class='content'>";
             if (tingleModalData.content !== "") {
@@ -46,6 +50,9 @@ function initModal() {
                .replace(/&/g, "&");
             }
             
+            if (tingleModalData["company-link"]){
+                 modalHtml += `<div><a href=">${tingleModalData["company-link"]}">MORE</a></div>`;
+            }
             modalHtml += "</div>";
             modalHtml += "</div>";
        
