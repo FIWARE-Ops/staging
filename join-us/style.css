@@ -148,6 +148,9 @@
   width: 100%;
   border-radius: 4px 4px 0px 0px;
   margin-bottom: 20px;
+  display: flex;
+  align-items: self-end;
+  gap: 8px;
 }
  
 .cat-name.col-3.platinum-package {
@@ -168,6 +171,11 @@
 .cat-name.col-3.individual-package {
   background-color: #b1b2b4;
   color: #000;
+}
+
+.ico-type {
+  font-size: 24px;
+  font-weight: 400;
 }
 
 .cat-excerpt {
@@ -884,6 +892,164 @@
 }
 
 /* ––––––––––––––––– */
+
+/* Table */
+
+.entry-content table:not(.variations) {
+  border: none;
+  margin: 0 0 15px;
+  text-align: left;
+  width: 100%;
+}
+
+.entry-content thead th, .entry-content tr th {
+  color: unset;
+  font-weight: unset;
+  padding: unset;
+}
+
+.entry-content tr td {
+  padding: unset;
+  border: unset;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: unset;
+}
+
+.gridTable__cell {
+  padding: 8px 12px !important;
+  text-align: left;
+  color: #241c15;
+  border-left: 1px solid #fff !important;
+  width: 20%;
+  font-size: 15px;
+}
+
+.gridTable__cell .label {
+  display: flex;
+  align-items: self-end;
+  gap: 8px;
+}
+
+.gridTable tr.plans-header th {
+  border: none !important;
+}
+
+.gridTable tr.plans-header td {
+  border-top: 0px solid #fff;
+  border-bottom: 0px solid #fff;
+  font-weight: 500;
+}
+
+.gridTable tr.plans-header td.platinum {
+  background-color: #002E67;
+  color: #fff;
+  border-top-left-radius: 4px;
+}
+
+.gridTable tr.plans-header td.gold {
+  background-color: #eec64f;
+  color: #000;
+}
+
+.gridTable tr.plans-header td.associate {
+  background-color: #5dc0cc;
+  color: #000;
+}
+
+.gridTable tr.plans-header td.individual {
+  background-color: #b1b2b4;
+  color: #000;
+  border-top-right-radius: 4px;
+}
+
+.gridTable tr.plans-header td:last-of-type {
+  font-weight: 500;
+}
+
+.gridTable__rowHead {
+  text-align: left;
+  width: 20%;
+}
+
+th.gridTable__rowHead {
+  border: none !important;
+  font-size: 14px;
+  color: #241c15!important;
+  font-weight: 500!important;
+}
+
+.gridTable__sectionHeading {
+  width: 100%;
+  border: 1px solid #bcbab8;
+}
+
+.gridTable__sectionHeading.alt {
+  background-color: #f5f5f5;
+}
+
+.gridTable__sectionHeading .section-head {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  color: #241c15;
+  padding: 8px 12px;
+}
+
+.gridTable__service {
+  font-size: 14px;
+  color: #241c15;
+  /* border: 1px solid #bcbab8; */
+}
+
+.gridTable__service.alt {
+  background-color: #f5f5f5;
+}
+
+.gridTable__service:last-of-type {
+  border-bottom: 1px solid #bcbab8;
+}
+
+.gridTable__service.alt:last-of-type {
+  border-bottom: 1px solid #bcbab8;
+}
+
+tr.gridTable__service th {
+  padding: 8px 12px !important;
+}
+
+tr.gridTable__service th {
+  border-left: 1px solid #bcbab8;
+}
+
+tr.gridTable__service td {
+  color: #464748;
+  padding: 8px 12px;
+  border-left: 1px solid #bcbab8;
+  font-weight: 400;
+}
+
+tr.gridTable__service td span.ico-check {
+  color: #3cab3b;
+  font-size: 28px;
+  font-weight: 300;
+  padding: 8px 12px 2px;
+}
+
+tr.gridTable__service td span.ico-close {
+  color: #ee4b2b;
+  font-size: 28px;
+  font-weight: 300;;
+}
+
+tr.gridTable__service td:last-of-type {
+  border-right: 1px solid #bcbab8;
+}
+
+
+/* ––––––––––––––––– */
+
 
 /* Stepper */
 
