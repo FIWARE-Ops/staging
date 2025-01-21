@@ -39,32 +39,34 @@ function initModal() {
             }
                 
             modalHtml += "<div class='info-modal'>";
-            if(tingleModalData.img){    
-              modalHtml += `<img src="${tingleModalData.img}" class="cat-ico-modal" />`;
-            }
-            modalHtml += "<div class='content'>";
-            if (tingleModalData.content !== "") {
-              modalHtml += tingleModalData.content
-               .replace(/</g, "<")
-               .replace(/>/g, ">")
-               .replace(/&/g, "&");
-            }
+              if(tingleModalData.img){    
+                modalHtml += `<img src="${tingleModalData.img}" class="cat-ico-modal" />`;
+              }
+              modalHtml += "<div class='content'>";
+                if (tingleModalData.content !== "") {
+                  modalHtml += tingleModalData.content
+                  .replace(/</g, "<")
+                  .replace(/>/g, ">")
+                  .replace(/&/g, "&");
+                }
+                
+                // if (tingleModalData["company-link"]){
+                    // modalHtml += `<div><a href="${tingleModalData["company-link"]}">MORE</a></div>`;
+                // }
+              
+              modalHtml += "</div>";
             
-            if (tingleModalData["company-link"]){
-                 modalHtml += `<div><a href="${tingleModalData["company-link"]}">MORE</a></div>`;
-            }
-            modalHtml += "</div>";
             modalHtml += "</div>";
        
-            // modalHtml += "<div class='details-modal'>";
+            modalHtml += "<div class='details-modal'>";
             
-            // modalHtml += "<div class='social-modal'>";
-            
-             // if (tingleModalData.company != "null"){
-              // modalHtml += '<a class="company-link" href="'+ tingleModalData['company-link'] + '">' + '<span id="ico-info" class="material-symbols-outlined">grid_view</span>' + tingleModalData.company + '</a>';
-            // }
-            
-            // modalHtml += "</div>";
+              modalHtml += "<div class='social-modal'>";
+              
+                if (tingleModalData["company-link"]){
+                    modalHtml += `<div><a href="${tingleModalData["company-link"]}">MORE</a></div>`;
+                }
+              
+              modalHtml += "</div>";
             
             modalHtml += "</div>";
             
