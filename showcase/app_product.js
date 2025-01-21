@@ -327,7 +327,7 @@ function buildTracker(
     action: {
       type: "action",
       name: action,
-      attributes: { referrer: "Facebook", coupon: "KIHSK123FS" },
+      attributes: { referrer: "Random", coupon: "Random"},
     },
     context,
     object: {
@@ -342,9 +342,9 @@ function buildTracker(
     },
   };
 
-  if (this.qualetics_showcase) {
+  if (this.qualetics) {
     console.log("Sending:", action, eventObj, geoLocation);
-    this.qualetics_showcase.send(eventObj);
+    this.qualetics.send(eventObj);
   } else {
     console.log("no qualetics", action, eventObj, geoLocation);
   }

@@ -1638,8 +1638,11 @@ try {
               port: 443,
               trackUserGeoLocation: false
               };
-    var qualetics_showcase = new Qualetics.service("stagingshowcase", "TvebnoeTX8Qa", "QpnumF", PAGEVIEW_TRACKING, OPTIONS);  
-    qualetics_showcase.init()
+    if (window.location.pathname.includes("staging/showcase")) {
+      var qualetics = new Qualetics.service("stagingshowcase", "TvebnoeTX8Qa", "QpnumF", PAGEVIEW_TRACKING, OPTIONS);  
+      qualetics.init()
+    }
+    
 } catch (error) {
     console.error("Qualetics initialization failed:", error);
 }
