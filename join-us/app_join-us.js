@@ -63,7 +63,8 @@ function initModal() {
               modalHtml += "<div class='social-modal'>";
               
                 if (tingleModalData["company-link"]){
-                    modalHtml += `<div class="company-link"><a href="${tingleModalData["company-link"]}">MORE</a></div>`;
+                    // modalHtml += `<div class="company-link"><a href="${tingleModalData["company-link"]}">MORE</a></div>`;
+                    modalHtml += '<a class="company-link" href="'+ tingleModalData['company-link'] + '">' + '<span id="ico-info" class="material-symbols-outlined">read_more</span>' + tingleModalData.company + '</a>';
                 }
               
               modalHtml += "</div>";
