@@ -1,3 +1,27 @@
+function createClassFilter(data) {
+  let filterString = "";
+  const regex = /([^a-zA-Z0-9À-ÿ])/gi;
+  if (typeof data === "object") {
+    data.forEach((element, i) => {
+      if (i + 1 === data.length) {
+        filterString += `${element
+          .toLowerCase()
+          .replace(/&amp/gi, "")
+          .replace(regex, "-")}`;
+      } else {
+        filterString += `${element
+          .toLowerCase()
+          .replace(/&amp/gi, "")
+          .replace(regex, "-")} `;
+      }
+    });
+  } else {
+    filterString = data.toLowerCase().replace(/&amp/gi, "").replace(regex, "-");
+  }
+
+  return filterString;
+}
+
 
 function initModal() {
     // Modal
@@ -30,7 +54,7 @@ function initModal() {
             console.warn(tingleModalData);
 
             if (tingleModalData.name){
-               modalHtml += `<h1>${tingleModalData.name}</h1>`;
+               modalHtml += `<h1 class="${createClassFilter(tingleModalData.name)}">${tingleModalData.name}</h1>`;
             }
             if(tingleModalData.badge){
               modalHtml += "<div class='credits-modal'>";
