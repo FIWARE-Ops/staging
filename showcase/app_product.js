@@ -309,78 +309,75 @@ function initialiseStyleBackgroundIntersectionObserver() {
 }
 
 function buildTracker(
+  actor,
   action,
   context,
-  type,
-  product,
-  company,
-  excerpt,
-  url,
-  geoLocation,
-) {
+  object,
+  ) {
   const eventObj = {
-    actor: {
-      type: "User",
-      id: "System",
-      attributes: { name: "John Doe", "geoLocation": geoLocation},
-    },
-    action: {
-      type: "action",
-      name: action,
-      attributes: { referrer: "Random", coupon: "Random"},
-    },
+    actor,
+    action,
     context,
-    object: {
-      type,
-      name: company,
-      attributes: {
-        url,
-        "company name": company,
-        description: excerpt,
-        indexforsearch: true,
-      },
-    },
+    object,
   };
 
   if (this.qualetics) {
-    console.log("Sending:", action, eventObj, geoLocation);
+    console.log("Sending:", eventObj);
     this.qualetics.send(eventObj);
   } else {
-    console.log("no qualetics", action, eventObj, geoLocation);
+    console.log("no qualetics", eventObj);
   }
 }
 
-// "click"
-// "mouseenter"
 // Card tracking
 function cardTracking(e) {
   e.target.removeEventListener("locationAvailable", cardTracking, false);
   $(document).ready(function () {
-    const product = "test product";
-    const path = "test path";
-    const company = "test company";
-    const description = "test description";
-    const url = "test url";
-    const type = "test type"
+    
+    const company_name = document.querySelector("h5#organisation-name").textContent;
+    const company_url = document.querySelector("#organisation-website").href;
+
+    const solution_type = document.querySelector("h5").textContent;
+    const solution_name = document.querySelector("h1#product-name").textContent;
+    const solution_description = document.head.querySelector('meta[name="description"]').getAttribute("content");
+    const solution_url = document.URL;
+    
+
+    const actor = {
+      "type": "User", 
+      "id": "Undefined",
+      "attributes": { "name": "Undefined", "geoLocation": window.geoLocation}
+    };
+
+    const action = {
+      "name": "View Showcase Solution",
+    };
 
     const context = {
-      type: "Showcase",
-      name: "View Showcase Solution",
-      attributes: {
-        url,
-        "company name": company,
+      "type": "Showcase",
+      "name": "View Showcase Solution",
+      "attributes": {
+        "url": solution_url,
+        "company name": company_name,
+      },
+    };
+
+    const object = {
+      "type": solution_type,
+      "name": solution_name,
+      "attributes": {
+        "url": solution_url,
+        "company name": company_name,
+        "description": solution_description,
+        "indexforsearch": true,
       },
     };
 
     buildTracker(
-      "View Showcase Solution",
+      actor,
+      action,
       context,
-      type,
-      product,
-      company,
-      description,
-      url,
-      window.geoLocation,
+      object,
     );
   });
 }
