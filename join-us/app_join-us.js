@@ -225,7 +225,7 @@ function initModal() {
       $(
         stepperBlockId + ' .step-content .step-content-foot button[name="prev"]'
       ).removeClass("out");
-      if (step == stepItem.length - 2) {
+      if (step == stepItem.length - 1) {
         instance.addClass("out");
         instance.siblings('button[name="apply"]').removeClass("out");
       }
@@ -242,7 +242,7 @@ function initModal() {
       if (step == stepItem.length) {
         return;
       }
-      $(stepItem[stepItem.length - 1]).addClass("active");
+      $(stepItem[stepItem.length - 4]).addClass("active");
       $(stepperBlockId + " .step-content-body").addClass("out");
       $(stepperBlockId + " #stepLast").removeClass("out");
       step++;
