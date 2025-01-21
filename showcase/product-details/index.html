@@ -1764,8 +1764,13 @@ async function fetchLocation() {
     }
 }
 
-// Call the function to fetch the location
-fetchLocation();
+// Call the function to fetch the location if we are on product-details page
+// this condition basically checks for the product-details page
+if (document.referrer.includes("www.fiware.org/showcase") && !document.baseURI.includes("showcase")) {
+  fetchLocation();
+} else if (document.baseURI.includes("staging/showcase/product-details")) {
+  fetchLocation();
+}
 </script>
 
 <style id='tribe-common-full-style-inline-css' class='tec-customizer-inline-style' type='text/css'>
