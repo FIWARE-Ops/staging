@@ -240,6 +240,16 @@ window.eventData = [
         "group": "Conference"
     },
     {
+        "id": "202502-fiware-dach-meeting",
+        "title": "FIWARE DACH Meeting",
+        "from": "2025-02-04T13:00:00.000Z",
+        "to": "2025-02-04T16:00:00.000Z",
+        "description": "Join us for a networking event hosted by the City of Herne and FIWARE Foundation on February 4, 2025 to engage with decision-makers from the business, political, and urban sectors across the DACH region!",
+        "location": "Mulvany Villa Shamrockring 1, 44623 ",
+        "isAllDay": false,
+        "group": "Networking"
+    },
+    {
         "id": "202503-data-spaces-symposium-2025",
         "title": "Data Spaces Symposium 2025",
         "from": "2025-03-11T23:00:00.000Z",
