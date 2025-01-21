@@ -171,7 +171,7 @@ function initModal() {
     });
   }
 
-  function doStepper(stepperBlockId) {
+  function initStepper(stepperBlockId) {
     var step = 0;
     var stepItem = $(
       stepperBlockId + ".step-progress .step-slider .step-slider-item"
@@ -248,6 +248,7 @@ document.addEventListener("DOMContentLoaded", () => {
         smoothScroll();
         initModal();
         initFeaturedCarousel();
+        initStepper('steps');
     }
     w3.includeHTML(myCallback);
 });
