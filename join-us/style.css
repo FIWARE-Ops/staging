@@ -917,6 +917,10 @@ tbody tr:nth-child(odd) {
   background-color: unset;
 }
 
+.gridTable {
+  /* user-select: none; */
+}
+
 .gridTable__cell {
   padding: 8px 12px !important;
   text-align: left;
@@ -982,7 +986,7 @@ th.gridTable__rowHead {
 
 .gridTable__sectionHeading {
   width: 100%;
-  border: 1px solid #bcbab8;
+  border: 1px solid #e3e3e4;
 }
 
 .gridTable__sectionHeading.alt {
@@ -1000,7 +1004,7 @@ th.gridTable__rowHead {
 .gridTable__service {
   font-size: 14px;
   color: #241c15;
-  /* border: 1px solid #bcbab8; */
+  /* border: 1px solid #e3e3e4; */
 }
 
 .gridTable__service.alt {
@@ -1008,11 +1012,11 @@ th.gridTable__rowHead {
 }
 
 .gridTable__service:last-of-type {
-  border-bottom: 1px solid #bcbab8;
+  border-bottom: 1px solid #e3e3e4;
 }
 
 .gridTable__service.alt:last-of-type {
-  border-bottom: 1px solid #bcbab8;
+  border-bottom: 1px solid #e3e3e4;
 }
 
 tr.gridTable__service th {
@@ -1020,13 +1024,13 @@ tr.gridTable__service th {
 }
 
 tr.gridTable__service th {
-  border-left: 1px solid #bcbab8;
+  border-left: 1px solid #e3e3e4;
 }
 
 tr.gridTable__service td {
   color: #464748;
-  padding: 8px 12px;
-  border-left: 1px solid #bcbab8;
+  padding: 8px 12px 2px;
+  border-left: 1px solid #e3e3e4;
   font-weight: 400;
 }
 
@@ -1034,7 +1038,7 @@ tr.gridTable__service td span.ico-check {
   color: #3cab3b;
   font-size: 28px;
   font-weight: 300;
-  padding: 8px 12px 2px;
+  /* padding: 8px 12px 2px; */
 }
 
 tr.gridTable__service td span.ico-close {
@@ -1044,7 +1048,7 @@ tr.gridTable__service td span.ico-close {
 }
 
 tr.gridTable__service td:last-of-type {
-  border-right: 1px solid #bcbab8;
+  border-right: 1px solid #e3e3e4;
 }
 
 
