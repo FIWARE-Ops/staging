@@ -63,7 +63,7 @@ function initModal() {
               modalHtml += "<div class='social-modal'>";
               
                 if (tingleModalData["company-link"]){
-                    modalHtml += `<div><a href="${tingleModalData["company-link"]}">MORE</a></div>`;
+                    modalHtml += `<div class="company-link"><a href="${tingleModalData["company-link"]}">MORE</a></div>`;
                 }
               
               modalHtml += "</div>";
