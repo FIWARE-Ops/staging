@@ -1083,11 +1083,15 @@ tr.gridTable__service td:last-of-type {
 }
 
 .step-progress .step-slider .step-slider-item {
-  width: 20%;
+  width: 25%;
   height: 2px;
   position: relative;
   float: left;
   background-color: #d3d3d3;
+}
+
+[data-id="stepLast"].step-slider-item {
+  display: none;
 }
 
 .step-progress .step-slider .step-slider-item:after {

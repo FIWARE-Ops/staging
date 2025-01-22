@@ -213,7 +213,7 @@ function initModal() {
     $(
       stepperBlockId + ' .step-content .step-content-foot button[name="prev"]'
     ).addClass("out");
-  
+
     // Step Next
     $(
       stepperBlockId + ' .step-content .step-content-foot button[name="next"]'
@@ -234,7 +234,7 @@ function initModal() {
       step++;
       $(stepperBlockId + " #" + stepItem[step].dataset.id).removeClass("out");
     });
-  
+
     // Step Last
     $(
       stepperBlockId + ' .step-content .step-content-foot button[name="apply"]'
@@ -242,12 +242,12 @@ function initModal() {
       if (step == stepItem.length) {
         return;
       }
-      $(stepItem[stepItem.length - 0]).addClass("active");
+      $(stepItem[stepItem.length - 1]).addClass("active");
       $(stepperBlockId + " .step-content-body").addClass("out");
       $(stepperBlockId + " #stepLast").removeClass("out");
       step++;
     });
-  
+
     // Step Previous
     $(
       stepperBlockId + ' .step-content .step-content-foot button[name="prev"]'
@@ -273,7 +273,7 @@ function initModal() {
           stepperBlockId + ' .step-content .step-content-foot button[name="prev"]'
         ).addClass("out");
       }
-    }); 
+    });
   }
     
 document.addEventListener("DOMContentLoaded", () => {
