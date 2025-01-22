@@ -1083,7 +1083,7 @@ tr.gridTable__service td:last-of-type {
 }
 
 .step-progress .step-slider .step-slider-item {
-  width: 25%;
+  width: 20%;
   height: 2px;
   position: relative;
   float: left;
