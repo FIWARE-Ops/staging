@@ -165,6 +165,7 @@ function initModal() {
       margin: 0,
       responsive: {
         0: {
+          stagePadding: 25,
           items: 1,
           autoplay: true,
           nav: false,

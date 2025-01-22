@@ -211,6 +211,7 @@
   margin-left: -10px;
   font-size: 15px;
   color: #002e67;
+  background-color: rgba(243,243,243,0);
   padding: 5px 10px;
   border-radius: 4px;
   transition: background-color 0.2s linear;
@@ -246,7 +247,7 @@
 .cat-details:hover,
 .cat-browse:hover {
   color: #002452;
-  background-color: #f3f3f3;
+  background-color: rgba(243,243,243,1);
 }
 
 .icons {
@@ -1290,7 +1291,19 @@ tr.gridTable__service td:last-of-type {
 }
 
 @media (max-width: 768px) {
-  .grid-item {
+  
+  /* Divi Settings */
+
+  .et_pb_row_7 {
+    width: 100%;
+  }
+  .et_pb_tabs_controls li {
+    min-width: 132px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .grid-item, .grid-item.col-3 {
     width: 100%;
     margin: 0px 0px 20px !important;
   }
@@ -1336,9 +1349,23 @@ tr.gridTable__service td:last-of-type {
     text-align: center;
   }
 
+  .cat-excerpt.platinum-package,
+  .cat-excerpt.gold-package,
+  .cat-excerpt.associate-package,
+  .cat-excerpt.individual-package  {
+    text-align: left;
+  }
+
   .icons {
     width: 100%;
     justify-content: center;
+  }
+
+  .icons.platinum-package,
+  .icons.associate-package,
+  .icons.gold-package,
+  .icons.individual-package {
+    justify-content: flex-start;
   }
 
   .cat-ico {
@@ -1347,6 +1374,16 @@ tr.gridTable__service td:last-of-type {
 
   .cat-browse {
     justify-content: center;
+  }
+
+  .cat-details.col-3 {
+    margin: 10px 0 10px 10px;
+  }
+
+  .cat-details:hover,
+  .cat-browse:hover {
+    color: #002e67;
+    background-color: rgba(243,243,243,0);
   }
 
   /* Modal */
@@ -1403,7 +1440,6 @@ tr.gridTable__service td:last-of-type {
   .tingle-modal-box__content .content {
     max-height: calc(100vh - 25em);
     padding: 0;
-    margin-bottom: 20px;
   }
 
   .tingle-modal-box__content {
@@ -1468,14 +1504,33 @@ tr.gridTable__service td:last-of-type {
     font-size: 20px;
   }
 
-  .tingle-modal h2 {
-    font-size: 16px;
+  .platinum-label, .gold-label, .associate-label, .individual-label {
+    transform: scaleX(113%) translate(0, -2rem);
+    padding: 1.5rem 2rem 1.4rem;
   }
+
+  .ico-type {
+    line-height: 1.1em;
+  }
+
+  /* .tingle-modal h2 {
+    font-size: 16px;
+  } */
 
   /* .tingle-modal .bio-modal p {
     max-height: 250px;
     overflow: auto;
-} */
+  } */
+
+  .program-services {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .program-services li {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -1490,11 +1545,11 @@ tr.gridTable__service td:last-of-type {
   }
 
   .owl-stage {
-    padding-left: 30px !important;
+    /* padding-left: 30px !important; */
   }
 
   .owl-dots {
     text-align: center;
-    padding-left: 30px;
+    /* padding-left: 30px; */
   }
 }
