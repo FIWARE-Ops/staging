@@ -54,7 +54,12 @@ function initModal() {
             console.warn(tingleModalData);
 
             if (tingleModalData.name){
-               modalHtml += `<h1 class="${createClassFilter(tingleModalData.name)}">${tingleModalData.name}</h1>`;
+               modalHtml += `<div class="${createClassFilter(tingleModalData.name)}">
+               ${tingleModalData.name
+                  .replace(/</g, "<")
+                  .replace(/>/g, ">")
+                  .replace(/&/g, "&")
+               }</div>`;
             }
             if(tingleModalData.badge){
               modalHtml += "<div class='credits-modal'>";
@@ -88,7 +93,7 @@ function initModal() {
               modalHtml += "<div class='social-modal'>";
               
                 // modalHtml += `<div class="company-link"><a href="${tingleModalData["company-link"]}">MORE</a></div>`;
-                modalHtml += '<a class="company-link" href="'+ tingleModalData['company-link'] + '">' + '<span id="ico-info" class="material-symbols-outlined">read_more</span>' + tingleModalData.company + '</a>';
+                modalHtml += '<a class="cat-details col-3 modal" href="'+ tingleModalData['company-link'] + '">' + tingleModalData.company + '<span id="ico-info" class="material-symbols-outlined">arrow_right_alt</span>' + '</a>';
               
               modalHtml += "</div>";
             
