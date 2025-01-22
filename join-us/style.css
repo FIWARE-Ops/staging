@@ -418,7 +418,7 @@
 
 .platinum-label {
   display: flex;
-  align-items: normal;
+  align-items: self-end;
   gap: 10px;
   transform: scaleX(109%) translate(0, -3rem);
   background-color: #002e67;
@@ -434,7 +434,7 @@
 
 .gold-label {
   display: flex;
-  align-items: normal;
+  align-items: self-end;
   gap: 10px;
   transform: scaleX(109%) translate(0, -3rem);
   background-color: #eec64f;
@@ -450,7 +450,7 @@
 
 .associate-label {
   display: flex;
-  align-items: normal;
+  align-items: self-end;
   gap: 10px;
   transform: scaleX(109%) translate(0, -3rem);
   background-color: #5dc0cc;
@@ -1298,9 +1298,18 @@ tr.gridTable__service td:last-of-type {
     width: 100%;
   }
   .et_pb_tabs_controls li {
-    min-width: 132px;
+    min-width: 110px;
     display: flex;
     justify-content: center;
+    padding: 0!important;
+  }
+
+  .et_pb_tabs_controls li a {
+    padding: 0 20px;
+  }
+
+  .cat-grid.cat-grid.single-item {
+    margin: 0 auto;
   }
 
   .grid-item {
@@ -1455,8 +1464,8 @@ tr.gridTable__service td:last-of-type {
   }
 
   .credits-modal {
-    width: 100%;
-    margin-bottom: 20px;
+    width: fit-content;
+    margin-bottom: 10px;
   }
 
   .info-modal {
@@ -1510,6 +1519,7 @@ tr.gridTable__service td:last-of-type {
   }
 
   .platinum-label, .gold-label, .associate-label, .individual-label {
+    font-size: 18px;
     transform: scaleX(113%) translate(0, -2rem);
     padding: 1.5rem 2rem 1.4rem;
   }
@@ -1556,5 +1566,9 @@ tr.gridTable__service td:last-of-type {
   .owl-dots {
     text-align: center;
     /* padding-left: 30px; */
+  }
+
+  .step {
+    display: none;
   }
 }
