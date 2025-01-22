@@ -21,6 +21,7 @@ var titles = [
         'Heritage',
         'Industry',
         'Logistics',
+        'Manufacturing',
         'Mobility',
         'Multidomain',
         'Ports',
@@ -31,6 +32,7 @@ var titles = [
         'Sustainability',
         'Territory',
         'Tourism',
+        'Transportation',
         'Villages',
         'Water',
 ]; var countries = [

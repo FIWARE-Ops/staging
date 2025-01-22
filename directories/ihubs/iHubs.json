@@ -192,6 +192,27 @@
 			"type":"Feature",
 			"properties":{
 				"type": "iHub",
+				"name": "FieldLab",
+				"city": "Tampere",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/ihubs/images/fieldlab.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/fieldlab.png' loading='lazy'/></picture></div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Tampere</h3><img alt='Finland' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Finland.png' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>FieldLab</div>",
+					"<div class='ihub-type'>Incubated</div>",
+                	"<div class='chip-domain'><ul class='chips'><li>Industry</li><li>Manufacturing</li></ul><span class='chips-gradient'></span></div>"
+            		,
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://sites.tuni.fi/fieldlab-en/' rel='noopener'><span class='icon website'></span><a class='cat-linkedin' target='_blank' href='https://www.linkedin.com/school/tamk/' rel='noopener'><span class='icon linkedin'></span></a></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[23.747,61.492]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "iHub",
 				"name": "FiiHub Azores DIH",
 				"city": "Lagoa",
 				"html": [
@@ -793,6 +814,25 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[23.762,38.04]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "iHub",
+				"name": "Posadas FIWARE iHub",
+				"city": "Posadas, Misiones",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/ihubs/images/posadas-fiware-ihub.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/posadas-fiware-ihub.png' loading='lazy'/></picture></div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Posadas, Misiones</h3><img alt='Argentina' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Argentina.png' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>Posadas FIWARE iHub</div>",
+					"<div class='ihub-type'>Incubated</div>",
+                	"<div class='chip-domain'><ul class='chips'><li>Cities</li><li>Mobility</li><li>Sustainability</li><li>Tourism</li><li>Transportation</li></ul><span class='chips-gradient'></span></div>"
+            						]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-55.905,-27.367]
 			}
 		},
 		{
