@@ -1396,13 +1396,30 @@ tr.gridTable__service td:last-of-type {
     width: 90%;
   }
 
+  .tingle-modal .bio-modal p {
+    padding: 0 20px 0px;
+  }
+
+  .tingle-modal-box__content .content {
+    max-height: calc(100vh - 25em);
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
   .tingle-modal-box__content {
-    padding: 2rem 2rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
 
   .credits-modal {
     width: 100%;
     margin-bottom: 20px;
+  }
+
+  .info-modal {
+    overflow-y: auto;
   }
 
   .tingle-modal img {
