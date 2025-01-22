@@ -1303,9 +1303,14 @@ tr.gridTable__service td:last-of-type {
     justify-content: center;
   }
 
-  .grid-item, .grid-item.col-3 {
+  .grid-item {
     width: 100%;
     margin: 0px 0px 20px !important;
+  }
+
+  .grid-item.col-3 {
+    width: 85%;
+    margin: 0px auto 20px !important;
   }
 
   .f-cat {
