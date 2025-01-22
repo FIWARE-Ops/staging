@@ -350,12 +350,17 @@ function cardTracking(e) {
     };
 
     const action = {
-      "name": "View Showcase Solution",
+      "name": "Showcase Product Details", 
+      // "Go to the Solution Website"
+      // "Tracking Socials" 
+      // attributes: {"type": "facebook", "twitter/X", "webpage", "mail", "linkedin", "???"}
+      // "Tracking Extra Materials": 
+      // attributes: {"type": "reference materials", "documentation", "???"}
     };
 
     const context = {
       "type": "Showcase",
-      "name": "View Showcase Solution",
+      "name": "Showcase Product Details",
       "attributes": {
         "url": solution_url,
         "company name": company_name,
@@ -366,6 +371,8 @@ function cardTracking(e) {
       "type": solution_type,
       "name": solution_name,
       "attributes": {
+        //"domain": solution_domain,  // list of all domains
+        //"technology": solution_technology, // list of all technologies
         "url": solution_url,
         "company name": company_name,
         "description": solution_description,
