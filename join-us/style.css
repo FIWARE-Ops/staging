@@ -1302,13 +1302,22 @@ tr.gridTable__service td:last-of-type {
     width: 100%;
   }
 
+  .et_pb_section_4 {
+    padding-top: 80px;
+  }
+
   .et_pb_row_2 {
     width: 85%;
+  }
+
+  .et_pb_row_3 {
+    padding-bottom: 0!important;
   }
 
   .et_pb_row_7 {
     width: 100%;
   }
+  
   .et_pb_tabs_controls li {
     min-width: 110px;
     display: flex;
@@ -1318,14 +1327,6 @@ tr.gridTable__service td:last-of-type {
 
   .et_pb_tabs_controls li a {
     padding: 0 20px;
-  }
-
-  .et_pb_row_3.et_pb_row {
-    padding-bottom: 0!important;
-  }
-
-  .et_pb_section_4.et_pb_section {
-    padding-top: 80px;
   }
 
   /* –––––––––––––––––––––*/
