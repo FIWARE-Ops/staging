@@ -1303,7 +1303,7 @@ tr.gridTable__service td:last-of-type {
   }
 
   .et_pb_section_4 {
-    padding-top: 80px;
+    padding-top: 80px!important;
   }
 
   .et_pb_row_2 {
@@ -1333,7 +1333,7 @@ tr.gridTable__service td:last-of-type {
 
 
   .cat-grid.cat-grid.single-item {
-    margin: 0 auto;
+    margin: 30px auto 0;
   }
 
   .grid-item {
@@ -1471,10 +1471,6 @@ tr.gridTable__service td:last-of-type {
     line-height: normal;
   }
 
-  .tingle-modal-box {
-    width: 90%;
-  }
-
   .tingle-modal .bio-modal p {
     padding: 0 20px 0px;
   }
@@ -1488,12 +1484,13 @@ tr.gridTable__service td:last-of-type {
     padding: 2rem;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    /* gap: 10px; */
+    overflow-y: hidden;
   }
 
   .credits-modal {
     width: fit-content;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
   }
 
   .info-modal {
@@ -1502,7 +1499,6 @@ tr.gridTable__service td:last-of-type {
 
   .tingle-modal img {
     width: 100%;
-    height: 30px !important;
   }
 
   .social-modal {
@@ -1511,8 +1507,8 @@ tr.gridTable__service td:last-of-type {
   }
 
   .cat-badge-modal {
+    height: 30px !important;
     transform: none;
-    margin-bottom: 10px;
   }
 
   .cat-ico-modal {
