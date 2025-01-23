@@ -933,12 +933,17 @@
   border: unset;
 }
 
+table {
+  width: 100%;
+}
+
 tbody tr:nth-child(odd) {
   background-color: unset;
 }
 
 .gridTable {
   /* user-select: none; */
+  table-layout: fixed;
 }
 
 .gridTable__cell {
@@ -1006,7 +1011,7 @@ th.gridTable__rowHead {
 
 .gridTable__sectionHeading {
   width: 100%;
-  border: 1px solid #e3e3e4;
+  /* border: 1px solid #e3e3e4; */
 }
 
 .gridTable__sectionHeading.alt {
@@ -1017,7 +1022,8 @@ th.gridTable__rowHead {
   text-align: center;
   font-size: 15px;
   font-weight: 600;
-  color: #241c15;
+  color: #005fb9;
+  background-color: #cce0f0;
   padding: 8px 12px;
 }
 
@@ -1041,27 +1047,25 @@ th.gridTable__rowHead {
 
 tr.gridTable__service th {
   padding: 8px 12px !important;
-}
-
-tr.gridTable__service th {
-  border-left: 1px solid #e3e3e4;
+  border-left: 1px solid #e3e3e4
 }
 
 tr.gridTable__service td {
+  padding: 8px 12px !important;
   color: #464748;
-  padding: 8px 12px 2px;
   border-left: 1px solid #e3e3e4;
   font-weight: 400;
 }
 
 tr.gridTable__service td span.ico-check {
+  padding: 6px 0 2px;
   color: #3cab3b;
   font-size: 28px;
   font-weight: 300;
-  /* padding: 8px 12px 2px; */
 }
 
 tr.gridTable__service td span.ico-close {
+  padding: 6px 0 2px;
   color: #ee4b2b;
   font-size: 28px;
   font-weight: 300;;
@@ -1294,6 +1298,14 @@ tr.gridTable__service td:last-of-type {
   
   /* Divi Settings */
 
+  .et_pb_section_1 {
+    width: 100%;
+  }
+
+  .et_pb_row_2 {
+    width: 85%;
+  }
+
   .et_pb_row_7 {
     width: 100%;
   }
@@ -1308,6 +1320,17 @@ tr.gridTable__service td:last-of-type {
     padding: 0 20px;
   }
 
+  .et_pb_row_3.et_pb_row {
+    padding-bottom: 0!important;
+  }
+
+  .et_pb_section_4.et_pb_section {
+    padding-top: 80px;
+  }
+
+  /* –––––––––––––––––––––*/
+
+
   .cat-grid.cat-grid.single-item {
     margin: 0 auto;
   }
@@ -1319,7 +1342,11 @@ tr.gridTable__service td:last-of-type {
 
   .grid-item.col-3 {
     width: 85%;
-    margin: 0px auto 20px !important;
+    margin: 0px auto 30px !important;
+  }
+
+  .grid-item.col-3:last-of-type {
+    margin: 0px auto !important;
   }
 
   .f-cat {
@@ -1465,7 +1492,7 @@ tr.gridTable__service td:last-of-type {
 
   .credits-modal {
     width: fit-content;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
 
   .info-modal {
@@ -1474,7 +1501,7 @@ tr.gridTable__service td:last-of-type {
 
   .tingle-modal img {
     width: 100%;
-    margin: 6px auto 0px;
+    height: 30px !important;
   }
 
   .social-modal {
@@ -1483,10 +1510,8 @@ tr.gridTable__service td:last-of-type {
   }
 
   .cat-badge-modal {
-    width: 100%;
-    height: 30px !important;
     transform: none;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
   .cat-ico-modal {
@@ -1548,10 +1573,41 @@ tr.gridTable__service td:last-of-type {
   }
 
   /* Table */
+
+  .gridTable__cell {
+    width: 25%;
+  }
+
   .gridTable tr.plans-header th {
     display: none;
   }
-  
+
+  .gridTable tr {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .gridTable tr th {
+    width: 100%;
+  }
+
+  tr.gridTable__service th {
+    border-top: 1px solid #e3e3e4;
+    border-bottom: 1px solid #e3e3e4;
+  }
+
+  .gridTable__cell.platinum span.ico-check,
+  .gridTable__cell.gold span.ico-check,
+  .gridTable__cell.associate span.ico-check,
+  .gridTable__cell.individual span.ico-check {
+    display: none;
+  }
+
+  tr.gridTable__service td {
+    width: 25%;
+  }
+
 }
 
 @media (max-width: 480px) {
