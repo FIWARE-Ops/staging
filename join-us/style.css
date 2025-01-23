@@ -1280,6 +1280,74 @@ tr.gridTable__service td:last-of-type {
 
 /* ––––––––––––––––– */
 
+/* HappyForms */
+
+.happyforms-flex.happyforms-step_information_wrapper {
+  display:none;
+}
+
+.happyforms-flex {
+  padding: 0;
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.happyforms-styles .happyforms-layout-title {
+  color: #002e67;
+  font-weight: 500;
+  padding-bottom: 0px;
+}
+
+.happyforms-styles .happyforms-part__label .label {
+  font-weight: 500;
+}
+
+.happyforms-form__part[data-happyforms-required] .happyforms-part__label .happyforms-required {
+  display: inline-block;
+  color: #f23000;
+}
+
+.happyforms-styles .happyforms-part--mailchimp .checkmark {
+  margin-right: 16px;
+}
+
+.happyforms-styles.happyforms-form--submit-button-border-hide button[type=submit].happyforms-button--submit, .happyforms-styles.happyforms-form--submit-button-border-hide button.happyforms-button--submit {
+  font-weight: 500;
+}
+
+.happyforms-message-notices {
+  margin: 25px 25px 0px 25px;
+  width: auto;
+}
+
+.happyforms-styles .happyforms-part-preview {
+  margin: 16px 0px;
+  padding: 12px 12px 10px 12px;
+  border-radius: 3px;
+}
+
+.happyforms-styles .happyforms-part-preview:nth-child(even) {
+  margin: 16px 0px;
+  padding: 12px 12px 10px 12px;
+  border-radius: 3px;
+}
+
+.happyforms-form__part {
+  margin-bottom: 0;
+  padding: 10px 1%;
+}
+
+.happyforms-styles .happyforms-part-preview .happyforms-part__label .label {
+  font-weight: 600;
+}
+
+.happyforms-print-submission {
+  text-align: center!important;
+  margin: 15px auto 0!important;
+}
+
+/* ––––––––––––––––– */
+
 @media only screen and (min-width: 769px) and (max-width: 1100px) {
   .icons {
     flex-direction: row;
@@ -1630,4 +1698,22 @@ tr.gridTable__service td:last-of-type {
   .step {
     display: none;
   }
+
+  /* HappyForms */
+
+  .happyforms-form-progress {
+    display: none;
+  }
+
+  .happyforms-form {
+      width: 90%;
+      padding-top: 16px;
+  }
+  
+  .happyforms-flex {
+      padding: 0;
+      max-width: 100%;
+      margin: 0 auto;
+  }
+
 }
