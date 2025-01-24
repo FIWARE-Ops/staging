@@ -186,7 +186,7 @@ async function fetchLocation() {
   }
 }
 
-function runPageTracking() {
+function runPageTracking(e) {
     e.target.removeEventListener("DOMContentLoaded", runPageTracking, false);
     // qualetics init
     let qualetics;
