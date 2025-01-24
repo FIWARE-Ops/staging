@@ -273,25 +273,51 @@ function runPageTracking(e) {
       port: 443,
       trackUserGeoLocation: false,
     };
-    if (window.location.pathname.includes("staging/showcase")) {
-      qualetics = new Qualetics.service(
-        "stagingshowcase",
-        "TvebnoeTX8Qa",
-        "QpnumF",
-        PAGEVIEW_TRACKING,
-        OPTIONS,
-      );
-      document.addEventListener("locationAvailable", () => {
-        showcaseTracking(qualetics);
-      }); // send data to qualetics once location is available
+    if (window.location.host === "www.fiware.org") {
+      if (
+        document.location.href.includes("www.fiware.org/showcase") ||
+        document.referrer.includes("www.fiware.org/showcase")
+      ) {
+        qualetics = new Qualetics.service(
+          "showcase",
+          "pZkyAx0L57LE",
+          "JtlXpW",
+          PAGEVIEW_TRACKING,
+          OPTIONS,
+        );
+        document.addEventListener("locationAvailable", () => {
+          showcaseTracking(qualetics);
+        }); // send data to qualetics once location is available
+      } else {
+        qualetics = new Qualetics.service(
+          "fiwareweb",
+          "5uJm5tmcWNbe",
+          "ReLNFq",
+          PAGEVIEW_TRACKING,
+          OPTIONS,
+        );
+      }
     } else {
-      qualetics = new Qualetics.service(
-        "fiwarestaging",
-        "tCYhHGwxFW28",
-        "L4z5mP",
-        PAGEVIEW_TRACKING,
-        OPTIONS,
-      );
+      if (window.location.pathname.includes("staging/showcase")) {
+        qualetics = new Qualetics.service(
+          "stagingshowcase",
+          "TvebnoeTX8Qa",
+          "QpnumF",
+          PAGEVIEW_TRACKING,
+          OPTIONS,
+        );
+        document.addEventListener("locationAvailable", () => {
+          showcaseTracking(qualetics);
+        }); // send data to qualetics once location is available
+      } else {
+        qualetics = new Qualetics.service(
+          "fiwarestaging",
+          "tCYhHGwxFW28",
+          "L4z5mP",
+          PAGEVIEW_TRACKING,
+          OPTIONS,
+        );
+      }
     }
     qualetics.init();
     fetchLocation();
