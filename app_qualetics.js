@@ -184,6 +184,7 @@ async function fetchLocation() {
 }
 
 // qualetics init
+let qualetics;
 try {
     PAGEVIEW_TRACKING = true;
     OPTIONS = {
@@ -191,7 +192,6 @@ try {
               port: 443,
               trackUserGeoLocation: false
               };
-    let qualetics;
     if (window.location.pathname.includes("staging/showcase")) {
       qualetics = new Qualetics.service("stagingshowcase", "TvebnoeTX8Qa", "QpnumF", PAGEVIEW_TRACKING, OPTIONS);  
     } else {
