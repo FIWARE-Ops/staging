@@ -252,8 +252,8 @@ window.eventData = [
     {
         "id": "202503-data-spaces-symposium-2025",
         "title": "Data Spaces Symposium 2025",
-        "from": "2025-03-11T23:00:00.000Z",
-        "to": "2024-12-11T23:00:00.000Z",
+        "from": "2025-03-10T23:00:00.000Z",
+        "to": "2025-03-11T23:00:00.000Z",
         "description": "The Data Spaces Symposium 2025 will highlight the value of data sharing in Europe and beyond, unlocking business opportunities, and boosting the impact and market adoption.",
         "location": "Hilton Warsaw City Grzybowska 63, 00-844 ",
         "isAllDay": true,
