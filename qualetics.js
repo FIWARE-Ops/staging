@@ -179,8 +179,8 @@ function showcaseTracking(qualetics) {
 
   const actor = {
     type: "User",
-    id: "Undefined",
-    attributes: { name: "Undefined", geoLocation: window.geoLocation },
+    id: "Anonymous",
+    attributes: { name: "Anonymous", geoLocation: window.geoLocation },
   };
 
 
