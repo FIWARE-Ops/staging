@@ -267,7 +267,6 @@ async function fetchLocation() {
 function runPageTracking(e) {
     e.target.removeEventListener("DOMContentLoaded", runPageTracking, false);
     // qualetics init
-    let qualetics;
     try {
         PAGEVIEW_TRACKING = true;
         OPTIONS = {
@@ -289,7 +288,7 @@ function runPageTracking(e) {
     }
 }
 
-
+let qualetics;
 document.addEventListener("DOMContentLoaded", (e) => {
     runPageTracking(e);
 });
