@@ -160,6 +160,7 @@ function showcaseTracking(qualetics) {
           "url": url,
           "company url": company_url,
           "company name": company_name,
+          "solution type": solution_type,
           "description": solution_description,
           "indexforsearch": true,
         },
@@ -170,8 +171,6 @@ function showcaseTracking(qualetics) {
         "name": solution_name,
         "type": "showcase details",
         "attributes": {
-          "url": url,
-          "solution name": solution_name,
           "company name": company_name,
           "solution type": solution_type,
           //"domain": solution_domain,  // list of all domains
