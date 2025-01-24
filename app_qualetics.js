@@ -31,13 +31,14 @@ function cardTracking(e) {
     const solution_url = document.URL;
 
     const actor = {
-      type: "User",
+      "type": "User",
       id: "Undefined",
       attributes: { name: "Undefined", geoLocation: window.geoLocation },
     };
 
     const action = {
       name: "Showcase Product Details",
+      "attributes": {"type": "details"}
       // "Go to the Solution Website"
       // "Tracking Socials"
       // attributes: {"type": "facebook", "twitter/X", "webpage", "mail", "linkedin", "???"}
@@ -46,7 +47,7 @@ function cardTracking(e) {
     };
 
     const context = {
-      type: "Showcase",
+      "type": "Showcase",
       name: "Showcase Product Details",
       attributes: {
         url: solution_url,
@@ -55,7 +56,7 @@ function cardTracking(e) {
     };
 
     const object = {
-      type: solution_type,
+      "type": solution_type,
       name: solution_name,
       attributes: {
         //"domain": solution_domain,  // list of all domains
