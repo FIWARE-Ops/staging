@@ -22,6 +22,7 @@ function showcaseTracking(qualetics) {
   const url = document.URL;
   let object;
   let action;
+  let context;
 
   switch (path[path.length - 2]) {
     case "showcase":
@@ -37,6 +38,13 @@ function showcaseTracking(qualetics) {
           indexforsearch: true,
         },
       };
+      context = {
+        name: "Showcase main page",
+        type: "showcase menu",
+        attributes: {
+          url: url,
+        },
+      };
       break;
     case "powered-by-fiware":
       action = {
@@ -44,11 +52,18 @@ function showcaseTracking(qualetics) {
         type: "showcase menu",
       };
       object = {
-        name: "Powered by FIWARE",
+        name: "Powered by FIWARE main page",
         type: "showcase menu",
         attributes: {
           url: url,
           indexforsearch: true,
+        },
+      };
+      context = {
+        name: "Powered by FIWARE main page",
+        type: "showcase menu",
+        attributes: {
+          url: url,
         },
       };
       break;
@@ -58,11 +73,18 @@ function showcaseTracking(qualetics) {
         type: "showcase menu",
       };
       object = {
-        name: "FIWARE Ready",
+        name: "FIWARE Ready main page",
         type: "showcase menu",
         attributes: {
           url: url,
           indexforsearch: true,
+        },
+      };
+      context = {
+        name: "FIWARE Ready main page",
+        type: "showcase menu",
+        attributes: {
+          url: url,
         },
       };
       break;
@@ -72,11 +94,18 @@ function showcaseTracking(qualetics) {
         type: "showcase menu",
       };
       object = {
-        name: "Cities 4 Cities",
+        name: "Cities 4 Cities main page",
         type: "showcase menu",
         attributes: {
           url: url,
           indexforsearch: true,
+        },
+      };
+      context = {
+        name: "Cities 4 Cities main page",
+        type: "showcase menu",
+        attributes: {
+          url: url,
         },
       };
       break;
@@ -86,11 +115,18 @@ function showcaseTracking(qualetics) {
         type: "showcase menu",
       };
       object = {
-        name: "Search All Support Services",
+        name: "Support Services main page",
         type: "showcase menu",
         attributes: {
           url: url,
           indexforsearch: true,
+        },
+      };
+      context = {
+        name: "Support Services main page",
+        type: "showcase menu",
+        attributes: {
+          url: url,
         },
       };
       break;
@@ -108,8 +144,8 @@ function showcaseTracking(qualetics) {
         .getAttribute("content");
 
       action = {
-        name: "Product Details",
-        type: "showcase details",
+        "name": "Product Details",
+        "type": "showcase details",
         // "Go to the Solution Website"
         // "Tracking Socials"
         // attributes: {"type": "facebook", "twitter/X", "webpage", "mail", "linkedin", "???"}
@@ -118,16 +154,25 @@ function showcaseTracking(qualetics) {
       };
 
       object = {
-        name: solution_name,
-        type: solution_type,
-        attributes: {
+        "name": solution_name,
+        "type": "showcase details",
+        "attributes": {
           //"domain": solution_domain,  // list of all domains
           //"technology": solution_technology, // list of all technologies
-          url: url,
+          "url": url,
           "company name": company_name,
           "company url": company_url,
-          description: solution_description,
-          indexforsearch: true,
+          "description": solution_description,
+          "solution type": solution_type,
+          "indexforsearch": true,
+        },
+      };
+
+      context = {
+        "name": "showcase solution details",
+        "type": "showcase details",
+        "attributes": {
+          "url": url,
         },
       };
   }
@@ -138,13 +183,6 @@ function showcaseTracking(qualetics) {
     attributes: { name: "Undefined", geoLocation: window.geoLocation },
   };
 
-  const context = {
-    type: "showcase",
-    name: "showcase",
-    attributes: {
-      url: url,
-    },
-  };
 
   buildTracker(actor, action, context, object, qualetics);
 }
