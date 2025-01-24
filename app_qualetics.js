@@ -167,6 +167,7 @@ async function getLocationFromIP(ip) {
 
 // Example usage with async/await
 async function fetchLocation() {
+  const locationEvent = new Event("locationAvailable");
   try {
     //const ip = await withTimeout(getIpAddress(), 5000);
     //window.geoLocation = await withTimeout(getLocationFromIP(ip), 5000);
@@ -197,7 +198,6 @@ try {
       qualetics = new Qualetics.service("fiwarestaging", "tCYhHGwxFW28", "L4z5mP", PAGEVIEW_TRACKING, OPTIONS);  
     }
     qualetics.init();
-    const locationEvent = new Event("locationAvailable");
     document.addEventListener("locationAvailable", cardTracking); // send data to qualetics once location is available
     fetchLocation();
 } catch (error) {
