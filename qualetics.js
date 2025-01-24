@@ -301,5 +301,8 @@ function runPageTracking(e) {
 }
 
 document.addEventListener("DOMContentLoaded", (e) => {
-  runPageTracking(e);
+  const host = new URL(window.location.href).hostname;
+  if (host !== "localhost") {
+    runPageTracking(e);
+  }
 });
