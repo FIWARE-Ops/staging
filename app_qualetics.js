@@ -15,9 +15,11 @@ function buildTracker(actor, action, context, object) {
 }
 
 // Card tracking
-function cardTracking(e) {
-  e.target.removeEventListener("locationAvailable", cardTracking, false);
+function showcaseTracking(e) {
+  e.target.removeEventListener("locationAvailable", showcaseTracking, false);
   $(document).ready(function () {
+
+
     const company_name = document.querySelector(
       "h5#organisation-name",
     ).textContent;
@@ -184,23 +186,32 @@ async function fetchLocation() {
   }
 }
 
-// qualetics init
-let qualetics;
-try {
-    PAGEVIEW_TRACKING = true;
-    OPTIONS = {
-              host: "wss://api.qualetics.com",
-              port: 443,
-              trackUserGeoLocation: false
-              };
-    if (window.location.pathname.includes("staging/showcase")) {
-      qualetics = new Qualetics.service("stagingshowcase", "TvebnoeTX8Qa", "QpnumF", PAGEVIEW_TRACKING, OPTIONS);  
-    } else {
-      qualetics = new Qualetics.service("fiwarestaging", "tCYhHGwxFW28", "L4z5mP", PAGEVIEW_TRACKING, OPTIONS);  
+function runPageTracking() {
+    e.target.removeEventListener("DOMContentLoaded", runPageTracking, false);
+    // qualetics init
+    let qualetics;
+    try {
+        PAGEVIEW_TRACKING = true;
+        OPTIONS = {
+                host: "wss://api.qualetics.com",
+                port: 443,
+                trackUserGeoLocation: false
+                };
+        if (window.location.pathname.includes("staging/showcase")) {
+        qualetics = new Qualetics.service("stagingshowcase", "TvebnoeTX8Qa", "QpnumF", PAGEVIEW_TRACKING, OPTIONS);  
+        document.addEventListener("locationAvailable", showcaseTracking); // send data to qualetics once location is available
+        } else {
+        qualetics = new Qualetics.service("fiwarestaging", "tCYhHGwxFW28", "L4z5mP", PAGEVIEW_TRACKING, OPTIONS);  
+        
+        }
+        qualetics.init();
+        fetchLocation();
+    } catch (error) {
+        console.error("Tracking failed:", error);
     }
-    qualetics.init();
-    document.addEventListener("locationAvailable", cardTracking); // send data to qualetics once location is available
-    fetchLocation();
-} catch (error) {
-    console.error("Tracking failed:", error);
 }
+
+
+document.addEventListener("DOMContentLoaded", (e) => {
+    runPageTracking(e);
+});
