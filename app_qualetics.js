@@ -1,4 +1,4 @@
-function buildTracker(actor, action, context, object) {
+function buildTracker(actor, action, context, object, qualetics) {
   const eventObj = {
     actor,
     action,
@@ -15,141 +15,138 @@ function buildTracker(actor, action, context, object) {
 }
 
 // Card tracking
-function showcaseTracking(e) {
-  e.target.removeEventListener("locationAvailable", showcaseTracking, false);
-  $(document).ready(function () {
+function showcaseTracking(qualetics) {
+  //e.target.removeEventListener("locationAvailable", showcaseTracking, false);
 
-    const path = document.location.href.split("/")
-    const url = document.URL;
-    let object;
-    let action;
+  const path = document.location.href.split("/");
+  const url = document.URL;
+  let object;
+  let action;
 
-    switch (path[path.length-2]) {
-        case 'showcase':
-            action = {
-                "name": "Search All Showcase",
-                "type": "showcase menu"
-            };
-            object = {
-                "name": "Showcase main page",
-                "type": "showcase menu",
-                "attributes": {
-                  "url": url,
-                  "indexforsearch": true,
-                },
-            };
-          break;
-        case 'powered-by-fiware':
-            action = {
-                "name": "Search All Powered by FIWARE",
-                "type": "showcase menu"
-            };
-            object = {
-                "name": "Powered by FIWARE",
-                "type": "showcase menu",
-                "attributes": {
-                  "url": url,
-                  "indexforsearch": true,
-                },
-            };
-            break;
-        case 'fiware-ready':
-            action = {
-                "name": "Search All FIWARE Ready",
-                "type": "showcase menu"
-            };
-            object = {
-                "name": "FIWARE Ready",
-                "type": "showcase menu",
-                "attributes": {
-                  "url": url,
-                  "indexforsearch": true,
-                },
-            };
-            break;
-        case 'cities4cities':
-            action = {
-                "name": "Search All Cities 4 Cities",
-                "type": "showcase menu"
-            };
-            object = {
-                "name": "Cities 4 Cities",
-                "type": "showcase menu",
-                "attributes": {
-                  "url": url,
-                  "indexforsearch": true,
-                },
-            };
-            break;
-        case 'support-services':
-            action = {
-                "name": "Support Services",
-                "type": "showcase menu"
-            };
-            object = {
-                "name": "Search All Support Services",
-                "type": "showcase menu",
-                "attributes": {
-                  "url": url,
-                  "indexforsearch": true,
-                },
-            };
-            break;
-        default:
-            const company_name = document.querySelector(
-            "h5#organisation-name",
-            ).textContent;
-            const company_url = document.querySelector("#organisation-website").href;
-    
-            const solution_type = document.querySelector("h5").textContent;
-            const solution_name = document.querySelector("h1#product-name").textContent;
-            const solution_description = document.head
-            .querySelector('meta[name="description"]')
-            .getAttribute("content");
+  switch (path[path.length - 2]) {
+    case "showcase":
+      action = {
+        name: "Search All Showcase",
+        type: "showcase menu",
+      };
+      object = {
+        name: "Showcase main page",
+        type: "showcase menu",
+        attributes: {
+          url: url,
+          indexforsearch: true,
+        },
+      };
+      break;
+    case "powered-by-fiware":
+      action = {
+        name: "Search All Powered by FIWARE",
+        type: "showcase menu",
+      };
+      object = {
+        name: "Powered by FIWARE",
+        type: "showcase menu",
+        attributes: {
+          url: url,
+          indexforsearch: true,
+        },
+      };
+      break;
+    case "fiware-ready":
+      action = {
+        name: "Search All FIWARE Ready",
+        type: "showcase menu",
+      };
+      object = {
+        name: "FIWARE Ready",
+        type: "showcase menu",
+        attributes: {
+          url: url,
+          indexforsearch: true,
+        },
+      };
+      break;
+    case "cities4cities":
+      action = {
+        name: "Search All Cities 4 Cities",
+        type: "showcase menu",
+      };
+      object = {
+        name: "Cities 4 Cities",
+        type: "showcase menu",
+        attributes: {
+          url: url,
+          indexforsearch: true,
+        },
+      };
+      break;
+    case "support-services":
+      action = {
+        name: "Support Services",
+        type: "showcase menu",
+      };
+      object = {
+        name: "Search All Support Services",
+        type: "showcase menu",
+        attributes: {
+          url: url,
+          indexforsearch: true,
+        },
+      };
+      break;
+    default:
+      const company_name = document.querySelector(
+        "h5#organisation-name",
+      ).textContent;
+      const company_url = document.querySelector("#organisation-website").href;
 
-            action = {
-                "name": "Product Details",
-                "type": "showcase details"
-                // "Go to the Solution Website"
-                // "Tracking Socials"
-                // attributes: {"type": "facebook", "twitter/X", "webpage", "mail", "linkedin", "???"}
-                // "Tracking Extra Materials":
-                // attributes: {"type": "reference materials", "documentation", "???"}
-            };
-            
-            object = {
-                "name": solution_name,
-                "type": solution_type,
-                "attributes": {
-                  //"domain": solution_domain,  // list of all domains
-                  //"technology": solution_technology, // list of all technologies
-                  "url": url,
-                  "company name": company_name,
-                  "company url": company_url,
-                  "description": solution_description,
-                  "indexforsearch": true,
-                },
-            };
-    }
-    
-        
+      const solution_type = document.querySelector("h5").textContent;
+      const solution_name =
+        document.querySelector("h1#product-name").textContent;
+      const solution_description = document.head
+        .querySelector('meta[name="description"]')
+        .getAttribute("content");
 
-    const actor = {
-      "type": "User",
-      "id": "Undefined",
-      "attributes": { name: "Undefined", geoLocation: window.geoLocation },
-    };
+      action = {
+        name: "Product Details",
+        type: "showcase details",
+        // "Go to the Solution Website"
+        // "Tracking Socials"
+        // attributes: {"type": "facebook", "twitter/X", "webpage", "mail", "linkedin", "???"}
+        // "Tracking Extra Materials":
+        // attributes: {"type": "reference materials", "documentation", "???"}
+      };
 
-    const context = {
-      "type": "showcase",
-      "name": "showcase",
-      "attributes": {
-        "url": url,
-      },
-    };
+      object = {
+        name: solution_name,
+        type: solution_type,
+        attributes: {
+          //"domain": solution_domain,  // list of all domains
+          //"technology": solution_technology, // list of all technologies
+          url: url,
+          "company name": company_name,
+          "company url": company_url,
+          description: solution_description,
+          indexforsearch: true,
+        },
+      };
+  }
 
-    buildTracker(actor, action, context, object);
-  });
+  const actor = {
+    type: "User",
+    id: "Undefined",
+    attributes: { name: "Undefined", geoLocation: window.geoLocation },
+  };
+
+  const context = {
+    type: "showcase",
+    name: "showcase",
+    attributes: {
+      url: url,
+    },
+  };
+
+  buildTracker(actor, action, context, object, qualetics);
 }
 
 async function getRandomCoordinates() {
@@ -265,30 +262,44 @@ async function fetchLocation() {
 }
 
 function runPageTracking(e) {
-    e.target.removeEventListener("DOMContentLoaded", runPageTracking, false);
-    // qualetics init
-    try {
-        PAGEVIEW_TRACKING = true;
-        OPTIONS = {
-                host: "wss://api.qualetics.com",
-                port: 443,
-                trackUserGeoLocation: false
-                };
-        if (window.location.pathname.includes("staging/showcase")) {
-        qualetics = new Qualetics.service("stagingshowcase", "TvebnoeTX8Qa", "QpnumF", PAGEVIEW_TRACKING, OPTIONS);  
-        document.addEventListener("locationAvailable", showcaseTracking); // send data to qualetics once location is available
-        } else {
-        qualetics = new Qualetics.service("fiwarestaging", "tCYhHGwxFW28", "L4z5mP", PAGEVIEW_TRACKING, OPTIONS);  
-        
-        }
-        qualetics.init();
-        fetchLocation();
-    } catch (error) {
-        console.error("Tracking failed:", error);
+  e.target.removeEventListener("DOMContentLoaded", runPageTracking, false);
+  let qualetics;
+
+  // qualetics init
+  try {
+    PAGEVIEW_TRACKING = true;
+    OPTIONS = {
+      host: "wss://api.qualetics.com",
+      port: 443,
+      trackUserGeoLocation: false,
+    };
+    if (window.location.pathname.includes("staging/showcase")) {
+      qualetics = new Qualetics.service(
+        "stagingshowcase",
+        "TvebnoeTX8Qa",
+        "QpnumF",
+        PAGEVIEW_TRACKING,
+        OPTIONS,
+      );
+      document.addEventListener("locationAvailable", () => {
+        showcaseTracking(qualetics);
+      }); // send data to qualetics once location is available
+    } else {
+      qualetics = new Qualetics.service(
+        "fiwarestaging",
+        "tCYhHGwxFW28",
+        "L4z5mP",
+        PAGEVIEW_TRACKING,
+        OPTIONS,
+      );
     }
+    qualetics.init();
+    fetchLocation();
+  } catch (error) {
+    console.error("Tracking failed:", error);
+  }
 }
 
-let qualetics;
 document.addEventListener("DOMContentLoaded", (e) => {
-    runPageTracking(e);
+  runPageTracking(e);
 });
