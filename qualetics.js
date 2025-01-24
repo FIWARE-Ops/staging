@@ -157,22 +157,25 @@ function showcaseTracking(qualetics) {
         "name": solution_name,
         "type": "showcase details",
         "attributes": {
-          //"domain": solution_domain,  // list of all domains
-          //"technology": solution_technology, // list of all technologies
           "url": url,
-          "company name": company_name,
           "company url": company_url,
+          "company name": company_name,
           "description": solution_description,
-          "solution type": solution_type,
           "indexforsearch": true,
         },
       };
-
+      
+      // this is obligatory
       context = {
-        "name": "showcase solution details",
+        "name": solution_name,
         "type": "showcase details",
         "attributes": {
           "url": url,
+          "solution name": solution_name,
+          "company name": company_name,
+          "solution type": solution_type,
+          //"domain": solution_domain,  // list of all domains
+          //"technology": solution_technology, // list of all technologies
         },
       };
   }
