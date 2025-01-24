@@ -38,7 +38,7 @@ function cardTracking(e) {
 
     const action = {
       name: "Showcase Product Details",
-      "attributes": {"type": "details"}
+      "type": "details"
       // "Go to the Solution Website"
       // "Tracking Socials"
       // attributes: {"type": "facebook", "twitter/X", "webpage", "mail", "linkedin", "???"}
