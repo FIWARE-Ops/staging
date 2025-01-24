@@ -19,54 +19,132 @@ function showcaseTracking(e) {
   e.target.removeEventListener("locationAvailable", showcaseTracking, false);
   $(document).ready(function () {
 
+    const path = document.location.href.split("/")
+    const url = document.URL;
+    let object;
+    let action;
 
-    const company_name = document.querySelector(
-      "h5#organisation-name",
-    ).textContent;
-    const company_url = document.querySelector("#organisation-website").href;
+    switch (path[path.length-2]) {
+        case 'showcase':
+            action = {
+                "name": "Search All Showcase",
+                "type": "showcase menu"
+            };
+            object = {
+                "name": "Showcase main page",
+                "type": "showcase menu",
+                "attributes": {
+                  "url": url,
+                  "indexforsearch": true,
+                },
+            };
+          break;
+        case 'powered-by-fiware':
+            action = {
+                "name": "Search All Powered by FIWARE",
+                "type": "showcase menu"
+            };
+            object = {
+                "name": "Powered by FIWARE",
+                "type": "showcase menu",
+                "attributes": {
+                  "url": url,
+                  "indexforsearch": true,
+                },
+            };
+            break;
+        case 'fiware-ready':
+            action = {
+                "name": "Search All FIWARE Ready",
+                "type": "showcase menu"
+            };
+            object = {
+                "name": "FIWARE Ready",
+                "type": "showcase menu",
+                "attributes": {
+                  "url": url,
+                  "indexforsearch": true,
+                },
+            };
+            break;
+        case 'cities4cities':
+            action = {
+                "name": "Search All Cities 4 Cities",
+                "type": "showcase menu"
+            };
+            object = {
+                "name": "Cities 4 Cities",
+                "type": "showcase menu",
+                "attributes": {
+                  "url": url,
+                  "indexforsearch": true,
+                },
+            };
+            break;
+        case 'support-services':
+            action = {
+                "name": "Support Services",
+                "type": "showcase menu"
+            };
+            object = {
+                "name": "Search All Support Services",
+                "type": "showcase menu",
+                "attributes": {
+                  "url": url,
+                  "indexforsearch": true,
+                },
+            };
+            break;
+        default:
+            const company_name = document.querySelector(
+            "h5#organisation-name",
+            ).textContent;
+            const company_url = document.querySelector("#organisation-website").href;
+    
+            const solution_type = document.querySelector("h5").textContent;
+            const solution_name = document.querySelector("h1#product-name").textContent;
+            const solution_description = document.head
+            .querySelector('meta[name="description"]')
+            .getAttribute("content");
 
-    const solution_type = document.querySelector("h5").textContent;
-    const solution_name = document.querySelector("h1#product-name").textContent;
-    const solution_description = document.head
-      .querySelector('meta[name="description"]')
-      .getAttribute("content");
-    const solution_url = document.URL;
+            action = {
+                "name": "Product Details",
+                "type": "showcase details"
+                // "Go to the Solution Website"
+                // "Tracking Socials"
+                // attributes: {"type": "facebook", "twitter/X", "webpage", "mail", "linkedin", "???"}
+                // "Tracking Extra Materials":
+                // attributes: {"type": "reference materials", "documentation", "???"}
+            };
+            
+            object = {
+                "name": solution_name,
+                "type": solution_type,
+                "attributes": {
+                  //"domain": solution_domain,  // list of all domains
+                  //"technology": solution_technology, // list of all technologies
+                  "url": url,
+                  "company name": company_name,
+                  "company url": company_url,
+                  "description": solution_description,
+                  "indexforsearch": true,
+                },
+            };
+    }
+    
+        
 
     const actor = {
       "type": "User",
-      id: "Undefined",
-      attributes: { name: "Undefined", geoLocation: window.geoLocation },
-    };
-
-    const action = {
-      name: "Showcase Product Details",
-      "type": "details"
-      // "Go to the Solution Website"
-      // "Tracking Socials"
-      // attributes: {"type": "facebook", "twitter/X", "webpage", "mail", "linkedin", "???"}
-      // "Tracking Extra Materials":
-      // attributes: {"type": "reference materials", "documentation", "???"}
+      "id": "Undefined",
+      "attributes": { name: "Undefined", geoLocation: window.geoLocation },
     };
 
     const context = {
-      "type": "Showcase",
-      name: "Showcase Product Details",
-      attributes: {
-        url: solution_url,
-        "company name": company_name,
-      },
-    };
-
-    const object = {
-      "type": solution_type,
-      name: solution_name,
-      attributes: {
-        //"domain": solution_domain,  // list of all domains
-        //"technology": solution_technology, // list of all technologies
-        url: solution_url,
-        "company name": company_name,
-        description: solution_description,
-        indexforsearch: true,
+      "type": "showcase",
+      "name": "showcase",
+      "attributes": {
+        "url": url,
       },
     };
 
