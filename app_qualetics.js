@@ -6,9 +6,9 @@ function buildTracker(actor, action, context, object) {
     object,
   };
 
-  if (this.qualetics) {
+  if (qualetics) {
     console.log("Sending:", eventObj);
-    this.qualetics.send(eventObj);
+    qualetics.send(eventObj);
   } else {
     console.log("no qualetics", eventObj);
   }
