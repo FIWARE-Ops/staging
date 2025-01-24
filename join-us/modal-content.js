@@ -19,7 +19,7 @@ var modalData = [
 {
     "img": "https://www.fiware.org/style/imgs/join-us/icons/icon-fiware-for-growth.svg",
     "badge": "https://www.fiware.org/style/imgs/join-us/badges/badge-fiware-for-growth.svg",
-    "content": "Supercharge your growth journey by unlocking the most promising open calls that you can respond to using FIWARE technology. Stay updated on the latest internationally funded projects and enhance your chances of successful participation. Join our exclusive informational sessions to learn more about European Commission topics related to FIWARE technology. Connect with other members who share your interests and express your willingness to contribute to exciting proposals.</p><h2>Program Services</h2><ul class='program-services'><li>Calls for interest</li><li>EU funding opportunities</li><li>Solutions showcase</li><li>Challenge to solution</li><li>Business opportunities</li></ul>",
+    "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p><h2>Program Services</h2><ul class='program-services'><li>Calls for interest</li><li>EU funding opportunities</li><li>Solutions showcase</li><li>Challenge to solution</li><li>Business opportunities</li></ul>",
   },
 {  
   	"name" : "<div class='platinum-label'><span class='material-symbols-outlined ico-type'>corporate_fare</span> Platinum</div>",
