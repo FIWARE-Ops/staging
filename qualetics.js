@@ -368,7 +368,7 @@ function runPageTracking(e) {
       // if we are located in the showcase
       if (
         document.location.href.includes("www.fiware.org/showcase") ||
-        document.referrer.includes("www.fiware.org/showcase")
+        document.querySelector("#product-name")?.textContent
       ) {
         qualetics = new Qualetics.service(
           "showcase",
