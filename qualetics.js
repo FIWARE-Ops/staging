@@ -435,5 +435,5 @@ document.addEventListener("DOMContentLoaded", (e) => {
   if (host !== "localhost") {
     runPageTracking(e);
   }
-  runPageTracking(e);
+  //runPageTracking(e);
 });
