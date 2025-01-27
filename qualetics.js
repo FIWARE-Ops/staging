@@ -140,21 +140,31 @@ function showcaseTracking(qualetics) {
 
       const company_name = document.querySelector(
         "h5#organisation-name",
-      ).textContent;
-      const company_url = document.querySelector("#organisation-website").href;
+      )?.textContent;
+      const company_url = document.querySelector("#organisation-website")?.href;
 
-      const solution_type = document.querySelector("h5").textContent;
+      const solution_type = document.querySelector("h5")?.textContent;
       const solution_name =
-        document.querySelector("h1#product-name").textContent;
+        document.querySelector("h1#product-name")?.textContent;
       const solution_description = document.head
         .querySelector('meta[name="description"]')
-        .getAttribute("content");
+        ?.getAttribute("content");
 
       // details and tags
-      techList = document.querySelectorAll("ul#technologies.chips")[0].children
-      solution_technologies = Array.from(techList).map(child => child.textContent.trim());
-      domainList = document.querySelectorAll("ul#domains.chips")[0].children
-      solution_domains = techList = Array.from(domainList).map(child => child.textContent.trim());
+      techList = document.querySelector("ul#technologies.chips");
+      if (techList){
+        solution_technologies = Array.from(techList).map(child => child.textContent.trim());
+      } else {
+        solution_technologies = [];
+      }
+      
+      domainList = document.querySelector("ul#domains.chips");
+      if (domainList){
+        solution_domains = techList = Array.from(domainList).map(child => child.textContent.trim());
+      } else {
+        solution_domains = [];
+      }
+        
 
       action = {
         "name": "See Showcase Details",
@@ -425,4 +435,5 @@ document.addEventListener("DOMContentLoaded", (e) => {
   if (host !== "localhost") {
     runPageTracking(e);
   }
+  runPageTracking(e);
 });
