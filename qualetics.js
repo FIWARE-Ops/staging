@@ -153,14 +153,14 @@ function showcaseTracking(qualetics) {
       // details and tags
       techList = document.querySelector("ul#technologies.chips");
       if (techList){
-        solution_technologies = Array.from(techList).map(child => child.textContent.trim());
+        solution_technologies = Array.from(techList.children).map(child => child.textContent.trim());
       } else {
         solution_technologies = [];
       }
       
       domainList = document.querySelector("ul#domains.chips");
       if (domainList){
-        solution_domains = techList = Array.from(domainList).map(child => child.textContent.trim());
+        solution_domains = techList = Array.from(domainList.children).map(child => child.textContent.trim());
       } else {
         solution_domains = [];
       }
