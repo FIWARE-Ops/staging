@@ -24,6 +24,12 @@ function showcaseTracking(qualetics) {
   let action;
   let context;
 
+  const actor = {
+    type: "User",
+    id: "Anonymous",
+    attributes: { name: "Anonymous", geoLocation: window.geoLocation },
+  };
+
   switch (path[path.length - 2]) {
     case "showcase":
       action = {
@@ -111,7 +117,7 @@ function showcaseTracking(qualetics) {
       break;
     case "support-services":
       action = {
-        name: "Support Services",
+        name: "Search All Support Services",
         type: "showcase menu",
       };
       object = {
@@ -131,6 +137,7 @@ function showcaseTracking(qualetics) {
       };
       break;
     default:
+
       const company_name = document.querySelector(
         "h5#organisation-name",
       ).textContent;
@@ -143,8 +150,14 @@ function showcaseTracking(qualetics) {
         .querySelector('meta[name="description"]')
         .getAttribute("content");
 
+      // details and tags
+      techList = document.querySelectorAll("ul#technologies.chips")[0].children
+      solution_technologies = Array.from(techList).map(child => child.textContent.trim());
+      domainList = document.querySelectorAll("ul#domains.chips")[0].children
+      solution_domains = techList = Array.from(domainList).map(child => child.textContent.trim());
+
       action = {
-        "name": "Product Details",
+        "name": "See Showcase Details",
         "type": "showcase details",
         // "Go to the Solution Website"
         // "Tracking Socials"
@@ -162,6 +175,8 @@ function showcaseTracking(qualetics) {
           "company name": company_name,
           "solution type": solution_type,
           "description": solution_description,
+          "domains": solution_domains,  // list of all domains
+          "technologies": solution_technologies, // list of all technologies
           "indexforsearch": true,
         },
       };
@@ -173,21 +188,62 @@ function showcaseTracking(qualetics) {
         "attributes": {
           "company name": company_name,
           "solution type": solution_type,
-          //"domain": solution_domain,  // list of all domains
-          //"technology": solution_technology, // list of all technologies
+          "domains": solution_domains,  // list of all domains
+          "technologies": solution_technologies, // list of all technologies
         },
       };
+
+      const social_links = document.querySelectorAll('span.icon');
+      const extra_materials = document.querySelectorAll('.link');
+      const solution_website = document.getElementById('product-website');
+      document.addEventListener('click', (event) => {
+        handleClickTracking(event, actor, object, context, extra_materials,  social_links, solution_website, qualetics);
+      });
+      document.addEventListener('contextmenu', (event) => {
+        handleClickTracking(event, actor, object, context, extra_materials, social_links, solution_website, qualetics);
+      });
   }
-
-  const actor = {
-    type: "User",
-    id: "Anonymous",
-    attributes: { name: "Anonymous", geoLocation: window.geoLocation },
-  };
-
 
   buildTracker(actor, action, context, object, qualetics);
 }
+
+
+function handleClickTracking(event, actor, object, context, extra_materials, social_links, solution_website, qualetics) {
+  const clickedElement = event.target;
+
+  const isMaterial = Array.from(extra_materials).some(element => clickedElement.isEqualNode(element));
+  const isSocial = Array.from(social_links).some(element => clickedElement.isEqualNode(element));
+  const isSolutionWebsite = (clickedElement.isEqualNode(solution_website));
+
+  let click_action;
+  if (isMaterial) {
+    console.log("extra material - ", clickedElement.textContent);
+    click_action = `extra material - ${clickedElement.textContent}`;
+    const action = {
+      "name": click_action,
+      "type": "showcase solution click",
+    };
+    buildTracker(actor, action, context, object, qualetics);
+  } else if (isSocial){
+    console.log("social link - ", clickedElement.className);
+    click_action = `Social link - ${clickedElement.className}`;
+    const action = {
+      "name": click_action,
+      "type": "showcase solution click",
+    };
+    buildTracker(actor, action, context, object, qualetics);
+  } else if (isSolutionWebsite){
+    console.log("solution website");
+    click_action = "solution website"
+    const action = {
+      "name": click_action,
+      "type": "showcase solution click",
+    };
+    buildTracker(actor, action, context, object, qualetics);
+  }
+
+
+}  
 
 async function getRandomCoordinates() {
   return new Promise((resolve) => {
@@ -314,6 +370,7 @@ function runPageTracking(e) {
       trackUserGeoLocation: false,
     };
     if (window.location.host === "www.fiware.org") {
+      // if we are located in the showcase
       if (
         document.location.href.includes("www.fiware.org/showcase") ||
         document.referrer.includes("www.fiware.org/showcase")
@@ -328,6 +385,7 @@ function runPageTracking(e) {
         document.addEventListener("locationAvailable", () => {
           showcaseTracking(qualetics);
         }); // send data to qualetics once location is available
+
       } else {
         qualetics = new Qualetics.service(
           "fiwareweb",
@@ -365,6 +423,7 @@ function runPageTracking(e) {
     console.error("Tracking failed:", error);
   }
 }
+
 
 document.addEventListener("DOMContentLoaded", (e) => {
   const host = new URL(window.location.href).hostname;
