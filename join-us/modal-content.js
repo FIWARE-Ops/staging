@@ -25,25 +25,25 @@ var modalData = [
   	"name" : "<div class='platinum-label'><span class='material-symbols-outlined ico-type'>corporate_fare</span> Platinum</div>",
     "company": "More info",
     "company-link": "https://www.fiware.org/foundation/bylaws/",
-  	"content": "At FIWARE Foundation, we are dedicated to supporting you throughout your journey to success. From the very beginning to the achievements you earn, we will be with you every step of the way. Join the FIWARE Community and unlock endless possibilities through our extensive reach, broad network, exclusive marketplace, webinars and workshops, diverse promotional offerings, and participation in renowned international events."
+  	"content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium."
   },
 {
     "name" : "<div class='gold-label'><span class='material-symbols-outlined ico-type'>corporate_fare</span> Gold</div>",
     "company": "More info",
     "company-link": "https://www.fiware.org/foundation/bylaws/",
-    "content": "Stay ahead of the game by leveraging our carefully curated, open-source framework of software platform components to develop innovative, interoperable, and replicable smart solutions. Enhance your understanding of each component's usage through our ongoing series of exclusive FIWARE Webinars and bespoke training and coaching opportunities. Additionally, enjoy priority access to technical support and quality assurance services. Once you have acquired enough know-how about FIWARE, level up to become acknowledged as a certified FIWARE Expert and unlock access to additional funding opportunities."
+    "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium."
   },
 {
     "name" : "<div class='associate-label'><span class='material-symbols-outlined ico-type'>corporate_fare</span> Associate</div>",
     "company": "More info",
     "company-link": "https://www.fiware.org/foundation/bylaws/",
-    "content": "Join the FIWARE Scientific Advisory Board (FISAB) and play a pivotal role in shaping the strategic direction of FIWARE Foundation. Unleash the potential of your university's future developers with the FIWARE University Roadshow. Our services aim to empower students by expanding their skills and knowledge of open-source technologies and open data. Other opportunities include exciting hackathons aimed at developing new and innovative smart services and solutions."
+    "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium."
   },
 {
     "name" : "<div class='individual-label'><span class='material-symbols-outlined ico-type'>person</span> Individual</div>",
     "company": "More info",
     "company-link": "https://www.fiware.org/foundation/bylaws/",
-    "content": "Join the FIWARE Scientific Advisory Board (FISAB) and play a pivotal role in shaping the strategic direction of FIWARE Foundation. Unleash the potential of your university's future developers with the FIWARE University Roadshow. Our services aim to empower students by expanding their skills and knowledge of open-source technologies and open data. Other opportunities include exciting hackathons aimed at developing new and innovative smart services and solutions."
+    "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium."
   }
 
 ]
