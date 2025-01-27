@@ -7,7 +7,7 @@ function buildTracker(actor, action, context, object, qualetics) {
   };
 
   if (qualetics) {
-    console.log("Sending:", eventObj);
+    console.log("sending:", eventObj);
     qualetics.send(eventObj);
   } else {
     console.log("no qualetics", eventObj);
@@ -159,11 +159,6 @@ function showcaseTracking(qualetics) {
       action = {
         "name": "See Showcase Details",
         "type": "showcase details",
-        // "Go to the Solution Website"
-        // "Tracking Socials"
-        // attributes: {"type": "facebook", "twitter/X", "webpage", "mail", "linkedin", "???"}
-        // "Tracking Extra Materials":
-        // attributes: {"type": "reference materials", "documentation", "???"}
       };
 
       object = {
@@ -217,7 +212,7 @@ function handleClickTracking(event, actor, object, context, extra_materials, soc
 
   let click_action;
   if (isMaterial) {
-    console.log("extra material - ", clickedElement.textContent);
+    //console.log("extra material -", clickedElement.textContent);
     click_action = `extra material - ${clickedElement.textContent}`;
     const action = {
       "name": click_action,
@@ -225,15 +220,15 @@ function handleClickTracking(event, actor, object, context, extra_materials, soc
     };
     buildTracker(actor, action, context, object, qualetics);
   } else if (isSocial){
-    console.log("social link - ", clickedElement.className);
-    click_action = `Social link - ${clickedElement.className}`;
+    //console.log("social link -", clickedElement.className);
+    click_action = `social link - ${clickedElement.className}`;
     const action = {
       "name": click_action,
       "type": "showcase solution click",
     };
     buildTracker(actor, action, context, object, qualetics);
   } else if (isSolutionWebsite){
-    console.log("solution website");
+    //console.log("solution website");
     click_action = "solution website"
     const action = {
       "name": click_action,
