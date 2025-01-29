@@ -231,7 +231,9 @@ function fillProduct(product) {
   $('meta[name="twitter:image"]').attr("content", product.featuredImage);
 
   if (window.location.host === "www.fiware.org") {
-    history.pushState({}, null, product.social);
+    return history.pushState({}, null, product.social);
+  } else {
+    return history.pushState({}, null, `../../marketplace${product.social}`);
   }
 }
 
