@@ -293,7 +293,7 @@ async function getRandomCoordinates() {
       };
       // Resolve the promise with the result
       resolve(location);
-    }, 500); // Simulated delay
+    }, 10); // Simulated delay
   });
 }
 
