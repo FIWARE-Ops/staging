@@ -178,7 +178,12 @@ function fillProject(project) {
   }
 
   document.title = project.name + " - " + project.technologies;
-  history.pushState({}, null, project.social);
+  if (window.location.host === "www.fiware.org") {
+    return history.pushState({}, null, project.social);
+  } else {
+    return history.pushState({}, null, `../../research-development${project.social}`);
+  }
+
 }
 
 function loadProject(e) {

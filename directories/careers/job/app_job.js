@@ -66,7 +66,11 @@ function fillJob(job) {
 
   const title = job.name + " - " + job.type;
   document.title = title;
-  history.pushState({}, null, job.social);
+  if (window.location.host === "www.fiware.org") {
+    return history.pushState({}, null, job.social);
+  } else {
+    return history.pushState({}, null, `../../careers${job.social}`);
+  }
 }
 
 function loadJob(e) {
