@@ -141,23 +141,6 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
-				"name": "AWS",
-				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/aws.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/aws.png' loading='lazy'/></picture></div></div>",
-					"<div class='org-name'>AWS</div>",
-					"<div class='membership-type'>Gold</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://aws.amazon.com/' rel='noopener'><span class='icon website'></span></div>"
-				]
-			},
-			"geometry":{
-				"type":"Point",
-				"coordinates":[-122.3416257,47.6227536]
-			}
-		},
-		{
-			"type":"Feature",
-			"properties":{
-				"type": "Organization",
 				"name": "BeeZeeLinx",
 				"html": [
 					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/bee-zee-linx.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/bee-zee-linx.png' loading='lazy'/></picture></div></div>",
@@ -379,23 +362,6 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
-				"name": "Endava",
-				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/endava.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/endava.png' loading='lazy'/></picture></div></div>",
-					"<div class='org-name'>Endava</div>",
-					"<div class='membership-type'>Gold</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.endava.com/' rel='noopener'><span class='icon website'></span></div>"
-				]
-			},
-			"geometry":{
-				"type":"Point",
-				"coordinates":[-0.2940061,51.5609528]
-			}
-		},
-		{
-			"type":"Feature",
-			"properties":{
-				"type": "Organization",
 				"name": "Eprosima",
 				"html": [
 					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/eprosima.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/eprosima.png' loading='lazy'/></picture></div></div>",
@@ -475,23 +441,6 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[-5.9886079,37.4204077]
-			}
-		},
-		{
-			"type":"Feature",
-			"properties":{
-				"type": "Organization",
-				"name": "Funding Box",
-				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/funding-box.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/funding-box.png' loading='lazy'/></picture></div></div>",
-					"<div class='org-name'>Funding Box</div>",
-					"<div class='membership-type'>Gold</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://fundingbox.com/' rel='noopener'><span class='icon website'></span></div>"
-				]
-			},
-			"geometry":{
-				"type":"Point",
-				"coordinates":[20.9938261,52.1805583]
 			}
 		},
 		{
@@ -702,23 +651,6 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
-				"name": "Martel Innovate",
-				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/martel-innovate.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/martel-innovate.png' loading='lazy'/></picture></div></div>",
-					"<div class='org-name'>Martel Innovate</div>",
-					"<div class='membership-type'>Gold</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.martel-innovate.com/' rel='noopener'><span class='icon website'></span></div>"
-				]
-			},
-			"geometry":{
-				"type":"Point",
-				"coordinates":[8.603362,47.4036241]
-			}
-		},
-		{
-			"type":"Feature",
-			"properties":{
-				"type": "Organization",
 				"name": "MNX Online S.L.",
 				"html": [
 					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/mnx-online.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/mnx-online.png' loading='lazy'/></picture></div></div>",
@@ -815,6 +747,23 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[142.0843432,36.3263622]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
+				"name": "Nunsys Brains",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/nunsys-brains.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/nunsys-brains.png' loading='lazy'/></picture></div></div>",
+					"<div class='org-name'>Nunsys Brains</div>",
+					"<div class='membership-type'>Gold</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.nunsys.com/' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-4.554123,36.737165]
 			}
 		},
 		{
@@ -1052,23 +1001,6 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[-3.7765202,40.3280852]
-			}
-		},
-		{
-			"type":"Feature",
-			"properties":{
-				"type": "Organization",
-				"name": "Stadtwerke Lübeck Digital",
-				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/travekom.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/travekom.png' loading='lazy'/></picture></div></div>",
-					"<div class='org-name'>Stadtwerke Lübeck Digital</div>",
-					"<div class='membership-type'>Gold</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.travekom.de/' rel='noopener'><span class='icon website'></span></div>"
-				]
-			},
-			"geometry":{
-				"type":"Point",
-				"coordinates":[10.6711156,53.8490318]
 			}
 		},
 		{
@@ -1908,6 +1840,23 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Cáceres Provincial Council",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/caceres-provincial-council.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/caceres-provincial-council.png' loading='lazy'/></picture></div></div>",
+					"<div class='org-name'>Cáceres Provincial Council</div>",
+					"<div class='membership-type'>Associate</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.dip-caceres.es/' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-6.282022,39.715031]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
 				"name": "Cefriel",
 				"html": [
 					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/cefriel.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/cefriel.png' loading='lazy'/></picture></div></div>",
@@ -1936,23 +1885,6 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[22.9945211,40.5679247]
-			}
-		},
-		{
-			"type":"Feature",
-			"properties":{
-				"type": "Organization",
-				"name": "CINTEL",
-				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/cintel.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/cintel.png' loading='lazy'/></picture></div></div>",
-					"<div class='org-name'>CINTEL</div>",
-					"<div class='membership-type'>Associate</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://cintel.co/' rel='noopener'><span class='icon website'></span></div>"
-				]
-			},
-			"geometry":{
-				"type":"Point",
-				"coordinates":[-74.0474411,4.6838969]
 			}
 		},
 		{
@@ -2701,6 +2633,23 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[-2.9422871,43.2712379]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
+				"name": "University of Library Studies and Information Technology",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/unibit.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/unibit.png' loading='lazy'/></picture></div></div>",
+					"<div class='org-name'>University of Library Studies and Information Technology</div>",
+					"<div class='membership-type'>Associate</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.unibit.bg/en' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[23.387778,42.657792]
 			}
 		},
 		{
