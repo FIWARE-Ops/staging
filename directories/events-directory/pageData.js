@@ -250,6 +250,16 @@ window.eventData = [
         "group": "Networking"
     },
     {
+        "id": "202502-etsi---ngsi-ld-plugtests",
+        "title": "ETSI – NGSI-LD Plugtests",
+        "from": "2025-02-24T08:00:00.000Z",
+        "to": "2025-02-28T16:30:00.000Z",
+        "description": "The event will enable implementers of the NGSI-LD protocol and the associated API to run interoperability and conformance test sessions.",
+        "location": "ETSI Sophia Antipolis 650 Rte des Lucioles ",
+        "isAllDay": false,
+        "group": "Training"
+    },
+    {
         "id": "202503-data-spaces-symposium-2025",
         "title": "Data Spaces Symposium 2025",
         "from": "2025-03-10T23:00:00.000Z",
