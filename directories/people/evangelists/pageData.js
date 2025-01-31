@@ -41,7 +41,6 @@ var companies = [
         'NEC Corporation',
         'NEC Corporation India',
         'Nivid Technologies',
-        'Open Solutions For Government',
         'Polytechnic School of the University of São Paulo',
         'Poznan Supercomputing and Networking Center',
         'Red Hat',
@@ -182,9 +181,6 @@ var companies = [
     },
     { name: "Federico Facca", img: "https://www.fiware.org/wp-content/directories/people/images/200px/federico-facca.jpg", position: "Chief Technology Officer", company: "Martel Innovation", "company-link": "https://www.martel-innovate.com/",
     content: "Federico is the CTO of Martel, leading internal IT projects and acting as strategic lead consultant to customers, including the European Commission. Federico’s current core project is Orchestra Cities, a modular and flexible cloud-native IoT platform (mostly used in the Smart City domain). He has an extensive experience on Cloud-Native architectures, Infrastructure as a Code approach, continuous testing and monitoring to ensure infrastructure reliability. He is a strong advocate of Open Source and thrive to use and contribute to Open Source solutions. In his career he lead different large R&amp;D projects, ranging from industrial systems integration to data center deployment and federation. Before joining Martel Innovate, Federico has been area head in different FBK-CREATE-NET and STI Innsbruck. He holds a PhD and MSc in Computer Science.", linkedin: "https://www.linkedin.com/in/federicofacca/", twitter: "https://twitter.com/chicco785", domain: "", location: ""
-    },
-    { name: "Tony Fortenberry", img: "https://www.fiware.org/wp-content/directories/people/images/200px/tony-fortenberry.jpg", position: "Executive Director", company: "Open Solutions For Government", "company-link": "https://ogov.org",
-    content: "Chairman and Executive Director at Open Solutions For Government, a California nonprofit organization hosting the Open Innovation Hub, which is a new iHub showcasing FIWARE and GAIA-X compatible solutions. Former FIWARE Foundation Board Member, public sector strategist at Red Hat, Career Executive Appointee at California Health And Human Services Agency, and CIO at City of Northglenn Colorado. Decades-long advocate for the development of free/libre solutions in public sector organizations. Contributor to the Free Software Foundation and related nonprofit organizations.", linkedin: "https://www.linkedin.com/in/tonyfortenberry/", twitter: "", domain: "", location: ""
     },
     { name: "Jason Fox", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jason-fox.jpg", position: "Senior Technical Expert &amp; Evangelist", company: "FIWARE Foundation e.V.", "company-link": "https://www.fiware.org/",
     content: "Jason Fox (m) has been working for FIWARE Foundation for the last five years in the role of technical evangelist, educating and diseminating information about NGSI interfaces, JSON-LD, Linked Data, the components within the FIWARE Catalogue and Securing FIWARE architectures. Before joining FIWARE, he worked as a software engineer for over 20 years in various roles both in Germany and the United Kingdom using a wide variety of programming languages ranging from C++ to Java to Node.js. This has included coding the software behind selling lottery tickets online for the British National Lottery, and and developing and maintaining technical documentation applications for Nokia.", linkedin: "https://www.linkedin.com/in/jason-fox-8a79563/", twitter: "", domain: "", location: ""
