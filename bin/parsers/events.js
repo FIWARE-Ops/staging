@@ -233,14 +233,14 @@ function generateHTML(events, activeSpeakers) {
         _.map(events, (event) => {
             return event.type;
         })
-    );
+    ).sort();
     const categories = _.uniq(
         _.flatten(
             _.map(events, (event) => {
                 return event.category;
             })
         )
-    );
+    ).sort();
 
     const featuredEvents = getFeaturedEvents(types, categories, events);
     const filterData = {
