@@ -42,11 +42,17 @@
             </div>
             <span class="place">{{venueName}}</span>
             {{/if}}
+            {{#if (eq multiDay true)}}
+            <div class="date-time">
+              <span class="time">{{formatDay shortDateStart}} {{formatMonth shortDateStart}} – {{formatDay shortDateEnd}} {{formatMonth shortDateEnd}}</span>
+            </div>
+            {{else}}
             {{#if (ne start '')}}
             <div class="date-time">
               <span class="time">{{start}} – {{end}}</span>
             </div>
-             {{/if}}
+            {{/if}}
+            {{/if}}
           </div>
         </a>
         {{#if (gt speakers.length 0)}}

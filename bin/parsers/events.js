@@ -154,6 +154,7 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
             start: item['Start Time'],
             end: item['End Time'],
             eventBrite: item['Eventbrite ID'],
+            multiDay: Parser.boolean(item['Multi Day Event']),
             timeZone: item['Time Zone'],
             location: item.Location,
             online: Parser.boolean(item.Online),
