@@ -57,7 +57,7 @@ window.eventData = [
         "description": "The CCAS24 is the leading event focused on climate action in cities, FIWARE is proud to partner with Smart Cities World.",
         "location": "County Hall Belvedere Rd, SE1 7GP ",
         "isAllDay": false,
-        "group": "Summit"
+        "group": "Conference"
     },
     {
         "id": "202407-creating-combined-ngsi-v2-ngsi-ld-data-spaces",
