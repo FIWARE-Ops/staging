@@ -141,6 +141,23 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Artech Consulting",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/artech-international.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/artech-international.png' loading='lazy'/></picture></div></div>",
+					"<div class='org-name'>Artech Consulting</div>",
+					"<div class='membership-type'>Gold</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://artechconsulting.net/' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[4.3641469,50.8491816]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
 				"name": "BeeZeeLinx",
 				"html": [
 					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/bee-zee-linx.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/bee-zee-linx.png' loading='lazy'/></picture></div></div>",
@@ -413,23 +430,6 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
-				"name": "Ficodes",
-				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/ficodes.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/ficodes.png' loading='lazy'/></picture></div></div>",
-					"<div class='org-name'>Ficodes</div>",
-					"<div class='membership-type'>Gold</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.ficodes.com/en/' rel='noopener'><span class='icon website'></span></div>"
-				]
-			},
-			"geometry":{
-				"type":"Point",
-				"coordinates":[-3.940855,40.5231672]
-			}
-		},
-		{
-			"type":"Feature",
-			"properties":{
-				"type": "Organization",
 				"name": "FIWOO",
 				"html": [
 					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/fiwoo.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/fiwoo.png' loading='lazy'/></picture></div></div>",
@@ -583,23 +583,6 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
-				"name": "JIG",
-				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/jig.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/jig.png' loading='lazy'/></picture></div></div>",
-					"<div class='org-name'>JIG</div>",
-					"<div class='membership-type'>Gold</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.jig.es/' rel='noopener'><span class='icon website'></span></div>"
-				]
-			},
-			"geometry":{
-				"type":"Point",
-				"coordinates":[-2.4331358,42.4557916]
-			}
-		},
-		{
-			"type":"Feature",
-			"properties":{
-				"type": "Organization",
 				"name": "Kanzo",
 				"html": [
 					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/kanzo.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/kanzo.png' loading='lazy'/></picture></div></div>",
@@ -702,10 +685,10 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
-				"name": "Nexus Geografics",
+				"name": "Nexus Geographics",
 				"html": [
 					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/nexus-geographics.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/nexus-geographics.png' loading='lazy'/></picture></div></div>",
-					"<div class='org-name'>Nexus Geografics</div>",
+					"<div class='org-name'>Nexus Geographics</div>",
 					"<div class='membership-type'>Gold</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.nexusgeographics.com/' rel='noopener'><span class='icon website'></span></div>"
 				]
@@ -956,23 +939,6 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
-				"name": "SMEV AG",
-				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/smevag.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/smevag.png' loading='lazy'/></picture></div></div>",
-					"<div class='org-name'>SMEV AG</div>",
-					"<div class='membership-type'>Gold</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://smev.ag/' rel='noopener'><span class='icon website'></span></div>"
-				]
-			},
-			"geometry":{
-				"type":"Point",
-				"coordinates":[14.492329,52.3166759]
-			}
-		},
-		{
-			"type":"Feature",
-			"properties":{
-				"type": "Organization",
 				"name": "Solinfra",
 				"html": [
 					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/solinfra.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/solinfra.png' loading='lazy'/></picture></div></div>",
@@ -1160,6 +1126,23 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Urban Service Provider",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/urban-sp.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/urban-sp.png' loading='lazy'/></picture></div></div>",
+					"<div class='org-name'>Urban Service Provider</div>",
+					"<div class='membership-type'>Gold</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://urbansp.city/' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[0,0]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
 				"name": "VIA2MOOV",
 				"html": [
 					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/via2moov.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/via2moov.png' loading='lazy'/></picture></div></div>",
@@ -1205,6 +1188,23 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[2.29128,48.834721]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
+				"name": "Vizzio Technologies",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/vizzio.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/vizzio.png' loading='lazy'/></picture></div></div>",
+					"<div class='org-name'>Vizzio Technologies</div>",
+					"<div class='membership-type'>Gold</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://vizzio.ai/' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[0,0]
 			}
 		},
 		{
@@ -1313,23 +1313,6 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
-				"name": "CARTIF",
-				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/cartif.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/cartif.png' loading='lazy'/></picture></div></div>",
-					"<div class='org-name'>CARTIF</div>",
-					"<div class='membership-type'>Gold SEU</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.cartif.es/en/home/' rel='noopener'><span class='icon website'></span></div>"
-				]
-			},
-			"geometry":{
-				"type":"Point",
-				"coordinates":[-4.71896,41.5198]
-			}
-		},
-		{
-			"type":"Feature",
-			"properties":{
-				"type": "Organization",
 				"name": "City of Duitama",
 				"html": [
 					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/city-of-duitama.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-duitama.png' loading='lazy'/></picture></div></div>",
@@ -1392,23 +1375,6 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[-17.765723,28.681339]
-			}
-		},
-		{
-			"type":"Feature",
-			"properties":{
-				"type": "Organization",
-				"name": "City of Medellin",
-				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/city-of-medellin.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-medellin.png' loading='lazy'/></picture></div></div>",
-					"<div class='org-name'>City of Medellin</div>",
-					"<div class='membership-type'>Gold SEU</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.municipio.com.co/municipio-medellin.html' rel='noopener'><span class='icon website'></span></div>"
-				]
-			},
-			"geometry":{
-				"type":"Point",
-				"coordinates":[-75.6141307,6.2370508]
 			}
 		},
 		{
@@ -1602,23 +1568,6 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
-				"name": "Las Rozas Innova",
-				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/las-rozas-innova.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/las-rozas-innova.png' loading='lazy'/></picture></div></div>",
-					"<div class='org-name'>Las Rozas Innova</div>",
-					"<div class='membership-type'>Gold SEU</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://lasrozasinnova.es/en/' rel='noopener'><span class='icon website'></span></div>"
-				]
-			},
-			"geometry":{
-				"type":"Point",
-				"coordinates":[-3.8957842,40.521161]
-			}
-		},
-		{
-			"type":"Feature",
-			"properties":{
-				"type": "Organization",
 				"name": "Ministry of Agriculture, Fisheries and Food",
 				"html": [
 					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/mapa.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/mapa.png' loading='lazy'/></picture></div></div>",
@@ -1653,23 +1602,6 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
-				"name": "Netzlink",
-				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/netzlink.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/netzlink.png' loading='lazy'/></picture></div></div>",
-					"<div class='org-name'>Netzlink</div>",
-					"<div class='membership-type'>Gold SEU</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://netzlink.com/' rel='noopener'><span class='icon website'></span></div>"
-				]
-			},
-			"geometry":{
-				"type":"Point",
-				"coordinates":[10.4977795,52.2527287]
-			}
-		},
-		{
-			"type":"Feature",
-			"properties":{
-				"type": "Organization",
 				"name": "ProMalaga",
 				"html": [
 					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/pro-malaga.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/pro-malaga.png' loading='lazy'/></picture></div></div>",
@@ -1698,6 +1630,23 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[16.9249323,52.4092838]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
+				"name": "Regional Government of Castile-La Mancha",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/castilla-lamancha-region.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/castilla-lamancha-region.png' loading='lazy'/></picture></div></div>",
+					"<div class='org-name'>Regional Government of Castile-La Mancha</div>",
+					"<div class='membership-type'>Gold SEU</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.castillalamancha.es/' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-4.027923,39.856395]
 			}
 		},
 		{
@@ -1789,23 +1738,6 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
-				"name": "Artech Consulting",
-				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/artech-international.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/artech-international.png' loading='lazy'/></picture></div></div>",
-					"<div class='org-name'>Artech Consulting</div>",
-					"<div class='membership-type'>Associate</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://artechconsulting.net/' rel='noopener'><span class='icon website'></span></div>"
-				]
-			},
-			"geometry":{
-				"type":"Point",
-				"coordinates":[4.3641469,50.8491816]
-			}
-		},
-		{
-			"type":"Feature",
-			"properties":{
-				"type": "Organization",
 				"name": "ATB Bremen",
 				"html": [
 					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/atb-bremen.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/atb-bremen.png' loading='lazy'/></picture></div></div>",
@@ -1857,17 +1789,34 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
-				"name": "Cefriel",
+				"name": "Carl von Ossietzky Universität Oldenbubrg",
 				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/cefriel.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/cefriel.png' loading='lazy'/></picture></div></div>",
-					"<div class='org-name'>Cefriel</div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/uol.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/uol.png' loading='lazy'/></picture></div></div>",
+					"<div class='org-name'>Carl von Ossietzky Universität Oldenbubrg</div>",
 					"<div class='membership-type'>Associate</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.cefriel.com/en/home' rel='noopener'><span class='icon website'></span></div>"
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://uol.de/' rel='noopener'><span class='icon website'></span></div>"
 				]
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[9.2098843,45.5215261]
+				"coordinates":[8.181686,53.146816]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
+				"name": "CARTIF",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/cartif.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/cartif.png' loading='lazy'/></picture></div></div>",
+					"<div class='org-name'>CARTIF</div>",
+					"<div class='membership-type'>Associate</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.cartif.es/en/home/' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-4.71896,41.5198]
 			}
 		},
 		{
@@ -1953,23 +1902,6 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[8.9519685,38.9904458]
-			}
-		},
-		{
-			"type":"Feature",
-			"properties":{
-				"type": "Organization",
-				"name": "Digital Twin Consortium",
-				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/digital-twin-consortium.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/digital-twin-consortium.png' loading='lazy'/></picture></div></div>",
-					"<div class='org-name'>Digital Twin Consortium</div>",
-					"<div class='membership-type'>Associate</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.digitaltwinconsortium.org/index.htm' rel='noopener'><span class='icon website'></span></div>"
-				]
-			},
-			"geometry":{
-				"type":"Point",
-				"coordinates":[-71.504817,42.1496041]
 			}
 		},
 		{
@@ -2367,17 +2299,17 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
-				"name": "ProStep",
+				"name": "RedCLARA",
 				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/pro-step.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/pro-step.png' loading='lazy'/></picture></div></div>",
-					"<div class='org-name'>ProStep</div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/red-clara.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/red-clara.png' loading='lazy'/></picture></div></div>",
+					"<div class='org-name'>RedCLARA</div>",
 					"<div class='membership-type'>Associate</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.prostep.org/en/' rel='noopener'><span class='icon website'></span></div>"
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://redclara.net/en/' rel='noopener'><span class='icon website'></span></div>"
 				]
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[8.6382204,49.8773084]
+				"coordinates":[-56.062421,-34.896718]
 			}
 		},
 		{
@@ -2503,23 +2435,6 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
-				"name": "TSCAI",
-				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/tscai.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/tscai.png' loading='lazy'/></picture></div></div>",
-					"<div class='org-name'>TSCAI</div>",
-					"<div class='membership-type'>Associate</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://thesmartcityassociation.org/' rel='noopener'><span class='icon website'></span></div>"
-				]
-			},
-			"geometry":{
-				"type":"Point",
-				"coordinates":[10.2162253,45.5545147]
-			}
-		},
-		{
-			"type":"Feature",
-			"properties":{
-				"type": "Organization",
 				"name": "UDG Alliance",
 				"html": [
 					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/udg-alliance.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/udg-alliance.png' loading='lazy'/></picture></div></div>",
@@ -2616,23 +2531,6 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[-4.788532,37.884298]
-			}
-		},
-		{
-			"type":"Feature",
-			"properties":{
-				"type": "Organization",
-				"name": "University of Deusto",
-				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/university-of-deusto.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/university-of-deusto.png' loading='lazy'/></picture></div></div>",
-					"<div class='org-name'>University of Deusto</div>",
-					"<div class='membership-type'>Associate</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.deusto.es/cs/Satellite/deusto/en/university-deusto?cambioidioma&#x3D;si' rel='noopener'><span class='icon website'></span></div>"
-				]
-			},
-			"geometry":{
-				"type":"Point",
-				"coordinates":[-2.9422871,43.2712379]
 			}
 		},
 		{
