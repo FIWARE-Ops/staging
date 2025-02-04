@@ -329,8 +329,9 @@ function createSocialMedia(products, dir, category, summaryInfo) {
 
         product.hash = Parser.getHash(product.organisationName, product.productName);
 
-        const summary = _.find(summaryInfo, { name : product.productName , company: product.organisationName});
+        const summary = _.find(summaryInfo, {company: product.organisationName});
         product.member = summary && (summary.fiwareMember || summary.fiwareIhub);
+
         product.cat = category;
         product.social = path.join('/', dir, `/${filename}.html`);
 
