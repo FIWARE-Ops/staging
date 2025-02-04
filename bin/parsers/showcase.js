@@ -195,10 +195,10 @@ function extractSummaryInfo(input, details) {
             obj.fiwareIhub = item.iHub;
             obj.optIn = item.Member && item.optIn;
 
-            if (details[category][hash]) {
+            if (obj.fiwareMember || obj.fiwareIhub) {
                 obj.companyLink = '../product-details/?category=' + category + '&id=' + hash;
             } else {
-                console.log('FALLBACK LINK:  ' + category + ' ' + hash);
+                //console.log('FALLBACK LINK:  ' + category + ' ' + hash);
                 obj.companyLink = item['Product Website'];
             }
             obj.domain = item.Domains;
