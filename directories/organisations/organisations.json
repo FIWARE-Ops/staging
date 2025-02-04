@@ -447,23 +447,6 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
-				"name": "Future City Foundation",
-				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/future-city-foundation.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/future-city-foundation.png' loading='lazy'/></picture></div></div>",
-					"<div class='org-name'>Future City Foundation</div>",
-					"<div class='membership-type'>Gold</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://future-city.nl/' rel='noopener'><span class='icon website'></span></div>"
-				]
-			},
-			"geometry":{
-				"type":"Point",
-				"coordinates":[5.3725471,52.1580528]
-			}
-		},
-		{
-			"type":"Feature",
-			"properties":{
-				"type": "Organization",
 				"name": "Future Intelligence",
 				"html": [
 					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/future-intelligence.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/future-intelligence.png' loading='lazy'/></picture></div></div>",
@@ -820,23 +803,6 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
-				"name": "Red Española de Ciudades Inteligentes",
-				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/reci.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/reci.png' loading='lazy'/></picture></div></div>",
-					"<div class='org-name'>Red Española de Ciudades Inteligentes</div>",
-					"<div class='membership-type'>Gold</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://reddeciudadesinteligentes.es/' rel='noopener'><span class='icon website'></span></div>"
-				]
-			},
-			"geometry":{
-				"type":"Point",
-				"coordinates":[-3.7621078,40.4380556]
-			}
-		},
-		{
-			"type":"Feature",
-			"properties":{
-				"type": "Organization",
 				"name": "Secmotic",
 				"html": [
 					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/secmotic.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/secmotic.png' loading='lazy'/></picture></div></div>",
@@ -967,23 +933,6 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[-3.7765202,40.3280852]
-			}
-		},
-		{
-			"type":"Feature",
-			"properties":{
-				"type": "Organization",
-				"name": "Stadtwerke Wolfsburg",
-				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/stadtwerke-wolfsburg.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/stadtwerke-wolfsburg.png' loading='lazy'/></picture></div></div>",
-					"<div class='org-name'>Stadtwerke Wolfsburg</div>",
-					"<div class='membership-type'>Gold</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.stadtwerke-wolfsburg.de/' rel='noopener'><span class='icon website'></span></div>"
-				]
-			},
-			"geometry":{
-				"type":"Point",
-				"coordinates":[10.7872411,52.428125]
 			}
 		},
 		{
