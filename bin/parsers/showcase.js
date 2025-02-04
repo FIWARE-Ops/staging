@@ -108,7 +108,7 @@ function extractProductDetails(input) {
  * Take the human readable column names from the spreadsheet and create a
  * data object of products summaries for later use
  */
-function extractSummaryInfo(input, details) {
+function extractSummaryInfo(input) {
     const powered = [];
     const ready = [];
     const services = [];
@@ -316,7 +316,7 @@ function findProduct(hash, category) {
         : null;
 }
 
-function createSocialMedia(products, dir, category) {
+function createSocialMedia(products, dir, category, summaryInfo) {
     _.each(products, (product) => {
         const filename = path.join(
             Template.createClass(product.organisationName)
@@ -328,6 +328,9 @@ function createSocialMedia(products, dir, category) {
         );
 
         product.hash = Parser.getHash(product.organisationName, product.productName);
+
+        const summary = _.find(summaryInfo, { name : product.productName , company: product.organisationName});
+        product.member = summary && (summary.fiwareMember || summary.fiwareIhub);
         product.cat = category;
         product.social = path.join('/', dir, `/${filename}.html`);
 
@@ -384,7 +387,7 @@ function generateHTML(allProducts, summaryInfo) {
     });
     Prettier.format('showcase/powered-by-fiware/pageData.js', { parser: 'flow' });
     console.log('');
-    createSocialMedia(allProducts.powered, 'powered-by-fiware/', 'powered');
+    createSocialMedia(allProducts.powered, 'powered-by-fiware/', 'powered', summaryInfo.powered);
     console.log(summaryInfo.powered.length + ' Products');
 
     Template.write('showcase/fiware-ready/pageData.js', path.join(TEMPLATE_PATH, 'modal.hbs'), {
@@ -392,7 +395,7 @@ function generateHTML(allProducts, summaryInfo) {
         nonMembers: _.where(summaryInfo.ready, { fiwareMember: false })
     });
     Prettier.format('showcase/fiware-ready/pageData.js', { parser: 'flow' });
-    createSocialMedia(allProducts.ready, 'fiware-ready/', 'ready');
+    createSocialMedia(allProducts.ready, 'fiware-ready/', 'ready', summaryInfo.ready);
     console.log(summaryInfo.ready.length + ' Devices');
 
     Template.write('showcase/support-services/pageData.js', path.join(TEMPLATE_PATH, 'modal.hbs'), {
@@ -400,7 +403,7 @@ function generateHTML(allProducts, summaryInfo) {
         nonMembers: _.where(summaryInfo.services, { fiwareMember: false })
     });
     Prettier.format('showcase/support-services/pageData.js', { parser: 'flow' });
-    createSocialMedia(allProducts.services, 'support-services/', 'services');
+    createSocialMedia(allProducts.services, 'support-services/', 'services', summaryInfo.services);
     console.log(summaryInfo.services.length + ' Services');
 
     Template.write('showcase/cities4cities/pageData.js', path.join(TEMPLATE_PATH, 'modal.hbs'), {
@@ -408,7 +411,7 @@ function generateHTML(allProducts, summaryInfo) {
         nonMembers: _.where(summaryInfo.cities, { fiwareMember: false })
     });
     Prettier.format('showcase/cities4cities/pageData.js', { parser: 'flow' });
-    createSocialMedia(allProducts.cities, 'cities4cities/', 'cities');
+    createSocialMedia(allProducts.cities, 'cities4cities/', 'cities', summaryInfo.cities);
     console.log(summaryInfo.cities.length + ' Cities');
 
     Template.write(
@@ -442,7 +445,7 @@ function parse(detailsFile, summaryFile) {
             csv()
                 .fromFile(summaryFile)
                 .then((input) => {
-                    return extractSummaryInfo(input, allProducts);
+                    return extractSummaryInfo(input);
                 })
                 .then((summaryInfo) => {
                     CATEGORIES.forEach((category) => {

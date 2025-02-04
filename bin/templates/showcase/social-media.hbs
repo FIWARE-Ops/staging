@@ -10,14 +10,22 @@
 
 <meta name="keywords" content="{{domains}}{{#if (gt technologies.length 0)}},{{technologies}}{{/if}}">
 <meta name="description" content="{{excerpt}}">
+
+{{#if member}}
 <meta http-equiv="refresh" content="1; url=https://www.fiware.org/showcase/product-details/?category={{cat}}&id={{hash}}" />
+<meta property="og:url" content="https://www.fiware.org/marketplace/product-details/?category={{cat}}&id={{hash}}">
+{{else}}
+<meta http-equiv="refresh" content="1; url={{productWebsite}}" />
+<meta property="og:url" content="https://www.fiware.org{{social}}">
+{{/if}}
 
 <!-- Open Graph Tags -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
 <meta property="og:title" content="{{category}}: {{organisationName}} - {{productName}} {{#if (gt technologies.length 0)}}({{technologies}}){{/if}}">
 <meta property="og:description" content="{{excerpt}}">
-<meta property="og:url" content="https://www.fiware.org/marketplace/product-details/?category={{cat}}&id={{hash}}">
+
+
 <meta property="og:site_name" content="FIWARE">
 <meta property="og:image" content="{{featuredImageUrl}}">
 <meta property="og:image:secure_url" content="{{featuredImageUrl}}">
@@ -49,15 +57,6 @@
   "image": "{{featuredImage}}",
   "description": "{{excerpt}}"
 }
-</script>
- <!-- Google tag (gtag.js) -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-7CR5VQQLYP"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-7CR5VQQLYP');
 </script>
 <style>
 body {
