@@ -63,7 +63,9 @@ li {
 <body>
 	<ul>
 	{{#each this}}
+        {{#if member}}
 		<li><a href="https://www.fiware.org{{social}}">{{organisationName}} - {{productName}}</a></li>
+        {{/if}}
     {{/each}}
 	</ul>
 </body>
