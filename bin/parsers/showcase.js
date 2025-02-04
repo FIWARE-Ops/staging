@@ -244,8 +244,8 @@ function extractSummaryInfo(input, details) {
 function extractFeatured(summaryInfo) {
     const featured = [];
     const extract = [
-        ...summaryInfo.powered.slice(-10),
-        ...summaryInfo.ready.slice(-10)
+        ..._.where(summaryInfo.powered, { fiwareMember: true }).slice(-4),
+        ..._.where(summaryInfo.ready, { fiwareMember: true }).slice(-4)
         //   ...summaryInfo.services.slice(-2),
         //   ...summaryInfo.cities.slice(-2)
     ];
@@ -257,10 +257,6 @@ function extractFeatured(summaryInfo) {
             featured.push(featuredItem);
         }
     });
-
-    if (featured.length > 8){
-        featured = featured.slice(-8)
-    }
 
     return featured;
 }
