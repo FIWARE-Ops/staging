@@ -176,7 +176,7 @@ function fillProduct(product) {
   wrapParagraphs("#references-customers", product.references);
   wrapParagraphs("#awards", product.awards);
   if (product.additionalText === "") {
-    $("div#additionalText").parent().parent().parent().remove();
+    $("div#additionalText").parent().remove();
   } else {
     $("div#additionalText").html(product.additionalText);
   }
