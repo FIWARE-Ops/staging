@@ -244,8 +244,8 @@ function extractSummaryInfo(input, details) {
 function extractFeatured(summaryInfo) {
     const featured = [];
     const extract = [
-        ...summaryInfo.powered.slice(-4),
-        ...summaryInfo.ready.slice(-4)
+        ...summaryInfo.powered.slice(-10),
+        ...summaryInfo.ready.slice(-10)
         //   ...summaryInfo.services.slice(-2),
         //   ...summaryInfo.cities.slice(-2)
     ];
@@ -254,9 +254,14 @@ function extractFeatured(summaryInfo) {
         const featuredItem = _.clone(item);
         if (featuredItem.companyLink.startsWith('..')) {
             featuredItem.companyLink = featuredItem.companyLink.substring(1);
+            featured.push(featuredItem);
         }
-        featured.push(featuredItem);
     });
+
+    if (featured.length > 8){
+        featured = featured.slice(-8)
+    }
+
     return featured;
 }
 
