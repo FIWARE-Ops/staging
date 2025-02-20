@@ -2114,10 +2114,10 @@
 				"type": "Organization",
 				"name": "Kommunal 4.0",
 				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/kommunal-40.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/kommunal-40.png' loading='lazy'/></picture></div></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/kommunal40.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/kommunal40.png' loading='lazy'/></picture></div></div>",
 					"<div class='org-name'>Kommunal 4.0</div>",
 					"<div class='membership-type'>Associate</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://en.hst.de/' rel='noopener'><span class='icon website'></span></div>"
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://bvk4-0.de/' rel='noopener'><span class='icon website'></span></div>"
 				]
 			},
 			"geometry":{

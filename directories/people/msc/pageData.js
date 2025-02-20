@@ -63,7 +63,7 @@ var companies = [
     content: "", linkedin: "https://www.linkedin.com/in/gianlucadianese/", twitter: "https://twitter.com/gdianese", domain: "Smart Energy", location: "Germany"
     ,flag: "https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png"
     },
-    { name: "Pierre Golz", img: "https://www.fiware.org/wp-content/directories/people/images/200px/pierre-golz.jpg", position: "Chief Digital Officer", company: "City of Herne", "company-link": "https://www.herne.de/",
+    { name: "Pierre Herbe", img: "https://www.fiware.org/wp-content/directories/people/images/200px/pierre-herbe.jpg", position: "Chief Digital Officer", company: "City of Herne", "company-link": "https://www.herne.de/",
     content: "After getting his diploma as a public administration specialist, Pierre joined the city as an organizational developer and change manager. Since 2013, he has been working on projects focused on digitization and process management, and, at the age of 31, Pierre is the city’s youngest CDO to date. Pierre is also a lecturer in E-Government, Digitization, and Knowledge Management (among other areas) and feels that being able to combine science, economy and public management adds considerably to his career and role within the city.", linkedin: "https://www.linkedin.com/in/pierre-golz-311396156/", twitter: "", domain: "Smart Cities", location: "Germany"
     ,flag: "https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png"
     },
