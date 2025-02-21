@@ -260,6 +260,16 @@ window.eventData = [
         "group": "Networking"
     },
     {
+        "id": "202502-battery-pass-closing-event",
+        "title": "Battery Pass Closing Event",
+        "from": "2025-02-25T08:00:00.000Z",
+        "to": "2025-02-25T15:00:00.000Z",
+        "description": "From Concept to Blueprint: Battery Passports as Enablers of Transparent, Competitive, and Circular Value Chains",
+        "location": "Online",
+        "isAllDay": false,
+        "group": "Conference"
+    },
+    {
         "id": "202503-data-spaces-symposium-2025",
         "title": "Data Spaces Symposium 2025",
         "from": "2025-03-10T23:00:00.000Z",
