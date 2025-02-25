@@ -209,6 +209,23 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "BizzTech",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/bizztech.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/bizztech.png' loading='lazy'/></picture></div></div>",
+					"<div class='org-name'>BizzTech</div>",
+					"<div class='membership-type'>Gold</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://bizztech.io/' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-97.383287,31.107152]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
 				"name": "BluSky",
 				"html": [
 					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/blu-sky.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/blu-sky.png' loading='lazy'/></picture></div></div>",
@@ -814,6 +831,23 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[-74.656516,40.413581]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
+				"name": "Seamless Middleware Technologies",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/seamware.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/seamware.png' loading='lazy'/></picture></div></div>",
+					"<div class='org-name'>Seamless Middleware Technologies</div>",
+					"<div class='membership-type'>Gold</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://seamware.com/' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-3.695682,40.353881]
 			}
 		},
 		{
