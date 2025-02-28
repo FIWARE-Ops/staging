@@ -541,3 +541,5 @@ function setupIsotope(e) {
     }
   });
 }
+
+document.addEventListener("html-included", setupIsotope);
