@@ -7,7 +7,12 @@
     {{/if}}
 >
     <div class='f-cat active'>
-        <img alt='' class='city-photo' src='{{img}}' loading='lazy' />
+        <div class='city-photo-container'>
+            <picture>
+               <source srcset="{{webp img}}" type="image/webp"/>
+               <img alt="" class="city-photo" src="{{img}}" loading="lazy" />
+            </picture>
+        </div>
         <div class='profile-details'>
             <h6 class='name'>{{name}}</h6>
         </div>
