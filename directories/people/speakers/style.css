@@ -372,11 +372,23 @@
     }
 }
 
+.city-photo-container {
+    width: 130px;
+    height:0; 
+    padding-top: 130px;
+    position:relative;
+    margin: 0 auto 10px auto;
+}
+
 .city-photo {
     border-radius: 100px;
     width: 130px;
-    border: 2px solid #000000;
+    border: 3px solid #002e67;
     margin: 0 auto 10px auto;
+    position:absolute; 
+    background-color: #e2e9ea;
+    top:0; 
+    left:0;
 }
 
 .flag {
