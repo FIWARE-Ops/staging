@@ -216,6 +216,28 @@
     background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
 } */
 
+.btn-primary, .btn-primary:visited {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000;
+    background-color: rgba(0,0,0,0);
+    padding: 4px 8px 4px 4px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    background-color: rgba(0,0,0,1);
+    color: #ec5629;
+}
+
 .icons {
     padding: 15px 0px 0px;
     margin-top: 5px;
@@ -436,6 +458,12 @@
     padding: 0 1px 1px 0;
 }
 
+.cat-bio  {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
 /*
 .cat-bio {
     position: relative;
@@ -555,7 +583,7 @@
     font-weight: 500;
     font-size: 14px;
     color: #333;
-    line-height: 1.4em;
+    line-height: 1.3em;
     padding: 0px;
     /*cursor: default;*/
 }
