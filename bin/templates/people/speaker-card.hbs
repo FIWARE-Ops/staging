@@ -1,33 +1,31 @@
 {{#each this}}
-        <div id="item-{{@index}}"
-            class='grid-item
-                {{createClass company}}
-                {{createClass country}}
-                {{createClass department}}
-                {{createClasses filters}}
-                {{createClass domain}}'
-        >
+        <div id="item-{{@index}}" class="grid-item {{createClass company}} {{createClass country}} {{createClass department}} {{createClasses filters}} {{createClass domain}}">
             <div class='f-cat active'>
                 {{#if bio}}
                 <div class='cat-bio' data-modal='{{@index}}'>
                 {{/if}}
-                 <div class='city-photo-container'>
+                <div class='city-photo-container'>
                     <picture>
                        <source srcset="{{webp img}}" type="image/webp"/>
-                       <img alt='' class='city-photo' src='{{img}}' loading='lazy' />
+                       <img alt="" class="city-photo" src="{{img}}" loading="lazy" />
                     </picture>
                 </div>
                 {{#if bio}}
                 </div>
                 {{/if}}
                 <div class='profile-details'>
+                {{#if bio}}
+                <div class='cat-bio' data-modal='{{@index}}'>
+                {{/if}}
                     <h6 class='name'>{{title}}{{name}}</h6>
                     <h4 class='position'>{{job}}</h4>
-
                     <a target='_blank' href='{{website}}' rel='noopener'>
                         <h5 class='company-link'>{{company}}{{companyType}}</h5>
                     </a>
                 </div>
+                {{#if bio}}
+                </div>
+                {{/if}}
                 <div class='icons'>
                     {{#if linkedIn}}
                         <a class='cat-linkedin' target='_blank' href='{{linkedIn}}' rel='noopener'><span
