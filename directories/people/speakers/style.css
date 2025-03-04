@@ -48,13 +48,14 @@
 
 .f-cat {
     border-radius: 4px;
-    padding: 20px 0 18px;
+    padding: 20px 0 0;
     background: rgba(255, 255, 255, .15);
     transition: all 300ms ease-in;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 12px;
+    cursor: pointer;
 }
 
 .f-cat:hover {
@@ -240,13 +241,14 @@
 }
 
 .icons {
-    padding: 18px 0px 0px;
+    padding: 18px 0px 18px;
     margin-top: 5px;
     border-top: 1px solid #ec5629;
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 10px;
+    cursor: default!important;
 }
 
 .maplibregl-popup-content .icons {
@@ -448,6 +450,7 @@
     position: relative;
     width: 32px;
     height: 32px;
+    cursor: pointer;
 }
 
 .bio::before {
