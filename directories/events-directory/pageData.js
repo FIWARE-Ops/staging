@@ -270,6 +270,16 @@ window.eventData = [
         "group": "Conference"
     },
     {
+        "id": "202503-key--the-energy-transition-expo",
+        "title": "KEY: The Energy Transition Expo",
+        "from": "2025-03-05T08:30:00.000Z",
+        "to": "2025-03-07T17:30:00.000Z",
+        "description": "KEY 2025 is the global network of reference for the energy transition and efficiency community.",
+        "location": "Rimini Expo Centre Via Emilia 155, 47921 ",
+        "isAllDay": false,
+        "group": "Conference"
+    },
+    {
         "id": "202503-data-spaces-symposium-2025",
         "title": "Data Spaces Symposium 2025",
         "from": "2025-03-10T23:00:00.000Z",
