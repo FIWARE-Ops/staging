@@ -56,7 +56,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 12px;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .f-cat:hover {
@@ -81,7 +81,6 @@
     padding: 0 20px;
     margin: 0 auto;
     gap: 5px;
-    cursor: pointer;
 }
 
 .profile-details p {
@@ -465,9 +464,7 @@
 }
 
 .cat-bio  {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
+    cursor: pointer;
 }
 
 /*
