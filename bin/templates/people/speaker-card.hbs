@@ -14,16 +14,10 @@
                 </div>
                 {{/if}}
                 <div class='profile-details'>
-                {{#if bio}}
-                <div class='cat-bio' data-modal='{{@index}}'>
-                {{/if}}
-                    <h6 class='name'>{{title}}{{name}}</h6>
-                    <h4 class='position'>{{job}}</h4>
+                    <h6 class='name{{#if bio}} cat-bio{{/if}}' data-modal='{{@index}}'>{{title}}{{name}}</h6>
+                    <h4 class='position{{#if bio}} cat-bio{{/if}}' data-modal='{{@index}}'>{{job}}</h4>
                     <h5 class='company-link'><a target='_blank' href='{{website}}' rel='noopener'>{{company}}{{companyType}}</a></h5>
                 </div>
-                {{#if bio}}
-                </div>
-                {{/if}}
                 <div class='icons'>
                     {{#if linkedIn}}
                         <a class='cat-linkedin' target='_blank' href='{{linkedIn}}' rel='noopener'><span
