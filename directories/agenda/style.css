@@ -1239,11 +1239,17 @@ input[type="search"]::placeholder {
     width: 60px;
     margin: auto;
     border-radius: 4px;
+    height: 0;
+    padding-top: 60px;
+    position: relative;
     float: left;
 }
 
 .session-picture img {
     width: 100%;
+    position:absolute;
+    top:0; 
+    left:0;
 }
 
 .session-picture.light-blue {
