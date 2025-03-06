@@ -288,5 +288,25 @@ window.eventData = [
         "location": "Hilton Warsaw City Grzybowska 63, 00-844 ",
         "isAllDay": true,
         "group": "Conference"
+    },
+    {
+        "id": "202503-support-for-the-dataspace-protocol--dsp--in-the-fiware-data-space-connector",
+        "title": "Support for the Dataspace Protocol (DSP) in the FIWARE Data Space Connector",
+        "from": "2025-03-26T09:00:00.000Z",
+        "to": "2025-03-26T10:00:00.000Z",
+        "description": "Using  the IDSA Data Space Protocol (DSP) within FDSC",
+        "location": "Online",
+        "isAllDay": false,
+        "group": "Webinar"
+    },
+    {
+        "id": "202504-solving-the-challenges-of-distributed-operations-within-data-spaces",
+        "title": "Solving the challenges of Distributed Operations within Data Spaces",
+        "from": "2025-04-02T08:00:00.000Z",
+        "to": "2025-04-02T09:00:00.000Z",
+        "description": "Learn about new functionalities with NGSI-LD as described in pre-release public draft for NGSI-LD 1.9.1",
+        "location": "Online",
+        "isAllDay": false,
+        "group": "Webinar"
     }
 ];
