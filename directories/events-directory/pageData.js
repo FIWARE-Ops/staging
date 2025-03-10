@@ -300,6 +300,16 @@ window.eventData = [
         "group": "Webinar"
     },
     {
+        "id": "202503-hannover-messe",
+        "title": "Hannover Messe",
+        "from": "2025-03-31T07:00:00.000Z",
+        "to": "2025-04-04T16:00:00.000Z",
+        "description": "Meet FIWARE at Hannover Messe",
+        "location": "Messegelände Hannover Messegelände D 30521 ",
+        "isAllDay": false,
+        "group": "Conference"
+    },
+    {
         "id": "202504-support-for-the-dataspace-protocol--dsp--in-the-fiware-data-space-connector",
         "title": "Support for the Dataspace Protocol (DSP) in the FIWARE Data Space Connector",
         "from": "2025-04-02T08:00:00.000Z",
@@ -308,5 +318,35 @@ window.eventData = [
         "location": "Online",
         "isAllDay": false,
         "group": "Webinar"
+    },
+    {
+        "id": "202504-trusted-data-exchanges--from-standards-to-pilots-in-a-changing-world",
+        "title": "Trusted Data Exchanges: From Standards to Pilots in a changing world",
+        "from": "2025-04-02T12:00:00.000Z",
+        "to": "2025-04-02T16:00:00.000Z",
+        "description": "Insights into FIWARE’s role in promoting open standards for trusted data exchange platforms.",
+        "location": "The International House of Japan 5-11-16 Roppongi, Minato-ku, 106-0032 ",
+        "isAllDay": false,
+        "group": "Workshop"
+    },
+    {
+        "id": "202509-smart-country-convention",
+        "title": "Smart Country Convention",
+        "from": "2025-09-29T22:00:00.000Z",
+        "to": "2025-10-01T22:00:00.000Z",
+        "description": "Germany’s largest congress for digitization in the public sector.",
+        "location": "hub27 Berlin Jafféstraße 2, 14055 ",
+        "isAllDay": true,
+        "group": "Conference"
+    },
+    {
+        "id": "202511-smart-city-expo-world-congress",
+        "title": "Smart City Expo World Congress",
+        "from": "2025-11-04T08:00:00.000Z",
+        "to": "2025-11-06T18:00:00.000Z",
+        "description": "International leading event for cities with strong presence of FIWARE Community.",
+        "location": "Fira Barcelona – Gran Via Av. Joan Carles I, 64, 08908 ",
+        "isAllDay": false,
+        "group": "Conference"
     }
 ];
