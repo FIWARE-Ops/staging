@@ -6,6 +6,7 @@ var titles = [
         '2022',
         '2023',
         '2024',
+        '2025',
 ]; var domains = [
         'AgriFood',
         'AgriTech',
@@ -15,6 +16,7 @@ var titles = [
         'eGovernance',
         'eHealth',
         'Energy',
+        'Environment',
         'Industry',
         'Islands',
         'Logistics',
