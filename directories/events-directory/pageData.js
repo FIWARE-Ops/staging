@@ -132,11 +132,11 @@ window.eventData = [
     {
         "id": "202411-smart-city-expo-world-congress-2024",
         "title": "Smart City Expo World Congress 2024",
-        "from": "2024-11-04T23:00:00.000Z",
-        "to": "2024-11-06T23:00:00.000Z",
+        "from": "2024-11-05T08:00:00.000Z",
+        "to": "2024-11-07T18:00:00.000Z",
         "description": "As an official Event Partner, we are honoured to be present in Pavilion 3, Stand B11, with the FIWARE Community booth.",
         "location": "Fira Barcelona Gran Via Av. Joan Carles I, 64, 08908 L&#x27;Hospitalet de Llobregat ",
-        "isAllDay": true,
+        "isAllDay": false,
         "group": "Conference"
     },
     {
