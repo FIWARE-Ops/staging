@@ -36,9 +36,11 @@
                 <a id="is-blogpost" class="details"
                     href="{{website}}"
                     target="_blank" rel="noopener"><span class="material-symbols-outlined">description</span>Read</a>
+                {{#if (ne pdfUrl 'https://www.fiware.org/wp-content/uploads')}}
                 <a id="is-pdf" class="details"
                     href="{{pdfUrl}}" target="_blank"
                     rel="noopener"><span class="material-symbols-outlined">download</span>Download</a>
+                {{/if}}
             </div>
         </div>
     </div>
