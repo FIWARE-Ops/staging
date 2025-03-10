@@ -676,6 +676,7 @@
 }
 
 .icons {
+    min-height: 75px;
     padding: 20px 0px;
     margin-top: 5px;
     border-top: 1px solid #cdcdcd;
