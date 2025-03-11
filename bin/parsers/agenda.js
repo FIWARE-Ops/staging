@@ -14,6 +14,9 @@ const CurrentYear = new Date().getFullYear();
 
 const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/agenda/images/careers-default.png';
 
+const QR_CODES = !!process.env.QR_CODES;
+const SOCIAL_IMAGES = !!process.env.SOCIAL_IMAGES;
+
 function getExcerpt(item) {
     const text = Parser.textOnly(item.Description);
     const next = text.indexOf('.', 40);
@@ -168,8 +171,12 @@ function generateHTML(agenda, activeSpeakers, eventDates, style) {
     Prettier.format(path.join(AGENDA_DIR, 'agenda.html'), { parser: 'html' });
     Prettier.format(path.join(AGENDA_DIR, 'pageData.js'), { parser: 'flow' });
 
-    //Template.qrCodes(path.join(AGENDA_DIR, 'qr'), agenda);
-    //Template.createSocialMediaImages(socialImages, path.join(TEMPLATE_PATH, 'social-media-image.hbs'));
+    if (QR_CODES){
+        Template.qrCodes(path.join(AGENDA_DIR, 'qr'), agenda);
+    }
+    if (SOCIAL_IMAGES){
+        Template.createSocialMediaImages(socialImages, path.join(TEMPLATE_PATH, 'social-media-image.hbs'));
+    }
     return agenda;
 }
 
