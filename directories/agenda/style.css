@@ -1318,6 +1318,12 @@ input[type="search"]::placeholder {
     left:0;
 }
 
+.session-picture.light-orange {
+    background-color: #fce9e3;
+    color: #ec5629;
+    border-color: #ec5629;
+}
+
 .session-picture.light-blue {
     background-color: #cce0f0;
     color: #005fb9;
