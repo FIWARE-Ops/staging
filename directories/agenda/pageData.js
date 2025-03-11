@@ -9,8 +9,8 @@ var tracks = [
         'Tech Training',
 ];
 var summitDates = [
-        '18-september',
-        '19-september',
+        '22-may',
+        '23-may',
 ];
 var sessions = [
         'AI &amp; ML',
