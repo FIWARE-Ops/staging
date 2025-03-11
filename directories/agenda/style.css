@@ -1038,7 +1038,7 @@ select::-ms-expand {
 
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
     background-color: rgba(0, 0, 0, 1);
-    color: #ec5629;
+    color: #fff;
 }
 
 .btn-secondary, .btn-secondary:visited {
