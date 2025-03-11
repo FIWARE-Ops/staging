@@ -18,12 +18,12 @@
 .grid-item {
     width: 70%;
     margin-bottom: 32px;
-    background: #fff;
+    background: #fef7f5;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     box-shadow: 0 0 0 0 rgb(0 0 0 / 10%);
-    border: 1px solid #f0f0f0;
+    border: 0px solid #f0f0f0;
     transition: box-shadow 0.4s;
     border-radius: 4px;
     /* cursor: pointer; */
@@ -472,6 +472,15 @@
 
 .title-type.light-green {
     color: #108763;
+}
+
+.track.light-orange {
+    background-color: #fce9e3;
+    color: #ec5629;
+}
+
+.title-type.light-orange {
+    color: #ec5629;
 }
 
 .title-type {
