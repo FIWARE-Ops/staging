@@ -3,13 +3,13 @@ function getTrackColor(data) {
 
     switch (data) {
         case 'Tech & Trends':
-        case 'Co-creation of tech solutions':
+        case 'Smart Governance for Smart Cities':
             result = 'light-green';
             break;
         case 'Tech Training':
             result = 'cyan';
             break;
-        case 'Innovation with FIWARE':
+        case 'Secure Smart City':
             result = 'light-yellow';
             break;
         case 'Grand Opening':
@@ -17,7 +17,7 @@ function getTrackColor(data) {
         case 'Organization':
             result = 'light-orange';
             break;
-        case 'Hands-On Use Cases':
+        case 'AI & Data-Driven Urban Management':
         case 'Collaborative business strategies':
             result = 'light-blue';
             break;

@@ -1,10 +1,10 @@
 var tracks = [
-        'Co-creation of tech solutions',
-        'Collaborative business strategies',
+        'AI &amp; Data-Driven Urban Management',
         'Grand Opening',
-        'Hands-On Use Cases',
-        'Innovation with FIWARE',
         'Organization',
+        'Secure Smart City',
+        'Smart Governance for Smart Cities',
+        'Sustainable Smart City',
         'Tech &amp; Trends',
         'Tech Training',
 ];
