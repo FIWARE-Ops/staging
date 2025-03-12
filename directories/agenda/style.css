@@ -192,6 +192,10 @@
     text-decoration-color: rgba(0, 0, 0, 0);
 }
 
+.panel-title.light-grey {
+    text-decoration: none;
+}
+
 .panel-title.light-orange {
     text-decoration-color: #ec5629;
 }
@@ -199,6 +203,10 @@
 .panel-title.session {
     color: #000;
     text-decoration: none;
+}
+
+.panel-title.session.light-grey {
+    color: #000;
 }
 
 .panel-title.session.light-orange {
@@ -490,6 +498,15 @@
     font-size: 16px;
     padding: 8px 12px;
     border-radius: 20px;
+}
+
+.track.light-grey {
+    background-color: #ebebeb;
+    color: #000;
+}
+
+.title-type.light-grey {
+    color: #000;
 }
 
 .track.light-blue {
@@ -1379,6 +1396,12 @@ input[type="search"]::placeholder {
     position:absolute;
     top:0; 
     left:0;
+}
+
+.session-picture.light-grey {
+    background-color: #ebebeb;
+    color: #000;
+    border-color: #000;
 }
 
 .session-picture.light-orange {
