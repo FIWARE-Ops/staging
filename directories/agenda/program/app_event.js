@@ -199,29 +199,26 @@ function trackCSS(data) {
   let result = "";
 
   switch (data) {
-    case "Tech & Trends":
-      result = "light-green";
-      break;
-    case "Co-creation of tech solutions":
-      result = "light-green";
-      break;
-    case "Tech Training":
-      result = "cyan";
-      break;
-    case "Innovation with FIWARE":
-      result = "light-yellow";
-      break;
-    case "Grand Opening":
-      result = "light-blue";
-      break;
-    case "Hands-On Use Cases":
-      result = "light-blue";
-      break;
-    case "Collaborative business strategies":
-      result = "light-blue";
-      break;
+    case 'Tech & Trends':
+        result = 'light-green';
+        break;
+    case 'Tech Training':
+        result = 'cyan';
+        break;
+    case 'Secure Smart City':
+    case 'Sustainable Smart City':
+    case 'Smart Gov for Smart Cities':
+        result = 'light-blue';
+        break;
+    case 'Grand Opening':
+    case 'Organization':
+        result = 'light-orange';
+        break;
+    case 'AI & Data-Driven Urban Mngmt':
+        result = 'light-purple';
+        break;
     default:
-      break;
+        break;
   }
   return result;
 }
