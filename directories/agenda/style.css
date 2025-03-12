@@ -188,6 +188,7 @@
     gap: 1em;
     align-items: center;
     text-decoration: underline;
+    text-decoration-color: rgba(0, 0, 0, 0);
 }
 
 .panel-title.light-orange {
