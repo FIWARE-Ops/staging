@@ -187,11 +187,13 @@
     display: flex;
     gap: 1em;
     align-items: center;
+    text-decoration: underline;
 }
 
 .panel-title.detail {
     font-size: 1.5em;
     margin-bottom: 10px;
+    text-decoration: none;
 }
 
 .time {
