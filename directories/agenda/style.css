@@ -179,18 +179,19 @@
 
 .panel-title {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 17px;
     color: #000;
-    line-height: 1.4em;
-    margin-top: 10px;
+    line-height: 1.5em;
+    margin-top: 9px;
     margin-bottom: 5px;
     user-select: none;
     display: flex;
     gap: 1em;
     align-items: center;
     text-decoration: underline;
-    text-decoration-thickness: 2px;
+    text-decoration-thickness: 1px;
     text-decoration-color: rgba(0, 0, 0, 0);
+    text-underline-offset: 3px;
 }
 
 .panel-title.light-grey {
@@ -199,7 +200,7 @@
 
 .panel-title.light-orange {
     font-weight: 500;
-    text-decoration-color: #fce9e3;
+    text-decoration-color: #ec5629;
 }
 
 .panel-title.session {
@@ -218,8 +219,11 @@
 
 .panel-title.session.light-orange {
     font-weight: 600;
-    color: #ec5629;
-    text-decoration: none;
+    /* color: #ec5629; */
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #ec5629;
+    text-underline-offset: 2px;
 }
 
 .panel-title.light-blue {
@@ -229,41 +233,53 @@
 
 .panel-title.session.light-blue {
     font-weight: 600;
-    color: #005fb9;
-    text-decoration: none;
+    /* color: #005fb9; */
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #005fb9;
+    text-underline-offset: 2px;
 }
 
 .panel-title.cyan {
     font-weight: 500;
-    text-decoration-color: #ddf1f4;
+    text-decoration-color: #0891b2;
 }
 
 .panel-title.session.cyan {
     font-weight: 600;
-    color: #0891b2;
-    text-decoration: none;
+    /* color: #0891b2; */
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #0891b2;
+    text-underline-offset: 2px;
 }
 
 .panel-title.light-green {
     font-weight: 500;
-    text-decoration-color: #d0ede4;
+    text-decoration-color: #108763;
 }
 
 .panel-title.session.light-green {
     font-weight: 600;
-    color: #108763;
-    text-decoration: none;
+    /* color: #108763; */
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #108763;
+    text-underline-offset: 2px;
 }
 
 .panel-title.light-purple {
     font-weight: 500;
-    text-decoration-color: #f5eaef;
+    text-decoration-color: #9e3162;
 }
 
 .panel-title.session.light-purple {
     font-weight: 600;
-    color: #9e3162;
-    text-decoration: none;
+    /* color: #9e3162; */
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #9e3162;
+    text-underline-offset: 2px;
 }
 
 .panel-title.detail {
@@ -410,7 +426,7 @@
 }
 
 .speaker:hover {
-    background-color: rgba(240, 240, 240, 1);
+    background-color: rgba(240, 240, 240, .7);
 }
 
 .speaker-data {
