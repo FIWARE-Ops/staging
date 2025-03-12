@@ -1,9 +1,9 @@
 var tracks = [
-        'AI &amp; Data-Driven Urban Management',
+        'AI &amp; Data-Driven Urban Mngmt',
         'Grand Opening',
         'Organization',
         'Secure Smart City',
-        'Smart Governance for Smart Cities',
+        'Smart Gov for Smart Cities',
         'Sustainable Smart City',
         'Tech &amp; Trends',
         'Tech Training',
