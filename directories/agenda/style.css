@@ -1100,9 +1100,9 @@ select::-ms-expand {
     font-size: 14px;
     line-height: 18px;
     color: #000;
-    background-color: rgba(250, 212, 201, 1);
+    background-color: rgba(0, 0, 0, 0);
     padding: 8px 12px 8px 10px;
-    border: 0px solid #000;
+    border: 1px solid #000;
     border-radius: 4px;
     transition: all 0.2s ease-in-out;
     cursor: pointer;
