@@ -32,7 +32,7 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
         const event = {
             priority: Number(item.Priority),
             track: item.Track,
-            moderated: Parser.boolean(item.Moderated),
+            moderated: item['Moderators'] !== '',
             session: item.Session,
             prefix: item.Prefix,
             title: item.Title,
@@ -47,7 +47,7 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
         };
 
         if (event.publish) {
-            const names = _.uniq(
+            let names = _.uniq(
                 _.map(
                     _.filter(item['Speakers'].split(','), function (name) {
                         return name !== '';
@@ -57,6 +57,18 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
                     }
                 )
             );
+            let moderators = _.uniq(
+                _.map(
+                    _.filter(item['Moderators'].split(','), function (name) {
+                        return name !== '';
+                    }),
+                    (name) => {
+                        return name.trim();
+                    }
+                )
+            );
+
+            names = moderators.concat(names);
             event.speakers = _.map(names, function (name) {
                 const speaker = _.findWhere(speakers, { name });
 
