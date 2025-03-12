@@ -10,7 +10,7 @@
           <div class="track {{trackColor}}">{{track}}</div>
           {{#if (ne prefix '')}}<span class="title-type {{trackColor}}">{{prefix}}</span>{{/if}}
         </div>
-        <p class="panel-title {{trackColor}}">{{title}}</p> 
+        <p class="panel-title {{#if (gt numSpeakers 0)}}{{trackColor}}{{/if}}">{{title}}</p> 
         <span class="excerpt">{{session}}</span>
         <div class="panel-info">
           <div class="date-time">
