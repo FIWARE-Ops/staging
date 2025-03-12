@@ -3,23 +3,22 @@ function getTrackColor(data) {
 
     switch (data) {
         case 'Tech & Trends':
-        case 'Smart Governance for Smart Cities':
             result = 'light-green';
             break;
         case 'Tech Training':
             result = 'cyan';
             break;
         case 'Secure Smart City':
-            result = 'light-yellow';
+        case 'Sustainable Smart City':
+        case 'Smart Gov for Smart Cities':
+            result = 'light-blue';
             break;
         case 'Grand Opening':
-        case 'Organisation':
         case 'Organization':
             result = 'light-orange';
             break;
-        case 'AI & Data-Driven Urban Management':
-        case 'Collaborative business strategies':
-            result = 'light-blue';
+        case 'AI & Data-Driven Urban Mngmt':
+            result = 'light-purple';
             break;
         default:
             break;

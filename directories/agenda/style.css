@@ -483,6 +483,15 @@
     color: #ec5629;
 }
 
+.track.light-purple {
+    background-color: #f5eaef;
+    color: #9e3162;
+}
+
+.title-type.light-purple {
+    color: #9e3162;
+}
+
 .title-type {
     /* display: none; */
     background-color: rgba(255,255,255,0);
@@ -1322,6 +1331,12 @@ input[type="search"]::placeholder {
     background-color: #fce9e3;
     color: #ec5629;
     border-color: #ec5629;
+}
+
+.session-picture.light-purple {
+    background-color: #f5eaef;
+    color: #9e3162;
+    border-color: #9e3162;
 }
 
 .session-picture.light-blue {
