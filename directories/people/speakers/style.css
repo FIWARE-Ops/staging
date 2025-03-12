@@ -992,7 +992,7 @@
     .city-photo {
         width: 150px;
         /* margin-bottom: 30px; */
-        border: 2px solid #000;
+        border: 1px solid #000;
     }
 
     .f-cat {
@@ -1574,26 +1574,23 @@ input[type="checkbox"]:checked+label::after {
 #searchInput {
     padding: 5px;
     max-width: unset !important;
-    width: -moz-available;
-    /* WebKit-based browsers will ignore this. */
     width: -webkit-fill-available;
-    /* Mozilla-based browsers will ignore this. */
-    width: fill-available;
     font-size: 16px;
 }
 
 input[type="search"] {
-    background-color: rgba(255,255,255,.9);
-    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 4px;
     border: 1px solid #000;
     cursor: pointer;
     line-height: 1em;
     font-weight: 500;
-    padding: 12px 16px 12px 50px !important;
+    padding: 12px 35px 12px 40px !important;
     font-size: 15px;
-    background-image: url(https://www.fiware.org/wp-content/uploads/ico_search.png);
-    background-position: 4%;
+    background-image: url(https://www.fiware.org/fiware-summit/rabat-2025/assets/images/ico/search.svg);
+    background-position: 2%;
     background-repeat: no-repeat;
+    background-size: 24px 24px;
 }
 
 input[type="search"]:active,
@@ -1604,7 +1601,7 @@ input[type="search"]:focus {
 }
 
 input[type="search"]::placeholder {
-    color: #a9a9a9;
+    color: #000;
 }
 
 /* Icons */
@@ -1931,7 +1928,7 @@ input[type="search"]::placeholder {
     /* Search */
 
     input[type="search"] {
-        background-position: 5%;
+        background-position: 3%;
     }
 
     /* Filtering */
