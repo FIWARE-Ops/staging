@@ -237,7 +237,7 @@
 
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
     background-color: rgba(0,0,0,1);
-    color: #ec5629;
+    color: #fff;
 }
 
 .icons {
@@ -443,7 +443,7 @@
 
 .linkedin:hover {
     background-color: rgba(0,0,0,1);
-    background-image: url(https://www.fiware.org/custom/icons/orange/linkedin.svg);
+    background-image: url(https://www.fiware.org/custom/icons/white/linkedin.svg);
 }
 
 .cat-linkedin {
