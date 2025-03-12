@@ -14,11 +14,13 @@ function getTrackColor(data) {
             result = 'light-blue';
             break;
         case 'Grand Opening':
-        case 'Organization':
             result = 'light-orange';
             break;
         case 'AI & Data-Driven Urban Mngmt':
             result = 'light-purple';
+            break;
+        case 'Organization':
+            result = 'light-grey';
             break;
         default:
             break;
