@@ -68,8 +68,11 @@ function extractProjects(input, team) {
 
         project.year = project.startDate ? project.startDate.getFullYear().toString() : 'unknown';
         project.type = project.endDate < today ? 'Completed' : 'Ongoing';
-        project.shortDate = project.endDate.toLocaleDateString('en-GB', { month: 'long', day: 'numeric', year: 'numeric' });
-            
+        project.shortDate = project.endDate.toLocaleDateString('en-GB', {
+            month: 'long',
+            day: 'numeric',
+            year: 'numeric'
+        });
 
         const filename = Template.createClass(project.name);
         project.social = `/project/${filename}.html`;

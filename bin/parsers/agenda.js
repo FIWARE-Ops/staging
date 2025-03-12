@@ -12,7 +12,7 @@ const AGENDA_DIR = 'directories/agenda';
 const People = require('./people');
 const CurrentYear = new Date().getFullYear();
 
-const ICONS_PATH = 'https://www.fiware.org/fiware-summit/assets/icons/'
+const ICONS_PATH = 'https://www.fiware.org/fiware-summit/assets/icons/';
 const DEFAULT_IMAGE = `${ICONS_PATH}icon-grand-opening.svg`;
 const QR_CODES = !!process.env.QR_CODES;
 const SOCIAL_IMAGES = !!process.env.SOCIAL_IMAGES;
@@ -48,23 +48,15 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
 
         if (event.publish) {
             const names = _.uniq(
-                _.filter(
-                    [
-                        item['Speaker 1'] || '',
-                        item['Speaker 2'] || '',
-                        item['Speaker 3'] || '',
-                        item['Speaker 4'] || '',
-                        item['Speaker 5'] || '',
-                        item['Speaker 6'] || '',
-                        item['Speaker 7'] || '',
-                        item['Speaker 8'] || ''
-                    ],
-                    function (name) {
+                _.map(
+                    _.filter(item['Speakers'].split(','), function (name) {
                         return name !== '';
+                    }),
+                    (name) => {
+                        return name.trim();
                     }
                 )
             );
-
             event.speakers = _.map(names, function (name) {
                 const speaker = _.findWhere(speakers, { name });
 
@@ -171,10 +163,10 @@ function generateHTML(agenda, activeSpeakers, eventDates, style) {
     Prettier.format(path.join(AGENDA_DIR, 'agenda.html'), { parser: 'html' });
     Prettier.format(path.join(AGENDA_DIR, 'pageData.js'), { parser: 'flow' });
 
-    if (QR_CODES){
+    if (QR_CODES) {
         Template.qrCodes(path.join(AGENDA_DIR, 'qr'), agenda);
     }
-    if (SOCIAL_IMAGES){
+    if (SOCIAL_IMAGES) {
         Template.createSocialMediaImages(socialImages, path.join(TEMPLATE_PATH, 'social-media-image.hbs'));
     }
     return agenda;

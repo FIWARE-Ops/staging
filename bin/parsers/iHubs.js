@@ -103,7 +103,10 @@ function generateHTML(iHubs) {
     Template.write(path.join(IHUBS_DIR, 'iHubs.html'), path.join(TEMPLATE_PATH, 'card.hbs'), iHubs);
     Template.write(path.join(IHUBS_DIR, 'pageData.js'), path.join(TEMPLATE_PATH, 'modal.hbs'), filterData);
     Template.write(path.join(IHUBS_DIR, 'filters.html'), path.join(TEMPLATE_PATH, 'filter.hbs'), filterData);
-    Template.write(path.join(IHUBS_DIR, 'summary.html'), path.join(TEMPLATE_PATH, 'summary.hbs'), {ihubs: iHubs.length, countries: filterData.countries.length});
+    Template.write(path.join(IHUBS_DIR, 'summary.html'), path.join(TEMPLATE_PATH, 'summary.hbs'), {
+        ihubs: iHubs.length,
+        countries: filterData.countries.length
+    });
 
     Prettier.format(path.join(IHUBS_DIR, 'iHubs.html'), { parser: 'html' });
     Prettier.format(path.join(IHUBS_DIR, 'pageData.js'), { parser: 'flow' });

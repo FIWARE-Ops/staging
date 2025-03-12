@@ -202,11 +202,11 @@ async function formatImage(file, format) {
     const base = path.basename(file, path.extname(file));
     const dir = path.dirname(file);
 
-    if ( path.extname(file) !== `.${format}`){
+    if (path.extname(file) !== `.${format}`) {
         await sharp(file)
             .toFormat(format, { palette: true })
             .toFile(path.join(dir, `${base}.${format}`));
-        }
+    }
 }
 
 /**

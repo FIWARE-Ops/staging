@@ -124,8 +124,16 @@ function generatePrivateHTML(webinars) {
         );
         Prettier.format(path.join(MEMBERS_WEBINARS_DIR, `${filename}.html`), { parser: 'html' });
     });
-    Template.write(path.join(MEMBERS_WEBINARS_DIR, 'webinars.html'), path.join(TEMPLATE_PATH, 'private-card.hbs'), webinars);
-    Template.write(path.join(MEMBERS_WEBINARS_DIR, 'pageData.js'), path.join(TEMPLATE_PATH, 'private-modal.hbs'), filterData);
+    Template.write(
+        path.join(MEMBERS_WEBINARS_DIR, 'webinars.html'),
+        path.join(TEMPLATE_PATH, 'private-card.hbs'),
+        webinars
+    );
+    Template.write(
+        path.join(MEMBERS_WEBINARS_DIR, 'pageData.js'),
+        path.join(TEMPLATE_PATH, 'private-modal.hbs'),
+        filterData
+    );
     Template.write(path.join(MEMBERS_WEBINARS_DIR, 'filters.html'), path.join(TEMPLATE_PATH, 'filter.hbs'), filterData);
 
     Prettier.format(path.join(MEMBERS_WEBINARS_DIR, 'webinars.html'), { parser: 'html' });

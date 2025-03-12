@@ -186,9 +186,8 @@ switch (PROCESS) {
         break;
 
     case 'postinstall':
-
         const dir = path.join(__dirname, '../images');
-        if (!fs.existsSync(dir)){
+        if (!fs.existsSync(dir)) {
             fs.mkdirSync(dir);
         }
 

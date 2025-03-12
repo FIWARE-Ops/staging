@@ -193,9 +193,8 @@ function webp(file) {
 }
 
 function embed(data) {
-    return data.replace("watch?v=", "embed/");
+    return data.replace('watch?v=', 'embed/');
 }
-
 
 function calendar(date, startTime, endTime) {
     return formatDateCal(date, startTime) + '/' + formatDateCal(date, endTime);
