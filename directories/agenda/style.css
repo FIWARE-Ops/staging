@@ -190,6 +190,26 @@
     text-decoration: underline;
 }
 
+.panel-title.light-orange {
+    text-decoration-color: #ec5629;
+}
+
+.panel-title.light-blue {
+    text-decoration-color: #005fb9;
+}
+
+.panel-title.cyan {
+    text-decoration-color: #0891b2;
+}
+
+.panel-title.light-green {
+    text-decoration-color: #108763;
+}
+
+.panel-title.light-purple {
+    text-decoration-color: #9e3162;
+}
+
 .panel-title.detail {
     font-size: 1.5em;
     margin-bottom: 10px;
