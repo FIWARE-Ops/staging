@@ -67,12 +67,12 @@
 }
 
 .event-title a {
-    color: #005fb9;
+    color: #ec5629;
     border-bottom: 1px solid;
 }
 
 .event-title a:hover {
-    color: #004586;
+    color: #ea4817;
 }
 
 .panel-info {
@@ -168,13 +168,13 @@
     gap: 3px;
     font-weight: 500;
     font-size: 16px;
-    color: #005fb9;
+    color: #ec5629;
     padding: 10px 0 0;
     transition: all 0.2s ease-in-out;
 }
 
 .venue:hover {
-    color: #004586;
+    color: #ea4817;
 }
 
 .panel-title {
@@ -1066,18 +1066,18 @@ select::-ms-expand {
     align-items: center;
     gap: 10px;
     font-size: 15px;
-    color: #000;
-    background-color: rgba(255, 255, 255, 0.2);
+    color: #ec5629;
+    background-color: rgba(252, 233, 227, 0);
     padding: 8px 12px;
-    border: 1px solid rgba(0,0,0,0);
+    border: none;
     border-radius: 4px;
     transition: all 0.2s ease-in-out;
     cursor: pointer;
 }
 
 .btn-secondary:hover, .btn-secondary:active, .btn-secondary:focus {
-    background-color: rgba(255, 255, 255, 0.3);
-    border-color: rgba(0,0,0,1);
+    background-color: rgba(252, 233, 227, 1);
+    color: #ea4817;
 }
 
 .btn-icon {
