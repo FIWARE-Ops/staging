@@ -868,7 +868,7 @@
 
 .twitter-link:hover {
     background-color: #000;
-    background-image: url(https://www.fiware.org/custom/icons/orange/twitter.svg);
+    background-image: url(https://www.fiware.org/custom/icons/white/twitter.svg);
 }
 
 /* .linkedin-link::before {
@@ -910,7 +910,7 @@
 
 .linkedin-link:hover {
     background-color: #000;
-    background-image: url(https://www.fiware.org/custom/icons/orange/linkedin.svg);
+    background-image: url(https://www.fiware.org/custom/icons/white/linkedin.svg);
 }
 
 .tingle-modal .bio-modal p {
