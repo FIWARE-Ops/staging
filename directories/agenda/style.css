@@ -181,7 +181,7 @@
     font-weight: 600;
     font-size: 18px;
     color: #000;
-    line-height: 1.3em;
+    line-height: 1.4em;
     margin-top: 12px;
     margin-bottom: 5px;
     user-select: none;
@@ -217,6 +217,7 @@
 }
 
 .panel-title.session.light-orange {
+    font-weight: 600;
     color: #ec5629;
     text-decoration: none;
 }
@@ -227,6 +228,7 @@
 }
 
 .panel-title.session.light-blue {
+    font-weight: 600;
     color: #005fb9;
     text-decoration: none;
 }
@@ -237,6 +239,7 @@
 }
 
 .panel-title.session.cyan {
+    font-weight: 600;
     color: #0891b2;
     text-decoration: none;
 }
@@ -247,6 +250,7 @@
 }
 
 .panel-title.session.light-green {
+    font-weight: 600;
     color: #108763;
     text-decoration: none;
 }
@@ -257,6 +261,7 @@
 }
 
 .panel-title.session.light-purple {
+    font-weight: 600;
     color: #9e3162;
     text-decoration: none;
 }
@@ -286,8 +291,8 @@
 }
 
 .excerpt {
-    font-size: 1em;
-    line-height: 1em;
+    font-size: 15px;
+    line-height: 16px;
     color: #4c4c4c;
     user-select: none;
 }
