@@ -198,10 +198,12 @@
 }
 
 .panel-title.light-orange {
+    font-weight: 500;
     text-decoration-color: #ec5629;
 }
 
 .panel-title.session {
+    font-weight: 600;
     color: #000;
     text-decoration: none;
 }
@@ -209,6 +211,9 @@
 .panel-title.session.light-grey {
     color: #000;
     margin-top: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: .5px;
 }
 
 .panel-title.session.light-orange {
@@ -217,6 +222,7 @@
 }
 
 .panel-title.light-blue {
+    font-weight: 500;
     text-decoration-color: #005fb9;
 }
 
@@ -226,6 +232,7 @@
 }
 
 .panel-title.cyan {
+    font-weight: 500;
     text-decoration-color: #0891b2;
 }
 
@@ -235,6 +242,7 @@
 }
 
 .panel-title.light-green {
+    font-weight: 500;
     text-decoration-color: #108763;
 }
 
@@ -244,6 +252,7 @@
 }
 
 .panel-title.light-purple {
+    font-weight: 500;
     text-decoration-color: #9e3162;
 }
 
