@@ -12,8 +12,8 @@ const AGENDA_DIR = 'directories/agenda';
 const People = require('./people');
 const CurrentYear = new Date().getFullYear();
 
-const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/agenda/images/careers-default.png';
-
+const ICONS_PATH = 'https://www.fiware.org/fiware-summit/assets/icons/'
+const DEFAULT_IMAGE = `${ICONS_PATH}icon-grand-opening.svg`;
 const QR_CODES = !!process.env.QR_CODES;
 const SOCIAL_IMAGES = !!process.env.SOCIAL_IMAGES;
 
@@ -40,7 +40,7 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
             start: item['Start Time'],
             end: item['End Time'],
             location: item.Location,
-            img: item.Image ? item.Image : DEFAULT_IMAGE,
+            img: item.Image ? `${ICONS_PATH}${item.Image}` : DEFAULT_IMAGE,
             description: Parser.markdown(item.Description),
             excerpt: getExcerpt(item),
             publish: Parser.boolean(item.Published)
