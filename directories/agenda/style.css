@@ -196,8 +196,14 @@
     text-decoration-color: #ec5629;
 }
 
+.panel-title.session {
+    color: #000;
+    text-decoration: none;
+}
+
 .panel-title.session.light-orange {
     color: #ec5629;
+    text-decoration: none;
 }
 
 .panel-title.light-blue {
@@ -206,6 +212,7 @@
 
 .panel-title.session.light-blue {
     color: #005fb9;
+    text-decoration: none;
 }
 
 .panel-title.cyan {
@@ -214,6 +221,7 @@
 
 .panel-title.session.cyan {
     color: #0891b2;
+    text-decoration: none;
 }
 
 .panel-title.light-green {
@@ -222,6 +230,7 @@
 
 .panel-title.session.light-green {
     color: #108763;
+    text-decoration: none;
 }
 
 .panel-title.light-purple {
@@ -230,6 +239,7 @@
 
 .panel-title.session.light-purple {
     color: #9e3162;
+    text-decoration: none;
 }
 
 .panel-title.detail {
