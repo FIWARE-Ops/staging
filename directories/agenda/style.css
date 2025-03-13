@@ -67,12 +67,8 @@
 }
 
 .event-title a {
-    color: #ec5629;
+    color: #000;
     border-bottom: 1px solid;
-}
-
-.event-title a:hover {
-    color: #ea4817;
 }
 
 .panel-info {
@@ -168,13 +164,9 @@
     gap: 3px;
     font-weight: 500;
     font-size: 16px;
-    color: #ec5629;
+    color: #000;
     padding: 10px 0 0;
     transition: all 0.2s ease-in-out;
-}
-
-.venue:hover {
-    color: #ea4817;
 }
 
 .panel-title {
@@ -401,16 +393,34 @@
     gap: 8px;
     padding: 10px;
     border-radius: 4px;
-    background-color: rgba(240, 240, 240, 0);
+    background-color: rgba(235, 235, 235, 0);
     transition: all 0.3s ease-in-out;
     cursor: pointer;
 }
 
-.speaker.moderator img{
-    border-color: #6b87aa;
-    border-width: 2px;
-    border-style: solid;
-    filter: sepia(150%) hue-rotate(-20deg);
+.speaker.moderator img {
+    border: 2px solid #ec5629;
+    /* filter: sepia(150%) hue-rotate(-20deg); */
+}
+
+.speaker.moderator.light-orange img {
+    border-color: #ec5629;
+}
+
+.speaker.moderator.light-blue img {
+    border-color: #005fb9;
+}
+
+.speaker.moderator.light-purple img {
+    border-color: #9e3162;
+}
+
+.speaker.moderator.light-green img {
+    border-color: #108763;
+}
+
+.speaker.moderator.cyan img {
+    border-color: #0891b2;
 }
 
 .speaker.detail {
@@ -419,7 +429,7 @@
     justify-content: space-between;
     padding: 10px;
     border-radius: 4px;
-    background-color: rgba(240, 240, 240, 0);
+    background-color: rgba(235, 235, 235, 0);
     transition: all 0.3s ease-in-out;
     cursor: pointer;
 }
@@ -433,7 +443,7 @@
 }
 
 .speaker:hover {
-    background-color: rgba(240, 240, 240, .7);
+    background-color: rgba(235, 235, 235, .7);
 }
 
 .speaker-data {
@@ -618,6 +628,10 @@
   background-color: #8ad2dc;
   border-radius: 4px;
   float: right;
+}
+
+.topic-icon.light-orange {
+  background-color: #fce9e3;
 }
 
 .topic-icon.light-blue {
@@ -1179,8 +1193,8 @@ select::-ms-expand {
     align-items: center;
     gap: 10px;
     font-size: 15px;
-    color: #ec5629;
-    background-color: rgba(252, 233, 227, 0);
+    color: #000;
+    background-color: rgba(235, 235, 235, 0);
     padding: 8px 12px;
     border: none;
     border-radius: 4px;
@@ -1189,8 +1203,8 @@ select::-ms-expand {
 }
 
 .btn-secondary:hover, .btn-secondary:active, .btn-secondary:focus {
-    background-color: rgba(252, 233, 227, 1);
-    color: #ea4817;
+    background-color: rgba(235, 235, 235, 1);
+    color: #000;
 }
 
 .btn-icon {
@@ -1886,7 +1900,7 @@ input[type="search"]::placeholder {
     }
 
     .speaker:hover {
-        background-color: rgba(240, 240, 240, 0);
+        background-color: rgba(235, 235, 235, 0);
     }
 
     /* .speaker-data {
