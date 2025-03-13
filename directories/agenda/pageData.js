@@ -27,6 +27,7 @@ var sessions = [
         'Process &amp; Inference',
         'Robotics',
         'Security &amp; Distributed Trust',
+        'Signing Ceremony',
         'Smart Agriculture &amp; Bio-Diversity',
         'Smart Communities &amp; Mobility',
         'Smart Energy',
