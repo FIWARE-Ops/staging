@@ -1279,7 +1279,7 @@ select::-ms-expand {
 .checked+label,
 .checked+label:hover {
     background-color: rgba(0, 0, 0, 1) !important;
-    color: #ec5629!important;
+    color: #fff!important;
 }
 
 input[type="checkbox"] {
