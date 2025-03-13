@@ -86,6 +86,7 @@ var companies = [
         'Stealth-ISS Group',
         'Sysman',
         'Tecnológico de Monterrey',
+        'Telefonica',
         'Telefónica',
         'The Lisbon Council',
         'Toyooka City Hall',
@@ -204,6 +205,9 @@ var companies = [
     },
     { name: "David Campo", img: "https://www.fiware.org/wp-content/directories/people/images/200px/david-campo.jpg", position: "Senior Technical Expert &amp; Evangelist", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
     content: "", linkedin: "https://www.linkedin.com/in/davidnazarenocampo/", twitter: "https://twitter.com/dncampo", domain: "", location: ""
+    },
+    { name: "Agustín Cardenas Fernandez", img: "https://www.fiware.org/wp-content/directories/people/images/200px/agustin-cardenas-fernandez.jpg", position: "Director of Company Business Transformation", company: "Telefonica", "company-link": "https://www.telefonica.com/en/",
+    content: "", linkedin: "https://www.linkedin.com/in/agucardenas/", twitter: "https://twitter.com/agucardenas", domain: "", location: ""
     },
     { name: "Antony Cassano", img: "https://www.fiware.org/wp-content/directories/people/images/200px/antony-cassano.jpg", position: "President &amp; Founder", company: "Pleiades-IoT Cluster", "company-link": "https://pleiadesiot.com/",
     content: "Antony Cassano is the Business Development Director of Uni Systems and the President and Founder of the Pleiades IoT Innovation Cluster, also recognized as FIWARE i-Hub. With more than 15 years of experience in Infrastructure Technologies, Antonis is now substantiating his expertise to lead the Research and Innovation activities of Uni Systems. He drives business development by exploring new growth opportunities and by institutionalizing a continuous endeavor to improve business practices. Antonis studied in the UK and graduated with a M.Sc. in Business Administration &amp; Information Technology.", linkedin: "https://www.linkedin.com/in/antony-cassano-7a03601/", twitter: "", domain: "", location: ""
