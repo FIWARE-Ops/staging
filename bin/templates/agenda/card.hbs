@@ -49,7 +49,7 @@
     {{else}}
     <div class="speakers-container{{#if moderated}} moderated{{/if}}">
       {{#if (and moderated (gt numSpeakers 0))}} 
-      <div class="moderated-by">
+      <div class="moderated-by {{trackColor}}">
         {{#if (ne prefix '')}}{{prefix}}{{else}}Session{{/if}} moderated by
       </div>
       {{/if}}
