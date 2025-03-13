@@ -50,7 +50,7 @@
     <div class="speakers-container{{#if moderated}} moderated{{/if}}">
       {{#if (and moderated (gt numSpeakers 0))}} 
       <div class="moderated-by">
-        Session moderated by
+        {{#if (ne prefix '')}}{{prefix}}{{else}}Session{{/if}} moderated by
       </div>
       {{/if}}
       <div class="speakers">
