@@ -85,15 +85,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/introduction-for-users.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
 			<loc>https://www.fiware.org/fgs-2025/lunch.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
-			<loc>https://www.fiware.org/fgs-2025/advanced--integration-and-contribution.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -117,19 +109,11 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/digital-twin-basic-programming-using-ngsi-ld--crud--registrations--subscriptions.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
 			<loc>https://www.fiware.org/fgs-2025/urban-surveillance---smart-policing.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2025/public-space---venue-security.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
-			<loc>https://www.fiware.org/fgs-2025/digital-twin-intermediate-programming-using-ngsi-ld--temporal-operations--geofencing.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -157,19 +141,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/data-persistence-of-context-data.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
 			<loc>https://www.fiware.org/fgs-2025/q-a.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
-			<loc>https://www.fiware.org/fgs-2025/introduction-to-iot-agent-integration.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
-			<loc>https://www.fiware.org/fgs-2025/attaching-a-sensor-to-an-iot-agent.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -282,10 +254,6 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2025/break.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
-			<loc>https://www.fiware.org/fgs-2025/introduction-to-json-ld-and-linked-data.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
