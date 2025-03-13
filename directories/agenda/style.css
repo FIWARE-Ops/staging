@@ -406,6 +406,13 @@
     cursor: pointer;
 }
 
+.speaker.moderator img{
+    border-color: #6b87aa;
+    border-width: 2px;
+    border-style: solid;
+    filter: sepia(150%) hue-rotate(-20deg);
+}
+
 .speaker.detail {
     width: 100%;
     align-items: center;
