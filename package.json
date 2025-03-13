@@ -33,6 +33,7 @@
     "iHubs": "PROCESS=iHubs npm start",
     "impact-stories": "PROCESS=impact-stories npm start",
     "jobs": "PROCESS=careers npm start",
+    "locations": "PROCESS=locations npm start",
     "main-figures": "PROCESS=main-figures npm start",
     "marketing": "PROCESS=marketing npm start",
     "marketplace": "PROCESS=products npm start",

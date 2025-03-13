@@ -1,0 +1,22 @@
+{
+	"type":"FeatureCollection","name":"locations",
+	"features":[
+	{{#each this}}
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "location",
+				"name": "{{name}}",
+				"html": [
+					"<div>{{#if image}}<div class='gridElementLogoContainer'><img class='gridElementLogo' src='{{image}}' loading='lazy'/></div>{{/if}}</div>",
+					"<div class='city-name'><h3>{{name}}</h3><p>{{address}}</p></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[{{lng}},{{lat}}]
+			}
+		}{{#unless @last}},{{/unless}}
+		{{/each}}
+	]
+}

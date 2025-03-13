@@ -1,0 +1,65 @@
+{
+	"type":"FeatureCollection","name":"locations",
+	"features":[
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "location",
+				"name": "Fira Barcelona – Gran Via",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><img class='gridElementLogo' src='acastro.png' loading='lazy'/></div></div>",
+					"<div class='city-name'><h3>Fira Barcelona – Gran Via</h3><p>Av. Joan Carles I, 64, 08908</p></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[2.132699,41.355084]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "location",
+				"name": "hub27 Berlin",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><img class='gridElementLogo' src='astrid.png' loading='lazy'/></div></div>",
+					"<div class='city-name'><h3>hub27 Berlin</h3><p>Jafféstraße 2, 14055</p></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[13.267551,52.50292]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "location",
+				"name": "The International House of Japan",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><img class='gridElementLogo' src='atio.png' loading='lazy'/></div></div>",
+					"<div class='city-name'><h3>The International House of Japan</h3><p>5-11-16 Roppongi, Minato-ku, 106-0032</p></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[139.733368,35.658564]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "location",
+				"name": "Messegelände Hannover",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><img class='gridElementLogo' src='cartiffactory.png' loading='lazy'/></div></div>",
+					"<div class='city-name'><h3>Messegelände Hannover</h3><p>Messegelände D 30521</p></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[9.80535,52.32429]
+			}
+		}
+	]
+}

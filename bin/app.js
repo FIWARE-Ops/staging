@@ -8,6 +8,7 @@ const DirectoryFigures = require('./parsers/directoryFigures');
 const PeopleFigures = require('./parsers/peopleFigures');
 const ImpactStories = require('./parsers/impactStories');
 const iHubs = require('./parsers/ihubs');
+const Locations = require('./parsers/locations');
 const MainFigures = require('./parsers/mainFigures');
 const Marketing = require('./parsers/marketingToolbox');
 const OpenCalls = require('./parsers/openCalls');
@@ -184,6 +185,12 @@ switch (PROCESS) {
             return Sponsors.parse(Sponsors.file);
         });
         break;
+    // Create GeoJSON for locations
+    case 'locations':
+        Loader.load('locations', Locations.file).then(() => {
+            return Locations.parse(Locations.file);
+        });
+        break;
 
     case 'postinstall':
         const dir = path.join(__dirname, '../images');
@@ -209,6 +216,7 @@ switch (PROCESS) {
         touch(Webinars.file);
         touch(Agenda.file);
         touch(Sponsors.file);
+        touch(Locations.file)
         break;
 
     default:
