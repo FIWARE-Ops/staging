@@ -10,13 +10,13 @@ function getTrackColor(data) {
             break;
         case 'Secure Smart City':
         case 'Sustainable Smart City':
-        case 'Smart Governance & Digital PA':
             result = 'light-blue';
             break;
         case 'Grand Opening':
             result = 'light-orange';
             break;
         case 'AI & Data-Driven Urban Mngmt':
+        case 'Smart Governance & Digital PA':
             result = 'light-purple';
             break;
         case 'Organization':

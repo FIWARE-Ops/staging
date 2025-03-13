@@ -171,7 +171,7 @@
 
 .panel-title {
     font-weight: 600;
-    font-size: 17px;
+    font-size: 16px;
     color: #000;
     line-height: 1.5em;
     margin-top: 9px;
@@ -1881,12 +1881,11 @@ input[type="search"]::placeholder {
     }
 
     .excerpt {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .excerpt.detail {
-        font-size: 16px;
-        line-height: 1.3em;
+        font-size: 14px;
     }
 
     .panel-info {
