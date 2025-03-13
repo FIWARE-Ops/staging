@@ -55,7 +55,7 @@
       {{/if}}
       <div class="speakers">
         {{#each speakers}}
-        <div class="speaker" {{#if shortJob}} data-modal='{{createClass name}}'{{/if}}>
+        <div class="speaker{{#if (includes ../moderators name)}} moderator{{/if}}" {{#if shortJob}}data-modal='{{createClass name}}'{{/if}}>
           <div class="profile-picture">
             {{#if img}}
             <img decoding="async" alt="{{name}}" src="{{img}}" loading="lazy">

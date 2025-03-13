@@ -57,7 +57,7 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
                     }
                 )
             );
-            let moderators = _.uniq(
+            event.moderators = _.uniq(
                 _.map(
                     _.filter(item['Moderators'].split(','), function (name) {
                         return name !== '';
@@ -68,7 +68,8 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
                 )
             );
 
-            names = moderators.concat(names);
+            names = event.moderators.concat(names);
+
             event.speakers = _.map(names, function (name) {
                 const speaker = _.findWhere(speakers, { name });
 

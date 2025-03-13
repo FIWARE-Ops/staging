@@ -207,6 +207,11 @@ function listSpeakers(speakers) {
     return list.concat(',');
 }
 
+function includes(array, item) {
+    let items = array ? array: [];
+    return items.includes(item);
+}
+
 function longTitle(data, size) {
     if (data && data.length > size) {
         return `<span style="font-size:80%;">${data}</span>`;
@@ -231,6 +236,7 @@ Handlebars.registerHelper('multiline', multiline);
 Handlebars.registerHelper('longTitle', longTitle);
 Handlebars.registerHelper('calendar', calendar);
 Handlebars.registerHelper('webp', webp);
+Handlebars.registerHelper('includes', includes);
 Handlebars.registerHelper('embed', embed);
 Handlebars.registerHelper('listSpeakers', listSpeakers);
 
