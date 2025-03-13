@@ -1519,6 +1519,10 @@ input[type="search"]::placeholder {
 
 @media screen and (max-width: 767px) {
 
+    .moderated-by {
+        padding-bottom: 10px;
+    }
+
     /* Modal */
 
     .tingle-modal {
