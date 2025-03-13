@@ -48,7 +48,7 @@ var speakers = [
         'Sebastian Blechmann',
         'Ilaria Bortone',
         'David Campo',
-        'Augustin Cardenes',
+        'Agustín Cardenas Fernandez',
         'Davide Cazzaniga',
         'Chandra Challagonda',
         'Denis Chikurtev',
@@ -126,7 +126,6 @@ var speakers = [
         'Lisandra Tamayo',
         'Iffat Tariq',
         'Christopher Tate',
-        'Angeles Tejado',
         'Ángeles Tejado',
         'Moise Tuyizere',
         'Giovanni Vaglica',
@@ -151,6 +150,14 @@ var modalData = {
     "pierryl-massal":
         { name: "Pierryl Massal", img: "https://www.fiware.org/wp-content/directories/people/images/200px/pierryl-massal.jpg", position: "VP Head of Business development", company: "Atos", "company-link": "https://atos.net/en/",
         content: "Pierryl MASSAL is Vice President, Head of Business development at Atos, a global IT company empowering and driving progress through digital innovation to create a livable and efficient future for the citizens. In this role, Pierryl oversees Atos’s relations and operations especially in the Smart City field enabling Atos to capitalize on opportunities across all industries, including Public Sector, Hospitality, Retail. Pierryl has been instrumental in providing central leadership to explore, develop and recommend approaches for sustainable business growth in that domain and manage strategic and brand-promotional partnership opportunities, representation at industry events and government/legislative relations.", linkedin: "https://www.linkedin.com/in/pierryl-massal-8939aa74/", twitter: "https://twitter.com/pierrylmassal", domain: "", location: "",
+        flag: "", },
+    "agustín-cardenas-fernandez":
+        { name: "Agustín Cardenas Fernandez", img: "https://www.fiware.org/wp-content/directories/people/images/200px/agustin-cardenas-fernandez.jpg", position: "Director of Company Business Transformation", company: "Telefonica", "company-link": "https://www.telefonica.com/en/",
+        content: "", linkedin: "https://www.linkedin.com/in/agucardenas/", twitter: "https://twitter.com/agucardenas", domain: "", location: "",
+        flag: "", },
+    "ángeles-tejado":
+        { name: "Ángeles Tejado", img: "https://www.fiware.org/wp-content/directories/people/images/200px/angeles-tejado.jpg", position: "Senior Program Manager", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
+        content: "Angeles Tejado (f) comes with more than 20 years of strong experience in Marketing and Brand Management for customer-focused multinational companies, Angeles coordinated the development of marketing messages helping to communicate the vision and unique value proposition of FIWARE in domains such Smart Cities, Smart Manufacturing &amp; Industry 4.0 and Smart Agrifood; the planning and execution of the FIWARE Communication Strategy; the organization of FIWARE Summits; the coordination of FIWARE presence in all kind of events (market events, StartUp Events, Tech Events, Workshops, Hackathons, Meetups) and in general, coordinating activities targeted to engage members of the FIWARE Community through different FIWARE Mission Support Committees (FIWARE iHubs Committee, FIWARE Accelerator Committee, FIWARE Mundus Committee and Domain Committees associated to the different application domains) and enlarging the FIWARE ecosystem.", linkedin: "https://www.linkedin.com/in/%C3%A1ngeles-tejado-s%C3%A1nchez-2a61b411/", twitter: "", domain: "", location: "",
         flag: "", },
     "andrea-battaglia":
         { name: "Andrea Battaglia", img: "https://www.fiware.org/wp-content/directories/people/images/200px/andrea-battaglia.jpg", position: "Chief Executive Officer", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
@@ -255,10 +262,6 @@ var modalData = {
     "susan-wanjiku":
         { name: "Susan Wanjiku", img: "https://www.fiware.org/wp-content/directories/people/images/200px/susan-wanjiku.jpg", position: "Digital Ecosystem Advisor", company: "GIZ", "company-link": "https://www.giz.de/de/html/index.html",
         content: "Susan is a professional with up to 9 years of experience. She is a Innovation &amp; Investment Fund Manager at SPARK, GIZ Kenya, working on building and investing in climate-smart ventures, applied research and gender equitable topics. More recently was working on bridging the digital divides through digital skilling of youth, women, startups and SMEs in Kenya and building resilient, futuristic, inclusive innovation ecosystems in Africa. She has worked on strengthening innovation support organizations, women angel investor networks and policy.  Previously, has worked on venture capital and start up scale-up programs in the region to enable gender-lensed funding to reach female founders.", linkedin: "https://www.linkedin.com/in/susan-wanjiku-w-86664bb7/", twitter: "", domain: "", location: "",
-        flag: "", },
-    "ángeles-tejado":
-        { name: "Ángeles Tejado", img: "https://www.fiware.org/wp-content/directories/people/images/200px/angeles-tejado.jpg", position: "Senior Program Manager", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
-        content: "Angeles Tejado (f) comes with more than 20 years of strong experience in Marketing and Brand Management for customer-focused multinational companies, Angeles coordinated the development of marketing messages helping to communicate the vision and unique value proposition of FIWARE in domains such Smart Cities, Smart Manufacturing &amp; Industry 4.0 and Smart Agrifood; the planning and execution of the FIWARE Communication Strategy; the organization of FIWARE Summits; the coordination of FIWARE presence in all kind of events (market events, StartUp Events, Tech Events, Workshops, Hackathons, Meetups) and in general, coordinating activities targeted to engage members of the FIWARE Community through different FIWARE Mission Support Committees (FIWARE iHubs Committee, FIWARE Accelerator Committee, FIWARE Mundus Committee and Domain Committees associated to the different application domains) and enlarging the FIWARE ecosystem.", linkedin: "https://www.linkedin.com/in/%C3%A1ngeles-tejado-s%C3%A1nchez-2a61b411/", twitter: "", domain: "", location: "",
         flag: "", },
     "frederico-lopes":
         { name: "Frederico Lopes", img: "https://www.fiware.org/wp-content/directories/people/images/200px/frederico-lopes.jpg", position: "Professor &amp; Institute Director", company: "UFRN", "company-link": "https://www.ufrn.br/",
