@@ -3,7 +3,7 @@ var tracks = [
         'Grand Opening',
         'Organization',
         'Secure Smart City',
-        'Smart Gov for Smart Cities',
+        'Smart Governance &amp; Digital PA',
         'Sustainable Smart City',
         'Tech &amp; Trends',
         'Tech Training',
