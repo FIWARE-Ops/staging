@@ -23,14 +23,12 @@ var sessions = [
         'Innovation projects on data sharing in cities',
         'Innovation projects on industrial data and robots',
         'Innovation projects on urban planning and climate action',
-        'NGSI-LD Basics',
         'Official Speeches',
         'Process &amp; Inference',
         'Robotics',
         'Security &amp; Distributed Trust',
         'Smart Agriculture &amp; Bio-Diversity',
         'Smart Communities &amp; Mobility',
-        'Smart Data Models',
         'Smart Energy',
         'Smart Industry',
         'Smart Water',
@@ -76,7 +74,6 @@ var speakers = [
         'Dimitris Kalogeras',
         'Evanson Karanja',
         'Yuki Kato',
-        'Luka Keserič',
         'Ernoe Kovacs',
         'Tomohiro Kuwahara',
         'Jure Lampe',
@@ -483,14 +480,6 @@ var modalData = {
         { name: "Yuki Kato", img: "https://www.fiware.org/wp-content/directories/people/images/200px/yuki-kato.jpg", position: "Project Manager &amp; Researcher", company: "Toyooka City Hall", "company-link": "https://toyooka-city.jp/",
         content: "Yuki Kato is affiliated with the Toyooka City Hall in Hyogo Prefecture. He currently leads workshops for regional revitalization using digital tools and design at the Toyooka Smart Community. With a background as a recording engineer and systems engineer, Kato brings a unique blend of technical and creative expertise to his role, driving innovative community development initiatives.", linkedin: "", twitter: "", domain: "", location: "",
         flag: "", },
-    "yuzhen-li":
-        { name: "Yuzhen Li", img: "https://www.fiware.org/wp-content/directories/people/images/200px/yuzhen-li.jpg", position: "Demonstrator Manager", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
-        content: "Yuzhen Li (f) is a working student as a Lego Smart World developer &amp; demonstrator. She completed her BEng in Electronic Information Engineering and now is close to finishing her master&#x27;s degree in the same field (ICT-Telecommunication) at TU Berlin. Her interests and expertise mainly focus on Cloud-Computing, Network Engineering, and DevOps. Before joining FIWARE, she has 2-years of experience in handling massive global network traffic and data centers for the large music streaming platform SoundCloud as a Network Reliability Engineer. Now she is working on improving the software system (Docker, VMs, Database, NGSI, etc.) for LEGO models to make it better connected to FIWARE Technologies.", linkedin: "https://www.linkedin.com/in/yuzhen-li-b242421a4/", twitter: "", domain: "", location: "",
-        flag: "", },
-    "luka-keseri-":
-        { name: "Luka Keserič", img: "https://www.fiware.org/wp-content/directories/people/images/200px/luka-keseric.jpg", position: "Marketing &amp; Demonstrator Manager", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
-        content: "Luka Keseric (m) is a forward-thinking Computer Science master&#x27;s student, deeply passionate about cutting-edge technologies, particularly in the fields of AI, IoT, and Smart Cities. He has completed a Bachelor&#x27;s degree in Electrical Engineering and is currently finishing his Master’s degree in Computer Science at the University of Ljubljana. His technical skills encompass expertise in Machine Learning and IoT development, proficiency in programming languages such as C, C++ and Python, and hands-on experience with Microcontrollers like Arduino, ESP32, and ESP32-CAM. In his previous three-year role as a Research Assistant at the Laboratory for Machine Intelligence at the University of Ljubljana, Luka played a pivotal role in computer vision research, focusing on generative image models such as GANs and Diffusion models. Additionally, he served as a Project Leader and Board Member for a local NGO in Slovenia, where he spearheaded the development of public health and sustainable development workshops for both local and international students. Luka&#x27;s unique blend of technical expertise, leadership capabilities, and effective communication skills positions him as an excellent Smart World demonstrator and developer at FIWARE.His personal attributes include commitment to academic pursuits while actively contributing to impactful projects. He is known for his exceptional collaboration and communication skills and his visionary thinking with commitment to shaping the future through innovative technology solutions set him apart.", linkedin: "https://www.linkedin.com/in/luka-keseri%C4%8D-426164260/", twitter: "", domain: "", location: "",
-        flag: "", },
     "rihab-feki":
         { name: "Rihab Feki", img: "https://www.fiware.org/wp-content/directories/people/images/200px/rihab-feki.jpg", position: "ML Engineer and Evangelist", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
         content: "Rihab Feki (f) is a AI &amp; Data Modelling Expert at FIWARE. She holds an Engineering Degree in Information and Communications Technology. Before graduation, she worked in two early stage startups and contributed in building their products leveraging Machine Learning. Currently, she works at FIWARE, her first full time experience, where she is taking part in the development of projects like KI-Marktplatz, Cattlechain and ALMA. In these projects, she implements proofs of concept for the application of Artificial Intelligence in different domains using the FIWARE technologies.", linkedin: "https://www.linkedin.com/in/rihabfeki/", twitter: "", domain: "", location: "",
@@ -498,6 +487,10 @@ var modalData = {
     "álvaro-alonso":
         { name: "Álvaro Alonso", img: "https://www.fiware.org/wp-content/directories/people/images/200px/alvaro-alonso.jpg", position: "Assistant Professor", company: "UPM", "company-link": "https://www.upm.es/internacional",
         content: "Álvaro Alonso is currently an Assistant Professor with the UPM. His research interests include Multi Video Conferencing Systems, Security Management in Smart Context scenarios, and Public Open Data.", linkedin: "https://www.linkedin.com/in/alvaroalonsogonzalez", twitter: "", domain: "", location: "",
+        flag: "", },
+    "yuzhen-li":
+        { name: "Yuzhen Li", img: "https://www.fiware.org/wp-content/directories/people/images/200px/yuzhen-li.jpg", position: "Demonstrator Manager", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
+        content: "Yuzhen Li (f) is a working student as a Lego Smart World developer &amp; demonstrator. She completed her BEng in Electronic Information Engineering and now is close to finishing her master&#x27;s degree in the same field (ICT-Telecommunication) at TU Berlin. Her interests and expertise mainly focus on Cloud-Computing, Network Engineering, and DevOps. Before joining FIWARE, she has 2-years of experience in handling massive global network traffic and data centers for the large music streaming platform SoundCloud as a Network Reliability Engineer. Now she is working on improving the software system (Docker, VMs, Database, NGSI, etc.) for LEGO models to make it better connected to FIWARE Technologies.", linkedin: "https://www.linkedin.com/in/yuzhen-li-b242421a4/", twitter: "", domain: "", location: "",
         flag: "", },
     "laura-schipani":
         { name: "Laura Schipani", img: "https://www.fiware.org/wp-content/directories/people/images/200px/laura-schipani.jpg", position: "Acting CMO", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
