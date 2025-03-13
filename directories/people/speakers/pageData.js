@@ -94,6 +94,7 @@ var companies = [
         'UFRN',
         'UNIBIT',
         'Universidad de Murcia',
+        'University of Cantabria',
         'University of Salento',
         'Université Lumière Lyon 2',
         'UPM',
@@ -133,6 +134,7 @@ var companies = [
         'General Director',
         'Head of Unit',
         'Honorary Mayor',
+        'Institute Director',
         'IT Analyst',
         'Journalist',
         'Lead',
@@ -416,8 +418,14 @@ var companies = [
     { name: "Lydia Montandon", img: "https://www.fiware.org/wp-content/directories/people/images/200px/lydia-montandon.jpg", position: "Communications Lead &amp; Project Manager", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
     content: "Lydia Montandon (f) is marketing and project manager at the FIWARE Foundation. Previously, she was a consultant in digital transformation at Atos, with focus on innovation, experience and accessibility services. Before, her role as business development director was to promote and find a market to exploit R&amp;D outcomes and Innovations. In particular, she supported the commercialization of FIWARE methods and tools when they became mature enough to be proposed to Atos&#x27; clients. She has more than 20 years of experience in coordinating, managing and promoting large European R&amp;D projects. She has contributed to the development of Innovation Management strategies and facilitated co-creation and innovation workshops during more than 10 years. She holds a Master of Science in Education Technologies from the University of Geneva, Switzerland, an MBA in Sustainable Development and Diplomacy from EUCLID University and a diploma in Design &amp; Visual Communication from the Istituto Europeo di Design, Milan, Italy. She is fluent in English, French, Italian, Spanish, German and Greek.", linkedin: "https://www.linkedin.com/in/lydiamontandon/", twitter: "https://twitter.com/lmontandon", domain: "", location: ""
     },
+    { name: "Antonello Monti", img: "https://www.fiware.org/wp-content/directories/people/images/200px/antonello-monti.jpg", position: "Professor &amp; Institute Director", company: "RWTH Aachen", "company-link": "https://www.rwth-aachen.de/go/id/a/?lidx&#x3D;1",
+    content: "Prof. Antonello Monti received his M.Sc degree (summa cum laude) and his PhD in Electrical Engineering from Politecnico di Milano, Italy in 1989 and 1994 respectively. He started his career in Ansaldo Industria and then moved in 1995 to Politecnico di Milano as Assistant Professor. In 2000 he joined the Department of Electrical Engineering of the University of South Carolina (USA) as Associate and then Professor. Since 2008 he is the director of the Institute for Automation of Complex Power System within the E.ON Energy Research Center at RWTH Aachen University. From 2019 he holds a double appointment with Fraunhofer FIT where he is developing the new Center for Digital Energy in Aachen. Prof. Monti is author or coauthor of more than 400 peer-reviewed papers published in international Journals and in the proceedings of International conferences. He is a Senior Member of IEEE, Associate Editor of the IEEE System Journal, Associate Editor of IEEE Electrification Magazine, Member of the Editorial Board of the Elsevier Journal SEGAN and member of the founding board of the Springer Journal “Energy Informatics”. Dr. Monti was the recipient of the 2017 IEEE Innovation in Societal Infrastructure Award.", linkedin: "https://www.linkedin.com/in/antonellomonti/", twitter: "", domain: "", location: ""
+    },
     { name: "Marco Müller", img: "https://www.fiware.org/wp-content/directories/people/images/200px/marco-muller.jpg", position: "Smart City Consultant", company: "[ui!]", "company-link": "https://www.ui.city/en/",
     content: "", linkedin: "https://www.linkedin.com/in/marco-m%C3%BCller-6ba396264/", twitter: "", domain: "", location: ""
+    },
+    { name: "Luis Muñoz", img: "https://www.fiware.org/wp-content/directories/people/images/200px/luis-munoz.jpg", position: "Professor", company: "University of Cantabria", "company-link": "https://web.unican.es/en/Pages/default.aspx",
+    content: "Prof. Luis Muñoz received both the Telecommunications Engineering degree and Ph.D. from the Polytechnical University of Cataluña (UPC), Spain. He also holds a Master in Mathematics, Statistic and Operation Research (Licenciado en Ciencias Matemáticas, UNED). His research focuses on advanced data transmission techniques, heterogeneous wireless multihop networks, Internet o Things, technologies and services in the context of smart cities and applied mathematical methods for telecommunications. He has participated in several National and European research projects belonging to the 4th, 5th, 6th and 7th and H2020 Framework Program in which he was technical manager of SmartSantander. He has published over 150 journal and conference papers. He serves as editor of several journals and he has been invited to participate in the Steering Committee and Technical Program Committee of the most relevant international conferences. In parallel to this activity, he serves as consultant for the Spanish Government as well as for different companies in Europe. Last but not least, he has served as an expert of the ETSI and European Commission.", linkedin: "", twitter: "", domain: "", location: ""
     },
     { name: "José Muñoz Arcentales", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jose-munoz-arcentales.jpg", position: "Assistant Professor", company: "UPM", "company-link": "https://www.upm.es/internacional",
     content: "Assistant Professor (‘23) in the Telematics System Department and a Senior Researcher in the Next Generation Internet Research Group at Universidad Politécnica de Madrid since 2017 and FIWARE individual member with research interests in the fields of  Smart Spaces, Data Fusion, Data Spaces, Machine Learning, Digital Twins, Cloud and Edge Computing and  Big Data infrastructure.", linkedin: "https://www.linkedin.com/in/jos%C3%A9-mu%C3%B1oz-arcentales-2ba567193/", twitter: "", domain: "", location: ""
