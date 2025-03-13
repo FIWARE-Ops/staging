@@ -38,6 +38,7 @@ var sessions = [
 ]; 
 var speakers = [
         'Alberto Abella',
+        'Mohamed Ali Habouha',
         'Álvaro Alonso',
         'Andrea Battaglia',
         'Martin Bauer',
@@ -59,13 +60,14 @@ var speakers = [
         'Stefano De Panfilis',
         'Francisco de la Vega',
         'Vincent Demortier',
+        'Amal El Fallah Seghrouchni',
         'Hicham El Habti',
         'Piotr Elmanowski',
         'Alessandro Errico',
         'Gregory Eve',
         'Rihab Feki',
-        'Amal Fellah Seghrouchni',
         'Jason Fox',
+        'Aawatif Hayar',
         'Jorge Hernandez',
         'Juanjo Hierro',
         'Jung Hoon Lee',
