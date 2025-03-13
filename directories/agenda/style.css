@@ -344,13 +344,33 @@
 
 .moderated-by {
     width: fit-content;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 11px;
     line-height: 1em;
     letter-spacing: .5px;
     color: #4c4c4c;
     text-transform: uppercase;
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
+}
+
+.moderated-by.light-orange {
+    color: #ec5629;
+}
+
+.moderated-by.light-blue {
+    color: #005fb9;
+}
+
+.moderated-by.track.light-purple {
+    color: #9e3162;
+}
+
+.moderated-by.track.light-green {
+    color: #108763;
+}
+
+.moderated-by.track.cyan {
+    color: #0891b2;
 }
 
 .speakers {
