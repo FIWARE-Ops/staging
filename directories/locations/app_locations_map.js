@@ -127,9 +127,5 @@ const map = new maplibregl.Map({
   minZoom: 3,
   attributionControl: false,
   dragRotate: false,
-}).fitBounds([
-  [-175.73934032129907, -56.093228369773406],
-  [179.54543205831558, 83.70561326982735],
-]);
-initMap();
-
+});
+initMap();  
