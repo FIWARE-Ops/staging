@@ -37,11 +37,7 @@
       <div class="foot{{#if moderated}} moderated{{/if}}">
         <a class="btn-primary" href="./{{#if description}}program{{else}}program-details-summary{{/if}}?id={{createClass title}}">
           <span class="material-symbols-outlined">info</span>
-          {{#if moderated}}
             Session details
-          {{else}}
-            See details
-          {{/if}}
         </a>
       </div>
       {{/if}}
@@ -76,7 +72,7 @@
       </div>
     </div>
     {{/if}}
-    {{#if description}}
+    {{#if (and (gt numSpeakers 0) (ne description ''))}}
     <div class="foot{{#if moderated}} moderated{{/if}}">
       <a class="btn-primary" href="./{{#if description}}program{{else}}program-details-summary{{/if}}?id={{createClass title}}">
         <span class="material-symbols-outlined">info</span>
