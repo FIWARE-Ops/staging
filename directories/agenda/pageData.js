@@ -41,10 +41,10 @@ var speakers = [
         'Alberto Abella',
         'Mohamed Ali Habouha',
         'Álvaro Alonso',
-        'Andrea Battaglia',
         'Martin Bauer',
         'Jose Benítez',
         'Massimo Bertoncini',
+        'Anna Beyer',
         'Sebastian Blechmann',
         'Ilaria Bortone',
         'David Campo',
@@ -66,7 +66,6 @@ var speakers = [
         'Piotr Elmanowski',
         'Alessandro Errico',
         'Gregory Eve',
-        'Rihab Feki',
         'Jason Fox',
         'Aawatif Hayar',
         'Jorge Hernandez',
@@ -84,7 +83,6 @@ var speakers = [
         'Jure Lampe',
         'Frédéric Le',
         'Franck Le Gall',
-        'Yuzhen Li',
         'Antonella Longo',
         'Frederico Lopes',
         'Fernando López Aguilar',
@@ -108,7 +106,6 @@ var speakers = [
         'Gilles Orazi',
         'Fabiano Pallonetto',
         'Carlos Pereira Marques',
-        'Clara Pezuela',
         'Francesca Pignataro',
         'Manfredi Pistone',
         'Mads Pohl Petersson',
@@ -124,7 +121,6 @@ var speakers = [
         'Raúl Sánchez-Mateos Lizano',
         'Tonia Sapia',
         'Shuhei Sasano',
-        'Laura Schipani',
         'Christoph Schneider',
         'Harald Sundmaeker',
         'Lisandra Tamayo',
@@ -163,9 +159,9 @@ var modalData = {
         { name: "Ángeles Tejado", img: "https://www.fiware.org/wp-content/directories/people/images/200px/angeles-tejado.jpg", position: "Senior Program Manager", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
         content: "Angeles Tejado (f) comes with more than 20 years of strong experience in Marketing and Brand Management for customer-focused multinational companies, Angeles coordinated the development of marketing messages helping to communicate the vision and unique value proposition of FIWARE in domains such Smart Cities, Smart Manufacturing &amp; Industry 4.0 and Smart Agrifood; the planning and execution of the FIWARE Communication Strategy; the organization of FIWARE Summits; the coordination of FIWARE presence in all kind of events (market events, StartUp Events, Tech Events, Workshops, Hackathons, Meetups) and in general, coordinating activities targeted to engage members of the FIWARE Community through different FIWARE Mission Support Committees (FIWARE iHubs Committee, FIWARE Accelerator Committee, FIWARE Mundus Committee and Domain Committees associated to the different application domains) and enlarging the FIWARE ecosystem.", linkedin: "https://www.linkedin.com/in/%C3%A1ngeles-tejado-s%C3%A1nchez-2a61b411/", twitter: "", domain: "", location: "",
         flag: "", },
-    "clara-pezuela":
-        { name: "Clara Pezuela", img: "https://www.fiware.org/wp-content/directories/people/images/200px/clara-pezuela.jpg", position: "Chief Operations Officer", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
-        content: "Clara Pezuela has over 24 years of experience in digital technology research. She specializes in innovation management and European R&amp;D project management, with expertise in data spaces, cloud and edge computing, and digital solutions for smart cities. Clara excels in leadership and optimizing global operations. Since 2022, she has been the Vice-President of Funded Programs at FIWARE.", linkedin: "https://www.linkedin.com/in/clara-pezuela-2b1257/", twitter: "", domain: "", location: "",
+    "anna-beyer":
+        { name: "Anna Beyer", img: "https://www.fiware.org/wp-content/directories/people/images/200px/anna-katharina-beyer.jpg", position: "Project Manager", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
+        content: "Anna is an urbanist with a background in business administration and an experienced forensic expert in the field of Austrian white-collar crime. She has more than 10 years of experience in (international) project management as well as in the conception and facilitation of ideation processes in national and international contexts. Her passion lies in sustainable spaces, combining innovation, technology and a human angle to foster a just and resilient handling of resources.", linkedin: "https://www.linkedin.com/in/anna-katharina-beyer-01aa09106/", twitter: "https://twitter.com/annachronismus1", domain: "", location: "",
         flag: "", },
     "francesco-mureddu":
         { name: "Francesco Mureddu", img: "https://www.fiware.org/wp-content/directories/people/images/200px/francesco-mureddu.jpg", position: "Senior Director", company: "The Lisbon Council", "company-link": "https://lisboncouncil.net/",
@@ -440,7 +436,7 @@ var modalData = {
         content: "", linkedin: "https://www.linkedin.com/in/martin-bauer-a722141/", twitter: "", domain: "", location: "",
         flag: "", },
     "alberto-abella":
-        { name: "Alberto Abella", img: "https://www.fiware.org/wp-content/directories/people/images/200px/alberto-abella.jpg", position: "Data Modeling Expert &amp; Evangelist", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
+        { name: "Alberto Abella", img: "https://www.fiware.org/wp-content/directories/people/images/200px/alberto-abella.jpg", position: "Chief Operations Officer", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
         content: "Alberto Abella (m) is PhD in Business (Open data) and Telecommunications Engineer and Master in Total Quality Management, Business Administration and Business Organization. He works as a Data Modelling Expert and Technical Evangelist at FIWARE and currently is the responsible person for the smart data models initiative.", linkedin: "https://www.linkedin.com/in/albertoabella/", twitter: "https://twitter.com/aabella", domain: "", location: "",
         flag: "", },
     "raza-jafri":
@@ -491,24 +487,8 @@ var modalData = {
         { name: "Yuki Kato", img: "https://www.fiware.org/wp-content/directories/people/images/200px/yuki-kato.jpg", position: "Project Manager &amp; Researcher", company: "Toyooka City Hall", "company-link": "https://toyooka-city.jp/",
         content: "Yuki Kato is affiliated with the Toyooka City Hall in Hyogo Prefecture. He currently leads workshops for regional revitalization using digital tools and design at the Toyooka Smart Community. With a background as a recording engineer and systems engineer, Kato brings a unique blend of technical and creative expertise to his role, driving innovative community development initiatives.", linkedin: "", twitter: "", domain: "", location: "",
         flag: "", },
-    "rihab-feki":
-        { name: "Rihab Feki", img: "https://www.fiware.org/wp-content/directories/people/images/200px/rihab-feki.jpg", position: "ML Engineer and Evangelist", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
-        content: "Rihab Feki (f) is a AI &amp; Data Modelling Expert at FIWARE. She holds an Engineering Degree in Information and Communications Technology. Before graduation, she worked in two early stage startups and contributed in building their products leveraging Machine Learning. Currently, she works at FIWARE, her first full time experience, where she is taking part in the development of projects like KI-Marktplatz, Cattlechain and ALMA. In these projects, she implements proofs of concept for the application of Artificial Intelligence in different domains using the FIWARE technologies.", linkedin: "https://www.linkedin.com/in/rihabfeki/", twitter: "", domain: "", location: "",
-        flag: "", },
     "álvaro-alonso":
         { name: "Álvaro Alonso", img: "https://www.fiware.org/wp-content/directories/people/images/200px/alvaro-alonso.jpg", position: "Assistant Professor", company: "UPM", "company-link": "https://www.upm.es/internacional",
         content: "Álvaro Alonso is currently an Assistant Professor with the UPM. His research interests include Multi Video Conferencing Systems, Security Management in Smart Context scenarios, and Public Open Data.", linkedin: "https://www.linkedin.com/in/alvaroalonsogonzalez", twitter: "", domain: "", location: "",
-        flag: "", },
-    "yuzhen-li":
-        { name: "Yuzhen Li", img: "https://www.fiware.org/wp-content/directories/people/images/200px/yuzhen-li.jpg", position: "Demonstrator Manager", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
-        content: "Yuzhen Li (f) is a working student as a Lego Smart World developer &amp; demonstrator. She completed her BEng in Electronic Information Engineering and now is close to finishing her master&#x27;s degree in the same field (ICT-Telecommunication) at TU Berlin. Her interests and expertise mainly focus on Cloud-Computing, Network Engineering, and DevOps. Before joining FIWARE, she has 2-years of experience in handling massive global network traffic and data centers for the large music streaming platform SoundCloud as a Network Reliability Engineer. Now she is working on improving the software system (Docker, VMs, Database, NGSI, etc.) for LEGO models to make it better connected to FIWARE Technologies.", linkedin: "https://www.linkedin.com/in/yuzhen-li-b242421a4/", twitter: "", domain: "", location: "",
-        flag: "", },
-    "andrea-battaglia":
-        { name: "Andrea Battaglia", img: "https://www.fiware.org/wp-content/directories/people/images/200px/andrea-battaglia.jpg", position: "Chief Executive Officer", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
-        content: "With 20 years of expertise in the Global IT industry, Andrea Battaglia (m) is an accomplished thought leader with a proven track record in Digital Transformation, Enterprise IoT, and Ecosystem development. Thanks to his deep knowledge of the enterprise open-source industry&#x27;s business and technical aspects, Andrea brings a wealth of experience to the forefront of FIWARE&#x27;s mission to empower organizations through innovative open-source technologies, Ecosystem collaboration, and customer-centric vision.", linkedin: "https://www.linkedin.com/in/abattagl/", twitter: "", domain: "", location: "",
-        flag: "", },
-    "laura-schipani":
-        { name: "Laura Schipani", img: "https://www.fiware.org/wp-content/directories/people/images/200px/laura-schipani.jpg", position: "Acting CMO", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
-        content: "With over 23 years of experience, Laura (f) brings a wealth of knowledge in strategic marketing and communications. Her career journey, which began with founding her own fashion brand, has led her through diverse managerial roles across consulting, pharmaceuticals, and ICT industries. She is committed to leveraging her expertise to drive growth, enhance brand distinctiveness, and develop impactful projects that resonate with audiences globally.", linkedin: "https://www.linkedin.com/in/lauraskip/", twitter: "", domain: "", location: "",
         flag: "", },
 };
