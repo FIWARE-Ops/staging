@@ -1,6 +1,6 @@
 window.agenda = {
     {{#each agenda}}
-        {{#if (gt numSpeakers 0)}}
+        {{#if (or (gt numSpeakers 0) (ne description ''))}}
         "{{createClass title}}" : {{{json this}}},
         {{/if}}
     {{/each}}
