@@ -33,14 +33,6 @@
       <div class="session-picture {{trackColor}}">
         <img src="{{img}}" loading="lazy" alt=""/>
       </div>
-      {{#if description}}
-      <div class="foot{{#if moderated}} moderated{{/if}}">
-        <a class="btn-primary" href="./{{#if description}}program{{else}}program-details-summary{{/if}}?id={{createClass title}}">
-          <span class="material-symbols-outlined">info</span>
-            Session details
-        </a>
-      </div>
-      {{/if}}
     </div>
     {{else}}
     <div class="speakers-container{{#if moderated}} moderated{{/if}}">
@@ -81,6 +73,14 @@
         {{else}}
           See details
         {{/if}}
+      </a>
+    </div>
+    {{/if}}
+    {{#if (and (eq numSpeakers 0) (ne description ''))}}
+    <div class="foot{{#if moderated}} moderated{{/if}}">
+      <a class="btn-primary" href="./{{#if description}}program{{else}}program-details-summary{{/if}}?id={{createClass title}}">
+        <span class="material-symbols-outlined">info</span>
+          Session details
       </a>
     </div>
     {{/if}}
