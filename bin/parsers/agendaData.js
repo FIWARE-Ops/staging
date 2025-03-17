@@ -3,11 +3,11 @@ function getTrackColor(data) {
 
     switch (data) {
         case 'Tech & Trends':
+        case 'Tech Training':
             result = 'light-green';
             break;
-        case 'Tech Training':
-            result = 'cyan';
-            break;
+        //    result = 'cyan';
+        //    break;
         case 'Secure Smart City':
         case 'Sustainable Smart City':
             result = 'light-blue';
