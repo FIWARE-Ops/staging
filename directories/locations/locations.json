@@ -5,10 +5,10 @@
 			"type":"Feature",
 			"properties":{
 				"type": "location",
-				"name": "Fira Barcelona – Gran Via",
+				"name": "Mohammed VI Polytechnic University",
 				"html": [
 					"<div><div class='gridElementLogoContainer'><img class='gridElementLogo' src='https://um6p.ma/sites/default/files/logo%20(4)_1.png' loading='lazy'/></div></div>",
-					"<div class='city-name'><h3>Fira Barcelona – Gran Via</h3><p>BP 6372 Avenue Allal Al Fassi</p></div>"
+					"<div class='city-name'><h3>Mohammed VI Polytechnic University</h3><p>BP 6372 Avenue Allal Al Fassi</p></div>"
 				]
 			},
 			"geometry":{
