@@ -7,13 +7,13 @@
 				"type": "location",
 				"name": "Fira Barcelona – Gran Via",
 				"html": [
-					"<div><div class='gridElementLogoContainer'><img class='gridElementLogo' src='acastro.png' loading='lazy'/></div></div>",
-					"<div class='city-name'><h3>Fira Barcelona – Gran Via</h3><p>Av. Joan Carles I, 64, 08908</p></div>"
+					"<div><div class='gridElementLogoContainer'><img class='gridElementLogo' src='https://um6p.ma/sites/default/files/logo%20(4)_1.png' loading='lazy'/></div></div>",
+					"<div class='city-name'><h3>Fira Barcelona – Gran Via</h3><p>BP 6372 Avenue Allal Al Fassi</p></div>"
 				]
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[-6.82,33.911]
+				"coordinates":[-6.867,33.9774]
 			}
 		},
 		{
@@ -22,13 +22,13 @@
 				"type": "location",
 				"name": "hub27 Berlin",
 				"html": [
-					"<div><div class='gridElementLogoContainer'><img class='gridElementLogo' src='astrid.png' loading='lazy'/></div></div>",
+					"<div></div>",
 					"<div class='city-name'><h3>hub27 Berlin</h3><p>Jafféstraße 2, 14055</p></div>"
 				]
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[-6.8156,33.9689]
+				"coordinates":[-6.8656,33.9689]
 			}
 		},
 		{
@@ -37,7 +37,7 @@
 				"type": "location",
 				"name": "The International House of Japan",
 				"html": [
-					"<div><div class='gridElementLogoContainer'><img class='gridElementLogo' src='atio.png' loading='lazy'/></div></div>",
+					"<div></div>",
 					"<div class='city-name'><h3>The International House of Japan</h3><p>5-11-16 Roppongi, Minato-ku, 106-0032</p></div>"
 				]
 			},
@@ -52,7 +52,7 @@
 				"type": "location",
 				"name": "Messegelände Hannover",
 				"html": [
-					"<div><div class='gridElementLogoContainer'><img class='gridElementLogo' src='cartiffactory.png' loading='lazy'/></div></div>",
+					"<div></div>",
 					"<div class='city-name'><h3>Messegelände Hannover</h3><p>Messegelände D 30521</p></div>"
 				]
 			},
