@@ -17,7 +17,15 @@
     "openmaptiles": {
       "type": "vector",
       "url": "https://api.maptiler.com/tiles/v3-openmaptiles/tiles.json?key=n44Ktx99fX39EIdajCRk"
-    }
+    },
+		"TerrainSource": {
+			"type": "raster-dem",
+			"url": "https://api.maptiler.com/tiles/terrain-rgb-v2/tiles.json?key=n44Ktx99fX39EIdajCRk"
+		},
+		"HillshadeSource": {
+			"type": "raster-dem",
+			"url": "https://api.maptiler.com/tiles/terrain-rgb-v2/tiles.json?key=n44Ktx99fX39EIdajCRk"
+		}
   },
   "sprite": "https://openmaptiles.github.io/maptiler-toner-gl-style/sprite",
   "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=n44Ktx99fX39EIdajCRk",
