@@ -13,6 +13,8 @@ const IMAGE_SIZE = { height: 201, width: 360 };
 const FLAG_SIZE = { height: 120, width: 120 };
 const FLAGS_DIR = 'directories/people/images/flag';
 const DEFAULT_IMAGE = 'image-placeholder-16x9.png';
+const ASSETS_DIR = 'fiware-summit/rabat-2025/assets/images';
+
 
 // https://www.fiware.org/style/imgs/placeholder/image-placeholder-16x9.png
 
@@ -39,7 +41,7 @@ function extractLocations(input) {
             publish: Parser.boolean(item.Published)
         };
         if (poi.publish) {
-           poi.img = poi.image;
+           poi.img = 'https://www.fiware.org/' + path.join(ASSETS_DIR, poi.image); 
            poi.flagUrl = 'https://www.fiware.org/wp-content/' + path.join(FLAGS_DIR, poi.flag);
             
            locations.push(poi);
@@ -65,6 +67,33 @@ function generateGeoJSON(locations) {
     return locations;
 }
 
+
+function uploadImages(locations) {
+    return Downloader.checkImages(locations)
+        .then((missingImages) => {
+            Downloader.logMissing(missingImages);
+            return Downloader.validateUploads(missingImages);
+        })
+        .then((uploads) => {
+            Downloader.uploadImages(uploads, path.join('assets', ASSETS_DIR), IMAGE_SIZE);
+            Downloader.logUploads(uploads);
+            return uploads;
+        });
+}
+
+function uploadFlags(locations) {
+    return Downloader.checkImages(locations, 'flagUrl', 'flag')
+        .then((missingImages) => {
+            Downloader.logMissing(missingImages);
+            return Downloader.validateUploads(missingImages);
+        })
+        .then((uploads) => {
+            Downloader.uploadImages(uploads, path.join('assets', FLAGS_DIR), FLAG_SIZE);
+            Downloader.logUploads(uploads);
+            return uploads;
+        });
+}
+
 /**
  * Read in the locations file and output
  * HTML and JavaScript files
@@ -77,6 +106,17 @@ function parse(file) {
         })
         .then((locations) => {
             return generateGeoJSON(locations);
+        })
+        .then((locations) => {
+            Downloader.emptyAssets();
+            return uploadImages(locations).then(() => {
+                return locations;
+            });
+        })
+        .then((locations) => {
+            return uploadFlags(locations).then(() => {
+                return locations;
+            });
         })
         .catch((e) => {
             console.log(e);
