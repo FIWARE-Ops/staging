@@ -9,7 +9,7 @@
 				"city": "Rabat",
 				"html": [
 					"<div></div>",
-					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='' style='margin-left: auto;'/></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>Mohammed VI Polytechnic University</div>",
 					"<div class='ihub-type'>Venue</div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://um6p.ma/' rel='noopener'><span class='icon website'></span></div>"
@@ -28,7 +28,7 @@
 				"city": "Rabat",
 				"html": [
 					"<div></div>",
-					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='' style='margin-left: auto;'/></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>Hassan Tower</div>",
 					"<div class='ihub-type'>POI</div>"				]
 			},
@@ -45,7 +45,7 @@
 				"city": "Rabat",
 				"html": [
 					"<div></div>",
-					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='' style='margin-left: auto;'/></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>Mausoleum of Mohammed V</div>",
 					"<div class='ihub-type'>POI</div>"				]
 			},
@@ -62,7 +62,7 @@
 				"city": "Rabat",
 				"html": [
 					"<div></div>",
-					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='' style='margin-left: auto;'/></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>Kasbah des Oudayas</div>",
 					"<div class='ihub-type'>POI</div>"				]
 			},
@@ -79,7 +79,7 @@
 				"city": "Rabat",
 				"html": [
 					"<div></div>",
-					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='' style='margin-left: auto;'/></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>Chellah</div>",
 					"<div class='ihub-type'>POI</div>"				]
 			},
@@ -96,7 +96,7 @@
 				"city": "Rabat",
 				"html": [
 					"<div></div>",
-					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='' style='margin-left: auto;'/></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>Palais Royal</div>",
 					"<div class='ihub-type'>POI</div>"				]
 			},
@@ -113,7 +113,7 @@
 				"city": "Rabat",
 				"html": [
 					"<div></div>",
-					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='' style='margin-left: auto;'/></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>Rabat Medina</div>",
 					"<div class='ihub-type'>POI</div>"				]
 			},
@@ -130,7 +130,7 @@
 				"city": "Rabat",
 				"html": [
 					"<div></div>",
-					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='' style='margin-left: auto;'/></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>Sofitel Rabat Jardin des Roses</div>",
 					"<div class='ihub-type'>Hotel</div>"				]
 			},
@@ -147,7 +147,7 @@
 				"city": "Rabat",
 				"html": [
 					"<div></div>",
-					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='' style='margin-left: auto;'/></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>Rabat Marriott Hotel</div>",
 					"<div class='ihub-type'>Hotel</div>"				]
 			},
@@ -164,7 +164,7 @@
 				"city": "Rabat",
 				"html": [
 					"<div></div>",
-					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='' style='margin-left: auto;'/></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>MGallery Le Diwan Rabat</div>",
 					"<div class='ihub-type'>Hotel</div>"				]
 			},
@@ -181,7 +181,7 @@
 				"city": "Rabat",
 				"html": [
 					"<div></div>",
-					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='' style='margin-left: auto;'/></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>Braat Hotel</div>",
 					"<div class='ihub-type'>Hotel</div>"				]
 			},
@@ -198,7 +198,7 @@
 				"city": "Rabat",
 				"html": [
 					"<div></div>",
-					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='' style='margin-left: auto;'/></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>Onomo Hotel Rabat Terminus</div>",
 					"<div class='ihub-type'>Hotel</div>"				]
 			},
@@ -215,7 +215,7 @@
 				"city": "Rabat",
 				"html": [
 					"<div></div>",
-					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='' style='margin-left: auto;'/></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>Rabat-Salé International Airport</div>",
 					"<div class='ihub-type'>Airport</div>"				]
 			},
@@ -232,7 +232,7 @@
 				"city": "Rabat",
 				"html": [
 					"<div></div>",
-					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='' style='margin-left: auto;'/></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>Rabat Ville</div>",
 					"<div class='ihub-type'>Train Station</div>"				]
 			},
