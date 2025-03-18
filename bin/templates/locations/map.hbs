@@ -12,7 +12,7 @@
 					"<div>{{#if img}}<div class='gridElementLogoContainer'><picture><!--source srcset='{{webp img}}' type='image/webp'/--><img class='gridElementLogo' src='{{img}}' loading='lazy'/></picture></div>{{/if}}</div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>{{city}}</h3>{{#if country}}<img alt='{{country}}' class='flag' src='{{flagUrl}}' style='margin-left: auto;'/>{{/if}}</div>",
 					"<div class='ihub-name'>{{name}}</div>",
-					"<div class='ihub-type'>{{address}}</div>"
+					"<div class='ihub-type'>{{address}}</div>",
 					{{#if (gt stars 0)}}"<div class='ihub-type'><span class='star'>{{rating stars}}</span></div>",{{/if}}
 					"<div class='icons'><div class='chip-domain'><ul class='chips'><li>{{type}}</li></ul><span class='chips-gradient'></span></div>{{#if website}}<a class='cat-website' target='_blank' href='{{website}}' rel='noopener'><span class='icon website'></span>{{/if}}</div>"
 				]
