@@ -88,7 +88,11 @@ details summary::-webkit-details-marker {
 .map-overlay-inner {
     top: 10px;
     left: 55px;
+    background-color: rgba(255, 255, 255, 0.9);
     position: absolute;
+    width: 12em;
+    border-radius: 4px;
+    padding: 4px;
 }
 
 .map-overlay-inner label {
