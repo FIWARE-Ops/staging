@@ -9,6 +9,12 @@ const Downloader = require('../downloader');
 const TEMPLATE_PATH = 'bin/templates/locations/';
 const LOCATIONS_DIR = 'directories/locations';
 
+const IMAGE_SIZE = { height: 201, width: 360 };
+const FLAG_SIZE = { height: 120, width: 120 };
+const FLAGS_DIR = 'directories/people/images/flag';
+const DEFAULT_IMAGE = 'image-placeholder-16x9.png';
+
+// https://www.fiware.org/style/imgs/placeholder/image-placeholder-16x9.png
 
 /**
  * Take the human readable column names from the spreadsheet and create a
@@ -17,10 +23,11 @@ const LOCATIONS_DIR = 'directories/locations';
 function extractLocations(input) {
     const locations = [];
     input.forEach((item) => {
-        const location = {
+        const poi = {
             name: item.Name,
             city: item.City,
             type: item.Type,
+             image: item.Image ? item.Image : `https://www.fiware.org/style/imgs/placeholder/${DEFAULT_IMAGE}`,
             website: item.Website,
             country: item.Country,
             flag: item['Country flag'],
@@ -30,8 +37,10 @@ function extractLocations(input) {
             image: item.Image,
             publish: Parser.boolean(item.Published)
         };
-        if (location.publish) {
-           locations.push(location);
+        if (poi.publish) {
+           poi.flagUrl = 'https://www.fiware.org/wp-content/' + path.join(FLAGS_DIR, poi.flag);
+            
+           locations.push(poi);
         }
     });
 
