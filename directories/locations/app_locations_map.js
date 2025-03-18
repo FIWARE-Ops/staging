@@ -115,8 +115,15 @@ function initMap() {
 
   map.once("load", () => {
     // Add sources
-    addSource("locations", "./locations.json");
-    addLayer("locations");
+    setTimeout(() => {
+      addSource("locations", "./locations.json");
+      addLayer("locations");
+      map.fitBounds([
+        [-6.688, 34.091],
+        [-6.916, 33.932]
+      ]);
+    }, "1000");  
+
   });
 }
 
@@ -127,5 +134,7 @@ const map = new maplibregl.Map({
   minZoom: 3,
   attributionControl: false,
   dragRotate: false,
-});
+})
+
+
 initMap();  

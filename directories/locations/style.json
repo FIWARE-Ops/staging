@@ -10,7 +10,7 @@
     "maputnik:renderer": "mlgljs"
   },
   "center": [-6.79, 34.01],
-  "zoom": 12,
+  "zoom": 6,
   "bearing": 0,
   "pitch": 0,
   "sources": {
