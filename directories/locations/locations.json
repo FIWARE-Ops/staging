@@ -6,59 +6,20 @@
 			"properties":{
 				"type": "location",
 				"name": "Mohammed VI Polytechnic University",
+				"city": "Rabat",
 				"html": [
-					"<div><div class='gridElementLogoContainer'><img class='gridElementLogo' src='https://um6p.ma/sites/default/files/logo%20(4)_1.png' loading='lazy'/></div></div>",
-					"<div class='city-name'><h3>Mohammed VI Polytechnic University</h3><p>BP 6372 Avenue Allal Al Fassi</p></div>"
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/ihubs/images/acastro.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/acastro.png' loading='lazy'/></picture></div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Montevideo</h3><img alt='Uruguay' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Uruguay.png' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>A. Castro Servicios &amp; Tecnología</div>",
+					"<div class='ihub-type'>Basic</div>",
+                	"<div class='chip-domain'><ul class='chips'><li>AgriFood</li><li>Cities</li><li>Energy</li></ul><span class='chips-gradient'></span></div>"
+            		,
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.arnaldocastro.com.uy/' rel='noopener'><span class='icon website'></span><a class='cat-twitter' target='_blank' href='https://twitter.com/#!/arnaldocastrosa' rel='noopener'><span class='icon twitter'></span></a><a class='cat-linkedin' target='_blank' href='https://www.linkedin.com/company/arnaldo-c.-castro-s.a./' rel='noopener'><span class='icon linkedin'></span></a></div>"
 				]
 			},
 			"geometry":{
 				"type":"Point",
 				"coordinates":[-6.867,33.9774]
-			}
-		},
-		{
-			"type":"Feature",
-			"properties":{
-				"type": "location",
-				"name": "hub27 Berlin",
-				"html": [
-					"<div></div>",
-					"<div class='city-name'><h3>hub27 Berlin</h3><p>Jafféstraße 2, 14055</p></div>"
-				]
-			},
-			"geometry":{
-				"type":"Point",
-				"coordinates":[-6.8656,33.9689]
-			}
-		},
-		{
-			"type":"Feature",
-			"properties":{
-				"type": "location",
-				"name": "The International House of Japan",
-				"html": [
-					"<div></div>",
-					"<div class='city-name'><h3>The International House of Japan</h3><p>5-11-16 Roppongi, Minato-ku, 106-0032</p></div>"
-				]
-			},
-			"geometry":{
-				"type":"Point",
-				"coordinates":[-6.7911,33.958]
-			}
-		},
-		{
-			"type":"Feature",
-			"properties":{
-				"type": "location",
-				"name": "Messegelände Hannover",
-				"html": [
-					"<div></div>",
-					"<div class='city-name'><h3>Messegelände Hannover</h3><p>Messegelände D 30521</p></div>"
-				]
-			},
-			"geometry":{
-				"type":"Point",
-				"coordinates":[-6.8134,33.9611]
 			}
 		}
 	]
