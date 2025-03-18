@@ -35,7 +35,7 @@
       "type": "background",
       "minzoom": 0,
       "maxzoom": 20,
-      "paint": {"background-color": "rgba(25,65,155,1.0)"}
+      "paint": {"background-color": "rgba(236, 86, 41, 1)"}
     },
     {
     "id": "hillshading",
@@ -45,9 +45,9 @@
     "paint": {
       "hillshade-illumination-direction": 0,
       "hillshade-exaggeration": 1,
-      "hillshade-highlight-color": "rgba(25,65,155,1.0)",
-      "hillshade-shadow-color": "rgba(0, 46, 103, 1)",
-      "hillshade-accent-color": "rgba(0, 46, 103, 1)"
+      "hillshade-highlight-color": "rgba(236, 86, 41, 1)",
+      "hillshade-shadow-color": "rgba(208, 62, 18, 1)",
+      "hillshade-accent-color": "rgba(208, 62, 18, 1)"
     }
     },
     {
