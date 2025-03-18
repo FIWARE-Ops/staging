@@ -39,6 +39,7 @@ function extractLocations(input) {
             publish: Parser.boolean(item.Published)
         };
         if (poi.publish) {
+           poi.img = poi.image;
            poi.flagUrl = 'https://www.fiware.org/wp-content/' + path.join(FLAGS_DIR, poi.flag);
             
            locations.push(poi);
