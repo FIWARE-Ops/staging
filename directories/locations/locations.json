@@ -8,17 +8,237 @@
 				"name": "Mohammed VI Polytechnic University",
 				"city": "Rabat",
 				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/ihubs/images/acastro.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/acastro.png' loading='lazy'/></picture></div></div>",
-					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Montevideo</h3><img alt='Uruguay' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Uruguay.png' style='margin-left: auto;'/></div>",
-					"<div class='ihub-name'>A. Castro Servicios &amp; Tecnología</div>",
-					"<div class='ihub-type'>Basic</div>",
-                	"<div class='chip-domain'><ul class='chips'><li>AgriFood</li><li>Cities</li><li>Energy</li></ul><span class='chips-gradient'></span></div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.arnaldocastro.com.uy/' rel='noopener'><span class='icon website'></span><a class='cat-twitter' target='_blank' href='https://twitter.com/#!/arnaldocastrosa' rel='noopener'><span class='icon twitter'></span></a><a class='cat-linkedin' target='_blank' href='https://www.linkedin.com/company/arnaldo-c.-castro-s.a./' rel='noopener'><span class='icon linkedin'></span></a></div>"
+					"<div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>Mohammed VI Polytechnic University</div>",
+					"<div class='ihub-type'>Venue</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://um6p.ma/' rel='noopener'><span class='icon website'></span></div>"
 				]
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[-6.867,33.9774]
+				"coordinates":[-6.72918,33.980238]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "location",
+				"name": "Hassan Tower",
+				"city": "Rabat",
+				"html": [
+					"<div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>Hassan Tower</div>",
+					"<div class='ihub-type'>POI</div>"				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-6.822788,34.024135]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "location",
+				"name": "Mausoleum of Mohammed V",
+				"city": "Rabat",
+				"html": [
+					"<div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>Mausoleum of Mohammed V</div>",
+					"<div class='ihub-type'>POI</div>"				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-6.821423,34.02266]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "location",
+				"name": "Kasbah des Oudayas",
+				"city": "Rabat",
+				"html": [
+					"<div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>Kasbah des Oudayas</div>",
+					"<div class='ihub-type'>POI</div>"				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-6.835956,34.03167]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "location",
+				"name": "Chellah",
+				"city": "Rabat",
+				"html": [
+					"<div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>Chellah</div>",
+					"<div class='ihub-type'>POI</div>"				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-6.820782,34.006374]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "location",
+				"name": "Palais Royal",
+				"city": "Rabat",
+				"html": [
+					"<div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>Palais Royal</div>",
+					"<div class='ihub-type'>POI</div>"				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-6.841011,34.001646]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "location",
+				"name": "Rabat Medina",
+				"city": "Rabat",
+				"html": [
+					"<div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>Rabat Medina</div>",
+					"<div class='ihub-type'>POI</div>"				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-6.839084,34.025842]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "location",
+				"name": "Sofitel Rabat Jardin des Roses",
+				"city": "Rabat",
+				"html": [
+					"<div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>Sofitel Rabat Jardin des Roses</div>",
+					"<div class='ihub-type'>Hotel</div>"				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-6.83701,33.990655]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "location",
+				"name": "Rabat Marriott Hotel",
+				"city": "Rabat",
+				"html": [
+					"<div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>Rabat Marriott Hotel</div>",
+					"<div class='ihub-type'>Hotel</div>"				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-6.844701,34.004073]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "location",
+				"name": "MGallery Le Diwan Rabat",
+				"city": "Rabat",
+				"html": [
+					"<div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>MGallery Le Diwan Rabat</div>",
+					"<div class='ihub-type'>Hotel</div>"				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-6.827906,34.017574]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "location",
+				"name": "Braat Hotel",
+				"city": "Rabat",
+				"html": [
+					"<div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>Braat Hotel</div>",
+					"<div class='ihub-type'>Hotel</div>"				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-6.828829,34.01248]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "location",
+				"name": "Onomo Hotel Rabat Terminus",
+				"city": "Rabat",
+				"html": [
+					"<div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>Onomo Hotel Rabat Terminus</div>",
+					"<div class='ihub-type'>Hotel</div>"				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-6.834715,34.020053]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "location",
+				"name": "Rabat-Salé International Airport",
+				"city": "Rabat",
+				"html": [
+					"<div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>Rabat-Salé International Airport</div>",
+					"<div class='ihub-type'>Airport</div>"				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-6.74836,34.05117]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "location",
+				"name": "Rabat Ville",
+				"city": "Rabat",
+				"html": [
+					"<div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>Rabat Ville</div>",
+					"<div class='ihub-type'>Train Station</div>"				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-6.835793,34.01647]
 			}
 		}
 	]
