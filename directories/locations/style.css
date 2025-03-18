@@ -51,7 +51,7 @@ a:focus {
     font-size: 24px !important;
     mix-blend-mode: multiply;
     opacity: .8;
-    color: #002E67;
+    color: #000;
     border-radius: 0 3px 0 3px;
     background-color: rgba(0, 46, 102, 0);
     transition: all 0.2s ease-in-out;
@@ -373,7 +373,7 @@ details summary::-webkit-details-marker {
 
 .difficulty-levels {
     font-size: 1.2em;
-    color: #002e67;
+    color: #000;
     padding: 0px 0px 0px;
 }
 
@@ -381,7 +381,7 @@ details summary::-webkit-details-marker {
     font-weight: 600;
     font-size: 18px;
     text-align: left;
-    color: #002e67;
+    color: #000;
     line-height: 1.4em;
     padding: 0px;
 }
@@ -397,7 +397,7 @@ details summary::-webkit-details-marker {
     font-weight: 600;
     font-size: 18px;
     text-align: left;
-    color: #002e67;
+    color: #000;
     line-height: 1.4em;
     padding: 0px;
 }
@@ -423,12 +423,12 @@ details summary::-webkit-details-marker {
 }
 
 .ihub-type {
-    text-transform: uppercase;
+    /*text-transform: uppercase;
     color: #000000;
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
-    padding-bottom: 10px;
+    padding-bottom: 10px;*/
 }
 
 .maplibregl-popup-content .membership-type {
@@ -441,7 +441,7 @@ details summary::-webkit-details-marker {
 }
 
 .maplibregl-popup-content .ihub-type {
-    font-size: 13px;
+    font-size: 14px;
     padding: 0 15px;
 }
 
@@ -557,20 +557,20 @@ details summary::-webkit-details-marker {
 }
 
 .maplibregl-popup-content .chip-domain {
-    padding: 0 15px;
+    padding: 0;
 }
 
 .chip-domain li {
     font-size: 14px;
     font-weight: 500;
     line-height: 1em;
-    color: #5dc0cf;
-    background-color: #e5f5f7;
+    color: #ec5629;
+    background-color: #fce9e3;
     position: relative;
     border-radius: 20px 20px 20px 20px;
     overflow: hidden;
     padding: 6px 12px 8px;
-    margin-right: 8px;
+    margin-right: 0;
     display: inline-block;
     transition: background-color 0.2s linear;
 }
@@ -585,13 +585,13 @@ details summary::-webkit-details-marker {
     color: #e5f5f7;
 }
 
-.chip-domain li:last-of-type {
+/* .chip-domain li:last-of-type {
     margin-right: 40px;
-}
+} */
 
 .maplibregl-popup-content .chip-domain li {
-    font-size: 13px;
-    padding: 4px 8px 6px;
+    /* font-size: 13px;
+    padding: 4px 8px 6px; */
 }
 
 .chips-gradient {
