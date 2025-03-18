@@ -11,7 +11,7 @@
 					"<div><div class='gridElementLogoContainer'><picture><!--source srcset='https://www.fiware.org/style/imgs/placeholder/image-placeholder-16x9.webp' type='image/webp'/--><img class='gridElementLogo' src='https://www.fiware.org/style/imgs/placeholder/image-placeholder-16x9.png' loading='lazy'/></picture></div></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>Mohammed VI Polytechnic University</div>",
-					"<div class='ihub-type'>BP 6372 Avenue Allal Al Fassi</div>"
+					"<div class='ihub-type'>BP 6372 Avenue Allal Al Fassi</div>",
 					
 					"<div class='icons'><div class='chip-domain'><ul class='chips'><li>Venue</li></ul><span class='chips-gradient'></span></div><a class='cat-website' target='_blank' href='https://um6p.ma/' rel='noopener'><span class='icon website'></span></div>"
 				]
@@ -31,7 +31,7 @@
 					"<div><div class='gridElementLogoContainer'><picture><!--source srcset='https://www.fiware.org/fiware-summit/rabat-2025/assets/images/hassan-tower.webp' type='image/webp'/--><img class='gridElementLogo' src='https://www.fiware.org/fiware-summit/rabat-2025/assets/images/hassan-tower.png' loading='lazy'/></picture></div></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>Hassan Tower</div>",
-					"<div class='ihub-type'>Av. Mohamed Al Yazidi</div>"
+					"<div class='ihub-type'>Av. Mohamed Al Yazidi</div>",
 					
 					"<div class='icons'><div class='chip-domain'><ul class='chips'><li>POI</li></ul><span class='chips-gradient'></span></div><a class='cat-website' target='_blank' href='https://www.visitrabat.com/en/lieux/la-tour-hassan-2/' rel='noopener'><span class='icon website'></span></div>"
 				]
@@ -51,7 +51,7 @@
 					"<div><div class='gridElementLogoContainer'><picture><!--source srcset='https://www.fiware.org/fiware-summit/rabat-2025/assets/images/mausoleum-mohammed-v.webp' type='image/webp'/--><img class='gridElementLogo' src='https://www.fiware.org/fiware-summit/rabat-2025/assets/images/mausoleum-mohammed-v.png' loading='lazy'/></picture></div></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>Mausoleum of Mohammed V</div>",
-					"<div class='ihub-type'>Av. Tour Hassan</div>"
+					"<div class='ihub-type'>Av. Tour Hassan</div>",
 					
 					"<div class='icons'><div class='chip-domain'><ul class='chips'><li>POI</li></ul><span class='chips-gradient'></span></div><a class='cat-website' target='_blank' href='https://www.visitrabat.com/en/lieux/le-mausolee-mohammed-v/' rel='noopener'><span class='icon website'></span></div>"
 				]
@@ -71,7 +71,7 @@
 					"<div><div class='gridElementLogoContainer'><picture><!--source srcset='https://www.fiware.org/fiware-summit/rabat-2025/assets/images/kasbah-des-oudayas.webp' type='image/webp'/--><img class='gridElementLogo' src='https://www.fiware.org/fiware-summit/rabat-2025/assets/images/kasbah-des-oudayas.png' loading='lazy'/></picture></div></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>Kasbah des Oudayas</div>",
-					"<div class='ihub-type'>Arrondissement Hassan</div>"
+					"<div class='ihub-type'>Arrondissement Hassan</div>",
 					
 					"<div class='icons'><div class='chip-domain'><ul class='chips'><li>POI</li></ul><span class='chips-gradient'></span></div><a class='cat-website' target='_blank' href='https://www.visitrabat.com/en/lieux/kasbah-des-oudayas/' rel='noopener'><span class='icon website'></span></div>"
 				]
@@ -91,7 +91,7 @@
 					"<div><div class='gridElementLogoContainer'><picture><!--source srcset='https://www.fiware.org/fiware-summit/rabat-2025/assets/images/chellah.webp' type='image/webp'/--><img class='gridElementLogo' src='https://www.fiware.org/fiware-summit/rabat-2025/assets/images/chellah.png' loading='lazy'/></picture></div></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>Chellah</div>",
-					"<div class='ihub-type'>Arrondissement El Youssoufia</div>"
+					"<div class='ihub-type'>Arrondissement El Youssoufia</div>",
 					
 					"<div class='icons'><div class='chip-domain'><ul class='chips'><li>POI</li></ul><span class='chips-gradient'></span></div><a class='cat-website' target='_blank' href='https://www.visitrabat.com/en/lieux/la-necropole-chellah/' rel='noopener'><span class='icon website'></span></div>"
 				]
@@ -111,7 +111,7 @@
 					"<div><div class='gridElementLogoContainer'><picture><!--source srcset='https://www.fiware.org/fiware-summit/rabat-2025/assets/images/royal-palace.webp' type='image/webp'/--><img class='gridElementLogo' src='https://www.fiware.org/fiware-summit/rabat-2025/assets/images/royal-palace.png' loading='lazy'/></picture></div></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>Palais Royal</div>",
-					"<div class='ihub-type'>Av. Ibn Batouta</div>"
+					"<div class='ihub-type'>Av. Ibn Batouta</div>",
 					
 					"<div class='icons'><div class='chip-domain'><ul class='chips'><li>POI</li></ul><span class='chips-gradient'></span></div><a class='cat-website' target='_blank' href='https://www.visitrabat.com/en/lieux/le-palais-royal/' rel='noopener'><span class='icon website'></span></div>"
 				]
@@ -131,7 +131,7 @@
 					"<div><div class='gridElementLogoContainer'><picture><!--source srcset='https://www.fiware.org/fiware-summit/rabat-2025/assets/images/rabat-medina.webp' type='image/webp'/--><img class='gridElementLogo' src='https://www.fiware.org/fiware-summit/rabat-2025/assets/images/rabat-medina.png' loading='lazy'/></picture></div></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>Rabat Medina</div>",
-					"<div class='ihub-type'>Arrondissement Hassan</div>"
+					"<div class='ihub-type'>Arrondissement Hassan</div>",
 					
 					"<div class='icons'><div class='chip-domain'><ul class='chips'><li>POI</li></ul><span class='chips-gradient'></span></div><a class='cat-website' target='_blank' href='https://www.visitrabat.com/en/lieux/la-medina-la-cite-andalouse/' rel='noopener'><span class='icon website'></span></div>"
 				]
@@ -151,7 +151,7 @@
 					"<div><div class='gridElementLogoContainer'><picture><!--source srcset='https://www.fiware.org/style/imgs/placeholder/image-placeholder-16x9.webp' type='image/webp'/--><img class='gridElementLogo' src='https://www.fiware.org/style/imgs/placeholder/image-placeholder-16x9.png' loading='lazy'/></picture></div></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>Sofitel Rabat Jardin des Roses</div>",
-					"<div class='ihub-type'>Rue Soufian Ben Al Wahab</div>"
+					"<div class='ihub-type'>Rue Soufian Ben Al Wahab</div>",
 					"<div class='ihub-type'><span class='star'>★ ★ ★ ★ ★ </span></div>",
 					"<div class='icons'><div class='chip-domain'><ul class='chips'><li>Hotel</li></ul><span class='chips-gradient'></span></div><a class='cat-website' target='_blank' href='https://sofitel.accor.com/en/hotels/6813.html' rel='noopener'><span class='icon website'></span></div>"
 				]
@@ -171,7 +171,7 @@
 					"<div><div class='gridElementLogoContainer'><picture><!--source srcset='https://www.fiware.org/style/imgs/placeholder/image-placeholder-16x9.webp' type='image/webp'/--><img class='gridElementLogo' src='https://www.fiware.org/style/imgs/placeholder/image-placeholder-16x9.png' loading='lazy'/></picture></div></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>Rabat Marriott Hotel</div>",
-					"<div class='ihub-type'>Av. Mahjoubi Aherdane</div>"
+					"<div class='ihub-type'>Av. Mahjoubi Aherdane</div>",
 					"<div class='ihub-type'><span class='star'>★ ★ ★ ★ ★ </span></div>",
 					"<div class='icons'><div class='chip-domain'><ul class='chips'><li>Hotel</li></ul><span class='chips-gradient'></span></div><a class='cat-website' target='_blank' href='https://www.marriott.com/en-us/hotels/rbamc-rabat-marriott-hotel/overview/' rel='noopener'><span class='icon website'></span></div>"
 				]
@@ -191,7 +191,7 @@
 					"<div><div class='gridElementLogoContainer'><picture><!--source srcset='https://www.fiware.org/style/imgs/placeholder/image-placeholder-16x9.webp' type='image/webp'/--><img class='gridElementLogo' src='https://www.fiware.org/style/imgs/placeholder/image-placeholder-16x9.png' loading='lazy'/></picture></div></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>MGallery Le Diwan Rabat</div>",
-					"<div class='ihub-type'>Place De L&#x27;Unité Africaine</div>"
+					"<div class='ihub-type'>Place De L&#x27;Unité Africaine</div>",
 					"<div class='ihub-type'><span class='star'>★ ★ ★ ★ </span></div>",
 					"<div class='icons'><div class='chip-domain'><ul class='chips'><li>Hotel</li></ul><span class='chips-gradient'></span></div><a class='cat-website' target='_blank' href='https://mgallery.accor.com/fr/hotels/2820.html' rel='noopener'><span class='icon website'></span></div>"
 				]
@@ -211,7 +211,7 @@
 					"<div><div class='gridElementLogoContainer'><picture><!--source srcset='https://www.fiware.org/style/imgs/placeholder/image-placeholder-16x9.webp' type='image/webp'/--><img class='gridElementLogo' src='https://www.fiware.org/style/imgs/placeholder/image-placeholder-16x9.png' loading='lazy'/></picture></div></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>Braat Hotel</div>",
-					"<div class='ihub-type'>Av. Patrice Lumumba, 46</div>"
+					"<div class='ihub-type'>Av. Patrice Lumumba, 46</div>",
 					"<div class='ihub-type'><span class='star'>★ ★ ★ ★ </span></div>",
 					"<div class='icons'><div class='chip-domain'><ul class='chips'><li>Hotel</li></ul><span class='chips-gradient'></span></div><a class='cat-website' target='_blank' href='https://braat.ma/en/' rel='noopener'><span class='icon website'></span></div>"
 				]
@@ -231,7 +231,7 @@
 					"<div><div class='gridElementLogoContainer'><picture><!--source srcset='https://www.fiware.org/style/imgs/placeholder/image-placeholder-16x9.webp' type='image/webp'/--><img class='gridElementLogo' src='https://www.fiware.org/style/imgs/placeholder/image-placeholder-16x9.png' loading='lazy'/></picture></div></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>Onomo Hotel Rabat Terminus</div>",
-					"<div class='ihub-type'>Gandhi Street, 2</div>"
+					"<div class='ihub-type'>Gandhi Street, 2</div>",
 					"<div class='ihub-type'><span class='star'>★ ★ ★ ★ </span></div>",
 					"<div class='icons'><div class='chip-domain'><ul class='chips'><li>Hotel</li></ul><span class='chips-gradient'></span></div><a class='cat-website' target='_blank' href='https://www.onomohotels.com/en/hotel/onomo-hotel-rabat-terminus/' rel='noopener'><span class='icon website'></span></div>"
 				]
@@ -251,7 +251,7 @@
 					"<div><div class='gridElementLogoContainer'><picture><!--source srcset='https://www.fiware.org/style/imgs/placeholder/image-placeholder-16x9.webp' type='image/webp'/--><img class='gridElementLogo' src='https://www.fiware.org/style/imgs/placeholder/image-placeholder-16x9.png' loading='lazy'/></picture></div></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>Rabat-Salé International Airport</div>",
-					"<div class='ihub-type'>P4004, Layayda</div>"
+					"<div class='ihub-type'>P4004, Layayda</div>",
 					
 					"<div class='icons'><div class='chip-domain'><ul class='chips'><li>Airport</li></ul><span class='chips-gradient'></span></div></div>"
 				]
@@ -271,7 +271,7 @@
 					"<div><div class='gridElementLogoContainer'><picture><!--source srcset='https://www.fiware.org/style/imgs/placeholder/image-placeholder-16x9.webp' type='image/webp'/--><img class='gridElementLogo' src='https://www.fiware.org/style/imgs/placeholder/image-placeholder-16x9.png' loading='lazy'/></picture></div></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>Rabat Ville</div>",
-					"<div class='ihub-type'>Avenue Mohamed V</div>"
+					"<div class='ihub-type'>Avenue Mohamed V</div>",
 					
 					"<div class='icons'><div class='chip-domain'><ul class='chips'><li>Train Station</li></ul><span class='chips-gradient'></span></div></div>"
 				]
