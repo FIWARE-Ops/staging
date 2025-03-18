@@ -20,8 +20,12 @@ function extractLocations(input) {
         const location = {
             name: item.Name,
             city: item.City,
-            lat: Number(item.Latitude),
-            lng: Number(item.Longitude),
+            type: item.Type,
+            website: item.Website,
+            country: item.Country,
+            flag: item['Country flag'],
+            latitude: Number(item.Latitude),
+            longitude: Number(item.Longitude),
             address: item.Address,
             image: item.Image,
             publish: Parser.boolean(item.Published)
