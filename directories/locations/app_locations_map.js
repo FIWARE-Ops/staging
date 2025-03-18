@@ -55,9 +55,9 @@ function addLayer(source) {
     type: "circle",
     source,
     paint: {
-      "circle-color": "rgba(93,23,6,.8)",
-      "circle-stroke-width": 1,
-      "circle-stroke-color":  "rgba(0,0,0,1)",
+      "circle-color": "rgba(0,0,0,1)",
+      "circle-stroke-width": 0,
+      "circle-stroke-color":  "rgba(0,0,0,0)",
       "circle-radius": 7,
     },
   });
