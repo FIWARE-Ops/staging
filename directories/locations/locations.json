@@ -4,7 +4,7 @@
 		{
 			"type":"Feature",
 			"properties":{
-				"type": "location",
+				"type": "Venue",
 				"name": "Mohammed VI Polytechnic University",
 				"city": "Rabat",
 				"html": [
@@ -24,7 +24,7 @@
 		{
 			"type":"Feature",
 			"properties":{
-				"type": "location",
+				"type": "POI",
 				"name": "Hassan Tower",
 				"city": "Rabat",
 				"html": [
@@ -44,7 +44,7 @@
 		{
 			"type":"Feature",
 			"properties":{
-				"type": "location",
+				"type": "POI",
 				"name": "Mausoleum of Mohammed V",
 				"city": "Rabat",
 				"html": [
@@ -64,7 +64,7 @@
 		{
 			"type":"Feature",
 			"properties":{
-				"type": "location",
+				"type": "POI",
 				"name": "Kasbah des Oudayas",
 				"city": "Rabat",
 				"html": [
@@ -84,7 +84,7 @@
 		{
 			"type":"Feature",
 			"properties":{
-				"type": "location",
+				"type": "POI",
 				"name": "Chellah",
 				"city": "Rabat",
 				"html": [
@@ -104,7 +104,7 @@
 		{
 			"type":"Feature",
 			"properties":{
-				"type": "location",
+				"type": "POI",
 				"name": "Palais Royal",
 				"city": "Rabat",
 				"html": [
@@ -124,7 +124,7 @@
 		{
 			"type":"Feature",
 			"properties":{
-				"type": "location",
+				"type": "POI",
 				"name": "Rabat Medina",
 				"city": "Rabat",
 				"html": [
@@ -144,7 +144,7 @@
 		{
 			"type":"Feature",
 			"properties":{
-				"type": "location",
+				"type": "Hotel",
 				"name": "Sofitel Rabat Jardin des Roses",
 				"city": "Rabat",
 				"html": [
@@ -164,7 +164,7 @@
 		{
 			"type":"Feature",
 			"properties":{
-				"type": "location",
+				"type": "Hotel",
 				"name": "Rabat Marriott Hotel",
 				"city": "Rabat",
 				"html": [
@@ -184,7 +184,7 @@
 		{
 			"type":"Feature",
 			"properties":{
-				"type": "location",
+				"type": "Hotel",
 				"name": "MGallery Le Diwan Rabat",
 				"city": "Rabat",
 				"html": [
@@ -204,7 +204,7 @@
 		{
 			"type":"Feature",
 			"properties":{
-				"type": "location",
+				"type": "Hotel",
 				"name": "Braat Hotel",
 				"city": "Rabat",
 				"html": [
@@ -224,7 +224,7 @@
 		{
 			"type":"Feature",
 			"properties":{
-				"type": "location",
+				"type": "Hotel",
 				"name": "Onomo Hotel Rabat Terminus",
 				"city": "Rabat",
 				"html": [
@@ -244,7 +244,7 @@
 		{
 			"type":"Feature",
 			"properties":{
-				"type": "location",
+				"type": "Airport",
 				"name": "Rabat-Salé International Airport",
 				"city": "Rabat",
 				"html": [
@@ -264,7 +264,7 @@
 		{
 			"type":"Feature",
 			"properties":{
-				"type": "location",
+				"type": "Train Station",
 				"name": "Rabat Ville",
 				"city": "Rabat",
 				"html": [
