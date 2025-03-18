@@ -27,6 +27,7 @@ function extractLocations(input) {
             name: item.Name,
             city: item.City,
             type: item.Type,
+            stars: parseInt(item.Stars),
              image: item.Image ? item.Image : `https://www.fiware.org/style/imgs/placeholder/${DEFAULT_IMAGE}`,
             website: item.Website,
             country: item.Country,
