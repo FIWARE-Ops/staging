@@ -177,7 +177,7 @@ details summary::-webkit-details-marker {
     position:absolute; 
     background-color: #e2e9ea;
     top:0; 
-    left:1px;
+    left:0;
 }
 
 .maplibregl-popup-content .gridElementLogo {
