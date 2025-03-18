@@ -7,14 +7,21 @@
 			"properties":{
 				"type": "location",
 				"name": "{{name}}",
+				"city": "{{city}}",
 				"html": [
-					"<div>{{#if image}}<div class='gridElementLogoContainer'><img class='gridElementLogo' src='{{image}}' loading='lazy'/></div>{{/if}}</div>",
-					"<div class='city-name'><h3>{{name}}</h3><p>{{address}}</p></div>"
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='{{webp img}}' type='image/webp'/><img class='gridElementLogo' src='{{img}}' loading='lazy'/></picture></div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>{{city}}</h3>{{#if country}}<img alt='{{country}}' class='flag' src='{{flagUrl}}' style='margin-left: auto;'/>{{/if}}</div>",
+					"<div class='ihub-name'>{{name}}</div>",
+					"<div class='ihub-type'>{{type}}</div>"{{#if (gt domain.length 0)}},
+                	"<div class='chip-domain'><ul class='chips'>{{#each domain}}<li>{{this}}</li>{{/each}}</ul><span class='chips-gradient'></span></div>"
+            		{{/if}}{{#if contacts}},
+					"<div class='icons'>{{#if website}}<a class='cat-website' target='_blank' href='{{website}}' rel='noopener'><span class='icon website'></span>{{/if}}{{#if twitter}}<a class='cat-twitter' target='_blank' href='{{twitter}}' rel='noopener'><span class='icon twitter'></span></a>{{/if}}{{#if linkedIn}}<a class='cat-linkedin' target='_blank' href='{{linkedIn}}' rel='noopener'><span class='icon linkedin'></span></a>{{/if}}</div>"
+					{{/if}}
 				]
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[{{lng}},{{lat}}]
+				"coordinates":[{{longitude}},{{latitude}}]
 			}
 		}{{#unless @last}},{{/unless}}
 		{{/each}}
