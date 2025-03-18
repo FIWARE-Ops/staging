@@ -46,6 +46,12 @@ function addSource(name, source) {
   });
 }
 
+
+const isVenue = ["==", ["get", "type"], "Venue"];
+const isPOI = ["==", ["get", "type"], "POI"];
+const isHotel = ["==", ["get", "type"], "Hotel"];
+
+
 function addLayer(source) {
   if (map.getLayer("points")) {
     map.removeLayer("points");
@@ -55,10 +61,19 @@ function addLayer(source) {
     type: "circle",
     source,
     paint: {
-      "circle-color": "rgba(0,0,0,1)",
-      "circle-stroke-width": 0,
-      "circle-stroke-color":  "rgba(0,0,0,0)",
-      "circle-radius": 7,
+      "circle-color": [
+        "case",
+        isVenue, "rgba(0,0,0,.6)",
+        isPOI, "rgba(93,192,207,.6)",
+        isHotel, "rgba(0,27,61,1)",
+        "rgba(93,192,207,.6)",
+      ],
+      "circle-stroke-width": ["case", isVenue, 3, 0],
+      "circle-stroke-color":  "rgba(0,0,0,1)",
+      "circle-radius": [
+        "case",
+        isVenue,
+        12, 7]
     },
   });
 }
