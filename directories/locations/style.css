@@ -92,7 +92,21 @@ details summary::-webkit-details-marker {
     position: absolute;
     width: 12em;
     border-radius: 4px;
-    padding: 4px;
+    padding: 8px;
+    font-size: 15px;
+    line-height: 1.5em;
+}
+
+.map-overlay-inner ul li {
+    padding-bottom: 5px;
+}
+
+.map-overlay-inner ul li:last-of-type {
+    padding-bottom: 0;
+}
+
+.map-overlay-inner ul li img {
+    margin-right: 3px;
 }
 
 .map-overlay-inner label {
