@@ -31,10 +31,10 @@ function addLayer(source) {
 
 let popups = null;
 const icons = {
-   venue: "./icons/website.svg",
-   hotel:  "./icons/linkedin.svg",
-   attraction:  "./icons/linkedin.svg",
-   transport:  "./icons/twitter.svg",
+   venue: "./icons/venue.svg",
+   hotel:  "./icons/hotel.svg",
+   attraction:  "./icons/poi.svg",
+   transport:  "./icons/transport.svg",
 }
 
 function initMap() {
