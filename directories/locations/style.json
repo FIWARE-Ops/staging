@@ -9,8 +9,8 @@
     "openmaptiles:version": "3.x",
     "maputnik:renderer": "mlgljs"
   },
-  "center": [-6.79, 34.01],
-  "zoom": 6,
+  "center": [13, 33],
+  "zoom": 1,
   "bearing": 0,
   "pitch": 0,
   "sources": {

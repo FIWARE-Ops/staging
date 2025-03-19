@@ -85,7 +85,15 @@ function initMap() {
         [-6.688, 34.091],
         [-6.916, 33.932]
       ]);
-    }, "1000");  
+    }, "1000");
+
+    setTimeout( async() => {
+      map.addControl(new maplibregl.ScaleControl({
+        maxWidth: 80,
+        unit: 'metric'
+      }));
+
+    }, "4500");  
 
   });
 }
