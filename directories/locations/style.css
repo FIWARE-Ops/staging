@@ -732,14 +732,14 @@ details summary::-webkit-details-marker {
     display: inline-block;
     position: relative;
     background-color: rgba(255, 255, 255, .9);
-    background-image: url(https://www.fiware.org/custom/icons/blue/filters.svg);
+    background-image: url(https://www.fiware.org/custom/icons/black/category.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 55%;
     border-radius: 4px;
     width: 36px;
     height: 36px;
-    color: #002e67;
+    color: #000;
     text-align: center;
     padding: 2px;
     transition: all 0.3s ease-in-out;
@@ -748,7 +748,7 @@ details summary::-webkit-details-marker {
 
 .filters:hover {
     background-color: rgba(255, 255, 255, 1);
-    background-image: url(https://www.fiware.org/custom/icons/blue/filters.svg);
+    background-image: url(https://www.fiware.org/custom/icons/black/category.svg);
 }
 
 .website {
@@ -757,21 +757,21 @@ details summary::-webkit-details-marker {
 	display: inline-block;
 	position: relative;
 	background-color: #ebebeb;
-	background-image: url(https://www.fiware.org/custom/icons/blue/website.svg);
+	background-image: url(https://www.fiware.org/custom/icons/black/website.svg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 55%;
 	border-radius: 40px;
 	width: 32px;
 	height: 32px;
-	color: #002e67;
+	color: #000;
 	text-align: center;
 	padding: 2px;
 	transition: all 0.3s ease-in-out;
 }
 
 .website:hover {
-	background-color: #002e67;
+	background-color: #000;
 	background-image: url(https://www.fiware.org/custom/icons/white/website.svg);
 }
 
