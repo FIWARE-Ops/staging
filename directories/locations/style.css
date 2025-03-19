@@ -480,33 +480,33 @@ details summary::-webkit-details-marker {
 } */
 
 .chips {
-    position: relative;
+    /* position: relative;
     width: 100%;
-    /* height: 100vh; */
+    height: 100vh;
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
-    padding: 0 !important;
+    padding: 0 !important; */
     line-height: 1em !important;
-    transition: all 0.2s;
-    /*transform: scale(0.98);*/
+    /* transition: all 0.2s;
+    transform: scale(0.98);
     will-change: transform;
     user-select: none;
-    cursor: grab;
+    cursor: grab; */
 }
 
 
 
-.chips.active {
+/* .chips.active {
     background: rgba(255, 255, 255, 0.3);
     cursor: grabbing;
     cursor: -webkit-grabbing;
-    /*transform: scale(0.99);*/
+    transform: scale(0.99);
 }
 
 .chips::-webkit-scrollbar {
     display: none;
-}
+} */
 
 .gridElementTechnologyDomain {
     width: 94%;
@@ -557,6 +557,7 @@ details summary::-webkit-details-marker {
 
 .chip-domain {
     display: flex;
+    align-items: center;
     gap: 10px;
 }
 
@@ -567,12 +568,12 @@ details summary::-webkit-details-marker {
 .chip-domain li {
     font-size: 14px;
     font-weight: 500;
-    line-height: 1em;
+    /* line-height: 1em; */
     color: #ec5629;
     background-color: #fce9e3;
     position: relative;
     border-radius: 20px 20px 20px 20px;
-    overflow: hidden;
+    /* overflow: hidden; */
     padding: 6px 12px 8px;
     margin-right: 0;
     display: inline-block;
