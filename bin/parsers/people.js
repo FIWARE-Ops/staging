@@ -12,6 +12,7 @@ const Static = require('./peopleData');
 
 const TEMPLATE_PATH = 'bin/templates/people';
 const PEOPLE_DIR = 'directories/people';
+const SPEAKERS_DIR = 'directories/fiware-summit/speakers';
 const INTERNAL_PEOPLE_DIR = 'welcome/directories/people';
 const ASSETS_DIR = 'directories/people/images/200px';
 const FLAGS_DIR = 'directories/people/images/flag';
@@ -125,14 +126,19 @@ function generateHTML(people, page) {
 
     filterData.filters = _.sortBy(_.uniq(filters), Sorter.caseInsensitive);
 
+     let output = path.join(PEOPLE_DIR, page);
+     if (page === 'speakers') {
+        output = SPEAKERS_DIR;
+     }
+
     if (page === 'speakers') {
         Template.write(
-            path.join(PEOPLE_DIR, page, 'people.html'),
+            path.join(output, 'people.html'),
             path.join(TEMPLATE_PATH, 'speaker-card.hbs'),
             people
         );
     } else {
-        Template.write(path.join(PEOPLE_DIR, page, 'people.html'), path.join(TEMPLATE_PATH, 'card.hbs'), people);
+        Template.write(path.join(output, 'people.html'), path.join(TEMPLATE_PATH, 'card.hbs'), people);
     }
     if (page === 'team') {
         Template.write(
@@ -146,12 +152,12 @@ function generateHTML(people, page) {
             people
         );
     }
-    Template.write(path.join(PEOPLE_DIR, page, 'pageData.js'), path.join(TEMPLATE_PATH, 'modal.hbs'), filterData);
-    Template.write(path.join(PEOPLE_DIR, page, 'filters.html'), path.join(TEMPLATE_PATH, 'filter.hbs'), filterData);
+    Template.write(path.join(output, 'pageData.js'), path.join(TEMPLATE_PATH, 'modal.hbs'), filterData);
+    Template.write(path.join(output, 'filters.html'), path.join(TEMPLATE_PATH, 'filter.hbs'), filterData);
 
-    Prettier.format(path.join(PEOPLE_DIR, page, 'people.html'), { parser: 'html' });
-    Prettier.format(path.join(PEOPLE_DIR, page, 'pageData.js'), { parser: 'flow' });
-    Prettier.format(path.join(PEOPLE_DIR, page, 'filters.html'), { parser: 'html' });
+    Prettier.format(path.join(output, 'people.html'), { parser: 'html' });
+    Prettier.format(path.join(output, 'pageData.js'), { parser: 'flow' });
+    Prettier.format(path.join(output, 'filters.html'), { parser: 'html' });
     return people;
 }
 

@@ -6,7 +6,7 @@ const Parser = require('../dataParser');
 const Sorter = require('../sort');
 const Template = require('../template');
 const TEMPLATE_PATH = 'bin/templates/sponsors/';
-const SPONSORS_DIR = 'directories/sponsors';
+const SPONSORS_DIR = 'directories/fiware-summit/sponsors';
 
 const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/sponsors/images/sponsor-default.png';
 

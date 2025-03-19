@@ -8,7 +8,7 @@ const Template = require('../template');
 const Downloader = require('../downloader');
 const Static = require('./locationsData');
 const TEMPLATE_PATH = 'bin/templates/locations/';
-const LOCATIONS_DIR = 'directories/locations';
+const LOCATIONS_DIR = 'directories/fiware-summit/locations';
 
 const IMAGE_SIZE = { height: 201, width: 360 };
 const FLAG_SIZE = { height: 120, width: 120 };

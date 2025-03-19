@@ -8,7 +8,7 @@ const Sorter = require('../sort');
 const Static = require('./agendaData');
 const Template = require('../template');
 const TEMPLATE_PATH = 'bin/templates/agenda/';
-const AGENDA_DIR = 'directories/agenda';
+const AGENDA_DIR = 'directories/fiware-summit/agenda';
 const People = require('./people');
 const CurrentYear = new Date().getFullYear();
 
@@ -160,13 +160,13 @@ function generateHTML(agenda, activeSpeakers, eventDates, style) {
     agenda.forEach((event) => {
         const filename = Template.createClass(event.title);
         Template.write(
-            path.join(AGENDA_DIR, `program/${filename}.html`),
+            path.join(AGENDA_DIR, `sessions/${filename}.html`),
             path.join(TEMPLATE_PATH, 'social-media.hbs'),
             event
         );
-        Prettier.format(path.join(AGENDA_DIR, `program/${filename}.html`), { parser: 'html' });
+        Prettier.format(path.join(AGENDA_DIR, `sessions/${filename}.html`), { parser: 'html' });
         socialImages.push({
-            output: path.join(AGENDA_DIR, `program/${filename}.png`),
+            output: path.join(AGENDA_DIR, `images/${filename}.png`),
             event,
             year: CurrentYear.toString().substr(-2),
             font: Template.font,
