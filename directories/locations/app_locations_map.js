@@ -31,10 +31,10 @@ function addLayer(source) {
 
 let popups = null;
 const icons = {
-   venue: "./icons/venue.svg",
-   hotel:  "./icons/hotel.svg",
-   attraction:  "./icons/poi.svg",
-   transport:  "./icons/transport.svg",
+   venue: "https://www.fiware.org/fiware-summit/assets/icons/icon-fgs.svg",
+   hotel:  "https://www.fiware.org/fiware-summit/assets/icons/icon-hotel.svg",
+   attraction:  "https://www.fiware.org/fiware-summit/assets/icons/icon-attraction.svg",
+   transport:  "https://www.fiware.org/fiware-summit/assets/icons/icon-train.svg",
 }
 
 function initMap() {
