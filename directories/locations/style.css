@@ -93,6 +93,7 @@ details summary::-webkit-details-marker {
     width: 12em;
     border-radius: 4px;
     padding: 8px;
+    color: #000;
     font-size: 15px;
     line-height: 1.5em;
 }
@@ -242,7 +243,7 @@ details summary::-webkit-details-marker {
     font-weight: 500;
     font-size: 15px;
     text-align: left;
-    color: #002e67;
+    color: #005fb9;
     line-height: 1.4em;
     padding: 0px;
 }
