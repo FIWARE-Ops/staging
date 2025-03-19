@@ -8,7 +8,7 @@ function addSource(name, source) {
 }
 
 const isVenue = ["==", ["get", "type"], "Venue"];
-const isPOI = ["==", ["get", "type"], "POI"];
+const isPOI = ["==", ["get", "type"], "Attraction"];
 const isHotel = ["==", ["get", "type"], "Hotel"];
 
 
@@ -22,7 +22,7 @@ function addLayer(source) {
   source,
   layout: {
     "icon-image": ["case", isVenue, 'venue', isPOI, 'attraction',  isHotel, 'hotel', 'transport'],
-    "icon-size": ["case", isVenue, 0.15, 0.1]
+    "icon-size": ["case", isVenue, 0.2, 0.15]
   },
   paint: {}
 });
