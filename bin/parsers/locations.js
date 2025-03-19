@@ -6,6 +6,7 @@ const Parser = require('../dataParser');
 const Sorter = require('../sort');
 const Template = require('../template');
 const Downloader = require('../downloader');
+const Static = require('./locationsData');
 const TEMPLATE_PATH = 'bin/templates/locations/';
 const LOCATIONS_DIR = 'directories/locations';
 
@@ -30,10 +31,11 @@ function extractLocations(input) {
             city: item.City,
             type: item.Type,
             stars: parseInt(item.Stars),
-             image: item.Image ? item.Image : `https://www.fiware.org/style/imgs/placeholder/${DEFAULT_IMAGE}`,
+            image: item.Image ? item.Image : `https://www.fiware.org/style/imgs/placeholder/${DEFAULT_IMAGE}`,
             website: item.Website,
             country: item.Country,
             flag: item['Country flag'],
+            color: Static.getTrackColor(item.Type),
             latitude: Number(item.Latitude),
             longitude: Number(item.Longitude),
             address: item.Address,
