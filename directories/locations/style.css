@@ -2300,15 +2300,18 @@ input[type="search"]::placeholder {
     }
 
     /* Map */
-
     .map-overlay {
+         display: none;
+    }
+
+    /*.map-overlay {
         width: 100%;
         display: flex;
         justify-content: flex-start;
         top: auto;
         bottom: 0;
         padding: 0 0 10px 10px;
-    }
+    }*/
 
     /* Card */
 
