@@ -569,8 +569,8 @@ details summary::-webkit-details-marker {
     font-size: 14px;
     font-weight: 500;
     /* line-height: 1em; */
-    color: #ec5629;
-    background-color: #fce9e3;
+    background-color: #ebebeb;
+    color: #000;
     position: relative;
     border-radius: 20px 20px 20px 20px;
     /* overflow: hidden; */
@@ -580,15 +580,22 @@ details summary::-webkit-details-marker {
     transition: background-color 0.2s linear;
 }
 
-.chip-domain li:hover {
-    background-color: #c7e9ee;
-    cursor: pointer;
+.chip-domain li.light-green {
+    background-color: #d0ede4;
+    color: #108763;
 }
 
-.chip-domain li.active {
-    background-color: #5dc0cf;
-    color: #e5f5f7;
+.chip-domain li.light-blue {
+    background-color: #cce0f0;
+    color: #005fb9;
 }
+
+.chip-domain li.light-orange {
+    background-color: #fce9e3;
+    color: #ec5629;
+}
+
+
 
 /* .chip-domain li:last-of-type {
     margin-right: 40px;
