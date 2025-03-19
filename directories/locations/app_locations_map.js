@@ -30,6 +30,12 @@ function addLayer(source) {
 }
 
 let popups = null;
+const icons = {
+   venue: "./icons/website.svg",
+   hotel:  "./icons/linkedin.svg",
+   attraction:  "./icons/linkedin.svg",
+   transport:  "./icons/twitter.svg",
+}
 
 function initMap() {
   map.addControl(new maplibregl.NavigationControl());
@@ -63,35 +69,14 @@ function initMap() {
 
   map.once("load", () => {
     // Add sources
-    const venue = new Image();
-    venue.src = "./icons/twitter.svg";
-    venue.onload = () => {
-       map.addImage('venue', venue);
+    for (const [key, value] of Object.entries(icons)) {
+      const image = new Image();
+      image.src = value;
+      image.onload = () => {
+         map.addImage(key, image);
+      }
     }
-
-    const hotel = new Image();
-    hotel.src = "./icons/website.svg";
-    hotel.onload = () => {
-       map.addImage('hotel', hotel);
-    }
-
-    const attraction = new Image();
-    attraction.src = "./icons/linkedin.svg";
-    attraction.onload = () => {
-       map.addImage('attraction', attraction);
-    }
-
-    const transport = new Image();
-    transport.src = "./icons/website.svg";
-    transport.onload = () => {
-       map.addImage('transport', transport);
-    }
-
     
-
-
-
-
     setTimeout( async() => {
       addSource("locations", "./locations.json");
       addLayer("locations");
