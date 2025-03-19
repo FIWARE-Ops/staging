@@ -72,11 +72,12 @@ function initMap() {
     for (const [key, value] of Object.entries(icons)) {
       const image = new Image();
       image.src = value;
+      image.width = 150;
+      image.height = 150;
       image.onload = () => {
          map.addImage(key, image);
       }
     }
-    
     setTimeout( async() => {
       addSource("locations", "./locations.json");
       addLayer("locations");
