@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Livello_1" data-name="Livello 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 16.27">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #002e67;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M10.91,6.89L16.94,0h-2.76l-4.55,5.2L5.7,0H0l6.81,8.9L.36,16.27h2.76l4.98-5.69,4.35,5.69h5.55l-7.09-9.38ZM3.22,1.57h1.64l9.87,13.05h-1.53L3.22,1.57Z"/>
+</svg>

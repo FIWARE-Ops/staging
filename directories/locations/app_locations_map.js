@@ -1,42 +1,3 @@
-function horizontalScroll(popup) {
-  // Horizontal Scroll
-
-  const sliders = popup.querySelectorAll(".chips");
-  let isDown = false;
-  let startX;
-  let scrollLeft;
-  sliders.forEach(function (slider) {
-    slider.addEventListener("mousedown", function (e) {
-      isDown = true;
-      slider.classList.add("active");
-      startX = e.pageX - slider.offsetLeft;
-      scrollLeft = slider.scrollLeft;
-    });
-    slider.addEventListener("mouseleave", function () {
-      isDown = false;
-      slider.classList.remove("active");
-    });
-    slider.addEventListener("mouseup", function () {
-      isDown = false;
-      slider.classList.remove("active");
-    });
-    slider.addEventListener("mousemove", function (e) {
-      if (!isDown) {
-        return;
-      }
-      e.preventDefault();
-      const x = e.pageX - slider.offsetLeft;
-      const walk = (x - startX) * 3; //scroll-fast
-
-      slider.scrollLeft = scrollLeft - walk;
-      const links = slider.querySelectorAll(".item");
-
-      for (let i = 0; i < links.length; i++) {
-        links[i].classList.add("noclick");
-      }
-    });
-  });
-}
 
 function addSource(name, source) {
   map.addSource(name, {
@@ -45,7 +6,6 @@ function addSource(name, source) {
     cluster: false,
   });
 }
-
 
 const isVenue = ["==", ["get", "type"], "Venue"];
 const isPOI = ["==", ["get", "type"], "POI"];
@@ -57,30 +17,19 @@ function addLayer(source) {
     map.removeLayer("points");
   }
   map.addLayer({
-    id: "points",
-    type: "circle",
-    source,
-    paint: {
-      "circle-color": [
-        "case",
-        isVenue, "rgba(0,0,0,.6)",
-        isPOI, "rgba(93,192,207,.6)",
-        isHotel, "rgba(0,27,61,1)",
-        "rgba(93,192,207,.6)",
-      ],
-      "circle-stroke-width": ["case", isVenue, 3, 0],
-      "circle-stroke-color":  "rgba(0,0,0,1)",
-      "circle-radius": [
-        "case",
-        isVenue,
-        12, 7]
-    },
-  });
+  id: "points",
+  type: "symbol",
+  source,
+  layout: {
+    "icon-image": ["case", isVenue, 'venue', isPOI, 'attraction',  isHotel, 'hotel', 'transport'],
+    "icon-size": ["case", isVenue, 0.15, 0.1]
+  },
+  paint: {}
+});
+
 }
 
 let popups = null;
-const filter = "cities";
-
 
 function initMap() {
   map.addControl(new maplibregl.NavigationControl());
@@ -91,16 +40,6 @@ function initMap() {
 
   map.on("mouseleave", "points", () => {
     map.getCanvas().style.cursor = "";
-  });
-
-  map.on("click", "clusters", (e) => {
-    const point = [e.lngLat.lng, e.lngLat.lat];
-    map.flyTo({
-      center: point,
-    });
-    setTimeout(function () {
-      map.zoomIn();
-    }, 500);
   });
 
   map.on("click", "points", (e) => {
@@ -116,12 +55,6 @@ function initMap() {
       .setLngLat(city.geometry.coordinates);
 
     popups.addTo(map);
-
-    setTimeout(function () {
-      horizontalScroll(
-        document.querySelectorAll(".maplibregl-popup-content")[0],
-      );
-    }, 500);
   });
 
   map.on("load", function () {
@@ -130,7 +63,36 @@ function initMap() {
 
   map.once("load", () => {
     // Add sources
-    setTimeout(() => {
+    const venue = new Image();
+    venue.src = "./icons/twitter.svg";
+    venue.onload = () => {
+       map.addImage('venue', venue);
+    }
+
+    const hotel = new Image();
+    hotel.src = "./icons/website.svg";
+    hotel.onload = () => {
+       map.addImage('hotel', hotel);
+    }
+
+    const attraction = new Image();
+    attraction.src = "./icons/linkedin.svg";
+    attraction.onload = () => {
+       map.addImage('attraction', attraction);
+    }
+
+    const transport = new Image();
+    transport.src = "./icons/website.svg";
+    transport.onload = () => {
+       map.addImage('transport', transport);
+    }
+
+    
+
+
+
+
+    setTimeout( async() => {
       addSource("locations", "./locations.json");
       addLayer("locations");
       map.fitBounds([
