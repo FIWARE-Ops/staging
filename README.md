@@ -1,4 +1,4 @@
-# FIWARE Staging website for data-driven web pages 
+# FIWARE Staging website for data-driven web pages
 
 <img src="https://www.fiware.org/style/imgs/Marketplace/FIWAREMarketplace_Visual.svg" align="center" />
 
@@ -42,6 +42,7 @@ git clone https://github.com/FIWARE-Ops/staging.git
 ### Update FIWARE Global Summit
 
 - `npm run agenda` - FIWARE Global Summit Agenda 
+- `npm run locations` - FIWARE Global Summit Sponsors
 - `npm run speakers` - FIWARE Global Summit Speakers 
 - `npm run sponsors` - FIWARE Global Summit Sponsors
 
@@ -73,4 +74,4 @@ git clone https://github.com/FIWARE-Ops/staging.git
 
 ## License
 
-[Apache 2.0](LICENSE) © 2022-2024 FIWARE Foundation e.V.
+[Apache 2.0](LICENSE) © 2022-2025 FIWARE Foundation e.V.
