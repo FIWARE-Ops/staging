@@ -37,7 +37,20 @@ git clone https://github.com/FIWARE-Ops/staging.git
 
 ### Update FIWARE Showcase Products
 
-- `npm run showcase`
+- `npm run showcase` - generate products
+- `npm run showcase+` - generate products and texts
+
+```console
+APP_ID='xxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxx'
+APP_SECRET='xxxxxx-xxxx-xxxx-xxxx-xxxxxxx'
+CLIENT_INSTANCE='xxxx'
+
+export APP_ID
+export APP_SECRET
+export CLIENT_INSTANCE
+
+npm run showcase+
+```
 
 ### Update FIWARE Global Summit
 
