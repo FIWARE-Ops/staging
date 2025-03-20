@@ -330,6 +330,16 @@ window.eventData = [
         "group": "Workshop"
     },
     {
+        "id": "202504-letting-your-chatbot-have-a-friendly-talk-with-the-context-broker",
+        "title": "Letting Your Chatbot Have a Friendly Talk With the Context Broker",
+        "from": "2025-04-16T08:00:00.000Z",
+        "to": "2025-04-16T09:00:00.000Z",
+        "description": "Unlock the potential of your FIWARE Smart App by harnessing the power of natural language.",
+        "location": "Online",
+        "isAllDay": false,
+        "group": "Webinar"
+    },
+    {
         "id": "202509-smart-country-convention",
         "title": "Smart Country Convention",
         "from": "2025-09-29T22:00:00.000Z",
