@@ -42,6 +42,8 @@ git clone https://github.com/FIWARE-Ops/staging.git
 ### Update FIWARE Global Summit
 
 - `npm run agenda` - FIWARE Global Summit Agenda 
+	-  `SOCIAL_IMAGES=true` - also generate images
+	-  `QR_CODES=true` - also generate QR Codes
 - `npm run locations` - FIWARE Global Summit Sponsors
 - `npm run speakers` - FIWARE Global Summit Speakers 
 - `npm run sponsors` - FIWARE Global Summit Sponsors
