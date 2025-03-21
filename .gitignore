@@ -5,6 +5,7 @@ members/*/*.html
 members/*/pageData.js
 !members/*/index.html
 !images/.gitkeep
+!social-media/images/*
 node_modules
 Untitled.txt
 *.csv

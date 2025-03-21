@@ -160,13 +160,13 @@ function generateHTML(agenda, activeSpeakers, eventDates, style) {
     agenda.forEach((event) => {
         const filename = Template.createClass(event.title);
         Template.write(
-            path.join(AGENDA_DIR, `../sessions/${filename}.html`),
+            path.join(AGENDA_DIR, `../social-media/sessions/${filename}.html`),
             path.join(TEMPLATE_PATH, 'social-media.hbs'),
             event
         );
-        Prettier.format(path.join(AGENDA_DIR, `../sessions/${filename}.html`), { parser: 'html' });
+        Prettier.format(path.join(AGENDA_DIR, `../social-media/sessions/${filename}.html`), { parser: 'html' });
         socialImages.push({
-            output: path.join(AGENDA_DIR, `../images/${filename}.png`),
+            output: path.join(AGENDA_DIR, `../social-media/images/${filename}.png`),
             event,
             year: CurrentYear.toString().substr(-2),
             font: Template.font,
