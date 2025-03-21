@@ -6,7 +6,7 @@ bin/
 css/
 fonts/
 images/
-!directories/fiware-summit/images
+!directories/fiware-summit/social-media/images
 welcome/
 members/
 !images/.gitkeep
