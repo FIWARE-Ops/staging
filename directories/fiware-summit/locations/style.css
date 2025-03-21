@@ -98,8 +98,13 @@ details summary::-webkit-details-marker {
     line-height: 1.5em;
 }
 
+.map-overlay-inner ul {
+    padding: 0!important;
+}
+
 .map-overlay-inner ul li {
     padding-bottom: 5px;
+    list-style-type: none!important;
 }
 
 .map-overlay-inner ul li:last-of-type {
@@ -202,8 +207,8 @@ details summary::-webkit-details-marker {
 .maplibregl-popup-content .gridElementLogo {
     border-radius: 4px 4px 0 0;
     position: relative; 
-    top: inherit; 
-    left: inhert;
+    top: inherit;
+    padding: 0!important;
 }
 
 .maplibregl-popup-content .gridElementLogoContainer {
@@ -500,8 +505,8 @@ details summary::-webkit-details-marker {
     height: 100vh;
     overflow-x: scroll;
     overflow-y: hidden;
-    white-space: nowrap;
-    padding: 0 !important; */
+    white-space: nowrap; */
+    padding: 0 !important;
     line-height: 1em !important;
     /* transition: all 0.2s;
     transform: scale(0.98);
@@ -578,6 +583,7 @@ details summary::-webkit-details-marker {
 
 .maplibregl-popup-content .chip-domain {
     padding: 0;
+    height: auto!important;
 }
 
 .chip-domain li {
@@ -619,6 +625,7 @@ details summary::-webkit-details-marker {
 .maplibregl-popup-content .chip-domain li {
     /* font-size: 13px;
     padding: 4px 8px 6px; */
+    margin-right: 0px;
 }
 
 .chips-gradient {
