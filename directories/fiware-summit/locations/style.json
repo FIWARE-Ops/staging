@@ -699,7 +699,7 @@
       "metadata": {"mapbox:group": "101da9f13b64a08fa4b6ac1168e89e5f"},
       "source": "openmaptiles",
       "source-layer": "place",
-      "minzoom": 6,
+      "minzoom": 5,
       "maxzoom": 18,
       "filter": [
         "all",
