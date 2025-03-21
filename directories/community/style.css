@@ -77,9 +77,13 @@ a:focus {
     padding: 10px 0 0 10px;
 }
 
-details summary::-webkit-details-marker {
-    display:none;
+details > summary {
+    list-style: none;
   }
+
+details > summary::-webkit-details-marker {
+    display: none;
+}
 
 #nav-filter {
     display: flex;
