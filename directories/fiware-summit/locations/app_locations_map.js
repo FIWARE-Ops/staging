@@ -54,8 +54,15 @@ function initMap() {
 
   map.on("click", "points", (e) => {
     const city = e.features[0];
+    const location = city.geometry.coordinates;
     const html = JSON.parse(city.properties.html);
     const content = html.join("");
+    
+     map.flyTo({
+        center: [location[0], location[1]],
+        padding: {top: 100, bottom:10, left: 25, right: 25}
+    });
+
 
     if (popups) {
       popups.remove();
