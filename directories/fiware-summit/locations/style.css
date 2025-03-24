@@ -512,6 +512,7 @@ details > summary::-webkit-details-marker {
     white-space: nowrap; */
     padding: 0 !important;
     line-height: 1em !important;
+    margin: 0;
     /* transition: all 0.2s;
     transform: scale(0.98);
     will-change: transform;
