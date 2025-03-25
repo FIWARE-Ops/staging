@@ -340,6 +340,26 @@ window.eventData = [
         "group": "Webinar"
     },
     {
+        "id": "202505-fiware-tech-training-rabat",
+        "title": "FIWARE Tech Training Rabat",
+        "from": "2025-05-21T22:00:00.000Z",
+        "to": "2025-05-22T22:00:00.000Z",
+        "description": "",
+        "location": "Rabat Smart City BP 6372 Avenue Allal Al Fassi ",
+        "isAllDay": true,
+        "group": "Training"
+    },
+    {
+        "id": "202505-fiware-global-summit-2025",
+        "title": "FIWARE Global Summit 2025",
+        "from": "2025-05-21T22:00:00.000Z",
+        "to": "2025-05-22T22:00:00.000Z",
+        "description": "",
+        "location": "Rabat Smart City BP 6372 Avenue Allal Al Fassi ",
+        "isAllDay": true,
+        "group": "Summit"
+    },
+    {
         "id": "202509-smart-country-convention",
         "title": "Smart Country Convention",
         "from": "2025-09-29T22:00:00.000Z",
