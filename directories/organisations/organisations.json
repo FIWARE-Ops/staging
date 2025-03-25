@@ -634,6 +634,22 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Les Solutions Nexocité",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/nexocite.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/nexocite.png' loading='lazy'/></picture></div></div>",
+					"<div class='org-name'>Les Solutions Nexocité</div>",
+					"<div class='membership-type'>Gold</div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-73.560296,45.491291]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
 				"name": "Libelium",
 				"html": [
 					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/libelium.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/libelium.png' loading='lazy'/></picture></div></div>",
@@ -1035,23 +1051,6 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[-3.9905218,5.370212]
-			}
-		},
-		{
-			"type":"Feature",
-			"properties":{
-				"type": "Organization",
-				"name": "TIS",
-				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/tis.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/tis.png' loading='lazy'/></picture></div></div>",
-					"<div class='org-name'>TIS</div>",
-					"<div class='membership-type'>Gold</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='http://www.tis.com/' rel='noopener'><span class='icon website'></span></div>"
-				]
-			},
-			"geometry":{
-				"type":"Point",
-				"coordinates":[135.515368,34.8622536]
 			}
 		},
 		{
@@ -2112,6 +2111,23 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "IRESI at Maynooth University",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/iresi.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/iresi.png' loading='lazy'/></picture></div></div>",
+					"<div class='org-name'>IRESI at Maynooth University</div>",
+					"<div class='membership-type'>Associate</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.iresi.eu/' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-6.603049,53.384632]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
 				"name": "ITRI",
 				"html": [
 					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/itri.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/itri.png' loading='lazy'/></picture></div></div>",
@@ -2480,6 +2496,23 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[4.8345848,45.7507892]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
+				"name": "University Mohammed V",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/university-mohammed-v.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/university-mohammed-v.png' loading='lazy'/></picture></div></div>",
+					"<div class='org-name'>University Mohammed V</div>",
+					"<div class='membership-type'>Associate</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.um5.ac.ma/um5/' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-6.843174,33.999593]
 			}
 		},
 		{
