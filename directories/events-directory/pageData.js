@@ -344,7 +344,7 @@ window.eventData = [
         "title": "FIWARE Tech Training Rabat",
         "from": "2025-05-21T22:00:00.000Z",
         "to": "2025-05-22T22:00:00.000Z",
-        "description": "",
+        "description": "For the first time ever, the  FIWARE Global Summit  will be held in Morocco, highlighting the innovative potential of smart and sustainable territories beyond Europe",
         "location": "Rabat Smart City BP 6372 Avenue Allal Al Fassi ",
         "isAllDay": true,
         "group": "Training"
@@ -354,7 +354,7 @@ window.eventData = [
         "title": "FIWARE Global Summit 2025",
         "from": "2025-05-21T22:00:00.000Z",
         "to": "2025-05-22T22:00:00.000Z",
-        "description": "",
+        "description": "We are excited to invite you to the upcoming FIWARE Global Summit in Rabat, Morocco, from May 22nd to 23rd, 2025.",
         "location": "Rabat Smart City BP 6372 Avenue Allal Al Fassi ",
         "isAllDay": true,
         "group": "Summit"
