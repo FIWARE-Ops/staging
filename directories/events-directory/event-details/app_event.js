@@ -159,13 +159,17 @@ function wrapEventBrite(id, event) {
     return;
   }
 
-  if (event.eventBrite !== "") {
+  if (event.website ===  event.onlineLink) {
+    $(id).attr("href", event.website);
+    $(id).attr("target", "_blank");
+    $(id).text("Session URL");
+  } else if (event.eventBrite !== "") {
     $(id).attr("href", `https://www.eventbrite.com/e/${event.eventBrite}`);
   } else if (event.website !== "" && !eventOver) {
     $(id).attr("href", event.website);
     $(id).attr("target", "_blank");
     $(id).text("Website");
-  }
+  } 
 }
 
 function wrapEventDetails(event) {
