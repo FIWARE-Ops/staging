@@ -83,6 +83,7 @@ var companies = [
         'SenLab',
         'SenLab d.o.o.',
         'Seoul Municipality',
+        'Smart Cities Morocco Alliance',
         'Stealth-ISS Group',
         'Sysman',
         'Tecnológico de Monterrey',
@@ -94,7 +95,6 @@ var companies = [
         'UFRN',
         'UNIBIT',
         'Universidad de Murcia',
-        'University Hassan II Casablanca',
         'University of Cantabria',
         'University of Salento',
         'Université Lumière Lyon 2',
@@ -113,6 +113,7 @@ var companies = [
         'CDO',
         'CEO',
         'CGA',
+        'Chairman',
         'Chairman FIWARE TSC',
         'CIO',
         'Consultant',
@@ -293,7 +294,7 @@ var companies = [
     { name: "Misato Hattori", img: "https://www.fiware.org/wp-content/directories/people/images/200px/misato-hattori.jpg", position: "Senior Business Development Manager", company: "NEC America", "company-link": "https://www.necam.com/",
     content: "Misato Hattori is the Senior Business Development Manager at NEC, a Japanese global information and communications technology corporation. She is particularly involved in smart city business development, and research and opportunity analysis of the smart city market in the United States. She has been in charge of the technology industry for over twenty years since she got a master’s degree in computer science. Her career has spanned technology research and development, mobile product planning, and policy advocacy, and she has worked with the Japanese government on developing the Smart City Reference Architecture in Japan. Currently based in New York, she participates with the Center of Smart Streetscapes led by Columbia University as the industry advisory board member.", linkedin: "https://www.linkedin.com/in/misato-hattori-535199254/", twitter: "", domain: "", location: ""
     },
-    { name: "Dr. Aawatif Hayar", img: "https://www.fiware.org/wp-content/directories/people/images/200px/aawatif-hayar.jpg", position: "Professor", company: "University Hassan II Casablanca", "company-link": "https://www.univh2c.ma/",
+    { name: "Dr. Aawatif Hayar", img: "https://www.fiware.org/wp-content/directories/people/images/200px/aawatif-hayar.jpg", position: "Chairman", company: "Smart Cities Morocco Alliance", "company-link": "https://www.univh2c.ma/",
     content: "Dr. Aawatif HAYAR is the Minister of Solidarity, Social Integration and Family. She was President of Hassan II University Casablanca 2019-2021. She received, with honors,as the First Moroccan, the degree of “Agrégation” in Electrical Engineering from ENS Cachan in 1992. She received the “Diplôme d’Etudes Approfondies” in Signal processing Image and Communications and the degree of Engineer in Telecommunications Systems and Networks from ENSEEIHT de Toulouse in 1997. She received with honors the Ph.D. degree in Signal Processing and Telecommunications from Institut National Polytechnique in Toulouse in 2001. She was research and teaching associate at EURECOM from 2001 to 2010 in Sophia Antipolis-France. She has an HDR from Univ. Sud Toulon Var from France on Cognitive Wideband Wireless Systems on 2010 and an HDR on Green Téléommunication from Univ. Hassan II Casablanca on 2013. Since 2011, she has Professor position at the UH2C. She is also member of Casablanca “Avant-garde” City think-tank. She is initiator of E-madina Smart City Cluster. Her research interests includes cognitive green radio, UWB systems, smart grids, smart building, ICT for social eco-friendly development. She was also IEEE DLT Chair for EMEA region on 2014-2015 and the inventor of Frugal Social Smart City concept for Casablanca and emerging countries selected by IEEE SCI as one of the most innovative projects in the world in 2015. She is currently Chair of Casablanca IEEE Core Smart City project. She was also selected by the prestigious African Innovation Foundation as one of the top ten innovative African women in 2015. She is the Scientific Advisor, at the City level, since 2016 of Smart City Expo Casablanca and General Co-Chair of IEEE international Smart Cities Conference (IEEE ISC2 -2019). Pr. Hayar is currently leading R&amp;D/Innovation projects funded by INDH, CNRST, GIZ, IRESEN and Heinrich Böll Stiftung such as End to End Energy Efficiency Living Lab, Virtual Museum of Casablanca, e-douar “Smart Inclusive Ecological village” and Solar Decathlon Africa E-Co Dar projects.", linkedin: "https://www.linkedin.com/in/aawatif-hayar-5547395/", twitter: "", domain: "", location: ""
     },
     { name: "Pierre Herbe", img: "https://www.fiware.org/wp-content/directories/people/images/200px/pierre-herbe.jpg", position: "Chief Digital Officer", company: "City of Herne", "company-link": "https://www.herne.de/",
