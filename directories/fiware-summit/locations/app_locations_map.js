@@ -42,6 +42,7 @@ const icons = {
 }
 
 function initMap() {
+  map.setCenter([13, 45]);
   map.addControl(new maplibregl.NavigationControl());
   map.addControl(new maplibregl.AttributionControl({ compact: true }));
   map.on("mouseenter", "points", () => {
