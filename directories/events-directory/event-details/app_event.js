@@ -337,11 +337,36 @@ function addMap(eventDetails) {
     .addTo(map);
 }
 
+function setClipboard() {
+  const text = `https://fiware.org${window.social}`;
+  const type = "text/plain";
+  const blob = new Blob([text], { type });
+  const data = [new ClipboardItem({ [type]: blob })];
+
+  navigator.clipboard.write(data).then(
+    () => {
+      /* success */
+      alert("Link copied to clipboard. Share session details with others!");
+    },
+    () => {
+      /* failure */
+    },
+  );
+}
+
+function createClass(data) {
+    let result = '';
+    const regex = /([^a-zA-Z0-9À-ÿ])/gi;
+    result = data ? data.toLowerCase().replace(regex, '-') : '';
+    return result;
+}
+
 function fillJob(eventDetails) {
   if (window.eventDetailsDone) {
     return;
   }
   window.eventDetailsDone = true;
+  window.social=`/event-details/${createClass(eventDetails.title)}.html`;
   $("h1#title").text(eventDetails.title);
   wrapImage("#event-cover", 1920, 1080, eventDetails.img);
 
