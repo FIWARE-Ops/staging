@@ -93,8 +93,8 @@ function initMap() {
       addSource("locations", "./locations.json");
       addLayer("locations");
       map.fitBounds([
-        [-6.688, 34.091],
-        [-6.916, 33.932]
+        [-6.916, 34.091],
+        [-6.688, 33.932]
       ]);
     }, "1000");
 
