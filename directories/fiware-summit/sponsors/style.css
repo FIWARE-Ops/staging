@@ -1464,8 +1464,8 @@ input[type="checkbox"]:checked+label::after {
     height: 1.1em;
     width: 1.4em;
     border: #000 solid;
-    border-width: 4px 4px 0px 0px;
-    top: 39px;
+    border-width: 3px 3px 0px 0px;
+    top: 34px;
     left: 10px;
     transform: rotateZ(130deg);
 }
