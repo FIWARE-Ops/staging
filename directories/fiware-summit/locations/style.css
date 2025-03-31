@@ -51,7 +51,7 @@ a:focus {
     font-size: 24px !important;
     mix-blend-mode: multiply;
     opacity: .8;
-    color: #000;
+    color: #002E67;
     border-radius: 0 3px 0 3px;
     background-color: rgba(0, 46, 102, 0);
     transition: all 0.2s ease-in-out;
@@ -104,11 +104,15 @@ details > summary::-webkit-details-marker {
 
 .map-overlay-inner ul {
     padding: 0!important;
+    margin: 0!important;
 }
 
 .map-overlay-inner ul li {
     padding-bottom: 5px;
-    list-style-type: none!important;
+    list-style-type: none !important;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 .map-overlay-inner ul li:last-of-type {
