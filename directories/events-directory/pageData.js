@@ -310,6 +310,16 @@ window.eventData = [
         "group": "Conference"
     },
     {
+        "id": "202503-intro-to-fgs25",
+        "title": "Intro to FGS25",
+        "from": "2025-04-01T12:30:00.000Z",
+        "to": "2025-04-01T13:30:00.000Z",
+        "description": "Join our upcoming FIWARE Global Summit Info Session.",
+        "location": "Online",
+        "isAllDay": false,
+        "group": "Webinar"
+    },
+    {
         "id": "202504-support-for-the-dataspace-protocol--dsp--in-the-fiware-data-space-connector",
         "title": "Support for the Dataspace Protocol (DSP) in the FIWARE Data Space Connector",
         "from": "2025-04-02T08:00:00.000Z",
