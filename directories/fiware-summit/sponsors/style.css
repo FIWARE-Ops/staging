@@ -26,8 +26,8 @@
 /* ---- grid ---- */
 
 .grid {
-    background: #005FB9;
-    margin: 0 auto;
+    background: rgba(255, 255, 255, 0);
+    margin: 0 auto 0 34px;
     max-width: 100%;
 }
 
@@ -203,49 +203,42 @@
     background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
 } */
 
-.btn-primary,
-.btn-primary:visited {
+.btn-primary, .btn-primary:visited {
     width: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 5px;
+    gap: 0;
     font-size: 14px;
     line-height: 18px;
-    color: #ffffff;
-    background-color: #005fb9;
-    padding: 8px 12px;
+    color: #000;
+    background-color: rgba(0,0,0,0);
+    padding: 4px 8px 4px 4px;
+    border: 1px solid #000;
     border-radius: 4px;
     transition: all 0.2s ease-in-out;
     cursor: pointer;
 }
 
-.btn-primary:hover,
-.btn-primary:active,
-.btn-primary:focus {
-    background-color: #006cd3;
-    color: #ffffff;
-}
-
-.btn-primary a:hover,
-.btn-primary a:active,
-.btn-primary a:focus {
-    color: #ffffff;
-}
-
-.icon {
-    font-weight: 300;
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    background-color: rgba(0,0,0,1);
+    color: #fff;
 }
 
 .icons {
-    display: none;
-    /* padding: 0px;
-    display: inline-flex;
+    padding: 20px 0px;
+    margin-top: 5px;
+    border-top: 1px solid #000;
+    display: flex;
     flex-direction: row;
-    align-items: center;
-    gap:12px;
-    text-align: center;
-    margin: 0 auto; */
+    justify-content: center;
+    gap: 10px;
+    cursor: default!important;
+}
+
+.maplibregl-popup-content .icons {
+    padding: 10px 15px 0;
+    margin-top: 0;
 }
 
 .icon::before {
@@ -257,74 +250,206 @@
     padding-right: 10px;
 }
 
-.twitter::before {
-    font-family: "ETmodules";
+.filters {
     font-weight: 400;
-    content: "\e094";
-    font-size: 16px;
+    font-size: 20px;
     display: inline-block;
     position: relative;
-    background: #5dc0cf;
+    background-color: rgba(255, 255, 255, .9);
+    background-image: url(https://www.fiware.org/custom/icons/blue/filters.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 55%;
+    border-radius: 4px;
+    width: 32px;
+    height: 32px;
+    color: #002e67;
+    text-align: center;
+    padding: 2px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.filters:hover {
+    background-color: rgba(255, 255, 255, 1);
+    background-image: url(https://www.fiware.org/custom/icons/blue/filters.svg);
+}
+
+.website {
+    font-weight: 400;
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    background-color: #ebebeb;
+    background-image: url(https://www.fiware.org/custom/icons/blue/website.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 55%;
     border-radius: 40px;
     width: 32px;
     height: 32px;
-    color: #005fb9;
+    color: #002e67;
     text-align: center;
-    padding-left: 8px;
-    padding-top: 5px;
+    padding: 2px;
+    transition: all 0.3s ease-in-out;
+}
+
+.website:hover {
+    background-color: #002e67;
+    background-image: url(https://www.fiware.org/custom/icons/white/website.svg);
+}
+
+.strategy {
+    font-weight: 400;
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    background-color: #ebebeb;
+    background-image: url(https://www.fiware.org/custom/icons/blue/website.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 55%;
+    border-radius: 40px;
+    width: 32px;
+    height: 32px;
+    color: #002e67;
+    text-align: center;
+    padding: 2px;
+    transition: all 0.3s ease-in-out;
+}
+
+.strategy:hover {
+    background-color: #002e67;
+    background-image: url(https://www.fiware.org/custom/icons/white/website.svg);
+}
+
+.impactstory {
+    font-weight: 400;
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    background-color: #ebebeb;
+    background-image: url(https://www.fiware.org/custom/icons/blue/impact-story.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 45%;
+    border-radius: 40px;
+    width: 32px;
+    height: 32px;
+    color: #002e67;
+    text-align: center;
+    padding: 2px;
+    transition: all 0.3s ease-in-out;
+}
+
+.impactstory:hover {
+    background-color: #002e67;
+    background-image: url(https://www.fiware.org/custom/icons/white/impact-story.svg);
+}
+
+.marketplace {
+    font-weight: 400;
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    background-color: #ebebeb;
+    background-image: url(https://www.fiware.org/custom/icons/blue/marketplace.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    border-radius: 40px;
+    width: 32px;
+    height: 32px;
+    color: #002e67;
+    text-align: center;
+    padding: 2px;
+    transition: all 0.3s ease-in-out;
+}
+
+.marketplace:hover {
+    background-color: #002e67;
+    background-image: url(https://www.fiware.org/custom/icons/white/marketplace.svg);
+}
+
+.cat-website {
+    width: 32px;
+    height: 32px;
+}
+
+.twitter {
+    font-weight: 400;
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    background-color: #ebebeb;
+    background-image: url(https://www.fiware.org/custom/icons/blue/twitter.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    border-radius: 40px;
+    width: 32px;
+    height: 32px;
+    color: #002e67;
+    text-align: center;
+    padding: 2px;
+    transition: all 0.3s ease-in-out;
+}
+
+.twitter:hover {
+    background-color: #002e67;
+    background-image: url(https://www.fiware.org/custom/icons/white/twitter.svg);
 }
 
 .cat-twitter {
     position: relative;
     width: 32px;
-    /* margin-right: 12px; */
+    height: 32px;
 }
 
-.linkedin::before {
-    font-family: "ETmodules";
+.linkedin {
     font-weight: 400;
-    content: "\e09d";
-    font-size: 16px;
+    font-size: 20px;
     display: inline-block;
     position: relative;
-
+    background-color: rgba(0,0,0,0);
+    background-image: url(https://www.fiware.org/custom/icons/black/linkedin.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 45%;
+    border: 1px solid #000;
+    border-radius: 40px;
     width: 32px;
     height: 32px;
-    color: #005fb9;
+    color: #000;
     text-align: center;
-    padding-right: 0px;
-    padding-top: 5px;
+    padding: 2px;
+    transition: all 0.3s ease-in-out;
 }
 
+.linkedin:hover {
+    background-color: rgba(0,0,0,1);
+    background-image: url(https://www.fiware.org/custom/icons/white/linkedin.svg);
+}
 
 .cat-linkedin {
     position: relative;
     width: 32px;
-    background: #5dc0cf;
-    border-radius: 40px;
-}
-
-.cat-linkedin:hover,
-.cat-linkedin:active,
-.cat-linkedin:focus {
-    background-color: #8ad2dc;
-    color: #005fb9;
+    height: 32px;
+    cursor: pointer;
 }
 
 .bio::before {
     font-family: "ETmodules";
     font-weight: 600;
     content: "\4c";
-    font-size: 20px;
+    font-size: 22px;
     display: inline-block;
     position: relative;
-    background: #5dc0cf;
-    border-radius: 40px;
-    width: 32px;
-    height: 32px;
-    color: #005fb9;
-    text-align: center;
-    padding: 1px 1px 1px 0px;
+    padding: 0 1px 1px 0;
+}
+
+.cat-bio  {
+    cursor: pointer;
 }
 
 /*.cat-bio {
@@ -445,7 +570,7 @@
 }
 
 .sponsor-details {
-    background-color: #8ad2dc;
+    background-color: #000;
     border-radius: 0 0 4px 4px;
     padding: 8px;
     display: flex;
@@ -453,6 +578,7 @@
 }
 
 .sponsor-details h6 {
+    color: #fff;
     font-size: 14px;
     font-weight: 600;
     padding: 0;
@@ -503,7 +629,7 @@
     background-color: #000;
     border-radius: 30px;
     border: 1px solid #000;
-    color: #8ad2dc;
+    color: #fff;
     cursor: pointer;
     font-weight: 500;
     padding: 8px 16px 8px 16px;
@@ -514,6 +640,7 @@
 
 .tingle-modal {
     backdrop-filter: blur(5px);
+    background: rgba(239, 119, 83, .8);
 }
 
 .tingle-modal--visible {
@@ -521,12 +648,12 @@
 }
 
 .tingle-modal__close {
-    color: #fff;
+    color: #000;
 }
 
 .tingle-modal-box {
-    border-radius: 10px;
-    background-color: #ffffff;
+    border-radius: 4px;
+    background: #fff;
     width: 640px;
 }
 
@@ -587,8 +714,8 @@
     gap: 0;
     font-size: 14px;
     line-height: 18px;
-    color: #5dc0cf;
-    background-color: #005fb9;
+    color: #fff;
+    background-color: #000;
     padding: 4px 8px 4px 4px;
     border-radius: 4px;
     transition: all 0.2s ease-in-out;
@@ -658,80 +785,91 @@
     margin-right: 3px;
 }
 
-.twitter-link::before {
+/* .twitter-link::before {
     font-family: "ETmodules";
     font-weight: 400;
     content: "\e094";
-    font-size: 16px;
+    font-size: 18px;
     display: inline-block;
     position: relative;
-    /* background: #00aced; */
-    border: solid 1px #000;
+    background: #00aced;
+    border-radius: 40px;
+    width: 32px;
+    height: 32px;
+    color: #fff;
+    text-align: center;
+    padding-left: 1px;
+    padding-top: 4px;
+} */
+
+.twitter-link {
+    font-weight: 400;
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    background-color: rgba(0,0,0,0.1);
+    background-image: url(https://www.fiware.org/custom/icons/black/twitter.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
     border-radius: 40px;
     width: 32px;
     height: 32px;
     color: #000;
     text-align: center;
-    padding-left: 1px;
-    padding-top: 5px;
+    padding: 2px;
+    transition: all 0.3s ease-in-out;
 }
 
-.twitter-link {
-    position: relative;
-    width: 32px;
-    margin-right: 12px;
+.twitter-link:hover {
+    background-color: #000;
+    background-image: url(https://www.fiware.org/custom/icons/orange/twitter.svg);
 }
 
-.linkedin-link::before {
+/* .linkedin-link::before {
     font-family: "ETmodules";
     font-weight: 400;
     content: "\e09d";
-    font-size: 16px;
+    font-size: 17px;
     display: inline-block;
     position: relative;
-    /* background: #007bb6; */
-    border: solid 1px #000;
+    background: #007bb6;
     border-radius: 40px;
     width: 32px;
     height: 32px;
-    color: #000;
+    margin-right: 0;
+    color: #fff;
     text-align: center;
     padding-right: 0px;
     padding-top: 4px;
-}
+} */
 
 .linkedin-link {
-    position: relative;
-    width: 32px;
-    margin-right: 12px;
-}
-
-.company-link::before {
-    font-family: "ETmodules";
     font-weight: 400;
-    content: "\e0e3";
-    font-size: 16px;
+    font-size: 20px;
     display: inline-block;
     position: relative;
-    /* background: #007bb6; */
-    border: solid 1px #000;
+    background-color: rgba(0,0,0,0.1);
+    background-image: url(https://www.fiware.org/custom/icons/black/linkedin.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 45%;
     border-radius: 40px;
     width: 32px;
     height: 32px;
     color: #000;
     text-align: center;
-    padding-right: 0px;
-    padding-top: 4px;
+    padding: 2px;
+    transition: all 0.3s ease-in-out;
 }
 
-.company-link {
-    position: relative;
-    width: 32px;
-    margin-right: 12px;
+.linkedin-link:hover {
+    background-color: #000;
+    background-image: url(https://www.fiware.org/custom/icons/orange/linkedin.svg);
 }
 
 .tingle-modal .bio-modal p {
-    max-height: 110px;
+    max-height: 100px;
     overflow: auto;
 }
 
@@ -746,7 +884,7 @@
 }
 
 .tingle-modal .bio-modal p::-webkit-scrollbar-thumb {
-    background-color: #005FB9;
+    background-color: #ebebeb;
     /* color of the scroll thumb */
     border-radius: 20px;
     /* roundness of the scroll thumb */
@@ -757,7 +895,7 @@
 .tingle-modal .bio-modal p {
     scrollbar-width: thin;
     /* "auto" or "thin" */
-    scrollbar-color: #c7e9ee transparent;
+    scrollbar-color: #ebebeb transparent;
     /* scroll thumb and track */
 }
 
@@ -930,23 +1068,45 @@
 
     /* Modal */
 
+    .tingle-modal {
+        padding: 0;
+        display: flex;
+    }
+
     .tingle-modal__close {
         color: #000;
         font-weight: 400;
         line-height: 1em;
-    }
-
-    .tingle-modal__close {
-        top: 5vw;
-        right: 5vw;
         z-index: 99999;
-        background: #8ad2dc;
+        background: #fff;
         line-height: 0.9em;
         box-shadow: 0 0 50px 0 rgba(0, 0, 0, 1) !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        top: 20px;
+        margin: 0 auto;
+        left: auto;
+        right: 20px;
+        border-radius: 25px;
+    }
+
+    .tingle-modal__closeLabel {
+        display: none;
+        font-family: 'Montserrat';
+        font-weight: 600;
+        padding-bottom: 4px;
     }
 
     .tingle-modal-box {
         width: 90%;
+    }
+
+    .tingle-modal__closeIcon {
+        margin: 0;
+        line-height: normal;
     }
 
     .tingle-modal-box__content {
@@ -957,12 +1117,12 @@
         width: 100%;
     }
 
-    .tingle-modal img {
+    .tingle-modal img.headshot {
         display: none;
     }
 
     .details-modal {
-        display: block;
+        display: flex;
     }
 
     .social-modal p.domain {
@@ -976,19 +1136,17 @@
     margin-bottom:0px; */
     }
 
-    .tags-modal {
-        display: none;
-        /* display: inline-block; */
+    /* .tags-modal {
+        display: inline-block;
         padding: 20px 0 0 0;
-    }
+    } */
 
     .tags-modal p.location {
-        display: none;
-        /*display: flex;
-    flex-direction: row;
-    margin-bottom: 0px;
-    margin-right: 20px;
-    padding-top: 0px; */
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 0px;
+        margin-right: 20px;
+        padding-top: 0px;
     }
 
     .tags-modal .location:before {
@@ -1002,7 +1160,6 @@
 
     .tingle-modal h2 {
         font-size: 16px;
-        padding-bottom: 20px;
     }
 
     .company {
@@ -1011,7 +1168,7 @@
     }
 
     .tingle-modal .bio-modal p {
-        max-height: 250px;
+        max-height: 235px;
         overflow: auto;
     }
 }
@@ -1074,11 +1231,11 @@
     justify-content: space-between;
     font-size: 14px;
     font-weight: 600;
-    color: #8ad2dc;
+    color: #000;
     width: 100%;
     padding: 15px 0;
     margin-bottom: 20px;
-    border-bottom: 1px solid #8ad2dc;
+    border-bottom: 1px solid #000;
 }
 
 .products-label {
@@ -1122,7 +1279,7 @@
     width: 100%;
     font-size: 14px;
     font-weight: 600;
-    color: #8ad2dc;
+    color: #000;
     text-transform: uppercase;
     display: flex;
     align-items: flex-end;
@@ -1159,11 +1316,11 @@
     align-items: flex-end;
     font-size: 13px;
     font-weight: 600;
-    color: #4c4c4c;
+    color: #000;
     text-transform: uppercase;
     margin-top: 15px;
     padding-top: 15px;
-    border-top: 1px solid #aaa;
+    border-top: 1px solid #000;
     width: 100%;
 }
 
@@ -1184,10 +1341,10 @@ select::-ms-expand {
 }
 
 .filter-element select {
-    background-color: #005FB9;
+    background-color: rgba(0, 0, 0, 0);
     border-radius: 30px;
-    border: 1px solid #8ad2dc;
-    color: #fff;
+    border: 1px solid #000;
+    color: #000;
     cursor: pointer;
     font-weight: 500;
     padding: 8px 16px;
@@ -1198,9 +1355,9 @@ select::-ms-expand {
 
 .filter-element select:active,
 .filter-element select:focus {
-    background-color: #5dc0cf;
-    border: 1px solid #5dc0cf;
-    color: #005FB9;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #000;
+    color: #000;
     box-shadow: none;
 }
 
@@ -1222,16 +1379,16 @@ select::-ms-expand {
 }
 
 .filter-element button:hover {
-    background: #d2eef1;
+    background: rgba(0, 0, 0, 1);
 }
 
 .filter-element button.active {
-    background: #8ad2dc;
+    background: rgba(0, 0, 0, 1);
     color: #fff !important;
 }
 
 #orderByYear {
-    color: #8ad2dc;
+    color: #000;
 }
 
 #orderByName {
@@ -1239,11 +1396,11 @@ select::-ms-expand {
 }
 
 #orderByCountry {
-    color: #8ad2dc;
+    color: #000;
 }
 
 #orderByDomain {
-    color: #8ad2dc;
+    color: #000;
 }
 
 
@@ -1251,12 +1408,12 @@ select::-ms-expand {
 
 .search-element label {
     font-size: 14px;
-    color: #8ad2dc;
+    color: #000;
 }
 
 .filter-element label {
     font-size: 14px;
-    color: #8ad2dc;
+    color: #000;
     display: flex;
     flex-direction: column-reverse;
     gap: 10px;
@@ -1290,8 +1447,8 @@ input[type="checkbox"]+label::before {
     vertical-align: -26%;
     height: 40px;
     width: 40px;
-    background-color: rgba(255, 255, 255, 0.3);
-    border: 2px solid #8ad2dc;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid #000;
     border-radius: 24px;
 }
 
@@ -1302,7 +1459,7 @@ input[type="checkbox"]:checked+label::after {
     vertical-align: -20%;
     height: 1.1em;
     width: 1.4em;
-    border: #8ad2dc solid;
+    border: #000 solid;
     border-width: 4px 4px 0px 0px;
     top: 39px;
     left: 10px;
@@ -1312,7 +1469,7 @@ input[type="checkbox"]:checked+label::after {
 .sort-by {
     font-size: 13px !important;
     font-weight: 600;
-    color: #4c4c4c !important;
+    color: #000 !important;
     text-transform: uppercase;
     padding-right: 10px;
 }
@@ -1332,7 +1489,7 @@ input[type="checkbox"]:checked+label::after {
 
 .sort-element label {
     font-size: 14px;
-    color: #8ad2dc;
+    color: #000;
 }
 
 .sort-element button {
@@ -1343,8 +1500,8 @@ input[type="checkbox"]:checked+label::after {
     gap: 0;
     font-size: 15px;
     line-height: 18px;
-    color: #005fb9;
-    background-color: #5dc0cf;
+    color: #000;
+    background-color: rgba(0, 0, 0, 0);
     padding: 8px 12px;
     border-radius: 4px;
     transition: all 0.2s ease-in-out;
@@ -1353,7 +1510,8 @@ input[type="checkbox"]:checked+label::after {
 }
 
 .sort-element button:hover {
-    background-color: #8ad2dc;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 1);
 }
 
 
@@ -1361,21 +1519,18 @@ input[type="checkbox"]:checked+label::after {
 
 .search-element {
     position: relative;
-    display: flex;
-    flex-direction: column;
-    width: 50ch;
 }
 
 .resetInput {
     opacity: 0;
-    background-image: url(https://www.fiware.org/fiware-summit/naples-2024/assets/icons/ico_clear.svg);
+    background-image: url(https://www.fiware.org/wp-content/uploads/ico_clear_blue.png);
     background-repeat: no-repeat;
     pointer-events: none;
     position: absolute;
     top: 13px;
-    right: 10px;
-    width: 20px;
-    height: 20px;
+    right: 8px;
+    width: 32px;
+    height: 32px;
     transition: all 200ms;
 }
 
@@ -1389,35 +1544,36 @@ input[type="checkbox"]:checked+label::after {
 }
 
 #searchInput {
-    /* max-width: unset !important;
-    width: 100%;*/
+    padding: 5px;
+    max-width: unset !important;
+    width: -webkit-fill-available;
+    font-size: 16px;
 }
 
 input[type="search"] {
-    background-color: rgba(138, 210, 220, 0);
+    background-color: rgba(0, 0, 0, 0);
     border-radius: 4px;
-    border: 1px solid #8ad2dc;
+    border: 1px solid #000;
     cursor: pointer;
     line-height: 1em;
     font-weight: 500;
-    padding: 10px 35px 10px 40px !important;
-    margin: 12px 0;
+    padding: 12px 35px 12px 40px !important;
     font-size: 15px;
-    background-image: url(https://www.fiware.org/fiware-summit/naples-2024/assets/icons/ico_search.svg);
-    background-position: 3%;
+    background-image: url(https://www.fiware.org/fiware-summit/rabat-2025/assets/images/ico/search.svg);
+    background-position: 2%;
     background-repeat: no-repeat;
     background-size: 24px 24px;
 }
 
 input[type="search"]:active,
 input[type="search"]:focus {
-    border: 1px solid #8ad2dc;
-    color: #ffffff;
+    border: 1px solid #000;
+    color: #000;
     box-shadow: none;
 }
 
 input[type="search"]::placeholder {
-    color: #8ad2dc;
+    color: #000;
 }
 
 /* Icons */
@@ -1446,15 +1602,7 @@ input[type="search"]::placeholder {
 
 #ico-filtersbar {
     margin-right: 8px;
-    color: #8ad2dc;
-}
-
-#ico-green {
-    color: #8ad2dc;
-}
-
-#ico-blue {
-    color: #005FB9;
+    color: #000;
 }
 
 /* –––––––––––––––– */
