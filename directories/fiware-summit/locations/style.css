@@ -49,16 +49,19 @@ a:focus {
     width: 20px;
     padding: 0;
     font-size: 24px !important;
+    font-family: "Montserrat", sans-serif;
+    line-height: .9em;
+    font-weight: 300;
     mix-blend-mode: multiply;
     opacity: .8;
-    color: #002E67;
+    color: #000;
     border-radius: 0 3px 0 3px;
     background-color: rgba(0, 46, 102, 0);
     transition: all 0.2s ease-in-out;
 }
 
 .maplibregl-popup-close-button:hover {
-    background-color: rgba(0, 46, 102, .3);
+    background-color: rgba(0, 0, 0, .3);
 }
 
 .maplibregl-popup-content {
