@@ -273,6 +273,17 @@ function generateHTML(events, activeSpeakers) {
 
     Template.write(path.join(EVENTS_DIR, '/pageData.js'), path.join(TEMPLATE_PATH, 'modal.hbs'), filterData);
 
+    events.forEach((event) => {
+        const filename = Template.createClass(event.title);
+        Template.write(
+            path.join(EVENTS_DIR, `social-media/${filename}.html`),
+            path.join(TEMPLATE_PATH, 'social-media.hbs'),
+            event
+        );
+    });
+
+
+
     Prettier.format(path.join(EVENTS_DIR, 'events.html'), { parser: 'html' });
     Prettier.format(path.join(EVENTS_DIR, 'pageData.js'), { parser: 'flow' });
     Prettier.format(path.join(EVENTS_DIR, 'event-details/pageData.js'), { parser: 'flow' });

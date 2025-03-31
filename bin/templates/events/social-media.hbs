@@ -3,13 +3,13 @@
 <head>
 
 <!-- W3C HTML Tags -->
-<title>FIWARE Global Summit: {{title}} ({{track}})</title>
+<title>FIWARE {{type}}: {{title}}</title>
 <meta name="robots" content="follow, index, noarchive, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
 <link rel="canonical" href="https://www.fiware.org{{social}}" />
 <link rel="shortcut icon" href="https://www.fiware.org/wp-content/uploads/2017/11/favicon-1.png" />
 
 <meta name="description" content="{{excerpt}}">
-<meta name="keywords" content="FIWARE,{{track}}">
+<meta name="keywords" content="FIWARE,{{type}}">
 {{#if (eq numSpeakers 0)}}
 <meta http-equiv="refresh" content="1; url=https://www.fiware.org/global-summit/agenda" />
 {{else}}
@@ -22,20 +22,12 @@
 <!-- Open Graph Tags -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="FIWARE Global Summit: {{title}}">
-{{#if excerpt}} 
+<meta property="og:title" content="FIWARE {{type}}: {{title}}">
 <meta property="og:description" content="{{excerpt}}">
-{{else}}
-{{#if session}} 
-<meta property="og:description" content="{{track}} - {{session}}">
-{{else}}
-<meta property="og:description" content="{{track}}">
-{{/if}}
-{{/if}}
 <meta property="og:url" content="https://www.fiware.org/global-summit/agenda/program?id={{createClass title}}">
 <meta property="og:site_name" content="FIWARE">
-<meta property="og:image" content="https://fiware.org/{{socialImage}}">
-<meta property="og:image:secure_url" content="https://fiware.org/{{socialImage}}">
+<meta property="og:image" content="{{img}}">
+<meta property="og:image:secure_url" content="{{img}}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="627">
 <meta property="og:image:alt" content="{{name}}">
@@ -43,19 +35,12 @@
 
 <!-- Twitter Tags -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="FIWARE Global Summit: {{title}}">
-{{#if excerpt}} 
+<meta name="twitter:title" content="FIWARE {{type}}: {{title}}">
+
 <meta property="twitter:description" content="{{excerpt}}">
-{{else}}
-{{#if session}} 
-<meta property="twitter:description" content="{{track}} - {{session}}">
-{{else}}
-<meta property="twitter:description" content="{{track}}">
-{{/if}}
-{{/if}}
 <meta name="twitter:site" content="@FIWARE">
 <meta name="twitter:creator" content="@FIWARE">
-<meta name="twitter:image" content="https://fiware.org{{socialImage}}">
+<meta name="twitter:image" content="{{img}}">
 <meta name="twitter:label1" content="Time to read">
 <meta name="twitter:data1" content="5 minutes">
 
@@ -75,8 +60,7 @@ body {
 </style>
 </head>
 <body>
-	<h1>FIWARE Global Summit: {{title}}</h1>
-	<h2>{{track}} - {{session}}</h2>
+	<h1>FIWARE {{type}}: {{title}}</h1>
    {{{description}}}
 </body>
 </html>
