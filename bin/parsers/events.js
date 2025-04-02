@@ -41,7 +41,7 @@ function getFeaturedEvents(types, categories, events) {
 function getEventsByMonth(events) {
     const eventsByMonth = {};
     events.forEach((event) => {
-        const date = new Date(event.startDate);
+        const date = new Date(event.startTime);
         const yearMonth = date.toISOString().split('T')[0].replaceAll('-', '').substring(0, 6);
 
         if (!eventsByMonth[yearMonth]) {
@@ -205,7 +205,6 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
             events.push(event);
         }
     });
-
     if (events.length === 0) {
         console.error('ERROR: No events uploaded.');
         process.exit(1);
