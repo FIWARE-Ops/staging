@@ -310,7 +310,7 @@ window.eventData = [
         "group": "Conference"
     },
     {
-        "id": "202503-intro-to-fgs25",
+        "id": "202504-intro-to-fgs25",
         "title": "Intro to FGS25",
         "from": "2025-04-01T12:30:00.000Z",
         "to": "2025-04-01T13:30:00.000Z",
