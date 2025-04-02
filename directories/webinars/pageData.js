@@ -54,6 +54,36 @@ var types = [
 
  var modalData = [
     { 
+        name: "Support for the Dataspace Protocol (DSP) in the FIWARE Data Space Connector", 
+        img: "https://www.fiware.org/wp-content/directories/webinars/images/250326-webinar.png",
+        type: "Security", 
+        badge: "<img src='https://www.fiware.org/custom/brand-guide/img/badges/catalogue/04/svg/security.svg'/>",
+        chapter: "context-data", 
+        difficulty: 5,
+        video: "https://www.youtube.com/watch?v&#x3D;agS38yrnjDI",
+        content: "&lt;p&gt;In the world of data spaces, interoperability is key. While FIWARE Data Space Connectors (FDSC) can communicate with each other, other connector implementations also play a role in forming data spaces. To ensure seamless interaction, the Data Spaces Support Center’s Blueprint introduces the  &lt;strong&gt;IDSA Data Space Protocol (DSP).&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Join us for an insightful webinar where we will:  &lt;/p&gt; &lt;ul&gt; &lt;li&gt;Explore how DSP enables interoperability across different connectors.  &lt;/li&gt; &lt;li&gt;Showcase how the FIWARE Data Space Connector supports DSP.  &lt;/li&gt; &lt;li&gt;Walk you through a  &lt;strong&gt;live demo&lt;/strong&gt;  of request and data flows in action.&lt;/li&gt; &lt;/ul&gt;",  
+        domain: "Developers",  
+        technology: "Data Spaces",
+        length: 90,
+        year: 2025,
+        social: "https://www.fiware.org/webinars/support-for-the-dataspace-protocol--dsp--in-the-fiware-data-space-connector.html"
+    },
+    { 
+        name: "Solving the challenges of Distributed Operations within Data Spaces", 
+        img: "https://www.fiware.org/wp-content/directories/webinars/images/250402-webinar.png",
+        type: "Core Context", 
+        badge: "<img src='https://www.fiware.org/custom/brand-guide/img/badges/catalogue/01/svg/core.svg'/>",
+        chapter: "core", 
+        difficulty: 5,
+        video: "https://www.youtube.com/watch?v&#x3D;NqVdEU3HVag",
+        content: "&lt;p&gt;Major updates have been made  to the NGSI-LD specification concentrating on distributed operations, conformance and provenance. Within this  webinar we shall explore the challenges faced within the Data plane regarding heterogeneous distributed environments and explain how new functionality within NGSI-LD context brokers alleviates the issues which arise.&lt;/p&gt; &lt;p&gt;Join this webinar to understand the correct usage of new functions such as:  &lt;/p&gt; &lt;ul&gt; &lt;li&gt;Conformance Indicators &lt;/li&gt; &lt;li&gt;Entity Maps for distributed operations &lt;/li&gt; &lt;li&gt;Transient Entities&lt;/li&gt; &lt;li&gt;Snapshots&lt;/li&gt; &lt;li&gt;Entity Ordering&lt;/li&gt; &lt;/ul&gt;",  
+        domain: "Developers",  
+        technology: "NGSI-LD,Data Spaces",
+        length: 45,
+        year: 2025,
+        social: "https://www.fiware.org/webinars/solving-the-challenges-of-distributed-operations-within-data-spaces.html"
+    },
+    { 
         name: "FIWARE Data Space Technologies - Reference Use Case", 
         img: "https://www.fiware.org/wp-content/directories/webinars/images/dataspaces-series.png",
         type: "Security", 

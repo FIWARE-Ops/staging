@@ -2,6 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 		<url>
+			<loc>https://www.fiware.org/webinars/support-for-the-dataspace-protocol--dsp--in-the-fiware-data-space-connector.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/250326-webinar.png</video:thumbnail_loc>
+				<video:title>Support for the Dataspace Protocol (DSP) in the FIWARE Data Space Connector</video:title>
+				<video:description>In the world of data spaces, interoperability is key.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=agS38yrnjDI</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/webinars/solving-the-challenges-of-distributed-operations-within-data-spaces.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/250402-webinar.png</video:thumbnail_loc>
+				<video:title>Solving the challenges of Distributed Operations within Data Spaces</video:title>
+				<video:description>Major updates have been made  to the NGSI-LD specification concentrating on distributed operations, conformance and provenance.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=NqVdEU3HVag</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/webinars/fiware-data-space-technologies---reference-use-case.html</loc>
 			<video:video>
 				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/dataspaces-series.png</video:thumbnail_loc>
