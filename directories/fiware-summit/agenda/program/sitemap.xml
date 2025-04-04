@@ -25,6 +25,10 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2025/integration-blockchain---fiware-for-dlts-and-trust.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2025/lunch.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -33,11 +37,27 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2025/digital-twins.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/digital-twin-basic-programming-using-ngsi-ld--crud--registrations--subscriptions.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2025/urban-surveillance---smart-policing.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2025/digital-twin-intermediate-programming-using-ngsi-ld--temporal-operations--geofencing.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2025/public-space---venue-security.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/introduction-to-iot-agent-integration.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -46,6 +66,18 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2025/smart-water-management.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/robotics.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/practical-1---ngsi-ld-farm-exercises.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/practical-2---connection-device--displaying-data.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -61,7 +93,11 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/data-spaces-technology.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/business-related.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/concepts-of-basic-security.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -69,7 +105,15 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2025/trust-services-for-data-spaces.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2025/innovation-projects-on-industrial-data-and-robots.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/introduction-to-data-spaces-connector-components.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -81,7 +125,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/digital-twins.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/data-spaces-technology.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -89,19 +133,15 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/robotics.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
 			<loc>https://www.fiware.org/fgs-2025/ai---ml.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/startup-innovative-technology-based-products-pitches.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/closing.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/closing.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/robotics.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 </urlset>
