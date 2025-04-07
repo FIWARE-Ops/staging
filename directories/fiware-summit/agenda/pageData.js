@@ -15,6 +15,7 @@ var summitDates = [
 var sessions = [
         'Connection to IoT',
         'FIWARE Catalog Components',
+        'Machine Learning',
         'NGSI-LD Basics',
         'Security &amp; Distributed Trust',
 ]; 

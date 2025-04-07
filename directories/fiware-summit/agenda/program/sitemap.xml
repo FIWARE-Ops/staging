@@ -25,10 +25,6 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/integration-blockchain---fiware-for-dlts-and-trust.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
 			<loc>https://www.fiware.org/fgs-2025/lunch.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -101,6 +97,10 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2025/how-fiware-ecosystem-boost-mlops-best-practices.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2025/innovation-projects-on-data-sharing-in-cities.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -109,11 +109,19 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2025/integration-of-llms-in-fiware-solutions.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2025/innovation-projects-on-industrial-data-and-robots.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2025/introduction-to-data-spaces-connector-components.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/integration-blockchain---fiware-for-dlts-and-trust.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -142,6 +150,14 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2025/robotics.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/practical-5---talking-with-your-smart-solution.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/practical-6---yamls-in-fiware--yet-another-classical-ml-solution-in-fiware.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 </urlset>
