@@ -49,7 +49,7 @@
             {{else}}
             {{#if (ne start '')}}
             <div class="date-time">
-              <span class="time">{{start}} – {{end}}</span>
+              <span class="time">{{start}} – {{end}}{{#if (eq venueName '')}} {{timeZone}}{{/if}}</span>
             </div>
             {{/if}}
             {{/if}}
