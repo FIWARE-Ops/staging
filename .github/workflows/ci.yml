@@ -16,9 +16,8 @@ jobs:
       continue-on-error: true
       run: |
          $(rm -rf directories) || true
+         $(cp -r ./assets/fiware-summit ./assets/directories/fiware-summit) || true
          $(cp -r ./assets/directories ./directories) || true
-         $(rm -rf fiware-summit) || true
-         $(cp -r ./assets/fiware-summit ./fiware-summit) || true
     - name: copy assets
       uses: appleboy/scp-action@master
       continue-on-error: true
@@ -29,16 +28,6 @@ jobs:
         key: ${{ secrets.SSH_KEY }}
         target: ${{ secrets.SSH_DIR }}
         source: directories/**
-    - name: copy summit assets
-      uses: appleboy/scp-action@master
-      continue-on-error: true
-      with:
-        host: ${{ secrets.HOST }}
-        port: ${{ secrets.PORT }}
-        username: ${{ secrets.USERNAME }}
-        key: ${{ secrets.SSH_KEY }}
-        target: ${{ secrets.SSH_DIR }}
-        source: fiware-summit/**
 
   refresh-page-data:
     name: Refresh Staging Files
