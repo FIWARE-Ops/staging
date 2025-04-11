@@ -6,6 +6,7 @@ function getTrackColor(data) {
             result = 'light-green';
             break;
         case 'Hotel':
+        case 'Restaurant':
             result = 'light-blue';
             break;
         case 'Venue':
