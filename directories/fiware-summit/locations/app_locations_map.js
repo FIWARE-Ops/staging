@@ -36,6 +36,7 @@ let popups = null;
 const icons = {
    venue: "./icons/venue.svg",
    hotel:  "./icons/hotel.svg",
+   restaurant:  "./icons/restaurant.svg",
    attraction:  "./icons/poi.svg",
    airport:  "./icons/airport.svg",
    trainStation:  "./icons/train.svg",
