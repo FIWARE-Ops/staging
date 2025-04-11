@@ -10,6 +10,7 @@ function addSource(name, source) {
 const isVenue = ["==", ["get", "type"], "Venue"];
 const isPOI = ["==", ["get", "type"], "Attraction"];
 const isHotel = ["==", ["get", "type"], "Hotel"];
+const isRestaurant = ["==", ["get", "type"], "Restaurant"];
 const isAirport = ["==", ["get", "type"], "Airport"];
 const isTrainStation = ["==", ["get", "type"], "Train Station"];
 
@@ -23,7 +24,7 @@ function addLayer(source) {
   type: "symbol",
   source,
   layout: {
-    "icon-image": ["case", isVenue, 'venue', isPOI, 'attraction',  isHotel, 'hotel', isAirport, 'airport', 'trainStation'],
+    "icon-image": ["case", isVenue, 'venue', isPOI, 'attraction',  isHotel, 'hotel',  isHotel, 'restaurant', isAirport, 'airport', 'trainStation'],
     "icon-size": ["case", isVenue, 0.3, 0.15],
     "icon-overlap": "always"
   },
