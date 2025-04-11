@@ -14,7 +14,7 @@ const IMAGE_SIZE = { height: 201, width: 360 };
 const FLAG_SIZE = { height: 120, width: 120 };
 const FLAGS_DIR = 'directories/people/images/flag';
 const DEFAULT_IMAGE = 'image-placeholder-16x9.png';
-const ASSETS_DIR = 'fiware-summit/rabat-2025/assets/images';
+const ASSETS_DIR = 'htdocs/fiware-summit/rabat-2025/assets/images';
 
 
 // https://www.fiware.org/style/imgs/placeholder/image-placeholder-16x9.png
