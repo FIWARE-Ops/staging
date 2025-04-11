@@ -15,10 +15,10 @@ jobs:
     - name: Check assets
       continue-on-error: true
       run: |
-         rm -rf directories | true
-         cp -r ./assets/directories ./directories | true
-         rm -rf fiware-summit | true
-         cp -r ./assets/fiware-summit ./fiware-summit | true
+         $(rm -rf directories) || true
+         $(cp -r ./assets/directories ./directories) || true
+         $(rm -rf fiware-summit) || true
+         $(cp -r ./assets/fiware-summit ./fiware-summit) || true
     - name: copy assets
       uses: appleboy/scp-action@master
       continue-on-error: true
