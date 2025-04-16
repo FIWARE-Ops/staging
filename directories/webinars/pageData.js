@@ -59,7 +59,7 @@ var types = [
         type: "Processing", 
         badge: "<img src='https://www.fiware.org/custom/brand-guide/img/badges/catalogue/03/svg/processing-analysis.svg'/>",
         chapter: "context-processing", 
-        difficulty: 3,
+        difficulty: 4,
         video: "https://www.youtube.com/watch?v&#x3D;RkXpStyEtfs",
         content: "&lt;p&gt;Unlock the potential of your &lt;strong&gt;FIWARE Smart App&lt;/strong&gt; by harnessing the power of &lt;strong&gt;natural language&lt;/strong&gt;. In this webinar, discover how the rise of &lt;strong&gt;large language models (LLMs)&lt;/strong&gt; can transform the way you query &lt;strong&gt;context data&lt;/strong&gt;, making interactions more &lt;strong&gt;intuitive and dynamic&lt;/strong&gt;. Learn a strategy to seamlessly integrate LLM-driven capabilities into your existing FIWARE deployment, opening the door to &lt;strong&gt;agentic interaction&lt;/strong&gt; over your &lt;strong&gt;contextual data&lt;/strong&gt;, and unlock new opportunities for smarter, &lt;strong&gt;context-aware applications&lt;/strong&gt;.&lt;/p&gt;",  
         domain: "Developers",  
