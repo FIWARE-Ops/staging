@@ -1975,6 +1975,23 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Federal University of Rio Grande do Norte",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/ufrn.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/ufrn.png' loading='lazy'/></picture></div></div>",
+					"<div class='org-name'>Federal University of Rio Grande do Norte</div>",
+					"<div class='membership-type'>Associate</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.ufrn.br/en' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-35.20358,-5.83788]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
 				"name": "Gate Institute",
 				"html": [
 					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/gate-institute.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/gate-institute.png' loading='lazy'/></picture></div></div>",
