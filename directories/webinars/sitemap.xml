@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 		<url>
+			<loc>https://www.fiware.org/webinars/letting-your-chatbot-have-a-friendly-talk-with-the-context-broker.html</loc>
+			<video:video>
+				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/250416-webinar.png</video:thumbnail_loc>
+				<video:title>Letting Your Chatbot Have a Friendly Talk With the Context Broker</video:title>
+				<video:description>Unlock the potential of your FIWARE Smart App by harnessing the power of natural language.</video:description>
+				<video:player_loc>https://www.youtube.com/watch?v=RkXpStyEtfs</video:player_loc>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:live>no</video:live>
+			</video:video>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/webinars/support-for-the-dataspace-protocol--dsp--in-the-fiware-data-space-connector.html</loc>
 			<video:video>
 				<video:thumbnail_loc>https://www.fiware.org/wp-content/directories/webinars/images/250326-webinar.png</video:thumbnail_loc>
