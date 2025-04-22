@@ -50,8 +50,8 @@ function extractJobs(input) {
     });
 
     if (jobs.length === 0) {
-        console.error('ERROR: No jobs uploaded.');
-        process.exit(1);
+        console.error('WARNING: No jobs uploaded.');
+        //process.exit(1);
     }
     console.log(jobs.length, ' jobs generated.');
 
