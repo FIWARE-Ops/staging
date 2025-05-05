@@ -372,11 +372,20 @@ window.eventData = [
     {
         "id": "202506-cities-climate-action-summit-2025",
         "title": "Cities Climate Action Summit 2025",
-        "from": "2025-06-23T22:00:00.000Z",
-        "to": "2025-06-24T22:00:00.000Z",
-        "description": "The Cities Climate Action Summit brings cities together to inspire climate action.",
+        "from": "2025-06-24T07:00:00.000Z",
+        "to": "2025-06-25T15:30:00.000Z",
+        "description": "Cities Climate Action Summit (CCAS25) is the must-attend event dedicated to driving action into solving urban climate challenges. FIWARE is proud to partner with SmartCitiesWorld at the Summit (24-25 June), leading the way in smart and sustainable city development.
+FIWARE and its community knows that the changing climate is impacting everybody – from individuals, to global society, with potentially significant impacts for the world’s economy. With concrete applications and solutions based on Open Source and Open Standards, the FIWARE Community is driving a direct positive impact on climate change and urban sustainability.
+
+Keeping the Summit at the forefront of urban climate action are the core themes at the heart of the event, allowing for essential, relevant conversations to take place and aid in solving urban challenges. This year’s core themes are policy development, climate finance, technology deployment, sustainable mobility, built environment and energy transition. 
+
+As the flagship city-focused event during London Climate Action Week, CCAS25 will be driving change for towns and cities by sharing knowledge, inspiration, experience and strategies through a line-up of 60+ senior speakers and influencers from across the globe. Hear from Mayors, CROs, CTOs and industry experts as they share crucial, first-hand insights.
+
+At the Summit, attendees will be able to engage in dynamic discussions through exclusive roundtables, acquire valuable perspectives from thought-provoking panel debates, and enjoy intimate fireside chats with industry pioneers.
+Attendees will gain insights to develop strategies to building a smart, resilient city that addresses climate change, while considering liveability, equity, and long-term sustainability.
+Join SmartCitiesWorld event CCAS25 on 24 (virtual) and 25 June (County Hall, London) – because together, we can drive transformative change for our cities and the planet.",
         "location": "County Hall Belvedere Rd, SE1 7GP ",
-        "isAllDay": true,
+        "isAllDay": false,
         "group": "Summit"
     },
     {
