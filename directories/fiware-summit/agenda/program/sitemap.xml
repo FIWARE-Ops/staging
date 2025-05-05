@@ -141,14 +141,6 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/sdg-driven-solutions-for-a-sustainable-world-cup-legacy.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
-			<loc>https://www.fiware.org/fgs-2025/digital-product-passports-for-a-more-circular--transparent-and-traceable-manufacturing---international-trade.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
 			<loc>https://www.fiware.org/fgs-2025/from-silos-to-synergy--building-smart-governance-with-interoperability.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -165,7 +157,15 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/practical-1---ngsi-ld-farm-exercises.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/sdg-driven-solutions-for-a-sustainable-world-cup-legacy.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/digital-product-passports-for-a-more-circular--transparent-and-traceable-manufacturing---international-trade.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/ngsi-ld-farm-exercises.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -181,7 +181,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/practical-2---connection-device--displaying-data.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/connection-device--displaying-data.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -217,7 +217,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/practical-4----deploying-a-data-space-connector.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/deploying-a-data-space-connector.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
