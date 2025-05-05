@@ -370,6 +370,16 @@ window.eventData = [
         "group": "Summit"
     },
     {
+        "id": "202506-cities-climate-action-summit-2025",
+        "title": "Cities Climate Action Summit 2025",
+        "from": "2025-06-23T22:00:00.000Z",
+        "to": "2025-06-24T22:00:00.000Z",
+        "description": "The Cities Climate Action Summit brings cities together to inspire climate action.",
+        "location": "County Hall Belvedere Rd, SE1 7GP ",
+        "isAllDay": true,
+        "group": "Summit"
+    },
+    {
         "id": "202509-smart-country-convention",
         "title": "Smart Country Convention",
         "from": "2025-09-29T22:00:00.000Z",
