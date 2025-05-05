@@ -13,7 +13,6 @@ var summitDates = [
         '23-may',
 ];
 var sessions = [
-        'AI and Natural Language for Smart Cities',
         'AI and Natural Language for Smart Cities: Turning Data into Action',
         'Digital Product Passports &amp; Data Sovereignty in Climate-Resilient Cities',
         'Digital Twins for Real-Time Optimization of Sporting Mega-Events',
@@ -25,10 +24,6 @@ var sessions = [
         'SDG-Driven Solutions for a Sustainable World Cup Legacy',
         'Secure Smart City',
         'When Intelligence Meets Endurance: AI &amp; Data-Driven Cities for the FIFA World Cup 2030',
-        'When Intelligence Meets Endurance: AI &amp; Data-Driven Cities for the FIFA World Cup 2031',
-        'When Intelligence Meets Endurance: AI &amp; Data-Driven Cities for the FIFA World Cup 2032',
-        'When Intelligence Meets Endurance: AI &amp; Data-Driven Cities for the FIFA World Cup 2033',
-        'When Intelligence Meets Endurance: AI &amp; Data-Driven Cities for the FIFA World Cup 2035',
 ]; 
 var speakers = [
         'Alberto Abella',
