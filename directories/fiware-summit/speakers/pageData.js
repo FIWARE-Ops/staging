@@ -4,9 +4,11 @@ var companies = [
         'Artech International BVBA',
         'Associação Porto Digital',
         'CNR / IMATI',
+        'Digital Development Agency (ADD)',
         'Engineering',
         'Ficodes',
         'FIWARE Foundation',
+        'Government of Morocco',
         'GrupoTX',
         'iSHARE Foundation',
         'Latitudo 40',
@@ -39,6 +41,7 @@ var companies = [
         'Head of Unit',
         'Lead',
         'Manager',
+        'Minister Delegate',
         'Owner',
         'Professor',
         'Researcher',
@@ -84,6 +87,9 @@ var companies = [
     { name: "Gert De Tant", img: "https://www.fiware.org/wp-content/directories/people/images/200px/gert-de-tant.jpg", position: "Chief Executive Officer", company: "Sirus", "company-link": "https://sirus.be/",
     content: "Gert is the CEO of Sirus. His focus is on the architecture and implementation of data driven platforms for cities, that enable cities to innovate and provide better and more advanced services to their clients being citizens, visitors and companies. He has worked for a number of cities in Europe like Antwerp, Helsinki, Copenhagen, Ghent, Luxembourg and Paderborn and was part of several European projects like ODALA, Drural, Aurural, Duet, JRC Elise, Synchronicity and Select 4 Cities. Next to that he is part of the TTF of ETSI to help to make the NGSI-LD standard testable. He was also part of the team that helped to bring the Fiware Smart Data Models to DTDL, The open source digital twin language that is used amongst others for the Microsoft Digital twin.", linkedin: "https://www.linkedin.com/in/gdetant/", twitter: "", domain: "", location: ""
     },
+    { name: "Amal El Fellah Seghrouchni", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Minister Delegate for Digital Transition and Administrative Reform", company: "Government of Morocco", "company-link": "",
+    content: "Experienced Full Professor with a demonstrated history of working in the research industry. Skilled in Mathematical Modeling, Computer Science, Articial Intelligence, Autonomous agents and Software Design. Strong education professional with Ph.D in Computer Science from the University Pierre et Marie Curie and a Habilitation à Diriger les Recherches (HDR) focused in Computer Science - Artificial Intelligence from University Sorbonne Paris Nord. Involved in various international committees for A.I. and Autonomous Agents as co-General Chair of AAMAS 2021 (the Premiere conference on Autonomous Agents and Multi-Agent Systems).", linkedin: "https://www.linkedin.com/in/amal-el-fallah-seghrouchni-7459363/", twitter: "", domain: "", location: ""
+    },
     { name: "Jason Fox", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jason-fox.jpg", position: "Senior Technical Expert &amp; Evangelist", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
     content: "Jason Fox (m) has been working for FIWARE Foundation for the last six years in the role of technical evangelist, educating and diseminating information about NGSI interfaces, JSON-LD, Linked Data, the components within the FIWARE Catalogue and Securing FIWARE architectures. Before joining FIWARE, he worked as a software engineer for over 20 years in various roles both in Germany and the United Kingdom using a wide variety of programming languages ranging from C++ to Java to Node.js. This has included coding the software behind selling lottery tickets online for the British National Lottery, and and developing and maintaining technical documentation applications for Nokia.", linkedin: "https://www.linkedin.com/in/jason-fox-8a79563/", twitter: "", domain: "", location: ""
     },
@@ -113,6 +119,9 @@ var companies = [
     },
     { name: "Yasunori Mochizuki", img: "https://www.fiware.org/wp-content/directories/people/images/200px/yasunori-mochizuki.jpg", position: "NEC Fellow", company: "NEC Corporation", "company-link": "https://www.nec.com/",
     content: "Yasunori Mochizuki is NEC Fellow and is focused on digital transformation and ecosystem strategy for Smart Cities and is active in policy recommendation and multi-stakeholder collaboration initiatives for technology innovation as well as technology governance, leveraging his global smart city networks. Previously, he was Senior Vice President responsible for NEC’s corporate technology strategy including R&amp;D roadmap and open innovations. He is currently the chairman of the BoD of FIWARE Foundation, In addition he was member of the BoD since 2017 when NEC joined the Foundation as a Platinum Member. Yasunori has 30+ years of career as a research scientist and then as head of multiple research departments in NEC and his technical expertise covers a broad area including AI-oriented computer science, ICT systems, integrated devices and solid-state physics. He received his PhD in Electronics Engineering from the University of Tokyo.", linkedin: "https://www.linkedin.com/in/yasunori-mochizuki-93bab674/", twitter: "https://twitter.com/yasunorimochiz", domain: "", location: ""
+    },
+    { name: "Khalid Ouakka", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Director of E-Government", company: "Digital Development Agency (ADD)", "company-link": "",
+    content: "", linkedin: "https://www.linkedin.com/in/khalid-ouakka-b722ab5/", twitter: "", domain: "", location: ""
     },
     { name: "Manfredi Pistone", img: "https://www.fiware.org/wp-content/directories/people/images/200px/manfredi-pistone.jpg", position: "Researcher", company: "Engineering", "company-link": "https://www.eng.it/en/",
     content: "Researcher, member of “Digital Industry and Agrifood” Unit within the Industry and Security Technologies, Research and Innovation (IS3) Lab at Engineering Ingegneria Informatica. He graduated in 2018 in Computer Engineering at the University of Palermo (Italy). Since 2018 he has been involved in EU and Italian research projects as solution designer and developer, and technical leader of many activities, fostering the adoption of Open Source technologies in the manufacturing domain.", linkedin: "https://www.linkedin.com/in/manfredi-pistone-224878119/", twitter: "", domain: "", location: ""
