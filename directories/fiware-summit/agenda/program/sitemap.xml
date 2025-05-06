@@ -69,7 +69,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/digital-twin-basic-programming-using-ngsi-ld--crud--registrations--subscriptions.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/digital-twin-programming-using-ngsi-ld--crud--registrations--subscriptions.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -97,7 +97,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/digital-twin-intermediate-programming-using-ngsi-ld--temporal-operations--geofencing.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/mlops---fiware.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -197,7 +197,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/basic-identity-and-access-management-principles-in-systems-powered-by-fiware--oauth2--pep--pdp---pap--jwt.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/identity-and-access-control-in-fiware-systems.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
