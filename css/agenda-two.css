@@ -70,6 +70,11 @@ body {
     background-color: #d0ede4;
     color: #108763;
   }
+
+  .track.light-purple {
+    background-color: #f5eaef;
+    color: #9e3162;
+  }
   
   .topic-icon {
     width: 140px;
@@ -92,6 +97,10 @@ body {
   
   .topic-icon.light-green {
     background-color: #d0ede4;
+  }
+
+  .topic-icon.light-purple {
+    background-color: #f5eaef;
   }
 
   .panel-moderated-by {

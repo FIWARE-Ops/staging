@@ -9,14 +9,18 @@ function getTrackColor(data) {
         //    result = 'cyan';
         //    break;
         case 'Secure Smart City':
+        case 'Smart Governance':
         case 'Sustainable Smart City':
             result = 'light-blue';
             break;
         case 'Grand Opening':
             result = 'light-orange';
             break;
-        case 'AI & Data-Driven Urban Mngmt':
-        case 'Smart Governance & Digital PA':
+        case 'AI & IoT':
+        case 'Circular Economy & Urban Development':
+        case 'Digital Twins & Data Harmonization':
+        case 'Research & Development':
+        case 'Data Spaces & Interoperability':
             result = 'light-purple';
             break;
         case 'Organization':
