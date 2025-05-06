@@ -17,15 +17,19 @@ var summitDates = [
 var sessions = [
         'AI &amp; Data-Driven Cities for the FIFA World Cup 2030',
         'AI &amp; IoT for Smart Water and Resilient Cities',
+        'AI &amp; Machine Learning',
         'AI and Natural Language for Smart Cities',
         'Building Smart Governance with Interoperability',
+        'Core Concepts',
+        'Data Spaces &amp; Security',
         'Digital Product Passports &amp; Data Sovereignty in Climate-Resilient Cities',
         'Digital Twins for Real-Time Optimization of Sporting Mega-Events',
-        'FIWARE Training',
+        'FIWARE Catalog',
         'Global FIWARE Use Cases Shaping Smart Cities for 2030',
         'Legal and Data Space Frameworks for Secure Cities and Resilient Event Management',
         'Next-Generation Governance',
         'Official Speeches',
+        'Robotics &amp; IoT Agents',
         'SDG-Driven Solutions for a Sustainable World Cup Legacy',
         'Secure Smart City',
         'Session for Academic Partnerships',
@@ -34,35 +38,39 @@ var sessions = [
 var speakers = [
         'Alberto Abella',
         'Suna Akbayir',
-        'Joäo Bastos',
-        'Jose Benitez',
+        'João Bastos',
+        'Jose Benítez',
         'Massimo Bertoncini',
         'Vinith Bhandari',
         'David Campo',
         'Chandra Challagonda',
-        'Javier Conde',
+        'Javier Conde Díaz',
         'Luigi Coppolino',
         'Andrea Cruciani',
+        'Mohamed Dafir',
         'Gert De Tant',
         'Amal El Fellah Seghrouchni',
         'Jason Fox',
         'Javier Galvez Campanelli',
-        'Gerardo Guarino',
+        'Gerardo Guarino F.',
         'Aawatif Hayar',
         'Antonio Jara',
         'Jure Lampe',
         'Frederico Lopes',
         'Francisco Meléndez',
         'Yasunori Mochizuki',
-        'Prof. Mohamed Dafir',
         'Sashiko Muto',
         'Khalid Ouakka',
         'Manfredi Pistone',
         'Matteo Repetto',
         'Alessandro Rossi',
         'Björn Schwarze',
+<<<<<<< HEAD
+        'Brecht van de Vyvere',
+=======
         'Thimo Thoeye',
         'Brecht Van de Vyvere',
+>>>>>>> 11977edf907748cc6843ca91f475deb036118dff
         'Stefan Wiedemann',
         'Ken Zangelin',
 ]; 
@@ -91,6 +99,10 @@ var modalData = {
         { name: "Alberto Abella", img: "https://www.fiware.org/wp-content/directories/people/images/200px/alberto-abella.jpg", position: "Chief Operations Officer", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
         content: "Alberto Abella (m) is PhD in Business (Open data) and Telecommunications Engineer and Master in Total Quality Management, Business Administration and Business Organization. He works as a Data Modelling Expert and Technical Evangelist at FIWARE and currently is the responsible person for the smart data models initiative.", linkedin: "https://www.linkedin.com/in/albertoabella/", twitter: "https://twitter.com/aabella", domain: "", location: "",
         flag: "", },
+    "jose-benítez":
+        { name: "Jose Benítez", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jose-benitez.jpg", position: "Chief Executive Officer", company: "Secmotic", "company-link": "https://secmotic.com/",
+        content: "Since its establishment in 2015, Jose has been at the helm of Secmotic as CEO. His involvement on the Board of Directors of FIWARE since 2017 has contributed to shaping the future of the organization. In 2021, he embarked on a new venture, founding FIWOO Smart Solutions, a company dedicated to delivering FIWARE-based Smart City platform solutions tailored to the needs of the Spanish public sector.", linkedin: "https://www.linkedin.com/in/jose-benitez-secmotic/", twitter: "", domain: "", location: "",
+        flag: "", },
     "andrea-cruciani":
         { name: "Andrea Cruciani", img: "https://www.fiware.org/wp-content/directories/people/images/200px/andrea-cruciani.jpg", position: "Chief Executive Officer", company: "Agricolus", "company-link": "https://www.agricolus.com/",
         content: "Andrea is the Agricolus co-founder and CEO, member of FIWARE Foundation BoD, Chairman of the FIWARE Smart AgriFood MSC. He runs the international business area and the financial aspects of the company and he has a technical background and experience in applications Development, Enterprise Architectures, Cloud Computing, and GIS. Andrea is involved in Innovative Startup Evolution and scaleup, during the years he worked with Public Administration, multinational companies, NGOs, and SMEs. He is a speaker for several universities and public events where he is invited to discuss entrepreneurship and digital transformation, and he is a contributor in several technical articles and publications about agritech.", linkedin: "https://www.linkedin.com/in/andreacruciani/", twitter: "https://twitter.com/kokkete", domain: "", location: "",
@@ -99,13 +111,13 @@ var modalData = {
         { name: "Frederico Lopes", img: "https://www.fiware.org/wp-content/directories/people/images/200px/frederico-lopes.jpg", position: "Professor &amp; Institute Director", company: "UFRN", "company-link": "https://www.ufrn.br/",
         content: "Associate Professor at UFRN (Brazil), he holds a bachelor&#x27;s degree (2005) and a Ph.D. (2011) in Computer Science from UFRN and a master&#x27;s degree in Systems and Computing also from UFRN. Postdoctoral fellowship (2016) at the University of British Columbia, Vancouver/Canada. During the year 2010, he was a Ph.D. intern (sandwich doctorate) at IST/UTL, Lisbon/Portugal (2010). He has experience in the field of Computer Science, with an emphasis on Distributed Systems and Software Engineering, mainly working on the following topics: geographic information systems, middleware, ubiquitous computing, pervasive computing, smart cities, computational platforms, cloud computing, the internet of things. Member of the Fiware Foundation since 2017, he is Fiware evangelist and the director of Smart Metropolis Fiware iHub, in Natal / Brazil. Coordinator of the Smart Metropolis Laboratory, with more than a dozen software registrations for real smart city systems in partnership with: Federal Highway Police, RN Public Security Department, Ministry of Regional Development, RN Public Ministry, Natal City Hall, among other public agencies. Coordinator of the Postgraduate Program in Information Technology (PPgTI) at UFRN from 2013 to 2015 and currently since 2023.", linkedin: "https://www.linkedin.com/in/frederico-lopes-342a697/", twitter: "", domain: "", location: "",
         flag: "", },
-    "thimo-thoeye":
-        { name: "Thimo Thoeye", img: "https://www.fiware.org/wp-content/directories/people/images/200px/thimo-thoeye.jpg", position: "Innovation Manager", company: "OASC", "company-link": "oascities.org",
-        content: "Thimo Thoeye is a technology advisor for OASC in various projects. He brings in years of experience in interoperability and linked data. Thimo is a driving force behind Open Knowledge Belgium and works for the Information and communication technology agency of the city of Ghent in Belgium.", linkedin: "https://www.linkedin.com/in/thimothoeye/", twitter: "", domain: "", location: "",
-        flag: "", },
     "jure-lampe":
         { name: "Jure Lampe", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jure-lampe.png", position: "Chief Executive Officer", company: "SenLab d.o.o.", "company-link": "https://senlab.io/en/about-us",
         content: "SenLab is an IoT consulting company that I founded and lead as the CEO and owner since 2014. My mission is to deliver knowledge, answers, and solutions for IoT projects in various domains, such as Industry 4.0, logistics, smart cities, home automation, healthcare, research and education. With over 20 years of experience in this field, I have developed core competencies in IoT concept design, prototyping, testing, and deployment, as well as new business development, consulting, and team leadership. I hold a BS in Computer and Information Science and I am pursuing a PhD in Business and Management, which enable me to combine technical expertise with business acumen and creativity. I am passionate about solving complex problems with simple, innovative, and user-friendly IoT solutions that have a positive impact on society and the environment. I have led and participated in multiple award-winning IoT projects, such as IoTool, IoChat, and RelaxedCare, that demonstrate the potential and value of IoT in various settings and scenarios.", linkedin: "https://www.linkedin.com/in/jurelampe/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "javier-conde-díaz":
+        { name: "Javier Conde Díaz", img: "https://www.fiware.org/wp-content/directories/people/images/200px/javier-conde.jpg", position: "Assistant Professor", company: "UPM", "company-link": "https://www.upm.es/internacional",
+        content: "Assistant Professor with the UPM. I teach Big Data, Databases, Telecommunication Networks, and Web Engineering subjects. My research interests lie in the fields of Open Linked Data, Digital Twins, Big Data and Machine Learning. In the FIWARE ecosystem I contribute to the Draco GE and study architectures based on FIWARE GEs and FIWARE Smart Data Models.", linkedin: "https://es.linkedin.com/in/javier-conde-diaz", twitter: "https://twitter.com/JaviConD3", domain: "", location: "",
         flag: "", },
     "vinith-bhandari":
         { name: "Vinith Bhandari", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Head of Ecosystem Building", company: "iSHARE Foundation", "company-link": "https://ishare.eu/",
@@ -115,9 +127,21 @@ var modalData = {
         { name: "Javier Galvez Campanelli", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Smart Cities Solutions Coordinator", company: "GrupoTX", "company-link": "https://www.grupotx.com/",
         content: "", linkedin: "https://www.linkedin.com/in/javiergalvez/", twitter: "", domain: "", location: "",
         flag: "", },
+    "joão-bastos":
+        { name: "João Bastos", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Head of Systems Architecture and Data Analytics", company: "Associação Porto Digital", "company-link": "https://www.portodigital.pt/en/homepage/",
+        content: "", linkedin: "https://www.linkedin.com/in/jo%C3%A3o-bastos-71458428/", twitter: "", domain: "", location: "",
+        flag: "", },
     "suna-akbayir":
         { name: "Suna Akbayir", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Chief Executive Officer", company: "Artech International BVBA", "company-link": "https://artechconsulting.net/",
         content: "Suna Akbayir is a Turkish entrepreneur with an extensive international business presence, well-recognized in Europe’s R&amp;D and innovation ecosystem. She is the Founder &amp; CEO of Artech International BVBA, a Brussels- headquartered in Brussels consulting and technology firm with an R&amp;D office in Leuven specializing in AI-driven solutions, Digital Product Passports (DPPs), and regulatory technology (RegTech) for industries such as automotive, electronics, and healthcare. With deep expertise in R&amp;D funding, technology transfer, and business development, she has led and contributed to multi-million-euro EU-funded projects, working closely with global industry leaders, SMEs, and policymakers. Through Artech, she has been at the forefront of innovation commercialization and market expansion, positioning the company as a key partner in Horizon Europe, Eureka, ITEA, and Celtic+ initiatives. Her expertise spans advisory roles, project evaluations, and mentoring for startups, SMEs, and research institutions, with a focus on bridging technology, business, and policy to drive real-world impact. She is known for her pragmatic approach and strategic foresight, actively shaping Europe’s innovation landscape. She has also been acting as the principal R&amp;D consultant for International Programs for Vestel Electronics, Vestel Home Appliances, Koç Sistem, Koç Digital, and Sestek; University of Maastrciht, RWTH Aachen etc.  She holds an MBA and a bachelor’s degree in Political Science and International Relations and speaks English, French, and Turkish.", linkedin: "https://www.linkedin.com/in/sunaakbayir/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "brecht-van-de-vyvere":
+        { name: "Brecht van de Vyvere", img: "https://www.fiware.org/wp-content/directories/people/images/200px/brecht-van-de-vyvere.jpg", position: "Linked Data Architect", company: "Sirus", "company-link": "https://sirus.be/",
+        content: "Brecht Van de Vyvere is a driven and pragmatic person with a passion for exchanging linked data. He finished his PhD in 2023 at Ghent University where he learned to work with domain experts to describe their datasets machine-readable in line with standards. Today, he is working at the company Sirus as a Linked Data architect where he enjoys working out architectures to automate the adoption of these datasets within applications. He has built up this experience mainly within the context of (local) governments and cultural organisations.", linkedin: "https://www.linkedin.com/in/brecht-van-de-vyvere-b9232b9b/", twitter: "https://twitter.com/brechtvdv", domain: "", location: "",
+        flag: "", },
+    "gerardo-guarino-f-":
+        { name: "Gerardo Guarino F.", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Managing Partner", company: "Urban Service Provider", "company-link": "https://urbansp.city",
+        content: "", linkedin: "https://www.linkedin.com/in/gerardo-guarino-f-867287/", twitter: "", domain: "", location: "",
         flag: "", },
     "gert-de-tant":
         { name: "Gert De Tant", img: "https://www.fiware.org/wp-content/directories/people/images/200px/gert-de-tant.jpg", position: "Chief Executive Officer", company: "Sirus", "company-link": "https://sirus.be/",
@@ -162,5 +186,9 @@ var modalData = {
     "manfredi-pistone":
         { name: "Manfredi Pistone", img: "https://www.fiware.org/wp-content/directories/people/images/200px/manfredi-pistone.jpg", position: "Researcher", company: "Engineering", "company-link": "https://www.eng.it/en/",
         content: "Researcher, member of “Digital Industry and Agrifood” Unit within the Industry and Security Technologies, Research and Innovation (IS3) Lab at Engineering Ingegneria Informatica. He graduated in 2018 in Computer Engineering at the University of Palermo (Italy). Since 2018 he has been involved in EU and Italian research projects as solution designer and developer, and technical leader of many activities, fostering the adoption of Open Source technologies in the manufacturing domain.", linkedin: "https://www.linkedin.com/in/manfredi-pistone-224878119/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "mohamed-dafir":
+        { name: "Mohamed Dafir", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Vice-President and CISO", company: "Université Mohammed V de Rabat", "company-link": "https://www.um5.ac.ma",
+        content: "", linkedin: "https://www.linkedin.com/in/dafir-elkettani/?locale&#x3D;en_US", twitter: "", domain: "", location: "",
         flag: "", },
 };
