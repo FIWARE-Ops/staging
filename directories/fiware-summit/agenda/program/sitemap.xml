@@ -29,10 +29,6 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/signing-ceremony.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
 			<loc>https://www.fiware.org/fgs-2025/coffee-break.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -57,7 +53,11 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/smart-data-models-.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/smart-data-models.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/success-story-in-the-tenerife-island--aligning-with-environmental-sustainability.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -97,11 +97,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/ai-and-natural-language-for-smart-cities--turning-data-into-action.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
-			<loc>https://www.fiware.org/fgs-2025/earthdatainsight--turning-satellite-data-into-smart-decisions-for-climate-resilient-cities.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/smart-data-spaces-for-high-profile-events--enabling-interoperability--trust--and-real-time-insight.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -109,11 +105,11 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/from-smart-meters-to-digital-twins--how-fiwarebox-simplifies-and-accelerates-fiware-based-smart-city-data-integration-and-visualization-on-a-budget.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/enabling-interoperable-data-exchange-between-systems.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/improving-urban-management-through-generative-ai-and-fiware.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/from-smart-meters-to-digital-twins--how-fiwarebox-simplifies-and-accelerates-fiware-based-smart-city-data-integration-and-visualization-on-a-budget.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -125,7 +121,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/deploying-real-time-air-monitoring-for-emissions-accountability-and-climate-resilience.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/asteriot--a-scalable-fiware-based-platform-for-smart-water-management-and-early-warning-systems.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -141,11 +137,23 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/from-silos-to-synergy--building-smart-governance-with-interoperability.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/sdg-driven-solutions-for-a-sustainable-world-cup-legacy.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/smart-data-spaces-for-high-profile-events--enabling-interoperability--trust--and-real-time-insight.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/digital-product-passports-for-a-more-circular--transparent-and-traceable-manufacturing---international-trade.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/ai-and-natural-language-for-smart-cities--turning-data-into-action.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/earthdatainsight--turning-satellite-data-into-smart-decisions-for-climate-resilient-cities.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/from-silos-to-synergy--building-smart-governance-with-interoperability.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -157,14 +165,6 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/sdg-driven-solutions-for-a-sustainable-world-cup-legacy.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
-			<loc>https://www.fiware.org/fgs-2025/digital-product-passports-for-a-more-circular--transparent-and-traceable-manufacturing---international-trade.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
 			<loc>https://www.fiware.org/fgs-2025/ngsi-ld-farm-exercises.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -173,7 +173,15 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/rainbrain-in-belgium-cities.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/improving-urban-management-through-generative-ai-and-fiware.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/rainbrrain-in-belgium-cities.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/from-smart-cities-to-digital-cities.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -257,11 +265,11 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/fiware-scientific-advisory-board---session-for-academic-partnerships.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/options-for-data-persistence.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/options-for-data-persistence.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/university-5-0-dataspace--a-smart-campus-ecosystem-living-lab-for-ai-driven-innovation-in-the-region.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
