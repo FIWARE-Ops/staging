@@ -70,6 +70,10 @@ var speakers = [
         'Ken Zangelin',
 ]; 
 var modalData = {
+    "amal-el-fellah-seghrouchni":
+        { name: "Amal El Fellah Seghrouchni", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Minister Delegate for Digital Transition and Administrative Reform", company: "Government of Morocco", "company-link": "",
+        content: "Experienced Full Professor with a demonstrated history of working in the research industry. Skilled in Mathematical Modeling, Computer Science, Articial Intelligence, Autonomous agents and Software Design. Strong education professional with Ph.D in Computer Science from the University Pierre et Marie Curie and a Habilitation à Diriger les Recherches (HDR) focused in Computer Science - Artificial Intelligence from University Sorbonne Paris Nord. Involved in various international committees for A.I. and Autonomous Agents as co-General Chair of AAMAS 2021 (the Premiere conference on Autonomous Agents and Multi-Agent Systems).", linkedin: "https://www.linkedin.com/in/amal-el-fallah-seghrouchni-7459363/", twitter: "", domain: "", location: "",
+        flag: "", },
     "chandra-challagonda":
         { name: "Chandra Challagonda", img: "https://www.fiware.org/wp-content/directories/people/images/200px/chandra-challagonda.jpg", position: "Chief Executive Officer", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
         content: "Chandra Challagonda has 26 years of experience in the technology industry, focusing on Machine Learning, Artificial Intelligence, and open-source technologies. Recognized as a business transformer, he emphasizes innovation and customer-centric strategies in executive roles such as Co-Founder, Board Member, CEO, and CTO. Over the last year, Chandra was working as a FIWARE community and board member, architect and Vice President, growing its global network and ecosystem and helping to develop sustainable strategies and partnerships in the organisation.", linkedin: "https://linkedin.com/in/challagonda", twitter: "https://twitter.com/challagonda", domain: "", location: "",
@@ -97,6 +101,10 @@ var modalData = {
     "jose-benítez":
         { name: "Jose Benítez", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jose-benitez.jpg", position: "Chief Executive Officer", company: "Secmotic", "company-link": "https://secmotic.com/",
         content: "Since its establishment in 2015, Jose has been at the helm of Secmotic as CEO. His involvement on the Board of Directors of FIWARE since 2017 has contributed to shaping the future of the organization. In 2021, he embarked on a new venture, founding FIWOO Smart Solutions, a company dedicated to delivering FIWARE-based Smart City platform solutions tailored to the needs of the Spanish public sector.", linkedin: "https://www.linkedin.com/in/jose-benitez-secmotic/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "khalid-ouakka":
+        { name: "Khalid Ouakka", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Director of E-Government", company: "Digital Development Agency (ADD)", "company-link": "",
+        content: "", linkedin: "https://www.linkedin.com/in/khalid-ouakka-b722ab5/", twitter: "", domain: "", location: "",
         flag: "", },
     "andrea-cruciani":
         { name: "Andrea Cruciani", img: "https://www.fiware.org/wp-content/directories/people/images/200px/andrea-cruciani.jpg", position: "Chief Executive Officer", company: "Agricolus", "company-link": "https://www.agricolus.com/",
