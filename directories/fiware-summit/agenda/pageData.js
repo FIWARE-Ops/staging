@@ -65,7 +65,6 @@ var speakers = [
         'Megumi Suzuki',
         'Thimo Thoeye',
         'Brecht Van de Vyvere',
-        'Gaetano Volpe',
         'Stefan Wiedemann',
         'Ken Zangelin',
 ]; 
@@ -105,10 +104,6 @@ var modalData = {
     "thimo-thoeye":
         { name: "Thimo Thoeye", img: "https://www.fiware.org/wp-content/directories/people/images/200px/thimo-thoeye.jpg", position: "Innovation Manager", company: "OASC", "company-link": "oascities.org",
         content: "Thimo Thoeye is a technology advisor for OASC in various projects. He brings in years of experience in interoperability and linked data. Thimo is a driving force behind Open Knowledge Belgium and works for the Information and communication technology agency of the city of Ghent in Belgium.", linkedin: "https://www.linkedin.com/in/thimothoeye/", twitter: "", domain: "", location: "",
-        flag: "", },
-    "gaetano-volpe":
-        { name: "Gaetano Volpe", img: "https://www.fiware.org/wp-content/directories/people/images/200px/gaetano-volpe.jpg", position: "Chief Executive Officer", company: "Latitudo 40", "company-link": "https://www.latitudo40.com/",
-        content: "Gaetano is the CEO of Latitudo 40, a startup that uses satellite data to improve life on our planet. After working for over 20 years in space-related companies, launching new products and services based on the integration of IT with space technologies (telecommunications, navigation and remote sensing), he decided to combine his passion for space technologies with the need to improve the environmental impact of our cities. For Gaetano, innovation means finding a new solution to a global market problem.", linkedin: "https://www.linkedin.com/in/gaetanovolpe", twitter: "", domain: "", location: "",
         flag: "", },
     "jure-lampe":
         { name: "Jure Lampe", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jure-lampe.png", position: "Chief Executive Officer", company: "SenLab d.o.o.", "company-link": "https://senlab.io/en/about-us",

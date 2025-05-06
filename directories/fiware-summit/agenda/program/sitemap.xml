@@ -149,10 +149,6 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/earthdatainsight--turning-satellite-data-into-smart-decisions-for-climate-resilient-cities.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
 			<loc>https://www.fiware.org/fgs-2025/from-silos-to-synergy--building-smart-governance-with-interoperability.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -166,10 +162,6 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2025/ngsi-ld-farm-exercises.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
-			<loc>https://www.fiware.org/fgs-2025/building-the-future--sustainable-smart-cities-for-resilient-urban-living.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
