@@ -65,7 +65,12 @@ var speakers = [
         'Matteo Repetto',
         'Alessandro Rossi',
         'Björn Schwarze',
+<<<<<<< HEAD
         'Brecht van de Vyvere',
+=======
+        'Thimo Thoeye',
+        'Brecht Van de Vyvere',
+>>>>>>> 11977edf907748cc6843ca91f475deb036118dff
         'Stefan Wiedemann',
         'Ken Zangelin',
 ]; 
