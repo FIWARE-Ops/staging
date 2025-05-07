@@ -3,6 +3,7 @@ var tracks = [
         'Circular Economy &amp; Urban Development',
         'Data Spaces &amp; Interoperability',
         'Digital Twins &amp; Data Harmonization',
+        'Global FIWARE Use Cases',
         'Grand Opening',
         'Organization',
         'Research &amp; Development',
