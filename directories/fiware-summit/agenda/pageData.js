@@ -47,18 +47,19 @@ var speakers = [
         'Javier Conde Díaz',
         'Luigi Coppolino',
         'Andrea Cruciani',
-        'Mohamed Dafir',
         'Gert De Tant',
         'Amal El Fellah Seghrouchni',
         'Jason Fox',
         'Gerardo Guarino F.',
         'Aawatif Hayar',
+        'Dr. Hicham El Habti',
         'Antonio Jara',
         'Jin Kawasaki',
         'Jure Lampe',
         'Frederico Lopes',
         'Francisco Meléndez',
         'Yasunori Mochizuki',
+        'Prof. Mohamed Dafir',
         'Sashiko Muto',
         'Khalid Ouakka',
         'Manfredi Pistone',
@@ -78,6 +79,10 @@ var modalData = {
     "alberto-abella":
         { name: "Alberto Abella", img: "https://www.fiware.org/wp-content/directories/people/images/200px/alberto-abella.jpg", position: "Chief Operations Officer", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
         content: "Alberto Abella (m) is PhD in Business (Open data) and Telecommunications Engineer and Master in Total Quality Management, Business Administration and Business Organization. He works as a Data Modelling Expert and Technical Evangelist at FIWARE and currently is the responsible person for the smart data models initiative.", linkedin: "https://www.linkedin.com/in/albertoabella/", twitter: "https://twitter.com/aabella", domain: "", location: "",
+        flag: "", },
+    "dr--hicham-el-habti":
+        { name: "Dr. Hicham El Habti", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "President of UM6P", company: "Mohammed VI Polytechnic University", "company-link": "https://um6p.ma/",
+        content: "", linkedin: "", twitter: "", domain: "", location: "",
         flag: "", },
     "amal-el-fellah-seghrouchni":
         { name: "Amal El Fellah Seghrouchni", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Minister Delegate for Digital Transition and Administrative Reform", company: "Government of Morocco", "company-link": "",
@@ -146,10 +151,6 @@ var modalData = {
     "matteo-repetto":
         { name: "Matteo Repetto", img: "https://www.fiware.org/wp-content/directories/people/images/200px/matteo-repetto.png", position: "Senior Researcher", company: "CNR / IMATI", "company-link": "https://www.imati.cnr.it/make_home_page.php?language&#x3D;ENG&amp;view&#x3D;GEN",
         content: "Matteo Repetto, Ph.D., received the Ph.D. degree in Electronics and Computer Science in 2004 from the University of Genoa. From 2004 to 2009 he was a postdoc at University of Genoa. From 2010 to 2019 he was a Research Associate at CNIT. In 2019 he joined the Institute for Applied Mathematics and Information Technologies (IMATI), CNR, where he currently holds a Senior Researcher position. He has been teaching many courses in telecommunication networks and network security. He has been involved in several research national and international projects on quality of service, mobility in data networks, energy efficiency, cloud computing, and network function virtualization. He was the scientific and technical coordinator of the ASTRID and GUARD projects, and he is now the coordinator of the MIRANDA project. He has co-authored over 90 scientific publications in international journals and conference proceedings, and 1 technical report for ITU. His current research interests include security architectures, interfaces to remote security functions, network security, threat hunting, management and security of digital service chains.", linkedin: "https://www.linkedin.com/in/matteo-repetto-1b00134/", twitter: "", domain: "", location: "",
-        flag: "", },
-    "mohamed-dafir":
-        { name: "Mohamed Dafir", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Vice-President and CISO", company: "Université Mohammed V de Rabat", "company-link": "https://www.um5.ac.ma",
-        content: "", linkedin: "https://www.linkedin.com/in/dafir-elkettani/?locale&#x3D;en_US", twitter: "", domain: "", location: "",
         flag: "", },
     "javier-conde-díaz":
         { name: "Javier Conde Díaz", img: "https://www.fiware.org/wp-content/directories/people/images/200px/javier-conde.jpg", position: "Assistant Professor", company: "UPM", "company-link": "https://www.upm.es/internacional",
