@@ -13,6 +13,7 @@ var companies = [
         'Latitudo 40',
         'Libelium',
         'Mitsubishi Electric',
+        'Mohammed VI Polytechnic University',
         'NEC Corporation',
         'OASC',
         'Parthenope University',
@@ -80,7 +81,7 @@ var companies = [
     { name: "Andrea Cruciani", img: "https://www.fiware.org/wp-content/directories/people/images/200px/andrea-cruciani.jpg", position: "Chief Executive Officer", company: "Agricolus", "company-link": "https://www.agricolus.com/",
     content: "Andrea is the Agricolus co-founder and CEO, member of FIWARE Foundation BoD, Chairman of the FIWARE Smart AgriFood MSC. He runs the international business area and the financial aspects of the company and he has a technical background and experience in applications Development, Enterprise Architectures, Cloud Computing, and GIS. Andrea is involved in Innovative Startup Evolution and scaleup, during the years he worked with Public Administration, multinational companies, NGOs, and SMEs. He is a speaker for several universities and public events where he is invited to discuss entrepreneurship and digital transformation, and he is a contributor in several technical articles and publications about agritech.", linkedin: "https://www.linkedin.com/in/andreacruciani/", twitter: "https://twitter.com/kokkete", domain: "", location: ""
     },
-    { name: "Mohamed Dafir", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Vice-President and CISO", company: "Université Mohammed V de Rabat", "company-link": "https://www.um5.ac.ma",
+    { name: "Prof. Mohamed Dafir", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Vice-President and CISO", company: "Université Mohammed V de Rabat", "company-link": "https://www.um5.ac.ma",
     content: "", linkedin: "https://www.linkedin.com/in/dafir-elkettani/?locale&#x3D;en_US", twitter: "", domain: "", location: ""
     },
     { name: "Gert De Tant", img: "https://www.fiware.org/wp-content/directories/people/images/200px/gert-de-tant.jpg", position: "Chief Executive Officer", company: "Sirus", "company-link": "https://sirus.be/",
@@ -88,6 +89,9 @@ var companies = [
     },
     { name: "Amal El Fellah Seghrouchni", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Minister Delegate for Digital Transition and Administrative Reform", company: "Government of Morocco", "company-link": "",
     content: "Experienced Full Professor with a demonstrated history of working in the research industry. Skilled in Mathematical Modeling, Computer Science, Articial Intelligence, Autonomous agents and Software Design. Strong education professional with Ph.D in Computer Science from the University Pierre et Marie Curie and a Habilitation à Diriger les Recherches (HDR) focused in Computer Science - Artificial Intelligence from University Sorbonne Paris Nord. Involved in various international committees for A.I. and Autonomous Agents as co-General Chair of AAMAS 2021 (the Premiere conference on Autonomous Agents and Multi-Agent Systems).", linkedin: "https://www.linkedin.com/in/amal-el-fallah-seghrouchni-7459363/", twitter: "", domain: "", location: ""
+    },
+    { name: "Dr. Hicham El Habti", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "President of UM6P", company: "Mohammed VI Polytechnic University", "company-link": "https://um6p.ma/",
+    content: "", linkedin: "", twitter: "", domain: "", location: ""
     },
     { name: "Jason Fox", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jason-fox.jpg", position: "Senior Technical Expert &amp; Evangelist", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
     content: "Jason Fox (m) has been working for FIWARE Foundation for the last six years in the role of technical evangelist, educating and diseminating information about NGSI interfaces, JSON-LD, Linked Data, the components within the FIWARE Catalogue and Securing FIWARE architectures. Before joining FIWARE, he worked as a software engineer for over 20 years in various roles both in Germany and the United Kingdom using a wide variety of programming languages ranging from C++ to Java to Node.js. This has included coding the software behind selling lottery tickets online for the British National Lottery, and and developing and maintaining technical documentation applications for Nokia.", linkedin: "https://www.linkedin.com/in/jason-fox-8a79563/", twitter: "", domain: "", location: ""
