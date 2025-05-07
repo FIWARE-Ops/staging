@@ -9,7 +9,6 @@ var companies = [
         'Ficodes',
         'FIWARE Foundation',
         'Government of Morocco',
-        'GrupoTX',
         'iSHARE Foundation',
         'Latitudo 40',
         'Libelium',
@@ -92,9 +91,6 @@ var companies = [
     },
     { name: "Jason Fox", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jason-fox.jpg", position: "Senior Technical Expert &amp; Evangelist", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
     content: "Jason Fox (m) has been working for FIWARE Foundation for the last six years in the role of technical evangelist, educating and diseminating information about NGSI interfaces, JSON-LD, Linked Data, the components within the FIWARE Catalogue and Securing FIWARE architectures. Before joining FIWARE, he worked as a software engineer for over 20 years in various roles both in Germany and the United Kingdom using a wide variety of programming languages ranging from C++ to Java to Node.js. This has included coding the software behind selling lottery tickets online for the British National Lottery, and and developing and maintaining technical documentation applications for Nokia.", linkedin: "https://www.linkedin.com/in/jason-fox-8a79563/", twitter: "", domain: "", location: ""
-    },
-    { name: "Javier Galvez Campanelli", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Smart Cities Solutions Coordinator", company: "GrupoTX", "company-link": "https://www.grupotx.com/",
-    content: "", linkedin: "https://www.linkedin.com/in/javiergalvez/", twitter: "", domain: "", location: ""
     },
     { name: "Gerardo Guarino F.", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Managing Partner", company: "Urban Service Provider", "company-link": "https://urbansp.city",
     content: "", linkedin: "https://www.linkedin.com/in/gerardo-guarino-f-867287/", twitter: "", domain: "", location: ""

@@ -146,10 +146,6 @@ var modalData = {
         { name: "Mohamed Dafir", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Vice-President and CISO", company: "Université Mohammed V de Rabat", "company-link": "https://www.um5.ac.ma",
         content: "", linkedin: "https://www.linkedin.com/in/dafir-elkettani/?locale&#x3D;en_US", twitter: "", domain: "", location: "",
         flag: "", },
-    "javier-galvez-campanelli":
-        { name: "Javier Galvez Campanelli", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Smart Cities Solutions Coordinator", company: "GrupoTX", "company-link": "https://www.grupotx.com/",
-        content: "", linkedin: "https://www.linkedin.com/in/javiergalvez/", twitter: "", domain: "", location: "",
-        flag: "", },
     "javier-conde-díaz":
         { name: "Javier Conde Díaz", img: "https://www.fiware.org/wp-content/directories/people/images/200px/javier-conde.jpg", position: "Assistant Professor", company: "UPM", "company-link": "https://www.upm.es/internacional",
         content: "Assistant Professor with the UPM. I teach Big Data, Databases, Telecommunication Networks, and Web Engineering subjects. My research interests lie in the fields of Open Linked Data, Digital Twins, Big Data and Machine Learning. In the FIWARE ecosystem I contribute to the Draco GE and study architectures based on FIWARE GEs and FIWARE Smart Data Models.", linkedin: "https://es.linkedin.com/in/javier-conde-diaz", twitter: "https://twitter.com/JaviConD3", domain: "", location: "",
