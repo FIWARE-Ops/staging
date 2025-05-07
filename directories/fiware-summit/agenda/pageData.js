@@ -16,7 +16,6 @@ var summitDates = [
 ];
 var sessions = [
         'AI &amp; Data-Driven Cities for the FIFA World Cup 2030',
-        'AI &amp; IoT for Smart Water and Resilient Cities',
         'AI &amp; Machine Learning',
         'AI and Natural Language for Smart Cities',
         'Building Smart Governance with Interoperability',
@@ -51,7 +50,6 @@ var speakers = [
         'Gert De Tant',
         'Amal El Fellah Seghrouchni',
         'Jason Fox',
-        'Javier Galvez Campanelli',
         'Gerardo Guarino F.',
         'Aawatif Hayar',
         'Antonio Jara',

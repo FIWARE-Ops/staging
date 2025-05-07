@@ -113,10 +113,6 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/asteriot--a-scalable-fiware-based-platform-for-smart-water-management-and-early-warning-systems.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
 			<loc>https://www.fiware.org/fgs-2025/introduction-to-iot-agents.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
