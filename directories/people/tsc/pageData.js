@@ -31,7 +31,6 @@ var companies = [
         'Co-Founder',
         'COO',
         'CTO',
-        'Data Modeling Expert',
         'Director',
         'Evangelist',
         'IoT Specialist',
@@ -45,7 +44,7 @@ var companies = [
         'Technical Expert',
 ]; var countries = [
 ]; var modalData = [
-    { name: "Alberto Abella", img: "https://www.fiware.org/wp-content/directories/people/images/200px/alberto-abella.jpg", position: "Data Modeling Expert &amp; Evangelist", company: "FIWARE Foundation e.V.", "company-link": "https://www.fiware.org/",
+    { name: "Dr. Alberto Abella", img: "https://www.fiware.org/wp-content/directories/people/images/200px/alberto-abella.jpg", position: "Chief Operations Officer", company: "FIWARE Foundation e.V.", "company-link": "https://www.fiware.org/",
     content: "Alberto Abella is PhD in Business (Open data) and Telecommunications Engineer and Master in Total Quality Management, Business Administration and Business Organization. He works as a Data Modelling Expert and Technical Evangelist at FIWARE and currently is the responsible person for the smart data models initiative.", linkedin: "https://www.linkedin.com/in/albertoabella/", twitter: "https://twitter.com/aabella", domain: "", location: ""
     },
     { name: "Prof. Álvaro Alonso", img: "https://www.fiware.org/wp-content/directories/people/images/200px/alvaro-alonso.jpg", position: "Assistant Professor", company: "Universidad Politécnica de Madrid", "company-link": "https://www.upm.es/internacional",
@@ -114,7 +113,7 @@ var companies = [
     { name: "Jaime Martin-Losa", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Chief Executive Officer", company: "eProsima", "company-link": "https://www.eprosima.com/",
     content: "", linkedin: "https://www.linkedin.com/in/jaime-martin-losa-216817/", twitter: "", domain: "Gold", location: ""
     },
-    { name: "Francisco Meléndez", img: "https://www.fiware.org/wp-content/directories/people/images/200px/francisco-melendez.jpg", position: "Technical Expert &amp; Evangelist", company: "FIWARE Foundation e.V.", "company-link": "https://www.fiware.org/",
+    { name: "Francisco Meléndez", img: "https://www.fiware.org/wp-content/directories/people/images/200px/francisco-melendez.jpg", position: "Technical Community Coordinator", company: "FIWARE Foundation e.V.", "company-link": "https://www.fiware.org/",
     content: "", linkedin: "https://www.linkedin.com/in/franmelfer/", twitter: "", domain: "", location: ""
     },
     { name: "Benoit Orihuela", img: "https://www.fiware.org/wp-content/directories/people/images/200px/benoit-orihuela.jpg", position: "Research Engineer", company: "Easy Global Market", "company-link": "https://www.egm.io/en/egm-the-innovation-factory",
