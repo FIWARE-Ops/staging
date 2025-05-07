@@ -11,6 +11,7 @@ function getTrackColor(data) {
         case 'Secure Smart City':
         case 'Smart Governance':
         case 'Sustainable Smart City':
+        case 'Global FIWARE Use Cases':
             result = 'light-blue';
             break;
         case 'Grand Opening':
