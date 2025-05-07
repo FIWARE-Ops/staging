@@ -90,7 +90,7 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
             event.shortDate = event.date.toLocaleDateString('en-GB', { month: 'long', day: 'numeric' });
             const filename = Template.createClass(event.title);
             event.social = `/fgs-${CurrentYear}/${filename}.html`;
-            event.socialImage = `/fgs-${CurrentYear}/${filename}.png`;
+            event.socialImage = `/wp-content/directories/fiware-summit/social-media/images/${filename}.png`;
             event.trackColor = Static.getTrackColor(event.track);
             event.numSpeakers = event.speakers.length;
             eventDates.push(event.shortDate);
