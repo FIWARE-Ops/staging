@@ -199,26 +199,33 @@ function trackCSS(data) {
 
   switch (data) {
     case 'Tech & Trends':
+    case 'Tech Training':
         result = 'light-green';
         break;
-    case 'Tech Training':
-        result = 'cyan';
-        break;
+    //    result = 'cyan';
+    //    break;
     case 'Secure Smart City':
     case 'Sustainable Smart City':
-    case 'Smart Gov for Smart Cities':
+    case 'Global FIWARE Use Cases':
+    case 'Research & Development':
         result = 'light-blue';
         break;
     case 'Grand Opening':
-    case 'Organization':
         result = 'light-orange';
         break;
-    case 'AI & Data-Driven Urban Mngmt':
+    case 'Circular Economy & Urban Development':
+    case 'Digital Twins & Data Harmonization':
+    case 'Smart Governance':
+    case 'AI & IoT':
+    case 'Data Spaces & Interoperability':
         result = 'light-purple';
+        break;
+    case 'Organization':
+        result = 'light-grey';
         break;
     default:
         break;
-  }
+}
   return result;
 }
 
