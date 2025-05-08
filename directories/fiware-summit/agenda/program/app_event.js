@@ -209,6 +209,7 @@ function trackCSS(data) {
     case 'Sustainable Smart City':
     case 'Global FIWARE Use Cases':
     case 'Research & Development':
+    case 'Smart Governance':
         result = 'light-blue';
         break;
     case 'Grand Opening':
@@ -216,7 +217,6 @@ function trackCSS(data) {
         break;
     case 'Circular Economy & Urban Development':
     case 'Digital Twins & Data Harmonization':
-    case 'Smart Governance':
     case 'AI & IoT':
     case 'Data Spaces & Interoperability':
         result = 'light-purple';
