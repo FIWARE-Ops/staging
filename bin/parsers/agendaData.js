@@ -4,8 +4,6 @@ function getTrackColor(data) {
     switch (data) {
         case 'Tech & Trends':
         case 'Tech Training':
-        case 'AI & IoT':
-        case 'Data Spaces & Interoperability':
             result = 'light-green';
             break;
         //    result = 'cyan';
@@ -22,6 +20,8 @@ function getTrackColor(data) {
         case 'Circular Economy & Urban Development':
         case 'Digital Twins & Data Harmonization':
         case 'Smart Governance':
+        case 'AI & IoT':
+        case 'Data Spaces & Interoperability':
             result = 'light-purple';
             break;
         case 'Organization':
