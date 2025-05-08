@@ -210,12 +210,12 @@ function trackCSS(data) {
     case 'Global FIWARE Use Cases':
     case 'Research & Development':
     case 'Smart Governance':
+    case 'Circular Economy & Urban Development':
         result = 'light-blue';
         break;
     case 'Grand Opening':
         result = 'light-orange';
         break;
-    case 'Circular Economy & Urban Development':
     case 'Digital Twins & Data Harmonization':
     case 'AI & IoT':
     case 'Data Spaces & Interoperability':
