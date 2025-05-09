@@ -49,6 +49,7 @@ var speakers = [
         'Javier Conde Díaz',
         'Luigi Coppolino',
         'Andrea Cruciani',
+        'Mohamed Dafir',
         'Gert De Tant',
         'Amal El Fellah Seghrouchni',
         'Jason Fox',
@@ -65,8 +66,6 @@ var speakers = [
         'Davor Meersman',
         'Francisco Meléndez',
         'Yasunori Mochizuki',
-        'Prof. Mohamed Dafir',
-        'Prof. Mohammed Dafir',
         'Sachiko Muto',
         'Khalid Ouakka',
         'Manfredi Pistone',
@@ -184,6 +183,10 @@ var modalData = {
     "luigi-coppolino":
         { name: "Luigi Coppolino", img: "https://www.fiware.org/wp-content/directories/people/images/200px/luigi-coppolino.jpg", position: "Professor", company: "Parthenope University", "company-link": "https://www.uniparthenope.it/",
         content: "Luigi Coppolino is an Associate Professor at the University of Naples Parthenope. After his graduation in Computer Engineering at the University of Naples Federico II, in 2004 he got a Master degree in Dependable Architectures at the University of Campania Vanvitelli (former Second University of Naples). He moved to the industry with a quick experience at InCard Spa (currently ST Microelectronic) and Ansaldo Segnalamento Ferroviario (currently Hitachi Rail Italy) after that he moved back to the University where he got a Ph.D. degree in Computer Engineering from the University of Naples Federico II. In 2006 the TrustedSIM, javacard based project, developed by Mr. Coppolino, was one of the winners of the 7th SIMAGINE contest, sponsored by Axalto, SUN Microsystems, and Samsung. His research activity mainly focuses on dependability (performance/performability, reliability, availability, safety e security) of critical networked computing systems, such as telemedicine, e-government, and video surveillance applications, or avionics, railways, and automotive systems. During his Ph.D, Mr. Coppolino was at the University of New South Wales (Sydney), as Visiting Researcher, working with prof. Branko Celler’s research group to the security of the Home Telecare system developed and distributed by prof. Branko Celler’s research group. Luigi Coppolino is/has been engaged in several research projects funded by the European Community in the framework of FP7 and H2020 funding programs. He is indeed the Technical Coordinator of the COMPACT research project and he was leading was one of the principal investigators of the projects STREAM (Scalable Autonomic Streaming Middleware for Real-time Processing of Massive Data Flows), Grant agreement no. 216181, INTERSECTION (INfrastructure for heTErogeneous, Resilient, SEcure, Complex, Tightly Inter-Operating Networks), Grant agreement no. 216585, INSPIRE (INcreasing Security and Protection through Infrastructure Resilience), Grant agreement no. 225553, MASSIF (MAnagement of Security information and events in Service InFrastructures), Grant agreement no. 257475, SAWSOC (Situation AWare Security Operations Center), Grant agreement no. 313034, LeanBigData, Grant agreement no. 619606, SERECA (Secure Enclaves for REactive Cloud Applications), KONFIDO (Secure and Trusted Paradigm for Interoperable eHealth Services), Grant agreement no. 727528.", linkedin: "https://www.linkedin.com/in/luigi-coppolino-0701366/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "mohamed-dafir":
+        { name: "Prof. Mohamed Dafir", img: "https://www.fiware.org/wp-content/directories/people/images/200px/mohamed-dafir.jpg", position: "Vice-President and CISO", company: "Université Mohammed V de Rabat", "company-link": "https://www.um5.ac.ma",
+        content: "", linkedin: "https://www.linkedin.com/in/dafir-elkettani/?locale&#x3D;en_US", twitter: "", domain: "", location: "",
         flag: "", },
     "eloy-hernandez":
         { name: "Eloy Hernandez", img: "https://www.fiware.org/wp-content/directories/people/images/200px/eloy-hernandez.jpg", position: "Researcher", company: "Eurecat", "company-link": "https://eurecat.org/home/en/",
