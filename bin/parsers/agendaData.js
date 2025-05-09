@@ -2,30 +2,31 @@ function getTrackColor(data) {
     let result = '';
 
     switch (data) {
-        case 'Tech & Trends':
-        case 'Tech Training':
-            result = 'light-green';
+        case 0: // Organisation
+            result = 'light-grey';
             break;
-        //    result = 'cyan';
-        //    break;
-        case 'Secure Smart City':
-        case 'Sustainable Smart City':
-        case 'Global FIWARE Use Cases':
-        case 'Research & Development':
-        case 'Smart Governance':
-        case 'Circular Economy & Urban Development':
-            result = 'light-blue';
-            break;
-        case 'Grand Opening':
+        case 1: // Grand Opening
             result = 'light-orange';
             break;
-        case 'Digital Twins & Data Harmonization':
-        case 'AI & IoT':
-        case 'Data Spaces & Interoperability':
+        case 2:
+            // Research & Development
+            // Sustainable Smart City
+            // Smart Governance
+            // Global FIWARE Use Cases
+            // Circular Economy & Urban Development
+            result = 'light-blue';
+            break;
+        case 3:
+        case 4:
+        case 5:
+        case 6:
+            // AI & IoT
+            // Data Spaces & Interoperability
+            // Digital Twins & Data Harmonization
             result = 'light-purple';
             break;
-        case 'Organization':
-            result = 'light-grey';
+        case 7: //  Tech Training
+            result = 'light-green';
             break;
         default:
             break;

@@ -91,7 +91,7 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
             const filename = Template.createClass(event.title);
             event.social = `/fgs-${CurrentYear}/${filename}.html`;
             event.socialImage = `/wp-content/directories/fiware-summit/social-media/images/${filename}.png`;
-            event.trackColor = Static.getTrackColor(event.track);
+            event.trackColor = Static.getTrackColor(event.priority);
             event.numSpeakers = event.speakers.length;
             eventDates.push(event.shortDate);
             agenda.push(event);
