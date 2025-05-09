@@ -62,6 +62,7 @@ var speakers = [
         'Jin Kawasaki',
         'Jure Lampe',
         'Frederico Lopes',
+        'Davor Meersman',
         'Francisco Meléndez',
         'Yasunori Mochizuki',
         'Prof. Mohamed Dafir',
@@ -74,6 +75,7 @@ var speakers = [
         'Alessandro Rossi',
         'Björn Schwarze',
         'Megumi Suzuki',
+        'Thimo Thoeye',
         'Brecht van de Vyvere',
         'Stefan Wiedemann',
         'Ken Zangelin',
@@ -122,6 +124,10 @@ var modalData = {
     "frederico-lopes":
         { name: "Frederico Lopes", img: "https://www.fiware.org/wp-content/directories/people/images/200px/frederico-lopes.jpg", position: "Professor &amp; Institute Director", company: "UFRN", "company-link": "https://www.ufrn.br/",
         content: "Associate Professor at UFRN (Brazil), he holds a bachelor&#x27;s degree (2005) and a Ph.D. (2011) in Computer Science from UFRN and a master&#x27;s degree in Systems and Computing also from UFRN. Postdoctoral fellowship (2016) at the University of British Columbia, Vancouver/Canada. During the year 2010, he was a Ph.D. intern (sandwich doctorate) at IST/UTL, Lisbon/Portugal (2010). He has experience in the field of Computer Science, with an emphasis on Distributed Systems and Software Engineering, mainly working on the following topics: geographic information systems, middleware, ubiquitous computing, pervasive computing, smart cities, computational platforms, cloud computing, the internet of things. Member of the Fiware Foundation since 2017, he is Fiware evangelist and the director of Smart Metropolis Fiware iHub, in Natal / Brazil. Coordinator of the Smart Metropolis Laboratory, with more than a dozen software registrations for real smart city systems in partnership with: Federal Highway Police, RN Public Security Department, Ministry of Regional Development, RN Public Ministry, Natal City Hall, among other public agencies. Coordinator of the Postgraduate Program in Information Technology (PPgTI) at UFRN from 2013 to 2015 and currently since 2023.", linkedin: "https://www.linkedin.com/in/frederico-lopes-342a697/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "thimo-thoeye":
+        { name: "Thimo Thoeye", img: "https://www.fiware.org/wp-content/directories/people/images/200px/thimo-thoeye.jpg", position: "Innovation Manager", company: "OASC", "company-link": "oascities.org",
+        content: "Thimo Thoeye is a technology advisor for OASC in various projects. He brings in years of experience in interoperability and linked data. Thimo is a driving force behind Open Knowledge Belgium and works for the Information and communication technology agency of the city of Ghent in Belgium.", linkedin: "https://www.linkedin.com/in/thimothoeye/", twitter: "", domain: "", location: "",
         flag: "", },
     "jure-lampe":
         { name: "Jure Lampe", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jure-lampe.png", position: "Chief Executive Officer", company: "SenLab d.o.o.", "company-link": "https://senlab.io/en/about-us",
