@@ -12,6 +12,7 @@ var companies = [
         'Eurecat',
         'Ficodes',
         'FIWARE Foundation',
+        'FutureCraft Foundation',
         'Government of Morocco',
         'GrupoTX',
         'iSHARE Foundation',
@@ -46,6 +47,7 @@ var companies = [
         'COO',
         'Director',
         'Evangelist',
+        'Executive Chairman',
         'Expert',
         'Fellow',
         'General Manager',
@@ -106,7 +108,7 @@ var companies = [
     { name: "Andrea Cruciani", img: "https://www.fiware.org/wp-content/directories/people/images/200px/andrea-cruciani.jpg", position: "Chief Executive Officer", company: "Agricolus", "company-link": "https://www.agricolus.com/",
     content: "Andrea is the Agricolus co-founder and CEO, member of FIWARE Foundation BoD, Chairman of the FIWARE Smart AgriFood MSC. He runs the international business area and the financial aspects of the company and he has a technical background and experience in applications Development, Enterprise Architectures, Cloud Computing, and GIS. Andrea is involved in Innovative Startup Evolution and scaleup, during the years he worked with Public Administration, multinational companies, NGOs, and SMEs. He is a speaker for several universities and public events where he is invited to discuss entrepreneurship and digital transformation, and he is a contributor in several technical articles and publications about agritech.", linkedin: "https://www.linkedin.com/in/andreacruciani/", twitter: "https://twitter.com/kokkete", domain: "", location: ""
     },
-    { name: "Prof. Mohamed Dafir", img: "https://www.fiware.org/wp-content/directories/people/images/200px/mohamed-dafir.jpg", position: "Vice-President and CISO", company: "Université Mohammed V de Rabat", "company-link": "https://www.um5.ac.ma",
+    { name: "Prof. Mohamed Dafir", img: "https://www.fiware.org/wp-content/directories/people/images/200px/mohamed-dafir.jpg", position: "Managing Partner", company: "Université Mohammed V de Rabat", "company-link": "https://www.um5.ac.ma",
     content: "", linkedin: "https://www.linkedin.com/in/dafir-elkettani/?locale&#x3D;en_US", twitter: "", domain: "", location: ""
     },
     { name: "Matthias de Bièvre", img: "https://www.fiware.org/wp-content/directories/people/images/200px/matthias-de-bievre.jpg", position: "President", company: "Prometheus-x", "company-link": "https://prometheus-x.org/",
@@ -153,6 +155,9 @@ var companies = [
     },
     { name: "Frederico Lopes", img: "https://www.fiware.org/wp-content/directories/people/images/200px/frederico-lopes.jpg", position: "Professor &amp; Institute Director", company: "UFRN", "company-link": "https://www.ufrn.br/",
     content: "Associate Professor at UFRN (Brazil), he holds a bachelor&#x27;s degree (2005) and a Ph.D. (2011) in Computer Science from UFRN and a master&#x27;s degree in Systems and Computing also from UFRN. Postdoctoral fellowship (2016) at the University of British Columbia, Vancouver/Canada. During the year 2010, he was a Ph.D. intern (sandwich doctorate) at IST/UTL, Lisbon/Portugal (2010). He has experience in the field of Computer Science, with an emphasis on Distributed Systems and Software Engineering, mainly working on the following topics: geographic information systems, middleware, ubiquitous computing, pervasive computing, smart cities, computational platforms, cloud computing, the internet of things. Member of the Fiware Foundation since 2017, he is Fiware evangelist and the director of Smart Metropolis Fiware iHub, in Natal / Brazil. Coordinator of the Smart Metropolis Laboratory, with more than a dozen software registrations for real smart city systems in partnership with: Federal Highway Police, RN Public Security Department, Ministry of Regional Development, RN Public Ministry, Natal City Hall, among other public agencies. Coordinator of the Postgraduate Program in Information Technology (PPgTI) at UFRN from 2013 to 2015 and currently since 2023.", linkedin: "https://www.linkedin.com/in/frederico-lopes-342a697/", twitter: "", domain: "", location: ""
+    },
+    { name: "Davor Meersman", img: "https://www.fiware.org/wp-content/directories/people/images/200px/davor-meersman.jpg", position: "Executive Chairman", company: "FutureCraft Foundation", "company-link": "https://futurecraft.earth/",
+    content: "Dr. Davor Meersman is CEO of FutureCraft Open Source Habitats and Chairman of the FutureCraft Foundation, working with cities and regions worldwide on building free, open-source, production-ready, interoperable digital twins for constructing climate-positive affordable neighbourhoods: the Digital Housing Commons. Davor is also the Smart Communities Advisor of the Industry Commons Foundation, working with the New European Bauhaus High-Level Roundtable. Previously, Davor was CEO of Open &amp; Agile Smart Cities and the initiator of IMEC City of Things, Europe’s largest IoT living lab. Davor is also an honorary member of the United Nations SDG 11 Global Council, the European Commission’s Steering Committee on Advanced Technologies for Industry, and Ambassador of the International Society of Service Innovation Professionals under the auspices of IBM, Cisco, HP, Dell, and other leading organisations. He holds a PhD in Information Systems from Curtin University, Australia.", linkedin: "https://www.linkedin.com/in/davormeersman/", twitter: "https://twitter.com/davor_oasc", domain: "", location: ""
     },
     { name: "Francisco Meléndez", img: "https://www.fiware.org/wp-content/directories/people/images/200px/francisco-melendez.jpg", position: "Technical Community Coordinator", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
     content: "Francisco Melendez (m) is a Telecommunications &amp; Robotics Engineer and is FIWARE’s Technical Expert in Robotics, Automation and Industry 4.0. He is also one of the representatives of FIWARE in the Digital Twin Consortium and some international projects where FIWARE is developing its technical roadmap in robotics and automation. As a mobile robotics engineer and researcher with more than 8 years of experience in web-enabled robot applications, his work is currently focused on the development of convenient interfaces between cyber physical systems and digital twins in FIWARE-based solutions.", linkedin: "https://www.linkedin.com/in/franmelfer/", twitter: "", domain: "", location: ""
