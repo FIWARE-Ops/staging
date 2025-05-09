@@ -97,6 +97,10 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2025/unlocking-the-potential-of-data-spaces-for-smart-cities-and-communities.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2025/blue-cities-of-tomorrow--ai---iot-for-smart-water-and-resilient-cities.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -134,6 +138,10 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2025/asteriot--a-scalable-fiware-based-platform-for-smart-water-management-and-early-warning-systems.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/disrupting-global-construction-with-open-source-and-ai.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
