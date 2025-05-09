@@ -3,6 +3,7 @@ var companies = [
         'Agricolus',
         'Artech International BVBA',
         'Associação Porto Digital',
+        'Berkane Provincial Council',
         'CNR / IMATI',
         'Data Valley Consulting, University of Padova (Italy)',
         'Digital Development Agency (ADD)',
@@ -47,6 +48,7 @@ var companies = [
         'Expert',
         'Fellow',
         'General Manager',
+        'Governor',
         'Head of Unit',
         'Lead',
         'Manager',
@@ -63,6 +65,9 @@ var companies = [
     },
     { name: "Suna Akbayir", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Chief Executive Officer", company: "Artech International BVBA", "company-link": "https://artechconsulting.net/",
     content: "Suna Akbayir is a Turkish entrepreneur with an extensive international business presence, well-recognized in Europe’s R&amp;D and innovation ecosystem. She is the Founder &amp; CEO of Artech International BVBA, a Brussels- headquartered in Brussels consulting and technology firm with an R&amp;D office in Leuven specializing in AI-driven solutions, Digital Product Passports (DPPs), and regulatory technology (RegTech) for industries such as automotive, electronics, and healthcare. With deep expertise in R&amp;D funding, technology transfer, and business development, she has led and contributed to multi-million-euro EU-funded projects, working closely with global industry leaders, SMEs, and policymakers. Through Artech, she has been at the forefront of innovation commercialization and market expansion, positioning the company as a key partner in Horizon Europe, Eureka, ITEA, and Celtic+ initiatives. Her expertise spans advisory roles, project evaluations, and mentoring for startups, SMEs, and research institutions, with a focus on bridging technology, business, and policy to drive real-world impact. She is known for her pragmatic approach and strategic foresight, actively shaping Europe’s innovation landscape. She has also been acting as the principal R&amp;D consultant for International Programs for Vestel Electronics, Vestel Home Appliances, Koç Sistem, Koç Digital, and Sestek; University of Maastrciht, RWTH Aachen etc.  She holds an MBA and a bachelor’s degree in Political Science and International Relations and speaks English, French, and Turkish.", linkedin: "https://www.linkedin.com/in/sunaakbayir/", twitter: "", domain: "", location: ""
+    },
+    { name: "Mohamed Ali Habouha", img: "https://www.fiware.org/wp-content/directories/people/images/200px/mohamed-ali-habouha.jpg", position: "Governor", company: "Berkane Provincial Council", "company-link": "https://provinceberkane.ma/citoyen/public/",
+    content: "Mr. Mohamed Ali Habouha, appointed by HM King Mohammed VI as Governor of Berkane province, was born on January 13, 1962 in the province of Tan-Tan. He completed his graduate studies at the university of Ottawa where he obtained a double bachelor degree in management, public policy and political science. He also holds an MBA in Strategic Management and economic intelligence from the Paris School of Economic Warfare. He began his career in 1987 in the private sector as administrative director in a public works company before joining the office of exploitation of the ports in 1990. In 1997, he will leave this office to invest in the fisheries sector where he chaired the association of factories for the development of fishery products in Laayoune,and thus became a member of the Moroccan exporters association the ASMEX in 2002. Later on, Governor Habouha joined the Ministry of Interior in 2004 as Secretary General of the Central Administration and was transferred, in 2005, in the same capacity to the Cabinet of the Wali of Moroccan Laâyoune-Boujdour-Sakia-El Hamra Region. On March 1, 2010, he was appointed by HM the King Governor of the Province of Tarfaya and on November 26, 2010 as Governor of the District Prefecture of Sidi Bernoussi, Casablanca. Berkane owes Governor Habouha its international status and most of all the international Smart City Award and recognition it received in September 2022.", linkedin: "", twitter: "", domain: "", location: ""
     },
     { name: "João Bastos", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Head of Systems Architecture and Data Analytics", company: "Associação Porto Digital", "company-link": "https://www.portodigital.pt/en/homepage/",
     content: "", linkedin: "https://www.linkedin.com/in/jo%C3%A3o-bastos-71458428/", twitter: "", domain: "", location: ""
@@ -160,7 +165,7 @@ var companies = [
     { name: "Khalid Ouakka", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Director of E-Government", company: "Digital Development Agency (ADD)", "company-link": "",
     content: "", linkedin: "https://www.linkedin.com/in/khalid-ouakka-b722ab5/", twitter: "", domain: "", location: ""
     },
-    { name: "Rubén Rosales Patón", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Smart Cities &amp; Innovation Hubs Product Manager", company: "Telefonica", "company-link": "https://www.telefonica.com/en/",
+    { name: "Rubén Rosales Patón", img: "https://www.fiware.org/wp-content/directories/people/images/200px/ruben-rosales-paton.jpg", position: "Smart Cities &amp; Innovation Hubs Product Manager", company: "Telefonica", "company-link": "https://www.telefonica.com/en/",
     content: "", linkedin: "https://www.linkedin.com/in/rrpaton/", twitter: "", domain: "", location: ""
     },
     { name: "Manfredi Pistone", img: "https://www.fiware.org/wp-content/directories/people/images/200px/manfredi-pistone.jpg", position: "Researcher", company: "Engineering", "company-link": "https://www.eng.it/en/",
