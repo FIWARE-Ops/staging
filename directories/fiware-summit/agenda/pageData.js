@@ -17,6 +17,7 @@ var summitDates = [
 ];
 var sessions = [
         'AI &amp; Data-Driven Cities for the FIFA World Cup 2030',
+        'AI &amp; IoT for Smart Water and Resilient Cities',
         'AI &amp; Machine Learning',
         'AI and Natural Language for Smart Cities',
         'Building Smart Governance with Interoperability',
@@ -44,15 +45,19 @@ var speakers = [
         'Vinith Bhandari',
         'David Campo',
         'Chandra Challagonda',
+        'Didac Colominas',
         'Javier Conde Díaz',
         'Luigi Coppolino',
         'Andrea Cruciani',
         'Gert De Tant',
         'Amal El Fellah Seghrouchni',
         'Jason Fox',
+        'Javier Galvez Campanelli',
         'Gerardo Guarino F.',
         'Aawatif Hayar',
+        'Eloy Hernandez',
         'Dr. Hicham El Habti',
+        'Sveva Ianese',
         'Antonio Jara',
         'Jin Kawasaki',
         'Jure Lampe',
@@ -60,10 +65,12 @@ var speakers = [
         'Francisco Meléndez',
         'Yasunori Mochizuki',
         'Prof. Mohamed Dafir',
+        'Prof. Mohammed Dafir',
         'Sashiko Muto',
         'Khalid Ouakka',
         'Manfredi Pistone',
         'Matteo Repetto',
+        'Rubén Rosales Patón',
         'Alessandro Rossi',
         'Björn Schwarze',
         'Megumi Suzuki',
@@ -80,10 +87,6 @@ var modalData = {
         { name: "Alberto Abella", img: "https://www.fiware.org/wp-content/directories/people/images/200px/alberto-abella.jpg", position: "Chief Operations Officer", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
         content: "Alberto Abella (m) is PhD in Business (Open data) and Telecommunications Engineer and Master in Total Quality Management, Business Administration and Business Organization. He works as a Data Modelling Expert and Technical Evangelist at FIWARE and currently is the responsible person for the smart data models initiative.", linkedin: "https://www.linkedin.com/in/albertoabella/", twitter: "https://twitter.com/aabella", domain: "", location: "",
         flag: "", },
-    "dr--hicham-el-habti":
-        { name: "Dr. Hicham El Habti", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "President of UM6P", company: "Mohammed VI Polytechnic University", "company-link": "https://um6p.ma/",
-        content: "", linkedin: "", twitter: "", domain: "", location: "",
-        flag: "", },
     "amal-el-fellah-seghrouchni":
         { name: "Amal El Fellah Seghrouchni", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Minister Delegate for Digital Transition and Administrative Reform", company: "Government of Morocco", "company-link": "",
         content: "Experienced Full Professor with a demonstrated history of working in the research industry. Skilled in Mathematical Modeling, Computer Science, Articial Intelligence, Autonomous agents and Software Design. Strong education professional with Ph.D in Computer Science from the University Pierre et Marie Curie and a Habilitation à Diriger les Recherches (HDR) focused in Computer Science - Artificial Intelligence from University Sorbonne Paris Nord. Involved in various international committees for A.I. and Autonomous Agents as co-General Chair of AAMAS 2021 (the Premiere conference on Autonomous Agents and Multi-Agent Systems).", linkedin: "https://www.linkedin.com/in/amal-el-fallah-seghrouchni-7459363/", twitter: "", domain: "", location: "",
@@ -95,6 +98,10 @@ var modalData = {
     "yasunori-mochizuki":
         { name: "Yasunori Mochizuki", img: "https://www.fiware.org/wp-content/directories/people/images/200px/yasunori-mochizuki.jpg", position: "NEC Fellow", company: "NEC Corporation", "company-link": "https://www.nec.com/",
         content: "Yasunori Mochizuki is NEC Fellow and is focused on digital transformation and ecosystem strategy for Smart Cities and is active in policy recommendation and multi-stakeholder collaboration initiatives for technology innovation as well as technology governance, leveraging his global smart city networks. Previously, he was Senior Vice President responsible for NEC’s corporate technology strategy including R&amp;D roadmap and open innovations. He is currently the chairman of the BoD of FIWARE Foundation, In addition he was member of the BoD since 2017 when NEC joined the Foundation as a Platinum Member. Yasunori has 30+ years of career as a research scientist and then as head of multiple research departments in NEC and his technical expertise covers a broad area including AI-oriented computer science, ICT systems, integrated devices and solid-state physics. He received his PhD in Electronics Engineering from the University of Tokyo.", linkedin: "https://www.linkedin.com/in/yasunori-mochizuki-93bab674/", twitter: "https://twitter.com/yasunorimochiz", domain: "", location: "",
+        flag: "", },
+    "rubén-rosales-patón":
+        { name: "Rubén Rosales Patón", img: "https://www.fiware.org/wp-content/directories/people/images/200px/ruben-rosales-paton.jpg", position: "Smart Cities &amp; Innovation Hubs Product Manager", company: "Telefonica", "company-link": "https://www.telefonica.com/en/",
+        content: "", linkedin: "https://www.linkedin.com/in/rrpaton/", twitter: "", domain: "", location: "",
         flag: "", },
     "antonio-jara":
         { name: "Antonio Jara", img: "https://www.fiware.org/wp-content/directories/people/images/200px/antonio-jara.jpg", position: "General Manager Smart Cities", company: "Libelium", "company-link": "https://www.libelium.com/",
@@ -116,9 +123,17 @@ var modalData = {
         { name: "Frederico Lopes", img: "https://www.fiware.org/wp-content/directories/people/images/200px/frederico-lopes.jpg", position: "Professor &amp; Institute Director", company: "UFRN", "company-link": "https://www.ufrn.br/",
         content: "Associate Professor at UFRN (Brazil), he holds a bachelor&#x27;s degree (2005) and a Ph.D. (2011) in Computer Science from UFRN and a master&#x27;s degree in Systems and Computing also from UFRN. Postdoctoral fellowship (2016) at the University of British Columbia, Vancouver/Canada. During the year 2010, he was a Ph.D. intern (sandwich doctorate) at IST/UTL, Lisbon/Portugal (2010). He has experience in the field of Computer Science, with an emphasis on Distributed Systems and Software Engineering, mainly working on the following topics: geographic information systems, middleware, ubiquitous computing, pervasive computing, smart cities, computational platforms, cloud computing, the internet of things. Member of the Fiware Foundation since 2017, he is Fiware evangelist and the director of Smart Metropolis Fiware iHub, in Natal / Brazil. Coordinator of the Smart Metropolis Laboratory, with more than a dozen software registrations for real smart city systems in partnership with: Federal Highway Police, RN Public Security Department, Ministry of Regional Development, RN Public Ministry, Natal City Hall, among other public agencies. Coordinator of the Postgraduate Program in Information Technology (PPgTI) at UFRN from 2013 to 2015 and currently since 2023.", linkedin: "https://www.linkedin.com/in/frederico-lopes-342a697/", twitter: "", domain: "", location: "",
         flag: "", },
+    "jure-lampe":
+        { name: "Jure Lampe", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jure-lampe.png", position: "Chief Executive Officer", company: "SenLab d.o.o.", "company-link": "https://senlab.io/en/about-us",
+        content: "SenLab is an IoT consulting company that I founded and lead as the CEO and owner since 2014. My mission is to deliver knowledge, answers, and solutions for IoT projects in various domains, such as Industry 4.0, logistics, smart cities, home automation, healthcare, research and education. With over 20 years of experience in this field, I have developed core competencies in IoT concept design, prototyping, testing, and deployment, as well as new business development, consulting, and team leadership. I hold a BS in Computer and Information Science and I am pursuing a PhD in Business and Management, which enable me to combine technical expertise with business acumen and creativity. I am passionate about solving complex problems with simple, innovative, and user-friendly IoT solutions that have a positive impact on society and the environment. I have led and participated in multiple award-winning IoT projects, such as IoTool, IoChat, and RelaxedCare, that demonstrate the potential and value of IoT in various settings and scenarios.", linkedin: "https://www.linkedin.com/in/jurelampe/", twitter: "", domain: "", location: "",
+        flag: "", },
     "jin-kawasaki":
         { name: "Jin Kawasaki", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jin-kawasaki.jpg", position: "Head Researcher", company: "Mitsubishi Electric", "company-link": "https://www.mitsubishielectric.com/en/index.html",
         content: "Jin Kawasaki is working as Head Researcher at Information Technology R&amp;D Center of Mitsubishi Electric Corporation. He received Ph.D. degree from University of Tsukuba in 2016. His research interest is smart building and city platform which provides solution such as carbon neutrality, energy management and workplace management.", linkedin: "https://www.linkedin.com/in/jin-kawasaki-817809205/?original_referer&#x3D;https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&amp;originalSubdomain&#x3D;jp", twitter: "", domain: "", location: "",
+        flag: "", },
+    "megumi-suzuki":
+        { name: "Megumi Suzuki", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "", company: "Mitsubishi Electric Corporation", "company-link": "",
+        content: "", linkedin: "", twitter: "", domain: "", location: "",
         flag: "", },
     "joão-bastos":
         { name: "João Bastos", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Head of Systems Architecture and Data Analytics", company: "Associação Porto Digital", "company-link": "https://www.portodigital.pt/en/homepage/",
@@ -140,21 +155,33 @@ var modalData = {
         { name: "Massimo Bertoncini", img: "https://www.fiware.org/wp-content/directories/people/images/200px/massimo-bertoncini.jpg", position: "R&amp;D Program Director", company: "Engineering", "company-link": "https://www.eng.it/en/",
         content: "More than 16 years of experience in management of research and technology based innovation. He acquired consolidated know how in managing research and innovation and in its implementation at company level, with a special emphasis on the smart energy/smart grids enablng technologies. He managed large international teams by conducting large European R&amp;D and Innovation projects. Main ICT competences includes Artificial Intelligence, Intelligent Sensing and real Time processing, Real Time Control for Smaert Energy SystemsMulti-criteria decision making, Multimedia, Human Computer Interaction, and Knowledge Based Systems. Major Specialties are Sustainability and Business Plan for R&amp;D Smart Energy/Smart Grid Initiatives, Experienced in Innovation &amp; Technology Transfer, Project Managerr and Opportunities Scouting. Also Interested in “Supported” Finance, Strategy Analysis &amp; Exploitation and Business Plans with special emphasis on Smart Energy Systems (Smart Grids, Multi-carrier Energy Storage) R&amp;D Long and Medium Term Vision Analysis, Scouting and creating European credible consortia, Strong relationships with European Commission Personnel.", linkedin: "https://www.linkedin.com/in/massimo-bertoncini-a9a7932/", twitter: "", domain: "", location: "",
         flag: "", },
-    "luigi-coppolino":
-        { name: "Luigi Coppolino", img: "https://www.fiware.org/wp-content/directories/people/images/200px/luigi-coppolino.jpg", position: "Professor", company: "Parthenope University", "company-link": "https://www.uniparthenope.it/",
-        content: "Luigi Coppolino is an Associate Professor at the University of Naples Parthenope. After his graduation in Computer Engineering at the University of Naples Federico II, in 2004 he got a Master degree in Dependable Architectures at the University of Campania Vanvitelli (former Second University of Naples). He moved to the industry with a quick experience at InCard Spa (currently ST Microelectronic) and Ansaldo Segnalamento Ferroviario (currently Hitachi Rail Italy) after that he moved back to the University where he got a Ph.D. degree in Computer Engineering from the University of Naples Federico II. In 2006 the TrustedSIM, javacard based project, developed by Mr. Coppolino, was one of the winners of the 7th SIMAGINE contest, sponsored by Axalto, SUN Microsystems, and Samsung. His research activity mainly focuses on dependability (performance/performability, reliability, availability, safety e security) of critical networked computing systems, such as telemedicine, e-government, and video surveillance applications, or avionics, railways, and automotive systems. During his Ph.D, Mr. Coppolino was at the University of New South Wales (Sydney), as Visiting Researcher, working with prof. Branko Celler’s research group to the security of the Home Telecare system developed and distributed by prof. Branko Celler’s research group. Luigi Coppolino is/has been engaged in several research projects funded by the European Community in the framework of FP7 and H2020 funding programs. He is indeed the Technical Coordinator of the COMPACT research project and he was leading was one of the principal investigators of the projects STREAM (Scalable Autonomic Streaming Middleware for Real-time Processing of Massive Data Flows), Grant agreement no. 216181, INTERSECTION (INfrastructure for heTErogeneous, Resilient, SEcure, Complex, Tightly Inter-Operating Networks), Grant agreement no. 216585, INSPIRE (INcreasing Security and Protection through Infrastructure Resilience), Grant agreement no. 225553, MASSIF (MAnagement of Security information and events in Service InFrastructures), Grant agreement no. 257475, SAWSOC (Situation AWare Security Operations Center), Grant agreement no. 313034, LeanBigData, Grant agreement no. 619606, SERECA (Secure Enclaves for REactive Cloud Applications), KONFIDO (Secure and Trusted Paradigm for Interoperable eHealth Services), Grant agreement no. 727528.", linkedin: "https://www.linkedin.com/in/luigi-coppolino-0701366/", twitter: "", domain: "", location: "",
-        flag: "", },
     "alessandro-rossi":
         { name: "Alessandro Rossi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/alessandro-rossi.jpg", position: "Project Manager &amp; Researcher", company: "Engineering", "company-link": "https://www.eng.it/en/",
         content: "Alessandro Rossi got his University Degree in Computer Software Engineering magna cum laude at the “Università degli Studi di Palermo” in 2004. Since that year he has been working as researcher at Engineering Ingegneria Informatica S.p.A., and in particular as team leader in the R&amp;D Laboratory. In the last years he focused on ICT in smart energy and smart industry sector, fully oriented to innovation, digital transformation and new enabling technologies, such as IoT, Cybersecurity, Big Data and Blockchain. He is currently Project Manager for Engineering and WP leader in several EU co-funded projects, most of which with the participation of FIWARE Foundation and the adoption of FIWARE-based solutions, for which he is a technology evangelist, internally to the company and inside the consortia. He participated to several international conferences and wrote several tens of scientific papers, all about cutting edge and challenging innovative ideas.", linkedin: "https://www.linkedin.com/in/alessandro-rossi-3720281/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "stefan-wiedemann":
+        { name: "Stefan Wiedemann", img: "https://www.fiware.org/wp-content/directories/people/images/200px/stefan-wiedemann.jpg", position: "Technical Lead &amp; Architect", company: "Ficodes", "company-link": "https://www.ficodes.com/en/",
+        content: "", linkedin: "https://www.linkedin.com/in/stefan-wiedemann-37a0ba13a/", twitter: "", domain: "", location: "",
         flag: "", },
     "matteo-repetto":
         { name: "Matteo Repetto", img: "https://www.fiware.org/wp-content/directories/people/images/200px/matteo-repetto.png", position: "Senior Researcher", company: "CNR / IMATI", "company-link": "https://www.imati.cnr.it/make_home_page.php?language&#x3D;ENG&amp;view&#x3D;GEN",
         content: "Matteo Repetto, Ph.D., received the Ph.D. degree in Electronics and Computer Science in 2004 from the University of Genoa. From 2004 to 2009 he was a postdoc at University of Genoa. From 2010 to 2019 he was a Research Associate at CNIT. In 2019 he joined the Institute for Applied Mathematics and Information Technologies (IMATI), CNR, where he currently holds a Senior Researcher position. He has been teaching many courses in telecommunication networks and network security. He has been involved in several research national and international projects on quality of service, mobility in data networks, energy efficiency, cloud computing, and network function virtualization. He was the scientific and technical coordinator of the ASTRID and GUARD projects, and he is now the coordinator of the MIRANDA project. He has co-authored over 90 scientific publications in international journals and conference proceedings, and 1 technical report for ITU. His current research interests include security architectures, interfaces to remote security functions, network security, threat hunting, management and security of digital service chains.", linkedin: "https://www.linkedin.com/in/matteo-repetto-1b00134/", twitter: "", domain: "", location: "",
         flag: "", },
-    "prof--mohamed-dafir":
-        { name: "Prof. Mohamed Dafir", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Vice-President and CISO", company: "Université Mohammed V de Rabat", "company-link": "https://www.um5.ac.ma",
-        content: "", linkedin: "https://www.linkedin.com/in/dafir-elkettani/?locale&#x3D;en_US", twitter: "", domain: "", location: "",
+    "sveva-ianese":
+        { name: "Sveva Ianese", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Consultant, Academic researcher", company: "Data Valley Consulting, University of Padova (Italy)", "company-link": "https://www.unipd.it/en/",
+        content: "Sveva Ianese is an academic researcher, consultant, and legal expert. Her expertise covers the domains of smart cities, data governance, compliance of AI and Data Space projects. With a legal background in data protection, she is involved in many research projects and serves Italian public bodies as advisory on data-driven policies. A frequent speaker at international conferences, she has published various scientific and informative articles on AI regulation, data privacy, and smart city development. Her work bridges technology, policy, and law to drive ethical and sustainable urban transformation.", linkedin: "https://www.linkedin.com/in/sveva-ianese/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "luigi-coppolino":
+        { name: "Luigi Coppolino", img: "https://www.fiware.org/wp-content/directories/people/images/200px/luigi-coppolino.jpg", position: "Professor", company: "Parthenope University", "company-link": "https://www.uniparthenope.it/",
+        content: "Luigi Coppolino is an Associate Professor at the University of Naples Parthenope. After his graduation in Computer Engineering at the University of Naples Federico II, in 2004 he got a Master degree in Dependable Architectures at the University of Campania Vanvitelli (former Second University of Naples). He moved to the industry with a quick experience at InCard Spa (currently ST Microelectronic) and Ansaldo Segnalamento Ferroviario (currently Hitachi Rail Italy) after that he moved back to the University where he got a Ph.D. degree in Computer Engineering from the University of Naples Federico II. In 2006 the TrustedSIM, javacard based project, developed by Mr. Coppolino, was one of the winners of the 7th SIMAGINE contest, sponsored by Axalto, SUN Microsystems, and Samsung. His research activity mainly focuses on dependability (performance/performability, reliability, availability, safety e security) of critical networked computing systems, such as telemedicine, e-government, and video surveillance applications, or avionics, railways, and automotive systems. During his Ph.D, Mr. Coppolino was at the University of New South Wales (Sydney), as Visiting Researcher, working with prof. Branko Celler’s research group to the security of the Home Telecare system developed and distributed by prof. Branko Celler’s research group. Luigi Coppolino is/has been engaged in several research projects funded by the European Community in the framework of FP7 and H2020 funding programs. He is indeed the Technical Coordinator of the COMPACT research project and he was leading was one of the principal investigators of the projects STREAM (Scalable Autonomic Streaming Middleware for Real-time Processing of Massive Data Flows), Grant agreement no. 216181, INTERSECTION (INfrastructure for heTErogeneous, Resilient, SEcure, Complex, Tightly Inter-Operating Networks), Grant agreement no. 216585, INSPIRE (INcreasing Security and Protection through Infrastructure Resilience), Grant agreement no. 225553, MASSIF (MAnagement of Security information and events in Service InFrastructures), Grant agreement no. 257475, SAWSOC (Situation AWare Security Operations Center), Grant agreement no. 313034, LeanBigData, Grant agreement no. 619606, SERECA (Secure Enclaves for REactive Cloud Applications), KONFIDO (Secure and Trusted Paradigm for Interoperable eHealth Services), Grant agreement no. 727528.", linkedin: "https://www.linkedin.com/in/luigi-coppolino-0701366/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "eloy-hernandez":
+        { name: "Eloy Hernandez", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Researcher", company: "Eurecat", "company-link": "https://eurecat.org/home/en/",
+        content: "I’m a computer engineer with solid experience in IT, artificial intelligence, and project management. Over the years, I’ve been actively involved in European research and innovation projects, where I’ve applied digital technologies to address real-world challenges, especially in the areas of water management, interoperability, and sustainability. My work combines technological development with coordination activities, ensuring that digital solutions are practical, well-integrated, and aligned with stakeholder needs. I’m particularly focused on building interoperable, data-driven tools that support decision-making in different environments. As a member of the ICT4Water cluster, I contribute to joint efforts across Europe to advance open, FAIR, and standard-based digital solutions for the water sector and beyond.", linkedin: "", twitter: "", domain: "", location: "",
+        flag: "", },
+    "didac-colominas":
+        { name: "Didac Colominas", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Researcher of AAI", company: "Eurecat", "company-link": "https://eurecat.org/home/en/",
+        content: "I\&#x27;m a Researcher at Applied Artificial Intelligence Unit of Eurecat, also it\&#x27;s Associate Professor at Polytechnical University of Lleida.​ I\&#x27;m involved in developing innovative solutions that integrate artificial intelligence and knowledge management technologies, focusing on sectors like industry, energy, and sustainability. The unit\&#x27;s expertise encompasses areas such as virtual sensors, digital twins, Internet of Things (IoT), data interoperability, and real-time decision support systems.", linkedin: "https://www.linkedin.com/in/didac-colominas/", twitter: "", domain: "", location: "",
         flag: "", },
     "javier-conde-díaz":
         { name: "Javier Conde Díaz", img: "https://www.fiware.org/wp-content/directories/people/images/200px/javier-conde.jpg", position: "Assistant Professor", company: "UPM", "company-link": "https://www.upm.es/internacional",
@@ -168,10 +195,6 @@ var modalData = {
         { name: "Gerardo Guarino F.", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Managing Partner", company: "Urban Service Provider", "company-link": "https://urbansp.city",
         content: "", linkedin: "https://www.linkedin.com/in/gerardo-guarino-f-867287/", twitter: "", domain: "", location: "",
         flag: "", },
-    "jure-lampe":
-        { name: "Jure Lampe", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jure-lampe.png", position: "Chief Executive Officer", company: "SenLab d.o.o.", "company-link": "https://senlab.io/en/about-us",
-        content: "SenLab is an IoT consulting company that I founded and lead as the CEO and owner since 2014. My mission is to deliver knowledge, answers, and solutions for IoT projects in various domains, such as Industry 4.0, logistics, smart cities, home automation, healthcare, research and education. With over 20 years of experience in this field, I have developed core competencies in IoT concept design, prototyping, testing, and deployment, as well as new business development, consulting, and team leadership. I hold a BS in Computer and Information Science and I am pursuing a PhD in Business and Management, which enable me to combine technical expertise with business acumen and creativity. I am passionate about solving complex problems with simple, innovative, and user-friendly IoT solutions that have a positive impact on society and the environment. I have led and participated in multiple award-winning IoT projects, such as IoTool, IoChat, and RelaxedCare, that demonstrate the potential and value of IoT in various settings and scenarios.", linkedin: "https://www.linkedin.com/in/jurelampe/", twitter: "", domain: "", location: "",
-        flag: "", },
     "vinith-bhandari":
         { name: "Vinith Bhandari", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Head of Ecosystem Building", company: "iSHARE Foundation", "company-link": "https://ishare.eu/",
         content: "", linkedin: "https://www.linkedin.com/in/vinith-bhandari/", twitter: "", domain: "", location: "",
@@ -183,10 +206,6 @@ var modalData = {
     "david-campo":
         { name: "David Campo", img: "https://www.fiware.org/wp-content/directories/people/images/200px/david-campo.jpg", position: "Senior Technical Expert &amp; Evangelist", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
         content: "", linkedin: "https://www.linkedin.com/in/davidnazarenocampo/", twitter: "https://twitter.com/dncampo", domain: "", location: "",
-        flag: "", },
-    "stefan-wiedemann":
-        { name: "Stefan Wiedemann", img: "https://www.fiware.org/wp-content/directories/people/images/200px/stefan-wiedemann.jpg", position: "Technical Lead &amp; Architect", company: "Ficodes", "company-link": "https://www.ficodes.com/en/",
-        content: "", linkedin: "https://www.linkedin.com/in/stefan-wiedemann-37a0ba13a/", twitter: "", domain: "", location: "",
         flag: "", },
     "francisco-meléndez":
         { name: "Francisco Meléndez", img: "https://www.fiware.org/wp-content/directories/people/images/200px/francisco-melendez.jpg", position: "Technical Community Coordinator", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",

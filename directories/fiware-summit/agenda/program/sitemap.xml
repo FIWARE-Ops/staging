@@ -25,11 +25,11 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/introduction-to-the-fiware-global-summit-and-fiware-community-news.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/aawatif-hayar--chairman-of-the-smart-cities-morocco-alliance.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/aawatif-hayar--chairman-of-the-smart-cities-morocco-alliance.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/introduction-to-the-fiware-global-summit-and-fiware-community-news.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -50,6 +50,10 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2025/fiware-for-cities-from-europe-to-the-world--from-smart-to-ai-ready.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/telefónica---fiware--building-smart-cities-and-destinations.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -97,6 +101,10 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2025/recreate-water-tool.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2025/smart-data-spaces-for-high-profile-events--enabling-interoperability--trust--and-real-time-insight.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -105,11 +113,15 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/enabling-interoperable-data-exchange-between-systems.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/from-smart-meters-to-digital-twins--how-fiwarebox-simplifies-and-accelerates-fiware-based-smart-city-data-integration-and-visualization-on-a-budget.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/from-smart-meters-to-digital-twins--how-fiwarebox-simplifies-and-accelerates-fiware-based-smart-city-data-integration-and-visualization-on-a-budget.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/aquaspice-real-time-monitoring-platform.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/enabling-interoperable-data-exchange-between-systems.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -118,6 +130,10 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2025/opensustie-and-futrhub-collaborations--shaping-future-of-smart-cities-with-smart-buildings.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/asteriot--a-scalable-fiware-based-platform-for-smart-water-management-and-early-warning-systems.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -157,7 +173,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/european-local-digital-twin-toolbox-project---advancing-the-digital-maturity-of-cities.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/local-digital-twin-toolbox--the-role-of-fiware-in-the-emerging-digital-twins.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -201,6 +217,14 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2025/secure-smart-city.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/ict-platform-and-rapid-prototyping-with-fiware.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2025/governing-trust--legal-and-data-space-frameworks-for-secure-cities-and-resilient-event-management.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -213,11 +237,15 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/exploiting-fiware-potential-for-ehds-regulation-compliance.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/towards-human-centric-smart-city-services-through-decentralized-identity-management-.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2025/overview-of-fiware-data-space-components.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/cyber-security-digital-twins-for-securing-smart-cities.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -229,11 +257,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/secure-smart-city.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
-			<loc>https://www.fiware.org/fgs-2025/ict-platform-and-rapid-prototyping-with-fiware.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/navigating-legal-challenges-in-data-spaces--lessons-from-the-eu-experience-.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -241,7 +265,11 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/cyber-security-digital-twins-for-securing-smart-cities.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/exploiting-fiware-potential-for-ehds-regulation-compliance.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/university-5-0-dataspace--a-smart-campus-ecosystem-living-lab-for-ai-driven-innovation-in-the-region.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
