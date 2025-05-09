@@ -127,7 +127,7 @@ var companies = [
     { name: "Javier Galvez Campanelli", img: "https://www.fiware.org/wp-content/directories/people/images/200px/javier-galvez-campanelli.jpg", position: "Smart Cities Solutions Coordinator", company: "GrupoTX", "company-link": "https://www.grupotx.com/",
     content: "", linkedin: "https://www.linkedin.com/in/javiergalvez/", twitter: "", domain: "", location: ""
     },
-    { name: "Gerardo Guarino F.", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Managing Partner", company: "Urban Service Provider", "company-link": "https://urbansp.city",
+    { name: "Gerardo Guarino F.", img: "https://www.fiware.org/wp-content/directories/people/images/200px/gerardo-guarino.jpg", position: "Managing Partner", company: "Urban Service Provider", "company-link": "https://urbansp.city",
     content: "", linkedin: "https://www.linkedin.com/in/gerardo-guarino-f-867287/", twitter: "", domain: "", location: ""
     },
     { name: "Dr. Aawatif Hayar", img: "https://www.fiware.org/wp-content/directories/people/images/200px/aawatif-hayar.jpg", position: "Chairman", company: "Smart Cities Morocco Alliance", "company-link": "https://www.univh2c.ma/",
