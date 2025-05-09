@@ -160,8 +160,7 @@ var companies = [
     { name: "Khalid Ouakka", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Director of E-Government", company: "Digital Development Agency (ADD)", "company-link": "",
     content: "", linkedin: "https://www.linkedin.com/in/khalid-ouakka-b722ab5/", twitter: "", domain: "", location: ""
     },
-    { name: "Rubén Rosales Patón", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Smart Cities &amp; Innovation Hubs Product Manager
-Telefónica", company: "Telefonica", "company-link": "https://www.telefonica.com/en/",
+    { name: "Rubén Rosales Patón", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Smart Cities &amp; Innovation Hubs Product Manager", company: "Telefonica", "company-link": "https://www.telefonica.com/en/",
     content: "", linkedin: "https://www.linkedin.com/in/rrpaton/", twitter: "", domain: "", location: ""
     },
     { name: "Manfredi Pistone", img: "https://www.fiware.org/wp-content/directories/people/images/200px/manfredi-pistone.jpg", position: "Researcher", company: "Engineering", "company-link": "https://www.eng.it/en/",
