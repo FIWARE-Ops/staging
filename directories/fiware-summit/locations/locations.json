@@ -6,12 +6,12 @@
 			"properties":{
 				"type": "Venue",
 				"name": "Mohammed VI Polytechnic University",
-				"city": "Rabat",
+				"city": "Salé",
 				"html": [
 					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/fiware-summit/rabat-2025/assets/images/rabat-um6p.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/fiware-summit/rabat-2025/assets/images/rabat-um6p.png' loading='lazy'/></picture></div></div>",
-					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Salé</h3><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>Mohammed VI Polytechnic University</div>",
-					"<div class='ihub-type'>BP 6372 Avenue Allal Al Fassi</div>",
+					"<div class='ihub-type'>X7HC+R2</div>",
 					
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://um6p.ma/' rel='noopener'><span class='icon website'></span></a><div class='chip-domain'><ul class='chips'><li class='light-orange'>Venue</li></ul></div></div>"
 				]
@@ -26,10 +26,10 @@
 			"properties":{
 				"type": "Restaurant",
 				"name": "Fairmont La Marina Rabat-Salé Restaurant",
-				"city": "Rabat",
+				"city": "Salé",
 				"html": [
 					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/fiware-summit/rabat-2025/assets/images/dinner-venue.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/fiware-summit/rabat-2025/assets/images/dinner-venue.png' loading='lazy'/></picture></div></div>",
-					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Salé</h3><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>Fairmont La Marina Rabat-Salé Restaurant</div>",
 					"<div class='ihub-type'>Av. de Fès</div>",
 					
@@ -171,7 +171,7 @@
 					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/fiware-summit/rabat-2025/assets/images/rabat-hotel-sofitel.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/fiware-summit/rabat-2025/assets/images/rabat-hotel-sofitel.png' loading='lazy'/></picture></div></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>Sofitel Rabat Jardin des Roses</div>",
-					"<div class='ihub-type'>Rue Soufian Ben Al Wahab</div>",
+					"<div class='ihub-type'>Av. Imam Malek</div>",
 					"<div class='ihub-type'><span class='star'>★ ★ ★ ★ ★ </span></div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://sofitel.accor.com/en/hotels/6813.html' rel='noopener'><span class='icon website'></span></a><div class='chip-domain'><ul class='chips'><li class='light-blue'>Hotel</li></ul></div></div>"
 				]
@@ -191,7 +191,7 @@
 					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/fiware-summit/rabat-2025/assets/images/rabat-hotel-marriott.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/fiware-summit/rabat-2025/assets/images/rabat-hotel-marriott.png' loading='lazy'/></picture></div></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>Rabat Marriott Hotel</div>",
-					"<div class='ihub-type'>Av. Mahjoubi Aherdane</div>",
+					"<div class='ihub-type'>Av. Inaouin</div>",
 					"<div class='ihub-type'><span class='star'>★ ★ ★ ★ ★ </span></div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.marriott.com/en-us/hotels/rbamc-rabat-marriott-hotel/overview/' rel='noopener'><span class='icon website'></span></a><div class='chip-domain'><ul class='chips'><li class='light-blue'>Hotel</li></ul></div></div>"
 				]
@@ -251,7 +251,7 @@
 					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/fiware-summit/rabat-2025/assets/images/rabat-hotel-onomo.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/fiware-summit/rabat-2025/assets/images/rabat-hotel-onomo.png' loading='lazy'/></picture></div></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>Onomo Hotel Rabat Terminus</div>",
-					"<div class='ihub-type'>Gandhi Street, 2</div>",
+					"<div class='ihub-type'>286 Ave Mohammed V</div>",
 					"<div class='ihub-type'><span class='star'>★ ★ ★ ★ </span></div>",
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.onomohotels.com/en/hotel/onomo-hotel-rabat-terminus/' rel='noopener'><span class='icon website'></span></a><div class='chip-domain'><ul class='chips'><li class='light-blue'>Hotel</li></ul></div></div>"
 				]
@@ -266,10 +266,10 @@
 			"properties":{
 				"type": "Airport",
 				"name": "Rabat-Salé International Airport",
-				"city": "Rabat",
+				"city": "Salé",
 				"html": [
 					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/fiware-summit/rabat-2025/assets/images/rabat-aeroport.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/fiware-summit/rabat-2025/assets/images/rabat-aeroport.png' loading='lazy'/></picture></div></div>",
-					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Salé</h3><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>Rabat-Salé International Airport</div>",
 					"<div class='ihub-type'>P4004, Layayda</div>",
 					
