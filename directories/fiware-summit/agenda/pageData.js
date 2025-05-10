@@ -51,13 +51,13 @@ var speakers = [
         'Andrea Cruciani',
         'Mohamed Dafir',
         'Gert De Tant',
+        'Hicham El Habti',
         'Amal El Fellah Seghrouchni',
         'Jason Fox',
         'Javier Galvez Campanelli',
         'Gerardo Guarino F.',
         'Aawatif Hayar',
         'Eloy Hernandez',
-        'Dr. Hicham El Habti',
         'Sveva Ianese',
         'Antonio Jara',
         'Jin Kawasaki',
@@ -87,6 +87,10 @@ var modalData = {
     "alberto-abella":
         { name: "Alberto Abella", img: "https://www.fiware.org/wp-content/directories/people/images/200px/alberto-abella.jpg", position: "Chief Operations Officer", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
         content: "Alberto Abella (m) is PhD in Business (Open data) and Telecommunications Engineer and Master in Total Quality Management, Business Administration and Business Organization. He works as a Data Modelling Expert and Technical Evangelist at FIWARE and currently is the responsible person for the smart data models initiative.", linkedin: "https://www.linkedin.com/in/albertoabella/", twitter: "https://twitter.com/aabella", domain: "", location: "",
+        flag: "", },
+    "hicham-el-habti":
+        { name: "Dr. Hicham El Habti", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "President of UM6P", company: "Mohammed VI Polytechnic University", "company-link": "https://um6p.ma/",
+        content: "", linkedin: "", twitter: "", domain: "", location: "",
         flag: "", },
     "amal-el-fellah-seghrouchni":
         { name: "Amal El Fellah Seghrouchni", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Minister Delegate for Digital Transition and Administrative Reform", company: "Government of Morocco", "company-link": "",
