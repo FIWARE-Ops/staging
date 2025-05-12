@@ -129,10 +129,6 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/orchestrating-data-sovereignty-for-circular-and-climate-resilient-cities.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
 			<loc>https://www.fiware.org/fgs-2025/collaboration-of-tegel-projekt-and-mitsubishi-electric--shaping-future-of-smart-cities-with-smart-buildings.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -158,6 +154,10 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2025/ideation.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/orchestrating-data-sovereignty-for-circular-and-climate-resilient-cities.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -193,6 +193,10 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2025/data-integration-of-smart-buildings-and-smart-cities.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2025/digital-twins-for-real-time-optimization-of-sporting-mega-events.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -217,7 +221,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/from-smart-cities-to-digital-cities.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/building-futureproof-cities-through-effective-use-of-data---how-an-open-source-data-hub-implements-data-governance-and-enables-smart-city-solutions.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -230,6 +234,10 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2025/interoperability-between-energy-communities.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/from-smart-cities-to-digital-cities.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -246,10 +254,6 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2025/ict-platform-and-rapid-prototyping-with-fiware.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
-			<loc>https://www.fiware.org/fgs-2025/governing-trust--legal-and-data-space-frameworks-for-secure-cities-and-resilient-event-management.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -278,6 +282,10 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2025/break.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/governing-trust--legal-and-data-space-frameworks-for-secure-cities-and-resilient-event-management.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
