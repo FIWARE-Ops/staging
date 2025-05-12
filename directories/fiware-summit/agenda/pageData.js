@@ -33,7 +33,6 @@ var sessions = [
         'Robotics &amp; IoT Agents',
         'SDG-Driven Solutions for a Sustainable World Cup Legacy',
         'Secure Smart City',
-        'Session for Academic Partnerships',
         'Smart Data Spaces for High Profile Events',
 ]; 
 var speakers = [
