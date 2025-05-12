@@ -325,7 +325,15 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2025/opportunities-from-each-panelists.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2025/options-for-data-persistence.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/panel-open-discussion.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
