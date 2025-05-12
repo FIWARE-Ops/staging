@@ -39,6 +39,7 @@ var sessions = [
 var speakers = [
         'Alberto Abella',
         'Suna Akbayir',
+        'Mohamed Ali Habouha',
         'João Bastos',
         'Jose Benítez',
         'Massimo Bertoncini',
@@ -66,6 +67,7 @@ var speakers = [
         'Davor Meersman',
         'Francisco Meléndez',
         'Yasunori Mochizuki',
+        'Lydia Montandon',
         'Sachiko Muto',
         'Khalid Ouakka',
         'Manfredi Pistone',
@@ -73,7 +75,7 @@ var speakers = [
         'Rubén Rosales Patón',
         'Alessandro Rossi',
         'Björn Schwarze',
-        'Megumi Suzuki',
+        'Ángeles Tejado',
         'Thimo Thoeye',
         'Brecht van de Vyvere',
         'Stefan Wiedemann',
@@ -89,16 +91,20 @@ var modalData = {
         content: "Alberto Abella (m) is PhD in Business (Open data) and Telecommunications Engineer and Master in Total Quality Management, Business Administration and Business Organization. He works as a Data Modelling Expert and Technical Evangelist at FIWARE and currently is the responsible person for the smart data models initiative.", linkedin: "https://www.linkedin.com/in/albertoabella/", twitter: "https://twitter.com/aabella", domain: "", location: "",
         flag: "", },
     "hicham-el-habti":
-        { name: "Dr. Hicham El Habti", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "President of UM6P", company: "Mohammed VI Polytechnic University", "company-link": "https://um6p.ma/",
+        { name: "Dr. Hicham El Habti", img: "https://www.fiware.org/wp-content/directories/people/images/200px/hicham-el-habti.jpg", position: "President of UM6P", company: "Mohammed VI Polytechnic University", "company-link": "https://um6p.ma/",
         content: "", linkedin: "", twitter: "", domain: "", location: "",
         flag: "", },
     "amal-el-fellah-seghrouchni":
-        { name: "Amal El Fellah Seghrouchni", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Minister Delegate for Digital Transition and Administrative Reform", company: "Government of Morocco", "company-link": "",
+        { name: "Amal El Fellah Seghrouchni", img: "https://www.fiware.org/wp-content/directories/people/images/200px/amal-el-fallah-seghrouchni.jpg", position: "Minister Delegate for Digital Transition and Administrative Reform", company: "Government of Morocco", "company-link": "",
         content: "Experienced Full Professor with a demonstrated history of working in the research industry. Skilled in Mathematical Modeling, Computer Science, Articial Intelligence, Autonomous agents and Software Design. Strong education professional with Ph.D in Computer Science from the University Pierre et Marie Curie and a Habilitation à Diriger les Recherches (HDR) focused in Computer Science - Artificial Intelligence from University Sorbonne Paris Nord. Involved in various international committees for A.I. and Autonomous Agents as co-General Chair of AAMAS 2021 (the Premiere conference on Autonomous Agents and Multi-Agent Systems).", linkedin: "https://www.linkedin.com/in/amal-el-fallah-seghrouchni-7459363/", twitter: "", domain: "", location: "",
         flag: "", },
     "aawatif-hayar":
         { name: "Dr. Aawatif Hayar", img: "https://www.fiware.org/wp-content/directories/people/images/200px/aawatif-hayar.jpg", position: "Chairman", company: "Smart Cities Morocco Alliance", "company-link": "https://www.univh2c.ma/",
         content: "Dr. Aawatif HAYAR is the Minister of Solidarity, Social Integration and Family. She was President of Hassan II University Casablanca 2019-2021. She received, with honors,as the First Moroccan, the degree of “Agrégation” in Electrical Engineering from ENS Cachan in 1992. She received the “Diplôme d’Etudes Approfondies” in Signal processing Image and Communications and the degree of Engineer in Telecommunications Systems and Networks from ENSEEIHT de Toulouse in 1997. She received with honors the Ph.D. degree in Signal Processing and Telecommunications from Institut National Polytechnique in Toulouse in 2001. She was research and teaching associate at EURECOM from 2001 to 2010 in Sophia Antipolis-France. She has an HDR from Univ. Sud Toulon Var from France on Cognitive Wideband Wireless Systems on 2010 and an HDR on Green Téléommunication from Univ. Hassan II Casablanca on 2013. Since 2011, she has Professor position at the UH2C. She is also member of Casablanca “Avant-garde” City think-tank. She is initiator of E-madina Smart City Cluster. Her research interests includes cognitive green radio, UWB systems, smart grids, smart building, ICT for social eco-friendly development. She was also IEEE DLT Chair for EMEA region on 2014-2015 and the inventor of Frugal Social Smart City concept for Casablanca and emerging countries selected by IEEE SCI as one of the most innovative projects in the world in 2015. She is currently Chair of Casablanca IEEE Core Smart City project. She was also selected by the prestigious African Innovation Foundation as one of the top ten innovative African women in 2015. She is the Scientific Advisor, at the City level, since 2016 of Smart City Expo Casablanca and General Co-Chair of IEEE international Smart Cities Conference (IEEE ISC2 -2019). Pr. Hayar is currently leading R&amp;D/Innovation projects funded by INDH, CNRST, GIZ, IRESEN and Heinrich Böll Stiftung such as End to End Energy Efficiency Living Lab, Virtual Museum of Casablanca, e-douar “Smart Inclusive Ecological village” and Solar Decathlon Africa E-Co Dar projects.", linkedin: "https://www.linkedin.com/in/aawatif-hayar-5547395/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "mohamed-ali-habouha":
+        { name: "Mohamed Ali Habouha", img: "https://www.fiware.org/wp-content/directories/people/images/200px/mohamed-ali-habouha.jpg", position: "Governor", company: "Berkane Provincial Council", "company-link": "https://provinceberkane.ma/citoyen/public/",
+        content: "Mr. Mohamed Ali Habouha, appointed by HM King Mohammed VI as Governor of Berkane province, was born on January 13, 1962 in the province of Tan-Tan. He completed his graduate studies at the university of Ottawa where he obtained a double bachelor degree in management, public policy and political science. He also holds an MBA in Strategic Management and economic intelligence from the Paris School of Economic Warfare. He began his career in 1987 in the private sector as administrative director in a public works company before joining the office of exploitation of the ports in 1990. In 1997, he will leave this office to invest in the fisheries sector where he chaired the association of factories for the development of fishery products in Laayoune,and thus became a member of the Moroccan exporters association the ASMEX in 2002. Later on, Governor Habouha joined the Ministry of Interior in 2004 as Secretary General of the Central Administration and was transferred, in 2005, in the same capacity to the Cabinet of the Wali of Moroccan Laâyoune-Boujdour-Sakia-El Hamra Region. On March 1, 2010, he was appointed by HM the King Governor of the Province of Tarfaya and on November 26, 2010 as Governor of the District Prefecture of Sidi Bernoussi, Casablanca. Berkane owes Governor Habouha its international status and most of all the international Smart City Award and recognition it received in September 2022.", linkedin: "", twitter: "", domain: "", location: "",
         flag: "", },
     "yasunori-mochizuki":
         { name: "Yasunori Mochizuki", img: "https://www.fiware.org/wp-content/directories/people/images/200px/yasunori-mochizuki.jpg", position: "NEC Fellow", company: "NEC Corporation", "company-link": "https://www.nec.com/",
@@ -117,7 +123,7 @@ var modalData = {
         content: "Since its establishment in 2015, Jose has been at the helm of Secmotic as CEO. His involvement on the Board of Directors of FIWARE since 2017 has contributed to shaping the future of the organization. In 2021, he embarked on a new venture, founding FIWOO Smart Solutions, a company dedicated to delivering FIWARE-based Smart City platform solutions tailored to the needs of the Spanish public sector.", linkedin: "https://www.linkedin.com/in/jose-benitez-secmotic/", twitter: "", domain: "", location: "",
         flag: "", },
     "khalid-ouakka":
-        { name: "Khalid Ouakka", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Director of E-Government", company: "Digital Development Agency (ADD)", "company-link": "",
+        { name: "Khalid Ouakka", img: "https://www.fiware.org/wp-content/directories/people/images/200px/khalid-ouakka.jpg", position: "Director of E-Government", company: "Digital Development Agency (ADD)", "company-link": "",
         content: "", linkedin: "https://www.linkedin.com/in/khalid-ouakka-b722ab5/", twitter: "", domain: "", location: "",
         flag: "", },
     "andrea-cruciani":
@@ -139,10 +145,6 @@ var modalData = {
     "jin-kawasaki":
         { name: "Jin Kawasaki", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jin-kawasaki.jpg", position: "Head Researcher", company: "Mitsubishi Electric", "company-link": "https://www.mitsubishielectric.com/en/index.html",
         content: "Jin Kawasaki is working as Head Researcher at Information Technology R&amp;D Center of Mitsubishi Electric Corporation. He received Ph.D. degree from University of Tsukuba in 2016. His research interest is smart building and city platform which provides solution such as carbon neutrality, energy management and workplace management.", linkedin: "https://www.linkedin.com/in/jin-kawasaki-817809205/?original_referer&#x3D;https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&amp;originalSubdomain&#x3D;jp", twitter: "", domain: "", location: "",
-        flag: "", },
-    "megumi-suzuki":
-        { name: "Megumi Suzuki", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "", company: "Mitsubishi Electric Corporation", "company-link": "",
-        content: "", linkedin: "", twitter: "", domain: "", location: "",
         flag: "", },
     "davor-meersman":
         { name: "Davor Meersman", img: "https://www.fiware.org/wp-content/directories/people/images/200px/davor-meersman.jpg", position: "Executive Chairman", company: "FutureCraft Foundation", "company-link": "https://futurecraft.earth/",
@@ -207,6 +209,14 @@ var modalData = {
     "javier-galvez-campanelli":
         { name: "Javier Galvez Campanelli", img: "https://www.fiware.org/wp-content/directories/people/images/200px/javier-galvez-campanelli.jpg", position: "Smart Cities Solutions Coordinator", company: "GrupoTX", "company-link": "https://www.grupotx.com/",
         content: "", linkedin: "https://www.linkedin.com/in/javiergalvez/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "lydia-montandon":
+        { name: "Lydia Montandon", img: "https://www.fiware.org/wp-content/directories/people/images/200px/lydia-montandon.jpg", position: "Communications Lead &amp; Project Manager", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
+        content: "Lydia Montandon (f) is marketing and project manager at the FIWARE Foundation. Previously, she was a consultant in digital transformation at Atos, with focus on innovation, experience and accessibility services. Before, her role as business development director was to promote and find a market to exploit R&amp;D outcomes and Innovations. In particular, she supported the commercialization of FIWARE methods and tools when they became mature enough to be proposed to Atos&#x27; clients. She has more than 20 years of experience in coordinating, managing and promoting large European R&amp;D projects. She has contributed to the development of Innovation Management strategies and facilitated co-creation and innovation workshops during more than 10 years. She holds a Master of Science in Education Technologies from the University of Geneva, Switzerland, an MBA in Sustainable Development and Diplomacy from EUCLID University and a diploma in Design &amp; Visual Communication from the Istituto Europeo di Design, Milan, Italy. She is fluent in English, French, Italian, Spanish, German and Greek.", linkedin: "https://www.linkedin.com/in/lydiamontandon/", twitter: "https://twitter.com/lmontandon", domain: "", location: "",
+        flag: "", },
+    "ángeles-tejado":
+        { name: "Ángeles Tejado", img: "https://www.fiware.org/wp-content/directories/people/images/200px/angeles-tejado.jpg", position: "Senior Program Manager", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
+        content: "Angeles Tejado (f) comes with more than 20 years of strong experience in Marketing and Brand Management for customer-focused multinational companies, Angeles coordinated the development of marketing messages helping to communicate the vision and unique value proposition of FIWARE in domains such Smart Cities, Smart Manufacturing &amp; Industry 4.0 and Smart Agrifood; the planning and execution of the FIWARE Communication Strategy; the organization of FIWARE Summits; the coordination of FIWARE presence in all kind of events (market events, StartUp Events, Tech Events, Workshops, Hackathons, Meetups) and in general, coordinating activities targeted to engage members of the FIWARE Community through different FIWARE Mission Support Committees (FIWARE iHubs Committee, FIWARE Accelerator Committee, FIWARE Mundus Committee and Domain Committees associated to the different application domains) and enlarging the FIWARE ecosystem.", linkedin: "https://www.linkedin.com/in/%C3%A1ngeles-tejado-s%C3%A1nchez-2a61b411/", twitter: "", domain: "", location: "",
         flag: "", },
     "javier-conde-díaz":
         { name: "Javier Conde Díaz", img: "https://www.fiware.org/wp-content/directories/people/images/200px/javier-conde.jpg", position: "Assistant Professor", company: "UPM", "company-link": "https://www.upm.es/internacional",

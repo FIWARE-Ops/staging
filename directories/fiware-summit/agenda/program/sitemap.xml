@@ -41,6 +41,10 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2025/first-operational-smart-territory-in-morocco---berkane-experience.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2025/fiware-training.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -125,15 +129,11 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/enabling-interoperable-data-exchange-between-systems.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
 			<loc>https://www.fiware.org/fgs-2025/orchestrating-data-sovereignty-for-circular-and-climate-resilient-cities.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/opensustie-and-futrhub-collaborations--shaping-future-of-smart-cities-with-smart-buildings.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/collaboration-of-tegel-projekt-and-mitsubishi-electric--shaping-future-of-smart-cities-with-smart-buildings.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -145,7 +145,19 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2025/waterverse--water-data-management-ecosystem-for-water-data-spaces.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/enabling-interoperable-data-exchange-between-systems.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2025/introduction-to-iot-agents.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/ideation.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
