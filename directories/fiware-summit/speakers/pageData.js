@@ -20,7 +20,6 @@ var companies = [
         'Libelium',
         'Meaningfy',
         'Mitsubishi Electric',
-        'Mitsubishi Electric Corporation',
         'Mohammed VI Polytechnic University',
         'NEC Corporation',
         'OASC',
@@ -41,10 +40,12 @@ var companies = [
 ]; var titles = [
         'Architect',
         'Assistant Professor',
+        'CBO',
         'CEO',
         'Chairman',
         'Chairman FIWARE TSC',
         'COO',
+        'Coordinator',
         'Director',
         'Evangelist',
         'Executive Chairman',
@@ -55,8 +56,11 @@ var companies = [
         'Head of Unit',
         'Lead',
         'Manager',
+        'Managing Partner',
         'Minister Delegate',
         'Owner',
+        'President',
+        'Product Manager',
         'Professor',
         'Program Manager',
         'Researcher',
@@ -102,7 +106,7 @@ var companies = [
     { name: "Luigi Coppolino", img: "https://www.fiware.org/wp-content/directories/people/images/200px/luigi-coppolino.jpg", position: "Professor", company: "Parthenope University", "company-link": "https://www.uniparthenope.it/",
     content: "Luigi Coppolino is an Associate Professor at the University of Naples Parthenope. After his graduation in Computer Engineering at the University of Naples Federico II, in 2004 he got a Master degree in Dependable Architectures at the University of Campania Vanvitelli (former Second University of Naples). He moved to the industry with a quick experience at InCard Spa (currently ST Microelectronic) and Ansaldo Segnalamento Ferroviario (currently Hitachi Rail Italy) after that he moved back to the University where he got a Ph.D. degree in Computer Engineering from the University of Naples Federico II. In 2006 the TrustedSIM, javacard based project, developed by Mr. Coppolino, was one of the winners of the 7th SIMAGINE contest, sponsored by Axalto, SUN Microsystems, and Samsung. His research activity mainly focuses on dependability (performance/performability, reliability, availability, safety e security) of critical networked computing systems, such as telemedicine, e-government, and video surveillance applications, or avionics, railways, and automotive systems. During his Ph.D, Mr. Coppolino was at the University of New South Wales (Sydney), as Visiting Researcher, working with prof. Branko Celler’s research group to the security of the Home Telecare system developed and distributed by prof. Branko Celler’s research group. Luigi Coppolino is/has been engaged in several research projects funded by the European Community in the framework of FP7 and H2020 funding programs. He is indeed the Technical Coordinator of the COMPACT research project and he was leading was one of the principal investigators of the projects STREAM (Scalable Autonomic Streaming Middleware for Real-time Processing of Massive Data Flows), Grant agreement no. 216181, INTERSECTION (INfrastructure for heTErogeneous, Resilient, SEcure, Complex, Tightly Inter-Operating Networks), Grant agreement no. 216585, INSPIRE (INcreasing Security and Protection through Infrastructure Resilience), Grant agreement no. 225553, MASSIF (MAnagement of Security information and events in Service InFrastructures), Grant agreement no. 257475, SAWSOC (Situation AWare Security Operations Center), Grant agreement no. 313034, LeanBigData, Grant agreement no. 619606, SERECA (Secure Enclaves for REactive Cloud Applications), KONFIDO (Secure and Trusted Paradigm for Interoperable eHealth Services), Grant agreement no. 727528.", linkedin: "https://www.linkedin.com/in/luigi-coppolino-0701366/", twitter: "", domain: "", location: ""
     },
-    { name: "Eugeniu Costetchi", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Founder and CEO", company: "Meaningfy", "company-link": "https://meaningfy.ws/",
+    { name: "Eugeniu Costetchi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/eugeniu-costetchi.jpg", position: "Founder and CEO", company: "Meaningfy", "company-link": "https://meaningfy.ws/",
     content: "", linkedin: "https://www.linkedin.com/in/costezki/", twitter: "", domain: "", location: ""
     },
     { name: "Andrea Cruciani", img: "https://www.fiware.org/wp-content/directories/people/images/200px/andrea-cruciani.jpg", position: "Chief Executive Officer", company: "Agricolus", "company-link": "https://www.agricolus.com/",
@@ -117,10 +121,10 @@ var companies = [
     { name: "Gert De Tant", img: "https://www.fiware.org/wp-content/directories/people/images/200px/gert-de-tant.jpg", position: "Chief Executive Officer", company: "Sirus", "company-link": "https://sirus.be/",
     content: "Gert is the CEO of Sirus. His focus is on the architecture and implementation of data driven platforms for cities, that enable cities to innovate and provide better and more advanced services to their clients being citizens, visitors and companies. He has worked for a number of cities in Europe like Antwerp, Helsinki, Copenhagen, Ghent, Luxembourg and Paderborn and was part of several European projects like ODALA, Drural, Aurural, Duet, JRC Elise, Synchronicity and Select 4 Cities. Next to that he is part of the TTF of ETSI to help to make the NGSI-LD standard testable. He was also part of the team that helped to bring the Fiware Smart Data Models to DTDL, The open source digital twin language that is used amongst others for the Microsoft Digital twin.", linkedin: "https://www.linkedin.com/in/gdetant/", twitter: "", domain: "", location: ""
     },
-    { name: "Amal El Fellah Seghrouchni", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Minister Delegate for Digital Transition and Administrative Reform", company: "Government of Morocco", "company-link": "",
+    { name: "Amal El Fellah Seghrouchni", img: "https://www.fiware.org/wp-content/directories/people/images/200px/amal-el-fallah-seghrouchni.jpg", position: "Minister Delegate for Digital Transition and Administrative Reform", company: "Government of Morocco", "company-link": "",
     content: "Experienced Full Professor with a demonstrated history of working in the research industry. Skilled in Mathematical Modeling, Computer Science, Articial Intelligence, Autonomous agents and Software Design. Strong education professional with Ph.D in Computer Science from the University Pierre et Marie Curie and a Habilitation à Diriger les Recherches (HDR) focused in Computer Science - Artificial Intelligence from University Sorbonne Paris Nord. Involved in various international committees for A.I. and Autonomous Agents as co-General Chair of AAMAS 2021 (the Premiere conference on Autonomous Agents and Multi-Agent Systems).", linkedin: "https://www.linkedin.com/in/amal-el-fallah-seghrouchni-7459363/", twitter: "", domain: "", location: ""
     },
-    { name: "Dr. Hicham El Habti", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "President of UM6P", company: "Mohammed VI Polytechnic University", "company-link": "https://um6p.ma/",
+    { name: "Dr. Hicham El Habti", img: "https://www.fiware.org/wp-content/directories/people/images/200px/hicham-el-habti.jpg", position: "President of UM6P", company: "Mohammed VI Polytechnic University", "company-link": "https://um6p.ma/",
     content: "", linkedin: "", twitter: "", domain: "", location: ""
     },
     { name: "Jason Fox", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jason-fox.jpg", position: "Senior Technical Expert &amp; Evangelist", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
@@ -171,7 +175,7 @@ var companies = [
     { name: "Sachiko Muto", img: "https://www.fiware.org/wp-content/directories/people/images/200px/sashiko-muto.jpg", position: "Senior Researcher", company: "RISE Research Institutes of Sweden", "company-link": "https://ri.se",
     content: "Sachiko Muto is the Chair of OpenForum Europe and a senior researcher at RISE Research Institutes of Sweden. She originally joined OFE in 2007 and served for several years as Director with responsibility for government relations and then as CEO. Sachiko has degrees in Political Science from the University of Toronto and the London School of Economics; she received her doctorate in standardisation policy from TU Delft.", linkedin: "https://www.linkedin.com/in/sachikomuto/", twitter: "", domain: "", location: ""
     },
-    { name: "Khalid Ouakka", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Director of E-Government", company: "Digital Development Agency (ADD)", "company-link": "",
+    { name: "Khalid Ouakka", img: "https://www.fiware.org/wp-content/directories/people/images/200px/khalid-ouakka.jpg", position: "Director of E-Government", company: "Digital Development Agency (ADD)", "company-link": "",
     content: "", linkedin: "https://www.linkedin.com/in/khalid-ouakka-b722ab5/", twitter: "", domain: "", location: ""
     },
     { name: "Rubén Rosales Patón", img: "https://www.fiware.org/wp-content/directories/people/images/200px/ruben-rosales-paton.jpg", position: "Smart Cities &amp; Innovation Hubs Product Manager", company: "Telefonica", "company-link": "https://www.telefonica.com/en/",
@@ -191,9 +195,6 @@ var companies = [
     },
     { name: "Björn Schwarze", img: "https://www.fiware.org/wp-content/directories/people/images/200px/bjorn-schwarze.jpg", position: "Chief Executive Officer", company: "ADDIX", "company-link": "https://www.addix.net/",
     content: "Björn is a professional experienced business leader. He founded ADDIX GmbH 20 years ago and has turned the company from an ISP into a market leader for WIFI operations and TOP Innovator in the Kiel Region, Germany. Identifying and scoping opportunities, setting up teams and turining ideas into business is key strength. Bringing latest innovations into areas such as smart city, maritime industry and business security is the driving force behind his activities. Since 2022 he is representing the FIWARE Gold Members In Board of Directors of FIWARE.", linkedin: "https://www.linkedin.com/in/bjoernschw/", twitter: "https://twitter.com/Hoernblick", domain: "", location: ""
-    },
-    { name: "Megumi Suzuki", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "", company: "Mitsubishi Electric Corporation", "company-link": "",
-    content: "", linkedin: "", twitter: "", domain: "", location: ""
     },
     { name: "Ángeles Tejado", img: "https://www.fiware.org/wp-content/directories/people/images/200px/angeles-tejado.jpg", position: "Senior Program Manager", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
     content: "Angeles Tejado (f) comes with more than 20 years of strong experience in Marketing and Brand Management for customer-focused multinational companies, Angeles coordinated the development of marketing messages helping to communicate the vision and unique value proposition of FIWARE in domains such Smart Cities, Smart Manufacturing &amp; Industry 4.0 and Smart Agrifood; the planning and execution of the FIWARE Communication Strategy; the organization of FIWARE Summits; the coordination of FIWARE presence in all kind of events (market events, StartUp Events, Tech Events, Workshops, Hackathons, Meetups) and in general, coordinating activities targeted to engage members of the FIWARE Community through different FIWARE Mission Support Committees (FIWARE iHubs Committee, FIWARE Accelerator Committee, FIWARE Mundus Committee and Domain Committees associated to the different application domains) and enlarging the FIWARE ecosystem.", linkedin: "https://www.linkedin.com/in/%C3%A1ngeles-tejado-s%C3%A1nchez-2a61b411/", twitter: "", domain: "", location: ""
