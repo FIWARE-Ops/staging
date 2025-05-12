@@ -203,8 +203,8 @@ var modalData = {
         content: "", linkedin: "https://www.linkedin.com/in/dafir-elkettani/?locale&#x3D;en_US", twitter: "", domain: "", location: "",
         flag: "", },
     "mohamed-essaidi":
-        { name: "Prof. Mohamed Essaidi", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Professor &amp; Former Director ENSIAS College of Engineering", company: "Mohammed V University Rabat", "company-link": "https://www.um5.ac.ma/um5/",
-        content: "", linkedin: "", twitter: "", domain: "", location: "",
+        { name: "Prof. Mohamed Essaidi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/mohamed-essaidi.jpg", position: "Professor &amp; Former Director ENSIAS College of Engineering", company: "Mohammed V University Rabat", "company-link": "https://www.um5.ac.ma/um5/",
+        content: "Mohamed Essaidi is Professor and former Director of ENSIAS at Mohammed V University, Rabat, Morocco, and former Director of International Cooperation at the Ministry Delegate to the Head of Government in charge of General Affairs and Governance, Morocco (2019). He is also Chairman of IEEE Public Safety Technology, (2022), IEEE Blockchain Morocco Group (2022) , from IEEE IoT Global Cities Alliance, MEA (2020-2022), member of the evaluation committee of IEEE Humanitarian Activities Committee (2021-2022), member of IEEE EAB Teaching Excellence Editorial Hub, (2021-2022), and member IEEE Global Committee on Global Accreditation (2017-2018). He was also the founding president of the IEEE Morocco Section (2005-2016). Teacher. ESSAAIDI is a UNESCO and ICESCO expert on engineering training, digital transformation and smart cities.", linkedin: "", twitter: "", domain: "", location: "",
         flag: "", },
     "joaquín-salvachúa":
         { name: "Prof. Joaquín Salvachúa", img: "https://www.fiware.org/wp-content/directories/people/images/200px/joaquin-salvachua.jpg", position: "Professor", company: "UPM", "company-link": "https://www.upm.es/internacional",
