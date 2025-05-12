@@ -161,6 +161,10 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2025/interoperability-unleashed-for-data-spaces-specification-languages-and-scoring-for-big-data-and-ai-integration.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2025/data-as-a-strategic-asset--lessons-from-porto-s-urban-platform-and-the-beopen-project.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>

@@ -74,6 +74,7 @@ var speakers = [
         'Matteo Repetto',
         'Rubén Rosales Patón',
         'Alessandro Rossi',
+        'Joaquín Salvachúa',
         'Björn Schwarze',
         'Ángeles Tejado',
         'Thimo Thoeye',
@@ -225,6 +226,10 @@ var modalData = {
     "brecht-van-de-vyvere":
         { name: "Brecht van de Vyvere", img: "https://www.fiware.org/wp-content/directories/people/images/200px/brecht-van-de-vyvere.jpg", position: "Linked Data Architect", company: "Sirus", "company-link": "https://sirus.be/",
         content: "Brecht Van de Vyvere is a driven and pragmatic person with a passion for exchanging linked data. He finished his PhD in 2023 at Ghent University where he learned to work with domain experts to describe their datasets machine-readable in line with standards. Today, he is working at the company Sirus as a Linked Data architect where he enjoys working out architectures to automate the adoption of these datasets within applications. He has built up this experience mainly within the context of (local) governments and cultural organisations.", linkedin: "https://www.linkedin.com/in/brecht-van-de-vyvere-b9232b9b/", twitter: "https://twitter.com/brechtvdv", domain: "", location: "",
+        flag: "", },
+    "joaquín-salvachúa":
+        { name: "Joaquín Salvachúa", img: "https://www.fiware.org/wp-content/directories/people/images/200px/joaquin-salvachua.jpg", position: "Professor", company: "UPM", "company-link": "https://www.upm.es/internacional",
+        content: "Prof. Joaquín Salvachúa received a master degree in Computer Science. He holds the Orange Chair for the “Science of Complex Networks” and the Kairos Chair on “Bank Middleware and Blockchain” at UPM and is a member of the UPM-ING and CyberAula groups. He has participated in several European research projects with several publications at international magazines, books and conferences. (https://orcid.org/0000-0002-7269-8079). Also have participated in several standardization activities, including been coauthor one RFC ( RFC 8802 ).His research focuses today on WebRTC, Cloud infrastructure, social graphs and recommendation, agile cloud infrastructures, P2P, DHT (Distributed HashTables), IOT, Non SQL Data Bases, Big data processing architectures, Identity Management and BlockChain distributed agreement algorithms.His teaching duties includes cloud computing, distributed application development, Databases, Web Full-stack development, Blockchain architecture, Data Engineering and Big data architecture and applications. Has been involved in the FIWARE Initiative since it started (2010) and he is architect and developer of several GE related to security, data persistence and Big Data analysis.", linkedin: "https://es.linkedin.com/in/jsalvachua", twitter: "https://twitter.com/jsalvachua", domain: "", location: "",
         flag: "", },
     "gerardo-guarino-f-":
         { name: "Gerardo Guarino F.", img: "https://www.fiware.org/wp-content/directories/people/images/200px/gerardo-guarino.jpg", position: "Managing Partner", company: "Urban Service Provider", "company-link": "https://urbansp.city",
