@@ -21,6 +21,7 @@ var companies = [
         'Meaningfy',
         'Mitsubishi Electric',
         'Mitsubishi Electric Corporation',
+        'Mohammed V University Rabat',
         'Mohammed VI Polytechnic University',
         'NEC Corporation',
         'OASC',
@@ -33,7 +34,6 @@ var companies = [
         'Smart Cities Morocco Alliance',
         'Telefonica',
         'UFRN',
-        'Université Mohammed V de Rabat',
         'UPM',
         'Urban Service Provider',
 ]; var departments = [
@@ -113,7 +113,7 @@ var companies = [
     { name: "Andrea Cruciani", img: "https://www.fiware.org/wp-content/directories/people/images/200px/andrea-cruciani.jpg", position: "Chief Executive Officer", company: "Agricolus", "company-link": "https://www.agricolus.com/",
     content: "Andrea is the Agricolus co-founder and CEO, member of FIWARE Foundation BoD, Chairman of the FIWARE Smart AgriFood MSC. He runs the international business area and the financial aspects of the company and he has a technical background and experience in applications Development, Enterprise Architectures, Cloud Computing, and GIS. Andrea is involved in Innovative Startup Evolution and scaleup, during the years he worked with Public Administration, multinational companies, NGOs, and SMEs. He is a speaker for several universities and public events where he is invited to discuss entrepreneurship and digital transformation, and he is a contributor in several technical articles and publications about agritech.", linkedin: "https://www.linkedin.com/in/andreacruciani/", twitter: "https://twitter.com/kokkete", domain: "", location: ""
     },
-    { name: "Prof. Mohamed Dafir", img: "https://www.fiware.org/wp-content/directories/people/images/200px/mohamed-dafir.jpg", position: "Managing Partner", company: "Université Mohammed V de Rabat", "company-link": "https://www.um5.ac.ma",
+    { name: "Prof. Mohamed Dafir", img: "https://www.fiware.org/wp-content/directories/people/images/200px/mohamed-dafir.jpg", position: "Managing Partner", company: "Mohammed V University Rabat", "company-link": "https://www.um5.ac.ma",
     content: "", linkedin: "https://www.linkedin.com/in/dafir-elkettani/?locale&#x3D;en_US", twitter: "", domain: "", location: ""
     },
     { name: "Matthias de Bièvre", img: "https://www.fiware.org/wp-content/directories/people/images/200px/matthias-de-bievre.jpg", position: "President", company: "Prometheus-x", "company-link": "https://prometheus-x.org/",
@@ -149,7 +149,7 @@ var companies = [
     { name: "Sveva Ianese", img: "https://www.fiware.org/wp-content/directories/people/images/200px/sveva-ianese.jpg", position: "Consultant, Academic researcher", company: "Data Valley Consulting, University of Padova (Italy)", "company-link": "https://www.unipd.it/en/",
     content: "Sveva Ianese is an academic researcher, consultant, and legal expert. Her expertise covers the domains of smart cities, data governance, compliance of AI and Data Space projects. With a legal background in data protection, she is involved in many research projects and serves Italian public bodies as advisory on data-driven policies. A frequent speaker at international conferences, she has published various scientific and informative articles on AI regulation, data privacy, and smart city development. Her work bridges technology, policy, and law to drive ethical and sustainable urban transformation.", linkedin: "https://www.linkedin.com/in/sveva-ianese/", twitter: "", domain: "", location: ""
     },
-    { name: "Antonio Jara", img: "https://www.fiware.org/wp-content/directories/people/images/200px/antonio-jara.jpg", position: "General Manager Smart Cities", company: "Libelium", "company-link": "https://www.libelium.com/",
+    { name: "Antonio Jara", img: "https://www.fiware.org/wp-content/directories/people/images/200px/antonio-jara.jpg", position: "CSO", company: "Libelium", "company-link": "https://www.libelium.com/",
     content: "Antonio has a PhD from the University of Murcia (Spain) and a MBA from the ENAE business school and UCAM (2012). He has received entrepreneurship awards from ENAE, emprendeGo, IPSO Alliance Award for its disruptive innovation in the IoT. As part of HOP Ubiquitous, Jara is focused on the Smart Cities market with solutions for citizens engagements, tourism, active participation, physical web and environmental monitoring (air quality sensors) in projects such as ENIAC SAFESENS, interoperability / pilots (SmartSDK, Synchronicity, Organicity, BeinCPPS) and also in several actions related to security/privacy (INPUT and FORTIKA).", linkedin: "https://www.linkedin.com/in/jara-libelium/", twitter: "https://twitter.com/antonio_jara", domain: "", location: ""
     },
     { name: "Jin Kawasaki", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jin-kawasaki.jpg", position: "Head Researcher", company: "Mitsubishi Electric", "company-link": "https://www.mitsubishielectric.com/en/index.html",
