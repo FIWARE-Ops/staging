@@ -20,6 +20,7 @@ var companies = [
         'Libelium',
         'Meaningfy',
         'Mitsubishi Electric',
+        'Mitsubishi Electric Corporation',
         'Mohammed VI Polytechnic University',
         'NEC Corporation',
         'OASC',
@@ -195,6 +196,9 @@ var companies = [
     },
     { name: "Björn Schwarze", img: "https://www.fiware.org/wp-content/directories/people/images/200px/bjorn-schwarze.jpg", position: "Chief Executive Officer", company: "ADDIX", "company-link": "https://www.addix.net/",
     content: "Björn is a professional experienced business leader. He founded ADDIX GmbH 20 years ago and has turned the company from an ISP into a market leader for WIFI operations and TOP Innovator in the Kiel Region, Germany. Identifying and scoping opportunities, setting up teams and turining ideas into business is key strength. Bringing latest innovations into areas such as smart city, maritime industry and business security is the driving force behind his activities. Since 2022 he is representing the FIWARE Gold Members In Board of Directors of FIWARE.", linkedin: "https://www.linkedin.com/in/bjoernschw/", twitter: "https://twitter.com/Hoernblick", domain: "", location: ""
+    },
+    { name: "Megumi Suzuki", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "", company: "Mitsubishi Electric Corporation", "company-link": "",
+    content: "", linkedin: "", twitter: "", domain: "", location: ""
     },
     { name: "Ángeles Tejado", img: "https://www.fiware.org/wp-content/directories/people/images/200px/angeles-tejado.jpg", position: "Senior Program Manager", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
     content: "Angeles Tejado (f) comes with more than 20 years of strong experience in Marketing and Brand Management for customer-focused multinational companies, Angeles coordinated the development of marketing messages helping to communicate the vision and unique value proposition of FIWARE in domains such Smart Cities, Smart Manufacturing &amp; Industry 4.0 and Smart Agrifood; the planning and execution of the FIWARE Communication Strategy; the organization of FIWARE Summits; the coordination of FIWARE presence in all kind of events (market events, StartUp Events, Tech Events, Workshops, Hackathons, Meetups) and in general, coordinating activities targeted to engage members of the FIWARE Community through different FIWARE Mission Support Committees (FIWARE iHubs Committee, FIWARE Accelerator Committee, FIWARE Mundus Committee and Domain Committees associated to the different application domains) and enlarging the FIWARE ecosystem.", linkedin: "https://www.linkedin.com/in/%C3%A1ngeles-tejado-s%C3%A1nchez-2a61b411/", twitter: "", domain: "", location: ""

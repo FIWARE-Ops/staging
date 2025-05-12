@@ -46,6 +46,7 @@ var speakers = [
         'Vinith Bhandari',
         'David Campo',
         'Chandra Challagonda',
+        'Tim Cleffmann',
         'Didac Colominas',
         'Javier Conde Díaz',
         'Luigi Coppolino',
@@ -76,6 +77,7 @@ var speakers = [
         'Alessandro Rossi',
         'Joaquín Salvachúa',
         'Björn Schwarze',
+        'Megumi Suzuki',
         'Ángeles Tejado',
         'Thimo Thoeye',
         'Brecht van de Vyvere',
@@ -230,6 +232,14 @@ var modalData = {
     "joaquín-salvachúa":
         { name: "Joaquín Salvachúa", img: "https://www.fiware.org/wp-content/directories/people/images/200px/joaquin-salvachua.jpg", position: "Professor", company: "UPM", "company-link": "https://www.upm.es/internacional",
         content: "Prof. Joaquín Salvachúa received a master degree in Computer Science. He holds the Orange Chair for the “Science of Complex Networks” and the Kairos Chair on “Bank Middleware and Blockchain” at UPM and is a member of the UPM-ING and CyberAula groups. He has participated in several European research projects with several publications at international magazines, books and conferences. (https://orcid.org/0000-0002-7269-8079). Also have participated in several standardization activities, including been coauthor one RFC ( RFC 8802 ).His research focuses today on WebRTC, Cloud infrastructure, social graphs and recommendation, agile cloud infrastructures, P2P, DHT (Distributed HashTables), IOT, Non SQL Data Bases, Big data processing architectures, Identity Management and BlockChain distributed agreement algorithms.His teaching duties includes cloud computing, distributed application development, Databases, Web Full-stack development, Blockchain architecture, Data Engineering and Big data architecture and applications. Has been involved in the FIWARE Initiative since it started (2010) and he is architect and developer of several GE related to security, data persistence and Big Data analysis.", linkedin: "https://es.linkedin.com/in/jsalvachua", twitter: "https://twitter.com/jsalvachua", domain: "", location: "",
+        flag: "", },
+    "megumi-suzuki":
+        { name: "Megumi Suzuki", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "", company: "Mitsubishi Electric Corporation", "company-link": "",
+        content: "", linkedin: "", twitter: "", domain: "", location: "",
+        flag: "", },
+    "tim-cleffmann":
+        { name: "Tim Cleffmann", img: "https://www.fiware.org/wp-content/directories/people/images/200px/tim-cleffmann.jpg", position: "Chief Business Development Officer", company: "DKSR - Data Competence Center for Cities and Regions", "company-link": "https://www.dksr.city/en/",
+        content: "Tim Cleffmann is an innovator and consultant in the field of smart city design and digital business models. As Chief Business Development Officer for the Data Competence Center for Cities and Region he develops practical solutions for urban challenges and turns them into concrete applications with clients and partners. Working with a network of innovative solution providers and using methods of co-creation is particularly important to him. Tim Cleffmann holds a Bachelor and Master of Science from the Karlsruhe Institute of Technology and has previously worked for Detecon International GmbH and Deutsche Telekom in the field of Smart City.", linkedin: "https://www.linkedin.com/in/tim-cleffmann-a456a8122/", twitter: "", domain: "", location: "",
         flag: "", },
     "gerardo-guarino-f-":
         { name: "Gerardo Guarino F.", img: "https://www.fiware.org/wp-content/directories/people/images/200px/gerardo-guarino.jpg", position: "Managing Partner", company: "Urban Service Provider", "company-link": "https://urbansp.city",
