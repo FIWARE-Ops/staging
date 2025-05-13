@@ -174,7 +174,7 @@ function generateHTML(agenda, activeSpeakers, eventDates, style) {
             style: style.agenda
         });
         stageBackgrounds.push({
-            output: path.join(AGENDA_DIR, `../stage/images/${filename}.png`),
+            output: path.join(AGENDA_DIR, `../stage/images/${filename}.html`),
             event,
             year: CurrentYear.toString().substr(-2),
             font: Template.font,
