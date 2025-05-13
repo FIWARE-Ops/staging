@@ -212,11 +212,22 @@ function includes(array, item) {
     return items.includes(item);
 }
 
-function longTitle(data, size) {
+function longTitle80(data, size) {
     if (data && data.length > size) {
         return `<span style="font-size:80%;">${data}</span>`;
     }
     return data;
+}
+
+function longTitle90(data, size) {
+    if (data && data.length > size) {
+        return `<span style="font-size:90%;">${data}</span>`;
+    }
+    return data;
+}
+
+function replaceSpace(data) {
+    return data.replaceAll(' ', '&nbsp;');
 }
 
 Handlebars.registerHelper('createClasses', createClasses);
@@ -233,12 +244,14 @@ Handlebars.registerHelper('rating', rating);
 Handlebars.registerHelper('json', stringify);
 Handlebars.registerHelper('math', math);
 Handlebars.registerHelper('multiline', multiline);
-Handlebars.registerHelper('longTitle', longTitle);
+Handlebars.registerHelper('longTitle', longTitle80);
+Handlebars.registerHelper('longTitle90', longTitle90);
 Handlebars.registerHelper('calendar', calendar);
 Handlebars.registerHelper('webp', webp);
 Handlebars.registerHelper('includes', includes);
 Handlebars.registerHelper('embed', embed);
 Handlebars.registerHelper('listSpeakers', listSpeakers);
+Handlebars.registerHelper('replaceSpace', replaceSpace);
 
 Handlebars.registerHelper({
     eq: (v1, v2) => v1 === v2,

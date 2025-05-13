@@ -160,26 +160,34 @@ function generateHTML(agenda, activeSpeakers, eventDates, style) {
     const stageBackgrounds = [];
     agenda.forEach((event) => {
         const filename = Template.createClass(event.title);
+        const agendaItem = {
+            output: path.join(AGENDA_DIR, `../social-media/images/${filename}.png`),
+            event,
+            year: CurrentYear.toString().substr(-2),
+            font: Template.font,
+            style: style.agenda
+        }
+        const stageItem = {
+            output: path.join(AGENDA_DIR, `../stage/images/${filename}.png`),
+            event,
+            year: CurrentYear.toString().substr(-2),
+            font: Template.font,
+            style: style.stage
+        }
         Template.write(
             path.join(AGENDA_DIR, `../social-media/sessions/${filename}.html`),
             path.join(TEMPLATE_PATH, 'social-media.hbs'),
             event
         );
         Prettier.format(path.join(AGENDA_DIR, `../social-media/sessions/${filename}.html`), { parser: 'html' });
-        socialImages.push({
-            output: path.join(AGENDA_DIR, `../social-media/images/${filename}.png`),
-            event,
-            year: CurrentYear.toString().substr(-2),
-            font: Template.font,
-            style: style.agenda
-        });
-        stageBackgrounds.push({
-            output: path.join(AGENDA_DIR, `../stage/images/${filename}.png`),
-            event,
-            year: CurrentYear.toString().substr(-2),
-            font: Template.font,
-            style: style.stage
-        });
+        socialImages.push(agendaItem);
+        stageBackgrounds.push(stageItem);
+
+        /*Template.write(
+            path.join(AGENDA_DIR, `../stage/sessions/${filename}.html`),
+            path.join(TEMPLATE_PATH, 'stage-image.hbs'),
+            stageItem
+        );*/
     });
     Prettier.format(path.join(AGENDA_DIR, 'agenda.html'), { parser: 'html' });
     Prettier.format(path.join(AGENDA_DIR, 'pageData.js'), { parser: 'flow' });

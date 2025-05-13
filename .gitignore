@@ -6,6 +6,7 @@ members/*/pageData.js
 !members/*/index.html
 !images/.gitkeep
 !social-media/images/*
+!staging/sessions/*
 node_modules
 Untitled.txt
 *.csv

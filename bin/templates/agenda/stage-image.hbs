@@ -82,9 +82,9 @@
     </style>
   </head>
   <body{{#if moderated}} class="moderated"{{/if}}>
-    <div class="track {{event.trackColor}}">{{event.track}}</div>
+    <div class="track {{event.trackColor}}">{{{replaceSpace event.track}}}</div>
     <div class="panel-title">
-      <div class="title">{{{longTitle event.title 90}}}</div>
+      <div class="title">{{{longTitle90 event.title 90}}}</div>
       {{#if event.session}} 
       <div class="subtitle">{{event.session}}</div>
       {{/if}}
