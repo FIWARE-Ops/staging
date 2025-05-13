@@ -12,6 +12,7 @@ var companies = [
         'Eurecat',
         'Ficodes',
         'FIWARE Foundation',
+        'FIWARE TSC',
         'FutureCraft Foundation',
         'Government of Morocco',
         'GrupoTX',
@@ -44,7 +45,6 @@ var companies = [
         'CBO',
         'CEO',
         'Chairman',
-        'Chairman FIWARE TSC',
         'COO',
         'Coordinator',
         'CSO',
@@ -146,7 +146,7 @@ var companies = [
     { name: "Eloy Hernandez", img: "https://www.fiware.org/wp-content/directories/people/images/200px/eloy-hernandez.jpg", position: "Researcher", company: "Eurecat", "company-link": "https://eurecat.org/home/en/",
     content: "I’m a computer engineer with solid experience in IT, artificial intelligence, and project management. Over the years, I’ve been actively involved in European research and innovation projects, where I’ve applied digital technologies to address real-world challenges, especially in the areas of water management, interoperability, and sustainability. My work combines technological development with coordination activities, ensuring that digital solutions are practical, well-integrated, and aligned with stakeholder needs. I’m particularly focused on building interoperable, data-driven tools that support decision-making in different environments. As a member of the ICT4Water cluster, I contribute to joint efforts across Europe to advance open, FAIR, and standard-based digital solutions for the water sector and beyond.", linkedin: "", twitter: "", domain: "", location: ""
     },
-    { name: "Juanjo Hierro", img: "https://www.fiware.org/wp-content/directories/people/images/200px/juanjo-hierro.jpg", position: "Chairman FIWARE TSC", company: "", "company-link": "",
+    { name: "Juanjo Hierro", img: "https://www.fiware.org/wp-content/directories/people/images/200px/juanjo-hierro.jpg", position: "Chairman", company: "FIWARE TSC", "company-link": "",
     content: "Juanjo Hierro (m) obtained a degree in Computer Science in 1990 from the Universidad Politecnica de Madrid (UPM) and owns a certificate of research proficiency. In 1990, Juanjo joined Telefónica I+D where he stayed until he joined FIWARE Foundation. During his career at Telefónica, Juanjo had different management responsibilities in the development of mission-critical systems for Telefónica as well as several R&amp;D projects. In April 2011, he became the Chief Architect of the FIWARE programme combining this role with the one of the CTO of the IoT Division at Telefónica R&amp;D since November 2013. Now a days Juanjo is the Chairman of the FIWARE Technical Steering Committee.", linkedin: "https://www.linkedin.com/in/jhierro/", twitter: "https://twitter.com/JuanjoHierro", domain: "", location: ""
     },
     { name: "Sveva Ianese", img: "https://www.fiware.org/wp-content/directories/people/images/200px/sveva-ianese.jpg", position: "Consultant, Academic researcher", company: "Data Valley Consulting, University of Padova (Italy)", "company-link": "https://www.unipd.it/en/",
