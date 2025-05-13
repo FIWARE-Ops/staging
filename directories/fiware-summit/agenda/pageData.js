@@ -72,6 +72,7 @@ var speakers = [
         'Yasunori Mochizuki',
         'Lydia Montandon',
         'Sachiko Muto',
+        'Khalil Nossair',
         'Khalid Ouakka',
         'Manfredi Pistone',
         'Matteo Repetto',
