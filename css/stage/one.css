@@ -51,29 +51,39 @@ body {
     color: white;
   }
 
+  .track.light-grey {
+      background-color: #ebebeb;
+      color: #000;
+  }
+
   .track.light-blue {
-    background-color: #cce0f0;
-    color: #005fb9;
+      background-color: #cce0f0;
+      color: #005fb9;
   }
   
   .track.cyan {
-    background-color: #ddf1f4;
-    color: #0891b2;
+      background-color: #ddf1f4;
+      color: #0891b2;
   }
   
-  .track.light-yellow {
-    background-color: #fdf6cf;
-    color: #faa307;
+  .track.light-yellow  {
+      background-color: #fdf6cf;
+      color: #faa307;
   }
   
   .track.light-green {
-    background-color: #d0ede4;
-    color: #108763;
+      background-color: #d0ede4;
+      color: #108763;
+  }
+
+  .track.light-orange {
+      background-color: #fce9e3;
+      color: #ec5629;
   }
 
   .track.light-purple {
-    background-color: #f5eaef;
-    color: #9e3162;
+      background-color: #f5eaef;
+      color: #9e3162;
   }
   
   .topic-icon {
@@ -173,23 +183,41 @@ body {
     border-radius: 176px;
   }
 
-  .session-picture.light-blue {
+.session-picture.light-grey {
+    background-color: #ebebeb;
+    color: #000;
+    border-color: #000;
+}
+
+.session-picture.light-orange {
+    background-color: #fce9e3;
+    color: #ec5629;
+    border-color: #ec5629;
+}
+
+.session-picture.light-purple {
+    background-color: #f5eaef;
+    color: #9e3162;
+    border-color: #9e3162;
+}
+
+.session-picture.light-blue {
     background-color: #cce0f0;
     color: #005fb9;
     border-color: #005fb9;
-  }
+}
 
-  .session-picture.light-yellow {
+.session-picture.light-yellow {
     background-color: #f3f3de;
     color: #5c5c00;
     border-color: #5c5c00;
-  }
+}
 
-  .session-picture.light-green {
+.session-picture.light-green {
     background-color: #b8e5d7;
     color: #1b493a;
     border-color: #1b493a;
-  }
+}
 
 
   .speakers {
