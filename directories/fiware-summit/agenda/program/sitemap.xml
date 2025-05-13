@@ -117,6 +117,10 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2025/from-fragmentation-to-federation--the-power-of-collaboration-in-data-space-development.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2025/machine-learning--mlops---fiware.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
