@@ -251,7 +251,7 @@ var modalData = {
         content: "", linkedin: "https://www.linkedin.com/in/gerardo-guarino-f-867287/", twitter: "", domain: "", location: "",
         flag: "", },
     "vinith-bhandari":
-        { name: "Vinith Bhandari", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Head of Ecosystem Building", company: "iSHARE Foundation", "company-link": "https://ishare.eu/",
+        { name: "Vinith Bhandari", img: "https://www.fiware.org/wp-content/directories/people/images/200px/vinith-bhandari.jpg", position: "Head of Ecosystem Building", company: "iSHARE Foundation", "company-link": "https://ishare.eu/",
         content: "", linkedin: "https://www.linkedin.com/in/vinith-bhandari/", twitter: "", domain: "", location: "",
         flag: "", },
     "jason-fox":
