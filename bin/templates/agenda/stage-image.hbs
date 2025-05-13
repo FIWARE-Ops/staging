@@ -1,0 +1,250 @@
+
+ <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style>
+      @font-face {
+        font-family: 'Montserrat';
+        src: url("{{{font.light}}}") format('woff2');
+        font-weight: 300;
+        font-style: normal;
+      }
+  
+      @font-face {
+        font-family: 'Montserrat';
+        src: url("{{{font.regular}}}") format('woff2');
+        font-weight: 400;
+        font-style: normal;
+      }
+  
+      @font-face {
+        font-family: 'Montserrat';
+        src: url("{{{font.medium}}}") format('woff2');
+        font-weight: 500;
+        font-style: normal;
+      }
+  
+      @font-face {
+        font-family: 'Montserrat';
+        src: url("{{{font.semibold}}}") format('woff2');
+        font-weight: 600;
+        font-style: normal;
+      }
+  
+      @font-face {
+        font-family: 'Montserrat';
+        src: url("{{{font.bold}}}") format('woff2');
+        font-weight: 700;
+        font-style: normal;
+      }
+  
+      @font-face {
+        font-family: 'Montserrat';
+        src: url("{{{font.italic}}}") format('woff2');
+        font-weight: normal;
+        font-style: italic;
+      }
+  
+      @font-face {
+        font-family: 'Montserrat';
+        src: url("{{{font.light}}}") format('woff2');
+        font-weight: 300;
+      }
+  
+      @font-face {
+        font-family: 'Montserrat';
+        src: url("{{{font.medium}}}") format('woff2');
+        font-weight: 500;
+      }
+  
+      @font-face {
+        font-family: 'Montserrat';
+        src: url("{{{font.semibold}}}") format('woff2');
+        font-weight: 600;
+      }
+  
+    {{#if (lt event.numSpeakers 2)}}
+      {{{style.one}}}
+    {{else}}
+    {{#if (eq event.numSpeakers 2)}}
+      {{{style.two}}}
+    {{else}}
+    {{#if (eq event.numSpeakers 3)}}
+      {{{style.three}}}
+    {{else}}
+    {{#if (eq event.numSpeakers 4)}}
+      {{{style.four}}}
+    {{else}}
+      {{{style.many}}}
+    {{/if}}
+    {{/if}}
+    {{/if}}
+    {{/if}}
+      
+    </style>
+  </head>
+  <body{{#if moderated}} class="moderated"{{/if}}>
+    <div class="track {{event.trackColor}}">{{event.track}}</div>
+    <div class="panel-title">
+      <div class="title">{{{longTitle event.title 90}}}</div>
+      {{#if event.session}} 
+      <div class="subtitle">{{event.session}}</div>
+      {{/if}}
+    </div>
+    {{#if (and event.moderated (gt event.numSpeakers 0))}}
+    <div class="panel-moderated-by">Session moderated by</div>
+    {{/if}}
+
+    {{#if (eq event.numSpeakers 0)}}
+    <div class="panel-session">
+      <div class="session-picture {{event.trackColor}}">
+        <img src="{{event.img}}"/>
+      </div>
+    </div>
+    {{else}}
+    {{#if (eq event.numSpeakers 1)}}
+    <div class="panel-speakers">
+      <div class="speakers">
+        {{#each event.speakers}}
+        <div class="speaker{{#if (includes ../moderators name)}} moderator{{/if}}">
+          <div class="profile-picture">
+            {{#if img}}
+            <img decoding="async" alt="{{name}}" src="{{img}}">
+            {{else}}
+            <img src="https://www.fiware.org/wp-content/directories/people/images/ico_user.png">    
+            {{/if}}
+          </div>
+          <div class="speaker-info">
+            <div class="speaker-name">{{name}}</div>
+            <div class="speaker-job-title">{{shortJob}}</div>
+            <div class="speaker-company">{{{multiline company}}}</div>
+          </div>
+        </div>
+        {{/each}}
+      </div>
+    </div>
+    {{else}}
+    {{#if (eq event.numSpeakers 2)}}
+    <div class="panel-speakers">
+      <div class="speakers">
+        {{#each event.speakers}}
+        <div class="speaker{{#if (includes ../moderators name)}} moderator{{/if}}">
+          <div class="grid-container">
+            <div class="profile-picture-small">
+              {{#if img}}
+              <img decoding="async" alt="{{name}}" src="{{img}}">
+              {{else}}
+              <img src="https://www.fiware.org/wp-content/directories/people/images/ico_user.png">    
+              {{/if}}
+            </div>
+            <div class="speaker-info">
+              <div class="speaker-name">{{name}}</div>
+              <div class="speaker-job-title">{{shortJob}}</div>
+              <div class="speaker-company">{{{multiline company}}}</div>
+            </div>
+          </div>
+        </div>
+        {{/each}}
+      </div>
+    </div>
+    {{else}}
+    {{#if (eq event.numSpeakers 3)}}
+    <div class="panel-speakers">
+      <div class="speakers">
+        {{#each event.speakers}}
+        <div class="speaker{{#if (includes ../moderators name)}} moderator{{/if}}">
+          <div class="grid-container">
+            <div class="profile-picture-small">
+              {{#if img}}
+              <img decoding="async" alt="{{name}}" src="{{img}}">
+              {{else}}
+              <img src="https://www.fiware.org/wp-content/directories/people/images/ico_user.png">    
+              {{/if}}
+            </div>
+            <div class="speaker-info">
+              <div class="speaker-name">{{name}}</div>
+              <div class="speaker-job-title">{{shortJob}}</div>
+              <div class="speaker-company">{{{multiline company}}}</div>
+            </div>
+          </div>
+        </div>
+        {{/each}}
+      </div>
+    </div>
+    {{else}}
+    {{#if (eq event.numSpeakers 4)}}
+    <div class="panel-speakers">
+      <div class="speakers{{#if (includes ../moderators name)}} moderator{{/if}}">
+        {{#each event.speakers}}
+        <div class="speaker">
+          <div class="grid-container">
+            <div class="profile-picture-small">
+              {{#if img}}
+              <img src="{{img}}">
+              {{else}}
+              <img src="https://www.fiware.org/wp-content/directories/people/images/ico_user.png">    
+              {{/if}}
+            </div>
+            <div class="speaker-info">
+              <div class="speaker-name">{{{longTitle name 18}}}</div>
+              <div class="speaker-job-title">{{shortJob}}</div>
+              <div class="speaker-company">{{{multiline company}}}</div>
+            </div>
+          </div>
+        </div>
+        {{/each}}
+      </div>
+    </div>
+    {{else}}
+    {{#if (lt event.numSpeakers 7)}}
+    <div class="panel-speakers more">
+      <div class="speakers more">
+        {{#each event.speakers}}
+        <div class="speaker{{#if (includes ../moderators name)}} moderator{{/if}}">
+          <div class="profile-picture-tiny">
+            {{#if img}}
+            <img src="{{img}}">
+            {{else}}
+            <img src="https://www.fiware.org/wp-content/directories/people/images/ico_user.png">    
+            {{/if}}
+          </div>
+          <div class="speaker-info-small">
+            <div class="speaker-name">{{name}}</div>
+            <div class="speaker-job-title">{{shortJob}}</div>
+            <div class="speaker-company">{{{multiline company}}}</div>
+          </div>
+        </div>
+      {{/each}}
+      </div>
+    </div>
+    {{else}}
+    <div class="panel-speakers more">
+      <div class="speakers more">
+        {{#each event.speakers}}
+        <div class="speaker">
+          <div class="speaker-info-small">
+            <div class="speaker-name">{{name}}</div>
+            <div class="speaker-job-title">{{shortJob}}</div>
+            <div class="speaker-company">{{{multiline company}}}</div>
+          </div>
+        </div>
+      {{/each}}
+      </div>
+    </div>
+    {{/if}}
+    {{/if}}
+    {{/if}}
+    {{/if}}
+    {{/if}}
+    {{/if}}
+    <div class="panel-info">
+      <div class="date-time">
+        <span class="date">{{event.shortDate}}</span>
+        <br/>
+        <span class="time">{{event.start}} – {{event.end}}</span>
+        {{#if (ne event.location '')}}
+        <br/>
+        <span class="place">{{event.location}}</span>
+        {{/if}}
+       </div>
+    </div>
+
+  </body></html>
