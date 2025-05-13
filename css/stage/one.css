@@ -136,15 +136,15 @@ body {
   }
 
   .profile-picture {
-    width: 320px;
-    min-width: 320px;
-    max-width: 320px;
-    height: 320px;
+    width: 300px;
+    min-width: 300px;
+    max-width: 300px;
+    height: 300px;
   }
 
   .profile-picture img {
     width: 100%;
-    border-radius: 110px;
+    border-radius: 150px;
   }
 
   .profile-picture-small {
