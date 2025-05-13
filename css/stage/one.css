@@ -93,24 +93,28 @@ body {
     float: right;
   }
   
+  .topic-icon.light-orange {
+    background-color: #fce9e3;
+  }
+
   .topic-icon.light-blue {
     background-color: #cce0f0;
   }
-  
+
   .topic-icon.cyan {
       background-color: #ddf1f4;
   }
-  
+
   .topic-icon.light-yellow {
     background-color: #fdf6cf;
-  }
-  
-  .topic-icon.light-green {
-    background-color: #d0ede4;
   }
 
   .topic-icon.light-purple {
     background-color: #f5eaef;
+  }
+
+  .topic-icon.light-green {
+    background-color: #d0ede4;
   }
 
   .panel-moderated-by {
