@@ -53,6 +53,7 @@ var speakers = [
         'Andrea Cruciani',
         'Mohamed Dafir',
         'Gert De Tant',
+        'Matthias de Bièvre',
         'Hicham El Habti',
         'Amal El Fellah Seghrouchni',
         'Mohamed Essaidi',
@@ -61,6 +62,7 @@ var speakers = [
         'Gerardo Guarino F.',
         'Aawatif Hayar',
         'Eloy Hernandez',
+        'Juanjo Hierro',
         'Sveva Ianese',
         'Antonio Jara',
         'Jure Lampe',
@@ -228,6 +230,14 @@ var modalData = {
     "javier-conde-díaz":
         { name: "Javier Conde Díaz", img: "https://www.fiware.org/wp-content/directories/people/images/200px/javier-conde.jpg", position: "Assistant Professor", company: "UPM", "company-link": "https://www.upm.es/internacional",
         content: "Assistant Professor with the UPM. I teach Big Data, Databases, Telecommunication Networks, and Web Engineering subjects. My research interests lie in the fields of Open Linked Data, Digital Twins, Big Data and Machine Learning. In the FIWARE ecosystem I contribute to the Draco GE and study architectures based on FIWARE GEs and FIWARE Smart Data Models.", linkedin: "https://es.linkedin.com/in/javier-conde-diaz", twitter: "https://twitter.com/JaviConD3", domain: "", location: "",
+        flag: "", },
+    "juanjo-hierro":
+        { name: "Juanjo Hierro", img: "https://www.fiware.org/wp-content/directories/people/images/200px/juanjo-hierro.jpg", position: "Chairman", company: "FIWARE TSC", "company-link": "",
+        content: "Juanjo Hierro (m) obtained a degree in Computer Science in 1990 from the Universidad Politecnica de Madrid (UPM) and owns a certificate of research proficiency. In 1990, Juanjo joined Telefónica I+D where he stayed until he joined FIWARE Foundation. During his career at Telefónica, Juanjo had different management responsibilities in the development of mission-critical systems for Telefónica as well as several R&amp;D projects. In April 2011, he became the Chief Architect of the FIWARE programme combining this role with the one of the CTO of the IoT Division at Telefónica R&amp;D since November 2013. Now a days Juanjo is the Chairman of the FIWARE Technical Steering Committee.", linkedin: "https://www.linkedin.com/in/jhierro/", twitter: "https://twitter.com/JuanjoHierro", domain: "", location: "",
+        flag: "", },
+    "matthias-de-bièvre":
+        { name: "Matthias de Bièvre", img: "https://www.fiware.org/wp-content/directories/people/images/200px/matthias-de-bievre.jpg", position: "President", company: "Prometheus-x", "company-link": "https://prometheus-x.org/",
+        content: "", linkedin: "https://www.linkedin.com/in/matthias-de-bi%C3%A8vre-817887115/", twitter: "", domain: "", location: "",
         flag: "", },
     "brecht-van-de-vyvere":
         { name: "Brecht van de Vyvere", img: "https://www.fiware.org/wp-content/directories/people/images/200px/brecht-van-de-vyvere.jpg", position: "Linked Data Architect", company: "Sirus", "company-link": "https://sirus.be/",
