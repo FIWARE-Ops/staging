@@ -65,6 +65,8 @@ var speakers = [
         'Juanjo Hierro',
         'Sveva Ianese',
         'Antonio Jara',
+        'Jin Kawasaki',
+        'Zouhair Lakhdissi',
         'Jure Lampe',
         'Frederico Lopes',
         'Davor Meersman',
@@ -147,6 +149,10 @@ var modalData = {
     "jure-lampe":
         { name: "Jure Lampe", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jure-lampe.png", position: "Chief Executive Officer", company: "SenLab d.o.o.", "company-link": "https://senlab.io/en/about-us",
         content: "SenLab is an IoT consulting company that I founded and lead as the CEO and owner since 2014. My mission is to deliver knowledge, answers, and solutions for IoT projects in various domains, such as Industry 4.0, logistics, smart cities, home automation, healthcare, research and education. With over 20 years of experience in this field, I have developed core competencies in IoT concept design, prototyping, testing, and deployment, as well as new business development, consulting, and team leadership. I hold a BS in Computer and Information Science and I am pursuing a PhD in Business and Management, which enable me to combine technical expertise with business acumen and creativity. I am passionate about solving complex problems with simple, innovative, and user-friendly IoT solutions that have a positive impact on society and the environment. I have led and participated in multiple award-winning IoT projects, such as IoTool, IoChat, and RelaxedCare, that demonstrate the potential and value of IoT in various settings and scenarios.", linkedin: "https://www.linkedin.com/in/jurelampe/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "jin-kawasaki":
+        { name: "Jin Kawasaki", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jin-kawasaki.jpg", position: "Head Researcher", company: "Mitsubishi Electric", "company-link": "https://www.mitsubishielectric.com/en/index.html",
+        content: "Jin Kawasaki is working as Head Researcher at Information Technology R&amp;D Center of Mitsubishi Electric Corporation. He received Ph.D. degree from University of Tsukuba in 2016. His research interest is smart building and city platform which provides solution such as carbon neutrality, energy management and workplace management.", linkedin: "https://www.linkedin.com/in/jin-kawasaki-817809205/?original_referer&#x3D;https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&amp;originalSubdomain&#x3D;jp", twitter: "", domain: "", location: "",
         flag: "", },
     "davor-meersman":
         { name: "Davor Meersman", img: "https://www.fiware.org/wp-content/directories/people/images/200px/davor-meersman.jpg", position: "Executive Chairman", company: "FutureCraft Foundation", "company-link": "https://futurecraft.earth/",
