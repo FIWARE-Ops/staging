@@ -157,6 +157,7 @@ function generateHTML(agenda, activeSpeakers, eventDates, style) {
     Template.write(path.join(AGENDA_DIR, 'program/sitemap.xml'), path.join(TEMPLATE_PATH, 'sitemap-xml.hbs'), agenda);
 
     const socialImages = [];
+    const stageBackgrounds = [];
     agenda.forEach((event) => {
         const filename = Template.createClass(event.title);
         Template.write(
@@ -170,7 +171,14 @@ function generateHTML(agenda, activeSpeakers, eventDates, style) {
             event,
             year: CurrentYear.toString().substr(-2),
             font: Template.font,
-            style
+            style: style.agenda
+        });
+        stageBackgrounds.push({
+            output: path.join(AGENDA_DIR, `../stage/images/${filename}.png`),
+            event,
+            year: CurrentYear.toString().substr(-2),
+            font: Template.font,
+            style: style.stage
         });
     });
     Prettier.format(path.join(AGENDA_DIR, 'agenda.html'), { parser: 'html' });
@@ -181,6 +189,7 @@ function generateHTML(agenda, activeSpeakers, eventDates, style) {
     }
     if (SOCIAL_IMAGES) {
         Template.createSocialMediaImages(socialImages, path.join(TEMPLATE_PATH, 'social-media-image.hbs'));
+        Template.createSocialMediaImages(stageBackgrounds, path.join(TEMPLATE_PATH, 'stage-image.hbs'));
     }
     return agenda;
 }
@@ -193,11 +202,20 @@ function parse(agendaFile, speakersFile) {
     const activeSpeakers = [];
     const eventDates = [];
     const style = {
-        one: Template.readCSS('agenda', 'one'),
-        two: Template.readCSS('agenda', 'two'),
-        three: Template.readCSS('agenda', 'three'),
-        four: Template.readCSS('agenda', 'four'),
-        many: Template.readCSS('agenda', 'many')
+        agenda: {
+            one: Template.readCSS('agenda', 'one'),
+            two: Template.readCSS('agenda', 'two'),
+            three: Template.readCSS('agenda', 'three'),
+            four: Template.readCSS('agenda', 'four'),
+            many: Template.readCSS('agenda', 'many')
+        },
+        stage: {
+            one: Template.readCSS('stage', 'one'),
+            two: Template.readCSS('stage', 'two'),
+            three: Template.readCSS('stage', 'three'),
+            four: Template.readCSS('stage', 'four'),
+            many: Template.readCSS('stage', 'many')
+        }
     };
 
     return csv()

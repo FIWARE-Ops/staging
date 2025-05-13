@@ -53,7 +53,7 @@ function concatGeoJSON(filename, file1, file2, file3) {
 }
 
 function readCSS(page, attr) {
-    return fs.readFileSync(path.join(__dirname, `./../css/${page}-${attr}.css`), { encoding: 'utf-8' });
+    return fs.readFileSync(path.join(__dirname, `./../css/${page}/${attr}.css`), { encoding: 'utf-8' });
 }
 
 /**
