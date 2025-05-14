@@ -25,20 +25,20 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Restaurant",
-				"name": "Fairmont La Marina Rabat-Salé Restaurant",
+				"name": "Rabat Marriott Hotel",
 				"city": "Salé",
 				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/fiware-summit/rabat-2025/assets/images/dinner-venue.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/fiware-summit/rabat-2025/assets/images/dinner-venue.png' loading='lazy'/></picture></div></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/fiware-summit/rabat-2025/assets/images/gala-dinner-venue.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/fiware-summit/rabat-2025/assets/images/gala-dinner-venue.png' loading='lazy'/></picture></div></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Salé</h3><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>",
-					"<div class='ihub-name'>Fairmont La Marina Rabat-Salé Restaurant</div>",
-					"<div class='ihub-type'>Av. de Fès</div>",
+					"<div class='ihub-name'>Rabat Marriott Hotel</div>",
+					"<div class='ihub-type'>Av. Inaouin</div>",
 					
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.fairmont.com/en/hotels/rabat/fairmont-la-marina-rabat-sale/dining.html' rel='noopener'><span class='icon website'></span></a><div class='chip-domain'><ul class='chips'><li class='light-blue'>Restaurant</li></ul></div></div>"
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.marriott.com/en-us/hotels/rbamc-rabat-marriott-hotel/overview/' rel='noopener'><span class='icon website'></span></a><div class='chip-domain'><ul class='chips'><li class='light-blue'>Restaurant</li></ul></div></div>"
 				]
 			},
 			"geometry":{
 				"type":"Point",
-				"coordinates":[-6.828932,34.032649]
+				"coordinates":[-6.844701,34.004073]
 			}
 		},
 		{
