@@ -176,7 +176,7 @@ body {
     width: 1104px;
     position: absolute;
     top: 447px;
-    left: 692px;
+    left: 700px;
 }
 
 .session-picture {
@@ -185,7 +185,7 @@ body {
     max-width: 448px;
     height: 448px;
     border-radius: 8px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 .session-picture img {
