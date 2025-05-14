@@ -196,6 +196,8 @@ async function generateHTML(agenda, activeSpeakers, eventDates, style) {
         Template.qrCodes(path.join(AGENDA_DIR, 'qr'), agenda);
     }
     if (SOCIAL_IMAGES) {
+        Template.emptyDir(path.join(AGENDA_DIR, '../stage/images'));
+        Template.emptyDir(path.join(AGENDA_DIR, '../social-media/images'));
         await Template.createSocialMediaImages(socialImages, path.join(TEMPLATE_PATH, 'social-media-image.hbs'), 'Social Media');
         await Template.createSocialMediaImages(stageBackgrounds, path.join(TEMPLATE_PATH, 'stage-image.hbs'), 'Stage Background');
     }

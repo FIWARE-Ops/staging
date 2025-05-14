@@ -298,6 +298,10 @@ function clean(dir) {
     }
 }
 
+function emptyDir(dir) {
+    fs.emptyDirSync(dir);
+}
+
 function cleanDir(dir) {
     function listDirectories(dir) {
         return fs
@@ -363,5 +367,6 @@ exports.readCSS = readCSS;
 exports.concatGeoJSON = concatGeoJSON;
 exports.getSearchKeys = getSearchKeys;
 exports.cleanDir = cleanDir;
+exports.emptyDir = emptyDir;
 exports.createClass = createClass;
 exports.createSocialMediaImages = createSocialMediaImages;
