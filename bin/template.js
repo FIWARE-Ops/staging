@@ -227,7 +227,7 @@ function longTitle90(data, size) {
 }
 
 function replaceSpace(data) {
-    return data.replaceAll(' ', '&nbsp;');
+    return data ? data.replaceAll(' ', '&nbsp;') : '';
 }
 
 Handlebars.registerHelper('createClasses', createClasses);
