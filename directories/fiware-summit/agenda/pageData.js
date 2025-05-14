@@ -260,7 +260,7 @@ var modalData = {
         content: "Megumi Suzuki is working as a Researcher at Information Technology R&amp;D Center of Mitsubishi Electric Corporation. She received master&#x27;s degree from University of Tsukuba in 2021. Her research interest is smart building data models of smart building and smart city platform.", linkedin: "", twitter: "", domain: "", location: "",
         flag: "", },
     "tim-cleffmann":
-        { name: "Tim Cleffmann", img: "https://www.fiware.org/wp-content/directories/people/images/200px/tim-cleffmann.jpg", position: "Chief Business Development Officer", company: "DKSR - Data Competence Center for Cities and Regions", "company-link": "https://www.dksr.city/en/",
+        { name: "Tim Cleffmann", img: "https://www.fiware.org/wp-content/directories/people/images/200px/tim-cleffmann.jpg", position: "Chief Business Development Officer", company: "DKSR", "company-link": "https://www.dksr.city/en/",
         content: "Tim Cleffmann is an innovator and consultant in the field of smart city design and digital business models. As Chief Business Development Officer for the Data Competence Center for Cities and Region he develops practical solutions for urban challenges and turns them into concrete applications with clients and partners. Working with a network of innovative solution providers and using methods of co-creation is particularly important to him. Tim Cleffmann holds a Bachelor and Master of Science from the Karlsruhe Institute of Technology and has previously worked for Detecon International GmbH and Deutsche Telekom in the field of Smart City.", linkedin: "https://www.linkedin.com/in/tim-cleffmann-a456a8122/", twitter: "", domain: "", location: "",
         flag: "", },
     "gerardo-guarino-f-":
