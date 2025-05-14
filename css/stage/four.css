@@ -224,6 +224,9 @@ body {
 }
 
 .grid-container .speaker-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
     margin-left: 0px;
     margin-top: 0px;
     padding-top: 0px;
@@ -245,7 +248,7 @@ body {
 }
 
 .grid-container .speaker-name {
-    font-size: 20px;
+    font-size: 24px;
     line-height: 1.3em;
     font-weight: 600;
     color: #000000;
@@ -272,7 +275,7 @@ body {
 }
 
 .grid-container .speaker-job-title {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1em;
     font-weight: 400;
     color: #696969;
@@ -298,8 +301,8 @@ body {
 }
 
 .grid-container .speaker-company {
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 18px;
+    line-height: 24px;
     font-weight: 400;
     color: #696969;
     padding: 0;
