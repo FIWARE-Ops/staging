@@ -214,14 +214,14 @@ function includes(array, item) {
 
 function longTitle80(data, size) {
     if (data && data.length > size) {
-        return `<span style="font-size:80%;">${data}</span>`;
+        return `<span style="font-size:80%; line-height:80%;">${data}</span>`;
     }
     return data;
 }
 
 function longTitle90(data, size) {
     if (data && data.length > size) {
-        return `<span style="font-size:90%;">${data}</span>`;
+        return `<span style="font-size:90%; line-height:90%;">${data}</span>`;
     }
     return data;
 }
