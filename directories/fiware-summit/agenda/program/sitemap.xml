@@ -133,6 +133,10 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2025/collaboration-of-tegel-projekt-and-mitsubishi-electric--shaping-future-of-smart-cities-with-smart-buildings.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2025/asteriot--a-scalable-fiware-based-platform-for-smart-water-management-and-early-warning-systems.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -193,7 +197,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/data-integration-of-smart-buildings-and-smart-cities.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/opensustie---data-integration-of-smart-buildings-and-smart-cities.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
