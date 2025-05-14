@@ -164,10 +164,10 @@ body {
 
 .profile-picture-small img {
     margin: auto;
-    width: 208px;
-    min-width: 208px;
-    max-width: 208px;
-    height: 208px;
+    width: 180px;
+    min-width: 180px;
+    max-width: 180px;
+    height: 180px;
     display: block;
     width: 100%;
     border-radius: 128px;
