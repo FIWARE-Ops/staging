@@ -9,7 +9,7 @@ var companies = [
         'DKSR - Data Competence Center for Cities and Regions',
         'Engineering',
         'Eurecat',
-        'Ficodes',
+        'FICODES',
         'FIWARE Foundation',
         'FIWARE Technical Steering Committee',
         'FutureCraft Foundation',
@@ -66,6 +66,7 @@ var companies = [
         'Professor',
         'Program Manager',
         'Researcher',
+        'Software Engineer',
         'Technical Expert',
         'Technical Manager',
         'Vice-President',
@@ -203,7 +204,7 @@ var companies = [
     { name: "Prof. Joaquín Salvachúa", img: "https://www.fiware.org/wp-content/directories/people/images/200px/joaquin-salvachua.jpg", position: "Professor", company: "UPM", "company-link": "https://www.upm.es/internacional",
     content: "Prof. Joaquín Salvachúa received a master degree in Computer Science. He holds the Orange Chair for the “Science of Complex Networks” and the Kairos Chair on “Bank Middleware and Blockchain” at UPM and is a member of the UPM-ING and CyberAula groups. He has participated in several European research projects with several publications at international magazines, books and conferences. (https://orcid.org/0000-0002-7269-8079). Also have participated in several standardization activities, including been coauthor one RFC ( RFC 8802 ).His research focuses today on WebRTC, Cloud infrastructure, social graphs and recommendation, agile cloud infrastructures, P2P, DHT (Distributed HashTables), IOT, Non SQL Data Bases, Big data processing architectures, Identity Management and BlockChain distributed agreement algorithms.His teaching duties includes cloud computing, distributed application development, Databases, Web Full-stack development, Blockchain architecture, Data Engineering and Big data architecture and applications. Has been involved in the FIWARE Initiative since it started (2010) and he is architect and developer of several GE related to security, data persistence and Big Data analysis.", linkedin: "https://es.linkedin.com/in/jsalvachua", twitter: "https://twitter.com/jsalvachua", domain: "", location: ""
     },
-    { name: "Björn Schwarze", img: "https://www.fiware.org/wp-content/directories/people/images/200px/bjorn-schwarze.jpg", position: "Chief Executive Officer", company: "ADDIX", "company-link": "https://www.addix.net/",
+    { name: "Björn Schwarze", img: "https://www.fiware.org/wp-content/directories/people/images/200px/bjorn-schwarze.jpg", position: "Managing Director", company: "ADDIX", "company-link": "https://www.addix.net/",
     content: "Björn is a professional experienced business leader. He founded ADDIX GmbH 20 years ago and has turned the company from an ISP into a market leader for WIFI operations and TOP Innovator in the Kiel Region, Germany. Identifying and scoping opportunities, setting up teams and turining ideas into business is key strength. Bringing latest innovations into areas such as smart city, maritime industry and business security is the driving force behind his activities. Since 2022 he is representing the FIWARE Gold Members In Board of Directors of FIWARE.", linkedin: "https://www.linkedin.com/in/bjoernschw/", twitter: "https://twitter.com/Hoernblick", domain: "", location: ""
     },
     { name: "Megumi Suzuki", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "", company: "Mitsubishi Electric Corporation", "company-link": "",
@@ -221,7 +222,7 @@ var companies = [
     { name: "Gaetano Volpe", img: "https://www.fiware.org/wp-content/directories/people/images/200px/gaetano-volpe.jpg", position: "Chief Executive Officer", company: "Latitudo 40", "company-link": "https://www.latitudo40.com/",
     content: "Gaetano is the CEO of Latitudo 40, a startup that uses satellite data to improve life on our planet. After working for over 20 years in space-related companies, launching new products and services based on the integration of IT with space technologies (telecommunications, navigation and remote sensing), he decided to combine his passion for space technologies with the need to improve the environmental impact of our cities. For Gaetano, innovation means finding a new solution to a global market problem.", linkedin: "https://www.linkedin.com/in/gaetanovolpe", twitter: "", domain: "", location: ""
     },
-    { name: "Stefan Wiedemann", img: "https://www.fiware.org/wp-content/directories/people/images/200px/stefan-wiedemann.jpg", position: "Technical Lead &amp; Architect", company: "Ficodes", "company-link": "https://www.ficodes.com/en/",
+    { name: "Stefan Wiedemann", img: "https://www.fiware.org/wp-content/directories/people/images/200px/stefan-wiedemann.jpg", position: "Senior Software Engineer", company: "FICODES", "company-link": "https://www.ficodes.com/en/",
     content: "", linkedin: "https://www.linkedin.com/in/stefan-wiedemann-37a0ba13a/", twitter: "", domain: "", location: ""
     },
     { name: "Ken Zangelin", img: "https://www.fiware.org/wp-content/directories/people/images/200px/ken-zangelin.jpg", position: "Senior Architect &amp; Evangelist – Context Broker", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
