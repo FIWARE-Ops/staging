@@ -210,6 +210,9 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    min-width: 46%;
+    width: 46%;
+    max-width: 46%;
 }
 
 .speaker-info {
