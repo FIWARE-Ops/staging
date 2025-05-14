@@ -319,14 +319,18 @@ function readTemplate(template, callback) {
     fs.readFile(filePath, { encoding: 'utf-8' }, callback);
 }
 
-function createSocialMediaImages(content, template) {
-    readTemplate(template, async (err, data) => {
-        if (!err) {
-            console.log('Generating Images');
-            await nodeHtmlToImage({ content, html: data });
-        } else {
-            console.log(err);
-        }
+function createSocialMediaImages(content, template, type) {
+    return new Promise((resolve, reject) => {
+        readTemplate(template, async (err, data) => {
+            if (!err) {
+                console.log(`Generating ${type} Images`);
+                await nodeHtmlToImage({ content, html: data });
+                resolve();
+            } else {
+                console.log(err);
+                reject();
+            }
+        });
     });
 }
 

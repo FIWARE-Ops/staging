@@ -118,7 +118,7 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
     return agenda;
 }
 
-function generateHTML(agenda, activeSpeakers, eventDates, style) {
+async function generateHTML(agenda, activeSpeakers, eventDates, style) {
     const people = _.uniq(activeSpeakers);
     const collator = new Intl.Collator('en', { sensitivity: 'base' });
     const speakerNames = _.map(people, (a) => {
@@ -196,8 +196,8 @@ function generateHTML(agenda, activeSpeakers, eventDates, style) {
         Template.qrCodes(path.join(AGENDA_DIR, 'qr'), agenda);
     }
     if (SOCIAL_IMAGES) {
-        Template.createSocialMediaImages(socialImages, path.join(TEMPLATE_PATH, 'social-media-image.hbs'));
-        Template.createSocialMediaImages(stageBackgrounds, path.join(TEMPLATE_PATH, 'stage-image.hbs'));
+        await Template.createSocialMediaImages(socialImages, path.join(TEMPLATE_PATH, 'social-media-image.hbs'), 'Social Media');
+        await Template.createSocialMediaImages(stageBackgrounds, path.join(TEMPLATE_PATH, 'stage-image.hbs'), 'Stage Background');
     }
     return agenda;
 }
