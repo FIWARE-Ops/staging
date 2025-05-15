@@ -61,15 +61,11 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/sustainable-smart-city-with-environmental-sustainability-for-the-use-case-of-cartagena-for-low-emission-zones.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/the-use-case-is-the-goal--interoperability-is-the-means--fiware-is-the-core-.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2025/smart-data-models.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
-			<loc>https://www.fiware.org/fgs-2025/the-use-case-is-the-goal--interoperability-is-the-means--fiware-is-the-core-.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -118,6 +114,10 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2025/from-fragmentation-to-federation--the-power-of-collaboration-in-data-space-development.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/leveraging-linked-data--smart-cities-and-enhanced-egovernment-through-data-harmonisation.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -198,14 +198,6 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2025/opensustie---data-integration-of-smart-buildings-and-smart-cities.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
-			<loc>https://www.fiware.org/fgs-2025/digital-twins-for-real-time-optimization-of-sporting-mega-events.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
-			<loc>https://www.fiware.org/fgs-2025/local-digital-twin-toolbox--the-role-of-fiware-in-the-emerging-digital-twins.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>

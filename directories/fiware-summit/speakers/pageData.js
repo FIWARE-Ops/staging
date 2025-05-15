@@ -17,7 +17,6 @@ var companies = [
         'GrupoTX',
         'iSHARE Foundation',
         'Latitudo 40',
-        'Libelium',
         'Meaningfy',
         'Mitsubishi Electric Corporation',
         'Mohammed V University Rabat',
@@ -47,7 +46,6 @@ var companies = [
         'CISO',
         'COO',
         'Coordinator',
-        'CSO',
         'CTO',
         'Director',
         'Evangelist',
@@ -158,9 +156,6 @@ var companies = [
     },
     { name: "Sveva Ianese", img: "https://www.fiware.org/wp-content/directories/people/images/200px/sveva-ianese.jpg", position: "Academic Researcher", company: "University of Padova (Italy)", "company-link": "https://www.unipd.it/en/",
     content: "Sveva Ianese is an academic researcher, consultant, and legal expert. Her expertise covers the domains of smart cities, data governance, compliance of AI and Data Space projects. With a legal background in data protection, she is involved in many research projects and serves Italian public bodies as advisory on data-driven policies. A frequent speaker at international conferences, she has published various scientific and informative articles on AI regulation, data privacy, and smart city development. Her work bridges technology, policy, and law to drive ethical and sustainable urban transformation.", linkedin: "https://www.linkedin.com/in/sveva-ianese/", twitter: "", domain: "", location: ""
-    },
-    { name: "Antonio Jara", img: "https://www.fiware.org/wp-content/directories/people/images/200px/antonio-jara.jpg", position: "CSO", company: "Libelium", "company-link": "https://www.libelium.com/",
-    content: "Antonio has a PhD from the University of Murcia (Spain) and a MBA from the ENAE business school and UCAM (2012). He has received entrepreneurship awards from ENAE, emprendeGo, IPSO Alliance Award for its disruptive innovation in the IoT. As part of HOP Ubiquitous, Jara is focused on the Smart Cities market with solutions for citizens engagements, tourism, active participation, physical web and environmental monitoring (air quality sensors) in projects such as ENIAC SAFESENS, interoperability / pilots (SmartSDK, Synchronicity, Organicity, BeinCPPS) and also in several actions related to security/privacy (INPUT and FORTIKA).", linkedin: "https://www.linkedin.com/in/jara-libelium/", twitter: "https://twitter.com/antonio_jara", domain: "", location: ""
     },
     { name: "Dr. Jin Kawasaki", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jin-kawasaki.jpg", position: "Senior Expert - Information Technology R&amp;D Center", company: "Mitsubishi Electric Corporation", "company-link": "https://www.mitsubishielectric.com/en/index.html",
     content: "Jin Kawasaki is working as Senior Expert at Information Technology R&amp;D Center of Mitsubishi Electric Corporation. He received Ph.D. degree from University of Tsukuba in 2016. He also has business experience in IoT of building facilities and energy management. His research interest is smart building and city platform which provides solution such as carbon neutrality, energy management and workplace management.", linkedin: "https://www.linkedin.com/in/jin-kawasaki-817809205/?original_referer&#x3D;https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&amp;originalSubdomain&#x3D;jp", twitter: "", domain: "", location: ""

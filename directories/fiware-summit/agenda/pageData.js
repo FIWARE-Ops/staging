@@ -21,7 +21,6 @@ var sessions = [
         'AI and Natural Language for Smart Cities: Turning Data into Action',
         'Blue Cities of Tomorrow: AI &amp; IoT for Smart Water and Resilient Cities',
         'Data Spaces &amp; Security',
-        'Digital Twins for Real-Time Optimization of Sporting Mega-Events',
         'FIWARE Catalog',
         'FIWARE Core Concepts',
         'From Silos to Synergy: Building Smart Governance with Interoperability',
@@ -51,6 +50,7 @@ var speakers = [
         'Didac Colominas',
         'Javier Conde Díaz',
         'Luigi Coppolino',
+        'Eugeniu Costetchi',
         'Andrea Cruciani',
         'Mohamed Dafir',
         'Gert De Tant',
@@ -65,7 +65,6 @@ var speakers = [
         'Eloy Hernandez',
         'Juanjo Hierro',
         'Sveva Ianese',
-        'Antonio Jara',
         'Jin Kawasaki',
         'Zouhair Lakhdissi',
         'Jure Lampe',
@@ -126,10 +125,6 @@ var modalData = {
     "rubén-rosales-patón":
         { name: "Rubén Rosales Patón", img: "https://www.fiware.org/wp-content/directories/people/images/200px/ruben-rosales-paton.jpg", position: "Smart Cities &amp; Innovation Hubs Product Manager", company: "Telefonica", "company-link": "https://www.telefonica.com/en/",
         content: "", linkedin: "https://www.linkedin.com/in/rrpaton/", twitter: "", domain: "", location: "",
-        flag: "", },
-    "antonio-jara":
-        { name: "Antonio Jara", img: "https://www.fiware.org/wp-content/directories/people/images/200px/antonio-jara.jpg", position: "CSO", company: "Libelium", "company-link": "https://www.libelium.com/",
-        content: "Antonio has a PhD from the University of Murcia (Spain) and a MBA from the ENAE business school and UCAM (2012). He has received entrepreneurship awards from ENAE, emprendeGo, IPSO Alliance Award for its disruptive innovation in the IoT. As part of HOP Ubiquitous, Jara is focused on the Smart Cities market with solutions for citizens engagements, tourism, active participation, physical web and environmental monitoring (air quality sensors) in projects such as ENIAC SAFESENS, interoperability / pilots (SmartSDK, Synchronicity, Organicity, BeinCPPS) and also in several actions related to security/privacy (INPUT and FORTIKA).", linkedin: "https://www.linkedin.com/in/jara-libelium/", twitter: "https://twitter.com/antonio_jara", domain: "", location: "",
         flag: "", },
     "jose-benítez":
         { name: "Jose Benítez", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jose-benitez.jpg", position: "Chief Executive Officer", company: "Secmotic", "company-link": "https://secmotic.com/",
@@ -266,6 +261,10 @@ var modalData = {
     "gerardo-guarino-f-":
         { name: "Gerardo Guarino F.", img: "https://www.fiware.org/wp-content/directories/people/images/200px/gerardo-guarino.jpg", position: "Managing Partner", company: "Urban Service Provider", "company-link": "https://urbansp.city",
         content: "", linkedin: "https://www.linkedin.com/in/gerardo-guarino-f-867287/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "eugeniu-costetchi":
+        { name: "Eugeniu Costetchi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/eugeniu-costetchi.jpg", position: "Founder and CEO", company: "Meaningfy", "company-link": "https://meaningfy.ws/",
+        content: "Eugeniu Costetchi is the founder of Meaningfy, a Luxembourg-based company providing semantic technology and data-centric solutions to European public administrations, national bodies, and private organisations. A lifelong computing enthusiast with a PhD in Computational Linguistics, Eugeniu has over 15 years of experience in ontology engineering, linked data publishing, and data-centric software development. His work includes contributions to projects at the European Commission and Publications Office of the European Union, particularly in the areas of public procurement, legal interoperability, and reference data management. At Meaningfy, he focuses on practical applications of semantic web technologies to support data interoperability, aceess and reuse. His work is rooted in a sustained interest in language, knowledge representation, and the intersection between human understanding and machine-readable meaning.", linkedin: "https://www.linkedin.com/in/costezki/", twitter: "", domain: "", location: "",
         flag: "", },
     "vinith-bhandari":
         { name: "Vinith Bhandari", img: "https://www.fiware.org/wp-content/directories/people/images/200px/vinith-bhandari.jpg", position: "Head of Ecosystem Building", company: "iSHARE Foundation", "company-link": "https://ishare.eu/",
