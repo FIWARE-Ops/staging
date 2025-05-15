@@ -370,6 +370,16 @@ window.eventData = [
         "group": "Summit"
     },
     {
+        "id": "202505-expo-i-smart-cities",
+        "title": "Expo I Smart Cities",
+        "from": "2025-05-27T22:00:00.000Z",
+        "to": "2025-05-29T22:00:00.000Z",
+        "description": "Expo I is the summit that brings together technology leaders focused on solutions for Smart Cities worldwide.",
+        "location": "Sheraton Bogotá Hotel Cl. 25B #Nº 69 C-80, Fontibón ",
+        "isAllDay": true,
+        "group": "Summit"
+    },
+    {
         "id": "202506-cities-climate-action-summit-2025",
         "title": "Cities Climate Action Summit 2025",
         "from": "2025-06-24T07:00:00.000Z",
@@ -386,6 +396,16 @@ window.eventData = [
         "to": "2025-10-01T22:00:00.000Z",
         "description": "Germany’s largest congress for digitization in the public sector.",
         "location": "hub27 Berlin Jafféstraße 2, 14055 ",
+        "isAllDay": true,
+        "group": "Conference"
+    },
+    {
+        "id": "202510-endorse-2025",
+        "title": "ENDORSE 2025",
+        "from": "2025-10-07T22:00:00.000Z",
+        "to": "2025-10-08T22:00:00.000Z",
+        "description": "The European Data Conference on Reference Data and Semantics.",
+        "location": "Online",
         "isAllDay": true,
         "group": "Conference"
     },
