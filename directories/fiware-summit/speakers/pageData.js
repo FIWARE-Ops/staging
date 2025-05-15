@@ -6,7 +6,7 @@ var companies = [
         'Berkane Provincial Council',
         'CNR-IMATI',
         'Digital Development Agency (ADD)',
-        'DKSR - Data Competence Center for Cities and Regions',
+        'DKSR',
         'Engineering',
         'Eurecat',
         'FICODES',
@@ -59,7 +59,7 @@ var companies = [
         'Lead',
         'Manager',
         'Managing Partner',
-        'Minister Delegate',
+        'Ministry Delegate',
         'Owner',
         'President',
         'Product Manager',
@@ -96,7 +96,7 @@ var companies = [
     { name: "Chandra Challagonda", img: "https://www.fiware.org/wp-content/directories/people/images/200px/chandra-challagonda.jpg", position: "Chief Executive Officer", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
     content: "Chandra Challagonda has 26 years of experience in the technology industry, focusing on Machine Learning, Artificial Intelligence, and open-source technologies. Recognized as a business transformer, he emphasizes innovation and customer-centric strategies in executive roles such as Co-Founder, Board Member, CEO, and CTO. Over the last year, Chandra was working as a FIWARE community and board member, architect and Vice President, growing its global network and ecosystem and helping to develop sustainable strategies and partnerships in the organisation.", linkedin: "https://linkedin.com/in/challagonda", twitter: "https://twitter.com/challagonda", domain: "", location: ""
     },
-    { name: "Tim Cleffmann", img: "https://www.fiware.org/wp-content/directories/people/images/200px/tim-cleffmann.jpg", position: "Chief Business Development Officer", company: "DKSR - Data Competence Center for Cities and Regions", "company-link": "https://www.dksr.city/en/",
+    { name: "Tim Cleffmann", img: "https://www.fiware.org/wp-content/directories/people/images/200px/tim-cleffmann.jpg", position: "Chief Business Development Officer", company: "DKSR", "company-link": "https://www.dksr.city/en/",
     content: "Tim Cleffmann is an innovator and consultant in the field of smart city design and digital business models. As Chief Business Development Officer for the Data Competence Center for Cities and Region he develops practical solutions for urban challenges and turns them into concrete applications with clients and partners. Working with a network of innovative solution providers and using methods of co-creation is particularly important to him. Tim Cleffmann holds a Bachelor and Master of Science from the Karlsruhe Institute of Technology and has previously worked for Detecon International GmbH and Deutsche Telekom in the field of Smart City.", linkedin: "https://www.linkedin.com/in/tim-cleffmann-a456a8122/", twitter: "", domain: "", location: ""
     },
     { name: "Didac Colominas", img: "https://www.fiware.org/wp-content/directories/people/images/200px/didac-colominas.jpg", position: "Researcher of AAI", company: "Eurecat", "company-link": "https://eurecat.org/home/en/",
@@ -123,7 +123,7 @@ var companies = [
     { name: "Gert De Tant", img: "https://www.fiware.org/wp-content/directories/people/images/200px/gert-de-tant.jpg", position: "Chief Executive Officer", company: "Sirus", "company-link": "https://sirus.be/",
     content: "Gert is the CEO of Sirus. His focus is on the architecture and implementation of data driven platforms for cities, that enable cities to innovate and provide better and more advanced services to their clients being citizens, visitors and companies. He has worked for a number of cities in Europe like Antwerp, Helsinki, Copenhagen, Ghent, Luxembourg and Paderborn and was part of several European projects like ODALA, Drural, Aurural, Duet, JRC Elise, Synchronicity and Select 4 Cities. Next to that he is part of the TTF of ETSI to help to make the NGSI-LD standard testable. He was also part of the team that helped to bring the Fiware Smart Data Models to DTDL, The open source digital twin language that is used amongst others for the Microsoft Digital twin.", linkedin: "https://www.linkedin.com/in/gdetant/", twitter: "", domain: "", location: ""
     },
-    { name: "Amal El Fellah Seghrouchni", img: "https://www.fiware.org/wp-content/directories/people/images/200px/amal-el-fallah-seghrouchni.jpg", position: "Minister Delegate for Digital Transition and Administrative Reform", company: "Government of Morocco", "company-link": "",
+    { name: "Amal El Fellah Seghrouchni", img: "https://www.fiware.org/wp-content/directories/people/images/200px/amal-el-fallah-seghrouchni.jpg", position: "Ministry Delegate for Digital Transition and Administrative Reform", company: "Government of Morocco", "company-link": "",
     content: "Experienced Full Professor with a demonstrated history of working in the research industry. Skilled in Mathematical Modeling, Computer Science, Articial Intelligence, Autonomous agents and Software Design. Strong education professional with Ph.D in Computer Science from the University Pierre et Marie Curie and a Habilitation à Diriger les Recherches (HDR) focused in Computer Science - Artificial Intelligence from University Sorbonne Paris Nord. Involved in various international committees for A.I. and Autonomous Agents as co-General Chair of AAMAS 2021 (the Premiere conference on Autonomous Agents and Multi-Agent Systems).", linkedin: "https://www.linkedin.com/in/amal-el-fallah-seghrouchni-7459363/", twitter: "", domain: "", location: ""
     },
     { name: "Dr. Hicham El Habti", img: "https://www.fiware.org/wp-content/directories/people/images/200px/hicham-el-habti.jpg", position: "President", company: "Mohammed VI Polytechnic University", "company-link": "https://um6p.ma/",
@@ -207,7 +207,7 @@ var companies = [
     { name: "Björn Schwarze", img: "https://www.fiware.org/wp-content/directories/people/images/200px/bjorn-schwarze.jpg", position: "Managing Director", company: "ADDIX", "company-link": "https://www.addix.net/",
     content: "Björn is a professional experienced business leader. He founded ADDIX GmbH 20 years ago and has turned the company from an ISP into a market leader for WIFI operations and TOP Innovator in the Kiel Region, Germany. Identifying and scoping opportunities, setting up teams and turining ideas into business is key strength. Bringing latest innovations into areas such as smart city, maritime industry and business security is the driving force behind his activities. Since 2022 he is representing the FIWARE Gold Members In Board of Directors of FIWARE.", linkedin: "https://www.linkedin.com/in/bjoernschw/", twitter: "https://twitter.com/Hoernblick", domain: "", location: ""
     },
-    { name: "Megumi Suzuki", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Researcher - Information Technology R&amp;D Center", company: "Mitsubishi Electric Corporation", "company-link": "https://www.mitsubishielectric.com/en/index.html",
+    { name: "Megumi Suzuki", img: "https://www.fiware.org/wp-content/directories/people/images/200px/megumi-suzuki.jpg", position: "Researcher - Information Technology R&amp;D Center", company: "Mitsubishi Electric Corporation", "company-link": "https://www.mitsubishielectric.com/en/index.html",
     content: "Megumi Suzuki is working as a Researcher at Information Technology R&amp;D Center of Mitsubishi Electric Corporation. She received master&#x27;s degree from University of Tsukuba in 2021. Her research interest is smart building data models of smart building and smart city platform.", linkedin: "", twitter: "", domain: "", location: ""
     },
     { name: "Ángeles Tejado", img: "https://www.fiware.org/wp-content/directories/people/images/200px/angeles-tejado.jpg", position: "Senior Program Manager", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
