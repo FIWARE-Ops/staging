@@ -97,7 +97,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/unlocking-the-potential-of-data-spaces-for-smart-cities-and-communities.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/how-fiwarebox-simplifies-and-accelerates-fiware-based-smart-city-data-integration-and-visualization-on-a-budget.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -133,7 +133,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/how-fiwarebox-simplifies-and-accelerates-fiware-based-smart-city-data-integration-and-visualization-on-a-budget.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/collaboration-of-tegel-projekt-and-mitsubishi-electric--shaping-future-of-smart-cities-with-smart-buildings.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -141,15 +141,11 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/collaboration-of-tegel-projekt-and-mitsubishi-electric--shaping-future-of-smart-cities-with-smart-buildings.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/disrupting-global-construction-with-open-source-and-ai.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2025/asteriot--a-scalable-fiware-based-platform-for-smart-water-management-and-early-warning-systems.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
-			<loc>https://www.fiware.org/fgs-2025/disrupting-global-construction-with-open-source-and-ai.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -165,6 +161,10 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2025/data-as-a-strategic-asset--lessons-from-porto-s-urban-platform-and-the-beopen-project.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2025/ideation.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -174,10 +174,6 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2025/interoperability-unleashed-for-data-spaces-specification-languages-and-scoring-for-big-data-and-ai-integration.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
-			<loc>https://www.fiware.org/fgs-2025/data-as-a-strategic-asset--lessons-from-porto-s-urban-platform-and-the-beopen-project.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
