@@ -121,6 +121,14 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2025/trusted-data-for-circular-futures--digital-product-passports---data-sovereignty-in-climate-resilient-cities.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/digital-product-passports-and-digital---circular-cities--architectures-for-sovereign--scalable-city-data.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2025/machine-learning--mlops---fiware.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -198,6 +206,10 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2025/opensustie---data-integration-of-smart-buildings-and-smart-cities.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/national---international-aid-and-state-grants--leveraging-global-support-for-urban-development.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>

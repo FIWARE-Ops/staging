@@ -37,6 +37,7 @@ var sessions = [
 ]; 
 var speakers = [
         'Alberto Abella',
+        'Omar Agodim',
         'Suna Akbayir',
         'Mohamed Ali Habouha',
         'Karim Amkar',
@@ -58,6 +59,7 @@ var speakers = [
         'Hicham El Habti',
         'Amal El Fellah Seghrouchni',
         'Mohamed Essaidi',
+        'Guven Fidan',
         'Jason Fox',
         'Javier Galvez Campanelli',
         'Giovanni Giacco',
@@ -67,6 +69,7 @@ var speakers = [
         'Juanjo Hierro',
         'Sveva Ianese',
         'Jin Kawasaki',
+        'Yassine Laghzioui',
         'Zouhair Lakhdissi',
         'Jure Lampe',
         'Frederico Lopes',
@@ -76,6 +79,7 @@ var speakers = [
         'Yasunori Mochizuki',
         'Lydia Montandon',
         'Andrea Montieri',
+        'Timo Mueller',
         'Sachiko Muto',
         'Khalil Nossair',
         'Khalid Ouakka',
@@ -169,7 +173,7 @@ var modalData = {
         content: "Suna Akbayir is a Turkish entrepreneur with an extensive international business presence, well-recognized in Europe’s R&amp;D and innovation ecosystem. She is the Founder &amp; CEO of Artech International BVBA, a Brussels- headquartered in Brussels consulting and technology firm with an R&amp;D office in Leuven specializing in AI-driven solutions, Digital Product Passports (DPPs), and regulatory technology (RegTech) for industries such as automotive, electronics, and healthcare. With deep expertise in R&amp;D funding, technology transfer, and business development, she has led and contributed to multi-million-euro EU-funded projects, working closely with global industry leaders, SMEs, and policymakers. Through Artech, she has been at the forefront of innovation commercialization and market expansion, positioning the company as a key partner in Horizon Europe, Eureka, ITEA, and Celtic+ initiatives. Her expertise spans advisory roles, project evaluations, and mentoring for startups, SMEs, and research institutions, with a focus on bridging technology, business, and policy to drive real-world impact. She is known for her pragmatic approach and strategic foresight, actively shaping Europe’s innovation landscape. She has also been acting as the principal R&amp;D consultant for International Programs for Vestel Electronics, Vestel Home Appliances, Koç Sistem, Koç Digital, and Sestek; University of Maastrciht, RWTH Aachen etc.  She holds an MBA and a bachelor’s degree in Political Science and International Relations and speaks English, French, and Turkish.", linkedin: "https://www.linkedin.com/in/sunaakbayir/", twitter: "", domain: "", location: "",
         flag: "", },
     "andrea-montieri":
-        { name: "Andrea Montieri", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Business Developer", company: "Latitudo 40", "company-link": "https://www.latitudo40.com/",
+        { name: "Andrea Montieri", img: "https://www.fiware.org/wp-content/directories/people/images/200px/andrea-montieri.jpg", position: "Business Developer", company: "Latitudo 40", "company-link": "https://www.latitudo40.com/",
         content: "Andrea Montieri is a Business Developer at Latitudo 40, a Techstars portfolio company specializing in Earth Observation and AI-driven geospatial solutions. With a foundation in international relations and space policy, Andrea bridges the gap between advanced technology and real-world applications, focusing on sustainable urban planning and environmental resilience.", linkedin: "https://www.linkedin.com/in/andrea-montieri-62ab60189", twitter: "", domain: "", location: "",
         flag: "", },
     "gert-de-tant":
@@ -275,6 +279,10 @@ var modalData = {
     "eugeniu-costetchi":
         { name: "Eugeniu Costetchi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/eugeniu-costetchi.jpg", position: "Founder and CEO", company: "Meaningfy", "company-link": "https://meaningfy.ws/",
         content: "Eugeniu Costetchi is the founder of Meaningfy, a Luxembourg-based company providing semantic technology and data-centric solutions to European public administrations, national bodies, and private organisations. A lifelong computing enthusiast with a PhD in Computational Linguistics, Eugeniu has over 15 years of experience in ontology engineering, linked data publishing, and data-centric software development. His work includes contributions to projects at the European Commission and Publications Office of the European Union, particularly in the areas of public procurement, legal interoperability, and reference data management. At Meaningfy, he focuses on practical applications of semantic web technologies to support data interoperability, aceess and reuse. His work is rooted in a sustained interest in language, knowledge representation, and the intersection between human understanding and machine-readable meaning.", linkedin: "https://www.linkedin.com/in/costezki/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "guven-fidan":
+        { name: "Guven Fidan", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "CTO", company: "Artech International Bv", "company-link": "https://www.artechconsulting.net",
+        content: "", linkedin: "", twitter: "", domain: "", location: "",
         flag: "", },
     "vinith-bhandari":
         { name: "Vinith Bhandari", img: "https://www.fiware.org/wp-content/directories/people/images/200px/vinith-bhandari.jpg", position: "Head of Ecosystem Building", company: "iSHARE Foundation", "company-link": "https://ishare.eu/",
