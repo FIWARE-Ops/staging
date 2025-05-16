@@ -40,6 +40,7 @@ var companies = [
 ]; var titles = [
         'Architect',
         'Assistant Professor',
+        'Business Developer',
         'CBO',
         'CEO',
         'Chairman',
@@ -139,6 +140,9 @@ var companies = [
     { name: "Javier Galvez Campanelli", img: "https://www.fiware.org/wp-content/directories/people/images/200px/javier-galvez-campanelli.jpg", position: "Smart Cities Solutions Coordinator", company: "GrupoTX", "company-link": "https://www.grupotx.com/",
     content: "", linkedin: "https://www.linkedin.com/in/javiergalvez/", twitter: "", domain: "", location: ""
     },
+    { name: "Giovanni Giacco", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Chief Technology Officer", company: "Latitudo 40", "company-link": "https://www.latitudo40.com/",
+    content: "Giovanni Giacco is Chief Technology Officer at Latitudo40 where he leads the development and deployment of innovative data products that help organizations leverage satellite imagery and geospatial data to make informed decisions and gain a competitive edge. With over 10 years of experience in the technology sector, Giovanni holds a PhD from Università degli Studi di Napoli Federico II, specializing in the application of Artificial Intelligence to Earth Observation. His expertise spans Geospatial Data Analytics, Machine Learning, and Deep Learning, with a focus on creating accessible, zero-code platforms that transform complex data into actionable insights.", linkedin: "https://www.linkedin.com/in/giovannigiacco", twitter: "", domain: "", location: ""
+    },
     { name: "Gerardo Guarino F.", img: "https://www.fiware.org/wp-content/directories/people/images/200px/gerardo-guarino.jpg", position: "Managing Partner", company: "Urban Service Provider", "company-link": "https://urbansp.city",
     content: "", linkedin: "https://www.linkedin.com/in/gerardo-guarino-f-867287/", twitter: "", domain: "", location: ""
     },
@@ -177,6 +181,9 @@ var companies = [
     },
     { name: "Lydia Montandon", img: "https://www.fiware.org/wp-content/directories/people/images/200px/lydia-montandon.jpg", position: "Communications Lead &amp; Project Manager", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
     content: "Lydia Montandon (f) is marketing and project manager at the FIWARE Foundation. Previously, she was a consultant in digital transformation at Atos, with focus on innovation, experience and accessibility services. Before, her role as business development director was to promote and find a market to exploit R&amp;D outcomes and Innovations. In particular, she supported the commercialization of FIWARE methods and tools when they became mature enough to be proposed to Atos&#x27; clients. She has more than 20 years of experience in coordinating, managing and promoting large European R&amp;D projects. She has contributed to the development of Innovation Management strategies and facilitated co-creation and innovation workshops during more than 10 years. She holds a Master of Science in Education Technologies from the University of Geneva, Switzerland, an MBA in Sustainable Development and Diplomacy from EUCLID University and a diploma in Design &amp; Visual Communication from the Istituto Europeo di Design, Milan, Italy. She is fluent in English, French, Italian, Spanish, German and Greek.", linkedin: "https://www.linkedin.com/in/lydiamontandon/", twitter: "https://twitter.com/lmontandon", domain: "", location: ""
+    },
+    { name: "Andrea Montieri", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Business Developer", company: "Latitudo 40", "company-link": "https://www.latitudo40.com/",
+    content: "Andrea Montieri is a Business Developer at Latitudo 40, a Techstars portfolio company specializing in Earth Observation and AI-driven geospatial solutions. With a foundation in international relations and space policy, Andrea bridges the gap between advanced technology and real-world applications, focusing on sustainable urban planning and environmental resilience.", linkedin: "https://www.linkedin.com/in/andrea-montieri-62ab60189", twitter: "", domain: "", location: ""
     },
     { name: "Sachiko Muto", img: "https://www.fiware.org/wp-content/directories/people/images/200px/sashiko-muto.jpg", position: "Senior Researcher", company: "RISE Research Institutes of Sweden", "company-link": "https://ri.se",
     content: "Sachiko Muto is the Chair of OpenForum Europe and a senior researcher at RISE Research Institutes of Sweden. She originally joined OFE in 2007 and served for several years as Director with responsibility for government relations and then as CEO. Sachiko has degrees in Political Science from the University of Toronto and the London School of Economics; she received her doctorate in standardisation policy from TU Delft.", linkedin: "https://www.linkedin.com/in/sachikomuto/", twitter: "", domain: "", location: ""
