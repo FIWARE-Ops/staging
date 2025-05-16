@@ -61,7 +61,6 @@ var speakers = [
         'Jason Fox',
         'Javier Galvez Campanelli',
         'Giovanni Giacco',
-        'Giovanni Giacco',
         'Gerardo Guarino F.',
         'Aawatif Hayar',
         'Eloy Hernandez',
@@ -76,7 +75,6 @@ var speakers = [
         'Francisco Meléndez',
         'Yasunori Mochizuki',
         'Lydia Montandon',
-        'Andrea Montieri',
         'Andrea Montieri',
         'Sachiko Muto',
         'Khalil Nossair',
@@ -170,6 +168,10 @@ var modalData = {
         { name: "Suna Akbayir", img: "https://www.fiware.org/wp-content/directories/people/images/200px/suna-akbayir.jpg", position: "Chief Executive Officer", company: "Artech International Bv", "company-link": "https://artechconsulting.net/",
         content: "Suna Akbayir is a Turkish entrepreneur with an extensive international business presence, well-recognized in Europe’s R&amp;D and innovation ecosystem. She is the Founder &amp; CEO of Artech International BVBA, a Brussels- headquartered in Brussels consulting and technology firm with an R&amp;D office in Leuven specializing in AI-driven solutions, Digital Product Passports (DPPs), and regulatory technology (RegTech) for industries such as automotive, electronics, and healthcare. With deep expertise in R&amp;D funding, technology transfer, and business development, she has led and contributed to multi-million-euro EU-funded projects, working closely with global industry leaders, SMEs, and policymakers. Through Artech, she has been at the forefront of innovation commercialization and market expansion, positioning the company as a key partner in Horizon Europe, Eureka, ITEA, and Celtic+ initiatives. Her expertise spans advisory roles, project evaluations, and mentoring for startups, SMEs, and research institutions, with a focus on bridging technology, business, and policy to drive real-world impact. She is known for her pragmatic approach and strategic foresight, actively shaping Europe’s innovation landscape. She has also been acting as the principal R&amp;D consultant for International Programs for Vestel Electronics, Vestel Home Appliances, Koç Sistem, Koç Digital, and Sestek; University of Maastrciht, RWTH Aachen etc.  She holds an MBA and a bachelor’s degree in Political Science and International Relations and speaks English, French, and Turkish.", linkedin: "https://www.linkedin.com/in/sunaakbayir/", twitter: "", domain: "", location: "",
         flag: "", },
+    "andrea-montieri":
+        { name: "Andrea Montieri", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Business Developer", company: "Latitudo 40", "company-link": "https://www.latitudo40.com/",
+        content: "Andrea Montieri is a Business Developer at Latitudo 40, a Techstars portfolio company specializing in Earth Observation and AI-driven geospatial solutions. With a foundation in international relations and space policy, Andrea bridges the gap between advanced technology and real-world applications, focusing on sustainable urban planning and environmental resilience.", linkedin: "https://www.linkedin.com/in/andrea-montieri-62ab60189", twitter: "", domain: "", location: "",
+        flag: "", },
     "gert-de-tant":
         { name: "Gert De Tant", img: "https://www.fiware.org/wp-content/directories/people/images/200px/gert-de-tant.jpg", position: "Chief Executive Officer", company: "Sirus", "company-link": "https://sirus.be/",
         content: "Gert is the CEO of Sirus. His focus is on the architecture and implementation of data driven platforms for cities, that enable cities to innovate and provide better and more advanced services to their clients being citizens, visitors and companies. He has worked for a number of cities in Europe like Antwerp, Helsinki, Copenhagen, Ghent, Luxembourg and Paderborn and was part of several European projects like ODALA, Drural, Aurural, Duet, JRC Elise, Synchronicity and Select 4 Cities. Next to that he is part of the TTF of ETSI to help to make the NGSI-LD standard testable. He was also part of the team that helped to bring the Fiware Smart Data Models to DTDL, The open source digital twin language that is used amongst others for the Microsoft Digital twin.", linkedin: "https://www.linkedin.com/in/gdetant/", twitter: "", domain: "", location: "",
@@ -237,6 +239,10 @@ var modalData = {
     "ángeles-tejado":
         { name: "Ángeles Tejado", img: "https://www.fiware.org/wp-content/directories/people/images/200px/angeles-tejado.jpg", position: "Senior Program Manager", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
         content: "Angeles Tejado (f) comes with more than 20 years of strong experience in Marketing and Brand Management for customer-focused multinational companies, Angeles coordinated the development of marketing messages helping to communicate the vision and unique value proposition of FIWARE in domains such Smart Cities, Smart Manufacturing &amp; Industry 4.0 and Smart Agrifood; the planning and execution of the FIWARE Communication Strategy; the organization of FIWARE Summits; the coordination of FIWARE presence in all kind of events (market events, StartUp Events, Tech Events, Workshops, Hackathons, Meetups) and in general, coordinating activities targeted to engage members of the FIWARE Community through different FIWARE Mission Support Committees (FIWARE iHubs Committee, FIWARE Accelerator Committee, FIWARE Mundus Committee and Domain Committees associated to the different application domains) and enlarging the FIWARE ecosystem.", linkedin: "https://www.linkedin.com/in/%C3%A1ngeles-tejado-s%C3%A1nchez-2a61b411/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "giovanni-giacco":
+        { name: "Giovanni Giacco", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Chief Technology Officer", company: "Latitudo 40", "company-link": "https://www.latitudo40.com/",
+        content: "Giovanni Giacco is Chief Technology Officer at Latitudo40 where he leads the development and deployment of innovative data products that help organizations leverage satellite imagery and geospatial data to make informed decisions and gain a competitive edge. With over 10 years of experience in the technology sector, Giovanni holds a PhD from Università degli Studi di Napoli Federico II, specializing in the application of Artificial Intelligence to Earth Observation. His expertise spans Geospatial Data Analytics, Machine Learning, and Deep Learning, with a focus on creating accessible, zero-code platforms that transform complex data into actionable insights.", linkedin: "https://www.linkedin.com/in/giovannigiacco", twitter: "", domain: "", location: "",
         flag: "", },
     "javier-conde-díaz":
         { name: "Javier Conde Díaz", img: "https://www.fiware.org/wp-content/directories/people/images/200px/javier-conde.jpg", position: "Assistant Professor", company: "UPM", "company-link": "https://www.upm.es/internacional",
