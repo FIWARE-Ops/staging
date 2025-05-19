@@ -136,6 +136,7 @@ body {
     font-weight: 500;
     text-transform: uppercase;
     color: #4c4c4c;
+    display: none;
 }
 
 .panel-speakers {
