@@ -42,6 +42,7 @@ var speakers = [
         'Karim Amkar',
         'João Bastos',
         'Jose Benítez',
+        'Az-Eddine Bennani',
         'Massimo Bertoncini',
         'Vinith Bhandari',
         'David Campo',
@@ -82,7 +83,9 @@ var speakers = [
         'Sachiko Muto',
         'Khalil Nossair',
         'Manfredi Pistone',
+        'Michael Prange',
         'Matteo Repetto',
+        'Luigi Romano',
         'Rubén Rosales Patón',
         'Alessandro Rossi',
         'Joaquín Salvachúa',
@@ -206,13 +209,25 @@ var modalData = {
         { name: "Prof. Mohamed Dafir", img: "https://www.fiware.org/wp-content/directories/people/images/200px/mohamed-dafir.jpg", position: "Vice-President and CISO", company: "Mohammed V University Rabat", "company-link": "https://www.um5.ac.ma",
         content: "", linkedin: "https://www.linkedin.com/in/dafir-elkettani/?locale&#x3D;en_US", twitter: "", domain: "", location: "",
         flag: "", },
+    "michael-prange":
+        { name: "Prof. Michael Prange", img: "https://www.fiware.org/wp-content/directories/people/images/200px/michael-prange.jpg", position: "Professor", company: "FH Kiel", "company-link": "https://www.fh-kiel.de/startseite/",
+        content: "Prof. Dr. Michael Prange studied Computer Science and Physics at Kiel University of Applied Sciences and received his doctorate in Mechanical Engineering from Hamburg University of Technology. He brings with him experience from 30 years of international business activity, from a wide variety of tasks and functions in associations and in politics, and as a lecturer at various universities. As a Professor of Data Science at Kiel University of Applied Sciences and as an entrepreneur and IT expert, the focus of his research and consulting activities is on digital transformation and sustainable development of private and public organizations with a focus on smart infrastructures, digital technologies, innovative business models, open data platforms and artificial intelligence for Smart Cities and the Green Economy.", linkedin: "https://www.linkedin.com/in/michael-prange-1232187/", twitter: "", domain: "", location: "",
+        flag: "", },
     "mohamed-essaidi":
         { name: "Prof. Mohamed Essaidi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/mohamed-essaidi.jpg", position: "Professor &amp; Former Director ENSIAS College of Engineering", company: "Mohammed V University Rabat", "company-link": "https://www.um5.ac.ma/um5/",
         content: "Mohamed Essaidi is Professor and former Director of ENSIAS at Mohammed V University, Rabat, Morocco, and former Director of International Cooperation at the Ministry Delegate to the Head of Government in charge of General Affairs and Governance, Morocco (2019). He is also Chairman of IEEE Public Safety Technology, (2022), IEEE Blockchain Morocco Group (2022) , from IEEE IoT Global Cities Alliance, MEA (2020-2022), member of the evaluation committee of IEEE Humanitarian Activities Committee (2021-2022), member of IEEE EAB Teaching Excellence Editorial Hub, (2021-2022), and member IEEE Global Committee on Global Accreditation (2017-2018). He was also the founding president of the IEEE Morocco Section (2005-2016). Teacher. ESSAAIDI is a UNESCO and ICESCO expert on engineering training, digital transformation and smart cities.", linkedin: "", twitter: "", domain: "", location: "",
         flag: "", },
-    "joaquín-salvachúa":
-        { name: "Prof. Joaquín Salvachúa", img: "https://www.fiware.org/wp-content/directories/people/images/200px/joaquin-salvachua.jpg", position: "Professor", company: "UPM", "company-link": "https://www.upm.es/internacional",
-        content: "Prof. Joaquín Salvachúa received a master degree in Computer Science. He holds the Orange Chair for the “Science of Complex Networks” and the Kairos Chair on “Bank Middleware and Blockchain” at UPM and is a member of the UPM-ING and CyberAula groups. He has participated in several European research projects with several publications at international magazines, books and conferences. (https://orcid.org/0000-0002-7269-8079). Also have participated in several standardization activities, including been coauthor one RFC ( RFC 8802 ).His research focuses today on WebRTC, Cloud infrastructure, social graphs and recommendation, agile cloud infrastructures, P2P, DHT (Distributed HashTables), IOT, Non SQL Data Bases, Big data processing architectures, Identity Management and BlockChain distributed agreement algorithms.His teaching duties includes cloud computing, distributed application development, Databases, Web Full-stack development, Blockchain architecture, Data Engineering and Big data architecture and applications. Has been involved in the FIWARE Initiative since it started (2010) and he is architect and developer of several GE related to security, data persistence and Big Data analysis.", linkedin: "https://es.linkedin.com/in/jsalvachua", twitter: "https://twitter.com/jsalvachua", domain: "", location: "",
+    "javier-conde-díaz":
+        { name: "Prof. Javier Conde Díaz", img: "https://www.fiware.org/wp-content/directories/people/images/200px/javier-conde.jpg", position: "Assistant Professor", company: "UPM", "company-link": "https://www.upm.es/internacional",
+        content: "Assistant Professor with the UPM. I teach Big Data, Databases, Telecommunication Networks, and Web Engineering subjects. My research interests lie in the fields of Open Linked Data, Digital Twins, Big Data and Machine Learning. In the FIWARE ecosystem I contribute to the Draco GE and study architectures based on FIWARE GEs and FIWARE Smart Data Models.", linkedin: "https://es.linkedin.com/in/javier-conde-diaz", twitter: "https://twitter.com/JaviConD3", domain: "", location: "",
+        flag: "", },
+    "az-eddine-bennani":
+        { name: "Prof. Az-Eddine Bennani", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Adjunct Professor", company: "Al Akhawayn University of Ifrane", "company-link": "https://aui.ma/",
+        content: "", linkedin: "https://www.linkedin.com/in/az-eddine-bennani-0774057/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "luigi-romano":
+        { name: "Prof. Luigi Romano", img: "https://www.fiware.org/wp-content/directories/people/images/200px/luigi-romano.jpg", position: "Professor", company: "Parthenope University of Naples", "company-link": "https://international.uniparthenop",
+        content: "Luigi Romano is an expert of system security and dependability. He is the head of the Fault and Intrusion Tolerant Networked SystemS (FITNESS) research group at the University of Naples “Parthenope”, doing internationally recognized research in cybersecurity, with emphasis on Critical Infrastructure Protection. He has worked extensively as a consultant in the field of security and safety critical computer systems design, evaluation, and procurement in a variety of application domains, notably: ehealth, traffic control, banking, eID, and data storage. He is one of the founders of Trust Up  a spin-off of the University of Naples “Parthenope”, specialized in Trusted Execution Environment technology. He was one of the experts of ENISA EESCP-Expert Group, one of the experts in charge of the ENISA Annual Report on Cybersecurity Research and Innovation Needs and Priorities, and one of the members of ENISA expert group on Priorities of Research On Current and Emerging Network Technologies (PROCENT). He was/is the Technical Coordinator and/or one of the Principal Investigators of more than 20 European Projects, within the context of FP7, Horizon 2020, and Horizon Europe.", linkedin: "", twitter: "", domain: "", location: "",
         flag: "", },
     "eloy-hernandez":
         { name: "Eloy Hernandez", img: "https://www.fiware.org/wp-content/directories/people/images/200px/eloy-hernandez.jpg", position: "Researcher", company: "Eurecat", "company-link": "https://eurecat.org/home/en/",
@@ -238,10 +253,6 @@ var modalData = {
         { name: "Giovanni Giacco", img: "https://www.fiware.org/wp-content/directories/people/images/200px/giovanni-giacco.jpg", position: "Chief Technology Officer", company: "Latitudo 40", "company-link": "https://www.latitudo40.com/",
         content: "Giovanni Giacco is Chief Technology Officer at Latitudo40 where he leads the development and deployment of innovative data products that help organizations leverage satellite imagery and geospatial data to make informed decisions and gain a competitive edge. With over 10 years of experience in the technology sector, Giovanni holds a PhD from Università degli Studi di Napoli Federico II, specializing in the application of Artificial Intelligence to Earth Observation. His expertise spans Geospatial Data Analytics, Machine Learning, and Deep Learning, with a focus on creating accessible, zero-code platforms that transform complex data into actionable insights.", linkedin: "https://www.linkedin.com/in/giovannigiacco", twitter: "", domain: "", location: "",
         flag: "", },
-    "javier-conde-díaz":
-        { name: "Javier Conde Díaz", img: "https://www.fiware.org/wp-content/directories/people/images/200px/javier-conde.jpg", position: "Assistant Professor", company: "UPM", "company-link": "https://www.upm.es/internacional",
-        content: "Assistant Professor with the UPM. I teach Big Data, Databases, Telecommunication Networks, and Web Engineering subjects. My research interests lie in the fields of Open Linked Data, Digital Twins, Big Data and Machine Learning. In the FIWARE ecosystem I contribute to the Draco GE and study architectures based on FIWARE GEs and FIWARE Smart Data Models.", linkedin: "https://es.linkedin.com/in/javier-conde-diaz", twitter: "https://twitter.com/JaviConD3", domain: "", location: "",
-        flag: "", },
     "matthias-de-bièvre":
         { name: "Matthias de Bièvre", img: "https://www.fiware.org/wp-content/directories/people/images/200px/matthias-de-bievre.jpg", position: "President", company: "Prometheus-x", "company-link": "https://prometheus-x.org/",
         content: "", linkedin: "https://www.linkedin.com/in/matthias-de-bi%C3%A8vre-817887115/", twitter: "", domain: "", location: "",
@@ -253,6 +264,10 @@ var modalData = {
     "brecht-van-de-vyvere":
         { name: "Brecht van de Vyvere", img: "https://www.fiware.org/wp-content/directories/people/images/200px/brecht-van-de-vyvere.jpg", position: "Linked Data Architect", company: "Sirus", "company-link": "https://sirus.be/",
         content: "Brecht Van de Vyvere is a driven and pragmatic person with a passion for exchanging linked data. He finished his PhD in 2023 at Ghent University where he learned to work with domain experts to describe their datasets machine-readable in line with standards. Today, he is working at the company Sirus as a Linked Data architect where he enjoys working out architectures to automate the adoption of these datasets within applications. He has built up this experience mainly within the context of (local) governments and cultural organisations.", linkedin: "https://www.linkedin.com/in/brecht-van-de-vyvere-b9232b9b/", twitter: "https://twitter.com/brechtvdv", domain: "", location: "",
+        flag: "", },
+    "joaquín-salvachúa":
+        { name: "Prof. Joaquín Salvachúa", img: "https://www.fiware.org/wp-content/directories/people/images/200px/joaquin-salvachua.jpg", position: "Professor", company: "UPM", "company-link": "https://www.upm.es/internacional",
+        content: "Prof. Joaquín Salvachúa received a master degree in Computer Science. He holds the Orange Chair for the “Science of Complex Networks” and the Kairos Chair on “Bank Middleware and Blockchain” at UPM and is a member of the UPM-ING and CyberAula groups. He has participated in several European research projects with several publications at international magazines, books and conferences. (https://orcid.org/0000-0002-7269-8079). Also have participated in several standardization activities, including been coauthor one RFC ( RFC 8802 ).His research focuses today on WebRTC, Cloud infrastructure, social graphs and recommendation, agile cloud infrastructures, P2P, DHT (Distributed HashTables), IOT, Non SQL Data Bases, Big data processing architectures, Identity Management and BlockChain distributed agreement algorithms.His teaching duties includes cloud computing, distributed application development, Databases, Web Full-stack development, Blockchain architecture, Data Engineering and Big data architecture and applications. Has been involved in the FIWARE Initiative since it started (2010) and he is architect and developer of several GE related to security, data persistence and Big Data analysis.", linkedin: "https://es.linkedin.com/in/jsalvachua", twitter: "https://twitter.com/jsalvachua", domain: "", location: "",
         flag: "", },
     "thimo-thoeye":
         { name: "Thimo Thoeye", img: "https://www.fiware.org/wp-content/directories/people/images/200px/thimo-thoeye.jpg", position: "Tech Lead", company: "OASC", "company-link": "oascities.org",
