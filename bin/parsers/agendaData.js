@@ -9,6 +9,7 @@ function getTrackColor(data) {
             result = 'light-orange';
             break;
         case 2:
+        case 6:
             // Research & Development
             // Sustainable Smart City
             // Smart Governance
@@ -19,7 +20,6 @@ function getTrackColor(data) {
         case 3:
         case 4:
         case 5:
-        case 6:
             // AI & IoT
             // Data Spaces & Interoperability
             // Digital Twins & Data Harmonization
