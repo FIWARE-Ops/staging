@@ -1,14 +1,14 @@
 var companies = [
         'ADDIX',
         'Agricolus',
+        'AI Crafters',
         'Artech International Bv',
         'Associação Porto Digital',
-        'Berkane Provincial Council',
         'CNR-IMATI',
-        'Digital Development Agency (ADD)',
         'DKSR',
         'Engineering',
         'Eurecat',
+        'FH Kiel',
         'FICODES',
         'FIWARE Foundation',
         'FIWARE Technical Steering Committee',
@@ -23,6 +23,7 @@ var companies = [
         'Mohammed VI Polytechnic University',
         'NEC Corporation',
         'OASC',
+        'Parthenope University of Naples',
         'Prometheus-x',
         'RISE Research Institutes of Sweden',
         'Secmotic',
@@ -45,6 +46,7 @@ var companies = [
         'CEO',
         'Chairman',
         'CISO',
+        'Co-Founder',
         'COO',
         'Coordinator',
         'CTO',
@@ -53,7 +55,6 @@ var companies = [
         'Executive Chairman',
         'Expert',
         'Fellow',
-        'Governor',
         'Head of Unit',
         'Lead',
         'Manager',
@@ -146,9 +147,6 @@ var companies = [
     { name: "Gerardo Guarino F.", img: "https://www.fiware.org/wp-content/directories/people/images/200px/gerardo-guarino.jpg", position: "Managing Partner", company: "Urban Service Provider", "company-link": "https://urbansp.city",
     content: "", linkedin: "https://www.linkedin.com/in/gerardo-guarino-f-867287/", twitter: "", domain: "", location: ""
     },
-    { name: "Mohamed Ali Habouha", img: "https://www.fiware.org/wp-content/directories/people/images/200px/mohamed-ali-habouha.jpg", position: "Governor", company: "Berkane Provincial Council", "company-link": "https://provinceberkane.ma/citoyen/public/",
-    content: "Mr. Mohamed Ali Habouha, appointed by HM King Mohammed VI as Governor of Berkane province, was born on January 13, 1962 in the province of Tan-Tan. He completed his graduate studies at the university of Ottawa where he obtained a double bachelor degree in management, public policy and political science. He also holds an MBA in Strategic Management and economic intelligence from the Paris School of Economic Warfare. He began his career in 1987 in the private sector as administrative director in a public works company before joining the office of exploitation of the ports in 1990. In 1997, he will leave this office to invest in the fisheries sector where he chaired the association of factories for the development of fishery products in Laayoune,and thus became a member of the Moroccan exporters association the ASMEX in 2002. Later on, Governor Habouha joined the Ministry of Interior in 2004 as Secretary General of the Central Administration and was transferred, in 2005, in the same capacity to the Cabinet of the Wali of Moroccan Laâyoune-Boujdour-Sakia-El Hamra Region. On March 1, 2010, he was appointed by HM the King Governor of the Province of Tarfaya and on November 26, 2010 as Governor of the District Prefecture of Sidi Bernoussi, Casablanca. Berkane owes Governor Habouha its international status and most of all the international Smart City Award and recognition it received in September 2022.", linkedin: "", twitter: "", domain: "", location: ""
-    },
     { name: "Dr. Aawatif Hayar", img: "https://www.fiware.org/wp-content/directories/people/images/200px/aawatif-hayar.jpg", position: "Chairman", company: "Smart Cities Morocco Alliance", "company-link": "https://www.univh2c.ma/",
     content: "Dr. Aawatif HAYAR is the Minister of Solidarity, Social Integration and Family. She was President of Hassan II University Casablanca 2019-2021. She received, with honors,as the First Moroccan, the degree of “Agrégation” in Electrical Engineering from ENS Cachan in 1992. She received the “Diplôme d’Etudes Approfondies” in Signal processing Image and Communications and the degree of Engineer in Telecommunications Systems and Networks from ENSEEIHT de Toulouse in 1997. She received with honors the Ph.D. degree in Signal Processing and Telecommunications from Institut National Polytechnique in Toulouse in 2001. She was research and teaching associate at EURECOM from 2001 to 2010 in Sophia Antipolis-France. She has an HDR from Univ. Sud Toulon Var from France on Cognitive Wideband Wireless Systems on 2010 and an HDR on Green Téléommunication from Univ. Hassan II Casablanca on 2013. Since 2011, she has Professor position at the UH2C. She is also member of Casablanca “Avant-garde” City think-tank. She is initiator of E-madina Smart City Cluster. Her research interests includes cognitive green radio, UWB systems, smart grids, smart building, ICT for social eco-friendly development. She was also IEEE DLT Chair for EMEA region on 2014-2015 and the inventor of Frugal Social Smart City concept for Casablanca and emerging countries selected by IEEE SCI as one of the most innovative projects in the world in 2015. She is currently Chair of Casablanca IEEE Core Smart City project. She was also selected by the prestigious African Innovation Foundation as one of the top ten innovative African women in 2015. She is the Scientific Advisor, at the City level, since 2016 of Smart City Expo Casablanca and General Co-Chair of IEEE international Smart Cities Conference (IEEE ISC2 -2019). Pr. Hayar is currently leading R&amp;D/Innovation projects funded by INDH, CNRST, GIZ, IRESEN and Heinrich Böll Stiftung such as End to End Energy Efficiency Living Lab, Virtual Museum of Casablanca, e-douar “Smart Inclusive Ecological village” and Solar Decathlon Africa E-Co Dar projects.", linkedin: "https://www.linkedin.com/in/aawatif-hayar-5547395/", twitter: "", domain: "", location: ""
     },
@@ -163,6 +161,9 @@ var companies = [
     },
     { name: "Dr. Jin Kawasaki", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jin-kawasaki.jpg", position: "Senior Expert - Information Technology R&amp;D Center", company: "Mitsubishi Electric Corporation", "company-link": "https://www.mitsubishielectric.com/en/index.html",
     content: "Jin Kawasaki is working as Senior Expert at Information Technology R&amp;D Center of Mitsubishi Electric Corporation. He received Ph.D. degree from University of Tsukuba in 2016. He also has business experience in IoT of building facilities and energy management. His research interest is smart building and city platform which provides solution such as carbon neutrality, energy management and workplace management.", linkedin: "https://www.linkedin.com/in/jin-kawasaki-817809205/?original_referer&#x3D;https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&amp;originalSubdomain&#x3D;jp", twitter: "", domain: "", location: ""
+    },
+    { name: "Zouhair Lakhdissi", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Co-Founder", company: "AI Crafters", "company-link": "https://aicrafters.com/",
+    content: "", linkedin: "https://www.linkedin.com/in/lakhdissi/", twitter: "", domain: "", location: ""
     },
     { name: "Jure Lampe", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jure-lampe.png", position: "Chief Executive Officer", company: "SenLab d.o.o.", "company-link": "https://senlab.io/en/about-us",
     content: "SenLab is an IoT consulting company that I founded and lead as the CEO and owner since 2014. My mission is to deliver knowledge, answers, and solutions for IoT projects in various domains, such as Industry 4.0, logistics, smart cities, home automation, healthcare, research and education. With over 20 years of experience in this field, I have developed core competencies in IoT concept design, prototyping, testing, and deployment, as well as new business development, consulting, and team leadership. I hold a BS in Computer and Information Science and I am pursuing a PhD in Business and Management, which enable me to combine technical expertise with business acumen and creativity. I am passionate about solving complex problems with simple, innovative, and user-friendly IoT solutions that have a positive impact on society and the environment. I have led and participated in multiple award-winning IoT projects, such as IoTool, IoChat, and RelaxedCare, that demonstrate the potential and value of IoT in various settings and scenarios.", linkedin: "https://www.linkedin.com/in/jurelampe/", twitter: "", domain: "", location: ""
@@ -188,17 +189,20 @@ var companies = [
     { name: "Sachiko Muto", img: "https://www.fiware.org/wp-content/directories/people/images/200px/sashiko-muto.jpg", position: "Senior Researcher", company: "RISE Research Institutes of Sweden", "company-link": "https://ri.se",
     content: "Sachiko Muto is the Chair of OpenForum Europe and a senior researcher at RISE Research Institutes of Sweden. She originally joined OFE in 2007 and served for several years as Director with responsibility for government relations and then as CEO. Sachiko has degrees in Political Science from the University of Toronto and the London School of Economics; she received her doctorate in standardisation policy from TU Delft.", linkedin: "https://www.linkedin.com/in/sachikomuto/", twitter: "", domain: "", location: ""
     },
-    { name: "Khalid Ouakka", img: "https://www.fiware.org/wp-content/directories/people/images/200px/khalid-ouakka.jpg", position: "Director of E-Government", company: "Digital Development Agency (ADD)", "company-link": "",
-    content: "", linkedin: "https://www.linkedin.com/in/khalid-ouakka-b722ab5/", twitter: "", domain: "", location: ""
-    },
     { name: "Rubén Rosales Patón", img: "https://www.fiware.org/wp-content/directories/people/images/200px/ruben-rosales-paton.jpg", position: "Smart Cities &amp; Innovation Hubs Product Manager", company: "Telefonica", "company-link": "https://www.telefonica.com/en/",
     content: "", linkedin: "https://www.linkedin.com/in/rrpaton/", twitter: "", domain: "", location: ""
     },
     { name: "Manfredi Pistone", img: "https://www.fiware.org/wp-content/directories/people/images/200px/manfredi-pistone.jpg", position: "Technical Manager", company: "Engineering", "company-link": "https://www.eng.it/en/",
     content: "Researcher, member of “Digital Industry and Agrifood” Unit within the Industry and Security Technologies, Research and Innovation (IS3) Lab at Engineering Ingegneria Informatica. He graduated in 2018 in Computer Engineering at the University of Palermo (Italy). Since 2018 he has been involved in EU and Italian research projects as solution designer and developer, and technical leader of many activities, fostering the adoption of Open Source technologies in the manufacturing domain.", linkedin: "https://www.linkedin.com/in/manfredi-pistone-224878119/", twitter: "", domain: "", location: ""
     },
+    { name: "Prof. Michael Prange", img: "https://www.fiware.org/wp-content/directories/people/images/200px/michael-prange.jpg", position: "Professor", company: "FH Kiel", "company-link": "https://www.fh-kiel.de/startseite/",
+    content: "Prof. Dr. Michael Prange studied Computer Science and Physics at Kiel University of Applied Sciences and received his doctorate in Mechanical Engineering from Hamburg University of Technology. He brings with him experience from 30 years of international business activity, from a wide variety of tasks and functions in associations and in politics, and as a lecturer at various universities. As a Professor of Data Science at Kiel University of Applied Sciences and as an entrepreneur and IT expert, the focus of his research and consulting activities is on digital transformation and sustainable development of private and public organizations with a focus on smart infrastructures, digital technologies, innovative business models, open data platforms and artificial intelligence for Smart Cities and the Green Economy.", linkedin: "https://www.linkedin.com/in/michael-prange-1232187/", twitter: "", domain: "", location: ""
+    },
     { name: "Matteo Repetto", img: "https://www.fiware.org/wp-content/directories/people/images/200px/matteo-repetto.png", position: "Senior Researcher", company: "CNR-IMATI", "company-link": "https://www.imati.cnr.it/make_home_page.php?language&#x3D;ENG&amp;view&#x3D;GEN",
     content: "Matteo Repetto, Ph.D., received the Ph.D. degree in Electronics and Computer Science in 2004 from the University of Genoa. From 2004 to 2009 he was a postdoc at University of Genoa. From 2010 to 2019 he was a Research Associate at CNIT. In 2019 he joined the Institute for Applied Mathematics and Information Technologies (IMATI), CNR, where he currently holds a Senior Researcher position. He has been teaching many courses in telecommunication networks and network security. He has been involved in several research national and international projects on quality of service, mobility in data networks, energy efficiency, cloud computing, and network function virtualization. He was the scientific and technical coordinator of the ASTRID and GUARD projects, and he is now the coordinator of the MIRANDA project. He has co-authored over 90 scientific publications in international journals and conference proceedings, and 1 technical report for ITU. His current research interests include security architectures, interfaces to remote security functions, network security, threat hunting, management and security of digital service chains.", linkedin: "https://www.linkedin.com/in/matteo-repetto-1b00134/", twitter: "", domain: "", location: ""
+    },
+    { name: "Luigi Romano", img: "https://www.fiware.org/wp-content/directories/people/images/200px/luigi-romano.jpg", position: "Professor", company: "Parthenope University of Naples", "company-link": "https://international.uniparthenop",
+    content: "Luigi Romano is an expert of system security and dependability. He is the head of the Fault and Intrusion Tolerant Networked SystemS (FITNESS) research group at the University of Naples “Parthenope”, doing internationally recognized research in cybersecurity, with emphasis on Critical Infrastructure Protection. He has worked extensively as a consultant in the field of security and safety critical computer systems design, evaluation, and procurement in a variety of application domains, notably: ehealth, traffic control, banking, eID, and data storage. He is one of the founders of Trust Up  a spin-off of the University of Naples “Parthenope”, specialized in Trusted Execution Environment technology. He was one of the experts of ENISA EESCP-Expert Group, one of the experts in charge of the ENISA Annual Report on Cybersecurity Research and Innovation Needs and Priorities, and one of the members of ENISA expert group on Priorities of Research On Current and Emerging Network Technologies (PROCENT). He was/is the Technical Coordinator and/or one of the Principal Investigators of more than 20 European Projects, within the context of FP7, Horizon 2020, and Horizon Europe.", linkedin: "", twitter: "", domain: "", location: ""
     },
     { name: "Alessandro Rossi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/alessandro-rossi.jpg", position: "Project Manager", company: "Engineering", "company-link": "https://www.eng.it/en/",
     content: "Alessandro Rossi got his University Degree in Computer Software Engineering magna cum laude at the “Università degli Studi di Palermo” in 2004. Since that year he has been working as researcher at Engineering Ingegneria Informatica S.p.A., and in particular as team leader in the R&amp;D Laboratory. In the last years he focused on ICT in smart energy and smart industry sector, fully oriented to innovation, digital transformation and new enabling technologies, such as IoT, Cybersecurity, Big Data and Blockchain. He is currently Project Manager for Engineering and WP leader in several EU co-funded projects, most of which with the participation of FIWARE Foundation and the adoption of FIWARE-based solutions, for which he is a technology evangelist, internally to the company and inside the consortia. He participated to several international conferences and wrote several tens of scientific papers, all about cutting edge and challenging innovative ideas.", linkedin: "https://www.linkedin.com/in/alessandro-rossi-3720281/", twitter: "", domain: "", location: ""
