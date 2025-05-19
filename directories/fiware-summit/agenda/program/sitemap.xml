@@ -41,7 +41,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/first-operational-smart-territory-in-morocco---berkane-experience.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/fiware-for-cities-from-europe-to-the-world--from-smart-to-ai-ready.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -50,10 +50,6 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2025/introduction-to-json-ld.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
-			<loc>https://www.fiware.org/fgs-2025/fiware-for-cities-from-europe-to-the-world--from-smart-to-ai-ready.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -93,14 +89,6 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/ai---data-driven-cities-for-the-fifa-world-cup-2030.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
-			<loc>https://www.fiware.org/fgs-2025/how-fiwarebox-simplifies-and-accelerates-fiware-based-smart-city-data-integration-and-visualization-on-a-budget.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
 			<loc>https://www.fiware.org/fgs-2025/blue-cities-of-tomorrow--ai---iot-for-smart-water-and-resilient-cities.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -133,15 +121,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/collaboration-of-tegel-projekt-and-mitsubishi-electric--shaping-future-of-smart-cities-with-smart-buildings.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
 			<loc>https://www.fiware.org/fgs-2025/aquaspice-real-time-monitoring-platform.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
-			<loc>https://www.fiware.org/fgs-2025/disrupting-global-construction-with-open-source-and-ai.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -161,10 +141,6 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/data-as-a-strategic-asset--lessons-from-porto-s-urban-platform-and-the-beopen-project.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
 			<loc>https://www.fiware.org/fgs-2025/ideation.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -177,7 +153,27 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2025/when-intelligence-meets-endurance--ai---data-driven-cities-for-the-fifa-world-cup-2030.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/how-fiwarebox-simplifies-and-accelerates-fiware-based-smart-city-data-integration-and-visualization-on-a-budget.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/collaboration-of-tegel-projekt-and-mitsubishi-electric--shaping-future-of-smart-cities-with-smart-buildings.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2025/coffee-break.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/disrupting-global-construction-with-open-source-and-ai.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/data-as-a-strategic-asset--lessons-from-porto-s-urban-platform-and-the-beopen-project.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -201,10 +197,6 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/opensustie---data-integration-of-smart-buildings-and-smart-cities.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
 			<loc>https://www.fiware.org/fgs-2025/national---international-aid-and-state-grants--leveraging-global-support-for-urban-development.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -221,15 +213,19 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2025/opensustie---data-integration-of-smart-buildings-and-smart-cities.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2025/rainbrain-in-belgium-cities.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/building-futureproof-cities-through-effective-use-of-data.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/smart-monitoring-of-stormwater-retention-basins.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/smart-monitoring-of-stormwater-retention-basins.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/building-futureproof-cities-through-effective-use-of-data.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -346,6 +342,10 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2025/closing.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/unlocking-the-potential-of-data-spaces-for-smart-cities-and-communities.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>

@@ -39,7 +39,6 @@ var speakers = [
         'Alberto Abella',
         'Omar Agodim',
         'Suna Akbayir',
-        'Mohamed Ali Habouha',
         'Karim Amkar',
         'João Bastos',
         'Jose Benítez',
@@ -82,7 +81,6 @@ var speakers = [
         'Timo Mueller',
         'Sachiko Muto',
         'Khalil Nossair',
-        'Khalid Ouakka',
         'Manfredi Pistone',
         'Matteo Repetto',
         'Rubén Rosales Patón',
@@ -93,6 +91,7 @@ var speakers = [
         'Megumi Suzuki',
         'Nassima Tabloul',
         'Ángeles Tejado',
+        'Thimo Thoeye',
         'Abdellatif Toubati',
         'Brecht van de Vyvere',
         'Stefan Wiedemann',
@@ -119,10 +118,6 @@ var modalData = {
         { name: "Dr. Aawatif Hayar", img: "https://www.fiware.org/wp-content/directories/people/images/200px/aawatif-hayar.jpg", position: "Chairman", company: "Smart Cities Morocco Alliance", "company-link": "https://www.univh2c.ma/",
         content: "Dr. Aawatif HAYAR is the Minister of Solidarity, Social Integration and Family. She was President of Hassan II University Casablanca 2019-2021. She received, with honors,as the First Moroccan, the degree of “Agrégation” in Electrical Engineering from ENS Cachan in 1992. She received the “Diplôme d’Etudes Approfondies” in Signal processing Image and Communications and the degree of Engineer in Telecommunications Systems and Networks from ENSEEIHT de Toulouse in 1997. She received with honors the Ph.D. degree in Signal Processing and Telecommunications from Institut National Polytechnique in Toulouse in 2001. She was research and teaching associate at EURECOM from 2001 to 2010 in Sophia Antipolis-France. She has an HDR from Univ. Sud Toulon Var from France on Cognitive Wideband Wireless Systems on 2010 and an HDR on Green Téléommunication from Univ. Hassan II Casablanca on 2013. Since 2011, she has Professor position at the UH2C. She is also member of Casablanca “Avant-garde” City think-tank. She is initiator of E-madina Smart City Cluster. Her research interests includes cognitive green radio, UWB systems, smart grids, smart building, ICT for social eco-friendly development. She was also IEEE DLT Chair for EMEA region on 2014-2015 and the inventor of Frugal Social Smart City concept for Casablanca and emerging countries selected by IEEE SCI as one of the most innovative projects in the world in 2015. She is currently Chair of Casablanca IEEE Core Smart City project. She was also selected by the prestigious African Innovation Foundation as one of the top ten innovative African women in 2015. She is the Scientific Advisor, at the City level, since 2016 of Smart City Expo Casablanca and General Co-Chair of IEEE international Smart Cities Conference (IEEE ISC2 -2019). Pr. Hayar is currently leading R&amp;D/Innovation projects funded by INDH, CNRST, GIZ, IRESEN and Heinrich Böll Stiftung such as End to End Energy Efficiency Living Lab, Virtual Museum of Casablanca, e-douar “Smart Inclusive Ecological village” and Solar Decathlon Africa E-Co Dar projects.", linkedin: "https://www.linkedin.com/in/aawatif-hayar-5547395/", twitter: "", domain: "", location: "",
         flag: "", },
-    "mohamed-ali-habouha":
-        { name: "Mohamed Ali Habouha", img: "https://www.fiware.org/wp-content/directories/people/images/200px/mohamed-ali-habouha.jpg", position: "Governor", company: "Berkane Provincial Council", "company-link": "https://provinceberkane.ma/citoyen/public/",
-        content: "Mr. Mohamed Ali Habouha, appointed by HM King Mohammed VI as Governor of Berkane province, was born on January 13, 1962 in the province of Tan-Tan. He completed his graduate studies at the university of Ottawa where he obtained a double bachelor degree in management, public policy and political science. He also holds an MBA in Strategic Management and economic intelligence from the Paris School of Economic Warfare. He began his career in 1987 in the private sector as administrative director in a public works company before joining the office of exploitation of the ports in 1990. In 1997, he will leave this office to invest in the fisheries sector where he chaired the association of factories for the development of fishery products in Laayoune,and thus became a member of the Moroccan exporters association the ASMEX in 2002. Later on, Governor Habouha joined the Ministry of Interior in 2004 as Secretary General of the Central Administration and was transferred, in 2005, in the same capacity to the Cabinet of the Wali of Moroccan Laâyoune-Boujdour-Sakia-El Hamra Region. On March 1, 2010, he was appointed by HM the King Governor of the Province of Tarfaya and on November 26, 2010 as Governor of the District Prefecture of Sidi Bernoussi, Casablanca. Berkane owes Governor Habouha its international status and most of all the international Smart City Award and recognition it received in September 2022.", linkedin: "", twitter: "", domain: "", location: "",
-        flag: "", },
     "yasunori-mochizuki":
         { name: "Yasunori Mochizuki", img: "https://www.fiware.org/wp-content/directories/people/images/200px/yasunori-mochizuki.jpg", position: "NEC Fellow", company: "NEC Corporation", "company-link": "https://www.nec.com/",
         content: "Yasunori Mochizuki is NEC Fellow and is focused on digital transformation and ecosystem strategy for Smart Cities and is active in policy recommendation and multi-stakeholder collaboration initiatives for technology innovation as well as technology governance, leveraging his global smart city networks. Previously, he was Senior Vice President responsible for NEC’s corporate technology strategy including R&amp;D roadmap and open innovations. He is currently the chairman of the BoD of FIWARE Foundation, In addition he was member of the BoD since 2017 when NEC joined the Foundation as a Platinum Member. Yasunori has 30+ years of career as a research scientist and then as head of multiple research departments in NEC and his technical expertise covers a broad area including AI-oriented computer science, ICT systems, integrated devices and solid-state physics. He received his PhD in Electronics Engineering from the University of Tokyo.", linkedin: "https://www.linkedin.com/in/yasunori-mochizuki-93bab674/", twitter: "https://twitter.com/yasunorimochiz", domain: "", location: "",
@@ -134,10 +129,6 @@ var modalData = {
     "jose-benítez":
         { name: "Jose Benítez", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jose-benitez.jpg", position: "Chief Executive Officer", company: "Secmotic", "company-link": "https://secmotic.com/",
         content: "Since its establishment in 2015, Jose has been at the helm of Secmotic as CEO. His involvement on the Board of Directors of FIWARE since 2017 has contributed to shaping the future of the organization. In 2021, he embarked on a new venture, founding FIWOO Smart Solutions, a company dedicated to delivering FIWARE-based Smart City platform solutions tailored to the needs of the Spanish public sector.", linkedin: "https://www.linkedin.com/in/jose-benitez-secmotic/", twitter: "", domain: "", location: "",
-        flag: "", },
-    "khalid-ouakka":
-        { name: "Khalid Ouakka", img: "https://www.fiware.org/wp-content/directories/people/images/200px/khalid-ouakka.jpg", position: "Director of E-Government", company: "Digital Development Agency (ADD)", "company-link": "",
-        content: "", linkedin: "https://www.linkedin.com/in/khalid-ouakka-b722ab5/", twitter: "", domain: "", location: "",
         flag: "", },
     "andrea-cruciani":
         { name: "Andrea Cruciani", img: "https://www.fiware.org/wp-content/directories/people/images/200px/andrea-cruciani.jpg", position: "Chief Executive Officer", company: "Agricolus", "company-link": "https://www.agricolus.com/",
@@ -158,6 +149,10 @@ var modalData = {
     "davor-meersman":
         { name: "Davor Meersman", img: "https://www.fiware.org/wp-content/directories/people/images/200px/davor-meersman.jpg", position: "Executive Chairman", company: "FutureCraft Foundation", "company-link": "https://futurecraft.earth/",
         content: "Dr. Davor Meersman is CEO of FutureCraft Open Source Habitats and Chairman of the FutureCraft Foundation, working with cities and regions worldwide on building free, open-source, production-ready, interoperable digital twins for constructing climate-positive affordable neighbourhoods: the Digital Housing Commons. Davor is also the Smart Communities Advisor of the Industry Commons Foundation, working with the New European Bauhaus High-Level Roundtable. Previously, Davor was CEO of Open &amp; Agile Smart Cities and the initiator of IMEC City of Things, Europe’s largest IoT living lab. Davor is also an honorary member of the United Nations SDG 11 Global Council, the European Commission’s Steering Committee on Advanced Technologies for Industry, and Ambassador of the International Society of Service Innovation Professionals under the auspices of IBM, Cisco, HP, Dell, and other leading organisations. He holds a PhD in Information Systems from Curtin University, Australia.", linkedin: "https://www.linkedin.com/in/davormeersman/", twitter: "https://twitter.com/davor_oasc", domain: "", location: "",
+        flag: "", },
+    "zouhair-lakhdissi":
+        { name: "Zouhair Lakhdissi", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Co-Founder", company: "AI Crafters", "company-link": "https://aicrafters.com/",
+        content: "", linkedin: "https://www.linkedin.com/in/lakhdissi/", twitter: "", domain: "", location: "",
         flag: "", },
     "joão-bastos":
         { name: "João Bastos", img: "https://www.fiware.org/wp-content/directories/people/images/200px/joao-bastos.jpg", position: "Head of Systems Architecture and Data Analytics", company: "Associação Porto Digital", "company-link": "https://www.portodigital.pt/en/homepage/",
@@ -258,6 +253,10 @@ var modalData = {
     "brecht-van-de-vyvere":
         { name: "Brecht van de Vyvere", img: "https://www.fiware.org/wp-content/directories/people/images/200px/brecht-van-de-vyvere.jpg", position: "Linked Data Architect", company: "Sirus", "company-link": "https://sirus.be/",
         content: "Brecht Van de Vyvere is a driven and pragmatic person with a passion for exchanging linked data. He finished his PhD in 2023 at Ghent University where he learned to work with domain experts to describe their datasets machine-readable in line with standards. Today, he is working at the company Sirus as a Linked Data architect where he enjoys working out architectures to automate the adoption of these datasets within applications. He has built up this experience mainly within the context of (local) governments and cultural organisations.", linkedin: "https://www.linkedin.com/in/brecht-van-de-vyvere-b9232b9b/", twitter: "https://twitter.com/brechtvdv", domain: "", location: "",
+        flag: "", },
+    "thimo-thoeye":
+        { name: "Thimo Thoeye", img: "https://www.fiware.org/wp-content/directories/people/images/200px/thimo-thoeye.jpg", position: "Tech Lead", company: "OASC", "company-link": "oascities.org",
+        content: "Thimo Thoeye is a technology advisor for OASC in various projects. He brings in years of experience in interoperability and linked data. Thimo is a driving force behind Open Knowledge Belgium and works for the Information and communication technology agency of the city of Ghent in Belgium.", linkedin: "https://www.linkedin.com/in/thimothoeye/", twitter: "", domain: "", location: "",
         flag: "", },
     "megumi-suzuki":
         { name: "Megumi Suzuki", img: "https://www.fiware.org/wp-content/directories/people/images/200px/megumi-suzuki.jpg", position: "Researcher - Information Technology R&amp;D Center", company: "Mitsubishi Electric Corporation", "company-link": "https://www.mitsubishielectric.com/en/index.html",
