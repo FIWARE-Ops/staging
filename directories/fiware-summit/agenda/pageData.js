@@ -38,8 +38,8 @@ var sessions = [
 ]; 
 var speakers = [
         'Alberto Abella',
-        'Omar Agodim',
         'Suna Akbayir',
+        'Khalid Baddou',
         'João Bastos',
         'Jose Benítez',
         'Az-Eddine Bennani',
@@ -56,8 +56,6 @@ var speakers = [
         'Mohamed Dafir',
         'Gert De Tant',
         'Matthias de Bièvre',
-        'Hicham El Habti',
-        'Amal El Fellah Seghrouchni',
         'Mohamed Essaidi',
         'Guven Fidan',
         'Jason Fox',
@@ -79,7 +77,7 @@ var speakers = [
         'Yasunori Mochizuki',
         'Lydia Montandon',
         'Andrea Montieri',
-        'Timo Mueller',
+        'Timo Müller',
         'Sachiko Muto',
         'Khalil Nossair',
         'Manfredi Pistone',
@@ -106,13 +104,9 @@ var modalData = {
         { name: "Alberto Abella", img: "https://www.fiware.org/wp-content/directories/people/images/200px/alberto-abella.jpg", position: "Chief Operations Officer", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
         content: "Alberto Abella (m) is PhD in Business (Open data) and Telecommunications Engineer and Master in Total Quality Management, Business Administration and Business Organization. He works as a Data Modelling Expert and Technical Evangelist at FIWARE and currently is the responsible person for the smart data models initiative.", linkedin: "https://www.linkedin.com/in/albertoabella/", twitter: "https://twitter.com/aabella", domain: "", location: "",
         flag: "", },
-    "hicham-el-habti":
-        { name: "Dr. Hicham El Habti", img: "https://www.fiware.org/wp-content/directories/people/images/200px/hicham-el-habti.jpg", position: "President", company: "UM6P", "company-link": "https://um6p.ma/",
-        content: "", linkedin: "", twitter: "", domain: "", location: "",
-        flag: "", },
-    "amal-el-fellah-seghrouchni":
-        { name: "Amal El Fellah Seghrouchni", img: "https://www.fiware.org/wp-content/directories/people/images/200px/amal-el-fallah-seghrouchni.jpg", position: "Ministry Delegate for Digital Transition and Administrative Reform", company: "Government of Morocco", "company-link": "",
-        content: "Experienced Full Professor with a demonstrated history of working in the research industry. Skilled in Mathematical Modeling, Computer Science, Articial Intelligence, Autonomous agents and Software Design. Strong education professional with Ph.D in Computer Science from the University Pierre et Marie Curie and a Habilitation à Diriger les Recherches (HDR) focused in Computer Science - Artificial Intelligence from University Sorbonne Paris Nord. Involved in various international committees for A.I. and Autonomous Agents as co-General Chair of AAMAS 2021 (the Premiere conference on Autonomous Agents and Multi-Agent Systems).", linkedin: "https://www.linkedin.com/in/amal-el-fallah-seghrouchni-7459363/", twitter: "", domain: "", location: "",
+    "khalid-baddou":
+        { name: "Khalid Baddou", img: "https://www.fiware.org/wp-content/directories/people/images/200px/khalid-baddou.jpg", position: "Chief of Cabinet &amp; Institutional Affairs Director", company: "UM6P", "company-link": "https://um6p.ma/en",
+        content: "Khalid Baddou is the Chief of Staff and Director of Institutional Affairs at UM6P. During his 24 years career, he was appointed in several senior positions in multinational companies: Nestlé, Merck and Western Union. His missions covered regional and international environments: Maghreb, Middle East and Africa. Baddou is a graduate of Al Akhawayn University (Morocco) in Economics and Social Sciences. He holds also degrees from Harvard Business School (USA) in Business Management &amp; Leadership, from UM6P (Morocco) in Collective Intelligence, and from Sciences Po (France) in Corporate Governance. Within the different companies and associations where he is a Board or Executive member, Khalid Baddou has been able to build solid networks in the public and private sectors and to lead groups towards common objectives, which allowed him to implement strategic initiatives with high-impact.", linkedin: "https://www.linkedin.com/in/khalidbaddou/", twitter: "", domain: "", location: "",
         flag: "", },
     "aawatif-hayar":
         { name: "Dr. Aawatif Hayar", img: "https://www.fiware.org/wp-content/directories/people/images/200px/aawatif-hayar.jpg", position: "Chairman", company: "Smart Cities Morocco Alliance", "company-link": "https://www.univh2c.ma/",
@@ -156,7 +150,7 @@ var modalData = {
         flag: "", },
     "zouheir-lakhdissi":
         { name: "Zouheir Lakhdissi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/zouheir-lakhdissi.jpg", position: "CEO and Co-founder", company: "Dial Technologies", "company-link": "http://www.dialy.net/",
-        content: "Zouheir Lakhdissi is a seasoned Moroccan tech entrepreneur and digital transformation expert with over 25 years of experience in the digital industry. He is the CEO and Co-founder of Dial Technologies, a leading mobile solutions provider in Morocco and North Africa, and part of the Medtech Group. Additionally, he shapes AI strategies at Dealer Dash AI, leveraging his extensive experience in entrepreneurship, digital transformation, and the startup ecosystem. Mr. Lakhdissi holds an engineering degree in Computer Science from INPT, Morocco (1999), and an Executive MBA from Écoles des Ponts, France (2008). He has led numerous consulting and training missions in IT innovation and mobile strategy for both public and private institutions across Morocco, North Africa, and West Africa. He has also taught at various universities and engineering schools in Morocco and has been a speaker, mentor, and jury member at several entrepreneurship and innovation events, including Startup Weekend, Startup Cup, MIT GSW, GIST, and the Global Entrepreneurship Summit. An active leader in Morocco’s professional associations, Mr. Lakhdissi is the President of Horizons Telecom and a board member of Maroc Numeric Cluster and APEBI Maroc. He is also the initiator and co-organizer of Innov’IT, an IT innovation competition in Morocco. Mr. Lakhdissi serves as a grand jury member for the World Summit Awards and the Digital Arabic Content Awards by the United Nations. He also holds the position of Vice-President at the African Center for Strategic Studies and Digitalization (CAESD). As an expert for The World Bank and the EBRD, he provides insights and guidance in investment committees for startups across Africa and the Middle East. In addition to his professional endeavors, Mr. Lakhdissi is a poet and AI enthusiast, combining his passion for technology with creative expression. Through his multifaceted career, Zouheir Lakhdissi continues to shape the digital landscape in Morocco and beyond, fostering innovation and empowering the next generation of tech leaders.", linkedin: "https://www.linkedin.com/in/lakhd", twitter: "", domain: "", location: "",
+        content: "With over 26 years’ experience in the digital industry and more than 18 years spent in various C-Level positions, Mr. Lakhdissi is the founder of AI Crafters an AI consulting and training company based in France Morocco and UAE, and co-founder of eight startups/SMEs in North Africa, the Middle East, and Europe. He is a Board Member and a Grand Jury of the World Summit Awards United Nations (UN) initiative for digital innovation and jury member of the Digital Arabic content Award organized by the UN ESCWA Mr. Lakhdissi is concurrently serving as the Vice President of African center for strategic studies and digitization and as an Artificial Intelligence and digital transformation expert with different World institutions as World Bank, EBRD and GIZ. He is also member on investment committees of various startup funds in Africa and the Middle East.", linkedin: "https://www.linkedin.com/in/lakhd", twitter: "", domain: "", location: "",
         flag: "", },
     "davor-meersman":
         { name: "Davor Meersman", img: "https://www.fiware.org/wp-content/directories/people/images/200px/davor-meersman.jpg", position: "Executive Chairman", company: "FutureCraft Foundation", "company-link": "https://futurecraft.earth/",
@@ -301,6 +295,10 @@ var modalData = {
     "vinith-bhandari":
         { name: "Vinith Bhandari", img: "https://www.fiware.org/wp-content/directories/people/images/200px/vinith-bhandari.jpg", position: "Head of Ecosystem Building", company: "iSHARE Foundation", "company-link": "https://ishare.eu/",
         content: "", linkedin: "https://www.linkedin.com/in/vinith-bhandari/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "timo-müller":
+        { name: "Timo Müller", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Head of Projects", company: "GIZ", "company-link": "https://www.giz.de/en/html/index.html",
+        content: "", linkedin: "https://www.linkedin.com/in/timo-stephan-mueller/", twitter: "", domain: "", location: "",
         flag: "", },
     "jason-fox":
         { name: "Jason Fox", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jason-fox.jpg", position: "Senior Technical Expert &amp; Evangelist", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
