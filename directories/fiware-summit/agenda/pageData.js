@@ -40,7 +40,6 @@ var sessions = [
 var speakers = [
         'Alberto Abella',
         'Suna Akbayir',
-        'Jose Alvaro',
         'Fatima Azmarkou',
         'João Bastos',
         'Mohamed Benabbad',
@@ -77,6 +76,7 @@ var speakers = [
         'Zouheir Lakhdissi',
         'Jure Lampe',
         'Frederico Lopes',
+        'Jose Luis Alvaro',
         'Davor Meersman',
         'El Mehdi Erroussafi',
         'Francisco Meléndez',
@@ -271,16 +271,16 @@ var modalData = {
         { name: "Didac Colominas", img: "https://www.fiware.org/wp-content/directories/people/images/200px/didac-colominas.jpg", position: "Researcher of AAI", company: "Eurecat", "company-link": "https://eurecat.org/home/en/",
         content: "I\&#x27;m a Researcher at Applied Artificial Intelligence Unit of Eurecat, also it\&#x27;s Associate Professor at Polytechnical University of Lleida.​ I\&#x27;m involved in developing innovative solutions that integrate artificial intelligence and knowledge management technologies, focusing on sectors like industry, energy, and sustainability. The unit\&#x27;s expertise encompasses areas such as virtual sensors, digital twins, Internet of Things (IoT), data interoperability, and real-time decision support systems.", linkedin: "https://www.linkedin.com/in/didac-colominas/", twitter: "", domain: "", location: "",
         flag: "", },
-    "jose-alvaro":
-        { name: "Jose Alvaro", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jose-alvaro.jpg", position: "Chief Executive Officer", company: "GrupoTX", "company-link": "https://www.grupotx.com/",
-        content: "", linkedin: "https://www.linkedin.com/in/jose-alvaro-29918562/", twitter: "", domain: "", location: "",
+    "jose-luis-alvaro":
+        { name: "Jose Luis Alvaro", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jose-alvaro.jpg", position: "Chief Technology Officer", company: "GrupoTX", "company-link": "https://www.grupotx.com/",
+        content: "Jose Luis is the Chief Technology Officer at Grupo TX, a leading international corporation that specializes in providing innovative solutions for digital government, process automation, IoT monitoring, urban data infrastructure, and citizen services. Grupo TX is at the forefront of leveraging technology to address climate and environmental challenges for intelligent territories. With a remarkable problem-solving ability, Jose Luis brings over 15 years of experience in developing specialized systems and solutions for Governments. His in-depth knowledge of the latest technological advancements and industry trends has played a pivotal role in driving Grupo TX’s success in delivering cutting-edge services to its clients. Jose Luis’s passion for continuous learning is evident through his educational achievements. He holds a specialty in High Management from IPADE Business School in Mexico, renowned for its focus on strategic leadership and business acumen. In addition, he is a cloud early adopter with 14 years of hands-on experience in transforming cutting edge technology to support government in their digital transformation With his extensive experience, impeccable track record, and expertise in technology and digital transformation, Jose Luis is a driving force behind Grupo TX’s commitment to innovation and delivering sustainable solutions for the modern world.", linkedin: "https://www.linkedin.com/in/jose-alvaro-29918562/", twitter: "", domain: "", location: "",
         flag: "", },
     "eloy-hernandez":
         { name: "Eloy Hernandez", img: "https://www.fiware.org/wp-content/directories/people/images/200px/eloy-hernandez.jpg", position: "Researcher", company: "Eurecat", "company-link": "https://eurecat.org/home/en/",
         content: "I’m a computer engineer with solid experience in IT, artificial intelligence, and project management. Over the years, I’ve been actively involved in European research and innovation projects, where I’ve applied digital technologies to address real-world challenges, especially in the areas of water management, interoperability, and sustainability. My work combines technological development with coordination activities, ensuring that digital solutions are practical, well-integrated, and aligned with stakeholder needs. I’m particularly focused on building interoperable, data-driven tools that support decision-making in different environments. As a member of the ICT4Water cluster, I contribute to joint efforts across Europe to advance open, FAIR, and standard-based digital solutions for the water sector and beyond.", linkedin: "", twitter: "", domain: "", location: "",
         flag: "", },
     "lydia-montandon":
-        { name: "Lydia Montandon", img: "https://www.fiware.org/wp-content/directories/people/images/200px/lydia-montandon.jpg", position: "Communications Lead &amp; Project Manager", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
+        { name: "Lydia Montandon", img: "https://www.fiware.org/wp-content/directories/people/images/200px/lydia-montandon.jpg", position: "Community Outreach Coordinator", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
         content: "Lydia Montandon (f) is marketing and project manager at the FIWARE Foundation. Previously, she was a consultant in digital transformation at Atos, with focus on innovation, experience and accessibility services. Before, her role as business development director was to promote and find a market to exploit R&amp;D outcomes and Innovations. In particular, she supported the commercialization of FIWARE methods and tools when they became mature enough to be proposed to Atos&#x27; clients. She has more than 20 years of experience in coordinating, managing and promoting large European R&amp;D projects. She has contributed to the development of Innovation Management strategies and facilitated co-creation and innovation workshops during more than 10 years. She holds a Master of Science in Education Technologies from the University of Geneva, Switzerland, an MBA in Sustainable Development and Diplomacy from EUCLID University and a diploma in Design &amp; Visual Communication from the Istituto Europeo di Design, Milan, Italy. She is fluent in English, French, Italian, Spanish, German and Greek.", linkedin: "https://www.linkedin.com/in/lydiamontandon/", twitter: "https://twitter.com/lmontandon", domain: "", location: "",
         flag: "", },
     "ángeles-tejado":
