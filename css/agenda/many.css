@@ -25,6 +25,7 @@ body {
     left: 433px;
     width: 690px;
 }
+
 .title {
     font-size: 28px;
     line-height: 36px;
@@ -200,20 +201,21 @@ body {
     gap: 50px;
 }
 
+.speaker {
+    /*min-width: 28%;*/
+    width: calc(29% - 10px);
+    /*max-width: 28%;*/
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
 .speakers.more {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 13px;
-}
-
-.speaker {
-    min-width: 32%;
-    width: 32%;
-    max-width: 32%;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+    gap: 50px;
 }
 
 .speaker-info {
@@ -231,8 +233,11 @@ body {
 }
 
 .speaker-info-small {
-    /* padding-top: 5px;
-      padding-bottom: 5px; */
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .speaker-name {
@@ -254,12 +259,12 @@ body {
 }
 
 .speakers.more .speaker-name {
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 24px;
+    line-height: 28px;
     font-weight: 600;
     color: #000000;
     padding: 0;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 
 .speaker-job-title {
@@ -281,8 +286,8 @@ body {
 }
 
 .speakers.more .speaker-job-title {
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 22px;
+    line-height: 24px;
     font-weight: 400;
     color: #696969;
     padding: 0;
@@ -306,8 +311,8 @@ body {
 }
 
 .speakers.more .speaker-company {
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 22px;
+    line-height: 24px;
     font-weight: 400;
     color: #696969;
     padding: 0;
