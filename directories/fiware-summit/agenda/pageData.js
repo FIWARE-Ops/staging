@@ -39,8 +39,8 @@ var sessions = [
 var speakers = [
         'Alberto Abella',
         'Suna Akbayir',
-        'Khalid Baddou',
         'João Bastos',
+        'Ali Benfattoum',
         'Jose Benítez',
         'Az-Eddine Bennani',
         'Massimo Bertoncini',
@@ -57,6 +57,7 @@ var speakers = [
         'Gert De Tant',
         'Stefano De Panfilis',
         'Matthias de Bièvre',
+        'Hicham El Habti',
         'Mohamed Essaidi',
         'Guven Fidan',
         'Jason Fox',
@@ -75,6 +76,7 @@ var speakers = [
         'Davor Meersman',
         'El Mehdi Erroussafi',
         'Francisco Meléndez',
+        'Ryad Mezzour',
         'Yasunori Mochizuki',
         'Lydia Montandon',
         'Andrea Montieri',
@@ -105,9 +107,9 @@ var modalData = {
         { name: "Alberto Abella", img: "https://www.fiware.org/wp-content/directories/people/images/200px/alberto-abella.jpg", position: "Chief Operations Officer", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
         content: "Alberto Abella (m) is PhD in Business (Open data) and Telecommunications Engineer and Master in Total Quality Management, Business Administration and Business Organization. He works as a Data Modelling Expert and Technical Evangelist at FIWARE and currently is the responsible person for the smart data models initiative.", linkedin: "https://www.linkedin.com/in/albertoabella/", twitter: "https://twitter.com/aabella", domain: "", location: "",
         flag: "", },
-    "khalid-baddou":
-        { name: "Khalid Baddou", img: "https://www.fiware.org/wp-content/directories/people/images/200px/khalid-baddou.jpg", position: "Chief of Cabinet &amp; Institutional Affairs Director", company: "UM6P", "company-link": "https://um6p.ma/en",
-        content: "Khalid Baddou is the Chief of Staff and Director of Institutional Affairs at UM6P. During his 24 years career, he was appointed in several senior positions in multinational companies: Nestlé, Merck and Western Union. His missions covered regional and international environments: Maghreb, Middle East and Africa. Baddou is a graduate of Al Akhawayn University (Morocco) in Economics and Social Sciences. He holds also degrees from Harvard Business School (USA) in Business Management &amp; Leadership, from UM6P (Morocco) in Collective Intelligence, and from Sciences Po (France) in Corporate Governance. Within the different companies and associations where he is a Board or Executive member, Khalid Baddou has been able to build solid networks in the public and private sectors and to lead groups towards common objectives, which allowed him to implement strategic initiatives with high-impact.", linkedin: "https://www.linkedin.com/in/khalidbaddou/", twitter: "", domain: "", location: "",
+    "hicham-el-habti":
+        { name: "Dr. Hicham El Habti", img: "https://www.fiware.org/wp-content/directories/people/images/200px/hicham-el-habti.jpg", position: "President", company: "UM6P", "company-link": "https://um6p.ma/en",
+        content: "", linkedin: "", twitter: "", domain: "", location: "",
         flag: "", },
     "aawatif-hayar":
         { name: "Dr. Aawatif Hayar", img: "https://www.fiware.org/wp-content/directories/people/images/200px/aawatif-hayar.jpg", position: "Chairman", company: "Smart Cities Morocco Alliance", "company-link": "https://www.univh2c.ma/",
@@ -125,17 +127,29 @@ var modalData = {
         { name: "Jose Benítez", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jose-benitez.jpg", position: "Chief Executive Officer", company: "Secmotic", "company-link": "https://secmotic.com/",
         content: "Since its establishment in 2015, Jose has been at the helm of Secmotic as CEO. His involvement on the Board of Directors of FIWARE since 2017 has contributed to shaping the future of the organization. In 2021, he embarked on a new venture, founding FIWOO Smart Solutions, a company dedicated to delivering FIWARE-based Smart City platform solutions tailored to the needs of the Spanish public sector.", linkedin: "https://www.linkedin.com/in/jose-benitez-secmotic/", twitter: "", domain: "", location: "",
         flag: "", },
+    "ali-benfattoum":
+        { name: "Ali Benfattoum", img: "https://www.fiware.org/wp-content/directories/people/images/200px/ali-benfattoum.jpg", position: "Principal Product Manager - AWS IoT", company: "AWS", "company-link": "https://aws.amazon.com/",
+        content: "Ali Benfattoum is a Technology Evangelist for IoT and Smart Cities at Amazon Web Services. With over 12 years of experience in IoT and Smart Cities, Ali brings his technical expertise to enable and help customers and partners to accelerate their IoT and Smart Cities projects. Ali also holds an executive MBA, giving him the ability to zoom out and help customers and partners at a strategic level.", linkedin: "https://www.linkedin.com/in/alibenfattoum/", twitter: "https://twitter.com/alifrugal", domain: "", location: "",
+        flag: "", },
     "khalil-nossair":
         { name: "Col. Khalil Nossair", img: "https://www.fiware.org/wp-content/directories/people/images/200px/khalil-nossair.jpg", position: "Director of Security &amp; Information Systems", company: "DGSSI", "company-link": "https://www.dgssi.gov.ma/fr",
         content: "Khalil Nossair is the Director of Assistance, Training, Control, and Expertise at the General Directorate of Information Systems Security (DGSSI). A graduate of the Royal Air School of Marrakech, he also holds a Master’s degree and a DEA (postgraduate diploma) in Embedded Systems from the National School of Aeronautical Engineering in Toulouse. He has earned several professional certifications in cybersecurity, covering areas such as auditing and control, risk management, industrial control systems security, and cloud security.", linkedin: "https://www.linkedin.com/in/khalil-nossair-91082431/", twitter: "", domain: "", location: "",
         flag: "", },
     "andrea-cruciani":
-        { name: "Andrea Cruciani", img: "https://www.fiware.org/wp-content/directories/people/images/200px/andrea-cruciani.jpg", position: "Chief Executive Officer", company: "Agricolus", "company-link": "https://www.agricolus.com/",
-        content: "Andrea is the Agricolus co-founder and CEO, member of FIWARE Foundation BoD, Chairman of the FIWARE Smart AgriFood MSC. He runs the international business area and the financial aspects of the company and he has a technical background and experience in applications Development, Enterprise Architectures, Cloud Computing, and GIS. Andrea is involved in Innovative Startup Evolution and scaleup, during the years he worked with Public Administration, multinational companies, NGOs, and SMEs. He is a speaker for several universities and public events where he is invited to discuss entrepreneurship and digital transformation, and he is a contributor in several technical articles and publications about agritech.", linkedin: "https://www.linkedin.com/in/andreacruciani/", twitter: "https://twitter.com/kokkete", domain: "", location: "",
+        { name: "Andrea Cruciani", img: "https://www.fiware.org/wp-content/directories/people/images/200px/andrea-cruciani.jpg", position: "Chief Executive Officer", company: "TeamDev Ecosystem, Agricolus", "company-link": "https://www.agricolus.com/",
+        content: "Andrea Cruciani, Product Owner of WiseTown, CEO of TeamDev Ecosystem, and CEO of Agricolus, is an active member of the FIWARE Foundation and has been a FIWARE Evangelist since 2020. Deeply committed to urban innovation, Andrea collaborates closely with city experts and public administrations. He brings a wealth of experience in driving smart city advancements through cutting-edge computer architectures, multi-device application development, and enterprise-level system design—expertly navigating the complexities of cloud computing and harnessing the power of Geographic Information Systems (GIS).", linkedin: "https://www.linkedin.com/in/andreacruciani/", twitter: "https://twitter.com/kokkete", domain: "", location: "",
         flag: "", },
     "frederico-lopes":
         { name: "Frederico Lopes", img: "https://www.fiware.org/wp-content/directories/people/images/200px/frederico-lopes.jpg", position: "Professor &amp; Institute Director", company: "UFRN", "company-link": "https://www.ufrn.br/",
         content: "Associate Professor at UFRN (Brazil), he holds a bachelor&#x27;s degree (2005) and a Ph.D. (2011) in Computer Science from UFRN and a master&#x27;s degree in Systems and Computing also from UFRN. Postdoctoral fellowship (2016) at the University of British Columbia, Vancouver/Canada. During the year 2010, he was a Ph.D. intern (sandwich doctorate) at IST/UTL, Lisbon/Portugal (2010). He has experience in the field of Computer Science, with an emphasis on Distributed Systems and Software Engineering, mainly working on the following topics: geographic information systems, middleware, ubiquitous computing, pervasive computing, smart cities, computational platforms, cloud computing, the internet of things. Member of the Fiware Foundation since 2017, he is Fiware evangelist and the director of Smart Metropolis Fiware iHub, in Natal / Brazil. Coordinator of the Smart Metropolis Laboratory, with more than a dozen software registrations for real smart city systems in partnership with: Federal Highway Police, RN Public Security Department, Ministry of Regional Development, RN Public Ministry, Natal City Hall, among other public agencies. Coordinator of the Postgraduate Program in Information Technology (PPgTI) at UFRN from 2013 to 2015 and currently since 2023.", linkedin: "https://www.linkedin.com/in/frederico-lopes-342a697/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "jure-lampe":
+        { name: "Jure Lampe", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jure-lampe.png", position: "Chief Executive Officer", company: "SenLab d.o.o.", "company-link": "https://senlab.io/en/about-us",
+        content: "SenLab is an IoT consulting company that I founded and lead as the CEO and owner since 2014. My mission is to deliver knowledge, answers, and solutions for IoT projects in various domains, such as Industry 4.0, logistics, smart cities, home automation, healthcare, research and education. With over 20 years of experience in this field, I have developed core competencies in IoT concept design, prototyping, testing, and deployment, as well as new business development, consulting, and team leadership. I hold a BS in Computer and Information Science and I am pursuing a PhD in Business and Management, which enable me to combine technical expertise with business acumen and creativity. I am passionate about solving complex problems with simple, innovative, and user-friendly IoT solutions that have a positive impact on society and the environment. I have led and participated in multiple award-winning IoT projects, such as IoTool, IoChat, and RelaxedCare, that demonstrate the potential and value of IoT in various settings and scenarios.", linkedin: "https://www.linkedin.com/in/jurelampe/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "ryad-mezzour":
+        { name: "Ryad Mezzour", img: "https://www.fiware.org/wp-content/directories/people/images/200px/ryad-mezzour.jpg", position: "Minister of Industry and Trade", company: "Government of Morocco", "company-link": "",
+        content: "Experienced Senior Level Manager with a strong background in the public and private sectors. Skilled in Negotiation, Business Planning, Analytical Skills, Operations Management, and Coaching. Strong education professional with a MSc. focused in Power Plant Technology and Business Administration from Eidgenössische Technische Hochschule Zürich.", linkedin: "https://www.linkedin.com/in/ryad-mezzour-65158b3/", twitter: "", domain: "", location: "",
         flag: "", },
     "joão-bastos":
         { name: "João Bastos", img: "https://www.fiware.org/wp-content/directories/people/images/200px/joao-bastos.jpg", position: "Head of Systems Architecture and Data Analytics", company: "Porto Digital", "company-link": "https://www.portodigital.pt/en/homepage/",
@@ -144,10 +158,6 @@ var modalData = {
     "jin-kawasaki":
         { name: "Dr. Jin Kawasaki", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jin-kawasaki.jpg", position: "Senior Expert - Information Technology R&amp;D Center", company: "Mitsubishi Electric Corporation", "company-link": "https://www.mitsubishielectric.com/en/index.html",
         content: "Jin Kawasaki is working as Senior Expert at Information Technology R&amp;D Center of Mitsubishi Electric Corporation. He received Ph.D. degree from University of Tsukuba in 2016. He also has business experience in IoT of building facilities and energy management. His research interest is smart building and city platform which provides solution such as carbon neutrality, energy management and workplace management.", linkedin: "https://www.linkedin.com/in/jin-kawasaki-817809205/?original_referer&#x3D;https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&amp;originalSubdomain&#x3D;jp", twitter: "", domain: "", location: "",
-        flag: "", },
-    "jure-lampe":
-        { name: "Jure Lampe", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jure-lampe.png", position: "Chief Executive Officer", company: "SenLab d.o.o.", "company-link": "https://senlab.io/en/about-us",
-        content: "SenLab is an IoT consulting company that I founded and lead as the CEO and owner since 2014. My mission is to deliver knowledge, answers, and solutions for IoT projects in various domains, such as Industry 4.0, logistics, smart cities, home automation, healthcare, research and education. With over 20 years of experience in this field, I have developed core competencies in IoT concept design, prototyping, testing, and deployment, as well as new business development, consulting, and team leadership. I hold a BS in Computer and Information Science and I am pursuing a PhD in Business and Management, which enable me to combine technical expertise with business acumen and creativity. I am passionate about solving complex problems with simple, innovative, and user-friendly IoT solutions that have a positive impact on society and the environment. I have led and participated in multiple award-winning IoT projects, such as IoTool, IoChat, and RelaxedCare, that demonstrate the potential and value of IoT in various settings and scenarios.", linkedin: "https://www.linkedin.com/in/jurelampe/", twitter: "", domain: "", location: "",
         flag: "", },
     "zouheir-lakhdissi":
         { name: "Zouheir Lakhdissi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/zouheir-lakhdissi.jpg", position: "CEO and Co-founder", company: "Dial Technologies", "company-link": "http://www.dialy.net/",
