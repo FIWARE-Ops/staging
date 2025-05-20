@@ -4,6 +4,7 @@ var companies = [
         'Artech International',
         'AUSIM',
         'AWS',
+        'City of Marrakech',
         'CNR-IMATI',
         'DGSSI',
         'Dial Technologies',
@@ -22,6 +23,7 @@ var companies = [
         'iSHARE Foundation',
         'Latitudo 40',
         'Majal Berkane',
+        'Maroc Numeric Cluster',
         'Meaningfy',
         'Mitsubishi Electric Corporation',
         'NEC Corporation',
@@ -31,12 +33,13 @@ var companies = [
         'PRISALYA Consulting',
         'Prometheus-x',
         'Rabat-Salé-Kénitra Regional Council',
+        'Rhamna Provincial Council',
         'RISE',
         'Secmotic',
         'SenLab d.o.o.',
         'Sirus',
         'Smart Cities Morocco Alliance',
-        'TeamDev Ecosystem, Agricolus',
+        'TeamDev Ecosystem',
         'Telefonica',
         'UFRN',
         'UM5',
@@ -78,6 +81,7 @@ var companies = [
         'Professor',
         'Program Manager',
         'Researcher',
+        'Senior Manager',
         'Software Engineer',
         'Technical Expert',
         'Technical Manager',
@@ -90,8 +94,14 @@ var companies = [
     { name: "Suna Akbayir", img: "https://www.fiware.org/wp-content/directories/people/images/200px/suna-akbayir.jpg", position: "Chief Executive Officer", company: "Artech International", "company-link": "https://artechconsulting.net/",
     content: "Suna Akbayir is a Turkish entrepreneur with an extensive international business presence, well-recognized in Europe’s R&amp;D and innovation ecosystem. She is the Founder &amp; CEO of Artech International BVBA, a Brussels- headquartered in Brussels consulting and technology firm with an R&amp;D office in Leuven specializing in AI-driven solutions, Digital Product Passports (DPPs), and regulatory technology (RegTech) for industries such as automotive, electronics, and healthcare. With deep expertise in R&amp;D funding, technology transfer, and business development, she has led and contributed to multi-million-euro EU-funded projects, working closely with global industry leaders, SMEs, and policymakers. Through Artech, she has been at the forefront of innovation commercialization and market expansion, positioning the company as a key partner in Horizon Europe, Eureka, ITEA, and Celtic+ initiatives. Her expertise spans advisory roles, project evaluations, and mentoring for startups, SMEs, and research institutions, with a focus on bridging technology, business, and policy to drive real-world impact. She is known for her pragmatic approach and strategic foresight, actively shaping Europe’s innovation landscape. She has also been acting as the principal R&amp;D consultant for International Programs for Vestel Electronics, Vestel Home Appliances, Koç Sistem, Koç Digital, and Sestek; University of Maastrciht, RWTH Aachen etc.  She holds an MBA and a bachelor’s degree in Political Science and International Relations and speaks English, French, and Turkish.", linkedin: "https://www.linkedin.com/in/sunaakbayir/", twitter: "", domain: "", location: ""
     },
+    { name: "Fatima Azmarkou", img: "https://www.fiware.org/wp-content/directories/people/images/200px/fatima-azmarkou.jpg", position: "IT Digital Senior Manager", company: "City of Marrakech", "company-link": "https://www.ville-marrakech.ma/",
+    content: "", linkedin: "", twitter: "", domain: "", location: ""
+    },
     { name: "João Bastos", img: "https://www.fiware.org/wp-content/directories/people/images/200px/joao-bastos.jpg", position: "Head of Systems Architecture and Data Analytics", company: "Porto Digital", "company-link": "https://www.portodigital.pt/en/homepage/",
     content: "", linkedin: "https://www.linkedin.com/in/jo%C3%A3o-bastos-71458428/", twitter: "", domain: "", location: ""
+    },
+    { name: "Mohamed Benabbad", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "CTO", company: "Rhamna Provincial Council", "company-link": "",
+    content: "", linkedin: "", twitter: "", domain: "", location: ""
     },
     { name: "Ali Benfattoum", img: "https://www.fiware.org/wp-content/directories/people/images/200px/ali-benfattoum.jpg", position: "Principal Product Manager - AWS IoT", company: "AWS", "company-link": "https://aws.amazon.com/",
     content: "Ali Benfattoum is a Technology Evangelist for IoT and Smart Cities at Amazon Web Services. With over 12 years of experience in IoT and Smart Cities, Ali brings his technical expertise to enable and help customers and partners to accelerate their IoT and Smart Cities projects. Ali also holds an executive MBA, giving him the ability to zoom out and help customers and partners at a strategic level.", linkedin: "https://www.linkedin.com/in/alibenfattoum/", twitter: "https://twitter.com/alifrugal", domain: "", location: ""
@@ -129,7 +139,7 @@ var companies = [
     { name: "Eugeniu Costetchi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/eugeniu-costetchi.jpg", position: "Founder and CEO", company: "Meaningfy", "company-link": "https://meaningfy.ws/",
     content: "Eugeniu Costetchi is the founder of Meaningfy, a Luxembourg-based company providing semantic technology and data-centric solutions to European public administrations, national bodies, and private organisations. A lifelong computing enthusiast with a PhD in Computational Linguistics, Eugeniu has over 15 years of experience in ontology engineering, linked data publishing, and data-centric software development. His work includes contributions to projects at the European Commission and Publications Office of the European Union, particularly in the areas of public procurement, legal interoperability, and reference data management. At Meaningfy, he focuses on practical applications of semantic web technologies to support data interoperability, aceess and reuse. His work is rooted in a sustained interest in language, knowledge representation, and the intersection between human understanding and machine-readable meaning.", linkedin: "https://www.linkedin.com/in/costezki/", twitter: "", domain: "", location: ""
     },
-    { name: "Andrea Cruciani", img: "https://www.fiware.org/wp-content/directories/people/images/200px/andrea-cruciani.jpg", position: "Chief Executive Officer", company: "TeamDev Ecosystem, Agricolus", "company-link": "https://www.agricolus.com/",
+    { name: "Andrea Cruciani", img: "https://www.fiware.org/wp-content/directories/people/images/200px/andrea-cruciani.jpg", position: "Chief Executive Officer", company: "TeamDev Ecosystem", "company-link": "https://teamdevecosystem.it/en",
     content: "Andrea Cruciani, Product Owner of WiseTown, CEO of TeamDev Ecosystem, and CEO of Agricolus, is an active member of the FIWARE Foundation and has been a FIWARE Evangelist since 2020. Deeply committed to urban innovation, Andrea collaborates closely with city experts and public administrations. He brings a wealth of experience in driving smart city advancements through cutting-edge computer architectures, multi-device application development, and enterprise-level system design—expertly navigating the complexities of cloud computing and harnessing the power of Geographic Information Systems (GIS).", linkedin: "https://www.linkedin.com/in/andreacruciani/", twitter: "https://twitter.com/kokkete", domain: "", location: ""
     },
     { name: "Prof. Mohamed Dafir", img: "https://www.fiware.org/wp-content/directories/people/images/200px/mohamed-dafir.jpg", position: "Vice-President and CISO", company: "UM5", "company-link": "https://www.um5.ac.ma",
@@ -207,7 +217,7 @@ var companies = [
     { name: "Francisco Meléndez", img: "https://www.fiware.org/wp-content/directories/people/images/200px/francisco-melendez.jpg", position: "Technical Community Coordinator", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
     content: "Francisco Melendez (m) is a Telecommunications &amp; Robotics Engineer and is FIWARE’s Technical Expert in Robotics, Automation and Industry 4.0. He is also one of the representatives of FIWARE in the Digital Twin Consortium and some international projects where FIWARE is developing its technical roadmap in robotics and automation. As a mobile robotics engineer and researcher with more than 8 years of experience in web-enabled robot applications, his work is currently focused on the development of convenient interfaces between cyber physical systems and digital twins in FIWARE-based solutions.", linkedin: "https://www.linkedin.com/in/franmelfer/", twitter: "", domain: "", location: ""
     },
-    { name: "Ryad Mezzour", img: "https://www.fiware.org/wp-content/directories/people/images/200px/ryad-mezzour.jpg", position: "Minister of Industry and Trade", company: "Government of Morocco", "company-link": "",
+    { name: "Ryad Mezzour", img: "https://www.fiware.org/wp-content/directories/people/images/200px/ryad-mezzour.jpg", position: "Minister of Industry and Trade", company: "Government of Morocco", "company-link": "https://www.maroc.ma/en",
     content: "Experienced Senior Level Manager with a strong background in the public and private sectors. Skilled in Negotiation, Business Planning, Analytical Skills, Operations Management, and Coaching. Strong education professional with a MSc. focused in Power Plant Technology and Business Administration from Eidgenössische Technische Hochschule Zürich.", linkedin: "https://www.linkedin.com/in/ryad-mezzour-65158b3/", twitter: "", domain: "", location: ""
     },
     { name: "Yasunori Mochizuki", img: "https://www.fiware.org/wp-content/directories/people/images/200px/yasunori-mochizuki.jpg", position: "NEC Fellow", company: "NEC Corporation", "company-link": "https://www.nec.com/",
@@ -219,8 +229,8 @@ var companies = [
     { name: "Andrea Montieri", img: "https://www.fiware.org/wp-content/directories/people/images/200px/andrea-montieri.jpg", position: "Business Developer", company: "Latitudo 40", "company-link": "https://www.latitudo40.com/",
     content: "Andrea Montieri is a Business Developer at Latitudo 40, a Techstars portfolio company specializing in Earth Observation and AI-driven geospatial solutions. With a foundation in international relations and space policy, Andrea bridges the gap between advanced technology and real-world applications, focusing on sustainable urban planning and environmental resilience.", linkedin: "https://www.linkedin.com/in/andrea-montieri-62ab60189", twitter: "", domain: "", location: ""
     },
-    { name: "Timo Müller", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Head of Projects", company: "GIZ", "company-link": "https://www.giz.de/en/html/index.html",
-    content: "", linkedin: "https://www.linkedin.com/in/timo-stephan-mueller/", twitter: "", domain: "", location: ""
+    { name: "Timo Müller", img: "https://www.fiware.org/wp-content/directories/people/images/200px/timo-muller.jpg", position: "Head of Projects", company: "GIZ", "company-link": "https://www.giz.de/en/html/index.html",
+    content: "Timo Mueller is an expert at GIZ, the German Agency for International Cooperation, specializing in digital transformation of public administrations, change management, and public-private collaboration. In his current role, he leads the “Digital Transformation of the Moroccan Administration” cooperation project, implemented by GIZ under the eagis of the Ministry of Digital Transition and Administrative Reform and the Digital Development Agency. Timo has built extensive international experience across Europe, Africa, and Latin America, working on e-government projects aimed at modernizing public services. He actively supports the deployment of digital solutions and fosters public-private partnerships to promote sustainable cooperation and innovation in public sector digital transformation.", linkedin: "https://www.linkedin.com/in/timo-stephan-mueller/", twitter: "", domain: "", location: ""
     },
     { name: "Sachiko Muto", img: "https://www.fiware.org/wp-content/directories/people/images/200px/sashiko-muto.jpg", position: "Senior Researcher", company: "RISE", "company-link": "https://ri.se",
     content: "Sachiko Muto is the Chair of OpenForum Europe and a senior researcher at RISE Research Institutes of Sweden. She originally joined OFE in 2007 and served for several years as Director with responsibility for government relations and then as CEO. Sachiko has degrees in Political Science from the University of Toronto and the London School of Economics; she received her doctorate in standardisation policy from TU Delft.", linkedin: "https://www.linkedin.com/in/sachikomuto/", twitter: "", domain: "", location: ""
@@ -260,6 +270,9 @@ var companies = [
     },
     { name: "Megumi Suzuki", img: "https://www.fiware.org/wp-content/directories/people/images/200px/megumi-suzuki.jpg", position: "Researcher - Information Technology R&amp;D Center", company: "Mitsubishi Electric Corporation", "company-link": "https://www.mitsubishielectric.com/en/index.html",
     content: "Megumi Suzuki is working as a Researcher at Information Technology R&amp;D Center of Mitsubishi Electric Corporation. She received master&#x27;s degree from University of Tsukuba in 2021. Her research interest is smart building data models of smart building and smart city platform.", linkedin: "", twitter: "", domain: "", location: ""
+    },
+    { name: "Sanaa Tazi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/sanaa-tazi.jpg", position: "General Manager", company: "Maroc Numeric Cluster", "company-link": "https://mnc.ma/en/accueil-english/",
+    content: "Moroccan &amp; African Digital hub and innovation booster : helps start-ups by providing free trainings, technical assistance, calls for applications, technology innovation support, events and networking. Helps the biggest with technology innovation support to succeed in their digital transformation. Try to change minds by empowering African Women in Tech and strengthening Minority small businesses.", linkedin: "https://www.linkedin.com/in/sanaa-tazi-15579174/", twitter: "https://twitter.com/sanaa_tazi_", domain: "", location: ""
     },
     { name: "Ángeles Tejado", img: "https://www.fiware.org/wp-content/directories/people/images/200px/angeles-tejado.jpg", position: "Senior Program Manager", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
     content: "Angeles Tejado (f) comes with more than 20 years of strong experience in Marketing and Brand Management for customer-focused multinational companies, Angeles coordinated the development of marketing messages helping to communicate the vision and unique value proposition of FIWARE in domains such Smart Cities, Smart Manufacturing &amp; Industry 4.0 and Smart Agrifood; the planning and execution of the FIWARE Communication Strategy; the organization of FIWARE Summits; the coordination of FIWARE presence in all kind of events (market events, StartUp Events, Tech Events, Workshops, Hackathons, Meetups) and in general, coordinating activities targeted to engage members of the FIWARE Community through different FIWARE Mission Support Committees (FIWARE iHubs Committee, FIWARE Accelerator Committee, FIWARE Mundus Committee and Domain Committees associated to the different application domains) and enlarging the FIWARE ecosystem.", linkedin: "https://www.linkedin.com/in/%C3%A1ngeles-tejado-s%C3%A1nchez-2a61b411/", twitter: "", domain: "", location: ""

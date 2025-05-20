@@ -41,9 +41,7 @@ var speakers = [
         'Alberto Abella',
         'Suna Akbayir',
         'Fatima Azmarkou',
-        'Fatima Azmarkou',
         'João Bastos',
-        'Mohamed Benabbad',
         'Mohamed Benabbad',
         'Ali Benfattoum',
         'Jose Benítez',
@@ -76,7 +74,6 @@ var speakers = [
         'Juanjo Hierro',
         'Sveva Ianese',
         'Jin Kawasaki',
-        'Yassine Laghzioui',
         'Zouheir Lakhdissi',
         'Jure Lampe',
         'Frederico Lopes',
@@ -87,7 +84,6 @@ var speakers = [
         'Yasunori Mochizuki',
         'Lydia Montandon',
         'Andrea Montieri',
-        'Timo Müller',
         'Sachiko Muto',
         'Khalil Nossair',
         'Manfredi Pistone',
@@ -139,7 +135,7 @@ var modalData = {
         content: "", linkedin: "https://www.linkedin.com/in/rrpaton/", twitter: "", domain: "", location: "",
         flag: "", },
     "andrea-cruciani":
-        { name: "Andrea Cruciani", img: "https://www.fiware.org/wp-content/directories/people/images/200px/andrea-cruciani.jpg", position: "Chief Executive Officer", company: "TeamDev Ecosystem, Agricolus", "company-link": "https://www.agricolus.com/",
+        { name: "Andrea Cruciani", img: "https://www.fiware.org/wp-content/directories/people/images/200px/andrea-cruciani.jpg", position: "Chief Executive Officer", company: "TeamDev Ecosystem", "company-link": "https://teamdevecosystem.it/en",
         content: "Andrea Cruciani, Product Owner of WiseTown, CEO of TeamDev Ecosystem, and CEO of Agricolus, is an active member of the FIWARE Foundation and has been a FIWARE Evangelist since 2020. Deeply committed to urban innovation, Andrea collaborates closely with city experts and public administrations. He brings a wealth of experience in driving smart city advancements through cutting-edge computer architectures, multi-device application development, and enterprise-level system design—expertly navigating the complexities of cloud computing and harnessing the power of Geographic Information Systems (GIS).", linkedin: "https://www.linkedin.com/in/andreacruciani/", twitter: "https://twitter.com/kokkete", domain: "", location: "",
         flag: "", },
     "mohammed-essaidi":
@@ -155,7 +151,7 @@ var modalData = {
         content: "Associate Professor at UFRN (Brazil), he holds a bachelor&#x27;s degree (2005) and a Ph.D. (2011) in Computer Science from UFRN and a master&#x27;s degree in Systems and Computing also from UFRN. Postdoctoral fellowship (2016) at the University of British Columbia, Vancouver/Canada. During the year 2010, he was a Ph.D. intern (sandwich doctorate) at IST/UTL, Lisbon/Portugal (2010). He has experience in the field of Computer Science, with an emphasis on Distributed Systems and Software Engineering, mainly working on the following topics: geographic information systems, middleware, ubiquitous computing, pervasive computing, smart cities, computational platforms, cloud computing, the internet of things. Member of the Fiware Foundation since 2017, he is Fiware evangelist and the director of Smart Metropolis Fiware iHub, in Natal / Brazil. Coordinator of the Smart Metropolis Laboratory, with more than a dozen software registrations for real smart city systems in partnership with: Federal Highway Police, RN Public Security Department, Ministry of Regional Development, RN Public Ministry, Natal City Hall, among other public agencies. Coordinator of the Postgraduate Program in Information Technology (PPgTI) at UFRN from 2013 to 2015 and currently since 2023.", linkedin: "https://www.linkedin.com/in/frederico-lopes-342a697/", twitter: "", domain: "", location: "",
         flag: "", },
     "ryad-mezzour":
-        { name: "Ryad Mezzour", img: "https://www.fiware.org/wp-content/directories/people/images/200px/ryad-mezzour.jpg", position: "Minister of Industry and Trade", company: "Government of Morocco", "company-link": "",
+        { name: "Ryad Mezzour", img: "https://www.fiware.org/wp-content/directories/people/images/200px/ryad-mezzour.jpg", position: "Minister of Industry and Trade", company: "Government of Morocco", "company-link": "https://www.maroc.ma/en",
         content: "Experienced Senior Level Manager with a strong background in the public and private sectors. Skilled in Negotiation, Business Planning, Analytical Skills, Operations Management, and Coaching. Strong education professional with a MSc. focused in Power Plant Technology and Business Administration from Eidgenössische Technische Hochschule Zürich.", linkedin: "https://www.linkedin.com/in/ryad-mezzour-65158b3/", twitter: "", domain: "", location: "",
         flag: "", },
     "khalil-nossair":
@@ -229,6 +225,14 @@ var modalData = {
     "sveva-ianese":
         { name: "Sveva Ianese", img: "https://www.fiware.org/wp-content/directories/people/images/200px/sveva-ianese.jpg", position: "Academic Researcher", company: "University of Padova", "company-link": "https://www.unipd.it/en/",
         content: "Sveva Ianese is an academic researcher, consultant, and legal expert. Her expertise covers the domains of smart cities, data governance, compliance of AI and Data Space projects. With a legal background in data protection, she is involved in many research projects and serves Italian public bodies as advisory on data-driven policies. A frequent speaker at international conferences, she has published various scientific and informative articles on AI regulation, data privacy, and smart city development. Her work bridges technology, policy, and law to drive ethical and sustainable urban transformation.", linkedin: "https://www.linkedin.com/in/sveva-ianese/", twitter: "", domain: "", location: "",
+        flag: "", },
+    "fatima-azmarkou":
+        { name: "Fatima Azmarkou", img: "https://www.fiware.org/wp-content/directories/people/images/200px/fatima-azmarkou.jpg", position: "IT Digital Senior Manager", company: "City of Marrakech", "company-link": "https://www.ville-marrakech.ma/",
+        content: "", linkedin: "", twitter: "", domain: "", location: "",
+        flag: "", },
+    "mohamed-benabbad":
+        { name: "Mohamed Benabbad", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "CTO", company: "Rhamna Provincial Council", "company-link": "",
+        content: "", linkedin: "", twitter: "", domain: "", location: "",
         flag: "", },
     "az-eddine-bennani":
         { name: "Prof. Az-Eddine Bennani", img: "https://www.fiware.org/wp-content/directories/people/images/200px/az-eddine-bennani.jpg", position: "Adjunct Professor", company: "Al Akhawayn University", "company-link": "https://aui.ma/",
@@ -325,10 +329,6 @@ var modalData = {
     "guven-fidan":
         { name: "Guven Fidan", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "CTO", company: "Artech International", "company-link": "https://www.artechconsulting.net",
         content: "", linkedin: "", twitter: "", domain: "", location: "",
-        flag: "", },
-    "timo-müller":
-        { name: "Timo Müller", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Head of Projects", company: "GIZ", "company-link": "https://www.giz.de/en/html/index.html",
-        content: "", linkedin: "https://www.linkedin.com/in/timo-stephan-mueller/", twitter: "", domain: "", location: "",
         flag: "", },
     "david-campo":
         { name: "David Campo", img: "https://www.fiware.org/wp-content/directories/people/images/200px/david-campo.jpg", position: "Senior Technical Expert &amp; Evangelist", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
