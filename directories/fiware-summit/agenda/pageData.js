@@ -168,7 +168,7 @@ var modalData = {
         content: "", linkedin: "https://www.linkedin.com/in/jo%C3%A3o-bastos-71458428/", twitter: "", domain: "", location: "",
         flag: "", },
     "jin-kawasaki":
-        { name: "Dr. Jin Kawasaki", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jin-kawasaki.jpg", position: "Senior Expert - Information Technology R&amp;D Center", company: "Mitsubishi Electric Corporation", "company-link": "https://www.mitsubishielectric.com/en/index.html",
+        { name: "Dr. Jin Kawasaki", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jin-kawasaki.jpg", position: "Senior Expert", company: "Mitsubishi Electric Corporation", "company-link": "https://www.mitsubishielectric.com/rd/research/information_technology/index.html",
         content: "Jin Kawasaki is working as Senior Expert at Information Technology R&amp;D Center of Mitsubishi Electric Corporation. He received Ph.D. degree from University of Tsukuba in 2016. He also has business experience in IoT of building facilities and energy management. His research interest is smart building and city platform which provides solution such as carbon neutrality, energy management and workplace management.", linkedin: "https://www.linkedin.com/in/jin-kawasaki-817809205/?original_referer&#x3D;https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&amp;originalSubdomain&#x3D;jp", twitter: "", domain: "", location: "",
         flag: "", },
     "zouheir-lakhdissi":
@@ -248,7 +248,7 @@ var modalData = {
         content: "Redouan Dinar, Managing Director of Société de Développement Locale Majal Berkane, is an engineer specializing in information systems security, with advanced certifications in IT technologies and over 20 years’ experience in network administration, Big Data, artificial intelligence and digital transformation. An experienced trainer in technical tools and information systems, since 2007 he has held the position of Director of Information Systems and New Technologies at the Agence de Développement de l’Oriental, where he led major projects linked to digitalization, cloud and cybersecurity. He has also held strategic positions within major national institutions and the Ministry of Foreign Affairs, contributing to missions with a high technological value. Recognized for his rigor, vision and expertise, he is renowned for his ability to steer innovative projects at the service of sustainable territorial development.", linkedin: "https://www.linkedin.com/in/redouan-dinar-785891120/", twitter: "", domain: "", location: "",
         flag: "", },
     "mohamed-essaidi":
-        { name: "Prof. Mohamed Essaidi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/mohamed-essaidi.jpg", position: "Professor &amp; Former Director ENSIAS College of Engineering", company: "UM5", "company-link": "https://www.um5.ac.ma/um5/",
+        { name: "Prof. Mohamed Essaidi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/mohamed-essaidi.jpg", position: "Professor", company: "UM5", "company-link": "https://www.um5.ac.ma/um5/",
         content: "Mohamed Essaidi is Professor and former Director of ENSIAS at Mohammed V University, Rabat, Morocco, and former Director of International Cooperation at the Ministry Delegate to the Head of Government in charge of General Affairs and Governance, Morocco (2019). He is also Chairman of IEEE Public Safety Technology, (2022), IEEE Blockchain Morocco Group (2022) , from IEEE IoT Global Cities Alliance, MEA (2020-2022), member of the evaluation committee of IEEE Humanitarian Activities Committee (2021-2022), member of IEEE EAB Teaching Excellence Editorial Hub, (2021-2022), and member IEEE Global Committee on Global Accreditation (2017-2018). He was also the founding president of the IEEE Morocco Section (2005-2016). Teacher. ESSAAIDI is a UNESCO and ICESCO expert on engineering training, digital transformation and smart cities.", linkedin: "", twitter: "", domain: "", location: "",
         flag: "", },
     "stefano-de-panfilis":
@@ -308,7 +308,7 @@ var modalData = {
         content: "Brecht Van de Vyvere is a driven and pragmatic person with a passion for exchanging linked data. He finished his PhD in 2023 at Ghent University where he learned to work with domain experts to describe their datasets machine-readable in line with standards. Today, he is working at the company Sirus as a Linked Data architect where he enjoys working out architectures to automate the adoption of these datasets within applications. He has built up this experience mainly within the context of (local) governments and cultural organisations.", linkedin: "https://www.linkedin.com/in/brecht-van-de-vyvere-b9232b9b/", twitter: "https://twitter.com/brechtvdv", domain: "", location: "",
         flag: "", },
     "tim-cleffmann":
-        { name: "Tim Cleffmann", img: "https://www.fiware.org/wp-content/directories/people/images/200px/tim-cleffmann.jpg", position: "Chief Business Development Officer", company: "DKSR", "company-link": "https://www.dksr.city/en/",
+        { name: "Tim Cleffmann", img: "https://www.fiware.org/wp-content/directories/people/images/200px/tim-cleffmann.jpg", position: "CBDO", company: "DKSR", "company-link": "https://www.dksr.city/en/",
         content: "Tim Cleffmann is an innovator and consultant in the field of smart city design and digital business models. As Chief Business Development Officer for the Data Competence Center for Cities and Region he develops practical solutions for urban challenges and turns them into concrete applications with clients and partners. Working with a network of innovative solution providers and using methods of co-creation is particularly important to him. Tim Cleffmann holds a Bachelor and Master of Science from the Karlsruhe Institute of Technology and has previously worked for Detecon International GmbH and Deutsche Telekom in the field of Smart City.", linkedin: "https://www.linkedin.com/in/tim-cleffmann-a456a8122/", twitter: "", domain: "", location: "",
         flag: "", },
     "gerardo-guarino-f-":
@@ -316,7 +316,7 @@ var modalData = {
         content: "", linkedin: "https://www.linkedin.com/in/gerardo-guarino-f-867287/", twitter: "", domain: "", location: "",
         flag: "", },
     "megumi-suzuki":
-        { name: "Megumi Suzuki", img: "https://www.fiware.org/wp-content/directories/people/images/200px/megumi-suzuki.jpg", position: "Researcher - Information Technology R&amp;D Center", company: "Mitsubishi Electric Corporation", "company-link": "https://www.mitsubishielectric.com/en/index.html",
+        { name: "Megumi Suzuki", img: "https://www.fiware.org/wp-content/directories/people/images/200px/megumi-suzuki.jpg", position: "Researcher", company: "Mitsubishi Electric Corporation", "company-link": "https://www.mitsubishielectric.com/rd/research/information_technology/index.html",
         content: "Megumi Suzuki is working as a Researcher at Information Technology R&amp;D Center of Mitsubishi Electric Corporation. She received master&#x27;s degree from University of Tsukuba in 2021. Her research interest is smart building data models of smart building and smart city platform.", linkedin: "", twitter: "", domain: "", location: "",
         flag: "", },
     "thimo-thoeye":
@@ -336,11 +336,11 @@ var modalData = {
         content: "", linkedin: "", twitter: "", domain: "", location: "",
         flag: "", },
     "david-campo":
-        { name: "David Campo", img: "https://www.fiware.org/wp-content/directories/people/images/200px/david-campo.jpg", position: "Senior Technical Expert &amp; Evangelist", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
+        { name: "David Campo", img: "https://www.fiware.org/wp-content/directories/people/images/200px/david-campo.jpg", position: "Tech Expert &amp; Evangelist – AI", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
         content: "", linkedin: "https://www.linkedin.com/in/davidnazarenocampo/", twitter: "https://twitter.com/dncampo", domain: "", location: "",
         flag: "", },
     "jason-fox":
-        { name: "Jason Fox", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jason-fox.jpg", position: "Senior Technical Expert &amp; Evangelist", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
+        { name: "Jason Fox", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jason-fox.jpg", position: "Tech Community Manager &amp; Evangelist", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
         content: "Jason Fox (m) has been working for FIWARE Foundation for the last six years in the role of technical evangelist, educating and diseminating information about NGSI interfaces, JSON-LD, Linked Data, the components within the FIWARE Catalogue and Securing FIWARE architectures. Before joining FIWARE, he worked as a software engineer for over 20 years in various roles both in Germany and the United Kingdom using a wide variety of programming languages ranging from C++ to Java to Node.js. This has included coding the software behind selling lottery tickets online for the British National Lottery, and and developing and maintaining technical documentation applications for Nokia.", linkedin: "https://www.linkedin.com/in/jason-fox-8a79563/", twitter: "", domain: "", location: "",
         flag: "", },
     "francisco-meléndez":
