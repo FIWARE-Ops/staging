@@ -300,6 +300,46 @@
 				"type":"Point",
 				"coordinates":[-6.835793,34.01647]
 			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Hotel",
+				"name": "Le M Hotel",
+				"city": "Rabat",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/fiware-summit/rabat-2025/assets/images.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/fiware-summit/rabat-2025/assets/images' loading='lazy'/></picture></div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>Le M Hotel</div>",
+					"<div class='ihub-type'>7 Avenue Al Atlas, Agdal-Ryad</div>",
+					
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.lemhotel.ma/' rel='noopener'><span class='icon website'></span></a><div class='chip-domain'><ul class='chips'><li class='light-grey'>Shuttle</li></ul></div></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-6.8482,33.9967]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Restaurant",
+				"name": "Paul Mahaj Riad",
+				"city": "Rabat",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/fiware-summit/rabat-2025/assets/images.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/fiware-summit/rabat-2025/assets/images' loading='lazy'/></picture></div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>Paul Mahaj Riad</div>",
+					"<div class='ihub-type'>X46J+3QP</div>",
+					
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://paul-maroc.com/' rel='noopener'><span class='icon website'></span></a><div class='chip-domain'><ul class='chips'><li class='light-grey'>Shuttle</li></ul></div></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-6.8706,33.96]
+			}
 		}
 	]
 }
