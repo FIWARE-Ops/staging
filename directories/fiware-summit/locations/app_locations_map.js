@@ -13,6 +13,7 @@ const isHotel = ["==", ["get", "type"], "Hotel"];
 const isRestaurant = ["==", ["get", "type"], "Restaurant"];
 const isAirport = ["==", ["get", "type"], "Airport"];
 const isTrainStation = ["==", ["get", "type"], "Train Station"];
+const isShuttle = ["==", ["get", "type"], "Shuttle Bus"];
 
 
 function addLayer(source) {
@@ -24,7 +25,7 @@ function addLayer(source) {
   type: "symbol",
   source,
   layout: {
-    "icon-image": ["case", isVenue, 'venue', isPOI, 'attraction',  isHotel, 'hotel',  isRestaurant, 'restaurant', isAirport, 'airport', 'trainStation'],
+    "icon-image": ["case", isVenue, 'venue', isPOI, 'attraction',  isHotel, 'hotel',  isRestaurant, 'restaurant', isAirport, 'airport', 'trainStation',  isShuttle, 'shuttle'],
     "icon-size": ["case", isVenue, 0.3, 0.15],
     "icon-overlap": "always"
   },
@@ -41,6 +42,7 @@ const icons = {
    attraction:  "./icons/poi.svg",
    airport:  "./icons/airport.svg",
    trainStation:  "./icons/train.svg",
+   shuttle:  "./icons/shuttle.svg"
 }
 
 function initMap() {
