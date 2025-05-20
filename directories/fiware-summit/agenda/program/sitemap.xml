@@ -17,7 +17,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/dr--hicham-el-habti--president.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/dr--hicham-el-habti--president-of-um6p.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -42,6 +42,10 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2025/global-fiware-use-cases-shaping-smart-cities-for-2030.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/first-operational-smart-territory-in-morocco---berkane-experience.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
