@@ -1,7 +1,8 @@
 var companies = [
         'ADDIX',
-        'Al Akhawayn University of Ifrane',
-        'Artech International Bv',
+        'Al Akhawayn University',
+        'Artech International',
+        'AUSIM',
         'AWS',
         'CNR-IMATI',
         'DGSSI',
@@ -23,7 +24,6 @@ var companies = [
         'Majal Berkane',
         'Meaningfy',
         'Mitsubishi Electric Corporation',
-        'Mohammed V University Rabat',
         'NEC Corporation',
         'OASC',
         'Parthenope University of Naples',
@@ -39,6 +39,7 @@ var companies = [
         'TeamDev Ecosystem, Agricolus',
         'Telefonica',
         'UFRN',
+        'UM5',
         'UM6P',
         'University of Naples Parthenope',
         'University of Padova',
@@ -64,6 +65,7 @@ var companies = [
         'Executive Chairman',
         'Expert',
         'Fellow',
+        'General Secretary',
         'Head of Unit',
         'Lead',
         'Manager',
@@ -85,7 +87,7 @@ var companies = [
     { name: "Alberto Abella", img: "https://www.fiware.org/wp-content/directories/people/images/200px/alberto-abella.jpg", position: "Chief Operations Officer", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
     content: "Alberto Abella (m) is PhD in Business (Open data) and Telecommunications Engineer and Master in Total Quality Management, Business Administration and Business Organization. He works as a Data Modelling Expert and Technical Evangelist at FIWARE and currently is the responsible person for the smart data models initiative.", linkedin: "https://www.linkedin.com/in/albertoabella/", twitter: "https://twitter.com/aabella", domain: "", location: ""
     },
-    { name: "Suna Akbayir", img: "https://www.fiware.org/wp-content/directories/people/images/200px/suna-akbayir.jpg", position: "Chief Executive Officer", company: "Artech International Bv", "company-link": "https://artechconsulting.net/",
+    { name: "Suna Akbayir", img: "https://www.fiware.org/wp-content/directories/people/images/200px/suna-akbayir.jpg", position: "Chief Executive Officer", company: "Artech International", "company-link": "https://artechconsulting.net/",
     content: "Suna Akbayir is a Turkish entrepreneur with an extensive international business presence, well-recognized in Europe’s R&amp;D and innovation ecosystem. She is the Founder &amp; CEO of Artech International BVBA, a Brussels- headquartered in Brussels consulting and technology firm with an R&amp;D office in Leuven specializing in AI-driven solutions, Digital Product Passports (DPPs), and regulatory technology (RegTech) for industries such as automotive, electronics, and healthcare. With deep expertise in R&amp;D funding, technology transfer, and business development, she has led and contributed to multi-million-euro EU-funded projects, working closely with global industry leaders, SMEs, and policymakers. Through Artech, she has been at the forefront of innovation commercialization and market expansion, positioning the company as a key partner in Horizon Europe, Eureka, ITEA, and Celtic+ initiatives. Her expertise spans advisory roles, project evaluations, and mentoring for startups, SMEs, and research institutions, with a focus on bridging technology, business, and policy to drive real-world impact. She is known for her pragmatic approach and strategic foresight, actively shaping Europe’s innovation landscape. She has also been acting as the principal R&amp;D consultant for International Programs for Vestel Electronics, Vestel Home Appliances, Koç Sistem, Koç Digital, and Sestek; University of Maastrciht, RWTH Aachen etc.  She holds an MBA and a bachelor’s degree in Political Science and International Relations and speaks English, French, and Turkish.", linkedin: "https://www.linkedin.com/in/sunaakbayir/", twitter: "", domain: "", location: ""
     },
     { name: "João Bastos", img: "https://www.fiware.org/wp-content/directories/people/images/200px/joao-bastos.jpg", position: "Head of Systems Architecture and Data Analytics", company: "Porto Digital", "company-link": "https://www.portodigital.pt/en/homepage/",
@@ -97,7 +99,7 @@ var companies = [
     { name: "Jose Benítez", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jose-benitez.jpg", position: "Chief Executive Officer", company: "Secmotic", "company-link": "https://secmotic.com/",
     content: "Since its establishment in 2015, Jose has been at the helm of Secmotic as CEO. His involvement on the Board of Directors of FIWARE since 2017 has contributed to shaping the future of the organization. In 2021, he embarked on a new venture, founding FIWOO Smart Solutions, a company dedicated to delivering FIWARE-based Smart City platform solutions tailored to the needs of the Spanish public sector.", linkedin: "https://www.linkedin.com/in/jose-benitez-secmotic/", twitter: "", domain: "", location: ""
     },
-    { name: "Prof. Az-Eddine Bennani", img: "https://www.fiware.org/wp-content/directories/people/images/200px/az-eddine-bennani.jpg", position: "Adjunct Professor", company: "Al Akhawayn University of Ifrane", "company-link": "https://aui.ma/",
+    { name: "Prof. Az-Eddine Bennani", img: "https://www.fiware.org/wp-content/directories/people/images/200px/az-eddine-bennani.jpg", position: "Adjunct Professor", company: "Al Akhawayn University", "company-link": "https://aui.ma/",
     content: "Dr. Az-Eddine Bennani is a renowned academic, researcher, consultant, and entrepreneur specializing in artificial intelligence, digital strategy, and systemic transformation. He has taught at leading institutions including the University of Technology of Compiègne (UTC), Sorbonne University, and NEOMA Business School. With a background in systems engineering, Dr. Bennani holds a DEA in AI and database systems (1983), an MBA in international business from Chicago (1992), and a PhD in economics from the Sorbonne (1998). He also earned an HDR in governance and digital strategy (2005) and pursued executive training at HEC Paris and Harvard. He has nearly 50 years of experience spanning Europe, the U.S., Asia, and Morocco, combining academic work with industry roles. He spent 15 years at Hewlett-Packard as a systems engineer and manager across several countries, and founded a consulting firm in Paris in 1994. Since 1996, he has held long-term teaching posts and led numerous educational programs, theses, and research projects. Currently based between Paris and Morocco, he is adjunct professor at Al Akhawayn University and teaches executive programs in digital governance and strategy. He also mentors Chinese doctoral candidates and trains Moroccan public and private sector leaders. A published author, his notable work The Digital Phenomenon (2011, translated to English in 2013) anticipated many of today’s digital shifts. In 2025, he co-founded MedinIA, a Moroccan AI cluster promoting inclusive, ethical, and sovereign AI for social progress. Rooted in a diverse cultural heritage and born in Rabat, Dr. Bennani is also a painter exploring the intersection of art, memory, and technology. He advocates for a sovereign and human-centered digital future grounded in collective intelligence and development.", linkedin: "https://www.linkedin.com/in/az-eddine-bennani-0774057/", twitter: "", domain: "", location: ""
     },
     { name: "Massimo Bertoncini", img: "https://www.fiware.org/wp-content/directories/people/images/200px/massimo-bertoncini.jpg", position: "Senior Innovation Manager - Digital Energy", company: "Engineering", "company-link": "https://www.eng.it/en/",
@@ -130,7 +132,7 @@ var companies = [
     { name: "Andrea Cruciani", img: "https://www.fiware.org/wp-content/directories/people/images/200px/andrea-cruciani.jpg", position: "Chief Executive Officer", company: "TeamDev Ecosystem, Agricolus", "company-link": "https://www.agricolus.com/",
     content: "Andrea Cruciani, Product Owner of WiseTown, CEO of TeamDev Ecosystem, and CEO of Agricolus, is an active member of the FIWARE Foundation and has been a FIWARE Evangelist since 2020. Deeply committed to urban innovation, Andrea collaborates closely with city experts and public administrations. He brings a wealth of experience in driving smart city advancements through cutting-edge computer architectures, multi-device application development, and enterprise-level system design—expertly navigating the complexities of cloud computing and harnessing the power of Geographic Information Systems (GIS).", linkedin: "https://www.linkedin.com/in/andreacruciani/", twitter: "https://twitter.com/kokkete", domain: "", location: ""
     },
-    { name: "Prof. Mohamed Dafir", img: "https://www.fiware.org/wp-content/directories/people/images/200px/mohamed-dafir.jpg", position: "Vice-President and CISO", company: "Mohammed V University Rabat", "company-link": "https://www.um5.ac.ma",
+    { name: "Prof. Mohamed Dafir", img: "https://www.fiware.org/wp-content/directories/people/images/200px/mohamed-dafir.jpg", position: "Vice-President and CISO", company: "UM5", "company-link": "https://www.um5.ac.ma",
     content: "", linkedin: "https://www.linkedin.com/in/dafir-elkettani/?locale&#x3D;en_US", twitter: "", domain: "", location: ""
     },
     { name: "Matthias de Bièvre", img: "https://www.fiware.org/wp-content/directories/people/images/200px/matthias-de-bievre.jpg", position: "President", company: "Prometheus-x", "company-link": "https://prometheus-x.org/",
@@ -154,10 +156,13 @@ var companies = [
     { name: "El Mehdi Erroussafi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/el-mehdi-erroussafi.jpg", position: "CEO", company: "PRISALYA Consulting", "company-link": "https://www.prisalya.com/",
     content: "Elmehdi Erroussafi is the CEO of PRISALYA Consulting, a cybersecurity consulting firm based in Casablanca Morocco, and board member of the Centre Marocain de Recherche Polytechnique et d’Innovation (CMRPI), where he plays a key role in advancing cybersecurity initiatives and research. He is also a core contributor to the Espace Maroc Cyberconfiance (EMC), a national program dedicated to protecting children and vulnerable populations in the digital space. Through EMC, Elmehdi has been instrumental in developing awareness campaigns, educational programs, and reporting mechanisms that address cyber violence and promote digital safety. With extensive experience as a telecom consultant and senior solutions architect, Elmehdi specializes in fraud management, revenue assurance, and data analytics for telecom operators and regulators. He combines his technical expertise with a strong commitment to innovation and societal impact, particularly in the areas of cybersecurity and digital trust. Passionate about leveraging technology for positive change, Elmehdi is dedicated to creating safer and more resilient online environments both locally and internationally.", linkedin: "https://www.linkedin.com/in/erroussafi/", twitter: "", domain: "", location: ""
     },
-    { name: "Prof. Mohamed Essaidi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/mohamed-essaidi.jpg", position: "Professor &amp; Former Director ENSIAS College of Engineering", company: "Mohammed V University Rabat", "company-link": "https://www.um5.ac.ma/um5/",
+    { name: "Prof. Mohamed Essaidi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/mohamed-essaidi.jpg", position: "Professor &amp; Former Director ENSIAS College of Engineering", company: "UM5", "company-link": "https://www.um5.ac.ma/um5/",
     content: "Mohamed Essaidi is Professor and former Director of ENSIAS at Mohammed V University, Rabat, Morocco, and former Director of International Cooperation at the Ministry Delegate to the Head of Government in charge of General Affairs and Governance, Morocco (2019). He is also Chairman of IEEE Public Safety Technology, (2022), IEEE Blockchain Morocco Group (2022) , from IEEE IoT Global Cities Alliance, MEA (2020-2022), member of the evaluation committee of IEEE Humanitarian Activities Committee (2021-2022), member of IEEE EAB Teaching Excellence Editorial Hub, (2021-2022), and member IEEE Global Committee on Global Accreditation (2017-2018). He was also the founding president of the IEEE Morocco Section (2005-2016). Teacher. ESSAAIDI is a UNESCO and ICESCO expert on engineering training, digital transformation and smart cities.", linkedin: "", twitter: "", domain: "", location: ""
     },
-    { name: "Guven Fidan", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "CTO", company: "Artech International Bv", "company-link": "https://www.artechconsulting.net",
+    { name: "Mohammed Essaidi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/mohammed-essaidi.jpg", position: "General Secretary", company: "AUSIM", "company-link": "https://ausima",
+    content: "", linkedin: "https://www.linkedin.com/in/mohammed-essaidi-35834418/", twitter: "", domain: "", location: ""
+    },
+    { name: "Guven Fidan", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "CTO", company: "Artech International", "company-link": "https://www.artechconsulting.net",
     content: "", linkedin: "", twitter: "", domain: "", location: ""
     },
     { name: "Jason Fox", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jason-fox.jpg", position: "Senior Technical Expert &amp; Evangelist", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
@@ -231,6 +236,9 @@ var companies = [
     },
     { name: "Prof. Michael Prange", img: "https://www.fiware.org/wp-content/directories/people/images/200px/michael-prange.jpg", position: "Professor", company: "FH Kiel", "company-link": "https://www.fh-kiel.de/startseite/",
     content: "Prof. Dr. Michael Prange studied Computer Science and Physics at Kiel University of Applied Sciences and received his doctorate in Mechanical Engineering from Hamburg University of Technology. He brings with him experience from 30 years of international business activity, from a wide variety of tasks and functions in associations and in politics, and as a lecturer at various universities. As a Professor of Data Science at Kiel University of Applied Sciences and as an entrepreneur and IT expert, the focus of his research and consulting activities is on digital transformation and sustainable development of private and public organizations with a focus on smart infrastructures, digital technologies, innovative business models, open data platforms and artificial intelligence for Smart Cities and the Green Economy.", linkedin: "https://www.linkedin.com/in/michael-prange-1232187/", twitter: "", domain: "", location: ""
+    },
+    { name: "Prof. Hassan Radoine", img: "https://www.fiware.org/wp-content/directories/people/images/200px/hassan-radoine.jpg", position: "Professor", company: "UM6P", "company-link": "https://um6p.ma/en",
+    content: "", linkedin: "https://www.linkedin.com/in/dr-hassan-radoine-66731839/", twitter: "", domain: "", location: ""
     },
     { name: "Matteo Repetto", img: "https://www.fiware.org/wp-content/directories/people/images/200px/matteo-repetto.png", position: "Senior Researcher", company: "CNR-IMATI", "company-link": "https://www.imati.cnr.it/make_home_page.php?language&#x3D;ENG&amp;view&#x3D;GEN",
     content: "Matteo Repetto, Ph.D., received the Ph.D. degree in Electronics and Computer Science in 2004 from the University of Genoa. From 2004 to 2009 he was a postdoc at University of Genoa. From 2010 to 2019 he was a Research Associate at CNIT. In 2019 he joined the Institute for Applied Mathematics and Information Technologies (IMATI), CNR, where he currently holds a Senior Researcher position. He has been teaching many courses in telecommunication networks and network security. He has been involved in several research national and international projects on quality of service, mobility in data networks, energy efficiency, cloud computing, and network function virtualization. He was the scientific and technical coordinator of the ASTRID and GUARD projects, and he is now the coordinator of the MIRANDA project. He has co-authored over 90 scientific publications in international journals and conference proceedings, and 1 technical report for ITU. His current research interests include security architectures, interfaces to remote security functions, network security, threat hunting, management and security of digital service chains.", linkedin: "https://www.linkedin.com/in/matteo-repetto-1b00134/", twitter: "", domain: "", location: ""
