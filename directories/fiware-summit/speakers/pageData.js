@@ -1,6 +1,5 @@
 var companies = [
         'ADDIX',
-        'Agricolus',
         'Al Akhawayn University of Ifrane',
         'Artech International Bv',
         'AWS',
@@ -37,6 +36,7 @@ var companies = [
         'SenLab d.o.o.',
         'Sirus',
         'Smart Cities Morocco Alliance',
+        'TeamDev Ecosystem, Agricolus',
         'Telefonica',
         'UFRN',
         'UM6P',
@@ -54,7 +54,6 @@ var companies = [
         'CBO',
         'CEO',
         'Chairman',
-        'Chief',
         'CISO',
         'Co-founder',
         'COO',
@@ -88,9 +87,6 @@ var companies = [
     },
     { name: "Suna Akbayir", img: "https://www.fiware.org/wp-content/directories/people/images/200px/suna-akbayir.jpg", position: "Chief Executive Officer", company: "Artech International Bv", "company-link": "https://artechconsulting.net/",
     content: "Suna Akbayir is a Turkish entrepreneur with an extensive international business presence, well-recognized in Europe’s R&amp;D and innovation ecosystem. She is the Founder &amp; CEO of Artech International BVBA, a Brussels- headquartered in Brussels consulting and technology firm with an R&amp;D office in Leuven specializing in AI-driven solutions, Digital Product Passports (DPPs), and regulatory technology (RegTech) for industries such as automotive, electronics, and healthcare. With deep expertise in R&amp;D funding, technology transfer, and business development, she has led and contributed to multi-million-euro EU-funded projects, working closely with global industry leaders, SMEs, and policymakers. Through Artech, she has been at the forefront of innovation commercialization and market expansion, positioning the company as a key partner in Horizon Europe, Eureka, ITEA, and Celtic+ initiatives. Her expertise spans advisory roles, project evaluations, and mentoring for startups, SMEs, and research institutions, with a focus on bridging technology, business, and policy to drive real-world impact. She is known for her pragmatic approach and strategic foresight, actively shaping Europe’s innovation landscape. She has also been acting as the principal R&amp;D consultant for International Programs for Vestel Electronics, Vestel Home Appliances, Koç Sistem, Koç Digital, and Sestek; University of Maastrciht, RWTH Aachen etc.  She holds an MBA and a bachelor’s degree in Political Science and International Relations and speaks English, French, and Turkish.", linkedin: "https://www.linkedin.com/in/sunaakbayir/", twitter: "", domain: "", location: ""
-    },
-    { name: "Khalid Baddou", img: "https://www.fiware.org/wp-content/directories/people/images/200px/khalid-baddou.jpg", position: "Chief of Cabinet &amp; Institutional Affairs Director", company: "UM6P", "company-link": "https://um6p.ma/en",
-    content: "Khalid Baddou is the Chief of Staff and Director of Institutional Affairs at UM6P. During his 24 years career, he was appointed in several senior positions in multinational companies: Nestlé, Merck and Western Union. His missions covered regional and international environments: Maghreb, Middle East and Africa. Baddou is a graduate of Al Akhawayn University (Morocco) in Economics and Social Sciences. He holds also degrees from Harvard Business School (USA) in Business Management &amp; Leadership, from UM6P (Morocco) in Collective Intelligence, and from Sciences Po (France) in Corporate Governance. Within the different companies and associations where he is a Board or Executive member, Khalid Baddou has been able to build solid networks in the public and private sectors and to lead groups towards common objectives, which allowed him to implement strategic initiatives with high-impact.", linkedin: "https://www.linkedin.com/in/khalidbaddou/", twitter: "", domain: "", location: ""
     },
     { name: "João Bastos", img: "https://www.fiware.org/wp-content/directories/people/images/200px/joao-bastos.jpg", position: "Head of Systems Architecture and Data Analytics", company: "Porto Digital", "company-link": "https://www.portodigital.pt/en/homepage/",
     content: "", linkedin: "https://www.linkedin.com/in/jo%C3%A3o-bastos-71458428/", twitter: "", domain: "", location: ""
@@ -131,8 +127,8 @@ var companies = [
     { name: "Eugeniu Costetchi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/eugeniu-costetchi.jpg", position: "Founder and CEO", company: "Meaningfy", "company-link": "https://meaningfy.ws/",
     content: "Eugeniu Costetchi is the founder of Meaningfy, a Luxembourg-based company providing semantic technology and data-centric solutions to European public administrations, national bodies, and private organisations. A lifelong computing enthusiast with a PhD in Computational Linguistics, Eugeniu has over 15 years of experience in ontology engineering, linked data publishing, and data-centric software development. His work includes contributions to projects at the European Commission and Publications Office of the European Union, particularly in the areas of public procurement, legal interoperability, and reference data management. At Meaningfy, he focuses on practical applications of semantic web technologies to support data interoperability, aceess and reuse. His work is rooted in a sustained interest in language, knowledge representation, and the intersection between human understanding and machine-readable meaning.", linkedin: "https://www.linkedin.com/in/costezki/", twitter: "", domain: "", location: ""
     },
-    { name: "Andrea Cruciani", img: "https://www.fiware.org/wp-content/directories/people/images/200px/andrea-cruciani.jpg", position: "Chief Executive Officer", company: "Agricolus", "company-link": "https://www.agricolus.com/",
-    content: "Andrea is the Agricolus co-founder and CEO, member of FIWARE Foundation BoD, Chairman of the FIWARE Smart AgriFood MSC. He runs the international business area and the financial aspects of the company and he has a technical background and experience in applications Development, Enterprise Architectures, Cloud Computing, and GIS. Andrea is involved in Innovative Startup Evolution and scaleup, during the years he worked with Public Administration, multinational companies, NGOs, and SMEs. He is a speaker for several universities and public events where he is invited to discuss entrepreneurship and digital transformation, and he is a contributor in several technical articles and publications about agritech.", linkedin: "https://www.linkedin.com/in/andreacruciani/", twitter: "https://twitter.com/kokkete", domain: "", location: ""
+    { name: "Andrea Cruciani", img: "https://www.fiware.org/wp-content/directories/people/images/200px/andrea-cruciani.jpg", position: "Chief Executive Officer", company: "TeamDev Ecosystem, Agricolus", "company-link": "https://www.agricolus.com/",
+    content: "Andrea Cruciani, Product Owner of WiseTown, CEO of TeamDev Ecosystem, and CEO of Agricolus, is an active member of the FIWARE Foundation and has been a FIWARE Evangelist since 2020. Deeply committed to urban innovation, Andrea collaborates closely with city experts and public administrations. He brings a wealth of experience in driving smart city advancements through cutting-edge computer architectures, multi-device application development, and enterprise-level system design—expertly navigating the complexities of cloud computing and harnessing the power of Geographic Information Systems (GIS).", linkedin: "https://www.linkedin.com/in/andreacruciani/", twitter: "https://twitter.com/kokkete", domain: "", location: ""
     },
     { name: "Prof. Mohamed Dafir", img: "https://www.fiware.org/wp-content/directories/people/images/200px/mohamed-dafir.jpg", position: "Vice-President and CISO", company: "Mohammed V University Rabat", "company-link": "https://www.um5.ac.ma",
     content: "", linkedin: "https://www.linkedin.com/in/dafir-elkettani/?locale&#x3D;en_US", twitter: "", domain: "", location: ""
@@ -151,6 +147,9 @@ var companies = [
     },
     { name: "Rachid El Abdi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/rachid-el-abdi.jpg", position: "President", company: "Rabat-Salé-Kénitra Regional Council", "company-link": "",
     content: "", linkedin: "https://www.linkedin.com/in/rachid-el-abdi-82b38a120/", twitter: "", domain: "", location: ""
+    },
+    { name: "Dr. Hicham El Habti", img: "https://www.fiware.org/wp-content/directories/people/images/200px/hicham-el-habti.jpg", position: "President", company: "UM6P", "company-link": "https://um6p.ma/en",
+    content: "", linkedin: "", twitter: "", domain: "", location: ""
     },
     { name: "El Mehdi Erroussafi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/el-mehdi-erroussafi.jpg", position: "CEO", company: "PRISALYA Consulting", "company-link": "https://www.prisalya.com/",
     content: "Elmehdi Erroussafi is the CEO of PRISALYA Consulting, a cybersecurity consulting firm based in Casablanca Morocco, and board member of the Centre Marocain de Recherche Polytechnique et d’Innovation (CMRPI), where he plays a key role in advancing cybersecurity initiatives and research. He is also a core contributor to the Espace Maroc Cyberconfiance (EMC), a national program dedicated to protecting children and vulnerable populations in the digital space. Through EMC, Elmehdi has been instrumental in developing awareness campaigns, educational programs, and reporting mechanisms that address cyber violence and promote digital safety. With extensive experience as a telecom consultant and senior solutions architect, Elmehdi specializes in fraud management, revenue assurance, and data analytics for telecom operators and regulators. He combines his technical expertise with a strong commitment to innovation and societal impact, particularly in the areas of cybersecurity and digital trust. Passionate about leveraging technology for positive change, Elmehdi is dedicated to creating safer and more resilient online environments both locally and internationally.", linkedin: "https://www.linkedin.com/in/erroussafi/", twitter: "", domain: "", location: ""
