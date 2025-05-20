@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 		<url>
+			<loc>https://www.fiware.org/fgs-2025/rabat-city-to-um6p-technopolis--day-one.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2025/registration.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -169,7 +173,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/when-intelligence-meets-endurance--ai---data-driven-cities-for-the-fifa-world-cup-2030.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/ai---data-driven-cities-for-the-fifa-world-cup-2030.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -198,6 +202,10 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2025/from-silos-to-synergy--building-smart-governance-with-interoperability.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/unlocking-the-potential-of-data-spaces-for-smart-cities-and-communities.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -257,6 +265,14 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2025/um6p-technopolis-campus-to-rabat-city--day-one.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/rabat-city-to-um6p-technopolis---day-two.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2025/registration-and-welcome-coffee.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -290,6 +306,10 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2025/deploying-a-data-space-connector.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/cybersecurity-context-in-morocco-and-challenges.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -337,11 +357,19 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2025/ifrane--morocco-s-alpine-smart-haven---blending-nature--youth-expertise--clean-tech--and-sustainable-tourism.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2025/ddos-with-orion-ld.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/ifrane--morocco-s-alpine-smart-haven---blending-nature--youth-expertise--clean-tech--and-sustainable-tourism.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/the-digital-pulse-of-marrakech--smart-solutions-for-a-historic-red-city.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/prayer-time.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -373,11 +401,11 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/unlocking-the-potential-of-data-spaces-for-smart-cities-and-communities.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/training-certificates.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/training-certificates.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/um6p-technopolis-campus-to-rabat-city--day-two.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 </urlset>
