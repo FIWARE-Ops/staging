@@ -13,7 +13,7 @@ const isHotel = ["==", ["get", "type"], "Hotel"];
 const isRestaurant = ["==", ["get", "type"], "Restaurant"];
 const isAirport = ["==", ["get", "type"], "Airport"];
 const isTrainStation = ["==", ["get", "type"], "Train Station"];
-const isShuttle = ["==", ["get", "type"], "Shuttle Bus"];
+const isShuttle = ["==", ["get", "type"], "Shuttle"];
 
 
 function addLayer(source) {
