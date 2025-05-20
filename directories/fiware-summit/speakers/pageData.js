@@ -31,7 +31,6 @@ var companies = [
         'Porto Digital',
         'PRISALYA Consulting',
         'Prometheus-x',
-        'Rabat-Salé-Kénitra Regional Council',
         'Rhamna Provincial Council',
         'RISE',
         'Secmotic',
@@ -154,9 +153,6 @@ var companies = [
     },
     { name: "Redouan Dinar", img: "https://www.fiware.org/wp-content/directories/people/images/200px/redouan-dinar.jpg", position: "Managing Director", company: "Majal Berkane", "company-link": "https://majalberkane.ma/",
     content: "Redouan Dinar, Managing Director of Société de Développement Locale Majal Berkane, is an engineer specializing in information systems security, with advanced certifications in IT technologies and over 20 years’ experience in network administration, Big Data, artificial intelligence and digital transformation. An experienced trainer in technical tools and information systems, since 2007 he has held the position of Director of Information Systems and New Technologies at the Agence de Développement de l’Oriental, where he led major projects linked to digitalization, cloud and cybersecurity. He has also held strategic positions within major national institutions and the Ministry of Foreign Affairs, contributing to missions with a high technological value. Recognized for his rigor, vision and expertise, he is renowned for his ability to steer innovative projects at the service of sustainable territorial development.", linkedin: "https://www.linkedin.com/in/redouan-dinar-785891120/", twitter: "", domain: "", location: ""
-    },
-    { name: "Rachid El Abdi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/rachid-el-abdi.jpg", position: "President", company: "Rabat-Salé-Kénitra Regional Council", "company-link": "",
-    content: "", linkedin: "https://www.linkedin.com/in/rachid-el-abdi-82b38a120/", twitter: "", domain: "", location: ""
     },
     { name: "Dr. Hicham El Habti", img: "https://www.fiware.org/wp-content/directories/people/images/200px/hicham-el-habti.jpg", position: "President", company: "UM6P", "company-link": "https://um6p.ma/en",
     content: "", linkedin: "", twitter: "", domain: "", location: ""
