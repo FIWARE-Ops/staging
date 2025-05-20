@@ -25,7 +25,7 @@ function addLayer(source) {
   type: "symbol",
   source,
   layout: {
-    "icon-image": ["case", isVenue, 'venue', isPOI, 'attraction',  isHotel, 'hotel',  isRestaurant, 'restaurant', isAirport, 'airport',  isShuttle, 'shuttle', 'trainStation'],
+    "icon-image": ["case", isVenue, 'venue', isPOI, 'attraction',  isHotel, 'hotel',  isRestaurant, 'restaurant', isAirport, 'airport',  isShuttleBus, 'shuttle', 'trainStation'],
     "icon-size": ["case", isVenue, 0.3, 0.15],
     "icon-overlap": "always"
   },
