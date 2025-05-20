@@ -201,21 +201,20 @@ body {
     gap: 50px;
 }
 
-.speaker {
-    /*min-width: 28%;*/
-    width: calc(29% - 10px);
-    /*max-width: 28%;*/
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-}
-
 .speakers.more {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 13px;
+}
+
+.speaker {
+    min-width: 32%;
+    width: 32%;
+    max-width: 32%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
 }
 
 .speaker-info {
@@ -233,11 +232,8 @@ body {
 }
 
 .speaker-info-small {
-    width: 100%;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+    /* padding-top: 5px;
+      padding-bottom: 5px; */
 }
 
 .speaker-name {
@@ -259,12 +255,12 @@ body {
 }
 
 .speakers.more .speaker-name {
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 18px;
+    line-height: 22px;
     font-weight: 600;
     color: #000000;
     padding: 0;
-    margin-bottom: 0px;
+    margin-bottom: 5px;
 }
 
 .speaker-job-title {
@@ -286,8 +282,8 @@ body {
 }
 
 .speakers.more .speaker-job-title {
-    font-size: 22px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 20px;
     font-weight: 400;
     color: #696969;
     padding: 0;
@@ -311,8 +307,8 @@ body {
 }
 
 .speakers.more .speaker-company {
-    font-size: 22px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 20px;
     font-weight: 400;
     color: #696969;
     padding: 0;
