@@ -16,7 +16,7 @@ var companies = [
         'FH Kiel',
         'FICODES',
         'FIWARE Foundation',
-        'FIWARE Technical Steering Committee',
+        'FIWARE TSC',
         'FutureCraft Foundation',
         'GIZ',
         'Government of Morocco',
@@ -28,7 +28,6 @@ var companies = [
         'Mitsubishi Electric Corporation',
         'NEC Corporation',
         'OASC',
-        'Parthenope University of Naples',
         'Porto Digital',
         'PRISALYA Consulting',
         'Prometheus-x',
@@ -36,7 +35,7 @@ var companies = [
         'Rhamna Provincial Council',
         'RISE',
         'Secmotic',
-        'SenLab d.o.o.',
+        'SenLab',
         'Sirus',
         'Smart Cities Morocco Alliance',
         'TeamDev Ecosystem',
@@ -59,7 +58,6 @@ var companies = [
         'CEO',
         'Chairman',
         'CISO',
-        'Co-founder',
         'Co-Founder',
         'COO',
         'Coordinator',
@@ -78,14 +76,11 @@ var companies = [
         'Minister',
         'Owner',
         'President',
-        'Product Manager',
         'Professor',
-        'Program Manager',
         'Researcher',
-        'Senior Manager',
         'Software Engineer',
         'Technical Manager',
-        'Vice-President',
+        'VP',
 ]; var countries = [
 ]; var modalData = [
     { name: "Alberto Abella", img: "https://www.fiware.org/wp-content/directories/people/images/200px/alberto-abella.jpg", position: "Chief Operations Officer", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
@@ -100,7 +95,7 @@ var companies = [
     { name: "João Bastos", img: "https://www.fiware.org/wp-content/directories/people/images/200px/joao-bastos.jpg", position: "Head of Systems Architecture and Data Analytics", company: "Porto Digital", "company-link": "https://www.portodigital.pt/en/homepage/",
     content: "", linkedin: "https://www.linkedin.com/in/jo%C3%A3o-bastos-71458428/", twitter: "", domain: "", location: ""
     },
-    { name: "Mohamed Benabbad", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "CTO", company: "Rhamna Provincial Council", "company-link": "",
+    { name: "Mohamed Benabbad", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Chief Technology Officer", company: "Rhamna Provincial Council", "company-link": "",
     content: "", linkedin: "", twitter: "", domain: "", location: ""
     },
     { name: "Ali Benfattoum", img: "https://www.fiware.org/wp-content/directories/people/images/200px/ali-benfattoum.jpg", position: "Principal Product Manager - AWS IoT", company: "AWS", "company-link": "https://aws.amazon.com/",
@@ -124,7 +119,7 @@ var companies = [
     { name: "Chandra Challagonda", img: "https://www.fiware.org/wp-content/directories/people/images/200px/chandra-challagonda.jpg", position: "Chief Executive Officer", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
     content: "Chandra Challagonda has 26 years of experience in the technology industry, focusing on Machine Learning, Artificial Intelligence, and open-source technologies. Recognized as a business transformer, he emphasizes innovation and customer-centric strategies in executive roles such as Co-Founder, Board Member, CEO, and CTO. Over the last year, Chandra was working as a FIWARE community and board member, architect and Vice President, growing its global network and ecosystem and helping to develop sustainable strategies and partnerships in the organisation.", linkedin: "https://linkedin.com/in/challagonda", twitter: "https://twitter.com/challagonda", domain: "", location: ""
     },
-    { name: "Tim Cleffmann", img: "https://www.fiware.org/wp-content/directories/people/images/200px/tim-cleffmann.jpg", position: "CBDO", company: "DKSR", "company-link": "https://www.dksr.city/en/",
+    { name: "Tim Cleffmann", img: "https://www.fiware.org/wp-content/directories/people/images/200px/tim-cleffmann.jpg", position: "Chief Business Development Officer", company: "DKSR", "company-link": "https://www.dksr.city/en/",
     content: "Tim Cleffmann is an innovator and consultant in the field of smart city design and digital business models. As Chief Business Development Officer for the Data Competence Center for Cities and Region he develops practical solutions for urban challenges and turns them into concrete applications with clients and partners. Working with a network of innovative solution providers and using methods of co-creation is particularly important to him. Tim Cleffmann holds a Bachelor and Master of Science from the Karlsruhe Institute of Technology and has previously worked for Detecon International GmbH and Deutsche Telekom in the field of Smart City.", linkedin: "https://www.linkedin.com/in/tim-cleffmann-a456a8122/", twitter: "", domain: "", location: ""
     },
     { name: "Didac Colominas", img: "https://www.fiware.org/wp-content/directories/people/images/200px/didac-colominas.jpg", position: "Researcher of AAI", company: "Eurecat", "company-link": "https://eurecat.org/home/en/",
@@ -163,7 +158,7 @@ var companies = [
     { name: "Dr. Hicham El Habti", img: "https://www.fiware.org/wp-content/directories/people/images/200px/hicham-el-habti.jpg", position: "President", company: "UM6P", "company-link": "https://um6p.ma/en",
     content: "", linkedin: "", twitter: "", domain: "", location: ""
     },
-    { name: "El Mehdi Erroussafi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/el-mehdi-erroussafi.jpg", position: "CEO", company: "PRISALYA Consulting", "company-link": "https://www.prisalya.com/",
+    { name: "El Mehdi Erroussafi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/el-mehdi-erroussafi.jpg", position: "Chief Executive Officer", company: "PRISALYA Consulting", "company-link": "https://www.prisalya.com/",
     content: "Elmehdi Erroussafi is the CEO of PRISALYA Consulting, a cybersecurity consulting firm based in Casablanca Morocco, and board member of the Centre Marocain de Recherche Polytechnique et d’Innovation (CMRPI), where he plays a key role in advancing cybersecurity initiatives and research. He is also a core contributor to the Espace Maroc Cyberconfiance (EMC), a national program dedicated to protecting children and vulnerable populations in the digital space. Through EMC, Elmehdi has been instrumental in developing awareness campaigns, educational programs, and reporting mechanisms that address cyber violence and promote digital safety. With extensive experience as a telecom consultant and senior solutions architect, Elmehdi specializes in fraud management, revenue assurance, and data analytics for telecom operators and regulators. He combines his technical expertise with a strong commitment to innovation and societal impact, particularly in the areas of cybersecurity and digital trust. Passionate about leveraging technology for positive change, Elmehdi is dedicated to creating safer and more resilient online environments both locally and internationally.", linkedin: "https://www.linkedin.com/in/erroussafi/", twitter: "", domain: "", location: ""
     },
     { name: "Prof. Mohamed Essaidi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/mohamed-essaidi.jpg", position: "Professor", company: "UM5", "company-link": "https://www.um5.ac.ma/um5/",
@@ -172,7 +167,7 @@ var companies = [
     { name: "Mohammed Essaidi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/mohammed-essaidi.jpg", position: "General Secretary", company: "AUSIM", "company-link": "https://ausima",
     content: "", linkedin: "https://www.linkedin.com/in/mohammed-essaidi-35834418/", twitter: "", domain: "", location: ""
     },
-    { name: "Guven Fidan", img: "https://www.fiware.org/wp-content/directories/people/images/200px/guven-fidan.jpg", position: "CTO", company: "Artech International", "company-link": "https://www.artechconsulting.net",
+    { name: "Guven Fidan", img: "https://www.fiware.org/wp-content/directories/people/images/200px/guven-fidan.jpg", position: "Chief Technology Officer", company: "Artech International", "company-link": "https://www.artechconsulting.net",
     content: "", linkedin: "", twitter: "", domain: "", location: ""
     },
     { name: "Jason Fox", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jason-fox.jpg", position: "Tech Community Manager &amp; Evangelist", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
@@ -193,7 +188,7 @@ var companies = [
     { name: "Eloy Hernandez", img: "https://www.fiware.org/wp-content/directories/people/images/200px/eloy-hernandez.jpg", position: "Researcher", company: "Eurecat", "company-link": "https://eurecat.org/home/en/",
     content: "I’m a computer engineer with solid experience in IT, artificial intelligence, and project management. Over the years, I’ve been actively involved in European research and innovation projects, where I’ve applied digital technologies to address real-world challenges, especially in the areas of water management, interoperability, and sustainability. My work combines technological development with coordination activities, ensuring that digital solutions are practical, well-integrated, and aligned with stakeholder needs. I’m particularly focused on building interoperable, data-driven tools that support decision-making in different environments. As a member of the ICT4Water cluster, I contribute to joint efforts across Europe to advance open, FAIR, and standard-based digital solutions for the water sector and beyond.", linkedin: "", twitter: "", domain: "", location: ""
     },
-    { name: "Juanjo Hierro", img: "https://www.fiware.org/wp-content/directories/people/images/200px/juanjo-hierro.jpg", position: "Chairman", company: "FIWARE Technical Steering Committee", "company-link": "",
+    { name: "Juanjo Hierro", img: "https://www.fiware.org/wp-content/directories/people/images/200px/juanjo-hierro.jpg", position: "Chairman", company: "FIWARE TSC", "company-link": "https://www.fiware.org/governance/tsc/",
     content: "Juanjo Hierro (m) obtained a degree in Computer Science in 1990 from the Universidad Politecnica de Madrid (UPM) and owns a certificate of research proficiency. In 1990, Juanjo joined Telefónica I+D where he stayed until he joined FIWARE Foundation. During his career at Telefónica, Juanjo had different management responsibilities in the development of mission-critical systems for Telefónica as well as several R&amp;D projects. In April 2011, he became the Chief Architect of the FIWARE programme combining this role with the one of the CTO of the IoT Division at Telefónica R&amp;D since November 2013. Now a days Juanjo is the Chairman of the FIWARE Technical Steering Committee.", linkedin: "https://www.linkedin.com/in/jhierro/", twitter: "https://twitter.com/JuanjoHierro", domain: "", location: ""
     },
     { name: "Sveva Ianese", img: "https://www.fiware.org/wp-content/directories/people/images/200px/sveva-ianese.jpg", position: "Academic Researcher", company: "University of Padova", "company-link": "https://www.unipd.it/en/",
@@ -202,10 +197,10 @@ var companies = [
     { name: "Dr. Jin Kawasaki", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jin-kawasaki.jpg", position: "Senior Expert", company: "Mitsubishi Electric Corporation", "company-link": "https://www.mitsubishielectric.com/rd/research/information_technology/index.html",
     content: "Jin Kawasaki is working as Senior Expert at Information Technology R&amp;D Center of Mitsubishi Electric Corporation. He received Ph.D. degree from University of Tsukuba in 2016. He also has business experience in IoT of building facilities and energy management. His research interest is smart building and city platform which provides solution such as carbon neutrality, energy management and workplace management.", linkedin: "https://www.linkedin.com/in/jin-kawasaki-817809205/?original_referer&#x3D;https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&amp;originalSubdomain&#x3D;jp", twitter: "", domain: "", location: ""
     },
-    { name: "Zouheir Lakhdissi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/zouheir-lakhdissi.jpg", position: "CEO and Co-founder", company: "Dial Technologies", "company-link": "http://www.dialy.net/",
-    content: "With over 26 years’ experience in the digital industry and more than 18 years spent in various C-Level positions, Mr. Lakhdissi is the founder of AI Crafters an AI consulting and training company based in France Morocco and UAE, and co-founder of eight startups/SMEs in North Africa, the Middle East, and Europe. He is a Board Member and a Grand Jury of the World Summit Awards United Nations (UN) initiative for digital innovation and jury member of the Digital Arabic content Award organized by the UN ESCWA Mr. Lakhdissi is concurrently serving as the Vice President of African center for strategic studies and digitization and as an Artificial Intelligence and digital transformation expert with different World institutions as World Bank, EBRD and GIZ. He is also member on investment committees of various startup funds in Africa and the Middle East.", linkedin: "https://www.linkedin.com/in/lakhd", twitter: "", domain: "", location: ""
+    { name: "Zouheir Lakhdissi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/zouheir-lakhdissi.jpg", position: "CEO and Co-Founder", company: "Dial Technologies", "company-link": "http://www.dialy.net/",
+    content: "With over 26 years’ experience in the digital industry and more than 18 years spent in various C-Level positions, Mr. Lakhdissi is the founder of AI Crafters an AI consulting and training company based in France Morocco and UAE, and Co-Founder of eight startups/SMEs in North Africa, the Middle East, and Europe. He is a Board Member and a Grand Jury of the World Summit Awards United Nations (UN) initiative for digital innovation and jury member of the Digital Arabic content Award organized by the UN ESCWA Mr. Lakhdissi is concurrently serving as the Vice President of African center for strategic studies and digitization and as an Artificial Intelligence and digital transformation expert with different World institutions as World Bank, EBRD and GIZ. He is also member on investment committees of various startup funds in Africa and the Middle East.", linkedin: "https://www.linkedin.com/in/lakhd", twitter: "", domain: "", location: ""
     },
-    { name: "Jure Lampe", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jure-lampe.png", position: "Chief Executive Officer", company: "SenLab d.o.o.", "company-link": "https://senlab.io/en/about-us",
+    { name: "Jure Lampe", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jure-lampe.png", position: "Chief Executive Officer", company: "SenLab", "company-link": "https://senlab.io/en/about-us",
     content: "SenLab is an IoT consulting company that I founded and lead as the CEO and owner since 2014. My mission is to deliver knowledge, answers, and solutions for IoT projects in various domains, such as Industry 4.0, logistics, smart cities, home automation, healthcare, research and education. With over 20 years of experience in this field, I have developed core competencies in IoT concept design, prototyping, testing, and deployment, as well as new business development, consulting, and team leadership. I hold a BS in Computer and Information Science and I am pursuing a PhD in Business and Management, which enable me to combine technical expertise with business acumen and creativity. I am passionate about solving complex problems with simple, innovative, and user-friendly IoT solutions that have a positive impact on society and the environment. I have led and participated in multiple award-winning IoT projects, such as IoTool, IoChat, and RelaxedCare, that demonstrate the potential and value of IoT in various settings and scenarios.", linkedin: "https://www.linkedin.com/in/jurelampe/", twitter: "", domain: "", location: ""
     },
     { name: "Frederico Lopes", img: "https://www.fiware.org/wp-content/directories/people/images/200px/frederico-lopes.jpg", position: "Professor &amp; Institute Director", company: "UFRN", "company-link": "https://www.ufrn.br/",
@@ -253,7 +248,7 @@ var companies = [
     { name: "Matteo Repetto", img: "https://www.fiware.org/wp-content/directories/people/images/200px/matteo-repetto.png", position: "Senior Researcher", company: "CNR-IMATI", "company-link": "https://www.imati.cnr.it/make_home_page.php?language&#x3D;ENG&amp;view&#x3D;GEN",
     content: "Matteo Repetto, Ph.D., received the Ph.D. degree in Electronics and Computer Science in 2004 from the University of Genoa. From 2004 to 2009 he was a postdoc at University of Genoa. From 2010 to 2019 he was a Research Associate at CNIT. In 2019 he joined the Institute for Applied Mathematics and Information Technologies (IMATI), CNR, where he currently holds a Senior Researcher position. He has been teaching many courses in telecommunication networks and network security. He has been involved in several research national and international projects on quality of service, mobility in data networks, energy efficiency, cloud computing, and network function virtualization. He was the scientific and technical coordinator of the ASTRID and GUARD projects, and he is now the coordinator of the MIRANDA project. He has co-authored over 90 scientific publications in international journals and conference proceedings, and 1 technical report for ITU. His current research interests include security architectures, interfaces to remote security functions, network security, threat hunting, management and security of digital service chains.", linkedin: "https://www.linkedin.com/in/matteo-repetto-1b00134/", twitter: "", domain: "", location: ""
     },
-    { name: "Prof. Luigi Romano", img: "https://www.fiware.org/wp-content/directories/people/images/200px/luigi-romano.jpg", position: "Professor", company: "Parthenope University of Naples", "company-link": "https://international.uniparthenop",
+    { name: "Prof. Luigi Romano", img: "https://www.fiware.org/wp-content/directories/people/images/200px/luigi-romano.jpg", position: "Professor", company: "University of Naples Parthenope", "company-link": "https://international.uniparthenop",
     content: "Luigi Romano is an expert of system security and dependability. He is the head of the Fault and Intrusion Tolerant Networked SystemS (FITNESS) research group at the University of Naples “Parthenope”, doing internationally recognized research in cybersecurity, with emphasis on Critical Infrastructure Protection. He has worked extensively as a consultant in the field of security and safety critical computer systems design, evaluation, and procurement in a variety of application domains, notably: ehealth, traffic control, banking, eID, and data storage. He is one of the founders of Trust Up  a spin-off of the University of Naples “Parthenope”, specialized in Trusted Execution Environment technology. He was one of the experts of ENISA EESCP-Expert Group, one of the experts in charge of the ENISA Annual Report on Cybersecurity Research and Innovation Needs and Priorities, and one of the members of ENISA expert group on Priorities of Research On Current and Emerging Network Technologies (PROCENT). He was/is the Technical Coordinator and/or one of the Principal Investigators of more than 20 European Projects, within the context of FP7, Horizon 2020, and Horizon Europe.", linkedin: "", twitter: "", domain: "", location: ""
     },
     { name: "Alessandro Rossi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/alessandro-rossi.jpg", position: "Project Manager", company: "Engineering", "company-link": "https://www.eng.it/en/",
@@ -271,7 +266,7 @@ var companies = [
     { name: "Megumi Suzuki", img: "https://www.fiware.org/wp-content/directories/people/images/200px/megumi-suzuki.jpg", position: "Researcher", company: "Mitsubishi Electric Corporation", "company-link": "https://www.mitsubishielectric.com/rd/research/information_technology/index.html",
     content: "Megumi Suzuki is working as a Researcher at Information Technology R&amp;D Center of Mitsubishi Electric Corporation. She received master&#x27;s degree from University of Tsukuba in 2021. Her research interest is smart building data models of smart building and smart city platform.", linkedin: "", twitter: "", domain: "", location: ""
     },
-    { name: "Sanaa Tazi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/sanaa-tazi.jpg", position: "CEO and Co-founder", company: "African Smart Territories", "company-link": "https://mnc.ma/en/accueil-english/",
+    { name: "Sanaa Tazi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/sanaa-tazi.jpg", position: "CEO and Co-Founder", company: "African Smart Territories", "company-link": "https://mnc.ma/en/accueil-english/",
     content: "Moroccan &amp; African Digital hub and innovation booster : helps start-ups by providing free trainings, technical assistance, calls for applications, technology innovation support, events and networking. Helps the biggest with technology innovation support to succeed in their digital transformation. Try to change minds by empowering African Women in Tech and strengthening Minority small businesses.", linkedin: "https://www.linkedin.com/in/sanaa-tazi-15579174/", twitter: "https://twitter.com/sanaa_tazi_", domain: "", location: ""
     },
     { name: "Ángeles Tejado", img: "https://www.fiware.org/wp-content/directories/people/images/200px/angeles-tejado.jpg", position: "Senior Program Manager", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
