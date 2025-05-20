@@ -332,7 +332,7 @@ var modalData = {
         content: "", linkedin: "https://www.linkedin.com/in/vinith-bhandari/", twitter: "", domain: "", location: "",
         flag: "", },
     "guven-fidan":
-        { name: "Guven Fidan", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "CTO", company: "Artech International", "company-link": "https://www.artechconsulting.net",
+        { name: "Guven Fidan", img: "https://www.fiware.org/wp-content/directories/people/images/200px/guven-fidan.jpg", position: "CTO", company: "Artech International", "company-link": "https://www.artechconsulting.net",
         content: "", linkedin: "", twitter: "", domain: "", location: "",
         flag: "", },
     "david-campo":
