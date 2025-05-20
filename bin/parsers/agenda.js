@@ -183,11 +183,11 @@ async function generateHTML(agenda, activeSpeakers, eventDates, style) {
         socialImages.push(agendaItem);
         stageBackgrounds.push(stageItem);
 
-        Template.write(
+        /*Template.write(
             path.join(AGENDA_DIR, `../stage/sessions/${filename}.html`),
             path.join(TEMPLATE_PATH, 'stage-image.hbs'),
             stageItem
-        );
+        );*/
     });
     Prettier.format(path.join(AGENDA_DIR, 'agenda.html'), { parser: 'html' });
     Prettier.format(path.join(AGENDA_DIR, 'pageData.js'), { parser: 'flow' });
