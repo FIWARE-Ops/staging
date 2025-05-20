@@ -308,7 +308,7 @@
 				"name": "Le M Hotel",
 				"city": "Rabat",
 				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/fiware-summit/rabat-2025/assets/images.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/fiware-summit/rabat-2025/assets/images' loading='lazy'/></picture></div></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/fiware-summit/rabat-2025/assets/images/le-m-hotel.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/fiware-summit/rabat-2025/assets/images/le-m-hotel.png' loading='lazy'/></picture></div></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>Le M Hotel</div>",
 					"<div class='ihub-type'>7 Avenue Al Atlas, Agdal-Ryad</div>",
@@ -328,7 +328,7 @@
 				"name": "Paul Mahaj Riad",
 				"city": "Rabat",
 				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/fiware-summit/rabat-2025/assets/images.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/fiware-summit/rabat-2025/assets/images' loading='lazy'/></picture></div></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/fiware-summit/rabat-2025/assets/images/paul-mahaj-riad.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/fiware-summit/rabat-2025/assets/images/paul-mahaj-riad.png' loading='lazy'/></picture></div></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>Paul Mahaj Riad</div>",
 					"<div class='ihub-type'>X46J+3QP</div>",
