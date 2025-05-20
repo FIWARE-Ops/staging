@@ -141,7 +141,7 @@ body {
 }
 
 .panel-speakers.more {
-    top: 410px;
+    top: 400px;
     width: 1100px;
     max-width: 1100px;
 }
@@ -203,13 +203,13 @@ body {
 }
 
 .speaker {
-    min-width: 28%;
-    width: 28%;
-    max-width: 28%;
+    min-width: 30%;
+    width: 30%;
+    max-width: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
 }
 
 .speaker-info {
@@ -227,9 +227,10 @@ body {
 }
 
 .speaker-info-small {
-    /* padding-top: 5px;
-      padding-bottom: 5px; */
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
 }
 
 .speaker-name {
@@ -251,12 +252,12 @@ body {
 }
 
 .speakers.more .speaker-name {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 22px;
     font-weight: 600;
     color: #000000;
     padding: 0;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 
 .speaker-job-title {
