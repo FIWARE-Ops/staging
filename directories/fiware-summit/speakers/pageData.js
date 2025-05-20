@@ -1,5 +1,6 @@
 var companies = [
         'ADDIX',
+        'African Smart Territories',
         'Al Akhawayn University',
         'Artech International',
         'AUSIM',
@@ -23,7 +24,6 @@ var companies = [
         'iSHARE Foundation',
         'Latitudo 40',
         'Majal Berkane',
-        'Maroc Numeric Cluster',
         'Meaningfy',
         'Mitsubishi Electric Corporation',
         'NEC Corporation',
@@ -55,11 +55,12 @@ var companies = [
         'Architect',
         'Assistant Professor',
         'Business Developer',
-        'CBO',
+        'CBDO',
         'CEO',
         'Chairman',
         'CISO',
         'Co-founder',
+        'Co-Founder',
         'COO',
         'Coordinator',
         'CTO',
@@ -83,7 +84,6 @@ var companies = [
         'Researcher',
         'Senior Manager',
         'Software Engineer',
-        'Technical Expert',
         'Technical Manager',
         'Vice-President',
 ]; var countries = [
@@ -118,13 +118,13 @@ var companies = [
     { name: "Vinith Bhandari", img: "https://www.fiware.org/wp-content/directories/people/images/200px/vinith-bhandari.jpg", position: "Head of Ecosystem Building", company: "iSHARE Foundation", "company-link": "https://ishare.eu/",
     content: "", linkedin: "https://www.linkedin.com/in/vinith-bhandari/", twitter: "", domain: "", location: ""
     },
-    { name: "David Campo", img: "https://www.fiware.org/wp-content/directories/people/images/200px/david-campo.jpg", position: "Senior Technical Expert &amp; Evangelist", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
+    { name: "David Campo", img: "https://www.fiware.org/wp-content/directories/people/images/200px/david-campo.jpg", position: "Tech Expert &amp; Evangelist – AI", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
     content: "", linkedin: "https://www.linkedin.com/in/davidnazarenocampo/", twitter: "https://twitter.com/dncampo", domain: "", location: ""
     },
     { name: "Chandra Challagonda", img: "https://www.fiware.org/wp-content/directories/people/images/200px/chandra-challagonda.jpg", position: "Chief Executive Officer", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
     content: "Chandra Challagonda has 26 years of experience in the technology industry, focusing on Machine Learning, Artificial Intelligence, and open-source technologies. Recognized as a business transformer, he emphasizes innovation and customer-centric strategies in executive roles such as Co-Founder, Board Member, CEO, and CTO. Over the last year, Chandra was working as a FIWARE community and board member, architect and Vice President, growing its global network and ecosystem and helping to develop sustainable strategies and partnerships in the organisation.", linkedin: "https://linkedin.com/in/challagonda", twitter: "https://twitter.com/challagonda", domain: "", location: ""
     },
-    { name: "Tim Cleffmann", img: "https://www.fiware.org/wp-content/directories/people/images/200px/tim-cleffmann.jpg", position: "Chief Business Development Officer", company: "DKSR", "company-link": "https://www.dksr.city/en/",
+    { name: "Tim Cleffmann", img: "https://www.fiware.org/wp-content/directories/people/images/200px/tim-cleffmann.jpg", position: "CBDO", company: "DKSR", "company-link": "https://www.dksr.city/en/",
     content: "Tim Cleffmann is an innovator and consultant in the field of smart city design and digital business models. As Chief Business Development Officer for the Data Competence Center for Cities and Region he develops practical solutions for urban challenges and turns them into concrete applications with clients and partners. Working with a network of innovative solution providers and using methods of co-creation is particularly important to him. Tim Cleffmann holds a Bachelor and Master of Science from the Karlsruhe Institute of Technology and has previously worked for Detecon International GmbH and Deutsche Telekom in the field of Smart City.", linkedin: "https://www.linkedin.com/in/tim-cleffmann-a456a8122/", twitter: "", domain: "", location: ""
     },
     { name: "Didac Colominas", img: "https://www.fiware.org/wp-content/directories/people/images/200px/didac-colominas.jpg", position: "Researcher of AAI", company: "Eurecat", "company-link": "https://eurecat.org/home/en/",
@@ -166,7 +166,7 @@ var companies = [
     { name: "El Mehdi Erroussafi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/el-mehdi-erroussafi.jpg", position: "CEO", company: "PRISALYA Consulting", "company-link": "https://www.prisalya.com/",
     content: "Elmehdi Erroussafi is the CEO of PRISALYA Consulting, a cybersecurity consulting firm based in Casablanca Morocco, and board member of the Centre Marocain de Recherche Polytechnique et d’Innovation (CMRPI), where he plays a key role in advancing cybersecurity initiatives and research. He is also a core contributor to the Espace Maroc Cyberconfiance (EMC), a national program dedicated to protecting children and vulnerable populations in the digital space. Through EMC, Elmehdi has been instrumental in developing awareness campaigns, educational programs, and reporting mechanisms that address cyber violence and promote digital safety. With extensive experience as a telecom consultant and senior solutions architect, Elmehdi specializes in fraud management, revenue assurance, and data analytics for telecom operators and regulators. He combines his technical expertise with a strong commitment to innovation and societal impact, particularly in the areas of cybersecurity and digital trust. Passionate about leveraging technology for positive change, Elmehdi is dedicated to creating safer and more resilient online environments both locally and internationally.", linkedin: "https://www.linkedin.com/in/erroussafi/", twitter: "", domain: "", location: ""
     },
-    { name: "Prof. Mohamed Essaidi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/mohamed-essaidi.jpg", position: "Professor &amp; Former Director ENSIAS College of Engineering", company: "UM5", "company-link": "https://www.um5.ac.ma/um5/",
+    { name: "Prof. Mohamed Essaidi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/mohamed-essaidi.jpg", position: "Professor", company: "UM5", "company-link": "https://www.um5.ac.ma/um5/",
     content: "Mohamed Essaidi is Professor and former Director of ENSIAS at Mohammed V University, Rabat, Morocco, and former Director of International Cooperation at the Ministry Delegate to the Head of Government in charge of General Affairs and Governance, Morocco (2019). He is also Chairman of IEEE Public Safety Technology, (2022), IEEE Blockchain Morocco Group (2022) , from IEEE IoT Global Cities Alliance, MEA (2020-2022), member of the evaluation committee of IEEE Humanitarian Activities Committee (2021-2022), member of IEEE EAB Teaching Excellence Editorial Hub, (2021-2022), and member IEEE Global Committee on Global Accreditation (2017-2018). He was also the founding president of the IEEE Morocco Section (2005-2016). Teacher. ESSAAIDI is a UNESCO and ICESCO expert on engineering training, digital transformation and smart cities.", linkedin: "", twitter: "", domain: "", location: ""
     },
     { name: "Mohammed Essaidi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/mohammed-essaidi.jpg", position: "General Secretary", company: "AUSIM", "company-link": "https://ausima",
@@ -175,7 +175,7 @@ var companies = [
     { name: "Guven Fidan", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "CTO", company: "Artech International", "company-link": "https://www.artechconsulting.net",
     content: "", linkedin: "", twitter: "", domain: "", location: ""
     },
-    { name: "Jason Fox", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jason-fox.jpg", position: "Senior Technical Expert &amp; Evangelist", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
+    { name: "Jason Fox", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jason-fox.jpg", position: "Tech Community Manager &amp; Evangelist", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
     content: "Jason Fox (m) has been working for FIWARE Foundation for the last six years in the role of technical evangelist, educating and diseminating information about NGSI interfaces, JSON-LD, Linked Data, the components within the FIWARE Catalogue and Securing FIWARE architectures. Before joining FIWARE, he worked as a software engineer for over 20 years in various roles both in Germany and the United Kingdom using a wide variety of programming languages ranging from C++ to Java to Node.js. This has included coding the software behind selling lottery tickets online for the British National Lottery, and and developing and maintaining technical documentation applications for Nokia.", linkedin: "https://www.linkedin.com/in/jason-fox-8a79563/", twitter: "", domain: "", location: ""
     },
     { name: "Javier Galvez Campanelli", img: "https://www.fiware.org/wp-content/directories/people/images/200px/javier-galvez-campanelli.jpg", position: "Smart Cities Solutions Coordinator", company: "GrupoTX", "company-link": "https://www.grupotx.com/",
@@ -199,7 +199,7 @@ var companies = [
     { name: "Sveva Ianese", img: "https://www.fiware.org/wp-content/directories/people/images/200px/sveva-ianese.jpg", position: "Academic Researcher", company: "University of Padova", "company-link": "https://www.unipd.it/en/",
     content: "Sveva Ianese is an academic researcher, consultant, and legal expert. Her expertise covers the domains of smart cities, data governance, compliance of AI and Data Space projects. With a legal background in data protection, she is involved in many research projects and serves Italian public bodies as advisory on data-driven policies. A frequent speaker at international conferences, she has published various scientific and informative articles on AI regulation, data privacy, and smart city development. Her work bridges technology, policy, and law to drive ethical and sustainable urban transformation.", linkedin: "https://www.linkedin.com/in/sveva-ianese/", twitter: "", domain: "", location: ""
     },
-    { name: "Dr. Jin Kawasaki", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jin-kawasaki.jpg", position: "Senior Expert - Information Technology R&amp;D Center", company: "Mitsubishi Electric Corporation", "company-link": "https://www.mitsubishielectric.com/en/index.html",
+    { name: "Dr. Jin Kawasaki", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jin-kawasaki.jpg", position: "Senior Expert", company: "Mitsubishi Electric Corporation", "company-link": "https://www.mitsubishielectric.com/rd/research/information_technology/index.html",
     content: "Jin Kawasaki is working as Senior Expert at Information Technology R&amp;D Center of Mitsubishi Electric Corporation. He received Ph.D. degree from University of Tsukuba in 2016. He also has business experience in IoT of building facilities and energy management. His research interest is smart building and city platform which provides solution such as carbon neutrality, energy management and workplace management.", linkedin: "https://www.linkedin.com/in/jin-kawasaki-817809205/?original_referer&#x3D;https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&amp;originalSubdomain&#x3D;jp", twitter: "", domain: "", location: ""
     },
     { name: "Zouheir Lakhdissi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/zouheir-lakhdissi.jpg", position: "CEO and Co-founder", company: "Dial Technologies", "company-link": "http://www.dialy.net/",
@@ -268,10 +268,10 @@ var companies = [
     { name: "Laila Slassi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/laila-slassi.jpg", position: "President", company: "EFE Maroc", "company-link": "https://efemaroc.org/en/",
     content: "Laila Slassi is the President of EFE Maroc (Education for Employment – Morocco), a leading organization dedicated to empowering youth through skills development and workforce readiness programs. With a deep commitment to inclusive growth and social mobility, she plays a key role in bridging the gap between education and employment for young Moroccans. A legal professional by training, Laila combines her expertise in law, governance, and public affairs to drive systemic change. Her leadership at EFE Maroc reflects a broader vision of creating sustainable pathways to employment, particularly for women and underserved communities. Beyond her role at EFE, Laila is an active voice in national and regional dialogues on youth empowerment, education reform, and digital inclusion. She frequently collaborates with public institutions, private sector partners, and civil society to promote impactful, scalable solutions for economic development. Known for her integrity, vision, and dedication to public service, Laila Slassi continues to inspire a new generation of changemakers committed to building a more inclusive and future-ready Morocco.", linkedin: "https://www.linkedin.com/in/laila-slassi-06612a1b/", twitter: "", domain: "", location: ""
     },
-    { name: "Megumi Suzuki", img: "https://www.fiware.org/wp-content/directories/people/images/200px/megumi-suzuki.jpg", position: "Researcher - Information Technology R&amp;D Center", company: "Mitsubishi Electric Corporation", "company-link": "https://www.mitsubishielectric.com/en/index.html",
+    { name: "Megumi Suzuki", img: "https://www.fiware.org/wp-content/directories/people/images/200px/megumi-suzuki.jpg", position: "Researcher", company: "Mitsubishi Electric Corporation", "company-link": "https://www.mitsubishielectric.com/rd/research/information_technology/index.html",
     content: "Megumi Suzuki is working as a Researcher at Information Technology R&amp;D Center of Mitsubishi Electric Corporation. She received master&#x27;s degree from University of Tsukuba in 2021. Her research interest is smart building data models of smart building and smart city platform.", linkedin: "", twitter: "", domain: "", location: ""
     },
-    { name: "Sanaa Tazi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/sanaa-tazi.jpg", position: "General Manager", company: "Maroc Numeric Cluster", "company-link": "https://mnc.ma/en/accueil-english/",
+    { name: "Sanaa Tazi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/sanaa-tazi.jpg", position: "CEO and Co-founder", company: "African Smart Territories", "company-link": "https://mnc.ma/en/accueil-english/",
     content: "Moroccan &amp; African Digital hub and innovation booster : helps start-ups by providing free trainings, technical assistance, calls for applications, technology innovation support, events and networking. Helps the biggest with technology innovation support to succeed in their digital transformation. Try to change minds by empowering African Women in Tech and strengthening Minority small businesses.", linkedin: "https://www.linkedin.com/in/sanaa-tazi-15579174/", twitter: "https://twitter.com/sanaa_tazi_", domain: "", location: ""
     },
     { name: "Ángeles Tejado", img: "https://www.fiware.org/wp-content/directories/people/images/200px/angeles-tejado.jpg", position: "Senior Program Manager", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
