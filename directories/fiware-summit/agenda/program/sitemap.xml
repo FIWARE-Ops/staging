@@ -193,6 +193,14 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2025/sdg-driven-solutions-for-a-sustainable-world-cup-legacy.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/digital-product-passports-for-a-more-circular--transparent-and-traceable-manufacturing---international-trade.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2025/ai-and-natural-language-for-smart-cities--turning-data-into-action.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -217,35 +225,15 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2025/building-the-future--sustainable-smart-cities-for-resilient-urban-living.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2025/improving-urban-management-through-generative-ai-and-fiware.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2025/opensustie---data-integration-of-smart-buildings-and-smart-cities.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
-			<loc>https://www.fiware.org/fgs-2025/sdg-driven-solutions-for-a-sustainable-world-cup-legacy.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
-			<loc>https://www.fiware.org/fgs-2025/digital-product-passports-for-a-more-circular--transparent-and-traceable-manufacturing---international-trade.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
-			<loc>https://www.fiware.org/fgs-2025/building-futureproof-cities-through-effective-use-of-data.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
-			<loc>https://www.fiware.org/fgs-2025/connection-device--displaying-data.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
-			<loc>https://www.fiware.org/fgs-2025/building-the-future--sustainable-smart-cities-for-resilient-urban-living.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
-			<loc>https://www.fiware.org/fgs-2025/from-smart-cities-to-digital-cities.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -257,7 +245,19 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2025/building-futureproof-cities-through-effective-use-of-data.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/connection-device--displaying-data.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2025/interoperability-between-energy-communities.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/from-smart-cities-to-digital-cities.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
