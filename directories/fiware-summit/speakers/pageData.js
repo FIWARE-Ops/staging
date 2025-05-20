@@ -172,7 +172,7 @@ var companies = [
     { name: "Mohammed Essaidi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/mohammed-essaidi.jpg", position: "General Secretary", company: "AUSIM", "company-link": "https://ausima",
     content: "", linkedin: "https://www.linkedin.com/in/mohammed-essaidi-35834418/", twitter: "", domain: "", location: ""
     },
-    { name: "Guven Fidan", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "CTO", company: "Artech International", "company-link": "https://www.artechconsulting.net",
+    { name: "Guven Fidan", img: "https://www.fiware.org/wp-content/directories/people/images/200px/guven-fidan.jpg", position: "CTO", company: "Artech International", "company-link": "https://www.artechconsulting.net",
     content: "", linkedin: "", twitter: "", domain: "", location: ""
     },
     { name: "Jason Fox", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jason-fox.jpg", position: "Tech Community Manager &amp; Evangelist", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
