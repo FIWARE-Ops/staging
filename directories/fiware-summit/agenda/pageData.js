@@ -64,7 +64,6 @@ var speakers = [
         'Redouan Dinar',
         'Hicham El Habti',
         'Mohamed El Yacoubi',
-        'Mohammed Essaidi',
         'Mohamed Essaidi',
         'Guven Fidan',
         'Jason Fox',
@@ -145,9 +144,9 @@ var modalData = {
         { name: "Andrea Cruciani", img: "https://www.fiware.org/wp-content/directories/people/images/200px/andrea-cruciani.jpg", position: "Chief Executive Officer", company: "TeamDev Ecosystem", "company-link": "https://teamdevecosystem.it/en",
         content: "Andrea Cruciani, Product Owner of WiseTown, CEO of TeamDev Ecosystem, and CEO of Agricolus, is an active member of the FIWARE Foundation and has been a FIWARE Evangelist since 2020. Deeply committed to urban innovation, Andrea collaborates closely with city experts and public administrations. He brings a wealth of experience in driving smart city advancements through cutting-edge computer architectures, multi-device application development, and enterprise-level system design—expertly navigating the complexities of cloud computing and harnessing the power of Geographic Information Systems (GIS).", linkedin: "https://www.linkedin.com/in/andreacruciani/", twitter: "https://twitter.com/kokkete", domain: "", location: "",
         flag: "", },
-    "mohammed-essaidi":
-        { name: "Mohammed Essaidi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/mohammed-essaidi.jpg", position: "General Secretary", company: "AUSIM", "company-link": "https://ausima",
-        content: "", linkedin: "https://www.linkedin.com/in/mohammed-essaidi-35834418/", twitter: "", domain: "", location: "",
+    "mohamed-essaidi":
+        { name: "Prof. Mohamed Essaidi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/mohamed-essaidi.jpg", position: "Professor", company: "UM5", "company-link": "https://www.um5.ac.ma/um5/",
+        content: "Mohamed Essaidi is Professor and former Director of ENSIAS at Mohammed V University, Rabat, Morocco, and former Director of International Cooperation at the Ministry Delegate to the Head of Government in charge of General Affairs and Governance, Morocco (2019). He is also Chairman of IEEE Public Safety Technology, (2022), IEEE Blockchain Morocco Group (2022) , from IEEE IoT Global Cities Alliance, MEA (2020-2022), member of the evaluation committee of IEEE Humanitarian Activities Committee (2021-2022), member of IEEE EAB Teaching Excellence Editorial Hub, (2021-2022), and member IEEE Global Committee on Global Accreditation (2017-2018). He was also the founding president of the IEEE Morocco Section (2005-2016). Teacher. ESSAAIDI is a UNESCO and ICESCO expert on engineering training, digital transformation and smart cities.", linkedin: "", twitter: "", domain: "", location: "",
         flag: "", },
     "jure-lampe":
         { name: "Jure Lampe", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jure-lampe.png", position: "Chief Executive Officer", company: "SenLab", "company-link": "https://senlab.io/en/about-us",
@@ -248,10 +247,6 @@ var modalData = {
     "redouan-dinar":
         { name: "Redouan Dinar", img: "https://www.fiware.org/wp-content/directories/people/images/200px/redouan-dinar.jpg", position: "Managing Director", company: "Majal Berkane", "company-link": "https://majalberkane.ma/",
         content: "Redouan Dinar, Managing Director of Société de Développement Locale Majal Berkane, is an engineer specializing in information systems security, with advanced certifications in IT technologies and over 20 years’ experience in network administration, Big Data, artificial intelligence and digital transformation. An experienced trainer in technical tools and information systems, since 2007 he has held the position of Director of Information Systems and New Technologies at the Agence de Développement de l’Oriental, where he led major projects linked to digitalization, cloud and cybersecurity. He has also held strategic positions within major national institutions and the Ministry of Foreign Affairs, contributing to missions with a high technological value. Recognized for his rigor, vision and expertise, he is renowned for his ability to steer innovative projects at the service of sustainable territorial development.", linkedin: "https://www.linkedin.com/in/redouan-dinar-785891120/", twitter: "", domain: "", location: "",
-        flag: "", },
-    "mohamed-essaidi":
-        { name: "Prof. Mohamed Essaidi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/mohamed-essaidi.jpg", position: "Professor", company: "UM5", "company-link": "https://www.um5.ac.ma/um5/",
-        content: "Mohamed Essaidi is Professor and former Director of ENSIAS at Mohammed V University, Rabat, Morocco, and former Director of International Cooperation at the Ministry Delegate to the Head of Government in charge of General Affairs and Governance, Morocco (2019). He is also Chairman of IEEE Public Safety Technology, (2022), IEEE Blockchain Morocco Group (2022) , from IEEE IoT Global Cities Alliance, MEA (2020-2022), member of the evaluation committee of IEEE Humanitarian Activities Committee (2021-2022), member of IEEE EAB Teaching Excellence Editorial Hub, (2021-2022), and member IEEE Global Committee on Global Accreditation (2017-2018). He was also the founding president of the IEEE Morocco Section (2005-2016). Teacher. ESSAAIDI is a UNESCO and ICESCO expert on engineering training, digital transformation and smart cities.", linkedin: "", twitter: "", domain: "", location: "",
         flag: "", },
     "stefano-de-panfilis":
         { name: "Stefano De Panfilis", img: "https://www.fiware.org/wp-content/directories/people/images/200px/stefano-depanfilis.jpg", position: "Senior Advisor", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
