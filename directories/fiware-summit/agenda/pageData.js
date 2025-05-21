@@ -22,13 +22,14 @@ var sessions = [
         'Best Smart Cities Use Cases in Morocco',
         'Blue Cities of Tomorrow: AI &amp; IoT for Smart Water and Resilient Cities',
         'Data Spaces &amp; Security',
+        'Digital Product Passports &amp; Data Sovereignty in Climate-Resilient Cities',
         'FIWARE Catalog',
         'FIWARE Core Concepts',
         'From Silos to Synergy: Building Smart Governance with Interoperability',
         'Global FIWARE Use Cases Shaping Smart Cities for 2030',
         'Governing Trust: Legal and Data Space Frameworks for Secure Cities',
         'International Academic Cooperation for Digital Transformation',
-        'National &amp; International Aid and State Grants: Leveraging Global Support for Urban Development',
+        'National &amp; International Aid and State Grants',
         'Next-Generation Governance: Where Smart Meets Digital',
         'Official Speeches',
         'Robotics &amp; IoT Agents',
@@ -36,7 +37,6 @@ var sessions = [
         'Secure Smart City',
         'Shuttle Bus',
         'Smart Data Spaces for High Profile Events: Enabling Interoperability and Trust',
-        'Trusted Data for Circular Futures',
 ]; 
 var speakers = [
         'Alberto Abella',
