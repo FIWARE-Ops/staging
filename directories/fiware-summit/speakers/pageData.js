@@ -7,6 +7,7 @@ var companies = [
         'AWS',
         'City of Marrakech',
         'CNR-IMATI',
+        'DGCT – Government of Morocco',
         'DGSSI',
         'Dial Technologies',
         'DKSR',
@@ -31,6 +32,7 @@ var companies = [
         'Porto Digital',
         'PRISALYA Consulting',
         'Prometheus-x',
+        'Region of Rabat-Salé-Kénitra',
         'Rhamna Provincial Council',
         'RISE',
         'SenLab',
@@ -66,6 +68,7 @@ var companies = [
         'Expert',
         'Fellow',
         'General Secretary',
+        'Governor',
         'Head of Unit',
         'Lead',
         'Manager',
@@ -76,6 +79,7 @@ var companies = [
         'President',
         'Professor',
         'Researcher',
+        'Scientific Chair',
         'Software Engineer',
         'Technical Manager',
         'VP',
@@ -89,6 +93,9 @@ var companies = [
     },
     { name: "Jose Luis Alvaro", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jose-alvaro.jpg", position: "Chief Technology Officer", company: "GrupoTX", "company-link": "https://www.grupotx.com/",
     content: "Jose Luis is the Chief Technology Officer at Grupo TX, a leading international corporation that specializes in providing innovative solutions for digital government, process automation, IoT monitoring, urban data infrastructure, and citizen services. Grupo TX is at the forefront of leveraging technology to address climate and environmental challenges for intelligent territories. With a remarkable problem-solving ability, Jose Luis brings over 15 years of experience in developing specialized systems and solutions for Governments. His in-depth knowledge of the latest technological advancements and industry trends has played a pivotal role in driving Grupo TX’s success in delivering cutting-edge services to its clients. Jose Luis’s passion for continuous learning is evident through his educational achievements. He holds a specialty in High Management from IPADE Business School in Mexico, renowned for its focus on strategic leadership and business acumen. In addition, he is a cloud early adopter with 14 years of hands-on experience in transforming cutting edge technology to support government in their digital transformation With his extensive experience, impeccable track record, and expertise in technology and digital transformation, Jose Luis is a driving force behind Grupo TX’s commitment to innovation and delivering sustainable solutions for the modern world.", linkedin: "https://www.linkedin.com/in/jose-alvaro-29918562/", twitter: "", domain: "", location: ""
+    },
+    { name: "Mohamed Amine Souissi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/mohamed-amine-souissi.jpg", position: "Project Manager", company: "DGCT – Government of Morocco", "company-link": "https://www.collectivites-territoriales.gov.ma/",
+    content: "", linkedin: "https://www.linkedin.com/in/mohamed-amine-souissi-3640093/", twitter: "", domain: "", location: ""
     },
     { name: "Fatima Azmarkou", img: "https://www.fiware.org/wp-content/directories/people/images/200px/fatima-azmarkou.jpg", position: "IT Digital Senior Manager", company: "City of Marrakech", "company-link": "https://www.ville-marrakech.ma/",
     content: "", linkedin: "", twitter: "", domain: "", location: ""
@@ -151,6 +158,9 @@ var companies = [
     content: "Redouan Dinar, Managing Director of Société de Développement Locale Majal Berkane, is an engineer specializing in information systems security, with advanced certifications in IT technologies and over 20 years’ experience in network administration, Big Data, artificial intelligence and digital transformation. An experienced trainer in technical tools and information systems, since 2007 he has held the position of Director of Information Systems and New Technologies at the Agence de Développement de l’Oriental, where he led major projects linked to digitalization, cloud and cybersecurity. He has also held strategic positions within major national institutions and the Ministry of Foreign Affairs, contributing to missions with a high technological value. Recognized for his rigor, vision and expertise, he is renowned for his ability to steer innovative projects at the service of sustainable territorial development.", linkedin: "https://www.linkedin.com/in/redouan-dinar-785891120/", twitter: "", domain: "", location: ""
     },
     { name: "Dr. Hicham El Habti", img: "https://www.fiware.org/wp-content/directories/people/images/200px/hicham-el-habti.jpg", position: "President", company: "UM6P", "company-link": "https://um6p.ma/en",
+    content: "", linkedin: "", twitter: "", domain: "", location: ""
+    },
+    { name: "Mohamed El Yacoubi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/mohamed-el -yacoubi.jpg", position: "Governor", company: "Region of Rabat-Salé-Kénitra", "company-link": "",
     content: "", linkedin: "", twitter: "", domain: "", location: ""
     },
     { name: "El Mehdi Erroussafi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/el-mehdi-erroussafi.jpg", position: "Chief Executive Officer", company: "PRISALYA Consulting", "company-link": "https://www.prisalya.com/",
@@ -236,6 +246,9 @@ var companies = [
     },
     { name: "Prof. Hassan Radoine", img: "https://www.fiware.org/wp-content/directories/people/images/200px/hassan-radoine.jpg", position: "Professor", company: "UM6P", "company-link": "https://um6p.ma/en",
     content: "", linkedin: "https://www.linkedin.com/in/dr-hassan-radoine-66731839/", twitter: "", domain: "", location: ""
+    },
+    { name: "Mohamed Réda El Alaoui", img: "https://www.fiware.org/wp-content/directories/people/images/200px/mohamed-reda-el-alaoui.jpg", position: "Director Development and Digital Transformation", company: "DGCT – Government of Morocco", "company-link": "https://www.collectivites-territoriales.gov.ma/",
+    content: "", linkedin: "https://www.linkedin.com/in/el-alaoui-mohammed-reda-30b266261/", twitter: "", domain: "", location: ""
     },
     { name: "Matteo Repetto", img: "https://www.fiware.org/wp-content/directories/people/images/200px/matteo-repetto.png", position: "Senior Researcher", company: "CNR-IMATI", "company-link": "https://www.imati.cnr.it/make_home_page.php?language&#x3D;ENG&amp;view&#x3D;GEN",
     content: "Matteo Repetto, Ph.D., received the Ph.D. degree in Electronics and Computer Science in 2004 from the University of Genoa. From 2004 to 2009 he was a postdoc at University of Genoa. From 2010 to 2019 he was a Research Associate at CNIT. In 2019 he joined the Institute for Applied Mathematics and Information Technologies (IMATI), CNR, where he currently holds a Senior Researcher position. He has been teaching many courses in telecommunication networks and network security. He has been involved in several research national and international projects on quality of service, mobility in data networks, energy efficiency, cloud computing, and network function virtualization. He was the scientific and technical coordinator of the ASTRID and GUARD projects, and he is now the coordinator of the MIRANDA project. He has co-authored over 90 scientific publications in international journals and conference proceedings, and 1 technical report for ITU. His current research interests include security architectures, interfaces to remote security functions, network security, threat hunting, management and security of digital service chains.", linkedin: "https://www.linkedin.com/in/matteo-repetto-1b00134/", twitter: "", domain: "", location: ""
