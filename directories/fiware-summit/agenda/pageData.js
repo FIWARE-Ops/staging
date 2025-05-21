@@ -44,7 +44,6 @@ var speakers = [
         'Mohamed Amine Souissi',
         'Fatima Azmarkou',
         'João Bastos',
-        'Mohamed Benabbad',
         'Ali Benfattoum',
         'Az-Eddine Bennani',
         'Massimo Bertoncini',
@@ -245,10 +244,6 @@ var modalData = {
         flag: "", },
     "fatima-azmarkou":
         { name: "Fatima Azmarkou", img: "https://www.fiware.org/wp-content/directories/people/images/200px/fatima-azmarkou.jpg", position: "IT Digital Senior Manager", company: "City of Marrakech", "company-link": "https://www.ville-marrakech.ma/",
-        content: "", linkedin: "", twitter: "", domain: "", location: "",
-        flag: "", },
-    "mohamed-benabbad":
-        { name: "Mohamed Benabbad", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Chief Technology Officer", company: "Rhamna Provincial Council", "company-link": "",
         content: "", linkedin: "", twitter: "", domain: "", location: "",
         flag: "", },
     "az-eddine-bennani":
