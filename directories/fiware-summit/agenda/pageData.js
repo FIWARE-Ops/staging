@@ -28,6 +28,7 @@ var sessions = [
         'Global FIWARE Use Cases Shaping Smart Cities for 2030',
         'Governing Trust: Legal and Data Space Frameworks for Secure Cities',
         'International Academic Cooperation for Digital Transformation',
+        'National &amp; International Aid and State Grants: Leveraging Global Support for Urban Development',
         'Next-Generation Governance: Where Smart Meets Digital',
         'Official Speeches',
         'Robotics &amp; IoT Agents',
@@ -40,11 +41,11 @@ var sessions = [
 var speakers = [
         'Alberto Abella',
         'Suna Akbayir',
+        'Mohamed Amine Souissi',
         'Fatima Azmarkou',
         'João Bastos',
         'Mohamed Benabbad',
         'Ali Benfattoum',
-        'Jose Benítez',
         'Az-Eddine Bennani',
         'Massimo Bertoncini',
         'Vinith Bhandari',
@@ -62,6 +63,7 @@ var speakers = [
         'Matthias de Bièvre',
         'Redouan Dinar',
         'Hicham El Habti',
+        'Mohamed El Yacoubi',
         'Mohammed Essaidi',
         'Mohamed Essaidi',
         'Guven Fidan',
@@ -84,16 +86,20 @@ var speakers = [
         'Yasunori Mochizuki',
         'Lydia Montandon',
         'Andrea Montieri',
+        'Timo Mueller',
         'Sachiko Muto',
         'Khalil Nossair',
         'Manfredi Pistone',
         'Michael Prange',
+        'Mohamed Réda El Alaoui',
+        'Mohamed Réda El Alaoui',
         'Matteo Repetto',
         'Luigi Romano',
         'Rubén Rosales Patón',
         'Alessandro Rossi',
         'Joaquín Salvachúa',
         'Björn Schwarze',
+        'Laila Slassi',
         'Megumi Suzuki',
         'Sanaa Tazi',
         'Ángeles Tejado',
@@ -116,7 +122,7 @@ var modalData = {
         content: "", linkedin: "", twitter: "", domain: "", location: "",
         flag: "", },
     "aawatif-hayar":
-        { name: "Dr. Aawatif Hayar", img: "https://www.fiware.org/wp-content/directories/people/images/200px/aawatif-hayar.jpg", position: "Chairman", company: "Smart Cities Morocco Alliance", "company-link": "https://www.univh2c.ma/",
+        { name: "Prof. Aawatif Hayar", img: "https://www.fiware.org/wp-content/directories/people/images/200px/aawatif-hayar.jpg", position: "Scientific Chair", company: "Smart Cities Morocco Roadshow", "company-link": "https://www.univh2c.ma/",
         content: "Dr. Aawatif HAYAR is the Minister of Solidarity, Social Integration and Family. She was President of Hassan II University Casablanca 2019-2021. She received, with honors,as the First Moroccan, the degree of “Agrégation” in Electrical Engineering from ENS Cachan in 1992. She received the “Diplôme d’Etudes Approfondies” in Signal processing Image and Communications and the degree of Engineer in Telecommunications Systems and Networks from ENSEEIHT de Toulouse in 1997. She received with honors the Ph.D. degree in Signal Processing and Telecommunications from Institut National Polytechnique in Toulouse in 2001. She was research and teaching associate at EURECOM from 2001 to 2010 in Sophia Antipolis-France. She has an HDR from Univ. Sud Toulon Var from France on Cognitive Wideband Wireless Systems on 2010 and an HDR on Green Téléommunication from Univ. Hassan II Casablanca on 2013. Since 2011, she has Professor position at the UH2C. She is also member of Casablanca “Avant-garde” City think-tank. She is initiator of E-madina Smart City Cluster. Her research interests includes cognitive green radio, UWB systems, smart grids, smart building, ICT for social eco-friendly development. She was also IEEE DLT Chair for EMEA region on 2014-2015 and the inventor of Frugal Social Smart City concept for Casablanca and emerging countries selected by IEEE SCI as one of the most innovative projects in the world in 2015. She is currently Chair of Casablanca IEEE Core Smart City project. She was also selected by the prestigious African Innovation Foundation as one of the top ten innovative African women in 2015. She is the Scientific Advisor, at the City level, since 2016 of Smart City Expo Casablanca and General Co-Chair of IEEE international Smart Cities Conference (IEEE ISC2 -2019). Pr. Hayar is currently leading R&amp;D/Innovation projects funded by INDH, CNRST, GIZ, IRESEN and Heinrich Böll Stiftung such as End to End Energy Efficiency Living Lab, Virtual Museum of Casablanca, e-douar “Smart Inclusive Ecological village” and Solar Decathlon Africa E-Co Dar projects.", linkedin: "https://www.linkedin.com/in/aawatif-hayar-5547395/", twitter: "", domain: "", location: "",
         flag: "", },
     "sanaa-tazi":
@@ -126,10 +132,6 @@ var modalData = {
     "ali-benfattoum":
         { name: "Ali Benfattoum", img: "https://www.fiware.org/wp-content/directories/people/images/200px/ali-benfattoum.jpg", position: "Principal Product Manager - AWS IoT", company: "AWS", "company-link": "https://aws.amazon.com/",
         content: "Ali Benfattoum is a Technology Evangelist for IoT and Smart Cities at Amazon Web Services. With over 12 years of experience in IoT and Smart Cities, Ali brings his technical expertise to enable and help customers and partners to accelerate their IoT and Smart Cities projects. Ali also holds an executive MBA, giving him the ability to zoom out and help customers and partners at a strategic level.", linkedin: "https://www.linkedin.com/in/alibenfattoum/", twitter: "https://twitter.com/alifrugal", domain: "", location: "",
-        flag: "", },
-    "jose-benítez":
-        { name: "Jose Benítez", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jose-benitez.jpg", position: "Chief Executive Officer", company: "Secmotic", "company-link": "https://secmotic.com/",
-        content: "Since its establishment in 2015, Jose has been at the helm of Secmotic as CEO. His involvement on the Board of Directors of FIWARE since 2017 has contributed to shaping the future of the organization. In 2021, he embarked on a new venture, founding FIWOO Smart Solutions, a company dedicated to delivering FIWARE-based Smart City platform solutions tailored to the needs of the Spanish public sector.", linkedin: "https://www.linkedin.com/in/jose-benitez-secmotic/", twitter: "", domain: "", location: "",
         flag: "", },
     "yasunori-mochizuki":
         { name: "Yasunori Mochizuki", img: "https://www.fiware.org/wp-content/directories/people/images/200px/yasunori-mochizuki.jpg", position: "NEC Fellow", company: "NEC Corporation", "company-link": "https://www.nec.com/",
@@ -334,6 +336,10 @@ var modalData = {
     "guven-fidan":
         { name: "Guven Fidan", img: "https://www.fiware.org/wp-content/directories/people/images/200px/guven-fidan.jpg", position: "Chief Technology Officer", company: "Artech International", "company-link": "https://www.artechconsulting.net",
         content: "", linkedin: "", twitter: "", domain: "", location: "",
+        flag: "", },
+    "laila-slassi":
+        { name: "Laila Slassi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/laila-slassi.jpg", position: "President", company: "EFE Maroc", "company-link": "https://efemaroc.org/en/",
+        content: "Laila Slassi is the President of EFE Maroc (Education for Employment – Morocco), a leading organization dedicated to empowering youth through skills development and workforce readiness programs. With a deep commitment to inclusive growth and social mobility, she plays a key role in bridging the gap between education and employment for young Moroccans. A legal professional by training, Laila combines her expertise in law, governance, and public affairs to drive systemic change. Her leadership at EFE Maroc reflects a broader vision of creating sustainable pathways to employment, particularly for women and underserved communities. Beyond her role at EFE, Laila is an active voice in national and regional dialogues on youth empowerment, education reform, and digital inclusion. She frequently collaborates with public institutions, private sector partners, and civil society to promote impactful, scalable solutions for economic development. Known for her integrity, vision, and dedication to public service, Laila Slassi continues to inspire a new generation of changemakers committed to building a more inclusive and future-ready Morocco.", linkedin: "https://www.linkedin.com/in/laila-slassi-06612a1b/", twitter: "", domain: "", location: "",
         flag: "", },
     "david-campo":
         { name: "David Campo", img: "https://www.fiware.org/wp-content/directories/people/images/200px/david-campo.jpg", position: "Tech Expert &amp; Evangelist – AI", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
