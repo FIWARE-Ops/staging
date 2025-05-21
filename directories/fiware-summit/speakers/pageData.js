@@ -7,7 +7,7 @@ var companies = [
         'AWS',
         'City of Marrakech',
         'CNR-IMATI',
-        'DGCT – Government of Morocco',
+        'DGCT – Kingdom of Morocco',
         'DGSSI',
         'Dial Technologies',
         'DKSR',
@@ -20,9 +20,9 @@ var companies = [
         'FIWARE TSC',
         'FutureCraft Foundation',
         'GIZ',
-        'Government of Morocco',
         'GrupoTX',
         'iSHARE Foundation',
+        'Kingdom of Morocco',
         'Latitudo 40',
         'Majal Berkane',
         'Meaningfy',
@@ -94,7 +94,7 @@ var companies = [
     { name: "Jose Luis Alvaro", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jose-alvaro.jpg", position: "Chief Technology Officer", company: "GrupoTX", "company-link": "https://www.grupotx.com/",
     content: "Jose Luis is the Chief Technology Officer at Grupo TX, a leading international corporation that specializes in providing innovative solutions for digital government, process automation, IoT monitoring, urban data infrastructure, and citizen services. Grupo TX is at the forefront of leveraging technology to address climate and environmental challenges for intelligent territories. With a remarkable problem-solving ability, Jose Luis brings over 15 years of experience in developing specialized systems and solutions for Governments. His in-depth knowledge of the latest technological advancements and industry trends has played a pivotal role in driving Grupo TX’s success in delivering cutting-edge services to its clients. Jose Luis’s passion for continuous learning is evident through his educational achievements. He holds a specialty in High Management from IPADE Business School in Mexico, renowned for its focus on strategic leadership and business acumen. In addition, he is a cloud early adopter with 14 years of hands-on experience in transforming cutting edge technology to support government in their digital transformation With his extensive experience, impeccable track record, and expertise in technology and digital transformation, Jose Luis is a driving force behind Grupo TX’s commitment to innovation and delivering sustainable solutions for the modern world.", linkedin: "https://www.linkedin.com/in/jose-alvaro-29918562/", twitter: "", domain: "", location: ""
     },
-    { name: "Mohamed Amine Souissi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/mohamed-amine-souissi.jpg", position: "Project Manager", company: "DGCT – Government of Morocco", "company-link": "https://www.collectivites-territoriales.gov.ma/",
+    { name: "Mohamed Amine Souissi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/mohamed-amine-souissi.jpg", position: "Project Manager", company: "DGCT – Kingdom of Morocco", "company-link": "https://www.collectivites-territoriales.gov.ma/",
     content: "", linkedin: "https://www.linkedin.com/in/mohamed-amine-souissi-3640093/", twitter: "", domain: "", location: ""
     },
     { name: "Fatima Azmarkou", img: "https://www.fiware.org/wp-content/directories/people/images/200px/fatima-azmarkou.jpg", position: "IT Digital Senior Manager", company: "City of Marrakech", "company-link": "https://www.ville-marrakech.ma/",
@@ -118,7 +118,7 @@ var companies = [
     { name: "Vinith Bhandari", img: "https://www.fiware.org/wp-content/directories/people/images/200px/vinith-bhandari.jpg", position: "Head of Ecosystem Building", company: "iSHARE Foundation", "company-link": "https://ishare.eu/",
     content: "", linkedin: "https://www.linkedin.com/in/vinith-bhandari/", twitter: "", domain: "", location: ""
     },
-    { name: "David Campo", img: "https://www.fiware.org/wp-content/directories/people/images/200px/david-campo.jpg", position: "Tech Expert &amp; Evangelist – AI", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
+    { name: "David Campo", img: "https://www.fiware.org/wp-content/directories/people/images/200px/david-campo.jpg", position: "Tech Expert &amp; Evangelis", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
     content: "", linkedin: "https://www.linkedin.com/in/davidnazarenocampo/", twitter: "https://twitter.com/dncampo", domain: "", location: ""
     },
     { name: "Chandra Challagonda", img: "https://www.fiware.org/wp-content/directories/people/images/200px/chandra-challagonda.jpg", position: "Chief Executive Officer", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
@@ -214,7 +214,7 @@ var companies = [
     { name: "Francisco Meléndez", img: "https://www.fiware.org/wp-content/directories/people/images/200px/francisco-melendez.jpg", position: "Technical Community Coordinator", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
     content: "Francisco Melendez (m) is a Telecommunications &amp; Robotics Engineer and is FIWARE’s Technical Expert in Robotics, Automation and Industry 4.0. He is also one of the representatives of FIWARE in the Digital Twin Consortium and some international projects where FIWARE is developing its technical roadmap in robotics and automation. As a mobile robotics engineer and researcher with more than 8 years of experience in web-enabled robot applications, his work is currently focused on the development of convenient interfaces between cyber physical systems and digital twins in FIWARE-based solutions.", linkedin: "https://www.linkedin.com/in/franmelfer/", twitter: "", domain: "", location: ""
     },
-    { name: "Ryad Mezzour", img: "https://www.fiware.org/wp-content/directories/people/images/200px/ryad-mezzour.jpg", position: "Minister of Industry and Trade", company: "Government of Morocco", "company-link": "https://www.maroc.ma/en",
+    { name: "Ryad Mezzour", img: "https://www.fiware.org/wp-content/directories/people/images/200px/ryad-mezzour.jpg", position: "Minister of Industry and Trade", company: "Kingdom of Morocco", "company-link": "https://www.maroc.ma/en",
     content: "Experienced Senior Level Manager with a strong background in the public and private sectors. Skilled in Negotiation, Business Planning, Analytical Skills, Operations Management, and Coaching. Strong education professional with a MSc. focused in Power Plant Technology and Business Administration from Eidgenössische Technische Hochschule Zürich.", linkedin: "https://www.linkedin.com/in/ryad-mezzour-65158b3/", twitter: "", domain: "", location: ""
     },
     { name: "Yasunori Mochizuki", img: "https://www.fiware.org/wp-content/directories/people/images/200px/yasunori-mochizuki.jpg", position: "NEC Fellow", company: "NEC Corporation", "company-link": "https://www.nec.com/",
@@ -247,7 +247,7 @@ var companies = [
     { name: "Prof. Hassan Radoine", img: "https://www.fiware.org/wp-content/directories/people/images/200px/hassan-radoine.jpg", position: "Professor", company: "UM6P", "company-link": "https://um6p.ma/en",
     content: "", linkedin: "https://www.linkedin.com/in/dr-hassan-radoine-66731839/", twitter: "", domain: "", location: ""
     },
-    { name: "Mohamed Réda El Alaoui", img: "https://www.fiware.org/wp-content/directories/people/images/200px/mohamed-reda-el-alaoui.jpg", position: "Director Development and Digital Transformation", company: "DGCT – Government of Morocco", "company-link": "https://www.collectivites-territoriales.gov.ma/",
+    { name: "Mohamed Réda El Alaoui", img: "https://www.fiware.org/wp-content/directories/people/images/200px/mohamed-reda-el-alaoui.jpg", position: "Director Development and Digital Transformation", company: "DGCT – Kingdom of Morocco", "company-link": "https://www.collectivites-territoriales.gov.ma/",
     content: "", linkedin: "https://www.linkedin.com/in/el-alaoui-mohammed-reda-30b266261/", twitter: "", domain: "", location: ""
     },
     { name: "Matteo Repetto", img: "https://www.fiware.org/wp-content/directories/people/images/200px/matteo-repetto.png", position: "Senior Researcher", company: "CNR-IMATI", "company-link": "https://www.imati.cnr.it/make_home_page.php?language&#x3D;ENG&amp;view&#x3D;GEN",
@@ -289,7 +289,7 @@ var companies = [
     { name: "Stefan Wiedemann", img: "https://www.fiware.org/wp-content/directories/people/images/200px/stefan-wiedemann.jpg", position: "Senior Software Engineer", company: "FICODES", "company-link": "https://www.ficodes.com/en/",
     content: "", linkedin: "https://www.linkedin.com/in/stefan-wiedemann-37a0ba13a/", twitter: "", domain: "", location: ""
     },
-    { name: "Ken Zangelin", img: "https://www.fiware.org/wp-content/directories/people/images/200px/ken-zangelin.jpg", position: "Senior Architect &amp; Evangelist – Context Broker", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
+    { name: "Ken Zangelin", img: "https://www.fiware.org/wp-content/directories/people/images/200px/ken-zangelin.jpg", position: "Senior Architect &amp; Evangelist", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
     content: "Ken Zangelin (m) holds a Master of Science degree from the Royal Institute of Technology (KTH) in Stockholm, Sweden. He has +30 years of experience in programming using C, C++, shell in the Unix environment. During these +30 years, Ken has done a little bit of everything, including Real-Time Operating System design and implementation, Hardware-close programming, Boot-blocks, Board Support Packages, Interrupt routines and handling, TCP/IP Client-Server implementations, device drivers, compilers, interpreters, REST servers, ... you name it. Ken has been developing the Orion and Orion-LD Context Brokers, first at Telefonica R&amp;D (Orion) and after that, from 2017 and onwards, the Orion-LD context broker - “linked data context broker” for the FIWARE Foundation, Berlin, Germany. He’s also an active member of ETSI ISG CIM where the NGSI-LD standard is defined.", linkedin: "https://www.linkedin.com/in/kzangeli/", twitter: "", domain: "", location: ""
     }
 ];
