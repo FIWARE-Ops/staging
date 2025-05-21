@@ -233,10 +233,6 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/improving-urban-management-through-generative-ai-and-fiware.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
 			<loc>https://www.fiware.org/fgs-2025/opensustie---data-integration-of-smart-buildings-and-smart-cities.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -250,6 +246,10 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2025/smart-monitoring-of-stormwater-retention-basins.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/improving-urban-management-through-generative-ai-and-fiware.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
