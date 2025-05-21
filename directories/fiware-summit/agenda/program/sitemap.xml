@@ -21,15 +21,7 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/representative-of-the-minister-of-digital-transition-and-administrative-reform.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
-			<loc>https://www.fiware.org/fgs-2025/general-direction-of-territorial-collectivities.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
-			<loc>https://www.fiware.org/fgs-2025/aawatif-hayar--chairman-of-the-smart-cities-morocco-alliance.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/prof--aawatif-hayar--scientific-chair-of-smart-cities-morocco-roadshow.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -49,10 +41,6 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/fiware-for-cities-from-europe-to-the-world--from-smart-to-ai-ready.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
 			<loc>https://www.fiware.org/fgs-2025/fiware-training--day-one.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -61,19 +49,19 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2025/fiware-for-cities-from-europe-to-the-world--from-smart-to-ai-ready.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2025/telefónica---fiware--building-smart-cities-and-destinations.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/the-use-case-is-the-goal--interoperability-is-the-means--fiware-is-the-core-.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/the-use-case-of-madrid--london-and-singapore.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2025/smart-data-models.html</loc>
-			<changefreq>monthly</changefreq>
-		</url>
-		<url>
-			<loc>https://www.fiware.org/fgs-2025/the-use-case-of-madrid--london-and-singapore.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -85,11 +73,15 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
-			<loc>https://www.fiware.org/fgs-2025/e-gov-moroccan-context.html</loc>
+			<loc>https://www.fiware.org/fgs-2025/general-direction-of-territorial-collectivities--working-to-implement-smart-territories.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2025/digital-twin-programming-using-ngsi-ld--crud--registrations--subscriptions.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/supporting-moroccan-ecosystem-and-fostering-multi-stakeholder-collaboration.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
@@ -189,6 +181,10 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2025/ai-context-in-morocco-and-ai-solutions-for-urban-management.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2025/data-as-a-strategic-asset--lessons-from-porto-s-urban-platform-and-the-beopen-project.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -225,6 +221,10 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/fgs-2025/laila-slassi--president-of-efe-maroc.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/fgs-2025/ngsi-ld-farm-exercises.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -238,6 +238,10 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/fgs-2025/opensustie---data-integration-of-smart-buildings-and-smart-cities.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/fgs-2025/timo-mueller--project-director-at-giz-morocco.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
