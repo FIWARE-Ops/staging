@@ -33,7 +33,6 @@ var companies = [
         'PRISALYA Consulting',
         'Prometheus-x',
         'Region of Rabat-Salé-Kénitra',
-        'Rhamna Provincial Council',
         'RISE',
         'SenLab',
         'Sirus',
@@ -102,9 +101,6 @@ var companies = [
     },
     { name: "João Bastos", img: "https://www.fiware.org/wp-content/directories/people/images/200px/joao-bastos.jpg", position: "Head of Systems Architecture and Data Analytics", company: "Porto Digital", "company-link": "https://www.portodigital.pt/en/homepage/",
     content: "", linkedin: "https://www.linkedin.com/in/jo%C3%A3o-bastos-71458428/", twitter: "", domain: "", location: ""
-    },
-    { name: "Mohamed Benabbad", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Chief Technology Officer", company: "Rhamna Provincial Council", "company-link": "",
-    content: "", linkedin: "", twitter: "", domain: "", location: ""
     },
     { name: "Ali Benfattoum", img: "https://www.fiware.org/wp-content/directories/people/images/200px/ali-benfattoum.jpg", position: "Principal Product Manager - AWS IoT", company: "AWS", "company-link": "https://aws.amazon.com/",
     content: "Ali Benfattoum is a Technology Evangelist for IoT and Smart Cities at Amazon Web Services. With over 12 years of experience in IoT and Smart Cities, Ali brings his technical expertise to enable and help customers and partners to accelerate their IoT and Smart Cities projects. Ali also holds an executive MBA, giving him the ability to zoom out and help customers and partners at a strategic level.", linkedin: "https://www.linkedin.com/in/alibenfattoum/", twitter: "https://twitter.com/alifrugal", domain: "", location: ""
