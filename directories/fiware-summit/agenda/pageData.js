@@ -85,7 +85,6 @@ var speakers = [
         'Lydia Montandon',
         'Andrea Montieri',
         'Timo Müller',
-        'Sachiko Muto',
         'Khalil Nossair',
         'Manfredi Pistone',
         'Michael Prange',
