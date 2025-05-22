@@ -33,7 +33,6 @@ var companies = [
         'PRISALYA Consulting',
         'Prometheus-x',
         'Region of Rabat-Salé-Kénitra',
-        'RISE',
         'SenLab',
         'Sirus',
         'Smart Cities Morocco Roadshow',
@@ -224,9 +223,6 @@ var companies = [
     },
     { name: "Timo Müller", img: "https://www.fiware.org/wp-content/directories/people/images/200px/timo-muller.jpg", position: "Head of Projects", company: "GIZ", "company-link": "https://www.giz.de/en/html/index.html",
     content: "Timo Mueller is an expert at GIZ, the German Agency for International Cooperation, specializing in digital transformation of public administrations, change management, and public-private collaboration. In his current role, he leads the “Digital Transformation of the Moroccan Administration” cooperation project, implemented by GIZ under the eagis of the Ministry of Digital Transition and Administrative Reform and the Digital Development Agency. Timo has built extensive international experience across Europe, Africa, and Latin America, working on e-government projects aimed at modernizing public services. He actively supports the deployment of digital solutions and fosters public-private partnerships to promote sustainable cooperation and innovation in public sector digital transformation.", linkedin: "https://www.linkedin.com/in/timo-stephan-mueller/", twitter: "", domain: "", location: ""
-    },
-    { name: "Sachiko Muto", img: "https://www.fiware.org/wp-content/directories/people/images/200px/sashiko-muto.jpg", position: "Senior Researcher", company: "RISE", "company-link": "https://ri.se",
-    content: "Sachiko Muto is the Chair of OpenForum Europe and a senior researcher at RISE Research Institutes of Sweden. She originally joined OFE in 2007 and served for several years as Director with responsibility for government relations and then as CEO. Sachiko has degrees in Political Science from the University of Toronto and the London School of Economics; she received her doctorate in standardisation policy from TU Delft.", linkedin: "https://www.linkedin.com/in/sachikomuto/", twitter: "", domain: "", location: ""
     },
     { name: "Col. Khalil Nossair", img: "https://www.fiware.org/wp-content/directories/people/images/200px/khalil-nossair.jpg", position: "Director of Security &amp; Information Systems", company: "DGSSI", "company-link": "https://www.dgssi.gov.ma/fr",
     content: "Khalil Nossair is the Director of Assistance, Training, Control, and Expertise at the General Directorate of Information Systems Security (DGSSI). A graduate of the Royal Air School of Marrakech, he also holds a Master’s degree and a DEA (postgraduate diploma) in Embedded Systems from the National School of Aeronautical Engineering in Toulouse. He has earned several professional certifications in cybersecurity, covering areas such as auditing and control, risk management, industrial control systems security, and cloud security.", linkedin: "https://www.linkedin.com/in/khalil-nossair-91082431/", twitter: "", domain: "", location: ""
