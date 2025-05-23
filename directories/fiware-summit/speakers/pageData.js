@@ -14,7 +14,6 @@ var companies = [
         'EFE Maroc',
         'Engineering',
         'Eurecat',
-        'FH Kiel',
         'FICODES',
         'FIWARE Foundation',
         'FIWARE TSC',
@@ -232,9 +231,6 @@ var companies = [
     },
     { name: "Manfredi Pistone", img: "https://www.fiware.org/wp-content/directories/people/images/200px/manfredi-pistone.jpg", position: "Technical Manager", company: "Engineering", "company-link": "https://www.eng.it/en/",
     content: "Researcher, member of “Digital Industry and Agrifood” Unit within the Industry and Security Technologies, Research and Innovation (IS3) Lab at Engineering Ingegneria Informatica. He graduated in 2018 in Computer Engineering at the University of Palermo (Italy). Since 2018 he has been involved in EU and Italian research projects as solution designer and developer, and technical leader of many activities, fostering the adoption of Open Source technologies in the manufacturing domain.", linkedin: "https://www.linkedin.com/in/manfredi-pistone-224878119/", twitter: "", domain: "", location: ""
-    },
-    { name: "Prof. Michael Prange", img: "https://www.fiware.org/wp-content/directories/people/images/200px/michael-prange.jpg", position: "Professor", company: "FH Kiel", "company-link": "https://www.fh-kiel.de/startseite/",
-    content: "Prof. Dr. Michael Prange studied Computer Science and Physics at Kiel University of Applied Sciences and received his doctorate in Mechanical Engineering from Hamburg University of Technology. He brings with him experience from 30 years of international business activity, from a wide variety of tasks and functions in associations and in politics, and as a lecturer at various universities. As a Professor of Data Science at Kiel University of Applied Sciences and as an entrepreneur and IT expert, the focus of his research and consulting activities is on digital transformation and sustainable development of private and public organizations with a focus on smart infrastructures, digital technologies, innovative business models, open data platforms and artificial intelligence for Smart Cities and the Green Economy.", linkedin: "https://www.linkedin.com/in/michael-prange-1232187/", twitter: "", domain: "", location: ""
     },
     { name: "Prof. Hassan Radoine", img: "https://www.fiware.org/wp-content/directories/people/images/200px/hassan-radoine.jpg", position: "Professor", company: "UM6P", "company-link": "https://um6p.ma/en",
     content: "", linkedin: "https://www.linkedin.com/in/dr-hassan-radoine-66731839/", twitter: "", domain: "", location: ""
