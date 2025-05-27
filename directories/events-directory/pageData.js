@@ -380,6 +380,26 @@ window.eventData = [
         "group": "Summit"
     },
     {
+        "id": "202506-ai--conference",
+        "title": "AI+ Conference",
+        "from": "2025-06-02T22:00:00.000Z",
+        "to": "2025-06-04T22:00:00.000Z",
+        "description": "Conference on applied AI, uniting academia, public and private sectors.",
+        "location": "Byparken Jernbanetorget 2, 1767 ",
+        "isAllDay": true,
+        "group": "Conference"
+    },
+    {
+        "id": "202506-data--cloud---ai-federation--building-the-infrastructure-of-the-future",
+        "title": "Data, Cloud &amp; AI federation: Building the infrastructure of the future",
+        "from": "2025-06-19T14:00:00.000Z",
+        "to": "2025-06-19T15:30:00.000Z",
+        "description": "Data, Cloud &amp; AI federation: Building the infrastructure of the future",
+        "location": "Online",
+        "isAllDay": false,
+        "group": "Webinar"
+    },
+    {
         "id": "202506-cities-climate-action-summit-2025",
         "title": "Cities Climate Action Summit 2025",
         "from": "2025-06-24T07:00:00.000Z",
