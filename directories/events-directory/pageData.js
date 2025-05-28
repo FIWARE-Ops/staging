@@ -390,6 +390,16 @@ window.eventData = [
         "group": "Conference"
     },
     {
+        "id": "202506-ieee-ice",
+        "title": "IEEE ICE",
+        "from": "2025-06-15T22:00:00.000Z",
+        "to": "2025-06-18T22:00:00.000Z",
+        "description": "International Conference on Engineering, Technology and Innovation",
+        "location": "Nexus Building – UPV Camino de Vera s/n, 46022 ",
+        "isAllDay": true,
+        "group": "Conference"
+    },
+    {
         "id": "202506-data--cloud---ai-federation--building-the-infrastructure-of-the-future",
         "title": "Data, Cloud &amp; AI federation: Building the infrastructure of the future",
         "from": "2025-06-19T14:00:00.000Z",
