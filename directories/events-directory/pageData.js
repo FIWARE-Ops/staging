@@ -410,6 +410,16 @@ window.eventData = [
         "group": "Summit"
     },
     {
+        "id": "202506-beopen-final-event---unlocking-public-sector-s-high-value-data-sets",
+        "title": "BeOpen Final Event – Unlocking Public Sector&#x27;s High Value Data Sets",
+        "from": "2025-06-25T10:00:00.000Z",
+        "to": "2025-06-25T12:00:00.000Z",
+        "description": "BeOpen Final Event – Unlocking Public Sector&#x27;s High Value Data Sets",
+        "location": "Online",
+        "isAllDay": false,
+        "group": "Conference"
+    },
+    {
         "id": "202509-smart-country-convention",
         "title": "Smart Country Convention",
         "from": "2025-09-29T22:00:00.000Z",
