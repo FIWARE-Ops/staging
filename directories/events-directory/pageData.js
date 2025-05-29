@@ -392,8 +392,8 @@ window.eventData = [
     {
         "id": "202506-fiware-expert-bootcamp",
         "title": "FIWARE Expert Bootcamp",
-        "from": "2025-06-15T23:00:00.000Z",
-        "to": "2025-06-19T23:00:00.000Z",
+        "from": "2025-06-15T22:00:00.000Z",
+        "to": "2025-06-19T22:00:00.000Z",
         "description": "FIWARE Technical Training Bootcamp as preparations for taking the FIWARE Expert Exam.",
         "location": "La Vega Innova Camino de la Vega, s/n, 28830, San Fernando de Henares ",
         "isAllDay": true,
