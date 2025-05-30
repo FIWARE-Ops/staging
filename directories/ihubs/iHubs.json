@@ -474,7 +474,7 @@
 					"<div class='ihub-type'>Basic</div>",
                 	"<div class='chip-domain'><ul class='chips'><li>AgriFood</li><li>Cities</li><li>Energy</li><li>Space</li><li>Water</li></ul><span class='chips-gradient'></span></div>"
             		,
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.udgalliance.org/' rel='noopener'><span class='icon website'></span></div>"
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://iotlab.com/fiware-ihub/' rel='noopener'><span class='icon website'></span></div>"
 				]
 			},
 			"geometry":{
