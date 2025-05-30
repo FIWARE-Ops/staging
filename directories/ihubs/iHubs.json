@@ -171,6 +171,27 @@
 			"type":"Feature",
 			"properties":{
 				"type": "iHub",
+				"name": "DIH-FbN",
+				"city": "Saint-Quentin",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/ihubs/images/iot-booster.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/iot-booster.png' loading='lazy'/></picture></div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Saint-Quentin</h3><img alt='France' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_France.png' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>DIH-FbN</div>",
+					"<div class='ihub-type'>Standard</div>",
+                	"<div class='chip-domain'><ul class='chips'><li>AgriFood</li><li>Cities</li><li>Industry</li></ul><span class='chips-gradient'></span></div>"
+            		,
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://dih-fbn.com/en/' rel='noopener'><span class='icon website'></span><a class='cat-twitter' target='_blank' href='https://twitter.com/Hub_Faubourg' rel='noopener'><span class='icon twitter'></span></a></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[3.282,49.842]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "iHub",
 				"name": "DIHBAI-TUR",
 				"city": "Mallorca",
 				"html": [
@@ -438,27 +459,6 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[10.097,36.789]
-			}
-		},
-		{
-			"type":"Feature",
-			"properties":{
-				"type": "iHub",
-				"name": "IoT Booster",
-				"city": "Saint-Quentin",
-				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/ihubs/images/iot-booster.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/iot-booster.png' loading='lazy'/></picture></div></div>",
-					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Saint-Quentin</h3><img alt='France' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_France.png' style='margin-left: auto;'/></div>",
-					"<div class='ihub-name'>IoT Booster</div>",
-					"<div class='ihub-type'>Standard</div>",
-                	"<div class='chip-domain'><ul class='chips'><li>AgriFood</li><li>Cities</li><li>Industry</li></ul><span class='chips-gradient'></span></div>"
-            		,
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://dih-fbn.com/en/' rel='noopener'><span class='icon website'></span><a class='cat-twitter' target='_blank' href='https://twitter.com/Hub_Faubourg' rel='noopener'><span class='icon twitter'></span></a></div>"
-				]
-			},
-			"geometry":{
-				"type":"Point",
-				"coordinates":[3.282,49.842]
 			}
 		},
 		{
