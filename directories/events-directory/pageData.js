@@ -390,6 +390,16 @@ window.eventData = [
         "group": "Conference"
     },
     {
+        "id": "202506-un-open-source-week-2025",
+        "title": "UN Open Source Week 2025",
+        "from": "2025-06-15T22:00:00.000Z",
+        "to": "2025-06-19T22:00:00.000Z",
+        "description": "UN Open Source Week 2025 facilitates global dialogue and collaboration on open source, DPI, and the development of innovative solutions to global challenges.",
+        "location": "United Nations Headquarters 405 E 45th St ",
+        "isAllDay": true,
+        "group": "Conference"
+    },
+    {
         "id": "202506-fiware-expert-bootcamp",
         "title": "FIWARE Expert Bootcamp",
         "from": "2025-06-15T22:00:00.000Z",
@@ -437,7 +447,7 @@ window.eventData = [
         "description": "BeOpen Final Event – Unlocking Public Sector&#x27;s High Value Data Sets",
         "location": "Online",
         "isAllDay": false,
-        "group": "Conference"
+        "group": "Webinar"
     },
     {
         "id": "202509-smart-country-convention",
