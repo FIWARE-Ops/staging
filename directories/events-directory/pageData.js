@@ -395,7 +395,7 @@ window.eventData = [
         "from": "2025-06-15T22:00:00.000Z",
         "to": "2025-06-19T22:00:00.000Z",
         "description": "UN Open Source Week 2025 facilitates global dialogue and collaboration on open source, DPI, and the development of innovative solutions to global challenges.",
-        "location": "United Nations Headquarters 405 E 45th St ",
+        "location": "PwC Building 300 Madison Avenue, New York ",
         "isAllDay": true,
         "group": "Conference"
     },
