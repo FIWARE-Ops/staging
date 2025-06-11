@@ -390,6 +390,16 @@ window.eventData = [
         "group": "Conference"
     },
     {
+        "id": "202506-uitp-summit",
+        "title": "UITP Summit",
+        "from": "2025-06-14T22:00:00.000Z",
+        "to": "2025-06-17T22:00:00.000Z",
+        "description": "One of the world’s leading events for public transport innovation and future mobility solutions.",
+        "location": "Hamburg Messe Messepl. 1, 20357, Hamburg ",
+        "isAllDay": true,
+        "group": "Summit"
+    },
+    {
         "id": "202506-un-open-source-week-2025",
         "title": "UN Open Source Week 2025",
         "from": "2025-06-15T22:00:00.000Z",
