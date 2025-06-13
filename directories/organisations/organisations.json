@@ -1091,23 +1091,6 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
-				"name": "Tech n&#x27;Change",
-				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/techn-change.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/techn-change.png' loading='lazy'/></picture></div></div>",
-					"<div class='org-name'>Tech n&#x27;Change</div>",
-					"<div class='membership-type'>Gold</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.technchange.net/' rel='noopener'><span class='icon website'></span></div>"
-				]
-			},
-			"geometry":{
-				"type":"Point",
-				"coordinates":[-3.9905218,5.370212]
-			}
-		},
-		{
-			"type":"Feature",
-			"properties":{
-				"type": "Organization",
 				"name": "Trigyn",
 				"html": [
 					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/trigyn-technologies.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/trigyn-technologies.png' loading='lazy'/></picture></div></div>",
@@ -1176,23 +1159,6 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
-				"name": "Urban Service Provider",
-				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/urban-sp.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/urban-sp.png' loading='lazy'/></picture></div></div>",
-					"<div class='org-name'>Urban Service Provider</div>",
-					"<div class='membership-type'>Gold</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://urbansp.city/' rel='noopener'><span class='icon website'></span></div>"
-				]
-			},
-			"geometry":{
-				"type":"Point",
-				"coordinates":[0,0]
-			}
-		},
-		{
-			"type":"Feature",
-			"properties":{
-				"type": "Organization",
 				"name": "VIA2MOOV",
 				"html": [
 					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/via2moov.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/via2moov.png' loading='lazy'/></picture></div></div>",
@@ -1238,23 +1204,6 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[2.29128,48.834721]
-			}
-		},
-		{
-			"type":"Feature",
-			"properties":{
-				"type": "Organization",
-				"name": "Vizzio Technologies",
-				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/vizzio.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/vizzio.png' loading='lazy'/></picture></div></div>",
-					"<div class='org-name'>Vizzio Technologies</div>",
-					"<div class='membership-type'>Gold</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://vizzio.ai/' rel='noopener'><span class='icon website'></span></div>"
-				]
-			},
-			"geometry":{
-				"type":"Point",
-				"coordinates":[0,0]
 			}
 		},
 		{
@@ -1629,23 +1578,6 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[7.4204463,43.7304828]
-			}
-		},
-		{
-			"type":"Feature",
-			"properties":{
-				"type": "Organization",
-				"name": "Mimpact Foundation",
-				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/mimpact-foundation.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/mimpact-foundation.png' loading='lazy'/></picture></div></div>",
-					"<div class='org-name'>Mimpact Foundation</div>",
-					"<div class='membership-type'>Gold SEU</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.mimpact.org/' rel='noopener'><span class='icon website'></span></div>"
-				]
-			},
-			"geometry":{
-				"type":"Point",
-				"coordinates":[0,0]
 			}
 		},
 		{
