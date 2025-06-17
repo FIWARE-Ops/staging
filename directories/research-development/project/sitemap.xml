@@ -53,6 +53,10 @@
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
+			<loc>https://www.fiware.org/project/cop-pilot.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
 			<loc>https://www.fiware.org/project/cyclops.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -62,6 +66,10 @@
 		</url>
 		<url>
 			<loc>https://www.fiware.org/project/deployemds.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/project/deploytour.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
 		<url>
