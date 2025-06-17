@@ -13,6 +13,7 @@ var departments = [
         'Completed',
         'Ongoing',
 ]; var domains = [
+        'Agriculture',
         'AgriFood',
         'Cities',
         'Data Spaces',
@@ -20,12 +21,15 @@ var departments = [
         'Energy',
         'Green Deal',
         'Industry',
+        'Logistics',
         'Manufacturing',
         'Mobility',
         'Robotics',
         'Security',
+        'Smart Buildings',
         'Smart Cities',
         'Smart Mobility',
+        'Tourism',
         'Water',
 ]; var countries = [
         'European Commission',
