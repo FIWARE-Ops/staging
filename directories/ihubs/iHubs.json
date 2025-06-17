@@ -129,6 +129,27 @@
 			"type":"Feature",
 			"properties":{
 				"type": "iHub",
+				"name": "Córdoba FIWARE Digital Transformation Lab",
+				"city": "Córdoba",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/ihubs/images/cordoba-fiware-ihub.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/cordoba-fiware-ihub.png' loading='lazy'/></picture></div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Córdoba</h3><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>Córdoba FIWARE Digital Transformation Lab</div>",
+					"<div class='ihub-type'>Advanced</div>",
+                	"<div class='chip-domain'><ul class='chips'><li>Smart Cities</li><li>Precision Agriculture and Livestock</li><li>Industry 4.0</li><li>Renewable Energies and Resources</li></ul><span class='chips-gradient'></span></div>"
+            		,
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.uco.es/atdfiware' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-4.793,37.88]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "iHub",
 				"name": "Detecon FIWARE iHub",
 				"city": "Cologne",
 				"html": [
@@ -549,6 +570,27 @@
 			"type":"Feature",
 			"properties":{
 				"type": "iHub",
+				"name": "LPSI-FIWARE-iHUB",
+				"city": "La Palma",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/ihubs/images/lps-fiware-ihub.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/lps-fiware-ihub.png' loading='lazy'/></picture></div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>La Palma</h3><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>LPSI-FIWARE-iHUB</div>",
+					"<div class='ihub-type'>Standard</div>",
+                	"<div class='chip-domain'><ul class='chips'><li>Smart Destinations</li></ul><span class='chips-gradient'></span></div>"
+            		,
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.lapalmasmartisland.es/oficina-smart/' rel='noopener'><span class='icon website'></span><a class='cat-twitter' target='_blank' href='https://twitter.com/lapalma_smart' rel='noopener'><span class='icon twitter'></span></a></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-17.767,28.683]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "iHub",
 				"name": "Madeira FIWARE iHub",
 				"city": "Funchal",
 				"html": [
@@ -793,6 +835,27 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[26.699,61.697]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "iHub",
+				"name": "Open Source Hub Vienna",
+				"city": "Vienna",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/ihubs/images/open-source-hub-vienna.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/open-source-hub-vienna.png' loading='lazy'/></picture></div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Vienna</h3><img alt='Austria' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Austria.png' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>Open Source Hub Vienna</div>",
+					"<div class='ihub-type'>Basic</div>",
+                	"<div class='chip-domain'><ul class='chips'><li>AI</li><li>Cities</li><li>Community</li><li>eGovernance</li><li>eHealth</li><li>Energy</li><li>Environment</li><li>Industry</li><li>Mobility</li><li>Robotics</li></ul><span class='chips-gradient'></span></div>"
+            		,
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://viennabusinessagency.at/' rel='noopener'><span class='icon website'></span><a class='cat-linkedin' target='_blank' href='https://www.linkedin.com/company/vienna-business-agency/' rel='noopener'><span class='icon linkedin'></span></a></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[16.353,48.196]
 			}
 		},
 		{
