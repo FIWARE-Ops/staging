@@ -460,13 +460,13 @@ window.eventData = [
         "group": "Webinar"
     },
     {
-        "id": "202506-la-case-agri-technology-bootcamp",
+        "id": "202507-la-case-agri-technology-bootcamp",
         "title": "La Case Agri Technology Bootcamp",
-        "from": "2025-06-30T22:00:00.000Z",
-        "to": "2025-07-03T22:00:00.000Z",
+        "from": "2025-07-01T07:00:00.000Z",
+        "to": "2025-07-04T14:00:00.000Z",
         "description": "Data and AI Bootcamp for Agriculture",
         "location": "CEDITECH rue J9 ",
-        "isAllDay": true,
+        "isAllDay": false,
         "group": "Training"
     },
     {
