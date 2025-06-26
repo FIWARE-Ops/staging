@@ -159,7 +159,9 @@ function wrapEventBrite(id, event) {
     return;
   }
 
-  if (event.website ===  event.onlineLink) {
+  if (event.website === ""){
+    $(id).remove();
+  } else if (event.website ===  event.onlineLink) {
     $(id).attr("href", event.website);
     $(id).attr("target", "_blank");
     $(id).text("Session URL");
@@ -169,7 +171,7 @@ function wrapEventBrite(id, event) {
     $(id).attr("href", event.website);
     $(id).attr("target", "_blank");
     $(id).text("Website");
-  } 
+  }
 }
 
 function wrapEventDetails(event) {
