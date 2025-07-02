@@ -470,6 +470,16 @@ window.eventData = [
         "group": "Training"
     },
     {
+        "id": "202509-swiss-data-space-forum",
+        "title": "Swiss Data Space Forum",
+        "from": "2025-09-02T07:00:00.000Z",
+        "to": "2025-09-02T17:00:00.000Z",
+        "description": "Swiss Data Space Forum: Building innovation and resilience through trustworthy data spaces.",
+        "location": "Campus HSLU Rotkreuz Suurstoffi 1 CH-6343 ",
+        "isAllDay": false,
+        "group": "Conference"
+    },
+    {
         "id": "202509-smart-country-convention",
         "title": "Smart Country Convention",
         "from": "2025-09-29T22:00:00.000Z",
