@@ -107,6 +107,23 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "AI.Connect",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/aiconnect.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/aiconnect.png' loading='lazy'/></picture></div></div>",
+					"<div class='org-name'>AI.Connect</div>",
+					"<div class='membership-type'>Gold</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='http://ai-connect.global/' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-74.012901,40.705328]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
 				"name": "Aizatron",
 				"html": [
 					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/aizatron.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/aizatron.png' loading='lazy'/></picture></div></div>",
