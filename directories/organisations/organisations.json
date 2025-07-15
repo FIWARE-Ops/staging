@@ -5,23 +5,6 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
-				"name": "Atos",
-				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/atos.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/atos.png' loading='lazy'/></picture></div></div>",
-					"<div class='org-name'>Atos</div>",
-					"<div class='membership-type'>Platinum</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://atos.net/en/' rel='noopener'><span class='icon website'></span></div>"
-				]
-			},
-			"geometry":{
-				"type":"Point",
-				"coordinates":[2.2207206,48.9244709]
-			}
-		},
-		{
-			"type":"Feature",
-			"properties":{
-				"type": "Organization",
 				"name": "Madinah Region Development Authority",
 				"html": [
 					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/mrda.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/mrda.png' loading='lazy'/></picture></div></div>",
@@ -169,6 +152,23 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[4.3641469,50.8491816]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
+				"name": "Atos",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/atos.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/atos.png' loading='lazy'/></picture></div></div>",
+					"<div class='org-name'>Atos</div>",
+					"<div class='membership-type'>Gold</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://atos.net/en/' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[2.2207206,48.9244709]
 			}
 		},
 		{
