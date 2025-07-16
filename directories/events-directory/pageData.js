@@ -470,6 +470,16 @@ window.eventData = [
         "group": "Training"
     },
     {
+        "id": "202507-tsdsi-tech-deep-dive--ttdd--conference",
+        "title": "TSDSI Tech Deep Dive (TTDD) Conference",
+        "from": "2025-07-14T22:00:00.000Z",
+        "to": "2025-07-17T22:00:00.000Z",
+        "description": "Standardising 6G: Architecting Intelligent, Secure, and Sustainable Networks &amp; Services",
+        "location": "Online",
+        "isAllDay": true,
+        "group": "Conference"
+    },
+    {
         "id": "202507-smart-metropolis-fiware-ihub-summit-2025",
         "title": "Smart Metropolis FIWARE iHub Summit 2025",
         "from": "2025-07-20T22:00:00.000Z",
