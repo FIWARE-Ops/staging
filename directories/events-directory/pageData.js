@@ -470,6 +470,16 @@ window.eventData = [
         "group": "Training"
     },
     {
+        "id": "202507-smart-metropolis-fiware-ihub-summit-2025",
+        "title": "Smart Metropolis FIWARE iHub Summit 2025",
+        "from": "2025-07-20T22:00:00.000Z",
+        "to": "2025-07-21T22:00:00.000Z",
+        "description": "A national summit on smart cities and innovative public management.",
+        "location": "Instituto Metrópole Digital Campus Universitário Central da UFRN - Av. Cap. Mor Gouveia, S/N - Lagoa Nova, 59078-900 ",
+        "isAllDay": true,
+        "group": "Summit"
+    },
+    {
         "id": "202509-swiss-data-space-forum",
         "title": "Swiss Data Space Forum",
         "from": "2025-09-02T07:00:00.000Z",
