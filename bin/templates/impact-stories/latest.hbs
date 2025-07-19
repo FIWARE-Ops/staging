@@ -2,11 +2,28 @@
 
     <div id="is-image" class="et_pb_module et_pb_image et_pb_image_2">
         <a href="{{website}}">
-            <span class="et_pb_image_wrap "><img class="is-featured-image" decoding="async" fetchpriority="high" width="970"
-                height="745" src="{{img}}" alt=""
-                title="{{name}}"
-                srcset="{{img}} 970w, {{thumbnail}} 300w, {{thumbnail}} 768w, {{thumbnail}} 610w, {{thumbnail}} 480w"
-                sizes="(max-width: 970px) 100vw, 970px" class="wp-image" /></span>
+            <span class="et_pb_image_wrap ">
+                <picture>
+                    <source media="(min-width: 970px)" 
+                        srcset="{{webp img}}"
+                        type="image/webp">
+                    <source media="(max-width: 970px)"
+                        srcset="{{webp thumbnail}}" 
+                        type="image/webp">
+                    <source media="(min-width: 970px)"
+                        srcset="{{img}}" 
+                        type="image/png">
+                    <source media="(max-width: 970px)"
+                        srcset="{{thumb}}" 
+                        type="image/png">
+                    <img class="is-featured-image" 
+                        decoding="async" fetchpriority="high" 
+                        width="970" height="745" src="{{img}}" alt=""
+                        title="{{name}}"
+                        srcset="{{img}} 970w, {{thumbnail}} 300w, {{thumbnail}} 768w, {{thumbnail}} 610w, {{thumbnail}} 480w"
+                        sizes="(max-width: 970px) 100vw, 970px" class="wp-image" />
+                </picture>
+            </span>
         </a>
     </div>
 </div>
