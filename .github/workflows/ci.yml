@@ -3,6 +3,12 @@ on:
   push:
     branches:
       - main
+    paths:
+      - '**.jpg'
+      - '**.jpeg'
+      - '**.png'
+      - '**.webp'
+      - '**.pdf'
   workflow_dispatch:
 
 jobs:
@@ -12,6 +18,12 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v3
+    - name: Compress Images
+      uses: calibreapp/image-actions@main
+      continue-on-error: true
+      with:
+        githubToken: ${{ secrets.GITHUB_TOKEN }}
+        compressOnly: true
     - name: Check assets
       continue-on-error: true
       run: |
