@@ -18,6 +18,7 @@ jobs:
       with:
         githubToken: ${{ secrets.GITHUB_TOKEN }}
         compressOnly: true
+        ignorePaths: 'directories/**'
     - name: Check assets
       continue-on-error: true
       run: |
