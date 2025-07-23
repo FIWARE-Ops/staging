@@ -55,7 +55,6 @@ var companies = [
 ]; var departments = [
 ]; var domains = [
 ]; var titles = [
-        'Admin',
         'Assistant Professor',
         'Associate General Manager',
         'Business Development Manager',
@@ -139,7 +138,7 @@ var companies = [
     { name: "Chandra Challagonda", img: "https://www.fiware.org/wp-content/directories/people/images/200px/chandra-challagonda.jpg", position: "CEO", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
     content: "Chandra Challagonda (m) is Senior Architect at FIWARE Foundation in Germany. Chandra holds a Masters in Software Engineering degree from 1999 - 2002. Chandra comes with nearly 25 years of experience in software development, integration projects and software product management. He worked for Ericsson and Nokia in various technical and non-technical roles in Network infrastructure and smartphones for 15 years. Chandra has been an active member of the FIWARE community since 2015 and joined FIWARE Foundation in 2019. In FIWARE Foundation, Chandra is the platform architect for SmartMaaS and IMPRESS projects funded by the German Federal government. Before joining FIWARE Foundation, he was part of the team which created a digital twin for Helsinki Transportation.", linkedin: "https://linkedin.com/in/challagonda", twitter: "https://twitter.com/challagonda", domain: "", location: ""
     },
-    { name: "Josė Checa Claudel", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jose-checa-claudel.jpg", position: "Coordinator of FIWARE Digital Transformation Lab at the University of Córdoba", company: "FIWARE Digital Transformation Lab at the University of Córdoba", "company-link": "https://www.uco.es/atdfiware/",
+    { name: "Josė Checa Claudel", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jose-checa-claudel.jpg", position: "Coordinator", company: "FIWARE Digital Transformation Lab at the University of Córdoba", "company-link": "https://www.uco.es/atdfiware/",
     content: "I have been disseminating FIWARE technology within the university community, local administrations and research projects for more than four years. I believe that we are one of the Universities that has the most movement disseminating this technology in Spain, especially in the agri-food environment and smart cities.", linkedin: "https://www.linkedin.com/in/jcheca", twitter: "https://twitter.com/abbasben", domain: "", location: ""
     },
     { name: "Andrea Chiancone", img: "https://www.fiware.org/wp-content/directories/people/images/200px/andrea-chiancone.jpg", position: "Product Manager", company: "Agricolus", "company-link": "https://www.agricolus.com/",
@@ -163,7 +162,7 @@ var companies = [
     { name: "Vincent Demortier", img: "https://www.fiware.org/wp-content/directories/people/images/200px/vincent-demortier.jpg", position: "President", company: "Faubourg Numérique", "company-link": "http://faubourgnumerique.com/",
     content: "Vincent has multiple professional experiences in developing and deploying digital solutions: originally in industrial logistics within the automotive industry and in the food &amp; beverage industry, then as consultant for a wide variety of SMEs and finally as entrepreneur involved in the creation of new businesses. In order to contribute to the development of its regional innovative ecosystem to support the digital transition and innovation, in 2014, Vincent co-founded the association Faubourg Numérique, of which he is now president. With this entrepreneurial impulse, Faubourg Numérique is committed to the FIWARE initiative as an Innovation Hub and involved in the future EDIH Sumity. Vincent is a certified FIWARE expert, i4Trust LEBD, and DIH2 LER.", linkedin: "https://www.linkedin.com/in/vincent-demortier-fr/", twitter: "https://twitter.com/VincDemortier", domain: "", location: ""
     },
-    { name: "Bhushan", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "IT Admin", company: "Cubilock", "company-link": "https://cubilock.com/",
+    { name: "Bhushan", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "", company: "Cubilock", "company-link": "https://cubilock.com/",
     content: "I&#x27;m an IT Admin with a passion for navigating the intricate landscape of technology. Specializing in what is kiosk mode and MDM geofencing setups, I thrive on crafting seamless user experiences. My expertise extends to MDM migration, ensuring a smooth transition for efficient device management. With a keen eye for detail, I excel in implementing kiosk browser lockdown mode, guaranteeing a secure and controlled environment. Whether troubleshooting tech hiccups or orchestrating intricate migrations, I bring a blend of precision and innovation to the realm of IT administration. Committed to staying at the forefront of advancements, I&#x27;m your go-to professional for a tech-savvy future.", linkedin: "", twitter: "", domain: "", location: ""
     },
     { name: "Gianluca Dianese", img: "https://www.fiware.org/wp-content/directories/people/images/200px/gianluca-dianese.jpg", position: "Senior Program Management Specialist", company: "European Medicines Agency", "company-link": "https://www.ema.europa.eu/en/homepage",
@@ -271,7 +270,7 @@ var companies = [
     { name: "Francisco Javier Peralta López", img: "https://www.fiware.org/wp-content/directories/people/images/200px/francisco-javier-peralta-lopez.jpg", position: "Project Manager", company: "Telefónica S.A.", "company-link": "https://www.telefonica.com/en/",
     content: "", linkedin: "https://www.linkedin.com/in/fjperalta/", twitter: "", domain: "", location: ""
     },
-    { name: "Clara Pezuela", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Strategic Alliances &amp; Positioning Director", company: "ITI", "company-link": "https://www.iti.es/",
+    { name: "Clara Pezuela", img: "https://www.fiware.org/wp-content/directories/people/images/200px/clara-pezuela.jpg", position: "Strategic Alliances &amp; Positioning Director", company: "ITI", "company-link": "https://www.iti.es/",
     content: "", linkedin: "https://www.linkedin.com/in/clara-pezuela-2b1257?miniProfileUrn&#x3D;urn%3Ali%3Afs_miniProfile%3AACoAAAAJXeUByJViy_bQUkqBXUxI3HS2Pdb2RBk&amp;lipi&#x3D;urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3B%2BngOQZYERi%2BZUc8YngVUJQ%3D%3D", twitter: "", domain: "", location: ""
     },
     { name: "Irene Provvidenza", img: "https://www.fiware.org/wp-content/directories/people/images/200px/irene-provvidenza.jpg", position: "International Business Developer", company: "TeamDev SRL", "company-link": "https://teamdevecosystem.it/en/",
