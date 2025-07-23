@@ -9,12 +9,11 @@ var companies = [
         'Berlin Thinking Consulting',
         'BluSky Consulting',
         'City of Herne',
-        'City of Vienna',
         'Cubilock',
-        'DigitalTwin Technology',
         'ECOEMBES',
         'Engineering',
-        'EPPO',
+        'European Medicines Agency
+',
         'Faubourg Numérique',
         'FIWARE',
         'FIWARE Digital Transformation Lab at the University of Córdoba',
@@ -44,6 +43,7 @@ var companies = [
         'Polytechnic School of the University of São Paulo',
         'Poznan Supercomputing and Networking Center',
         'Red Hat',
+        'Seamware',
         'Secmotic',
         'TeamDev',
         'TeamDev SRL',
@@ -52,23 +52,21 @@ var companies = [
         'ThoughtLab Group',
         'Universidad Politécnica de Madrid',
         'Vienna Business Agency',
-        'WOBCOM',
 ]; var departments = [
 ]; var domains = [
 ]; var titles = [
+        'Admin',
         'Assistant Professor',
         'Associate General Manager',
         'Business Development Manager',
         'CDO',
-        'CDTO',
         'CEO',
         'Chief Architect',
         'Cloud Expert',
         'Co-Founder',
+        'Co-founder',
         'Community Architect',
         'Consultant',
-        'COO',
-        'Coordinator',
         'CSO',
         'CTO',
         'Deputy Director',
@@ -85,10 +83,11 @@ var companies = [
         'President',
         'Product Manager',
         'Professor',
+        'Program Manager',
         'Project Manager',
         'Researcher',
+        'Retired',
         'Software Architect',
-        'Solution Architect',
         'Technical Expert',
 ]; var countries = [
 ]; var modalData = [
@@ -101,7 +100,7 @@ var companies = [
     { name: "Dr. Álvaro Alonso", img: "https://www.fiware.org/wp-content/directories/people/images/200px/alvaro-alonso.jpg", position: "Assistant Professor", company: "Universidad Politécnica de Madrid", "company-link": "https://www.upm.es/internacional",
     content: "Álvaro Alonso is currently an Assistant Professor with the UPM. His research interests include Multi Video Conferencing Systems, Security Management in Smart Context scenarios, and Public Open Data.", linkedin: "https://www.linkedin.com/in/alvaroalonsogonzalez", twitter: "", domain: "", location: ""
     },
-    { name: "Joseph Appleton", img: "https://www.fiware.org/wp-content/directories/people/images/200px/joseph-appleton.jpg", position: "Editorial Director", company: "bee smart city GmbH", "company-link": "https://beesmart.city",
+    { name: "Joe Appleton", img: "https://www.fiware.org/wp-content/directories/people/images/200px/joseph-appleton.jpg", position: "Editorial Director", company: "bee smart city GmbH", "company-link": "https://beesmart.city",
     content: "Over the past few years, I have had the pleasure of working with former FIWARE CEO Ulrich Ahle. I was instrumental inviting Ulrich to Central Eastern Europe to plant the seed of FIWARE into the minds of organisations and governments in Poland. I have also worked closely with FIWARE&#x27;s communication department, working together on publications, shared content, and press releases. As a guest at the FIWARE Global Summit in Vienna in 2023, I was able to network with other FIWARE members and develop strong business relationships with key figures from Amazon Web Services, Atos, Red Hat, DKSR, and many more. Thanks to my position as an &quot;unofficial&quot; FIWARE member, I have been able to view the Foundation from an outsider&#x27;s perspective and develop my own positive opinions about the organisation and everything that it stands for. I hope to spread the FIWARE gospel for many years to come and preach the importance of open source, open standards, interoperability, and the necessity of breaking silos for the greater good of the urban community.", linkedin: "https://www.linkedin.com/in/joe-appleton1/", twitter: "https://twitter.com/JoeAppleton19", domain: "", location: ""
     },
     { name: "Dario Avallone", img: "https://www.fiware.org/wp-content/directories/people/images/200px/dario-avallone.jpg", position: "Independent consultant", company: "", "company-link": "",
@@ -137,17 +136,14 @@ var companies = [
     { name: "Lou Celi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/lou-celi.jpg", position: "CEO", company: "ThoughtLab", "company-link": "https://www.thoughtlabgroup.com",
     content: "I have worked with FIWARE for the last five years. ThoughtLab is a global research firms that specializes on the impact of technology on government and business. Every 18 months, we conduct a major benchmarking study on how cities around the world use technology and innovative solutions to drive their future. We have a relationship with FIWARE where we but provide advice, contacts, and research to one another. With my company based in the US, we have the capabilities to help FIWARE expand in this part of the world.", linkedin: "https://www.linkedin.com/in/louceli/", twitter: "", domain: "", location: ""
     },
-    { name: "Chandra Challagonda", img: "https://www.fiware.org/wp-content/directories/people/images/200px/chandra-challagonda.jpg", position: "Solution Architect", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
+    { name: "Chandra Challagonda", img: "https://www.fiware.org/wp-content/directories/people/images/200px/chandra-challagonda.jpg", position: "CEO", company: "FIWARE Foundation", "company-link": "https://www.fiware.org/",
     content: "Chandra Challagonda (m) is Senior Architect at FIWARE Foundation in Germany. Chandra holds a Masters in Software Engineering degree from 1999 - 2002. Chandra comes with nearly 25 years of experience in software development, integration projects and software product management. He worked for Ericsson and Nokia in various technical and non-technical roles in Network infrastructure and smartphones for 15 years. Chandra has been an active member of the FIWARE community since 2015 and joined FIWARE Foundation in 2019. In FIWARE Foundation, Chandra is the platform architect for SmartMaaS and IMPRESS projects funded by the German Federal government. Before joining FIWARE Foundation, he was part of the team which created a digital twin for Helsinki Transportation.", linkedin: "https://linkedin.com/in/challagonda", twitter: "https://twitter.com/challagonda", domain: "", location: ""
     },
-    { name: "Josė Checa Claudel", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jose-checa-claudel.jpg", position: "Coordinator of FiWare Digital Transformation Lab at the University of Córdoba", company: "FIWARE Digital Transformation Lab at the University of Córdoba", "company-link": "https://www.uco.es/atdfiware/",
+    { name: "Josė Checa Claudel", img: "https://www.fiware.org/wp-content/directories/people/images/200px/jose-checa-claudel.jpg", position: "Coordinator of FIWARE Digital Transformation Lab at the University of Córdoba", company: "FIWARE Digital Transformation Lab at the University of Córdoba", "company-link": "https://www.uco.es/atdfiware/",
     content: "I have been disseminating FIWARE technology within the university community, local administrations and research projects for more than four years. I believe that we are one of the Universities that has the most movement disseminating this technology in Spain, especially in the agri-food environment and smart cities.", linkedin: "https://www.linkedin.com/in/jcheca", twitter: "https://twitter.com/abbasben", domain: "", location: ""
     },
     { name: "Andrea Chiancone", img: "https://www.fiware.org/wp-content/directories/people/images/200px/andrea-chiancone.jpg", position: "Product Manager", company: "Agricolus", "company-link": "https://www.agricolus.com/",
     content: "", linkedin: "https://www.linkedin.com/in/andrea-chiancone-a3495a5/", twitter: "https://twitter.com/Antonio_Jara", domain: "", location: ""
-    },
-    { name: "Giovanni Coppa", img: "https://www.fiware.org/wp-content/directories/people/images/200px/giovanni-coppa.jpg", position: "Coordinator Astrid iHub", company: "WOBCOM", "company-link": "https://www.wobcom.de/",
-    content: "More than 10 years of experience in Data Center and digital transformation. I am passionate about energy efficiency and environmental friendly technologies, with a strong interest in digital revolution and strategic innovation.", linkedin: "https://www.linkedin.com/in/giovannicoppa/", twitter: "https://twitter.com/korematic", domain: "", location: ""
     },
     { name: "Andrea Cruciani", img: "https://www.fiware.org/wp-content/directories/people/images/200px/andrea-cruciani.jpg", position: "Co-Founder &amp; Chief Executive Officer", company: "TeamDev", "company-link": "https://www.teamdev.it/en/",
     content: "Andrea is the Agricolus co-founder and CEO, member of FIWARE Foundation BoD, Chairman of the FIWARE Smart AgriFood MSC. He runs the international business area and the financial aspects of the company and he has a technical background and experience in applications Development, Enterprise Architectures, Cloud Computing, and GIS. Andrea is involved in Innovative Startup Evolution and scaleup, during the years he worked with Public Administration, multinational companies, NGOs, and SMEs. He is a speaker for several universities and public events where he is invited to discuss entrepreneurship and digital transformation, and he is a contributor in several technical articles and publications about agritech.", linkedin: "https://www.linkedin.com/in/andreacruciani/", twitter: "https://twitter.com/kokkete", domain: "", location: ""
@@ -158,7 +154,7 @@ var companies = [
     { name: "Gabriele De Luca", img: "https://www.fiware.org/wp-content/directories/people/images/200px/gabriele-de-luca.jpg", position: "Senior Researcher", company: "Engineering", "company-link": "https://www.eng.it/en/",
     content: "Gabriele De Luca graduated as Doctor with Laude in Computer Engineering from the University of Salento. He has been working in the R&amp;D Lab for Engineering Ingegneria Informatica S.p.A. since 2014 as part of the “Digital Industry and Agrifood” Unit. He has been involved in different Italian and European research projects playing several roles, such as software developer, solution designer, system architect and information expert. Currently, he acts as Technology Manager and Team Leader. The main application fields are Advanced Manufacturing, Smart Farming, Supply Chain Management, Operational Intelligence, Artificial Intelligence, Internet of Things and Food Safety whereas the main activities are correlated to Event Processing, Sensor Data Processing (OGC standards such as Sensor Web Enablement), Decision Support Systems, Internet of Things (mainly in the FIWARE context), Data Sovereignty and Data Spaces (IDSA-based). His relevant expertise and experiences include Architecture Design, System Integration, and Collaborative Working Environment, from both software engineering and technological points of view. Main research fields are applied to Digital Industry, including Operational Intelligence (especially in Complex Event Processing and Process Mining), Supply Chain Integration, and so on.", linkedin: "https://www.linkedin.com/in/gabriele-de-luca-b4132861/", twitter: "https://twitter.com/gabrielede_luca", domain: "", location: ""
     },
-    { name: "Stefano De Panfilis", img: "https://www.fiware.org/wp-content/directories/people/images/200px/stefano-depanfilis.jpg", position: "Chief Operations Officer", company: "FIWARE Foundation e.V.", "company-link": "https://www.fiware.org/",
+    { name: "Stefano De Panfilis", img: "https://www.fiware.org/wp-content/directories/people/images/200px/stefano-depanfilis.jpg", position: "Retired", company: "", "company-link": "",
     content: "Stefano de Panfilis (m) is the Chief Operating Officer at FIWARE Foundation. He graduated cum laude in Mathematics at the University of Rome “La Sapienza”. In 1984, he was hired in Engineering Ingegneria Informatica S.P.A as a software engineer. In 1986, he became Project Manager to then move to the R&amp;D department managing the “Formal Methods” unit. In 1993, he supported Engineering to receive the ISO-9001 compliancy. From 1994, he was involved in European R&amp;D. He coordinated SeCSE (IST 6FP), aiming at implement a platform for Service-Centric Systems Engineering, CBSEnet (IST-5FP NoE), CLARiFi (IST 5FP), DOOR (ESPRIT 4FP), SQUAD (INCO-DC), and VALSE (TV&amp;TT) projects, and the ENG- SODEPRO, DECO’ and DOMINARE ESSI Process Improvement Experiments. He also coordinated QualiPSo (IST 6FP) aiming at leverage Open Source Software development to recognised industrial standards, leading a consortium of 20 partners from Europe, Brazil and China. He actively participated to create and set-up the NESSI ETP of which he is the Coordinator of the Strategic Research Agenda Committee. Since 2017, he is employed by FIWARE Foundation as Chief Operations Officer.", linkedin: "https://www.linkedin.com/in/stefano-de-panfilis-1928a11/", twitter: "https://twitter.com/depa01", domain: "", location: ""
     },
     { name: "Cara Delia", img: "https://www.fiware.org/wp-content/directories/people/images/200px/cara-delia.jpg", position: "Principal Community Architect", company: "Red Hat", "company-link": "https://www.redhat.com/en",
@@ -170,7 +166,8 @@ var companies = [
     { name: "Bhushan", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "IT Admin", company: "Cubilock", "company-link": "https://cubilock.com/",
     content: "I&#x27;m an IT Admin with a passion for navigating the intricate landscape of technology. Specializing in what is kiosk mode and MDM geofencing setups, I thrive on crafting seamless user experiences. My expertise extends to MDM migration, ensuring a smooth transition for efficient device management. With a keen eye for detail, I excel in implementing kiosk browser lockdown mode, guaranteeing a secure and controlled environment. Whether troubleshooting tech hiccups or orchestrating intricate migrations, I bring a blend of precision and innovation to the realm of IT administration. Committed to staying at the forefront of advancements, I&#x27;m your go-to professional for a tech-savvy future.", linkedin: "", twitter: "", domain: "", location: ""
     },
-    { name: "Gianluca Dianese", img: "https://www.fiware.org/wp-content/directories/people/images/200px/gianluca-dianese.jpg", position: "Digital Transformation Officer", company: "EPPO", "company-link": "https://www.eppo.europa.eu/en",
+    { name: "Gianluca Dianese", img: "https://www.fiware.org/wp-content/directories/people/images/200px/gianluca-dianese.jpg", position: "Senior Program Management Specialist", company: "European Medicines Agency
+", "company-link": "https://www.ema.europa.eu/en/homepage",
     content: "", linkedin: "https://www.linkedin.com/in/gianlucadianese/", twitter: "https://twitter.com/gdianese", domain: "", location: ""
     },
     { name: "Daniele Diodati", img: "https://www.fiware.org/wp-content/directories/people/images/200px/daniele-diodati.jpg", position: "ML Specialist", company: "TeamDev", "company-link": "https://www.teamdev.it/en/",
@@ -203,7 +200,7 @@ var companies = [
     { name: "Pierre Herbe", img: "https://www.fiware.org/wp-content/directories/people/images/200px/pierre-herbe.jpg", position: "Chief Digital Officer", company: "City of Herne", "company-link": "https://www.herne.de/",
     content: "After getting his diploma as a public administration specialist, Pierre joined the city as an organizational developer and change manager. Since 2013, he has been working on projects focused on digitization and process management, and, at the age of 31, Pierre is the city’s youngest CDO to date. Pierre is also a lecturer in E-Government, Digitization, and Knowledge Management (among other areas) and feels that being able to combine science, economy and public management adds considerably to his career and role within the city.", linkedin: "https://www.linkedin.com/in/pierre-golz-311396156/", twitter: "", domain: "", location: ""
     },
-    { name: "Juanjo Hierro", img: "https://www.fiware.org/wp-content/directories/people/images/200px/juanjo-hierro.jpg", position: "", company: "Telefónica S.A.", "company-link": "https://www.telefonica.com/en/",
+    { name: "Juanjo Hierro", img: "https://www.fiware.org/wp-content/directories/people/images/200px/juanjo-hierro.jpg", position: "Co-founder &amp; Chief Strategic Officer", company: "Seamware", "company-link": "https://www.seamware.org/",
     content: "Juanjo Hierro (m) obtained a degree in Computer Science in 1990 from the Universidad Politecnica de Madrid (UPM) and owns a certificate of research proficiency. In 1990, Juanjo joined Telefónica I+D where he stayed until he joined FIWARE Foundation. During his career at Telefónica, Juanjo had different management responsibilities in the development of mission-critical systems for Telefónica as well as several R&amp;D projects. In April 2011, he became the Chief Architect of the FIWARE programme combining this role with the one of the CTO of the IoT Division at Telefónica R&amp;D since November 2013. Juanjo plays the role of Chairman of the Technical Steering Committee which drives the technical direction of the FIWARE open source platform.", linkedin: "https://www.linkedin.com/in/jhierro/", twitter: "https://twitter.com/JuanjoHierro", domain: "", location: ""
     },
     { name: "Gabriel Huecas", img: "https://www.fiware.org/wp-content/directories/people/images/200px/gabriel-huecas.jpg", position: "Deputy Director", company: "Universidad Politécnica de Madrid", "company-link": "https://www.upm.es/internacional",
@@ -233,7 +230,7 @@ var companies = [
     { name: "Miguel López Corbacho", img: "https://www.fiware.org/wp-content/directories/people/images/200px/miguel-lopez-corbacho.jpg", position: "Consultant", company: "FIWARE Space", "company-link": "https://fiware.space/",
     content: "Miguel López Corbacho is a facilitator at the FIWARE Space Premium FIWARE iHub. He has participated in several international events (including IOTSWC, SCEWC, and 2022 FIWARE Global Summit). In addition, he runs weekly training events on FIWARE technologies; and he is in contact with the local, regional and national innovation and entrepreneurial ecosystem, with a view to helping companies and administrations adopt FIWARE Standards. In this regard, it’s worth noting that six different products in the FIWARE Marketplace applied there after participating in our Mentorship Programme.", linkedin: "https://www.linkedin.com/in/miguellcorb/", twitter: "", domain: "", location: ""
     },
-    { name: "Brigitte Lutz", img: "https://www.fiware.org/wp-content/directories/people/images/200px/brigitte-lutz.jpg", position: "Data Governance Coordinator", company: "City of Vienna", "company-link": "https://www.wien.gv.at/english/",
+    { name: "Brigitte Lutz", img: "https://www.fiware.org/wp-content/directories/people/images/200px/brigitte-lutz.jpg", position: "Retired", company: "", "company-link": "",
     content: "", linkedin: "https://www.linkedin.com/in/brigitte-lutz-52a76955/", twitter: "https://twitter.com/brigittelutz", domain: "", location: ""
     },
     { name: "Sara Madariaga", img: "https://www.fiware.org/wp-content/directories/people/images/200px/sara-madariaga.jpg", position: "Head of Arsys Lab", company: "Arsys", "company-link": "https://www.arsys.net/",
@@ -301,9 +298,6 @@ var companies = [
     },
     { name: "Sanaa Tazi", img: "https://www.fiware.org/wp-content/directories/people/images/200px/sanaa-tazi.jpg", position: "CEO &amp; Co-Finder", company: "African Smart Territories", "company-link": "https://mnc.ma/en/accueil-english/",
     content: "Moroccan &amp; African Digital hub and innovation booster : helps start-ups by providing free trainings, technical assistance, calls for applications, technology innovation support, events and networking. Helps the biggest with technology innovation support to succeed in their digital transformation. Try to change minds by empowering African Women in Tech and strengthening Minority small businesses.", linkedin: "https://www.linkedin.com/in/sanaa-tazi-15579174/", twitter: "https://twitter.com/sanaa_tazi_", domain: "", location: ""
-    },
-    { name: "Rahul Tomar", img: "https://www.fiware.org/wp-content/directories/people/images/200px/rahul-tomar.jpg", position: "Co-Founder", company: "DigitalTwin Technology", "company-link": "https://www.digitaltwin.technology/",
-    content: "", linkedin: "https://www.linkedin.com/in/rahultomarpmp/", twitter: "https://twitter.com/rahul_606", domain: "", location: ""
     },
     { name: "Gaetano Volpe", img: "https://www.fiware.org/wp-content/directories/people/images/200px/gaetano-volpe.jpg", position: "CEO", company: "Latitudo 40", "company-link": "https://www.latitudo40.com",
     content: "Gaetano Volpe, as the CEO of Latitudo 40 and an expert in space and smart cities solutions, likely considers himself a potential FIWARE Evangelist due to his extensive experience and expertise in fields closely aligned with FIWARE&#x27;s goals. FIWARE focuses on developing open-source standards for smart solutions in various sectors, including cities and space technology, which aligns well with the work Volpe does at Latitudo 40. Being deeply involved in leveraging geospatial data analytics for urban planning and environmental monitoring, Volpe&#x27;s expertise positions him well to advocate for FIWARE’s open, standards-based platforms. His role at Latitudo 40 likely involves working with technologies and principles that are at the core of FIWARE&#x27;s mission, such as IoT, AI, and big data, all crucial for smart city applications and space-based data analysis. As a recognized FIWARE Evangelist, Volpe would have the opportunity to further promote the integration of open-source technologies in smart city and space solutions, influencing wider adoption and innovation in these sectors. His background and leadership in a company that specializes in cutting-edge geospatial analytics make him a strong candidate for such a role, where he can share insights, foster collaborations, and drive forward the vision of a more interconnected and intelligent approach to urban and environmental challenges.", linkedin: "https://www.linkedin.com/in/dario-avallone-428934a/", twitter: "", domain: "", location: ""
