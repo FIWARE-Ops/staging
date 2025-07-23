@@ -29,6 +29,7 @@ var companies = [
         'IOTA Foundation',
         'iP-NETs',
         'ITAM',
+        'ITI',
         'JIG',
         'Latitudo 40',
         'Libelium',
@@ -269,6 +270,9 @@ var companies = [
     },
     { name: "Francisco Javier Peralta López", img: "https://www.fiware.org/wp-content/directories/people/images/200px/francisco-javier-peralta-lopez.jpg", position: "Project Manager", company: "Telefónica S.A.", "company-link": "https://www.telefonica.com/en/",
     content: "", linkedin: "https://www.linkedin.com/in/fjperalta/", twitter: "", domain: "", location: ""
+    },
+    { name: "Clara Pezuela", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Strategic Alliances &amp; Positioning Director", company: "ITI", "company-link": "https://www.iti.es/",
+    content: "", linkedin: "https://www.linkedin.com/in/clara-pezuela-2b1257?miniProfileUrn&#x3D;urn%3Ali%3Afs_miniProfile%3AACoAAAAJXeUByJViy_bQUkqBXUxI3HS2Pdb2RBk&amp;lipi&#x3D;urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3B%2BngOQZYERi%2BZUc8YngVUJQ%3D%3D", twitter: "", domain: "", location: ""
     },
     { name: "Irene Provvidenza", img: "https://www.fiware.org/wp-content/directories/people/images/200px/irene-provvidenza.jpg", position: "International Business Developer", company: "TeamDev SRL", "company-link": "https://teamdevecosystem.it/en/",
     content: "", linkedin: "https://www.linkedin.com/in/irene-provvidenza/", twitter: "", domain: "", location: ""
