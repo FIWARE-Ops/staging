@@ -12,8 +12,7 @@ var companies = [
         'Cubilock',
         'ECOEMBES',
         'Engineering',
-        'European Medicines Agency
-',
+        'European Medicines Agency',
         'Faubourg Numérique',
         'FIWARE',
         'FIWARE Digital Transformation Lab at the University of Córdoba',
@@ -166,8 +165,7 @@ var companies = [
     { name: "Bhushan", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "IT Admin", company: "Cubilock", "company-link": "https://cubilock.com/",
     content: "I&#x27;m an IT Admin with a passion for navigating the intricate landscape of technology. Specializing in what is kiosk mode and MDM geofencing setups, I thrive on crafting seamless user experiences. My expertise extends to MDM migration, ensuring a smooth transition for efficient device management. With a keen eye for detail, I excel in implementing kiosk browser lockdown mode, guaranteeing a secure and controlled environment. Whether troubleshooting tech hiccups or orchestrating intricate migrations, I bring a blend of precision and innovation to the realm of IT administration. Committed to staying at the forefront of advancements, I&#x27;m your go-to professional for a tech-savvy future.", linkedin: "", twitter: "", domain: "", location: ""
     },
-    { name: "Gianluca Dianese", img: "https://www.fiware.org/wp-content/directories/people/images/200px/gianluca-dianese.jpg", position: "Senior Program Management Specialist", company: "European Medicines Agency
-", "company-link": "https://www.ema.europa.eu/en/homepage",
+    { name: "Gianluca Dianese", img: "https://www.fiware.org/wp-content/directories/people/images/200px/gianluca-dianese.jpg", position: "Senior Program Management Specialist", company: "European Medicines Agency", "company-link": "https://www.ema.europa.eu/en/homepage",
     content: "", linkedin: "https://www.linkedin.com/in/gianlucadianese/", twitter: "https://twitter.com/gdianese", domain: "", location: ""
     },
     { name: "Daniele Diodati", img: "https://www.fiware.org/wp-content/directories/people/images/200px/daniele-diodati.jpg", position: "ML Specialist", company: "TeamDev", "company-link": "https://www.teamdev.it/en/",
