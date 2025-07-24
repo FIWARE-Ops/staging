@@ -29,8 +29,8 @@ function extractPeople(input, all = false) {
     const people = [];
     input.forEach((item) => {
         const person = {
-            title: Parser.trim(item.Title).trim(),
-            name: item['Full Name'].trim(),
+            title: Parser.trim(item.Title).replaceAll(/[\n\r]+/g, ' ').trim(),
+            name: item['Full Name'].replaceAll(/[\n\r]+/g, ' ').trim(),
             surname: item['Surname Filters'],
             image: item['Profile Picture'] ? item['Profile Picture'].trim() : DEFAULT_IMAGE,
             company: item.Company || item.Organization || item.Organisation,
@@ -60,6 +60,7 @@ function extractPeople(input, all = false) {
             if (person.companyType !== '') {
                 person.companyType = ` ${person.companyType.trim()}`;
             }
+            person.company = person.company.replaceAll(/[\n\r]+/g, ' ').trim();
             person.img = 'https://www.fiware.org/wp-content/' + path.join(ASSETS_DIR, person.image || '');
             person.flagUrl = 'https://www.fiware.org/wp-content/' + path.join(FLAGS_DIR, person.flag || '');
             people.push(person);
