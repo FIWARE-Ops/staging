@@ -430,6 +430,23 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Egyptian Micro Solutions – EMS",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/ems.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/ems.png' loading='lazy'/></picture></div></div>",
+					"<div class='org-name'>Egyptian Micro Solutions – EMS</div>",
+					"<div class='membership-type'>Gold</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://emsegypt.net/' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[31.32457,30.050815]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
 				"name": "Elliot Cloud",
 				"html": [
 					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/elliot-cloud.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/elliot-cloud.png' loading='lazy'/></picture></div></div>",
@@ -1595,6 +1612,23 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[-48.9819298,-28.1652563]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
+				"name": "City of Tulua",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/city-of-tulua.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-tulua.png' loading='lazy'/></picture></div></div>",
+					"<div class='org-name'>City of Tulua</div>",
+					"<div class='membership-type'>Gold SEU</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://tulua.gov.co/' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-76.198023,4.08613]
 			}
 		},
 		{
