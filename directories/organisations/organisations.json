@@ -243,6 +243,23 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Beyond Bar Code",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/bbcode.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/bbcode.png' loading='lazy'/></picture></div></div>",
+					"<div class='org-name'>Beyond Bar Code</div>",
+					"<div class='membership-type'>Gold</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.beyondbarcode.com/' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[4.366938,50.849268]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
 				"name": "Beyond Civic",
 				"html": [
 					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/beyond-civic.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/beyond-civic.png' loading='lazy'/></picture></div></div>",
@@ -955,6 +972,23 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Real Variable",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/real-variable.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/real-variable.png' loading='lazy'/></picture></div></div>",
+					"<div class='org-name'>Real Variable</div>",
+					"<div class='membership-type'>Gold</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.realvariable.com/' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-95.560831,29.77694]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
 				"name": "Seamless Middleware Technologies",
 				"html": [
 					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/seamware.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/seamware.png' loading='lazy'/></picture></div></div>",
@@ -1459,6 +1493,23 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[7.2147903,51.5379764]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
+				"name": "City of Horten",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/city-of-horten.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-horten.png' loading='lazy'/></picture></div></div>",
+					"<div class='org-name'>City of Horten</div>",
+					"<div class='membership-type'>Gold SEU</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.horten.kommune.no/' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[10.485029,59.415228]
 			}
 		},
 		{
