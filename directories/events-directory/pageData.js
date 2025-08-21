@@ -500,6 +500,16 @@ window.eventData = [
         "group": "Conference"
     },
     {
+        "id": "202509-gleif-global-vlei-hackathon-2025",
+        "title": "GLEIF Global vLEI Hackathon 2025",
+        "from": "2025-09-08T22:00:00.000Z",
+        "to": "2025-11-15T23:00:00.000Z",
+        "description": "GLEIF Global vLEI Hackathon 2025 — a worldwide challenge to create breakthrough solutions in digital organizational identity.",
+        "location": "Online",
+        "isAllDay": true,
+        "group": "Hackathon"
+    },
+    {
         "id": "202509-smart-country-convention",
         "title": "Smart Country Convention",
         "from": "2025-09-29T22:00:00.000Z",
