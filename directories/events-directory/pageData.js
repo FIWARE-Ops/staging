@@ -525,7 +525,7 @@ window.eventData = [
         "from": "2025-10-07T22:00:00.000Z",
         "to": "2025-10-08T22:00:00.000Z",
         "description": "The European Data Conference on Reference Data and Semantics.",
-        "location": "Charlemagne building Rue de la Loi 170, 1040 ",
+        "location": "Charlemagne Building Rue de la Loi 170, 1040 ",
         "isAllDay": true,
         "group": "Conference"
     },
