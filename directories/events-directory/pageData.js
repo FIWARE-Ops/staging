@@ -530,6 +530,16 @@ window.eventData = [
         "group": "Conference"
     },
     {
+        "id": "202510-fiware-training",
+        "title": "FIWARE Training",
+        "from": "2025-10-27T08:00:00.000Z",
+        "to": "2025-10-28T17:00:00.000Z",
+        "description": "Two-day FIWARE training at the 2nd International Conference on Digital Sovereignty 2025.",
+        "location": "Forskningsparken - Oslo Science Park Gaustadalléen 21 ",
+        "isAllDay": false,
+        "group": "Training"
+    },
+    {
         "id": "202511-smart-city-expo-world-congress",
         "title": "Smart City Expo World Congress",
         "from": "2025-11-04T08:00:00.000Z",
