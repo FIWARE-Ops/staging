@@ -38,7 +38,8 @@ function extractTrainings(input) {
             publish: Parser.boolean(item.Published)
         };
         if (poi.publish) {
-           poi.img = 'https://www.fiware.org/' + path.join(ASSETS_DIR, poi.image); 
+
+           poi.img = 'https://www.fiware.org/wp-content/' + path.join(ASSETS_DIR, poi.image); 
            poi.flagUrl = 'https://www.fiware.org/wp-content/' + path.join(FLAGS_DIR, poi.flag);
             
            trainings.push(poi);
