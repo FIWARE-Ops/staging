@@ -1,5 +1,5 @@
 {
-	"type":"FeatureCollection","name":"locations",
+	"type":"FeatureCollection","name":"trainings",
 	"features":[
 		{
 			"type":"Feature",

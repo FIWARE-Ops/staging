@@ -64,7 +64,7 @@ function generateGeoJSON(trainings) {
      const searchObj = Template.getSearchKeys(path.join(TRAININGS_DIR, 'trainings.json'));
     Template.write(path.join(TRAININGS_DIR, 'search.js'), path.join(TEMPLATE_PATH, 'search.hbs'), {
         keys: {
-            ihubs: Object.keys(searchObj)
+            trainings: Object.keys(searchObj)
         },
         data: searchObj
     });
