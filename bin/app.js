@@ -9,6 +9,7 @@ const PeopleFigures = require('./parsers/peopleFigures');
 const ImpactStories = require('./parsers/impactStories');
 const iHubs = require('./parsers/ihubs');
 const Locations = require('./parsers/locations');
+const Trainings = require('./parsers/trainings');
 const MainFigures = require('./parsers/mainFigures');
 const Marketing = require('./parsers/marketingToolbox');
 const OpenCalls = require('./parsers/openCalls');
@@ -191,7 +192,12 @@ switch (PROCESS) {
             return Locations.parse(Locations.file);
         });
         break;
-
+    // Create GeoJSON for trainings
+    case 'trainings':
+        Loader.load('trainings', Trainings.file).then(() => {
+            return Trainings.parse(Trainings.file);
+        });
+        break;
     case 'postinstall':
         const dir = path.join(__dirname, '../images');
         if (!fs.existsSync(dir)) {
@@ -216,7 +222,8 @@ switch (PROCESS) {
         touch(Webinars.file);
         touch(Agenda.file);
         touch(Sponsors.file);
-        touch(Locations.file)
+        touch(Locations.file);
+        touch(Trainings.file)
         break;
 
     default:

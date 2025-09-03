@@ -51,6 +51,7 @@
     "team": "PROCESS=people PAGE=team npm start",
     "tools": "PROCESS=marketing npm start",
     "tsc": "PROCESS=people PAGE=tsc npm start",
+    "trainings": "PROCESS=trainings npm start",
     "webinars": "PROCESS=webinars npm start",
     "postinstall": "PROCESS=postinstall npm start"
   },
