@@ -132,12 +132,12 @@
 		{
 			"type":"Feature",
 			"properties":{
-				"name": "Make IT Africa",
+				"name": "Make IT Africa (West)",
 				"city": "Dakar",
 				"html": [
 					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/directories/trainings/images/rabat-hotel-sofitel.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/directories/trainings/images/rabat-hotel-sofitel.png' loading='lazy'/></picture></div></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Dakar</h3><img alt='Senegal' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Senegal.png' style='margin-left: auto;'/></div>",
-					"<div class='ihub-name'>Make IT Africa</div>"
+					"<div class='ihub-name'>Make IT Africa (West)</div>"
 				]
 			},
 			"geometry":{
@@ -148,12 +148,12 @@
 		{
 			"type":"Feature",
 			"properties":{
-				"name": "Make IT Africa",
+				"name": "Make IT Africa (East)",
 				"city": "Nairobi",
 				"html": [
 					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/directories/trainings/images/rabat-hotel-marriott.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/directories/trainings/images/rabat-hotel-marriott.png' loading='lazy'/></picture></div></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Nairobi</h3><img alt='Kenya' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Kenya.png' style='margin-left: auto;'/></div>",
-					"<div class='ihub-name'>Make IT Africa</div>"
+					"<div class='ihub-name'>Make IT Africa (East)</div>"
 				]
 			},
 			"geometry":{
@@ -180,12 +180,12 @@
 		{
 			"type":"Feature",
 			"properties":{
-				"name": "CENI",
+				"name": "CENI FIWARE Training",
 				"city": "Tunis",
 				"html": [
 					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/directories/trainings/images/rabat-hotel-braat.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/directories/trainings/images/rabat-hotel-braat.png' loading='lazy'/></picture></div></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Tunis</h3><img alt='Tunisia' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Tunisia.png' style='margin-left: auto;'/></div>",
-					"<div class='ihub-name'>CENI</div>"
+					"<div class='ihub-name'>CENI FIWARE Training</div>"
 				]
 			},
 			"geometry":{
@@ -212,12 +212,12 @@
 		{
 			"type":"Feature",
 			"properties":{
-				"name": "XAMK",
+				"name": "XAMK FIWARE Fest",
 				"city": "Mikkeli",
 				"html": [
 					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/directories/trainings/images/rabat-aeroport.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/directories/trainings/images/rabat-aeroport.png' loading='lazy'/></picture></div></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Mikkeli</h3><img alt='Finland' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>",
-					"<div class='ihub-name'>XAMK</div>"
+					"<div class='ihub-name'>XAMK FIWARE Fest</div>"
 				]
 			},
 			"geometry":{
