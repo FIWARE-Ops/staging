@@ -7,7 +7,7 @@
 				"name": "6th FIWARE Global Summit",
 				"city": "Genoa",
 				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/directories/trainings/images/rabat-um6p.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/directories/trainings/images/rabat-um6p.png' loading='lazy'/></picture></div></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/directories/trainings/images.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/directories/trainings/images' loading='lazy'/></picture></div></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Genoa</h3><img alt='Italy' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Italy.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>6th FIWARE Global Summit</div>"
 				]
@@ -23,7 +23,7 @@
 				"name": "4th FIWARE Global Summit",
 				"city": "Porto",
 				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/directories/trainings/images/gala-dinner-venue.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/directories/trainings/images/gala-dinner-venue.png' loading='lazy'/></picture></div></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/directories/trainings/images/porto.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/directories/trainings/images/porto.jpg' loading='lazy'/></picture></div></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Porto</h3><img alt='Portugal' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Portugal.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>4th FIWARE Global Summit</div>"
 				]
@@ -39,7 +39,7 @@
 				"name": "11th FIWARE Global Summit",
 				"city": "Rabat",
 				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/directories/trainings/images/hassan-tower.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/directories/trainings/images/hassan-tower.png' loading='lazy'/></picture></div></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/directories/trainings/images.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/directories/trainings/images' loading='lazy'/></picture></div></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>11th FIWARE Global Summit</div>"
 				]
@@ -55,7 +55,7 @@
 				"name": "8th FIWARE Global Summit",
 				"city": "Gran Canaria",
 				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/directories/trainings/images/mausoleum-mohammed-v.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/directories/trainings/images/mausoleum-mohammed-v.png' loading='lazy'/></picture></div></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/directories/trainings/images.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/directories/trainings/images' loading='lazy'/></picture></div></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Gran Canaria</h3><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>8th FIWARE Global Summit</div>"
 				]
@@ -71,7 +71,7 @@
 				"name": "7th FIWARE Global Summit",
 				"city": "Berlin",
 				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/directories/trainings/images/kasbah-des-oudayas.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/directories/trainings/images/kasbah-des-oudayas.png' loading='lazy'/></picture></div></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/directories/trainings/images/berlin.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/directories/trainings/images/berlin.jpg' loading='lazy'/></picture></div></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Berlin</h3><img alt='Germany' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>7th FIWARE Global Summit</div>"
 				]
@@ -87,7 +87,7 @@
 				"name": "10th FIWARE Global Summit",
 				"city": "Naples",
 				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/directories/trainings/images/chellah.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/directories/trainings/images/chellah.png' loading='lazy'/></picture></div></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/directories/trainings/images/naples.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/directories/trainings/images/naples.jpg' loading='lazy'/></picture></div></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Naples</h3><img alt='Italy' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Italy.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>10th FIWARE Global Summit</div>"
 				]
@@ -103,7 +103,7 @@
 				"name": "9th FIWARE Global Summit",
 				"city": "Vienna",
 				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/directories/trainings/images/royal-palace.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/directories/trainings/images/royal-palace.png' loading='lazy'/></picture></div></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/directories/trainings/images/vienna.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/directories/trainings/images/vienna.jpg' loading='lazy'/></picture></div></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Vienna</h3><img alt='Austria' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Austria.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>9th FIWARE Global Summit</div>"
 				]
@@ -119,7 +119,7 @@
 				"name": "FIWARE Expert Bootcamp",
 				"city": "Malaga",
 				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/directories/trainings/images/rabat-medina.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/directories/trainings/images/rabat-medina.png' loading='lazy'/></picture></div></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/directories/trainings/images/malaga.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/directories/trainings/images/malaga.jpg' loading='lazy'/></picture></div></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Malaga</h3><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>FIWARE Expert Bootcamp</div>"
 				]
@@ -135,7 +135,7 @@
 				"name": "Make IT Africa",
 				"city": "Dakar",
 				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/directories/trainings/images/rabat-hotel-sofitel.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/directories/trainings/images/rabat-hotel-sofitel.png' loading='lazy'/></picture></div></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/directories/trainings/images.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/directories/trainings/images' loading='lazy'/></picture></div></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Dakar</h3><img alt='Senegal' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Senegal.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>Make IT Africa</div>"
 				]
@@ -151,7 +151,7 @@
 				"name": "Make IT Africa",
 				"city": "Nairobi",
 				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/directories/trainings/images/rabat-hotel-marriott.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/directories/trainings/images/rabat-hotel-marriott.png' loading='lazy'/></picture></div></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/directories/trainings/images.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/directories/trainings/images' loading='lazy'/></picture></div></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Nairobi</h3><img alt='Kenya' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Kenya.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>Make IT Africa</div>"
 				]
@@ -167,7 +167,7 @@
 				"name": "University of Salento",
 				"city": "Lecce",
 				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/directories/trainings/images/rabat-hotel-le-diwan.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/directories/trainings/images/rabat-hotel-le-diwan.png' loading='lazy'/></picture></div></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/directories/trainings/images.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/directories/trainings/images' loading='lazy'/></picture></div></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Lecce</h3><img alt='Italy' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Italy.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>University of Salento</div>"
 				]
@@ -183,7 +183,7 @@
 				"name": "CENI FIWARE Training",
 				"city": "Tunis",
 				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/directories/trainings/images/rabat-hotel-braat.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/directories/trainings/images/rabat-hotel-braat.png' loading='lazy'/></picture></div></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/directories/trainings/images.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/directories/trainings/images' loading='lazy'/></picture></div></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Tunis</h3><img alt='Tunisia' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Tunisia.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>CENI FIWARE Training</div>"
 				]
@@ -199,7 +199,7 @@
 				"name": "IEEE Conference Smart Cities",
 				"city": "Kansas City",
 				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/directories/trainings/images/rabat-hotel-onomo.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/directories/trainings/images/rabat-hotel-onomo.png' loading='lazy'/></picture></div></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/directories/trainings/images.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/directories/trainings/images' loading='lazy'/></picture></div></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Kansas City</h3><img alt='USA' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_United-States.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>IEEE Conference Smart Cities</div>"
 				]
@@ -215,7 +215,7 @@
 				"name": "XAMK FIWARE Fest",
 				"city": "Mikkeli",
 				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/directories/trainings/images/rabat-aeroport.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/directories/trainings/images/rabat-aeroport.png' loading='lazy'/></picture></div></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/directories/trainings/images.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/directories/trainings/images' loading='lazy'/></picture></div></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Mikkeli</h3><img alt='Finland' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Finland.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>XAMK FIWARE Fest</div>"
 				]
@@ -231,7 +231,7 @@
 				"name": "La Case Agri",
 				"city": "Abidjan",
 				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/directories/trainings/images/rabat-trainstation.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/directories/trainings/images/rabat-trainstation.png' loading='lazy'/></picture></div></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/directories/trainings/images.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/directories/trainings/images' loading='lazy'/></picture></div></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Abidjan</h3><img alt='Côte d&#x27;Ivoire' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_IvoryCoast.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>La Case Agri</div>"
 				]
@@ -247,7 +247,7 @@
 				"name": "FIWARE Expert Bootcamp",
 				"city": "Madrid",
 				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/directories/trainings/images/le-m-hotel.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/directories/trainings/images/le-m-hotel.png' loading='lazy'/></picture></div></div>",
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/directories/trainings/images/madrid.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/directories/trainings/images/madrid.jpg' loading='lazy'/></picture></div></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Madrid</h3><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>FIWARE Expert Bootcamp</div>"
 				]
