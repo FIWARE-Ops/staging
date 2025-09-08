@@ -79,7 +79,7 @@ function createAnchor(data, type, index) {
 function createClass(data) {
     let result = '';
     const regex = /([^a-zA-Z0-9À-ÿ])/gi;
-    if (typeof data == 'object') {
+    if (typeof data === 'object') {
         data.forEach((element, i) => {
             if (i + 1 === data.length) {
                 result += `${element.toLowerCase().replace(regex, '-')}`;
@@ -171,7 +171,7 @@ function formatDateCal(date, time) {
         hour = 12 + parseInt(hour, 10);
     }
 
-    let minute = time.substring(time.indexOf(':') + 1, time.indexOf(':') + 3);
+    const minute = time.substring(time.indexOf(':') + 1, time.indexOf(':') + 3);
 
     return (
         new Date().getFullYear() +
@@ -201,14 +201,14 @@ function calendar(date, startTime, endTime) {
 }
 
 function listSpeakers(speakers) {
-    let list = _.map(speakers, function (speaker) {
+    const list = _.map(speakers, function (speaker) {
         return speaker.name;
     });
     return list.concat(',');
 }
 
 function includes(array, item) {
-    let items = array ? array: [];
+    const items = array ? array : [];
     return items.includes(item);
 }
 
@@ -275,12 +275,12 @@ function write(filename, template, input) {
     readTemplate(template, function (err, data) {
         if (!err) {
             const template = Handlebars.compile(data);
-
             const output = template(input);
-
             fs.ensureFileSync(filename);
             fs.writeFile(filename, output, function (err) {
-                if (err) return console.log(err);
+                if (err) {
+                    console.log(err);
+                }
             });
         } else {
             console.log(err);
@@ -353,7 +353,9 @@ function qrCodes(path, agenda) {
                 }
             },
             function (err) {
-                if (err) throw err;
+                if (err) {
+                    throw err;
+                }
             }
         );
     });

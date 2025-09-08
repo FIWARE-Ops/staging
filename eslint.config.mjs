@@ -18,7 +18,7 @@ export default [...compat.extends("tamia"), {
     },
 
     languageOptions: {
-        ecmaVersion: 2015,
+        ecmaVersion: 2018,
         sourceType: "module",
     },
 

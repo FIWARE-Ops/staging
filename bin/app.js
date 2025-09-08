@@ -198,7 +198,7 @@ switch (PROCESS) {
             return Trainings.parse(Trainings.file);
         });
         break;
-    case 'postinstall':
+    case 'postinstall': {
         const dir = path.join(__dirname, '../images');
         if (!fs.existsSync(dir)) {
             fs.mkdirSync(dir);
@@ -223,8 +223,9 @@ switch (PROCESS) {
         touch(Agenda.file);
         touch(Sponsors.file);
         touch(Locations.file);
-        touch(Trainings.file)
+        touch(Trainings.file);
         break;
+    }
 
     default:
         console.log('Unknown');

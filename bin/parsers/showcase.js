@@ -45,7 +45,6 @@ const path = require('path');
  * data object of product details for later use
  */
 function extractProductDetails(input) {
-    const images = [];
     const details = {
         powered: {},
         ready: {},
@@ -361,7 +360,9 @@ async function generateContent(optIn, products, type) {
             const text = await Downloader.getTextContent(item[1]);
 
             fs.writeFile(filename, text, function (err) {
-                if (err) return console.log(err);
+                if (err) {
+                    console.log(err);
+                }
             });
         } else {
             fs.rmSync(filename, {

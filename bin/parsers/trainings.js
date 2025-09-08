@@ -1,9 +1,7 @@
 const csv = require('csvtojson');
 const path = require('path');
 
-const Prettier = require('prettier');
 const Parser = require('../dataParser');
-const Sorter = require('../sort');
 const Template = require('../template');
 const Downloader = require('../downloader');
 const TEMPLATE_PATH = 'bin/templates/trainings/';
@@ -14,7 +12,6 @@ const FLAG_SIZE = { height: 120, width: 120 };
 const FLAGS_DIR = 'directories/people/images/flag';
 const DEFAULT_IMAGE = 'image-placeholder-16x9.png';
 const ASSETS_DIR = 'directories/trainings/images';
-
 
 // https://www.fiware.org/style/imgs/placeholder/image-placeholder-16x9.png
 
@@ -28,21 +25,19 @@ function extractTrainings(input) {
         const poi = {
             name: item.Name,
             city: item.City,
-            image: item.Image ? item.Image : `https://www.fiware.org/style/imgs/placeholder/${DEFAULT_IMAGE}`,
+            image: item.Image ? item.Image : '',
             website: item.Website,
             country: item.Country,
             flag: item['Country flag'],
             latitude: Number(item.Latitude),
             longitude: Number(item.Longitude),
-            image: item.Image,
             publish: Parser.boolean(item.Published)
         };
         if (poi.publish) {
+            poi.img = 'https://www.fiware.org/wp-content/' + path.join(ASSETS_DIR, poi.image);
+            poi.flagUrl = 'https://www.fiware.org/wp-content/' + path.join(FLAGS_DIR, poi.flag);
 
-           poi.img = 'https://www.fiware.org/wp-content/' + path.join(ASSETS_DIR, poi.image); 
-           poi.flagUrl = 'https://www.fiware.org/wp-content/' + path.join(FLAGS_DIR, poi.flag);
-            
-           trainings.push(poi);
+            trainings.push(poi);
         }
     });
 
@@ -52,17 +47,15 @@ function extractTrainings(input) {
     }
     console.log(trainings.length, ' trainings generated.');
 
-    return trainings.sort((a, b) => {
-        return (String(a.name));
+    return trainings.sort((a) => {
+        return String(a.name);
     });
 }
 
-
 function generateGeoJSON(trainings) {
-
     // Generate Map Data
     Template.write(path.join(TRAININGS_DIR, 'trainings.json'), path.join(TEMPLATE_PATH, 'map.hbs'), trainings);
-     const searchObj = Template.getSearchKeys(path.join(TRAININGS_DIR, 'trainings.json'));
+    const searchObj = Template.getSearchKeys(path.join(TRAININGS_DIR, 'trainings.json'));
     Template.write(path.join(TRAININGS_DIR, 'search.js'), path.join(TEMPLATE_PATH, 'search.hbs'), {
         keys: {
             trainings: Object.keys(searchObj)
@@ -72,7 +65,6 @@ function generateGeoJSON(trainings) {
 
     return trainings;
 }
-
 
 function uploadImages(trainings) {
     return Downloader.checkImages(trainings)
