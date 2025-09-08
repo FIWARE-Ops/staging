@@ -10,7 +10,7 @@
 				"html": [
 					"<div>{{#if image}}<div class='gridElementLogoContainer'><picture><source srcset='{{webp img}}' type='image/webp'/><img class='gridElementLogo' src='{{img}}' loading='lazy'/></picture></div>{{/if}}</div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>{{city}}</h3>{{#if country}}<img alt='{{country}}' class='flag' src='{{flagUrl}}' style='margin-left: auto;'/>{{/if}}</div>",
-					"<div class='ihub-name'>{{name}}</div>"
+					"<div class='ihub-name'>{{name}}</div>"{{#if (ne name2 '')}}, "<div class='ihub-name'>{{name2}}</div>"{{/if}}{{#if (ne name3 '')}}, "<div class='ihub-name'>{{name3}}</div>"{{/if}}
 				]
 			},
 			"geometry":{

@@ -11,7 +11,7 @@ const IMAGE_SIZE = { height: 201, width: 360 };
 const FLAG_SIZE = { height: 120, width: 120 };
 const FLAGS_DIR = 'directories/people/images/flag';
 const DEFAULT_IMAGE = 'image-placeholder-16x9.png';
-const ASSETS_DIR = 'directories/trainings/images';
+const ASSETS_DIR = 'directories/cities/images/thumb';
 
 // https://www.fiware.org/style/imgs/placeholder/image-placeholder-16x9.png
 
@@ -23,7 +23,9 @@ function extractTrainings(input) {
     const trainings = [];
     input.forEach((item) => {
         const poi = {
-            name: item.Name,
+            name: item['Event 1'],
+            name2: item['Event 2'],
+            name3: item['Event 3'],
             city: item.City,
             image: item.Image ? item.Image : '',
             website: item.Website,
@@ -46,9 +48,8 @@ function extractTrainings(input) {
         process.exit(1);
     }
     console.log(trainings.length, ' trainings generated.');
-
     return trainings.sort((a) => {
-        return String(a.name);
+        return String(a.city);
     });
 }
 
