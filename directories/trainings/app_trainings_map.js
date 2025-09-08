@@ -40,17 +40,12 @@ function horizontalScroll(popup) {
 
 function setBounds() {}
 
-const isIhub = ["==", ["get", "type"], "ihub"];
-const isCity = ["==", ["get", "type"], "city"];
-const isMember = ["==", ["get", "type"], "Organization"];
-
 function addSource(name, source) {
   map.addSource(name, {
     type: "geojson",
     data: source,
-
     cluster: true,
-    clusterRadius: 50,
+    clusterRadius: 20,
     clusterMaxZoom: 5,
   });
 }
@@ -65,28 +60,10 @@ function addLayer(source) {
     source,
     filter: ["!=", "cluster", true],
     paint: {
-      "circle-color": [
-        "case",
-        isCity,
-        "rgba(255,255,255,0.3)",
-        isIhub,
-        "rgba(93,192,207,.6)",
-        isMember,
-        "rgba(0,27,61,1)",
-        "rgba(93,192,207,.6)",
-      ],
-      "circle-stroke-width": ["case", isCity, 1, isIhub, 1.2, isMember, 1, 1.2],
-      "circle-stroke-color": [
-        "case",
-        isCity,
-        "rgba(255,255,255,1)",
-        isIhub,
-        "rgba(93,192,207,1)",
-        isMember,
-        "rgba(255,255,255,1)",
-        "rgba(93,192,207,1)",
-      ],
-      "circle-radius": ["case", isCity, 7, isIhub, 7, isMember, 7, 7],
+      "circle-color":  "rgba(93,192,207,.6)",
+      "circle-stroke-width": 1.2,
+      "circle-stroke-color":  "rgba(93,192,207,1)",
+      "circle-radius": 7
     },
   });
 
@@ -137,9 +114,6 @@ function initTextSearch() {
   // Search input
   document.querySelector("#searchInput").addEventListener("keyup", (e) => {
     const searchKeys = searchObj.keys[filter];
-
-    //console.log(searchKeys)
-
     let location = null;
     const reFuzzy = new RegExp(`.*${e.target.value}.*`, "gi");
     const reExact = new RegExp(`^${e.target.value}`, "gi");
