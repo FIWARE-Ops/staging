@@ -96,7 +96,7 @@ function addRelated(related) {
     prods.forEach((product, i) => {
       console.log(product);
       if (window.location.host !== "www.fiware.org") {
-        product.companyLink = `../../../showcase/product-details/${product.companyLink}`
+        product.companyLink = `../../../showcase/product-details/${product.companyLink}`;
       }
 
       const resource = `<a class="yarpp-thumbnail" rel="norewrite" href="${product.companyLink}" >

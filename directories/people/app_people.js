@@ -259,21 +259,20 @@ function initModal() {
     });
   });
 
-  
-    $(".f-cat a").on("click", function (e) {
-      const target = $(this.hash);
-      if (target.offset()) {
-        e.stopPropagation();
-        e.preventDefault();
-        $("html, body").animate(
-          {
-            scrollTop: target.offset().top - 120,
-          },
-          10,
-        );
-        return false;
-      }
-    });
+  $(".f-cat a").on("click", function (e) {
+    const target = $(this.hash);
+    if (target.offset()) {
+      e.stopPropagation();
+      e.preventDefault();
+      $("html, body").animate(
+        {
+          scrollTop: target.offset().top - 120,
+        },
+        10,
+      );
+      return false;
+    }
+  });
 }
 
 function scrollToView() {
@@ -516,7 +515,7 @@ function setDropdown() {
 
 function waitForData() {
   return new Promise((resolve) => {
-     function checkCondition() {
+    function checkCondition() {
       if (window.modalData) {
         resolve();
       } else {
@@ -528,7 +527,6 @@ function waitForData() {
 }
 
 function setupIsotope(e) {
-
   e.target.removeEventListener("html-included", setupIsotope, false);
   $(document).ready(function () {
     waitForData().then(() => {

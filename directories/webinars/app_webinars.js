@@ -511,7 +511,7 @@ function setDropdown() {
 
 function waitForData() {
   return new Promise((resolve) => {
-     function checkCondition() {
+    function checkCondition() {
       if (window.modalData) {
         resolve();
       } else {

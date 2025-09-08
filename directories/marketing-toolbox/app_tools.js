@@ -1,5 +1,3 @@
-
-
 // Returns the right classNames for isotope card filtering system
 function createClassFilter(data) {
   let filterString = "";

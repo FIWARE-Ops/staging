@@ -588,7 +588,7 @@ function setDropdown() {
 
 function waitForData() {
   return new Promise((resolve) => {
-     function checkCondition() {
+    function checkCondition() {
       if (window.modalData) {
         resolve();
       } else {
@@ -601,7 +601,7 @@ function waitForData() {
 
 function setupIsotope(e) {
   e.target.removeEventListener("html-included", setupIsotope, false);
-  
+
   $(document).ready(function () {
     waitForData().then(() => {
       $("#filteredCompanies").text(window.modalData.length);

@@ -7,14 +7,16 @@
     "node": ">=16"
   },
   "scripts": {
-    "lint": "eslint ./app_*.js ./**/app_*.js ./**/**/app_*.js --cache --fix"
+    "lint": "eslint ./app_*.js ./**/app_*.js ./**/**/app_*.js --cache --fix",
+    "prettier": "prettier --double-quote --write ./app_*.js ./**/app_*.js ./**/**/app_*.js"
   },
   "dependencies": {
   },
   "devDependencies": {
     "eslint": "^9.6.0",
     "eslint-config-tamia": "^8.1.3",
-    "eslint-plugin-prettier": "^5.1.3"
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "3.3.2"
   },
   "keywords": []
 }

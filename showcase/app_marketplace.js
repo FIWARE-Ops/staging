@@ -323,7 +323,7 @@ function printDomain(data) {
   }
 }
 
-function webp(url){
+function webp(url) {
   return url.substring(0, url.lastIndexOf(".")) + ".webp";
 }
 
@@ -478,7 +478,7 @@ document.querySelector("#orderByYear").addEventListener("click", (e) => {
 
 var filterObj = {};
 
-function updateFilterObj (targetIdKey, targetValue){
+function updateFilterObj(targetIdKey, targetValue) {
   let filterSafeValue;
   if (targetIdKey == "fiwareMember") {
     createUniqueListByFilter();
@@ -501,13 +501,13 @@ function updateFilterObj (targetIdKey, targetValue){
   filterObj[targetIdKey] = `${filterSafeValue}`;
   const filterValue = concatValues(filterObj);
   filterSetter(filterValue);
-};
+}
 
-function filterSetter (filterValue) {
+function filterSetter(filterValue) {
   msnry.arrange({
     filter: filterValue,
   });
-};
+}
 
 document.querySelector(".filters-container").addEventListener("change", (e) => {
   if (e.target.id === "searchInput") {
