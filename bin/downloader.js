@@ -17,10 +17,10 @@ function extractURL(input, key, target) {
     let data = null;
     input.forEach((item) => {
         const row = {
-            key: item['Key'],
-            target: item['File'],
-            url: item['URL'],
-            published: item['Published']
+            key: item.Key,
+            target: item.File,
+            url: item.URL,
+            published: item.Published
         };
 
         if (row.key === key && row.target === target) {
@@ -49,7 +49,7 @@ function urlExists(url, name) {
             process.stdout.write('↑');
             return resolve(name);
         } else if (name.match(DOWNLOAD)) {
-            fetch(url, { method: 'GET' }, 10000)
+            return fetch(url, { method: 'GET' }, 10000)
                 .then(function (resp) {
                     process.stdout.write(resp.ok ? '↓' : '?');
                     return resp.ok ? resp.blob() : null;
@@ -58,7 +58,7 @@ function urlExists(url, name) {
                     if (!blob) {
                         return resolve(name);
                     }
-                    var buffer = await blob.arrayBuffer();
+                    let buffer = await blob.arrayBuffer();
                     buffer = Buffer.from(buffer);
                     const file = path.join(__dirname, '../images', name);
                     fs.createWriteStream(file).write(buffer);
@@ -69,14 +69,14 @@ function urlExists(url, name) {
                     return resolve(null);
                 });
         } else {
-            fetch(url, { method: 'HEAD' }, 10000)
+            return fetch(url, { method: 'HEAD' }, 10000)
                 .then((data, err) => {
                     process.stdout.write(data.ok ? '.' : 'X');
                     return err ? reject(err) : resolve(data.status !== 200 ? name : null);
                 })
-                .catch((e) => {
+                .catch(() => {
                     console.log('timeout');
-                    resolve(null);
+                    return resolve(null);
                 });
         }
     });
@@ -111,7 +111,6 @@ async function validateUploads(items) {
 }
 
 async function checkAssets(items, image = 'img', base = 'image') {
-    const promises = [];
     const missing = [];
     let count = 0;
 
@@ -125,7 +124,7 @@ async function checkAssets(items, image = 'img', base = 'image') {
     console.log(`Checking ${uniqueItems.length} ${base}s`);
     console.log();
     for (const item of uniqueItems) {
-        let value = await urlExists(item[1], item[0]);
+        const value = await urlExists(item[1], item[0]);
         if (value) {
             missing.push(value);
         }
@@ -247,12 +246,12 @@ function downloadFile(file, url) {
  */
 function loadCSV(key, target) {
     return new Promise((resolve, reject) => {
-        checkFileExists('keys.csv').then((exists) => {
+        return checkFileExists('keys.csv').then((exists) => {
             if (!exists) {
                 return resolve();
             }
 
-            csv()
+            return csv()
                 .fromFile('keys.csv')
                 .then((input) => {
                     return extractURL(input, key, target);
@@ -274,32 +273,32 @@ function loadCSV(key, target) {
  *  Reads a file from a URL and downloads it into a folder
  */
 function downloadImages(image) {
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve) => {
         const file = image[0].replace(/[ ]/g, '_').replace(/[/&]/g, '');
         const options = {
             url: image[1],
-            dest: __dirname + '/../images/' + file,
+            dest: path.join(__dirname, '/../images/', file),
             extractFilename: false,
             timeout: 10000,
             maxRedirects: 3
         };
-        download
+        return download
             .image(options)
             .then(({ filename }) => {
                 try {
-                    sizeOf(filename, function (err, dimensions) {
+                    return sizeOf(filename, function (err, dimensions) {
                         const height = dimensions ? dimensions.height : '???';
                         const width = dimensions ? dimensions.width : '???';
-                        resolve(file + '\t' + height + '\t' + width);
+                        return resolve(file + '\t' + height + '\t' + width);
                     });
-                } catch {
-                    resolve(file + '\t0\t0');
+                } catch (e) {
+                    console.error(e);
+                    return resolve(file + '\t0\t0');
                 }
             })
             .catch((err) => {
                 console.error(file, err.message);
-                //reject(err);
-                resolve(file + '\t0\t0');
+                return resolve(file + '\t0\t0');
             });
     });
 }

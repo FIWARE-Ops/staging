@@ -32,7 +32,7 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
         const event = {
             priority: Number(item.Priority),
             track: item.Track,
-            moderated: item['Moderators'] !== '',
+            moderated: item.Moderators !== '',
             session: item.Session,
             prefix: item.Prefix,
             title: item.Title,
@@ -49,7 +49,7 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
         if (event.publish) {
             let names = _.uniq(
                 _.map(
-                    _.filter(item['Speakers'].split(','), function (name) {
+                    _.filter(item.Speakers.split(','), function (name) {
                         return name !== '';
                     }),
                     (name) => {
@@ -59,7 +59,7 @@ function extractAgenda(input, speakers, activeSpeakers, eventDates) {
             );
             event.moderators = _.uniq(
                 _.map(
-                    _.filter(item['Moderators'].split(','), function (name) {
+                    _.filter(item.Moderators.split(','), function (name) {
                         return name !== '';
                     }),
                     (name) => {
@@ -166,14 +166,14 @@ async function generateHTML(agenda, activeSpeakers, eventDates, style) {
             year: CurrentYear.toString().substr(-2),
             font: Template.font,
             style: style.agenda
-        }
+        };
         const stageItem = {
             output: path.join(AGENDA_DIR, `../stage/images/${filename}.png`),
             event,
             year: CurrentYear.toString().substr(-2),
             font: Template.font,
             style: style.stage
-        }
+        };
         Template.write(
             path.join(AGENDA_DIR, `../social-media/sessions/${filename}.html`),
             path.join(TEMPLATE_PATH, 'social-media.hbs'),
@@ -198,8 +198,16 @@ async function generateHTML(agenda, activeSpeakers, eventDates, style) {
     if (SOCIAL_IMAGES) {
         Template.emptyDir(path.join(AGENDA_DIR, '../stage/images'));
         Template.emptyDir(path.join(AGENDA_DIR, '../social-media/images'));
-        await Template.createSocialMediaImages(socialImages, path.join(TEMPLATE_PATH, 'social-media-image.hbs'), 'Social Media');
-        await Template.createSocialMediaImages(stageBackgrounds, path.join(TEMPLATE_PATH, 'stage-image.hbs'), 'Stage Background');
+        await Template.createSocialMediaImages(
+            socialImages,
+            path.join(TEMPLATE_PATH, 'social-media-image.hbs'),
+            'Social Media'
+        );
+        await Template.createSocialMediaImages(
+            stageBackgrounds,
+            path.join(TEMPLATE_PATH, 'stage-image.hbs'),
+            'Stage Background'
+        );
     }
     return agenda;
 }

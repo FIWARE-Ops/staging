@@ -281,8 +281,6 @@ function generateHTML(events, activeSpeakers) {
         );
     });
 
-
-
     Prettier.format(path.join(EVENTS_DIR, 'events.html'), { parser: 'html' });
     Prettier.format(path.join(EVENTS_DIR, 'pageData.js'), { parser: 'flow' });
     Prettier.format(path.join(EVENTS_DIR, 'event-details/pageData.js'), { parser: 'flow' });

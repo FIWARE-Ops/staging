@@ -29,7 +29,9 @@ function extractPeople(input, all = false) {
     const people = [];
     input.forEach((item) => {
         const person = {
-            title: Parser.trim(item.Title).replaceAll(/[\n\r]+/g, ' ').trim(),
+            title: Parser.trim(item.Title)
+                .replaceAll(/[\n\r]+/g, ' ')
+                .trim(),
             name: item['Full Name'].replaceAll(/[\n\r]+/g, ' ').trim(),
             surname: item['Surname Filters'],
             image: item['Profile Picture'] ? item['Profile Picture'].trim() : DEFAULT_IMAGE,
@@ -127,17 +129,13 @@ function generateHTML(people, page) {
 
     filterData.filters = _.sortBy(_.uniq(filters), Sorter.caseInsensitive);
 
-     let output = path.join(PEOPLE_DIR, page);
-     if (page === 'speakers') {
+    let output = path.join(PEOPLE_DIR, page);
+    if (page === 'speakers') {
         output = SPEAKERS_DIR;
-     }
+    }
 
     if (page === 'speakers') {
-        Template.write(
-            path.join(output, 'people.html'),
-            path.join(TEMPLATE_PATH, 'speaker-card.hbs'),
-            people
-        );
+        Template.write(path.join(output, 'people.html'), path.join(TEMPLATE_PATH, 'speaker-card.hbs'), people);
     } else {
         Template.write(path.join(output, 'people.html'), path.join(TEMPLATE_PATH, 'card.hbs'), people);
     }

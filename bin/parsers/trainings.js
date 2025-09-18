@@ -4,67 +4,71 @@ const path = require('path');
 const Parser = require('../dataParser');
 const Template = require('../template');
 const Downloader = require('../downloader');
-const Static = require('./locationsData');
-const TEMPLATE_PATH = 'bin/templates/locations/';
-const LOCATIONS_DIR = 'directories/fiware-summit/locations';
+const TEMPLATE_PATH = 'bin/templates/trainings/';
+const TRAININGS_DIR = 'directories/trainings';
 
 const IMAGE_SIZE = { height: 201, width: 360 };
 const FLAG_SIZE = { height: 120, width: 120 };
 const FLAGS_DIR = 'directories/people/images/flag';
 const DEFAULT_IMAGE = 'image-placeholder-16x9.png';
-const ASSETS_DIR = 'fiware-summit/rabat-2025/assets/images';
+const ASSETS_DIR = 'directories/cities/images/thumb';
 
 // https://www.fiware.org/style/imgs/placeholder/image-placeholder-16x9.png
 
 /**
  * Take the human readable column names from the spreadsheet and create a
- * data object of locations for later use
+ * data object of trainings for later use
  */
-function extractLocations(input) {
-    const locations = [];
+function extractTrainings(input) {
+    const trainings = [];
     input.forEach((item) => {
         const poi = {
-            name: item.Name,
+            name: item['Event 1'],
+            name2: item['Event 2'],
+            name3: item['Event 3'],
             city: item.City,
-            type: item.Type,
-            stars: parseInt(item.Stars),
-            image: item.Image ? item.Image : `https://www.fiware.org/style/imgs/placeholder/${DEFAULT_IMAGE}`,
+            image: item.Image ? item.Image : '',
             website: item.Website,
             country: item.Country,
             flag: item['Country flag'],
-            color: Static.getTrackColor(item.Type),
             latitude: Number(item.Latitude),
             longitude: Number(item.Longitude),
-            address: item.Address,
             publish: Parser.boolean(item.Published)
         };
         if (poi.publish) {
-            poi.img = 'https://www.fiware.org/' + path.join(ASSETS_DIR, poi.image);
+            poi.img = 'https://www.fiware.org/wp-content/' + path.join(ASSETS_DIR, poi.image);
             poi.flagUrl = 'https://www.fiware.org/wp-content/' + path.join(FLAGS_DIR, poi.flag);
 
-            locations.push(poi);
+            trainings.push(poi);
         }
     });
 
-    if (locations.length === 0) {
-        console.error('ERROR: No locations uploaded.');
+    if (trainings.length === 0) {
+        console.error('ERROR: No trainings uploaded.');
         process.exit(1);
     }
-    console.log(locations.length, ' locations generated.');
-
-    return locations.sort((a) => {
-        return String(a.name);
+    console.log(trainings.length, ' trainings generated.');
+    return trainings.sort((a) => {
+        return String(a.city);
     });
 }
 
-function generateGeoJSON(locations) {
+function generateGeoJSON(trainings) {
     // Generate Map Data
-    Template.write(path.join(LOCATIONS_DIR, 'locations.json'), path.join(TEMPLATE_PATH, 'map.hbs'), locations);
-    return locations;
+    Template.write(path.join(TRAININGS_DIR, 'trainings.json'), path.join(TEMPLATE_PATH, 'map.hbs'), trainings);
+    const searchObj = Template.getSearchKeys(path.join(TRAININGS_DIR, 'trainings.json'));
+    Template.write(path.join(TRAININGS_DIR, 'search.js'), path.join(TEMPLATE_PATH, 'search.hbs'), {
+        keys: {
+            trainings: Object.keys(searchObj)
+        },
+        data: searchObj
+    });
+
+    return trainings;
 }
 
-function uploadImages(locations) {
-    return Downloader.checkImages(locations)
+function uploadImages(trainings) {
+    return Downloader.checkImages(trainings)
         .then((missingImages) => {
             Downloader.logMissing(missingImages);
             return Downloader.validateUploads(missingImages);
@@ -76,8 +80,8 @@ function uploadImages(locations) {
         });
 }
 
-function uploadFlags(locations) {
-    return Downloader.checkImages(locations, 'flagUrl', 'flag')
+function uploadFlags(trainings) {
+    return Downloader.checkImages(trainings, 'flagUrl', 'flag')
         .then((missingImages) => {
             Downloader.logMissing(missingImages);
             return Downloader.validateUploads(missingImages);
@@ -90,27 +94,27 @@ function uploadFlags(locations) {
 }
 
 /**
- * Read in the locations file and output
+ * Read in the trainings file and output
  * HTML and JavaScript files
  */
 function parse(file) {
     return csv()
         .fromFile(file)
         .then((input) => {
-            return extractLocations(input);
+            return extractTrainings(input);
         })
-        .then((locations) => {
-            return generateGeoJSON(locations);
+        .then((trainings) => {
+            return generateGeoJSON(trainings);
         })
-        .then((locations) => {
+        .then((trainings) => {
             Downloader.emptyAssets();
-            return uploadImages(locations).then(() => {
-                return locations;
+            return uploadImages(trainings).then(() => {
+                return trainings;
             });
         })
-        .then((locations) => {
-            return uploadFlags(locations).then(() => {
-                return locations;
+        .then((trainings) => {
+            return uploadFlags(trainings).then(() => {
+                return trainings;
             });
         })
         .catch((e) => {
@@ -119,4 +123,4 @@ function parse(file) {
 }
 
 exports.parse = parse;
-exports.file = 'locations.csv';
+exports.file = 'trainings.csv';
