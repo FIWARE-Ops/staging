@@ -366,7 +366,7 @@
 					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/ihubs/images/fiware-zone.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/ihubs/images/fiware-zone.png' loading='lazy'/></picture></div></div>",
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Málaga</h3><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>FIWARE Zone</div>",
-					"<div class='ihub-type'>Premium</div>",
+					"<div class='ihub-type'>Basic</div>",
                 	"<div class='chip-domain'><ul class='chips'><li>AgriFood</li><li>Cities</li><li>Industry</li><li>Logistics</li></ul><span class='chips-gradient'></span></div>"
             		,
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://fiware.zone/' rel='noopener'><span class='icon website'></span><a class='cat-twitter' target='_blank' href='https://twitter.com/FIWAREZone' rel='noopener'><span class='icon twitter'></span></a><a class='cat-linkedin' target='_blank' href='https://www.linkedin.com/company/fiware-zone' rel='noopener'><span class='icon linkedin'></span></a></div>"
