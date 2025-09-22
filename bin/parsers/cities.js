@@ -18,7 +18,6 @@ const LOGOS_DIR = 'directories/cities/logo';
 const THUMB_SIZE = { height: 179, width: 320 };
 const IMAGE_SIZE = { height: 670, width: 1199 };
 const FLAG_SIZE = { height: 120, width: 120 };
-const DEFAULT_IMAGE = 'https://www.fiware.org/wp-content/directories/cities/images/city-default.png';
 
 function getExcerpt(item) {
     const text = Parser.textOnly(item['City Strategy Description']);

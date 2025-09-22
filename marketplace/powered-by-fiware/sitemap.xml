@@ -428,5 +428,13 @@
 			<loc>https://www.fiware.org/powered-by-fiware/senlab/fiwarebox.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
+		<url>
+			<loc>https://www.fiware.org/powered-by-fiware/agualytics-s-l/agualink.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>https://www.fiware.org/powered-by-fiware/libelium/iris360-platform.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
 </urlset>
 

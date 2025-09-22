@@ -1,9 +1,7 @@
 const csv = require('csvtojson');
 const path = require('path');
 
-const Prettier = require('prettier');
 const Parser = require('../dataParser');
-const Sorter = require('../sort');
 const Template = require('../template');
 const Downloader = require('../downloader');
 const Static = require('./locationsData');
@@ -15,7 +13,6 @@ const FLAG_SIZE = { height: 120, width: 120 };
 const FLAGS_DIR = 'directories/people/images/flag';
 const DEFAULT_IMAGE = 'image-placeholder-16x9.png';
 const ASSETS_DIR = 'fiware-summit/rabat-2025/assets/images';
-
 
 // https://www.fiware.org/style/imgs/placeholder/image-placeholder-16x9.png
 
@@ -39,14 +36,13 @@ function extractLocations(input) {
             latitude: Number(item.Latitude),
             longitude: Number(item.Longitude),
             address: item.Address,
-            image: item.Image,
             publish: Parser.boolean(item.Published)
         };
         if (poi.publish) {
-           poi.img = 'https://www.fiware.org/' + path.join(ASSETS_DIR, poi.image); 
-           poi.flagUrl = 'https://www.fiware.org/wp-content/' + path.join(FLAGS_DIR, poi.flag);
-            
-           locations.push(poi);
+            poi.img = 'https://www.fiware.org/' + path.join(ASSETS_DIR, poi.image);
+            poi.flagUrl = 'https://www.fiware.org/wp-content/' + path.join(FLAGS_DIR, poi.flag);
+
+            locations.push(poi);
         }
     });
 
@@ -56,19 +52,16 @@ function extractLocations(input) {
     }
     console.log(locations.length, ' locations generated.');
 
-    return locations.sort((a, b) => {
-        return (String(a.name));
+    return locations.sort((a) => {
+        return String(a.name);
     });
 }
 
-
 function generateGeoJSON(locations) {
-
     // Generate Map Data
     Template.write(path.join(LOCATIONS_DIR, 'locations.json'), path.join(TEMPLATE_PATH, 'map.hbs'), locations);
     return locations;
 }
-
 
 function uploadImages(locations) {
     return Downloader.checkImages(locations)

@@ -29,8 +29,10 @@ function extractPeople(input, all = false) {
     const people = [];
     input.forEach((item) => {
         const person = {
-            title: Parser.trim(item.Title).trim(),
-            name: item['Full Name'].trim(),
+            title: Parser.trim(item.Title)
+                .replaceAll(/[\n\r]+/g, ' ')
+                .trim(),
+            name: item['Full Name'].replaceAll(/[\n\r]+/g, ' ').trim(),
             surname: item['Surname Filters'],
             image: item['Profile Picture'] ? item['Profile Picture'].trim() : DEFAULT_IMAGE,
             company: item.Company || item.Organization || item.Organisation,
@@ -60,6 +62,7 @@ function extractPeople(input, all = false) {
             if (person.companyType !== '') {
                 person.companyType = ` ${person.companyType.trim()}`;
             }
+            person.company = person.company.replaceAll(/[\n\r]+/g, ' ').trim();
             person.img = 'https://www.fiware.org/wp-content/' + path.join(ASSETS_DIR, person.image || '');
             person.flagUrl = 'https://www.fiware.org/wp-content/' + path.join(FLAGS_DIR, person.flag || '');
             people.push(person);
@@ -126,17 +129,13 @@ function generateHTML(people, page) {
 
     filterData.filters = _.sortBy(_.uniq(filters), Sorter.caseInsensitive);
 
-     let output = path.join(PEOPLE_DIR, page);
-     if (page === 'speakers') {
+    let output = path.join(PEOPLE_DIR, page);
+    if (page === 'speakers') {
         output = SPEAKERS_DIR;
-     }
+    }
 
     if (page === 'speakers') {
-        Template.write(
-            path.join(output, 'people.html'),
-            path.join(TEMPLATE_PATH, 'speaker-card.hbs'),
-            people
-        );
+        Template.write(path.join(output, 'people.html'), path.join(TEMPLATE_PATH, 'speaker-card.hbs'), people);
     } else {
         Template.write(path.join(output, 'people.html'), path.join(TEMPLATE_PATH, 'card.hbs'), people);
     }

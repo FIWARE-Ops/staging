@@ -192,6 +192,23 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Bee2Solutions",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/bee2solutions.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/bee2solutions.png' loading='lazy'/></picture></div></div>",
+					"<div class='org-name'>Bee2Solutions</div>",
+					"<div class='membership-type'>Gold</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.bee2solutions.pt/' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-7.910753,38.548406]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
 				"name": "BeeZeeLinx",
 				"html": [
 					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/bee-zee-linx.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/bee-zee-linx.png' loading='lazy'/></picture></div></div>",
@@ -220,6 +237,23 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[2.1065588,41.354808]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
+				"name": "Beyond Bar Code",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/bbcode.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/bbcode.png' loading='lazy'/></picture></div></div>",
+					"<div class='org-name'>Beyond Bar Code</div>",
+					"<div class='membership-type'>Gold</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.beyondbarcode.com/' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[4.366938,50.849268]
 			}
 		},
 		{
@@ -407,6 +441,23 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[7.0495819,43.6277062]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
+				"name": "Egyptian Micro Solutions – EMS",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/ems.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/ems.png' loading='lazy'/></picture></div></div>",
+					"<div class='org-name'>Egyptian Micro Solutions – EMS</div>",
+					"<div class='membership-type'>Gold</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://emsegypt.net/' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[31.32457,30.050815]
 			}
 		},
 		{
@@ -921,6 +972,23 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Real Variable",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/real-variable.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/real-variable.png' loading='lazy'/></picture></div></div>",
+					"<div class='org-name'>Real Variable</div>",
+					"<div class='membership-type'>Gold</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.realvariable.com/' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-95.560831,29.77694]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
 				"name": "Seamless Middleware Technologies",
 				"html": [
 					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/seamware.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/seamware.png' loading='lazy'/></picture></div></div>",
@@ -1363,6 +1431,23 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Cáceres Provincial Council",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/caceres-provincial-council.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/caceres-provincial-council.png' loading='lazy'/></picture></div></div>",
+					"<div class='org-name'>Cáceres Provincial Council</div>",
+					"<div class='membership-type'>Gold SEU</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.dip-caceres.es/' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-6.282022,39.715031]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
 				"name": "CIRES",
 				"html": [
 					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/cires.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/cires.png' loading='lazy'/></picture></div></div>",
@@ -1425,6 +1510,23 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[7.2147903,51.5379764]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
+				"name": "City of Horten",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/city-of-horten.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-horten.png' loading='lazy'/></picture></div></div>",
+					"<div class='org-name'>City of Horten</div>",
+					"<div class='membership-type'>Gold SEU</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.horten.kommune.no/' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[10.485029,59.415228]
 			}
 		},
 		{
@@ -1578,6 +1680,23 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[-48.9819298,-28.1652563]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
+				"name": "City of Tulua",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/city-of-tulua.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/city-of-tulua.png' loading='lazy'/></picture></div></div>",
+					"<div class='org-name'>City of Tulua</div>",
+					"<div class='membership-type'>Gold SEU</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://tulua.gov.co/' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-76.198023,4.08613]
 			}
 		},
 		{
@@ -1867,23 +1986,6 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[7.2687886,51.4474276]
-			}
-		},
-		{
-			"type":"Feature",
-			"properties":{
-				"type": "Organization",
-				"name": "Cáceres Provincial Council",
-				"html": [
-					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/caceres-provincial-council.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/caceres-provincial-council.png' loading='lazy'/></picture></div></div>",
-					"<div class='org-name'>Cáceres Provincial Council</div>",
-					"<div class='membership-type'>Associate</div>",
-					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.dip-caceres.es/' rel='noopener'><span class='icon website'></span></div>"
-				]
-			},
-			"geometry":{
-				"type":"Point",
-				"coordinates":[-6.282022,39.715031]
 			}
 		},
 		{

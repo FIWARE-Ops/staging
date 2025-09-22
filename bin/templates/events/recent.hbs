@@ -3,7 +3,12 @@
     	 <a class="story-details" href="./?id={{yearMonth}}-{{createClass title}}" rel="noopener">
         <div class='card card-story card-primary card-hover card-body light'>
             <div>
-                <img decoding="async" class="hero-story" src="{{img}}" loading="lazy">
+                <picture>
+                    <source srcset="{{webp img}}"
+                        type="image/webp"/>
+                    <img class="hero-story"
+                        decoding="async" fetchpriority="high" src="{{img}}" loading="lazy"/>
+                </picture>
             </div>
             <div class="story-content">
                 <h3 class="card-story-title">{{title}}</h3>

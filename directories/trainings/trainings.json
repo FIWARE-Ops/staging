@@ -1,0 +1,405 @@
+{
+	"type":"FeatureCollection","name":"trainings",
+	"features":[
+		{
+			"type":"Feature",
+			"properties":{
+				"name": "La Case Agri",
+				"city": "Abidjan",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/cities/images/thumb/abidjan.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/thumb/abidjan.jpg' loading='lazy'/></picture></div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Abidjan</h3><img alt='Côte d&#x27;Ivoire' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_IvoryCoast.png' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>La Case Agri</div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-4.019603,5.3252258]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"name": "3rd FIWARE Global Summit",
+				"city": "Amsterdam",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/cities/images/thumb/amsterdam.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/thumb/amsterdam.jpg' loading='lazy'/></picture></div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Amsterdam</h3><img alt='Netherlands' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Netherlands.png' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>3rd FIWARE Global Summit</div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[4.9041389,52.3675734]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"name": "7th FIWARE Global Summit",
+				"city": "Berlin",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/cities/images/thumb/berlin.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/thumb/berlin.jpg' loading='lazy'/></picture></div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Berlin</h3><img alt='Germany' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Germany.png' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>7th FIWARE Global Summit</div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[13.404954,52.5200066]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"name": "University of Cairo",
+				"city": "Cairo",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/cities/images/thumb/cairo.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/thumb/cairo.jpg' loading='lazy'/></picture></div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Cairo</h3><img alt='Egypt' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Egypt.png' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>University of Cairo</div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[31.2357116,30.0444196]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"name": "Make IT Africa",
+				"city": "Dakar",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/cities/images/thumb/dakar.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/thumb/dakar.jpg' loading='lazy'/></picture></div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Dakar</h3><img alt='Senegal' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Senegal.png' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>Make IT Africa</div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-17.4676861,14.716677]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"name": "6th FIWARE Global Summit",
+				"city": "Genoa",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/cities/images/thumb/genoa.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/thumb/genoa.jpg' loading='lazy'/></picture></div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Genoa</h3><img alt='Italy' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Italy.png' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>6th FIWARE Global Summit</div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[8.9347381,44.4071448]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"name": "8th FIWARE Global Summit",
+				"city": "Gran Canaria",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/cities/images/thumb/gran-canaria.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/thumb/gran-canaria.jpg' loading='lazy'/></picture></div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Gran Canaria</h3><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>8th FIWARE Global Summit</div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-15.5474373,27.9202202]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"name": "IEEE Conference Smart Cities",
+				"city": "Kansas City",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/cities/images/thumb/kansas-city.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/thumb/kansas-city.jpg' loading='lazy'/></picture></div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Kansas City</h3><img alt='USA' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_United-States.png' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>IEEE Conference Smart Cities</div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-94.5785667,39.0997265]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"name": "University of Salento",
+				"city": "Lecce",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/cities/images/thumb/lecce.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/thumb/lecce.jpg' loading='lazy'/></picture></div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Lecce</h3><img alt='Italy' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Italy.png' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>University of Salento</div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[18.174966,40.3515255]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"name": "Start-Up Weekend",
+				"city": "Lisbon",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/cities/images/thumb/lisbon.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/thumb/lisbon.jpg' loading='lazy'/></picture></div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Lisbon</h3><img alt='Portugal' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Portugal.png' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>Start-Up Weekend</div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-9.1393366,38.7222524]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"name": "Campus Party",
+				"city": "London",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/cities/images/thumb/london.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/thumb/london.jpg' loading='lazy'/></picture></div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>London</h3><img alt='United Kingdom' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_UnitedKingdom.png' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>Campus Party</div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-0.1275862,51.5072178]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"name": "FIWARE Expert Bootcamp",
+				"city": "Madrid",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/cities/images/thumb/madrid.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/thumb/madrid.jpg' loading='lazy'/></picture></div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Madrid</h3><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>FIWARE Expert Bootcamp</div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-3.7032905,40.41673]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"name": "5th FIWARE Global Summit",
+				"city": "Malaga",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/cities/images/thumb/malaga.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/thumb/malaga.jpg' loading='lazy'/></picture></div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Malaga</h3><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>5th FIWARE Global Summit</div>", "<div class='ihub-name'>FIWARE Expert Bootcamp</div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-4.425557,36.7178196]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"name": "Campus Party",
+				"city": "Mexico City",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/cities/images/thumb/mexico-city.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/thumb/mexico-city.jpg' loading='lazy'/></picture></div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Mexico City</h3><img alt='Mexico' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Mexico.png' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>Campus Party</div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-99.133208,19.4326077]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"name": "XAMK FIWARE Fest",
+				"city": "Mikkeli",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/cities/images/thumb/mikkeli.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/thumb/mikkeli.jpg' loading='lazy'/></picture></div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Mikkeli</h3><img alt='Finland' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Finland.png' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>XAMK FIWARE Fest</div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[27.2722598,61.6885477]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"name": "Make IT Africa",
+				"city": "Nairobi",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/cities/images/thumb/nairobi.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/thumb/nairobi.jpg' loading='lazy'/></picture></div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Nairobi</h3><img alt='Kenya' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Kenya.png' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>Make IT Africa</div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[36.8219462,-1.2920659]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"name": "10th FIWARE Global Summit",
+				"city": "Naples",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/cities/images/thumb/naples.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/thumb/naples.jpg' loading='lazy'/></picture></div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Naples</h3><img alt='Italy' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Italy.png' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>10th FIWARE Global Summit</div>", "<div class='ihub-name'>University of Naples Federico II</div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[14.26812,40.8517983]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"name": "Start-Up Weekend",
+				"city": "Nice",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/cities/images/thumb/nice.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/thumb/nice.jpg' loading='lazy'/></picture></div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Nice</h3><img alt='France' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_France.png' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>Start-Up Weekend</div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[7.2619532,43.7101728]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"name": "Start-Up Weekend",
+				"city": "Paris",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/cities/images/thumb/paris.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/thumb/paris.jpg' loading='lazy'/></picture></div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Paris</h3><img alt='France' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_France.png' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>Start-Up Weekend</div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[2.3513765,48.8575475]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"name": "4th FIWARE Global Summit",
+				"city": "Porto",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/cities/images/thumb/porto.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/thumb/porto.jpg' loading='lazy'/></picture></div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Porto</h3><img alt='Portugal' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Portugal.png' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>4th FIWARE Global Summit</div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-8.6291053,41.1579438]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"name": "11th FIWARE Global Summit",
+				"city": "Rabat",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/cities/images/thumb/rabat.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/thumb/rabat.jpg' loading='lazy'/></picture></div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Rabat</h3><img alt='Morocco' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Morocco.png' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>11th FIWARE Global Summit</div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-6.8538748,34.0083637]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"name": "Campus Party",
+				"city": "São Paulo",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/cities/images/thumb/sao-paulo.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/thumb/sao-paulo.jpg' loading='lazy'/></picture></div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>São Paulo</h3><img alt='Brazil' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Brazil.png' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>Campus Party</div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-46.6395571,-23.5557714]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"name": "CENI FIWARE Training",
+				"city": "Tunis",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/cities/images/thumb/tunis.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/thumb/tunis.jpg' loading='lazy'/></picture></div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Tunis</h3><img alt='Tunisia' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Tunisia.png' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>CENI FIWARE Training</div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[10.1815316,36.8064948]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"name": "Start-Up Weekend",
+				"city": "Valencia",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/cities/images/thumb/valencia.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/thumb/valencia.jpg' loading='lazy'/></picture></div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Valencia</h3><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>Start-Up Weekend</div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-0.3756348,39.4738338]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"name": "9th FIWARE Global Summit",
+				"city": "Vienna",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/cities/images/thumb/vienna.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/cities/images/thumb/vienna.jpg' loading='lazy'/></picture></div></div>",
+					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Vienna</h3><img alt='Austria' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Austria.png' style='margin-left: auto;'/></div>",
+					"<div class='ihub-name'>9th FIWARE Global Summit</div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[16.3713095,48.2080696]
+			}
+		}
+	]
+}

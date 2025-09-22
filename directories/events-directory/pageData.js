@@ -500,6 +500,16 @@ window.eventData = [
         "group": "Conference"
     },
     {
+        "id": "202509-gleif-global-vlei-hackathon-2025",
+        "title": "GLEIF Global vLEI Hackathon 2025",
+        "from": "2025-09-08T22:00:00.000Z",
+        "to": "2025-11-15T23:00:00.000Z",
+        "description": "GLEIF Global vLEI Hackathon 2025 — a worldwide challenge to create breakthrough solutions in digital organizational identity.",
+        "location": "Online",
+        "isAllDay": true,
+        "group": "Hackathon"
+    },
+    {
         "id": "202509-smart-country-convention",
         "title": "Smart Country Convention",
         "from": "2025-09-29T22:00:00.000Z",
@@ -515,9 +525,19 @@ window.eventData = [
         "from": "2025-10-07T22:00:00.000Z",
         "to": "2025-10-08T22:00:00.000Z",
         "description": "The European Data Conference on Reference Data and Semantics.",
-        "location": "Online",
+        "location": "Charlemagne Building Rue de la Loi 170, 1040 ",
         "isAllDay": true,
         "group": "Conference"
+    },
+    {
+        "id": "202510-fiware-training",
+        "title": "FIWARE Training",
+        "from": "2025-10-27T08:00:00.000Z",
+        "to": "2025-10-28T17:00:00.000Z",
+        "description": "Two-day FIWARE training at the 2nd International Conference on Digital Sovereignty 2025.",
+        "location": "Forskningsparken - Oslo Science Park Gaustadalléen 21 ",
+        "isAllDay": false,
+        "group": "Training"
     },
     {
         "id": "202511-smart-city-expo-world-congress",

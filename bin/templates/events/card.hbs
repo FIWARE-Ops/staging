@@ -14,6 +14,10 @@
         <h3 class="event-month">{{formatMonth shortDateStart}}</h3>
         {{#if (eq venueName '')}}
         <h3 class="online-event"{{#if (ne url '')}} data-url="{{onlineLink}}"{{/if}}{{#if (ne recording '')}} data-recording="{{recording}}"{{/if}}>Online</h3>
+        {{else}}
+        {{#if (ne onlineLink '')}}
+        <h3 class="online-event"{{#if (ne url '')}} data-url="{{onlineLink}}"{{/if}}{{#if (ne recording '')}} data-recording="{{recording}}"{{/if}}>Hybrid</h3>
+        {{/if}}
         {{/if}}
       </div>
       <div class="item-container">
