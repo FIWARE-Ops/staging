@@ -530,6 +530,16 @@ window.eventData = [
         "group": "Conference"
     },
     {
+        "id": "202510-data-for-public-good-symposium",
+        "title": "Data For Public Good Symposium",
+        "from": "2025-10-13T22:00:00.000Z",
+        "to": "2025-10-14T22:00:00.000Z",
+        "description": "The third edition of the Symposium on Data for Public Good",
+        "location": "Indian Institute of Science J N Tata Auditorium, National Science Seminar Complex, CV Raman Rd ",
+        "isAllDay": true,
+        "group": "Conference"
+    },
+    {
         "id": "202510-fiware-training",
         "title": "FIWARE Training",
         "from": "2025-10-27T08:00:00.000Z",
