@@ -530,6 +530,16 @@ window.eventData = [
         "group": "Conference"
     },
     {
+        "id": "202510-2025-hackathon-on-interoperability-of-digital-public-infrastructure",
+        "title": "2025 Hackathon on Interoperability of Digital Public Infrastructure",
+        "from": "2025-10-11T07:00:00.000Z",
+        "to": "2025-10-13T15:00:00.000Z",
+        "description": "The Hackathon on &quot;Interoperability of Digital Public Infrastructure",
+        "location": "Online",
+        "isAllDay": false,
+        "group": "Hackathon"
+    },
+    {
         "id": "202510-data-for-public-good-symposium",
         "title": "Data For Public Good Symposium",
         "from": "2025-10-13T22:00:00.000Z",
