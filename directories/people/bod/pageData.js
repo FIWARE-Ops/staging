@@ -2,7 +2,6 @@ var companies = [
         'Artech International',
         'Libelium',
         'Madinah Region Development Authority',
-        'MedITech',
         'NEC',
         'Telefonica',
         'Ubiwhere',
@@ -15,10 +14,8 @@ var companies = [
         'CSO',
         'Director',
         'Fellow',
-        'General Manager',
 ]; var countries = [
         'Belgium',
-        'Italy',
         'Japan',
         'Portugal',
         'Saudi Arabia',
@@ -35,10 +32,6 @@ var companies = [
     { name: "Rui Costa", img: "https://www.fiware.org/wp-content/directories/people/images/200px/rui-costa.jpg", position: "Chief Executive Officer", company: "Ubiwhere", "company-link": "https://www.ubiwhere.com/",
     content: "", linkedin: "https://www.linkedin.com/in/ruiarnaldo/", twitter: "", domain: "Gold", location: "Portugal"
     ,flag: "https://www.fiware.org/wp-content/directories/people/images/flag/flag_Portugal.png"
-    },
-    { name: "Angelo Giuliana", img: "https://www.fiware.org/wp-content/directories/people/images/200px/angelo-giuliana.jpg", position: "General Manager", company: "MedITech", "company-link": "https://meditech4.com/",
-    content: "Angelo Giuliana has many years of experience in commercial development and sales in IT companies of international scope, where he has held increasing managerial roles up to dealing with EMEA sales management. Giuliana has long-term experience in R&amp;D, has been a consultant to the European Commission for H2020 projects, and has been involved in innovation for some time. His vocation for technology transfer leads him to be a founding member of some innovative startups both in the ICT and manufacturing sectors. Angelo currently plays the role of General Manager of the MISE Competence Center for South Italy – Meditech. He graduated with a degree in Physics in 1982.", linkedin: "https://www.linkedin.com/in/angelogiuliana/", twitter: "https://twitter.com/dirgenmeditech", domain: "Gold", location: "Italy"
-    ,flag: "https://www.fiware.org/wp-content/directories/people/images/flag/flag_Italy.png"
     },
     { name: "Antonio Jara", img: "https://www.fiware.org/wp-content/directories/people/images/200px/antonio-jara.jpg", position: "Chief Scientific Officer", company: "Libelium", "company-link": "https://www.libelium.com/",
     content: "", linkedin: "https://www.linkedin.com/in/jara-libelium/", twitter: "https://twitter.com/antonio_jara", domain: "Gold", location: "Spain"
