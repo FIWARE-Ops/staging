@@ -336,5 +336,9 @@
 			<loc>https://www.fiware.org/fiware-ready/gabitel-soluciones-tecnicas--slu/accred.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
+		<url>
+			<loc>https://www.fiware.org/fiware-ready/surcontrol/dragsa.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
 </urlset>
 
