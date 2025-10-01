@@ -520,6 +520,16 @@ window.eventData = [
         "group": "Conference"
     },
     {
+        "id": "202510-german-indian-innovation-summit-2025",
+        "title": "German Indian Innovation Summit 2025",
+        "from": "2025-10-05T22:00:00.000Z",
+        "to": "2025-10-05T22:00:00.000Z",
+        "description": "Forging an Indo-European innovation corridor that will contribute to global prosperity and geopolitical stability.",
+        "location": "AXICA Congress and Convention Center Pariser Platz 3, 10117 ",
+        "isAllDay": true,
+        "group": "Summit"
+    },
+    {
         "id": "202510-endorse-2025",
         "title": "ENDORSE 2025",
         "from": "2025-10-07T22:00:00.000Z",
