@@ -392,8 +392,7 @@ var modalData = [
         domain: "Data Connector",  
         technology: "",
         status: "Incubating",
-        gitHub: "https://github.com/N5GEH/n5geh.tools.entirety
-",
+        gitHub: "https://github.com/N5GEH/n5geh.tools.entirety",
         gitHubOrg: "https://github.com/N5GEH",
         docker: "ghcr.io/n5geh/n5geh.tools.entirety",
         quay: "",
