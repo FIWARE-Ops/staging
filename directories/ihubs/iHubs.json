@@ -136,7 +136,7 @@
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Córdoba</h3><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>Córdoba FIWARE Digital Transformation Lab</div>",
 					"<div class='ihub-type'>Advanced</div>",
-                	"<div class='chip-domain'><ul class='chips'><li>Cities</li><li>AgriFood</li><li>Livestock</li><li>Industry</li><li>Energy</li><li>Resources</li></ul><span class='chips-gradient'></span></div>"
+                	"<div class='chip-domain'><ul class='chips'><li>AgriFood</li><li>Cities</li><li>Energy</li><li>Industry</li><li>Livestock</li><li>Resources</li></ul><span class='chips-gradient'></span></div>"
             		,
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.uco.es/atdfiware' rel='noopener'><span class='icon website'></span></div>"
 				]
@@ -241,7 +241,7 @@
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Cáceres</h3><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>El Círculo - Red CIT Circular FAB</div>",
 					"<div class='ihub-type'>Incubated</div>",
-                	"<div class='chip-domain'><ul class='chips'><li>Territories</li><li>Cities</li><li>AgriFood</li><li>Tourism</li></ul><span class='chips-gradient'></span></div>"
+                	"<div class='chip-domain'><ul class='chips'><li>AgriFood</li><li>Cities</li><li>Territories</li><li>Tourism</li></ul><span class='chips-gradient'></span></div>"
             		,
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://elcirculo.circularfab.es/' rel='noopener'><span class='icon website'></span><a class='cat-twitter' target='_blank' href='https://x.com/circularfab' rel='noopener'><span class='icon twitter'></span></a><a class='cat-linkedin' target='_blank' href='https://www.linkedin.com/company/red-de-centros-circular-fab/' rel='noopener'><span class='icon linkedin'></span></a></div>"
 				]
@@ -367,7 +367,7 @@
 					"<div class='label-location' style='display: flex;flex-direction: row;'><h3>Badajoz Provincial Council</h3><img alt='Spain' class='flag' src='https://www.fiware.org/wp-content/directories/people/images/flag/flag_Spain.png' style='margin-left: auto;'/></div>",
 					"<div class='ihub-name'>FIWARE Space</div>",
 					"<div class='ihub-type'>Premium</div>",
-                	"<div class='chip-domain'><ul class='chips'><li>Territory</li><li>Energy</li><li>Tourism</li><li>AgriFood</li><li>Villages</li></ul><span class='chips-gradient'></span></div>"
+                	"<div class='chip-domain'><ul class='chips'><li>AgriFood</li><li>Energy</li><li>Territory</li><li>Tourism</li><li>Villages</li></ul><span class='chips-gradient'></span></div>"
             		,
 					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.fiware.space/' rel='noopener'><span class='icon website'></span><a class='cat-twitter' target='_blank' href='https://twitter.com/@fiwarespace' rel='noopener'><span class='icon twitter'></span></a><a class='cat-linkedin' target='_blank' href='https://in.linkedin.com/company/fiwarespace' rel='noopener'><span class='icon linkedin'></span></a></div>"
 				]
