@@ -16,7 +16,7 @@ jobs:
       uses: calibreapp/image-actions@main
       continue-on-error: true
       with:
-        githubToken: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         compressOnly: true
         ignorePaths: 'directories/**'
     - name: Check assets
