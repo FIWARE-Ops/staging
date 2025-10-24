@@ -575,7 +575,7 @@ window.eventData = [
         "from": "2025-10-27T23:00:00.000Z",
         "to": "2025-10-28T23:00:00.000Z",
         "description": "The EU–Indo-Pacific Digital Partnership Conference 2025 deepens cooperation between the European Union and Indo-Pacific countries in the field of digital technologies and their practical applications",
-        "location": "Shaw Foundation Alumni House, National University of Singapore 11 Kent Ridge Rd. Singapore 119077 ",
+        "location": "National University of Singapore 11 Kent Ridge Rd. Singapore 119077 ",
         "isAllDay": true,
         "group": "Conference"
     },
