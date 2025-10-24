@@ -12,13 +12,13 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v3
-    # - name: Compress Images
-    #  uses: calibreapp/image-actions@main
-    #  continue-on-error: true
-    #  with:
-    #    githubToken: ${{ secrets.GITHUB_TOKEN }}
-    #    compressOnly: true
-    #    ignorePaths: 'directories/**'
+    - name: Compress Images
+      uses: calibreapp/image-actions@main
+      continue-on-error: true
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        compressOnly: true
+        ignorePaths: 'directories/**'
     - name: Check assets
       continue-on-error: true
       run: |

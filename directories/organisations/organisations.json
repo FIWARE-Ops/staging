@@ -311,6 +311,23 @@
 			"type":"Feature",
 			"properties":{
 				"type": "Organization",
+				"name": "Cloud Data Engine",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/cloud-data-engine.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/cloud-data-engine.png' loading='lazy'/></picture></div></div>",
+					"<div class='org-name'>Cloud Data Engine</div>",
+					"<div class='membership-type'>Gold</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://www.clouddataengine.io/' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[2.302871197,48.76008229]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
 				"name": "Computate",
 				"html": [
 					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/computate.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/computate.png' loading='lazy'/></picture></div></div>",
@@ -339,6 +356,23 @@
 			"geometry":{
 				"type":"Point",
 				"coordinates":[23.7582872,61.5015345]
+			}
+		},
+		{
+			"type":"Feature",
+			"properties":{
+				"type": "Organization",
+				"name": "DAKA AMAL EL-BINAT for Information Technology (Datain)",
+				"html": [
+					"<div><div class='gridElementLogoContainer'><picture><source srcset='https://www.fiware.org/wp-content/directories/organisations/images/datain.webp' type='image/webp'/><img class='gridElementLogo' src='https://www.fiware.org/wp-content/directories/organisations/images/datain.png' loading='lazy'/></picture></div></div>",
+					"<div class='org-name'>DAKA AMAL EL-BINAT for Information Technology (Datain)</div>",
+					"<div class='membership-type'>Gold</div>",
+					"<div class='icons'><a class='cat-website' target='_blank' href='https://datain.sa/' rel='noopener'><span class='icon website'></span></div>"
+				]
+			},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[46.64198848,24.81842663]
 			}
 		},
 		{
