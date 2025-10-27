@@ -344,5 +344,9 @@
 			<loc>https://www.fiware.org/fiware-ready/enerclic-innovation-s-l-/ccmaster---public-light-management.html</loc>
 			<changefreq>monthly</changefreq>
 		</url>
+		<url>
+			<loc>https://www.fiware.org/fiware-ready/instrumentacion-y-control-del-sur-s-l-/dragsa-port.html</loc>
+			<changefreq>monthly</changefreq>
+		</url>
 </urlset>
 
