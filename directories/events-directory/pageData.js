@@ -580,6 +580,16 @@ window.eventData = [
         "group": "Conference"
     },
     {
+        "id": "202511-western-africa-digital-governance-forum",
+        "title": "Western Africa Digital Governance Forum",
+        "from": "2025-11-02T23:00:00.000Z",
+        "to": "2025-11-03T23:00:00.000Z",
+        "description": "The forum brings together official representatives from all West African countries working in the field of digital governance.",
+        "location": "Yar’Adua Centre Plot 1161 Memorial Drive, Wuse, 904101 ",
+        "isAllDay": true,
+        "group": "Conference"
+    },
+    {
         "id": "202511-smart-city-expo-world-congress",
         "title": "Smart City Expo World Congress",
         "from": "2025-11-04T08:00:00.000Z",
