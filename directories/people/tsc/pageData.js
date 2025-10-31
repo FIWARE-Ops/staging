@@ -8,10 +8,10 @@ var companies = [
         'FICODES',
         'FIWARE Foundation',
         'FIWARE iHubs Mission Support Committee',
-        'Khatib &amp; Alami',
         'NEC Lab Europe',
         'Orange',
         'Secmotic',
+        'Smart City Council MENA',
         'Telefonica',
         'Universidad Politécnica de Madrid',
 ]; var departments = [
@@ -22,6 +22,7 @@ var companies = [
 ]; var titles = [
         'Architect',
         'Assistant Professor',
+        'Chair',
         'Chairman FIWARE TSC',
         'Cloud Expert',
         'Co-Founder',
@@ -45,7 +46,7 @@ var companies = [
     { name: "Dr. Alberto Abella", img: "https://www.fiware.org/wp-content/directories/people/images/200px/alberto-abella.jpg", position: "Chief Operations Officer", company: "FIWARE Foundation e.V.", "company-link": "https://www.fiware.org/",
     content: "Alberto Abella is PhD in Business (Open data) and Telecommunications Engineer and Master in Total Quality Management, Business Administration and Business Organization. He works as a Data Modelling Expert and Technical Evangelist at FIWARE and currently is the responsible person for the smart data models initiative.", linkedin: "https://www.linkedin.com/in/albertoabella/", twitter: "https://twitter.com/aabella", domain: "", location: ""
     },
-    { name: "Houssam Almasri", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Senior Project Manager", company: "Khatib &amp; Alami", "company-link": "https://www.khatibalami.com/",
+    { name: "Houssam Almasri", img: "https://www.fiware.org/wp-content/directories/people/images/ico_user.png", position: "Chair", company: "Smart City Council MENA", "company-link": "",
     content: "", linkedin: "", twitter: "", domain: "", location: ""
     },
     { name: "Prof. Álvaro Alonso", img: "https://www.fiware.org/wp-content/directories/people/images/200px/alvaro-alonso.jpg", position: "Assistant Professor", company: "Universidad Politécnica de Madrid", "company-link": "https://www.upm.es/internacional",
