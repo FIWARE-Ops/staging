@@ -33,7 +33,6 @@ var companies = [
         'Manager',
         'Platform Expert',
         'President',
-        'Professor',
         'Researcher',
         'Smart Cities Specialist',
         'Software Engineer',
@@ -108,9 +107,6 @@ var companies = [
     },
     { name: "Manfredi Giuseppe Pistone", img: "https://www.fiware.org/wp-content/directories/people/images/200px/manfredi-pistone.jpg", position: "Technical Manager", company: "Engineering S.p.A.", "company-link": "https://www.eng.it/en/",
     content: "", linkedin: "https://www.linkedin.com/in/manfredi-pistone-224878119/", twitter: "", domain: "", location: ""
-    },
-    { name: "Prof. Joaquín Salvachúa", img: "https://www.fiware.org/wp-content/directories/people/images/200px/joaquin-salvachua.jpg", position: "Professor", company: "Universidad Politécnica de Madrid", "company-link": "https://www.upm.es/internacional",
-    content: "Prof. Joaquín Salvachúa received a master degree in Computer Science. He holds the Orange Chair for the “Science of Complex Networks” and the Kairos Chair on “Bank Middleware and Blockchain” at UPM and is a member of the UPM-ING and CyberAula groups. He has participated in several European research projects with several publications at international magazines, books and conferences. (https://orcid.org/0000-0002-7269-8079). Also have participated in several standardization activities, including been coauthor one RFC ( RFC 8802 ).His research focuses today on WebRTC, Cloud infrastructure, social graphs and recommendation, agile cloud infrastructures, P2P, DHT (Distributed HashTables), IOT, Non SQL Data Bases, Big data processing architectures, Identity Management and BlockChain distributed agreement algorithms.His teaching duties includes cloud computing, distributed application development, Databases, Web Full-stack development, Blockchain architecture, Data Engineering and Big data architecture and applications. Has been involved in the FIWARE Initiative since it started (2010) and he is architect and developer of several GE related to security, data persistence and Big Data analysis.", linkedin: "https://es.linkedin.com/in/jsalvachua", twitter: "https://twitter.com/jsalvachua", domain: "Associates", location: ""
     },
     { name: "Stefan Wiedemann", img: "https://www.fiware.org/wp-content/directories/people/images/200px/stefan-wiedemann.jpg", position: "Senior Software Engineer", company: "FICODES S.L.", "company-link": "https://www.ficodes.com/en/",
     content: "", linkedin: "https://www.linkedin.com/in/stefan-wiedemann-37a0ba13a/", twitter: "", domain: "", location: ""
