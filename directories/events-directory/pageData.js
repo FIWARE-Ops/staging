@@ -598,5 +598,15 @@ window.eventData = [
         "location": "Fira Barcelona – Gran Via Av. Joan Carles I, 64, 08908 ",
         "isAllDay": false,
         "group": "Conference"
+    },
+    {
+        "id": "202511-summit-on-european-digital-sovereignty",
+        "title": "Summit on European Digital Sovereignty",
+        "from": "2025-11-17T23:00:00.000Z",
+        "to": "2025-11-17T23:00:00.000Z",
+        "description": "The aim of the European Digital Summit is to further develop key aspects of an independent, secure and innovation-friendly digital future for Europe.",
+        "location": "EUREF Campus EUREF-Campus 3, 10829 ",
+        "isAllDay": true,
+        "group": "Summit"
     }
 ];
