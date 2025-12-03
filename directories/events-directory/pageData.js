@@ -608,5 +608,25 @@ window.eventData = [
         "location": "EUREF Campus EUREF-Campus 3, 10829 ",
         "isAllDay": true,
         "group": "Summit"
+    },
+    {
+        "id": "202511-semic-conference-2025",
+        "title": "SEMIC Conference 2025",
+        "from": "2025-11-25T08:00:00.000Z",
+        "to": "2025-11-26T16:00:00.000Z",
+        "description": "How interoperability directly supports EU digital goals, transforming visionary aspirations into tangible realities.",
+        "location": "Forum Copenhagen Julius Thomsens Pl. 1, 1925 Frederiksberg ",
+        "isAllDay": false,
+        "group": "Conference"
+    },
+    {
+        "id": "202512-promoting-digital-transformation---giz-senegal",
+        "title": "Promoting Digital Transformation - GIZ Senegal",
+        "from": "2025-12-07T23:00:00.000Z",
+        "to": "2025-12-11T23:00:00.000Z",
+        "description": "Workshop and Bilateral meetings with Government, National Statistic Institute, Start-ups",
+        "location": "GIZ Senegal Rue de Kolda ",
+        "isAllDay": true,
+        "group": "Workshop"
     }
 ];
