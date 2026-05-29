@@ -44,6 +44,7 @@ var titles = [
         'Austria',
         'Brazil',
         'Canada',
+        'China',
         'Colombia',
         'Finland',
         'France',
