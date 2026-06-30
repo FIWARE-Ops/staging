@@ -19,3 +19,5 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           target: ${{ secrets.SSH_DIR }}
           source: "directories/people/**"
+          strip_components: 2
+          debug: true
