@@ -26,15 +26,15 @@ jobs:
          $(cp -r ./assets/fiware-summit ./assets/directories/fiware-summit) || true
          $(cp -r ./assets/directories ./directories) || true
     - name: copy assets
-      uses: appleboy/scp-action@master
+      uses: Dylan700/sftp-upload-action@v1.2.3
       continue-on-error: true
       with:
-        host: ${{ secrets.HOST }}
+        server: ${{ secrets.HOST }}
         port: ${{ secrets.PORT }}
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.SSH_KEY }}
-        target: ${{ secrets.SSH_DIR }}
-        source: directories/**
+        uploads: |
+          directories/ => ${{ secrets.SSH_DIR }}/directories/
 
   refresh-page-data:
     name: Refresh Staging Files
