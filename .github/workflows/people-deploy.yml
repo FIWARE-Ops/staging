@@ -20,4 +20,5 @@ jobs:
           target: ${{ secrets.SSH_DIR }}
           source: "directories/people/**"
           strip_components: 2
+          tar_tmp_path: /tmp
           debug: true
