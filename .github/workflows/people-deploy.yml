@@ -18,4 +18,4 @@ jobs:
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.SSH_KEY }}
           uploads: |
-            directories/people/ => ${{ secrets.SSH_DIR }}/
+            directories/people/ => ${{ secrets.SSH_DIR }}/directories/people/
