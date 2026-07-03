@@ -19,3 +19,4 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           target: ${{ secrets.SSH_DIR }}
           source: "directories/**,directories/**/**,directories/**/**/**,!directories/people/**"
+          tar_tmp_path: /tmp/
