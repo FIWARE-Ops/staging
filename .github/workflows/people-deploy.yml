@@ -10,16 +10,26 @@ jobs:
     steps:
       - uses: actions/checkout@master
 
-      - name: copy file via ssh password
-        uses: appleboy/scp-action@master
+      # - name: copy file via ssh password
+      #   uses: appleboy/scp-action@master
+      #   with:
+      #     host: ${{ secrets.HOST }}
+      #     port: ${{ secrets.PORT }}
+      #     username: ${{ secrets.USERNAME }}
+      #     password: ${{ secrets.PASSWORD }}
+      #     # key: ${{ secrets.SSH_KEY }}
+      #     target: ${{ secrets.SSH_DIR }}
+      #     source: "directories/people/**"
+      #     strip_components: 2
+      #     tar_tmp_path
+      #     debug: true
+
+      - name: upload files via sftp
+        uses: Dylan700/sftp-upload-action@latest
         with:
-          host: ${{ secrets.HOST }}
+          server: ${{ secrets.HOST }}
           port: ${{ secrets.PORT }}
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
-          # key: ${{ secrets.SSH_KEY }}
-          target: ${{ secrets.SSH_DIR }}
-          source: "directories/people/**"
-          strip_components: 2
-          tar_tmp_path: /tmp/
-          debug: true
+          uploads: |
+            directories/people/ => ${{ secrets.SSH_DIR }}
