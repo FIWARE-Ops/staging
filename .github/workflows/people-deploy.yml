@@ -9,16 +9,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      
-      - name: copy file via ssh password (scp, not sftp subsystem)
-        uses: appleboy/scp-action@master
+
+      - name: upload files via ftps
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          host: ${{ secrets.HOST }}
-          port: ${{ secrets.PORT }}
+          server: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
-          target: ${{ secrets.SSH_DIR }}
-          source: "directories/people/**"
-          strip_components: 2
-          tar_tmp_path: /tmp
-          debug: true
+          protocol: ftps
+          port: 21
+          local-dir: "directories/people/"
+          server-dir: "${{ secrets.SSH_DIR }}/"
+          dangerous-clean-slate: false
