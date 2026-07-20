@@ -20,10 +20,11 @@ jobs:
           FTP_PASS: ${{ secrets.PASSWORD }}
           FTP_DIR: ${{ secrets.SSH_DIR }}
         run: |
-          lftp -u "$FTP_USER,$FTP_PASS" -e "
+          lftp -d -e "
             set ftp:ssl-force true;
             set ftp:ssl-protect-data true;
             set ssl:verify-certificate no;
-            mirror -R --verbose directories/people/ \"\$FTP_DIR\";
+            open -u \"$FTP_USER,$FTP_PASS\" \"$FTP_HOST\";
+            mirror -R --verbose directories/people/ \"$FTP_DIR\";
             bye
-          " "$FTP_HOST"
+          "
