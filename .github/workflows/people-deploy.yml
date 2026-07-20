@@ -10,21 +10,14 @@ jobs:
     steps:
       - uses: actions/checkout@master
 
-      - name: install lftp
-        run: sudo apt-get update && sudo apt-get install -y lftp
-
-      - name: upload via lftp (ftps, handles vsftpd TLS session reuse)
-        env:
-          FTP_HOST: ${{ secrets.HOST }}
-          FTP_USER: ${{ secrets.USERNAME }}
-          FTP_PASS: ${{ secrets.PASSWORD }}
-          FTP_DIR: ${{ secrets.SSH_DIR }}
-        run: |
-          lftp -d -e "
-            set ftp:ssl-force true;
-            set ftp:ssl-protect-data true;
-            set ssl:verify-certificate no;
-            open -u \"$FTP_USER,$FTP_PASS\" \"$FTP_HOST\";
-            mirror -R --verbose directories/people/ \"$FTP_DIR\";
-            bye
-          "
+      - name: upload files via ftp
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          protocol: ftp
+          port: 21
+          local-dir: "directories/people/"
+          server-dir: "${{ secrets.SSH_DIR }}/"
+          dangerous-clean-slate: false
