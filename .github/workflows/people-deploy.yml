@@ -8,16 +8,20 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - name: install lftp
+        run: sudo apt-get update && sudo apt-get install -y lftp
 
-      - name: upload files via ftps
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
-          server: ${{ secrets.HOST }}
-          username: ${{ secrets.USERNAME }}
-          password: ${{ secrets.PASSWORD }}
-          protocol: ftps
-          port: 21
-          local-dir: "directories/people/"
-          server-dir: "${{ secrets.SSH_DIR }}/"
-          dangerous-clean-slate: false
+      - name: upload via lftp (ftps, handles vsftpd TLS session reuse)
+        env:
+          FTP_HOST: ${{ secrets.HOST }}
+          FTP_USER: ${{ secrets.USERNAME }}
+          FTP_PASS: ${{ secrets.PASSWORD }}
+          FTP_DIR: ${{ secrets.SSH_DIR }}
+        run: |
+          lftp -u "$FTP_USER,$FTP_PASS" -e "
+            set ftp:ssl-force true;
+            set ftp:ssl-protect-data true;
+            set ssl:verify-certificate no;
+            mirror -R --verbose directories/people/ \"\$FTP_DIR\";
+            bye
+          " "$FTP_HOST"
