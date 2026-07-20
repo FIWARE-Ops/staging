@@ -16,8 +16,8 @@ jobs:
           host: ${{ secrets.HOST }}
           port: ${{ secrets.PORT }}
           username: ${{ secrets.USERNAME }}
-          # password: ${{ secrets.PASSWORD }}
-          key: ${{ secrets.SSH_KEY }}
+          password: ${{ secrets.PASSWORD }}
+          # key: ${{ secrets.SSH_KEY }}
           target: ${{ secrets.SSH_DIR }}
           source: "directories/people/**"
           strip_components: 2
