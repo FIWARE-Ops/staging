@@ -10,13 +10,12 @@ jobs:
     steps:
       - uses: actions/checkout@master
 
-      - name: upload files via sftp
-        uses: Dylan700/sftp-upload-action@latest
+      - name: upload files via scp
+        uses: appleboy/scp-action@master
         with:
-          server: ${{ secrets.HOST }}
+          host: ${{ secrets.HOST }}
           port: ${{ secrets.PORT }}
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
-          uploads: |
-            directories/people/ => ${{ secrets.SSH_DIR }}
-          debug: true
+          source: "directories/people/*"
+          target: ${{ secrets.SSH_DIR_PPL }}
