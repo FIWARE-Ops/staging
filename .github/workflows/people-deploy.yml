@@ -18,5 +18,5 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           uploads: |
-            directories/people/ => ${{ secrets.SSH_DIR_PPL }}
+            directories/people/ => ${{ secrets.SSH_DIR }}
           debug: true
