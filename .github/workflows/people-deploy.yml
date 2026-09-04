@@ -8,14 +8,15 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v4
 
-      - name: copy file via ssh password
-        uses: appleboy/scp-action@master
-        with:
-          host: ${{ secrets.HOST }}
-          port: ${{ secrets.PORT }}
-          username: ${{ secrets.USERNAME }}
-          key: ${{ secrets.SSH_KEY }}
-          target: ${{ secrets.SSH_DIR }}
-          source: "directories/people/**"
+      - name: Upload files via SCP
+        env:
+          SSHPASS: ${{ secrets.PASSWORD }}
+        run: |
+          sudo apt-get update && sudo apt-get install -y sshpass
+          sshpass -e scp -o StrictHostKeyChecking=no \
+            -o PreferredAuthentications=password \
+            -P "${{ secrets.PORT }}" \
+            -r directories/people/. \
+            "${{ secrets.USERNAME }}@${{ secrets.HOST }}:${{ secrets.SSH_DIR_PPL }}"

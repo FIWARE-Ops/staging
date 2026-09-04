@@ -16,6 +16,7 @@ jobs:
           host: ${{ secrets.HOST }}
           port: ${{ secrets.PORT }}
           username: ${{ secrets.USERNAME }}
-          key: ${{ secrets.SSH_KEY }}
+          password: ${{ secrets.PASSWORD }}
           target: ${{ secrets.SSH_DIR }}
           source: "marketplace/**,showcase/**"
+          tar_tmp_path: /tmp/
