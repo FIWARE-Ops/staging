@@ -628,5 +628,15 @@ window.eventData = [
         "location": "GIZ Senegal Rue de Kolda ",
         "isAllDay": true,
         "group": "Workshop"
+    },
+    {
+        "id": "202609-fiware-global-summit-2026",
+        "title": "FIWARE Global Summit 2026",
+        "from": "2026-09-08T22:00:00.000Z",
+        "to": "2026-09-09T22:00:00.000Z",
+        "description": "Two days of technical sessions, workshops, and deep community exchange await.",
+        "location": "Palais de l&#x27;Europe 8 Av. Boyer, 06500 ",
+        "isAllDay": true,
+        "group": "Summit"
     }
 ];
