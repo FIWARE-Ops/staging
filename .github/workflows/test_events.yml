@@ -1,0 +1,22 @@
+name: Publish PEOPLE pages to LIVE fiware.org
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Upload files via SCP
+        env:
+          SSHPASS: ${{ secrets.PASSWORD }}
+        run: |
+          sudo apt-get update && sudo apt-get install -y sshpass
+          sshpass -e scp -o StrictHostKeyChecking=no \
+            -o PreferredAuthentications=password \
+            -P "${{ secrets.PORT }}" \
+            -r assets/directories/. \
+            "${{ secrets.USERNAME }}@${{ secrets.HOST }}:${{ secrets.SSH_DIR }}"
