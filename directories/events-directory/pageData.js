@@ -638,5 +638,15 @@ window.eventData = [
         "location": "Palais de l&#x27;Europe 8 Av. Boyer, 06500 ",
         "isAllDay": true,
         "group": "Summit"
+    },
+    {
+        "id": "202610-workshop-10--architecting-ai-native-smart-cities--fiware-and-governed-intelligent-services--aiscity-",
+        "title": "Workshop 10: Architecting AI-Native Smart Cities: FIWARE and Governed Intelligent Services (AISCity)",
+        "from": "2026-10-26T23:00:00.000Z",
+        "to": "2026-10-26T23:00:00.000Z",
+        "description": "The workshop focuses on bridging proven open-source standards with emerging agentic paradigms.",
+        "location": "ICBAS - Edifício Abel Salazar Largo do Prof. Abel Salazar ",
+        "isAllDay": true,
+        "group": "Workshop"
     }
 ];
