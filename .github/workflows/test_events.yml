@@ -18,5 +18,5 @@ jobs:
           sshpass -e scp -o StrictHostKeyChecking=no \
             -o PreferredAuthentications=password \
             -P "${{ secrets.PORT }}" \
-            -r assets/directories/. \
+            -r assets/. \
             "${{ secrets.USERNAME }}@${{ secrets.HOST }}:${{ secrets.SSH_DIR }}"
