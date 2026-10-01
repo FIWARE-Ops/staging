@@ -1,4 +1,4 @@
-name: Publish PEOPLE pages to LIVE fiware.org
+name: Publish event details pages to LIVE fiware.org
 
 on:
   workflow_dispatch:
