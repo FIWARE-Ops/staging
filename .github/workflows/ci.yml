@@ -33,7 +33,7 @@ jobs:
           -o PreferredAuthentications=password \
           -P "${{ secrets.PORT }}" \
           -r directories/. \
-          "${{ secrets.USERNAME }}@${{ secrets.HOST }}:${{ secrets.SSH_DIR }}directories/"
+          "${{ secrets.USERNAME }}@${{ secrets.HOST }}:${{ secrets.SSH_DIR }}/directories/"
 
   refresh-page-data:
     name: Refresh Staging Files
