@@ -3,20 +3,160 @@ name: Publish event details pages to LIVE fiware.org
 on:
   workflow_dispatch:
 
+env:
+  LOCAL_DIR: assets/directories/events-directory
+  REMOTE_SUBDIR: directories/events-directory
+  CHECK_FILE: events.html   # file that must already exist in the remote folder
+
 jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
+    env:
+      S_HOST: ${{ secrets.HOST }}
+      S_PORT: ${{ secrets.PORT }}
+      S_USER: ${{ secrets.USERNAME }}
+      SSHPASS: ${{ secrets.PASSWORD }}
+      S_DIR: ${{ secrets.SSH_DIR }}
     steps:
       - uses: actions/checkout@v4
 
-      - name: Upload files via SCP
-        env:
-          SSHPASS: ${{ secrets.PASSWORD }}
+      - name: 1. Check secrets
         run: |
-          sudo apt-get update && sudo apt-get install -y sshpass
-          sshpass -e scp -o StrictHostKeyChecking=no \
-            -o PreferredAuthentications=password \
-            -P "${{ secrets.PORT }}" \
-            -r assets/directories/events-directory/. \
-            "${{ secrets.USERNAME }}@${{ secrets.HOST }}:${{ secrets.SSH_DIR }}/directories/events-directory"
+          missing=0
+          for v in S_HOST S_PORT S_USER SSHPASS S_DIR; do
+            if [ -z "${!v}" ]; then
+              echo "::error::Secret for $v is empty or not defined
+(HOST/PORT/USERNAME/PASSWORD/SSH_DI
+              missing=1
+            fi
+          done
+          [ "$missing" = 0 ] && echd"
+          exit $missing
+
+      - name: 2. List local files to upload
+        run: |
+          if [ ! -d "$LOCAL_DIR" ]; then
+            echo "::error::Local fost in the repo"
+            exit 1
+          fi
+          (cd "$LOCAL_DIR" && find . -type f | sed 's|^\./||' | sort) > "$RUNNER_TEMP/files.txt"
+          count=$(wc -l < "$RUNNER_
+          if [ "$count" -eq 0 ]; then
+            echo "::error::No files
+            exit 1
+          fi
+          echo "✅ $count file(s) to upload from $LOCAL_DIR:"
+          while read -r f; do
+            printf '   %-60s %8s bytes\n' "$f" "$(stat -c %s "$LOCAL_DIR/$f")"
+          done < "$RUNNER_TEMP/file
+
+      - name: 3. Install sshpass
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq sshpass
+
+      - name: 4. Check connection and remote folder
+        run: |
+          REMOTE="$S_DIR/$REMOTE_SUBDIR"
+
+          run_sftp() {
+            printf '%s\n' "$@" > "$
+            sshpass -e sftp -o StrictHostKeyChecking=no \
+              -o PreferredAuthenticmeout=20 \
+              -P "$S_PORT" -b "$RUNNER_TEMP/batch.txt" "$S_USER@$S_HOST" 2>&1
+          }
+          explain() {
+            case "$1" in
+              *"Permission denied"*)            echo "::error::$2: login rejected. Check
+USERNAME/PASSWORD secrets" ;;
+              *"timed out"*|*"refused"*)        echo "::error::$2: cannot reach server. Check
+HOST/PORT secrets or firewall" ;;
+              *"Could not resolve"*)            echo "::error::$2: host name not found. Check HOST
+secret" ;;
+              *"No such file"*|*"not found"*)   echo "::error::$2: path does not exist on the
+server" ;;
+              *)                                echo "::error::$2: unexpected error (see output
+above)" ;;
+            esac
+          }
+
+          echo "── 4a. Connecting…"
+          if ! out=$(run_sftp pwd); then echo "$out"; explain "$out" "Connection"; exit 1; fi
+          echo "✅ Connected. $(echo "$out" | grep -i 'working directory' || true)"
+
+          echo "── 4b. Checking SSH_DIR…"
+          if ! out=$(run_sftp "cd \"$S_DIR\""); then echo "$out"; explain "$out" "SSH_DIR"; exit 1;
+fi
+          echo "✅ SSH_DIR exists"
+
+          echo "── 4c. Checking SSH_DIR/$REMOTE_SUBDIR…"
+          if ! out=$(run_sftp "cd \"$REMOTE\""); then
+            echo "$out"; explain "$out" "SSH_DIR/$REMOTE_SUBDIR"
+            echo "Contents of SSH_DIR, to help find the right folder:"
+            run_sftp "ls -l \"$S_DIR\"" || true
+            exit 1
+          fi
+          echo "✅ SSH_DIR/$REMOTE_SUBDIR exists"
+
+          echo "── 4d. Checking that $CHECK_FILE is there…"
+          if ! out=$(run_sftp "ls -l \"$REMOTE/$CHECK_FILE\""); then
+            echo "$out"
+            echo "::error::Folder exists but $CHECK_FILE is missing: probably the wrong folder"
+            run_sftp "ls -l \"$REMOTE\"" || true
+            exit 1
+          fi
+          echo "✅ $CHECK_FILE found. This is the right folder:"
+          run_sftp "ls -l \"$REMOTE\"" | grep -v '^sftp>' || true
+
+      - name: 5. Upload files via SCP
+        run: |
+          if ! out=$(sshpass -e scp -o StrictHostKeyChecking=no \
+                -o PreferredAuthentications=password -o ConnectTimeout=20 \
+                -P "$S_PORT" \
+                -r "$LOCAL_DIR/." \
+                "$S_USER@$S_HOST:$S_DIR/$REMOTE_SUBDIR" 2>&1); then
+            echo "$out"
+            echo "::error::Upload failed (see message above)"
+            exit 1
+          fi
+          echo "✅ scp finished without errors"
+
+      - name: 6. Verify uploaded files
+        run: |
+          REMOTE="$S_DIR/$REMOTE_SUBDIR"
+          : > "$RUNNER_TEMP/batch.txt"
+          while read -r f; do
+            echo "-ls -l \"$REMOTE/$f\"" >> "$RUNNER_TEMP/batch.txt"
+          done < "$RUNNER_TEMP/files.txt"
+          listing=$(sshpass -e sftp -o StrictHostKeyChecking=no \
+            -o PreferredAuthentications=password -o ConnectTimeout=20 \
+            -P "$S_PORT" -b "$RUNNER_TEMP/batch.txt" "$S_USER@$S_HOST" 2>&1 || true)
+
+          {
+            echo "## Event assets upload"
+            echo ""
+            echo "| File | Local size | Remote size | Result |"
+            echo "|---|---:|---:|---|"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          failed=0
+          while read -r f; do
+            local_size=$(stat -c %s "$LOCAL_DIR/$f")
+            remote_size=$(echo "$listing" | grep -v '^sftp>' | awk -v f="$f" '
+              { n = $NF; if (substr(n, length(n) - length(f) + 1) == f) { print $5; exit } }')
+            if [ -z "$remote_size" ]; then
+              status="❌ missing on server"; failed=1
+            elif [ "$remote_size" != "$local_size" ]; then
+              status="❌ size differs"; failed=1
+            else
+              status="✅ ok"
+            fi
+            printf '%-60s local=%-8s remote=%-8s %s\n' "$f" "$local_size" "${remote_size:--}"
+"$status"
+            echo "| \`$f\` | $local_size | ${remote_size:--} | $status |" >> "$GITHUB_STEP_SUMMARY"
+          done < "$RUNNER_TEMP/files.txt"
+
+          if [ "$failed" = 1 ]; then
+            echo "::error::Some files are missing or incomplete on the server"
+            exit 1
+          fi
+          echo "✅ All files are on the server with the right size"
