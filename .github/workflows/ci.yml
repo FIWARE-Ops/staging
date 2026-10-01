@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
     - name: Compress Images
       uses: calibreapp/image-actions@main
       continue-on-error: true
@@ -23,30 +23,28 @@ jobs:
       continue-on-error: true
       run: |
          $(rm -rf directories) || true
-         $(cp -r ./assets/fiware-summit ./assets/directories/fiware-summit) || true
          $(cp -r ./assets/directories ./directories) || true
-    - name: copy assets
-      uses: appleboy/scp-action@master
-      continue-on-error: true
-      with:
-        host: ${{ secrets.HOST }}
-        port: ${{ secrets.PORT }}
-        username: ${{ secrets.USERNAME }}
-        key: ${{ secrets.SSH_KEY }}
-        target: ${{ secrets.SSH_DIR }}
-        source: directories/**
-        tar_tmp_path: /tmp/
+    - name: Upload assets via SCP
+      env:
+        SSHPASS: ${{ secrets.PASSWORD }}
+      run: |
+        sudo apt-get update && sudo apt-get install -y sshpass
+        sshpass -e scp -o StrictHostKeyChecking=no \
+          -o PreferredAuthentications=password \
+          -P "${{ secrets.PORT }}" \
+          -r directories/. \
+          "${{ secrets.USERNAME }}@${{ secrets.HOST }}:${{ secrets.SSH_DIR }}/directories"
 
   refresh-page-data:
     name: Refresh Staging Files
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
        path: main
     - name: Checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         path: staging
         ref: gh-pages
