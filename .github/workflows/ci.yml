@@ -12,6 +12,7 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v4
+
     - name: Compress Images
       uses: calibreapp/image-actions@main
       continue-on-error: true
@@ -19,11 +20,15 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         compressOnly: true
         ignorePaths: 'directories/**'
-    - name: Check assets
-      continue-on-error: true
+
+    - name: Prepare assets
       run: |
-         $(rm -rf directories) || true
-         $(cp -r ./assets/directories ./directories) || true
+        rm -rf upload
+        mkdir -p upload
+        cp -r assets/directories/. upload/
+        echo "Files to upload:"
+        find upload -type f
+
     - name: Upload assets via SCP
       env:
         SSHPASS: ${{ secrets.PASSWORD }}
@@ -32,7 +37,7 @@ jobs:
         sshpass -e scp -o StrictHostKeyChecking=no \
           -o PreferredAuthentications=password \
           -P "${{ secrets.PORT }}" \
-          -r directories/. \
+          -r upload/. \
           "${{ secrets.USERNAME }}@${{ secrets.HOST }}:${{ secrets.SSH_DIR }}/directories/"
 
   refresh-page-data:
@@ -42,7 +47,8 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
       with:
-       path: main
+        path: main
+
     - name: Checkout
       uses: actions/checkout@v4
       with:
@@ -50,22 +56,31 @@ jobs:
         ref: gh-pages
         persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
         fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
+
     - name: Create local changes
       run: |
         cp -R main/showcase staging
         cp -R main/marketplace staging
         cp -R main/directories staging
+
     - name: Commit files
-      continue-on-error: true
+      id: commit
       run: |
         cd staging
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add -A *
-        git commit -m "Update Staging" -a
+        git add -A
+        if git diff --cached --quiet; then
+          echo "No changes to commit"
+          echo "changed=false" >> "$GITHUB_OUTPUT"
+        else
+          git commit -m "Update Staging"
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+        fi
+
     - name: Push changes
+      if: steps.commit.outputs.changed == 'true'
       uses: ad-m/github-push-action@master
-      continue-on-error: true
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: gh-pages
